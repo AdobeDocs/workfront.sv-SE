@@ -8,7 +8,7 @@ description: Du kan importera anpassade fält med flera alternativ i Adobe Workf
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ Exempel på anpassade fält med flera alternativ är:
 * Flervalsmeny
 * Listruta
 * Kryssrutor
-* Alternativknappar.
+* Alternativknappar
 
 Dessa fält kan ibland ha många (ibland hundratals) alternativ. Om du importerar dem med snabbstartsfunktionen kan du som Workfront-administratör spara mycket tid och undvika fel.
 
-Du måste följa stegen som beskrivs i avsnitten nedan, i den här ordningen, för att importera anpassade fält med flera alternativ med en snabbstart:
+>[!IMPORTANT]
+>
+>Du måste följa stegen som beskrivs i avsnitten nedan, i den här ordningen, för att importera anpassade fält med flera alternativ med en snabbstart:
+>
+>1. Exportera befintliga anpassade data från Workfront (valfritt steg)
+>1. Exportera snabbstartsmallen för anpassade data
+>1. Fyll i Excel-kalkylbladet Kickstart
+>1. Överför Excel-kalkylbladet till Workfront
 
-1. Exportera befintliga anpassade data från Workfront (valfritt steg)
-1. Exportera snabbstartsmallen för anpassade data
-1. Fyll i Excel-kalkylbladet Kickstart
-1. Överför Excel-kalkylbladet till Workfront
+
 
 ## Exportera befintliga anpassade data från Workfront (valfritt steg)
 
@@ -115,15 +119,20 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
 1. Öppna Excel-kalkylbladet som du laddade ned i föregående avsnitt och lägg märke till ett antal blad. Varje ark representerar ett objekt i programmet.
 
-   Till exempel: **Parameter** (som avser anpassat fält), **Parameteralternativ**(som hänvisar till alternativet Anpassat fält ), **Kategori** (som hänvisar till Anpassat formulär).
+   >[!INFO]
+   >
+   >Till exempel: **Parameter** (som avser anpassat fält), **Parameteralternativ**(som hänvisar till alternativet Anpassat fält), **Kategori** (som hänvisar till Anpassat formulär).
+   >
+   >Du måste skriva objektens namn och attribut i det format som stöds av Workfront-databasen.
+   >
+   >Information om innebörden av dessa objekt finns i [Workfront ordlista](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Mer information om namnen på objekten i Workfront-databasen finns i [API Explorer](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   Du måste skriva objektens namn och attribut i det format som stöds av Workfront-databasen.
 
-   Information om innebörden av dessa objekt finns i [Workfront ordlista](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Mer information om namnen på objekten i Workfront-databasen finns i [API Explorer](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Kontrollera att följande information är korrekt formaterad:
@@ -164,7 +173,9 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
    * **`setName`** = ange namnet på de anpassade fälten som du vill att de ska visas i Workfront.
 
-      Vi kan till exempel importera två anpassade fält som kallas _Varumärke_, ett kryssrutefält och _Media_, ett alternativknappsfält.
+      >[!INFO]
+      >
+      >Vi kan till exempel importera två anpassade fält som kallas _Varumärke_, ett kryssrutefält och _Media_, ett alternativknappsfält.
 
    * The **`setName`** och **`setValue`** kolumner innehåller vanligtvis samma information och de bör återspegla de namn du vill ha i Workfront-gränssnittet för det nya fältet.
    Värdet för ett fält är det namn som visas i rapporter, till exempel, medan namnet visas i de anpassade formulär som är kopplade till objekt.
