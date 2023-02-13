@@ -1,0 +1,133 @@
+---
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+keywords: koppling
+navigation-topic: apps-and-their-modules
+title: HTTP &gt; Andra moduler
+description: The [!DNL Adobe Workfront Fusion] HTTP-appen innehåller olika moduler för kommunikation baserade på HTTP-protokollet (Hypertext Transfer Protocol). HTTP är grunden för datakommunikation för webben. Du kan använda modulerna för att hämta webbsidor och filer, anropa webhooks och API-slutpunkter och så vidare.
+author: Becky
+feature: Workfront Fusion
+exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
+source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 0%
+
+---
+
+# HTTP > Andra moduler
+
+>[!NOTE]
+>
+>[!UICONTROL Adobe Workfront Fusion] kräver [!UICONTROL Adobe Workfront Fusion] utöver en [!UICONTROL Adobe Workfront] licens.
+
+The [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] app innehåller olika moduler för kommunikation baserade på HTTP-protokollet (Hypertext Transfer Protocol). HTTP är grunden för datakommunikation för webben. Du kan använda modulerna för att hämta webbsidor och filer, anropa webhooks och API-slutpunkter och så vidare.
+
+Vilket som är rätt val för modulen beror på vilken autentiserings-/auktoriseringsmekanism som resursen du vill ha tillgång till. Följande är exempel på moduler
+
+* Gör en begäran:universell modul är främst avsedd för resurser som inte använder någon typ av autentisering/auktorisering
+* Gör en grundläggande autentiseringsbegäran:för resurser som använder [!DNL HTTP] Grundläggande autentisering (BA)
+* Gör en OAuth 2.0-begäran: för resurser som använder OAuth 2.0-auktoriseringsprotokoll
+* Gör en autentiseringsbegäran för klientcertifikat: för resurser som använder auktoriseringsprotokoll som kräver ett klientcertifikat.
+* Gör en API-nyckelauktoriseringsbegäran: för resurser som använder API-nycklar för auktorisering.
+
+## Begär moduler
+
+I följande artiklar finns instruktioner för en viss modul:
+
+* [[!UICONTROL HTTP] >[!UICONTROL Make a request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Make a Client Certificate Authorization request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Make an API Key Authorization request]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
+
+## Andra åtgärdsmoduler
+
+* [[!UICONTROL Get a File]](#get-a-file)
+* [[!UICONTROL Resolve a target URL]](#resolve-a-target-url)
+
+### [!UICONTROL Get a File]
+
+Den här åtgärdsmodulen hämtar en fil från den angivna URL:en. När filen har laddats ned kan du bearbeta filen ytterligare (mappa fildata) med hjälp av andra moduler i scenariot.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL] </td> 
+   <td> <p>Ange eller mappa URL:en för filen som du vill hämta. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Resolve a target URL]
+
+Den här åtgärdsmodulen åtgärdar en kedja av HTTP-omdirigeringar och returnerar en mål-URL.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL] </td> 
+   <td> <p>Ange eller mappa den URL som du vill matcha, till exempel en [!DNL bit.ly] URL.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method] </td> 
+   <td> <p>Välj om du vill använda [!UICONTROL HEAD] metoden [!UICONTROL GET] -metod.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Iteratormoduler
+
+### [!UICONTROL Retrieve headers]
+
+Den här modulen returnerar varje rubrik (namn och värde) från den angivna HTTP-modulen i ett separat paket.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
+   <td> <p> Markera modulen som du vill hämta rubriker från.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Genererar JSON-webbtoken (JWT)
+
+Du kan generera en JWT-token med hjälp av inbyggda funktioner:
+
+Sidhuvud:
+
+![](assets/jwt-header-350x19.png)
+
+Kod för kopiera&amp;klistra in:
+
+```
+{{replace(replace(replace(base64("{""alg"":""HS256"",""typ"":""JWT""}"); "/=/g"; emptystring); "/\+/g"; "-"); "/\//g"; "_")}}
+```
+
+Nyttolast:
+
+![](assets/jwt-payload-350x17.png)
+
+Kod för kopiera&amp;klistra in:
+
+```
+{{replace(replace(replace(base64("{""iss"":""key"",""exp"":" + (timestamp + 60) + "}"); "/=/g"; emptystring); "/\+/g"; "-"); "/\//g"; "_")}}
+```
+
+Token:
+
+![](assets/jwt-token-350x15.png)
+
+Kod för kopiera&amp;klistra in:
+
+```
+{{1.value}}.{{2.value}}.{{replace(replace(replace(sha256(1.value + "." + 2.value; "base64"; "secret"); "/=/g"; emptystring); "/\+/g"; "-"); "/\//g"; "_")}}
+```

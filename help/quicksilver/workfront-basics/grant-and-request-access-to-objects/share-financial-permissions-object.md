@@ -1,0 +1,180 @@
+---
+title: Dela ekonomiska behörigheter för ett objekt
+product-area: projects
+navigation-topic: grant-and-request-access-to-objects
+description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera ekonomiska data när du tilldelar åtkomstnivån. Mer information finns i Bevilja åtkomst till finansiella data.
+author: Alina
+feature: Get Started with Workfront
+exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
+source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 0%
+
+---
+
+# Dela ekonomiska behörigheter för ett objekt
+
+Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera ekonomiska data när du tilldelar åtkomstnivån. Mer information finns i [Bevilja åtkomst till finansiella uppgifter](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+Förutom den åtkomstnivå som användare har beviljats kan du även ge dem behörighet att visa eller hantera ekonomi för specifika projekt, uppgifter eller problem som du har tillgång till för delning.
+
+Mer information om vad användare på varje åtkomstnivå kan göra med ekonomiska data finns i avsnittet [Finansiella uppgifter](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) i artikeln [Tillgängliga funktioner för varje objekttyp](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+
+## Åtkomstkrav
+
+<!--drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard </p> 
+   Or
+   <p>Legacy license: Plan </p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions or higher to projects, tasks, and issues that include at least View Finance permissions</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+Du måste ha följande för att kunna dela finansiell information om objekt:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> <p>Alla </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td> <p>Visa eller öka åtkomst till projekt, uppgifter, ärenden och ekonomiska data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa behörigheter eller högre för projekt, uppgifter och utgåvor som innehåller minst Visa ekonomibehörigheter</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
+## Dela ett objekt och bevilja ekonomiska behörigheter
+
+Tänk på följande när du tilldelar ekonomiska behörigheter till objekt:
+
+* Du kan bevilja ekonomiska behörigheter för projekt, uppgifter och ärenden.
+* Behörigheter kan ärvas: Om du har behörigheten Visa ekonomi för ett projekt ärver du automatiskt behörigheten Visa ekonomi för aktiviteterna och problemen i projektet.
+
+Så här tilldelar du ekonomiska behörigheter till ett objekt:
+
+1. Gå till en uppgift, ett projekt eller ett problem som du vill dela med andra.
+1. Klicka på Mer-menyn nära objektets namn ![](assets/more-icon.png)och sedan klicka **Delning**.
+
+1. I **Ge `<Object name>` behörighet till** börjar skriva namnet på en användare, ett team, en roll, en grupp eller ett företag som du vill dela objektet med.
+
+   >[!TIP]
+   >
+   >Du kan bara dela ett objekt med aktiva användare, team, roller eller företag.
+
+1. Om en nedrullningsbar meny visas till höger om det namn du valde, klickar du på något av följande alternativ som är tillgängliga:
+
+   * **Se det**
+   * **Contribute to it**
+   * **Hantera det**
+
+      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+
+1. I samma nedrullningsbara meny klickar du på **Avancerade inställningar** gör du något av följande:
+
+   * Om du valde något av de tre alternativen i föregående steg bör du kontrollera att **Visa ekonomi** är markerat.
+   * Om du valde **Hantera ekonomi** i föregående steg, se till att **Hantera ekonomi** är markerat.
+
+1. Klicka **Spara**.
+
+## Ekonomisk behörighet för alla delningsnivåer
+
+Följande tabell visar vilka ekonomiska behörigheter användare får när du ger dem behörigheterna Visa, Contribute eller Hantera för objekt: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th><strong>Åtgärder</strong> </th> 
+   <th><strong>Hantera</strong> </th> 
+   <th><strong>Contribute</strong> </th> 
+   <th><strong>Visa</strong> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Hantera faktureringsposter</td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Hantera/visa rollfakturering och kostnadstariffer</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Hantera/visa användarfakturering och kostnadstariffer</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Visa ekonomi</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+  </tr> 
+  <tr> 
+   <td>Visa information efter kostnad i Resursplaneringsverktygen</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Budgetresurser i verktygen för resursplanering*</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Visa resurser i verktygen för resursplanering*</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kräver ytterligare åtkomst till resurshanteringen.
+
+Mer information om åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

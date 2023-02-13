@@ -1,0 +1,97 @@
+---
+content-type: release-notes
+navigation-topic: product-releases-archive
+title: Funktioner som blev tillgängliga i förhandsgranskningen 2016
+description: Följande funktioner blev tillgängliga i förhandsvisningsmiljön 2016. Dessa funktioner planeras att lanseras i produktionsmiljön med R1-versionen.
+author: Luke
+feature: Product Announcements
+exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
+source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 0%
+
+---
+
+# Funktioner som blev tillgängliga i förhandsgranskningen 2016
+
+Följande funktioner blev tillgängliga i förhandsvisningsmiljön 2016. Dessa funktioner planeras att lanseras i produktionsmiljön med R1-versionen.
+
+## Förbättringar av resursplanering
+
+Nu kan du se alla uppgifter i projekt som du är resurshanterare för, vilket gör att du kan få mer information när du fattar beslut om schemaläggning. 
+
+Allmän information om verktygen för att schemalägga resurser finns i [Kom igång med resursschemaläggning](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+
+Om du vill justera den information som visas på tidslinjen i tidslinjen skapar du ett filter enligt beskrivningen i [Filterinformation i området Schemaläggning](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+
+Förutom att visa uppgifter i de projekt du ansvarar för kan du använda tidslinjen för schemaläggning för att göra ändringar i resurstilldelningar. Mer information om hur du hanterar användartilldelningar på tidslinjen finns i [Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+
+## Hantera användarallokeringar på tidslinjen för schemaläggning
+
+När du schemalägger resurser med de nya verktygen för resursplanering kan du nu bestämma hur de planerade timmarna för en aktivitet eller utgåva ska fördelas mellan användarna. Du kan dela timmar mellan dagar i aktivitetens varaktighet och mellan tilldelade användare.
+
+Mer information finns i [Hantera användarallokeringar i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+
+## Användarallokeringar är inaktiverade som standard
+
+Skuggning av användarallokering på tidslinjen för schemaläggning när resurser nu schemaläggs är inaktiverat som standard.
+
+Allokeringsskuggning visades tidigare som standard och kunde inte inaktiveras.
+
+Mer information om hur du aktiverar alternativ för användartilldelning finns i [Hantera användarallokeringar i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [Hantera användarallokeringar i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+
+## Layoutmall avgör om den nya eller gamla kalendern visas i arbetsytan
+
+**Sandlåda för förhandsgranskning: 7 dec 2016, Tidig åtkomst: 14 dec 2016** 
+
+Den nya kalendern visas som standard i området Mitt arbete när ingen layoutmall används.
+
+Om du väljer det här alternativet kan du konfigurera den äldre kalendern som ska visas på arbetsytan Mitt genom att använda en layoutmall på arbetsytan Min arbetsyta som är konfigurerad att endast visa Genomför-datum för uppgifter och ärenden.
+
+När du använder den äldre kalendern i området Mitt arbete visas endast det arbete du har åtagit dig.
+
+Om du vill konfigurera Workfront så att den nya kalendern visas i området Mitt arbete när en layoutmall används, konfigurerar du layoutmallen så att den visar planerat slutförandedatum för uppgifter och ärenden och tilldelar sedan layoutmallen till rätt användare.
+
+Mer information om hur du konfigurerar layoutmallen finns i [Skapa och hantera layoutmallar](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Skapa och hantera layoutmallar](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+## Outlook 365 Beta
+
+**Beta: TBD; Allmän tillgänglighet: TBD**
+
+Du kan använda Workfront från Outlook för Office 365 enligt beskrivningen i följande avsnitt:
+
+* [Konfigurera Adobe Workfront för Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
+* &quot;Uppdatera ett befintligt objekt från ett e-postmeddelande med Outlook 365&quot;
+
+## Ändra ordning på kolumner i en lista med dra och släpp
+
+**Tidig åtkomst: 20 feb 2016**
+
+Du kan ändra ordningen på kolumnerna i en lista genom att dra en kolumn från en plats och släppa den i en annan.
+
+Detta är särskilt användbart när du visar Gantt-diagrammet och listvyn samtidigt och kolumnen som du vill visa inte visas på sidans vänstra sida. 
+
+Mer information finns i [Ändra kolumnbredd och -ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+
+## Uppdaterad Look and Feel i kontrollpanelslistan
+
+Nu när du visar en kontrollpanelslista är utseendet mer modernt och skalbart.
+
+Mer information om kontrollpaneler finns i [Skapa en instrumentpanel](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+
+## Kontrollera åtkomst till anpassade Forms
+
+**Sandlåda för förhandsgranskning: 23 jan 2016**
+
+Nu kan du styra vem som har åtkomst till ett anpassat formulär genom att ge åtkomst till enskilda användare, team, roller, grupper eller företag. 
+
+Före den här ändringen kunde du bara bevilja åtkomst till grupper.
+
+Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+
+## Integrering med Adobe Creative Cloud
+
+**Tillägget är tillgängligt för hämtning: April 2016**
+
+Workfront-tillägget för Adobe Creative Cloud är utformat för att du ska kunna spara och exportera material som du skapar i Creative Cloud till Workfront, vilket snabbar upp godkännande- och granskningsprocessen.

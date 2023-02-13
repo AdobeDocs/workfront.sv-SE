@@ -1,0 +1,89 @@
+---
+user-type: administrator
+product-area: system-administration;user-management
+navigation-topic: manage-group-statuses
+title: Ta bort en gruppstatus
+description: Som gruppadministratör kan du ta bort en status för en grupp som du hanterar om den inte är konfigurerad som obligatorisk eller låst på systemnivå, eller för en högre grupp i hierarkin.
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
+role: Admin
+exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 0%
+
+---
+
+# Ta bort en gruppstatus
+
+Som gruppadministratör kan du ta bort en status för en grupp som du hanterar om den inte är konfigurerad som obligatorisk eller låst på systemnivå, eller för en högre grupp i hierarkin.
+
+Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
+
+>[!NOTE]
+>
+>Du kan inte ta bort följande:
+>
+>* De inbyggda statusarna Planning, Current och Complete. Du kan uppdatera deras namn, redigera deras färger och låsa eller låsa upp dem, men de kan inte tas bort.
+>* Status som väntar på godkännande för minst ett objekt som är associerat med gruppen eller en av dess undergrupper.
+
+
+## Åtkomstkrav
+
+Du måste ha följande för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront-plan*</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
+
+## Ta bort en gruppstatus
+
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+
+1. Klicka på i den vänstra panelen **Grupper**.
+1. Klicka på namnet på den översta gruppen.
+1. Klicka på i den vänstra panelen **Status**.
+1. Håll markören över statusen som du vill ta bort i listan över statusar som visas och klicka sedan på **Ta bort** när den visas längst till höger.
+
+   ![](assets/hover-click-delete.jpg)
+
+1. I den ruta som visas väljer du en status för att ange en ersättningsstatus för objekt (projekt, uppgifter, utgåvor och godkännandeprocesser) som använder den status som du håller på att ta bort.
+
+   Endast statusvärden som motsvarar den status du håller på att ta bort är tillgängliga. Om du till exempel tar bort en status som är lika med Aktuell kan du bara se statusvärden som är lika med Aktuell.
+
+   Statusen som visas beror dessutom på om statusen du tar bort är olåst eller låst:
+
+   * **Om den är olåst**: Låsta och olåsta statuslägen som inte är dolda är tillgängliga.
+
+      Tillsammans med de statusvärden som skapades för undergruppen inkluderas statusvärden som ärvts från grupper på systemnivå och övernivå.
+
+   * **Om den är låst**: Något av följande är sant:
+
+      * Om det finns andra låsta, icke-dolda statusar är bara dessa tillgängliga.
+      * Om det inte finns någon låst status som inte är dold är standardstatusen för Workfront tillgänglig, även om den är dold eller olåst.
+
+         Mer information om standardstatusvärdena för Workfront finns i [Öppna listan över status för systemprojekt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Åtkomst till listan över status för systemaktivitet](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)och information om de fyra nödvändiga utgivningsstatusarna i [Åtkomst till listan över status för systemproblem](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+
+1. Klicka **Ta bort status**.
+
+   Om borttagen status var standardstatus för den typen i gruppen ersätts ersättningsstatusen.
+
+   Om den borttagna statusen har angetts som standardprojektstatus i projektinställningarna, ställs inställningen nu in på ersättningsstatus.
+
+## När en grupp tas bort
+
+När en grupp tas bort och ersätts av en annan grupp, läggs eventuella unika statusvärden som den borttagna gruppen hade till i statusen för ersättningsgruppen. Mer information finns i [Anpassade statusvärden i en grupp som har flyttats eller tagits bort](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md).

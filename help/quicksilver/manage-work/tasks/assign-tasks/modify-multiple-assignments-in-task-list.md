@@ -1,0 +1,176 @@
+---
+product-area: projects;user-management
+navigation-topic: assign-tasks
+title: Ändra flera användartilldelningar i en uppgiftslista
+description: När du hanterar uppgiftstilldelningar kan du ändra dem samtidigt för flera uppgifter samtidigt genom att använda gruppredigeringsfunktionen i en lista med uppgifter.
+author: Alina
+feature: Work Management
+exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
+source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 0%
+
+---
+
+# Ändra flera användartilldelningar i en uppgiftslista
+
+<!--
+<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
+-->
+
+När du hanterar uppgiftstilldelningar kan du ändra dem samtidigt för flera uppgifter samtidigt genom att använda gruppredigeringsfunktionen i en lista med uppgifter.
+
+Den här artikeln handlar om att ändra flera användartilldelningar för flera uppgifter i en uppgiftslista. Se även följande artiklar för att ändra uppdrag för flera uppgifter i andra områden:
+
+* Mer information om hur du ändrar tilldelningar för flera aktiviteter i området Schemaläggning finns i [Ändra flera användartilldelningar för aktiviteter i schemaläggningsområdena](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* Mer information om hur du tilldelar uppgifter med hjälp av belastningsutjämnaren finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+
+Mer information om hur du tilldelar en aktivitet till en resurs i en lista finns i [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Arbeta eller högre</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td> <p>Redigera åtkomst till projekt och uppgifter</p> <p>Visa eller ge användare högre åtkomst</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Contribute eller högre behörighet för uppgifter</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>When to modify user assignments on tasks</h2>
+<p>(NOTE: moved to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm) </p>
+<p>You might want to modify the user assignments for multiple tasks for a variety of reasons, including the following:</p>
+<ul>
+<li>Users join or leave your team</li>
+<li> <p>A user takes a vacation that extends beyond task due dates</p> <note type="note">
+When assigning users to work, their availability according to their schedules affects the Planned and Projected Dates of tasks. For information about schedules, see
+<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.
+</note> </li>
+<li>A specific role or user is set as the assignee for multiple tasks and you want to quickly modify all items to be assigned to a different user or role</li>
+</ul>
+<p><strong>How removing assignees affects task hours and allocation percentages</strong></p>
+<p>(NOTE: move to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm) </p>
+<p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
+<p>When you delete a user from a task with the following Duration&nbsp;Types:</p>
+<ul>
+<li> <p><strong>Simple:</strong> The planned hours assigned to that user are subtracted from the task's total planned hours.</p> <note type="important">
+<span class="s1">This could negatively affect your project plan because it changes the total planned hours for the task and the project.</span>
+</note> </li>
+<li><span class="s1"><strong>Effort Driven:</strong> The allocation percentage does not change for other users.</span> </li>
+<li><span class="s1"><strong>Calculated Assignment:</strong> The allocation percentages of other users are adjusted so that the total equals 100%.</span> </li>
+<li><span class="s1"><strong>Calculated Work:</strong> The allocation percentage does not change for other users.</span> </li>
+</ul>
+</div>
+-->
+
+## Ändra uppdrag för flera uppgifter
+
+1. Gå till listan som innehåller de uppgifter där du vill ändra tilldelningar.
+1. (Valfritt) Skapa ett filter som endast visar uppgifter som tilldelats den tilldelade personen och som du vill ändra.
+
+   Om ditt projekt till exempel innehåller en viss roll som standardtilldelare för flera uppgifter kan du skapa ett filter som bara visar uppgifter med den rollen som tilldelad. Sedan kan du ersätta rollen med en viss användare.
+
+   Mer information om hur du skapar ett filter finns i [Skapa eller redigera filter](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
+
+1. Om du vill filtrera efter en roll väljer du **Tilldelningsroller** och sedan klicka **ID**.
+
+   >[!TIP]
+   >
+   >Använd inte **Tilldelad till** fält. Detta söker bara efter den primära ägaren för uppgiften i stället för någon av rollerna som kan tilldelas dem.
+
+   eller
+
+   Om du vill filtrera efter en användare väljer du **Tilldelningsanvändare,** sedan klicka **ID.**
+
+   >[!TIP]
+   >
+   >Använd inte **Tilldelad till** fält. Detta söker bara efter den primära ägaren för uppgiften i stället för de användare som kan tilldelas till dem.
+
+1. Markera de uppgifter som du vill ändra uppdrag för och klicka sedan på **Redigera** icon ![](assets/edit-icon.png).
+
+   Sidan Redigera uppgifter visas. De objekt du redigerar visas i det övre vänstra hörnet på sidan.
+
+1. Gå till **Uppdrag** -avsnitt.
+1. Gör något av följande för att lägga till eller ta bort tilldelningar:
+
+   >[!IMPORTANT]
+   >
+   >Om du tar bort tilldelningar kan detta påverka aktivitetstimmar och allokeringsprocenttal. Mer information finns i avsnittet [Hur borttagning av tilldelningar påverkar aktivitetstimmar och allokeringsprocent](#how-removing-assignees-affects-task-hours-and-allocation-percentages) i den här artikeln.
+
+   * Så här lägger du till en ny tilldelad:
+
+      1. I **Uppdrag** avsnitt, markera **Tilldelad**.
+
+         Information som är vanlig för alla markerade uppgifter visas. Om till exempel samma användare tilldelas alla uppgifter visas den användaren i **Tilldelad** kolumn. Om information inte är vanlig för de markerade aktiviteterna visas ingen information.
+
+      1. Börja skriva namnet på en användare, roll eller team och markera det sedan när det visas i listan. Uppdraget läggs till och ersätter inte de aktuella tilldelningarna för de markerade aktiviteterna.
+      >[!TIP]
+      >
+      > * Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+      >   
+      > * När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+
+         > 
+         >   Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+         >   
+         >     * Tilldela om arbetsuppgiften till aktiva resurser.
+         >     * Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
+
+
+
+   * Så här tar du bort enskilda tilldelningar:
+
+      1. Klicka på **X-ikon** bredvid namnet på den tilldelare som du vill ta bort om den tilldelande visas i uppdragslistan.
+
+         eller
+
+         (Villkorligt) Om den tilldelade personen som du vill ta bort inte visas i avsnittet Uppdrag eftersom den som tilldelas endast är tilldelad vissa av de uppgifter som du har valt, klickar du på **Ta bort tilldelad** och börja skriva namnet på den som du vill ta bort och klicka sedan på namnet när det visas i listrutan.
+   * Så här tar du bort alla befintliga tilldelningar:
+
+      1. Klicka **Ta bort alla befintliga tilldelningar** och sedan klicka **Ja, ta bort alla tilldelningar**.
+
+         Detta tar inte bara bort vanliga tilldelningar (tilldelningar som visas i redigeringsdialogrutan) utan även alla tilldelningar för alla markerade uppgifter.
+      Om du tar bort användare från uppgifter kan detta påverka aktivitetstimmar och allokeringsprocentsatser.
+
+      Mer information finns i [Översikt över ändring av uppgiftstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+
+
+
+
+1. (Valfritt) Ändra något av följande alternativ för tilldelningar:
+
+   * (Villkorligt) **Allokering % eller timmar**: Ange en ny allokeringsprocent eller timmar.
+
+      >[!NOTE]
+      >
+      >Det här alternativet kan bara ändras om varaktighetstypen är densamma för alla åtgärder som redigeras. När varaktighetstypen är Beräknad arbets- eller insatsstyrd kan du uppdatera allokeringen %. När varaktighetstypen är Enkel kan du uppdatera timarna. Mer information om varaktighetstyp finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+      Om fältet är tomt innebär detta att värdet är olika för olika uppgifter. men du kan fortfarande ändra den.
+
+   * **Aktivitetsägare**: Välj det här alternativet om du vill att den som tilldelas ska vara ägare av uppgiften för alla uppgifter som redigeras.
+   * **Uppdragarens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
+
+1. Klicka **Spara ändringar.**

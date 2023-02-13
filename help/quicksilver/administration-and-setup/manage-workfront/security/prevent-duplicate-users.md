@@ -1,0 +1,124 @@
+---
+user-type: administrator
+product-area: system-administration;user-management
+navigation-topic: security
+title: Förhindra dubblerade användare
+description: När du skapar en ny användare i Adobe Workfront kan du inte längre använda en e-postadress som redan används av en annan användare, även om e-postadressen varierar beroende på fall (till exempel JohnDoe@example.com och johndoe@example.com). Om du dessutom vill förbereda dig för framtida autentiseringsförbättringar ser du till att alla användare har unika e-postadresser i en Workfront-instans.
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
+source-git-commit: 6f5b9e7638a85eca16d722cec6185cd5ed755eca
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 0%
+
+---
+
+# Förhindra dubblerade användare
+
+När du skapar en ny användare i Adobe Workfront kan du inte längre använda en e-postadress som redan används av en annan användare, även om e-postadressen varierar beroende på fall (till exempel JohnDoe@example.com och johndoe@example.com). Om du dessutom vill förbereda dig för framtida autentiseringsförbättringar ser du till att alla användare har unika e-postadresser i en Workfront-instans.
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Genomgång
+
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/371505632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
+
+[Titta på en videodemonstration av den här funktionen.](https://vimeo.com/371505632/2e6938ce06)
+
+## Skapa användare med unika e-postadresser
+
+Från och med version 2019.4 kan du när du skapar en ny användare i Workfront inte längre använda en e-postadress som redan används av en annan användare, även om e-postadressen varierar från fall till fall. Du kan till exempel inte skapa en användare med e-postadressen JohnDoe@example.com om en annan användare har e-postadressen johndoe@example.com.
+
+## Uppdatera e-postadresser till befintliga användare i din Workfront-instans
+
+Som Workfront-administratör måste du uppdatera befintliga användare som har matchande e-postadresser som bara skiljer sig åt från fall till fall.
+Så här korrigerar du dubbla e-postadresser i en Workfront-instans:
+
+1. Undersök eventuella duplicerade användare och bestäm vilken användare som inte längre behövs.
+
+   1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Användare**. ![](assets/users-icon-in-main-menu.png)
+
+   1. I **Filter** meny, välja **Alla**.
+
+   1. I **Visa** meny, välja **Användarinloggning**.
+
+   1. I **Gruppering** meny, välja **Ingenting**.
+
+   1. Anpassa vyn för användarinloggning.
+
+      1. Klicka **Visa** > **Anpassa vy**.
+
+      1. Ersätt **ID** kolumn med **E-postadress** kolumn.
+
+      1. Byt namn på vyn och spara den.
+   1. Skapa en ny gruppering.
+
+      1. Klicka **Gruppering** > **Ny gruppering**.
+
+      1. Klicka **Växla till textläge** i det övre högra hörnet på sidan.
+      1. Klistra in följande kod för textläge:
+
+         `group.0.linkedname=direct`
+         `group.0.namekey=emailAddr`
+         `group.0.valueexpression=LOWER({emailAddr})`
+         `group.0.valueformat=string`
+         `textmode=true`
+   1. Byt namn på grupperingen och spara den.
+
+
+
+1. Gör något av följande:
+
+   * (Önskad metod) Lägg till en +-adress till användarens e-postadress för varje ytterligare konto.
+
+      Välj det här alternativet om en enskild användare i organisationen behöver åtkomst till mer än ett användarkonto. Om din e-postleverantör inte stöder plusteringsadress måste du ange ett separat e-postkonto för varje Workfront-konto.
+
+      John Doe kan till exempel ha ett användarkonto för sitt dagliga bruk och ett som ska användas i testsyfte:
+
+      * johndoe@workfront.com
+      * johndoe+reviewer@workfront.com
+   * Ändra domänen så att den använder en falsk domän genom att lägga till följande text till e-postadressen:
+
+      `.inactive`
+
+      John Doe kan till exempel ha följande domäner: (Dessa måste vara unika.)
+
+      * johndoe@workfront.inactive
+      * johndoe@workfront.inactive2
+
+      Du kan inte längre logga in på dessa konton eftersom lösenordsåterställning kräver en giltig e-postadress. De här kontona kan bara nås via funktionen Logga in som.
+
+   * Ta bort användare som inte behövs
+
+      >[!IMPORTANT]
+      >
+      >Välj det här alternativet endast för konton som har skapats av misstag eller för testkonton. Det här alternativet utförs vanligtvis bara för konton med noll eller 1 felaktig inloggning. Konton som har använts regelbundet bör aldrig tas bort.
+
+
+
+Om du har användare i en Workfront-instans med matchande e-postadresser som bara skiljer sig åt från fall till fall, kommer Workfront att kontakta dig med ytterligare information och en tidslinje när dessa behöver uppdateras.

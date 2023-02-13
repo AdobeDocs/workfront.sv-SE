@@ -1,0 +1,27 @@
+---
+title: Godkännandeprocesser och milstolpar
+user-type: administrator
+content-type: reference
+product-area: system-administration;projects
+navigation-topic: customize-workfront
+description: Du kan skapa en godkännandeprocess som användare kan koppla till en arbetsuppgift, ett dokument eller ett korrektur. Du kan också skapa milstolpesökvägar som kan tillämpas på alla projekt i systemet.
+author: Alina, Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 0%
+
+---
+
+# Godkännandeprocesser och milstolpar
+
+Det här avsnittet innehåller följande artiklar:
+
+* [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [Redigera en godkännandeprocess](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
+* [Konfigurera globala inställningar för godkännande](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+* [Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
+* [Skapa en milstolpbana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)

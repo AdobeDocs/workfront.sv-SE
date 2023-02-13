@@ -1,0 +1,68 @@
+---
+content-type: tips-tricks-troubleshooting
+product-area: documents
+keywords: inaktivera,offentlig,dela,korrektur,offentlig,url
+navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
+title: Inaktivera delning av korrektur via offentlig URL eller inbäddningskod
+description: Du kan inaktivera möjligheten att dela ett korrektur med en offentlig URL eller bädda in kod som korrektur eller som bevis för enskilda användare.
+author: Courtney
+feature: Digital Content and Documents
+exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
+source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 0%
+
+---
+
+# Inaktivera delning av korrektur via offentlig URL eller inbäddningskod
+
+Du kan inaktivera möjligheten att dela ett korrektur med en offentlig URL eller bädda in kod som korrektur eller som bevis för enskilda användare.
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+
+## Inaktivera per korrektur
+
+Du måste vara korrekturägare eller skapare, eller också måste du ha rollen som författare eller moderator.
+
+1. Klicka på i det projekt som innehåller korrekturet **Dokument** i den vänstra panelen.
+1. Håll pekaren över korrekturet och välj **Dokumentinformation** .
+1. Klicka på i den vänstra panelen **Inställningar för korrekturläsare** och sedan avaktivera **Tillåt delning av korrektur via offentlig URL eller inbäddningskod** kryssrutan.
+
+   ![](assets/proofing-viewer-settings-350x200.png)
+
+1. Klicka **Spara**.
+
+## Inaktivera per användare
+
+Du kan inaktivera inställningen för publikt korrektur för enskilda användare i din Workfront-instans. Du måste ha en behörighetsprofil för administratör för att kunna göra den här ändringen.
+
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Korrektur**.
+1. Klicka **Kontoinställningar** nära det övre högra hörnet.
+1. Klicka på **Användare** och sedan klicka på en användares namn.
+1. I **Standardkorrekturinställningar** -avsnittet, inaktivera **Offentlig delning** kryssrutan.
+
+   ![](assets/default-proof-settings--public-sharing-350x210.png)

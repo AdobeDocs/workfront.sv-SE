@@ -1,0 +1,33 @@
+---
+product-previous: workfront-fusion
+content-type: release-notes
+product-area: workfront-integrations
+navigation-topic: fusion-release-activity
+title: '''Workfront Fusion-lanseringsaktivitet: Vecka 16 maj 2022"'
+description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 16 maj 2022.
+author: Luke
+feature: Product Announcements, Workfront Fusion
+hidefromtoc: true
+exl-id: ed844acd-3f1c-466c-89ca-a644fa01c825
+source-git-commit: ffc7205eb995985127d89bdab1187e311490951e
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 0%
+
+---
+
+# Versionsaktivitet för Workfront Fusion: 16 maj 2022
+
+Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 16 maj 2022.
+
+En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+
+
+## Modulen&quot;Kör en åtgärd&quot; är nu tillgänglig för Anaplan-anslutningen i Workfront Fusion
+
+För att förenkla Workfront Anaplan-anslutningen har vi skapat en åtgärdsmodul. Den här modulen innehåller funktionerna för import- och exportdatamodlingarna. Du kan också använda den här modulen för att ta bort en Anaplan-åtgärd eller köra en Anaplan-process.
+Tidigare kontrollerades import och export av data via separata moduler, och det gick inte att ta bort åtgärder och processer som kördes.
+
+Mer information finns i [Anaplan-moduler](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).

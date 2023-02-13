@@ -1,0 +1,101 @@
+---
+content-type: overview
+product-area: projects
+keywords: återkommande,återkomma,återkommer
+navigation-topic: manage-tasks
+title: Översikt över återkommande uppgifter
+description: Översikt över återkommande uppgifter
+author: Alina
+feature: Work Management
+exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 0%
+
+---
+
+# Översikt över återkommande uppgifter
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: DO NOT DO NOT EDIT OR CHANGE!!! linked to the NWE UI, this is not linked to classic - direct links:</p>
+<p>https://one.workfront.com/s/csh?context=2288&pubname=workfront-classic</p>
+<p>https://one.workfront.com/s/csh?context=2288&pubname=the-new-workfront-experience >> this)</p>
+</div>
+-->
+
+Du kan skapa återkommande aktiviteter för aktiviteter som du måste upprepa som en del av ett enda projekt.
+
+I den här artikeln beskrivs information och överväganden om hur du skapar och redigerar återkommande uppgifter.
+
+Mer information om hur du skapar återkommande uppgifter i Adobe Workfront finns i [Skapa återkommande uppgifter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Översikt över återkommande uppgifter och överväganden
+
+Du kan välja att skapa återkommande uppgifter för att ange upprepningsbart arbete under ett projekts livslängd.
+
+Exempel: under ett IT-projekt behöver programvara med jämna mellanrum säkerhetskopieras. Om du skapar en återkommande uppgift för den här aktiviteten går det snabbare att ställa in flera enskilda uppgifter.
+
+Tänk på följande när du skapar återkommande uppgifter i Workfront:
+
+* Du kan inte lägga till återkommande uppgifter i en mall.
+* Du kan inte lägga till en upprepningsfrekvens till en befintlig uppgift.
+* Återkommande uppgifter visas som underaktiviteter eller underordnade för huvudförekomsten som visas som överordnad uppgift.
+* Du kan inte bifoga ett godkännande till en överordnad återkommande uppgift.
+* Workfront överför de flesta fält som du uppdaterar för den överordnade upprepningen när du skapar den till de underordnade uppgifterna. Följande fält överförs inte till de underordnade uppgifterna när de skapas:
+
+   * Aktivitetsbegränsningen för de underordnade aktiviteterna ändras automatiskt till:
+
+      * Måste starta på för projekt som planeras från startdatum.
+      * Måste vara aktiverat för projekt som är planerade från slutförandedatum.
+   * Dokument som är kopplade till det överordnade objektet överförs inte till de underordnade.
+
+
+* Följande ändringar sker för den överordnade aktiviteten när du har angett att uppgiften är återkommande:
+
+   * Fältet Varaktighet har bytt namn till Varaktighet per förekomst för den överordnade aktiviteten. Den behåller längden för de underordnade aktiviteterna.
+   * Status är inaktiverad för den överordnade aktiviteten och ställs automatiskt in på Nytt för de underordnade. Den överordnade aktiviteten slutförs automatiskt och statusen uppdateras till Fullständig när alla underordnade har slutförts.
+   * De enda varaktighetstyperna som är tillgängliga för återkommande uppgifter är:
+
+      * Enkel
+      * Ansträngningsstyrd
+
+## Att tänka på vid redigering av återkommande uppgifter
+
+Vissa ändringar du gör i en återkommande uppgift som är överordnad uppdateras kanske inte för alla befintliga återkommande aktiviteter. Underordnade aktiviteter som visar förloppet eller har uppdaterats individuellt uppdateras inte när du uppdaterar det överordnade objektet. Workfront anser att en uppgift visar förloppet i följande situationer:
+
+* Status uppdateras och aktiviteten är inte längre Ny
+* Uppgiftens Procent färdigt är högre än noll
+* Aktiviteten har överordnade relationer
+
+I följande tabell visas om ändringar som gjorts i den överordnade utlösaren uppdateras på de underordnade objekt som inte har redigerats individuellt eller om förloppet visas:
+
+| Fält som har uppdaterats för den överordnade aktiviteten | Uppdateringar överförs till oredigerade underordnade eller underordnade utan att några framsteg registreras |
+|---|---|
+| Återkommande frekvens* | ✔ |
+| Uppdrag&#42;&#42; | ✔ |
+| Namn | ✔ |
+| Beskrivning | ✔ |
+| Prioritet | ✔ |
+| Varaktighet | ✔ |
+| Planerade timmar | ✔ |
+| Kostnadstyp | ✔ |
+| Intäktstyp | ✔ |
+| Resursutjämning | ✔ |
+| Levelingfördröjning | ✔ |
+| Aktivitetsbegränsning | Uppdaterar inte underordnade |
+| Bifoga eller ta bort anpassad Forms | Uppdaterar inte underordnade |
+| Typ av varaktighet | Uppdaterar inte underordnade |
+| Anpassad formulärinformation | Uppdaterar inte underordnade |
+
+{style=&quot;table-layout:auto&quot;}
+
+&#42; Följande scenarier finns när du uppdaterar upprepningsfrekvensen för en överordnad aktivitet:
+
+* Om du ändrar upprepningsfrekvensen för en befintlig överordnad uppgift, tas de befintliga underuppgifterna bort och ersätts med nya underaktiviteter som följer den nya upprepningsfrekvensen om de inte visar några förlopp och om du inte har uppdaterat dem manuellt.
+* Om du ändrar upprepningsfrekvensen för en befintlig överordnad uppgift tas inte underaktiviteter som visar förloppet bort. Dessa uppgifter anses vara åtskilda från upprepningen vid den här tidpunkten.
+
+&#42;&#42; Tilldelningar som görs för den överordnade uppgiften tillämpas på alla underaktiviteter i den återkommande aktiviteten. Alla ändringar som görs i tilldelningen för den överordnade aktiviteten åsidosätter eventuella enskilda tilldelningar för underaktiviteten. Om aktiviteten visar förlopp ändras inte uppdraget.
+
+ 

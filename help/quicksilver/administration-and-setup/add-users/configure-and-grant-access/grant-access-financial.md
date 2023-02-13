@@ -1,0 +1,156 @@
+---
+title: Bevilja åtkomst till finansiella uppgifter
+user-type: administrator
+product-area: system-administration
+navigation-topic: configure-access-to-workfront
+description: Som Adobe Workfront-administratör kan du definiera en användares åtkomst till ekonomiska data i Workfront via åtkomstnivån.
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
+source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+workflow-type: tm+mt
+source-wordcount: '795'
+ht-degree: 0%
+
+---
+
+# Bevilja åtkomst till finansiella uppgifter
+
+Som Adobe Workfront-administratör kan du definiera en användares åtkomst till följande via användarens åtkomstnivå, vilket förklaras i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
+
+* Ekonomisk information om projekt i Workfront
+* Resursbudgetinformation i Resursplaneringsverktygen
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Överväganden att bevilja tillgång till finansiella uppgifter
+
+Tänk på följande när du ger användare tillgång till ekonomiska data i Workfront:
+
+* En användare vars åtkomstnivå inte tillåter åtkomst till ekonomiska data kan inte skapa en risk för ett projekt. Mer information finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+* Du kan också använda en åtkomstnivå för att avgöra vilka resurshanteringsaktiviteter en användare kan använda för att budgetera eller visa resursallokering. Mer information finns i [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+## Konfigurera användaråtkomst till ekonomiska data med en anpassad åtkomstnivå
+
+1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på **Visa** eller **Redigera** till höger om Finansiella data och välj sedan de funktioner som du vill bevilja under **Finjustera inställningarna**.
+
+   ![](assets/financial-data-fine-tune-nwe.png)
+
+1. (Valfritt) I dialogrutan **Tillåt administrativ åtkomst för** markerar du följande alternativ:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Växelkurser</td> 
+      <td> <p>Lägg till ny valuta i Workfront.</p> <p>Utan den här åtkomsten kan användaren bara lägga till en befintlig valuta i ett projekt som han/hon skapar.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Utgifter</td> 
+      <td> <p>Visa alla utgifter för objekt i Workfront.</p> <p>Detta gör att användaren inte kan skapa nya utgiftstyper.</p> <p>Utan den här åtkomsten kan användaren bara visa följande:</p> 
+       <ul> 
+        <li>Utgifter för projekt, uppgifter eller ärenden som de hanterar</li> 
+        <li>Deras egna utgifter</li> 
+        <li>Utgifter för underordnade</li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) som [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+1. När du är klar klickar du på **Spara**.
+
+   När åtkomstnivån har skapats kan du tilldela den till en användare. Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+## Tillgång till delad finansiell information
+
+Du kan dela ekonomisk information om ett projekt, en uppgift eller ett problem med andra användare genom att ge dem behörighet till det, vilket förklaras i [Dela ekonomiska behörigheter för ett objekt](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+
+<!--
+If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:
+* reports, dashboards, and calendars
+* financial data
+* issue
+-->
+
+När du delar ett objekt med en annan användare bestäms mottagarens rättigheter till det av en kombination av två saker:
+
+* De behörigheter som du ger mottagaren för objektet
+* Mottagarens åtkomstnivåinställningar för objektets typ
+
+## Tillgång till ekonomisk information per licenstyp
+
+Information om vad användare på varje åtkomstnivå kan göra med ekonomisk information finns i avsnittet [Finansiella uppgifter](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) i artikeln [Tillgängliga funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+
+## Tillgång till ekonomisk information genom att ställa in
+
+Följande information kan hjälpa dig att förstå hur du använder åtkomstnivåinställningarna för att styra användarnas åtkomst till ekonomiska data.
+
+### Ingen åtkomst
+
+En användare utan åtkomst till ekonomiska data har inte åtkomst till följande:
+
+* Avsnittet Ekonomi under Projekt och uppgifter
+* Affärsärende
+* Faktureringspriser och faktureringsposter
+* Kostnad per timme och fakturering per timme i användarinställningarna
+
+   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+
+* Kostnad per timme och fakturering per timme för jobbroller
+
+   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+
+### Visa åtkomst
+
+En användare med behörigheten Visa för ekonomiska data kan visa (inte redigera) följande:
+
+* Avsnittet Ekonomi under Projekt och uppgifter
+* Affärsärende
+* Faktureringspriser och faktureringsposter
+* Kostnad per timme och fakturering per timme i användarinställningarna
+
+   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+
+* Kostnad per timme och fakturering per timme för jobbroller
+
+   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+
+### Redigera åtkomst
+
+En användare med Redigera-åtkomst till ekonomiska data kan visa och redigera följande:
+
+* Avsnittet Ekonomi under Projekt och uppgifter
+* Affärsärende
+* Faktureringspriser och faktureringsposter
+* Kostnad per timme och fakturering per timme i användarinställningarna
+
+   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.
+
+* Kostnad per timme och fakturering per timme för jobbroller
+
+   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.

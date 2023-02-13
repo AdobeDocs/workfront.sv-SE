@@ -1,0 +1,52 @@
+---
+title: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 7 februari 2022
+description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 7 februari 2022
+author: Luke
+draft: Probably
+feature: Product Announcements, Workfront Fusion
+exl-id: 4cc64bf6-98a4-4a92-b8d5-0c1e5e293171
+hidefromtoc: true
+source-git-commit: 9c2321794c5ba773bfda1d6e9dfda6b8de1a1449
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
+
+---
+
+# Versionsaktivitet för Workfront Fusion: 7 februari 2022
+
+Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion under veckan 7 februari 2022.
+
+En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+
+## Anaplan-anslutning och moduler är nu tillgängliga
+
+Nu kan du använda Adobe Workfront Fusion för att ansluta till ditt Anaplan-konto. Med Anaplan-modulerna kan du
+
+* Skapa, läsa, uppdatera, ta bort eller söka i Anaplan-poster
+* Batchimportposter till Anaplan
+
+Mer information finns i [Anaplan-moduler](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Adobe Acrobat Sign connector and modules now available</h2>
+<p>Now you can use Adobe Workfront Fusion to connect to your Adobe Acrobat Sign account. With the Adobe Acrobat Sign modules, you can:</p>
+<ul>
+<li> <p>Create, update, and read agreements or other records</p> </li>
+<li> <p>List or search for records in your Adobe Acrobat Sign account</p> </li>
+<li> <p>Make a custom API call</p> </li>
+</ul>
+<p>For more information, see <a href="../../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Acrobat Sign modules</a>.</p>
+</div>
+-->
+
+## Gå direkt till Scenarioredigeraren när du skapar ett scenario
+
+Vi har tagit bort sidan för programval för att göra scenarioskapandet smidigare. Nu kan du gå direkt till scenredigeraren och välja det program du vill ansluta till i listan som visas när du lägger till en modul.
+
+Tidigare kunde du välja appar både från sidan för programval och från listan.
+
+Mer information om hur du väljer program för ditt scenario finns i [Skapa ett scenario i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).

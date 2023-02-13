@@ -1,0 +1,43 @@
+---
+filename: _API
+content-type: api;reference
+navigation-topic: api-navigation-topic
+title: API
+description: Workfront API-artiklar
+author: John
+exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
+source-git-commit: 53ef8f4fda22c912c274841d07ad865aa04141c8
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
+
+---
+
+# API
+
+Det här avsnittet innehåller följande artiklar:
+
+* [Överföra filer via API](../../wf-api/api/uploading-files-api.md)
+* [Stöd för JSONP upphör](../../wf-api/api/ending-support-jsonp.md)
+* [Filtrera händelsens prenumerationsmeddelanden](../../wf-api/api/filter-event-sub-messages.md)
+* [Återkommande prenumerationer](../../wf-api/api/event-sub-retries.md)
+* [Prenumerationscertifikat för evenemang](../../wf-api/api/event-sub-certs.md)
+* [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md)
+
+* [Ändringar i API:t: Statussöksvar](../../wf-api/api/api-changes-search.md)
+* [Uppdatera integreringar som använder API-standardversionshantering](../../wf-api/api/update-default-api-versioning.md)
+* [Borttagning av API-intern](../../wf-api/api/deprecation-api-internal.md)
+* [Inaktuella tecken i API-svar](../../wf-api/api/escaped-characters-api.md)
+* [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md)
+* [Konfigurera och använda organisationens anpassade OAuth 2-program med hjälp av ett auktoriseringskodsflöde](../../wf-api/api/oauth-app-code-token-flow.md)
+* [Konfigurera och använda organisationens anpassade OAuth 2-program med JWT-flöde](../../wf-api/api/oauth-app-jwt-flow.md)
+* [Konfigurera och använda organisationens anpassade OAuth 2-program med PKCE-flöde](../../wf-api/api/oauth-app-pkce-flow.md)
+* [Nyheter i API-version 14](../../wf-api/api/new-api-version-14.md)
+* [Nyheter i API-version 13](../../wf-api/api/new-api-version-13.md)
+* [Nyheter i API-version 12](../../wf-api/api/new-api-version-12.md)
+* [Nyheter i API-version 11](../../wf-api/api/new-api-version-11.md)
+* [Nyheter i API-version 10](../../wf-api/api/new-api-version-10.md)
+* [Nyheter i API-version 9](../../wf-api/api/new-api-version-9.md)
+* [Uppdateringar av API-version 8](../../wf-api/api/new-api-version-8-updates.md)
+* [Nyheter i API Version 7](../../wf-api/api/new-api-version-7.md)
+* [Nyheter i API-version 6](../../wf-api/api/new-api-version-6.md)

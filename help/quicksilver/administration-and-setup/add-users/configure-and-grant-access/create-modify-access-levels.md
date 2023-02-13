@@ -1,0 +1,212 @@
+---
+title: Skapa eller ändra anpassade åtkomstnivåer
+user-type: administrator
+product-area: system-administration;user-management
+navigation-topic: configure-access-to-workfront
+description: Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare.
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
+source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+workflow-type: tm+mt
+source-wordcount: '1424'
+ht-degree: 0%
+
+---
+
+# Skapa och ändra anpassade åtkomstnivåer
+
+<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
+
+Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och tillämpa dem på användare, vilket förklaras i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+
+När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+
+>[!IMPORTANT]
+>
+>Vi rekommenderar att du låter de inbyggda åtkomstnivåerna vara oförändrade så att du kan referera till dem när du har konfigurerat användarna. Om du vill anpassa en åtkomstnivå kopierar du standardåtkomstnivån och ändrar kopian. (Du kan göra detta för alla åtkomstnivåer förutom systemadministratör och extern användare.)
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="#" class="MCXref xref selected">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Skapa eller redigera en anpassad åtkomstnivå
+
+{{step-1-to-setup}}
+
+1. Klicka **Åtkomstnivåer** i den vänstra panelen.
+1. Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på **Kopiera**.
+
+   eller
+
+   Om du redigerar en befintlig åtkomstnivå (som du kopierat tidigare) klickar du på dess namn.
+
+1. I rutan som visas gör du något av följande för att börja konfigurera den anpassade åtkomstnivån:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Namn</td> 
+      <td> <p>Ange ett namn för åtkomstnivån. </p> <p>Om du precis har kopierat en åtkomstnivå för att skapa en ny är standardnamnet Åtkomstnivånamn (kopia), där åtkomstnivånamnet är den åtkomstnivå du kopierade.</p> <p><strong>Tips</strong>: Vi rekommenderar att du tar med det ursprungliga namnet på åtkomstnivån i kopians namn. På ACME-företaget kan till exempel en kopia av åtkomstnivån Planner heta ACME Planner.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Beskrivning </td> 
+      <td>Ange en beskrivning för åtkomstnivån. Det är praktiskt att här ange vad en användare med den här åtkomstnivån kan komma åt.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Licenstyp</td> 
+      <td>Se till att den licens som valts här är den som är mest kopplad till den typ av åtkomstnivå som du skapar eller redigerar. Den valda licensen avgör vilka inställningar som är tillgängliga för åtkomstnivån. Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Villkorligt) Om **Plan** är markerat i **Licenstyp** ruta, bläddra till avsnittet **Tillåt administrativ åtkomst för** och välj administratörsbehörigheter för de som ska ha den här åtkomstnivån.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Godkännandeprocesser</td> 
+      <td>Skapa och hantera godkännandeprocesser som kan användas i hela systemet och för specifika grupper.<p>Utan den här åtkomsten kan användare bara skapa ad hoc-godkännandeprocesser för objekt som de har åtkomst till att hantera.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Företag</td> 
+      <td>Lägg till nya och redigera befintliga företag i Workfront.<br><p>Utan den här åtkomsten kan användare bara visa befintliga företag.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Egna formulär</td> 
+      <td>Skapa och hantera alla anpassade formulär i gruppen. <br><p>Utan den här åtkomsten kan användare bara bifoga befintliga formulär till objekt som de har åtkomst till för att bidra eller hantera.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Växelkurser</td> 
+      <td> <p>Lägg till ny valuta i Workfront.</p> <p>Utan den här åtkomsten kan användaren bara lägga till en befintlig valuta i ett projekt som han/hon skapar.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Utgifter</td> 
+      <td>Visa alla utgifter för objekt i Workfront.<p>Utan den här åtkomsten kan användaren bara visa följande:</p>
+       <ul>
+        <li>Utgifter för projekt, uppgifter eller ärenden som de hanterar</li>
+        <li>Deras egna utgifter</li>
+        <li>Utgifter för underordnade</li>
+       </ul><p><b>ANMÄRKNING</b>: Detta gör att användaren inte kan skapa nya utgiftstyper.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Jobbroller</td> 
+      <td> <p>Med den här åtkomsten kan användaren göra följande:</p> 
+       <ul> 
+        <li>Visa och redigera befintliga jobbroller</li> 
+        <li>Lägg till nya jobbroller</li> 
+        <li>Redigera rollfakturering och kostnadstariffer</li> 
+       </ul> 
+       <p>Viktig information om åtkomst till ekonomiska data som är tillgängliga för en planeranvändare med administrativ åtkomst till jobbroller finns i <a href="#planner-users-with-administrative-access-to-job-roles">Planera användare med administrativ åtkomst till jobbroller</a>.</p>
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Milstolpar i min grupp</td> 
+      <td>Visa alla milstolpesökvägar i systemet under menyn Milstolpbanor i Konfigurera. Användare kan också redigera eller ta bort alla milstolpbanor som tillhör någon av deras grupper. Användare kan inte hantera (redigera eller ta bort) milstolpesökvägar som inte är tilldelade till deras grupper.<p>Utan den här åtkomsten kan användare bara visa befintliga milstolpbanor och använda dem i projekt som de har tillgång till för att hantera.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Påminnelsemeddelanden</td> 
+      <td>Skapa och hantera påminnelsemeddelanden i Workfront.<p>Utan den här åtkomsten begränsas användarna till att ta emot och visa meddelanden.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tidrapporter och timmar</td> 
+      <td> <p>Gruppadministratörer kan tilldela tidrapportprofiler till användare i de grupper och undergrupper som de hanterar.</p> <p>Om det här alternativet inte är aktiverat kan gruppadministratörer inte tilldela andra användare i de grupper och undergrupper som de hanterar tidrapportprofiler, även om de kan skapa dem.</p> <p>Alla andra användare med en planlicens kan se alla timmar och tidrapporter i Workfront.</p> <p>Om det här alternativet inte är aktiverat kan användare bara visa timmar på:</p> 
+       <ul> 
+        <li>Projekt, uppgifter eller problem som de hanterar</li> 
+        <li>Deras egen tidrapport</li> 
+        <li>En tidrapport med någon som rapporterar till dem</li> 
+        <li>En tidrapport som de godkänner</li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Klicka **Ange ytterligare begränsningar** anger du sedan någon av följande begränsningar för åtkomstnivån.
+
+   >[!IMPORTANT]
+   >
+   >För externa användare som leverantörer (alla som inte finns i organisationen) rekommenderar vi att du begränsar åtkomsten till uppgifter, projekt, uppdateringar, meddelanden, andra företag, team och grupper.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Ge aldrig åtkomst till hela projektet när det tilldelas till en uppgift eller ett ärende</td> 
+      <td> Förhindrar att användare som har tilldelats till uppgifter eller problem också får behörighet till det överordnade projektet, även om projektbehörigheterna tillåter det.<p>Mer information om hur du konfigurerar behörigheter för ett projekt finns i avsnittet <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> i artikeln <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>.</p></td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Ärv aldrig dokumentåtkomst från projekt, uppgifter, ärenden osv.</td> 
+      <td>Förhindrar att dokument ärver de behörigheter som angetts för deras överordnade objekt.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Visa endast uppdateringar som de har inkluderats i konversationen</td> 
+      <td> <p>Gör det möjligt för användare att endast se kommentarer där deras namn eller teamets namn har inkluderats.</p> <p> <p><b>ANMÄRKNING</b>: Detta förhindrar att användare prenumererar på objekt i Workfront. Mer information om att prenumerera på objekt finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Lägg till användare</a>.</p> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tillåt aldrig användare att ta bort kommentarer </td> 
+      <td> <p>Hindrar användare från att ta bort kommentarer om objekt. </p> <p><b>ANMÄRKNING</b>: Ingen kan ta bort kommentarer från andra användare.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Visa endast företag, grupper och team som de tillhör</td> 
+      <td>Tillåter användare att endast visa och dela objekt med företag, grupper och team som de tillhör.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tillåt aldrig synlighet för planerade timmar eller faktiska timmar</td> 
+      <td>Hindrar användare från att se de planerade och faktiska timmarna av arbetsobjekt de har tillgång till. De kan dock se faktiska timmar som de loggar sig själva eller timmar som loggas av någon som rapporterar till dem.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tillåt aldrig användare att ta bort meddelanden</td> 
+      <td>Hindrar användare från att ta bort meddelanden i meddelandecentret. Mer information finns i <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Skicka meddelanden</a>.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Villkorligt och valfritt) Om ditt Workfront-system är konfigurerat för användare som tillhör flera företag kan du begränsa synligheten till andra användare baserat på vilket företag de tillhör i avsnittet **Personer i andra företag bör endast visa användare från**.
+
+   Du kan begränsa användarna så att de bara kan se användare från det egna företaget eller från det företag som du har angett som primärt företag. Mer information om det primära företaget finns i [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+   >[!NOTE]
+   >
+   >Om två användare tillhör två olika företag, men båda kan se användare från det primära företaget, kan de se uppdateringsområdet som är associerat med det primära företaget.
+
+1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. Klicka **Spara**.
+
+   När åtkomstnivån har skapats kan du tilldela den till en användare (om det inte är en åtkomstnivå för systemadministratörer).
+
+   Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+   Mer information om hur en Adobe-administratör tilldelar en systemadministratörsåtkomstnivå till en användare finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+
+## Planera användare med administrativ åtkomst till jobbroller {#planner-users}
+
+Om du ger en planeranvändare administratörsbehörighet för jobbroller aktiveras inställningen Redigera rollfakturering och kostnadstariffer automatiskt för användaren.
+
+Om du senare inaktiverar administrativ åtkomst till jobbroller för användaren, visas jobbrollerna fortfarande för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad.
+
+Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i [Bevilja åtkomst till finansiella uppgifter](grant-access-financial.md).

@@ -1,0 +1,107 @@
+---
+product-previous: workfront-proof
+product-area: documents;system-administration;user-
+navigation-topic: account-settings-workfront-proof
+title: 'enkel inloggning [!DNL Workfront Proof]: AD FS-konfiguration'''
+description: Om du är administratör på AD-servern kan du installera och konfigurera AD FS.
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
+source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 0%
+
+---
+
+# Enkel inloggning [!DNL Workfront Proof]: AD FS-konfiguration
+
+>[!IMPORTANT]
+>
+>Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+
+Om du är administratör på AD-servern kan du installera och konfigurera AD FS.
+
+## Installera och konfigurera AD FS
+
+1. Hämta [AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909) till datorn.
+1. Öppna den hämtade filen AdfsSetup.exe för att starta installationsguiden för ADFS (Active Directory Federation Services).
+1. På skärmen Serverroll väljer du ett av alternativen (du behöver minst en federationsserver).
+1. Om du inte vill visa IIS på AD-servern för Internet (portarna 80 och 443 för HTTP och HTTPS), kan du först konfigurera en federationsserver bakom brandväggen och sedan skapa en andra federationsserverproxy som skickar begäranden genom brandväggen till federationsservern.
+1. När du har slutfört AD FS-installationen väljer du **[!UICONTROL Start the AD FS 2.0 Management snap-in]** och sedan klicka **[!UICONTROL Finish]**. När detta är klart öppnas AD FS 2.0-hanteringsfönstret med en gång. Annars kan du öppna den från **[!UICONTROL Start]** > **[!UICONTROL Administrative Tools]** > **[!UICONTROL AD FS 2.0 Management]**. Detta är huvudprogrammet för AD FS-kontroll.
+
+1. Börja med att klicka på konfigurationsguiden för AD FS 2.0-federationsserver.
+Detta hjälper dig att konfigurera AD FS och ansluta det till både Internet via IIS och till AD.
+1. Om du konfigurerar en ny AD FS-server väljer du **[!UICONTROL Create a new Federation Service]**.
+1. Välj **[!UICONTROL Stand-alone federation server]** (för testning och utvärdering).
+
+1. Klicka på Ny federationsservergrupp om du vill ha hög tillgänglighet och belastningsutjämning.
+1. Ange federationstjänstens namn.
+Som standard hämtar konfigurationsguiden det SSL-certifikat som är bundet till standardwebbplatsen i IIS och använder ämnesnamnet som anges där. Om du använder ett jokertecken måste du ange namnet på federationstjänsten.
+Om inget SSL-certifikat har konfigurerats i IIS söker konfigurationsguiden i det lokala datorns certifikatarkiv efter giltiga certifikat. De här visningarna visas i listrutan för SSL-certifikat. Om det inte finns några certifikat kan du använda Server Certificate Generator i IIS för att skapa ett.
+
+1. Fortsätt med konfigurationen och klicka på **[!UICONTROL Close]** när allt är klart.
+
+## Konfigurerar [!DNL Workfront Proof] Enkel inloggning
+
+Om du är en [!DNL Workfront Proof] kan du konfigurera enkel inloggning på [!DNL Workfront Proof] sida. Mer information finns i [Enkel inloggning [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
+
+1. Klicka **[!UICONTROL Settings]** > **[!UICONTROL Account Settings]**&#x200B;öppnar du **[!UICONTROL Single sign-on]** -fliken.
+
+1. I **URL för enkel inloggning** klistra in ditt enhets-ID.
+Följande är ett exempel på ett enhets-ID: http://*&lt;adfs.your-company.com>*/adfs/services/trust Ditt enhets-ID finns i din Federationsmetadatas XML-fil.
+   ![ProofHQ_configuration_02.png](assets/proofhq-configuration-02-350x80.png)
+
+1. Federationsmetadata finns i snapin-modulen AD FS 2.0 > Service > Endpoints-mappen. I avsnittet Metadata letar du reda på den som har typen Federationsmetadata. Klistra in slutpunkten i webbläsaren om du vill visa metadata. Du kan även gå till den här länken direkt: https://*&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml efter att du ersatt {adfs.your-company.com} med din egen information.
+1. I **[!UICONTROL Login URL]** , klistra in din SSO-inloggning.
+1. Följande är ett exempel på en SSO-inloggning:
+1. http://*&lt;adfs.your-company.com>*/adfs/ls.
+1. Länken finns i XML-filen för federationsmetadata.
+   ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
+
+1. I **[!UICONTROL Logout URL]** anger du länken och sparar.
+Följande är ett exempel på en URL för utloggning: https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
+
+   1. Gå till AD FS-hanteraren > Lita på relationer > Förlitande partsförtroenden - Korrekturegenskaper.
+   1. Klicka på under slutpunkterna [!UICONTROL Add and entry] med följande uppgifter:
+
+      * Slutpunktstyp = SAML-utloggning
+      * Bindning = POST
+      * URL = https://*&lt;adfs.your-company.com span=&quot;&quot; id=&quot;1&quot; translate=&quot;no&quot; />>/adfs/ls/?wa=wsignout1.0*
+      * Det här steget kan slutföras när du har konfigurerat förlitande part-förtroendet (se nedan) i din AD FS.
+   1. I **[!UICONTROL Certificate fingerprint]** anger du data från certifikatet.
+   1. Gå till snapin-modulen ADFS 2.0 och navigera till Service > Certifikat > Tokensignering.
+   1. Högerklicka på den här posten för att visa certifikatet.
+   1. Från [!UICONTROL Certificate Details] kopierar du miniatyrbilden och klistrar in den i **[!UICONTROL Workfront Proof Single Sign-On]** konfigurationsflik.
+
+   1. Fingeravtryckstecknen kan separeras med kolon eller mellanslag, men vi rekommenderar att du tar bort dessa. Om du har problem med konfigurationen för enkel inloggning kontaktar du kundsupport.
+
+
+## Lägga till ett förlitande part-förtroende
+
+När konfigurationen är klar måste du arbeta i avsnittet Förlitande partsförtroenden i din AD FS.
+
+1. Navigera till **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** mapp och klicka sedan på **[!UICONTROL Add a Relying Party Trust]** för att starta konfigurationsguiden.
+
+1. Välj datakälla.
+Alla metadata för [!DNL ProofHQ] kontot finns under en länk som den här: https://`<yoursubdomain*>`.proofhq.com/saml/module.php/saml/sp/metadata.php/phq Detta konfigurerar merparten av förlitande part-förtroendet.
+
+   >[!NOTE]
+   >
+   >* Om du har problem med att upprätta anslutningen från URL:en sparar du metadata som en fil och väljer att importera data från en fil.
+   >* När du har konfigurerat en fullständig anpassad domän (t.ex. www.your-proofing.com) på din [!DNL ProofHQ] kontot ersätter hela delen {yoursubdomain}.proofhq.com med din egen domän för att skapa [!DNL ProofHQ] metadatalänk.
+
+
+
+## Konfigurera anspråksregler
+
+När konfigurationen av förlitande part-förtroende är klar kan du konfigurera anspråksreglerna så att konfigurationen slutförs. Du konfigurerar två anspråksregler för ProofHQ: E-post och namn-ID.
+
+1. Öppna **[!UICONTROL Edit Claim Rules]** -dialogrutan.
+1. Gå till **[!UICONTROL ProofHQ Relying Party Trust]** och sedan klicka **[!UICONTROL Edit Claim Rules]** (1).\
+   Popup-fönstret öppnas automatiskt om du har valt det här alternativet när du har konfigurerat förtroendet.
+
+1. Klicka **[!UICONTROL Add Rule]** (2) för att öppna anspråkskonfigurationsfönstret.
+
+   * E-post (Skicka LDAP-attribut som anspråksregelmall)
+   * NameID (transformera en regelmall för inkommande anspråk)

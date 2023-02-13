@@ -1,0 +1,34 @@
+---
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: scenarios
+title: Scenariomallar
+description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
+author: Becky
+feature: Workfront Fusion
+exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
+source-git-commit: 229fd48d604385a1bfcaba2fd34eb6f3bbdde7a7
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
+
+---
+
+# Scenariomallar
+
+>[!INFO]
+>
+>[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront license].
+
+[!DNL Workfront Fusion]Med funktionen Mallar kan du skapa och använda befintliga mallar som utgångspunkt för [!DNL Workfront Fusion] scenarier.
+
+Det här avsnittet innehåller följande artiklar:
+
+* [Skapa nya mallar i [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+* [Publicera och dela [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+* [Skapa scenarier med [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
+* [Visa, redigera och ta bort [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
+* [[!DNL Adobe Workfront Fusion] Malladministration](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
+* [[!DNL Adobe Workfront Fusion] mallar, frågor och svar](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+* [Tillgänglig [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

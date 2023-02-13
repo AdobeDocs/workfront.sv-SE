@@ -1,0 +1,56 @@
+---
+content-type: overview
+product-previous: workfront-proof
+product-area: documents
+navigation-topic: basic-features-workfront-proof
+title: Söker [!DNL Workfront Proof]
+description: Du kan söka efter följande typer av innehåll på Workfront webbplats för korrektur - EDIT ME.
+author: Courtney
+feature: Workfront Proof, Digital Content and Documents
+exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
+source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 0%
+
+---
+
+# Söker [!DNL Workfront] Korrektur
+
+>[!IMPORTANT]
+>
+>Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+
+Du kan söka efter följande typer av innehåll i [!DNL Workfront Proof] plats:
+
+* Korrektur (inklusive arkiverade korrektur)
+* Filer
+* Mappar
+* Taggar
+* Korrekturämne
+* Korrekturmeddelande
+* Anpassade fält
+* Skapad av
+* Objekt som har delats med dig
+
+Om du vill söka i [!DNL Workfront Proof] plats:
+
+1. Skriv den text du vill söka efter och tryck sedan på **[!UICONTROL Enter]**.\
+   Observera följande om sökresultat:
+
+   * Sökverktyget hittar objekt som innehåller alla nyckelord som du skriver. För att minimera sökresultaten och maximera söknoggrannheten måste du stava nyckelorden korrekt och lägga till blanksteg mellan dem.
+   * Sökresultaten sorteras efter relevans.
+   * Du kan minska sökresultaten genom att lägga till fler nyckelord i sökfältet (avgränsade med blanksteg) och sedan söka igen. Den nya sökningen utförs endast på de objekt som redan visas i sökresultaten.
+   * Om du anger namnet på en tidigare korrekturversion i sökfältet visas den senaste versionen av korrekturet i sökresultaten.
+   * Överordnade mappar och undermappar visas separat.
+
+1. (Valfritt) Sortera efter kolumn i sökresultaten genom att klicka på rubriken överst i en kolumn. (Valfritt) Lägg till filtrering till dina resultat genom att klicka på [!UICONTROL search] -ikonen i slutet av rubrikraden. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
+
+Då läggs menyer till där du kan välja filter för att begränsa sökningen.
+1. ![Search_filter_boxes_appears_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. (Valfritt) Begränsa sökningen genom att öppna [!UICONTROL Tags] och klicka på en tagg i navigeringssidlisten till vänster. Objekt som är associerade med den taggen visas i sökresultatet.\
+   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\
+   Taggnamnet visas i sökfältet i det övre högra hörnet av Workfront Proof. Du kan begränsa sökningen genom att markera ytterligare taggar eller genom att skriva ytterligare nyckelord i sökfältet. Du kan ta bort en tagg från sökfältet genom att klicka på x-ikonen bredvid taggnamnet.
+
+Information om hur du söker efter text i korrekturinnehåll finns i [Sök efter innehåll i ett korrektur](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).

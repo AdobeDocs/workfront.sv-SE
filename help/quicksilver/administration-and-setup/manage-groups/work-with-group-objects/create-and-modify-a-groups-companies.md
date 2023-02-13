@@ -1,0 +1,93 @@
+---
+user-type: administrator
+product-area: system-administration;user-management
+navigation-topic: work-with-a-groups-objects
+title: Skapa och ändra en grupps företag
+description: När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta med företag som är kopplade till gruppen och någon av dess undergrupper.
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
+role: Admin
+exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
+source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+workflow-type: tm+mt
+source-wordcount: '811'
+ht-degree: 0%
+
+---
+
+# Skapa och ändra en grupps företag
+
+När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta med företag som är kopplade till gruppen och någon av dess undergrupper.
+
+Om det finns grupper ovanför gruppen kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
+
+## Åtkomstkrav
+
+Du måste ha följande för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront-plan*</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
+
+## Visa, arbeta med och skapa företag för din grupp från gruppområdet
+
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+
+1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+
+1. Klicka på namnet på gruppen som du vill skapa eller ändra företag för.
+1. Klicka på i den vänstra panelen **Företag** för att lista de företag som är associerade med gruppen och eventuella undergrupper som den har.
+1. (Valfritt) Om du vill lägga till ett företag klickar du på **Lägg till företag** konfigurerar du företaget med hjälp av alternativen nedan. När du är klar klickar du på **Skapa företag**.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Avsnittet Grundläggande information</td> 
+      <td> 
+       <ul> 
+        <li> <p><b>Företag</b>: Ange ett namn för företaget.</p> </li> 
+        <li> <p><b>Är aktiv</b>: När det här alternativet är aktiverat kan användare hitta företaget och bifoga det till projekt som de skapar och redigerar. Ett inaktivt företag kan inte bifogas till projekt. Det här alternativet är aktiverat som standard.</p> </li> 
+        <li> <p><b>Detta är det primära företaget</b>: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar.</p> <p>Genom att ändra åtkomstnivåerna kan du begränsa användarnas möjligheter att se andra användare:</p> 
+         <ul> 
+          <li>Endast i deras primära företag</li> 
+          <li> <p>I sitt intressebolag och det primära företaget</p> <p>Mer information om de primära företagsfunktionerna inom användarnas åtkomstnivåer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> <p>Du kan bara ha ett eller inget företag angivet som primärt företag, men du kan inte ha flera företag angivna som primärföretag. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </li> 
+         </ul> </li> 
+        <li> <p><b>Grupp</b>: Om det finns en grupp som gör affärer med företaget kan du lägga till namnet på gruppen här. Detta är användbart för gruppadministratörer som behöver rapportera om och hantera alla företag som deras grupper gör affärer med.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Systemet fyller i <strong>Grupp</strong> för det nya företaget med den grupp du visar.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Om du har administrativ åtkomst till företag på din åtkomstnivå kan du ta bort gruppen från företaget och tilldela en annan, eller lämna företaget utan någon grupp.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Om du inte har administratörsbehörighet för företag kan du <strong>Grupp</strong> -fältet är obligatoriskt och du kan bara välja de grupper som du hanterar eller eventuella undergrupper under dessa grupper.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Mer information om administrativ åtkomst till företag finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </li> 
+        <li> <p><b>Företagsmedlemmar</b>: Lägg till befintliga användare i företaget. Genom att göra detta associerar du de här användarna med det här företaget.</p> <p>Det finns ingen gräns för hur många användare du associerar med ett företag, men en användare kan inte associeras med mer än ett företag.</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Faktureringsavsnittet</td> 
+      <td> <p>Du kan åsidosätta faktureringstariffer som är kopplade till dina jobbroller på företagsnivå. Mer information om hur du skapar jobbroller och associerar dem med faktureringstariffer finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" data-mc-variable-override="">Skapa och hantera jobbroller</a>.</p> <p>Mer information om att åsidosätta faktureringssatser på företagsnivå finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref" data-mc-variable-override="">Åsidosätt faktureringssatser för jobbroller på företagsnivå</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Anpassat Forms-avsnitt</td> 
+      <td> <p>Om det finns fält som du vill lägga till i ditt företag som inte är tillgängliga i Workfront kan du skapa ett anpassat formulär och associera det med ditt företag. Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan. Endast aktiva företag visas i listrutan. Mer information om hur du skapar anpassade Forms finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" data-mc-variable-override="">Skapa eller redigera ett anpassat formulär</a>. </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!TIP]
+   >
+   >Om du har administrativ åtkomst till företag på din åtkomstnivå kan du även klicka på Lägg till fler företag längst ned i listan. Då läggs en rad till där du snabbt kan konfigurera det nya företaget.
+
+1. (Valfritt) Om du vill redigera eller ta bort företag markerar du minst ett företag och använder sedan verktygsfältsknapparna för att redigera ![](assets/edit-icon.png) eller ta bort ![](assets/delete.png) den.
+
+   Mer information om hur du redigerar ett företag finns i avsnittet [Skapa eller redigera ett företag i Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) i artikeln [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+1. (Valfritt) Om du vill exportera listan med företag klickar du på ikonen Exportera ![](assets/export.png)väljer du sedan det filformat du vill använda för den exporterade listan.

@@ -1,0 +1,86 @@
+---
+product-area: templates
+navigation-topic: templates-navigation-topic
+title: Ta bort mallinformation från ett projekt
+description: Du kan inte ta bort en mall från ett projekt. Du kan bara ta bort information som har lagts till i projektet manuellt efter att en mall har kopplats till projektet. Mer information om hur du bifogar mallar finns i Bifoga en mall till ett projekt.
+author: Alina
+feature: Work Management
+exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 0%
+
+---
+
+# Ta bort mallinformation från ett projekt
+
+Du kan inte ta bort en mall från ett projekt. Du kan bara ta bort information som har lagts till i projektet manuellt efter att en mall har kopplats till projektet. Mer information om hur du bifogar mallar finns i [Bifoga en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Arbeta eller högre</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td> <p>Redigera åtkomst till uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Hantera åtkomst till uppgifter </p> <p>Contribute eller senare åtkomst till projektet </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
+## Alternativ för att ta bort mallinformation från ett projekt
+
+Om du vill ta bort mallinformation som har lagts till i projektet kan du göra något av följande:
+
+* Ta bort information från projektet manuellt när mallen har bifogats.
+
+   Mer information finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+* Ta bort de uppgifter i projektet som lades till med mallen.
+
+   Mer information finns i [Ta bort uppgifter som skapats från en mall](#delete-tasks-created-from-a-template) i den här artikeln.
+
+* Ta bort mallen från Workfront. När du tar bort mallen från Workfront tas inte uppgifter som lagts till från mallen bort från projekt.
+
+   Mer information finns i [Ta bort projektmallar](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
+
+## Ta bort uppgifter som skapats från en mall {#delete-tasks-created-from-a-template}
+
+1. Gå till **Uppgifter** -delen av projektet.
+1. Gör något av följande:
+
+   * Skapa ett filter för uppgiftslistan så att endast uppgifter som har skapats från en mall visas med följande programsats:
+
+      ```
+      Task >> Template Task ID >>Is Not Blank
+      ```
+
+      Mer information om hur du skapar ett filter finns i [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
+      När du använder filtret visas endast uppgifter som är kopplade till ett malluppgifts-ID i listan.
+
+   * Skapa en vy för uppgiftslistan för att visa **Malluppgifts-ID** eller **Malluppgiftsnamn** fält i en kolumn.
+
+      När du använder vyn skapades de uppgifter som innehåller information i kolumnen Malluppgift-ID eller Malluppgiftsnamn med hjälp av en mall.
+
+      Mer information om hur du skapar en vy finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. Markera alla uppgifter som identifieras i steg 2 som skapade från en mall och klicka sedan på **ikonen Ta bort****> Ja, ta bort den**. Mer information finns i [Ta bort uppgifter](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

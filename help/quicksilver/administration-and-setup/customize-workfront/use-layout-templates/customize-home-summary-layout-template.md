@@ -1,0 +1,145 @@
+---
+title: Anpassa hem och sammanfattning med en layoutmall
+user-type: administrator
+product-area: system-administration;templates;setup
+navigation-topic: layout-templates
+description: Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i Hem och i Sammanfattning. Varje konfiguration som du gör enligt stegen nedan påverkar Hem- och Sammanfattningspanelen på samma sätt. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 0%
+
+---
+
+# Anpassa hem och sammanfattning med en layoutmall
+
+Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i Hem och i Sammanfattning. Varje konfiguration som du gör enligt stegen nedan påverkar Hem- och Sammanfattningspanelen på samma sätt. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
+
+Du kan konfigurera:
+
+* Vilka fält som visas för en uppgift eller ett problem i området Detaljer, och i vilken ordning
+* Vare sig uppdateringar, loggad tid, bifogade dokument och tidsstämplar visas för en vald uppgift eller utgåva
+
+Du kan också anpassa fälten som användarna ser i området Hem när användarna klickar på ett projektgodkännande, dokumentgodkännande eller godkännande av dokumentversion som de har tilldelats.
+
+Mer information om Hem-området finns i [Använda området Hem](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Mer information om panelen Sammanfattning finns i [Sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
+Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Anpassa hem och sammanfattning med en layoutmall
+
+1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det användarna ser** och sedan klicka **Hem och sammanfattning**.
+
+1. Klicka på objekttypen (**Uppgifter**, **Problem**, **Projekt**, **Dokument**, eller **Dokumentversioner**) som du vill anpassa i Hem och Sammanfattning.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Uppgifter</td> 
+      <td> <p>I Hem påverkar konfigurationen för den här inställningen området till höger om en uppgift när en användare klickar på uppgiften. I en lista över uppgifter påverkar den panelen Sammanfattning som visas på sidans högra sida när en användare väljer en åtgärd och klickar sedan på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> <p>Du kan till exempel bestämma vilka fält som användare ska se i området Detaljer när användare väljer uppgifter i Hem:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>Och när de väljer en uppgift i sammanfattningen:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Problem</td> 
+      <td> <p>I Hem påverkar konfigurationen för den här inställningen området till höger om ett problem när en användare klickar på problemet.</p> <p>I en lista över problem påverkar den här inställningen panelen Sammanfattning som visas till höger på sidan när en användare väljer ett problem och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Projekt</td> 
+      <td>När en användare klickar på ett projektgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Dokument</td> 
+      <td>När en användare klickar på ett dokumentgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Dokumentversioner</td> 
+      <td>När en användare klickar på ett godkännande som tilldelats dem för en viss version av ett dokument i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!IMPORTANT]
+   >
+   >Om en uppgift inte har tilldelats kan användaren som är tilldelad layoutmallen inte se fältanpassningarna i Sammanfattning.
+
+1. (Villkorligt) Om du klickade på Åtgärder eller Problem i föregående steg väljer du den kategori av uppgift eller problem som du vill anpassa.
+
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+
+1. (Villkorligt) Om **Ange primär åtgärdsknapp** nedrullningsbar meny visas (om du väljer **Uppgifter** eller **Problem** i listan till vänster) klickar du på den primära åtgärden (**Klar** eller **Status**) som du vill ska vara tillgängliga för användare i hemområdet och på sammanfattningspanelen när de visar en uppgift eller ett problem.
+
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+
+1. Lägg till ![](assets/add-item-plus-in-circle-blue.png) eller dölja ![](assets/close-or-hide---x.png) fält för den valda objekttypen.
+
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+
+1. Upprepa steg 3-6 för att anpassa Hem- och Sammanfattningspanelen för andra objekttyper.
+1. Klicka **Globala inställningar**, nära det nedre vänstra hörnet, och sedan aktivera eller inaktivera något av följande alternativ för Adobe Workfront-objekt i Hem och Sammanfattning:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Visa uppdateringar för arbete</td> 
+      <td>Visar alla uppdateringar som gjorts för en vald uppgift eller ett valt problem i Hem eller Sammanfattning. Detta omfattar både systemuppdateringar och uppdateringar som görs av en användare. Användarna kan fortfarande filtrera bort systemuppdateringar enligt beskrivningen i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Aktivera eller inaktivera systemuppdateringar</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Uppdatera arbete</a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Logga tid för arbete</td> 
+      <td>Visar alternativet Logga tid mot arbete när en uppgift eller ett problem har valts, vilket gör att användare kan logga tid på arbetsobjekt direkt från Hem- och sammanfattningsområdena.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Visa dokument som är kopplade till arbetet</td> 
+      <td>Visar ett dokumentområde i Hem och Sammanfattning när en uppgift eller utgåva har valts, med en lista över eventuella dokument som har kopplats till uppgiften eller utgåvan. Användarna kan klicka på dokumenten för att visa dem i ett förhandsgranskningsfönster.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Dölj tidsstämpel</td> 
+      <td>Döljer tidsstämplar för följande datumfält i Hem och Sammanfattning:
+       <ul>
+        <li>Planerat slutförandedatum</li>
+        <li>Bekräftelsedatum</li>
+        <li><p>Skickat den</p></li>
+       </ul><p><b>ANMÄRKNING</b>: När det här alternativet är aktiverat flyttas arbetsobjekt som blivit förfallna till grupperingen Sent i hemarbetslista baserat enbart på datum, inte tid.</p></td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Fortsätt att anpassa layoutmallen.
+
+   eller
+
+   Om du är klar med anpassningen klickar du på **Spara**.
+
+Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

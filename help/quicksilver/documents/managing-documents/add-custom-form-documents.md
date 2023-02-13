@@ -1,0 +1,76 @@
+---
+product-area: documents
+navigation-topic: manage-documents
+title: Lägga till eller redigera ett anpassat formulär i ett dokument
+description: Du kan lägga till ett anpassat formulär i ett dokument eller i en dokumentversion för att hämta ytterligare information eller metadata som är specifika för dina resurser.
+author: Courtney
+feature: Digital Content and Documents
+exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
+source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 0%
+
+---
+
+# Lägga till eller redigera ett anpassat formulär i ett dokument
+
+Du kan lägga till ett anpassat formulär i ett dokument eller i en dokumentversion för att hämta ytterligare information eller metadata som är specifika för dina resurser.
+
+## Åtkomstkrav
+
+Du måste ha följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> <p> Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licenser*</td> 
+   <td> <p>Begäran eller senare</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Hantera åtkomst till dokumentet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
+## Förutsättningar
+
+* Det anpassade formuläret måste delas med dig
+
+## Lägga till ett anpassat formulär
+
+Så här lägger du till ett anpassat formulär i ett dokument:
+
+1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
+1. Hitta det dokument du behöver.
+
+1. Klicka på **Sammanfattning** icon ![](assets/summary-panel-icon.png)och sedan hitta **Detaljer** -avsnitt.
+1. I **Lägg till anpassat formulär** börjar du skriva och väljer ett eget formulär. Formuläret sparas automatiskt i dokumentet.
+
+   >[!NOTE]
+   >
+   >Endast aktiva anpassade formulär visas i listrutan. Du kan lägga till upp till 10 anpassade formulär per dokument. Om du behöver skapa ett anpassat formulär kan du läsa mer i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+
+## Redigera ett eget formulär
+
+1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
+1. Hitta det dokument du behöver.
+
+1. Klicka på **Sammanfattning** icon ![](assets/summary-panel-icon.png)och sedan hitta **Detaljer** -avsnittet nära toppen.
+1. Klicka **Redigera** i det övre högra hörnet och sedan färdigställa det önskade formuläret.
+1. Gör de ändringar du behöver och klicka sedan på **Spara**.
+
+   ![](assets/edit-custom-form-350x265.png)

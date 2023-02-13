@@ -1,0 +1,141 @@
+---
+title: Visa projektaktivitetsvisualisering i Förbättrad analys
+content-type: overview
+product-area: enhanced-analytics
+navigation-topic: enhanced-analytics-navigation-topic
+description: I projektaktivitetsvisualiseringen visas en sammanställd vy över aktiviteter på projektnivå - aktiviteterna för varje person som tilldelats projektet - som inträffade under en viss tidsperiod. Du kan begränsa ditt fokus för att förstå aktiviteterna i ett projekt eller jämföra projektaktiviteter med andra projekt i Adobe Workfront.
+author: Nolan
+feature: Reports and Dashboards
+exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
+source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 0%
+
+---
+
+# Visa projektaktivitetsvisualisering i Förbättrad analys
+
+I projektaktivitetsvisualiseringen visas en sammanställd vy över aktiviteter på projektnivå - aktiviteterna för varje person som tilldelats projektet - som inträffade under en viss tidsperiod. Du kan begränsa ditt fokus för att förstå aktiviteterna i ett projekt eller jämföra projektaktiviteter med andra projekt i Adobe Workfront.
+
+>[!NOTE]
+>
+>Aktivitet per team-visualisering fungerar på liknande sätt som den här visualiseringen, men med Aktivitet per team visas teamaktiviteter hemma för alla projekt.\
+>Mer information om visualisering av aktivitet per team finns i [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](../enhanced-analytics/activity-by-team-overview.md).
+
+<!--WRITER bad link; there is no Activity by Team.png
+[![](assets/project-activity-350x114.png)](../Resources/Images/Analytics/Activity by Team.png)
+-->
+
+## Åtkomstkrav
+
+Du måste ha följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront</a>*</td> 
+   <td> <p>Företag eller högre</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>*</td> 
+   <td> <p>Granska eller högre</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td> <p>Visa åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
+## Förutsättningar
+
+Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Förstå projektaktivitetsvisualisering
+
+Projektaktiviteter visas i olika färger för att sammanfatta specifika händelser i ett projekt under en tidsperiod:
+
+* **Användare som är inloggade**: Lila rutor visar att personer som tilldelats projektet loggade in den dagen. En mörkare ton anger att fler personer loggar in.
+
+   ![](assets/project-activity-users-logged-in.png)
+
+* **Ändring av aktivitetsstatus**: Rutorna för rosa visar att någon har ändrat status för en uppgift för projektet den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
+
+   ![](assets/project-activity-task-status-changes.png)
+
+* **Slutförda uppgifter**: Blå rutor visar att andra har slutfört en uppgift för projektet. En mörkare ton anger att fler uppgifter slutförs.
+
+   ![](assets/project-activity-tasks-completed.png)
+
+När du hovrar över en ruta visas det exakta antalet gånger som åtgärden har slutförts under en viss dag. Du kan välja ett projekt för att se en beskrivning av aktiviteterna för varje enskild deltagare i projektet.
+
+Om du ser den här informationen blir det lättare att avgöra:
+
+* Aktiviteten i ett visst projekt.
+* Ett projekts aktivitet jämfört med andra projekt.
+* Vilka användare som arbetar med ett projekt och med vilken frekvens.
+
+Om du vill veta hur du får de bästa data för den här visualiseringen kan du läsa [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Visa projektaktivitetsvisualisering
+
+1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
+1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
+
+   ![](assets/filters-select-date-range-350x344.png)
+
+   Mer information om hur du använder datumintervallfiltret finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+   >[!NOTE]
+   >
+   >Om du väljer ett datumintervall för en period som är längre än tre månader visas inga data i projektaktivitetsvisualiseringen.
+
+1. (Villkorligt) Om du behöver begränsa projektdatauppsättningen markerar och tillämpar du de filter som du vill använda.
+
+   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+   När du har lagt till filter visas data för upp till 50 projekt och filtren förblir aktiva även när du lämnar sidan eller loggar ut från Workfront.
+
+1. (Valfritt) Om du vill zooma in ett datumintervall markerar du en punkt i visualiseringen för början av datumintervallet och drar till slutet av datumintervallet.
+
+   Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas.
+
+   ![](assets/timeframe-filter-350x220.png)
+
+1. (Valfritt) Om du vill ändra hur projekten sorteras klickar du på **Sortera efter** väljer du ett nytt sorteringsalternativ:
+
+   * **A - Z**
+   * **Z - A**
+   * **Planerat slutförandedatum**
+   * **Planerat startdatum**
+
+   Alla andra visualiseringar på sidan uppdateras för att matcha din sorteringsmarkering.
+
+1. (Villkorligt) Om det finns fler än 50 projekt i datauppsättningen använder du pilarna i det nedre vänstra hörnet av visualiseringen för att navigera mellan 50 projekt i en grupp.
+
+   Alla andra visualiseringar på sidan uppdateras så att de matchar sidans val.
+
+   ![](assets/pagination-350x118.png)
+
+1. Klicka på ett projekt i visualiseringen för att se mer information om projektet.
+
+   Listan utökas för att visa aktiviteterna för varje enskild deltagare i projektet.
+
+1. För musen över en ruta för att se vilket datum användaren slutförde en åtgärd samt hur många gånger åtgärden slutfördes för den dagen.
+
+   ![](assets/project-activity-activity-pop-up-350x137.png)
+
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Ikonen Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen väljer du exportformat:
+
+   * **Diagram (PNG)**
+   * **Datatabell (XSLX)**
+
