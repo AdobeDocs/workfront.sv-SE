@@ -8,8 +8,7 @@ navigation-topic: apps-and-their-modules
 title: Microsoft Word-mallmoduler
 description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder Microsoft Word-mallar samt ansluta dem till flera tredjepartsprogram och -tjänster.
 author: Becky
-hidefromtoc: true
-source-git-commit: 604d5f1d5e2db4d6367ac3543895f60aaae3abd8
+source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 0%
