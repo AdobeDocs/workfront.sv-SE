@@ -7,14 +7,18 @@ description: Du kan uppdatera ett befintligt projekt, en uppgift eller ett probl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Uppdatera en [!DNL Adobe Workfront] objekt från [!DNL G Suite] använda e-postinnehåll
+
+>[!NOTE]
+>
+>Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
 
 Du kan uppdatera ett befintligt projekt, en befintlig uppgift eller ett befintligt problem med information från en icke-[!DNL Adobe Workfront] e-post.
 

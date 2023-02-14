@@ -7,14 +7,18 @@ description: Du kan visa och hantera information om en arbetsuppgift utan att l�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Visa och hantera [!DNL Adobe Workfront] objektinformation från [!DNL G Suite]
+
+>[!NOTE]
+>
+>Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
 
 Du kan visa och hantera information om en arbetsuppgift utan att lämna den [!DNL G Suite]. Du kan till exempel läsa en uppgifts beskrivning, visa dess överordnade objekt, ändra dess status och markera den som fullständig, allt i [!DNL Adobe Workfront for G Suite].
 

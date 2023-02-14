@@ -7,14 +7,18 @@ description: Du kan konvertera ett externt e-postmeddelande (som inte genererats
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Skapa en [!DNL Adobe Workfront] utgåva [!DNL G Suite] använda e-postinnehåll
+
+>[!NOTE]
+>
+>Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
 
 Du kan konvertera ett externt e-postmeddelande (som inte genererats av [!DNL Adobe Workfront]) till [!DNL Workfront] problem.
 
