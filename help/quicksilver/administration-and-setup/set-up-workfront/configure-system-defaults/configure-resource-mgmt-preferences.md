@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -211,13 +211,13 @@ Mer information om planering och planering av resurser finns i [!DNL Workfront],
       The Available hours for the user is calculated by the following formula:
 
       ```
-      User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Time off hours) * [!UICONTROL Work Time]
+      User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]
       ```    
 
       The Available [!UICONTROL FTE] for the user is calculated by the following formula:
 
       ```
-      User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours
+      User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours
       ```
 
       >[!INFO]

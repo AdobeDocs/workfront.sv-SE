@@ -5,14 +5,18 @@ description: Som en del av resursplaneringen kan du använda Adobe Workfront Sce
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: ffd7a588c0c9449b7a6aa18e6df7baa7c9872926
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Budgetresurser i affärsärendet med scenarioplaneraren
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Som en del av resursplaneringen kan du använda Adobe Workfront Scenario Planner för att budgetera de jobbroller som krävs för att slutföra arbetet i ett projekt när du bygger affärsplanen.
 
@@ -126,15 +130,19 @@ Du kan budgetera dina resurser för en period på 15 år. Om du budgeterar resur
 
       ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
-      Workfront använder de obligatoriska jobbrolltimmarna från det länkade initiativet för att beräkna projektets budgeterade arbetskostnad. Detta är det rekommenderade alternativet. Kostnaden visas i affärsärendet i projektets valuta.
+      Workfront använder de obligatoriska jobbrolltimmarna från det länkade initiativet för att beräkna projektets budgeterade arbetskostnad och budgeterade timmar. Detta är det rekommenderade alternativet. Kostnaden visas i affärsärendet i projektets valuta.
 
-      >[!IMPORTANT]
-      När du använder Scenarioplanering för att budgetera resurser för projektet visas Budgeterad arbetskostnad i följande områden i Workfront:
-      * Resursbudgeteringsområde för affärsärendet
-      * Scenarioplanering på systemnivå som personkostnad för det projekt som är kopplat till projektet. Mer information finns i [Skapa och redigera initiativ i Scenarioplaneraren](../../../scenario-planner/create-and-edit-initiatives.md).
+      <!--drafted for Budgeted Hours:
+   <span class="preview">När du kopierar ett projekt och väljer att kopiera de budgeterade timmarna till det nya projektet, kopieras inte de timmar som har budgeterats med scenarioplanen till det nya projektet. Endast timmar som har budgeterats i resursplaneraren kopieras. Mer information finns i [Kopiera ett projekt](../manage-projects/copy-project.md)</span>
+—>
+
+   >[!IMPORTANT]
+   När du använder Scenarioplanering för att budgetera resurser för projektet visas Budgeterad arbetskostnad i följande områden i Workfront:
+   * Resursbudgeteringsområde för affärsärendet
+   * Scenarioplanering på systemnivå som personkostnad för det projekt som är kopplat till projektet. Mer information finns i [Skapa och redigera initiativ i Scenarioplaneraren](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
-1. (Valfritt) Klicka på **Visa i scenarioplan** att öppna den plan som innehåller det projekt som är kopplat till projektet. Då öppnas Scenarioplanen på en ny flik i webbläsaren.
+1. (Valfritt) Klicka på **Visa i scenarioplan** att öppna den plan som innehåller det projekt som är kopplat till projektet. Då öppnas Scenarioplanen på en ny flik i webbläsaren.
 1. (Valfritt) Uppdatera information om initiativet. Mer information finns i [Skapa och redigera initiativ i Scenarioplaneraren](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
