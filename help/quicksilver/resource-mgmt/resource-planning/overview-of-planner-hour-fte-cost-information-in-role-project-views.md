@@ -7,9 +7,9 @@ description: Översikt över timmar, heltidsekvivalenter och kostnadsinformation
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,8 @@ I följande tabeller visas information om tilldelning och tillgänglighet som vi
      <li>timmar budgeterade för andra projekt. </li> 
     </ul> <p>Tillgängliga timmar, heltidsanställda eller kostnader för en användare ändras enligt följande: </p> 
     <ul> 
-     <li>hur deras schema och FTE beräknas baserat på inställningarna för resurshantering på systemnivå.<br>Mer information om hur du beräknar tillgängligheten för användare och jobbroller finns i artikeln <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>.</li> 
+     <li>hur deras schema och FTE beräknas baserat på inställningarna för resurshantering på systemnivå.<br><p>Mer information om hur du beräknar tillgängligheten för användare och jobbroller finns i artikeln <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>.</p>
+     Mer information om hur du konfigurerar inställningar för resurshantering i Workfront finns i <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a></li> 
     </ul> 
     <ul> 
      <li>den <strong>Projektplaneringsprioritet</strong>, om användaren är budgeterad för arbete.<br>Mer information om hur Project Planning Priority påverkar användarens tillgängliga timmar finns i <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Översikt över navigering i resursplanering </a>. </li> 
@@ -135,6 +136,8 @@ I följande tabeller visas information om tilldelning och tillgänglighet som vi
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### Kolumnen PLN (planerad) {#the-pln-planned-column}
 
@@ -303,7 +306,7 @@ Tänk på följande när du arbetar med budgeterade timmar:
       <li> <p>Skillnaden mellan tillgänglig tid eller kostnad och budgeterad tid eller kostnad för rollen:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>Skillnaden mellan tillgänglig tid eller kostnad och planerad tid eller kostnad för rollen när värdet för Använd planerad (PLN) i NETTOberäkningar är aktiverat:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIPS</b> <span>
 
-Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</span> </p> <p><span>Mer information finns i</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner</a> </p> </li>
+Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</span> </p> <p><span>Mer information finns i </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -316,7 +319,7 @@ Det här alternativet används bara när du anpassar vyn i avsnittet Visa marker
       <li> <p>Skillnaden mellan Tillgänglig tid eller kostnad och Budgeterad tid eller kostnad för användaren:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>Skillnaden mellan Tillgänglig tid eller kostnad och Planerad tid eller kostnad för användaren när värdet för Använd planerad (PLN) i NETTOberäkningar är aktiverat:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIPS</b> <span>
 
-Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</span> </p> <p><span>Mer information finns i</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner</a> </p> </li>
+Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</span> </p> <p><span>Mer information finns i </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 

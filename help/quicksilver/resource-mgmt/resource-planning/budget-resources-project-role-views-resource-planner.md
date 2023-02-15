@@ -6,9 +6,9 @@ description: Du kan budgetera resurser i Adobe Workfront Resursplanering med pro
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    Mer information om hur du förstår resursbudgeteringsområdet för affärsärendet finns i avsnittet Resursbudgetering i artikeln [Översikt över affärsområdet](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Valfritt) Välj användarvyn om du vill se eventuella användaröverbeläggningar eller underutnyttjande mellan Tillgängliga och Planerade timmar för varje användare. Budgeterade timmar visas inte i användarvyn.
+
+   Information om hur Workfront beräknar tillgängligheten för en användare finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Budgetresurser i rollvyn {#budget-resources-in-the-role-view}
 

@@ -6,9 +6,9 @@ description: När du använder Adobe Workfront Scenarioplan kan du skapa initiat
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,18 @@ Så här skapar du helt nya initiativ:
      </tr> 
      <tr> 
       <td role="rowheader">Sektion för obligatoriska jobbroller </td> 
-      <td> <p>Klicka på <strong>[!UICONTROL Start typing job role]</strong> och välj en roll i listan eller börja skriva namnet på en<span>n aktiv</span> jobbroll. </p> <p><span>Beroende på om planen är konfigurerad för att använda heltidsanställda eller timmar,</span> lägg till antalet jobbroller som krävs för det här initiativet i heltidsanställda <span><span>eller timmar</span></span><span> för varje månad i initiativet</span>. <span>Initiativets första tre månader visas som standard.</span></p> <p><span>Om du uppdaterar jobbrollsinformationen för initiativet uppdateras även den obligatoriska jobbrollsinformationen för planen.</span> </p> <p>Information om hur du konfigurerar planen för att använda heltidsanställda eller timmar finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i [!DNL Scenario Planner]</a>. </p> <p>Tips:  
-        <ul> 
-         <li> <p><span>Använd [!UICONTROL Tab] till nästa månad.</span> </p> </li> 
-         <li> <p> Alla <span>aktiv</span> jobbroller i systemet visas när du klickar på det här fältet. </p> </li> 
-         <li> <p>De jobbroller som redan har lagts till i tillgängliga jobbroller för planen visas först. Mer information om hur du lägger till tillgängliga jobbroller i en plan finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplaneraren</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] Parlamentet anser att en heltidsekvivalent är 160 timmar för en månad. </p> </li> 
-        </ul> </p> <p>Du kan ange ett tal som är lägre än 1 FTE eller decimaltal för FTE <span>eller</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">timmar</span>. Till exempel innebär en konsult på 0,5 timmar att en konsult skulle ägna hälften av sin heltidsanställd (vanligtvis 4 timmar, där 8 timmar är 1 heltidsanställd) åt att arbeta med detta initiativ. </p> <p>För alla beräkningar i Scenarioplaneraren använder Workfront följande värde: 1 heltidsanställd = 8 timmar. </p> </td> 
+      <td> <p>Klicka på <strong>[!UICONTROL Start typing job role]</strong> och välj en roll i listan eller börja skriva namnet på en<span>n aktiv</span> jobbroll. </p> <p><span>Beroende på om planen är konfigurerad för att använda heltidsanställda eller timmar,</span> lägg till antalet jobbroller som krävs för det här initiativet i heltidsanställda <span><span>eller timmar</span></span><span> för varje månad i initiativet</span>. <span>Initiativets första tre månader visas som standard.</span></p> <p><span>Om du uppdaterar jobbrollsinformationen för initiativet uppdateras även den obligatoriska jobbrollsinformationen för planen.</span> </p> <p>Information om hur du konfigurerar planen för att använda heltidsanställda eller timmar finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i [!DNL Scenario Planner]</a>. </p>
+      <p><b>VIKTIGT</b></p>  
+      <p>För alla beräkningar i [!DNL Scenario Planner], [!DNL Workfront] använder följande värde: 1 heltidsanställd = 8 timmar. </p>
+
+   <p><b>TIPS</b></p>
+
+   <ul> 
+       <li> <p><span>Använd [!UICONTROL Tab] till nästa månad.</span> </p> </li> 
+      <li> <p> Alla <span>aktiv</span> jobbroller i systemet visas när du klickar på det här fältet. </p> </li> 
+       <li> <p>De jobbroller som redan har lagts till i tillgängliga jobbroller för planen visas först. Mer information om hur du lägger till tillgängliga jobbroller i en plan finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplaneraren</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] Parlamentet anser att en heltidsekvivalent är 160 timmar för en månad. </p> <p>För alla beräkningar i Scenarioplaneraren använder Workfront följande värde: 1 heltidsanställd = 8 timmar. </p></li> 
+      </ul> </p> <p>Du kan ange ett tal som är lägre än 1 FTE eller decimaltal för FTE <span>eller</span> <span>timmar</span>. Till exempel innebär en konsult på 0,5 timmar att en konsult skulle ägna hälften av sin heltidsanställd (vanligtvis 4 timmar, där 8 timmar är 1 heltidsanställd) åt att arbeta med detta initiativ. </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">Kostnadssektion</td> 

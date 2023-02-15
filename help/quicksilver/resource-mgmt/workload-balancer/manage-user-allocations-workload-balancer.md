@@ -6,9 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,12 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
       >Om du ändrar allokeringar när den här inställningen är aktiverad minskar det totala antalet på användarraden.
 
    1. **Projekt** i **Välj färgtema** -avsnitt. Detta visar varje projekt och dess respektive arbetsobjekt i unika färger och gör det enklare att förstå vilka objekt som tillhör vilket projekt.
-   1. **Procent** i **Visa användarallokering i** -avsnitt. Detta visar allokeringar som ett procentvärde. Användarens kapacitet enligt schema anses vara 100 %. Om en användare till exempel är associerad med ett schema på 8 timmar per dag är 8 timmar lika med 100 % kapacitet. Om du vill tilldela användaren fyra timmar per dag uppdaterar du hans/hennes tilldelning till 50 %.
+   1. **Procent** i **Visa användarallokering i** -avsnitt. Detta visar allokeringar som ett procentvärde. Användarens kapacitet enligt schemat anses vara 100 %. Om en användare till exempel är associerad med ett schema på 8 timmar per dag är 8 timmar lika med 100 % kapacitet. Om du vill tilldela användaren fyra timmar per dag uppdaterar du hans/hennes tilldelning till 50 %.
+
+      >[!NOTE]
+      >
+      >Workfront-administratören bestämmer vilket schema som ska användas i hela systemet för att beräkna användarens kapacitet i området Resurshantering i installationsprogrammet. Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 
 1. Klicka på **Mer** meny ![](assets/qs-more-menu.png) för en arbetsuppgift, klicka sedan på **Redigera allokeringar**.
 

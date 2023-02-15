@@ -6,9 +6,9 @@ description: Du kan skapa planer som en del av att använda Workfront Scenariopl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -127,12 +127,14 @@ Så här skapar eller redigerar du en plan:
       <td role="rowheader"><span>FTE ([!UICONTROL Full Time Equivalent]) eller [!UICONTROL Hours]</span> </td> 
       <td> <p><span>Välj något av följande alternativ för att ange hur du vill beräkna jobbrollsinformation för den här planen:</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>. Detta är standardinställningen </span> </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
-         --> <p>För alla beräkningar i [!DNL Scenario Planner], [!DNL Workfront] använder följande värde: 1 heltidsanställd = 8 timmar. </p> </li> 
-        <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
-       </ul> <p>Viktigt: <span>Det alternativ du väljer här avgör hur information om jobbroller visas för planen, planens scenarier och initiativ.</span> </p> </td> 
-     </tr> 
+      <li> <p><span><strong>FTE</strong>. Detta är standardinställningen </span> </p> 
+      <p><b>VIKTIGT</b></p>  
+      <p>För alla beräkningar i [!DNL Scenario Planner], [!DNL Workfront] använder följande värde: 1 heltidsanställd = 8 timmar. </p> </li> 
+      <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
+       </ul> <p><b>VIKTIGT</b></p>
+
+   Det alternativ du väljer här avgör hur information om jobbroll visas för planen, planens scenarier och initiativ</p> </td>
+   </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Start date]</td> 
       <td> <p>Välj den månad och det år då du vill att planen ska starta. I det här fältet kan du bara välja månader. [!DNL Workfront] förutsätter att startdatumet för planen är den första dagen i den valda månaden och att slutdatumet är den sista dagen i slutet av månaden. </p> </td> 
@@ -148,6 +150,8 @@ Så här skapar eller redigerar du en plan:
      </tr> 
     </tbody> 
    </table>
+
+<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Villkorligt) Klicka **[!UICONTROL Next]**.
 
