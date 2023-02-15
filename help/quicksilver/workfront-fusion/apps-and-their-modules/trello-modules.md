@@ -266,7 +266,7 @@ Den här åtgärdsmodulen redigerar inställningarna för en befintlig anslagsta
    <td> <p> Ange om kalenderfeeden är aktiverad eller inte.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL <Color> label name]</td> 
+   <td role="rowheader">[!UICONTROL &lt;Color> label name]</td> 
    <td> <p> Ge färgetiketten ett namn.</p> </td> 
   </tr> 
   <tr> 

@@ -68,30 +68,22 @@ The [!UICONTROL SOAP] Modulen är för närvarande i betaversion och stöder int
 >  
 >Följande känns inte igen korrekt av [!UICONTROL Workfront Fusion]:
 >
->
-```
+>```
 ><complexType name="ArrayOfFloat">
 >
->   
-  <complexContent>
+>   <complexContent>
 >
->      
-     <restriction base="soapenc:Array">
+>      <restriction base="soapenc:Array">
 >
->         
-        <attribute ref="soapenc:arrayType"
+>         <attribute ref="soapenc:arrayType"
 >
->            
-           wsdl:arrayType="xsd:integer[]"/>
+>            wsdl:arrayType="xsd:integer[]"/>
 >
->      
-     </restriction>
+>      </restriction>
 >
->   
-  </complexContent>
+>   </complexContent>
 >
->
-</complexType>
+></complexType>
 >```
 
 Den innehåller `soapenc:Array`, `soapenc:arrayType` och `wsdl:arrayType` referenser, som ännu inte stöds i [!UICONTROL Workfront Fusion].

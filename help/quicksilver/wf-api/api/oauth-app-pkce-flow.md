@@ -83,18 +83,14 @@ PKCE-generatorkoden skapar utdata som liknar följande:
 >
 >**Exempel:**
 >
->
-```
+>```
 >{
 >
+>  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
-  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
+>  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >
->
-  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
->
-}
+>}
 >```
 
 Din app sparar `code_verifier` för senare och skickar `code_challenge` tillsammans med auktoriseringsbegäran till din Authorization Server `/authorize` URL.
@@ -108,12 +104,10 @@ Om du använder standardservern för anpassad auktorisering ser din begärande-U
 >**Exempel:**
 >
 >
->
-```
+>```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
 >
->
-&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
 Observera de parametrar som skickas:
@@ -139,21 +133,16 @@ Om du vill ändra auktoriseringskoden för en åtkomsttoken skickar du den till 
 >
 >**Exempel:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
+>  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
 >[!IMPORTANT]
@@ -179,21 +168,16 @@ Om koden fortfarande är giltig och kodverifieraren matchar, får ditt program e
 >
 >**Exempel:**
 >
->
-```
+>```
 >{
 >
+>    "access\_token": "eyJhd\[...\]Yozv",
 >
-    "access\_token": "eyJhd\[...\]Yozv",
+>    "expires\_in": 3600,
 >
+>    "token\_type": "Bearer"
 >
-    "expires\_in": 3600,
->
->
-    "token\_type": "Bearer"
->
->
-}
+>}
 >```
 
 ## Validera åtkomsttoken
@@ -206,12 +190,10 @@ Du kan validera din åtkomsttoken med ett API-anrop som liknar följande:
 >
 >**Exempel:**
 >
->
-```
+>```
 >/attask/api/<api version>/proj/search \\
 >
->
-  --header 'sessionID: <access\_token>' \\
+>  --header 'sessionID: <access\_token>' \\
 >```
 
 ## Begär en uppdateringstoken
@@ -222,19 +204,14 @@ Om du vill begära en uppdateringstoken kan du göra ett POST-anrop till API:t p
 >
 >**Exempel:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
+>  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

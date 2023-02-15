@@ -134,16 +134,19 @@ Du kan budgetera dina resurser för en period på 15 år. Om du budgeterar resur
 
       <!--drafted for Budgeted Hours:
    <span class="preview">När du kopierar ett projekt och väljer att kopiera de budgeterade timmarna till det nya projektet, kopieras inte de timmar som har budgeterats med scenarioplanen till det nya projektet. Endast timmar som har budgeterats i resursplaneraren kopieras. Mer information finns i [Kopiera ett projekt](../manage-projects/copy-project.md)</span>
-—>
+-->
 
    >[!IMPORTANT]
-   När du använder Scenarioplanering för att budgetera resurser för projektet visas Budgeterad arbetskostnad i följande områden i Workfront:
-   * Resursbudgeteringsområde för affärsärendet
-   * Scenarioplanering på systemnivå som personkostnad för det projekt som är kopplat till projektet. Mer information finns i [Skapa och redigera initiativ i Scenarioplaneraren](../../../scenario-planner/create-and-edit-initiatives.md).
+   > 
+   >När du använder Scenarioplanering för att budgetera resurser för projektet visas Budgeterad arbetskostnad i följande områden i Workfront:
+   > 
+   >* Resursbudgeteringsområde för affärsärendet
+   >* Scenarioplanering på systemnivå som personkostnad för det projekt som är kopplat till projektet. Mer information finns i [Skapa och redigera initiativ i Scenarioplaneraren](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Valfritt) Klicka på **Visa i scenarioplan** att öppna den plan som innehåller det projekt som är kopplat till projektet. Då öppnas Scenarioplanen på en ny flik i webbläsaren.
 1. (Valfritt) Uppdatera information om initiativet. Mer information finns i [Skapa och redigera initiativ i Scenarioplaneraren](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   Du måste publicera initiativet efter varje ändring för området Resursbudgetering i projektet som ska uppdateras.
+   > 
+   >Du måste publicera initiativet efter varje ändring för området Resursbudgetering i projektet som ska uppdateras.

@@ -220,10 +220,10 @@ Se även [Meddelanden: Begäranden som jag har gjort](../../../workfront-basics/
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär att dokument ska läggas till i den primära kontakten</p> </td> 
-   <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar. &lt;!— DRAT I FLARE: Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i 
+   <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar. <!-- DRAT I FLARE: Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Översikt över fliken Köinformation i ett projekt</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -429,10 +429,10 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär att dokument ska läggas till i ärende som tilldelats</p> </td> 
-   <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.&lt;!— DRAT I FLARE: Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i 
+   <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.<!-- DRAT I FLARE: Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Översikt över fliken Köinformation i ett projekt</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 

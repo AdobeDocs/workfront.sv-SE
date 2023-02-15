@@ -92,14 +92,14 @@ A [!DNL Microsoft Word] mallen är en vanlig [!DNL Microsoft Word] -dokument (.d
 En enkel värdetagg ersätts helt enkelt med ett motsvarande värde. Taggens namn motsvarar [!UICONTROL Key] fältets värde, som placeras inom dubbla klammerparenteser, till exempel
 
 
-<pre>{{name}}</pre>
+<pre>&#123;&#123;name&#125;&#125;</pre>
 
 
 .
 
 **Exempel:** Om du vill skapa ett dokument med texten &quot;Hi, Petr!&quot; kan du använda en [!DNL Microsoft Word Template] för att skapa följande mall:
 
-<pre>&gt; Hej {{name}}!</pre>
+<pre>&gt; Hej &#123;&#123;name&#125;&#125;!</pre>
 
 För att göra detta ställer du in modulen enligt följande:
 
@@ -110,7 +110,7 @@ För att göra detta ställer du in modulen enligt följande:
 Du kan använda ett villkorsmärkord för att figursätta text som bara ska återges när vissa villkor uppfylls. Om du vill radbryta texten placerar du den mellan inledande och avslutande villkorstaggar, till exempel &quot;hasPhone&quot;, om villkoret är huruvida data innehåller ett telefonnummer eller inte. Namnet på en öppningstagg föregås av hash-tecknet #. Namnet på en avslutande tagg föregås av ett snedstreck /, vilket visas i exemplet nedan.
 
 **Exempel:** Om du vill skapa ett dokument som innehåller en kunds telefonnummer om indata innehåller ett telefonnummer, men ingen e-postadress, kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
-<pre>&gt; {{#hasPhone}} Telefon: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}} E-post: {{email}} {{/hasEmail}}</pre>För att göra detta ställer du in modulen enligt följande:
+<pre>> &#123;&#123;#hasPhone&#125;&#125; Telefon: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125; E-post: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>För att göra detta ställer du in modulen enligt följande:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +129,7 @@ Du kan använda en loop-tagg, som också kallas avsnittstagg, för att upprepa e
 
 **Exempel:** Om du vill skapa ett dokument med namn och telefonnummer för varje kontakt i en kundlista kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
 
-<pre>&gt; {{#contact}}</pre><pre>&gt; {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
 
 För att göra detta ställer du in modulen enligt följande:
 

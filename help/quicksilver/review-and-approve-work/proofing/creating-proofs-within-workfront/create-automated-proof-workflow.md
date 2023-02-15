@@ -65,8 +65,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >Tänk på följande när du använder en mall för automatiserat arbetsflöde:
    >   
    >* Inställningarna i en mall för automatiserat arbetsflöde avgör vad du kan göra med det automatiserade arbetsflödet för ett korrektur. Om till exempel knappen Lägg till en scen är inaktiverad i mallen visas den inte när du arbetar med inställningarna för det automatiska arbetsflödet för korrekturet.
-   * När en person läggs till i en bild i en mall för automatiserat arbetsflöde, men redan finns som granskare i korrekturet, tas granskaren bort från scenen när mallen används. Om du inte lägger till någon annan granskare på scenen visas ett meddelande som ber dig att lägga till en.
-   * Din möjlighet att ändra en mall för automatiserat arbetsflöde beror på mallinställningarna som konfigurerats av Workfront-administratören, vilket beskrivs i . Om möjligheten att ändra mallen är inaktiverad kan bara mallens ägare ändra den.
+   >* När en person läggs till i en bild i en mall för automatiserat arbetsflöde, men redan finns som granskare i korrekturet, tas granskaren bort från scenen när mallen används. Om du inte lägger till någon annan granskare på scenen visas ett meddelande som ber dig att lägga till en.
+   >* Din möjlighet att ändra en mall för automatiserat arbetsflöde beror på mallinställningarna som konfigurerats av Workfront-administratören, vilket beskrivs i . Om möjligheten att ändra mallen är inaktiverad kan bara mallens ägare ändra den.
 
 
 1. Konfigurera det första steget i det automatiserade arbetsflödet:
@@ -75,14 +75,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. I **Mottagare** för scenen lägger du till granskare på scenen.
 
       >[!NOTE]
-      Tänk på följande när du lägger till granskare på en scen:
-      * Du kan lägga till externa användare på en scen med en e-postadress.
-      * När du har lagt till en användare på en scen kan du konfigurera inställningarna för den användaren på korrekturet.
-      * Du kan dra användare direkt till en annan scen eller dra användare till en scen på **Steg** diagram. Om du vill markera flera användare trycker du på Skift+Ctrl (Windows) eller Skift+Kommando (Mac).
-      * Du kan bara lägga till en granskare i ett korrektur en gång, vilket betyder att du inte kan lägga till samma person i mer än en fas i korrekturet.
-      * Granskare som inte har lagts till på en privat scen kan inte se den scenen på det korrektur eller de kommentarer som har gjorts på den scenen.
-      * Om du lägger till en användare på en scen får användaren som standard åtkomst till korrekturet från det att korrekturet skapas.\
-         Din Workfront-administratör kan hindra användare från att komma åt korrekturet tills arbetsflödet går in på den scen där användaren lades till.
+      > 
+      >Tänk på följande när du lägger till granskare på en scen:
+      > 
+      >* Du kan lägga till externa användare på en scen med en e-postadress.
+      >* När du har lagt till en användare på en scen kan du konfigurera inställningarna för den användaren på korrekturet.
+      >* Du kan dra användare direkt till en annan scen eller dra användare till en scen på **Steg** diagram. Om du vill markera flera användare trycker du på Skift+Ctrl (Windows) eller Skift+Kommando (Mac).
+      >* Du kan bara lägga till en granskare i ett korrektur en gång, vilket betyder att du inte kan lägga till samma person i mer än en fas i korrekturet.
+      >* Granskare som inte har lagts till på en privat scen kan inte se den scenen på det korrektur eller de kommentarer som har gjorts på den scenen.
+      >* Om du lägger till en användare på en scen får användaren som standard åtkomst till korrekturet från det att korrekturet skapas.\
+      >   Din Workfront-administratör kan hindra användare från att komma åt korrekturet tills arbetsflödet går in på den scen där användaren lades till.
 
 
    1. Klicka **Sceninställningar**.
