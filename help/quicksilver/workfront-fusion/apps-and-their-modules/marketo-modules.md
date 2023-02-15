@@ -378,7 +378,7 @@ Den här åtgärdsmodulen läser information om en post med hjälp av dess ID.
    <td>Välj den information som du vill inkludera i utdatapaketet för den här modulen. Fälten är tillgängliga baserat på [!UICONTROL Record Type] du markerade.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL <Object> ID]</td> 
+   <td role="rowheader">[!UICONTROL &lt;Object> ID]</td> 
    <td>Ange eller mappa ID:t för objektet som du vill hämta information om.</td> 
   </tr> 
  </tbody> 

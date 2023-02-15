@@ -188,7 +188,7 @@ The [!UICONTROL XML] > [!UICONTROL Create XML] i konverteras ett paket till en X
 >1. Placera [!DNL Google Sheets] > [!UICONTROL Select rows] i ditt scenario för att hämta data. Konfigurera modulen för att hämta rader från din [!DNL Google] kalkylblad. Ange &#x200B;**[!UICONTROL Maximum number of returned rows]** till ett litet tal, men större än ett för testningsändamål (exempel, tre). Kör [!DNL Google Sheets] genom att högerklicka och välja &quot;**[!UICONTROL Run this module only]**.&quot; Kontrollera modulens utdata.
 >1. Anslut [!UICONTROL Array Aggregator] modulen efter [!DNL Google Sheets] -modul. Välj [!DNL Google Sheets] i **[!UICONTROL Source node]** fält. Låt de andra fälten vara som de är för tillfället.
 >1. Anslut [!UICONTROL XML] > [!UICONTROL Create XML] modulen efter [!UICONTROL Array Aggregator] -modul.
-   Modulens konfiguration kräver en datastruktur som beskriver strukturen för XML-utdata. Klicka på **[!UICONTROL Add]** för att öppna datastrukturinställningarna. Det enklaste sättet att skapa den här datastrukturen är att generera den automatiskt från ett XML-exempel.
+>   Modulens konfiguration kräver en datastruktur som beskriver strukturen för XML-utdata. Klicka på **[!UICONTROL Add]** för att öppna datastrukturinställningarna. Det enklaste sättet att skapa den här datastrukturen är att generera den automatiskt från ett XML-exempel.
 >1. Klicka på **[!UICONTROL Generator]** och klistra in XML-exemplet i [!UICONTROL Sample data] fält:
 >
 >   ![](assets/sample-data-field-350x146.png)
