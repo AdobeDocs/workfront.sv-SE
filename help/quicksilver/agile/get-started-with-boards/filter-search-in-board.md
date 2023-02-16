@@ -6,9 +6,9 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -55,21 +55,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
 1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png), expandera [!UICONTROL Members] och markera den eller de personer vars kort du vill se. Du kan även visa kort som inte har tilldelats.
+1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Members] och markera den eller de personer vars kort du vill se. Du kan även visa kort som inte har tilldelats.
 
    ![Filtrera efter medlem](assets/boards-filter-by-assignees-0822.png)
 
 ## Filtrera en anslagstavla efter taggar
 
 1. Gå till styrelsen.
-1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png), expandera [!UICONTROL Tags] och markera de taggar du vill se.
+1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Tags] och markera de taggar du vill se.
 
    ![Filtrera efter tagg](assets/boards-filter-by-tags-0822.png)
 
 ## Filtrera en anslagstavla efter status
 
 1. Gå till styrelsen.
-1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png), expandera [!UICONTROL Statuses] och välj de statustyper som du vill se.
+1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Statuses] och välj de statustyper som du vill se.
 
    Du kan även dölja färdiga kort.
 
@@ -78,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Filtrera en anslagstavla efter förfallodatum
 
 1. Gå till styrelsen.
-1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png), expandera [!UICONTROL Due Date] och välj de datumalternativ du vill se.
+1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Due Date] och välj de datumalternativ du vill se.
 
    Endast kort i de valda datumintervallen visas.
 
@@ -89,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslagstavlan så att även arkiverade kort visas.
 
 1. Gå till styrelsen.
-1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png), expandera [!UICONTROL Archived Cards] och markera **[!UICONTROL Archived cards]** för att visa eventuella arkiverade kort.
+1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Archived Cards] och markera **[!UICONTROL Archived cards]** för att visa eventuella arkiverade kort.
 
    Filtret visar antalet arkiverade kort.
 
@@ -100,7 +100,7 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 ## Filtrera en anslagstavla efter anslutning
 
 1. Gå till styrelsen.
-1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png), expandera [!UICONTROL Connection] och väljer [!DNL Workfront] projekt för de anslutna kort som du vill se.
+1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Connection] och väljer [!DNL Workfront] projekt för de anslutna kort som du vill se.
 
    Du kan även visa kort som inte är anslutna till ett projekt.
 
@@ -109,7 +109,7 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 ## Sök på en anslagstavla
 
 1. Gå till styrelsen.
-1. Klicka på sökikonen ![Sök](assets/search-icon.png) och skriv ett sökord. Tryck sedan på Enter.
+1. Klicka [!UICONTROL **Sök**] och skriv ett sökord. Tryck sedan på Enter.
 
    Alla kort som innehåller söktermen visas.
 

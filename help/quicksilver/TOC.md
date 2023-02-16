@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '12688'
+source-wordcount: '12695'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 0%
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * 23.2 Utgåva {#release-23-2}
          * [23.2 Versionsöversikt](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [23.2: Vecka den 13 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
          * [23.2: Vecka 6 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
          * [23.2-versionsaktivitet: 23 januari 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
          * [Utforma och känna av uppdateringar under 23.2-releasetidningen](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -901,6 +902,7 @@ ht-degree: 0%
       * [Lägga till en inloppskolumn på en anslagstavla](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Använd grupper på en anslagstavla](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Konfigurera kortutfall](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
    * Kanban i ett rörligt team {#kanban}
       * [Kanban i ett rörligt team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban - översikt](agile/use-kanban-in-an-agile-team/kanban-overview.md)

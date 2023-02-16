@@ -6,9 +6,9 @@ title: Anmäl dig till tidig funktion för [!DNL Adobe Workfront] Varumärkena
 description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Boards] tidig anmälan av funktioner.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   </tr>
   <tr>
    <td>Skapa samlingar med anslagstavlor</td>
-   <td>Planerad</td>
+   <td>Delvis släppt</td>
   </tr>
   <tr>
    <td>Skapa iterationer</td>
@@ -162,7 +162,7 @@ Tidiga funktioner för anslagstavlor är tillgängliga för alla organisationer.
 Endast [!DNL Workfront] administratörer kan välja tidiga funktioner för styrelser. När en [!DNL Workfront] administratören aktiverar tidiga funktioner, så att alla användare i organisationen kan komma åt dem.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka **[!UICONTROL Early feature opt-in]** överst på kontrollpanelsskärmen.
+1. Klicka ![Anmäl dig till tidig funktion](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) högst upp på kontrollpanelsskärmen.
 1. Klicka på **[!UICONTROL Enable]**.
 1. Börja använda de tidiga funktionerna i styrelserna.
 
@@ -192,5 +192,5 @@ Men [!DNL Workfront] administratören kan dölja alternativet för anslagstavlor
 Endast [!DNL Workfront] administratörer kan välja att inte få tidiga funktioner. Om en [!DNL Workfront] administratören inaktiverar de tidiga funktionerna, vilket innebär att alla användare i organisationen avanmäts.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka **[!UICONTROL Early feature opt-in enabled]** överst på kontrollpanelsskärmen.
+1. Klicka ![Anmäl dig till tidig funktion aktiverat](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) högst upp på kontrollpanelsskärmen.
 1. Klicka på **[!UICONTROL Disable]**.
