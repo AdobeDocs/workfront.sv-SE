@@ -6,14 +6,16 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
 
 # Hantera kortkolumner
+
+{{highlighted-preview}}
 
 En ny anslagstavla innehåller som standard tre kolumner. Du kan lägga till fler kolumner, ändra ordningen på kolumnerna, byta namn på kolumner och ta bort kolumner som du inte behöver.
 
@@ -119,12 +121,18 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
       Statusöversättningsalternativen för anslutna kort visas också. (Statusöversättning gäller inte för ad hoc-kort.) Dessa alternativ avgör vilken status som används för uppgiften eller utgåvan i [!DNL Workfront] när ett anslutet kort flyttas till den här kolumnen.
 
    1. Klicka på knappen **[!UICONTROL Edit]** icon ![Ikonen Redigera](assets/edit-icon-spectrum.png).
-   1. Välj en status för uppgifter och en status för ärenden. Endast standardinställningen [!DNL Workfront] statusvärden är tillgängliga, inte anpassade statusvärden.
+   1. <span class="preview">I förhandsvisningsmiljön: Välj en [!UICONTROL **Egen**] status och en [!UICONTROL **System**] status som ska gälla för kortet, för både uppgifter och ärenden.</span>
 
-   >[!NOTE]
-   >
-   >Om du använder anpassade statusvärden i [!DNL Workfront]blir du ombedd att välja status första gången du flyttar ett anslutet kort till den här kolumnen. Om det anslutna projektet till exempel har flera statustyper som alla motsvarar [!UICONTROL Completed]måste du välja vilken status du vill använda i [!DNL Workfront]. Du kan ange ditt val som standard så att du inte behöver göra urvalet varje gång du flyttar ett kort till kolumnen.
-   >Mer information om status finns i [Översikt över status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      <span class="preview">När ett kort flyttas till den här kolumnen [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Stängt).</span>
+
+      <span class="preview">Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.</span>
+
+   1. I produktionsmiljön: Välj en status för uppgifter och en status för ärenden. Endast standardinställningen [!DNL Workfront] statusvärden är tillgängliga, inte anpassade statusvärden.
+
+      >[!NOTE]
+      >
+      >Om du använder anpassade statusvärden i [!DNL Workfront]blir du ombedd att välja status första gången du flyttar ett anslutet kort till den här kolumnen. Om det anslutna projektet till exempel har flera statustyper som alla motsvarar [!UICONTROL Completed]måste du välja vilken status du vill använda i [!DNL Workfront]. Du kan ange ditt val som standard så att du inte behöver göra urvalet varje gång du flyttar ett kort till kolumnen.
+      >Mer information om status finns i [Översikt över status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Valfritt) Ange ett värde för korttilldelningarna:
 
