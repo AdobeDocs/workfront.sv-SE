@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 0%
 
 ---
@@ -891,6 +891,7 @@ ht-degree: 0%
       * [Använd anslutna kort på ritytor](agile/get-started-with-boards/connected-cards.md)
       * [Hantera kort](agile/get-started-with-boards/move-board-items.md)
       * [Hantera checklisteobjekt på kort](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Ta bort eller arkivera ett kort från en anslagstavla](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrera och söka på en anslagstavla](agile/get-started-with-boards/filter-search-in-board.md)
       * [Lägg till taggar](agile/get-started-with-boards/add-tags.md)

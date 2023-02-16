@@ -6,9 +6,9 @@ description: Läs dessa artiklar och lär dig hur du använder anslagstavlor i W
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [Hantera kort](../../agile/get-started-with-boards/move-board-items.md)
 * [Hantera checklisteobjekt på kort](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+* [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
 * [Ta bort eller arkivera ett kort från en anslagstavla](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filtrera och söka på en anslagstavla](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Lägg till taggar](../../agile/get-started-with-boards/add-tags.md)

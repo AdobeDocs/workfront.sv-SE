@@ -6,9 +6,9 @@ title: Anmäl dig till tidig funktion för [!DNL Adobe Workfront] Varumärkena
 description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Boards] tidig anmälan av funktioner.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: d02c6cd8ed8234bc9f8757835956290334f41e30
+source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -140,6 +140,10 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
    <td>Importera underaktiviteter som checklisteobjekt på kort</td>
    <td>Planerad</td>
   </tr>
+  <tr>
+   <td>Anpassa visning av fält på ett kort</td>
+   <td>Delvis släppt</td>
+  </tr>  
   <tr>
    <td>Definiera en standardstatus för kort som flyttas till kolumner</td>
    <td>Delvis släppt</td>
