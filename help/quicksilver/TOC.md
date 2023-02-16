@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
 workflow-type: tm+mt
-source-wordcount: '12683'
+source-wordcount: '12688'
 ht-degree: 0%
 
 ---
@@ -1088,6 +1088,7 @@ ht-degree: 0%
          * [Bläddra i katalogen med ritningar och begär installation av ritningar](administration-and-setup/blueprints/browse-catalog.md)
          * [Kopiera en projektmall](manage-work/projects/create-and-manage-templates/copy-template.md)
          * [Bifoga en mall till ett projekt](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+         * [Kopiera och flytta malluppgifter](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Redigera projektmallar](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [Redigera en malluppgift](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Skapa mall från projekt](manage-work/projects/create-and-manage-templates/create-template-from-project.md)

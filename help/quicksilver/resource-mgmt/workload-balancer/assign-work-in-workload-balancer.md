@@ -6,18 +6,16 @@ description: Som resurshanterare kan du använda Adobe Workfront Workload Balanc
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Översikt över tilldelning av arbete i belastningsutjämnaren
 
-<!--drafted for Work Time story:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 Som resurshanterare kan du använda Adobe Workfront Workload Balancer för att visa arbetsobjekt som ännu inte har tilldelats användare samt tilldela dem dessa objekt.
 
@@ -52,8 +50,7 @@ Workfront använder följande information för att beräkna användarens kapacit
 
    Mer information finns i [Konfigurera ledig tid i Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-<!--drafted for Work Time: 
-* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
+* <span class="preview">Användarens arbetstid. Detta anger hur många procent av heltidstiden som användaren är tillgänglig för att utföra faktiskt projektrelaterat arbete, exklusive extrakostnader. Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.</span>
 
 ## Tilldela arbete i belastningsutjämnaren
 

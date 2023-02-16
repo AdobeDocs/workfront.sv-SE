@@ -6,16 +6,16 @@ description: Du kan kopiera ett projekt i stället för att skapa ett från bör
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
 
 # Kopiera ett projekt
 
-<!--some areas are drafted for the 23.2 release story-->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +33,7 @@ Du kan kopiera ett projekt i stället för att skapa ett från början. Du kan b
 >* Anteckningar
 >* Timmar
 >* Föregångare mellan projekt
->* Budgeterade timmar <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
+>* <span class="preview">Budgeterade timmar</span>
 >
 >Följande objekt kopieras alltid från ett befintligt projekt till ett nytt:
 >
@@ -137,11 +137,6 @@ Så här kopierar du ett projekt:
 
 1. (Valfritt) Avmarkera de objekt som du inte vill kopiera till det nya projektet. I följande tabell beskrivs vad som händer när du avmarkerar objekten:
 
-   <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
-      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
-      <b>NOTE</b>
-      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
-      -->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -178,9 +173,20 @@ Så här kopierar du ett projekt:
      </tr> 
      <tr> 
       <td role="rowheader">Alla föregående</td> 
-      <td> <p>Tar bort alla föregående relationer mellan aktiviteterna i projektet. </p> <p>Tips: Föregångare som arbetar med flera projekt överför aldrig till det nya projektet, oavsett om det är markerat eller inte. </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Tar bort alla föregående relationer mellan aktiviteterna i projektet. </p> <p><b>TIPS</b>
+
+   Föregångare som arbetar med flera projekt överför aldrig till det nya projektet, oavsett om det är markerat eller inte. </p> </td>
+   </tr>
+
+<tr> 
+      <td role="rowheader"><span class="preview">Budgeterade timmar</span></td> 
+      <td> <p><span class="preview">Tar bort de timmar som har budgeterats i resursplaneringsområdet för projektets affärsärende från det kopierade projektet. <span class="preview"></p>
+
+<b>ANMÄRKNING</b>
+
+<span class="preview">Timmar som har budgeterats med scenarioplaneraren kopieras aldrig till det nya projektet eftersom det nya projektet inte är länkat till något projekt i scenarioplaneraren. Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetresurser i affärsärendet med scenarioplaneraren</a></span>
+</tr></td>
+    <tr> 
       <td role="rowheader">Ekonomisk information</td> 
       <td> <p>Tar bort informationen i följande områden: </p> 
        <ul> 

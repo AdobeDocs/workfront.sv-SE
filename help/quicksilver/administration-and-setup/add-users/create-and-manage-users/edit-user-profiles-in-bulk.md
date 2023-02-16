@@ -8,50 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2384'
 ht-degree: 0%
 
 ---
 
 # Redigera användarprofiler gruppvis
 
-<!--drafted for Work Time field: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
-In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
-
-<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
-
-<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
-
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work.</span> 
-
-<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
-
-<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-
-***UPDATED FTE FIELD***
-
-FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
-
-The FTE must be a decimal number up to 1, and it cannot be 0. 
-The field's default is 1.
-
-For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
-
-Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
-
-For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
--->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 >[!IMPORTANT]
 >
@@ -176,44 +142,76 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      <tr> 
       <td role="rowheader">Resursplanering</td> 
       <td> 
+       <ul>
+
+   <li>
+       <b><span class="preview">Arbetstid</span></b>: <span class="preview">Representerar den procentandel av heltidsekvivalenttiden (FTE) som användaren är tillgänglig för faktiskt arbete, exklusive overhead. Arbetstiden måste vara ett decimaltal upp till 1 och får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.</span>
+
+   <span class="preview">Fältets standardvärde är 1, vilket anger att en användare tillbringar hela sitt heltidsanställda på faktiskt, projektrelaterat arbete.</span>
+
+   <span class="preview">Systemet använder det här talet för att beräkna användarens tillgänglighet för faktiskt, projektrelaterat arbete. </span>
+
+   <span class="preview">Mer information om hur du skapar scheman i Workfront finns i <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>.</span>
+
+   <span class="preview">Schemalagda undantag och ledig tid kan också påverka användarkapaciteten.
+
+   Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i inställningsområdet. Mer information finns i <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a>.
+
+   <b>TIPS</b>
+
+   <span class="preview">Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.</span>
+   </li>
+
+   <li><b>Schemalägg inaktivering</b>: Markera den här rutan om du vill att användare ska inaktiveras efter en viss tid.</li> 
+       <li><b>Schemalagt inaktiveringsdatum</b>: Datumet efter vilket användarna inaktiveras. Mer information om schemaläggning av användare för inaktivering finns i avsnittet <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>.</li> 
+       <li> <p><b>Primär roll</b>: Detta är den primära rollen som en användare har i Workfront. Alla uppgifter och utgåvor som användarna tilldelas till tilldelas som standard även den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a></p> <p>Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+       <li>(Villkorligt) Om du markerade en <b>Primär roll</b>, <b>Procent tillgängliga heltidsanställda</b> visas. Ange hur många procent av tiden för användarens scheman som ska tilldelas den här jobbrollen. Standardvärdet för procentandelen FTE-tillgänglighet för den primära rollen är 100 %.</li> 
+       <li> <p><b>Andra roller</b>: Användare kan ha flera jobbroller i Workfront. Jobbroller är viktiga i resurshanteringen. Det finns ingen gräns för hur många jobbroller en användare kan utföra. Vi rekommenderar dock att du inte tilldelar en användare till ett för stort antal jobbroller eftersom resurshanteringen kan bli alltför komplex för dessa användare.</p> <p>Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+       <li> <p>(Villkorligt) Om du markerade en eller flera <b>Andra roller</b>, <b>Procent tillgängliga heltidsanställda</b> visas för varje roll. Ange hur stor procentandel av tiden för användarens scheman som ska tilldelas varje jobbroll. Standardvärdet för procentandelen FTE-tillgänglighet för andra roller är 0 %.</p> <p><b>ANMÄRKNING</b>:  
        <ul> 
-        <li><b>Schemalägg inaktivering</b>: Markera den här rutan om du vill att användare ska inaktiveras efter en viss tid.</li> 
-        <li><b>Schemalagt inaktiveringsdatum</b>: Datumet efter vilket användarna inaktiveras. Mer information om schemaläggning av användare för inaktivering finns i avsnittet <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>.</li> 
-        <li> <p><b>Primär roll</b>: Detta är den primära rollen som en användare har i Workfront. Alla uppgifter och utgåvor som användarna tilldelas till tilldelas som standard även den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a></p> <p>Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
-        <li>(Villkorligt) Om du markerade en <b>Primär roll</b>, <b>Procent tillgängliga heltidsanställda</b> visas. Ange hur många procent av tiden för användarens scheman som ska tilldelas den här jobbrollen. Standardvärdet för procentandelen FTE-tillgänglighet för den primära rollen är 100 %.</li> 
-        <li> <p><b>Andra roller</b>: Användare kan ha flera jobbroller i Workfront. Jobbroller är viktiga i resurshanteringen. Det finns ingen gräns för hur många jobbroller en användare kan utföra. Vi rekommenderar dock att du inte tilldelar en användare till ett för stort antal jobbroller eftersom resurshanteringen kan bli alltför komplex för dessa användare.</p> <p>Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
-        <li> <p>(Villkorligt) Om du markerade en eller flera <b>Andra roller</b>, <b>Procent tillgängliga heltidsanställda</b> visas för varje roll. Ange hur stor procentandel av tiden för användarens scheman som ska tilldelas varje jobbroll. Standardvärdet för procentandelen FTE-tillgänglighet för andra roller är 0 %.</p> <p><b>ANMÄRKNING</b>:  
-          <ul> 
-           <li>Om andra roller har 0 % FTE-tillgänglighet visas de inte i resursplaneraren, såvida inte användarna har tilldelats till uppgifter i de här rollerna.</li> 
-           <li> <p>Summan av alla procent av FTE-tillgänglighet för alla roller måste vara lika med 100 %. Varje procentandel av FTE-tillgänglighet beräknar tillgängliga timmar för varje roll per användare i resursplaneraren. Tillgängliga timmar för varje roll per användare beror på användarens tillgängliga tid.</p> <p>Den tillgängliga tiden för användaren beräknas av Workfront utifrån den metod som Workfront-administratören har valt för att beräkna FTE i Inställningar för resurshantering.</p> <p>Mer information om hur du beräknar tillgänglighet för användaren finns i <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>.</p> <p>Mer information om hur du konfigurerar inställningar för resurshantering finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>.</p> </li> 
-          </ul> </p> </li> 
-        <li> <p><b>Schema</b>: Associera ett schema med användarna. Schemat för användarna beräknar tidslinjen för de uppgifter som användarna har tilldelats.</p> <p>En Workfront-administratör eller en gruppadministratör måste skapa ett schema innan det kan kopplas till användare.</p> <p>Välj en systemnivå eller ett gruppschema för att tilldela det till de valda användarna.</p> <p>Mer information om scheman på systemnivå och gruppnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>.</p> <p><b>VIKTIGT</b>: Workfront använder schemat för en användare endast när inställningen Beräkna resurstillgänglighet med är inställd på Användarens schema. Mer information om hur inställningen Beräkna resurstillgänglighet med påverkar vilket schema som används för resurshantering finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>.</p> </li> 
-        <li> <p><b>Tidrapportprofil</b>: Associera en tidrapportprofil med användarna. Detta garanterar att tidrapporterna genereras automatiskt för användarna.</p> 
-        <p><b>ANMÄRKNING</b>:  
-          <ul> 
-           <li>Listan med tidrapportprofiler som du har tillgängliga i det här fältet beror på din åtkomst:
-            <ul>
-             <li>Som Workfront-administratör kan du se alla tidrapportprofiler på system- och gruppnivå.</li>
-             <li><p>Som gruppadministratör kan du se tidrapportprofiler på systemnivå, samt de som är kopplade till de grupper som du hanterar.</p></li>
-             <li><p>Som användare med en planerarlicens och möjlighet att redigera användare kan du bara se tidrapportprofiler på systemnivå.</p></li>
-            </ul></li> 
-           <li>Om du är gruppadministratör måste alla användare som du redigerar vara medlemmar i en grupp som du administrerar.</li> 
-          </ul> </p> </li> 
-        <li><b>Standardtimtyp</b>: Välj standardtimtyp för användarna. Det här är timtypen som används som standard när användaren loggar tid.</li> 
-        <li> <p><b>Tillgängliga timtyper</b>: Välj de timtyper som ska vara tillgängliga för användaren. De här timtyperna visas överallt i Workfront där användarna kan logga tid. En användare kan bara se timtyperna som är aktiverade på projektnivå och på användarnivå.</p> 
-        <p>Mer information om vilka timtyper som är tillgängliga för användarna finns i <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definiera timtyper och tillgänglighet för tidrapporter</a>.</p> 
-        </li> 
-        <li> <p><b>FTE</b>: Det nummer som du anger här tas endast med i beräkningen av användarens tillgänglighet baserat på standardschemat när inställningarna för resurshantering på systemnivå är inställda på <b>Standardschema</b>.</p> 
-        <p>Om till exempel FTE-värdet är 0,5 och standardschemat är 40 timmar är användaren tillgänglig för arbete 20 timmar i veckan. Mer information om hur schemaundantag och -tid kan påverka användarens tillgänglighet när Standardschema väljs finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>. </p> 
-        <p>Om inställningarna för resurshantering på systemnivå är inställda på <b>Användarens schema</b>, ignoreras värdet som du anger här och användaren anses vara tillgänglig enligt vad som anges i schemat. I det här fallet beräknas FTE för användaren för resursplaneraren enligt följande formel:</p>
-        <p><code style="font-style: normal;">User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code> </p> <p>Mer information om hur du beräknar användarens FTE finns i <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>.</p> <p>Mer information om hur du skapar scheman i Workfront finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>.</p> <p>Mer information om hur du konfigurerar inställningar för resurshantering finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>.</p> 
-        </li> 
-        <li> <p><b>Resurspooler</b>: Associera användarna med resurspooler.</p> <p><b>ANMÄRKNING</b>: Endast de resurspooler som är gemensamma för alla markerade användare visas i det här fältet. Om de valda användarna inte har några delade resurspooler är det här fältet tomt. Om det här fältet är tomt skrivs de resurspooler som du anger här över sina enskilda resurspooler.</p> 
-        <p>Mer information om resurspooler finns i <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Översikt över resurspooler </a>.</p> </li> 
-        <li><b>Kostnad per timme</b>: Kostnadsbeloppet per timme för användaren. </li> 
-        <li><b>Fakturering per timme</b>: Beloppet för fakturering per timme för användaren.</li> 
-        <li><b>Anpassad Forms</b>: Koppla ett befintligt anpassat formulär till användarna. Du måste skapa ett anpassat formulär innan du kan koppla det till en användare. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</li> 
-        <li><b>Kommentar</b>: Skriv en kommentar i fältet. Alla valda användare får ett meddelande i appen samt ett e-postmeddelande med din kommentar. Kommentaren visas på fliken Uppdateringar i användarens profil.</li> 
+       <li>Om andra roller har 0 % FTE-tillgänglighet visas de inte i resursplaneraren, såvida inte användarna har tilldelats till uppgifter i de här rollerna.</li> 
+       <li> <p>Summan av alla procent av FTE-tillgänglighet för alla roller måste vara lika med 100 %. Varje procentandel av FTE-tillgänglighet beräknar tillgängliga timmar för varje roll per användare i resursplaneraren. Tillgängliga timmar för varje roll per användare beror på användarens tillgängliga tid.</p> <p>Den tillgängliga tiden för användaren beräknas av Workfront utifrån den metod som Workfront-administratören har valt för att beräkna FTE i Inställningar för resurshantering.</p> <p>Mer information om hur du beräknar tillgänglighet för användaren finns i <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>.</p> <p>Mer information om hur du konfigurerar inställningar för resurshantering finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>.</p> </li> 
+       </ul> </p> </li> 
+       <li> <p><b>Schema</b>: Associera ett schema med användarna. Schemat för användarna beräknar tidslinjen för de uppgifter som användarna har tilldelats.</p> <p>En Workfront-administratör eller en gruppadministratör måste skapa ett schema innan det kan kopplas till användare.</p> <p>Välj en systemnivå eller ett gruppschema för att tilldela det till de valda användarna.</p> <p>Mer information om scheman på systemnivå och gruppnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>.</p> <p><b>VIKTIGT</b>: Workfront använder schemat för en användare endast när inställningen Beräkna resurstillgänglighet med är inställd på Användarens schema. Mer information om hur inställningen Beräkna resurstillgänglighet med påverkar vilket schema som används för resurshantering finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>.</p> </li> 
+       <li> <p><b>Tidrapportprofil</b>: Associera en tidrapportprofil med användarna. Detta garanterar att tidrapporterna genereras automatiskt för användarna.</p> 
+       <p><b>ANMÄRKNING</b>:  
+       <ul> 
+       <li>Listan med tidrapportprofiler som du har tillgängliga i det här fältet beror på din åtkomst:
+       <ul>
+       <li>Som Workfront-administratör kan du se alla tidrapportprofiler på system- och gruppnivå.</li>
+       <li><p>Som gruppadministratör kan du se tidrapportprofiler på systemnivå, samt de som är kopplade till de grupper som du hanterar.</p></li>
+       <li><p>Som användare med en planerarlicens och möjlighet att redigera användare kan du bara se tidrapportprofiler på systemnivå.</p></li>
+       </ul></li> 
+       <li>Om du är gruppadministratör måste alla användare som du redigerar vara medlemmar i en grupp som du administrerar.</li> 
+       </ul> </p> </li> 
+       <li><b>Standardtimtyp</b>: Välj standardtimtyp för användarna. Det här är timtypen som används som standard när användaren loggar tid.</li> 
+       <li> <p><b>Tillgängliga timtyper</b>: Välj de timtyper som ska vara tillgängliga för användaren. De här timtyperna visas överallt i Workfront där användarna kan logga tid. En användare kan bara se timtyperna som är aktiverade på projektnivå och på användarnivå.</p> 
+       <p>Mer information om vilka timtyper som är tillgängliga för användarna finns i <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definiera timtyper och tillgänglighet för tidrapporter</a>.</p> 
+       </li> 
+       <li> <b>FTE</b>: Det här är heltidsmotsvarigheten för användaren. Workfront använder det här numret för att beräkna användarens tillgänglighet baserat på standardschemat endast när inställningarna för resurshantering på systemnivå är inställda på standardschemat.
+
+   <p>FTE anger hur lång tid användaren kan tillbringa på jobbet. Detta inkluderar overheadkostnader och tid för projektarbete. Till exempel ingår även tid som används i möten eller utbildning i heltidsanställda.</p>
+
+   FTE måste vara ett decimaltal upp till 1 och det får inte vara 0. Om till exempel FTE-värdet är 0,5 och standardschemat i Workfront är 40 timmar är användaren tillgänglig för 20 timmar i veckan.
+
+   Fältets standardvärde är 1.
+
+   Schemalägg undantag, avbrottstid kan <span class="preview">och värdet för Arbetstid</span> kan påverka användarens tillgänglighet.
+
+   Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i inställningsområdet.
+
+   Om inställningarna för resurshantering på systemnivå är inställda på Användarens schema, ignoreras det värde du anger här och användaren anses vara tillgänglig enligt det som anges i deras schema.
+
+   Mer information finns i <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a>.
+
+   Mer information om hur du skapar scheman i Workfront finns i <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>.
+   </li> 
+       <li> <p><b>Resurspooler</b>: Associera användarna med resurspooler.</p> <p><b>ANMÄRKNING</b>: Endast de resurspooler som är gemensamma för alla markerade användare visas i det här fältet. Om de valda användarna inte har några delade resurspooler är det här fältet tomt. Om det här fältet är tomt skrivs de resurspooler som du anger här över sina enskilda resurspooler.</p> 
+       <p>Mer information om resurspooler finns i <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Översikt över resurspooler </a>.</p> </li> 
+       <li><b>Kostnad per timme</b>: Kostnadsbeloppet per timme för användaren. </li> 
+       <li><b>Fakturering per timme</b>: Beloppet för fakturering per timme för användaren.</li> 
+       <li><b>Anpassad Forms</b>: Koppla ett befintligt anpassat formulär till användarna. Du måste skapa ett anpassat formulär innan du kan koppla det till en användare. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</li> 
+       <li><b>Kommentar</b>: Skriv en kommentar i fältet. Alla valda användare får ett meddelande i appen samt ett e-postmeddelande med din kommentar. Kommentaren visas på fliken Uppdateringar i användarens profil.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
