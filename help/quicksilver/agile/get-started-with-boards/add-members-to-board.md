@@ -6,9 +6,9 @@ description: Personer måste läggas till i styrelsen som medlemmar innan de kan
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **[!UICONTROL Add member]** icon ![Lägg till medlemmar](assets/boards-addmember-spectrum-25x25.png).
 1. I **[!UICONTROL Add members]** börjar du skriva ett namn och markerar det när det visas i listan.
 
-   Du kan välja en enskild medlem eller ett team. Om du väljer ett team läggs teamet till i styrelsen. Sedan kan enskilda teammedlemmar tilldelas ett kort.
+   Du kan välja en enskild medlem eller ett team. Om du väljer ett team läggs teamet till i styrelsen. Hela teamet och dess enskilda teammedlemmar kan sedan tilldelas ett kort.
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ title: Konfigurera kortutfall
 description: Du kan konfigurera en styrelse så att kort arkiveras eller faller bort från styrelsen enligt ett schema.
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![Inställningar för kortavstängning](assets/card-falloff-switch.png)
 
-1. Välj när kort ska arkiveras från styrelsen. Du kan välja upp till 4 veckor eller upp till 30 dagar.
+1. Välj när kort ska arkiveras från styrelsen. Du kan välja upp till 8 veckor eller upp till 60 dagar.
 
    Datumet avgörs från när kortet senast ändrades.
 
