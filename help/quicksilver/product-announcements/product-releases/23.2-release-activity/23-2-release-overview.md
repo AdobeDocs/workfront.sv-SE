@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Flexibla förbättringar](#agile-enhancements)
+* [Förbättrad projektledning](#project-management-enhancements)
+* [Förbättrad resurshantering](#resource-management-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -81,6 +83,57 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Anpassa visning av fält på ett kort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Anpassning är nu tillgängligt för att konfigurera vilka fält som ska visas på ett kort, både i den fullständiga vyn när kortet är öppet och i den komprimerade kortvyn på kortet. När du inaktiverar ett fält visas inte i någon av vyerna. Du kan även aktivera ett fält i den fullständiga vyn och dölja det i den komprimerade vyn.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definiera en standardstatus för kort som flyttas till en kortkolumn</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Du kan nu ange en standardstatus som ska gälla för kort som flyttas till en viss kolumn genom att välja en anpassad status och en systemstatus i kolumnprofilerna. När du flyttar ett kort till kolumnen försöker Workfront först att använda den anpassade statusen (till exempel Väntar på feedback). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Väntande). Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Samlingar finns nu i Adobe Workfront Boards</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Nu kan du skapa samlingar på panelkontrollpanelen. En samling är en grupp styrelser för samarbete i arbete. När du har namngett samlingen kan du lägga till ritytor i samlingen med hjälp av en uppsättning mallar med fördefinierade inställningar, till exempel kolumnnamn.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Beräkningsfält på anslutna kort mappar till artikelpunktsfält på Workfront-objekt</a></p>
@@ -99,7 +152,6 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Kort för förhandsgranskning i inloppskolumnen</a></p>
@@ -113,6 +165,77 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 2 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Förbättrad projektledning
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Kopiera budgeterade timmar när ett projekt kopieras</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span>
+                        <p>Nu kan du kopiera timmarna som har budgeterats i området Resursbudgetering i affärsärendet eller Resursplanering när du kopierar ett projekt. Före den här förbättringen överfördes inte de budgeterade timmarna för projektet till det kopierade projektet.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Produktionsrelease: 2 mars 2023 (utanför cykeln)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Förbättrad resurshantering
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introduktion till fältet Arbetstid för korrekt beräkning av användarkapacitet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span>
+                        <p>För att resursansvariga ska kunna beräkna tillgängligheten för sina användare och ta hänsyn till den tid som användarna lägger ner på faktiskt, projektrelaterat arbete introducerar vi arbetstidsbegreppet för Adobe Workfront.</p>
+                        <p>Du kan definiera värdet för fältet Arbetstid för varje användare när du skapar eller redigerar deras profil.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Produktionsrelease: 2 mars 2023 (utanför cykeln)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportera ritytor som enstaka PDF eller flera PDF i Adobe Workfront för XD</span></a><span style="color: #ff0000;"> Nyheter i produktion!</span>
-                        <p>I plugin-programmet Adobe Workfront for XD kan du nu välja att exportera ritytorna som en enda PDF-fil eller som flera PDF-filer.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Exportera ritytor som enstaka PDF eller flera PDF i Adobe Workfront för XD</span></a>
+                        </span></a><p>I plugin-programmet Adobe Workfront for XD kan du nu välja att exportera ritytorna som en enda PDF-fil eller som flera PDF-filer.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>

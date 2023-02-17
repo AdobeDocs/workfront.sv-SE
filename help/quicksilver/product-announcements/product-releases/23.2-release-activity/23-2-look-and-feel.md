@@ -4,9 +4,9 @@ description: Utforma och känna av uppdateringar under 23.2-releasetidningen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,19 @@ Mer information, och en videodemonstration av en liknande funktion finns i&quot;
 ## Uppdaterad ikon för dokumentversion i Dokumentinformation
 
 Vi har uppdaterat utseendet på dokumentversionsikonen. Ikonen visar nu en röd punkt när du använder en tidigare version samt en hovring som säger&quot;Tidigare version&quot;.
+
+## Ny upplevelse vid kopiering av en eller flera malluppgifter
+
+>[!NOTE]
+>
+>Förhandsgranskningsversion: 16 februari 2023, Planerad produktionsrelease: 2 mars 2023
+
+För att göra användningen av Adobe Workfront enhetlig överallt i programmet har vi gjort om gränssnittet när vi kopierar eller flyttar en malluppgift. Detta är för närvarande tillgängligt när du kopierar en malluppgift på aktivitetsnivå eller kopierar en uppgift eller flera uppgifter i en lista.
+
+Några av förbättringarna är:
+
+* All information som du måste uppdatera innan du kopierar eller flyttar malluppgiften visas på en kontinuerlig sida.
+* Workfront kontrollerar om du har åtkomst till målmallen omedelbart efter att du har valt mallen. Före den här förbättringen visades ett varningsmeddelande om att du inte har rätt åtkomst när du har bekräftat kopian eller flyttningen, vilket resulterade i extra steg och att åtgärden inte tillåts.
+* Möjlighet att begära åtkomst för en mall där du vill kopiera eller flytta malluppgiften utan att lämna rutan Kopiera eller Flytta malluppgift.
+
+Mer information finns i [Kopiera och flytta malluppgifter](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).
