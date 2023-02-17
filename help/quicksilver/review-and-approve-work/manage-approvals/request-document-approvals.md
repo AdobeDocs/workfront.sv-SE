@@ -6,9 +6,9 @@ description: Du kan begära godkännande från chefer eller andra användare fö
 author: Courtney
 feature: Work Management
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller ge högre åtkomst till objektet som är associerat med åtkomstbegäran eller godkännandet </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera åtkomst till objektet som är associerat med åtkomstbegäran eller godkännandet </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

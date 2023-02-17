@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: eeff0c8a3f7cbccd942c978d771d24f4cf9c425d
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoriskt) Skriv eller klistra in URL:en för widgeten där den lagras på Internet.</p> 
+       <p><strong>Viktigt</strong>: URL:en för måste vara en offentlig URL. </p>
       <p>Om du lägger till en videowidget kan du göra det genom att lägga till följande i URL-rutan:</p> 
       <ul> 
       <li> <p>Länk till YouTube eller Vimeo</p> </li> 
       <li> <p>Google Drive - videolänk</p> </li> 
       <li> <p>Länka till video med MP4- och MOV-tillägg</p> </li> 
-      <li> <p>Länk till video som redan har överförts till dokumentområdet i din Workfront-instans. Instruktioner finns i <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Lägga till en videowidget i ett anpassat formulär från området Dokument</a> i den här artikeln.</p> </li> 
+      <li> <p>Länk till video som redan har överförts till dokumentområdet i din Workfront-instans. Instruktioner finns i <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Lägga till en videowidget i ett anpassat formulär från området Dokument</a> i den här artikeln.</p> 
+      </li> 
       </ul> 
        </td> 
      </tr> 
