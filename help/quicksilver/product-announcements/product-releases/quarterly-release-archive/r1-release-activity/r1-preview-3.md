@@ -6,9 +6,9 @@ description: Den här sidan beskriver alla ändringar som är tillgängliga i f�
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Mer information finns i  [Länka dokument från externa program](../../../../do
 
 ## Uppdaterat team som arbetar med kalender
 
+>[!NOTE]
+>
+>Verktygen för resursschemaläggning har tagits bort från Workfront i version 23.1. Mer information om att schemalägga resurser med hjälp av belastningsutjämnaren finns i [Översikt över belastningsutjämnaren](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 Arbetskalendern som är tillgänglig för team innehåller nu ytterligare funktioner och en uppdaterad stil och känsla. Teamet som arbetar med kalendern fungerar nu på ungefär samma sätt som verktyget för resursplanering för projekt.
 
 Det uppdaterade teamet som arbetar med kalendern innehåller följande förbättringar:
@@ -52,22 +56,26 @@ Skillnader från verktyget för resursplanering när resurser schemaläggs för 
 * Problem visas som standard i teamet som arbetar i kalendern.\
    När resurser för projekt schemaläggs visas inte ärenden som standard.
 
-Mer information om hur du använder det uppdaterade teamet Arbeta i kalendern finns i [Resursplanering](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+Mer information om hur du använder det uppdaterade teamet Arbeta med kalender finns i &quot;Resursschemaläggning&quot;.
 
 ## Förbättringar av resursplanering
 
 Tidslinjen för schemaläggning innehåller följande förbättringar:
 
-* [Använd filtret för att styra vilka användare som ska visas på tidslinjen för schemaläggning](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [Användare finns kvar på tidslinjen efter att ha tilldelats en uppgift](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* &quot;Använd filtret för att styra vilka användare som visas på tidslinjen i schemat&quot;
+* &quot;Användare finns kvar på tidslinjen efter att de tilldelats en uppgift&quot;
 
 ### Använd filtret för att styra vilka användare som ska visas på tidslinjen för schemaläggning {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>Verktygen för resursschemaläggning har tagits bort från Workfront i version 23.1. Mer information om att schemalägga resurser med hjälp av belastningsutjämnaren finns i [Översikt över belastningsutjämnaren](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Filtret kan nu användas för att styra vilka användare som visas på tidslinjen för schemaläggning, utöver vilka uppgifter och ärenden som visas i området Ej tilldelade. När användare är markerade i filtret visas bara de användare som du väljer, oavsett om de har en rolltilldelning som matchar rolltilldelningen för uppgifter i området Ej tilldelade. Alla uppgifter som för närvarande är tilldelade den användaren visas också.
 
 Före den här ändringen kontrollerade filtret bara vilka uppgifter och problem som visades i området Ej tilldelade. Användare visades på tidslinjen för schemaläggning endast om användaren matchade rolltilldelningen för en uppgift i området Ej tilldelad.
 
-Mer information om hur du använder filtret för att styra vad som visas på tidslinjen i schemat finns i  [Filterinformation i området Schemaläggning](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)och  [Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Mer information om hur du använder filtret för att styra vad som visas på tidslinjen finns i Filtrera information i området Schemaläggning och Tilldela ej tilldelade uppgifter och ärenden manuellt i områdena Schemaläggning.
 
 ### Användare finns kvar på tidslinjen efter att ha tilldelats en uppgift {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ Användarna finns kvar på tidslinjen när de har tilldelats en uppgift eller et
 
 Före den här ändringen försvinner användare från tidslinjen för schemaläggning omedelbart efter att de har tilldelats en uppgift eller ett problem om det inte finns några återstående uppgifter eller utleveranser i området Ej tilldelade med en matchande rolltilldelning.
 
-Mer information finns i  [Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Mer information finns i &quot;Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområden&quot;.
 
 ## Anpassa Workfront Terminologi genom att ändra objektnamn
 

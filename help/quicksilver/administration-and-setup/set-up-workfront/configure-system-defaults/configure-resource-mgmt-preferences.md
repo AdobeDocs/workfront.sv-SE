@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 0%
@@ -87,7 +87,9 @@ Vid beräkning av en användares kapacitet tar Workfront hänsyn till följande 
 * [!UICONTROL Schedule] [!UICONTROL Exceptions] (beroende på vilken [!UICONTROL Schedule] används, det kan vara undantagen i användarens schema eller de som är kopplade till [!DNL Workfront] [!UICONTROL Default Schedule])
 * Användarens lediga tid
 * Värdet för heltidsmotsvarigheten ([!UICONTROL FTE]) för användaren eller [!DNL Workfront] system. The [!UICONTROL FTE] är lika med 1 när användaren arbetar heltid, enligt schemat.
-* <span class="preview">Värdet för [!UICONTROL Work Time] för användaren som refererar till den tid som användaren lägger på projektrelaterat arbete. Detta inkluderar inte overheadtid, som möten och utbildning. The [!UICONTROL Work Time] är lika med 1 när användaren är tillgänglig för arbete under hela den tid som anges av [!UICONTROL FTE] eller schemat, vilket innebär att de inte spenderar någon tid på icke-projektrelaterade arbeten som möten eller utbildningar.</span>
+<div class="preview">
+* Värdet för [!UICONTROL Work Time] för användaren som refererar till den tid som användaren lägger på projektrelaterat arbete. Detta inkluderar inte overheadtid, som möten och utbildning. The [!UICONTROL Work Time] är lika med 1 när användaren är tillgänglig för arbete under hela den tid som anges av [!UICONTROL FTE] eller schemat, vilket innebär att de inte spenderar någon tid på icke-projektrelaterade arbeten som möten eller utbildningar.
+</div>
 
 Mer information om planering och planering av resurser finns i [!DNL Workfront], se [Kom igång med resurshantering](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

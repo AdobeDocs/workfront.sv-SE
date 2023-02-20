@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '12695'
+source-wordcount: '12587'
 ht-degree: 0%
 
 ---
@@ -1626,18 +1626,6 @@ ht-degree: 0%
       * [Exportera information från resursplaneraren](resource-mgmt/resource-planning/export-resource-planner.md)
       * [Rapport om budgeterade timmar för resursplanering](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Resursplanering - visningsbegränsningar](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * Resursplanering {#resource-scheduling}
-      * [Resursplanering](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-      * [Kom igång med resursschemaläggning](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-      * [Översikt över schemaläggningsområden](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-      * [Konfigurera inställningar i schemaläggningsområdena](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-      * [Tillåt användartilldelningar oavsett roll- och gruppmedlemskap i schemaläggningsområdena](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-      * [Tilldela automatiskt ej tilldelade uppgifter och ärenden i schemaläggningsområdena](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-      * [Konfigurera hur Workfront beräknar resurstimme och FTE-tillgänglighet för schemaläggningsområdet](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-      * [Filterinformation i området Schemaläggning](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-      * [Hantera användarallokeringar i schemaläggningsområdena](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-      * [Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområdena](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-      * [Ändra flera användartilldelningar för aktiviteter i schemaläggningsområdena](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
    * Resursanvändning {#resource-utilization}
       * [Resursanvändning](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Visa information om resursutnyttjande](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1853,7 +1841,6 @@ ht-degree: 0%
       * [Filtrera information i Adobe Workfront mål](workfront-goals/goal-management/filter-information-wf-goals.md)
       * [Översikt över målstatus i Adobe Workfront-mål](workfront-goals/goal-management/goal-status-overview.md)
       * [Hantera målkommentarer i Adobe Workfront-mål](workfront-goals/goal-management/manage-goal-comments.md)
-      * [Skriv ut mållistan i Adobe Workfront-mål](workfront-goals/goal-management/print-the-goal-list.md)
       * [Uppdatera mål i avsnittet Målinformation i Adobe Workfront-mål](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Granska problematiska mål i Adobe Workfront-mål](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Måljustering i Adobe Workfront-mål {#goal-alignment}
@@ -1869,7 +1856,6 @@ ht-degree: 0%
       * [Uppdatera målstatus i Adobe Workfront-mål](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Hantera mål i mållistan för Adobe Workfront-mål](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Granska diagram för att förstå målutvecklingstrender i Adobe Workfront-mål](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-      * [Granska målen i avsnittet Adobe Workfront Goals Pulse](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
    * Resultat och aktiviteter i Adobe Workfront mål {#results-activities-adobe-workfront-goals}
       * [Resultat och aktiviteter i Adobe Workfront mål](workfront-goals/results-and-activities/results-and-activities.md)
       * [Lägga till aktiviteter i mål i Adobe Workfront](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1877,7 +1863,7 @@ ht-degree: 0%
       * [Lägga till projekt i mål i Adobe Workfront-mål](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [Redigera resultat och aktiviteter i Adobe Workfront-mål](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Kom igång med resultat och aktiviteter i Adobe Workfront-mål](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [Ta bort resultat, aktiviteter och projekt från mål i Adobe Workfront](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+      * [Ta bort förloppsindikatorer från mål i Adobe Workfront](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Inställningar för Adobe Workfront-mål {#adobe-workfront-goal-settings}
       * [Inställningar för Adobe Workfront-mål](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Anpassa Adobe Workfront-målterminologi](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)

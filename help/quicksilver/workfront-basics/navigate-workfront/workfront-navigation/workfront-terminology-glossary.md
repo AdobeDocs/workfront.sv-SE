@@ -5,9 +5,9 @@ title: Ordlista för [!DNL Adobe Workfront] terminologi
 description: The [!DNL Adobe Workfront] ordlistor med termer som används ofta i Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '15608'
+source-wordcount: '15588'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>I ett projekt, en uppgift eller en utgivningsrapport [!UICONTROL Actual Hours] är summan av alla timmar som är loggade i projektet, uppgiften eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om från [!UICONTROL Updates] för Aktivitet 1 klickar du på Loggtid och anger 25 timmar, Faktiska timmar för Aktivitet 1 = 25 timmar. </p> <p>[!DNL Workfront] beräknar [!UICONTROL Actual Hours] för överordnade uppgifter eller projekt med följande formler:</p> 
+   <td> <p>I ett projekt, en uppgift eller en utgivningsrapport [!UICONTROL Actual Hours] är summan av alla timmar som är loggade i projektet, uppgiften eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om från [!UICONTROL Updates] för Aktivitet 1 klickar du på Loggtid och anger 25 timmar, Faktiska timmar för Aktivitet 1 = 25 timmar. </p> <p>[!DNL Workfront] beräkning [!UICONTROL Actual Hours] för överordnade uppgifter eller projekt med följande formler:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
@@ -480,8 +480,14 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
-  --> 
-  <tr> 
+  -->
+
+<tr> 
+   <td> <p>Kapacitet</p> </td> 
+   <td> <p>En resurs tillgängliga tid när de kan allokeras till arbete. Se"Tillgänglighet". </p></td> 
+  </tr>
+
+<tr> 
    <td> <p>[!UICONTROL Category]</p> </td> 
    <td> <p>En kategori är ett anpassat formulär. Du kan skapa rapporter för det här objektet och du kan även visa det i andra objektrapporter. Alla objekt kan inte ha ett eget formulär eller en egen kategori. Följande objekt kan ha ett eget formulär: <br></p> 
     <ul> 
@@ -870,28 +876,28 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <td>[!UICONTROL Folder]</td> 
    <td>Mappar används för att ordna dokument eller rapporter som är kopplade till ett objekt.</td> </tr>
   <tr>
-  <td>FTE (heltidsekvivalent)</td> 
+  <td>[!UICONTROL FTE] (heltidsekvivalent)</td> 
    <td>Det här är heltidsmotsvarigheten som anger hur lång tid en resurs är tillgänglig för arbete. 
-   Fältet FTE visas i följande områden: 
+   The [!UICONTROL FTE] visas i följande områden: 
   <ul>
    <li> Användarprofil, när användaren redigerar eller skapar </li>
-   <li> Resursplanering </li>
-   <li> Scenarioplanerare (kräver ytterligare licens för Workfront Scenario Planner) </li>
+   <li> [!UICONTROL Resource Planner] </li>
+   <li> [!UICONTROL Scenario Planner] (ytterligare licens krävs för Workfront Scenario Planner) </li>
    <li> Användarlistor och rapporter </li> </ul>
 
-<p>FTE måste vara ett decimaltal upp till 1 och det får inte vara 0. </p>
-   <p> En heltidsanställd på 1 (som är standard för en användares FTE-fält, enligt definitionen i användarens profil) innebär att en resurs (användare eller roll) arbetar hela antalet timmar, baserat på det schema som beräknar tillgängligheten. </p>
+<p>The [!UICONTROL FTE] måste vara ett decimaltal upp till 1 och det får inte vara 0. </p>
+   <p> An [!UICONTROL FTE] av 1 (som är standard för en användares [!UICONTROL FTE] fält, enligt definition i deras profil) innebär att en resurs (användare eller roll) arbetar hela antalet timmar, baserat på det schema som beräknar deras tillgänglighet. </p>
    <p>Din Workfront-administratör bestämmer vilket schema som ska användas för att fastställa användarens tillgänglighet.  </p>
    <ul>
-   <li> När standardschemat används används FTE för användaren som finns i profilen för att beräkna tillgängligheten. </li>
-   <li> När användarens schema används, använder Workfront användarens lediga tid, <span class="preview">Arbetstid, värde</span>och Standardschemats timmar för att beräkna användarens heltidsanställda. </li> </ul>
+   <li> När [!UICONTROL Default Schedule] används, Workfront använder [!UICONTROL FTE] av användaren som finns i deras profil för att beräkna tillgänglighet. </li>
+   <li> När användarens schema används, använder Workfront användarens lediga tid, <span class="preview">[!UICONTROL Work Time] value</span>och [!UICONTROL Default Schedule]Antal timmar att beräkna användarens [!UICONTROL FTE]. </li> </ul>
 
 <p>Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a>.  </p>
-   <p>Mer information om hur du skapar scheman i Workfront finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>. </p>
+   <p>Mer information om hur du skapar scheman i [!DNL Workfront], se <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>. </p>
 
 <p><b>ANMÄRKNING</b></p>
-   <p>För alla beräkningar i Scenarioplaneraren använder Workfront följande värde: 1 heltidsanställd = 8 timmar.</p>
-   <p>Mer information finns i <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Kom igång med scenarioplanen</a>. </p>
+   <p>För alla beräkningar i [!UICONTROL Scenario Planner]använder Workfront följande värde: 1 [!UICONTROL FTE] = 8 timmar.</p>
+   <p>Mer information finns i <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Kom igång med [!UICONTROL Scenario Planner]</a>. </p>
    </td> </tr> 
    </tbody> 
    </table>
@@ -1451,7 +1457,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
-   <td> <p>Den tidsperiod inom vilken något är planerat att inträffa. När du skapar projekt, uppgifter eller ärenden i [!DNL Workfront]anger du planerade start- och slutdatum samt den planerade tidsram under vilken de inträffar. Dessa värden representerar din ursprungliga avsikt eller uppskattning av hur lång tid det tar att slutföra en arbetstid. </p></td> 
+   <td> <p>Den tidsperiod inom vilken något är planerat att inträffa. När du skapar projekt, uppgifter eller ärenden i [!DNL Workfront]anger du planerade start- och slutdatum samt den planerade tidsram under vilken de inträffar. Dessa värden representerar din ursprungliga avsikt eller uppskattning av hur lång tid det tar att slutföra en artikel. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Benefit]</td> 
@@ -1511,7 +1517,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Planned Revenue]</td> 
    <td> <p>Uppgifter och projekt kan visa ett värde för [!UICONTROL Planned Revenue] in [!DNL Workfront]. [!UICONTROL Planned Revenue] representerar det penningbelopp som är associerat med [!UICONTROL Planned Hours] av projektets uppgifter. För projekt kan den även innehålla [!UICONTROL Fixed Revenue] av projektet. </p> <p>För uppgifter är detta de intäkter som är kopplade till [!UICONTROL Planned Hours] av uppgifter. Planerade timmar från alla uppgifter räknas upp till projektets planerade timmar för att bidra till beräkningen av projektet [!UICONTROL Planned Hours]. </p> 
-   <p>[!DNL Workfront] beräkning [!UICONTROL Planned Revenue] för uppgifter och projekt med hjälp av följande formler:</p> 
+   <p>[!DNL Workfront] beräknar [!UICONTROL Planned Revenue] för uppgifter och projekt med hjälp av följande formler:</p> 
    <p><code>Task [!UICONTROL Planned Revenue] = [!UICONTROL Planned Hours] * Billing hourly rate</code> </p> <p><code>Project [!UICONTROL Planned Revenue] = SUM (All tasks [!UICONTROL Planned Revenue]) + [!UICONTROL Fixed Revenue]</code> </p> 
    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
@@ -1904,7 +1910,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
-   <td>Kallas även [!UICONTROL Modified Shift]. Dagar som schemaläggs i motsats till de regelbundna veckoarbetstiderna enligt schemat. En lördag som är schemalagd att fungera, när schemat är inställt på att endast fungera måndag till fredag, skulle till exempel vara en [!UICONTROL Schedule Exemption].</td> 
+   <td>Kallas även [!UICONTROL Modified Shift]. Dagar som schemaläggs i motsats till de vanliga veckoarbetstiderna enligt schemat. En lördag som är schemalagd att fungera, när schemat är inställt på att endast fungera måndag till fredag, skulle till exempel vara en [!UICONTROL Schedule Exemption].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scheduled Report]</td> 
@@ -2328,15 +2334,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td>[!UICONTROL Work Time]</td> 
    <td>
 
-<p><span class="preview">Representerar den procentandel av heltidsekvivalenttiden (FTE) som användaren är tillgänglig för faktiskt arbete, exklusive overhead. Arbetstiden måste vara ett decimaltal upp till 1 och får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.</span>  </p>
-   </p><span class="preview">Fältets standardvärde är 1, vilket anger att en användare tillbringar hela sitt heltidsanställda på faktiskt, projektrelaterat arbete.</span>   </p>
+<p><span class="preview">Representerar procentandelen för heltidsmotsvarigheten ([!UICONTROL FTE]) den tid som användaren är tillgänglig för faktiskt arbete, exklusive extrakostnader. [!UICONTROL Work Time] måste vara ett decimaltal upp till 1 och det får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.</span>  </p>
+   </p><span class="preview">Fältets standardvärde är 1, vilket anger att användaren tillbringar hela [!UICONTROL FTE] på faktiskt, projektrelaterat arbete.</span>   </p>
    <p><span class="preview">Systemet använder det här talet för att beräkna användarens tillgänglighet för faktiskt, projektrelaterat arbete. </span></p>
    <p> <span class="preview">Schemalagda undantag och ledig tid kan också påverka användarkapaciteten.</span> </p>
-   <p><span class="preview">Mer information om hur du skapar scheman i Workfront finns i Skapa ett schema. (INSERT LINK)</span> </p>
-    <p>Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i inställningsområdet. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Konfigurera inställningar för resurshantering</a>. </p> 
-   <p><span class="preview">Du kan uppdatera arbetstiden för en användare när du redigerar eller skapar användaren. Mer information finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Redigera en användares profil</a></span></p> 
+   <p><span class="preview">Mer information om hur du skapar scheman i Workfront finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>.</span> </p>
+    <p>Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i [!UICONTROL Setup] område. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Konfigurera inställningar för resurshantering</a>. </p> 
+   <p><span class="preview">Du kan uppdatera [!UICONTROL Work Time] för en användare när du redigerar eller skapar användaren. Mer information finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Redigera en användares profil</a></span></p> 
    <b>TIPS</b> 
-   <p><span class="preview">Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.</span></p> 
+   <p><span class="preview">Ange [!UICONTROL Work Time] värdet 1 för att ange att användaren är tillgänglig för projektrelaterat arbete och att hela heltidsekvivalenten är tillgänglig.</span></p> 
    </td> 
   </tr> 
   <tr> 

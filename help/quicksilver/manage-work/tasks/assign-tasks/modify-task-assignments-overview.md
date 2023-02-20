@@ -7,7 +7,7 @@ description: Du kan tilldela uppgifter till eller ta bort tilldelning från anv�
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Den här artikeln innehåller allmän information om effekten av att ändra uppg
 
 * Mer information om hur du tilldelar uppgifter finns i [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md) och [Ändra flera användartilldelningar i en uppgiftslista](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* Mer information om hur du ändrar tilldelningar för flera aktiviteter i området Schemaläggning finns i [Ändra flera användartilldelningar för aktiviteter i schemaläggningsområdena](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* Mer information om hur du ändrar tilldelningar för flera aktiviteter i schemaläggningsområdet finns i&quot;Ändra flera användartilldelningar för aktiviteter i schemaläggningsområdena&quot;.
 * Mer information om hur du tilldelar uppgifter med hjälp av belastningsutjämnaren finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Viss information i den här artikeln gäller även för uppdrag i ärenden. Mer information om hur du tilldelar problem och andra överväganden finns i [Ändra översikt över utleveranstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

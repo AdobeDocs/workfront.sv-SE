@@ -6,9 +6,9 @@ description: Budgetera och schemalägg projektresurser
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,4 @@ Se till att du gör följande när du är klar med planeringen av dina projekt i
    * [Resursplanering i Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Kom igång med scenarioplanen](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* Schemalägg dina resurser eller tilldela dem till aktiviteter och ärenden. När du tilldelar resurser till uppgifter och ärenden kan du faktiskt koppla användare, team eller roller till specifika arbetsobjekt, vilket gör dem ansvariga för att slutföra dessa objekt. .
-
-   Mer information finns i artiklarna:
-
-   * [Översikt över belastningsutjämnaren](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-   * [Resursplanering](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
+* Schemalägg dina resurser eller tilldela dem till aktiviteter och ärenden. När du tilldelar resurser till uppgifter och ärenden kan du faktiskt koppla användare, team eller roller till specifika arbetsobjekt, vilket gör dem ansvariga för att slutföra dessa objekt. Mer information finns i [Översikt över belastningsutjämnaren](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

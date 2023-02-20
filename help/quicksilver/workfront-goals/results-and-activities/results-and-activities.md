@@ -7,9 +7,9 @@ description: Resultat och aktiviteter är förloppsindikatorer för ett mål i A
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 >
 >Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Om du vill registrera framsteg med Workfront-mål måste du koppla förloppsindikatorer till målen. Förutom resultat och aktiviteter kan du även associera projekt eller underordnade mål med ett mål för att registrera framsteg.
 
 Det här avsnittet innehåller följande artiklar:
 

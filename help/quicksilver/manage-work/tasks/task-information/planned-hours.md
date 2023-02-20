@@ -7,9 +7,9 @@ description: Planerade timmar som är associerade med en aktivitet, utgåva elle
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ Om en uppgift till exempel är inställd på 16.00 och schemat har 1 timme kvar 
 >
 >Den planerade timmen per dag eller den dagliga tilldelningen är fördelningen av planerade timmar för varje dag under uppgiftens varaktighet. Om aktiviteten har ett uppdrag representerar det här numret antalet planerade timmar per dag och tilldelning. Om aktiviteten har flera tilldelningar skiljer sig Planerade timmar per dag och tilldelning från planerade timmar per dag för aktiviteten. Det finns ingen visuell representation i Workfront av antalet planerade timmar per dag per uppdrag för uppgifter med flera uppdrag.
 
- 
-
 ## Hitta och förstå värden för planerade timmar
 
 Du hittar värden för Planerade timmar i olika områden av Workfront. 
@@ -89,7 +87,6 @@ Du hittar Planerade timmar i följande områden i Workfront:
 * [Avsnittet Detaljer för ett projekt, en uppgift eller ett ärende](#the-details-section-of-a-project-task-or-issue)
 * [Rutan Redigera uppgift eller Redigera problem](#the-edit-task-or-edit-issue-box)
 * [Rapporter](#reports)
-* [Schemaläggningsområdena](#the-scheduling-areas)
 * [Utjämning av arbetsbelastning](#the-workload-balancer)
 * [Resursplaneraren](#the-resource-planner)
 * [Användningsrapporten](#the-utilization-report)
@@ -131,20 +128,22 @@ Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](.
 >
 >Om du skapar en projektrapport (ekonomiska data) och grupperar den efter datum kan en del av projektets planerade timmar visas i Planerade timmar, beroende på tidslinjen för aktiviteterna i projektet. Som standard distribuerar Workfront de planerade timmarna för uppgifter lika för varje dag i aktivitetens varaktighet. De planerade timmarna för en viss tidsram matchar den fördelning som Workfront har angett för den tidsramen i rapporten Projekt (ekonomiska data).
 
-### Schemaläggningsområdena  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-Planerade timmar för aktiviteter och ärenden visas i fältet Planerade timmar.
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-Du kan visa den dagliga fördelningen av planerade timmar för varje användare som tilldelats en aktivitet eller ett ärende i schemaläggningsområdena.
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-Det dagliga timbeloppet representerar något av följande: 
+The daily hour amount represents one of the following:
 
-* standardbeloppet som fördelas jämnt av Workfront för varje dag i varaktigheten för uppgifterna eller frågorna
-* den justerade dagliga allokeringen hanteras av resurshanterare.
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   Information om hur du justerar daglig fördelning i schemaläggningsverktygen finns i [Hantera användarallokeringar i schemaläggningsområdena](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### Utjämning av arbetsbelastning {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ Följande planerade timmar för uppgifter, utgåvor och projekt visas i Utjämni
 * För projekt, totalt antal planerade timmar från de uppgifter och utgåvor som visas på skärmen.
 
    >[!TIP]
-   Utjämningen av arbetsbelastning visar inte alla planerade timmar för ett projekt så som de visas i området Projektinformation.
+   >
+   >Utjämningen av arbetsbelastning visar inte alla planerade timmar för ett projekt så som de visas i området Projektinformation.
 
 Du kan visa den dagliga fördelningen av planerade timmar för varje användare som tilldelats en uppgift eller ett problem i Utjämning av arbetsbelastning.
 
@@ -176,7 +176,8 @@ Resursplaneraren visar Planerade timmar för projekt, uppgifter och utgåvor.
 Du kan visa veckoallokeringar av planerade timmar för användare och jobbroller som är associerade med arbetsobjekt i kolumnen PLN i resursplaneraren.
 
 >[!TIP]
-Dagliga allokeringsjusteringar i belastningsutjämnaren påverkar veckoallokeringar för aktiviteter och utgåvor i resursplaneraren.
+>
+>Dagliga allokeringsjusteringar i belastningsutjämnaren påverkar veckoallokeringar för aktiviteter och utgåvor i resursplaneraren.
 
 Antalet planerade timmar för varje objekt varierar beroende på vilken vy du använder i resursplaneraren. Mer information finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ Veckobeloppet för projekt, användare och roller påverkas av antalet planerade
 Projektets planerade timmar är de som är kopplade till tilldelningarna för varje uppgift och ärende.
 
 >[!IMPORTANT]
-Observera att de planerade timmarna i användningsrapporten är kopplade till tilldelningarna och inte till själva uppgifterna och problemen. De planerade timmarna i användningsrapporten matchar inte alltid de planerade timmarna för projektets uppgifter och problem. Planerade timmar matchar emellertid de timmar som är associerade med tilldelningarna för uppgifter och ärenden.
+>
+>Observera att de planerade timmarna i användningsrapporten är kopplade till tilldelningarna och inte till själva uppgifterna och problemen. De planerade timmarna i användningsrapporten matchar inte alltid de planerade timmarna för projektets uppgifter och problem. Planerade timmar matchar emellertid de timmar som är associerade med tilldelningarna för uppgifter och ärenden.
 
 Du kan visa följande typer av planerade timmar i användningsrapporten:
 

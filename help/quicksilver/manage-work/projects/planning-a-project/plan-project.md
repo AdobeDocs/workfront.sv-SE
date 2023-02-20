@@ -6,9 +6,9 @@ description: Planera en projektöversikt
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ Tänk på följande när du definierar uppgifter:
 
    Mer information om planerade timmar finns i artikeln [Översikt över planerade timmar](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Tilldela varje uppgift till en användare eller ett team som ansvarar för att slutföra den. 
+* Tilldela varje uppgift till en användare eller ett team som ansvarar för att slutföra den.
 * Kontrollera tillgängligheten för de användare som du tilldelar uppgifterna. Se till att de är lediga och inte överallokerade så att de kan slutföra sina tilldelade uppgifter. Om användarna är överallokerade eller om de har tid över i sina scheman, bör du tänka på något av följande:
 
    * Minska antalet planerade timmar för varje uppgift.
    * Lägg till fler användare i en uppgift för att se till att den kan slutföras under den tilldelade tiden.
    * Tilldela om uppgifterna till användare som inte har några andra begränsningar.\
       Mer information om hur du planerar projektresurser finns i artikeln [Resursplanering i Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Mer information om hur du schemalägger resurser för att utföra arbetet i ett projekt finns i artikeln [Resursplanering](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      Mer information om hur du schemalägger resurser för att utföra arbetet i ett projekt finns i [Översikt över belastningsutjämnaren](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

@@ -5,9 +5,9 @@ description: Som en del av resursplaneringen kan du budgetera de jobbroller som 
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Som en del av resursplaneringen kan du budgetera de jobbroller som krävs för a
 
 >[!NOTE]
 >
->Budgeteringsresurser är inte samma sak som schemaläggningsresurser för ett projekt. När du budgeterar resurser uppskattar du vilka roller som kan behövas för att slutföra arbetet i ett projekt. Information om hur du faktiskt schemalägger eller tilldelar användare till arbetet i ett projekt finns i [Kom igång med resursschemaläggning](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Mer information om resursplanering i Adobe Workfront finns i [Kom igång med resursplanering](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>Budgeteringsresurser är inte samma sak som schemaläggningsresurser för ett projekt. När du budgeterar resurser uppskattar du vilka roller som kan behövas för att slutföra arbetet i ett projekt. Information om hur du faktiskt schemalägger eller tilldelar användare till arbetet i ett projekt finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 Du måste associera jobbroller med projektet innan du kan budgetera resurserna för det. Här följer några sätt att tilldela jobbroller till ett projekt:
 

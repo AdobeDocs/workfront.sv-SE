@@ -6,7 +6,7 @@ description: Du kan schemalägga resurser för ett enskilt projekt för att ange
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Så här kommer du åt schemaläggningsverktyget i ett projekt:
 1. Gå till det projekt som du vill schemalägga resurser för.
 1. Klicka på **Schemaläggning** eller avsnittet Utjämning av arbetsbelastning i den vänstra panelen. Avsnittet Schemaläggning eller Utjämning av arbetsbelastning kan finnas under **Visa fler**.
 
-   Information om schemaläggning av resurser med verktyget Schemaläggning i ett projekt finns i [Ändra användartilldelningar och allokeringar](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) i artikeln [Kom igång med resursschemaläggning](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   Mer information om att schemalägga resurser med schemaläggningsverktyget i ett projekt finns i avsnittet &quot;Ändra användartilldelningar och allokeringar&quot; i artikeln &quot;Kom igång med resursplanering&quot;.
 
 1. (Villkorligt och rekommenderat) Om du klickade på Schemaläggning klickar du på **Växla till arbetsbelastningsutjämnare** om du vill schemalägga resurser med hjälp av arbetsbelastningsutjämnaren.
 

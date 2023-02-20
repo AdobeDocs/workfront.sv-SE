@@ -6,9 +6,9 @@ description: När du hanterar uppgiftstilldelningar kan du ändra dem samtidigt 
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ När du hanterar uppgiftstilldelningar kan du ändra dem samtidigt för flera up
 
 Den här artikeln handlar om att ändra flera användartilldelningar för flera uppgifter i en uppgiftslista. Se även följande artiklar för att ändra uppdrag för flera uppgifter i andra områden:
 
-* Mer information om hur du ändrar tilldelningar för flera aktiviteter i området Schemaläggning finns i [Ändra flera användartilldelningar för aktiviteter i schemaläggningsområdena](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * Mer information om hur du tilldelar uppgifter med hjälp av belastningsutjämnaren finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Mer information om hur du tilldelar en aktivitet till en resurs i en lista finns i [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

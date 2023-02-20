@@ -7,7 +7,7 @@ description: Planerat slutförandedatum för ett projekt är det datum då proje
 author: Alina
 feature: Work Management
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Så här schemalägger du ett projekt från Slutförandedatum:
 
 1. Välj **Projektinformation** i den vänstra panelen klickar du på **Redigera projekt** i det övre högra hörnet.
 
-1. I **Schemalägg från** fält, markera **Slutförandedatum**.
+1. I **Schemaläge** fält, markera **Slutförandedatum**.
 
 1. Ange **Planerat slutförandedatum** av projektet.
 1. Klicka **Spara ändringar**.
@@ -119,7 +119,7 @@ Så här schemalägger du ett projekt från startdatum:
 
 1. Välj **Projektinformation** i den vänstra panelen klickar du på **Redigera projekt** i det övre högra hörnet.
 
-1. I **Schemalägg från** fält, markera **Startdatum**.
+1. I **Schemaläge** fält, markera **Startdatum**.
 
 1. Ange **Planerat startdatum** av projektet.
 1. Klicka **Spara ändringar**.

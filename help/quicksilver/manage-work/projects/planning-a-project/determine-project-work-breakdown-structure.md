@@ -6,9 +6,9 @@ description: Att definiera en struktur för arbetsfördelning (WBS) för ett pro
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ I början av ett räkenskapsår eller ett kvartal kanske du vill hantera dina re
 Mer information om hur du planerar att använda dina resurser på en högre nivå finns i artikeln [Kom igång med resursplanering](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 När du hanterar dina resurser i samband med att du skapar arbetsfördelningsstrukturen för ett projekt och ser till att varje uppgift tilldelas rätt resurs, är du redo att schemalägga dina resurser för det arbete som behöver utföras.\
-Mer information om hur du schemalägger resurser finns i artiklarna i [Resursplanering](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) -avsnitt.
+Mer information om hur du schemalägger resurser finns i artiklarna i [Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/workload-balancer.md) -avsnitt.
 
 ## Uppskatta projektekonomi
 

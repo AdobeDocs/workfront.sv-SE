@@ -7,9 +7,9 @@ description: Resurshantering är viktigt för att du ska kunna hantera ditt arbe
 author: Alina
 feature: Resource Management
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,5 @@ Det här avsnittet innehåller följande underavsnitt:
 
 * [Resurshantering](../resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
 * [Resursplanering i Adobe Workfront](../resource-mgmt/resource-planning/resource-planning-overview.md)
-* [Resursplanering](../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
 * [Resursanvändning](../resource-mgmt/resource-utilization/resource-utilization.md)
 * [Utjämning av arbetsbelastning](../resource-mgmt/workload-balancer/workload-balancer.md)

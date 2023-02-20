@@ -6,9 +6,9 @@ description: Följande funktioner blev tillgängliga i förhandsvisningsmiljön 
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ Följande funktioner blev tillgängliga i förhandsvisningsmiljön 2016. Dessa f
 
 ## Förbättringar av resursplanering
 
-Nu kan du se alla uppgifter i projekt som du är resurshanterare för, vilket gör att du kan få mer information när du fattar beslut om schemaläggning. 
+>[!NOTE]
+>
+>Verktygen för resursschemaläggning har tagits bort från Workfront i version 23.1. Mer information om att schemalägga resurser med hjälp av belastningsutjämnaren finns i [Översikt över belastningsutjämnaren](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Allmän information om verktygen för att schemalägga resurser finns i [Kom igång med resursschemaläggning](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+Nu kan du se alla uppgifter i projekt som du är resurshanterare för, vilket gör att du kan få mer information när du fattar beslut om schemaläggning.
 
-Om du vill justera den information som visas på tidslinjen i tidslinjen skapar du ett filter enligt beskrivningen i [Filterinformation i området Schemaläggning](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+Allmän information om de verktyg som är tillgängliga för att schemalägga resurser finns i&quot;Kom igång med resursschemaläggning&quot;.
 
-Förutom att visa uppgifter i de projekt du ansvarar för kan du använda tidslinjen för schemaläggning för att göra ändringar i resurstilldelningar. Mer information om hur du hanterar användartilldelningar på tidslinjen finns i [Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+Om du vill justera den information som visas på tidslinjen i tidslinjen skapar du ett filter enligt beskrivningen i Filterinformation i området Schemaläggning.
+
+Förutom att visa uppgifter i de projekt du ansvarar för kan du använda tidslinjen för schemaläggning för att göra ändringar i resurstilldelningar. Mer information om hur du hanterar användartilldelningar på tidslinjen finns i &quot;Tilldela ej tilldelade uppgifter och ärenden manuellt i schemaläggningsområdena&quot;.
 
 ## Hantera användarallokeringar på tidslinjen för schemaläggning
 
 När du schemalägger resurser med de nya verktygen för resursplanering kan du nu bestämma hur de planerade timmarna för en aktivitet eller utgåva ska fördelas mellan användarna. Du kan dela timmar mellan dagar i aktivitetens varaktighet och mellan tilldelade användare.
 
-Mer information finns i [Hantera användarallokeringar i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Mer information finns i Hantera användartilldelningar i schemaläggningsområden.
 
 ## Användarallokeringar är inaktiverade som standard
 
@@ -39,7 +43,7 @@ Skuggning av användarallokering på tidslinjen för schemaläggning när resurs
 
 Allokeringsskuggning visades tidigare som standard och kunde inte inaktiveras.
 
-Mer information om hur du aktiverar alternativ för användartilldelning finns i [Hantera användarallokeringar i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [Hantera användarallokeringar i schemaläggningsområdena](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Mer information om hur du aktiverar alternativ för användartilldelning finns i Hantera användarallokeringar i schemaläggningsområdena.
 
 ## Layoutmall avgör om den nya eller gamla kalendern visas i arbetsytan
 

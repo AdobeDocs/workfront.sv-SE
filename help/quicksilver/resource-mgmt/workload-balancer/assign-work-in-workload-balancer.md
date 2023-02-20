@@ -6,7 +6,7 @@ description: Som resurshanterare kan du använda Adobe Workfront Workload Balanc
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 0%
@@ -49,8 +49,9 @@ Workfront använder följande information för att beräkna användarens kapacit
 * Användaren är ledig. Detta anger vilka dagar som användaren planerar att starta.
 
    Mer information finns i [Konfigurera ledig tid i Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-* <span class="preview">Användarens arbetstid. Detta anger hur många procent av heltidstiden som användaren är tillgänglig för att utföra faktiskt projektrelaterat arbete, exklusive extrakostnader. Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.</span>
+<div class="preview">
+* Användarens arbetstid. Detta anger hur många procent av heltidstiden som användaren är tillgänglig för att utföra faktiskt projektrelaterat arbete, exklusive extrakostnader. Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
+</div>
 
 ## Tilldela arbete i belastningsutjämnaren
 

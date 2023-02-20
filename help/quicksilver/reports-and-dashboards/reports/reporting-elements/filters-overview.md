@@ -7,9 +7,9 @@ description: Du kan använda filter i Adobe Workfront för att minska mängden i
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,6 @@ Du kan antingen använda inbyggda filter eller skapa anpassade filter i följand
 * Användningsrapport
 
    Mer information finns i avsnittet [Information om filteranvändning](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) i artikeln [Visa information om resursutnyttjande](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-
-* Resursplaneringsområden\
-   Mer information finns i artikeln [Filterinformation i området Schemaläggning](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
 * Utjämning av arbetsbelastning
 
