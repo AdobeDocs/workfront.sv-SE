@@ -7,9 +7,9 @@ description: Du kan visa och hantera information om en arbetsuppgift utan att l�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,6 @@ Innan du kan visa och hantera information om arbetsobjekt i [!DNL G Suite]måste
 
    När du väljer en uppgift eller ett problem visas **[!UICONTROL Details]** -fliken är öppen. Området ovanför **[!UICONTROL Details]** -fliken visar namnet på det överordnade objektet, namnet på uppgiften eller utgåvan samt [!UICONTROL Due date] (om det är en uppgift) eller [!UICONTROL Priority date] (om det är ett problem).
 
-   ![](assets/details-tab.png)
 
    Du kan utföra olika åtgärder på den här fliken utan att lämna [!DNL G Suite], inklusive följande:
 
