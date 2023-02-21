@@ -7,9 +7,9 @@ description: Med Adobe Workfront Fusion DevTool kan du förstå och felsöka sce
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c74a804e5c998a2a127100ae62eac371a7e55d39
+source-git-commit: 3d5b9e178cc3222523b558e3c6717ce54f322ff9
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 Så här använder du [!DNL Workfront Fusion] DevTool, du måste först installera det.
 
-1. Klicka [den här länken](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool+(3).zip) för att hämta tillägget.
+1. Klicka [den här länken](assets/workfront-fusion-devtool-2023-feb.zip) för att hämta tillägget.
 1. När filerna har laddats ned kan du extrahera dem till valfri mapp.
 1. Öppna en flik i [!DNL Chrome]
 1. Ange `chrome://extensions`.
