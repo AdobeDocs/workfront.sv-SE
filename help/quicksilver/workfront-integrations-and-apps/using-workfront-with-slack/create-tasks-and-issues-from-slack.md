@@ -6,9 +6,9 @@ description: När du har installerat och konfigurerat [!DNL Adobe Workfront] fö
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Innan du kan skapa uppgifter och ärenden från [!DNL Slack]måste du
    >
    >Kommandon är skiftlägeskänsliga. Du kan börja ditt kommando med `/wf` i stället för `/workfront`.
    >  
-   >Uppgiftsnamnet måste anges så som det kommer att visas i [!DNL Workfront] utan hakparenteser eller citattecken.\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >Uppgiftsnamnet måste anges så som det kommer att visas i [!DNL Workfront] utan hakparenteser eller citattecken.
 
 1. (Valfritt) Börja skriva namnet på ett projekt som du vill associera den nya uppgiften med och markera den när den visas i listan.\
    Du får en bekräftelse som anger att uppgiften har lagts till i det valda projektet.
@@ -81,8 +80,7 @@ Innan du kan skapa uppgifter och ärenden från [!DNL Slack]måste du
    >[!NOTE]
    >
    >Kommandon är skiftlägeskänsliga. Du kan starta kommandot med &#39;/wf&#39; i stället för &#39;/workfront&#39;. \
-   >Du måste ange problemnamnet så som det kommer att visas i dialogrutan [!DNL Workfront] utan hakparenteser eller citattecken.\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >Du måste ange problemnamnet så som det kommer att visas i dialogrutan [!DNL Workfront] utan hakparenteser eller citattecken.
 
 1. (Valfritt) Börja skriva namnet på ett projekt som du vill associera det nya problemet med och markera det när det visas i listan.\
    Du får en bekräftelse som anger att problemet har lagts till i det valda projektet.

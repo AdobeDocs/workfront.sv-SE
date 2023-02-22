@@ -7,9 +7,9 @@ description: Du kan komma åt [!DNL Adobe Workfront] Hemmabruk med uppgifter, ä
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,7 @@ Innan du kan komma åt [!UICONTROL Home] innehåll från [!DNL G Suite]måste du
 1. Om [!UICONTROL Workfront for G Suite] visas inte, klicka på [!DNL Workfront] icon ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofältet för tillägg längst till höger på sidan.
 1. Om du ser en vänsterpil högst upp i [!DNL Workfront] for [!DNL G Suite]klickar du på pilen för att gå till [!UICONTROL Home] område.
 
-   ![](assets/left-arrow-to-home.png)
-
 1. I **[!UICONTROL Sort by]** klickar du på den expanderade pilen ![](assets/dropdown-arrow.png)klickar du sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du vill ha.
-
-   ![](assets/sort-by-area.png)
 
    När du sorterar efter **[!UICONTROL Commit date]** eller **[!UICONTROL Planned completion]** det äldsta arbetsobjektet finns överst.
 

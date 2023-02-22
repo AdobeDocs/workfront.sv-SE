@@ -7,9 +7,9 @@ description: Du kan uppdatera ett befintligt projekt, en uppgift eller ett probl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ Innan du kan uppdatera en [!DNL Workfront] objekt med e-postinnehåll från [!DN
 1. Under **[!UICONTROL Type]** klickar du på listrutepilen och sedan på den typ av objekt där du vill lägga till uppdateringen.
 1. Klicka på **[!UICONTROL Search for]** börjar du skriva namnet på objektet där du vill lägga till uppdateringen och markerar sedan objektet när det visas i listan nedan.
 
-   ![](assets/click-search-for-task-issue.png)
-
    Det här alternativet varierar beroende på vad du valde i steg 3. Det kan vara **[!UICONTROL Search for a project]**, **[!UICONTROL Search for a task]**, eller **[!UICONTROL Search for an issue]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ Innan du kan uppdatera en [!DNL Workfront] objekt med e-postinnehåll från [!DN
 1. Klicka på **[!UICONTROL Update]**.
 
    När du uppdaterar webbläsaren visas ett meddelande med en länk längst ned i [!DNL Workfront for G Suite] bekräftar du att du har konverterat e-postmeddelandet till en uppdatering:
-
-   ![](assets/email-was-converted-as-update.png)
 
    Du kan klicka på länken för att gå till [!UICONTROL Updates] tabba in [!DNL Workfront] för det objekt som du angav i steg 4.
 

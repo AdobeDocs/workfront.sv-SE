@@ -6,9 +6,9 @@ description: The [!DNL Adobe Workfront for Microsoft Teams] kan du utföra grund
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,6 @@ Som teamägare i [!DNL Microsoft Teams]kan du installera [!DNL Workfront for Mic
 1. Välj det team som du vill installera [!DNL Workfront for Microsoft Teams] app.
 1. Klicka **[!UICONTROL Store]** på sidans navigeringsfält.
 
-   ![ms_teams_Store_icon.png](assets/ms-teams-store-icon-319x809.png)
-
 1. I **[!UICONTROL Search all]** ruta, typ *[!DNL Workfront]*.
 
 1. Klicka på **[!DNL Workfront]** och följ instruktionerna i guiden.
@@ -69,9 +67,7 @@ Som teamägare i [!DNL Microsoft Teams]kan du installera [!DNL Workfront for Mic
 
    ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
 
-1. Välj **[!UICONTROL General]** om du vill använda appen i den kanalen för det valda teamet och sedan klicka på **[!UICONTROL Set up]**.
-
-   ![teams_select_which_channel_to_use_the_app_install.PNG](assets/teams-select-which-channel-to-use-the-app-install-350x330.png)
+1. För kanalen väljer du **[!UICONTROL General]** om du vill använda appen i den kanalen för det valda teamet och sedan klicka på **[!UICONTROL Set up]** för de funktioner du vill ha.
 
 1. När installationen är klar visas ett meddelande om att installationen lyckades i [!UICONTROL General] kanalen för det team du valde. Alla teammedlemmar kan se det här meddelandet.
 1. (Valfritt) Fäst [!DNL Workfront] app för enklare åtkomst:
@@ -79,8 +75,6 @@ Som teamägare i [!DNL Microsoft Teams]kan du installera [!DNL Workfront for Mic
    1. Klicka på **[!UICONTROL More]** -ikonen under meddelandefältet i [!UICONTROL General] kanal.
 
    1. För musen över [!DNL Workfront] i listan och klickar sedan på **[!UICONTROL More]** till höger om den.
-
-      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
    1. Klicka på **[!UICONTROL Pin]**.
 
@@ -104,18 +98,14 @@ Installera [!DNL Workfront for Microsoft Teams] från en privat fil:
 1. Logga in på [!DNL Microsoft Teams] som [!DNL Microsoft] teamägare.
 1. Klicka på **[!UICONTROL More]** ikon för det team som du vill installera [!DNL Workfront for Microsoft Teams].
 
-   ![ms_teams_more_icon_for_team.png](assets/ms-teams-more-icon-for-team-350x177.png)
-
 1. Klicka på **[!UICONTROL Manage Team]**.
 1. Välj **[!UICONTROL Apps]** tabbtangenten och sedan klicka **[!UICONTROL Upload a custom app]** i skärmens nedre högra hörn.
 
 1. Bläddra efter den privata filen som du har sparat på datorn och följ sedan installationsstegen för att installera [!DNL Workfront for Microsoft Teams].
 1. När installationen är klar visas ett meddelande om att installationen lyckades i den allmänna kanalen för det team du valde. Alla teammedlemmar kan se det här meddelandet.
-1. (Valfritt) Klicka på **[!UICONTROL More]** ikonen under **[!UICONTROL Type your questions here]** fält.
+1. (Valfritt) Klicka på **[!UICONTROL More]** (tre punkter), ikon under **[!UICONTROL Type your questions here]** fält.
 
 1. (Valfritt) Mus över [!DNL Workfront] i listan och klickar sedan på **[!UICONTROL More]** till höger om den.
-
-   ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Pin]**.
 
@@ -138,15 +128,11 @@ Logga in på [!DNL Workfront] från [!DNL Microsoft Teams]:
 
    The [!DNL Workfront] chattkanalen läggs till i din [!DNL Microsoft Teams] chattkanaler.
 
-   ![teams_workfront_bot_channel_marked.PNG](assets/teams-workfront-bot-channel-highlighted-350x220.png)
-
 1. Gå till [!DNL Workfront] chattchattkanal i [!DNL Microsoft Teams] och text *[!UICONTROL log in]* i **[!UICONTROL Type your questions here]** fält.
 
    eller
 
    Klicka på **[!UICONTROL Log in]**.
-
-   ![](assets/ms-teams-log-in-prompt-with-4-tabs-350x139.png)
 
    En ny flik i webbläsaren öppnas.
 

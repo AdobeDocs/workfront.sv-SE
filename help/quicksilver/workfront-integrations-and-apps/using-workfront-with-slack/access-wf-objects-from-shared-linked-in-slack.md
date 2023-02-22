@@ -6,9 +6,9 @@ description: När länkar till [!DNL Adobe Workfront] objekt delas med dig i en 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,6 @@ Innan du kan komma åt dina favoriter och de senaste objekten från [!DNL Slack]
    >[!NOTE]
    >
    >Användaren som delar länken måste ha minst [!UICONTROL View] behörighet till projektet så att du kan se ytterligare information om det.
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. (Valfritt) Klicka på namnet på projektet för att öppna det i [!DNL Workfront] på en ny flik i webbläsaren.
 1. Titta på följande ytterligare information om projektet:

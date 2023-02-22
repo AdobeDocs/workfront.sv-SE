@@ -6,9 +6,9 @@ description: Du kan skapa en [!DNL Adobe Workfront] förfrågan från ett e-post
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ Skapa en [!DNL Workfront] Begär från [!DNL Outlook]:
 1. Klicka på **[!DNL Workfront]** i det övre högra hörnet av e-postmeddelandet för att visa Workfront-tillägget.\
    Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt [!DNL Workfront] ikon.
 
-1. Klicka på **[!UICONTROL Menu]** ikon för att visa listan över tillgängliga [!DNL Workfront] alternativ.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. Klicka på **[!UICONTROL Menu]** icon ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan över tillgängliga [!DNL Workfront] alternativ.
 
 1. Klicka på **[!UICONTROL Submit Request]**.
 1. I **[!UICONTROL Select a Request Type]** markerar du den begärandekö där du vill skicka begäran.
-
-   ![o365_addin_submitRequest.png](assets/o365-addin-submitrequest.png)
 
 1. Ange följande information:\
    Beroende på hur frågekö konfigurerades kan tillgängliga fält variera. En fullständig lista och en beskrivning av möjliga fält finns på [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../manage-work/requests/create-requests/create-submit-requests.md) artikel.
@@ -79,4 +75,3 @@ Skapa en [!DNL Workfront] Begär från [!DNL Outlook]:
 
 1. (Valfritt) Navigera tillbaka till [!DNL Outlook]och välj det ursprungliga e-postmeddelandet.\
    Överst på [!DNL Workfront] lägg till en länk till bekräftelsen om att e-postmeddelandet har lagts till i Workfront som en begäran. Länken innehåller datumet då den konverterades.\
-   ![outlook_skickad_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

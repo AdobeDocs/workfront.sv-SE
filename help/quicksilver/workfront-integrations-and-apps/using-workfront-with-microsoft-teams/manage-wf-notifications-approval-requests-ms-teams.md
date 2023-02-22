@@ -6,9 +6,9 @@ description: Du kan få meddelanden från [!DNL Adobe Workfront] om objekt som d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Tänk på följande när du arbetar med [!DNL Workfront] meddelanden från [!DNL
 
 Hantera [!DNL Workfront] meddelanden som du kan ta emot i [!DNL Microsoft Teams]:
 
-1. Klicka på **[!UICONTROL More added]** appikon i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Klicka på **[!UICONTROL More added]** appikon (tre punkter) i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
 
 1. Klicka [!DNL Workfront] i listan som visas.
 1. Välj **[!UICONTROL Settings]** -fliken.

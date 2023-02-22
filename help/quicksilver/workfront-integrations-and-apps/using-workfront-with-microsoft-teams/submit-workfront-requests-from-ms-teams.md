@@ -6,9 +6,9 @@ description: När teamägaren har installerat Adobe Workfront för Microsoft Tea
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,7 @@ Dina [!DNL Microsoft Teams] teamägaren måste installera [!DNL Workfront] for [
 
 ## Skicka [!DNL Workfront] förfrågningar från [!DNL Microsoft Teams]
 
-1. Klicka på **[!UICONTROL More added apps]** ikonen till vänster i navigeringsfältet i Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Klicka på **[!UICONTROL More added apps]** (tre punkter) ikon i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
 
 1. Klicka **[!DNL Workfront]** i listan som visas.
 1. Klicka på **[!UICONTROL Requests]** -fliken.
@@ -89,14 +87,10 @@ Dina [!DNL Microsoft Teams] teamägaren måste installera [!DNL Workfront] for [
 
 ## Visa [!DNL Workfront] du skickade in [!DNL Microsoft Teams]
 
-1. Klicka på **[!UICONTROL More added apps]** ikonen till vänster i navigeringsfältet i Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Klicka på **[!UICONTROL More added apps]** (tre punkter) ikon i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
 
 1. Klicka **[!DNL Workfront]** i listan som visas.
 1. Klicka på **[!UICONTROL Requests]** -fliken.
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    Begäranden du har skickat visas i [!UICONTROL My submitted requests] området på [!UICONTROL Requests] -fliken. Du kan inte konfigurera den information som visas på den här fliken om de begäranden som du har skickat.
 

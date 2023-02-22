@@ -6,9 +6,9 @@ description: Du kan konvertera [!DNL Outlook] mejl till [!DNL Adobe Workfront] u
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ Dina [!DNL Workfront] administratör måste aktivera [!DNL Outlook for Office] m
 1. Klicka på **[!DNL Workfront]** i det övre högra hörnet av e-postmeddelandet för att visa [!DNL Workfront] tillägg.\
    Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt [!DNL Workfront] ikon.
 
-1. Klicka på **[!UICONTROL Menu]** ikon för att visa listan över tillgängliga [!DNL Workfront] alternativ.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Klicka på **[!UICONTROL Menu]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) ikon för att visa listan över tillgängliga [!DNL Workfront] alternativ.\
+
 
 1. Klicka på **[!UICONTROL Add to Work]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. Avmarkera **[!UICONTROL Add to Project]** fält.
 1. (Valfritt) Du kan uppdatera följande information från e-postmeddelandet innan det sparas som en uppgift:
@@ -68,4 +67,3 @@ Dina [!DNL Workfront] administratör måste aktivera [!DNL Outlook for Office] m
 
 1. (Valfritt) Navigera tillbaka till [!DNL Outlook]och välj det ursprungliga e-postmeddelandet.\
    Överst på [!DNL Workfront] Lägg till i panelen. Lägg märke till bekräftelsen med en länk om att e-postmeddelandet har lagts till i Workfront som en uppgift. Länken innehåller datumet då den konverterades.\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)

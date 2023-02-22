@@ -6,9 +6,9 @@ description: När du länkar [!DNL Jira] problem med [!DNL Adobe Workfront] uppg
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ I följande lista visas vilka [!DNL Workfront] fält synkroniseras med [!DNL Jir
   </tr> 
   <tr> 
    <td>Anpassade Forms- och anpassade fält</td> 
-   <td> <p> Visa i [!DNL Workfront] den högra panelen i [!DNL Jira] problem. <br>Endast anpassade fält som har ett verkligt värde visas på panelen.<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>Obs! Anpassade formuläravsnitt visas med åtkomstnivån för [!DNL Workfront] administratör. </p> </td> 
+   <td> <p> Visa i [!DNL Workfront] den högra panelen i [!DNL Jira] problem. <br>Endast anpassade fält som har ett verkligt värde visas på panelen.<br></p> <p>Obs! Anpassade formuläravsnitt visas med åtkomstnivån för [!DNL Workfront] administratör. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Issue or Task Priority]</td> 
@@ -201,8 +201,7 @@ Logga tid för ett objekt i [!DNL Jira] och få det inspelat [!DNL Jira] och [!D
 
 1. Logga in [!DNL Jira].
 1. Gå till [!DNL Jira] problem som är länkat till [!DNL Workfront] objekt.
-1. Expandera **[!UICONTROL More]** meny och klicka **[!UICONTROL Log work]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. Expandera **[!UICONTROL More]** meny och klicka **[!UICONTROL Log work]**.
 
 1. I **[!UICONTROL Time Spent]** anger du hur mycket tid som har ägnats åt att arbeta med det här problemet. Du måste ange tiden med följande tidsperioder:
 
@@ -225,8 +224,6 @@ Du kan logga tiden bara till den länkade [!DNL Workfront] objekt från [!DNL Ji
 
 1. Klicka på **[!UICONTROL Log Time]** ikon.
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. Ange mängden **[!UICONTROL Hours]** och **[!UICONTROL Minutes]** du vill logga in på problemet.
 
 1. Klicka på **[!UICONTROL Log Time]**.
@@ -246,7 +243,7 @@ Om du vill kommentera från [!DNL Jira] till [!DNL Workfront] objekt:
 
    Information om [!DNL Workfront] objektet ska visas i [!DNL Workfront] den högra panelen för problemet.
 
-1. Klicka på **[!UICONTROL Comments]** ikonen i [!DNL Workfront] eller på **[!UICONTROL Comments]** -fliken. ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. Klicka på **[!UICONTROL Comments]** ikonen i [!DNL Workfront] eller på **[!UICONTROL Comments]** -fliken.
 
 1. Börja skriva en kommentar och klicka sedan **[!UICONTROL Send]**.
 

@@ -6,9 +6,9 @@ description: Efter installationen [!DNL Adobe Workfront] för Salesforce som [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,6 @@ Du måste ha följande åtkomst för att kunna använda de funktioner som beskri
    Klicka **[!UICONTROL New]** för att lägga till en ny layout.
 
 1. (Valfritt) Dra **[!UICONTROL Section]** till layouten och släpp den på önskad plats.\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
 
 1. (Valfritt) Ange ett namn för det nya avsnittet.
 
@@ -82,15 +81,13 @@ Du måste ha följande åtkomst för att kunna använda de funktioner som beskri
 1. Klicka på **[!UICONTROL OK]**.
 1. I **[!UICONTROL Layout]** område, klicka **[!UICONTROL Visualforce Pages].**
 
-1. Dra och släpp **[!UICONTROL WorfrontOpportunities]** till det nya avsnittet i **[!UICONTROL Opportunities]** Layout.
+1. Dra och släpp **[!UICONTROL WorkfrontOpportunities]** till det nya avsnittet i **[!UICONTROL Opportunities]** Layout.
 
    eller
 
    Dra och släpp **[!UICONTROL WorkfrontAccounts]** till det nya avsnittet i  **[!UICONTROL Account]** Layout.\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
-1. Klicka på **[!UICONTROL Properties]** ikonen i det övre högra hörnet i den nya komponenten.\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
+1. Klicka på **[!UICONTROL Properties]** ikonen i det övre högra hörnet av den nya komponenten.\
 
 1. För att få en optimal visning anger du följande egenskaper för [!DNL Workfront Visualforce] sida:
 
@@ -104,8 +101,6 @@ Du måste ha följande åtkomst för att kunna använda de funktioner som beskri
    Alla användare som har den här layouten tilldelad kan nu se [!DNL Workfront] på sina [!UICONTROL Opportunities] eller [!UICONTROL Accounts] objekt.
 
    Användarna ser en [!DNL Workfront] inloggningsskärmen på [!DNL Workfront] -avsnitt. Om de inte har en [!DNL Workfront] kan de komprimera avsnittet, men inte ta bort det från layouten.
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## Konfigurera [!DNL Workfront] i [!DNL Salesforce Lightning Experience] ramverk
 
@@ -142,14 +137,11 @@ Du kan lägga till [!DNL Workfront] till layouten för en [!DNL Salesforce] [!UI
 1. Gå till en **[!UICONTROL Opportunity]** eller **[!UICONTROL Account]**.
 
 1. Klicka på **[!UICONTROL Setup]** ikonen och klicka sedan på **[!UICONTROL Edit Page]**.\
-   ![salesforce_lightning_opportunity_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. Expandera avsnittet **[!UICONTROL Custom-Managed]**.
 1. Dra och släpp **[!DNL Workfront]** -komponenten på [!UICONTROL Opportunity] eller sidan Konto.
 
    Vi rekommenderar att du använder hela sidbredden för [!DNL Workfront] i stället för en av spalterna i layouten.
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -159,4 +151,3 @@ Du kan lägga till [!DNL Workfront] till layouten för en [!DNL Salesforce] [!UI
    >
    >Användarna ser en [!DNL Workfront] inloggningsskärmen på [!DNL Workfront] -avsnitt. Om de inte har en [!DNL Workfront] kan de komprimera avsnittet, men inte ta bort det från layouten. Användarna kan logga in med den autentiseringsmetod som du har aktiverat: Förbättrad autentisering eller din SAML-URL (Security Assertion Markup Language).
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

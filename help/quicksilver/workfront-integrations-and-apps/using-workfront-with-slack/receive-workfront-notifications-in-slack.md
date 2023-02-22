@@ -6,9 +6,9 @@ description: Ta emot [!DNL Adobe Workfront] meddelanden i [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -66,8 +66,6 @@ Innan du kan ta emot [!DNL Workfront] meddelanden i [!DNL Slack]måste du
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. Alla meddelanden är aktiverade som standard.\
    Inaktivera något av följande meddelanden:
 
@@ -107,25 +105,15 @@ Hantera dina [!DNL Workfront] meddelanden om [!DNL Slack]:
 
    * Klicka **[!UICONTROL Work on it]** för att acceptera att arbeta med en uppgift.
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * (Villkorligt och valfritt) Klicka **[!UICONTROL Reply in [!DNL Workfront]]** om du vill svara på en kommentar skriver du ditt svar och klickar på **[!UICONTROL Reply]**.
 
-   * (Villkorligt och valfritt) Klicka **[!UICONTROL Reply in [!DNL Workfront]]** om du vill svara på en kommentar skriver du ditt svar och klickar på **[!UICONTROL Reply]**.\
+   * (Villkorligt och valfritt) Klicka **[!UICONTROL Approve]** eller **[!UICONTROL Reject]** för att godkänna eller avvisa en aktivitet, ett problem eller ett projekt som väntar på ditt godkännande.
 
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
+   * (Villkorligt och valfritt) Klicka **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, eller **[!UICONTROL Reject]**, för att godkänna, godkänna med ändringar eller avvisa ett dokument.
 
-   * (Villkorligt och valfritt) Klicka **[!UICONTROL Approve]** eller **[!UICONTROL Reject]** för att godkänna eller avvisa en aktivitet, ett problem eller ett projekt som väntar på ditt godkännande.\
-
-      ![slack_acceptable_task_notification.png](assets/slack-approve-task-notification-350x105.png)
-
-   * (Villkorligt och valfritt) Klicka **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, eller **[!UICONTROL Reject]**, för att godkänna, godkänna med ändringar eller avvisa ett dokument.\
-
-      ![slack_acceptable_a_document.png](assets/slack-approve-a-document-350x362.png)\
       Du kan också föra musen över dokumentets miniatyrbild och klicka på förstoringsglaset för att visa en större förhandsvisning av dokumentet innan du godkänner det.\
       Endast godkänd Slack [filtyper](https://api.slack.com/types/file) kan förhandsgranskas.
 
    * (Villkorligt och valfritt) Klicka **[!UICONTROL Grant]** eller **[!UICONTROL Ignore]** för att bevilja eller ignorera begäran om mer åtkomst från en annan användare.\
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       Du får en bekräftelse på att åtgärden har slutförts i [!DNL Workfront]för varje beslut du fattar i dina meddelanden.

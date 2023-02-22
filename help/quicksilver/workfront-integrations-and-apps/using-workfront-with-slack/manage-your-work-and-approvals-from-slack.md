@@ -6,9 +6,9 @@ description: Du kan komma åt din hemarbetslista, granska och godkänna att arbe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Innan du kan hantera ditt arbete och dina godkännanden från [!DNL Slack]måste
    >* Du kan börja ditt kommando med `/wf` i stället för `/workfront`.
 
 
-   De knappar som du kan använda för att komma åt listor över dina uppgifter, utgåvor och godkännanden visas. Om du klickar på någon av knapparna visas de första 20 objekten i varje lista i [!DNL Slack].\
-   ![](assets/slack-home-buttons-350x80.png)
+   De knappar som du kan använda för att komma åt listor över dina uppgifter, utgåvor och godkännanden visas. Om du klickar på någon av knapparna visas de första 20 objekten i varje lista i [!DNL Slack].
 
 1. (Valfritt) Klicka på **[!UICONTROL Tasks]** för att visa alla dina uppgifter.
 
@@ -95,8 +94,7 @@ Innan du kan hantera ditt arbete och dina godkännanden från [!DNL Slack]måste
    >* Du kan börja ditt kommando med `/wf` i stället för `/workfront`.
 
 
-   De första 20 uppgifterna i listan visas.\
-   ![](assets/slack-two-tasks-350x286.png)
+   De första 20 uppgifterna i listan visas.
 
 1. Klicka **[!UICONTROL +`<remaining number>`mer]** om du vill visa ytterligare uppgifter.
 1. Titta på följande information om dina arbetsobjekt:
@@ -141,8 +139,7 @@ Innan du kan hantera ditt arbete och dina godkännanden från [!DNL Slack]måste
    >* Du kan börja ditt kommando med `/wf` i stället för `/workfront`.
 
 
-   De första 20 utgåvorna i din listvisning.\
-   ![](assets/slack-two-issues-350x323.png)
+   De första 20 utgåvorna i din listvisning.
 
 1. Klicka **[!UICONTROL + remaining `<number>`mer]** om du vill visa ytterligare objekt.
 1. Titta på följande information om dina arbetsobjekt:
@@ -179,12 +176,6 @@ Innan du kan hantera ditt arbete och dina godkännanden från [!DNL Slack]måste
    De första 20 objekten på **[!UICONTROL Approvals]** listvisning. Ytterligare information om objekten visas också, t.ex. namnet på den användare som begärde det eller namnet på det projekt som objektet tillhör.
 
 1. Klicka **[!UICONTROL + remaining `<number>`mer]** om du vill visa ytterligare objekt.
-
-   ![slack_access_approval_list.png](assets/slack-access-approvals-list-350x213.png)
-
-   ![](assets/slack-approve-a-document-350x362.png)
-
-   ![](assets/slack-approve-task-notification-350x105.png)
 
 1. Överväg att hantera godkännanden för följande objekt:
 

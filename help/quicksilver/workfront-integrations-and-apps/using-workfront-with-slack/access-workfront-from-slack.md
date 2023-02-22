@@ -6,7 +6,7 @@ description: Integrera [!DNL Adobe Workfront] med [!DNL Slack] ger dig åtkomst 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 0%
@@ -95,8 +95,6 @@ Logga in på [!DNL Workfront] från [!DNL Slack]:
    * `/wf home`
 
       Visar knappar som du kan använda för att få åtkomst till listor med uppgifter, utgåvor och godkännanden. Om du klickar på någon av knapparna visas de första 20 objekten i varje lista i [!DNL Slack].
-
-      ![](assets/slack-home-buttons-350x80.png)
 
       Mer information om hur du hanterar [!DNL Workfront] arbetsobjekt från [!DNL Slack], se [Hantera ditt arbete och godkännanden från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
@@ -203,8 +201,6 @@ Mer information om åtkomst [!DNL Workfront] från en delad länk, se [Åtkomst 
    eller
 
    `/wf settings`
-
-   ![](assets/slack-configuring-settings-350x302.png)
 
    Alla inställningar är aktiverade som standard.
 

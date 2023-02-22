@@ -6,16 +6,16 @@ description: Du kan söka efter [!DNL Workfront] objekt i [!DNL Adobe WorkfrontW
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Söka efter och dela [!DNL Adobe Workfront] objekt i [!DNL Microsoft Teams]
 
-Du kan söka efter [!DNL Workfront] objekt i [!DNL Adobe WorkfrontWorkfront] kanal in [!DNL Microsoft Teams] och dela dessa med teammedlemmar.
+Du kan söka efter [!DNL Workfront] objekt i [!DNL Adobe Workfront] kanal in [!DNL Microsoft Teams] och dela dessa med teammedlemmar.
 
 * [Förutsättningar för delning [!DNL Workfront] objekt i [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [Söka efter och dela [!DNL Workfront] objekt i [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -94,5 +94,5 @@ Om du vill söka efter en [!DNL Workfront] objekt från [!DNL Microsoft Teams] o
    Detta skickar meddelandet inklusive [!DNL Workfront] till din kanal.\
    Alla medlemmar i kanalen kan se det här meddelandet, inklusive informationen på [!DNL Workfront] kort.
 
-1. Klicka **[!UICONTROL View in Workfront]** om du vill visa objektet i Workfront.\
-   Endast användare som har [!DNL Workfront] licenser kan visa ett objekt i Workfront.
+1. Klicka **[!UICONTROL View in Workfront]** för att visa objektet i [!DNL Workfront].\
+   Endast användare som har [!DNL Workfront] licensen kan visa ett objekt i [!DNL Workfront].

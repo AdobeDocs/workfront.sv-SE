@@ -6,9 +6,9 @@ description: Du kan konvertera e-postmeddelanden till [!DNL Adobe Workfront] upp
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,11 @@ Dina [!DNL Workfront] administratör måste aktivera [!DNL Outlook for Office] m
 
    Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt [!DNL Workfront] ikon.
 
-1. Klicka på **[!UICONTROL Menu]** ikon för att visa listan över tillgängliga [!DNL Workfront] alternativ.
+1. Klicka på **[!UICONTROL Menu]** icon ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan över tillgängliga [!DNL Workfront] alternativ.
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
 
 1. Klicka på **[!UICONTROL Add to Work]**.
-
-   ![outlook__add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. Välj **[!UICONTROL Add to Project]** fält.
 1. Börja skriva namnet på ett projekt i **[!UICONTROL Project]** markerar du det när det visas i listan.
@@ -95,4 +93,3 @@ Dina [!DNL Workfront] administratör måste aktivera [!DNL Outlook for Office] m
 
    Överst på [!DNL Workfront] tilläggspanelen, lägg märke till bekräftelsen med en länk som e-postmeddelandet lades till i [!DNL Workfront] som en uppgift eller ett problem. Länken innehåller datumet då den konverterades.
 
-   ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

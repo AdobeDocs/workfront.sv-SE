@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs hur du loggar in i eller ut från [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -69,8 +69,6 @@ Innan du kan logga in eller ut från [!DNL Workfront for G Suite]måste du
 
 1. Om [!UICONTROL Workfront for G Suite] visas inte, klicka på [!DNL Workfront] icon ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofältet för tillägg längst till höger på sidan.
 1. Klicka på **[!UICONTROL More actions]** ikonen längst upp på [!DNL Workfront for G Suite] -panelen.
-
-   ![](assets/more-actions-icon.png)
 
 1. Klicka **[!UICONTROL Logout]** på menyn som visas.
 

@@ -7,9 +7,9 @@ description: Du kan konvertera ett externt e-postmeddelande (som inte genererats
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Innan du kan skapa ett problem från [!DNL G Suite]måste du
    Längst ned på **[!UICONTROL Details]** kan du även klicka på **[!UICONTROL View in Workfront]** för att gå till den nya utgåvan av Workfront.
 
    När du uppdaterar webbläsaren visas ett meddelande med en länk längst ned i [!UICONTROL Workfront for G Suite] bekräftar du att du har konverterat e-postmeddelandet till ett problem:
-
-   ![](assets/email-was-converted.png)
 
    Du kan klicka på länken för att gå till vyn Detaljer, i dialogrutan [!DNL Workfront for G Suite] för det problem du har skapat.
 

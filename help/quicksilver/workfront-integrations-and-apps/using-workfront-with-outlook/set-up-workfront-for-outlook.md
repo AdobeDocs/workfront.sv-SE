@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion är integrerat med Outlook. I den här artik
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ Mer information om hur du ställer in [!DNL Workfront] tillägg för [!DNL Outlo
 
 1. Sök efter **[!DNL Workfront]** i **[!UICONTROL Search add-ins]** fält och tryck sedan på **[!UICONTROL Enter]**.
 
-   ![workfront_for_outlook_on_the_web.png](assets/workfront-for-outlook-on-the-web-350x116.png)
-
 1. När den visas i listan klickar du på **Lägg till**.
 
 ### [!DNL Workfront for Outlook] på [!UICONTROL Windows] eller [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
@@ -132,8 +130,6 @@ Mer information om hur du ställer in [!DNL Workfront] tillägg för [!DNL Outlo
 1. Klicka **[!UICONTROL Home]** > **[!UICONTROL Store]** på menyfliksområdet.
 
 1. Sök efter **[!DNL Workfront]** i **[!UICONTROL Search]** fält och tryck sedan på **[!UICONTROL Enter]**.
-
-   ![o365_addin_search.png](assets/o365-addin-search-350x158.png)
 
 1. Klicka på växlingsknappen för att aktivera **[!UICONTROL [!DNL Workfront] add-in]**.
 

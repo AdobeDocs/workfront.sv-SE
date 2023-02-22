@@ -6,9 +6,9 @@ description: Du kan länka [!DNL Jira] problem med [!DNL Adobe Workfront] uppgif
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Länka en [!DNL Workfront] till en [!DNL Jira] utgåva:
 
    I **[!UICONTROL Updates]** i den nya aktiviteten finns det en kommentar som anger att en ny utgåva också har skapats i [!DNL Jira].
 
-   ![WF_confirmation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. (Valfritt) Klicka på länken till Jira-problemet för att öppna det i Jira.
 
    eller
@@ -142,15 +140,14 @@ Länka manuellt [!DNL Jira] problem med [!DNL Workfront] objekt:
 
    eller
 
-   Från [!UICONTROL Details] area ![](assets/details-icon-in-left-panel.png), kopiera **[!UICONTROL Reference Number]** av objektet i Workfront.
+   Från [!UICONTROL Details] område, kopiera **[!UICONTROL Reference Number]** av objektet i Workfront.
 
    >[!NOTE]
    >
    >Du måste ha en [!DNL Workfront] licens att logga in på [!DNL Workfront]. I annat fall, en [!DNL Workfront] användaren måste ange den här informationen till dig.
 
 1. I [!DNL Jira]navigera till ett problem som du vill länka till manuellt [!DNL Workfront] objekt.
-1. I [!DNL Workfront] höger panel, klistra in **URL** eller **[!UICONTROL Reference Number]** i [!DNL Workfront] objekt som du vill länka till.\
-   ![hand_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. I [!DNL Workfront] höger panel, klistra in **URL** eller **[!UICONTROL Reference Number]** i [!DNL Workfront] objekt som du vill länka till.
 
 1. Klicka på **[!UICONTROL Link]**.
 
@@ -168,8 +165,6 @@ Länka manuellt [!DNL Jira] problem med [!DNL Workfront] objekt:
 
 Mer information om hur du aktiverar ytterligare fält som ska visas på den högra panelen finns i [Konfigurera fältsynkronisering mellan [!DNL Jira] och [!DNL Workfront] Objekt](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) avsnitt i [Konfigurera [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). En kommentar från [!DNL Workfront] administratör som är associerad med integreringen är registrerad i **[!DNL Workfront]** -fliken i [!DNL Jira] bekräfta att en ny [!DNL Jira] objektet har skapats. Kommentaren innehåller en länk till [!DNL Jira] problem.
 
-![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## Bryt länken mellan objekt [!DNL Jira] och [!DNL Workfront]
 
 Länkade objekt mellan [!DNL Jira] och [!DNL Workfront] kan brytas länken manuellt från [!DNL Jira].\
@@ -185,6 +180,6 @@ Endast en [!DNL Workfront] kan du bryta länken mellan objekt som har länkats a
 Så här bryter du länken till en [!DNL Jira] utgåva från en [!DNL Workfront] objekt:
 
 1. I [!DNL Jira], navigera till ett problem som är länkat till ett [!DNL Workfront] aktivitet eller problem.
-1. Gå till [!DNL Workfront] den högra panelen och klicka på **[!UICONTROL Unlink]** ikonen och klicka sedan på **[!UICONTROL Unlink]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. Gå till [!DNL Workfront] den högra panelen och klicka på **[!UICONTROL Unlink]** ikonen och klicka sedan på **[!UICONTROL Unlink]**.
+
    Tidigare länkade [!DNL Jira] och [!DNL Workfront] objekt är nu olänkade. Eventuella fält, kommentarer eller dokument som kan uppdateras individuellt i framtiden uppdateras inte på den tidigare motsvarigheten i det andra programmet.

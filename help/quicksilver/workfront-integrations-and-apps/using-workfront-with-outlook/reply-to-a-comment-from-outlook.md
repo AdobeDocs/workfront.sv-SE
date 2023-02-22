@@ -6,9 +6,9 @@ description: När du får en [!DNL Adobe Workfront] e-postmeddelanden i din Outl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,13 @@ Dina [!DNL Workfront] administratör måste aktivera [!DNL Outlook for Office] m
 1. Klicka på **[!DNL Workfront]** i det övre högra hörnet av e-postmeddelandet för att visa Workfront-tillägget.\
    Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt [!DNL Workfront] ikon.
 
-1. Klicka på **[!UICONTROL Menu]** ikon för att visa listan över tillgängliga [!DNL Workfront] alternativ.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Klicka på **[!UICONTROL Menu]** icon ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan över tillgängliga [!DNL Workfront] alternativ.\
+
 
 1. Klicka på **[!UICONTROL Reply to Comment]**.
 1. Ange din kommentar i det angivna fältet.
 1. (Valfritt) Klicka på **[!UICONTROL Include Others]** börjar du skriva namnet på de användare som du vill ska ingå i uppdateringen och klickar sedan på namnet när det visas i listrutan.\
    Upprepa den här processen om du vill inkludera fler användare och klicka sedan på **[!UICONTROL Done]**.\
    Som standard får den användare du svarar ett meddelande oavsett om du tar med dem eller inte.\
-   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. Klicka på **[!UICONTROL Comment]**.

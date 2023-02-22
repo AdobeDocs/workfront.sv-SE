@@ -6,9 +6,9 @@ description: Du kan använda [!DNL Adobe Workfront for Jira] integrera [!DNL Jir
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '2239'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,6 @@ Så här konfigurerar du utlösare för att automatiskt skapa objekt i [!DNL Jir
 
    The **[!UICONTROL Triggers]** -fliken är markerad som standard.
 
-   ![Triggers_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. Klicka **[!UICONTROL Add trigger]** för att lägga till en ny utlösare.
 1. I **[!UICONTROL Workfront team/user/role]** fält, ange namnet på ett [!DNL Workfront] team, användare eller jobbroll. Klicka sedan för att markera den när den visas i listan.
 
@@ -180,8 +178,6 @@ Så här definierar du vilka fält som ska synkroniseras automatiskt på objekt 
 1. Klicka på **[!UICONTROL Configure]**.
 1. Logga in på [!DNL Workfront] som Workfront-administratör.
 1. Klicka på **[!UICONTROL Setup]** -fliken.
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. I **[!UICONTROL Synchronize from Jira to Workfront]** markerar du de fält som du vill uppdatera i [!DNL Jira] när de uppdateras i Workfront.
 
@@ -305,7 +301,7 @@ Så här definierar du vilka fält som ska synkroniseras automatiskt på objekt 
            <li>När du väljer <strong>[!UICONTROL Always]</strong> integreringen gör att man kan skapa en ny Workfront-användare varje gång [!DNL Jira] användare utan [!DNL Workfront] kontot utför följande åtgärder på ett länkat [!DNL Jira] utgåva:
             <ul>
              <li>Är tilldelad till en [!DNL Jira] problem</li>
-             <li><p>Loggar tid till en [!DNL Jira] problem</p><p>Den nya användaren tar inte upp [!DNL Workfront] licens. Standardinställningen är Alltid. Användaren skapade på det här sättet [!DNL Workfront] har "[!UICONTROL Jira]" har lagts till i namnet.</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>Loggar tid till en [!DNL Jira] problem</p><p>Den nya användaren tar inte upp [!DNL Workfront] licens. Standardinställningen är Alltid. Användaren skapade på det här sättet [!DNL Workfront] har "[!UICONTROL Jira]" har lagts till i namnet.</p></li>
             </ul></li>
            <li>När du väljer <strong>[!UICONTROL Never]</strong>händer följande:
             <ul>

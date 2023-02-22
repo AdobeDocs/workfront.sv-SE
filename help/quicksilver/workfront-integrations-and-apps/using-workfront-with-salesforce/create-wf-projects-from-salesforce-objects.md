@@ -6,9 +6,9 @@ description: Efter installation [!DNL Adobe Workfront] för Salesforce kan du de
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -198,8 +198,6 @@ Visa projekt som skapats från en [!UICONTROL Opportunity] eller Konto:
 1. Välj **[!UICONTROL Projects]** -fliken.
 
    Alla projekt som skapas av definierade utlösare visas på den här fliken. Alla användare i [!DNL Salesforce] som även har en [!DNL Workfront] konto och vem som kan ha behörighet att se dessa projekt i [!DNL Workfront] kan även se dem i [!DNL Salesforce] för [!UICONTROL Opportunity] eller kontot som genererade dem.
-
-   ![[!DNL salesforce_projects_tab_with_projects_listed].png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
 
    Du kan visa följande information om de projekt som har skapats av integreringen:
 

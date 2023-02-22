@@ -6,9 +6,9 @@ description: Installera appen innan den blir tillgänglig i [!DNL Salesforce] Ap
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -79,8 +79,6 @@ Så här installerar du appen innan den blir tillgänglig:
 
 1. Kontrollera **[!UICONTROL Yes, grant access to these third-party web sites]** box.
 
-   ![salesforce_grant_access.png](assets/salesforce-grant-access-350x249.png)
-
    En inläsningsskärm visas och installationen kan ta en stund.
 
 1. Klicka **[!UICONTROL Done]** när installationen är klar.
@@ -123,11 +121,9 @@ Så här installerar du appen innan den blir tillgänglig:
 
    The [!DNL Workfront] app listas under **[!UICONTROL Installed Packages]**.
 
-   ![salesforce_classic_Installed_Packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. Navigera till **[!UICONTROL Setup>Security Controls>Remote Site Settings]**.
 1. (Villkorligt) Om du inte ser ditt [!DNL Workfront] URL-adressen som anges i **[!UICONTROL All Remote Sites]** lista, klicka på **[!UICONTROL New Remote Site]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. Ange **[!UICONTROL Remote Site Name]**.\
    Exempel, *[!DNL Workfront]*.
@@ -167,15 +163,11 @@ Så här installerar du appen innan den blir tillgänglig:
 
    The [!DNL Workfront] app listas under **[!UICONTROL Installed Packages]**.
 
-   ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. Navigera till **[!UICONTROL Setup].**
 1. I **[!UICONTROL SETTINGS]** avsnitt, utöka &#x200B;**[!UICONTROL Security].**
 
 1. Klicka på **[!UICONTROL Remote Site Settings]**.
 1. (Villkorligt) Om du inte ser ditt [!DNL Workfront] URL-adressen som anges i **[!UICONTROL All Remote Sites]** lista, klicka på **[!UICONTROL New Remote Site]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. Ange **[!UICONTROL Remote Site Name]**.
 

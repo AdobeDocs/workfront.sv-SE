@@ -7,9 +7,9 @@ description: Du kan konvertera ett externt e-postmeddelande (som inte genererats
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,6 @@ Innan du kan skapa en [!DNL Workfront] uppgift i [!DNL G Suite]måste du
 1. Om [!UICONTROL Workfront for G Suite] visas inte, klicka på [!DNL Workfront] icon ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofältet för tillägg längst till höger på sidan.
 1. Med e-postmeddelandet öppet i [!DNL G Suite]klickar du på ett alternativ i [!DNL Workfront for G Suite] konvertera e-postmeddelandet till ett nytt [!DNL Workfront] uppgift.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. Välj en **[!UICONTROL Create new]** för att ange om uppgiften ska ingå i ett projekt eller en personlig uppgift som är oberoende av ett projekt.
 1. Om du vill bifoga uppgiften till ett överordnat projekt klickar du på **[!UICONTROL Project name]** börjar du skriva namnet på det projekt där du vill ha uppgiften och klickar sedan på projektnamnet när det visas i listan nedan.
 1. Gör någon av dessa ändringar:
@@ -107,8 +105,6 @@ Innan du kan skapa en [!DNL Workfront] uppgift i [!DNL G Suite]måste du
    Längst ned på **[!UICONTROL Details]** kan du även klicka på **[!UICONTROL View in [!DNL Workfront]]** för att gå till den nya uppgiften i Workfront.
 
    När du uppdaterar webbläsaren visas ett meddelande med en länk längst ned i [!DNL Workfront for G Suite] bekräftar att du har konverterat e-postmeddelandet till en uppgift:
-
-   ![](assets/email-was-converted.png)
 
    Du kan klicka på länken för att gå till vyn Detaljer, i dialogrutan [!DNL Workfront for G Suite] för den uppgift du har skapat.
 

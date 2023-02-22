@@ -6,9 +6,9 @@ description: När du har installerat och konfigurerat [!DNL Adobe Workfront] fö
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ Innan du kan komma åt dina favoriter och de senaste objekten från [!DNL Slack]
 
    En lista över dina favoriter visas.
 
-* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
-
 1. (Valfritt) Klicka på **[!UICONTROL Show more]** om du vill visa fler favoriter.
 1. Klicka på namnet på en favorit för att öppna den i [!DNL Workfront] på en ny flik i webbläsaren.
 
@@ -73,7 +71,6 @@ Innan du kan komma åt dina favoriter och de senaste objekten från [!DNL Slack]
    >Kommandon är skiftlägeskänsliga. Du kan börja ditt kommando med `/wf` i stället för `/workfront`.
 
    En lista över dina senaste objekt visas, i den ordning som de senast användes, med den senaste överst. Objekten listas tre i taget och grupperas efter objekttyp.\
-   ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Show more]** om du vill visa fler senaste objekt.
 1. (Valfritt) Klicka på namnet på ett objekt som du nyligen har öppnat för att öppna det i [!DNL Workfront] på en ny flik i webbläsaren.
