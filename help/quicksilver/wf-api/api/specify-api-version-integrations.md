@@ -6,35 +6,45 @@ description: Ange en API-version i integreringarna
 author: John
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 889084f9a3740b40c84c658f9b0c17270b0a37d7
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # Ange en API-version i integreringarna
 
-Alla Adobe Workfront URI:er krävs för att referera till en specifik version av API:t efter delen &quot;attask/api&quot; i URI:n. I följande exempel anropas version 7.0:
-`attask/api/v7.0/<objectName>/<objectId>` Se till att alla integreringar anropar Workfront API:er som stöds för närvarande.
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
+
+Alla Adobe Workfront URI:er krävs för att referera till en specifik version av API:t efter delen &quot;attask/api&quot; i URI:n. I följande exempel anropas version 15.0:
+
+`attask/api/v15.0/<objectName>/<objectId>`
+
+Se till att alla integreringar anropar Workfront API:er som stöds för närvarande.
 
 ## Schema för lansering och borttagning av Workfront API:er
 
-Nya versioner av API:t släpps vartannat år - var sjätte till åttonde månad. Alla versioner stöds i tre år efter releasedatum, med ytterligare ett år i ett föråldrat läge där versionen är tillgänglig men inte stöds.
+Nya versioner av API släpps regelbundet, vanligen två gånger per år. Alla versioner stöds i tre år efter releasedatum, med ytterligare ett år i ett föråldrat läge där versionen är tillgänglig men inte stöds.
 
 Mer information om publiceringsgräns och borttagningsschema för Workfront API:er finns i [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
 
-Workfront har ersatt standardversionen av API:t från och med juli 2017. Detta innebär att Workfront inte längre anger att en viss version av API ska vara standardversionen. Alla framtida API-URI:er måste ange en version av API:t för att vara giltiga.
-
 >[!IMPORTANT]
 >
-> Alla integreringar som använder standardversionen av API måste uppdateras för att anropa en specifik API-version som stöds senast 1 juli 2018.
+>* Efter version 23.2 ställs standardversionen av API in på den senaste versionen. Alla API-anrop utan den angivna versionen använder standardversionen. Varje gång Workfront släpper en ny version av API:t uppdateras standardversionen till den senaste versionen. När en ny version av Workfront API har släppts bör därför alla API-anrop som använder standardversionen kontrolleras för att se till att funktionen fortfarande stöds.
+>
+>* Om din organisation använder standardgränssnittet har Workfront-administratören fått ett meddelande om att meddelandecentret innehåller ytterligare instruktioner om standardgränssnittet.
+>
+>* <span class="preview">Standard-API:t i förhandsvisningsmiljön är inställt på den senaste versionen. Standard-API:t i produktionsmiljön anges till den senaste versionen efter version 23.2 (april 2023)</span>.
+>
+>Information om den senaste versionen av API:t finns i [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
+
 
 ## Bestämma API-versionen som du använder
 
-Du kan avgöra vilken version av API du använder genom att kontrollera URI:n för en HTTP-begäran som skickas till Workfront API. I följande exempel visas en URI för Workfront-begäran som anger version 7 av API:t:
+Du kan avgöra vilken version av API du använder genom att kontrollera URI:n för en HTTP-begäran som skickas till Workfront API. I följande exempel visas en URI för Workfront-begäran som anger version 15 av API:t:
 
-`https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
+`https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
 
 Om en URI inte anger någon version använder den standardversionen av API:t, vilket visas i följande exempel:
 
@@ -42,7 +52,7 @@ Om en URI inte anger någon version använder den standardversionen av API:t, vi
 
 >[!IMPORTANT]
 >
-> Integrationer som inte anger någon version av API:t i URI dirigeras automatiskt till standardversionen av API:t och kommer inte att fungera efter 1 juli 2018.
+> Integrationer som inte anger någon version av API:t i URI dirigeras automatiskt till standardversionen av API:t.
 
 ## Uppdatera integreringar som ska använda API-versioner som stöds
 

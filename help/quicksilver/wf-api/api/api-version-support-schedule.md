@@ -6,9 +6,9 @@ description: API-versionshantering och supportschema
 author: John
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 5804eed9451084614cc6331a4234ae88d9b58b3c
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '217'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 
 
-Adobe Workfront släpper nya API-versioner vartannat år, var sjätte till åttonde månad. API-versioner stöds i 3 år efter lanseringen. API-versioner som är äldre än 3 år stöds inte längre.
+Adobe Workfront släpper regelbundet nya API-versioner, vanligtvis två gånger per år. API-versioner stöds i 3 år efter lanseringen. API-versioner som är äldre än 3 år stöds inte längre.
 
 I följande tabell visas releasen och supportplanen för Workfront API.
 

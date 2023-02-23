@@ -7,7 +7,7 @@ description: Inaktivera en användare via API
 author: John
 feature: Workfront API
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: 50675b7af3fcd2188a18391732a93a7b67454db9
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Så här inaktiverar du en användare via API:
 1. Generera en API-nyckel med följande API-begäran:
 
 ```
-<domain>.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
+<domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
 ```
 
 1. Leta reda på GUID för användaren som du vill inaktivera.
@@ -36,13 +36,13 @@ Så här inaktiverar du en användare via API:
    1. Använd följande API-begäran för att hämta GUID för alla användare i systemet. Observera att **isActive** fältvisning **true** för användare som är aktiva och **false** för användare som har inaktiverats:
 
 ```
-<domain>`.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive
+<domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
 1. Leta reda på GUID för användaren som du vill inaktivera med hjälp av följande **PUT** begäran om att ändra användarens **isActive** fältvärde till **false**:
 
 ```
-<domain>`.my.workfront.com/attask/api/v7.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
+<domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
 1. Svaret visar att **isActive** fältvärdet har ändrats från **true** till **false** som anger att användaren har inaktiverats:
