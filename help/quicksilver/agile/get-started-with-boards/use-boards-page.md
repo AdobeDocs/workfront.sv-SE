@@ -6,7 +6,7 @@ description: The [!UICONTROL boards] På kontrollpanelen visas en lista med pane
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # Använda panelkontrollpanelen
 
-{{highlighted-preview}}
-
-På panelpanelen visas en lista med paneler <span class="preview">och samlingar</span> som du har tillgång till, inklusive anslagstavlor som du har skapat och anslagstavlor som du har lagt till i. <span class="preview">Enskilda anslagstavlor som du har åtkomst till som inte ingår i en samling visas först.</span>
+På panelpanelen visas en lista med paneler och samlingar som du har tillgång till, inklusive paneler som du har skapat och paneler som du har lagts till i. Enskilda anslagstavlor som du har åtkomst till som inte ingår i en samling visas först.
 
 >[!NOTE]
 >
 >Samlingar är bara tillgängliga via tidiga funktioner för [!DNL Workfront] [!UICONTROL Boards].
 
-På kontrollpanelen kan du göra följande för paneler och <span class="preview">samlingar</span>:
+På kontrollpanelen kan du göra följande för paneler och samlingar:
 
 * Arkivera en anslagstavla (samlingar kan inte arkiveras)
 * Filtrera listan över anslagstavlor
@@ -31,7 +29,7 @@ På kontrollpanelen kan du göra följande för paneler och <span class="preview
 * Sök efter en anslagstavla eller samling
 * Ta bort en anslagstavla eller samling
 
-Mer information om hur du skapar en ny styrelse eller redigerar en befintlig styrelse finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">Mer information om hur du skapar en ny samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Mer information om hur du skapar en ny styrelse eller redigerar en befintlig styrelse finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md). Mer information om hur du skapar en ny samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Åtkomstkrav
 
@@ -72,9 +70,9 @@ Du kan filtrera panelernas kontrollpanel så att de visar aktiva paneler, arkive
 
    När en annan sortering än standardsorteringen används på kontrollpanelen visas en indikator på sorteringsikonen ![Sortering används](assets/sort-applied-boards.png).
 
-## Sök efter en anslagstavla <span class="preview">eller en samling</span>
+## Söka efter en anslagstavla eller en samling
 
-<span class="preview">Du kan söka efter en viss anslagstavla i området för anslagstavlor eller söka efter en viss samling i området Samlingar.</span>
+Du kan söka efter en viss anslagstavla i området för anslagstavlor eller söka efter en viss samling i området Samlingar.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
 1. Klicka [!UICONTROL **Sök**] och skriv ett sökord. Tryck sedan på Enter.
@@ -102,11 +100,11 @@ När du arkiverar en anslagstavla skickas den till arkivet och du kan återstäl
 
 1. Om du vill återställa en arkiverad anslagstavla klickar du på **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) ombord och väljer **[!UICONTROL Restore]**.
 
-## Ta bort en anslagstavla <span class="preview">eller en samling</span>
+## Ta bort en anslagstavla eller en samling
 
 När du tar bort en anslagstavla tas den bort permanent från [!DNL Workfront] och kan inte återställas. Alla kort som finns ombord tas också bort tillsammans med styrelsen.
 
-<span class="preview">Om du tar bort en samling tas alla ritytor i samlingen bort.</span>
+Om du tar bort en samling tas alla ritytor i samlingen bort.
 
 >[!NOTE]
 >
@@ -115,11 +113,9 @@ När du tar bort en anslagstavla tas den bort permanent från [!DNL Workfront] o
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
 1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) ombord eller i samlingen, och **[!UICONTROL Delete]**.
 
-   <span class="preview">I en samling finns menyn till höger, bredvid [!UICONTROL **Visa samling**] -knappen.</span>
+   I en samling finns menyn till höger, bredvid [!UICONTROL **Visa samling**] -knappen.
 
 1. Klicka **[!UICONTROL Delete board]** eller [!UICONTROL **Ta bort samling**] på bekräftelsemeddelandet.
-
-<div class="preview">
 
 ## Flytta en anslagstavla till en samling
 
@@ -135,5 +131,3 @@ Du kan flytta en fristående anslagstavla till en samling eller flytta en anslag
 
    Styrelsen flyttas till samlingen och visas inte längre i [!UICONTROL Boards] område.
 Om du inte har skapat någon samling än uppmanas du att skapa en som du kan flytta den till.
-
-</div>

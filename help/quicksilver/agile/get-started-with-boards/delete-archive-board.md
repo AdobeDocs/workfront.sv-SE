@@ -6,7 +6,7 @@ title: Ta bort eller arkivera en anslagstavla
 description: Du kan ta bort eller arkivera en anslagstavla i Workfront. Om du tar bort en anslagstavla permanent tas den bort från Workfront, och om du arkiverar en anslagstavla behålls alla kort och kan återställas vid ett senare tillfälle.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -15,9 +15,7 @@ ht-degree: 0%
 
 # Ta bort eller arkivera en anslagstavla
 
-{{highlighted-preview}}
-
-Du kan ta bort eller arkivera en anslagstavla i [!DNL Workfront]. Om du tar bort en anslagstavla permanent tas den bort från [!DNL Workfront], samtidigt som en styrelse arkiveras behåller alla kort och kan återställas vid ett senare tillfälle. <span class="preview">De här alternativen gäller både fristående ritytor och ritytor som ingår i samlingar.</span>
+Du kan ta bort eller arkivera en anslagstavla i [!DNL Workfront]. Om du tar bort en anslagstavla permanent tas den bort från [!DNL Workfront], samtidigt som en styrelse arkiveras behåller alla kort och kan återställas vid ett senare tillfälle. De här alternativen gäller både fristående ritytor och ritytor som ingår i samlingar.
 
 >[!NOTE]
 >

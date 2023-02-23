@@ -5,9 +5,9 @@ title: Anpassa vilka fält som visas på ett kort
 description: Du kan anpassa vilka fält som ska visas på ett kort genom att inaktivera ett fält så att det inte visas i det fullständiga kortet eller den komprimerade vyn, eller genom att dölja ett fält i den komprimerade kortvyn.
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Anpassa vilka fält som visas på ett kort
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att du har anmält dig till [!DNL Workfront] [!UICONTROL Boards]. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Som standard visas alla tillgängliga fält på ett kort, både i den fullständiga vyn när kortet är öppet och i den komprimerade kortvyn på kortet. Du kan anpassa vilka fält som visas av:
 
@@ -62,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka [!UICONTROL **Konfigurera**] till höger om anslagstavlan för att öppna konfigurationspanelen.
 1. Expandera [!UICONTROL **Kort**].
 
-   Alla fält är aktiverade som standard.
+   De flesta fält är aktiverade som standard.
 
 1. Stäng av ett fält för att inaktivera det i båda kortvyerna.
 1. Klicka på ikonen Dölj ![Dölj ikon](assets/eye-hide-icon.png) bredvid ett fält för att dölja det i den komprimerade vyn.

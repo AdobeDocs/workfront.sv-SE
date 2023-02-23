@@ -6,7 +6,7 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Skapa eller redigera en anslagstavla
 
-{{highlighted-preview}}
-
 Från [!UICONTROL boards] kan du skapa en ny panel eller redigera en befintlig panel.
 
-<span class="preview">Mer information om hur du lägger till en anslagstavla i en samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Mer information om hur du lägger till en anslagstavla i en samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Åtkomstkrav
 
@@ -45,15 +43,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en ny anslagstavla
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Om du vill skapa en fristående anslagstavla klickar du på **[!UICONTROL Create New]** i [!UICONTROL Boards] område. <span class="preview">Mer information om hur du lägger till en anslagstavla i en samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. Om du vill skapa en fristående anslagstavla klickar du på **[!UICONTROL Create New]** i [!UICONTROL Boards] område. Mer information om hur du lägger till en anslagstavla i en samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > Samlingar är bara tillgängliga via tidiga funktioner för [!DNL Workfront] [!UICONTROL Boards].
 
-1. <span class="preview">Välj en mall för styrelsen.</span>
-
-   <div class="preview">
+1. Välj en mall för styrelsen.
 
    | Mall | Beskrivning |
    |---------|----------|
@@ -64,8 +60,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >[!NOTE]
    >
    > Kortmallar är endast tillgängliga genom tidiga funktionsval för [!DNL Workfront] [!UICONTROL Boards].
-
-   </div>
 
 1. Ange ett namn för styrelsen i **[!UICONTROL Board]** och tryck på Retur.
 1. Konfigurera styrelsen efter behov.

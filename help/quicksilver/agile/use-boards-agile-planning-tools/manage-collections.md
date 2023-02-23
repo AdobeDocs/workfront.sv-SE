@@ -6,7 +6,7 @@ title: Hantera samlingar
 description: En samling är en konfigurerbar grupp av anslagstavlor för samarbete i arbetet.
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Hantera samlingar
-
-{{highlighted-preview-article-level}}
 
 En samling är en konfigurerbar grupp av anslagstavlor för samarbete i arbetet. Samlingar kan innehålla olika typer av anslagstavlor som skapats från mallar.
 
