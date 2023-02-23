@@ -6,16 +6,14 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
+source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Hantera kortkolumner
-
-{{highlighted-preview}}
 
 En ny anslagstavla innehåller som standard tre kolumner. Du kan lägga till fler kolumner, ändra ordningen på kolumnerna, byta namn på kolumner och ta bort kolumner som du inte behöver.
 
@@ -121,13 +119,17 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
       Statusöversättningsalternativen för anslutna kort visas också. (Statusöversättning gäller inte för ad hoc-kort.) Dessa alternativ avgör vilken status som används för uppgiften eller utgåvan i [!DNL Workfront] när ett anslutet kort flyttas till den här kolumnen.
 
    1. Klicka på knappen **[!UICONTROL Edit]** icon ![Ikonen Redigera](assets/edit-icon-spectrum.png).
-   1. <span class="preview">I förhandsvisningsmiljön: Välj en [!UICONTROL **Egen**] status och en [!UICONTROL **System**] status som ska gälla för kortet, för både uppgifter och ärenden.</span>
+   1. Om du använder tidiga funktioner: Välj en [!UICONTROL **Egen**] status som ska gälla för kortet, för både uppgifter och ärenden.
 
-      <span class="preview">När ett kort flyttas till den här kolumnen [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Stängt).</span>
+      När ett kort flyttas till den här kolumnen [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Stängt). Systemstatusen är den status du valde i steg b ovan.
 
-      <span class="preview">Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.</span>
+      Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.
 
-   1. I produktionsmiljön: Välj en status för uppgifter och en status för ärenden. Endast standardinställningen [!DNL Workfront] statusvärden är tillgängliga, inte anpassade statusvärden.
+      >[!NOTE]
+      >
+      >Du kan bara ange en anpassad standardstatus för kolumnen via anmälan av tidig funktion. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
+   1. Om du inte använder anmälan om tidig funktion: Välj en status för uppgifter och en status för ärenden. Endast standardinställningen [!DNL Workfront] statusvärden är tillgängliga, inte anpassade statusvärden.
 
       >[!NOTE]
       >
