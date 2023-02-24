@@ -6,14 +6,16 @@ title: Hantera samlingar
 description: En samling är en konfigurerbar grupp av anslagstavlor för samarbete i arbetet.
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
 # Hantera samlingar
+
+{{highlighted-preview-article-level}}
 
 En samling är en konfigurerbar grupp av anslagstavlor för samarbete i arbetet. Samlingar kan innehålla olika typer av anslagstavlor som skapats från mallar.
 
@@ -60,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 | Mall | Beskrivning |
 |---------|----------|
-| Grundläggande bräde | Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. |
+| Grundläggande bräde | Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
 | Kanban-tavla | Följande kolumner finns på styrelsen: Eftersläpning, Nytt, Pågår, Fullständigt och Väntande. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna.<p>Om du vill använda eftersläpningen måste du ställa in filter för inloppskolumnen. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Om du vill granska standardreglerna för varje kolumn klickar du på [!UICONTROL **Mer** meny] i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospektivkort | Följande kolumner finns på styrelsen: Vad gick bra? Vad kan förbättras? Vem ska vi fira? Vad kan vi göra för att gå fortare? Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
 
