@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Skapa, redigera och tilldela tidrapportprofiler
-description: Du kan skapa, redigera och tilldela tidrapportprofiler som genererar återkommande tidrapporter för dina användare utan att du behöver göra något mer. Detta sparar tid och säkerställer att följande är konsekventa för användarna - EDIT ME.
+description: Du kan skapa, redigera och tilldela tidrapportprofiler som genererar återkommande tidrapporter för dina användare utan att du behöver göra något mer. Detta sparar tid och säkerställer enhetlighet mellan användarna.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -101,10 +101,12 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Skapa tidrapporter</strong> </td> 
-      <td> <p> <p>Ange när tidrapportprofilen ska generera tidrapporterna. En tidrapport kan ställas in så att den automatiskt genereras varje vecka, varannan vecka, halvår eller månad. Välj den veckodag då du vill att tidrapporten ska skapas.</p> <p><b>ANMÄRKNING</b>
+      <td> <p> <p>Ange när tidrapportprofilen ska generera tidrapporterna. En tidrapport kan ställas in så att den automatiskt genereras varje vecka, varannan vecka, halvår eller månad. Välj den veckodag då du vill att tidrapporten ska skapas.</p>
+      <p>En veckotidrapport börjar det datum då den skapas. Om du t.ex. skapar veckotidrapporter varje torsdag är den första dagen i veckan på tidrapporten torsdag.</p>
+      <p><b>ANMÄRKNING</b></p>
 
-   Om du konfigurerar en tidrapportprofil för att skapa tidrapporter på en fredag, kan användarna inte registrera timmar på fredag, lördag och söndag för den aktuella veckan.</p> <p>Workfront skapar alltid två tidrapporter i taget: den första tidrapporten alltid innehåller det aktuella datumet och den andra tidrapporten startar när tidsramen för den första avslutas.</p> </p> </td>
-   </tr> 
+   <p>Workfront skapar alltid två tidrapporter i taget: den första tidrapporten alltid innehåller det aktuella datumet och den andra tidrapporten startar när tidsramen för den första avslutas.</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Godkännare</strong></p> </td> 
       <td> <p> <p>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Du kan identifiera upp till 7 användare som godkännare på en tidrapport. Det är praktiskt att identifiera flera användare för att se till att en godkännare är tillgänglig när någon inte är på kontoret. Alla godkännare meddelas när en användare skickar tidrapporten för godkännande. Endast en användare behöver godkänna tidrapporten för att den ska godkännas.</p> <p>Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administrationsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Använd listrutan för att välja godkännare för tidrapporten (om en godkännare krävs). Du kan välja mellan följande alternativ:</p> 
