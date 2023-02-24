@@ -4,7 +4,7 @@ description: Utforma och känna av uppdateringar under 23.2-releasetidningen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 9 februari 2023, Planerad produktionsrelease: 23 februari 2023
+>Förhandsgranskningsversion: 9 februari 2023, Planerad produktionsrelease: 2 mars 2023
 
 Ytterligare användarinformation visas nu när du lägger till användare i följande områden:
 

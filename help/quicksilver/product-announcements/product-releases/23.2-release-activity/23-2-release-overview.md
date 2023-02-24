@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Byta namn på punkter i layoutmall</span></a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span>
-                        <p>Nu kan du ändra namn på punkter i en layoutmall så att de blir mer användbara för användarna i stället för att använda standardnamnet för den fästa sidan. Fästpunkter som administratörer skapar visas för alla användare som är tilldelade layoutmallen och användarna kan inte ändra namn på dessa punkter.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Byta namn på punkter i layoutmall</span></a>
+                        </span></a><p>Nu kan du ändra namn på punkter i en layoutmall så att de blir mer användbara för användarna i stället för att använda standardnamnet för den fästa sidan. Fästpunkter som administratörer skapar visas för alla användare som är tilldelade layoutmallen och användarna kan inte ändra namn på dessa punkter.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -83,9 +83,26 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Logga timmar på anslutna kort på anslagstavlan</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Nu kan du logga timmar på anslutna kort, på samma sätt som du gör för en uppgift eller ett problem. Du måste ha rätt behörighet för aktiviteten eller problemet för att kunna logga tiden.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 23 februari 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsrelease för tidig anmälan: 2 mars 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Anpassa visning av fält på ett kort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Anpassa visning av fält på ett kort</a></p>
                         <p>Anpassning är nu tillgängligt för att konfigurera vilka fält som ska visas på ett kort, både i den fullständiga vyn när kortet är öppet och i den komprimerade kortvyn på kortet. När du inaktiverar ett fält visas inte i någon av vyerna. Du kan även aktivera ett fält i den fullständiga vyn och dölja det i den komprimerade vyn.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -102,7 +119,7 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definiera en standardstatus för kort som flyttas till en kortkolumn</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definiera en standardstatus för kort som flyttas till en kortkolumn</a></p>
                         <p>Du kan nu ange en standardstatus som ska gälla för kort som flyttas till en viss kolumn genom att välja en anpassad status och en systemstatus i kolumnprofilerna. När du flyttar ett kort till kolumnen försöker Workfront först att använda den anpassade statusen (till exempel Väntar på feedback). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Väntande). Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -119,7 +136,7 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Samlingar finns nu i Adobe Workfront Boards</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Samlingar finns nu i Adobe Workfront Boards</a></p>
                         <p>Nu kan du skapa samlingar på panelkontrollpanelen. En samling är en grupp styrelser för samarbete i arbete. När du har namngett samlingen kan du lägga till ritytor i samlingen med hjälp av en uppsättning mallar med fördefinierade inställningar, till exempel kolumnnamn.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -190,7 +207,7 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Kopiera budgeterade timmar när ett projekt kopieras</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Kopiera budgeterade timmar när ett projekt kopieras</a>
                         <p>Nu kan du kopiera timmarna som har budgeterats i området Resursbudgetering i affärsärendet eller Resursplanering när du kopierar ett projekt. Före den här förbättringen överfördes inte de budgeterade timmarna för projektet till det kopierade projektet.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -225,7 +242,7 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introduktion till fältet Arbetstid för korrekt beräkning av användarkapacitet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introduktion till fältet Arbetstid för korrekt beräkning av användarkapacitet</a>
                         <p>För att resursansvariga ska kunna beräkna tillgängligheten för sina användare och ta hänsyn till den tid som användarna lägger ner på faktiskt, projektrelaterat arbete introducerar vi arbetstidsbegreppet för Adobe Workfront.</p>
                         <p>Du kan definiera värdet för fältet Arbetstid för varje användare när du skapar eller redigerar deras profil.</p>
                     </td>
@@ -328,6 +345,21 @@ Mer information om underhållsuppdateringar som gjordes i version 23.2 finns i [
 
 Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i [Uppdateringssida för utbildningsversioner](https://one.workfront.com/s/training-release-updates).
 
+### Funktioner som snart ska tas bort från Workfront
+
+Följande funktioner kommer snart att tas bort från Workfront:
+
+#### **Ändringar i Workfront standard-API**
+
+För att API-anrop ska kunna utnyttja den senaste Workfront API-funktionen uppdaterar vi standard-API:t. När ett API-anrop inte anger någon version av API:t görs anropet till standard-API:t.
+
+Nu återspeglar standard-API den senaste versionen av API. Vi uppdaterar standard-API varje gång en ny API-version släpps, så att anrop till standard-API alltid använder den senaste versionen av API:t.
+
+Tidigare användes Workfront API version 2.0, som har tagits bort.
+
+Om din organisation använder det föråldrade standard-API:t har Workfront-administratören fått ett meddelande om att meddelandecenter finns med ytterligare instruktioner om standard-API:t.
+
+Mer information finns i [Uppdatera integreringar som använder API-standardversionshantering](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, vi
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
