@@ -6,24 +6,22 @@ title: Hantera samlingar
 description: En samling är en konfigurerbar grupp av anslagstavlor för samarbete i arbetet.
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Hantera samlingar
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>Samlingar är bara tillgängliga via tidiga funktioner för [!UICONTROL [!DNL Workfront] Boards]. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 En samling är en konfigurerbar grupp av anslagstavlor för samarbete i arbetet. Samlingar kan innehålla olika typer av anslagstavlor som skapats från mallar.
 
 Samlingar visas på kontrollpanelen tillsammans med enskilda paneler som du har åtkomst till som inte ingår i en samling. Mer information om panelernas kontrollpanel finns i [Använda panelkontrollpanelen](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Du kan öppna en panel genom att klicka på dess namn.
-
->[!NOTE]
->
->Samlingar är bara tillgängliga via tidiga funktioner för [!UICONTROL [!DNL Workfront] Boards].
 
 ## Åtkomstkrav
 
