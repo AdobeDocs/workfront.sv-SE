@@ -6,14 +6,16 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 # Använd anslutna kort på ritytor
+
+{{highlighted-preview}}
 
 Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i [!DNL Workfront].
 
@@ -182,3 +184,27 @@ När du har skapat ett ad hoc-kort kan du konvertera det till ett anslutet kort.
    Projektnamnet visas i området Connection på kortinformationen.
 
 1. Klicka **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
+
+<div class="preview">
+
+## Logga timmar på ett anslutet kort
+
+>[!NOTE]
+>
+>Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+
+Du måste ha rätt behörighet för att kunna logga timmar på den anslutna aktiviteten eller problemet.
+
+Fälten för tidsloggning visas inte på anslutna kort som standard. Du måste aktivera [!UICONTROL **Timmar**] i [!UICONTROL Configure] areal under [!UICONTROL Cards]. Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. Ange antalet timmar för uppgiften eller utgåvan.
+1. Välj en [!UICONTROL Hour Type] på den nedrullningsbara menyn, om den inte är standard.
+1. Klicka [!UICONTROL **Loggtid**].
+
+   ![Logga timmar på kortet](assets/log-hours-on-card.png)
+
+   Den tid som är inloggad på kortet sparas också på den anslutna aktiviteten eller problemet.
+
+Loggningstiden på kortet är densamma som loggningstiden för en uppgift eller ett problem. Mer information finns i&quot;Logga tid för ett projekt, en uppgift eller ett problem&quot; i artikeln [Loggtid](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>

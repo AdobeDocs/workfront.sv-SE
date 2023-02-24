@@ -6,14 +6,16 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
 workflow-type: tm+mt
-source-wordcount: '2895'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
 
 # Loggtid
+
+{{highlighted-preview}}
 
 Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
@@ -96,6 +98,7 @@ Du kan logga tid i följande områden i Workfront:
 * [Startsida](#home)
 * [Projekt, uppgift eller utleverans](#project-task-or-issue)
 * [Panelen Sammanfattning](#summary-panel)
+* <span class="preview">[Varumärkena](#boards)</span>
 * [Mobilapp](#mobile-app)
 
 ### Tidrapport {#timesheet}
@@ -394,7 +397,20 @@ Mer information finns i [Sammanfattning](../../workfront-basics/the-new-workfron
 
 ![](assets/summary-hour-log.png)
 
+<div class="preview">
+
+### Varumärkena {#boards}
+
+>[!NOTE]
+>
+>Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+
+Du kan logga in på anslutna kort på ett Workfront-kort. Detta är samma process som när du loggar tid för en uppgift eller ett problem, och de timmar som är inloggade på kortet sparas för den anslutna aktiviteten eller problemet.
+Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+</div>
 
 ### Mobilapp {#mobile-app}
 
 Du kan logga tid från Workfront mobilapp.
+Mer information finns i [Adobe Workfront för Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) eller [Adobe Workfront för iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
