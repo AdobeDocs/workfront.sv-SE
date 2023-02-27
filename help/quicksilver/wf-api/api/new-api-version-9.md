@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Nyheter i API-version 9
 description: Det här är en lista över resurser som är nya för API version 9. En lista över uppdateringar som gjorts för resurserna i version 9 finns på Uppdateringar till API-version 9
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%

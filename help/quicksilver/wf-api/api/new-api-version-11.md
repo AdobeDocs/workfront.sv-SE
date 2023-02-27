@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Nyheter i API-version 11
 description: ReportableBudgedHour har lagts till i Adobe Workfront API som en resurs för rapportering. Den innehåller referensfält, kärnfält och standardfält som inte finns i BudgetHour.
-author: John
+author: Becky
 feature: Workfront API
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '3600'
 ht-degree: 0%
