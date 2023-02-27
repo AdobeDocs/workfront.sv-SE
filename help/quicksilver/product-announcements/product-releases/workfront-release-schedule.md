@@ -7,9 +7,9 @@ description: Förhandsvisningsmiljön uppdateras en gång i veckan med nya funkt
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Vanligtvis blir funktionerna i Förhandsvisning tillgängliga i produktionsmilj�
 
 ### Underhållsuppdateringar
 
-Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Se [Workfront underhållsuppdateringar](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) för att se vad som har korrigerats nyligen.
+Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Se [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) för att se vad som har korrigerats nyligen.
 
 ## Funktioner som tagits bort från en kvartalsvis release
 
