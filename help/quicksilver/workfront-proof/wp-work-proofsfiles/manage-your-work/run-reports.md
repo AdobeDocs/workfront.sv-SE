@@ -7,18 +7,22 @@ description: Med Workfront Proof kan du visa rapporter så att du kan följa upp
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: a0d76692f9e9d12ed0d538c1344638dbc208d625
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
 
 # Kör rapporter i [!DNL Workfront Proof]
 
+
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>* <span class="previe">Rapporteringsfunktionen är inte längre tillgänglig i [!DNL Workfront Proof]. Fliken Rapportering visas fortfarande, men data är inte korrekta.</span>
+> 
+>* Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+
 
 Med Workfront Proof kan du visa rapporter så att du kan följa upp hur arbetet fortskrider och hur effektivt teamen är.
 
