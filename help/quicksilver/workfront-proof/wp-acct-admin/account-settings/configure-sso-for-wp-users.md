@@ -7,9 +7,9 @@ description: Om du har Select- eller Premium-planen kan du tillhandahålla enkel
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Funktionen för enkel inloggning kan aktiveras på [!UICONTROL Single sign-on] -
 
 Som tjänsteleverantör har vi publicerat vårt enhets-ID här:
 
-[https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq) (där &quot;din underdomän&quot; är ditt kontos underdomän)
+[https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq) (där &quot;din underdomän&quot; är ditt kontos underdomän)
 
 [!DNL Workfront Proof] kräver användarens e-postadress som sin unika identifierare, som kan skickas som ett av följande attribut:
 
