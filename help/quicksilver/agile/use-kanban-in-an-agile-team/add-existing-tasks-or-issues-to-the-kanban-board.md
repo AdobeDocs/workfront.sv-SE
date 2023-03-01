@@ -6,7 +6,7 @@ description: Du kan lägga till vilken uppgift eller utgåva som helst till en K
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 7b72d0eaa715b2094f4f574411d8e240107e080f
+source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
@@ -58,10 +58,9 @@ Lägga till en uppgift eller ett problem i en [!UICONTROL Kanban] bräda:
 1. Klicka på **[!UICONTROL More]** > **[!UICONTROL Add to]** > **[!UICONTROL Kanban Board]**.
 1. I [!UICONTROL Add Stories] skriver du namnet på Kanban-teamet.
 
->[!NOTE]
->
->Om du lägger till flera team kan uppgiften eller utgåvan bara visas i ett teams [!DNL kanban] bräda. Det här är den anslagstavla du väljer i steg 5.
+   >[!NOTE]
+   >
+   >Om du lägger till flera team kan uppgiften eller utgåvan bara visas i ett teams [!DNL kanban] bräda. Det här är den anslagstavla du väljer i steg 5.
 
-1. Om du lägger till uppgifter klickar du på **[!UICONTROL Add Stories]**.\
-   eller\
-   Om du lägger till problem klickar du på **[!UICONTROL Add Issues]**.
+1. Om du lägger till uppgifter klickar du på **[!UICONTROL Add Stories]**.
+Om du lägger till problem kan du klicka på **[!UICONTROL Add Issues]**.
