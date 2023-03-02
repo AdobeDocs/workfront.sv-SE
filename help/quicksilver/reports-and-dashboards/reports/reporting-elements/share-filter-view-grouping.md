@@ -6,9 +6,9 @@ description: Du kan dela filter, vyer och grupperingar som du har tillgång till
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 8ac8981a40f051f11eef231397cd231ae1d8ddff
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
 </div>
 -->
+
+<span class="preview">Observera att i förhandsvisningsmiljön är nu den förbättrade filterupplevelsen (som tidigare kallades &quot;beta&quot;) standard. De här förbättrade filtren är nu&quot;standard&quot; och den äldre filterupplevelsen är&quot;äldre&quot;.</span>
 
 Din Adobe Workfront-administratör ger användarna åtkomst till att visa eller redigera objekt när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till objekt finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

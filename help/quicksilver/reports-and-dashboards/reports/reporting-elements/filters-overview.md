@@ -7,14 +7,16 @@ description: Du kan använda filter i Adobe Workfront för att minska mängden i
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Översikt över filter i Adobe Workfront
+
+<span class="preview">Observera att i förhandsvisningsmiljön är nu den förbättrade filterupplevelsen (som tidigare kallades &quot;beta&quot;) standard. De här förbättrade filtren är nu&quot;standard&quot; och den äldre filterupplevelsen är&quot;äldre&quot;.</span>
 
 Du kan använda filter i Adobe Workfront för att minska mängden information som visas på skärmen i listor, rapporter eller andra områden.
 

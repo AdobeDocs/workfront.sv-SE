@@ -6,14 +6,16 @@ description: Du kan ta bort ett filter, en vy eller en gruppering från listor o
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: a3e4eb500570f86c689ef3bef654d659b9c465a2
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Ta bort filter, vyer och grupperingar
+
+<span class="preview">Observera att i förhandsvisningsmiljön är nu den förbättrade filterupplevelsen (som tidigare kallades &quot;beta&quot;) standard. De här förbättrade filtren är nu&quot;standard&quot; och den äldre filterupplevelsen är&quot;äldre&quot;.</span>
 
 Du kan ta bort ett filter, en vy eller en gruppering från listor och rapporter om du har skapat dem eller om de har delats med dig. Du kan inte ta bort standardfilter, vyer eller grupperingar.
 

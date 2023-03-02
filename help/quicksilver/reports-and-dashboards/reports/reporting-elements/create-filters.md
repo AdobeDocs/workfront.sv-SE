@@ -6,14 +6,16 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: fd2723eeb6a8323a8f2fcdb506991704777bdea8
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera filter i Adobe Workfront
+
+<span class="preview">Observera att i förhandsvisningsmiljön är nu den förbättrade filterupplevelsen (som tidigare kallades &quot;beta&quot;) standard. De här förbättrade filtren är nu&quot;standard&quot; och den äldre filterupplevelsen är&quot;äldre&quot;.</span>
 
 Du kan begränsa mängden information som visas på skärmen i en lista med objekt med ett filter. Du kan definiera vissa villkor baserat på viss information om ett objekt och bara visa de objekt som uppfyller dessa villkor.
 
