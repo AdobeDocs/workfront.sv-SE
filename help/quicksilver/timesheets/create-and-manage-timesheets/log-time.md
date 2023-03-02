@@ -6,7 +6,7 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
 workflow-type: tm+mt
 source-wordcount: '2971'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Du kan logga tid i följande områden i Workfront:
 * [Startsida](#home)
 * [Projekt, uppgift eller utleverans](#project-task-or-issue)
 * [Panelen Sammanfattning](#summary-panel)
-* <span class="preview">[Varumärkena](#boards)</span>
+* [Varumärkena](#boards)
 * [Mobilapp](#mobile-app)
 
 ### Tidrapport {#timesheet}
