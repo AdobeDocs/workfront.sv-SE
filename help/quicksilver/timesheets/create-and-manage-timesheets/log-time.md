@@ -6,7 +6,7 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
+source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
 workflow-type: tm+mt
 source-wordcount: '2971'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Loggtid
-
-{{highlighted-preview}}
 
 Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
@@ -397,8 +395,6 @@ Mer information finns i [Sammanfattning](../../workfront-basics/the-new-workfron
 
 ![](assets/summary-hour-log.png)
 
-<div class="preview">
-
 ### Varumärkena {#boards}
 
 >[!NOTE]
@@ -408,9 +404,7 @@ Mer information finns i [Sammanfattning](../../workfront-basics/the-new-workfron
 Du kan logga in på anslutna kort på ett Workfront-kort. Detta är samma process som när du loggar tid för en uppgift eller ett problem, och de timmar som är inloggade på kortet sparas för den anslutna aktiviteten eller problemet.
 Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-</div>
-
 ### Mobilapp {#mobile-app}
 
 Du kan logga tid från Workfront mobilapp.
-Mer information finns i [Adobe Workfront för Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) eller [Adobe Workfront för iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+Mer information finns i [Adobe Workfront för Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) eller [Adobe Workfront för iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

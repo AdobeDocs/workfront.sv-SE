@@ -6,7 +6,7 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
+source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Använd anslutna kort på ritytor
-
-{{highlighted-preview}}
 
 Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i [!DNL Workfront].
 
@@ -185,8 +183,6 @@ När du har skapat ett ad hoc-kort kan du konvertera det till ett anslutet kort.
 
 1. Klicka **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
 
-<div class="preview">
-
 ## Logga timmar på ett anslutet kort
 
 >[!NOTE]
@@ -207,4 +203,3 @@ Fälten för tidsloggning visas inte på anslutna kort som standard. Du måste a
 
 Loggningstiden på kortet är densamma som loggningstiden för en uppgift eller ett problem. Mer information finns i&quot;Logga tid för ett projekt, en uppgift eller ett problem&quot; i artikeln [Loggtid](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
-</div>
