@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 Som en [!DNL Adobe Workfront] administratör du kan konfigurera [!UICONTROL Resource Management] Inställningar för systemet. Dessa inställningar avgör hur tillgängligheten eller kapaciteten för användartimmar eller FTE beräknas för [!DNL Workfront] planerings- och planeringsverktyg för resurser.
 
@@ -87,9 +85,8 @@ Vid beräkning av en användares kapacitet tar Workfront hänsyn till följande 
 * [!UICONTROL Schedule] [!UICONTROL Exceptions] (beroende på vilken [!UICONTROL Schedule] används, det kan vara undantagen i användarens schema eller de som är kopplade till [!DNL Workfront] [!UICONTROL Default Schedule])
 * Användarens lediga tid
 * Värdet för heltidsmotsvarigheten ([!UICONTROL FTE]) för användaren eller [!DNL Workfront] system. The [!UICONTROL FTE] är lika med 1 när användaren arbetar heltid, enligt schemat.
-<div class="preview">
 * Värdet för [!UICONTROL Work Time] för användaren som refererar till den tid som användaren lägger på projektrelaterat arbete. Detta inkluderar inte overheadtid, som möten och utbildning. The [!UICONTROL Work Time] är lika med 1 när användaren är tillgänglig för arbete under hela den tid som anges av [!UICONTROL FTE] eller schemat, vilket innebär att de inte spenderar någon tid på icke-projektrelaterade arbeten som möten eller utbildningar.
-</div>
+
 
 Mer information om planering och planering av resurser finns i [!DNL Workfront], se [Kom igång med resurshantering](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
@@ -112,29 +109,8 @@ Mer information om planering och planering av resurser finns i [!DNL Workfront],
 
       Workfront beräknar tillgängliga timmar för en användare med följande formel när Workfront-administratören väljer [!UICONTROL Default Schedule]:
 
-
-      I produktionsmiljön:
-
       ```
-      User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
-      ```
-
-      >[!INFO]
-      >
-      > Om [!UICONTROL Default Schedule] är 40 timmar i veckan och [!UICONTROL FTE] i användarens profil är 0,5, användaren kan arbeta 20 timmar i veckan.
-      >Om användaren har en timmes tid på en dag beräknas deras tillgängliga timmar enligt följande:
-      >
-      >
-      ```
-      >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
-      >```
-
-      <div class="preview">
-
-      I förhandsvisningsmiljön:
-
-      ```
-      User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * Work Time
+      User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]
       ```
 
       >[!INFO]
@@ -148,7 +124,22 @@ Mer information om planering och planering av resurser finns i [!DNL Workfront],
       >User Available Hours = [(40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours
       >```
 
-      </div>
+      <!--This used to be the calculation before we implemented the Work Time field: 
+    
+      ```
+      User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
+      ```
+
+      >[!INFO]
+      >
+      > For example, if the [!UICONTROL Default Schedule] is 40 hours a week and the [!UICONTROL FTE] in the profile of the user is 0.5, the user is available to work for 20 hours a week.
+      >If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:
+      >
+      >```
+      >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
+      >```
+      -->
+
 
 
       <!--      
@@ -173,36 +164,6 @@ Mer information om planering och planering av resurser finns i [!DNL Workfront],
       >
       >Om användaren inte är associerad med ett schema beräknas användarens tillgängliga timmar endast med [!UICONTROL Default Schedule].
 
-      I produktionsmiljön:
-
-
-      Tillgängliga timmar för användaren beräknas enligt följande formel:
-
-      ```
-      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
-      ```
-
-      Tillgängliga [!UICONTROL FTE] för användaren beräknas med följande formel:
-
-      ```
-      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
-      ```
-
-      >[!INFO]
-      >
-      >Om [!UICONTROL Default Schedule] är 40 timmar i veckan och schemat för användaren är 30 timmar i veckan, [!UICONTROL FTE] för användaren är 0,70.
-      >  
-      >Om användaren har två timmars tid ledig från en dag, är hans/hennes Vecka tillgänglig [!UICONTROL FTE] beräknas enligt följande:
-      > 
-      >
-      ```
-      >User Weekly Available [!UICONTROL FTE] = (30-2) / 40 = 0.70
-      >```
-
-      <div class="preview">
-
-      I förhandsvisningsmiljön:
-
       Tillgängliga timmar för användaren beräknas enligt följande formel:
 
       ```
@@ -223,9 +184,33 @@ Mer information om planering och planering av resurser finns i [!DNL Workfront],
       >
       >
       ```
-      >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
+      >User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35
       >```
 
-      </div>
+      <!--This used to be the calculation before we implemented the Work Time field: 
+      
+
+      The Available hours for the user are calculated by the following formula:
+
+      ```
+      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
+      ```  
+
+      The Available [!UICONTROL FTE] for the user is calculated by the following formula:
+
+      ```
+      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
+      ```
+
+      >[!INFO]
+      >
+      >For example, if the [!UICONTROL Default Schedule] is 40 hours a week and the schedule of the user is 30 hours a week, the [!UICONTROL FTE] of the user is 0.70.
+      >  
+      >If the user has 2 hours of Time off one day, their Weekly Available [!UICONTROL FTE] will be calculated as follows:
+      > 
+      >```
+      >User Weekly Available [!UICONTROL FTE] = (30-2) / 40 = 0.70
+      >```
+      -->
 
 1. Klicka på **[!UICONTROL Save]**.

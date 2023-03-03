@@ -6,16 +6,14 @@ description: Du kan kopiera ett projekt i stället för att skapa ett från bör
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Kopiera ett projekt
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +31,7 @@ Du kan kopiera ett projekt i stället för att skapa ett från början. Du kan b
 >* Anteckningar
 >* Timmar
 >* Föregångare mellan projekt
->* <span class="preview">Budgeterade timmar</span>
+>* Budgeterade timmar
 >
 >Följande objekt kopieras alltid från ett befintligt projekt till ett nytt:
 >
@@ -179,12 +177,12 @@ Så här kopierar du ett projekt:
    </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">Budgeterade timmar</span></td> 
-      <td> <p><span class="preview">Tar bort de timmar som har budgeterats i resursplaneringsområdet för projektets affärsärende från det kopierade projektet. <span class="preview"></p>
+      <td role="rowheader">Budgeterade timmar</td> 
+      <td> <p>Tar bort de timmar som har budgeterats i resursplaneringsområdet för projektets affärsärende från det kopierade projektet.</p>
 
 <b>ANMÄRKNING</b>
 
-<span class="preview">Timmar som har budgeterats med scenarioplaneraren kopieras aldrig till det nya projektet eftersom det nya projektet inte är länkat till något projekt i scenarioplaneraren. Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetresurser i affärsärendet med scenarioplaneraren</a></span>
+Timmar som har budgeterats med scenarioplaneraren kopieras aldrig till det nya projektet eftersom det nya projektet inte är länkat till något projekt i scenarioplaneraren. Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetresurser i affärsärendet med scenarioplaneraren</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Ekonomisk information</td> 

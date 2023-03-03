@@ -5,17 +5,15 @@ title: Kopiera och flytta malluppgifter
 description: Du kan kopiera eller flytta en malluppgift till samma mall eller till en annan mall.
 author: Alina
 feature: Work Management
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
 
 
 # Kopiera och flytta malluppgifter
-
-<span class="preview">Det går att kopiera och flytta en malluppgift i produktionsmiljön. Stegen som beskrivs på den här sidan avser dock endast funktioner i förhandsvisningsmiljön. Den här funktionen kommer att vara tillgänglig i Production den 2 mars 2023.</span>
 
 Du kan kopiera en malluppgift från en mall till en annan, eller flytta den till en annan mall eller till en annan plats i samma mall.
 

@@ -8,17 +8,15 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2760'
+source-wordcount: '2739'
 ht-degree: 0%
 
 ---
 
 # Redigera en användares profil
 
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 >[!IMPORTANT]
 >
@@ -137,21 +135,21 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td> 
        <ul>
        <li>
-       <b><span class="preview">Arbetstid</span></b>: <span class="preview">Representerar den procentandel av heltidsekvivalenttiden (FTE) som användaren är tillgänglig för faktiskt arbete, exklusive overhead. Arbetstiden måste vara ett decimaltal upp till 1 och får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.</span>
+       <b>Arbetstid</b>: Representerar den procentandel av heltidsekvivalenttiden (FTE) som användaren är tillgänglig för faktiskt arbete, exklusive overhead. Arbetstiden måste vara ett decimaltal upp till 1 och får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.
 
-   <span class="preview">Fältets standardvärde är 1, vilket anger att en användare tillbringar hela sitt heltidsanställda på faktiskt, projektrelaterat arbete.</span>
+   Fältets standardvärde är 1, vilket anger att en användare tillbringar hela sitt heltidsanställda på faktiskt, projektrelaterat arbete.
 
-   <span class="preview">Systemet använder det här talet för att beräkna användarens tillgänglighet för faktiskt, projektrelaterat arbete. </span>
+   Systemet använder det här talet för att beräkna användarens tillgänglighet för faktiskt, projektrelaterat arbete.
 
-   <span class="preview">Mer information om hur du skapar scheman i Workfront finns i <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>.</span>
+   Mer information om hur du skapar scheman i Workfront finns i <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>.
 
-   <span class="preview">Schemalagda undantag och ledig tid kan också påverka användarkapaciteten.
+   Schemalagda undantag och ledig tid kan också påverka användarkapaciteten.
 
    Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i inställningsområdet. Mer information finns i <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a>.
 
    <b>TIPS</b>
 
-   <span class="preview">Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.</span>
+   Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
    </li> 
       <li> <b>Schemalägg inaktivering</b>: Markera den här rutan om du vill att den här användaren ska inaktiveras efter en viss tid. </li> 
        <li><b>Schemalagt inaktiveringsdatum</b>: Datumet efter vilket användaren inaktiveras. Information om hur du schemalägger användare för inaktivering finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>.</li> 
@@ -178,7 +176,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    Fältets standardvärde är 1.
 
-   Schemalägg undantag, avbrottstid kan <span class="preview">och värdet för Arbetstid</span> kan påverka användarens tillgänglighet.
+   Schemalägg undantag, eventuell ledig tid och värdet på Arbetstid kan påverka användarens tillgänglighet.
 
    Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i inställningsområdet.
 

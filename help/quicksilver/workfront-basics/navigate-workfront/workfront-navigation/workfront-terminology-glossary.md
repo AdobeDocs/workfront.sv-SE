@@ -5,7 +5,7 @@ title: Ordlista för [!DNL Adobe Workfront] terminologi
 description: The [!DNL Adobe Workfront] ordlistor med termer som används ofta i Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '15588'
 ht-degree: 0%
@@ -890,7 +890,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <p>Din Workfront-administratör bestämmer vilket schema som ska användas för att fastställa användarens tillgänglighet.  </p>
    <ul>
    <li> När [!UICONTROL Default Schedule] används, Workfront använder [!UICONTROL FTE] av användaren som finns i deras profil för att beräkna tillgänglighet. </li>
-   <li> När användarens schema används, använder Workfront användarens lediga tid, <span class="preview">[!UICONTROL Work Time] value</span>och [!UICONTROL Default Schedule]Antal timmar att beräkna användarens [!UICONTROL FTE]. </li> </ul>
+   <li> När användarens schema används, använder Workfront användarens lediga tid, [!UICONTROL Work Time] värde, och [!UICONTROL Default Schedule]Antal timmar att beräkna användarens [!UICONTROL FTE]. </li> </ul>
 
 <p>Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a>.  </p>
    <p>Mer information om hur du skapar scheman i [!DNL Workfront], se <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>. </p>
@@ -1136,7 +1136,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
-   <td> <p>Det här fältet visar den senaste uppdateringen som en användare har angett för ett objekt. Detta är den senaste aktiviteten eller interaktionen för ett objekt.</p> <p>The [!UICONTROL Last Note] kolumnen är tom om texten i den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.</p>
+   <td> <p>Det här fältet visar den senaste uppdateringen som en användare har angett för ett objekt. Detta är den senaste aktiviteten eller interaktionen för ett objekt.</p> <p>The [!UICONTROL Last Note] kolumnen är tom om texten i den sista anteckningen i ett objekt har tagits bort. När en ny anteckning anges på objektet blir den sista anteckningen och visas igen i kolumnen.</p>
    <p>När det här fältet läggs till i en [!UICONTROL Task] rapporter, eventuella uppdateringar som återstår av underordnade objekt - som problem, underuppgifter, dokument osv. — av uppgiften visas inte i den här kolumnen.</p> </td> 
   </tr> 
   <tr> 
@@ -2334,15 +2334,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td>[!UICONTROL Work Time]</td> 
    <td>
 
-<p><span class="preview">Representerar procentandelen för heltidsmotsvarigheten ([!UICONTROL FTE]) den tid som användaren är tillgänglig för faktiskt arbete, exklusive extrakostnader. [!UICONTROL Work Time] måste vara ett decimaltal upp till 1 och det får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.</span>  </p>
-   </p><span class="preview">Fältets standardvärde är 1, vilket anger att användaren tillbringar hela [!UICONTROL FTE] på faktiskt, projektrelaterat arbete.</span>   </p>
-   <p><span class="preview">Systemet använder det här talet för att beräkna användarens tillgänglighet för faktiskt, projektrelaterat arbete. </span></p>
-   <p> <span class="preview">Schemalagda undantag och ledig tid kan också påverka användarkapaciteten.</span> </p>
-   <p><span class="preview">Mer information om hur du skapar scheman i Workfront finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>.</span> </p>
+<p>Representerar procentandelen för heltidsmotsvarigheten ([!UICONTROL FTE]) den tid som användaren är tillgänglig för faktiskt arbete, exklusive extrakostnader. [!UICONTROL Work Time] måste vara ett decimaltal upp till 1 och det får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.</p>
+   </p>Fältets standardvärde är 1, vilket anger att användaren tillbringar hela [!UICONTROL FTE] på faktiskt, projektrelaterat arbete.  </p>
+   <p>Systemet använder det här talet för att beräkna användarens tillgänglighet för faktiskt, projektrelaterat arbete. </p>
+   <p> Schemalagda undantag och ledig tid kan också påverka användarkapaciteten. </p>
+   <p>Mer information om hur du skapar scheman i Workfront finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>. </p>
     <p>Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i [!UICONTROL Setup] område. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Konfigurera inställningar för resurshantering</a>. </p> 
-   <p><span class="preview">Du kan uppdatera [!UICONTROL Work Time] för en användare när du redigerar eller skapar användaren. Mer information finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Redigera en användares profil</a></span></p> 
+   <p>Du kan uppdatera [!UICONTROL Work Time] för en användare när du redigerar eller skapar användaren. Mer information finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Redigera en användares profil</a></p> 
    <b>TIPS</b> 
-   <p><span class="preview">Ange [!UICONTROL Work Time] värdet 1 för att ange att användaren är tillgänglig för projektrelaterat arbete och att hela heltidsekvivalenten är tillgänglig.</span></p> 
+   <p>Ange [!UICONTROL Work Time] värdet 1 för att ange att användaren är tillgänglig för projektrelaterat arbete och att hela heltidsekvivalenten är tillgänglig.</p> 
    </td> 
   </tr> 
   <tr> 
