@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,26 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                         <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 2, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Logga timmar på anslutna kort på anslagstavlan</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Logga timmar på anslutna kort på anslagstavlan</a></p>
                         <p>Nu kan du logga timmar på anslutna kort, på samma sätt som du gör för en uppgift eller ett problem. Du måste ha rätt behörighet för aktiviteten eller problemet för att kunna logga tiden.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -203,6 +219,22 @@ Tips om hur du förbereder dig för den kommande versionen finns på [Förbered 
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Förbättrad filterupplevelse som är allmänt tillgänglig i Adobe Workfront<span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></a>
+                        <p>Den förbättrade filterupplevelsen blir allmänt tillgänglig och blir standardfilterskapare i Preview den 2 mars 2023. En fasad lansering i produktionen börjar också den 2 mars med tillgänglighet för alla kunder i version 23.2.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 2 mars 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Produktionsrelease: Med version 23.2</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
