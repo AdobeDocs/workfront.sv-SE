@@ -6,9 +6,9 @@ description: Grunderna i API
 author: Becky
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4405'
+source-wordcount: '4478'
 ht-degree: 0%
 
 ---
@@ -427,11 +427,17 @@ För att få optimala prestanda visas i följande tabell de begränsningar som f
 
 ### Använda sidnumrerade svar {#using-paginated-responses}
 
-Om du vill åsidosätta standardfrågebegränsningen för antal resultat och tillåta 200 resultat, kan du inkludera filtret $$LIMIT=200 i frågan, vilket visas i följande exempel:
-<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>För att säkerställa tillförlitlighet och prestanda för andra innehavare i systemet är den högsta tillåtna resultatgränsen per fråga 2 000 objekt. Om du försöker ange en större gräns kommer felet IllegalArgumentException att visas. 
+Om du vill åsidosätta standardfrågebegränsningen för antal resultat och tillåta 200 resultat kan du inkludera `$$LIMIT=200` filter i frågan, vilket visas i följande exempel:
+<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Därför rekommenderar vi att du använder sidnumrerade svar för stora datamängder. Om du vill ange det första resultatet som ska returneras lägger du till $$FIRST-filtret. Följande begäran returnerar till exempel resultatet 201-250 för en fråga:
-<pre>GET /attask/api/v15.0/project/search?$$FIRST=201&amp;$$LIMIT=50</pre>
+För att säkerställa tillförlitlighet och prestanda för andra klientorganisationer i systemet är den högsta tillåtna resultatgränsen per fråga 2 000 objekt. Om du försöker ange en större gräns resulterar det i ett `IllegalArgumentException` felmeddelande. 
+
+Därför rekommenderar vi att du använder sidnumrerade svar för stora datamängder. Om du vill ange det första resultatet som ska returneras lägger du till `$$FIRST` filter. Följande begäran returnerar till exempel resultatet 201-250 för en fråga:
+<pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
+
+Observera att i ovanstående exempel `$$FIRST=200` returnerar det 201:a resultatet. `$$FIRST=0` returnerar det första resultatet. Det kan hjälpa att tänka på $$FIRST-värdet som antalet resultat som du vill hoppa över innan du returnerar resultaten.
+
+Använd en sorteringsparameter för att försäkra dig om att resultatet är rätt sidnumrerat. Detta gör att resultaten kan returneras i samma ordning, så att sidnumreringen inte upprepas eller hoppar över resultat. Om du till exempel vill sortera med objekt-ID använder du `ID_Sort=asc`.
 
 ### Skapa en åtkomstregel
 
