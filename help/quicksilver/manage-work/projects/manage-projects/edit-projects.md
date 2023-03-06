@@ -6,9 +6,9 @@ description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
-source-wordcount: '6382'
+source-wordcount: '6670'
 ht-degree: 0%
 
 ---
@@ -238,7 +238,7 @@ Vissa inställningar som nämns i den här artikeln kan ändras från standardst
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Villkor</strong> </td> 
-      <td> <p> <p>(Visas endast efter att du har valt <strong>Manuell</strong> för <strong>Villkorstyp</strong>): Välj ett villkor för att ange hur projektet ska gå. </p> <p>Mer information om hur projektvillkor kan ställas in automatiskt eller manuellt finns i <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över projektvillkor och villkorstyp</a></p> </p> </td> 
+      <td> <p> <p>(Visas endast när du har valt <strong>Manuell</strong> för <strong>Villkorstyp</strong>): Välj ett villkor för att ange hur projektet ska gå. </p> <p>Mer information om hur projektvillkor kan ställas in automatiskt eller manuellt finns i <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över projektvillkor och villkorstyp</a></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Schemaläge</strong> </td> 
@@ -304,21 +304,40 @@ Vissa inställningar som nämns i den här artikeln kan ändras från standardst
 
 ### Anpassad Forms {#custom-forms}
 
+
+Beroende på din åtkomstnivå och din behörighet för projektet finns följande scenarier:
+
+* Om du inte har behörighet att redigera anpassade formulär i projektet kan du inte redigera fälten i de kopplade anpassade formulären. Du kan bara visa fälten i de anpassade formulären som är kopplade till projektet.
+* Om du har Visa (och inte Redigera) åtkomst till ett avsnitt i ett anpassat formulär, kan du inte redigera fälten i det avsnittet.
+* Om du inte har tillgång till ett avsnitt i något av de anpassade formulär som är kopplade till projektet visas inte avsnittet i rutan Redigera projekt.
+
+När du väljer flera projekt som ska redigeras samtidigt finns följande scenarier:
+
+* Om du inte har behörigheten Redigera anpassat formulär i minst ett av de markerade projekten kan du inte redigera fälten i de kopplade anpassade formulären. Du kan bara visa fälten i de kopplade anpassade formulären
+* Om du har Visa (och inte Redigera) åtkomst till ett avsnitt i ett anpassat formulär, kan du inte redigera fälten i det avsnittet. Du kan bara visa fälten i det avsnittet.
+* Om du inte har tillgång till ett avsnitt i ett av de anpassade formulären som är kopplat till minst ett av projekten, visas inte avsnittet i rutan Redigera projekt.
+
+Mer information om åtkomst till anpassade formulär finns i följande artiklar:
+
+* [Dela ett eget formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+* [Lägga till en avsnittsbrytning i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+
+Så här redigerar du information i anpassade formulär:
+
+
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka **Anpassad Forms** i den vänstra panelen.
 
    ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
-1. Klicka på **Lägg till anpassat formulär** och välj ett formulär från listan som du vill bifoga till projektet.
-
-   Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan lägga till upp till tio anpassade formulär i ett projekt.
-
-1. (Villkorligt) Om du har kopplat ett anpassat formulär till projektet redigerar du alla fält i formuläret. Du måste ange alla obligatoriska fält innan du kan spara projektet.
+1. Klicka på **Lägg till anpassat formulär** och välj ett formulär från listan som du vill bifoga till projektet. Som standard visas de första 40 formulären i alfabetisk ordning. Om du inte ser formuläret i listan börjar du skriva dess namn och markerar det när det visas i listan.
 
    >[!NOTE]
    >
-   >Beroende på hur din Workfront-administratör anger behörigheter för avsnitten i ditt anpassade formulär kan inte alla visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har för själva projektet. Mer information om hur du anger behörigheter i avsnitt i ett anpassat formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Mer information om hur du ställer in behörigheter för projekt finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >   Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan lägga till upp till tio anpassade formulär i ett projekt.
 
+
+1. (Villkorligt) Om du har kopplat ett anpassat formulär till projektet redigerar du alla fält i formuläret. Du måste ange alla obligatoriska fält innan du kan spara projektet.
 1. (Valfritt) Klicka på **X-ikon** till höger om namnet på ett anpassat formulär som du vill ta bort och klicka sedan på **Ta bort**.
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra
 
@@ -327,6 +346,19 @@ Vissa inställningar som nämns i den här artikeln kan ändras från standardst
    Klicka **Spara**.
 
 ### Ekonomi {#finance}
+
+Beroende på din åtkomstnivå och din behörighet för projektet finns följande scenarier:
+
+* Om du har behörigheten Visa åtkomst till finansiella data och Visa finansiella behörigheter för projektet kan du bara visa fälten i avsnittet Ekonomi. Du kan inte redigera fälten i det här avsnittet.
+* Om du har behörigheterna Redigera åtkomst till finansiella data och Hantera finanser för projektet kan du uppdatera fälten i det här avsnittet.
+
+När du markerar flera projekt som ska redigeras samtidigt och i stället väljs följande scenarier:
+
+* Om du väljer minst ett projekt där du har behörigheten Visa ekonomi (i stället för Hantera ekonomi), kan du bara visa fälten i det här avsnittet för alla markerade projekt. Du kan inte redigera fälten i finansavsnittet satsvis.
+* Om du väljer minst ett projekt utan ekonomisk behörighet visas inte det här avsnittet alls.
+
+Så här redigerar du fält i finanssektorn:
+
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka **Ekonomi** i den vänstra panelen.
@@ -657,7 +689,18 @@ Följande fält inkluderas som standard i projekthuvudet.
 
 ## Redigera flera projekt samtidigt
 
-Du kan redigera flera projekt samtidigt och uppdatera all information om dem samtidigt.
+Du kan redigera flera projekt samtidigt och uppdatera information för alla markerade projekt samtidigt.
+
+<!--
+The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
+
+Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+
+Editing projects in bulk differs depending on what environment you choose to update them in. 
+
+### Edit projects in bulk in the Production environment
+
+-->
 
 Så här redigerar du flera projekt samtidigt:
 
@@ -716,9 +759,7 @@ Så här redigerar du flera projekt samtidigt:
       <!--   
      <p>(NOTE: ensure this step stays accurate)</p>   
      -->
-   >[!NOTE]
-   >
-   >Informationen som du ändrar i alla markerade projekt åsidosätter den befintliga informationen i enskilda projekt, förutom **Resurshanteraren** fält. Om du lägger till en ny resurshanterare i en gruppredigering läggs den hanteraren till i alla markerade projekt. Om andra resurshanterare är kopplade till de valda projekten, finns de kvar i projekten förutom det som lagts till via massredigering.
+
 
 1. (Valfritt) Välj något av följande alternativ i området Inställningar:
 
@@ -750,3 +791,106 @@ Så här redigerar du flera projekt samtidigt:
 1. Klicka **Spara ändringar**.
 
    Alla ändringar du har gjort visas nu för alla markerade projekt.
+
+<!--drafted for bulk editing projects:  
+
+<div class="preview">
+
+### Edit projects in the Preview environment
+
+Consider the following when editing projects in bulk in the Preview environment:
+
+* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+
+   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+
+* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+
+    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+
+      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+
+    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+
+    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+
+    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+
+      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+
+* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+   >[!IMPORTANT]
+   >
+   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+
+* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+
+To edit projects in the Preview environment: 
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click **Projects**.
+1. Select several projects in the list.
+1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
+The **Edit Projects** dialog box opens. 
+
+   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+
+Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+
+1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
+
+   >[!TIP]
+   >
+   >Fields that you edit display with a light purple background.
+
+1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
+
+   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
+
+   ![](assets/custom-forms-in-common-unshimmed.png) 
+
+   >[!TIP]
+   >
+   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+
+1. Start typing the name of a custom form in the **Add custom form** field.
+
+
+   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+
+   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
+   
+   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
+   
+1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+
+   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+
+1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+
+   >[!CAUTION]
+   >
+   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+
+   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+
+1. Click **Finance** to edit financial information for all selected projects.
+For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
+1. Click **Project Settings** to edit the settings for all selected projects.
+For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
+1. Click **Task Settings** to edit the task settings for all selected projects. 
+For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
+1. Click **Issue Settings** to edit the issue settings for all selected projects.
+For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
+1. Click **Access** to edit the access settings for all selected projects.
+For more information about editing the Access area, see the section [Access](#access) in this article.
+1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+
+   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+
+1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
+1. Click **Save**. 
+
+<div>
+-->

@@ -6,7 +6,7 @@ description: Resurspooler är användarsamlingar som hjälper dig att hantera re
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -105,9 +105,9 @@ Så här associerar du resurspooler med flera projekt samtidigt:
    >
    >När du redigerar flera projekt eller mallar samtidigt visas endast de resurspooler som är gemensamma för alla projekt eller mallar som är markerade i det här fältet. Om de valda projekten inte har några delade resurspooler kommer det här fältet att vara tomt. Resurspoolerna som du anger här skriver över de enskilda resurspoolerna för projekten eller mallarna.
 
-<!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
+   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. Klicka **Spara ändringar**.\
    När resurspoolerna är kopplade till dina projekt eller dina mallar kan du budgetera användarallokeringar för dina projekt i resursplaneraren.\

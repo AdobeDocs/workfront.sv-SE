@@ -7,7 +7,7 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -15,6 +15,9 @@ ht-degree: 0%
 ---
 
 # Lägga till ett anpassat formulär i ett objekt
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Du kan lägga till ett befintligt anpassat formulär till något av objekten som listas nedan. Ett anpassat formulär innehåller anpassade fält där du kan lagra information om objektet.
 
@@ -104,19 +107,23 @@ Du kan lägga till upp till 10 anpassade formulär för ett givet objekt, så at
 
 ## Lägga till ett anpassat formulär till flera objekt samtidigt
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit is released for NWE) </p>
--->
-
 Du kan lägga till anpassade formulär till flera objekt genom att markera dem i en lista.
+
+<!--
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+
+>[!NOTE]
+>
+><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+
+-->
 
 1. Navigera till en lista med objekt.
 1. Markera flera objekt i listan.
 
 1. Klicka på **Mer** meny ![](assets/more-icon.png)klickar du på **Redigera** icon  ![](assets/edit-icon.png)eller bara klicka på **Redigera** icon ![](assets/edit-icon.png).
 1. Klicka **Anpassad Forms** i den vänstra panelen.
-1. I **Gör en markering** väljer du det formulär som du vill koppla till alla markerade objekt.
-
+1. Markera det formulär som du vill koppla till alla markerade objekt i **Gör en markering** nedrullningsbar meny.
    >[!NOTE]
    >
    >Om du inte hittar formuläret i listrutan innebär det att minst ett av objekten redan har det kopplade formuläret. Bestäm vilket objekt som är och ta bort det från markeringen innan du kan lägga till formuläret till de återstående objekten.
