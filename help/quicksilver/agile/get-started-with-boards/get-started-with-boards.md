@@ -6,9 +6,9 @@ description: Läs dessa artiklar och lär dig hur du använder anslagstavlor i W
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
+* [Adobe Workfront Boards - videodemonstrationer](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
 * [Anmäl dig till tidig funktion](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [Använda panelkontrollpanelen](../../agile/get-started-with-boards/use-boards-page.md)
 * [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md)

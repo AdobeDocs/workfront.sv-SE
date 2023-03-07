@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: e1df51f5f689d7ecc7db56d1d836d34dbe40d1e1
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '12597'
+source-wordcount: '12602'
 ht-degree: 0%
 
 ---
@@ -884,6 +884,7 @@ ht-degree: 0%
       * [Konfigurera Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Kom igång med anslagstavlor i Adobe Workfront {#boards-in-workfront}
       * [Kom igång med anslagstavlor i Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Adobe Workfront Boards - videodemonstrationer](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Anmäl dig till tidig funktion](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Använda panelkontrollpanelen](agile/get-started-with-boards/use-boards-page.md)
       * [Skapa eller redigera en anslagstavla](agile/get-started-with-boards/create-edit-board.md)
