@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 5292069412a73f824dbcd967d47737cff5ef58fa
+source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Du måste ha nödvändig åtkomst eller behörighet i [!DNL SharePoint] för att
 Enskilda användare kan länka dokument via de nya [!DNL SharePoint] integrering. Integreringen kräver ingen administratörskonfiguration. I stället loggar användaren in på sina [!DNL Microsoft] när du länkar ett dokument, vilket gör att integreringen kan komma åt dokument som finns i användarens [!DNL SharePoint].
 
 Första gången en användare ansluter [!DNL Workfront] [!DNL SharePoint] integrering med [!DNL SharePoint] kommer de att se och godkänna alla behörigheter som [!DNL Workfront] använder när de interagerar med [!UICONTROL SharePoint] konto. Läsbehörigheter tillåt [!DNL Workfront] för att se och komma åt filer på [!DNL SharePoint]och skrivbehörigheter tillåter användaren att överföra filer till [!DNL SharePoint].
+
+![SharePoint-behörigheter](assets/sharepoint-permissions.png)
 
 Instruktioner om hur du länkar dokument genom det nya [!DNL SharePoint] integrering, se [Länka ett externt dokument till [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
