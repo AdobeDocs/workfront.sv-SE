@@ -6,7 +6,7 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en ny anslagstavla
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Om du vill skapa en fristående anslagstavla klickar du på **[!UICONTROL Create New]** i [!UICONTROL Boards] område. Mer information om hur du lägger till en anslagstavla i en samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Om du vill skapa en fristående anslagstavla klickar du på **[!UICONTROL Add board]** i [!UICONTROL Boards] område. Mer information om hur du lägger till en anslagstavla i en samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >

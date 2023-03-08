@@ -6,7 +6,7 @@ title: Hantera samlingar
 description: En samling är en konfigurerbar grupp av anslagstavlor för samarbete i arbetet.
 author: Lisa
 feature: Agile
-source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en samling
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka **[!UICONTROL Create new]** i [!UICONTROL Collections] kontrollpanelens område.
+1. Klicka **[!UICONTROL Add collection]** i [!UICONTROL Collections] kontrollpanelens område.
 1. Ange ett namn som ska ersättas **[!UICONTROL Untitled Collection]** och tryck på Enter.
 
    Du kan lägga till ritytor i samlingen eller klicka på [!UICONTROL **Alla anslagstavlor**] för att gå tillbaka till kontrollpanelen.
@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en ny anslagstavla i en samling
 
 1. Om du inte redan ingår i en samling klickar du på [!UICONTROL **Visa samling**] på kontrollpanelen för att öppna en befintlig samling.
-1. Klicka **[!UICONTROL Create new]** på [!UICONTROL Boards] -fliken i samlingen.
+1. Klicka **[!UICONTROL Add board]** på [!UICONTROL Boards] -fliken i samlingen.
 1. Välj en mall för styrelsen.
 
 | Mall | Beskrivning |
