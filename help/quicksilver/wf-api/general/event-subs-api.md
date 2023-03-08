@@ -6,9 +6,9 @@ description: API för händelseprenumeration
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2109'
 ht-degree: 0%
 
 ---
@@ -73,65 +73,10 @@ En lista med fält som stöds av händelseprenumerationsobjekt finns på [Resurs
 
 Om du vill skapa, fråga efter eller ta bort en händelseprenumeration behöver din Workfront-användare följande:
 
-* En åtkomstnivå för &quot;Systemadministratör&quot;
-* En apiKey
+* Du måste ha åtkomstnivån &quot;Systemadministratör&quot; för att kunna använda händelseprenumerationer.
+* A `sessionID`  måste anges för att du ska kunna använda API:t för händelseprenumerationer
 
-   >[!NOTE]
-   >
-   >Om din användare redan använder Workfront API bör din användare redan ha en apiKey. Du kan hämta apiKey via följande HTTP-begäran:
-
-**Begär URL:**
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**Begäranrubriker:**
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>Rubriknamn</p> </th> 
-   <th> <p>Huvudvärde</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Innehållstyp</p> </td> 
-   <td> <p>text/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**Svarskoder:**
-
-| Svarskod | Beskrivning |
-|---|---|
-| 200 (OK) | Begäran har bearbetats och den befintliga apiKey-parametern för användaren ska returneras i svarstexten. |
-| 401 (obehörig) | Servern godkänner begäran men kunde inte behandla den eftersom den begärande apiKey/användaren inte har åtkomst att göra den här begäran. |
-
-{style=&quot;table-layout:auto&quot;}
-
-**Exempel på svarstext:**
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
-> Om detta är första gången du använder Workfront API måste du generera en apiKey som du kan göra via den här länken:
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   Mer information finns i [Autentisering](api-basics.md#authentication) in [Grunderna i API](api-basics.md).
 
 ## Formge prenumerationsresursen
 
@@ -268,8 +213,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Behörighet</p> </td> 
-   <td> <p>apiKey-värde</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID-värde</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,13 +236,14 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 201 (skapad) | Evenemangsprenumerationen har skapats. |
 | 400 (felaktig begäran) | URL-fältet för prenumerationsresursen ansågs vara ogiltigt. |
-| 401 (obehörig) | Angiven apiKey var tom eller ansågs ogiltig. |
-| 403 (Ej tillåtet) | Användaren, som matchar angiven apiKey, har inte administratörsåtkomst. |
+| 401 (obehörig) | Angivet sessions-ID var tomt eller ansågs ogiltigt. |
+| 403 (Ej tillåtet) | Användaren som matchar angivet sessions-ID har inte administratörsåtkomst. |
 
 Om du skickar en prenumerationsresurs som innehåll för en begäran (med innehållstypen &quot;application/json&quot;) skapas en händelseprenumeration för det angivna objektet. Svarskoden 201 (Skapad) anger att prenumerationen skapades. En annan svarskod än 201 innebär att prenumerationen **NOT** har skapats.
 
 >[!NOTE]
- Svarshuvudet &quot;Location&quot; innehåller URI:n för den nyligen skapade händelsprenumerationen.
+>
+> Svarshuvudet &quot;Location&quot; innehåller URI:n för den nyligen skapade händelsprenumerationen.
 
 **Exempel på svarshuvuden:**
 
@@ -342,8 +288,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Behörighet</p> </td> 
-   <td> <p>apiKey-värde</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID-värde</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,9 +298,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Svarskod | Beskrivning |
 |---|---|
-| 200 (OK) | Begäran som returnerades med alla händelseprenumerationer som hittades för kunden och som matchar angiven apiKey. |
-| 401 (obehörig) | Angiven apiKey var tom. |
-| 403 (Ej tillåtet) | Användaren, som matchar angiven apiKey, har inte administratörsåtkomst. |
+| 200 (OK) | Begäran som returnerades med alla händelseprenumerationer som hittades för kunden och som matchar angivet sessions-ID. |
+| 401 (obehörig) | Angivet sessions-ID var tomt. |
+| 403 (Ej tillåtet) | Användaren, som matchar angivet sessions-ID, har inte administratörsåtkomst. |
 
 
 **Exempel på svarshuvuden:**
@@ -435,8 +381,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Behörighet</p> </td> 
-   <td> <p>apiKey-värde</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID-värde</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,8 +392,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | Svarskod | Beskrivning |
 |---|---|
 | 200 (OK) | Begäran som returnerades med händelseprenumerationen som matchar det angivna prenumerations-ID:t. |
-| 401 (obehörig) | Angiven apiKey var tom. |
-| 403 (Ej tillåtet) | Användaren, som matchar angiven apiKey, har inte administratörsåtkomst. |
+| 401 (obehörig) | Angivet sessions-ID var tomt. |
+| 403 (Ej tillåtet) | Användaren, som matchar angivet sessions-ID, har inte administratörsåtkomst. |
 
 
 **Exempel på svarstext:**
@@ -729,8 +675,8 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Behörighet</p> </td> 
-   <td> <p> Användarens apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID-värde </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -753,11 +699,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
   </tr> 
   <tr> 
    <td>401 (obehörig)</td> 
-   <td>Angiven apiKey var tom.</td> 
+   <td>Angivet sessions-ID var tomt.</td> 
   </tr> 
   <tr> 
    <td>403 (Ej tillåtet)</td> 
-   <td>Användaren som matchar angiven apiKey har inte administratörsåtkomst.</td> 
+   <td>Användaren som matchar angivet sessions-ID har inte administratörsåtkomst.</td> 
   </tr> 
   <tr> 
    <td>404 (Hittades inte)</td> 
@@ -949,7 +895,7 @@ Följande är ett exempel på en begäran som använder base64Encoding-fältet:
 
 Följande API-slutpunkt är föråldrad och bör inte användas för nya implementeringar. Vi rekommenderar även att du övergår från gamla implementeringar till metoden i **Fråga om händelseprenumerationer** som beskrivs ovan.
 
-Du kan fråga alla händelseprenumerationer för en kund enligt värdet apiKey. Syntaxen för att ange alla händelseprenumerationer för en viss kund är följande URL:
+Du kan fråga alla händelseprenumerationer för en kund enligt värdet för sessionID. Syntaxen för att ange alla händelseprenumerationer för en viss kund är följande URL:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -970,8 +916,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Behörighet</p> </td> 
-   <td> <p> Användarens apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID-värde </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -994,11 +940,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
   </tr> 
   <tr> 
    <td>401 (obehörig)</td> 
-   <td>Angiven apiKey var tom.</td> 
+   <td>Angivet sessions-ID var tomt.</td> 
   </tr> 
   <tr> 
    <td>403 (Ej tillåtet)</td> 
-   <td>Användaren som matchar angiven apiKey har inte administratörsåtkomst.</td> 
+   <td>Användaren som matchar angivet sessions-ID har inte administratörsåtkomst.</td> 
   </tr> 
  </tbody> 
 </table>
