@@ -6,9 +6,9 @@ description: Du kan bädda in en extern webbsida i en instrumentpanel för att g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,27 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 >Av säkerhetsskäl kan du på vissa webbplatser inte bädda in webbsidor som en iframe. Om den webbsida som du vill bädda in i en instrumentpanel inte tillåter detta visas inte sidan i instrumentpanelen. Du kan dock fortfarande komma åt den externa sidan genom att klicka på instrumentpanelens namn.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
 >Om du vill tillåta inbäddning för en webbplats som du äger kan du tillsammans med webbadministratören justera **X-frame-options** inställning. Mer information finns i [X-frame-options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+
+
+>[!IMPORTANT]
+>
+>Instrumentpanelssidor stöds inte längre som inbäddade externa sidor i Dashboards. Följande Workfront.com-underdomäner stöds inte längre:
+>
+>* /dashboards &#x200B;
+>* /dashboard/ID-&#x200B;
+>* /portfolio/:ID/content-dashboard__:dashboardID &#x200B;
+>* /program/ID/content-dashboard__:dashboardID &#x200B;
+>* /project/:ID/content-dashboard__:dashboardID &#x200B;
+>* /task/:ID/content-dashboard__:dashboardID &#x200B;
+>* /template/:ID/content-dashboard__:dashboardID &#x200B;
+>* /templateTask/:ID/content-dashboard__:dashboardID &#x200B;
+>* /resourceManagement/:ID/content-dashboard__:dashboardID &#x200B;
+>* /team/ID/content-dashboard__:dashboardID &#x200B;
+>* /iteration/:ID/content-dashboard__:dashboardID &#x200B;
+>* /requests/:ID/content-dashboard__:dashboardID &#x200B;
+>* /group/:ID/content-dashboard__:dashboardID &#x200B;
+>* /billingrecord/:ID/content-dashboard__:dashboardID
+
 
 ## Åtkomstkrav
 

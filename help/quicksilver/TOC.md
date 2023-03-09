@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '12602'
+source-wordcount: '12605'
 ht-degree: 0%
 
 ---
@@ -1582,6 +1582,7 @@ ht-degree: 0%
          * [Skriva ut en instrumentpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [Dela en kontrollpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Ta bort en extern sida från en kontrollpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+         * [Översikt över kontrollpaneler på arbetsytan](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * Förbättrad analys {#enhanced-analytics}
       * [Förbättrad analys](enhanced-analytics/enhanced-analytics.md)
       * [Förbättrad analys - översikt](enhanced-analytics/enhanced-analytics-overview.md)
