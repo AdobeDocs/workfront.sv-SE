@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
+source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
 workflow-type: tm+mt
-source-wordcount: '12770'
+source-wordcount: '12759'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 0%
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * 23.2 Utgåva {#release-23-2}
          * [23.2 Versionsöversikt](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
-         * [23.2: Vecka 27 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md)
-         * [23.2: Vecka 20 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
-         * [23.2: Vecka den 13 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
-         * [23.2: Vecka 6 februari 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
-         * [23.2-versionsaktivitet: 23 januari 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
+         * [23.2 Administratörsförbättringar](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
+         * [23.2 Agile-förbättringar](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
+         * [23.2 Förbättrad projektledning](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
+         * [23.2 Förbättrad resurshantering](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 Mobilförbättringar](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
+         * [23.2 Andra förbättringar](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Utforma och känna av uppdateringar under 23.2-releasetidningen](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
       * 23.1 Utgåva {#release-23-1}
          * [23.1 Versionsöversikt](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
