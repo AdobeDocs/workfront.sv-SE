@@ -6,7 +6,7 @@ description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
+source-git-commit: a533beb1a28bedb8f7f05e8f0321b275d080eefb
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 0%
@@ -882,3 +882,5 @@ Mer information om hur du redigerar åtkomstområdet finns i avsnittet [Åtkomst
 
 1. (Valfritt) Klicka på **Avbryt** längst ned i **Redigera projekt** för att ta bort alla ändringar som gjorts i alla projekt.
 1. Klicka **Spara**.
+
+</div>
