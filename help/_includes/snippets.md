@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6969697714365bf38a77f4972c3b97e4d13a1725
+source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -62,6 +62,7 @@ Du kan se till att du associerar rätt grupp med teamet genom att hålla markör
 ## Steg 1 - Gå till användare {#step-1-to-users}
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+
 
 <!-- Agile -->
 

@@ -7,9 +7,9 @@ description: Du kan utforma ett anpassat formulär med formulärdesignern.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,9 @@ Du kan lägga till flera olika textfält i ett anpassat formulär.
    >[!NOTE]
    >
    >Textfält med formatering är inte tillgängliga för Workfront mobilappar (i kommande versioner).
+
 * **Beskrivande text**: Gör att du kan inkludera instruktioner och länka till sidor utanför Workfront.
+
 +++
 
 Så här lägger du till ett textfält:
@@ -134,7 +136,7 @@ Så här lägger du till ett textfält:
    * Enkelradig text:
    * Stycketext
    * Textfält med formatering
-   * Beskrivande texter
+   * Beskrivande text
 
    ![](assets/drag-field-to-section.png)
 
@@ -145,6 +147,17 @@ Så här lägger du till ett textfält:
     <td>Indata till</td>
     <td>Beskrivning</td>
     <td>Finns för </td>
+    </tr>
+    <tr>
+    <td>Storlek</td>
+    <td><p>Ändra storleken på textfälten i formuläret.<p>
+   </td>
+    <td><ul>
+    <li>Enkelradig text</li>
+    <li>Stycketext</li>
+    <li>Text med formatering</li>
+    <li>Beskrivande text - kommer snart</li>
+    </ul></td>
     </tr>
     <tr>
     <td>Etikett</td>
@@ -209,6 +222,14 @@ Så här lägger du till ett textfält:
     <td><ul><li>Beskrivande text</li></ul></td>
     </tr>
    </table>
+
+1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält eller widgetar.
+
+   eller
+
+   Om du vill kopiera ett fält håller du pekaren över ett fält och klickar på kopieikonen.
+
+   ![kopieringsikon](assets/copy-field.png)
 
 1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
@@ -346,6 +367,20 @@ Så här lägger du till alternativknappar och kryssrutor:
     </tbody> 
     </table>
 
+1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält eller widgetar.
+
+   eller
+
+   Om du vill kopiera ett fält håller du pekaren över ett fält och klickar på kopieikonen.
+
+   ![kopieringsikon](assets/copy-field.png)
+
+1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+
+   eller
+
+   Klicka **Spara och stäng**.
+
 ### Lägg till rubriker och datumfält
 
 Du kan lägga till huvud- och datumfält i ett anpassat formulär.
@@ -445,6 +480,14 @@ Så här lägger du till typsnittsdatumfält:
     </tbody> 
    </table>
 
+1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält eller widgetar.
+
+   eller
+
+   Om du vill kopiera ett fält håller du pekaren över ett fält och klickar på kopieikonen.
+
+   ![kopieringsikon](assets/copy-field.png)
+
 1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
@@ -520,6 +563,14 @@ Så här lägger du till bilder, PDF eller videoklipp:
     </tbody> 
    </table>
 
+1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält eller widgetar.
+
+   eller
+
+   Om du vill kopiera ett fält håller du pekaren över ett fält och klickar på kopieikonen.
+
+   ![kopieringsikon](assets/copy-field.png)
+
 1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
@@ -588,6 +639,14 @@ Så här lägger du till en Adobe XD-fil:
      </tr> 
     </tbody> 
    </table>
+
+1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält eller widgetar.
+
+   eller
+
+   Om du vill kopiera ett fält håller du pekaren över ett fält och klickar på kopieikonen.
+
+   ![kopieringsikon](assets/copy-field.png)
 
 1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
