@@ -4,9 +4,9 @@ description: 23.2 Andra förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 Den här sidan beskriver alla andra förbättringar som gjorts i version 23.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
 En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Ny kommentarsfunktion för utgåvor Beta
+
+En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för vissa objekt.
+
+Den nya upplevelsen kommer så småningom att göra kommentarerna enhetliga i hela Adobe Workfront och andra delar av Adobe Experience Cloud.
+
+Som en del av den här uppdateringen introducerar vi den nya kommentarsfunktionen i uppdateringsavsnittet. I den aktuella versionen finns det en växlingsknapp som alla användare kan använda för att aktivera den här upplevelsen i sin egen miljö, i betaläge. När betaavtalet har godkänts visas det nya uppdateringsavsnittet och de kan fortsätta att hantera sitt arbete i det avsnittet precis som nu.
+Liknande funktioner släpptes till Workfront Goals med version 23.1.
+
+Några av funktionerna som ingår i den här uppdateringen är:
+
+* Separata flikar för kommentarer och systemuppdateringar
+* Bättre prestanda
+
+Fler funktioner kommer att läggas till i framtida versioner, eftersom de också kommer att läggas till i andra objekt.
+
+Information om vad den nya kommentarsfunktionen erbjuder finns i [Enhetlig kommentarsfunktion](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Exportera ritytor som enstaka PDF eller flera PDF i Adobe Workfront för XD
 
