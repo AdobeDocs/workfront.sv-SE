@@ -6,17 +6,16 @@ description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '6670'
+source-wordcount: '7664'
 ht-degree: 0%
 
 ---
 
 # Redigera projekt
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -691,16 +690,14 @@ Följande fält inkluderas som standard i projekthuvudet.
 
 Du kan redigera flera projekt samtidigt och uppdatera information för alla markerade projekt samtidigt.
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
 
-Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+Informationen som du ändrar i alla markerade projekt skriver över befintlig information om enskilda projekt, förutom i fältet Resurshanterare.
 
-Editing projects in bulk differs depending on what environment you choose to update them in. 
+Om du lägger till en ny resurshanterare när du redigerar flera projekt samtidigt läggs den hanteraren till i alla markerade projekt. Om andra resurshanterare är kopplade till de valda projekten finns de kvar i projekten förutom det som lagts till via massredigering.
 
-### Edit projects in bulk in the Production environment
+Att redigera projekt i grupp varierar beroende på vilken miljö du väljer att uppdatera dem i.
 
--->
+### Redigera flera projekt samtidigt i produktionsmiljön
 
 Så här redigerar du flera projekt samtidigt:
 
@@ -792,105 +789,103 @@ Så här redigerar du flera projekt samtidigt:
 
    Alla ändringar du har gjort visas nu för alla markerade projekt.
 
-<!--drafted for bulk editing projects:  
-
 <div class="preview">
 
-### Edit projects in the Preview environment
+### Redigera projekt i förhandsgranskningsmiljön
 
-Consider the following when editing projects in bulk in the Preview environment:
+Tänk på följande när du redigerar flera projekt samtidigt i förhandsvisningsmiljön:
 
-* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+* När du väljer projekt som har olika värden för samma fält visas indikatorn &quot;Flera värden&quot; i rutan Redigera projekt. Fält som är kryssrutor, alternativknappar och växlar har en &quot;Multiple values&quot;-indikator bredvid sig.
 
    ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
-* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+* Förutom indikatorn för flera värden visas fält med flera alternativ på något av följande sätt om de valda alternativen är olika i minst ett av de markerade projekten:
 
-    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+   * Kryssrutefält har en rad i stället för en kryssruta för alternativet som är markerat för vissa men inte för alla markerade projekt.
 
       ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+   * Växla mellan fälten för olika typer visas nedtonade, med alternativet aktiverat i mitten för vissa men inte för alla markerade projekt.
 
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+   * Fält av alternativknappstyp som har vissa alternativ markerade men inte alla, visar alla alternativknappar som tomma.
 
       ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
-* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+* När du uppdaterar ett alternativ i ett fält med flera alternativ (t.ex. ett fält som visas som en uppsättning med växlar eller kryssrutor) måste alla andra alternativ matcha de markerade projekten.
 
    >[!IMPORTANT]
    >
-   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+   >Du kan till exempel ha ett kryssrutefält med tre kryssrutor (alternativ1, alternativ 2 och alternativ 3) och alternativ 1 är avmarkerat för alla projekt, och alternativ 2 och 3 är markerade för vissa och inte markerade för andra projekt som du har valt. Om du vill markera Alternativ 1 för alla projekt måste du också matcha alternativ 2 och 3 för alla markerade projekt innan du kan spara ändringarna, så du måste antingen markera dem eller avmarkera dem så att de matchar alla markerade projekt. Om du inte ändrar något av alternativen kan du spara fältet som det är och projekten behåller sin aktuella markering för alla alternativ.
 
-* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+* När du väljer flera projekt som tillhör olika grupper är statusvärdena som visas i statusfältet på systemnivå och inte gruppnivå.
 
-To edit projects in the Preview environment: 
+Så här redigerar du projekt i förhandsvisningsmiljön:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
-1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
-The **Edit Projects** dialog box opens. 
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka **Projekt**.
+1. Markera flera projekt i listan.
+1. Klicka på **Redigera** icon ![](assets/edit-icon.png) högst upp i listan.
+The **Redigera projekt** öppnas.
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
-Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+Beroende på hur Workfront-administratören eller gruppadministratören ändrade din layoutmall kan områdena i den vänstra panelen i rutan Redigera projekt eller fält som listas i dessa områden ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
-
-   >[!TIP]
-   >
-   >Fields that you edit display with a light purple background.
-
-1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
-
-   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
-
-   ![](assets/custom-forms-in-common-unshimmed.png) 
+1. Klicka **Översikt** om du vill redigera allmän information om de valda projekten.  Mer information om hur du redigerar området Översikt finns i avsnittet [Översikt](#overview) i den här artikeln.
 
    >[!TIP]
    >
-   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+   >Fält som du redigerar visas med en ljuslila bakgrund.
 
-1. Start typing the name of a custom form in the **Add custom form** field.
+1. Klicka **Anpassad Forms** om du vill redigera, lägga till eller ersätta anpassade formulär som är kopplade till de valda projekten.
+
+   De anpassade formulären som är kopplade till alla valda projekt visas i **Gemensamma anpassade formulär** underavsnitt i **Anpassad Forms** område.
+
+   ![](assets/custom-forms-in-common-unshimmed.png)
+
+   >[!TIP]
+   >
+   >   Namnen på de formulär som är gemensamma för alla markerade projekt visas i den vänstra panelen i rutan Redigera projekt.
+
+1. Börja skriva namnet på ett anpassat formulär i dialogrutan **Lägg till anpassat formulär** fält.
 
 
    ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
-   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
-   
-   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
-   
-1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+   De anpassade formulär som redan är kopplade till de valda projekten visas i **Bifogade formulär** underavsnitt i **Lägg till anpassat formulär** fält.
 
-   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+   Ytterligare anpassade formulär som kan kopplas till projekt men inte är kopplade till något av de valda projekten visas i **Forms att lägga till** underavsnitt i **Lägg till anpassat formulär** fält.
 
-1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+1. Klicka för att välja ytterligare anpassat formulär i dialogrutan **Lägg till anpassat formulär** eller **Forms att lägga till** underavsnitt när det visas i listan.
+
+   När ett anpassat formulär redan är kopplat till vissa av de markerade projekten visas en indikation bredvid namnet på formuläret hur många projekt som redan har formuläret markerat när ett formulär läggs till.
+
+1. (Valfritt) Klicka på **x** till höger om namnet på ett anpassat formulär och klicka sedan på **Ta bort** för att ta bort den från alla markerade projekt.
 
    >[!CAUTION]
    >
-   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+   >   Om du tar bort anpassade formulär försvinner all befintlig information om anpassade fält i formulären. Detta kan inte återställas.
 
-   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+   Mer information om hur du redigerar anpassade formulär finns i avsnittet [Anpassad Forms](#custom-forms) i den här artikeln.
 
-1. Click **Finance** to edit financial information for all selected projects.
-For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
-1. Click **Project Settings** to edit the settings for all selected projects.
-For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
-1. Click **Task Settings** to edit the task settings for all selected projects. 
-For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
-1. Click **Issue Settings** to edit the issue settings for all selected projects.
-For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
-1. Click **Access** to edit the access settings for all selected projects.
-For more information about editing the Access area, see the section [Access](#access) in this article.
-1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+1. Klicka **Ekonomi** om du vill redigera ekonomisk information för alla valda projekt.
+Mer information om hur du redigerar finanssektorn finns i avsnittet [Ekonomi](#finance) i den här artikeln.
+1. Klicka **Projektinställningar** om du vill redigera inställningarna för alla markerade projekt.
+Mer information om hur du redigerar området Projektinställningar finns i avsnittet [Projektinställningar](#project-settings) i den här artikeln.
+1. Klicka **Uppgiftsinställningar** om du vill redigera uppgiftsinställningarna för alla markerade projekt.
+Mer information om hur du redigerar området Uppgiftsinställningar finns i avsnittet [Uppgiftsinställningar](#task-settings) i den här artikeln.
+1. Klicka **Ärendeinställningar** om du vill redigera utgivningsinställningarna för alla valda projekt.
+Mer information om hur du redigerar området för probleminställningar finns i avsnittet [Ärendeinställningar](#issue-settings) i den här artikeln.
+1. Klicka **Åtkomst** om du vill redigera åtkomstinställningarna för alla markerade projekt.
+Mer information om hur du redigerar åtkomstområdet finns i avsnittet [Åtkomst](#access) i den här artikeln.
+1. (Valfritt) Om du vill ta bort någon information som du har lagt till i rutan Redigera projekt håller du pekaren över ett redigerat fält och klickar på knappen **x** ta bort ikonen längst upp till höger i fältet.
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
-1. Click **Save**. 
+1. (Valfritt) Klicka på **Avbryt** längst ned i **Redigera projekt** för att ta bort alla ändringar som gjorts i alla projekt.
+1. Klicka **Spara**.
 
 <div>
--->

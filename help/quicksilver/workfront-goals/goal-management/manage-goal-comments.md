@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -188,9 +188,6 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->Innehållet på den här sidan hänvisar till funktioner som är en del av den nya enhetliga kommentarsfunktionen, som för närvarande bara är tillgängliga i Adobe Workfront-mål. Mer information om enhetlig kommentarsfunktion finns i [Enhetlig kommentarsfunktion](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 Du kan lägga till kommentarer till mål i uppdateringsavsnittet på målsidan.
 
 Du kan svara på eller gilla en kommentar som du eller andra har lagt till i det här området.
@@ -203,6 +200,10 @@ Detta öppnar mållistan.
 1. Börja skriva en kommentar i **Skriv en kommentar** box.
 
    ![](assets/comment-box-empty-unshimmed.png)
+
+   >[!TIP]
+   >
+   >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Kommentarerna är bara synliga för användaren som skriver dem.
 
 1. (Valfritt) I dialogrutan **Meddela** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
 1. Klicka **Skicka**.
