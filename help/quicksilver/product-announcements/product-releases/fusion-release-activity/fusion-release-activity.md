@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlö
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 1e4d7aa9be56710d2b3297be9eb3f5da0de74d64
+source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlöst så att du
 Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Senaste releaser
+
+### Mars 2023
+
+* [Versionsaktivitet för Workfront Fusion: Vecka 6 mars 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
 
 ### December 2022
 
@@ -119,7 +123,7 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 * [Versionsaktivitet för Workfront Fusion: Vecka 26 april 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
 * [Versionsaktivitet för Workfront Fusion: Vecka 19 april 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
-<!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
+   <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### Mars 2021
 

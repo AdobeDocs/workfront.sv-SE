@@ -4,7 +4,7 @@ description: Aktivitet för Workfront Fusion-versioner Vecka 12 december 2022
 author: Becky
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
-source-git-commit: 5293ea1b83334567da5dfdd85221faec3deeb64b
+source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Versionsaktivitet för Workfront Fusion: Vecka 12 december 2022
 
-Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 14 februari 2022.
+Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 12 december 2022.
 
 En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
