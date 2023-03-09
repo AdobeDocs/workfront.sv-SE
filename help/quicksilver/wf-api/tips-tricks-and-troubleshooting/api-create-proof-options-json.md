@@ -6,9 +6,9 @@ description: Lägg in avancerade korrekturfunktioner med Adobe Workfront API
 author: Becky
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ En översikt över ProofHQ API finns i [PoofHQ - översikt](../../proofhq-api/ge
 1. Skapa ett korrektur med `Document createProof` i Workfront API.
 
    >[!NOTE]
-   När du skapar korrekturet ska du inte ta med ett värde för parametern advancedProofingOptions.
+   När du skapar korrekturet anger du `{}` som värdet för `advancedProofingOptions` parameter.
 
 1. När korrekturet har skapats använder du API:t för Korrektur för att lägga till avancerade alternativ.
 
