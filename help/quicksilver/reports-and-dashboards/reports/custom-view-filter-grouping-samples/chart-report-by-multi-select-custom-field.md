@@ -7,14 +7,16 @@ description: Du kan inte diagramma en rapport med ett anpassat fält som har fle
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
 
 # Diagrama en rapport med ett anpassat fält som har flera val
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 Du kan inte diagramma en rapport med ett anpassat fält som har flera val. Du måste skapa ytterligare ett beräkningsfält som refererar till det anpassade fältet för flera val för att kunna diagram rapporten med värdet för det anpassade fältet för flera val.
 
@@ -104,6 +106,11 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 1. (Valfritt) Om du vill vara säker på att alla beräknade fält som du vill rita efter är ifyllda med värden, markerar du alla objekt i rapporten som innehåller det anpassade formuläret med både det anpassade fältet för flera val och det beräknade anpassade fältet. Klicka sedan på **Redigera**.
 1. (Valfritt och villkorligt) Aktivera **Beräkna om anpassade uttryck** fält och klicka sedan på **Spara ändringar**.\
    ![](assets/recalculate-custom-expressions-350x259.png)
+
+   >[!NOTE]
+   >
+   ><span class="preview">Det här alternativet har tagits bort från att redigera flera projekt samtidigt i förhandsvisningsmiljön.  Du kan fortfarande beräkna om uttryck för projekt i grupp genom att klicka på **Mer** ![](assets/more-icon-45x33.png) högst upp i en projektlista, och sedan **Beräkna om uttryck**. </span>
+
 
 1. Gå till rapporten där du vill lägga till diagrammet för det beräknade fältet som refererar till det anpassade fältet för flera val.
 1. Klicka **Rapportåtgärder** sedan **Redigera**.
