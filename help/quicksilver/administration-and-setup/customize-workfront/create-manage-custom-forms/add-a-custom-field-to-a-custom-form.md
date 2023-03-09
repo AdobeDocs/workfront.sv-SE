@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Lägga till ett anpassat fält i ett anpassat formulär
+title: Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget
 description: När du arbetar med ett anpassat formulär kan du skapa ett nytt anpassat fält och lägga till det i ett anpassat formulär. Du kan också lägga till ett anpassat fält som redan har lagts till i ett annat anpassat formulär.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: a0b483e3ced69cbe59d51cca2edfb017ddadd09a
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
 
-# Lägga till ett anpassat fält i ett anpassat formulär
+# Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget
 
 När du arbetar med ett anpassat formulär kan du skapa ett nytt anpassat fält och lägga till det i ett anpassat formulär.
 

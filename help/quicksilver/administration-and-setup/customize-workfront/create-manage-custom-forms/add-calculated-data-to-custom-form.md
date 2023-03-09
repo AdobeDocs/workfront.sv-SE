@@ -1,5 +1,5 @@
 ---
-title: Lägga till beräknade data i ett anpassat formulär
+title: Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e24a0408049e7eb2e7cb97833e7f41ea66e8131b
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2573'
 ht-degree: 0%
 
 ---
 
-# Lägga till beräknade data i ett anpassat formulär
+# Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg
 
 I ett anpassat formulär kan du lägga till ett beräknat anpassat fält som använder befintliga data för att generera nya data när det anpassade formuläret kopplas till ett objekt.
 
@@ -145,9 +145,9 @@ Du kan använda både inbyggda Workfront-fält och anpassade fält som du redan 
    >* Hitta beräkningsfel, markerade i rosa allt eftersom. Du kan hovra över ett markerat fel om du vill visa en kort beskrivning av orsaken.
       >  ![](assets/error-help.png)
    >* Förhandsgranska resultatet för ett befintligt Workfront-objekt i området under beräkningen.
+      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
 
-   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-   >  ![](assets/preview-calc.jpg)
+      >  ![](assets/preview-calc.jpg)
    >* Referensuttryck i en lång beräkning med radnumren som visas till vänster.
 
 

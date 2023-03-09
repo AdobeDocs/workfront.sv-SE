@@ -2,12 +2,13 @@
 title: Visa och redigera anpassade formulär och widgetar som lagts till i anpassade formulär
 description: När du visar en lista över organisationens anpassade formulär och anpassade fält och widgetar som har lagts till i dem kan du använda alternativen i verktygsfältet för att redigera deras egenskaper, begränsa vilka de delas med, kopiera dem och ta bort dem. Du kan även visa annan information i kolumnerna som visas, till exempel vilka objekttyper som varje anpassat formulär är associerat med.
 author: Caroline
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
 
 ---
+
 
 # Visa och redigera anpassade formulär och widgetar som lagts till i anpassade formulär
 

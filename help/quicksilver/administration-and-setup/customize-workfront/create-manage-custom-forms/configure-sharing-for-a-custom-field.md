@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Konfigurera delning för anpassade fält och widgetar
+title: Konfigurera delning för anpassade fält och widgetar med den äldre formulärbyggaren
 description: När du lägger till ett nytt anpassat fält eller en ny widget i ett anpassat formulär kan alla i systemet som har tillgång till anpassade formulär redigera egenskaperna för det objektet, till exempel dess etikett och namn. Du kan ändra detta genom att styra vem det kan delas med.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
 
-# Konfigurera delning för anpassade fält och widgetar
+# Konfigurera delning för anpassade fält och widgetar med den äldre formulärbyggaren
 
 När du lägger till ett nytt anpassat fält eller en ny widget i ett anpassat formulär kan alla i systemet som har tillgång till anpassade formulär redigera egenskaperna för det objektet, till exempel dess etikett och namn. Du kan ändra detta genom att styra vem det kan delas med.
 
-Mer information om anpassade fält och widgetar i anpassade formulär finns i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) och [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Mer information om anpassade fält och widgetar i anpassade formulär finns i [Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) och [Lägga till eller redigera en resurswidget i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Åtkomstkrav
 

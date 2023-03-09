@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -52,15 +52,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 1. Klicka **Anpassad Forms.**
 1. Klicka på **Fält** -fliken.
-
-   <!--
-   Or
-   If you are editing the properties for an image or video widget, click the <b>Widget Library</b> tab.</p>
-   -->
-
 1. Markera det anpassade fältet, avsnittsbrytningen eller widgeten och klicka sedan på **Redigera**.
 1. I rutan som visas ändrar du något av alternativen som är tillgängliga för objektet som du redigerar.
 
-   Mer information om de här alternativen finns i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) eller [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   Mer information om dessa alternativ
+   * Om du använder det anpassade formulärverktyget läser du [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) eller [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * Om du använder formulärdesignern kan du läsa [Utforma ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. När du är klar klickar du på **Spara + Stäng**.

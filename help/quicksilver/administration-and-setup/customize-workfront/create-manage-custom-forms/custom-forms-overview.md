@@ -8,20 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 5b6583172b46e980a11fa9dc00895b9add5701ed
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
 # Översikt över anpassade formulär
-
-**Video**:
-
-Se den här videoöversikten över anpassade formulär.
-
-![](assets/video-icon-verysmall.png) [Skräddarsy Forms i nya Workfront](https://one.workfront.com/s/learningpath2/custom-forms-in-the-new-workfront-experience-final-MCC2AF4MH6NRHKHJJBXO6T65DHUU)
 
 Du kan skapa ett anpassat formulär som användare kan bifoga till ett Workfront-objekt. Användare som arbetar med objektet kan fylla i det anpassade formuläret för att ge information om objektet.
 
@@ -45,11 +39,12 @@ Du kan lägga till följande typer av anpassade fält i ett anpassat formulär i
 * Alternativknappar
 * Beskrivande text
 
-Mer information finns i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+## Skapa ett eget formulär
 
-Du kan också lägga till widgetar för visuella resurser i ett anpassat formulär. Detta är användbart när du behöver inkludera innehåll som varumärkesbilder eller visuella instruktioner. Mer information finns i [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Det finns två alternativ för att skapa ett anpassat formulär i [!DNL Workfront]. Du kan använda det äldre anpassade formulärverktyget eller den nya formulärdesignern:
 
-Instruktioner om hur du skapar ett anpassat formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* [Äldre anpassad formulärbyggare](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+* [Formulärdesigner](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
 ## Objekt där användare kan bifoga ett anpassat formulär
 
@@ -68,4 +63,4 @@ Användare kan bifoga anpassade formulär till följande objekttyper:
 
 Instruktioner finns i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Användare som skapar ett anpassat formulär kan konfigurera det så att det fungerar med mer än en objekttyp. Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Användare som skapar ett anpassat formulär kan konfigurera det så att det fungerar med mer än en objekttyp.

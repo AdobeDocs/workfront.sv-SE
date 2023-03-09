@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Förhandsgranska och fylla i ett anpassat formulär
+title: Förhandsgranska och fyll i ett anpassat formulär med det äldre verktyget för formulärframtagning
 description: När du har skapat eller redigerat ett anpassat formulär kan du förhandsgranska det för att se hur det kommer att se ut för användarna, sedan spara och stänga det.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Förhandsgranska och fylla i ett anpassat formulär
+# Förhandsgranska och fyll i ett anpassat formulär med det äldre verktyget för formulärframtagning
 
 När du har skapat eller redigerat ett anpassat formulär kan du förhandsgranska det för att se hur det kommer att se ut för användarna, sedan spara och stänga det.
 
@@ -46,7 +46,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Förhandsgranska och avsluta skapandet av ett anpassat formulär
 
-1. Börja skapa och konfigurera ett anpassat formulär, enligt beskrivningen i artiklarna [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)och andra.
+1. Börja skapa och konfigurera ett anpassat formulär, enligt beskrivningen i artiklarna [Skapa eller redigera ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Lägga till eller redigera en resurswidget i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)och andra.
 
 1. (Valfritt) Klicka på **Förhandsgranska** för att se hur formuläret kommer att se ut när det används och sedan klicka **Avsluta förhandsgranskning** för att återgå till att redigera formuläret.
 

@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: skapa,anpassad,formulär,kopiera,bas,annan
 navigation-topic: create-and-manage-custom-forms
-title: Kopiera ett anpassat formulär och skapa ett nytt
+title: Kopiera ett anpassat formulär och skapa ett nytt med det äldre verktyget
 description: Du kan skapa ett nytt anpassat formulär som baseras på ett befintligt.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# Kopiera ett anpassat formulär och skapa ett nytt
+# Kopiera ett anpassat formulär och skapa ett nytt med det äldre verktyget
 
 Du kan skapa ett nytt anpassat formulär som baseras på ett befintligt.
 
@@ -80,12 +80,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 1. Markera formuläret som du just kopierade och klicka sedan på **Redigera**.
 1. Gör eventuella ändringar i formuläret enligt följande artiklar:
 
-   * [Kopiera ett anpassat formulär och skapa ett nytt](#Add2)
-   * [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Placera anpassade fält och widgetar i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Återanvända ett befintligt beräknat anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Lägga till visningslogik och hoppa över logik i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [Förhandsgranska och fylla i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Kopiera ett anpassat formulär och skapa ett nytt med det äldre formulärverktyget](#Add2)
+   * [Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Placera anpassade fält och widgetar i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Lägga till eller redigera en resurswidget i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Återanvända ett befintligt beräknat anpassat fält i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Lägg till visningslogik och hoppa över logik i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Förhandsgranska och fyll i ett anpassat formulär med det äldre verktyget för formulärframtagning](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 1. (Valfritt) När du har klickat **Spara+stäng** bifoga formuläret till det objekt där du vill använda det, enligt beskrivningen i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

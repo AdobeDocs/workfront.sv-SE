@@ -1,5 +1,5 @@
 ---
-title: Lägga till visningslogik och hoppa över logik i ett anpassat formulär
+title: Lägg till visningslogik och hoppa över logik i ett anpassat formulär med det äldre formulärverktyget
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 59e3b958dd81f2f068bc06c3fe439de0084f9ce4
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
-# Lägga till visningslogik och hoppa över logik i ett anpassat formulär
+# Lägg till visningslogik och hoppa över logik i ett anpassat formulär med det äldre formulärverktyget
 
 Du kan bestämma vilka avsnitt i ett anpassat formulär som ska visas eller hoppas över baserat på vad användaren gör när han eller hon fyller i det.
 
@@ -48,7 +48,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 * Om du vill lägga till visningslogik i ett anpassat fält, en widget eller en avsnittsbrytning måste minst ett flervalsfält (alternativknappar, listrutor eller kryssrutor) placeras före det i formuläret.
 
-   Mer information om anpassade fält och widgetar i anpassade formulär finns i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) och [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   Mer information om anpassade fält och widgetar i anpassade formulär finns i [Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) och [Lägga till eller redigera en resurswidget i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Du kan inte lägga till hopplogik i en widget eller avsnittsbrytning. Du kan bara lägga till den i ett flervalsfält (alternativknappar, listrutor eller kryssrutor).
 

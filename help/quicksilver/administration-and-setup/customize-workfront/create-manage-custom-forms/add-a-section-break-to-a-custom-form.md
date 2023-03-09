@@ -2,19 +2,19 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Lägga till en avsnittsbrytning i ett anpassat formulär
+title: Lägga till en avsnittsbrytning i ett anpassat formulär med det äldre formulärverktyget
 description: Du kan gruppera anpassade fält och widgetar i ett anpassat formulär i avsnitt med rubriker. Detta är användbart för att ge en välordnad upplevelse till användare som fyller i formuläret. Om du dessutom behöver begränsa åtkomsten till vissa anpassade fält och widgetar för vissa användare, kan du placera dem i ett avsnitt och sedan ge åtkomst till avsnittet till endast dessa användare.
 feature: System Setup and Administration
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
-# Lägga till en avsnittsbrytning i ett anpassat formulär
+# Lägga till en avsnittsbrytning i ett anpassat formulär med det äldre formulärverktyget
 
 Du kan gruppera anpassade fält och widgetar i ett anpassat formulär i avsnitt med rubriker. Detta är användbart för att ge en välordnad upplevelse till användare som fyller i formuläret. Om du dessutom behöver begränsa åtkomsten till vissa anpassade fält och widgetar för vissa användare, kan du placera dem i ett avsnitt och sedan ge åtkomst till avsnittet till endast dessa användare.
 

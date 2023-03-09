@@ -2,26 +2,26 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Ta bort eller inaktivera ett anpassat formulär
-description: Du kan ta bort eller inaktivera ett anpassat formulär från systemet.
-author: Caroline
+title: Ta bort ett anpassat formulär
+description: Du kan ta bort ett anpassat formulär från systemet.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1871b4e4d884c2660e09c2cd49e03bda243a1926
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
-# Ta bort eller inaktivera ett anpassat formulär
+# Ta bort ett anpassat formulär
 
-Du kan ta bort eller inaktivera ett anpassat formulär från systemet.
+Du kan ta bort ett anpassat formulär från systemet.
 
 >[!CAUTION]
 >
->Om du tar bort ett anpassat formulär tas även alla anpassade data bort från objekten som är kopplade till formuläret. Det går inte att återställa borttagna data. Överväg att inaktivera ett anpassat formulär i stället. När du inaktiverar ett anpassat formulär som du inte längre använder behåller du alla tillhörande historiska data.
+>Om du tar bort ett anpassat formulär tas även alla anpassade data bort från objekten som är kopplade till formuläret. Det går inte att återställa borttagna data. Överväg att inaktivera ett anpassat formulär i stället. När du inaktiverar ett anpassat formulär som du inte längre använder behåller du alla tillhörande historiska data. Mer information finns i [Återaktivera eller inaktivera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## Åtkomstkrav
 
@@ -55,20 +55,3 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 1. Klicka **Anpassad Forms.**
 1. Markera det anpassade formuläret och klicka sedan på **Ta bort**.
 1. Om du är säker på att du permanent vill ta bort det anpassade formuläret och alla tillhörande data på objekt där det bifogades, klickar du på **Ja, ta bort den**.
-
-## Inaktivera ett anpassat formulär
-
-Du kan inaktivera anpassade formulär som du inte längre använder utan att förlora tillhörande historiska data. Användare kan inte lägga till ett inaktivt anpassat formulär i objekt, men de kan fortfarande visa och lägga till data i fälten på objekt där det redan var bifogat.
-
-Fält i ett inaktivt anpassat formulär kan även infogas i en vy. Om en användare lägger till ett fält från ett inaktivt anpassat formulär under en infogad redigering, bifogas formuläret automatiskt till objektet, även om det anpassade formuläret är inaktiverat.
-
-Om du återaktiverar ett anpassat formulär behålls inställningarna som det hade tidigare och användarna kan interagera med det som om det aldrig hade inaktiverats.
-
-Så här inaktiverar du ett anpassat formulär:
-
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
-
-1. Klicka på namnet på det anpassade formulär som du vill inaktivera.
-1. Klicka på **Formulärinställningar** -fliken.
-1. Inaktivera **Är aktiv** alternativ.
-1. Klicka **Spara + Stäng**.

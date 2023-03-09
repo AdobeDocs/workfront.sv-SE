@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Återanvända ett anpassat fält eller en resurswidget i ett anpassat formulär
+title: Återanvända ett anpassat fält eller en resurswidget i ett anpassat formulär med det äldre formulärverktyget
 description: När du skapar eller redigerar ett anpassat formulär kan du lägga till ett anpassat fält eller en anpassad widget som redan har lagts till i ett annat anpassat formulär.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 63e332ff99d5c9d23f39d7e771c5eb924f1ffca3
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# Återanvända ett anpassat fält eller en resurswidget i ett anpassat formulär
+# Återanvända ett anpassat fält eller en resurswidget i ett anpassat formulär med det äldre formulärverktyget
 
 När du skapar eller redigerar ett anpassat formulär kan du lägga till ett anpassat fält eller en resurswidget som redan har lagts till i ett annat anpassat formulär.
 
@@ -50,7 +50,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Återanvända ett anpassat fält eller en anpassad widget som redan används i ett annat anpassat formulär
 
-1. Börja skapa eller redigera ett anpassat formulär, enligt beskrivningen i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Börja skapa eller redigera ett anpassat formulär, enligt beskrivningen i [Skapa eller redigera ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Med **Lägg till ett fält** markerat, klicka **Fältbibliotek**.
 
 1. Dra fältet eller widgeten hit du vill ha den i det anpassade formuläret.
@@ -65,10 +65,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 1. Om du vill fortsätta att skapa ditt anpassade formulär på andra sätt kan du fortsätta med någon av följande artiklar:
 
-   * [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
-   * [Lägga till en avsnittsbrytning i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Placera anpassade fält och widgetar i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Lägga till visningslogik och hoppa över logik i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [Förhandsgranska och fylla i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [Lägga till en avsnittsbrytning i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [Lägga till eller redigera en resurswidget i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Placera anpassade fält och widgetar i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Lägg till visningslogik och hoppa över logik i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Förhandsgranska och fyll i ett anpassat formulär med det äldre verktyget för formulärframtagning](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
