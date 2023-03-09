@@ -4,9 +4,9 @@ description: 23.2 Administratörsförbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Med den nya formulärdesignern har vi lagt till möjligheten att
 
 * **Ändra storlek för beskrivande text**: Du kan nu tilldela små, medelstora eller stora storlekar till beskrivande textfält. Du kan också använda dem på samma rad med andra fält. <span style="color: #ff0000;"> Ändringen av storleken för den beskrivande texten har fördröjts tillfälligt, men kommer snart.</span></li>
 
-Mer information finns i [Översikt över formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+Mer information finns i [Översikt över formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Byta namn på punkter i layoutmall
 
@@ -37,4 +39,4 @@ Nu kan du ändra namn på punkter i en layoutmall så att de blir mer användbar
 
 Mer information finns i [Anpassa fästa sidor med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Mer information om hur användare kan byta namn på sina personliga fästa sidor finns i [Fäst sidor för att anpassa arbetsytan](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3414364/)
+[Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3414364/){target=_blank}

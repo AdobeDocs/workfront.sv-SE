@@ -4,9 +4,9 @@ description: 23.2 Projektförbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Förutom ett uppdaterat utseende och en uppdaterad känsla för gränssnittet fi
 * Vi har tagit bort kommentarsfunktionen från rutan Redigera projekt.
 
 Mer information finns i [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+[Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Förbättrad filterupplevelse som är allmänt tillgänglig i Adobe Workfront
 
