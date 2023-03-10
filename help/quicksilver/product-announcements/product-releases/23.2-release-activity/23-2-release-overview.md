@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa anpassade formulär med den nya formulärdesignern</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa anpassade formulär med den nya betaversionen av formulärdesignern</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span>
                         <p>Den nya formulärdesignern har en ny arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt.</p>
                         <p>Med den nya formulärdesignern har vi lagt till möjligheten att 
                         <ul>

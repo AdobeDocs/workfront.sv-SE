@@ -4,9 +4,9 @@ description: 23.2 Administratörsförbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Den här sidan beskriver alla administratörsförbättringar som gjorts i versio
 
 En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Skapa anpassade formulär med den nya formulärdesignern
+## Skapa anpassade formulär med den nya betaversionen av formulärdesignern
 
-Den nya formulärdesignern har en ny arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt.
+Den nya formulärdesignern finns nu i en betaversion och har en ny arbetsyta som gör att du kan visa fält, arbetsyta och fältinställningar samtidigt.
 
 Med den nya formulärdesignern har vi lagt till möjligheten att
 
