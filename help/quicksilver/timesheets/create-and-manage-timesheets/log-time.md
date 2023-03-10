@@ -6,9 +6,9 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2998'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ Mer information om vilka timmar du kan logga in i Workfront finns i [Hantera tim
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Legacy license: Review or higher</p> </td> 
+   <p>Review or higher</p> 
+   <p><b>NOTE</b></p>
+
+   <ul><li>Reviewers can log only General Hours in a timesheet</li>
+   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -60,7 +64,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td> <p>Granska eller högre</p> 
+   <p><b>ANMÄRKNING</b></p>
+
+<ul><li>Granskare kan bara logga allmänna timmar i en tidrapport</li>
+   <li>Du måste ha en arbetslicens eller högre för att kunna logga timmar i ett projekt, en uppgift eller en utgåva</li></ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 

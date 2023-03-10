@@ -6,9 +6,9 @@ description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5eddd7765dfafed24b67b58aaf6f6f0e8a4a96ee
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '7664'
+source-wordcount: '7666'
 ht-degree: 0%
 
 ---
@@ -786,7 +786,7 @@ Så här redigerar du flera projekt samtidigt:
 
 <div class="preview">
 
-### Redigera projekt i förhandsgranskningsmiljön
+### Redigera projekt i buggar i förhandsvisningsmiljön
 
 Tänk på följande när du redigerar flera projekt samtidigt i förhandsvisningsmiljön:
 

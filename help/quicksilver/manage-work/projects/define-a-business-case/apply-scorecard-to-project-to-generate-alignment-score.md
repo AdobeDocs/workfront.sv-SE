@@ -5,9 +5,9 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,18 @@ Så här använder du ett styrkort för ett projekt:
 1. Klicka **Spara** för att spara styrkortet och poängsätta projektet.
 
    Styrkortet är nu kopplat till projektet och projektet poängsätts.
+
+1. (Villkorligt) När värden för styrkortsfrågor ändras måste du beräkna om styrkortet så att det återspeglar de nya värdena för projektpoängen. Så här omberäknar du styrkortet:
+
+   1. Gå till en lista med projekt och välj alla projekt i listan.
+   1. Klicka på **Redigera** ikonen längst upp i listan.
+   1. Klicka **Inställningar** i den vänstra panelen och sedan kontrollera **Beräkna om styrkort** i slutet av inställningsområdet.
+   1. Klicka på Spara. Detta beräknar om poängvärdet baserat på de styrkort som har bifogats för alla markerade projekt.
+
+      >[!NOTE]
+      >
+      >   <span class="preview">Alternativet att beräkna om styrkort har tagits bort från förhandsvisningsmiljön när flera projekt redigeras samtidigt. </span>
+
 
 ## Generera en justeringspoäng
 

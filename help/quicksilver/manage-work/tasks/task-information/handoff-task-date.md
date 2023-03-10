@@ -7,9 +7,9 @@ description: Leveransdatumet är det datum då en uppgift blir tillgänglig för
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 39efbf1d678cf85e9b6b61744fb046664992370c
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Workfront använder följande regler för att beräkna leveransdatum för en upp
 >
 >Mer information om hur du beräknar om projektets tidslinje finns i [Beräkna om projekttidslinjer](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-* **När aktiviteten har en tvingad begränsning för planerade datum**: Leveransdatumet är alltid detsamma som datumet som anges av villkoret, oavsett andra villkor.\
+* **När aktiviteten har en tvingad begränsning för planerade datum**: Leveransdatumet varierar beroende på begränsningstypen och om aktiviteten har ett faktiskt startdatum eller inte.\
    Följande är obligatoriska begränsningar för uppgifter:
 
    * Måste börja på
@@ -73,6 +73,13 @@ Workfront använder följande regler för att beräkna leveransdatum för en upp
    * Starta tidigast
    * Starta inte senare än
    * Fast den
+
+   Följande scenarier finns:
+
+   * När aktiviteten har begränsningen Måste börja den eller börja inte tidigare än är leveransdatumet begränsningsdatumet, såvida det inte finns ett faktiskt startdatum för aktiviteten. Om det finns ett faktiskt startdatum för aktiviteten är leveransdatumet det faktiska slutförandedatumet för föregående aktivitet.
+   * När aktiviteten har begränsningen Måste avslutas den eller starta inte senare än är datumet för leverans alltid föregående, oavsett om det finns ett faktiskt startdatum för aktiviteten eller inte.
+   * När aktiviteten har en begränsning med fasta datum är leveransdatumet det planerade startdatumet för aktiviteten, oavsett om den har en föregångare eller inte och oavsett om den har slutförts eller inte.
+
 
 ## Hitta leveransdatumet
 
