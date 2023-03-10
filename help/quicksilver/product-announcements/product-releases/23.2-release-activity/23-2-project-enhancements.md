@@ -4,9 +4,9 @@ description: 23.2 Projektförbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Förutom ett uppdaterat utseende och en uppdaterad känsla för gränssnittet fi
 * Anger vilka anpassade formulär som redan är kopplade till de valda projekten och antalet projekt som redan har ett visst formulär.
 
 * Vi har tagit bort kommentarsfunktionen från rutan Redigera projekt.
+
+* Vi har tagit bort alternativet Beräkna om styrkort vid gruppredigering av projekt.
 
 Mer information finns i [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
