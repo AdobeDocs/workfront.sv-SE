@@ -6,9 +6,9 @@ description: API för händelseprenumeration
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ När du frågar efter Workfront HTTP använder du GET-metoden. Det finns två s�
 
 ### Fråga alla händelseprenumerationer
 
-Du kan fråga alla händelseprenumerationer för en kund enligt värdet apiKey. Du kan också använda följande alternativ för att hantera svaret:
+Du kan fråga alla händelseprenumerationer för en kund eller använda följande för att hantera svaret. Du kan också använda följande alternativ för att hantera svaret:
 
 * **page**: frågeparameteralternativ som anger hur många sidor som ska returneras. Standardvärdet är 1.
 * **limit**: frågeparameteralternativ för att ange antalet resultat som ska returneras per sida. Standardvärdet är 100 med högst 1 000.
