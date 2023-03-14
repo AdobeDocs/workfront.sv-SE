@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ Detta öppnar mållistan.
 1. Leta reda på målet som du vill lägga till kommentarer i och klicka sedan på namnet för att öppna målsidan.
 1. Klicka  **Uppdateringar** i den vänstra panelen.
 1. Klicka på **Kommentarer** i det övre vänstra hörnet av uppdateringsområdet.
-1. Börja skriva en kommentar i **Skriv en kommentar** box.
+1. Börja skriva en kommentar i **Ny kommentar** box.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ Detta öppnar mållistan.
    >
    >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Kommentarerna är bara synliga för användaren som skriver dem.
 
-1. (Valfritt) I dialogrutan **Meddela** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
+1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
 1. Klicka **Skicka**.
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 5-7 ovan. <!--insure this stays accurate-->
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png) för att gilla en kommentar som någon annan har lagt till. Ikonen uppdateras med antalet gilla-markeringar.
