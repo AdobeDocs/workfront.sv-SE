@@ -6,9 +6,9 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2990'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,9 @@ Mer information om vilka timmar du kan logga in i Workfront finns i [Hantera tim
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Review or higher</p> 
-   <p><b>NOTE</b></p>
-
-   <ul><li>Reviewers can log only General Hours in a timesheet</li>
-   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
+   <p>Legacy license: 
+   <ul><li>Review or higher to log General Hours in a timesheet</li>
+   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -64,11 +62,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> 
-   <p><b>ANMÄRKNING</b></p>
-
-<ul><li>Granskare kan bara logga allmänna timmar i en tidrapport</li>
-   <li>Du måste ha en arbetslicens eller högre för att kunna logga timmar i ett projekt, en uppgift eller en utgåva</li></ul>
+   <td> <ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li>
+   <li> Arbeta eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter för det arbetsobjekt du loggar tid för, inklusive behörigheter för loggtimmar</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörigheter för det arbetsobjekt du loggar tid för, inklusive behörigheter för loggtimmar.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
