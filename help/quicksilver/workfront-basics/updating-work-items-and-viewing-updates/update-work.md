@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 0%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for a limited number of objects.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
 
-Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (projekt, uppgift eller problem) för att informera om objektets förlopp. Användare som är tilldelade eller prenumererade till objektet kan visa din uppdatering. Du kan också tagga användare så att de uppmärksammas på uppdateringen.
+Du kan lägga till kommentarer till flera objekt i Workfront. Mer information finns i [Översikt över fliken Uppdateringar](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Du kan lägga till uppdateringar till ett objekt från följande områden i Workfront:
+Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (projekt, uppgift eller problem) för att kommunicera om objektets förlopp, förutom att kommentera det. Användare som är tilldelade eller prenumererade till objektet kan visa din uppdatering. Du kan också tagga användare så att de uppmärksammas på uppdateringen.
+
+Informationen på den här sidan avser att uppdatera arbete för projekt, uppgifter eller ärenden. Mer information om hur du lägger till kommentarer och uppdaterar mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+Du kan uppdatera projekt, uppgifter och ärenden från följande områden i Workfront:
 
 * Från ett Workfront-objekt, i uppdateringsavsnittet
 * Från hemområdet (för uppgifter och ärenden)

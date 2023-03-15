@@ -7,16 +7,22 @@ description: På fliken Uppdateringar visas upp till 200 av de senaste uppdateri
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Översikt över fliken Uppdateringar
 
-På fliken Uppdateringar visas upp till 200 av de senaste uppdateringarna som har gjorts under de senaste 90 dagarna. Du kan svara på uppdateringar för följande objekt:
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+På fliken Uppdateringar visas upp till 200 av de senaste uppdateringarna som har gjorts under de senaste 90 dagarna.
+
+Du kan kommentera och svara på uppdateringar för följande objekt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,21 +31,22 @@ På fliken Uppdateringar visas upp till 200 av de senaste uppdateringarna som ha
   <tr> 
    <td> 
     <ul> 
+     <li>Dokument</li> 
+     <li>Mål</li> 
+     <li>Problem</li> 
+     <li>Iterationer</li> 
      <li>Projekt</li> 
-     <li>Portfolio</li> 
      <li>Program</li> 
-     <li>Mallar</li> 
-     <li>Malluppgifter</li> 
-     <li>Uppgifter</li> 
+     <li>Portfolio</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Problem</li> 
-     <li>Iterationer</li> 
      <li>Artiklar</li> 
-     <li>Användare</li> 
-     <li>Dokument</li> 
+     <li>Uppgifter</li> 
+     <li>Mallar</li> 
+     <li>Malluppgifter</li> 
      <li>Tidrapporter</li> 
+     <li>Användare</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,6 +107,11 @@ När du till exempel lägger till en uppdatering för en uppgift visas uppdateri
   <tr> 
    <td>Upprepning</td> 
    <td>Team</td> 
+  </tr>
+
+<tr> 
+   <td>Mål</td> 
+   <td>Resultat, aktivitet</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,8 +119,11 @@ När du till exempel lägger till en uppdatering för en uppgift visas uppdateri
 >[!NOTE]
 >
 >Svar som lagts till i systemuppdateringar sammanfogas inte med det överordnade objektet. Endast direkta svar på ett underordnat objekt och svar som lagts till i befintliga uppdateringar läggs ihop med överordnade objekt.
+>
+>Mer information om objekthierarkin i Adobe Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-Information om objekthierarkin i Adobe Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## Begränsningar för fliken Uppdateringar
 
