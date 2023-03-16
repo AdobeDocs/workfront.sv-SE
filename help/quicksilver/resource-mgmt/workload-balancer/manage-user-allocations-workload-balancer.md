@@ -6,9 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2785'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder belastningsutjämnaren för ett team eller i resursområdet </p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett projekt </p>
+   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
+   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
  </td> 
   </tr> 
   <tr> 

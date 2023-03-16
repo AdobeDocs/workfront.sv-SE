@@ -6,9 +6,9 @@ description: Du kan öppna panelen Sammanfattning i Utjämning av arbetsbelastni
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder belastningsutjämnaren för ett team eller i resursområdet </p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett projekt </p>
+   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
+   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p> 
  </p> </td> 
   </tr> 
   <tr> 

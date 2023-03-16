@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2072'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,15 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
        <ul> 
         <li>Har statusen [!UICONTROL Current]</li> 
         <li>Har haft en uppdatering de senaste tre månaderna</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>När ett projekts omfång ändras</strong>: Välj det här om du vill beräkna om projekttidslinjer omedelbart när en ändring av projektomfånget sker. Mer information om vad som utgör en ändring av projektets omfång finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Beräkna om projekttidslinjer</a>.</p> </li> 
+        <li>Har haft en uppdateringstyp av något av följande:</li>
+        <ul>
+        <li>Automatiskt och vid ändring</li>
+        <li>Ändra endast</li>
+        <li>Endast automatiskt</li> 
+      </ul>       
+    <b>TIPS</b>
+    <p>Projekt som har uppdateringstypen Endast manuell påverkas inte av den här inställningen.</p>
+    <li> <p><strong>När ett projekts omfång ändras</strong>: Välj det här om du vill beräkna om projekttidslinjer omedelbart när en ändring av projektomfånget sker. Mer information om vad som utgör en ändring av projektets omfång finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Beräkna om projekttidslinjer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

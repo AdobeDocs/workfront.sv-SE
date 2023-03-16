@@ -7,9 +7,9 @@ description: Du kan använda belastningsutjämnaren för att schemalägga resurs
 author: Alina
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 87f02f3908c86575ca2dfacd7d88146b9967a804
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder belastningsutjämnaren för ett team eller i resursområdet </p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett projekt </p>
+   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
+   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
  </td> 
   </tr> 
   <tr> 

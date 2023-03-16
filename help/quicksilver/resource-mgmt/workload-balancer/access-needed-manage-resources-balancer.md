@@ -6,9 +6,9 @@ description: Om du inte har rätt behörighet eller behörighet kanske du inte k
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Följande tabell visar kopplingen mellan den Workfront-plan ditt företag har oc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront Plan</td> 
+   <td role="rowheader"><p>Workfront Plan</p></td> 
    <td> <p>Områden där du kan komma åt arbetsbelastningsutjämnaren</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ Du måste ha följande åtkomst för att kunna visa arbetsbelastningsutjämnaren
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Planera att visa arbetsbelastningsutjämnaren i resursområdet</p>
+   <p>Arbeta för att visa belastningsutjämnaren för ett team eller projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -83,8 +84,8 @@ Du måste ha följande åtkomst för att kunna hantera belastningsutjämnaren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> 
-   <p>Arbeta, för att hantera resurser i ett projekts belastningsutjämnare</p>
+   <td> <p>Planera att hantera tilldelningar i Utjämning av arbetsbelastning i resursområdet</p>
+   <p>Arbeta för att hantera tilldelningar i belastningsutjämnaren för ett team eller projekt</p>
    </td> 
   </tr> 
   <tr> 

@@ -6,9 +6,9 @@ description: För att effektivt hitta arbetsobjekt och fokusera på de användar
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 10b905c8a66f2507cbfac7c15a01f38d40ab3e00
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2456'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder belastningsutjämnaren för ett team eller i resursområdet </p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett projekt </p>
+   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
+   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
  </td> 
   </tr> 
   <tr> 

@@ -6,9 +6,9 @@ description: Läs mer om de områden i Adobe Workfront där du kan hitta förfr�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,11 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
 
    Om en utgåva konverterades till en uppgift eller ett projekt och utgåvan togs bort i konverteringsprocessen är panelen Sammanfattning tom. Mer information om hur du konverterar problem finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Från **Filterikon** ![](assets/filter-nwepng.png) Välj något av följande filter längst upp till höger i listan:
+1. Från **Filterikon** ![](assets/filter-nwepng.png) i det övre högra hörnet av listan väljer du något av de filter som listas i tabellen nedan.
+
+   >[!TIP]
+   >
+   >Du kan inte ändra filter i området Förfrågningar. Dessutom finns det inga alternativ för att ändra eller ändra vyn för området Förfrågningar.
 
    <table style="table-layout:auto"> 
     <col> 

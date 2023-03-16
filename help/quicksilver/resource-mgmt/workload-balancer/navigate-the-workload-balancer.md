@@ -6,9 +6,9 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '4050'
+source-wordcount: '4048'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder belastningsutjämnaren för ett team eller i resursområdet </p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett projekt </p>
+   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
+   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
  </td> 
   </tr> 
   <tr> 

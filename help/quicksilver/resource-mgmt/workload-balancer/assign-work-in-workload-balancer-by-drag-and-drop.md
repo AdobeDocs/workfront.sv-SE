@@ -6,9 +6,9 @@ description: Du kan tilldela arbetsobjekt med Adobe Workfront Workload Balancer 
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder belastningsutjämnaren för ett team eller i resursområdet </p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett projekt </p>
+   <td> <p>Planera att tilldela arbete i arbetsbelastningsutjämnaren i resursområdet</p>
+   <p>Arbete för att tilldela arbete i belastningsutjämnaren för ett team eller projekt</p>
  </td> 
   </tr> 
   <tr> 

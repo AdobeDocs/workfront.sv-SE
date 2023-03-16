@@ -6,7 +6,7 @@ description: Du kan tilldela uppgifter till användare, roller eller team för a
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 0%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Om flera roller har tilldelats och minst en av dem matchar en av användarens andra roller, tilldelas uppgiften eller frågan till användaren (rollen väljs slumpmässigt om det finns flera matchningar), tillsammans med eventuella ytterligare roller som har tilldelats</li>
       <li>Om minst en jobbroll har tilldelats och det inte finns några matchningar mot användarens jobbroller, tilldelas uppgiften eller utgåvan till både rollen eller rollerna och till användaren.</li>
      </ul>
-   <p>Mer information om en användares primära roll och andra roller finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Redigera en användares profil</a>.</p>
-   </td>
-  </tr>
+   <p>Mer information om en användares primära roll och andra roller finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Redigera en användares profil</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 
