@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '12759'
+source-wordcount: '12763'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
          * [23.2 Agile-förbättringar](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Förbättrad projektledning](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
          * [23.2 Förbättrad resurshantering](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 Förbättringar av rapporter och kontrollpaneler](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
          * [23.2 Mobilförbättringar](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
          * [23.2 Andra förbättringar](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Utforma och känna av uppdateringar under 23.2-releasetidningen](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
