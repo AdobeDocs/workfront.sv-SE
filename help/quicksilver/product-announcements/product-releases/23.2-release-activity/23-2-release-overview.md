@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -397,13 +397,13 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Kontrollpaneler på arbetsytan</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Kontrollpaneler på arbetsytan</a><span style="color: #ff0000;"> Kommer snart!</span></p>
                         <p>Kontrollpaneler på arbetsytan har lagts till som en pågående funktion för kontrollpaneler som kan aktiveras i layoutmallar. På arbetsytans kontrollpaneler kan rapportarbetsytevisualiseringar kombineras med befintliga rapporter utöver de nya layoutalternativen. För närvarande stöds bara listrapporter, men fler alternativ läggs till under utvecklingen.</p>
                     </td>
-                    <td><p><b>Tillgängligt på följande datum: Ej tillämpligt</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion:<br /></p>
+                                <p>Förhandsgranskningsversion:Ej tillämpligt<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsrelease: Med version 23.2</span></p>
