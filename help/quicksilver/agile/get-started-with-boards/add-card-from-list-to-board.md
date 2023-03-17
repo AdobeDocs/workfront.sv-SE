@@ -5,18 +5,18 @@ title: Lägga till befintliga uppgifter eller problem i en Adobe Workfront-styre
 description: Du kan lägga till en uppgift eller ett problem till en styrelse i Adobe Workfront från en list- eller rapportvy.
 author: Lisa
 feature: Agile
-source-git-commit: e7cd8447ad257c9808de0b76762061343d004a4a
+source-git-commit: fd0b220801d26e10ad65ac7d6b8fa17bbeec629a
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Lägg till befintliga uppgifter eller ärenden i en [!DNL Adobe Workfront] board
+# Lägg till befintliga uppgifter eller ärenden i en [!DNL Adobe Workfront] bräda eller arbetsflöde
 
 {{highlighted-preview-article-level}}
 
-Du kan lägga till alla uppgifter och ärenden till en styrelse i [!DNL Adobe Workfront] från en lista eller rapportvy.
+Du kan lägga till uppgifter eller problem till en styrelse eller ett arbetsflöde i [!DNL Adobe Workfront] från en lista eller rapportvy.
 
 ## Åtkomstkrav
 
@@ -52,11 +52,25 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka [!UICONTROL **Mer**] > [!UICONTROL **Lägg till i anslagstavlor**].
 1. I [!UICONTROL Add To] väljer du den anslagstavla som objekten ska läggas till i.
 
-   Endast fristående anslagstavlor är tillgängliga, inte anslagstavlor som ingår i samlingar.
+   Endast fristående ritytor är tillgängliga med det här alternativet, inte ritytor som ingår i arbetsflöden.
 
 1. Klicka [!UICONTROL **Lägg till**].
 
    Uppgiften eller utgåvan läggs till i styrelsen. Om styrelsens kolumnprofiler används för status läggs kortet till i kolumnen för dess status. I annat fall visas den i den första kolumnen till vänster, med undantag för intagskolumnen.
+
+   Mer information om kolumnregler finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+## Lägga till befintliga uppgifter eller problem i en arbetsström
+
+1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+1. Välj något av följande: **[!UICONTROL Projects]**, **[!UICONTROL Reporting]**, eller **[!UICONTROL Dashboards]**.
+1. Gå till det projekt, den rapport eller den kontrollpanel som innehåller uppgiften eller problemet som du vill lägga till i arbetsflödet.
+1. Markera en eller flera uppgifter eller problem.
+1. Klicka [!UICONTROL **Mer**] > [!UICONTROL **Lägg till i arbetsflöde**].
+1. I [!UICONTROL Add To] väljer du arbetsflödet som objekten ska läggas till i.
+1. Klicka [!UICONTROL **Lägg till**].
+
+   Aktiviteten eller problemet läggs till i arbetsflödets kortlista som ett oplanerat kort.
 
 ## Visa de anslagstavlor som är kopplade till en aktivitet eller ett problem
 
