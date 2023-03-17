@@ -5,15 +5,17 @@ title: Anpassa vilka fält som visas på ett kort
 description: Du kan anpassa vilka fält som ska visas på ett kort genom att inaktivera ett fält så att det inte visas i det fullständiga kortet eller den komprimerade vyn, eller genom att dölja ett fält i den komprimerade kortvyn.
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
 # Anpassa vilka fält som visas på ett kort
+
+{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -25,6 +27,8 @@ Som standard visas alla tillgängliga fält på ett kort, både i den fullständ
 * Dölja ett fält i den komprimerade kortvyn
 
 Om ett fält innehåller ett värde och du inaktiverar fältet behålls värdet om du aktiverar fältet igen senare.
+
+Du kan även visa anpassade fält som tidigare skapats. Du kan inte designa och skapa nya anpassade fält på en anslagstavla.
 
 >[!NOTE]
 >
@@ -53,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta [!DNL Workfront] administratör.
 
-## Konfigurera kort
+## Konfigurera kort {#configure-cards}
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
 1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
@@ -66,3 +70,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på ikonen Dölj ![Dölj ikon](assets/eye-hide-icon.png) bredvid ett fält för att dölja det i den komprimerade vyn.
 1. Om du vill visa alla fält i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
 1. Klicka [!UICONTROL **Dölj konfigurera**] för att stänga panelen Konfigurera.
+
+<div class="preview">
+
+## Lägg till anpassade fält till kort
+
+>[!NOTE]
+>
+>När du lägger till ett anpassat fält på dina kort är uppgifterna på kortet skrivskyddade. Anpassade fält är dessutom bara tillgängliga på anslutna kort.
+
+1. Gå till en anslagstavla och klicka [!UICONTROL **Konfigurera**] för att öppna konfigurationspanelen.
+1. Expandera [!UICONTROL **Kort**].
+1. Under [!UICONTROL Card Fields], klicka [!UICONTROL **Lägg till anpassat fält**].
+1. Välj [!UICONTROL **Uppgift**] eller [!UICONTROL **Problem**].
+
+   Kategorierna för tillgängliga fält för uppgifter eller ärenden visas. Expandera en kategori om du vill visa alla fält. Du kan också söka efter ett fält.
+
+   ![Sök efter anpassat fält](assets/boards-search-for-custom-field.png)
+
+1. Markera fältnamnet.
+
+   Det anpassade fältet läggs till i listan med tillgängliga fält och aktiveras som standard. Du kan inaktivera eller dölja det anpassade fältet enligt stegen i [Konfigurera kort](customize-fields-on-card.md#configure-cards) eller ta bort det från styrelsen.
+
+</div>

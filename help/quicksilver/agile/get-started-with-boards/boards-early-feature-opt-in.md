@@ -6,7 +6,7 @@ title: Anmäl dig till tidig funktion för [!DNL Adobe Workfront] Varumärkena
 description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Boards] tidig anmälan av funktioner.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 8837a3ffe8378cf126d0663ea70b7366a9e5b4c5
+source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -151,6 +151,10 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   <tr>
    <td>Logga timmar på anslutna kort</td>
    <td>Delvis släppt</td>
+  </tr>
+  <tr>
+   <td>Lägg till anpassade fält på anslutna kort</td>
+   <td>Delvis släppt (tillgängligt i förhandsgranskning)</td>
   </tr>
  </tbody> 
 </table>
