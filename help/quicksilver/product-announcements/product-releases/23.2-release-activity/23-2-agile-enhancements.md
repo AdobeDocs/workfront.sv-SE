@@ -4,9 +4,9 @@ description: 23.2 Agile-förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Observera att samlingar har bytt namn till arbetsflöden. Med arbetsflöden kan 
 
 Mer information finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Skapa en iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)och [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Två andra artiklar är inte tillgängliga i Main förrän jag publicerar min gren.
 
-## Lägga till uppgifter och problem i arbetsströmmar för anslagstavlor från listor och rapporter
+## Lägga till uppgifter och problem från listor och rapporter till en lista med arbetsflödeskort
 
 Nu kan du lägga till befintliga uppgifter eller problem i ett arbetsflöde i Workfront Boards direkt från en list- eller rapportvy. Alla objekt som du lägger till i arbetsflödet läggs till i kortlistan som oplanerade kort.
+
+Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## Lägg till anpassade fält på kort på en anslagstavla
+
+Nu kan du inkludera anpassade fält på Adobe Workfront Boards. Fältet måste redan ha skapats i Workfront. Du kan inte designa och skapa nya anpassade fält på en anslagstavla.
+
+Precis som med standardfälten kan du välja att visa det anpassade fältet i den fullständiga vyn av ett kort och den komprimerade vyn på kortet.
+
+Alla data från det anpassade fältet på kortet är skrivskyddade.
+
+Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## Lägga till uppgifter och problem från listor och rapporter till en Workfront-styrelse
+
+Nu kan du lägga till befintliga uppgifter eller problem på en Workfront-styrelse direkt från en list- eller rapportvy. Alla objekt som du lägger till på anslagstavlan blir anslutna kort.
+
+Fältet för anslagstavlor är nu även tillgängligt för att lägga till i listor och rapporter för uppgifter eller problem. I det här fältet visas alla anslagstavlor som en uppgift eller ett problem har lagts till i.
 
 Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Fälten för tidsloggning visas inte på anslutna kort som standard. Du måste a
 
 Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Lägga till uppgifter och problem i Workfront-styrelser från listor och rapporter
-
-Nu kan du lägga till befintliga uppgifter eller problem på en Workfront-styrelse direkt från en list- eller rapportvy. Alla objekt som du lägger till på anslagstavlan blir anslutna kort.
-
-Fältet för anslagstavlor är nu även tillgängligt för att lägga till i listor och rapporter för uppgifter eller problem. I det här fältet visas alla anslagstavlor som en uppgift eller ett problem har lagts till i.
-
-Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Anpassa visning av fält på ett kort
 

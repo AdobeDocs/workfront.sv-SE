@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem i arbetsströmmar för anslagstavlor från listor och rapporter</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från listor och rapporter till en lista med arbetsflödeskort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
                         <p>Nu kan du lägga till befintliga uppgifter eller problem i ett arbetsflöde i Workfront Boards direkt från en list- eller rapportvy. Alla objekt som du lägger till i arbetsflödet läggs till i kortlistan som oplanerade kort.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -170,7 +170,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem i Workfront-styrelser från listor och rapporter</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från listor och rapporter till en Workfront-styrelse</a></p>
                         <p>Nu kan du lägga till befintliga uppgifter eller problem på en Workfront-styrelse direkt från en list- eller rapportvy. Alla objekt som du lägger till på anslagstavlan blir anslutna kort.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
