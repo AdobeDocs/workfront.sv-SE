@@ -4,9 +4,9 @@ description: 23.2 Agile-förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -17,27 +17,24 @@ Den här sidan beskriver alla smidiga förbättringar som gjorts i version 23.2 
 
 En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## Iterationsfunktioner som finns i Adobe Workfront Boards
 
-## Iteration functionality available in Adobe Workfront Boards
+Flera nya funktioner som finns på Workfront Boards gör det möjligt att använda den flexibla Scrum-funktionen. Bland dessa funktioner finns:
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* Arbetsflöden för att gruppera anslagstavlor som hör till samma team och för samarbete i arbetsgrupper
+* En lista med kort, eller en eftersläpning i arbetet, med möjlighet att använda källor för att ansluta kort till Workfront uppgifter och problem
+* Processtavlor för iterationsplanering och iteration
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+Observera att samlingar har bytt namn till arbetsflöden. Med arbetsflöden kan ni visualisera data på olika sätt. Du kan visa objekt på kort i en lista, på en bräda eller på en iteration. Kort i en arbetsström kan också delas mellan flera ritytor. Du kan enkelt underlätta arbetsflöden med kort och kort i en arbetsström.
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+Mer information finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Skapa en iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)och [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Två andra artiklar är inte tillgängliga i Main förrän jag publicerar min gren.
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## Lägga till uppgifter och problem i arbetsströmmar för anslagstavlor från listor och rapporter
 
-## Add tasks and issues to Boards workstreams from lists and reports
+Nu kan du lägga till befintliga uppgifter eller problem i ett arbetsflöde i Workfront Boards direkt från en list- eller rapportvy. Alla objekt som du lägger till i arbetsflödet läggs till i kortlistan som oplanerade kort.
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## Logga timmar på anslutna kort på anslagstavlan
 
@@ -50,6 +47,14 @@ Nu kan du logga timmar på anslutna kort, på samma sätt som du gör för en up
 Fälten för tidsloggning visas inte på anslutna kort som standard. Du måste aktivera **Timmar** i området Konfigurera under Kort.
 
 Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Lägga till uppgifter och problem i Workfront-styrelser från listor och rapporter
+
+Nu kan du lägga till befintliga uppgifter eller problem på en Workfront-styrelse direkt från en list- eller rapportvy. Alla objekt som du lägger till på anslagstavlan blir anslutna kort.
+
+Fältet för anslagstavlor är nu även tillgängligt för att lägga till i listor och rapporter för uppgifter eller problem. I det här fältet visas alla anslagstavlor som en uppgift eller ett problem har lagts till i.
+
+Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Anpassa visning av fält på ett kort
 
