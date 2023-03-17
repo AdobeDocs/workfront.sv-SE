@@ -6,30 +6,32 @@ description: The [!UICONTROL boards] På kontrollpanelen visas en lista med pane
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
 # Använda panelkontrollpanelen
 
-På panelpanelen visas en lista med paneler och samlingar som du har tillgång till, inklusive paneler som du har skapat och paneler som du har lagts till i. Enskilda anslagstavlor som du har åtkomst till som inte ingår i en samling visas först.
+{{highlighted-preview}}
+
+Panelerna visar en lista med paneler och arbetsflöden du har tillgång till, inklusive paneler du har skapat och paneler som du har lagts till i. Enskilda paneler som du har åtkomst till som inte ingår i en arbetsström visas först.
 
 >[!NOTE]
 >
->Samlingar är bara tillgängliga via tidiga funktioner för [!DNL Workfront] [!UICONTROL Boards].
+>Det finns arbetsflöden i förhandsvisningsmiljön och i produktionen via tidiga funktioner för [!UICONTROL [!DNL Workfront] Boards]. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-På kontrollpanelen kan du göra följande för paneler och samlingar:
+På kontrollpanelen kan du göra följande för paneler och arbetsflöden:
 
-* Arkivera en anslagstavla (samlingar kan inte arkiveras)
-* Filtrera listan över anslagstavlor
+* Arkivera en styrelse <span class="preview">eller arbetsflöde</span>
+* Filtrera ritytorna <span class="preview">och arbetsflöden</span>
 * Sortera listan efter styrelsens namn eller ändringsdatum
-* Sök efter en anslagstavla eller samling
-* Ta bort en anslagstavla eller samling
+* Söka efter en styrelse eller ett arbetsflöde
+* Ta bort en styrelse eller ett arbetsflöde
 
-Mer information om hur du skapar en ny styrelse eller redigerar en befintlig styrelse finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md). Mer information om hur du skapar en ny samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Mer information om hur du skapar en ny styrelse eller redigerar en befintlig styrelse finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md). Mer information om hur du skapar ett nytt arbetsflöde finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Åtkomstkrav
 
@@ -52,14 +54,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta [!DNL Workfront] administratör.
 
-## Filterbord {#filter-boards}
+## Filterbord <span class="preview">och arbetsflöden</span> {#filter-boards}
 
-Du kan filtrera panelernas kontrollpanel så att de visar aktiva paneler, arkiverade paneler eller alla paneler.
+Du kan filtrera panelkontrollpanelen så att den visar aktiva, arkiverade eller alla paneler eller arbetsflöden.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka [!UICONTROL **Filter**] och markera **[!UICONTROL All]**, **[!UICONTROL Active boards]**, eller **[!UICONTROL Archived boards]**.
+1. Klicka [!UICONTROL **Filter**] i området för anslagstavlor eller i området för arbetsflöden, och välj **[!UICONTROL All]**, **[!UICONTROL Active]**, eller **[!UICONTROL Archived]**.
 
-   När ett annat filter än standardfiltret används på kontrollpanelen visas en indikator på filterikonen ![[!UICONTROL Filter applied to] kontrollpanel](assets/boards-filterapplied-30x30.png).
+   När ett annat filter än standardfiltret används på kontrollpanelen visas en indikator på filterikonen ![Filter som används på instrumentpanelen](assets/boards-filterapplied-30x30.png).
 
 ## Sortera ritytor
 
@@ -70,64 +72,68 @@ Du kan filtrera panelernas kontrollpanel så att de visar aktiva paneler, arkive
 
    När en annan sortering än standardsorteringen används på kontrollpanelen visas en indikator på sorteringsikonen ![Sortering används](assets/sort-applied-boards.png).
 
-## Söka efter en anslagstavla eller en samling
+## Söka efter en anslagstavla eller ett arbetsflöde
 
-Du kan söka efter en viss anslagstavla i området för anslagstavlor eller söka efter en viss samling i området Samlingar.
+Du kan söka efter en specifik anslagstavla i området för anslagstavlor eller söka efter en viss arbetsström i området Arbetsflöden.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
 1. Klicka [!UICONTROL **Sök**] och skriv ett sökord. Tryck sedan på Enter.
 
-   Alla anslagstavlor som innehåller söktermen i titeln visas.
+   Alla anslagstavlor eller arbetsflöden som innehåller söktermen i titeln visas.
 
    Klicka på X för att rensa sökningen.
 
    ![Sök efter paneler på kontrollpanelen](assets/boards-searchbox.png)
 
-## Arkivera en styrelse
+## Arkivera en styrelse <span class="preview">eller ett arbetsflöde</span>
 
-När du arkiverar en anslagstavla skickas den till arkivet och du kan återställa den senare.
+När du arkiverar en styrelse eller ett arbetsflöde skickas det till arkivet och du kan återställa det senare.
 
 >[!NOTE]
 >
 >När du arkiverar en styrelse arkiveras den för alla styrelseledamöter.
+>
+>När du arkiverar ett arbetsflöde arkiveras alla dess styrelser.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) och väljer **[!UICONTROL Archive]**.
+1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på tåget eller i arbetsflödet och väljer **[!UICONTROL Archive]**.
 
-   An [!UICONTROL Archive] icon ![Arkiv](assets/archive-icon-spectrum-25x20.png) visas på anslagstavlan. Du kan inte redigera en arkiverad anslagstavla.
+   I ett arbetsflöde är menyn till höger, bredvid [!UICONTROL **Visa arbetsflöde**] -knappen.
 
-   Arkiverade paneler är dolda på panelens kontrollpanel såvida du inte använder ett filter för att visa dem. Mer information finns i [[!UICONTROL Filter boards]](#filter-boards) i den här artikeln.
+   An [!UICONTROL Archive] icon ![Arkiv](assets/archive-icon-spectrum-25x20.png) visas på ritytan eller i arbetsflödet. Du kan inte redigera en arkiverad anslagstavla eller arbetsström.
 
-1. Om du vill återställa en arkiverad anslagstavla klickar du på **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) ombord och väljer **[!UICONTROL Restore]**.
+   Arkiverade objekt är dolda på panelens kontrollpanel såvida du inte använder ett filter för att visa dem. Mer information finns i [[!UICONTROL Filter boards]](#filter-boards) i den här artikeln.
 
-## Ta bort en anslagstavla eller en samling
+1. Klicka på knappen **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) på tåget eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
+
+## Ta bort en anslagstavla eller ett arbetsflöde
 
 När du tar bort en anslagstavla tas den bort permanent från [!DNL Workfront] och kan inte återställas. Alla kort som finns ombord tas också bort tillsammans med styrelsen.
 
-Om du tar bort en samling tas alla ritytor i samlingen bort.
+Om du tar bort ett arbetsflöde tas även alla ritytor i arbetsflödet bort.
 
 >[!NOTE]
 >
->Du kan bara ta bort ritytor och samlingar som du har skapat, inte ritytor och samlingar som du har lagts till i.
+>Du kan bara ta bort ritytor och arbetsflöden som du har skapat, inte ritytor och arbetsflöden som du har lagts till i.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) ombord eller i samlingen, och **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på tåget eller i arbetsflödet och väljer **[!UICONTROL Delete]**.
 
-   I en samling finns menyn till höger, bredvid [!UICONTROL **Visa samling**] -knappen.
+   I ett arbetsflöde är menyn till höger, bredvid [!UICONTROL **Visa arbetsflöde**] -knappen.
 
-1. Klicka **[!UICONTROL Delete board]** eller [!UICONTROL **Ta bort samling**] på bekräftelsemeddelandet.
+1. Klicka **[!UICONTROL Delete board]** eller [!UICONTROL **Ta bort arbetsflöde**] på bekräftelsemeddelandet.
 
-## Flytta en anslagstavla till en samling
+## Flytta en anslagstavla till ett arbetsflöde
 
-Du kan flytta en fristående anslagstavla till en samling eller flytta en anslagstavla från en samling till en annan.
+Du kan flytta en fristående bräda till ett arbetsflöde eller flytta en bräda från ett arbetsflöde till ett annat.
 
 >[!NOTE]
 >
 >Du kan bara flytta ritytor som du har skapat, inte ritytor som du har lagts till i.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) och väljer [!UICONTROL **Flytta till samling**].
-1. Välj vilken samling du vill lägga till i och klicka på [!UICONTROL **Flytta**].
+1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) och väljer [!UICONTROL **Flytta till arbetsflöde**].
+1. Välj vilket arbetsflöde som anslagstavlan ska läggas till i och klicka på [!UICONTROL **Flytta**].
 
-   Styrelsen flyttas till samlingen och visas inte längre i [!UICONTROL Boards] område.
-Om du inte har skapat någon samling än uppmanas du att skapa en som du kan flytta den till.
+   Styrelsen flyttas till arbetsflödet och visas inte längre i [!UICONTROL Boards] område.
+Om du inte har skapat något arbetsflöde än uppmanas du att skapa ett som du kan flytta anslagstavlan till.

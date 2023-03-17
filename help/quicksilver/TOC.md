@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '12763'
+source-wordcount: '12773'
 ht-degree: 0%
 
 ---
@@ -928,7 +928,10 @@ ht-degree: 0%
       * [Lägga till en inloppskolumn på en anslagstavla](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Använd grupper på en anslagstavla](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Konfigurera kortutfall](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+      * [Skapa en iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [Granska iterationsmått](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * Kanban i ett rörligt team {#kanban}
       * [Kanban i ett rörligt team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban - översikt](agile/use-kanban-in-an-agile-team/kanban-overview.md)

@@ -7,18 +7,36 @@ description: När du skapar en styrelse med ad hoc-kort och anslutna kort kanske
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # Översikt över flexibla planeringsverktyg
 
-När du skapar en anslagstavla med ad hoc-kort och uppkopplade kort kanske du vill dra nytta av ytterligare flexibla planeringsverktyg, som till exempel begränsning av pågående arbete i kolumn, gruppering av kort i simbanor, en intag-kolumn som kan användas för eftersläpning samt samlingar av anslagstavlor.
+{{highlighted-preview}}
 
-Du kan använda något eller alla av dessa verktyg på ett sätt som fungerar för dig och ditt team, utan att binda dig för en viss flexibel metod som Kanban eller Scrum.
+När du skapar en styrelse med ad hoc-kort och anslutna kort kanske du vill dra nytta av ytterligare flexibla planeringsverktyg.
+
+Exempel på verktyg som är användbara för Kanban:
+
+* PIA-begränsningar för kolumner
+* Gruppera kort i simbanor
+* En inloppskolumn som kan användas för en eftersläpning
+
+<div class="preview">
+
+Exempel på verktyg som är användbara för Scrum:
+
+* Arbetsströmmar och iterationstavlor
+* Kortlista eller eftersläpning
+* Iterationsmått
+
+</div>
+
+Du kan använda något eller alla av dessa verktyg på ett sätt som fungerar för dig och ditt team, utan att binda dig för en viss flexibel metod.
 
 Det här avsnittet innehåller följande artiklar:
 
@@ -26,4 +44,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Använd grupper på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Konfigurera kortutfall](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [Skapa en iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [Granska iterationsmått](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

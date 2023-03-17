@@ -6,9 +6,9 @@ description: Du kan flytta ett kort till valfri kolumn på kortet eller kopiera 
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Menyn Mer](assets/boards-moremenu-350x329.png)
 
 ## Kopiera ett kort
+
+Om du kopierar ett ad hoc-kort dupliceras alla fält på kortet, inklusive checklisteobjekt.
 
 >[!NOTE]
 >

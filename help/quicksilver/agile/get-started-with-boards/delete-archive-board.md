@@ -6,20 +6,21 @@ title: Ta bort eller arkivera en anslagstavla
 description: Du kan ta bort eller arkivera en anslagstavla i Workfront. Om du tar bort en anslagstavla permanent tas den bort från Workfront, och om du arkiverar en anslagstavla behålls alla kort och kan återställas vid ett senare tillfälle.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Ta bort eller arkivera en anslagstavla
 
-Du kan ta bort eller arkivera en anslagstavla i [!DNL Workfront]. Om du tar bort en anslagstavla permanent tas den bort från [!DNL Workfront], samtidigt som en styrelse arkiveras behåller alla kort och kan återställas vid ett senare tillfälle. De här alternativen gäller både fristående ritytor och ritytor som ingår i samlingar.
+Du kan ta bort eller arkivera en anslagstavla i [!DNL Workfront]. Om du tar bort en anslagstavla permanent tas den bort från [!DNL Workfront], samtidigt som en styrelse arkiveras behåller alla kort och kan återställas vid ett senare tillfälle. De här alternativen gäller både fristående ritytor och ritytor som ingår i arbetsflöden.
 
 >[!NOTE]
 >
->Samlingar kan endast köpas via tidiga funktioner i Workfront Boards.
+>Den tidigare versionen av arbetsflöden, som kallas samlingar, är endast tillgänglig genom den tidiga funktionsavanmälningen för [!UICONTROL [!DNL Workfront] Boards]. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Arbetsströmmar är tillgängliga för alla i förhandsvisningsmiljön.
 
 ## Åtkomstkrav
 

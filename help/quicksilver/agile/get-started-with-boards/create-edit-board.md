@@ -6,9 +6,9 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Från [!UICONTROL boards] kan du skapa en ny panel eller redigera en befintlig panel.
 
-Mer information om hur du lägger till en anslagstavla i en samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Information om hur du lägger till en anslagstavla i ett arbetsflöde finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Åtkomstkrav
 
@@ -43,11 +43,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en ny anslagstavla
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Om du vill skapa en fristående anslagstavla klickar du på **[!UICONTROL Add board]** i [!UICONTROL Boards] område. Mer information om hur du lägger till en anslagstavla i en samling finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Om du vill skapa en fristående anslagstavla klickar du på **[!UICONTROL Add board]** i [!UICONTROL Boards] område. Information om hur du lägger till en anslagstavla i ett arbetsflöde finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
-   > Samlingar är bara tillgängliga via tidiga funktioner för [!DNL Workfront] [!UICONTROL Boards].
+   >Det finns arbetsflöden i förhandsvisningsmiljön och i produktionen via tidiga funktioner för [!UICONTROL [!DNL Workfront] Boards]. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. Välj en mall för styrelsen.
 
@@ -59,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   > Kortmallar är endast tillgängliga genom tidiga funktionsval för [!DNL Workfront] [!UICONTROL Boards].
+   > Kortmallar är endast tillgängliga genom tidiga funktionsval för [!DNL Workfront] [!UICONTROL Boards]. I annat fall är du begränsad till anslagstavlan.
 
 1. Ange ett namn för styrelsen i **[!UICONTROL Board]** och tryck på Retur.
 1. Konfigurera styrelsen efter behov.

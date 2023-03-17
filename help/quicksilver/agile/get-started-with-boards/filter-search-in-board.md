@@ -6,9 +6,9 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -115,4 +115,4 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 
    Klicka på X för att rensa sökningen.
 
-   ![[!UICONTROL Search for cards in a board]](assets/boards-searchbox.png)
+   ![Sök efter kort på en anslagstavla](assets/boards-searchbox.png)
