@@ -6,7 +6,7 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Hantera målkommentarer i Adobe Workfront-mål
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Du kan lägga till kommentarer till alla mål som du kan visa i Adobe Workfront-mål.
 
@@ -206,7 +208,28 @@ Detta öppnar mållistan.
    >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Kommentarerna är bara synliga för användaren som skriver dem.
 
 1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
+
+<!--drafted for beta release 23.2:
+1. <span class="preview">(Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. </span>
+1. <span class="preview">Edit the information in the comment, or remove any of the tagged users. </span>
+   <span class="preview">You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.</span> 
+
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+
+   >[!TIP]
+   >
+   >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
+-->
 1. Klicka **Skicka**.
+
+<!--drafted for 23.2 beta release: 
+
+   >[!TIP]
+   >
+   >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
+   >
+   > ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 5-7 ovan. <!--insure this stays accurate-->
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png) för att gilla en kommentar som någon annan har lagt till. Ikonen uppdateras med antalet gilla-markeringar.
 1. (Valfritt) Om du vill lägga till formaterad text i uppdateringen använder du alla attribut i verktygsfältet RTF när du skriver. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Översikt över fliken Uppdateringar
-description: På fliken Uppdateringar visas upp till 200 av de senaste uppdateringarna som har gjorts under de senaste 90 dagarna.
+title: Översikt över uppdateringsavsnittet
+description: I uppdateringsavsnittet visas upp till 200 av de senaste uppdateringarna under de senaste 90 dagarna.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
-# Översikt över fliken Uppdateringar
+# Översikt över uppdateringsavsnittet
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-På fliken Uppdateringar visas upp till 200 av de senaste uppdateringarna som har gjorts under de senaste 90 dagarna.
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-Du kan kommentera och svara på uppdateringar för följande objekt:
+-->
+
+I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
+
+## Översikt över uppdateringsavsnittet
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+I uppdateringsavsnittet för ett objekt visas upp till 200 av de senaste uppdateringarna under de senaste 90 dagarna.
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+I uppdateringsavsnittet visas följande information:
+
+* Synpunkter från användare och svar på dessa kommentarer.
+* Systemuppdateringar är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Uppdateringsavsnittet visas för följande objekt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ Du kan kommentera och svara på uppdateringar för följande objekt:
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## Uppdateringar som också visas på objekt med högre rankning
 
-Som framgår av följande tabell visas även svar på uppdateringar av vissa objekt på fliken Uppdateringar för objekt med högre rankning.
+Som framgår av följande tabell visas även svar på uppdateringar av vissa objekt i uppdateringsavsnittet för objekt med högre rankning.
 
-När du till exempel lägger till en uppdatering för en uppgift visas uppdateringen på fliken Uppdateringar för uppgiften och på fliken Uppdateringar för projektet som innehåller uppgiften.
+När du till exempel lägger till en uppdatering för en uppgift visas uppdateringen i uppdateringsavsnittet för uppgiften och i uppdateringsavsnittet för projektet som innehåller uppgiften.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ När du till exempel lägger till en uppdatering för en uppgift visas uppdateri
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## Begränsningar för fliken Uppdateringar
+## Begränsningar i uppdateringsavsnittet
 
 ### Begränsningar för användare och team
 
-Du kan inte uppdatera team. Fliken Uppdateringar för team fylls i av uppdateringar som anges för följande objekt:
+Du kan inte uppdatera team. Uppdateringsavsnittet för team fylls i av uppdateringar som anges för följande objekt:
 
 * Användare
 * Tidrapporter
 * Artiklar
 * Iterationer
 
-På fliken Uppdateringar för användare och team kan du visa de uppdateringar som har gjorts under de senaste 90 dagarna.
+I uppdateringsavsnittet för användare och team kan du visa de uppdateringar som har gjorts under de senaste 90 dagarna.
 
 Om du vill se alla uppdateringar som gjorts för en användare eller ett team, utöver 90-dagarsgränsen, kan du skapa en rapport för anteckningar. Rapporten ska inte ha något tidsfilter som visar alla uppdateringar som gjorts för användare eller team. Mer information finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
