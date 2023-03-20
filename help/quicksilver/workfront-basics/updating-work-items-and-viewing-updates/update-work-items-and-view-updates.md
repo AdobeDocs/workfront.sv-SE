@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: get-started-with-workfront
 title: Uppdatera arbetsuppgifter och visa uppdateringar
 description: Du kan använda uppdateringsavsnittet för de flesta objekt för att lägga till kommentarer, svar eller för att följa systemspårade uppdateringar om ändringar som görs på objektet.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%

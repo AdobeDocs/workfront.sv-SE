@@ -3,11 +3,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Enhetlig kommentarsfunktion
 description: Den nya enhetliga kommentarsfunktionen kommer att
-author: Nolan
+author: Alina
 feature: Get Started with Workfront
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,108 +15,65 @@ ht-degree: 0%
 
 # Ny kommentarsfunktion
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för markerade objekt.
 
-<!--drafted for commenting experience on issues: 
-
->[!NOTE]
->
->The new commenting experience is only available for the Updates section of select objects. 
->
->For information about what objects include the Updates section, see [Updates section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
->The new commenting experience is not available for other areas of Workfront that display updates. For example, the new experience is not availabe for the following areas:
->
->* Home
->* Summary panel in a list
->* Summary panel in a timesheet
->
-
--->
-
-Även om det för närvarande bara är implementerat i Adobe Workfont Goals, kommer den här nya upplevelsen att sakta bli tillgänglig för alla objekt med ett uppdateringsavsnitt i Workfront, och senare kommer den att utvidgas till andra Adobe Experience Cloud-program.
-
-<!--when we release to Preview for issues with a toggle, we need to remove the last sentence above and replace it with this: 
-
-The new commenting experience is currently supported for the following objects in Workfront:
-
-By default, in the Preview and Production environments for all customers: 
-
-* Goals
-
-    >[!NOTE]
-    >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
-
-
-<div class="preview">
-
-By enabling the Beta version in the Updates section, in the Preview environment: 
-
-* Issues
-
-    For more information about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-</div>
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
--->
+Den nya kommentarsfunktionen blir långsamt tillgänglig för alla objekt med uppdateringsavsnittet i Workfront, och senare kommer den att utvidgas till andra Adobe Experience Cloud-program.
 
 ## Funktioner
 
 Den nya kommentarsfunktionen innehåller förbättringar och ändringar av den befintliga uppdateringsströmmen.
 
+<!-- Previous content here - replaced with the table below: 
+
 >[!IMPORTANT]
->De enhetliga kommentarfunktionerna som listas nedan är för närvarande bara tillgängliga i Adobe Workfront-mål.
+>The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
 
-* **Skapa kommentarer**
+* **Creating comments**
 
-   Du kan skapa en ny kommentar, formatera den med formaterad text och tagga andra så att de meddelas. Mer information om hur du skapar kommentarer finns i [Hantera målkommentarer](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-* **Svara på kommentarer**
+* **Responding to comments**
 
-   Du kan reagera på en kommentar med en gilla-markering eller svara med en ny kommentar i kopplingen som kan meddela den ursprungliga kommentaren och objektets ägare.
+    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
 
-* **Systemaktivitet**
+* **System Activity**
+    
+    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-   Systemgenererade uppdateringar för ett objekt visas nu separat från kommentarer som gjorts på uppdateringsfliken. Mer information om hur du visar dataströmmen för systemaktivitet finns i steg 11 i [Hantera målkommentarer](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+-->
 
-<!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
+Bland förbättringarna i den nya kommentarsfunktionen finns följande:
 
-Among the improvements included in the new commenting experience are the following:
+* Förbättrade prestanda och användarupplevelser
+* Separation av användarkommentarer från aktivitetsuppdateringarna i systemet. Det finns inga förändringar i hur systemet uppdaterar funktionen.
+* Realtidsindikator när nya kommentarer läggs till i ett objekt
+* Redigera kommentarer när de har skickats.
 
-* Improved performance and user experience
-* Separation of user comments from the system activity. There are no changes in the way the system updates function. 
-* Real-time updates
-* Edit comments after submitting them. 
+Följande funktioner har tagits bort från den nya versionen:
 
-The following features have been removed from the new experience:
+* Kommentera en systemuppdatering.
 
-* Comment on a system update
-
-The following table illustrates the features that will be available in the new commenting experience as well as their availability now in areas where they are supported: 
+Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den nya kommenteringsfunktionen samt deras tillgänglighet i områden där de stöds:
 
 <table>
   <tr>
-   <td><strong>Feature </strong>
+   <td><strong>Funktion </strong>
    </td>
-   <td><strong>Exists in old commenting experience </strong>
+   <td><strong>Gammal kommentarsfunktion </strong>
    </td>
-   <td><strong>Exists in Beta version of the new commenting experience </strong>
+   <td><strong>Finns i betaversionen av den nya kommentarsupplevelsen </strong>
    </td>
-   <td><strong>Will be introduced in the new commenting experience </strong>
+   <td><strong>Kommer att introduceras i den nya kommentarsfunktionen </strong>
    </td>
-   <td><strong>When will be introduced in the new commenting experience </strong>
+   <td><strong>När kommer att introduceras i den nya kommentarsfunktionen </strong>
    </td>
-   <td><strong>In research </strong>
+   <td><strong>Forskning </strong>
    </td>
   </tr>
   <tr>
-   <td>Create/read/reply/delete comments 
+   <td>Skapa/läsa/svara/ta bort kommentarer 
    </td>
    <td>✓ 
   </td>
@@ -130,11 +87,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Rich text (exludes quoting and emojis)
+   <td>RTF (exklusive citat och känslolägesikoner)
    </td>
    <td>✓ 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span> 
    </td>
    <td> 
    </td>
@@ -145,7 +102,7 @@ The following table illustrates the features that will be available in the new c
   </tr>
   <tr>
  <tr>
-   <td>Rich text (quoting and emojis)
+   <td>RTF (citat och känslolägesikoner)
    </td>
    <td>✓ 
    </td>
@@ -153,14 +110,14 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> Q2, 2023
+   <td> 2 kv 2023
    </td>
    <td> 
    </td>
   </tr>
   <tr>
 
-   <td>React to comments (Like) 
+<td>Reagera på kommentarer (Gilla) 
    </td>
    <td>✓ 
    </td>
@@ -174,7 +131,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Attach images to comments 
+   <td>Bifoga bilder till kommentarer 
    </td>
    <td>✓ 
    </td>
@@ -188,7 +145,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Tag people in comments 
+   <td>Tagga personer i kommentarer 
    </td>
    <td>✓ 
    </td>
@@ -202,25 +159,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Remove people from the thread 
+   <td>Ta bort personer från kopplingen 
    </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Comments that are private to a company 
-   </td>
-   <td>✓ 
-   </td>
-   <td>✓ 
+   <td><span class="preview">✓ </span>
    </td>
    <td> 
    </td>
@@ -230,49 +173,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Undo posting of a comment 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with edit comment 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Turn off system updates 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with Activity tab 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Edit comments 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Saving comment drafts when navigating away from the page 
+   <td>Kommentarer som är privata för ett företag 
    </td>
    <td>✓ 
    </td>
@@ -286,7 +187,63 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>See new comments in real time 
+   <td>Ångra publicering av en kommentar 
+   </td>
+   <td>✓ 
+   </td>
+   <td><span class="preview">Ersatt med redigeringskommentar </span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Inaktivera systemuppdateringar 
+   </td>
+   <td>✓ 
+   </td>
+   <td>Ersatt med fliken Aktivitet 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Redigera kommentarer 
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Spara kommentarutkast när du navigerar bort från sidan 
+   </td>
+   <td>✓ 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Se nya kommentarer i realtid 
    </td>
    <td> 
    </td>
@@ -300,7 +257,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Log time 
+   <td>Loggtid 
    </td>
    <td>✓ 
    </td>
@@ -314,7 +271,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Edit custom form 
+   <td>Redigera eget formulär 
    </td>
    <td>✓ 
    </td>
@@ -328,7 +285,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Ability to edit status, condition, commit date while commenting 
+   <td>Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs 
    </td>
    <td>✓ 
    </td>
@@ -342,7 +299,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Copy thread link 
+   <td>Kopiera trådlänk 
    </td>
    <td>✓ 
    </td>
@@ -350,13 +307,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2 kv 2023 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy comment link 
+   <td>Länken Kopiera kommentar 
    </td>
    <td>✓ 
    </td>
@@ -364,13 +321,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2 kv 2023 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Quote comment text 
+   <td>Text för offertkommentar 
    </td>
    <td>✓ 
    </td>
@@ -378,13 +335,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2 kv 2023 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy body text 
+   <td>Kopiera brödtext 
    </td>
    <td>✓ 
    </td>
@@ -392,13 +349,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2 kv 2023 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Resolve comments 
+   <td>Lös kommentarer 
    </td>
    <td> 
    </td>
@@ -406,13 +363,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>3 kv 2023 
    </td>
    <td>✓ 
    </td>
   </tr>
   <tr>
-   <td>Search in comments 
+   <td>Sök i kommentarer 
    </td>
    <td> 
    </td>
@@ -420,7 +377,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>3 kv 2023 
    </td>
    <td>✓ 
    </td>
@@ -428,29 +385,42 @@ The following table illustrates the features that will be available in the new c
 </table>
 
 
-## Locate the new commenting experience
+## Hitta den nya kommentarsfunktionen
 
-The new commenting experience is the default experience for Workfront goals. 
+Den nya kommentarsfunktionen stöds för närvarande för följande objekt vid visning av uppdateringsavsnittet i följande versioner:
 
-<div span="preview">
-For all other objects that have an Updates section, you can enable the new commenting experience by opting in to the Beta program. The Beta option will be available, gradually, for all objects that have an Updates section. 
-</div>
+* När du aktiverar betafunktionen i uppdateringsavsnittet:
 
+   <div class="preview">
 
-Currently, the new experience is available for the following objects:
+   * Problem.
+   Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* Goals. The new exprience is already the default experience for Goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
-* <span class="preview">Issues</span>
+   </div>
+
+* Som standard är kommentarsupplevelsen:
+
+   * Mål
+   >[!NOTE]
+   >
+   >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   Mer information om hur du hanterar uppdateringar för mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 <div class="preview">
-To enable the new commenting exprience Beta: 
 
-1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
-1. Click **Try out the Commenting Beta** in the lower-right corner of the Updates area. 
-1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
-1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens. 
-1. Click the  **System Activity** tab to view the activity updates generated by Workfront. 
-    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+Så här aktiverar du den nya kommenteringsupplevelsen Beta:
+
+1. Gå till ett objekt som du vill aktivera den nya kommentarfunktionen för och klicka sedan på **Uppdateringar** i den vänstra panelen.
+1. Klicka **Testa kommenteringsbetaversionen** i det nedre högra hörnet av uppdateringsområdet.
+1. Klicka **Godkänn** i rutan Betaavtal. Detta aktiverar den nya kommentarsfunktionen för det markerade objektet.
+1. Börja skriva en uppdatering i **Kommentarer** -fliken. Fliken Kommentarer ska vara standardflik när den nya funktionen öppnas
+
+   eller
+
+   Klicka på  **Systemaktivitet** för att visa aktivitetsuppdateringar som genererats av Workfront.
+
+   Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
 </div>
--->

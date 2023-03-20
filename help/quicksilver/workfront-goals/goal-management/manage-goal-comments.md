@@ -6,16 +6,16 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 0d53b8651da3602e6f3233597680eede55f847a1
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Hantera målkommentarer i Adobe Workfront-mål
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 Du kan lägga till kommentarer till alla mål som du kan visa i Adobe Workfront-mål.
 
@@ -118,77 +118,7 @@ Du måste ha följande innan du kan börja:
 
 * En layoutmall som innehåller området Mål på huvudmenyn.
 
-## Gå till kommentarsområdet
-
-<!--
-Locating goal comments differs depending on what environment you use. 
-
-### Locate goal comments in the Production environment
-
-You can add comments to goals in the following areas of Workfront Goals:
-
-* The Goal Details panel
-* The Check-in section 
-* The Pulse section
-
-Although the process for adding comments to goals is similar in these areas, there are differences in being able to edit, delete, or react to a comment when using one area versus another. When you enter a comment in any of these areas, the comment is visible in all areas where goal comments display.
-
->[!NOTE]
->
->You cannot add comments to results and activities.
-
--->
-
-<!--
-## Add comments to goals in the Goal Details panel
-
-Adding comments to goals differs depending on what environment you use.
-
-### Add comments to goals in the Production environment
-
-
-You can add comments to goals in the Goal Details panel, as part of updating an individual goal.
-
-You can edit or delete a comment that you entered in this area, or you can like comments.
-
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
-
-   (Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
-   
-
-   This opens the Workfront Goals area. 
-
-1. Locate the goal you want to add comments to, then click its name to open the Goal Details panel to the right. 
-1. Click the **Updates** tab.
-1. Type your comment in the **Comment here** field, then click **Post**. 
-1. (Optional and conditional) Select the **Comments** option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
-1. (Optional) Click **Edit** to edit your comment, then click **Save** to save your changes, or **Cancel** to revert to the original update.
-
-   >[!TIP]
-   >
-   >* You can only edit comments you entered. 
-   >* There is no time limit for how long after you enter a comment you are allowed to edit it.
-
-1. (Optional) Click **Delete** to delete your comment, then click **Yes, Delete** to confirm.
-
-   >[!TIP]
-   >
-   >* You can only delete comments you entered. 
-   >* There is no time limit for how long after you enter a comment you are allowed to delete it.
-
-1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
-
-1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
-   
-
-   ![](assets/list-of-likes-users-350x121.png)
-
-1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
-
--->
+## Gå till uppdateringsavsnittet
 
 Du kan lägga till kommentarer till mål i uppdateringsavsnittet på målsidan.
 
@@ -208,34 +138,35 @@ Detta öppnar mållistan.
    >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Kommentarerna är bara synliga för användaren som skriver dem.
 
 1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
+1. <span class="preview">(Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-icon.png) till höger om ikonen Gilla och klicka sedan på **Redigera**. </span>
+1. <span class="preview">Redigera informationen i kommentaren eller ta bort någon av de taggade användarna. </span>
 
-<!--drafted for beta release 23.2:
-1. <span class="preview">(Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. </span>
-1. <span class="preview">Edit the information in the comment, or remove any of the tagged users. </span>
-   <span class="preview">You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.</span> 
+   <span class="preview">Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.</span>
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
    >[!TIP]
    >
-   >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
--->
+   >   <span class="preview">Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.</span>
+
 1. Klicka **Skicka**.
 
-<!--drafted for 23.2 beta release: 
+   <!--drafted for 23.2 beta release: 
+      >[!TIP]
+      >
+      >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
+      >
+      ><span class="preview">The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience.</span>
+      >
+      >![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
-   >[!TIP]
-   >
-   >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
-   >
-   > ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
-
-1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 5-7 ovan. <!--insure this stays accurate-->
+1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 5-9 ovan. <!--insure this stays accurate-->
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png) för att gilla en kommentar som någon annan har lagt till. Ikonen uppdateras med antalet gilla-markeringar.
 1. (Valfritt) Om du vill lägga till formaterad text i uppdateringen använder du alla attribut i verktygsfältet RTF när du skriver. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Klicka på **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När ett mål uppdateras genererar Workfront en anteckning om den uppdateringen som visas på fliken Systemaktivitet. Workfront registrerar också en systemuppdatering när ett resultat, en aktivitet eller ett projekt läggs till i målet eller när det uppdateras. <!--ensure the casing on the tab has not changed-->
 
-<!--
+<!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
+
 ## Add comments to goals in the Check-in section
 
 <div class="preview">
@@ -315,6 +246,76 @@ You can also like goal comments that other users have added to mark your approva
 1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment. The icon updates with the number of likes. 
 
 1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   ![](assets/list-of-likes-users-350x121.png)
+
+1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
+
+-->
+
+<!--
+Locating goal comments differs depending on what environment you use. 
+
+### Locate goal comments in the Production environment
+
+You can add comments to goals in the following areas of Workfront Goals:
+
+* The Goal Details panel
+* The Check-in section 
+* The Pulse section
+
+Although the process for adding comments to goals is similar in these areas, there are differences in being able to edit, delete, or react to a comment when using one area versus another. When you enter a comment in any of these areas, the comment is visible in all areas where goal comments display.
+
+>[!NOTE]
+>
+>You cannot add comments to results and activities.
+
+-->
+
+<!--
+## Add comments to goals in the Goal Details panel
+
+Adding comments to goals differs depending on what environment you use.
+
+### Add comments to goals in the Production environment
+
+
+You can add comments to goals in the Goal Details panel, as part of updating an individual goal.
+
+You can edit or delete a comment that you entered in this area, or you can like comments.
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+
+   (Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
+   
+
+   This opens the Workfront Goals area. 
+
+1. Locate the goal you want to add comments to, then click its name to open the Goal Details panel to the right. 
+1. Click the **Updates** tab.
+1. Type your comment in the **Comment here** field, then click **Post**. 
+1. (Optional and conditional) Select the **Comments** option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
+1. (Optional) Click **Edit** to edit your comment, then click **Save** to save your changes, or **Cancel** to revert to the original update.
+
+   >[!TIP]
+   >
+   >* You can only edit comments you entered. 
+   >* There is no time limit for how long after you enter a comment you are allowed to edit it.
+
+1. (Optional) Click **Delete** to delete your comment, then click **Yes, Delete** to confirm.
+
+   >[!TIP]
+   >
+   >* You can only delete comments you entered. 
+   >* There is no time limit for how long after you enter a comment you are allowed to delete it.
+
+1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
+
+1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
+   
 
    ![](assets/list-of-likes-users-350x121.png)
 

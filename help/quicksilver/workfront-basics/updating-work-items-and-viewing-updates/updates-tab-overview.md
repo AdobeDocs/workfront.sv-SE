@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Översikt över uppdateringsavsnittet
-description: I uppdateringsavsnittet visas upp till 200 av de senaste uppdateringarna under de senaste 90 dagarna.
-author: Lisa and Alina
+description: I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
+author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -18,35 +18,29 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 >[!NOTE]
 >
->We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
-Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>Vi håller på att ändra uppdateringsavsnittet för ett objekt. Du kommer åt den nya designen genom att aktivera kommenteringsfunktionen Beta.
+>
+>För närvarande är betaversionen tillgänglig för <span class="preview">problem</span>.
+>
+>Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
 
 ## Översikt över uppdateringsavsnittet
 
-<!--drafted for the commenting beta for issues: 
-The information is organized differently in the Updates section, depending on which environment you access it from. 
+Informationen i uppdateringsavsnittet är organiserad på olika sätt beroende på vilken miljö du kommer åt den från.
 
-###  Overview of the current Updates section 
--->
+### Översikt över aktuellt uppdateringsavsnitt
 
 I uppdateringsavsnittet för ett objekt visas upp till 200 av de senaste uppdateringarna under de senaste 90 dagarna.
 
-<!--drafted for the commenting beta for issues: 
-The current Updates section shows the following information:
+![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
--->
-
-I uppdateringsavsnittet visas följande information:
+I det aktuella uppdateringsavsnittet visas följande information:
 
 * Synpunkter från användare och svar på dessa kommentarer.
 * Systemuppdateringar är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
@@ -81,15 +75,16 @@ Uppdateringsavsnittet visas för följande objekt:
  </tbody> 
 </table>
 
-<!--drafted for the commenting beta for issues: 
-###  Overview of the Updates section in the Beta commenting experience
+### Översikt över uppdateringsavsnittet i betakommentarsfunktionen
 
-The Updates section displays information in the following tabs in the Beta commenting experience: 
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Updates**: Displays comments made by users and replies to those comments. 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+I uppdateringsavsnittet visas information på följande flikar i Beta-kommentarsfunktionen:
 
-Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+* **Uppdateringar**: Visar kommentarer som gjorts av användare och svar på dessa kommentarer. Information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+* **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+För närvarande kan du göra kommentarer och svara på uppdateringar med hjälp av betakommentarsfunktionen för följande objekt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,11 +93,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   <tr> 
    <td> 
     <ul> 
-     <li>Goals</li> 
+     <li>Mål</li> 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Issues</span></li> 
+     <li><span class="preview">Problem</span></li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -110,8 +105,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 
 >[!NOTE]
 >
->The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+>Kommentarsupplevelsen Beta är den aktuella standardupplevelsen för mål. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals.
+>
+>Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Uppdateringar som också visas på objekt med högre rankning
 
@@ -182,11 +180,12 @@ När du till exempel lägger till en uppdatering för en uppgift visas uppdateri
 >Svar som lagts till i systemuppdateringar sammanfogas inte med det överordnade objektet. Endast direkta svar på ett underordnat objekt och svar som lagts till i befintliga uppdateringar läggs ihop med överordnade objekt.
 >
 >Mer information om objekthierarkin i Adobe Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
-><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
+>
+><span class="preview"> Det går inte att svara på systemuppdateringar i den nya kommenteringsfunktionen Beta. Mer information finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
 
 ## Begränsningar i uppdateringsavsnittet
+
+Det finns vissa begränsningar i uppdateringsavsnittet för ett team och när du anger uppdateringar för andra användares räkning.
 
 ### Begränsningar för användare och team
 

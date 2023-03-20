@@ -3,32 +3,31 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Uppdatera arbete
 description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (projekt, uppgift eller problem) för att informera om objektets förlopp. Användare som är tilldelade eller prenumererade till objektet kan visa din uppdatering. Du kan också tagga användare så att de uppmärksammas på uppdateringen.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2690'
 ht-degree: 0%
 
 ---
 
 # Uppdatera arbete
 
-<!-- Drafted for commenting experience: 
-
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 >[!NOTE]
 >
->We are currently redesigning the way you update work when using the Updates section of an object. 
->You can access the new design by enabling the commenting Beta. 
->Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>Vi håller på att förändra ditt sätt att uppdatera arbetet när vi använder uppdateringsavsnittet för ett objekt.
+>
+>Du kommer åt den nya designen genom att aktivera kommenteringsfunktionen Beta.
+>
+>För närvarande är betaversionen tillgänglig för <span class="preview">problem</span>.
+>
+>Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -111,17 +110,15 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Lägga till en uppdatering i en arbetsuppgift
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects
+<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
 
-Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
+Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på vilken version av uppdateringsavsnittet och vilket objekt du väljer.
 
-### Add an update to a work item in the current Updates section
+### Lägga till en uppdatering för en arbetsuppgift i det aktuella uppdateringsavsnittet
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
-
--->
+>Följande funktionalitet är tillgänglig för alla objekt utom mål. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 1. Gå till den arbetsuppgift som du vill uppdatera (till exempel ett projekt, en uppgift eller en utgåva) för.
 1. Klicka på **Uppdateringar** -avsnitt.
@@ -135,7 +132,7 @@ Adding an update to a work item differs depending on what version of the Updates
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Meddela</strong></td> 
-      <td>Identifiera de användare som måste meddelas om uppdateringen. Användare som tilldelas eller prenumererar på objektet får automatiskt ett meddelande när en uppdatering görs.<br><p>Mer information om hur du inkluderar andra i en uppdatering finns i <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagga andra för uppdateringar</a>.</p></td> 
+      <td>Identifiera användare som måste meddelas om uppdateringen. Användare som tilldelas eller prenumererar på objektet får automatiskt ett meddelande när en uppdatering görs.<br><p>Mer information om hur du inkluderar andra i en uppdatering finns i <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagga andra för uppdateringar</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bekräftelsedatum</strong></td> 
@@ -147,7 +144,7 @@ Adding an update to a work item differs depending on what version of the Updates
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong></td> 
-      <td>Klicka på pilen bredvid aktuell status och välj önskad status i listrutan. Mer information om hur du anger en status finns i <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Uppdatera aktivitetsstatus</a>.<p>När du uppdaterar statusen för en arbetsuppgift ändras inte automatiskt statusen för ett projekt. Beroende på hur projektet är konfigurerat kan du behöva göra uppdateringar av projektstatusen separat. Mer information om olika typer av projektuppdateringar finns i <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj typ av projektuppdatering </a>.</p><p><b>ANMÄRKNING</b>
+      <td>Klicka på pilen bredvid aktuell status och välj önskad status i listrutan. Mer information om hur du anger en status finns i <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Uppdatera aktivitetsstatus</a>.<p>När du uppdaterar statusen för en arbetsuppgift ändras inte automatiskt statusen för ett projekt. Beroende på hur projektet är konfigurerat kan du behöva göra separata uppdateringar av projektstatusen. Mer information om olika typer av projektuppdateringar finns i <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj typ av projektuppdatering </a>.</p><p><b>ANMÄRKNING</b>
 
    Du kan inte ändra status för en arbetsuppgift när den har statusen Väntande godkännande.</p></td>
    </tr> 
@@ -175,94 +172,91 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. Information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<!--
-
-### Add an update to a work item using the commenting Beta experience
+### Lägga till en uppdatering av ett arbetsobjekt med hjälp av Beta-kommenteringsfunktionen
 
 
 >[!NOTE]
 >
->The functionality described in this section is available for the following objects:
+>Funktionen som beskrivs i det här avsnittet är tillgänglig för följande objekt:
 >
->* <span class="preview">Issues, when you enable the commenting Beta experience.</span>
->
->   <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
->
->   * <span class="preview">Home</span>
->   * <span class="preview">Summary panel in lists</span>
->   * <span class="preview">Summary panel in timesheets</span>
->* Goals
->
->   The commenting experience Beta is the default current experience for goals.
->   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>* <span class="preview">När du aktiverar kommenteringsfunktionen Beta får du problem.</span>
+   >
+   >   <span class="preview">Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:</span>
+   >
+   >   * <span class="preview">Startsida</span>
+   >   * <span class="preview">Panelen Sammanfattning i listor</span>
+   >   * <span class="preview">Sammanfattningspanelen i tidrapporter</span>
+>* Mål
+
+   >
+   >   Den nya kommentarsupplevelsen är standardupplevelsen för dagens mål.
+   >   Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-1. Locate the object you want to update, then click its name to open the object's page.
-1. Click  **Updates** in the left panel. 
-1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
-   The **Comments** tab is selected by default. 
-1. Start entering a comment in the **New comment** box. 
-   
+
+1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
+1. Klicka  **Uppdateringar** i den vänstra panelen.
+1. <span class="preview">Klicka **Testa kommenteringen av betaversionen** i uppdateringsområdets nedre högra hörn och klicka sedan på **Godkänn** på betaavtalet. Detta växlar uppdateringsområdet till kommenteringsfunktionen Beta. </span>
+The 
+**Kommentarer** -fliken är markerad som standard.
+1. Börja skriva en kommentar i **Ny kommentar** box.
+
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
+   >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Kommentarerna är bara synliga för användaren som skriver dem.
 
-1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
+1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
+1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du något av följande alternativ i dialogrutan **RTF** verktygsfältet för att förbättra texten:
 
-   * Bold
-   * Italics
-   * Underline
-   * Link
-   * Bulleted List
-   * Numbered List
-   * Add attachment (mark this parenthesis as draft: ************ this might be renamed)
-   
-   For more information, see the "Use Rich Text in a Workfront update" section in this article.
+   * Fet
+   * Kursiv
+   * Understruken
+   * Länk
+   * Punktlista
+   * Numrerad lista
+   * Lägg till bifogad fil <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   >[!TIP]
-   >
-   >   If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-   >
-   > ![](assets/real-time-new-red-indicator-unified-commenting.png)
+   Mer information finns i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i den här artikeln. <!--remove this list, above, when we get to parity for Rich Text-->
 
+   <!--not available yet in preview - should be live with production: format this as a TIP: 
+      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
+      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
-
-1. Click **Submit** to add the update to the Workfront object. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. 
-1. Edit the information in the comment, or remove any of the tagged users. 
-   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
+1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
+1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna.
+Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********). For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
-1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
-1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
+   >   Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
+1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-7 ovan. <!--(**************insure this stays accurate***********)-->. Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png). Ikonen uppdateras med antalet gilla-markeringar.
+1. (Villkorligt och Valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
+1. (Valfritt) Klicka på **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När objektet eller något av dess underordnade objekt uppdateras, genererar Workfront en anteckning om den uppdateringen och visar den på fliken Systemaktivitet.
 
-   For more information see [Updates section  overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   Mer information finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
    >[!TIP]
    >
-   >You cannot add a comment to a system update.
--->
+   >Du kan inte lägga till en kommentar i en systemuppdatering.
 
 
 ## Använda RTF i en Workfront-uppdatering
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.
+<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Some of the options in the Rich Text toolbar are not available for the commenting Beta experience.-->
-
+>Vissa av alternativen i verktygsfältet RTF kanske inte är tillgängliga för kommenteringsfunktionen Beta.
 
 Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till olika objekt i den, som känslolägesikoner, länkar eller bilder.
 
@@ -326,17 +320,16 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Bilder är bara tillgängliga från fliken Uppdateringar på ett objekt och är inte tillgängliga på fliken Dokument.
    >* Du kan skicka en uppdatering med en bild och utan text.
 
-1. Klicka **Uppdatera**  <!--<span class="preview">or **Submit**</span>, in the commenting Beta experience-->.
+1. Klicka **Uppdatera**  <span class="preview">eller **Skicka**</span> i kommenteringsfunktionen Beta.
 
 
 ## Kopiera uppdateringsinformation
 
-<!--drafted for beta release toggle - remove when copying an update will be available: 
+<!--drafted for beta release toggle - remove when copying an update will be available:-->
 
 >[!NOTE]
 >
->Copying an update is not possible when using the Beta commenting experience.
--->
+>Det går inte att kopiera en uppdatering när du använder betakommentarsfunktionen.
 
 Du kan kopiera en uppdatering på flera olika sätt. När du har kopierat en länk kan du dela länken med andra för att dirigera dem till uppdateringen.
 
@@ -382,7 +375,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicka på **Bekräfta** <!--<span class="preview">or **Delete**</span>, in the commenting Beta experience-->.
+1. Klicka på **Bekräfta** <span class="preview">eller **Ta bort**</span> i kommenteringsfunktionen Beta.
 
 >[!NOTE]
 >
@@ -409,16 +402,16 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
 ## Aktivera eller inaktivera systemuppdateringar
 
-<!--remove preview with 23.2 production: 
+<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-<div class="preview">
+
+
 >[!NOTE]
 >
->It is not possible to disable system updates when using the Beta commenting experience. 
->The information in this section refers only to functionality available in the current Updtes section. 
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 
-</div>
--->
+><span class="preview">Det går inte att inaktivera systemuppdateringar när du använder betakommentarsfunktionen. </span>
+><span class="preview">Informationen i det här avsnittet gäller endast de funktioner som är tillgängliga i det aktuella uppdateringsavsnittet. </span>
+><span class="preview">Mer information om systemuppdateringar i betaversionen finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+
 
 I uppdateringsavsnittet för ett Workfront-objekt visas två typer av information:
 
