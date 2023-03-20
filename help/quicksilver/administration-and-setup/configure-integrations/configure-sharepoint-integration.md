@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
+source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ Den här åtkomsten beviljas av användaren första gången de använder integre
 
 Tänk på följande när det gäller åtkomst till [!DNL SharePoint] via [!DNL Workfront] [!DNL SharePoint] integrering:
 
+* Behörigheterna som krävs för den här integreringen är **delegerad** behörigheter.
 * [!DNL Workfront] begär den lägsta åtkomstnivå som krävs för att utföra åtgärder i integreringen.
 * Åtkomst till att visa, redigera eller ta bort en [!DNL Adobe Workfront] dokument länkat till [!DNL SharePoint] baseras på användarens åtkomst till [!DNL Workfront]. All navigering, hämtning eller redigering av en [!DNL SharePoint] fil eller mapp kräver åtkomst till [!DNL SharePoint]och åtkomsten till dessa åtgärder styrs av [!DNL SharePoint].
 * Användare kan visa miniatyrbilder och förhandsgranska bilder som hämtats från [!DNL SharePoint]och kan visa fil- och mappnamn i [!DNL SharePoint], utan att logga in [!DNL SharePoint].
