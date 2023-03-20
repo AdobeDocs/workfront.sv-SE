@@ -6,7 +6,7 @@ description: Om du inte har rätt behörighet eller behörighet kanske du inte k
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Följande tabell visar kopplingen mellan den Workfront-plan ditt företag har oc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Workfront Plan</p></td> 
-   <td> <p>Områden där du kan komma åt arbetsbelastningsutjämnaren</p> </td> 
+   <td role="rowheader"><p><b>Workfront Plan</b></p></td> 
+   <td> <p><b>Områden där du kan komma åt arbetsbelastningsutjämnaren</b></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team eller högre </td> 

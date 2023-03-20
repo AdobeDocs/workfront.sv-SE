@@ -5,9 +5,9 @@ title: Enhetlig kommentarsfunktion
 description: Den nya enhetliga kommentarsfunktionen kommer att
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,8 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span>
+   <p><span class="preview">Den här funktionen bör vara tillgänglig med version 23.2 och har tillfälligt fördröjts.</span> 
    </td>
    <td> 
    </td>

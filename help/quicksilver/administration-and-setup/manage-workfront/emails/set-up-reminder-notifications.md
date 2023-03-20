@@ -1,13 +1,13 @@
 ---
 title: Ställ in påminnelsemeddelanden
 description: Ställ in påminnelsemeddelanden
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,15 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
      </tr> 
      <tr> 
       <td role="rowheader">Timing</td> 
-      <td> <p>Välj den händelse som utlöser påminnelsemeddelandet som ska schemaläggas.</p> <p>Om påminnelsemeddelandet är avsett för projekt, aktiviteter eller utgåvor är de tillgängliga alternativen relaterade till Slutförandedatum eller Startdatum. Påminnelsemeddelandet tar hänsyn till tidsstämpeln för slutförande och startdatum för projekt, uppgifter och problem.</p> <p>Om påminnelsemeddelandet är avsett för tidrapporter är de tillgängliga alternativen relaterade till Slutdatum, Startdatum eller Senaste uppdateringsdatum. Påminnelsemeddelandet för tidrapporter tar hänsyn till tidsstämpeln för tidrapporgens slut-, start- och senaste uppdateringsdatum. Tidrapporten börjar vid midnatt på dagen för startdatumet (12:00) och slutar precis före midnatt på slutdatumet (11:59 PM).</p> </td> 
+      <td> <p>Välj den händelse som utlöser påminnelsemeddelandet som ska schemaläggas.</p> <p>Om påminnelsemeddelandet är avsett för projekt, aktiviteter eller utgåvor är de tillgängliga alternativen relaterade till Slutförandedatum eller Startdatum. Påminnelsemeddelandet tar hänsyn till tidsstämpeln för slutförande och startdatum för projekt, uppgifter och problem.</p>
+
+   <p>Om påminnelsemeddelandet är avsett för tidrapporter är de tillgängliga alternativen relaterade till Slutdatum, Startdatum eller Senaste uppdateringsdatum. Påminnelsemeddelandet för tidrapporter tar hänsyn till tidsstämpeln för tidrapporgens slut-, start- och senaste uppdateringsdatum. Tidrapporten börjar vid midnatt på dagen för startdatumet (12:00) och slutar precis före midnatt på slutdatumet (11:59 PM).</p>
+
+   <p><b>ANMÄRKNING</b></p>
+      <p>Påminnelsemeddelanden för tidrapporter distribueras endast en gång var 24:e timme.</p> <p>När du konfigurerar flera påminnelsemeddelanden inom en 24-timmarsperiod skickar Workfront ut ett e-postmeddelande med alla påminnelser som ingår i det meddelandet.</p>
+      <p>Om du till exempel konfigurerar tre påminnelsemeddelanden så att de utlöser 10 timmar före, 2 timmar före och 1 timme före ett förfallodatum, kombineras alla tre påminnelserna i samma meddelande om de inträffar under samma dag.</p> <p>Men om du ställer in ett påminnelsemeddelande för 26 timmar före och ytterligare en för 1 timme före ett förfallodatum får användarna två separata meddelanden. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kriterier</td> 

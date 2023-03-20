@@ -6,9 +6,9 @@ description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '7666'
+source-wordcount: '7705'
 ht-degree: 0%
 
 ---
@@ -270,7 +270,15 @@ Vissa inställningar som nämns i den här artikeln kan ändras från standardst
        <ul> 
        <li> <p><span>När projektet skapas från området Projekt är startgruppen för den som skapat projektet associerad med projektet.</span> </p> <p>Detta gäller också när projektet skapas från avsnittet Projekt i en portfölj eller ett program.</p> </li> 
        <li> <p>När projektet skapas från en grupps huvudsida i inställningsområdet är den gruppen kopplad till projektet.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Om projektet, eller dess uppgifter eller problem redan är kopplade till en godkännandeprocess på gruppnivå med anpassade statusvärden på gruppnivå, kan en ändring av gruppen skapa en konflikt mellan den föregående gruppens godkännandestatus och de som finns på systemnivån. Överväg att ta bort godkännandeprocesserna på gruppnivå för projektet eller dess uppgifter eller problem innan gruppen uppdateras. Mer information om hur du skapar godkännandeprocesser på gruppnivå finns i <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Godkännandeprocesser på gruppnivå</a>. Mer information om hur du skapar en anpassad status på gruppnivå finns i <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Skapa eller redigera en gruppstatus</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>ANTECKNINGAR</b></p>
+
+   <ul>
+      <li><p>Om projektet, eller dess uppgifter eller problem är kopplade till en anpassad status på gruppnivå, kan en ändring av projektgruppen göra att projektets status, uppgifter eller utgåvor ändras så att de matchar den nya gruppen.</p></li>
+      <li><p>Om projektet, eller dess uppgifter eller problem redan är kopplade till en godkännandeprocess på gruppnivå med anpassade statusvärden på gruppnivå, kan en ändring av gruppen skapa en konflikt mellan den föregående gruppens godkännandestatus och de som finns på systemnivån.</p>
+      <p>Överväg att ta bort godkännandeprocesserna på gruppnivå för projektet eller dess uppgifter eller problem innan gruppen uppdateras.</p>
+      <p>Mer information om hur du skapar godkännandeprocesser på gruppnivå finns i <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Godkännandeprocesser på gruppnivå</a>.</p>
+      <p>Mer information om hur du skapar en anpassad status på gruppnivå finns i <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Skapa eller redigera en gruppstatus</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Företag</strong> </td> 

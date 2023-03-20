@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2674'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vi håller på att förändra ditt sätt att uppdatera arbetet när vi använder uppdateringsavsnittet för ett objekt.
->
->Du kommer åt den nya designen genom att aktivera kommenteringsfunktionen Beta.
->
->För närvarande är betaversionen tillgänglig för <span class="preview">problem</span>.
->
+>Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
 >Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>Du kommer åt den nya designen för följande objekt:
+> * <span class="preview">Problem när du aktiverar kommenteringsfunktionen Beta. </span>
+   >
+   >     <span class="preview">Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:</span>
+   >
+   >     * <span class="preview">Startsida</span>
+   >     * <span class="preview">Panelen Sammanfattning i listor</span>
+   >     * <span class="preview">Sammanfattningspanelen i tidrapporter</span>
+>
+> * Mål
+   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 1. Information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Lägga till en uppdatering av ett arbetsobjekt med hjälp av Beta-kommenteringsfunktionen
-
-
->[!NOTE]
->
->Funktionen som beskrivs i det här avsnittet är tillgänglig för följande objekt:
->
->* <span class="preview">När du aktiverar kommenteringsfunktionen Beta får du problem.</span>
-   >
-   >   <span class="preview">Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:</span>
-   >
-   >   * <span class="preview">Startsida</span>
-   >   * <span class="preview">Panelen Sammanfattning i listor</span>
-   >   * <span class="preview">Sammanfattningspanelen i tidrapporter</span>
->* Mål
-
-   >
-   >   Den nya kommentarsupplevelsen är standardupplevelsen för dagens mål.
-   >   Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
 1. Klicka  **Uppdateringar** i den vänstra panelen.

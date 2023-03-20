@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vi håller på att ändra uppdateringsavsnittet för ett objekt. Du kommer åt den nya designen genom att aktivera kommenteringsfunktionen Beta.
+>Vi håller på att ändra uppdateringsavsnittet för ett objekt.
 >
->För närvarande är betaversionen tillgänglig för <span class="preview">problem</span>.
+>Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Du kan komma åt den nya designen från följande objekt och i följande miljöer:
+>
+>* <span class="preview">När du aktiverar betafunktionen för kommentarer för följande objekt:</span>
+   >
+   >     * <span class="preview">Problem</span>
+
+   >     
+   >     <span class="preview">Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:</span>
+   >
+   >     * <span class="preview">Startsida</span>
+   >     * <span class="preview">Panelen Sammanfattning i listor</span>
+   >     * <span class="preview">Sammanfattningspanelen i tidrapporter</span>
+>
+>* Som standard används kommentarsfunktionen för följande objekt:
+   >
+   >     * Mål
+
+   >
+   >     Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
 
@@ -79,9 +98,9 @@ Uppdateringsavsnittet visas för följande objekt:
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-I uppdateringsavsnittet visas information på följande flikar i Beta-kommentarsfunktionen:
+I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
 
-* **Uppdateringar**: Visar kommentarer som gjorts av användare och svar på dessa kommentarer. Information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+* **Kommentarer**: Visar kommentarer som gjorts av användare och svar på dessa kommentarer. Information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 För närvarande kan du göra kommentarer och svara på uppdateringar med hjälp av betakommentarsfunktionen för följande objekt:
@@ -102,14 +121,6 @@ För närvarande kan du göra kommentarer och svara på uppdateringar med hjälp
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->Kommentarsupplevelsen Beta är den aktuella standardupplevelsen för mål. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals.
->
->Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Uppdateringar som också visas på objekt med högre rankning
 

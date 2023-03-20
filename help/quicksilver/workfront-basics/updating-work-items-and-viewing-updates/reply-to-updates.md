@@ -6,9 +6,9 @@ description: När någon lägger till eller svarar i en uppdatering för ett arb
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: ba1d8d5a23da7e252e8c182a6bdb1cdd1e304eab
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -17,22 +17,28 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!-- Drafted for commenting experience: 
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.
 
 >[!NOTE]
 >
->We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
+>Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
-> * Goals
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>Du kommer åt den nya designen för följande objekt:
+> * <span class="preview">Problem när du aktiverar kommenteringsfunktionen Beta. </span>
+   >
+   >     <span class="preview">Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:</span>
+   >
+   >     * <span class="preview">Startsida</span>
+   >     * <span class="preview">Panelen Sammanfattning i listor</span>
+   >     * <span class="preview">Sammanfattningspanelen i tidrapporter</span>
+>
+> * Mål
+   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+   >
+   >    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 När någon svarar på en kommentar eller en systemuppdatering för ett arbetsobjekt visas deras svar i kommunikationstråden i avsnittet Uppdateringar för objektet.
 
@@ -70,11 +76,10 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Svara på en uppdatering eller ett svar
 
-<!--
-Replying to a comment or reply differs depending on which experience and which object you select.
+Hur du svarar på en kommentar eller ett svar varierar beroende på vilken upplevelse och vilket objekt du väljer.
 
-### Reply to an update or reply in the current Updates section
--->
+### Svara på en uppdatering eller ett svar i det aktuella uppdateringsavsnittet
+
 1. Gå till det objekt som du vill lägga till ett svar på.
 1. På **Uppdateringar** Leta reda på den uppdatering eller det svar som du vill svara på.
 
@@ -92,25 +97,25 @@ Replying to a comment or reply differs depending on which experience and which o
 1. (Valfritt) Använd formatering, känslolägesikoner, inkludera länkar eller bilder enligt beskrivningen i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i artikeln [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Klicka **Svara** för att spara svaret.
 
-<!--
-
 <div class="preview">
-### Reply to a comment when using the commenting Beta experience
 
-1. Go to the object to which you want to add a reply.
-1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply. 
-1. Click **Reply**. 
+### Svara på en kommentar när du använder kommenteringsfunktionen Beta
 
-   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. Gå till det objekt som du vill lägga till ett svar på.
+1. Klicka **Uppdateringar** klickar du på **Kommentarer** -fliken för objektet och hitta den kommentar eller det svar som du vill svara på.
+1. Klicka **Svara**.
 
-1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+   Du kan se de användare som aktivt deltar i konversationen längst ned i **Ny kommentar** och du kan lägga till fler eller ta bort de som inte längre är relevanta. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får ett meddelande varje gång en uppdatering eller ett svar görs för objektet. Du kan också tagga fler användare så att de inkluderas i ditt svar.  Om du vill tagga fler användare läser du [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+1. Börja skriva ditt svar och använd eventuella ytterligare alternativ från verktygsfältet RTF. Mer information om hur du använder RTF finns i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
 
-1. Click **Submit** to save the reply.
+1. Klicka **Skicka** för att spara svaret.
+
 </div>
--->
+
 
 
 ## Svara på en uppdatering via e-postmeddelande
