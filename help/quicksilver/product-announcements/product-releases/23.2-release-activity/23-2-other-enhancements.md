@@ -4,9 +4,9 @@ description: 23.2 Andra förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,26 @@ En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvec
 
 Den nya upplevelsen kommer så småningom att göra kommentarerna enhetliga i hela Adobe Workfront och andra delar av Adobe Experience Cloud.
 
-Som en del av den här uppdateringen introducerar vi den nya kommentarsfunktionen i uppdateringsavsnittet. I den aktuella versionen finns det en växlingsknapp som alla användare kan använda för att aktivera den här upplevelsen i sin egen miljö, i betaläge. När betaavtalet har godkänts visas det nya uppdateringsavsnittet och de kan fortsätta att hantera sitt arbete i det avsnittet precis som nu.
+Som en del av den här uppdateringen introducerar vi den nya kommentarsfunktionen i uppdateringsavsnittet. I den aktuella versionen finns det en växlingsknapp som alla användare kan använda för att aktivera den här upplevelsen i sin egen miljö, i betaläge. När du har godkänt betaavtalet visas det nya uppdateringsavsnittet och de kan fortsätta att hantera sitt arbete i det avsnittet som de gör nu.
+
 Liknande funktioner släpptes till Workfront Goals med version 23.1.
 
 Några av funktionerna som ingår i den här uppdateringen är:
 
 * Separata flikar för kommentarer och systemuppdateringar
+
 * Bättre prestanda
 
-Fler funktioner kommer att läggas till i framtida versioner, eftersom de också kommer att läggas till i andra objekt.
+* Realtidsindikator för nya kommentarer.
+   >[!NOTE]
+   >
+   >Versionen av realtidsindikatorn har fördröjts.
+
+* Redigera kommentarer när de har skickats.
+
+I och med den här omdesignen har vi tagit bort möjligheten att lägga till kommentarer i systemuppdateringar.
+
+Fler funktioner kommer att läggas till i framtida versioner eftersom dessa förbättringar fortsätter att läggas till i andra objekt.
 
 Information om vad den nya kommentarsfunktionen erbjuder finns i [Enhetlig kommentarsfunktion](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
