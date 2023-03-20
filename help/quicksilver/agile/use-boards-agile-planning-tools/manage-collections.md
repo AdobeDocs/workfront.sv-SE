@@ -6,9 +6,9 @@ title: Hantera arbetsflöden
 description: Ett arbetsflöde är en konfigurerbar grupp av brädor och kort för samarbete i arbetet.
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Ett arbetsflöde är en konfigurerbar grupp av brädor och kort för samarbete i arbetet. Arbetsströmmar kan innehålla olika typer av anslagstavlor från mallar, <span class="preview">och en kortlista med arbetsuppgifter. I ett arbetsflöde kan du spåra arbete i iterationer eller utskrifter.</span>
 
-<span class="preview">Mer information finns i [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) och [Skapa en iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">Mer information finns i [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) och [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 Arbetsströmmar visas på kontrollpanelen tillsammans med enskilda paneler som du har åtkomst till som inte är en del av ett arbetsflöde. Mer information om panelernas kontrollpanel finns i [Använda panelkontrollpanelen](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Du kan öppna en panel genom att klicka på dess namn.
 
@@ -111,7 +111,7 @@ Personer och team måste läggas till i arbetsflödet som medlemmar innan de kan
 
    Det totala antalet kort, antalet spetsiga kort och antalet iterationer visas i avsnittet Kortlista. Klicka [!UICONTROL **Visa lista**] för att öppna listan och lägga till kort. Mer information finns i [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Om en iteration har definierats visas dess startdatum, antal kort och antal punkter. Klicka [!UICONTROL **Visa upprepningsbord**] för att öppna styrelsen. Mer information finns i [Skapa en iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   Om en iteration har definierats visas dess startdatum, antal kort och antal punkter. Klicka [!UICONTROL **Visa upprepningsbord**] för att öppna styrelsen. Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Klicka [!UICONTROL **Lägg till källa**] för att definiera en källa för import av kort till arbetsflödet. För närvarande är den enda tillgängliga källan [!DNL Adobe Workfront].
 1. Lägg till filter för att importera uppgifter och utgåvor från Workfront som kort.

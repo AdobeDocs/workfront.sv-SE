@@ -6,9 +6,9 @@ title: Använda kortlistan
 description: Du kan skapa en kortlista i en arbetsström och lägga till korten i iterationer.
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Klicka på X för att rensa sökningen.
 
 >[!NOTE]
 >
->Du måste skapa en iteration innan du kan lägga till kort i den. Mer information finns i [Skapa en iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>Du måste skapa en iteration innan du kan lägga till kort i den. Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Åtkomst till kortlistan för arbetsflödet.
 1. Välj [!UICONTROL **Iterationsvy**] för att se vilka kort som har tilldelats en iteration och som är oplanerade.
