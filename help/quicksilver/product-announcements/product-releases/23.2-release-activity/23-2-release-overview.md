@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -484,7 +484,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsfunktion för utgåvor Beta</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsfunktion för utgåvor Beta<span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></a>
                         <p>En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för vissa objekt. </p>
                         <p>Den nya upplevelsen kommer så småningom att göra kommentarerna enhetliga i hela Adobe Workfront och andra delar av Adobe Experience Cloud. </p>
                     </td>

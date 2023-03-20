@@ -4,9 +4,9 @@ description: 23.2 Andra förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ I och med den här omdesignen har vi tagit bort möjligheten att lägga till kom
 Fler funktioner kommer att läggas till i framtida versioner eftersom dessa förbättringar fortsätter att läggas till i andra objekt.
 
 Information om vad den nya kommentarsfunktionen erbjuder finns i [Enhetlig kommentarsfunktion](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Exportera ritytor som enstaka PDF eller flera PDF i Adobe Workfront för XD
 
