@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: db62d7361f6d432c2ac8846938de4bc437923295
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >[!NOTE]
    >
    >Du kan filtrera inloppskolumnen så att den innehåller både uppgifter och problem, men du måste konfigurera filtren separat för varje objekttyp.
+   >
+   >Du kan också välja sparade filter och systemstandardfilter.
 
 1. Klicka på **[!UICONTROL New filter]** för att komma igång.
 

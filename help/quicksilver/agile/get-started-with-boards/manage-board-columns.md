@@ -6,9 +6,9 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -116,12 +116,11 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
 
       ![Status för kolumner](assets/boards-column-status.png)
 
-      Statusöversättningsalternativen för anslutna kort visas också. (Statusöversättning gäller inte för ad hoc-kort.) Dessa alternativ avgör vilken status som används för uppgiften eller utgåvan i [!DNL Workfront] när ett anslutet kort flyttas till den här kolumnen.
+      Statusöversättningsalternativen för anslutna kort visas också. (Statusöversättning gäller inte för ad hoc-kort.) Dessa alternativ avgör vilken anpassad status som används för uppgiften eller utgåvan i [!DNL Workfront] när ett anslutet kort flyttas till den här kolumnen.
 
-   1. Klicka på knappen **[!UICONTROL Edit]** icon ![Ikonen Redigera](assets/edit-icon-spectrum.png).
-   1. Om du använder tidiga funktioner: Välj en [!UICONTROL **Egen**] status som ska gälla för kortet, för både uppgifter och ärenden.
+   1. Om du använder tidiga funktioner: Välj en [!UICONTROL **Egen**] status som ska gälla för kortet för uppgifter och för utgåvor.
 
-      När ett kort flyttas till den här kolumnen [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Stängt). Systemstatusen är den status du valde i steg b ovan.
+      När ett kort flyttas till den här kolumnen [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den valda anpassade statusen inte är tillgänglig för det kortet uppmanas du att välja en annan status som motsvarar systemstatusen (från steg b ovan).
 
       Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.
 
