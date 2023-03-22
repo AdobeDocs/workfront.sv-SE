@@ -6,14 +6,16 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 0d53b8651da3602e6f3233597680eede55f847a1
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # Hantera målkommentarer i Adobe Workfront-mål
+
+<!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
@@ -149,16 +151,28 @@ Detta öppnar mållistan.
    >
    >   <span class="preview">Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.</span>
 
+   <!-- <div class="preview">
+   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+
+      * **Copy update link** to copy the link of an update, without the replies.
+      * **Copy thread link** to copy the link of an update, including the replies.
+      * **Copy body text** to copy the text of an update. 
+
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+   </div>
+   -->
+
 1. Klicka **Skicka**.
 
-   <!--drafted for 23.2 beta release: 
-      >[!TIP]
-      >
-      >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
-      >
-      ><span class="preview">The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience.</span>
-      >
-      >![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar visas en röd linje med en ny indikator som informerar dig om de nyare kommentarerna.
+   >
+   >Indikatorn visas bara när kommentaren har skickats för objektet och inte när kommentaren fortfarande är sammansatt.
+   >
+   >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 5-9 ovan. <!--insure this stays accurate-->
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png) för att gilla en kommentar som någon annan har lagt till. Ikonen uppdateras med antalet gilla-markeringar.

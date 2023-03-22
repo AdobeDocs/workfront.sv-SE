@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -183,13 +183,14 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 
 1. Information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
+<div class="preview">
+
 ### Lägga till en uppdatering av ett arbetsobjekt med hjälp av Beta-kommenteringsfunktionen
 
 1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
 1. Klicka  **Uppdateringar** i den vänstra panelen.
-1. <span class="preview">Klicka **Testa kommenteringen av betaversionen** i uppdateringsområdets nedre högra hörn och klicka sedan på **Godkänn** på betaavtalet. Detta växlar uppdateringsområdet till kommenteringsfunktionen Beta. </span>
-The 
-**Kommentarer** -fliken är markerad som standard.
+1. Klicka **Testa kommenteringen av betaversionen** i uppdateringsområdets nedre högra hörn och klicka sedan på **Godkänn** på betaavtalet. Detta växlar uppdateringsområdet till kommenteringsfunktionen Beta.
+The **Kommentarer** -fliken är markerad som standard.
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -211,23 +212,26 @@ The
 
    Mer information finns i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i den här artikeln. <!--remove this list, above, when we get to parity for Rich Text-->
 
-   <!--not available yet in preview - should be live with production: format this as a TIP: 
-      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
-      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar visas en röd linje med en ny indikator som informerar dig om de nyare kommentarerna.
+   >
+   >Indikatorn visas bara när kommentaren har skickats för objektet och inte när kommentaren fortfarande är sammansatt.
+   >
+   >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 
 1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
-1. <span class="preview">(Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.</span>
-1. <span class="preview">Redigera informationen i kommentaren eller ta bort någon av de taggade användarna. </span>
-
-   <span class="preview">Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades. </span>
+1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
+1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna.
+Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.</span>
+   >   Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-7 ovan. <!--(**************insure this stays accurate***********)-->. Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png). Ikonen uppdateras med antalet gilla-markeringar.
 1. (Villkorligt och Valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
@@ -241,6 +245,7 @@ The
    >
    >Du kan inte lägga till en kommentar i en systemuppdatering.
 
+</div>
 
 ## Använda RTF i en Workfront-uppdatering
 

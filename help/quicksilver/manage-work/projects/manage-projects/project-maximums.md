@@ -7,9 +7,9 @@ description: Adobe Workfront har gränser för hur många objekt som kan kopplas
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,20 @@ Följande objekt som är associerade med projekt har följande gränser:
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Uppgifter</p></td> 
-   <td>  <p>Det högsta antalet uppgifter per projekt är 5 000. Ett varningsmeddelande visas när antalet uppgifter närmar sig det maximala antalet. När det maximala antalet nås visas ett felmeddelande och ytterligare uppgifter kan inte läggas till i projektet.</p> <p>Flytta aktiviteter som är stängda till ett annat projekt som är avsett för stängda aktiviteter för att undvika att uppnå det maximala antalet. Rapporterna om dessa projekt kan behöva justeras.</p> </td> 
+   <td>  <p>Det högsta antalet uppgifter per projekt är 5 000. Ett varningsmeddelande visas när antalet uppgifter närmar sig det maximala antalet. När det maximala antalet nås visas ett felmeddelande och ytterligare uppgifter kan inte läggas till i projektet.</p> <p>Flytta aktiviteter som är stängda till ett annat projekt som är avsett för stängda aktiviteter för att undvika att uppnå det maximala antalet. Rapporterna om dessa projekt kan behöva justeras.</p>
+
+<b>VIKTIGT</b>
+
+För projekt där aktiviteter har många beroenden rekommenderar vi att antalet uppgifter i projekten är mycket lägre än det högsta tillåtna antalet på 5 000 uppgifter.
+
+Några exempel på aktivitetssamband som kan påverka eller förhindra omberäkning av projektets tidslinje är:
+
+<ul><li>Antal underordnade</li>
+   <li>Indrag för flera nivåer av uppgifter</li>
+   <li>Antal föregångare</li>
+   <li>Flera tilldelningar</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Problem</p></td> 
