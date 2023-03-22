@@ -6,9 +6,9 @@ description: Du kan installera Workfront for Creative Cloud från Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -119,8 +119,11 @@ Så här installerar du [!DNL Adobe Workfront for design and video] plugin-progr
 
    >[!TIP]
    >
-   >Om du vill hitta din domän öppnar du en webbläsare och navigerar till [!DNL Workfront] -instans och kopiera den första delen av URL:en:\
-   >![](assets/domain-350x50.png)   >
+   >* Om du vill hitta din domän öppnar du en webbläsare och navigerar till [!DNL Workfront] -instans och kopiera den första delen av URL:en:\
+      >![](assets/domain-350x50.png)
+   >
+   > * Om din Workfront-instans är integrerad med Experience Cloud ber du din administratör att ge dig den Workfront-domän som finns under Product > Workfront i Admin Console.
+
 
 1. I webbläsaren anger du [!DNL Workfront] inloggningsuppgifter och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 
