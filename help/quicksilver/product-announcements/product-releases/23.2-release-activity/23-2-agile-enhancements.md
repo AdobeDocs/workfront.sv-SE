@@ -4,9 +4,9 @@ description: 23.2 Agile-förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Den här sidan beskriver alla smidiga förbättringar som gjorts i version 23.2 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
 En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Lägga till uppgifter och problem från objektinformation på en Workfront-arbetsyta eller i ett arbetsflöde
+
+Nu kan du lägga till befintliga uppgifter eller problem i en lista med Workfront-kort eller arbetsflödeskort direkt från objektinformationen. Alla objekt som du lägger till på en anslagstavla blir anslutna kort och alla objekt som läggs till i en arbetsström läggs till i kortlistan som oplanerade kort.
+
+Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Iterationsfunktioner som finns i Adobe Workfront Boards
 
@@ -28,6 +34,8 @@ Flera nya funktioner som finns på Workfront Boards gör det möjligt att använ
 Observera att samlingar har bytt namn till arbetsflöden. Med arbetsflöden kan ni visualisera data på olika sätt. Du kan visa objekt på kort i en lista, på en bräda eller på en iteration. Kort i en arbetsström kan också delas mellan flera ritytor. Du kan enkelt underlätta arbetsflöden med kort och kort i en arbetsström.
 
 Mer information finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)och [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Två andra artiklar är inte tillgängliga i Main förrän jag publicerar min gren.
+
+[Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Lägga till uppgifter och problem från listor och rapporter till en lista med arbetsflödeskort
 

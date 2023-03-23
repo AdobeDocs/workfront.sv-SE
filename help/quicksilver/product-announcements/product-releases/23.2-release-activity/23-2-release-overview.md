@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iterationsfunktioner som finns i Adobe Workfront Boards</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från objektinformation på en Workfront-arbetsyta eller i ett arbetsflöde</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Nu kan du lägga till befintliga uppgifter eller problem i en lista med Workfront-kort eller arbetsflödeskort direkt från objektinformationen. Alla objekt som du lägger till på en anslagstavla blir anslutna kort och alla objekt som läggs till i en arbetsström läggs till i kortlistan som oplanerade kort.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 23 mars 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease: Med version 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iterationsfunktioner som finns i Adobe Workfront Boards</a></p>
                         <p>Flera nya funktioner som finns på Workfront Boards gör det möjligt att använda den flexibla Scrum-funktionen. Bland dessa funktioner finns:
                         <ul>
                         <li>Arbetsflöden för att gruppera anslagstavlor som hör till samma team och för samarbete i arbetsgrupper</li>
@@ -138,7 +154,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från listor och rapporter till en lista med arbetsflödeskort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från listor och rapporter till en lista med arbetsflödeskort</a></p>
                         <p>Nu kan du lägga till befintliga uppgifter eller problem i ett arbetsflöde i Workfront Boards direkt från en list- eller rapportvy. Alla objekt som du lägger till i arbetsflödet läggs till i kortlistan som oplanerade kort.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -154,7 +170,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till anpassade fält på kort på en anslagstavla</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till anpassade fält på kort på en anslagstavla</a></p>
                         <p>Nu kan du inkludera anpassade fält på Adobe Workfront Boards. Fältet måste redan ha skapats i Workfront. Du kan inte designa och skapa nya anpassade fält på en anslagstavla.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -484,7 +500,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsfunktion för utgåvor Beta<span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsfunktion för utgåvor Beta</a>
                         <p>En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för vissa objekt. </p>
                         <p>Den nya upplevelsen kommer så småningom att göra kommentarerna enhetliga i hela Adobe Workfront och andra delar av Adobe Experience Cloud. </p>
                     </td>
