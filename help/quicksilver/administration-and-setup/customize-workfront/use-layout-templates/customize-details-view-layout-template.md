@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Anpassa detaljvyn med hjälp av en layoutmall
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
 
 Som Adobe Workfront-administratör kan du använda en layoutmall för att bestämma vilken information som ska visas när en användare klickar på ikonen Detaljer ![](assets/project-details-icon.png) i den vänstra panelen när du visar en uppgift, ett problem, ett dokument, ett program eller en portfölj.
 

@@ -7,16 +7,16 @@ description: Du kan inte diagramma en rapport med ett anpassat fält som har fle
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Diagrama en rapport med ett anpassat fält som har flera val
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
 
 Du kan inte diagramma en rapport med ett anpassat fält som har flera val. Du måste skapa ytterligare ett beräkningsfält som refererar till det anpassade fältet för flera val för att kunna diagram rapporten med värdet för det anpassade fältet för flera val.
 

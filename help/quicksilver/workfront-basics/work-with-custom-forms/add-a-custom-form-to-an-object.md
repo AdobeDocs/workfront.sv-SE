@@ -7,16 +7,16 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett anpassat formulär i ett objekt
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
 
 Du kan lägga till ett befintligt anpassat formulär till något av objekten som listas nedan. Ett anpassat formulär innehåller anpassade fält där du kan lagra information om objektet.
 

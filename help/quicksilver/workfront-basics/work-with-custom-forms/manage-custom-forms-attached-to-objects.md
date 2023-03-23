@@ -6,16 +6,16 @@ description: Du kan uppdatera den ordning i vilken anpassade formulär som är k
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
 
 # Hantera anpassade formulär som är kopplade till objekt
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
 
 Du kan uppdatera den ordning i vilken anpassade formulär som är kopplade till ett objekt visas, tas bort eller gruppredigera hur anpassade formulär visas på flera objekt.
 
