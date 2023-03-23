@@ -6,9 +6,9 @@ description: Några av skälen till att exportera data är - REDIGERA MIG.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Information kan exporteras i följande format:
 ### Exportbegränsningar {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 Det finns flera begränsningar för hur rapporter visas i Workfront och hur de exporteras via manuell export, en levererad rapport eller via API:t.
@@ -106,9 +106,13 @@ Det finns flera begränsningar för hur rapporter visas i Workfront och hur de e
    * För Excel .xlsx-filer är den här gränsen **100 000 rader**.
    * Dessa begränsningar utesluter kolumnrubriker samt rader för grupperingar i rapporten. Om du till exempel har 6 grupperingar i en rapport och 50 000 rader eller data, kommer den exporterade filen att ha 50 000 rader.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Om rapporten innehåller fler objekt än dessa gränser visas ett felmeddelande om att exporten inte lyckas. Minska antalet objekt som visas på skärmen till ett tal som är mindre än eller lika med dessa gränser för att kunna exportera resultaten.
+   >Om du exporterar en rapport som innehåller en samlingsreferens i en kolumn kan det resultera i ett fel, även om rapporten annars ligger inom de angivna exportgränserna. Om den refererade mängden är för stor, tar exportprocessen för lång tid och resulterar i ett fel.
+   >
+   >För att undvika det här felet bör du antingen exkludera kolumner som refererar till stora samlingar eller minska storleken på de refererade samlingarna innan du exporterar.
+
+   Om rapporten innehåller fler objekt än dessa gränser visas ett felmeddelande om att exporten inte lyckas. Minska antalet objekt som visas på skärmen till ett tal som är mindre än eller lika med dessa gränser för att kunna exportera resultaten.
 
    Om din rapport innehåller fler än 50 000/65 000/100 000 rader och du vill exportera alla data, rekommenderar vi att du använder filter eller uppmaningar för att få mindre datamängder och utföra flera exporter.
 
