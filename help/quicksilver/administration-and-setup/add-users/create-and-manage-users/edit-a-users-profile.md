@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -91,10 +91,16 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td role="rowheader">Inställningar </td> 
       <td> 
        <ul> 
-        <li> <p><b>Tidszon:</b> Användarens tidszon.</p> <p>Mer information om hur du kan hjälpa användare att samarbeta i Workfront över olika tidszoner finns i <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeta över tidszoner</a>.</p> </li> 
-        <li><b>Språk för e-post</b>: Användarens förvalda e-postspråk. Detta påverkar formatet för siffror och datum i e-postmeddelanden som kommer från Workfront.</li> 
-        <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill att ett procenttal ska vara klart i området Uppdatera för den här användarens uppgifter.</li> 
-        <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användaren tilldelar sig ska visas direkt på fliken Arbeta med. Som standard visas allt som tilldelats en användare på fliken Arbetsbegäran.</li> 
+      <li> <p><b>Tidszon:</b> Användarens tidszon.</p> <p>Mer information om hur du kan hjälpa användare att samarbeta i Workfront över olika tidszoner finns i <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeta över tidszoner</a>.</p> </li> 
+       <li><b>Språk för e-post</b>: Användarens förvalda e-postspråk. Detta påverkar formatet för siffror och datum i e-postmeddelanden som kommer från Workfront.</li>
+
+   <li><b>Ta emot e-postmeddelanden från den här testmiljön</b>: Markera det här alternativet om du vill få e-postmeddelanden från den miljö som du är inloggad i.
+      <p><b>ANMÄRKNING</b></p>
+      Det här alternativet är bara tillgängligt i förhandsgransknings- och sandlådemiljöer. E-postmeddelanden är som standard aktiverade i produktionsmiljön. 
+      </li>
+
+   <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill att ett procenttal ska vara klart i området Uppdatera för den här användarens uppgifter.</li> 
+       <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användaren tilldelar sig ska visas direkt på fliken Arbeta med. Som standard visas allt som tilldelats en användare på fliken Arbetsbegäran.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
