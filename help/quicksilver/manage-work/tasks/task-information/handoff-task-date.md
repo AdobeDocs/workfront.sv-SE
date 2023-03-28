@@ -7,9 +7,9 @@ description: Leveransdatumet är det datum då en uppgift blir tillgänglig för
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Workfront använder följande regler för att beräkna leveransdatum för en upp
 
    Följande scenarier finns:
 
-   * När aktiviteten har begränsningen Måste börja den eller börja inte tidigare än är leveransdatumet begränsningsdatumet, såvida det inte finns ett faktiskt startdatum för aktiviteten. Om det finns ett faktiskt startdatum för aktiviteten är leveransdatumet det faktiska slutförandedatumet för föregående aktivitet.
+   * När aktiviteten har begränsningen Måste börja den eller Start inte tidigare än, är leveransdatumet begränsningsdatumet, såvida det inte finns ett faktiskt startdatum för aktiviteten. Om det finns ett faktiskt startdatum för aktiviteten är leveransdatumet det faktiska slutförandedatumet för föregående aktivitet.
    * När aktiviteten har begränsningen Måste avslutas den eller starta inte senare än är datumet för leverans alltid föregående, oavsett om det finns ett faktiskt startdatum för aktiviteten eller inte.
    * När aktiviteten har en begränsning med fasta datum är leveransdatumet det planerade startdatumet för aktiviteten, oavsett om den har en föregångare eller inte och oavsett om den har slutförts eller inte.
 
