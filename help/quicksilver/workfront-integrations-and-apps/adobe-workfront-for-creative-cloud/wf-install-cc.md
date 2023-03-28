@@ -6,9 +6,9 @@ description: Du kan installera Workfront for Creative Cloud från Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
+source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Plugin-programmet har stöd för följande språk:
 * Portugisiska
 * Förenklad kinesiska
 * Traditionell kinesiska
-
-<!-- * Korean -->
+* Koreanska
 
 >[!NOTE]
 >

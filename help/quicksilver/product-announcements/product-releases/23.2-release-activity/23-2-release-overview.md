@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -496,6 +496,26 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nyheter för Workfront for Creative Cloud plugins</a>
+                        <p>Vi har lagt till följande ändringar i plugin-programmen för Workfront för Creative Cloud:
+                        <ul>
+                        <li>Insticksprogrammet meddelar dig nu när en aktivitet har en föregångare</li>
+                        <li>Koreanska stöds nu som språk</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Ej tillämpligt<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Produktionsrelease: 23 mars 2023 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

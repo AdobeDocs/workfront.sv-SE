@@ -6,9 +6,9 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
+source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,7 @@ Du kan installera [!DNL Adobe Workfront for Photoshop] plugin-program från [!DN
 * Japanska
 * Förenklad kinesiska
 * Traditionell kinesiska
-
-<!-- * Korean -->
+* Koreanska
 
 ## Åtkomstkrav
 

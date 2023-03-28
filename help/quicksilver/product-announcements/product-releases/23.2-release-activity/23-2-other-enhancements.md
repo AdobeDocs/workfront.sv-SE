@@ -4,9 +4,9 @@ description: 23.2 Andra förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 Den här sidan beskriver alla andra förbättringar som gjorts i version 23.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
 En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Nyheter för Workfront for Creative Cloud plugins
+
+Vi har lagt till följande ändringar i plugin-programmen för Workfront för Creative Cloud:
+
+* Insticksprogrammet meddelar dig nu när en aktivitet har en föregångare
+* Koreanska stöds nu som språk
 
 ## Ny kommentarsfunktion för utgåvor Beta
 

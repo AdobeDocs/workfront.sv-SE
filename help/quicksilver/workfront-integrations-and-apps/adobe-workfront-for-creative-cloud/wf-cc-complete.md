@@ -6,9 +6,9 @@ description: Du kan vara kvar i Adobe Creative Cloud-programmen och slutföra ar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ Kontakta [!DNL Workfront] administratör.
 
 1. Från **[!UICONTROL Work List]** väljer du den uppgift eller det problem som du vill markera som slutförd.
 1. Klicka på **[!UICONTROL Done]**.\
-   Detta markerar objektet som är färdigt i Workfront.\
-   ![](assets/complete-work-350x529.png)
+   Detta markerar objektet som är färdigt i Workfront.
+
+   >[!NOTE]
+   >
+   >Om arbetsposten har föregångare är knappen Klar grå tills dessa föregångare har markerats som slutförda. Så här visar du föregångare i [!DNL Workfront]klickar du på uppgiftsnamnet.
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
