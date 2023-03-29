@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
 workflow-type: tm+mt
-source-wordcount: '2689'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.2 Versionsöversikt
 
-Den här sidan innehåller information om funktioner som ingår i version 23.2 som är planerad till april 2023.
+Den här sidan innehåller information om de funktioner som ingår i version 23.2 som är planerad till den 3 april 2023.
 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan uppdateras med ytterligare förbättringar när version 23.2 närmar sig den planerade produktionsversionen.
 
