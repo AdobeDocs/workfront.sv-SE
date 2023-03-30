@@ -6,9 +6,9 @@ description: Konvertera ett problem till ett projekt i Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Om mer arbete behöver göras för att slutföra ett problem efter att utgåvan 
 Du kan konvertera ett ärende till ett nytt projekt eller konvertera det till ett projekt med hjälp av en mall. I den här artikeln beskrivs båda sätten att konvertera problem till projekt.
 
 Allmän information om hur du konverterar problem finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+När du skapar ett projekt från ett problem fylls vissa av fälten i från andra objekt. Mer information finns i avsnittet&quot;Nya standardinställningar för projekt&quot; i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Åtkomstkrav
 
@@ -80,7 +82,7 @@ Du kan konvertera en utgåva till ett tomt projekt eller konvertera en utgåva t
       >[!TIP]
       >   
       >* Om problemet skapades med en frågekö ärver det nya projektet gruppen för begärandekön.
-      >* Om problemet skapades genom att det lades till i avsnittet Problem i projektet ärver det nya projektet gruppen om problemet uppstod.
+      >* Om problemet skapades genom att det lades till i avsnittet Problem i projektet ärver det nya projektet gruppen för problemprojektet.
 
 
    * Gör något av följande om du vill konvertera ett ärende till ett projekt med en mall:

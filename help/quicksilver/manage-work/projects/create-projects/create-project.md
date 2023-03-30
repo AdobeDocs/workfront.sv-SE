@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Skapa ett projekt
-description: (Obs! Detta är länkat från användargränssnittet från det globala navigeringsavsnittet Projekt i klassiskt format. Ändra/ta inte bort)
+description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa projekt från grunden, använda en mall eller genom att konvertera utgåvor eller uppgifter till projekt.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,21 @@ Tänk på följande:
 * Workfront tillämpar inställningarna för gruppen, om det finns några, innan den tillämpar inställningarna som angetts av Workfront-administratören.
 * Om du skapar ett projekt med hjälp av en mall har inställningarna från mallen företräde framför de inställningar som har angetts av Workfront- eller gruppadministratören.
 
->[!NOTE]
->
->Vi rekommenderar att standardstatusen för ett nytt projekt är Planering. När du gör ändringar i det nya projektet ser det till att meddelanden inte utlöses för de användare som är tilldelade till projektet.
+   >[!NOTE]
+   >
+   >Vi rekommenderar att standardstatusen för ett nytt projekt är Planering. När du gör ändringar i det nya projektet ser det till att meddelanden inte utlöses för de användare som är tilldelade till projektet.
+   >
+   >Mer information om hur du ställer in standardstatus och andra standardinställningar för ett nytt projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-Mer information om hur du ställer in standardstatus och andra standardinställningar för ett nytt projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront definierar det nya projektets grupp och status enligt följande:
 
+   * Standardstatusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för en grupp.
 
+   * Det nya projektets grupp är mallgruppen. Om mallen inte är associerad med en grupp är projektgruppen hemgruppen för den användare som skapar projektet.
+
+   * Statuserna som är tillgängliga för ett nytt projekt matchar statusvärdena för den grupp av projektet som är antingen mallgruppen eller hemgruppen för användaren som skapar projektet.
+
+   * Gruppen för ett nytt projekt som skapas genom konvertering av ett problem till ett projekt är gruppen för problemets befintliga projekt. Om den användare som konverterar problemet inte har tillgång till problemets projekt är det nya projektets grupp hemgruppen för den användare som konverterar problemet. Det nya projektets status matchar gruppstatusarna för gruppen som är associerad med projektet, som antingen är gruppen för det ursprungliga projektet eller hemgruppen för användaren som konverterar problemet.
 
 ## Skapa ett projekt från grunden
 

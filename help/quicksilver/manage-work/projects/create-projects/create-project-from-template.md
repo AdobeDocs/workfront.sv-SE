@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Skapa ett projekt med en mall
-description: Du kan använda mallar som ett ramverk för att skapa nya projekt. Om du har projekt som upprepas ofta kan du spara tid genom att använda mallar för den allmänna tidslinjen i det nya projektet.
+description: Du kan använda mallar som ett ramverk för att skapa projekt. Om du har projekt som upprepas ofta kan du spara tid genom att använda mallar för den allmänna tidslinjen i det nya projektet.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
 
 # Skapa ett projekt med en mall
 
-Du kan använda mallar som ett ramverk för att skapa nya projekt. Om du har projekt som upprepas ofta kan du spara tid genom att använda mallar för den allmänna tidslinjen i det nya projektet.
+Du kan använda mallar som ett ramverk för att skapa projekt. Om du har projekt som upprepas ofta kan du spara tid genom att använda mallar för den allmänna tidslinjen i det nya projektet.
 
-Med mallar kan du hämta alla repeterbara processer, information och inställningar som är kopplade till dina projekt. All information som är kopplad till en mall överförs till projektet. Detta inkluderar uppgifter, uppdrag, varaktighet, dokument, ekonomisk information, risker och anpassade formulär.
+Med mallar kan du hämta upprepningsbara processer, information och inställningar som är kopplade till dina projekt. Informationen som är kopplad till en mall överförs till projektet. Detta inkluderar uppgifter, uppdrag, varaktighet, dokument, ekonomisk information, risker och anpassade formulär.
 
 >[!TIP]
 >
->Statusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för en grupp. Mer information om hur du konfigurerar projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfront definierar det nya projektets grupp och status enligt följande:
+>
+>* Standardstatusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för en grupp. Mer information om hur du konfigurerar projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* Det nya projektets grupp är mallgruppen. Om mallen inte är associerad med en grupp är projektgruppen hemgruppen för den användare som skapar projektet.
+>
+>* Statuserna som är tillgängliga för ett nytt projekt matchar statusvärdena för den grupp av projektet som är antingen mallgruppen eller hemgruppen för användaren som skapar projektet.
+
 
 Du har följande alternativ för att skapa ett projekt från en mall:
 
