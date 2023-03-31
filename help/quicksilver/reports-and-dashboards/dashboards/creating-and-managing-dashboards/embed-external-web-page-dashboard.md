@@ -6,9 +6,9 @@ description: Du kan bädda in en extern webbsida i en instrumentpanel för att g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 
 >[!IMPORTANT]
 >
->Instrumentpanelssidor stöds inte längre som inbäddade externa sidor i Dashboards. Följande Workfront.com-underdomäner stöds inte längre:
+>Instrumentpanelssidor stöds inte längre som inbäddade externa sidor i Dashboards. Befintliga kontrollpaneler ändras inte automatiskt för att ta bort dessa externa sidor, men ändringar av en kontrollpanel som innehåller en sådan referens kan inte sparas förrän referensen tas bort eller ändras.
+>
+>Följande Workfront.com-underdomäner stöds inte längre:
 >
 >* /dashboards &#x200B;
 >* /dashboard/ID-&#x200B;
@@ -44,7 +46,8 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 >* /requests/:ID/content-dashboard__:dashboardID &#x200B;
 >* /group/:ID/content-dashboard__:dashboardID &#x200B;
 >* /billingrecord/:ID/content-dashboard__:dashboardID
-
+>
+>Som en alternativ lösning kan du överväga att ta med en listrapport på kontrollpanelen enligt beskrivningen i [Lägga till en rapport på en instrumentpanel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Åtkomstkrav
 

@@ -4,9 +4,9 @@ description: Tips, tricks och felsökning för [!DNL Adobe Workfront] Grunderna
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Dubblerade godkännandeprocesser visas i [!UICONTROL Home Work List]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [Filterknappar visas inte i sidhuvuden](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Ändra format för datum i [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-
-
+* [Projekt som jag är på-filter innehåller oväntade resultat](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)

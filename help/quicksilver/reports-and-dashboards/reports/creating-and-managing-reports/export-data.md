@@ -6,9 +6,9 @@ description: Några av skälen till att exportera data är - REDIGERA MIG.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Det finns flera begränsningar för hur rapporter visas i Workfront och hur de e
 
    >[!IMPORTANT]
    >
-   >Om du exporterar en rapport som innehåller en samlingsreferens i en kolumn kan det resultera i ett fel, även om rapporten annars ligger inom de angivna exportgränserna. Om den refererade mängden är för stor, tar exportprocessen för lång tid och resulterar i ett fel.
+   >Om du exporterar en rapport som innehåller en samlingsreferens i en kolumn kan det resultera i ett fel, även om rapporten annars ligger inom de angivna exportgränserna. Om den refererade samlingen är för stor, kommer exportprocessen att få en timeout och resultera i ett fel.
    >
    >För att undvika det här felet bör du antingen exkludera kolumner som refererar till stora samlingar eller minska storleken på de refererade samlingarna innan du exporterar.
 
