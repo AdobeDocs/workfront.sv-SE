@@ -6,9 +6,9 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
+source-git-commit: 9125e2f7dbff41625166dcd358bab44d7c1b971b
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -123,9 +123,9 @@ När du skapar ett projekt använder Workfront en uppsättning standardinställn
 
 Tänk på följande:
 
-* Som Workfront-administratör eller gruppadministratör kan du konfigurera standardinställningarna för ett nytt projekt när du konfigurerar projektinställningar.
+* Som Workfront-administratör eller gruppadministratör kan du konfigurera standardinställningarna för ett nytt projekt när du konfigurerar projektinställningar för din Workfront-instans eller för en grupp.
 * Workfront tillämpar inställningarna för gruppen, om det finns några, innan den tillämpar inställningarna som angetts av Workfront-administratören.
-* Om du skapar ett projekt med hjälp av en mall har inställningarna från mallen företräde framför de inställningar som har angetts av Workfront- eller gruppadministratören.
+* Standardstatusen för ett nytt projekt motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för en grupp.
 
    >[!NOTE]
    >
@@ -133,15 +133,23 @@ Tänk på följande:
    >
    >Mer information om hur du ställer in standardstatus och andra standardinställningar för ett nytt projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-* Workfront definierar det nya projektets grupp och status enligt följande:
+* Följande scenarier gäller för hur Workfront definierar gruppen och statusen för ett nytt projekt:
 
-   * Standardstatusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för en grupp.
+   * Om du skapar ett projekt från grunden är projektgruppen din hemgrupp.
 
-   * Det nya projektets grupp är mallgruppen. Om mallen inte är associerad med en grupp är projektgruppen hemgruppen för den användare som skapar projektet.
+      Projektets status är standardstatus i Projektinställningar i din hemgrupp, om det finns någon, eller i din Workfront-instans. Du kan ändra standardstatus när du skapar projektet till vilken status som helst som är tillgänglig för Projektgruppen.
 
-   * Statuserna som är tillgängliga för ett nytt projekt matchar statusvärdena för den grupp av projektet som är antingen mallgruppen eller hemgruppen för användaren som skapar projektet.
+   * Om du skapar ett projekt med hjälp av en mall har inställningarna från mallen företräde framför de inställningar som har angetts av Workfront- eller gruppadministratören.
 
-   * Gruppen för ett nytt projekt som skapas genom konvertering av ett problem till ett projekt är gruppen för problemets befintliga projekt. Om den användare som konverterar problemet inte har tillgång till problemets projekt är det nya projektets grupp hemgruppen för den användare som konverterar problemet. Det nya projektets status matchar gruppstatusarna för gruppen som är associerad med projektet, som antingen är gruppen för det ursprungliga projektet eller hemgruppen för användaren som konverterar problemet.
+      Det nya projektets grupp är mallgruppen. Om mallen inte är associerad med en grupp är projektgruppen hemgruppen för den användare som skapar projektet.
+
+      Standardstatusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för gruppen. Du kan ändra standardstatus när du skapar ett projekt från en mall, till någon av statusvärdena för den grupp av projektet som är antingen mallgruppen eller hemgruppen för den användare som skapar projektet.
+
+   * Om du skapar ett projekt genom att konvertera ett problem, är gruppen för ett nytt projekt gruppen för problemets befintliga projekt. Om den användare som konverterar problemet inte har tillgång till problemets projekt eller om problemets projekt inte har någon grupp, är gruppen för det nya projektet hemgruppen för den användare som konverterar problemet.
+
+      Det nya projektets status matchar gruppstatusarna för gruppen som är associerad med projektet, som antingen är gruppen för det ursprungliga projektet eller hemgruppen för användaren som konverterar problemet.
+
+      Om du använder en mall när du skapar projektet genom att konvertera problemet, se det andra scenariot ovan för att ta reda på vilken grupp och vilken status Workfront gäller för det nya projektet.
 
 ## Skapa ett projekt från grunden
 

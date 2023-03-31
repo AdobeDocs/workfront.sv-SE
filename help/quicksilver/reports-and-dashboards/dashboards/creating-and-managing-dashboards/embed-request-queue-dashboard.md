@@ -6,9 +6,9 @@ description: Du kan bädda in en ny begärandekö i en instrumentpanel för att 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,7 @@ När du delar en länk till en frågetyp väljs begärandetypen för användaren
 
    Koden ska se ut ungefär så här:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
    Det här är länken till begärandekön som är associerad med det valda projektet. Begärantypen är förvald.
 
@@ -120,19 +118,15 @@ När du delar en länk till en förvald frågetyp väljs begärandetypen för an
 
    Koden ska se ut ungefär så här:
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. Redigera koden så att endast informationen nedan bevaras:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >Du kan bevara `<samp>iframe </samp>` -taggen när koden bäddas in i ett annat program än Workfront.
+   >Du kan lägga till en `<samp>iframe </samp>` -taggen när koden bäddas in i ett annat program än Workfront.
 
    Det här är länken till begärandekön som är associerad med det valda projektet. Begärantypen är förmarkerad och kan inte ändras.
 
@@ -156,7 +150,7 @@ Du kan bädda in en länk till begärandekön eller till ett köämne som kapsla
    * **Namn**: Ange namnet på begärandekön som du vill att den ska visas på instrumentpanelen. Detta är ett obligatoriskt fält.
 
    * **Beskrivning**: Ange en beskrivning av den här externa sidan. Detta är inte ett obligatoriskt fält och det är endast viktigt för rapportering. Den visas inte på kontrollpanelen.
-   * **URL**: klistra in den URL du fick med någon av metoderna som beskrivs i steg 1.
+   * **URL**: klistra in den URL som du fick med någon av metoderna som beskrivs i steg 1.
 
       <!--   
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
