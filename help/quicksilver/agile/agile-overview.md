@@ -7,9 +7,9 @@ description: Agile är en arbetsmetod som gör det möjligt för team att slutf�
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 867da7dd9d8b13f13e816c20ccd9a8a96ab04eb8
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -43,3 +43,7 @@ Så här börjar du använda avancerad flexibilitet i Workfront:
 1. Lägg till uppgifter från projekt i eftersläpningen eller i artikelgruppen.
 
    Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Lägg till befintliga uppgifter eller ärenden i [!UICONTROL Kanban] board](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)och [Lägga till artiklar i en befintlig upprepning](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+
+## Använd flexibel i ett projekt
+
+Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet, skapa iterationer och så vidare). Mer information finns i [Hantera ett projekt i Agile-vyn](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

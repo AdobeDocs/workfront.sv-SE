@@ -7,22 +7,24 @@ description: Läs artiklarna i de här områdena och lär dig hur du använder A
 author: Lisa
 feature: Agile
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # Agile
 
+[!DNL Adobe Workfront] har flera verktyg som hjälper dig att definiera flexibla arbetsflöden. Styrelserna är enkla men ändå flexibla verktyg för teamsamarbete. De gamla flexibla planeringsverktygen inkluderar en eftersläpning och en artikelpanel för Kanban- eller Scrum-team.
+
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Agile - översikt](../agile/agile-overview.md)
 * [Översikt över styrelser](../agile/boards-overview.md)
-* [Agile i projekt](../agile/agile-in-projects/agile-in-projects.md)
-* [Kom igång smidigt med [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kom igång med anslagstavlor i [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md)
+* [Använd flexibla planeringsverktyg i ritytor](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+* [Agile - översikt](../agile/agile-overview.md)
+* [Kom igång smidigt med [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban i ett rörligt team](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [Scrum in a agile team](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Arbeta i en flexibel miljö](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
