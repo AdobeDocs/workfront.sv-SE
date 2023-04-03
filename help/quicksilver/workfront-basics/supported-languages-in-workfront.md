@@ -6,9 +6,9 @@ description: Du kan ändra vilket språk du visar Adobe Workfront och e-postmedd
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 961eba73186f8fe3f10affc0c6e52067f997ef31
+source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,16 @@ Workfront terminologi uppdateras för de språk som stöds i varje Workfront-upp
 
 Workfront har stöd för följande språk:
 
-* Kinesiska - förenklad (zh-CN)
-* Kinesiska - traditionell (zh-TW)
 * Engelska (en-US)
 * Franska (fr-FR)
 * Tyska (de-DE)
-* Italienska (it_IT)
 * Japanska (ja)
+* Spanska (es)
+* Italienska (it_IT)
 * Portugisiska (pt-BR)
-* Spanska - Latinamerika
+* Koreanska (ko)
+* Kinesiska - förenklad (zh-CN)
+* Kinesiska - traditionell (zh-TW)
 
 Det språk som används för att visa Workfront i webbläsaren styrs av språkinställningarna i webbläsaren. Se till att du väljer ett språk för webbläsaren som finns i listan med språk som stöds.
 
