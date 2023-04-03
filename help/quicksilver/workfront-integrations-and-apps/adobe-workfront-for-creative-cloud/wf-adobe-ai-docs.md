@@ -5,9 +5,9 @@ title: Ladda upp dokument från Illustrator
 description: Du kan ladda upp ritytorna som dokument för snabb granskning och godkännande eller helt enkelt lagra dem i Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png) i navigeringsfältet.
 
 1. Klicka **[!UICONTROL New File]** nära plug-ins nederkant.
-1. Välj **[!UICONTROL Asset Type]** i listrutan.
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
-1. Klicka **[!UICONTROL Upload]**konfigurerar du önskade exportalternativ baserat på den resurstyp som valts ovan.
+1. Välj **[!UICONTROL Asset Type]** i listrutan.
+1. Öppna **[!UICONTROL Set Export File Settings]** konfigurerar du önskade exportalternativ baserat på resurstypen ovan.
+
+   ![](assets/file-export-settings.png)
+1. Klicka på **[!UICONTROL Upload]**.
 Dokumentet visas i [!UICONTROL Documents] i plugin-programmet och datorprogrammet.

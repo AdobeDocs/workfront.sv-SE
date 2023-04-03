@@ -6,9 +6,9 @@ description: Du kan installera Workfront for Creative Cloud från Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -74,17 +74,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Så här installerar du [!DNL Adobe Workfront for design and video] plugin-program:
 
-1. Öppna [!DNL Adobe Creative Cloud] app.
-1. Klicka på **[!UICONTROL Marketplace]** -fliken nära fönstrets överkant.
-1. I **[!UICONTROL Search All Plugins]** ruta, typ *Workfront* och sedan trycka **[!UICONTROL Enter]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. När [!DNL Adobe Workfront for design and video] plugin-programmet visas i sökresultaten, klicka på **[!UICONTROL Get]**.
+1. Gå till [Installationssida för Adobe Workfront för design och video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) på Adobe Exchange.
+1. Klicka på **Öppna [!DNL Adobe Creative Cloud] datorprogram**.
+1. En gång [!DNL Adobe Creative Cloud] plugin-hanteraren öppnas, klicka **[!UICONTROL Install]**.
 1. Läs informationen i dialogrutan och klicka sedan på **[!UICONTROL OK]**.
-1. När plugin-programmet är installerat öppnar du [!DNL Creative Cloud] det program du behöver och hitta Workfront-plugin-programmet på panelen för plugin-program.
-
-   <!-- new screen -->
+1. När plugin-programmet är installerat öppnar du [!DNL Creative Cloud] app du behöver och hitta Workfront plugin-programmet på panelen för plugin-program.
 
 1. Fortsätt till följande avsnitt för information om hur du öppnar plugin-programmet.
 

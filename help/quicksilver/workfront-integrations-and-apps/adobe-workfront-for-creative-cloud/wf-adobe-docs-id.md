@@ -6,9 +6,9 @@ description: Du kan ladda upp ritytorna som dokument för snabb granskning och g
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png) i navigeringsfältet.
 
 1. Klicka **[!UICONTROL New File]** nära plug-ins nederkant.
-1. Välj **[!UICONTROL Asset Type]** i listrutan.
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
-1. Klicka **[!UICONTROL Upload]**konfigurerar du önskade exportalternativ baserat på den resurstyp som valts ovan.
+1. Välj **[!UICONTROL Asset Type]** i listrutan.
+1. Öppna **[!UICONTROL Set Export File Settings]** konfigurerar du önskade exportalternativ baserat på resurstypen ovan.
+
+   ![](assets/file-export-settings.png)
+1. Klicka på **[!UICONTROL Upload]**.
 Dokumentet visas i [!UICONTROL Documents] i plugin-programmet och datorprogrammet.

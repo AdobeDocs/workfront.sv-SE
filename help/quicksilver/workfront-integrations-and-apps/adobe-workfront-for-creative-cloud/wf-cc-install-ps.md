@@ -6,9 +6,9 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 >Om du är en [!DNL Adobe Admin Console] kan du inkludera plugin-programmet i [!DNL Creative Cloud] distributionspaket. Mer information finns i [Inkludera plugin-program i paketet](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. Öppna [!DNL Adobe Creative Cloud] app.
-1. Klicka på **[!UICONTROL Marketplace]** -fliken nära fönstrets överkant.
-1. I **[!UICONTROL Search All Plugins]** ruta, typ *Workfront* och sedan trycka **[!UICONTROL Enter]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. När plugin-programmet Adobe Workfront for Photoshop visas i sökresultaten klickar du på **[!UICONTROL Get]**.
+1. Gå till [Adobe Workfront för Photoshop - installationssida](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) på Adobe Exchange.
+1. Klicka på **Öppna [!DNL Adobe Creative Cloud] datorprogram**.
+1. En gång [!DNL Adobe Photoshop] plugin-hanteraren öppnas, klicka **[!UICONTROL Install]**.
 1. Läs informationen i dialogrutan och klicka sedan på **[!UICONTROL OK]**.
 
 1. Fortsätt till följande avsnitt för information om hur du öppnar plugin-programmet.
@@ -97,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Från **[!UICONTROL Plugins]** längst upp på skärmen väljer du **[!UICONTROL Plugin Panel]**.
 1. Välj **[!DNL Adobe Workfront for Photoshop]**.
-1. Ange din domän och klicka sedan på **[!UICONTROL Log in]**. En webbläsarsida öppnas.
+1. Ange din domän och klicka sedan på **[!UICONTROL Log in]**. En webbläsarsida öppnas. Du kanske måste ge Photoshop tillstånd att öppna webbläsaren.
 
    >[!TIP]
    >
