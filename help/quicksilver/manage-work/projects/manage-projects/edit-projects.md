@@ -6,9 +6,9 @@ description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '7718'
+source-wordcount: '7787'
 ht-degree: 0%
 
 ---
@@ -323,6 +323,7 @@ När du väljer flera projekt som ska redigeras samtidigt finns följande scenar
 * Om du inte har behörigheten Redigera anpassat formulär i minst ett av de markerade projekten kan du inte redigera fälten i de kopplade anpassade formulären. Du kan bara visa fälten i de kopplade anpassade formulären
 * Om du har Visa (och inte Redigera) åtkomst till ett avsnitt i ett anpassat formulär, kan du inte redigera fälten i det avsnittet. Du kan bara visa fälten i det avsnittet.
 * Om du inte har tillgång till ett avsnitt i ett av de anpassade formulären som är kopplat till minst ett av projekten, visas inte avsnittet i rutan Redigera projekt.
+* Om du har obligatoriska fält i något av de anpassade formulären som är kopplade till alla projekt, och du väljer ett fält utan att redigera det, måste du ignorera ändringarna i det fältet eller lägga till information innan du kan spara de markerade projekten. Om du inte markerar ett obligatoriskt fält alls kan du spara de projekt du har markerat, även om det obligatoriska fältet är tomt.
 
 Mer information om åtkomst till anpassade formulär finns i följande artiklar:
 

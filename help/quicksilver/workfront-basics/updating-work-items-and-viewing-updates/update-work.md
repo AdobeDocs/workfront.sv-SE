@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 
 1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
 1. Klicka  **Uppdateringar** i den vänstra panelen.
-1. Klicka **Testa kommenteringen av betaversionen** i uppdateringsområdets nedre högra hörn och klicka sedan på **Godkänn** på betaavtalet. Detta växlar uppdateringsområdet till kommenteringsfunktionen Beta.
+1. Aktivera **Kommentera betaversion** i det övre högra hörnet av uppdateringsområdet och klicka sedan på **Godkänn** på betaavtalet. Detta växlar uppdateringsområdet till kommenteringsfunktionen Beta.
 The **Kommentarer** -fliken är markerad som standard.
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
@@ -224,7 +224,7 @@ The **Kommentarer** -fliken är markerad som standard.
 
 1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
-1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna.
+1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
 ## Kopiera uppdateringsinformation
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->Det går inte att kopiera en uppdatering när du använder betakommentarsfunktionen.
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 Du kan kopiera en uppdatering på flera olika sätt. När du har kopierat en länk kan du dela länken med andra för att dirigera dem till uppdateringen.
 
@@ -348,7 +349,7 @@ Med det här alternativet kopieras texten från en specifik uppdatering till Urk
 Med det här alternativet kopieras den fullständiga trådlänken till Urklipp så att du kan dela tråden med andra användare.
 
 1. Gå till uppdateringstråden som du vill kopiera.
-1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk**.
+1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk** <span class="preview">eller **Kopiera länk** när du använder betaupplevelsen</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ Med det här alternativet kopieras den fullständiga trådlänken till Urklipp s
 Med det här alternativet kopieras en specifik uppdateringslänk till Urklipp. När du delar uppdateringslänken ser användaren som följer den en ram runt uppdateringen.
 
 1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk**.
+1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk** <span class="preview">eller **Kopiera länk** när du använder betaupplevelsen</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
