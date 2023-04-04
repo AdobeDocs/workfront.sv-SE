@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ Om du vill delta i den här Alpha-versionen måste du ha lagts till i Alpha in P
 
 ## Senaste versionen
 
+### Alpha Release 3 - mars 2023
+
+I den här 3:e alfaversionen har vi tagit med din feedback genom att presentera meddelanden som visar när vi slutför åtgärder som att lägga till eller ta bort godkännare och granskare. Dessutom ger den här versionen bättre synlighet för väntande godkännanden, som nu kan visas på sidorna Hem och Mina uppdateringar, vilket gör att användare enkelt kan godkänna dokument direkt från dessa sidor.
+
+Se hela videomaterialet nedan:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _Tidigare versioner_
+
 ### Alpha Release 2 - Jan 2023
 
 Med den här Alpha 2-versionen kan du lägga till personer och team som granskare eller godkännare och fatta beslut direkt från dokumentinformationssidan.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _Tidigare versioner_
+Titta på [videoutgång](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Alpha Release 1 - Nov. 2022
 
