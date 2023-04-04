@@ -5,9 +5,9 @@ title: Enhetlig kommentarsfunktion
 description: Den nya enhetliga kommentarsfunktionen kommer att
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -414,7 +414,7 @@ Den nya kommentarsfunktionen stöds för närvarande för följande objekt vid v
 Så här aktiverar du den nya kommenteringsupplevelsen Beta:
 
 1. Gå till ett objekt som du vill aktivera den nya kommentarfunktionen för och klicka sedan på **Uppdateringar** i den vänstra panelen.
-1. Klicka **Testa kommenteringsbetaversionen** i det nedre högra hörnet av uppdateringsområdet.
+1. Aktivera **Kommentera betaversion** i det övre högra hörnet av uppdateringsområdet.
 1. Klicka **Godkänn** i rutan Betaavtal. Detta aktiverar den nya kommentarsfunktionen för det markerade objektet.
 1. Börja skriva en uppdatering i **Kommentarer** -fliken. Fliken Kommentarer ska vara standardflik när den nya funktionen öppnas
 

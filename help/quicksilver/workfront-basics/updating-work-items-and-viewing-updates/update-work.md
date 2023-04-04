@@ -6,7 +6,7 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 0%
@@ -232,6 +232,7 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
    >[!TIP]
    >
    >   Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
+
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-7 ovan. <!--(**************insure this stays accurate***********)-->. Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png). Ikonen uppdateras med antalet gilla-markeringar.
 1. (Villkorligt och Valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
@@ -349,7 +350,12 @@ Med det här alternativet kopieras texten från en specifik uppdatering till Urk
 Med det här alternativet kopieras den fullständiga trådlänken till Urklipp så att du kan dela tråden med andra användare.
 
 1. Gå till uppdateringstråden som du vill kopiera.
-1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk** <span class="preview">eller **Kopiera länk** när du använder betaupplevelsen</span>.
+
+1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk**
+
+   eller
+
+   <span class="preview">**Kopiera länk** när du använder betaupplevelsen</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ Med det här alternativet kopieras den fullständiga trådlänken till Urklipp s
 Med det här alternativet kopieras en specifik uppdateringslänk till Urklipp. När du delar uppdateringslänken ser användaren som följer den en ram runt uppdateringen.
 
 1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk** <span class="preview">eller **Kopiera länk** när du använder betaupplevelsen</span>.
+1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk**
+
+   eller
+
+   <span class="preview">**Kopiera länk** när du använder betaupplevelsen</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicka på **Bekräfta** <span class="preview">eller **Ta bort**</span> i kommenteringsfunktionen Beta.
+1. Klicka på **Bekräfta**
+
+   eller
+
+   <span class="preview"> **Ta bort** i kommenteringsfunktionen Beta</span>.
 
 >[!NOTE]
 >
