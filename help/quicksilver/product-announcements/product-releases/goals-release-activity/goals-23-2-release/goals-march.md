@@ -6,16 +6,16 @@ title: Adobe Workfront Goals 23.2 release activity Week of March 20, 2023
 description: Den här sidan beskriver alla förbättringar som gjorts i version 23.2 av Adobe Workfront Goals till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 20 mars 2023.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 69fbdd87bcb7a2743aec6d6ad06246b018b9ff16
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Aktivitet för Adobe Workfront Target 23.2-utgåvan: Vecka 20 mars 2023
 
-Den här sidan beskriver alla förbättringar som gjorts i version 23.2 av Adobe Workfront Goals till förhandsvisningsmiljön i mars 2023.
+Den här sidan beskriver alla förbättringar som gjorts i version 23.2 av Adobe Workfront Goals till förhandsvisningsmiljön den 20 mars 2023.
 
 Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2 som är planerad till den 3 april 2023.
 

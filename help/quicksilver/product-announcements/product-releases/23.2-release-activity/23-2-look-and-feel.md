@@ -4,9 +4,9 @@ description: Utforma och känna av uppdateringar under 23.2-releasetidningen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjorts inom tidsramen för version 23.2. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts.
 
 En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Uppdateringar av utseendet och känslan i listan Utkast i området Begäranden
+
+>[!NOTE]
+>
+>Förhandsgranskningsversion: 4 april 2023, Planerad produktionsrelease: 18 april 2023
+
+Vi har uppdaterat listan Utkast i området Begäranden så att den överensstämmer med de senaste listorna i Workfront.
+Några av uppdateringarna är följande:
+
+* Ersatte filtret &quot;Filtrera efter begärandetyp&quot; med standardsnabbfiltret
+* Bilden togs bort från listan Utkast när listan inte innehåller några begäranden
+* Sidnumrering och kolumnsortering har lagts till i listan.
+
+Mer information finns i [Skapa begäranden från utkast](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Smarta val av användare finns i ytterligare områden i Workfront
 
