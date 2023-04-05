@@ -6,16 +6,16 @@ description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '7787'
+source-wordcount: '7310'
 ht-degree: 0%
 
 ---
 
 # Redigera projekt
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -694,110 +694,11 @@ Följande fält inkluderas som standard i projekthuvudet.
 
 Du kan redigera flera projekt samtidigt och uppdatera information för alla markerade projekt samtidigt.
 
+Tänk på följande när du redigerar flera projekt samtidigt:
 
-Informationen som du ändrar i alla markerade projekt skriver över befintlig information om enskilda projekt, förutom i fältet Resurshanterare.
+* Informationen som du ändrar i alla markerade projekt skriver över befintlig information om enskilda projekt, förutom i fältet Resurshanterare.
 
-Om du lägger till en ny resurshanterare när du redigerar flera projekt samtidigt läggs den hanteraren till i alla markerade projekt. Om andra resurshanterare är kopplade till de valda projekten finns de kvar i projekten förutom det som lagts till via massredigering.
-
-Att redigera projekt i grupp varierar beroende på vilken miljö du väljer att uppdatera dem i.
-
-### Redigera flera projekt samtidigt i produktionsmiljön
-
-Så här redigerar du flera projekt samtidigt:
-
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
-
-1. Klicka **Projekt**.
-1. Markera flera projekt i listan.
-1. Klicka **Redigera**.
-
-   The **Redigera projekt** öppnas.
-
-   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
-
-1. Ange information om alla markerade projekt i följande avsnitt:
-
-   * **Översikt**
-
-      Mer information finns i [Översikt](#overview) i den här artikeln.
-
-   * **Ekonomi**
-
-      Mer information finns i [Ekonomi](#finance) i den här artikeln.
-
-   * **Portfolio**
-
-      Mer information finns i avsnittet Projektassociation i [Översikt](#overview) i den här artikeln.
-
-   * **Inställningar**
-
-      Mer information finns i [Projektinställningar](#project-settings) i den här artikeln.
-
-   * **Åtkomst**
-
-      Mer information finns i [Åtkomst](#access) i den här artikeln.
-
-   * **Anpassad Forms**
-
-      Mer information finns i steg 7 nedan.
-
-      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
-     -->
-
-   * **Uppgifter**
-
-      Mer information finns i [Uppgiftsinställningar](#task-settings) i den här artikeln.
-
-   * **Problem**
-
-      Mer information finns i   [Ärendeinställningar](#issue-settings) i den här artikeln.
-
-   * **Kommentar**
-
-      Mer information finns i steg 9 nedan.
-
-      <!--   
-     <p>(NOTE: ensure this step stays accurate)</p>   
-     -->
-
-
-1. (Valfritt) Välj något av följande alternativ i området Inställningar:
-
-   * **Omberäkna kostnader och intäkter**: Välj det här alternativet om du vill beräkna om kostnader och intäkter för alla valda projekt.
-   * **Beräkna om tidslinjer**: Välj det här alternativet om du vill beräkna om tidslinjerna för alla markerade projekt.
-   * **Beräkna om styrkort**: Välj det här alternativet om du vill beräkna om styrkortsvärdena för alla markerade projekt.
-
-   ![recalculate_cost_scorecards_etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
-
-1. Klicka **Anpassad Forms** om du vill redigera anpassade formulär som är kopplade till alla markerade projekt.
-
-   Om de markerade projekten inte har några vanliga anpassade formulär visas inga formulär i det här avsnittet.
-
-   Du kan bara redigera fält i formulären som är kopplade till alla markerade projekt och som du har behörighet att redigera.
-
-1. (Valfritt) I delen Anpassad Forms väljer du **Beräkna om anpassade uttryck** för att se till att alla beräknade anpassade fält i den anpassade Forms som är kopplade till de valda projekten är aktuella.
-
-   >[!IMPORTANT]
-   >
-   >Vi rekommenderar att du inte markerar mer än 500 projekt samtidigt när du beräknar om anpassade uttryck.
-
-1. (Valfritt) Klicka på **Kommentar** markerar du sedan rutan Publicera en uppdatering för varje projekt och anger en kommentar som du vill visa i projektets uppdateringsström i det tillgängliga fältet. Gör sedan något av följande:
-
-   * Klicka på **Folk** icon ![](assets/people-icon-updates-classic.png) för att tagga en användare som får meddelanden om din kommentar.
-   * Klicka på **Lås** icon ![](assets/lock-icon-open-updates-classic.png) för att begränsa dina kommentarer till personer inom företaget.
-
-   Den här kommentaren är synlig för alla som har åtkomst till projektet och tillgång till vyn Anteckningar.
-
-1. Klicka **Spara ändringar**.
-
-   Alla ändringar du har gjort visas nu för alla markerade projekt.
-
-<div class="preview">
-
-### Redigera projekt i buggar i förhandsvisningsmiljön
-
-Tänk på följande när du redigerar flera projekt samtidigt i förhandsvisningsmiljön:
+   Om du lägger till en ny resurshanterare när du redigerar flera projekt samtidigt läggs den hanteraren till i alla markerade projekt. Om andra resurshanterare är kopplade till de valda projekten finns de kvar i projekten förutom det som lagts till via massredigering.
 
 * När du väljer projekt som har olika värden för samma fält visas indikatorn &quot;Flera värden&quot; i rutan Redigera projekt. Fält som är kryssrutor, alternativknappar och växlar har en &quot;Multiple values&quot;-indikator bredvid sig.
 
@@ -826,7 +727,7 @@ Tänk på följande när du redigerar flera projekt samtidigt i förhandsvisning
 
 * När du väljer flera projekt som tillhör olika grupper är statusvärdena som visas i statusfältet på systemnivå och inte gruppnivå.
 
-Så här redigerar du projekt i förhandsvisningsmiljön:
+Så här redigerar du flera projekt samtidigt:
 
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 1. Klicka **Projekt**.
@@ -863,9 +764,9 @@ Beroende på hur Workfront-administratören eller gruppadministratören ändrade
 
    Ytterligare anpassade formulär som kan kopplas till projekt men inte är kopplade till något av de valda projekten visas i **Forms att lägga till** underavsnitt i **Lägg till anpassat formulär** fält.
 
-1. Klicka för att välja ytterligare anpassat formulär i dialogrutan **Lägg till anpassat formulär** eller **Forms att lägga till** underavsnitt när det visas i listan.
+1. Klicka för att välja ytterligare anpassade formulär i **Lägg till anpassat formulär** eller **Forms att lägga till** underavsnitt när det visas i listan.
 
-   När ett anpassat formulär redan är kopplat till vissa av de markerade projekten visas en indikation bredvid namnet på formuläret hur många projekt som redan har formuläret markerat när ett formulär läggs till.
+   När ett anpassat formulär redan är kopplat till vissa av de markerade projekten visas en indikation bredvid formulärets namn om hur många projekt som redan har formuläret bifogat, när ett formulär läggs till.
 
 1. (Valfritt) Klicka på **x** till höger om namnet på ett anpassat formulär och klicka sedan på **Ta bort** för att ta bort den från alla markerade projekt.
 
@@ -892,5 +793,100 @@ Mer information om hur du redigerar åtkomstområdet finns i avsnittet [Åtkomst
 1. (Valfritt) Klicka på **Avbryt** längst ned i **Redigera projekt** för att ta bort alla ändringar som gjorts i alla projekt.
 1. Klicka **Spara**.
 
-</div>
 
+
+<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+
+### Edit projects in bulk in the Production environment
+
+To edit projects in bulk:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Projects**.  
+1. Select several projects in the list.
+1. Click **Edit**.
+
+   The **Edit Projects** dialog box opens.
+
+   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
+
+1. Specify the information on all selected projects in the following sections:
+
+   * **Overview**
+
+     For information, see the [Overview](#overview) section in this article.
+   
+   * **Finance**
+
+     For information, see the [Finance](#finance) section in this article.
+   
+   * **Portfolio**
+
+     For information, see the "Project association" section in the [Overview](#overview) section in this article.
+   
+   * **Settings**
+
+     For information, see the [Project Settings](#project-settings) section in this article.
+   
+   * **Access**
+
+     For information, see the [Access](#access) section in this article.
+   
+   * **Custom Forms**
+
+     For information, continue with step 7 below.
+
+     <!--   
+     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     
+
+   * **Tasks**
+
+     For information, see the [Task Settings](#task-settings) section in this article.
+   
+   * **Issues**
+
+     For information, see the   [Issue Settings](#issue-settings) section in this article.
+   
+   * **Comment**
+
+     For information, continue with step 9 below.
+
+     <!--   
+     <p>(NOTE: ensure this step stays accurate)</p>   
+     
+
+
+1. (Optional) In the Settings area, select any of the following options:
+
+   * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
+   * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
+   * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
+
+   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
+
+1. Click **Custom Forms** to edit the custom forms attached to all the projects selected.
+
+   If the projects selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. 
+
+1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 projects at a time when you recalculate custom expressions.
+
+1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
+
+   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+
+   This comment is visible for everyone with View access to the project and with access to view Notes.
+
+1. Click **Save Changes**.
+
+   All changes you made are now visible on all the selected projects.
+
+-->

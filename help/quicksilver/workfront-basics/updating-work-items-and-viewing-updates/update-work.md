@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 0%
 >Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Du kommer åt den nya designen för följande objekt:
-> * <span class="preview">Problem när du aktiverar kommenteringsfunktionen Beta. </span>
+> * Problem när du aktiverar kommenteringsfunktionen Beta.
    >
-   >     <span class="preview">Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:</span>
+   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:
    >
-   >     * <span class="preview">Startsida</span>
-   >     * <span class="preview">Panelen Sammanfattning i listor</span>
-   >     * <span class="preview">Sammanfattningspanelen i tidrapporter</span>
+   >     * Startsida
+   >     * Panelen Sammanfattning i listor
+   >     * Sammanfattningspanelen i tidrapporter
 >
 > * Mål
-   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 
 1. Information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### Lägga till en uppdatering av ett arbetsobjekt med hjälp av Beta-kommenteringsfunktionen
 
 1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
@@ -224,7 +223,7 @@ The **Kommentarer** -fliken är markerad som standard.
 
 1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
-1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. Redigera informationen i kommentaren <!--or remove any of the tagged users-->.
 Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
    >
    >Du kan inte lägga till en kommentar i en systemuppdatering.
 
-</div>
 
 ## Använda RTF i en Workfront-uppdatering
 
@@ -318,7 +316,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Bilder är bara tillgängliga från fliken Uppdateringar på ett objekt och är inte tillgängliga på fliken Dokument.
    >* Du kan skicka en uppdatering med en bild och utan text.
 
-1. Klicka **Uppdatera**  <span class="preview">eller **Skicka**</span> i kommenteringsfunktionen Beta.
+1. Klicka **Uppdatera**  eller **Skicka** när du använder betafunktionen för kommentarer.
 
 
 ## Kopiera uppdateringsinformation
@@ -351,11 +349,7 @@ Med det här alternativet kopieras den fullständiga trådlänken till Urklipp s
 
 1. Gå till uppdateringstråden som du vill kopiera.
 
-1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk**
-
-   eller
-
-   <span class="preview">**Kopiera länk** när du använder betaupplevelsen</span>.
+1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk** eller **Kopiera länk** när du använder betaupplevelsen.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ Med det här alternativet kopieras den fullständiga trådlänken till Urklipp s
 Med det här alternativet kopieras en specifik uppdateringslänk till Urklipp. När du delar uppdateringslänken ser användaren som följer den en ram runt uppdateringen.
 
 1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk**
-
-   eller
-
-   <span class="preview">**Kopiera länk** när du använder betaupplevelsen</span>.
+1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk** eller **Kopiera länk** när du använder betaupplevelsen.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicka på **Bekräfta**
-
-   eller
-
-   <span class="preview"> **Ta bort** i kommenteringsfunktionen Beta</span>.
+1. Klicka på **Bekräfta** eller **Ta bort** när du använder betafunktionen för kommentarer.
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">Det går inte att inaktivera systemuppdateringar när du använder betakommentarsfunktionen. </span>
-><span class="preview">Informationen i det här avsnittet gäller endast de funktioner som är tillgängliga i det aktuella uppdateringsavsnittet. </span>
-><span class="preview">Mer information om systemuppdateringar i betaversionen finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>Det går inte att inaktivera systemuppdateringar när du använder betakommentarsfunktionen.
+>Informationen i det här avsnittet gäller endast de funktioner som är tillgängliga i det aktuella uppdateringsavsnittet.
+>Mer information om systemuppdateringar i betaversionen finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 I uppdateringsavsnittet för ett Workfront-objekt visas två typer av information:

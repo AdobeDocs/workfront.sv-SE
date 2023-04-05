@@ -5,9 +5,9 @@ title: Enhetlig kommentarsfunktion
 description: Den nya enhetliga kommentarsfunktionen kommer att
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Ny kommentarsfunktion
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för markerade objekt.
 
@@ -91,7 +91,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -163,9 +163,8 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -191,7 +190,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">Ersatt med redigeringskommentar </span>
+   <td>Ersatt med redigeringskommentar 
    </td>
    <td> 
    </td>
@@ -219,7 +218,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,8 +246,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">Den här funktionen bör vara tillgänglig med version 23.2 och har tillfälligt fördröjts.</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -304,9 +302,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2 kv 2023 
    </td>
@@ -318,7 +316,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -346,7 +344,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -388,16 +386,13 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
 
 ## Hitta den nya kommentarsfunktionen
 
-Den nya kommentarsfunktionen stöds för närvarande för följande objekt vid visning av uppdateringsavsnittet i följande versioner:
+Den nya kommentarsfunktionen stöds för närvarande för följande objekt när du visar uppdateringsavsnittet i följande versioner av Workfront:
 
 * När du aktiverar betafunktionen i uppdateringsavsnittet:
 
-   <div class="preview">
-
-   * Problem.
+   * Problem
    Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   </div>
 
 * Som standard är kommentarsupplevelsen:
 
@@ -408,8 +403,6 @@ Den nya kommentarsfunktionen stöds för närvarande för följande objekt vid v
 
    Mer information om hur du hanterar uppdateringar för mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-
-<div class="preview">
 
 Så här aktiverar du den nya kommenteringsupplevelsen Beta:
 
@@ -423,5 +416,3 @@ Så här aktiverar du den nya kommenteringsupplevelsen Beta:
    Klicka på  **Systemaktivitet** för att visa aktivitetsuppdateringar som genererats av Workfront.
 
    Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
-
-</div>

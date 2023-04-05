@@ -6,9 +6,9 @@ description: När någon lägger till eller svarar i en uppdatering för ett arb
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 0%
 >Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >Du kommer åt den nya designen för följande objekt:
-> * <span class="preview">Problem när du aktiverar kommenteringsfunktionen Beta. </span>
+> * Problem när du aktiverar kommenteringsfunktionen Beta.
    >
-   >     <span class="preview">Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:</span>
+   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:
    >
-   >     * <span class="preview">Startsida</span>
-   >     * <span class="preview">Panelen Sammanfattning i listor</span>
-   >     * <span class="preview">Sammanfattningspanelen i tidrapporter</span>
+   >     * Startsida
+   >     * Panelen Sammanfattning i listor
+   >     * Sammanfattningspanelen i tidrapporter
 >
 > * Mål
-   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -97,8 +98,6 @@ Hur du svarar på en kommentar eller ett svar varierar beroende på vilken upple
 1. (Valfritt) Använd formatering, känslolägesikoner, inkludera länkar eller bilder enligt beskrivningen i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i artikeln [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Klicka **Svara** för att spara svaret.
 
-<div class="preview">
-
 ### Svara på en kommentar när du använder kommenteringsfunktionen Beta
 
 1. Gå till det objekt som du vill lägga till ett svar på.
@@ -113,7 +112,6 @@ Hur du svarar på en kommentar eller ett svar varierar beroende på vilken upple
 
 1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) bredvid uppdateringen om du vill ha fler alternativ för att hantera svaret. Mer information finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
-</div>
 
 ## Svara på en uppdatering via e-postmeddelande
 

@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->Vi håller på att ändra uppdateringsavsnittet för ett objekt.
->
+>Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
 >Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Du kan komma åt den nya designen från följande objekt och i följande miljöer:
+>Du kommer åt den nya designen för följande objekt:
+> * Problem när du aktiverar kommenteringsfunktionen Beta.
+   >
+   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:
+   >
+   >     * Startsida
+   >     * Panelen Sammanfattning i listor
+   >     * Sammanfattningspanelen i tidrapporter
 >
->* <span class="preview">När du aktiverar betafunktionen för kommentarer för följande objekt:</span>
-   >
-   >     * <span class="preview">Problem</span>
-
-   >     
-   >     <span class="preview">Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:</span>
-   >
-   >     * <span class="preview">Startsida</span>
-   >     * <span class="preview">Panelen Sammanfattning i listor</span>
-   >     * <span class="preview">Sammanfattningspanelen i tidrapporter</span>
->
->* Som standard används kommentarsfunktionen för följande objekt:
-   >
-   >     * Mål
+> * Mål
 
    >
-   >     Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
@@ -116,7 +111,7 @@ För närvarande kan du göra kommentarer och svara på uppdateringar med hjälp
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Problem</span></li> 
+     <li>Problem</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ När du till exempel lägger till en uppdatering för en uppgift visas uppdateri
 >
 >Mer information om objekthierarkin i Adobe Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> Det går inte att svara på systemuppdateringar i den nya kommenteringsfunktionen Beta. Mer information finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> Det går inte att svara på systemuppdateringar i den nya kommenteringsfunktionen Beta. Mer information finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Begränsningar i uppdateringsavsnittet
 

@@ -6,9 +6,9 @@ description: Resurspooler är användarsamlingar som hjälper dig att hantera re
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Så här associerar du resurspooler med flera projekt samtidigt:
 
    >[!NOTE]
    >
-   >* När du redigerar flera projekt eller mallar samtidigt i produktionsmiljön visas endast de resurspooler som är gemensamma för alla projekt eller mallar som är markerade i det här fältet. Om de valda projekten inte har några delade resurspooler kommer det här fältet att vara tomt. Resurspoolerna som du anger här skriver över de enskilda resurspoolerna för projekten eller mallarna.
+   >* När du redigerar flera mallar samtidigt visas endast de resurspooler som är gemensamma för alla valda mallar i det här fältet. Om de valda mallarna inte har några delade resurspooler är det här fältet tomt. Resurspoolerna som du anger här skriver över de enskilda resurspoolerna för projekten eller mallarna.
    >
-   >* <span class="preview">När du redigerar flera projekt samtidigt i förhandsgranskningsmiljön visas en indikator för flera värden om de valda projekten har olika resurspooler. Om du lägger till flera resurspooler samtidigt läggs alla pooler till i det valda projektet och de ursprungliga resurspoolerna skrivs över.</span>
+   >* När du redigerar flera projekt samtidigt visas en indikator för flera värden om de markerade projekten har olika resurspooler. Om du lägger till resurspooler gruppvis för projekt läggs alla pooler till i det valda projektet och de ursprungliga resurspoolerna skrivs över.</span>
 
 
    <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
