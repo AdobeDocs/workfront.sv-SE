@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 0%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och tillämpa dem på användare, vilket förklaras i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare. När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information om åtkomstnivåer finns i
 
-När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Översikt över äldre åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->Vi rekommenderar att du låter de inbyggda åtkomstnivåerna vara oförändrade så att du kan referera till dem när du har konfigurerat användarna. Om du vill anpassa en åtkomstnivå kopierar du standardåtkomstnivån och ändrar kopian. (Du kan göra detta för alla åtkomstnivåer förutom systemadministratör och extern användare.)
+>Vi rekommenderar att du låter de inbyggda åtkomstnivåerna vara oförändrade så att du kan referera till dem när du har konfigurerat användarna. Om du vill anpassa en åtkomstnivå kopierar du standardåtkomstnivån och ändrar kopian. Du kan göra detta för alla åtkomstnivåer förutom systemadministratör och extern användare.
 
 ## Åtkomstkrav
 
@@ -41,11 +42,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td>Aktuell plan: Standard
+   <p>eller</p>
+   <p>Äldre plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="#" class="MCXref xref selected">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <tbody> 
      <tr> 
       <td role="rowheader">Namn</td> 
-      <td> <p>Ange ett namn för åtkomstnivån. </p> <p>Om du precis har kopierat en åtkomstnivå för att skapa en ny är standardnamnet Åtkomstnivånamn (kopia), där åtkomstnivånamnet är den åtkomstnivå du kopierade.</p> <p><strong>Tips</strong>: Vi rekommenderar att du tar med det ursprungliga namnet på åtkomstnivån i kopians namn. På ACME-företaget kan till exempel en kopia av åtkomstnivån Planner heta ACME Planner.</p> </td> 
+      <td> <p>Ange ett namn för åtkomstnivån. </p> <p>Om du precis har kopierat en åtkomstnivå för att skapa en ny är standardnamnet Åtkomstnivånamn (kopia), där åtkomstnivånamnet är den åtkomstnivå du kopierade.</p> <p><strong>Tips</strong>: Vi rekommenderar att du tar med det ursprungliga namnet på åtkomstnivån i kopians namn. På ACME-företaget kan till exempel en kopia av åtkomstnivån Standard heta ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning </td> 
@@ -77,12 +80,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Licenstyp</td> 
-      <td>Se till att den licens som valts här är den som är mest kopplad till den typ av åtkomstnivå som du skapar eller redigerar. Den valda licensen avgör vilka inställningar som är tillgängliga för åtkomstnivån. Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</td> 
+      <td>Se till att den licens som valts här är den som är mest kopplad till den typ av åtkomstnivå som du skapar eller redigerar. Den valda licensen avgör vilka inställningar som är tillgängliga för åtkomstnivån. Mer information finns i <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över äldre licenser</a> eller <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över äldre licenser för Adobe Workfront</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Villkorligt) Om **Plan** är markerat i **Licenstyp** ruta, bläddra till avsnittet **Tillåt administrativ åtkomst för** och välj administratörsbehörigheter för de som ska ha den här åtkomstnivån.
+1. (Villkorligt) Om **Standard** eller **Plan** är markerat i **Licenstyp** ruta, bläddra till avsnittet **Tillåt administrativ åtkomst för** och välj administratörsbehörigheter för de som ska ha den här åtkomstnivån.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <li>Lägg till nya jobbroller</li> 
         <li>Redigera rollfakturering och kostnadstariffer</li> 
        </ul> 
-       <p>Viktig information om åtkomst till ekonomiska data som är tillgängliga för en planeranvändare med administrativ åtkomst till jobbroller finns i <a href="#planner-users-with-administrative-access-to-job-roles">Planera användare med administrativ åtkomst till jobbroller</a>.</p>
+       <p>Viktig information om åtkomst till finansiella data som är tillgängliga för en Standard- eller Planering-användare med administrativ åtkomst till jobbroller finns i <a href="#planner-users-with-administrative-access-to-job-roles">Standard- eller planeringsläsare med administrativ åtkomst till jobbroller</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Tidrapporter och timmar</td> 
-      <td> <p>Gruppadministratörer kan tilldela tidrapportprofiler till användare i de grupper och undergrupper som de hanterar.</p> <p>Om det här alternativet inte är aktiverat kan gruppadministratörer inte tilldela andra användare i de grupper och undergrupper som de hanterar tidrapportprofiler, även om de kan skapa dem.</p> <p>Alla andra användare med en planlicens kan se alla timmar och tidrapporter i Workfront.</p> <p>Om det här alternativet inte är aktiverat kan användare bara visa timmar på:</p> 
+      <td> <p>Gruppadministratörer kan tilldela tidrapportprofiler till användare i de grupper och undergrupper som de hanterar.</p> <p>Om det här alternativet inte är aktiverat kan gruppadministratörer inte tilldela andra användare i de grupper och undergrupper som de hanterar tidrapportprofiler, även om de kan skapa dem.</p> <p>Alla andra användare som har en Standard- eller Plan-licens kan visa alla timmar och tidrapporter i Workfront.</p> <p>Om det här alternativet inte är aktiverat kan användare bara visa timmar på:</p> 
        <ul> 
         <li>Projekt, uppgifter eller problem som de hanterar</li> 
         <li>Deras egen tidrapport</li> 
@@ -203,9 +206,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Mer information om hur en Adobe-administratör tilldelar en systemadministratörsåtkomstnivå till en användare finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Planera användare med administrativ åtkomst till jobbroller {#planner-users}
+## Standard- eller planeringsläsare med administrativ åtkomst till jobbroller {#planner-users}
 
-Om du ger en planeranvändare administratörsbehörighet för jobbroller aktiveras inställningen Redigera rollfakturering och kostnadstariffer automatiskt för användaren.
+Om du ger en Standard- eller Planering-användare administrativ åtkomst till jobbroller aktiveras inställningen Redigera rollfakturering och kostnadstariffer automatiskt för användaren.
 
 Om du senare inaktiverar administrativ åtkomst till jobbroller för användaren, visas jobbrollerna fortfarande för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad.
 

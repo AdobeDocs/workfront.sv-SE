@@ -6,9 +6,9 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 0%
 
 Du behöver inte vara Adobe Workfront-administratör för att dela behörigheter för objekt som du har åtkomst till, men behörigheter för objekt fungerar inom de åtkomstnivåer som anges av Workfront-administratören.
 
-Mer information om åtkomstnivåer och behörigheter finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
-
-Du kan dela eller ta bort behörigheter till ett objekt som du har skapat eller ett objekt som delats med dig. När du inte är den som har skapat objektet måste du ha delningsåtkomst för det objekt som du vill dela på åtkomstnivån, förutom att du måste ha delningsbehörighet för objektet. Mer information om åtkomstnivåer finns i [Översikt över åtkomstnivåer](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Du kan dela eller ta bort behörigheter till ett objekt som du har skapat eller ett objekt som delats med dig. När du inte är den som har skapat objektet måste du ha delningsåtkomst för det objekt som du vill dela på åtkomstnivån, förutom att du måste ha delningsbehörighet för objektet. Mer information om åtkomstnivåer finns i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) eller [Översikt över äldre åtkomstnivåer](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ Du kan dela följande objekt i Workfront med andra användare:
 
    Om du till exempel har Contribute-behörighet för objektet kan du inte ge en annan användare behörigheten Hantera för det objektet.
 
-* Du kan inte dela ett objekt med en behörighetsnivå som är högre än en användares åtkomstnivå. Om en användare till exempel har behörigheten Visa för projekt på åtkomstnivån kan du inte ge dem behörigheten Hantera för ett projekt.
+* Du kan inte dela ett objekt med en behörighetsnivå som är högre än en användares åtkomstnivå. Om en användare till exempel har behörigheten Visa för projekt på åtkomstnivån kan du inte ge dem behörigheten Hantera för ett projekt.
 * En användare med behörighet att åtminstone visa ett objekt kan dela objektet med någon annan.
 * Du kan dela objekt med aktiva användare, jobbroller, team, grupper eller företag.
 

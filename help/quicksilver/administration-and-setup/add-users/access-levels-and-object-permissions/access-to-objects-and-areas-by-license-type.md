@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Åtkomst till objekt och områden per licenstyp
-description: Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var och en av Adobe Workfront-licenserna tillåter för objekten och områdena i Workfront.
-author: Caroline
+title: Gammal åtkomst till objekt och områden per licenstyp
+description: Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var och en av Adobe Workfront äldre licenser tillåter för objekten och områdena i Workfront.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# Åtkomst till objekt och områden per licenstyp
+# Gammal åtkomst till objekt och områden per licenstyp
 
-Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var och en av Adobe Workfront-licenserna tillåter för objekten och områdena i Workfront.
+Tabellen nedan visar den högsta nivån av äldre åtkomst (Redigera eller Visa) som var och en av Adobe Workfront-licenserna tillåter för objekten och områdena i Workfront.
 
 * **Visa**: Användaren kan granska och dela objekt.
 * **Redigera**: Användaren kan skapa, redigera, ta bort och dela objekt.
@@ -49,11 +49,11 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
 
 >[!NOTE]
 >
->Användare med en Review-licens eller en Request-licens har begränsade delningsmöjligheter. Mer information finns i [Översikt över Adobe Workfront-licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Användare med en Review-licens eller en Request-licens har begränsade delningsmöjligheter. Mer information finns i [Översikt över Adobe Workfront-licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) eller [Översikt över äldre licenser för Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Externa användare kan inte söka efter objekt i Workfront. De kan visa dokument och kalendrar som delas med dem. De kan också se vilka användare som delar objekt med dem.
 
-Du hittar detaljerad information om vilka åtkomstnivåer som tillåts för varje objekt och område i följande artiklar:
+Du hittar detaljerad information om vilka äldre åtkomstnivåer som tillåter för varje objekt och område i följande artiklar:
 
 * [Bevilja åtkomst till projekt](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)

@@ -1,12 +1,12 @@
 ---
-title: Dold fil
+title: Översikt över utökad autentisering
 description: Dold från sökning och från vänster navigering
 hidefromtoc: true
 hide: true
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: a151fa70a1093db3d9a0af1f4024d5d4cb5fd317
+source-git-commit: ab329085fae35fdda28dc8db70e3b47d9d6c28ea
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---

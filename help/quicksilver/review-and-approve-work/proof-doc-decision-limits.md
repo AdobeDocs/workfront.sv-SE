@@ -5,12 +5,10 @@ title: Begränsat dokument och bevisbeslut för obetalda användare - översikt�
 description: Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser. Begränsningar som återställs per användare och månad.
 author: Courtney
 feature: Work Management
-hide: true
-hidefromtoc: true
-source-git-commit: 6961bc960312d364ee785543e13a7d75035ef326
+source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 3%
+source-wordcount: '225'
+ht-degree: 2%
 
 ---
 
@@ -74,13 +72,13 @@ Om en extern användare når sin beslutsgräns förlorar de inte åtkomsten till
 
 ## Contributor-användare
 
-När en användare med en Contributor-licens når sin beslutsgräns uppgraderas de automatiskt till Light-licensen med obegränsat antal korrektur- och dokumentbeslut. <!-- For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.-->
+När en användare med en Contributor-licens når sin beslutsgräns uppgraderas de automatiskt till Light-licensen med obegränsat antal korrektur- och dokumentbeslut. Mer information om ljuslicensen finns i [Ljus åtkomstnivå](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artikel.
 
 >[!NOTE]
 >
->Både Workfront-administratören och användaren får ett e-postmeddelande om uppgraderingen.
+>Workfront-administratören får ett e-postmeddelande om uppgraderingen.
 
-<!-- 
-## View the number of decisions for a user
 
-You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md). -->
+## Visa antalet beslut för en användare
+
+Du kan visa antalet beslut för en användare i området Användare i Workfront. Mer information finns i [Visa antalet beslut för alla användare](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

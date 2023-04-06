@@ -6,9 +6,9 @@ description: Du kan begära ett dokument på alla objekt som har stöd för Doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du måste ha följande:
 
    >[!NOTE]
    >
-   >Om du har [Översikt över Adobe Workfront-licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) aktiverat för ditt konto, du kan skicka en begäran till valfri e-postadress. Det finns en inställning i [Konfigurera säkerhetsinställningar för system](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) som avgör om dessa externa e-postanvändare behöver skapa ett lösenord innan de interagerar med Workfront. 
+   >Om du har [Översikt över äldre licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) aktiverat för ditt konto, du kan skicka en begäran till valfri e-postadress. Det finns en inställning i [Konfigurera säkerhetsinställningar för system](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) som avgör om dessa externa e-postanvändare behöver skapa ett lösenord innan de interagerar med Workfront. 
 
 1. Beskriv varför du begär dokumentet.
 1. Klicka **Skicka förfrågan**.

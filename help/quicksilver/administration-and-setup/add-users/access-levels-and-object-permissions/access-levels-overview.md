@@ -1,23 +1,23 @@
 ---
-title: Översikt över åtkomstnivåer
+title: Översikt över äldre åtkomstnivåer
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: behörighet,nivå,system,administratör,planerare,arbetare,granskare,begärande,extern,användare
 navigation-topic: access-levels
 description: Alla användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront. Du använder åtkomstnivån för att styra vad en användare kan se och göra med vissa Workfront-objekt och -områden. Var och en av de sex inbyggda åtkomstnivåerna är kopplad till en av de fem Workfront-licenserna som är Plan, Work, Review, Request och External.
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 33c269cee3fbab51ce67f50cbdd1fdd190d948b7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# Översikt över åtkomstnivåer
+# Översikt över äldre åtkomstnivåer
 
 Som Adobe Workfront-administratör tilldelar du en åtkomstnivå till en användare för två syften:
 
@@ -42,7 +42,7 @@ Mer information om relaterade ämnen finns i följande artiklar:
  <tbody> 
   <tr> 
    <td>Licenser</td> 
-   <td> <p>Licensen som är kopplad till en åtkomstnivå avgör hur åtkomstnivån kan konfigureras.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> <p><strong>Tips</strong>: Du kan se vilken åtkomstnivå och licens som tilldelas varje användare genom att visa en användarlista eller rapport. Instruktioner finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Visa användarnas åtkomstnivåer och licenser</a>.</p> </td> 
+   <td> <p>Licensen som är kopplad till en åtkomstnivå avgör hur åtkomstnivån kan konfigureras.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över äldre licenser</a>.</p> <p><strong>Tips</strong>: Du kan se vilken åtkomstnivå och licens som tilldelas varje användare genom att visa en användarlista eller rapport. Instruktioner finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Visa användarnas åtkomstnivåer och licenser</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Inbyggda åtkomstnivåer</td> 

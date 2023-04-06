@@ -1,35 +1,35 @@
 ---
-title: Översikt över Adobe Workfront-licenser
+title: Översikt över äldre licenser
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: licens,typ
 navigation-topic: access-levels
 description: Organisationen köpte ett visst antal licenser när den förvärvade Adobe Workfront. Som Workfront-administratör ger du en av fyra typer av betalda Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# Översikt över Adobe Workfront-licenser
+# Översikt över äldre licenser
 
-Organisationen köpte ett visst antal licenser när den förvärvade Adobe Workfront. Som Workfront-administratör ger du en av fyra typer av betalda Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
+Din organisation köpte ett visst antal äldre licenser när den förvärvade Adobe Workfront. Som Workfront-administratör ger du en av fyra typer av betalda Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
 
-## Hur Workfront licenser och åtkomstnivåer knyts ihop
+## Hur äldre licenser och äldre åtkomstnivåer är knutna till varandra
 
-De fyra typerna av betalda Workfront-licenser ger olika åtkomstnivåer till Workfront. Varje åtkomstnivå är kopplad till en av dessa licenser.
+De fyra typerna av betalda Workfront-licenser ger olika åtkomstnivåer till Workfront. Varje äldre åtkomstnivå är kopplad till en av dessa äldre licenser.
 
-Som Workfront-administratör tilldelar du en användare den åtkomstnivå som är kopplad till licensen i stället för att tilldela en licens till en användare.
+Som Workfront-administratör tilldelar du en äldre åtkomstnivå som är kopplad till en äldre licens istället för att tilldela en äldre licens till en användare.
 
 Tabellen och diagrammet visar de viktigaste åtkomstnivåerna till Workfront:
 
-| Licens | Associerad åtkomstnivå |
+| Äldre licens | Associerad äldre åtkomstnivå |
 |--- |--- |
 | Plan | Systemadministratör, planerare |
 | Arbete | Arbetare |
@@ -38,9 +38,7 @@ Tabellen och diagrammet visar de viktigaste åtkomstnivåerna till Workfront:
 
 >[!NOTE]
 >
->Extern licens är inte en betald licens. Den är främst avsedd för dokumentutbyte med medarbetare som inte använder Workfront. Mer information finns i [Inbyggda åtkomstnivåer i Adobe Workfront](default-access-levels-in-workfront.md).
-
-![](assets/licenses-and-access-levels.png)
+>Extern licens är inte en betald licens. Den är främst avsedd för dokumentutbyte med medarbetare som inte använder Workfront. Mer information finns i [Inbyggda åtkomstnivåer i Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## Så här definierar en licens en åtkomstnivå
 

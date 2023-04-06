@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
 
-# Hur åtkomstnivåer och behörigheter fungerar tillsammans
+# Hur äldre åtkomstnivåer och behörigheter fungerar tillsammans
 
 Adobe Workfront-administratören avgör vilken åtkomstnivå varje användare ska ha. Åtkomstnivån definierar vad användare kan se och göra med objekttyper och områden i systemet.
 
@@ -31,11 +31,11 @@ Om din åtkomstnivå till exempel anger att du kan skapa uppgifter, men de behö
 
 Den här artikeln förklarar hur den här kombinationen fungerar.
 
-## Åtkomstnivå
+## Äldre åtkomstnivå
 
 Åtkomstnivån som tilldelats varje användare av en Workfront-administratör krävs för att logga in på Workfront.
 
-Standardåtkomstnivåerna är:
+De äldre standardåtkomstnivåerna är:
 
 * Systemadministratör (kopplad till avtalslicensen)
 * Planering (bifogad till planlicensen)

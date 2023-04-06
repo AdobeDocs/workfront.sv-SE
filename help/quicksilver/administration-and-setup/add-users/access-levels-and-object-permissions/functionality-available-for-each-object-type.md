@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: åtkomst,modell,tratt,diagram,nivåer,behörigheter
 navigation-topic: access-levels
-title: Tillgängliga funktioner för varje objekttyp
+title: Tillgängliga funktioner för varje objekttyp för olika äldre åtkomstnivåer
 description: I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
 
-# Tillgängliga funktioner för varje objekttyp
+# Tillgängliga funktioner för varje objekttyp för olika äldre åtkomstnivåer
 
 I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
 
@@ -91,7 +91,7 @@ Endast användare med en planlicens kan beviljas fullständig åtkomst till proj
 | Visa finansiering | ✓ | ✓ | ✓ |   |   |
 | Uppdateringar/kommentarer | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen. Mer information finns i [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -187,7 +187,7 @@ Användare med en planlicens har fullständig åtkomst till rapporter. Alla andr
 | Redigera | ✓ |   |   |   |   |
 | Kopiera | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen. Mer information finns i [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -305,7 +305,7 @@ Användare med en planlicens har fullständig åtkomst till rapporter. Alla andr
 | Länk (med integration) | ✓ | ✓ | ✓ | ✓ |   |
 | Bryt länk (med integration) | ✓ | ✓ | ✓ | ✓ |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen. Mer information finns i [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -477,7 +477,7 @@ Användare med en planlicens har fullständig åtkomst till rapporter. Alla andr
 | Kopiera | ✓ |   |   |   |   |
 | Redigera mallinformation | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen. Mer information finns i [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -502,7 +502,7 @@ Licenstyperna Begär och Extern användare inkluderas inte här eftersom de inte
 | Skapa risker i projekt | ✓ |   |   |
 | Visa risker i projekt | ✓ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen. Mer information finns i [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -523,7 +523,7 @@ Endast användare med en planlicens har fullständig åtkomst till [markera obje
 | Budgetresurser i verktygen för resursplanering&#42;&#42; | ✓ |   |   |   |   |
 | Bifoga resurspooler till projekt, mallar och användare | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen. Mer information finns i [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -542,7 +542,7 @@ Endast användare med en planlicens har fullständig åtkomst till [markera obje
 | Visa scenarier på huvudmenyn ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
 | Visa planer och initiativ som användaren har skapat&#42; | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

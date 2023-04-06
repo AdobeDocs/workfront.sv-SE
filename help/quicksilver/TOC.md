@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 6e711f208d14bb8d1d4b57733a2327b46fa7969b
+source-git-commit: 2bc977f3d6ec6ca3e232da95d92c0e6bfcf706ef
 workflow-type: tm+mt
-source-wordcount: '12804'
+source-wordcount: '12860'
 ht-degree: 0%
 
 ---
@@ -412,15 +412,21 @@ ht-degree: 0%
          * [Visa inloggningsinformation för användare](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * Hur åtkomstnivåer fungerar {#access-levels}
-         * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Översikt över åtkomstnivåer](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Översikt över licenser](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Åtkomstnivåer och behörigheter](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Åtkomst till objekt per licenstyp](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Översikt över åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Översikt över licenser](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Åtkomst till objekt och områden per licenstyp](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Tillgängliga funktioner för varje objekttyp](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * Hur äldre åtkomstnivåer fungerar {#legacy-access-levels}
+         * [Hur åtkomst till äldre nivåer fungerar](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Översikt över äldre åtkomstnivåer](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Översikt över äldre licenser](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Äldre åtkomstnivåer och behörigheter](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Gammal åtkomst till objekt per licenstyp](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [Funktioner för varje objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Konfigurerbar åtkomst för varje objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Konfigurerbar äldre åtkomst för varje objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
          * [Inbyggda åtkomstnivåer](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Visa användarnas åtkomstnivåer och licenser](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+         * [Lista användarnas tidigare åtkomstnivåer och licenser](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Konfigurera åtkomst till Workfront {#configure-access}
          * [Konfigurera åtkomst](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Skapa eller ändra anpassade åtkomstnivåer](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1803,6 +1809,9 @@ ht-degree: 0%
          * [Redigera fältet Behörighetsprofil för korrektur i grupp](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Inaktivera delning av korrektur via offentlig URL eller inbäddningskod](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Frågor och svar: korrektur för migrering från Adobe Workfront - USA till EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+   * Tips, tricks och felsökning för godkännanden {#ttt-approvals}
+      * [Tips, tricks och felsökning för godkännanden](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Visa antalet beslut för alla användare](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Tidrapporter {#timesheets}
    * [Tidrapporter](timesheets/timesheets-all.md)
    * Information om tidrapport {#details}

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 5ec772260c965b83824ff307bc84755fe06e1ba0
+source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Så här visar du licensinformation i ditt system:
 
 1. Längst ned på den vänstra panelen klickar du på **System** > **Licenser**.
 
-   Mer information om licenserna på den här sidan finns i [Översikt över Adobe Workfront-licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Mer information om licenserna på den här sidan finns i [Översikt över äldre licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -88,6 +88,20 @@ If an organization has other paid add-on products, their license information als
 >* Licenstypsgräns: Planeringsgräns
 >
 >Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+## Visa information om månatliga korrektur- och dokumentavrop
+
+Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser. Begränsningar som återställs per användare och månad.
+
+>[!IMPORTANT]
+>
+>Gränserna för korrektur och dokumentbeslut gäller inte för användare på [äldre Workfront-licenser och åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+Beslutsgränsen för respektive licens varierar beroende på vilken plan du har. Du kan visa din månadstilldelning i Inställningar > Licenser.
+
+Mer information om begränsningar för korrektur och dokumentbeslut finns i [Begränsat dokument och bevisbeslut för obetalda användare - översikt](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+![](assets/monthly-decision-allotment.png)
 
 ## Lägga till eller ta bort en hemgrupp på sidan Licenser {#add-or-remove-a-home-group-to-the-licenses-page}
 

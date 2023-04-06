@@ -1,0 +1,421 @@
+---
+title: Översikt över åtkomstnivåer
+user-type: administrator
+content-type: reference
+product-area: system-administration
+keywords: åtkomst,nivå,system,administratör,standard,ljus,medarbetare
+navigation-topic: access-levels
+description: Alla användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront. Du använder åtkomstnivån för att styra vad en användare kan se och göra med vissa Workfront-objekt och -områden.
+author: Courtney
+feature: System Setup and Administration
+role: Admin
+source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+workflow-type: tm+mt
+source-wordcount: '1622'
+ht-degree: 0%
+
+---
+
+# Översikt över åtkomstnivåer
+
+Som Adobe Workfront-administratör tilldelar du en åtkomstnivå till en användare för två syften:
+
+* Alla användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront.
+* Du använder åtkomstnivån för att styra vad en användare kan se och göra med vissa Workfront-objekt och -områden.
+
+## Inbyggda åtkomstnivåer i Adobe Workfront {#built-in-access}
+
+Workfront har sex inbyggda åtkomstnivåer:
+
+* Systemadministratör
+* Standard
+* Ljus
+* Medarbetare
+* Extern
+
+Beroende på åtkomstnivån är upp till tre behörigheter tillgängliga för de flesta Workfront-objekttyperna:
+
+<table style="table-layout:auto">
+    <tr>
+        <td>Redigera</td>
+        <td>Användare kan skapa, redigera, ta bort och dela Workfront-objekt</td>
+    </tr>
+    <tr>
+        <td>Visa</td>
+        <td>Användare kan granska och dela Workfront-objekt</td>
+    </tr>
+    <tr>
+        <td>Ingen åtkomst</td>
+        <td>Användare har inte åtkomst till Workfront-objektet</td>
+    </tr>
+</table>
+
+Om du behöver en anpassad åtkomstnivå kan du kopiera den inbyggda åtkomstnivån och justera hur mycket åtkomst du vill ha för de olika Workfront-objekttyperna. Mer information om hur du skapar en anpassad åtkomstnivå finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+>[!IMPORTANT]
+>
+>Vi rekommenderar att du låter de inbyggda åtkomstnivåerna vara oförändrade så att du kan referera till dem när du har konfigurerat användarna.
+
+### Åtkomstnivå för systemadministratör
+
+Denna inbyggda åtkomstnivå är kopplad till standardlicensen och är utformad för en användare som ansvarar för att administrera Adobe Workfront-systemet. Du kan inte ändra den här inbyggda åtkomstnivån.
+
+Användare med åtkomstnivån Systemadministratör kan göra allt inom Workfront. De kan visa och redigera alla Workfront-objekt och all information som andra användare har angett i Workfront.
+
+De har även tillgång till hela inställningsområdet, där de kan ändra alla inställningar på systemnivå och komma åt alla områden på huvudmenyn.
+
+Mer information finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+
+### Standardåtkomstnivå
+
+Den här åtkomstnivån är även kopplad till standardlicensen och är utformad för användare som:
+
+* Planera, skapa och spåra alla projekt på ett och samma ställe
+* Automatisera rutinprocesserna
+* Hantera resurser
+* Spåra och samarbeta vid förfrågningar
+* Spåra och rapportera om projektekonomi
+* Kicka inkommande arbetsförfrågningar
+* Samarbeta om projekt, uppgifter och ärenden
+
+>[!NOTE]
+>
+>Du kan skapa en anpassad version av den inbyggda standardåtkomstnivån och justera åtkomstnivån för de olika Workfront-objekttyperna. Mer information om hur du skapar en anpassad åtkomstnivå finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+#### **Åtkomstinformation**
+
+Följande är de högsta tillgängliga åtkomstinställningarna för objekt på standardåtkomstnivån:
+
+| Workfront objekttyp | Ingen åtkomst | Visa åtkomst | Redigera åtkomst |
+|---|---|---|---|
+| Projekt |   |   | ✓ |
+| Uppgifter |   |   | ✓ |
+| Problem |   |   | ✓ |
+| Portfolio |   |   | ✓ |
+| Program |   |   | ✓ |
+| Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   |   | ✓ |
+| Filter, vyer och grupperingar |   |   | ✓ |
+| Dokument |   |   | ✓ |
+| Användare |   |   | ✓ |
+| Mallar |   |   | ✓ |
+| Finansiella uppgifter |   |   | ✓ |
+| Resurshantering |   |   | ✓ |
+| Scenarioplan |   |   | ✓ (Standardinställningen är Ingen åtkomst.) |
+| Varumärkena |   |   | ✓ |
+| Startsida |   |   | ✓ |
+| Mål |   |   | ✓ |
+
+{style="table-layout:auto"}
+
+### Ljus åtkomstnivå
+
+Den här åtkomstnivån är kopplad till Light-licensen och är utformad för användare som:
+
+* Visa alla artiklar och uppdateringar som är kopplade till arbetet
+* Godkänn projekt, uppgifter och ärenden
+* Visa instrumentpaneler och rapporter
+* Spåra tid
+* Skapa och hantera problem
+* Gör uppdateringar på jobbet
+
+Användare med åtkomstnivån Light:
+
+* Det går inte att tilldela arbetsobjekt eller godkänna tidrapporter
+* Kan komma åt förfrågningar och dokument på huvudmenyn.
+* Har begränsad möjlighet att skapa objekt - de kan inte skapa projekt, portfolior, program eller rapporter.
+
+>[!NOTE]
+>
+>Du kan skapa en anpassad version av den inbyggda åtkomstnivån Light (Ljus) och justera åtkomstnivån för de olika Workfront-objekttyperna. Mer information om hur du skapar en anpassad åtkomstnivå finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+#### **Åtkomstinformation**
+
+Följande är de högsta tillgängliga åtkomstinställningarna för objekt på åtkomstnivån Ljus:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Workfront objekttyp</th> 
+   <th>Ingen åtkomst</th> 
+   <th>Visa åtkomst</th> 
+   <th>Redigera åtkomst</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Projekt</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Uppgifter</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Problem</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Portfolio</td> 
+   <td> </td> 
+   <td>✓ (Standardinställningen är Ingen åtkomst.)</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Program</td> 
+   <td> </td> 
+   <td>✓ (Standardinställningen är Ingen åtkomst.)</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Rapporter (inklusive instrumentpaneler och kalenderrapporter)</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Filter, vyer och grupperingar</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Dokument</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Användare</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+    <tr> 
+   <td>Team</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>Mallar</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Finansiella uppgifter</td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Resurshantering</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Scenarioplan </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓ (Standardinställningen är Ingen åtkomst.)</td> 
+  </tr> 
+  <tr> 
+   <td>Varumärkena </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+     <tr> 
+   <td>Startsida </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr>   
+   <td>Mål </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+ </tbody> 
+</table>
+
+### Åtkomstnivå för deltagare
+
+Den här åtkomstnivån är kopplad till Contributor-licensen och är utformad för användare som:
+
+* Skicka begäranden
+* Spåra förfrågningar
+* Uppdatera och granska förfrågningar.
+
+Användare med denna inbyggda åtkomstnivå:
+
+* Kan göra förfrågningar och uppdatera dessa förfrågningar
+* Kan överföra och godkänna dokument
+* Kan granska status för de utgåvor som de har skickat in
+* Det går inte att tilldela arbetsobjekt
+* Kan bara komma åt begäranden från huvudmenyn. Mer information om köer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+>[!NOTE]
+>
+>Du kan skapa en anpassad version av den inbyggda åtkomstnivån för Contributor och justera den åtkomstnivå som tillåts för de olika Workfront-objekttyperna. Mer information om hur du skapar en anpassad åtkomstnivå finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+#### **Åtkomstinformation**
+
+Följande är de högsta tillgängliga åtkomstinställningarna för objekt på åtkomstnivån för Contributor:
+
+| Workfront objekttyp | Ingen åtkomst | Visa åtkomst | Redigera åtkomst |
+|---|---|---|---|
+| Projekt |   | ✓ (endast sidan Projektinformation) |   |
+| Uppgift |   | ✓(Endast informationssidan) |   |
+| Problem |   |   | ✓ |
+| Portfolio | ✓ |   |   |
+| Program | ✓ |   |   |
+| Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   | ✓ (Endast fliken Detaljer) |   |
+| Filter, vyer och grupperingar |   |   | ✓ |
+| Dokument |   |   | ✓ |
+| Användare |   | ✓ |   |
+| Team |   | ✓ |   |
+| Mall | ✓ |   |   |
+| Finansiella uppgifter | ✓ |   |   |
+| Resurshantering | ✓ |   |   |
+| Scenarioplan | ✓ |   |   |
+| Varumärkena |   |   | ✓ (enkla kort) |
+| Startsida |   | ✓ (Mina uppdateringar) |   |
+| Mål |   |   | ✓ |
+
+{style="table-layout:auto"}
+
+### Åtkomstnivå för externa användare
+
+Den här åtkomstnivån är inte kopplad till en betald Workfront-licens. Det är den mest restriktiva åtkomstnivån, som främst utformats för medarbetare som externa konsulter som inte loggar in på Workfront, men som behöver granska, ladda ned eller visa dokument ibland.
+
+Workfront-användare kan tilldela uppgifter till externa användare även om externa användare inte kan logga in på systemet. Men vi avråder från detta eftersom arbetet skulle förbli olöst i systemet.
+
+Användare med åtkomstnivå Extern användare:
+
+* Kan endast visa dokument och kalenderrapporter som delas med dem
+* Visa de användare som delar dokument och kalenderrapporter med sig
+* Godkänn de dokument som delas med dem
+
+Du kan inte ändra den här åtkomstnivån.
+
+>[!IMPORTANT]
+>
+>Extern användare är bara tillgänglig om alternativet Samarbeta med personer utan Workfront-konton genom att använda deras e-postadress är aktiverat i området Systeminställningar i Inställningar. Mer information finns i [Konfigurera säkerhetsinställningar för system](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+#### **Åtkomstinformation**
+
+Följande är de högsta tillgängliga åtkomstinställningarna för objekt på åtkomstnivån Extern användare.
+
+| Workfront objekttyp | Ingen åtkomst | Visa åtkomst | Redigera åtkomst |
+|---|---|---|---|
+| Projekt | ✓ |   |   |
+| Uppgift | ✓ |   |   |
+| Problem | ✓ |   |   |
+| Portfolio | ✓ |   |   |
+| Program | ✓ |   |   |
+| Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   | ✓ (Endast för kalenderrapporter. ingen möjlighet att dela rapporter) |   |
+| Filter, vyer och grupperingar | ✓ |   |   |
+| Dokument |   | ✓ (ingen möjlighet att dela dokument) |   |
+| Användare |   | ✓ |   |
+| Team | ✓ |   |   |
+| Mall | ✓ |   |   |
+| Finansiella uppgifter | ✓ |   |   |
+| Resurshantering | ✓ |   |   |
+| Scenarioplan | ✓ |   |   |
+| Varumärkena | ✓ |   |   |
+| Startsida | ✓ |   |   |
+| Mål | ✓ |   |   |
+
+
+## Hur åtkomstnivåer och behörigheter fungerar tillsammans
+
+Åtkomstnivåer definierar vad användare kan se och göra med allmänna objekttyper och områden i systemet, t.ex. projekt, uppgifter och problem. Behörigheter definierar vad du har tillgång till på specifika objekt som skapats av andra personer i systemet, till exempel ett projekt som skapats för att köra en marknadsföringskampanj.
+
+I följande tabell jämförs en användares allmänna åtkomst till objekt (som definieras av användarens åtkomstnivå) med behörigheter för ett specifikt delat objekt:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th>Åtkomstnivå </th> 
+   <th>Behörigheter </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Beviljad av en Workfront-administratör på en användares åtkomstnivå</td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Beviljas av en användare som delar ett objekt på objektnivå</td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Ärvs från ett delat objekt med högre rankning 
+   </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+De aktiviteter som en användare kan utföra med ett objekt definieras genom en kombination av åtkomstnivå och behörigheter som användaren får.
+
+![](assets/security-model-hierachy-copy.png)
+
+### Bevilja behörigheter genom att dela objekt
+
+Användare får åtkomst till enskilda objekt när andra användare delar och ger vissa behörigheter för dessa objekt.
+
+>[!NOTE]
+>
+>* Om en användare delar ett objekt med vissa behörigheter och objektet har underordnade objekt, ärver mottagaren samma behörigheter för dessa underordnade objekt.
+>* Om en åtkomstnivå begränsar användare från att ta bort vissa objekt, hindras de inte från att ta bort underordnade objekt som finns i dessa objekt.
+
+
+En användare kan ge mottagaren någon av följande behörigheter till det enskilda objektet:
+
+* **Visa**: Den här behörighetsnivån tillåter att mottagaren delar objektet på något av följande sätt:
+
+   * System-wide så att alla användare kan se det (inte tillgängligt för alla objekt)
+   * Med externa användare som inte har någon Workfront-licens (inte tillgänglig för alla objekt)
+   * Med en e-postadress (endast tillgängligt för dokument och kalendrar)
+
+* **Contribute**: (ej tillgängligt för alla objekt)
+* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som delaren tilldelat. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
+
+### Exempel på scenarier
+
+#### **Scenario 1**
+
+Om mottagarens åtkomstnivå inte tillåter projektredigering kan den personen inte redigera eller ta bort ett projekt även om den som delar har gett behörighet att hantera det.
+
+Eller, om mottagarens åtkomstnivå tillåter projektredigering, men användaren bara har gett behörighet att visa ett projekt, kan användaren inte redigera eller ta bort projektet.
+
+#### **Scenario 2**
+
+När Olivia delar ett Workfront-projekt med Tony bestäms Tony av en kombination av två saker:
+
+* Tony&#39;s access level, som tilldelats av Workfront-administratören
+* Tony&#39;s permissions to the project, specified by Olivia
+
+Tony kan begränsa sitt arbete i projektet ytterligare, men det får inte vara obegränsat utöver det som är tillåtet på hans åtkomstnivå:
+
+* Om Tony inte har behörighet att skapa uppgifter kan han inte lägga till uppgifter i projektet, även om Olivia gett honom behörighet att lägga till uppgifter i det.
+* Om Tony på sin åtkomstnivå tillåter sig att skapa uppgifter, men Olivia inte gav behörighet att lägga till uppgifter i projektet, kan han inte lägga till uppgifter i projektet, men han kan lägga till uppgifter i andra projekt där han har fått tillstånd att göra det.

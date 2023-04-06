@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -27,18 +27,18 @@ Du får följande felmeddelande när du försöker ändra formatet för ett anpa
 
 Det här meddelandet visas i följande scenario:
 
-Du har t.ex. ett anpassat fält formaterat som text.  Nu vill du ändra formatet för det anpassade fältet till Valuta. Någonstans i din [!DNL Adobe Workfront] -instans, det här fältet är redan kopplat till ett objekt och innehåller information som redan har angetts. Den befintliga informationen i minst ett sådant fält är redan formaterad som text. Därför kan inte fältets format ändras till Valuta.
+Du har t.ex. ett anpassat fält formaterat som text.  Nu vill du ändra formatet för det anpassade fältet till Valuta. Någonstans i din Adobe Workfront-instans är det här fältet redan kopplat till ett objekt och innehåller redan angiven information. Den befintliga informationen i minst ett sådant fält är redan formaterad som text. Därför kan inte fältets format ändras till Valuta.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Workfront] plan</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront</a>*</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] licensöversikt</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över äldre licenser</a>*</p> </td> 
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -47,7 +47,7 @@ Du har t.ex. ett anpassat fält formaterat som text.  Nu vill du ändra formatet
     <ul> 
      <li> <p>Skapa rapporter, instrumentpaneler och kalendrar</p> </li> 
      <li> <p>Skapa filter, vyer och grupperingar</p> </li> 
-    </ul> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
