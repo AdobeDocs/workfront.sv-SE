@@ -7,7 +7,7 @@ description: När du skapar en styrelse med ad hoc-kort och anslutna kort kanske
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Översikt över flexibla planeringsverktyg
-
-{{highlighted-preview}}
 
 När du skapar en styrelse med ad hoc-kort och anslutna kort kanske du vill dra nytta av ytterligare flexibla planeringsverktyg.
 
@@ -26,15 +24,11 @@ Exempel på verktyg som är användbara för Kanban:
 * Gruppera kort i simbanor
 * En inloppskolumn som kan användas för en eftersläpning
 
-<div class="preview">
-
 Exempel på verktyg som är användbara för Scrum:
 
 * Arbetsströmmar och iterationstavlor
 * Kortlista eller eftersläpning
 * Iterationsmått
-
-</div>
 
 Du kan använda något eller alla av dessa verktyg på ett sätt som fungerar för dig och ditt team, utan att binda dig för en viss flexibel metod.
 

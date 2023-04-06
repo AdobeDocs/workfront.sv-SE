@@ -6,24 +6,18 @@ title: Hantera arbetsflöden
 description: Ett arbetsflöde är en konfigurerbar grupp av brädor och kort för samarbete i arbetet.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
 
 # Hantera arbetsflöden
 
-{{highlighted-preview}}
+Ett arbetsflöde är en konfigurerbar grupp av brädor och kort för samarbete i arbetet. Arbetsströmmar kan innehålla olika typer av anslagstavlor från mallar och en kortlista med arbetsobjekt. I ett arbetsflöde kan du spåra arbete i iterationer eller utskrifter.
 
->[!NOTE]
->
->Det finns arbetsflöden i förhandsvisningsmiljön och i produktionen via tidiga funktioner för [!UICONTROL [!DNL Workfront] Boards]. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-Ett arbetsflöde är en konfigurerbar grupp av brädor och kort för samarbete i arbetet. Arbetsströmmar kan innehålla olika typer av anslagstavlor från mallar, <span class="preview">och en kortlista med arbetsuppgifter. I ett arbetsflöde kan du spåra arbete i iterationer eller utskrifter.</span>
-
-<span class="preview">Mer information finns i [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) och [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
+Mer information finns i [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) och [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 Arbetsströmmar visas på kontrollpanelen tillsammans med enskilda paneler som du har åtkomst till som inte är en del av ett arbetsflöde. Mer information om panelernas kontrollpanel finns i [Använda panelkontrollpanelen](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Du kan öppna en panel genom att klicka på dess namn.
 
@@ -68,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 | Grundläggande bräde | Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
 | Kanban-tavla | Följande kolumner finns på styrelsen: Eftersläpning, Nytt, Pågår, Fullständigt och Väntande. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna.<p>Om du vill använda eftersläpningen måste du ställa in filter för inloppskolumnen. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Om du vill granska standardreglerna för varje kolumn klickar du på [!UICONTROL **Mer** meny] i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospektivkort | Följande kolumner finns på styrelsen: Vad gick bra? Vad kan förbättras? Vem ska vi fira? Vad kan vi göra för att gå fortare? Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
-| <span class="preview">Upprepningsprocess</span> | <span class="preview">Detta är den anslagstavla som används för att definiera och köra en iteration. <p>Följande kolumner finns på styrelsen: Eftersläpning, Nytt, Pågår, Fullständigt och Väntande. Du kan inte lägga till några kolumner på anslagstavlan. <p>Om du vill granska standardreglerna för varje kolumn klickar du på [!UICONTROL **Mer**] meny i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| Upprepningsprocess | Detta är den anslagstavla som används för att definiera och köra en iteration. <p>Följande kolumner finns på styrelsen: Eftersläpning, Nytt, Pågår, Fullständigt och Väntande. Du kan inte lägga till några kolumner på anslagstavlan. <p>Om du vill granska standardreglerna för varje kolumn klickar du på [!UICONTROL **Mer**] meny i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 Mer information om hur du ställer in styrelsen finns i [Skapa eller redigera en anslagstavla](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -99,8 +93,6 @@ Personer och team måste läggas till i arbetsflödet som medlemmar innan de kan
 
    Detta är samma process som att lägga till medlemmar i en styrelse. Mer information finns i [Lägga till eller ta bort medlemmar från en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## Konfigurera ett arbetsflöde
 
 {{step1-to-boards}}
@@ -118,4 +110,3 @@ Personer och team måste läggas till i arbetsflödet som medlemmar innan de kan
 
    Att lägga till filter för arbetsflödeskällor är detsamma som att lägga till filter för en inloppskolumn på en grundbräda eller på en kanban-bräda. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-</div>

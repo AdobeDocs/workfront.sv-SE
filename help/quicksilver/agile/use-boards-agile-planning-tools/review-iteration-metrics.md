@@ -6,18 +6,16 @@ title: Granska iterationsmått
 description: Mätvärden finns tillgängliga för varje upprepning i ett arbetsflöde på iterationsprocessbordet.
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
 # Granska iterationsmått
 
-{{highlighted-preview-article-level}}
-
-Mätvärden finns tillgängliga för varje upprepning i ett arbetsflöde på iterationsprocessbordet.
+Det finns mätvärden för varje upprepning i ett arbetsflöde, på iterationsprocesspanelen och på kontrollpanelen.
 
 ## Åtkomstkrav
 

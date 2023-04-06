@@ -6,27 +6,21 @@ description: The [!UICONTROL boards] På kontrollpanelen visas en lista med pane
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
 # Använda panelkontrollpanelen
 
-{{highlighted-preview}}
-
 Panelerna visar en lista med paneler och arbetsflöden du har tillgång till, inklusive paneler du har skapat och paneler som du har lagts till i. Enskilda paneler som du har åtkomst till som inte ingår i en arbetsström visas först.
-
->[!NOTE]
->
->Det finns arbetsflöden i förhandsvisningsmiljön och i produktionen via tidiga funktioner för [!UICONTROL [!DNL Workfront] Boards]. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 På kontrollpanelen kan du göra följande för paneler och arbetsflöden:
 
-* Arkivera en styrelse <span class="preview">eller arbetsflöde</span>
-* Filtrera ritytorna <span class="preview">och arbetsflöden</span>
+* Arkivera en styrelse eller ett arbetsflöde
+* Filtrera ritytor och arbetsflöden
 * Sortera listan efter styrelsens namn eller ändringsdatum
 * Söka efter en styrelse eller ett arbetsflöde
 * Ta bort en styrelse eller ett arbetsflöde
@@ -54,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta [!DNL Workfront] administratör.
 
-## Filterbord <span class="preview">och arbetsflöden</span> {#filter-boards}
+## Filterbord och arbetsflöden {#filter-boards}
 
 Du kan filtrera panelkontrollpanelen så att den visar aktiva, arkiverade eller alla paneler eller arbetsflöden.
 
@@ -85,7 +79,7 @@ Du kan söka efter en specifik anslagstavla i området för anslagstavlor eller 
 
    ![Sök efter paneler på kontrollpanelen](assets/boards-searchbox.png)
 
-## Arkivera en styrelse <span class="preview">eller ett arbetsflöde</span>
+## Arkivera en styrelse eller ett arbetsflöde
 
 När du arkiverar en styrelse eller ett arbetsflöde skickas det till arkivet och du kan återställa det senare.
 
@@ -123,17 +117,18 @@ Om du tar bort ett arbetsflöde tas även alla ritytor i arbetsflödet bort.
 
 1. Klicka **[!UICONTROL Delete board]** eller [!UICONTROL **Ta bort arbetsflöde**] på bekräftelsemeddelandet.
 
-## Flytta en anslagstavla till ett arbetsflöde
+<!-- ## Move a board to a workstream
 
-Du kan flytta en fristående bräda till ett arbetsflöde eller flytta en bräda från ett arbetsflöde till ett annat.
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->Du kan bara flytta ritytor som du har skapat, inte ritytor som du har lagts till i.
+>You can only move boards that you created, not boards that you were added to.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) och väljer [!UICONTROL **Flytta till arbetsflöde**].
-1. Välj vilket arbetsflöde som anslagstavlan ska läggas till i och klicka på [!UICONTROL **Flytta**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   Styrelsen flyttas till arbetsflödet och visas inte längre i [!UICONTROL Boards] område.
-Om du inte har skapat något arbetsflöde än uppmanas du att skapa ett som du kan flytta anslagstavlan till.
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->
