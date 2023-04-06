@@ -7,7 +7,7 @@ description: Du kan ordna ett anpassat formulär med Form Designer.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 529de9d31be883325d425dceb286d750397c5d8e
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Organisera och förhandsgranska ett formulär med formulärdesignern
-
-{{highlighted-preview-article-level}}
 
 Du kan ordna ett anpassat formulär med formulärdesignern.
 

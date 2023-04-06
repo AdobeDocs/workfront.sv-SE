@@ -4,7 +4,7 @@ description: Utforma och känna av uppdateringar under 23.2-releasetidningen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 4 april 2023, Planerad produktionsrelease: 18 april 2023
+>Förhandsgranskningsversion: 4 april 2023, Planerad produktionsrelease: 20 april 2023
 
 Vi har uppdaterat listan Utkast i området Begäranden så att den överensstämmer med de senaste listorna i Workfront.
 Några av uppdateringarna är följande:

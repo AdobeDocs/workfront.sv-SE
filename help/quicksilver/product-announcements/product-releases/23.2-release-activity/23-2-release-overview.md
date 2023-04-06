@@ -4,9 +4,9 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # 23.2 Versionsöversikt
 
-Den här sidan innehåller information om de funktioner som ingår i version 23.2 som är planerad till den 3 april 2023.
-
-Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan uppdateras med ytterligare förbättringar när version 23.2 närmar sig den planerade produktionsversionen.
+Den här sidan innehåller information om de funktioner som finns i version 23.1. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.2 den 6 och 7 april 2023.
 
 Tips om hur du förbereder dig för den kommande versionen finns på [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från objektinformation på en Workfront-arbetsyta eller i ett arbetsflöde</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från objektinformation på en Workfront-arbetsyta eller i ett arbetsflöde</a></p>
                         <p>Nu kan du lägga till befintliga uppgifter eller problem i en lista med Workfront-kort eller arbetsflödeskort direkt från objektinformationen. Alla objekt som du lägger till på en anslagstavla blir anslutna kort och alla objekt som läggs till i en arbetsström läggs till i kortlistan som oplanerade kort.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -429,7 +427,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Kontrollpaneler på arbetsytan</a><span style="color: #ff0000;"> Kommer snart!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Kontrollpaneler på arbetsytan</a></p>
                         <p>Kontrollpaneler på arbetsytan har lagts till som en pågående funktion för kontrollpaneler som kan aktiveras i layoutmallar. På arbetsytans kontrollpaneler kan rapportarbetsytevisualiseringar kombineras med befintliga rapporter utöver de nya layoutalternativen. För närvarande stöds bara listrapporter, men fler alternativ läggs till under utvecklingen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -464,8 +462,8 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrisk inloggning och anslagstavlor i mobilappen</span></a><span style="color: #ff0000;"> Kommer snart!</span>
-                        <p>Biometrisk inloggning är nu ett alternativ för snabbare inloggning i mobilappen! När biometrisk verifiering har konfigurerats efter en första inloggning kan användarna använda fingeravtryck eller ansiktsigenkänning för att snabbt logga in i appen igen med endast tillfällig lösenordsåterställning. Dessutom kommer det att finnas ett antal förbättringar av den allmänna inloggningsupplevelsen som kommer i en senare uppdatering.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrisk inloggning och anslagstavlor i mobilappen</span></a>
+                        </span></a><p>Biometrisk inloggning är nu ett alternativ för snabbare inloggning i mobilappen! När biometrisk verifiering har konfigurerats efter en första inloggning kan användarna använda fingeravtryck eller ansiktsigenkänning för att snabbt logga in i appen igen med endast tillfällig lösenordsåterställning. Dessutom kommer det att finnas ett antal förbättringar av den allmänna inloggningsupplevelsen som kommer i en senare uppdatering.</p>
                         <p>Boards-samlingar stöds nu också i mobilappen, vilket gör att mobilanvändare kan visa alla samlingar de har tillgång till i skrivbordsversionen från sin lista över mobilanslagstavlor.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -537,7 +535,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">NetNew customers to be conboard to Adobe Unified Experience</a><span style="color: #ff0000;"> Kommer snart!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">NetNew customers to be conboard to Adobe Unified Experience</a></p>
                         <p>Adobe enhetliga upplevelse omfattar:
                         <ul>
                         <li>En enda inloggning för alla Adobe-program via Adobe Experience Cloud</li>
@@ -559,7 +557,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Språkvisningsprogrammet öppnas på en ny flik för användare i Unified Experience</a><span style="color: #ff0000;"> Kommer snart!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Språkvisningsprogrammet öppnas på en ny flik för användare i Unified Experience</a></p>
                         <p>Språkvisningsprogrammet öppnas nu på en ny flik för användare i Unified Experience.
                         </p>
                     </td>
@@ -627,11 +625,11 @@ Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området
 
 Nya funktioner i Workfront Goals-versionen 23.2. Mer information om de här nya funktionerna som nu finns i Förhandsgranska finns i [Adobe Workfront Goals with the 23.2 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API-version 15
+### API-version 16
 
-För API-version 15 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
+API-version 16 släpps med version 22.3. För API-version 16 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+Information om nyheter och uppdateringar finns på [Nyheter i API-version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

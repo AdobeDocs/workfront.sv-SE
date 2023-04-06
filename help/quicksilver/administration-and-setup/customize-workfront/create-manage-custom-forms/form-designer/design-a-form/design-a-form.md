@@ -7,7 +7,7 @@ description: Du kan utforma ett anpassat formulär med formulärdesignern.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '3803'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Designa ett formulär med formulärdesignern
-
-{{highlighted-preview-article-level}}
 
 Du kan utforma ett anpassat formulär med formulärdesignern. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 

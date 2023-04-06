@@ -7,7 +7,7 @@ description: Du kan byta namn på befintliga anpassade formulär med formulärde
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Byta namn på ett anpassat formulär med formulärdesignern
-
-{{highlighted-preview-article-level}}
 
 Du kan byta namn på ett anpassat formulär när som helst efter att det har skapats med formulärdesignern.
 

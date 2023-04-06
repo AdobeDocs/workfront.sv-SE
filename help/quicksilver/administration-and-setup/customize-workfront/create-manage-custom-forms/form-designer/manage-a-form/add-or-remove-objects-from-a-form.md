@@ -7,7 +7,7 @@ description: Du kan lägga till eller ta bort objekttyper från anpassade formul
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # Lägga till eller ta bort objekttyper från ett befintligt anpassat formulär med formulärdesignern
-
-{{highlighted-preview-article-level}}
 
 Du kan lägga till eller ta bort objekttyper från ett befintligt anpassat formulär med formulärdesignern.
 
