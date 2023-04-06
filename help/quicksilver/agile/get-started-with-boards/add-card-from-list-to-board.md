@@ -5,16 +5,14 @@ title: Lägga till befintliga uppgifter eller problem på en Adobe Workfront-arb
 description: Du kan lägga till en uppgift eller ett problem till en styrelse i Adobe Workfront från en list- eller rapportvy.
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # Lägg till befintliga uppgifter eller ärenden i en [!DNL Adobe Workfront] bräda eller arbetsflöde
-
-{{highlighted-preview-article-level}}
 
 Du kan lägga till uppgifter eller problem till en styrelse eller ett arbetsflöde i [!DNL Adobe Workfront] från en list- eller rapportvy, eller från objektinformationen.
 
