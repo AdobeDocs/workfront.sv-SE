@@ -6,9 +6,9 @@ description: API-versionshantering och supportschema
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '226'
 ht-degree: 10%
 
 ---
@@ -33,6 +33,10 @@ I följande tabell visas releasen och supportplanen för Workfront API.
   </tr> 
  </thead> 
  <tbody> 
+   <td>14</td> 
+   <td> <p>April 2023</p> <p>(med version 23.2)</p> </td> 
+   <td> <p>**under 2026</p> <p>(med version 26.2)</p> </td> 
+  </tr> 
   <tr> 
    <td>15</td> 
    <td>Första halvåret 2022</td> 

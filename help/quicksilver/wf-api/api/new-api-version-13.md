@@ -6,7 +6,7 @@ description: Adobe Workfront släppte API-version 13 den 22 april 2021. API-vers
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -456,7 +456,7 @@ Ett Timesheet-objekt representerar ett virtuellt tidkort som gör att användare
 
 ### UITemplate {#uitemplate}
 
-Adobe Workfront-administratörer och gruppadministratörer kan skapa mallar för att anpassa layoutelementen i Adobe Workfront. LayoutTemplate-objektet är specifikt för den nya Adobe Workfront-upplevelsen.
+Adobe Workfront-administratörer och gruppadministratörer kan skapa mallar för att anpassa layoutelementen i Adobe Workfront. UITemplate-objektet är specifikt för den nya Adobe Workfront-upplevelsen.
 
 Objektet som representerar layoutmallar i Adobe Workfront Classic finns i [LayoutTemplate](#layouttemplate).
 
