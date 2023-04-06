@@ -5,21 +5,15 @@ title: Anpassa vilka fält som visas på ett kort
 description: Du kan anpassa vilka fält som ska visas på ett kort genom att inaktivera ett fält så att det inte visas i det fullständiga kortet eller den komprimerade vyn, eller genom att dölja ett fält i den komprimerade kortvyn.
 author: Lisa
 feature: Agile
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
 
 # Anpassa vilka fält som visas på ett kort
-
-{{highlighted-preview}}
-
->[!NOTE]
->
->Den här funktionen är endast tillgänglig genom att du har anmält dig till [!DNL Workfront] [!UICONTROL Boards]. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Som standard visas alla tillgängliga fält på ett kort, både i den fullständiga vyn när kortet är öppet och i den komprimerade kortvyn på kortet. Du kan anpassa vilka fält som visas av:
 
@@ -71,13 +65,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Om du vill visa alla fält i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
 1. Klicka [!UICONTROL **Dölj konfigurera**] för att stänga panelen Konfigurera.
 
-<div class="preview">
-
 ## Lägg till anpassade fält till kort
+
+Anpassade fält är tillgängliga på anslutna kort. De visas bara i helskärmsläge, inte i den komprimerade vyn på kortet.
 
 >[!NOTE]
 >
->När du lägger till ett anpassat fält på dina kort är uppgifterna på kortet skrivskyddade. Anpassade fält är dessutom bara tillgängliga på anslutna kort.
+>När du lägger till ett anpassat fält på dina kort är uppgifterna på kortet skrivskyddade.
 
 1. Gå till en anslagstavla och klicka [!UICONTROL **Konfigurera**] för att öppna konfigurationspanelen.
 1. Expandera [!UICONTROL **Kort**].
@@ -88,8 +82,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![Sök efter anpassat fält](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >Följande fälttyper är inte tillgängliga för korttillägg: Adobe XD, Image, PDF, Video.
+
 1. Markera fältnamnet.
+1. (Valfritt) Klicka på **[!UICONTROL Field value]** om du vill ändra det här anpassade fältet till ett annat.
+1. (Valfritt) Ändra **[!UICONTROL Field label]** till det fältnamn som du vill ska visas på kort.
+1. När du är klar med ändringarna klickar du på [!UICONTROL **Spara fält**].
 
-   Det anpassade fältet läggs till i listan med tillgängliga fält och aktiveras som standard. Du kan inaktivera eller dölja det anpassade fältet enligt stegen i [Konfigurera kort](customize-fields-on-card.md#configure-cards) eller ta bort det från styrelsen.
+   ![Eget fältvärde och etikett](assets/save-custom-field-value-label.png)
 
-</div>
+   Det anpassade fältet läggs till i listan med tillgängliga fält och aktiveras som standard. Du kan inaktivera det anpassade fältet enligt stegen i [Konfigurera kort](customize-fields-on-card.md#configure-cards) ovan, redigera fältet eller ta bort det från alla kort.
+
