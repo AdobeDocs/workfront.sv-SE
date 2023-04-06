@@ -5,16 +5,14 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # Tillämpa ett styrkort på ett projekt och generera ett justeringsresultat
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
 
 Du kan använda ett styrkort för att mäta hur väl ett projekt anpassar sig till de villkor som tidigare fastställts för en portfölj. Ett styrkort avspeglar ofta en organisations uppdrag, värderingar och strategiska mål.
 
@@ -95,17 +93,20 @@ Så här använder du ett styrkort för ett projekt:
 
    Styrkortet är nu kopplat till projektet och projektet poängsätts.
 
-1. (Villkorligt) När värden för styrkortsfrågor ändras måste du beräkna om styrkortet så att det återspeglar de nya värdena för projektpoängen. Så här omberäknar du styrkortet:
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. Gå till en lista med projekt och välj alla projekt i listan.
-   1. Klicka på **Redigera** ikonen längst upp i listan.
-   1. Klicka **Inställningar** i den vänstra panelen och sedan kontrollera **Beräkna om styrkort** i slutet av inställningsområdet.
-   1. Klicka på Spara. Detta beräknar om poängvärdet baserat på de styrkort som har bifogats för alla markerade projekt.
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">Alternativet att beräkna om styrkort har tagits bort från förhandsvisningsmiljön när flera projekt redigeras samtidigt. </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## Generera en justeringspoäng
 

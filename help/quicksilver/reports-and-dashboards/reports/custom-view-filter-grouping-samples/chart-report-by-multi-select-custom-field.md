@@ -7,16 +7,16 @@ description: Du kan inte diagramma en rapport med ett anpassat fält som har fle
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Diagrama en rapport med ett anpassat fält som har flera val
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Du kan inte diagramma en rapport med ett anpassat fält som har flera val. Du måste skapa ytterligare ett beräkningsfält som refererar till det anpassade fältet för flera val för att kunna diagram rapporten med värdet för det anpassade fältet för flera val.
 
@@ -109,7 +109,7 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
    >[!NOTE]
    >
-   ><span class="preview">Det här alternativet har tagits bort från att redigera flera projekt samtidigt i förhandsvisningsmiljön.  Du kan fortfarande beräkna om uttryck för projekt i grupp genom att klicka på **Mer** ![](assets/more-icon-45x33.png) högst upp i en projektlista, och sedan **Beräkna om uttryck**. </span>
+   >Det här alternativet har tagits bort från gruppredigering.  Du kan fortfarande beräkna om uttryck för projekt i grupp genom att klicka på **Mer** icon ![](assets/more-icon-45x33.png) högst upp i en projektlista, och sedan **Beräkna om uttryck**.
 
 
 1. Gå till rapporten där du vill lägga till diagrammet för det beräknade fältet som refererar till det anpassade fältet för flera val.

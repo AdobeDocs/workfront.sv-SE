@@ -7,16 +7,16 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett anpassat formulär i ett objekt
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Du kan lägga till ett befintligt anpassat formulär till något av objekten som listas nedan. Ett anpassat formulär innehåller anpassade fält där du kan lagra information om objektet.
 
@@ -115,18 +115,21 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">Mer information om hur du lägger till anpassade formulär i flera projekt samtidigt i förhandsgranskningsmiljön finns i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>Att lägga till anpassade formulär till objekt är identiskt för alla objekt förutom projekt.
+>
+>Mer information om hur du lägger till anpassade formulär i flera projekt finns i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Navigera till en lista med objekt.
 1. Markera flera objekt i listan.
 
-1. Klicka på **Mer** meny ![](assets/more-icon.png)klickar du på **Redigera** icon  ![](assets/edit-icon.png)eller bara klicka på **Redigera** icon ![](assets/edit-icon.png).
+1. Klicka på **Mer** meny ![](assets/more-icon.png)klickar du på **Redigera** icon  ![](assets/edit-icon.png)eller bara klicka på **Redigera** icon ![](assets/edit-icon.png) högst upp i listan.
 1. Klicka **Anpassad Forms** i den vänstra panelen.
 1. Markera det formulär som du vill koppla till alla markerade objekt i **Gör en markering** nedrullningsbar meny.
    >[!NOTE]
    >
    >Om du inte hittar formuläret i listrutan innebär det att minst ett av objekten redan har det kopplade formuläret. Bestäm vilket objekt som är och ta bort det från markeringen innan du kan lägga till formuläret till de återstående objekten.
+
 
 1. Klicka **Spara ändringar**.
 
