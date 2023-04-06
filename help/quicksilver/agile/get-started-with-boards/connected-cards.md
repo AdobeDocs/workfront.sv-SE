@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td><p>Antal timmar som kortet ska fyllas i.</p><p>Om du använder anmälan om tidig funktion för [!DNL Workfront] [!UICONTROL Boards], ändrar uppskattningen också artikelpunktsvärdet på den anslutna enheten [!DNL Workfront] -objekt.</p><p>Om du inte vill gå in på tidiga funktioner är det här fältet bara en manuell inmatning och värdet får inte vara större än 99.</p></td>
+      <td><p>Antal timmar som kortet ska fyllas i.</p><p>Om du ändrar uppskattningen ändras även artikelpunktsvärdet på den anslutna [!DNL Workfront] -objekt.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
@@ -184,10 +184,6 @@ När du har skapat ett ad hoc-kort kan du konvertera det till ett anslutet kort.
 1. Klicka **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
 
 ## Logga timmar på ett anslutet kort
-
->[!NOTE]
->
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
 
 Du måste ha rätt behörighet för att kunna logga timmar på den anslutna aktiviteten eller problemet.
 

@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Inloppskolumn](assets/intake-column-added3.png)
 
    Kort i inloppskolumnen går inte att redigera förrän du flyttar dem till andra kortkolumner. Du kan klicka på kortet för att öppna det i en skrivskyddad vy eller klicka på ![Öppna uppgift eller ärende](assets/boards-launch-icon.png) för att öppna uppgiften eller problemet på en ny flik i webbläsaren.
-
-   >[!NOTE]
-   >
-   >Den skrivskyddade vyn för kort i inloppskolumnen är endast tillgänglig via den tidiga funktionen för att välja [!DNL Workfront] [!UICONTROL Boards].
 
    Du kan ändra ordning på objekten i inloppskolumnen manuellt.
 

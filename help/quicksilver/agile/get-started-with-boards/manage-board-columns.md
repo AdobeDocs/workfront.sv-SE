@@ -6,9 +6,9 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -118,22 +118,11 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
 
       Statusöversättningsalternativen för anslutna kort visas också. (Statusöversättning gäller inte för ad hoc-kort.) Dessa alternativ avgör vilken anpassad status som används för uppgiften eller utgåvan i [!DNL Workfront] när ett anslutet kort flyttas till den här kolumnen.
 
-   1. Om du använder tidiga funktioner: Välj en [!UICONTROL **Egen**] status som ska gälla för kortet för uppgifter och för utgåvor.
+   1. Välj en [!UICONTROL **Egen**] status som ska gälla för kortet för uppgifter och för utgåvor.
 
-      När ett kort flyttas till den här kolumnen [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den valda anpassade statusen inte är tillgänglig för det kortet uppmanas du att välja en annan status som motsvarar systemstatusen (från steg b ovan).
+      När ett kort flyttas till den här kolumnen [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den valda anpassade statusen inte är tillgänglig för det kortet uppmanas du att välja en annan status som motsvarar systemstatusen (från steg b ovan). Mer information om status finns i [Översikt över status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.
-
-      >[!NOTE]
-      >
-      >Du kan bara ange en anpassad standardstatus för kolumnen via anmälan av tidig funktion. Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-   1. Om du inte använder anmälan om tidig funktion: Välj en status för uppgifter och en status för ärenden. Endast standardinställningen [!DNL Workfront] statusvärden är tillgängliga, inte anpassade statusvärden.
-
-      >[!NOTE]
-      >
-      >Om du använder anpassade statusvärden i [!DNL Workfront]blir du ombedd att välja status första gången du flyttar ett anslutet kort till den här kolumnen. Om det anslutna projektet till exempel har flera statustyper som alla motsvarar [!UICONTROL Completed]måste du välja vilken status du vill använda i [!DNL Workfront]. Du kan ange ditt val som standard så att du inte behöver göra urvalet varje gång du flyttar ett kort till kolumnen.
-      >Mer information om status finns i [Översikt över status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Valfritt) Ange ett värde för korttilldelningarna:
 

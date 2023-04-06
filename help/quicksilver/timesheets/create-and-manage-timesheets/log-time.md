@@ -6,9 +6,9 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
 workflow-type: tm+mt
-source-wordcount: '2990'
+source-wordcount: '2977'
 ht-degree: 0%
 
 ---
@@ -400,10 +400,6 @@ Mer information finns i [Sammanfattning](../../workfront-basics/the-new-workfron
 ![](assets/summary-hour-log.png)
 
 ### Varumärkena {#boards}
-
->[!NOTE]
->
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
 
 Du kan logga in på anslutna kort på ett Workfront-kort. Detta är samma process som när du loggar tid för en uppgift eller ett problem, och de timmar som är inloggade på kortet sparas för den anslutna aktiviteten eller problemet.
 Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

@@ -6,9 +6,9 @@ title: Anmäl dig till tidig funktion för [!DNL Adobe Workfront] Varumärkena
 description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Boards] tidig anmälan av funktioner.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   </tr>
   <tr>
    <td>Endast vykort i inmatningskolumn</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Mappa beräkningsfält på kort till artikelpunktsfält för uppgift</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Skapa arbetsflöden och lägg till anslagstavlor i arbetsflöden</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Skapa iterationer</td>
-   <td>Delvis släppt (tillgängligt i förhandsgranskning)</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Definiera kortlista eller eftersläpning</td>
-   <td>Delvis släppt (tillgängligt i förhandsgranskning)</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Importera underaktiviteter som checklisteobjekt på kort</td>
@@ -142,19 +142,31 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   </tr>
   <tr>
    <td>Anpassa visning av fält på ett kort</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>  
   <tr>
    <td>Definiera en standardstatus för kort som flyttas till kolumner</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Logga timmar på anslutna kort</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Lägg till anpassade fält på anslutna kort</td>
-   <td>Delvis släppt (tillgängligt i förhandsgranskning)</td>
+   <td>Frisläppt</td>
+  </tr>
+  <tr>
+   <td>Definiera e-postmeddelanden för anslagstavlor</td>
+   <td>Planerad</td>
+  </tr>
+  <tr>
+   <td>Migrera gamla kanban-kort till styrelser</td>
+   <td>Planerad</td>
+  </tr>
+  <tr>
+   <td>Skapa dynamiska ritytor</td>
+   <td>Planerad</td>
   </tr>
  </tbody> 
 </table>
