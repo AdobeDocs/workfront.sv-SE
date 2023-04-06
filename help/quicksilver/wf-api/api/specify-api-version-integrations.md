@@ -6,18 +6,16 @@ description: Ange en API-version i integreringarna
 author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # Ange en API-version i integreringarna
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
-
-Alla Adobe Workfront URI:er krävs för att referera till en specifik version av API:t efter delen &quot;attask/api&quot; i URI:n. I följande exempel anropas version 15.0:
+Alla Adobe Workfront URI:er ska referera till en specifik version av API:t efter delen &quot;attask/api&quot; i URI:n. I följande exempel anropas version 15.0:
 
 `attask/api/v15.0/<objectName>/<objectId>`
 
@@ -31,11 +29,9 @@ Mer information om publiceringsgräns och borttagningsschema för Workfront API:
 
 >[!IMPORTANT]
 >
->* Efter version 23.2 ställs standardversionen av API in på den senaste versionen. Alla API-anrop utan den angivna versionen använder standardversionen. Varje gång Workfront släpper en ny version av API:t uppdateras standardversionen till den senaste versionen. När en ny version av Workfront API har släppts bör därför alla API-anrop som använder standardversionen kontrolleras för att se till att funktionen fortfarande stöds.
+>* Standardversionen av API är den senaste versionen. Alla API-anrop utan den angivna versionen använder standardversionen. Varje gång Workfront släpper en ny version av API:t uppdateras standardversionen till den senaste versionen. **När en ny version av Workfront API har släppts bör därför alla API-anrop som använder standardversionen kontrolleras för att se till att funktionen fortfarande stöds.**
 >
 >* Om din organisation använder standardgränssnittet har Workfront-administratören fått ett meddelande om att meddelandecentret innehåller ytterligare instruktioner om standardgränssnittet.
->
->* <span class="preview">Standard-API:t i förhandsvisningsmiljön är inställt på den senaste versionen. Standard-API:t i produktionsmiljön anges till den senaste versionen efter version 23.2 (april 2023)</span>.
 >
 >Information om den senaste versionen av API:t finns i [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
 
