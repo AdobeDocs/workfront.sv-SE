@@ -6,9 +6,9 @@ description: Information om betaprogrammet för det kommande verktyget Reporting
 author: Nolan
 feature: Product Announcements
 exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -16,176 +16,27 @@ ht-degree: 0%
 
 # Betaversion av arbetsyta för rapportering: översikt
 
-## Betaversionen av Reporting Canvas
+## Arbetsyta för rapportering
 
-Den nya rapportfunktionen i Workfront är snart klar och kommer snart att vara tillgänglig för offentlig testning. När vi utvecklade Reporting Canvas har vi arbetat hårt med att tillhandahålla en upplevelse som ger maximal flexibilitet i kombination med en intuitiv, modulär design, så att användare som du på bästa sätt kan utnyttja dina egna data när de skapar och delar rapporter. Tack vare en ny, enhetlig rapporttyp som gör att du kan dra och släppa nästan alla element på en obegränsad arbetsyta blir det snart enklare än någonsin att skapa ett visuellt datamasterverk.
+Den nya rapportfunktionen i Workfront är under utveckling. När vi utformade Reporting Canvas har vi arbetat hårt med att skapa en upplevelse som ger maximal flexibilitet i kombination med en intuitiv, modulär design, så att användare som du på bästa sätt kan utnyttja dina egna data när de skapar och delar rapporter. Tack vare en ny, enhetlig rapporttyp som gör att du kan dra och släppa nästan alla element på en obegränsad arbetsyta blir det snart enklare än någonsin att skapa ett visuellt datamasterverk.
 
-Den här artikeln innehåller information om hur betaversionen fungerar och hur din organisation kan hjälpa oss att förbättra Reporting Canvas innan den startas officiellt.
+Den här artikeln innehåller information om den aktuella privata betaversionen, som är begränsad till specifika kunder. Nya rapportfunktioner för arbetsytan distribueras nu via Canvas Dashboards. Se **Utvecklingsplan** nedan om du vill ha mer information.
 
-### Frigör schema
+### Utvecklingsplan
 
-* Aktuell betaversion: Den aktuella betaversionen är privat och begränsad till ett visst antal kunder.
-* Lansering av betaversion: TBD (När ett datum har annonserats kommer vi att börja ge alla kunder tillgång till betaversionen av Reporting Canvas.)
-* Officiell version: TBD
+Vi är i slutskedet när det gäller att lösa ett problem med datakvalitet som vi observerade tidigt i betaversionen av Reporting Canvas. Vi kommer snart att återuppta arbetet med att ta fram nya visualiseringar, utvidga urvalet av rapporteringspliktiga Workfront-objekt och förbättra upplevelserna av att skapa och distribuera rapporter, som alla är viktiga för att förverkliga våra mål för Rapportera arbetsyta.
 
-### Funktioner
-
-När vi utvecklade Reporting Canvas har vi gjort om några funktioner radikalt - och skapat några nya från grunden - för att effektivisera rapportskapandet. I följande tabell beskrivs de viktigaste funktionerna i Rapportera arbetsyta jämfört med befintliga rapporteringsverktyg, samt deras aktuella versionsstatus:
-
->[!NOTE]
->
->En kronologisk lista över tillagda funktioner och lösta problem finns på [Betaversion av arbetsyta för rapportering: frisläppningsaktivitet](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <th>Funktionsbeskrivning</th> 
-   <th>Äldre terminologi </th> 
-   <th>Terminologi för rapportarbetsyta</th> 
-   <th>Status</th> 
-  </tr> 
-  <tr> 
-   <td>Rapporter</td> 
-   <td>Rapport</td> 
-   <td>Arbetsyta för rapportering</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Kontrollpaneler</td> 
-   <td>Kontrollpanel</td> 
-   <td>Arbetsyta för rapportering</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Tabeller</td> 
-   <td>Fliken Detaljer</td> 
-   <td>Tabellblock</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Diagram</td> 
-   <td>Fliken Diagram</td> 
-   <td>Visualiseringsblock</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Delsummor</td> 
-   <td>Fliken Sammanfattning</td> 
-   <td>KPI-visualisering</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Detaljerad sökväg</td> 
-   <td>modal rapportvisare</td> 
-   <td>Rapportvisningsövertäckning</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Kolumner</td> 
-   <td>Fliken Visa</td> 
-   <td>Tabellredigering</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Filter</td> 
-   <td>Fliken Filter</td> 
-   <td>Tabellredigering</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Grupper</td> 
-   <td>Fliken Grupp</td> 
-   <td>Tabellredigering</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Fältkonfiguration<br>(aggregeringar och villkorsstyrd formatering)</td> 
-   <td>Fliken Visa</td> 
-   <td>Tabellredigering (kolumn markerad)</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-  <tr> 
-   <td>Ändra storlek på kolumner</td> 
-   <td>Textläge</td> 
-   <td>Tabellredigering (kolumn markerad)</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-   <tr> 
-   <td>Externt innehåll</td> 
-   <td>Extern sida</td> 
-   <td>Webbinnehållsblock</td> 
-   <td>Frisläppt</td> 
-  </tr> 
-   <tr> 
-   <td>Exporterar</td> 
-   <td>Rapportåtgärder</td> 
-   <td><strong>Mer</strong> meny i visningsprogram</td> 
-   <td>Delvis släppt</td> 
-  </tr> 
-  <tr> 
-   <td>Dela kolumner</td> 
-   <td>Textläge</td> 
-   <td>Field builder</td> 
-   <td>Delvis släppt</td> 
-  </tr> 
-  <tr> 
-   <td>Beräknade kolumner</td> 
-   <td>Textläge</td> 
-   <td>Field builder</td> 
-   <td>Delvis släppt</td> 
-  </tr> 
-  <tr> 
-   <td>Diagramformat</td> 
-   <td>Fliken Diagram</td> 
-   <td>Visualiseringsblock (fliken Format)</td> 
-   <td>Planerad</td> 
-  </tr> 
-  <tr> 
-   <td>Schemalagd leverans</td> 
-   <td>Rapportåtgärder</td> 
-   <td><strong>Mer</strong> meny i visningsprogram</td> 
-   <td>Planerad</td> 
-  </tr> 
-  <tr> 
-   <td>Bevilja rapportåtkomst</td> 
-   <td>Rapportåtgärder</td> 
-   <td><strong>Mer</strong> meny i visningsprogram</td> 
-   <td>Planerad</td> 
-  </tr> 
-  <tr> 
-   <td>Oautentiserad åtkomst till instrumentpanelen</td> 
-   <td>Instrumentpanelsåtgärder</td> 
-   <td><strong>Mer</strong> meny i visningsprogram</td> 
-   <td>Planerad</td> 
-  </tr> 
-  <tr> 
-   <td>Redigera rapportdata</td> 
-   <td>Textbunden redigering</td> 
-   <td>Sammanfattningsfönster</td> 
-   <td>Planerad</td> 
-  </tr> 
-  <tr> 
-   <td>Sidfiltrering</td> 
-   <td>Ej tillämpligt</td> 
-   <td>Canvas, filter</td> 
-   <td>Planerad</td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->De funktioner som listas här kommer att lanseras som en del av ett produktlanseringsschema med flera nivåer. Funktioner som du har tillgång till i den här betaversionen kanske inte är tillgängliga i den fullständiga versionen, baserat på din organisations plan.
+Vi kommer att leverera dessa nya upplevelser stegvis, från och med version 23.2, via den nya sidan Canvas Dashboards som nu är tillgänglig i din förhandsvisningsmiljö. På arbetsytans kontrollpaneler kan du visa befintliga rapporter tillsammans med de nya rapporteringsfunktionerna som vi håller på att skapa, och de kommer att fungera som vår primära miljö för driftsättning och testning av nya funktioner för Reporting Canvas. Mer information om hur du aktiverar och använder arbetsytans kontrollpaneler finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Delta i betaversionen
 
+>[!IMPORTANT]
+>
+>Betaversionsinformationen nedan är till för administratörer som redan har inkluderats i betaversionen av Reporting Canvas, som inte längre accepterar nya deltagare. Om du vill testa de nya funktionerna i Rapportera arbetsyta när de läggs till, se **Utvecklingsplan** ovan om du vill ha information om hur du aktiverar Canvas Dashboards.
+
 ### Tillgänglighet
 
-Betaversionen av Reporting Canvas kommer att vara tillgänglig för alla organisationer som har AWS, oavsett region.
+Betaversionen av Reporting Canvas är tillgänglig för alla organisationer på AWS, oavsett region.
 
 ### Gå med i betaversionen
 

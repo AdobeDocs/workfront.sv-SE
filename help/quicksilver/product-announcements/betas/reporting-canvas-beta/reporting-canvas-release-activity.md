@@ -1,14 +1,10 @@
 ---
-content-type: reference
-navigation-topic: betas
 title: 'Reporting Canvas beta: frisläppningsaktivitet'
 description: Versionsaktivitet varje vecka för betaversionen av Adobe Workfront Reporting Canvas
-author: Nolan
-feature: Product Announcements
-exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+hidefromtoc: true
+source-git-commit: 4d41779e2e93e40f295bcff2bbdc0c84ea290b41
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -77,3 +73,152 @@ Allmän information om betaversionen av Reporting Canvas finns i [Betaversion av
 
 * #Value! visas i cell när en beräkning inte kan utföras per rad
 * Lagt till validering när vissa datatyper dras och släpps till en viss funktion i Field Builder
+
+## Planerade funktioner
+
+När vi utvecklade Reporting Canvas har vi gjort om några funktioner radikalt - och skapat några nya från grunden - för att effektivisera rapportskapandet. I följande tabell beskrivs de viktigaste funktionerna i Rapportera arbetsyta jämfört med befintliga rapporteringsverktyg, samt deras aktuella versionsstatus:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Funktionsbeskrivning</th> 
+   <th>Äldre terminologi </th> 
+   <th>Terminologi för rapportarbetsyta</th> 
+   <th>Status</th> 
+  </tr> 
+  <tr> 
+   <td>Rapporter</td> 
+   <td>Rapport</td> 
+   <td>Arbetsyta för rapportering</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Kontrollpaneler</td> 
+   <td>Kontrollpanel</td> 
+   <td>Arbetsyta för rapportering</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Tabeller</td> 
+   <td>Fliken Detaljer</td> 
+   <td>Tabellblock</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Diagram</td> 
+   <td>Fliken Diagram</td> 
+   <td>Visualiseringsblock</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Delsummor</td> 
+   <td>Fliken Sammanfattning</td> 
+   <td>KPI-visualisering</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Detaljerad sökväg</td> 
+   <td>modal rapportvisare</td> 
+   <td>Rapportvisningsövertäckning</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Kolumner</td> 
+   <td>Fliken Visa</td> 
+   <td>Tabellredigering</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Filter</td> 
+   <td>Fliken Filter</td> 
+   <td>Tabellredigering</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Grupper</td> 
+   <td>Fliken Grupp</td> 
+   <td>Tabellredigering</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Fältkonfiguration<br>(aggregeringar och villkorsstyrd formatering)</td> 
+   <td>Fliken Visa</td> 
+   <td>Tabellredigering (kolumn markerad)</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+  <tr> 
+   <td>Ändra storlek på kolumner</td> 
+   <td>Textläge</td> 
+   <td>Tabellredigering (kolumn markerad)</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+   <tr> 
+   <td>Externt innehåll</td> 
+   <td>Extern sida</td> 
+   <td>Webbinnehållsblock</td> 
+   <td>Frisläppt</td> 
+  </tr> 
+   <tr> 
+   <td>Exporterar</td> 
+   <td>Rapportåtgärder</td> 
+   <td><strong>Mer</strong> meny i visningsprogram</td> 
+   <td>Delvis släppt</td> 
+  </tr> 
+  <tr> 
+   <td>Dela kolumner</td> 
+   <td>Textläge</td> 
+   <td>Field builder</td> 
+   <td>Delvis släppt</td> 
+  </tr> 
+  <tr> 
+   <td>Beräknade kolumner</td> 
+   <td>Textläge</td> 
+   <td>Field builder</td> 
+   <td>Delvis släppt</td> 
+  </tr> 
+  <tr> 
+   <td>Diagramformat</td> 
+   <td>Fliken Diagram</td> 
+   <td>Visualiseringsblock (fliken Format)</td> 
+   <td>Planerad</td> 
+  </tr> 
+  <tr> 
+   <td>Schemalagd leverans</td> 
+   <td>Rapportåtgärder</td> 
+   <td><strong>Mer</strong> meny i visningsprogram</td> 
+   <td>Planerad</td> 
+  </tr> 
+  <tr> 
+   <td>Bevilja rapportåtkomst</td> 
+   <td>Rapportåtgärder</td> 
+   <td><strong>Mer</strong> meny i visningsprogram</td> 
+   <td>Planerad</td> 
+  </tr> 
+  <tr> 
+   <td>Oautentiserad åtkomst till instrumentpanelen</td> 
+   <td>Instrumentpanelsåtgärder</td> 
+   <td><strong>Mer</strong> meny i visningsprogram</td> 
+   <td>Planerad</td> 
+  </tr> 
+  <tr> 
+   <td>Redigera rapportdata</td> 
+   <td>Textbunden redigering</td> 
+   <td>Sammanfattningsfönster</td> 
+   <td>Planerad</td> 
+  </tr> 
+  <tr> 
+   <td>Sidfiltrering</td> 
+   <td>Ej tillämpligt</td> 
+   <td>Canvas, filter</td> 
+   <td>Planerad</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>De funktioner som listas här kommer att lanseras som en del av ett produktlanseringsschema med flera nivåer. Funktioner som du har tillgång till i den här betaversionen kanske inte är tillgängliga i den fullständiga versionen, baserat på din organisations plan.

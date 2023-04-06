@@ -5,7 +5,7 @@ title: Översikt över kontrollpaneler på arbetsytan
 description: Du kan skapa kontrollpaneler för arbetsytan som integrerar visualiseringar för arbetsytan i rapporten med traditionella rapporter och har nya layoutalternativ.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4203de3dcbb0f6675dd840a7f6b883907794ce02
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -23,7 +23,6 @@ Den här funktionen är under utveckling och stöder ännu inte:
 * kalenderintegrering
 * rapporter
 * distribution via layoutmallar
-
 
 ## Åtkomst till Canvas-instrumentpaneler
 

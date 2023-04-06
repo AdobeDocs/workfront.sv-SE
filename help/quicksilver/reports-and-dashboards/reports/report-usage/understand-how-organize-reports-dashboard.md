@@ -7,9 +7,9 @@ description: Du kan se om en rapport har lagts till på en kontrollpanel i Adobe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Visa instrumentpanelsinformation i Visa en rapportlista
 
+>[!WARNING]
+>
+>Om du tar med kontrollpanelskolumnen i en rapportlista kan inläsningstiden öka avsevärt, särskilt för långa rapportlistor.
+
 Så här skapar du en vy med instrumentpanelsinformation för en rapportlista:
 
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
-
 1. Klicka på knappen **Visa** nedrullningsbar meny.
 1. Klicka **Ny vy**.
 1. Klicka **Lägg till kolumn**.
