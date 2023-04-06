@@ -6,9 +6,9 @@ title: Skapa en iteration i ett arbetsflöde
 description: En iteration är en angiven tidsrymd som är reserverad för att slutföra arbete. Vissa rörliga team kan kalla en iteration för en fjäder.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -86,3 +86,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    När en iteration har startats kan du bara ändra dess namn.
 
+## Ta bort en iteration
+
+1. Klicka på [!UICONTROL **Kortlista**] -fliken i arbetsflödet och öppna iterationsvyn.
+1. Klicka på **Ta bort** -ikonen bredvid iterationen.
+1. Klicka [!UICONTROL **Ta bort upprepning**] på bekräftelsemeddelandet.
