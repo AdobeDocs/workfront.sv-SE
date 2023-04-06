@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Anpassa fästa sidor med en layoutmall
-
-{{highlighted-preview}}
 
 I en layoutmall kan du fästa de sidor som du vill att användarna alltid ska ha tillgängliga överst i Adobe Workfront. De här sidorna kan du få åtkomst till via huvudmenyn ![](assets/main-menu-icon.png) eller kontrollpaneler.
 
@@ -70,9 +68,9 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 
 1. Upprepa föregående steg om du vill fästa andra sidor.
 
-1. <span class="preview"> (Valfritt) Om du vill byta namn på ett häftstift håller du pekaren över stiftet, klickar på pilen bredvid stiftets namn och väljer **Byt namn på stift**. Skriv det nya stiftnamnet och klicka på bockmarkeringsikonen eller tryck på Retur.</span>
+1. (Valfritt) Om du vill byta namn på ett häftstift håller du pekaren över stiftet, klickar på pilen bredvid stiftets namn och väljer **Byt namn på stift**. Skriv det nya stiftnamnet och klicka på bockmarkeringsikonen eller tryck på Retur.
 
-   <span class="preview"> Ett litet popup-fönster visas i flera sekunder efter att du har klickat på bockmarkeringen eller tryckt på Retur, så att du kan ångra ändringen av nålens namn innan det sparas.</span>
+   Ett litet popup-fönster visas i flera sekunder efter att du har klickat på bockmarkeringen eller tryckt på Retur, så att du kan ångra ändringen av nålens namn innan det sparas.
 
 1. Fortsätt att anpassa layoutmallen.
 
