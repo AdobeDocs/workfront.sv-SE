@@ -3,19 +3,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Skapa eller redigera filter i Adobe Workfront
 description: Du kan begränsa mängden information som visas på skärmen i en lista med objekt med ett filter. Du kan definiera vissa villkor baserat på viss information om ett objekt och bara visa de objekt som uppfyller dessa villkor.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2380'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera filter i Adobe Workfront
-
-<span class="preview">Observera att i förhandsvisningsmiljön är nu den förbättrade filterupplevelsen (som tidigare kallades &quot;beta&quot;) standard. De här förbättrade filtren är nu&quot;standard&quot; och den äldre filterupplevelsen är&quot;äldre&quot;.</span>
 
 Du kan begränsa mängden information som visas på skärmen i en lista med objekt med ett filter. Du kan definiera vissa villkor baserat på viss information om ett objekt och bara visa de objekt som uppfyller dessa villkor.
 
@@ -76,11 +74,6 @@ Du kan skapa filter med hjälp av de typer av filterverktyg som beskrivs i tabel
 </tr>
 <tr>
 <td>Standard Builder</td>
-<td>Alla objekt </td>
-<td>Listor och rapporter</td>
-</tr>
-<tr>
-<td>Beta builder</td>
 <td>
 <ul>
 <li> <p>Projekt</p> </li>
@@ -100,149 +93,75 @@ Du kan skapa filter med hjälp av de typer av filterverktyg som beskrivs i tabel
 <ul>
 <li> <p>Projektlistan i scenarioplaneraren</p> <p>Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt över scenarioplanen</a>. </p> </li>
 </ul>
-<p>OBS! Betaversioner för filter är inte tillgängliga i rapporter.
+<p>OBS! Standardverktyg för filter är inte tillgängliga i rapporter.
 </td>
+</tr>
+<tr>
+<td>Legacy builder</td>
+<td>Alla objekt </td>
+<td>Listor och rapporter</td>
 </tr>
 </tbody>
 </table>
 
 Mer information om Workfront-objekt finns i [Förstå objekt i Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Skapa eller redigera ett filter i standardverktyget {#create-filter-in-standard-builder}
-
-Du kan skapa filter i listor och rapporter på följande sätt:
-
-* Från början
-* Redigera ett befintligt filter och spara det som ett nytt filter
-
-Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär som när du skapar ett filter från början eller från ett befintligt filter.
-
-1. Gå till en lista eller rapport som innehåller filtret som du vill anpassa.
-1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png).
-
-   >[!TIP]
-   >
-   >Rapportskaparen måste tillåta att filter kan redigeras för att visa listrutan Filter i en rapport. Standardfiltret Rapport används som standard på en rapport. Standardfiltret för rapporten kan bara anpassas när du redigerar rapporten.
-
-   ![Listruta för filter](assets/filter-drop-down-expanded-nwe.png)
-
-1. Klicka **Nytt filter** överst i filterlistan
-
-   eller
-
-   Håll pekaren över det filter du vill ändra och klicka på **Redigera** icon ![](assets/edit-icon.png).
-
-   Verktyget för att anpassa filtret startas.
-
-1. Gör något av följande:
-
-   * Ändra befintliga filterregler genom att klicka på den befintliga regeln och välja ett nytt alternativ.
-   * Lägga till en filterregel genom att klicka på **Lägg till en annan filterregel** börjar du skriva namnet på det alternativ som du vill lägga till en regel för i **Börja skriva fältnamn** och klicka sedan på den när den visas i listrutan.
-
-      Fält som är kopplade till filterobjektet visas i **Börja skriva fältnamn** box.
-
-   * Klicka **OCH** eller **ELLER** när en ny filterregel läggs till.\
-      När du lägger till filterregler använder du filtermodifierarna för att fastställa filtervillkoret. Mer information om filtermodifierare finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
-
-      >[!NOTE]
-      >
-      >När du ansluter en grupp med AND-programsatser med flera OR-programsatser måste du upprepa de fält som inte ändras mellan OR-programsatserna för varje grupp med programsatser.
-      >
-      >![Anslutna filtersatser](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >När du skapar ett filter för aktiviteter som innehåller ordet&quot;marknadsföring&quot; och som finns i projekt med statusen Aktuell eller Planering, måste du ha följande filterregler:
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >Även om aktivitet: Namnet Innehåller &quot;marknadsföring&quot; ändras inte mellan de två AND-filtergrupperna, det måste upprepas i den andra gruppen.
-
-   * Ta bort en befintlig filterregel genom att klicka på X-ikonen.
-
-1. (Valfritt) Klicka på **Växla till textläge** om du vill lägga till ett filter med hjälp av gränssnittet för textläge.
-
-   Mer information om hur du skapar ett filter med hjälp av textlägesgränssnittet finns i [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
-
-1. Klicka **Spara filter** om du vill skapa ett nytt filter eller ersätta det markerade med dina ändringar.
-
-   eller
-
-   Klicka **Spara som nytt filter** om du vill skapa ett nytt filter från det markerade.
-
-   Det nya filtret visas i filterlistan och tillämpas automatiskt på den lista eller rapport som du har valt.
-
-1. (Valfritt) Gör något av följande:
-
-   * Dela filter som du skapar med andra användare eller gör dem tillgängliga i hela systemet. Mer information finns i [Dela ett filter, en vy eller en gruppering](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * Ta bort filter som du inte längre vill visa i listan. Mer information finns i [Ta bort filter, vyer och grupperingar](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-## Skapa eller redigera ett filter i betaversionen
-
 Tänk på följande när du skapar filter med de olika gränssnitten:
 
-* Betaversionen finns på samma ställen där du hittar standardfiltergränssnittet för de områden som visas i tabellen ovan.
-* Du kan växla fram och tillbaka mellan standardgränssnittet och betaversionen, där betaversionen är tillgänglig.
-* När du har aktiverat betaversionen i ett område är det standardupplevelsen för alla områden där den är tillgänglig. Om du t.ex. aktiverar betaversionen i en projektlista är det standardgränssnittet för att även skapa uppgiftsfilter och utgivningsfilter i listor.
-* Du kan skapa filter med hjälp av gränssnittet för betaversionen på följande sätt:
+* Du hittar standardverktyget på samma platser som du hittar det gamla filtergränssnittet för de områden som listas i tabellen ovan.
+* Standardverktyget är standardgränssnittet för alla områden där det är tillgängligt. Klicka på knappen **Mer** meny intill [!UICONTROL **Filter**] och markera [!UICONTROL **Gå tillbaka till äldre filter**].
 
-   * Från början
-   * Redigera ett befintligt filter
-   * Duplicera ett befintligt filter
-   * Duplicera ett befintligt filter, redigera det och spara det som ett nytt filter
+   ![Gå tillbaka till äldre filter](assets/use-legacy-filters.png)
 
-* Sparade filter är tillgängliga i båda verktygen, oavsett vilken upplevelse du använde när du skapade dem från början. Om du till exempel har skapat ett filter med standardverktyget kan du även hitta och ändra det i betaversionens gränssnitt.
+* Sparade filter är tillgängliga i båda verktygen, oavsett vilken upplevelse du använde när du skapade dem från början. Om du till exempel har skapat ett filter med hjälp av det äldre verktyget kan du även hitta och ändra det i standardgränssnittet för verktyget.
 
    >[!TIP]
    >
-   >Ett Alla-filter ingår inte i betaversionen eftersom alla listobjekt visas när inga filter används. Klicka **Rensa alla** längst upp till höger i verktyget för att rensa alla aktiva filter och visa alla objekt. If **Rensa alla** är nedtonat och inga filter tillämpas.
+   >Ett Alla-filter ingår inte i standardverktyget eftersom alla listobjekt visas när inga filter används. Klicka [!UICONTROL **Rensa alla**] längst upp till höger i verktyget för att rensa alla aktiva filter och visa alla objekt. If [!UICONTROL **Rensa alla**] är nedtonat och inga filter tillämpas.
 
-* Standard- och betaversionerna har en något annorlunda syntax när flerprogramsfilter som kombinerar operatorerna AND och OR skapas. Det innebär att dessa filter kan visas på olika sätt när du växlar från en byggare till en annan.
+* Standardversioner och äldre versioner har en något annorlunda syntax när du skapar flerprogramsfilter som kombinerar operatorerna AND och OR. Det innebär att dessa filter kan visas på olika sätt när du växlar från en byggare till en annan.
 
    >[!INFO]
    >
    >Följande scenario finns:
    >
-   >1. Använd betaversionen för att skapa ett filter med följande syntax:
+   >1. Använd standardverktyget för att skapa ett filter med följande syntax:
    >
    >   `(A OR B) AND C`
    >
-   >1. Växla tillbaka till standardverktyget och redigera filtret med syntaxen för standardverktyget enligt beskrivningen i [Skapa eller redigera ett filter i standardverktyget](#create-filter-in-standard-builder) i den här artikeln. Syntaxen för standardbyggaren visar filtersatserna enligt följande:
+   >1. Växla till det äldre verktyget och redigera filtret med syntaxen för det äldre verktyget enligt anvisningarna i [Skapa eller redigera ett filter i det äldre verktyget](#create-filter-in-legacy-builder) i den här artikeln. Syntaxen för den äldre versionen av Builder visar filtersatserna enligt följande:
    >
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    >
-   >1. Ändra filtret i standardgränssnittet.
-   >1. Växla tillbaka till betaversionen. Filterprogramsatsen visas i enlighet med logiken som stöds i standardverktyget, enligt beskrivningen ovan.
+   >1. Ändra filtret i det äldre gränssnittet.
+   >1. Växla tillbaka till standardverktyget. Filterprogramsatsen visas i enlighet med logiken som stöds i det äldre verktyget, enligt beskrivningen ovan.
 
    >
-   >   Filtret visas i betaversionens gränssnitt på följande sätt:
+   >   Filtret visas i standardgränssnittet i Builder enligt följande:
    >  
    >   `A AND C`
    >   `OR`
    >   `B AND C`
    > 
-   >   Det beror på att filtret har ändrats i standardgränssnittet.
+   >   Det beror på att filtret har ändrats i det äldre gränssnittet.
 
-Skapa ett filter med hjälp av gränssnittet för betaversionen:
+## Skapa eller redigera ett filter i standardverktyget
+
+Du kan skapa filter med hjälp av standardgränssnittet i Builder på följande sätt:
+
+* Från början
+* Redigera ett befintligt filter
+* Duplicera ett befintligt filter
+* Duplicera ett befintligt filter, redigera det och spara det som ett nytt filter
+
+Skapa ett filter med standardgränssnittet i Builder:
 
 1. Gå till en lista där du vill skapa ett filter eller som innehåller det filter som du vill anpassa.
-1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png)aktiverar du **Betainställning** ![Betainställning](assets/beta-toggle-white-on-existing-filters.png) för att komma åt betaversionen. Det är inaktiverat som standard.
+1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png) för att öppna Builder-gränssnittet.
 
-   Godkänn sedan betaavtalet om det behövs. Du behöver bara komma överens en gång, och betaversionen är fortfarande aktiverad.
-
-   Betafilterverktyget öppnas.
-
-   >[!TIP]
-   >
-   >Huvudet i filterbyggargränssnittet ändras till blått när du aktiverar betaversionen. När du har aktiverat gränssnittet för betaversionen håller Workfront det aktiverat för alla områden där det är tillgängligt.
-
-   ![Betafilterverktyg](assets/new-filters-all-filter-types.png)
+   ![Standardfilterverktyg](assets/new-filters-all-filter-types.png)
 
 1. Granska följande filterlistor:
 
@@ -312,7 +231,7 @@ Skapa ett filter med hjälp av gränssnittet för betaversionen:
 
    >[!TIP]
    >
-   >När du skapar filtret visas resultatet omedelbart i listan. Om filterpanelen täcker listan kan du stänga den för att se visningen. Informationen du angav finns kvar i betaversionen när du öppnar panelen igen.
+   >När du skapar filtret visas resultatet omedelbart i listan. Om filterpanelen täcker listan kan du stänga den för att se visningen. Den information du angav finns kvar i verktyget när du öppnar panelen igen.
 
 1. Börja skriva värdet för ett fält som du vill filtrera efter. Börja med att skriva namnet på ett problem om du vill filtrera efter `Issue:Name`. Markera värdet när det visas i listan.
 
@@ -335,7 +254,7 @@ Skapa ett filter med hjälp av gränssnittet för betaversionen:
 
    >[!INFO]
    >
-   >När du filtrerar efter projekt som innehåller&quot;marknadsföring&quot; i ett namn som inte är fullständigt och som inte är Väntande, kan du använda följande flera filtergrupper:
+   >När du filtrerar efter projekt som innehåller&quot;marknadsföring&quot; i namnet som inte är fullständigt och som inte är spärrade, kan du använda följande flera filtergrupper:
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
@@ -351,15 +270,15 @@ Skapa ett filter med hjälp av gränssnittet för betaversionen:
 
    >[!TIP]
    >
-   >Vi rekommenderar att du skapar så mycket som möjligt av filtret med hjälp av gränssnittet för betaversionen och bara använder textläget när du måste göra ändringar i filtret som bara stöds i textläge.
+   >Vi rekommenderar att du skapar så mycket av filtret som möjligt med standardgränssnittet för byggaren och bara använder textläget när du måste göra ändringar i filtret som bara stöds i textläge.
 
    Mer information om hur du skapar ett filter med hjälp av textlägesgränssnittet finns i [Redigera ett filter i textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicka **Avsluta textläge** för att återgå till betaversionens gränssnitt.
+1. Klicka **Avsluta textläge** för att återgå till standardgränssnittet för byggare.
 
    >[!WARNING]
    >
-   >Vissa textlägessatser stöds inte i betaversionen eller i standardgränssnittet. Om du avslutar textläget när du har skapat den här typen av programsatser kan ett varningsmeddelande genereras.
+   >Vissa textlägessatser stöds inte i standardverktyget eller det äldre gränssnittet. Om du avslutar textläget när du har skapat den här typen av programsatser kan ett varningsmeddelande genereras.
 
 1. (Valfritt) Klicka på **Använd** om du vill använda filtret på listan och se resultatet.
 
@@ -411,4 +330,78 @@ Skapa ett filter med hjälp av gränssnittet för betaversionen:
    * Dela filtret med andra eller gör det tillgängligt i hela systemet. Mer information finns i [Dela ett filter, en vy eller en gruppering](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
    * Ta bort filtret om det inte längre är giltigt eller om det är en dubblett. Du kan bara ta bort filter som du äger. Du kan ta bort filter som delats med dig. Mer information finns i [Ta bort filter, vyer och grupperingar](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+## Skapa eller redigera ett filter i det äldre verktyget {#create-filter-in-legacy-builder}
+
+Du kan skapa äldre filter i listor och rapporter på följande sätt:
+
+* Från början
+* Redigera ett befintligt filter och spara det som ett nytt filter
+
+Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär som när du skapar ett filter från början eller från ett befintligt filter.
+
+1. Gå till en lista eller rapport som innehåller filtret som du vill anpassa.
+1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png).
+
+   >[!TIP]
+   >
+   >Rapportskaparen måste tillåta att filter kan redigeras för att visa listrutan Filter i en rapport. Standardfiltret Rapport används som standard på en rapport. Standardfiltret för rapporten kan bara anpassas när du redigerar rapporten.
+
+   ![Listruta för filter](assets/filter-drop-down-expanded-nwe.png)
+
+1. Klicka **Nytt filter** högst upp i filterlistan.
+
+   eller
+
+   Håll pekaren över det filter du vill ändra och klicka på **Redigera** icon ![](assets/edit-icon.png).
+
+   Verktyget för att anpassa filtret startas.
+
+1. Gör något av följande:
+
+   * Ändra befintliga filterregler genom att klicka på den befintliga regeln och välja ett nytt alternativ.
+   * Lägga till en filterregel genom att klicka på **Lägg till en annan filterregel** börjar du skriva namnet på det alternativ som du vill lägga till en regel för i **Börja skriva fältnamn** och klicka sedan på den när den visas i listrutan.
+
+      Fält som är kopplade till filterobjektet visas i **Börja skriva fältnamn** box.
+
+   * Klicka **OCH** eller **ELLER** när en ny filterregel läggs till.\
+      När du lägger till filterregler använder du filtermodifierarna för att fastställa filtervillkoret. Mer information om filtermodifierare finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+      >[!NOTE]
+      >
+      >När du ansluter en grupp med AND-programsatser med flera OR-programsatser måste du upprepa de fält som inte ändras mellan OR-programsatserna för varje grupp med programsatser.
+      >
+      >![Anslutna filtersatser](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+      >
+      >När du skapar ett filter för aktiviteter som innehåller ordet&quot;marknadsföring&quot; och som finns i projekt med statusen Aktuell eller Planering, måste du ha följande filterregler:
+      >
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Current`
+      >`OR`
+      >`Task: Name Contains Marketing`
+      >`AND`
+      >`Project: Status Equals Planning`
+      >
+      >Även om aktivitet: Namnet Innehåller &quot;marknadsföring&quot; ändras inte mellan de två AND-filtergrupperna, det måste upprepas i den andra gruppen.
+
+   * Ta bort en befintlig filterregel genom att klicka på X-ikonen.
+
+1. (Valfritt) Klicka på **Växla till textläge** om du vill lägga till ett filter med hjälp av gränssnittet för textläge.
+
+   Mer information om hur du skapar ett filter med hjälp av textlägesgränssnittet finns i [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+
+1. Klicka **Spara filter** om du vill skapa ett nytt filter eller ersätta det markerade med dina ändringar.
+
+   eller
+
+   Klicka **Spara som nytt filter** om du vill skapa ett nytt filter från det markerade.
+
+   Det nya filtret visas i filterlistan och tillämpas automatiskt på den lista eller rapport som du har valt.
+
+1. (Valfritt) Gör något av följande:
+
+   * Dela filter som du skapar med andra användare eller gör dem tillgängliga i hela systemet. Mer information finns i [Dela ett filter, en vy eller en gruppering](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Ta bort filter som du inte längre vill visa i listan. Mer information finns i [Ta bort filter, vyer och grupperingar](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
 

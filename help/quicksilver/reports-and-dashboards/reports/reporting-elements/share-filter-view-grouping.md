@@ -3,12 +3,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Dela ett filter, en vy eller en gruppering
 description: Du kan dela filter, vyer och grupperingar som du har tillgång till för att visa med andra användare.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
 </div>
 -->
-
-<span class="preview">Observera att i förhandsvisningsmiljön är nu den förbättrade filterupplevelsen (som tidigare kallades &quot;beta&quot;) standard. De här förbättrade filtren är nu&quot;standard&quot; och den äldre filterupplevelsen är&quot;äldre&quot;.</span>
 
 Din Adobe Workfront-administratör ger användarna åtkomst till att visa eller redigera objekt när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till objekt finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -73,94 +71,20 @@ Du måste ha följande:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-Du kan dela filter i utvalda listor med följande gränssnitt:
+Delningsfiltren i valda listor skiljer sig åt beroende på vilket gränssnitt du använder för att dela filtret från: standard eller äldre. Mer information om olika typer av gränssnitt för filteruppbyggnad finns i [Skapa eller redigera filter i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-* Standardgränssnitt
-* Gränssnitt för Beta Builder
+Du kan bara dela vyer och grupperingar i det äldre gränssnittet.
 
-Delningsfiltren i valda listor skiljer sig åt beroende på vilket gränssnitt du använder för att dela filtret från. Mer information om olika typer av gränssnitt för filteruppbyggnad finns i [Skapa eller redigera filter i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+### Dela filter med standardgränssnittet i Builder
 
-Du kan bara dela vyer och grupperingar i standardgränssnittet.
+Du kan dela ett filter i standardgränssnittet från listor med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper. Standardbygggränssnittet för filter är inte tillgängligt för andra objekt eller för vyer eller grupperingar.
 
-* [Dela filter, vyer och grupperingar med standardgränssnittet](#share-with-standard-interface)
-* [Dela filter med hjälp av gränssnittet för betaversionen](#share-with-beta-builder-interface)
-
-### Dela filter, vyer och grupperingar med standardgränssnittet {#share-with-standard-interface}
-
-Delningsfilter, vyer och grupperingar i standardgränssnittet är identiska.
-
-1. Gå till en lista med objekt eller en rapport.
-1. (Villkorligt) Klicka på **Filter**, **Visa**, eller **Gruppering** och för muspekaren över det filter, den vy eller gruppering som du vill dela. **Mer** icon ![Mer-ikon](assets/more-icon.png)sedan **Dela**.
-
-   Klicka på **Filter**, **Visa**, eller **Gruppering** och sedan välja det filter, den vy eller grupp som du vill dela.
-
-1. (Villkorligt) Om du delar från en rapport klickar du på **Filter**, **Visa**, eller **Gruppering** nedrullningsbar meny igen och klicka sedan på **Dela filter**, **Dela vy**, eller **Dela gruppering**.\
-   The **Filteråtkomst**, **Visa åtkomst**, eller **Grupperingsåtkomst** visas.
-
-   ![Delningsfilter](assets/share-filter-people-box-nwe-350x458.png)
-
-1. Fyll i något av följande, beroende på vem du vill dela med:
-
-   **Så här delar du med enskilda användare, team, roller, grupper eller företag:** I det angivna fältet börjar du skriva namnet på användaren, teamet, rollen, gruppen eller företaget som du vill dela med och klickar sedan på namnet i listrutan.\
-   Upprepa den här processen om du vill dela åtkomst med flera användare, team, roller, grupper eller företag.
-
-   >[!TIP]
-   >
-   >När du delar med grupper får du behörighet till filtret, vyn eller grupperingen till medlemmarna i gruppen och till alla undergrupper.
-
-
-   **Så här delar du med alla användare i systemet:** Klicka på **Inställningar** ikonen och klicka sedan på **Gör detta synligt för hela systemet**.\
-   Administratören måste markera alternativet Dela hela systemet för att det här alternativet ska vara tillgängligt. Mer information finns i artiklarna [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) och [Dela rapporter, kontrollpaneler och kalendrar](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
-
-1. (Villkorligt) Om du delar med enskilda användare, team, roller, grupper eller företag, klickar du på den nedrullningsbara menyn för att definiera den åtkomstnivå som du vill bevilja.
-
-   Du kan välja mellan följande alternativ:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Se det</strong></td> 
-      <td> <p>Välj det här alternativet om du bara vill tillåta delningsmottagare att använda det delade filtret, vyn eller grupperingen. När det här alternativet är markerat kan mottagarna inte göra några ändringar i det delade objektet.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Hantera det</strong></td> 
-      <td> <p>Välj det här alternativet om du vill tillåta att delningsmottagare använder och ändrar det delade filtret, vyn eller grupperingen.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Dela</strong></td> 
-      <td> <p>Klicka <strong>Avancerade inställningar</strong>markerar eller rensar du <strong>Dela</strong> beroende på om du vill att mottagarna ska kunna dela med andra.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. Klicka **Spara**.
-
-   Användare som du har delat filtret, vyn eller gruppen med kan komma åt den genom att klicka på **Filter**, **Visa**, eller **Gruppering** nedrullningsbar meny eller ikon och rullar nedåt till **Delas med mig** -avsnitt.
-
-### Dela filter med hjälp av gränssnittet för betaversionen {#share-with-beta-builder-interface}
-
-När du delar filter från listor med projekt, uppgifter eller problem kan du dela dem med hjälp av gränssnittet för betaversionen i stället för standardgränssnittet.
-
-Betaverdergränssnittet är inte tillgängligt för andra objekt i Workfront.
-
-Du kan inte skapa filter i betaversionens gränssnitt när du skapar rapporter.
-
-Dela ett filter med hjälp av gränssnittet för betaversionen:
+Dela ett filter med standardgränssnittet i Builder:
 
 1. Gå till en lista med projekt, uppgifter eller problem.
-1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png)aktiverar du **Betainställning** ![Betainställning](assets/beta-toggle-white-on-existing-filters.png) för att komma åt betaversionen. Det är inaktiverat som standard.
+1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png).
 
-   Godkänn sedan betaavtalet om det behövs.
-
-   Betafilterverktyget öppnas.
-
-   >[!TIP]
-   >
-   >Byggargränssnittets huvud ändras till blått när du aktiverar betaversionen. När du har aktiverat gränssnittet för betaversionen håller Workfront det aktiverat för alla områden där det är tillgängligt.
-
-   ![Betafilterverktyg](assets/new-filters-all-filter-types.png)
+   ![Standardfilterverktyg](assets/new-filters-all-filter-types.png)
 
 1. Granska följande filterlistor:
 
@@ -193,7 +117,7 @@ Dela ett filter med hjälp av gränssnittet för betaversionen:
 
    Rutan Filterdelning visas.
 
-1. Aktivera inställningen Visa hela systemet. Detta ger alla i Workfront behörighet att visa filtret.
+1. Aktivera **Visa hela systemet** inställning. Detta ger alla i Workfront behörighet att visa filtret.
 
    >[!IMPORTANT]
    >
@@ -228,4 +152,58 @@ Dela ett filter med hjälp av gränssnittet för betaversionen:
    Filtren som du delade visas i **Delas med mig** i filterpanelen för dessa enheter.
 
    ![Filter som delas med mig](assets/new-filters-shared-with-me.png)
+
+### Dela filter, vyer och grupperingar med det äldre gränssnittet
+
+Delningsfilter, vyer och grupperingar i det äldre gränssnittet är identiska.
+
+1. Gå till en lista med objekt eller en rapport.
+1. (Villkorligt) Klicka på **Filter**, **Visa**, eller **Gruppering** och för muspekaren över det filter, den vy eller gruppering som du vill dela. **Mer** icon ![Mer-ikon](assets/more-icon.png)sedan **Dela**.
+
+   Klicka på **Filter**, **Visa**, eller **Gruppering** och sedan välja det filter, den vy eller grupp som du vill dela.
+
+1. (Villkorligt) Om du delar från en rapport klickar du på **Filter**, **Visa**, eller **Gruppering** nedrullningsbar meny igen och klicka sedan på **Dela filter**, **Dela vy**, eller **Dela gruppering**.\
+   The **Filteråtkomst**, **Visa åtkomst**, eller **Grupperingsåtkomst** visas.
+
+   ![Delningsfilter](assets/share-filter-people-box-nwe-350x458.png)
+
+1. Fyll i något av följande, beroende på vem du vill dela med:
+
+   **Så här delar du med enskilda användare, team, roller, grupper eller företag:** I det angivna fältet börjar du skriva namnet på användaren, teamet, rollen, gruppen eller företaget som du vill dela med och klickar sedan på namnet i listrutan.\
+   Upprepa den här processen om du vill dela åtkomst med flera användare, team, roller, grupper eller företag.
+
+   >[!TIP]
+   >
+   >När du delar med grupper får du behörighet till filtret, vyn eller grupperingen till medlemmarna i gruppen och till alla undergrupper.
+
+   **Så här delar du med alla användare i systemet:** Klicka på **Inställningar** ikonen och klicka sedan på **Gör detta synligt för hela systemet**.\
+   Administratören måste markera alternativet Dela hela systemet för att det här alternativet ska vara tillgängligt. Mer information finns i artiklarna [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) och [Dela rapporter, kontrollpaneler och kalendrar](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+
+1. (Villkorligt) Om du delar med enskilda användare, team, roller, grupper eller företag, klickar du på den nedrullningsbara menyn för att definiera den åtkomstnivå som du vill bevilja.
+
+   Du kan välja mellan följande alternativ:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Se det</strong></td> 
+      <td> <p>Välj det här alternativet om du bara vill tillåta delningsmottagare att använda det delade filtret, vyn eller grupperingen. När det här alternativet är markerat kan mottagarna inte göra några ändringar i det delade objektet.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Hantera det</strong></td> 
+      <td> <p>Välj det här alternativet om du vill tillåta att delningsmottagare använder och ändrar det delade filtret, vyn eller grupperingen.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Dela</strong></td> 
+      <td> <p>Klicka <strong>Avancerade inställningar</strong>markerar eller rensar du <strong>Dela</strong> beroende på om du vill att mottagarna ska kunna dela med andra.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Klicka **Spara**.
+
+   Användare som du har delat filtret, vyn eller gruppen med kan komma åt den genom att klicka på **Filter**, **Visa**, eller **Gruppering** nedrullningsbar meny eller ikon och rullar nedåt till **Delas med mig** -avsnitt.
+
 

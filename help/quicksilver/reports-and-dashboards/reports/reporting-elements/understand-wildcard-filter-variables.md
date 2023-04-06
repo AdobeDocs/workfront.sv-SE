@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variabler för jokertecken
 description: Genom att använda jokertecken i filter kan du referera till en allmän användare eller ett allmänt datum i stället för en specifik användare eller ett specifikt datum. På så sätt är elementen som du skapar dynamiska och resultatet ändras beroende på i vilket sammanhang de används.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -94,21 +94,21 @@ Om du vill ange olika tidsperioder och olika tidpunkter (framtida eller tidigare
 | **m** | månad |
 | **y** | år |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Kvalificerare** |  |
 |---|---|
 | **b** | början av veckan (söndag) |
 | **e** | veckoslut (lördag) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Operatorer** |  |
 |---|---|
 | **+** | lägg till värde i jokerteckenvärde |
 | **-** | subtrahera värde från jokertecken |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Jokertecknet `$$TODAYb+2w` hänvisar till&quot;2 veckor från början av denna vecka&quot;. Jokertecknet *`$$NOW+2h` hänvisar till&quot;2 timmar från och med nu&quot;.
 

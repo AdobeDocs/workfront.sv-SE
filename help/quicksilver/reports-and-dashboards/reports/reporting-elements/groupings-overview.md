@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Översikt över grupperingar i Adobe Workfront
 description: Du kan lägga till grupperingar för att hantera layouten för informationen i rapporter och listor.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 0%

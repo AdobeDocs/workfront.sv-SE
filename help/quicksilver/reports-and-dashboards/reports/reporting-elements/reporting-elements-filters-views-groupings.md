@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: '''Rapporteringselement: filter, vyer och grupperingar'
 description: De huvudelement som varje lista och rapport måste ha i Workfront är ett filter, en vy och en gruppering. Varje element innehåller olika information i alla rapporter.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%

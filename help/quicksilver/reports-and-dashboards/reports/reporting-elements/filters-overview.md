@@ -4,19 +4,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Översikt över filter i Adobe Workfront
 description: Du kan använda filter i Adobe Workfront för att minska mängden information som visas på skärmen i listor, rapporter eller andra områden.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
 
 # Översikt över filter i Adobe Workfront
-
-<span class="preview">Observera att i förhandsvisningsmiljön är nu den förbättrade filterupplevelsen (som tidigare kallades &quot;beta&quot;) standard. De här förbättrade filtren är nu&quot;standard&quot; och den äldre filterupplevelsen är&quot;äldre&quot;.</span>
 
 Du kan använda filter i Adobe Workfront för att minska mängden information som visas på skärmen i listor, rapporter eller andra områden.
 
@@ -169,11 +167,11 @@ När du skapar ett filter ansluter du flera element som utgör filtersatser. Du 
 
 Detta är ett exempel på standardfilterverktyget:
 
-![Standardfilterverktyg](assets/filter-statements-with-or-and-and-nwe.png)
+![Standardfilterverktyg](assets/filter-sample-with-or.png)
 
-Detta är ett exempel på betafilterverktyget:
+Det här är ett exempel på den äldre filterverktyget:
 
-![Betafilterverktyg](assets/filter-sample-with-or.png)
+![Äldre filterverktyg](assets/filter-statements-with-or-and-and-nwe.png)
 
 Ett filter innehåller följande element:
 
@@ -233,13 +231,13 @@ Mer information om filtermodifierare finns i [Filter- och villkorsmodifierare](.
 
 ## Skapa filter i Builder-gränssnittet
 
-Du kan skapa ett filter med hjälp av standardgränssnittet eller betaversionen på följande sätt:
+Du kan skapa ett filter med standardgränssnittet eller det äldre Builder-gränssnittet på följande sätt:
 
 * Från början
 * Ändra ett befintligt filter
 * Kopiera ett befintligt filter
 
-Mer information om hur du skapar ett filter med hjälp av standard- eller betaversionen-gränssnittet finns i [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Mer information om hur du skapar ett filter med standardgränssnittet eller det äldre Builder-gränssnittet finns i [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Skapa filter med hjälp av textlägesgränssnittet
 
