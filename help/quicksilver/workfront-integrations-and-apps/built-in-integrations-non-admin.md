@@ -6,9 +6,9 @@ title: Adobe Workfront inbyggda integreringsöversikt
 description: Ni kan integrera [!DNL Adobe Workfront] med program från tredje part. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Om du till exempel arbetar kreativt i marknadsföringsbranschen kan du använda Adobe Creative Cloud-tillägget för att exportera mediefiler direkt från Photoshop till Workfront.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,20 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Integrera [!DNL Workfront] kommentarer och godkännanden med InDesign, Illustrator och Photoshop </li> 
-     <li>Hämta/installera från Adobe Exchange eller manuellt</li> 
-    </ul> </td> 
+     <li>Integrera [!DNL Workfront] kommentarer och godkännanden med följande Adobe Creative Cloud-program: 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installera  [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] Program</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
