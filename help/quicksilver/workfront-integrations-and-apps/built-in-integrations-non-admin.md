@@ -6,16 +6,16 @@ title: Adobe Workfront inbyggda integreringsöversikt
 description: Ni kan integrera [!DNL Adobe Workfront] med program från tredje part. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Om du till exempel arbetar kreativt i marknadsföringsbranschen kan du använda Adobe Creative Cloud-tillägget för att exportera mediefiler direkt från Photoshop till Workfront.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront inbyggda integreringsöversikt
 
-Ni kan integrera [!DNL Adobe Workfront] med program från tredje part. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Om du till exempel arbetar kreativt i marknadsföringsbranschen kan du använda Adobe Creative Cloud-tillägget för att exportera mediefiler direkt från Photoshop till Workfront.
+Ni kan integrera [!DNL Adobe Workfront] med program från tredje part samt andra [!DNL Adobe] produkter. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Om du till exempel är kreativ anställd i marknadsföringsbranschen kan du använda [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] program som exporterar resurser direkt från Photoshop till Workfront.
 
 Dina [!DNL Workfront] administratören måste aktivera och konfigurera inbyggda integreringar innan du kan använda dem. Om du vill veta vilka inbyggda integreringar som används i organisationen kontaktar du [!DNL Workfront] administratör.
 

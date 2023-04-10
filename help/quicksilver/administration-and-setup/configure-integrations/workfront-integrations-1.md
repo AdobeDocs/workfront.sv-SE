@@ -9,16 +9,16 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] integreringar
 
-Du kan integrera Adobe Workfront med tredjepartsprogram. Integrationer kan göra Workfront ännu bättre och skräddarsy det efter företagets behov.
+Du kan integrera Adobe Workfront med tredjepartsprogram och andra [!DNL Adobe] produkter. Integrationer kan göra Workfront ännu bättre och skräddarsy det efter företagets behov.
 
 Integreringarna för [!DNL Workfront] delas in i följande kategorier:
 

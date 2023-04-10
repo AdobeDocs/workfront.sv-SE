@@ -7,16 +7,16 @@ title: Integreringsmetoder i Adobe Workfront
 description: Ni kan integrera [!DNL Adobe Workfront] med program från tredje part. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Du kan använda någon eller alla av dessa integreringar, beroende på vilken som är mest användbar för en viss uppgift.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
 
 # Integreringsmetoder i Adobe Workfront
 
-Ni kan integrera [!DNL Adobe Workfront] med program från tredje part. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Du kan använda någon eller alla av dessa integreringar, beroende på vilken som är mest användbar för en viss uppgift.
+Ni kan integrera [!DNL Adobe Workfront] med program från tredje part samt andra [!DNL Adobe] produkter. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Du kan använda någon eller alla av dessa integreringar, beroende på vilken som är mest användbar för en viss uppgift.
 
 ## Inbyggda integreringar
 
