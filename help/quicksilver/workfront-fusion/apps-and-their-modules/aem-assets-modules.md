@@ -10,7 +10,7 @@ description: Med [!DNL Adobe Experience Manager Assets] anslutning för [!DNL Ad
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Assets] moduler:
 
       Den här konfigurationen kräver information från [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
       Den här konfigurationen kräver ett användarnamn och lösenord.
 
@@ -79,7 +79,7 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Assets] moduler:
 
    För [!DNL AEM Assets as a Cloud Service], se [Konfigurera anslutningen för [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   För [!UICONTROL AEM Assets Basic], se [Konfigurera anslutningen för [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   För [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), se [Konfigurera anslutningen för [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. Klicka **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
@@ -135,7 +135,7 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Assets] moduler:
       </table>
 
 
-### Konfigurera anslutningen för [!DNL AEM Assets Basic]
+### Konfigurera anslutningen för [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>
