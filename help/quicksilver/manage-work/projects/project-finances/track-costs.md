@@ -7,9 +7,9 @@ description: Du kan hålla reda på kostnaderna för projekt, uppgifter och prob
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,6 @@ Den planerade kostnaden för ett projekt beräknas enligt följande formel:
 Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
 ```
 
-* 
-   * 
-
 Du har till exempel följande utgifter på fliken Utgifter för en uppgift: en marknadsföringskostnad på 100 USD och en administrativ kostnad på 50 USD. På fliken Ekonomi väljer du kostnadstypen Användare per timme. En användare tilldelas uppgiften och användarens timtaxa är 15 USD. Användaren har tilldelats 5 timmar att arbeta med den här uppgiften. På fliken Utgifter i projektet har du en planerad kostnad på 100 USD för en utgift som kallas Konsult. Du har också en fast kostnad på 200 USD för projektet.
 
 Projektets planerade kostnad beräknas enligt följande:
@@ -148,17 +145,15 @@ Den faktiska kostnaden för ett projekt är kostnaden som är associerad med det
 Faktisk kostnad beräknas med följande formel:
 
 ```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project
+Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
 ```
 
-.
-
-Du har till exempel följande utgifter på fliken Utgifter för en uppgift: en marknadsföringskostnad med en faktisk kostnad på 110 USD och en administrativ kostnad med en faktisk kostnad på 40 USD. Du väljer kostnadstypen Roll per timme och tilldelar rollen Konsultjobb till uppgiften. Rollen för konsultjobbet är 15 USD per timme och uppgiften för konsultföretagets jobbroll är 6 timmar inloggad. Det finns också en utgift för konsulttjänster som är kopplad till projektet (på fliken Utgifter), med en faktisk kostnad på 100 USD och en användare med en kostnad per timme på 20 USD i användarprofilen loggar 10 timmar på projektet.
+Du har till exempel följande utgifter på fliken Utgifter för en uppgift: en marknadsföringskostnad med en faktisk kostnad på 110 USD och en administrativ kostnad med en faktisk kostnad på 40 USD. Du väljer kostnadstypen Roll per timme och tilldelar rollen Konsultjobb till uppgiften. Rollen för konsultjobbet är 15 USD per timme och uppgiften för konsultföretagets jobbroll är 6 timmar inloggad. Det finns en utgift för konsulttjänster som är associerad med projektet (på fliken Utgifter), med en faktisk kostnad på 100 USD och en användare med en kostnad per timme på 20 USD i användarprofilen loggar 10 timmar på projektet. Du har också en fast kostnad på 200 USD för projektet.
 
 Projektets faktiska kostnad beräknas enligt följande:
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project)= $540
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
 ```
 
 >[!NOTE]
