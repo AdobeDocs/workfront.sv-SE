@@ -6,9 +6,9 @@ description: Du kan lägga till taggar till kort för att visa att de liknar var
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
 
-1. Leta reda på taggen som du vill ta bort från kortet och klicka sedan på **[!UICONTROL Remove]**&#x200B; ![Ta bort tagg](assets/copy-of-boards-remove-30x23.png).
+1. Leta reda på taggen som du vill ta bort från kortet och klicka sedan på **[!UICONTROL Remove]** icon ![Ta bort tagg](assets/copy-of-boards-remove-30x23.png).
 1. Klicka på **[!UICONTROL Close]**.
 
 ## Ta bort en tagg
