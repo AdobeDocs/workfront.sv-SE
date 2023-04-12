@@ -6,9 +6,9 @@ description: Du kan koppla en problemlösning manuellt till en lösning på ett 
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -68,19 +68,30 @@ Innan du börjar måste du:
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Gå till **Översikt** området i **Ärendeinformation** -avsnitt.
-1. Klicka på **Löst av** och välj bland följande typer av matchande objekt:  
+1. Klicka på **Löst av** och välj bland följande typer av matchande objekt:
 
    * **Projekt**
    * **Uppgift**
    * **Problem**
 
-1. Fältet för det matchande objektet visas.
-1. När du har markerat objektet börjar du skriva namnet på ett visst projekt, en viss uppgift eller ett visst fel i det tillgängliga fältet och markerar det när det visas i listrutan.
-1. Klicka **Spara** **Ändringar**.\
+   Beroende på vilket objekt du har markerat visas följande fält:
+
+   * **Löser projekt**
+   * **Åtgärdar uppgift**
+   * **Löser problem**
+
+
+1. Börja skriva namnet på ett specifikt projekt, en viss uppgift eller ett specifikt problem i **Löser projekt**, **Uppgift**, eller **Problem** och sedan klicka på den när den visas i listan.
+
+   >[!NOTE]
+   >
+   >Du kan inte koppla en problemlösning till den uppgift eller det projekt där problemet finns. Aktiviteten eller projektet för problemet visas inte i fälten Lös uppgift eller Lös uppgift.
+
+
+1. Klicka **Spara ändringar**.
+
    Det ursprungliga problemet blir ett löstagbart objekt för det projekt, den uppgift eller det problem som du valde i steg 4 och 5. Detta innebär att det ursprungliga problemet slutförs när det matchande objektet (projektet, aktiviteten eller problemet som du länkade det till) har slutförts.
 
    >[!NOTE]
    >
    >Ett projekt, en aktivitet eller ett problem kan ha flera problem som upplösbara objekt.
-
- 
