@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 078f1a4d35f8aab9e650d1e7ddb1ac76665e79c4
+source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
 workflow-type: tm+mt
-source-wordcount: '12860'
+source-wordcount: '12867'
 ht-degree: 0%
 
 ---
@@ -933,6 +933,7 @@ ht-degree: 0%
       * [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+      * [Konfigurera eftersläpningen på en arbetsyta](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [Granska iterationsmått](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [Agile - översikt](agile/agile-overview.md)
    * Kom igång smidigt med Adobe Workfront {#agile-in-workfront}

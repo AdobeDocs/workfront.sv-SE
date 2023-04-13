@@ -7,9 +7,9 @@ description: När du skapar en styrelse med ad hoc-kort och anslutna kort kanske
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+* [Konfigurera eftersläpningen på en arbetsyta](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
 * [Granska iterationsmått](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
