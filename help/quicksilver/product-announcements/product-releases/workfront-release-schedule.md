@@ -4,12 +4,12 @@ keywords: release
 navigation-topic: product-announcements
 title: Adobe Workfront-releaseschema och -process
 description: Förhandsvisningsmiljön uppdateras en gång i veckan med nya funktioner. Dessa funktioner finns i versionsinformationen för den kommande kvartalsversionen.
-author: Luke
+author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i pro
 
 ## Funktioner som tagits bort från en kvartalsvis release
 
-Alla funktioner som är kopplade till en viss kvartalsvis release kan testas i Preview 2-4 veckor före den sista releasen till produktion. Om funktioner tas bort från kvartalsversionen före den här tidpunkten vidtas följande åtgärder för att informera kunderna:
+Alla funktioner som är kopplade till en viss kvartalsvis release kan testas i Förhandsgranska under minst 2-4 veckor före den sista releasen till produktion. Om funktioner tas bort från kvartalsversionen före den här tidpunkten vidtas följande åtgärder för att informera kunderna:
 
 * Versionsinformation för kvartalsversionen (finns på [Produktreleaser](../../product-announcements/product-releases/product-releases.md) sida) uppdateras för att ange att funktionen har tagits bort.
 
@@ -41,6 +41,30 @@ Om funktioner tas bort från kvartalsversionen efter att alla funktioner är til
 * Versionsinformation för kvartalsversionen (finns på [Produktreleaser](../../product-announcements/product-releases/product-releases.md) sida) uppdateras för att ange att funktionen har tagits bort.
 * Ett inlägg läggs till i Workfront Community där det står att funktionen har tagits bort.
 * Ett meddelande om att funktionen har tagits bort skickas till alla kunder via meddelandecentret. (Announcement Center Workfront ett meddelandecenter i appen. Mer information finns i [Skicka meddelanden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+
+## Betaversioner
+
+Ibland lanserar Workfront nya funktioner som en del av ett betaprogram.
+Den specifika informationen om varje betaversion, inklusive hur man deltar, släpps när varje betaprogram startas och alla betaprogram är olika.
+
+Följande typer av betaprogram finns från Workfront:
+
+* **Avslutade eller privata betaversioner**: Följande är egenskaper för en sluten eller privat betaversion:
+
+   * Funktioner är tillgängliga för en liten grupp kunder, noga utvalda av Workfront.
+   * Deltagarna arbetar vanligtvis med en Product Manager och ger regelbundet feedback.
+   * Nya funktioner som ingår i betaversionen kan antingen släppas till Förhandsgranska eller Produktion, eller till en separat miljö som gjorts tillgänglig för betaprogrammet. Stängda betafunktioner släpps med slumpmässiga intervall utan förvarning.
+   * Det finns ingen versionsinformation för stängda betaversioner på produktreleasesidorna.
+
+* **Open eller public beta**: Här följer några exempel på en öppen eller offentlig betaversion:
+
+   * Funktionerna är tillgängliga för alla Workfront-kunder, men är i betaversion. De kanske inte alltid fungerar som de ska och feedback är alltid välkommen.
+   * Deltagandet i en betaversion är valfritt och kunderna kan själva bestämma om betafunktionerna ska användas.
+   * Nya funktioner som ingår i betaversionen kan släppas antingen i Förhandsgranska eller Produktion.
+   * Funktioner kan släppa oftare än de vanliga releasemönstren för Workfront.
+   * Information om när funktioner släpps på en betaversion finns på produktreleasesidorna.
+
+Mer information om versionsinformation finns i [Produktreleaser](../../product-announcements/product-releases/product-releases.md).
 
 ## Versionsinformation
 
