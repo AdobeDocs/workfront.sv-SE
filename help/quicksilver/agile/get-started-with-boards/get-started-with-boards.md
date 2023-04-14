@@ -6,9 +6,9 @@ description: Läs dessa artiklar och lär dig hur du använder anslagstavlor i W
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -33,3 +33,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Ta bort eller arkivera ett kort från en anslagstavla](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filtrera och söka på en anslagstavla](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Lägg till taggar](../../agile/get-started-with-boards/add-tags.md)
+* [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)

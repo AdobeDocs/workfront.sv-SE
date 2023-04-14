@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '12875'
+source-wordcount: '12880'
 ht-degree: 0%
 
 ---
@@ -924,6 +924,7 @@ ht-degree: 0%
       * [Ta bort eller arkivera ett kort från en anslagstavla](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrera och söka på en anslagstavla](agile/get-started-with-boards/filter-search-in-board.md)
       * [Lägg till taggar](agile/get-started-with-boards/add-tags.md)
+      * [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Använd flexibla planeringsverktyg i ritytor {#agile-planning-boards}
       * [Översikt över flexibla planeringsverktyg](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Hantera PIA-gränsen (Work In Progress) direkt](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
