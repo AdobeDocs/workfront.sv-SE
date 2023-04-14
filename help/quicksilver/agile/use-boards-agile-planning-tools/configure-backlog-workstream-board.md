@@ -5,9 +5,10 @@ navigation-topic: boards
 title: Konfigurera eftersläpningen på en arbetsyta
 description: Du kan välja att visa en eftersläpande kolumn på en anslagstavla i ett arbetsflöde och definiera en fråga för korten som hämtas till eftersläpningen i arbetsflödets kortlista.
 author: Lisa
-source-git-commit: b58831d50c2be421c666515808091aa4863bb471
+exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
+source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -51,6 +52,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Eftersläpningskolumnen läggs till till till vänster om anslagstavlan. Den är tom tills du använder en fråga.
 
 1. Expandera [!UICONTROL **Eftersläpningsfråga**].
+
+   >[!NOTE]
+   >
+   >En standardfråga kan redan tillämpas på eftersläpningen, som visar alla arbetsobjekt från kortlistan som inte tillhör en iteration och som inte har statusen Fullständig.
+
 1. Klicka [!UICONTROL **Lägg till villkor**] och klicka i fältet&quot;tom&quot;.
 1. Markera fältet som du vill fråga efter.
 
@@ -58,13 +64,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj frågemodifieraren.
 
-   Alternativen är: är lika med, är inte lika med, finns och finns inte.
-
-   Exempel: Om du väljer Förfallodatum och finns visas kort med tilldelade förfallodatum i efterloggen. Kort utan förfallodatum dras inte in i efterloggen.
+   Modifieringsalternativen beror på vilka fält de kan användas på. Fältet &quot;namn&quot; har till exempel inte &quot;större än&quot; eller &quot;mindre än&quot; som modifieringsalternativ eftersom dessa modifierare bara gäller för tal.
 
 1. Markera värdet.
 
-   Värdet är bara tillgängligt när du använder lika med eller inte lika med som modifierare.
+   Värdet är inte tillgängligt när du använder &quot;exists&quot; eller &quot;not exists&quot; som modifierare.
+
+   Om du t.ex. väljer &quot;Förfallodatum&quot; och &quot;finns&quot; visas kort med tilldelade förfallodatum. Kort utan förfallodatum dras inte in i efterloggen.
 
 1. (Valfritt) Klicka på [!UICONTROL **Lägg till villkor**] om du vill lägga till ytterligare ett villkor i frågan.
 
