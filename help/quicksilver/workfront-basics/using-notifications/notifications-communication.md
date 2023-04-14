@@ -6,9 +6,9 @@ description: Följande meddelanden informerar dig om kommunikation, t.ex. en upp
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Någon kommenterar något av mina arbetsuppgifter</strong> </p> <p>Den som har tilldelats arbetsuppgiften får ett e-postmeddelande när som helst när en användare lägger till en uppdatering av en arbetsuppgift, såvida inte den användare som lägger till uppdateringen också är den som har tilldelats uppgiften. </p> <p>När en kommentar har publicerats på en förfrågan skickar du den primära kontakten via e-post.</p> <p>Den primära kontakten för en utgåva får ett e-postmeddelande när en kommentar publiceras på en förfrågan, såvida inte den användare som publicerade kommentaren också är den primära kontakten för utgåvan.</p> <p>Alla användare som är direkt inkluderade i kommentaren får också ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är [!UICONTROL Current].</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Comment on] &lt;work item="" name=""&gt; på &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Det dagliga sammandraget innehåller följande uppgifter:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>Någon kommenterar något av mina arbetsuppgifter</strong> </p> <p>Den som har tilldelats arbetsuppgiften får ett e-postmeddelande när som helst när en användare lägger till en uppdatering av en arbetsuppgift, såvida inte den användare som lägger till uppdateringen också är den som har tilldelats uppgiften. </p> <p>När en kommentar har publicerats på en förfrågan skickar du den primära kontakten via e-post.</p> <p>Den primära kontakten för en utgåva får ett e-postmeddelande när en kommentar publiceras på en förfrågan, såvida inte den användare som publicerade kommentaren också är den primära kontakten för utgåvan.</p> <p>Alla användare som är direkt inkluderade i kommentaren får också ett e-postmeddelande.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Comment on] &lt;work item="" name=""&gt; på &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Det dagliga sammandraget innehåller följande uppgifter:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> Namn på arbetsobjekt<br>Projektnamn<br>Referensnummer för arbetsuppgift<br>Namnet på den användare som kommenterade arbetsuppgiften<br>Texten i kommentaren som gjorts på arbetsuppgiften<br>Datum och tid då kommentaren gjordes<br>*Totalt antal mottagna kommentarer<br>*Antal kommentarer som tagits emot för varje objekt<br>*Projektnamn<br>*<strong>[!UICONTROL See All Notifications]</strong> knapp<br>*Datum för daglig sammandrag </td> 
    <td><strong>Dagligen</strong> </td> 
   </tr> 
