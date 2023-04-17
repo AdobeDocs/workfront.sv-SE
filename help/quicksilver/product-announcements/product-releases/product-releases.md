@@ -6,10 +6,10 @@ description: Följande länkar är till versionsinformation om aktuella och tidi
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 12007f2207108207c74886da63a49a0de1b20859
+source-git-commit: bb9f8b020a9fd25ff282bf522b92400ad7871f86
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,6 +32,7 @@ Mer information om hur du kan anpassa din organisation till nya versioner finns 
   <tr data-mc-conditions=""> 
    <td> <p>Utgåvor 2023</p> 
     <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3 Versionsöversikt</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Versionsöversikt</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">23.1 Versionsöversikt</a> </p> </li>
     </ul> </td> 
