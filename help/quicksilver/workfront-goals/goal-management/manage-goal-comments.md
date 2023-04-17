@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
 
 1. (Valfritt) Klicka på **Mer** meny ![](assets/more-icon.png) till höger om en kommentar och klicka sedan på **Ta bort** för att ta bort en kommentar som du har lagt till.
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 5-9 ovan. <!--insure this stays accurate-->
+1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Ytterligare kommentarer visas längst ned på skärmen.
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png) för att gilla en kommentar som någon annan har lagt till. Ikonen uppdateras med antalet gilla-markeringar.
 1. (Valfritt) Om du vill lägga till formaterad text i uppdateringen använder du alla attribut i verktygsfältet RTF när du skriver. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Klicka på **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När ett mål uppdateras genererar Workfront en anteckning om den uppdateringen som visas på fliken Systemaktivitet. Workfront registrerar också en systemuppdatering när ett resultat, en aktivitet eller ett projekt läggs till i målet eller när det uppdateras. <!--ensure the casing on the tab has not changed-->

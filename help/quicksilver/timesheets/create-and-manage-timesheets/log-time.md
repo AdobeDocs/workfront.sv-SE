@@ -6,9 +6,9 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3014'
 ht-degree: 0%
 
 ---
@@ -246,9 +246,15 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
 
    >[!IMPORTANT]
    >
-   >Om en jobbroll som du loggade tid för har ändrats och **Tilldela jobbroller till timposter manuellt** inställningen har inaktiverats måste du spara tidsinställningarna manuellt. Tidrapporten sparar bara din tid automatiskt igen när det inte längre finns någon tid inloggad för den ändrade jobbrollen.
+   >Du måste spara tidrapporten manuellt om något av följande inträffar:
    >
-   >Om rollen har ändrats och **Tilldela jobbroller till timposter manuellt** om inställningen är aktiverad kan du logga tid eller uppdatera rollen och dina ändringar sparas automatiskt.
+   >* Jobbrollen som är associerad med tiden som du loggade tidigare har ändrats och **Tilldela jobbroller till timposter manuellt** inställningen har inaktiverats. Loggningstiden för nya datum associeras med en annan jobbroll.
+      >   
+      >   Om rollen har ändrats och **Tilldela jobbroller till timposter manuellt** om inställningen är aktiverad kan du logga tid eller uppdatera rollen och dina ändringar sparas automatiskt.
+   >
+   >* Jobbrollen som tilldelats en aktivitet eller ett problem skiljer sig från jobbrollen som tidrapportägaren loggar tid med <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >Tidrapporten kommer att spara tiden automatiskt igen när det inte finns fler motstridiga poster mellan de två rollerna.
 
 1. (Valfritt) Ange mängden övertid i fältet Övertid i tidrapporthuvudet.
 

@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2814'
 ht-degree: 0%
 
 ---
@@ -233,6 +233,17 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
    >   Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
 
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-7 ovan. <!--(**************insure this stays accurate***********)-->. Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Ytterligare kommentarer visas längst ned på skärmen.
+
+   >[!NOTE]
+   >
+   >   Indikatorn&quot;nya kommentarer&quot; och knappen&quot;Visa&quot; visas bara när både de användare som har öppnat de nya uppdateringarna och de användare som för närvarande tittar på uppdateringsavsnittet använder den nya kommentarsfunktionen.
+
+
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png). Ikonen uppdateras med antalet gilla-markeringar.
 1. (Villkorligt och Valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
 
