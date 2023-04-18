@@ -7,9 +7,9 @@ description: Du kan skapa nya scenariomallar i [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 612de6a98965552da6d534d9d2536237a96f7715
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 ## Skapa en ny mall
 
+Du kan skapa en mall på ungefär samma sätt som när du skapar ett scenario. Fusion-administratörer kan också skapa mallar från befintliga scenarier.
+
+* [Skapa en mall](#build-a-template)
+* [Skapa en mall från ett scenario](#create-a-template-from-a-scenario)
+
+### Skapa en mall
+
 1. Klicka **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) i den vänstra navigeringspanelen.
 1. Klicka **[!UICONTROL Create a new template]** i det övre högra hörnet.
 1. (Valfritt) Byt namn på mallen genom att ersätta standardmallen **[!UICONTROL New template name]** i det övre vänstra hörnet.
@@ -81,6 +88,36 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 >[!NOTE]
 >
 >Genom att spara mallen kan du göra den synlig för alla dina teammedlemmar. Om du vill att mallen ska vara tillgänglig utanför ditt team måste du publicera den och sedan använda en delad länk, eller be administratören att godkänna och publicera mallen.
+
+### Skapa en mall från ett scenario
+
+>[!NOTE]
+>
+>Du måste vara en Fusion-administratör för att kunna skapa en mall från ett scenario.
+
+1. Öppna sidan med scenarioinformation för det scenario som du vill skapa ett scenario från.
+1. Klicka på **Administratör** nedrullningsbar meny i det övre högra hörnet på sidan.
+1. Välj **Klona som mall**.
+
+   Scenariot kopieras till en ny mallsida.
+1. (Valfritt) Byt namn på mallen genom att ersätta standardmallen **[!UICONTROL New template name]** i det övre vänstra hörnet.
+1. (Valfritt) Om du vill ändra mallens språk klickar du på **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) och välj språk i listrutan Språk.
+
+   >[!IMPORTANT]
+   >
+   >Valet Språk motsvarar de tillgängliga språken i systeminställningarna och gäller endast namnet på den offentliga mallen och dess beskrivning. Du kan inte ändra ett mallspråk när mallen har sparats.
+
+1. (Valfritt) Om du vill ange en beskrivning av mallen klickar du på **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) och ange beskrivningen.
+1. Redigera program, moduler och verktyg på samma sätt som när du redigerar ett standardscenario.
+
+   Information om hur du lägger till sammanhangsberoende hjälp till modulerna finns i [Konfigurera [!UICONTROL Wizard] funktionalitet](#set-up-wizard-functionality) i den här artikeln.
+
+   >[!NOTE]
+   >
+   >Om mallen innehåller moduler som kräver att anslutningen, inloggningsuppgifterna eller annan sekretesskänslig information läggs till, delas informationen inte med mallanvändarna.
+
+1. (Valfritt) Klicka på **[!UICONTROL Run once]** för att testa mallen.
+1. Klicka på **[!UICONTROL Save]** icon ![](assets/save-icon.png).
 
 ## Konfigurera [!UICONTROL Wizard] funktionalitet {#set-up-wizard-functionality}
 
