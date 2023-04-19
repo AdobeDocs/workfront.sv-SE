@@ -5,9 +5,9 @@ title: Integreringar med Adobe Experience Manager Assets
 description: Du kan koppla ditt arbete till följande Adobe Experience Manager Assets Integrations.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Du kan koppla ditt arbete till ditt innehåll i [!DNL Experience Manager Assets]
 * Spåra metadata för resurser och mappar
 * Synkronisera projektmetadata mellan [!DNL Workfront] och [!DNL Experience Manager Assets]
 
+Du kan också ansluta flera Experience Manager Assets-databaser till en Workfront-miljö eller flera Workfront-miljöer till en Experience Manager Assets-databas över olika företags-ID:n. Följ konfigurationsinstruktionerna i den här artikeln för varje integrering som du vill konfigurera.
 
 ## Åtkomstkrav
 
