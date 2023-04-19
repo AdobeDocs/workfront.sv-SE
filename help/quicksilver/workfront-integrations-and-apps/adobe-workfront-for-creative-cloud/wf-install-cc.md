@@ -6,9 +6,9 @@ description: Du kan installera Workfront for Creative Cloud från Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -66,13 +66,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Du måste installera [!DNL Creative Cloud] det program du vill använda innan du installerar plugin-programmet.
 
-## Installera [!DNL Adobe Workfront for design and video] plugin
+## Installera [!DNL Adobe Workfront for design and video] plugin för er organisation
 
->[!TIP]
->
->Om du är en [!DNL Adobe Admin Console] kan du inkludera plugin-programmet i [!DNL Creative Cloud] distributionspaket. Mer information finns i [Inkludera plugin-program i paketet](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Om du är en [!DNL Adobe Admin Console] kan du inkludera plugin-programmet i [!DNL Creative Cloud] distributionspaket. Mer information finns i [Inkludera plugin-program i paketet](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-Så här installerar du [!DNL Adobe Workfront for design and video] plugin-program:
+[Se en videosjälvstudiekurs här](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## Installera [!DNL Adobe Workfront for design and video] plugin-program individuellt
+
+Du kan installera [!DNL Adobe Workfront for design and video] plugin-program för dig själv från [!DNL Adobe Exchange].
 
 1. Gå till [Installationssida för Adobe Workfront för design och video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) på Adobe Exchange.
 1. Klicka på **Öppna [!DNL Adobe Creative Cloud] datorprogram**.
