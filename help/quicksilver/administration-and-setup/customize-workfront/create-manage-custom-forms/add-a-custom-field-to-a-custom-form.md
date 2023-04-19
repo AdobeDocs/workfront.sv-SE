@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -156,11 +156,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>ANMÄRKNING</b>:   
-        <ul> 
-         <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.<br></li> 
-         <li>När du väljer Nummer eller Valuta trunkeras nummer som börjar med 0 automatiskt.</li> 
-        </ul> </p> </td> 
+      <td> <p>Välj den typ av data som ska hämtas i det anpassade fältet. Du kan ändra formatvalet när du har sparat formuläret, men det nya formatet måste ha stöd för det angivna värdet.</p>
+
+   <p><strong>Exempel:</strong> Om du sparar ett numeriskt värde för ett fält med textformat för minst ett objekt och senare ändrar formatet till Nummer eller Valuta, kommer du inte att stöta på något fel. </p>
+      <p>Om du sparar ett alfanumeriskt värde i ett fält med textformat för minst ett objekt och sedan försöker ändra formatet till Nummer eller Valuta, kommer du att stöta på ett fel eftersom det sparade alfanumeriska värdet inte är kompatibelt med formatet Nummer eller Valuta. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Visningstyp</td> 
