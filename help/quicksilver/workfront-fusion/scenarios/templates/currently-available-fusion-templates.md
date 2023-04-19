@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Den här mallen hämtar en projektbaslinje vid alla projektstatusändringar som 
 ### Workfront - Skapa baslinjer varje vecka
 
 Den här mallen hämtar en projektbaslinje varje måndag kl. 6.00 (ET) för projekt som filtreras efter portfölj och skapar en uppdatering i uppdateringsflödet för loggning.
+
+### Sök efter projektmallar som inte används i principtid och meddela
+
+Granska dina projektmallar en gång i månaden med hjälp av din egen policy med den här enkla mallen som meddelar lämpliga användare om mallar i strid med din policy.
 
 ## Workfront - Workfront korrekturmallar
 
