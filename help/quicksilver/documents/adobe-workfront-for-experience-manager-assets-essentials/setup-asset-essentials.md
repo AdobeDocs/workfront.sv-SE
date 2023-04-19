@@ -6,9 +6,9 @@ description: Koppla samman ditt material med ditt i Experience Manager Assets Es
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 059cfa79c57f071b3c7efd690b583099f46c99fb
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Koppla samman materialet med innehållet i Experience Manager Assets Essentials 
 * Länka material från Experience Manager Assets Essentials till projekt och uppgifter i Workfront &#x200B;
 * Underlätta versionshantering för resurser som skickas till Experience Manager Assets Essentials
 
+Du kan också ansluta flera Experience Manager Assets-databaser till en Workfront-miljö eller flera Workfront-miljöer till en Experience Manager Assets-databas över olika företags-ID:n. Följ konfigurationsinstruktionerna i den här artikeln för varje integrering som du vill konfigurera.
 
 ## Åtkomstkrav
 
