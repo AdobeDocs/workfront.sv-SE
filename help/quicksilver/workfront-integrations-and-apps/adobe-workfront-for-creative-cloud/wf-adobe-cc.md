@@ -7,9 +7,9 @@ description: Adobe Workfront plugin för Creative Cloud-program
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,3 +37,4 @@ Mer information om hur du använder och installerar plugin-programmet finns i f�
 * [Hantera arbetet med [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] Program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [Ladda upp dokument och korrektur med [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] Program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [Videosjälvstudiekurs: Använd [!DNL Adobe Workfront] plugin-program för [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [Videosjälvstudiekurs: Skapa och hantera paket, distribuera uppdateringar och felsöka installationsfel](https://www.youtube.com/watch?v=zzvXNLIBzrc)
