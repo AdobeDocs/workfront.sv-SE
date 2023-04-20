@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Du kan också lägga till en inmatningskolumn på din anslagstavla som automatiskt hämtar in uppgifter och ärenden som anslutna kort när de läggs till i [!DNL Workfront], baserat på filter som du definierar. Inloppskolumnen kan fungera som en eftersläpningskolumn för ett Kanban-team, en plats där ett supportteam kan se problem när de läggs till i en begärandekö eller i andra syften som du behöver.
 
 Endast en inloppskolumn får finnas på en rityta, och den visas alltid som kolumnen längst till vänster.
+
+Inloppskolumnen är inte tillgänglig på ett dynamiskt bord.
 
 Intagskolumnen är begränsad till 300 uppgifter och 300 problem. De sorteras efter den prioritet som har definierats för objekten. Information om prioritet finns i [Uppdatera uppgiftsprioritet](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) och [Uppdatera prioritet för utleverans](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
