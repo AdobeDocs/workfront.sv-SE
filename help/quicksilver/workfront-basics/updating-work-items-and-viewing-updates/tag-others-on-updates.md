@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Om du taggar andra i en uppdatering varierar beroende på vilken upplevelse och 
 
    ![](assets/tag-users-in-update.png)
 
-1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn. Detta gör uppdateringen synlig endast för användare i ditt företag.
+1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn. Detta gör uppdateringen synlig endast för användare i ditt företag. The **Privat till mitt företag** är bara tillgängligt när ett företag anges i din Workfront-profil.
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ Om du taggar andra i en uppdatering varierar beroende på vilken upplevelse och 
 
 ### Tagga andra om uppdateringar i kommenteringsfunktionen Beta
 
+Du kan tagga andra vid uppdateringar i kommenteringsfunktionen Beta. Du kan också ta bort användare som är taggade av misstag när du redigerar en kommentar.
+
 1. Börja uppdatera en arbetsuppgift enligt beskrivningen i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. I **Tagga personer eller team** börjar du skriva namnet på den användare eller det team som du vill inkludera och klickar sedan på namnet när det visas i listrutan.
 
@@ -148,7 +150,7 @@ Om du taggar andra i en uppdatering varierar beroende på vilken upplevelse och 
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn. Detta gör uppdateringen synlig endast för användare i ditt företag.
+1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn. Detta gör uppdateringen synlig endast för användare i ditt företag. The **Privat till mitt företag** är bara tillgängligt när ett företag anges i din Workfront-profil.
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ Om du taggar andra i en uppdatering varierar beroende på vilken upplevelse och 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**. Ta bort någon av de taggade användarna och klicka sedan på **Skicka**. Du kan bara redigera en kommentar inom 15 minuter efter att du har skrivit in den. Du kan bara redigera kommentarer som du har lagt till.
