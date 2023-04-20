@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 ## Justera automatiska korrekturinställningar {#adjust-proof-settings}
 
-1. (Valfritt) Justera automatiska korrekturinställningar
+1. (Valfritt) Justera inställningar för automatiserat korrekturarbetsflöde
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>Korrekturfaser</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Inaktivera faser
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>Korrekturfaser</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Inaktivera faser
+         </td>
+         <td>
+      <ol>
 
    <li>Växla Markera alla om du vill inaktivera alla faser. 
-   <p>eller</p></li>
-   <li>Växla enskilda faser.</li>
+      <p>eller</p></li>
+      <li>Växla enskilda faser.</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Lägg till mottagare
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Lägg till mottagare
+         </td>
+         <td>
+      <ol>
 
    <li>I rutan Lägg till ny mottagare börjar du skriva användarens namn.
-
-   Obs! Du kan inte lägga till externa mottagare via e-post från plugin-programmet.
 
    <li>Ange korrekturrollen.
 
    <li>Välj typ av e-postaviseringar för mottagaren. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Ange en deadline
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Ange en deadline
+         </td>
+         <td>
+      <ol>
 
    <li>Välj en deadline.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>E-postaviseringar</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Meddela mottagarna om korrekturet
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>E-postaviseringar</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Meddela mottagarna om korrekturet
+         </td>
+         <td>
+      <ol>
 
    <li>Aktivera kryssrutan för att meddela användare när korrekturet skapas.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Lägg till ett anpassat meddelande
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Lägg till ett anpassat meddelande
+         </td>
+         <td>
+      <ol>
 
    <li>Skriv ett ämne.
 
    <li>Skriv det anpassade meddelandet.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 

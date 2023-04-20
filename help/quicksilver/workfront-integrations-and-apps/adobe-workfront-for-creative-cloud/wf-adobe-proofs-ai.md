@@ -5,13 +5,13 @@ title: Ladda upp korrektur från Illustrator
 description: Du kan ladda upp ritytorna som dokument för snabb granskning och godkännande eller helt enkelt lagra dem i Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Överför korrektur från [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. I **[!UICONTROL Proof Approvals]** avsnitt, markera **[!UICONTROL Automated]**.
 1. (Valfritt) I dialogrutan **[!UICONTROL Workflow Template]** anger du namnet på en korrekturarbetsflödesmall.
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
