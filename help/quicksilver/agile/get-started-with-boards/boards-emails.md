@@ -5,7 +5,8 @@ navigation-topic: boards
 title: E-postmeddelanden och inställningar för anslagstavlor
 description: Adobe Workfront Boards skickar ett e-postmeddelande till dig när du läggs till på en anslagstavla och när du tilldelas ett kort.
 author: Lisa
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 ---
 
 # E-postmeddelanden och inställningar för anslagstavlor
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] skickar ett e-postmeddelande till dig när du läggs till på en anslagstavla och när du tilldelas ett kort. Meddelandena är aktiverade som standard och du kan välja vilka e-postmeddelanden du vill få i dina inställningar.
 
