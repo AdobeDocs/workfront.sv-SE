@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlö
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: fd610e1493724f922672f42f03e7f19bd779828e
+source-git-commit: 8e45f0c0126058236e0c9fd69130937d7f356f4f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlöst så att du
 Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Senaste releaser
+
+### April 2023
+
+* [Versionsaktivitet för Workfront Fusion: Vecka 17 april 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
 
 ### Mars 2023
 
@@ -84,6 +88,10 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 * [Versionsaktivitet för Workfront Fusion: Vecka 3 januari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
 
+## Fusion-versioner 2021
+
++++**Klicka för att öppna**
+
 ### November 2021
 
 * [Versionsaktivitet för Workfront Fusion: Vecka 29 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
@@ -142,6 +150,12 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 * [Versionsaktivitet för Workfront Fusion: Vecka 11 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
 * [Versionsaktivitet för Workfront Fusion: Vecka 4 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
++++
+
+## Fusion-versioner 2020
+
++++**Klicka för att öppna**
+
 ### December 2020
 
 * [Versionsaktivitet för Workfront Fusion: Vecka 7 december 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
@@ -160,3 +174,5 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 * [Versionsaktivitet för Workfront Fusion: Vecka 24 augusti 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
 * [Versionsaktivitet för Workfront Fusion: Vecka 17 augusti 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+
++++
