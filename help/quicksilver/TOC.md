@@ -2,7 +2,7 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
+source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
 workflow-type: tm+mt
 source-wordcount: '12919'
 ht-degree: 0%
@@ -808,7 +808,7 @@ ht-degree: 0%
       * [Tagga andra för uppdateringar](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Visa alla uppdateringar i en anteckningsrapport](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Översikt över knappen Arbeta på den och Klar](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Enhetlig kommentarsfunktion](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+      * [Ny kommentarsfunktion](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Arbeta med anpassade formulär {#work-with-custom-forms}
       * [Arbeta med anpassade formulär](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Lägga till ett anpassat formulär i ett objekt](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

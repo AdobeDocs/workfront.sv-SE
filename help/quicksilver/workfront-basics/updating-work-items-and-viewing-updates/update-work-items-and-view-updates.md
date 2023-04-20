@@ -7,7 +7,7 @@ description: Du kan använda uppdateringsavsnittet för de flesta objekt för at
 author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -28,4 +28,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [Visa alla uppdateringar i en anteckningsrapport](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Översikt över knappen Arbeta på den och Klar](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-* [Enhetlig kommentarsfunktion](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+* [Ny kommentarsfunktion](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
