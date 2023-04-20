@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 3d7a9637ea3f2bb11919456ed8e47ba3be6f791f
+source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
 workflow-type: tm+mt
-source-wordcount: '12917'
+source-wordcount: '12919'
 ht-degree: 0%
 
 ---
@@ -2035,6 +2035,7 @@ ht-degree: 0%
       * [Adobe Experience Manager Assets-moduler](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Journey Optimizer-moduler](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe PDF Services-moduler](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+      * [Luftburna moduler](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Adobe Target-moduler](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
       * [Allocadia-moduler](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Anaplan-moduler](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
