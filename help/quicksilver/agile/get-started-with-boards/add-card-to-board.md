@@ -6,14 +6,16 @@ description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och till
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett ad hoc-kort till en anslagstavla
+
+{{highlighted-preview}}
 
 Du kan snabbt lägga till ett kort till en anslagstavla och tilldela det till en styrelseledamot. Kortet kan representera en uppgift, en utgåva, en person, en grupp eller vilken typ av objekt som helst som du vill ha med i styrelsen.
 
@@ -63,7 +65,7 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>En beskrivning av kortet.</td> 
+      <td>En beskrivning av kortet. <span class="preview">Du kan lägga till URL:er i beskrivningen och de blir klickbara länkar när kortet sparas.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -96,7 +98,17 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
     </tbody> 
    </table>
 
+   Exempelbild med kortinformation i produktionsmiljön:
    ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">Bild med exempelkortinformation i förhandsvisningsmiljön:
+   ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">Använd navigeringspanelen till vänster för att flytta mellan fältgrupper på kortinformationen.</span>
+
+   >[!NOTE]
+   >
+   >Den vänstra navigeringspanelen och möjligheten att lägga till klickbara länkar i beskrivningsfältet är endast tillgängliga via den tidiga funktionsinställningen för Workfront Boards.
 
 1. Klicka **[!UICONTROL Close]** för att lägga till kortet i styrelsen.
 
