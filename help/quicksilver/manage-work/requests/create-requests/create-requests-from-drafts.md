@@ -6,16 +6,14 @@ description: Förutom att använda tillgängliga utkast som Workfront föreslår
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Skapa begäranden från utkast
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 Förutom att använda tillgängliga utkast som Workfront föreslår när du anger en ny begäran, kan du även få åtkomst till ett utkast från sektionen Utkast och slutföra den därifrån.
 
@@ -61,7 +59,7 @@ Du måste göra följande innan du kan skapa en begäran från ett utkast: 
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
-1. <span class="preview">(Valfritt) Klicka på en kolumnrubrik om du vill sortera listan efter den kolumnen.</span>
+1. (Valfritt) Klicka på en kolumnrubrik om du vill sortera listan efter den kolumnen.
 
 1. Granska informationen om varje utkast i följande kolumner i listan Utkast:
 
@@ -73,7 +71,12 @@ Du måste göra följande innan du kan skapa en begäran från ett utkast: 
 
    {style="table-layout:auto"}
 
-1. <span class="preview">(Valfritt) Använd snabbfiltret i det övre högra hörnet av listan Utkast för att börja skriva namnet på en utkast, begärandekö, köämne eller ämnesgrupp och klicka sedan på namnet på ett utkast för att öppna det. </span>
+1. (Valfritt) Använd snabbfiltret i det övre högra hörnet av listan Utkast för att börja skriva namnet på en utkast, begärandekö, köämne eller ämnesgrupp och klicka sedan på namnet på ett utkast för att öppna det.
+
+   >[!TIP]
+   >
+   >Du kan inte använda permanenta filter i delen Utkast i området Förfrågningar. Det finns heller inga alternativ för att ändra eller ändra visningen av utkastlistan.
+
 1. Uppdatera informationen för begäran enligt beskrivningen i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Valfritt och villkorligt) När som helst när du anger en begäran klickar du på **Ignorera** utkast om du vill ta bort utkastet. Detta tar bort utkastet som inte kan återställas. Mer information om hur du tar bort utkast finns i [Ta bort ett begärandeutkast](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
