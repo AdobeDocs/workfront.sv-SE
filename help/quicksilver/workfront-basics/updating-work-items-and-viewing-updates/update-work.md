@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 0%
 
 ---
@@ -196,7 +196,7 @@ The **Kommentarer** -fliken är markerad som standard.
 
    >[!TIP]
    >
-   >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Kommentarerna är bara synliga för användaren som skriver dem.
+   >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Alla bilder som läggs till i kommentaren sparas också i utkastet. Utkast sparas i 7 dagar efter vilka de tas bort och kan inte återställas. Kommentarerna är bara synliga för användaren som skriver dem.
 
 1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
 1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du något av följande alternativ i dialogrutan **RTF** verktygsfältet för att förbättra texten:
@@ -223,7 +223,7 @@ The **Kommentarer** -fliken är markerad som standard.
 
 1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
-1. Redigera informationen i kommentaren <!--or remove any of the tagged users-->.
+1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna.
 Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    1. Under **Text som ska visas** skriver du eller klistrar in länktexten.
    1. Klicka **Spara**.
 
-1. (Valfritt) Om du vill bifoga en bild till uppdateringen klickar du på **Bild** icon ![](assets/addimageicon-35x32.png) och bläddra till bilden på datorn.\
-   eller\
-   Dra bilden till uppdateringsområdet.
+1. (Valfritt) Om du vill bifoga en bild till uppdateringen gör du något av följande, beroende på vilken miljö du använder:
+
+   * Klicka på **Bild** icon ![](assets/addimageicon-35x32.png) och bläddra till bilden på datorn eller dra bilden till uppdateringsområdet när du använder den aktuella uppdateringsupplevelsen
+
+   eller
+
+   Klicka på **Lägg till bifogad fil** icon ![](assets/add-image-paperclip-icon.png) och bläddra till bilden på datorn när du använder Beta-kommenteringsfunktionen.
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicka på **Bekräfta** eller **Ta bort** när du använder betafunktionen för kommentarer.
+1. Klicka på **Bekräfta** eller klicka **Ta bort** när du använder betafunktionen för kommentarer.
 
->[!NOTE]
->
->Om du tar bort en uppdatering med en bifogad bild tas både kommentaren och bilden bort.
+   >[!NOTE]
+   >
+   >Om du tar bort en uppdatering med en bifogad bild tas både kommentaren och bilden bort.
+
+   När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   När du använder betafunktionen för kommentarer tas borttagna kommentarer bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## Lägga till en uppdatering i en tidrapport
 
