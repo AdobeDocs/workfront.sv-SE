@@ -6,9 +6,9 @@ description: Den nya enhetliga kommentarsfunktionen kommer att
 author: Alina
 feature: Get Started with Workfront
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -163,8 +163,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td>
-   <td>✓ 
+   <td>✓
+   </td>
+   <td> 
    </td>
    <td> 
    </td>
@@ -242,7 +243,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
   </tr>
   <tr>
-   <td>Se nya kommentarer i realtid 
+   <td>Se nya kommentarer i realtid (inklusive när en kommentar tas bort)
    </td>
    <td> 
    </td>
