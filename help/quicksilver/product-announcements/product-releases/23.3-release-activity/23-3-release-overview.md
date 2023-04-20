@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
+source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -137,23 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                </tr><!--
+                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profiler utan avatarer visar nu användarinitialer</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>För att göra det enklare att hitta specifika användare i stora listor visas nu användarinitialer i listor och äldre rapporter i profiler utan anpassade avatarer. Detta är en mindre kosmetisk ändring och gäller inte om ett avatarfoto redan används eller om användaren inaktiveras.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                                <p>Förhandsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                                <p><span class="preview">Produktionsrelease: Med version 23.3</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar som både ser ut och känns under 23.3-releasetidningen</a></p>
