@@ -3,13 +3,13 @@ title: 23.3 - versionsöversikt
 description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
-source-git-commit: c1ea77a65df5922f49e2f52091e54584e8a304e5
+exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
+source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
-
 
 # 23.3 - versionsöversikt
 
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-förbättringar
 
 * [Flexibla förbättringar](#agile-enhancements)
+* [Andra förbättringar](#other-enhancements)
 
 ### Flexibla förbättringar
 
@@ -46,7 +47,61 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">E-postmeddelanden och inställningar för anslagstavlor</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Dynamisk kortmall</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>En ny mall, Dynamic Board, är nu tillgänglig för fristående anslagstavlor. Den här mallen är inte tillgänglig för ritytor i en arbetsström.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Produktionsrelease för tidig anmälan: 27 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrera smidiga team-kanban-kort till styrelser</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>En ny <b>Lägg till i anslagstavlor</b> -knapp på ett smidigt team Kanban boards gör att du kan lägga till alla kort från Kanban-tavlan till en Workfront-styrelse. Du kan välja att skapa ett nytt Workfront-kort eller lägga till korten på en befintlig anslagstavla.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Produktionsrelease för tidig anmälan: 27 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Navigering till vänster har lagts till i kortinformation på brädor</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>I takt med att fler fältalternativ läggs till på kort på Workfront Boards har kortinformationen blivit längre. Med en ny navigeringspanel till vänster om kortinformationen kan du markera ett avsnitt och automatiskt flytta till den gruppen med fält.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Produktionsrelease för tidig anmälan: 27 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">E-postmeddelanden och inställningar för anslagstavlor</a></p>
                         <p>E-postmeddelanden är nu tillgängliga för Adobe Workfront Boards. Meddelandena är aktiverade som standard och du kan välja vilka e-postmeddelanden du vill få i inställningarna. Du får ett e-postmeddelande när du läggs till på en anslagstavla och när du tilldelas ett kort.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -82,7 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar som både ser ut och känns under 23.3-releasetidningen</a></p>
@@ -106,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion-förbättringar
 
-Det finns inga Workfront Fusion-uppdateringar för närvarande i den här versionen. Det här området uppdateras när det finns uppdateringar.
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 23.3. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
