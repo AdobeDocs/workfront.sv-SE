@@ -6,14 +6,16 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Använd anslutna kort på ritytor
+
+{{highlighted-preview}}
 
 Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i [!DNL Workfront].
 
@@ -96,11 +98,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>Om du ändrar namnet ändras även namnet på den anslutna enheten [!DNL Workfront] -objekt.</p> </td> 
+      <td>Om du ändrar namnet ändras även namnet på den anslutna enheten [!DNL Workfront] -objekt.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td> <p>Om du ändrar beskrivningen ändras även beskrivningen på den anslutna enheten [!DNL Workfront] -objekt.</p> </td> 
+      <td>Om du ändrar beskrivningen ändras även beskrivningen på den anslutna enheten [!DNL Workfront] -objekt. <span class="preview">Du kan lägga till URL:er i beskrivningen och de blir klickbara länkar när kortet sparas.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -110,7 +112,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
-      <td><p>Markera kortets kolumn.</p></td>
+      <td>Markera kortets kolumn.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -120,7 +122,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Planned Completion]</strong></td>
-      <td><p>Om du ändrar det här datumet ändras även det planerade slutförandedatumet på den anslutna [!DNL Workfront] -objekt.</p></td>
+      <td>Om du ändrar det här datumet ändras även det planerade slutförandedatumet på den anslutna [!DNL Workfront] -objekt.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
@@ -137,6 +139,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">Använd navigeringspanelen till vänster för att flytta mellan fältgrupper på kortinformationen.</span>
+
+   >[!NOTE]
+   >
+   >Den vänstra navigeringspanelen och möjligheten att lägga till klickbara länkar i beskrivningsfältet är endast tillgängliga via den tidiga funktionsinställningen för Workfront Boards.
 
 1. Klicka **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
 Det anslutna objektet, tilldelningar, taggar, förfallodatum, räknare för checklistor, beräknade timmar och status visas på kortet.
