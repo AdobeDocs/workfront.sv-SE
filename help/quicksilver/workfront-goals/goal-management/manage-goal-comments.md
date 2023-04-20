@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,29 @@ Detta öppnar mållistan.
 
    >[!TIP]
    >
-   >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Kommentarerna är bara synliga för användaren som skriver dem.
+   >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Alla bilder som läggs till i kommentaren sparas också i utkastet. Utkast sparas i 7 dagar efter vilka de tas bort och kan inte återställas. Kommentarerna är bara synliga för användaren som skriver dem.
 
+1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen, en hyperlänk eller en bild använder du något av alternativen i verktygsfältet RTF eller ikonerna intill. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
+1. Välj **Privat till mitt företag** för att göra kommentaren synlig endast för personer i ditt företag.
+
+   >[!TIP]
+   >
+   >Du måste ange ett företag i din profil för att det här alternativet ska vara tillgängligt i uppdateringsområdet.
+
+1. Klicka **Skicka**.
+
+   >[!TIP]
+   >
+   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar visas en röd linje med en ny indikator som informerar dig om de nyare kommentarerna.
+   >
+   >Indikatorn visas bara när kommentaren har skickats för objektet och inte när kommentaren fortfarande är sammansatt.
+   >
+   >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-icon.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
-1. Redigera informationen i kommentaren&lt;<!--, or remove any of the tagged users-->.
+1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna.
 Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -157,18 +175,7 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
 
          Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Klicka **Skicka**.
-
-   >[!TIP]
-   >
-   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar visas en röd linje med en ny indikator som informerar dig om de nyare kommentarerna.
-   >
-   >Indikatorn visas bara när kommentaren har skickats för objektet och inte när kommentaren fortfarande är sammansatt.
-   >
-   >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-1. (Valfritt) Klicka på **Mer** meny ![](assets/more-icon.png) till höger om en kommentar och klicka sedan på **Ta bort** för att ta bort en kommentar som du har lagt till.
+1. (Valfritt) Klicka på **Mer** meny ![](assets/more-icon.png) till höger om en kommentar och klicka sedan på **Ta bort** för att ta bort en kommentar som du har lagt till. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 5-9 ovan. <!--insure this stays accurate-->
 1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
 
@@ -176,7 +183,7 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
 
    Ytterligare kommentarer visas längst ned på skärmen.
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png) för att gilla en kommentar som någon annan har lagt till. Ikonen uppdateras med antalet gilla-markeringar.
-1. (Valfritt) Om du vill lägga till formaterad text i uppdateringen använder du alla attribut i verktygsfältet RTF när du skriver. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 1. (Valfritt) Klicka på **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När ett mål uppdateras genererar Workfront en anteckning om den uppdateringen som visas på fliken Systemaktivitet. Workfront registrerar också en systemuppdatering när ett resultat, en aktivitet eller ett projekt läggs till i målet eller när det uppdateras. <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
