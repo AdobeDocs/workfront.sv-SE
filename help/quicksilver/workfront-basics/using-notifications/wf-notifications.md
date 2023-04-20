@@ -6,7 +6,7 @@ description: Adobe Workfront skickar e-postmeddelanden, meddelanden i appen och 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Workfront] meddelanden
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] skickar e-postmeddelanden, meddelanden i appen och meddelanden till din mobila enhet.
 
@@ -130,15 +128,11 @@ Påminnelsemeddelanden skickas från e-postadressen som [!DNL Workfront] adminis
 
 Mer information om hur du ställer in och aktiverar påminnelsemeddelanden finns i [Ställ in påminnelsemeddelanden](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### Meddelanden från anslagstavlor
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] skickar ett e-postmeddelande till dig när du läggs till på en anslagstavla och när du tilldelas ett kort.
 
 Du kan välja vilka e-postmeddelanden du vill få med dina inställningar för anslagstavlor. Mer information finns i [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### Övriga [!DNL Workfront] e-post
 
