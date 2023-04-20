@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1859'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ![](assets/map-toggle-350x74.png)
 
+* [Enhetsobjekt](#drive-item)
 * [Objekt](#item)
 * [Lista](#list)
 * [Sida (beta)](#page-beta)
 * [Plats](#site)
 * [Övriga](#other)
+
+### Enhetsobjekt
+
+* [Skapa en fil](#create-a-file)
+* [Skapa en mapp](#create-a-folder)
+* [Hämta en fil](#get-a-file)
+* [Bevaka mappobjekt](#watch-folder-items)
+
+#### Skapa en fil
+
+Den här åtgärdsmodulen skapar en ny fil i SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Välj hur du vill identifiera platsen för filen som du vill skapa.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL Folder ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Välj den plats där du vill skapa filen. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</td> 
+  </tr>  </tbody> 
+</table>
+
+#### Skapa en mapp
+
+Den här åtgärdsmodulen skapar en ny mapp i SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Välj hur du vill identifiera platsen för mappen som du vill skapa.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL Folder ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Välj den plats där du vill skapa mappen. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder name]</td> 
+   <td>Ange eller mappa ett namn för den nya mappen.</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### Hämta en fil
+
+Den här åtgärdsmodulen hämtar den angivna SharePoint-filen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Välj hur du vill identifiera platsen för filen som du vill hämta.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL File ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Välj plats för filen. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### Bevaka mappobjekt
+
+Den här utlösarmodulen startar ett scenario när ett objekt uppdateras i en mapp som du väljer.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Välj hur du vill identifiera platsen för filen som du vill hämta.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL folder ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Välj platsen för mappen som du vill bevaka. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Ange maximalt antal objekt [!DNL Workfront Fusion] ska returneras under en körningscykel.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### Objekt
 
