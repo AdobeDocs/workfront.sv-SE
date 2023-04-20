@@ -7,16 +7,18 @@ description: Läs den här artikeln för att få en bättre förståelse för hu
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: a478e5355db33e076b321a6219442198901f3252
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Kanban - översikt
 
-I följande avsnitt kan du bättre förstå hur [!UICONTROL Kanban] kortfunktioner:
+I följande avsnitt kan du bättre förstå hur [!UICONTROL Kanban] kortfunktioner.
+
+Om du är intresserad av att migrera från ett rörligt team [!UICONTROL Kanban] gå till [!DNL Workfront] [!UICONTROL Boards], se [Migrera smidigt team [!UICONTROL Kanban] kort till [!DNL Workfront] boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] styrelselayout och -funktioner
 
