@@ -1,5 +1,5 @@
 ---
-title: Översikt över åtkomstnivåer
+title: Översikt över nya åtkomstnivåer
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,23 +9,24 @@ description: Alla användare måste ha en åtkomstnivå för att kunna logga in 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
 
-# Översikt över åtkomstnivåer
+# Översikt över nya åtkomstnivåer
 
 Som Adobe Workfront-administratör tilldelar du en åtkomstnivå till en användare för två syften:
 
 * Alla användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront.
 * Du använder åtkomstnivån för att styra vad en användare kan se och göra med vissa Workfront-objekt och -områden.
 
-## Inbyggda åtkomstnivåer i Adobe Workfront {#built-in-access}
+## Nya inbyggda åtkomstnivåer i Adobe Workfront {#built-in-access}
 
-Workfront har sex inbyggda åtkomstnivåer:
+Workfront har sex nya inbyggda åtkomstnivåer:
 
 * Systemadministratör
 * Standard

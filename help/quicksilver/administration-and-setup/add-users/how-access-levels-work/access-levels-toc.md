@@ -1,26 +1,27 @@
 ---
-title: Hur åtkomstnivåer fungerar
+title: Så här fungerar nya åtkomstnivåer
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-description: Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller redigera objekt genom att tilldela dem en åtkomstnivå. I artiklarna nedan beskrivs hur åtkomstnivåerna fungerar.
+description: Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller redigera objekt genom att tilldela dem en åtkomstnivå. I artiklarna nedan beskrivs hur nya åtkomstnivåer fungerar.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
+exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# Hur åtkomstnivåer fungerar
+# Så här fungerar nya åtkomstnivåer
 
-Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller redigera objekt genom att tilldela dem en åtkomstnivå. I artiklarna nedan beskrivs hur åtkomstnivåerna fungerar.
+Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller redigera objekt genom att tilldela dem en åtkomstnivå. I artiklarna nedan beskrivs hur nya åtkomstnivåer fungerar.
 
-* [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Översikt över licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-* [Åtkomst till objekt och områden per licenstyp](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+* [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+* [Tillgång till objekt och ytor med nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [Tillgängliga funktioner för varje objekttyp](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) <!--need to change name here or in legacy article -->
 
 ## Se även

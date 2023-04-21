@@ -6,7 +6,7 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du behöver inte vara Adobe Workfront-administratör för att dela behörigheter för objekt som du har åtkomst till, men behörigheter för objekt fungerar inom de åtkomstnivåer som anges av Workfront-administratören.
 
-Du kan dela eller ta bort behörigheter till ett objekt som du har skapat eller ett objekt som delats med dig. När du inte är den som har skapat objektet måste du ha delningsåtkomst för det objekt som du vill dela på åtkomstnivån, förutom att du måste ha delningsbehörighet för objektet. Mer information om åtkomstnivåer finns i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) eller [Översikt över äldre åtkomstnivåer](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Du kan dela eller ta bort behörigheter till ett objekt som du har skapat eller ett objekt som delats med dig. När du inte är den som har skapat objektet måste du ha delningsåtkomst för det objekt som du vill dela på åtkomstnivån, förutom att du måste ha delningsbehörighet för objektet. Mer information om åtkomstnivåer finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) eller [Översikt över åtkomstnivåer](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >

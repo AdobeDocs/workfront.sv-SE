@@ -4,19 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: åtkomst,modell,tratt,diagram,nivåer,behörigheter
 navigation-topic: access-levels
-title: Tillgängliga funktioner för varje objekttyp
+title: Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer
 description: I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 14652fb34dbd9f830dd7a5ee397b2583869e02f9
+exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
-# Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer
+# Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer
 
 I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
 

@@ -1,5 +1,5 @@
 ---
-title: Översikt över äldre åtkomstnivåer
+title: Översikt över åtkomstnivåer
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-# Översikt över äldre åtkomstnivåer
+# Översikt över åtkomstnivåer
 
 Som Adobe Workfront-administratör tilldelar du en åtkomstnivå till en användare för två syften:
 
@@ -42,7 +42,7 @@ Mer information om relaterade ämnen finns i följande artiklar:
  <tbody> 
   <tr> 
    <td>Licenser</td> 
-   <td> <p>Licensen som är kopplad till en åtkomstnivå avgör hur åtkomstnivån kan konfigureras.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över äldre licenser</a>.</p> <p><strong>Tips</strong>: Du kan se vilken åtkomstnivå och licens som tilldelas varje användare genom att visa en användarlista eller rapport. Instruktioner finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Visa användarnas åtkomstnivåer och licenser</a>.</p> </td> 
+   <td> <p>Licensen som är kopplad till en åtkomstnivå avgör hur åtkomstnivån kan konfigureras.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser</a>.</p> <p><strong>Tips</strong>: Du kan se vilken åtkomstnivå och licens som tilldelas varje användare genom att visa en användarlista eller rapport. Instruktioner finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Visa användarnas åtkomstnivåer och licenser</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Inbyggda åtkomstnivåer</td> 

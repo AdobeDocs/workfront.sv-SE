@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Så här visar du licensinformation i ditt system:
 
 1. Längst ned på den vänstra panelen klickar du på **System** > **Licenser**.
 
-   Mer information om licenserna på den här sidan finns i [Översikt över äldre licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Mer information om licenserna på den här sidan finns i [Översikt över licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## Visa information om månatliga korrektur- och dokumentavrop
 
-Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser. Begränsningar som återställs per användare och månad.
-
 >[!IMPORTANT]
 >
->Gränserna för korrektur och dokumentbeslut gäller inte för användare på [äldre Workfront-licenser och åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Gränserna för korrektur och dokumentbeslut gäller endast användare av de nya licenserna. Mer information finns i [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser. Begränsningar som återställs per användare och månad.
 
 Beslutsgränsen för respektive licens varierar beroende på vilken plan du har. Du kan visa din månadstilldelning i Inställningar > Licenser.
 

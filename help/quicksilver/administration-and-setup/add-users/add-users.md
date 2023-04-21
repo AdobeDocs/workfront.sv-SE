@@ -9,7 +9,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 8fb1e64e07fa5d194395e87ad47f2bfc2620c39f
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
@@ -21,8 +21,8 @@ ht-degree: 0%
 Det här avsnittet innehåller följande underavsnitt:
 
 * [Skapa och hantera användare](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
-* [Hur åtkomstnivåer fungerar](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-* [Hur äldre åtkomstnivåer fungerar](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+* [Så här fungerar nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+* [Hur åtkomstnivåer fungerar](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
 * [Konfigurera åtkomst till Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
 * [Enkel inloggning i Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 * [Skapa och hantera team](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)

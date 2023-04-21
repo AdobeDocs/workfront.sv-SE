@@ -1,26 +1,26 @@
 ---
-title: Konfigurerbar äldre åtkomst till funktioner för varje objekttyp
-description: I den här artikeln förklaras vad du kan tillåta som Adobe Workfront-administratör för varje objekttyp, i varje äldre åtkomstnivå. Det förklarar också vilken standardkonfiguration som används för varje typ av äldre åtkomstnivå.
+title: Konfigurerbar åtkomst till funktioner för varje objekttyp
+description: I den här artikeln förklaras vad du kan tillåta som Adobe Workfront-administratör för varje objekttyp, på varje åtkomstnivå. Det förklarar också vilken standardkonfiguration som används för varje typ av åtkomstnivå.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3435'
 ht-degree: 0%
 
 ---
 
-# Konfigurerbar äldre åtkomst till funktioner för varje objekttyp
+# Konfigurerbar åtkomst till funktioner för varje objekttyp
 
-I den här artikeln förklaras vad du kan tillåta som Adobe Workfront-administratör för varje objekttyp, i varje äldre åtkomstnivå. Det förklarar också vilken standardkonfiguration som används för varje typ av äldre åtkomstnivå.
+I den här artikeln förklaras vad du kan tillåta som Adobe Workfront-administratör för varje objekttyp, på varje åtkomstnivå. Det förklarar också vilken standardkonfiguration som används för varje typ av åtkomstnivå.
 
 Information om alla funktioner som är tillgängliga för en objekttyp på varje åtkomstnivå finns i [Tillgängliga funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projekt
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för projekt:
+På varje åtkomstnivå kan du konfigurera följande alternativ för projekt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för projek
 
 ## Uppgifter
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för uppgifter:
+I varje åtkomstnivå kan du konfigurera följande alternativ för uppgifter:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för uppgif
 
 ## Problem
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för problem:
+I varje åtkomstnivå kan du konfigurera följande alternativ för problem:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för proble
 
 ## Portfolio
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för portföljer:
+På varje åtkomstnivå kan du konfigurera följande alternativ för portföljer:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för portf�
 
 ## Program
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för program:
+På varje åtkomstnivå kan du konfigurera följande alternativ för program:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för progra
 
 ## Rapporter, kontrollpaneler och kalendrar
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för rapporter, instrumentpaneler och kalendrar:
+På varje åtkomstnivå kan du konfigurera följande alternativ för rapporter, instrumentpaneler och kalendrar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för rappor
 
 ## Filter, vyer och grupperingar
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för filter, vyer och grupperingar:
+På varje åtkomstnivå kan du konfigurera följande alternativ för filter, vyer och grupperingar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för filter
 
 ## Dokument
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för dokument:
+I varje åtkomstnivå kan du konfigurera följande alternativ för dokument:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -573,7 +573,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för dokume
 
 ## Användare
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för användare:
+På varje åtkomstnivå kan du konfigurera följande alternativ för användare:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för använ
 
 ## Team
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för team:
+På varje åtkomstnivå kan du konfigurera följande alternativ för team:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för team:
 
 ## Mallar
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för mallar:
+På varje åtkomstnivå kan du konfigurera följande alternativ för mallar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för mallar
 
 ## Finansiella uppgifter
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för ekonomiska data:
+I varje åtkomstnivå kan du konfigurera följande alternativ för ekonomiska data:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för ekonom
 
 ## Resurshantering
 
-I varje äldre åtkomstnivå kan du konfigurera följande alternativ för Resurshantering:
+På varje åtkomstnivå kan du konfigurera följande alternativ för Resurshantering:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ I varje äldre åtkomstnivå kan du konfigurera följande alternativ för Resurs
 
 ## Område för scenarioplanering
 
-Standardinställningen för alla äldre åtkomstnivåer är Ingen åtkomst. En Workfront-administratör kan ändra detta för att visa eller redigera åtkomst för alla åtkomstnivåer för planerare, arbetare och granskare.
+Standardinställningen för alla åtkomstnivåer är Ingen åtkomst. En Workfront-administratör kan ändra detta för att visa eller redigera åtkomst för alla åtkomstnivåer för planerare, arbetare och granskare.
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Workfront målområde
 
-Alla sex av standardnivåerna för äldre åtkomst (och alla fyra av licenstyperna) kan redigera och visa Workfront-mål.
+Alla sex standardåtkomstnivåerna (och alla fyra av licenstyperna) kan redigera och visa Workfront-mål.
 
 Redigera är standardalternativet.

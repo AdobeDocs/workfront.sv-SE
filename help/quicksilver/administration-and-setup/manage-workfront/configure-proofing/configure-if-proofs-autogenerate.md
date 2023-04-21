@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Konfigurera om korrektur ska genereras automatiskt
 description: Du kan konfigurera om systemet automatiskt ska generera korrektur när användare du anger att de ska lägga till dokument i Workfront. Den här inställningen är inaktiverad som standard.
 author: Courtney
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Du måste ha följande:
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över äldre licenser</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser</a>*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 

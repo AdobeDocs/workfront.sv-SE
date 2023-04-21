@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 0%
 
 Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare. När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information om åtkomstnivåer finns i
 
-* [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Översikt över äldre åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Licenstyp</td> 
-      <td>Se till att den licens som valts här är den som är mest kopplad till den typ av åtkomstnivå som du skapar eller redigerar. Den valda licensen avgör vilka inställningar som är tillgängliga för åtkomstnivån. Mer information finns i <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över äldre licenser</a> eller <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över äldre licenser för Adobe Workfront</a>.</td> 
+      <td>Se till att den licens som valts här är den som är mest kopplad till den typ av åtkomstnivå som du skapar eller redigerar. Den valda licensen avgör vilka inställningar som är tillgängliga för åtkomstnivån. Mer information finns i <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Översikt över nya licenser</a> eller <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Översikt över licenser</a>.</td> 
      </tr> 
     </tbody> 
    </table>
