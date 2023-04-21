@@ -8,14 +8,13 @@ navigation-topic: apps-and-their-modules
 title: Luftburna moduler
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
-hidefromtoc: true
-source-git-commit: 6955c979d504adb6514ae64bf5108174d7a90ce4
+exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
+source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 0%
 
 ---
-
 
 # Luftburna moduler
 
