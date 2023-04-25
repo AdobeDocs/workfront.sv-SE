@@ -7,7 +7,7 @@ description: Med scenarioredigeraren kan du skapa och redigera scenarier i ett v
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 0%
@@ -158,3 +158,4 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
      <td>Klicka <strong>[!UICONTROL Run once]</strong> för att verifiera att scenariot fungerar som du tänkt dig innan du aktiverar det. När det är aktiverat körs scenariot enligt dess schema. Om allt inte fungerar som det ska kan du gå till avsnittet Felhantering och lära dig hur du hanterar fel.</td> 
    </tr> 
 </tbody>
+</table>
