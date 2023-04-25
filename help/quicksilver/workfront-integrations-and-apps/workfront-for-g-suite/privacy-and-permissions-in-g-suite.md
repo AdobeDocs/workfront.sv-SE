@@ -7,16 +7,16 @@ description: Sekretess och behörigheter i Workfront för G Suite
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: a156092bf2b6cca70d09b76a65d755fbe05ec8da
+source-git-commit: bd9fb14b99886f4a514c4d37ad9d93be7a051858
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 # Sekretess och behörigheter i Workfront för G Suite
 
-Eftersom kundens integritet är viktig lagrar eller samlar Adobe Workfront inte in några identifierande kunddata som följer av auktorisering från tredje part av en plugin-app från Google. Workfront for G Suites användning och överföring av information som tas emot från Google API:er till andra program följer Google API Services User Data Policy, inklusive kraven för begränsad användning.
+Eftersom kundens integritet är viktig lagrar eller samlar Adobe Workfront inte in några identifierande kunddata som följer av auktorisering från tredje part av en plugin-app från Google. Workfront for G Suites användning och överföring av information som tas emot från Google API:er till andra program följer med [Användardataprincip för Google API Services](https://developers.google.com/terms/api-services-user-data-policy), inklusive kraven på begränsad användning.
 
 Vi behöver följande behörigheter för att plugin-programmet för Workfront for G Suite ska kunna leverera maximalt värde:
 
