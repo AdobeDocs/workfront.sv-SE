@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '4852'
+source-wordcount: '4864'
 ht-degree: 0%
 
 ---
@@ -278,7 +278,7 @@ Den här åtgärdsmodulen gör någon av följande konverteringar:
    <td>Markera det objekt som du vill konvertera det till. Detta är den typ som objektet har efter konverteringen.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL $lt;Object> ID]</td> 
+   <td>[!UICONTROL <Object> ID]</td> 
    <td> <p>Ange objektets ID. </p> <p>Obs! När du anger ID:t för ett objekt kan du börja skriva namnet på objektet och sedan markera det i listan. Modulen anger sedan rätt ID i fältet.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -771,7 +771,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 
-   <td> <p>Ange fältet som du vill söka efter, operatorn som du vill använda i frågan och värdet som du söker efter i fältet.</p> <p>Obs! Använd inte <code>username </code>i sökvillkoren. Inklusive <code>username </code>i en API-fråga till [!DNL Workfront] loggar in användaren i Workfront och sökningen misslyckas.</p> </td> 
+   <td> <p>Ange fältet som du vill söka efter, operatorn som du vill använda i frågan och värdet som du söker efter i fältet.</p> <p>Obs! Använd inte <code>username </code>i sökvillkoren. Inklusive <code>username </code>i en API-fråga till [!DNL Workfront] loggar in användaren i Workfront och sökningen misslyckas.</p> <p>Obs! <code>In</code> och <code>NotIn</code>arbeta med arrayer. Indata ska vara i matrisformat.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Outputs]</td> 
