@@ -7,9 +7,9 @@ description: Följande uppgifter förklarar hur du skapar en [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) i den vänstra panelen.
 
 1. Klicka **[!UICONTROL Create a new scenario]** i det övre högra hörnet på sidan.
-1. (Valfritt) Under **[!UICONTROL What services do you want to integrate]** Om du skapar ett nytt scenario väljer du de program du vill arbeta med i scenariot och klickar sedan på **[!UICONTROL Continue]**.
-
-   eller
-
-   Klicka **[!UICONTROL Skip]** om du vill välja programmen i scenarioredigeraren.
-
 1. Om du skapar ett nytt scenario klickar du på (scenarioredigeraren) **[!UICONTROL New scenario]** i det övre vänstra hörnet och skriv ett namn för scenariot.
 1. Fortsätt till [Lägga till en modul i ett scenario](#add-a-module-in-a-scenario).
 

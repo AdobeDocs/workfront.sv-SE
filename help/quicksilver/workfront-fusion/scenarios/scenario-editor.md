@@ -7,9 +7,9 @@ description: Med scenarioredigeraren kan du skapa och redigera scenarier i ett v
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
    Om du vill redigera ett befintligt scenario klickar du på scenariot.
 
-1. (Villkorligt) Om du skapar ett nytt scenario, under **[!UICONTROL What services do you want to integrate]**, välj de program du vill arbeta med i scenariot och klicka sedan på **[!UICONTROL Continue]**.
-
-   eller
-
-   Klicka **[!UICONTROL Skip]** om du hellre vill välja programmen i scenarioredigeraren.
-
    I scenarioredigeraren som visas kan du göra allt som anges i tabellen nedan. Mer information finns i [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. När du är klar med redigeringen av ett scenario (eller när som helst medan du redigerar) klickar du på knappen [!UICONTROL Save] ikon. ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    >När du har sparat ditt scenario kommer en ny version att finnas tillgänglig under menyn med tre punkter om du behöver komma åt den i framtiden. Tidigare sparade versioner är endast tillgängliga i 60 dagar.
 
 ## Tillgängliga scenarioredigeringsåtgärder
+
+Följande åtgärder är tillgängliga i Scenarioredigeraren:
 
 <table style="table-layout:auto"> 
 <tbody>
