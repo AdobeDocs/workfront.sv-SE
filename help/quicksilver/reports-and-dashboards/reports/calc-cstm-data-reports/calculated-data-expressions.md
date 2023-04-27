@@ -7,9 +7,9 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,11 @@ I listorna nedan definieras de tillgängliga uttryck som du kan använda när du
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>Det här uttrycket lägger till antalet dagar till datumet och formateras enligt följande:</p><pre>ADDDAYS(datum, nummer)</pre> </td> 
+   <td> <p>Det här uttrycket lägger till antalet dagar till datumet. Talvärdet kan innehålla delar av dagar (t.ex. 1,5 lägger till en och en halv dag till datumet).</p> <p>Uttrycket formateras på följande sätt:</p><pre>ADDDAYS(datum, nummer)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>Det här uttrycket lägger till antalet veckodagar till datumet och formateras enligt följande:</p><pre>ADDWEEKDAYS(datum, nummer)</pre> </td> 
+   <td> <p>Det här uttrycket lägger till antalet veckodagar till datumet. Det här uttrycket lägger bara till heltalsvärden till datumet, avrundat nedåt. </p> <p>Uttrycket formateras på följande sätt:</p><pre>ADDWEEKDAYS(datum, nummer)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 

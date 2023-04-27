@@ -5,9 +5,9 @@ title: Projekt jag arbetar med filtrerar inklusive oväntade resultat
 description: Läs den här artikeln om du vill felsöka de projekt jag är på, inklusive oväntade resultat.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ The [!UICONTROL **Projekt jag är på**] filtret innehåller projekt som innehå
 
 1. Kontrollera [!UICONTROL **Projektinformation**] för varje oväntat projekt som ingår i filtret, och ta bort ditt namn från alla fält.
 
-ELLER
+   ELLER
 
 1. Försök med ett liknande filter, som [!UICONTROL **Projekt jag äger**], som endast innehåller projekt som är specifikt tilldelade dig.
 
