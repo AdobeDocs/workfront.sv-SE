@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
+source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-förbättringar
 
 * [Flexibla förbättringar](#agile-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Flexibla förbättringar
@@ -45,9 +46,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Enkla filter har lagts till i mallen för dynamiska kort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Filtren i den dynamiska kortmallen har förenklats så att du kan skapa en anslagstavla snabbare.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 27 april 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Dynamisk kortmall</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Dynamisk kortmall</a></p>
                         <p>En ny mall, Dynamic Board, är nu tillgänglig för fristående anslagstavlor. Den här mallen är inte tillgänglig för ritytor i en arbetsström.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -57,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Produktionsrelease för tidig anmälan: 27 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -65,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrera smidiga team-kanban-kort till styrelser</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrera smidiga team-kanban-kort till styrelser</a></p>
                         <p>En ny <b>Lägg till i anslagstavlor</b> -knapp på ett smidigt team Kanban boards gör att du kan lägga till alla kort från Kanban-tavlan till en Workfront-styrelse. Du kan välja att skapa ett nytt Workfront-kort eller lägga till korten på en befintlig anslagstavla.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -75,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Produktionsrelease för tidig anmälan: 27 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -83,7 +102,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Navigering till vänster har lagts till i kortinformation på brädor</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Navigering till vänster har lagts till i kortinformation på brädor</a></p>
                         <p>I takt med att fler fältalternativ läggs till på kort på Workfront Boards har kortinformationen blivit längre. Med en ny navigeringspanel till vänster om kortinformationen kan du markera ett avsnitt och automatiskt flytta till den gruppen med fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -93,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Produktionsrelease för tidig anmälan: 27 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p></span></p>
                             </li>
                         </ul>
@@ -120,7 +139,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Integration enhancements
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Justera mallinställningar för korrekturrödning med Adobe Workfront för Creative Cloud</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Nu kan du justera befintliga automatiska inställningar för arbetsflödesmallar direkt i Creative Cloud.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 27 april 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 27 april 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Andra förbättringar
 
@@ -140,7 +192,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profiler utan avatarer visar nu användarinitialer</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profiler utan avatarer visar nu användarinitialer</a></p>
                         <p>För att göra det enklare att hitta specifika användare i stora listor visas nu användarinitialer i listor och äldre rapporter i profiler utan anpassade avatarer. Detta är en mindre kosmetisk ändring och gäller inte om ett avatarfoto redan används eller om användaren inaktiveras.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -149,7 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Förhandsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: Med version 23.3</span></p>
+                                <p><span class="preview">Produktionsrelease: 4 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
