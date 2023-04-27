@@ -6,7 +6,7 @@ description: Hantera information i projektfinansieringsdelen
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -189,22 +189,18 @@ Så här redigerar du information på underfliken Projektfinansiering:
       <td>Ange budgeten för det här projektet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fast kostnad</strong> </td> 
+      <td role="rowheader">Fast kostnad</td> 
       <td>Ange den fasta kostnaden för det här projektet. Detta ska inte omfatta arbets- eller utgiftskostnader.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fast intäkt</strong> </td> 
+      <td role="rowheader">Fast intäkt</td> 
       <td> <p>Ange fasta intäkter för det här projektet. Detta ska inte omfatta intäkter från faktureringsposter som faktureras partner eller tredje part.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Projektvaluta</td> 
       <td> <p>Ange en valuta för det här projektet, om den skiljer sig från standardvalutan i systemet. Standardvalutan i ditt system definieras av din Workfront-administratör. Mer information om hur du ställer in valutakurser i Workfront finns i artikeln <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. Klicka **Spara****Ändringar**.
+1. Klicka **Spara ändringar**.

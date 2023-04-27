@@ -6,7 +6,7 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -52,10 +52,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gå till projektet där du vill ange utgifter.\
    Om du vill lägga till utgifter för en uppgift navigerar du till en uppgift i stället. 
-1. Klicka **Visa**** Mer**, klicka sedan på **Utgifter.**
-1. Klicka **Lägg till en utgift.**
-The 
-**Lägg till en utgift** visas.
+1. Klicka **Visa fler** och sedan klicka **Utgifter**.
+1. Klicka **Lägg till en utgift** .
+The **Lägg till en utgift** visas.
 1. Uppdatera följande:
 
    * **Beskrivning:** Beskrivning av utgiften.
@@ -76,12 +75,12 @@ The
 
 1. Välj en **Eget formulär** och ange eventuell ytterligare information. Du måste skapa ett anpassat formulär innan du kan koppla det till en utgift. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Klicka **Spara ändringar.**
+1. Klicka **Spara ändringar**.
 
 ## Ta bort utgifter
 
 1. Gå till projektet där du vill ta bort utgifter.
-1. Klicka **Visa****Mer** och sedan klicka **Utgifter.**
+1. Klicka **Visa fler** och sedan klicka **Utgifter**.
 1. Markera de utgifter du vill ta bort och klicka sedan på **Ta bort** ![Ta bort](assets/delete.png).
 
-1. Klicka **Ja, ta bort den** för att bekräfta borttagningen. 
+1. Klicka **Ja, ta bort den** för att bekräfta borttagningen.
