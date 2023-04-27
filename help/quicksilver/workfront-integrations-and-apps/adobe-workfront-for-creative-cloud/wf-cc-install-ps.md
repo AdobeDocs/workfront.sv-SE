@@ -6,9 +6,9 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Du måste ha en [!DNL Adobe Creative Cloud] utöver en [!DNL Workfront] licens.</td> 
+   <td><p>Du måste ha en [!DNL Adobe Creative Cloud] utöver en [!DNL Workfront] licens.</p><p>Mer information finns i <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud supportpolicy</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

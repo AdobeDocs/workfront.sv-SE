@@ -6,9 +6,9 @@ description: Du kan ladda upp ritytorna som dokument för snabb granskning och g
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png) i navigeringsfältet.
 1. Klicka **[!UICONTROL New File]** nära plug-ins nederkant.
 1. Aktivera **[!UICONTROL Create a proof]** växla.
-1. Välj **[!UICONTROL Asset Type]** i listrutan.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (Valfritt) Skriv ett namn på korrekturet i dialogrutan **[!UICONTROL Proof Name]** textruta.
 1. I **[!UICONTROL Proof Approvals]** avsnitt, markera **[!UICONTROL Basic]**.
 1. (Valfritt) Lägg till godkännare.
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (Valfritt) Skriv ett namn på korrekturet i dialogrutan **[!UICONTROL Proof Name]** textruta.
+1. Välj **[!UICONTROL Asset Type]** i listrutan.
+
 1. (Valfritt) Välj **[!UICONTROL Add outside file]** för att lägga till en fil från datorn.
 1. Klicka **[!UICONTROL Upload]** konfigurerar du önskade exportalternativ baserat på den resurstyp som valts ovan.
 
    ![](assets/plugin-files-350x307.png)\
    Dokumentet visas i [!UICONTROL Documents] i plugin-programmet och datorprogrammet.
+
 
 ## Överför ett automatiskt korrektur
 
@@ -93,26 +92,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png) i navigeringsfältet.
 
 1. Klicka **[!UICONTROL New File]** nära plug-ins nederkant.
-1. Aktivera **[!UICONTROL Create a proof]** växla och sedan väljer du **[!UICONTROL Asset Type]** i listrutan.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. Aktivera **[!UICONTROL Create a proof]** växla.
+1. (Valfritt) Skriv ett namn på korrekturet i dialogrutan **[!UICONTROL Proof Name]** textruta.
 1. I **[!UICONTROL Proof Approvals]** avsnitt, markera **[!UICONTROL Automated]**.
 1. (Valfritt) I dialogrutan **[!UICONTROL Workflow Template]** anger du namnet på en korrekturarbetsflödesmall.
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
+
+>[!NOTE]
+>
+> Om det finns tomma obligatoriska fält i arbetsflödesmallen öppnas de automatiska korrekturinställningarna automatiskt och du måste fylla i fälten för att kunna överföra korrekturet.
+
 
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. (Valfritt) Skriv ett namn på korrekturet i dialogrutan **[!UICONTROL Proof Name]** textruta.
+1. Välj **[!UICONTROL Asset Type]** i listrutan.
 1. (Valfritt) Välj **[!UICONTROL Add outside file]** för att lägga till en fil från datorn.
-1. Klicka **[!UICONTROL Upload]** konfigurerar du önskade exportalternativ baserat på den resurstyp som valts ovan.
-
-   ![](assets/plugin-files-350x307.png)\
-   Dokumentet visas i [!UICONTROL Documents] i plugin-programmet och datorprogrammet.
-
+1. Klicka **[!UICONTROL Upload]**konfigurerar du önskade exportalternativ baserat på den resurstyp som valts ovan.
+Dokumentet visas i [!UICONTROL Documents] i plugin-programmet och datorprogrammet.
 
 ## Överför en ny korrekturversion
 
@@ -126,15 +125,13 @@ Du kan överföra en ny version av ett korrektur. Plugin-programmet kommer ihåg
 1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png)i navigeringsfältet.
 
 1. Klicka **[!UICONTROL New Version]** nära plug-ins nederkant.
-1. Välj **[!UICONTROL Asset Type]** i listrutan.
-1. Aktivera **[!UICONTROL Create a proof]** växla och sedan väljer du **[!UICONTROL Asset Type]** i listrutan.
-
-   ![](assets/plugin-create-proof-350x182.png)
+1. Aktivera **[!UICONTROL Create a proof]** växla.
 
 1. I *[!UICONTROL *Proof approvals]** väljer du **[!UICONTROL Basic]** eller **[!UICONTROL Automated]**.
 
 1. Lägg till **[!UICONTROL Reviewers]** eller en **[!UICONTROL Workflow template]** baserat på den godkännandetyp du valde i steg 7.
 
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
+1. Välj **[!UICONTROL Asset Type]** i listrutan.
 1. Klicka **[!UICONTROL Upload]**konfigurerar du önskade exportalternativ baserat på den resurstyp som valts ovan.
 Dokumentet visas i [!UICONTROL Documents] i plugin-programmet och datorprogrammet.

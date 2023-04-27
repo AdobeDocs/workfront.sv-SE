@@ -6,9 +6,9 @@ description: Du kan överföra ritytorna som korrektur direkt till Adobe Workfro
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ Du kan skapa ett interaktivt korrektur för ritytorna med [!DNL Workfront for Ad
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -229,6 +233,8 @@ Du kan överföra en ny version av ett korrektur. Plugin-programmet kommer ihåg
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Välj exportformat på menyn **[!UICONTROL Asset Type]** nedrullningsbar meny.
 
