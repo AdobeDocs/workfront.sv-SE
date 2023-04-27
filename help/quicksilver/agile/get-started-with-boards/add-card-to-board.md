@@ -6,16 +6,14 @@ description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och till
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett ad hoc-kort till en anslagstavla
-
-{{highlighted-preview}}
 
 Du kan snabbt lägga till ett kort till en anslagstavla och tilldela det till en styrelseledamot. Kortet kan representera en uppgift, en utgåva, en person, en grupp eller vilken typ av objekt som helst som du vill ha med i styrelsen.
 
@@ -65,7 +63,7 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>En beskrivning av kortet. <span class="preview">Du kan lägga till URL:er i beskrivningen och de blir klickbara länkar när kortet sparas.</span></td>
+      <td>En beskrivning av kortet. Du kan lägga till URL:er i beskrivningen och de blir klickbara länkar när kortet sparas.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -98,13 +96,13 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
     </tbody> 
    </table>
 
-   Exempelbild med kortinformation i produktionsmiljön:
+   Exempelkortsdetaljbild i produktionsmiljön utan tidig funktionsåtkomst aktiverad:
    ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-071822.png)
 
-   <span class="preview">Bild med exempelkortinformation i förhandsvisningsmiljön:
-   ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-041723.png)</span>
+   Exempelkort med detaljbild i produktionsmiljön med tidig funktionsåtkomst aktiverad:
+   ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Använd navigeringspanelen till vänster för att flytta mellan fältgrupper på kortinformationen.</span>
+   Använd navigeringspanelen till vänster för att flytta mellan fältgrupper på kortinformationen.
 
    >[!NOTE]
    >
