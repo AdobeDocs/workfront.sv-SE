@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Beräkna kostnader i resursplaneraren
-description: '(Alina: ***Länkad till Planning i artikeln Resource Planner, Understanding areas of the Resource Planner. - flytta/ändra/ta bort inte.)'
-author: Alina
+description: Du kan budgetera dina resurser i Adobe Workfront Resursplanering genom att använda kostnadsvärden i stället för timvärden eller FTE-värden. Kostnadsvärden är inte tillgängliga för vyn**Visa efter användare** i resursplaneraren.
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 Du kan budgetera dina resurser i Adobe Workfront Resursplanering genom att använda kostnadsvärden i stället för timvärden eller FTE-värden. Kostnadsvärden är inte tillgängliga för **Visa efter användare** i resursplaneraren.
 
@@ -70,7 +72,7 @@ Så här visar du tillgänglig, planerad och budgeterad information efter kostna
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
 1. Klicka **Resurser**.
-1. Gå till .
+1. Gå till Resursplaneraren.
 1. (Villkorligt) Välj **Visa efter projekt** eller **Visa efter roll**.\
    Som standard **Visa efter projekt** är markerat.\
    Allokerings- och tillgänglighetsinformationen visas i timmar.

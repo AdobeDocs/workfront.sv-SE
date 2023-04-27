@@ -5,9 +5,9 @@ title: Ordlista för [!DNL Adobe Workfront] terminologi
 description: The [!DNL Adobe Workfront] ordlistor med termer som används ofta i Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '15588'
+source-wordcount: '15821'
 ht-degree: 0%
 
 ---
@@ -844,11 +844,32 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <td>[!UICONTROL External]</td> 
    <td> <p>Vanligtvis är det en licenstyp, eller en användare med en sådan licens, som bara kan granska information i systemet.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licensöversikt</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL External System]</td> 
    <td>Tjänster eller programvara som lagras och styrs utanför det angivna arkivsystemet.</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>Alla Workfront-objekt eller den information som är kopplad till dem, så som de visas i databasen. </p>
+   <p>Till exempel är "project", "user", "hour" både Workfront-objekt och fält. "Namn", "status", "ägare", "startdatum" är Workfront-fält som är associerade med ovanstående objekt. </p>
+
+<p>När du refererar till objekt kan orden "objekt" och "fält" användas på ett sätt som inte kan ändras.</p>
+   <p>När det gäller rapportering avser"fälten" objekten eller informationen om objektet som du vill hämta i rapporten.</p>
+
+<p><b>ANMÄRKNING</b></p>
+
+<p>I textrapportering hänvisar fälten till objekten eller deras information så som den visas i databasen.</p>
+   <p>Ibland skiljer sig namnet som visas i användargränssnittet från namnet på fältet i databasen. "issue" är till exempel namnet på objektet i Workfront-gränssnittet, men "opTask" är namnet på objektet (eller fältet) i Workfront-databasen. </p> 
+   <p> Det är viktigt att du använder fältet så som det visas i databasen när du skriver en textlägesrapport, vy, filter eller gruppering, eller när du skapar ett beräkningsfält.</p>
+
+<p>Mer information finns i <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> och <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Översikt över textläge</a>.</p>
+
+<p>Som standard innehåller Workfront en uppsättning fält som definierar både objekt och deras information. Du kan också skapa anpassade fält för att definiera objekt, men du kan inte skapa anpassade objekt.</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>Ett av huvudbyggstenarna i en rapport eller ett listelement som definierar vilken information som visas på skärmen. Mer information om rapportelement finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Rapportelement: filter, vyer och grupperingar</a>.</p> <p>Filtret avgör vilka resultat som visas i en rapport eller på en [!DNL Workfront] listvy, som projekt, uppgifter eller problem.</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
-   <td> <p>En organisations arbetsposter och rapporter, samt de användargrupper som hanterar dem i [!UICONTROL Workfront]. Objekt kan vara:</p> 
+   <td> <p>Den information du visar i [!DNL Adobe Workfront] representeras av objekt som lagras i [!DNL Workfront] databas. Objekten är vad som driver informationen i Workfront. Exempel på objekt är:</p> 
     <ul> 
      <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL Programs]</li> 
@@ -1314,7 +1335,17 @@ Timposter kan ha någon av följande statusvärden i Workfront:
      <li>[!UICONTROL Teams]</li> 
      <li>[!UICONTROL Users]</li> 
      <li>[!UICONTROL Companies]</li> 
-    </ul> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Förstå objekt i [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+     <li>[!UICONTROL Custom forms]</li>
+     <li>[!UICONTROL Custom fields]</li>  
+     <li>[!UICONTROL Hours]</li> 
+     <li>[!UICONTROL Billing Rates]</li> 
+     <li>[!UICONTROL Templates]</li> 
+     <li>[!UICONTROL Template tasks]</li>
+
+<p><b>ANMÄRKNING</b></p>
+  <p>Det här är inte en omfattande lista. </p>
+
+</ul> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Förstå objekt i [!UICONTROL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object Types]</td> 
@@ -1517,7 +1548,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Planned Revenue]</td> 
    <td> <p>Uppgifter och projekt kan visa ett värde för [!UICONTROL Planned Revenue] in [!DNL Workfront]. [!UICONTROL Planned Revenue] representerar det penningbelopp som är associerat med [!UICONTROL Planned Hours] av projektets uppgifter. För projekt kan den även innehålla [!UICONTROL Fixed Revenue] av projektet. </p> <p>För uppgifter är detta de intäkter som är kopplade till [!UICONTROL Planned Hours] av uppgifter. Planerade timmar från alla uppgifter räknas upp till projektets planerade timmar för att bidra till beräkningen av projektet [!UICONTROL Planned Hours]. </p> 
-   <p>[!DNL Workfront] beräknar [!UICONTROL Planned Revenue] för uppgifter och projekt med hjälp av följande formler:</p> 
+   <p>[!DNL Workfront] beräkning [!UICONTROL Planned Revenue] för uppgifter och projekt med hjälp av följande formler:</p> 
    <p><code>Task [!UICONTROL Planned Revenue] = [!UICONTROL Planned Hours] * Billing hourly rate</code> </p> <p><code>Project [!UICONTROL Planned Revenue] = SUM (All tasks [!UICONTROL Planned Revenue]) + [!UICONTROL Fixed Revenue]</code> </p> 
    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>

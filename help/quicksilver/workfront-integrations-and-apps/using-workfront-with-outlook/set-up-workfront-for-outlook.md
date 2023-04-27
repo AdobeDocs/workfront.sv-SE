@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion är integrerat med Outlook. I den här artik
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ När klienten konfigureras måste användaren välja någon av följande kontoty
 
 E-postserverns krav uppfylls som standard när du ansluter till [!DNL Office 365] eller [!DNL Outlook.com]. Om du är ansluten till en lokal installation av [!DNL Exchange Server]gäller följande krav:
 
-* Vi ger support [!DNL Exchange 2016 On-Premise]
+* Vi stöder alla [!DNL Exchange On-Premise] servrar
 * [!DNL Exchange Web Services] (EWS) måste vara aktiverat och måste vara exponerat för Internet.
 * Servern måste ha ett giltigt autentiseringscertifikat för att servern ska kunna utfärda giltiga identitetstoken. Nya installationer av [!DNL Exchange Server] innehåller ett standardautentiseringscertifikat.
 
-   Mer information finns i [Digitala certifikat och kryptering i [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) och [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
+   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * För att få tillgång till [!DNL Workfront] tillägg från [[!DNL Office] Butik](https://store.office.com/)måste klientåtkomstservrarna kunna kommunicera med  [https://store.office.com](https://store.office.com/).
 

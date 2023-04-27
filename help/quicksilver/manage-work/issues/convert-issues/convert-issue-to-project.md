@@ -6,9 +6,9 @@ description: Konvertera ett problem till ett projekt i Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,8 @@ Du kan konvertera en utgåva till ett tomt projekt eller konvertera en utgåva t
 
          >[!TIP]
          >
-         >* Om ett anpassat formulär med flera objekt som är kopplat till utgåvan är konfigurerat för användning med både utgåvor och projekt behålls all information som sparas i formuläret när du konverterar.
-         >
+         >* Om ett anpassat formulär med flera objekt som är kopplat till utgåvan är konfigurerat för användning med både utgåvor och projekt, behålls all information som sparas i formuläret när du gör konverteringen om fälten finns både i utgåvan och i projektets anpassade formulär.
+         >* Om ett anpassat formulär med flera objekt och ett beräknat fält bifogas till utgåvan och till projektet, måste utgåvan och projektet vara kompatibla med alla fält som refereras i formulärets beräknade anpassade fält. Om det finns inkompatibilitet visas ett meddelande som varnar dig om att göra ändringar. Mer information finns i avsnittet&quot;Beräknade anpassade fält i anpassade formulär med flera objekt&quot; i [Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
          >* Om du använder en mall för konverteringen och ett anpassat formulär som är kopplat till mallen innehåller ett anpassat fält som också finns i ett anpassat formulär som är kopplat till utgåvan, används fältvärdet från utgåvan för det nya projektet. Om det anpassade fältet är tomt i utgåvan används dock värdet från mallen.
 
    1. Klicka [!UICONTROL **Konvertera till projekt**].

@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Detta öppnar mållistan.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-icon.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
-1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna.
+1. Redigera informationen i kommentaren, lägg till eller ta bort bilder eller ta bort någon av de taggade användarna.
 Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

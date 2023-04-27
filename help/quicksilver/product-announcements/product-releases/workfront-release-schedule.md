@@ -7,9 +7,9 @@ description: Förhandsvisningsmiljön uppdateras en gång i veckan med nya funkt
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
+source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,12 @@ Följande typer av betaprogram finns från Workfront:
    * Information om när funktioner släpps på en betaversion finns på produktreleasesidorna.
 
 Mer information om versionsinformation finns i [Produktreleaser](../../product-announcements/product-releases/product-releases.md).
+
+## Andra releaser
+
+Ibland kan Workfront släppa funktioner som kanske inte finns dokumenterade i versionsinformationen, underhållsuppdateringarna eller i någon av de faktiska dokumentationsartiklarna. Detta görs i ett försök att testa nya funktioner innan de blir permanenta. Vanligtvis skickas dessa tester ut till ett begränsat antal kunder, men det kan finnas en tid då de kan släppas ut till alla.
+
+Om du stöter på något i systemet som inte matchar dokumentationen ber vi dig kontakta vårt kundsupportteam. Mer information finns i [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Versionsinformation
 
