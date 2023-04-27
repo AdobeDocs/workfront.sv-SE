@@ -6,9 +6,9 @@ description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och till
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -96,17 +96,9 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
     </tbody> 
    </table>
 
-   Exempelkortsdetaljbild i produktionsmiljön utan tidig funktionsåtkomst aktiverad:
-   ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-071822.png)
-
-   Exempelkort med detaljbild i produktionsmiljön med tidig funktionsåtkomst aktiverad:
    ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-041723.png)
 
    Använd navigeringspanelen till vänster för att flytta mellan fältgrupper på kortinformationen.
-
-   >[!NOTE]
-   >
-   >Den vänstra navigeringspanelen och möjligheten att lägga till klickbara länkar i beskrivningsfältet är endast tillgängliga via den tidiga funktionsinställningen för Workfront Boards.
 
 1. Klicka **[!UICONTROL Close]** för att lägga till kortet i styrelsen.
 

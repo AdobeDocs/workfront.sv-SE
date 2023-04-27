@@ -6,7 +6,7 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -139,10 +139,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </table>
 
    Använd navigeringspanelen till vänster för att flytta mellan fältgrupper på kortinformationen.
-
-   >[!NOTE]
-   >
-   >Den vänstra navigeringspanelen och möjligheten att lägga till klickbara länkar i beskrivningsfältet är endast tillgängliga via den tidiga funktionsinställningen för Workfront Boards.
 
 1. Klicka **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
 Det anslutna objektet, tilldelningar, taggar, förfallodatum, räknare för checklistor, beräknade timmar och status visas på kortet.
