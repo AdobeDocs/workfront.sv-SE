@@ -5,7 +5,7 @@ title: Ordlista för [!DNL Adobe Workfront] terminologi
 description: The [!DNL Adobe Workfront] ordlistor med termer som används ofta i Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
 source-wordcount: '15588'
 ht-degree: 0%
@@ -52,14 +52,14 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <td>[!UICONTROL Actual Expense Cost]</td> 
    <td> <p>Summan av [!UICONTROL Actual Amounts] för alla utgifter som har loggats för ett projekt eller en uppgift.</p> <b>EXEMPEL </b>
    <p>Om du skapar en utgift för Uppgift 1 och anger $600.00 i dialogrutan [!UICONTROL Actual Amount] fält, [!UICONTROL Actual Expense Cost] för den här aktiviteten är 600,00 USD. </p> 
-   <p>För ett projekt [!DNL Workfront] använder följande formel för att beräkna [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> 
+   <p>För ett projekt [!DNL Workfront] använder följande formel för att beräkna [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>I ett projekt, en uppgift eller en utgivningsrapport [!UICONTROL Actual Hours] är summan av alla timmar som är loggade i projektet, uppgiften eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om från [!UICONTROL Updates] för Aktivitet 1 klickar du på Loggtid och anger 25 timmar, Faktiska timmar för Aktivitet 1 = 25 timmar. </p> <p>[!DNL Workfront] beräkning [!UICONTROL Actual Hours] för överordnade uppgifter eller projekt med följande formler:</p> 
+   <td> <p>I ett projekt, en uppgift eller en utgivningsrapport [!UICONTROL Actual Hours] är summan av alla timmar som är loggade i projektet, uppgiften eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om från [!UICONTROL Updates] för Aktivitet 1 klickar du på Loggtid och anger 25 timmar, Faktiska timmar för Aktivitet 1 = 25 timmar. </p> <p>[!DNL Workfront] beräknar [!UICONTROL Actual Hours] för överordnade uppgifter eller projekt med följande formler:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
@@ -1136,7 +1136,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
-   <td> <p>Det här fältet visar den senaste uppdateringen som en användare har angett för ett objekt. Detta är den senaste aktiviteten eller interaktionen för ett objekt.</p> <p>The [!UICONTROL Last Note] kolumnen är tom om texten i den sista anteckningen i ett objekt har tagits bort. När en ny anteckning anges på objektet blir den sista anteckningen och visas igen i kolumnen.</p>
+   <td> <p>Det här fältet visar den senaste uppdateringen som en användare har angett för ett objekt. Detta är den senaste aktiviteten eller interaktionen för ett objekt.</p> <p>The [!UICONTROL Last Note] kolumnen är tom om texten i den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.</p>
    <p>När det här fältet läggs till i en [!UICONTROL Task] rapporter, eventuella uppdateringar som återstår av underordnade objekt - som problem, underuppgifter, dokument osv. — av uppgiften visas inte i den här kolumnen.</p> </td> 
   </tr> 
   <tr> 

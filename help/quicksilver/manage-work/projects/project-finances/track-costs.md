@@ -7,9 +7,9 @@ description: Du kan hålla reda på kostnaderna för projekt, uppgifter och prob
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>Projektets faktiska utgiftskostnad beräknas enligt följande:
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>Dessa kostnader dupliceras inte i den faktiska kostnadsberäkningen. Om till exempel en fast kostnad är en del av projektets faktiska utgiftskostnad, läggs den inte till separat i den faktiska kostnaden.
+
+>[!NOTE]
+>
 >När du loggar tid för ett projekt finns följande scenarier när du beräknar faktisk arbetskostnad för projektet:
 >
 >* Som standard använder Workfront användarens kostnad per timme för att beräkna den faktiska arbetskostnaden.
 >* Om användaren som loggar tiden inte är kopplad till någon kostnad, använder Workfront priset per timme för användarens primära roll.
 >* Om Workfront-administratören har aktiverat **Tilldela jobbroller till timposter manuellt** inställning i området Inställningar för tidrapporter och timmar, och användarens loggningstid i projektet väljer en annan roll att associera med den här tiden, beräknar projektets faktiska kostnad baserat på den roll som angavs när timmarna loggades. Mer information om hur du aktiverar loggningstid för en viss jobbroll finns i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### Hur Workfront beräknar kostnadstyper för uppgifter {#how-workfront-calculates-cost-types-for-tasks}
