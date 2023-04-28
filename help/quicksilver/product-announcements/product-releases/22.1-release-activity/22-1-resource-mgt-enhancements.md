@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Före den här förbättringen kunde du bara tilldela en användare till ett arb
 De nya grupptilldelningarna innehåller även nya filtreringsfunktioner per projekt och aktivitetsstatus, utöver Namn.
 
 Mer information finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-Mer information om borttagning av schemaläggningsverktygen finns i [Borttagning av verktygen för resursplanering i Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## Åsidosätt valuta vid hantering av jobbroller
 

@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -760,11 +760,7 @@ Följande funktioner kommer att tas bort i version 22.4 till Production:
 >
 >Borttagningen av Resource Scheduler har skjutits upp till kort efter version 22.4.
 
-Arbetsbelastningsutjämnaren ersätter resursschemaläggaren. Mer information om borttagningen och hur du kan förbereda dig för att använda belastningsutjämnaren finns i följande resurser:
-
-* [Borttagning av verktygen för resursplanering i Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migrera från resursschemaläggning till arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+Arbetsbelastningsutjämnaren ersätter resursschemaläggaren.
 
 * Zoomintegration
 

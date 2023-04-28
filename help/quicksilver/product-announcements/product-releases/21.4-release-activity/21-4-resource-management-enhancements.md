@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Mer information om hur du tilldelar arbetsobjekt i Arbetsbelastningsutjämnaren 
 ## Nytt standardalternativ för Utjämning av arbetsbelastning
 
 Som en del av vår strävan att ta bort schemaläggningen och göra Workfront viktigaste resurstilldelningsverktyg för arbetsbelastningsutjämning, har vi gjort Workfront Balancer till standardalternativet för alla nya användare. Schemaläggning är för närvarande standardalternativet. Den här ändringen gäller för alla områden där du kan komma åt Schemaläggning från vilka du kan använda området Resurser (i den nya Adobe Workfront-upplevelsen) eller i området Personer (i Adobe Workfront Classic), samt projekt- och teamnivå.
-
-Information om hur du tar bort schemaläggning finns i [Borttagning av verktygen för resursplanering i Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## Ny filterupplevelse i Utjämning av arbetsbelastning
 

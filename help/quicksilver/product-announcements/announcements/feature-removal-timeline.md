@@ -7,9 +7,9 @@ description: Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort 
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort beskrivning a
    <td>Stöds inte längre med version 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Resursplanering</p> <p>Utjämning av arbetsbelastning ger en förbättrad upplevelse vid schemaläggning av resurser.</p> <p>Mer information om arbetsbelastningsutjämnaren och funktionsjämförelser med verktygen för resursschemaläggning finns i <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">Borttagning av verktygen för resursplanering i Adobe Workfront</a>.</p> </td> 
+   <td> <p>Resursplanering</p> <p>Utjämning av arbetsbelastning ger en förbättrad upplevelse vid schemaläggning av resurser.</p> <p>Mer information om belastningsutjämnaren finns i <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Översikt över belastningsutjämnaren</a>.</p> </td> 
    <td> </td> 
    <td> <p>Stöds inte längre den 9 november 2020 (med version 20.4)</p> <p>--</p> <p>Borttagen från Workfront efter första halvåret 2022</p> </td> 
   </tr> 

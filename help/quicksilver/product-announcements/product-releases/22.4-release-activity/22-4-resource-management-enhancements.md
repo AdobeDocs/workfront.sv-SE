@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
-source-git-commit: 87d0b668185c4185646bfa1622eb37337844bcbc
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -56,4 +56,3 @@ Mer information finns i följande artiklar:
 
 * [Hantera användarallokeringar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Mer information om borttagning av schemaläggning finns i [Borttagning av verktygen för resursplanering i Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).

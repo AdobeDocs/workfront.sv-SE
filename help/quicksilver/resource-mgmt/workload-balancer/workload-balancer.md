@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Utjämning av arbetsbelastning
-description: Utjämning av arbetsbelastning är ett verktyg för resursplanering som så småningom kommer att ersätta de aktuella verktygen för resursplanering, som för närvarande är inaktuella.
+description: Utjämning av arbetsbelastning är ett verktyg för resursplanering som gör att du kan tilldela arbetsobjekt till dina resurser.
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # Utjämning av arbetsbelastning
-
->[!IMPORTANT]
->
->Utjämning av arbetsbelastning är ett verktyg för resursplanering som ersätter schemaläggningsverktygen som för närvarande är inaktuella.
->
->Mer information om hur du tar bort verktygen för resursplanering och ersätter dem med arbetsbelastningsutjämnaren finns i [Borttagning av verktygen för resursplanering i Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->Vi rekommenderar att du använder Utjämning av arbetsbelastning för att schemalägga dina resurser.
 
 Mer information om vad belastningsutjämnaren är, hur du navigerar i den och hur du tilldelar arbete med den finns i följande artiklar:
 

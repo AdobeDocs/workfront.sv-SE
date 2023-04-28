@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -574,11 +574,7 @@ Som en del av borttagningen av verktygen för resursplanering har vi tagit bort 
 
 * Avsnittet Schemaläggning på en projektsida
 
-Arbetsbelastningsutjämnaren ersätter resursschemaläggaren. Mer information om borttagningen och hur du kan förbereda dig för att använda belastningsutjämnaren finns i följande resurser:
-
-* [Borttagning av verktygen för resursplanering i Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migrera från resursschemaläggning till arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+Arbetsbelastningsutjämnaren ersätter resursschemaläggaren.
 
 #### **SHARE-händelsetypen i Event Subscriptions API.**
 

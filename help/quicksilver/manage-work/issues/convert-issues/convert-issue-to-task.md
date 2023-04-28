@@ -6,9 +6,9 @@ description: Om du måste göra mer för att slutföra ett problem efter att utg
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -107,9 +107,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!TIP]
    >
-   >Om ett anpassat formulär med flera objekt som är kopplat till utgåvan är konfigurerat för användning med både utgåvor och uppgifter bifogas formuläret som standard. All information som sparas i utgivningsformuläret sparas för uppgiften när du gör konverteringen.
-   >
-   >Om målprojektet har några standardformulär definierade i fältet Standardinställd Forms för uppgifter när projektet redigeras, läggs även dessa uppgiftsformulär till i den nya uppgiften. Alla anpassade fält som är gemensamma mellan den ursprungliga utgåvan och fälten i standardaktivitetsformulären är förifyllda med information från utgivningsfälten.
+   >* Om ett anpassat formulär med flera objekt som är kopplat till utgåvan är konfigurerat för användning med både utgåvor och uppgifter, behålls all information som sparas i formuläret när du gör konverteringen om fälten finns både i utgåvan och i uppgiftens anpassade formulär.
+   >* Om ett anpassat formulär med flera objekt och ett beräknat fält bifogas till utgåvan och till uppgiften, måste utgåvan och uppgiften vara kompatibla med alla fält som refereras i formulärets beräknade anpassade fält. Om det finns inkompatibilitet visas ett meddelande som varnar dig om att göra ändringar. Mer information finns i avsnittet&quot;Beräknade anpassade fält i anpassade formulär med flera objekt&quot; i [Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Om målprojektet har några standardformulär definierade i fältet Standardinställd Forms för uppgifter när projektet redigeras, läggs även dessa uppgiftsformulär till i den nya uppgiften. Alla anpassade fält som är gemensamma mellan den ursprungliga utgåvan och fälten i standardaktivitetsformulären är förifyllda med information från utgivningsfälten.
+
+
 
 1. Klicka [!UICONTROL **Konvertera till uppgift**].
 
