@@ -6,7 +6,7 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
->Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya designen för följande objekt:
 > * Problem när du aktiverar kommenteringsfunktionen Beta.

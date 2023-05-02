@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12934'
 ht-degree: 0%
 
 ---
@@ -344,6 +344,10 @@ ht-degree: 0%
       * Betaversion av rapportarbetsyta {#reporting-canvas-beta}
          * [Betaversion av Reporting Canvas](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
          * [Betaversion av arbetsyta för rapportering: frisläppningsaktivitet](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Ny kommentarsfunktion - beta {#new-commenting-experience-beta}
+         * [Ny information om betaupplevelser vid kommentering](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * [Ny kommentarsfunktion](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * [Ny aktivitet för att kommentera betaversionen](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Administration och konfiguration {#administration-and-setup}
    * [Administration och konfiguration](administration-and-setup/administration-and-setup.md)
    * Kom igång med administration {#get-started-administration}
@@ -810,7 +814,6 @@ ht-degree: 0%
       * [Tagga andra för uppdateringar](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Visa alla uppdateringar i en anteckningsrapport](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Översikt över knappen Arbeta på den och Klar](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Ny kommentarsfunktion](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Arbeta med anpassade formulär {#work-with-custom-forms}
       * [Arbeta med anpassade formulär](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Lägga till ett anpassat formulär i ett objekt](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

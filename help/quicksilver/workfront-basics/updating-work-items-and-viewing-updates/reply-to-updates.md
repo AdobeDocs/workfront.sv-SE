@@ -6,7 +6,7 @@ description: När någon lägger till eller svarar i en uppdatering för ett arb
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
->Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya designen för följande objekt:
 > * Problem när du aktiverar kommenteringsfunktionen Beta.
