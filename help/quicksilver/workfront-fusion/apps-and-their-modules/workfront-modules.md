@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '4864'
+source-wordcount: '4921'
 ht-degree: 0%
 
 ---
@@ -278,7 +278,7 @@ Den här åtgärdsmodulen gör någon av följande konverteringar:
    <td>Markera det objekt som du vill konvertera det till. Detta är den typ som objektet har efter konverteringen.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;Object&gt; ID]</td> 
+   <td>[!UICONTROL <Object> ID]</td> 
    <td> <p>Ange objektets ID. </p> <p>Obs! När du anger ID:t för ett objekt kan du börja skriva namnet på objektet och sedan markera det i listan. Modulen anger sedan rätt ID i fältet.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -1665,7 +1665,26 @@ Genom att använda händelseprenumerationsfilter kan Fusion-användare skapa hä
 
 Detta skiljer sig från hur du ställer in ett filter i [!DNL Workfront Fusion] scenario. Utan ett händelseprenumerationsfilter får din webkrok alla händelser som hör till den objekttyp du väljer. De flesta av dessa händelser skulle vara irrelevanta för scenariot och måste filtreras bort innan scenariot kan fortsätta.
 
+Följande operatorer är tillgängliga i Workfront > filtret Bevakningshändelser:
+
+* Lika med
+* Inte lika med
+* Större än
+* Mindre än
+* Större än eller lika med
+* Mindre än eller lika med
+* Innehåller
+* Finns
+* Finns inte
+* Ändrad
+
 >[!NOTE]
+>
+> * The `Exists`, `Does not exist`och `Changed` -operatorer kräver inget värde och värdefältet finns inte med bland dessa alternativ.
+> * The `Changed` -operatorn ignorerar tillståndsfältet.
+
+
+>[!IMPORTANT]
 >
 >Du kan inte redigera filter i befintliga [!DNL Workfront] webbhooks. Så här ställer du in olika filter för [!DNL Workfront] händelseprenumerationer, ta bort den aktuella webbkroken och skapa en ny.
 
