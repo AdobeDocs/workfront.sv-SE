@@ -8,7 +8,7 @@ feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4478'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
@@ -272,7 +272,7 @@ I följande tabell visas några modifierare som du kan använda med Workfront AP
 | innehåller | returnerar resultat där namnet innehåller &quot;Workfront&quot; | <pre>...name=Workfront&amp;name_Mod=contains...</pre> |
 | mellan | returnerar resultat som har ett anmälningsdatum inom de senaste 7 dagarna | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 Sökbegäranden är skiftlägeskänsliga. Om du får ett felmeddelande bör du kontrollera  **_Mod** och **_Intervall** har rätt skiftläge.
