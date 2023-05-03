@@ -7,7 +7,7 @@ description: I vissa fall kan det vara bra att köra en felande modul ett par g�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%
@@ -71,11 +71,11 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 * Det minsta intervallet för återförsök är en minut.
 * Om modulen bearbetar flera paket och bearbetningen av ett paket misslyckas, flyttas den partiella körningen (endast det paket som orsakade felet) till den ofullständiga körningsmappen och schemaläggs för nya försök enligt [!UICONTROL Break] -inställningar. Den aktuella körningen fortsätter dock och modulen fortsätter att bearbeta efterföljande paket. Du kan aktivera[!UICONTROL Sequential processing]&quot; i [!UICONTROL Scenario settings] för att förhindra att scenariot körs igen tills körningen i mappen Ofullständiga körningar har åtgärdats.
 
-Mer information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   Mer information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Använd [!UICONTROL Repeater] modul
 
-1. Använd **[!UICONTROL Repeater]** och ange dess [!UICONTROL Repeats] till maximalt antal försök.
+1. Använd **[!UICONTROL Repeater]** och ange dess **[!UICONTROL Repeats]** till maximalt antal försök.
 1. Länka den eventuellt felaktiga modulen till **[!UICONTROL Repeater]** -modul.
 1. Koppla en felhanterarväg till den här modulen (se [Felhantering i [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
 1. Länka **[!UICONTROL Tools]>[!UICONTROL Sleep]** till felhanterarvägen och ange dess **[!UICONTROL Delay]** till antalet sekunder mellan försöken.

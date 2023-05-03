@@ -8,9 +8,9 @@ description: I den här artikeln beskrivs direktiv som du kan använda för felh
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: 50b43cd4bafdfc3379eb1d73c12e15c791e28dbe
+source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -83,17 +83,31 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 >[!NOTE]
 >
->Felhanteringsdirektiven kan för närvarande inte användas utanför omfånget för en felhanteringsväg och [!DNL Workfront Fusion] för närvarande inte har någon Throw-modul som gör att du enkelt kan generera (utlösa) fel, men en tillfällig lösning kan användas för att efterlikna funktionen. Mer information finns i [Felhanterarflöde](../../workfront-fusion/errors/error-handling.md#error) i artikeln [Felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). Se även [Tillfällig lösning för Throw](../../workfront-fusion/errors/throw.md#workarou) i artikeln [Felhantering av fel i Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+>* Felhanteringsdirektiven kan för närvarande inte användas utanför en felhanteringsväg.
+   >
+   >   Mer information finns i [Felhanterarflöde](../../workfront-fusion/errors/error-handling.md#error) i artikeln [Felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] för närvarande inte har någon Throw-modul som gör att du enkelt kan generera (utlösa) fel, men en tillfällig lösning kan användas för att efterlikna funktionen.
+   >
+   >   Mer information finns i [Tillfällig lösning för Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) i artikeln [Felhantering av fel i Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+
 
 ## Brytning {#break}
 
-När ett fel hanteras av [!DNL Break] -direktivet, en post skapas i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) som lagrar scenariokörningens tillstånd tillsammans med data från tidigare moduler. För varje datapaket som orsakar felet skapas en separat post.
+När ett fel hanteras av [!DNL Break] -direktivet skapas en post i mappen Ofullständiga körningar. Den här posten lagrar läget för scenariokörningen tillsammans med data från tidigare moduler. Posten refererar till modulen där felet uppstod och innehåller information om vilka data som togs emot av modulen som indata. För varje datapaket som orsakar felet skapas en separat post.
 
-Posten refererar till modulen där felet uppstod och innehåller information om vilka data som togs emot av modulen som indata. Mer information finns i [Visa och lösa ofullständiga körningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+Mer information finns i [Visa och lösa ofullständiga körningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-Här kan du lösa felet manuellt genom att uppdatera scenariot (om det behövs) och köra det en gång.
+### Åtgärda fel som uppstår till följd av direktivet Break
 
-Å andra sidan, genom att aktivera [!UICONTROL Automatically complete execution] under inställningarna för direktivet Break kan den konfigureras att automatiskt bearbeta en ofullständig körning genom att köra scenariot igen efter det angivna antalet minuter.
+Du kan lösa felet manuellt genom att uppdatera scenariot (om det behövs) och köra det en gång.
+
+Du kan också konfigurera scenariot så att det automatiskt bearbetar en ofullständig körning genom att köra scenariot igen. Så här konfigurerar du modulen för att bearbeta ofullständiga körningar:
+
+1. I Break-modulen aktiverar du [!UICONTROL **Slutför körningen automatiskt**] alternativ.
+1. I **Antal försök** ange eller mappa det maximala antal försök som du vill att modulen ska göra om körningen
+
+   Talet måste vara mellan 1 och 100.
+1. I **Intervall mellan försök** anger eller mappar antalet minuter mellan varje nytt försök.
 
 När det här alternativet är aktiverat hämtas den ofullständiga körningen när ett fel inträffar (efter den tid som anges i [!UICONTROL Interval between attempts] -fält) och körs med ursprungliga indata. Detta upprepas tills körningen av modulen har slutförts utan fel eller tills det angivna antalet försök har uppnåtts.
 
@@ -101,12 +115,13 @@ När det här alternativet är aktiverat hämtas den ofullständiga körningen n
 >
 >Om det initiala försöket misslyckas, ökar intervallet mellan försöken exponentiellt varje annat försök.
 
+
 När&quot;Automatiskt slutförd körning&quot; är aktiverat markeras scenariot som slutfört eftersom felhanterarens automatiska återförsök hanterar problemet automatiskt. I det här fallet får användarna inte något e-postmeddelande om den misslyckade körningen.
 
 När&quot;Automatiskt slutförd körning&quot; är inaktiverad markeras körningen som&quot;Varning&quot;.
 
-![](assets/break-directive-350x241.png)
+Det finns vissa undantag från körningar som lagras under Ofullständiga körningar, och med vissa feltyper går det inte att utföra en scenariokörning automatiskt igen.
 
-Det finns dock vissa undantag från körningar som lagras under Ofullständiga körningar och med vissa feltyper är det inte möjligt att göra om ett scenario automatiskt. Mer information finns i [Tillåt lagring av ofullständiga körningar](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) i artikeln [Panelen för scenarioinställningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Mer information finns i [Tillåt lagring av ofullständiga körningar](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) i artikeln [Panelen för scenarioinställningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 Mer information finns i [Avancerad felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md).
