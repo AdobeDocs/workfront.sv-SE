@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3a052c8f6d22c513763875526d6d2b57f20da0cb
+source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
-                                <p>Produktionsrelease för alla kunder: Med version 23.3</p>
+                                 <s><p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p></s>
+                                 </li>
+                                 <li>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 18 maj 2012</span>3</p>
                             </li>
                         </ul>
                     </td>
