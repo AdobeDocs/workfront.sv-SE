@@ -8,9 +8,9 @@ description: Ibland kan ett fel inträffa när ett scenario körs. Detta händer
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,10 @@ Anslutningsfel är ett av de vanligaste felen som vanligtvis orsakas av att tred
 * Om felet inträffar i den första modulen avslutas körningen av scenariot med ett varningsmeddelande. [!DNL Workfront Fusion] försöker sedan upprepade gånger att köra scenariot igen med ökande tidsintervall (dessa beskrivs nedan). Om alla försök misslyckas, [!DNL Workfront Fusion] inaktiverar scenariot.
 * Om anslutningsfelet inträffar i en annan modul än i den första, beror efterföljande steg på [Tillåt lagring av ofullständiga körningar](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) i scenariot avancerade inställningar:
 
-   * Om det här alternativet är aktiverat flyttas körningen av scenariot till [!UICONTROL Incomplete executions] mapp där [!DNL Workfront Fusion] försöker upprepade gånger att köra scenariot igen med ökande tidsintervall. Om alla försök misslyckas finns körningen kvar i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) mapp som väntar på manuell upplösning av användaren.
-   * Om alternativet är inaktiverat avslutas körningen av scenariot med ett fel följt av en återställningsfas. [!DNL Workfront Fusion] försöker sedan upprepade gånger att köra scenariot igen med ökande tidsintervall. Om alla försök misslyckas, [!DNL Workfront Fusion] inaktiverar scenariot.
+   * Om det här alternativet är aktiverat flyttas körningen av scenariot till [!UICONTROL Incomplete executions] mapp där [!DNL Workfront Fusion] försöker upprepade gånger att köra scenariot igen med ökande tidsintervall. Om alla försök misslyckas finns körningen kvar i mappen Ofullständiga körningar i väntan på manuell lösning av användaren.
+
+      Mer information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   * Om det här alternativet är inaktiverat avslutas körningen av scenariot med ett fel följt av en återställningsfas. [!DNL Workfront Fusion] försöker sedan upprepade gånger att köra scenariot igen med ökande tidsintervall. Om alla försök misslyckas, [!DNL Workfront Fusion] inaktiverar scenariot.
 
 ### Öka tidsintervall
 
@@ -80,17 +82,19 @@ Huvudorsaken till att de ökade tidsintervallen används i [!DNL Workfront Fusio
 >
 >**Exempel:**
 >
->Ett scenario innehåller [!DNL Google Sheets] trigger [!UICONTROL Watch Rows]. [!DNL Google Sheets] är inte tillgängligt på 30 minuter på grund av underhåll när [!DNL Workfront Fusion] startar scenariot, så det går inte att hämta nya rader. Scenariot stoppas och försöker igen om 10 minuter. Eftersom tjänsten fortfarande inte är tillgänglig inom den här tidsramen [!DNL Workfront Fusion] kan fortfarande inte få information om nya rader. Nästa omgång av scenariot är schemalagd om en timme. [!DNL Google Sheets] är tillgängligt igen inom den här tiden och scenariot kan köras.
+>Ett scenario innehåller [!DNL Google Sheets] trigger [!UICONTROL Watch Rows]. [!DNL Google Sheets] är inte tillgängligt på 30 minuter på grund av underhåll när [!DNL Workfront Fusion] startar scenariot, så det går inte att hämta nya rader. Scenariot stoppas och försöker igen om 10 minuter. För [!DNL Google Sheets] är fortfarande inte tillgängligt, [!DNL Workfront Fusion] kan fortfarande inte få information om nya rader. Nästa omgång av scenariot är schemalagd om en timme. [!DNL Google Sheets] är nu tillgängligt igen och scenariot kan köras.
 
 ## Datafel
 
 `DataError`
 
-Ett datafel genereras när ett objekt är felaktigt mappat och inte godkänns i den validering som utförts på [!DNL Workfront Fusion] sida vid eller bredvid den tredjepartstjänst som används. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Ett datafel genereras när ett objekt är felaktigt mappat och inte godkänns i den validering som utförts på [!DNL Workfront Fusion] sida vid eller bredvid den tredjepartstjänst som används.
 
 Om det här felet inträffar flyttas scenariot, fram till där modulen misslyckades, till mappen för ofullständiga körningar där du kan felsöka problemet. Scenariot avbryts dock inte och fortsätter att köras enligt schemat. Om du vill stoppa körningen av scenariot när ett datafel visas aktiverar du alternativet Sekventiell bearbetning på panelen Scenarioinställningar.
 
 Om du inte har aktiverat [!UICONTROL Allow storing incomplete executions] i scenarioinställningarna avslutas körningen av scenariot med felet och en återställning utförs.
+
+Mer information om mappning finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 Information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -108,7 +112,7 @@ If [!DNL Workfront Fusion] försöker infoga samma paket två gånger i en tjän
 
 `InvalidAccessTokenError`
 
-Ett ogiltigt åtkomsttokenfel inträffar när [!DNL Workfront Fusion] kan inte komma åt ditt konto som är registrerat hos en tredjepartstjänst. Detta händer oftast när du återkallar åtkomsträttigheter för [!DNL Workfront Fusion] vid administration av en viss tjänst, men relaterade scenarier fortsätter att köras enligt schema.
+Ett ogiltigt åtkomsttokenfel inträffar när [!DNL Workfront Fusion] kan inte komma åt ditt konto som är registrerat hos en tredjepartstjänst. Det här händer oftast när du återkallar åtkomsträttigheter för [!DNL Workfront Fusion] vid administration av en viss tjänst, men relaterade scenarier fortsätter att köras enligt schema.
 
 Om det här felet inträffar stoppas körningen av ett scenario omedelbart. Resten av scenariot med början från modulen där felet inträffade flyttas till mappen för ofullständiga körningar.
 
@@ -118,7 +122,9 @@ Information om ofullständiga körningar finns i [Visa och lösa ofullständiga 
 
 `RateLimitError`
 
-Om en gräns som angetts av en viss tjänst överskrids genereras ett hastighetsbegränsningsfel. Om det här felet inträffar [!DNL Workfront Fusion] fortsätter på samma sätt som för anslutningsfelet. Mer information finns i [Anslutningsfel](#connection-error).
+Om en gräns som angetts av en viss tjänst överskrids genereras ett hastighetsbegränsningsfel. Om det här felet inträffar [!DNL Workfront Fusion] fortsätter på samma sätt som för anslutningsfelet.
+
+Mer information finns i [Anslutningsfel](#connection-error).
 
 ## Ofullständigt datafel
 
@@ -126,11 +132,15 @@ Om en gräns som angetts av en viss tjänst överskrids genereras ett hastighets
 
 Ett ofullständigt datafel inträffar bara med utlösare. Det här felet genereras om en utlösare inte kan hämta nödvändiga data från en viss tjänst.
 
-Om ett scenario avslutas med `IncompleteDataError`, beror dess ytterligare beteende på inställningen av [!UICONTROL Max number of consecutive errors]. Mer information finns i [Antal efterföljande fel](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) i artikeln [Panelen för scenarioinställningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Om ett scenario avslutas med `IncompleteDataError`, beror dess ytterligare beteende på inställningen av [!UICONTROL Max number of consecutive errors].
+
+Mer information finns i [Antal efterföljande fel](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) i artikeln [Panelen för scenarioinställningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 >[!INFO]
 >
->**Exempel:** Ett scenario har [!DNL Workfront] trigger [!UICONTROL Watch Record] för att bevaka dokument. Scenariot körs medan du överför ett stort dokument, till exempel en lång video. För [!UICONTROL Workfront Fusion] försöker hämta videon medan den fortfarande överförs till Workfront, avslutas scenariot med `IncompleteDataError`.
+>**Exempel:**
+>
+>Ett scenario har [!DNL Workfront] trigger [!UICONTROL Watch Record] för att bevaka dokument. Scenariot körs medan du överför ett stort dokument, till exempel en lång video. För [!UICONTROL Workfront Fusion] försöker hämta videon medan den fortfarande överförs till Workfront, avslutas scenariot med `IncompleteDataError`.
 
 ## Körningsfel
 

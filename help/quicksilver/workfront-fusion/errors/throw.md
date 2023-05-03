@@ -8,7 +8,7 @@ description: I vissa fall kanske du vill stoppa scenariokörningen följt av åt
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
