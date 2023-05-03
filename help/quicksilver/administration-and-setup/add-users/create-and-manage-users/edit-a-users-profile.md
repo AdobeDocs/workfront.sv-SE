@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # Redigera en användares profil
-
 
 >[!IMPORTANT]
 >
@@ -200,11 +199,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader">Anpassad Forms</td> 
-      <td>Koppla ett befintligt anpassat formulär till den här användaren. Du måste skapa ett anpassat formulär innan du kan koppla det till en användare. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</td> 
+      <td><p>Koppla ett befintligt anpassat formulär till den här användaren. Du måste skapa ett anpassat formulär innan du kan koppla det till en användare. Endast aktiva anpassade formulär visas i listan. Fält som du inte har behörighet att redigera visas inte i ett anpassat formulär.</p> <p>Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kommentar</td> 
-      <td> <p>Skriv den kommentar du vill skicka till användarna och till uppdateringsområdet för deras användarprofiler.</p> </td> 
+      <td>Skriv den kommentar du vill skicka till användarna och till uppdateringsområdet för deras användarprofiler.</td> 
      </tr> 
     </tbody> 
    </table>
