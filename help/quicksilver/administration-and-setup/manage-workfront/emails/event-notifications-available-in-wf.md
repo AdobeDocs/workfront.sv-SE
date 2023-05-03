@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '5008'
 ht-degree: 0%
 
 ---
@@ -220,11 +220,8 @@ Se även [Meddelanden: Begäranden som jag har gjort](../../../workfront-basics/
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär att dokument ska läggas till i den primära kontakten</p> </td> 
-   <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar. <!-- DRAT I FLARE: Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Översikt över fliken Köinformation i ett projekt</a>.
-
-    --></p> </td>
-<td> <p>Aktiv</p> </td> 
+   <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
@@ -234,6 +231,11 @@ Se även [Meddelanden: Begäranden som jag har gjort](../../../workfront-basics/
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## Kommunikation
 
@@ -268,10 +270,8 @@ Se även [Meddelanden: Kommunikation](../../../workfront-basics/using-notificati
   <tr> 
    <td> <p>Användare</p> </td> 
    <td>Riktad uppdatering till användare</td> 
-   <td> <p>Någon inkluderar mig på en riktad uppdatering.</p> <p>En riktad uppdatering är när en användare specifikt inkluderar en annan användare i en uppdatering, vilket beskrivs i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagga andra för uppdateringar</a>.</p> <p>I det här fallet får den användare som ingår i den riktade uppdateringen ett e-postmeddelande om uppdateringen.</p> <p>E-postmeddelandet skickas endast om användaren har åtkomstbehörighet till objektet&lt;!&gt;— DRAT I FLARE: och är inte samma användare som anger uppdateringen
-
-    -->. &lt;/p> &lt;p>Händelsemeddelandet aktiveras som standard och kan inte inaktiveras.&lt;/p> &lt;/td>
-<td> <p>Aktiv</p> </td> 
+   <td> <p>Någon inkluderar mig på en riktad uppdatering.</p> <p>En riktad uppdatering är när en användare specifikt inkluderar en annan användare i en uppdatering, vilket beskrivs i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagga andra för uppdateringar</a>.</p> <p>I det här fallet får den användare som ingår i den riktade uppdateringen ett e-postmeddelande om uppdateringen.</p> <p>E-postmeddelandet skickas endast om användaren har åtkomstbehörighet till objektet och om användaren behåller det aktiverat i sin profil.  </p> <p>Händelsemeddelandet aktiveras som standard och kan inte inaktiveras.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
@@ -308,6 +308,10 @@ Se även [Meddelanden: Kommunikation](../../../workfront-basics/using-notificati
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## Godkännandeinformation
 
@@ -398,7 +402,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Godkännandebeslut som ska utfärdas</p> </td> 
+   <td> <p>Godkännandebeslut att utfärda som tilldelats</p> </td> 
    <td> <p>Ett problem som jag löser har godkänts eller avvisats.</p> <p>Den som är tilldelad en utgåva får ett e-postmeddelande när ett godkännandebeslut fattas (godkänt eller avvisat).</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -429,11 +433,8 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär att dokument ska läggas till i ärende som tilldelats</p> </td> 
-   <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.<!-- DRAT I FLARE: Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Översikt över fliken Köinformation i ett projekt</a>.
-
-    --></p> </td>
-<td> <p>Aktiv</p> </td> 
+   <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
+   <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Uppgift</p> </td> 
@@ -461,6 +462,11 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## Information om projekt som jag är på
 
@@ -739,12 +745,7 @@ Se även [Meddelanden: Diverse information](../../../workfront-basics/using-noti
    <td> </td> 
    <td> <p>Felmeddelande</p> </td> 
    <td> <p>Ett fel som kräver din uppmärksamhet hittades.</p> <p>Ett e-postmeddelande genereras när Workfront försöker ansluta till ett POP-konto. Efter 25 försök inaktiverar Workfront anslutningen till POP-kontot för att bevara resurser och skickar ett meddelande. </p> <p>E-postmeddelandet skickas till projektägaren, om POP-e-postmeddelandet är kopplat till en begärandekö, eller till Workfront-administratörerna, om POP-kontot är kopplat till funktionen Inkommande e-post i e-postinställningarna.
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -797,6 +798,14 @@ Se även [Meddelanden: Diverse information](../../../workfront-basics/using-noti
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## Delegering
 

@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '3012'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
->Mer information om den nya uppdateringsfunktionen finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Du kommer åt den nya designen för följande objekt:
+>Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Du kommer åt den nya funktionen för följande objekt:
 > * Problem när du aktiverar kommenteringsfunktionen Beta.
    >
    >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:
@@ -135,7 +136,7 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 1. Gå till den arbetsuppgift som du vill uppdatera (till exempel ett projekt, en uppgift eller en utgåva) för.
 1. Klicka på **Uppdateringar** -avsnitt.
 1. Klicka **Starta en ny uppdatering,** skriv sedan in uppdateringen.
-1. (Valfritt) Använd RTF eller lägg till känslolägesikoner, länkar eller bilder i uppdateringen för att förbättra innehållet. Mer information finns i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i den här artikeln
+1. (Valfritt) Använd RTF eller lägg till känslolägesikoner, länkar eller bilder i uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) avsnitt i den här artikeln
 1. (Valfritt) Uppdatera någon av följande information om arbetsuppgiften:
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ The **Kommentarer** -fliken är markerad som standard.
    * Numrerad lista
    * Lägg till bifogad fil <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   Mer information finns i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i den här artikeln. <!--remove this list, above, when we get to parity for Rich Text-->
+   Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
    >Du kan inte lägga till en kommentar i en systemuppdatering.
 
 
-## Använda RTF i en Workfront-uppdatering
+## Använda RTF i en Workfront-uppdatering{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
    eller
 
-   Klicka på **Lägg till bifogad fil** icon ![](assets/add-image-paperclip-icon.png) och bläddra till bilden på datorn när du använder Beta-kommenteringsfunktionen.
+   Klicka på **Lägg till bifogad fil** icon ![](assets/add-image-paperclip-icon.png) och bläddra till bilden på datorn när du använder Beta-kommenteringsfunktionen. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* Workfront-administratören måste aktivera bildtillägg innan du kan se bildikonen.
+   >* Din Workfront-administratör måste aktivera tillägg av bilder i avsnittet Inställningar för uppdatering av feeds i Workfront-gränssnittsområdet innan du kan se ikonerna för bilden eller Lägg till bilaga. Mer information finns i [Konfigurera inställningar för användaruppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Största bildfilsstorlek är 7 MB. Bildfiltyper som stöds är .jpg, .gif och .png.
-   >* Bilder är bara tillgängliga från fliken Uppdateringar på ett objekt och är inte tillgängliga på fliken Dokument.
+   >* Bilder är tillgängliga i uppdateringsavsnittet för ett objekt och är även tillgängliga i dokumentområdet.
+   >* <!--In the current commenting experience,--> När du tar bort en kommentar som innehåller en bild finns bilden kvar i området Dokument, men visas inte längre i uppdateringsavsnittet.
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Du kan skicka en uppdatering med en bild och utan text.
 
 1. Klicka **Uppdatera**  eller **Skicka** när du använder betafunktionen för kommentarer.
@@ -392,7 +396,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    >[!NOTE]
    >
-   >Om du tar bort en uppdatering med en bifogad bild tas både kommentaren och bilden bort.
+   >Om du tar bort en uppdatering med en bifogad bild tas både kommentaren och bilden bort. Mer information finns i [Använda formaterad text i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
