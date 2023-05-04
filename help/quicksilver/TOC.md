@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 122751851792dfecd062f156f804827cb732c40b
+source-git-commit: a683108ded1e7b022f0179832afaa1da0b81709c
 workflow-type: tm+mt
-source-wordcount: '12940'
+source-wordcount: '12957'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,10 @@ ht-degree: 0%
          * [Workfront Scenario Planner med version 20.3 - 14 augusti 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
       * Aktivitet för att frisläppa Adobe Workfront-mål {#goals-release}
          * [Aktivitet för att frisläppa Adobe Workfront-mål](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * Mål med version 23.1 {#goals-23-2}
+         * Mål med version 23.3 {#goals-23-3}
+            * [Adobe Workfront Goals with the 23.3 release](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
+            * [Adobe Workfront Goals 23.3 Release Activity: Vecka 1 maj 2023](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
+         * Mål med version 23.2 {#goals-23-2}
             * [Adobe Workfront Goals with the 23.2 release](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Aktivitet för Adobe Workfront Target 23.2-utgåvan: Vecka 20 mars 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
          * Mål med version 23.1 {#goals-23-1}

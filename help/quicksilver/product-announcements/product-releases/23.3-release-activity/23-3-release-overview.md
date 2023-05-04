@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
+source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
-            </tbody>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nya förbättringar av betafunktionen för kommentering</a></p>
+                        <p>Förbättringar av uppdateringsavsnittet görs tillgängliga inom tidsramen för version 23.3 för den nya kommentarsbetaupplevelsen. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.3, om inget annat anges. 
+ </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Under hela tidsramen för version 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: Med version 23.3 (om inget annat anges)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
         </table>
 
 ## Meddelanden
@@ -237,7 +254,7 @@ Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området
 
 ### Förbättringar av Workfront-mål
 
-Det finns inga Workfront Goals-uppdateringar just nu i versionen. Det här området uppdateras när det finns uppdateringar.
+Nya funktioner som lanseras i Workfront Goals inom tidsramen för version 23.3. Mer information om de här nya funktionerna som nu finns i Förhandsgranska finns i [Adobe Workfront Goals with the 23.3 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API-version 16
 
