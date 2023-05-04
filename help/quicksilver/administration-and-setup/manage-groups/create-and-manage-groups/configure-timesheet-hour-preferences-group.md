@@ -5,30 +5,32 @@ keywords: grupp,inställningar,uppgift,grupper,problem,låsa upp
 navigation-topic: create-and-manage-groups
 title: Konfigurera tidrapport och timinställningar för en grupp
 description: På systemnivå kan en Adobe Workfront-administratör låsa upp tidrapport- och timinställningsavsnitten Allmänna inställningar och Fyll i i förväg med tidrapporter. Detta gör att gruppadministratörer kan konfigurera alternativen i dessa avsnitt separat för sina egna grupper.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
 
 # Konfigurera tidrapport och timinställningar för en grupp
 
+{{highlighted-preview}}
+
 En Adobe Workfront-administratör kan låsa upp följande avsnitt av tidrapport och timinställningar på systemnivå så att gruppadministratörer kan konfigurera dem oberoende av varandra för sina egna grupper:
 
 * Allmänna inställningar
-* Förfyll tidrapporter med
+* <span class="preview">Var användarna kan logga tid</span>
+* Förifyll tidrapporter
 
 Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
 
 Följande avsnitt på sidan Inställningar för tidrapport och timmar kan bara konfigureras på systemnivå och kan inte låsas upp för grupper:
 
-* Loggningstid
-* Inställningar för projekt-, aktivitets- eller problemborttagning
+* Borttagna projekt, uppgifter och ärenden
 
 Mer information om hur en Workfront-administratör låser upp en tidrapport och timinställning finns i avsnittet [Lås upp tidrapport och timinställningar för grupper](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
     </tbody> 
    </table>
 
-1. I **Förfyll tidrapporter med** konfigurerar du något av följande alternativ:
+1. <span class="preview">I **Var användarna kan logga tid** konfigurerar du något av följande alternativ:</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">Logga tid direkt i projekt</span></td> 
+      <td><span class="preview">Tillåter användare att logga tid på projektet (både på fliken Uppdateringar och på tidrapporten). Om du vill hindra användarna från att registrera tid på projektnivå låter du det här alternativet vara avmarkerat.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Logga in på projekt som är slutförda</span></td>
+      <td><span class="preview">Tillåter användare att registrera tid i ett projekt som har markerats som slutfört. Om det här alternativet är inaktiverat kan användare inte registrera tid för det arbete de har slutfört i projekt med statusen Fullständigt.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Logga in på projekt som är döda</span></td> 
+      <td><span class="preview">När det här alternativet är aktiverat kan användare logga timmar i projekt med statusen Död.</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Den här inställningen används baserat på konfigurationen av användarens hemgruppsinställningar. Om de här inställningarna är aktiverade i användarens hemgruppsinställningar kan användaren logga tiden direkt i projekt, inklusive slutförda eller döda projekt, oavsett om det är tillåtet enligt projektets gruppinställningar eller inte.
+
+1. I **Förifyll tidrapporter** konfigurerar du något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 

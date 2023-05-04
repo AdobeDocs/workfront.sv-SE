@@ -8,7 +8,7 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
 
 1. Klicka på **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
 
-1. På sidan som visas i **[!UICONTROL General Preferences]** konfigurerar du något av följande alternativ:
+1. På sidan som visas i **[!UICONTROL General preferences]** konfigurerar du något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,7 +93,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
     </tbody> 
    </table>
 
-1. I **[!UICONTROL Logging Time]** konfigurerar du något av följande alternativ:
+1. I **[!UICONTROL Where users can log time]** konfigurerar du något av följande alternativ:
 
    <table style="table-layout:auto">
     <tr>
@@ -110,7 +110,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
     </tr>
    </table>
 
-1. I **[!UICONTROL Pre-Populate timesheets with]**&#x200B; ska du konfigurera något av följande alternativ:
+1. I **[!UICONTROL Pre-populate timesheets]** konfigurerar du något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,11 +135,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
     </tbody> 
    </table>
 
-1. I **[!UICONTROL Project, Task or Issue Deletion Preferences]** anger du följande:
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. I **[!UICONTROL Deleted projects, tasks, and issues]** anger du följande:
 
    <table style="table-layout:auto"> 
     <col> 

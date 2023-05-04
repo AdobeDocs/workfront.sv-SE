@@ -6,9 +6,9 @@ title: Anmäl dig till tidig funktion för [!DNL Adobe Workfront] Varumärkena
 description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Boards] tidig anmälan av funktioner.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 0e838c75bddb97d53f5fa791d609be9b6d8d27f8
+source-git-commit: 4c59a63d08efe6dcd6be294c49ec98ebf70feed6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   </tr>
   <tr>
    <td>Migrera gamla kanban-kort till styrelser</td>
-   <td>Delvis släppt</td>
+   <td>Den här funktionen kommer att vara tillgänglig i produktion den 4 maj 2023 och ingår inte i anmälan om tidiga funktioner.</td>
   </tr>
   <tr>
    <td>Skapa dynamiska ritytor</td>
