@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 0%
 
 ---
@@ -330,10 +330,13 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Din Workfront-administratör måste aktivera tillägg av bilder i avsnittet Inställningar för uppdatering av feeds i Workfront-gränssnittsområdet innan du kan se ikonerna för bilden eller Lägg till bilaga. Mer information finns i [Konfigurera inställningar för användaruppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Största bildfilsstorlek är 7 MB. Bildfiltyper som stöds är .jpg, .gif och .png.
    >* Bilder är tillgängliga i uppdateringsavsnittet för ett objekt och är även tillgängliga i dokumentområdet.
-   >* <!--In the current commenting experience,--> När du tar bort en kommentar som innehåller en bild finns bilden kvar i området Dokument, men visas inte längre i uppdateringsavsnittet.
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Du kan skicka en uppdatering med en bild och utan text.
+   >* När du tar bort en kommentar som innehåller en bild, finns följande scenarier beroende på vilken upplevelse du väljer:
+      >
+      >     * I den aktuella kommentarsfunktionen finns bilden kvar i området Dokument, men visas inte längre i uppdateringsavsnittet.
+      >     * I den nya kommentarsfunktionen tas bilden bort både från uppdateringsavsnittet och från dokumentområdet. Bilden tas också bort från dokumentområdet när du redigerar en kommentar och tar bort bilden.
+   >* När någon tar bort en bild som är kopplad till en kommentar från dokumentområdet tas den även bort från kommentaren.
+
 
 1. Klicka **Uppdatera**  eller **Skicka** när du använder betafunktionen för kommentarer.
 
