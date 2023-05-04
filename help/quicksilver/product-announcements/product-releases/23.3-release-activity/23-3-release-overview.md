@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Integration enhancements](#integration-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
+### Administratörsförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Gruppnivåkontroll finns för tidrapport och timinställning för Var användare kan logga tid</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Systemadministratören kan nu låsa och låsa upp tidrapporten"Där användare kan logga tid" och timinställningarna. När den här inställningen är olåst kan gruppadministratörer konfigurera inställningarna "Där användare kan logga tid" separat för varje grupp.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 4 maj 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: Med version 23.3</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Flexibla förbättringar
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Enkla filter har lagts till i mallen för dynamiska kort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Enkla filter har lagts till i mallen för dynamiska kort</a></p>
                         <p>Filtren i den dynamiska kortmallen har förenklats så att du kan skapa en anslagstavla snabbare.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
