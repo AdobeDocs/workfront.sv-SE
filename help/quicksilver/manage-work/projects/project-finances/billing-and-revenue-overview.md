@@ -7,7 +7,7 @@ description: Som projektledare kan du använda faktureringstariffer för att få
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -106,7 +106,7 @@ I följande tabell visas vilka typer av intäkter som är associerade med uppgif
  <tbody> 
   <tr> 
    <td role="rowheader">Planerad intäkt</td> 
-   <td> <p>För uppgifter är detta den intäkt som är kopplad till de planerade timmarna för uppgifter. Planerade timmar från alla uppgifter räknas upp till planerade timmar för projektet för att bidra till beräkningen av projektets planerade timmar. </p> <p>Mer information om planerade timmar i Workfront finns i <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Översikt över planerade timmar</a>. </p> <p>Workfront beräknar planerade intäkter för uppgifter och projekt med hjälp av följande formler:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>För uppgifter är detta den intäkt som är kopplad till de planerade timmarna för uppgifter. Planerade timmar från alla uppgifter räknas upp till planerade timmar för projektet för att bidra till beräkningen av projektets planerade timmar. </p> <p>Mer information om planerade timmar i Workfront finns i <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Översikt över planerade timmar</a>. </p> <p>Workfront beräknar planerade intäkter för uppgifter och projekt med hjälp av följande formler:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>ANMÄRKNING</b>
 
 <p>Projektets planerade inkomster som visas i området Projektinformation och i projektrapporter skiljer sig från den planerade intäkten som visas i användningsrapporten. </p> <p>Den planerade intäkten i området Projektinformation återspeglar uppgiftsintäkten som är kopplad till aktiviteten Planerade timmar samt projektets fasta intäkt. Planerad intäkt i användningsrapporten visar planerad intäkt som bara är associerad med de planerade timmarna från aktivitetstilldelningarna i projektet. </p> 
@@ -120,7 +120,7 @@ I följande tabell visas vilka typer av intäkter som är associerade med uppgif
   </tr> 
   <tr> 
    <td role="rowheader">Faktisk intäkt*</td> 
-   <td> <p>Associerat med de faktiska timmarna för uppgifter, utgåvor och projekt. </p> <p>I allmänhet beräknas Faktiska intäkter i Workfront enligt följande formel:</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>Information om faktiska intäktsberäkningar i användningsrapporten finns i <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visa information om resursutnyttjande </a>. </p> <p><b>TIPS</b>
+   <td> <p>Associerat med de faktiska timmarna för uppgifter, utgåvor och projekt. </p> <p>I allmänhet beräknas Faktiska intäkter i Workfront enligt följande formel:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>Information om faktiska intäktsberäkningar i användningsrapporten finns i <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visa information om resursutnyttjande </a>. </p> <p><b>TIPS</b>
 
 Du kan inte visa Faktisk intäkt på utleveransnivå, men intäkterna som är kopplade till Faktiska timmar i problemen bidrar till projektets faktiska intäkt. </p> </td>
 </tr> 
