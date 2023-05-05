@@ -6,9 +6,9 @@ description: Du kan överföra ritytorna som korrektur direkt till Adobe Workfro
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!TIP]
    >
-   >Om du vill markera mer än en rityta klickar du och drar musen över de ritytor du vill använda.
+   >* Ritytorna visas i korrekturet i den ordning som de markerats. Den första markerade ritytan blir den första sidan i korrekturet och så vidare.
+   >* Om du snabbt vill markera flera ritytor klickar du och drar musen över de ritytor du vill använda. Det gör att du inte kan styra ordningen på ritytorna i korrekturet.
+
 
 1. Aktivera **[!UICONTROL Create a Proof]**.
 
