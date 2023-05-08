@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
+source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Som Adobe Workfront-administratör tilldelar du en åtkomstnivå till en använd
 
 ## Nya inbyggda åtkomstnivåer i Adobe Workfront {#built-in-access}
 
-Workfront har sex nya inbyggda åtkomstnivåer:
+Workfront har fem nya inbyggda åtkomstnivåer:
 
 * Systemadministratör
 * Standard
