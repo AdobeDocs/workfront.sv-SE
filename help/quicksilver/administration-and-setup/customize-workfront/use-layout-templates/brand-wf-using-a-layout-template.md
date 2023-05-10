@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Varumärk Adobe Workfront med en layoutmall
+
+>[!IMPORTANT]
+>
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till [!DNL Adobe Experience Cloud].
+>
+> Om din organisation har anslutit sig till [!DNL Adobe Experience Cloud], branding is not available.
 
 Du kan använda en layoutmall för att anpassa logotyperna i det övre navigeringsområdet och på huvudmenyn för vissa grupper, team, jobbroller och användare. Detta är särskilt användbart för grupper i en stor organisation som har sina egna varumärken.
 
@@ -23,7 +29,7 @@ Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps
 
 >[!NOTE]
 >
->En Workfront-administratör kan göra samma anpassningar för hela organisationen på systemnivå, vilket förklaras i [Varumärk din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Men om du använder varumärke i en layoutmall åsidosätts varumärkningen på systemnivå. >
+>En Workfront-administratör kan göra samma anpassningar för hela organisationen på systemnivå, vilket förklaras i [Varumärk din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Men om du använder varumärke i en layoutmall åsidosätts varumärkningen på systemnivå.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

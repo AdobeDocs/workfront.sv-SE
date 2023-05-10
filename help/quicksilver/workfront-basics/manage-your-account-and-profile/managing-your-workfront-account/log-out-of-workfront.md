@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Logga ut från [!DNL Adobe Workfront]
 description: Av säkerhetsskäl är det viktigt att logga ut från [!DNL Adobe Workfront] regelbundet. Som standard [!DNL Workfront] loggar automatiskt ut användare efter 8 timmars inaktivitet.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,12 @@ Av säkerhetsskäl är det viktigt att logga ut från [!DNL Adobe Workfront] reg
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till [!DNL Adobe Experience Cloud].
+>
+> Om din organisation har anslutit sig till [!DNL Adobe Experience Cloud]loggar du ut genom att klicka på din profilbild i den övre navigeringen och välja [!UICONTROL **Logga ut**] på menyn. Mer information finns i [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Åtkomstkrav
 

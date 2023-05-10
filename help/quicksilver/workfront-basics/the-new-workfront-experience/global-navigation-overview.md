@@ -3,11 +3,11 @@ content-type: overview
 title: Översikt över det övre navigeringsfältet
 description: Det övre navigeringsfältet, som visas högst upp på skärmen i det nya [!DNL Adobe Workfront] -gör att du enkelt kan hitta och navigera till andra delar av plattformen.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Det övre navigeringsfältet, som visas högst upp på skärmen i [!DNL Adobe Wo
 ## [!UICONTROL Home] icon
 
 The **[!UICONTROL Home]** icon ![](assets/home-icon.png) tar dig till [!UICONTROL Home] sida, som är standardlandningssida. Mer information om Hem finns i [Använd [!UICONTROL Home] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-An [!DNL Adobe Workfront] administratören kan anpassa [!UICONTROL Home] som matchar företagets varumärke. Mer information finns i [Varsågod [!DNL Adobe Workfront] instance](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Fastnålade sidor
 
@@ -59,6 +57,12 @@ The **[!UICONTROL Search]** icon ![](assets/search-icon.png) i det övre högra 
 Mer information om sökning finns i [Sök [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL Main Menu]
+
+>[!IMPORTANT]
+>
+>Huvudmenyn som beskrivs på den här sidan gäller endast för organisationer som ännu inte är inskrivna på [!DNL Adobe Experience Cloud].
+>
+> Om din organisation har anslutit sig till [!DNL Adobe Experience Cloud], se [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 The **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) öppnar [!UICONTROL Main Menu]som gör att du kan navigera till en annan del av Workfront.
 

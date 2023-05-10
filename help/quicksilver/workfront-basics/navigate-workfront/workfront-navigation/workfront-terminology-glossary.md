@@ -5,9 +5,9 @@ title: Ordlista för [!DNL Adobe Workfront] terminologi
 description: The [!DNL Adobe Workfront] ordlistor med termer som används ofta i Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '15821'
+source-wordcount: '15833'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>I ett projekt, en uppgift eller en utgivningsrapport [!UICONTROL Actual Hours] är summan av alla timmar som är loggade i projektet, uppgiften eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om från [!UICONTROL Updates] för Aktivitet 1 klickar du på Loggtid och anger 25 timmar, Faktiska timmar för Aktivitet 1 = 25 timmar. </p> <p>[!DNL Workfront] beräknar [!UICONTROL Actual Hours] för överordnade uppgifter eller projekt med följande formler:</p> 
+   <td> <p>I ett projekt, en uppgift eller en utgivningsrapport [!UICONTROL Actual Hours] är summan av alla timmar som är loggade i projektet, uppgiften eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om från [!UICONTROL Updates] för Aktivitet 1 klickar du på Loggtid och anger 25 timmar, Faktiska timmar för Aktivitet 1 = 25 timmar. </p> <p>[!DNL Workfront] beräkning [!UICONTROL Actual Hours] för överordnade uppgifter eller projekt med följande formler:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
@@ -265,7 +265,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
 
 <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td>Anpassningsprocessen [!DNL Workfront] för att ge gränssnittet ett utseende som speglar ditt företag genom att använda dina färger och logotyper.</td> 
+   <td><p>Anpassningsprocessen [!DNL Workfront] för att ge gränssnittet ett utseende som speglar ditt företag genom att använda dina färger och logotyper.</p><p><strong>ANMÄRKNING</strong><br>Om din organisation har anslutit sig till [!DNL Adobe Experience Cloud], branding is not available.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breadcrumbs]</td> 
