@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '12962'
+source-wordcount: '12984'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
          * [Aktivitetsveckan 23.3, släppt den 17 april 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
          * [Aktivitetsveckan 23.3, släppt 24 april 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
          * [Aktivitetsvecka 23.3, 1 maj 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+         * [Aktivitetsvecka 23.3, 8 maj 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [Utforma och känna av uppdateringar under 23.3-releasetidningen](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 Utgåva {#release-23-2}
          * [23.2 Versionsöversikt](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -207,6 +208,9 @@ ht-degree: 0%
          * [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront-mål med version 20.3 - 14 augusti 2020](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
       * Workfront-korrekturutgivningsaktivitet {#proof-release}
+         * Korrektur med version 23.3 {#proof-23-3-release}
+            * [Adobe Workfront Proof med version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3: 8 maj 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Versionsaktivitet för Workfront: Vecka 17 maj 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Versionsaktivitet för Workfront: Vecka 29 november 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * Kvartalsvis publiceringsarkiv {#quarterly-release}

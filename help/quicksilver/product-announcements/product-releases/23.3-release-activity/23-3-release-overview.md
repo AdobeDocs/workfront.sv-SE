@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 52f6c51a8843852b7eb1880661e3d53f8675c470
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Enkla filter finns på inloppskolumner</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Förenklade filter har lagts till i inställningen för inloppskolumnen så att du kan definiera inloppskolumnen snabbare. De tillgängliga filtren är Workfront-projekt och uppdrag per team eller användare. Du kan växla till de avancerade filtren om du vill.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 10 maj 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsrelease för tidig anmälan: 10 maj 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Enkla filter har lagts till i mallen för dynamiska kort</a></p>
                         <p>Filtren i den dynamiska kortmallen har förenklats så att du kan skapa en anslagstavla snabbare.</p>
@@ -186,6 +203,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Koppla Workfront-fältvärden till taggar i Experience Manager Assets</a><span style="color: #ff0000;"> Nyheter i produktion!</span></p>
+                        <p>Nu kan du kategorisera och snabbt hitta resurser baserat på data från Workfront. Du kan mappa dessa data som en del av din metadatakonfiguration i integreringen med Workfront för Experience Manager Assets.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 10 maj 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 10 maj 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mappa Workfront-fält till anpassade Experience Manager Assets-metadatafält</a><span style="color: #ff0000;"> Nyheter i produktion!</span></p>
+                        <p>Med den inbyggda integreringen kan du nu mappa både inbyggda och inbyggda Workfront-fält till anpassade metadatamatchschemafält i Experience Manager Assets as a Cloud Service.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 10 maj 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 10 maj 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Justera mallinställningar för korrekturrödning med Adobe Workfront för Creative Cloud</a></p>
@@ -285,7 +334,7 @@ Det finns inga uppdateringar av scenarioplanen i den här versionen. Det här om
 
 ### Förbättringar av Workfront-korrektur
 
-Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området uppdateras när det finns uppdateringar.
+Nya funktioner i Workfront Proof-utgåvan inom tidsramen för version 23.3. Mer information om de här nya funktionerna som nu finns i Förhandsgranska finns i [Adobe Workfront Proof med version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Förbättringar av Workfront-mål
 
