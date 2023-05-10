@@ -6,16 +6,16 @@ description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs.
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Redigera projekt
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt för alla kunder i förhandsvisningsmiljön och för en viss kundgrupp i produktionsmiljön.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,6 +690,8 @@ Följande fält inkluderas som standard i projekthuvudet.
 * Status
 * Fatta godkännandebeslut om du har angett som godkännare i en aktuell godkännandeprocess
 
+<div class="preview">
+
 ## Redigera flera projekt samtidigt
 
 Du kan redigera flera projekt samtidigt och uppdatera information för alla markerade projekt samtidigt.
@@ -793,7 +795,7 @@ Mer information om hur du redigerar åtkomstområdet finns i avsnittet [Åtkomst
 1. (Valfritt) Klicka på **Avbryt** längst ned i **Redigera projekt** för att ta bort alla ändringar som gjorts i alla projekt.
 1. Klicka **Spara**.
 
-
+</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 

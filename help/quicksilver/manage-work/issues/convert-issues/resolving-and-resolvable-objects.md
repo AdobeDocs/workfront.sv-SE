@@ -7,9 +7,9 @@ description: Ett upplösningsbart objekt är ett problem vars upplösning är kn
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ När du ändrar status för aktiviteten eller projektet till en anpassad status 
 
 Du kan skapa anpassade statusvärden med samma nyckel för både utgåvor, projekt och uppgifter. När projektet eller aktiviteten (som ett löst objekt) ändras till anpassad status, återspeglar ändringen även problemets status. Statusnyckeln måste vara densamma för utleverans- och projekt- eller aktivitetsstatus.
 
-Du kan till exempel skapa ett anpassat projekt med namnet&quot;Starta&quot; och koden&quot;LCD&quot; med tre bokstäver som är lika med&quot;Aktuell&quot;. Du kan även skapa ett eget ärende med namnet&quot;Project Launched&quot; och bokstaven code&quot;LCD&quot; som är lika med&quot;In Progress&quot;. När du markerar projektet som&quot;Starta&quot; ändras statusen automatiskt till&quot;Starta projekt&quot;. Om inställningen &quot;Automatiskt**** Ställ in utfärdandestatus för att matcha det matchningsbara objektet med hjälp av statusnycklarna&quot; inte var aktiverad, ändras problemstatusen till &quot;Pågår&quot; i stället (standardstatus).
+Du kan till exempel skapa ett anpassat projekt med namnet&quot;Starta&quot; och koden&quot;LCD&quot; med tre bokstäver som är lika med&quot;Aktuell&quot;. Du kan även skapa ett eget ärende med namnet&quot;Project Launched&quot; och bokstaven code&quot;LCD&quot; som är lika med&quot;In Progress&quot;. När du markerar projektet som&quot;Starta&quot; ändras statusen automatiskt till&quot;Starta projekt&quot;. Om inställningen Uppdatera status för löst problem automatiskt när statusen för det upplösta objektet ändras inte är aktiverad, ändras utgivningsstatusen till Pågår i stället (standardstatus).
 
 Mer information om hur du skapar en anpassad status finns i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -233,7 +233,7 @@ Tabellen nedan visar vilka fält du kan visa och i vilka vyer du kan visa dem:
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Lösning:</strong> Visar en lista med alla upplösningsbara objekt i en anpassad textvy för ett projekt eller en uppgiftsrapport eller -lista.</p> <p>Mer information om hur du skapar den här vyn finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Visa: Matchbara objekt i en uppgifts- eller projektrapport</a></p> </td> 
+   <td> <p><strong>Lösning:</strong> Visar en lista med alla upplösningsbara objekt i en anpassad textvy för ett projekt, en aktivitetsrapport eller en uppgiftslista.</p> <p>Mer information om hur du skapar den här vyn finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Visa: Matchbara objekt i en uppgifts- eller projektrapport</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
