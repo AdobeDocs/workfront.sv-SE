@@ -5,7 +5,7 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 0%
@@ -347,7 +347,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsgranskningsversion: 9 mars 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Produktionsrelease: Från och med den 23 mars kommer detta att lanseras i en fasad lansering som kommer att vara klar den 11 maj 2023</span></p>
+                                 <p><span class="preview">Produktionsrelease: Från och med 23 mars kommer detta att lanseras i en fasad lansering som kommer att vara klar efter 11 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>

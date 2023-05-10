@@ -4,7 +4,8 @@ description: 23.2 Projektförbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
+exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -21,7 +22,7 @@ En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.
 
 >[!NOTE]
 >
->Från och med den 23 mars kommer detta att lanseras i en fasad lansering som kommer att vara klar den 11 maj 2023.
+>Från och med den 23 mars kommer detta att lanseras i en fasad lansering som kommer att vara klar efter den 11 maj 2023.
 
 Som en del av att uppdatera utseendet och känslan i Workfront-upplevelsen har vi gjort om rutan Redigera projekt, när vi redigerar flera projekt samtidigt, i grupp. Du kommer åt den nya rutan Redigera projekt när du markerar flera projekt samtidigt i en projektlista.
 
