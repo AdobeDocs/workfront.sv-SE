@@ -4,13 +4,13 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
 
 # 23.2 Versionsöversikt
 
@@ -52,6 +52,22 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Koppla Workfront-fältvärden till taggar i Experience Manager Assets</a>
+                        <p>Nu kan du kategorisera och snabbt hitta resurser baserat på data från Workfront.  Du kan mappa dessa data som en del av din metadatakonfiguration i integreringen med Workfront för Experience Manager Assets.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Ej tillämpligt<br /></p>
+                            </li>
+                            <li>
+                                 <p>Produktionsrelease: 30 mars 2023</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

@@ -5,9 +5,9 @@ title: Integreringar med Adobe Experience Manager Assets
 description: Du kan koppla ditt arbete till följande Adobe Experience Manager Assets Integrations.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ Du kan mappa [!DNL Workfront] objektdata till objektmediefält i [!DNL Experienc
 >
 >Du kan bara mappa metadata i en riktning: från [!DNL Workfront] till [!DNL Experience Manager]. Metadata för dokument som är länkade till [!DNL Workfront] från [!DNL Experience Manager] kan inte överföras till [!DNL Workfront].
 
-
-
 ### Konfigurera metadatafält
 
+Innan du börjar mappa metadatafält måste du konfigurera metadatafält i både Workfront och Experience Manager Assets.
+
+Så här konfigurerar du metadatafält:
+
 1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront] och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Konfigurera anpassade formulärfält i Workfront. [!DNL Workfront] har många inbyggda anpassade fält som du kan använda. Du kan även skapa egna anpassade fält enligt anvisningarna i [Skapa eller redigera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Expandera om du vill ha mer information om vilka Workfront- och Experience Manager Assets-fält som stöds**
 
-### Resurser
+**Experience Manager Assets-taggar**
+
+Du kan mappa ett fält som stöds av Workfront till en tagg i Experience Manager Assets. För att göra detta måste du se till att taggvärdena i Experience Manager Assets matchar Workfront.
+
+* Taggar och Workfront-fältvärden måste överensstämma exakt med stavning och format.
+* Workfront-fältvärden som mappas till Experience Manager-resurstaggar måste vara gemener, även om taggen i Experience Manager Assets verkar ha versaler.
+* Workfront fältvärden får inte innehålla blanksteg.
+* Fältvärdet i Workfront måste även innehålla mappstrukturen för Experience Manager Assets-taggen.
+* Om du vill mappa flera enkelradiga textfält till taggar anger du en kommaseparerad lista över taggvärdena i Workfront-sidan av metadatamappningen och `xcm:keywords` på Experience Manager Assets sida. Varje fältvärde mappas till en separat tagg. Du kan använda ett beräkningsfält för att kombinera flera Workfront-fält till ett enda kommaseparerat textfält.
+* Du kan mappa värden från nedrullningsbara listor, alternativknappar och kryssrutefält genom att ange en kommaavgränsad lista med tillgängliga värden i det fältet.
+
+
+>[!INFO]
+>
+>**Exempel**: För att matcha taggen som visas i mappstrukturen här är fältvärdet i Workfront `landscapes:trees/spruce`. Lägg märke till de gemena bokstäverna i fältvärdet för Workfront.
+>
+>Om du vill att taggen ska vara objektet längst till vänster i taggträdet måste den följas av ett kolon. I det här exemplet skulle fältvärdet i Workfront vara `landscapes:`.
+>
+>![Mappstruktur i AEM](assets/aem-folder-structure-with-red-boxes.png)
+
+
+När du har skapat taggarna i Experience Manager Assets visas de i listrutan Taggar i avsnittet Metadata. Om du vill länka ett fält till en tagg väljer du `xcm:keywords` i listrutan för Experience Manager Assets i metadatamappningsområdet.
+
+Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Anpassade metadatafält för Experience Manager Assets**
+
+Du kan mappa både inbyggda och anpassade Workfront-fält till anpassade metadatamatafält i Experience Manager Assets.
+
+Anpassade metadatafält som skapas i Experience Manager Assets ordnas i sina egna avsnitt i området för metadatainställningar.
+
+![anpassad metadatasektion](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Workfront**
+
+Du kan mappa både inbyggda och anpassade Workfront-fält till Experience Manager Assets. Följande fältvärden måste matcha i både fall och stavning mellan Workfront och Experience Manager Assets:
+
+* Nedrullningsbara fält
+* Flervalsfält
+
+>[!TIP]
+>
+> Om du vill kontrollera om fältvärdena matchar exakt går du till
+>
+> * Inställningar > Anpassad Forms i Workfront eller fältet i objektet
+> * Assets > metadata schemas in Experience Manager Assets
+
+
++++
+
+### Mappa metadata för resurser
 
 Metadata mappas när en resurs överförs från [!DNL Workfront] för första gången. Dokument med inbyggda eller anpassade fält mappas automatiskt till de angivna fälten första gången en resurs skickas till [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->Den här integreringen stöder inte anpassade metadata från [!DNL Adobe Experience Manager].
 
 Så här mappar du metadata för resurser:
 
@@ -125,13 +180,15 @@ Så här mappar du metadata för resurser:
    >[!NOTE]
    >
    >Du kan mappa en enda [!DNL Workfront] fält till flera [!UICONTROL Experience Manager Assets] fält. Du kan inte mappa flera [!DNL Workfront] fält till ett enda [!DNL Experience Manager Assets] fält.
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. I [!DNL Experience Manager Assets] -fält, söka igenom de redan ifyllda kategorierna eller ange minst två bokstäver i sökfältet för att få tillgång till ytterligare kategorier.
 1. Upprepa steg 2 och 3 efter behov.
    ![metadatafält](assets/asset-metadata.png)
 1. Klicka [!UICONTROL Save] eller gå vidare till [Mappar](#folders) i den här artikeln.
 
-### Mappar
+### Mappa metadata för mappar
 
 När användare skapar en länkad mapp i ett projekt mappas associerade projekt-, portfölj- och programdata till mappmetadatafält i [!DNL Experience Manager Assets].
 

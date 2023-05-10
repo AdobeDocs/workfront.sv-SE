@@ -6,9 +6,9 @@ description: Koppla samman ditt material med ditt i Experience Manager Assets Es
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,23 @@ Innan du börjar måste du
 * Konfigurera ett metadataschema i Experience Manager Assets Essentials enligt anvisningarna i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (Valfritt) Konfigurera anpassade formulärfält i Workfront. Workfront har många inbyggda anpassade fält som du kan använda. Du kan dock även skapa egna anpassade fält. Mer information finns i [Skapa eller redigera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Workfront- och Experience Manager Assets-fält som stöds**
+
+**AEM nyckelord**
+
+Du kan mappa ett fält som stöds av Workfront till ett nyckelord i Experience Manager Assets Essentials.
+
+Om du vill länka ett fält till ett nyckelord väljer du `dc:subject` i listrutan för Experience Manager Assets i metadatamappningsområdet.
+
+Om du vill mappa flera enkelradiga textfält till nyckelord anger du en kommaseparerad lista över nyckelordsvärden på Workfront-sidan av metadatamappningen. `dc:subject` på Experience Manager Assets sida. Varje fältvärde kopplas till ett separat nyckelord. Du kan använda ett beräkningsfält för att kombinera flera Workfront-fält till ett enda kommaseparerat textfält.
+
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
+
++++
+
 
 ### Resurser
 
@@ -119,6 +136,8 @@ Metadata mappas när en resurs överförs från Workfront för första gången. 
    >
    >Du kan mappa ett enstaka Workfront-fält till flera Experience Manager Assets-fält. Du kan inte mappa flera Workfront-fält till ett enda Experience Manager Assets-fält.
 1. I **Experience Manager** väljer du ett Experience Manager Assets-fält.
+
+   Om du vill mappa ett Workfront-fält till en Experience Manager Assets-tagg väljer du `dc:subject`.
 1. Upprepa steg 1 och 2 efter behov.
    ![aktivera metadata](assets/metadata-assets-essentials.png)
 1. Klicka **Spara** eller gå vidare till [Konfigurera länkade mappar (valfritt)](#set-up-linked-folders-optional) i den här artikeln.

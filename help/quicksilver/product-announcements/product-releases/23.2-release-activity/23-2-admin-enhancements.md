@@ -4,9 +4,10 @@ description: 23.2 Administratörsförbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
+source-git-commit: b764ac92524b896a4aba9baf337ba14a5bebfa43
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Den här sidan beskriver alla administratörsförbättringar som gjorts i version 23.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
 En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Koppla Workfront-fältvärden till taggar i Experience Manager Assets
+
+Nu kan du kategorisera och snabbt hitta resurser baserat på data från Workfront.  Du kan mappa dessa data som en del av din metadatakonfiguration i integreringen med Workfront för Experience Manager Assets.
+
+Tidigare var det inte möjligt att mappa Workfront-data till Experience Manager Assets-taggar.
+
+Mer information om den här funktionen i Experience Manager Assets as a Cloud Service finns i [Konfigurera [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+Mer information om den här funktionen finns i Experience Manager Assets Essentials, [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Skapa anpassade formulär med den nya betaversionen av formulärdesignern
 
