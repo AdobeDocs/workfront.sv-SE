@@ -6,9 +6,9 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       Alla objekt visas på kortet som anslutna kort.
 
       The [!UICONTROL **Kort som läggs till**] räknaren visar hur många kort som kommer att finnas ombord. Om du till exempel markerar ett projekt med 100 uppgifter och ärenden visas 100 i räknaren. Om du lägger till en användartilldelning och den personen tilldelas till 5 uppgifter i projektet visas 5 i räknaren.
+
+   1. (Valfritt) Välj [!UICONTROL **Inkludera slutfört arbete**] för att inkludera färdiga kort ombord.
+
+      >[!NOTE]
+      >
+      >Om det här alternativet inte är markerat kommer kort i andra statusar att&quot;ramla av&quot; och inte längre visas.
 
    1. (Valfritt) Klicka på [!UICONTROL **Använd avancerade filter**] om du vill visa ytterligare filteralternativ.
 

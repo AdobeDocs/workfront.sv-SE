@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta [!DNL Workfront] administratör.
 
-## Skapa en inloppskolumn
+## Skapa en inloppskolumn med enkla filter
+
+>[!NOTE]
+>
+>Enkla filter är bara tillgängliga via tidiga funktionsvalsprogram för Adobe Workfront Boards.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Expandera **[!UICONTROL Board]**.
 1. Aktivera **[!UICONTROL Dynamically intake items to board]**.
 
-   ![Skapa inloppskolumn](assets/create-intake-column2.png)
+   ![Alternativ för enkla infogningsfilter](assets/intake-column-simple-filters.png)
 
    Inloppskolumnen läggs till till vänster om ritytan. Den är tom tills du tillämpar filter på den.
 
+1. (Valfritt) Sök efter och välj [!DNL Workfront] [!UICONTROL **Projekt**].
+1. (Valfritt) Sök efter och välj användare eller team [!UICONTROL **Uppdrag**].
+1. Välj [!UICONTROL **Inkludera slutfört arbete**] om du vill visa uppgifter och problem med statusen Fullständig i kolumnen Intag.
+
+   >[!NOTE]
+   >
+   >Om det här alternativet inte är markerat kommer kort i andra statusar att&quot;ramla av&quot; och inte längre visas.
+
+1. Klicka [!UICONTROL **Använd**].
+
+   Alla objekt visas som anslutna kort i brädans inloppskolumn.
+
+   ![Inloppskolumn](assets/intake-column-added3.png)
+
+## Skapa en inloppskolumn med avancerade filter
+
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
+1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicka **[!UICONTROL Configure]** till höger om anslagstavlan för att öppna konfigurationspanelen.
+1. Expandera **[!UICONTROL Board]**.
+1. Aktivera **[!UICONTROL Dynamically intake items to board]**.
+
+   Inloppskolumnen läggs till till vänster om ritytan. Den är tom tills du tillämpar filter på den.
+
+1. Klicka [!UICONTROL **Använd avancerade filter**].
 1. Klicka **[!UICONTROL Filter sources]** och markera **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]**.
+
+   ![Avancerade filteralternativ för inmatningskolumn](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![Inloppskolumn](assets/intake-column-added3.png)
 
-   Kort i inloppskolumnen går inte att redigera förrän du flyttar dem till andra kortkolumner. Du kan klicka på kortet för att öppna det i en skrivskyddad vy eller klicka på ![Öppna uppgift eller ärende](assets/boards-launch-icon.png) för att öppna uppgiften eller problemet på en ny flik i webbläsaren.
-
-   Du kan ändra ordning på objekten i inloppskolumnen manuellt.
-
-   Ikonerna längst upp till höger i kolumnen visar hur många kort som finns i kolumnen och hur många filter som används.
-
    >[!NOTE]
    >
    >Du kan när som helst uppdatera filtren genom att öppna konfigurationspanelen och klicka på **[!UICONTROL Filter sources]** och markera **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]**.
+
+## Använda inloppskolumnen
+
+Kort i inloppskolumnen går inte att redigera förrän du flyttar dem till andra kortkolumner. Du kan klicka på kortet för att öppna det i en skrivskyddad vy eller klicka på ![Öppna uppgift eller ärende](assets/boards-launch-icon.png) för att öppna uppgiften eller problemet på en ny flik i webbläsaren.
+
+
+Du kan ändra ordning på objekten i inloppskolumnen manuellt.
+
+Ikonerna längst upp till höger i kolumnen visar hur många kort som finns i kolumnen och hur många filter som används.
 
 1. (Valfritt) Om du vill söka efter ett objekt i kolumnen Intag klickar du på ![Ikonen Sök](assets/search-icon.png) på kolumnen.
 1. (Valfritt) Om du vill flytta ett kort från infusionskolumnen till en annan kolumn drar och släpper du kortet där du vill att det ska visas.
