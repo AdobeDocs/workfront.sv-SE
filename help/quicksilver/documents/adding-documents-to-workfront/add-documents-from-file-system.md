@@ -6,9 +6,9 @@ description: Du kan lägga till dokument till projekt, uppgifter eller problem i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ Workfront webbplats förhindrar att virus och annat skadligt innehåll kommer in
 
 ### Hur Workfront identifierar skadade filer {#how-workfront-detects-corrupted-files}
 
-Workfront söker efter virus när ett dokument överförs. Om du försöker överföra ett skadat dokument avbryter Workfront överföringsprocessen och ett meddelande visas som anger att filen är skadad. Du får också ett e-postmeddelande när Workfront upptäcker potentiellt skadligt innehåll och filen är separerad för borttagning.\
-Alla skadade filer tas bort inom 24 timmar efter att de har identifierats om du inte tar bort dem manuellt. Om du tar bort en skadad fil spårar Workfront den här åtgärden som en uppdatering. Om du tillåter att Workfront tar bort den registreras inga uppdateringar.
+Dokumentskanning är bara aktiverat för din organisation på begäran.
+
+Om dokumentskanning är aktiverat skannas filer under 25 MB när de överförs. Filer som är större än 25 MB genomsöks inte.
+
+Om Workfront upptäcker ett skadat dokument avbryter Workfront överföringsprocessen och ett meddelande visas som anger att filen är skadad. Du får också ett e-postmeddelande när Workfront upptäcker potentiellt skadligt innehåll och filen är separerad för borttagning.
+
+Skadade filer tas bort inom 24 timmar efter att de identifierats, såvida du inte tar bort dem manuellt. Om du tar bort en skadad fil spårar Workfront den här åtgärden som en uppdatering. Om du tillåter att Workfront tar bort den registreras inga uppdateringar.
 
 ### Filnamnsbegränsningar {#file-name-restrictions}
 
