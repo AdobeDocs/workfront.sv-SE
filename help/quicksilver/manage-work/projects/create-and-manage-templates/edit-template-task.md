@@ -7,9 +7,9 @@ description: När du har skapat en mall kan du redigera information om malluppgi
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
@@ -276,6 +276,14 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>Milstolpe</p></strong> </td> 
+      <td> <p>Välj en milstolpe som ska associeras med den valda malluppgiften.</p>
+
+   <p><b>VIKTIGT</b></p>
+   <p>Du måste associera en milstolpe-sökväg med en mall för att det här fältet ska kunna visas. Mer information finns i <a href="../create-and-manage-templates/edit-templates.md">Redigera projektmallar</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>Spårningsläge</strong> </td> 
       <td> <p>Ange hur förloppsstatusen för den framtida aktiviteten ska spåras. </p> <p>Välj bland följande alternativ:</p> 
@@ -348,7 +356,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Markera det eller de anpassade formulär som du vill koppla till malluppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)Du kan lägga till upp till tio anpassade formulär i en mallåtgärd. Formulären läggs automatiskt till i de uppgifter som skapas från mallen.
+1. Markera det eller de anpassade formulär som du vill koppla till malluppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan lägga till upp till tio anpassade formulär i en mallåtgärd. Formulären läggs automatiskt till i de uppgifter som skapas från mallen.
 1. (Villkorligt och valfritt) Om du har kopplat ett anpassat formulär till malluppgiften kan du redigera alla fält i formuläret. Du måste ange alla obligatoriska fält innan du kan spara malluppgiften.
 
    >[!NOTE]

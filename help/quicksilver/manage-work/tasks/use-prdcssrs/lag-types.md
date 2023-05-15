@@ -7,9 +7,9 @@ description: Lag är den tid som måste förflyta efter slutförandet av en fram
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,9 @@ I följande tabell visas Lag Types och hur du anger hur lång tid varje typ av t
   </tr> 
   <tr> 
    <td> <p>Procent (p eller pe)</p> </td> 
-   <td> <p>Fördröjningen uttrycks som en procentandel av den beräknade tiden för att slutföra föregående aktivitet. </p> <p>Om det till exempel finns ett samband för avslutsstart med en fördröjning på 20 % mellan en 10-dagars föregående aktivitet, beräknar systemet hur många dagar som är 20 % av de föregående aktiviteternas varaktighet och använder den som fördröjning. I så fall är det två dagar efter att uppgiften har slutförts. </p> <p>Obs! Den maximala fördröjningsgränsen för procent är 2 000 %.</p> </td> 
+   <td> <p>Fördröjningen uttrycks som en procentandel av den beräknade tiden för att slutföra föregående aktivitet. </p> <p>Om det till exempel finns ett samband mellan avslutsstart med 20 % fördröjning av en 10-dagars föregående aktivitet, beräknar systemet hur många dagar som motsvarar 20 % av föregående uppgifts varaktighet och använder den som fördröjning. I så fall är det två dagar efter att uppgiften har slutförts. </p>
+
+<p><b>ANMÄRKNING</b></p> Den maximala fördröjningsgränsen för procent är 2 000 %.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Veckodag (w) </p> </td> 
@@ -177,7 +179,17 @@ I följande tabell visas Lag Types och hur du anger hur lång tid varje typ av t
      <li>Torsdag=5</li> 
      <li>Fredag=6</li> 
      <li>Saturday=7</li> 
-    </ul> <p>Om du vill ange att det planerade startdatumet för efterföljande ska infalla på en tisdag i den aktuella veckan, och tisdagen är före det planerade avslutsdatumet för föregående, ska du skriva följande formel för den efterföljande personen: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Obs! Om tisdagen passerat den vecka som förestående aktivitet planeras slutföras är det planerade startdatumet för den efterföljande aktiviteten den första tillgängliga arbetsdagen i den veckan. </p> <p>Om du vill ange att fördröjningen ska infalla på en lördag i den aktuella veckan, och lördagen är efter det planerade slutförandedatumet för föregående, ska du skriva följande formel till den efterföljare du vill använda:</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>Om lördag är en ledig dag väljs nästa tillgängliga dag efter lördag (för att ange positiv fördröjning) som planerat startdatum för efterföljande dag. </p> <p>Om du vill ange föregående eller kommande veckor kan du lägga till ett tal framför dagens nummer för lagtypen. </p> <p>Om du till exempel vill ange måndagen för 10 veckor sedan kan du använda den här koden för att ange föregående för din efterträdare:</p> <p><code>4fs-102w</code> </p> <p>10 betyder 10 veckor sedan och 2 är numret som tilldelats till måndag. </p> </td> 
+    </ul> <p>Om du vill ange att det planerade startdatumet för efterföljande ska infalla på en tisdag i den aktuella veckan, och tisdagen är före det planerade avslutsdatumet för föregående, ska du skriva följande formel för den efterföljande personen: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
+
+<p><b>ANMÄRKNING</b></p>
+
+Om tisdagen passerat den vecka som förestående aktivitet planeras slutföras är det planerade startdatumet för den efterföljande aktiviteten den första tillgängliga arbetsdagen i den veckan. </p> <p>Om du vill ange att fördröjningen ska infalla på en lördag i den aktuella veckan, och lördagen är efter det planerade slutförandedatumet för föregående, ska du skriva följande formel till den efterföljare du vill använda:</p> <p>4fs+7w</code> </p> <p>Om lördag är en ledig dag väljs nästa tillgängliga dag efter lördag (för att ange positiv fördröjning) som planerat startdatum för efterföljande dag. </p>
+
+<p>Detta gäller inte schemaundantag. Om ett datum också är ett schemaundantag och startdatumet för efterföljande beräknas till den dagen, försöker systemet hitta det närmaste tillgängliga datumet som är den veckodag som anges i föregående uttryck.</p>
+
+<p>Om till exempel startdatumet beräknas till en viss tisdag och den dagen är ett schemaundantag och föregående datum är positivt, väljer den följande tisdagen (om det även är en arbetsdag) som startdatum för efterföljande. Om fördröjningen är negativ väljer systemet föregående tisdag som startdatum.</p>
+
+<p>Om du vill ange föregående eller kommande veckor kan du lägga till ett tal framför dagens nummer för lagtypen. </p> <p>Om du till exempel vill ange måndagen för 10 veckor sedan kan du använda den här koden för att ange föregående för din efterträdare:</p> <p><code>4fs-102w</code> </p> <p>10 betyder 10 veckor sedan och 2 är numret som tilldelats till måndag. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Veckodag ej noll (k)</p> </td> 
