@@ -6,7 +6,7 @@ description: Du kan visa antalet korrektur- och dokumentbeslut som har fattats a
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Så här visar du antalet beslut för en användare:
 
 1. Öppna **Vyer** väljer du **Licenser** vy.
 
-1. Hitta kolumnen **Godkännanden den här månaden** för att visa hur många beslut varje användare har fattat under månaden.
+1. Hitta kolumnen **Beslut den här månaden** för att visa hur många beslut varje användare har fattat under månaden.
