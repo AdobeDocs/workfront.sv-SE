@@ -5,9 +5,9 @@ title: Ny betaversion av kommenteringsupplevelser
 description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya kommentarer Beta-upplevelsen.
 author: Alina
 feature: Product Announcements
-source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Ny aktivitet för att kommentera betaversionen
 
-Informationen på den här sidan avser den släppta aktiviteten varje vecka på den nya betafunktionen för kommentering. Sidan innehåller nya funktioner som har lagts till och problem som har lösts för den nya betafunktionen för kommentering.
+Informationen på den här sidan avser den släppta aktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. På sidan visas nya funktioner som har lagts till och problem som har åtgärdats för den nya betafunktionen för kommentering.
 
 Allmän information om de nya betafunktionerna för kommentering, inklusive en lista över funktioner som är tillgängliga för närvarande eller finns i undersökningar, finns i [Ny kommentarsfunktion](../new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -23,11 +23,26 @@ Allmän information om de nya betafunktionerna för kommentering, inklusive en l
 >
 >Den nya kommentarsfunktionen som lanserades i Beta i version 23.2. Mer information om den ursprungliga versionen finns i [23.2 Versionsöversikt](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Kommentarsfunktioner som lanseras i betafunktionen för Workfront-objekt finns också i uppdateringsavsnittet för Workfront-mål.
+>Kommentarsfunktioner som släpps till betafunktionen för Workfront-objekt finns också i uppdateringsavsnittet för ett målobjekt i Workfront Goals.
 
 I följande avsnitt listas funktioner som har lagts till efter den ursprungliga versionen, med början de som släpptes senast.
 
-## Vecka 2 maj 2023
+## Vecka 15 maj 2023
+
+### Förbättrad upplevelse när du lägger till hyperlänkar i kommentarer (rubrik)
+
+Nu kan du lägga till hyperlänkar i kommentarer med följande kortkommandon:
+
+* CTRL + V (CMD + V för Mac) klistrar in en länk över markerad text
+* CTRL + K (CMD + K för Mac) öppnar rutan Lägg till länkar.
+
+Före dessa förbättringar kan du bara lägga till hyperlänkar genom att klicka på länkikonen i verktygsfältet RTF. Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Förhandsgranska: 17 maj 2023
+
+Produktion: 18 maj 2023
+
+## Vecka 1 maj 2023
 
 ### Bilder tas bort från dokumentområdet när bifogade filer tas bort från kommentarer eller när kommentarer som innehåller en bifogad fil tas bort
 

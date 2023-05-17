@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 1. Gå till uppdateringsområdet och börja skriva en kommentar.
 1. (Valfritt) Om du vill lägga till formaterad text i uppdateringen använder du attribut på **RTF** när du skriver.
 
-   | **Attribut** | **Verktygsfältsknapp** | **Mac kortkommandon** | **Kortkommandon för PC** |
+   | **Attribut** | **Knappen Verktygsfält** | **Mac kortkommandon** | **Kortkommandon i Windows** |
    |---|---|---|---|
    | Fet | ![mceclip10.png](assets/mceclip10.png) | Jesse+b | Ctrl+B |
    | Kursiv | ![mceclip9.png](assets/mceclip9.png) | Jesse+i | Ctrl+I |
    | Understruken | ![mceclip8.png](assets/mceclip8.png) | Jesse+u | Ctrl+U |
-   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | Jesse+K | Ctrl+K |
+   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Jesse+K</br> <br><span class="preview">Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Jesse+V</span></br> | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Ctrl+K</br> <br><span class="preview">Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Ctrl+V</span></br> |
    | Punktlista | ![mceclip6.png](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
    | Numrerad lista | ![mceclip5.png](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
    | Blockcitat | ![](assets/block-quote-icon-large.png) | ¥+Shift+9 | Ctrl+Skift+9 |
 
    Om du vill avbryta formateringen av text avmarkerar du attributet på **RTF** verktygsfält.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
