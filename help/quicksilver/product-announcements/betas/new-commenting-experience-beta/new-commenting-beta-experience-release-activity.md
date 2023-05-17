@@ -5,9 +5,9 @@ title: Ny betaversion av kommenteringsupplevelser
 description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya kommentarer Beta-upplevelsen.
 author: Alina
 feature: Product Announcements
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I följande avsnitt listas funktioner som har lagts till efter den ursprungliga 
 
 ## Vecka 15 maj 2023
 
-### Förbättrad upplevelse när du lägger till hyperlänkar i kommentarer (rubrik)
+### Förbättrad upplevelse när du lägger till hyperlänkar i kommentarer
 
 Nu kan du lägga till hyperlänkar i kommentarer med följande kortkommandon:
 
