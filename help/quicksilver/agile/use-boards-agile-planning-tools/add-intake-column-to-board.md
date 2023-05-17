@@ -7,7 +7,7 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Inloppskolumnen läggs till till vänster om ritytan. Den är tom tills du tillämpar filter på den.
 
 1. Klicka [!UICONTROL **Använd avancerade filter**].
-1. Klicka **[!UICONTROL Filter sources]** och markera **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]**.
+1. Klicka **[!UICONTROL Add filter sources]** och markera **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]**.
 
    ![Avancerade filteralternativ för inmatningskolumn](assets/intake-column-advanced-filters1.png)
 
