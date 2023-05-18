@@ -5,9 +5,9 @@ title: Integreringar med Adobe Experience Manager Assets
 description: Du kan koppla ditt arbete till följande Adobe Experience Manager Assets Integrations.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
+source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,25 @@ An [!DNL Experience Manager] fält som mappas till [!DNL Workfront] portfölj, p
 >Användarna måste ha skrivåtkomst i [!DNL Experience Manager] för resurser som finns i objektet för att metadata ska kunna synkroniseras när de uppdateras.
 
 1. Aktivera **[!UICONTROL Sync object metadata]** fält.
-1. Klicka på Spara eller gå vidare till [Konfigurera länkade mappar (valfritt)](#set-up-linked-folders-optional) i den här artikeln.
+1. Klicka **Spara** eller gå vidare till [Ställa in arbetsflöden (valfritt)](#set-up-workflows-optional) i den här artikeln.
+
+<!--Courtney start here-->
+
+## Ställa in arbetsflöden (valfritt)
+
+Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. Som Workfront-administratör kan du konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
+
+De standardvärden för arbetsflöde som du anger i integreringen kan åsidosättas på projektmalls- och projektnivå.
+
+### Konfigurera ett arbetsflöde för att skapa länkade Adobe Experience Manager-mappar
+
+1. Växla **[!UICONTROL Create Linked folder]** på.
+1. Välj en mappsökväg för att ange var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
+   ![Navigering för länkad mapp](assets/select-folder-aem-integration.png)
+1. Aktivera **Lägg till Portfolio och programnamn** om du vill att Portfolio och programnamn ska inkluderas automatiskt i slutet av den länkade mappens namn.
+1. Klicka **Spara** eller gå vidare till [Konfigurera länkade mappar (valfritt)](#set-up-linked-folders-optional) i den här artikeln.
+
+<!--Courtney end here-->
 
 ## Konfigurera länkade mappar (valfritt)
 
