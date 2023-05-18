@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 0%
@@ -18,12 +18,10 @@ ht-degree: 0%
 
 # Konfigurera tidrapport och timinställningar för en grupp
 
-{{highlighted-preview}}
-
 En Adobe Workfront-administratör kan låsa upp följande avsnitt av tidrapport och timinställningar på systemnivå så att gruppadministratörer kan konfigurera dem oberoende av varandra för sina egna grupper:
 
 * Allmänna inställningar
-* <span class="preview">Var användarna kan logga tid</span>
+* Var användarna kan logga tid
 * Förifyll tidrapporter
 
 Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
@@ -136,23 +134,23 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
     </tbody> 
    </table>
 
-1. <span class="preview">I **Var användarna kan logga tid** konfigurerar du något av följande alternativ:</span>
+1. I **Var användarna kan logga tid** konfigurerar du något av följande alternativ:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">Logga tid direkt i projekt</span></td> 
-      <td><span class="preview">Tillåter användare att logga tid på projektet (både på fliken Uppdateringar och på tidrapporten). Om du vill hindra användarna från att registrera tid på projektnivå låter du det här alternativet vara avmarkerat.</span></td>
+      <td role="rowheader">Logga tid direkt i projekt</td> 
+      <td>Tillåter användare att logga tid på projektet (både på fliken Uppdateringar och på tidrapporten). Om du vill hindra användarna från att registrera tid på projektnivå låter du det här alternativet vara avmarkerat.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Logga in på projekt som är slutförda</span></td>
-      <td><span class="preview">Tillåter användare att registrera tid i ett projekt som har markerats som slutfört. Om det här alternativet är inaktiverat kan användare inte registrera tid för det arbete de har slutfört i projekt med statusen Fullständigt.</span></td>
+      <td role="rowheader">Logga in på projekt som är slutförda</td>
+      <td>Tillåter användare att registrera tid i ett projekt som har markerats som slutfört. Om det här alternativet är inaktiverat kan användare inte registrera tid för det arbete de har slutfört i projekt med statusen Fullständigt.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Logga in på projekt som är döda</span></td> 
-      <td><span class="preview">När det här alternativet är aktiverat kan användare logga timmar i projekt med statusen Död.</span></td>
+      <td role="rowheader">Logga in på projekt som är döda</td> 
+      <td>När det här alternativet är aktiverat kan användare logga timmar i projekt med statusen Död.</td>
      </tr>
     </tbody>
    </table>
