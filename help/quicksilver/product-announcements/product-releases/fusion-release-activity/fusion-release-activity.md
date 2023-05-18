@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlö
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 5c3304556031e83345f6aaaf4457987b55c585be
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlöst så att du
 
 Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## Senaste releaser
+## Fusion-versioner 2023
 
 ### Maj 2023
 
+* [Versionsaktivitet för Workfront Fusion: Vecka 15 maj 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
 * [Versionsaktivitet för Workfront Fusion: Vecka 1 maj 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
 
 ### April 2023
@@ -35,6 +36,10 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 * [Versionsaktivitet för Workfront Fusion: Vecka 20 mars 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Versionsaktivitet för Workfront Fusion: Vecka 6 mars 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
+## Fusion-versioner 2022
+
++++**Klicka för att öppna**
 
 ### December 2022
 
@@ -91,6 +96,8 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 ### Januari 2022
 
 * [Versionsaktivitet för Workfront Fusion: Vecka 3 januari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+
++++
 
 ## Fusion-versioner 2021
 

@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8283022f24913988248005da0c8e583b29f19652
+source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -104,9 +104,9 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 * [Hämta en fil](#get-a-file)
 * [Bevaka mappobjekt](#watch-folder-items)
 
-#### Skapa en fil
+#### Hämta ändringar
 
-Den här åtgärdsmodulen skapar en ny fil i SharePoint.
+Den här modulen returnerar ändringar som har gjorts i SharePoint.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,15 +118,15 @@ Den här åtgärdsmodulen skapar en ny fil i SharePoint.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
-   <td> <p>Välj hur du vill identifiera platsen för filen som du vill skapa.</p> 
+   <td> <p>Välj hur du vill identifiera platsen för mappen som du vill hämta ändringar i.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL Folder ID]</strong> i de fält som visas.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Välj den plats där du vill skapa filen. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Välj den plats där du vill hämta ändringarna. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</td> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -209,47 +209,19 @@ Den här utlösarmodulen startar ett scenario när ett objekt uppdateras i en ma
 
 ### Objekt
 
-* [[!UICONTROL Watch Items]](#watch-items)
-* [[!UICONTROL List Items]](#list-items)
-* [[!UICONTROL Get an Item]](#get-an-item)
+* [[!UICONTROL Copy Item]](#copy-an-item)
 * [[!UICONTROL Create an item]](#create-an-item)
-* [[!UICONTROL Update an item]](#update-an-item)
 * [[!UICONTROL Delete an item]](#delete-an-item)
+* [[!UICONTROL Get an Item]](#get-an-item)
+* [[!UICONTROL List Items]](#list-items)
+* [[!UICONTROL Move Item]](#move-an-item)
+* [[!UICONTROL Update an item]](#update-an-item)
+* [[!UICONTROL Watch Items] (Schemalagd)](#watch-items-scheduled)
 
-#### [!UICONTROL Watch Items]
 
-Den här utlösarmodulen startar ett scenario när ett objekt skapas eller ändras.
+#### [!UICONTROL Copy Item]
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Watch Lists]</td> 
-   <td>Välj om du vill bevaka listor efter skapandetid (nya objekt) eller efter ändringstid (uppdaterade objekt).</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
-   <td> <p>Välj hur du vill identifiera webbplatsen och listan som du vill bevaka.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong> och <strong>[!UICONTROL List ID]</strong> i de fält som visas.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Markera den plats som du vill bevaka och markera sedan listan. De här listrutorna hämtar bara de webbplatser som följer.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange eller mappa det maximala antal objekt som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL List Items]
-
-Den här åtgärdsmodulen hämtar en lista med alla objekt i en angiven lista.
+Den här åtgärdsmodulen kopierar ett befintligt objekt i en SharePoint-lista.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,39 +232,20 @@ Den här åtgärdsmodulen hämtar en lista med alla objekt i en angiven lista.
    <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL List Items]</td> 
-   <td> <p>Välj hur du vill identifiera listan som du vill hämta objekt från.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong> och <strong>[!UICONTROL List ID]</strong> i de fält som visas.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller listan som du vill hämta objekt från och markera sedan listan. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange eller mappa det maximala antal objekt som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get an Item]
-
-Den här åtgärdsmodulen returnerar data för ett angivet objekt.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Get an Item]</td> 
-   <td> <p>Välj hur du vill identifiera den plats och lista som innehåller det objekt du vill hämta.</p> 
+   <td role="rowheader">Ange plats-, enhet- och mapp-ID</td> 
+   <td> <p>Välj hur du vill identifiera den plats och lista som innehåller det objekt du vill kopiera.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL Item ID]</strong> i de fält som visas.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller listan som du vill hämta ett objekt från, markera listan och markera sedan objektet. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>I fältet Kopiera objekttyp väljer du om du ska flytta ett fält eller en mapp.  Markera platsen som innehåller det objekt du vill kopiera, markera sedan listan och markera objektet. </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td>Ange eller mappa ett namn för den nya kopian av objektet. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,6 +277,110 @@ Den här åtgärdsmodulen skapar ett nytt objekt i en SharePoint-lista.
  </tbody> 
 </table>
 
+#### [!UICONTROL Delete an item]
+
+Den här åtgärdsmodulen tar bort ett befintligt objekt i en SharePoint-lista.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Update an Item]</td> 
+   <td> <p>Välj hur du vill identifiera den plats och lista som innehåller det objekt du vill ta bort.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL Item ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller det objekt du vill ta bort, markera listan och markera sedan objektet. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get an Item]
+
+Den här åtgärdsmodulen returnerar data för ett angivet objekt.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Get an Item]</td> 
+   <td> <p>Välj hur du vill identifiera den plats och lista som innehåller det objekt du vill hämta.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL Item ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller listan som du vill hämta ett objekt från, markera listan och markera sedan objektet. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Items]
+
+Den här åtgärdsmodulen hämtar en lista med alla objekt i en angiven lista.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List Items]</td> 
+   <td> <p>Välj hur du vill identifiera listan som du vill hämta objekt från.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong> och <strong>[!UICONTROL List ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller listan som du vill hämta objekt från och markera sedan listan. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ange eller mappa det maximala antal objekt som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Move an Item]
+
+Den här åtgärdsmodulen kopierar ett befintligt objekt i en SharePoint-lista.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Ange plats-, enhet- och mapp-ID</td> 
+   <td> <p>Välj hur du vill identifiera platsen och listan som innehåller objektet som du vill flytta.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL Item ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>I fältet Kopiera objekttyp väljer du om du ska flytta ett fält eller en mapp. Markera platsen som innehåller det objekt du vill kopiera, markera sedan listan och markera objektet. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td>Ange eller mappa ett namn för det flyttade objektet. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Update an item]
 
 Den här åtgärdsmodulen uppdaterar ett befintligt objekt i en SharePoint-lista.
@@ -351,39 +408,9 @@ Den här åtgärdsmodulen uppdaterar ett befintligt objekt i en SharePoint-lista
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete an item]
+#### [!UICONTROL Watch Items] (Schemalagd)
 
-Den här åtgärdsmodulen tar bort ett befintligt objekt i en SharePoint-lista.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Update an Item]</td> 
-   <td> <p>Välj hur du vill identifiera den plats och lista som innehåller det objekt du vill ta bort.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>och <strong>[!UICONTROL Item ID]</strong> i de fält som visas.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller det objekt du vill ta bort, markera listan och markera sedan objektet. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Lista
-
-* [[!UICONTROL Watch Lists]](#watch-lists)
-* [[!UICONTROL List Lists]](#list-lists)
-* [[!UICONTROL Get a List]](#get-a-list)
-* [[!UICONTROL Create a List]](#create-a-list)
-
-#### [!UICONTROL Watch Lists]
-
-Den här utlösarmodulen startar ett scenario när en lista skapas eller ändras.
+Den här utlösarmodulen startar ett scenario när ett objekt skapas eller ändras.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -401,66 +428,23 @@ Den här utlösarmodulen startar ett scenario när en lista skapas eller ändras
    <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
    <td> <p>Välj hur du vill identifiera webbplatsen och listan som du vill bevaka.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong> där listan som du vill titta på finns.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Markera den plats som du vill titta på. Listrutan hämtar bara den webbplats som du följer.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong> och <strong>[!UICONTROL List ID]</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Markera den plats som du vill bevaka och markera sedan listan. De här listrutorna hämtar bara de webbplatser som följer.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange eller mappa det maximala antal listor som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
+   <td> <p>Ange eller mappa det maximala antal objekt som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL List Lists]
+### Lista
 
-Den här åtgärdsmodulen hämtar en lista med alla objekt i en angiven lista.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List Lists]</td> 
-   <td> <p>Välj hur du vill identifiera webbplatsen som du vill hämta listor från.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller de listor som du vill hämta. Listrutan hämtar bara de webbplatser du följer.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange eller mappa det maximala antal listor som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a List]
-
-Den här åtgärdsmodulen returnerar data i en angiven lista.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Get a List]</td> 
-   <td> <p>Välj hur du vill identifiera den plats och lista som innehåller det objekt du vill hämta.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong> och <strong>List-ID</strong> i de fält som visas.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller listan som du vill hämta och markera sedan listan. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Create a List]](#create-a-list)
+* [[!UICONTROL Get a List]](#get-a-list)
+* [[!UICONTROL List Lists]](#list-lists)
+* [[!UICONTROL Watch Lists]](#watch-lists)
 
 #### [!UICONTROL Create a List]
 
@@ -497,6 +481,87 @@ Den här åtgärdsmodulen skapar en ny lista i SharePoint.
  </tbody> 
 </table>
 
+#### [!UICONTROL Get a List]
+
+Den här åtgärdsmodulen returnerar data i en angiven lista.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Get a List]</td> 
+   <td> <p>Välj hur du vill identifiera den plats och lista som innehåller det objekt du vill hämta.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong> och <strong>List-ID</strong> i de fält som visas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller listan som du vill hämta och markera sedan listan. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Lists]
+
+Den här åtgärdsmodulen hämtar en lista med alla objekt i en angiven lista.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List Lists]</td> 
+   <td> <p>Välj hur du vill identifiera webbplatsen som du vill hämta listor från.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera platsen som innehåller de listor som du vill hämta. Listrutan hämtar bara de webbplatser du följer.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ange eller mappa det maximala antal listor som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Lists]
+
+Den här utlösarmodulen startar ett scenario när en lista skapas eller ändras.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Watch Lists]</td> 
+   <td>Välj om du vill bevaka listor efter skapandetid (nya objekt) eller efter ändringstid (uppdaterade objekt).</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
+   <td> <p>Välj hur du vill identifiera webbplatsen och listan som du vill bevaka.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa <strong>[!UICONTROL Site ID]</strong> där listan som du vill titta på finns.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Markera den plats som du vill titta på. Listrutan hämtar bara den webbplats som du följer.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ange eller mappa det maximala antal listor som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Sida (beta)
 
 >[!NOTE]
@@ -528,31 +593,8 @@ Den här åtgärdsmodulen returnerar data för en angiven sida.
 
 ### Plats
 
-* [[!UICONTROL Search Sites]](#search-sites)
 * [[!UICONTROL Get a Site]](#get-a-site)
-
-#### [!UICONTROL Search Sites]
-
-Den här åtgärdsmodulen söker efter platser med en parameter som du anger.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
-   <td> <p>Ange eller mappa söktermen som du vill söka efter webbplatserna för.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange eller mappa det maximala antal webbplatser som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Search Sites]](#search-sites)
 
 #### [!UICONTROL Get a Site]
 
@@ -577,6 +619,29 @@ Den här åtgärdsmodulen returnerar data för en angiven plats.
  </tbody> 
 </table>
 
+#### [!UICONTROL Search Sites]
+
+Den här åtgärdsmodulen söker efter platser med en parameter som du anger.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL SharePoint] konto till [!DNL Workfront Fusion], se <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL SharePoint] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
+   <td> <p>Ange eller mappa söktermen som du vill söka efter webbplatserna för.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ange eller mappa det maximala antal webbplatser som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Övriga
 
 #### [!UICONTROL Make an API Call]
@@ -597,7 +662,7 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -617,6 +682,28 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Se händelser
+
+Den här snabbutlösarmodulen startar ett scenario när ett objekt läggs till, uppdateras eller tas bort i SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>Välj en befintlig webkrok eller klicka på Lägg till för att skapa en ny webkrok.</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
