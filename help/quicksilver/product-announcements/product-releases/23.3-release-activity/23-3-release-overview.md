@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Gruppnivåkontroll finns för tidrapport och timinställning för Var användare kan logga tid</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Gruppnivåkontroll finns för tidrapport och timinställning för Var användare kan logga tid</a></p>
                         <p>Systemadministratören kan nu låsa och låsa upp tidrapporten"Där användare kan logga tid" och timinställningarna. När den här inställningen är olåst kan gruppadministratörer konfigurera inställningarna "Där användare kan logga tid" separat för varje grupp.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Enkla filter finns på inloppskolumner</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Enkla filter finns på inloppskolumner</a></p>
                         <p>Förenklade filter har lagts till i inställningen för inloppskolumnen så att du kan definiera inloppskolumnen snabbare. De tillgängliga filtren är Workfront-projekt och uppdrag per team eller användare. Du kan växla till de avancerade filtren om du vill.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Koppla Workfront-fältvärden till taggar i Experience Manager Assets</a><span style="color: #ff0000;"> Nyheter i produktion!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Skapa automatiskt länkade mappar till Adobe Experience Manager Assets när du skapar ett projekt</a><span style="color: #ff0000;"> Nyheter i produktion!</span></p>
+                        <p>Med det nya arbetsflödet Skapa länkad mapp för Adobe Experience Manager-integreringen kan du konfigurera integreringen med en sökväg till en Adobe Experience Manager Assets-mapp. När integreringen läggs till i en projektmall skapas automatiskt en länkad undermapp i Experience Manager Assets i den angivna mappen för projekt som skapas från mallen. </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 11 maj 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 18 maj 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Koppla Workfront-fältvärden till taggar i Experience Manager Assets</a></p>
                         <p>Nu kan du kategorisera och snabbt hitta resurser baserat på data från Workfront. Du kan mappa dessa data som en del av din metadatakonfiguration i integreringen med Workfront för Experience Manager Assets.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mappa Workfront-fält till anpassade Experience Manager Assets-metadatafält</a><span style="color: #ff0000;"> Nyheter i produktion!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mappa Workfront-fält till anpassade Experience Manager Assets-metadatafält</a></p>
                         <p>Med den inbyggda integreringen kan du nu mappa både inbyggda och inbyggda Workfront-fält till anpassade metadatamatchschemafält i Experience Manager Assets as a Cloud Service.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
