@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3132'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    | Fet | ![mceclip10.png](assets/mceclip10.png) | Jesse+b | Ctrl+B |
    | Kursiv | ![mceclip9.png](assets/mceclip9.png) | Jesse+i | Ctrl+I |
    | Understruken | ![mceclip8.png](assets/mceclip8.png) | Jesse+u | Ctrl+U |
-   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Jesse+K</br> <br><span class="preview">Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Jesse+V</span></br> | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Ctrl+K</br> <br><span class="preview">Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Ctrl+V</span></br> |
+   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Jesse+K</br> <br>Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Jesse+V</br> | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Ctrl+V</br> |
    | Punktlista | ![mceclip6.png](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
    | Numrerad lista | ![mceclip5.png](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
    | Blockcitat | ![](assets/block-quote-icon-large.png) | ¥+Shift+9 | Ctrl+Skift+9 |
