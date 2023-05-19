@@ -6,9 +6,9 @@ description: Översikt över textläge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp av standardg
 >
 >Du kan också utöka funktionerna för beräknade anpassade fält genom att använda en version av textläget för anpassade fält. Syntaxen och reglerna för att skapa ett beräknat anpassat fält skiljer sig från dem du använder i rapporter och listor. Mer information om hur du lägger till ett beräknat anpassat fält finns i [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* Innan du börjar använda textläge i dina rapporter rekommenderar vi att du går igenom våra lektioner för avancerad rapportering för att få en bättre förståelse för vårt textläge. Information om utbildningsmaterial finns på [Workfront rapporter och instrumentpaneler Utbildningsvägar](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Innan du börjar använda textläge i dina rapporter rekommenderar vi att du går igenom våra lektioner för avancerad rapportering för att få en bättre förståelse för vårt textläge. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Vi rekommenderar att du använder standardläget för att säkerställa att de rapporter du skapar förblir intakta när Workfront uppdateras. I textläget kan du skapa mer komplexa vyer, filter och grupperingar, men det är också mer komplicerat att underhålla och garanteras inte när Workfront uppdateras.
 * Vi rekommenderar att du alltid försöker att skapa alla rapportelement i standardgränssnittet och växlar till textlägesbyggaren endast för få justeringar.
 

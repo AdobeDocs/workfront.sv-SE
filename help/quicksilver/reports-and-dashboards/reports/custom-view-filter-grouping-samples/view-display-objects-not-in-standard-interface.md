@@ -7,9 +7,9 @@ description: Du kan visa objekt som inte ingår i standardlägesgränssnittet i 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 Du kan visa objekt som inte ingår i standardlägesgränssnittet i en vy. Du kan bara göra detta genom att referera till dem via textläge.\
 Du kan bestämma vilka fält som kan inkluderas i en vy på något av följande sätt:
 
-* Använd [API Explorer](https://one.workfront.com/s/api-explorer) för att identifiera andra objekt som kan refereras via textläge.\
+* Använd [API Explorer](../../../wf-api/general/api-explorer.md) för att identifiera andra objekt som kan refereras via textläge.\
    Alla fält som finns dokumenterade i API Explorer är inte giltiga för textläge. Vissa fält kan bara rapporteras via API:t.
 
 * Hitta objektets ID-fält i en kolumn. De flesta objekt som har ett fält-ID har också ett motsvarande kolumn- eller fältnamn som kanske inte är tillgängligt via standardlägesgränssnittet.

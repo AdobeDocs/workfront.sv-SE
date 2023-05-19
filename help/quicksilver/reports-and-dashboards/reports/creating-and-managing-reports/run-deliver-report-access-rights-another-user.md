@@ -6,9 +6,9 @@ description: Som standard kan användare bara se de objekt i en rapport som de h
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 269340bc6a0c237edf44f5aa325d4ff95b647df8
+source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
-   Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja en annan användare än sig själva för **Leverera den här rapporten med åtkomsträttigheter för:** fält.
+   Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja någon annan användare än sig själva för **Leverera den här rapporten med åtkomsträttigheter för:** fält.
 
 1. Välj **Format** vill du att rapporten ska visas i e-postmeddelandet:
 
@@ -115,3 +115,39 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
    eller\
    Klicka **Gör upprepad leverans** för att schemalägga en återkommande leverans för rapporten.\
    Mer information om rapportleveranser finns i artikeln [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
+## Begränsningar för rapporter med en källkolumn
+
+I följande rapporter visas en källkolumn där du kan visa information om det överordnade objektet:
+
+* Rapporter
+* Timrapporter
+* Dokumentrapporter
+
+Om användarna inte har behörighet till det överordnade objektet för ett problem, en timme eller ett dokument, visas rapportens källkolumn som tom, även om rapporten är konfigurerad att visas eller att levereras med en annan användares åtkomstbehörighet.
+
+Om du vill visa information om det överordnade objektet i rapporten rekommenderar vi att du lägger till en kolumn för det överordnade objektet där du kan visa namnet på det överordnade objektet.
+
+Du kan till exempel lägga till något av följande i en rapport med en källkolumn:
+
+* Kolumnerna Projektnamn, Aktivitetsnamn eller Utleveransnamn till ett dokument eller en timrapport.
+* Kolumnerna Projektnamn eller Aktivitetsnamn i en problemrapport.
+* En kolumn som använder textlägesuttryck som refererar till alla tre objekten. Följande är ett exempel för en timrapport:
+
+   `displayname=Custom Source`
+
+   `linkedname=opTask`
+
+   `namekey=view.relatedcolumn`
+
+   `namekeyargkey.0=opTask`
+
+   `namekeyargkey.1=name`
+
+   `textmode=true`
+
+   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+
+   `valueformat=HTML`
+
+   Mer information om visningslägen för text finns i [Redigera en vy i textläge](../text-mode/edit-text-mode-in-view.md).

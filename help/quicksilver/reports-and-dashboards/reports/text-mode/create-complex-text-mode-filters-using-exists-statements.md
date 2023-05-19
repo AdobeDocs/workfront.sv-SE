@@ -6,9 +6,9 @@ description: Skapa komplexa textlägesfilter med EXISTS-satser
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2799'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Tänk på följande regler när du använder EXISTS-programsatser i ett filter:
 
 * Du måste använda objektkoden för det länkade objektet för att koppla programsatserna.\
    Du hittar objektkoden för alla objekt i API Explorer.\
-   Information om API Explorer finns i [API Explorer](https://one.workfront.com/s/api-explorer).
+   Information om API Explorer finns i [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * När ett länkat objekt saknas på grund av att det ursprungliga objektet och målobjektet är direktanslutna kan du använda objektkoden för målobjektet i stället för det länkade objektet.
 * Du kan referera till flera fält (målfält) på samma objekt (målobjekt). Då måste du koppla ihop de rader som refererar till fälten med AND.\

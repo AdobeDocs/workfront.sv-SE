@@ -7,9 +7,9 @@ description: Med hjälp av ett beräknat anpassat fält kan du visa namnet på d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 Med hjälp av ett beräknat anpassat fält kan du visa namnet på den som har skapat ett ärende i ett anpassat formulär som har kopplats till problemet. Med samma programsats kan du skapa liknande beräkningsfält för projekt, utgåvor och andra objekt.
 
+<!--outdated link: 
 >[!TIP]
 >
->Om du vill ha mer information om fler exempel på anpassade textlägen från andra kunder kan du följa [Textlägesrapportering](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) på vår communitysajt.
+>For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
+-->
 
 ## Åtkomstkrav
 

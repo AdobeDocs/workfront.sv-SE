@@ -5,9 +5,9 @@ title: Ordlista för [!DNL Adobe Workfront] terminologi
 description: The [!DNL Adobe Workfront] ordlistor med termer som används ofta i Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '15833'
+source-wordcount: '15985'
 ht-degree: 0%
 
 ---
@@ -1548,7 +1548,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Planned Revenue]</td> 
    <td> <p>Uppgifter och projekt kan visa ett värde för [!UICONTROL Planned Revenue] in [!DNL Workfront]. [!UICONTROL Planned Revenue] representerar det penningbelopp som är associerat med [!UICONTROL Planned Hours] av projektets uppgifter. För projekt kan den även innehålla [!UICONTROL Fixed Revenue] av projektet. </p> <p>För uppgifter är detta de intäkter som är kopplade till [!UICONTROL Planned Hours] av uppgifter. Planerade timmar från alla uppgifter räknas upp till projektets planerade timmar för att bidra till beräkningen av projektet [!UICONTROL Planned Hours]. </p> 
-   <p>[!DNL Workfront] beräkning [!UICONTROL Planned Revenue] för uppgifter och projekt med hjälp av följande formler:</p> 
+   <p>[!DNL Workfront] beräknar [!UICONTROL Planned Revenue] för uppgifter och projekt med hjälp av följande formler:</p> 
    <p><code>Task [!UICONTROL Planned Revenue] = [!UICONTROL Planned Hours] * Billing hourly rate</code> </p> <p><code>Project [!UICONTROL Planned Revenue] = SUM (All tasks [!UICONTROL Planned Revenue]) + [!UICONTROL Fixed Revenue]</code> </p> 
    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
@@ -1989,7 +1989,20 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Anger det överordnade objektet för ett annat objekt. Ett dokument som är kopplat till en uppgift har till exempel namnet på uppgiften i [!UICONTROL Source] fält i ett [!UICONTROL Document] rapportera eller visa, ett problem som loggats under ett projekt har namnet på projektet i [!UICONTROL Source] fält i en problemrapport eller vy. </p> </td> 
+   <td> <p>Anger det överordnade objektet för ett annat objekt. Ett dokument som är kopplat till en uppgift har till exempel namnet på uppgiften i [!UICONTROL Source] fält i ett [!UICONTROL Document] rapportera eller visa, ett problem som loggats under ett projekt har namnet på projektet i [!UICONTROL Source] fält i en problemrapport eller vy. </p> 
+   <p>I följande rapporter visas en källkolumn där du kan visa information om det överordnade objektet:</p>
+  <ul><li>Rapporter</li>
+    <li>Timrapporter</li>
+    <li>Dokumentrapporter </li>
+    </ul>
+   <p>Om användarna inte har behörighet till det överordnade objektet för ett problem, en timme eller ett dokument, visas rapportens källkolumn som tom, även om rapporten är konfigurerad att visas eller att levereras med en annan användares åtkomstbehörighet. </p>
+   <p> Om du vill visa information om det överordnade objektet i rapporten rekommenderar vi att du lägger till en kolumn för det överordnade objektet där du kan visa namnet på det överordnade objektet. </p>
+    <p>Du kan till exempel lägga till något av följande i en rapport med en källkolumn: </p>
+    <ul><li>Kolumnerna Projektnamn, Aktivitetsnamn eller Utleveransnamn till ett dokument eller en timrapport.</li>
+    <li>Kolumnerna Projektnamn eller Aktivitetsnamn i en problemrapport. </li> </ul>
+    Mer information finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Kör och leverera en rapport med åtkomsträttigheter för en annan användare</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Start Date]</td> 

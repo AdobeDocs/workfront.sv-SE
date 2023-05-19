@@ -5,9 +5,9 @@ title: Förstå objekt i [!DNL Adobe Workfront]
 description: Förstå objekt i [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '1972'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ Du kan rapportera följande objekt när du använder rapportverktyget i [!DNL Wo
 * [!UICONTROL Filter]
 * [!UICONTROL Goal]
 
-   Du kan skapa en rapport för strategiska mål eller så kan du visa målrelaterad information i en projektrapport när projekt är kopplade till mål som målaktiviteter. Du kan skapa strategiska mål och koppla ihop projekt med dem endast om din organisation har köpt en [!DNL Workfront Goals] licens. Mer information om [!DNL Workfront Goals], se [[!DNL Workfront Goals] översikt](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en). Mer information om hur du ansluter projekt till strategiska mål finns i [Lägga till projekt i mål i Adobe Workfront-mål](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en).
+   Du kan skapa en rapport för strategiska mål eller så kan du visa målrelaterad information i en projektrapport när projekt är kopplade till mål som målaktiviteter. Du kan skapa strategiska mål och koppla ihop projekt med dem endast om din organisation har köpt en [!DNL Workfront Goals] licens. Mer information om [!DNL Workfront Goals], se [[!DNL Workfront Goals] översikt](../../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om hur du ansluter projekt till strategiska mål finns i [Lägga till projekt i mål i Adobe Workfront-mål](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
    <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -277,23 +277,13 @@ Du kan rapportera följande objekt när du använder rapportverktyget i [!DNL Wo
 * [!UICONTROL Hour Type]
 * [!UICONTROL Initiative]
 
-   Du kan bara skapa en rapport för initiativ som är underordnade objekt till en plan om ditt företag har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om initiativ finns i [Översikt över initiativen i [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience).
+   Du kan bara skapa en rapport för initiativ som är underordnade objekt till en plan om ditt företag har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om initiativ finns i [Översikt över initiativen i [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * Initiera jobbroll
 
-   Du kan bara skapa en rapport för de jobbroller som är kopplade till initiativen i en plan om ditt företag har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om hur du skapar initiativ och associerar dem med jobbroller finns i [Skapa och redigera i [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience).
+   Du kan bara skapa en rapport för de jobbroller som är kopplade till initiativen i en plan om ditt företag har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om hur du skapar initiativ och associerar dem med jobbroller finns i [Skapa och redigera i [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]

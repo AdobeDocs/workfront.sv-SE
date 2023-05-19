@@ -6,9 +6,9 @@ description: Genom att förstå hur man skapar rapporter får man tillgång till
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1786'
 ht-degree: 0%
 
 ---
@@ -129,8 +129,9 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
    >[!NOTE]
    >
    >Om du lägger till ett fält som refererar till ett objekt som är för långt bort från det objekt som du rapporterar om, kanske du inte kan sortera efter det här fältet.\
-   >En problemrapport kan till exempel inte sorteras efter fältet Projektägare eftersom den refererar till ytterligare tre objekt: Projekt, ägare och namn. Du kan dock fortfarande lägga till det här fältet i en problemrapport och se informationen för det.\
-   >Om du vill veta mer om korsobjektsreferenser i rapporter kan du läsa avsnittet&quot;Advanced Reporting Part 1 of 3&quot; i [Utbildningsväg för rapporter och instrumentpaneler](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).
+   >En problemrapport kan till exempel inte sorteras efter fältet Projektägare eftersom den refererar till ytterligare tre objekt: Projekt, ägare och namn. Du kan dock fortfarande lägga till det här fältet i en problemrapport och se informationen för det.
+
+   <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
 1. (Valfritt) Om du använder grupperingar och vill sammanfatta (sammanfoga) informationen i en kolumn klickar du på **Sammanfatta den här kolumnen med** nedrullningsbar lista i **Kolumninställningar** markerar du det alternativ som du vill använda för att sammanställa informationen i kolumnen.
 

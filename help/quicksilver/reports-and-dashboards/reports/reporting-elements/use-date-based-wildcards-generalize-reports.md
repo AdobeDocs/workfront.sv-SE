@@ -6,9 +6,9 @@ description: Du kan generera en rapport genom att använda jokertecken i ställe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Så här infogar du ett datumbaserat jokertecken i en rapport:
 
 Se även:
 
-* [Grundläggande program för att skapa rapporter](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

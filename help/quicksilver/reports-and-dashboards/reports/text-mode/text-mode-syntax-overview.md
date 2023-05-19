@@ -6,9 +6,9 @@ description: Du kan använda textlägesgränssnittet för att skapa mer komplexa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ En fullständig lista över alla våra rapportbara fält och deras attribut finn
 ## Överväganden om syntax i textläge
 
 * Du måste förstå Adobe Workfront-syntax innan du kan börja skapa rapportelement i textläge. Workfront-syntaxen för textläge är unik för det här programmet och har unika egenskaper som du måste känna till.
-* Innan du börjar använda textläge i dina rapporter rekommenderar vi att du går igenom våra lektioner för avancerad rapportering för att få en bättre förståelse för vårt textläge. Information om utbildningsmaterial finns på [Workfront rapporter och instrumentpaneler Utbildningsvägar](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Innan du börjar använda textläge i dina rapporter rekommenderar vi att du går igenom våra lektioner för avancerad rapportering för att få en bättre förståelse för vårt textläge. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Du kan anpassa vyer, filter och grupperingar med hjälp av standardlägesgränssnittet. Du kan dock endast skapa anpassade uppmaningar i textläge.
 
 ## Allmänna riktlinjer för att skapa rapportelement i textläge

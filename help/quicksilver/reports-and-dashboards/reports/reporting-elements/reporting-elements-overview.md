@@ -7,9 +7,9 @@ description: Alla rapporter och listor från Adobe Workfront är en kombination 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Mer information om hur du skapar ett diagram i en rapport finns i [Lägga till e
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Grundläggande program för att skapa rapporter](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
 * [Rapportelement: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
