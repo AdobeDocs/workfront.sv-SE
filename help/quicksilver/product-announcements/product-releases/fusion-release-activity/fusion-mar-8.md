@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: ca3d2a50-fe85-46de-b871-dc1f135382a5
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ För att göra det enklare för dig att hitta de objekt som du vill mappa i dina
 
 Mer information om mappning finns i [Mappa information från en modul till en annan i Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-Den här funktionen ingår nu i [Universella anslutningar och routning i Workfront Fusion](https://one.workfront.com/s/learningpath4/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Universella anslutningar och routning i Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) utbildningsväg på Adobe Experience League.

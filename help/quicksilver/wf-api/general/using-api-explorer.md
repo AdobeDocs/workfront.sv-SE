@@ -6,7 +6,7 @@ description: Använda API Explorer
 author: Becky
 feature: Workfront API
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -20,7 +20,7 @@ När du använder API:t Adobe Workfront Core är API Explorer ett äldre referen
 
 ## Öppna API-utforskaren:
 
-1. Använd en webbläsare för att navigera till [API Explorer](https://one.workfront.com/s/api-explorer)\
+1. Använd en webbläsare för att navigera till [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
 1. I det övre högra hörnet av API-utforskaren väljer du önskadWorkfront **API-version**, som standard markeras den senaste versionen automatiskt
