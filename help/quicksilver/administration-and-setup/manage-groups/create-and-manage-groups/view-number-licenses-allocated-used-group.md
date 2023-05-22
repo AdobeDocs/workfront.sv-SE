@@ -1,13 +1,13 @@
 ---
 title: Visa antalet licenser som allokerats och använts i en grupp
 description: Som Adobe Workfront-administratör kan du visa antalet av de enskilda licenstyper som för närvarande används i din grupp och dess undergrupper. Detta är användbart när du behöver utvärdera om du ska distribuera licenser.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront</a>*</td> 
-   <td> <p>Team eller högre</p> </td> 
+   <td role="rowheader">Workfront-plan*</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront-licens</a>*</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 

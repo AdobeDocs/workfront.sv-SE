@@ -5,13 +5,13 @@ keywords: visa,grupp,händelse,meddelanden,konfigurera,aktivera,inaktivera
 navigation-topic: create-and-manage-groups
 title: Visa och konfigurera händelsemeddelanden för en grupp
 description: Som gruppadministratör kan du visa händelsemeddelanden som aktiveras för en grupp som du hanterar. Om en Adobe Workfront-administratör låser upp ett händelsemeddelande kan du konfigurera det för en toppnivågrupp som du hanterar. Konfigurationen av ett händelsemeddelande består av att aktivera eller inaktivera det.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 306d6493ff0413d5814f4aed8ab44fb897f3568d
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront</a>*</td> 
-   <td> <p>Pro eller högre</p> </td> 
+   <td role="rowheader">Workfront-plan*</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront-licens</a>*</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 

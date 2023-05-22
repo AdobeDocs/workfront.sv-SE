@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
+source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2732'
 ht-degree: 0%
 
 ---
@@ -655,7 +655,7 @@ Mer information om underhållsuppdateringar som gjordes i version 23.2 finns i [
 
 ### Utbildningsuppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i [Uppdateringssida för utbildningsversioner](https://one.workfront.com/s/training-release-updates).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i [Uppdateringssida för utbildningsversioner](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funktioner som snart ska tas bort från Workfront
 
