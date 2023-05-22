@@ -6,9 +6,10 @@ title: Hantera arbetsflöden
 description: Ett arbetsflöde är en konfigurerbar grupp av brädor och kort för samarbete i arbetet.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
+source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -100,6 +101,7 @@ Personer och team måste läggas till i arbetsflödet som medlemmar innan de kan
 1. Klicka på [!UICONTROL **Visa arbetsflöde**] för att öppna ett arbetsflöde.
 1. Klicka [!UICONTROL **Konfigurera**] för att öppna [!UICONTROL Configure Workstream] -panelen.
 1. (Valfritt) Skriv en beskrivning av arbetsflödet. Beskrivningen visas på kontrollpanelen.
+1. (Valfritt) Lägg till taggar i arbetsflödet. Mer information finns i [Lägg till taggar](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
    Det totala antalet kort, antalet spetsiga kort och antalet iterationer visas i avsnittet Kortlista. Klicka [!UICONTROL **Visa lista**] för att öppna listan och lägga till kort. Mer information finns i [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
@@ -109,4 +111,3 @@ Personer och team måste läggas till i arbetsflödet som medlemmar innan de kan
 1. Lägg till filter för att importera uppgifter och utgåvor från Workfront som kort.
 
    Att lägga till filter för arbetsflödeskällor är detsamma som att lägga till filter för en inloppskolumn på en grundbräda eller på en kanban-bräda. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
-

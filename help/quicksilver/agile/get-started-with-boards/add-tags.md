@@ -6,16 +6,16 @@ description: Du kan lägga till taggar till kort för att visa att de liknar var
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
+source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Lägg till taggar
 
-Du kan lägga till taggar till kort för att visa att de liknar varandra. Sedan kan du filtrera efter dessa taggar för att visa relaterade kort. Taggar delas inte mellan ritytor.
+Du kan lägga till taggar till kort för att visa att de liknar varandra. Sedan kan du filtrera efter dessa taggar för att visa relaterade kort. Kortmärkord delas inte mellan ritytor, men arbetsflödestaggar är tillgängliga på alla ritytor i ett arbetsflöde.
 
 ## Åtkomstkrav
 
@@ -40,24 +40,39 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta [!DNL Workfront] administratör.
 
-## Skapa taggar för din anslagstavla
+## Skapa taggar för en anslagstavla
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Tag Manager]**.
 
-   ![Välj Tagghanteraren.](assets/boards-tagmanager-350x189.png)
+   ![Välj tagghanteraren](assets/boards-tagmanager-350x189.png)
 
-1. I **[!UICONTROL Edit tags]** väljer **[!UICONTROL Create tag]**.
-1. Skriv taggnamnet i den markerade rutan och välj sedan en färg för den här taggen i listrutan.
-1. Klicka på **[!UICONTROL Save]** -ikonen för att spara -taggen eller **[!UICONTROL Cancel]** om du vill avbryta skapandet av taggen.
-
-   ![](assets/boards-savecancelnewtag-350x38.png)
-
-1. (Villkorligt) Upprepa steg 4-6 för att skapa ytterligare taggar.
+1. I [!UICONTROL Tag Manager] väljer [!UICONTROL **Lägg till tagg**] i [!UICONTROL Board Tags] -avsnitt.
+1. Skriv taggnamnet i den markerade rutan och välj sedan en färg för den här taggen i listrutan. Taggen sparas automatiskt.
+1. (Villkorligt) Upprepa steg 4-5 för att skapa ytterligare taggar.
 1. Klicka **[!UICONTROL Done]** i rutans övre högra hörn.
 
-   ![](assets/boards-edittagsdialog-350x205.png)
+   ![Tagghanteraren](assets/tag-manager-2023.png)
+
+## Skapa taggar för ett arbetsflöde
+
+{{step1-to-boards}}
+
+1. Klicka på [!UICONTROL **Visa arbetsflöde**] för att öppna ett arbetsflöde.
+1. Öppna en anslagstavla. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Tag Manager]**.
+
+   eller
+
+   Klicka [!UICONTROL **Konfigurera**] för att öppna [!UICONTROL Configure Workstream] -panelen. Klicka sedan på **[!UICONTROL Tag Manager]**.
+
+1. I [!UICONTROL Tag Manager] väljer [!UICONTROL **Lägg till tagg**] i avsnittet Arbetsflödestaggar.
+1. Skriv taggnamnet i den markerade rutan och välj sedan en färg för den här taggen i listrutan. Taggen sparas automatiskt.
+1. (Villkorligt) Upprepa steg 4-5 för att skapa ytterligare taggar.
+1. Klicka **[!UICONTROL Done]** i rutans övre högra hörn.
+
+   ![Tagghanteraren](assets/tag-manager-workstreams.png)
 
 ## Lägga till en tagg på ett kort
 
@@ -70,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. I **[!UICONTROL Tags]** skriver du namnet på en befintlig tagg och markerar den i sökresultatet.\
    eller\
-   Klicka på **[!UICONTROL Edit]**&#x200B; ![Redigera tagg](assets/boards-edittag-30x29.png) och skapa en ny tagg i tagghanteraren. Klicka **Klar** för att återgå till kortet. Den nya taggen läggs automatiskt till på kortet.
+   Klicka på **[!UICONTROL Edit]**&#x200B; ![Redigera tagg](assets/boards-edittag-30x29.png) och skapa en ny tagg i tagghanteraren. Klicka **Klar** om du vill gå tillbaka till kortet markerar du taggen på kortet.
 1. Klicka **Stäng**.
 
 ## Redigera en tagg
@@ -98,11 +113,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ta bort en tagg
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka på **[!UICONTROL More]**&#x200B;-menyn bredvid styrelsens namn och välj **[!UICONTROL Tag Manager]**.
+1. Gå till en anslagstavla.
+1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Tag Manager]**.
 
-   ![Välj Tagghanteraren.](assets/boards-tagmanager-350x189.png)
+   ![Välj tagghanteraren](assets/boards-tagmanager-350x189.png)
 
 1. Leta reda på taggen som du vill ta bort och klicka sedan på **[!UICONTROL Delete]** icon ![Ta bort tagg](assets/copy-of-boards-delete-30x27.png).
 1. Klicka på **[!UICONTROL Done]**.
