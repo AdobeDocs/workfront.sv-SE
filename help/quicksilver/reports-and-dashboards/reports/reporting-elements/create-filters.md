@@ -6,9 +6,9 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2405'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,7 @@ Skapa ett filter med standardgränssnittet i Builder:
    </tr>
    <tr>
    <td role="rowheader"><strong>Sparad</strong></td>
-   <td>Filter som du har skapat och sparat själv.</td>
+   <td>Filter som du har skapat och sparat själv. Som standard visas sparade filter i den här listan i den ordning som de senast sparades, men filternamnen kan dras för att ändra ordningen på listan manuellt.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Systemstandard</strong></td>
