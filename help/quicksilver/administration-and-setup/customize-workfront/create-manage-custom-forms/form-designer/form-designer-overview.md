@@ -7,9 +7,10 @@ description: Du kan utforma ett anpassat formulär som användare kan bifoga til
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
+source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -45,8 +46,6 @@ Med den nya formulärdesignern har vi lagt till möjligheten att
 ## Funktioner kommer snart
 
 Följande är för närvarande inte tillgängligt i formulärdesignern, men kommer snart att läggas till:
-
-* Justera storleken på beskrivande text
 
 * Visa/hoppa över logik
 
