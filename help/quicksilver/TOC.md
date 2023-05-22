@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 9b83e1c4a89fa94fe26888e682676c84be1d1d85
+source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13012'
 ht-degree: 0%
 
 ---
@@ -2505,7 +2505,6 @@ ht-degree: 0%
       * [API Explorer](wf-api/general/api-explorer.md)
       * [Använda API Explorer](wf-api/general/using-api-explorer.md)
       * [RTF-fält i Adobe Workfront API](wf-api/general/rich-text-field-api.md)
-      * [Adobe Workfront API Developer Forum](wf-api/general/api-developer-forum.md)
       * [API-exempelskript](wf-api/general/api-example-scripts.md)
       * [Synkronisera data för program och tjänster med API:t](wf-api/general/api-sync-data.md)
       * [Inaktivera en användare via API](wf-api/general/deactivate-user-api.md)

@@ -5,9 +5,9 @@ title: The [!DNL Adobe Workfront] Community
 description: TheAdobe [!DNL Workfront] Community är en onlinegrupp på över 10 000 [!DNL Workfront] -användare. Via communityn kan ni hålla er uppdaterade om produktreleaser, lära er mer om kundevent och prata med andra användare om [!DNL Workfront] produkter och tjänster. Du hittar svar på frågor och skapar kontakter med andra [!DNL Workfront] kunder.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Om du inte kommer ihåg ditt lösenord för communityn kan du kontakta [!DNL Wor
 
 ### Vad är URL:en för [!DNL Workfront] Community?
 
-The [!DNL Workfront] Community finns på [!DNL Workfront One] på följande webbadress:  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+The [!DNL Workfront] Community finns på [!DNL Adobe Experience League] på följande webbadress:  [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Vad är min underdomän? {#what-s-my-subdomain}
 

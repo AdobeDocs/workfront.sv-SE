@@ -5,9 +5,9 @@ title: Snabbguide till hur du hittar hjälp i [!DNL Adobe Workfront]
 description: Snabbguide till hur du hittar hjälp i [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: ccc20edf13c2cdec1d81d5ab90dcd0d24c0e2ff3
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -93,15 +93,6 @@ Följande resurser kan hjälpa dig att avgöra hur du kan använda [!DNL Workfro
    <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] Community</a> </td> 
    <td>The [!DNL Workfront] Med Community kan du ha konversationer med [!DNL Workfront] användare och experter över hela världen. De finns alltid till hands för att besvara dina frågor eller för att peka dig i rätt riktning.</td> 
   </tr> 
-  <!--<tr> 
-   <td><a href="https://one.workfront.com/s/groups" target="_blank">User groups</a> </td> 
-   <td>Come together with other [!DNL Workfront] users in your geographical, industry, and interest areas to share and learn, both virtually and in person.</td> 
-  </tr> --><!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td><a href="https://www.workfront.com/leap">Leap</a> </td> 
-    <td> <p>This premier modern work management event is designed to help you gain the skills to master modern work.</p> <p>Leap is your opportunity to network with the largest collection of Workfront users each year. Learn from the brightest minds in keynotes, interactive breakouts, and one-on-one consulting sessions. Get a sneak peek of the Workfront product roadmap and discover how companies like yours are leveraging Workfront as their operational system of record.<br>To learn more, see <a href="https://www.workfront.com/leap-us/whyattend">Why to attend Leap</a>.</p> </td> 
-   </tr>
-  --> 
  </tbody> 
 </table>
 
@@ -126,7 +117,7 @@ Dessa tre steg kan hjälpa dig som [!DNL Workfront] administratören håller sig
    <td> 
     <ul> 
      <li> <p>Testa de senaste uppdateringarna i [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
-     <li> <p>Bestäm hur uppdateringarna påverkar hur dina medarbetare arbetar. Våra <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Knowledge Base</a> och <a href="https://one.workfront.com/s/event?tabset-79c36=e4025&amp;tabset-0ce9c=e4025">webbinarier</a> kan hjälpa! Våra produktchefer berättar ofta om det direkta problem som slutanvändaren eller företaget har löst genom funktionen, vilket hjälper dig att minska ändringseffekten.</p> </li> 
+     <li> <p>Bestäm hur uppdateringarna påverkar hur dina medarbetare arbetar. Våra <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Knowledge Base</a> och <a href="https://experienceleague.adobe.com/events/?lang=en">händelser</a> kan hjälpa! Våra produktchefer berättar ofta om det direkta problem som slutanvändaren eller företaget har löst genom funktionen, vilket hjälper dig att minska ändringseffekten.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -154,9 +145,8 @@ Följande resurser kan hjälpa dig att lära dig mer om [!DNL Workfront] API och
 |---|---|
 | [[!DNL Workfront] inbyggda integreringar](https://www.workfront.com/integrations) | Workfront kostnadsfria inbyggda integreringar gör att du och ditt team smidigt kan gå över till Workfront-plattformen samtidigt som samma arbetsflöden och processer bibehålls. |
 | [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Anslutningar [!DNL Workfront] till över 100 program, vilket gör det enkelt att automatisera verksamhetskritiska processer utan kod. |
-| [[!DNL Adobe Workfront] API Developer Forum](../../wf-api/general/api-developer-forum.md) | För dem som vill få tillgång till API-dokumentation, delta i vårt utvecklingsforum eller läsa vår tekniska blogg är den här webbplatsen din plats. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## När gör [!DNL Workfront] underhålls? Hur får jag reda på om [!DNL Workfront] Är du nere?
 
@@ -170,6 +160,6 @@ Information om vad som har korrigerats i en underhållsuppdatering varje vecka f
 
 Följande instrumentpaneler kan hjälpa dig som [!DNL Workfront] administratör underhåller Workfront:
 
-| [[!DNL Workfront] Kontrollpanel för användning](https://one.workfront.com/s/article/Workfront-Usage-Dashboard) | Förstå hur användarna utnyttjar [!DNL Workfront] kan hjälpa dig att mäta hur systemet används i allmänhet och upptäcka eventuella problemområden som behöver åtgärdas. |
+| [[!DNL Workfront] Kontrollpanel för användning](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Förstå hur användarna utnyttjar [!DNL Workfront] kan hjälpa dig att mäta hur systemet används i allmänhet och upptäcka eventuella problemområden som behöver åtgärdas. |
 |---|---|
-| [[!DNL Workfront] Kontrollpanel för rensning: Inaktivera oanvända objekt](https://one.workfront.com/s/article/Workfront-Cleanup-Dashboard) | Keeping [!DNL Workfront] att rensa bort oanvända objekt är en långvarig och bra metod som kan verka skrämmande utan rätt verktyg. Kontrollpanelen är utformad för att systemadministratörer eller processägare enkelt ska kunna hitta [!DNL Workfront] data som kan behöva rensas bort för att förbättra användarupplevelsen. Vi rekommenderar att du granskar den här instrumentpanelen varje kvartal för att [!DNL Workfront] ren. |
+| [[!DNL Workfront] Kontrollpanel för rensning: Inaktivera oanvända objekt](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] att rensa bort oanvända objekt är en långvarig och bra metod som kan verka skrämmande utan rätt verktyg. Kontrollpanelen är utformad för att systemadministratörer eller processägare enkelt ska kunna hitta [!DNL Workfront] data som kan behöva rensas bort för att förbättra användarupplevelsen. Vi rekommenderar att du granskar den här instrumentpanelen varje kvartal för att [!DNL Workfront] ren. |

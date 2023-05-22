@@ -5,9 +5,9 @@ title: Innovation Lab
 description: The [!UICONTROL Innovation Lab] gör det möjligt för autentiserade användare att skicka in, rösta på och diskutera idéer med andra kunder.
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Som autentiserad användare kan du:
 
 Rösta på en idé:
 
-1. Logga in på [!DNL Adobe Workfront] Community på [!DNL Workfront One] på följande URL:  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+1. Logga in på [!DNL Adobe Workfront] Community på [!DNL Adobe Experience League] på följande URL:  [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
-1. Klicka på **[!UICONTROL Collaboration]** tabbtangenten och sedan klicka **[!UICONTROL Innovation Lab]**.
+1. Klicka på **[!UICONTROL Ideas]** -fliken.
 
 1. Sök efter den idé du vill rösta på.
 1. Klicka på idén.

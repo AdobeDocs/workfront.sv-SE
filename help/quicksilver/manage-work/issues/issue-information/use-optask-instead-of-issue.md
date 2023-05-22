@@ -6,7 +6,7 @@ description: Namnet på ett problem visas som opTask i Adobe Workfront-databasen
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Namnet på ett problem visas som `opTask` i Adobe Workfront-databasen. Även om du behöver använda `issue` fältnamn för att hänvisa till problem, oftast måste du använda `opTask` fältnamn i stället för `issue` när du refererar till problem.
 
-Mer information om hur objekt visas i Workfront-databasen finns i [API Explorer](https://one.workfront.com/s/api-explorer).
+Mer information om hur objekt visas i Workfront-databasen finns i [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 ## `opTask` filnamn
 
@@ -46,7 +46,7 @@ Mer information om rapportering om samlingar finns i [Referenssamlingar i en rap
 <!--
 <note type="tip">
 For information about how issues appear in a collection, see the
-<a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
+<a href="https://developer.adobe.com/workfront/api-explorer/" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
 <br>(NOTE: Drafted because this might not be needed.)
 </note>
 -->
