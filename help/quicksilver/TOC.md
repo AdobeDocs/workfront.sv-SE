@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: f299ecfe72a588331bd8b003e9a42d112c374635
+source-git-commit: 9b83e1c4a89fa94fe26888e682676c84be1d1d85
 workflow-type: tm+mt
-source-wordcount: '13005'
+source-wordcount: '13017'
 ht-degree: 0%
 
 ---
@@ -439,6 +439,7 @@ ht-degree: 0%
          * [Översikt över nya licenser](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
          * [Tillgång till objekt och ytor med nya licenser](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * Hur åtkomstnivåer fungerar {#legacy-access-levels}
          * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [Åtkomstöversikt](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
