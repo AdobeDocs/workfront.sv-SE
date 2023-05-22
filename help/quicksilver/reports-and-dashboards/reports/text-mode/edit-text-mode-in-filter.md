@@ -6,9 +6,9 @@ description: 'OBS! lägg till ett avsnitt i den här artikeln: /content/Reports 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 -->
 
 Du kan redigera ett filter i en lista eller rapport i textläge för att komma åt fält som inte är tillgängliga i standardgränssnittet och skapa mer komplexa filter.
+
+Fler exempel på textläge när du skapar ett filter finns i avsnittet Exempel på anpassade filter i artikeln [Exempel på anpassad vy, filter och gruppering](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Åtkomstkrav
 
@@ -62,7 +64,7 @@ Mer information finns i:
 
 ## Redigera textläge i ett filter
 
-Att redigera ett filter i textläge är identiskt för rapporter och listor. Åtkomsten till vyn från en rapport eller från en lista skiljer sig åt.
+Att redigera ett filter i textläge är identiskt för rapporter och listor. Åtkomsten till filtret från en rapport eller från en lista skiljer sig åt.
 
 >[!TIP]
 >
@@ -87,17 +89,19 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
     <col> 
     <tbody> 
      <tr> 
-      <td>Filterrad/information</td> 
-      <td>Exempel</td> 
+      <td><b>Filterrad/information</b></td> 
+      <td><b>Exempel</b></td> 
      </tr> 
      <tr> 
       <td> <p>Fältnamn och det värde som det motsvarar så som de visas i Workfront-databasen.</p> <p>Denna rad är obligatorisk.</p> <p> Mer information om hur objekt och fält visas i databasen finns i <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Använd följande rad om du vill filtrera efter pågående uppgifter:</p> <p><code>status=INP</code> </p> <p>Tips: När du filtrerar efter status måste du använda statuskoden med tre bokstäver och inte namnet.</p> </td> 
-     </tr> 
+      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Använd följande rad om du vill filtrera efter pågående uppgifter:</p> <p><code>status=INP</code> </p> <p><b>TIPS</b>
+
+   När du filtrerar efter status måste du använda statuskoden med tre bokstäver och inte namnet.</p> </td>
+   </tr> 
      <tr> 
       <td> <p>Fältnamnsmodifierare och vad modifieraren motsvarar. Detta anger vilka villkor som fältet du filtrerar efter måste uppfylla.</p> <p>Denna rad är obligatorisk.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Om du vill ange att statusen för de uppgifter som du filtrerar efter måste vara samma som Pågår ska du använda följande rad förutom den ovan:</p> <p><code>status_Mod=in</code> </p> <p>Om modifieraren är ett intervall finns det två rader som anger modifieraren.</p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Exempel: </b></span></span> 
+       <div> <span class="autonumber"><span><b>EXEMPEL </b></span></span> 
         <p>Det här är ett textlägesfilter som söker efter pågående uppgifter som har ett planerat slutförandedatum under den aktuella månaden och som tilldelas en användare med ett specifikt GUID:</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -116,7 +120,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
          <li> <p>När du ändrar operatorn från AND till OR kan antalet listobjekt öka.</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Exempel: </b></span></span> 
+       <div> <span class="autonumber"><span><b>EXEMPEL </b></span></span> 
         <p>Använd följande om du vill filtrera efter uppgifter med statusen Pågår eller med datumet för planerad slutförande: </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
@@ -127,7 +131,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
      <tr> 
       <td> <p>Ett jokertecken som gör att du kan generera information i ett filter och referera till aktuell tid eller till användaren som är inloggad.</p> <p>Jokertecken är valfria.</p> <p>Tips:   <p>Vi rekommenderar att du använder jokertecken när det är möjligt för att göra filtren mer dynamiska och inte duplicera samma filter för varje användare eller liknande tidsramar.</p> <p>Mer information om att filtrera jokertecken finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabler för jokertecken</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Exempel: </b></span></span> 
+       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>EXEMPEL</b></span></span> 
         <p>Använd följande om du vill filtrera efter uppgifter som tilldelats användaren som är inloggad:</p> 
         <p><code>assignedToID=$$USER.ID</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -169,3 +173,5 @@ Använd följande om du vill filtrera efter uppgifter som har statusen Pågår e
 
 1. Klicka **Klar** om du vill spara ändringarna och fortsätta redigera rapporten eller filtret.
 1. Klicka **Spara + Stäng** för att spara rapporten eller **Spara filter** för att spara filtret i listan.
+
+

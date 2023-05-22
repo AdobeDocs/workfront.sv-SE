@@ -6,9 +6,9 @@ description: Du kan förbättra dina rapporter genom att lägga till ett diagram
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Lägga till en **Liggande** diagram till din rapport:
    Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
 
 1. (Valfritt) Välj **Visa i 3D** om du vill visa diagrammet i en tredimensionell vy.
-1. (Valfritt)**Gruppfält**: Välj det här alternativet om du vill definiera hur staplarna ska grupperas.\
+1. (Valfritt) Grupperingsfält**: Välj det här alternativet om du vill definiera hur staplarna ska grupperas.\
    Välj bland följande alternativ:
 
    * Klicka på något av följande alternativ för att välja hur de grupperade fälten ska visas:\
@@ -233,8 +233,21 @@ Lägga till en **Bubbla** diagram till din rapport:
    >Mer information om att sammanfatta informationen i en rapportkolumn finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. I **Bubblor** markerar du den gruppering som du vill ta med i diagrammet. Grupperingen representeras av placeringen av bubblorna i diagrammet.
-1. I **Bubbelfärg** markerar du det fält som du vill ska representeras av bubblornas färger. The **Bubbelfärg** kan vara en gruppering som du definierar i rapporten, men den kan bara vara fält från det objekt som du har markerat som **Bubblor**. Om du till exempel har valt Uppgiftsnamn kan du lägga till Uppgiftsstatus, men inte Projektstatus som **Bubbelfärg**.\
+1. I **Bubbelfärg** markerar du det fält som du vill ska representeras av bubblornas färger.
+
    ![](assets/qs-bubble-chart-350x103.png)
+
+
+   The **Bubbelfärg** kan vara en gruppering som du definierar i rapporten, men den är bara tillgänglig när du väljer **Namn** kolumn för rapportens objekt i **Bubblor** fält.
+
+   Om du till exempel har valt **Aktivitetsnamn** i en uppgiftsrapport kan du lägga till **Aktivitetsstatus** som **Bubbelfärg** fält.
+
+   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+
+   Men om du har valt **Aktivitetsstatus** för **Bubblor** fält kan du inte välja **Bubbelfärg** fält. Du kan inte heller välja **Projektnamn** för **Bubbelfärg** fält, även när du markerar **Aktivitetsnamn** för **Bubbla** fält.
+
+   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+
 
 1. Klicka **Spara + Stäng** för att spara ändringarna i gränssnittsverktyget.
 
@@ -324,4 +337,4 @@ Tänk på följande begränsningar när du arbetar med diagram:
 
 * Du kan inte redigera teckenförklaringen för diagrammet.
 * När du använder beräkningsfält för dina grupperingar kan du inte klicka på diagramelementen.
-* Den största mängden datapunkter som kan visas i ett diagram är fyra i ett bubbeldiagram. Alla andra diagramtyper visar två eller högst tre datapunkter.
+* Det största antalet datapunkter som du kan visa i ett diagram är fyra i ett bubbeldiagram. Alla andra diagramtyper visar två eller högst tre datapunkter.
