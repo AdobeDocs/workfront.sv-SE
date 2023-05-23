@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Sandlådan Preview fungerar som en miljö där användare i organisationen kan t
 
 Sandlådan Preview innehåller dina faktiska produktionsdata; Men den uppdateras varje helg så att data kan ligga upp till en vecka bakom produktionsmiljön. Objekt som har skapats sedan den senaste uppdateringstiden finns i förhandsvisningens sandlådemiljö tills nästa uppdatering.
 
-Data flödar åt samma håll, från produktion till förhandsgranskning, och inte åt andra hållet. En uppdatering av förhandsvisningsmiljön schemaläggs alltid av [!DNL Workfront] varje helg. Mer information om uppdateringens specifika dag och tid finns på [status.adobe.com](https://status.adobe.com/).
+Data flödar åt samma håll, från produktion till förhandsgranskning, och inte åt andra hållet. En uppdatering av förhandsvisningsmiljön schemaläggs alltid av [!DNL Workfront] varje helg.
 
 Förhandsgranska sandlådan tillåter även [!DNL Workfront] för att driftsätta nya funktioner i en säker miljö, innan de är klara att driftsättas för produktion. Du kan testa de nya funktionerna och ge [!DNL Workfront] ge feedback om deras funktionalitet genom att gå till förhandsgranskningssandlådan. Därför ligger koden för förhandsvisningssandlådan alltid före produktionskoden, även om dina data uppdateras varje vecka.
 
