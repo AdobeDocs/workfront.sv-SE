@@ -7,9 +7,9 @@ description: Förhandsvisningsmiljön uppdateras en gång i veckan med nya funkt
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Om funktioner tas bort från kvartalsversionen efter att alla funktioner är til
 Ibland lanserar Workfront nya funktioner som en del av ett betaprogram.
 Den specifika informationen om varje betaversion, inklusive hur man deltar, släpps när varje betaprogram startas och alla betaprogram är olika.
 
-Följande typer av betaprogram finns från Workfront:
+Följande betaprogram kan köpas från Workfront:
 
 * **Avslutade eller privata betaversioner**: Följande är egenskaper för en sluten eller privat betaversion:
 
@@ -59,7 +59,7 @@ Följande typer av betaprogram finns från Workfront:
 * **Open eller public beta**: Här följer några exempel på en öppen eller offentlig betaversion:
 
    * Funktionerna är tillgängliga för alla Workfront-kunder, men är i betaversion. De kanske inte alltid fungerar som de ska och feedback är alltid välkommen.
-   * Deltagandet i en betaversion är valfritt och kunderna kan själva bestämma om betafunktionerna ska användas.
+   * Deltagandet i en betaversion är valfritt och kunderna kan själva bestämma om de vill använda betafunktionerna.
    * Nya funktioner som ingår i betaversionen kan släppas antingen i Förhandsgranska eller Produktion.
    * Funktioner kan släppa oftare än de vanliga releasemönstren för Workfront.
    * Information om när funktioner släpps på en betaversion finns på produktreleasesidorna.
@@ -82,7 +82,6 @@ Versionsinformationen innehåller en tabell med en lista över funktioner i den 
 
 * Förhandsgranska releasedatum
 * Produktionsfrisläppningsdatum
-* Tillgänglighet i nya Adobe Workfront och/eller Adobe Workfront Classic
 
 Exempel:
 
