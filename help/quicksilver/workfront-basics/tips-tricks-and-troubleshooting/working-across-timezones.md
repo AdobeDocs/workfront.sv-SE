@@ -2,10 +2,10 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Arbeta över tidszoner
-description: Det kan vara till hjälp att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna följande - EDIT ME.
+description: Det kan vara till hjälp att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna tidsfält för objekt och tidpunkter i andra områden, t.ex. e-postmeddelanden.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -25,10 +25,7 @@ Times du ser in [!DNL Workfront] baseras på tidszonskonfigurationer för din or
 
 >[!NOTE]
 >
-><div class="preview">I ett anpassat formulär som bifogas till ett objekt beräknas och sparas datum- och tidssatser i beräknade anpassade fält med UTC (Coordinated Universal Time), inte med de tidszonskonfigurationer som angetts för organisationens instans och din användarprofil. Beräkningar i ett anpassat formulär genereras och visas baserat på varje användares enskilda tidszoner.</div>
-
-
-
+>I ett anpassat formulär som bifogas till ett objekt beräknas och sparas datum- och tidssatser i beräknade anpassade fält med UTC (Coordinated Universal Time), inte med de tidszonskonfigurationer som angetts för organisationens instans och din användarprofil. Beräkningar i ett anpassat formulär genereras och visas baserat på varje användares enskilda tidszoner.
 
 * [Din organisations [!DNL Workfront] instance](#your-organization-s-workfront-instance)
 * [Din användarprofil](#your-user-profile)
@@ -48,7 +45,10 @@ Tidszonen för din organisations [!DNL Workfront] -instansen anges vanligtvis f�
 
 Tidszonen i din användarprofil bör konfigureras för den plats där du arbetar. Detta avgör följande:
 
-* Den tid som visas i din utgående [!DNL Workfront] e-postmeddelanden
+<!--
+* The time shown in your outgoing [!DNL Workfront] email messages
+[NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
+-->
 * Tider för ett objekt som du arbetar med, t.ex. start- och sluttider
 
    Om användare i flera tidszoner tilldelas till ett objekt, [!DNL Workfront] konverterar objekttiderna för alla berörda med hjälp av den tidszon som har konfigurerats i varje användarprofil.
