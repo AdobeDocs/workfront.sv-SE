@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du ansluta ditt e-postkonto 
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: ea19c2a58bac322c804fca3f6bb7d7147efa4d9a
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2062'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,6 @@ Utlöses när ett nytt e-postmeddelande tas emot för bearbetning enligt angivna
 * [[!UICONTROL Copy an Email]](#copy-an-email)
 * [[!UICONTROL Delete an Email]](#delete-an-email)
 * [[!UICONTROL Get Emails]](#get-emails)
-* [[!UICONTROL Send me an Email]](#send-me-an-email)
 
 #### [!UICONTROL Send an Email]
 
@@ -541,25 +540,6 @@ Returnerar e-postmeddelanden som matchar de angivna villkoren.
   <tr> 
    <td role="rowheader">[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
    <td> <p> Välj om du vill fortsätta att köra modulen även om inga resultat returneras.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Send me an Email]
-
-Skickar ett nytt e-postmeddelande till din e-postadress.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Subject] </td> 
-   <td> <p>Ange eller mappa ämnesraden för e-postmeddelandet.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Content] </td> 
-   <td> <p>Ange e-postmeddelandets brödtext.</p> </td> 
   </tr> 
  </tbody> 
 </table>
