@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: b764ac92524b896a4aba9baf337ba14a5bebfa43
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Mer information om den här funktionen i Experience Manager Assets as a Cloud Se
 Mer information om den här funktionen finns i Experience Manager Assets Essentials, [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Skapa anpassade formulär med den nya betaversionen av formulärdesignern
+
+>[!IMPORTANT]
+>
+>Betaversionen av formulärdesignern inaktiverades tillfälligt den 24 maj 2023. Du kan använda det äldre formulärverktyget för att skapa och redigera anpassade formulär. Se [Skapa eller redigera ett anpassat formulär med det äldre formulärverktyget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Den nya formulärdesignern finns nu i en betaversion och har en ny arbetsyta som gör att du kan visa fält, arbetsyta och fältinställningar samtidigt.
 

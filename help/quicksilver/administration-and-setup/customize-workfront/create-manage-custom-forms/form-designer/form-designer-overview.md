@@ -8,14 +8,18 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # Översikt över formulärdesignern
+
+>[!IMPORTANT]
+>
+>Formulärdesignern inaktiverades tillfälligt den 24 maj 2023. Du kan använda det äldre formulärverktyget för att skapa och redigera anpassade formulär. Se [Skapa eller redigera ett anpassat formulär med det äldre formulärverktyget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Du kan använda den nya formulärdesignern för att utforma ett anpassat formulär som användare kan koppla till ett Workfront-objekt. Användare som arbetar med objektet kan fylla i det anpassade formuläret för att ge information om objektet.
 
