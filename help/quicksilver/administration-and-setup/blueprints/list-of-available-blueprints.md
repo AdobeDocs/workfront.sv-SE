@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ The [!UICONTROL Video Asset Production] paketet innehåller en mall som organise
 
 **[!UICONTROL Video Asset Production](Hanterad)**
 The [!UICONTROL Video Asset Production] paketet innehåller en mall som organiserar arbetet för en standardvideoproduktionsprocess. Det här paketet är avsett som en startpunkt för hantering av skapande av videoresurser i Workfront. Använd det här paketet för att skapa en grund för att skapa videoinnehåll, och anpassa det sedan efter behoven i andra kreativa processer för specialiserade typer av videomaterial.
+
+**[!UICONTROL [!DNL Workfront] Communication and Launch Template]**
+
+Den här planen innehåller en enda mall som organiserar arbetet som [!DNL Workfront] kunden måste göra för att få en tydlig lansering av [!DNL Workfront] program.
 
 **[!DNL Workfront Usage Dashboard]**
 Denna plan innehåller en enda kontrollpanel med 11 rapporter som hjälper systemadministratörer och ledningsgrupper att förstå om deras konfiguration används som förväntat.
