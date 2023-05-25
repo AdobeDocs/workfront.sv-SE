@@ -5,16 +5,14 @@ title: Integreringar med Adobe Experience Manager Assets
 description: Du kan koppla ditt arbete till följande Adobe Experience Manager Assets Integrations.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
+source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # Konfigurera [!UICONTROL Experience Manager Assets as a Cloud Service] integration
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Du kan koppla ditt arbete till ditt innehåll i [!DNL Experience Manager Assets]&#x200B;:
 
@@ -226,8 +224,6 @@ An [!DNL Experience Manager] fält som mappas till [!DNL Workfront] portfölj, p
 
 <!--Courtney start here-->
 
-<div class="preview">
-
 ## Ställa in arbetsflöden (valfritt)
 
 Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. Som Workfront-administratör kan du konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
@@ -241,8 +237,6 @@ De standardvärden för arbetsflöde som du anger i integreringen kan åsidosät
    ![Navigering för länkad mapp](assets/select-folder-aem-integration.png)
 1. Aktivera **Lägg till Portfolio och programnamn** om du vill att Portfolio och programnamn ska inkluderas automatiskt i slutet av den länkade mappens namn.
 1. Klicka **Spara** eller gå vidare till [Konfigurera länkade mappar (valfritt)](#set-up-linked-folders-optional) i den här artikeln.
-
-</div>
 
 <!--Courtney end here-->
 
