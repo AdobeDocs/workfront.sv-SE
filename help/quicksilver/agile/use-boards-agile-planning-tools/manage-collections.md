@@ -7,9 +7,9 @@ description: Ett arbetsflöde är en konfigurerbar grupp av brädor och kort fö
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -94,20 +94,28 @@ Personer och team måste läggas till i arbetsflödet som medlemmar innan de kan
 
    Detta är samma process som att lägga till medlemmar i en styrelse. Mer information finns i [Lägga till eller ta bort medlemmar från en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## Lägga till källor i ett arbetsflöde
+
+En källa avgör varifrån korten i arbetsflödet kommer.
+
+{{step1-to-boards}}
+
+1. Klicka på [!UICONTROL **Källor**] icon ![Ikonen Källor](assets/sources-icon.png) för att definiera en källa för import av kort till arbetsflödet. För närvarande är den enda tillgängliga källan [!DNL Adobe Workfront].
+1. Lägg till filter för att importera uppgifter och utgåvor från Workfront som kort.
+
+   Att lägga till filter för arbetsflödeskällor är detsamma som att lägga till avancerade filter för en inloppskolumn på en grundbräda eller på en kanban-bräda. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Konfigurera ett arbetsflöde
 
 {{step1-to-boards}}
 
 1. Klicka på [!UICONTROL **Visa arbetsflöde**] för att öppna ett arbetsflöde.
 1. Klicka [!UICONTROL **Konfigurera**] för att öppna [!UICONTROL Configure Workstream] -panelen.
-1. (Valfritt) Skriv en beskrivning av arbetsflödet. Beskrivningen visas på kontrollpanelen.
-1. (Valfritt) Lägg till taggar i arbetsflödet. Mer information finns i [Lägg till taggar](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. (Valfritt) Utöka [!UICONTROL **Arbetsflöde**] och skriv en beskrivning av arbetsflödet. Beskrivningen visas på kontrollpanelen.
+1. (Valfritt) Utöka [!UICONTROL **Iterationer**] för att definiera en itereringsprocess för den här arbetsflödet.
 
    Det totala antalet kort, antalet spetsiga kort och antalet iterationer visas i avsnittet Kortlista. Klicka [!UICONTROL **Visa lista**] för att öppna listan och lägga till kort. Mer information finns i [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Om en iteration har definierats visas dess startdatum, antal kort och antal punkter. Klicka [!UICONTROL **Visa upprepningsbord**] för att öppna styrelsen. Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Om en iteration redan har definierats visas dess startdatum, antal kort och antal punkter. Klicka [!UICONTROL **Visa anslagstavla**] för att öppna iterationspanelen. Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Klicka [!UICONTROL **Lägg till källa**] för att definiera en källa för import av kort till arbetsflödet. För närvarande är den enda tillgängliga källan [!DNL Adobe Workfront].
-1. Lägg till filter för att importera uppgifter och utgåvor från Workfront som kort.
-
-   Att lägga till filter för arbetsflödeskällor är detsamma som att lägga till filter för en inloppskolumn på en grundbräda eller på en kanban-bräda. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. (Valfritt) Utöka [!UICONTROL **Taggar**] om du vill lägga till taggar i arbetsflödet. Sök efter en tagg eller ange ett nytt taggnamn i sökrutan och tryck på Retur för att skapa den.
