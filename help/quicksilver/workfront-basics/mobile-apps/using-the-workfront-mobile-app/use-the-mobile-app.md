@@ -2,20 +2,46 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Använd [!DNL Adobe Workfront] mobilapp
-description: Läs dessa artiklar för att lära dig hur du använder [!DNL Adobe Workfront] mobilapp.
-author: Lisa
+description: Snabba upp engagemanget och effektivisera arbetet för team och enskilda i organisationen genom [!DNL Adobe Workfront's] mobilapp, tillgänglig på alla iOS- eller Android-enheter.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: 3851d5ffd587731f795fa9703be545be3f8d1a17
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
 # Använd [!DNL Adobe Workfront] mobilapp
 
-Det här avsnittet innehåller följande artiklar:
+Snabba upp engagemanget och effektivisera arbetet för team och enskilda i organisationen genom [!DNL Adobe Workfront's] mobilapp, tillgänglig på alla iOS- eller Android-enheter. Med appen kan du
+
+* Hitta viktig information snabbt
+* Håll arbetsflödet igång med enstegsåtgärder
+* Var produktiv var du än är
+
+Du kan hämta och installera programmet från [Apple App Store](https://www.apple.com/app-store/) eller [Google Play Store](https://play.google.com/store/apps;).
+
+I mobilappen kan du fylla i arbetsobjekt och visa information som du gör i webbläsarversionen av [!DNL Workfront]. Dessa funktioner och mer finns:
+
+* Arbeta med och tilldela uppgifter och ärenden
+* Bokför uppdateringar
+* Öppna Workfront-ritningar
+* Visa och hantera projekt
+* Visa, kommentera och fatta beslut om korrektur
+* Godkänn uppgifter och ärenden, dokument, korrektur, tidrapporter och förfrågningar om åtkomst
+* Visa och svara på meddelanden i appen
+* Skapa och bearbeta Workfront-förfrågningar
+* Logga tid på en tidrapport
+
+<!--
+>[!NOTE]
+>
+>The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.4 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting their proof reviews and approvals.
+-->
+
+Mer information om [!DNL Adobe Workfront] mobilapp, se följande artiklar:
 
 * [[!DNL Adobe Workfront] for [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [Bli en [!DNL Android] betatestare](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

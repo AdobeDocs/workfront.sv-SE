@@ -3,9 +3,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Adobe Workfront Boards for mobile
 description: I [!DNL Workfront] mobilappen kan du se alla ritytor du har skapat eller har lagts till i i skrivbordsversionen av [!DNL Workfront].
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
-source-git-commit: dfc1d5995c7cb80ced7293b529c69ea31f3951fb
+exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%

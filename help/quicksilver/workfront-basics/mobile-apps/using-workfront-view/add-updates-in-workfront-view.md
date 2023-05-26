@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Lägga till uppdateringar i Adobe Workfront View
 description: Du kan granska och lägga till uppdateringar i projekt som du granskar i [!DNL Adobe Workfront] Visa program.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%

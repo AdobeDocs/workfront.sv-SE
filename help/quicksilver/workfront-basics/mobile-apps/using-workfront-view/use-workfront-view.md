@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Använd Adobe Workfront View
 description: Läs de här artiklarna för att lära dig hur du använder [!DNL Adobe Workfront] Visa.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: c86aa07d-e260-495b-84b4-d661a2ac6dda
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Dela och ladda ned korrektur i [!DNL Adobe Workfront] mobilapp
 description: Du kan dela ett korrekturdokument med interna och externa mottagare direkt från mobilappen. Du kan även hämta ett korrekturdokument till din mobila enhet.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%

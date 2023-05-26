@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Widgetar för Hem
 description: Arbetsytewidgetarna för både iOS och Android hjälper dig att hitta dina arbetsobjekt snabbt.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

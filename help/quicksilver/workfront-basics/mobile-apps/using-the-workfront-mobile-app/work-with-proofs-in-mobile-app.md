@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Granska och fatta beslut om korrektur i [!DNL Adobe Workfront] mobilapp
 description: När du har tilldelats ett korrektur för godkännande visas det i din lista över godkännanden i mobilappen. Du kan granska korrekturet direkt i appen och fatta ett beslut om det.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%

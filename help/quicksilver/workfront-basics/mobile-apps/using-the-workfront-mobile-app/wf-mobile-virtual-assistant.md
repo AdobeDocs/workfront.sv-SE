@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Virtuell assistent för Adobe Workfront mobilapp
 description: Använd Adobe Workfront virtuella assistent för mobilappar för att hitta, ta bort och söka efter information i Workfront. Dessutom kan du fästa kommandon och frågor för den virtuella assistenten så att du när som helst får tillgång till resultaten.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 2c3bbf76-6620-4319-a872-09330441c815
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%

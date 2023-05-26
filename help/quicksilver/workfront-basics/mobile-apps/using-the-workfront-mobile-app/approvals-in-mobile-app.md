@@ -3,12 +3,12 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Godkännanden i [!DNL Adobe Workfront] mobilapp
 description: Du kan hantera godkännanden som tilldelats eller delegerats till dig från [!UICONTROL Approvals] området i [!DNL Adobe Workfront] mobilapp.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Korrektur följer en separat godkännandeprocess. Du kan inte godkänna ett korr
    | ![Godkänn korrektur med ändringar från uppgift](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Approve with changes] (endast tillgängligt för dokument) |
    | ![Avvisa korrektur från uppgift](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Reject] |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Valfritt) Välj **[!UICONTROL Add comment]** på bekräftelsemeddelandet längst ned på skärmen för att lägga till kommentarer till beslutet. Dessa kommentarer visas i uppdateringarna för godkännande.\
    ![Lägg till kommentar](assets/mobile-addcommenttoapproval-350x123.png)\
