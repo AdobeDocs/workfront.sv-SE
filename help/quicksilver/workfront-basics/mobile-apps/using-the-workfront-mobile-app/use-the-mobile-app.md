@@ -6,7 +6,7 @@ description: Snabba upp engagemanget och effektivisera arbetet för team och ens
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 3851d5ffd587731f795fa9703be545be3f8d1a17
+source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -58,3 +58,4 @@ Mer information om [!DNL Adobe Workfront] mobilapp, se följande artiklar:
 * [[!DNL Adobe Workfront] for [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Konfigurera [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 * [[!DNL Adobe Workfront] virtuell assistent för mobilapp](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+
