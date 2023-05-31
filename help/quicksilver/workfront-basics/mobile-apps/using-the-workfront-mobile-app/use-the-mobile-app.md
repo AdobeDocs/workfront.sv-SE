@@ -6,9 +6,9 @@ description: Snabba upp engagemanget och effektivisera arbetet för team och ens
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
+source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Snabba upp engagemanget och effektivisera arbetet för team och enskilda i organ
 * Håll arbetsflödet igång med enstegsåtgärder
 * Var produktiv var du än är
 
-Du kan hämta och installera programmet från [Apple App Store](https://www.apple.com/app-store/) eller [Google Play Store](https://play.google.com/store/apps;).
+Du kan hämta och installera programmet från [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) eller [Google Play Store](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 I mobilappen kan du fylla i arbetsobjekt och visa information som du gör i webbläsarversionen av [!DNL Workfront]. Dessa funktioner och mer finns:
 
