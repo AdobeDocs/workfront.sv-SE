@@ -5,7 +5,7 @@ title: Delegera uppgifter och ärenden
 description: Du kan tillfälligt delegera det arbete du är tilldelad när du inte är på kontoret. I den här artikeln beskrivs hur du delegerar uppgifter och utfärdar tilldelningar.
 author: Alina
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -207,7 +207,7 @@ Du kommer åt [!UICONTROL Assignments] i följande områden:
 
    The [!UICONTROL Assignments] fält i uppgifts- eller utgivningsrubriken ändras till [!UICONTROL Assignments and delegations].
 
-* The [!DNL Workload Balancer] när uppgifter eller problem tilldelas manuellt
+* The [!UICONTROL Workload Balancer] när uppgifter eller problem tilldelas manuellt
 
    ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
@@ -222,7 +222,7 @@ Om en uppgift eller ett ärende delegeras och [!UICONTROL Delegations] underflik
 
 >[!TIP]
 >
->Planerade eller faktiska timmar för delegerade uppgifter och ärenden beaktas inte i resurshanteringsverktyg, som [!DNL Workload Balancer] eller [!DNL Resource Planner] för de delegerade användarna. Timmarna förblir bara kopplade till den tilldelade användaren.
+>Planerade eller faktiska timmar för delegerade uppgifter och ärenden beaktas inte i resurshanteringsverktyg, som [!UICONTROL Workload Balancer] eller [!DNL Resource Planner] för de delegerade användarna. Timmarna förblir bara kopplade till den tilldelade användaren.
 
 ### Hitta delegerat arbete i [!UICONTROL Home]
 

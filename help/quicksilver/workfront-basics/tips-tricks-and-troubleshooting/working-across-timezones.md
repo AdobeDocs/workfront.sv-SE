@@ -5,7 +5,7 @@ title: Arbeta över tidszoner
 description: Det kan vara till hjälp att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna tidsfält för objekt och tidpunkter i andra områden, t.ex. e-postmeddelanden.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Du kan hjälpa användare att arbeta enklare i flera tidszoner på flera sätt:
 
    Instruktioner om hur du tilldelar ett schema till ett projekt eller en användare finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Information om hur den tidszon som konfigurerats i schemat påverkar distributionen av [!UICONTROL Planned Hours] i [!DNL Workload Balancer], se [Hantera användarallokeringar i [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Information om hur den tidszon som konfigurerats i schemat påverkar distributionen av [!UICONTROL Planned Hours] i [!UICONTROL Workload Balancer], se [Hantera användarallokeringar i [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Använd beräkningstidsfält i ett anpassat formulär {#use-calculated-time-fields-in-a-custom-form}

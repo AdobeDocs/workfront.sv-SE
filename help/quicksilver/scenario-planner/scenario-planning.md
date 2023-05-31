@@ -7,7 +7,7 @@ description: En lista med artiklar som beskriver funktionaliteten i Workfront Sc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -37,6 +37,6 @@ Det här avsnittet innehåller följande artiklar:
 * [Uppdatera eller skapa projekt genom att publicera i [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [Översikt över avstämning av resursallokeringar mellan projekt och initiativ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [Visa rolltilldelning för projekt och initiativ i uppgiftslistan](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [Visa rolltilldelning för projekt och initiativ i [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Visa rolltilldelning för projekt och initiativ i [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  

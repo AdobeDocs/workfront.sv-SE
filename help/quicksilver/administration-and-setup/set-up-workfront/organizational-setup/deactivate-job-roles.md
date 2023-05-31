@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Om du inaktiverar en jobbroll visas den inte längre i följande områden:
 
 >[!TIP]
 >
->Inaktiverade roller visas alltid i filter i listor, rapporter och andra verktyg som [!DNL Workload Balancer].
+>Inaktiverade roller visas alltid i filter i listor, rapporter och andra verktyg som [!UICONTROL Workload Balancer].
 
 ## Överväganden innan en jobbroll inaktiveras
 

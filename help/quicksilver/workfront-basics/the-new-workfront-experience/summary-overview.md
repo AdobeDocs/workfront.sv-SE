@@ -4,7 +4,7 @@ title: Sammanfattning
 description: Du kan använda panelen Sammanfattning för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgiftsproblem, dokument eller från andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -31,7 +31,7 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Uppgifter i [!UICONTROL Unassigned] och [!UICONTROL Assigned] Arbetsytor i [!DNL Workload Balancer]</td> 
+   <td>Uppgifter i [!UICONTROL Unassigned] och [!UICONTROL Assigned] Arbetsytor i [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problem</td> 
@@ -45,7 +45,7 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problem i [!UICONTROL Assigned Work] området på [!DNL Workload Balancer]</td> 
+   <td>Problem i [!UICONTROL Assigned Work] området på [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problem i [!UICONTROL Submitted] i [!UICONTROL Requests] area</td> 
@@ -68,7 +68,7 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
 
 I den här artikeln beskrivs hur du får åtkomst till och använder [!UICONTROL Summary] för uppgifter och problem i listor.
 
-Mer information om åtkomst till [!UICONTROL Summary] i [!DNL Workload Balancer], se [Uppdatera arbetsobjekt i [!DNL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Mer information om åtkomst till [!UICONTROL Summary] i [!UICONTROL Workload Balancer], se [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 Mer information om åtkomst till [!UICONTROL Summary] för dokument, se [[!UICONTROL Summary] för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
 

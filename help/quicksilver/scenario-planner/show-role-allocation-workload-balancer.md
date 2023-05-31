@@ -6,14 +6,14 @@ description: När du har kopplat projekt och initiativ kan du hantera deras resu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 0%
 
 ---
 
-# Visa rolltilldelning för projekt och initiativ i [!DNL Workload Balancer]
+# Visa rolltilldelning för projekt och initiativ i [!UICONTROL Workload Balancer]
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ Du måste göra följande:
 
 &#42;Kontakta [!DNL Workfront] administratör.
 
-## Visa rolltilldelning för projekt och initiativ i [!DNL Workload Balancer]
+## Visa rolltilldelning för projekt och initiativ i [!UICONTROL Workload Balancer]
 
-Om ditt företag har köpt en [!DNL Workfront Scenario Planner] kan du stämma av resursallokeringarna mellan initiativet och det projekt som är kopplat till det på projektnivå [!DNL Workload Balancer].
+Om ditt företag har köpt en [!DNL Workfront Scenario Planner] kan du stämma av resursallokeringarna mellan initiativet och det projekt som är kopplat till det på projektnivå [!UICONTROL Workload Balancer].
 
 1. (Villkorligt) Koppla ett projekt till ett projekt med en av de metoder som beskrivs i följande artiklar:
 
@@ -72,7 +72,7 @@ Om ditt företag har köpt en [!DNL Workfront Scenario Planner] kan du stämma a
    >Om ni ändrar resurser i initiativet måste ni på nytt publicera det scenario som initiativet hör till för att få den senaste resursinformationen från initiativet som ska uppdateras i projektet.
 
 1. Gå till det projekt där du vill granska fördelningen av jobbroller för projektet samt för det associerade initiativet.
-1. Klicka [!DNL Workload Balancer] i den vänstra panelen.
+1. Klicka [!UICONTROL Workload Balancer] i den vänstra panelen.
 
    Du kanske måste klicka **[!UICONTROL Scheduling]** sedan **[!UICONTROL Switch to Workload Balancer]**.
 

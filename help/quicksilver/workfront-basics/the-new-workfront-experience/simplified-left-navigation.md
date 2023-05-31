@@ -5,7 +5,7 @@ title: Navigering till vänster i [!DNL Adobe Workfront]
 description: Den vänstra navigeringspanelen i [!DNL Workfront] gör det enkelt att navigera i systemet.
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Följande avsnitt visas i den vänstra panelen för **[!UICONTROL Resourcing]** 
    <td>Visar resursplaneraren. Använd det här området för att planera dina resurser i flera projekt. Mer information om hur du använder resursplaneraren finns i <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Kom igång med resursplanering</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Workload Balancer]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Workload Balancer]</strong></td> 
    <td>Visar arbetsbelastningsutjämnaren. I det här området kan du tilldela verkliga arbeten till dina resurser. <br>
    Mer information om hur du använder schemaläggningsresurser finns i <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Översikt över tilldelning av arbete i belastningsutjämnaren</a>.</td> 
   </tr> 

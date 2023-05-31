@@ -6,7 +6,7 @@ description: Översikt över avstämning av resursallokeringar mellan projekt oc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -79,9 +79,9 @@ Båda processerna skapar en koppling mellan projekten och deras motsvarande init
 
    * The [!UICONTROL Role Allocation] i följande områden:
 
-      * [!DNL Workload Balancer] projektet
+      * [!UICONTROL Workload Balancer] projektet
 
-         Mer information om hur rollfördelningen mellan initiativet och det länkade projektet i [!DNL Workload Balancer], se [Visa rolltilldelning för projekt och initiativ i [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
+         Mer information om hur rollfördelningen mellan initiativet och det länkade projektet i [!UICONTROL Workload Balancer], se [Visa rolltilldelning för projekt och initiativ i [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
       * [!UICONTROL Tasks] section
 
