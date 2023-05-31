@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Problem när du aktiverar kommenteringsfunktionen Beta.
+> * Frågor, <!--<span class="preview">projects, tasks, and documents</span>,--> när du aktiverar kommenteringsfunktionen Beta.
    >
-   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:
+   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
    >
    >     * Startsida
    >     * Panelen Sammanfattning i listor
@@ -111,7 +111,7 @@ För närvarande kan du göra kommentarer och svara på uppdateringar med hjälp
      <li><p>Mål</p>
      <p>Det här är standardupplevelsen för mål</p>
      </li> 
-     </ul> </td> 
+      </ul> </td> 
    <td> 
     <ul> 
      <li>Problem</li> 
@@ -120,11 +120,50 @@ För närvarande kan du göra kommentarer och svara på uppdateringar med hjälp
  </tbody> 
 </table>
 
+<!--replace table above with this: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
+     <li><span class="preview">Projects</span></li>
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Documents</span></li>
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
 ## Uppdateringar som också visas på objekt med högre rankning
 
-Som framgår av följande tabell visas även svar på uppdateringar av vissa objekt i uppdateringsavsnittet för objekt med högre rankning.
+Kommentarer eller svar på uppdateringar av vissa objekt visas också i uppdateringsavsnittet för objekt med högre rankning.
 
 När du till exempel lägger till en uppdatering för en uppgift visas uppdateringen i uppdateringsavsnittet för uppgiften och i uppdateringsavsnittet för projektet som innehåller uppgiften.
+
+<!--
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>
+>* Issues, in the Preview and Production environments
+>* <span class="preview">Projects and tasks, in the Preview environment</span>
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+-->
+
+I följande tabell visas de objekt vars kommentarer också visas på de objekt som ligger högst upp i listan:
 
 <table style="table-layout:auto"> 
  <col> 

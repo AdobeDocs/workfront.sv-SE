@@ -6,9 +6,9 @@ description: När någon lägger till eller svarar i en uppdatering för ett arb
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Problem när du aktiverar kommenteringsfunktionen Beta.
+> * Frågor, <!--<span class="preview">projects, tasks, and documents</span>,--> när du aktiverar kommenteringsfunktionen Beta.
    >
-   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:
+   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
    >
    >     * Startsida
    >     * Panelen Sammanfattning i listor
@@ -43,6 +43,10 @@ ht-degree: 0%
 
 
 När någon svarar på en kommentar eller en systemuppdatering för ett arbetsobjekt visas deras svar i kommunikationstråden i avsnittet Uppdateringar för objektet.
+
+>[!IMPORTANT]
+>
+>Det går inte att svara på systemuppdateringar i den nya kommenteringsfunktionen Beta. Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## Åtkomstkrav

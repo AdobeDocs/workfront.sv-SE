@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Problem när du aktiverar kommenteringsfunktionen Beta.
+> * Frågor, <!--<span class="preview">projects, tasks, and documents</span>,--> när du aktiverar kommenteringsfunktionen Beta.
    >
-   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:
+   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
    >
    >     * Startsida
    >     * Panelen Sammanfattning i listor

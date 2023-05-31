@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,10 @@ Du kan redigera din kommentar inom 15 minuter från det att du skickat in den. E
 
    >[!TIP]
    >
-   > Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
+   > * Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
+   >
+   > * Datumstämpeln är datumet för den ursprungliga kommentaren och inte datumet för den senaste uppdateringen.
+
 
    1. (Valfritt) Klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka på något av följande alternativ för att kopiera information från en kommentar till Urklipp:
 

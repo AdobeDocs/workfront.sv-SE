@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3151'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Problem när du aktiverar kommenteringsfunktionen Beta.
+> * Frågor, <!--<span class="preview">projects, tasks, and documents</span>,--> när du aktiverar kommenteringsfunktionen Beta.
    >
-   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet av utgåvor och är inte tillgänglig för följande områden:
+   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
    >
    >     * Startsida
    >     * Panelen Sammanfattning i listor
@@ -231,7 +231,9 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
 
    >[!TIP]
    >
-   >   Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
+   >* Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
+   >* Datumstämpeln bredvid kommentaren är datumet för den ursprungliga kommentaren, inte datumet för den senaste redigeringen.
+
 
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-7 ovan. <!--(**************insure this stays accurate***********)-->. Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
