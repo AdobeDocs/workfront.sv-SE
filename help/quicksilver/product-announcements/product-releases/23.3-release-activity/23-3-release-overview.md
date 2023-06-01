@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
+source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-förbättringar
 
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Flexibla förbättringar](#agile-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Projektförbättringar](#project-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -221,8 +223,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Skapa automatiskt länkade mappar till Adobe Experience Manager Assets när du skapar ett projekt</a><span style="color: #ff0000;"> Nyheter i produktion!</span></p>
-                        <p>Med det nya arbetsflödet Skapa länkad mapp för Adobe Experience Manager-integreringen kan du konfigurera integreringen med en sökväg till en Adobe Experience Manager Assets-mapp. När integreringen läggs till i en projektmall skapas automatiskt en länkad undermapp i Experience Manager Assets i den angivna mappen för projekt som skapas från mallen. </p><p>Den här funktionaliteten är bara tillgänglig om Adobe Experience Manager as a Cloud Service är integrerat med Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Skapa automatiskt länkade mappar till Adobe Experience Manager Assets när du skapar ett projekt</a></p>
+                        <p>Med det nya arbetsflödet Skapa länkad mapp för Adobe Experience Manager-integreringen kan du konfigurera integreringen med en sökväg till en Adobe Experience Manager Assets-mapp. När integreringen läggs till i en projektmall skapas automatiskt en länkad undermapp i Experience Manager Assets i den angivna mappen för projekt som skapas från mallen. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -286,6 +288,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Projektförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Godkännanden av nya dokument</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Dokumentgodkännandena omformas i en fasad lansering som kommer att göras tillgänglig för fler användare i varje release.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 31 maj 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 14 juni 2023</span></p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Andra förbättringar
 
 <table>
@@ -302,6 +341,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nya kommentarer Beta-upplevelser för projekt, uppgifter och dokument</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Den nya kommenteringsfunktionen Beta är nu tillgänglig för projekt, uppgifter och dokument. Före den här uppdateringen fanns det bara för problem och mål att kommentera betaversionen.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 1 juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>produktionsrelease:Med version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profiler utan avatarer visar nu användarinitialer</a></p>
