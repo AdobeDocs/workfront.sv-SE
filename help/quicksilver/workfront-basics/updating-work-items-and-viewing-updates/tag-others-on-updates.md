@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Frågor, <!--<span class="preview">projects, tasks, and documents</span>,--> när du aktiverar kommenteringsfunktionen Beta.
+> * Frågor, <span class="preview">projekt</span>, <span class="preview">uppgifter</span>och <span class="preview">dokument</span>när du aktiverar kommenteringsfunktionen Beta.
    >
    >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
    >
@@ -77,8 +77,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>begärande eller högre för frågor och dokument, Granskare eller högre för alla andra objekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-  </tr> 
+   <td> <p>begärande eller högre för frågor och dokument, Granskare eller högre för alla andra objekt</p> 
+   <p><b>ANMÄRKNING</b>
+
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
    <td> <p>Visa åtkomst till objektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 

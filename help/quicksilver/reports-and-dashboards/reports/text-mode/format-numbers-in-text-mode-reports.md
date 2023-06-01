@@ -6,7 +6,7 @@ description: Numeriska värden, inklusive valutor, kan konfigureras för visning
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 5%
@@ -41,3 +41,4 @@ Du kan formatera tal med följande värden för `valueformat` rad i kolumnen:
 | 12.34% | <pre>doubleAsPercent</pre> |
 | (1,234.56) | <pre>doubleAsFinancial</pre> |
 | (1,234) | <pre>doubleAsFinancialRounded</pre> |
+
