@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
+source-git-commit: 561ceb9f22e61527fd3303b1e76585ed885039ff
 workflow-type: tm+mt
-source-wordcount: '13012'
+source-wordcount: '13059'
 ht-degree: 0%
 
 ---
@@ -1722,6 +1722,17 @@ ht-degree: 0%
       * [Delegera godkännandebegäran](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associera en ny eller befintlig godkännandeprocess med arbete](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Återkalla inskickade godkännanden](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+   * Dokumentgranskningar och godkännanden {#document-reviews-and-approvals}
+      * [Dokumentgranskningar och godkännanden](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * Hantera dokumentgodkännanden {#manage-document-approvals}
+         * [Hantera dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [Skapa ett dokumentgodkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Lägga till ytterligare granskare eller godkännare i ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Ta bort godkännare eller granskare från ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+      * Granska och godkänna dokument {#review-and-approve-documents}
+         * [Granska och godkänna dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+         * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Korrektur {#proofing}
       * [Korrektur](review-and-approve-work/proofing/proofing.md)
       * Språköversikt {#proofing-overview}
