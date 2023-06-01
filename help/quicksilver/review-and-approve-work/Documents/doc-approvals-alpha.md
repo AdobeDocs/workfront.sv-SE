@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
+exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
+source-git-commit: d52a550350aad0b7ae67d90e3742a21de743f2b3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
-
 
 # Alfa-program - dokumentgodkännanden
 
@@ -25,15 +25,23 @@ Om du vill delta i den här Alpha-versionen måste du ha lagts till i Alpha in P
 
 ## Senaste versionen
 
+### Alpha Release 4 - May 2023
+
+I den fjärde Alpha-versionen, innan vi börjar producera för endast en viss kundgrupp, har vi tagit med meddelanden i Workfront header, uppdateringsströmmen och e-postmeddelandet. Observera att e-postmeddelanden bara är till för produktionsmiljön och inte visas i förhandsvisningsmiljön. Om du är intresserad av att implementera den här versionen i din produktionsmiljö den 14 juni kan du kontakta mig direkt på jbarron@adobe.com.
+
+Vi ser fram emot den här milstolpen och ser fram emot mycket mer framöver!
+
+Se hela videomaterialet nedan:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420094/)
+
+## _Tidigare versioner_
+
 ### Alpha Release 3 - mars 2023
 
 I den här 3:e alfaversionen har vi tagit med din feedback genom att presentera meddelanden som visar när vi slutför åtgärder som att lägga till eller ta bort godkännare och granskare. Dessutom ger den här versionen bättre synlighet för väntande godkännanden, som nu kan visas på sidorna Hem och Mina uppdateringar, vilket gör att användare enkelt kan godkänna dokument direkt från dessa sidor.
 
-Se hela videomaterialet nedan:
-
->[!VIDEO](https://video.tv.adobe.com/v/3417854/)
-
-## _Tidigare versioner_
+Titta på [videoutgång](https://video.tv.adobe.com/v/3417854/){target=_blank}
 
 ### Alpha Release 2 - Jan 2023
 
