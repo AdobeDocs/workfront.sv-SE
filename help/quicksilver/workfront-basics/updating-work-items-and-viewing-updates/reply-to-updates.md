@@ -6,9 +6,9 @@ description: När någon lägger till eller svarar i en uppdatering för ett arb
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Frågor, <span class="preview">projekt, uppgifter och dokument</span>när du aktiverar kommenteringsfunktionen Beta.
+> * Frågor, <span class="preview">projekt, uppgifter och dokument</span>.
    >
+   >     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.\
    >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
    >
    >     * Startsida
