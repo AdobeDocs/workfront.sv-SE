@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Frågor, <!--<span class="preview">projects, tasks, and documents</span>,--> när du aktiverar kommenteringsfunktionen Beta.
+> * Frågor, <span class="preview">projekt, uppgifter och dokument</span> när du aktiverar kommenteringsfunktionen Beta.
    >
    >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
    >
@@ -99,7 +99,7 @@ I uppdateringsavsnittet visas information på följande flikar i den nya komment
 * **Kommentarer**: Visar kommentarer som gjorts av användare och svar på dessa kommentarer. Information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-För närvarande kan du göra kommentarer och svara på uppdateringar med hjälp av betakommentarsfunktionen för följande objekt:
+För närvarande kan du lägga till kommentarer och svara på uppdateringar med hjälp av betakommentarsfunktionen för följande objekt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,39 +111,17 @@ För närvarande kan du göra kommentarer och svara på uppdateringar med hjälp
      <li><p>Mål</p>
      <p>Det här är standardupplevelsen för mål</p>
      </li> 
-      </ul> </td> 
+     <li><span class="preview">Projekt</span></li>
+     </ul> </td> 
    <td> 
     <ul> 
      <li>Problem</li> 
+     <li><span class="preview">Uppgifter</span></li>
+     <li><span class="preview">Dokument</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-
-<!--replace table above with this: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 ## Uppdateringar som också visas på objekt med högre rankning
 
@@ -151,17 +129,15 @@ Kommentarer eller svar på uppdateringar av vissa objekt visas också i uppdater
 
 När du till exempel lägger till en uppdatering för en uppgift visas uppdateringen i uppdateringsavsnittet för uppgiften och i uppdateringsavsnittet för projektet som innehåller uppgiften.
 
-<!--
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>När du aktiverar den nya funktionen Beta-kommentering visas kommentarer på följande objekt med högre rankning och i följande miljöer:
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* Problem
+>* <span class="preview">Projekt</span>
+>* <span class="preview">Uppgifter</span>
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
--->
+>Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 I följande tabell visas de objekt vars kommentarer också visas på de objekt som ligger högst upp i listan:
 

@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Frågor, <!--<span class="preview">projects, tasks, and documents</span>,--> när du aktiverar kommenteringsfunktionen Beta.
+> * Frågor, <span class="preview">projekt, uppgifter och dokument</span>när du aktiverar kommenteringsfunktionen Beta.
    >
    >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
    >
@@ -193,7 +193,7 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 The **Kommentarer** -fliken är markerad som standard.
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 1. (Valfritt) Så här lägger du till en URL-länk till ytterligare informationskällor:
 
    1. Klicka på den plats i uppdateringen där du vill infoga en länk.
-   1. På **RTF** klickar du på **Hyperlänk** ikon. ![](assets/link-icon.png)
+   1. På **RTF** klickar du på **Hyperlänk** icon ![](assets/link-icon.png).
 
    1. I **Skapa länk** ruta som visas, under **URL** skriver eller klistrar du in URL-adressen för den källa som du vill länka till.
 

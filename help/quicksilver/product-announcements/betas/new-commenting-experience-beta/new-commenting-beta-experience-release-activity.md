@@ -6,9 +6,9 @@ description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -29,48 +29,41 @@ I följande avsnitt listas funktioner som har lagts till efter den ursprungliga 
 
 ## Vecka 29 maj 2023
 
+### Nya kommentarer Beta-upplevelser för projekt, uppgifter och problem
+
+Den nya kommenteringsfunktionen Beta är nu tillgänglig för projekt, uppgifter och dokument. Före den här uppdateringen fanns det bara för problem och mål att kommentera betaversionen.
+
+Förhandsgranska: 1 juni 2023
+
+Produktion: med version 23.3
+
+>[!NOTE]
+>
+>Alla funktioner som släpps till den nya kommenteringsfunktionen Beta från och med 1 juni 2023 kommer att vara tillgängliga i Production för projekt, uppgifter och dokument efter version 23.3 till Production. Mer information finns i [23.3 - versionsöversikt](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
 ### Nytt utseende på taggen&quot;edited&quot; efter redigering av en kommentar
 
-När du redigerar en kommentar i den nya betafunktionen för kommentering läggs en&quot;redigerad&quot; tagg till i kommentaren. Den här taggen har nu ett nyare utseende och en nyare känsla än den som ursprungligen släpptes. Datum- och tidsstämplarna för kommentaren är de som hör till den ursprungliga kommentaren. De är inte datum- och tidsstämplar för när redigeringen gjordes.  Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+När du redigerar en kommentar i den nya betafunktionen för kommentering läggs en&quot;redigerad&quot; tagg till i kommentaren. Den här taggen har nu ett nytt utseende och en ny känsla från den som ursprungligen släpptes. Datum- och tidsstämplarna för kommentaren är de som hör till den ursprungliga kommentaren. De är inte datum- och tidsstämplar för när redigeringen gjordes.  Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Förhandsgranska: 31 maj 2023
 
 Produktion: 1 juni 2023
 
-<!--
+### Kommentarer från underordnade objekt rullas upp till ett överordnat objekt
 
-### Comments from children objects now roll up to a parent object  
+När du aktiverar betafunktionen för kommentarer, kommer kommentarerna som är kopplade till ett underordnat objekt nu att gå upp till det överordnade objektet. Kommentarer från dokument visas till exempel nu i den fråga där dokumenten är bifogade. Mer information finns i [Översikt över uppdateringsavsnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+Förhandsgranska: 1 juni 2023
 
-Preview, for issues, projects, and tasks: June 1, 2023  
+Produktion: 1 juni 2023
 
-Production, for issues: June 1, 2023 
+### Logga in i den nya kommenteringsfunktionen Beta
 
-Production, for projects, and tasks: with the 23.3 release 
--->
+Du kan logga tid för problem, uppgifter och projekt från uppdateringsområdet när du använder den nya kommenteringsfunktionen Beta. Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-### Log time in the new commenting Beta experience 
+Förhandsgranska: 1 juni 2023
 
-You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
-
-Preview: June 1, 2023 
-
-Production: June 15, 2023
-
--->
-
-<!--
-
-### New commenting Beta experience for projects, tasks, and issues  
-
-The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
-
-Preview: June 1, 2023 
-
-Production: with the 23.3 release 
--->
+Produktion: Ska tillkännages
 
 ## Vecka 15 maj 2023
 

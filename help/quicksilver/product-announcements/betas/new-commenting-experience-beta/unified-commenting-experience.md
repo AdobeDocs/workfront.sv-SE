@@ -6,16 +6,16 @@ description: En uppdatering av kommentarsfunktionerna i Adobe Workfront håller 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # Ny kommentarsfunktion
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för markerade objekt.
 
@@ -47,7 +47,7 @@ Den nya kommentarsfunktionen innehåller förbättringar och ändringar av den b
 Bland förbättringarna i den nya kommentarsfunktionen finns följande:
 
 * Förbättrade prestanda och användarupplevelser
-* Separation av användarkommentarer från aktivitetsuppdateringarna i systemet. Det finns inga förändringar i hur systemet uppdaterar funktionen.
+* Separation av användarkommentarer från aktivitetsuppdateringarna i systemet.
 * Realtidsindikator när nya kommentarer läggs till i ett objekt
 * Redigera kommentarer när de har skickats.
 
@@ -261,7 +261,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -409,7 +409,7 @@ Den nya kommentarsfunktionen stöds för närvarande för följande objekt när 
 
 * När du aktiverar betafunktionen i uppdateringsavsnittet:
 
-   * Problem<!--, <span class="preview">projects, tasks, and documents</span>-->
+   * Frågor, <span class="preview">projekt, uppgifter och dokument</span>
    Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 

@@ -6,14 +6,18 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3229'
 ht-degree: 0%
 
 ---
 
 # Loggtid
+
+<!--remove all preview and production references from this article with 23.3 release-->
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
@@ -109,7 +113,7 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
 
 >[!NOTE]
 >
->Granska användare som tilldelats en tidrapportprofil kan se fliken Tidrapporter och logga allmänna timmar. De kan dock inte logga timmar för uppgifter eller ärenden som tilldelats dem och som visas på tidrapporten.
+>Granska användare som tilldelats en tidrapportprofil kan se området Tidrapporter och logga allmänna timmar. De kan dock inte logga timmar för uppgifter eller ärenden som tilldelats dem och som visas på tidrapporten.
 
 1. Klicka på [!UICONTROL **Huvudmeny**] icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
@@ -342,40 +346,32 @@ Så här loggar du tid på ett arbetsobjekt från hemområdet:
 
 ### Projekt, uppgift eller utleverans {#project-task-or-issue}
 
-Du kan logga projektspecifik tid för ett projekt, en uppgift eller ett problem.
+Du kan logga projektspecifik tid för ett projekt, en uppgift eller ett problem i följande avsnitt:
 
-#### Behörigheter krävs för loggningstid
+* [Uppdateringsavsnitt](#updates-section)
+* [Avsnittet Timmar](#hours-section)
 
-För att kunna logga timmar i ett projekt, en uppgift eller ett problem måste du ha specifika behörigheter. Du kan logga tid på två platser i ett projekt, en uppgift eller ett ärende:
+#### Uppdateringsavsnitt{#updates-section}
 
-* [Fliken Uppdateringar](#updates-tab)
-* [Fliken Timmar](#hours-tab)
-
-##### Fliken Uppdateringar{#updates-tab}
-
-<!--
+<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
 
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+> Du kan logga tid för problem, <span class="preview">projekt och uppgifter</span> när du aktiverar den nya kommenteringsfunktionen Beta i uppdateringsavsnittet.
 >
->* In the Preview and Production environments for issues. 
->* <span class="preview">In the Preview environment for tasks and projects.</span> 
->
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
--->
+Om du vill logga tid i uppdateringsavsnittet för ett projekt, en uppgift eller ett problem måste du ha följande:
 
-Följande krävs innan du kan logga timmar på fliken Uppdateringar för ett projekt, en uppgift eller ett problem:
-
-* Du måste ha en arbets- eller planlicens.
-* Du måste ha minst Contribute-behörighet för projektet, aktiviteten eller problemet med åtkomst till loggtimmar.\
+* En licens för arbete eller plan.
+* Contribute eller högre behörigheter för projektet, aktiviteten eller problemet med åtkomst till loggtimmar.\
    Mer information om att bevilja behörigheter för projekt finns i [Dela ett projekt i Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* Om du vill logga in direkt i ett projekt måste Workfront-administratören aktivera loggtiden direkt i projekt enligt [!UICONTROL **Tidrapport och timmar** ]> [!UICONTROL **Inställningar**].\
+* Din Workfront-administratör måste aktivera loggtiden direkt i projektinställningarna under [!UICONTROL **Tidrapport och timmar** ]> [!UICONTROL **Inställningar**] om du vill logga tiden direkt till ett projekt.
+
    Mer information om hur du tillåter användare att logga timmar direkt till projekt finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Så här loggar du tid på fliken Uppdateringar för ett projekt, en uppgift eller ett problem:
+Så här loggar du tid i uppdateringsavsnittet för ett projekt, en uppgift eller ett problem:
 
 1. Gå till ett projekt, en uppgift eller ett ärende.
 1. Välj **Uppdateringar**.
@@ -403,22 +399,22 @@ Så här loggar du tid på fliken Uppdateringar för ett projekt, en uppgift ell
 
 1. Klicka **Loggtid**.
 
-##### Fliken Timmar{#hours-tab}
+#### Avsnittet Timmar{#hours-section}
 
-Följande krävs innan du kan logga timmar på fliken Timmar i ett projekt, en uppgift eller ett ärende:
+Du måste vara Workfront-administratör för att kunna logga tid för projekt, uppgifter och problem i timavsnittet,
 
-* Du måste vara systemadministratör.
+eller
 
-Eller så måste du ha alla följande:
+Du måste ha följande:
 
-* Du måste ha en planlicens med administrativ åtkomst till tidrapporter och timmar. Mer information om hur du ger administrativ åtkomst till tidrapporter och timmar finns i [Ge användarna administrativ åtkomst till vissa områden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Du måste ha minst Contribute-behörighet för projektet med åtkomst till Loggtimmar. Mer information om att bevilja behörigheter för projekt finns i [Dela ett projekt i Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Om du vill logga tid direkt till ett projekt måste Workfront-administratören aktivera loggtiden direkt i projekt under Timesheet &amp; Timors > Inställningar. Mer information om hur du tillåter användare att logga timmar direkt till projekt finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* En planlicens med administrativ åtkomst till tidrapporter och timmar. Mer information om hur du ger administrativ åtkomst till tidrapporter och timmar finns i [Ge användarna administrativ åtkomst till vissa områden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Contribute eller högre behörigheter för projektet med åtkomst till loggtimmar. Mer information om att bevilja behörigheter för projekt finns i [Dela ett projekt i Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Din Workfront-administratör måste aktivera loggtiden direkt i projekt under Timesheet &amp; Hours > Inställningar om du vill logga tiden direkt i ett projekt. Mer information om hur du tillåter användare att logga timmar direkt till projekt finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Så här loggar du tid på fliken Timmar för ett projekt, en uppgift eller ett problem:
+Så här loggar du tid i timavsnittet för ett projekt, en uppgift eller ett problem:
 
 1. Gå till ett projekt, en uppgift eller ett ärende.
-1. Välj **Timmar**.
+1. Klicka på i den vänstra panelen **Timmar**.
 1. Klicka **Loggtid**.
 
    Dialogrutan Loggtimmar visas.
