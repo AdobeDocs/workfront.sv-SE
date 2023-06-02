@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
+source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Om du vill visa tillgängliga mallar klickar du på **Mallar** icon ![](assets/f
 ## Workfront-mallar
 
 Mallarna automatiserar Workfront processer och arbetsflöden.
+
+### Workfront - Kopiera programanpassade Forms- och fältdata till associerade nya projekt
+
+Den här automatiseringen söker efter nya projekt i program med anpassade formulär. Sedan läggs dessa anpassade formulär och fält till i de nya projekten.
 
 ### Workfront - konvertera godkänt problem till projekt
 
