@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
+source-git-commit: fb934506205c586852497197115a7731083c0e54
 workflow-type: tm+mt
-source-wordcount: '2802'
+source-wordcount: '2867'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <li><b>Är aktiv:</b> Markera den här rutan om du vill ange att användaren är aktiv. Aktiva användare använder en Workfront-licens. Om du rensar rutan inaktiveras användaren.</li> 
        <li> <p><b>Åtkomstnivå:</b> Välj den åtkomstnivå som ska tilldelas den här användaren.</p> 
        <p>När du tilldelar en åtkomstnivå till en användare kan du tilldela en nivå som är lika med eller mindre än din egen åtkomstnivå. (Om din åtkomstnivå till exempel är Planering kan du inte tilldela administratörsåtkomstnivån.) Du kan dock inte tilldela en åtkomstnivå som är lägre än din egen åtkomstnivå om Workfront-administratören har aktiverat icke-standardbehörigheter på åtkomstnivån som inte är aktiverade på din egen åtkomstnivå (via finjusteringsinställningarna som beskrivs i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>). </p> 
-       <p>Mer information om åtkomstnivåer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a>.</p> </li> 
+       <p>Mer information om åtkomstnivåer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a>.</p><p> <b>Obs!</b> Om din organisation använder den nya åtkomstmodellen (Standard/Light/Contributor) kan du inte tilldela om en Standard- eller Light-användare till en Contributor-åtkomstnivå om användaren redan har nått sin beslutsgräns för månaden. </p><p>Mer information om den nya åtkomstmodellen finns i <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a>. </p><p>Information om beslutsgränser finns på <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Begränsat dokument och bevisbeslut för obetalda användare - översikt</a>.</p></li> 
        <li> <p><b>Layoutmall</b>: Välj en layoutmall för användaren. Den här layoutmallen har företräde framför alla layoutmallar som har tilldelats användarens hemgrupp, hemteam eller primära jobbroll. Mer information om tilldelningsprioriteten för layoutmallar finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a>.</p> <p><b>ANMÄRKNING</b>:  <p>Listan med mallar som är tillgängliga i det här fältet beror på din åtkomst:</p> 
        <ul> 
        <li>Som Workfront-administratör kan du se alla layoutmallar på system- och gruppnivå.</li> 
