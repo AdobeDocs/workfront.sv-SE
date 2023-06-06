@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Skapa anpassade avsnitt
 description: Informationen som visas i [!DNL Workfront] webbprogram visas ofta som standard i avsnitten i den vänstra panelen. Varje avsnitt innehåller olika information om en [!DNL Workfront] område eller objekt.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ I följande tabell visas alla [!DNL Workfront] områden och objekt som innehåll
 | [!UICONTROL User] |  ✓ |  ✓ |
 | [!UICONTROL Document] |  ✓ |  ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Åtkomstkrav
 

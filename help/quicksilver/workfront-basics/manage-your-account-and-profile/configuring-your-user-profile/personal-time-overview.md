@@ -7,9 +7,9 @@ description: Adobe Workfront är inte utformat för att replikera eller ersätta
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e87f2a459314b8059a3df634e97560b5c1dffac4
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,6 @@ Resurshanteringsverktygen använder också din personliga ledig tid för att ang
 >
 
 
-
-
 ## Åtkomstkrav
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
@@ -47,15 +45,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alla</p> </td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Work] eller högre (för att konfigurera din personliga tid av)</p> </td> 
+   <td>[!UICONTROL Work] eller högre (för att konfigurera din personliga tid av)</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td>[!UICONTROL Manager] med [!UICONTROL Edit User] behörighet (för att göra ändringar i tidskalendern för andra användare)</td> 
+   <td>[!UICONTROL Manager] med [!UICONTROL Edit User] åtkomst (för att ändra tiden i kalendern för andra användare)<br>
+   <strong>OBS!</strong> Om en chef redigerar en annan användares personliga tid i kalendern visas alla poster i användarens tidszon och inte i hanterarens tidszon.</td> 
   </tr> 
  </tbody> 
 </table>
