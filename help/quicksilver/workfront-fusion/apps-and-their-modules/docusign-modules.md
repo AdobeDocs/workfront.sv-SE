@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 632952e91ebe2ae5caa370c310cfd5e7180232b7
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -160,11 +160,11 @@ Med den här åtgärdsmodulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td>[!UICONTROL URL]</td> 
-   <td> <p>Skriv adressen på webbservern som du vill att modulen ska interagera med.</p> <p>Du kan ange en relativ URL-adress, vilket betyder att du inte behöver inkludera protokollet (till exempel <code>http://</code>) i början. Detta tyder på för webbservern att interaktionen sker på servern.</p> <p>Exempel: <code>[!DNL /api/conversations].create</code></p> <p>Tips: En lista med tillgängliga slutpunkter finns i <a href="https://developers.docusign.com/esign-rest-api/reference">[!DNL DocuSign] API-referens</a>.</p> </td> 
+   <td> <p>Skriv adressen på webbservern som du vill att modulen ska interagera med.</p> <p>Du kan ange en relativ URL-adress, vilket betyder att du inte behöver inkludera protokollet (till exempel <code>http://</code>) i början. Detta tyder på för webbservern att interaktionen sker på servern.</p> <p>Exempel: <code>[!DNL /api/conversations].create</code></p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Method]</td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers]</td> 

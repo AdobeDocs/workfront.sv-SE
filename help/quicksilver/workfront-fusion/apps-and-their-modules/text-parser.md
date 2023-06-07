@@ -8,9 +8,9 @@ description: Du kan använda textanalysverktyget för att tolka text som ska anv
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -226,9 +226,6 @@ Söker efter ett angivet värde eller reguljärt uttryck i den angivna texten oc
 
 ### Dataskrapning
 
-Dataskrapning, som ibland kallas webbskrapning, dataextrahering eller webbskörning, är processen att samla in data från webbplatser och lagra dem i din lokala databas eller kalkylblad. Om du vill skrapa data från en webbplats och du inte känner till reguljära uttryck, kan du använda ett dataskrapningsverktyg:
-
-* [Apiera](https://apify.com/)
-* [Best Data Scraping Tools for 2019](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews)
+Dataskrapning, som ibland kallas webbskrapning, dataextrahering eller webbskörning, är processen att samla in data från webbplatser och lagra dem i din lokala databas eller kalkylblad. Om du vill skrapa data från en webbplats och inte känner till reguljära uttryck, kan du använda ett dataskrapningsverktyg.
 
 Om verktyget för dataskrapning tillhandahåller ett REST API kan du ansluta till det via vårt universella [[!UICONTROL HTTP] moduler](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) och [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) moduler.
