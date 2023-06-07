@@ -7,7 +7,7 @@ description: Tidigaste tillgängliga tid är en aktivitetsbegränsning som schem
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -68,12 +68,16 @@ I denna situation:
 
 * **Tidigaste tillgängliga tid:** Om du använder villkoret Tidigast tillgängliga tid för efterföljande aktivitet prioriteras föregående åtgärds flexibla begränsning.
 
-   **Exempel:** Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har den tidigaste tillgängliga tidsbegränsningen och aktivitet A har begränsningen As Late As Possible. I sådana fall är uppdrag B schemalagt så nära att projektet har slutförts som möjligt.
+   **EXEMPEL**
+
+   Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har den tidigaste tillgängliga tidsbegränsningen och aktivitet A har begränsningen As Late As Possible. I sådana fall är uppdrag B schemalagt så nära att projektet har slutförts som möjligt.
 
    ![Tidigaste tillgängliga tidsbegränsning när aktiviteten har datum som ligger nära projektets slutförandedatum](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
 * **Så snart som möjligt:** I det här fallet ges prioriteten till efterföljande uppgift om du använder villkoret Så snart som möjligt för efterföljande uppgift.
 
-   **Exempel:**  Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har begränsningen As Son As Possible och aktivitet A har begränsningen As Late As Possible. I så fall är uppgift B schemalagd så nära projektets början som möjligt.
+   **EXEMPEL**
+
+   Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har begränsningen As Son As Possible och aktivitet A har begränsningen As Late As Possible. I så fall är uppgift B schemalagd så nära projektets början som möjligt.
 
    ![Så snart som möjligt, begränsning när aktiviteten har datum nära projektets startdatum](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

@@ -6,9 +6,9 @@ description: Du kan skapa en frågekö där användare kan ange tillfälliga beg
 author: Alina
 feature: Work Management
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,14 @@ Så här skapar du en begärandekö:
 
    * **Vem kan lägga till begäranden i den här kön?** Välj vilka användare som har åtkomst att lägga till begäranden i den här kön. Du kan tillåta följande grupper av personer att se begärandekön i området Förfrågningar i det globala navigeringsfältet:
 
-      | Alla | Alla Workfront-användare med ett aktivt konto kan visa den här begärandekön och lägga till begäranden i den |
+      | Vem kan skriva in förfrågningar? | Beskrivning |
       |---|---|
+      | Alla | Alla Workfront-användare med ett aktivt konto kan visa den här begärandekön och lägga till begäranden i den |
       | Personer med visningsåtkomst till det här projektet | Användare med behörigheten Visa i projektet kan visa och lägga till begäranden i den här kön |
       | Personer i det här projektets företag | Användare som tillhör det företag som är associerat med det här projektet kan visa och lägga till begäranden i den här kön. Om det finns ett företag som är associerat med projektet visas företagets namn inom parentes efter den här inställningen. |
       | Personer i det här projektets grupp | Användare som tillhör gruppen som är kopplad till det här projektet kan visa och lägga till begäranden i den här kön. Om det finns en grupp som är associerad med projektet visas gruppens namn inom parentes efter den här inställningen. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **Dela med dessa länkar:** Med följande alternativ kan du ge direktåtkomst till begärandekön och de formulär som är kopplade till den till användare utanför Workfront eller till Workfront-användare via en extern sida. Mer information om hur du bäddar in en begärandekö i en instrumentpanel som en extern sida finns i [Bädda in en begärandekö i en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
@@ -217,12 +218,11 @@ Så här skapar du en begärandekö:
       Standardvärdet för utfärdandevaraktighet är 1 dag eller 8 timmar. Om Workfront-administratören ställer in Normal timma per arbetsdag till mindre än 8 timmar är standardvaraktigheten för utgåvor fortfarande 8 timmar. Om t.ex. antalet timmar per arbetsdag är 7 timmar är standardlängden för utleveranser 1,14 dagar eller 8 timmar. Mer information om hur du ställer in systemet för beräkning av normaltimmar per arbetsdag finns i avsnittet &quot;Beräkningar av tidslinje&quot; i artikeln [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * **Personer från samma företag ärver samma behörigheter för alla begäranden.:** När du väljer det här alternativet visas alla begäranden som skickas till kön för användare i samma företag. Användare kan visa dessa begäranden i avsnittet Alla begäranden, som finns i området Begäranden. När denna inställning är aktiverad eller inaktiverad påverkas alla framtida förfrågningar. inte retroaktivt påverkar informationen.
-   * **När någon gör en förfrågan tilldelar automatiskt** När en användare gör en begäran i kön med begäranden, tilldelas användaren automatiskt den behörighetsnivå som du väljer för den begäran. Välj bland följande behörighetsnivåer:\
-      **- Visa**
+   * **När någon gör en förfrågan tilldelar automatiskt** När en användare gör en begäran i kön med begäranden, tilldelas användaren automatiskt den behörighetsnivå som du väljer för den begäran. Välj bland följande behörighetsnivåer:
 
-      **- Contribute**
-      **- Hantera**
-
+      * **Visa**
+      * **Contribute**. Det här är standardvalet.
+      * **Hantera**
       Mer information om Workfront behörighetsmodell finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
       Om du anger behörigheter här sparar du tid i stället för att behöva bevilja behörigheter för varje enskild inkommande begäran. Om du väljer det här alternativet påverkas alla framtida förfrågningar, men befintliga förfrågningar påverkas inte retroaktivt.
 
@@ -247,7 +247,9 @@ Så här skapar du en begärandekö:
 
       När du aktiverar något av fälten Tilldelad till, Jobbroll eller Team ändras alltid namnen till Tilldelningar i formuläret för begäran, men du kan bara ange vilken typ av uppdrag som har valts här.
 
-      **Exempel:** Om du markerade Tilldelad till i området Köinformation kan du bara ange användare i fältet Uppdrag i formuläret för begäran. I det här fallet kan du inte ange jobbroller eller ett team.
+      >[!NOTE]
+      Om du markerade Tilldelad till i området Köinformation kan du bara ange användare i fältet Uppdrag i formuläret för begäran. I det här fallet kan du inte ange jobbroller eller ett team.
+
 
    * **Dokument**: Om du väljer att visa avsnittet Dokument i det nya formuläret för begäran, ska du välja var avsnittet för dokumentöverföring ska placeras. Välj bland följande:
 
@@ -270,12 +272,11 @@ Så här skapar du en begärandekö:
 
    * **Visa alla markerade och omarkerade fält till:** Välj vilka användare du vill visa alla fält i formuläret. Följande alternativ styr åtkomsten till fälten i formuläret.
 
+      | Vilka användare som kan se alla fält i det begärda formuläret | Beskrivning |
+      |---|---| 
       | Alla användare (Planera licenser) | Alla användare som har en planlicens kan se både det markerade och de omarkerade fälten. |
-      |---|---|
       | Personer med visningsåtkomst till det här projektet (planlicens) | De användare som har en planlicens som även har visningsbehörighet för det här projektet kan se både det valda och de omarkerade fälten. Resten av användarna som kan skicka begäranden till det här projektet kan se endast de valda fälten. |
       | Inga användare | Inga användare kan se de omarkerade fälten. Alla användare som kan skicka begäranden till det här projektet kan bara se de markerade fälten. |
-
-      {style=&quot;table-layout:auto&quot;}
 
    * **Anpassad Forms**: Välj ett anpassat formulär som ska associeras med begärandekön. Det är bara Issue Custom Forms (Utforma anpassad) som du kan välja i den här listrutan. Alla utleveranser som skickas till begärandekön har de valda formulären kopplade till sig.\
       Om du har flera köämnen kopplade till en frågekö rekommenderar vi att du i stället kopplar anpassade formulär till köämnen. Mer information om hur du skapar underavsnitt för begärandekön finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -285,16 +286,18 @@ Så här skapar du en begärandekö:
       >[!TIP]
       Anpassade formulär som läggs till i avsnittet Köinformation associeras också med eventuella nya problem som läggs till i projektet eller aktiviteterna i avsnittet Problem.
 
-   * **Tillåt att ärenden läggs till via e-post:** Välj det här alternativet om du vill tillåta att begäranden skickas via e-post.\
-      Mer information finns i [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 
 
+
+1. Fortsätt att välja information för inställningarna i **Inställningar för e-postkö** -området, så att användare kan skicka begäranden via e-post till begärandeköprojektet.
+
+   Mer information finns i [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 1. Klicka **Spara**.\
    Ditt projekt har nu konfigurerats som en frågekö och användare kan nu lägga till begäranden i det.
 
 1. (Valfritt) Om du vill förbättra funktionen för begärandekö skapar du ytterligare underavsnitt för kön samt regler som dirigerar inkommande begäranden till rätt team, uppdragsgivare eller projekt.
 
-   Mer information om hur du skapar underavsnitt för begärandekön finns i artiklarna [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) och [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).\
-   Mer information om hur du dirigerar begäranden till lämplig uppdragstagare, team och lämpligt projekt finns i [Skapa routningsregler](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Mer information om hur du skapar underavsnitt för begärandekön finns i artiklarna [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) och [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   * Mer information om hur du dirigerar begäranden till lämplig uppdragstagare, team och lämpligt projekt finns i [Skapa routningsregler](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).

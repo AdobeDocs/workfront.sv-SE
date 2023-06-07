@@ -7,9 +7,9 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2368'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,11 @@ I listorna nedan definieras de tillgängliga uttryck som du kan använda när du
   </tr> 
   <tr> 
    <td><strong>PROD</strong> </td> 
-   <td>Det här uttrycket multiplicerar alla tal och formateras enligt följande:<pre>PROD(number1, number2, ....)</pre></td> 
+   <td>Det här uttrycket multiplicerar alla tal och formateras enligt följande:<pre>PROD(number1, number2, ....)</pre>
+   <b>ANMÄRKNING</b>
+
+När du multiplicerar fält som innehåller timmar ska du kontrollera om timmarna i de markerade fälten sparas i minuter, timmar eller sekunder i databasen. Om timmarna sparas i minuter eller sekunder men visas i timmar i Workfront-gränssnittet kan du behöva räkna med konverteringen från minuter eller sekunder till timmar när du skriver ett uttryck med den här beräkningen.
+</td> 
   </tr> 
   <tr> 
    <td><strong>ROUND</strong> </td> 
