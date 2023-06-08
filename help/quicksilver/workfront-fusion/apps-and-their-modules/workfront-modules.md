@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 2a49e8f1947d39efa85bb8b8bdb7aee5054f8d33
 workflow-type: tm+mt
-source-wordcount: '4921'
+source-wordcount: '4954'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,10 @@ Du kan skapa en anslutning till [!DNL Workfront] direkt inifrån [!DNL Workfront
    >[!NOTE]
    >
    >* Om du inte ser någon inloggningsknapp för SAML har din organisation inte aktiverat enkel inloggning (SSO). Du kan logga in med ditt användarnamn och lösenord.
-      >   
-      >   Mer information om enkel inloggning finns i [Översikt över enkel inloggning [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   >   
+   >   Mer information om enkel inloggning finns i [Översikt över enkel inloggning [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
    >   
    >* OAuth 2.0-anslutningar till [!DNL Workfront] API är inte längre beroende av API-nycklar.
-
 
 ## [!DNL Workfront] moduler och deras fält
 
@@ -278,7 +277,7 @@ Den här åtgärdsmodulen gör någon av följande konverteringar:
    <td>Markera det objekt som du vill konvertera det till. Detta är den typ som objektet har efter konverteringen.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;Object&gt; ID]</td> 
+   <td>[!UICONTROL <Object> ID]</td> 
    <td> <p>Ange objektets ID. </p> <p>Obs! När du anger ID:t för ett objekt kan du börja skriva namnet på objektet och sedan markera det i listan. Modulen anger sedan rätt ID i fältet.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -345,6 +344,7 @@ Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modu
 >* När du anger text för ett anpassat fält eller en [!UICONTROL Note] -objekt (kommentar eller svar), kan du använda HTML-taggar i [!UICONTROL Note Text] om du vill skapa formaterad text, t.ex. fet eller kursiv text.
 >
 >  Mer information om RTF i uppdateringar finns i [Lägga till en uppdatering i en arbetsuppgift](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -391,6 +391,7 @@ Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modu
 >* När du anger text för ett anpassat fält eller en [!UICONTROL Note] -objekt (kommentar eller svar), kan du använda HTML-taggar i [!UICONTROL Note Text] om du vill skapa formaterad text, t.ex. fet eller kursiv text.
 >
 >  Mer information om RTF i uppdateringar finns i [Lägga till en uppdatering i en arbetsuppgift](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -403,7 +404,7 @@ Modulen returnerar följande information:
 * **[!UICONTROL Status Code]** (tal): Detta anger om HTTP-begäran lyckades eller misslyckades. Det här är standardkoder som du kan söka efter på Internet.
 * **[!UICONTROL Headers]** (objekt): En mer detaljerad kontext för den svars-/statuskod som inte är relaterad till utdatatexten. Alla sidhuvuden som visas i en svarshuvud är inte svarshuvuden, så en del kanske inte är användbara för dig.
 
-   Svarshuvuden beror på den HTTP-begäran du valde när du konfigurerade modulen.
+  Svarshuvuden beror på den HTTP-begäran du valde när du konfigurerade modulen.
 
 * **[!UICONTROL Body]** (objekt): Beroende på vilken HTTP-begäran du valde när du konfigurerade modulen kan du få tillbaka data. Dessa data, till exempel data från en GET-begäran, finns i det här objektet.
 
@@ -657,6 +658,7 @@ Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modu
 >* När du anger text för ett anpassat fält eller en [!UICONTROL Note] -objekt (kommentar eller svar), kan du använda HTML-taggar i [!UICONTROL Note Text] om du vill skapa formaterad text, t.ex. fet eller kursiv text.
 >
 >  Mer information om RTF i uppdateringar finns i [Lägga till en uppdatering i en arbetsuppgift](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>
 
 +++
 
@@ -1675,14 +1677,13 @@ Följande operatorer är tillgängliga i Workfront > filtret Bevakningshändelse
 * Mindre än eller lika med
 * Innehåller
 * Finns
+   * Den här operatorn kräver inget värde och värdefältet saknas.
 * Finns inte
+   * Den här operatorn kräver inget värde och värdefältet saknas.
 * Ändrad
-
->[!NOTE]
->
-> * The `Exists`, `Does not exist`och `Changed` -operatorer kräver inget värde och värdefältet finns inte med bland dessa alternativ.
-> * The `Changed` -operatorn ignorerar tillståndsfältet.
-
+   * Den här operatorn kräver inget värde och värdefältet saknas.
+   * Den här operatorn ignorerar tillståndsfältet.
+   * När du använder `Changed`, markera **Endast uppdaterade händelser** i **Postens ursprung** fält.
 
 >[!IMPORTANT]
 >
