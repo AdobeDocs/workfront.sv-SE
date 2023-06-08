@@ -6,16 +6,22 @@ title: Konfigurera eftersläpningen på en arbetsyta
 description: Du kan välja att visa en eftersläpande kolumn på en anslagstavla i ett arbetsflöde och definiera en fråga för korten som hämtas till eftersläpningen i arbetsflödets kortlista.
 author: Lisa
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 75bb5af9564947a39e1cb46f9d6be2c03eb07acc
+source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Konfigurera eftersläpningen på en arbetsyta
 
-Du kan välja att visa en eftersläpande kolumn på en anslagstavla i ett arbetsflöde och definiera en fråga för korten som hämtas till eftersläpningen i arbetsflödets kortlista. Dessa alternativ är inte tillgängliga på fristående ritytor. Mer information om hur du lägger till en inloppskolumn på en fristående bräda finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Du kan välja att visa en eftersläpande kolumn på en anslagstavla i ett arbetsflöde och definiera en fråga för korten som hämtas till eftersläpningen i arbetsflödets kortlista.
+
+>[!NOTE]
+>
+>Om du lägger till ett nytt kort i kolumnen för eftersläpning som inte matchar frågevillkoren, kommer kortet att försvinna från eftersläpningen när kortet uppdateras och kommer endast att vara tillgängligt i kortlistan. Du kan när som helst ändra frågan för att justera vilka kort som visas i kolumnen med eftersläpningar.
+
+Eftersläpningskolumnen och frågan är inte tillgängliga på fristående anslagstavlor. Mer information om hur du lägger till en inloppskolumn på en fristående bräda finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Åtkomstkrav
 
@@ -55,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >En standardfråga kan redan tillämpas på eftersläpningen, som visar alla arbetsobjekt från kortlistan som inte tillhör en iteration och som inte har statusen Fullständig.
+   >En standardfråga kan redan tillämpas på eftersläpningen, som visar alla arbetsobjekt från kortlistan som har en status och statusen inte Fullständig.
 
 1. Klicka [!UICONTROL **Lägg till villkor**] och klicka i fältet&quot;tom&quot;.
 1. Markera fältet som du vill fråga efter.
