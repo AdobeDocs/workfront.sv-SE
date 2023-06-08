@@ -6,16 +6,16 @@ description: 20.4-utgåvan gjordes tillgänglig i produktionsmiljön den 9 novem
 author: Luke
 feature: Product Announcements
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3666'
 ht-degree: 0%
 
 ---
 
 # 20.4 versionsöversikt
 
-20.4-utgåvan gjordes tillgänglig i produktionsmiljön den 9 november 2020. Specifika releasedatum och -tider för varje kluster finns i [Workfront statuswebbplats](https://status.workfront.com/).
+20.4-utgåvan gjordes tillgänglig i produktionsmiljön den 9 november 2020.
 
 Den här sidan innehåller information om funktionalitet för både Adobe Workfront Classic och den nya Adobe Workfront-upplevelsen som ingår i version 20.4.
 
