@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Förbättrad upplevelse när du flyttar ett dokument till en länkad mapp med dra och släpp</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p> 
+                        <p>Vi har lagt till viss genomskinlighet i processen att dra och släppa ett dokument i en länkad mapp. Dokumentet som du har flyttat till en länkad mapp finns kvar i dokumentlistan tills det har flyttats helt. Dokumentalternativen är inaktiverade, men du kan fortfarande öppna dokumentet för visning medan det flyttas. När dokumentet har slutfört överföringen tas det bort från dokumentlistan eftersom det nu finns helt i den länkade mappen. </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 7 juni 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 15 juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Skapa automatiskt länkade mappar till Adobe Experience Manager Assets när du skapar ett projekt</a></p>
                         <p>Med det nya arbetsflödet Skapa länkad mapp för Adobe Experience Manager-integreringen kan du konfigurera integreringen med en sökväg till en Adobe Experience Manager Assets-mapp. När integreringen läggs till i en projektmall skapas automatiskt en länkad undermapp i Experience Manager Assets i den angivna mappen för projekt som skapas från mallen. </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Godkännanden av nya dokument</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ändra stöd för Microsoft Office-korrektur</a> </p>
+                        <p>För att upprätthålla en robust och skalbar korrekturbehandlingslösning ändrar vi de Microsoft Office-filtyper och filstorleksbegränsningar som stöds.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 8 juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 8 juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Godkännanden av nya dokument</a> </p>
                         <p>Dokumentgodkännandena omformas i en fasad lansering som kommer att göras tillgänglig för fler användare i varje release.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nya kommentarer Beta-upplevelser för projekt, uppgifter och dokument</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nya kommentarer Beta-upplevelser för projekt, uppgifter och dokument</a> </p>
                         <p>Den nya kommenteringsfunktionen Beta är nu tillgänglig för projekt, uppgifter och dokument. Före den här uppdateringen fanns det bara för problem och mål att kommentera betaversionen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -352,7 +384,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Förhandsversion: 1 juni 2023<br /></p>
                             </li>
                             <li>
-                                <p>produktionsrelease:Med version 23.3</p>
+                                <p>Produktionsrelease: Med version 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nya förbättringar av Canvas Dashboard</a></p>
+                        <p>Förbättringar av arbetsytans kontrollpanel görs tillgängliga inom tidsramen för version 23.3. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.3, om inget annat anges. 
+ </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Under hela tidsramen för version 23.3<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: Med version 23.3 (om inget annat anges)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 

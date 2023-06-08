@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
 workflow-type: tm+mt
-source-wordcount: '13064'
+source-wordcount: '13069'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 0%
          * [Aktivitetsvecka 23.3, 8 maj 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [Aktivitetsveckan 23.3, släppt 2023-05-15](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
          * [Aktivitetsveckan 23.3, släppt 29 maj 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
+         * [Aktivitetsveckan 23.3, släppt 2023-06-06](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
          * [Utforma och känna av uppdateringar under 23.3-releasetidningen](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 Utgåva {#release-23-2}
          * [23.2 Versionsöversikt](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -57,11 +58,11 @@ ht-degree: 0%
          * [22.3 Versionsöversikt](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [2.3 Administratörsförbättringar](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [2.3 Integration enhancements](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
-         * [2.3 Mobilförbättringar ](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
-         * [22.3 Andra förbättringar ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
-         * [2.3 Projektförbättringar ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
-         * [2.3 Förbättrad resurshantering ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
-         * [2.3 Förbättrade rapporter ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
+         * [2.3 Mobilförbättringar](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
+         * [22.3 Andra förbättringar](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
+         * [2.3 Projektförbättringar](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
+         * [2.3 Förbättrad resurshantering](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+         * [2.3 Förbättrade rapporter](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [Se och känna av uppdateringar under tidsramen för version 22.3](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
       * 22.2 Utgåva {#release-22-2}
          * [22.2 Versionsöversikt](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
