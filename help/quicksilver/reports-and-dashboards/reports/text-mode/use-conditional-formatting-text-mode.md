@@ -6,9 +6,9 @@ description: Använda villkorsstyrd formatering i textläge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 16d59c6e3d790f2804795f5a6fef05c8dca71b30
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -295,7 +295,6 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Även om den här programsatsen kan användas för en företagsnamnkolumn, kan den även användas för andra kolumner i rapporten. Grön text visas bara om projektet har ett associerat företag. Kom ihåg `[field name]`, `[value]`och `[qualifier]` kör om konditioneringen slutligen visas i kolumnen eller inte.
 >* När vi arbetar med kvalificerare rekommenderar vi att du använder `cicontains` i stället för `equal`. Som standard `equal` söker efter ID-nummer. Använda `cicontains` kan du komma åt objekt efter deras namn.
 
-
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
 ![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
@@ -322,7 +321,7 @@ Använd följande tabeller för att identifiera vilka rader som behöver ändras
 | Röd | `d30519` |
 | Gul | `e19503` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Justering** | **Rad: align=** |
 |---|---|
@@ -330,14 +329,14 @@ Använd följande tabeller för att identifiera vilka rader som behöver ändras
 | Högerjustering | `right` |
 | Centrera | `center` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | Teckensnitt | Rad: ***fontstyle=*** |
 |---|---|
 | Fet | `bold` |
 | Kursiv | `italic` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Bakgrundsfärg** | **Rad: bgcolor=** |
 |---|---|
@@ -350,7 +349,7 @@ Använd följande tabeller för att identifiera vilka rader som behöver ändras
 | Gul | `feecc8` |
 | Vit | `ffffff` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### Flera villkorsstyrda format {#multiple-conditional-formats}
 
@@ -375,8 +374,6 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 >[!NOTE]
 >
 >Om du inkluderar mer än ett villkorsstyrt formateringsuttryck måste varje uttryck i programsatsen identifieras numeriskt. Observera att uttryck 0 och uttryck 1 har identifierats.
-
-![](assets/screen-shot-2013-08-15-at-3.18.45-pm-350x198.png)
 
 #### Använd text {#apply-text}
 
@@ -553,7 +550,7 @@ Om du vill använda de bilder som är tillgängliga använder du följande kod o
 | Vit cirkel ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
 | Gul cirkel ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Formatera en `valueexpression` {#conditionally-format-a-valueexpression}
 
@@ -580,9 +577,9 @@ Tänk på följande när du lägger till aggregerare i en kolumn i textläge:
 * Du kan lägga till en aggregator i en kolumn som visar en beräkning. Det aggregerade värdet visas i grupperingen av vyn eller rapporten. Mer information finns i [Gruppering: visa resultatet av att aggregera flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * Kodraderna för definitionen av kolumnen måste vara identiska med kodraderna som inför aggregatorn och föregås av &quot;aggregator&quot;. Om du till exempel har en kolumn där du visar Planerade timmar i ett projekt, är textläget för kolumnhuvudraderna:
 
-   ```
-   valuefield=workRequired
-   valueformat=compound
-   ```
+  ```
+  valuefield=workRequired
+  valueformat=compound
+  ```
 
-   När du vill aggregera värdet för alla rader i vygrupperingen kan vi lägga till följande kod för att lägga till aggregeringsvärdena: `aggregator.valuefield=workRequired` ( `aggregator.valuefield` raden måste vara samma som `valuefield` som beskriver kolumnen) `aggregator.valueformat=compound` ( `aggregator.valueformat` raden måste ha samma värde som `valueformat` som beskriver kolumnen) `aggregator.function=SUM` (det här är en obligatorisk rad som anger hur du vill samla kolumnen, och i det här fallet vill du lägga till alla enskilda planerade timmar i ett nummer på grupperingsraden) `aggregator.displayformat=minutesAsHoursString` (eftersom timmar lagras i Workfront på några minuter vill vi ange `displayformat` i timmar när de lagras i minuter)
+  När du vill aggregera värdet för alla rader i vygrupperingen kan vi lägga till följande kod för att lägga till aggregeringsvärdena: `aggregator.valuefield=workRequired` ( `aggregator.valuefield` raden måste vara samma som `valuefield` som beskriver kolumnen) `aggregator.valueformat=compound` ( `aggregator.valueformat` raden måste ha samma värde som `valueformat` som beskriver kolumnen) `aggregator.function=SUM` (det här är en obligatorisk rad som anger hur du vill samla kolumnen, och i det här fallet vill du lägga till alla enskilda planerade timmar i ett nummer på grupperingsraden) `aggregator.displayformat=minutesAsHoursString` (eftersom timmar lagras i Workfront på några minuter vill vi ange `displayformat` i timmar när de lagras i minuter)

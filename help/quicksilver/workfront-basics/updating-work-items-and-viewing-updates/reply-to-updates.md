@@ -6,7 +6,7 @@ description: När någon lägger till eller svarar i en uppdatering för ett arb
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -29,13 +29,13 @@ ht-degree: 0%
 >
 >* Frågor, <span class="preview">projekt, uppgifter och dokument</span>.
 >
->  Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
+>     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
 >
->  Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
 >
->  * Startsida
->  * Panelen Sammanfattning i listor
->  * Sammanfattningspanelen i tidrapporter
+>     * Startsida
+>     * Panelen Sammanfattning i listor
+>     * Sammanfattningspanelen i tidrapporter
 >
 >* Mål
 >

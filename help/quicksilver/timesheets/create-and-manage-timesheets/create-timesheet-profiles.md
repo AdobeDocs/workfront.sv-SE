@@ -6,9 +6,9 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,8 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Tillgängliga timtyper</strong> </td> 
-      <td>Som standard ser användare alla allmänna timmar på en tidrapport. Om din organisation bara vill att specifika allmänna timmar ska visas för en viss uppsättning användare, kan du välja de allmänna timmar som de behöver se i sina tidrapporter genom att markera dem i sin tidrapportprofil i det här fältet. Om du vill inaktivera alla allmänna timmar avmarkerar du alla timtyper för att generera tidrapporten utan ett avsnitt för allmänna timmar.</td> 
+      <td><p>Den här inställningen avser endast allmänna timtyper och inte projektspecifika timtyper. </p>
+      <p>Som standard ser användare alla allmänna timmar på en tidrapport. Om din organisation bara vill att specifika allmänna timmar ska visas för en viss uppsättning användare, kan du välja de allmänna timmar som de behöver se i sina tidrapporter genom att markera dem i sin tidrapportprofil i det här fältet. Om du vill inaktivera alla allmänna timmar avmarkerar du alla timtyper för att generera tidrapporten utan ett avsnitt för allmänna timmar.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Övertid</span> </td> 
@@ -158,7 +159,6 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >* Du kan även associera en användare med en tidrapportprofil genom att redigera användarprofilen. Mer information finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* När du lägger till en grupp visas bara gruppnamnet på fliken Tilldela personer, inte på listan med gruppmedlemmar. Om du vill visa gruppmedlemmarna som listas här klickar du på Spara ändringar och sedan på namnet på den tidrapportprofil som du just skapade.
    >* När du är klar med de här stegen genererar tidrapportprofilen endast tidrapporter för de tilldelade användarna eller gruppmedlemmarna som inte har några befintliga tidrapporter för den aktuella perioden.
-
 
 1. Klicka **Spara ändringar**.
 

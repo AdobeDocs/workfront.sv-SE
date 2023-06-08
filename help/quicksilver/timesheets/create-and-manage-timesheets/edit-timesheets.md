@@ -6,9 +6,9 @@ description: Som användare med administrativ åtkomst till tidrapporter kan du 
 author: Alina
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 Som användare med administrativ åtkomst till tidrapporter kan du redigera information om befintliga tidrapporter i Adobe Workfront. Du kan till exempel redigera ägaren, godkännarna eller tidsramen för tidrapporten.
 
 Du kan redigera information på en enda tidrapport eller redigera flera tidrapporter samtidigt.
+
+>[!IMPORTANT]
+>
+>Om användare är kopplade till tidrapportprofiler och tidrapporterna genereras automatiskt, återspeglas inte de ändringar du gör i befintliga tidrapporter på de tidrapporter som kommer att genereras för framtida datum. Alla tidrapporter som genereras automatiskt har de inställningar som har angetts i tidrapportprofilerna. Mer information finns i [Skapa tidrapportprofiler](../create-and-manage-timesheets/create-timesheet-profiles.md)
+
 
 ## Åtkomstkrav
 
@@ -37,8 +42,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-  </tr> 
+   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p><b>ANMÄRKNING</b>
+
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+</tr> 
  </tbody> 
 </table>
 
@@ -58,20 +65,25 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
 
-      eller
+     eller
 
-      Välj **Mina tidrapporter** om du bara vill visa dina tidrapporter.
+     Välj **Mina tidrapporter** om du bara vill visa dina tidrapporter.
 
-      Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
+     Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    * Klicka på ikonen Filter ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
    >Alternativen Mina tidrapportgodkännanden och Mina tidrapporter visas inte högst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtren Mina tidrapportgodkännanden och Mina tidrapporter från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
+   >
+   >   
+   >   
    * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-
+   >   
+   >
 
 1. (Valfritt) Klicka på&#x200B;**Visa** ![](assets/view-icon.png) eller **Gruppering** ![](assets/grouping.png) ikoner för att använda en annan vy eller gruppering eller för att skapa en ny.
 
