@@ -4,9 +4,9 @@ description: Konfigurera en fältvisualisering i rapportarbetsytan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ En fältvisualisering kan hjälpa dig att snabbt berätta en historia om dina da
 
 ## Förutsättningar
 
-Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas. Mer information finns i [Betaversion av arbetsyta för rapportering: översikt](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas. Mer information finns i [Betaversion av arbetsyta för rapportering: översikt](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Konfigurera en fältvisualisering
 
@@ -68,7 +68,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
       |---|---|
       | Visa datakälla | Aktivera det här alternativet om du vill visa källtabellen för visualiseringen på rapportarbetsytan eller inaktivera alternativet att dölja den. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
       <!--   
       NOLAN-FLAG: convert table to html. 

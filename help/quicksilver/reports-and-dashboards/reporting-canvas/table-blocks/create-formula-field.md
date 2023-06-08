@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Med fältverktyget i Rapportera arbetsyta kan du skapa fält som utför anpassad
 
 ## Förutsättningar
 
-Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas. Mer information finns i [Betaversion av arbetsyta för rapportering: översikt](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas. Mer information finns i [Betaversion av arbetsyta för rapportering: översikt](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Skapa ett formelfält
 
@@ -67,6 +67,6 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
    | DATEDIFF | Beräknar det totala antalet dagar mellan två datum, avrundat till en decimal. | Nummer |
    | VECKDAYDIFF | Beräknar antalet veckodagar mellan två datum, avrundat till en decimal. | Nummer |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klicka på **Gå tillbaka** pilen i skärmens övre vänstra hörn för att återgå till tabellen.

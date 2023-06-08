@@ -4,9 +4,9 @@ description: Konfigurera en tabellkolumn i rapportarbetsytan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Kolumnerna i en tabell kan konfigureras för visning. Du kan ändra följande as
 
 ## Förutsättningar
 
-Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas. Mer information finns i [Betaversion av arbetsyta för rapportering: översikt](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas. Mer information finns i [Betaversion av arbetsyta för rapportering: översikt](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Ändra kolumner i en tabell
 
@@ -45,7 +45,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
    | Flytta en kolumn | Om du vill ändra ordningen på kolumnerna i en tabell klickar du på ett kolumnnamn och drar det till en ny plats. |
    | Ta bort en kolumn | Om du vill ta bort en kolumn från en tabell klickar du på kolumnen som du vill ta bort och sedan på x till höger om kolumnnamnet. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Om du vill konfigurera en kolumn klickar du på namnet på den kolumn som du vill ändra i tabellens rubrikrad och sedan på någon av följande flikar i den högra panelen:
 

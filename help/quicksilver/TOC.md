@@ -2,7 +2,7 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 0d5f0df35136f3a643b2c7a6cfe1c2377671352f
+source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
 workflow-type: tm+mt
 source-wordcount: '13064'
 ht-degree: 0%
@@ -352,9 +352,9 @@ ht-degree: 0%
          * [Ta bort anpassad SMTP som ett alternativ för utgående e-post](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * Betaprogram {#beta}
       * [Betaprogram](product-announcements/betas/betas.md)
-      * Betaversion av rapportarbetsyta {#reporting-canvas-beta}
-         * [Betaversion av Reporting Canvas](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-         * [Betaversion av arbetsyta för rapportering: frisläppningsaktivitet](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Betaversion av Canvas Dashboards {#canvas-dashboards-beta}
+         * [Betaversion av Reporting Canvas](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [Betaversion av Canvas Dashboards: frisläppningsaktivitet](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Ny kommentarsfunktion - beta {#new-commenting-experience-beta}
          * [Ny information om betaupplevelser vid kommentering](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Ny kommentarsfunktion](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)

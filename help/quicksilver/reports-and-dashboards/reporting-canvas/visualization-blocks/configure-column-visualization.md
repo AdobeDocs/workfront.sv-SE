@@ -4,9 +4,9 @@ description: Konfigurera en kolumnvisualisering i rapportarbetsytan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ En kolumnvisualisering kan hjälpa dig att snabbt berätta en historia om dina d
 
 ## Förutsättningar
 
-Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas. Mer information finns i [Betaversion av arbetsyta för rapportering: översikt](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas. Mer information finns i [Betaversion av arbetsyta för rapportering: översikt](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Konfigurera en kolumnvisualisering
 
@@ -64,7 +64,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
       |---|---|
       | Visa datakälla | Aktivera det här alternativet om du vill visa källtabellen för visualiseringen på rapportarbetsytan eller inaktivera alternativet att dölja den. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
       <!--   
       NOLAN-FLAG: convert table to html. 
