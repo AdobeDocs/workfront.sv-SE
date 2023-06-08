@@ -1,8 +1,11 @@
 ---
+content-type: reference
+navigation-topic: betas
 title: 'Betaversion av Canvas Dashboards: frisläppningsaktivitet'''
 description: Versionsaktivitet varje vecka för betaversionen av Adobe Workfront Canvas Dashboards
 author: Nolan
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+feature: Product Announcements
+source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -20,4 +23,4 @@ Allmän information om betaversionen av kontrollpaneler på arbetsytan finns i [
 
 * **Diagramrapporter**
 
-   Nu kan du lägga till diagramrapporter på en arbetsyta, förutom rapporter. Mer information om hur du lägger till en diagramrapport på en arbetsytans kontrollpanel finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  Nu kan du lägga till diagramrapporter på en arbetsyta, förutom rapporter. Mer information om hur du lägger till en diagramrapport på en arbetsytans kontrollpanel finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
