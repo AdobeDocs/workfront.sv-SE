@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,6 @@ Om du redan har lagt till IP-adresserna i tillåtelselista för produktionsmilj�
    * finns (https://dmarcian.com/spf-syntax-table/#exists)
    * include (https://dmarcian.com/spf-syntax-table/#include)
 
-   Exempel: &quot;v=spf1 a mx inkluderar: [spf.workfront.com](http://spf.workfront.com/) -all&quot;
+   Exempel: &quot;v=spf1 a mx inkluderar: spf.workfront.com -all&quot;
 
 Om du inte kan lägga till SPF-poster i brandväggen på grund av en företagspolicy bör du arbeta med [!DNL Workfront] Supportrepresentant.
