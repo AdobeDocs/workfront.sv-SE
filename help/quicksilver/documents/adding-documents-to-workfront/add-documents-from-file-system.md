@@ -6,9 +6,9 @@ description: Du kan lägga till dokument till projekt, uppgifter eller problem i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
+source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Du kan lägga till nya dokument i Workfront från filsystemet på din arbetsstat
 Så här lägger du till ett dokument:
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill lägga till ett nytt dokument.
-1. Klicka på **Dokument** klickar du på **Lägg till ny** nedrullningsbar meny.
+1. Klicka på **Dokument** klickar du på **Lägg till ny** nedrullningsbar meny.
 
    ![](assets/add-new-350x138.png)
 
@@ -76,16 +76,17 @@ Så här lägger du till ett dokument:
       <td role="rowheader">Överför dokument från filsystemet till din arbetsstation</td> 
       <td> 
        <ol> 
-        <li value="1">Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Dokument.</strong></li> 
+        <li value="1">Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Dokument.</strong></li> 
         <li value="2"> <p>Bläddra till och välj det dokument som du vill lägga till i filsystemet på din arbetsstation.<br></p> <p>Du kan markera flera dokument genom att hålla ned Skift-tangenten när du markerar ytterligare filer.</p> </li> 
         <li value="3">Klicka <strong>Öppna</strong>.</li> 
-       </ol> </td> 
+       </ol> 
+       <p><b>ANMÄRKNING</b>: Du kan också dra och släppa filer direkt från filhanteraren i dokumentlistan.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Överför dokument från ett tredjepartsprogram som Google Drive eller SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Från &lt;name_of_third-party_application&gt;</strong>.</p> <p>Om du till exempel vill överföra ett dokument från Google Drive klickar du på <strong>Från Google Drive</strong>.</p> </li> 
+        <li value="1"> <p>Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Från &lt;name_of_third-party_application&gt;</strong>.</p> <p>Om du till exempel vill överföra ett dokument från Google Drive klickar du på <strong>Från Google Drive</strong>.</p> </li> 
         <li value="2"> <p>Följ instruktionerna för att välja dokumentet i tredjepartsprogrammet.<br></p> <p>Mer information om länkade dokument finns i <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Länka dokument från externa program</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -93,7 +94,7 @@ Så här lägger du till ett dokument:
       <td role="rowheader">Begär ett dokument från en annan Workfront-användare</td> 
       <td> 
        <ol> 
-        <li value="1">Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Begär ett dokument</strong>.</li> 
+        <li value="1">Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Begär ett dokument</strong>.</li> 
         <li value="2">I <strong>Vilka begär du det från?</strong> anger du namnet på den användare som du begär dokumentet från.</li> 
         <li value="3">I <strong>Berätta vad du begär</strong> anger du namnet på dokumentet.</li> 
         <li value="4"> <p>Klicka <strong>Skicka förfrågan</strong>.</p> <p>Din förfrågan visas på fliken Dokument.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Mer information om hur du begär dokument finns i <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Begär ett dokument</a>.</p> </li> 

@@ -6,9 +6,9 @@ description: Du kan skicka dokument från Workfront till Experience Manager Asse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 91da06fe23b464e0422d50b0db69f4eae3db642f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -103,3 +103,21 @@ Så här skickar du den senaste versionen:
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klicka **Spara**. Den nya versionen sparas på samma plats som den tidigare versionen.
+
+## Flytta ett dokument till en länkad mapp i Experience Manager Assets
+
+>[!NOTE]
+>
+>Den här funktionen är bara tillgänglig för Experience Manager Assets as a Cloud Service. Det finns inte för Experience Manager Assets Essentials.
+
+Du kan flytta ett dokument till en länkad mapp i Experience Manager Assets om både dokumentet och den länkade mappen finns i samma dokumentlista (till exempel dokumentområdet i ett projekt).
+
+1. Leta reda på dokumentet som du vill flytta.
+1. Dra och släpp dokumentet till den länkade Experience Manager Assets-mappen som du vill flytta det till.
+
+Dokumentalternativen är inte tillgängliga när dokumentet håller på att flyttas. När dokumentet har flyttats till Experience Manager Assets visas det inte längre i dokumentlistan i Workfront.
+
+>[!NOTE]
+>
+> De åtgärder eller redigeringar du gör i dokumentet när det flyttas visas inte i dokumentet i Experience Manager Assets och kommer därför att gå förlorade.
+
