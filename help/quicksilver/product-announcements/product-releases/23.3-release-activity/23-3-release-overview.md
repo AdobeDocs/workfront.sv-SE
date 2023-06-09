@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
+source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -319,23 +319,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ändra stöd för Microsoft Office-korrektur</a> </p>
-                        <p>För att upprätthålla en robust och skalbar korrekturbehandlingslösning ändrar vi de Microsoft Office-filtyper och filstorleksbegränsningar som stöds.</p>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsversion: 8 juni 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Produktionsrelease: 8 juni 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Godkännanden av nya dokument</a> </p>
@@ -373,7 +356,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
+            <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nya kommentarer Beta-upplevelser för projekt, uppgifter och dokument</a> </p>
                         <p>Den nya kommenteringsfunktionen Beta är nu tillgänglig för projekt, uppgifter och dokument. Före den här uppdateringen fanns det bara för problem och mål att kommentera betaversionen.</p>

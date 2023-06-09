@@ -6,13 +6,13 @@ title: Adobe Workfront Proof med version 23.3
 description: Den här sidan innehåller information om funktionaliteten för Adobe Workfront Proof i den nya Adobe Workfront-upplevelsen som släpps till produktionsmiljön i version 23.3.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
+source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Proof med version 23.3
 
@@ -34,9 +34,25 @@ En lista över alla ändringar som är tillgängliga för alla delar av Workfron
                         </p>
                     </td>
                 </tr>
-                <tr>
+                </tr>
+                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Uppdatering för Desktop Proofing Viewer</a><span style="color: #ff0000;"> Nyheter i produktion!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ändra stöd för Microsoft Office-korrektur</a><span style="color: #ff0000;"> Nyheter i produktion!</span> </p>
+                        <p>För att upprätthålla en robust och skalbar korrekturbehandlingslösning ändrar vi de Microsoft Office-filtyper och filstorleksbegränsningar som stöds.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 8 juni 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 8 juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Uppdatering för Desktop Proofing Viewer</a></p>
                         <p>Desktop Proofing Viewer har uppdaterats till version 2.1.24! Uppdateringen innehåller stöd för Chrome v100 för granskning av interaktiva korrektur samt ett antal problemkorrigeringar.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
