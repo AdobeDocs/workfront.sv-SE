@@ -7,7 +7,7 @@ description: Planerade timmar som är associerade med en aktivitet, utgåva elle
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: c535f5dff5ccc1e77b097a871c4e0460958a482f
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Planerade timmar som är associerade med en aktivitet, utgåva eller projekt rep
 * Du måste definiera värdet för Planerade timmar för uppgifter och ärenden om du vill använda verktygen för resurshantering i Workfront.
 * Du kan bara ändra värdet för Planerade timmar för uppgifter för vissa varaktighetstyper.
 
-   Mer information om hur du ändrar planerade timmar för uppgifter i relation till aktiviteternas varaktighetstyp finns i avsnittet [Uppdatera planerade timmar för aktivitet baserat på varaktighetstyp](#update-task-planned-hours-based-on-duration-type) i den här artikeln.
+  Mer information om hur du ändrar planerade timmar för uppgifter i relation till aktiviteternas varaktighetstyp finns i avsnittet [Uppdatera planerade timmar för aktivitet baserat på varaktighetstyp](#update-task-planned-hours-based-on-duration-type) i den här artikeln.
 
 * Du kan när som helst ändra värdet för Planerade timmar i frågor.
 * Du kan inte ändra värdet för Planerade timmar för projekt eller för överordnade uppgifter eftersom de är en beräknad summa av alla planerade timmar för alla deras aktiviteter och underaktiviteter.
@@ -45,7 +45,7 @@ I det här avsnittet beskrivs skillnaderna mellan aktiviteten och projektets pla
 
 De planerade timmarna för en uppgift anger hur lång tid det faktiska arbetet kan ta. Som standard distribuerar Workfront den totala mängden planerade timmar jämnt för varje dag under varaktigheten för varje uppgift. Det dagliga antalet planerade timmar blir daglig allokering för uppgiften. Om aktiviteten tilldelas flera resurser tilldelas varje resurs som standard ett lika stort antal timmar per dag.
 
-Med hjälp av Utjämning av arbetsbelastning kan du ändra de dagliga allokeringarna för användare som tilldelats till aktiviteterna. Detta kan även uppdatera aktivitetens planerade timmar när aktivitetens varaktighetstyp är enkel. Mer information finns i avsnittet&quot;Uppdatera planerade timmar för aktiviteter vid hantering av användartilldelningar&quot; i artikeln [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Med hjälp av Utjämning av arbetsbelastning kan du ändra de dagliga allokeringarna för användare som tilldelats till aktiviteterna. Detta kan även uppdatera aktivitetens planerade timmar när aktivitetens varaktighetstyp är enkel. Mer information finns i avsnittet&quot;Uppdatera planerade timmar för aktiviteter vid hantering av användartilldelningar&quot; i artikeln [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 När en aktivitet innehåller underaktiviteter är planerad timme för den överordnade aktiviteten summan av alla planerade timmar för alla underaktiviteter. Du kan inte uppdatera de planerade timmarna för en överordnad aktivitet.
 
@@ -60,10 +60,10 @@ Du kan inte redigera antalet planerade timmar i ett projekt. Planerade timmar i 
 
 Huruvida problem ingår i beräkningen av Planerade timmar beror på var i projektet du visar Planerade timmar. Du kan visa projektplanerade timmar på följande platser i ett projekt:
 
-* **Projektinformation** **section** ****och **Redigera projekt**box **:**Endast de planerade timmarna för aktiviteterna i projektet beaktas. De planerade timmarna för problemen i projektet beaktas inte när det totala antalet planerade timmar för projektet visas i avsnittet Projektinformation eller rutan Redigera projekt.
+* **Avsnittet Projektinformation och rutan Redigera projekt**: Endast de planerade timmarna för aktiviteterna i projektet beaktas. De planerade timmarna för problemen i projektet beaktas inte när det totala antalet planerade timmar för projektet visas i avsnittet Projektinformation eller rutan Redigera projekt.
 
-* **Utjämnaren för arbetsbelastning: Endast de planerade timmar som är associerade med de uppgifter som visas i Utjämning av arbetsbelastning visas i Utjämning av arbetsbelastning för projekt. Dagliga tilldelningar för användare kan ändra projektets planerade timmar per dag i Utjämning av arbetsbelastning.
-* **Användningssektion:** De planerade timmarna som är kopplade till de användare som har tilldelats aktiviteterna och problemen i projektet beaktas när det totala antalet planerade timmar för projektet visas i användningsavsnittet.
+* **Utjämning av arbetsbelastning**: Endast de planerade timmar som är associerade med de uppgifter som visas i Utjämning av arbetsbelastning visas i Utjämning av arbetsbelastning för projekt. Dagliga tilldelningar för användare kan ändra projektets planerade timmar per dag i Utjämning av arbetsbelastning.
+* **Användningssektion**: De planerade timmarna som är kopplade till de användare som har tilldelats aktiviteterna och problemen i projektet beaktas när det totala antalet planerade timmar för projektet visas i avsnittet Utnyttjande.
 * **Panelen Rollallokering** i uppgiftslistan: De planerade timmarna för aktiviteterna och problemen i projektet som är tilldelade till en jobbroll eller en användare som är associerad med en jobbroll visas i det här området. Planerade timmar som är associerade med uppgifter och problem som inte har tilldelats eller tilldelats till team visas inte i det här området. Mer information finns i [Visa projektplanerade timmar på panelen Rollallokering](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
 ## Fördelning av planerade timmar under en uppgifts varaktighet
@@ -154,9 +154,9 @@ Följande planerade timmar för uppgifter, utgåvor och projekt visas i Utjämni
 * För uppgifter och ärenden visas de planerade timmar som är kopplade till dem.
 * För projekt, totalt antal planerade timmar från de uppgifter och utgåvor som visas på skärmen.
 
-   >[!TIP]
-   >
-   >Utjämningen av arbetsbelastning visar inte alla planerade timmar för ett projekt så som de visas i området Projektinformation.
+  >[!TIP]
+  >
+  >Utjämningen av arbetsbelastning visar inte alla planerade timmar för ett projekt så som de visas i området Projektinformation.
 
 Du kan visa den dagliga fördelningen av planerade timmar för varje användare som tilldelats en uppgift eller ett problem i Utjämning av arbetsbelastning.
 
@@ -165,7 +165,7 @@ Det dagliga timbeloppet för Planerade timmar representerar något av följande:
 * standardbeloppet som fördelas jämnt av Workfront för varje dag i varaktigheten för uppgifterna, utgivningarna eller projektet
 * den justerade dagliga allokeringen hanteras av resurshanterare.
 
-   Mer information om hur du justerar daglig allokering i Utjämning av arbetsbelastning finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Information om hur du justerar daglig fördelning i Utjämning av arbetsbelastning finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### Resursplaneraren {#the-resource-planner}
 
@@ -181,12 +181,12 @@ Du kan visa veckoallokeringar av planerade timmar för användare och jobbroller
 
 Antalet planerade timmar för varje objekt varierar beroende på vilken vy du använder i resursplaneraren. Mer information finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-Veckotimbeloppet för planerade timmar för uppgifter och ärenden representerar något av följande: 
+Veckotimbeloppet för planerade timmar för uppgifter och ärenden representerar något av följande:
 
 * standardbeloppet för veckovis fördelning som är lika stort av Workfront för varje dag under varaktigheten för uppgifterna eller utställningarna
 * den justerade veckotilldelningen som hanteras av resurshanterare i arbetsbelastningsutjämnaren.
 
-   Mer information om hur du justerar daglig allokering i Utjämning av arbetsbelastning finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Mer information om hur du justerar daglig allokering i Utjämning av arbetsbelastning finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Veckobeloppet för projekt, användare och roller påverkas av antalet planerade timmar per vecka för de uppgifter och problem som är kopplade till dem.
 
@@ -203,7 +203,7 @@ Du kan visa följande typer av planerade timmar i användningsrapporten:
 * den totala planerade timmen för alla uppdrag i projektet under hela projektperioden
 * det totala antalet planerade timmar för alla tilldelningar för det angivna datumintervallet (du kan ange en enskild vecka eller månad).
 
-   När användarens dagliga allokering för timmar har justerats med hjälp av Utjämning av arbetsbelastning kan de planerade timmarna för ett visst datumintervall påverkas om de datum som valts i utnyttjanderapporten bara innehåller en del av en uppgifts eller utställningens varaktighet. Information om hur du justerar daglig tilldelning för användare finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  När användarens dagliga allokering för timmar har justerats med hjälp av Utjämning av arbetsbelastning kan de planerade timmarna för ett visst datumintervall påverkas om de datum som valts i utnyttjanderapporten bara innehåller en del av en uppgifts eller utställningens varaktighet. Information om hur du justerar daglig tilldelning för användare finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Mer information finns i [Visa information om resursutnyttjande](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
@@ -212,6 +212,7 @@ Mer information finns i [Visa information om resursutnyttjande](../../../resourc
 De planerade timmarna på panelen Rollallokering representerar antalet planerade timmar som är associerade med varje jobbroll som är tilldelad aktiviteterna eller problemen i projektet under projektets totala längd. Antalet matchar rollen Planerade timmar från resursplaneraren.
 
 >[!TIP]
+>
 Observera att de planerade timmar som är associerade med användare inte visas på panelen Rolltilldelning.
 
 Mer information finns i [Visa rolltilldelning för projekt och initiativ i Utjämning av arbetsbelastning](../../../scenario-planner/show-role-allocation-workload-balancer.md).
@@ -224,16 +225,16 @@ Följande scenarier finns:
 
 * Du kan bara ändra planerade timmar för uppgifter när du använder typerna Beräknad tilldelning eller Enkel varaktighet när du redigerar en uppgift.
 
-   Mer information om den beräknade varaktighetstypen för tilldelning finns i [Översikt över varaktighetstyp: Beräknad tilldelning](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
+  Mer information om den beräknade varaktighetstypen för tilldelning finns i [Översikt över varaktighetstyp: Beräknad tilldelning](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
 
-   Mer information om Simple Duration Type finns i [Översikt över varaktighetstyp: Enkel](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+  Mer information om Simple Duration Type finns i [Översikt över varaktighetstyp: Enkel](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
 * Du kan bara uppdatera planerade timmar för uppgifter i Utjämning av arbetsbelastning för uppgifter av typen Enkel varaktighet när du hanterar användarnas tilldelningar till uppgifter. Mer information om hur du hanterar användarallokeringar i Utjämning av arbetsbelastning finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 * Du kan inte ändra planerade timmar för uppgifter med varaktighetstypen insatsstyrd eller beräknad arbetstid. I dessa fall bestämmer Workfront planerad tid baserat på uppgiftens varaktighet. I det här fallet är dock de planerade timmarna alltid lika med varaktigheten (i timmar) och de påverkas inte av den procentuella allokeringen av de tilldelade resurserna.
 
-   Mer information om aktivitetsstyrd varaktighetstyp finns i [Översikt över varaktighetstyp: Ansträngningsstyrd](../../../manage-work/tasks/taskdurtn/effort-driven.md).
+  Mer information om aktivitetsstyrd varaktighetstyp finns i [Översikt över varaktighetstyp: Ansträngningsstyrd](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
-   Mer information om den beräknade varaktighetstypen för arbete finns i [Översikt över varaktighetstyp: Beräknat arbete](../../../manage-work/tasks/taskdurtn/calculated-work.md).
+  Mer information om den beräknade varaktighetstypen för arbete finns i [Översikt över varaktighetstyp: Beräknat arbete](../../../manage-work/tasks/taskdurtn/calculated-work.md).
 
 ## Uppdatera planerade timmar för aktiviteter vid hantering av användarallokeringar
 
@@ -256,10 +257,11 @@ Följande scenarier gäller när du manuellt uppdaterar användar- eller jobbrol
 * När du har uppdaterat allokeringarna manuellt för att utlösa en ändring av aktiviteten Planerade timmar och du tar bort alla tilldelningar för aktiviteten, tas även de planerade timmarna bort och aktivitetens planerade timmar blir 0.
 
 >[!NOTE]
+>
 Om en aktivitet till exempel har 10 planerade timmar och du har två tilldelningar, tilldelas de som standard 5 timmar vardera.
+>
 * Om du inte uppdaterar den enskilda användarallokeringen eller dagliga allokeringen med hjälp av Utjämning av arbetsbelastning och du tar bort någon eller alla tilldelningar från aktiviteten, återstår 10 timmar av aktiviteten Planerade timmar.
 * Om du manuellt ändrar tilldelningarna för tilldelningarna till 4 respektive 6 timmar, och du tar bort användaren som tilldelats till 6 timmar samt deras jobbroll, uppdateras aktiviteten Planerade timmar till 4 timmar. Om du även tar bort användaren som är tilldelad till 4 timmar men behåller den jobbroll som är associerad med den borttagna användaren, blir aktivitetens planerade timmar 4 timmar. Om du tar bort den sista användaren som är tilldelad till 4 timmar samt deras jobbroll och uppgiften fortfarande inte är tilldelad, blir aktivitetens planerade timmar 0.
-
 
 
 
