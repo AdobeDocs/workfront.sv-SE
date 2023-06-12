@@ -5,24 +5,25 @@ title: Översikt över kontrollpaneler på arbetsytan
 description: Du kan skapa kontrollpaneler för arbetsytan som integrerar visualiseringar för arbetsytan i rapporten med traditionella rapporter och har nya layoutalternativ.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
+source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över kontrollpaneler på arbetsytan
 
 Canvas Dashboards, en funktion som för närvarande är under utveckling för Dashboards, erbjuder ett nytt alternativ för att skapa effektiva kontrollpaneler i Workfront. Arbetsytans kontrollpaneler gör det enkelt att ta med visualiseringar av arbetsytan i befintliga rapporter, vilket ger större flexibilitet och nya layoutalternativ.
 
 Den här funktionen är under utveckling och stöder ännu inte:
-* diagramrapporter
 * externa sidor
 * kalenderintegrering
 * rapporter
 * distribution via layoutmallar
+
+En fullständig lista över funktioner som har lagts till på arbetsytans kontrollpaneler finns på [Kontrollpaneler på arbetsytan: frisläppningsaktivitet](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## Åtkomst till Canvas-instrumentpaneler
 

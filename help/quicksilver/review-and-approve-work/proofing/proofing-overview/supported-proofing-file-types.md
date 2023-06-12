@@ -7,9 +7,9 @@ description: Du kan dela och granska olika typer av filer med granskarna, även 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: fa0247796b2d0fc147a0b6a564a306c7e594c6fb
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Du kan dela och granska olika typer av filer med granskarna, även om de inte ha
 Workfront har följande begränsningar:
 
 * Filerna måste vara mindre än 4 GB per fil.
+* Microsoft Word- (DOC, DOCX) och PowerPoint-filer (PPT, PPTX) måste vara mindre än 512 MB.
 * XLS- och XLSX-filer måste vara mindre än 100 MB.
 * Filer som bifogas kommentarer i korrektur måste vara mindre än 30 MB.
 * PNG-filer måste ha en höjd och bredd som är mindre än 65535px.
@@ -34,6 +35,18 @@ Workfront har följande begränsningar:
 >Större filer tar längre tid att överföra och om anslutningen inte är stabil kan åtgärden avslutas/brytas.
 
 ## Statiska filer
+
+>[!IMPORTANT]
+> Vi stöder inte längre följande statiska filtyper:
+>
+> * DOT - Microsoft Word-dokumentmall
+> * DOTX - Microsoft Word-dokumentmall
+> * POT - Microsoft PowerPoint-mall
+> * POTX - Microsoft PowerPoint-mall
+> * PPS - Microsoft PowerPoint-bildspel
+> * PPSX - Microsoft PowerPoint-bildspel
+> * XLT - Microsoft Excel-mall
+> * XLTX - Microsoft Excel-mall
 
 * ABC - LEAD Advanced Bitonal Compression
 * ABIC - Adaptiv bildkomprimering på två nivåer
@@ -155,12 +168,22 @@ Workfront har följande begränsningar:
 
 ## Statiska filer - textverktyget
 
+>[!IMPORTANT]
+> Vi stöder inte längre följande statiska filtyper för textverktyget:
+>
+> * DOT - Microsoft Word-dokumentmall
+> * DOTX - Microsoft Word-dokumentmall
+> * POT - Microsoft PowerPoint-mall
+> * POTX - Microsoft PowerPoint-mall
+> * PPS - Microsoft PowerPoint-bildspel
+> * PPSX - Microsoft PowerPoint-bildspel
+> * XLT - Microsoft Excel-mall
+> * XLTX - Microsoft Excel-mall
+
 * AI - Adobe Illustrator Artwork
 * AIT - Adobe Illustrator-mall
 * DOC - Microsoft Word-dokument
 * DOCX - Microsoft Word-dokument
-* DOT - Microsoft Word-dokumentmall
-* DOTX - Microsoft Word-dokumentmall 
 * EPS - Encapsulated PostScript
 * PDF - Adobe Portable Document File
 * PPT - PowerPoint-presentation
@@ -169,8 +192,7 @@ Workfront har följande begränsningar:
 * RTF - RTF
 * XLS - Microsoft Excel-kalkylblad
 * XLSX - Microsoft Excel-kalkylblad 2007
-* XLT - Microsoft Excel-mall
-* XLTX - Microsoft Excel-mall
+
 
 ## Videofiler
 

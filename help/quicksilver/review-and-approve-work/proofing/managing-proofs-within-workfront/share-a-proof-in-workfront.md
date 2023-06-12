@@ -6,9 +6,9 @@ description: Du kan dela korrekturdokument i Adobe Workfront genom att dela doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Genom att dela en korrekturlänk får Workfront-användare åtkomst. Användare 
 
    * Om du vill kopiera länken till Urklipp klickar du på **Kopiera länk**.
 
-      Nu kan du distribuera länken via ett verktyg från tredje part, som en chatt eller ett e-postprogram.
+     Nu kan du distribuera länken via ett verktyg från tredje part, som en chatt eller ett e-postprogram.
 
    * Så här skickar du länken direkt från Adobe Workfront:
 
@@ -114,6 +114,13 @@ Genom att dela en korrekturlänk får Workfront-användare åtkomst. Användare 
 
 Du kan lägga till valfri Workfront-användare i korrekturet om du har redigeringsbehörighet för korrekturet. Om korrekturet har flera steg lägger du till användaren i en enskild fas
 
+>[!WARNING]
+>
+>Förutom de metoder som anges i den här artikeln kan du lägga till användare i ett korrektur genom att tagga dem i en kommentar från fliken Uppdateringar i ett befintligt korrektur. Användare som läggs till i ett korrektur på det här sättet får dock inte ett e-postmeddelande om de inte taggas igen efter att de har lagts till i korrekturets arbetsflöde.
+>
+>Därför rekommenderar vi att du lägger till användare i ett korrektur på något av följande sätt och inte genom att tagga dem i en kommentar.
+>
+
 >[!NOTE]
 >
 >Tänk på följande om du använder en äldre Workfront-plan där språkkontroll kan aktiveras och inaktiveras för en användare:
@@ -121,7 +128,6 @@ Du kan lägga till valfri Workfront-användare i korrekturet om du har redigerin
 >* Mottagarna behöver inte ha språkkontroll aktiverat för att kunna granska korrekturet.
 >* När Automatiserat arbetsflöde är aktiverat och du lägger till en användare till korrekturet som inte har språkkontroll aktiverat i Workfront, skapas en ny fas i det automatiserade arbetsflödet. Användaren som du lägger till läggs automatiskt till på den nya scenen när han/hon visar korrekturet för första gången. (Mer information finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
 >
-
 
 ### Lägga till användare i ett befintligt korrektur från fliken Dokument
 
