@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ Detta öppnar mållistan.
    >
    >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Alla bilder som läggs till i kommentaren sparas också i utkastet. Utkast sparas i 7 dagar efter vilka de tas bort och kan inte återställas. Kommentarerna är bara synliga för användaren som skriver dem.
 
+1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
+   * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
+   * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
 1. (Valfritt) Om du vill lägga till RTF-formatering i en uppdatering, en hyperlänk eller en bild använder du något av alternativen i verktygsfältet RTF eller ikonerna intill. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
 1. Välj **Privat till mitt företag** för att göra kommentaren synlig endast för personer i ditt företag.
@@ -170,13 +173,12 @@ Du kan redigera din kommentar inom 15 minuter från det att du skickat in den. E
    >
    > * Datumstämpeln är datumet för den ursprungliga kommentaren och inte datumet för den senaste uppdateringen.
 
-
    1. (Valfritt) Klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka på något av följande alternativ för att kopiera information från en kommentar till Urklipp:
 
       * **Kopiera länk** om du vill kopiera länken till en uppdatering, utan svaren.
       * **Kopiera brödtext** om du vill kopiera texten i en uppdatering.
 
-         Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Valfritt) Klicka på **Mer** meny ![](assets/more-icon.png) till höger om en kommentar och klicka sedan på **Ta bort** för att ta bort en kommentar som du har lagt till. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 5-9 ovan. <!--insure this stays accurate-->

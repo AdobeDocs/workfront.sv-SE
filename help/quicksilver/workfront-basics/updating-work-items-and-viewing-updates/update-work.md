@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3211'
 ht-degree: 0%
 
 ---
@@ -27,22 +27,20 @@ ht-degree: 0%
 >
 >Du kommer åt den nya funktionen för följande objekt:
 > * Frågor, <span class="preview">projekt, uppgifter och dokument</span>.
-   >
-   >     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
-   >
-   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
-   >
-   >     * Startsida
-   >     * Panelen Sammanfattning i listor
-   >     * Sammanfattningspanelen i tidrapporter
+>
+>     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
+>
+>     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>
+>     * Startsida
+>     * Panelen Sammanfattning i listor
+>     * Sammanfattningspanelen i tidrapporter
 >
 > * Mål
-
-   >
-   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>
+>   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -201,6 +199,9 @@ The **Kommentarer** -fliken är markerad som standard.
    >
    >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Alla bilder som läggs till i kommentaren sparas också i utkastet. Utkast sparas i 7 dagar efter vilka de tas bort och kan inte återställas. Kommentarerna är bara synliga för användaren som skriver dem.
 
+1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
+   * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
+   * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
 1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
 1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du något av följande alternativ i dialogrutan **RTF** verktygsfältet för att förbättra texten:
 
@@ -235,7 +236,6 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
    >
    >* Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
    >* Datumstämpeln bredvid kommentaren är datumet för den ursprungliga kommentaren, inte datumet för den senaste redigeringen.
-
 
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-7 ovan. <!--(**************insure this stays accurate***********)-->. Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
@@ -296,7 +296,6 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Om din organisation använder Workfront med Internet Explorer förlorar all formaterad text som klistras in i en uppdatering sin RTF-formatering och visas som oformaterad text. Du kan formatera om texten med attributen i verktygsfältet RTF.
    >* RTF-formatering är inte tillgängligt för uppdateringar som gjorts i tidrapporteraren eller för antecknings- och senaste villkorsobjekt som visas i en rapport.
 
-
 1. (Valfritt) Om du vill ta med text från tidigare uppdateringar eller från andra källor och skilja den från din egen uppdatering, kan du markera den som en blockoffert. Klicka på **Blockcitat** icon ![](assets/block-quote-small.png) och skriv den text du vill citera. Den citerade texten visas markerad med en lodrät grå linje. Klicka på **Blockcitat** om du vill återgå till normal formatering.
 
    ![](assets/block-quote-marked-350x144.png)
@@ -311,7 +310,6 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* En oanvändbar emoji representeras av en svart eller vit ruta.
    >* Windows 7 har bara stöd för svartvita känslolägesikoner.
    >* E-mojis som tillämpas på en uppdatering som görs via e-post visas inte på uppdateringen när den visas i uppdateringsområdet.
-
 
 1. (Valfritt) Så här lägger du till en URL-länk till ytterligare informationskällor:
 
@@ -338,11 +336,10 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Bilder är tillgängliga i uppdateringsavsnittet för ett objekt och är även tillgängliga i dokumentområdet.
    >* Du kan skicka en uppdatering med en bild och utan text.
    >* När du tar bort en kommentar som innehåller en bild, finns följande scenarier beroende på vilken upplevelse du väljer:
-      >
-      >     * I den aktuella kommentarsfunktionen finns bilden kvar i området Dokument, men visas inte längre i uppdateringsavsnittet.
-      >     * I den nya kommentarsfunktionen tas bilden bort både från uppdateringsavsnittet och från dokumentområdet. Bilden tas också bort från dokumentområdet när du redigerar en kommentar och tar bort bilden.
+   >
+   >     * I den aktuella kommentarsfunktionen finns bilden kvar i området Dokument, men visas inte längre i uppdateringsavsnittet.
+   >     * I den nya kommentarsfunktionen tas bilden bort både från uppdateringsavsnittet och från dokumentområdet. Bilden tas också bort från dokumentområdet när du redigerar en kommentar och tar bort bilden.
    >* När någon tar bort en bild som är kopplad till en kommentar från dokumentområdet tas den även bort från kommentaren.
-
 
 1. Klicka **Uppdatera**  eller **Skicka** när du använder betafunktionen för kommentarer.
 
@@ -449,11 +446,11 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
 
 * **Användaruppdateringar:** Användaruppdateringar är kommentarer som du och andra användare i ditt system anger.
 
-   ![](assets/user-update-cl-350x277.png)
+  ![](assets/user-update-cl-350x277.png)
 
 * **Systemuppdateringar:** Systemuppdateringarna registrerar borttagning av resurser, tillägg eller borttagning av versioner, bifogning eller borttagning av en godkännandebegäran samt ändringar som gjorts i dokumenten i objektet.
 
-   ![](assets/system-updates-cl-350x277.png)
+  ![](assets/system-updates-cl-350x277.png)
 
 Beroende på din Workfront-licens kan systemuppdateringar vara aktiverade som standard. Workfront-administratörer kan avgöra vad som spåras i systemuppdateringar, vilket förklaras i [Systemspårade uppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Du kan även filtrera bort systemuppdateringar eller aktiviteter så att du bara ser användaruppdateringar för alla objekt.
 

@@ -6,9 +6,9 @@ description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,24 @@ Allmän information om de nya betafunktionerna för kommentering, inklusive en l
 >Kommentarsfunktioner som släpps till betafunktionen för Workfront-objekt finns också i uppdateringsavsnittet för ett målobjekt i Workfront Goals.
 
 I följande avsnitt listas funktioner som har lagts till efter den ursprungliga versionen, med början de som släpptes senast.
+
+## Vecka 13 juni 2023
+
+### Förbättrad upplevelse vid redigering av kommentarer
+
+Nu kan du använda följande kortkommandon när du redigerar kommentarer:
+
+* CTRL + Z (CMD + Z för Mac) för att ångra en ändring
+
+* CTRL + Y (CMD + Y för Mac) för att göra om en ändring
+
+Före dessa förbättringar kunde du inte ångra eller göra om ändringar när du redigerade en kommentar. Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Förhandsgranska: 13 juni 2023
+
+Produktion: 13 juni 2023
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## Vecka 29 maj 2023
 
