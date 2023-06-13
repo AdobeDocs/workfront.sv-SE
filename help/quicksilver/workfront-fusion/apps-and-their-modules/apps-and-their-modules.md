@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion erbjuder för närvarande dedikerade anslutn
 author: Becky
 feature: Workfront Fusion
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8806688a8e766efd046c49a2980d00d95999d05c
+source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 0%
 >* [[!UICONTROL SOAP] modul](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 >* [[!UICONTROL JSON] moduler](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 >
-
 
 ## Workfront Fusion-appar och deras moduler
 
@@ -49,7 +48,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Azure Active Directory] moduler](../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
 * [[!DNL Azure DevOps] moduler](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
   -->
 
@@ -57,7 +56,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Bynder] moduler](../../workfront-fusion/apps-and-their-modules/bynder-modules.md)
 * [[!DNL CloudConvert] moduler](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
   -->
 
@@ -68,7 +67,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL DocuSign] moduler](../../workfront-fusion/apps-and-their-modules/docusign-modules.md)
 * [[!DNL Dropbox] moduler](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
   -->
 
@@ -91,16 +90,17 @@ Det här avsnittet innehåller följande artiklar:
 * [[!UICONTROL HTTP] moduler](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] moduler](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [Bildmoduler](../../workfront-fusion/apps-and-their-modules/image-module.md)
-* [[!DNL Intacct] moduler](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
-
-   <!--
+<!--
+* [[!DNL Intacct] modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
+-->
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->
 
 * [[!DNL Jira] Programvarumoduler](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [[!UICONTROL JSON] moduler](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/mailchimp-modules.md" class="MCXref xref" xrefformat="{para}">MailChimp modules</a> </li>
   -->
 
