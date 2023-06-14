@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
+source-git-commit: 80d3424e3adcabbe8222e74bd37eeb7304c3e734
 workflow-type: tm+mt
-source-wordcount: '13075'
+source-wordcount: '13078'
 ht-degree: 0%
 
 ---
@@ -1729,6 +1729,7 @@ ht-degree: 0%
       * [Dokumentgranskningar och godkännanden](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * Hantera dokumentgodkännanden {#manage-document-approvals}
          * [Hantera dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [Översikt över dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approvals-overview.md)
          * [Skapa ett dokumentgodkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Lägga till ytterligare granskare eller godkännare i ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Ta bort godkännare eller granskare från ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
