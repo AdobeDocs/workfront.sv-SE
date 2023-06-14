@@ -7,7 +7,7 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 0%
@@ -28,22 +28,20 @@ ht-degree: 0%
 >
 >Du kommer åt den nya funktionen för följande objekt:
 > * Frågor, <span class="preview">projekt, uppgifter och dokument</span>.
-   >
-   >     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
-   >
-   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
-   >
-   >     * Startsida
-   >     * Panelen Sammanfattning i listor
-   >     * Sammanfattningspanelen i tidrapporter
 >
-> * Mål
-
-   >
-   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
+>
+>     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>
+>     * Startsida
+>     * Panelen Sammanfattning i listor
+>     * Sammanfattningspanelen i tidrapporter
+>
+> * Mål<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   Den nya kommentarsfunktionen är standardinställningen för målen <!--<span class="preview">and cards</span>-->. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
 
@@ -124,6 +122,13 @@ För närvarande kan du lägga till kommentarer och svara på uppdateringar med 
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## Uppdateringar som också visas på objekt med högre rankning
 
