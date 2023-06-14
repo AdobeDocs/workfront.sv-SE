@@ -6,9 +6,9 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
+source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) i kolumnen och markera **[!UICONTROL Edit]**. I området Inställningar skriver du det nya namnet i **[!UICONTROL Column name]** och klicka **[!UICONTROL Close]**.
 
 ## Ta bort en boardkolumn
+
+När du tar bort en kolumn från en rityta kan den inte återskapas.
 
 1. Gå till styrelsen.
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) i kolumnen och väljer **[!UICONTROL Delete]**.
