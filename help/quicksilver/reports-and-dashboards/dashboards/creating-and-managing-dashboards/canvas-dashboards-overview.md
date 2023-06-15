@@ -6,9 +6,9 @@ description: Du kan skapa kontrollpaneler för arbetsytan som integrerar visuali
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
+source-git-commit: da55003a14851d7894693fb95bff866c20938849
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,44 @@ Ett nytt alternativ för Canvas Dashboards på den vänstra panelen på den befi
 1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png)och sedan klicka **Kontrollpaneler**.
 
 1. Klicka på i den vänstra panelen **Kontrollpaneler på arbetsytan**.
+
+## Använda Canvas-paneler
+
+### Skapa en ny arbetsytans kontrollpanel
+
+1. Öppna Canvas-instrumentpaneler enligt beskrivningen i **Öppna Canvas-instrumentpaneler** ovan.
+
+1. Klicka **+ Ny instrumentpanel**
+
+1. Klicka **Namnlös** i det övre vänstra hörnet om du vill ange ett namn för instrumentpanelen.
+
+1. Klicka **Klar** i det övre högra hörnet för att spara din nya instrumentpanel eller börja lägga till widgetar enligt beskrivningen i **Lägga till en rapport på en arbetsytans kontrollpanel** nedan.
+
+### Lägga till en rapport på en arbetsytans kontrollpanel
+
+1. Öppna Canvas-instrumentpaneler enligt beskrivningen i **Öppna Canvas-instrumentpaneler** ovan.
+
+1. Klicka på den kontrollpanel där du vill lägga till en rapport från listan med kontrollpaneler.
+
+1. Klicka **Hantera widgetar** i det övre högra hörnet och klicka sedan på **Lägg till widget**.
+
+1. Håll muspekaren över den typ av rapportwidget som du vill lägga till och klicka sedan på kryssrutan som visas.
+
+1. När du har markerat alla widgetar som du vill lägga till klickar du på **Lägg till** i det övre högra hörnet.
+
+1. De valda widgetarna visas på kontrollpanelen. Klicka **Konfiguration** i mitten av en widget för att välja vilken rapport som ska visas.
+
+1. Börja skriva in namnet på rapporten som du vill visa i dialogrutan **Sök rapport** fält. När du ser rapporten i listan klickar du på **Listrapport** eller **Diagramrapport** -ikonen bredvid dess namn för att visa informationen från rapporten i det format du valt.
+
+>[!WARNING]
+> Det går för närvarande att lägga till flera widgetar som visar information från samma rapport, men vi rekommenderar att du bara visar varje rapport en gång eftersom det kan påverka kontrollpanelens prestanda.
+
+### Redigera en widget på en Canvas-kontrollpanel
+
+1. Öppna Canvas-instrumentpaneler enligt beskrivningen i **Öppna Canvas-instrumentpaneler** ovan.
+
+1. Klicka på den kontrollpanel som du vill redigera i listan med kontrollpaneler.
+
+1. (Valfritt) Om du vill ändra storlek på en widget drar och släpper du **Ändra storlek** -ikonen i det nedre vänstra hörnet av widgeten till önskad storlek.
+
+1. (Valfritt) Om du vill flytta en widget drar du i den intilliggande tomma ytan för widgeten och drar den till önskad relativ position på kontrollpanelen.
