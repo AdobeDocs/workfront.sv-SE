@@ -7,9 +7,9 @@ description: Du kan ändra information i [!DNL Adobe Workfront Fusion] kontoprof
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,25 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 ## Ändra profilinställningar
 
-Så här ändrar du information i din kontoprofil:
+Processen för att ändra profilinställningarna varierar beroende på om din organisation använder det enhetliga Adobe-gränssnittet.
+
+* [Ändra profilinställningar i det enhetliga skalet](#change-profile-settings-on-the-unified-shell)
+* [Ändra profilinställningar utan det enhetliga skalet](#change-profile-settings-without-the-unified-shell)
+
+### Ändra profilinställningar i det enhetliga skalet
+
+Om din organisation finns i det enhetliga Adobe-skalet kan du komma åt din profil och dina inställningsalternativ genom att klicka på din profilbild i det övre navigeringsområdet.
+
+Med den här menyn kan du:
+
+* Välj **[!UICONTROL Dark theme]** formatera för [!DNL Adobe Experience Cloud].
+* Ange **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inklusive inställningar för primärt och sekundärt språk.
+* Få åtkomst till dina **[!UICONTROL [!DNL Workfront] Profile]**. När du är med i profilen klickar du på **[!UICONTROL More]** meny och välj **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Sign out]** Adobe Experience Cloud.
+
+### Ändra profilinställningar utan det enhetliga skalet
+
+Så här ändrar du information i din kontoprofil i organisationer som inte använder Adobe Unified ShellS:
 
 1. Klicka på din avatar längst ned på den vänstra panelen och klicka sedan på **[!UICONTROL Profile]**.
 1. Klicka: **[!UICONTROL General Options]**&#x200B;ändrar du något av följande alternativ:

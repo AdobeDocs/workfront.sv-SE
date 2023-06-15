@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs hur du skapar ett automatiseringsscena
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 99a8ad82c5fb2fb3f6adce9ff037086523be9b02
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -68,13 +68,19 @@ Att skapa ett scenario består av flera huvuduppgifter:
 1. Logga in på [!DNL Workfront Fusion] konto.
 1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) i den vänstra panelen.
 
-   I den vänstra panelen som visas kan du ordna dina scenarier i mappar.
+   >[!NOTE]
+   >
+   >Om den vänstra navigeringspanelen eller dess ikoner inte visas klickar du på menyn ![Meny](assets/main-menu-icon-left-nav.png) ikon.
+
+   I grått [!UICONTROL Folders] som visas kan du ordna dina scenarier i mappar.
 
    Överst i huvudområdet till höger kan du visa **[!UICONTROL All]** scenarier du har skapat, **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]** och **[!UICONTROL Concepts]**. Koncept är scenarier som kräver mer arbete innan [!DNL Workfront Fusion] kan klassificera dem som aktiva eller inaktiva.
 
+<!--
    ![](assets/scenarios-left-panel-350x215.png)
+-->
 
-1. Klicka på knappen **[!UICONTROL Add folder]** icon ![](assets/add-folder-icon.png)skriver du sedan in ett namn som&quot;Practice scenarios&quot; för den första mappen.
+1. I [!UICONTROL Folders] klickar du på **[!UICONTROL Add folder]** icon ![](assets/add-folder-icon.png)skriver du sedan in ett namn som&quot;Practice scenarios&quot; för den första mappen.
 
 1. Öppna mappen och klicka sedan på **[!UICONTROL Create a new scenario]** i det övre högra hörnet på sidan.
 
@@ -85,9 +91,11 @@ Att skapa ett scenario består av flera huvuduppgifter:
 
    Scenarioredigeraren visar, som innehåller en tom modul i mitten, [!DNL Workfront] som du har förinstallerat och vissa alternativ i verktygsfältet längst ned.
 
+<!--
    ![](assets/scenario-editor-350x235.png)
+-->
 
-   När du börjar skapa ett nytt scenario är det en bra idé att börja med att skapa ett namn för det.
+När du börjar skapa ett nytt scenario är det en bra idé att börja med att skapa ett namn för det.
 
 1. Välj **[!UICONTROL New scenario]** platshållarnamn i det övre vänstra hörnet och skriv sedan ett namn som &quot;Practice scenarios 1.&quot;
 1. Fortsätt med [Lägg till och konfigurera den första modulen](#add-and-configure-the-first-module) nedan.
@@ -229,18 +237,15 @@ Vi valde att få 1 projekt tillbaka, liksom de uppgifter som är kopplade till d
 >
 >1. Högerklicka på en [!DNL Workfront] och sedan klicka på **[!UICONTROL Add a note]**.
 >1. Skriv en översikt för modulen i anteckningen som visas.
-
 >
->   Du kan lägga till flera anteckningar för en modul.
+>    Du kan lägga till flera anteckningar för en modul.
 >
 >1. Stäng **[!UICONTROL Notes]** område.
 >
->   När du har lagt till en anteckning i ett scenario visas en orange punkt på **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) längst ned i scenarioredigeraren.
+>     När du har lagt till en anteckning i ett scenario visas en orange punkt på **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) längst ned i scenarioredigeraren.
 >
 >1. Klicka på **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) för att visa dina anteckningar.
-
 >
-
 
 
 

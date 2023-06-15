@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Program eller tjänst</td> 
-   <td> <p>Ett program, oftast.</p> <p>En app kan också vara en specialfunktion som hanterar data, till exempel en iterator eller en aggregator. </p> <p>En tjänst är en källa med paket som kan innehålla ett webb-API, en webbsida, olika typer av servrar (FTP, SMTP, IMAP) och så vidare. </p> <p> <img src="assets/apps-350x420.jpg" style="width: 350;height: 420;"> </p> </td> 
+   <td> <p>Ett program, oftast.</p> <p>En app kan också vara en specialfunktion som hanterar data, till exempel en iterator eller en aggregator. </p> <p>En tjänst är en källa med paket som kan innehålla ett webb-API, en webbsida, olika typer av servrar (FTP, SMTP, IMAP) och så vidare. </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">App Connector</td> 

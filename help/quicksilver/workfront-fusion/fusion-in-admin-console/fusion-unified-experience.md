@@ -6,9 +6,8 @@ title: Adobe Unified Experience for Workfront Fusion
 description: Genom att använda Workfront Fusion via Adobe Experience Cloud får du en smidig, enhetlig upplevelse för att hantera alla dina Adobe-applikationer.
 author: Becky
 feature: Workfront Fusion
-hidefromtoc: true
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: d4ed4ed07f9f4ad7926e57494775613add1bffef
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
 
-Åtkomst [!DNL Workfront Fusion] via [!DNL Adobe Experience Cloud] ger er en smidig, enhetlig upplevelse för att hantera alla era annonser[!DNL ]Adobe-program. Med en identitetshantering kan du logga in på ett och samma ställe, utan flera URL:er eller inloggnings-ID:n.
+Åtkomst [!DNL Workfront Fusion] via [!DNL Adobe Experience Cloud] ger er en smidig, enhetlig upplevelse för att hantera alla era annonser[!DNL]Adobe-program. Med en identitetshantering kan du logga in på ett och samma ställe, utan flera URL:er eller inloggnings-ID:n.
 
 För en video som beskriver navigering i [!DNL Fusion] i [!DNL Adobe Experience Cloud], se [[!DNL Fusion] på [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
@@ -94,3 +93,4 @@ Med den här menyn kan du:
 * Ange **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inklusive inställningar för primärt och sekundärt språk.
 * Få åtkomst till dina **[!UICONTROL [!DNL Workfront Fusion] Profile]**. När du är med i profilen klickar du på **[!UICONTROL More]** meny ![](assets/more-icon.png) och markera **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** Adobe Experience Cloud.
+

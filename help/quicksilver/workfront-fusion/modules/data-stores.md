@@ -8,7 +8,7 @@ description: Ett datalager, som liknar en databas eller en enkel tabell, kan lag
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: e71f276eb510497c026a70400afc754d5f57b60b
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -176,9 +176,9 @@ Egenskaperna för ett datalager omfattar datastrukturen som används i datalagre
 ### Redigera innehållet i ett datalager
 
 1. Klicka på **[!UICONTROL Data Store]** icon ![](assets/data-store-icon.png) i den vänstra navigeringspanelen för att öppna [!UICONTROL Data Store] område.
-1. Klicka **[!UICONTROL Browse]** ![](assets/browse-data-store.png) bredvid det datalager som du vill redigera.
+1. Klicka **[!UICONTROL Browse]**  bredvid det datalager som du vill redigera.
 1. (Valfritt) Ändra ordning på kolumner genom att dra dem till önskad plats.
-1. (Valfritt) [!UICONTROL Edit] en enda cell genom att klicka på **[!UICONTROL Edit]** icon ![](assets/data-store-edit.png)i cellen anger du det önskade värdet.
+1. (Valfritt) [!UICONTROL Edit] en enda cell genom att klicka på **[!UICONTROL Edit]** i cellen och sedan ange önskat värde.
 1. (Valfritt) Lägg till ett nytt objekt i datalagret genom att klicka på **[!UICONTROL Add]** och anger sedan informationen för det nya objektet.
 1. Klicka på **[!UICONTROL Save]**.
 

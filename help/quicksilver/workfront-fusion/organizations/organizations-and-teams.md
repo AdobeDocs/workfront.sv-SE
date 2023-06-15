@@ -8,9 +8,9 @@ description: Adobe Workfront Fusions funktioner för organisation och team gör 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,7 @@ Kontakta [!DNL Workfront] administratör.
 
 * [Organisationsroller](#organization-roles)
 * [Bjuda in användare till en organisation](#inviting-users-to-an-organization)
+* [Växla mellan organisationer](#switch-between-organizations)
 
 ### Organisationsroller
 
@@ -100,6 +101,12 @@ Inbjudan går ut om en dag.
 >[!NOTE]
 >
 >Om användaren är nybörjare på [!DNL Fusion], [!DNL Fusion] skapar automatiskt ett konto åt dem och skickar ett e-postmeddelande med ett tillfälligt lösenord som uppmanar den nya användaren att logga in och ändra sitt lösenord.
+
+### Växla mellan organisationer
+
+Du kan vara en del av mer än en organisation i Fusion. Resurser delas inte mellan organisationer.
+
+Du kan växla mellan olika organisationer i Adobe Unified Experience genom att klicka på organisationsnamnet i det övre högra hörnet och välja den nya organisationen i listrutan. Endast organisationer som har ett Fusion-konto visas i listrutan, även om du är medlem i andra organisationer i Adobe.
 
 ## Team
 
@@ -179,6 +186,14 @@ Alternativen för e-postmeddelanden anges på teamnivå.
 </table>
 
 Ändringar av meddelandealternativen sparas automatiskt
+
+#### Växla mellan team
+
+Du kanske ingår i mer än ett team i Fusion. Eftersom team inte delar resurser kan du behöva byta team för att få tillgång till specifika scenarier eller andra resurser.
+
+Om din organisation inte är med i Adobe Unified Experience kan du byta team genom att klicka på teamnamnet i den vänstra navigeringen och sedan välja ett team i listrutan.
+
+Om ditt team är med i Adobe Unified Experience kan du välja ett nytt team genom att klicka på teamnamnet i huvudet och sedan välja ett team i listrutan. Det här alternativet är tillgängligt från alla sidor som är specifika för ett visst team, till exempel en scenariosida eller sidan Anslutningar.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

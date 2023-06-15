@@ -8,10 +8,9 @@ description: Som Adobe Workfront Fusion-administratör skiljer sig dina administ
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-hidefromtoc: true
-source-git-commit: 7df10d5e48a460579b6b4acbbdc85aa46bd8d438
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -44,7 +43,7 @@ I följande tabell visas de procedurer som måste hanteras på olika sätt och l
 | Inaktivera en användare | Avsnittet [Ta bort en användare](../../workfront-fusion/organizations/manage-fusion-users.md#delete) in [Hantera [!DNL Adobe Workfront Fusion] användare i din organisation](../../workfront-fusion/organizations/manage-fusion-users.md) | Avsnittet&quot;Ta bort användare&quot; i [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 | Ändra information om användare | [Ändra profilinställningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) | Avsnittet Redigera användarinformation i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!--
 ## SSO (Single Sign-On)
