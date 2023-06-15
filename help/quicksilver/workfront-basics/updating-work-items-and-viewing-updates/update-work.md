@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 0%
 >     * Panelen Sammanfattning i listor
 >     * Sammanfattningspanelen i tidrapporter
 >
-> * Mål
+> * Mål, <span class="preview">kort i området för anslagstavlor</span>
 >
->   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   Den nya kommentarsupplevelsen är den enda upplevelsen för att nå målen <span class="preview">och kort</span>. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 
 >[!NOTE]
 >
->Följande funktionalitet är tillgänglig för alla objekt utom mål. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md)
+>Följande funktionalitet är tillgänglig för alla objekt utom mål och kort. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Gå till den arbetsuppgift som du vill uppdatera (till exempel ett projekt, en uppgift eller en utgåva) för.
 1. Klicka på **Uppdateringar** -avsnitt.
@@ -346,20 +348,17 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
 ## Kopiera uppdateringsinformation
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 Du kan kopiera en uppdatering på flera olika sätt. När du har kopierat en länk kan du dela länken med andra för att dirigera dem till uppdateringen.
+
+Kopieringen av en uppdatering skiljer sig åt beroende på vilken kommentarsfunktion du använder.
+
+### Kopiera en uppdatering i den aktuella kommentarsfunktionen
 
 * [Kopiera uppdateringen](#copy-the-update)
 * [Kopiera trådlänken](#copy-the-thread-link)
 * [Kopiera uppdateringslänken](#copy-the-update-link)
 
-### Kopiera uppdateringen {#copy-the-update}
+#### Kopiera uppdateringen {#copy-the-update}
 
 Med det här alternativet kopieras texten från en specifik uppdatering till Urklipp.
 
@@ -368,24 +367,47 @@ Med det här alternativet kopieras texten från en specifik uppdatering till Urk
 
    ![Välj Kopiera brödtext](assets/update-stream-copy-body-text-350x152.png)
 
-### Kopiera trådlänken {#copy-the-thread-link}
+#### Kopiera trådlänken {#copy-the-thread-link}
 
 Med det här alternativet kopieras den fullständiga trådlänken till Urklipp så att du kan dela tråden med andra användare.
 
 1. Gå till uppdateringstråden som du vill kopiera.
 
-1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk** eller **Kopiera länk** när du använder betaupplevelsen.
+1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Kopiera uppdateringslänken {#copy-the-update-link}
+#### Kopiera uppdateringslänken {#copy-the-update-link}
 
 Med det här alternativet kopieras en specifik uppdateringslänk till Urklipp. När du delar uppdateringslänken ser användaren som följer den en ram runt uppdateringen.
 
 1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk** eller **Kopiera länk** när du använder betaupplevelsen.
+1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Kopiera en uppdatering i den nya kommentarsfunktionen
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Kopiera länk](#copy-link)
+* [Kopiera brödtext](#copy-body-text)
+
+#### Kopiera länk
+
+Med det här alternativet kopieras kommentaren eller länken till Urklipp så att du kan dela kommentaren eller hela tråden med andra användare.
+
+1. Gå till den uppdatering vars länk du vill kopiera.
+
+1. Klicka på **Mer** menyn och klicka sedan på **Kopiera länk**.
+
+#### Kopiera brödtext
+
+Med det här alternativet kopieras texten från en specifik uppdatering till Urklipp.
+
+1. Gå till den uppdatering eller det svar som du vill kopiera.
+1. Klicka på **Mer** menyn och klicka sedan på **Kopiera brödtext**.
 
 ## Ta bort en uppdatering eller ett svar
 

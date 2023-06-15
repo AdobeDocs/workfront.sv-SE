@@ -6,9 +6,9 @@ description: En uppdatering av kommentarsfunktionerna i Adobe Workfront håller 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,15 @@ Den nya kommentarsfunktionen innehåller förbättringar och ändringar av den b
 Bland förbättringarna i den nya kommentarsfunktionen finns följande:
 
 * Förbättrade prestanda och användarupplevelser
-* Separation av användarkommentarer från aktivitetsuppdateringarna i systemet.
+* Separation av användarkommentarer från aktivitetsuppdateringar i systemet
 * Realtidsindikator när nya kommentarer läggs till i ett objekt
-* Redigera kommentarer när de har skickats.
+* Redigera kommentarer när de har skickats
 
 Följande funktioner har tagits bort från den nya versionen:
 
-* Kommentera en systemuppdatering.
+* Kommentera en systemuppdatering
+* Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs
+* Redigera eget formulär
 
 Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den nya kommenteringsfunktionen samt deras tillgänglighet i områden där de stöds:
 
@@ -102,7 +104,22 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
   </tr>
   <tr>
  <tr>
-   <td>RTF (citat och känslolägesikoner)
+   <td>RTF (blockcitattecken)
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 2 kv 2023
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> Citatkommentarer
    </td>
    <td>✓ 
    </td>
@@ -116,8 +133,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
   </tr>
   <tr>
-
-<td>Reagera på kommentarer (Gilla) 
+   <td>Reagera på kommentarer (Gilla) 
    </td>
    <td>✓ 
    </td>
@@ -281,7 +297,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -295,7 +311,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -399,9 +415,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
   </tr>
 </table>
 
-## Ny aktivitet för att kommentera betaversionen
+## Frigör tidslinje
 
-Mer information om de nya funktionerna finns i [Ny aktivitet för att frisläppa betaupplevelser med kommentarer](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Information om de funktioner som nyligen släppts till den nya kommentarsfunktionen, samt en tidslinje för en release, finns på [Ny aktivitet för att frisläppa betaupplevelser med kommentarer](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Hitta den nya kommentarsfunktionen
 
@@ -409,19 +425,18 @@ Den nya kommentarsfunktionen stöds för närvarande för följande objekt när 
 
 * När du aktiverar betafunktionen i uppdateringsavsnittet:
 
-   * Frågor, <span class="preview">projekt, uppgifter och dokument</span>
-   Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Frågor, <span class="preview">projekt, uppgifter, artiklar och dokument</span>
+
+  Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * Som standard är kommentarsupplevelsen:
 
-   * Mål
-   >[!NOTE]
-   >
-   >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * Mål, <span class="preview">kort i området för anslagstavlor</span>
 
-   Mer information om hur du hanterar uppdateringar för mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
+  >[!NOTE]
+  >
+  >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Så här aktiverar du den nya kommentarsfunktionen Beta:
 

@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 0%
 >     * Panelen Sammanfattning i listor
 >     * Sammanfattningspanelen i tidrapporter
 >
-> * Mål<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Mål, <span class="preview">kort i området för anslagstavlor</span>
 >
->   Den nya kommentarsfunktionen är standardinställningen för målen <!--<span class="preview">and cards</span>-->. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   Den nya kommentarsupplevelsen är den enda upplevelsen för att nå målen <span class="preview">och kort</span>. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
 I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
 
@@ -84,7 +84,7 @@ Uppdateringsavsnittet visas för följande objekt:
      <li>Mallar</li> 
      <li>Malluppgifter</li> 
      <li>Tidrapporter</li> 
-     <li>Användare</li> 
+     <li>Användare</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ I uppdateringsavsnittet visas information på följande flikar i den nya komment
 * **Kommentarer**: Visar kommentarer som gjorts av användare och svar på dessa kommentarer. Information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-För närvarande kan du lägga till kommentarer och svara på uppdateringar med hjälp av betakommentarsfunktionen för följande objekt:
+För närvarande kan du lägga till kommentarer och svara på uppdateringar med hjälp av den nya kommentarsfunktionen för följande objekt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ För närvarande kan du lägga till kommentarer och svara på uppdateringar med 
    <td> 
     <ul> 
      <li><p>Mål</p>
-     <p>Det här är standardupplevelsen för mål</p>
+     <li><span class="preview">Kort i området Varv</span></li>
+      Det här är den enda upplevelsen för att nå målen <span class="preview">och kort</span>.
      </li> 
      <li><span class="preview">Projekt</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Problem</li> 
@@ -123,12 +124,10 @@ För närvarande kan du lägga till kommentarer och svara på uppdateringar med 
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Uppdateringar som också visas på objekt med högre rankning
 

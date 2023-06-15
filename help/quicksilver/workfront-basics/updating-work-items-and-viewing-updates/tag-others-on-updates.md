@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >Du kommer åt den nya funktionen för följande objekt:
 > * Frågor, <span class="preview">projekt, uppgifter och dokument</span>.
-   >
-   >     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
-   >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
-   >
-   >     * Startsida
-   >     * Panelen Sammanfattning i listor
-   >     * Sammanfattningspanelen i tidrapporter
 >
-> * Mål
-
-   >
-   >   Den nya kommentarsfunktionen är standardinställningen för målen. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
+>
+>     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>
+>     * Startsida
+>     * Panelen Sammanfattning i listor
+>     * Sammanfattningspanelen i tidrapporter
+>
+> * Mål, <span class="preview">kort i området för anslagstavlor</span>
+>
+>   Den nya kommentarsupplevelsen är den enda upplevelsen för att nå målen <span class="preview">och kort</span>. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>     Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
 
 Du kan tagga användare när de gör en uppdatering av ett objekt om du vill dra deras uppmärksamhet till ett objekt som de annars kanske inte följer.
@@ -51,6 +50,7 @@ I stället för att inkludera de användarna i objektet genom att tilldela dem e
 >[!NOTE]
 >
 >Användaren måste aktivera ett personligt meddelande i sin profil för att kunna ta emot e-postmeddelandet. Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 Mer information om hur du lägger till uppdateringar till Workfront-objekt finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ Du kan tagga andra vid uppdateringar i kommenteringsfunktionen Beta. Du kan ocks
    >
    >* Det här alternativet visas bara när användaren är associerad med ett företag.
    >* Taggade användare utanför företaget kan fortfarande få ett meddelande eller e-postmeddelande i appen, även om de inte ser de privata kommentarerna på fliken Uppdateringar. Vi rekommenderar att du inte taggar externa användare vid en uppdatering om du inte vill dela informationen med dem.
-
 
 1. (Valfritt) Om du vill lägga till flera användare och team upprepar du steg 2. <!--insure this stays accurate-->
 
