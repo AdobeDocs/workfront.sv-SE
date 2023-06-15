@@ -6,14 +6,16 @@ description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och till
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett ad hoc-kort till en anslagstavla
+
+{{highlighted-preview}}
 
 Du kan snabbt lägga till ett kort till en anslagstavla och tilldela det till en styrelseledamot. Kortet kan representera en uppgift, en utgåva, en person, en grupp eller vilken typ av objekt som helst som du vill ha med i styrelsen.
 
@@ -64,11 +66,7 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
       <td>En beskrivning av kortet. Du kan lägga till URL:er i beskrivningen och de blir klickbara länkar när kortet sparas.</td>
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
-      <td> <p>Om du vill tilldela kortet börjar du skriva ett namn i sökfältet och markerar det sedan när det visas i listan. Du kan lägga till både enskilda personer och team, och du kan tilldela flera personer eller team till ett kort.</p> <p>Tilldelningsmedlemmar måste vara medlemmar i styrelsen, annars visas de inte i urvalslistan. När ett team är medlem i styrelsen kan de enskilda teammedlemmarna tilldelas kortet.</p></td>
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Column]</strong> </td> 
       <td>Markera kortets kolumn. Om du lämnar <strong>[!UICONTROL Column]</strong> om fältet är tomt placeras kortet i den första kolumnen till vänster om kortet.</td>
@@ -78,27 +76,45 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
       <td>Välj en status för kortet. Om du klickar <strong>[!UICONTROL Mark Complete]</strong> högst upp på kortet ändras statusen automatiskt till [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td>Ange det uppskattade antalet timmar som kortet ska fyllas i. Det här är bara ett manuellt tävlingsbidrag.</td>
-     </tr>
-     <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
       <td>Välj ett förfallodatum för kortet. </td>
      </tr>
      <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
+      <td>Ange det uppskattade antalet timmar som kortet ska fyllas i. Det här är bara ett manuellt tävlingsbidrag.</td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
+      <td> <p>Om du vill tilldela kortet börjar du skriva ett namn i sökfältet och markerar det sedan när det visas i listan. Du kan lägga till både enskilda personer och team, och du kan tilldela flera personer eller team till ett kort.</p> <p>Tilldelningsmedlemmar måste vara medlemmar i styrelsen, annars visas de inte i urvalslistan. När ett team är medlem i styrelsen kan de enskilda teammedlemmarna tilldelas kortet.</p></td>
+     </tr>     
+     <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
       <td>Sök efter och välj taggar för kortet. Mer information om hur du skapar nya taggar finns i <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Lägg till taggar</a>.</td> 
-     </tr>  
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
+      <td>Du kan ansluta ett ad hoc-kort till en [!DNL Workfront] aktivitet eller problem. Mer information finns i"Konvertera ett ad hoc-kort till ett anslutet kort" i artikeln <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Använd anslutna kort på ritytor</a>.</td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist Items]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
       <td> <p>Klicka på <strong>[!UICONTROL Add checklist item]</strong>. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.</p> <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om objekt i checklistor finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
+      <td><span class="preview"><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
+      </p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
+      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
+   Exempelbild i produktionsmiljön:
    ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-041723.png)
 
-   Använd navigeringspanelen till vänster för att flytta mellan fältgrupper på kortinformationen.
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Ad hoc-kortdetaljer](assets/ad-hoc-card-details-with-comments.png)
+
+   Använd den vänstra navigeringspanelen för att flytta mellan fältavsnitt på kortinformationen.
 
 1. Klicka **[!UICONTROL Close]** för att lägga till kortet i styrelsen.
 

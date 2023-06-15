@@ -6,14 +6,16 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
 
 # Använd anslutna kort på ritytor
+
+{{highlighted-preview}}
 
 Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i [!DNL Workfront].
 
@@ -70,7 +72,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >* Endast objekt som du har behörighet att använda är tillgängliga i sökresultatet. Om ett objekt är nedtonat har det redan lagts till på anslagstavlan.
    >* När du filtrerar efter **[!UICONTROL Projects I Own]** eller **[!UICONTROL Projects I'm On]**, inkluderas inte projekt som motsvarar en fullständig, inaktuell eller avvisad status. Du kan fortfarande söka efter dessa projekt med **[!UICONTROL All]** filter.
 
-
 1. Klicka på **[!UICONTROL Add]**.
 
    ![Sök efter uppgift eller problem att ansluta](assets/boards-tasksissues-350x94.png)
@@ -101,12 +102,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
       <td>Om du ändrar beskrivningen ändras även beskrivningen på den anslutna enheten [!DNL Workfront] -objekt. Du kan lägga till URL:er i beskrivningen och de blir klickbara länkar när kortet sparas.</td> 
-     </tr> 
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
-      <td><p>Om du vill tilldela fler personer eller ett team till kortet börjar du med att skriva ett namn i sökfältet och markerar det sedan när det visas i listan. Du kan lägga till både enskilda personer och team. Endast ett teamuppdrag tillåts på ett anslutet kort.</p>
-      <p>Tilldelningsmedlemmar måste vara medlemmar i styrelsen, annars visas de inte i urvalslistan. När ett team är medlem i styrelsen kan de enskilda teammedlemmarna tilldelas kortet.</p>
-      <p>Alla tilldelningar du väljer tilldelas även uppgiften eller utgåvan i [!DNL Workfront].</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
@@ -127,18 +122,42 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td><p>Antal timmar som kortet ska fyllas i.</p><p>Om du ändrar uppskattningen ändras även artikelpunktsvärdet på den anslutna [!DNL Workfront] -objekt.</p></td>
      </tr>
      <tr>
+      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
+      <td><p>Om du vill tilldela fler personer eller ett team till kortet börjar du med att skriva ett namn i sökfältet och markerar det sedan när det visas i listan. Du kan lägga till både enskilda personer och team. Endast ett teamuppdrag tillåts på ett anslutet kort.</p>
+      <p>Tilldelningsmedlemmar måste vara medlemmar i styrelsen, annars visas de inte i urvalslistan. När ett team är medlem i styrelsen kan de enskilda teammedlemmarna tilldelas kortet.</p>
+      <p>Alla tilldelningar du väljer tilldelas även uppgiften eller utgåvan i [!DNL Workfront].</p></td>
+     </tr>
+     <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
       <td><p>Sök efter och välj taggar för kortet.</p>
       <p>Mer information om hur du skapar nya taggar finns i <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Lägg till taggar</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Custom fields]</strong></td>
+      <td><p>Alla anpassade fält som du lägger till visas i det här området.</p>
+      <p>Mer information finns i <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassa vilka fält som visas på ett kort</a>.</p></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist Items]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
       <td> <p>Klicka på <strong>[!UICONTROL Add checklist item]</strong>. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.</p> <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om objekt i checklistor finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
+      <td>Se"Logga in timmar på ett anslutet kort" nedan.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
+      <td><span class="preview"><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen. Taggade användare på anslutna kort får e-postmeddelanden.</p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
+      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.</p></span></td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL System activity]</strong></span> </td> 
+      <td><span class="preview"><p>Om du har <strong>Systemaktivitet</strong> aktiveras som kortavsnitt och aktiviteten visas i det här området.</p> <p>Mer information finns i <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassa vilka fält som visas på ett kort</a> och <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Systemspårade uppdateringar</a>.</p></span></td>
+     </tr>     
     </tbody> 
    </table>
 
-   Använd navigeringspanelen till vänster för att flytta mellan fältgrupper på kortinformationen.
+   Använd den vänstra navigeringspanelen för att flytta mellan fältavsnitt på kortinformationen.
 
 1. Klicka **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
 Det anslutna objektet, tilldelningar, taggar, förfallodatum, räknare för checklistor, beräknade timmar och status visas på kortet.
@@ -175,7 +194,6 @@ När du har skapat ett ad hoc-kort kan du konvertera det till ett anslutet kort.
    >
    >* Endast objekt som du har behörighet att använda är tillgängliga i sökresultatet.
    >* När du filtrerar efter **[!UICONTROL Projects I Own]** eller **[!UICONTROL Projects I'm On]**, projekt som motsvarar en [!UICONTROL Complete], [!UICONTROL Dead], eller [!UICONTROL Rejected] status inkluderas inte. Du kan fortfarande söka efter dessa projekt med **[!UICONTROL All]** filter.
-
 
 1. Klicka på **[!UICONTROL Connect]**.
 

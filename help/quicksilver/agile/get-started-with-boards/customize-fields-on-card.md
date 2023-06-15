@@ -5,13 +5,13 @@ title: Anpassa vilka fält som visas på ett kort
 description: Du kan anpassa vilka fält som ska visas på ett kort genom att inaktivera ett fält så att det inte visas i det fullständiga kortet eller den komprimerade vyn, eller genom att dölja ett fält i den komprimerade kortvyn.
 author: Lisa
 feature: Agile
-source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
+exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
-
 
 # Anpassa vilka fält som visas på ett kort
 
@@ -21,6 +21,8 @@ Som standard visas alla tillgängliga fält på ett kort, både i den fullständ
 * Dölja ett fält i den komprimerade kortvyn
 
 Om ett fält innehåller ett värde och du inaktiverar fältet behålls värdet om du aktiverar fältet igen senare.
+
+Avsnitt (som visas som alternativ för vänster navigering på kortinformationen) kan också visas och döljas.
 
 Du kan även visa anpassade fält som tidigare skapats. Du kan inte designa och skapa nya anpassade fält på en anslagstavla.
 
@@ -58,11 +60,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka [!UICONTROL **Konfigurera**] till höger om anslagstavlan för att öppna konfigurationspanelen.
 1. Expandera [!UICONTROL **Kort**].
 
-   De flesta fält är aktiverade som standard.
+   De flesta fält och avsnitt är aktiverade som standard.
 
-1. Stäng av ett fält för att inaktivera det i båda kortvyerna.
-1. Klicka på ikonen Dölj ![Dölj ikon](assets/eye-hide-icon.png) bredvid ett fält för att dölja det i den komprimerade vyn.
-1. Om du vill visa alla fält i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
+1. Stäng av ett fält eller avsnitt för att inaktivera det i båda kortvyerna.
+1. Klicka på ikonen Dölj ![Dölj ikon](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt för att dölja det i den komprimerade vyn.
+1. Om du vill visa alla fält och avsnitt i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
 1. Klicka [!UICONTROL **Dölj konfigurera**] för att stänga panelen Konfigurera.
 
 ## Lägg till anpassade fält till kort
@@ -94,4 +96,3 @@ Anpassade fält är tillgängliga på anslutna kort. De visas bara i helskärmsl
    ![Eget fältvärde och etikett](assets/save-custom-field-value-label.png)
 
    Det anpassade fältet läggs till i listan med tillgängliga fält och aktiveras som standard. Du kan inaktivera det anpassade fältet enligt stegen i [Konfigurera kort](customize-fields-on-card.md#configure-cards) ovan, redigera fältet eller ta bort det från alla kort.
-
