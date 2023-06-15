@@ -7,7 +7,7 @@ description: Genom att använda Workfront Fusion via Adobe Experience Cloud får
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: d4ed4ed07f9f4ad7926e57494775613add1bffef
+source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Åtkomst [!DNL Workfront Fusion] via [!DNL Adobe Experience Cloud] ger er en smidig, enhetlig upplevelse för att hantera alla era annonser[!DNL]Adobe-program. Med en identitetshantering kan du logga in på ett och samma ställe, utan flera URL:er eller inloggnings-ID:n.
 
-För en video som beskriver navigering i [!DNL Fusion] i [!DNL Adobe Experience Cloud], se [[!DNL Fusion] på [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+För en video som beskriver navigering i [!DNL Fusion] i [!DNL Adobe Experience Cloud], se:
+
+[[!DNL Fusion] på [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## Åtkomstkrav
 
