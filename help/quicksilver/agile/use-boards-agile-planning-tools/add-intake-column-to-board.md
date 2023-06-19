@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
+source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Du kan också lägga till en inmatningskolumn på din anslagstavla som automatis
 Endast en inloppskolumn får finnas på en rityta, och den visas alltid som kolumnen längst till vänster.
 
 Inloppskolumnen är inte tillgänglig på ett dynamiskt bord.
+
+Inloppskolumnen är inte tillgänglig för ritytor som ingår i en arbetsström. I stället kan du ställa in en kolumn för eftersläpning som hämtar kort från kortlistan. Mer information om hur du lägger till en kolumn för eftersläpning på en anslagstavla i ett arbetsflöde finns i [Konfigurera eftersläpningen på en arbetsyta](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
 Intagskolumnen är begränsad till 300 uppgifter och 300 problem. De sorteras efter den prioritet som har definierats för objekten. Information om prioritet finns i [Uppdatera uppgiftsprioritet](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) och [Uppdatera prioritet för utleverans](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
