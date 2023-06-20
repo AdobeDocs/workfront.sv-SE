@@ -6,9 +6,9 @@ description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,9 @@ Här följer en planerad tidslinje för lanseringen av den nya kommentarsfunktio
    * Ny kommentarfunktion för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
 * Med version 23.4 (början av oktober 2023)
    * Ny kommentarfunktion för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * I slutet av 2023:
-   * Ta bort det gamla gränssnittet från objekten som fortfarande har det.
-   * Följande objekt har den nya kommentarsupplevelsen som enda upplevelse: projekt, uppgifter, utgåvor, artiklar, dokument, mallar, malluppgifter, program, portfolior, team, användare och tidrapporter, mål, kort.
+   * Följande objekt har den nya kommentarfunktionen som standard: projekt, uppgifter, utgåvor, artiklar, dokument, mallar, malluppgifter, program, portfolior, team, användare och tidrapporter, mål, kort. De gamla kommentarerna förblir ett alternativ.
 
   >[!NOTE]
   >
