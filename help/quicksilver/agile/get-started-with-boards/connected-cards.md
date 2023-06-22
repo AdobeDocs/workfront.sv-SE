@@ -6,16 +6,14 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # Använd anslutna kort på ritytor
-
-{{highlighted-preview}}
 
 Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i [!DNL Workfront].
 
@@ -146,13 +144,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td>Se"Logga in timmar på ett anslutet kort" nedan.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
-      <td><span class="preview"><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen. Taggade användare på anslutna kort får e-postmeddelanden.</p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
-      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.</p></span></td>
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen. Taggade användare på anslutna kort får e-postmeddelanden.</p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
+      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p><p><strong>OBS!</strong> Kommentarer på kort är bara tillgängliga genom den tidiga funktionsavanmälningen för Workfront Boards.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL System activity]</strong></span> </td> 
-      <td><span class="preview"><p>Om du har <strong>Systemaktivitet</strong> aktiveras som kortavsnitt och aktiviteten visas i det här området.</p> <p>Mer information finns i <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassa vilka fält som visas på ett kort</a> och <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Systemspårade uppdateringar</a>.</p></span></td>
+      <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 
+      <td><p>Om du har <strong>Systemaktivitet</strong> aktiveras som kortavsnitt och aktiviteten visas i det här området.</p> <p>Mer information finns i <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassa vilka fält som visas på ett kort</a> och <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Systemspårade uppdateringar</a>.</p><p><strong>OBS!</strong> Systemaktiviteten är endast tillgänglig genom att man väljer en tidig funktion för Workfront Boards.</p></td>
      </tr>     
     </tbody> 
    </table>

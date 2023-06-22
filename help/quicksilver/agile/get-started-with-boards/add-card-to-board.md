@@ -6,16 +6,14 @@ description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och till
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett ad hoc-kort till en anslagstavla
-
-{{highlighted-preview}}
 
 Du kan snabbt lägga till ett kort till en anslagstavla och tilldela det till en styrelseledamot. Kortet kan representera en uppgift, en utgåva, en person, en grupp eller vilken typ av objekt som helst som du vill ha med i styrelsen.
 
@@ -100,18 +98,18 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
       <td> <p>Klicka på <strong>[!UICONTROL Add checklist item]</strong>. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.</p> <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om objekt i checklistor finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
-      <td><span class="preview"><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
       </p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
-      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.</p></span></td>
+      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p><p><strong>OBS!</strong> Kommentarer på kort är bara tillgängliga genom den tidiga funktionsavanmälningen för Workfront Boards.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Exempelbild i produktionsmiljön:
+   Exempelbild i produktionsmiljön när anmälan om tidiga funktioner inte används:
    ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   Exempelbild i produktionsmiljön när anmälan om tidiga funktioner är aktiverad:
    ![Ad hoc-kortdetaljer](assets/ad-hoc-card-details-with-comments.png)
 
    Använd den vänstra navigeringspanelen för att flytta mellan fältavsnitt på kortinformationen.
