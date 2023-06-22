@@ -6,14 +6,16 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
 # Filtrera och söka på en anslagstavla
+
+{{highlighted-preview}}
 
 Du kan filtrera en rityta så att den visas:
 
@@ -23,6 +25,8 @@ Du kan filtrera en rityta så att den visas:
 * Kort som förfaller inom en viss tidsram
 * Arkiverade kort
 * Kort som är kopplade till ett visst projekt
+
+<span class="preview">När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går inte att sortera en enstaka kolumn, och eftersläpningen eller inloppskolumnen sorteras inte.</span>
 
 Genom att söka kan du även hitta ett visst kort på kortet.
 
@@ -105,6 +109,29 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
    Du kan även visa kort som inte är anslutna till ett projekt.
 
    ![Filtrera efter anslutning](assets/boards-filter-by-connection.png)
+
+<div class="preview">
+
+## Sortera på en bräda
+
+När du väljer ett alternativ att sortera efter sorteras alla kolumner. Det går inte att sortera en enstaka kolumn, och eftersläpningen eller inloppskolumnen sorteras inte.
+
+1. Gå till styrelsen.
+1. Klicka [!UICONTROL **Sortera efter**] och markera [!UICONTROL **Namn**], [!UICONTROL **Förfallodatum**], [!UICONTROL **Uppskattning**], [!UICONTROL **Status**], eller [!UICONTROL **Anslutning**].
+
+   Anslutning (projektnamn) gäller endast anslutna kort, och de andra alternativen sorterar både anslutna kort och ad hoc-kort i kolumnerna.
+
+   Alternativet &quot;användarordning&quot; returnerar korten i den ordning de ställdes in manuellt, innan några andra sorteringsalternativ tillämpades. Det här är standardsorteringen för kolumnerna.
+
+1. Välj [!UICONTROL **Omvänd ordning**] om du vill sortera kolumnerna i omvänd ordning för sorteringsalternativet.
+
+   Pilen på sorteringsikonen anger om kolumnerna är sorterade i stigande eller fallande ordning.
+
+   När en annan sortering än standardsorteringen används visas en indikator på sorteringsikonen ![Sortering används](assets/sort-applied-boards.png).
+
+   ![Sortera efter kolumner på en anslagstavla](assets/sort-by-columns-in-board.png)
+
+</div>
 
 ## Sök på en anslagstavla
 
