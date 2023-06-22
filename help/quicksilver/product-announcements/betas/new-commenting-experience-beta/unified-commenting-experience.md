@@ -6,16 +6,16 @@ description: En uppdatering av kommentarsfunktionerna i Adobe Workfront håller 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # Ny kommentarsfunktion
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig för alla kunder i förhandsvisningsmiljön.</span>
 
 En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för markerade objekt.
 
@@ -432,7 +432,7 @@ Den nya kommentarsfunktionen stöds för närvarande för följande objekt när 
 
 * Som standard är kommentarsupplevelsen:
 
-   * Mål, <span class="preview">kort i området för anslagstavlor</span>
+   * Mål, kort i området för anslagstavlor
 
   >[!NOTE]
   >

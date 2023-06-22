@@ -6,9 +6,9 @@ description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -60,47 +60,44 @@ Följande avsnitt innehåller en lista med funktioner som har lagts till efter d
 
 Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. På sidan visas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
 
-<!--
-### Week of June 19, 2023
 
-#### Quote comment content in a new reply 
+### Funktioner som släppts efter 19 juni 2023
 
-Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+<!--restructure this section with actual weeks and dates, when we know them-->
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+De funktioner som listas i detta avsnitt planeras släppas strax efter veckan 19 juni 2023.
 
-Preview and Production: June 22, 2023 
+#### Citera kommentarinnehåll i ett nytt svar
 
-### Upcoming releases, after June 19, 2023
+Nu kan du kopiera innehållet i en kommentar och lägga till det som en ny offert till ett svar i samma tråd när du använder den nya kommentarsfunktionen.
 
-<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-The features described in this section are planned to release shortly after the week of June 19, 2023. 
+Förhandsgranska och produktion: Planerad till 29 juni 2023
 
-#### Add emojis to an update
+#### Lägga till känslolägesikoner i en uppdatering
 
-You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+Nu kan du lägga till känslolägesikoner i en kommentar med ett RTF-verktygsfält i den nya kommentarsfunktionen.
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Preview: To be announced 
+Förhandsgranska: Ska tillkännages (under version 23.3)
 
-Production: To be announced. Before the 23.3 release.
+Produktion: För att bli meddelade. Före version 23.3.
 
-#### New commenting experience for additional objects 
+#### Ny kommentarfunktion för ytterligare objekt
 
-The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+Den nya kommentarsfunktionen kommer att vara tillgänglig för följande objekt, kort efter version 23.3 till Production: malluppgifter, mallar, tidrapporter, team, användare, program, portfolior.
 
-This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+Det här är den enda kommentarsfunktionen för de här objekten eftersom den gamla kommentarsfunktionen tas bort när du öppnar dem.
 
-For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Mer information finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+Förhandsgranskningsversion: Anmälan ska göras efter produktionsutgåvan 23.3 (20 juli 2023)
 
-Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+Produktionsrelease för kunder med snabb lansering: Anmäl dig efter 23.3-utgåvan
 
-Production release for all customers: with the 23.4 release 
--->
+Produktionsrelease för alla kunder: med version 23.4
 
 ### Vecka 12 juni 2023
 
