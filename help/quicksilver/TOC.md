@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 feature-set: Workfront
-source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
+source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
 workflow-type: tm+mt
-source-wordcount: '13086'
+source-wordcount: '13071'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 0%
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * 23.3 Utgåva {#release-23-3}
          * [23.3 Versionsöversikt](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [Aktivitetsveckan 23.3-utgåvan 10 april 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-         * [Aktivitetsveckan 23.3, släppt den 17 april 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
-         * [Aktivitetsveckan 23.3, släppt 24 april 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
-         * [Aktivitetsvecka 23.3, 1 maj 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
-         * [Aktivitetsvecka 23.3, 8 maj 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
-         * [Aktivitetsveckan 23.3, släppt 2023-05-15](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
-         * [Aktivitetsveckan 23.3, släppt 29 maj 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
-         * [Aktivitetsveckan 23.3, släppt 2023-06-06](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [Aktivitetsveckan 23.3-utgåvan, 12 juni 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
+         * [23.3 Förbättringar av administratören](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
+         * [23.3 Agile-förbättringar](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 Integration enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
+         * [23.3 Projektförbättringar](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3 Mobilförbättringar](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
+         * [23.3 Andra förbättringar](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
+         * [Utforma och känna av uppdateringar under 23.3-releasetidningen](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 Utgåva {#release-23-2}
          * [23.2 Versionsöversikt](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Administratörsförbättringar](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -215,6 +213,7 @@ ht-degree: 0%
       * Workfront-korrekturutgivningsaktivitet {#proof-release}
          * Korrektur med version 23.3 {#proof-23-3-release}
             * [Adobe Workfront Proof med version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3: Vecka 17 juli 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3: Vecka 5 juni 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3: 8 maj 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Versionsaktivitet för Workfront: Vecka 17 maj 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
@@ -341,7 +340,7 @@ ht-degree: 0%
       * [Schema över funktioner som inte längre stöds](product-announcements/announcements/feature-removal-timeline.md)
       * [Frågor och svar om underhållsperioden](product-announcements/announcements/maintenance-window-faq.md)
       * [Ändringar som krävs för att lägga till korrektur i tillåtelselista](product-announcements/announcements/proofhq-domain-change-workfront.md)
-      * [Avbeställ utskick från Announcement Center i den nya Adobe Workfront-upplevelsen](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [Avbeställ utskick från Announcement Center Messages i den nya Adobe Workfront-upplevelsen](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Meddelandearkiv {#announcement-archive}
          * [Meddelandearkiv](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Uppdaterad mobilapp för iOS och Android (i början av augusti 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)

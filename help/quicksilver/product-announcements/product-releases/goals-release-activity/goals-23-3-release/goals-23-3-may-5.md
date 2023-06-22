@@ -7,9 +7,9 @@ description: Den här sidan beskriver alla förbättringar som gjorts i version 
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med v
 
 ## Förbättringar av uppdateringsavsnitt
 
-Förbättringar av målavsnittet Uppdateringar görs tillgängliga inom tidsramen för version 23.3. Dessa förbättringar kommer att bli tillgängliga i produktionsmiljön strax efter att du släppt förhandsvisningen.
+Förbättringar i uppdateringsavsnittet av målen görs tillgängliga inom tidsramen för version 23.3, samtidigt som uppdateringarna som släpps till den nya kommentarsbetaversionen. Dessa förbättringar kommer att bli tillgängliga i produktionsmiljön strax efter att du släppt förhandsvisningen.
 
 De förbättrade kommentarfunktionerna för andra Workfront-objekt är desamma som de som lanserades med den nya betafunktionen för kommentering.
 

@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om funktionaliteten för Ado
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
+source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,25 @@ En lista över alla ändringar som är tillgängliga för alla delar av Workfron
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ändra stöd för Microsoft Office-korrektur</a><span style="color: #ff0000;"> Nyheter i produktion!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Skjut upp uppdateringar för Desktop Proofing Viewer</a> </p>
+                        <p>Baserat på användarfeedback lägger vi till ett alternativ för att skjuta upp uppdateringar för Desktop Proofing Viewer. Användarna kan nu välja att fördröja en uppdatering och fortsätta med sitt arbete, men en påminnelse visas om att en uppdatering är tillgänglig varje gång de öppnar Desktop Proofing Viewer.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Med version 23.3</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease: Med version 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ändra stöd för Microsoft Office-korrektur</a></p>
                         <p>För att upprätthålla en robust och skalbar korrekturbehandlingslösning ändrar vi de Microsoft Office-filtyper och filstorleksbegränsningar som stöds.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -50,7 +65,8 @@ En lista över alla ändringar som är tillgängliga för alla delar av Workfron
                             </li>
                         </ul>
                     </td>
-                </tr>                <tr>
+                </tr>                
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Uppdatering för Desktop Proofing Viewer</a></p>
                         <p>Desktop Proofing Viewer har uppdaterats till version 2.1.24! Uppdateringen innehåller stöd för Chrome v100 för granskning av interaktiva korrektur samt ett antal problemkorrigeringar.</p>
