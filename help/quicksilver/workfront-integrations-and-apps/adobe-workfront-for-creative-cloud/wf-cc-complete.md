@@ -6,9 +6,9 @@ description: Du kan vara kvar i Adobe Creative Cloud-programmen och slutföra ar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
+source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,14 @@ Kontakta [!DNL Workfront] administratör.
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Från **[!UICONTROL Work List]** väljer du den uppgift eller det problem som du vill markera som slutförd.
-1. Klicka på **[!UICONTROL Done]**.\
-   Detta markerar objektet som är färdigt i Workfront.
+1. Klicka på **[!UICONTROL Done]**.  Om du är den enda användaren som är tilldelad den här uppgiften eller utgåvan markeras objektet [!UICONTROL Complete] eller [!UICONTROL Resolved] in [!DNL Workfront].
+1. (Villkorligt) Om flera användare har tilldelats den här uppgiften eller problemet klickar du på [!UICONTROL Done] öppnar en listruta. Då kan du:
+
+   Klicka **[!UICONTROL Done with my part]** om andra användare också måste göra sitt arbete för att uppgiften eller utgåvan ska vara slutförd.
+
+   eller
+
+   Klicka **[!UICONTROL Complete]** (för uppgifter) eller **[!UICONTROL Resolved]** (för frågor) om inget annat arbete behöver göras med uppgiften eller problemet. Detta markerar objektet [!UICONTROL Complete] eller [!UICONTROL Resolved] in [!DNL Workfront].
 
    >[!NOTE]
    >
