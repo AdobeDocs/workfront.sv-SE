@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -188,6 +188,8 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 1. Information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Lägga till en uppdatering av ett arbetsobjekt med hjälp av Beta-kommenteringsfunktionen
+
+Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
 1. Klicka  **Uppdateringar** i den vänstra panelen.
@@ -388,6 +390,8 @@ Med det här alternativet kopieras en specifik uppdateringslänk till Urklipp. N
 
 
 ### Kopiera en uppdatering i den nya kommentarsfunktionen
+
+Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
 

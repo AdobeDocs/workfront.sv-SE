@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Uppdateringsavsnittet visas för följande objekt:
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Artiklar</li> 
+     <li>Artiklar*</li> 
      <li>Uppgifter</li> 
      <li>Mallar</li> 
      <li>Malluppgifter</li> 
@@ -89,10 +89,13 @@ Uppdateringsavsnittet visas för följande objekt:
   </tr> 
  </tbody> 
 </table>
+*Artiklar är uppgifter. All information som rör uppgifter är också tillgänglig för artiklar.
 
 ### Översikt över uppdateringsavsnittet i betakommentarsfunktionen
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
 
@@ -109,7 +112,7 @@ För närvarande kan du lägga till kommentarer och svara på uppdateringar med 
    <td> 
     <ul> 
      <li><p>Mål</p>
-     <li><span class="preview">Kort i området Varv</span></li>
+     <li><span class="preview">Kort i området för anslagstavlor*</span></li>
       Det här är den enda upplevelsen för att nå målen <span class="preview">och kort</span>.
      </li> 
      <li><span class="preview">Projekt</span></li>
@@ -124,10 +127,7 @@ För närvarande kan du lägga till kommentarer och svara på uppdateringar med 
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+*Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Uppdateringar som också visas på objekt med högre rankning
 

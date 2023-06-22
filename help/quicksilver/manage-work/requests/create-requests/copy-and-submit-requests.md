@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # Kopiera och skicka begäranden
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE only - hard code it in classic articles!)</p>
--->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 När du skickar in liknande begäranden ofta kan du kopiera en befintlig skickad begäran. I det här fallet kan du kopiera en befintlig begäran, göra minimala ändringar i den och skicka den igen som en ny begäran.
 
@@ -91,7 +89,7 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 * Du har alltid tillgång till att kopiera och skicka in en kopia av dina egna förfrågningar, såvida inte någon har tagit bort dina behörigheter till dem.
 * Åtkomst till kopierings- och sändningsbegäranden som ursprungligen skickats in av andra personer kan beviljas automatiskt till personer i samma företag när den som skapade kön för begäran aktiverar **Personer från samma företag ärver samma behörigheter för alla begäranden** under Köinformation eller Redigera projekt. Om du inaktiverar den här inställningen kan endast den som gjorde originalet visa sina egna förfrågningar.
 
-   Mer information finns i följande artiklar:
+  Mer information finns i följande artiklar:
 
    * [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md)
@@ -102,9 +100,9 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
    * Begärandekön togs bort.
    * Köämnet togs bort.
 
-      >[!TIP]
-      >
-      >Om köämnet var det enda i begärandekön kan du fortfarande kopiera och skicka begäran, och den kommer att sparas i själva begärandekön.
+     >[!TIP]
+     >
+     >Om köämnet var det enda i begärandekön kan du fortfarande kopiera och skicka begäran, och den kommer att sparas i själva begärandekön.
 
    * Begärandekön publiceras inte längre som en kö för hjälpbegäranden. Mer information finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * Om begärandekön inte har något köämne och den ursprungliga begäran skickades före januari 2022.
@@ -113,9 +111,9 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
 * Du kan kopiera och skicka en kopia av en konverterad begäran om den bevaras i konverteringsprocessen. Mer information finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-   >[!TIP]
-   >
-   >Den kopierade begäran är inte länkad till ett matchande objekt.
+  >[!TIP]
+  >
+  >Den kopierade begäran är inte länkad till ett matchande objekt.
 
 ## Kopiera och skicka begäranden
 
@@ -123,27 +121,34 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 1. (Villkorligt) Om avsnittet Skickat inte visas som standard klickar du på **Skickat** i den vänstra panelen.
 1. Leta reda på den begäran som du vill kopiera och skicka som ny, och gör något av följande:
 
-   * Markera den och klicka sedan på **Kopiera och skicka som nya** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) i det övre vänstra hörnet i listan Skickade begäranden.
-   * Klicka på **Mer** meny ![](assets/more-icon.png) till höger om namnet på begäran och klicka sedan på **Kopiera och skicka som nya**
+   * Markera den och klicka sedan på **Kopiera och skicka som nya** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) i det övre vänstra hörnet i listan Skickade begäranden. <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
 
-      eller
+   <!-- reveal this tip for 23.3 preview release:
+   >[!TIP]
+   >
+   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
+   -->
 
-      Högerklicka på den valda begäran och klicka sedan på **Kopiera och skicka som nya**.
+   * Klicka på **Mer** meny ![](assets/more-icon.png) till höger om namnet på begäran och klicka sedan på **Kopiera och skicka som nya** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
 
-      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     eller
 
-      >[!TIP]
-      >
-      >Om du inte har behörighet att skapa problem får du en varning om att administratören har begränsat dig från att skapa förfrågningar.
+     Högerklicka på den valda begäran och klicka sedan på **Kopiera och skicka som nya**.
+
+     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+
+     >[!TIP]
+     >
+     >Om du inte har behörighet att skapa problem får du en varning om att administratören har begränsat dig från att skapa förfrågningar.
 
 1. (Valfritt) Uppdatera följande information vid behov:
 
    * **Typ av begäran**: begärandekön där den kopierade begäran sparas. Som standard sparas den kopierade begäran i begärandekön för den ursprungliga begäran.
    * **Ämnesgrupper** och **Köämnen**, om de är markerade. Namnen eller ämnesgrupperna och köämnena är anpassade för din miljö. Som standard sparas den kopierade begäran i ämnesgrupperna och i köämnena i den ursprungliga begäran.
 
-      >[!TIP]
-      >
-      >Om sökvägen ändras från sökvägen till den ursprungliga begäran har kön ändrats av den som skapade kön.
+     >[!TIP]
+     >
+     >Om sökvägen ändras från sökvägen till den ursprungliga begäran har kön ändrats av den som skapade kön.
 
 1. (Valfritt) Uppdatera eventuell information från den kopierade begäran. Beroende på vilka fält som skaparen av begärandekön har aktiverat i **Nya fält** i **Köinformation** kan du hitta något av följande fält:
 
@@ -231,7 +236,6 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
    >
    >* Alla anpassade formulär som är kopplade till den ursprungliga begäran och värdena som är inkluderade i de anpassade fälten överförs till den kopierade begäran. Detta inkluderar fält som innehåller logik.
    >* Du kan inte ta bort anpassade formulär från den kopierade begäran.
-
 
 1. Klicka **Skicka**.
 

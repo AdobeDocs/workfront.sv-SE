@@ -6,7 +6,7 @@ description: Läs mer om de områden i Adobe Workfront där du kan hitta förfr�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -15,14 +15,16 @@ ht-degree: 0%
 
 # Sök efter skickade begäranden
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 Du kan hitta följande typer av förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har börjat skicka men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
 * **Skickat avsnitt**: Alla förfrågningar som du eller någon annan har skickat och du har tillgång till åtminstone Visa.
 * **Utkastavsnitt** : Alla förfrågningar som du har startat men aldrig slutfört och du har aldrig skickat in. Mer information om utkastbegäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   >[!TIP]
-   >
-   >Du kan bara visa dina egna utkastbegäranden.
+  >[!TIP]
+  >
+  >Du kan bara visa dina egna utkastbegäranden.
 
 ## Åtkomstkrav
 
@@ -69,6 +71,8 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
    >Du kan inte anpassa kolumnerna i listan Skickade begäranden.
 
    ![](assets/nwe-submitted-requests-new-list-350x57.png)
+
+   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. Följande kolumner visas som standard:
 

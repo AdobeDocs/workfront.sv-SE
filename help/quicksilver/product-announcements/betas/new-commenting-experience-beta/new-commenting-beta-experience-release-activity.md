@@ -6,9 +6,9 @@ description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
+source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -37,26 +37,70 @@ Här följer en planerad tidslinje för lanseringen av den nya kommentarsfunktio
    * Kommentarsupplevelse Beta för problem
    * Ny kommenteringsupplevelse för mål (som den enda upplevelsen)
 * Med version 23.3 (20 juli 2023):
-   * Kommentarer Beta för projekt, uppgifter, artiklar och dokument.
-   * Kommentarsupplevelsen Beta för projekt, uppgifter, utgåvor, artiklar och dokument blir standardalternativet.
+   * Kommentarer Beta för projekt, uppgifter och dokument.
    * Ny kommentarsfunktion för kort i styrelserutan (som den enda upplevelsen)
-* Under version 23.4 (datum som ska tillkännages) (begränsad version)<!--, only available to Fast Track customers-->):
+* Under version 23.4 (datum som ska tillkännages) (begränsad version)<!--, only available to customers that choose the fast release -->):
    * Ny kommentarfunktion för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
 * Med version 23.4 (början av oktober 2023)
    * Ny kommentarfunktion för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
+   * Kommentarsupplevelsen Beta för projekt, uppgifter, utgåvor och dokument blir standardalternativet.
 * I slutet av 2023:
-   * Följande objekt har den nya kommentarfunktionen som standard: projekt, uppgifter, utgåvor, artiklar, dokument, mallar, malluppgifter, program, portfolior, team, användare och tidrapporter, mål, kort. De gamla kommentarerna förblir ett alternativ.
+   * Den gamla kommentarfunktionen förblir ett alternativ för följande objekt: projekt, uppgifter, utgåvor och dokument.
+
+     Mallar, malluppgifter, program, portföljer, team, användare och tidrapporter, mål, kort har den nya kommentarsupplevelsen som enda alternativ.
 
   >[!NOTE]
   >
   >    Iterationer kommer även i fortsättningen att ha den gamla kommentarsfunktionen.
 
-I följande avsnitt visas funktioner som har lagts till efter den ursprungliga versionen, med början de som släpptes senast.
+Följande avsnitt innehåller en lista med funktioner som har lagts till efter den ursprungliga versionen, med början de som släppts senast.
 
 ## Frisläppta funktioner
 
 Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. På sidan visas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
+
+<!--
+### Week of June 19, 2023
+
+#### Quote comment content in a new reply 
+
+Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview and Production: June 22, 2023 
+
+### Upcoming releases, after June 19, 2023
+
+<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+
+The features described in this section are planned to release shortly after the week of June 19, 2023. 
+
+#### Add emojis to an update
+
+You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Preview: To be announced 
+
+Production: To be announced. Before the 23.3 release.
+
+#### New commenting experience for additional objects 
+
+The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+
+This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+
+Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+
+Production release for all customers: with the 23.4 release 
+-->
 
 ### Vecka 12 juni 2023
 

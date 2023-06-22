@@ -6,9 +6,9 @@ description: En uppdatering av kommentarsfunktionerna i Adobe Workfront håller 
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -425,7 +425,7 @@ Den nya kommentarsfunktionen stöds för närvarande för följande objekt när 
 
 * När du aktiverar betafunktionen i uppdateringsavsnittet:
 
-   * Frågor, <span class="preview">projekt, uppgifter, artiklar och dokument</span>
+   * Frågor, <span class="preview">projekt, uppgifter och dokument</span>
 
   Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
