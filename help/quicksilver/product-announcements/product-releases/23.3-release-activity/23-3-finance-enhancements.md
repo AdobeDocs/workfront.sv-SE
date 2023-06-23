@@ -3,7 +3,7 @@ title: 23.3 Förbättringar av den ekonomiska förvaltningen
 description: 23.3 Förbättringar av den ekonomiska förvaltningen
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ Datumrollsuppsättningar för giltighetsjobb är nu även tillgängliga för anv
 
 Med en ny funktion, tariffkort, kan du definiera flera faktureringspriser per jobbroll baserat på plats. En faktureringsfrekvens för en jobbroll och plats kan även innehålla giltighetsdatum. Gradkort kan kopplas till projekt för att tillämpa all tariffinformation samtidigt för den specifika jobbrollen och platsen. Platsbaserade roller kan också tilldelas aktiviteter med möjlighet att åsidosätta deras satser på tilldelningsnivån.
 
-Alla dessa funktioner kommer att förhandsgranskas i juli 2023, och uppdaterad användardokumentation kommer då att finnas tillgänglig.
+Alla dessa funktioner kommer att förhandsgranskas den 29 juli 2023 och uppdaterad användardokumentation kommer då att finnas tillgänglig.
