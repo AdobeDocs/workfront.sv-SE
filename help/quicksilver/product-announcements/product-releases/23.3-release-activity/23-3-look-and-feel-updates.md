@@ -4,9 +4,9 @@ description: Utforma och känna av uppdateringar under 23.3-releasetidningen
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ En lista över alla ändringar som är tillgängliga i version 23.3 finns i [23.
 
 >[!NOTE]
 >
->Förhandsgranskning och produktion: Ska tillkännages (före version 23.3)
+>Planerad förhandsversion: 28 juni 2023, Planerad produktionsrelease: 13 juli 2023
 
 Vi har förbättrat gränssnittet i listan över skickade begäranden.
 
@@ -36,8 +36,16 @@ Mer information finns i [Kopiera och skicka begäranden](/help/quicksilver/manag
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: kommer att tillkännages (före version 23.3), Produktionsrelease: med version 23.3
+>Planerad förhandsversion: 5 juli 2023, Planerad produktionsrelease: med version 23.3
 
 Vi har uppdaterat rutan Ny begäran som visas när en ny begäran skickas. Nu matchar gränssnittet rutan Nytt problem som visas när du lägger till ett nytt problem i ett projekt.
 
 Mer information finns i [Skapa och skicka Adobe Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Uppdaterad faktureringslista
+
+>[!NOTE]
+>
+>Förhandsgranskningsversion: 29 juni 2023, Planerad produktionsrelease för kunder med snabb lansering: Ska tillkännages efter 23.3-produktionsreleasen. Planerad produktionsrelease för alla kunder: Med version 23.4
+
+Listan Projektfaktureringstaxor har nu det mer moderna utseende och känsla som finns i de flesta andra listor i Workfront.

@@ -3,9 +3,9 @@ title: 23.3 Andra förbättringar
 description: 23.3 Andra förbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ New Home är en stor ny funktion som vi är glada över att kunna fortsätta utv
 
 Nya Home blir standardupplevelsen för alla användare när den släpps. Du kan dock välja att återgå till den befintliga hemupplevelsen när vi fortsätter utveckla dess funktioner.
 
-Dokumentation för New Home kommer att göras tillgänglig i den version som ska förhandsgranskas den 23 juni.
+Mer information finns i [Kom igång med nya startsidor i Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+[Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3420860/){target=_blank}
 
 ## Ny kommentarfunktion för ytterligare objekt
 

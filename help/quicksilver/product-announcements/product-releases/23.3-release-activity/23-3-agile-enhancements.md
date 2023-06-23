@@ -3,9 +3,9 @@ title: 23.3 Agile-förbättringar
 description: 23.3 Agile-förbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Den här sidan beskriver alla smidiga förbättringar som gjorts i version 23.3 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.3.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Mer information om hur du väljer att använda nya funktioner i Boards före kvartalsversionen finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Agile View of a project displays a kanban board
 
@@ -28,24 +30,6 @@ När du sitter i styrelsen kan du växla till den äldre Agile-vyn.
 
 Dokumentation för det uppdaterade projektet Agile View kommer att göras tillgänglig i den version där den förhandsgranskas.
 
-## Mörkt läge finns nu på Adobe Workfront-kort
-
-Nu kan du visa alla dina brädor och arbetsflöden i mörkt läge. Den nya inställningen är tillgänglig via inställningarna på panelpanelen.
-
->[!NOTE]
->
->Om din organisations instans av Workfront har tagits med i Adobe Unified Experience kan du aktivera mörk temaformatering för alla Adobe Experience Cloud via din inställningsmeny (din profilbild) och du kommer inte att se något separat alternativ för mörkt läge för Workfront Boards.
-
-Mer information finns i [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Förbättringar av arbetsflöden i Adobe Workfront Boards
-
-Vi har lagt till möjligheten att lägga till mål i en iteration utan att behöva lista målen på ett kort. Mål läggs till i ett checklisteformat och kan markeras som fullständiga. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.
-
-Dessutom är kolumnen Nästa iteration nu tillgänglig på itereringspaneler. När du placerar ett kort i den här kolumnen överförs det automatiskt till nästa iteration och återgår inte till eftersläpningen. På nästa iteration visas kortet i den kolumn som motsvarar dess status.
-
-Mer information om båda funktionerna finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## Sortera efter kortkolumner
 
 Vi har lagt till möjligheten att sortera korten i kolumnerna på en anslagstavla. När du väljer ett alternativ att sortera efter sorteras alla kolumner. Det går inte att sortera en enstaka kolumn, och eftersläpningen eller inloppskolumnen sorteras inte.
@@ -56,6 +40,24 @@ Alternativet &quot;användarordning&quot; returnerar korten i den ordning de st�
 
 Mer information finns i [Filtrera och söka på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## Mörkt läge finns nu på Adobe Workfront-kort
+
+Nu kan du visa alla dina brädor och arbetsflöden i mörkt läge. Den nya inställningen är tillgänglig via inställningarna på panelpanelen.
+
+>[!NOTE]
+>
+>Om din organisations instans av Workfront har tagits med i Adobe Unified Experience kan du aktivera mörk temaformatering för alla Adobe Experience Cloud via din inställningsmeny (din profilbild) och du kommer inte att se något separat alternativ för mörkt läge för Workfront Boards.
+
+Mer information finns i [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Mål som är tillgängliga i arbetsströmsversioner på Adobe Workfront-anslagstavlor
+
+Vi har lagt till möjligheten att lägga till mål i en iteration utan att behöva lista målen på ett kort. Mål läggs till i ett checklisteformat och kan markeras som fullständiga. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## Lägg till kommentarer på kort i ritytor
 
 >[!NOTE]
@@ -65,6 +67,8 @@ Mer information finns i [Filtrera och söka på en anslagstavla](/help/quicksilv
 Nu kan du lägga till kommentarer i både ad hoc-kort och anslutna kort på anslagstavlan och tagga andra användare på kommentarerna. Kommentarerna finns i kortinformationen. Kommentarsfunktionen för anslagstavlor använder den nya kommentarsfunktionen från Adobe Workfront.
 
 Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) och [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Förbättringar av tagghanteraren Boards
 
