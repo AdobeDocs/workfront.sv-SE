@@ -6,9 +6,9 @@ description: Skapa arbetsobjekt från hemområdet
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,13 @@ Du kan skapa en personlig uppgift som bara är tillgänglig för dig i [!UICONTR
 
 >[!NOTE]
 >
->När du skapar en personlig uppgift lagras den i ett&quot;dolt&quot; projekt som inte är sökbart i [!UICONTROL Workfront]. Du kan bara komma åt det här projektet när du tar bort en uppgift (från själva aktiviteten, inte från [!UICONTROL Home] område).\
->![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)>
+>* När du skapar en personlig uppgift lagras den i ett&quot;dolt&quot; projekt som inte är sökbart i [!UICONTROL Workfront]. Projektet heter &quot;&lt; Användarnamn > Uppgifter&quot;. &quot;Användarnamn&quot; är det fullständiga namnet på den användare som skapade uppgiften. Du kan bara komma åt det här projektet när du klickar på den personliga uppgiften i [!UICONTROL Home] -området, till exempel från uppgiftens vägbeskrivningar.
+>
+>* Till skillnad från vanliga projektuppgifter har personliga uppgifter en begränsad uppsättning fält som visas i Workfront-gränssnittet och påverkar inte tidslinjen eller förloppet för något projekt. Om du tilldelar en personlig uppgift till en annan användare, läggs alla uppgiftsfält till i en personlig uppgift, men uppgiften blir kvar i det personliga projektet för den användare som skapade uppgiften.
+>
+>* Vi rekommenderar att du skapar ett projekt och flyttar alla personliga uppgifter till det om du vill göra personliga uppgifter till en del av det vanliga arbetsflödet.
+>
+> ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
 
 ## Begär arbete från en annan användare
 

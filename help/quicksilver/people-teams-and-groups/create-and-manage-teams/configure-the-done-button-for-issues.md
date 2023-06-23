@@ -6,9 +6,9 @@ description: Knappen Klar kan automatiskt ange status för en uppgift eller ett 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ The [!UICONTROL Done] kan automatiskt ange status för en uppgift eller ett prob
 Användare med vissa behörigheter kan konfigurera [!UICONTROL Done] om du vill visa vissa statusvärden i systemet. Det finns tre olika sätt [!UICONTROL Done] fungerar för problem i [!DNL Workfront]:
 
 * Om användaren har en tilldelad [!UICONTROL Home Team], a [!DNL Workfront] administratör eller en användare med [!UICONTROL Plan] licensen kan konfigurera [!UICONTROL Done] för att visa vissa statusvärden för teammedlemmar. Se [Konfigurera [!UICONTROL Done] knapp för ett team](#configure-the-uicontrol-done-button-for-a-team) i den här artikeln.
+* Om användaren inte har en [!UICONTROL Home Team], men de har[!UICONTROL Other Teams] i sin profil söker Workfront efter inställningen för [!UICONTROL Done] på något av de team som är kopplade till användaren. Urvalet är slumpmässigt och statusen som är associerad med någon av teamen används för problemet.
 * Om användaren inte har en [!UICONTROL Home Team] tilldelade, [!UICONTROL Done] knapp för problem är kopplad till ett systemgenererat [!UICONTROL Resolved] status som har kod med tre bokstäver [!UICONTROL RLV]. Det finns inga konfigurationsalternativ tillgängliga i det här scenariot. The [!UICONTROL Done] anges automatiskt som standard för denna knapp.
 * Om [!UICONTROL Resolved] ([!UICONTROL RLV]) tas bort och användaren markerar problemet som [!UICONTROL Done] har inte [!UICONTROL Home Team]är standardutgivningsstatusen knuten till det som är inställt som standard för [!UICONTROL Closed] för gruppen som är tilldelad projektet som utleveransen tillhör. Workfront-administratören kan konfigurera en systemomfattande standardinställning för gruppen. Se [Konfigurera [!UICONTROL Done] när [!UICONTROL Resolved] status har tagits bort](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) i den här artikeln.
 
@@ -71,20 +72,18 @@ Du kan ändra vilken status som ska användas för arbetsuppgiften med [!UICONTR
    >* När du väljer en status för varje typ av arbetsuppgift, ställs uppgiften eller utleveransstatusen in på den statusen när en användare klickar på [!UICONTROL Done] på deras objekt. Om du anger flera statusvärden för varje typ av arbetsuppgift läggs en listruta till i [!UICONTROL Done] och användaren måste välja en status för att kunna ändra status för arbetsuppgiften.
    >* Du kan bara associera statusvärden på systemnivå med [!UICONTROL Done] -knappen. Du kan inte associera gruppspecifika statusvärden med arbetsartikelstatusvärden.
    >* När en användare som är tilldelad objektet placerar objektet i den status som är associerad med [!UICONTROL Done] -knapp, objektet visas som [!UICONTROL Done] för den användaren oavsett om den valda statusen är en [!UICONTROL Completed] eller [!UICONTROL Closed] status eller en arbetsstatus.
-
    >   
    >   
    >  Du kan till exempel associera [!UICONTROL Done] knappen Pågår gör att arbetsposten visas som [!UICONTROL Done] för den användare som ändrar status från Nytt till Pågår.
    >   
    >* Problemtyperna är anpassningsbara och kan ha andra namn än de som visas nedan i din miljö.\
-      >  Följande är standardåtgärder och problemtyper:
-      >     
-      >   * [!UICONTROL Tasks]
-      >   * [!UICONTROL Issue]
-      >   * [!UICONTROL Request]
-      >   * [!UICONTROL Change Order]
-      >   * [!UICONTROL Bug Report]
-
+   >  Följande är standardåtgärder och problemtyper:
+   >     
+   >   * [!UICONTROL Tasks]
+   >   * [!UICONTROL Issue]
+   >   * [!UICONTROL Request]
+   >   * [!UICONTROL Change Order]
+   >   * [!UICONTROL Bug Report]
 
    Om uppgiften eller utgåvan har tilldelats flera användare visas en[!UICONTROL Done with my part]&quot; i den nedrullningsbara menyn, förutom de olika statusar som valts för ditt team.
 

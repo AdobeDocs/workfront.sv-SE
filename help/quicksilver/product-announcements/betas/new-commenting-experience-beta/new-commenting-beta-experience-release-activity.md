@@ -6,9 +6,9 @@ description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -71,15 +71,25 @@ De funktioner som listas i detta avsnitt planeras släppas strax efter veckan 19
 
 Nu kan du kopiera innehållet i en kommentar och lägga till det som en ny offert till ett svar i samma tråd när du använder den nya kommentarsfunktionen.
 
-Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Dokumentationen uppdateras när den släpps.
 
-Förhandsgranska och produktion: Planerad till 29 juni 2023
+Planerad förhandsgranskning och produktionsrelease: 29 juni 2023
+
+#### Nytt gränssnitt för loggningstid
+
+Vi har gjort om gränssnittet för loggningstid från uppdateringsområdet i den nya kommentarsfunktionen.
+
+Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md). Dokumentationen uppdateras när den släpps.
+
+Planerad förhandsversion: 29 juni 2023
+
+Planerad produktionsrelease: med version 23.3
 
 #### Lägga till känslolägesikoner i en uppdatering
 
 Nu kan du lägga till känslolägesikoner i en kommentar med ett RTF-verktygsfält i den nya kommentarsfunktionen.
 
-Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Dokumentationen uppdateras när den släpps.
 
 Förhandsgranska: Ska tillkännages (under version 23.3)
 
@@ -91,11 +101,11 @@ Den nya kommentarsfunktionen kommer att vara tillgänglig för följande objekt,
 
 Det här är den enda kommentarsfunktionen för de här objekten eftersom den gamla kommentarsfunktionen tas bort när du öppnar dem.
 
-Mer information finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Mer information finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). Dokumentationen uppdateras när den släpps.
 
 Förhandsgranskningsversion: Anmälan ska göras efter produktionsutgåvan 23.3 (20 juli 2023)
 
-Produktionsrelease för kunder med snabb lansering: Anmäl dig efter 23.3-utgåvan
+Produktionsrelease för kunder med snabb lansering: Ska tillkännages efter version 23.3
 
 Produktionsrelease för alla kunder: med version 23.4
 
