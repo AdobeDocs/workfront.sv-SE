@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
+source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2520'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Den här sidan innehåller information om de funktioner som ingår i version 23.
 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan uppdateras med ytterligare förbättringar när version 23.3 närmar sig den planerade produktionsversionen.
 
-Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig för webbinariet här](https://wcc.on24.com/webcast/present?e=4212784&amp;k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig för webbinariet här](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Funktioner utanför cykeln (de som lanserades till Production före 23.3-releasedatum) markeras med gult.</span>
 
