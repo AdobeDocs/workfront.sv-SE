@@ -7,16 +7,14 @@ description: Mätvärden finns tillgängliga för varje upprepning i ett arbetsf
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # Granska iterationsmått
-
-{{highlighted-preview}}
 
 Det finns mätvärden för varje upprepning i ett arbetsflöde, på iterationsprocesspanelen och på kontrollpanelen.
 
@@ -49,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Välj [!UICONTROL Iteration Process] bräda.
 1. Se mätområdet ovanför brädet uppe till höger. Klicka på upp- och nedpilarna för att flytta mellan iterationer.
 
-   Följande mått visas: det totala antalet poäng som tilldelats iterationen, de återstående punkterna som ännu inte har slutförts i iteration, antalet punkter som har slutförts i iteration, <span class="preview">och antalet mål som skapats och fyllts i under iterationen</span>.
+   Följande mått visas: det totala antalet poäng som tilldelats iterationen, de återstående punkterna som ännu inte har slutförts i iteration, antalet punkter som har slutförts i iteration.
 
 1. (Valfritt) Klicka på [!UICONTROL **Iterationsinformation**] icon ![Iterationsinformation](assets/iteration-details-button.png) för att öppna informationsdialogrutan för den valda iterationen.
 

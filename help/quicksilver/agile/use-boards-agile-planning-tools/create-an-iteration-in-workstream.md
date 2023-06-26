@@ -7,16 +7,14 @@ description: En iteration är en angiven tidsrymd som är reserverad för att sl
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Skapa en iteration i ett arbetsflöde
-
-{{highlighted-preview}}
 
 En iteration är en angiven tidsrymd som är reserverad för att slutföra arbete. Vissa rörliga team kan kalla en iteration för en fjäder.
 
@@ -90,12 +88,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    När en iteration har startats kan du bara ändra iteration och inte datum eller iteration.
 
-1. <span class="preview">Expandera om du vill lägga till mål i upprepningen [!UICONTROL **Mål**].</span>
-1. <span class="preview">Klicka [!UICONTROL **Lägg till mål**] och skriv målnamnet.</span>
+<!--   
 
-   <span class="preview">När målen har slutförts under iterationen kan du markera kryssrutan för att markera dem som fullständiga, eller klicka på **Ta bort** icon ![Ikonen Ta bort](assets/delete.png) för att ta bort ett mål. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration

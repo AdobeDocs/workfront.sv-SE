@@ -6,16 +6,14 @@ title: E-postmeddelanden och inställningar för anslagstavlor
 description: Adobe Workfront Boards skickar ett e-postmeddelande till dig när du läggs till på en anslagstavla och när du tilldelas ett kort.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
 # E-postmeddelanden och inställningar för anslagstavlor
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] skickar ett e-postmeddelande till dig när du läggs till på en anslagstavla och när du tilldelas ett kort. Meddelandena är aktiverade som standard och du kan välja vilka e-postmeddelanden du vill få i dina inställningar.
 
@@ -59,19 +57,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    De inställningar du anger för e-post gäller för alla dina anslagstavlor.
 
+<!--
+
 <div class="preview">
 
-## Ange inställningar för mörkt läge
+## Set the dark mode preference
 
 >[!NOTE]
 >
->Om din organisations instans av Workfront har tagits med i Adobe Unified Experience kan du aktivera mörk temaformatering för alla Adobe Experience Cloud via din inställningsmeny (din profilbild) och du kommer inte att se något separat alternativ för mörkt läge för Workfront Boards. Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-boards}}
 
-1. Klicka [!UICONTROL **Inställningar**] på panelernas kontrollpanel.
-1. Aktivera eller inaktivera mörkt läge i temaområdet.
+1. Click [!UICONTROL **Preferences**] on the boards dashboard.
+1. In the Themes area, enable or disable Dark mode.
 
-   Inställningen du anger för mörkt läge gäller alla dina paneler och arbetsflöden samt instrumentpanelen.
+   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->
