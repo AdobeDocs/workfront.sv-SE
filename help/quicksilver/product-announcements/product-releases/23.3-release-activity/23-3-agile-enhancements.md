@@ -3,9 +3,9 @@ title: 23.3 Agile-förbättringar
 description: 23.3 Agile-förbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Alternativet &quot;användarordning&quot; returnerar korten i den ordning de st�
 
 Mer information finns i [Filtrera och söka på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## Mörkt läge finns nu på Adobe Workfront-kort
 
 Nu kan du visa alla dina brädor och arbetsflöden i mörkt läge. Den nya inställningen är tillgänglig via inställningarna på panelpanelen.
@@ -54,7 +56,7 @@ Mer information finns i [E-postmeddelanden och inställningar för anslagstavlor
 
 Vi har lagt till möjligheten att lägga till mål i en iteration utan att behöva lista målen på ett kort. Mål läggs till i ett checklisteformat och kan markeras som fullständiga. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+Dessutom är kolumnen Nästa iteration nu tillgänglig på itereringspaneler. När du placerar ett kort i den här kolumnen överförs det automatiskt till nästa iteration och återgår inte till eftersläpningen. På nästa iteration visas kortet i den kolumn som motsvarar dess status.
 
 Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 

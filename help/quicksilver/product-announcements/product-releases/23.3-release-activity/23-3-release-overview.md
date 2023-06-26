@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mörkt läge finns nu på Adobe Workfront-kort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mörkt läge finns nu på Adobe Workfront-kort</a></p>
                         <p>Nu kan du visa alla dina brädor och arbetsflöden i mörkt läge. Den nya inställningen är tillgänglig via inställningarna på panelpanelen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juni 2023</p>
+                                <p>Förhandsgranskningsversion: 22 juni 2023<span style="color: #ff0000;"> Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas med version 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 23.3</p>
+                                <p>Produktionsrelease för alla kunder: Ej tillämpligt</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mål som är tillgängliga för arbetsströmsiterationer i Adobe Workfront Boards</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mål som är tillgängliga för arbetsströmsiterationer i Adobe Workfront Boards</a></p>
                         <p>Vi har lagt till möjligheten att lägga till mål i en iteration utan att behöva lista målen på ett kort. Mål läggs till i ett checklisteformat och kan markeras som fullständiga. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juni 2023</p>
+                                <p>Förhandsgranskningsversion: 22 juni 2023<span style="color: #ff0000;"> Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas med version 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 23.3</p>
+                                <p>Produktionsrelease för alla kunder: Ej tillämpligt</p>
                             </li>
                         </ul>
                     </td>
