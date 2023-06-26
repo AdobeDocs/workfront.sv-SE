@@ -6,7 +6,7 @@ description: Knappen Klar kan automatiskt ange status för en uppgift eller ett 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -22,7 +22,7 @@ The [!UICONTROL Done] kan automatiskt ange status för en uppgift eller ett prob
 Användare med vissa behörigheter kan konfigurera [!UICONTROL Done] om du vill visa vissa statusvärden i systemet. Det finns tre olika sätt [!UICONTROL Done] fungerar för problem i [!DNL Workfront]:
 
 * Om användaren har en tilldelad [!UICONTROL Home Team], a [!DNL Workfront] administratör eller en användare med [!UICONTROL Plan] licensen kan konfigurera [!UICONTROL Done] för att visa vissa statusvärden för teammedlemmar. Se [Konfigurera [!UICONTROL Done] knapp för ett team](#configure-the-uicontrol-done-button-for-a-team) i den här artikeln.
-* Om användaren inte har en [!UICONTROL Home Team], men de har[!UICONTROL Other Teams] i sin profil söker Workfront efter inställningen för [!UICONTROL Done] på något av de team som är kopplade till användaren. Urvalet är slumpmässigt och statusen som är associerad med någon av teamen används för problemet.
+* Om användaren inte har en [!UICONTROL Home Team], men de har [!UICONTROL Other Teams] i sin profil söker Workfront efter inställningen för [!UICONTROL Done] på något av de team som är kopplade till användaren. Urvalet är slumpmässigt och statusen som är associerad med någon av teamen används för problemet.
 * Om användaren inte har en [!UICONTROL Home Team] tilldelade, [!UICONTROL Done] knapp för problem är kopplad till ett systemgenererat [!UICONTROL Resolved] status som har kod med tre bokstäver [!UICONTROL RLV]. Det finns inga konfigurationsalternativ tillgängliga i det här scenariot. The [!UICONTROL Done] anges automatiskt som standard för denna knapp.
 * Om [!UICONTROL Resolved] ([!UICONTROL RLV]) tas bort och användaren markerar problemet som [!UICONTROL Done] har inte [!UICONTROL Home Team]är standardutgivningsstatusen knuten till det som är inställt som standard för [!UICONTROL Closed] för gruppen som är tilldelad projektet som utleveransen tillhör. Workfront-administratören kan konfigurera en systemomfattande standardinställning för gruppen. Se [Konfigurera [!UICONTROL Done] när [!UICONTROL Resolved] status har tagits bort](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) i den här artikeln.
 

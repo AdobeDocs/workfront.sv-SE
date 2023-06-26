@@ -6,9 +6,9 @@ description: Du kan kopiera en uppgift från ett projekt till ett annat projekt,
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,37 @@ Du kan kopiera en uppgift från ett projekt till ett annat projekt, eller så ka
 Du kan kopiera eller duplicera en eller flera uppgifter eller överordnade uppgifter åt gången.
 
 ## Åtkomstkrav
+
+<!-- drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard</p> 
+   Or
+   <p>Legacy license: Work or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a task</p> <p>Contribute or higher permissions to the project</p> 
+   <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -37,8 +68,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-  </tr> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p><b>ANMÄRKNING</b>
+
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter för en uppgift </p> <p>Contribute eller högre behörighet för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
@@ -54,12 +87,13 @@ Tänk på följande när du kopierar en uppgift:
 
 * Problem kopieras inte med uppgiften.
 * Milstolpar överförs till den kopierade aktiviteten och tas bort från den ursprungliga aktiviteten.
+* När du kopierar en uppgift från ett projekt till ett annat kan uppgiftsdatumen beräknas om. Omberäkningen tar hänsyn till den tidsplan som det nya projektet använder och projektets Schedule From-information.
 
 Du kan kopiera en uppgift i följande områden i Adobe Workfront webbprogram:
 
 * På aktivitetsnivå från **Mer-ikon** ![](assets/qs-more-menu-19x7.png) till höger om aktivitetsnamnet.
 
-   Mer information finns i [Kopiera en uppgift på aktivitetsnivå](#copy-a-task-at-the-task-level) i den här artikeln.
+  Mer information finns i [Kopiera en uppgift på aktivitetsnivå](#copy-a-task-at-the-task-level) i den här artikeln.
 
 * Gör något av följande i en uppgiftslista:
 
@@ -67,8 +101,9 @@ Du kan kopiera en uppgift i följande områden i Adobe Workfront webbprogram:
    * Markera uppgiften (eller aktiviteterna) och expandera **Mer** icon ![](assets/more-icon-task-list.png) högst upp i uppgiftslistan.
    * Välj en uppgift och utöka **Mer** icon ![](assets/more-icon-task-list.png) bredvid aktivitetsnamnet.
 
-      Det här alternativet är inte tillgängligt när du markerar flera uppgifter.
-   Mer information finns i [Kopiera uppgifter i en lista](#copy-tasks-in-a-list) i den här artikeln.
+     Det här alternativet är inte tillgängligt när du markerar flera uppgifter.
+
+  Mer information finns i [Kopiera uppgifter i en lista](#copy-tasks-in-a-list) i den här artikeln.
 
 ## Kopiera uppgifter i en lista {#copy-tasks-in-a-list}
 
@@ -90,6 +125,7 @@ Du kan kopiera en uppgift i följande områden i Adobe Workfront webbprogram:
    * Klicka på **Menyn Mer** överst i uppgiftslistan klickar du på **Kopiera till**.
    * Högerklicka på de markerade uppgifterna och klicka sedan på **Kopiera till**.
    * När du markerar en uppgift klickar du på **Mer** meny ![](assets/more-icon-task-list.png) bredvid uppgiftsnamnet i listan och klicka sedan på **Kopiera till**.
+
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Fortsätt med kopieringen av uppgiften enligt beskrivningen i avsnittet [Kopiera en uppgift på aktivitetsnivå](#copy-a-task-at-the-task-level) med början från steg 4.
@@ -128,7 +164,6 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
    >* Du kan också börja skriva referensnumret eller ange projektets ID. Detta kan hjälpa dig att skilja mellan projekt med identiska namn.
    >* Endast 100 projekt visas i listan.
 
-
    Det aktuella projektnamnet visas som standard. Om du vill kopiera uppgiften inom samma projekt låter du det här fältet vara oförändrat.
 
 1. (Villkorligt) Klicka **begära åtkomst** om du vill begära åtkomst till projektet, om du inte har åtkomst till det valda projektet.
@@ -143,6 +178,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 1. Klicka **Alternativ** i den vänstra panelen avmarkerar du de uppgiftsattribut du inte vill kopiera med uppgiften. Alla alternativ är markerade som standard.
 
    >[!TIP]
+   >
    Markera och avmarkera sedan **Markera alla** avmarkerar alla alternativ.
 
    Avmarkera följande alternativ om du inte vill överföra dem till den kopierade uppgiften. I följande tabell beskrivs vad som händer när alternativen avmarkeras:
@@ -201,12 +237,14 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 1.  (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen markerar du den uppgift i målprojektet som du vill ska vara överordnad den kopierade uppgiften.
 
    >[!TIP]
+   >
    När du väljer att kopiera flera uppgifter i en lista blir alla markerade uppgifter underordnade den markerade överordnade.
 
    Välj en överordnad genom att göra något av följande:
 
    * Välj en av de överordnade i projektplanen i uppgiftslistan.
    * Klicka på sökikonen ![Ikonen Sök](assets/search-icon.png) och söka efter en överordnad uppgift efter namn.
+
    Uppgiften ska visas i listan.
 
    ![Välj överordnad uppgift när en uppgift flyttas med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
@@ -242,12 +280,12 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
    * Problem
    * Endast de föregående som ingår i samma grupp med kopierade uppgifter kopieras också med de efterföljande uppgifterna.
 
-      **Exempel:** Om du till exempel kopierar Task 2 och dess föregångare, Task 1, samtidigt, får du en kopia av Task 2 och en kopia av Task 1. Kopian av uppgift 1 kommer att vara föregångaren till kopian av uppgift 2. Men om du bara kopierar Task 2 utan att kopiera dess föregångare har kopian ingen föregångare.
+     **Exempel:** Om du till exempel kopierar Task 2 och dess föregångare, Task 1, samtidigt, får du en kopia av Task 2 och en kopia av Task 1. Kopian av uppgift 1 kommer att vara föregångaren till kopian av uppgift 2. Men om du bara kopierar Task 2 utan att kopiera dess föregångare har kopian ingen föregångare.
 
 * När du duplicerar en överordnad uppgift dupliceras även alla underordnade uppgifter, även när de underordnade uppgifterna inte har markerats.
 * Du kan duplicera flera åtgärder samtidigt.
 
-   Du kan dock inte duplicera flera uppgifter som inte är sekventiella samtidigt.
+  Du kan dock inte duplicera flera uppgifter som inte är sekventiella samtidigt.
 
 * Milstolpar flyttas till den nya aktiviteten och tas bort från den ursprungliga aktiviteten.
 
@@ -259,7 +297,7 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
 
    * (Villkorligt) Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara automatiskt**, markerar de uppgifter du vill duplicera och klickar sedan på **Menyn Mer** ![](assets/qs-more-menu-29x11.png) > **Duplicera**.
 
-      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
    * (Villkorligt) Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara manuellt** > **Standard** eller **Planering av tidslinje** gör du följande:
 
@@ -268,4 +306,5 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
       1. (Valfritt och villkorligt) Klicka på **Gör om** om du tidigare klickat **Ångra**, om du vill behålla ändringarna och duplicera uppgifterna.
 
       1. Klicka **Spara** för att spara ändringarna.
+
    1. Redigera uppgifter i en lista
