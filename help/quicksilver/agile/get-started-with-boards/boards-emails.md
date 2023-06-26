@@ -6,9 +6,9 @@ title: E-postmeddelanden och inställningar för anslagstavlor
 description: Adobe Workfront Boards skickar ett e-postmeddelande till dig när du läggs till på en anslagstavla och när du tilldelas ett kort.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >E-postmeddelanden är bara tillgängliga genom att du har anmält dig till Workfront Boards så snart som möjligt.
-
-<span class="preview">Med ytterligare inställningar kan du aktivera mörkt läge för alla dina brädor och arbetsflöden.</span>
 
 ## Åtkomstkrav
 

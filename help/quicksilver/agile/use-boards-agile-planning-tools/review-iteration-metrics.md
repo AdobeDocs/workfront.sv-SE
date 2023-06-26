@@ -7,9 +7,9 @@ description: Mätvärden finns tillgängliga för varje upprepning i ett arbetsf
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Välj [!UICONTROL Iteration Process] bräda.
 1. Se mätområdet ovanför brädet uppe till höger. Klicka på upp- och nedpilarna för att flytta mellan iterationer.
 
-   Följande mått visas: det totala antalet poäng som tilldelats iterationen, de återstående punkterna som ännu inte har slutförts i iteration, antalet punkter som har slutförts i iteration.
+   Följande mått visas: det totala antalet poäng som tilldelats iterationen, återstående punkter som ännu inte slutförts i iteration och antalet punkter som slutförts i iteration.
 
 1. (Valfritt) Klicka på [!UICONTROL **Iterationsinformation**] icon ![Iterationsinformation](assets/iteration-details-button.png) för att öppna informationsdialogrutan för den valda iterationen.
 
