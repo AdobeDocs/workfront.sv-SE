@@ -4,9 +4,9 @@ description: Utforma och känna av uppdateringar under 23.3-releasetidningen
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ Förbättringarna är:
 * Det finns nu en inläsningsindikator när sidan överförs.
 * ikonen Kopiera är beständig och åtföljs av text och inaktiveras när ingen begäran har markerats.
 
-Mer information finns i [Kopiera och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Mer information finns i [Kopiera och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). Dokumentationen uppdateras när funktionerna har släppts.
 
-## Uppdaterad design när en ny förfrågan skickas
+## Uppdaterad design när en ny utgåva läggs till i ett projekt
 
 >[!NOTE]
 >
 >Planerad förhandsversion: 5 juli 2023, Planerad produktionsrelease: med version 23.3
 
-Vi har uppdaterat rutan Ny begäran som visas när en ny begäran skickas. Nu matchar gränssnittet rutan Nytt problem som visas när du lägger till ett nytt problem i ett projekt.
+Vi har uppdaterat rutan Nytt problem som visas när du skickar en ny utgåva till ett projekt. Nu matchar gränssnittet rutan Ny begäran som visas när en ny begäran skickas till en begärandekö.
 
-Mer information finns i [Skapa och skicka Adobe Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Mer information finns i [Skapa problem](../../../manage-work/issues/manage-issues/create-issues.md). Dokumentationen uppdateras när funktionerna har släppts.
 
 ## Uppdaterad faktureringslista
 

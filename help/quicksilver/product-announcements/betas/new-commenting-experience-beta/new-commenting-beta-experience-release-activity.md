@@ -6,9 +6,9 @@ description: Granska veckovisa publiceringsaktiviteter för Adobe Workfront nya 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Allmän information om den nya kommentarsfunktionen, inklusive en lista över fu
 >
 >Den nya kommentarsfunktionen som lanserades i Beta i version 23.2. Mer information om den ursprungliga versionen finns i [23.2 Versionsöversikt](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Kommentarsfunktioner som släpps till betafunktionen för Workfront-objekt finns också i uppdateringsavsnittet för ett målobjekt i Workfront Goals.
+>Kommentarsfunktioner som släpps till betafunktionen för Workfront-objekt finns också i uppdateringsavsnittet för följande objekt som enda kommentarsfunktion:
+>* Mål
+>* Kort i området för nämnderna.
 
 ## Frigör tidslinje
 
