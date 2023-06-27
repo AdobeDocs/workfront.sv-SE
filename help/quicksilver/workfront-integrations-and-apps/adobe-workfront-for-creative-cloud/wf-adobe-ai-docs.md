@@ -5,13 +5,13 @@ title: Ladda upp dokument från Illustrator
 description: Du kan ladda upp ritytorna som dokument för snabb granskning och godkännande eller helt enkelt lagra dem i Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
+source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
-
 
 # Överför dokument från [!DNL Illustrator]
 
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Du måste installera [!DNL Adobe Workfront for design and video] plugin-program innan du kan överföra dokument från [!DNL Illustrator].
 
-   Instruktioner finns i [Installera [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Instruktioner finns i [Installera [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Överför dokument till [!DNL Illustrator]
 
@@ -73,3 +73,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![](assets/file-export-settings.png)
 1. Klicka på **[!UICONTROL Upload]**.
 Dokumentet visas i [!UICONTROL Documents] i plugin-programmet och datorprogrammet.
+
+>[!NOTE]
+>
+>Om dokumentet exporteras som ett textdokument kan du behöva återställa inställningarna i [!DNL Adobe Illustrator].
+>
+>1. I [!DNL Illustrator]klickar du på **[!UICONTROL Edit]** och markera **[!UICONTROL Preferences]**.
+>1. Välj **[!UICONTROL General]**.
+>1. Klicka på **[!UICONTROL Reset Preferences]**.
+>1. Stäng och starta om [!DNL Illustrator].
