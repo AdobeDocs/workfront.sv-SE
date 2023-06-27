@@ -5,10 +5,11 @@ title: Ny kommentarsfunktion
 description: En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för markerade objekt.
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -61,12 +62,12 @@ Följande funktioner har tagits bort från den nya versionen:
 >
 >Objekten nedan har endast kommentarer och systemuppdateringar från det senaste året (från juni 2022) tillgängliga när du aktiverar betafunktionen.
 >
+>Du kan visa kommentarer och systemuppdateringar för dessa objekt före juni 2022 när du visar uppdateringsavsnittet i den aktuella upplevelsen:
 >* Problem
 >* <span class="preview">Projekt</span>
 >* <span class="preview">Uppgifter</span>
 >* <span class="preview">Dokument</span>
->
->Du kan visa kommentarer och systemuppdateringar före juni 2022 när du visar uppdateringsavsnittet i den aktuella upplevelsen.
+
 
 
 Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den nya kommenteringsfunktionen samt deras tillgänglighet i områden där de stöds:
@@ -135,7 +136,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>
