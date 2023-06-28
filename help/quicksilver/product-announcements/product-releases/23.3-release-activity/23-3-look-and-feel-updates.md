@@ -4,7 +4,7 @@ description: Utforma och känna av uppdateringar under 23.3-releasetidningen
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -21,7 +21,7 @@ En lista över alla ändringar som är tillgängliga i version 23.3 finns i [23.
 
 >[!NOTE]
 >
->Planerad förhandsversion: 28 juni 2023, Planerad produktionsrelease: 13 juli 2023
+>Planerad förhandsversion: 29 juni 2023, Planerad produktionsrelease: 13 juli 2023
 
 Vi har förbättrat gränssnittet i listan över skickade begäranden.
 
@@ -36,9 +36,9 @@ Mer information finns i [Kopiera och skicka begäranden](/help/quicksilver/manag
 
 >[!NOTE]
 >
->Planerad förhandsversion: 5 juli 2023, Planerad produktionsrelease: med version 23.3
+>Planerad förhandsversion: 6 juli 2023, Planerad produktionsrelease: med version 23.3
 
-Vi har uppdaterat rutan Nytt problem som visas när du skickar en ny utgåva till ett projekt. Nu matchar gränssnittet rutan Ny begäran som visas när en ny begäran skickas till en begärandekö.
+Vi har uppdaterat rutan Nytt problem som visas när du skickar in en ny utgåva till ett projekt. Nu matchar gränssnittet rutan Ny begäran som visas när en ny begäran skickas till en begärandekö.
 
 Mer information finns i [Skapa problem](../../../manage-work/issues/manage-issues/create-issues.md). Dokumentationen uppdateras när funktionerna har släppts.
 

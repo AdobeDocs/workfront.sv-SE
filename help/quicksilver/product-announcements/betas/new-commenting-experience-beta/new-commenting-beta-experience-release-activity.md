@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -76,7 +76,9 @@ Nu kan du kopiera innehållet i en kommentar och lägga till det som en ny offer
 
 Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Dokumentationen uppdateras när den släpps.
 
-Planerad förhandsgranskning och produktionsrelease: 29 juni 2023
+Förhandsgranska: 28 juni 2023
+
+Planerad produktionsrelease: 29 juni 2023
 
 #### Nytt gränssnitt för loggningstid
 

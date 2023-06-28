@@ -5,10 +5,12 @@ title: Redigera problem
 description: Du kan redigera information om problem som du har skapat eller som andra användare har skapat om de delat problemen med dig.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
@@ -92,6 +94,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    Om du vill ha information om de fält som visas i avsnittet Ärendeinformation kan du fortsätta redigera problemet i rutan Redigera problem enligt nedan.
 
 1. Om du vill redigera all information om ett problem väljer du ett problem i en lista och klickar sedan på **Redigera** högst upp i listan
@@ -119,6 +122,8 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    >[!NOTE]
    >
    >Beroende på hur din Workfront-administratör konfigurerar vår layoutmall kan fälten i rutan Redigera problem vara annorlunda i din miljö. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >
+   >De flesta fält som listas i avsnitten nedan är också tillgängliga i rutan Nytt problem när du skapar ett problem. De avsnitt som fälten finns under matchar inte rutan Nytt problem. Mer information om hur du skapar problem finns i [Skapa problem](../../issues/manage-issues/create-issues.md).
 
 ### Ärendenamn {#issue-name}
 
@@ -282,7 +287,6 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    >
    >* Tilldela om arbetsuppgiften till aktiva resurser.
    >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-
 
 1. (Valfritt) Ange om en uppdragstagare är den primära uppdragstagaren i frågan genom att hålla markören över namnet på uppdragstagaren och klicka **Gör primär**. Ett team kan inte vara den primära tilldelaren för ett problem.
 1. Uppdatera följande fält:

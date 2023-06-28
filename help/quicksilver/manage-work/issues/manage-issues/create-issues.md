@@ -5,8 +5,10 @@ title: Skapa problem
 description: När du arbetar med ett projekt kanske du upptäcker att oväntade händelser inträffar. Du kan logga oväntade händelser som problem för ett visst projekt eller en uppgift. Användare med lämplig åtkomst kan visa och övervaka status för problem allt eftersom projektet eller aktiviteten fortskrider till slutförandet, vilket eliminerar behovet av långa e-postkedjor eller statusmöten. Till skillnad från planerade aktiviteter representerar ärenden oplanerade arbetsuppgifter i Adobe Workfront.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -14,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Skapa problem
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 När du arbetar med ett projekt kanske du upptäcker att oväntade händelser inträffar. Du kan logga oväntade händelser som problem för ett visst projekt eller en uppgift. Användare med lämplig åtkomst kan visa och övervaka status för problem allt eftersom projektet eller aktiviteten fortskrider till slutförandet, vilket eliminerar behovet av långa e-postkedjor eller statusmöten. Till skillnad från planerade aktiviteter representerar ärenden oplanerade arbetsuppgifter i Adobe Workfront.
 
@@ -53,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
+(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
 -->
 
 ## Begränsningar för att skapa problem
@@ -92,6 +96,8 @@ Så här skapar du ett problem för en aktivitet eller ett projekt:
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
+   <!--update the screen shot above for preview and highlight in yellow-->
+
    * Om det bara finns ett köämne i projektet visas det automatiskt.
    * Om ämnesgruppen inte har några köämnen eller ämnesgrupper under sig är ingenting tillgängligt i listrutan Ämnesgrupp.
 
@@ -101,7 +107,7 @@ Så här skapar du ett problem för en aktivitet eller ett projekt:
    * Ändra ordning
    * Problem
    * Begäran\
-      Beroende på hur din Workfront-administratör har konfigurerat dina projektinställningar kan det finnas olika namn på problemtyperna.
+     Beroende på hur din Workfront-administratör har konfigurerat dina projektinställningar kan det finnas olika namn på problemtyperna.
 
 1. Ange något av fälten som finns i **Nytt problem** formulär. Mer information om hur du definierar fält när du anger ett nytt problem finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
 1. (Villkorligt) Om köämnen är kopplade till ett anpassat formulär visas det anpassade formuläret i dialogrutan **Nytt problem** formulär.\
@@ -119,6 +125,7 @@ Problem kan tilldelas flera användare, jobbroller eller ett team. Mer informati
 >[!IMPORTANT]
 >
 >Projektägaren måste aktivera **Tillåt användare att lägga till interna utgåvor** när du definierar utgivningsinställningar för projektet innan du kan lägga till utleveranser i projektet eller aktiviteterna. Mer information om hur du konfigurerar probleminställningar för ett projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+>
 
 När du snabbt vill lägga till flera problem kan du skapa problem för en uppgift eller ett projekt genom att lägga till dem i en lista med problem.
 
@@ -150,7 +157,6 @@ Så här skapar du interna utgåvor:
    >* Fält som tillhör ett annat objekt
    >* Fält som du inte har behörighet att redigera
    >* Fält som är beräkningar och som uppdateras automatiskt av Workfront
-
 
 1. Klicka på Retur för att slutföra den infogade redigeringen och lägga till problemet i projektet eller uppgiften.
 
