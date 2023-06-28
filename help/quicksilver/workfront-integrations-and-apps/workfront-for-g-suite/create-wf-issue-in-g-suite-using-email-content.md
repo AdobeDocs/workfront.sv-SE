@@ -7,9 +7,9 @@ description: Du kan konvertera ett externt e-postmeddelande (som inte genererats
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
+>Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
 
 Du kan konvertera ett externt e-postmeddelande (som inte genererats av [!DNL Adobe Workfront]) till [!DNL Workfront] problem.
 
@@ -113,6 +113,6 @@ Innan du kan skapa ett problem från [!DNL G Suite]måste du
 
    * Svara på en uppdatering på **[!UICONTROL Updates]** flik, klicka **[!UICONTROL Reply]** och skriv in ditt svar.
 
-      För båda ovanstående åtgärder kan du meddela vissa användare om din kommentar. Klicka **[!UICONTROL Notify]** börjar du skriva namnet på en användare och klickar sedan på namnet när det visas i listrutan. Upprepa den här processen för andra användare som du vill meddela och klicka sedan på **[!UICONTROL Post]**.
+     För båda ovanstående åtgärder kan du meddela vissa användare om din kommentar. Klicka **[!UICONTROL Notify]** börjar du skriva namnet på en användare och klickar sedan på namnet när det visas i listrutan. Upprepa den här processen för andra användare som du vill meddela och klicka sedan på **[!UICONTROL Post]**.
 
    * Klicka på **[!UICONTROL Documents]** om du vill visa dokument som har sparats med problemet.

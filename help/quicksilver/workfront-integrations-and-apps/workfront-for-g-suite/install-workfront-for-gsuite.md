@@ -7,9 +7,9 @@ description: Du kan installera [!DNL Adobe Workfront] för G Suite-tillägg frå
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
+>Den senaste versionen av [!DNL Adobe Workfront] plugin för [!DNL Google] släpptes den 26 juni 2023.
 
 Du kan installera [!DNL Adobe Workfront for G Suite] tillägg från [!DNL G Suite] Marketplace.
 
@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Installera [!DNL Workfront for G Suite]
 
-1. Klicka på följande länk: [[!DNL Workfront for G Suite]](https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461)
+1. Klicka på följande länk: [[!DNL Workfront for G Suite]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
    eller
 

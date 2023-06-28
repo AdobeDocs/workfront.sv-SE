@@ -7,9 +7,9 @@ description: När du får ett meddelande om en uppdatering i [!DNL Adobe] [!DNL 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
+>Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
 
 När du får ett meddelande om en uppdatering i [!DNL Adobe Workfront]kan du snabbt skicka svar från [!DNL Workfront for G Suite].
 

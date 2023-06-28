@@ -7,9 +7,9 @@ description: Du kan visa och hantera information om en arbetsuppgift utan att l�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
+>Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
 
 Du kan visa och hantera information om en arbetsuppgift utan att lämna den [!DNL G Suite]. Du kan till exempel läsa en uppgifts beskrivning, visa dess överordnade objekt, ändra dess status och markera den som fullständig, allt i [!DNL Adobe Workfront for G Suite].
 
@@ -62,18 +62,18 @@ Innan du kan visa och hantera information om arbetsobjekt i [!DNL G Suite]måste
 
    * Visa objektets **[!UICONTROL Description]** och annan information, t.ex. vilka användare som tilldelats objektet, **[!UICONTROL Priority]**, beställaren, **[!UICONTROL Planned completion date]** och anpassade fält och formulär som är kopplade till objektet.
 
-      Anpassade formulär visar bara fält där information har lagts till.
+     Anpassade formulär visar bara fält där information har lagts till.
 
    * Klicka på **[!UICONTROL Parent project]** för att visa information om det överordnade objektet.
 
-      >[!TIP]
-      >
-      >Detta kan vara praktiskt när du har uppgifter och problem med samma namn och behöver skilja ut dem.
+     >[!TIP]
+     >
+     >Detta kan vara praktiskt när du har uppgifter och problem med samma namn och behöver skilja ut dem.
 
    * Acceptera arbete som tilldelats dig genom att klicka **[!UICONTROL Work on it]**.
    * Redigera olika alternativ, till exempel **[!UICONTROL Done]** alternativ, **[!UICONTROL Status]** och **[!UICONTROL Percent complete]**.
 
-      Under **[!UICONTROL Percent complete]**, skriv siffror och (valfritt) procenttecknet % för att ange förloppet för ett objekt.
+     Under **[!UICONTROL Percent complete]**, skriv siffror och (valfritt) procenttecknet % för att ange förloppet för ett objekt.
    * Visa information om en godkännandebegäran, inklusive ägare, storlek och eventuella bilagor.
    * **[!UICONTROL Approve]** eller **[!UICONTROL Reject]** godkännandeförfrågningar och dokument.
 

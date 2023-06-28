@@ -7,9 +7,9 @@ description: Du kan uppdatera ett befintligt projekt, en uppgift eller ett probl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
+>Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
 
 Du kan uppdatera ett befintligt projekt, en befintlig uppgift eller ett befintligt problem med information från en icke-[!DNL Adobe Workfront] e-post.
 
@@ -99,6 +99,6 @@ Innan du kan uppdatera en [!DNL Workfront] objekt med e-postinnehåll från [!DN
 
    * Svara på en uppdatering på **[!UICONTROL Updates]** flik, klicka **[!UICONTROL Reply]** och skriv in ditt svar.
 
-      För båda alternativen ovan kan du klicka **[!UICONTROL Notify]** för att ange mottagare för svaret som i steg 5. När du är klar klickar du på **[!UICONTROL Post]** för att lägga till uppdateringen eller svaret.
+     För båda alternativen ovan kan du klicka **[!UICONTROL Notify]** för att ange mottagare för svaret som i steg 5. När du är klar klickar du på **[!UICONTROL Post]** för att lägga till uppdateringen eller svaret.
 
    * Klicka på **[!UICONTROL Details]** för att visa information om det nya projektet, uppgiften eller utgåvan.

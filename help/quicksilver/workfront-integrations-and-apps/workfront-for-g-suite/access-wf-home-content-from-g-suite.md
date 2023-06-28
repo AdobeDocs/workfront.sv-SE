@@ -7,9 +7,9 @@ description: Du kan komma åt [!DNL Adobe Workfront] Hemmabruk med uppgifter, ä
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Det finns en [känt problem](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) med den aktuella versionen av [!DNL Workfront for G Suite] fungerar inte som förväntat. Vi arbetar med en ny version och förväntar oss att den ska släppas på [!DNL Google Marketplace] inom den närmaste framtiden.
+>Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
 
 Du kan komma åt [!DNL Adobe Workfront] [!UICONTROL Home] innehåll, inklusive alla uppgifter, ärenden, godkännanden och åtkomstbegäranden som tilldelats dig, utan att lämna G Suite.
 
