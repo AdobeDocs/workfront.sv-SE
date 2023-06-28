@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Kom igång med nya startsidor i Adobe Workfront
 description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Du kan snabbt filtrera all information på hemsidan för att visa objektinformat
 
 För användare som föredrar den befintliga hemupplevelsen kan Nytt hem inaktiveras.
 
+
 **Så här återgår du till den aktuella hemupplevelsen:**
 
 1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Ikon för huvudmeny](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
@@ -97,3 +98,7 @@ För användare som föredrar den befintliga hemupplevelsen kan Nytt hem inaktiv
    ![Gå tillbaka till aktuell hemknapp](../new-home/assets/go-back-to-current-home-button.png)
 
 1. I bekräftelsefönstret som visas kan du välja att göra en kort enkät om din upplevelse av Nytt hem eller klicka på **Gå tillbaka till aktuell startsida** för att slutföra ditt beslut och återgå till den aktuella hemupplevelsen.
+
+>[!NOTE]
+>
+> Systemadministratörer kan inaktivera Nytt hem som standard för sina användare. Mer information om hur du ändrar standardupplevelsen för hemmet för användare i ett system finns i [Konfigurera systeminställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).

@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
 
-# Konfigurera säkerhetsinställningar för system
+# Konfigurera systeminställningar
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -23,14 +23,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-Som Adobe Workfront-administratör kan du konfigurera säkerhetsinställningar för ditt Workfront-system:
+Som Adobe Workfront-administratör kan du konfigurera inställningar för ditt Workfront-system:
 
 * Tillgång till Workfront från mobilappar och andra integrerade program
 * Regler för inbäddning av Workfront i en iframe
 
 De ändringar du gör i systeminställningarna påverkar alla användare i systemet och deras upplevelse i Workfront.
 
-Vi rekommenderar att du konfigurerar säkerhetsinställningarna för ditt system under Workfront-implementeringen och sedan endast tillfälligt går igenom dem.
+Vi rekommenderar att du konfigurerar dina systeminställningar under Workfront-implementeringen och endast tillfälligt kan gå igenom dem efter det.
 
 ## Åtkomstkrav
 
@@ -55,13 +55,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-## Konfigurera säkerhetsinställningarna för ditt system
+## Konfigurera systeminställningarna
 
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **System** > **Inställningar**.
 
-1. I **Säkerhet** markerar du något av följande fält för att ange säkerhetsinställningarna för din organisation:
+1. Välj något av följande fält för att ange inställningar för din organisation:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,6 +104,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <tr> 
       <td role="rowheader">Logga ut användare automatiskt efter </td> 
       <td>Här kan du ange när en användare är utloggad från Workfront-programmet, efter en tids inaktivitet. Som standard loggas användare ut efter 7 dagars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Användare i systemet ser som standard den nya hemupplevelsen </td> 
+      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. I båda fallen kan användarna välja att aktivera eller inaktivera Nytt hem på individnivå. Det här alternativet är aktiverat som standard.</td> 
      </tr> 
     </tbody> 
    </table>

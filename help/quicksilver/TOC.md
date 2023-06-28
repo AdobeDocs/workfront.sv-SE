@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 42abf0163e5ad25923a913d315bdd0f4b95418be
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '13093'
+source-wordcount: '13094'
 ht-degree: 0%
 
 ---
@@ -619,7 +619,7 @@ ht-degree: 0%
          * [Skicka inbjudningar till nya användare via e-post](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
       * Säkerhet {#security}
          * [Säkerhet](administration-and-setup/manage-workfront/security/security.md)
-         * [Skyddsinställningar](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+         * [Konfigurera systeminställningar](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [Lösenord för autentisering](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
          * [Ta bort alternativ för enkel inloggning](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [Förnya SAML 2.0-metadatacertifikatet](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
