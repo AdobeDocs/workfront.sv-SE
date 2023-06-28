@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,19 @@ Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljö
 Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig för webbinariet här](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Funktioner utanför cykeln (de som lanserades till Production före 23.3-releasedatum) markeras med gult.</span>
+
+>[!IMPORTANT]
+>
+>23.3-utgåvan innehåller ett alternativ för att flytta organisationen till månadsutgåvor. Därför ändrar Workfront numreringsschemat för releaser så att det tar hänsyn till både månads- och kvartalsvisa versionsspår.
+>
+>* Om du är på **snabb release (månadsvis)** kommer releasen efter 23.3 att **23.8**, i augusti 2023.
+> * Om du är på **kvartalsvis** releasespår kommer releasen efter 23.3 att **23.10**, i oktober 2023.
+> 
+> Kvartalsvisa releaser kommer att innehålla funktionalitet från tre månadsversioner. Den 23.10 kvartalsversionen kommer till exempel att innehålla funktioner som släpptes i månadsversionerna 23.8, 23.9 och 23.10.
+>|Månadsutgåva|Kvartalsutgåva|
+>|—|—|
+>|<ul><li>23.8 (augusti 2023)</li><li>23.9 (september 2023)</li><li>23.10 (oktober 2023)</li></ul>| <ul><li>23.10 (oktober 2023)</li></ul>|
+>|<ul><li>23.11 (november 2023)</li><li>23.12 (december 2023)</li><li>24.1 (januari 2024)</li></ul>| <ul><li>24.1 (januari 2024)</li></ul>|
 
 ## Adobe Workfront-förbättringar
 
@@ -353,6 +366,22 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Nu finns det ny integrering med G Suite</a></p> 
+                        <p>Nu finns en ny integrering med G Suite på Google Marketplace. Den nya integreringen autentiseras med OAuth2 och ersätter den tidigare integreringen.</p><p>Den tidigare G Suite-integreringen är nu föråldrad och avinstalleras automatiskt.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Ej tillämpligt</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: 27 juni 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud-integreringar har nu stöd för flera tilldelade användare</a></p> 
