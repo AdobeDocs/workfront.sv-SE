@@ -6,16 +6,16 @@ description: Läs mer om de områden i Adobe Workfront där du kan hitta förfr�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
 
 # Sök efter skickade begäranden
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
 
 Du kan hitta följande typer av förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har börjat skicka men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
@@ -62,7 +62,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Så här söker du efter begäranden som du eller andra användare har skickat:
 
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
-1. Klicka **Skickat** i den vänstra panelen för att visa alla skickade begäranden.
+1. Klicka **Skickat** i den vänstra panelen för att visa alla skickade begäranden.
 
    Du kan visa upp till 2 000 förfrågningar och de kan visas på flera sidor.
 
@@ -70,44 +70,43 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
    >
    >Du kan inte anpassa kolumnerna i listan Skickade begäranden.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. Följande kolumner visas som standard:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Namn</td> 
-      <td> <p>Namnet på begäran.</p> <p>Klicka på namnet på en begäran för att öppna den. </p> <p><b>TIPS</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Namn</td> 
+         <td> <p>Namnet på begäran.</p> <p>Klicka på namnet på en begäran för att öppna den. </p> <p><b>TIPS</b>
 
    Om problemet inte kunde bevaras när det konverterades till en aktivitet eller ett projekt är namnet på problemet nedtonat och kan inte längre klickas. Mer information om hur du konverterar problem finns i <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Översikt över konverteringsproblem i Adobe Workfront</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">Konverterad till</td> 
-      <td> <p>Namnet på det matchande objektet som kan vara en uppgift eller ett projekt som begäran konverterades till. </p> <p>Klicka på namnet på uppgiften eller projektet för att öppna dem. </p> <p>Om begäran inte konverterades är det här fältet tomt. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Bana</td> 
-      <td>Namnet på begärandekön, ämnesgrupper och köämnen där begäran ursprungligen skickades. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Status</td> 
-      <td>Aktuell status för begäran eller det objekt som löser problemet (uppgift eller projekt)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Anmälningsdatum</td> 
-      <td>Datumet då begäran skickades eller datumet då det matchande objektet skapades om begäran togs bort när den konverterades. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Senaste uppdateringsdatum</td> 
-      <td> <p>Datumet då begäran uppdaterades senast.</p> <p>Listan Skickade begäranden sorteras som standard efter det här fältet. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">Konverterad till</td> 
+         <td> <p>Namnet på det matchande objektet som kan vara en uppgift eller ett projekt som begäran konverterades till. </p> <p>Klicka på namnet på uppgiften eller projektet för att öppna dem. </p> <p>Om begäran inte konverterades är det här fältet tomt. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Bana</td> 
+         <td>Namnet på begärandekön, ämnesgrupper och köämnen där begäran ursprungligen skickades. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Status</td> 
+         <td>Aktuell status för begäran eller det objekt som löser problemet (uppgift eller projekt)</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Anmälningsdatum</td> 
+         <td>Datumet då begäran skickades eller datumet då det matchande objektet skapades om begäran togs bort när den konverterades. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Senaste uppdateringsdatum</td> 
+         <td> <p>Datumet då begäran uppdaterades senast.</p> <p>Listan Skickade begäranden sorteras som standard efter det här fältet. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Valfritt) Klicka på rubriken för en kolumn för att sortera efter den.
 
