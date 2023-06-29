@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera företag
+
+{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -66,9 +68,9 @@ Du måste ha följande för att kunna hantera företag i [!DNL Workfront]:
 
    * Användare från samma företag kan se varandras förfrågningar.
 
-      Mer information om hur [!DNL Workfront] kan administratören ge liknande åtkomst till förfrågningar som baseras på användarens företag, se avsnittet [Konfigurera inställningar för uppgifter och ärenden för alla i [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) i artikeln [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     Mer information om hur [!DNL Workfront] kan administratören ge liknande åtkomst till förfrågningar som baseras på användarens företag, se avsnittet [Konfigurera inställningar för uppgifter och ärenden för alla i [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) i artikeln [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-      Mer information om hur en gruppadministratör kan ge liknande åtkomst till begäranden baserade på användarföretag finns i [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     Mer information om hur en gruppadministratör kan ge liknande åtkomst till begäranden baserade på användarföretag finns i [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
    * Användare kan bara se begärandeköer som är kopplade till deras företag. Mer information om hur du begränsar synligheten för en frågekö finns i [Ge åtkomst till begärandeköer](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
    * Du kan begränsa användare så att de bara kan se användare i sitt företag eller i sitt företag och i det primära företaget. Mer information om det primära företagets funktioner för användarintegritet finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -110,7 +112,7 @@ Så här lägger du till eller redigerar ett företag:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Billing Rates] section</td> 
-      <td> <p>Du kan åsidosätta faktureringstariffer som är kopplade till dina jobbroller på företagsnivå. Mer information om hur du skapar jobbroller och associerar dem med faktureringstariffer finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Mer information om att åsidosätta faktureringssatser på företagsnivå finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Åsidosätt faktureringssatser för jobbroller på företagsnivå</a>.</p> </td> 
+      <td> <p><span class="preview">Det här avsnittet har tagits bort i förhandsvisningsmiljön.</span></p><p>Du kan åsidosätta faktureringstariffer som är kopplade till dina jobbroller på företagsnivå. Mer information om hur du skapar jobbroller och associerar dem med faktureringstariffer finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Mer information om att åsidosätta faktureringssatser på företagsnivå finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Åsidosätt faktureringssatser för jobbroller på företagsnivå</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] section</td> 
@@ -128,6 +130,10 @@ Så här lägger du till eller redigerar ett företag:
 ## Hantera företagsmedlemskap
 
 Mer information om hur du hanterar medlemskap för ett befintligt företag finns i [Hantera företagsmedlemskap](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+
+## Hantera faktureringstariffer
+
+Mer information om att åsidosätta faktureringssatser på företagsnivå finns i [Åsidosätt faktureringssatser för jobbroller på företagsnivå](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 ## Om att dela objekt med företag
 

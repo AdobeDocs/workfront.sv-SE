@@ -10,14 +10,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
 
 # Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer
+
+{{highlighted-preview}}
 
 I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
 
@@ -304,6 +306,7 @@ Endast användare med en Standard-licens har fullständig åtkomst till ekonomis
 | Hantera faktureringsposter | ✓ |   |   |   |
 | Hantera utgifter | ✓ |   |   |   |
 | Visa ekonomiska data | ✓&#42; | ✓&#42; |   |   |
+| <span class="preview">Hantera tariffkort</span> | ✓ |   |   |   |
 | Visa information efter kostnad i Resursplaneringsverktygen | ✓ |   |   |   |
 | Budgetresurser i verktygen för resursplanering&#42;&#42; | ✓ |   |   |   |
 | Visa resursallokering i verktygen för resursplanering&#42; | ✓ | ✓ |   |   |

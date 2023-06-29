@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-utilization
 title: Visa information om resursutnyttjande
 description: Du kan visa användningen av dina resurser med hjälp av användningsrapporten.
-author: Alina
+author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
 workflow-type: tm+mt
-source-wordcount: '7758'
+source-wordcount: '7854'
 ht-degree: 0%
 
 ---
 
 # Visa information om resursutnyttjande
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)</p>
@@ -268,7 +270,7 @@ Följande information finns i användningsrapporten när du spårar kostnad:
   </tr> 
   <tr> 
    <td scope="col"><strong>Planerad kostnad</strong> </td> 
-   <td scope="col"> <p>Den totala planerade kostnaden för de inkluderade projekten. Du kan visa den totala planerade kostnaden för den totala livscykeln för de inkluderade projekten, eller så kan du bara visa den totala planerade kostnaden för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Information om hur den planerade kostnaden för projektet beräknas finns i avsnittet"Hur Workfront beräknar planerade, budgeterade och faktiska kostnader" i artikeln <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
+   <td scope="col"> <p>Den totala planerade kostnaden för de inkluderade projekten. Du kan visa den totala planerade kostnaden för den totala livscykeln för de inkluderade projekten, eller så kan du bara visa den totala planerade kostnaden för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p><span class="preview">Observera att för vyerna vecka, månad och kvartal beräknas de planerade kostnaderna som ett genomsnitt av den valda perioden när kostnadstarifferna för jobbroller eller användare är gällande.</span></p><p>Information om hur den planerade kostnaden för projektet beräknas finns i avsnittet"Hur Workfront beräknar planerade, budgeterade och faktiska kostnader" i artikeln <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Faktisk kostnad</strong> </td> 
@@ -323,22 +325,22 @@ Mer information om fälten och hur Workfront beräknar dem finns i följande art
 
 Till skillnad från inom andra områden av Workfront beräknar användningsrapporten Planerad intäkt för uppgifter med fast intäkt genom att dividera Fast intäkt jämnt med antalet planerade timmar för uppgiften. </p> <p>En aktivitet har till exempel en intäkt på $200. Om aktiviteten har 4 planerade timmar blir varje timme 50 dollar. Detta distribueras på användar- och rollnivå. Distributionen är unik för användningsrapporten.</p> <p><b>ANMÄRKNING</b>
 
-Om du har en aktivitet med fast intäkt och det inte finns några planerade timmar för uppgiften, visas inte Intäkter i användningsrapporten eftersom det inte går att distribuera den till timmarna. Om du har planerat timmar för uppgifter med fast intäkt och inga tilldelningar visas Intäkter som Ej allokerad intäkt. </p> <p><strong>Roll varje timme:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsränta som har angetts för en viss roll, multiplicerat med antalet planerade timmar som är associerat med den rollen. Workfront använder följande formel:</p> <p>Planerad intäkt per timme för roll = SUM(Planerade timmar från roll för alla aktiviteter) * Faktureringshastighet för roll</code></p> <p><strong>Användartimme:</strong> Inkomsterna för aktiviteten beräknas med hjälp av den angivna faktureringssatsen för en viss användare, multiplicerat med antalet planerade timmar som är associerat med den användaren. Workfront använder följande formel:</p> <p>Planerad intäkt per timme för användare = SUM(Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare</code> </p> <p><b>Roll timvis eller Användartimme plus fast</b> </p> <p><b>VIKTIGT</b>
+Om du har en aktivitet med fast intäkt och det inte finns några planerade timmar för uppgiften, visas inte Intäkter i användningsrapporten eftersom det inte går att distribuera den till timmarna. Om du har planerat timmar för uppgifter med fast intäkt och inga tilldelningar visas Intäkter som Ej allokerad intäkt. </p> <p><strong>Roll varje timme:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsränta som har angetts för en viss roll, multiplicerat med antalet planerade timmar som är associerat med den rollen. Workfront använder följande formel:</p> <p><code>Planerad intäkt per timme för roll = SUM(Planerade timmar från roll för alla aktiviteter) * Faktureringshastighet för roll</code></p><p><span class="preview"><b>OBS!</b> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumändringar i räntesatsen.</span></p>   <p><strong>Användartimme:</strong> Inkomsterna för aktiviteten beräknas med hjälp av den angivna faktureringssatsen för en viss användare, multiplicerat med antalet planerade timmar som är associerat med den användaren. Workfront använder följande formel:</p> <p><code>Planerad intäkt per timme för användare = SUM(Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare</code> </p> <p><span class="preview"><b>OBS!</b> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumändringar i räntesatsen.</span></p> <p><b>Roll timvis eller Användartimme plus fast</b> </p> <p><b>VIKTIGT</b>
 
 Till skillnad från andra områden i Workfront beräknar användningsrapporten den planerade intäkten genom att dividera den fasta intäkten jämnt med antalet planerade timmar för uppgiften. </p> <p>Följande fall finns: </p>
 <ul>
-<li> <p><strong>Roll timvis plus fast:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsränta som har angetts för en viss roll, multiplicerat med antalet planerade timmar som är associerat med rollen. Dessutom läggs ett fast belopp som anges för aktiviteten till i rollfrekvensen. Workfront använder följande formel:</p> <p>Roll timvis plus fast planerad intäkt = [SUM (Planerade timmar från roll för alla uppgifter) * Rollfaktureringshastighet] + SUM(aktivitetens tak eller fasta belopp/uppgiftens planerade timmar)</code> </p> </li>
+<li> <p><strong>Roll timvis plus fast:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsränta som har angetts för en viss roll, multiplicerat med antalet planerade timmar som är associerat med rollen. Dessutom läggs ett fast belopp som anges för aktiviteten till i rollfrekvensen. Workfront använder följande formel:</p> <p><code>Roll timvis plus fast planerad intäkt = [SUM (Planerade timmar från roll för alla uppgifter) * Rollfaktureringshastighet] + SUM(aktivitetens tak eller fasta belopp/uppgiftens planerade timmar)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>Användarens timlön plus fast:</strong> Faktureringssatsen som har angetts för en viss användare, multiplicerat med antalet planerade timmar för aktiviteten från den användaren. Dessutom läggs ett fast belopp som anges för aktiviteten till i användarfrekvensen. Workfront använder följande formel:</p> <p>Planerad intäkt per timme för användare plus fast planerad intäkt = [SUM (Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare] + SUM(aktivitetens tak eller fasta belopp/uppgiftens planerade timmar)</code> </p> </li>
+<li> <p><strong>Användarens timlön plus fast:</strong> Faktureringssatsen som har angetts för en viss användare, multiplicerat med antalet planerade timmar för aktiviteten från den användaren. Dessutom läggs ett fast belopp som anges för aktiviteten till i användarfrekvensen. Workfront använder följande formel:</p> <p><code>Planerad intäkt per timme för användare plus fast planerad intäkt = [SUM (Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare] + SUM(aktivitetens tak eller fasta belopp/uppgiftens planerade timmar)</code> </p> </li>
 </ul> <p><b>Roll eller användarens timma med ände</b> </p> <p><b>VIKTIGT</b>
 
 Till skillnad från i andra områden i Workfront, om den planerade inkomsten överskrider taket, anses beloppet över det högsta beloppet som en fast intäkt. Planerad intäkt beräknas genom att den fasta intäkten delas jämnt med antalet planerade timmar för uppgiften och sedan läggs till i beloppet för Socket och rollen eller användarens timintäkt. <br></p> <p>Följande fall finns: </p>
 <ul>
-<li> <p><strong>Roll timvis med ändpunkt:</strong> Aktiviteter faktureras varje timme som i Roll-timmen, men de har ett maxbelopp som du kan ange. Workfront använder följande formel:</p> <p>Roll timvis med planerad kostnad = [SUM (Planerade timmar från roll för alla uppgifter och ärenden) * Roll Faktureringshastighet] + ändpunkt Uppgiftens belopp + SUM(Belopp över uppgifternas startbelopp / Planerade timmar)</code> </p> </li>
+<li> <p><strong>Roll timvis med ändpunkt:</strong> Aktiviteter faktureras varje timme som i Roll-timmen, men de har ett maxbelopp som du kan ange. Workfront använder följande formel:</p> <p><code>Roll timvis med planerad kostnad = [SUM (Planerade timmar från roll för alla uppgifter och ärenden) * Roll Faktureringshastighet] + ändpunkt Uppgiftens belopp + SUM(Belopp över uppgifternas startbelopp / Planerade timmar)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>Användarens timma med versaler:</strong> Aktiviteter faktureras varje timme som användaren anger, men de har ett maxbelopp som du kan ange. Workfront använder följande formel: </p> <p>Användaren per timme med Planerad intäkt för kap. = [SUM (Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare] + ändpunkt Uppgiftens belopp + SUM(Belopp över uppgifternas startbelopp / Planerade timmar)</code> </p> </li>
+<li> <p><strong>Användarens timma med versaler:</strong> Aktiviteter faktureras varje timme som användaren anger, men de har ett maxbelopp som du kan ange. Workfront använder följande formel: </p> <p><code>Användaren per timme med Planerad intäkt för kap. = [SUM (Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare] + ändpunkt Uppgiftens belopp + SUM(Belopp över uppgifternas startbelopp / Planerade timmar)</code> </p> </li>
 </ul> <p>Mer information om vilken roll eller användare som ska beaktas vid beräkning av planerad intäkt finns i <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkt</a>.</p> </td>
 </tr> 
   <tr> 
@@ -349,22 +351,22 @@ Till skillnad från i andra områden i Workfront, om den planerade inkomsten öv
 
 Till skillnad från i andra områden i Workfront beräknar användningsrapporten Faktisk intäkt genom att dividera Fast intäkt jämnt med antalet timmar som loggats för uppgiften. </p> <p> </p> <p>En aktivitet har till exempel en faktisk intäkt på $200. Om aktiviteten har fyra faktiska timmar blir varje timme 50 USD. Detta distribueras på användar- och rollnivå. Distributionen är unik för användningsrapporten.</p> <p><b>ANMÄRKNING</b>
 
-Om du har en aktivitet med fast intäkt och det inte finns några faktiska timmar för uppgiften, visas inte den faktiska intäkten i användningsrapporten eftersom det inte finns något sätt att fördela timmar. </p> <p><strong>Roll varje timme:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsränta som har angetts för en viss roll, multiplicerat med antalet planerade timmar.</p> <p>Workfront använder följande formel:</p> <p>Verklig intäkt per timme för roll = SUM (faktiska timmar från roll för alla aktiviteter) * Faktureringshastighet för roll</code> </p> <p><strong>Användartimme:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsfrekvens som har angetts för en viss användare, multiplicerat med antalet timmar som loggats mot uppgiften från den användaren. Workfront använder följande formel:</p> <p>Faktisk intäkt per timme för användare = SUM(faktisk tid från användare för alla uppgifter) * Faktureringshastighet för användare</code></p> <p><b>Roll eller användarens timlön plus fast</b> </p> <p><b>VIKTIGT</b>
+Om du har en aktivitet med fast intäkt och det inte finns några faktiska timmar för uppgiften, visas inte den faktiska intäkten i användningsrapporten eftersom det inte finns något sätt att fördela timmar. </p> <p><strong>Roll varje timme:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsränta som har angetts för en viss roll, multiplicerat med antalet faktiska timmar.</p> <p>Workfront använder följande formel:</p> <p><code>Verklig intäkt per timme för roll = SUM (faktiska timmar från roll för alla aktiviteter) * Faktureringshastighet för roll</code> </p> <p><span class="preview"><b>OBS!</b> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumändringar i räntesatsen.</span></p> <p><strong>Användartimme:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsfrekvens som har angetts för en viss användare, multiplicerat med antalet timmar som loggats mot uppgiften från den användaren. Workfront använder följande formel:</p> <p><code>Faktisk intäkt per timme för användare = SUM(faktisk tid från användare för alla uppgifter) * Faktureringshastighet för användare</code></p> <p><span class="preview"><b>OBS!</b> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumändringar i räntesatsen.</span></p> <p><b>Roll eller användarens timlön plus fast</b> </p> <p><b>VIKTIGT</b>
 
 Till skillnad från i andra områden i Workfront beräknar användningsrapporten Faktisk intäkt genom att dividera Fast intäkt jämnt med antalet timmar som loggats för uppgiften. </p> <p>Följande fall finns: </p>
 <ul>
-<li> <p><strong>Roll timvis plus fast:</strong> Den faktureringsfrekvens som har angetts för en viss roll, multiplicerat med antalet timmar som loggats mot uppgiften från en användare med den rollen. Dessutom läggs ett fast belopp som anges för aktiviteten till i rollfrekvensen. </p> <p>Workfront använder följande formel:</p> <p>Roll timvis plus fast faktisk intäkt = [SUM (Faktiska timmar från roll för alla uppgifter) * Rollfaktureringshastighet] + SUM(aktivitetens tak eller fasta belopp/uppgiftens faktiska timmar)</code> </p> </li>
+<li> <p><strong>Roll timvis plus fast:</strong> Den faktureringsfrekvens som har angetts för en viss roll, multiplicerat med antalet timmar som loggats mot uppgiften från en användare med den rollen. Dessutom läggs ett fast belopp som anges för aktiviteten till i rollfrekvensen. </p> <p>Workfront använder följande formel:</p> <p><code>Roll timvis plus fast faktisk intäkt = [SUM (Faktiska timmar från roll för alla uppgifter) * Rollfaktureringshastighet] + SUM(aktivitetens tak eller fasta belopp/uppgiftens faktiska timmar)</code> </p> </li>
 </ul>
 <ul>
-<li> <p><strong>Användarens timlön plus fast:</strong> Den faktureringsfrekvens som har angetts för en viss användare, multiplicerat med antalet timmar som loggats mot uppgiften från den användaren. Dessutom läggs ett fast belopp som anges för aktiviteten till i användarfrekvensen. </p> <p>Workfront använder följande formel:</p> <p>Användaren per timme plus fast faktisk intäkt = [SUM (Faktiska timmar från roll för alla uppgifter) * Faktureringshastighet för användare] + SUM(aktivitetens tak eller fasta belopp/aktivitetens användartimmar)</code> </p> </li>
+<li> <p><strong>Användarens timlön plus fast:</strong> Den faktureringsfrekvens som har angetts för en viss användare, multiplicerat med antalet timmar som loggats mot uppgiften från den användaren. Dessutom läggs ett fast belopp som anges för aktiviteten till i användarfrekvensen. </p> <p>Workfront använder följande formel:</p> <p><code>Användaren per timme plus fast faktisk intäkt = [SUM (Faktiska timmar från roll för alla uppgifter) * Faktureringshastighet för användare] + SUM(aktivitetens tak eller fasta belopp/aktivitetens användartimmar)</code> </p> </li>
 </ul> <p><b>Roll eller användarens timma med ände</b> </p> <p><b>VIKTIGT</b>
 
 Till skillnad från i andra områden i Workfront, om den planerade inkomsten överskrider taket, anses beloppet över det högsta beloppet som en fast intäkt. Planerad intäkt beräknas genom att den fasta intäkten delas jämnt med antalet planerade timmar för uppgiften och sedan läggs till i beloppet för Socket och rollen eller användarens timintäkt. <br></p> <p>Följande scenarier finns:</p>
 <ul>
-<li> <p><strong>Roll timvis med ändpunkt:</strong> Aktiviteter faktureras varje timme som i Roll-timmen, men de har ett maxbelopp som du kan ange. Workfront använder följande formel:</p> <p>Roll timvis med faktisk omsättning för kap. = [SUM (Faktiska timmar från roll för alla uppgifter och ärenden) * Roll Faktureringshastighet] + ändpunkt Uppgiftens belopp + SUM(Belopp över beloppets gräns/faktiska timmar för uppgiften)</code></p> </li>
+<li> <p><strong>Roll timvis med ändpunkt:</strong> Aktiviteter faktureras varje timme som i Roll-timmen, men de har ett maxbelopp som du kan ange. Workfront använder följande formel:</p> <p><code>Roll timvis med faktisk omsättning för kap. = [SUM (Faktiska timmar från roll för alla uppgifter och ärenden) * Roll Faktureringshastighet] + ändpunkt Uppgiftens belopp + SUM(Belopp över beloppets gräns/faktiska timmar för uppgiften)</code></p> </li>
 </ul>
 <ul>
-<li> <p><strong>Användarens timma med versaler:</strong> Aktiviteter faktureras varje timme som användaren anger, men de har ett maxbelopp som du kan ange.</p> <p> Workfront använder följande formel:</p> <p>Användarens timma med den faktiska kostnaden = [SUM (Faktiska timmar från roll för alla uppgifter och ärenden) * Faktureringshastighet för användare] + ändpunkt Uppgiftens belopp + SUM(Belopp över beloppets gräns/faktiska timmar för uppgiften)</code> </p> </li>
+<li> <p><strong>Användarens timma med versaler:</strong> Aktiviteter faktureras varje timme som användaren anger, men de har ett maxbelopp som du kan ange.</p> <p> Workfront använder följande formel:</p> <p><code>Användarens timma med den faktiska kostnaden = [SUM (Faktiska timmar från roll för alla uppgifter och ärenden) * Faktureringshastighet för användare] + ändpunkt Uppgiftens belopp + SUM(Belopp över beloppets gräns/faktiska timmar för uppgiften)</code> </p> </li>
 </ul>
 <div>
 <p><strong>Projektintäkter</strong>: Inkomsterna som är kopplade till de timmar som är inloggade i projektet beräknas med hänsyn till beloppet Fakturering per timme för den primära jobbrollen för användaren som loggar tiden. Vi rekommenderar inte att du loggar på projektet. </p>
@@ -464,27 +466,27 @@ Så här spårar du förloppet eller kostnaden för ett eller flera projekt med 
          Om du vill filtrera användningsrapporten kan du använda ett filter och sedan klicka på **Kör**.\
          Mer information om hur du filtrerar användningsrapporten finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda användare och roller (användarna grupperas i sin associerade roll).
+
    * Så här visar du användningsinformation för flera projekt:
 
       1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Resurser** sedan **Användning** i den vänstra panelen.
       1. Tillämpa ett filter på användningsrapporten och klicka sedan på **Kör**.\
          Du måste ange ett eller flera projekt i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda roller och projekt (roller grupperas i deras associerade projekt).
+
    * Så här visar du användningsinformation för ett program:
 
       1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Resurser** sedan **Användning** i den vänstra panelen och klicka på **Visa**>**Program**.
       1. Tillämpa ett filter på användningsrapporten och klicka sedan på **Kör**.\
          Du måste ange ett eller flera program i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda projekt och program (projekten grupperas inom det tillhörande programmet).
+
    * Så här visar du användningsinformation för en portfölj:
 
       1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Resurser** sedan **Användning** i den vänstra panelen och klicka på **Visa**>**Portfolio**.
       1. Tillämpa ett filter på användningsrapporten och klicka sedan på **Kör**.\
          Du måste ange en eller flera portföljer i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda projekt, program och portföljer (projekten grupperas i respektive tillhörande program och programmen grupperas i respektive associerad portfölj).
-
-
-
 
 1. Klicka på knappen **Visa** och välj sedan något av följande:
 
@@ -533,39 +535,39 @@ Så här skapar eller ändrar du ett filter:
 1. Ange följande information för att skapa eller ändra filtret:
 
    * **Portfolio:** Börja skriva namnet på portföljen som innehåller den information du vill inkludera i användningsrapporten och klicka sedan på namnet när det visas i listrutan.\
-      Upprepa den här processen om du vill inkludera information från flera portföljer i användningsrapporten.\
-      Om du vill inkludera alla portföljer från systemet i filtret klickar du på **Lägg till alla**. (Det här alternativet är endast tillgängligt om du har färre än 10 portföljer i systemet.)
+     Upprepa den här processen om du vill inkludera information från flera portföljer i användningsrapporten.\
+     Om du vill inkludera alla portföljer från systemet i filtret klickar du på **Lägg till alla**. (Det här alternativet är endast tillgängligt om du har färre än 10 portföljer i systemet.)
 
    * **Program:** Börja skriva namnet på programmet som innehåller den information du vill inkludera i användningsrapporten och klicka sedan på namnet när det visas i listrutan.\
-      Upprepa den här processen om du vill inkludera information från flera uppgifter i användningsrapporten.\
-      Om du redan har definierat några portföljer i filtret måste det program du anger finnas bland de portföljer som redan ingår i filtret. Om så inte är fallet inkluderas inte data från programmet i användningsrapporten.\
-      Om du vill inkludera alla program från systemet i filtret klickar du på **Lägg till alla**. (Det här alternativet är bara tillgängligt om du har färre än 20 program i systemet.)
+     Upprepa den här processen om du vill inkludera information från flera uppgifter i användningsrapporten.\
+     Om du redan har definierat några portföljer i filtret måste det program du anger finnas bland de portföljer som redan ingår i filtret. Om så inte är fallet inkluderas inte data från programmet i användningsrapporten.\
+     Om du vill inkludera alla program från systemet i filtret klickar du på **Lägg till alla**. (Det här alternativet är bara tillgängligt om du har färre än 20 program i systemet.)
 
    * **Projekt:** Börja skriva namnet på det projekt som innehåller den information du vill inkludera i användningsrapporten och klicka sedan på namnet när det visas i listrutan.\
-      Upprepa den här processen om du vill inkludera information från flera projekt i användningsrapporten.\
-      Om du redan har definierat några portföljer eller program i filtret måste projektet du anger finnas i någon av portföljerna eller programmen som redan ingår i filtret. Om så inte är fallet inkluderas inte data från projektet i användningsrapporten.\
-      Om du vill inkludera alla projekt från systemet i filtret klickar du på **Lägg till alla**. (Det här alternativet är bara tillgängligt om du har färre än 250 projekt i systemet.)
+     Upprepa den här processen om du vill inkludera information från flera projekt i användningsrapporten.\
+     Om du redan har definierat några portföljer eller program i filtret måste projektet du anger finnas i någon av portföljerna eller programmen som redan ingår i filtret. Om så inte är fallet inkluderas inte data från projektet i användningsrapporten.\
+     Om du vill inkludera alla projekt från systemet i filtret klickar du på **Lägg till alla**. (Det här alternativet är bara tillgängligt om du har färre än 250 projekt i systemet.)
 
    * **Uppgifter:** Börja skriva namnet på uppgiften som innehåller den information du vill inkludera i användningsrapporten och klicka sedan på namnet när den visas i listrutan.\
-      Upprepa den här processen om du vill inkludera information från flera uppgifter i användningsrapporten.\
-      Om du redan har definierat portföljer, program eller projekt i filtret måste den uppgift du anger finnas i någon av portföljerna, programmen eller projekten som redan ingår i filtret. Om så inte är fallet inkluderas inte data från uppgiften i användningsrapporten.
+     Upprepa den här processen om du vill inkludera information från flera uppgifter i användningsrapporten.\
+     Om du redan har definierat portföljer, program eller projekt i filtret måste den uppgift du anger finnas i någon av portföljerna, programmen eller projekten som redan ingår i filtret. Om så inte är fallet inkluderas inte data från uppgiften i användningsrapporten.
 
    * **Problem:** Börja skriva namnet på det problem som innehåller den information du vill inkludera i användningsrapporten och klicka sedan på namnet när det visas i listrutan.\
-      Upprepa den här processen om du vill inkludera information från flera utgåvor i användningsrapporten.\
-      Om du redan har definierat portföljer, program eller projekt i filtret måste den utgåva du anger finnas i någon av portföljerna, programmen eller projekten som redan ingår i filtret. Om så inte är fallet inkluderas inte data från problemet i användningsrapporten.\
-      Kostnadsinformation för utleveranser ingår inte alltid i användningsrapporten. Mer information om när kostnadsinformation om problem ingår i användningsrapporten finns i avsnittet [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) i den här artikeln.
+     Upprepa den här processen om du vill inkludera information från flera utgåvor i användningsrapporten.\
+     Om du redan har definierat portföljer, program eller projekt i filtret måste den utgåva du anger finnas i någon av portföljerna, programmen eller projekten som redan ingår i filtret. Om så inte är fallet inkluderas inte data från problemet i användningsrapporten.\
+     Kostnadsinformation för utleveranser ingår inte alltid i användningsrapporten. Mer information om när kostnadsinformation om problem ingår i användningsrapporten finns i avsnittet [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) i den här artikeln.
 
    * **Roller:** Börja skriva namnet på den roll du vill ska visas i användningsrapporten och klicka sedan på namnet när det visas i listrutan. Upprepa den här processen om du vill ta med ytterligare roller.\
-      Användningsrapporten innehåller endast information om de roller du anger. En uppgift innehåller till exempel 10 faktiska timmar. 6 av dessa timmar kommer från en Designer-roll och 4 är från en Developer-roll. Om du filtrerar användningsrapporten efter roll för Designer tas de fyra timmarna som kommer från utvecklarrollen inte med i rapporten.
+     Användningsrapporten innehåller endast information om de roller du anger. En uppgift innehåller till exempel 10 faktiska timmar. 6 av dessa timmar kommer från en Designer-roll och 4 är från en Developer-roll. Om du filtrerar användningsrapporten efter roll för Designer tas de fyra timmarna som kommer från utvecklarrollen inte med i rapporten.
 
    * **Lägg till filterregel:** Klicka **Lägg till filterregel** klickar du i det första fältet och börjar sedan skriva det fältnamn som du vill filtrera på. Om fältet är tillgängligt fylls det i för varje objekt där det kan kopplas. Klicka på fältets namn för att lägga till det i filtret.
 
-      >[!IMPORTANT]
-      >
-      >Du måste ange fältnamnet och inte fältetiketten. Fältetiketten visas i ett anpassat formulär som är kopplat till ett objekt. Mer information om skillnaden mellan etiketten och namnet på ett anpassat fält finns i  [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+     >[!IMPORTANT]
+     >
+     >Du måste ange fältnamnet och inte fältetiketten. Fältetiketten visas i ett anpassat formulär som är kopplat till ett objekt. Mer information om skillnaden mellan etiketten och namnet på ett anpassat fält finns i  [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-      Mer information om fälten som visas i kolumnerna finns i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
-      Välj filter och villkorsmodifierare för filtret. Tillgängliga modifierare beskrivs i [Filter- och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Mer information om fälten som visas i kolumnerna finns i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
+     Välj filter och villkorsmodifierare för filtret. Tillgängliga modifierare beskrivs i [Filter- och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. Om du vill skapa ett nytt filter klickar du på **Spara filter**.\
    eller\
@@ -675,14 +677,14 @@ Så här exporterar du användningsinformation:
 1. Välj bland följande alternativ:
 
    * **PDF:** Exporterar rapporten i PDF-format. Det här är det rekommenderade formatet om du tänker skriva ut rapporten.\
-      Välj antingen **Letter - stående**, **Letter - liggande**, eller **Andra storlekar** (innehåller alternativ för export i Legal (8,5 x 14 tum), Ledger (11 x 17 tum) och A4).\
-      Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
+     Välj antingen **Letter - stående**, **Letter - liggande**, eller **Andra storlekar** (innehåller alternativ för export i Legal (8,5 x 14 tum), Ledger (11 x 17 tum) och A4).\
+     Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
 
    * **Excel:** Exporterar rapporten i XLSX-format. Detta är det rekommenderade formatet om du tänker analysera data i Excel ytterligare.\
-      Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
+     Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
 
    * **Tabbavgränsad:** Exporterar rapporten i TSV-format. Detta är det rekommenderade formatet om du tänker importera data till tredjepartsprogram för ytterligare analys.\
-      Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
+     Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
 
 1. Läs informationen i artikeln [Exportera data](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) om du vill veta hur du använder den exporterade filen.
 

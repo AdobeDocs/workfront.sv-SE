@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
 
 # Bevilja åtkomst till finansiella uppgifter
+
+{{highlighted-preview}}
 
 Som Adobe Workfront-administratör kan du definiera en användares åtkomst till följande via användarens åtkomstnivå, vilket förklaras i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
@@ -117,13 +119,14 @@ En användare utan åtkomst till ekonomiska data har inte åtkomst till följand
 * Avsnittet Ekonomi under Projekt och uppgifter
 * Affärsärende
 * Faktureringspriser och faktureringsposter
+* <span class="preview">Klassificeringskort</span>
 * Kostnad per timme och fakturering per timme i användarinställningarna
 
-   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
 
 * Kostnad per timme och fakturering per timme för jobbroller
 
-   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
 
 ### Visa åtkomst
 
@@ -134,11 +137,11 @@ En användare med behörigheten Visa för ekonomiska data kan visa (inte rediger
 * Faktureringspriser och faktureringsposter
 * Kostnad per timme och fakturering per timme i användarinställningarna
 
-   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
 
 * Kostnad per timme och fakturering per timme för jobbroller
 
-   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
 
 ### Redigera åtkomst
 
@@ -147,10 +150,11 @@ En användare med Redigera-åtkomst till ekonomiska data kan visa och redigera f
 * Avsnittet Ekonomi under Projekt och uppgifter
 * Affärsärende
 * Faktureringspriser och faktureringsposter
+* <span class="preview">Klassificeringskort</span>
 * Kostnad per timme och fakturering per timme i användarinställningarna
 
-   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.
 
 * Kostnad per timme och fakturering per timme för jobbroller
 
-   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.

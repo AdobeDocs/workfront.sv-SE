@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
 
 # Skapa och hantera jobbroller
+
+{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -80,11 +82,12 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Cost/ Hr.]</td> 
-      <td>Detta är kostnaden per timme för jobbrollen. Detta värde beräknar de planerade och faktiska kostnaderna för aktiviteter och ärenden som är kopplade till rollen samt slutligen de planerade och faktiska kostnaderna för projekten. <span>Ange kursen med [!UICONTROL Base Currency].</span> </td> 
+      <td><p>Detta är kostnaden per timme för jobbrollen. Detta värde beräknar de planerade och faktiska kostnaderna för aktiviteter och ärenden som är kopplade till rollen samt slutligen de planerade och faktiska kostnaderna för projekten. Ange kursen med [!UICONTROL Base Currency].</p> 
+      <p><span class="preview">Om du vill visa gällande kostnadstariffer klickar du <strong>[!UICONTROL Add Rate]</strong>. Ange värdet för kostnaden/timmen för tidsperioden och tilldela en [!UICONTROL Start Date] och [!UICONTROL End Date] efter behov. Den första kostnadstariffen har inget startdatum och den sista kostnadstariffen har inget slutdatum.</span></p> <p><span class="preview">Vissa datum läggs till automatiskt. Om till exempel den första kostnadstariffen inte har ett slutdatum och du lägger till en andra kostnadstariff med startdatumet 1 maj 2023, läggs ett slutdatum som är 30 april 2023 till den första kostnadstariffen så att inga luckor uppstår.</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Bill/ Hr.] </td> 
-      <td>Det här är faktureringen per timma för jobbrollen. Detta värde beräknar de planerade och faktiska intäkterna för uppgifter och ärenden som är kopplade till rollen och slutligen projektens planerade och faktiska intäkter. Ange kursen med [!UICONTROL Base Currency]. </td> 
+      <td><p>Det här är faktureringen per timma för jobbrollen. Detta värde beräknar de planerade och faktiska intäkterna för uppgifter och ärenden som är kopplade till rollen och slutligen projektens planerade och faktiska intäkter. Ange kursen med [!UICONTROL Base Currency].</p> <p><span class="preview">Om du vill visa gällande faktureringspriser klickar du <strong>[!UICONTROL Add Rate]</strong>. Ange värdet för fakturering/timme för tidsperioden och tilldela en [!UICONTROL Start Date] och [!UICONTROL End Date] efter behov. Den första faktureringstakten har inget startdatum och den sista faktureringstakten har inget slutdatum.</span></p> <p><span class="preview">Vissa datum läggs till automatiskt. Om till exempel den första faktureringssatsen inte har ett slutdatum och du lägger till en andra med startdatumet 1 maj 2023, läggs slutdatumet 30 april 2023 till den första faktureringsavgiften så att inga luckor uppstår.</span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 

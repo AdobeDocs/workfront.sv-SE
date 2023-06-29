@@ -6,14 +6,16 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa ell
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
 
 # Dela ekonomiska behörigheter för ett objekt
+
+{{highlighted-preview}}
 
 Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera ekonomiska data när du tilldelar åtkomstnivån. Mer information finns i [Bevilja åtkomst till finansiella uppgifter](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -83,7 +85,7 @@ Du måste ha följande för att kunna dela finansiell information om objekt:
 
 Tänk på följande när du tilldelar ekonomiska behörigheter till objekt:
 
-* Du kan bevilja ekonomiska behörigheter för projekt, uppgifter och ärenden.
+* Du kan bevilja ekonomiska behörigheter för projekt, uppgifter, ärenden, <span class="preview">och betygskort</span>.
 * Behörigheter kan ärvas: Om du har behörigheten Visa ekonomi för ett projekt ärver du automatiskt behörigheten Visa ekonomi för aktiviteterna och problemen i projektet.
 
 Så här tilldelar du ekonomiska behörigheter till ett objekt:
@@ -103,7 +105,7 @@ Så här tilldelar du ekonomiska behörigheter till ett objekt:
    * **Contribute to it**
    * **Hantera det**
 
-      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. I samma nedrullningsbara meny klickar du på **Avancerade inställningar** gör du något av följande:
 
@@ -154,6 +156,18 @@ Följande tabell visar vilka ekonomiska behörigheter användare får när du ge
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
+  <tr> 
+   <td><span class="preview">Hantera tariffkort</span></td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Visa tariffkort</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+  </tr>
   <tr> 
    <td>Visa information efter kostnad i Resursplaneringsverktygen</td> 
    <td>✓</td> 

@@ -10,14 +10,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer
+
+{{highlighted-preview}}
 
 I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
 
@@ -485,7 +487,7 @@ Användare med en planlicens har fullständig åtkomst till rapporter. Alla andr
 
 Endast användare med en planlicens har fullständig tillgång till ekonomiska data.
 
-Licenstyperna Begär och Extern användare inkluderas inte här eftersom de inte har åtkomst till [markera objekt eller område].
+Licenstyperna Begär och Extern användare inkluderas inte här eftersom de inte har tillgång till dessa objekt och områden.
 
 | Åtgärd | Planering | Arbetare | Granskare |
 |---|---|---|---|
@@ -496,6 +498,7 @@ Licenstyperna Begär och Extern användare inkluderas inte här eftersom de inte
 | Hantera faktureringsposter | ✓ |   |   |
 | Hantera utgifter | ✓ | ✓ |   |
 | Visa ekonomiska data | ✓&#42; | ✓&#42; | ✓&#42; |
+| <span class="preview">Hantera tariffkort</span> | ✓ |   |   |
 | Visa information efter kostnad i Resursplaneringsverktygen | ✓ |   |   |
 | Budgetresurser i verktygen för resursplanering&#42;&#42; | ✓ |   |   |
 | Visa resursallokering i verktygen för resursplanering&#42; | ✓ | ✓ | ✓ |
@@ -539,7 +542,7 @@ Endast användare med en planlicens har fullständig åtkomst till [markera obje
 | Lägg till eller redigera jobbrollsinformation om planer och initiativ&#42; | ✓ | ✓ | ✓ |   |   |
 | Lägg till eller redigera kostnadsinformation om planer och initiativ&#42; | ✓ | ✓ | ✓ |   |   |
 | Ta bort planer och initiativ | ✓ | ✓ | ✓ |   |   |
-| Visa scenarier på huvudmenyn ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
+| Visa scenarier på huvudmenyn ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | Visa planer och initiativ som användaren har skapat&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

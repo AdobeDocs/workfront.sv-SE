@@ -6,14 +6,16 @@ description: Du kan tilldela uppgifter till användare, roller eller team för a
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1901'
 ht-degree: 0%
 
 ---
 
 # Tilldela uppgifter
+
+{{highlighted-preview}}
 
 Du kan tilldela uppgifter till användare, jobbroller eller team för att ange vem som ansvarar för att slutföra uppgifterna. Du kan tilldela en uppgift till mer än en resurs åt gången.
 
@@ -26,7 +28,6 @@ Du kan tilldela uppgifter till användare, jobbroller eller team för att ange v
 >* Tilldela om arbetsuppgiften till aktiva resurser.
 >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 >
-
 
 Antalet användare som tilldelats en aktivitet och schemat för aktivitetsägaren kan ändra de planerade datumen för en aktivitet, vilket resulterar i att tidslinjen för projektet ändras. Mer information om hur du kan tilldela flera användare till en uppgift finns i [Översikt över ändring av uppgiftstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
@@ -123,7 +124,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 * Uppgifter och ärenden i ett projekt kan tilldelas först till ett eller flera team eller jobbroller. När projektet är klart att starta kan användarna behöva göra det:
 
-   <table>
+  <table>
   <col> 
   <col> 
   <tbody>
@@ -168,23 +169,25 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Klicka på uppdragsnamnet om uppgiften eller utgåvan redan har tilldelats.
 
-![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
 1. Gör något av följande:
 
    * Börja skriva namnet på en användare, roll eller team som du vill tilldela och klicka sedan på den när den visas i listan.
 
 
-      >[!TIP]
-      >
-      >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+     >[!TIP]
+     >
+     >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+     >
+     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj rollen för system-/standardjobb om du vill använda standardfaktureringssatsen för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
    * (Villkorligt) Klicka på ett av namnen i dialogrutan **Föreslagna tilldelningar** om den här listan visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    * Klicka **Avancerat**
 
-      Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. Klicka **Spara**.
 1. (Valfritt och villkorligt) Klicka på **X-ikon** bredvid namnet på uppdraget i den högra panelen för uppgiften att ta bort ett uppdrag, om du klickade **Avancerat**.
@@ -219,11 +222,12 @@ Så här tilldelar du uppgifter i en lista:
    * Klicka inuti **Tilldelad till** eller **Tilldelad** fält och börja skriva namnet på en aktiv användare som du vill tilldela uppgiften och klicka sedan på den när den visas i listan.
    * Klicka inuti **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller team som du vill tilldela uppgiften och klicka sedan på den när den visas i listan.
 
-      >[!TIP]
-      >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
-      >
-      >
-   >
+     >[!TIP]
+     >
+     >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+     >
+     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj rollen för system-/standardjobb om du vill använda standardfaktureringssatsen för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+
 
 1. (Villkorligt) När det visas i **Uppdrag** klickar du på **Folk** ikonen i det övre högra hörnet av uppdragsrutan för att öppna **Avancerade uppdrag** och skapa avancerade uppdrag.
 
@@ -234,7 +238,8 @@ Så här tilldelar du uppgifter i en lista:
    Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
-   Du kan inte göra avancerade uppdrag från fälten Tilldelad till eller Tilldelad.
+   >
+   >Du kan inte göra avancerade uppdrag från fälten Tilldelad till eller Tilldelad.
 
 1. När du har lagt till dina tilldelningar till uppgiften trycker du på Enter eller klickar någonstans på sidan för att spara ändringarna om du väljer Spara automatiskt. I annat fall klickar du på **Spara**.
 
@@ -244,7 +249,8 @@ Så här tilldelar du uppgifter i en lista:
 1. (Villkorligt) Kontrollera att **Spara automatiskt** är markerat om du finns med i en lista med uppgifter under ett projekt.
 
    >[!IMPORTANT]
-   Du kan inte redigera flera uppgifter samtidigt när du sparar uppgifter manuellt i ett projekt.
+   >
+   >Du kan inte redigera flera uppgifter samtidigt när du sparar uppgifter manuellt i ett projekt.
 
 1. Markera flera uppgifter i uppgiftslistan.
 1. Klicka **Redigera**.
@@ -254,7 +260,8 @@ Så här tilldelar du uppgifter i en lista:
 1. I **Uppdrag** markerar du **Tilldelad** börjar du sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela alla uppgifter.
 
    >[!IMPORTANT]
-   Om någon av uppgifterna redan har tilldelats läggs de resurser som du anger här till i aktiviteterna i stället för att ersätta de befintliga resurserna för aktiviteterna.
+   >
+   >Om någon av uppgifterna redan har tilldelats läggs de resurser som du anger här till i aktiviteterna i stället för att ersätta de befintliga resurserna för aktiviteterna.
 
 1. (Valfritt) Markera alternativknappen i dialogrutan **Aktivitetsägare** kolumn som anger vilken resurs som är den primära tilldelaren eller ägaren av uppgiften när du tilldelar mer än en resurs till uppgiften. Detta är inte tillgängligt för team.
 1. (Villkorligt) Ange **Allokering %** för varje resurs som tilldelats aktiviteten om alla de uppgifter du har valt har varaktighetstypen Insatsstyrd eller Beräknad tilldelning. Detta anger hur mycket av deras tid som dessa resurser ska lägga på att slutföra uppgiften. Detta är endast tillgängligt för användare och jobbroller.
@@ -264,7 +271,8 @@ Så här tilldelar du uppgifter i en lista:
    Ange mängden **Timmar** för varje resurs som tilldelats aktiviteten om alla de uppgifter du har valt har varaktighetstypen Enkel. Det totala antalet timmar för alla resurser ska vara lika med antalet planerade timmar för uppgiften.
 
    >[!IMPORTANT]
-   Det går inte att ange allokeringsprocenten eller antalet timmar per resurs om de markerade aktiviteterna har olika varaktighetstyper eller om de markerade aktiviteterna har olika varaktighetstyper.
+   >
+   >Det går inte att ange allokeringsprocenten eller antalet timmar per resurs om de markerade aktiviteterna har olika varaktighetstyper eller om de markerade aktiviteterna har olika varaktighetstyper.
 
    Mer information om varaktighetstyp för uppgifter finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 

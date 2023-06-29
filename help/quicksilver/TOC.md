@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
 workflow-type: tm+mt
-source-wordcount: '13094'
+source-wordcount: '13106'
 ht-degree: 0%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 0%
          * [Skapa ett styrkort](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [Omberäkningar av projekttidslinjen](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Anpassade kvartal för projekt](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [Konfigurera platser](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+         * [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Konfigurera scheman och tidrapportinställningar {#configure-timesheets-schedules}
          * [Konfigurera scheman och tidrapportinställningar](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Översikt över scheman](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -1199,6 +1201,7 @@ ht-degree: 0%
          * [Åsidosätt faktureringstariffer på projektnivå med faktureringstariffer på företagsnivå](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [Åsidosätt faktureringshastigheter för jobbroller på projektnivå](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [Koppla ett tariffkort till ett projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [Översikt över projektplanerad förmån](manage-work/projects/project-finances/project-planned-benefit.md)
          * [Ange PIM (Performance Index Method)](manage-work/projects/project-finances/set-pim.md)
          * [Beräkna räntabilitet](manage-work/projects/project-finances/calculate-roi.md)
