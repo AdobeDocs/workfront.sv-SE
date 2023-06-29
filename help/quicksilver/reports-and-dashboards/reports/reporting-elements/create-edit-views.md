@@ -6,14 +6,16 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1787'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera vyer i Adobe Workfront
+
+{{highlighted-preview}}
 
 Du kan anpassa vilken typ av information som visas på skärmen med hjälp av vyer. Du kan använda flera typer av vyer i Adobe Workfront.
 
@@ -72,12 +74,12 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
    * Justera den ordning som kolumnerna visas i genom att dra kolumnrubriken till en ny plats.
 
       * (Valfritt) I dialogrutan **Kolumninställningar** klickar du på **Sammanfatta den här kolumnen med** och välj sedan ett av de tillgängliga alternativen för att sammanfatta informationen. När du väljer det här alternativet sammanställs informationen i kolumnen i rapportens grupperingar.\
-         För datumfält kan du sammanfatta värdena med följande alternativ:
+        För datumfält kan du sammanfatta värdena med följande alternativ:
 
          * Maximal
          * Minimum
 
-         För tal- och valutafält kan du sammanfatta värdena med följande alternativ:
+        För tal- och valutafält kan du sammanfatta värdena med följande alternativ:
 
          * Antal
          * Summa
@@ -85,20 +87,21 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
          * Maximal
          * Minimum
 
-         >[!NOTE]
-         >
-         >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
-         >   
-         >   * Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
-         >   * Faktiska timmar sammanställer värdena för huvuduppgiften och de fristående uppgifterna. de sammanställer inte siffrorna för överordnade och underordnade uppgifters överordnade uppgifter.
-         >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: föräldrar, barn, föräldrar till föräldrar och fristående uppgifter.
+        >[!NOTE]
+        >
+        >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
+        >   
+        >   * Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
+        >   * Faktiska timmar sammanställer värdena för huvuduppgiften och de fristående uppgifterna. de sammanställer inte siffrorna för överordnade och underordnade uppgifters överordnade uppgifter.
+        >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: föräldrar, barn, föräldrar till föräldrar och fristående uppgifter.
+        >   
+        >
 
-
-         Mer information om hur du använder grupperingar i en rapport finns i artikeln [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Mer information om hur du använder grupperingar i en rapport finns i artikeln [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Valfritt) Klicka på **Avancerade alternativ** om du vill ange följande information för kolumnen:
 
-         <table style="table-layout:auto"> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -121,9 +124,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
          </tbody> 
         </table>
 
-         Mer information om villkorlig formatering av vyer i rapporter finns i artikeln [Använda villkorsstyrd formatering i textläge](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-
+        Mer information om villkorlig formatering av vyer i rapporter finns i artikeln [Använda villkorsstyrd formatering i textläge](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Villkorligt) Om du klickade **Avancerade alternativ**, klicka **Klar**.
 
@@ -147,14 +148,18 @@ Du kan skapa en ny Agile-vy eller anpassa en befintlig Agile-vy som du tidigare 
 
 Mer information om Agile-vyer finns i artikeln [Hantera ett projekt i Agile-vyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">Den här proceduren gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
 
 Så här skapar eller anpassar du en Agile-vy:
 
 1. Gå till listan med uppgifter i ett projekt.
-1. Klicka på **Agile Storyboard** icon ![](assets/agile-storyboard-nwe.png).
+1. Klicka på **Agile Storyboard** icon ![Agile Storyboard, ikon](assets/agile-storyboard-nwe.png).
+
+   <span class="preview">eller</span>
+
+   <span class="preview">Klicka på **styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png)och klicka sedan på **Använd äldre flexibilitet** i styrelseläget.</span>
 
 1. (Villkorligt) Så här anpassar du en befintlig Agile-vy:
 
@@ -239,7 +244,7 @@ Så här skapar eller anpassar du en Agile-vy:
 
    * Artikelnamn med en länk direkt till uppgiften
    * Projektnamnet med en länk direkt till projektet\
-      Den här länken visas endast när den flexibla vyn används på en iteration. den visas inte när du använder en Agile-vy i ett projekt.
+     Den här länken visas endast när den flexibla vyn används på en iteration. den visas inte när du använder en Agile-vy i ett projekt.
    * Uppgiftsbeskrivningen
    * Aktuellt åtagande
    * Visa och redigera procentandelen antingen genom att justera själva procentandelen eller genom att justera antalet punkter eller timmar som är klara

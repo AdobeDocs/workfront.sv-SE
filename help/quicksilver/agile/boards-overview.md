@@ -7,9 +7,9 @@ description: Adobe Workfront Boards är flexibla verktyg som ger teamsamarbete g
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Med anslagstavlor kan du:
 * Använd smidiga planeringsverktyg som en inloppskolumn för Kanban-tavlor samt en kortlista och en iterationsplanering
 
 Mer information om hur du använder de grundläggande funktionerna för ritytor finns i [Kom igång med anslagstavlor i [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Information om flexibla planeringsverktyg i ritytor finns i [Översikt över flexibla planeringsverktyg](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+
+Mer information om hur du använder en styrelse i ett projekt finns i [Hantera ett projekt i Agile-vyn](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 Du kan även komma åt paneler i mobilappen. Mer information finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] för mobiler](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 

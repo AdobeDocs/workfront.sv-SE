@@ -6,16 +6,19 @@ description: Obligatoriska planer, licenstyper och åtkomst till Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
 
 # Hantera ett projekt i Agile-vyn
 
-Nödvändiga planer, licenstyper och åtkomst
+{{highlighted-preview}}
+
+<!--
+Required plans, license types, and access
 
 <table style="table-layout:auto"> 
  <col> 
@@ -23,29 +26,21 @@ Nödvändiga planer, licenstyper och åtkomst
  <tbody> 
   <tr> 
    <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business eller Enterprise </p> </td> 
+   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Granska, arbeta eller planera </p> </td> 
-  </tr> <!--
+   <td> <p>Review, Work, or Plan </p> </td> 
+  </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Permissions in the access model</p> </td> 
     <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
    </tr>
-  --> 
  </tbody> 
 </table>
-
-Du kan utnyttja projektets smidiga funktionalitet
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(such as story boards and burndown charts)
-</MadCap:conditionalText>
 -->
 
- utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet eller skapa iterationer).
+Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet eller skapa iterationer).
 
 Om du vill arbeta i en flexibel miljö som använder en eftersläpning i team och där du kan skapa iterationer från uppgifter i eftersläpningen följer du instruktionerna i [Arbeta i en flexibel miljö](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
@@ -85,6 +80,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Förstå Agile-projekt
 
+>[!NOTE]
+>
+><span class="preview">Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
+
 * [Flexibla funktioner i ett projekt](#agile-functionality-in-a-project)
 * [Skillnader när du använder Agile-vyn i ett projekt jämfört med en iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
 
@@ -93,10 +92,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Följande smidiga funktioner är tillgängliga när du hanterar ett projekt i en flexibel vy:
 
 * Slutförandestatus\
-   Mer information om slutförandestatus finns i [Statusöversikt för Iteration-slutförande](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
+  Mer information om slutförandestatus finns i [Statusöversikt för Iteration-slutförande](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
 
 * Story board\
-   Mer information om artikelpanelen finns i [Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) -avsnitt.
+  Mer information om artikelpanelen finns i [Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) -avsnitt.
 
 Det finns vissa skillnader mellan att använda flexibla vyer i ett projekt och att arbeta i en rent flexibel miljö (med eftersläpningar och iterationer). Mer information finns i [Skillnader när du använder Agile-vyn i ett projekt jämfört med en iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) i den här artikeln.
 
@@ -112,19 +111,19 @@ Det finns vissa skillnader mellan att använda flexibla vyer i ett projekt och a
 #### Uppgifter och underuppgifter följer olika visningsregler på artikelstyrelsen {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
 * Uppgifter som varken har en överordnad uppgift eller en underuppgift visas alltid som ett artikelkort på artikelpanelen.\
-   Följande uppgifter visas till exempel i projektlistvyn:
+  Följande uppgifter visas till exempel i projektlistvyn:
 
-   ![Flexibel projektlista - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-single-list-nwe.png) Följande uppgifter visas i projektvyn:
+  ![Flexibel projektlista - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-single-list-nwe.png) Följande uppgifter visas i projektvyn:
 
-   ![Projektflexibel vy - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-singlecard-nwe.png)
+  ![Projektflexibel vy - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-singlecard-nwe.png)
 
 * Överordnade aktiviteter som har underaktiviteter visas alltid i **Artiklar** artikelpanelens kolumn. Underaktiviteter visas i den överordnade uppgiftens simfält.\
-   Följande uppgifter visas till exempel i projektlistvyn:
+  Följande uppgifter visas till exempel i projektlistvyn:
 
-   ![Flexibel projektlista - aktiviteter med överordnade och underaktiviteter](assets/agile-project-parent-list-nwe.png)\
-   Följande uppgifter visas i projektvyn:
+  ![Flexibel projektlista - aktiviteter med överordnade och underaktiviteter](assets/agile-project-parent-list-nwe.png)\
+  Följande uppgifter visas i projektvyn:
 
-   ![Flexibel projektvy - aktiviteter med överordnade och underordnade uppgifter](assets/agile-project-parent-nwe.png)
+  ![Flexibel projektvy - aktiviteter med överordnade och underordnade uppgifter](assets/agile-project-parent-nwe.png)
 
 * Underuppgifter på andra nivån (underuppgifter till underaktiviteter) visas som ett hängande grått kort från den överordnade aktiviteten.
 * Underuppgifter på tredje nivån (underuppgifter till underuppgifter till underuppgifter) visas aldrig på artikelpanelen.
@@ -160,40 +159,72 @@ Till skillnad från en smidig upprepning kan användare i ett projekt anpassa de
 
 I en smidig upprepning bestäms den information som finns tillgänglig på den flexibla artikelpanelen (t.ex. tillgängliga statuskolumner) på teamnivån.
 
-Mer information om hur du anpassar en flexibel vy finns i  [Skapa eller anpassa en Agile-vy](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in  [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa en Agile-vy](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Visa ett projekt i Agile-vyn
 
 1. Gå till det projekt du vill visa i en flexibel vy.
-1. Klicka på **Agile** ikon.\
-   ![Agile-ikon](assets/agile-icon-nwe.png)\
-   Projektet visas i standardvyn för flexibel visning.\
-   Om du tidigare har visat projektet i en anpassad, flexibel vy visas projektet i den vyn i stället för i standardvyn.
+1. Klicka på **Agile** icon ![Agile-ikon](assets/agile-icon-nwe.png).
 
-1. (Valfritt) Om du har skapat en anpassad flexibel vy, eller om en annan användare har skapat en anpassad flexibel vy och delat den med dig, kan du visa den i stället för standardvyn för flexibel visning.\
+   <span class="preview">eller</span>
+
+   <span class="preview">Klicka på **styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png).</span>
+
+   Projektet visas i standardvyn för flexibel visning.
+
+   <span class="preview">I förhandsvisningsmiljön visas ritytan som standard.</span>
+
+   ![Vy över projekt](assets/project-agile-board-view.png)
+
+   (Endast äldre, flexibel vy) Om du tidigare har visat projektet i en anpassad, flexibel vy visas projektet i den vyn i stället för i standardvyn.
+
+1. <span class="preview">(Valfritt) Klicka på **Konfigurera** för att ange alternativ för kolumner och kort.</span>
+
+   <span class="preview">Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) och [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Observera att du inte kan definiera kolumnprinciper i en projektvy.</span>
+
+1. <span class="preview">(Valfritt) Klicka på **Använd äldre flexibilitet** om du vill använda den gamla, flexibla vyn i stället för den vanliga vyn.</span>
+
+1. (Valfritt - endast äldre flexibel vy) Om du har skapat en anpassad flexibel vy, eller om en annan användare har skapat en anpassad flexibel vy och delat den med dig, kan du visa den i stället för standardvyn för flexibel visning.
+
    Klicka på **Visa** och klicka sedan på den anpassade flexibla vy som du vill visa.
 
-   Den anpassade flexibla vyn används nästa gång du klickar på **Agile** ikon.\
-   Mer information om hur du skapar en ny flexibel vy finns i [Skapa och anpassa Agile-vyer](#create-and-customize-agile-views).\
+   Den anpassade flexibla vyn används nästa gång du klickar på **Agile** ikon.
+
+   Mer information om hur du skapar en ny flexibel vy finns i [Skapa och anpassa Agile-vyer](#create-and-customize-agile-views).
+
    Projektet visas i en anpassad, flexibel vy.
 
-1. (Villkorligt) Om andra statusvärden än &quot;Nytt&quot;, &quot;Pågår&quot; eller &quot;Fullständigt&quot; används för uppgifter i ditt projekt måste du lägga till ytterligare statusvärden i den flexibla vyn för att uppgifter i dessa statusvärden ska kunna visas.\
-   Om aktiviteterna har en status som inte visas på den mobila artikelpanelen visas inte själva uppgiften på den mobila artikelpanelen (procentandelen slutfört av dessa uppgifter bidrar dock fortfarande till procentandelen slutfört för överordnade uppgifter och procentandelen slutfört för det övergripande projektet).\
+1. (Villkorligt - endast äldre, flexibel vy) Om uppgifter i projektet använder andra statusvärden än &quot;Nytt&quot;, &quot;Pågår&quot; eller &quot;Fullständigt&quot; (standardstatusvärdena för Agilvyn), måste du lägga till ytterligare statusvärden i den flexibla vyn för att uppgifter i dessa statusar ska kunna visas.
+
+   Om aktiviteterna har en status som inte visas på den mobila artikelpanelen visas inte själva uppgiften på den mobila artikelpanelen (procentandelen slutfört av dessa uppgifter bidrar dock fortfarande till procentandelen slutfört för överordnade uppgifter och procentandelen slutfört för det övergripande projektet).
+
    Om du vill lägga till statusvärden i den flexibla vyn skapar du en ny flexibel vy eller anpassar en befintlig flexibel vy enligt beskrivningen i avsnittet&quot;Skapa eller anpassa en flexibel vy&quot; i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. (Valfritt) Om du vill återgå till listvyn klickar du på **Lista** ikon.\
-   ![](assets/list-icon.png)
+   ![Ikonen Lista](assets/list-icon.png)
 
 ## Skapa och anpassa Agile-vyer {#create-and-customize-agile-views}
 
+>[!NOTE]
+>
+><span class="preview">Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
+
 Precis som med standardvyer i Workfront kan du anpassa befintliga flexibla vyer eller skapa nya flexibla vyer från grunden. Till skillnad från standardvyer kan du inte skapa nya flexibla vyer som baseras på befintliga flexibla vyer.
 
-Mer information om hur du skapar och anpassar flexibla vyer finns i avsnittet&quot;Skapa eller anpassa en flexibel vy&quot; i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+Mer information om hur du skapar och anpassar flexibla vyer finns i avsnittet&quot;Skapa eller anpassa en flexibel vy&quot; i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Dela en befintlig Agile-vy
+
+>[!NOTE]
+>
+><span class="preview">Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
 
 Mer information om hur du delar en flexibel vy finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Ta bort en befintlig Agile-vy
 
-Mer information om hur du tar bort en vy finns i avsnittet Ta bort en vy i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md). 
+>[!NOTE]
+>
+><span class="preview">Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
+
+Mer information om hur du tar bort en vy finns i avsnittet Ta bort en vy i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

@@ -3,9 +3,9 @@ title: 23.3 Agile-förbättringar
 description: 23.3 Agile-förbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Agile View för ett projekt innehåller nu ytterligare funktioner för att filtr
 
 När du sitter i styrelsen kan du växla till den äldre Agile-vyn.
 
-Dokumentation för det uppdaterade projektet Agile View kommer att göras tillgänglig i den version där den förhandsgranskas.
+Mer information finns i [Hantera ett projekt i Agile-vyn](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Sortera efter kortkolumner
 
