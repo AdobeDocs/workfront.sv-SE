@@ -8,9 +8,9 @@ description: En webkrok är ett HTTP-anrop som aktiveras av en händelse. Du kan
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -211,9 +219,7 @@ Content-Type: application/json
 >1. Klicka **[!UICONTROL Add]** för att lägga till en ny webbkrok.
 >1. Klicka på **[!UICONTROL Show advanced settings]**.
 >1. Klicka på **[!UICONTROL JSON pass-through]**.
-
 >
-
 
 ## Webkrohuvuden
 
@@ -264,9 +270,9 @@ Modulens konfiguration innehåller två fält: [!UICONTROL Status] och [!UICONTR
 
 * The [!UICONTROL Body] -fältet innehåller allt som accepteras av webkroks samtal. Det kan vara enkel text, HTML, XML, JSON och så vidare.
 
-   >[!TIP]
-   >
-   >Vi rekommenderar att du ställer in `Content-Type` sidhuvud till motsvarande MIME-typ: `text/plain` för oformaterad text, `text/html` HTML, `application/json` för JSON, `application/xml` för XML och så vidare. Mer information om MIME-typer finns i [MIME-moduler](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >[!TIP]
+  >
+  >Vi rekommenderar att du ställer in `Content-Type` sidhuvud till motsvarande MIME-typ: `text/plain` för oformaterad text, `text/html` HTML, `application/json` för JSON, `application/xml` för XML och så vidare. Mer information om MIME-typer finns i [MIME-moduler](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 Tidsgränsen för att skicka ett svar är 40 sekunder. Om svaret inte är tillgängligt inom den perioden returnerar Workfront Fusion statusen&quot;200 Accepted&quot;.
 

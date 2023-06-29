@@ -8,9 +8,9 @@ description: Ibland kan ett fel inträffa när ett scenario körs. Detta händer
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +71,7 @@ Anslutningsfel är ett av de vanligaste felen som vanligtvis orsakas av att tred
 
    * Om det här alternativet är aktiverat flyttas körningen av scenariot till [!UICONTROL Incomplete executions] mapp där [!DNL Workfront Fusion] försöker upprepade gånger att köra scenariot igen med ökande tidsintervall. Om alla försök misslyckas finns körningen kvar i mappen Ofullständiga körningar i väntan på manuell lösning av användaren.
 
-      Mer information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+     Mer information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
    * Om det här alternativet är inaktiverat avslutas körningen av scenariot med ett fel följt av en återställningsfas. [!DNL Workfront Fusion] försöker sedan upprepade gånger att köra scenariot igen med ökande tidsintervall. Om alla försök misslyckas, [!DNL Workfront Fusion] inaktiverar scenariot.
 
 ### Öka tidsintervall

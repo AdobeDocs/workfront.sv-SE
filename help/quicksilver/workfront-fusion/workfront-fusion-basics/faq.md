@@ -8,9 +8,9 @@ description: I den här artikeln behandlas vanliga frågor om [!DNL Adobe Workfr
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +110,7 @@ En åtgärd är en åtgärd som utförs av en modul. En åtgärd utförs till ex
 
 ### Svar
 
-Dataöverföring avser mängden data som överförs genom ditt scenario. Anta till exempel att du har ett scenario som hämtar en 100 kB-bild från FTP och minskar dess storlek till 50 kB och sparar båda bilderna som [!DNL Dropbox]. Mängden data som används i det här scenariot är 150 kB.
+Dataöverföring avser mängden data som överförs genom ditt scenario. Anta till exempel att du har ett scenario som hämtar en 100 kB-bild från FTP och minskar dess storlek till 50 kB och sparar båda bilderna som [!DNL Dropbox]. Mängden data som används i detta scenario är 250 kB.
 
 ## Vad är en anslutning?
 

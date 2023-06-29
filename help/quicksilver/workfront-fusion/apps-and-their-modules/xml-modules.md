@@ -8,10 +8,10 @@ description: Med XML-appen kan du tolka en XML-formaterad text via XML-&get; Tol
 author: Becky
 feature: Workfront Fusion
 exl-id: 3459e930-8156-4171-8920-34f4e07bc530
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 2%
+source-wordcount: '1286'
+ht-degree: 1%
 
 ---
 
@@ -37,11 +37,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>  </td>  
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,46 +97,46 @@ The [!UICONTROL XML] > [!UICONTROL Parse XML] tolkar en XML-formaterad text och 
 >1. Infoga [!UICONTROL HTTP] > [!UICONTROL Get a file] modul
 >1. Öppna modulens konfiguration och konfigurera den enligt följande:
 >
->
 >   **URL**: XML-filens URL (t.ex. `https://siftrss.com/f/rqLy05ayMBJ`)
 >
 >   ![](assets/url-of-xml-file-350x184.png)
 >
 >1. Klicka **[!UICONTROL OK]**&#x200B; att spara och stänga modulens konfiguration.
->1. Lägg till [!UICONTROL XML] > [!UICONTROL Parse XML] ansluter du den efter [!UICONTROL HTTP] > [!UICONTROL Get a file] och konfigurera den enligt följande:
-><table style="table-layout:auto"> 
->    <col> 
->    <col> 
->    <tbody> 
->     <tr> 
->      <td role="rowheader">[!UICONTROL Data structure]</td> 
->      <td> 
->       <ol> 
->        <li value="1">Klicka på <strong>[!UICONTROL Add]</strong> -knappen.</li> 
->        <li value="2">Klicka på <strong>[!UICONTROL Generator]</strong> -knappen.</li> 
->        <li value="3">Öppna en ny flik eller ett nytt fönster i webbläsaren.</li> 
->        <li value="4">Placera den URL du använde i det tredje steget i adressfältet och hämta XML-filen.</li> 
->        <li value="5">Markera all XML-text och kopiera den till Urklipp.</li> 
->        <li value="6">Stäng fliken eller fönstret och gå tillbaka till ditt scenario.</li> 
->        <li value="7">Klistra in den kopierade XML-texten i datafältet Exempel.</li> 
->        <li value="8">Klicka på <strong>[!UICONTROL Save]</strong>.</li> 
->        <li value="9">Kontrollera att datastrukturen har skapats.</li> 
->        <li value="10">Klicka <strong>[!UICONTROL Save]</strong> för att spara datastrukturen.</li> 
->       </ol> <p>Du kan hoppa över steg 2 till 9 för att tillhandahålla en tom datastruktur. Om datastrukturen är tom är modulens utdata inte tillgängliga på mappningspanelen förrän modulen har körts minst en gång.</p> </td> 
->     </tr> 
->     <tr> 
->      <td role="rowheader">[!UICONTROL XML]</td> 
->      <td> <p>Mappa <code>Data </code>från utdata från [!UICONTROL HTTP] &gt; [!UICONTROL Get a file] i fältet. Använd <code>toString()</code> funktionen för att konvertera dess värde från [!UICONTROL Buffer] (binära data) typ till [!UICONTROL Text] datatyp.</p> <p>Du kan kopiera och klistra in formelns kod i fältet: <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Mer information om datatyperna Buffer och Text finns i <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Objektdatatyper i Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
->     </tr> 
->    </tbody> 
->   </table>
-
+1. Lägg till [!UICONTROL XML] > [!UICONTROL Parse XML] ansluter du den efter [!UICONTROL HTTP] > [!UICONTROL Get a file] och konfigurera den enligt följande:
+>
+<table style="table-layout:auto"> 
+&gt;    <col> 
+&gt;    <col> 
+&gt;    <tbody> 
+&gt;     <tr> 
+&gt;      <td role="rowheader">[!UICONTROL Data structure]</td> 
+&gt;      <td> 
+&gt;       <ol> 
+&gt;        <li value="1">Klicka på <strong>[!UICONTROL Add]</strong> -knappen.</li> 
+&gt;        <li value="2">Klicka på <strong>[!UICONTROL Generator]</strong> -knappen.</li> 
+&gt;        <li value="3">Öppna en ny flik eller ett nytt fönster i webbläsaren.</li> 
+&gt;        <li value="4">Placera den URL du använde i det tredje steget i adressfältet och hämta XML-filen.</li> 
+&gt;        <li value="5">Markera all XML-text och kopiera den till Urklipp.</li> 
+&gt;        <li value="6">Stäng fliken eller fönstret och gå tillbaka till ditt scenario.</li> 
+&gt;        <li value="7">Klistra in den kopierade XML-texten i datafältet Exempel.</li> 
+&gt;        <li value="8">Klicka på <strong>[!UICONTROL Save]</strong>.</li> 
+&gt;        <li value="9">Kontrollera att datastrukturen har skapats.</li> 
+&gt;        <li value="10">Klicka <strong>[!UICONTROL Save]</strong> för att spara datastrukturen.</li> 
+&gt;       </ol> <p>Du kan hoppa över steg 2 till 9 för att tillhandahålla en tom datastruktur. Om datastrukturen är tom är modulens utdata inte tillgängliga på mappningspanelen förrän modulen har körts minst en gång.</p> </td> 
+&gt;     </tr> 
+&gt;     <tr> 
+&gt;      <td role="rowheader">[!UICONTROL XML]</td> 
+&gt;      <td> <p>Mappa <code>Data </code>från utdata från [!UICONTROL HTTP] &gt; [!UICONTROL Get a file] i fältet. Använd <code>toString()</code> funktionen för att konvertera dess värde från [!UICONTROL Buffer] (binära data) typ till [!UICONTROL Text] datatyp.</p> <p>Du kan kopiera och klistra in formelns kod i fältet: <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Mer information om datatyperna Buffer och Text finns i <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Objektdatatyper i Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+&gt;     </tr> 
+&gt;    </tbody> 
+&gt;   </table>
 
 ## [!UICONTROL Parsing XML attributes]
 
 Som standard är [!UICONTROL XML] > [!UICONTROL Parse XML] för att placera attribut i en särskild samling `_attributes` som underordnad nod till noden som har dessa attribut. Om noden är en textnod och har attribut läggs två specialegenskaper till: `_attributes` för attribut och `_value` för nodens textinnehåll.
 
 >[!INFO]
+>
 **Exempel:** Denna XML:
 
 ```
@@ -181,32 +189,34 @@ The [!UICONTROL XML] > [!UICONTROL Create XML] i konverteras ett paket till en X
 </table>
 
 >[!INFO]
-> 
->**Exempel:**
-> 
->Ett typiskt exempel är att omvandla data från en [!DNL Google] >kalkylblad till XML.
->1. Placera [!DNL Google Sheets] > [!UICONTROL Select rows] i ditt scenario för att hämta data. Konfigurera modulen för att hämta rader från din [!DNL Google] kalkylblad. Ange &#x200B;**[!UICONTROL Maximum number of returned rows]** till ett litet tal, men större än ett för testningsändamål (exempel, tre). Kör [!DNL Google Sheets] genom att högerklicka och välja &quot;**[!UICONTROL Run this module only]**.&quot; Kontrollera modulens utdata.
->1. Anslut [!UICONTROL Array Aggregator] modulen efter [!DNL Google Sheets] -modul. Välj [!DNL Google Sheets] i **[!UICONTROL Source node]** fält. Låt de andra fälten vara som de är för tillfället.
->1. Anslut [!UICONTROL XML] > [!UICONTROL Create XML] modulen efter [!UICONTROL Array Aggregator] -modul.
->   Modulens konfiguration kräver en datastruktur som beskriver strukturen för XML-utdata. Klicka på **[!UICONTROL Add]** för att öppna datastrukturinställningarna. Det enklaste sättet att skapa den här datastrukturen är att generera den automatiskt från ett XML-exempel.
->1. Klicka på **[!UICONTROL Generator]** och klistra in XML-exemplet i [!UICONTROL Sample data] fält:
 >
->   ![](assets/sample-data-field-350x146.png)
+**Exempel:**
 >
->1. Klicka på **[!UICONTROL Save]**. Fältet Specifikation i datastrukturen innehåller nu den genererade strukturen.
->1. Ändra namnet på datastrukturen till något mer specifikt och klicka på **[!UICONTROL Save]**. Ett fält som motsvarar rotarrayattributet visas som ett mappningsbart fält i JSON-modulens inställningar.
->1. Klicka på **[!UICONTROL Map]** intill fältet och mappa `Array[]` objekt från [!UICONTROL Array aggregator] till den:
->1. Klicka **[!UICONTROL OK]** för att stänga XML-modulens inställningar.
->1. Öppna inställningarna för [!UICONTROL Array Aggregator] -modul. Ändra **[!UICONTROL Target structure]** från Anpassad till ett fält i en XML-modul som motsvarar det överordnade XML-elementet.Mappa objekt från [!DNL Google Sheets] till lämpliga fält.
->1. Klicka **[!UICONTROL OK]** för att stänga inställningarna för modulen Array Aggregator.
->1. Kör scenariot.
+Ett typiskt exempel är att omvandla data från en [!DNL Google] >kalkylblad till XML.
 >
->   XML-modulen matar ut rätt XML-fil.
+1. Placera [!DNL Google Sheets] > [!UICONTROL Select rows] i ditt scenario för att hämta data. Konfigurera modulen för att hämta rader från din [!DNL Google] kalkylblad. Ange &#x200B;**[!UICONTROL Maximum number of returned rows]** till ett litet tal, men större än ett för testningsändamål (exempel, tre). Kör [!DNL Google Sheets] genom att högerklicka och välja &quot;**[!UICONTROL Run this module only]**.&quot; Kontrollera modulens utdata.
+1. Anslut [!UICONTROL Array Aggregator] modulen efter [!DNL Google Sheets] -modul. Välj [!DNL Google Sheets] i **[!UICONTROL Source node]** fält. Låt de andra fälten vara som de är för tillfället.
+1. Anslut [!UICONTROL XML] > [!UICONTROL Create XML] modulen efter [!UICONTROL Array Aggregator] -modul.
 >
->1. Öppna inställningarna för [!DNL Google Sheets] och öka [!UICONTROL Maximum number of returned rows] talet vara större än antalet rader i kalkylbladet för att bearbeta alla data.
+Modulens konfiguration kräver en datastruktur som beskriver strukturen för XML-utdata. Klicka på **[!UICONTROL Add]** för att öppna datastrukturinställningarna. Det enklaste sättet att skapa den här datastrukturen är att generera den automatiskt från ett XML-exempel.
 >
->   Resultatet kan sparas i [!DNL Dropbox], skickas som en bifogad fil via e-post, överförs via FTP till en server och så vidare.
-
+1. Klicka på **[!UICONTROL Generator]** och klistra in XML-exemplet i [!UICONTROL Sample data] fält:
+>
+![](assets/sample-data-field-350x146.png)
+>
+1. Klicka på **[!UICONTROL Save]**. Fältet Specifikation i datastrukturen innehåller nu den genererade strukturen.
+1. Ändra namnet på datastrukturen till något mer specifikt och klicka på **[!UICONTROL Save]**. Ett fält som motsvarar rotarrayattributet visas som ett mappningsbart fält i JSON-modulens inställningar.
+1. Klicka på **[!UICONTROL Map]** intill fältet och mappa `Array[]` objekt från [!UICONTROL Array aggregator] till den:
+1. Klicka **[!UICONTROL OK]** för att stänga XML-modulens inställningar.
+1. Öppna inställningarna för [!UICONTROL Array Aggregator] -modul. Ändra **[!UICONTROL Target structure]** från Anpassad till ett fält i en XML-modul som motsvarar det överordnade XML-elementet.Mappa objekt från [!DNL Google Sheets] till lämpliga fält.
+1. Klicka **[!UICONTROL OK]** för att stänga inställningarna för modulen Array Aggregator.
+1. Kör scenariot.
+>
+XML-modulen matar ut rätt XML-fil.
+>
+1. Öppna inställningarna för [!DNL Google Sheets] och öka [!UICONTROL Maximum number of returned rows] talet vara större än antalet rader i kalkylbladet för att bearbeta alla data.
+>
+Resultatet kan sparas i [!DNL Dropbox], skickas som en bifogad fil via e-post, överförs via FTP till en server och så vidare.
 
 ## Lägga till XML-attribut
 

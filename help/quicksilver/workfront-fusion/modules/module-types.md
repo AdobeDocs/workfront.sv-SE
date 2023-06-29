@@ -8,9 +8,9 @@ description: '"Adobe Workfront Fusion skiljer ut fem typer av moduler: åtgärds
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,11 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -63,16 +67,15 @@ Till skillnad från utlösarmoduler kan åtgärdsmoduler placeras i början, mit
 >* **[!DNL Workfront]>[!UICONTROL Upload a file]** skickar en fil till [!DNL Workfront] och returnerar sin identifierare.
 >* **[!UICONTROL Image]>[!UICONTROL Resize]** tar emot en bild, ändrar storlek på den till angivna mått och överför den storleksändrade bilden till nästa åtgärd.
 
-
 Åtgärdstypen har fyra undertyper: Skapa, läsa, uppdatera och ta bort. Undertypen Uppdatera gör att du kan utföra följande tre åtgärder:
 
 * **Radera innehållet i ett fält**. Den här åtgärden utförs när innehållet i fältet utvärderas för att radera nyckelord (ska inte blandas ihop med *tom*).
 
-   ![](assets/erase-content-of-field.png)
+  ![](assets/erase-content-of-field.png)
 
 * **Ändra inte innehållet i ett fält**. Den här åtgärden utförs när fältet lämnas tomt eller innehållet i fältet utvärderas till tomt (representeras med null i JSON).
 
-   ![](assets/leave-content-field-unchanged-350x231.png)
+  ![](assets/leave-content-field-unchanged-350x231.png)
 
 * **Ersätta innehållet i ett fält**. Denna operation äger rum i alla andra fall än de som beskrivs ovan.
 
@@ -129,7 +132,6 @@ Med avsökningsutlösare kan du välja det första paket som de ska skicka via e
 >
 >* **[!DNL Google Sheets]>[!UICONTROL Watch Rows]** returnerar nya rader som har lagts till av användaren sedan scenariot kördes senast
 
-
 ### Direktutlösare
 
 Direktutlösare gör att tjänsten kan meddela [!DNL Workfront Fusion] om *change* omedelbart. Vi rekommenderar att du schemalägger ett scenario som innehåller en direktutlösare som körs omedelbart. Instruktioner finns i [Schemalägg ett scenario i Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). Se även [Direktutlösare (webhooks) i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) om du vill ha information om hur inkommande data hanteras.
@@ -140,7 +142,6 @@ Direktutlösare gör att tjänsten kan meddela [!DNL Workfront Fusion] om *chang
 >
 >* **[!DNL Workfront]>[!UICONTROL Watch Events]** returnerar information när en viss typ av händelse inträffar i Workfront, t.ex. när en uppgift skapas.
 >* **[!DNL Google Sheets]>[!UICONTROL Watch Changes]** returnerar information när en cell uppdateras.
-
 
 ## Aggregatorer
 
@@ -159,7 +160,6 @@ Scenarier kan innehålla ett obegränsat antal aggregerare.
 >* **[!UICONTROL Archive]>[!UICONTROL Create an archive]** komprimerar mottagna filer till ett zip-arkiv
 >* **[!UICONTROL CSV]>[!UICONTROL Aggregate to CSV]** sammanfogar flera strängar från en CSV-fil till en enda rad
 >* **[!UICONTROL Tools]>[!UICONTROL Text aggregator]** kombinerar flera strängar till en enda sträng
-
 
 Mer information finns i [Aggregator-modulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 

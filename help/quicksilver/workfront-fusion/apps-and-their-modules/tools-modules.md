@@ -8,9 +8,9 @@ description: The [!DNL Adobe Workfront Fusion Tools] innehåller flera användba
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -112,7 +120,6 @@ Den här modulen kan läsa variabler som har ställts in var som helst i scenari
 >* Felsöka en formel. Om en formel som används i en modul inte verkar ge rätt resultat kopierar du formeln och klistrar in den i en [!UICONTROL Set Variable] som du infogar före den relevanta modulen. Koppla från modulerna efter [!UICONTROL Set Variable] och köra scenariot. Verifiera [!UICONTROL Set Variable] modulens utdata, justera eller förenkla formeln, kör scenariot igen och fortsätta göra det tills problemet är löst.
 
 
-
 #### [!UICONTROL Get Variable]
 
 Den här modulen hämtar ett värde som tidigare skapats av [!UICONTROL Set Variable] eller [!UICONTROL Set Multiple Variables] -modul.
@@ -163,7 +170,6 @@ Den här modulen returnerar ett värde som ökas med 1 efter varje moduls åtgä
 >1. Så här skapar du det här scenariot:
 >1. Ange modulens **[!UICONTROL Reset a value]** fält till Aldrig.
 >1. Ange flöde för udda värden. Ange filtret för den här vägen med den modulus-matematiska funktionen som är lika med `1`:
-
 >
 >   ![](assets/odd-350x459.png)
 >

@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,7 +160,6 @@ När du konfigurerar den här modulen visas följande fält.
 >
 >* Storleken på filen kan överstiga den maximala filstorleken för din [!DNL Box] eller så har du använt alla [!DNL Box] kontots lagringskvot. Om du vill ha mer lagringsutrymme tar du bort befintliga filer från [!DNL Box] eller uppgradera [!DNL Box] konto.
 >* [!DNL Box] skickar inte mer än en fil med samma namn till en enda mapp. Om målmappen innehåller en fil med samma namn som den fil som överförs avslutas scenariot med ett fel. Du kan undvika detta genom att byta namn på filen. Om du vill uppdatera filen använder du **[!UICONTROL Update a file]** -modul.
-
 
 #### [!UICONTROL Update a file]
 

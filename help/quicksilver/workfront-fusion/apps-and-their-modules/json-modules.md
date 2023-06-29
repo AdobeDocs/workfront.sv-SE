@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion JSON-appen innehåller moduler som bearbetar
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,8 +83,7 @@ Om JSON-strängfältet innehåller en samling `{ ... }`, är utdata ett enda pak
 >
 >**Exempel:**
 >
->
-```
+>```
 >{
 >       "name" : "Peter",
 >
@@ -93,8 +100,7 @@ Om JSON-strängfältet innehåller en array `[ ... ]`, är utdata en serie paket
 >
 >**Exempel:**
 >
->
-```
+>```
 >[
 >   {
 >       "name" : "Peter",
@@ -227,39 +233,49 @@ Den här åtgärdsmodulen omvandlar ett objekt till en json-sträng.
 >**Exempel:** I följande exempel visas hur du omformar dataposter från [!DNL Google Sheets] till JSON-format:
 >
 >1. Placera [!DNL Google Sheets] > [!UICONTROL Select rows] i ditt scenario för att hämta data. Konfigurera modulen för att hämta rader från din [!DNL Google] kalkylblad. Ange &#x200B;**[!UICONTROL Maximum number of returned rows]** till ett litet tal, men större än ett för testningsändamål (exempel, tre). Kör [!DNL Google Sheets] genom att högerklicka och välja &quot;**[!UICONTROL Run this module only]**.&quot; Kontrollera modulens utdata.
+>
 1. Anslut [!UICONTROL Array Aggregator] modulen efter [!DNL Google Sheets] -modul. Välj [!DNL Google Sheets] i **[!UICONTROL Source node]** fält. Låt de andra fälten vara som de är för tillfället.
+>
 1. Anslut [!UICONTROL JSON] > [!UICONTROL Create JSON] modulen efter [!UICONTROL Array Aggregator] -modul. Modulens konfiguration kräver en datastruktur som beskriver JSON-formatet. Klicka **[!UICONTROL Add]** för att öppna datastrukturinställningarna. Det enklaste sättet att skapa den här datastrukturen är att generera den automatiskt från ett JSON-exempel. Klicka **[!UICONTROL Generator]** och klistra in JSON-exemplet i **[!UICONTROL Sample data]** fält:
+>
+**Exempel:**
+>   
+```
+{
 
-   **Exempel:**
-   ```
-   {
-   
-   "books": [
-   
-   {
-   
-   "id": "ID",
-   
-   "title": "Title",
-   
-   "author": "Author"
-   
-   }
-   
-   ]
-   
-   }
-   ```
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
+>
 1. Klicka på **[!UICONTROL Save]**. The [!UICONTROL Specification] -fältet i datastrukturen innehåller nu den genererade strukturen.
 1. Ändra namnet på datastrukturen till något mer specifikt och klicka på **[!UICONTROL Save]**. Ett fält som motsvarar rotarrayattributet visas som ett mappningsbart fält i JSON-modulens inställningar.
+>
 1. Klicka på **[!UICONTROL Map]** intill fältet och mappa `Array[]` objekt från Array-aggregatorns utdata till det.
+>
 1. Klicka **[!UICONTROL OK]** för att stänga [!UICONTROL JSON] modulens inställningar.
+>
 1. Öppna inställningarna för [!UICONTROL Array Aggregator] -modul. Ändra **[!UICONTROL Target structure]** från [!UICONTROL Custom] till [!UICONTROL JSON] modulens fält som motsvarar rotmatrisattributet. Mappa objekt från [!DNL Google Sheets] till lämpliga fält.
+>
 1. Klicka **[!UICONTROL OK]** för att stänga [!UICONTROL Array Aggregator] modulens inställningar.
+>
 1. Kör scenariot.
-   The [!UICONTROL JSON] returnerar rätt JSON-format.
+>
+The [!UICONTROL JSON] returnerar rätt JSON-format.
+>
 1. Öppna inställningarna för [!DNL Google Sheets] och öka [!UICONTROL Maximum number of returned rows] talet vara större än antalet rader i kalkylbladet för att bearbeta alla data.
-
 
 ## Felsökning
 
@@ -272,5 +288,7 @@ Kontrollera att JSON-innehållet är korrekt mappat till [!UICONTROL Parse JSON]
 När du använder villkorssatser som `if` i JSON placerar citattecknen utanför villkorssatsen.
 
 >[!INFO]
+>
 **Exempel:**
+>
 ![](assets/quotes-in-json-350x120.png)

@@ -9,9 +9,9 @@ description: Med Adobe Workfront Fusion Google Presentations-modulerna kan du sk
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -241,7 +249,32 @@ Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Emai
    <td> <p>Lägg till värdena:</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>: Ange den tagg som du vill ersätta i presentationen. Exempel: <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>: Ange det värde som den befintliga taggen ska ersättas med. Om en sträng <code>&#123;&#123;Name}}</code><code>Sample</code></li></ul></td></tr><tr><td role="rowheader"></td><td><p></p><ul><li></li><li></li><li></li></ul></td></tr><tr><td role="rowheader"><p></p></td><td><p></p></td></tr><tr><td role="rowheader"></td><td><p></p></td></tr><tr><td role="rowheader"></td><td><p></p></td></tr></tbody></table>
+     <li><strong>[!UICONTROL Replaced Value]</strong>: Ange det värde som den befintliga taggen ska ersättas med. Om en sträng <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+    </ul> </td> 
+  </tr> 
+   
+   <td role="rowheader">[!UICONTROL New Drive Location]</td> 
+   <td> <p>Select the [!DNL Google Drive] where you want to store or add the new presentation:</p> 
+     
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared With Me]</li> 
+     <li>[!UICONTROL [!DNL Google] Shared Drive]</li> 
+    </ul> </td> 
+  </tr> 
+   
+   <td role="rowheader"> <p>[!UICONTROL New Document's Location]</p> </td> 
+   <td> <p>Select the folder where you want to store or add the presentation.</p> </td> 
+  </tr> 
+   
+   <td role="rowheader">[!UICONTROL Shared] </td> 
+   <td> <p>Select if you want to share the presentation.</p> </td> 
+  </tr> 
+   
+   <td role="rowheader">[!UICONTROL Sharing with Other's Email Address]</td> 
+   <td> <p> Enter the email address with whom you want to share the presentation. If you are not entering an email address and selecting only shared field, the presentation is shareable to anyone.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Upload an Image To a Presentation]
 

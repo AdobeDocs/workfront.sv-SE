@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Åtgärd</p> </td> 
-   <td> <p>En uppgift som utförs av en modul. </p> </td> 
+   <td> <p>En uppgift som utförs av en modul.</p><p>Mer information finns i <a href="../../workfront-fusion/get-started/operations-in-workfront-fusion.md" class="MCXref xref">Åtgärder i [!DNL Adobe Workfront Fusion]</a>.</p>
   </tr> 
   <tr> 
    <td role="rowheader">Offentliga/privata nycklar</td> 

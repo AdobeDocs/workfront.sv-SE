@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +76,7 @@ Anslutningsmetoden baseras på om du använder [!DNL Jira Cloud] eller [!DNL Jir
 
 Anslut [!DNL Jira Cloud] till [!DNL Workfront Fusion]
 
-Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]måste du skapa en API-token och infoga den tillsammans med din tjänst-URL och ditt användarnamn i [!UICONTROL Create a connection] fält i [!DNL Workfront Fusion].
+Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]måste du skapa en API-token och infoga den tillsammans med din tjänst-URL och användarnamn i [!UICONTROL Create a connection] fält i [!DNL Workfront Fusion].
 
 #### Skapa en API-token i [!DNL Jira]
 
@@ -114,33 +122,32 @@ Hämta en privat nyckel för [!DNL Workfront Fusion Jira] måste du generera off
 
    * `openssl genrsa -out jira_privatekey.pem 1024`
 
-      Det här kommandot genererar en 1024-bitars privat nyckel.
+     Det här kommandot genererar en 1024-bitars privat nyckel.
 
    * `openssl req -newkey rsa:1024 -x509 -key jira_privatekey.pem -out jira_publickey.cer -days 365`
 
-      Det här kommandot skapar ett X509-certifikat.
+     Det här kommandot skapar ett X509-certifikat.
 
    * `openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8`
 
-      Det här kommandot extraherar den privata nyckeln (PKCS8-format) till `jira_privatekey.pcks8`
+     Det här kommandot extraherar den privata nyckeln (PKCS8-format) till `jira_privatekey.pcks8`
 -fil.
 
    * `openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem`
 
-      Det här kommandot extraherar den offentliga nyckeln från certifikatet till `jira_publickey.pem` -fil.
+     Det här kommandot extraherar den offentliga nyckeln från certifikatet till `jira_publickey.pem` -fil.
 
-      >[!NOTE]
-      >
-      >Om du använder Windows kan du behöva spara den offentliga nyckeln i `jira_publickey.pem` manuellt:
-      >
-      >1. Kör följande kommando i terminalen:
-      >   
-      >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
-      >   
-      >1. Kopiera terminalutdata (inklusive `-------BEGIN PUBLIC KEY--------` och `-------END PUBLIC KEY--------`
-      >   
-      >1. Klistra in terminalutdata i en fil med namnet `jira_publickey.pem`.
-
+     >[!NOTE]
+     >
+     >Om du använder Windows kan du behöva spara den offentliga nyckeln i `jira_publickey.pem` manuellt:
+     >
+     >1. Kör följande kommando i terminalen:
+     >   
+     >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
+     >   
+     >1. Kopiera terminalutdata (inklusive `-------BEGIN PUBLIC KEY--------` och `-------END PUBLIC KEY--------`
+     >   
+     >1. Klistra in terminalutdata i en fil med namnet `jira_publickey.pem`.
 
 
 1. Fortsätt till [Konfigurera klientappen som en konsument i [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)

@@ -7,9 +7,9 @@ description: Med det här scenariot kan du skapa en logg över alla e-postmeddel
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,11 +149,13 @@ Lägg till den första modulen och konfigurera den
 
    * Om du bara vill söka efter e-postadresser kan du använda regex nedan:
 
-      ([\w.-]+@[\w.-]+)
+     ([\w.-]+@[\w.-]+)
 
    * Du kan också söka enbart efter telefonnummer med regex nedan:
 
-      ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4} Ovanstående mönster omfattar de vanligaste formaten som telefonnumret är skrivet i.
+     ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4}
+Ovanstående mönster omfattar de vanligaste formaten där ett telefonnummer skrivs.
+
    Vi rekommenderar att du använder [[!DNL https://regex101.com]](https://regex101.com/) med [!DNL javascript] som Flavor.
 
    Resten av konfigurationen är densamma som den tidigare.
@@ -196,21 +206,21 @@ För [!DNL Sheets]måste vi först skapa ett kalkylblad med de rubriker som beh�
 
       * Innehåller frasen &quot;[!UICONTROL text parser module]&quot; (och ingen e-postadress)
 
-         ![](assets/text-parser-module-350x103.png)
+        ![](assets/text-parser-module-350x103.png)
 
       * Innehåller frasen ovan och en e-postadress
 
-         ![](assets/above-phrase-and-email-350x106.png)
+        ![](assets/above-phrase-and-email-350x106.png)
 
-         Om det inte finns några fel i konfigurationen kommer du att se att det första kalkylbladet hämtar alla e-postmeddelanden som innehåller frasen &quot;[!UICONTROL text parser module]&quot; medan det andra kalkylbladet endast hämtar de som innehåller frasen &quot;[!UICONTROL text parser module]&quot; och en e-postadress. Se skärmbilderna nedan.
+        Om det inte finns några fel i konfigurationen kommer du att se att det första kalkylbladet hämtar alla e-postmeddelanden som innehåller frasen &quot;[!UICONTROL text parser module]&quot; medan det andra kalkylbladet endast hämtar de som innehåller frasen &quot;[!UICONTROL text parser module]&quot; och en e-postadress. Se skärmbilderna nedan.
 
-         Kalkylblad 1:
+        Kalkylblad 1:
 
-         ![](assets/worksheet-1-350x57.png)
+        ![](assets/worksheet-1-350x57.png)
 
-         Kalkylblad 2:
+        Kalkylblad 2:
 
-         ![](assets/worksheet-2-350x41.png)
+        ![](assets/worksheet-2-350x41.png)
 
 ## Resurser
 

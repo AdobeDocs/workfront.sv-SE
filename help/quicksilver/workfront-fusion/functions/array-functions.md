@@ -8,9 +8,9 @@ description: Följande arrayfunktioner är tillgängliga i panelen för mappning
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,11 +100,11 @@ Returnerar en primitiv array som innehåller värden för en komplex array. Den 
 >**Exempel:**
 >
 >* `map(Emails[];email)`
-  >
+>
 >  Returnerar en primitiv array med e-post
 >
 >* `map(Emails[];email;label;work;home)`
-  >
+>
 >  Returnerar en primitiv array med e-postmeddelanden som har en etikett som är lika med arbetet eller hemmet
 
 Mer information finns i [Mappa information från en modul till en annan i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
@@ -124,19 +132,19 @@ Sorterar värden i en array. Giltiga värden för `order` parametern är:
 
 * `asc`
 
-   (standard) - stigande ordning: 1, 2, 3, ... för typen Number. A, B, C, a, b, c, ... för text
+  (standard) - stigande ordning: 1, 2, 3, ... för typen Number. A, B, C, a, b, c, ... för text
 
 * `desc`
 
-   fallande ordning: ..., 3, 2, 1 för typen Number. ..., c, b, a, C, B, A för typen Text.
+  fallande ordning: ..., 3, 2, 1 för typen Number. ..., c, b, a, C, B, A för typen Text.
 
 * `asc ci`
 
-   skiftlägesokänslig stigande ordning: A, a, B, b, C, c, ... för text.
+  skiftlägesokänslig stigande ordning: A, a, B, b, C, c, ... för text.
 
 * `desc ci`
 
-   skiftlägesokänslig fallordning: ..., C, c, B, b, A, a för typen Text.
+  skiftlägesokänslig fallordning: ..., C, c, B, b, A, a för typen Text.
 
 Använd `key` -parameter för att komma åt egenskaper inuti komplexa objekt.
 
@@ -151,21 +159,20 @@ Det första objektet i en array är index 1.
 >**Exempel:**
 >
 >* `sort(Contacts[];name)`
-   >
-   >    Sorterar en array med kontakter efter egenskapen &quot;name&quot; i standardstigande ordning
+>
+>    Sorterar en array med kontakter efter egenskapen &quot;name&quot; i standardstigande ordning
 >
 >* `sort(Contacts[];desc;name)`
-   >
-   >   Sorterar en array med kontakter efter egenskapen &quot;name&quot; i fallande ordning
+>
+>   Sorterar en array med kontakter efter egenskapen &quot;name&quot; i fallande ordning
 >
 >* `sort(Contacts[];asc ci;name)`
-   >
-   >    Sorterar en array med kontakter efter egenskapen &quot;name&quot; i fallokänslig stigande ordning
+>
+>    Sorterar en array med kontakter efter egenskapen &quot;name&quot; i fallokänslig stigande ordning
 >
 >* `sort(Emails[];sender.name)`
-   >
-   >    Sorterar en matris med e-postmeddelanden efter egenskapen &quot;sender.name&quot;
-
+>
+>    Sorterar en matris med e-postmeddelanden efter egenskapen &quot;sender.name&quot;
 
 ## [!UICONTROL arrayDifference [array1, array2, mode]]
 
@@ -177,33 +184,30 @@ Ange ett av följande värden för `mode` parameter.
 
 * `symmetric`: Returnerar en array med element som inte är gemensamma för båda arrayerna.
 
-   Funktionen returnerar med andra ord en array som innehåller alla element i `array1` som inte finns i `array2`och alla element i `array2` som inte finns i `array1`.
+  Funktionen returnerar med andra ord en array som innehåller alla element i `array1` som inte finns i `array2`och alla element i `array2` som inte finns i `array1`.
 
-   >[!INFO]
-   >
-   >**Exempel:**
-   >
-   >Följande arrayer:
-   >
-   >
-   ```
-   >myArray = [1,2,3,4,5]
-   >```
-   >
-   >
-   ```
-   >yourArray = [3,4,5,6,7]
-   >```
-   >
-   >* `arrayDifference [myArray, yourArray, classic]`
-      >
-      >    Returnerar `[1,2]`
-   >
-   >* `arrayDifference [yourArray, myArray, classic]`
-      >
-      >    Returnerar `[6,7]`
-   >
-   >* `arrayDifference [myArray, yourArray, symmetric]`
-      >
-      >    Returnerar `[1,2,6,7]`
-
+  >[!INFO]
+  >
+  >**Exempel:**
+  >
+  >Följande arrayer:
+  >
+  >```
+  >myArray = [1,2,3,4,5]
+  >```
+  >
+  >```
+  >yourArray = [3,4,5,6,7]
+  >```
+  >
+  >* `arrayDifference [myArray, yourArray, classic]`
+  >
+  >    Returnerar `[1,2]`
+  >
+  >* `arrayDifference [yourArray, myArray, classic]`
+  >
+  >    Returnerar `[6,7]`
+  >
+  >* `arrayDifference [myArray, yourArray, symmetric]`
+  >
+  >    Returnerar `[1,2,6,7]`

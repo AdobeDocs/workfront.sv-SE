@@ -9,9 +9,9 @@ description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsfl�
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Mer information om moduler finns i [Moduler i [!DNL Adobe Workfront Fusion]](../
 >* Inte alla utgåvor av [!DNL Salesforce] har API-åtkomst. Mer information finns i informationen om [!DNL Salesforce] utgåvor med API-åtkomst på [!DNL Salesforce] Webbplats för communityn.
 >* För information om specifika fel som returneras från [!DNL Salesforce] API, se [!DNL Salesforce] API-dokument. Du kan även kontrollera status för [!DNL Salesforce] API för eventuella tjänstavbrott.
 >
-
 
 ## Åtkomstkrav
 
@@ -49,11 +48,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -306,7 +313,7 @@ Modulen returnerar följande:
 * **[!UICONTROL Status Code]** (tal): Detta anger om HTTP-begäran lyckades eller misslyckades. Det här är standardkoder som du kan söka efter på Internet.
 * **[!UICONTROL Headers]** (objekt): En mer detaljerad kontext för den svars-/statuskod som inte är relaterad till utdatatexten. Alla sidhuvuden som visas i en svarshuvud är inte svarshuvuden, så en del kanske inte är användbara för dig.
 
-   Svarshuvuden beror på den HTTP-begäran du valde när du konfigurerade modulen.
+  Svarshuvuden beror på den HTTP-begäran du valde när du konfigurerade modulen.
 
 * **[!UICONTROL Body]** (objekt): Beroende på vilken HTTP-begäran du valde när du konfigurerade modulen kan du få tillbaka data. Dessa data, till exempel data från en [!UICONTROL GET] request, finns i det här objektet.
 

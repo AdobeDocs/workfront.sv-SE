@@ -8,9 +8,9 @@ description: Med routermodulen kan du dela in ditt flöde i flera flöden och be
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c39c562-1cee-4f8e-89cc-0ed554079a2b
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ The [!UICONTROL Router] kan du dela in ditt flöde i flera olika flöden och bea
 >
 >* Rutorna bearbetas sekventiellt, inte parallellt. Ett paket skickas inte till nästa väg förrän det har bearbetats fullständigt av föregående väg.
 >
-
 
 
 
@@ -49,11 +48,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,15 +75,15 @@ A [!UICONTROL Router] kan läggas till i ett scenario på något av följande s�
 
 * Om du vill ansluta [!UICONTROL Router] efter en modul, klicka på modulens högra handtag och börja skriva **[!UICONTROL router]** för att söka efter den och sedan välja **[!UICONTROL Flow Control]** > **[!UICONTROL Router]** i listan med moduler som visas.
 
-   ![](assets/connect-the-router-350x108.png)
+  ![](assets/connect-the-router-350x108.png)
 
 * Om du vill infoga [!UICONTROL Router] mellan två moduler, klicka på skiftnyckelsikonen under vägen som förbinder de två modulerna (eller högerklicka på flödet) och välj **[!UICONTROL Add a router]** på menyn.
 
-   ![](assets/insert-router-350x191.png)
+  ![](assets/insert-router-350x191.png)
 
 * Du kan infoga en [!UICONTROL Router] automatiskt. Om du till exempel vill ansluta modulen i det nedre högra hörnet i bilden nedan till den i det övre vänstra hörnet (som redan är ansluten till den i det övre högra hörnet) drar du handtaget i den nedre högra modulen och släpper den i den övre vänstra modulen.
 
-   ![](assets/insert-router-automatically-350x379.png)
+  ![](assets/insert-router-automatically-350x379.png)
 
 ## Filter
 

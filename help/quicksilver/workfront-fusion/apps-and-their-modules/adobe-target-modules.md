@@ -8,9 +8,9 @@ title: Adobe Target-moduler
 description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] kan du skapa, läsa, uppdatera eller ta bort poster, lista alla poster av en viss typ, söka efter poster baserat på villkor som du anger eller utföra ett anpassat API-anrop till [!DNL Adobe Target] API.
 author: Becky
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>
-      <td >
-        <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet]</p>
-      </td>
+      <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
-      <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td>
+      <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td>
     </tr>
     </tr>
   </tbody>

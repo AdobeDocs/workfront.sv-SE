@@ -9,9 +9,9 @@ description: The [!DNL Adobe Workfront Fusion Google Drive] Med moduler kan du �
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -730,17 +738,17 @@ Tänk på följande om operatorer i dessa fält:
 
 * The `contains` operatorn utför bara prefixmatchning för en `title`.
 
-   Titeln&quot;HelloWorld&quot; matchar till exempel `title contains 'Hello'` men inte för `title contains 'World'`.
+  Titeln&quot;HelloWorld&quot; matchar till exempel `title contains 'Hello'` men inte för `title contains 'World'`.
 
 * The `contains` operatorn utför bara matchning på hela strängtoken för `fullText`.
 
-   Om den fullständiga texten i ett dokument till exempel innehåller strängen &quot;HelloWorld&quot; är det bara frågan `fullText contains 'HelloWorld'` returnerar ett resultat. Frågor som `fullText contains 'Hello'` skulle inte returnera resultat i det här scenariot.
+  Om den fullständiga texten i ett dokument till exempel innehåller strängen &quot;HelloWorld&quot; är det bara frågan `fullText contains 'HelloWorld'` returnerar ett resultat. Frågor som `fullText contains 'Hello'` skulle inte returnera resultat i det här scenariot.
 
 * The `contains` -operatorn matchar på en exakt alfanumerisk fras om den omges av citattecken.
 
-   Om `fullText` i ett dokument innehåller strängen &quot;Hello there world&quot; och därefter frågan `fullText contains '"Hello there"'` returnerar ett resultat, men frågan `fullText contains '"Hello world"'` inte.
+  Om `fullText` i ett dokument innehåller strängen &quot;Hello there world&quot; och därefter frågan `fullText contains '"Hello there"'` returnerar ett resultat, men frågan `fullText contains '"Hello world"'` inte.
 
-   Dessutom, eftersom sökningen är alfanumerisk, om `fullText` i ett dokument innehåller strängen &quot;Hello_world&quot; och därefter frågan `fullText contains '"Hello world"'` returnerar ett resultat.
+  Dessutom, eftersom sökningen är alfanumerisk, om `fullText` i ett dokument innehåller strängen &quot;Hello_world&quot; och därefter frågan `fullText contains '"Hello world"'` returnerar ett resultat.
 
 * Fält i `type` datum är för närvarande inte jämförbara med varandra, bara med konstanta datum.
 
@@ -842,55 +850,38 @@ För sammansatta satser kan du använda parenteser för att gruppera satser. Til
 Alla exempel på den här sidan visar den okodade `<q>q</q>` parameter, var `title = 'hello'` är kodad som `title+%3d+%27hello%27`. Klientbibliotek hanterar den här kodningen automatiskt.
 
 * Sök efter filer med namnet &quot;hello&quot;
-
-   <pre>title = 'hello'</pre>
+  <pre>title = 'hello'</pre>
 * Sök efter mappar med den mappspecifika MIME-typen
-
-   <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
 * Sök efter filer som inte är mappar
-
-   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
 * Sök efter filer med ett namn som innehåller orden &quot;hello&quot; och &quot;hejdå&quot;
-
-   <pre>titeln innehåller "hello" och [!UICONTROL name] innehåller 'adjö'</pre>
+  <pre>titeln innehåller "hello" och [!UICONTROL name] innehåller 'adjö'</pre>
 * Sök efter filer med ett namn som inte innehåller ordet &quot;hello&quot;
-
-   <pre>inte titeln innehåller 'hello'</pre>
+  <pre>inte titeln innehåller 'hello'</pre>
 * Sök efter filer som innehåller ordet &quot;hello&quot; i innehållet
-
-   <pre>fullText innehåller 'hello'</pre>
+  <pre>fullText innehåller 'hello'</pre>
 * Sök efter filer som inte innehåller ordet &quot;hello&quot; i innehållet
-
-   <pre>not fullText contains 'hello'</pre>
+  <pre>not fullText contains 'hello'</pre>
 * Sök efter filer som innehåller den exakta frasen&quot;hello world&quot; i innehållet
-
-   <pre>fullText innehåller '"hello world"'fullText innehåller '"hello_world"'</pre>
+  <pre>fullText innehåller '"hello world"'fullText innehåller '"hello_world"'</pre>
 * Sök efter filer med en fråga som innehåller tecknet &quot;\&quot; (t.ex. &quot;\authors&quot;)
-
-   <pre>fullText innehåller '\\authors'</pre>
+  <pre>fullText innehåller '\\authors'</pre>
 * Sök efter filer som kan skrivas av användaren &quot;test@example.org&quot;
-
-   <pre>'test@example.org' i [!DNL writers]</pre>
+  <pre>'test@example.org' i [!DNL writers]</pre>
 * Sök efter ID `1234567` i `parents` samling. Detta söker efter alla filer och mappar som finns direkt i mappen vars ID är `1234567`.
-
-   <pre>"1234567" i [!UICONTROL parents]</pre>
+  <pre>"1234567" i [!UICONTROL parents]</pre>
 * Sök efter alias-ID `appDataFolder` i `parents` samling. Detta söker efter alla filer och mappar som finns direkt under [Programdatamapp](https://developers.google.com/drive/api/v2/appdata).
-
-   <pre>appDataFolder i parent</pre>
+  <pre>appDataFolder i parent</pre>
 * Sök efter filer som kan skrivas av användarna &quot;test@example.org&quot; och &quot;test2@example.org&quot;
-
-   <pre>test@example.org i skribenter och test2@example.org i skribenter</pre>
+  <pre>test@example.org i skribenter och test2@example.org i skribenter</pre>
 * Sök efter filer som innehåller texten &quot;important&quot; och som finns i papperskorgen
-
-   <pre>fullText innehåller 'important' och trashed = true</pre>
+  <pre>fullText innehåller 'important' och trashed = true</pre>
 * Sök efter filer som ändrats efter 4 juni 2012
-
-   <pre>modifiedDate &gt; '2012-06-04T12:00:00' // standardtidszonen är UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
+  <pre>modifiedDate &gt; '2012-06-04T12:00:00' // standardtidszonen är UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
 * Sök efter filer som delas med den behöriga användaren med &quot;hello&quot; i namnet
-
-   <pre>sharedWithMe och title innehåller "hello"</pre>
+  <pre>sharedWithMe och title innehåller "hello"</pre>
 * Sök efter filer med en [anpassad filegenskap](https://developers.google.com/drive/api/v2/properties) namngiven `additionalID` med värdet `8e8aceg2af2ge72e78`.
-
-   <pre>har { key='additionalID' och value='8e8aceg2af2ge72e78' och visibility='PRIVATE' }</pre>
+  <pre>har { key='additionalID' och value='8e8aceg2af2ge72e78' och visibility='PRIVATE' }</pre>
 
 Källan till den här guiden är [[!DNL Google Drive] dokumentation](https://developers.google.com/drive/api/v2/search-shareddrives).

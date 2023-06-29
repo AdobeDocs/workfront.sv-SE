@@ -9,9 +9,9 @@ description: Du kan använda Mutual TLS i dina Adobe Workfront Fusion HTTP-modul
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ Med ömsesidig TLS kan den här identitetsbekräftelsen användas på båda sät
 >**Exempel:**
 >
 >* **TLS**: När en person skriver&quot;MyGreatBank.com&quot; i en webbläsare vill de vara säkra på att de går till My Great Bank, inte en webbplats som kan missbrukas eller sälja sin bankinformation. De vill också vara säkra på att deras bankkontoinformation är krypterad.
-   >
-   >   När webbläsaren (klienten) ansluter till MyGreatBank.com (servern) kräver TLS ett certifikat från MyGreatBank.com för att verifiera dess identitet. Certifikatet tillhandahålls av en certifikatutfärdare som [!DNL DigiCert] eller [!DNL Thawte]. Eftersom webbläsaren litar på certifikatutfärdaren tillåts anslutningen.
+>
+>   När webbläsaren (klienten) ansluter till MyGreatBank.com (servern) kräver TLS ett certifikat från MyGreatBank.com för att verifiera dess identitet. Certifikatet tillhandahålls av en certifikatutfärdare som [!DNL DigiCert] eller [!DNL Thawte]. Eftersom webbläsaren litar på certifikatutfärdaren tillåts anslutningen.
 >
 >* **Ömsesidig TLS**: MySoftware.com är en programvaruklient som behöver information från API:t MyGreatBank.com. MyGreatBank tillåter bara betrodda klienter att ansluta till sina servrar. Förutom den vanliga TLS-verifieringen av identiteten på MyGreatBank.com verifierar TLS/certificate Authority-processen även begäran från MySoftware.com.
-
 
 ## Åtkomstkrav
 
@@ -57,11 +56,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,17 +95,16 @@ Du kan använda följande länkar för att hämta Workfront Fusion offentliga ce
 >[!IMPORTANT]
 >
 >* Dessa [!DNL Workfront Fusion] offentliga certifikat upphör att gälla den 9 juni 2024. När ditt certifikat har gått ut måste du överföra det till webbtjänsten. Vi rekommenderar att du:
-   >
-   >   * Notera förfallodatumet och ange en påminnelse för dig själv om att överföra certifikatet till din webbtjänst.
-   >   * Bokmärk den här sidan för att enkelt hitta de nya certifikaten.
+>
+>   * Notera förfallodatumet och ange en påminnelse för dig själv om att överföra certifikatet till din webbtjänst.
+>   * Bokmärk den här sidan för att enkelt hitta de nya certifikaten.
 >
 >* Dessa är mTLS-certifikat som inte är jokertecken.
-
 
 * [Hämta [!DNL Workfront Fusion] Certifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [Hämta [!DNL Workfront Fusion] EU-certifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
-   För användning i EU
+  För användning i EU
 
 <!--
 

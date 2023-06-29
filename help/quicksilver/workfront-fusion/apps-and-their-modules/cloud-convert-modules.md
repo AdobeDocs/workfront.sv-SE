@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,19 @@ I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som anv�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -483,7 +491,6 @@ Utlöses när ett jobb i ditt konto eller din uppgift skapas, avslutas eller mis
 >* The [!UICONTROL New Job Event] utlösaren aktiveras också när en *individuell* aktiviteten har skapats, slutförts eller misslyckats.
 >
 
-
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -787,9 +794,7 @@ I följande tabell visas möjliga fel och deras lösningar:
 >
 >1. Öppna modulens inställningar.
 >1. Konfigurera modulen enligt nedan:
-
 >
 >   ![](assets/cloudconvert-mp4-example.png)
 >
 >1. Se till att du inkluderar alla inställningar i fältet Konvertering och motorspecifika alternativ: för varje inställning från steg 5, leta upp motsvarande parameter från steg 13 och dess motsvarande värde.
-

@@ -10,9 +10,9 @@ description: Med [!DNL Adobe Experience Manager Assets] anslutning för [!DNL Ad
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +65,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 * Du måste ha en [!DNL Adobe Experience Manager Assets] för att använda dessa moduler.
 * Du måste konfigurera [!UICONTROL Server-to-server] i [!DNL Adobe Developer console].
 
-   Instruktioner om hur du konfigurerar [!UICONTROL Server-to-server] i [!DNL Adobe Developer console], se [Genererar åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+  Instruktioner om hur du konfigurerar [!UICONTROL Server-to-server] i [!DNL Adobe Developer console], se [Genererar åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
 ## Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
@@ -69,11 +77,11 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Assets] moduler:
 
    * **[!DNL AEM Assets as a Cloud Service]**
 
-      Den här konfigurationen kräver information från [!DNL Adobe Admin Console].
+     Den här konfigurationen kräver information från [!DNL Adobe Admin Console].
 
    * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
-      Den här konfigurationen kräver ett användarnamn och lösenord.
+     Den här konfigurationen kräver ett användarnamn och lösenord.
 
 3. Fyll i fälten för den typ av anslutning som du skapar.
 

@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs de inställningar som är tillgänglig
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,11 +106,11 @@ Det kan vara praktiskt att ange fler cykler när du vill förhindra avbrott i an
 
 * Om scenariot börjar med en avsökningsutlösare definierar inställningen det maximala antalet cykler som tillåts under scenariokörningen.
 
-   Mer information om avsökningsutlösare finns i [Avsökningsutlösare](../../workfront-fusion/modules/module-types.md#polling) in [Typer av moduler](../../workfront-fusion/modules/module-types.md).
+  Mer information om avsökningsutlösare finns i [Avsökningsutlösare](../../workfront-fusion/modules/module-types.md#polling) in [Typer av moduler](../../workfront-fusion/modules/module-types.md).
 
 * Om scenariot börjar med en direktutlösare ignoreras inställningen och alla väntande händelser bearbetas under en enda körning, en händelse per cykel.
 
-   Mer information om direktutlösare finns i [Direktutlösare](../../workfront-fusion/modules/module-types.md#instant) in [Typer av moduler](../../workfront-fusion/modules/module-types.md).
+  Mer information om direktutlösare finns i [Direktutlösare](../../workfront-fusion/modules/module-types.md#instant) in [Typer av moduler](../../workfront-fusion/modules/module-types.md).
 
 * Om scenariot inte börjar med en utlösare (direkt/avsökning) utförs alltid det angivna maximala antalet cykler.
 

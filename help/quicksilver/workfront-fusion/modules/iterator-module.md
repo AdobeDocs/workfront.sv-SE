@@ -8,9 +8,9 @@ description: En Iterator-modul är en särskild typ av modul som konverterar en 
 author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
-source-git-commit: a2060e7179f2295bfd42da84bd7bca9862ad0a17
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,11 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -65,15 +69,14 @@ Mer information finns i [Konfigurera en moduls inställningar i Adobe Workfront 
 >**Exempel:**
 >
 >* I scenariot nedan visas hur du hämtar e-postmeddelanden med bilagor och sparar de bifogade filerna som enskilda filer i ett valt [!DNL Dropbox] mapp.
-   >
-   >   E-postmeddelanden kan innehålla en array med bilagor. The [!UICONTROL Iterator] som infogats efter den första modulen gör att du kan hantera varje bifogad fil separat. The [!UICONTROL Iterator] delar upp arrayen med bilagor i enskilda paket. Varje paket, med en bifogad fil, sparas sedan en i taget i ett markerat [!DNL Dropbox] mapp. The [!UICONTROL Iterator] moduluppsättningen visas ovan: den [!UICONTROL Array] fältet ska innehålla `Attachments` array.
-   >
-   >   ![](assets/attachments-array-350x154.jpg)
+>
+>   E-postmeddelanden kan innehålla en array med bilagor. The [!UICONTROL Iterator] som infogats efter den första modulen gör att du kan hantera varje bifogad fil separat. The [!UICONTROL Iterator] delar upp arrayen med bilagor i enskilda paket. Varje paket, med en bifogad fil, sparas sedan en i taget i ett markerat [!DNL Dropbox] mapp. The [!UICONTROL Iterator] moduluppsättningen visas ovan: den [!UICONTROL Array] fältet ska innehålla `Attachments` array.
+>
+>   ![](assets/attachments-array-350x154.jpg)
 >
 >* För enkelhetens skull: [!DNL Workfront Fusion] appar erbjuder specialiserad [!UICONTROL Iterator] moduler med förenklad konfiguration. Till exempel [!UICONTROL Email] -appen innehåller [!UICONTROL Iterator] modul [!UICONTROL Email] > [!UICONTROL Iterate attachments] som ger samma resultat som [!UICONTROL Iterator] -modul.
-   >
-   >   ![](assets/specialized-iterators-350x135.jpg)
-
+>
+>   ![](assets/specialized-iterators-350x135.jpg)
 
 
 ## Felsökning: Mappningspanelen visar inte mappningsbara objekt under [!UICONTROL Iterator] modul

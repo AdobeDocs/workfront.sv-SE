@@ -8,9 +8,9 @@ description: Följande datum- och tidsfunktioner är tillgängliga i panelen fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
+   <td>
+   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>eller</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>
+   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>eller</p>
+   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,21 +109,20 @@ The `formatDate` funktionen returnerar en textrepresentation av det angivna Date
 >![](assets/date&time-functions-examples-350x61.png)
 >
 >* `formatDate(1. Date created;MM/DD/YYYY)`
-   >
-   >    Returer 2018-10-01
+>
+>    Returer 2018-10-01
 >
 >* `formatDate(1. Date created; YYYY-MM-DD hh:mm A)`
-   >
-   >   Returnerar 2018-10-01 09:32
+>
+>   Returnerar 2018-10-01 09:32
 >
 >* `formatDate(1. Date created;DD.MM.YYYY HH:mm;UTC)`
-   >
-   >    Returnerar 01.10.2018 07:32
+>
+>    Returnerar 01.10.2018 07:32
 >
 >* `formatDate(now;DD.MM.YYYY HH:mm)`
-   >
-   >    Returnerar 19.03.2019 15:30
-
+>
+>    Returnerar 19.03.2019 15:30
 
 ## [!UICONTROL parseDate (text; format; [timezone])]
 
@@ -166,16 +173,16 @@ Den här funktionen konverterar en textsträng till ett datum enligt det format 
 >**Exempel:** I följande exempel uttrycks det returnerade Date-värdet enligt ISO 8601, men datatypen för resultatet är Date.
 >
 >* `parseDate(2016-12-28;YYYY-MM-DD)`
-   >
-   >    Returnerar 2016-12-28T00:00:00,000Z
+>
+>    Returnerar 2016-12-28T00:00:00,000Z
 >
 >* `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
-   >
-   >    Returnerar 2016-12-28T16:03:00,000Z
+>
+>    Returnerar 2016-12-28T16:03:00,000Z
 >
 >* `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
-   >
-   >    Returnerar 2016-12-28T16:03:06,000Z
+>
+>    Returnerar 2016-12-28T16:03:06,000Z
 >
 >* `parseDate(1482940986;X)`
 >
@@ -190,13 +197,12 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal dagar har lagt
 >**Exempel:**
 >
 >* `addDays(2016-12-08T15:55:57.536Z;2)`
-   >
-   >    Returnerar 2016-12-10T15:55:57,536Z
+>
+>    Returnerar 2016-12-10T15:55:57,536Z
 >
 >* `addDays(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Returnerar 2016-12-6T15:55:57,536Z
-
+>
+>    Returnerar 2016-12-6T15:55:57,536Z
 
 ## [!UICONTROL addHours (date; number)] {#addhours-date-number}
 
@@ -207,13 +213,12 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal timmar har lag
 >**Exempel:**
 >
 >* `addHours(2016-12-08T15:55:57.536Z; 2)`
-   >
-   >    Returnerar 2016-12-08T17:55:57,536Z
+>
+>    Returnerar 2016-12-08T17:55:57,536Z
 >
 >* `addHours(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Returnerar 2016-12-08T13:55:57,536Z
-
+>
+>    Returnerar 2016-12-08T13:55:57,536Z
 
 ## [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
 
@@ -224,13 +229,12 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal minuter har la
 >**Exempel:**
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;2)`
-   >
-   >    Returnerar 2016-12-08T15:57:57,536Z
+>
+>    Returnerar 2016-12-08T15:57:57,536Z
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >    Returnerar 2016-12-08T15:53:57,536Z
-
+>
+>    Returnerar 2016-12-08T15:53:57,536Z
 
 ## [!UICONTROL addMonths (date; number)] {#addseconds-date-number}
 
@@ -241,13 +245,12 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal månader har l
 >**Exempel:**
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;2)`
-   >
-   >    Returnerar 2016-10-08T15:55:57,536Z
+>
+>    Returnerar 2016-10-08T15:55:57,536Z
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;-2)`
-   >
-   >    Returnerar 2016-06-08T15:55:57,536Z
-
+>
+>    Returnerar 2016-06-08T15:55:57,536Z
 
 ## [!UICONTROL addSeconds (date; number)]
 
@@ -258,13 +261,12 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal sekunder har l
 >**Exempel:**
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;2)`
-   >
-   >   Returnerar 2016-12-08T15:55:59,536Z
+>
+>   Returnerar 2016-12-08T15:55:59,536Z
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
-   >
-   >   Returnerar 2016-12-08T15:55:55,536Z
-
+>
+>   Returnerar 2016-12-08T15:55:55,536Z
 
 ## [!UICONTROL addYears (date; number)]
 
@@ -275,13 +277,12 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal år har lagts 
 >**Exempel:**
 >
 >* `addYears(2016-08-08T15:55:57.536Z;2)`
-   >
-   >    Returnerar 2018-08-08T15:55:57,536Z
+>
+>    Returnerar 2018-08-08T15:55:57,536Z
 >
 >* `addYears(2016-12-08T15:55:57.536Z; -2)`
-   >
-   >    Returnerar 2014-08-08T15:55:57,536Z
-
+>
+>    Returnerar 2014-08-08T15:55:57,536Z
 
 ## [!UICONTROL setSecond (date; number)]
 
@@ -296,13 +297,12 @@ Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använd
 >**Exempel:**
 >
 >* `setSecond(2015-10-07T11:36:39.138Z;10)`
-   >
-   >    Returnerar 2015-10-07T11:36:10.138Z
+>
+>    Returnerar 2015-10-07T11:36:10.138Z
 >
 >* `setSecond(2015-10-07T11:36:39.138Z; 6)`
-   >
-   >    Returnerar 2015-10-07T11:37:01.138Z
-
+>
+>    Returnerar 2015-10-07T11:37:01.138Z
 
 ## [!UICONTROL setMinute (date; number)]
 
@@ -317,13 +317,12 @@ Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använd
 >**Exempel:**
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;10)`
-   >
-   >    Returnerar 2015-10-07T11:10:39,138Z
+>
+>    Returnerar 2015-10-07T11:10:39,138Z
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;61)`
-   >
-   >    Returnerar 2015-10-07T12:01:39,138Z
-
+>
+>    Returnerar 2015-10-07T12:01:39,138Z
 
 ## [!UICONTROL setHour (date; number)]
 
@@ -338,13 +337,12 @@ Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använd
 >**Exempel:**
 >
 >* `setHour(2015-08-07T11:36:39.138Z;6)`
-   >
-   >   Returer 2015-08-07T06:36:39,138Z
+>
+>   Returer 2015-08-07T06:36:39,138Z
 >
 >* `setHour(2015-08-07T11:36:39.138;-6)`
-   >
-   >    Returnerar 2015-08-06T18:36:39,138Z
-
+>
+>    Returnerar 2015-08-06T18:36:39,138Z
 
 ## [!UICONTROL setDay (date; number/name of the day in English)]
 
@@ -359,17 +357,16 @@ Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använd
 >**Exempel:**
 >
 >* `setDay(2018-06-27T11:36:39.138Z;Monday)`
-   >
-   >   Returnerar 2018-06-25T11:36:39,138Z
+>
+>   Returnerar 2018-06-25T11:36:39,138Z
 >
 >* `setDay(2018-06-27T11:36:39.138Z;1)`
-   >
-   >   Returnerar 2018-06-24T11:36:39,138Z
+>
+>   Returnerar 2018-06-24T11:36:39,138Z
 >
 >* `setDay(2018-06-27T11:36:39.138Z;7)`
-   >
-   >   Returnerar 2018-06-30T11:36:39,138Z
-
+>
+>   Returnerar 2018-06-30T11:36:39,138Z
 
 ## [!UICONTROL setDate (date; number)]
 
@@ -382,13 +379,12 @@ Ange ett tal mellan 1 och 31. Om talet ligger utanför det här intervallet retu
 >**Exempel:**
 >
 >* `setDate(2015-08-07T11:36:39.138Z;5)`
-   >
-   >   Returnerar 2015-08-05T11:36:39,138Z
+>
+>   Returnerar 2015-08-05T11:36:39,138Z
 >
 >* `setDate(2015-08-07T11:36:39.138Z;32)`
-   >
-   >   Returnerar 2015-09-01T11:36:39,138Z
-
+>
+>   Returnerar 2015-09-01T11:36:39,138Z
 
 ## [!UICONTROL setMonth (date; number/name of the month in English)]
 
@@ -401,17 +397,16 @@ Ange ett tal mellan 1 och 12. Om talet ligger utanför det här intervallet retu
 >**Exempel:**
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;5)`
-   >
-   >   Returnerar 2015-05-07T11:36:39,138Z
+>
+>   Returnerar 2015-05-07T11:36:39,138Z
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;17)`
-   >
-   >   Returnerar 2016-05-07T11:36:39,138Z
+>
+>   Returnerar 2016-05-07T11:36:39,138Z
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;january)`
-   >
-   >   Returnerar 2015-01-07T12:36:39,138Z
-
+>
+>   Returnerar 2015-01-07T12:36:39,138Z
 
 ## [!UICONTROL setYear (date; number)]
 
@@ -422,9 +417,8 @@ Returnerar ett nytt datum med året angivet i parametrar.
 >**Exempel:**
 >
 >* `setYear(2015-08-07T11:36:39.138Z;2017)`
-   >
-   >   Returnerar 2017-08-07T11:36:39,138Z
-
+>
+>   Returnerar 2017-08-07T11:36:39,138Z
 
 ## [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
@@ -449,17 +443,16 @@ Om ingen enhet anges returnerar funktionen differensen i millisekunder.
 >**Exempel:**
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
-   >
-   >    Returnerar `600,000`
+>
+>    Returnerar `600,000`
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)`
-   >
-   >    Returnerar `4`
+>
+>    Returnerar `4`
 >
 >* `dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)`
-   >
-   >    Returnerar `1`
-
+>
+>    Returnerar `1`
 
 ## Ytterligare exempel
 
@@ -538,7 +531,6 @@ En möjlighet är att använda följande uttryck:
 >* Värden för `D1`och `D2` måste vara datatypsvärden. Om de är strängtypsvärden (till exempel 20.10.2018) använder du `parseDate()` funktionen för att konvertera dem till värden av typen Date.
 >
 >* The `round()` -funktionen används för fall när ett av datumen ligger inom sommartidsperioden och det andra inte gör det. I dessa fall är skillnaden i timmar en timme mindre eller mer. Du kan dividera det med 24 för ett resultat som inte är ett heltal. Du förlorar en timmes sommartid. Rund förenklar den så att du inte får en procentandel
-
 
 ### Så här beräknar du sista dagen/millisekunden i månaden
 
