@@ -8,7 +8,7 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
+source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -26,13 +26,12 @@ ht-degree: 0%
 >Den nya [!DNL SharePoint] integreringen släpptes till produktion med version 22.3 (juli 2022.) Även om dina användare fortfarande kan komma åt dokument som är länkade via äldre versioner [!DNL SharePoint] måste de använda den nya [!DNL SharePoint] integrering för att länka dokument från SharePoint.
 >
 >* Den nya SharePoint-integreringen kräver ingen konfiguration av en administratör och kan konfigureras av enskilda användare. För att övergången till den nya SharePoint-integreringen ska bli så smidig som möjligt måste Workfront-administratören göra några smärre ändringar i Workfront Setup-området.
-   >
-   >    Mer information och instruktioner finns i [Konfigurera den gamla SharePoint-integreringen för fortsatt åtkomst till dokument](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) i den här artikeln.
+>
+>    Mer information och instruktioner finns i [Konfigurera den gamla SharePoint-integreringen för fortsatt åtkomst till dokument](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) i den här artikeln.
 >    
 >* Vi rekommenderar användare att länka dokument som för närvarande är länkade via äldre [!DNL SharePoint] integrering genom den nya integreringen.
-   >    
-   >    Instruktioner om hur du länkar dokument finns i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
-
+>    
+>    Instruktioner om hur du länkar dokument finns i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Ni kan integrera [!DNL Workfront] med [!DNL SharePoint Online], ger användarna möjlighet att navigera till, länka och lägga till [!DNL SharePoint] dokument i Workfront. Den angivna funktionaliteten liknar den för andra [!DNL Workfront] integreringar, som [!DNL Google Drive], [!DNL Box]och [!DNL Dropbox].
 
@@ -82,7 +81,6 @@ Instruktioner om hur du länkar dokument genom det nya [!DNL SharePoint] integre
 >* A [!DNL SharePoint] kan ansluta till en enda [!DNL SharePoint] -instans. Därför kan en användare konfigurera en integrering för en [!DNL SharePoint], men kan inte konfigurera en integrering till en sekund [!DNL SharePoint], även om de har behörighet till och dokument på den andra [!DNL SharePoint].
 >
 >* En användare har åtkomst till samma platser, samlingar, mappar, undermappar och filer via [!DNL Workfront] [!DNL SharePoint] som de har i sina [!DNL SharePoint] konto.
-
 
 ## Säkerhets-, åtkomst- och auktoriseringsinformation för [!DNL SharePoint] integration
 
@@ -135,7 +133,6 @@ För att säkerställa att du kan komma åt dokument som är länkade via äldre
 >
 > * Det gamla [!DNL SharePoint] integreringen heter &quot;[!DNL SharePoint].&quot;
 > * Den nya [!DNL SharePoint] integreringen heter &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].&quot;
-
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Setup]** ![Inställningar](../get-started-wf-administration/assets/gear-icon-settings.png).
 1. Välj **[!UICONTROL Documents]** i den vänstra navigeringen väljer du **[!UICONTROL Cloud Providers]**.
@@ -449,7 +446,7 @@ Så här visar du en webbplatssamling i [!DNL Workfront]måste följande villkor
 
 * Användaren måste ha vyåtkomst till webbplatssamlingen i [!DNL SharePoint].
 
-   Så här verifierar du [!DNL SharePoint], gå till [!DNL SharePoint]och öppna webbplatssamlingen > [!UICONTROL Settings] > [!UICONTROL Site permissions].
+  Så här verifierar du [!DNL SharePoint], gå till [!DNL SharePoint]och öppna webbplatssamlingen > [!UICONTROL Settings] > [!UICONTROL Site permissions].
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
