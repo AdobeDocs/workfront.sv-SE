@@ -29,8 +29,9 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
 > * Om du är på **kvartalsvis** releasespår kommer releasen efter 23.3 att **23.10**, i oktober 2023.
 > 
 > Kvartalsvisa releaser kommer att innehålla funktionalitet från tre månadsversioner. Den 23.10 kvartalsversionen kommer till exempel att innehålla funktioner som släpptes i månadsversionerna 23.8, 23.9 och 23.10.
+>
 >|Månadsutgåva|Kvartalsutgåva|
->|—|—|
+>|----|----|
 >|<ul><li>23.8 (augusti 2023)</li><li>23.9 (september 2023)</li><li>23.10 (oktober 2023)</li></ul>| <ul><li>23.10 (oktober 2023)</li></ul>|
 >|<ul><li>23.11 (november 2023)</li><li>23.12 (december 2023)</li><li>24.1 (januari 2024)</li></ul>| <ul><li>24.1 (januari 2024)</li></ul>|
 
