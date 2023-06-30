@@ -3,9 +3,9 @@ title: 23.3 Projektförbättringar
 description: 23.3 Projektförbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,10 @@ I den här första versionen har godkännandeprocessen förenklats både för at
 * Fatta godkännandebeslut direkt från Mina uppdateringar och Startsidan
 * Skapa godkännanden för specifika dokumentversioner
 
-Mer information om hur du använder de nya dokumentgodkännandena finns i [Dokumentgranskningar och godkännanden](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.html?lang=en).
+Mer information om hur du använder de nya dokumentgodkännandena finns i [Översikt över nya dokumentgodkännanden](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+
+## Knappen Ny delning
+
+Alternativet Dela har tagits bort från menyn Mer för projekt, uppgifter och ärenden för att göra delningen mer intuitiv. Den nya knappen Dela visas nu bredvid ett objekts namn precis före menyn Mer. Att dela dokument, portfolior och program förblir oförändrat.
+
+Mer information om att dela objekt finns i [Dela ett objekt](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).

@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Alina
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Mer information om att dela behörigheter för objekt finns i [Översikt över d
 >
 >En Workfront-administratör kan lägga till eller ta bort behörigheter för alla objekt i systemet, för alla användare, utan att vara ägare av dessa objekt.
 
-I den här artikeln beskrivs hur du delar följande objekt för vilka delningen är identisk: 
+I den här artikeln beskrivs hur du delar följande objekt: 
 
 * Projekt, uppgifter, problem
 * Portfolio, program
@@ -43,13 +43,13 @@ Mer information om hur du delar alla andra objekt i Workfront finns i följande 
    * [Dela en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Dela en kalenderrapport](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-   Mer information finns i [Dela rapporter, kontrollpaneler och kalendrar](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) för allmän information om att dela rapporter, kontrollpaneler och kalendrar. 
+  Mer information finns i [Dela rapporter, kontrollpaneler och kalendrar](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) för allmän information om att dela rapporter, kontrollpaneler och kalendrar. 
 
 * Information om filter, vyer och grupperingar finns i [Dela ett filter, en vy eller en gruppering](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * Information om dokumentmappar finns i [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Information om planer finns i [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md).
 
-   Detta kräver ytterligare en licens.
+  Detta kräver ytterligare en licens.
 
 * För mål, se [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md). Detta kräver ytterligare en licens.
 
@@ -120,7 +120,17 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 1. Gå till objektet som du vill dela.
 
    Mer information om vilka objekt som kan delas finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. Klicka på **Mer** icon ![](assets/more-icon.png)bredvid objektnamnet och klicka sedan på **Delning** eller **Dela.**
+1. För projekt, uppgifter och ärenden:
+
+   Klicka på **Dela** intill objektnamnet.
+
+   ![](assets/new-share-button.png)
+
+   ELLER
+
+   För dokument, portfolior och program:
+
+   Klicka på **Mer** icon ![](assets/more-icon.png)bredvid objektnamnet och klicka sedan på **Delning** eller **Dela.**
 
    ![](assets/share-a-document-350x160.png)
 
@@ -140,6 +150,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >
    >
    >![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)   >
+   >
 
 1. (Valfritt) Upprepa steg 3 för varje användare, team, roll eller grupp som du vill ge åtkomst till objektet.
 
@@ -156,22 +167,27 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    * **Visa:** Användare kan granska och dela objektet. 
    * **Contribute****:** Användare kan göra uppdateringar, logga information, göra mindre ändringar och dela, plus alla visningsbehörigheter.
 
-      >[!TIP]
-      >
-      >Du kan bara ge Contribute-behörigheter till följande objekt: 
-      * Projekt
-      * Uppgifter
-      * Problem
-
+     >[!TIP]
+     >
+     >Du kan bara ge Contribute-behörigheter till följande objekt: 
+     >
+     >   
+     >   
+     * Projekt
+     * Uppgifter
+     * Problem
+     >   
+     >
 
    * **Hantera:**Användare har fullständig åtkomst till objektet utan administratörsbehörighet, som ges på åtkomstnivå, plus alla Visa- och Contribute-behörigheter.
 
-      >[!NOTE]
-       Workfront-administratören eller objektskaparen kan ta bort behörigheter från dessa entiteter.
+     >[!NOTE]
+     >
+      Workfront-administratören eller objektskaparen kan ta bort behörigheter från dessa entiteter.
 
-       
+      
 
-      ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
 1. (Valfritt) Klicka på **Avancerade alternativ** för att konfigurera specifika behörigheter för objektet.
 
@@ -188,20 +204,23 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    När du har definierat behörigheter för ett projekt tillämpas dessa behörigheter automatiskt nästa gång du skapar ett projekt från början.
 
    >[!NOTE]
+   >
    Projektets åtkomstmall åsidosätter delningsstandardinställningarna som du har fått av Workfront-administratören på din åtkomstnivå.\
    Mer information om hur du anger delningsstandardvärden för projekt på åtkomstnivå finns i [Bevilja åtkomst till projekt](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md) . >
+   >
    <!--   >
    ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >(NOTE: (this note also appears in Understanding Project Permissions.))   >
    ></MadCap:conditionalText>   >
    >-->   >
-
+   >
 
    Du kan ange behörigheter för de projekt som ska skapas från en mall när du delar mallen. Mer information finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 1. (Valfritt) Om du vill göra objektet offentligt klickar du på **Gör detta offentligt för externa användare**.
 
    >[!TIP]
+   >
    Det här alternativet är inte tillgängligt för alla objekt.
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
@@ -210,6 +229,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    Alla användare med länken kan visa objektet.
 
    >[!CAUTION]
+   >
    Vi rekommenderar att du använder försiktighet när du delar objekt som innehåller konfidentiell information med externa användare. På så sätt kan de visa information utan att vara Workfront-användare eller del av organisationen.
 
 1. Klicka **Spara**.
@@ -219,6 +239,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Från en lista med objekt kan du dela flera objekt samtidigt med andra användare, team, grupper, jobbroller eller företag.
 
 >[!IMPORTANT]
+>
 När du delar objekt i grupp visas inte namnen på de enheter som har behörighet till de enskilda objekten. När du delar flera objekt samtidigt läggs de enheter som du lägger till i delningslistan till i de markerade objekten. De åsidosätter inte de enheter som är associerade med de enskilda objekten. 
 
 Så här delar du flera objekt samtidigt:
@@ -229,6 +250,7 @@ Så här delar du flera objekt samtidigt:
    Användare som redan har åtkomst till objektet visas inte som tillgängliga vid gruppdelning.
 
    >[!NOTE]
+   >
    Om du inte har behörighet att dela ett objekt som du har valt **Dela** knappen är inte synlig.
 
 1. I **Redigera `<Object Name>` behörighet för** börjar du skriva namnet på en användare, ett team, en grupp, en jobbroll eller ett företag som du vill ge behörighet till.
