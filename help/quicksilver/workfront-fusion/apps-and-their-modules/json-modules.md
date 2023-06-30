@@ -88,7 +88,7 @@ Om JSON-strängfältet innehåller en samling `{ ... }`, är utdata ett enda pak
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Om JSON-strängfältet innehåller en array `[ ... ]`, är utdata en serie paket
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -240,25 +240,25 @@ Den här åtgärdsmodulen omvandlar ett objekt till en json-sträng.
 >
 **Exempel:**
 >   
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>```
+>{
+>
+>"books": [
+>
+>{
+>
+>"id": "ID",
+>
+>"title": "Title",
+>
+>"author": "Author"
+>
+>}
+>
+>]
+>
+>}
+>```
 >
 1. Klicka på **[!UICONTROL Save]**. The [!UICONTROL Specification] -fältet i datastrukturen innehåller nu den genererade strukturen.
 1. Ändra namnet på datastrukturen till något mer specifikt och klicka på **[!UICONTROL Save]**. Ett fält som motsvarar rotarrayattributet visas som ett mappningsbart fält i JSON-modulens inställningar.
