@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ Vi har gjort om gränssnittet för loggningstid från uppdateringsområdet i den
 
 Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md). Dokumentationen uppdateras när den släpps.
 
-Planerad förhandsversion: 29 juni 2023
+Planerad förhandsversion för projekt, uppgifter och ärenden: 5 juli 2023
 
-Planerad produktionsrelease: med version 23.3
+Planerad produktionsrelease för utgåvor: 6 juli 2023
+
+Planerad produktionsrelease för projekt och uppgifter: med version 23.3
 
 #### Lägga till känslolägesikoner i en uppdatering
 
@@ -188,7 +190,7 @@ Du kan logga tid för problem, uppgifter och projekt från uppdateringsområdet 
 
 Förhandsgranska: 1 juni 2023
 
-Produktion: Ska tillkännages
+Produktion: med version 23.3
 
 ### Vecka 15 maj 2023
 

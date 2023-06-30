@@ -6,9 +6,9 @@ description: Knappen Klar kan automatiskt ange status för en uppgift eller ett 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ The [!UICONTROL Done] kan automatiskt ange status för en uppgift eller ett prob
 Användare med vissa behörigheter kan konfigurera [!UICONTROL Done] om du vill visa vissa statusvärden i systemet. Det finns två olika sätt [!UICONTROL Done] fungerar för uppgifter i [!UICONTROL Workfront]:
 
 * Om användaren har ett tilldelat Home Team, [!DNL Workfront] administratör eller en användare med [!UICONTROL Plan] licensen kan konfigurera [!UICONTROL Done] för att visa vissa statusvärden för teammedlemmar. Se [Konfigurera [!UICONTROL Done] knapp för ett team](#configure-the-uicontrol-done-button-for-a-team) i den här artikeln.
+* Om användaren inte har en [!UICONTROL Home Team], men de har [!UICONTROL Other Teams] i sin profil söker Workfront efter inställningen för [!UICONTROL Done] på något av de team som är kopplade till användaren. Markeringen är slumpmässig och statusen som är associerad med någon av grupperna används för uppgiften.
 * Om användaren inte har tilldelats något hemteam [!UICONTROL Done] knappen för uppgifter är kopplad till en fullständig status. Det finns inga konfigurationsalternativ tillgängliga i det här scenariot. The [!UICONTROL Done] anges automatiskt som standard för denna knapp.
 
 ## Åtkomstkrav
@@ -35,11 +36,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] plan*</strong></p></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] licens*</strong></p></td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
  </tbody> 
@@ -66,20 +67,18 @@ Du kan ändra vilken status som ska användas för arbetsuppgiften med [!UICONTR
    >* När du väljer en status för varje typ av arbetsuppgift, ställs uppgiften eller utleveransstatusen in på den statusen när en användare klickar på [!UICONTROL Done] på deras objekt. Om du anger flera statusvärden för varje typ av arbetsuppgift läggs en listruta till i [!UICONTROL Done] och användaren måste välja en status för att kunna ändra status för arbetsuppgiften.
    >* Du kan bara associera statusvärden på systemnivå med [!UICONTROL Done] -knappen. Du kan inte associera gruppspecifika statusvärden med arbetsartikelstatusvärden.
    >* När en användare som är tilldelad objektet placerar objektet i den status som är associerad med [!UICONTROL Done] -knapp, objektet visas som [!UICONTROL Done] för den användaren oavsett om den valda statusen är en [!UICONTROL Completed] eller [!UICONTROL Closed] status eller en arbetsstatus.
-
    >   
    >   
    >  Du kan till exempel associera [!UICONTROL Done] knapp med [!UICONTROL In Progress] gör att arbetsuppgiften visas som [!UICONTROL Done] för användaren som ändrar status från [!UICONTROL New] till [!UICONTROL In progress].
    >   
    >* Problemtyperna är anpassningsbara och kan ha andra namn än de som visas nedan i din miljö.\
-      >  Följande är standardåtgärder och problemtyper:
-      >     
-      >   * [!UICONTROL Tasks]
-      >   * [!UICONTROL Issue]
-      >   * [!UICONTROL Request]
-      >   * [!UICONTROL Change Order]
-      >   * [!UICONTROL Bug Report]
-
+   >  Följande är standardåtgärder och problemtyper:
+   >     
+   >   * [!UICONTROL Tasks]
+   >   * [!UICONTROL Issue]
+   >   * [!UICONTROL Request]
+   >   * [!UICONTROL Change Order]
+   >   * [!UICONTROL Bug Report]
 
    Om uppgiften eller utgåvan har tilldelats flera användare visas en[!UICONTROL Done with my part]&quot; i den nedrullningsbara menyn, förutom de olika statusar som valts för ditt team.
 
