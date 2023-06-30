@@ -6,7 +6,7 @@ description: Använda PKCE-flöde för OAuth 2-program
 author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Ett PKCE-flöde har följande steg. Stegen i det här avsnittet visas endast i i
 
 Innan du kan implementera auktorisering måste du registrera din app i OAuth2 genom att skapa en appintegrering från Workfront.
 
-Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett ensidigt OAuth2-webbprogram med PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett ensidigt OAuth2-webbprogram med PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 
 ## Skapa korrekturnyckeln för kodutbyte
@@ -85,11 +85,8 @@ PKCE-generatorkoden skapar utdata som liknar följande:
 >
 >```
 >{
->
 >  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
->
 >  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
 >}
 >```
 
@@ -106,7 +103,6 @@ Om du använder standardservern för anpassad auktorisering ser din begärande-U
 >
 >```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
->
 >&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
@@ -114,7 +110,7 @@ Observera de parametrar som skickas:
 
 * `client_id` matchar klient-ID:t för OAuth2-programmet som du skapade i när du konfigurerade programmet.
 
-   Instruktioner finns i Skapa ett ensidigt OAuth2-webbprogram med PKCE i Skapa OAuth2-program för Workfront-integreringar.
+  Instruktioner finns i Skapa ett ensidigt OAuth2-webbprogram med PKCE i Skapa OAuth2-program för Workfront-integreringar.
 
 * `response_type` är `code`, eftersom programmet använder behörighetstypen Authorization Code.
 
@@ -135,13 +131,9 @@ Om du vill ändra auktoriseringskoden för en åtkomsttoken skickar du den till 
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
@@ -170,13 +162,9 @@ Om koden fortfarande är giltig och kodverifieraren matchar, får ditt program e
 >
 >```
 >{
->
 >    "access\_token": "eyJhd\[...\]Yozv",
->
 >    "expires\_in": 3600,
->
 >    "token\_type": "Bearer"
->
 >}
 >```
 
@@ -192,7 +180,6 @@ Du kan validera din åtkomsttoken med ett API-anrop som liknar följande:
 >
 >```
 >/attask/api/<api version>/proj/search \\
->
 >  --header 'sessionID: <access\_token>' \\
 >```
 
@@ -206,12 +193,8 @@ Om du vill begära en uppdateringstoken kan du göra ett POST-anrop till API:t p
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

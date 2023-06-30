@@ -9,9 +9,9 @@ description: För att kunna använda [!DNL Google Sheets] med [!DNL Adobe Workfr
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3439'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ Mer information finns på [developers.google.com/sheets/api/limits](https://deve
 ### Hämta tomma celler från en [!DNL Google Sheet]
 
 Använd [!UICONTROL Search Rows (Advanced)] och använd den här formeln för att hämta kolumner som är tomma.
-<pre>välj * [!UICONTROL where E is null​]</pre>Här är "E" kolumnen och "is null" är villkoret. Du kan skapa en mer avancerad fråga med [Google Query Lang.](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>select * där E är null</pre>Här är "E" kolumnen och "is null" är villkoret. Du kan skapa en mer avancerad fråga med [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage).
 
 ### Lägga till en knapp i ett blad för att köra ett scenario
 

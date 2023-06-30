@@ -6,7 +6,7 @@ description: Ett automatiserat arbetsflöde gör det enklare att hantera granskn
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 0%
@@ -68,24 +68,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >* När en person läggs till i en bild i en mall för automatiserat arbetsflöde, men redan finns som granskare i korrekturet, tas granskaren bort från scenen när mallen används. Om du inte lägger till någon annan granskare på scenen visas ett meddelande som ber dig att lägga till en.
    >* Din möjlighet att ändra en mall för automatiserat arbetsflöde beror på mallinställningarna som konfigurerats av Workfront-administratören, vilket beskrivs i . Om möjligheten att ändra mallen är inaktiverad kan bara mallens ägare ändra den.
 
-
 1. Konfigurera det första steget i det automatiserade arbetsflödet:
 
    1. (Valfritt) Om du vill skapa ett namn för den första scenen klickar du på **Steg 1** och skriv sedan namnet.
    1. I **Mottagare** för scenen lägger du till granskare på scenen.
 
       >[!NOTE]
-      > 
+      >
       >Tänk på följande när du lägger till granskare på en scen:
-      > 
+      >   
       >* Du kan lägga till externa användare på en scen med en e-postadress.
       >* När du har lagt till en användare på en scen kan du konfigurera inställningarna för den användaren på korrekturet.
       >* Du kan dra användare direkt till en annan scen eller dra användare till en scen på **Steg** diagram. Om du vill markera flera användare trycker du på Skift+Ctrl (Windows) eller Skift+Kommando (Mac).
       >* Du kan bara lägga till en granskare i ett korrektur en gång, vilket betyder att du inte kan lägga till samma person i mer än en fas i korrekturet.
       >* Granskare som inte har lagts till på en privat scen kan inte se den scenen på det korrektur eller de kommentarer som har gjorts på den scenen.
-      >* Om du lägger till en användare på en scen får användaren som standard åtkomst till korrekturet från det att korrekturet skapas.\
-      >   Din Workfront-administratör kan hindra användare från att komma åt korrekturet tills arbetsflödet går in på den scen där användaren lades till.
-
+      >* Om du lägger till en användare på en scen får användaren som standard åtkomst till korrekturet från det att korrekturet skapas. Din Workfront-administratör kan hindra användare från att komma åt korrekturet tills arbetsflödet går in på den scen där användaren lades till.
 
    1. Klicka **Sceninställningar**.
    1. Klicka på en **Aktivera fas** för att ange hur du vill att scenen ska aktiveras.
@@ -118,7 +115,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         </tr>
         <tr>
          <td role="rowheader">Kräv endast ett beslut för det här steget</td>
-         <td>Slutför hela granskningsprocessen när en av beslutsfattarna fattar ett beslut.<p>Det här alternativet är inte tillgängligt om du har angett en användare i <strong>Primär beslutsfattare</strong>nedrullningsbar meny.</p></td>
+         <td>Slutför hela granskningsprocessen när en av beslutsfattarna fattar ett beslut.<p>Det här alternativet är inte tillgängligt om du har angett en användare i <strong>Primär beslutsfattare</strong>nedrullningsbar meny.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Gör det här steget privat</td>
@@ -211,11 +208,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td role="rowheader">Prenumerera på korrektur via offentlig URL eller inbäddningskod</td> 
       <td>När det här alternativet är markerat kan personer som inte har lagts till explicit i korrekturet prenumerera på korrekturet. Den person som prenumererar på beviset får rollen och e-postadressen som du anger i följande inställningar:
        <ul>
-        <li><strong>Abonnentroll:</strong> Standardkorrekturrollen som tilldelas alla granskare som prenumererar på korrekturet. </li>
-        <li><strong>Inställningar för e-postavisering för prenumeranter:</strong> Standardvarningsmeddelandet som tilldelas alla granskare som prenumererar på korrekturet.</li>
+        <li><strong>Abonnentroll:</strong> Standardkorrekturrollen som tilldelas alla granskare som prenumererar på korrekturet.</li>
+        <li><strong>Inställningar för e-postavisering för prenumeranter:</strong> Standardvarningsmeddelandet som tilldelas alla granskare som prenumererar på korrekturet.</li>
        </ul><p>
         <ul>
-         <li><strong>Åtkomstbevis via e-postlänk krävs för:</strong> Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>Endast e-postmeddelanden med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till ett bevis. Syftet med det här alternativet är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</li>
+         <li><strong>Åtkomstbevis via e-postlänk krävs för:</strong> Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>Endast e-postmeddelanden med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till ett bevis. Syftet med det här alternativet är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</li>
         </ul><p><strong>Obs!</strong> Om korrekturet har ett automatiserat arbetsflöde bifogat, kommer alla prenumerationer att generera bekräftelsemeddelanden till korrekturägarna, så att de kan bestämma i vilken fas personen ska läggas till.<br></p></p></td> 
      </tr> 
     </tbody> 

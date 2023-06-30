@@ -7,9 +7,9 @@ description: Vissa objekt som du visar i en vy länkar till objektets detaljsida
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -72,33 +72,22 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 1. Klicka **Växla till textläge**.
 1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
 1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
-
    <pre>displayName=Aktivitetsnamn<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueFormat=Sammansatt</pre>
 
    >[!TIP]
    >
    >Du kan använda liknande kod för andra objekt genom att justera följande:
    >
-   >   
-   >   
-   >   * Ersätt **värdefält** kodrad med **värdeuttryck** och behålla samma namn inom klammerparenteser efter likhetstecknet.
-   >   
-   >   
+   >* Ersätt **värdefält** kodrad med **värdeuttryck** och behålla samma namn inom klammerparenteser efter likhetstecknet.
+   >* Eliminera alla rader som börjar med `link.` från den ursprungliga texten i kolumnen. Ta till exempel bort alla följande rader:
    >
-   >   
-   >   
-   >   * Ta bort alla rader som börjar med >
-   >   
-   >     ```>   
-   >     link.
-   >     ```   >   
-   >   
-   >     from the original text of the column. For example, eliminate all the following lines:
-   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >   
-   >   
+   >  ```
+   >  link.linkproperty.0.name=ID
+   >  link.linkproperty.0.valuefield=ID
+   >  link.linkproperty.0.valueformat=string
+   >  link.lookup=link.view
+   >  link.value=val(objCode)
+   >  ```
    >
-
-
 
 1. Klicka **Spara** sedan **Spara vy**.

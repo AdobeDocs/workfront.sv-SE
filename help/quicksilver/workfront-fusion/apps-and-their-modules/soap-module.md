@@ -9,7 +9,7 @@ description: Du kan använda SOAP-modulen för att ansluta till SOAP API:er i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -78,26 +78,12 @@ The [!UICONTROL SOAP] Modulen är för närvarande i betaversion och stöder int
 >
 >```
 ><complexType name="ArrayOfFloat">
->
->   
->  <complexContent>
->
->      
->     <restriction base="soapenc:Array">
->
->         
->        <attribute ref="soapenc:arrayType"
->
->            
->           wsdl:arrayType="xsd:integer[]"/>
->
->      
->     </restriction>
->
->   
->  </complexContent>
->
->
+>     <complexContent>
+>           <restriction base="soapenc:Array">
+>                 <attribute ref="soapenc:arrayType"
+>                       wsdl:arrayType="xsd:integer[]"/>
+>           </restriction>
+>     </complexContent>
 ></complexType>
 >```
 
