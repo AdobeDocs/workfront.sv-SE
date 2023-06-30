@@ -1,26 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Förbered dig för en [!DNL Adobe Workfront] kvartalsversion
+title: Förbered dig för en [!DNL Adobe Workfront] release
 description: Följ de här tipsen för att smidigt uppdatera din organisation för varje ny version av Workfront.
 author: Becky
 feature: Product Announcements
-source-git-commit: 6fa34c77cd23a2abd781365d986d52c9b63a517f
+exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
 
-# Förbered dig för en [!DNL Adobe Workfront] kvartalsversion
+# Förbered dig för en [!DNL Adobe Workfront] schemalagd release
 
-[!DNL Adobe Workfront] släpper viktiga uppdateringar av produktionsmiljön varje kvartal. Som [!DNL Workfront] kan du se till att din organisation får en smidig övergång till varje ny version av [!DNL Workfront] produkt.
+[!DNL Adobe Workfront] regelbundet släpper viktiga uppdateringar av produktionsmiljön. Som [!DNL Workfront] kan du se till att din organisation får en smidig övergång till varje ny version av [!DNL Workfront] produkt.
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Titta på videon nedan och lär dig mer om hur du kan förbereda dig för en [!DNL Adobe Workfront] kvartalsvis utgivning.
+Titta på videon nedan och lär dig mer om hur du kan förbereda dig för en [!DNL Adobe Workfront] release.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
@@ -28,11 +29,11 @@ Titta på videon nedan och lär dig mer om hur du kan förbereda dig för en [!D
 
 En detaljerad beskrivning av [!DNL Workfront] versionsprocess, se [[!DNL Adobe Workfront] lanseringsschema och -process](workfront-release-schedule.md).
 
-## Förbered dig för en [!DNL Workfront] kvartalsversion
+## Förbered dig för en [!DNL Workfront] release
 
 >[!TIP]
 >
->Du kan skapa en projektmall för att spåra arbete som är relaterat till [!DNL Workfront] kvartalsvisa utgåvor.
+>Du kan skapa en projektmall för att spåra arbete som är relaterat till schemalagt [!DNL Workfront] releaser.
 >
 >Mer information finns i [Använd en [!DNL Workfront] projekt för att spåra frisläppningsarbete](#use-a-workfront-project-to-track-release-work) i den här artikeln.
 
@@ -49,11 +50,11 @@ Vi rekommenderar att du överväger några eller alla av följande åtgärder so
 
 Versionsinformation för en viss funktion publiceras när funktionen går till [!UICONTROL Preview Sandbox] miljö. På så sätt kan du ta reda på och utforska funktionen innan den ingår i produktionsmiljön.
 
-Varje kvartalsrelease innehåller en översiktssida med korta beskrivningar av varje funktion och länkar till mer ingående anteckningar som innehåller ytterligare information samt demovideor. Dessa ingående anteckningar ordnas per vecka när förhandsversioner publiceras och omorganiseras sedan efter område som ligger närmare det verkliga produktionsreleasedatumet.
+Varje release innehåller en översiktssida med korta beskrivningar av varje funktion och länkar till mer ingående anteckningar som innehåller ytterligare information samt demonstrationsvideor. Dessa ingående anteckningar ordnas per vecka när förhandsversioner publiceras och omorganiseras sedan efter område som ligger närmare det verkliga produktionsreleasedatumet.
 
 Vi rekommenderar att du tittar på de demofilmer som finns i versionsinformationen. Dessa kan vara särskilt användbara för att se funktionen i praktiken eller för att snabbt se i vilken kontext den finns om du är kort i tid.
 
-Länkar till kvartalsvisa översikter finns i [Produktreleaser](product-releases.md).
+Länkar till versionsöversikterna finns i [Produktreleaser](product-releases.md).
 
 ### Titta på [!DNL Workfront] Announcement Center
 
@@ -64,8 +65,8 @@ Länkar till kvartalsvisa översikter finns i [Produktreleaser](product-releases
 Som [!DNL Workfront] administratör får du ett meddelande från meddelandecentret från [!DNL Workfront] om olika aspekter av releasen. Du får ett meddelande från meddelandecentret när något av följande inträffar:
 
 * Nya funktioner är tillgängliga i produktionsmiljön
-* Funktioner som släpps som förhandsversion kommer att släppas till produktion före den planerade kvartalsvisa releasen.
-* Alla nya funktioner är tillgängliga i förhandsvisningsmiljön före den schemalagda kvartalsversionen.
+* Funktioner som lanseras som förhandsversion kommer att släppas till produktion före den schemalagda versionen.
+* Alla nya funktioner är tillgängliga i förhandsvisningsmiljön före den schemalagda versionen.
 * Det publicerade webbinariet är öppet för registrering
 
 >[!TIP]
@@ -89,11 +90,11 @@ Mer information om [!UICONTROL Preview Sandbox] miljö, se [The [!DNL Adobe Work
 
 ### Delta i det publicerade webbinariet
 
-[!DNL Workfront] Webbseminariet Release kommer strax före varje kvartalsrelease. Här är [!DNL Workfront] produktteamet förklarar och demonstrerar nya funktioner och kan besvara frågor från dem som deltar.
+[!DNL Workfront] Webbseminariet Release är värd kort före vissa versioner. Här är [!DNL Workfront] produktteamet förklarar och demonstrerar nya funktioner och kan besvara frågor från dem som deltar.
 
 Webbseminarier presenteras via [!DNL Workfront] Announcement Center. Registreringslänkar finns på sidan Versionsöversikt.
 
-Länkar till kvartalsvisa översikter finns i [Produktreleaser](product-releases.md).
+Länkar till versionsöversikterna finns i [Produktreleaser](product-releases.md).
 
 ### Ge feedback till Workfront
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: da2ecac5d362e20e3068f9c865bc37633f79da58
+source-git-commit: 160c1b11cfca13ae141612a516d6c592d4bac509
 workflow-type: tm+mt
-source-wordcount: '13113'
+source-wordcount: '13121'
 ht-degree: 0%
 
 ---
@@ -393,6 +393,7 @@ ht-degree: 0%
          * [Skapa ett styrkort](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [Omberäkningar av projekttidslinjen](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Anpassade kvartal för projekt](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [Aktivera eller inaktivera snabba releaser för organisationen](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [Konfigurera platser](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Konfigurera scheman och tidrapportinställningar {#configure-timesheets-schedules}

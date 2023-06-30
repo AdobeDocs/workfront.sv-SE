@@ -7,9 +7,9 @@ description: Förhandsvisningsmiljön uppdateras en gång i veckan med nya funkt
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,26 @@ Förhandsvisningsmiljön uppdateras en gång i veckan med nya funktioner. Dessa 
 
 ### Funktioner
 
-Vanligtvis blir funktionerna i Förhandsvisning tillgängliga i produktionsmiljön i nästa kvartalsrelease. I vissa fall görs dock funktionerna tillgängliga i produktionsmiljön utanför en kvartalsvis utgåva. Dessa ändringar finns kvar i förhandsgranskningen i minst två veckor för att ge dig tillräckligt med tid att bekanta dig med ändringarna. Dessa ändringar kommuniceras också via meddelandecentret när de läggs till i förhandsvisningen.
+
+Adobe Workfront har två modeller för nya funktioner och uppdateringar. Din organisation kan välja om du vill få nya funktioner kvartalsvis eller snabbare.
+
+I nästa version blir funktionerna i Förhandsgranska tillgängliga i produktionsmiljön. I vissa fall görs dock funktionerna tillgängliga i produktionsmiljön utanför en schemalagd release. Dessa ändringar finns kvar i förhandsgranskningen i minst två veckor för att ge dig tillräckligt med tid att bekanta dig med ändringarna. Dessa ändringar kommuniceras också via meddelandecentret när de läggs till i förhandsvisningen.
+
+Mer information om kvartalsvisa och snabba publiceringsprocesser finns i [Aktivera eller inaktivera snabba releaser för organisationen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### Underhållsuppdateringar
 
 Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Se [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) för att se vad som har korrigerats nyligen.
 
-## Funktioner som tagits bort från en kvartalsvis release
+## Funktioner som har tagits bort från en schemalagd release
 
-Alla funktioner som är kopplade till en viss kvartalsvis release kan testas i Förhandsgranska under minst 2-4 veckor före den sista releasen till produktion. Om funktioner tas bort från kvartalsversionen före den här tidpunkten vidtas följande åtgärder för att informera kunderna:
+Alla funktioner som är kopplade till en viss release (månads- eller kvartalsvis) kan testas i Förhandsgranska under minst 2-4 veckor före den sista releasen till produktion. Om funktioner tas bort från den schemalagda versionen före den här tidpunkten vidtas följande åtgärder för att informera kunderna:
 
-* Versionsinformation för kvartalsversionen (finns på [Produktreleaser](../../product-announcements/product-releases/product-releases.md) sida) uppdateras för att ange att funktionen har tagits bort.
+* Versionsinformation för den schemalagda versionen (finns på [Produktreleaser](../../product-announcements/product-releases/product-releases.md) sida) uppdateras för att ange att funktionen har tagits bort.
 
-Om funktioner tas bort från kvartalsversionen efter att alla funktioner är tillgängliga för att testas i Förhandsgranska, vidtas följande åtgärder för att informera kunderna:
+Om funktioner tas bort från den schemalagda versionen efter att alla funktioner är tillgängliga för att testas i Förhandsgranska, vidtas följande åtgärder för att informera kunderna:
 
-* Versionsinformation för kvartalsversionen (finns på [Produktreleaser](../../product-announcements/product-releases/product-releases.md) sida) uppdateras för att ange att funktionen har tagits bort.
+* Versionsinformationen för releasen (finns i [Produktreleaser](../../product-announcements/product-releases/product-releases.md) sida) uppdateras för att ange att funktionen har tagits bort.
 * Ett inlägg läggs till i Workfront Community där det står att funktionen har tagits bort.
 * Ett meddelande om att funktionen har tagits bort skickas till alla kunder via meddelandecentret. (Announcement Center Workfront ett meddelandecenter i appen. Mer information finns i [Skicka meddelanden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
@@ -74,9 +79,9 @@ Om du stöter på något i systemet som inte stämmer överens med dokumentation
 
 ## Versionsinformation
 
-Använd versionsinformationen för den kommande kvartalsversionen för att se vilka nya funktioner som är tillgängliga i Förhandsgranska och när de kommer att släppas till produktion.
+Använd versionsinformationen för den kommande schemalagda versionen för att se vilka nya funktioner som är tillgängliga i förhandsversionen och när de kommer att släppas till produktionen.
 
-Information om hur du hittar versionsinformationen för nästa kvartalsrelease finns i [Produktreleaser](../../product-announcements/product-releases/product-releases.md)klickar du sedan på länken för att ta dig till versionsöversiktssidan för den kommande versionen.
+Information om hur du hittar versionsinformationen för nästa schemalagda release finns i [Produktreleaser](../../product-announcements/product-releases/product-releases.md)klickar du sedan på länken för att ta dig till versionsöversiktssidan för den kommande versionen.
 
 Versionsinformationen innehåller en tabell med en lista över funktioner i den vänstra kolumnen, med en kort beskrivning av varje funktion. Du kan klicka på en funktionslänk om du vill se en demonstrationsvideo om den nya funktionen och få tillgång till dokumentation om den nya funktionen. I den högra kolumnen ser du följande information för varje funktion:
 
