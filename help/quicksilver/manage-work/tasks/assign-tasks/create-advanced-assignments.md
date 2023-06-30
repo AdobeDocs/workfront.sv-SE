@@ -6,9 +6,9 @@ description: Du kan hantera uppgifter eller ärenden med hjälp av avancerade up
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 2b48377653a77d3d71c90fac9c64cb48fc7877a3
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Skapa avancerade uppdrag
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>Åsidosättningsfunktionen för tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen den 30 juni 2023.
 
 Du kan hantera uppgifter eller ärenden med hjälp av avancerade uppdrag.
 

@@ -6,9 +6,9 @@ description: Du kan tilldela uppgifter till användare, roller eller team för a
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Tilldela uppgifter
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>Åsidosättningsfunktionen för tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen den 30 juni 2023.
 
 Du kan tilldela uppgifter till användare, jobbroller eller team för att ange vem som ansvarar för att slutföra uppgifterna. Du kan tilldela en uppgift till mer än en resurs åt gången.
 

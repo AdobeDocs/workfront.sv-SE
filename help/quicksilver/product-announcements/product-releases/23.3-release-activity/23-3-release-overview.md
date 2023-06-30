@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,8 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
 > * Om du är på **kvartalsvis** releasespår kommer releasen efter 23.3 att **23.10**, i oktober 2023.
 > 
 > Kvartalsvisa releaser kommer att innehålla funktionalitet från tre månadsversioner. Den 23.10 kvartalsversionen kommer till exempel att innehålla funktioner som släpptes i månadsversionerna 23.8, 23.9 och 23.10.
->
 >|Månadsutgåva|Kvartalsutgåva|
->|----|----|
+>|—|—|
 >|<ul><li>23.8 (augusti 2023)</li><li>23.9 (september 2023)</li><li>23.10 (oktober 2023)</li></ul>| <ul><li>23.10 (oktober 2023)</li></ul>|
 >|<ul><li>23.11 (november 2023)</li><li>23.12 (december 2023)</li><li>24.1 (januari 2024)</li></ul>| <ul><li>24.1 (januari 2024)</li></ul>|
 
@@ -114,7 +113,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> Kommer snart!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
                         <p>Agile View för ett projekt innehåller nu ytterligare funktioner för att filtrera, gruppera och sortera arbetet på en kanban-tavla. Den nya flexibla designen av vyn innehåller en robust sökfunktion och möjlighet att lägga till nya uppgifter direkt från styrelsen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -333,7 +332,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum för gällande kostnad och faktureringstariffer</a><span style="color: #ff0000;"> Kommer snart!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum för gällande kostnad och faktureringstariffer</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p>
                         <p>Giltig kostnad och faktureringstariffer är nu tillgängliga för företagets, användarens och jobbrollens objekt i Workfront. När gällande datumsatser tillämpas på ett projekt, och timmar loggas på projektuppgifter, beräknas kostnader och intäkter med hjälp av de angivna tarifferna för varje tidsperiod.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -343,7 +342,8 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                             </li>
                             <li>
                                 <p>Produktionsrelease för kunder med snabb lansering: Anmäl dig efter 23.3-utgåvan</p>
-                                <p>Produktionsrelease för alla kunder: Med version 23.4</p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.4<br>
+                                <span style="color: #ff0000;"> Åsidosättningsfunktionen för tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen den 30 juni 2023.</span></p>
                             </li>
                         </ul>
                     </td>
