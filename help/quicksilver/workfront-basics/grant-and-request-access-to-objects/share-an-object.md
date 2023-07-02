@@ -183,7 +183,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
      >[!NOTE]
      >
-      Workfront-administratören eller objektskaparen kan ta bort behörigheter från dessa entiteter.
+     > Workfront-administratören eller objektskaparen kan ta bort behörigheter från dessa entiteter.
 
       
 
