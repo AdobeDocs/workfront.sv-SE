@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Mallarna hämtar information från en webbtjänst och hämtar informationen till
 ### APILayer > Workfront - Daily Exchange Rate Update (EUR)
 
 Den här mallen skapar ett scenario som automatiserar uppdateringen av en valutakurs vid en viss tidpunkt. I det här scenariot hämtas priset euro (EUR) till USD från APIlayers.com och frekvensen uppdateras i Workfront.
+
+## Workfront-Marketo-mallar
+
+Mallarna stöder integrering mellan Workfront och Marketo.
+
+>[!NOTE]
+>
+> Du måste ha en licens för Workfront Fusion for Work Automation och Integration för att kunna använda mallarna i det här avsnittet.
+
+### Godkänn e-postutkastet från Marketo Engage med Workfront arbetsflöden för godkännande
+
+Detta ingår i integreringen mellan Workfront och Marketo Engage för granskning och godkännande. Den här mallen identifierar om ett e-postkorrektur i Workfront har godkänts och uppdaterar sedan motsvarande e-postmeddelande i Marketo Engage som godkänt.
+
+### Ta emot förfrågningar från marknadsföringskampanjer i Workfront och automatisera framtagningen av kampanjer i Marketo Engage
+
+Detta scenario är ett programmatiskt sätt att skapa e-post- och webbinarikampanjer i Marketo Engage utifrån en begäran som gjorts i Workfront. Genom att använda automatisering för att skapa, organisera och konfigurera kampanjer kan teamen förbättra effektiviteten.
+
+### Granska ett e-postkorrektur av ditt e-postutkast från Marketo Engage i Workfront
+
+Den här mallen identifierar om en Workfront-uppgift har ställts in på en granskningsstatus och exporterar sedan e-postutkastet från Marketo Engage för att spara det som ett korrektur i Workfront.
 
 ## Workfront-Anaplan-mallar
 
