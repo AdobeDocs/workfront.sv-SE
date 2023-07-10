@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,7 @@ Följande funktioner har tagits bort från den nya versionen:
 * Kommentera en systemuppdatering
 * Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs
 * Redigera eget formulär
+* Informationen&quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör loggar in som en annan användare och lägger till en kommentar för deras räkning.
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>RTF (känslolägesikoner)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>RTF (blockcitattecken)
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
   </tr>
   <tr>
-   <td>Ta bort personer från kopplingen 
+   <td>Tagga automatiskt alla tråddeltagare
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Redigera eget formulär 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Kopiera trådlänk 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2 kv 2023 
    </td>
@@ -411,9 +399,50 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>Redigera eget formulär 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>Svara på systemuppdateringar 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>Visa"för" när du lägger till kommentarer som är inloggade som en annan användare
    </td>
    <td> ✓
    </td>
@@ -430,7 +459,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
 
 ## Frigör tidslinje
 
-Information om de funktioner som nyligen släppts till den nya kommentarsfunktionen, samt en tidslinje för en release, finns på [Ny aktivitet för att frisläppa betaupplevelser med kommentarer](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Information om de funktioner som nyligen släppts till den nya kommentarsfunktionen, samt en tidslinje för en release, finns på [Ny aktivitet för att kommentera betaversionen](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Hitta den nya kommentarsfunktionen
 

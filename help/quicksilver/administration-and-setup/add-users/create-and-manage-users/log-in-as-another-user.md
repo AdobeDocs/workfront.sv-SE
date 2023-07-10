@@ -8,15 +8,17 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Logga in som en annan användare
 
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig för alla användare i förhandsvisningsmiljön.</span>
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -87,7 +89,6 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >   
    >* Du kan inte återställa lösenordet för en Workfront-administratör.
 
-
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Logga in som**.
@@ -145,6 +146,13 @@ När du loggar in som en annan användare ändras det senaste inloggningsdatumet
 När du loggar in på Workfront som en annan användare och utför en åtgärd, visar Workfront tydligt att alla åtgärder du utför görs av dig för den användare som du är inloggad som.
 
 Om du till exempel kommenterar ett objekt när du är inloggad som en annan användare, visar en programsats att du har gjort kommentaren å användarens vägnar.
+
+>[!NOTE]
+>
+><span class="preview">När du använder den nya kommentarsfunktionen läggs kommentaren till som den användare som loggade in som en annan användare och det finns inget som tyder på att han/hon lägger till en kommentar för någon annans räkning.
+>
+>Om en Workfront-administratör till exempel loggar in som en annan användare är den användare som är associerad med kommentaren Workfront-administratören. Mer information finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 ### Visa granskningsinformation {#view-audit-information}
 

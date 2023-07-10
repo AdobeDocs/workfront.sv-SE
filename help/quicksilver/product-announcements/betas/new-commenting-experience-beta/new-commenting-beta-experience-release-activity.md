@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Allmän information om den nya kommentarsfunktionen, inklusive en lista över fu
 
 Vi planerar att släppa den nya kommentarsupplevelsen iterativt. Detta påverkar utvalda objekt i varje release. En liten uppsättning funktioner kan släppas i början och fler funktioner kommer att läggas till i de återstående objekten över tiden.
 
-Information om vilka Workfront-objekt som visas i uppdateringsavsnittet finns i   [Översikt över uppdateringsavsnittet](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+Information om vilka Workfront-objekt som visas i uppdateringsavsnittet finns i   [Översikt över uppdateringsavsnittet](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Här följer en planerad tidslinje för lanseringen av den nya kommentarsfunktionen i produktionsmiljön:
+Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av den nya kommentarsfunktionen i produktionsmiljön. Förutom milstolparna nedan kommer vi att fortsätta att förbättra kommentarsupplevelsen med mindre förbättringar. Mer information om alla funktioner finns i [Frisläppta funktioner](#released-features) i den här artikeln.
 
 * Med version 23.2 (6 april 2023):
    * Kommentarsupplevelse Beta för problem
@@ -51,24 +51,41 @@ Här följer en planerad tidslinje för lanseringen av den nya kommentarsfunktio
 * I slutet av 2023:
    * Den gamla kommentarfunktionen förblir ett alternativ för följande objekt: projekt, uppgifter, utgåvor och dokument.
 
-     Mallar, malluppgifter, program, portföljer, team, användare och tidrapporter, mål, kort har den nya kommentarsupplevelsen som enda alternativ.
-
   >[!NOTE]
   >
   >    Iterationer kommer även i fortsättningen att ha den gamla kommentarsfunktionen.
 
-Följande avsnitt innehåller en lista med funktioner som har lagts till efter den ursprungliga versionen, med början de som släppts senast.
-
 ## Frisläppta funktioner
 
-Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. På sidan visas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
+Följande avsnitt innehåller en lista med funktioner som har lagts till efter den ursprungliga versionen, med början de som släppts senast.
 
+Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. I den här artikeln listas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
 
 ### Funktioner som släppts efter 19 juni 2023
 
 <!--restructure this section with actual weeks and dates, when we know them-->
 
 De funktioner som listas i detta avsnitt planeras släppas strax efter veckan 19 juni 2023.
+
+#### Tagga automatiskt alla tråddeltagare
+
+En kommentarägare taggas nu automatiskt i en koppling. Före den här uppdateringen visas endast de användare som taggats med taggarna &quot;@name&quot; eller genom att lägga till dem i avsnittet &quot;Tagga personer eller team&quot; i listan med taggade användare. Med det här alternativet kan du nu ta bort ägaren till en kommentar från kopplingen, om det behövs, även om de inte taggats manuellt tidigare.
+
+Planerad förhandsversion: 12 juli 2023
+
+Planerad produktionsrelease: 13 juli 2023
+
+#### Nytt gränssnitt för loggningstid
+
+Vi har gjort om gränssnittet för loggningstid från uppdateringsområdet i den nya kommentarsfunktionen.
+
+Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md). Dokumentationen uppdateras när den släpps.
+
+Förhandsgranskningsversion för projekt, uppgifter och ärenden: 5 juli 2023
+
+Produktionsrelease för utgåvor: 6 juli 2023
+
+Planerad produktionsrelease för projekt och uppgifter: med version 23.3
 
 #### Citera kommentarinnehåll i ett nytt svar
 
@@ -80,27 +97,13 @@ Förhandsgranska: 28 juni 2023
 
 Produktionsrelease: 29 juni 2023
 
-#### Nytt gränssnitt för loggningstid
-
-Vi har gjort om gränssnittet för loggningstid från uppdateringsområdet i den nya kommentarsfunktionen.
-
-Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md). Dokumentationen uppdateras när den släpps.
-
-Planerad förhandsversion för projekt, uppgifter och ärenden: 5 juli 2023
-
-Planerad produktionsrelease för utgåvor: 6 juli 2023
-
-Planerad produktionsrelease för projekt och uppgifter: med version 23.3
-
 #### Lägga till känslolägesikoner i en uppdatering
 
 Nu kan du lägga till känslolägesikoner i en kommentar med ett RTF-verktygsfält i den nya kommentarsfunktionen.
 
 Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Dokumentationen uppdateras när den släpps.
 
-Förhandsgranska: Ska tillkännages (under version 23.3)
-
-Produktion: För att bli meddelade. Före version 23.3.
+Förhandsgranska och producera: Ska tillkännages (under eller kort efter version 23.3)
 
 #### Ny kommentarfunktion för ytterligare objekt
 
