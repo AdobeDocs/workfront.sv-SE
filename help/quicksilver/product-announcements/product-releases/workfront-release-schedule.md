@@ -7,9 +7,9 @@ description: Förhandsvisningsmiljön uppdateras en gång i veckan med nya funkt
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Förhandsvisningsmiljön uppdateras en gång i veckan med nya funktioner. Dessa 
 
 
 Adobe Workfront har två modeller för nya funktioner och uppdateringar. Din organisation kan välja om du vill få nya funktioner kvartalsvis eller snabbare.
+
+Månads- och kvartalsvisa releaser planeras bli tillgängliga den sista torsdagen i månaden.
 
 I nästa version blir funktionerna i Förhandsgranska tillgängliga i produktionsmiljön. I vissa fall görs dock funktionerna tillgängliga i produktionsmiljön utanför en schemalagd release. Dessa ändringar finns kvar i förhandsgranskningen i minst två veckor för att ge dig tillräckligt med tid att bekanta dig med ändringarna. Dessa ändringar kommuniceras också via meddelandecentret när de läggs till i förhandsvisningen.
 

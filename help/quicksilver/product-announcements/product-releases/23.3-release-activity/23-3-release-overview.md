@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
 >|----|----|
 >| <ul><li>23.8 (augusti 2023)</li><li>23.9 (september 2023)</li><li>23.10 (oktober 2023)</li></ul> | <ul><li>23.10 (oktober 2023)</li></ul> |
 >| <ul><li>23.11 (november 2023)</li><li>23.12 (december 2023)</li><li>24.1 (januari 2024)</li></ul> | <ul><li>24.1 (januari 2024)</li></ul> |
+>
+>Månads- och kvartalsvisa releaser planeras bli tillgängliga den sista torsdagen i månaden.
 
 ## Adobe Workfront-förbättringar
 
@@ -69,7 +71,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: Ej tillämpligt</p>
+                                <p>Förhandsgranskningsversion: 22 juni 2023</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.3</p>
