@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,22 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
   </tr>
   <tr>
+   <td>Ta bort kopplade deltagare
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+
+<tr>
    <td>Tagga automatiskt alla tråddeltagare
    </td>
    <td> 
@@ -217,7 +233,8 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    <td> 
    </td>
   </tr>
-  <tr>
+
+<tr>
    <td>Kommentarer som är privata för ett företag 
    </td>
    <td>✓ 

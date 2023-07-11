@@ -7,9 +7,9 @@ description: Du kan justera inställningen för spårningsläge för en uppgift 
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Workfront antar att uppgifterna kommer att slutföras enligt schemat och markera
 
 Följande undantag finns:
 
-* Om aktiviteten har ofullständiga föregångare slutförs den inte automatiskt förrän alla dess föregångare har slutförts.
+* Om aktiviteten har ofullständiga föregångare slutförs den inte automatiskt förrän alla dess föregångare har slutförts. Föregångare måste verkställas.
 * Om aktiviteten har begränsningen Fast datum slutförs alltid aktiviteten på det planerade slutförandedatumet, oavsett om dess föregångare har slutförts eller inte.
 
 >[!IMPORTANT]
