@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -81,11 +81,9 @@ Vi har gjort om gränssnittet för loggningstid från uppdateringsområdet i den
 
 Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md). Dokumentationen uppdateras när den släpps.
 
-Förhandsgranskningsversion för projekt, uppgifter och ärenden: 5 juli 2023
+Förhandsgranskningsversion: 5 juli 2023
 
-Produktionsrelease för utgåvor: 6 juli 2023
-
-Planerad produktionsrelease för projekt och uppgifter: med version 23.3
+Produktionsrelease: med version 23.3
 
 #### Citera kommentarinnehåll i ett nytt svar
 

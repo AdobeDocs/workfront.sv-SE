@@ -6,7 +6,7 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3334'
 ht-degree: 0%
@@ -385,7 +385,7 @@ Så här loggar du tid i uppdateringsavsnittet för ett projekt, en uppgift elle
 1. Välj **Uppdateringar**.
 1. Klicka **Loggtid**.
 
-   Dialogrutan Ange timmar visas.
+   <span class="preview">Dialogrutan Loggtid visas. </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Så här loggar du tid i uppdateringsavsnittet för ett projekt, en uppgift elle
    >   
    >   I det övre högra hörnet av rutan Ange dagar finns en indikation på hur många timmar en dag har.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Ange följande information:
 
