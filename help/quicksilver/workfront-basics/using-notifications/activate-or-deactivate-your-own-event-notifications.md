@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör konfigurerar vilka händelsemedd
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: ea16b13b6ecb6ecea365c6c4d31ee23b7bb712c6
+source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -29,7 +29,6 @@ Mer information om e-postmeddelanden finns i [[!DNL Adobe Workfront] meddelanden
 >* The [!DNL Workfront] administratör eller gruppadministratör kan inte konfigurera meddelanden för [!DNL Workfront Goals]. Om du vill ha mer information om vilka meddelanden [!DNL Workfront] administratörer kan konfigurera, se [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Mer information om hur du konfigurerar enskilda meddelanden för [!DNL Workfront Goals] fortsätta att läsa den här artikeln.
 >
 
-
 ## Åtkomstkrav
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
@@ -46,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Work] eller högre</p> </td> 
+   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
   </tr> 
  </tbody> 
 </table>
