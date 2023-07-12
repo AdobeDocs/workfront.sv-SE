@@ -6,9 +6,9 @@ description: Följande meddelanden informerar dig om aktiviteter som utförs på
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 39ba9e93a8597d4354472a19b1ac1c5f530f4398
+source-git-commit: 901605917347297a1ee077f00905b03427582650
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1872'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
  </thead> 
  <tbody>
   <tr> 
-   <td> <p><strong>En föregångare till en uppgift som har tilldelats mitt team har slutförts</strong> </p> <p>Det tilldelade teamet får ett e-postmeddelande när en föregångare till en av sina uppgifter är klar. </p> <p>Användare med [!UICONTROL Review] eller Re[!UICONTROL Requestor]frågelicensen får inget meddelande.</p> <p>Ämnet för e-postmeddelandet är: <em>Fullständigt: &lt;task name=""&gt;</em></p> <p> Det dagliga sammandraget innehåller följande uppgifter: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> <p><strong>En föregångare till en uppgift som har tilldelats mitt team har slutförts</strong> </p> <p>Det tilldelade teamet får ett e-postmeddelande när en föregångare till en av sina uppgifter är klar. </p> <p>Användare med [!UICONTROL Review] eller [!UICONTROL Requestor] licensen får inget meddelande.</p> <p>Ämnet för e-postmeddelandet är: <em>Fullständigt: &lt;task name=""&gt;</em></p> <p> Det dagliga sammandraget innehåller följande uppgifter: <em> [!UICONTROL Digest of Work Assigned to You] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> <p>Föregående aktivitetsnamn<br>Föregående aktivitetsprojekt<br>Referensnummer för föregående aktivitet<br>Namnet på den användare som slutförde föregående aktivitet<br>Status för föregående aktivitet<br>Datum och tid då föregående var slutfört<br>Föregående status för föregående aktivitet<br><strong>Mer information</strong> knapp<br>*Projektnamn<br>*Projektets referensnummer<br>*Totalt antal slutförda föregångare<br>*Aktivitetsnamn<br>*Namnet på den användare som slutförde uppgiften<br>*Datum för daglig sammandrag </p> </td> 
    <td><strong>Dagligen</strong> </td>
   </tr>
