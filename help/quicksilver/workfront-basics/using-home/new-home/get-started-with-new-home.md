@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Kom igång med nya startsidor i Adobe Workfront
 description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Widgets är grunden för New Home. Genom att lägga till widgetar på hemsidan k
     Visar problem som har tilldelats dig i en tabell med anpassningsbara filter, vyer och grupperingar, samt en knapp som skapar ett nytt problem direkt.
 
 * **Mina förfrågningar**\
-    Visar alla begäranden som har tilldelats dig, ett filter som endast tillåter visning av öppna begäranden och en knapp som öppnar sammanfattningsrutan för en begäran.
+    Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningsrutan för en begäran.
 
 * **Teamförfrågningar**\
     Visar alla väntande begäranden för team som du är i sorterad efter team, samt knappar som du kan använda för att tilldela en användare en förfrågan direkt eller för att arbeta med den själv.
