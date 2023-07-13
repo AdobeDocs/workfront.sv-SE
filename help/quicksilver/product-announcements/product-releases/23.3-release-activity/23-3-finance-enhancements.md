@@ -3,24 +3,20 @@ title: 23.3 Förbättringar av den ekonomiska förvaltningen
 description: 23.3 Förbättringar av den ekonomiska förvaltningen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # 23.3 Förbättringar av den ekonomiska förvaltningen
 
-Den här sidan beskriver alla ekonomiska förbättringar som gjorts i version 23.3 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.3.
+Den här sidan beskriver alla förbättringar av den ekonomiska hanteringen som gjorts i version 23.3 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.3.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Datum för gällande kostnad och faktureringstariffer
-
->[!IMPORTANT]
->
->Åsidosättningsfunktionen för tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen den 30 juni 2023.
 
 Giltig kostnad och faktureringstariffer är nu tillgängliga för företagets, användarens och jobbrollens objekt i Workfront. När gällande datumsatser tillämpas på ett projekt, och timmar loggas på projektuppgifter, beräknas kostnader och intäkter med hjälp av de angivna tarifferna för varje tidsperiod.
 

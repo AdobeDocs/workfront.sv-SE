@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                             <li>
                                 <p>Produktionsrelease för kunder med snabb lansering: Anmäl dig efter 23.3-utgåvan</p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.4<br>
-                                <span style="color: #ff0000;"> Åsidosättningsfunktionen för tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen den 30 juni 2023.</span></p>
+                                <span style="color: #ff0000;"> Funktionen för åsidosättning av tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen från 30 juni till 13 juli 2023.</span></p>
                             </li>
                         </ul>
                     </td>
