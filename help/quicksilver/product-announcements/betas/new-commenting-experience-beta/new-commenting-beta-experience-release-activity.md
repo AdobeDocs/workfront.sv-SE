@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Planerad produktionsrelease: 13 juli 2023
 
 Vi har gjort om gränssnittet för loggningstid från uppdateringsområdet i den nya kommentarsfunktionen.
 
-Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md). Dokumentationen uppdateras när den släpps.
+Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Förhandsgranskningsversion: 5 juli 2023
 
@@ -89,7 +89,7 @@ Produktionsrelease: med version 23.3
 
 Nu kan du kopiera innehållet i en kommentar och lägga till det som en ny offert till ett svar i samma tråd när du använder den nya kommentarsfunktionen.
 
-Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Dokumentationen uppdateras när den släpps.
+Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Förhandsgranska: 28 juni 2023
 
