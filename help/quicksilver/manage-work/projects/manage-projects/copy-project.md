@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: Kopiera ett projekt
 description: Du kan kopiera ett projekt i stället för att skapa ett från början. Du kan bara kopiera ett projekt åt gången. Du kan inte kopiera projekt i grupp.
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ Du kan kopiera ett projekt i stället för att skapa ett från början. Du kan b
 >* Styrkort
 >* Standardinformation för uppgift (Standardprocess för godkännande av uppgift, Anpassad Forms för standarduppgift)
 >
-
+> Datumen för de ursprungliga uppgifterna i projekten kopieras till det nya projektet. Du måste ändra start- eller slutdatumet för projektet (beroende på schemaläge) för att kunna uppdatera datumen för aktiviteterna. Aktivitetsbegränsningar kan hindra dig från att ändra datum i projektet.
 
 ## Åtkomstkrav
 

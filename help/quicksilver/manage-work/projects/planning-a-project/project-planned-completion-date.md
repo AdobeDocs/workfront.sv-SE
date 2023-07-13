@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Ange projektplanerat slutförandedatum
 description: Planerat slutförandedatum för ett projekt är det datum då projektet är inställt på att slutföras.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -86,13 +87,18 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Ange manuellt planerat slutförandedatum för ett projekt
 
-Du måste manuellt ange planerat slutförandedatum för ett projekt när du schemalägger projektet från slutförandedatum. 
+Du måste manuellt ange planerat slutförandedatum för ett projekt när du schemalägger projektet från slutförandedatum.
+
+>[!NOTE]
+>
+>När du ställer in det planerade slutförandedatumet för ett projekt manuellt beräknar Workfront automatiskt det planerade startdatumet för projektet baserat på varaktigheten för alla uppgifter.
+
 
 Så här schemalägger du ett projekt från Slutförandedatum:
 
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
 
-1. Klicka **Nytt projekt** sedan **Nytt projekt**.
+1. Klicka **Nytt projekt** sedan **Nytt projekt**.
 
    Mer information om hur du skapar projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
@@ -107,7 +113,7 @@ Så här schemalägger du ett projekt från Slutförandedatum:
 
 ## Ange automatiskt planerat slutförandedatum för ett projekt
 
-Det planerade slutförandedatumet för ett projekt beräknas automatiskt av Adobe Workfront när du schemalägger projektet från startdatumet. 
+Det planerade slutförandedatumet för ett projekt beräknas automatiskt av Workfront när du schemalägger projektet från startdatumet. 
 
 Så här schemalägger du ett projekt från startdatum:
 

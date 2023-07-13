@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: Sök efter skickade begäranden
 description: Läs mer om de områden i Adobe Workfront där du kan hitta förfrågningar som du eller någon annan har skickat eller förfrågningar som du aldrig har skickat in och sparats som utkast.
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Sök efter skickade begäranden
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Du kan hitta följande typer av förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har börjat skicka men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
@@ -70,7 +72,7 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
    >
    >Du kan inte anpassa kolumnerna i listan Skickade begäranden.
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Följande kolumner visas som standard:

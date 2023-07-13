@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
 
 # Kopiera och skicka begäranden
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 När du skickar in liknande begäranden ofta kan du kopiera en befintlig skickad begäran. I det här fallet kan du kopiera en befintlig begäran, göra minimala ändringar i den och skicka den igen som en ny begäran.
 
@@ -122,11 +122,11 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 1. (Villkorligt) Om avsnittet Skickat inte visas som standard klickar du på **Skickat** i den vänstra panelen.
 1. Leta reda på den begäran som du vill kopiera och skicka som ny, och gör något av följande:
 
-   * Markera den och klicka sedan på <span class="preview"> **Kopiera** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> i det övre vänstra hörnet i listan Skickade begäranden.
+   * Markera den och klicka sedan på **Kopiera** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) i det övre vänstra hörnet i listan Skickade begäranden.
 
    >[!TIP]
    >
-   > <span class="preview">Om du inte valde någon begäran först är ikonen Kopiera nedtonad.</span>
+   > Om du inte valde någon begäran först är ikonen Kopiera nedtonad.
 
    * Klicka på **Mer** meny ![](assets/more-icon.png) till höger om namnet på begäran och klicka sedan på **Kopiera och skicka som nya**
 

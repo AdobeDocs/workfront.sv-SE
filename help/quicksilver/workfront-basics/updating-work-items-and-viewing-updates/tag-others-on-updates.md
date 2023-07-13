@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Frågor, <span class="preview">projekt, uppgifter och dokument</span>.
+> * Frågor, <span class="preview" style="display-inline">projekt, uppgifter och dokument</span>.
 >
 >     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
 >
@@ -136,19 +136,19 @@ Du kan tagga användare manuellt i det aktuella uppdateringsavsnittet.
 
 ### Tagga andra om uppdateringar i kommenteringsfunktionen Beta
 
-<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
+Du kan tagga andra vid uppdateringar på följande sätt:
 
-You can tag others on updates in the new commenting experience in the following ways:
+* <span class="preview"> **Automatiskt**: När en användare lägger till en kommentar eller ett svar, taggas de automatiskt och läggs till i taggarna personer eller team i kommentarsrutan. </span>
+* **Manuellt**: När du lägger till en användare manuellt i området Tagga personer i kommenteringsrutan.
 
-* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
-* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+Du kan också ta bort användare som är taggade av misstag när du redigerar eller svarar på en kommentar.
 
-You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+1. Börja uppdatera en arbetsuppgift enligt beskrivningen i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">Som kommentarsägare taggas du automatiskt och läggs till i taggarna för personer eller team i kommentarsrutan. </span>
 
+   >[!TIP]
+   >
+   ><span class="preview">Kommentarägaren kan inte se sitt eget namn under Tagga personer eller team i kommenteringsrutan.</span>
 
-Du kan tagga andra vid uppdateringar manuellt i kommenteringsfunktionen Beta. Du kan också ta bort användare som är taggade av misstag när du redigerar eller svarar på en kommentar.
-
-1. Börja uppdatera en arbetsuppgift enligt beskrivningen i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. I **Tagga personer eller team** börjar du skriva namnet på den användare eller det team som du vill inkludera och klickar sedan på namnet när det visas i listrutan.
 
    eller

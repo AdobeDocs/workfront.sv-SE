@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: Översikt över projektets planerade startdatum
 description: Översikt över projektets planerade startdatum
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -31,6 +32,10 @@ Det planerade startdatumet för ett projekt kan anges manuellt eller automatiskt
 ## Ange manuellt planerat startdatum för ett projekt
 
 Du måste ange det planerade startdatumet för ett projekt manuellt när du schemalägger projektet från startdatumet.
+
+>[!NOTE]
+>
+>När du ställer in det planerade startdatumet för ett projekt manuellt beräknar Workfront automatiskt projektets planerade slutförandedatum baserat på varaktigheten för alla uppgifter.
 
 Mer information om hur du ställer in projektets planerade startdatum finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -55,23 +60,23 @@ Det planerade startdatumet för ett projekt anges automatiskt när du skapar pro
 
 * från början och när du schemalägger projektet från slutförandedatum.
 
-   Det planerade startdatumet beräknas automatiskt av Adobe Workfront baserat på det datum du valde för Slutförandedatum och varaktigheten för alla aktiviteter i projektet.
+  Det planerade startdatumet beräknas automatiskt av Adobe Workfront baserat på det datum du valde för Slutförandedatum och varaktigheten för alla aktiviteter i projektet.
 
-   Mer information om hur du skapar ett projekt från grunden finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
+  Mer information om hur du skapar ett projekt från grunden finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
 * importera från Microsoft Project.
 
-   Det planerade startdatumet är startdatumet för projektet i Microsoft Project.
+  Det planerade startdatumet är startdatumet för projektet i Microsoft Project.
 
-   Mer information om hur du importerar ett projekt från Microsoft Project finns i [Importera ett projekt från Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Mer information om hur du importerar ett projekt från Microsoft Project finns i [Importera ett projekt från Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * importera det med Workfront Quick-Starts när du är Workfront-administratör.
 
-   Det planerade startdatumet matchar alltid datorns tid och datum, såvida du inte anger något annat i fältet setPlannedStartDate på projektbladet i snabbstartfilen.
+  Det planerade startdatumet matchar alltid datorns tid och datum, såvida du inte anger något annat i fältet setPlannedStartDate på projektbladet i snabbstartfilen.
 
-   Mer information om hur du importerar data med hjälp av snabbstarter finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Mer information om hur du importerar data med hjälp av snabbstarter finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   Mer information om hur du importerar projekt med hjälp av snabbstarter finns i [Scenario: enkel import av projekt och uppgifter](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Mer information om hur du importerar projekt med hjälp av snabbstarter finns i [Scenario: enkel import av projekt och uppgifter](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

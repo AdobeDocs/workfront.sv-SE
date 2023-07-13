@@ -2,13 +2,14 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Skapa mall från projekt
-description: Skapa mall från projekt
+description: Du kan skapa mallar när du sparar ett befintligt projekt som en mall.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -22,6 +23,12 @@ ht-degree: 0%
 Du kan skapa mallar när du sparar ett befintligt projekt som en mall.
 
 När du har sparat ett befintligt projekt som en mall kan du använda den nya mallen för att skapa nya projekt. Detta förenklar och snabbar upp processen att skapa projekt.
+
+>[!NOTE]
+>
+>När du sparar ett projekt som en mall sparas inte de faktiska datumen för uppgifterna och projektet för mallen.
+>
+>En mall och dess uppgifter har inga faktiska datum, utan snarare en indikation på vilken dag (från när det framtida projektet kan starta) en aktivitet kan starta och vilken dag aktiviteten kan behöva slutföras. När du använder mallar för att skapa framtida projekt får projekten faktiska datum. Mer information finns i [Skapa ett projekt](../create-projects/create-project.md).
 
 ## Åtkomstkrav
 

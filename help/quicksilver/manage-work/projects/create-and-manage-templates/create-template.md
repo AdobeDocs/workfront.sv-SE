@@ -6,9 +6,9 @@ description: Du kan skapa och ta bort mallar i området Mallar. När du skapar e
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,21 @@ ht-degree: 0%
 
 Du kan skapa och ta bort mallar i området Mallar. När du skapar en ny mall kan du ange informationen för alla uppgifter och all information för dina framtida projektinställningar. Den här informationen överförs sedan till projektet när du skapar det från mallen.
 
+>[!NOTE]
+>
+>En mall och dess uppgifter har inga faktiska datum, utan snarare en indikation på vilken dag (från när det framtida projektet kan starta) en aktivitet kan starta och vilken dag aktiviteten kan behöva slutföras. När du använder mallar för att skapa framtida projekt får projekten faktiska datum. Mer information finns i [Skapa ett projekt](../create-projects/create-project.md).
+
+
 Du kan skapa en ny mall på följande sätt:
 
 * Från början, enligt beskrivningen i den här artikeln.
 * Från befintliga projekt genom att spara ett projekt som en mall.
 
-   Mer information om hur du skapar mallar från befintliga projekt finns i [Spara ett projekt som en mall](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  Mer information om hur du skapar mallar från befintliga projekt finns i [Spara ett projekt som en mall](../../../manage-work/projects/manage-projects/save-project-as-template.md).
 
 * Genom att kopiera den från en annan mall.
 
-   Mer information om hur du kopierar en befintlig mall finns i [Kopiera en projektmall](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  Mer information om hur du kopierar en befintlig mall finns i [Kopiera en projektmall](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
 * Om du är Workfront-administratör kan du skapa mallar genom att importera utkast. Mer information finns i [Konfigurera en plan](../../../administration-and-setup/blueprints/configure-template-package.md).
 

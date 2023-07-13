@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -69,8 +69,6 @@ Följande funktioner har tagits bort från den nya versionen:
 >* <span class="preview">Uppgifter</span>
 >* <span class="preview">Dokument</span>
 
-
-
 Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den nya kommenteringsfunktionen samt deras tillgänglighet i områden där de stöds:
 
 <table>
@@ -79,7 +77,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td><strong>Gammal kommentarsfunktion </strong>
    </td>
-   <td><strong>Finns i betaversionen av den nya kommentarsupplevelsen </strong>
+   <td><strong>Finns i den nya kommentarsfunktionen </strong>
    </td>
    <td><strong>Kommer att introduceras i den nya kommentarsfunktionen </strong>
    </td>
@@ -224,9 +222,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>
