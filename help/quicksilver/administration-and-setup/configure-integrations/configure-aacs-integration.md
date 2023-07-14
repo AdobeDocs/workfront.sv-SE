@@ -5,7 +5,7 @@ title: Integreringar med Adobe Experience Manager Assets
 description: Du kan koppla ditt arbete till följande Adobe Experience Manager Assets Integrations.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Du kan koppla ditt arbete till ditt innehåll i [!DNL Experience Manager Assets]
 * Spåra metadata för resurser och mappar
 * Synkronisera projektmetadata mellan [!DNL Workfront] och [!DNL Experience Manager Assets]
 
-Du kan också ansluta flera Experience Manager Assets-databaser till en Workfront-miljö eller flera Workfront-miljöer till en Experience Manager Assets-databas över olika företags-ID:n. Följ konfigurationsinstruktionerna i den här artikeln för varje integrering som du vill konfigurera.
+>[!NOTE]
+>
+>Du kan också ansluta flera Experience Manager Assets-databaser till en Workfront-miljö eller flera Workfront-miljöer till en Experience Manager Assets-databas över olika företags-ID:n. Följ konfigurationsinstruktionerna i den här artikeln för varje integrering som du vill konfigurera.
 
 ## Åtkomstkrav
 
@@ -165,7 +167,6 @@ Du kan mappa både inbyggda och anpassade Workfront-fält till Experience Manage
 > * Inställningar > Anpassad Forms i Workfront eller fältet i objektet
 > * Assets > metadata schemas in Experience Manager Assets
 
-
 +++
 
 ### Mappa metadata för resurser
@@ -181,7 +182,6 @@ Så här mappar du metadata för resurser:
    >
    >Du kan mappa en enda [!DNL Workfront] fält till flera [!UICONTROL Experience Manager Assets] fält. Du kan inte mappa flera [!DNL Workfront] fält till ett enda [!DNL Experience Manager Assets] fält.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. I [!DNL Experience Manager Assets] -fält, söka igenom de redan ifyllda kategorierna eller ange minst två bokstäver i sökfältet för att få tillgång till ytterligare kategorier.
 1. Upprepa steg 2 och 3 efter behov.
