@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att anpassa logotyperna i det övre navigeringsområdet och på huvudmenyn för vissa grupper, team, jobbroller och användare. Detta är särskilt användbart för grupper i en stor organisation som har sina egna varumärken.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -33,7 +33,6 @@ Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
-
 
 ## Åtkomstkrav
 

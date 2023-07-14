@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: I en layoutmall kan du fästa de sidor som du vill att användarna alltid ska ha tillgängliga överst i Adobe Workfront. Dessa kan antingen vara sidor som du kommer åt via huvudmenyn eller kontrollpaneler.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Mer information om att fästa sidor finns i [Fäst sidor för att anpassa arbets
 Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+När du har konfigurerat en layoutmall måste du tilldela den till användare för att de ändringar du har gjort ska kunna visas för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Åtkomstkrav
 
@@ -60,9 +62,9 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 
    * Klicka på ett alternativ på huvudmenyn.
 
-      >[!IMPORTANT]
-      >
-      >För att visa områdena Scenarier och Mål krävs ytterligare licenser. Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md) Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+     >[!IMPORTANT]
+     >
+     >För att visa områdena Scenarier och Mål krävs ytterligare licenser. Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md) Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
    * Klicka **Lägg till en instrumentpanel** och skriv sedan en beskrivning **Anpassad avsnittsrubrik** och lägga till kontrollpanelen.
 

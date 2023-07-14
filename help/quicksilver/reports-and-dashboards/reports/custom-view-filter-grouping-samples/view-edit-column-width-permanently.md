@@ -7,9 +7,9 @@ description: Du kan tillfälligt ändra kolumnbredden genom att dra och släppa 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 >[!IMPORTANT]
 >
 >Om du ändrar bredden på en kolumn manuellt enligt beskrivningen i avsnittet Ändra bredden och ordningen på kolumner tillfälligt i artikeln [Ändra kolumnbredd och -ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) När du har ändrat bredden på kolumnen permanent bevaras kolumnens bredd enligt din manuella storleksändring och bredden på kolumnen som uppdateras enligt följande steg skrivs över. Du kan visa kolumnen enligt den bredd som definieras i följande steg när du har rensat cachen eller loggat in från en annan webbläsare.
+>
+>Mer information om hur du anpassar bredden på kolumner när du använder gränssnittet för textläge finns i definitionerna &quot;width&quot; och &quot;stretch&quot; i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Gå till en lista med objekt.
 1. Från **Visa** nedrullningsbar meny, klicka **Ny vy**.
@@ -79,3 +81,5 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    För **width** anger du ett tal (i pixlar) som anger hur bred du vill att kolumnen ska visas i vyn.
 
 1. Klicka **Spara** sedan **Spara vy**.
+
+

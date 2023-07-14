@@ -5,9 +5,9 @@ title: Ordlista för [!DNL Adobe Workfront] terminologi
 description: The [!DNL Adobe Workfront] ordlistor med termer som används ofta i Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '15985'
+source-wordcount: '16151'
 ht-degree: 0%
 
 ---
@@ -2103,8 +2103,17 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Strategic Alignment]</td> 
    <td>Mäta och anpassa företagsmål mellan portföljer och program.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>Detta används i rapportkolumner när du använder gränssnittet för textläge. </p>
+   <p>The <code>[!UICONTROL stretch]</code> används för att identifiera vilka kolumner som upptar extra utrymme som inte behövs för vyn. Användargränssnittets bredd för en vanlig användare är cirka 850 pixlar. Det innebär att om du har en vy med fyra kolumner (150 pixlar vardera) så upptar vyn 600 av 850 pixlar. Det finns 250 extra pixlar i gränssnittet som läggs till i kolumner som har en sträckningsprocent. </p>
+   <p>En kolumns sträckning används när du använder den extra kodraden: <code>[!UICONTROL usewidths=true]</code> för minst en av kolumnerna i vyn. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Subscribers]</td> 
    <td> <p>Användare som prenumererar på projekt, uppgifter eller problem.</p> <p>När du använder det här fältet i en rapport visas en lista med prenumeranter, där varje prenumerant avgränsas med kommatecken.</p> <p>Mer information finns i artikeln <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Prenumerera på objekt i [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Views This Year]</td> 
    <td>I en rapportlista visas antalet gånger som rapporten har visats under det här året.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Visa rapportanvändning</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> I en rapport, när [!UICONTROL Text Mode] gränssnitt, den kodrad där du kan ange bredden på varje kolumn i pixlar. Workfront har en föreslagen bredd för varje fält, men beroende på fälttyp och format kan du behöva göra justeringar.
+Du måste använda ytterligare <code>[!UICONTROL usewidths=true]</code> kodrad för att framtvinga den bredd som har angetts för kolumnen. 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>I en projekt-, uppgifts- eller problemrapport visas de planerade timmarna för projektet, aktiviteten eller utgåvan med följande programsats i textläge:</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>Mer information om hur du använder textläge finns i <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Översikt över syntaxen i textläge</a>. </p> 
    <p><b>TIPS</b> 
    <p>I en problemrapport lägger du till en av [!UICONTROL Planned Hours] fält lägger till <code>work </code>till rapporten. </p> </td> 
@@ -2396,7 +2416,10 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>I en projekt-, uppgifts- eller problemrapport visas antalet planerade timmar för projektet, aktiviteten eller utgåvan med följande programsats i textläge följt av ordet"Timmar":</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>Mer information om hur du använder textläge finns i <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Översikt över syntaxen i textläge</a>. </p> </td> 
   </tr> 
  </tbody> 

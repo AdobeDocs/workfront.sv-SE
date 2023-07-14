@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att konfigurera de alternativ som användare ser när de öppnar huvudmenyn i Workfront.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ Som Adobe Workfront-administratör eller gruppadministratör kan du använda en 
 >
 >De alternativ på huvudmenyn som användarna ser beror på licenstypen och vilka inställningar som har konfigurerats på åtkomstnivån. Vissa användare som kommer att använda den här layoutmallen kanske inte ser alla alternativ som du väljer här. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) och [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
+Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+När du har konfigurerat en layoutmall måste du tilldela den till användare för att de ändringar du har gjort ska kunna visas för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Åtkomstkrav
 
@@ -60,9 +64,9 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 
    * Startsida
 
-      >[!TIP]
-      >
-      >Som standard visas Hem som Mina uppdateringar för användare med granskningslicens, såvida de inte har en layoutmall kopplad till sin profil som innehåller området Mina uppdateringar på huvudmenyn.
+     >[!TIP]
+     >
+     >Som standard visas Hem som Mina uppdateringar för användare med granskningslicens, såvida de inte har en layoutmall kopplad till sin profil som innehåller området Mina uppdateringar på huvudmenyn.
 
    * Portfolio
    * Program
@@ -73,16 +77,16 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
    * Resurser
    * Scenarier
 
-      >[!NOTE]
-      >
-      >Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevelsen och kräver ytterligare en licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+     >[!NOTE]
+     >
+     >Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevelsen och kräver ytterligare en licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
    * Team
    * Användare
 
-      >[!NOTE]
-      >
-      >Endast användare med en planlicens kan se Användare ![](assets/users-icon-in-main-menu.png) på huvudmenyn.
+     >[!NOTE]
+     >
+     >Endast användare med en planlicens kan se Användare ![](assets/users-icon-in-main-menu.png) på huvudmenyn.
 
    * Begäranden
    * Tidrapporter
@@ -92,9 +96,9 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
    * Korrektur
    * Mål
 
-      >[!NOTE]
-      >
-      >Detta kräver ytterligare en licens. Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >[!NOTE]
+     >
+     >Detta kräver ytterligare en licens. Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mina uppdateringar
    * Varumärkena

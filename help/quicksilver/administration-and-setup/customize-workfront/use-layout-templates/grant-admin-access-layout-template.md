@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Som Adobe Workfront-administratör kan du ge administratörsbehörighet för en layoutmall till gruppadministratörerna för en viss grupp så att de kan redigera mallen. Mallen tilldelas inte användarna i gruppen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -61,6 +61,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >* När en gruppadministratör skapar en layoutmall är det obligatoriskt att tilldela administratörsåtkomst. Layoutmallen är avsedd för och synlig endast för den angivna gruppen. Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). Mer information om gruppadministratörer finns i [Gruppadministratörer](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    >   
    >* Om du inte ger administratörsbehörighet till gruppadministratörerna i en viss grupp får alla användare som kan redigera användarkonton administratörsbehörighet för layoutmallen. Vissa Workfront-administratörer väljer att inte bevilja administrativ åtkomst för en layoutmall för att göra den till en layoutmall på systemnivå.
-
 
 1. Du kan klicka på Spara när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Redigera uppgifter
-description: Redigera uppgifter
+description: Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 9c7af82b02649f33728d05126587fb5035e9e110
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '3627'
+source-wordcount: '3663'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Tänk på följande när du redigerar uppgifter:
 * När du uppdaterar uppgifter utlöses meddelanden för projekt som har statusen Aktuell. För att undvika förvirring för användare som är tilldelade till aktiviteterna bör du begränsa redigeringsuppgifterna så mycket som möjligt när projektet har statusen Aktuell.
 * Du kan inte redigera uppgifter som ingår i en godkännandeprocess. Du kan bara logga tid eller uppdatera status för en aktivitet i en godkännandeprocess.
 
-   ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * Du kan bara redigera och lägga till dokument i uppgifter i ett projekt som har statusen Fullständigt, Dölj eller Väntar på godkännande när Workfront-administratören eller en gruppadministratör har aktiverat den här funktionen i området Projektinställningar. Mer information om hur du anger projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -102,7 +102,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 1. Klicka **Projekt** klickar du sedan på namnet på ett projekt för att öppna det.
 1. Klicka **Uppgifter** i den vänstra panelen.
 1. Klicka på den uppgift du vill redigera.
-1. (Valfritt) Om du vill redigera begränsad information om en uppgift klickar du på **Uppgiftsinformation** i den vänstra panelen.
+1. (Villkorligt) Om du vill redigera begränsad information om en uppgift som en användare med Contribute-behörighet för uppgiften klickar du på **Uppgiftsinformation** i den vänstra panelen.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -110,20 +110,19 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    * **Översikt**
 
-      Det här området utökas som standard.
+     Det här området utökas som standard.
 
    * **Anpassad Forms**
 
-      Namnen på tullformulär visas bara om det finns anpassade formulär kopplade till objektet.
+     Namnen på tullformulär visas bara om det finns anpassade formulär kopplade till objektet.
 
    * **Ekonomi**
+
    >[!NOTE]
    >
    >Beroende på hur Workfront-administratören eller gruppadministratören ändrade din layoutmall kan det hända att fälten i området Uppgiftsinformation ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Om du vill ha information om fälten som visas i avsnittet Aktivitetsinformation
-
-   fortsätta redigera uppgiften i rutan Redigera uppgift enligt beskrivningen nedan.
+   Om du vill ha information om de fält som visas i avsnittet Uppgiftsinformation kan du fortsätta redigera uppgiften i rutan Redigera uppgift enligt beskrivningen nedan.
 
    Så här redigerar du information i detaljavsnittet:
 
@@ -133,6 +132,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
       * [Hantera aktivitetsinformation i området Översikt över aktivitetsinformation](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Hantera aktivitetsfinanser i avsnittet Uppgiftsinformation](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till uppgiften börjar du skriva namnet på ett formulär i **Lägg till anpassat formulär** och sedan markera den när den visas i listan och sedan klicka på **Spara ändringar**.
    1. (Valfritt) Klicka på **Exportera** icon ![](assets/export.png) om du vill exportera översikten och information om anpassade formulär till en PDF-fil, och sedan klicka på **Exportera**. Välj bland följande:
 
@@ -146,10 +146,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-
-
-
-1. Om du vill redigera all information om uppgiften klickar du på **Mer** meny ![](assets/more-icon.png) bredvid namnet på uppgiften och klicka sedan på **Redigera**.
+1. (Villkorligt) Om du vill redigera all information om uppgiften, som en användare med behörigheten Hantera, klickar du på **Mer** meny ![](assets/more-icon.png) bredvid namnet på uppgiften och klicka sedan på **Redigera**.
 
    eller
 
@@ -334,7 +331,6 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    >
    >* Tilldela om arbetsuppgiften till aktiva resurser.
    >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-
 
 1. (Valfritt) Ange om en tilldelad är den primära tilldelaren för uppgiften genom att välja **Ägare** alternativknapp bredvid deras namn. Ett team kan inte vara den primära tilldelaren för en uppgift.
 1. (Villkorligt och valfritt) Uppdatera följande fält:
@@ -609,9 +605,9 @@ Följande fält inkluderas som standard i projektrubriken:
 * Uppdrag
 * Planerat slutförandedatum och tid
 
-   >[!CAUTION]
-   >
-   >Vissa aktivitetsbegränsningar och andra beroenden kan hindra dig från att redigera det här fältet. Mer information om uppgiftsbegränsningar finns i [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >[!CAUTION]
+  >
+  >Vissa aktivitetsbegränsningar och andra beroenden kan hindra dig från att redigera det här fältet. Mer information om uppgiftsbegränsningar finns i [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Fatta godkännandebeslut om du har angett som godkännare i en aktuell godkännandeprocess

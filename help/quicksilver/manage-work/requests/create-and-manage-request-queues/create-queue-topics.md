@@ -6,9 +6,9 @@ description: Köämnen fungerar tillsammans med routningsregler för att automat
 author: Alina
 feature: Work Management
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Du måste ha följande:
       <td>Välj de anpassade formulär som du vill associera med köavsnittet. Du måste skapa anpassade formulär för problem innan du kan koppla dem till köämnen. Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Standardgodkännande</td> 
+      <td role="rowheader"><strong>Standardgodkännande</strong></td> 
       <td> <p>Associera en godkännandeprocess med det här köavsnittet. Endast godkännandeprocesser för problem visas i den här listrutan. Alla utleveranser som skickas till den här kön kommer att associeras med den här godkännandeprocessen. Adobe Workfront-administratören måste definiera godkännandeprocesser på systemnivå innan du kan koppla dem till köämnen. <span>En användare med administrativ åtkomst till godkännandeprocesser kan också skapa gruppspecifika godkännandeprocesser.</span> Mer information om hur du skapar godkännandeprocesser finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Skapa en godkännandeprocess för arbetsobjekt</a>.<br></p> 
        <div> 
         <p>Viktigt: Om projektgruppen ändras blir den gruppspecifika godkännandeprocess som är kopplad till befintliga utgåvor en godkännandeprocess för engångsbruk. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>.</p> 
@@ -136,7 +136,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standardflöde</strong> </td> 
-      <td>Ange den routningsregel som du vill koppla till köämnet. Du måste skapa routningsregeln innan du kan koppla den till ett köämne.</td> 
+      <td>Ange den routningsregel som du vill koppla till köämnet. Du måste skapa routningsregeln innan du kan koppla den till ett köämne. Mer information finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Skapa routningsregler</a> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Typ av begäran</strong> </td> 

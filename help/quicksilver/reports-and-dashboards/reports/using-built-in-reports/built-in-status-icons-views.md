@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Inbyggda statusikoner i vyer
-description: Inbyggda statusikoner i vyer
+description: Du kan lägga till det inbyggda fältet Statusikoner som en kolumn i vyerna för att förbättra synligheten i viktiga punkter om objekten.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,20 @@ Du kan lägga till det inbyggda fältet Statusikoner som en kolumn i vyerna för
 * En uppgift är på en kritisk väg
 * En användare tillhör ett företag, ett team eller finns i en annan tidszon
 
-De flesta indikatorerna i fältet Statusikoner är snabblänkar till det objekt eller det område i objektet som de representerar.
+Tänk på följande:
 
-Om något av de objekt som ikonerna representerar saknas i objektet visas ikonen som representerar det saknade objektet som en disposition i kolumnen Statusikoner i stället för som en fullständig bild.\
-![task_status_icons.png](assets/task-status-icons.png)\
-Mer information finns i [Översikt över statusikoner och flaggor](#overview-of-status-icons-and-flags) i den här artikeln.\
-I vissa vyer visas **Statusikoner** fältet är namngivet **Flaggor** eller **Visa ikoner**.\
-Du kan inte anpassa utseendet på de ikoner som finns i fältet Statusikoner.
+* De flesta indikatorerna i fältet Statusikoner är snabblänkar till det objekt eller det område i objektet som de representerar.
+
+* Om något av objekten som representeras av ikonerna saknas i objektet visas ikonen som representerar det saknade objektet nedtonad i kolumnen Statusikoner i stället för i en färgad bild.
+
+  ![task_status_icons.png](assets/task-status-icons.png)
+
+  Mer information finns i [Översikt över statusikoner och flaggor](#overview-of-status-icons-and-flags) i den här artikeln.
+
+* I vissa vyer visas **Statusikoner** fältet är namngivet **Flaggor** eller **Visa ikoner**.\
+  Du kan inte anpassa utseendet på de ikoner som finns i fältet Statusikoner.
+
+* Du kan inte redigera antalet ikoner i fältet Statusikoner.
 
 ## Åtkomstkrav
 
@@ -87,8 +94,8 @@ Så här lägger du till fältet Statusikoner i en anpassad vy som du bygger fr�
    * Utgifter
    * Dokument
    * Användare\
-      Endast dessa objekt har **Statusikoner** tillgängligt fält.\
-      Mer information om objektlistor finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+     Endast dessa objekt har **Statusikoner** tillgängligt fält.\
+     Mer information om objektlistor finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Från **Visa** nedrullningsbar meny, välja **Ny vy**.
 

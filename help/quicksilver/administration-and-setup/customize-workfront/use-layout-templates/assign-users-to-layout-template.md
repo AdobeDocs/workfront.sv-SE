@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Som Adobe Workfront-administratör kan du tilldela en layoutmall som du har skapat till användare, jobbroller, team eller grupper som behöver använda den.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -90,15 +90,15 @@ Användaren kan dock bara se en layoutmall åt gången. Mallen som är synlig av
 * **Enskild användare**: Layoutmallen som tilldelats personen som en enskild användare åsidosätter alla andra. Du kan åsidosätta en tidigare tilldelning som gjorts till en enskild användare genom att skapa en ny tilldelning; den senaste har företräde.
 * **Primär jobbroll**: Om personen inte har tilldelats en layoutmall som en enskild användare, ser han/hon mallen som tilldelats för den primära jobbrollen.
 
-   Endast layoutmallen som tilldelats en användares primära jobbroll är synlig för användaren. Mallar som tilldelats till sekundära jobbroller som innehas av användaren visas inte.
+  Endast layoutmallen som tilldelats en användares primära jobbroll är synlig för användaren. Mallar som tilldelats till sekundära jobbroller som innehas av användaren visas inte.
 
 * **Hemteam**: Om personen inte har tilldelats en layoutmall som en enskild användare, eller som en användare med en primär jobbroll, ser han/hon mallen som tilldelats deras Hem-team.
 
-   Endast den mall som tilldelats en användares hemteam är synlig för användaren. Mallar som tilldelats andra team där användaren är medlem visas inte.
+  Endast den mall som tilldelats en användares hemteam är synlig för användaren. Mallar som tilldelats andra team där användaren är medlem visas inte.
 
 * **Hemgrupp**: Om personen inte har tilldelats en layoutmall som en enskild användare, eller som en användare med en primär jobbroll, eller som medlem i ett Hem-team, ser han/hon mallen som tilldelats till hemgruppen.
 
-   Endast den mall som tilldelats hemgruppen för en användare visas för användaren. Mallar som tilldelats någon av deras andra grupper visas inte.
+  Endast den mall som tilldelats hemgruppen för en användare visas för användaren. Mallar som tilldelats någon av deras andra grupper visas inte.
 
 ## Ett stort antal användare som tilldelats en layoutmall
 

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Som Adobe Workfront-administratör kan du använda en layoutmall för att ändra etiketterna för vissa objekt som visas i hela Workfront så att de matchar de termer som används i organisationen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,11 @@ När du har sparat en layoutmall där du ändrat terminologi, loggat ut från Wo
 >* Du kan stöta på grammatik och andra problem när du anpassar etiketter. Om du till exempel ändrar&quot;Problem&quot; till&quot;Begäran&quot; kan det finnas platser i användargränssnittet där du ser frasen&quot;En begäran&quot;. Mer information finns i [Konsekvenser av anpassning av objektnamn](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
+Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+När du har konfigurerat en layoutmall måste du tilldela den till användare för att de ändringar du har gjort ska kunna visas för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Åtkomstkrav
 
@@ -72,15 +75,15 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 
    * Klicka på nedpilen om du vill använda en alternativ term från Workfront  ![](assets/dropdown-arrow.png) bredvid etiketten och klicka sedan på den alternativa etikett du vill ha i listrutan.
 
-      >[!NOTE]
-      >
-      >Alternativa etiketter i listrutorna stöds i Workfront-versioner som är lokaliserade för andra språk än engelska.
+     >[!NOTE]
+     >
+     >Alternativa etiketter i listrutorna stöds i Workfront-versioner som är lokaliserade för andra språk än engelska.
 
    * Om du vill ange ett eget anpassat alternativ för etiketten som visas för ett objekt klickar du på **Ange eget namn** till höger om etiketten och skriv sedan **Singular** och **Plural** formulär för den anpassade termen. Du kan klicka **Återställ** om du ändrar dig.
 
-      Du kan anpassa följande objektnamn:
+     Du kan anpassa följande objektnamn:
 
-      <table style="table-layout:auto">
+     <table style="table-layout:auto">
       <col>
       <col>
       <col>

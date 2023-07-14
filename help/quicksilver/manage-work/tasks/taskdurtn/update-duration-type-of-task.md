@@ -6,9 +6,9 @@ description: En uppgifts varaktighetstyp identifierar relationen mellan antalet 
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,14 @@ Du måste ha följande för att ändra varaktighetstypen för en uppgift:
 
 ## Uppdatera varaktighetstypen för en aktivitet
 
-Förutom att uppdatera varaktighetstypen för en uppgift enligt beskrivningen i den här artikeln kan du även uppdatera varaktighetstypen när du redigerar en uppgift eller när du gör avancerade uppdrag. Mer information finns i:
+Förutom att uppdatera varaktighetstypen för en uppgift enligt beskrivningen i den här artikeln kan du även uppdatera varaktighetstypen när du redigerar en uppgift eller när du gör avancerade uppdrag. Mer information finns i:
 
 * [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 Så här uppdaterar du varaktighetstypen för en aktivitet:
 
-1. Klicka **Huvudmeny** > **Projekt** klickar du sedan på ett projekt för att komma åt det.
+1. Klicka **Huvudmeny** > **Projekt** klickar du sedan på ett projekt för att komma åt det.
 1. Klicka på **Uppgifter** i den vänstra panelen.
 1. Klicka **Uppgiftsinformation** i den vänstra panelen och i området Översikt klickar du på **Typ av varaktighet**.
 
@@ -63,14 +63,11 @@ Så här uppdaterar du varaktighetstypen för en aktivitet:
 
 1. Välj bland följande alternativ
 
-   | Beräknat arbete | Mer information finns i [Översikt över varaktighetstyp: Beräknat arbete](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Typ av varaktighet | Mer information |
    |---|---|
+   | Beräknat arbete | Mer information finns i [Översikt över varaktighetstyp: Beräknat arbete](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
    | Ansträngningsstyrd | Mer information finns i [Översikt över varaktighetstyp: Ansträngningsstyrd](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
    | Beräknad tilldelning | Mer information finns i [Översikt över varaktighetstyp: Beräknad tilldelning](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
    | Enkel | Mer information finns i [Översikt över varaktighetstyp: Enkel](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-   {style=&quot;table-layout:auto&quot;}
-
-1. Klicka **Spara** **Ändringar**.
-
- 
+1. Klicka **Spara ändringar**.

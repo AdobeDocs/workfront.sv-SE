@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2597'
 ht-degree: 0%
 
 ---
@@ -117,6 +117,11 @@ I den här artikeln beskrivs hur du skapar en begärandekö från ett befintligt
 ## Skapa en begärandekö
 
 När du ställer in ett projekt som en frågekö måste projektstatusen vara Aktuell för att kunna visas i området Begäranden i Workfront.
+
+>[!TIP]
+>
+>Din Workfront- eller gruppadministratör kan tilldela dig till en anpassad layoutmall som kanske inte innehåller några av de avsnitt som beskrivs i följande steg.
+
 
 Så här skapar du en begärandekö:
 

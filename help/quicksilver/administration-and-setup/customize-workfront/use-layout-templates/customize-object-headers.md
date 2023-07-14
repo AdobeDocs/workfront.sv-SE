@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att konfigurera de fält som användarna ser i objekthuvudet när de öppnar ett objekts sida.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,13 @@ Som Adobe Workfront-administratör eller gruppadministratör kan du använda en 
 >
 >Det går för närvarande att anpassa objektrubriker för projekt, uppgifter och ärenden.
 
-
-Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
-
 ![](assets/object-header-fields.png)
+
+Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
+
+Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+När du har konfigurerat en layoutmall måste du tilldela den till användare för att de ändringar du har gjort ska kunna visas för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Åtkomstkrav
 
@@ -67,7 +70,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 1. I [!UICONTROL Header fields] för du muspekaren över de fält som visas och gör något av följande:
    * Klicka på **x** ikon för att ta bort ett fält
 
-      eller
+     eller
 
    * Klicka och håll ned **ta** för att dra och släppa fältet på en ny plats.
 
@@ -86,7 +89,6 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
    >* Du kan lägga till redigerbara fält som redan ingår i standardrubrikerna (till exempel Projektägare, Status, Procent färdigt, Uppdrag).
    >
    >* När du lägger till fältet &quot;Löst av&quot; i huvudet för ett problem, ändras fältet till &quot;Lösa problem, Aktivitet eller Projekt&quot;, när det finns ett matchande objekt kopplat till problemet.
-
 
 
    ![](assets/add-field-to-header-in-lt-list.png)

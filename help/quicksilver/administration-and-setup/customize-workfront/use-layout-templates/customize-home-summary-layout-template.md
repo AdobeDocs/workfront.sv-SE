@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i Hem och i Sammanfattning. Varje konfiguration som du gör enligt stegen nedan påverkar Hem- och Sammanfattningspanelen på samma sätt. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,11 @@ Du kan också anpassa fälten som användarna ser i området Hem när användarn
 
 Mer information om Hem-området finns i [Använda området Hem](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Mer information om panelen Sammanfattning finns i [Sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
+Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
+
 Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+När du har konfigurerat en layoutmall måste du tilldela den till användare för att de ändringar du har gjort ska kunna visas för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Åtkomstkrav
 
