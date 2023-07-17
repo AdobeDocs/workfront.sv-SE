@@ -6,9 +6,9 @@ description: Åtkomst [!DNL Workfront] med Adobe Experience Cloud får du en smi
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 8bf83e73706b5e994d091dc56d43a9f027b01fe8
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -86,3 +86,17 @@ Med den här menyn kan du:
 * Ange **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inklusive inställningar för primärt och sekundärt språk.
 * Få åtkomst till dina **[!UICONTROL [!DNL Workfront] Profile]**. När du är med i profilen klickar du på **[!UICONTROL More]** meny ![](assets/more-icon.png) och markera **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** Adobe Experience Cloud.
+
+## Hantera ditt lösenord
+
+>[!NOTE]
+>
+>Om du ändrar lösenordet ändras det för alla [!DNL Adobe Experience Cloud] program.
+
+Lösenordet hanteras inte i [!DNL Workfront].
+
+Om din organisation använder ett separat program för att hantera lösenord ändrar du lösenordet genom den leverantören.
+
+Om ditt lösenord hanteras av [!DNL Adobe]kan du [ändra lösenordet i ditt Adobe-konto](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}.
+
+Kontakta administratören om du vill ha mer information om hur du ändrar ditt lösenord.

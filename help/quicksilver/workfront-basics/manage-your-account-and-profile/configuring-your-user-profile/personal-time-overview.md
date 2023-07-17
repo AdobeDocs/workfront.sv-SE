@@ -7,9 +7,9 @@ description: Adobe Workfront är inte utformat för att replikera eller ersätta
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Resurshanteringsverktygen använder också din personliga ledig tid för att ang
 >* [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Åtkomstkrav
 
@@ -63,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Konfigurera personlig timeout i [!DNL Workfront]
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]klickar du sedan på ditt användarnamn bredvid din profilbild.
+1. {#step1-click-profile-pic}
 
 1. Klicka på i den vänstra panelen **[!UICONTROL Time Off]**.
 1. Välj önskat datum för din personliga ledig tid.
@@ -71,4 +70,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Låt det vara omarkerat om du tar mindre än en hel dag ledigt och ange start- och sluttider för din tid.
 
 1. Klicka på **[!UICONTROL Save]**.\
-   Din lediga tid syns nu tvärs över [!DNL Workfront] i schemaläggningsverktyg som Resursstödrastret. När du har tilldelats arbete under den här tiden visas ett verktygstips som informerar användaren om att du har schemalagt en ledig tid.
+   Din lediga tid syns nu tvärs över [!DNL Workfront] i resurshanteringsverktyg som Resursplanering och Arbetsbelastningsutjämnare. När du har tilldelats arbete under den här tiden visas ett verktygstips som informerar användaren om att du har schemalagt en ledig tid.

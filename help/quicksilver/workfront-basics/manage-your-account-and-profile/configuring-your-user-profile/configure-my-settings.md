@@ -6,9 +6,9 @@ description: Dina [!DNL Adobe Workfront] profil innehåller information om dig s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2821'
 ht-degree: 0%
 
 ---
@@ -196,7 +196,7 @@ Följande rutnät visar vilka avsnitt i [!UICONTROL My Settings] området är sy
 
 ## Konfigurera [!UICONTROL My Settings] area
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]klickar du sedan på ditt användarnamn bredvid din profilbild.
+1. {#step1-click-profile-pic}
 
 1. Klicka på **[!UICONTROL More]** meny ![](assets/more-icon.png)och sedan klicka **[!UICONTROL Edit]**.
 
@@ -252,7 +252,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td> Om [!DNL Workfront] administratören aktiverade SSO-integrering med [!DNL Workfront]visas SSO-användarnamnet i det här fältet. Den typ av SSO-konfiguration som är aktiverad för din [!DNL Workfront] -instansen visas i det här fältet.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Om [!DNL Workfront] administratören aktiverade SSO-integrering med [!DNL Workfront] och har uppdaterat användare för enkel inloggning, är det här fältet markerat som standard. Den typ av SSO-konfiguration som är aktiverad för din [!DNL Workfront] -instansen visas i det här fältet.</p> <p>När det här fältet är markerat måste du logga in [!DNL Workfront] med dina inloggningsuppgifter. Om du avmarkerar den kan du logga in på [!DNL Workfront] med [!DNL Workfront] autentiseringsuppgifter.</p> <p>Mer information om konfiguration [!DNL Workfront] med en SSO-lösning, se <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Enkel inloggning [!DNL Adobe Workfront]</a>. Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> </td> 
   </tr> 
  </tbody> 

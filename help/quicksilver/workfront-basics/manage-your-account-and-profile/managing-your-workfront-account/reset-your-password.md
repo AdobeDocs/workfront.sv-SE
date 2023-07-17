@@ -6,7 +6,7 @@ description: Du kan återställa [!DNL Adobe Workfront] lösenord. Som en viktig
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Återställ lösenordet
+
+{{important-not-on-aec}}
 
 Du kan återställa [!DNL Adobe Workfront] lösenord. Som en viktig säkerhetsåtgärd rekommenderar vi att du gör detta regelbundet.
 
