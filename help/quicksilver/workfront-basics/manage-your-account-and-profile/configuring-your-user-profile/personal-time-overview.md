@@ -7,9 +7,9 @@ description: Adobe Workfront är inte utformat för att replikera eller ersätta
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Konfigurera personlig timeout i [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
-
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Eller (om det är tillgängligt) klicka på din profilbild i det övre navigeringsområdet och klicka sedan på **[!UICONTROL Workfront Profile]**.
 1. Klicka på i den vänstra panelen **[!UICONTROL Time Off]**.
 1. Välj önskat datum för din personliga ledig tid.
 1. Välj **[!UICONTROL All day]**, om du tar en hel dag ledigt.\

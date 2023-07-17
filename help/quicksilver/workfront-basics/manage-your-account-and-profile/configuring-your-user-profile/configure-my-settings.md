@@ -6,9 +6,9 @@ description: Dina [!DNL Adobe Workfront] profil innehåller information om dig s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '2821'
+source-wordcount: '2857'
 ht-degree: 0%
 
 ---
@@ -196,8 +196,7 @@ Följande rutnät visar vilka avsnitt i [!UICONTROL My Settings] området är sy
 
 ## Konfigurera [!UICONTROL My Settings] area
 
-1. {#step1-click-profile-pic}
-
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Eller (om det är tillgängligt) klicka på din profilbild i det övre navigeringsområdet och klicka sedan på **[!UICONTROL Workfront Profile]**.
 1. Klicka på **[!UICONTROL More]** meny ![](assets/more-icon.png)och sedan klicka **[!UICONTROL Edit]**.
 
 1. Beroende på din åtkomstnivå kan du uppdatera följande avsnitt:
