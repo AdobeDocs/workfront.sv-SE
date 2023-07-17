@@ -9,9 +9,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Om du är Adobe Workfront-administratör eller har en åtkomstnivå för Planeri
 
 När du konfigurerar meddelandeinställningar gruppvis kan du bara ändra de inställningar som de markerade användarna har gemensamt.
 
-Du kan också konfigurera e-postmeddelanden för en användare i taget. Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Du kan också konfigurera e-postmeddelanden för en användare åt gången, inklusive din egen profil. Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Åtkomstkrav
 

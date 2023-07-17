@@ -6,9 +6,9 @@ description: Adobe Workfront skickar e-postmeddelanden, meddelanden i appen och 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 ## E-postaviseringar
 
 [!DNL Workfront] skickar ut ett antal e-postmeddelanden som varnar användare om aktiviteter i Workfront och ger användbar information och länkar.
+
+Information om hur du ändrar inställningarna för e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -68,7 +70,7 @@ Det finns flera saker som du bör vara medveten om när du får dagliga sammandr
 
 * Meddelanden i ett dagligt meddelande grupperas efter olika kriterier. I fallet med **[!UICONTROL Information about Projects I Own]**, grupperas händelserna efter projektnamnet.
 
-   För **[!UICONTROL Communication]** -kategorin grupperas meddelandena efter det objekt som kommunikationen inträffade i.
+  För **[!UICONTROL Communication]** -kategorin grupperas meddelandena efter det objekt som kommunikationen inträffade i.
 
 * Den dagliga sammanfattningen visar händelser som har inträffat för åtgärderna i ett visst område (som **Information om projekt som jag äger**) inom 24 timmar före leveransdatum.
 * Tidszonen för den tid som valts för daglig sammandragsleverans matchar din tidszon så som den är konfigurerad i webbläsaren.

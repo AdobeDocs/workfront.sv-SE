@@ -7,7 +7,7 @@ description: Översikt över beräkning av timmar och heltidsekvivalent för anv
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 0%
@@ -28,11 +28,11 @@ Mer information om hur du beräknar kostnader i resursplaneraren finns i [Beräk
 Följande uppsättningar med resursinformation beräknas annorlunda i resursplaneraren:
 
 * Tillgängliga timmar eller FTE-värden beräknas utifrån hur systemadministratören konfigurerar inställningarna för resurshantering i systemet.\
-   Mer information om hur värdena Tillgängliga timmar och FTE beräknas finns i [Beräkna tillgängliga timmar eller heltidsanställda för användare och jobbroller i resursplaneraren](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
-   Mer information om hur du definierar inställningar för resurshantering i Adobe Workfront-systemet finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Mer information om hur värdena Tillgängliga timmar och FTE beräknas finns i [Beräkna tillgängliga timmar eller heltidsanställda för användare och jobbroller i resursplaneraren](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
+  Mer information om hur du definierar inställningar för resurshantering i Adobe Workfront-systemet finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * Alla andra FTE-värden beräknas baserat på systemets standardschema.\
-   Mer information om hur alla andra värden visas i resursplaneraren när du använder FTE finns i avsnittet [Beräkna alla andra timma- och FTE-värden för användare och jobbroller i resursplaneraren](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) i den här artikeln.
+  Mer information om hur alla andra värden visas i resursplaneraren när du använder FTE finns i avsnittet [Beräkna alla andra timma- och FTE-värden för användare och jobbroller i resursplaneraren](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) i den här artikeln.
 
 Det är viktigt att förstå vad FTE är för var och en av dina användare och deras jobbroller för att hantera dina resurser korrekt när du tilldelar dem till arbetet.
 
@@ -100,7 +100,7 @@ I det här exemplet använder vi följande tal:
 
 * Ett standardschema för system på 40 timmar
 * Ett användarschema på 20 timmar
-* En användares FTE på 0,75.
+* En användares FTE på 0,75
 
 | Metod för FTE-beräkning (systeminställning) | **Timmar från användarens schema** | **Timmar från standardschemat** | **FTE-fält för användare** | **Tillgängliga timmar i resursplaneraren** | **Tillgänglig heltidsanställd i resursplaneraren** |
 |---|---|---|---|---|---|
@@ -117,18 +117,16 @@ Förutom Tillgängliga timmar eller FTE visas även följande tidsinformation i 
 * Budgeterade timmar
 * Timavvikelse
 * Nettotimmar\
-   Mer information om dessa värden finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+  Mer information om dessa värden finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 * Timskillnad\
-   Mer information om vad det här värdet representerar finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+  Mer information om vad det här värdet representerar finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 Du kan visa samma information i resursplaneraren som FTE eller som timmar.
 
 Workfront använder följande formel för att visa alla andra värden som FTE i resursplaneraren:
 
-```
-FTE = Resource Planner Hours/ Default Schedule Hours
-```
+`FTE = Resource Planner Hours/ Default Schedule Hours`
 
 >[!NOTE]
 >
