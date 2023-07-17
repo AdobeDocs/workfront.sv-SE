@@ -5,10 +5,11 @@ title: Översikt över syntaxen i textläge
 description: Du kan använda textlägesgränssnittet för att skapa mer komplexa vyer, filter, grupperingar och anpassade uppmaningar i listor och rapporter. Genom att använda textläge kan du komma åt fält och deras attribut som inte är tillgängliga i standardlägesgränssnittet.
 author: Nolan
 feature: Reports and Dashboards
+role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -37,25 +38,22 @@ Nedan följer några vanliga riktlinjer när du skapar ett rapporterings- eller 
    * Du kan visa ett objekt som är tre objekt bort från rapporten eller listobjektet i en vy.
    * Du kan inte referera till objekt som är mer än två objekt från huvudobjektet i en gruppering, ett filter eller en anpassad kommandotolk.
 
-   **Exempel:** Du kan visa Portfolio-ägarens namn eller GUID i en uppgiftsvy:
+  **Exempel:** Du kan visa Portfolio-ägarens namn eller GUID i en uppgiftsvy:
 
-   ```
-   valuefield=project:portfolio:ownerID
-   ```
 
-   Du kan inte gruppera, filtrera eller fråga efter Portfolio-ägaren i en uppgiftsvy:
+  `valuefield=project:portfolio:ownerID`
 
-   ```
-   project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa
-   ```
+  Du kan inte gruppera, filtrera eller fråga efter Portfolio-ägaren i en uppgiftsvy:
 
-   I de här exemplen är Portfolio ägar-ID tre objekt från listans objekt.
+  `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
-   Mer information om hierarkin för objekt i Workfront finns i:
+
+  I de här exemplen är Portfolio ägar-ID tre objekt från listans objekt.
+
+  Mer information om hierarkin för objekt i Workfront finns i:
 
    * [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API Explorer](../../../wf-api/general/api-explorer.md)
-
 
 * Använd jokertecken när det är möjligt för att göra rapporter och listor mer dynamiska och undvika att duplicera dem för olika användare och liknande tidslinjer.
 
@@ -63,9 +61,7 @@ Nedan följer några vanliga riktlinjer när du skapar ett rapporterings- eller 
 
 När du refererar till Workfront-fält eller deras attribut i textläge, kräver Workfront att du skriver deras namn med kamelstil. I det här fallet stavas ennamnsfälten med gemener. Sammansatta fält är stavade enligt följande mönster:
 
-```
-camelCaseSyntax
-```
+`camelCaseSyntax`
 
 >[!IMPORTANT]
 >
@@ -79,11 +75,7 @@ Egenskaperna hos kamelfodral är:
 
 **Exempel:** För att referera till det faktiska slutförandedatumet för ett projekt är namnet på fältet som du skulle använda när du skapade rapportelement för textläge
 
-```
-actualCompletionDate
-```
-
-.
+`actualCompletionDate`
 
 ## Syntax för textläge för olika rapportelement
 
@@ -91,14 +83,14 @@ Följande likheter finns mellan syntaxen för uppsättningarna med rapportelemen
 
 * Raderna med kod och syntax är desamma för vyer och grupperingar.
 
-   Mer information om kodraderna för vyer och grupperingar när du skapar dem i textläge finns i:
+  Mer information om kodraderna för vyer och grupperingar när du skapar dem i textläge finns i:
 
    * [Redigera en vy i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [Redigera textläge i en gruppering](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Kod- och syntaxraderna är desamma för filter och anpassade uppmaningar.
 
-   Mer information finns i:
+  Mer information finns i:
 
    * [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -112,22 +104,17 @@ Mer information om hur du skapar vyer och grupperingar finns i följande artikla
 * [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-Den viktigaste kodraden för en vy eller gruppering är den rad som identifierar det objekt som refereras i vyns kolumn eller grupperingen. Beroende på om det här fältet är en direkt referens till ett databasfält i Workfront eller en beräkning mellan flera fält kan kodraden börja med
+Den viktigaste kodraden för en vy eller gruppering är den rad som identifierar det objekt som refereras i vyns kolumn eller grupperingen. Beroende på om det här fältet är en direkt referens till ett databasfält i Workfront eller en beräkning mellan flera fält kan kodraden börja med `valuefield` eller `valueexpression`
 
-```
-valuefield
-```
+I följande tabell visas de vanligaste kodraderna i en vy eller gruppering:
 
-eller
-
-```
-valueexpression
-```
-
-.
-
-* [Syntaxöversikt för värdefält för vyer och grupperingar](#valuefield-syntax-overview-for-views-and-groupings)
-* [Syntaxöversikt för uttryck av värden för vyer och grupperingar](#valueexpression-syntax-overview-for-views-and-groupings)
+| Kodrad | Beskrivning |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------|
+| `valuefield` | Identifierar det objekt som vyns kolumn eller gruppering refererar till. Detta är en direkt referens till det refererade objektet. |
+| `valueexpression` | Identifierar det objekt som vyns kolumn eller gruppering refererar till. Detta är en beräkning mellan flera fält. |
+| `valueformat` | Identifierar det format i vilket Workfront returnerar det värde som anges i värdefältet eller värdesuttrycksraderna. |
+| `width` | Identifierar bredden på en kolumn i pixlar. |
+| `stretch` | Identifierar vilka kolumner som upptar extra utrymme som inte behövs för vyn. |
 
 >[!TIP]
 >
@@ -135,93 +122,48 @@ valueexpression
 >
 >  Om du vill gruppera efter projektnamn i en projektlista eller rapport använder du följande rad för gruppering på första nivån:
 >
+>  `group.0.valuefield=name`
 >  
-```>
->  group.0.valuefield=name
->  ```>
->* If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
+>* Om du redigerar flera kolumner i en vy i samma kolumn (som för delade kolumner) måste du komma ihåg att varje kodrad för varje kolumn börjar med kolumnnumret.
 >
->  
-Use the following format to identify the first column of a view: 
+>  Använd följande format för att identifiera den första kolumnen i en vy:
 >
+>  `column.0.valuefield=name`
 >  
-```>
->  column.0.valuefield=name
->  ```>
->  For information about sharing columns, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md). 
+>  Mer information om att dela kolumner finns i [Visa: sammanfoga information från flera kolumner i en delad kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
+#### `Valuefield` syntaxöversikt för vyer och grupperingar
 
-
-```
-Valuefield
-```
-
-syntaxöversikt för vyer och grupperingar {#valuefield-syntax-overview-for-views-and-groupings}
-
-```
-Valuefield=
-```
-
-är en nyckelrad med kod i vyer och grupperingar som identifierar det objekt som du refererar till direkt.
+`Valuefield=` är en nyckelrad med kod i vyer och grupperingar som identifierar det objekt som du refererar till direkt.
 
 Syntaxen för direkt referensfält är identisk för grupperingar och vyer.
 
-Följande regler gäller när du refererar till Workfront-objekt med en
-
-```
-valuefield
-```
-
-rad:
+Följande regler gäller när du refererar till Workfront-objekt med en `valuefield` rad:
 
 * Använd kamelcase för att referera till fält direkt.
 
-   **Exempel:** Använd följande rad om du vill referera till det faktiska slutförandedatumet för aktiviteten i en uppgiftsvy:
+  **Exempel:** Använd följande rad om du vill referera till det faktiska slutförandedatumet för aktiviteten i en uppgiftsvy:
 
-   ```
-   valuefield=actualCompletionDate
-   ```
+  `valuefield=actualCompletionDate`
 
 * Använd kamelcase och kolon för att separera fält som relaterar till varandra för samma objekt.
 
-   **Exempel:** Använd följande rad om du vill referera till projektets planerade slutförandedatum i en aktivitetsvy:
+  **Exempel:** Använd följande rad om du vill referera till projektets planerade slutförandedatum i en aktivitetsvy:
 
-   ```
-   valuefield=project:plannedCompletionDate
-   ```
+  `valuefield=project:plannedCompletionDate`
 
-   Information om hur objekt refererar till varandra i Workfront-databasen finns i [API Explorer](../../../wf-api/general/api-explorer.md).
+  Information om hur objekt refererar till varandra i Workfront-databasen finns i [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * När du refererar till ett anpassat fält ska du använda fältets namn exakt som det visas i gränssnittet.
 
-   **Exempel:** Använd följande rad om du vill referera till ett anpassat projektfält med namnet Ytterligare information i en uppgiftsvy:
+  **Exempel:** Använd följande rad om du vill referera till ett anpassat projektfält med namnet Ytterligare information i en uppgiftsvy:
 
-   ```
-   valuefield=project:Additional Details
-   ```
+  `valuefield=project:Additional Details`
 
- 
+#### `Valueexpression` syntaxöversikt för vyer och grupperingar
 
-```
-Valueexpression
-```
-
-syntaxöversikt för vyer och grupperingar {#valueexpression-syntax-overview-for-views-and-groupings}
-
-Du kan ersätta
-
-```
-valuefield=
-```
-
-kodrad med
-
-```
-valueexpression=
-```
-
-när du skapar vyer och grupperingar i textläge när du vill referera till en beräkning mellan två eller flera fält.
+Du kan ersätta `valuefield=` kodrad med `valueexpression=` när du skapar vyer och grupperingar i textläge när du vill referera till en beräkning mellan två eller flera fält.
 
 >[!TIP]
 >
@@ -231,44 +173,28 @@ när du skapar vyer och grupperingar i textläge när du vill referera till en b
 
 Att skapa en beräknad gruppering påminner om att skapa en beräknad kolumn i en vy.
 
-Följande regler gäller när du refererar till Workfront-objekt med en
-
-```
-valueexpression
-```
-
-rad:
+Följande regler gäller när du refererar till Workfront-objekt med en `valueexpression` rad:
 
 * Använd kamelcase för att referera till fält direkt och omsluta varje fält med klammerparenteser.
 
-   **Exempel:** Visa fältet Uppgiftsnamn i en uppgiftskolumn med
+  **Exempel:** Visa fältet Uppgiftsnamn i en uppgiftskolumn med `valueexpression`använder du följande rad:
 
-   ```
-   valueexpression
-   ```
+  `valueexpression={name}`
 
-   använder du följande rad:
-
-   ```
-   valueexpression={name}
-   ```
 
 * Använd kamelcase och punkter för att separera fält som hör ihop.
 
-   **Exempel:** Använd följande rader om du vill visa namnet på ett projekt som är sammanfogat med namnet på uppgiften i en uppgiftsrapport:
+  **Exempel:** Använd följande rader om du vill visa namnet på ett projekt som är sammanfogat med namnet på uppgiften i en uppgiftsrapport:
 
    * I en vy:
 
-      ```
-      valueexpression=CONCAT({project}.{name},' - ',{name})
-      ```
+     `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
    * I en gruppering:
 
-      ```
-      group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
-      ```
-   Information om hur objekt refererar till varandra i Workfront-databasen finns i [API Explorer](../../../wf-api/general/api-explorer.md).
+     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+
+  Information om hur objekt refererar till varandra i Workfront-databasen finns i [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Använd följande regler när du refererar till ett anpassat fält:
 
@@ -277,63 +203,51 @@ rad:
    * Omge fältet med klammerparenteser.
    * Avgränsa fälten som hör till objektet med punkter.
 
-   **Exempel:** Använd följande rad för att visa det anpassade fältet Ytterligare information i en uppgiftsvy på en värdesuttrycksrad:
+  **Exempel:** Använd följande rad för att visa det anpassade fältet Ytterligare information i en uppgiftsvy på en värdesuttrycksrad:
 
-   ```
-   valueexpression={project}.{DE:Additional Details}
-   ```
+  `valueexpression={project}.{DE:Additional Details}`
 
-* Du kan använda ett jokertecken i en
+* Du kan använda ett jokertecken i en `valueexpression` men inte i `valuefield` linje.
 
-   ```
-   valueexpression
-   ```
+  Mer information om jokertecken finns i [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-   men inte i
 
-   ```
-   valuefield
-   ```
+#### `Valueformat` översikt för vyer och grupperingar
 
-   linje.
+Den näst viktigaste kodraden i en vy eller gruppering är `valueformat=` linje. Detta anger för Workfront i vilket format du vill returnera det värde du anger i dialogrutan
+`valuefield` eller värdeuttrycksrader. Även om du kan använda olika format för `valueformat` rader rekommenderar vi att du alltid använder följande värde när du använder
+`valueexpression`:
 
-   Mer information om jokertecken finns i [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+`valueformat=HTML`
 
-```
-Valueformat
-```
+För ytterligare `valueformats` värden, se även följande artiklar:
 
-översikt
+* [Formatera datum i textlägesrapporter](../../reports/text-mode/format-dates-in-text-mode-reports.md)
+* [Formatera tal, valuta och procentvärden i textlägesrapporter](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-Den näst viktigaste kodraden i en vy eller gruppering är
+#### `width` översikt för vyer
 
-```
-valueformat=
-```
+`width=` är kodraden där du kan ange bredden på varje kolumn i pixlar. Workfront har en föreslagen bredd för varje fält, men beroende på fälttyp och format kan du behöva göra justeringar.
 
-linje. Detta anger för Workfront i vilket format du vill returnera det värde du anger i dialogrutan
+Du måste använda ytterligare `usewidths=true` kodrad för att framtvinga bredden som anges för kolumnen.
 
-```
-valuefield
-```
+**Exempel:** Om du vill visa en kolumn med en bredd på 80 pixlar använder du följande rader:
 
-eller värdeuttrycksrader. Även om du kan använda olika format för
+`width=80`
 
-```
-valueformat
-```
+`usewidths=true`
 
-rader rekommenderar vi att du alltid använder följande värde när du använder
+#### `stretch` översikt för vyer
 
-```
-valueexpression
-```
+The `stretch` används för att identifiera vilka kolumner som upptar extra utrymme som inte behövs för vyn. Användargränssnittets bredd för en vanlig användare är cirka 850 pixlar. Det innebär att om du har en vy med fyra kolumner (150 pixlar vardera) så upptar vyn 600 av 850 pixlar. Det finns 250 extra pixlar i gränssnittet som läggs till i kolumner som har en sträckningsprocent.
 
-:
+En kolumns sträckning används när du använder den extra kodraden: `usewidths=true` för minst en av kolumnerna i vyn.
 
-```
-valueformat=HTML
-```
+**Exempel:** Om du vill ange att en kolumn kan använda 70 % av det tomma utrymmet i en vy använder du följande rader:
+
+`stretch=70`
+
+`usewidths=true`
 
 ### Syntax för filter och anpassade uppmaningar
 
@@ -355,20 +269,20 @@ Du kan använda följande element för att skapa filter och anpassade uppmaninga
 * En kodrad som refererar till filtersatsens objekt. Använd kameraläge för filterobjektet.
 * En kodrad som refererar till filterobjektet och modifieraren för filterobjektets värde. Använd kameraläge för filterobjektet på den här raden.
 
-   >[!TIP]
-   >
-   >När du refererar till intervall kräver detta två modifieringslinjer.
+  >[!TIP]
+  >
+  >När du refererar till intervall kräver detta två modifieringslinjer.
 
 * En satsanslutning som ansluter flera filtersatser:
 
    * OCH
 
-      Detta är standardkopplingen mellan filtersatser.
+     Detta är standardkopplingen mellan filtersatser.
 
    * ELLER
 
-      >[!TIP]
-      >
-      >Satskopplingar är skiftlägeskänsliga och alltid versaler. &quot;AND&quot; kan utelämnas i textläge.
+     >[!TIP]
+     >
+     >Satskopplingar är skiftlägeskänsliga och alltid versaler. &quot;AND&quot; kan utelämnas i textläge.
 
 * Jokertecken för att göra filter mer dynamiska och anpassa dem för aktuell tid eller för användaren som är inloggad. Mer information om jokertecken finns i [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
