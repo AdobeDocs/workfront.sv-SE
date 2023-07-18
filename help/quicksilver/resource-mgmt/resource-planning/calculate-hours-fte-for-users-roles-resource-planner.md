@@ -7,7 +7,7 @@ description: Översikt över beräkning av timmar och heltidsekvivalent för anv
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
+source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -115,7 +115,7 @@ I det här exemplet använder vi följande tal:
 
 * Ett standardschema för system på 40 timmar
 * Ett användarschema på 20 timmar
-* En användares FTE på 0,75
+* En användares FTE på 0,8
 
 | Metod för FTE-beräkning (systeminställning) | **Timmar från användarens schema** | **Timmar från standardschemat** | **FTE-fält för användare** | **Tillgängliga timmar i resursplaneraren** | **Tillgänglig heltidsanställd i resursplaneraren** |
 |---|---|---|---|---|---|
