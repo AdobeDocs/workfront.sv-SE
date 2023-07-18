@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Allmän information om hur du skapar och redigerar ett schema finns i [Skapa ett
 >[!NOTE]
 >
 >Gruppadministratörer och användare med en planlicens som kan redigera andra användare kan lägga till en systemnivå eller ett gruppnivåschema till en annan användare när de redigerar den användarens profil.
+
+Mer information om hur scheman används vid resursplanering finns i [Översikt över scheman](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) och [Översikt över resursplanering](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Åtkomstkrav
 

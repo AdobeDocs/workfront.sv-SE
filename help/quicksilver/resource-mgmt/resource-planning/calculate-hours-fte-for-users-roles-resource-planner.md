@@ -7,9 +7,9 @@ description: Översikt över beräkning av timmar och heltidsekvivalent för anv
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1379'
 ht-degree: 0%
 
 ---
@@ -49,30 +49,44 @@ Workfront-administratören avgör hur den tillgängliga tiden för en användare
 * Standardschemat för systemet och användarens FTE.
 * Användarens schema.
 
-Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+![Systeminställning för användarscheman](assets/setup-resource-mgmt.png)
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><br></p>
-<p> <img src="assets/nwe-resource-management-system-setting-user's-schedule-350x157.png" style="width: 350;height: 157;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p>
-<p>(NOTE: The determines how to calculate resource availability at the system level.For more information about defining the Resource Management preferences for the system, see Configure Resource Management preferences.)</p>
-<p>Based on how this setting is configured, the availability of the users in the Resource Planner (hours as well as FTE availability) is calculated by using the following methods: </p>
-<ul>
-<li><strong>The Default Schedule</strong>: The Default Schedule of the system and the user FTE are used to determine the Available Hours and FTE value for the user in the Resource Planner. The Schedule of the user is ignored. In this case:
-<ul>
-<li> The <strong>Available Hours</strong> in the<strong>Resource Planner</strong> are calculated using the following formula:<br><code>User Available Hours = Default Schedule Hours * User FTE value</code> <span style="color: #dc143c;">( NOTE: this is the correct value. If this shows as a division in other articles, that is wrong. It's a multiplication between these 2 values).</span><br>For example, if the Default Schedule has 40 hours a week available for work, and the user FTE is 0.5, the user is available to work for 20 hours a week in the Resource Planner.<br>For more information about schedules, including the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a></li>
-<li style="font-weight: normal;"> The <strong>Available FTE</strong> for the user in the<strong>Resource Planner</strong> is the same as the user FTE specified in the user settings. <br>For example, if the user FTE is 0.5 in the user settings, the available FTE of the user is 0.5 in the Resource Planner. For more information about the value of the user FTE as it displays in the user settings, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br></li>
-</ul></li>
-<li><strong>The User's Schedule</strong>: The Schedule of the user is used to determine the availability of the user in the Resource Planner. The value of the user FTE is ignored. In this case:
-<ul>
-<li> The <strong>Available Hours</strong> in the<strong>Resource Planner</strong> are the same as the Hours from the Schedule of the user.<br>For example, if the Schedule of the user has 40 hours a week available for work, the user is available to work for 40 hours a week in the Resource Planner. </li>
-<li> The <strong>Available FTE</strong> in the<strong>Resource Planner</strong> is calculated by the following formula:<br><em><code>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code><br></em>For example, if the Schedule of the user has 20 hours available to work, and the Default Schedule in Workfront has 40 hours available to work, the user's FTE is 0.5.<br>For more information about schedules, including the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</li>
-</ul></li>
-</ul> <note type="note">
-If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
-</note>
-</div>
--->
+>[!NOTE]
+>
+>Detta avgör hur resurstillgängligheten beräknas på systemnivå. Mer information om hur du definierar inställningar för resurshantering för systemet finns i [Konfigurera inställningar för resurshantering](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+Baserat på hur den här inställningen är konfigurerad beräknas tillgängligheten för användarna i resursplaneraren (timmar och FTE-tillgänglighet) på följande sätt:
+
+* **Standardschema**: Standardschemat för systemet och användarens FTE används för att fastställa tillgängliga timmar och FTE-värde för användaren i resursplaneraren. Användarens schema ignoreras. I detta fall:
+
+   * The **Tillgängliga timmar** i resursplaneraren beräknas med följande formel:
+
+     `User Available Hours = Default Schedule Hours * User FTE value`
+
+     Om till exempel standardschemat har 40 timmar i veckan tillgängligt för arbete och användaren FTE är 0,5, kan användaren arbeta 20 timmar i veckan i Resursplaneraren.
+
+     Mer information om scheman, inklusive standardschemat, finns i [Skapa ett schema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * The **Tillgänglig heltidsanställd** för användaren i resursplaneraren är densamma som användarens FTE som anges i användarinställningarna.
+Om användaren till exempel har FTE 0,5 i användarinställningarna är användarens tillgängliga FTE 0,5 i Resursplaneraren. Mer information om värdet för användarens FTE så som det visas i användarinställningarna finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+* **Användarens schema**: Användarens schema används för att avgöra om användaren är tillgänglig i resursplaneraren. Värdet för användarens FTE ignoreras. I detta fall:
+
+   * The **Tillgängliga timmar** i resursplaneraren är samma som timmarna i schemat för användaren.
+
+  Om till exempel användarens schema har 40 timmar i veckan tillgängligt för arbete, kan användaren arbeta 40 timmar i veckan i Resursplaneraren.
+
+   * The **Tillgänglig heltidsanställd** i resursplaneraren beräknas med följande formel:
+
+  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+
+  Om till exempel användarens schema har 20 timmar tillgängligt att arbeta och standardschemat i Workfront har 40 timmar tillgängliga att arbeta, är användarens heltidsanställd 0,5.
+
+  Mer information om scheman, inklusive standardschemat, finns i [Skapa ett schema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+>[!NOTE]
+>
+>Om användaren inte är associerad med ett schema beräknas användarens tillgängliga timmar med hjälp av standardschemat.
 
 ### Beräkna tillgängliga timmar och heltidsanställda för en jobbroll i resursplaneraren {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
 
@@ -104,10 +118,18 @@ I det här exemplet använder vi följande tal:
 
 | Metod för FTE-beräkning (systeminställning) | **Timmar från användarens schema** | **Timmar från standardschemat** | **FTE-fält för användare** | **Tillgängliga timmar i resursplaneraren** | **Tillgänglig heltidsanställd i resursplaneraren** |
 |---|---|---|---|---|---|
-| **Standardschema** | Ignorerad | 40 | 0.75 | **30** (beräknat) | **0.75** |
+| **Standardschema** | Ignorerad | 40 | 0.8 | **32** (beräknat) | **0.8** |
 | **Användarens schema** | 20 | 40 | Ignorerad | **20** | **0,5** (beräknat) |
 
 Schemalagda undantag och ledig tid kan påverka antalet planerade timmar eller heltidsanställda. Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+Exempel på resursplaneringsvy efter användare och timmar:
+
+![Resursplaneringsvy per användare och timmar](assets/resource-planner-by-user-by-hours.png)
+
+Exempel på resursplaneringsvy efter användare och FTE:
+
+![Resursplaneringsvy efter användare och FTE](assets/resource-planner-by-user-by-fte.png)
 
 ## Beräkna alla andra timma- och FTE-värden för användare och jobbroller i resursplaneraren {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 

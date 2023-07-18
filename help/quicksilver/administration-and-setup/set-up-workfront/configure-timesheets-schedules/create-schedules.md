@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Mer information om hur du associerar scheman med användare och projekt finns i 
 Gruppadministratörer kan också skapa scheman som är kopplade till de grupper som de hanterar. Mer information finns i [Skapa och ändra en grupps scheman](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
 Mer information om hur du använder scheman för att hjälpa användare att samarbeta i [!DNL Workfront] över tidszoner, se [Arbeta över tidszoner](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+
+Mer information om hur scheman används vid resursplanering finns i [Översikt över scheman](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) och [Översikt över resursplanering](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Åtkomstkrav
 

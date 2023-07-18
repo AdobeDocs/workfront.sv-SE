@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4912349cbbc74a6f7587312e83297169ecd52f51
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2421'
 ht-degree: 0%
 
 ---
@@ -298,6 +298,7 @@ När du öppnar någon av dessa flikar visas på rad 2 fälten för varje objekt
 >  Om ett obligatoriskt fält innehåller ett standardvärde som angetts i systeminställningarna behöver du inte fylla i det.
 >
 >  På **PROJ-projekt** -fliken **setCondition** och **setConditionType** fält kan lämnas tomma, men **setGroupID** och **setName** det går inte att använda kolumner.
+>
 
 ### Importera en post  {#import-a-record}
 
@@ -314,12 +315,12 @@ Varje rad i tabellen motsvarar ett unikt objekt.
 
    * Om det objekt som du importerar redan finns i Workfront-systemet (och du skrev **FALSE** i **isNew** måste ID:t vara det alfanumeriska GUID som finns i Workfront för det objektet.
 
-      **Exempel:** För ett projekt visas värdet i **setGroupID** Kolumnen måste ha något av följande:
+     **Exempel:** För ett projekt visas värdet i **setGroupID** Kolumnen måste ha något av följande:
 
       * GUID för en befintlig grupp i din Workfront-instans
       * Värdet (tal) i ID-kolumnen på **GRUPPGRUPP** blad om du skapar en ny grupp under importen
 
-         ![](assets/verysimplekickstartprojectimport-350x31.png)
+        ![Exempel-ID för en grupp](assets/kick-start-group-example.png)
 
 1. Indatavärden för obligatoriska fält och andra fält som du vill fylla i under importen.
 1. (Valfritt) Så här lägger du till anpassade data:
@@ -329,7 +330,7 @@ Varje rad i tabellen motsvarar ett unikt objekt.
    * I kolumnen **setCategoryID** skriver du GUID för det befintliga anpassade formuläret som det här anpassade fältet finns på. Det här fältet är obligatoriskt vid import av anpassade data.
    * Om du behöver lägga till flera datavärden i det anpassade fältet (t.ex. alternativknappar, kryssrutor eller listor), ska du separera värdena med hjälp av den anpassade datamängdsavgränsaren | i det lodräta fältet, som finns på fliken Inställningar.
 
-      **Exempel:** Skriv A|D under kolumnen DE:Departments för att fylla i avdelning A och avdelning D i ditt anpassade formulär.
+     **Exempel:** Skriv A|D under kolumnen DE:Departments för att fylla i avdelning A och avdelning D i ditt anpassade formulär.
 
 ### Inkludera datum  {#include-dates}
 
@@ -393,33 +394,33 @@ Du kan använda följande jokertecken när du fyller i kalkylbladet för snabbst
 
 * **(projektimport)**
 
-   Ange **setGroupID** av projekten genom att gå till **GRUPPGRUPP** kalkylblad, notera respektive grupp-ID och klistra in dem i rätt celler (**setGroupID** kolumn) på **PROJ-projekt** blad.
+  Ange **setGroupID** av projekten genom att gå till **GRUPPGRUPP** kalkylblad, notera respektive grupp-ID och klistra in dem i rätt celler (**setGroupID** kolumn) på **PROJ-projekt** blad.
 
-   Detta är möjligt när du arbetar med bara ett fåtal grupper och projekt, men om du arbetar med flera av varje är det inte praktiskt.
+  Detta är möjligt när du arbetar med bara ett fåtal grupper och projekt, men om du arbetar med flera av varje är det inte praktiskt.
 
-   Om du vill ersätta attributnamn för det exempel som beskrivs ovan ändrar du **setGroupID** kolumnrubrik till **#setGroupID GROUP****namn**. Sedan kan du referera till varje projekts grupp efter namn.
+  Om du vill ersätta attributnamn för det exempel som beskrivs ovan ändrar du **setGroupID** kolumnrubrik till **#setGroupID GROUP****namn**. Sedan kan du referera till varje projekts grupp efter namn.
 
-   >[!NOTE]
-   >
-   >Alternativet att använda attributnamnsersättning är begränsat till referenser enbart för befintliga poster. Du kan inte använda namnersättning för objekt som du skapar i samma import.
+  >[!NOTE]
+  >
+  >Alternativet att använda attributnamnsersättning är begränsat till referenser enbart för befintliga poster. Du kan inte använda namnersättning för objekt som du skapar i samma import.
 
 * **(användarimport)**
 
-   Fyll i **setRoleID** från en lista med roller på **ROLE-roll** -fliken.
+  Fyll i **setRoleID** från en lista med roller på **ROLE-roll** -fliken.
 
-   Vissa roll-ID:n är för poster som redan finns i kontot, medan andra skapas under importen.
+  Vissa roll-ID:n är för poster som redan finns i kontot, medan andra skapas under importen.
 
-   Du kan använda namnersättning för de nya användarposter som har tilldelats befintliga roller. Det går inte att använda nya användarposter som tilldelats nyligen importerade roller.
+  Du kan använda namnersättning för de nya användarposter som har tilldelats befintliga roller. Det går inte att använda nya användarposter som tilldelats nyligen importerade roller.
 
-   Så här kan du använda båda metoderna för samma importfil:
+  Så här kan du använda båda metoderna för samma importfil:
 
    * Lägg till en kolumn i kalkylbladet till vänster om **setRoleID** kolumn.
    * Namnge den nya kolumnen **#setRoleID ROLE name**.
    * Om du vill tilldela roller till befintliga poster anger du rollnamnen i **#setRoleID ROLE name** kolumn.
 
-      För rolltilldelningar till nya rollposter anger du det ID som du tilldelade på ROLE-rollbladet i setRoleID.
+     För rolltilldelningar till nya rollposter anger du det ID som du tilldelade på ROLE-rollbladet i setRoleID.
 
-      ![](assets/setroleid-350x66.png)
+     ![Roll-ID för användare](assets/set-role-id.png)
 
 ## Importera kalkylbladsdata till Workfront
 
@@ -431,9 +432,9 @@ Quick-Start-importen stöder följande filtyper:
 * Äldre Excel (&#42;.xls)
 * Zippad (&#42;ZIP) xlsx- eller xls-fil
 
-   >[!NOTE]
-   >
-   >Du måste använda en ZIP-fil när du importerar Excel-kalkylblad som refererar till rapporter. handlingar, avatarer, eller visa, filtrera eller gruppera egenskapsfiler. När du använder en zippad importfil &#42;ZIP-filen måste ha samma namn som &#42;.xlsx eller &#42;.xls-filen och allt innehåll måste vara på samma filstrukturnivå (inga mappar).
+  >[!NOTE]
+  >
+  >Du måste använda en ZIP-fil när du importerar Excel-kalkylblad som refererar till rapporter. handlingar, avatarer, eller visa, filtrera eller gruppera egenskapsfiler. När du använder en zippad importfil &#42;ZIP-filen måste ha samma namn som &#42;.xlsx eller &#42;.xls-filen och allt innehåll måste vara på samma filstrukturnivå (inga mappar).
 
 
 Så här importerar du mallkalkylbladsdata till Workfront:
