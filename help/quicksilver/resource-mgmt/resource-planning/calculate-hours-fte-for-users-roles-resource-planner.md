@@ -7,7 +7,7 @@ description: Översikt över beräkning av timmar och heltidsekvivalent för anv
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -68,21 +68,22 @@ Baserat på hur den här inställningen är konfigurerad beräknas tillgängligh
      Mer information om scheman, inklusive standardschemat, finns i [Skapa ett schema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * The **Tillgänglig heltidsanställd** för användaren i resursplaneraren är densamma som användarens FTE som anges i användarinställningarna.
-Om användaren till exempel har FTE 0,5 i användarinställningarna är användarens tillgängliga FTE 0,5 i Resursplaneraren. Mer information om värdet för användarens FTE så som det visas i användarinställningarna finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     Om användaren till exempel har FTE 0,5 i användarinställningarna är användarens tillgängliga FTE 0,5 i Resursplaneraren. Mer information om värdet för användarens FTE så som det visas i användarinställningarna finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Användarens schema**: Användarens schema används för att avgöra om användaren är tillgänglig i resursplaneraren. Värdet för användarens FTE ignoreras. I detta fall:
 
    * The **Tillgängliga timmar** i resursplaneraren är samma som timmarna i schemat för användaren.
 
-  Om till exempel användarens schema har 40 timmar i veckan tillgängligt för arbete, kan användaren arbeta 40 timmar i veckan i Resursplaneraren.
+     Om till exempel användarens schema har 40 timmar i veckan tillgängligt för arbete, kan användaren arbeta 40 timmar i veckan i Resursplaneraren.
 
    * The **Tillgänglig heltidsanställd** i resursplaneraren beräknas med följande formel:
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  Om till exempel användarens schema har 20 timmar tillgängligt att arbeta och standardschemat i Workfront har 40 timmar tillgängliga att arbeta, är användarens heltidsanställd 0,5.
+     Om till exempel användarens schema har 20 timmar tillgängligt att arbeta och standardschemat i Workfront har 40 timmar tillgängliga att arbeta, är användarens heltidsanställd 0,5.
 
-  Mer information om scheman, inklusive standardschemat, finns i [Skapa ett schema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Mer information om scheman, inklusive standardschemat, finns i [Skapa ett schema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
