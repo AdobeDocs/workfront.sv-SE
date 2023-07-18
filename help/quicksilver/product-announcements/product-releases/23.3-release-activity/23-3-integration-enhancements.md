@@ -3,9 +3,9 @@ title: 23.3 Integration enhancements
 description: 23.3 Integration enhancements
 author: Lisa
 feature: Product Announcements
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,17 @@ Mer information finns i [Visa och hantera [!DNL Adobe Workfront] aviseringar fr�
 
 Information om hur du installerar Workfront for Creative Cloud-plugin-program finns i [Installera Adobe Workfront-plugin-programmet för Creative Cloud-program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## Förbättrad upplevelse när du flyttar ett dokument till en länkad mapp med dra och släpp
+<!--
 
-Vi har lagt till viss genomskinlighet i processen att dra och släppa ett dokument i en länkad mapp. Dokumentet som du har flyttat till en länkad mapp finns kvar i dokumentlistan tills det har flyttats helt. Dokumentalternativen är inaktiverade, men du kan fortfarande öppna dokumentet för visning medan det flyttas. När dokumentet har slutfört överföringen tas det bort från dokumentlistan eftersom det nu finns helt i den länkade mappen.
+## Improved experience when moving a document to a linked folder with drag and drop
 
-Tidigare skulle dokument omedelbart försvinna från dokumentlistan innan de hade flyttats till den länkade mappen.
+We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
 
-Mer information finns i [Länka dokument från externa program](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
+
+For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+-->
 
 ## Skapa automatiskt länkade mappar till Adobe Experience Manager Assets när du skapar ett projekt
 

@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 20aac191f6bca42610575384c398306e61f59780
+source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
 workflow-type: tm+mt
-source-wordcount: '2759'
+source-wordcount: '2657'
 ht-degree: 0%
 
 ---
@@ -418,22 +418,22 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                         </ul>
                     </td>
                 </tr>                
-                <tr>
+ <!--               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrad upplevelse när du flyttar ett dokument till en länkad mapp med dra och släpp</a></p> 
-                        <p>Vi har lagt till viss genomskinlighet i processen att dra och släppa ett dokument i en länkad mapp. Dokumentet som du har flyttat till en länkad mapp finns kvar i dokumentlistan tills det har flyttats helt. Dokumentalternativen är inaktiverade, men du kan fortfarande öppna dokumentet för visning medan det flyttas. När dokumentet har slutfört överföringen tas det bort från dokumentlistan eftersom det nu finns helt i den länkade mappen. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
+                        <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
                     </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 7 juni 2023</p>
+                                <p>Preview release: June 7, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: 15 juni 2023</span></p>
+                                <p><span class="preview">Production release: June 15, 2023</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa automatiskt länkade mappar till Adobe Experience Manager Assets när du skapar ett projekt</a></p>
