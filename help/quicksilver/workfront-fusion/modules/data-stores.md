@@ -8,9 +8,9 @@ description: Ett datalager, som liknar en databas eller en enkel tabell, kan lag
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Innan du kan använda ett datalager i en modul måste du skapa datalagret i [!DN
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Data storage size in MB]</p> </td> 
-      <td> <p>Allokera storleken på datalagret från din totala interna datalagring.</p> <p>Obs! Det reserverade beloppet kan ändras när som helst.</p>  </td> 
+      <td> <p>Allokera storleken på datalagret från din totala interna datalagring.</p> <p> Standardvärdet är 10 MB. Om du har mindre än 10 MB oallokerat datalagringsutrymme från din tilldelning på 500 MB är standardstorleken mängden oallokerat lagringsutrymme.  <p>Obs! Det reserverade beloppet kan ändras när som helst.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
