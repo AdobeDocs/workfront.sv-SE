@@ -8,9 +8,9 @@ description: Översikt över återkommande uppgifter
 author: Alina
 feature: Work Management
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -43,14 +43,14 @@ Tänk på följande när du skapar återkommande uppgifter i Workfront:
 * Du kan inte lägga till en upprepningsfrekvens till en befintlig uppgift.
 * Återkommande uppgifter visas som underaktiviteter eller underordnade för huvudförekomsten som visas som överordnad uppgift.
 * Du kan inte bifoga ett godkännande till en överordnad återkommande uppgift.
-* Workfront överför de flesta fält som du uppdaterar för den överordnade upprepningen när du skapar den till de underordnade uppgifterna. Följande fält överförs inte till de underordnade uppgifterna när de skapas:
+* Workfront överför de flesta fält som du uppdaterar för den överordnade upprepningen när du skapar den till de underordnade uppgifterna. Följande fält överförs inte till de underordnade uppgifterna när de skapas:
 
    * Aktivitetsbegränsningen för de underordnade aktiviteterna ändras automatiskt till:
 
       * Måste starta på för projekt som planeras från startdatum.
       * Måste vara aktiverat för projekt som är planerade från slutförandedatum.
-   * Dokument som är kopplade till det överordnade objektet överförs inte till de underordnade.
 
+   * Dokument som är kopplade till det överordnade objektet överförs inte till de underordnade.
 
 * Följande ändringar sker för den överordnade aktiviteten när du har angett att uppgiften är återkommande:
 
@@ -60,6 +60,7 @@ Tänk på följande när du skapar återkommande uppgifter i Workfront:
 
       * Enkel
       * Ansträngningsstyrd
+* Varaktighet och Planerade timmar som anges för en ny återkommande aktivitet är Varaktighet och Planerade timmar för varje upprepning. Den överordnade aktivitetens varaktighet är tiden mellan det planerade startdatumet för den första aktiviteten och det planerade slutförandedatumet för den senaste aktiviteten. Den överordnade uppgiftens planerade timmar är det totala antalet planerade timmar från alla återkommande aktiviteter.
 
 ## Att tänka på vid redigering av återkommande uppgifter
 
@@ -89,7 +90,7 @@ I följande tabell visas om ändringar som gjorts i den överordnade utlösaren 
 | Typ av varaktighet | Uppdaterar inte underordnade |
 | Anpassad formulärinformation | Uppdaterar inte underordnade |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Följande scenarier finns när du uppdaterar upprepningsfrekvensen för en överordnad aktivitet:
 

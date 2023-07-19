@@ -6,9 +6,9 @@ description: Du kan skapa återkommande uppgifter för uppgifter som du måste u
 author: Alina
 feature: Work Management
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Klicka **Fler alternativ** anger du ett namn för uppgiften i dialogrutan **Aktivitetsnamn** fält.
-1. Fortsätt uppdatera aktiviteten på samma sätt som om du lade till en ny uppgift. Mer information om hur du lägger till en ny uppgift finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+1. Fortsätt uppdatera aktiviteten på samma sätt som om du lade till en ny uppgift. Mer information om hur du lägger till en ny uppgift finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+   >[!TIP]
+   >
+   >   Varaktighet och Planerade timmar som anges för en ny återkommande aktivitet är Varaktighet och Planerade timmar för varje upprepning. Den överordnade aktivitetens varaktighet är tiden mellan det planerade startdatumet för den första aktiviteten och det planerade slutförandedatumet för den senaste aktiviteten. Den överordnade uppgiftens planerade timmar är det totala antalet planerade timmar från alla återkommande aktiviteter.
+
 1. Klicka **Översikt** i den vänstra panelen.
 1. Bläddra nedåt till **Återkommande schema** väljer du **Gör detta till en återkommande uppgift** alternativ.
 
    ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
-1. I **Frekvens** väljer du antalet tidsenheter när du vill att uppgiften ska utföras och typ av tidsenheter. Välj bland följande alternativ:
+1. I **Frekvens** väljer du antalet tidsenheter när du vill att uppgiften ska utföras och typ av tidsenheter. Välj bland följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,4 +131,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!IMPORTANT]
    >
-   >Om du ändrar den överordnade upprepningen efter att de underordnade objekten har ändrats individuellt kan det leda till att informationen skiljer sig mellan de underordnade och den överordnade. Mer information finns i [Översikt över återkommande uppgifter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   >Om du ändrar den överordnade upprepningen efter att de underordnade objekten har ändrats individuellt kan det leda till att informationen skiljer sig mellan de underordnade och den överordnade. Mer information finns i [Översikt över återkommande uppgifter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

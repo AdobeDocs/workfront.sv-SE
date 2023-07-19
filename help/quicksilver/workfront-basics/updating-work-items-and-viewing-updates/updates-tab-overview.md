@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig för alla kunder i förhandsvisningsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Frågor, <span class="preview">projekt, uppgifter och dokument</span>.
+> * Problem, projekt, uppgifter och dokument.
 >
 >     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
 >
@@ -115,13 +115,13 @@ För närvarande kan du lägga till kommentarer och svara på uppdateringar med 
      <li>Kort i området för anslagstavlor*</li>
       Det här är den enda upplevelsen för mål och kort.
      </li> 
-     <li><span class="preview">Projekt</span></li>
+     <li>Projekt</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>Problem</li> 
-     <li><span class="preview">Uppgifter</span></li>
-     <li><span class="preview">Dokument</span></li>
+     <li>Uppgifter</li>
+     <li>Dokument</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ När du till exempel lägger till en uppdatering för en uppgift visas uppdateri
 
 >[!NOTE]
 >
->När du aktiverar den nya funktionen Beta-kommentering visas kommentarer på följande objekt med högre rankning:
+>När du aktiverar den nya kommentarsfunktionen visas kommentarer på följande objekt med högre rankning:
 >
 >* Problem
->* <span class="preview">Projekt</span>
->* <span class="preview">Uppgifter</span>
+>* Projekt
+>* Uppgifter
 >
 >Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Mer information finns i [Logga in som en annan användare](../../administration-
 
 Alla kommentarer som görs för en annan användares räkning anges i kommentaren.
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">När du använder den nya kommentarsfunktionen läggs kommentaren till som den användare som loggade in som en annan användare och det finns inget som tyder på att han/hon lägger till en kommentar för någon annans räkning.
+>När du använder den nya kommentarsfunktionen läggs kommentaren till som den användare som loggade in som en annan användare och det finns inget som tyder på att han/hon lägger till en kommentar för någon annans räkning.
 >
->Om en Workfront-administratör till exempel loggar in som en annan användare är den användare som är associerad med kommentaren Workfront-administratören. Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Om en Workfront-administratör till exempel loggar in som en annan användare är den användare som är associerad med kommentaren Workfront-administratören. Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 En gruppadministratör kan kommentera för en annan persons räkning, men kan inte ta bort kommentaren. Det är bara en Adobe Workfront-administratör som kan ta bort en kommentar som de har gjort för en annan användares räkning.

@@ -6,9 +6,9 @@ description: Du kan logga tid för arbetsobjekt i &nbsp;Adobe Workfront för att
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3335'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
@@ -361,13 +361,13 @@ Du kan logga projektspecifik tid för ett projekt, en uppgift eller ett problem 
 
 #### Uppdateringsavsnitt{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> Du kan logga tid för problem, <span class="preview">projekt och uppgifter</span> när du aktiverar den nya kommenteringsfunktionen Beta i uppdateringsavsnittet.
+> Det finns små skillnader i utseendet och känslan av användargränssnittet mellan det aktuella och det nya uppdateringsavsnittet. Informationen i det här avsnittet hänvisar till funktionaliteten som den visas i den nya kommenteringsfunktionen.
 >
->Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Mer information om de nya uppdateringarna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Om du vill logga tid i uppdateringsavsnittet för ett projekt, en uppgift eller ett problem måste du ha följande:
 
@@ -383,9 +383,9 @@ Så här loggar du tid i uppdateringsavsnittet för ett projekt, en uppgift elle
 
 1. Gå till ett projekt, en uppgift eller ett ärende.
 1. Välj **Uppdateringar**.
-1. Klicka **Loggtid**.
+1. Klicka **Loggtid**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">Dialogrutan Loggtid visas. </span>
+   Dialogrutan Loggtid visas.
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Så här loggar du tid i uppdateringsavsnittet för ett projekt, en uppgift elle
    >   
    >   I det övre högra hörnet av rutan Ange dagar finns en indikation på hur många timmar en dag har.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Ange följande information:
 

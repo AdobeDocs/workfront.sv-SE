@@ -6,7 +6,7 @@ description: Du kan bara skapa uppgifter i ett projekt efter att du har skapat p
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -131,10 +131,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       * Ekonomi
       * Inställningar
 
-         Mer information om hur du definierar alla uppgiftsrelaterade fält i en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+        Mer information om hur du definierar alla uppgiftsrelaterade fält i en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
    1. (Villkorligt och valfritt) Uppdatera **Återkommande frekvens** fält. Mer information om hur du skapar återkommande uppgifter finns i [Skapa återkommande uppgifter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att bifoga ett dokument till den nya uppgiften och klicka sedan på **Lägga till eller länka filer** om du vill lägga till ett dokument till uppgiften från datorn, en annan tjänst eller länka dokument och mappar från datorn eller en annan tjänst.
-
 
 1. (Villkorligt) Om du klickade **Lägg till fler aktiviteter** i steg 5 börjar du att ange uppgiftsinformationen med hjälp av redigering online och trycker sedan på Retur.
 
@@ -150,13 +150,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Om du klickade **Ny uppgift** i steg 5, klicka **Skapa uppgift** för att spara ändringarna och lägga till den nya uppgiften i projektet.
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
    * Om du klickade **Lägg till fler aktiviteter** I steg 5 gör du följande:
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 

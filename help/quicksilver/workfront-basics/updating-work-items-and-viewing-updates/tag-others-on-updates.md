@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Du kommer åt den nya funktionen för följande objekt:
-> * Frågor, <span class="preview" style="display-inline">projekt, uppgifter och dokument</span>.
+> * Problem, projekt, uppgifter och dokument.
 >
 >     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
 >
@@ -138,16 +138,16 @@ Du kan tagga användare manuellt i det aktuella uppdateringsavsnittet.
 
 Du kan tagga andra vid uppdateringar på följande sätt:
 
-* <span class="preview"> **Automatiskt**: När en användare lägger till en kommentar eller ett svar, taggas de automatiskt och läggs till i taggarna personer eller team i kommentarsrutan. </span>
+* **Automatiskt**: När en användare lägger till en kommentar eller ett svar, taggas de automatiskt och läggs till i taggarna personer eller team i kommentarsrutan.
 * **Manuellt**: När du lägger till en användare manuellt i området Tagga personer i kommenteringsrutan.
 
 Du kan också ta bort användare som är taggade av misstag när du redigerar eller svarar på en kommentar.
 
-1. Börja uppdatera en arbetsuppgift enligt beskrivningen i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">Som kommentarsägare taggas du automatiskt och läggs till i taggarna för personer eller team i kommentarsrutan. </span>
+1. Börja uppdatera en arbetsuppgift enligt beskrivningen i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Som kommentarsägare taggas du automatiskt och läggs till i taggarna för personer eller team i kommentarsrutan.
 
    >[!TIP]
    >
-   ><span class="preview">Kommentarägaren kan inte se sitt eget namn under Tagga personer eller team i kommenteringsrutan.</span>
+   >Kommentarägaren kan inte se sitt eget namn under Tagga personer eller team i kommenteringsrutan.
 
 1. I **Tagga personer eller team** börjar du skriva namnet på den användare eller det team som du vill inkludera och klickar sedan på namnet när det visas i listrutan.
 
