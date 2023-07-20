@@ -6,8 +6,9 @@ title: Översikt över knappen Arbeta på den och Klar
 description: När du har tilldelats en uppgift eller ett problem kan du använda en sammanhangsberoende knapp som ändrar namn och funktion beroende på hur du är inblandad i arbetsuppgiften.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -26,19 +27,19 @@ Beroende på vilket område av Workfront du kommer åt uppgiften eller utgåvan 
 
 * När uppgiften eller utgåvan först tilldelas dig och statusen är Ny visas knappen Arbeta på den.
 
-   ![](assets/nwe-work-on-it-button.png)
+  ![](assets/nwe-work-on-it-button.png)
 
-   >[!TIP]
-   >
-   >Du kan ersätta knappen Arbeta med knappen Start. Mer information om hur du ersätter knappen Arbeta med knappen Start finns i  [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >[!TIP]
+  >
+  >Du kan ersätta knappen Arbeta med knappen Start. Mer information om hur du ersätter knappen Arbeta med knappen Start finns i  [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
 * När du har klickat på Work On It accept ändras knappen till Mark as Done (Markera som färdig) eller Done (Klar) beroende på var i Workfront du öppnar uppgiften eller problemet. Mer information om var du kan komma åt knappen Arbeta på det finns i avsnittet [Leta reda på knappen Arbeta på och Klart](#locate-the-work-on-it-and-done-button) i den här artikeln.
 
-   ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![](assets/nwe-mark-as-done-button-350x122.png)
 
 * Om du inte är den enda som har tilldelats uppgiften eller utgåvan och du får tillgång till din arbetsuppgift från Arbetslista i Hem-området, ändras knappen till Klar med min del.
 
-   ![](assets/home-left-done-with-my-part-button-350x184.png)
+  ![](assets/home-left-done-with-my-part-button-350x184.png)
 
 ## Leta reda på knappen Arbeta på och Klart {#locate-the-work-on-it-and-done-button}
 
@@ -46,15 +47,15 @@ Du kan hitta knappen Arbeta med och Klar i följande områden i Workfront:
 
 * Hem-delen, både i Arbetslistan eller på informationspanelen
 
-   Mer information om hur du markerar ett objekt som färdigt i hemområdet finns i [Markera ett objekt som färdigt i hemområdet](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  Mer information om hur du markerar ett objekt som färdigt i hemområdet finns i [Markera ett objekt som färdigt i hemområdet](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
 * I huvudet på uppgiften eller utgåvan
 
-   Mer information om objektrubriker finns i [Nya objektrubriker](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Mer information om objektrubriker finns i [Nya objektrubriker](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 * På aktivitets- eller ärendesammanfattningspanelen i en lista eller i arbetsbelastningsutjämnaren
 
-   Mer information om hur du använder panelen Sammanfattning finns i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  Mer information om hur du använder panelen Sammanfattning finns i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Översikt över fält som uppdateras automatiskt när du klickar på knappen Arbeta på och Klar
 
@@ -70,13 +71,13 @@ När du klickar på Arbeta på det uppdateras även följande objekt:
 
 * Tilldelningsstatusuppdateringar från Begärd till aktuell
 
-   >[!TIP]
-   >
-   >Fältet Tilldelningsstatus visas bara i rapporter och listor. Mer information om fältet Tilldelningsstatus finns i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >[!TIP]
+  >
+  >Fältet Tilldelningsstatus visas bara i rapporter och listor. Mer information om fältet Tilldelningsstatus finns i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Bekräftelsedatum
 
-   Mer information om implementeringsdatumet finns i [Genomför datumöversikt](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Mer information om implementeringsdatumet finns i [Genomför datumöversikt](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ### Knappen Start {#start-button}
 
@@ -87,11 +88,11 @@ Förutom de fält som uppdateras när du klickar på knappen Work On It (Arbeta 
 * Status
 * Faktiskt startdatum
 
-   Mer information om det faktiska startdatumet finns i [Översikt över projektets faktiska startdatum](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+  Mer information om det faktiska startdatumet finns i [Översikt över projektets faktiska startdatum](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 * Faktiskt slutförandedatum om knappen Start är associerad med en status som är lika med Fullständigt eller Stängt.
 
-   Mer information om det faktiska slutförandedatumet finns i [Översikt över projektets faktiska slutförandedatum](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+  Mer information om det faktiska slutförandedatumet finns i [Översikt över projektets faktiska slutförandedatum](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 >[!NOTE]
 >
@@ -102,7 +103,6 @@ Förutom de fält som uppdateras när du klickar på knappen Work On It (Arbeta 
 >* Teamförfrågningar
 >* Aktivitetshuvud
 >
-
 
 ### Knappen Klar {#the-done-button}
 

@@ -6,9 +6,10 @@ navigation-topic: manage-tasks
 title: Översikt över återkommande uppgifter
 description: Översikt över återkommande uppgifter
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -60,11 +61,11 @@ Tänk på följande när du skapar återkommande uppgifter i Workfront:
 
       * Enkel
       * Ansträngningsstyrd
-* Varaktighet och Planerade timmar som anges för en ny återkommande aktivitet är Varaktighet och Planerade timmar för varje upprepning. Den överordnade aktivitetens varaktighet är tiden mellan det planerade startdatumet för den första aktiviteten och det planerade slutförandedatumet för den senaste aktiviteten. Den överordnade uppgiftens planerade timmar är det totala antalet planerade timmar från alla återkommande aktiviteter.
+* Varaktighet och Planerade timmar som anges för en ny återkommande aktivitet är Varaktighet och Planerade timmar för varje förekomst. Den överordnade aktivitetens varaktighet är tiden mellan det planerade startdatumet för den första aktiviteten och det planerade slutförandedatumet för den senaste aktiviteten. Den överordnade uppgiftens planerade timmar är det totala antalet planerade timmar från alla förekomster.
 
 ## Att tänka på vid redigering av återkommande uppgifter
 
-Vissa ändringar du gör i en återkommande uppgift som är överordnad uppdateras kanske inte för alla befintliga återkommande aktiviteter. Underordnade aktiviteter som visar förloppet eller har uppdaterats individuellt uppdateras inte när du uppdaterar det överordnade objektet. Workfront anser att en uppgift visar förloppet i följande situationer:
+Vissa ändringar som du gör i en återkommande överordnad aktivitet kanske inte uppdateras för alla befintliga förekomster. Underordnade aktiviteter som visar förloppet eller har uppdaterats individuellt uppdateras inte när du uppdaterar det överordnade objektet. Workfront anser att en uppgift visar förloppet i följande situationer:
 
 * Status uppdateras och aktiviteten är inte längre Ny
 * Uppgiftens Procent färdigt är högre än noll
@@ -75,7 +76,7 @@ I följande tabell visas om ändringar som gjorts i den överordnade utlösaren 
 | Fält som har uppdaterats för den överordnade aktiviteten | Uppdateringar överförs till oredigerade underordnade eller underordnade utan att några framsteg registreras |
 |---|---|
 | Återkommande frekvens* | ✔ |
-| Uppdrag&#42;&#42; | ✔ |
+| Uppdrag | ✔ |
 | Namn | ✔ |
 | Beskrivning | ✔ |
 | Prioritet | ✔ |
