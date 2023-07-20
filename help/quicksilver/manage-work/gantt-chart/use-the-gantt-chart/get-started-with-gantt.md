@@ -6,9 +6,9 @@ description: Gantt-schemat i Adobe Workfront ger en visuell representation av en
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Uppgiftslistan [!UICONTROL Gantt Chart] är tillgängligt inom följande område
 
 Så här kommer du åt uppgiftslistan [!UICONTROL Gantt Chart]navigerar du till något av de områden som nämns ovan och klickar på [!UICONTROL Gantt Chart] ikon.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
 
 ### Projektlista [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 

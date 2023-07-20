@@ -6,9 +6,9 @@ description: I Gantt-schemat för uppgiftslistan visas information om aktivitete
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
 1. Klicka på **[!UICONTROL Gantt chart]** ikon.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
 
    Alla ändringar sparas automatiskt när **[!UICONTROL Autosave]** är aktiverat. Den är aktiverad som standard.
 
@@ -87,7 +87,8 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >   
    >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] att göra om.
    >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
-
+   >   
+   >
 
 1. Klicka **[!UICONTROL Save]** i det övre högra hörnet av [!UICONTROL Gantt chart].
 
@@ -118,7 +119,8 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >   
    >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] att göra om.
    >   * [!DNL Windows]: [!UICONTROL Use Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
-
+   >   
+   >
 
 1. Klicka på **[!UICONTROL Save]** .
 
@@ -152,7 +154,6 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >   * [!UICONTROL As Late As Possible]
    >   * [!UICONTROL Earliest Available Time]
    >   * [!UICONTROL Latest Available Time]
-
    >   
    >   
    >I vissa fall kan de föregående relationerna hindra aktiviteterna från att starta tidigare och det är inte tillåtet att flytta aktiviteten.
@@ -167,7 +168,8 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >   
    >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] att göra om.
    >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
-
+   >   
+   >
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -189,6 +191,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >
    >
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
+   >
 
 1. (Valfritt och villkorligt) Om du valde att spara ändringarna manuellt klickar du på **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** ikoner om du vill avbryta eller duplicera någon av ändringarna.
 
@@ -200,7 +203,8 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >   
    >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] att göra om.
    >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
-
+   >   
+   >
 
 1. Klicka **[!UICONTROL Save]** i det övre högra hörnet av [!UICONTROL Gantt chart].
 

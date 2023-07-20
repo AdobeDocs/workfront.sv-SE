@@ -4,9 +4,9 @@ title: Sammanfattning
 description: Du kan använda panelen Sammanfattning för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgiftsproblem, dokument eller från andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -116,21 +116,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Du kan bara välja en aktivitet eller en utgåva åt gången för att visa informationen om dem i [!UICONTROL Summary] -panelen.
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![Panelen Sammanfattning](assets/summary-panel-for-task.png)
 
 1. (Valfritt) Stäng [!UICONTROL Summary] gör du något av följande:
 
    * Klicka på **[!UICONTROL Open Summary]** icon ![](assets/summary-panel-icon.png)
 
-      eller
+     eller
 
-      Klicka på **X** ikonen i det övre högra hörnet av [!UICONTROL Summary] -panelen.
+     Klicka på **X** ikonen i det övre högra hörnet av [!UICONTROL Summary] -panelen.
 
    * I [!UICONTROL Submitted] i [!UICONTROL Requests] klickar du på **[!UICONTROL Close Summary]** icon ![](assets/close-summary-with-text-nwe.png)
 
-      eller
+     eller
 
-      Klicka på **X** i det övre högra hörnet av panelen Sammanfattning.
+     Klicka på **X** i det övre högra hörnet av panelen Sammanfattning.
 
 ## [!UICONTROL Percent Complete]
 

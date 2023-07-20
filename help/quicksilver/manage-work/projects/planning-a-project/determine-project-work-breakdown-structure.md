@@ -6,9 +6,9 @@ description: Att definiera en struktur för arbetsfördelning (WBS) för ett pro
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
@@ -48,23 +48,23 @@ När du definierar uppgifter ska du se till att du inte planerar för mycket arb
 Om du vill definiera strukturresultat och slutprodukter i Workfront rekommenderar vi att du utför följande aktiviteter för att skapa en hierarkisk vy över projektuppgifter:
 
 * Om du inte redan har gjort det skapar du ett nytt projekt.\
-   Mer information om hur du skapar ett projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
+  Mer information om hur du skapar ett projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
 * Skapa uppgifter för alla åtgärdsobjekt som krävs för att slutföra varje resultat och slutprodukt.\
-   Mer information om hur du skapar uppgifter finns i artikeln [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
+  Mer information om hur du skapar uppgifter finns i artikeln [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * Identifiera vilka som är de viktigaste resultaten av de uppgifter du just har skapat och koppla dem till milstolparna.\
-   Mer information om hur du skapar milstolpeuppgifter finns i artiklarna [Skapa en milstolpbana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) och [Koppla milstolpar till uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Mer information om hur du skapar milstolpeuppgifter finns i artiklarna [Skapa en milstolpbana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) och [Koppla milstolpar till uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Dela upp uppgifter med för stort omfång i underaktiviteter. Koppla dem till den överordnade som definierar din slutprodukt.\
-   Mer information om hur du skapar underaktiviteter finns i artikeln [Skapa underaktiviteter](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+  Mer information om hur du skapar underaktiviteter finns i artikeln [Skapa underaktiviteter](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identifiera beroendeförhållanden mellan underaktiviteter och mellan milstolpar.\
-   I en beroenderelation är starten av en uppgift beroende av att en annan uppgift eller grupp av uppgifter har slutförts.\
-   Mer information om uppgiftsberoenden finns i artiklarna [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) och [Skapa en föregående relation i uppgiftslistan](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  I en beroenderelation är starten av en uppgift beroende av att en annan uppgift eller grupp av uppgifter har slutförts.\
+  Mer information om uppgiftsberoenden finns i artiklarna [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) och [Skapa en föregående relation i uppgiftslistan](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Fastställ om det behövs godkännanden och granskningar under projektets livstid. Skapa godkännandeprocesser som tillgodoser detta behov.\
-   Mer information om godkännanden finns i artikeln [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Mer information om godkännanden finns i artikeln [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Beräkna arbetsscheman och schemaläggningsbegränsningar
 
@@ -74,22 +74,22 @@ Tänk på följande:
 
 * Uppgiftsbegränsningar definierar när arbete med en uppgift måste påbörjas eller avslutas.
 
-   Mer information om hur du definierar uppgiftsbegränsningar finns i artikeln [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  Mer information om hur du definierar uppgiftsbegränsningar finns i artikeln [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * En uppgifts varaktighet är den tidsram som är tillgänglig för att slutföra en uppgift. När du beräknar Varaktighet kanske du vill ange ett värde som tar hänsyn till möjligheten till en fördröjning. Om liknande projekt har slutförts tidigare kan det vara bra att ange det här värdet.
 
-   Eftersom varaktighet är en uppskattning bör du se till att fastställa optimistiska tidsvärden för att ta hänsyn till faktorer som kan påverka uppgiften, t.ex. väder, strömavbrott, leverantörssvårigheter eller andra oförutsedda händelser. Se även till att du tar hänsyn till om det finns några associerade föregående- eller beroendeuppgifter och hur de kan begränsa arbetet och påverka slutförandet av uppgifter.
+  Eftersom varaktighet är en uppskattning bör du se till att fastställa optimistiska tidsvärden för att ta hänsyn till faktorer som kan påverka uppgiften, t.ex. väder, strömavbrott, leverantörssvårigheter eller andra oförutsedda händelser. Se även till att du tar hänsyn till om det finns några associerade föregående- eller beroendeuppgifter och hur de kan begränsa arbetet och påverka slutförandet av uppgifter.
 
-   Beroende på aktivitetens varaktighetstyp kan du ändra varaktigheten för en aktivitet under ett projekts livstid, men detta påverkar även tidslinjen för projektet. Mer information om varaktigheten för en uppgift finns i artikeln [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Beroende på aktivitetens varaktighetstyp kan du ändra varaktigheten för en aktivitet under ett projekts livstid, men detta påverkar även tidslinjen för projektet. Mer information om varaktigheten för en uppgift finns i artikeln [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Tilldela uppgifter
 
 När du har definierat varaktigheten och begränsningarna för varje uppgift kan du bestämma vem som har tid och kompetens att utföra arbetet. Du kan tilldela uppgifter till följande enheter i Workfront:
 
 * Användare\
-   Endast användare med en planerings- eller arbetaråtkomstnivå kan tilldelas aktiviteter. Även om du kan tilldela uppgifter till beställare och granskare kan de inte slutföra dem. Därför rekommenderar vi inte att du tilldelar dem uppgifter.
+  Endast användare med en planerings- eller arbetaråtkomstnivå kan tilldelas aktiviteter. Även om du kan tilldela uppgifter till beställare och granskare kan de inte slutföra dem. Därför rekommenderar vi inte att du tilldelar dem uppgifter.
 
-   Mer information om åtkomstnivåer och hur de definierar vad användare kan göra med Workfront-objekt finns i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+  Mer information om åtkomstnivåer och hur de definierar vad användare kan göra med Workfront-objekt finns i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 * Jobbroller
 * Team
@@ -150,7 +150,7 @@ Du kan visa uppgiftslistan på projektnivå.
 
    Arbetsfördelningsstrukturen visas i den andra kolumnen i den valda vyn.
 
-   ![](assets/wbs-view-on-task-list-nwe-350x87.png)
+   ![Arbetsgruppsstruktur i en uppgiftslista](assets/work-breakdown-structure.png)
 
 ### Visa strukturlistan i en uppgiftsrapport {#view-the-wbs-in-a-task-report}
 

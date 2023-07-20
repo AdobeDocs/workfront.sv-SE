@@ -6,9 +6,9 @@ description: Du kan ta bort uppgifter som kan vara dubbletter eller som har skap
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Om aktiviteten har loggat timmar måste Workfront- eller gruppadministratören tillåta att dessa uppgifter tas bort genom att konfigurera inställningarna för Aktivitet och problem i din Workfront-instans. Detta gäller också när du försöker ta bort projekt som har uppgifter som har loggats in i timmar.
 
-   <!--
+  <!--
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
   -->
 
-   Mer information om hur du aktiverar borttagning av uppgifter där timmar är loggade finns i avsnittet Borttagning i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Mer information om hur du aktiverar borttagning av uppgifter där timmar är loggade finns i avsnittet Borttagning i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Effekten av att ta bort uppgifter {#the-impact-of-deleting-tasks}
 
@@ -73,7 +73,7 @@ Följande objekt som är kopplade till en uppgift tas också bort när du tar bo
 
 * Dokument
 
-   Du kan inte ta bort en uppgift som har ett dokument som har checkats ut bifogat. Mer information om utcheckning av dokument finns i [Checka ut dokument](../../../documents/managing-documents/check-out-documents.md).
+  Du kan inte ta bort en uppgift som har ett dokument som har checkats ut bifogat. Mer information om utcheckning av dokument finns i [Checka ut dokument](../../../documents/managing-documents/check-out-documents.md).
 
 * Problem
 * Underaktiviteter
@@ -85,21 +85,21 @@ Beroende på hur din Workfront-administratör konfigurerar inställningarna för
 * Flytta till projektet och återställ inte aktiviteten om den återställs senare.
 * tas bort och återställs om uppgiften återställs senare.
 
-   Detta gäller också när du försöker ta bort projekt som har uppgifter som har loggats in i timmar.
+  Detta gäller också när du försöker ta bort projekt som har uppgifter som har loggats in i timmar.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
 
-   Mer information om hur du konfigurerar raderingsinställningarna för timmar som är inloggade finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Mer information om hur du konfigurerar raderingsinställningarna för timmar som är inloggade finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Utgifter för aktiviteten flyttas till projektet.
 
 * De användare som är tilldelade till uppgiften eller aktivitetsgodkännandet blir kvar i projektteamet.
 
-   Mer information om projektteam finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  Mer information om projektteam finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Ta bort uppgifter
 
@@ -121,9 +121,10 @@ Beroende på hur din Workfront-administratör konfigurerar inställningarna för
       1. Klicka **Ta bort** sedan **Ja, ta bort den** för att bekräfta borttagningen.
 
          Uppgifterna tas bort.
+
    1. (Villkorligt) Klicka på **Planläge** ikon och markera **Spara manuellt** om du vill ångra ändringarna som du gör i uppgiftslistan.
 
-      ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+      ![Välj Spara manuellt](assets/manual-save-option.png)
 
       Gör följande:
 
@@ -134,7 +135,6 @@ Beroende på hur din Workfront-administratör konfigurerar inställningarna för
       1. Klicka **Spara** för att ta bort uppgifterna.
 
          Aktiviteter tas bort först när du har sparat ändringarna.
-
 
 ### Ta bort en enstaka uppgift {#delete-a-single-task}
 

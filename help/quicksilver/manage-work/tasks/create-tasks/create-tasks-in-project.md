@@ -6,9 +6,9 @@ description: Du kan bara skapa uppgifter i ett projekt efter att du har skapat p
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Mer information om hur du skapar personliga uppgifter som inte finns i ett proje
 
 I den här artikeln beskrivs hur du skapar åtgärder från grunden. Du kan också skapa uppgifter på följande sätt:
 
-* Genom att kopiera eller duplicera befintliga uppgifter. Mer information finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* Genom att flytta uppgifter från ett projekt till ett annat. Mer information finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Genom att kopiera eller duplicera befintliga uppgifter. Mer information finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Genom att flytta uppgifter från ett projekt till ett annat. Mer information finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Åtkomstkrav
 
@@ -89,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. (Villkorligt) Om du visar uppgiftslistan i en flexibel vy klickar du på **Listvy** icon ![](assets/list-view-in-agile-view-for-tasks.png) i det övre högra hörnet för att visa uppgiftslistan.
 1. (Valfritt) Klicka på **Planläge** icon ![](assets/nwe-plan-mode-icon-task-list.png) och markera **Spara manuellt** väljer du antingen **Standard** eller **Planering av tidslinje**. Detta inaktiverar **Spara automatiskt** som är aktiverat som standard.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Välj Spara manuellt](assets/manual-save-option.png)
 
    >[!TIP]
    >
