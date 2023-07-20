@@ -3,7 +3,7 @@ title: 23.3 Agile-förbättringar
 description: 23.3 Agile-förbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 23.3 Agile-förbättringar
 
-Den här sidan beskriver alla smidiga förbättringar som gjorts i version 23.3 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.3.
+Den här sidan beskriver alla brädor och smidiga förbättringar som gjorts i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

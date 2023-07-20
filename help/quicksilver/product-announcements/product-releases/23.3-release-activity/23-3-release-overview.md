@@ -4,20 +4,18 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # 23.3 - versionsöversikt
 
-Den här sidan innehåller information om de funktioner som ingår i version 23.3 som är schemalagd till veckan den 17 juli 2023.
+Den här sidan innehåller information om de funktioner som finns i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
 
-Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan uppdateras med ytterligare förbättringar när version 23.3 närmar sig den planerade produktionsversionen.
-
-Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig för webbinariet här](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+23.3-utgåvan av webbinariet var den 29 juni 2023. Du kan [registrera dig för webbinariet för att visa en on-demand-inspelning här](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Funktioner utanför cykeln (de som lanserades till Production före 23.3-releasedatum) markeras med gult.</span>
 
@@ -116,7 +114,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a></p>
                         <p>Agile View för ett projekt innehåller nu ytterligare funktioner för att filtrera, gruppera och sortera arbetet på en kanban-tavla. Den nya flexibla designen av vyn innehåller en robust sökfunktion och möjlighet att lägga till nya uppgifter direkt från styrelsen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -132,7 +130,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sortera efter kortkolumner</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sortera efter kortkolumner</a></p>
                         <p>Vi har lagt till möjligheten att sortera korten i kolumnerna på en anslagstavla. När du väljer ett alternativ att sortera efter sorteras alla kolumner. Det går inte att sortera en enstaka kolumn, och eftersläpningen eller inloppskolumnen sorteras inte.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -189,7 +187,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                                 <p>Förhandsgranskningsversion: 15 juni 2023</p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 22 juni 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 22 juni 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                                 <p>Förhandsgranskningsversion: 10 maj 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 10 maj 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 10 maj 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                                 <p>Förhandsgranskningsversion: 27 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                                 <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                                 <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</span></p></s>
+                                 <s><p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Produktionsrelease för alla kunder: 18 maj 2023</span></p>
@@ -308,7 +306,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                                 <p>Förhandsgranskningsversion: 13 april 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 13 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktionen genom deltagande av tidiga funktioner i Workfront Boards.</p>
+                                 <p>Produktionsrelease för tidig anmälan: 13 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum för gällande kostnad och faktureringstariffer</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Datum för gällande kostnad och faktureringstariffer</a></p>
                         <p>Giltig kostnad och faktureringstariffer är nu tillgängliga för företagets, användarens och jobbrollens objekt i Workfront. När gällande datumsatser tillämpas på ett projekt, och timmar loggas på projektuppgifter, beräknas kostnader och intäkter med hjälp av de angivna tarifferna för varje tidsperiod.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -346,7 +344,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                             <li>
                                 <p>Produktionsrelease för kunder med snabb lansering: Anmäl dig efter 23.3-utgåvan</p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.4<br>
-                                <span style="color: #ff0000;"> Funktionen för åsidosättning av tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen från 30 juni till 13 juli 2023.</span></p>
+                                Funktionen för åsidosättning av tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen från 30 juni till 13 juli 2023.</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ Webbseminariet 23.3 kommer att hållas den 29 juni 2023. Du kan [registrera dig 
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny hemupplevelse</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny hemupplevelse</a></p>
                         <p>För att användare av alla typer bättre ska kunna utnyttja Workfront för sina specifika behov har Home fått en större uppdatering! Den nya hemupplevelsen erbjuder visuell anpassning och innehållsanpassning för hemsidan, vilket ger flexibilitet att endast visa den information som är mest relevant för ditt arbete.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>

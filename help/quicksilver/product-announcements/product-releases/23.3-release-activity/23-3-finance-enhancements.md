@@ -3,16 +3,16 @@ title: 23.3 Förbättringar av den ekonomiska förvaltningen
 description: 23.3 Förbättringar av den ekonomiska förvaltningen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
 # 23.3 Förbättringar av den ekonomiska förvaltningen
 
-Den här sidan beskriver alla förbättringar av den ekonomiska hanteringen som gjorts i version 23.3 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.3.
+Den här sidan beskriver alla förbättringar av den ekonomiska förvaltningen som gjorts i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
