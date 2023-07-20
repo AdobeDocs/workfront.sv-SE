@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 &#42;Kontakta [!DNL Workfront] administratör.
 
 ## Skapa en inloppskolumn med enkla filter
-
->[!NOTE]
->
->Enkla filter är bara tillgängliga via tidiga funktionsvalsprogram för Adobe Workfront Boards.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).

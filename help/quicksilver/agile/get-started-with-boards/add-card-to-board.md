@@ -6,9 +6,9 @@ description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och till
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
       </p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
-      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p><p><strong>OBS!</strong> Kommentarer på kort är bara tillgängliga genom den tidiga funktionsavanmälningen för Workfront Boards.</p></td>
+      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Exempelbild i produktionsmiljön när anmälan om tidiga funktioner inte används:
-   ![Ad hoc-kortdetaljer](assets/boards-edit-ad-hoc-card-041723.png)
-
-   Exempelbild i produktionsmiljön när anmälan om tidiga funktioner är aktiverad:
    ![Ad hoc-kortdetaljer](assets/ad-hoc-card-details-with-comments.png)
 
    Använd den vänstra navigeringspanelen för att flytta mellan fältavsnitt på kortinformationen.

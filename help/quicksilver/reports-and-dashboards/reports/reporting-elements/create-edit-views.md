@@ -6,16 +6,14 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera vyer i Adobe Workfront
-
-{{highlighted-preview}}
 
 Du kan anpassa vilken typ av information som visas på skärmen med hjälp av vyer. Du kan använda flera typer av vyer i Adobe Workfront.
 
@@ -150,16 +148,12 @@ Mer information om Agile-vyer finns i artikeln [Hantera ett projekt i Agile-vyn]
 
 >[!NOTE]
 >
-><span class="preview">Den här proceduren gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
+>Den här proceduren gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
 Så här skapar eller anpassar du en Agile-vy:
 
 1. Gå till listan med uppgifter i ett projekt.
-1. Klicka på **Agile Storyboard** icon ![Agile Storyboard, ikon](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">eller</span>
-
-   <span class="preview">Klicka på **styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png)och klicka sedan på **Använd äldre flexibilitet** i styrelseläget.</span>
+1. Klicka på **styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png)och klicka sedan på **Använd äldre flexibilitet** i styrelseläget.
 
 1. (Villkorligt) Så här anpassar du en befintlig Agile-vy:
 
@@ -255,4 +249,4 @@ Så här skapar eller anpassar du en Agile-vy:
 1. Klicka **Spara**.\
    Åtkomsten styr hur vyn sparas. Om du skapade vyn från början kan du spara ändringarna; i annat fall uppmanas du att spara en version. Tänk på att de ändringar du gör i vyn påverkar användare som vyn har delats med.
 
-1. (Valfritt) Klicka på **Listvy** icon ![](assets/list-view-in-agile-view-for-tasks.png) för att återgå till listan med uppgifter.
+1. (Valfritt) Klicka på **Lista** om du vill återgå till listan med uppgifter.

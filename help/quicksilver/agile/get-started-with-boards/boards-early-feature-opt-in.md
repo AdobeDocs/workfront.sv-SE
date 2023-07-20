@@ -6,9 +6,9 @@ title: Anmäl dig till tidig funktion för [!DNL Adobe Workfront] Varumärkena
 description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Boards] tidig anmälan av funktioner.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   </tr>
   <tr>
    <td>Definiera e-postmeddelanden för anslagstavlor</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Migrera gamla kanban-kort till styrelser</td>
@@ -166,19 +166,19 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   </tr>
   <tr>
    <td>Skapa dynamiska ritytor</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Använd vänster navigering på kortinformation</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Använd förenklade filter på inloppskolumnen</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Använd kommentarer på ad hoc-kort och anslutna kort</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
  </tbody> 
 </table>

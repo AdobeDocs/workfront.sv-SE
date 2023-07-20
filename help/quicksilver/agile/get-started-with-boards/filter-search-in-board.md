@@ -6,7 +6,7 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Filtrera och söka på en anslagstavla
-
-{{highlighted-preview}}
 
 Du kan filtrera en rityta så att den visas:
 
@@ -26,7 +24,7 @@ Du kan filtrera en rityta så att den visas:
 * Arkiverade kort
 * Kort som är kopplade till ett visst projekt
 
-<span class="preview">När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går inte att sortera en enstaka kolumn, och eftersläpningen eller inloppskolumnen sorteras inte.</span>
+När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går inte att sortera en enstaka kolumn, och eftersläpningen eller inloppskolumnen sorteras inte.
 
 Genom att söka kan du även hitta ett visst kort på kortet.
 
@@ -110,8 +108,6 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 
    ![Filtrera efter anslutning](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## Sortera på en bräda
 
 När du väljer ett alternativ att sortera efter sorteras alla kolumner. Det går inte att sortera en enstaka kolumn, och eftersläpningen eller inloppskolumnen sorteras inte.
@@ -130,8 +126,6 @@ När du väljer ett alternativ att sortera efter sorteras alla kolumner. Det gå
    När en annan sortering än standardsorteringen används visas en indikator på sorteringsikonen ![Sortering används](assets/sort-applied-boards.png).
 
    ![Sortera efter kolumner på en anslagstavla](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## Sök på en anslagstavla
 

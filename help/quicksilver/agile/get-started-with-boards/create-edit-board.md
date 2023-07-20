@@ -6,9 +6,9 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    | Grundläggande bräde | Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. |
    | Kanban-tavla | Följande kolumner finns på styrelsen: Eftersläpning, Nytt, Pågår, Fullständigt och Väntande. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna.<p>Om du vill använda eftersläpningen måste du ställa in filter för inloppskolumnen. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Om du vill granska standardreglerna för varje kolumn klickar du på [!UICONTROL **Mer** meny] i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Retrospektivkort | Följande kolumner finns på styrelsen: Vad gick bra? Vad kan förbättras? Vem ska vi fira? Vad kan vi göra för att gå fortare? Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
-   | Dynamiskt kort | Följande kolumner finns på styrelsen: Avmarkerad, Ny, Pågår, Väntande och Slutförd. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. (Kolumnen Omarkerad kan byta namn men inte tas bort. Den här kolumnen innehåller alla kort med en status som inte matchar någon av de andra kolumnstatusarna.) <p>Standardkolumnprinciperna tilldelar kort till kolumner baserat på deras status. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**OBS!** Den dynamiska panelen är endast tillgänglig genom deltagande av tidiga funktioner i Workfront Boards. |
+   | Dynamiskt kort | Följande kolumner finns på styrelsen: Avmarkerad, Ny, Pågår, Väntande och Slutförd. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. (Kolumnen Omarkerad kan byta namn men inte tas bort. Den här kolumnen innehåller alla kort med en status som inte matchar någon av de andra kolumnstatusarna.) <p>Standardkolumnprinciperna tilldelar kort till kolumner baserat på deras status. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. För ett dynamiskt kort följer du stegen i installationsguiden:
 

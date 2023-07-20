@@ -6,16 +6,14 @@ description: Obligatoriska planer, licenstyper och åtkomst till Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Hantera ett projekt i Agile-vyn
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 >[!NOTE]
 >
-><span class="preview">Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
+>Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
 * [Flexibla funktioner i ett projekt](#agile-functionality-in-a-project)
 * [Skillnader när du använder Agile-vyn i ett projekt jämfört med en iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 ## Visa ett projekt i Agile-vyn
 
 1. Gå till det projekt du vill visa i en flexibel vy.
-1. Klicka på **Agile** icon ![Agile-ikon](assets/agile-icon-nwe.png).
+1. Klicka på **styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">eller</span>
-
-   <span class="preview">Klicka på **styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png).</span>
-
-   Projektet visas i standardvyn för flexibel visning.
-
-   <span class="preview">I förhandsvisningsmiljön visas ritytan som standard.</span>
+   Vyn i projektvyn visas som standard.
 
    ![Vy över projekt](assets/project-agile-board-view.png)
 
-   (Endast äldre, flexibel vy) Om du tidigare har visat projektet i en anpassad, flexibel vy visas projektet i den vyn i stället för i standardvyn.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(Valfritt) Klicka på **Konfigurera** för att ange alternativ för kolumner och kort.</span>
+1. (Valfritt) Klicka på **Konfigurera** för att ange alternativ för kolumner och kort.
 
-   <span class="preview">Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) och [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Observera att du inte kan definiera kolumnprinciper i en projektvy.</span>
+   Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) och [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Observera att du inte kan definiera kolumnprinciper i en projektvy.
 
-1. <span class="preview">(Valfritt) Klicka på **Använd äldre flexibilitet** om du vill använda den gamla, flexibla vyn i stället för den vanliga vyn.</span>
+1. (Valfritt) Klicka på **Använd äldre flexibilitet** om du vill använda den gamla, flexibla vyn i stället för den vanliga vyn.
 
 1. (Valfritt - endast äldre flexibel vy) Om du har skapat en anpassad flexibel vy, eller om en annan användare har skapat en anpassad flexibel vy och delat den med dig, kan du visa den i stället för standardvyn för flexibel visning.
 
@@ -200,14 +192,13 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 
    Om du vill lägga till statusvärden i den flexibla vyn skapar du en ny flexibel vy eller anpassar en befintlig flexibel vy enligt beskrivningen i avsnittet&quot;Skapa eller anpassa en flexibel vy&quot; i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Valfritt) Om du vill återgå till listvyn klickar du på **Lista** ikon.\
-   ![Ikonen Lista](assets/list-icon.png)
+1. (Valfritt) Om du vill återgå till listvyn klickar du på **Lista** ikon.
 
 ## Skapa och anpassa Agile-vyer {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
+>Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
 Precis som med standardvyer i Workfront kan du anpassa befintliga flexibla vyer eller skapa nya flexibla vyer från grunden. Till skillnad från standardvyer kan du inte skapa nya flexibla vyer som baseras på befintliga flexibla vyer.
 
@@ -217,7 +208,7 @@ Mer information om hur du skapar och anpassar flexibla vyer finns i avsnittet&qu
 
 >[!NOTE]
 >
-><span class="preview">Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
+>Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
 Mer information om hur du delar en flexibel vy finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Mer information om hur du delar en flexibel vy finns i [Dela ett filter, en vy e
 
 >[!NOTE]
 >
-><span class="preview">Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.</span>
+>Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
 Mer information om hur du tar bort en vy finns i avsnittet Ta bort en vy i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
