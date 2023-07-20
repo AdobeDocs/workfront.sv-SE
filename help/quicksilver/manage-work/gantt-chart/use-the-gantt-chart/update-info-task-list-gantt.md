@@ -6,9 +6,9 @@ description: I Gantt-schemat för uppgiftslistan visas information om aktivitete
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
    The **[!UICONTROL Autosave]** är markerat som standard, och då sparas alla ändringar automatiskt.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Plan mode]** ikon och markera **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 
@@ -131,7 +131,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
    Alla ändringar sparas automatiskt när **[!UICONTROL Autosave]** är aktiverat. Den är aktiverad som standard.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Plan mode]** ikon och markera **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 
@@ -178,7 +178,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 1. Gå till det projekt som du vill ändra.
 1. I **[!UICONTROL Tasks]** klickar du på **[!UICONTROL Gantt chart]** ikon.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
 
    Alla ändringar sparas automatiskt när **[!UICONTROL Autosave]** är aktiverat. Den är aktiverad som standard.
 
