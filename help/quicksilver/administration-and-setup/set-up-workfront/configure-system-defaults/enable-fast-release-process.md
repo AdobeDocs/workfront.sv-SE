@@ -7,7 +7,7 @@ description: Du kan välja om du vill få nya Workfront-funktioner månadsvis el
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Aktivera eller inaktivera snabba releaser för organisationen
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront har två modeller för nya funktioner och uppdateringar. Du kan välja om du vill få tillgång till nya funktioner kvartalsvis eller enligt ett snabbare schema.
 

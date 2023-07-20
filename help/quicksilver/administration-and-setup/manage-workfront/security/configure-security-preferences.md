@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
-
-{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -70,8 +68,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p><span class="preview">Aktivera snabb granskningsprocess</span></p> </td> 
-      <td><span class="preview">Gör att du kan aktivera månadsvisa Workfront-utgåvor för din organisation istället för kvartalsvisa utgåvor.</p><p>Mer information om processen för snabb släppning finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera eller inaktivera snabba releaser för organisationen</a>.</span></p></td> 
+      <td role="rowheader"> <p>Aktivera snabb granskningsprocess</p> </td> 
+      <td>Gör att du kan aktivera månadsvisa Workfront-utgåvor för din organisation istället för kvartalsvisa utgåvor.</p><p>Mer information om processen för snabb släppning finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera eller inaktivera snabba releaser för organisationen</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Tillåt inbäddning av <strong>Workfront</strong> i en iframe</p> </td> 
