@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Redigera en godkännandeprocess
 description: Om du är Adobe Workfront-administratör eller har administrativ åtkomst till godkännandeprocesser kan du se och redigera alla godkännandeprocesser i systemet.
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ Mer information om hur du skapar godkännandeprocesser finns i [Skapa en godkän
 >
 >* Lägg till en scen efter den aktuella scenen
 >* Lägg till ytterligare en godkännare före den aktuella fasen
-
 
 ## Åtkomstkrav
 
@@ -135,6 +134,7 @@ Du måste ha följande:
    <p><b>TIPS</b>:</p>
 
    <p>När du lägger till en användare som godkännare ska du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.</p>
+      <p>Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Bevilja åtkomst för användare</a></p>.
 
    <p><b>ANMÄRKNING</b>:
 

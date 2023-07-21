@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: Redigera projekt
 description: Du kan redigera ett projekt i Adobe Workfront så ofta det behövs. Det bästa är om du redigerar ett projekt när projektet har statusen Planering.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '7336'
 ht-degree: 0%
 
 ---
@@ -142,6 +143,7 @@ Vissa inställningar som nämns i den här artikeln kan ändras från standardst
 
       * [Hantera information i projektöversiktsområdet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i dialogrutan **Lägg till anpassat formulär** och sedan markera den när den visas i listan och sedan klicka på **Spara ändringar**.
    1. (Valfritt) Klicka på **Exportera** icon ![](assets/export.png) om du vill exportera översikten och information om anpassade formulär till en PDF-fil, och sedan klicka på **Exportera**. Välj bland följande:
 
@@ -154,6 +156,7 @@ Vissa inställningar som nämns i den här artikeln kan ändras från standardst
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    Om du vill ha information om de fält som visas i avsnittet Projektinformation fortsätter du redigera projektet i rutan Redigera projekt enligt beskrivningen nedan.
 1. Om du vill redigera all information om projektet klickar du på **Mer** meny ![](assets/qs-more-menu.png) bredvid namnet på projektet och klicka sedan på **Redigera**.
 
@@ -302,7 +305,11 @@ Vissa inställningar som nämns i den här artikeln kan ändras från standardst
 
    >[!TIP]
    >
-   >När du uppdaterar fälten Projektägare, Projektsponsor och Resurshanterare ska du lägga märke till avataren, användarens primära roll eller deras e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   >När du uppdaterar fälten Projektägare, Projektsponsor och Resurshanterare ska du lägga märke till avataren, användarens primära roll eller deras e-postadress för att skilja mellan användare med identiska namn.
+   >
+   >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   >
+   >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
@@ -677,15 +684,15 @@ Följande fält inkluderas som standard i projekthuvudet.
 * Projektägare
 * Planerat slutförandedatum och tid
 
-   >[!NOTE]
-   >
-   >Du kan bara redigera det här fältet när projektet har schemalagts från Slutförandedatum. När projektet är schemalagt från startdatum beräknar Workfront det planerade slutförandedatumet och den planerade tidpunkten baserat på aktiviteternas varaktighet.
+  >[!NOTE]
+  >
+  >Du kan bara redigera det här fältet när projektet har schemalagts från Slutförandedatum. När projektet är schemalagt från startdatum beräknar Workfront det planerade slutförandedatumet och den planerade tidpunkten baserat på aktiviteternas varaktighet.
 
 * Villkor
 
-   >[!NOTE]
-   >
-   >Du kan bara redigera det här fältet när projektets villkorstyp är Manuell. När villkorstypen är inställd på Förloppsstatus beräknas villkoret i Workfront baserat på förloppet för uppgifterna. Mer information finns i [Översikt över projektvillkor och villkorstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+  >[!NOTE]
+  >
+  >Du kan bara redigera det här fältet när projektets villkorstyp är Manuell. När villkorstypen är inställd på Förloppsstatus beräknas villkoret i Workfront baserat på förloppet för uppgifterna. Mer information finns i [Översikt över projektvillkor och villkorstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 * Status
 * Fatta godkännandebeslut om du har angett som godkännare i en aktuell godkännandeprocess
@@ -698,32 +705,31 @@ Tänk på följande när du redigerar flera projekt samtidigt:
 
 * Informationen som du ändrar i alla markerade projekt skriver över befintlig information om enskilda projekt, förutom i fältet Resurshanterare.
 
-   Om du lägger till en ny resurshanterare när du redigerar flera projekt samtidigt läggs den hanteraren till i alla markerade projekt. Om andra resurshanterare är kopplade till de valda projekten finns de kvar i projekten förutom det som lagts till via massredigering.
+  Om du lägger till en ny resurshanterare när du redigerar flera projekt samtidigt läggs den hanteraren till i alla markerade projekt. Om andra resurshanterare är kopplade till de valda projekten finns de kvar i projekten förutom det som lagts till via massredigering.
 
 * När du väljer projekt som har olika värden för samma fält visas indikatorn &quot;Flera värden&quot; i rutan Redigera projekt. Fält som är kryssrutor, alternativknappar och växlar har en &quot;Multiple values&quot;-indikator bredvid sig.
 
-   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Förutom indikatorn för flera värden visas fält med flera alternativ på något av följande sätt om de valda alternativen är olika i minst ett av de markerade projekten:
 
    * Kryssrutefält har en rad i stället för en kryssruta för alternativet som är markerat för vissa men inte för alla markerade projekt.
 
-      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Växla mellan fälten för olika typer visas nedtonade, med alternativet aktiverat i mitten för vissa men inte för alla markerade projekt.
 
-   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Fält av alternativknappstyp som har vissa alternativ markerade men inte alla, visar alla alternativknappar som tomma.
 
-      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
-
+     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * När du uppdaterar ett alternativ i ett fält med flera alternativ (t.ex. ett fält som visas som en uppsättning med växlar eller kryssrutor) måste alla andra alternativ matcha de markerade projekten.
 
-   >[!IMPORTANT]
-   >
-   >Du kan till exempel ha ett kryssrutefält med tre kryssrutor (alternativ1, alternativ 2 och alternativ 3) och alternativ 1 är avmarkerat för alla projekt, och alternativ 2 och 3 är markerade för vissa och inte markerade för andra projekt som du har valt. Om du vill markera Alternativ 1 för alla projekt måste du också matcha alternativ 2 och 3 för alla markerade projekt innan du kan spara ändringarna, så du måste antingen markera dem eller avmarkera dem så att de matchar alla markerade projekt. Om du inte ändrar något av alternativen kan du spara fältet som det är och projekten behåller sin aktuella markering för alla alternativ.
+  >[!IMPORTANT]
+  >
+  >Du kan till exempel ha ett kryssrutefält med tre kryssrutor (alternativ1, alternativ 2 och alternativ 3) och alternativ 1 är avmarkerat för alla projekt, och alternativ 2 och 3 är markerade för vissa och inte markerade för andra projekt som du har valt. Om du vill markera Alternativ 1 för alla projekt måste du också matcha alternativ 2 och 3 för alla markerade projekt innan du kan spara ändringarna, så du måste antingen markera dem eller avmarkera dem så att de matchar alla markerade projekt. Om du inte ändrar något av alternativen kan du spara fältet som det är och projekten behåller sin aktuella markering för alla alternativ.
 
 * När du väljer flera projekt som tillhör olika grupper är statusvärdena som visas i statusfältet på systemnivå och inte gruppnivå.
 

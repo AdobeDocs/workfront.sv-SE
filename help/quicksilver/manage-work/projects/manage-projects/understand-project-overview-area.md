@@ -5,11 +5,12 @@ navigation-topic: manage-projects
 title: Hantera information i projektöversiktsområdet
 description: Hantera information i projektöversiktsområdet
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -154,10 +155,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!TIP]
    >
-   >När du uppdaterar fälten Projektägare, Projektsponsor och Resurshanterare ska du lägga märke till avataren, användarens primära roll eller deras e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   >När du uppdaterar fälten Projektägare, Projektsponsor och Resurshanterare ska du lägga märke till avataren, användarens primära roll eller deras e-postadress för att skilja mellan användare med identiska namn.
+   >
+   >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   > 
+   >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Granska följande fält i avsnittet Översikt. Du kan inte redigera följande fält:
+1. Granska följande fält i avsnittet Översikt. Du kan inte redigera följande fält:
 
    | Fält | Beskrivning |
    |---|---|

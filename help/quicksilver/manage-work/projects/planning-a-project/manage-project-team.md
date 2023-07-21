@@ -4,11 +4,12 @@ navigation-topic: plan-a-project
 title: Hantera projektgruppen
 description: Projektgruppen består av användare som är kopplade till projektet. Medlemmarna i projektgruppen visas i avsnittet Personer i projektet.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -136,7 +137,8 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
    >
    >* Du kan inte lägga till användare genom att lägga till deras team, grupper, företag eller jobbroller.
    >* Lägg märke till avataren, användarens primära roll och deras e-postadress för att skilja mellan användare med identiska namn när du lägger till användarna. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
-
+   >
+   >  Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Klicka **Lägg till**.

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Du kan skapa en godkännandeprocess som användare kan koppla till en arbetsuppgift (projekt, uppgift, utleverans, mall eller malluppgift), ett dokument eller ett korrektur. En godkännandeprocess säkerställer att angivna tilldelningar på objektet granskar vissa ändringar innan objektet fortskrider i systemet.
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2227'
 ht-degree: 0%
 
 ---
@@ -135,6 +135,7 @@ Du måste ha följande:
    <p><b>TIPS</b>:</p>
 
    <p>När du lägger till en användare som godkännare ska du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.</p>
+      <p>Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Bevilja åtkomst för användare</a>. </p>
 
    <p><b>ANMÄRKNING</b>:
 

@@ -5,10 +5,11 @@ title: Tilldela arbete manuellt med hjälp av Utjämning av arbetsbelastning
 description: Du kan tilldela arbetsobjekt till användare manuellt med hjälp av Adobe Workfront Workload Balancer.
 author: Alina
 feature: Resource Management
+role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -83,13 +84,18 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
    >* I Windows: CTRL-klicka på aktivitets- eller problemfältet.
    >* I Mac: CMD-klicka på aktivitets- eller problemfältet.
 
-
 1. Gör något av följande:
 
    * Börja skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela objektet i **Sök efter personer, roller eller team** markerar du det när det visas i listan och klickar sedan på **Spara**.
+
    >[!TIP]
    >
-   >När du lägger till en användare ska du lägga märke till avataren, användarens primära roll och användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   >När du lägger till en användare ska du lägga märke till avataren, användarens primära roll och användarens e-postadress för att skilja mellan användare med identiska namn.
+   >
+   >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   >
+   > Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
 
    ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
@@ -113,12 +119,12 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
    >   
    >   * Tilldela om arbetsuppgiften till aktiva resurser.
    >   * Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-
+   >   
+   >
 
    * Klicka **Avancerat** för att få åtkomst till avancerade uppdrag.
 
-      Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
+     Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. (Valfritt) Klicka på **Ikonen Visa allokeringar** ![](assets/show-allocations-icon-small.png)klickar du på **Menyn Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
 

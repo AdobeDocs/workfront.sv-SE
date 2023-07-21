@@ -5,10 +5,11 @@ title: Tilldela ärenden
 description: Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i Ändra problemtilldelningar - översikt.
 author: Alina
 feature: Work Management
+role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,6 @@ Du kan tilldela utgåvor till användare, roller och team för att ange vem som 
 >
 >* Tilldela om arbetsuppgiften till aktiva resurser.
 >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-
 
 Utöver den här artikeln rekommenderar vi att du läser följande artiklar för mer information om hur du tilldelar problem:
 
@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter för det objekt där du kopierar problemet med möjlighet att lägga till problem.</p> <p> Information om hur du beviljar behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter för det objekt där du kopierar problemet med möjlighet att lägga till problem.</p> <p> Information om hur du beviljar behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Bevilja åtkomst för användare</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 
 * Uppgifter eller ärenden tilldelas vanligtvis först till en eller flera jobbroller eller team. När projekten är klara att starta kan de behöva tilldelas användare.
 
-   Om en uppgift eller ett ärende tilldelas till en eller flera roller och du sedan även tilldelar en användare, bestämmer Adobe Workfront vilken jobbroll som ska associeras med den andra användaren (om någon) enligt följande regler:
+  Om en uppgift eller ett ärende tilldelas till en eller flera roller och du sedan även tilldelar en användare, bestämmer Adobe Workfront vilken jobbroll som ska associeras med den andra användaren (om någon) enligt följande regler:
 
    * Om det bara finns en tilldelad jobbroll och den matchar användarens primära roll, tilldelas uppgiften eller utgåvan endast den användare som fyller sin primära roll.
    * Om det finns flera roller tilldelade och minst en av rollerna matchar användarens sekundära roller, tilldelas uppgiften eller utgåvan till användaren som uppfyller en av deras övriga roller - som Workfront väljer slumpmässigt om det finns flera matchningar - samt eventuella ytterligare roller som tilldelas.
@@ -118,17 +118,21 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 
    * Börja skriva namnet på en användare, roll eller team som du vill tilldela och klicka sedan på den när den visas i listan.
 
-      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (Villkorligt) Klicka på ett av namnen i dialogrutan **Föreslagna uppdrag** list
    * Klicka **Tilldela mig** för att tilldela den till dig själv
    * Klicka **Avancerat**
 
-      Att skapa avancerade uppdrag fungerar ungefär på samma sätt för uppgifter och ärenden. Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Att skapa avancerade uppdrag fungerar ungefär på samma sätt för uppgifter och ärenden. Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-      >[!TIP]
-      >
-      >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+     >[!TIP]
+     >
+     >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn.
+     >
+     >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+     >
+     >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 
 
 1. Klicka **Spara** för att slutföra tilldelningen av problemet.
@@ -153,14 +157,19 @@ Så här tilldelar du utgåvor i en lista:
 
    * Klicka inuti **Tilldelad till** eller **Tilldelad** fält och börja skriva namnet på en aktiv användare som du vill tilldela utgåvan och klicka sedan på den när den visas i listan.
 
-      ![](assets/assigned-to-field-task-list-nwe.png)
+     ![](assets/assigned-to-field-task-list-nwe.png)
 
    * Klicka inuti **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller aktivt team som du vill tilldela till utgåvan och klicka sedan på det när det visas i listan.
 
-      ![](assets/assignments-field-task-list-nwe.png)
+     ![](assets/assignments-field-task-list-nwe.png)
+
    >[!TIP]
    >
-   >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn.
+   >
+   >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
+   >
+   Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. (Villkorligt) Klicka på knappen **Ikonen Personer** ![](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
