@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ Följande är för närvarande inte tillgängligt i formulärdesignern, men komm
 
 Ikoner i ett fält i formulärdesignern anger att logik används i fältet.
 
-The **D** ikonen längst ned till vänster betyder att fältet är målfält för visningslogik (om ett visst val görs i formuläret visas det här fältet). The **D** -ikonen längst ned till höger betyder att fältet används för att definiera visningslogik (ett specifikt val eller värde i det här fältet visar målfältet).
+The ![Visningslogik för målfält](assets/display-logic-bottom-left.png) ikonen längst ned till vänster betyder att fältet är målfält för visningslogik (om ett visst val görs i formuläret visas det här fältet). The ![Definiera ikon för visningslogik](assets/display-logic-bottom-right.png) -ikonen längst ned till höger betyder att fältet används för att definiera visningslogik (ett specifikt val eller värde i det här fältet visar målfältet).
 
-The **S** ikonen längst ned till vänster betyder att fältet är målfält för hopplogik (om ett visst val görs i formuläret, hoppar formuläret framför det här fältet). The **S** ikonen längst ned till höger betyder att fältet används för att definiera hopplogik (en specifik markering eller ett värde i det här fältet hoppar över andra fält och går direkt till målfältet).
+The ![Hoppa över logik för målfält](assets/skip-logic-bottom-left.png) ikonen längst ned till vänster betyder att fältet är målfält för hopplogik (om ett visst val görs i formuläret, hoppar formuläret framför det här fältet). The ![Definiera ikon för hopplogik](assets/skip-logic-bottom-right.png) ikonen längst ned till höger betyder att fältet används för att definiera hopplogik (en specifik markering eller ett värde i det här fältet hoppar över andra fält och går direkt till målfältet).
+
+![Logic icons](assets/logic-icons-3.png)
 
 Om du markerar ett fält med tillämpad logik visas de befintliga logikreglerna i fältinställningarna.
 
