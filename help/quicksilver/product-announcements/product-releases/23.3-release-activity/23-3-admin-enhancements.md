@@ -3,9 +3,9 @@ title: 23.3 Förbättringar av administratören
 description: 23.3 Förbättringar av administratören
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,15 @@ Systemadministratören kan nu låsa och låsa upp tidrapporten&quot;Där använd
 Mer information finns i [Konfigurera tidrapport och timinställningar](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) och [Konfigurera tidrapport och timinställningar för en grupp](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3419111/){target=_blank}
+
+## Visa logik och överhoppningslogikindikatorer och regler som visas i formulärdesignerns beta
+
+Den allmänna betaversionen av formulärdesignern återaktiverades i förhandsgranskning och produktion den 21 juli 2023. Den nya formulärdesignern har en ny arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt.
+När du dessutom öppnar ett anpassat formulär i den betaversion av formulärdesignern som innehåller visnings- eller hopplogik som skapats i det äldre formulärverktyget kan du nu visa logiken:
+
+* Ikoner i ett fält på formulärdesignerns arbetsyta anger att logiken är konfigurerad i det fältet eller att fältet används i logikregler som är konfigurerade för andra fält.
+* Om du markerar ett fält med tillämpad logik visas de befintliga logikreglerna i fältinställningarna.
+
+Att redigera befintlig logik och lägga till ny logik i ett anpassat formulär är ännu inte tillgängligt i beta-versionen av formulärdesignern, men är planerat för framtiden.
+
+Mer information finns i [Översikt över formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).

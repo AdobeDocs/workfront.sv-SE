@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,22 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsrelease: 18 maj 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa logik och överhoppningslogikindikatorer och regler som visas i formulärdesignerns beta</a></p>
+                        <p>Den allmänna betaversionen av formulärdesignern återaktiverades i förhandsgranskning och produktion den 21 juli 2023. Dessutom kan du nu visa befintliga logikregler som har skapats i äldre anpassade formulär i formulärdesignern.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 21 juli 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease: 21 juli 2023</p>
                             </li>
                         </ul>
                     </td>

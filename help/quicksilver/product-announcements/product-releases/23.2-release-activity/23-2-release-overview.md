@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                             </li>
                             <li>
                                  <p>Produktionsrelease: Med version 23.2<br />
-                                 <span style="color: #ff0000;">Betaversionen av formulärdesignern inaktiverades tillfälligt i förhandsgranskning och produktion den 24 maj 2023.</span></p>
+                                 <span style="color: #ff0000;">Betaversionen av formulärdesignern inaktiverades tillfälligt i förhandsgranskning och produktion från 24 maj till 21 juli 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Byta namn på punkter i layoutmall</span></a>
-                        </span></a><p>Nu kan du ändra namn på punkter i en layoutmall så att de blir mer användbara för användarna i stället för att använda standardnamnet för den fästa sidan. Fästpunkter som administratörer skapar visas för alla användare som är tilldelade layoutmallen och användarna kan inte ändra namn på dessa punkter.</p>
+                        <p>Nu kan du ändra namn på punkter i en layoutmall så att de blir mer användbara för användarna i stället för att använda standardnamnet för den fästa sidan. Fästpunkter som administratörer skapar visas för alla användare som är tilldelade layoutmallen och användarna kan inte ändra namn på dessa punkter.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -480,7 +480,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometrisk inloggning och anslagstavlor i mobilappen</span></a>
-                        </span></a><p>Biometrisk inloggning är nu ett alternativ för snabbare inloggning i mobilappen! När biometrisk verifiering har konfigurerats efter en första inloggning kan användarna använda fingeravtryck eller ansiktsigenkänning för att snabbt logga in i appen igen med endast tillfällig lösenordsåterställning. Dessutom kommer det att finnas ett antal förbättringar av den allmänna inloggningsupplevelsen som kommer i en senare uppdatering.</p>
+                        <p>Biometrisk inloggning är nu ett alternativ för snabbare inloggning i mobilappen! När biometrisk verifiering har konfigurerats efter en första inloggning kan användarna använda fingeravtryck eller ansiktsigenkänning för att snabbt logga in i appen igen med endast tillfällig lösenordsåterställning. Dessutom kommer det att finnas ett antal förbättringar av den allmänna inloggningsupplevelsen som kommer i en senare uppdatering.</p>
                         <p>Boards-samlingar stöds nu också i mobilappen, vilket gör att mobilanvändare kan visa alla samlingar de har tillgång till i skrivbordsversionen från sin lista över mobilanslagstavlor.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -592,7 +592,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportera ritytor som enstaka PDF eller flera PDF i Adobe Workfront för XD</span></a>
-                        </span></a><p>I plugin-programmet Adobe Workfront for XD kan du nu välja att exportera ritytorna som en enda PDF-fil eller som flera PDF-filer.</p>
+                        <p>I plugin-programmet Adobe Workfront for XD kan du nu välja att exportera ritytorna som en enda PDF-fil eller som flera PDF-filer.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
