@@ -1,7 +1,7 @@
 ---
-source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,6 @@ Så här konfigurerar du länkade mappar:
 >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än den som visas i den här artikeln.
 >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i sidans övre högra hörn eller (om det är tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
 >
-
 
 <!-- Integrations -->
 
@@ -239,7 +238,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 ## Senaste DPV-version {#latest-version}
 
-**Senaste versionen**: 2.1.23 per den 3/23/2023
+**Senaste versionen**: 2.1.24 per den 15 maj 2023
 
 <!-- Release -->
 
@@ -280,20 +279,18 @@ Du kan ändra vilken status som ska användas för arbetsposten med knappen Klar
    >* När du väljer en status för varje typ av arbetsuppgift, ställs uppgiften eller utleveransstatusen in på den statusen när en användare klickar på Klar på sin artikel. Om du anger flera statusvärden för varje typ av arbetsuppgift läggs en rullgardinsmeny till knappen Klar och användaren måste välja en status för att kunna ändra status för arbetsuppgifterna.
    >* Du kan bara associera statusvärden på systemnivå med knappen Klar. Du kan inte associera gruppspecifika statusvärden med arbetsartikelstatusvärden.
    >* När en användare som är tilldelad objektet placerar objektet i den status som är associerad med knappen Klar, visas objektet som Klar för den användaren oavsett om statusen du väljer är Slutfört eller Stängt eller en arbetsstatus.
-
    >   
    >   
    >  Om du till exempel associerar Klar med Pågår visas arbetsposten som Klar för den användare som ändrar statusen från Nytt till Pågår.
    >   
    >* Problemtyperna är anpassningsbara och kan ha andra namn än de som visas nedan i din miljö.\
-      >  Följande är standardåtgärder och problemtyper:
-      >     
-      >   * Uppgifter
-      >   * Problem
-      >   * Begäran
-      >   * Ändra ordning
-      >   * Felrapport
-
+   >  Följande är standardåtgärder och problemtyper:
+   >     
+   >   * Uppgifter
+   >   * Problem
+   >   * Begäran
+   >   * Ändra ordning
+   >   * Felrapport
 
    Om uppgiften eller utgåvan har tilldelats flera användare visas alternativet &quot;Klar med min del&quot; i listrutan, utöver de statusvärden som har valts för ditt team.
 

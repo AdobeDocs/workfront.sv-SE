@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Artikel</td> 
-       <td> <p>Lägg till text som ger kontext till informationen i rapporten.</p> <p>Mer information finns i [den slutliga länken].</p> </td> 
+       <td> <p>Lägg till text som ger kontext till informationen i rapporten.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Webbinnehåll</td> 
@@ -61,7 +61,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Canvas, filter</td> 
-       <td> <p>Lägg till ett filter som gör att användarna kan se olika aspekter av en rapport. Det här filtret gäller för alla data i rapporten.</p> <p>Mer information finns i [den slutliga länken].</p> </td> 
+       <td> <p>Lägg till ett filter som gör att användarna kan se olika aspekter av en rapport. Det här filtret gäller för alla data i rapporten.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
      </tr> 
      <tr> 
       <td role="rowheader">Favoritera rapporten</td> 
-      <td>När du har lämnat redigeringsrutan klickar du på <strong>Stjärna</strong> ikon [icon] bredvid namnet på rapporten för att lägga till den i din lista över favoritrapporter.</td> 
+      <td>När du har lämnat redigeringsrutan klickar du på <strong>Stjärna</strong> -ikonen bredvid namnet på rapporten för att lägga till den i din lista över favoritrapporter.</td> 
      </tr> 
     </tbody> 
    </table>

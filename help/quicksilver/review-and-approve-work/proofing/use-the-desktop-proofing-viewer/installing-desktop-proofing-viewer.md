@@ -6,9 +6,9 @@ description: Desktop Proofing Viewer, som huvudsakligen är avsedd för korrektu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 0e8cc1e307dc82a4c1745d50de062024a5007da6
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Installera Desktop Proofing Viewer på Mac
 
-Om Adobe Workfront-administratören eller Workfront Korrekturadministratör har hämtat appen till din arbetsstation och konfigurerat Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur kan du slutföra installationen genom att öppna ett interaktivt korrektur i området Dokument.
+Om Adobe Workfront-administratören eller Workfront Korrekturadministratör har hämtat appen till din arbetsstation och konfigurerat Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur kan du slutföra installationen genom att öppna ett interaktivt korrektur i dokumentområdet.
 
 Om så inte är fallet kan du följa stegen nedan.
 

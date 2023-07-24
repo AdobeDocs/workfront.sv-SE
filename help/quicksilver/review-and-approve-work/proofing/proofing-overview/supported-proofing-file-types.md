@@ -7,9 +7,9 @@ description: Du kan dela och granska olika typer av filer med granskarna, även 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan dela och granska olika typer av filer med granskarna, även om de inte ha
 Workfront har följande begränsningar:
 
 * Filerna måste vara mindre än 4 GB per fil.
-* Microsoft Word- (DOC, DOCX) och PowerPoint-filer (PPT, PPTX) måste vara mindre än 512 MB.
+* Microsoft Word- (DOC, DOCX) och PowerPoint-filer (PPT, PPTX) måste vara mindre än 512 MB. (Detta gäller även för ej arkiverade korrektur av dessa filtyper som skapats innan storleksgränsen implementerades.)
 * XLS- och XLSX-filer måste vara mindre än 100 MB.
 * Filer som bifogas kommentarer i korrektur måste vara mindre än 30 MB.
 * PNG-filer måste ha en höjd och bredd som är mindre än 65535px.
@@ -180,11 +180,15 @@ Workfront har följande begränsningar:
 > * XLT - Microsoft Excel-mall
 > * XLTX - Microsoft Excel-mall
 
+>[!WARNING]
+> Vi stöder tillfälligt inte följande statiska filtyp på grund av ett säkerhetsproblem:
+>
+> * EPS - Encapsulated PostScript
+
 * AI - Adobe Illustrator Artwork
 * AIT - Adobe Illustrator-mall
 * DOC - Microsoft Word-dokument
 * DOCX - Microsoft Word-dokument
-* EPS - Encapsulated PostScript
 * PDF - Adobe Portable Document File
 * PPT - PowerPoint-presentation
 * PPTX - PowerPoint-presentation 2007 PS - PostScript-fil

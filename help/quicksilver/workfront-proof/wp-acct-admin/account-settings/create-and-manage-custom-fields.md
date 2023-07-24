@@ -7,9 +7,9 @@ description: A Select or Premium [!DNL Workfront] Planering krävs för att anv�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Först måste du ställa in avsnittet Anpassat fält där du ska lägga till anp
    | **Sökbart** | Gör att användare kan hitta objekt genom att söka efter data i det anpassade fältet. |
    | **Dold** | Döljer det anpassade fältet på [!UICONTROL New proof], ny gäst och [!UICONTROL New user] sidor |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klicka på **[!UICONTROL Save]**.
 1. I **Anpassat fält** som visas klickar du på **[!UICONTROL Custom fields settings]** för att uppdatera sidan.
@@ -75,6 +75,10 @@ Först måste du ställa in avsnittet Anpassat fält där du ska lägga till anp
 
    Du kan använda kontrollvärden för att bestämma värdena i kontrollfältet som, om de väljs, leder till att det beroende fältet visas. Föreställ dig till exempel att det beroende fältet är A och att kontrollfältet är X, och du anger att kontrollvärdena i X endast är alternativ 1 och 2. Det innebär att fält A bara visas om fält X alternativ 1 eller 2 är markerat. Det innebär att fält A inte visas om fält X alternativ 3 eller 4 är markerade. Öppna **[!UICONTROL Visibility rules]** -fliken.
 
+   >[!NOTE]
+   >
+   >Endast anpassade fälttyper för List och Radio kan användas för kontrollfältet i en synlighetsregel, medan det beroende fältet kan vara vilken fälttyp som helst.
+
    Så här lägger du till en synlighetsregel:
 
    1. Klicka **[!UICONTROL New visibility rule]** för den modul där du vill lägga till regeln.
@@ -87,6 +91,10 @@ Först måste du ställa in avsnittet Anpassat fält där du ska lägga till anp
    Om alternativ 1 väljs i fält Y visas endast alternativen 1 och 2 i fält B.
 
    Om alternativ 2 väljs i fält Y visas endast alternativen 3 och 4 i fält B.
+
+   >[!NOTE]
+   >
+   >Endast anpassade fälttyper List och Radio kan användas för beroende och styrande fält i en beroenderegel.
 
    Så här lägger du till en beroenderegel:
 
