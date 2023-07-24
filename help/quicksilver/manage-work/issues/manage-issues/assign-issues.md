@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -169,7 +169,7 @@ Så här tilldelar du utgåvor i en lista:
    >
    >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
    >
-   Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. (Villkorligt) Klicka på knappen **Ikonen Personer** ![](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

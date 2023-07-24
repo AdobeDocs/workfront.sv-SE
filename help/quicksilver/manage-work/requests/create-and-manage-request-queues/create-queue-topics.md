@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: Skapa köämnen
 description: Köämnen fungerar tillsammans med routningsregler för att automatiskt tilldela inkommande arbete till en användare, en jobbroll, ett team eller för att placera det i ett projekt. Köämnen definierar villkoren som måste finnas för att routningsregeln ska implementeras.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -140,14 +141,18 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Typ av begäran</strong> </td> 
-      <td> <p>Välj vilken typ av begäranden som lagras i det här köavsnittet. De synliga alternativen anges på <strong>Köinformation</strong> -fliken i projektet. Detta är ett obligatoriskt fält. </p> <p>Obs! Begärantyper visas bara som ett urval i området Förfrågningar om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du ställer in området Köinformation för ett projekt finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>. </p> <p>Välj bland följande typer:</p> 
-       <ul> 
-        <li>Felrapport</li> 
-        <li>Ändra ordning</li> 
-        <li>Problem</li> 
-        <li>Begäran</li> 
-       </ul> <p>Din Workfront-administratör kan ha bytt namn på några av dessa alternativ. </p> </td> 
-     </tr> 
+      <td> <p>Välj vilken typ av begäranden som lagras i det här köavsnittet. De synliga alternativen anges på <strong>Köinformation</strong> -fliken i projektet. Detta är ett obligatoriskt fält. </p>
+
+   <p><b>ANMÄRKNING</b>:
+
+   Typer visas bara som ett urval i området Begäranden om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du ställer in området Köinformation för ett projekt finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>. </p> <p>Välj bland följande typer:</p>
+   <ul>
+   <li>Felrapport</li>
+   <li>Ändra ordning</li>
+   <li>Problem</li>
+   <li>Begäran</li>
+   </ul> <p>Din Workfront-administratör kan ha bytt namn på några av dessa alternativ. </p> </td>
+   </tr> 
     </tbody> 
    </table>
 
