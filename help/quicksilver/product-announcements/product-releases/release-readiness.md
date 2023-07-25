@@ -6,14 +6,20 @@ description: Följ de här tipsen för att smidigt uppdatera din organisation f�
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
 
 # Förbered dig för en [!DNL Adobe Workfront] schemalagd release
+
+>[!NOTE]
+>
+>Workfront har två modeller för att lansera nya funktioner och uppdateringar. Din organisation kan välja om du vill få nya funktioner kvartalsvis eller snabbare. Processen med att förbereda för en release är densamma oavsett vilken modell organisationen använder.
+>
+>En detaljerad förklaring av de två modellerna finns på [Aktivera eller inaktivera snabba releaser för organisationen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 [!DNL Adobe Workfront] regelbundet släpper viktiga uppdateringar av produktionsmiljön. Som [!DNL Workfront] kan du se till att din organisation får en smidig övergång till varje ny version av [!DNL Workfront] produkt.
 
@@ -50,7 +56,7 @@ Vi rekommenderar att du överväger några eller alla av följande åtgärder so
 
 Versionsinformation för en viss funktion publiceras när funktionen går till [!UICONTROL Preview Sandbox] miljö. På så sätt kan du ta reda på och utforska funktionen innan den ingår i produktionsmiljön.
 
-Varje release innehåller en översiktssida med korta beskrivningar av varje funktion och länkar till mer ingående anteckningar som innehåller ytterligare information samt demonstrationsvideor. Dessa ingående anteckningar ordnas per vecka när förhandsversioner publiceras och omorganiseras sedan efter område som ligger närmare det verkliga produktionsreleasedatumet.
+Varje release innehåller en översiktssida med korta beskrivningar av varje funktion och länkar till mer ingående anteckningar som innehåller ytterligare information samt demonstrationsvideor. Dessa ingående anteckningar ordnas efter vecka när förhandsversioner publiceras och omorganiseras sedan efter område som ligger närmare det faktiska kvartalsdatumet för produktionen.
 
 Vi rekommenderar att du tittar på de demofilmer som finns i versionsinformationen. Dessa kan vara särskilt användbara för att se funktionen i praktiken eller för att snabbt se i vilken kontext den finns om du är kort i tid.
 
@@ -78,7 +84,7 @@ Som [!DNL Workfront] administratör får du ett meddelande från meddelandecentr
 
 ### Utforska [!UICONTROL Preview Sandbox] miljö
 
-The [!UICONTROL Preview Sandbox] miljö, även känd som [!UICONTROL Preview] miljö, är en miljö där användare i organisationen kan testa och arbeta med en separat kopia av data från produktionsmiljön. [!UICONTROL Workfront] släpper nya funktioner i förhandsvisningsmiljön långt innan de släpps i produktionsmiljön. Du kan bekanta dig med dessa funktioner innan de släpps in i användarnas dagliga arbetsflöden. Om användarna har svårt att dra nytta av de nya funktionerna kommer du att kunna hjälpa dem att anpassa sig enklare.
+The [!UICONTROL Preview Sandbox] miljö, även känd som [!UICONTROL Preview] miljö, är en miljö där användare i organisationen kan testa och arbeta med en separat kopia av data från produktionsmiljön. [!UICONTROL Workfront] släpper vanligtvis nya funktioner i förhandsvisningsmiljön minst två veckor innan de släpps i produktionsmiljön. Du kan bekanta dig med dessa funktioner innan de släpps in i användarnas dagliga arbetsflöden. Om användarna har svårt att dra nytta av de nya funktionerna kommer du att kunna hjälpa dem att anpassa sig enklare.
 
 >[!TIP]
 >
