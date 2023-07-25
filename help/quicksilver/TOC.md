@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '13126'
+source-wordcount: '13125'
 ht-degree: 0%
 
 ---
@@ -447,7 +447,7 @@ ht-degree: 0%
          * [Så här fungerar nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [Översikt över nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [Översikt över nya licenser](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Tillgång till objekt och ytor med nya licenser](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Tillgång till objekt och områden med nya licenser](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * Hur åtkomstnivåer fungerar {#legacy-access-levels}
