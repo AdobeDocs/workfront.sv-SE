@@ -5,10 +5,12 @@ title: Översikt över konverteringsproblem i Adobe Workfront
 description: Om mer arbete behöver utföras för att slutföra ett problem efter att utgåvan har skickats kan du konvertera utgåvan till ett projekt eller till en uppgift.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -31,7 +33,9 @@ Mer information om hur du konverterar problem till projekt finns i [Konvertera e
    * Under konverteringen kan du få frågan om du vill behålla problemet och dess lösning knuten till det projekt eller den uppgift du håller på att skapa.
    * Om du behåller problemet uppdateras status och procent färdigt för projektet eller uppgiften automatiskt, och procentandelen färdigt för problemet när något ändras i projektet, uppgiften eller utgåvan eller när Workfront beräknar om tidslinjen.
 
-* När du konverterar en utgåva till ett projekt med hjälp av en mall överförs den mesta informationen från mallen till det nya projektet. Men viss information från problemet kan också överföras till det nya projektet. Mer information finns i [Översikt över projektfält vid konvertering av ett ärende till ett projekt med hjälp av en mall](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) i den här artikeln.
+* När du konverterar ett problem till en uppgift eller ett projekt tas problemet bort från startdelen för den användare som är tilldelad problemet.
+
+* När du konverterar en utgåva till ett projekt med hjälp av en mall överförs den mesta informationen från mallen till det nya projektet. Men viss information från problemet kan också överföras till det nya projektet. Mer information finns i [Översikt över projektfält vid konvertering av ett ärende till ett projekt med en mall](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) i den här artikeln.
 * När du konverterar ett problem flyttas inte alla dokument eller deras information till det nya objektet som problemet konverteras till. Följande objekt inkluderas när du konverterar ett ärende som har bifogade dokument eller dokumentlänkar:
 
    * Dokument
@@ -46,7 +50,7 @@ Mer information om hur du konverterar problem till projekt finns i [Konvertera e
 * Utskickskommentarer kopieras också till uppgiften eller projektet som konverteras från problemet, men taggade användare överförs inte.
 * Om du vill överföra anpassad formulärinformation från utgåvan till projektet eller uppgiften som du konverterar den till måste du se till att du har ett anpassat projekt eller en anpassad uppgift som innehåller samma fält som du vill överföra från utgåvan. Mer information finns i [Överför anpassade formulärdata vid konvertering av ett objekt](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
-## Översikt över projektfält vid konvertering av ett ärende till ett projekt med hjälp av en mall {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
+## Översikt över projektfält vid konvertering av ett ärende till ett projekt med en mall {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
 När du konverterar ett problem till ett projekt kan du antingen konvertera det till ett tomt projekt eller använda en mall.
 
@@ -228,7 +232,7 @@ Tabellen nedan visar vilka problemfält som visas i de konverterade projekten oc
 | Ärendefält | Projekt eller aktivitetsfält | Projektlista eller rapport | Området Projektinformation | Uppgiftslista eller rapport | Området Uppgiftsinformation |
 |---|---|---|---|---|---|
 | Ärendenamn | Namn på konverterat ärende | ✔ | ✔ | ✔ | ✔ |
-| Primär kontakt | Namn på den som skapat problemet | ✔ | `✔` | ✔ |   |
+| Primär kontakt | Namn på den som skapat det konverterade problemet | ✔ | `✔` | ✔ |   |
 | Anmälningsdatum | Konverterat utgivningsdatum | ✔ |   | ✔ |   |
 
 

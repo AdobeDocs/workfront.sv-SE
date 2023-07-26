@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Som Adobe Workfront-administratör kan du använda en layoutmall för att bestämma vilken information som ska visas när en användare klickar på ikonen Detaljer ![](assets/project-details-icon.png) i den vänstra panelen när du visar en uppgift, ett problem, ett dokument, ett program eller en portfölj.
+Som Adobe Workfront-administratör kan du använda en layoutmall för att bestämma vilken information som ska visas när en användare klickar på ikonen Detaljer ![](assets/project-details-icon.png) i den vänstra panelen när du visar en uppgift, utgåva, dokument, program eller portfölj.
 
 <!--
 or billing record
@@ -31,18 +31,17 @@ Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutm
 
 Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-När du har konfigurerat en layoutmall måste du tilldela den till användare för att de ändringar du har gjort ska kunna visas för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
+När du har konfigurerat en layoutmall måste du tilldela den till användare för att ändringarna ska vara synliga för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
 
 De ändringar du gör i detaljvyn för ett objekt avgör också tillgängligheten och ordningen för fält som användarna ser i följande områden:
 
-<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
-* "New object" boxes, such as New Task and New Issue
+
+* Skapa objekt-rutor, till exempel Skapa uppgift
 
   ![](assets/new-task-dialog.png)
 
--->
 
-* Skärmar som&quot;Redigera objekt&quot;, till exempel Redigera aktivitet, Redigera problem och Redigera projekt
+* skärmar för&quot;Redigera objekt&quot; när du redigerar ett objekt, t.ex. Redigera aktivitet, Redigera problem och Redigera projekt
 
   ![](assets/edit-task-screen.png)
 
@@ -58,7 +57,7 @@ De ändringar du gör i detaljvyn för ett objekt avgör också tillgänglighete
 
   >[!NOTE]
   >
-  >Ändringar av layoutmallarna påverkar bara ordningen och tillgängligheten för fält på panelen Sammanfattning för de uppgifter och ärenden som tilldelats den inloggade användaren.
+  >Ändringar av layoutmallarna påverkar endast fältens ordning och tillgänglighet på panelen Sammanfattning för de uppgifter och ärenden som tilldelats den inloggade användaren.
 
 * Konverteringsrutor, som Konvertera till uppgift eller Konvertera till projektrutor.
 
@@ -98,10 +97,10 @@ Om du vill utföra dem för en grupp måste du vara gruppchef</p> <p><b>ANMÄRKN
 , or billing record
 -->
 
-1. I **Detaljer** gör du något av följande för att anpassa vad användarna ser i detaljvyn:
+1. I **Information** gör du något av följande för att anpassa vad användarna ser i detaljvyn:
 
    * Dra avsnittsrubriker ![](assets/move-icon---dots.png) för att ändra deras ordning.
-   * Aktivera eller inaktivera alternativ under **Översikt** och **Anpassad Forms** för att visa eller dölja dem.
+   * Aktivera eller inaktivera alternativ under **Ökning** och **Anpassad Forms** för att visa eller dölja dem.
 
      Om du döljer alla fält i ett av dessa avsnitt, döljs hela avsnittet.
 

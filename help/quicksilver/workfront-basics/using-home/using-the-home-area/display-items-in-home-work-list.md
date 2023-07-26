@@ -6,9 +6,9 @@ description: The [!UICONTROL Work List] i [!UICONTROL Home] visas alla arbetsobj
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: c111ae72da39fc1637320d993906ae9451e17e99
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 # Visa objekt i [!UICONTROL Work List] i hemområdet
 
 The [!UICONTROL Work List] i [!UICONTROL Home] visas alla arbetsobjekt som har tilldelats dig. Du kan styra vilka objekt som visas i [!UICONTROL Work] Lista enligt beskrivning nedan.
+
+>[!NOTE]
+>
+>När du konverterar ett problem till en uppgift eller ett projekt tas problemet bort från startdelen för den användare som är tilldelad problemet.
+>
+>När du konverterar en uppgift till ett projekt tas uppgiften bort och tas bort från hemområdet för användaren som tilldelats uppgiften.
+
 
 ## Åtkomstkrav
 
@@ -46,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Filtrera [!UICONTROL Work List]
 
@@ -57,7 +64,7 @@ Du kan filtrera objekt i [!UICONTROL Work List] om du bara vill visa vissa typer
 >Filteralternativen lagras i webbläsaren. Om du konsekvent använder samma webbläsare på samma dator (och inte rensar platsdata) ändras inte de valda filtren. Om du byter webbläsare eller dator återställs standardalternativet som är inaktiverat för alla filter.
 
 1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. Klicka på **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) nedrullningsbar meny.
+1. Klicka på **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) listruta.
 1. Välj bland följande filteralternativ för att ange vilken typ av objekt du vill visa:
 
    <table style="table-layout:auto"> 
@@ -79,7 +86,7 @@ Du kan filtrera objekt i [!UICONTROL Work List] om du bara vill visa vissa typer
         <p>Visar endast aktiviteter som är klara att startas. Båda följande programsatser måste vara sanna:</p> 
         <ul> 
          <li> <p>Aktiviteterna och deras föräldrar har inga föregående aktiviteter eller uppgiftsbegränsningar som hindrar dem från att arbeta.</p> </li> 
-         <li> <p>The [!UICONTROL Planned Start Date] tidigare eller upp till två veckor framåt.</p> </li> 
+         <li> <p>The [!UICONTROL Planned Start Date] tidigare eller upp till två veckor i framtiden.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -96,7 +103,7 @@ Du kan filtrera objekt i [!UICONTROL Work List] om du bara vill visa vissa typer
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Issues Working On]</strong></td> 
-      <td> <p>Visar endast problem som du arbetar med. Det här är ärenden som tilldelats dig och som du har klickat på [!UICONTROL Work On It] -knappen.</p> </td> 
+      <td> <p>Visar endast problem som du arbetar med aktivt. Det här är ärenden som tilldelats dig och som du har klickat på [!UICONTROL Work On It] -knappen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Issues Requested]</strong></td> 
@@ -138,7 +145,6 @@ Du kan filtrera objekt i [!UICONTROL Work List] om du bara vill visa vissa typer
    >* Du kan inte använda filter för objekt som har tilldelats ett team och de ingår inte i objekt som har tilldelats direkt till dig.
 
 
-
 1. (Valfritt) Ordna [!UICONTROL Work List], enligt beskrivningen i avsnittet [Gruppera och sortera efter datum, projekt och prioritet](#group-and-sort-by-date-project-and-priority) i den här artikeln.
 
 ## Gruppera och sortera efter [!UICONTROL Date], [!UICONTROL Project]och [!UICONTROL Priority]
@@ -146,7 +152,7 @@ Du kan filtrera objekt i [!UICONTROL Work List] om du bara vill visa vissa typer
 Du kan gruppera och sortera [!UICONTROL Work List] av [!UICONTROL Planned Completion Date], [!UICONTROL Commit Date], [!UICONTROL Project], eller [!UICONTROL My Priority]. Det alternativ du väljer avgör hur objekten grupperas i [!UICONTROL Work List].
 
 1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. Klicka på **[!UICONTROL Group by]** nedrullningsbar meny.
+1. Klicka på **[!UICONTROL Group by]** listruta.
 
    ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
 
@@ -249,4 +255,4 @@ Som standard är [!UICONTROL This Week] grupperingen expanderas och alla andra g
    ![](assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png)
 
    eller\
-   Om du vill expandera eller komprimera alla grupperingar samtidigt klickar du på **[!UICONTROL Expand]** eller **[!UICONTROL Collapse]** pilen bredvid en gruppering medan du håller ned [!UICONTROL Shift] nyckel.
+   Om du vill visa eller dölja alla grupperingar samtidigt klickar du på **[!UICONTROL Expand]** eller **[!UICONTROL Collapse]** pilen bredvid en gruppering medan du håller ned [!UICONTROL Shift] -tangenten.
