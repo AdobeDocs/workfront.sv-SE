@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
+source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa e
 
 Mer information om moduler finns i [Moduler i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-Information om API:t för PDF Services finns i [Adobe-API för dokumentgenerering](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Mer information om API:t för PDF Services finns i [Adobe-API för dokumentgenerering](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
 ## Säkerhetsaspekter vid användning [!DNL Adobe PDF Services]
 
@@ -73,15 +73,21 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Förutsättningar
+
+Om du vill skapa en OAuth Server-till-server måste du lägga till API:t för Adobe PDF Services i Adobe Developers Console. När du lägger till API:t väljer du alternativet OAuth Server-till-server.
+
+Instruktioner finns i [Lägg till API i projekt med OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) I dokumentationen för utvecklaren av Adobe.
 
 ## Skapa en anslutning till [!DNL Adobe PDF Services]
 
@@ -111,19 +117,19 @@ Skapa en anslutning för [!DNL Adobe PDF Services] moduler:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].</td>
+          <td>Ange [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar inloggningsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i dokumentationen för utvecklaren av Adobe.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+          <td>Ange [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar inloggningsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i dokumentationen för utvecklaren av Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technical account ID] (endast JWT)</td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Technical account ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+          <td>Ange [!DNL Adobe] [!UICONTROL Technical account ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar inloggningsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i dokumentationen för utvecklaren av Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID] (endast JWT)</td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Organization ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+          <td>Ange [!DNL Adobe] [!UICONTROL Organization ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar inloggningsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i dokumentationen för utvecklaren av Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta scopes] (endast JWT)</td>
@@ -181,7 +187,7 @@ Mer information om [!UICONTROL [!DNL Adobe PDF Services] Generate document] finn
 >You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
 -->
 
-Så här använder du [!UICONTROL Generate document] modul med [!UICONTROL Microsoft Word] måste du först skapa mallen. Sök efter&quot;Skapa en mall&quot; i dialogrutan [!DNL Microsoft Office] dokumentation.
+Använd [!UICONTROL Generate document] modul med [!UICONTROL Microsoft Word] måste du först skapa mallen. Sök efter&quot;Skapa en mall&quot; i dialogrutan [!DNL Microsoft Office] dokumentation.
 
 Fyll i [!UICONTROL Generate document] modulfält enligt följande:
 
@@ -209,7 +215,7 @@ Fyll i [!UICONTROL Generate document] modulfält enligt följande:
    <td role="rowheader">[!UICONTROL Data for merge]</td> 
    <td> <p>Fyll i följande för varje värdetagg i mallen som du vill ersätta med text:</p> 
     <ul> 
-     <li> <p>[!UICONTROL Key]</p> <p>Ange en nyckel. I mallen är nyckeln texten som visas i värdetaggen. Om du till exempel vill montera text i värdetaggen <code>&#123;&#123;name&#125;&#125;</code>, ange <code>name </code>i nyckelfältet.</p> </li> 
+     <li> <p>[!UICONTROL Key]</p> <p>Ange en tangent. I mallen är nyckeln texten som visas i värdetaggen. Om du till exempel vill montera text i värdetaggen <code>&#123;&#123;name&#125;&#125;</code>, ange <code>name </code>i nyckelfältet.</p> </li> 
      <li> <p>Värdetyp</p> <p>Ange om data i värdefältet är ett värde, ett objekt eller en array med objekt.</p> </li> 
      <li> <p>[!UICONTROL Value]</p> <p>Ange eller mappa texten som du vill ska visas i det genererade dokumentet i stället för värdetaggen.</p> </li> 
     </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
@@ -219,7 +225,7 @@ Fyll i [!UICONTROL Generate document] modulfält enligt följande:
 
 #### Använd [!UICONTROL Generate document] modul med JSON
 
-Så här använder du [!UICONTROL Generate document] med JSON, fyll i fälten enligt följande:
+Använd [!UICONTROL Generate document] med JSON, fyll i fälten enligt följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -243,7 +249,7 @@ Så här använder du [!UICONTROL Generate document] med JSON, fyll i fälten en
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>Om du vill använda JSON i den här modulen måste du aktivera mappning för det här fältet.</p> <p>Ange eller mappa det JSON som dokumentet ska skapas från. </p> <p>Du kan skriva JSON direkt i det här fältet eller mappa JSON-utdata från en JSON-modul.</p> </td> 
+   <td> <p>Om du vill använda JSON i den här modulen måste du aktivera mappning för det här fältet.</p> <p>Ange eller mappa det JSON-objekt som dokumentet ska skapas från. </p> <p>Du kan skriva JSON direkt i det här fältet eller mappa JSON-utdata från en JSON-modul.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,11 +303,11 @@ Den här åtgärdsmodulen tar flera PDF-filer och kombinerar dem i en enda PDF-f
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Documents]</td> 
-   <td> <p>Du kan använda en aggregeringsmodul för att samla dokument som ska kombineras till ett PDF, eller så kan du lägga till dokumenten manuellt. </p> <p>Vi rekommenderar att du använder [!UICONTROL Array Aggregator] för att samla utdata från en tidigare modul. Genom att använda en aggregator behöver du inte känna till namn, plats eller antal filer som ska kombineras. Att använda en aggregator är därför mycket flexiblare och mer skalbart än att manuellt ange de dokument som ska kombineras.</p> <p>Så här använder du [!UICONTROL Combine PDF] filmodulen med en aggregator måste du aktivera mappning på [!UICONTROL Documents] fält. </p> <p>I det här exemplet [!UICONTROL Read Related Records] -modulen identifierar dokument som är kopplade till ett projekt och [!UICONTROL Download Documents] för nedladdning. Alla PDF samlas i en array som skickas till [!UICONTROL Combine PDF] filmodulen.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>Du kan också ange dokument manuellt.</p> <p>För varje dokument som ska inkluderas i den kombinerade PDF:</p> 
+   <td> <p>Du kan använda en aggregeringsmodul för att samla dokument som ska kombineras till ett PDF, eller så kan du lägga till dokumenten manuellt. </p> <p>Vi rekommenderar att du [!UICONTROL Array Aggregator] för att samla utdata från en tidigare modul. Genom att använda en aggregator behöver du inte känna till namn, plats eller antal filer som ska kombineras. Att använda en aggregator är därför mycket flexiblare och mer skalbart än att manuellt ange de dokument som ska kombineras.</p> <p>Använd [!UICONTROL Combine PDF] filmodulen med en aggregator måste du aktivera mappning på [!UICONTROL Documents] fält. </p> <p>I det här exemplet [!UICONTROL Read Related Records] -modulen identifierar dokument som är kopplade till ett projekt och [!UICONTROL Download Documents] för nedladdning. Alla PDF samlas i en array som skickas till [!UICONTROL Combine PDF] filmodulen.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>Du kan också ange dokument manuellt.</p> <p>För varje dokument som ska inkluderas i den kombinerade PDF:</p> 
     <ol> 
      <li value="1"> <p>Klicka på [!UICONTROL Add a Document]</p> </li> 
      <li value="2"> <p>I [!UICONTROL Source file] markerar du modulen som matar ut dokumentet som du vill inkludera, eller mappar källfilens namn och data. </p> </li> 
-     <li value="3"> <p>(Valfritt) Om du bara vill inkludera vissa sidor från källfilen, för varje sidintervall som du vill lägga till, klickar du på <strong>[!UICONTROL Add item]</strong> i [!UICONTROL Pages] och sedan ange den första och sista sidan i det sidintervall som ska inkluderas, och klicka på <strong>[!UICONTROL Add]</strong>. Du kan inkludera mer än ett sidintervall från ett enstaka dokument.</p> </li> 
+     <li value="3"> <p>(Valfritt) Om du bara vill inkludera vissa sidor från källfilen, för varje sidintervall som du vill lägga till, klickar du på <strong>[!UICONTROL Add item]</strong> i [!UICONTROL Pages] och sedan ange den första och sista sidan i det sidintervall som ska inkluderas. Klicka på <strong>[!UICONTROL Add]</strong>. Du kan inkludera mer än ett sidintervall från ett enstaka dokument.</p> </li> 
      <li value="4"> <p>Klicka på <strong>[!UICONTROL Add]</strong>. </p> </li> 
     </ol> </td> 
   </tr> 
@@ -368,15 +374,15 @@ Det här verktyget konverterar ett dokument till en PDF-fil. Källfilen måste h
    <td role="rowheader">[!UICONTROL Language]</td> 
    <td> <p>Välj standardspråk för källdokumentet. Detta gör att modulen kan välja ett lämpligt teckensnitt, om det inte finns något teckensnitt i källfilen.</p> <p>Välj bland följande språk:</p> 
     <ul> 
-     <li> <p>en-US (standard): Engelska (USA)</p> </li> 
+     <li> <p>en-US (standard): engelska (USA)</p> </li> 
      <li> <p>ca-ES: Katalanska (Spanien)</p> </li> 
      <li> <p>cs-CZ: Tjeckiska (Tjeckien)</p> </li> 
-     <li> <p>da-DK: Danska (Danmark)</p> </li> 
-     <li> <p>de-DE: Tyska (Tyskland)</p> </li> 
+     <li> <p>da-DK: danska (Danmark)</p> </li> 
+     <li> <p>de-DE: German (Germany)</p> </li> 
      <li> <p>en-AE: Engelska (Förenade Arabemiraten)</p> </li> 
      <li> <p>en-GB: Engelska (Storbritannien)</p> </li> 
      <li> <p>en-IL: Engelska (Israel)</p> </li> 
-     <li> <p>sv-SE: Engelska (USA)</p> </li> 
+     <li> <p>en-US: Engelska (USA)</p> </li> 
      <li> <p>es-ES: Spanska (Spanien)</p> </li> 
      <li> <p>es-MX: Spanska (Mexiko)</p> </li> 
      <li> <p>eu-ES: Baskiska (Spanien)</p> </li> 
@@ -384,21 +390,21 @@ Det här verktyget konverterar ett dokument till en PDF-fil. Källfilen måste h
      <li> <p>fr-CA: Franska (Kanada)</p> </li> 
      <li> <p>fr-FR: Franska (Frankrike)</p> </li> 
      <li> <p>fr-MA: Franska (Marocko)</p> </li> 
-     <li> <p>HR: Kroatiska (Kroatien)</p> </li> 
+     <li> <p>hr-HR: Kroatiska (Kroatien)</p> </li> 
      <li> <p>hu-HU: Ungerska (Ungern)</p> </li> 
-     <li> <p>IT: Italienska (Italien)</p> </li> 
+     <li> <p>IT-IT: Italienska (Italien)</p> </li> 
      <li> <p>ja-JP: Japanska (Japan)</p> </li> 
      <li> <p>kr-KR: Koreanska (Sydkorea)</p> </li> 
-     <li> <p>nb-NO: Norska bokmål (Norge)</p> </li> 
+     <li> <p>Anm. NO: Norska bokmål (Norge)</p> </li> 
      <li> <p>nl-NL: Nederländska (Nederländerna)</p> </li> 
      <li> <p>pl-PL: Polska (Polen)</p> </li> 
      <li> <p>pt-BR: Portugisiska (Brasilien)</p> </li> 
      <li> <p>pt-PT: Portugisiska (Portugal)</p> </li> 
      <li> <p>ro-RO: Rumänska (Rumänien)</p> </li> 
-     <li> <p>Ru-RU: Ryska (Ryssland)</p> </li> 
+     <li> <p>RU: Ryska (Ryssland)</p> </li> 
      <li> <p>sk-SK: Slovakiska (Slovakien)</p> </li> 
      <li> <p>sl-SI: Slovenska (Slovenien)</p> </li> 
-     <li> <p>sv-SE: Svenska (Sverige)</p> </li> 
+     <li> <p>sv-SE: Swedish (Sweden)</p> </li> 
      <li> <p>tr-TR: Turkiska (Turkiet)</p> </li> 
      <li> <p>uk-UA: Ukrainska (Ukraina)</p> </li> 
      <li> <p>zh-CN: Kinesiska (fastlandet Kina)</p> </li> 
@@ -424,11 +430,11 @@ Det här verktyget konverterar en HTML-fil till en PDF-fil.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> <p>Viktigt: Källfilen måste vara i HTML- eller ZIP-format. </p> </td> 
+   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> <p>Viktigt! Källfilen måste vara i HTML- eller ZIP-format. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL JSON]</td> 
-   <td> <p>Om HTML refererar till JavaScript-variabler kan du inkludera dessa variabler här. </p> <p>För varje variabel klickar du på <strong>[!UICONTROL Add item]</strong> och innehåller variabelns nyckel och värde.</p> <p>Obs!   
+   <td> <p>Om HTML refererar till JavaScript-variabler kan du ta med dessa variabler här. </p> <p>För varje variabel klickar du på <strong>[!UICONTROL Add item]</strong> och innehåller variabelns nyckel och värde.</p> <p>Obs!   
      <ul> 
       <li> <p>När du skapar ett PDF från en ZIP-fil måste källmaterialet innehålla ett skriptelement som: <code> &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt;</code> </p> </li> 
       <li> <p>När du skapar ett PDF från en URL, injiceras innehållet i det här JSON-objektet i den virtuella webbläsaren innan sidan återges. </p> </li> 
@@ -476,12 +482,12 @@ Med det här verktyget kan du konvertera en bild till en PDF-fil.
 
 ### [!UICONTROL Convert PDF to document]
 
-Det här verktyget konverterar en PDF-fil till ett dokument. Du kan välja ett av följande format för utdatafilen.
+Det här verktyget konverterar en PDF-fil till ett dokument. Du kan välja något av följande format för utdatafilen.
 
 * DOC
 * DOCX
 * PPTX
-* XLSX
+* XSX
 * RTF
 
 <table style="table-layout:auto"> 
@@ -505,7 +511,7 @@ Det här verktyget konverterar en PDF-fil till ett dokument. Du kan välja ett a
      <li> <p>DOC</p> </li> 
      <li> <p>DOCX</p> </li> 
      <li> <p>PPTX</p> </li> 
-     <li> <p>XLSX</p> </li> 
+     <li> <p>XSX</p> </li> 
      <li> <p>RTF</p> </li> 
     </ul> </td> 
   </tr> 
@@ -545,7 +551,7 @@ En fil med namnet&quot;TestFile&quot; med 8 sidor ger till exempel 8 bilder med 
 
 ### [!UICONTROL Linearize a PDF file]
 
-Det här verktyget linjäriserar ett PDF-dokument och skapar ett webboptimerat PDF-dokument. Ett linjärt PDF-dokument kan visas sida vid sida utan att hela dokumentet behöver hämtas.
+Med det här verktyget linjäriserar du ett PDF-dokument och skapar ett webboptimerat PDF-dokument. Ett linjärt PDF-dokument kan visas sida vid sida utan att hela dokumentet behöver hämtas.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -738,7 +744,7 @@ Det här verktyget skyddar ett PDF-dokument med ett användar- eller ägarlösen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Permissions]</td> 
-   <td> <p>Välj de behörigheter du vill inkludera för utskrift, redigering eller kopiering av innehåll.</p> <p>Behörighetsinställningar används bara om [!UICONTROL ownerPassword] anges i [!UICONTROL Password Protection Type] fält.</p> </td> 
+   <td> <p>Välj de behörigheter du vill inkludera för utskrift, redigering eller kopiering av innehåll.</p> <p>Behörighetsinställningar används bara om [!UICONTROL ownerPassword] är inställd i [!UICONTROL Password Protection Type] fält.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -790,7 +796,7 @@ Den här åtgärdsmodulen delar upp ett PDF-dokument i flera mindre dokument. Du
    <td role="rowheader">[!UICONTROL Split option]</td> 
    <td>Välj hur du vill dela filen. 
    <ul>
-   <li><p><b>Sidintervall</b></p><p>För varje sidintervall som du vill dela upp i ett separat dokument klickar du på <b>Lägg till</b> och ange den sida som du vill börja på och den sida som du vill avsluta.</p></li>
+   <li><p><b>Sidintervall</b></p><p>För varje sidintervall som du vill dela upp i ett separat dokument klickar du på <b>Lägg till</b> och ange den sida där du vill börja och den sida där du vill avsluta.</p></li>
    <li><p><b>Antal sidor</b></p><p>Ange antalet sidor som du vill inkludera i de nya dokumenten.</p></li>
    <li><p><b>Antal filer</b></p><p>Ange antalet filer i samma storlek som du vill dela dokumentet i.</p></li>
    </ul>
