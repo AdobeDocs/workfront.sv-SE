@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Anmäl dig till tidig funktion för [!DNL Adobe Workfront] Varumärkena
 description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Boards] tidig anmälan av funktioner.
 author: Lisa
+feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Allmän information om ritytor finns i [[!UICONTROL Boards] översikt](/help/qui
 
 ## Frigör schema
 
-* Anmäl dig till tidig aktivering av funktioner i förhandsversionen: 22 juli 2022
+* Tidig start av nya funktioner i förhandsgranskning: 22 juli 2022
 * officiell version: 28 juli 2022
 
 ## Funktioner
@@ -194,7 +195,7 @@ Tidiga funktioner för anslagstavlor är tillgängliga för alla organisationer.
 Endast [!DNL Workfront] administratörer kan välja tidiga funktioner för styrelser. När en [!DNL Workfront] administratören aktiverar tidiga funktioner, så att alla användare i organisationen kan komma åt dem.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka ![Anmäl dig till tidig funktion](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) högst upp på kontrollpanelsskärmen.
+1. Klicka ![Anmäl dig tidigt](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) högst upp på kontrollpanelsskärmen.
 1. Klicka på **[!UICONTROL Enable]**.
 1. Börja använda de tidiga funktionerna i styrelserna.
 

@@ -2,8 +2,9 @@
 title: Förbättringar av anpassade formulär
 description: Följande viktiga förbättringar har gjorts för hantering av anpassade formulär i version 22.2.
 author: Luke
+feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -24,11 +25,11 @@ När ett anpassat formulär som innehåller en widget är kopplat till ett objek
 
 * Objektets detaljområde (t.ex. för ett projekt, området Projektinformation) &#x200B;
 
-   ![](assets/see-image-details-page.png)
+  ![](assets/see-image-details-page.png)
 
 * Rutan Redigera för objektet, om det har det nya Adobe Workfront-gränssnittet (t.ex. &#x200B; Redigera projekt och Redigera uppgift)
 
-   ![](assets/image-see-in-edit.png)
+  ![](assets/image-see-in-edit.png)
 
 Användarna kan för närvarande inte se widgeten i följande områden: &#x200B;
 
@@ -57,7 +58,7 @@ Detta är särskilt användbart när du konverterar ett problem eller en uppgift
 >
 >**Exempel:**
 >
->Någon skickar en intern IT-förfrågan (utgåva) och ger information om vad som behövs i en bifogad anpassad blankett.
+>Någon skickar in en intern IT-förfrågan (utgåva) och ger information om vad som behövs i en bifogad anpassad blankett.
 >
 >Du konverterar ärendet till ett projekt för de användare som ska arbeta med det.
 >
@@ -77,7 +78,7 @@ Tänk på följande när du skapar eller redigerar ett anpassat formulär med fl
 
 ### Behörighetsalternativ för avsnittsbrytningar
 
-De behörighetsalternativ för avsnittsbrytning som är tillgängliga för objekttyperna Utgåva, Aktivitet, Projekt och Användare har ett mer behörighetsalternativ än uppsättningen behörighetsalternativ för alla andra objekttyper: Begränsad redigering.
+Den uppsättning behörighetsalternativ för avsnittsbrytning som är tillgängliga för objekttyperna Utgåva, Aktivitet, Projekt och Användare har ett mer behörighetsalternativ än den uppsättning behörighetsalternativ som finns för alla andra objekttyper: Begränsad redigering.
 
 ![](assets/section-break-permissions-limited-edit.png)
 
@@ -93,18 +94,17 @@ Mer information finns i [Lägga till en avsnittsbrytning i ett anpassat formulä
 
 ### Beräknad kompatibilitet för anpassade fält
 
-Om ett beräknat fält refererar till fält som är tillgängliga för användning med alla formulärets associerade objekttyper (till exempel {name}, {description} och {entryDate}, som är tillgängliga för flera objekttyper) i ett anpassat formulär med flera objekt, beräknas data korrekt, oavsett vilket objekt du bifogar det till.
+I ett anpassat formulär med flera objekt, om ett beräknat fält refererar till fält som är tillgängliga för användning med alla formulärets associerade objekttyper (till exempel {name}, {description}och {entryDate}, som är tillgängliga för flera objekttyper) beräknas data korrekt, oavsett vilket objekt du bifogar det till.
 
-Om du till exempel har ett formulär med flera objekt för projekt och utgåvor, och du lägger till ett beräkningsfält som innehåller uttrycket {name}, visas projektnamnet när du lägger till formuläret i ett projekt och aktivitetsnamnet där du lägger till formuläret i en uppgift.
+Om du till exempel har ett formulär med flera objekt för projekt och utgåvor, och du lägger till ett beräkningsfält som innehåller {name} -uttrycket visar fältet projektnamnet när du lägger till formuläret i ett projekt och aktivitetsnamnet där du lägger till formuläret i en uppgift.
 
 Om ett beräkningsfält i formuläret refererar till ett fält som inte är kompatibelt med alla formulärets objekttyper får du en varning om att göra ändringar.
 
 >[!INFO]
 >
->**Exempel:** I ett anpassat formulär som är associerat med uppgiftsobjekttypen skapar du ett beräknat anpassat fält som refererar till det inbyggda fältet Tilldelad: Namn så att den kan visa namnet på den primära tilldelade personen när formuläret är kopplat till en uppgift:
+>**Exempel:** I ett anpassat formulär som är associerat med uppgiftsobjekttypen skapar du ett beräknat anpassat fält som refererar till det inbyggda fältet Tilldelad: Namn, så att det kan visa namnet på den primära tilldelade personen när formuläret är kopplat till en uppgift:
 >
->
-```
+>```
 >Assigned To: Name{assignedTo}.{name}
 >```
 >
@@ -115,11 +115,11 @@ När detta inträffar kan du göra något av följande:
 * Ta bort ett av de två inkompatibla objekten från det anpassade formuläret, antingen objekttypen eller det refererade fältet.
 * Behåll båda objekten och använd filtret för jokertecken `$$OBJCODE` som ett villkor i ett IF-uttryck för att skapa två olika versioner av fältet I Charge. Detta gör att fältet kan fungera utan problem, oavsett vilken typ av objekt formuläret är kopplat till.
 
-   Med exemplet ovan, även om det inte finns någon inbyggd Tilldelad till: Namnfält för projekt, det finns ett inbyggt ägarfält (som automatiskt fyller i med namnet på den person som skapade projektet, såvida inte någon ändrar detta manuellt). Så i ditt anpassade avgiftsfält kan du använda `$$OBJCODE` så som visas nedan för att hänvisa till fältet Ägare när det anpassade formuläret bifogas till ett projekt och fältet Tilldelad till: Namnfält när formuläret är kopplat till en uppgift:
+  I exemplet ovan finns det ett inbyggt fält för ägare (som automatiskt fylls i med namnet på den person som skapade projektet, såvida inte någon ändrar detta manuellt), även om det inte finns något inbyggt fält för Tilldelad: namn för projekt. Så i ditt anpassade avgiftsfält kan du använda `$$OBJCODE` som visas nedan för att referera till fältet Ägare när det anpassade formuläret är kopplat till ett projekt och fältet Tilldelad till: Namn när formuläret är kopplat till en uppgift:
 
-   ```
-   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
-   ```
+  ```
+  IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
+  ```
 
 >[!NOTE]
 >

@@ -4,7 +4,8 @@ navigation-topic: use-the-home-area
 title: Kom igång med nya startsidor i Adobe Workfront
 description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
-source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Widgets är grunden för New Home. Genom att lägga till widgetar på hemsidan k
     Den här widgeten är en bra plats att börja på när du vill hantera en mängd olika typer av arbeten. Här visas alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe.
 
 * **Mina projekt**\
-    Visar projekt som har tilldelats dig i en tabell som kan sorteras så att endast projekt som du äger eller alla projekt som du är på visas; standardalternativ för filter, visning och gruppering, och en knapp för att direkt skapa ett nytt projekt.
+    Visar projekt som har tilldelats dig i en tabell som kan sorteras så att endast projekt som du äger eller alla projekt som du är på visas, standardalternativ för filter, visning och gruppering samt en knapp som du använder för att skapa ett nytt projekt.
 
 * **Mina uppgifter**\
     Visar uppgifter som du har tilldelats i en tabell med anpassningsbara filter, vyer och grupperingar, samt en knapp som du använder för att skapa en ny uppgift.
@@ -62,13 +63,13 @@ Du kan lägga till lite personlig överstrålning på hemsidan genom att välja 
 
 **Så här ändrar du färg på din hembakgrund:**
 
-1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Ikon för huvudmeny](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
+1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
 
 1. Klicka på knappen Anpassa längst upp till höger på skärmen.
 
    ![Knappen Anpassa](../new-home/assets/customize-button.png)
 
-1. I **Bakgrund** i **Anpassa** som visas klickar du på den färg du vill använda som bakgrund i hemmet. Du kan också klicka **Ingen** för att ta bort bakgrunden.
+1. I **Bakgrund** i **Anpassa** som visas klickar du på den färg som du vill använda som bakgrund i hemmet. Du kan också klicka **Ingen** för att ta bort bakgrunden.
 
 ### Filtrera efter tidsintervall
 
@@ -76,7 +77,7 @@ Du kan snabbt filtrera all information på hemsidan för att visa objektinformat
 
 **Så här ändrar du tidsintervallet på hemsidan:**
 
-1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Ikon för huvudmeny](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
+1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
 
 1. Klicka på tidsintervallfiltret i det övre vänstra hörnet på hemsidan. Som standard är filtret inställt på **Min vecka**.
 
@@ -91,7 +92,7 @@ För användare som föredrar den befintliga hemupplevelsen kan Nytt hem inaktiv
 
 **Så här återgår du till den aktuella hemupplevelsen:**
 
-1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Ikon för huvudmeny](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
+1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
 
 1. Klicka på **Gå tillbaka till aktuell startsida** längst ned till höger på sidan.
 

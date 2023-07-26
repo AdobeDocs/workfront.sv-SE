@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan utforma ett anpassat formulär med formulärdesignern.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '3803'
 ht-degree: 0%
 
 ---
-
 
 # Designa ett formulär med formulärdesignern
 
@@ -36,22 +36,22 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td>
    <p>Aktuell plan: Standard</p>
    <p>eller</p>
-   <p>Äldre plan: Plan</p></td> 
+   <p>Gammal plan: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
 
-## Börja designa ett anpassat formulär
+## Börja utforma ett anpassat formulär
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. Klicka **Anpassad Forms** i den vänstra panelen.
+1. Klicka **Anpassad Forms** till vänster.
 
    <!-- >[!TIP]
     >
@@ -101,7 +101,7 @@ Du kan använda nya eller befintliga fält när du utformar ditt anpassade formu
    >
    >Exempel på komplexa formulär är formulär med överlappande parametrar, beräknade anpassade datafält och flera värdealternativ i ett enda fält.
 
-1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 
@@ -113,28 +113,28 @@ Du kan lägga till flera olika textfält i ett anpassat formulär.
 
 +++ **Expandera om du vill visa beskrivningar av tillgängliga textfält**
 
-* **Textfält med en rad**: Tillåter användare att skriva en enda textrad i fältet.
-* **Textfält för stycke**: Tillåter användare att skriva flera textrader i fältet.
-* **Textfält med formatering**: Används för att skriva flera textrader i fältet och för att formatera texten med fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. En teckengräns på 15 000 tillåter mycket text och formatering.
+* **Textfält med en rad**: Användare kan skriva en enda textrad i fältet.
+* **Textfält för stycke**: Användare kan skriva flera textrader i fältet.
+* **Textfält med formatering**: Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. En teckengräns på 15 000 tillåter mycket text och formatering.
 
-   Mer information om hur du får åtkomst till det här fältet via API finns i Lagring av RTF-fält i API:t.
+  Mer information om hur du får åtkomst till det här fältet via API finns i Lagring av RTF-fält i API:t.
 
-   >[!NOTE]
-   >
-   >Textfält med formatering är inte tillgängliga för Workfront mobilappar (i kommande versioner).
+  >[!NOTE]
+  >
+  >Textfält med formatering är inte tillgängliga för Workfront mobilappar (i kommande versioner).
 
-* **Beskrivande text**: Gör att du kan inkludera instruktioner och länka till sidor utanför Workfront.
+* **Beskrivning**: Du kan inkludera instruktioner och länka till sidor utanför Workfront.
 
 +++
 
-Så här lägger du till ett textfält:
+Lägga till ett textfält:
 
 1. Leta upp ett av följande textfält till vänster på skärmen och dra det till ett avsnitt på arbetsytan:
 
    * Enkelradig text:
    * Stycketext
    * Textfält med formatering
-   * Beskrivande text
+   * Beskrivning
 
    ![](assets/drag-field-to-section.png)
 
@@ -160,7 +160,7 @@ Så här lägger du till ett textfält:
     <tr>
     <td>Etikett</td>
     <td><p>Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.<p>
-    <p>VIKTIGT! Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p></td>
+    <p>VIKTIGT: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p></td>
     <td><ul>
     <li>Enkelradig text</li>
     <li>Stycketext</li>
@@ -180,7 +180,7 @@ Så här lägger du till ett textfält:
     <li>Enkelradig text</li>
     <li>Stycketext</li>
     <li>Text med formatering</li>
-    <li>Beskrivande text</li>
+    <li>Beskrivning</li>
     </ul></td>
     </tr>
     <tr>
@@ -199,7 +199,7 @@ Så här lägger du till ett textfält:
     <td><p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>ANMÄRKNING</b>:   
     <ul> 
     <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.<br></li> 
-    <li>När du väljer Nummer eller Valuta trunkeras nummer som börjar med 0 automatiskt.</li> 
+    <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li> 
      </ul></p></td> </td>
     <td><ul>
     <li>Enkelradig text</li>
@@ -217,7 +217,7 @@ Så här lägger du till ett textfält:
     <tr>
     <td>Hyperlänk</td>
     <td> Om du vill använda en hyperlänk i den beskrivande texten lägger du till den här. Den beskrivande texten visas som en länk på objekt som formuläret är kopplat till.</td>
-    <td><ul><li>Beskrivande text</li></ul></td>
+    <td><ul><li>Beskrivning</li></ul></td>
     </tr>
    </table>
 
@@ -229,7 +229,7 @@ Så här lägger du till ett textfält:
 
    ![kopieringsikon](assets/copy-field.png)
 
-1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 
@@ -247,7 +247,7 @@ Du kan lägga till alternativknappar, kryssrutor och listrutor i ett anpassat fo
 
 +++ **Expandera om du vill visa beskrivningar av tillgängliga fält**
 
-* **Alternativknappar**: Kräver att användare bara väljer ett alternativ.
+* **Alternativknappar**: Kräver att användarna bara väljer ett alternativ.
 * **Kryssrutegrupp**: Tillåter användare att välja flera alternativ.
 * **Listruta**: Innehåller en lista med alternativ i listrutan.
 
@@ -274,7 +274,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     </tr>
     <tr> 
      <td role="rowheader">Etikett</td> 
-     <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+     <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
      <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
@@ -312,7 +312,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <td> <p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>ANMÄRKNING</b>:   
      <ul> 
     <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.<br></li> 
-    <li>När du väljer Nummer eller Valuta trunkeras nummer som börjar med 0 automatiskt.</li> 
+    <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li> 
      </ul></p></td> 
      <td><ul>
     <li>Alternativknappar</li>
@@ -352,7 +352,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <ul> 
     <li><strong>Markera som standard</strong>: Välj alternativet som standard i fältet.</li> 
     <li> <p><strong>Dölj alternativ</strong>: Dölj alternativet i fältet. Dolda alternativ är fortfarande tillgängliga i rapporter.</p> </li> 
-    <li> <p><strong>Ta bort alternativ</strong>: Ta bort alternativet från fältet.</p> <p><b>VARNING</b>: Om du har aktuella objekt med det här alternativet tar du inte bort det från fältet. Om du tar bort den går historikdata förlorade. Välj i stället alternativet att dölja det, vilket förhindrar att användarna väljer det i framtiden.</p> </li> 
+    <li> <p><strong>Ta bort alternativ</strong>: Ta bort alternativet från fältet.</p> <p><b>VARNING</b>: Om du har aktuella objekt med det här alternativet ska du inte ta bort det från fältet. Om du tar bort den går historikdata förlorade. Välj i stället alternativet att dölja det, vilket förhindrar att användarna väljer det i framtiden.</p> </li> 
     </ul> 
      </li> 
     </ol> </td> 
@@ -373,7 +373,7 @@ Så här lägger du till alternativknappar och kryssrutor:
 
    ![kopieringsikon](assets/copy-field.png)
 
-1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 
@@ -419,7 +419,7 @@ Så här lägger du till typsnittsdatumfält:
     </tr>
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Datumfält</li>
@@ -461,7 +461,7 @@ Så här lägger du till typsnittsdatumfält:
       <td> <p>Markera den objekttyp som du vill associera med fältet.</p> <p>När du har klickat på Använd eller Spara+Stäng kan du inte ändra fälttypen.</p> <p><b>ANMÄRKNING</b>:   
         <ul> 
          <li>Om Workfront-administratören har anpassat namnet på Portfolio, Program eller Projekt i Workfront användargränssnitt, visas Workfront-standardnamnet för objektet i den här listrutan, inte det anpassade namnet. Kontakta Workfront-administratören om du behöver hjälp med detta.<br></li> 
-         <li>Följande objekttyper stöds i mobilapparna iOS och Android Workfront: Användare, företag, grupp, jobbroll, Portfolio, program, projekt och mall.</li> 
+         <li>Följande objekttyper stöds i iOS och Android Workfront mobilappar: User, Company, Group, Job Role, Portfolio, Program, Project och Template.</li> 
         </ul> </p> </td> 
          <td><ul>
     <li>Typeahead</li>
@@ -486,7 +486,7 @@ Så här lägger du till typsnittsdatumfält:
 
    ![kopieringsikon](assets/copy-field.png)
 
-1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 
@@ -514,7 +514,7 @@ The Workfront Mobile app -->
 
 +++
 
-Så här lägger du till bilder, PDF eller videoklipp:
+Så här lägger du till bilder, PDF eller videor:
 
 1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
@@ -532,7 +532,7 @@ Så här lägger du till bilder, PDF eller videoklipp:
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
@@ -569,7 +569,7 @@ Så här lägger du till bilder, PDF eller videoklipp:
 
    ![kopieringsikon](assets/copy-field.png)
 
-1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 
@@ -582,10 +582,10 @@ Så här lägger du till bilder, PDF eller videoklipp:
 >När du lägger till en video i ett anpassat formulär på det här sättet gäller endast de behörigheter som angetts för det anpassade formuläret för videon när användarna öppnar formuläret för ett objekt, inte de behörigheter som angetts för videon i området Dokument.
 
 1. Gå till videon i området Dokument och generera ett korrektur för den enligt beskrivningen i [Skapa ett interaktivt korrektur för en webbplats eller annat webbinnehåll](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
-1. Öppna korrekturet.
+1. Öppna beviset.
 1. Högerklicka var som helst i videon och välj sedan **Kopiera videoadress**.
 1. Klistra in den kopierade adressen i det anpassade formuläret där du lägger till videowidgeten **URL** box.
-1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 
@@ -598,9 +598,9 @@ Du kan lägga till en Adobe XD-prototyp direkt i ett anpassat formulär. Använd
 * Objektets detaljområde (t.ex. området Projektinformation för ett projekt)
 * Rutan Redigera för objektet, om det har det nya Adobe Workfront-gränssnittet (t.ex. rutorna Redigera projekt och Redigera uppgift)
 
-Så här lägger du till en Adobe XD-fil:
+Lägga till en Adobe XD-fil:
 
-1. Till vänster på skärmen finns **Adobe XD** och dra den till ett avsnitt på arbetsytan.
+1. På skärmens vänstra sida finns **Adobe XD** och dra den till ett avsnitt på arbetsytan.
 1. Ange eller redigera någon av följande egenskaper för widgeten:
 
    <table style="table-layout:auto"> 
@@ -609,7 +609,7 @@ Så här lägger du till en Adobe XD-fil:
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
@@ -623,7 +623,7 @@ Så här lägger du till en Adobe XD-fil:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoriskt) Skriv eller klistra in en giltig XD prototyplänk.</p> 
-      <p>Obs! Länkåtkomstinställningen på fliken Dela i Adobe XD måste vara inställd på Alla med länken. Annars kan användarna inte visa prototypen. 
+      <p>Obs! Inställningen Länkåtkomst på fliken Dela i Adobe XD måste vara inställd på Vem som helst med länken. Annars kan användarna inte visa prototypen. 
    </td> 
      </tr> 
      <tr> 
@@ -646,7 +646,7 @@ Så här lägger du till en Adobe XD-fil:
 
    ![kopieringsikon](assets/copy-field.png)
 
-1. Spara ändringarna genom att klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 

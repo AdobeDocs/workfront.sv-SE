@@ -4,8 +4,9 @@ navigation-topic: delegate-work
 title: Delegera uppgifter och ärenden
 description: Du kan tillfälligt delegera det arbete du är tilldelad när du inte är på kontoret. I den här artikeln beskrivs hur du delegerar uppgifter och utfärdar tilldelningar.
 author: Alina
+feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -30,18 +31,16 @@ Allmän information om att delegera arbete finns i [Delegera arbetsöversikt](..
 
 >[!IMPORTANT]
 >
->* De användare som du väljer som ombud får samma behörigheter som dina behörigheter för de uppgifter och utgåvor som du delegerar till dem.
+>* De användare som du väljer som ombud får samma behörigheter som de uppgifter och utgåvor som du delegerar till dem.
 >* Behörigheterna måste fungera inom sina åtkomstnivåer och ibland kan deras åtkomstnivåer vara lägre än dina.
-
-   >
-   >   
-   >   Om en användare till exempel bara har Visa åtkomst till uppgifter på sin åtkomstnivå och du har behörigheten Hantera för de uppgifter som du delegerar till dem, får de behörigheten Hantera för de uppgifter som du delegerar till dem. De kan dock inte utföra samma åtgärder som du för de delegerade uppgifterna. De måste begära Redigera-åtkomst till uppgifter från systemadministratören för att kunna uppdatera uppgifter om du inte är anställd.
-   >
-   >   
-   >   Mer information om hur en användare kan ändra din åtkomstnivå finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
->* För artiklar som tilldelas efter att delegeringen redan har startats kan det ta upp till en timme efter det att artikeln har tilldelats [!DNL Workfront] för att dela nyligen tilldelade objekt med ombudet.
-
+>   
+>   Om en användare till exempel bara har Visa åtkomst till uppgifter på sin åtkomstnivå och du har behörigheten Hantera för de uppgifter som du delegerar till dem, får de behörigheten Hantera för de uppgifter som du delegerar till dem. De kan dock inte utföra samma åtgärder som du för de delegerade uppgifterna. De måste begära Redigera-åtkomst till uppgifter från systemadministratören för att kunna uppdatera uppgifter om du inte är anställd.
+>
+>   
+>   Mer information om hur en användare kan ändra din åtkomstnivå finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>
+>* För artiklar som tilldelas efter att delegeringen redan har startats kan det ta upp till en timme efter det att artikeln har tilldelats [!DNL Workfront] om du vill dela de nyligen tilldelade objekten med ombudet.
 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
@@ -75,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta [!DNL Workfront] administratör.
+*Kontakta din [!DNL Workfront] administratör.
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -87,7 +86,7 @@ Innan du kan utföra de aktiviteter som beskrivs i den här artikeln måste du s
 
 * Dina [!DNL Workfront] eller gruppadministratören aktiverade [!UICONTROL Allow users to delete tasks & issues with logged hours] i [!UICONTROL Setup] ditt område [!DNL Workfront] -instans.
 
-   Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Delegera uppgifter och ärenden till en annan användare
 
@@ -103,31 +102,32 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
 1. I [!UICONTROL **Delegera uppgifter och ärenden**] uppdaterar du följande:
 
-   * [!UICONTROL **Delegera uppgifter och ärenden till**]: Börja skriva namnet på en användare som du vill att dina uppgifter och utgåvor ska delegeras till och markera sedan den när den visas i listan. Du kan bara välja en användare.\
+   * [!UICONTROL **Delegera dina uppgifter och ärenden till**]: Börja skriva namnet på en användare som du vill att dina uppgifter och utgåvor ska delegeras till och markera sedan den när den visas i listan. Du kan bara välja en användare.\
 
-      Användaren som du väljer som ombud får samma behörigheter som dina behörigheter för de uppgifter och utgåvor som du delegerar till dem. Mer information finns i [Översikt över delegeringsuppgifter och utgåvor](delegate-work-overview.md).
+     Användaren som du väljer som ombud får samma behörigheter som dina behörigheter för de uppgifter och utgåvor som du delegerar till dem. Mer information finns i [Översikt över delegeringsuppgifter och utgåvor](delegate-work-overview.md).
 
-   * [!UICONTROL **Startdatum**]: Välj ett datum i kalendern när delegeringen av dina arbetsobjekt ska börja.
+   * [!UICONTROL **Startdatum**]: Välj ett datum i kalendern när delegeringen av dina arbetsposter ska börja.
 
-      >[!TIP]
-      >
-      >Startdatumet får inte vara tidigare.
+     >[!TIP]
+     >
+     >Startdatumet får inte vara tidigare.
 
    * [!UICONTROL **Inget slutdatum**]: Välj det här alternativet om du inte vill ange slutdatumet för din delegering.
 
    * [!UICONTROL **Slutdatum**]: Välj ett datum i kalendern när delegeringen ska stoppas.
 
-      >[!TIP]
-      >
-      >Om du inte väljer ett slutdatum aktiveras delegeringen bara för den aktuella dagen.
+     >[!TIP]
+     >
+     >Om du inte väljer ett slutdatum aktiveras delegeringen bara för den aktuella dagen.
 
-      ![](assets/delegate-box-expanded-in-home.png)
+     ![](assets/delegate-box-expanded-in-home.png)
 
 1. Klicka [!UICONTROL **Spara**].
 
    Följande saker händer:
 
-   * Ditt arbete delegeras till den angivna användaren. Alla ofullständiga uppgifter eller utgåvor som har datum inom den tidsram du valde (inklusive nyligen tilldelade, efter att delegeringen aktiverats) delegeras.
+   * Ditt arbete delegeras till den angivna användaren. Alla ofullständiga uppgifter eller utgåvor som har datum inom den tidsram du valde (inklusive nyligen tilldelade uppgifter, efter att delegeringen aktiverats) delegeras.
+
    >[!TIP]
    >
    >   Slutförda arbetsuppgifter som har datum inom delegeringens tidsram delegeras inte.
@@ -137,8 +137,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
    * En indikation på att dina uppgifter och utgåvor har delegerats till andra användare visas på de flesta områden där du kan se tilldelningar i [!DNL Workfront]. Mer information om vilka områden som inte innehåller delegaternas namn finns i [Översikt över delegeringsuppgifter och utgåvor](delegate-work-overview.md).
 
-   * The [!UICONTROL **Delegera**] i [!UICONTROL Home] område ändras till [!UICONTROL **Redigera delegering**] ange att det finns en delegering på plats.
-
+   * The [!UICONTROL **Delegera**] knappen i [!UICONTROL Home] område ändras till [!UICONTROL **Redigera delegering**] ange att det finns en delegering på plats.
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -151,8 +150,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
    * Användaren som du har valt som ombud får ett e-postmeddelande om delegeringen, om deras händelsemeddelanden är aktiverade.
 
-      Mer information om hur du aktiverar personliga e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
+     Mer information om hur du aktiverar personliga e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 
@@ -164,7 +162,7 @@ Du kan låta en delegering förfalla, om du har valt ett slutdatum, eller så ka
 1. Gå till [!UICONTROL Home] området och klicka sedan på [!UICONTROL Edit delegation] i det övre högra hörnet av arbetslistan.
 1. I [!UICONTROL Delegate tasks and issues] gör du något av följande:
    * Ändra [!UICONTROL **Startdatum**] eller [!UICONTROL **Slutdatum**]
-   * Klicka [!UICONTROL **Stoppa delegering**]
+   * Klicka [!UICONTROL **Avbryt delegering**]
 
    >[!TIP]
    >
@@ -176,7 +174,7 @@ Du kan låta en delegering förfalla, om du har valt ett slutdatum, eller så ka
 
    eller
 
-   Klicka [!UICONTROL **Stoppa delegering**] i bekräftelserutan för att bekräfta att delegeringen stoppats.
+   Klicka [!UICONTROL **Avbryt delegering**] i bekräftelserutan för att bekräfta att delegeringen stoppats.
 
    Delegeringen har antingen uppdaterat datumen eller stoppat och de delegerade användarna har tagits bort från dina uppgifter och problem. Deras behörigheter till uppgifter och problem finns kvar.
 
@@ -196,20 +194,20 @@ När uppgifter och ärenden delegeras finns det flera områden i [!DNL Workfront
 
 När din system- eller gruppadministratör aktiverar delegering av arbete i ditt system [!UICONTROL Assignments] visas följande flikar där du kan komma åt dem:
 
-* [!UICONTROL **Uppdrag**]: Användare som är tilldelade uppgiften eller utgåvan visas här.
-* [!UICONTROL **Delegeringar**]: Användare som har utsetts till delegater av de som har tilldelats uppgiften eller problemet visas här.
+* [!UICONTROL **Uppdrag**]: Användare som tilldelats uppgiften eller utgåvan visas här.
+* [!UICONTROL **Delegeringar**]: Användare som utses till delegater av de tilldelade personerna visas här.
 
 Du kommer åt [!UICONTROL Assignments] i följande områden:
 
 * Aktivitets- eller utgivningsrubriken
 
-   ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
-   The [!UICONTROL Assignments] fält i uppgifts- eller utgivningsrubriken ändras till [!UICONTROL Assignments and delegations].
+  The [!UICONTROL Assignments] fält i uppgifts- eller utgivningsrubriken ändras till [!UICONTROL Assignments and delegations].
 
 * The [!UICONTROL Workload Balancer] när uppgifter eller problem tilldelas manuellt
 
-   ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -227,9 +225,9 @@ Om en uppgift eller ett ärende delegeras och [!UICONTROL Delegations] underflik
 ### Hitta delegerat arbete i [!UICONTROL Home]
 
 1. Gå till [!UICONTROL **Startsida**] klickar du på listrutan för filter och väljer ett eller flera av följande alternativ:
-   * [!UICONTROL **Delegerad**]: för att visa uppgifter och ärenden som delegerats till dig eller av dig.
-   * [!UICONTROL **Delegerat till mig**]: för att visa uppgifter och ärenden som delegerats till dig av en annan användare.
-   * [!UICONTROL **Delegerad av mig**]: om du vill visa uppgifter och utgåvor som du har delegerat till andra användare.
+   * [!UICONTROL **Delegerad**]: för att visa uppgifter och problem som delegerats till dig eller av dig.
+   * [!UICONTROL **Delegerat till mig**]: om du vill visa uppgifter och problem som delegerats till dig av en annan användare.
+   * [!UICONTROL **Delegerad av mig**]: om du vill visa uppgifter och problem som du delegerat till andra användare.
 
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
@@ -243,6 +241,7 @@ Om en uppgift eller ett ärende delegeras och [!UICONTROL Delegations] underflik
    * För objekt som du har delegerat till andra visas delegatens namn i [!UICONTROL **Arbetslista**] och [!UICONTROL **Uppdrag och delegationer**] till höger.
 
    * För objekt som har delegerats till dig visas den tilldelades namn i [!UICONTROL **Arbetslista**] och **[!UICONTROL Assignments and delegations]** till höger.
+
    >[!TIP]
    >
-   >    Om delegeringen är inställd på att börja ett datum efter dagens datum, visas också delegeringens startdatum i [!UICONTROL Work List]. De delegerade objekten visas i den gruppering du väljer för [!UICONTROL Work List], enligt grupperingens typ. Om du t.ex. grupperar efter [!UICONTROL Planned Completion Date]visas de delegerade objekten i grupperingen som matchar deras planerade slutförandedatum.
+   >    Om delegeringen är inställd på att börja ett datum efter dagens datum, visas också delegeringens startdatum i [!UICONTROL Work List]. De delegerade objekten visas i den gruppering som du väljer för [!UICONTROL Work List], enligt grupperingens typ. Om du till exempel grupperar efter [!UICONTROL Planned Completion Date]visas de delegerade objekten i grupperingen som matchar deras planerade slutförandedatum.

@@ -5,8 +5,9 @@ navigation-topic: api-navigation-topic
 title: API
 description: Workfront API-artiklar
 author: Becky
+feature: Workfront API
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -20,11 +21,11 @@ Det här avsnittet innehåller följande artiklar:
 * [Överföra filer via API](../../wf-api/api/uploading-files-api.md)
 * [Stöd för JSONP upphör](../../wf-api/api/ending-support-jsonp.md)
 * [Filtrera händelsens prenumerationsmeddelanden](../../wf-api/api/filter-event-sub-messages.md)
-* [Återkommande prenumerationer](../../wf-api/api/event-sub-retries.md)
+* [Återkommande prenumerationer på evenemang](../../wf-api/api/event-sub-retries.md)
 * [Prenumerationscertifikat för evenemang](../../wf-api/api/event-sub-certs.md)
 * [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md)
 
-* [Ändringar i API:t: Statussöksvar](../../wf-api/api/api-changes-search.md)
+* [Centrala API-ändringar: statussöksvar](../../wf-api/api/api-changes-search.md)
 * [Uppdatera integreringar som använder API-standardversionshantering](../../wf-api/api/update-default-api-versioning.md)
 * [Borttagning av API-intern](../../wf-api/api/deprecation-api-internal.md)
 * [Inaktuella tecken i API-svar](../../wf-api/api/escaped-characters-api.md)

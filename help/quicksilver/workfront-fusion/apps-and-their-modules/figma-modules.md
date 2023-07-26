@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Figma-moduler
 description: Med [!DNL Adobe Workfront Fusion] I Figma-moduler kan du hämta listor med kommentarer, filer, filversioner eller projekt. Du kan också publicera en kommentar eller ringa ett anrop till Figma API.
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2006'
 ht-degree: 0%
@@ -56,14 +57,14 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
       <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -79,7 +80,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ![](assets/map-toggle-350x74.png)
 
-* [Kommentarer](#comments)
+* [Kommentar](#comments)
 
 * [Projekt och filer](#projects-and-files)
 
@@ -88,7 +89,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 * [Övriga](#other)
 
 
-### Kommentarer
+### Kommentar
 
 * [Ta bort en kommentar](#delete-a-comment)
 
@@ -398,11 +399,11 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL SVG - Simplify Stroke]</td>
-      <td>Aktivera det här alternativet om du vill förenkla inre/yttre linjer och använda linjeattribut om det är möjligt i stället för &lt;mask&gt;. Standard: [!UICONTROL true].</td>
+      <td>Aktivera det här alternativet om du vill förenkla inre/yttre linjer och om möjligt använda linjeattribut i stället för &lt;mask&gt;. Standard: [!UICONTROL true].</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Use absolute bounds]</td>
-      <td>Aktivera det här alternativet om du vill använda nodens fullständiga dimensioner oavsett om den beskärs eller inte eller om utrymmet runt den är tomt. Använd det här alternativet om du vill exportera textnoder utan beskärning. Standard: [!UICONTROL false].</td>
+      <td>Aktivera det här alternativet om du vill använda nodens fullständiga dimensioner oavsett om den beskärs eller inte eller om utrymmet runt den är tomt. Använd detta om du vill exportera textnoder utan beskärning. Standard: [!UICONTROL false].</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Version ID]</td>
@@ -539,15 +540,15 @@ Den här åtgärdsmodulen hämtar ett enskilt format eller en komponent, eller e
       <td role="rowheader">[!UICONTROL After]</td>
       <td>
         <p>Ange eller mappa numret på resultatet efter vilket du vill börja hämta resultaten. Detta kan kombineras med [!UICONTROL Page Size] fält för att paginera resultat.</p>
-        <p>Det här värdet motsvarar inte objekt-ID:n.</p>
+        <p>Detta värde motsvarar inte objekt-ID.</p>
         <p>Det här fältet kan inte användas tillsammans med [!UICONTROL Before] fält.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Before]</td>
       <td>
-        <p>Ange eller mappa numret på resultatet innan det hämtas. Detta kan kombineras med [!UICONTROL Page Size] fält för att paginera resultat.</p>
-        <p>Det här värdet motsvarar inte objekt-ID:n.</p>
+        <p>Ange eller mappa det antal resultat som du vill börja hämta resultat innan. Detta kan kombineras med [!UICONTROL Page Size] fält för att paginera resultat.</p>
+        <p>Detta värde motsvarar inte objekt-ID.</p>
         <p>Det här fältet kan inte användas tillsammans med [!UICONTROL After] fält.</p>
       </td>
     </tr>
@@ -557,7 +558,7 @@ Den här åtgärdsmodulen hämtar ett enskilt format eller en komponent, eller e
 
 ### Övriga
 
-* [Göra ett API-anrop](#make-an-api-call)
+* [Anropa ett API](#make-an-api-call)
 
 * [Se händelser](#watch-events)
 
@@ -577,7 +578,7 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Ange en sökväg som är relativ till <code>https://api.figma.com/v1/</code>.</p>
+        <p>Ange en sökväg i förhållande till <code>https://api.figma.com/v1/</code>.</p>
         <p>Exempel: <code>[!DNL files/7179110/comments]</code></p>
       </td>
     </tr>

@@ -2,10 +2,10 @@
 title: Visa alla rapporter som använder ett visst anpassat fält eller en viss widget
 description: Du kan lägga till en anpassad vy i området Anpassad Forms som visar vilka rapporter som använder ett visst anpassat fält eller en viss widget. Det här är användbart när du behöver redigera eller ta bort fältet eller widgeten, eftersom det kanske redan har implementerats i en eller flera rapporter. Det är viktigt att utvärdera om dessa rapporter behöver justeras för att fortsätta fungera som de ska.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,7 +45,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa rapporter som använder ett visst anpassat fält eller en viss widget
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
 1. Öppna **Fält** om du vill visa en rapport med en lista över alla anpassade fält och widgetar i din Workfront-instans.
@@ -86,11 +86,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >
    >Den här vyn är även tillgänglig i en parameterrapport:
    >      
-   > 1. På huvudmenyn klickar du på **Rapporter**.
+   > 1. Klicka på Huvudmenyn **Rapporter**.
    > 1. Klicka på i det övre vänstra hörnet **Ny rapport** och sedan klicka **Parameter** i listan som visas.
    > 1. Klicka **Lägg till kolumn** nära det nedre högra hörnet.
    > 1. I **Visa i den här kolumnen** ruta som visas i det övre vänstra hörnet, börja skriva *rapport* väljer **Rapporter** när den visas i listan nedanför rutan.
    > 1. (Villkorligt) Om du vill flytta **Rapporter** kolumn som du just har lagt till i en annan vågrät position drar i sidhuvudet i **Förhandsgranska kolumn** området längst ned på sidan.
    > 1. Klicka **Klar** och sedan klicka **Spara+stäng**.
    > 1. Skriv ett beskrivande namn för rapporten, till exempel *Fält och widgetar*.
-

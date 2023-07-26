@@ -2,7 +2,9 @@
 title: Visa och redigera anpassade formulär och widgetar som lagts till i anpassade formulär
 description: När du visar en lista över organisationens anpassade formulär och anpassade fält och widgetar som har lagts till i dem kan du använda alternativen i verktygsfältet för att redigera deras egenskaper, begränsa vilka de delas med, kopiera dem och ta bort dem. Du kan även visa annan information i kolumnerna som visas, till exempel vilka objekttyper som varje anpassat formulär är associerat med.
 author: Caroline
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+feature: System Setup and Administration, Custom Forms
+role: Admin
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -34,7 +36,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +45,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa och redigera anpassade formulär och objekt som lagts till i anpassade formulär
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Anpassad Forms**.
 
@@ -73,12 +75,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    Mer information om vad du kan göra när du markerar ett objekt i listan finns i följande artiklar:
 
-   * [Redigera egenskaper för ett anpassat fält, en avsnittsbrytning eller en widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [Redigera egenskaper för ett anpassat fält, avsnittsbrytning eller widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Konfigurera delning för anpassade fält och widgetar](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Ta bort ett anpassat fält eller en anpassad widget från systemet](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
-
-1. Välj **Avsnitt** tabba sedan **Parametergrupp** markeras som **Visa** för listan..
+1. Välj **Avsnitt** tabba sedan **Parametergrupp** är markerat som **Visa** för listan..
 
    Alla avsnittsbrytningar visas i den här vyn tillsammans med en lista med anpassade formulär som innehåller varje avsnittsbrytning.
 

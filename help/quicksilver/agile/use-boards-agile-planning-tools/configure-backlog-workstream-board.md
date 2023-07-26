@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Konfigurera eftersläpningen på en arbetsyta
 description: Du kan välja att visa en eftersläpande kolumn på en anslagstavla i ett arbetsflöde och definiera en fråga för korten som hämtas till eftersläpningen i arbetsflödets kortlista.
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Konfigurera eftersläpningen på en arbetsyta
 
@@ -52,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Öppna arbetsflödet som du vill arbeta i. Om du vill öppna ett arbetsflöde klickar du på [!UICONTROL **Visa arbetsflöde**].
 1. Klicka på ett bord i arbetsflödet för att öppna det.
-1. Klicka [!UICONTROL **Konfigurera**] till höger om anslagstavlan för att öppna konfigurationspanelen.
+1. Klicka [!UICONTROL **Konfigurera**] till höger om ritytan för att öppna panelen Konfigurera.
 1. Aktivera [!UICONTROL **Inkludera en kolumn för eftersläpning på den här ritytan**].
 
    Eftersläpningskolumnen läggs till till till vänster om anslagstavlan. Den är tom tills du använder en fråga.

@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: GitLab-moduler
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
+feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '3964'
 ht-degree: 0%
@@ -60,13 +61,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -152,7 +153,7 @@ Den här snabbutlösarmodulen startar ett scenario när en implementering överf
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Välj den webkrok som du vill använda för den här utlösaren eller lägg till en ny webkrok. </p><p>Om du vill lägga till en ny webbkrok <ol><li>Klicka <b>[!UICONTROL Add]</b> bredvid [!UICONTROL webhook] fält.</li><li>Ange följande: <ul><li>Ett namn för webkroken</li><li>Anslutningen som du vill använda för den här webkroken</li><li>Det projekt som du vill att webbkroken ska bevaka för implementeringar</li></ul></li><li>Klicka <b>[!UICONTROL Save]</b> om du vill spara webkroken och gå tillbaka till modulen. </td> 
+   <td><p>Välj den webkrok som du vill använda för den här utlösaren eller lägg till en ny webkrok. </p><p>Om du vill lägga till en ny webbkrok <ol><li>Klicka <b>[!UICONTROL Add]</b> bredvid [!UICONTROL webhook] fält.</li><li>Ange följande: <ul><li>Ett namn för webkroken</li><li>Anslutningen som du vill använda för den här webkroken</li><li>Det projekt som du vill att webbkroken ska kontrollera implementeringar</li></ul></li><li>Klicka <b>[!UICONTROL Save]</b> om du vill spara webkroken och gå tillbaka till modulen. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -225,7 +226,7 @@ Den här snabbutlösarmodulen startar ett scenario när en kommentar görs i en 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Välj den webkrok som du vill använda för den här utlösaren eller lägg till en ny webkrok. </p><p>Om du vill lägga till en ny webbkrok <ol><li>Klicka <b>[!UICONTROL Add]</b> bredvid [!UICONTROL webhook] fält.</li><li>Ange följande: <ul><li>Ett namn för webkroken</li><li>Anslutningen som du vill använda för den här webkroken</li><li>Det projekt som du vill att webbkroken ska bevaka för sammanfogningsförfrågningskommentarer</li></ul></li><li>Klicka <b>[!UICONTROL Save]</b> om du vill spara webkroken och gå tillbaka till modulen. </td> 
+   <td><p>Välj den webkrok som du vill använda för den här utlösaren eller lägg till en ny webkrok. </p><p>Om du vill lägga till en ny webbkrok <ol><li>Klicka <b>[!UICONTROL Add]</b> bredvid [!UICONTROL webhook] fält.</li><li>Ange följande: <ul><li>Ett namn för webkroken</li><li>Anslutningen som du vill använda för den här webkroken</li><li>Det projekt som du vill att webbkroken ska bevaka för kommentarer om sammanfogningsbegäran</li></ul></li><li>Klicka <b>[!UICONTROL Save]</b> om du vill spara webkroken och gå tillbaka till modulen. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -262,7 +263,7 @@ Den schemalagda utlösarmodulen startar ett scenario när ett nytt projekt lägg
    <td>Instruktioner om hur du ansluter [!DNL GitLab] konto till [!DNL Workfront] Fusion, se <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Anslut [!DNL GitLab] till [!DNL Workfront] Fusion</a> i den här artikeln.</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">Max. resultat</td> 
+   <td role="rowheader">Maximalt antal resultat</td> 
    <td> <p>Ange eller mappa det maximala antalet poster som modulen ska bevaka under varje körningscykel för scenario.</p> </td> 
    </tr> 
    </tbody> 
@@ -283,7 +284,7 @@ Denna schemalagda utlösarmodul startar ett scenario när en ny gren läggs till
    <td>Instruktioner om hur du ansluter [!DNL GitLab] konto till [!DNL Workfront] Fusion, se <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Anslut [!DNL GitLab] till [!DNL Workfront] Fusion</a> i den här artikeln.</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">Max. resultat</td> 
+   <td role="rowheader">Maximalt antal resultat</td> 
    <td> <p>Ange eller mappa det maximala antalet poster som modulen ska bevaka under varje körningscykel för scenario.</p> </td> 
    </tr> 
    </tbody> 
@@ -414,7 +415,7 @@ Mer information om fält finns i [Avbryt jobb för en pipeline](https://docs.git
 
 Om en sammanfogningsbegäran är inställd på att sammanfogas när en pipeline lyckas avbryts åtgärden av den här åtgärdsmodulen.
 
-Mer information om fält finns i [Avbryt sammanslagning när pipeline lyckas](https://docs.gitlab.com/ee/api/merge_requests.html) i [!DNL GitLab] dokumentation.
+Mer information om fält finns i [Avbryt sammanfogning när pipeline lyckas](https://docs.gitlab.com/ee/api/merge_requests.html) i [!DNL GitLab] dokumentation.
 
 +++
 
@@ -470,7 +471,7 @@ Mer information om fält finns i [Skapa en att göra](https://docs.gitlab.com/ee
 
 Den här åtgärdsmodulen skapar en åtgärd för den aktuella användaren på den valda sammanfogningsbegäran. Den aktuella användaren är den användare som identifieras av autentiseringsuppgifterna för anslutningen som används för den här modulen.
 
-Mer information om fält finns i [Skapa en att göra-uppgift](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) i [!DNL GitLab] dokumentation.
+Mer information om fält finns i [Skapa en uppgift](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) i [!DNL GitLab] dokumentation.
 
 +++
 
@@ -478,7 +479,7 @@ Mer information om fält finns i [Skapa en att göra-uppgift](https://docs.gitla
 
 Den här åtgärdsmodulen skapar en ny kopplingsbegäran för ett projekt.
 
-Mer information om fält finns i [Skapa kopplingsbegäran](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) i [!DNL GitLab] dokumentation.
+Mer information om fält finns i [Skapa sammanfogningsbegäran](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) i [!DNL GitLab] dokumentation.
 
 +++
 
@@ -702,7 +703,7 @@ Mer information om fält finns i [Begära enskilda sammanslagningsimplementering
 
 Den här åtgärdsmodulen returnerar en enda anteckning för en given kopplingsbegäran.
 
-Mer information om fält finns i [Få en enda begärandeanteckning för sammanfogning](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) i [!DNL GitLab] dokumentation.
+Mer information om fält finns i [Få en enda förfrågan om sammanfogning](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) i [!DNL GitLab] dokumentation.
 
 +++
 
@@ -965,9 +966,9 @@ Mer information om fält finns i [Ändra befintlig utgåva](https://docs.gitlab.
 
 +++**[!UICONTROL Modify existing merge request note]**
 
-Ändrar den befintliga anteckningen för en kopplingsbegäran.
+Ändrar den befintliga anteckningen för en sammanfogningsbegäran.
 
-Mer information om fält finns i [Ändra befintlig begärandeanteckning för sammanfogning](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) i [!DNL GitLab] dokumentation.
+Mer information om fält finns i [Ändra befintlig begäran om sammanfogning](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) i [!DNL GitLab] dokumentation.
 
 +++
 
@@ -1040,7 +1041,7 @@ Den här åtgärdsmodulen försöker återskapa en enda programversion i en impl
 
 Den här åtgärdsmodulen försöker återskapa misslyckade byggen i en pipeline.
 
-Mer information om fält finns i [Försök igen med jobb i en pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) i [!DNL GitLab] dokumentation.
+Mer information om fält finns i [Försök igen i en pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) i [!DNL GitLab] dokumentation.
 
 +++
 
@@ -1064,7 +1065,7 @@ Mer information om fält finns i [Uppdatera en release](https://docs.gitlab.com/
 
 Den här åtgärdsmodulen uppdaterar en befintlig kopplingsbegäran. Du kan ändra målgrenen, titeln eller till och med stänga MR-filen.
 
-Mer information om fält finns i [Uppdatera kopplingsbegäran](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) i [!DNL GitLab] dokumentation.
+Mer information om fält finns i [Uppdatera sammanfogningsbegäran](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) i [!DNL GitLab] dokumentation.
 
 +++
 

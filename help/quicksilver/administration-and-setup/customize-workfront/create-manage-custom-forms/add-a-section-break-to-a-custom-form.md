@@ -4,10 +4,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Lägga till en avsnittsbrytning i ett anpassat formulär med det äldre formulärverktyget
 description: Du kan gruppera anpassade fält och widgetar i ett anpassat formulär i avsnitt med rubriker. Detta är användbart för att ge en välordnad upplevelse till användare som fyller i formuläret. Om du dessutom behöver begränsa åtkomsten till vissa anpassade fält och widgetar för vissa användare, kan du placera dem i ett avsnitt och sedan ge åtkomst till avsnittet till endast dessa användare.
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kan gruppera anpassade fält och widgetar i ett anpassat formulär i avsnitt 
 
 Om du till exempel behöver spåra känslig information som bara systemadministratörer ska kunna visa eller redigera, kan du skapa en avsnittsbrytning med enbart administratör och placera de känsliga fälten i det avsnittet.
 
-De åtkomstinställningar du väljer för ett avsnitt är direkt knutna till de behörigheter som användare har på det Workfront-objekt där det anpassade formuläret är kopplat. Du kan dölja eller visa ett avsnitt baserat på om användaren har åtkomst till att visa, bidra till eller hantera objektet. Du kan också ange ett avsnitt som Endast administratör så att bara användare med en systemadministratörsåtkomstnivå kan komma åt det.
+De åtkomstinställningar som du väljer för ett avsnitt är direkt knutna till de behörigheter som användare har på det Workfront-objekt där det anpassade formuläret bifogas. Du kan dölja eller visa ett avsnitt baserat på om användaren har åtkomst till att visa, bidra till eller hantera objektet. Du kan också ange ett avsnitt som Endast administratör så att bara användare med en systemadministratörsåtkomstnivå kan komma åt det.
 
 Mer information om objektbehörigheter finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -50,7 +50,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 1. Börja skapa eller redigera ett anpassat formulär, enligt beskrivningen i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Lägga till anpassade fält och widgetar i formuläret, enligt beskrivningen i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) och [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-1. Medan du fortfarande skapar eller redigerar det anpassade formuläret, på **Lägg till ett fält** flik, klicka **Avsnittsbrytning**.
+1. När du fortfarande skapar eller redigerar det anpassade formuläret, på **Lägg till ett fält** flik, klicka **Avsnittsbrytning**.
 
    ![](assets/click-section-break.jpg)
 
@@ -76,7 +76,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför avsnittet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför avsnittet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning</td> 
@@ -89,7 +89,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      <tr> 
       <td role="rowheader"> <p>Ge åtkomst</p> </td> 
       <td> <p> Markera de behörigheter som användare behöver för ett objekt där det anpassade formuläret är kopplat för att visa det här avsnittet och redigera fältvärdena. 
-       <p>Följande behörigheter är tillgängliga under <b>Användare med den här åtkomsten till objektet kan visa fältvärden</b>:</p> 
+       <p>Följande behörigheter är tillgängliga under <b>Användare med denna åtkomst till objektet kan visa fältvärden</b>:</p> 
          <ul>  
           <li><p><b>Begränsad redigering</b>: (Endast tillgängligt om objektet är ett projekt, en uppgift, ett problem eller en användare):</p> 
           <p>Tillåter användare att bidra till objektet om det är ett projekt, en uppgift eller ett problem.</p>
@@ -110,7 +110,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        <p><b>ANMÄRKNING</b>:  
        <ul> 
        <li> <p>Användare som saknar de behörigheter som du anger här kan inte se anpassade fält och widgetar i avsnittet. </p> <p>Detta gäller även om du visar fältets värden i rapporter eller använder dem i beräknade fält i textlägesrapporter.</p> </li> 
-       <li> <p>Om du kopplar flera objekttyper till formuläret kan du ändra de visnings- och redigeringsbehörigheter som är tillgängliga i dessa steg. Mer information finns i <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Hur flera objekttyper kan påverka avsnittsbrytningsbehörigheter i ett anpassat formulär</a> i den här artikeln.</p> </li> 
+       <li> <p>Om du kopplar flera objekttyper till formuläret kan du ändra de visnings- och redigeringsbehörigheter som är tillgängliga i de här stegen. Mer information finns i <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Hur flera objekttyper kan påverka avsnittsbrytningsbehörigheter i ett anpassat formulär</a> i den här artikeln.</p> </li> 
         </ul> </p> </td> 
      </tr> 
     </tbody> 
@@ -124,7 +124,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    >[!TIP]
    >
-   >Du kan klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
+   >Klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
 
 1. Om du vill fortsätta att skapa ditt anpassade formulär på andra sätt kan du fortsätta med någon av följande artiklar:
 

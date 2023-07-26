@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan bestämma vilka avsnitt i ett anpassat formulär som ska visas eller hoppas över baserat på vad användaren gör när han eller hon fyller i det.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -48,7 +48,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 * Om du vill lägga till visningslogik i ett anpassat fält, en widget eller en avsnittsbrytning måste minst ett flervalsfält (alternativknappar, listrutor eller kryssrutor) placeras före det i formuläret.
 
-   Mer information om anpassade fält och widgetar i anpassade formulär finns i [Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) och [Lägga till eller redigera en resurswidget i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Mer information om anpassade fält och widgetar i anpassade formulär finns i [Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) och [Lägga till eller redigera en resurswidget i ett anpassat formulär med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Du kan inte lägga till hopplogik i en widget eller avsnittsbrytning. Du kan bara lägga till den i ett flervalsfält (alternativknappar, listrutor eller kryssrutor).
 
@@ -75,7 +75,7 @@ Det bästa sättet att lära sig att lägga till visnings- och hopplogik i ett a
 
 ### Visningslogik {#display-logic}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Anpassad Forms** ![](assets/custom-forms-icon.png).
 
@@ -86,7 +86,7 @@ Det bästa sättet att lära sig att lägga till visnings- och hopplogik i ett a
    1. I **Formulärtitel** ruta, typ **Exempel på eget formulär - Utbildningslogik och hopplogik**.
 
    1. Klicka **Lägg till ett fält** i det övre vänstra hörnet.
-   1. Lägg till ett listrutefält med namnet *Ärendefält* genom att klicka **Listruta** och sedan skriva **Ärendefält** i **Etikett** box.
+   1. Lägg till ett listrutefält med namnet *Ärendefält* genom att klicka **Listruta** skriver du **Ärendefält** i **Etikett** box.
 
    1. Under **Val** lägger du till följande alternativ i textrutorna:
 
@@ -98,7 +98,7 @@ Det bästa sättet att lära sig att lägga till visnings- och hopplogik i ett a
 
 1. Välj den nya **Exempel på eget formulär - Utbildningslogik och hopplogik** eget formulär och klicka sedan på **Redigera**.
 
-1. Lägg till ett nytt textfält med en rad *Annan forskning* genom att klicka **Textfält med en rad** och sedan skriva **Annan forskning** i **Etikett** box.
+1. Lägg till ett nytt textfält med en rad *Annan forskning* genom att klicka **Textfält med en rad** skriver du **Annan forskning** i **Etikett** box.
 
 1. Klicka **Lägg till logik** nära den nedre vänstra sidan av **Redigera eget formulär** skärm.
 
@@ -113,19 +113,19 @@ Det bästa sättet att lära sig att lägga till visnings- och hopplogik i ett a
 
 ### Hoppa över logik {#skip-logic}
 
-Hopplogik fungerar ungefär som visningslogik, men fungerar som omvänd: I stället för att visa specifika anpassade flervalsfält baserat på specifika val, bestämmer du vilka som ska hoppas över baserat på användarens val.
+Hopplogik fungerar på liknande sätt som visningslogik, men fungerar som omvänd: i stället för att visa specifika anpassade flervalsfält baserat på specifika markeringar, bestämmer du vilka som ska hoppas över, baserat på användarens val.
 
 Du kan lära dig mer om detta genom att fortsätta att arbeta med exempelformuläret som du skapade i avsnittet [Visningslogik](#display-logic) i den här artikeln:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Anpassad Forms**.
-1. Markera formuläret **Exempel på eget formulär - Utbildningslogik och hopplogik** som du skapade i stegen ovan och sedan klickar du **Redigera**.
+1. Markera formuläret **Exempel på eget formulär - Utbildningslogik och hopplogik** som du skapade i stegen ovan och sedan klickar du på **Redigera**.
 
 1. Välj det nedrullningsbara fält som du skapade med namnet *Ärendefält*.
-1. Klicka på **Lägg till logik** i **Fältinställningar** sidofält.
+1. Klicka på **Lägg till logik** knappen i **Fältinställningar** sidofält.
 
-1. I **Fältlogik** ska du kontrollera att **Hoppa över logik** -fliken är markerad.
+1. I **Fältlogik** ska du kontrollera att **Hoppa över logik** är markerad.
 
 1. Ange den första listrutan till **Ingen mer forskning** och den andra listrutan till **Markerad**.
 

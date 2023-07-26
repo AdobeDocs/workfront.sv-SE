@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan skapa eller redigera nya anpassade formulär.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -48,9 +48,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Börja skapa ett anpassat formulär
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. Klicka **Anpassad Forms** i den vänstra panelen.
+1. Klicka **Anpassad Forms** till vänster.
 
    I den vy som visas kan du granska alla anpassade formulär och anpassade fält som har skapats för din organisation. Du kan också se vem som har skapat respektive formulär och vilka fält som är kopplade till det.
 
@@ -71,7 +71,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    >[!TIP]
    >
-   >Du kan klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
+   >Klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
 
 1. Om du vill lägga till ett nytt anpassat fält i formuläret fortsätter du med [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) eller [Återanvända ett anpassat fält eller en anpassad widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
@@ -86,7 +86,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    * [Återanvända ett befintligt beräknat anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Lägga till visningslogik och hoppa över logik i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
-## Börja redigera ett eget formulär
+## Börja redigera ett anpassat formulär
 
 Du kan redigera ett anpassat formulär när som helst efter att det har skapats.
 
@@ -96,14 +96,14 @@ Du kan redigera ett anpassat formulär när som helst efter att det har skapats.
 >
 >I allmänhet rekommenderar vi att du minimerar antalet gånger som du redigerar ett anpassat formulär som redan används. Det finns inget meddelandesystem för att varna personer som använder det anpassade formuläret om dina ändringar.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. Klicka **Anpassad Forms** i den vänstra panelen.
+1. Klicka **Anpassad Forms** till vänster.
 
    I den vy som visas kan du granska alla anpassade formulär som har skapats för din organisation. Du kan också se vem som har skapat varje formulär, vilken objekttyp det fungerar med och om det är aktivt.
 
 1. Markera det anpassade formulär som du vill redigera och klicka sedan på **Redigera**.
-1. (Valfritt) Klicka på knappen **Formulärinställningar** tabben och sedan skriva en **Formulärtitel** och **Beskrivning**.
+1. (Valfritt) Om du vill ändra rubriken och beskrivningen för det anpassade formuläret klickar du på knappen **Formulärinställningar** tabben och sedan skriva en **Formulärtitel** och **Beskrivning**.
 
 1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på plustecknet + efter **Objekttyper** väljer du sedan önskad typ på menyn som visas.
 
@@ -117,7 +117,7 @@ Du kan redigera ett anpassat formulär när som helst efter att det har skapats.
 
    >[!TIP]
    >
-   >Du kan klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
+   >Klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
 
 1. Om du vill lägga till ett nytt anpassat fält i formuläret fortsätter du med [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) eller [Återanvända ett anpassat fält eller en anpassad widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 

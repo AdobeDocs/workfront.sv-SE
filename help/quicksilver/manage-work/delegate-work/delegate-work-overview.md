@@ -5,8 +5,9 @@ navigation-topic: delegate-work
 title: Delegera arbetsöversikt
 description: När du planerar att vara borta från kontoret under en kort period kan du tillfälligt delegera ditt arbete till andra användare för att säkerställa att din frånvaro inte blir ett hinder för arbetet.
 author: Alina
+feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f3ae487f53f7c4f8c389cf0d35323f21e76ece35
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -41,7 +42,7 @@ Tänk på följande när du delegerar uppgifter och ärenden:
 
 * Dina [!DNL Workfront] eller gruppadministratören måste aktivera delegeringsinställningarna i [!UICONTROL Setup] innan du kan delegera ditt arbete till andra.
 
-   Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Du kan endast delegera uppgifter och ärenden från [!UICONTROL Home] område.
 * Det finns undantag för följande licenstyper:
 
@@ -51,11 +52,11 @@ Tänk på följande när du delegerar uppgifter och ärenden:
 * Du kan bara delegera de uppgifter och utgåvor som du har tilldelats. Du kan inte delegera uppgifter och ärenden som har tilldelats andra användare, team eller jobbroller.
 * Du kan bara delegera uppgifter och ärenden som inte har slutförts före delegeringens startdatum.
 * Om en arbetsuppgift slutförs under delegeringens tidsram finns artikeln kvar i hemområdet för den som delegerar och den som utses under två veckor före [!DNL Workfront] tar automatiskt bort den.
-* De användare som du väljer som ombud får samma behörigheter som dina behörigheter för de uppgifter och utgåvor som du delegerar till dem. Behörigheterna måste fungera inom sina åtkomstnivåer och ibland kan deras åtkomstnivåer vara lägre än dina.
+* De användare som du väljer som ombud får samma behörigheter som de uppgifter och utgåvor som du delegerar till dem. Behörigheterna måste fungera inom sina åtkomstnivåer och ibland kan deras åtkomstnivåer vara lägre än dina.
 
 >[!NOTE]
 >
->  För artiklar som tilldelas efter att delegeringen redan har startats kan det ta upp till en timme efter det att artikeln har tilldelats [!DNL Workfront] för att dela nyligen tilldelade objekt med ombudet.
+>  För artiklar som tilldelas efter att delegeringen redan har startats kan det ta upp till en timme efter det att artikeln har tilldelats [!DNL Workfront] om du vill dela de nyligen tilldelade objekten med ombudet.
 
 * Om du tilldelas ytterligare uppgifter och utgåvor under den tid du har valt att delegera arbetet till andra användare, delegeras det nya tilldelade arbetet automatiskt till samma person för den tidsram du valde om uppgifts- eller utgivningsdatumen ligger inom den tidsramen.
 * Samma användare kan väljas som ombud av flera användare.
@@ -63,9 +64,9 @@ Tänk på följande när du delegerar uppgifter och ärenden:
 * Du kan visa namn på delegerat arbete och delegerat arbete inom flera områden i [!DNL Workfront]. Mer information finns i avsnittet Hitta information om delegerade arbeten och delegater i artikeln [Hantera delegering av uppgifter och utgåvor](../delegate-work/how-to-delegate-work.md).
 
 
-   >[!IMPORTANT]
-   >
-   >  Om en användare bara har Visa åtkomst till uppgifter på sin åtkomstnivå och du har behörigheten Hantera för de uppgifter som du delegerar till dem, får de behörigheten Hantera för de uppgifter som du delegerar till dem. De kan dock inte utföra samma åtgärder som du för de delegerade uppgifterna. De måste begära Redigera-åtkomst till uppgifter från systemadministratören för att kunna uppdatera uppgifter om du inte är anställd.
+  >[!IMPORTANT]
+  >
+  >  Om en användare bara har Visa åtkomst till uppgifter på sin åtkomstnivå och du har behörigheten Hantera för de uppgifter som du delegerar till dem, får de behörigheten Hantera för de uppgifter som du delegerar till dem. De kan dock inte utföra samma åtgärder som du för de delegerade uppgifterna. De måste begära Redigera-åtkomst till uppgifter från systemadministratören för att kunna uppdatera uppgifter om du inte är anställd.
 
 * När delegeringen stoppas tas inte de behörigheter som tilldelats de delegerade användarna bort för de uppgifter och problem som de har delegerats till.
 * Om ett system eller inaktiverar [!UICONTROL Allow users to delegate their tasks & issues] i [!UICONTROL Setup] de för närvarande delegerade användarna tas bort från de uppgifter och utgåvor som de tidigare har delegerats till. Deras behörigheter till uppgifter eller problem tas inte bort.
@@ -77,7 +78,7 @@ Tänk på följande när du delegerar uppgifter och ärenden:
 | En tilldelad eller delegerad användare kan redigera eller ta bort arbetsuppgiften som de har tilldelats eller delegerats till | Baserat på behörigheter och åtkomstnivå | Baserat på behörigheter och åtkomstnivå |
 | En tilldelad eller delegerad användare visas i arbetsobjektets rubrik | Ja | Ja |
 | De tilldelade eller delegerade uppgifterna eller frågorna visas i den tilldelades eller delegatens hemområde | Ja, tills artikeln är slutförd | Ja, endast under delegeringens tidsram |
-| Du kan tilldela eller delegera arbete till användare från hemområdet | Ja | Ja |
+| Du kan tilldela eller delegera arbete till användare från Hem-området | Ja | Ja |
 | Du kan tilldela eller delegera arbete till användare med | Ja | Nej |
 | Du kan tilldela eller delegera arbete till användare i en lista eller från en arbetsuppgifts rubrik | Ja | Nej |
 | Alla användare kan tilldela eller delegera andra användare med arbetsobjekt som de inte är kopplade till | Baserat på behörigheter och åtkomstnivå | Nej. Endast den som tilldelats kan delegera sina egna artiklar. |

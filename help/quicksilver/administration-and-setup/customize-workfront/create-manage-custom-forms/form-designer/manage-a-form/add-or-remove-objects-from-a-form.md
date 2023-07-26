@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan lägga till eller ta bort objekttyper från anpassade formulär med formulärdesignern.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
 
 ---
-
 
 # Lägga till eller ta bort objekttyper från ett befintligt anpassat formulär med formulärdesignern
 
@@ -36,11 +36,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td>
    <p>Aktuell plan: Standard</p>
    <p>eller</p>
-   <p>Äldre plan: Plan</p></td> 
+   <p>Gammal plan: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td><p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p></td> 
+   <td><p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p></td> 
   </tr>  
  </tbody> 
 </table>
@@ -58,9 +58,9 @@ Du kan lägga till ytterligare objekttyper i formuläret så att det kan kopplas
 >Mer information finns i [Hur flera objekttyper kan påverka avsnittsbrytningsbehörigheter](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. Klicka **Anpassad Forms** i den vänstra panelen.
+1. Klicka **Anpassad Forms** till vänster.
 
    I den vy som visas kan du granska alla anpassade formulär som har skapats för din organisation. Du kan också se vem som har skapat varje formulär, vilken objekttyp det fungerar med och om det är aktivt.
 
@@ -74,7 +74,7 @@ Du kan lägga till ytterligare objekttyper i formuläret så att det kan kopplas
 
    >[!TIP]
    >
-   >Du kan klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
+   >Klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
 
 ## Ta bort objekttyper i ett anpassat formulär
 
@@ -88,9 +88,9 @@ Du kan ta bort objekttyper från ett befintligt anpassat formulär. Ett anpassat
 
 Så här tar du bort en objekttyp:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. Klicka **Anpassad Forms** i den vänstra panelen.
+1. Klicka **Anpassad Forms** till vänster.
 1. Markera det anpassade formulär som du vill redigera och klicka sedan på **Redigera**.
 1. Klicka på krysset på någon av **Objekttyper** som du vill ta bort från formuläret, och sedan klicka på **Ta bort** på det varningsmeddelande som visas.
 

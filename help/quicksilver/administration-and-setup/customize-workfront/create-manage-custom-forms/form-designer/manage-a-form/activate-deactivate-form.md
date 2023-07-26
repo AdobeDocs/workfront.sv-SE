@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan återaktivera eller inaktivera ett anpassat formulär. Vi rekommenderar att du inaktiverar anpassade formulär i stället för att ta bort formulär som du inte längre använder för att bevara historiska data.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # Inaktivera eller återaktivera ett anpassat formulär
 
@@ -37,7 +37,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p></td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p></td> 
   </tr>  
  </tbody> 
 </table>
@@ -52,16 +52,16 @@ Fält i ett inaktivt anpassat formulär kan även infogas i en vy. Om en använd
 
 Så här inaktiverar du ett anpassat formulär:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 1. Välj **Anpassad Forms**.
 1. På **Forms** markerar du det anpassade formulär som du vill inaktivera.
-1. I kolumnen Är aktiv väljer du **Falskt** och klicka utanför kolumnen. Formuläret är inte längre aktivt.
+1. Välj i kolumnen Är aktiv **Falskt** och klicka utanför kolumnen. Formuläret är inte längre aktivt.
 
 ## Återaktivera ett anpassat formulär
 
 Om du återaktiverar ett anpassat formulär behåller det de tidigare inställningarna och användarna kan interagera med det som om det aldrig hade inaktiverats.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 1. Välj **Anpassad Forms**.
 1. På **Forms** markerar du det anpassade formulär som du vill återaktivera.
-1. I kolumnen Är aktiv väljer du **True** och klicka utanför kolumnen. Formuläret är nu aktivt.
+1. Välj i kolumnen Är aktiv **True** och klicka utanför kolumnen. Formuläret är nu aktivt.

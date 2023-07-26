@@ -3,17 +3,18 @@ filename: api-changes-search
 content-type: api
 keywords: objekt,status,sökning,bästa,praxis,svar
 navigation-topic: api-navigation-topic
-title: '"Ändringar i Core API: Status för söksvar'
+title: "Core API changes: Status search responses"
 description: Förändringar i hur Workfront lagrar statusobjekt.
+feature: Workfront API
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# Ändringar i API:t: Statussöksvar
+# Centrala API-ändringar: statussöksvar
 
 Det har gjorts ändringar i hur statusobjekt lagras i Workfront. De här ändringarna påverkar inte hur statussökningar utförs, men påverkar svaret som returneras av API-begäranden som innehåller en sökning efter statusobjekt genom att returnera en ofullständig lista med gruppstatus.
 

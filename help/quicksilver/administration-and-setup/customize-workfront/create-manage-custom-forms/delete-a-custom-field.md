@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Ta bort ett anpassat fält eller en anpassad widget från systemet
 description: För att förbättra systemets prestanda och göra formulären enklare att använda för användarna kan du ta bort anpassade fält och widgetar från systemet när de inte längre används.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Ta bort ett anpassat fält eller en anpassad widget från systemet
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Anpassad Forms.**
 1. Klicka på **Fält** -fliken.
@@ -74,8 +74,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
       * Om du använder det anpassade formulärverktyget läser du [Återanvända ett anpassat fält eller en anpassad widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
       * Om du använder formulärdesignern kan du läsa [Lägg till nya eller befintliga fält i det anpassade formuläret](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
-   1. Spara det nya anpassade formuläret.
 
+   1. Spara det nya anpassade formuläret.
 
 1. Begränsa åtkomsten till det anpassade formuläret till användare med administrativ åtkomst, enligt beskrivningen i [Dela ett eget formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. Använd det nya anpassade formuläret på de objekt där det ursprungliga anpassade formuläret redan används, enligt beskrivningen i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

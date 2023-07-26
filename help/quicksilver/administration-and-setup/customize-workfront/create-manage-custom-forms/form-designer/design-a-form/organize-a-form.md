@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan ordna ett anpassat formulär med Form Designer.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 08de894a-82f0-4440-a350-680d6648f01e
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
 
 ---
-
 
 # Organisera och förhandsgranska ett formulär med formulärdesignern
 
@@ -36,11 +36,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td>
    <p>Aktuell plan: Standard</p>
    <p>eller</p>
-   <p>Äldre plan: Plan</p></td> 
+   <p>Gammal plan: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -51,15 +51,15 @@ Du kan gruppera anpassade fält och widgetar i ett anpassat formulär i avsnitt 
 
 Om du till exempel behöver spåra känslig information som bara systemadministratörer ska kunna visa eller redigera, kan du skapa en avsnittsbrytning med enbart administratör och placera de känsliga fälten i det avsnittet.
 
-De åtkomstinställningar du väljer för ett avsnitt är direkt knutna till de behörigheter som användare har på det Workfront-objekt där det anpassade formuläret är kopplat. Du kan dölja eller visa ett avsnitt baserat på om användaren har åtkomst till att visa, bidra till eller hantera objektet. Du kan också ange ett avsnitt som Endast administratör så att bara användare med en systemadministratörsåtkomstnivå kan komma åt det.
+De åtkomstinställningar som du väljer för ett avsnitt är direkt knutna till de behörigheter som användare har på det Workfront-objekt där det anpassade formuläret bifogas. Du kan dölja eller visa ett avsnitt baserat på om användaren har åtkomst till att visa, bidra till eller hantera objektet. Du kan också ange ett avsnitt som Endast administratör så att bara användare med en systemadministratörsåtkomstnivå kan komma åt det.
 
 Mer information om objektbehörigheter finns i [Översikt över delningsbehörigheter för objekt](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Mer information om anpassade fält och widgetar i anpassade formulär finns i [Utforma ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om anpassade fält och widgetar i anpassade formulär finns i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Skapa och konfigurera åtkomst för ett avsnitt i ett anpassat formulär
 
-1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, enligt beskrivningen i [Utforma ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, enligt beskrivningen i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicka **Avsnittsbrytning** och dra den till önskad plats på arbetsytan.
 
@@ -73,7 +73,7 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [U
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför avsnittet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför avsnittet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning</td> 
@@ -86,7 +86,7 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [U
      <tr> 
       <td role="rowheader"> <p>Ge åtkomst</p> </td> 
       <td> <p> Markera de behörigheter som användare behöver för ett objekt där det anpassade formuläret är kopplat för att visa det här avsnittet och redigera fältvärdena. 
-       <p>Följande behörigheter är tillgängliga under <b>Användare med den här åtkomsten till objektet kan visa fältvärden</b>:</p> 
+       <p>Följande behörigheter är tillgängliga under <b>Användare med denna åtkomst till objektet kan visa fältvärden</b>:</p> 
          <ul>  
           <li><p><b>Begränsad redigering</b>: (Endast tillgängligt om objektet är ett projekt, en uppgift, ett problem eller en användare):</p> 
           <p>Tillåter användare att bidra till objektet om det är ett projekt, en uppgift eller ett problem.</p>
@@ -107,7 +107,7 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [U
        <p><b>ANMÄRKNING</b>:  
        <ul> 
        <li> <p>Användare som saknar de behörigheter som du anger här kan inte se anpassade fält och widgetar i avsnittet. </p> <p>Detta gäller även om du visar fältets värden i rapporter eller använder dem i beräknade fält i textlägesrapporter.</p> </li> 
-       <li> <p>Om du kopplar flera objekttyper till formuläret kan du ändra de visnings- och redigeringsbehörigheter som är tillgängliga i dessa steg. Mer information finns i <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Hur flera objekttyper kan påverka avsnittsbrytningsbehörigheter i ett anpassat formulär</a> i den här artikeln.</p> </li> 
+       <li> <p>Om du kopplar flera objekttyper till formuläret kan du ändra de visnings- och redigeringsbehörigheter som är tillgängliga i de här stegen. Mer information finns i <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Hur flera objekttyper kan påverka avsnittsbrytningsbehörigheter i ett anpassat formulär</a> i den här artikeln.</p> </li> 
         </ul> </p> </td> 
      </tr> 
     </tbody> 
@@ -119,7 +119,7 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [U
 
    >[!TIP]
    >
-   >Du kan klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
+   >Klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
 
 ### Hur flera objekttyper kan påverka avsnittsbrytningsbehörigheter {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
@@ -139,7 +139,7 @@ Om du lägger till en annan objekttyp i formuläret (Portfolio, Program, Dokumen
 ## Placera anpassade fält och widgetar i ett anpassat formulär
 
 
-1. Börja skapa eller redigera ett anpassat formulär, enligt beskrivningen i [Utforma ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Börja skapa eller redigera ett anpassat formulär, enligt beskrivningen i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Om du vill placera anpassade fält och widgetar på samma rad drar du det ena bredvid det andra tills en linje visas mellan dem.
 
@@ -157,10 +157,9 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 >* Du kan använda **Förhandsgranska** i det övre högra hörnet för att få en uppfattning om hur anpassade fält och widgetar visas i formuläret.
 >* Anpassade fält och widgetar kanske inte alltid visas på samma sätt i formuläret, beroende på hur mycket skärmutrymme som är tillgängligt när användaren visar det. Det tredje fältet i en rad med fält kan t.ex. radbrytas till nästa rad med fält om det vågräta utrymmet är begränsat.
 
-
 1. (Valfritt) Om du vill placera ett anpassat fält eller en widget ovanför eller under ett annat fält drar du fältet ovanför eller nedanför tills en vågrät blå linje visas mellan objekten.
 
-1. Spara ändringarna genom att klicka på **Använd**
+1. Klicka på **Använd**
 
    eller
 
@@ -168,6 +167,6 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 ## Förhandsgranska ett anpassat formulär
 
-1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, enligt beskrivningen i [Utforma ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, enligt beskrivningen i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicka **Förhandsgranska** i det övre vänstra hörnet för att se hur formuläret kommer att se ut när det används och klicka sedan på **Avsluta förhandsgranskning** för att återgå till att redigera formuläret.

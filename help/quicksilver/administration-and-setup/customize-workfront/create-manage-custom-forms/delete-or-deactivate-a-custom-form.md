@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Ta bort ett anpassat formulär
 description: Du kan ta bort ett anpassat formulär från systemet.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: 1871b4e4d884c2660e09c2cd49e03bda243a1926
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Ta bort ett anpassat formulär
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Anpassad Forms.**
 1. Markera det anpassade formuläret och klicka sedan på **Ta bort**.

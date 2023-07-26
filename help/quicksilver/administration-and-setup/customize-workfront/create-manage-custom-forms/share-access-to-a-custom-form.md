@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan konfigurera åtkomst för ett anpassat formulär för att styra vem - person, roll, grupp, team, företag - som kan visa, dela och redigera det.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 0%
@@ -57,7 +57,7 @@ På ett objekt där det anpassade formuläret inte redan är bifogat kan en anv�
 
 I stället för att lämna ett anpassat formulär i standarddelningsläget (beskrivs i [Tillgång till anpassade formulär](#access-to-custom-forms) i den här artikeln) kan du konfigurera specifika åtkomstnivåer för formuläret för vissa användare, jobbroller, grupper, team och företag.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
 1. Markera det anpassade formuläret och klicka sedan på **Dela**.
@@ -70,17 +70,17 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
     <tbody> 
      <tr> 
       <td role="rowheader">Se det</td> 
-      <td> <p>Möjlighet att visa och fylla i det anpassade formuläret på objekt.</p> <p><b>ANMÄRKNING</b>: För användare med licens för Arbete, Granska och Begär är detta det högsta tillgängliga alternativet.</p> <p>Klicka <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
+      <td> <p>Möjlighet att visa och fylla i det anpassade formuläret på objekt.</p> <p><b>ANMÄRKNING</b>: För användare med licens för Work, Review och Request är detta det högsta tillgängliga alternativet.</p> <p>Klicka <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
        <ul> 
-        <li><strong>Koppla till anpassade data</strong>: Möjlighet att bifoga det anpassade formuläret till projekt, uppgifter och utgåvor som de har åtkomst till Hantera</li> 
+        <li><strong>Koppla till anpassade data</strong>: Möjlighet att bifoga det anpassade formuläret till projekt, uppgifter och ärenden som de har tillgång till i Hantera</li> 
         <li> <p><strong>Dela</strong>: Möjlighet att dela det anpassade formuläret med andra i systemet</p> <p>Användare med en licens för Work, Review eller Request kan endast dela anpassade formulär via API:t eller en anpassad formulärrapport. Mer information finns i .</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hantera det</td> 
-      <td> <p>Endast tillgängligt för användare med en planlicens. </p> <p>Förutom att kunna lägga till formuläret i objekt som de har tillgång till för redigering kan användarna även redigera det anpassade formuläret fullständigt, inklusive lägga till, redigera och ta bort fält.</p> <p>Klicka <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
+      <td> <p>Endast tillgängligt för användare med en planlicens. </p> <p>Förutom att kunna lägga till formuläret i objekt som de har tillgång till för redigering kan användarna även redigera det anpassade formuläret fullständigt, inklusive lägga till, redigera och ta bort fält.</p> <p>Klicka <strong>Avancerade inställningar</strong> om du vill tillåta följande:</p> 
        <ul> 
-        <li> <p><strong>Koppla till anpassade data</strong>: Möjlighet att bifoga det anpassade formuläret till projekt, uppgifter och utgåvor som de har åtkomst till Hantera</p> </li> 
+        <li> <p><strong>Koppla till anpassade data</strong>: Möjlighet att bifoga det anpassade formuläret till projekt, uppgifter och ärenden som de har tillgång till i Hantera</p> </li> 
         <li><strong>Ta bort</strong>: Ta bort det anpassade formuläret från systemet</li> 
         <li><strong>Dela</strong>: Dela det anpassade formuläret med andra i systemet</li> 
        </ul> </td> 
@@ -96,8 +96,7 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
    >[!NOTE]
    >
    >* När du gör ett anpassat formulär synligt i hela systemet tillåter du bara användare att se och fylla i det på objekt som de har tilldelats, inte att bifoga det till andra objekt. Du kan ge möjlighet att bifoga det anpassade formuläret till objekt med alternativet &quot;Bifoga till anpassade data&quot; som förklaras under steg 5.
-   >* De flesta organisationer vill säkerställa att alla i systemet kan fylla i ett anpassat formulär när det bifogas till objekt som de arbetar med och visa data i rapporter. Om detta stämmer för din organisation rekommenderar vi att du använder &quot;**Gör detta synligt för hela systemet**.&quot; När alternativet är konfigurerat på det här sättet visas&quot;Synligt systemomfattande&quot; i dialogrutan:
-
+   >* De flesta organisationer vill säkerställa att alla i systemet kan fylla i ett anpassat formulär när det bifogas till objekt som de arbetar med och visa data i rapporter. Om detta stämmer för din organisation rekommenderar vi att du använder &quot;**Gör detta synligt för hela systemet**.&quot; När alternativet är konfigurerat på det här sättet visas&quot;Synligt system-Wide&quot; i dialogrutan:
    >   
    >![](assets/visible-system-wide-350x480.png)
    >   
@@ -105,9 +104,9 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
 
 1. Klicka **Spara**.
 
-## Ta bort åtkomst till ett anpassat formulär
+## Ta bort åtkomst till anpassade formulär
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
 1. Markera det anpassade formuläret och klicka sedan på **Dela**.

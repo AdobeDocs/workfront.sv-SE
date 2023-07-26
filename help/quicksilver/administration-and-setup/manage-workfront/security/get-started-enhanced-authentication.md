@@ -3,8 +3,10 @@ title: Översikt över utökad autentisering
 description: Dold från sökning och från vänster navigering
 hidefromtoc: true
 hide: true
+feature: System Setup and Administration
+role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: ab329085fae35fdda28dc8db70e3b47d9d6c28ea
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront förändrar systemhanteringen för användare och lösenord. Dessa ändringar kommer att lanseras i en fasversion som kallas **Förbättrad autentisering** upplevelse. Förbättrad autentisering ger en enhetligare och säkrare inloggningsupplevelse för alla Workfront produkter och tjänster.
+Adobe Workfront förändrar systemhanteringen för användare och lösenord. Dessa ändringar kommer att lanseras i en fasversion som kallas **Förbättrad autentisering** upplevelse. Förbättrad autentisering ger en enhetligare och säkrare inloggningsupplevelse för alla Workfront-produkter och -tjänster.
 
 Följande tabell innehåller information om nuvarande och framtida funktioner:
 
@@ -102,7 +104,7 @@ Följande tabell innehåller information om nuvarande och framtida funktioner:
   <tr> 
    <td> <p>Skydda mot felaktiga försök att ange lösenord </p> </td> 
    <td> <p>✓ </p> <p>Låser kontot efter fem felaktiga lösenordsinmatningsförsök. Väntetiden som krävs efter att utelåsning har konfigurerats av Workfront-administratören</p> </td> 
-   <td> <p>✓</p> <p>Väntetiden ökar exponentiellt efter varje efterföljande felaktigt lösenord baserat på branschens bästa praxis. den tid som krävs inte kan konfigureras av Workfront-administratören</p> </td> 
+   <td> <p>✓</p> <p>Väntetiden ökar exponentiellt efter varje efterföljande felaktigt lösenord baserat på branschens bästa praxis. Den tid som krävs kan inte konfigureras av Workfront-administratören</p> </td> 
    <td> <p>✓</p> <p>Använder en låsningsalgoritm som proaktivt blockerar en mängd olika misstänkta beteenden.</p> </td> 
   </tr> 
   <tr> 
@@ -113,7 +115,7 @@ Följande tabell innehåller information om nuvarande och framtida funktioner:
      </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ange en minsta lösenordslängd </p> </td> 
+   <td> <p>Ange minsta längd för lösenord </p> </td> 
    <td> Inte tillgängligt </td> 
    <td> ✓ </td> 
    <td> <p>✓</p> </td> 

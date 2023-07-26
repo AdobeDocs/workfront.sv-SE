@@ -4,8 +4,9 @@ navigation-topic: boards
 title: Migrera smidiga team-kanban-kort till Workfront-styrelser
 description: Du kan migrera dina arbetsuppgifter från en smidig team-kanban-styrelse till en ny eller befintlig Workfront-styrelse.
 author: Lisa
+feature: Agile
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -41,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Migrera Kanban-kort till en ny anslagstavla
 
@@ -49,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gå till en kanban-tavla.
 1. Klicka [!UICONTROL **Lägg till i anslagstavlor**] och markera [!UICONTROL **Ny styrelse**].
-1. På [!UICONTROL Add to new board] anger du ett namn för den nya anslagstavlan (namnet på den aktuella [!UICONTROL Kanban] visas automatiskt) och klicka [!UICONTROL **Lägg till**].
+1. På [!UICONTROL Add to new board] anger du ett namn för den nya anslagstavlan (namnet på den aktuella [!UICONTROL Kanban] visas automatiskt) och klicka på [!UICONTROL **Lägg till**].
 
    ![Lägg till kanban-kort till ny anslagstavla](assets/add-kanban-cards-to-new-board-dialog.png)
 

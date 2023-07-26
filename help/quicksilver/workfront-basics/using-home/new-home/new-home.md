@@ -4,7 +4,8 @@ navigation-topic: home-navigation-topic
 title: Nytt hem
 description: Läs de här artiklarna för att lära dig hur du använder Nytt hem i Adobe Workfront.
 author: Nolan
-source-git-commit: 203bf8d55017f4ea088613abda92623e9c2d7735
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 0%

@@ -4,11 +4,12 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Adobe Target-moduler
+title: Adobe Target moduler
 description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] kan du skapa, läsa, uppdatera eller ta bort poster, lista alla poster av en viss typ, söka efter poster baserat på villkor som du anger eller utföra ett anpassat API-anrop till [!DNL Adobe Target] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2200'
 ht-degree: 0%
@@ -57,7 +58,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
       <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td>
     </tr>
     </tr>
@@ -65,7 +66,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 </table>
 
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -179,7 +180,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 #### [!UICONTROL Create a record]
 
-Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller en målgrupp.
+Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en målgrupp.
 
 <table style="table-layout:auto"> 
 <col/>
@@ -200,7 +201,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
         </li>
         <li>
           <p>[!UICONTROL XT Activity]</p>
-          <p>Fortsätt till <a href="#XT" class="MCXref xref" >XT-aktivitetsfält</a>.</p>
+          <p>Fortsätt till <a href="#XT" class="MCXref xref" >XT Activity fields</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Offer]</p>
@@ -224,7 +225,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Ange eller mappa ett namn för aktiviteten. Namnet får inte innehålla fler än 250 tecken.</td>
+      <td>Ange eller mappa ett namn för aktiviteten. Namnet får innehålla högst 250 tecken.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Options]</td>
@@ -239,7 +240,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Ange eller mappa ett namn för alternativet. Namnet får inte innehålla fler än 250 tecken.</p>
+            <p>Ange eller mappa ett namn för alternativet. Namnet får innehålla högst 250 tecken.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Offer ID]</b>
@@ -268,7 +269,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Ange eller mappa ett namn för platsen. Namnet får inte innehålla fler än 250 tecken.</p>
+            <p>Ange eller mappa ett namn för platsen. Namnet får innehålla högst 250 tecken.</p>
           </li>
         </ul>
       </td>
@@ -294,7 +295,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>För varje publik som du vill se upplevelsen klickar du på <b>[!UICONTROL Add item]</b> och ange publikens ID.
+            <p>För varje publik som du vill se upplevelsen klickar du <b>[!UICONTROL Add item]</b> och ange publikens ID.
 
 </p>
           </li>
@@ -352,7 +353,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
     <tr>
       <td role="rowheader">[!UICONTROL Auto-allocate traffic]</td>
       <td>
-        <p>Aktivera det här alternativet om du vill tilldela trafik automatiskt. Automatisk allokering skickar mer trafik till en mer framgångsrik upplevelse.</p>
+        <p>Aktivera det här alternativet om du vill allokera trafik automatiskt. Automatisk allokering skickar mer trafik till en mer framgångsrik upplevelse.</p>
         <p>Välj eller mappa utvärderingskriterierna för att bedöma vilken upplevelse som blir mest framgångsrik.</p>
       </td>
     </tr>
@@ -382,7 +383,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
           <li>
             <p><b>[!UICONTROL Metric local ID]</b>
             </p>
-            <p>Ange eller mappa en sträng som ska användas för att spåra mätvärden mellan API-begäranden.</p>
+            <p>Ange eller mappa en sträng som ska användas för att spåra mätvärden över API-begäranden.</p>
           </li>
         </ul>
       </td>
@@ -390,7 +391,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
   </tbody>
 </table>
 
-##### XT-aktivitetsfält
+##### XT Activity fields
 
 <table style="table-layout:auto"> 
   <col/>
@@ -398,7 +399,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Ange eller mappa ett namn för aktiviteten. Namnet får inte innehålla fler än 250 tecken.</td>
+      <td>Ange eller mappa ett namn för aktiviteten. Namnet får innehålla högst 250 tecken.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Options]</td>
@@ -413,7 +414,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Ange eller mappa ett namn för alternativet. Namnet får inte innehålla fler än 250 tecken.</p>
+            <p>Ange eller mappa ett namn för alternativet. Namnet får innehålla högst 250 tecken.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Offer ID]</b>
@@ -442,7 +443,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Ange eller mappa ett namn för platsen. Namnet får inte innehålla fler än 250 tecken.</p>
+            <p>Ange eller mappa ett namn för platsen. Namnet får innehålla högst 250 tecken.</p>
           </li>
         </ul>
       </td>
@@ -468,7 +469,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>För varje publik som du vill se upplevelsen klickar du på <b>[!UICONTROL Add item]</b> och ange publikens ID.
+            <p>För varje publik som du vill se upplevelsen klickar du <b>[!UICONTROL Add item]</b> och ange publikens ID.
 
 </p>
           </li>
@@ -526,7 +527,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
     <tr>
       <td role="rowheader">[!UICONTROL Auto-allocate traffic]</td>
       <td>
-        <p>Aktivera det här alternativet om du vill tilldela trafik automatiskt. Automatisk allokering skickar mer trafik till en mer framgångsrik upplevelse.</p>
+        <p>Aktivera det här alternativet om du vill allokera trafik automatiskt. Automatisk allokering skickar mer trafik till en mer framgångsrik upplevelse.</p>
         <p>Välj eller mappa utvärderingskriterierna för att bedöma vilken upplevelse som blir mest framgångsrik.</p>
       </td>
     </tr>
@@ -556,7 +557,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
           <li>
             <p><b>[!UICONTROL Metric local ID]</b>
             </p>
-            <p>Ange eller mappa en sträng som ska användas för att spåra mätvärden mellan API-begäranden.</p>
+            <p>Ange eller mappa en sträng som ska användas för att spåra mätvärden över API-begäranden.</p>
           </li>
         </ul>
       </td>
@@ -572,7 +573,7 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Ange eller mappa ett namn för aktiviteten. Namnet får inte innehålla fler än 250 tecken.</td>
+      <td>Ange eller mappa ett namn för aktiviteten. Namnet får innehålla högst 250 tecken.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Content]</td>
@@ -597,12 +598,12 @@ Den här åtgärdsmodulen skapar en AB- eller XT-aktivitet, ett erbjudande eller
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Ange eller mappa ett namn för den här målgruppen. Namnet får inte innehålla fler än 250 tecken.</td>
+      <td>Ange eller mappa ett namn för den här målgruppen. Namnet får innehålla högst 250 tecken.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Content]</td>
       <td>
-        <p>Ange eller mappa en beskrivning av den här målgruppen.</p>
+        <p>Ange eller mappa en beskrivning av målgruppen.</p>
       </td>
     </tr>
     <tr>
@@ -667,7 +668,7 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Target] API
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Ange en sökväg som är relativ till {baseURL}/</p>
+        <p>Ange en sökväg i förhållande till {baseURL}/</p>
       </td>
     </tr>
     <tr>
@@ -770,7 +771,7 @@ Den här åtgärdsmodulen uppdaterar en aktivitet, ett erbjudande eller en publi
           <li>
             <p><b>[!UICONTROL XT Activity]</b>
             </p>
-            <p>Se fältbeskrivningar i <a href="#XT" class="MCXref xref" >XT-aktivitetsfält</a> under <a href="#Create2" class="MCXref xref" >Skapa en post</a>.</p>
+            <p>Se fältbeskrivningar i <a href="#XT" class="MCXref xref" >XT Activity fields</a> under <a href="#Create2" class="MCXref xref" >Skapa en post</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Other Activity]</b>

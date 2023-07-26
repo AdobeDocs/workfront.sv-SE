@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan utforma ett anpassat formulär från en kopia med formulärdesignern.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
 
 ---
-
 
 # Designa ett formulär från en kopia med formulärdesignern
 
@@ -36,11 +36,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td>
    <p>Aktuell plan: Standard</p>
    <p>eller</p>
-   <p>Äldre plan: Plan</p></td> 
+   <p>Gammal plan: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -49,11 +49,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Kopiera ett anpassat formulär och skapa ett nytt
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Anpassad Forms.**
 1. Välj det anpassade formulär som du vill använda som bas för ett nytt anpassat formulär och klicka sedan på **Kopiera**.
-1. I **Egen formulärkopia** anger du följande information:
+1. I **Egen formulärkopia** anger du följande information i rutan som visas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,7 +65,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Formulärtyper </p> </td> 
-      <td> <p>I <b>Formulärtyp</b> markerar du de objekttyper som du vill att det anpassade formuläret ska fungera med och klickar på krysset bredvid de typer som du vill ta bort. Typer som redan är kopplade till formuläret är inaktiverade i listan.</p> 
+      <td> <p>I <b>Formulärtyp</b> markerar du de objekttyper som du vill att det anpassade formuläret ska fungera med och klickar på X bredvid de typer som du vill ta bort. Typer som redan är kopplade till formuläret är inaktiverade i listan.</p> 
       <p><img src="assets/copy-form-obj-types.png"></p> 
       <p>Formuläret måste associeras med minst en objekttyp.</p> 
       </td> 
@@ -80,7 +80,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    Om ett åtkomstalternativ för en avsnittsbrytning i det ursprungliga formuläret inte är kompatibelt med en objekttyp som du lägger till i den nya, uppmanas du att ändra alternativet.
 
 1. Markera formuläret som du just kopierade och klicka sedan på **Redigera**.
-1. Gör eventuella ändringar i formuläret enligt följande avsnitt i [Utforma ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) artikel:
+1. Gör eventuella ändringar i formuläret enligt följande avsnitt i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) artikel:
 
 * [Återanvända ett befintligt fält eller en befintlig widget som redan används i ett annat anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Lägg till textfält](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)

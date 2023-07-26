@@ -4,7 +4,8 @@ navigation-topic: new-home
 title: Lägga till, redigera eller ta bort widgetar i Nytt hem
 description: Du kan välja bland ett antal widgetar för att anpassa innehållet som visas på hemsidan. Dessa widgetar kan storleksändras och ordnas på hemsidan.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Information om tillgängliga widgetar och vilken information de spårar finns i 
 
 ## Lägga till en widget på startsidan
 
-1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Ikon för huvudmeny](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
+1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
 
 1. Klicka på **Anpassa** i sidans övre högra hörn.
 
@@ -32,7 +33,7 @@ Information om tillgängliga widgetar och vilken information de spårar finns i 
 
 ## Flytta eller ändra storlek på en widget på hemsidan
 
-1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Ikon för huvudmeny](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
+1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
 
 1. Hitta den widget du vill flytta eller ändra storlek på på hemsidan.
 
@@ -46,7 +47,7 @@ Information om tillgängliga widgetar och vilken information de spårar finns i 
 
 ## Ta bort en widget från startsidan
 
-1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Ikon för huvudmeny](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
+1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
 
 1. Leta reda på widgeten på hemsidan som du vill ta bort och klicka sedan på ikonen Mer ![Fler ikoner](../new-home/assets/more-icon.png) i widgetens övre högra hörn.
 

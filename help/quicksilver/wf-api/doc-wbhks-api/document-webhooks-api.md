@@ -6,8 +6,9 @@ navigation-topic: workfront-api
 title: API-översikt för dokumentwebbhotell
 description: API-ämnen för dokumentwebbhotell
 author: Becky
+feature: Workfront API
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Hämta OAuth2-token](../../wf-api/doc-wbhks-api/get-oath-token-webhooks.md)
 * [Hämta metadata för en fil eller mapp](../../wf-api/doc-wbhks-api/get-metadata-file-folder.md)
 * [Hämta objektlista med mappinnehåll](../../wf-api/doc-wbhks-api/get-list-folder-contents.md)
-* [Sök via dokumentwebbhotell](../../wf-api/doc-wbhks-api/docu-webhook-search.md)
+* [Sök via webbhotell för dokument](../../wf-api/doc-wbhks-api/docu-webhook-search.md)
 * [Hämta dokumentinnehåll via webbhotell](../../wf-api/doc-wbhks-api/get-docu-content-webhook.md)
 * [Hämta en miniatyrbild för ett dokument](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
 * [Filöverföring via webbhotell för dokument](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
@@ -34,5 +35,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Byta namn på ett dokument eller en mapp (ännu ej implementerad)](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)
 * [Utför en anpassad åtgärd (ännu inte implementerad)](../../wf-api/doc-wbhks-api/perform-custom-action.md)
 * [Felhantering av webhooks i dokument](../../wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-* [Testa webkroanslutningar](../../wf-api/doc-wbhks-api/test-webhook-connections.md)
+* [Testa webkrockanslutningar](../../wf-api/doc-wbhks-api/test-webhook-connections.md)
 * [Document Webhooks API](../../wf-api/doc-wbhks-api/docu-webhook-api.md)

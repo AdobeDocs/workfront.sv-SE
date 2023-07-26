@@ -5,12 +5,12 @@ navigation-topic: create-and-manage-custom-forms
 title: Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget
 description: När du arbetar med ett anpassat formulär kan du skapa ett nytt anpassat fält och lägga till det i ett anpassat formulär. Du kan också lägga till ett anpassat fält som redan har lagts till i ett annat anpassat formulär.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Textfält med formatering</td> 
-      <td>Används för att skriva flera textrader i fältet och för att formatera texten med fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Det här är tillgängligt i Hem, uppdateringsområdet, listorna och detaljområdet för Workfront-objekt. En teckengräns på 15 000 tillåter mycket text och formatering.</p> <p>Mer information om hur du kommer åt det här fältet via API:t finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">RTF-fältslagring i API</a>.</p> <p><b>ANMÄRKNING</b>: Textfält med formatering är inte tillgängliga för Workfront mobilappar (i kommande versioner). </p> </td> 
+      <td>Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Det här är tillgängligt i Hem, uppdateringsområdet, listorna och detaljområdet för Workfront-objekt. En teckengräns på 15 000 tillåter mycket text och formatering.</p> <p>Mer information om hur du kommer åt det här fältet via API:t finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">RTF-fältslagring i API</a>.</p> <p><b>ANMÄRKNING</b>: Textfält med formatering är inte tillgängliga för Workfront mobilappar (finns i kommande versioner). </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Listruta</td> 
@@ -116,7 +116,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td>Kräver att användare bara väljer ett alternativ.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Beskrivande text</td> 
+      <td role="rowheader">Beskrivning</td> 
       <td>Gör att du kan inkludera instruktioner och länka till sidor utanför Workfront.</td> 
      </tr> 
      <tr> 
@@ -136,7 +136,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
@@ -180,7 +180,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td> <p>(Endast typsnittsfält) Markera den objekttyp som du vill associera med fältet.</p> <p>När du har klickat på Använd eller Spara+Stäng kan du inte ändra fälttypen.</p> <p><b>ANMÄRKNING</b>:   
         <ul> 
          <li>Om Workfront-administratören har anpassat namnet på Portfolio, Program eller Projekt i Workfront användargränssnitt, visas Workfront-standardnamnet för objektet i den här listrutan, inte det anpassade namnet. Kontakta Workfront-administratören om du behöver hjälp med detta.<br></li> 
-         <li>Följande objekttyper stöds i mobilapparna iOS och Android Workfront: Användare, företag, grupp, jobbroll, Portfolio, program, projekt och mall.</li> 
+         <li>Följande objekttyper stöds i iOS och Android Workfront mobilappar: User, Company, Group, Job Role, Portfolio, Program, Project och Template.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -193,11 +193,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        </ul> <p>Du måste definiera filtret för den objekttyp som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i avsnittet <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Redigera textläge i ett filter</a> i artikeln <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Översikt över textläge</a>. </p> <p><b>ANMÄRKNING</b>:   
         <ul> 
          <li>Om du redigerar ett befintligt anpassat formulär och lägger till ett filter i ett texthuvudfält, tas inga objekt bort (utanför filteromfånget) som användare redan har lagt till med fältet.</li> 
-         <li>Det här filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett Typeahead-fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
+         <li>Filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett Typeahead-fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Beskrivande text</td> 
+      <td role="rowheader">Beskrivning</td> 
       <td>(Endast beskrivande textfält) Skriv den text som du vill visa för att ange instruktioner eller en länk i det anpassade formuläret. </td> 
      </tr> 
      <tr> 
@@ -213,8 +213,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td><p>Klicka på listrutan och välj sedan de objekttyper där du automatiskt vill spåra fältets värdeändringar.</p> 
       <p><b>ANMÄRKNING</b>: Det här alternativet är inte tillgängligt för följande:</p> 
       <ul> 
-      <li>Anpassade formulär som är kopplade till följande objekttyper: Utgift, Företag, Iteration, Faktureringspost och Grupp.</li> 
-      <li>Följande fälttyper: Beräknad, beskrivande text och avsnittsbrytning</li> 
+      <li>Anpassade formulär som är associerade med följande objekttyper: Utgift, Företag, Iteration, Faktureringspost och Grupp.</li> 
+      <li>Följande fälttyper: Beräknat, Beskrivande text och Avsnittsbrytning</li> 
       </ul>
       <p><b>VIKTIGT</b>: Om du markerar eller avmarkerar en objekttyp här påverkas alla anpassade formulär som är kopplade till den valda objekttypen och som innehåller det här fältet. Om du till exempel avmarkerar en objekttyp här och sparar det anpassade formuläret spåras inte längre fältets värdeändringar för den objekttypen i något anpassat formulär som innehåller fältet.</p>
        <p>När du har valt en objekttyp här för ett fält och sparat det anpassade formuläret, visas fältet på fliken Anpassade fält i området Uppdatera feeds i inställningarna.</p> 
@@ -227,7 +227,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader">Val </td> 
-      <td> <p>(Endast listrutor, kryssrutor eller alternativknappar. valfritt)</p> 
+      <td> <p>(Endast listrutor, kryssrutor eller alternativknappar; valfritt)</p> 
        <ol> 
         <li> <p>Klicka <b>Alternativ</b>aktiverar du sedan något av följande:</p> 
            <ul> 
@@ -239,7 +239,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
            <ul> 
             <li><strong>Markera som standard</strong>: Välj alternativet som standard i fältet.</li> 
             <li> <p><strong>Dölj alternativ</strong>: Dölj alternativet i fältet. Dolda alternativ är fortfarande tillgängliga i rapporter.</p> </li> 
-            <li> <p><strong>Ta bort alternativ</strong>: Ta bort alternativet från fältet.</p> <p><b>VARNING</b>: Om du har aktuella objekt med det här alternativet tar du inte bort det från fältet. Om du tar bort den går historikdata förlorade. Välj i stället alternativet att dölja det, vilket förhindrar att användarna väljer det i framtiden.</p> </li> 
+            <li> <p><strong>Ta bort alternativ</strong>: Ta bort alternativet från fältet.</p> <p><b>VARNING</b>: Om du har aktuella objekt med det här alternativet ska du inte ta bort det från fältet. Om du tar bort den går historikdata förlorade. Välj i stället alternativet att dölja det, vilket förhindrar att användarna väljer det i framtiden.</p> </li> 
            </ul> 
         </li> 
        </ol> </td> 
@@ -247,12 +247,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     </tbody> 
    </table>
 
-1. (Villkorligt) Om du vill ändra visningstypen för ett fält i det anpassade formuläret klickar du på knappen **Visningstyp** och klicka sedan på önskad typ.
+1. (Villkorligt) Om du vill ändra visningstypen för ett fält i det anpassade formuläret klickar du på **Visningstyp** och klicka sedan på önskad typ.
 
    Du kan växla mellan följande fälttyper:
 
    * **Markeringstypfält**: Kryssrutor, listrutor, alternativknappar.
-   * **Textfält**: Enkelradigt textfält, stycketextfält. (Du kan inte växla ett textfält med formatering till en annan visningstyp. Du kan dock ta bort den och lägga till en annan typ av fält.)
+   * **Textfält**: Textfält med en rad, Textfält med stycke. (Du kan inte växla ett textfält med formatering till en annan visningstyp. Du kan dock ta bort den och lägga till en annan typ av fält.)
 
    Om du t.ex. har skapat ett kryssrutefält kan du ändra det till ett nedrullningsbart fält eller ett alternativknappsfält. Om du har skapat ett textfält med en rad kan du ändra det till ett textfält med en rad.
 
@@ -262,7 +262,6 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >
    >* Om du ändrar till Alternativknappar behåller Workfront alla flervalsvärden som en användare kan ha angett i fältet tills användaren ändrar och sparar data i någon del av formuläret. I det här läget ersätts alla värden som har markerats med flervalsfältet av det valda alternativknappsvärdet.
    >* Om du ändrar till en listruta med endast ett val, behåller Workfront alla flervalsvärden som en användare kan ha angett i fältet tills användaren ändrar och sparar värdena i fältet. I det här läget ersätts alla värden som har markerats med fältet för flervalstyp med det valda nedrullningslistvärdet.
-
 
 1. (Valfritt) Upprepa steg 2-6 om du vill lägga till andra anpassade fält.
 

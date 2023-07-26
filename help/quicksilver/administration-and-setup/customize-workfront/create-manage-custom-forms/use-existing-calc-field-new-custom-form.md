@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Återanvända ett befintligt beräknat anpassat fält i ett anpassat formulär med det äldre formulärverktyget
 description: Du kan använda samma beräknade anpassade fält i anpassade formulär som tillhör olika objekt. Du kan till exempel använda fältet Resultatberäkning som du skapade för det anpassade projektformuläret i ett anpassat aktivitetsformulär.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -25,7 +25,7 @@ När du använder ett befintligt beräknat anpassat fält överförs inte beräk
 
 >[!TIP]
 >
->Det här är när du använder beräkningen som lagras i **Instruktioner** fält i det anpassade formuläret hjälper dig.
+>Det här är när du använder beräkningen som lagras i **Instruktioner** fält i det anpassade formuläret.
 
 Du kan också ha en annan beräkning för samma fält i det nya formuläret. Om du behåller samma namn för det beräknade anpassade fältet är namnkonventionen konsekvent och konsekvent.
 
@@ -37,4 +37,3 @@ Du kan också ha en annan beräkning för samma fält i det nya formuläret. Om 
 >* Markera alternativet Beräkna om anpassade uttryck när du redigerar flera objekt samtidigt.
 >* Välj alternativet Uppdatera tidigare beräkningar när du redigerar ett beräknat anpassat fält i ett anpassat formulär.
 >
-

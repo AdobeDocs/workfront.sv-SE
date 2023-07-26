@@ -4,11 +4,12 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Adobe Journey Optimizer-moduler
+title: Adobe Journey Optimizer moduler
 description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Journey Optimizer], samt ansluta till flera tredjepartsprogram och -tjänster.
 author: Becky
+feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 0%
@@ -61,14 +62,14 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
       <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -393,7 +394,7 @@ Den här åtgärdsmodulen skapar ett erbjudande om placering, beslutsregler, tag
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Priority]</td>
-      <td>Välj prioritet för det här erbjudandet. Prioriteten påverkar om detta erbjudande presenteras i stället för ett annat erbjudande.
+      <td>Välj prioritet för erbjudandet. Prioriteten påverkar om detta erbjudande presenteras i stället för ett annat erbjudande.
       </td>
     </tr>
    <tr>
@@ -461,7 +462,7 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Journey Optimizer]
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Ange en sökväg som är relativ till {baseURL} börja med<code>/</code></p>
+        <p>Ange en sökväg i förhållande till {baseURL} börja med<code>/</code></p>
       </td>
     </tr>
     <tr>

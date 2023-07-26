@@ -1,8 +1,9 @@
 ---
 title: '''[!DNL Adobe Workfront] dokumentation'
 description: Dokumentation för [!DNL Adobe Workfront].
+feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 757fcb4dae232e90850b77a7d77c23e181519183
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -73,6 +74,6 @@ Se [Grunderna i API](/help/quicksilver/wf-api/general/api-basics.md).
 
 ### API Explorer
 
-Du kan visa alla objekt som är tillgängliga via Adobe Workfront API i API-utforskaren.
+Du kan visa alla objekt som är tillgängliga via Adobe Workfront API i API Explorer.
 
 Se [Workfront API Explorer på developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).

@@ -8,13 +8,14 @@ navigation-topic: apps-and-their-modules
 title: Microsoft Word-mallmoduler
 description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder Microsoft Word-mallar samt ansluta dem till flera tredjepartsprogram och -tjänster.
 author: Becky
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+feature: Workfront Fusion
+exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Microsoft Word Template] moduler
 
@@ -59,7 +60,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -89,19 +90,19 @@ A [!DNL Microsoft Word] mallen är en vanlig [!DNL Microsoft Word] -dokument (.d
 
 ### Enkel värdetagg {#simple-value-tag}
 
-En enkel värdetagg ersätts helt enkelt med ett motsvarande värde. Taggens namn motsvarar [!UICONTROL Key] fältets värde, som placeras inom dubbla klammerparenteser, till exempel
+En enkel värdetagg ersätts med ett motsvarande värde. Taggens namn motsvarar [!UICONTROL Key] fältets värde, som placeras inom dubbla klammerparenteser, till exempel
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Exempel:** Om du vill skapa ett dokument med texten &quot;Hi, Petr!&quot; kan du använda en [!DNL Microsoft Word Template] för att skapa följande mall:
 
-<pre>&gt; Hej &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Hej {{name}}!</pre>
 
-För att göra detta ställer du in modulen enligt följande:
+Om du vill göra det ställer du in modulen enligt följande:
 
 ![](assets/word-template-simple-value-350x286.png)
 
@@ -109,29 +110,28 @@ För att göra detta ställer du in modulen enligt följande:
 
 Du kan använda ett villkorsmärkord för att figursätta text som bara ska återges när vissa villkor uppfylls. Om du vill radbryta texten placerar du den mellan inledande och avslutande villkorstaggar, till exempel &quot;hasPhone&quot;, om villkoret är huruvida data innehåller ett telefonnummer eller inte. Namnet på en öppningstagg föregås av hash-tecknet #. Namnet på en avslutande tagg föregås av ett snedstreck /, vilket visas i exemplet nedan.
 
-**Exempel:** Om du vill skapa ett dokument som innehåller en kunds telefonnummer om indata innehåller ett telefonnummer, men ingen e-postadress, kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
-<pre>> &#123;&#123;#hasPhone&#125;&#125; Telefon: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125; E-post: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>För att göra detta ställer du in modulen enligt följande:
+**Exempel:** Om du vill skapa ett dokument som innehåller kundens telefonnummer om indata innehåller ett telefonnummer, men ingen e-postadress, kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
+<pre>&gt; {{#hasPhone}} Telefon: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}} E-post: {{email}} {{/hasEmail}}</pre>Om du vill göra det ställer du in modulen enligt följande:
 
 ![](assets/word-template-conditional-350x501.png)
 
 I dokumentet visas telefonnumret så här:
-<pre>&gt; Telefon: 4445551234</pre>
+<pre>&gt; Telefon: 444551234</pre>
 
 ### Loop-tagg {#loop-tag}
 
 Du kan använda en loop-tagg, som också kallas avsnittstagg, för att upprepa ett textavsnitt. Radbryt texten genom att placera den mellan de inledande och avslutande looptaggarna. Namnet på en öppningstagg föregås av hash-tecknet #; namnet på en avslutande tagg föregås av ett snedstreck /.
 
 * [Loopa tagg med Fylla i en dokumentmodul](#loop-tag-with-fill-out-a-document-module)
-
-<!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
+  <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### Loopa tagg med Fylla i en dokumentmodul {#loop-tag-with-fill-out-a-document-module}
 
 **Exempel:** Om du vill skapa ett dokument med namn och telefonnummer för varje kontakt i en kundlista kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
 
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
-För att göra detta ställer du in modulen enligt följande:
+Om du vill göra det ställer du in modulen enligt följande:
 
 
 ![](assets/word-template-fill-out-a-document-350x732.png)
@@ -199,7 +199,7 @@ Med den här transformerarmodulen kan du fylla ett dokument med data som du ange
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data source]</td> 
-   <td> <p>Välj ett alternativ som anger om de data du använder kommer från ett formulär eller från en samling rådata (obearbetade datordata).</p> </td> 
+   <td> <p>Välj ett alternativ för att ange om de data du använder kommer från ett formulär eller från en samling rådata (obearbetade datordata).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Values]</td> 
@@ -227,7 +227,7 @@ Med den här transformerarmodulen kan du fylla ett dokument med data som du ange
 
 ### [!UICONTROL Fill a document with a batch of data] {#fill-a-document-with-a-batch-of-data}
 
-Den här aggregeringsmodulen är användbar om dina dataposter kommer som separata paket. Med den här modulen kan du enkelt ställa in den struktur som krävs för fältet Värde och mappa objekt till varje värdeobjekt. Till skillnad från Fyll i en dokumentmodul tillåter fältet Värden i Fyll i ett dokument med en batch med data-modul endast en post som innehåller variabler.
+Den här aggregeringsmodulen är användbar om dina datainmatningar kommer som separata paket. Med den här modulen kan du enkelt ställa in den struktur som krävs för fältet Värde och mappa objekt till varje värdeobjekt. Till skillnad från Fyll i en dokumentmodul tillåter fältet Värden i Fyll i ett dokument med en batch med data-modul endast en post som innehåller variabler.
 
 Du kan också använda den här modulen om dina dataposter kommer som en array genom att använda *Iterator* för att omvandla innehållet i arrayen till en serie paket.
 
@@ -269,7 +269,7 @@ Den här aggregeringsmodulen är särskilt användbar när du vill skapa listor 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data source]</td> 
-   <td> <p>Välj ett alternativ som anger om de data du använder kommer från ett formulär eller från en samling rådata (obearbetade datordata).</p> </td> 
+   <td> <p>Välj ett alternativ för att ange om de data du använder kommer från ett formulär eller från en samling rådata (obearbetade datordata).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Values]</td> 
@@ -294,4 +294,3 @@ Den här aggregeringsmodulen är särskilt användbar när du vill skapa listor 
   </tr> 
  </tbody> 
 </table>
-

@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Åtkomst till ett delat anpassat fält som du vill använda
 description: När någon delar ett anpassat fält med behörigheten Visa eller Hantera kan de konfigurera flera andra inställningar för att ytterligare definiera den åtkomsten. Om du är mottagare av fältet påverkar de inställningarna vad du kan göra med fältet. Du kan se följande när du visar fältet.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Mer information om hur användare konfigurerar delningsinställningar när de de
    <td> 
     <ul> 
      <li>Visa</li> 
-     <li>Lägg till i anpassad Forms: Inte markerad</li> 
+     <li>Lägg till i anpassad Forms: Inte markerat</li> 
     </ul> </td> 
    <td> <p>Om du visar fliken Fält på huvudsidan för Anpassad Forms kan du se fältet, men knappen Redigera är inte tillgänglig i verktygsfältet när du markerar fältet.</p> </td> 
   </tr> 
@@ -65,13 +65,13 @@ Mer information om hur användare konfigurerar delningsinställningar när de de
     <ul> 
      <li>Hantera</li> 
     </ul> </td> 
-   <td> <p>Om du visar fliken Fält på huvudsidan för Anpassad Forms är knappen Redigera tillgänglig i verktygsfältet när du markerar fältet.</p> </td> 
+   <td> <p>Om du visar fliken Fält på huvudsidan i Anpassad Forms är knappen Redigera tillgänglig i verktygsfältet när du markerar fältet.</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Visa eller hantera</li> 
-     <li>Dela: Inte markerad</li> 
+     <li>Dela: Inte markerat</li> 
     </ul> </td> 
    <td> <p>Delningsinställningarna visas inte när du visar fältet när du skapar eller redigerar ett anpassat formulär.</p> <p>Om du visar fliken Fält på huvudsidan i Anpassad Forms är knappen Dela i verktygsfältet inte tillgänglig när du markerar fältet.</p> </td> 
   </tr> 

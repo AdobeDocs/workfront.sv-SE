@@ -5,8 +5,9 @@ navigation-topic: workfront-api
 title: Tips, tricks och felsökning för Adobe Workfront API
 description: Tips, tricks och felsökning för Adobe Workfront API
 author: Becky
+feature: Workfront API
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

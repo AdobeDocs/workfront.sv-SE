@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan utforma ett anpassat formulär som användare kan bifoga till ett Workfront-objekt. Användare som arbetar med objektet kan fylla i det anpassade formuläret för att ge information om objektet.
 author: Courtney / Lisa
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -37,13 +37,13 @@ Med den nya formulärdesignern har vi lagt till möjligheten att
 
 * **Ändra storlek för beskrivande text**: Du kan nu tilldela små, medelstora eller stora storlekar till beskrivande textfält. Du kan också använda dem på samma rad med andra fält.
 
-* **Använd ett standardavsnitt**: Om den som har skapat formuläret inte har lagt till något avsnitt överst i formuläret visas nu standardavsnittet på arbetsytan, så att användare kan justera behörigheten för fält som inte har något anpassat avsnitt tilldelat.
+* **Använda ett standardavsnitt**: Om den som skapat formuläret inte har lagt till något avsnitt överst i formuläret visas nu ett standardavsnitt på arbetsytan, så att användarna kan justera behörigheterna för fält som inte har något anpassat avsnitt tilldelat.
 
   >[!NOTE]
   >
   >Standardavsnittet är inte synligt i objekt när formuläret har kopplats till objektet.
 
-## Funktioner kommer snart
+## Funktioner som kommer snart
 
 Följande är för närvarande inte tillgängligt i formulärdesignern, men kommer snart att läggas till:
 

@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Power BI-moduler
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
+feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1986'
 ht-degree: 0%
@@ -54,13 +55,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 &#42;&#42;För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -289,7 +290,7 @@ Den här åtgärdsmodulen hämtar metadata för en angiven rapport.
 
 #### [!UICONTROL Copy a Report]
 
-Den här åtgärdsmodulen kopierar en befintlig rapport.
+Denna åtgärdsmodul kopierar en befintlig rapport.
 
 <table>
   <col/>
@@ -357,7 +358,7 @@ Den här åtgärdsmodulen tar bort en rapport.
 
 #### [!UICONTROL List Datasets]
 
-Den här sökmodulen hämtar en lista med datauppsättningar.
+Sökmodulen hämtar en lista med datauppsättningar.
 
 <table>
   <col/>
@@ -443,10 +444,10 @@ Den här åtgärdsmodulen skapar en ny datauppsättning.
             <p><b>[!UICONTROL As on Prem]</b>: En datauppsättning med en direktanslutning till [!DNL On-premise Analysis] Tjänst</p>
           </li>
           <li>
-            <p><b>[!DNL Push]</b>: En datauppsättning som ger programmatisk åtkomst till data som [!DNL Power BI]</p>
+            <p><b>[!DNL Push]</b>: En datauppsättning som ger programmatisk åtkomst till data i [!DNL Power BI]</p>
           </li>
           <li>
-            <p><b>[!DNL Push Streaming]</b>: En datauppsättning som stöder dataströmning och ger programmatisk åtkomst för att överföra data till [!DNL Power BI]</p>
+            <p><b>[!DNL Push Streaming]</b>: En datauppsättning som stöder dataströmning och ger programmatisk åtkomst för att skicka data till [!DNL Power BI]</p>
           </li>
           <li>
             <p><b>[!DNL Streaming]</b>: En datauppsättning som stöder dataströmning</p>
@@ -530,7 +531,7 @@ Den här åtgärdsmodulen skapar en ny datauppsättning.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Rows]</td>
-      <td>Ange eller mappa raddetaljer.</td>
+      <td>Ange eller mappa radinformation.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Measures]</td>
@@ -919,7 +920,7 @@ Den här åtgärdsmodulen hämtar metadata för ett angivet programs kontrollpan
 
 #### [!UICONTROL Make an API Call]
 
-Den här åtgärdsmodulen utför ett API-anrop till [!DNL Power BI] API.
+Denna åtgärdsmodul utför ett API-anrop till [!DNL Power BI] API.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -934,7 +935,7 @@ Den här åtgärdsmodulen utför ett API-anrop till [!DNL Power BI] API.
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Ange en sökväg som är relativ till <code>https://api.powerbi.com</code>. Exempel: <code>/v1.0/myorg/datasets</code>.</p>
+        <p>Ange en sökväg i förhållande till <code>https://api.powerbi.com</code>. Exempel: <code>/v1.0/myorg/datasets</code>.</p>
       </td>
     </tr>
     <tr>

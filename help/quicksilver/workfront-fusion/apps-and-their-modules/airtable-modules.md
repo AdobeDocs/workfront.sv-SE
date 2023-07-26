@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Luftburna moduler
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
+feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 # Luftburna moduler
 
 
-Med [!DNL Airtable] anslutning för [!DNL Adobe Workfront Fusion]kan du starta ett scenario baserat på händelser i [!DNL Airtable] konton, skapa, ladda upp och uppdatera poster, söka poster och skapa anpassade API-anrop till Airtable API.
+Med [!DNL Airtable] anslutning för [!DNL Adobe Workfront Fusion]kan du starta ett scenario baserat på händelser i [!DNL Airtable] konton, skapa, ladda upp och uppdatera poster, söka poster och gör anpassade API-anrop till Airtable API.
 
 ## Åtkomstkrav
 
@@ -48,7 +49,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -81,10 +82,10 @@ Du måste ha ett Airtable-konto för att kunna använda funktionerna i den här 
 * [Hämta en post](#get-a-record)
 * [Sök i poster](#search-records)
 * [Uppdatera en post](#update-a-record)
-* [Uppgradera en post](#upsert-a-record)
-* [Bevakade poster](#watch-records)
+* [Skicka en post](#upsert-a-record)
+* [Bevakningsposter](#watch-records)
 * [Se svar](#watch-responses)
-* [Göra ett API-anrop](#make-an-api-call)
+* [Anropa ett API](#make-an-api-call)
 
 #### Skapa en post {#create-a-record}
 
@@ -228,7 +229,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>Tabell </td> 
-   <td> <p>Markera den tabell som du vill söka efter poster i.</p> </td> 
+   <td> <p>Markera tabellen som du vill söka efter poster.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Formel</p> </td> 
@@ -313,7 +314,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-#### Uppgradera en post
+#### Skicka en post
 
 Den här åtgärdsmodulen uppdaterar eller infogar en viss post.
 
@@ -377,7 +378,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-#### Bevakade poster {#watch-records}
+#### Bevakningsposter {#watch-records}
 
 Den här utlösarmodulen startar ett scenario när en post skapas eller uppdateras i den angivna tabellen.
 
@@ -438,7 +439,7 @@ Webbhoks-URL:en måste genereras i Workfront Fusion och sedan läggas till i for
 1. Logga in på ditt Airtable-konto.
 1. Öppna basen och tabellen som du vill använda för formuläret och skapa en formulärvy.
 1. Ange formuläret efter behov, rulla nedåt i formuläret och aktivera alternativet Omdirigera till URL när formuläret har skickats.
-1. Ange den webkroks-URL som genereras i steg 2 i den dialogruta som visas och lägg till ?record_id={record_id} precis efter webkroks-URL:en för att inkludera post-ID:t i modulens utdata. Klicka sedan på Spara. Den resulterande URL:en ser till exempel ut så här:
+1. Ange den webkroks-URL som genereras i steg 2 i den dialogruta som visas och lägg till ?record_id={record_id} omedelbart efter webboks-URL:en för att inkludera post-ID:t i modulens utdata klickar du på Spara. Den resulterande URL:en ser till exempel ut så här:
 1. Gå tillbaka till ditt Workfront Fusion-scenario och kör modulen Bevakade svar bara för att läsa in fält från Airtable och för att kunna mappa dessa fält till de andra modulerna.
 1. Skicka formuläret i Airtable där alternativet Omdirigera till URL när formuläret har skickats är aktiverat och Webkroks URL har lagts till (steg 6 ovan).
 
@@ -448,7 +449,7 @@ Webbhoks-URL:en måste genereras i Workfront Fusion och sedan läggas till i for
 
 Varje gång formuläret skickas aktiveras nu modulen Bevakade svar i ditt Workfront Fusion-scenario, och modulen Hämta en post returnerar den skickade formulärinformationen.
 
-#### Göra ett API-anrop
+#### Anropa ett API
 
 #### Anpassat API-anrop
 
@@ -468,7 +469,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Ange en sökväg som är relativ till <code>https://api.airtable.com/}</code>. Exempel: <code>v0/{base}/{table}</code> </td> 
+   <td>Ange en sökväg i förhållande till <code>https://api.airtable.com/}</code>. Exempel: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Metod</td> 
@@ -480,7 +481,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">Frågesträng</td> 
-   <td> <p>Lägg till frågan för API-anropet i form av en nyckel och ett värde</p> </td> 
+   <td> <p>Lägg till frågan för API-anropet i form av nyckel och värde</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Brödtext</td> 

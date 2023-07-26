@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud Libraries-moduler
 description: Med [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Biblioteksmoduler. Du kan starta ett scenario när ett element eller bibliotek skapas eller uppdateras. Du kan också överföra, hämta, arkivera eller lista element, eller ringa ett samtal till [!DNL Adobe Creative Cloud Libraries] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -56,14 +57,14 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
       <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -104,7 +105,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 #### [!UICONTROL Archive an Element]
 
-Den här åtgärdsmodulen arkiverar ett element från ett bibliotek.
+Denna åtgärdsmodul arkiverar ett element från ett bibliotek.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -227,7 +228,7 @@ Den här åtgärdsmodulen hämtar en lista med element i ett bibliotek.
 
 #### [!UICONTROL Upload an Element]
 
-Den här åtgärdsmodulen överför en liten filresurs till ett befintligt bibliotek. Största filstorlek är 1 GB.
+Denna åtgärdsmodul överför en liten filresurs till ett befintligt bibliotek. Största filstorlek är 1 GB.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -278,7 +279,7 @@ Den här åtgärdsmodulen överför en liten filresurs till ett befintligt bibli
 
 #### [!UICONTROL Watch New Element in Library]
 
-Den här utlösarmodulen startar ett scenario när ett element läggs till i ett bibliotek.
+Denna utlösarmodul startar ett scenario när ett element läggs till i ett bibliotek.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -385,7 +386,7 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Creative Cloud Lib
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Ange en sökväg som är relativ till <code>https://cc-libraries.adobe.io/api</code>.</p>
+        <p>Ange en sökväg i förhållande till <code>https://cc-libraries.adobe.io/api</code>.</p>
     <p>Exempel <code>/v1/libraries</code>.</p>
       </td>
     </tr>

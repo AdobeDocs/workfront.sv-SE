@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Konfigurera delning för anpassade fält och widgetar med den äldre formulärbyggaren
 description: När du lägger till ett nytt anpassat fält eller en ny widget i ett anpassat formulär kan alla i systemet som har tillgång till anpassade formulär redigera egenskaperna för det objektet, till exempel dess etikett och namn. Du kan ändra detta genom att styra vem det kan delas med.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -39,16 +39,16 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
 
-## Konfigurera delning för ett anpassat fält eller en anpassad widget
+## Konfigurera delning för ett anpassat fält eller en widget
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
 1. Om du konfigurerar delning för ett anpassat fält eller en anpassad widget i din organisations Workfront-instans gör du följande:
@@ -61,7 +61,6 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    1. Markera det anpassade formuläret och klicka sedan på **Redigera**.
    1. Markera det objekt som du vill konfigurera delning för i formulärredigeringsområdet till höger.
    1. Klicka på i den vänstra panelen **Delningsfält**.
-
 
 1. I **Anpassad fältåtkomst** som visas anger du vem du vill dela objektet med och hur du vill dela det:
 
@@ -79,11 +78,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        <tbody> 
         <tr> 
          <td role="rowheader">Se det</td> 
-         <td> <p>Du kan klicka <strong>Avancerade inställningar</strong> för att ange om du vill att användaren eller användarna ska kunna använda sin åtkomst för att lägga till objektet i ett anpassat formulär eller dela det med andra användare.</p> </td> 
+         <td> <p>Klicka <strong>Avancerade inställningar</strong> för att ange om du vill att användaren eller användarna ska kunna använda sin åtkomst för att lägga till objektet i ett anpassat formulär eller dela det med andra användare.</p> </td> 
         </tr> 
         <tr> 
          <td role="rowheader">Hantera det</td> 
-         <td> <p>Tillåter åtkomst för att redigera det anpassade fältet och visa det i fältbiblioteket och på sidan där du skapar anpassade formulär.</p> <p>Du kan klicka <strong>Avancerade inställningar</strong> för att ange om du vill att användaren eller användarna ska kunna använda sin åtkomst för att ta bort objektet från systemet eller dela det med andra användare.</p> </td> 
+         <td> <p>Tillåter åtkomst för att redigera det anpassade fältet och visa det i fältbiblioteket och på sidan där du skapar anpassade formulär.</p> <p>Klicka <strong>Avancerade inställningar</strong> om du vill att användaren eller användarna ska kunna använda sin åtkomst för att ta bort objektet från systemet eller dela det med andra användare.</p> </td> 
         </tr> 
        </tbody> 
       </table>
@@ -95,11 +94,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    * **Gör detta redigerbara i hela systemet så att alla i Workfront kan redigera det** (standardalternativet)
 
-      När du lägger till ett anpassat fält eller en anpassad widget, och du inte begränsar delning för det, kan alla i systemet som har tillgång till anpassade formulär visa det och redigera dess egenskaper.
+     När du lägger till ett anpassat fält eller en anpassad widget, och du inte begränsar delning för det, kan alla i systemet som har tillgång till anpassade formulär visa det och redigera dess egenskaper.
 
-   * **Ta bort redigeringsåtkomst för hela systemet**
+   * **Ta bort åtkomst till redigering i hela systemet**
 
-      Begränsar åtkomsten till endast dem som du har lagt till i listan.
+     Begränsar åtkomsten till endast dem som du har lagt till i listan.
 
    * **Gör detta synligt i hela systemet så att alla i Workfront kan se det**
 
@@ -120,13 +119,13 @@ Du kan ta reda på vem som har ärvt åtkomst till ett anpassat fält eller en a
 
 ### Ta reda på vem som har ärvt åtkomst till ett anpassat fält eller en anpassad widget {#find-out-who-has-inherited-access-to-a-custom-field-or-widget}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
 1. Klicka på **Fält** och sedan markera fältet, bilden eller åtkomstwidgeten.
-1. I rutan som visas klickar du på **Ärvda behörigheter** och visa namnen som visas.
+1. Klicka i rutan som visas **Ärvda behörigheter** och visa namnen som visas.
 1. Klicka **Avbryt**.
 
 ### Ta bort åtkomst till ett anpassat fält eller en anpassad widget i ett anpassat formulär som delas {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-Om du behöver ta bort åtkomsten till ett anpassat fält eller en anpassad widget i ett anpassat formulär som delats, måste du ta bort delningen av formuläret. Instruktioner finns i avsnittet [Ta bort åtkomst till ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#unshare) i artikeln [Dela ett eget formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+Om du behöver ta bort åtkomsten till ett anpassat fält eller en anpassad widget i ett anpassat formulär som delats, måste du ta bort delningen av formuläret. Instruktioner finns i avsnittet [Ta bort åtkomst till anpassade formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#unshare) i artikeln [Dela ett eget formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).

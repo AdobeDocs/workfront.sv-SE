@@ -2,10 +2,10 @@
 title: Lägga till eller redigera en bild eller en annan resurswidget i ett anpassat formulär med det äldre formulärverktyget
 description: Du kan lägga till eller redigera egenskaper för följande resurswidgetar, till exempel bilder, videoklipp, PDF-filer och Adobe XD-filer i ett anpassat formulär. Detta är användbart när du behöver inkludera visuellt innehåll som varumärkesbilder, en instruktionsvideo eller en interaktiv prototyp för ett program som du designar.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Du kan lägga till eller redigera egenskaperna för följande resurswidgetar i e
 * Bild
 * Video
 * PDF-fil
-* Adobe XD-fil
+* Adobe XD
 
 Detta är användbart när du behöver inkludera visuellt innehåll som varumärkesbilder, en instruktionsvideo eller en interaktiv prototyp för ett program som du designar.
 
@@ -54,7 +54,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    * Om du lägger till en ny widget väljer du **Bild**, **PDF**, eller **Video** om du vill lägga till det längst ned i formuläret eller dra det där du vill ha det i formuläret.
 
-      ![](assets/add-widget.png)
+     ![](assets/add-widget.png)
 
 
    * Om du vill lägga till en widget som redan har lagts till i ett annat anpassat formulär klickar du på **Fältbibliotek** klickar du sedan på namnet på widgeten i listan som visas. Mer information finns i [Återanvända ett anpassat fält eller en anpassad widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
@@ -83,7 +83,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
@@ -138,7 +138,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
@@ -147,7 +147,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoriskt) Skriv eller klistra in en giltig XD prototyplänk.</p> 
-      <p>Obs! Länkåtkomstinställningen på fliken Dela i Adobe XD måste vara inställd på Alla med länken. Annars kan användarna inte visa prototypen. 
+      <p>Obs! Inställningen Länkåtkomst på fliken Dela i Adobe XD måste vara inställd på Vem som helst med länken. Annars kan användarna inte visa prototypen. 
    </td> 
      </tr> 
      <tr> 
@@ -178,6 +178,6 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 >När du lägger till en video i ett anpassat formulär på det här sättet gäller endast de behörigheter som angetts för det anpassade formuläret för videon när användarna öppnar formuläret för ett objekt, inte de behörigheter som angetts för videon i området Dokument.
 
 1. Gå till videon i området Dokument och generera ett korrektur för den enligt beskrivningen i [Skapa ett interaktivt korrektur för en webbplats eller annat webbinnehåll](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
-1. Öppna korrekturet.
+1. Öppna beviset.
 1. Högerklicka var som helst i videon och välj sedan **Kopiera videoadress**.
 1. Klistra in den kopierade adressen i det anpassade formuläret där du lägger till videowidgeten **URL** box.

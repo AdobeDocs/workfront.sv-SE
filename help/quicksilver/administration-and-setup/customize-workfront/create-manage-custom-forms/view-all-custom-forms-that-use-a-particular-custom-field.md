@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Visa alla anpassade formulär som använder ett visst anpassat fält eller en viss widget
 description: Du kan ta reda på vilka anpassade formulär som använder ett anpassat fält eller en anpassad widget som du vill ändra eller ta bort. Det är viktigt att utvärdera om dessa anpassade formulär behöver justeras för att fortsätta fungera som de ska eller för att fortsätta vara användbart efter att du har ändrat eller tagit bort fältet eller widgeten.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +48,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Ta reda på vilka anpassade formulär som använder ett visst anpassat fält eller en viss widget
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
 1. Öppna **Fält** flik, leta efter fältet eller widgeten i **Namn** kolumn, visa sedan **Forms** för att se vilka anpassade formulär som använder fältet eller widgeten.
