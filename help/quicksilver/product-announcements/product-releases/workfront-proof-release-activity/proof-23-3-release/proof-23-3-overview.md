@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om funktionaliteten för Ado
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,17 @@ En lista över alla ändringar som är tillgängliga för alla delar av Workfron
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Skjut upp uppdateringar för Desktop Proofing Viewer</a> </p>
-                        <p>Baserat på användarfeedback lägger vi till ett alternativ för att skjuta upp uppdateringar för Desktop Proofing Viewer. Användarna kan nu välja att fördröja en uppdatering och fortsätta med sitt arbete, men en påminnelse visas om att en uppdatering är tillgänglig varje gång de öppnar Desktop Proofing Viewer.</p>
+                        <p>Baserat på användarfeedback lägger vi till ett alternativ för att skjuta upp uppdateringar för Desktop Proofing Viewer. Användarna kan nu välja att fördröja en uppdatering och fortsätta med sitt arbete, men de kommer att få en påminnelse om att en uppdatering är tillgänglig varje gång de öppnar Desktop Proofing Viewer.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: Med version 23.3</p>
+                                <p><i>För användare som använder manuell installation, med version 2.1.26</i></p>
+                                <p>Förhandsgranskning och produktionsrelease: 27 juli 2023</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease: Med version 23.3</p>
+                                <p><i>För användare som använder automatisk installation, med version 2.1.27</i></p>
+                                <p>Preview and production release: 3 augusti 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -76,10 +78,10 @@ En lista över alla ändringar som är tillgängliga för alla delar av Workfron
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 10 maj 2023<br /></p>
+                                <p>Förhandsversion: 10 maj 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: 10 maj 2023</span></p>
+                                <p><span class="preview">Produktionsversion: 10 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
