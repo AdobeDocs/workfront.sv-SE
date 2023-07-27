@@ -6,9 +6,9 @@ description: Följande länkar är till versionsinformation om aktuella och tidi
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: a20ff4ea67ac2745663896df0e0ae792f4f21024
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '169'
 ht-degree: 15%
 
 ---
@@ -26,12 +26,13 @@ Mer information om hur du kan anpassa din organisation till nya versioner finns 
  <col> 
  <tbody> 
   <tr> 
-   <td>Workfront</td> 
+   <td>Workfront-versioner</td> 
    <td>Andra produktreleaser</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Utgåvor 2023</p> 
     <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Versionsöversikt för fjärde kvartalet 2023</a> </p> <p> Innehåller releaser: <ul><li>23.8</li><li>23.9</li><li>23.10</li></ul></p>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3 Versionsöversikt</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Versionsöversikt</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">23.1 Versionsöversikt</a> </p> </li>

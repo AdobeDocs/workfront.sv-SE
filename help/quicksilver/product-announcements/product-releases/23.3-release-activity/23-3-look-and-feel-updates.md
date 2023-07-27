@@ -4,9 +4,9 @@ description: Utforma och känna av uppdateringar under 23.3-releasetidningen
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ En lista över alla ändringar som är tillgängliga i version 23.3 finns i [23.
 
 >[!NOTE]
 >
->Planerad förhandsversion: 29 juni 2023, Planerad produktionsrelease: 13 juli 2023
+>Planerad förhandsversion: 29 juni 2023; Planerad produktionsversion: 13 juli 2023
 
 Vi har förbättrat gränssnittet i listan över skickade begäranden.
 
@@ -36,7 +36,7 @@ Mer information finns i [Kopiera och skicka begäranden](/help/quicksilver/manag
 
 >[!NOTE]
 >
->Planerad förhandsversion: kommer att tillkännages, Planerad produktionsrelease: kommer att tillkännages.
+>Planerad förhandsversion: 27 juli 2023; Planerad produktion för snabb release: Med version 23.8. Planerad produktion för kvartalsvis utgivning: Med version 23.10
 >
 >Den här funktionen var ursprungligen planerad att lanseras med version 23.3 och försenades senare.
 
@@ -48,6 +48,6 @@ Mer information finns i [Skapa problem](../../../manage-work/issues/manage-issue
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 29 juni 2023, Planerad produktionsrelease för kunder med snabb lansering: Ska tillkännages efter 23.3-produktionsreleasen. Planerad produktionsrelease för alla kunder: Med version 23.4
+>Förhandsversion: 29 juni 2023; Planerad produktionsrelease för kunder med snabb release: Ska tillkännages efter 23.3-utgåvan; Planerad produktionsrelease för alla kunder: Med version 23.4
 
-Listan Projektfaktureringstaxor har nu det mer moderna utseende och känsla som finns i de flesta andra listor i Workfront.
+Listan Projektfaktureringstaxor har nu det modernare utseende och den känsla som finns i de flesta andra listor i Workfront.
