@@ -4,9 +4,9 @@ description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
+source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juni 2023</p>
+                                <p>Förhandsversion: 22 juni 2023</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.3</p>
@@ -87,10 +87,10 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 4 maj 2023</p>
+                                <p>Förhandsversion: 4 maj 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: 18 maj 2023</span></p>
+                                <p><span class="preview">Produktionsversion: 18 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -103,7 +103,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 21 juli 2023</p>
+                                <p>Förhandsversion: 21 juli 2023</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: 21 juli 2023</p>
@@ -138,7 +138,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 29 juni 2023</p>
+                                <p>Förhandsversion: 29 juni 2023</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p>
@@ -154,7 +154,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juni 2023</p>
+                                <p>Förhandsversion: 22 juni 2023</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för alla kunder: Med version 23.3</p>
@@ -170,7 +170,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juni 2023<span style="color: #ff0000;"> Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas med version 23.3.</span></p>
+                                <p>Förhandsversion: 22 juni 2023<span style="color: #ff0000;"> Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas med version 23.3.</span></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för alla kunder: Ej tillämpligt</p>
@@ -181,12 +181,12 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mål som är tillgängliga för arbetsströmsiterationer i Adobe Workfront Boards</a></p>
-                        <p>Vi har lagt till möjligheten att lägga till mål i en iteration utan att behöva lista målen på ett kort. Mål läggs till i ett checklisteformat och kan markeras som fullständiga. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.</p>
+                        <p>Vi har lagt till möjligheten att lägga till mål i en iteration, utan att behöva lista målen på ett kort. Mål läggs till i ett checklisteformat och kan markeras som fullständiga. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juni 2023<span style="color: #ff0000;"> Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas med version 23.3.</span></p>
+                                <p>Förhandsversion: 22 juni 2023<span style="color: #ff0000;"> Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas med version 23.3.</span></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för alla kunder: Ej tillämpligt</p>
@@ -196,13 +196,13 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till kommentarer på kort i ritytor</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till kommentarer till kort på anslagstavlor</a></p>
                         <p>Nu kan du lägga till kommentarer i både ad hoc-kort och anslutna kort på anslagstavlan och tagga andra användare på kommentarerna. Kommentarerna finns i kortinformationen. Kommentarsfunktionen för anslagstavlor använder den nya kommentarsfunktionen från Adobe Workfront.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 15 juni 2023</p>
+                                <p>Förhandsversion: 15 juni 2023</p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 22 juni 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -219,10 +219,10 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 19 maj 2023</p>
+                                <p>Förhandsversion: 19 maj 2023</p>
                             </li>
                             <li>
-                                 <p><span class="preview">Produktionsrelease: 19 maj 2023</span></p>
+                                 <p><span class="preview">Produktionsversion: 19 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -235,7 +235,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 10 maj 2023<br /></p>
+                                <p>Förhandsversion: 10 maj 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 10 maj 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -252,7 +252,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 27 april 2023<br /></p>
+                                <p>Förhandsversion: 27 april 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -269,7 +269,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
+                                <p>Förhandsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -286,7 +286,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
+                                <p>Förhandsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
                                  <s><p>Produktionsrelease för tidig anmälan: 28 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p></s>
@@ -299,13 +299,13 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Navigering till vänster har lagts till i kortinformation på brädor</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Vänster navigering har lagts till i kortinformation på korten</a></p>
                         <p>I takt med att fler fältalternativ läggs till på kort på Workfront Boards har kortinformationen blivit längre. Med en ny navigeringspanel till vänster om kortinformationen kan du markera ett avsnitt och automatiskt flytta till den gruppen med fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 20 april 2023<br /></p>
+                                <p>Förhandsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsrelease för alla kunder: 27 april 2023</span></p>
@@ -321,7 +321,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 13 april 2023<br /></p>
+                                <p>Förhandsversion: 13 april 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 13 april 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</p>
@@ -357,11 +357,11 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 29 juni 2023</p>
+                                <p>Förhandsversion: 29 juni 2023</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för kunder med snabb lansering: Anmäl dig efter 23.3-utgåvan</p>
-                                <p>Produktionsrelease för alla kunder: Med version 23.4<br>
+                                <p>Produktionsrelease för kunder med snabb lansering: tillkännages efter 23.3-utgåvan</p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.10 (oktober 2023)<br>
                                 Funktionen för åsidosättning av tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen från 30 juni till 13 juli 2023.</p>
                             </li>
                         </ul>
@@ -421,7 +421,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa och hantera Workfront-meddelanden från Workfront för plugin-program för Creative Cloud</a></p> 
-                        <p>För att förenkla för dig att få de meddelanden du behöver har vi gjort det möjligt att visa och hantera Workfront-meddelanden utan att behöva lämna Adobe Creative Cloud. Nu kan du visa meddelanden och komma åt arbetsobjekt och kommentarer som hör till dessa meddelanden direkt från Workfront plugin-fönster i programmet Creative Cloud.</p>
+                        <p>För att förenkla för dig att få de meddelanden du behöver har vi gjort det möjligt att visa och hantera Workfront-meddelanden utan att behöva lämna Adobe Creative Cloud. Nu kan du visa meddelanden, arbetsobjekt och kommentarer som hör till dessa meddelanden, direkt från Workfront plugin-fönster i programmet Creative Cloud.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -458,10 +458,10 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 11 maj 2023</p>
+                                <p>Förhandsversion: 11 maj 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: 24 maj 2023</span></p>
+                                <p><span class="preview">Produktionsversion: 24 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -474,10 +474,10 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 10 maj 2023</p>
+                                <p>Förhandsversion: 10 maj 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: 10 maj 2023</span></p>
+                                <p><span class="preview">Produktionsversion: 10 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -490,10 +490,10 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 10 maj 2023</p>
+                                <p>Förhandsversion: 10 maj 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: 10 maj 2023</span></p>
+                                <p><span class="preview">Produktionsversion: 10 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -506,7 +506,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 27 april 2023</p>
+                                <p>Förhandsversion: 27 april 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsrelease: 27 april 2023</span></p>
@@ -558,7 +558,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juni 2023<br /></p>
+                                <p>Förhandsversion: 22 juni 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.3</p>
@@ -588,7 +588,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny korrekturfunktion i Workfront mobilapp</a> </p>
-                        <p>I och med att den fristående Workfront Proof-appen har ersatts med 23.4 har den primära Workfront-mobilappen fått korrekturfunktioner så att korrektur på mobilen kan fortsätta.</p>
+                        <p>I och med att den fristående Workfront-korrekturappen har ersatts i version 23.10 (oktober 2023) har den primära Workfront-mobilappen fått korrekturfunktioner så att korrektur på mobilen kan fortsätta.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -628,7 +628,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 23 juni 2023</p>
+                                <p>Förhandsversion: 23 juni 2023</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.3</p>
@@ -644,11 +644,11 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: Anmäl dig efter 23.3-utgåvan</p>
+                                <p>Förhandsgranskningsversion: ska tillkännages efter 23.3-utgåvan</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för kunder med snabb lansering: Anmäl dig efter 23.3-utgåvan </p>
-                                <p>Produktionsrelease för alla kunder: Med version 23.4</p>
+                                <p>Produktionsrelease för kunder med snabb lansering: tillkännages efter 23.3-utgåvan </p>
+                                <p>Produktionsrelease för alla kunder: Med version 23.10 (oktober 2023)</p>
                             </li>
                         </ul>
                     </td>
@@ -680,7 +680,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                                 <p>Förhandsversion: 20 april 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: 4 maj 2023</span></p>
+                                <p><span class="preview">Produktionsversion: 4 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -710,7 +710,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 5 juni 2023<br /></p>
+                                <p>Förhandsversion: 5 juni 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsrelease: 5 juni 2023</span></p>
@@ -747,7 +747,7 @@ Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 
 
 ### Förbättringar av Workfront Scenario Planner
 
-Det finns inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
+Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-korrektur
 
@@ -769,19 +769,19 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 Mer information om underhållsuppdateringar som gjordes i version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### Utbildningsuppdateringar
+### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funktioner som snart ska tas bort från Workfront
 
 Följande funktioner kommer snart att tas bort från Workfront:
 
-#### Borttagning av mobilappen Proof med 23.4
+#### Borttagning av mobilappen Proof med version 23.10 (oktober 2023)
 
-Vi kommer officiellt att ta bort mobilappen Proof i version 23.4. Den allmänna Workfront-mobilappen har förbättrats med nya korrekturfunktioner (mer information finns i versionsinformationen under Workfront Mobile-förbättringarna) och användare rekommenderas att börja använda den för korrekturläsning så snart som möjligt.
+Vi kommer officiellt att ta bort mobilappen Proof i version 23.10 (oktober 2023). Den allmänna Workfront-mobilappen har förbättrats med nya korrekturfunktioner (mer information finns i versionsinformationen under Workfront Mobile-förbättringarna) och användare rekommenderas att börja använda den för korrekturläsning så snart som möjligt.
 
-Observera att Workfront mobilapp kräver en Workfront-inloggning. Externa användare och gäster kan fortsätta att använda korrekturappen för korrekturarbete. Den stöds dock inte längre och kommer inte att vara tillgänglig med 23.4.
+Observera att Workfront mobilapp kräver en Workfront-inloggning. Externa användare och gäster kan fortsätta att använda programmet Korrektur för korrekturarbete, men det stöds inte längre och kommer inte att vara tillgängligt i version 23.10 (oktober 2023).
 
 
 <!-- HTML you might need
