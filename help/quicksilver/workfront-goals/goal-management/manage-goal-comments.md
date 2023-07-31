@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
    <td> <p>Visa eller öka åtkomsten till mål</p> <p><b>ANMÄRKNING</b><p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Bevilja åtkomst till Adobe Workfront-mål</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Ge åtkomst till Adobe Workfront mål</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -120,17 +120,17 @@ Du måste ha följande innan du kan börja:
 
 * En layoutmall som innehåller området Mål på huvudmenyn.
 
-## Gå till uppdateringsavsnittet
+## Leta rätt på uppdateringsavsnittet
 
 Du kan lägga till kommentarer till mål i uppdateringsavsnittet på målsidan.
 
 Du kan svara på eller gilla en kommentar som du eller andra har lagt till i det här området.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) > **Mål** längst upp till höger.
 Detta öppnar mållistan.
 1. Leta reda på målet som du vill lägga till kommentarer i och klicka sedan på namnet för att öppna målsidan.
-1. Klicka  **Uppdateringar** i den vänstra panelen.
-1. Klicka på **Kommentarer** i det övre vänstra hörnet av uppdateringsområdet.
+1. Klicka  **Uppdateringar** till vänster.
+1. Klicka på **Kommentar** i det övre vänstra hörnet av uppdateringsområdet.
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -154,11 +154,9 @@ Detta öppnar mållistan.
 
    >[!TIP]
    >
-   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar visas en röd linje med en ny indikator som informerar dig om de nyare kommentarerna.
+   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar, visas en röd linje med en ny indikator som informerar dig om de nyare kommentarerna samt ett blått meddelande längst ned på skärmen som anger antalet nya kommentarer.
    >
    >Indikatorn visas bara när kommentaren har skickats för objektet och inte när kommentaren fortfarande är sammansatt.
-   >
-   >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-icon.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.

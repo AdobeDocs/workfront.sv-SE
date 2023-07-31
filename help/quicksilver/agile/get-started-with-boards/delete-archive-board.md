@@ -3,10 +3,11 @@ filename: delete-archive-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Ta bort eller arkivera en anslagstavla
-description: Du kan ta bort eller arkivera en anslagstavla i Workfront. Om du tar bort en anslagstavla permanent tas den bort från Workfront, och om du arkiverar en anslagstavla behålls alla kort och kan återställas vid ett senare tillfälle.
+description: Du kan ta bort eller arkivera en styrelse i Workfront. Om du tar bort en anslagstavla permanent tas den bort från Workfront, och om du arkiverar en anslagstavla behålls alla kort och kan återställas vid ett senare tillfälle.
 author: Lisa
+feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Ta bort en anslagstavla
 
