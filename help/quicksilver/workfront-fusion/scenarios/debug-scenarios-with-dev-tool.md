@@ -7,16 +7,20 @@ description: Med Adobe Workfront Fusion DevTool kan du förstå och felsöka sce
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
 
-# Felsökningsscenarier med [!DNL Adobe Workfront Fusion] DevTool
+# Felsökningsscenarier med [!DNL Adobe Workfront Fusion] Utvecklingsverktyg
 
 The [!DNL Adobe Workfront Fusion] Med DevTool kan du förstå och felsöka scenarier. DevTool lägger till en extra panel i [!DNL Chrome Developer Tools]. Med den här felsökningspanelen kan du kontrollera alla manuella körningar av ditt scenario, granska alla utförda åtgärder och se information om alla API-anrop som utförs. Du kan se vilken modul, åtgärd eller enskilt svar som orsakade felet och använda den kunskapen för att förfina ditt scenario.
+
+>[!NOTE]
+>
+>Workfront Fusion DevTool är inte tillgängligt för organisationer som använder Fusion via Adobe Unified Shell.
 
 ## Åtkomstkrav
 
@@ -47,13 +51,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -82,9 +86,9 @@ Du kan lägga till [!DNL Workfront Fusion] DevTool till [!DNL Chrome] via [!UICO
 The [!DNL Workfront Fusion] DevTool-tillägget läggs till i din [!DNL Chrome] tillägg.
 
 
-## Leta reda på [!DNL Workfront Fusion] DevTool
+## Leta reda på [!DNL Workfront Fusion] Utvecklingsverktyg
 
-Så här använder du [!DNL Workfront Fusion] DevTool, du måste lägga till [!DNL Workfront Fusion] DevTool-tillägg till din [!DNL Chrome] webbläsare, enligt beskrivning i [Installera Chrome DevTool-tillägget](#install-the-chrome-devtool-extension).
+Använd [!DNL Workfront Fusion] DevTool, du måste lägga till [!DNL Workfront Fusion] DevTool-tillägg till [!DNL Chrome] webbläsare, enligt beskrivning i [Installera Chrome DevTool-tillägget](#install-the-chrome-devtool-extension).
 
 1. Öppna [!DNL Workfront Fusion] scenario.
 1. Öppna [!DNL Chrome Developer Tools]:
@@ -110,7 +114,7 @@ Så här använder du [!DNL Workfront Fusion] DevTool, du måste lägga till [!D
 
 1. Klicka på **[!DNL Workfront Fusion]** tabba in [!DNL Chrome Dev Tools].
 
-## Använd [!DNL Workfront Fusion] DevTool
+## Använd [!DNL Workfront Fusion] Utvecklingsverktyg
 
 Workfront Fusion DevTool är uppdelat i tre huvudavsnitt. Du hittar dessa på den vänstra panelen i DevTool-fönstret.
 
@@ -143,7 +147,7 @@ Live Stream visar vad som händer i bakgrunden när du klickar på Kör en gång
         <li> <p>Begärandetext</p> </li> 
         <li> <p>Svarshuvuden</p> </li> 
         <li> <p>Svarstext</p> </li> 
-       </ul> <p>Om du vill visa den här informationen klickar du på lämplig flik i den högra panelen i dialogrutan [!DNL Workfront Fusion] DevTool.</p> </td> 
+       </ul> <p>Om du vill visa den här informationen klickar du på lämplig flik i den högra panelen i dialogrutan [!DNL Workfront Fusion] DevTool</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Sök efter förfrågningar och svar</p> </td> 
@@ -151,7 +155,7 @@ Live Stream visar vad som händer i bakgrunden när du klickar på Kör en gång
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Ta bort listan med begäranden </p> </td> 
-      <td> <p>Klicka på papperskorgsikonen i det övre högra hörnet av DevTool-verktygets vänstra panel för att rensa listan över begäranden som spelats in av [!DNL Workfront Fusion] DevTool. </p> </td> 
+      <td> <p>Klicka på papperskorgsikonen i det övre högra hörnet av DevTool-verktygets vänstra panel för att rensa listan över begäranden som spelats in av [!DNL Workfront Fusion] DevTool </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Aktivera konsolloggning</p> </td> 
@@ -261,7 +265,7 @@ Kopierar värden från källmodulen till målmodulen.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
-   <td> <p>Markera modulen eller ange ID:t för modulen som du vill infoga källmodulens värden i.</p> <p>Viktigt: Värden i målmodulen skrivs över.</p> </td> 
+   <td> <p>Markera modulen eller ange ID:t för modulen som du vill infoga källmodulens värden i.</p> <p>Viktigt: Värdena i målmodulen skrivs över.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,11 +288,11 @@ Kopierar filterinställningarna från källmodulen till målmodulen.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
-   <td> <p>Markera modulen eller ange ID:t för modulen där du vill infoga filtervärdena från källmodulen.</p> <p>Viktigt: Värden i målmodulen skrivs över.</p> </td> 
+   <td> <p>Markera modulen eller ange ID:t för modulen där du vill infoga filtervärdena från källmodulen.</p> <p>Viktigt: Värdena i målmodulen skrivs över.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Preserve Fallback Route setting]</p> </td> 
-   <td> <p>Källfiltret anges som reservflöde. Aktivera det här alternativet om du även vill ställa in målfiltret som reservflöde.</p> </td> 
+   <td> <p>Källfiltret anges som reservflöde. Aktivera det här alternativet om du även vill ange att målfiltret ska anges som reservflöde.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -314,11 +318,11 @@ Söker efter angivna variabler i scenariot och ersätter dem med en ny variabel.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Variable to Find]</td> 
-   <td> <p> Leta reda på variabeln som du vill ersätta från modulen i ditt scenario och kopiera den till det här ([!UICONTROL Variable to Find]). I fältet visas det med dubbla klammerparenteser. Exempel: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p> Leta reda på variabeln som du vill ersätta från modulen i ditt scenario och kopiera den till det här ([!UICONTROL Variable to Find]). I fältet visas det med dubbla klamrar. Exempel: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Replace With]</p> </td> 
-   <td> <p>Leta reda på variabeln som du vill ersätta variabeln med från modulen i ditt scenario och kopiera den till det här ([!UICONTROL Variable to Find]). I fältet visas det med dubbla klammerparenteser. Exempel: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>Leta reda på variabeln som du vill ersätta variabeln med från modulen i ditt scenario och kopiera den till det här ([!UICONTROL Variable to Find]). I fältet visas det med dubbla klamrar. Exempel: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Module]</p> </td> 
