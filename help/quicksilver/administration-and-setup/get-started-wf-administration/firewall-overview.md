@@ -4,26 +4,26 @@ content-type: overview
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Översikt över brandväggen
-description: Eftersom Adobe Workfront kommunicerar med organisationens nätverk måste organisationens brandvägg vara konfigurerad för att tillåta sådan kommunikation. Brandväggar är mycket effektiva säkerhetsåtgärder som fungerar genom att en organisations nätverk skiljs från internet. De ser till att endast utvalda data- och nätverkstrafik kan flyttas in i eller ut ur organisationens nätverk. Brandväggen tillåter eller blockerar data baserat på den webbplats som skickar eller tar emot data. Som Adobe Workfront-administratör måste du se till att data som skickas till eller från Workfront kan passera företagets brandvägg.
+description: Eftersom Adobe Workfront kommunicerar med din organisations nätverk måste organisationens brandvägg vara konfigurerad för att tillåta sådan kommunikation. Brandväggar är mycket effektiva säkerhetsåtgärder som fungerar genom att en organisations nätverk skiljs från internet. De ser till att endast utvalda data- och nätverkstrafik kan flyttas in i eller ut ur organisationens nätverk. Brandväggen tillåter eller blockerar data baserat på den webbplats som skickar eller tar emot data. Som Adobe Workfront-administratör måste du se till att data som skickas till eller från Workfront kan passera företagets brandvägg.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
 
 # Översikt över brandväggen
 
-Eftersom Adobe Workfront kommunicerar med organisationens nätverk måste organisationens brandvägg vara konfigurerad för att tillåta sådan kommunikation. Brandväggar är mycket effektiva säkerhetsåtgärder som fungerar genom att en organisations nätverk skiljs från internet. De ser till att endast utvalda data- och nätverkstrafik kan flyttas in i eller ut ur organisationens nätverk. Brandväggen tillåter eller blockerar data baserat på den webbplats som skickar eller tar emot data. Som Adobe Workfront-administratör måste du se till att data som skickas till eller från Workfront kan passera företagets brandvägg.
+Eftersom Adobe Workfront kommunicerar med din organisations nätverk måste organisationens brandvägg vara konfigurerad för att tillåta sådan kommunikation. Brandväggar är mycket effektiva säkerhetsåtgärder som fungerar genom att en organisations nätverk skiljs från internet. De ser till att endast utvalda data- och nätverkstrafik kan flyttas in i eller ut ur organisationens nätverk. Brandväggen tillåter eller blockerar data baserat på den webbplats som skickar eller tar emot data. Som Adobe Workfront-administratör måste du se till att data som skickas till eller från Workfront kan passera företagets brandvägg.
 
 Detta uppnås genom en tillåtelselista, som i huvudsak är en lista över webbplatser som&quot;tillåts&quot; att skicka eller ta emot data via brandväggen. Platserna kan identifieras på ett av två sätt:
 
-* **IP-adress**: en serie siffror, t.ex. 52.31.132.175
-* **Domän**: del av en URL, t.ex.&quot;this domain&quot; i www.thisdomain.com
+* **IP-adress**: en serie siffror som 52.31.132.175
+* **Domän**: del av en URL, t.ex.&quot;den här domänen&quot; i www.thisdomain.com
 
 Workfront använder specifika IP-adresser och domäner för webbkommunikation. Dessa måste läggas till i din organisations tillåtelselista innan du kan använda Workfront i din organisation.
 
@@ -57,13 +57,7 @@ Ge nätverksadministratören följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Din Workfront-plan</td> 
-   <td> <p>Din organisations plan är något av följande:</p> 
-    <ul> 
-     <li> <p>Enterprise </p> </li> 
-     <li> <p>Företag </p> </li> 
-     <li> <p>Pro </p> </li> 
-     <li> <p>Team </p> </li> 
-    </ul> <p>Information om hur du hittar din plan finns i <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visa din organisations kluster och Workfront-plan.</a></p> </td> 
+   <td> <p>Information om hur du hittar din organisations plan finns i <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visa din organisations kluster och Workfront-plan.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Din domän</td> 
@@ -78,7 +72,7 @@ Ge nätverksadministratören följande information:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront integreringar</td> 
+   <td role="rowheader">Adobe Workfront-integreringar</td> 
    <td>Informera nätverksadministratören om du använder något av följande:
     <ul>
      <li><p><p>Workfront för Jira</p></p></li>
@@ -105,10 +99,10 @@ Ge nätverksadministratören följande information:
 
 ### Visa din organisations kluster och Workfront-plan {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System** i den vänstra panelen
-1. Om du vill visa ditt kluster väljer du **Kundinformation**.
+1. Om du vill visa klustret väljer du **Kundinformation**.
 
    Klustret visas uppe till höger i **Grundläggande information** -avsnitt.
 

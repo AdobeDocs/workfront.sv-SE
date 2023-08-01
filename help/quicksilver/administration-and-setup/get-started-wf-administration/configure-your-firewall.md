@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1543'
 ht-degree: 13%
 
 ---
@@ -29,14 +29,14 @@ Om brandväggen eller e-postservern är konfigurerad att endast tillåta åtkoms
 
 * Skicka meddelanden från Workfront-programmet
 
-   >[!NOTE]
-   >
-   >Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
+  >[!NOTE]
+  >
+  >Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
 * Använda dokumentwebhooks när du konfigurerar anpassade dokumentintegreringar
 * Använda Workfront Event-prenumerationer
 
-   Mer information finns i [API för händelseprenumeration](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Mer information finns i [API för händelseprenumeration](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 Du måste även öppna vissa portar för att e-postmeddelanden ska kunna krypteras när de levereras.
 
@@ -44,12 +44,24 @@ Du måste även öppna vissa portar för att e-postmeddelanden ska kunna krypter
 
 Om din organisation har Enterprise-planen kan du även konfigurera två Workfront-tillåtelselista:
 
-* **E-post tillåtelselista**: Här kan du styra var användare kan skicka e-postdata som lagras i Workfront. Mer information finns i [Konfigurera din e-postadress tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP tillåtelselista**: Begränsar åtkomst till Workfront till 45 IP-adresser eller IP-adressintervall som du anger, vilket ger ytterligare ett säkerhetslager för Workfront-programmet. Mer information finns i [Begränsa åtkomst till Adobe Workfront via IP-adress](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **E-post tillåtelselista**: Används för att styra var användare kan skicka e-postdata som lagras i Workfront. Mer information finns i [Konfigurera din e-postadress tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **IP TILLÅTELSELISTA**: Begränsar åtkomst till Workfront till 45 IP-adresser eller IP-adressintervall som du anger, vilket ger ytterligare ett säkerhetslager för Workfront-programmet. Mer information finns i [Begränsa åtkomst till Adobe Workfront via IP-adress](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+
+## Hitta ditt Workfront-kluster
+
+IP-adresserna som du måste lägga till i tillåtelselista på brandväggen beror på vilket kluster som produktionsmiljön körs i.
+
+Så här hittar du din organisations kluster:
+
+1. Som Workfront-administratör klickar du på **Huvudmeny** icon ![Huvudmeny](assets/main-menu-icon.png)och sedan klicka **Inställningar**.
+1. Klicka på i den vänstra navigeringen **System** väljer **Kundinformation**.
+1. Leta reda på **Klusterinställning** i det övre högra hörnet på sidan. Organisationens kluster listas här.
+
+   CL01 refererar till Cluster 1, CL02 är Cluster 2 osv.
+
+Mer information finns i avsnittet [Visa din organisations kluster och Workfront-plan](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) i artikeln [Översikt över brandväggen](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## IP-adresser som ska läggas till i tillåtelselista
-
-IP-adresserna som du måste lägga till i tillåtelselista på brandväggen beror på vilket kluster som produktionsmiljön körs i. Du kan ta reda på vilket kluster det här är genom att välja Inställningar > System > Anpassad information. Mer information finns i avsnittet [Konfigurera grundläggande information](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md#configuring-basic-info) i artikeln [Konfigurera grundläggande information för ditt system](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 >[!IMPORTANT]
 >
@@ -58,7 +70,6 @@ IP-adresserna som du måste lägga till i tillåtelselista på brandväggen bero
 >* Workfront for G Suite
 >* Workfront för Outlook
 >* Workfront för Salesforce
-
 
 * [IP-adresser som tillåter Kluster 1, 2, 3, 5, 7, 8 och 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-adresser som tillåter kluster 4](#ip-addresses-to-allow-for-cluster-4)
@@ -368,7 +379,7 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
 
 Lägg till följande IP-adresser i tillåtelselista för att använda Workfront för Jira-integrering.
 
-Jira.workfront.com-domänen måste också vara tillgänglig från dina företagsservrar. Den här domänen krävs eftersom den fungerar som mellanvara mellan Workfront och Jira.
+jira.workfront.com måste också vara åtkomlig från företagets servrar. Den här domänen krävs eftersom den fungerar som mellanvara mellan Workfront och Jira.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -483,10 +494,10 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
    <td role="rowheader">Om du vill att Workfront Proof ska kunna komma åt Workfront i alla kluster lägger du till dessa i alla miljöer</td> 
    <td> 
     <ul> 
-     <li>*.workfront.com - krävs för att visa korrektur i Workfront</li> 
-     <li>*.proofhq.com - krävs för att visa korrektur i Workfront Proof</li> 
+     <li>*.workfront.com - Krävs för att visa korrektur i Workfront</li> 
+     <li>*.proofhq.com - Krävs för att visa korrektur i Workfront Proof</li> 
      <li>*.proofhq.eu - Krävs för att visa korrektur i Workfront Proof</li> 
-    </ul> <p><b>ANMÄRKNING</b>:  <p>Vi stöder inte att du lägger till IP-adresser i tillåtelselista för Workfront Proof. De har varit dynamiska sedan Workfront flyttat till AWS. Vi rekommenderar att du bara tillåter Workfront Proof-domäner.</p> <p>Om du har problem med att lägga till de här domänerna på tillåtelselista och du behöver en IP-adress i stället kontaktar du Workfront kundsupport.</p> </p> </td> 
+    </ul> <p><b>ANMÄRKNING</b>:  <p>Det går inte att lägga till IP-adresser i tillåtelselista för Workfront Proof. De har varit dynamiska sedan Workfront flyttat till AWS. Vi rekommenderar att du bara tillåter Workfront Proof-domäner.</p> <p>Om du har problem med att lägga till de här domänerna på tillåtelselista och du behöver en IP-adress i stället kontaktar du Workfront kundsupport.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
