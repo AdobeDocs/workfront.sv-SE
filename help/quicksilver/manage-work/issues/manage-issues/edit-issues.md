@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2504'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,13 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter för ett problem som du kan redigera i området Ärendeinformation </p> <p>Hantera behörigheter för ett problem för att redigera det i rutan Redigera problem</p> <p> Information om hur du beviljar behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörighet för ett problem om du vill redigera följande fält i området Detaljer: </p>
+   <ul>
+   <li>Beskrivning</li>
+   <li>Status</li>
+   <li>Allvarlighetsgrad</li>
+   </ul>
+   <p>Hantera behörigheter för ett problem för att redigera alla fält i området Detaljer eller i rutan Redigera problem</p> <p> Information om hur du beviljar behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,11 +72,11 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Gå till **Huvudmeny**.
 1. Klicka **Projekt** klickar du sedan på namnet på ett projekt för att öppna projektet.
 1. (Valfritt) Klicka på **Uppgifter** klickar du sedan på namnet på en uppgift för att öppna uppgiften.
-1. Klicka **Problem** i den vänstra panelen.
+1. Klicka **Problem** till vänster.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
-1. (Valfritt) Om du vill redigera begränsad information om ett problem klickar du på **Ärendeinformation** i den vänstra panelen.
+1. (Valfritt) Om du vill redigera begränsad information om ett problem klickar du på **Ärendeinformation** till vänster.
 
    ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
@@ -86,7 +92,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    1. (Valfritt) Klicka på **Exportera** icon ![](assets/export.png) om du vill exportera översikten och information om anpassade formulär till en PDF-fil, och sedan klicka på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
-      * Översikt
+      * Ökning
       * Namnet på ett eller flera anpassade formulär
 
       PDF-filen hämtas till datorn.
@@ -114,7 +120,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Det kan vara bra att ange information i följande avsnitt:
 
    * [Ärendenamn](#issue-name)
-   * [Översikt](#overview)
+   * [Ökning](#overview)
    * [Uppdrag](#assignments)
    * [Anpassad Forms](#Custom%C2%A0F)
    * [Inställningar](#settings)
@@ -135,10 +141,10 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Uppdatera **Ärendenamn** fält.
 1. Klicka **Spara** eller fortsätta redigera följande avsnitt.
 
-### Översikt {#overview}
+### Ökning {#overview}
 
 1. Börja redigera ett problem enligt beskrivningen ovan.
-1. Klicka **Översikt**.
+1. Klicka **Ökning**.
 
    ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
@@ -153,7 +159,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
       <td> <p>Lägg till ytterligare information om problemet.</p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader">Avsnittet Grundläggande information</td> 
+      <td colspan="2" role="rowheader">Avsnittet Grundinformation</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
@@ -197,7 +203,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
      </tr> 
      <tr> 
       <td role="rowheader">Primär kontakt</td> 
-      <td>Som standard är den primära kontakten den som skapar problemet. Om du vill ändra detta börjar du skriva namnet på en aktiv användare i Workfront och väljer den i listan. Ett problem kan bara ha en primär kontakt.<br> Om du ändrar den primära kontakten har den ursprungliga primära kontakten fortfarande Hantera åtkomst till problemet. När du delar ett problem måste du ta bort den här åtkomsten manuellt från rutan Utfärda åtkomst.
+      <td>Som standard är den primära kontakten den som skapar problemet. Om du vill ändra detta börjar du skriva namnet på en aktiv användare i Workfront och väljer den i listan. Ett problem kan bara ha en primär kontakt.<br> Om du ändrar den primära kontakten har den ursprungliga primära kontakten fortfarande Hantera åtkomst till problemet. När du delar ett problem måste du ta bort den här åtkomsten manuellt från rutan Utfärdandeåtkomst.
 
    <b>TIPS</b>
 
@@ -233,7 +239,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 
    <b>ANMÄRKNING</b>
 
-   När du väljer ett objekt som ska lösa ett problem länkas problemstatusen till det objekt som ska lösas och kan inte ändras i det här problemet. Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över upplösta och upplösta objekt </a>.
+   När du väljer ett objekt som ska lösa ett problem länkas problemstatusen till det objekt som ska lösas och kan inte ändras i det här problemet. Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.
 
    <b>TIPS</b>
 
@@ -244,7 +250,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
      </tr>
 
    <tr> 
-      <td role="rowheader">Löser problem, löser uppgift eller löser projekt</td> 
+      <td role="rowheader">Löser problem, åtgärdar aktivitet eller löser projekt</td> 
       <td>Det länkade namnet på det problem, den uppgift eller det problem som löser problemet.  </td> 
      </tr> 
       <tr> 
@@ -265,7 +271,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 #### Uppdrag {#assignments}
 
 1. Börja redigera problemet enligt beskrivningen ovan.
-1. Klicka **Uppdrag** i den vänstra panelen.
+1. Klicka **Uppdrag** till vänster.
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
@@ -353,9 +359,9 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
        <p>Tänk på följande när du lägger till godkännandeprocesser: </p> 
        <ul> 
        <li>Endast aktiva godkännandeprocesser visas i listan. </li> 
-       <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. En godkännandeprocess som är associerad med en annan grupp än den som projektet har visas inte i listan.</p> <p>Viktigt: Om projektgruppen ändras blir den gruppspecifika godkännandeprocessen en enda godkännandeprocess. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>. </p> </li> 
+       <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. En godkännandeprocess som är associerad med en annan grupp än den som projektet har visas inte i listan.</p> <p>Viktigt: Om projektgruppen ändras blir den gruppspecifika godkännandeprocessen en godkännandeprocess för engångsbruk. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>. </p> </li> 
        <li> <p>Du kan definiera standardprocesser för godkännande som automatiskt bifogas till ärenden när du skapar frågeköer eller köämnen. Information om hur du uppdaterar köinformation finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>. Mer information om hur du skapar köämnen finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Skapa köämnen</a>. </p> </li> 
-       <li>Följande scenarier gäller vid gruppredigering: 
+       <li>Följande scenarier används vid gruppredigering: 
        <ul> 
        <li><p>När du väljer flera utgåvor från samma grupp visas både system- och gruppspecifika godkännandeprocesser i det här fältet.</p></li> 
        <li><p>När du väljer flera utgåvor från olika grupper visas endast godkännandeprocesser på systemnivå i det här fältet.</p></li> 
@@ -366,7 +372,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
      </tr> 
      <tr> 
       <td role="rowheader">Påminnelsemeddelanden</td> 
-      <td> <p>Markera den kryssruta för vilken du vill bifoga påminnelsemeddelanden till den här utgåvan. Alla påminnelsemeddelanden för problem visas. Workfront-administratören måste konfigurera påminnelsemeddelanden innan du kan välja dem i ett ärende. Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Ställ in påminnelsemeddelanden</a></p> </td> 
+      <td> <p>Markera den kryssruta för vilken du vill bifoga påminnelsemeddelanden till den här utgåvan. Alla påminnelsemeddelanden för problem visas. Din Workfront-administratör måste konfigurera påminnelsemeddelanden innan du kan välja dem i ett ärende. Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Ställ in påminnelsemeddelanden</a></p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt eller högre</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst eller senare till projekt </p>
+
+<p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter till projektet eller högre</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa åtkomst till projektet för att visa begränsad information om projektet</p> 
+   <p>Hantera åtkomst till projektet för att redigera information om projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,12 +58,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Öppna avsnittet Översikt
 
 1. Gå till det projekt vars översiktsavsnitt du vill visa.
-1. Klicka **Projektinformation** i den vänstra panelen.
-1. The **Översikt** -avsnittet ska visas först som en del av projektinformationen och ska expanderas som standard
+1. Klicka **Projektinformation** till vänster.
+1. The **Ökning** -avsnittet ska visas först som en del av projektinformationen och ska expanderas som standard
 
    eller
 
-   Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Översikt**. Då öppnas området Översikt för redigering.
+   Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ökning**. Då öppnas området Översikt för redigering.
 
    >[!NOTE]
    >
@@ -70,7 +73,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Mer information om hur du redigerar projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Redigera eller granska fälten i tabellen nedan som visas i **Översikt** -avsnitt.\
+1. Redigera eller granska fälten i tabellen nedan som visas i **Ökning** -avsnitt.\
    Om du vill redigera ett fält som är tillgängligt för redigering klickar du på fältet eller klickar **+Lägg till** om du vill lägga till information i ett tomt fält.
 
    >[!NOTE]
@@ -87,7 +90,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
      <tr> 
       <td role="rowheader">Beskrivning</td> 
-      <td>Beskriv syftet med det här projektet. </td> 
+      <td>Beskriv syftet med projektet. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -99,7 +102,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Projektstatus. </p> <p>Tips: Du kan inte slutföra ett projekt om inte alla aktiviteter och ärenden också har slutförts. Om du har valt Automatiskt för Projektets slutföringsläge går det inte att slutföra ett projekt manuellt. </p> </td> 
+      <td> <p>Projektstatus. </p> <p>Tips! Du kan inte slutföra ett projekt om inte alla aktiviteter och ärenden också har slutförts. Om du har valt Automatiskt för Projektets slutföringsläge går det inte att slutföra ett projekt manuellt. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Villkorstyp</td> 
@@ -115,7 +118,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Planerat slutförandedatum och tid</td> 
-      <td> När projektet är planerat att slutföras. Detta anges manuellt av projektledaren när projektet schemaläggs från slutförandedatum. Workfront anger automatiskt detta datum när projektet schemaläggs från startdatum, baserat på varaktigheten för aktiviteterna i projektet. </td> 
+      <td> När projektet är planerat att slutföras. Detta anges manuellt av projektledaren när projektet schemaläggs från slutförandedatum. Workfront ställer automatiskt in detta datum när projektet schemaläggs från startdatum, baserat på varaktigheten för aktiviteterna i projektet. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Portfolio</td> 
@@ -208,7 +211,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader"><span>Initiera befattningsroller inom heltidsanställda och timmar</span> </td> 
-      <td> <p>Information om associerade jobbroller och deras tidsfördelningar för initiativet. Detta omfattar följande:</p> 
+      <td> <p>Information om de associerade jobbrollerna och deras tidsfördelningar för initiativet. Detta omfattar följande:</p> 
        <ul> 
         <li>Jobbrollsnamn</li> 
         <li>Antal heltidsanställda</li> 

@@ -6,9 +6,9 @@ description: Hantera aktivitetsinformation i området Översikt över aktivitets
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7e591a8eb801da463f05b574c091f68278974ad7
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2089'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,15 @@ Du måste ha följande:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>Contribute eller högre behörigheter för projektet</p> <p>Visa behörigheter för aktiviteten för att visa information i avsnittet Detaljer. </p> <p>Hantera behörigheter för aktiviteten för att uppdatera information i avsnittet Detaljer.</p> </td> 
+   <td> <p>Contribute eller högre behörigheter för projektet</p> <p>Visa behörigheter för aktiviteten om du vill visa information i detaljavsnittet. </p> 
+   <p>Contribute-behörighet för aktiviteten så att följande information uppdateras i avsnittet Detaljer:</p>
+
+<ul>
+   <li>Beskrivning</li>
+   <li>Status</li>
+   </ul>
+
+<p>Hantera behörigheter för aktiviteten för att uppdatera all information i detaljavsnittet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +69,7 @@ Du måste ha följande:
 
 1. Gå till en uppgift som du vill visa eller redigera.
 1. Klicka **Uppgiftsinformation** i den vänstra panelen .
-1. Gå till **Översikt** för att visa mer information om uppgiften.
+1. Gå till **Ökning** för att visa mer information om uppgiften.
 
    Som standard är Översikt det första området i avsnittet Uppgiftsinformation och det färdigställs.
 
@@ -69,7 +77,7 @@ Du måste ha följande:
    >
    >Beroende på hur din Workfront-administratör eller gruppadministratör konfigurerar vår layoutmall kan fälten i avsnittet Uppgiftsinformation ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Översikt**.
+1. Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ökning**.
 
    >[!TIP]
    >
@@ -98,7 +106,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Välj status för uppgiften som anger vilket utvecklingsstadium aktiviteten befinner sig i.</p> <p>Tips: Du kan uppdatera aktivitetsstatus i uppgiftshuvudet. </p> </td> 
+      <td> <p>Välj status för uppgiften som anger vilket utvecklingsstadium aktiviteten befinner sig i.</p> <p>Tips! Du kan uppdatera aktivitetsstatus i uppgiftshuvudet. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Prioritet</td> 
@@ -112,7 +120,7 @@ Du måste ha följande:
        </ul> <p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om uppgiftsprioriteringar finns i <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Uppdatera aktivitetsprioritet</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Typ av varaktighet</td> 
+      <td role="rowheader">Varaktighetstyp</td> 
       <td> <p>Detta identifierar relationen mellan följande: </p> 
        <ul> 
         <li> <p>Antalet resurser som tilldelats en aktivitet </p> </li> 
@@ -132,7 +140,7 @@ Du måste ha följande:
        <div> 
         <div> 
          <p>Det här är den tid som du tillåter att en uppgift förblir öppen innan den är slutförd. </p> 
-         <p>Viktigt: Eftersom aktivitetens varaktighet vanligtvis är tiden mellan planerad start och planerad slutförandetid, påverkar det tidslinjen för projektet.</p> 
+         <p>Viktigt: Eftersom aktivitetens varaktighet vanligtvis är tiden mellan planerat startdatum och planerat slutförandedatum, påverkar det tidslinjen för projektet.</p> 
          <p>Så här anger du aktivitetens varaktighet och tidsenhet:</p> 
          <ul> 
           <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Skriv in tidslängden och välj en tidsenhet i listrutan.</p> </li> </ul>
@@ -155,7 +163,7 @@ Du måste ha följande:
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Dagar. Detta är standardinställningen. </td> 
+            <td>Dagar. Det här är standardinställningen. </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -201,7 +209,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Faktisk varaktighet</td> 
-      <td> <p>Skillnaden i antal dagar mellan det faktiska startdatumet och det faktiska slutförandedatumet. Det var så länge det faktiskt tog att slutföra arbetet. </p> </td> 
+      <td> <p>Skillnaden i antal dagar mellan det faktiska startdatumet och det faktiska slutförandedatumet. Det var så länge sedan det faktiskt tog att slutföra arbetet. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planerade timmar</td> 
@@ -217,7 +225,7 @@ Du måste ha följande:
        <div> 
         <p>Den mängd arbete som krävs för att slutföra uppgiften. Projektledaren kan välja att använda det här fältet i stället för Planerade timmar för att beräkna hur mycket arbete som krävs för att slutföra en uppgift. Det här fältet är bara synligt när följande villkor är uppfyllda:</p> 
         <ul> 
-         <li> <p>Aktiviteten har en enkel varaktighet. </p> <p>Tips: Om du ändrar uppgiftens varaktighet, tonas det här fältet ned. </p> </li> 
+         <li> <p>Aktiviteten har en enkel varaktighetstyp. </p> <p>Tips! Om du ändrar uppgiftens varaktighetstyp tonas det här fältet ned. </p> </li> 
          <li>Projektledaren har aktiverat fältet Använd arbetsinsats för att automatiskt beräkna aktivitetsplanerade timmar i projektet. </li> 
         </ul> 
         <p>Välj bland följande alternativ:</p> 
@@ -244,7 +252,7 @@ Du måste ha följande:
         <li> <p><span>Så sent som möjligt</span></p> </li> 
         <li> <p><span>Tidigaste tillgängliga tid</span></p> </li> 
         <li> <p> <span>Senaste tillgängliga tid</span></p> </li> 
-        <li> <p><span>Starta inte senare än</span> </p> </li> 
+        <li> <p><span>Starta senast</span> </p> </li> 
         <li> <p>Ange ett planerat startdatum</p> </li> 
         <li> <p><span>Starta tidigast</span> </p> <p>Ange en <strong>Planerat startdatum</strong>. </p> </li> 
         <li> <p> Slutför <span>Inte senare än</span></p> <p>Ange en <strong>Planerat slutförandedatum</strong>. </p> </li> 
@@ -270,7 +278,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Planerat slutförandedatum</td> 
-      <td> <p>Det förväntade slutförandedatumet som visas när aktiviteten planeras. Det planerade slutförandedatumet kan anges av flera faktorer:</p> 
+      <td> <p>Det förväntade slutförandedatumet som visas när aktiviteten är planerad. Det planerade slutförandedatumet kan anges av flera faktorer:</p> 
        <ul> 
         <li>Det planerade slutförandedatumet beräknas från det planerade startdatumet genom att lägga till aktivitetens varaktighet till det planerade startdatumet. När projektledaren eller Workfront anger aktivitetens varaktighet utlöses en uppdatering av det planerade slutförandedatumet. Om det planerade datumet ändras beror det ofta på att tidslängden har uppdaterats.</li> 
         <li>Projektledaren eller aktivitetsägaren kan manuellt ange det planerade slutförandedatumet när aktivitetsbegränsningen är Fast datum eller Måste avslutas den. Mer information om uppgiftsbegränsningar finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>.</li> 
@@ -298,7 +306,7 @@ Du måste ha följande:
       <td>Den person som skapade uppgiften.</td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Senast uppdaterat den</td> 
+      <td role="rowheader">Senast uppdaterat</td> 
       <td> <p>Datumet då uppgiften senast uppdaterades. </p> <p>Tips: Workfront registrerar ett uppdaterat datum varje gång någon redigerar och sparar en uppgift.</p> </td> 
      </tr> 
      <tr> 
