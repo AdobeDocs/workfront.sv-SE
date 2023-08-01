@@ -6,9 +6,9 @@ title: Adobe Workfront inbyggda integreringsöversikt
 description: Ni kan integrera [!DNL Adobe Workfront] med program från tredje part. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Om du till exempel arbetar kreativt i marknadsföringsbranschen kan du använda Adobe Creative Cloud-tillägget för att exportera mediefiler direkt från Photoshop till Workfront.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
    <td> 
     <ul> 
      <li> <p>Integrera med en webbaserad version av Outlook i molnbaserade Office 365 eller Outlook Live. </p> </li> 
-     <li> <p>Visa alla händelser från [!DNL Outlook] kalendrar och associerade kalendrar som du väljer, till exempel födelsedagar och helgdagar, i din hemkalender.</p>  <p>Obs! Outlook-kalenderkonfigurationen är helt skild från Outlook-tillägget (Outlook-integrering eller Workfront för Outlook). Det krävs ingen installation för att konfigurera kalendern.</p></li> 
+     <li> <p>Visa alla händelser från [!DNL Outlook] kalendrar och associerade kalendrar som du väljer, till exempel födelsedagar och helgdagar, i din hemkalender.</p>  <p>Obs! Outlook-kalenderkonfigurationen är helt separat från Outlook-tillägget (Outlook-integrering eller Workfront för Outlook). Du behöver inte installera kalendern.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -148,13 +148,6 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
    <td> 
     <ul> 
      <li>Länka dokument och mappar till [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM*</td> 
-   <td> 
-    <ul> 
-     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Länka digitalt material till [!DNL Workfront]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

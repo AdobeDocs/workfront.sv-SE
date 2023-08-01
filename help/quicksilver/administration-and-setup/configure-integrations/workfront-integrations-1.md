@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront integreringar
+title: Adobe Workfront-integreringar
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
@@ -9,7 +9,7 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Så här kommer du igång med inbyggda (inbyggda) integreringar:
 
 1. **Identifiera er teknikadministratör**
 
-   Identifiera organisationens teknikadministratör för det program du vill integrera med [!DNL Workfront]. Om du till exempel väljer att integrera med [!DNL Jira]måste du ha kontakt med företagets [!DNL Jira] administrera och engagera dem i alla konfigurationsbehov på deras plattform. Du bör även ta med den här administratören i alla konversationer med [!DNL Workfront] Kundsupport.
+   Identifiera organisationens teknikadministratör för det program du vill integrera med [!DNL Workfront]. Om du till exempel väljer att integrera med [!DNL Jira]måste du ha kontakt med företagets [!DNL Jira] administrera och engagera dem i alla konfigurationsbehov på deras plattform. Du bör även ta med den här administratören i alla samtal med [!DNL Workfront] Kundsupport.
 
    För att få igång administratören måste du ge dem de specifika instruktionerna för integreringen. Länkar till dessa instruktioner finns i [Integrationer utan extra kostnad](#integrations-available-at-no-additional-cost).
 
@@ -76,7 +76,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
  <thead> 
   <tr> 
    <th>System</th> 
-   <th>Översikt</th> 
+   <th>Ökning</th> 
    <th>Krav</th> 
    <th>Vem kan installera det?</th> 
   </tr> 
@@ -124,7 +124,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
     <ul> 
      <li>Lägg till en [!DNL G-Suite] e-post till ett projekt eller en uppgift </li> 
      <li>Visa och hantera [!DNL Workfront] meddelanden i [!DNL Gmail]</li> 
-     <li>Skicka begäranden via [!DNL Gmail] </li> 
+     <li>Skicka förfrågningar via [!DNL Gmail] </li> 
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for G Suite]</a>.</p> </td> 
    <td> 
     <ul> 
@@ -163,7 +163,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> 
     <ul> 
      <li> Installation endast av en [!DNL Jira] administratör</li> 
-     <li>Icke-[!DNL Jira] administratörer måste begära och få åtkomst från [!DNL Jira] administratör</li> 
+     <li>Ej[!DNL Jira] administratörer måste begära och få åtkomst från [!DNL Jira] administratör</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -171,8 +171,8 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> 
     <ul> 
      <li> <p>Integrera med en webbaserad version av [!DNL Outlook] i molnet [!DNL Office 365] eller [!DNL Outlook Live.] </p> </li> 
-     <li> <p>Visa alla händelser från [!DNL Outlook] kalendrar och associerade kalendrar som du väljer, t.ex. födelsedagar och helgdagar, i dina [!UICONTROL Home Calendar].</p> </li> 
-    </ul> <p><b>ANMÄRKNING</b>: The [!UICONTROL Outlook] kalenderkonfigurationen är helt separat från [!DNL Outlook] Tillägg ([!DNL Outlook] Integrering eller [!DNL Workfront for Outlook]). Det krävs ingen installation för att konfigurera kalendern.</p> <p>Mer information finns i <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Konfigurera [!UICONTROL Home Calendar] visningsinställningar</a>.</p> </td> 
+     <li> <p>Visa alla händelser från [!DNL Outlook] kalendrar och associerade kalendrar som du väljer, t.ex. födelsedagar och helgdagar, i [!UICONTROL Home Calendar].</p> </li> 
+    </ul> <p><b>ANMÄRKNING</b>: [!UICONTROL Outlook] kalenderkonfigurationen är helt separat från [!DNL Outlook] Tillägg ([!DNL Outlook] Integrering eller [!DNL Workfront for Outlook]). Du behöver inte installera kalendern.</p> <p>Mer information finns i <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Konfigurera [!UICONTROL Home Calendar] visningsinställningar</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -197,7 +197,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> 
     <ul> 
      <li>[!DNL Outlook] 2013 eller 2016 för [!DNL Windows] och [!DNL Outlook] 2016 för [!DNL Mac] </li> 
-     <li>[!DNL Outlook] på webben måste vara för [!DNL Exchange] 2016 och [!DNL Office] 365 </li> 
+     <li>[!DNL Outlook] på webben måste [!DNL Exchange] 2016 och [!DNL Office] 365 </li> 
      <li>[!DNL Outlook Web Access] måste vara för [!DNL Exchange] 2013 </li> 
      <li>Direktanslutning till en [!DNL Exchange] Server eller [!DNL Office 365]</li> 
     </ul> </td> 
@@ -287,17 +287,13 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
 
 [!DNL Workfront] gör det möjligt att utnyttja andra inbyggda integreringar och integrerade produkter till en extra kostnad. Kontakta din kontorepresentant för att få prisinformation.
 
-* [!DNL Workfront DAM]
-
-   Mer information finns i [[!DNL Adobe Workfront DAM] inom [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md).
-
 * [!DNL Workfront Fusion]
 
-   Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](../../workfront-fusion/get-started/workfront-fusion-overview.md).
+  Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-   Mer information finns i [Konfigurera [!DNL Workfront] med [!DNL Adobe Experience Manager] äldre koppling](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+  Mer information finns i [Adobe Workfront för Experience Manager Assets och Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 
 ## Partnerintegreringar
 
