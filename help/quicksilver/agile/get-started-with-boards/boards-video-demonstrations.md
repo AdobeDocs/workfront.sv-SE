@@ -7,9 +7,9 @@ description: I de här videofilmerna kommer du att få se olika typer av anslags
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,12 @@ Med ett enkelt eller grundläggande kort kan du snabbt komma igång med hjälp a
 En kanban-tavla kan innehålla en eftersläpning, eller en inloppskolumn, som är konfigurerad med filter för att placera uppgifter och problem från Workfront i styrelsen.
 
 [Visa en videodemonstration av en kanban-tavla.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### Dynamiskt kort
+
+Med en dynamisk anslagstavla kan du automatiskt fylla i en anslagstavla med kort som baseras på ett Workfront-projekt. Med hjälp av filter läggs kort till i kolumner baserat på deras status.
+
+[Visa en videodemonstration av ett dynamiskt kort.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Mobilkort
 
