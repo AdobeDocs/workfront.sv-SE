@@ -5,9 +5,9 @@ title: Kom igång med nya startsidor i Adobe Workfront
 description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,17 @@ Widgets är grunden för New Home. Genom att lägga till widgetar på hemsidan k
 
 * **Att göra**\
     Med den här unika widgeten kan du lägga till textobjekt i en personlig checklista som du kan redigera fritt.
+
+Som standard innehåller startsidan några specifika widgetar baserat på din licenstyp. Tabellen nedan visar vilka widgetar användare av varje licenstyp ser när de först navigerar till Nytt hem.
+
+| **Äldre licenstyp** | **Standardwidgetar** | **Aktuell licenstyp** | **Standardwidgetar** |
+|---|---|---|---|
+| Plan | Mina projekt, omnämnanden, uppgifter | Standard | Mina projekt, mitt arbete, omnämnanden, uppgifter |
+| Arbete | Mitt arbete, omnämnanden, att göra | Ljus | Mitt arbete, väntar på mitt godkännande, uppgifter |
+| Granska | Mitt arbete, omnämnanden, att göra | Medarbetare | Mitt arbete, omnämnanden, att göra |
+| Begränsad | Mina projekt, väntar på mitt godkännande, uppgifter | Extern | Väntar på mitt godkännande, uppgifter |
+| Medarbetare | Mitt arbete, omnämnanden, att göra |  |  |
+| Extern | Väntar på mitt godkännande, uppgifter |  |  |
 
 Mer information om hur du lägger till, flyttar, ändrar storlek på eller tar bort widgetar finns i [Lägga till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
