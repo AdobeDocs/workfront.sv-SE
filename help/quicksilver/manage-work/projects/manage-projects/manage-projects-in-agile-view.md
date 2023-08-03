@@ -1,19 +1,21 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Hantera ett projekt i Agile-vyn
+title: Hantera ett projekt i flexibel vy
 description: Obligatoriska planer, licenstyper och åtkomst till Adobe Workfront Plan Team, Pro, Business eller Enterprise Workfront License Type Review, Work eller Plan Behörigheter i åtkomstmodellen Redigera åtkomst och möjlighet att skapa rapporter, instrumentpaneler och kalendrar
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
 
-# Hantera ett projekt i Agile-vyn
+# Hantera ett projekt i flexibel vy
+
+{{preview-and-fast-release}}
 
 <!--
 Required plans, license types, and access
@@ -95,7 +97,7 @@ Följande smidiga funktioner är tillgängliga när du hanterar ett projekt i en
 * Story board\
   Mer information om artikelpanelen finns i [Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) -avsnitt.
 
-Det finns vissa skillnader mellan att använda flexibla vyer i ett projekt och att arbeta i en rent flexibel miljö (med eftersläpningar och iterationer). Mer information finns i [Skillnader när du använder Agile-vyn i ett projekt jämfört med en iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) i den här artikeln.
+Det finns vissa skillnader mellan att använda rörliga vyer i ett projekt och att arbeta i en rent flexibel miljö (med eftersläpningar och iterationer). Mer information finns i [Skillnader när du använder Agile-vyn i ett projekt jämfört med en iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) i den här artikeln.
 
 ### Skillnader när du använder Agile-vyn i ett projekt jämfört med en iteration {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
@@ -161,8 +163,8 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 
 ## Visa ett projekt i Agile-vyn
 
-1. Gå till det projekt du vill visa i en flexibel vy.
-1. Klicka på **styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png).
+1. Gå till projektet som du vill visa i en flexibel vy, antingen i uppgiftslistan <span class="preview">eller listan över utgåvor</span>.
+1. Klicka på **Styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png).
 
    Vyn i projektvyn visas som standard.
 
@@ -180,7 +182,7 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 
    Klicka på **Visa** och klicka sedan på den anpassade flexibla vy som du vill visa.
 
-   Den anpassade flexibla vyn används nästa gång du klickar på **Agile** ikon.
+   Den anpassade flexibla vyn används nästa gång du klickar på **Agile** -ikon.
 
    Mer information om hur du skapar en ny flexibel vy finns i [Skapa och anpassa Agile-vyer](#create-and-customize-agile-views).
 
@@ -192,7 +194,7 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 
    Om du vill lägga till statusvärden i den flexibla vyn skapar du en ny flexibel vy eller anpassar en befintlig flexibel vy enligt beskrivningen i avsnittet&quot;Skapa eller anpassa en flexibel vy&quot; i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Valfritt) Om du vill återgå till listvyn klickar du på **Lista** ikon.
+1. (Valfritt) Om du vill återgå till listvyn klickar du på **Lista** -ikon.
 
 ## Skapa och anpassa Agile-vyer {#create-and-customize-agile-views}
 
@@ -210,7 +212,7 @@ Mer information om hur du skapar och anpassar flexibla vyer finns i avsnittet&qu
 >
 >Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
-Mer information om hur du delar en flexibel vy finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Mer information om hur du delar en flexibel vy finns i [Dela ett filter, en vy eller en grupp](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Ta bort en befintlig Agile-vy
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,15 @@ ht-degree: 0%
 
 <span class="preview">Informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
-## Viktig information om navigeringsfunktioner som inte gäller för AEC/shell {#important-not-on-aec}
+## Förhandsgranskning och snabb version Q4 2023 {#preview-and-fast-release}
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Mer information om den aktuella versionen finns i [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
+## Viktigt att notera för navigeringsfunktioner som inte gäller för AEC/shell {#important-not-on-aec}
 
 >[!IMPORTANT]
 >
@@ -29,7 +37,7 @@ ht-degree: 0%
 
 ## Steg 1 - Klicka bara på huvudmenyn {#step1-click-main-menu}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon-left-nav.png) längst upp till vänster.
 
 ## Steg 1 - Klicka på huvudmenyn och sedan på - {#step1-click-mm-then-click}
 
@@ -48,7 +56,7 @@ ht-degree: 0%
 
 ## Associera rätt grupp med team {#right-group-team}
 
-Du kan se till att du associerar rätt grupp med teamet genom att hålla markören över gruppen och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, t.ex. hierarkin för grupper ovanför den och namnen på dess administratörer.
+Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, t.ex. hierarkin för grupper ovanför den och namnen på dess administratörer.
 
 
 ## Viktigt att notera för Admin Console introduktion {#important-admin-console-onboard}
@@ -101,12 +109,12 @@ Så här konfigurerar du länkade mappar:
 
 ## Klicka på hemikonen {#click-home}
 
-1. Klicka på [!UICONTROL Home] icon ![Ikonen Hem](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på [!UICONTROL Home] icon ![Ikonen Hem](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
 >[!NOTE]
 >Workfront-administratören kan göra följande ändringar i [!UICONTROL Home] i din miljö:
 >
->* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än den som visas i den här artikeln.
+>* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
 >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i sidans övre högra hörn eller (om det är tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Home]**.
 >
 
@@ -234,7 +242,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 ## Steg 1 - Korrektur - {#step1-to-proofing}
 
-1. I Workfront klickar du på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png)eller (om det är tillgängligt), klicka på **[!UICONTROL Main Menu]** ikonen i det övre vänstra hörnet ![Huvudmeny](assets/main-menu-icon-left-nav.png)och sedan klicka **[!UICONTROL Proofing]** för att få tillgång till Workfront Proof.
+1. I Workfront klickar du på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png)eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** ikonen i det övre vänstra hörnet ![Huvudmeny](assets/main-menu-icon-left-nav.png)och sedan klicka **[!UICONTROL Proofing]** för att få tillgång till Workfront Proof.
 
 ## Senaste DPV-version {#latest-version}
 
@@ -302,7 +310,7 @@ Om du vill att ändringarna av funktionen Klar ska vara synliga för användarna
 
 Så här associerar du användare med ett hemteam:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon-left-nav.png) längst upp till vänster.
 
 1. Klicka **[!UICONTROL Users]** väljer du sedan den eller de användare som du vill associera med ett hemteam.
 1. Klicka på **[!UICONTROL More]** väljer du **[!UICONTROL Edit]**.\

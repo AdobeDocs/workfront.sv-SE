@@ -6,14 +6,16 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: c063bd9505a785ea738d07e082328871245216f2
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
 
 # Använd anslutna kort på ritytor
+
+{{preview-and-fast-release}}
 
 Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i [!DNL Workfront].
 
@@ -54,12 +56,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Lägg till ett anslutet kort
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **[!UICONTROL Boards]**.
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka på **[!UICONTROL Add card]>[!UICONTROL Connected card]**.
 1. Välj ett projekt och välj sedan en uppgift eller ett problem som ska läggas till som ett kort på ritytan.
 
@@ -89,7 +91,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
 
-1. I **[!UICONTROL Card Details]** lägg till eller uppdatera följande information:
+1. I **[!UICONTROL Card Details]** lägger du till eller uppdaterar följande information:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -109,7 +111,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
       <td><p>Välj en status för kortet. Standardvärdena är [!UICONTROL New], [!UICONTROL In Progress]och [!UICONTROL Complete], men alla anpassade statusvärden som har definierats för objektet i [!DNL Workfront] finns också.</p>
       <p>Om du har aktiverat kolumnprofiler för att uppdatera fältvärden flyttas kortet automatiskt till motsvarande kolumn om du ändrar statusen på kortet. Mer information finns i"Definiera kolumninställningar och -profiler" i artikeln <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Hantera kortkolumner</a>.</p>
-      <p>Om du klickar <strong>[!UICONTROL Mark Complete]</strong> högst upp på kortet ändras statusen automatiskt till Fullständigt.</p></td>
+      <p>Klicka <strong>[!UICONTROL Mark Complete]</strong> högst upp på kortet ändras statusen automatiskt till Fullständigt.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Planned Completion]</strong></td>
@@ -140,13 +142,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td> <p>Klicka på <strong>[!UICONTROL Add checklist item]</strong>. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.</p> <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om objekt i checklistor finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p></td>
      </tr>
      <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
+      <td><span class="preview"><p>Håll muspekaren över dokumentminiatyrbilden och klicka <strong>Förhandsgranska</strong> för att visa filen i webbläsaren eller <strong>Ladda ned</strong> för att hämta filen till datorn.</p></span>
+      <span class="preview"><p><strong>OBS!</strong> För att ett dokument ska vara tillgängligt på det anslutna kortet måste det nu överföras till Workfront-aktiviteten.</p></span></td>
+     </tr>
+     <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
       <td>Se"Logga in timmar på ett anslutet kort" nedan.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen. Taggade användare på anslutna kort får e-postmeddelanden.</p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
-      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
+      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bilaga</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen. Taggade användare på anslutna kort får e-postmeddelanden.</p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
+      <p><strong>OBS!</strong> Kommentarsområdet på kort använder Adobe Workfront nya kommentarsfunktion. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 
@@ -166,7 +173,7 @@ Det anslutna objektet, tilldelningar, taggar, förfallodatum, räknare för chec
 
 Du kan koppla loss ett anslutet kort från Workfront-objektet och kortet finns kvar på kortet som ett särskilt kort som du kan redigera.
 
-Så här kopplar du från på styrnivå:
+Så här kopplar du från på styrelsenivå:
 
 1. Gå till styrelsen.
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på det anslutna kortet och välj **[!UICONTROL Disconnect]**.
@@ -178,7 +185,7 @@ Så här kopplar du från på kortnivå:
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) under Anslutning av kortinformationen och välj **[!UICONTROL Disconnect]**.
 1. Klicka **[!UICONTROL Disconnect]** på bekräftelsemeddelandet.
 
-## Konvertera ett ad hoc-kort till ett anslutet kort
+## Konvertera ett särskilt kort till ett anslutet kort
 
 När du har skapat ett ad hoc-kort kan du konvertera det till ett anslutet kort. Mer information om ad hoc-kort finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
