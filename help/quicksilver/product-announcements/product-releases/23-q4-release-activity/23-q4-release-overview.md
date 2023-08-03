@@ -3,9 +3,9 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: c6edc9530b2731ecd8ae0cc0feb208049cb16105
+source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,76 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 
 ## Adobe Workfront-förbättringar
 
-* Projektförbättringar
+* [Förbättringar av anslagstavlor](#boards-enhancements)
+* [Projektförbättringar](#project-enhancements)
+
+### Förbättringar av anslagstavlor
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Dokument som är tillgängliga på anslutna kort är skrivskyddade</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p><p>För anslutna kort på Adobe Workfront Boards kan du nu visa dokument som bilder och PDF. Du kan antingen förhandsgranska ett dokument i webbläsaren eller hämta det till datorn. </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 3 augusti 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for Boards tidig åtkomst: 10 augusti 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Styrelsevy för ett projekt som nu är tillgängligt för frågor</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p><p>Du kan nu få åtkomst till en vy över en projektutgåva. Kanban-panelen kan hjälpa dig att spåra problemets förlopp på ett mer visuellt sätt än att visa dem i listan. </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 3 augusti 2023<br /></p>
+                            </li>
+                             <li>
+                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Projektförbättringar
 
