@@ -8,9 +8,9 @@ description: Adobe Workfront Fusions funktioner för organisation och team gör 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 <p>**För information om [!DNL Adobe Workfront Fusion] licenser, se <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] licenser</a></p>
 
@@ -78,20 +78,20 @@ En användare har en av följande roller i en organisation:
 * **[!UICONTROL Admin]**: Med administratörsrollen kan en användare skapa och hantera team och användare för organisationen.
 * **[!UICONTROL Member]**: Medlemmar kan använda [!DNL Workfront Fusion] men kan inte göra organisatoriska ändringar.
 * **[!UICONTROL Accountant]**: En revisorsroll tillåter bara användare att se licensinformation på kontrollpanelen för organisationen.
-* **[!UICONTROL App Developer]**: Funktionerna för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
+* **[!UICONTROL App Developer]**: Funktioner för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
 
 ### Bjuda in användare till en organisation
 
 Som standard kan en organisationsägare (eller behörig användare) bjuda in en annan person att gå med i organisationen.
 
-Så här bjuder du in en användare att gå med i en organisation:
+Så här bjuder du in en användare till en organisation:
 
 1. Klicka **[!UICONTROL Change details]** i skärmens övre högra hörn.
 1. Välj **[!UICONTROL Invite a new user]**.
 
    ![](assets/fusion-organization-invite-user-350x199.png)
 
-1. Fyll i användarens e-postadress och namn.
+1. Ange användarens e-postadress och namn.
 1. Välj en roll för användaren. Mer information om roller finns i [Organisationsroller](#organization-roles) i det här dokumentet.
 1. (Valfritt) Lägg till en anteckning. Den här anteckningen visas i e-postmeddelandet med inbjudan som användaren får.
 1. Klicka på **[!UICONTROL Save]**.
@@ -106,11 +106,11 @@ Inbjudan går ut om en dag.
 
 >[!NOTE]
 >
->Om användaren är nybörjare på [!DNL Fusion], [!DNL Fusion] skapar automatiskt ett konto åt dem och skickar ett e-postmeddelande med ett tillfälligt lösenord som uppmanar den nya användaren att logga in och ändra sitt lösenord.
+>Om användaren är nybörjare [!DNL Fusion], [!DNL Fusion] skapar automatiskt ett konto åt dem och skickar ett e-postmeddelande med ett tillfälligt lösenord som uppmanar den nya användaren att logga in och ändra sitt lösenord.
 
 ### Växla mellan organisationer
 
-Du kan vara en del av mer än en organisation i Fusion. Resurser delas inte mellan organisationer.
+Du kanske ingår i mer än en organisation i Fusion. Resurser delas inte mellan organisationer.
 
 Du kan växla mellan olika organisationer i Adobe Unified Experience genom att klicka på organisationsnamnet i det övre högra hörnet och välja den nya organisationen i listrutan. Endast organisationer som har ett Fusion-konto visas i listrutan, även om du är medlem i andra organisationer i Adobe.
 
@@ -143,9 +143,11 @@ En användare har en av följande roller i varje team:
 
 * **[!UICONTROL Team Admin]**: Förutom funktionerna i de andra teamrollerna ger administratörsrollen användaren möjlighet att lägga till, ta bort eller ändra en teammedlems roll.
 * **[!UICONTROL Team Member]**: Teammedlemsrollen tillåter användare att skapa och köra scenarier.
-* **[!UICONTROL Team Monitoring]**: The [!UICONTROL monitoring] Med rollen kan användare få åtkomst till körningsinformation för scenarier, men de kan inte designa scenarier eller ändra status &quot;Aktiv&quot;.
-* **[!UICONTROL Team Operator]**: The [!UICONTROL operator] Med roll kan användare se körningsdata och ändra statusen &quot;Aktiv&quot; för scenarier.
-* **[!UICONTROL Team Restricted Member]**: Funktionerna för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
+* **[!UICONTROL Team Monitoring]**: [!UICONTROL monitoring] Med rollen kan användare få åtkomst till körningsinformation för scenarier, men de kan inte designa scenarier eller ändra status &quot;Aktiv&quot;.
+* **[!UICONTROL Team Operator]**: [!UICONTROL operator] Med roll kan användare se körningsdata och ändra statusen &quot;Aktiv&quot; för scenarier.
+* **[!UICONTROL Team Restricted Member]**: Funktioner för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
+
+Mer information om specifika uppgifter som är tillgängliga för teamroller finns i[Organisations- och teamroller](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Teamhantering
 
@@ -158,7 +160,7 @@ Organisationsägare och administratörer kan skapa team.
 
 Så här skapar du ett team:
 
-1. Klicka på **[!UICONTROL Organization]**
+1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL Organization]**
 1. Välj **[!UICONTROL Team]** -fliken.
 1. Klicka **[!UICONTROL Add a new team]** i listan över team.
 1. Ange ett namn för det nya teamet och klicka på **Lägg till**.
@@ -167,7 +169,7 @@ Så här skapar du ett team:
 
 Alternativen för e-postmeddelanden anges på teamnivå.
 
-1. Klicka på **[!UICONTROL Team]**
+1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL Team]**
 1. Välj **[!UICONTROL Notification Options]** -fliken.
 1. Aktivera de meddelanden som du vill att teamet ska ta emot.
 

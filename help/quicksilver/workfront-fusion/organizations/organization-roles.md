@@ -8,20 +8,20 @@ description: Den här artikeln innehåller information om åtkomst och behörigh
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
-# Organisationsroller i [!DNL Adobe Workfront Fusion]
+# Organisations- och teamroller i [!DNL Adobe Workfront Fusion]
 
-I den här artikeln beskrivs åtkomst och funktionalitet som är tillgängliga för de olika organisationsrollerna i [!DNL Workfront Fusion].
+I den här artikeln beskrivs vilka funktioner som är tillgängliga för de olika team- och organisationsrollerna i [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->Organisationsroller är åtskilda från teamroller i [!DNL Workfront Fusion]. Mer information om teamroller finns i [Teamroller](../organizations/organizations-and-teams.md#team-roles-team-roles).
+>Organisationsroller är åtskilda från teamroller i [!DNL Workfront Fusion]. Mer information om organisation och teamroller finns i [Organisationer och team](../organizations/organizations-and-teams.md).
 
 ## Åtkomstkrav
 
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -91,6 +91,20 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td> <p>Få tillgång till alla team</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Installera app för organisation</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
   <tr> 
    <td> <p>Ta bort organisationer</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
@@ -135,10 +149,21 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
     <td> </td> 
    </tr>
   --> 
- </tbody> 
+  <tr> 
+   <td> <p>Lägg till team</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-## Scenarier
+
+## Teamroller
+
+### Scenarier
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,10 +174,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -168,7 +193,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Lägg till scenarier</p> </td> 
@@ -188,7 +213,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td> <p style="text-align: left;">Redigera scenarier</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -196,68 +221,68 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Scenarioaviseringar</p> </td> 
+   <td> <p style="text-align: left;">Ta emot scenarioaviseringar</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Återställ status</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Listscenarier</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Redigera scenarioschemaläggare</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Aktivera scenarier</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> <p style="text-align: left;">Startscenarier</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Inaktivera scenarier</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> <p style="text-align: left;">Stoppa scenarier</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Köra scenarier manuellt</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Visa scenarier</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
-  </tr> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   </tr> 
  </tbody> 
 </table>
 
-## Anslutningar
+### Anslutningar
 
 <table style="table-layout:auto">
  <col> 
@@ -268,10 +293,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -301,12 +326,12 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Webhooks
+### Webhooks
 
 <table style="table-layout:auto"> 
  <col> 
@@ -317,10 +342,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -350,12 +375,12 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Datalager
+### Datalager
 
 <table style="table-layout:auto"> 
  <col> 
@@ -366,10 +391,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -399,19 +424,19 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Bläddra i datalager</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Datastrukturer
+### Datastrukturer
 
 <table style="table-layout:auto">
  <col> 
@@ -422,10 +447,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">hy0</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -454,13 +479,13 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td> <p style="text-align: left;">Visa datastrukturer</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Enheter
+### Enheter
 
 <table style="table-layout:auto"> 
  <col> 
@@ -471,10 +496,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -500,16 +525,16 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Visa enheter</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> <p style="text-align: left;">Listenheter</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Tangenter
+### Tangenter
 
 <table style="table-layout:auto">
  <col> 
@@ -520,10 +545,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -552,8 +577,117 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td> <p style="text-align: left;">Listnycklar</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
   </tr> 
  </tbody> 
 </table>
+
+### Mallar
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">Lägg till mallar</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Ta bort mallar</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Redigera mallar</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Listmallar</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Visa mallar</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Team
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">Lägg till team</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Ta bort team</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Lägg till och redigera teamanvändare</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Visa team</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
