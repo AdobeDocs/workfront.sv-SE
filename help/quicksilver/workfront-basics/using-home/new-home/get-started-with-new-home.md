@@ -5,9 +5,9 @@ title: Kom igång med nya startsidor i Adobe Workfront
 description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -55,16 +55,65 @@ Widgets är grunden för New Home. Genom att lägga till widgetar på hemsidan k
 * **Att göra**\
     Med den här unika widgeten kan du lägga till textobjekt i en personlig checklista som du kan redigera fritt.
 
-Som standard innehåller startsidan några specifika widgetar baserat på din licenstyp. Tabellen nedan visar vilka widgetar användare av varje licenstyp ser när de först navigerar till Nytt hem.
+  >[!NOTE]
+  >
+  >Du måste ha behörighet att skapa uppgifter för att kunna skapa uppgifter i Att göra-widgeten.
 
-| **Äldre licenstyp** | **Standardwidgetar** | **Aktuell licenstyp** | **Standardwidgetar** |
-|---|---|---|---|
-| Plan | Mina projekt, omnämnanden, uppgifter | Standard | Mina projekt, mitt arbete, omnämnanden, uppgifter |
-| Arbete | Mitt arbete, omnämnanden, att göra | Ljus | Mitt arbete, väntar på mitt godkännande, uppgifter |
-| Granska | Mitt arbete, omnämnanden, att göra | Medarbetare | Mitt arbete, omnämnanden, att göra |
-| Begränsad | Mina projekt, väntar på mitt godkännande, uppgifter | Extern | Väntar på mitt godkännande, uppgifter |
-| Medarbetare | Mitt arbete, omnämnanden, att göra |  |  |
-| Extern | Väntar på mitt godkännande, uppgifter |  |  |
+Som standard innehåller startsidan några specifika widgetar baserat på din licenstyp. Tabellerna nedan visar vilka widgetar användare av varje licenstyp ser när de först navigerar till Nytt hem.
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Aktuell licenstyp</b></td>
+        <td><b>Standardwidgetar</b></td>
+    </tr>
+    <tr>
+        <td>Standard</td>
+        <td>Mina projekt, mitt arbete, omnämnanden, uppgifter</td>
+    </tr>
+    <tr>
+        <td>Ljus</td>
+        <td>Mitt arbete, väntar på mitt godkännande, uppgifter</td>
+    </tr>
+    <tr>
+        <td>Medarbetare</td>
+        <td>Mitt arbete, omnämnanden, att göra</td>
+    </tr>
+    <tr>
+        <td>Extern</td>
+        <td>Väntar på mitt godkännande, uppgifter</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Äldre licenstyp</b></td>
+        <td><b>Standardwidgetar</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>Mina projekt, omnämnanden, uppgifter</td>
+    </tr>
+    <tr>
+        <td>Arbete</td>
+        <td>Mitt arbete, omnämnanden, att göra</td>
+    </tr>
+    <tr>
+        <td>Granska</td>
+        <td>Mitt arbete, omnämnanden, att göra</td>
+    </tr>
+    <tr>
+        <td>Begränsad</td>
+        <td>Mina projekt, väntar på mitt godkännande, uppgifter</td>
+    </tr>
+    <tr>
+        <td>Medarbetare</td>
+        <td>Mitt arbete, omnämnanden, att göra</td>
+    </tr>
+    <tr>
+        <td>Extern</td>
+        <td>Väntar på mitt godkännande, uppgifter</td>
+    </tr>
+</table>
 
 Mer information om hur du lägger till, flyttar, ändrar storlek på eller tar bort widgetar finns i [Lägga till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
