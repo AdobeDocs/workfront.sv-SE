@@ -5,14 +5,16 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
 
 # Ställ in påminnelsemeddelanden
+
+<!--hidden content for the tab redesign in August 2023-->
 
 Påminnelsemeddelanden skickar e-postmeddelanden till mottagare baserat på angivna villkor. Som Adobe Workfront-administratör eller en användare med behörigheten Planering och administrativ åtkomst till påminnelsemeddelanden kan du manuellt associera påminnelsemeddelanden med dina arbetsobjekt, till exempel projekt, uppgifter, utgåvor och tidrapporter.
 
@@ -62,11 +64,14 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
 
 ## Skapa ett påminnelsemeddelande
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. Klicka **E-post** > **Meddelanden**.
+1. Klicka **E-post** > **Meddelanden** > **Påminnelsemeddelanden**.
 
-1. Klicka på **Påminnelsemeddelanden** tabbtangenten och sedan klicka **Nytt påminnelsemeddelande**.
+   <!--hidden for the tab redesign for August 2023:
+   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   -->
+1. Klicka **Nytt påminnelsemeddelande**.
 
 1. Klicka på den objekttyp som du vill associera med påminnelsemeddelandet i listrutan.
 
@@ -107,7 +112,7 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
       <td role="rowheader">Kriterier</td> 
       <td> <p>Välj villkoren för att kvalificera påminnelsemeddelandet som ska schemaläggas. Påminnelsemeddelanden är inte schemalagda såvida inte valet av villkor uppfylls.</p> <p>Följande villkorsalternativ är tillgängliga, beroende på vilken objekttyp du valde i steg 4:</p> 
        <ul> 
-        <li><strong>Ofullständigt i aktuella projekt:</strong> (Tillgängligt för påminnelser om aktiviteter och utgåvor) Påminnelsemeddelandet schemaläggs att skickas endast när objektstatusen som påminnelsemeddelandet är associerat med inte är Fullständig och projektstatusen är Aktuell.</li> 
+        <li><strong>Ofullständigt i aktuella projekt:</strong> (Tillgängligt för påminnelser om aktiviteter och ärenden) Påminnelsemeddelandet schemaläggs att skickas endast när objektstatusen som påminnelsemeddelandet är associerat med inte är Fullständig och projektstatusen är Aktuell.</li> 
         <li><strong>Alla i aktuella projekt:</strong>(Tillgängligt för påminnelser om aktiviteter och utleveranser) Påminnelsemeddelandet schemaläggs att skickas oavsett objektstatus och endast när den projektstatus som påminnelsemeddelandet är associerat med är Aktuell.</li> 
         <li><strong>Ofullständiga projekt:</strong> (Tillgängligt för projektpåminnelser) Påminnelsemeddelandet schemaläggs att skickas när projektstatusen är något annat än Fullständigt.</li> 
         <li><strong>Fullständiga projekt:</strong> (Tillgängligt för projektpåminnelser) Påminnelsemeddelandet schemaläggs att skickas när projektstatusen är Slutförd.</li> 
@@ -137,12 +142,12 @@ Mer information om hur du tar emot påminnelsemeddelanden finns i [Påminnelseme
 
 Påminnelsemeddelanden utlöses varje kväll vid midnatt, Mountain Time. Alla objekt som är kvalificerade för ett påminnelsemeddelande utlöser ett meddelande till de avsedda användarna kort därefter.
 
-Om du vill att påminnelsemeddelanden ska utlösas manuellt måste villkoret för påminnelsen vara uppfyllt först.\
+Om du vill att påminnelsemeddelanden ska utlösas manuellt måste villkoret för påminnelsen vara uppfyllt.\
 Om en påminnelse till exempel är inställd på att utlösa en timme efter det planerade slutförandedatumet för ett projekt, måste den tiden ha passerat mellan den tidpunkt då påminnelsen ställdes in och nu. Projekt som hade planerade slutförandedatum passerade innan påminnelsen aktiverades kommer inte att utlösa något meddelande.
 
 Så här aktiverar du ett påminnelsemeddelande manuellt:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System** > **Diagnostik** i det nedre vänstra hörnet av Workfront.
 

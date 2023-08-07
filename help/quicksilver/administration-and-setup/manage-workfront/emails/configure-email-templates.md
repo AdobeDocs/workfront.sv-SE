@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa en ny e-postmall {#create-a-new-email-template}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. Klicka på **E-post** > **Meddelanden**.
+1. Klicka på **E-post** > **Meddelanden**> **E-postmallar**.
 
-1. Klicka på **E-postmallar** tabbtangenten och sedan klicka **Ny e-postmall**.
+<!--hidden for tab redesign - August 2023: 
+  ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+  -->
+
+1. Klicka **Ny e-postmall**.
 
 1. I **Ny e-postmall** anger du följande information i rutan som visas:
 
@@ -62,23 +66,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">E-postmall</td> 
+      <td role="rowheader">Namn</td> 
       <td>E-postmallens namn (obligatoriskt).</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Beskrivning</td> 
-      <td>Beskrivning av mallen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Objekttyp</td> 
       <td>Ange den objekttyp som du vill associera mallen med (obligatoriskt, som standard ställs den in på"Utgåva").</td> 
-     </tr> 
+     </tr>
      <tr> 
+      <td role="rowheader">Beskrivning</td> 
+      <td>Beskrivning av mallen.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Ämne </td> 
       <td>Ämne som visas när e-postmeddelandet skickas (obligatoriskt).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
+      <td role="rowheader">Brödtext </td> 
       <td> <p>Innehåll som visas när e-postmeddelandet skickas.</p> <p>Du kan använda HTML-formatering för e-postinnehållet enligt beskrivningen i <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Lägga till HTML-formatering i en e-postmall</a> i den här artikeln.</p> </td> 
      </tr> 
     </tbody> 
@@ -101,7 +106,7 @@ HTML kan förbättra e-postmallarna, vilket visas i följande avsnitt.
 
 Du kan inkludera länkar till Workfront-fält med `$$` jokertecken som anger att e-postgeneratorn ska söka efter värden från databasen som är kopplad till ett visst objekt.
 
-Innehållet i e-postmeddelandet för ett meddelande som varnar den som är tilldelad uppgiften som aktiviteten ska starta kan följa den här strukturen:
+Innehållet i e-postmeddelandet för ett meddelande som varnar den som tilldelats uppgiften att uppgiften ska starta kan följa den här strukturen:
 
 ```html
 <html>
@@ -129,7 +134,7 @@ Om du vill hämta jokertecknet för ett objekt gör du något av följande:
 
 * Använd värdet för värdefält som du hittar i en rapportvy i textläge. Mer information om värden för textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   Värdet &quot;heading&quot; kan vara objektets namn, som du vill att det ska visas i e-postbrödtexten.
+  Värdet &quot;heading&quot; kan vara objektets namn, som du vill att det ska visas i e-postbrödtexten.
 
 ### Länka till anpassade fält med HTML {#link-to-custom-fields-with-html}
 
@@ -226,7 +231,7 @@ Följande kod kan inkluderas i en e-postmall som används för uppgifter och fö
 
 Ersätt `<your domain>` med företagets Workfront-domän, utan hakparenteser.
 
-Om du vill använda detta för ett e-postmeddelande ändrar du `/task/view.` värdet i länken till arbetsposten till `/issue/view`.
+Ändra `/task/view.` värdet i länken till arbetsposten till `/issue/view`.
 
 **Ämne:**
 

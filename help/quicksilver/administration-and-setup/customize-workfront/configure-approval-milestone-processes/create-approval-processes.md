@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Skapa en godkännandeprocess för arbetsobjekt
+
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
 Du kan skapa en godkännandeprocess som användare kan koppla till en arbetsuppgift (projekt, uppgift, utleverans, mall eller malluppgift), ett dokument eller ett korrektur. En godkännandeprocess säkerställer att angivna tilldelningar på objektet granskar vissa ändringar innan objektet fortskrider i systemet.
 
@@ -64,13 +66,17 @@ Du måste ha följande:
 
 ## Skapa en global godkännandeprocess på systemnivå eller gruppnivå för arbetsobjekt
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. (Villkorligt) Om du skapar en godkännandeprocess på systemnivå klickar du på **Processer** > **Godkännanden** i den vänstra panelen.
+1. (Villkorligt) Om du skapar en godkännandeprocess på systemnivå klickar du på **Processer** > **Godkännanden** till vänster.
 
    eller
 
    Om du skapar en godkännandeprocess på gruppnivå klickar du på **Grupper** ![](assets/groups-icon.png), klickar på namnet på gruppen och klickar sedan på **Godkännanden**.
+
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
 
 1. Klicka på **Projektgodkännanden**, **Uppgiftsgodkännanden**, eller **Utfärda godkännanden** , beroende på vilken typ av godkännandeprocess du vill skapa.
 
@@ -87,7 +93,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning</td> 
-      <td>Skriv en beskrivning av godkännandeprocessen. Detta visas i dialogrutan <b>Godkännanden</b> i <b>Inställningar</b> bredvid namnet på godkännandeprocessen.</td> 
+      <td>Skriv en beskrivning av godkännandeprocessen. Detta visas i dialogrutan <b>Godkännanden</b> i <b>Inställningar</b> -området bredvid namnet på godkännandeprocessen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Är aktiv</td> 
@@ -98,7 +104,7 @@ Du måste ha följande:
       <td> <p>Om du vill att godkännandeprocessen ska vara tillgänglig för projekt, uppgifter, utgåvor och mallar som bara tillhör en viss grupp börjar du skriva namnet på gruppen och väljer sedan namnet när den visas:</p> 
        <ul> 
        <li>Om du är systemadministratör eller har administrativ åtkomst till godkännandeprocesser kan du se vilken grupp som helst i systemet när du skriver dess namn. <b>Alla grupper</b> är markerat som standard. </li> 
-       <li>Om du är gruppadministratör utan administrativ åtkomst till godkännandeprocesser kan du tilldela godkännandeprocessen till alla grupper som du hanterar när du skriver dess namn. The <b>Alla grupper</b> är inte tillgängligt.</li> 
+       <li>Om du är gruppadministratör utan administrativ åtkomst till godkännandeprocesser kan du tilldela godkännandeprocessen till alla grupper som du hanterar när du skriver dess namn. The <b>Alla grupper</b> alternativet är inte tillgängligt.</li> 
        </ul> 
        <p>Det här alternativet är inte tillgängligt för enstaka godkännandeprocesser.</p> 
        <p><b>VARNING</b>: När du gör ändringar i den gruppspecifika godkännandeprocessen kan de befintliga godkännandeprocesserna som redan har kopplats till arbetsobjekten ändras. Mer information om dessa ändringar finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>.</p> 
@@ -118,11 +124,11 @@ Du måste ha följande:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Starta godkännandeprocessen när statusen är inställd på</p> </td> 
-      <td> <p>Välj den status som ska utlösa godkännandeprocessen för arbetsobjekt. När någon uppdaterar en arbetsuppgift till den här statusen påbörjas godkännandeprocessen. </p> <p>Samma status kan inte väljas för flera godkännandeprocesssökvägar.</p> <p>De tillgängliga statusvärdena baseras på vad som har valts under alternativet <b>Detta godkännande kan användas av</b> (förklaras i tabellen ovan):</p> 
+      <td> <p>Välj den status som ska utlösa godkännandeprocessen för arbetsobjekt. När någon uppdaterar en arbetsuppgift till den här statusen påbörjas godkännandeprocessen. </p> <p>Samma status kan inte väljas för flera godkännandeprocesssökvägar.</p> <p>De tillgängliga statusvärdena baseras på vad som har valts under alternativet <b>Det här godkännandet kan användas av</b> (förklaras i tabellen ovan):</p> 
        <ul> 
        <li> If <b>Alla grupper</b> är valt, endast systemomfattande statusar är tillgängliga
        <li> <p>Om en viss grupp är markerad är bara de statusar som är tillgängliga för den gruppen tillgängliga</p> </li> 
-       </ul> <p>Mer information om hur godkännandeprocessen fungerar med status finns i avsnittet <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Hur godkännandeprocesser bygger på status</a> i artikeln <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Översikt över godkännandeprocessen</a>.</p> </td> 
+       </ul> <p>Mer information om hur godkännandeprocessen fungerar med status finns i avsnittet <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Hur godkännandeprocesser förlitar sig på status</a> i artikeln <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Översikt över godkännandeprocessen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Scennamn</td> 
@@ -150,7 +156,7 @@ Du måste ha följande:
        </ul> 
        <ul> 
        <li> <p>När du tilldelar projektägaren ett godkännande och ingen utses till projektägare tilldelas godkännandet till Workfront huvudadministratör enligt anvisningarna i avsnittet Kundinformation i inställningsområdet. Mer information finns i <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Konfigurera grundläggande information för ditt system</a>.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Du kan upprepa den här processen om du vill lägga till flera godkännare på scenen. I ett och samma steg kan en kombination av användare, team och jobbroller ingå som godkännare. Det finns ingen gräns för hur många godkännare du kan lägga till på en scen.</p> <p><b>VIKTIGT</b>:  <p>När du tilldelar jobbroller som godkännare kan alla användare som är kopplade till den jobbrollen som också finns i projektteamet fatta ett beslut om godkännandet. </p> <p>När du tilldelar ett team som godkännare kan alla användare i det teamet fatta ett beslut om godkännandet. </p> <p>Mer information om projektteamet finns i <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Översikt över projektteamet</a>. Mer information om hur du godkänner arbete finns i <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Godkänna arbete </a>.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Du kan upprepa den här processen om du vill lägga till flera godkännare på scenen. I ett och samma steg kan en kombination av användare, team och jobbroller ingå som godkännare. Det finns ingen gräns för hur många godkännare du kan lägga till på en scen.</p> <p><b>VIKTIGT</b>:  <p>När du tilldelar jobbroller som godkännare kan alla användare som är kopplade till den jobbrollen som också finns i projektteamet fatta ett beslut om godkännandet. </p> <p>När du tilldelar ett team som godkännare kan alla användare i det teamet fatta ett beslut om godkännandet. </p> <p>Mer information om projektteamet finns i <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Översikt över projektgruppen</a>. Mer information om hur du godkänner arbete finns i <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Godkänna arbete </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Endast ett beslut krävs</td> 
@@ -167,7 +173,7 @@ Du måste ha följande:
        <li><b>Skapa ett problem</b>: (Endast tillgängligt för projekt- och uppgiftsgodkännandeprocesser) Ett problem skapas i det projekt eller den uppgift där godkännandeprocessen körs. Den tilldelade standardresursen för aktiviteten eller projektägaren är tilldelad till utgåvan. Som standard är namnet på det problem som skapas <b>Godkännande avvisat (&lt;project or="" task="" name=""&gt;)</b>. Det här är ett avvisningsproblem som anges under uppgiften eller projektet, beroende på vilken godkännandeprocess som avvisades.</li> 
        <li> <p><b>Ange status till</b>: Välj något av följande:</p> 
        <ul> 
-       <li><b>Föregående status</b>: Det avvisade projektet, den avvisade aktiviteten eller den avvisade utgåvan återgår till statusen före den status som aktiverar godkännandeprocessen.</li> 
+       <li><b>Föregående status</b>: Det avvisade projektet, den avvisade aktiviteten eller utgåvan återgår till den status som förelåg före den status som aktiverar godkännandeprocessen.</li> 
        <li><p><b>Annan status i listan</b>: Det avvisade objektet flyttas till den status du väljer, t.ex. Väntande. Du kan välja en av standardstatusarna eller en anpassad status som du har lagt till i ditt Workfront-system.</p>
        <p>Om du väljer en status som är associerad med en godkännandeprocess som avvisningsstatus, flyttas det avvisade objektet till den valda statusen och markeras som"Väntande godkännande".</p> 
        <p> Om du t.ex. väljer Väntande som avvisandestatus och statusen Väntande är associerad med en godkännandeprocess, placeras det avvisade objektet i statusen "Väntande - godkännande", vilket kräver godkännande.</p>
@@ -184,7 +190,7 @@ Du måste ha följande:
 1. Nu när godkännandeprocessen har skapats kan du fortsätta med något av följande:
 
    * Associera godkännandeprocessen med specifika projekt, uppgifter eller problem i hela systemet, enligt beskrivningen i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-   * Om du befinner dig utanför Workfront kan du meddela användare att godkännandeprocessen är tillgänglig så att de kan associera med projekt, uppgifter eller problem som beskrivs i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Utanför Workfront kan du meddela användare att godkännandeprocessen är tillgänglig så att de kan associera med projekt, uppgifter eller problem enligt beskrivningen i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * Skapa en annan godkännandeprocess som utlöses om den här godkännandeprocessen avvisas och artikeln får en annan status. På så sätt kan ni länka samman godkännandeprocesser.
 
 Mer information om hur du redigerar en godkännandeprocess finns i [Redigera en godkännandeprocess](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).

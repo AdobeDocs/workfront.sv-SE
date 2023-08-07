@@ -5,7 +5,7 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Konfigurera händelsemeddelanden för alla i systemet
+
+<!--look for the "hidden" addition below for the tab redesign - August 2023-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -28,7 +30,7 @@ När meddelanden har aktiverats i inställningsområdet och visas på användare
 
 En lista över alla händelsemeddelanden som du kan aktivera och inaktivera finns i [Händelsemeddelanden är tillgängliga i Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Mer information om hur du låser upp ett händelsemeddelande så att gruppadministratörer kan konfigurera det för sina grupper finns i [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) och [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Mer information om hur du låser upp ett händelsemeddelande så att gruppadministratörer kan konfigurera det för sina grupper finns i [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) och [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Åtkomstkrav
 
@@ -61,11 +63,15 @@ Du måste aktivera meddelanden under Konfigurera i Workfront innan användare ka
 
 >[!TIP]
 >
->Du kan inte aktivera meddelanden för Workfront-mål under Konfigurera. Användarna kan bara aktivera dessa meddelanden i sina profiler. Användare med Planera licenser kan aktivera dem för andra användare. Mer information om hur du aktiverar meddelanden om Workfront-mål för användare finns i [Meddelanden: Mål](../../../workfront-basics/using-notifications/notifications-goals.md).
+>Du kan inte aktivera meddelanden för Workfront-mål under Konfigurera. Användarna kan bara aktivera de här meddelandena i sina profiler. Användare med Planera licenser kan aktivera dem för andra användare. Mer information om hur du aktiverar meddelanden om Workfront-mål för användare finns i [Meddelanden: Mål](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **E-post** > **Meddelanden**.
+
+   <!--hidden shot for the tab redesign - make live in August 2023:
+   ![](assets/notifications-area-under-setup-emails.png)
+   -->
 
 1. Se till att **Händelsemeddelanden** -fliken är öppen.
 1. Klicka på växeln till vänster om händelsenamnet för att aktivera eller inaktivera den.
