@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
 
-* En Adobe Workfront-administratör som hanterar Workfront-systemet (för jämförelser)
-* En gruppadministratör som hanterar en grupp på den översta nivån
+* En Adobe Workfront-administratör som hanterar Workfront (för jämförelser)
+* En gruppadministratör som hanterar en grupp på den högsta nivån
 * En gruppadministratör som hanterar en undergrupp
 
 <table style="table-layout:auto"> 
@@ -116,7 +116,7 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera valutakurser</p> </td> 
+   <td> <p>Skapa och hantera växelkurser</p> </td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
@@ -229,3 +229,11 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
 &#42; I gruppadministratörens åtkomstnivå **Redigera** måste väljas för **Användare** inställning, med **Användaradministratör (gruppanvändare)** markerat under **Finjustera inställningarna** ![](assets/gear-icon-in-access-levels.png). Mer information finns i avsnittet [Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) i artikeln [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; Åtkomst till den här åtgärden måste vara aktiverad i gruppadministratörens åtkomstnivå. Mer information finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+Följande aktiviteter är bara tillgängliga för grupper- och undergruppsadministratörer när deras organisationer har en Prime- eller Ultimate-plan. Dessa specifika aktiviteter kan också kallas &quot;avancerad företagskontroll&quot;. Se [Adobe Workfront prissättnings- och paketeringssida](https://business.adobe.com/products/workfront/pricing.html) för mer information om planer. (För organisationer som använder äldre planer visas aktiviteterna för grupp- och undergruppsadministratörer i tabellen ovan.)
+
+* Konfigurera inställningar för projekt, aktiviteter och utgåvor
+* Konfigurera tidrapport och timinställningar
+* Konfigurera e-postmeddelanden om händelser
+* Skapa och hantera godkännandeprocesser
+* Skapa och hantera undergrupper
