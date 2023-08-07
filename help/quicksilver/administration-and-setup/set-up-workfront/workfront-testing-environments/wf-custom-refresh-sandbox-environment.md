@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Sandlådan för anpassad uppdatering innehåller dina faktiska produktionsdata, 
 >[!NOTE]
 >
 >* Du kan inte schemalägga en uppdatering för den aktuella dagen. Om idag till exempel är 1 juni är den tidigaste dagen då du kan schemalägga en uppdatering 2 juni.
+>* Den schemalagda uppdateringen sker kl. 12.00 på det angivna datumet, baserat på tidszonen för användaren som skickade begäran.
 >* Din anpassade uppdateringssandlåda har alltid samma produktfunktioner som din produktionsmiljö. När du uppdaterar din anpassade uppdateringssandlåda bevaras dock endast varumärket för inloggningsskärmens bakgrundsfärg. Inloggningsskärmen och navigeringsfältets logotyper återställs till [!DNL Workfront] standardvärden, och eventuella varumärkesbilder som du har ändrat före uppdateringen visas inte.
 >
-
 
 
 
@@ -76,7 +76,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 ## Få åtkomst till sandlådan för anpassad uppdatering från produktionsmiljön {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
-Som [!DNL Workfront] kan du komma åt din anpassade uppdateringssandlåda från din produktionsmiljö.
+Som en [!DNL Workfront] -administratör kan du komma åt din anpassade uppdateringssandlåda från din produktionsmiljö.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ När du har schemalagt en uppdatering av din anpassade uppdateringssandlåda kan
 Så här schemalägger du en uppdatering av din kunduppdateringssandlåda:
 
 1. Logga in på din anpassade uppdateringssandlåda.
-1. Klicka **[!UICONTROL Schedule]** i banderollen högst upp på skärmen och välj ett datum i kalendern.
+1. Klicka **[!UICONTROL Schedule]** i bannern högst upp på skärmen och välj ett datum i kalendern.
 1. Välj ett datum för när du vill att uppdateringen ska ske och klicka sedan på **[!UICONTROL Schedule Refresh]**.
 
 ## Växla till produktion från den anpassade uppdateringssandlådan
@@ -172,7 +172,7 @@ Så här schemalägger du en uppdatering av din kunduppdateringssandlåda:
 
 1. Klicka **[!UICONTROL Go To Production]** i banderollen högst upp på skärmen.
 
-   Kom ihåg att arbete som utförs i sandlådan inte visas i [!UICONTROL production] -miljö, allt eftersom överföringen av data är enkel, från produktion till din anpassade uppdateringssandlåda, och inte omvänt.
+   Kom ihåg att arbete som utförs i sandlådan inte visas i [!UICONTROL production] -miljö, allt eftersom överföringen av data är enkel, från produktion till din anpassade uppdateringssandlåda, och inte i omvänd ordning.
 
 ## Ta emot e-postmeddelanden från sandlådan för anpassad uppdatering
 
