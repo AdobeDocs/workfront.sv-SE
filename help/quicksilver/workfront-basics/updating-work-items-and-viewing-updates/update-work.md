@@ -6,14 +6,16 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '3471'
+source-wordcount: '3486'
 ht-degree: 0%
 
 ---
 
 # Uppdatera arbete
+
+<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
 <!--take "Beta" references out when we remove the beta-->
 
@@ -25,10 +27,10 @@ ht-degree: 0%
 >
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Du kommer åt den nya funktionen för följande objekt:
+>Du kan komma åt den nya funktionen för följande objekt:
 > * Problem, projekt, uppgifter och dokument.
 >
->     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
+>     Det här är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
 >
 >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
 >
@@ -47,7 +49,13 @@ ht-degree: 0%
 
 * Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* Du kan lägga till en uppdatering för ett Workfront-objekt (projekt, uppgift eller problem) för att informera om objektets förlopp när du kommenterar objektet. Användare som är tilldelade eller prenumererade till objektet kan visa din uppdatering.
+* Du kan lägga till kommentarer till Workfront-objekt från andra program som är integrerade med Workfront eller från Workfront mobilapp.
+
+  Alla program som är integrerade med Workfront kan inte lägga till kommentarer i Workfront-objekt.
+
+  Alla funktioner som är tillgängliga i uppdateringsavsnittet för ett objekt i Workfront är inte tillgängliga i andra program vid åtkomst till Workfront-objekt från programmet. Funktioner för RTF eller privata kommentarer till ett företag kanske inte är tillgängliga när du lägger till kommentarer till ett Workfront-objekt från ett tredjepartsprogram.
+
+* Du kan informera om förloppet för ett Workfront-objekt (projekt, uppgift eller problem) när du kommenterar objektet. Användare som har tilldelats eller prenumererar på objektet kan få ett meddelande om uppdateringen. Alla som har behörighet att visa objektet kan visa din uppdatering.
 
 * Du kan tagga användare så att de uppmärksammas på uppdateringen. Taggade användare får ett meddelande i appen och ett e-postmeddelande om uppdateringen.
 
@@ -62,8 +70,7 @@ ht-degree: 0%
 
    * Från ett Workfront-objekt, i uppdateringsavsnittet
    * Från hemområdet (för uppgifter och ärenden)
-   * Från panelen Sammanfattning i en lista över objekt (för uppgifter och ärenden)
-   * Från tidrapporten (för uppgifter och ärenden)
+   * Från panelen Sammanfattning i en lista över objekt eller från en tidrapport (för uppgifter och ärenden)
 
 Informationen på den här sidan beskriver hur du kan kommentera Workfront-objekt och hur du uppdaterar projekt, uppgifter och problem.
 
@@ -119,7 +126,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Begär eller högre för frågor och dokument. Granska eller högre för alla andra objekt</p> </td> 
+   <td> <p>Begär eller högre för problem och dokument; Granska eller högre för alla andra objekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
@@ -148,12 +155,12 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 >
 >Följande funktionalitet är tillgänglig för alla objekt utom mål och kort. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 >
->Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+>Du kan lägga till och visa uppdateringar för kort i kortområdet när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Gå till den arbetsuppgift som du vill uppdatera (till exempel ett projekt, en uppgift eller en utgåva) för.
 1. Klicka på **Uppdateringar** -avsnitt.
 1. Klicka **Starta en ny uppdatering,** skriv sedan in uppdateringen.
-1. (Valfritt) Använd RTF eller lägg till känslolägesikoner, länkar eller bilder i uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) avsnitt i den här artikeln
+1. (Valfritt) Använd RTF eller lägg till känslolägesikoner, länkar eller bilder i uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 1. (Valfritt) Uppdatera någon av följande information om arbetsuppgiften:
 
    <table style="table-layout:auto"> 
@@ -166,7 +173,7 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bekräftelsedatum</strong></td> 
-      <td>I datumväljaren väljer du det datum då du ska slutföra arbetsuppgiften. Mer information om implementeringsdatum finns i <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Genomför datumöversikt</a>.</td> 
+      <td>I datumväljaren väljer du det datum då du bekräftar att arbetsuppgiften ska slutföras. Mer information om implementeringsdatum finns i <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Genomför datumöversikt</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Villkor</strong></td> 
@@ -196,9 +203,9 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 
    >[!NOTE]
    >
-   >Ett litet popup-fönster visas i sju sekunder efter att du klickat **Uppdatera** så att du kan ångra uppdateringen och gå tillbaka till redigeringsrutan innan uppdateringen har publicerats. Uppdateringen publiceras om du stänger popup-fönstret Ångra, väntar på att det ska försvinna eller navigerar bort från sidan.
+   >Ett litet popup-fönster visas i sju sekunder efter klickningen **Uppdatera** så att du kan ångra uppdateringen och gå tillbaka till redigeringsrutan innan uppdateringen har publicerats. Uppdateringen publiceras om du stänger popup-fönstret Ångra, väntar på att det ska försvinna eller navigerar bort från sidan.
    >
-   >Om Workfront-administratören väljer inställningen Tillåt aldrig att användare tar bort kommentarer på åtkomstnivån kan du inte ångra en kommentar. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >Om Workfront-administratören väljer inställningen Tillåt aldrig att användare tar bort kommentarer på din åtkomstnivå kan du inte ångra en kommentar. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. Information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
@@ -207,9 +214,9 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
-1. Klicka  **Uppdateringar** i den vänstra panelen.
+1. Klicka  **Uppdateringar** till vänster.
 1. Aktivera **Kommentera betaversion** i det övre högra hörnet av uppdateringsområdet och klicka sedan på **Godkänn** på betaavtalet. Detta växlar uppdateringsområdet till kommenteringsfunktionen Beta.
-The **Kommentarer** -fliken är markerad som standard.
+The **Kommentar** -fliken är markerad som standard.
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -222,17 +229,7 @@ The **Kommentarer** -fliken är markerad som standard.
    * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
 1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
-1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du något av följande alternativ i dialogrutan **RTF** verktygsfältet för att förbättra texten:
-
-   * Fet
-   * Kursiv
-   * Understruken
-   * Länk
-   * Punktlista
-   * Numrerad lista
-   * Lägg till bifogad fil <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
-
-   Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln. <!--remove this list, above, when we get to parity for Rich Text-->
+1. (Valfritt) Använd RTF eller lägg till <!--hidden for August 10: emojis,--> länkar, eller bilder, till uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 
    >[!TIP]
    >
@@ -243,11 +240,12 @@ The **Kommentarer** -fliken är markerad som standard.
    >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. Klicka på **Lägg till bilaga** icon ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> om du vill lägga till en bild i kommentaren. Bilden måste sparas på datorn innan du kan bifoga den. <!--**************** this might be renamed to "Add image")-->
 
 1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
 1. Redigera informationen i kommentaren, lägg till eller ta bort bilder eller ta bort någon av de taggade användarna.
-Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
+Du kan redigera din kommentar inom 15 dagar från det att du har skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
@@ -256,7 +254,7 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
    >* Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
    >* Datumstämpeln bredvid kommentaren är datumet för den ursprungliga kommentaren, inte datumet för den senaste redigeringen.
 
-1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-7 ovan. <!--(**************insure this stays accurate***********)-->. Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-8 ovan. <!--(**************insure this stays accurate***********)--> Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
@@ -283,7 +281,7 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
 
 ## Använda RTF i en Workfront-uppdatering{#use-rich-text-in-a-workfront-update}
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
@@ -291,18 +289,19 @@ Du kan redigera din kommentar inom 15 dagar från det att du skickat in den. En&
 
 Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till olika objekt i den, som känslolägesikoner, länkar eller bilder.
 
-1. Gå till uppdateringsområdet och börja skriva en kommentar.
-1. (Valfritt) Om du vill lägga till formaterad text i uppdateringen använder du attribut på **RTF** när du skriver.
+1. Gå till **Uppdateringar** i ett Workfront-objekt och börja skriva en kommentar.
+1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du attribut på **RTF** när du skriver. <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
 
    | **Attribut** | **Knappen Verktygsfält** | **Mac kortkommandon** | **Kortkommandon i Windows** |
    |---|---|---|---|
    | Fet | ![mceclip10.png](assets/mceclip10.png) | Jesse+b | Ctrl+B |
    | Kursiv | ![mceclip9.png](assets/mceclip9.png) | Jesse+i | Ctrl+I |
    | Understruken | ![mceclip8.png](assets/mceclip8.png) | Jesse+u | Ctrl+U |
-   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Jesse+K</br> <br>Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Jesse+V</br> | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Ctrl+V</br> |
+   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar:¥+K</br> <br>Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer:</br> | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Ctrl+V</br> |
    | Punktlista | ![mceclip6.png](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
    | Numrerad lista | ![mceclip5.png](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
    | Blockcitat | ![](assets/block-quote-icon-large.png) | ¥+Shift+9 | Ctrl+Skift+9 |
+   | Emoji | ![](assets/emoji-icon.png) | Jesse+. | ⊞+. |
 
    Om du vill avbryta formateringen av text avmarkerar du attributet på **RTF** verktygsfält.
 
@@ -324,7 +323,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >[!NOTE]
    >
    >* Workfront ersätter inte skiljetecken som :) med emojis.
-   >* E-mojis är inte tillgängligt för uppdateringar som gjorts i tidrapporteringsområdet eller för antecknings- och senaste villkorsobjekt som visas i en rapport.
+   >* Emojis är inte tillgängligt för objekten Anteckning och Senaste villkor som visas i en rapport.
    >* Funktionen emoji i Workfront använder Unicode-tecken och visas därför bara i webbläsare och operativsystem som stöder Unicode-kodpunkter. Användare på en annan plattform, webbläsare eller operativsystemversion än din har kanske inte tillgång till samma känslolägen.
    >* En oanvändbar emoji representeras av en svart eller vit ruta.
    >* Windows 7 har bara stöd för svartvita känslolägesikoner.
@@ -332,7 +331,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
 1. (Valfritt) Så här lägger du till en URL-länk till ytterligare informationskällor:
 
-   1. Klicka på den plats i uppdateringen där du vill infoga en länk.
+   1. Klicka i uppdateringen där du vill infoga en länk.
    1. På **RTF** klickar du på **Hyperlänk** icon ![](assets/link-icon.png).
 
    1. I **Skapa länk** ruta som visas, under **URL** skriver eller klistrar du in URL-adressen för den källa som du vill länka till.
@@ -346,7 +345,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
    eller
 
-   Klicka på **Lägg till bifogad fil** icon ![](assets/add-image-paperclip-icon.png) och bläddra till bilden på datorn när du använder Beta-kommenteringsfunktionen. <!--the name of the icon and the icon for it might change-->
+   Klicka på **Lägg till bilaga** icon ![](assets/add-image-paperclip-icon.png) och bläddra till bilden på datorn när du använder Beta-kommenteringsfunktionen. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
@@ -443,7 +442,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    >[!NOTE]
    >
-   >Om du tar bort en uppdatering med en bifogad bild tas både kommentaren och bilden bort. Mer information finns i [Använda formaterad text i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
+   >Om du tar bort en uppdatering med en bifogad bild tas både kommentaren och bilden bort. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
@@ -453,24 +452,28 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
-## Lägga till en uppdatering i en tidrapport
+<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
 
-1. Gå till en tidrapport som du vill uppdatera.
-1. Klicka på tidrapporten för att öppna den.
-1. Klicka på längst ned i tidrapporten **Inkludera en kommentar**.
-1. Skriv en uppdatering i rutan som visas längst ned i tidrapporten.
+## Add an update on a Timesheet
 
-   ![tidrapport_update_stream.png](assets/timesheet-update-stream-350x50.png)
+1. Go to a Timesheet on which you want to make an update.
+1. Click the Timesheet to open it.
+1. At the bottom of the Timesheet, click **Include a comment**.
+1. In the box that displays at the bottom of the Timesheet, type an update.
 
-1. (Villkorligt) Om du vill spara uppdateringen utan att skicka in tidrapporten för godkännande klickar du på **Spara senare**.
+   ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-   eller
+1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
-   Om du vill spara uppdateringen och skicka in tidrapporten för godkännande klickar du på **Skicka för godkännande**.
+   Or
 
-   eller
+   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
 
-   Om din tidrapport inte har konfigurerats med en godkännare klickar du på **Spara och stäng tidrapport** för att spara uppdateringen.
+   Or
+
+   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
+
+-->
 
 ## Aktivera eller inaktivera systemuppdateringar
 
@@ -493,9 +496,13 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
 
   ![](assets/system-updates-cl-350x277.png)
 
-Beroende på din Workfront-licens kan systemuppdateringar vara aktiverade som standard. Workfront-administratörer kan avgöra vad som spåras i systemuppdateringar, vilket förklaras i [Systemspårade uppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Du kan även filtrera bort systemuppdateringar eller aktiviteter så att du bara ser användaruppdateringar för alla objekt.
+  Beroende på din Workfront-licens kan systemuppdateringar vara aktiverade som standard. Workfront-administratörer kan avgöra vad som spåras i systemuppdateringar, vilket förklaras i [Systemspårade uppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Du kan även filtrera bort systemuppdateringar eller aktiviteter så att du bara ser användaruppdateringar för alla objekt.
 
-Mer information om skillnaden mellan användar- och systemuppdateringar finns i [Systemspårade uppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Följande objekt har inga systemgenererade uppdateringar:
+
+   * Team
+   * Mall
+   * Malluppgift
 
 Så här aktiverar eller inaktiverar du systemuppdateringar:
 
@@ -505,4 +512,11 @@ Så här aktiverar eller inaktiverar du systemuppdateringar:
    ![](assets/show-system-updates-qs-350x55.png)
 
    Det här alternativet är beständigt för alla objekt i Workfront och behåller sin plats även om du loggar ut från Workfront.
+
+   >[!TIP]
+   >
+   >   Objekt som inte registrerar systemuppdateringar har inte alternativet Visa systemuppdateringar i uppdateringsområdet.
+
+   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+
 

@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 0%
 >
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Du kommer åt den nya funktionen för följande objekt:
+>Du kan komma åt den nya funktionen för följande objekt:
 > * Problem, projekt, uppgifter och dokument.
 >
->     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
+>     Det här är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
 >
 >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
 >
@@ -51,83 +51,99 @@ Informationen i uppdateringsavsnittet är organiserad på olika sätt beroende p
 
 ### Översikt över aktuellt uppdateringsavsnitt
 
-I uppdateringsavsnittet för ett objekt visas upp till 200 av de senaste uppdateringarna under de senaste 90 dagarna.
+* I uppdateringsavsnittet för ett objekt visas upp till 200 av de senaste uppdateringarna under de senaste 90 dagarna.
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-I det aktuella uppdateringsavsnittet visas följande information:
+* Uppdateringsavsnittet visas för följande objekt:
 
-* Synpunkter från användare och svar på dessa kommentarer.
-* Systemuppdateringar är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>Dokument</li> 
+      <li>Mål</li> 
+      <li>Problem</li> 
+      <li>Iterationer</li> 
+      <li>Projekt</li> 
+      <li>Program</li> 
+      <li>Portfolio</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>Artiklar*</li> 
+      <li>Uppgifter</li> 
+      <li>Mallar</li> 
+      <li>Malluppgifter</li> 
+      <li>Tidrapporter</li> 
+      <li>Användare</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-Uppdateringsavsnittet visas för följande objekt:
+  *Artiklar är uppgifter. All information som rör uppgifter är också tillgänglig för artiklar.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Dokument</li> 
-     <li>Mål</li> 
-     <li>Problem</li> 
-     <li>Iterationer</li> 
-     <li>Projekt</li> 
-     <li>Program</li> 
-     <li>Portfolio</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Artiklar*</li> 
-     <li>Uppgifter</li> 
-     <li>Mallar</li> 
-     <li>Malluppgifter</li> 
-     <li>Tidrapporter</li> 
-     <li>Användare</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*Artiklar är uppgifter. All information som rör uppgifter är också tillgänglig för artiklar.
+* I det aktuella uppdateringsavsnittet visas följande information:
+
+   * Användaruppdateringar: Kommentarer gjorda av användare och svar på dessa kommentarer.
+   * Systemuppdateringar: Informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* Följande objekt registrerar inte systemuppdateringar:
+
+   * Team
+   * Mall
+   * Malluppgift
 
 ### Översikt över uppdateringsavsnittet i betakommentarsfunktionen
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Kommentarer**: Visar kommentarer som gjorts av användare och svar på dessa kommentarer. Information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
-* **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
 
-För närvarande kan du lägga till kommentarer och svara på uppdateringar med hjälp av den nya kommentarsfunktionen för följande objekt:
+   * **Kommentar**: Visar kommentarer från användare och svar på dessa kommentarer. Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Mål</p>
-     <li>Kort i området för anslagstavlor*</li>
-      Det här är den enda upplevelsen för mål och kort.
-     </li> 
-     <li>Projekt</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Problem</li> 
-     <li>Uppgifter</li>
-     <li>Dokument</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* För närvarande kan du lägga till kommentarer och svara på uppdateringar med hjälp av den nya kommentarsfunktionen för följande objekt:
 
-*Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>Mål</p>
+        <li>Kort i området för anslagstavlor*</li>
+          Det här är den enda upplevelsen för mål och kort.
+        </li> 
+        <li>Projekt</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>Problem</li> 
+        <li>Uppgifter</li>
+        <li>Dokument</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## Uppdateringar som också visas på objekt med högre rankning
 
@@ -256,7 +272,7 @@ Journalanmälningsrapporten innehåller systemuppdateringar från uppdateringsom
 I rapporten kan du se:
 
 * Hur många statusändringar som har gjorts
-* När en uppgift eller ett problem togs bort
+* När en uppgift eller ett problem har tagits bort
 * Hur värden i viktiga anpassade fält ändrades under ett projekt
 * Vilka viktiga datum som har ändrats under ett projekt
 * Om prioritet ändras under ett projekt

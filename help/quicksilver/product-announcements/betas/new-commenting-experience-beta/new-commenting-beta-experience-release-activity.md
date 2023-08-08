@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Vi planerar att släppa den nya kommentarsupplevelsen iterativt. Detta påverkar
 
 Information om vilka Workfront-objekt som visas i uppdateringsavsnittet finns i   [Översikt över uppdateringsavsnittet](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av den nya kommentarsfunktionen i produktionsmiljön. Förutom milstolparna nedan kommer vi att fortsätta att förbättra kommentarsupplevelsen med mindre förbättringar. Mer information om alla funktioner finns i [Frisläppta funktioner](#released-features) i den här artikeln.
+Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av den nya kommentarsfunktionen i produktionsmiljön. Förutom milstolparna nedan kommer vi att fortsätta att förbättra kommentarsupplevelsen med mindre förbättringar. Mer information om alla funktioner som släpps finns i [Frisläppta funktioner](#released-features) i den här artikeln.
 
 * Med version 23.2 (6 april 2023):
    * Kommentarsupplevelse Beta för problem
@@ -49,7 +49,7 @@ Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av d
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
    * Kommentarsupplevelsen Beta för projekt, uppgifter, utgåvor och dokument blir standardalternativet.
 * I slutet av 2023:
-   * Den gamla kommentarfunktionen förblir ett alternativ för följande objekt: projekt, uppgifter, utgåvor och dokument.
+   * Den gamla kommentarsfunktionen förblir ett alternativ för följande objekt: projekt, uppgifter, problem och dokument.
 
   >[!NOTE]
   >
@@ -81,7 +81,7 @@ Vi har gjort om gränssnittet för loggningstid från uppdateringsområdet i den
 
 Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-Förhandsgranskningsversion: 5 juli 2023
+Förhandsversion: 5 juli 2023
 
 Produktionsrelease: med version 23.3
 
@@ -101,7 +101,7 @@ Nu kan du lägga till känslolägesikoner i en kommentar med ett RTF-verktygsfä
 
 Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Dokumentationen uppdateras när den släpps.
 
-Förhandsgranska och producera: Ska tillkännages (under eller kort efter version 23.3)
+Förhandsgranska och producera: Ska tillkännages (under eller kort efter version 23.3) <!--August 10, 2023-->
 
 #### Ny kommentarfunktion för ytterligare objekt
 
@@ -111,15 +111,15 @@ Det här är den enda kommentarsfunktionen för de här objekten eftersom den ga
 
 Mer information finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). Dokumentationen uppdateras när den släpps.
 
-Förhandsgranskningsversion: Anmälan ska göras efter produktionsutgåvan 23.3 (20 juli 2023)
+Förhandsgranskningsversion: ska tillkännages efter 23.3-utgåvan (20 juli 2023)
 
-Produktionsrelease för kunder med snabb lansering: Ska tillkännages efter version 23.3
+Produktionsrelease för kunder med snabb lansering: tillkännages efter version 23.3
 
 Produktionsrelease för alla kunder: med version 23.4
 
 ### Vecka 12 juni 2023
 
-#### Ny kommentarsfunktion för kort i styrelserutan
+#### Ny kommentarsfunktion för kort i området för anslagstavlor
 
 Den nya kommentarsupplevelsen är nu tillgänglig för kort i området för anslagstavlor. Det här är den enda tillgängliga upplevelsen för kort. Mer information finns i [23.3 - versionsöversikt](../../product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -238,7 +238,7 @@ Följande underhållsuppdatering har släppts för att ge möjlighet att komment
 Visa nya kommentarer utanför det synliga skärmområdet i uppdateringsavsnittet för problem (nya kommentarer för betaversionen) och mål. Mer information finns i avsnittet &quot;Maintenance Update on April 17&quot; i artikeln  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Uppdateringar i april 2023</a>.
 
 
-### Vecka 6 april 2023
+### 6 april 2023
 
 Den nya betafunktionen för kommentering lanserades för problem.
 Samma funktioner som finns för betaversionen av kommentarer för Workfront-objekt släpps samtidigt för alla användare som har tillgång till Workfront-målen. Mer information finns i [23.2 Versionsöversikt](../../product-releases/23.2-release-activity/23-2-release-overview.md).
