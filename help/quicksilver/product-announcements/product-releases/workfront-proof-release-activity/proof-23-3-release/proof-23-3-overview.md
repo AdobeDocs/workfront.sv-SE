@@ -7,7 +7,7 @@ description: Den här sidan innehåller information om funktionaliteten för Ado
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 1a4db0b89b9035eb8dd95052b5378e78d1cfbc9f
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -46,8 +46,8 @@ En lista över alla ändringar som är tillgängliga för alla delar av Workfron
                                 <p>Förhandsgranskning och produktionsrelease: 27 juli 2023</p>
                             </li>
                             <li>
-                                <p><i>För användare som använder automatisk installation, med version 2.1.27</i></p>
-                                <p>Förhandsgranskning och produktionsrelease: TBD</p>
+                                <p><i>För användare som använder automatisk installation, med version 2.1.28</i></p>
+                                <p>Förhandsgranska och producera: 10 augusti 2023</p>
                             </li>
                         </ul>
                     </td>
