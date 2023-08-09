@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 0%
 >
 >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Du kommer åt den nya funktionen för följande objekt:
+>Du kan komma åt den nya funktionen för följande objekt:
 > * Problem, projekt, uppgifter och dokument.
 >
->     Detta är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
+>     Det här är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
 >
 >     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
 >
@@ -66,11 +66,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Begär eller högre för frågor och dokument. Granska eller högre för alla andra objekt</p> </td> 
+   <td> <p>Begär eller högre för problem och dokument; Granska eller högre för alla andra objekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>begärande eller högre för frågor och dokument, Granskare eller högre för alla andra objekt</p> <p><b>ANMÄRKNING</b>
+   <td> <p>Begärande eller högre för problem och dokument; Granskare eller högre för alla andra objekt</p> <p><b>ANMÄRKNING</b>
 
 Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
@@ -83,7 +83,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Svara på en uppdatering eller ett svar
+## Svara på en uppdatering eller ett svar i Workfront
 
 Du kan svara på en kommentar i tråden för ett objekt som du kan visa, eller så kan du logga in som Workfront- eller gruppadministratör och svara på en kommentar för en annan användares räkning. Mer information finns i [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
@@ -97,7 +97,7 @@ Hur du svarar på en kommentar eller ett svar varierar beroende på vilken upple
 1. (Valfritt) Gör något av följande om du vill visa en bild i den befintliga uppdateringen:
 
    * Klicka på **Förhandsgranska** icon ![](assets/previewimageicon-31x31.png) på miniatyrbilden för att öppna bilden i full storlek på en ny flik i webbläsaren.
-   * Klicka på **Hämta** icon ![](assets/downloadimageicon.png) på miniatyrbilden för att hämta bilden.
+   * Klicka på **Ladda ned** icon ![](assets/downloadimageicon.png) på miniatyrbilden för att hämta bilden.
 
 1. Klicka **Svara** på uppdateringen skriver du ett svar i rutan som visas.
 
@@ -114,7 +114,7 @@ Hur du svarar på en kommentar eller ett svar varierar beroende på vilken upple
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Gå till det objekt som du vill lägga till ett svar på.
-1. Klicka **Uppdateringar** klickar du på **Kommentarer** -fliken för objektet och hitta den kommentar eller det svar som du vill svara på.
+1. Klicka **Uppdateringar** och klickar sedan på **Kommentar** -fliken för objektet och hitta den kommentar eller det svar som du vill svara på.
 1. (Valfritt) Om du vill ta med text från en tidigare uppdatering i ditt svar klickar du på **Mer** -menyn bredvid den uppdatering eller det svar som du vill citera och klicka sedan på **Offertsvar**. Texten från föregående uppdatering visas i indataområdet, markerat med en lodrät grå linje.
 1. Klicka **Svara**.
 
@@ -127,53 +127,23 @@ Information om vilka funktioner som är tillgängliga för den nya kommentarsfun
 1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) bredvid uppdateringen om du vill ha fler alternativ för att hantera svaret. Mer information finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
 
-## Svara på en uppdatering via e-postmeddelande
+## Svara på en uppdatering från ett e-postmeddelande
 
 Beroende på hur dina e-postmeddelanden är konfigurerade kan du få ett e-postmeddelande när en uppdatering görs för vissa objekt som du har åtkomst till.
 
->[!NOTE]
->
->Det går inte att svara på uppdateringar via e-post i miljöer med kluster 6.
+Du kan svara på en uppdatering från ett e-postmeddelande på följande sätt:
+
+* Svara på det e-postmeddelande du får. Ditt e-postmeddelande läggs till som ett svar från Workfront på den ursprungliga kommentaren.
+* Använd kommentarsknappen i e-postmeddelandet för att gå tillbaka till Workfront och svara på uppdateringen i uppdateringsområdet.
 
 Följande är ett exempel på ett e-postmeddelande som utlöses som ett resultat av en uppdatering som görs på fliken Uppdateringar för en uppgift:
 
 ![email.png](assets/email-350x202.png)
 
-Från e-postmeddelandet kan du enkelt lägga till ett svar direkt i kommunikationstråden för objektet i Workfront. Du kan också lägga till ett svar utan att logga in på Workfront, i ett e-postmeddelande som genereras av kommentarer som gjorts i följande objekt:
+Mer information finns i [Svara på e-postmeddelanden](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
-* Projekt
-* Uppgift
-* Problem
-* Dokument
-* Mall- och malluppgift
-* Portfolio
-* Program
-* Upprepning
-* Tidrapport
 
-### Svara på en uppdatering från ett e-postmeddelande
 
-När du får ett e-postmeddelande kan du snabbt öppna det associerade Workfront-objektet och lägga till ett svar direkt i kommunikationstråden.
 
-1. Klicka **Kommentar** i e-postmeddelandet.
 
-   Sidan Detaljer för objektet öppnas i Workfront.
 
-1. Gå till uppdateringen som du vill lägga till ett svar på.
-
-   Förutom att se vilka användare som aktivt deltar i konversationen kan du se vilka som taggats i varje svar högst upp i uppdateringstråden. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får meddelanden när en uppdatering eller ett svar görs för objektet. Om du vill tagga fler användare läser du [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-1. Klicka **Svara,** ange ditt svar och klicka sedan på **Svara**.
-
-### Lägga till en uppdatering till ett objekt utanför Workfront
-
-När du får ett e-postmeddelande från Workfront kan du snabbt lägga till en uppdatering i kommunikationstråden utan att logga in på Workfront.
-
-Så här lägger du till en uppdatering i ett e-postmeddelande från Workfront:
-
-1. Öppna e-postmeddelandet från ditt e-postprogram som du vill svara på och öppna sedan ett svars-e-postfönster.
-1. Skriv in uppdateringen.\
-   Bifogade filer tillåts inte och eventuell RTF-formatering som används på en uppdatering i ett e-postmeddelande visas inte på uppdateringen när den visas på fliken Uppdateringar.
-1. Klicka **Skicka**.
-
-   Din uppdatering läggs till i kommunikationstråden för objektet.

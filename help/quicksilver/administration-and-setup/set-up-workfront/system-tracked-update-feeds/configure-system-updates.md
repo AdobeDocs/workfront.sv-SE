@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Konfigurera systemuppdateringar
-description: Workfront genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates] för att registrera ändringar som användare utför på objektet. Som [!DNL Workfront] administratör, du kan konfigurera vilka objektfält och åtgärder [!DNL Workfront] spår för att registrera systemuppdateringar.
+description: Workfront genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates] för att registrera ändringar som användare utför på objektet. Som en [!DNL Workfront] administratör, du kan konfigurera vilka objektfält och åtgärder [!DNL Workfront] spår för att registrera systemuppdateringar.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 
 Dessa systemuppdateringar innehåller ändringar som gjorts, namnet på den användare som gjorde ändringen samt tid och datum för ändringen.
 
-Som [!DNL Workfront] administratör, du kan konfigurera vilka objektfält och åtgärder [!DNL Workfront] spår för att registrera systemuppdateringar.
+Mer information om systemuppdateringar finns i [Systemspårade uppdateringar](../system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+Som en [!DNL Workfront] administratör, du kan konfigurera vilka objektfält och åtgärder [!DNL Workfront] spår för att registrera systemuppdateringar.
 
 Du kan till exempel ha [!DNL Workfront] spåra alla ändringar som användare gör i namn på problem i hela systemet. Alla ändringar av problemets namn visas sedan som en systemuppdatering av problemets [!UICONTROL Updates] område.
 
@@ -46,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +65,10 @@ Du kan avgöra vilken information [!DNL Workfront] spårar när användare ändr
 
 
 
-
-* [Lägg till fält som du vill ha [!DNL Workfront] att spåra](#add-fields-you-want-workfront-to-track)
+* [Lägg till fält som du vill ha [!DNL Workfront] för att spåra](#add-fields-you-want-workfront-to-track)
 * [Ta bort fält som du inte vill spåra](#remove-fields-that-you-don-t-want-tracked)
 
-### Lägg till fält som du vill ha [!DNL Workfront] att spåra {#add-fields-you-want-workfront-to-track}
+### Lägg till fält som du vill ha [!DNL Workfront] för att spåra {#add-fields-you-want-workfront-to-track}
 
 Du kan lägga till fält [!DNL Workfront] för att spåra en viss typ av objekt i hela [!DNL Workfront] gränssnitt. När användare ändrar information i det fältet, [!DNL Workfront] registrerar information om ändringen som en systemuppdatering i [!UICONTROL Updates] området för objektet.
 
@@ -145,7 +146,7 @@ Du kan till exempel ha [!DNL Workfront] spela in en uppdatering varje gång en a
    <td> <p>Aktiverad</p> </td> 
   </tr> 
   <tr> 
-   <td>Dokumentet skapas eller tas bort</td> 
+   <td>Dokumentet har skapats eller tagits bort</td> 
    <td>Projekt, uppgifter, problem, Portfolio, program</td> 
    <td> <p>Aktiverad</p> </td> 
   </tr> 
@@ -182,7 +183,7 @@ Du kan till exempel ha [!DNL Workfront] spela in en uppdatering varje gång en a
  </tbody> 
 </table>
 
-Konfigurera vilka åtgärder du vill utföra [!DNL Workfront] att spåra:
+Konfigurera vilka åtgärder du vill utföra [!DNL Workfront] för att spåra:
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 

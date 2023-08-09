@@ -6,7 +6,7 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
 source-wordcount: '3486'
 ht-degree: 0%
@@ -478,6 +478,8 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 ## Aktivera eller inaktivera systemuppdateringar
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
+
+<!--when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
