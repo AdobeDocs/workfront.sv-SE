@@ -7,16 +7,16 @@ description: Genom att använda Workfront Fusion via Adobe Experience Cloud får
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: d43d17f59d8ecc071cf953994721b586ff9328d2
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
 
-Åtkomst [!DNL Workfront Fusion] via [!DNL Adobe Experience Cloud] ger er en smidig, enhetlig upplevelse för att hantera alla [!DNL Adobe] program. Med en identitetshantering kan du logga in på ett och samma ställe, utan flera URL:er eller inloggnings-ID:n.
+Åtkomst [!DNL Workfront Fusion] via [!DNL Adobe Experience Cloud] ger er en smidig, enhetlig upplevelse för att hantera alla era [!DNL Adobe] program. Med en identitetshantering kan du logga in på ett och samma ställe, utan flera URL:er eller inloggnings-ID:n.
 
 För en video som beskriver navigering i [!DNL Fusion] i [!DNL Adobe Experience Cloud], se:
 
@@ -50,12 +50,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Kontakta [!DNL Workfront Fusion] administratör.
+*Kontakta din [!DNL Workfront Fusion] administratör.
 
 ## Förutsättningar
 
@@ -64,7 +64,7 @@ Din organisations instans av Workfront Fusion måste integreras med [!DNL Adobe 
 ## Logga in på [!DNL Adobe Experience Cloud]
 
 1. Öppna ett webbläsarfönster och gå till <https://experience.adobe.com>.
-1. På inloggningsskärmen skriver du din e-postadress och klickar på **[!UICONTROL Continue]**.
+1. Skriv din e-postadress och klicka på **[!UICONTROL Continue]**.
 
    ![Logga in på [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 
@@ -78,13 +78,13 @@ När du är inloggad på [!DNL Adobe Experience Cloud]kan du visa alla [!DNL Wor
 >
 >Första gången du loggar in på [!DNL Adobe Experience Cloud]blir standardvärdet den första i listan i alfabetisk ordning. Nästa gång du loggar in blir organisationen som standard den senaste du besökte.
 
-[!DNL Workfront Fusion] visas i listan med [!DNL Adobe Experience Cloud] produkter du har tillgång till. Du kan välja [!DNL Workfront Fusion] på snabbmenyn på [!DNL Experience Cloud] hemsida eller använd produktväljaren ![Produktväljare](assets/main-menu-icon.png) för att ändra program när som helst.
+[!DNL Workfront Fusion] visas i listan med [!DNL Adobe Experience Cloud] produkter du har tillgång till. Du kan [!DNL Workfront Fusion] på snabbmenyn på [!DNL Experience Cloud] hemsida eller använd produktväljaren ![Produktväljare](assets/main-menu-icon.png) för att ändra program när som helst.
 
 ![Välj [!DNL Workfront Fusion] för att få åtkomst till programmet](assets/aec-product-switcher.png)
 
 ## Navigera [!DNL Workfront Fusion]
 
-Använd [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) till vänster om [!DNL Adobe] navigeringsfältet för att öppna [!UICONTROL Organization] och [!UICONTROL Team] menyer. Om du är en [!DNL Workfront Fusion] administratör, [!UICONTROL Administration] visas här.
+Använd [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) till vänster om [!DNL Adobe] navigeringsfältet för att öppna [!UICONTROL Organization] och [!UICONTROL Team] menyer. Om du är [!DNL Workfront Fusion] administratör, [!UICONTROL Administration] -menyn visas också här.
 
 Om du vill byta team klickar du på teamnamnet längst upp på sidan och väljer sedan teamet. Det här visas bara på sidor som är specifika för ett team, till exempel en scenariobyggaren eller [!UICONTROL Connections] sida.
 
@@ -101,5 +101,12 @@ Med den här menyn kan du:
 * Välj **[!UICONTROL Dark theme]** formatera för [!DNL Adobe Experience Cloud].
 * Ange **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inklusive inställningar för primärt och sekundärt språk.
 * Få åtkomst till dina **[!UICONTROL [!DNL Workfront Fusion] Profile]**. När du är med i profilen klickar du på **[!UICONTROL More]** meny ![](assets/more-icon.png) och markera **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL Sign out]** Adobe Experience Cloud.
+* **[!UICONTROL Sign out]** av Adobe Experience Cloud.
+
+
+## Få åtkomst till dina meddelanden
+
+Du hittar meddelanden och meddelanden i meddelandeområdet i det enhetliga gränssnittet.
+
+Om du vill visa dina meddelanden klickar du på meddelandeikonen ![Ikonen Meddelanden](assets/notifications-icon.png) i skärmens övre högra hörn. En röd punkt på meddelandeikonen anger att du har olästa meddelanden eller meddelanden.
 
