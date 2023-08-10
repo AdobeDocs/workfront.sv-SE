@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 0%
 
 ---
@@ -240,8 +240,6 @@ The **Kommentar** -fliken är markerad som standard.
    >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. Klicka på **Lägg till bilaga** icon ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> om du vill lägga till en bild i kommentaren. Bilden måste sparas på datorn innan du kan bifoga den. <!--**************** this might be renamed to "Add image")-->
-
 1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla och klicka sedan på **Redigera**.
 1. Redigera informationen i kommentaren, lägg till eller ta bort bilder eller ta bort någon av de taggade användarna.
@@ -301,7 +299,6 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    | Punktlista | ![mceclip6.png](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
    | Numrerad lista | ![mceclip5.png](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
    | Blockcitat | ![](assets/block-quote-icon-large.png) | ¥+Shift+9 | Ctrl+Skift+9 |
-   | Emoji | ![](assets/emoji-icon.png) | Jesse+. | ⊞+. |
 
    Om du vill avbryta formateringen av text avmarkerar du attributet på **RTF** verktygsfält.
 
@@ -345,7 +342,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
    eller
 
-   Klicka på **Lägg till bilaga** icon ![](assets/add-image-paperclip-icon.png) och bläddra till bilden på datorn när du använder Beta-kommenteringsfunktionen. <!--the name of the icon and the icon for it might change-->
+   Klicka på **Lägg till bilaga** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn när du använder Beta-kommenteringsfunktionen. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >

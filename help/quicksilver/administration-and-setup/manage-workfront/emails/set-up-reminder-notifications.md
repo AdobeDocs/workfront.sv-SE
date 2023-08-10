@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Ställ in påminnelsemeddelanden
-
-<!--hidden content for the tab redesign in August 2023-->
 
 Påminnelsemeddelanden skickar e-postmeddelanden till mottagare baserat på angivna villkor. Som Adobe Workfront-administratör eller en användare med behörigheten Planering och administrativ åtkomst till påminnelsemeddelanden kan du manuellt associera påminnelsemeddelanden med dina arbetsobjekt, till exempel projekt, uppgifter, utgåvor och tidrapporter.
 
@@ -68,9 +66,8 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
 
 1. Klicka **E-post** > **Meddelanden** > **Påminnelsemeddelanden**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. Klicka **Nytt påminnelsemeddelande**.
 
 1. Klicka på den objekttyp som du vill associera med påminnelsemeddelandet i listrutan.

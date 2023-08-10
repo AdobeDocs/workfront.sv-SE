@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td><strong>Gammal kommentarsfunktion </strong>
    </td>
-   <td><strong>Finns i den nya kommentarsfunktionen </strong>
+   <td><strong>Finns i den nya kommentarsupplevelsen </strong>
    </td>
    <td><strong>Kommer att introduceras i den nya kommentarsfunktionen </strong>
    </td>
@@ -125,13 +125,13 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
   </tr>
 
 <tr>
-   <td>RTF (känslolägesikoner)
+   <td>RTF (emojis)
    </td>
    <td>✓ 
    </td>
-   <td>
+   <td>✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td> 
    </td>
@@ -368,7 +368,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
   </tr>
   <tr>
-   <td>Text för offertkommentar 
+   <td>Citattext 
    </td>
    <td>✓ 
    </td>
@@ -496,7 +496,7 @@ Den nya kommentarsfunktionen stöds för närvarande för följande objekt när 
   Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-* Som standard är kommentarsupplevelsen:
+* Som standard används följande som huvudkommentarsfunktion:
 
    * Mål, kort i området för anslagstavlor
 
@@ -506,10 +506,10 @@ Den nya kommentarsfunktionen stöds för närvarande för följande objekt när 
 
 Så här aktiverar du den nya kommentarsfunktionen Beta:
 
-1. Gå till ett objekt som du vill aktivera den nya kommentarsfunktionen för och klicka sedan på **Uppdateringar** i den vänstra panelen.
+1. Gå till ett objekt som du vill aktivera den nya kommentarsfunktionen för och klicka sedan på **Uppdateringar** till vänster.
 1. Aktivera **Kommentera betaversion** i det övre högra hörnet av uppdateringsområdet.
 1. Klicka **Godkänn** i rutan Betaavtal. Detta aktiverar den nya kommentarsfunktionen för det markerade objektet.
-1. Börja skriva en uppdatering i **Kommentarer** -fliken. Fliken Kommentarer ska vara standardflik när den nya funktionen öppnas
+1. Börja skriva en uppdatering i **Kommentar** -fliken. Fliken Kommentarer ska vara standardflik när den nya funktionen öppnas
 
    eller
 
