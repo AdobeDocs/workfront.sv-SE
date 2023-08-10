@@ -5,9 +5,9 @@ title: Kom igång med nya startsidor i Adobe Workfront
 description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Nytt hem är utformat för att vara mycket anpassningsbart, vilket gör att du k
 
 ### Widgetar
 
-Widgets är grunden för New Home. Genom att lägga till widgetar på hemsidan kan du välja vilken typ av information som ska visas så att den passar dina behov. Vissa widgetar är bara tillgängliga för specifika licenstyper, eftersom de objekt de spårar bara är tillgängliga för dessa licenser. Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av den information de visar:
+Widgets är grunden för New Home. Genom att lägga till widgetar på hemsidan kan du välja vilken typ av information som ska visas så att den passar dina behov. Vissa widgetar är bara tillgängliga för specifika licenstyper, eftersom de objekt de spårar bara är tillgängliga för dessa licenser. Mer information om hur du lägger till, flyttar, ändrar storlek på eller tar bort widgetar finns i [Lägga till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av den information de visar:
 
 * **Mitt arbete**\
     Den här widgeten är en bra plats att börja på när du vill hantera en mängd olika typer av arbeten. Här visas alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe.
@@ -50,7 +52,7 @@ Widgets är grunden för New Home. Genom att lägga till widgetar på hemsidan k
     Visar alla godkännanden för din organisation i en tabell med anpassningsbara kolumner, samt ett sökfält där du kan söka efter specifika godkännanden.
 
 * **Omnämnanden**\
-    Visar senaste kommentarstrådar som innehåller @ omnämnanden av dig i Workfront, samt en svarsknapp som gör att du kan skapa ett svar i widgeten.
+    Visar senaste kommentarstrådar som innehåller @ omnämnanden av dig i Workfront, samt en svarsknapp som gör att du kan skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
 
 * **Att göra**\
     Med den här unika widgeten kan du lägga till textobjekt i en personlig checklista som du kan redigera fritt.
@@ -114,8 +116,6 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
         <td>Väntar på mitt godkännande, uppgifter</td>
     </tr>
 </table>
-
-Mer information om hur du lägger till, flyttar, ändrar storlek på eller tar bort widgetar finns i [Lägga till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Anpassning av bakgrund
 

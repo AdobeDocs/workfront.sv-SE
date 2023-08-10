@@ -6,9 +6,9 @@ description: Desktop Proofing Viewer, som huvudsakligen är avsedd för korrektu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ Om så inte är fallet kan du följa stegen nedan.
 
 1. Hämta appen genom att göra något av följande:
 
-   * Om du använder produktionsmiljön klickar du på [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.26.pkg)
-   * Om du använder förhandsvisningsmiljön klickar du på [Mac Preview Download for the Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.26.pkg)
+   * Om du använder produktionsmiljön klickar du på [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.28.pkg)
+   * Om du använder förhandsvisningsmiljön klickar du på [Mac Preview Download for the Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.28.pkg)
 
 1. Öppna filen som du just laddat ned för att starta installationen.
 1. I installationsrutan som visas klickar du på **Fortsätt** och sedan klicka **Installera**.
@@ -77,8 +77,8 @@ Om Workfront- eller Workfront-administratören har laddat ned appen till din arb
 
 1. Hämta appen genom att göra något av följande:
 
-   * I produktionsmiljön klickar du på [Windows Production-hämtning för Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.26.exe)
-   * I förhandsgranskningsmiljön klickar du på [Windows Preview-hämtning för Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.26.exe).
+   * I produktionsmiljön klickar du på [Windows Production-hämtning för Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.28.exe)
+   * I förhandsgranskningsmiljön klickar du på [Windows Preview-hämtning för Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.28.exe)
 
 1. Öppna filen som du just laddat ned för att starta installationen.
 1. Öppna den fil du just laddat ned i installationsrutan som visas för att starta installationen.
