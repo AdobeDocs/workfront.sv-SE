@@ -5,7 +5,7 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Konfigurera händelsemeddelanden för alla i systemet
-
-<!--look for the "hidden" addition below for the tab redesign - August 2023-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -69,9 +67,8 @@ Du måste aktivera meddelanden under Konfigurera i Workfront innan användare ka
 
 1. Klicka **E-post** > **Meddelanden**.
 
-   <!--hidden shot for the tab redesign - make live in August 2023:
    ![](assets/notifications-area-under-setup-emails.png)
-   -->
+
 
 1. Se till att **Händelsemeddelanden** -fliken är öppen.
 1. Klicka på växeln till vänster om händelsenamnet för att aktivera eller inaktivera den.
