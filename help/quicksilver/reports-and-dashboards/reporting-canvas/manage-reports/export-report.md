@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -19,7 +21,7 @@ Du kan exportera en hel rapport, eller ett visst block, till ett filformat som p
 * PDF (för närvarande inaktiverad)
 * CSV
 * PNG
-* XLSX
+* XSX
 
 ## Förutsättningar
 
@@ -28,7 +30,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 ## Exportera en rapport
 
 1. Navigera till rapporten som du vill exportera.
-1. Klicka på **Mer** icon ![](assets/more-icon-27x15.png), klicka **Exportera** väljer du sedan det filformat som du vill skapa.
+1. Klicka på knappen **Mer** icon ![](assets/more-icon-27x15.png), klicka **Exportera** väljer du sedan det filformat som du vill skapa.
 
    >[!NOTE]
    >
@@ -37,7 +39,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
    >   * Om du exporterar en rapport som innehåller flera tabeller till ett XLSX-format innehåller den exporterade filen ett separat blad för varje tabell.
    >   * Om du exporterar en rapport som innehåller flera tabeller till ett CSV-format, är det exporterade resultatet en komprimerad mapp som innehåller en separat fil för varje tabell.
    >   * Om du exporterar en tabell som innehåller grupperade rader till ett CSV-format, innehåller CSV-filen alla rader, men de visas inte i grupper.
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

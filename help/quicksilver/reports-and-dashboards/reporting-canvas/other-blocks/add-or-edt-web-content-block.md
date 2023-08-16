@@ -6,7 +6,9 @@ description: Med webbinnehållsblock kan du visa information från externa webbp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -24,12 +26,12 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Lägga till eller redigera ett webbinnehållsblock
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på&#x200B;**Rapportering**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på&#x200B;**Rapportering**.
 1. Klicka **Ny rapport**.
 
    eller
 
-   Gå till en befintlig rapport och klicka på **Mer** icon ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
+   Klicka på **Mer** icon ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
 
 1. Till höger på skärmen, under **Lägg till ett block**, antingen:
 
@@ -62,7 +64,6 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
    >   * domo.com
    >   * looker.com
 
-
    En varning visas under den angivna URL:en om den inte kan bäddas in. Dessa varningar omfattar:
 
    | Varningsnamn | Orsak |
@@ -72,7 +73,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
    {style="table-layout:auto"}
 
-1. (Valfritt) Klicka på **Skicka parametrar** för att öppna en lista över tillgängliga lösenordsparametrar.
+1. (Valfritt) Klicka på **Godkänn parametrar** för att öppna en lista över tillgängliga lösenordsparametrar.
 
    >[!WARNING]
    >

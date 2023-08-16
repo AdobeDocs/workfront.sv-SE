@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -23,12 +25,12 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Lägga till eller redigera ett tabellblock
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapportering**.
 1. Klicka **Ny rapport**.
 
    eller
 
-   Gå till en befintlig rapport och klicka på **Mer** icon ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
+   Klicka på **Mer** icon ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
 
 1. Till höger på skärmen under **Lägga till ett block**, antingen:
 
@@ -53,7 +55,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
    >Om tabellen redan var en del av arbetsytan (till exempel när du redigerar en befintlig rapport) visas **Redigera** knappen visas inte i mitten av blocket. Om du vill redigera tabellen klickar du på **Redigera** icon ![](assets/edit-icon.png) i tabellrubriken i stället.
    >![](assets/edit-icon-table-header-350x71.png)
 
-1. I **Fält** till höger, leta upp ett fält som du vill lägga till som en kolumn i tabellen och dra det sedan till den plats i tabellen där du vill ha det eller dubbelklicka på det för att lägga till det som den sista kolumnen i tabellen.
+1. I **Fält** till höger, leta upp ett fält som du vill lägga till som en kolumn i tabellen och dra det sedan till den plats i tabellen där du vill ha det, eller dubbelklicka på det för att lägga till det som den sista kolumnen i tabellen.
 
    Du kan skriva text i **Sök** för att hitta ett specifikt fält efter namn. Du kan också använda de två listrutemenyerna under den här rutan för att begränsa listan med visade fält till ett eller båda av följande:
 

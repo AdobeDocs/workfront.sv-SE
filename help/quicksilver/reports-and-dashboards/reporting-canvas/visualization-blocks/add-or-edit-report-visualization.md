@@ -4,7 +4,9 @@ description: Lägga till eller redigera ett visualiseringsblock i rapportarbetsy
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -33,7 +35,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 >
 >Alla ändringar sparas automatiskt när du skapar och redigerar blocken i rapporten.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapportering**.
 1. Klicka **Ny rapport** skapar du sedan en rapport med tabeller som innehåller data enligt beskrivningen i [Skapa en rapport i Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) och [Lägga till eller redigera ett tabellblock i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    eller
@@ -76,7 +78,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 1. Fortsätt med att konfigurera visualiseringen:
 
-   * **Liggande** visualisering: Instruktioner finns i [Konfigurera en fältvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **Kolumn** visualisering: Instruktioner finns i [Konfigurera en kolumnvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **Cirkel** visualisering: Instruktioner finns i [Konfigurera cirkelvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI** visualisering: Instruktioner finns i [Konfigurera en KPI-visualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * **Liggande** visualisering: Mer information finns i [Konfigurera en fältvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
+   * **Kolumn** visualisering: Mer information finns i [Konfigurera en kolumnvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
+   * **Cirkel** visualisering: Mer information finns i [Konfigurera cirkelvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
+   * **KPI** visualisering: Mer information finns i [Konfigurera en KPI-visualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).

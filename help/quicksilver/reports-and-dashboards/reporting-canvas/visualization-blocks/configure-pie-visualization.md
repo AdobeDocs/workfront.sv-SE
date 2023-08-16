@@ -4,7 +4,9 @@ description: Konfigurera cirkelvisualisering i rapportarbetsytan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -48,7 +50,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
          <td role="rowheader">Värde</td>
          <td><p>I den vänstra listrutan väljer du de värden som du vill ska visas på varje kilo.</p><p>I den högra listrutan väljer du hur du vill att dessa värden ska beräknas i visningen:</p>
           <ul>
-           <li><p><b>Antal</b>: Antalet värden</p></li>
+           <li><p><b>Antal</b>: Antal värden</p></li>
            <li><p><b>Summa</b>: Summan av alla värden </p></li>
            <li><p><b>Genomsnittlig</b>: Medelvärdet för alla värden</p></li>
            <li><p><b>Minimum</b>: Endast det lägsta värdet</p></li>
@@ -60,7 +62,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
    1. På **Data** tab:
 
-      | Datakälla (nedrullningsbar meny) | Ändra datakällan för visualiseringen till en annan tabell på rapportarbetsytan. |
+      | Datakälla (listruta) | Ändra datakällan för visualiseringen till en annan tabell på rapportarbetsytan. |
       |---|---|
       | Visa datakälla | Aktivera det här alternativet om du vill visa källtabellen för visualiseringen på rapportarbetsytan eller inaktivera alternativet att dölja den. |
 
@@ -70,4 +72,4 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
       NOLAN-FLAG: convert table to html. 
       -->
 
-1. Klicka utanför menyn för visualiseringsinställningar för att stänga den.
+1. Klicka var som helst utanför menyn för visualiseringsinställningar för att stänga den.

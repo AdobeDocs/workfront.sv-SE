@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -23,18 +25,18 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Gruppera rader i en tabell
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapportering**.
 1. Klicka **Ny rapport**.
 
    eller
 
-   Gå till en befintlig rapport och klicka på **Menyn Mer** icon ![](assets/more-icon.png) i rapportrubriken väljer du **Redigera**.
+   Klicka på **Menyn Mer** icon ![](assets/more-icon.png) i rapportrubriken väljer du **Redigera**.
 
 1. Om du vill gruppera rader i en ny tabell drar eller dubbelklickar du på ett tabellblock på arbetsytan.
 
    eller
 
-   Om du vill gruppera rader i en befintlig tabell klickar du på **Redigera** icon ![](assets/edit-icon.png) i tabellrubriken.
+   Klicka på **Redigera** icon ![](assets/edit-icon.png) i tabellrubriken.
 
 1. I den högra panelen letar du upp ett fält som du vill gruppera och drar det till **Grupp** -avsnitt.
 
@@ -93,9 +95,9 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 1. Gör något av följande:
 
    * Om du vill lägga till en annan grupp drar du ett annat fält från sidopanelen.
-   * Om du vill visa rader i en grupp som är komprimerad som standard klickar du på **Menyn Mer** icon ![](assets/more-icon.png) bredvid gruppen och klicka sedan på **Dölj grupp**.
+   * Om du vill visa rader i en grupp som är komprimerad som standard klickar du på **Menyn Mer** icon ![](assets/more-icon.png) bredvid gruppen och klicka sedan på **Komprimera grupp**.
 
-      Varje grupp kan konfigureras individuellt för att visas med rader komprimerade eller utökade. Som standard komprimeras alla grupperade rader.
+     Varje grupp kan konfigureras individuellt för att visas med rader komprimerade eller utökade. Som standard komprimeras alla grupperade rader.
 
    * Om du vill visa ett antal i gruppraden klickar du på **Menyn Mer** icon ![](assets/more-icon-27x15.png) bredvid gruppen och klicka sedan på **Visa antal**.
    * Om du vill ta bort en grupp klickar du på **Menyn Mer** icon ![](assets/more-icon.png) bredvid gruppen och klicka sedan på **Ta bort grupp**.

@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -48,19 +50,19 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Konfigurera filterregler för en tabell
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på&#x200B;**Rapportering**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på&#x200B;**Rapportering**.
 
 1. Klicka **Ny rapport**.
 
    eller
 
-   Gå till en befintlig rapport och klicka på **Menyn Mer** icon ![](assets/more-icon.png) i rapportrubriken väljer du **Redigera**.
+   Klicka på **Menyn Mer** icon ![](assets/more-icon.png) i rapportrubriken väljer du **Redigera**.
 
 1. Om du vill gruppera rader i en ny tabell drar eller dubbelklickar du på ett tabellblock på arbetsytan.
 
    eller
 
-   Om du vill gruppera rader i en befintlig tabell klickar du på **Redigera** icon ![](assets/edit-icon.png) i tabellrubriken.
+   Klicka på **Redigera** icon ![](assets/edit-icon.png) i tabellrubriken.
 
 1. I den högra panelen letar du reda på det fält som du vill filtrera tabellen efter och drar det sedan till filteravsnittet.
 
@@ -139,7 +141,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
        <tbody> 
         <tr> 
          <td role="rowheader"> <p>OCH</p> </td> 
-         <td> <p>När du kopplar filterregler eller regeluppsättningar till operatorn AND anger du att du vill att alla regler på samma nivå ska uppfyllas.</p> <p>Programsatserna i ett filter kopplas som standard av operatorn AND.</p> </td> 
+         <td> <p>När du kopplar filterregler eller regeluppsättningar till operatorn AND anger du att du vill att alla regler på samma nivå ska uppfyllas.</p> <p>Programsatserna i ett filter förenas som standard med operatorn AND.</p> </td> 
         </tr> 
         <tr> 
          <td role="rowheader"> <p>ELLER</p> </td> 
