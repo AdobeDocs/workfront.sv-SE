@@ -5,9 +5,9 @@ title: Kom igång med nya startsidor i Adobe Workfront
 description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,15 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Ljus</td>
-        <td>Mitt arbete, väntar på mitt godkännande, uppgifter</td>
+        <td>Mitt arbete, väntar på mitt godkännande</td>
     </tr>
     <tr>
         <td>Medarbetare</td>
-        <td>Mitt arbete, omnämnanden, att göra</td>
+        <td>Mitt arbete, omnämnanden</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Väntar på mitt godkännande, uppgifter</td>
+        <td>Väntar på mitt godkännande</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Granska</td>
-        <td>Mitt arbete, omnämnanden, att göra</td>
+        <td>Mitt arbete, omnämnanden</td>
     </tr>
     <tr>
         <td>Begränsad</td>
-        <td>Mina projekt, väntar på mitt godkännande, uppgifter</td>
+        <td>Mina projekt, väntar på mitt godkännande</td>
     </tr>
     <tr>
         <td>Medarbetare</td>
-        <td>Mitt arbete, omnämnanden, att göra</td>
+        <td>Mitt arbete, omnämnanden</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Väntar på mitt godkännande, uppgifter</td>
+        <td>Väntar på mitt godkännande</td>
     </tr>
 </table>
 
