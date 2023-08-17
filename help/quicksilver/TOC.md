@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 0%
 
 ---
@@ -962,6 +962,7 @@ ht-degree: 0%
       * [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Hantera kort](agile/get-started-with-boards/move-board-items.md)
       * [Hantera checklisteobjekt på kort](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Lägg till dokument på kort](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Ta bort eller arkivera ett kort från en anslagstavla](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrera och söka på en anslagstavla](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1096,7 +1097,7 @@ ht-degree: 0%
          * [Felsöka Adobe Experience Manager-integreringen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrera från tidigare eller förbättrade anslutningar {#migrate-from-legacy-enhanced-connectors}
       * [Migrera från tidigare eller förbättrade anslutningar](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migrera från den gamla eller förbättrade kopplingen till Workfront för as a Cloud Service integrering med Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migrera från den gamla eller förbättrade kopplingen till Workfront för as a Cloud Service integrering av Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migrera från den gamla anslutningen till den förbättrade anslutningen](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Avinstallera Workfront med Adobe Experience Manager äldre anslutning](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Avinstallera Workfront med Adobe Experience Manager förbättrad anslutning](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -2197,7 +2198,7 @@ ht-degree: 0%
          * [Överför dokument från InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [Överför korrektur från [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [Överför dokument från [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
-      * Workfront Extension för Illustrator och InDesign {#workfront-for-illustrator-indesign}
+      * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
          * [Använda Workfront-tillägget för Illustrator och InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront för Jira {#workfront-for-jira}
       * [Adobe Workfront för Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
@@ -2477,7 +2478,7 @@ ht-degree: 0%
          * [Felsökning - skadat gränssnittsteckensnitt i korrekturläsare på Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Förstå hur cache och cookies påverkar Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Snabba upp problem i Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Problem med att visa korrektur - Flash-delade objekt förklaras](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
+         * [Problem med att visa korrektur - beskrivna objekt i Flashen](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [Felsökning - Workfront korrekturläsare för korrektur](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Integrering med Workfront Proof {#wf-proof-integrations}
       * [Integrering med Workfront Proof](workfront-proof/wp-integrations/wp-integrations.md)

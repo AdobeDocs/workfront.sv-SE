@@ -1,7 +1,7 @@
 ---
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,15 @@ ht-degree: 0%
 
 <span class="preview">Mer information om den aktuella versionen finns i [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
 
-## Viktigt att notera för navigeringsfunktioner som inte gäller för AEC/shell {#important-not-on-aec}
+## Artikelnivå - förhandsgranskning och snabb release Q4 2023 {#article-preview-and-fast-release}
+
+<span class="preview">Informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Mer information om den aktuella versionen finns i [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
+## Viktig information om navigeringsfunktioner som inte gäller för AEC/shell {#important-not-on-aec}
 
 >[!IMPORTANT]
 >
@@ -125,7 +133,7 @@ Så här konfigurerar du länkade mappar:
 Du måste installera rätt plugin-program för det Adobe Creative Cloud-program du använder:
 * För Photoshop, se [Installera Adobe Workfront för Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * XD finns på [Installera Adobe Workfront för XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* För InDesign, Illustrator, Premiere Pro och After Effects finns [Installera Adobe Workfront för design och video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* InDesign, Illustrator, Premiere Pro och After Effects finns på [Installera Adobe Workfront för design och video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## CC-programlista {#cc-app-list}
 

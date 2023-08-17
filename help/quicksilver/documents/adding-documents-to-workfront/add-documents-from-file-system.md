@@ -6,19 +6,22 @@ description: Du kan lägga till dokument till projekt, uppgifter eller problem i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
 
 # Lägga till dokument i Adobe Workfront från filsystemet
 
+{{preview-and-fast-release}}
+
 Du kan lägga till dokument i projekt, uppgifter eller problem i följande områden i Adobe Workfront:
 
 * Det globala dokumentområdet
 * Dokumentområdet för ett Workfront-objekt
+* <span class="preview">Ett anslutet kort på Workfront</span>
 
 Du kan också överföra nya versioner av dokument och lägga till länkar till dokument från tredjepartsleverantörer i molnet, som Google Drive, Dropbox och Microsoft OneDrive. Mer information om hur du lägger till nya versioner av dokument finns i [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md). Mer information om hur du lägger till dokument från tredjepartsleverantörer i molnet finns i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -62,7 +65,7 @@ Du kan lägga till nya dokument i Workfront från filsystemet på din arbetsstat
 Så här lägger du till ett dokument:
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill lägga till ett nytt dokument.
-1. Klicka på **Dokument** klickar du på **Lägg till ny** nedrullningsbar meny.
+1. Klicka på **Dokument** klickar du på **Lägg till ny** listruta.
 
    ![](assets/add-new-350x138.png)
 
@@ -96,7 +99,7 @@ Så här lägger du till ett dokument:
        <ol> 
         <li value="1">Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Begär ett dokument</strong>.</li> 
         <li value="2">I <strong>Vilka begär du det från?</strong> anger du namnet på den användare som du begär dokumentet från.</li> 
-        <li value="3">I <strong>Berätta vad du begär</strong> anger du namnet på dokumentet.</li> 
+        <li value="3">I <strong>Berätta för dem vad du begär</strong> anger du namnet på dokumentet.</li> 
         <li value="4"> <p>Klicka <strong>Skicka förfrågan</strong>.</p> <p>Din förfrågan visas på fliken Dokument.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Mer information om hur du begär dokument finns i <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Begär ett dokument</a>.</p> </li> 
        </ol> </td> 
      </tr> 

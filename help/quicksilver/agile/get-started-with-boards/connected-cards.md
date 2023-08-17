@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ När någon av följande uppgifter uppdateras för kortet på en plats uppdatera
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
+* <span class="preview">[!UICONTROL Documents]</span>
 
 >[!NOTE]
+>
 >En enda ansluten uppgift eller ett enstaka problem kan bara läggas till en gång per anslagstavla. Samma uppgift eller problem kan anslutas till flera anslagstavlor.
 
 ## Åtkomstkrav
@@ -143,8 +145,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
-      <td><span class="preview"><p>Håll muspekaren över dokumentminiatyrbilden och klicka <strong>Förhandsgranska</strong> för att visa filen i webbläsaren eller <strong>Ladda ned</strong> för att hämta filen till datorn.</p></span>
-      <span class="preview"><p><strong>OBS!</strong> För att ett dokument ska vara tillgängligt på det anslutna kortet måste det nu överföras till Workfront-aktiviteten.</p></span></td>
+      <td><span class="preview">För ett befintligt dokument håller du pekaren över dokumentminiatyrbilden och klickar på <strong>Förhandsgranska</strong> för att visa filen i webbläsaren eller <strong>Ladda ned</strong> för att hämta filen till datorn. Information om ett nytt dokument finns i <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Lägg till dokument på kort</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
