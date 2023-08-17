@@ -4,7 +4,7 @@ description: Uppdateringar som både ser ut och känns under den fjärde kvarter
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ En lista över alla ändringar som är tillgängliga i den fjärde utgåvan av k
 
 Vi har uppdaterat flikarna för e-postmeddelanden, påminnelser och e-postmallar i området Inställningar > E-post > Meddelanden till en mer modern design som är förenlig med andra delar av Workfront.
 
-Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).

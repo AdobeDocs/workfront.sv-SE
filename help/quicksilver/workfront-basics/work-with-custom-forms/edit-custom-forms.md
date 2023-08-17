@@ -7,14 +7,16 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # Redigera information i anpassade formulärfält
+
+{{preview-and-fast-release}}
 
 Du kan redigera information i ett anpassat formulär när formuläret har kopplats till ett objekt. Mer information om hur du lägger till anpassade formulär till objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -57,16 +59,16 @@ Du måste ha följande:
 * Din Workfront-administratör eller en plananvändare med administrativ åtkomst till anpassade formulär måste skapa anpassade formulär i din miljö. Mer information finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 * Du måste ha anpassade formulär kopplade till ett objekt.
 
-   Mer information om hur du använder anpassade formulär för ett objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+  Mer information om hur du använder anpassade formulär för ett objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Redigera information i ett anpassat formulär
 
 Att redigera information i ett anpassat formulär som är kopplat till ett objekt är identiskt för alla objekt. Mer information om vilka objekt som kan ha ett anpassat formulär finns i [Översikt över anpassade formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Gå till ett objekt som du vill redigera information om det anpassade formuläret för.
-1. Klicka **`<Object type>`Detaljer** i den vänstra panelen.
+1. Klicka **`<Object type>`Information** till vänster.
 
-   Om du t.ex. redigerar information i ett anpassat projektformulär klickar du på **Projektinformation**.
+   Om du till exempel redigerar information i ett anpassat projektformulär klickar du på **Projektinformation**.
 
 1. Bläddra till det anpassade formuläret. När det finns ett anpassat formulär kopplat till objektet visas formulärets namn som ett område i informationsavsnittet.
 1. Klicka vid behov på pilen ![](assets/expand-arrow-right.png) till vänster om namnet på det anpassade formuläret för att expandera det.
@@ -93,20 +95,17 @@ Att redigera information i ett anpassat formulär som är kopplat till ett objek
 
    Information om alla fälttyper finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Klicka **Spara** Ändringar.
+1. Klicka **Spara ändringar**.
 
    >[!IMPORTANT]
    >
+   >Du måste fylla i alla obligatoriska fält i formuläret innan du kan spara formuläret. Namnet på ett obligatoriskt fält följs av en asterisk.
    >
-   >
-   ><!--   >
-   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This is true in "Edit custom forms" but not in "Add a custom form to an object." This snippet is used in both articles. The whole snippet is conditioned for classic only in "Add" but not in "Edit." Don't remove the NWE conditioning in the snippet because it is needed in "Edit."</p>   >
-   >-->   >
-   >
-   >Du måste fylla i alla obligatoriska fält i formuläret innan du kan spara formuläret. Namnet på ett obligatoriskt fält följs av en asterisk.
-   ![](assets/nwe-required-custom-field.png)   >
+   >![](assets/nwe-required-custom-field.png)
 
    När någon ändrar data i ett annat objekt som refereras av beräknade anpassade fält i objektet, återspeglas inte ändringarna automatiskt i objektet. Mer information om hur du manuellt uppdaterar alla beräknade anpassade fält i objektet finns i [Beräkna om alla beräknade anpassade fält för ett objekt](#recalculate-all-calculated-custom-fields-for-an-object) i den här artikeln.
+
+   <span class="preview">När beroende fält på sidan ändras, beräknas beräkningsfält i det anpassade formuläret dynamiskt om i realtid. Du kan se de uppdaterade resultaten utan att spara formuläret. Detta gäller även beräkningsfält i standardformulär och anpassade formulär.</span>
 
    Du kan även uppdatera alla beräknade anpassade fält manuellt för ett objekt när du redigerar objektet gruppvis tillsammans med andra objekt i en lista. Instruktioner finns i [Beräkna om alla beräknade anpassade fält för flera objekt i en lista när objekten redigeras](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) i den här artikeln.
 
@@ -134,9 +133,14 @@ Du kan manuellt beräkna om anpassade fält för flera objekt genom att redigera
    Workfront beräknar alla anpassade fält för alla markerade objekt.
 
 >[!TIP]
-Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du beräknar om beräknade anpassade fält i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
-Så här beräknar du om anpassade uttryck i grupp från en lista med projekt:
-1. Gå till en projektlista eller rapport och välj ett eller flera projekt.
-1. Klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Beräkna om anpassade uttryck**.
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
-Workfront beräknar alla anpassade fält för alla markerade projekt.
+>
+>Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du beräknar om beräknade anpassade fält i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
+>
+>Så här beräknar du om anpassade uttryck i grupp från en lista med projekt:
+>
+>1. Gå till en projektlista eller rapport och välj ett eller flera projekt.
+>1. Klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Beräkna om anpassade uttryck**.
+>
+>![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+>
+>Workfront beräknar alla anpassade fält för alla markerade projekt.
