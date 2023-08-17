@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1894'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+* <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
@@ -27,17 +27,6 @@ Den här sidan innehåller information om tidslinjen för releasen för den nya 
 
 Allmän information om den nya kommentarsfunktionen, inklusive en lista över funktioner som för närvarande är tillgängliga eller finns i forskningsrapporter, finns i [Ny kommentarsfunktion](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-
-<!--On August 17, replace the Important box below with the following - AND MAKE SURE THAT THE "WEEKLY RELEASE OF AUGUST 14" IS AN ACTUAL PAGE: 
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Starting with the weekly release of August 14, 2023, the beta commenting experience ended. 
->
-><span class="preview">New commenting features continued to be released to the Preview and Production environments, as described in the section [Release timeline](#release-timeline) in this article.</span>
--->
 
 >[!IMPORTANT]
 >
@@ -61,12 +50,11 @@ Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av d
 * Med version 23.3 (20 juli 2023):
    * Kommentarer Beta för projekt, uppgifter och dokument.
    * Ny kommentarsfunktion för kort i styrelserutan (som den enda upplevelsen)
-* Under version 23.10 (datum som ska tillkännages) (begränsad version, endast tillgänglig för kunder som väljer den snabba versionen): <!--for August 17 - add the actual date in here-->
+* Under den fjärde utgåvan av kvartal 2023 (begränsad utgåva, endast tillgänglig för kunder som väljer den snabba utgåvan):
    * Ny kommentarfunktion för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
-   * Kommentarsupplevelsen Beta för projekt, uppgifter, utgåvor och dokument blir standardalternativet. Detta avslutar betaversionen av den nya kommentarsfunktionen.
-* Med version 23.10 (oktober 2023)
+   * Kommentarsupplevelsen Beta för projekt, uppgifter, utgåvor och dokument blir standardalternativet. Betaetiketten tas bort.
+* Med den fjärde utgåvan för kvartal 2023 (23.10) (oktober 2023)
    * Ny kommentarfunktion för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
-  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
    * Den nya kommentarsfunktionen för projekt, uppgifter, utgåvor och dokument blir standardalternativet. Detta avslutar betaversionen av den nya kommentarsfunktionen.
 * I slutet av 2023:
    * Den gamla kommentarfunktionen är fortfarande ett sekundärt alternativ för följande objekt: projekt, uppgifter, problem och dokument.
@@ -79,48 +67,93 @@ Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av d
 
 Följande avsnitt innehåller en lista med funktioner som har lagts till efter den ursprungliga version 23.2, med början de som släpptes senast.
 
-<!--For the August 17 release - IF ANNA AGREES NOT TO SEND STUFF TO BETA ANYMORE: 
-
->[!IMPORTANT]
->
-><span class="preview">The following section contains as a list of features released during the Beta phase of the commenting experience, between April - August 2023. </span>
->
-><span class="preview"></span>
->
-><span class="preview">All features released after August 17, 2023 will be announced in the main release overview page for the current releases, starting with the Fourth Quarter release of 2023. For information, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
-
--->
-
-<!--for the August 17 release: remove the paragraph below and replace it with this: 
-
-The following information refers to the release activity on a weekly basis of the features included in the commenting beta experience between April - August, 2023. This article lists new features that were added and issues that were resolved for the new commenting experience. For information about features released after August 17, 2023, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
--->
-
 Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. I den här artikeln listas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
 
-<!--add the following with the August 17 release: 
+### Vecka 14 augusti 2023 (början av den fjärde utgåvan av kvartal 2023)
 
-### Week of August 14, 2023
+#### Ny kommentarfunktion för ytterligare objekt
 
-#### Avatar improvements when tagging users in an update
+Den nya kommentarsfunktionen kommer att vara tillgänglig för följande objekt, kort efter version 23.3 till Production: malluppgifter, mallar, tidrapporter, team, användare, program, portfolior.
 
-To give you better visibility into which users are tagged in an update, we now display the names of the users (up to two users) that are tagged in an update. For more information, see [Tag others in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Det här är den enda kommentarsfunktionen för de här objekten eftersom den gamla kommentarsfunktionen tas bort när du öppnar dem.
 
--->
+Mer information finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-### Funktioner som släppts efter 19 juni 2023
+Förhandsversion: 17 augusti 2023
 
-<!--restructure this section with actual weeks and dates, when we know them-->
+Produktionsrelease för snabb release: Med version 23.8 (31 augusti 2023)
 
-De funktioner som listas i detta avsnitt planeras släppas strax efter veckan 19 juni 2023.
+Produktionsrelease för alla kunder: Med version 23.10 (oktober 2023)
+
+#### Ny designuppdatering för den nya kommentarströmmen
+
+Vi har omdesignat den nya kommentarströmmen för att ge den ett mer uppdaterat utseende och känsla. Några förbättringar är:
+
+* Innehållet i kommentarströmmen centreras på sidan, i stället för att uppta hela sidans bredd.
+
+* Menyikonen Mer flyttas till det övre högra hörnet av kommentaren i stället för bredvid knappen Gilla.
+
+* Knapparna Gilla och Svara är nu placerade intill varandra.
+
+* Knappen Loggtid har flyttats i det övre högra hörnet av kommentarsområdet.
+
+* Svarsfrågan Lägg till tillagd för att uppmana användare att lägga till ett svar till ett befintligt svar.
+
+* Det finns en avgränsningslinje mellan varje kommentarstråd
+
+Mer information finns i [Översikt över fliken Uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+Förhandsversion: 17 augusti 2023
+
+Production for fast release: Med version 23.8 (31 augusti 2023)
+
+Produktion för kvartalsvis lansering: Med version 23.10 (oktober 2023)
+
+#### Den nya kommentarsupplevelsen är standardupplevelsen för projekt, uppgifter, utgåvor och dokument
+
+Vi gör den nya kommentarsupplevelsen till standardupplevelsen för följande objekt: projekt, uppgifter, problem och dokument.  Den gamla kommentarfunktionen förblir ett alternativ när du öppnar objekten.
+
+Vi har också bytt namn till&quot;Kommentera betaversion&quot; till&quot;Ny kommentar&quot;.
+
+Mer information finns i [Ny kommentarsfunktion](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+Förhandsversion: 17 augusti 2023
+
+Production for fast release: Med version 23.8 (31 augusti 2023)
+
+Produktion för kvartalsvis lansering: Med version 23.10 (oktober 2023)
+
+#### Avatarförbättringar vid taggning av användare i en uppdatering
+
+För att du bättre ska kunna se vilka användare som är taggade i en uppdatering visar vi nu namnen på de användare (upp till två användare) som är taggade i en uppdatering. Mer information finns i [Tagga andra i uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+Förhandsversion: 17 augusti 2023
+
+Production for fast release: Med version 23.8 (31 augusti 2023)
+
+Produktion för alla kunder: Med version 23.10 (oktober 2023)
+
+### 7 augusti 2023
+
+#### Lägga till känslolägesikoner i en uppdatering
+
+Nu kan du lägga till känslolägesikoner i en kommentar med ett RTF-verktygsfält i den nya kommentarsfunktionen.
+
+Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Dokumentationen uppdateras när den släpps.
+
+Förhandsgranska och producera: 10 augusti 2023
+
+### Vecka 10 juli 2023
 
 #### Tagga automatiskt alla tråddeltagare
 
 En kommentarägare taggas nu automatiskt i en koppling. Före den här uppdateringen visas endast de användare som taggats med taggarna &quot;@name&quot; eller genom att lägga till dem i avsnittet &quot;Tagga personer eller team&quot; i listan med taggade användare. Med det här alternativet kan du nu ta bort ägaren till en kommentar från kopplingen, om det behövs, även om de inte taggats manuellt tidigare.
 
-Planerad förhandsversion: 12 juli 2023
+Förhandsversion: 12 juli 2023
 
-Planerad produktionsrelease: 13 juli 2023
+Produktionsrelease: 13 juli 2023
+
+### Vecka 3 juli 2023
 
 #### Nytt gränssnitt för loggningstid
 
@@ -130,7 +163,9 @@ Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timeshee
 
 Förhandsversion: 5 juli 2023
 
-Produktionsrelease: med version 23.3
+Produktionsrelease: med version 23.3 (juli 2023)
+
+### Vecka 26 juni 2023
 
 #### Citera kommentarinnehåll i ett nytt svar
 
@@ -142,28 +177,6 @@ Förhandsgranska: 28 juni 2023
 
 Produktionsrelease: 29 juni 2023
 
-#### Lägga till känslolägesikoner i en uppdatering
-
-Nu kan du lägga till känslolägesikoner i en kommentar med ett RTF-verktygsfält i den nya kommentarsfunktionen.
-
-Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Dokumentationen uppdateras när den släpps.
-
-Förhandsgranska och producera: 10 augusti 2023
-
-#### Ny kommentarfunktion för ytterligare objekt
-
-Den nya kommentarsfunktionen kommer att vara tillgänglig för följande objekt, kort efter version 23.3 till Production: malluppgifter, mallar, tidrapporter, team, användare, program, portfolior.
-
-Det här är den enda kommentarsfunktionen för de här objekten eftersom den gamla kommentarsfunktionen tas bort när du öppnar dem.
-
-Mer information finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). Dokumentationen uppdateras när den släpps.
-
-Förhandsgranskningsversion: ska tillkännages efter 23.3-utgåvan (20 juli 2023)
-
-Produktionsrelease för kunder med snabb lansering: tillkännages efter version 23.3
-
-Produktionsrelease för alla kunder: med version 23.4
-
 ### Vecka 12 juni 2023
 
 #### Ny kommentarsfunktion för kort i området för anslagstavlor
@@ -174,7 +187,7 @@ Förhandsgranska: 15 juni 2023
 
 Produktionsrelease för tidig anmälan: 22 juni 2023
 
-Produktion för alla kunder: med version 23.3
+Produktion för alla kunder: med version 23.3 (juli 2023)
 
 #### Lägga till blockcitattecken i en kommentar
 
@@ -210,7 +223,7 @@ Den nya kommenteringsfunktionen Beta är nu tillgänglig för projekt, uppgifter
 
 Förhandsgranska: 1 juni 2023
 
-Produktion: med version 23.3
+Produktion: med version 23.3 (juli 2023)
 
 >[!NOTE]
 >
@@ -238,7 +251,7 @@ Du kan logga tid för problem, uppgifter och projekt från uppdateringsområdet 
 
 Förhandsgranska: 1 juni 2023
 
-Produktion: med version 23.3
+Produktion: med version 23.3 (juli 2023)
 
 ### Vecka 15 maj 2023
 

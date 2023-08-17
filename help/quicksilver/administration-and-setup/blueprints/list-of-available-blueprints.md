@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Den här planen innehåller en mall för [!DNL Workfront] en organisation som ar
 The [!UICONTROL Digital Asset Production] en plan för integrerade processer innehåller en mall som organiserar arbetet för en digital standardproduktionsprocess. Mallen är en enkel process för att skapa digitala resurser för ett team som använder sig av standardoperativa procedurer för att definiera hur arbetet ska utföras och som endast använder projektet för att prioritera arbetet och spåra förloppet.
 
 **[!UICONTROL Digital Asset Production](Hanterad)**
-The [!UICONTROL Digital Asset Production] paketet innehåller en mall som organiserar arbetet för en digital standardproduktionsprocess. Den är avsedd som en startpunkt för hantering av skapande av digitala resurser i Workfront. Använd det här paketet för att skapa en grund för att skapa digitalt innehåll och anpassa det sedan efter behoven i andra kreativa processer för digitalt material.
+The [!UICONTROL Digital Asset Production] paketet innehåller en mall som organiserar arbetet för en digital standardproduktionsprocess. Den är avsedd som en startpunkt för hantering av digitala resurser i Workfront. Använd det här paketet för att skapa en grund för att skapa digitalt innehåll och anpassa det sedan efter behoven i andra kreativa processer för digitalt material.
 
 **[!UICONTROL Digital Asset Revision](Integrerat)**
 The [!UICONTROL Digital Asset Revision] en plan för en integrerad process innehåller en enda mall för att organisera arbetsprocessen som är kopplad till redigering av en befintlig resurs. Mallen är en enkel process för ett team som förlitar sig på standardprocedurer för att definiera hur arbetet ska utföras och endast använder projektet för att prioritera arbetet och spåra förloppet.
@@ -62,7 +62,10 @@ The [!UICONTROL General Internal Strategic Initiative] plan innehåller en proje
 Den här planen innehåller konfigurationen av organisationsstrukturer som ska utökas till en personalavdelning.
 
 **[!UICONTROL Information Technology Organization Setup]**
-Denna plan innehåller en konfiguration av organisationsstrukturer som kan användas i ett IT-fall.
+Den här planen innehåller konfigurationen av organisationsstrukturer som kan användas i ett IT-användningsfall.
+
+**[!UICONTROL Inherited Instance Basics | Checklist]**
+Den här planen innehåller en projektmall (eller checklista) som du kan granska med en kort lista över frågor, resurser och länkar för att få en tydlig förståelse för hur din Workfront-instans har konfigurerats. Använd detta när du nyligen har ärvt en Workfront-instans och behöver hjälp med var du ska börja.
 
 **[!UICONTROL Integrated Campaign Execution]**
 The [!UICONTROL Integrated Campaign Execution] En plan innehåller en enda projektmall som organiserar det distribuerade arbetet i flera team för att genomföra en flerkanalskampanj.
@@ -77,7 +80,7 @@ Den här planen innehåller en mall för [!DNL Workfront professional services] 
 Den här planen innehåller en mall för [!DNL Workfront] En organisation som arbetar med professionella tjänster har under många år använt sig av personalavdelningen för att få personalspecialister och personalchefer att slutföra viktiga aktiviteter så att en ny medarbetares första dag blir utomordentlig.
 
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
-Den här planen innehåller en enda mall som organiserar arbetet som [!DNL Workfront] kunden måste slutföra processen för att kunna hantera utbyggnaden till nästa processer efter den initiala implementeringen.
+Den här planen innehåller en enda mall som organiserar arbetet som en [!DNL Workfront] kunden måste slutföra processen för att kunna hantera utbyggnaden till nästa processer efter den initiala implementeringen.
 
 **[!UICONTROL Print Asset Production](Integrerat)**
 The [!UICONTROL Print Asset Production] paketet innehåller en mall som organiserar arbetet för en standardtryckproduktionsprocess. Mallen är en enkel process för att skapa originalutskrifter för ett team som förlitar sig på standardprocedurer för att definiera hur arbetet ska utföras och som endast använder projektet för att prioritera arbetet och spåra förloppet.
@@ -113,7 +116,7 @@ The [!UICONTROL Social Asset Production] paketet innehåller en mall som organis
 Den här planen innehåller en mall för [!DNL Workfront] en organisation som arbetar med professionella tjänster har använt i åratal under implementeringskontakter med IT-team för att ordna arbetet med att installera tredjepartslösningar eller för att skapa interna verktyg och applikationer.
 
 **[!UICONTROL System Administrator Maintenance Dashboard]**
-Den här planen innehåller en enda instrumentpanel som hjälper systemadministratörer att regelbundet underhålla och rensa systemet från oreda som kan uppstå över tid.
+Den här planen innehåller en enda instrumentpanel som hjälper systemadministratörer att regelbundet underhålla och rensa systemet från störande störningar som kan uppstå över tid.
 
 **[!UICONTROL Video Asset Production](Integrerat)**
 The [!UICONTROL Video Asset Production] paketet innehåller en mall som organiserar arbetsprocessen för en standardvideoproduktionsprocess. Mallen ger en smidig process för att skapa originalvideoresurser för ett team som använder standardprocedurer för att definiera hur arbetet ska utföras och som endast använder projektet för att prioritera arbetet och spåra förloppet.
@@ -123,7 +126,7 @@ The [!UICONTROL Video Asset Production] paketet innehåller en mall som organise
 
 **[!UICONTROL [!DNL Workfront] Communication and Launch Template]**
 
-Den här planen innehåller en enda mall som organiserar arbetet som [!DNL Workfront] kunden måste göra för att få en tydlig lansering av [!DNL Workfront] program.
+Den här planen innehåller en enda mall som organiserar arbetet som en [!DNL Workfront] kunden måste göra för att få en tydlig lansering av [!DNL Workfront] program.
 
 **[!DNL Workfront Usage Dashboard]**
 Denna plan innehåller en enda kontrollpanel med 11 rapporter som hjälper systemadministratörer och ledningsgrupper att förstå om deras konfiguration används som förväntat.

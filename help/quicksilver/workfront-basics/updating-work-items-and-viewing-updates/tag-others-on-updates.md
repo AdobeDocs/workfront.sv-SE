@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1577'
 ht-degree: 0%
 
 ---
@@ -17,49 +17,51 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>\
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--replace the note below with this at August 17: 
+<span class="preview">Information om det aktuella releaseschemat finns i [Versionsöversikt för fjärde kvartalet 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+
+>[!IMPORTANT]
+>
+>Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
+>Beroende på vilken miljö och vilka objekt du har tillgång till kommentarfunktionerna från kan du se olika funktioner i uppdateringsavsnittet.
+>
+>Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>
+> * Startsida
+> * Panelen Sammanfattning i listor
+> * Sammanfattningspanelen i tidrapporter
+
+
+<!--old note before August 17: 
+
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
+>
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
+>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
+>
+> * Goals, cards in the Boards area
+>
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 -->
-
->[!NOTE]
->
->Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
->
->Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->Du kan komma åt den nya funktionen för följande objekt:
-> * Problem, projekt, uppgifter och dokument.
->
->     Det här är tillgängligt när du aktiverar kommenteringsfunktionen Beta.
->
->     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
->
->     * Startsida
->     * Panelen Sammanfattning i listor
->     * Sammanfattningspanelen i tidrapporter
->
-> * Mål, kort i området för anslagstavlor
->
->   Den nya kommentarsupplevelsen är den enda upplevelsen för mål och kort. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->     Du kan lägga till och visa uppdateringar för kort i kortområdet när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
-
 
 Du kan tagga användare när de gör en uppdatering av ett objekt om du vill dra deras uppmärksamhet till ett objekt som de annars kanske inte följer.
 I stället för att inkludera de användarna i objektet genom att tilldela dem eller få dem att prenumerera på det, kan du tagga dem på uppdateringen och dela dem med dem. Taggade användare får ett meddelande om den uppdatering du anger.
@@ -204,16 +206,10 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 1. Klicka **Skicka**.\
    Användare som ingår i uppdateringen får automatiskt behörigheten Visa för objektet och kan visa och svara på uppdateringar som gjorts för objektet.
 
-   I området Medlemmar ser du vem som har taggats i varje svar under uppdateringstexten. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får ett meddelande varje gång en uppdatering eller ett svar görs för objektet.
-
-   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged users display next to their avatars, up to two users. If more than two users are tagged the name of the first tagged user displays, in addition to a number of how many additional users are tagged.</span> -->
-
-1. (Valfritt) Klicka på antalet **Medlemmar** ingår i uppdateringen för att visa en lista över enheter som den uppdatering du angav delas med.
-
-   <!--update screen shot for August 17-->
+   <span class="preview">Namnen på de taggade enheterna visas bredvid deras avatarer, upp till två enheter. Om fler än två enheter har taggats visas namnet på den första, förutom ett antal ytterligare enheter med taggar.</span>
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) till höger om ikonen Gilla <!--with the August 17 release - replace placing of the More icon: <span class="preview">in the upper-right corner of the comment</span>-->och sedan klicka **Redigera**. Ta bort alla taggade användare och klicka sedan på **Skicka**. Du kan bara redigera en kommentar inom 15 minuter efter att du har skrivit in den. Du kan bara redigera kommentarer som du har lagt till.
+1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) <span class="preview">i kommentarens övre högra hörn</span>och sedan klicka **Redigera**. Ta bort alla taggade användare och klicka sedan på **Skicka**. Du kan bara redigera en kommentar inom 15 minuter efter att du har skrivit in den. Du kan bara redigera kommentarer som du har lagt till.

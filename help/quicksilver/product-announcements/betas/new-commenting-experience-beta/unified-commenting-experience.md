@@ -7,20 +7,19 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
 
 # Ny kommentarsfunktion
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>\
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">Information om det aktuella releaseschemat finns i [Versionsöversikt för fjärde kvartalet 2023](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för markerade objekt.
 
@@ -473,83 +472,97 @@ Information om de funktioner som nyligen släppts till den nya kommentarsfunktio
 
 ## Hitta den nya kommentarsfunktionen
 
-Den nya kommentarfunktionen stöds för närvarande för följande objekt:
+De nya kommentarmiljöerna är för närvarande tillgängliga för följande objekt och i följande miljöer:
 
-<!--replace the first bullet with this on August 17: 
+* I produktionsmiljön för alla kunder:
 
-<span class="preview">
+   * När du aktiverar betafunktionen i uppdateringsavsnittet för
 
-* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+      * Problem, projekt, uppgifter och dokument
 
-   * Project
-   * Task
-   * Issue
-   * Document
+     Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   >[!TIP]
-   >
-   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+   * Som standard är den enda kommentarsupplevelsen för
 
-   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+      * Mål, kort ombord
 
-</span>
+     >[!NOTE]
+     >
+     >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+* <span class="preview"> I förhandsvisningsmiljön för alla kunder </span>
 
-* När du aktiverar betafunktionen i uppdateringsavsnittet för
+  <span class="preview">
 
-   * Problem, projekt, uppgifter och dokument
+   * När du aktiverar Ny kommentarsfunktion i uppdateringsavsnittet för följande objekt som standard:
 
-  Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      * Projekt
+      * Uppgift
+      * Problem
+      * Dokument
 
-<!--replace the second bullet with this on August 17: 
+     >[!TIP]
+     >
+     >Alternativet Ny kommentarsfunktion är aktiverat som standard för dessa objekt. Du kan avmarkera alternativet Ny kommentering om du vill visa den tidigare kommentarfunktionen.
 
-<span class="preview">
+     Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* By default, as the only commenting experience for the following objects:  
+  </span>
 
-  * Goal
+  <span class="preview">
+
+   * Som standard är det enda kommentarsgränssnittet för följande objekt:
+
+      * Mål
+
+        >[!NOTE]
+        >
+        >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+      * Kort ombord
+      * Team
+      * Mall
+      * Malluppgift
+      * Tidrapport
+      * Program
+      * Portfolio
+      * Användare
+
+     >[!TIP]
+     >
+     >Det finns inget alternativ för att aktivera den nya kommentarfunktionen för iterationer. Det är bara den gamla kommentarsfunktionen som är tillgänglig för iterationer.
+
+  </span>
+
+<!--before August 17: 
+
+The new commenting experience is currently supported for the following objects:
+
+
+* When enabling the Beta experience in the Updates section for 
+
+    * Issues, projects, tasks, and documents
+
+    For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+* By default, as the only commenting experience for
+
+    * Goals, cards on a board
 
     >[!NOTE]
     >
     >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-  * Card on a board
-  * Team
-  * Template
-  * Template Task
-  * Timesheet
-  * Program
-  * Portfolio
-  * User
-
->[!TIP]
->
->There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
-
-</span>
 
 -->
 
-* Som standard är den enda kommentarsupplevelsen för
+Beroende på vilken miljö du använder kan du göra något av följande:
 
-   * Mål, kort ombord
+* Aktivera kommenteringsfunktionen Beta i produktionsmiljön
+* <span class="preview">Aktivera den gamla kommentarsfunktionen i förhandsgranskningsmiljön </span>
 
-  >[!NOTE]
-  >
-  >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-<!--display on August 17: 
-
-Depending on the environment you access the commenting experience you can do one of the following: 
-
-* Enable the commenting experience Beta in the Production environment
-* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
--->
-
-Så här aktiverar du kommentarsfunktionen Beta:
+Så här aktiverar du kommenteringsupplevelsen Beta i produktionsmiljön:
 
 1. Gå till ett objekt som du vill aktivera den nya kommentarsfunktionen för och klicka sedan på **Uppdateringar** till vänster.
-1. Aktivera **Kommentera betaversion** i det övre högra hörnet av uppdateringsområdet.
+1. CLicka **Kommentera betaversion** aktivera uppdateringsområdet genom att växla i det övre högra hörnet av uppdateringsområdet.
 1. Klicka **Godkänn** i rutan Betaavtal. Detta aktiverar den nya kommentarsfunktionen för det markerade objektet.
 1. Börja skriva en uppdatering i **Kommentar** -fliken. Fliken Kommentarer ska vara standardflik när den nya funktionen öppnas
 
@@ -557,20 +570,19 @@ Så här aktiverar du kommentarsfunktionen Beta:
 
    Klicka på  **Systemaktivitet** för att visa aktivitetsuppdateringar som genererats av Workfront.
 
-   Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<!--make this available for August 17: 
-
 <span class="preview">
 
-To disable the new commenting experience and display the legacy experience: 
+Så här inaktiverar du den nya kommentarsfunktionen och visar den gamla funktionen i förhandsgranskningsmiljön:
 
-1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
-1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
-  
-  This changes the Updates area to the legacy commenting stream. 
+1. Gå till ett projekt, en uppgift, en utgåva eller ett dokument och klicka sedan på **Uppdateringar** till vänster.
+1. Klicka på **Nya kommentarer** om du vill avmarkera alternativet och inaktivera den nya funktionen i det övre högra hörnet av uppdateringsområdet.
 
-1. Start typing an update in the space provided. 
+Detta ändrar uppdateringsområdet till den tidigare kommentarströmmen.
+
+1. Börja skriva en uppdatering i **Kommentar** -fliken. Fliken Kommentarer ska vara standardflik när den nya funktionen öppnas
+
+   eller
+
+   Klicka på  **Systemaktivitet** för att visa aktivitetsuppdateringar som genererats av Workfront.
+
 </span>
-
--->

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3407'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,10 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>\
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Versionsöversikt för fjärde kvartalet 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
@@ -86,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du loggar tid i Workfront
 
-* Du kan logga tid för projekt, uppgifter eller problem, eller så kan du logga tiden direkt i tidrapporten.
+* Du kan logga tid för projekt, uppgifter eller problem eller logga tid direkt i tidrapporten.
 
   Mer information om hur du skapar tidrapporter finns i [Skapa en tidrapport för engångsbruk](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
@@ -95,7 +98,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Den tid som är inloggad i tidrapporten används omedelbart för uppgiften, utgåvan eller projektet.
 * Tidrapporter innehåller den totala tiden för alla loggade datum. Helger inkluderas alltid, även när tidslinjeberäkningar har konfigurerats för att exkludera dem (enligt beskrivningen i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * Det maximala antalet objekt som visas i en tidrapport är 45. Om det finns fler än 45 objekt vars datum matchar tidsramen för tidrapporten visas endast de senast uppdaterade objekten.
-* Timposter som ingår i faktureringsposter är nedtonade och kan inte redigeras i tidrapporten. Mer information finns i [Skapa faktureringsposter](../../manage-work/projects/project-finances/create-billing-records.md).
+* Timposter som ingår i fakturerade faktureringsposter är nedtonade och kan inte redigeras i tidrapporten. Mer information finns i [Skapa faktureringsposter](../../manage-work/projects/project-finances/create-billing-records.md).
 
 ## Loggtid
 
@@ -119,7 +122,7 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
 >
 >Granska användare som tilldelats en tidrapportprofil kan se området Tidrapporter och logga allmänna timmar. De kan dock inte logga timmar för uppgifter eller ärenden som tilldelats dem och som visas på tidrapporten.
 
-1. Klicka på [!UICONTROL **Huvudmeny**] icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på [!UICONTROL **Huvudmeny**] icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka [!UICONTROL **Tidrapporter**]. Din aktuella tidrapport visas som standard.
    ![Tidrapport](assets/timesheet-redesigned-nwe.png)
@@ -137,7 +140,7 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
-1. (Valfritt) Klicka på knappen **Lägg till objekt** nedrullningsbar meny i det övre vänstra hörnet av tidrapporten och klicka sedan på **Lägg till projekt**, **Lägg till aktiviteter**, eller **Lägg till problem**.
+1. (Valfritt) Om du vill lägga till ett projekt, en uppgift eller ett problem i tidrapporten klickar du på knappen **Lägg till objekt** nedrullningsbar meny i det övre vänstra hörnet av tidrapporten och klicka sedan på **Lägg till projekt**, **Lägg till aktiviteter**, eller **Lägg till problem**.
 
    En lista med projekt, uppgifter eller problem visas.
 
@@ -156,7 +159,7 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
 
 1. (Villkorligt) Om du lägger till 50 eller fler objekt samtidigt visas ett bekräftelsemeddelande med antalet objekt som har lagts till i tidrapporten.
 
-   Klicka **Lägg till alla** om du vill lägga till alla objekt eller klicka på **Avbryt** om du vill sluta lägga till de markerade objekten, och sedan **Avbryt** för att stänga listan med objekt.
+   Klicka **Lägg till alla** om du vill lägga till alla objekt eller klicka **Avbryt** om du vill sluta lägga till de markerade objekten, och sedan **Avbryt** för att stänga listan med objekt.
 
    Uppgifter och ärenden visas under namnet på projektet.
 
@@ -174,13 +177,13 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
    >   När du använder ett vanligt QWERTY-tangentbord och klickar på namnet på ett projekt i tidrapporten trycker du på följande uppsättning tangenter för att komprimera eller utöka projektet:
    >   * Så här expanderar du projektet och visar dess arbetsobjekt:
    >     * Skift + Alt + Uppil för Windows-datorer
-   >     * Skift+Alt+Uppåtpil för Mac-datorer
+   >     * Skift + Alt + Uppil för Mac-datorer
    >   * Så här komprimerar du projektet och döljer dess arbetsobjekt:
    >     * Skift + Alt + Nedpil för Windows-datorer
    >     * Skift + Alt + Nedåtpil för Mac-datorer.
 
 
-1. (Valfritt) Om du vill fästa ett objekt som visas på tidrapporten automatiskt manuellt håller du pekaren över objektets namn och klickar på **fästa** icon ![](assets/empty-pin-icon.png).
+1. (Valfritt) Om du vill fästa ett objekt som visas på tidrapporten automatiskt manuellt håller du pekaren över objektets namn och klickar på **fäst** icon ![](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -190,14 +193,14 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
 
 1. (Valfritt) Klicka på sökikonen ![](assets/search-icon.png) och börja skriva ett nyckelord för att hitta ett projekt, en uppgift eller ett problem i tidrapporten.
 
-1. (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** väljer du en jobbroll i listrutan. Den roll som anges när du tilldelas arbetsuppgiften visas som standard. Om du inte har tilldelats någon roll för objektet visas din primära roll som standard. Mer information om den här inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** väljer du en jobbroll i listrutan. Den roll som anges när du tilldelas arbetsuppgiften visas som standard. Om du inte har tilldelats någon roll för objektet visas din primära roll som standard. Mer information om inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    ![Loggtid för flera roller i tidrapporten](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
 
 1. (Valfritt) Klicka på **+** om du vill lägga till ytterligare en rad och sedan välja en ny timtyp i listrutan i dialogrutan [!UICONTROL Hour Type] kolumn för att logga tid för en annan timtyp.
 
-   ![Listruta för timtyp](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
+   ![Nedrullningsbar meny för timtyp](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -279,7 +282,7 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
 
    ![summary-panel-for-task-opened-in-tidrapport](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   Din uppdatering visas i uppdateringsområdet för den arbetsuppgift som är associerad med loggad tid.
+   Din uppdatering visas i uppdateringsområdet för den arbetsuppgift som är associerad med den loggade tiden.
 
    >[!TIP]
    >
@@ -295,9 +298,9 @@ Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
 
    * **Skicka för godkännande:** Det här alternativet är bara tillgängligt om det finns en godkännare på tidrapporten. Spara ändringarna och skicka in för godkännande. Du kan öppna tidrapporten när du har stängt den genom att klicka på **Återkalla**, om ett godkännande ännu inte har beviljats. Mer information finns i [Skicka en tidrapport för godkännande](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
-   * **Avvisa**: Det här alternativet visas när du har godkänt en tidrapport och tidrapporten har skickats till dig för godkännande. Om du klickar på den ändras tidrapportens status till Avvisat och tidrapporten förblir öppen.
+   * **Avvisa**: Det här alternativet visas när du är en tidrapportgodkännare och tidrapporten har skickats till dig för godkännande. Om du klickar på den ändras tidrapportens status till Avvisat och tidrapporten förblir öppen.
 
-   * **Godkänn**: Det här alternativet visas när du har godkänt en tidrapport och tidrapporten har skickats till dig för godkännande. Om du klickar på den ändras tidrapportens status till Godkänd och tidrapporten stängs.
+   * **Godkänn**: Det här alternativet visas när du är en tidrapportgodkännare och tidrapporten har skickats till dig för godkännande. Om du klickar på den ändras tidrapportens status till Godkänd och tidrapporten stängs.
 
    >[!TIP]
    >
@@ -350,7 +353,7 @@ Så här loggar du tid på ett arbetsobjekt från hemområdet:
 
 1. I **Ange timmar** väljer du lämplig timtyp.\
    Timtyper är tillgängliga beroende på vad som har definierats på system-, projekt- och användarnivå, vilket beskrivs i [Definiera timtyper och tillgänglighet för tidrapporter](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** väljer du en jobbroll i listrutan. Den roll som anges när du tilldelas arbetsuppgiften visas som standard. Om du inte har tilldelats någon roll för objektet visas din primära roll som standard. Mer information om den här inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** väljer du en jobbroll i listrutan. Den roll som anges när du tilldelas arbetsuppgiften visas som standard. Om du inte har tilldelats någon roll för objektet visas din primära roll som standard. Mer information om inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Ange vilken tid du vill logga och klicka sedan på **Loggtid**.
 
 ### Projekt, uppgift eller utleverans {#project-task-or-issue}
@@ -362,7 +365,7 @@ Du kan logga projektspecifik tid för ett projekt, en uppgift eller ett problem 
 
 #### Uppdateringsavsnitt{#updates-section}
 
-<!--remove the note below when the -->
+<!--remove the note below - October 2023 -->
 
 >[!NOTE]
 >
@@ -383,7 +386,7 @@ Om du vill logga tid i uppdateringsavsnittet för ett projekt, en uppgift eller 
 Så här loggar du tid i uppdateringsavsnittet för ett projekt, en uppgift eller ett problem:
 
 1. Gå till ett projekt, en uppgift eller ett ärende.
-1. Välj **Uppdateringar**.
+1. I den vänstra panelen väljer du **Uppdateringar**.
 1. Klicka **Loggtid**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
    Dialogrutan Loggtid visas.
@@ -392,17 +395,17 @@ Så här loggar du tid i uppdateringsavsnittet för ett projekt, en uppgift elle
    >
    >   Om din profils inställning är att logga tid i dagar visas rutan Ange dagar.
    >   
-   >   I det övre högra hörnet av rutan Ange dagar finns en indikation på hur många timmar en dag har.
+   >   I det övre högra hörnet av rutan Ange dagar finns en indikation på hur många timmar en dag ska ha.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Ange följande information:
 
-   * **Timtyp**: Välj en timtyp i listrutan, om den skiljer sig från den som visas som standard.
+   * **Timtyp**: Välj en timtyp på den nedrullningsbara menyn, om den skiljer sig från den som visas som standard.
 
      Beroende på vilka timtyper som är konfigurerade i systemet kan alternativen här variera. Mer information om hur du konfigurerar timtyper finns i [Definiera timtyper och tillgänglighet för tidrapporter](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Jobbroll**: (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** inställning, välja en **Jobbroll** i listrutan. Den roll som anges när du tilldelas till objektet visas som standard. Om du inte har tilldelats en roll för objektet visas din primära roll som standard. Mer information om den här inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Jobbroll**: (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** inställning, välja en **Jobbroll** i listrutan. Den roll som anges när du tilldelas till objektet visas som standard. Om du inte har tilldelats en roll för objektet visas din primära roll som standard. Mer information om inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    * **Timmar**: Ange antalet timmar för projektet, uppgiften eller utgåvan.
 
@@ -414,7 +417,7 @@ Du måste vara Workfront-administratör för att kunna logga tid för projekt, u
 
 eller
 
-Du måste ha följande:
+Du måste ha alla följande:
 
 * En planlicens med administrativ åtkomst till tidrapporter och timmar. Mer information om hur du ger administrativ åtkomst till tidrapporter och timmar finns i [Ge användarna administrativ åtkomst till vissa områden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * Contribute eller högre behörigheter för projektet med åtkomst till loggtimmar. Mer information om att bevilja behörigheter för projekt finns i [Dela ett projekt i Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
@@ -434,11 +437,11 @@ Så här loggar du tid i timavsnittet för ett projekt, en uppgift eller ett pro
      Om du loggar timmarna för en annan användare anger du användarens namn.
 
    * **Timmar**: Ange antalet timmar för projektet, uppgiften eller utgåvan.
-   * **Timtyp**: Välj en timtyp i listrutan, om den skiljer sig från den som visas som standard.
+   * **Timtyp**: Välj en timtyp på den nedrullningsbara menyn, om den skiljer sig från den som visas som standard.
 
      Beroende på vilka timtyper som är konfigurerade i systemet kan alternativen här variera. Mer information om hur du konfigurerar timtyper finns i [Definiera timtyper och tillgänglighet för tidrapporter](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Jobbroll**: (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** inställning, välja en **Jobbroll** i listrutan. Den roll som anges när du tilldelas till objektet visas som standard. Om du inte har tilldelats en roll för objektet visas din primära roll som standard. Mer information om den här inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Jobbroll**: (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** inställning, välja en **Jobbroll** i listrutan. Den roll som anges när du tilldelas till objektet visas som standard. Om du inte har tilldelats en roll för objektet visas din primära roll som standard. Mer information om inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 

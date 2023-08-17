@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -18,25 +18,24 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>\
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">Information om det aktuella releaseschemat finns i [Versionsöversikt för fjärde kvartalet 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
+>
+>Beroende på vilken miljö och vilka objekt du har tillgång till kommentarfunktionerna från kan du se olika funktioner i uppdateringsavsnittet.
+>
+>Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>
+> * Startsida
+> * Panelen Sammanfattning i listor
+> * Sammanfattningspanelen i tidrapporter
 
 <!-- with October 26 release: add somewhere this:
 
@@ -44,38 +43,36 @@ ht-degree: 0%
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old note, removed with August 2023: 
+
 >[!NOTE]
 >
->Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->Du kan komma åt den nya funktionen för följande objekt:
-> * Problem, projekt, uppgifter och dokument.
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     Detta är tillgängligt när du aktiverar den nya kommentarsfunktionen.
+>     This is available when you enable the new commenting experience.
 >
->     Den här funktionen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * Startsida
->     * Panelen Sammanfattning i listor
->     * Sammanfattningspanelen i tidrapporter
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * Mål, kort i området för anslagstavlor
+> * Goals, cards in the Boards area
 >
->   Den nya kommentarsupplevelsen är den enda upplevelsen för mål och kort. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för användning av Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     Du kan lägga till och visa uppdateringar för kort i kortområdet när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
+The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
+
+-->
 
 ## Översikt över uppdateringsavsnittet
-
-Informationen i uppdateringsavsnittet är organiserad på olika sätt beroende på vilken miljö du kommer åt den från.
-
-### Översikt över aktuellt uppdateringsavsnitt
-
-<!--October 26 - replace current with legacy-->
 
 * I uppdateringsavsnittet för ett objekt visas upp till 200 av de senaste uppdateringarna under de senaste 90 dagarna.
 
@@ -106,12 +103,20 @@ Informationen i uppdateringsavsnittet är organiserad på olika sätt beroende p
       <li>Malluppgifter</li> 
       <li>Tidrapporter</li> 
       <li>Användare</li>
+      <li>Kort ombord</li>
       </ul> </td> 
     </tr> 
   </tbody> 
   </table>
 
   *Artiklar är uppgifter. All information som rör uppgifter är också tillgänglig för artiklar.
+
+Informationen i uppdateringsavsnittet är organiserad på olika sätt beroende på vilken miljö du kommer åt den från.
+
+
+### Översikt över aktuellt uppdateringsavsnitt
+
+<!--October 26 - replace current with legacy-->
 
 * I det aktuella uppdateringsavsnittet visas följande information:
 
@@ -128,74 +133,88 @@ Informationen i uppdateringsavsnittet är organiserad på olika sätt beroende p
 
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
+<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
 
    * **Kommentar**: Visar kommentarer från användare och svar på dessa kommentarer. Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+
+  * The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+    -->
+
 * För närvarande kan du lägga till kommentarer och svara på uppdateringar med hjälp av den nya kommentarsfunktionen för följande objekt:
 
-<!--replace the table with this list on August 17: 
 
-    * Projects
-    * Tasks (and stories)
-    * Issues
-    * Documents
+   * Projekt
+   * Uppgifter (och artiklar)
+   * Problem
+   * Dokument
+   * Mål
 
-    <span class="preview">
-    
-    * Templates
-    * Template Tasks
-    * Timesheets
-    * Users
-    * Portfolios
-    * Programs
-    
-    >[!NOTE]
-    >
-    >    You cannot display the new commenting experience for iterations. 
+  >[!NOTE]
+  >
+  >Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-    </span>
-  
-  -->
+   * Kort ombord
 
-<table style="table-layout:auto"> 
+  >[!NOTE]
+  >
+  > Du kan lägga till och visa uppdateringar för kort i kortområdet när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+
+
+  <span class="preview">
+
+   * Mallar
+   * Malluppgifter
+   * Tidrapporter
+   * Användare
+   * Portfolio
+   * Program
+
+  >[!NOTE]
+  >
+  >    Du kan inte visa den nya kommentarsfunktionen för iterationer.
+
+  </span>
+
+<!--hidden in August 2023 and replaced by the list above: 
+
+  <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
       <tr> 
       <td> 
         <ul> 
-        <li><p>Mål</p>
-        <li>Kort i området för anslagstavlor*</li>
-          Det här är den enda upplevelsen för mål och kort.
+        <li><p>Goals</p>
+        <li>Cards in the Boards area*</li>
+          This is the only experience for goals and cards.
         </li> 
-        <li>Projekt</li>
+        <li>Projects</li>
         </ul> </td> 
       <td> 
         <ul> 
-        <li>Problem</li> 
-        <li>Uppgifter</li>
-        <li>Dokument</li>
+        <li>Issues</li> 
+        <li>Tasks</li>
+        <li>Documents</li>
         </ul> </td> 
       </tr> 
     </tbody> 
     </table>
 
-*Du kan lägga till och visa uppdateringar av kort i styrelsegena när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+  -->
 
-<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
-* The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
--->
 
 ## Uppdateringar som också visas på objekt med högre rankning
 
@@ -287,7 +306,11 @@ Det finns vissa begränsningar i uppdateringsavsnittet för ett team och när du
 
 ### Begränsningar för användare och team
 
-Du kan inte uppdatera team. Uppdateringsavsnittet för team fylls i av uppdateringar som anges för följande objekt:
+Du kan inte lägga till nya kommentarer i uppdateringsavsnittet i ett team.
+
+<span class="preview">Du kan lägga till ett svar på en uppdatering som du visar i ett team. Svaret visas i teamets uppdateringsavsnitt samt i uppdateringsavsnittet för det objekt det tillhör. </span>
+
+Uppdateringsavsnittet för team fylls i av uppdateringar som anges för följande objekt:
 
 * Användare
 * Tidrapporter
