@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,9 @@ Följande avsnitt innehåller en lista med funktioner som har lagts till efter d
 
 Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. I den här artikeln listas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
 
-### Vecka 14 augusti 2023 (början av den fjärde utgåvan av kvartal 2023)
+### Vecka 14 augusti 2023
+
+[Se en videodemonstration av alla funktioner som släpptes under veckan 14 augusti 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Ny kommentarfunktion för ytterligare objekt
 
