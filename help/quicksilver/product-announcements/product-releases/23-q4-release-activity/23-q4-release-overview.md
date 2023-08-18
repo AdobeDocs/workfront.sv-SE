@@ -3,9 +3,9 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 17 augusti 2023<br /></p>
+                                <p>Förhandsversion: 21 augusti 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production for Boards tidig åtkomst: 24 augusti 2023</p>
+                                <p>Tidig åtkomst till produktion för styrelser: TBD</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                                <p>Produktion för snabb lansering: TBD</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
