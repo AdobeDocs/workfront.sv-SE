@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
 # Översikt över utkast
 
-Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbetsstyrningssystem som växer med dig. Systemadministratörer kan bläddra i katalogen med utkast och installera färdiga projektmallar. Andra användare kan bläddra i katalogen och begära installation av en plan. Mer information finns i [Bläddra i katalogen med ritningar och begär installation av ritningar](../../administration-and-setup/blueprints/browse-catalog.md).
+Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbetsstyrningssystem som växer med dig. Systemadministratörer kan bläddra i katalogen med utkast och installera färdiga projektmallar, instrumentpaneler och organisationsstrukturer. Andra användare kan bläddra i katalogen och begära installation av en plan. Mer information finns i [Bläddra i katalogen med ritningar och begär installation av ritningar](../../administration-and-setup/blueprints/browse-catalog.md).
 
 Varje plan är avsedd för en avdelning och en viss mognadsnivå, vilket gör att du snabbare kan implementera beprövade metoder i ditt system. De mognadsnivåer som anges nedan anges på prenumerationskortet för trycksakskatalogen och detaljerna.
 
@@ -26,7 +26,7 @@ Varje plan är avsedd för en avdelning och en viss mognadsnivå, vilket gör at
 
 **[!UICONTROL Integrated]:** Integrerade projektmallar förutsätter att affärsfunktionerna stöds genom en standardiserad procedur. Deltagare i processen vet vilka steg och uppgifter de behöver för att slutföra processen. Projektmallarna som stöder den här processen innehåller färre uppgifter för att bara spåra milstolpar och andra viktiga slutprodukter som behövs för rapportering.
 
-## Hitta rätt utkast
+## Hitta rätt ritning
 
 Du kan bläddra bland skisser efter användningsfall, mognadsnivå, installationsstatus och typ med filtren till höger om katalogen. När du har hittat en plan som intresserar dig kan du visa information på informationssidan.
 
@@ -36,10 +36,9 @@ Den blå typen visar vad som ingår i ritningen. Typen visas längst ned på kor
 
 Följande typer av ritningar finns:
 
-* Projektmallar: Inkluderar standardobjekt som är kopplade till en projektmall (uppgifter, ärenden, roller och team) och vissa inställningar som rör dessa objekt. Mer information finns i [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
+* Projektmallar: Inkluderar standardobjekt som är kopplade till en projektmall (uppgifter, ärenden, roller och team) och vissa inställningar som är relaterade till dessa objekt. Mer information finns i [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
 * Organisationsstrukturer: Inkluderar objekt som är kopplade till en organisations struktur (företag, grupper, roller och team). Mer information finns i [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
-* Kontrollpaneler: Inkluderar en eller flera instrumentpaneler för ett specifikt användningsfall, t.ex. implementeringstjänster.
-
+* Kontrollpaneler: Inkluderar en eller flera instrumentpaneler för ett visst användningsfall, t.ex. implementeringstjänster.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
