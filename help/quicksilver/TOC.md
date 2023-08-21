@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 538e3a5090dce6f6e441da9911269a1d264833f8
+source-git-commit: 1e062b38f0b8e0be1857a1a1fe9e64f1d6fa6c36
 workflow-type: tm+mt
-source-wordcount: '13169'
+source-wordcount: '13176'
 ht-degree: 0%
 
 ---
@@ -430,6 +430,7 @@ ht-degree: 0%
          * [Testmiljöer](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [Förhandsgranska sandlådemiljö](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Anpassad miljö för uppdatering av sandlådan](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+         * [Flytta objekt från ett objekt [!DNL Workfront] miljö till annan](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * Lägg till användare {#add-users}
       * [Lägg till användare i Workfront](administration-and-setup/add-users/add-users.md)
       * Skapa och hantera användare {#create-manage-users}
