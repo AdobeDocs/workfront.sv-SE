@@ -3,9 +3,9 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis utgivning: Med version 23.10 (om inget annat anges)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nya filteralternativ för Nytt hem</a> </p>
+                        <p>Nya filteralternativ är nu tillgängliga för widgeten Mitt arbete i Nytt hem. Alternativen är filter för objekttyper (uppgifter, problem och begäranden) och status (inte redo, klar att börja, arbeta med och slutförd).</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 17 augusti 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Stöd för anpassad terminologi i Nytt hem</a> </p>
+                        <p>För att bättre kunna tillgodose organisationernas unika behov använder Nytt hem nu anpassad terminologi för objekt som definieras i en förekomsts layoutmallar. Om till exempel"Projekt"-objekt har omdöpts till"Kampanjer" i din Workfront-instans visas widgeten Mina projekt som Mina kampanjer i Nytt hem.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 17 augusti 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Knappen Ny startsida har tagits bort för konton som har inaktiverat Ny startsida</a> </p>
+                        <p>Knappen Testa ny startsida finns inte längre för konton där Ny startsida har inaktiverats. Nytt hem måste aktiveras på nytt av systemadministratören innan enskilda användare kan använda knappen för att prova Nytt hem.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 17 augusti 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
                             </li>
                         </ul>
                     </td>
