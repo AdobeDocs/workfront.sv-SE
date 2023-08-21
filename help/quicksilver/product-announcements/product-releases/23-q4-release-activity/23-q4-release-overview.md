@@ -3,7 +3,7 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 3 augusti 2023<br /></p>
+                                <p>Förhandsversion: 3 augusti 2023</p>
                             </li>
                             <li>
                                 <p>Production for Boards tidig åtkomst: 10 augusti 2023</p>
@@ -88,7 +88,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 3 augusti 2023<br /></p>
+                                <p>Förhandsversion: 3 augusti 2023</p>
                             </li>
                              <li>
                                 <p>Produktion för snabb lansering: Med version 23.8</p>
@@ -105,10 +105,10 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 21 augusti 2023<br /></p>
+                                <p>Förhandsversion: 21 augusti 2023</p>
                             </li>
                             <li>
-                                <p>Tidig åtkomst till produktion för styrelser: TBD</p>
+                                <p>Production for Boards tidig åtkomst: 24 augusti 2023</p>
                             </li>
                             <li>
                                 <p>Produktion för snabb lansering: TBD</p>
