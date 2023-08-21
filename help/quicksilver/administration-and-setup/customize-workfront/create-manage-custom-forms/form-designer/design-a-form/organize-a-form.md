@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,8 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [D
       <td role="rowheader"> <p>Ge åtkomst</p> </td> 
       <td> <p> Markera de behörigheter som användare behöver för ett objekt där det anpassade formuläret är kopplat för att visa det här avsnittet och redigera fältvärdena. 
        <p>Följande behörigheter är tillgängliga under <b>Användare med denna åtkomst till objektet kan visa fältvärden</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>Visa</strong>: Visa behörigheter för objektet</li>
           <li><p><b>Begränsad redigering</b>: (Endast tillgängligt om objektet är ett projekt, en uppgift, ett problem eller en användare):</p> 
           <p>Tillåter användare att bidra till objektet om det är ett projekt, en uppgift eller ett problem.</p>
           <p>Tillåter användare att redigera profilen eller äger profilbehörigheten till objektet om det är en användare.</p></li> 
