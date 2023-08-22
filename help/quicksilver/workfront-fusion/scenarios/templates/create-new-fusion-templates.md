@@ -7,9 +7,9 @@ description: Du kan skapa nya scenariomallar i [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
+source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Du kan skapa en mall på ungefär samma sätt som när du skapar ett scenario. F
 >[!NOTE]
 >
 >Genom att spara mallen kan du göra den synlig för alla dina teammedlemmar. Om du vill att mallen ska vara tillgänglig utanför ditt team måste du skicka in en begäran om att den ska godkännas och publiceras. Begäran kommer till Adobe Workfront för godkännande och när den har godkänts är mallen tillgänglig för andra utanför teamet.
+>
+>Mer information om publiceringsmallar finns i [Publicera och dela [!DNL Adobe Workfront Fusion] mallar](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### Skapa en mall från ett scenario
 
