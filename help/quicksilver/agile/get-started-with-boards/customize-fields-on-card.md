@@ -6,9 +6,9 @@ description: Du kan anpassa vilka fält som ska visas på ett kort genom att ina
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -51,13 +51,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Konfigurera kort {#configure-cards}
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka [!UICONTROL **Konfigurera**] till höger om anslagstavlan för att öppna konfigurationspanelen.
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicka [!UICONTROL **Konfigurera**] till höger om ritytan för att öppna panelen Konfigurera.
 1. Expandera [!UICONTROL **Kort**].
 
    De flesta fält och avsnitt är aktiverade som standard.
@@ -69,13 +69,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Lägg till anpassade fält till kort
 
-Anpassade fält är tillgängliga på anslutna kort. De visas bara i helskärmsläge, inte i den komprimerade vyn på kortet.
+Anpassade fält är tillgängliga på anslutna kort. De visas bara i helskärmsläge, inte i den komprimerade vyn.
 
 >[!NOTE]
 >
 >När du lägger till ett anpassat fält på dina kort är uppgifterna på kortet skrivskyddade.
 
-1. Gå till en anslagstavla och klicka [!UICONTROL **Konfigurera**] för att öppna konfigurationspanelen.
+1. Gå till en anslagstavla och klicka [!UICONTROL **Konfigurera**] för att öppna panelen Konfigurera.
 1. Expandera [!UICONTROL **Kort**].
 1. Under [!UICONTROL Card Fields], klicka [!UICONTROL **Lägg till anpassat fält**].
 1. Välj [!UICONTROL **Uppgift**] eller [!UICONTROL **Problem**].
@@ -86,13 +86,17 @@ Anpassade fält är tillgängliga på anslutna kort. De visas bara i helskärmsl
 
    >[!NOTE]
    >
-   >Följande fälttyper är inte tillgängliga för korttillägg: Adobe XD, Image, PDF, Video.
+   >Följande fälttyper kan inte läggas till i kort: Adobe XD, Image, PDF, Video.
 
 1. Markera fältnamnet.
 1. (Valfritt) Klicka på **[!UICONTROL Field value]** om du vill ändra det här anpassade fältet till ett annat.
 1. (Valfritt) Ändra **[!UICONTROL Field label]** till det fältnamn som du vill ska visas på kort.
-1. När du är klar med ändringarna klickar du på [!UICONTROL **Spara fält**].
+1. När du är klar med ändringarna klickar du [!UICONTROL **Spara fält**].
 
    ![Eget fältvärde och etikett](assets/save-custom-field-value-label.png)
 
    Det anpassade fältet läggs till i listan med tillgängliga fält och aktiveras som standard. Du kan inaktivera det anpassade fältet enligt stegen i [Konfigurera kort](customize-fields-on-card.md#configure-cards) ovan, redigera fältet eller ta bort det från alla kort.
+
+>[!NOTE]
+>
+>Om du senare byter namn på det anpassade fältet i Workfront måste du redigera fältetiketten på konfigurationspanelen så att den matchar, annars visas inte fältet på korten.
