@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Kortet läggs till längst ned i kolumnen längst till vänster. Den anslutna [!DNL Workfront] objektet och dess tilldelningar visas på kortet.
 
-   >[!NOTE]
-   >
-   >Om en tilldelad är på [!DNL Workfront] uppgiften eller emissionen är inte medlem i styrelsen, utan tilldelas inte kortet.
-
    ![Anslutet kort](assets/boards-connected-card-first-added.png)
 
 1. Klicka ![Öppna uppgift eller ärende](assets/boards-launch-icon.png) för att öppna [!DNL Workfront] uppgifter eller problem på en ny flik i webbläsaren.
@@ -124,9 +120,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td><p>Antal timmar som kortet ska fyllas i.</p><p>Om du ändrar uppskattningen ändras även artikelpunktsvärdet på den anslutna [!DNL Workfront] -objekt.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
-      <td><p>Om du vill tilldela fler personer eller ett team till kortet börjar du med att skriva ett namn i sökfältet och markerar det sedan när det visas i listan. Du kan lägga till både enskilda personer och team. Endast ett teamuppdrag tillåts på ett anslutet kort.</p>
-      <p>Tilldelningsmedlemmar måste vara medlemmar i styrelsen, annars visas de inte i urvalslistan. När ett team är medlem i styrelsen kan de enskilda teammedlemmarna tilldelas kortet.</p>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong></td>
+      <td><p>Om du vill tilldela fler personer eller ett team till kortet klickar du på <strong>[!UICONTROL Add Assignment]</strong> och börja skriva ett namn i sökfältet. Markera den sedan när den visas i resultatlistan. Du kan lägga till både enskilda personer och team. Endast ett teamuppdrag tillåts på ett anslutet kort.</p>
       <p>Alla tilldelningar du väljer tilldelas även uppgiften eller utgåvan i [!DNL Workfront].</p></td>
      </tr>
      <tr>

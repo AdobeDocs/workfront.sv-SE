@@ -6,9 +6,9 @@ description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och till
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -42,14 +42,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Lägg till ett ad hoc-kort med fullständig information
 
 Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront].
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront, klicka sedan på **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka på **[!UICONTROL Add card]>[!UICONTROL New card]**.
 1. I **[!UICONTROL Card Details]** lägger du till följande information:
 
@@ -71,7 +71,7 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Välj en status för kortet. Om du klickar <strong>[!UICONTROL Mark Complete]</strong> högst upp på kortet ändras statusen automatiskt till [!UICONTROL Complete].</td> 
+      <td>Välj en status för kortet. Klicka <strong>[!UICONTROL Mark Complete]</strong> högst upp på kortet ändras statusen automatiskt till [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
@@ -79,11 +79,11 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td>Ange det uppskattade antalet timmar som kortet ska fyllas i. Det här är bara ett manuellt tävlingsbidrag.</td>
+      <td>Ange det uppskattade antalet timmar som kortet ska fyllas i. Det här är bara en manuell inmatning.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
-      <td> <p>Om du vill tilldela kortet börjar du skriva ett namn i sökfältet och markerar det sedan när det visas i listan. Du kan lägga till både enskilda personer och team, och du kan tilldela flera personer eller team till ett kort.</p> <p>Tilldelningsmedlemmar måste vara medlemmar i styrelsen, annars visas de inte i urvalslistan. När ett team är medlem i styrelsen kan de enskilda teammedlemmarna tilldelas kortet.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong> </td> 
+      <td>Om du vill tilldela kortet klickar du <strong>[!UICONTROL Add Assignment]</strong> och börja skriva ett namn i sökfältet. Markera den sedan när den visas i resultatlistan. Du kan lägga till både enskilda personer och team, och du kan tilldela flera personer eller team till ett kort.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
@@ -99,9 +99,9 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bifogad fil</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
+      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bilaga</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
       </p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
-      <p><strong>OBS!</strong> Kommentarsområdet på kort använder den nya kommentarsfunktionen från Adobe Workfront. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
+      <p><strong>OBS!</strong> Kommentarsområdet på kort använder Adobe Workfront nya kommentarsfunktion. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -138,6 +138,6 @@ Du kan lägga till ad hoc-kort med endast en titel för att snabbt fylla i din a
 
    Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
 
-1. I [!UICONTROL Card Details] , uppdatera informationen efter behov och klicka på **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
+1. I [!UICONTROL Card Details] uppdaterar du informationen efter behov och klickar på **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
 
    Om du har aktiverat kolumnprofiler för att uppdatera fältvärden flyttas kortet automatiskt till motsvarande kolumn om du ändrar statusen på kortet. Mer information finns i&quot;Definiera kolumninställningar och -profiler&quot; i artikeln [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

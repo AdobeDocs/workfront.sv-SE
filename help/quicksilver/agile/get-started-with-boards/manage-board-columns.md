@@ -6,9 +6,9 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -42,13 +42,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Lägga till en kolumn på en anslagstavla
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka **[!UICONTROL Add Column]** till höger om de befintliga kolumnerna.
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicka **[!UICONTROL Add Column]** till höger om befintliga kolumner.
 1. Skriv ett namn i den nya kolumnen och klicka på **[!UICONTROL Add Column]**.
 
    ![Lägg till ny kolumn](assets/boards-add-column.png)
@@ -60,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Ändra ordning på kolumner på en anslagstavla
 
 1. Gå till styrelsen.
-1. Dra och släpp kolumnerna i rätt ordning. Se till att du markerar kolumnens övre del innan du drar den till en annan plats.
+1. Dra och släpp kolumnerna i rätt ordning. Se till att du markerar den övre delen av kolumnen innan du drar den till en annan plats.
 
    ![Dra och släpp kolumn](assets/boards-dragdropcolumn.png)
 
@@ -91,11 +91,11 @@ Du kan använda en konfigurationsinställning för att visa antalet kort i varje
 Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare till. Mer information om PIA-begränsningar finns i [Hantera [!UICONTROL Work in Progress] (PIA) begränsning av antalet anställda](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Gå till styrelsen.
-1. Klicka **[!UICONTROL Configure]** till höger om anslagstavlan för att öppna konfigurationspanelen.
+1. Klicka **[!UICONTROL Configure]** till höger om ritytan för att öppna panelen Konfigurera.
 1. Expandera **[!UICONTROL Column]**.
 1. Aktivera **[!UICONTROL Display a column card count]**.
 
-   ![Aktivera korträknare](assets/display-card-count.png)
+   ![Aktivera korträknaren](assets/display-card-count.png)
 
    Korträknaren visas högst upp i varje kolumn.
 
@@ -124,9 +124,9 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
 
    1. Välj en [!UICONTROL **Egen**] status som ska gälla för kortet för uppgifter och för utgåvor.
 
-      När ett kort flyttas till den här kolumnen [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den valda anpassade statusen inte är tillgänglig för det kortet uppmanas du att välja en annan status som motsvarar systemstatusen (från steg b ovan). Mer information om status finns i [Översikt över status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      När ett kort flyttas till den här kolumnen, [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den valda anpassade statusen inte är tillgänglig för det kortet uppmanas du att välja en annan status som motsvarar systemstatusen (från steg b ovan). Mer information om status finns i [Översikt över status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
-      Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.
+      Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen, flyttas kortet automatiskt till kolumnen.
 
 1. (Valfritt) Ange ett värde för korttilldelningarna:
 
@@ -134,11 +134,11 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
    1. Välj en åtgärd.
 
       * **[!UICONTROL Add on assignees]:** De tilldelningar du väljer läggs till i den befintliga listan med tilldelningar på ett kort när det flyttas till den här kolumnen.
-      * **[!UICONTROL Override assignees]:** De tilldelningar du väljer åsidosätter alla andra tilldelningar och blir de enda tilldelningarna på ett kort när det flyttas till den här kolumnen.
-   1. Välj de tilldelade i listrutan. Endast styrelseledamöter kan välja bland. Mer information finns i [Lägga till eller ta bort medlemmar från en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+      * **[!UICONTROL Override assignees]:** De tilldelade som du väljer åsidosätter alla andra tilldelningar och blir de enda tilldelningarna på ett kort när det flyttas till den här kolumnen.
+
+   1. Klicka [!UICONTROL **Lägg till uppdrag**] och söka efter en användare. Välj tilldelningar från sökresultaten. Alla Workfront-användare och -team finns att välja bland.
 
       ![Tilldelningar för kolumn](assets/boards-column-assignees.png)
-
 
 1. (Valfritt) Ange ett värde för korttaggarna:
 
@@ -147,10 +147,10 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
 
       * **[!UICONTROL Add on tags]:** De taggar du väljer läggs till i den befintliga listan med taggar på ett kort när det flyttas till den här kolumnen.
       * **[!UICONTROL Override tags]:** De taggar du markerar åsidosätter alla andra taggar och blir de enda taggarna på ett kort när det flyttas till den här kolumnen.
+
    1. Markera taggarna i listrutan. Endast taggar som redan har skapats i [!UICONTROL Tag Manager] är tillgängliga att välja mellan. Mer information om hur du lägger till nya taggar finns i [Lägg till taggar](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Taggar för kolumn](assets/boards-column-tags.png)
-
 
 1. Aktivera **[!UICONTROL Work in progress limit]** princip för att begränsa antalet kort som kan läggas till i kolumnen. Ange sedan begränsningsnumret i dialogrutan **[!UICONTROL Set limit]** fält.
 

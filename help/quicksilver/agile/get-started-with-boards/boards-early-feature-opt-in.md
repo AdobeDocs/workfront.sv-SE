@@ -7,9 +7,9 @@ description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Endast [!DNL Workfront] administratörer kan välja tidiga funktioner för styre
 
 ### Hur vet jag om min organisation har valt att använda tidiga funktioner?
 
-När [!DNL Workfront] administratören har aktiverat tidiga funktioner för anslagstavlor. Du kommer att se en [!UICONTROL Early Feature Opt-In] Knappen Aktiverad högst upp på instrumentpanelsskärmen. Klicka på knappen för att se vilka funktioner som är aktiverade.
+Kontakta [!DNL Workfront] administratör för att ta reda på om de har aktiverat tidiga funktioner för anslagstavlor.
 
 ### Kan tidiga funktioner endast aktiveras för vissa användare?
 
