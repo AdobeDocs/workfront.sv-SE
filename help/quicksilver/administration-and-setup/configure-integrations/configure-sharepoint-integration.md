@@ -3,14 +3,14 @@ title: Konfigurera [!DNL SharePoint] integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Ni kan integrera [!DNL Workfront] med [!DNL SharePoint] online, ger användarna möjlighet att navigera till, länka och lägga till [!DNL SharePoint] dokument i Workfront. Den angivna funktionaliteten liknar den för andra [!DNL Workfront] integreringar som Google Drive, Box och Dropbox.
+description: Ni kan integrera [!DNL Workfront] med [!DNL SharePoint] online, ger användarna möjlighet att navigera till, länka och lägga till [!DNL SharePoint] dokument i Workfront. Den angivna funktionaliteten liknar den för andra [!DNL Workfront] integreringar, som Google Drive, Box och Dropbox.
 author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
@@ -81,6 +81,27 @@ Instruktioner om hur du länkar dokument genom det nya [!DNL SharePoint] integre
 >* A [!DNL SharePoint] kan ansluta till en enda [!DNL SharePoint] -instans. Därför kan en användare konfigurera en integrering för en [!DNL SharePoint], men kan inte konfigurera en integrering till en sekund [!DNL SharePoint], även om de har behörighet till och dokument på den andra [!DNL SharePoint].
 >
 >* En användare har åtkomst till samma platser, samlingar, mappar, undermappar och filer via [!DNL Workfront] [!DNL SharePoint] som de har i sina [!DNL SharePoint] konto.
+
+### Länka dokument från SharePoint
+
+Anvisningar om hur du länkar dokument från SharePoint via nya [!DNL SharePoint] integrering, se [Länka ett externt dokument till [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Skicka dokument till SharePoint
+
+Skicka ett dokument till SharePoint:
+
+1. Klicka på **Skicka till** icon ![Skicka till](assets/send-to-icon.png) och väljer SharePoint (Graph API).
+1. (Valfritt) Sök i sökfältet efter platsen eller mappen dit du vill skicka dokumentet.
+1. Markera platsen eller mappen i listan.
+
+   * Platserna är markerade med ![Ikon för webbplats](assets/site-icon.png).
+
+   * Mappar är markerade med ![Mappikon](assets/folder-icon.png).
+
+   * Filerna är inte markerade med en ikon.
+
+1. Klicka **Spara**.
+
 
 ## Säkerhets-, åtkomst- och auktoriseringsinformation för [!DNL SharePoint] integration
 
@@ -104,10 +125,10 @@ Den här åtkomsten beviljas av användaren första gången de använder integre
 
 Tänk på följande när det gäller åtkomst till [!DNL SharePoint] via [!DNL Workfront] [!DNL SharePoint] integrering:
 
-* Behörigheterna som krävs för den här integreringen är **delegerad** behörigheter.
+* Behörigheterna som krävs för integreringen är **delegerad** behörigheter.
 * [!DNL Workfront] begär den lägsta åtkomstnivå som krävs för att utföra åtgärder i integreringen.
 * Åtkomst till att visa, redigera eller ta bort en [!DNL Adobe Workfront] dokument länkat till [!DNL SharePoint] baseras på användarens åtkomst till [!DNL Workfront]. All navigering, hämtning eller redigering av en [!DNL SharePoint] fil eller mapp kräver åtkomst till [!DNL SharePoint]och åtkomsten till dessa åtgärder styrs av [!DNL SharePoint].
-* Användare kan visa miniatyrbilder och förhandsgranska bilder som hämtats från [!DNL SharePoint]och kan visa fil- och mappnamn i [!DNL SharePoint], utan att logga in [!DNL SharePoint].
+* Användare kan visa miniatyrbilder och förhandsgranska bilder som hämtats från [!DNL SharePoint]och kan se fil- och mappnamn i [!DNL SharePoint], utan att logga in [!DNL SharePoint].
 * En användares åtkomsttoken används bara när användaren är offline och en annan användare visar innehållet i en mapp som är länkad till [!DNL Workfront]. Åtkomsttoken används för att identifiera om några dokument i mappen har lagts till, tagits bort eller redigerats.
 
 ### Säkerhet
@@ -131,10 +152,10 @@ För att säkerställa att du kan komma åt dokument som är länkade via äldre
 
 >[!NOTE]
 >
-> * Det gamla [!DNL SharePoint] integreringen heter &quot;[!DNL SharePoint].&quot;
-> * Den nya [!DNL SharePoint] integreringen heter &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].&quot;
+> * Det gamla [!DNL SharePoint] integreringen är märkt &quot;[!DNL SharePoint].&quot;
+> * Den nya [!DNL SharePoint] integreringen är märkt &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].&quot;
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Setup]** ![Inställningar](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **[!UICONTROL Setup]** ![Inställningar](../get-started-wf-administration/assets/gear-icon-settings.png).
 1. Välj **[!UICONTROL Documents]** i den vänstra navigeringen väljer du **[!UICONTROL Cloud Providers]**.
 1. Se till att **[!DNL SharePoint]** och **[!UICONTROL [!DNL SharePoint] (Graph API)]** båda är aktiverade.
 1. Klicka på **[!UICONTROL Save]**.
@@ -148,7 +169,7 @@ Dina [!DNL SharePoint] Klienthemlighet upphör en gång om året. För att säke
 
 >[!IMPORTANT]
 >
-> För [!DNL SharePoint] Client Secrets hanteras av [!DNL Microsoft], funktioner och procedurer för klienthemlighet kan ändras baserat på uppdateringar av [!DNL SharePoint] gjord av [!DNL Microsoft]. Kontrollera alltid [!DNL Microsoft] dokumentation för den senaste informationen om procedurer och funktioner i [!DNL SharePoint].
+> För [!DNL SharePoint] Klienthemligheter hanteras av [!DNL Microsoft], funktioner och procedurer för klienthemlighet kan ändras baserat på uppdateringar av [!DNL SharePoint] gjord av [!DNL Microsoft]. Kontrollera alltid [!DNL Microsoft] dokumentation för den senaste informationen om procedurer och funktioner i [!DNL SharePoint].
 
 <!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
@@ -157,10 +178,10 @@ Dina [!DNL SharePoint] Klienthemlighet upphör en gång om året. För att säke
 1. Generera en ny klienthemlighet enligt beskrivningen i [Ersätta en utgående klienthemlighet i en [!DNL SharePoint] Tillägg](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
 1. Kopiera den här klienthemligheten till en säker plats.
 1. Logga in [!DNL Workfront] som administratör.
-1. I Workfront klickar du på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 1. Klicka på i den vänstra panelen **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Klicka på [!DNL SharePoint] integrering som du vill uppdatera och klicka sedan på **[!UICONTROL Edit]**.
-1. Ange den nya klienthemligheten i **[!UICONTROL Client Secret]** fält.
+1. Ange den nya klienthemligheten i dialogrutan **[!UICONTROL Client Secret]** fält.
 1. Klicka på **[!UICONTROL Save]**.
 
 <!--
@@ -411,7 +432,7 @@ Användare med [!UICONTROL Full Control] har alla behörigheter som krävs för 
  </tbody> 
 </table>
 
-Instruktioner om hur du skapar och redigerar behörighetsnivåer finns i [Skapa och redigera behörighetsnivåer](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) i Microsoft-dokumentationen.
+Instruktioner om hur du skapar och redigerar behörighetsnivåer finns i [Så här skapar och redigerar du behörighetsnivåer](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) i Microsoft-dokumentationen.
 
 <!--
 
