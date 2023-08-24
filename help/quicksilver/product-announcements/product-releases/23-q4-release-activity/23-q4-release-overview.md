@@ -3,9 +3,9 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 ## Adobe Workfront-förbättringar
 
 * [Förbättringar av anslagstavlor](#boards-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
@@ -60,6 +61,42 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Förbättringar av användartilldelningar på kort och kort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Nu finns det förbättringar som ger större flexibilitet när du lägger till användare på kort och kort i Adobe Workfront Boards.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 21 augusti 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion för alla kunder: 24 augusti 2023</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Lägga till dokument på anslutna kort</a></p><p>Nu kan du bifoga dokument på anslutna kort på Adobe Workfront Boards. Alla dokument som du lägger till på kortet blir tillgängliga på fliken Dokument i den anslutna uppgiften eller utgåvan, och samma filtyper stöds i båda områdena.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 21 augusti 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for Boards tidig åtkomst: 24 augusti 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: TBD</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Dokument som är tillgängliga på anslutna kort är skrivskyddade</a></p><p>För anslutna kort på Adobe Workfront Boards kan du nu visa dokument som bilder och PDF. Du kan antingen förhandsgranska ett dokument i webbläsaren eller hämta det till datorn. </p>
@@ -98,29 +135,65 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Lägga till dokument på anslutna kort</a></p><p>Nu kan du bifoga dokument på anslutna kort på Adobe Workfront Boards. Alla dokument som du lägger till på kortet blir tillgängliga på fliken Dokument i den anslutna uppgiften eller utgåvan, och samma filtyper stöds i båda områdena.</p>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Förbättrade upplevelser när du skickar dokument till SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p><p>Vi har gjort några ändringar som gör det enklare att hitta mappar när du skickar dokument till dina SharePoint-mappar (GraphAPI)</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 21 augusti 2023</p>
-                            </li>
-                            <li>
-                                <p>Production for Boards tidig åtkomst: 24 augusti 2023</p>
+                                <p>Förhandsversion: 24 augusti<br /></p>
                             </li>
                             <li>
                                 <p>Produktion för snabb lansering: TBD</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Uppgraderingar för att dra och släppa för dokumentintegreringar</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p><p>Vi har gjort några förbättringar för att lägga till tydlighet och ta bort användarfel när en fil dras och släpps till en länkad mapp.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 24 augusti<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: TBD</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis utgivning: TBD</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### Projektförbättringar
 
