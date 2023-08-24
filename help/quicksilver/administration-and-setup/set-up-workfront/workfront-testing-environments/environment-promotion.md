@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 4042384f4e3c70bb23d585d5a5e392d624ac6cb4
+source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2317'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 ### Arbetsobjekt
 
-| Upphöjt objekt | Inkluderade underobjekt |
+| Upphöjt objekt | Inkluderade flyttbara underobjekt |
 | --- | --- |
 | Projekt (PROJ) | Projekt<br>Uppgift<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Team<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ledig arbetsdag<br>Ködefinition<br>Köämnesgrupp<br>Köämne<br>Cirkulationsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 | Mall (TMPL) | Mall<br>Malluppgift<br>Mallaktivitetstilldelning<br>Föregångare för mallaktivitet<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Team<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ledig arbetsdag<br>Ködefinition<br>Köämnesgrupp<br>Köämne<br>Cirkulationsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 
 ### Rapporteringsobjekt
 
-| Upphöjt objekt | Inkluderade underobjekt |
+| Upphöjt objekt | Inkluderade flyttbara underobjekt |
 | --- | --- |
 | Layoutmall (UITMPL) | Layoutmall<br>Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
 | Kontrollpanel (PTLTAB) | Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
@@ -92,7 +92,7 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 ### Anpassade dataobjekt
 
-| Upphöjt objekt | Inkluderade underobjekt |
+| Upphöjt objekt | Inkluderade flyttbara underobjekt |
 | --- | --- |
 | Kategori (CTGY) | Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik<br>Grupp |
 | Parameter (PARAM) | Parameter<br>Parameteralternativ |
@@ -100,7 +100,7 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 ### Organisationsobjekt
 
-| Upphöjt objekt | Inkluderade underobjekt |
+| Upphöjt objekt | Inkluderade flyttbara underobjekt |
 | --- | --- |
 | Grupp (GRUPP) | Grupp <br>Undergrupper (upp till 5 nivåer)<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 | Roll (ROLE) | Roll |
@@ -111,7 +111,7 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 ### Andra konfigurationsobjekt
 
-| Upphöjt objekt | Inkluderade underobjekt |
+| Upphöjt objekt | Inkluderade flyttbara underobjekt |
 | --- | --- |
 | Godkännandeprocess (ARVPRC) | Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Roll<br>Team<br>Grupp |
 | Schema (SCHED) | Schema<br>Ledig arbetsdag<br>Grupp |
@@ -126,7 +126,7 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 API:t autentiserar varje begäran för att säkerställa att klienten har åtkomst att visa eller ändra ett begärt objekt.
 
-Autentisering utförs genom att ett sessions-ID skickas som kan ges på något av följande sätt:
+Autentisering utförs genom att ett sessions-ID eller en API-nyckel skickas, som kan ges på något av följande sätt:
 
 ### Autentisering av begärandehuvud
 
@@ -138,22 +138,6 @@ Följande är ett exempel på en begäranderubrik:
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
-
-### Begär parameterautentisering
-
-Du kan autentisera genom att skicka en request-parameter med namnet sessionID, vilket visas i följande exempel: 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
-```
-
-### Cookie-baserad autentisering
-
-API:t använder samma cookie-baserade autentisering som används av webbgränssnittet i systemet. Om en klient loggar in på Workfront med webbgränssnittet används samma autentisering för alla AJAX anrop som görs i samma webbläsare.
-
->[!NOTE]
->
->För att skydda mot risken för CSRF-attacker (Cross Site Request Falery) är den här autentiseringsmetoden endast tillgänglig för skrivskyddade åtgärder.
 
 ## API-slutpunkter
 
@@ -189,13 +173,13 @@ I det andra steget används `objectCollections` arrayen finns i POSTENS brödtex
 
 >[!NOTE]
 >
-Notera strukturen för `objectCollections`  array.
+>Notera strukturen för `objectCollections`  array.
 >
-Varje objekt i arrayen innehåller en `objCode` som motsvarar objektkoden som finns dokumenterad i Workfront API Explorer.
+>Varje objekt i arrayen innehåller en `objCode` som motsvarar objektkoden som finns dokumenterad i Workfront API Explorer.
 >
-Varje objekt innehåller också `entities` samling. Detta förväntar sig `ID` och `name` nycklar som ska finnas.
+>Varje objekt innehåller också `entities` samling. Detta förväntar sig `ID` och `name` nycklar som ska finnas.
 >
-För listan över tillåtna objektkoder som ska begäras i `objectCollections` finns i [Objekt som stöds för miljöbefordran](#supported-objects-for-environment-promotion) i den här artikeln.
+>För listan över tillåtna objektkoder som ska begäras i `objectCollections` finns i [Objekt som stöds för miljöbefordran](#supported-objects-for-environment-promotion) i den här artikeln.
 
 #### URL
 
@@ -207,7 +191,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -273,7 +259,6 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
 }
 ```
@@ -303,7 +288,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -330,7 +317,6 @@ _Tom_
             "createdAt": "2023-06-06T17:29:21.600Z",
             "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
             "publishedAt": null,
-            "isPrivate": true,
             "customerId": "61aa9d090005fa42152c1cb66659f38d"
         },
         {...}
@@ -363,7 +349,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -389,21 +377,15 @@ _Tom_
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
                    "name": "Default Group",
-                   "description"
+                   "description": "null"
+                   - or -
+                   "description": "..."
                }
             ],
             "ROLE": [
@@ -436,7 +418,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -452,13 +436,6 @@ _Tom_
 
 ```json
 {
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
     "packageEntities": {
         "GROUP": [
            {
@@ -472,7 +449,7 @@ _Tom_
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -504,12 +481,11 @@ Alla redigerbara fält måste anges för begäran.
 De redigerbara attributen är:
 
 1. name (sträng)
-2. description (string)
-3. källa (sträng med URL-validering)
-4. status (sträng med värdevalidering)
-5. version (heltal)
-6. metadata (samling)
-7. packageEntities (collection)
+1. description (string)
+1. källa (sträng med URL-validering)
+1. status (sträng med värdevalidering)
+1. version (heltal)
+1. packageEntities (collection)
 
 Statusalternativen är:
 
@@ -554,7 +530,9 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -588,7 +566,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -620,15 +598,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -666,7 +636,6 @@ De redigerbara attributen är:
 1. källa (sträng med URL-validering)
 1. status (sträng med värdevalidering)
 1. version (heltal)
-1. metadata (samling)
 1. packageEntities (collection)
 
    eller
@@ -688,7 +657,9 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -719,15 +690,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -760,7 +723,7 @@ Det här anropet tar bort kampanjposten. Den här åtgärden är oåterkallelig.
 
 >[!NOTE]
 >
-I stället för att ta bort ett kampanjpaket rekommenderar vi att du ändrar paketets status till INAKTIVERAT. Detta gör att paketet kan hämtas och att installationshistoriken för var det distribuerades sparas.
+>I stället för att ta bort ett kampanjpaket rekommenderar vi att du ändrar paketets status till INAKTIVERAT. Detta gör att paketet kan hämtas och att installationshistoriken för var det distribuerades sparas.
 
 #### URL
 
@@ -772,7 +735,9 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -838,7 +803,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -888,7 +855,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -935,7 +904,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -953,8 +924,8 @@ _Tom_
 [
     {
         "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-        "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-        "blueprintVersion": 1,
+        "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+        "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
         "status": "COMPLETED",
@@ -1024,7 +995,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -1041,8 +1014,8 @@ _Tom_
 ```json
 {
     "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-    "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-    "blueprintVersion": 1,
+    "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+    "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
     "status": "COMPLETED",
