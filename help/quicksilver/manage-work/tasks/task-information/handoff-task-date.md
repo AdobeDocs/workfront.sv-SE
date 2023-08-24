@@ -7,9 +7,9 @@ description: Leveransdatumet är det datum då en uppgift blir tillgänglig för
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -30,31 +30,30 @@ Leveransdatumet är det datum då en uppgift blir tillgänglig för arbete. Det 
 >
 >* Parkerad
 >* Aktuell
->* Slutförd
+>* Complete
 >* Död
 >
 
-
 Workfront använder följande regler för att beräkna leveransdatum för en uppgift:
 
-* **När aktiviteten har en ofullständig föregångare**: Leveransdatumet för aktiviteten är null.
-* **När aktiviteten har en fullständig föregångare**: Leveransdatumet är samma som det faktiska slutförandedatumet för föregående aktivitet. Om föregående aktivitet har en fördröjning beräknar Workfront leveransdatumet för efterföljande uppgift med följande formel:
+* **När aktiviteten har en ofullständig föregående**: Behandlingsdatumet för aktiviteten är null.
+* **När aktiviteten har en fullständig föregående aktivitet**: Leveransdatumet är samma som det faktiska slutförandedatumet för föregående aktivitet. Om föregående aktivitet har en fördröjning beräknar Workfront leveransdatumet för efterföljande uppgift med följande formel:
 
-   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
+  `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
-   Mer information om fördröjningstid finns i [Översikt över lagertyper](../use-prdcssrs/lag-types.md).
+  Mer information om fördröjningstid finns i [Översikt över lagertyper](../use-prdcssrs/lag-types.md).
 
-   Om den efterföljande aktiviteten har fler än en föregångare beräknas leveransdatumet utifrån det senaste faktiska slutförandedatumet för föregående aktiviteter. Om till exempel de två föregångarnas faktiska slutförandedatum är den 8 november 2022 och den 20 november 2022 är den efterträdande partens leveransdatum den 20 november 2022.
+  Om den efterföljande aktiviteten har fler än en föregångare beräknas leveransdatumet utifrån det senaste faktiska slutförandedatumet för föregående aktiviteter. Om till exempel de två föregångarnas faktiska slutförandedatum är den 8 november 2022 och den 20 november 2022 är den efterträdande partens leveransdatum den 20 november 2022.
 
-   >[!NOTE]
-   >
-   >   Beräkningen av leveransdatumet för en efterföljande aktivitet baserat på det faktiska slutförandedatumet eller en föregående aktivitet är densamma oavsett om föregående aktivitet används eller inte. Mer information om framtvingade föregångare finns i [Tvinga föregående](../use-prdcssrs/enforced-predecessors.md).
+  >[!NOTE]
+  >
+  >   Beräkningen av leveransdatumet för en efterföljande aktivitet baserat på det faktiska slutförandedatumet eller en föregående aktivitet är densamma oavsett om föregående aktivitet används eller inte. Mer information om framtvingade föregångare finns i [Tvinga föregående](../use-prdcssrs/enforced-predecessors.md).
 
 
 * **När aktiviteten inte har någon föregångare och**:
 
    * **Det planerade startdatumet har redan infallit**: Leveransdatumet är samma som projektets planerade startdatum.
-   * **Det planerade startdatumet infaller i framtiden (vilket datum som helst efter det aktuella datumet)**: Leveransdatumet är samma som projektets planerade startdatum.
+   * **Det planerade startdatumet infaller i framtiden (alla datum efter det aktuella datumet)**: Leveransdatumet är samma som det planerade startdatumet för aktiviteten.
 
 >[!NOTE]
 >
@@ -66,20 +65,19 @@ Workfront använder följande regler för att beräkna leveransdatum för en upp
 >Mer information om hur du beräknar om projektets tidslinje finns i [Beräkna om projekttidslinjer](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 * **När aktiviteten har en tvingad begränsning för planerade datum**: Leveransdatumet varierar beroende på begränsningstypen och om aktiviteten har ett faktiskt startdatum eller inte.\
-   Följande är obligatoriska begränsningar för uppgifter:
+  Följande är obligatoriska begränsningar för uppgifter:
 
    * Måste börja på
    * Måste avslutas
    * Starta tidigast
-   * Starta inte senare än
+   * Starta senast
    * Fast den
 
-   Följande scenarier finns:
+  Följande scenarier finns:
 
    * När aktiviteten har begränsningen Måste börja den eller Start inte tidigare än, är leveransdatumet begränsningsdatumet, såvida det inte finns ett faktiskt startdatum för aktiviteten. Om det finns ett faktiskt startdatum för aktiviteten är leveransdatumet det faktiska slutförandedatumet för föregående aktivitet.
    * När aktiviteten har begränsningen Måste avslutas den eller starta inte senare än är datumet för leverans alltid föregående, oavsett om det finns ett faktiskt startdatum för aktiviteten eller inte.
    * När aktiviteten har en begränsning med fasta datum är leveransdatumet det planerade startdatumet för aktiviteten, oavsett om den har en föregångare eller inte och oavsett om den har slutförts eller inte.
-
 
 ## Hitta leveransdatumet
 

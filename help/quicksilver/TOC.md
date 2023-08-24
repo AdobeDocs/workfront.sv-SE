@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 03505cbede4b022e792f39c5730d3edc5231585e
+source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
 workflow-type: tm+mt
-source-wordcount: '13188'
+source-wordcount: '13192'
 ht-degree: 0%
 
 ---
@@ -374,6 +374,7 @@ ht-degree: 0%
          * [Ny information om betaupplevelser vid kommentering](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Ny kommentarsfunktion](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Ny aktivitet för att frisläppa kommentarer](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+         * [Nya vanliga frågor och svar om kommenteringsupplevelser](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Administration och konfiguration {#administration-and-setup}
    * [Administration och konfiguration](administration-and-setup/administration-and-setup.md)
    * Kom igång med administration {#get-started-administration}

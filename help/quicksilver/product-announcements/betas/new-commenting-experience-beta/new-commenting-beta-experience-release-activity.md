@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av d
 Följande avsnitt innehåller en lista med funktioner som har lagts till efter den ursprungliga version 23.2, med början de som släpptes senast.
 
 Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. I den här artikeln listas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
+
+### Vecka 21 augusti 2023
+
+#### Ändra tidsstämpelformat på fliken Kommentarer
+
+Vi har uppdaterat tidsstämpelformatet för användarens kommentarer på fliken Kommentarer i den nya kommentarsströmmen. Som en del av den här ändringen visas inte längre året i tidsstämpeln i kommentarer från det aktuella året. Om du hovrar över en tidsstämpel visas hela datumet, inklusive året.
+
+Ändringarna påverkar inte systemuppdateringar på fliken Systemaktivitet.
+
+Förhandsgranskning och produktion: 24 augusti 2023
 
 ### Vecka 14 augusti 2023
 
