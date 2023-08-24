@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 9bcd792139f8f2f0198da943e5c63a2add32e856
+source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
+>Det förfarande som beskrivs på denna sida gäller organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
+>
+>Gruppadministratörer i organisationer som har anslutit sig till Adobe Admin Console kan använda den här proceduren för att skapa användare och skicka in användaren för administratörsgodkännande.
 >
 >Instruktioner om hur du lägger till en användare i Adobe Admin Console:
 >
@@ -59,7 +61,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
      <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>av dessa två alternativ, om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,22 +78,22 @@ Innan du lägger till en användare ska du samla in informationen om användaren
    * Standardlösenord
    * E-postadress
 
-   >[!NOTE]
-   >
-   >Du kan ange om användare ska kunna visa andra användares kontaktinformation genom att finjustera inställningen för användarvyn när du anger åtkomstnivåer för Workfront-objekt. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  >[!NOTE]
+  >
+  >Du kan ange om användare ska kunna visa andra användares kontaktinformation genom att finjustera inställningen för användarvyn när du anger åtkomstnivåer för Workfront-objekt. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Vilken position har den nya användaren i företaget? Har den här personen några direkta rapporter? Vem rapporterar den här personen till?
-* Vilken jobbroll fyller personen? Finns den här rollen i Workfront? Finns det någon gräns för hur många personer som kan fylla den här jobbrollen? Mer information om hur du skapar jobbroller finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Vilken jobbroll fyller personen? Finns den här jobbrollen i Workfront? Finns det någon gräns för hur många personer som kan fylla den här jobbrollen? Mer information om hur du skapar jobbroller finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 * Vilken åtkomstnivå ska användaren ha? Finns den redan eller behöver du skapa en ny? Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 * Vilken hemgrupp ska den här användaren vara i? Ska personen vara i mer än en grupp? Mer information om grupper finns i [Översikt över grupper](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 * Vilket hemteam ska den här användaren vara i? Ska personen vara i mer än ett team? Mer information om team finns i [Översikt över team](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Vilken anpassad information behöver du associera med den här användaren?
 
-   Om information om användare hämtas i anpassade fält som du har skapat måste du ha ett anpassat formulär när du skapar en användare. Mer information om anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Om information om användare hämtas i anpassade fält som du har skapat måste du ha ett anpassat formulär när du skapar en användare. Mer information om anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Skapa en helt ny användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 
 1. Klicka **Ny användare > Ny användare** för att lägga till en användare som ännu inte har lagts till i Workfront.
 
@@ -108,15 +110,18 @@ Innan du lägger till en användare ska du samla in informationen om användaren
 1. Gör något av följande:
 
    * Lämna **Skicka en inbjudan via e-post till den här personen** aktiverat. Om du gör det får användaren ett e-postmeddelande där han/hon kan följa en länk för att skapa ett eget lösenord för Workfront. Användare som inte accepterar e-postinbjudan och skapar ett Workfront-lösenord listas som Oregistrerade i Workfront.
-   * Inaktivera **Skicka en inbjudan via e-post till den här personen** skriver du en **Lösenord** för personen och bekräfta det i **Bekräfta lösenord** box. Du måste dela det här lösenordet med användaren utanför Workfront.
+   * Inaktivera **Skicka en inbjudan via e-post till den här personen** skriver du en **Lösenord** för personen och bekräfta det i dialogrutan **Bekräfta lösenord** box. Du måste dela det här lösenordet med användaren utanför Workfront.
 
    >[!NOTE]
    >
    >Om Workfront-administratören har aktiverat en SSO-integrering med Workfront är alternativet Tillåt endast &lt;sso configuration=&quot;&quot;> Autentiseringsfältet är dolt om du inaktiverar e-postinbjudan. Federations-ID eller &lt;sso configuration=&quot;&quot;> Fältet Användarnamn förblir synligt.
 
    >[!NOTE]
+   >
    Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
+   >
    Nya användare i Adobe läggs till i Admin Console, och Admin Console skickar ett e-postmeddelande som bjuder in dem att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-system.
+   >
    För användare som redan har Adobe kan användaren få ett e-postmeddelande om att Workfront är tillgängligt eller inte. Detta är en inställning som styrs av Adobe-administratören för produkten.
 
 1. Klicka **Lägg till den här användaren**.
@@ -125,21 +130,26 @@ Innan du lägger till en användare ska du samla in informationen om användaren
 
    Klicka **Lägg till person användare och starta en annan** för att spara den nya användaren och lägga till en till.
 
+   >[!NOTE]
+   >
+   Om du är gruppadministratör och lägger till en användare i en organisation som har anslutit till Adobe Admin Console är alternativen för det här steget **Skicka användare för administratörsgodkännande** och **Skicka för godkännande och starta en annan**. Användaren skapas i en inaktiverad och väntande godkännandestatus. En Workfront-administratör måste godkänna användaren, som aktiverar användaren i Workfront och lägger till dem i Adobe Admin Console.
+
 ## Kopiera en användare för att skapa en ny
 
 Du kan skapa en användare genom att kopiera en befintlig användare.
 
 >[!NOTE]
+>
 När du skapar en användare på det här sättet kopieras all information från den ursprungliga användaren till den nyskapade användaren förutom följande:
+>
 * Informationen i avsnittet Personlig information.
-* Visa följande när jag loggar in: Standardfliken för landning för åtkomstnivån är markerad i den här rutan.
+* Visa när jag loggar in: Standardstartfliken för åtkomstnivån är markerad i den här rutan.
 * Direktrapporter
 >
 
-
 Så här skapar du en ny användare genom att kopiera en befintlig:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 1. Markera den användare som du vill kopiera och klicka sedan på ikonen Kopiera ![](assets/copy-icon.png).
 1. I **Ny användare** som visas redigerar du fälten som är tillgängliga för den nya användaren.
 
@@ -156,6 +166,9 @@ Detta skapar ett nytt konto i Workfront för användaren.
 Om du har valt att skicka en inbjudan till användaren bör användaren få ett e-postmeddelande där han/hon kan följa en länk för att skapa sitt Workfront-lösenord.
 
 >[!NOTE]
+>
 Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
+>
 Nya användare i Adobe läggs till i Admin Console, och Admin Console skickar ett e-postmeddelande som bjuder in dem att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-system.
+>
 För användare som redan har Adobe kan användaren få ett e-postmeddelande om att Workfront är tillgängligt eller inte. Detta är en inställning som styrs av Adobe-administratören för produkten.
