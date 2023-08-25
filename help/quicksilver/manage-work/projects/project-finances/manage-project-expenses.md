@@ -6,9 +6,9 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Arbeta eller högre </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt och finansiella data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till projekt och finansiella data</p> <p><b>ANMÄRKNING</b> </p>
+   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter till projektet med behörigheter för att hantera ekonomi</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörigheter för projektet med behörighet att visa eller hantera ekonomi</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,12 +63,12 @@ The **Lägg till en utgift** visas.
    * **Utgiftstyp:** (Obligatoriskt) Välj den kategori som bäst beskriver utgiften.
    * **Uppgift:** Börja skriva namnet på uppgiften som utgiften är kopplad till och klicka sedan på den när den visas i listrutan.
    * **Planerat belopp:** Det planerade budgeterade beloppet för utgiften.\
-      Detta påverkar projektets budgeterade kostnad.
+     Detta påverkar projektets budgeterade kostnad.
 
    * **Faktiskt belopp:** Det belopp som den faktiska kostnaden för utgiften har.\
-      Detta påverkar projektets faktiska kostnad.
+     Detta påverkar projektets faktiska kostnad.
 
-   * **Planerat datum:** Det förväntade datumet för utgiften. Du kan skriva datumet i fältet med *mm/dd/yy* eller så kan du klicka på kalenderikonen  ![](assets/calendar-icon.png) och välj datumet dynamiskt.
+   * **Planerat datum:** Det förväntade datumet för utgiften. Du kan skriva datumet i fältet med *mm/dd/yy* eller klicka på kalenderikonen  ![](assets/calendar-icon.png) och välj datumet dynamiskt.
 
    * **Betalningsdatum:** Datumet då utgiften betalades.
    * **Fakturerbart:** Välj det här alternativet om du vill fakturera den här utgiften. Det är viktigt att kategorisera en utgift som fakturerbar när du skapar faktureringsposter.
@@ -81,6 +82,6 @@ The **Lägg till en utgift** visas.
 
 1. Gå till projektet där du vill ta bort utgifter.
 1. Klicka **Visa fler** och sedan klicka **Utgifter**.
-1. Markera de utgifter du vill ta bort och klicka sedan på **Ta bort** ![Ta bort](assets/delete.png).
+1. Markera de utgifter som du vill ta bort och klicka sedan på **Ta bort** ![Ta bort](assets/delete.png).
 
 1. Klicka **Ja, ta bort den** för att bekräfta borttagningen.

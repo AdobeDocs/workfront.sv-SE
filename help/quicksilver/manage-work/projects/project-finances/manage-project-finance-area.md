@@ -6,7 +6,7 @@ description: Hantera information i projektfinansieringsdelen
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -39,7 +39,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomst till projekt och finansiella data</p> <p>Redigera åtkomst till projekt och finansiella data för att redigera finansiell information om projektet</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomst till projekt och finansiella data</p> <p>Redigera åtkomst till projekt och finansiella data för att redigera finansiell information om projektet</p> <p><b>ANMÄRKNING</b></p>
+   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -54,14 +55,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Tänk på följande när du visar eller redigerar information på finansområdet:
 
-* Den finansiella information som du hittar under Ekonomi Projektdetaljer representerar värden som går upp till projektnivå från aktiviteter, samt information som anges direkt i projektet. Viss ekonomisk information kan hanteras på både projektnivå och aktivitetsnivå.
+* Den finansiella information som du hittar på området Ekonomi i Projektdetaljer representerar värden som går upp till projektnivån från aktiviteter, samt information som anges direkt i projektet. Viss ekonomisk information kan hanteras på både projektnivå och aktivitetsnivå.
 * Du måste ha behörigheten Visa för projektet samt åtkomst till finansiella data från din åtkomstnivå för att kunna visa finansieringsdelen i ett projekt.
 * Du måste ha behörigheten Hantera för projektet samt åtkomst till finansiella data från din åtkomstnivå för att kunna redigera informationen på finanssidan. Vi rekommenderar dock att endast projektägaren ska redigera informationen i det här området.
 
 ## Visa finansieringsinformation för ett projekt
 
 1. Gå till ett projekt.
-1. Klicka **Projektinformation** i den vänstra panelen.
+1. Klicka **Projektinformation** till vänster.
 1. Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi**.
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
@@ -82,7 +83,7 @@ Tänk på följande när du visar eller redigerar information på finansområdet
      </tr> 
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 
-      <td> <p>Detta är projektresultatvärden som visar hur projektet fungerar vid en viss tidpunkt. Deras värden beräknas utifrån prestandaindexmetoden.<br>Mer information finns i följande artiklar: </p> 
+      <td> <p>Detta är projektresultatvärden som visar hur projektet fungerar vid en viss tidpunkt. Deras värden beräknas baserat på prestandaindexmetoden.<br>Mer information finns i följande artiklar: </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Beräkna index för kostnadsprestanda (CPI)</a> </p> </li> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Beräkna SPI (Schedule Performance Index) </a> </p> </li> 
@@ -148,7 +149,7 @@ Så här redigerar du information på underfliken Projektfinansiering:
    >
    >Du måste ha behörigheten Hantera för projektet för att kunna utföra följande steg. Vi rekommenderar också att endast projektägaren ska göra ändringar på projektets finansunderflik.
 
-1. Klicka **Projektinformation** i den vänstra panelen.
+1. Klicka **Projektinformation** till vänster.
 1. Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi** . Då öppnas finansdelen för redigering.
 1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka **+Lägg till** om du vill lägga till information i ett tomt fält.
 
@@ -180,8 +181,8 @@ Så här redigerar du information på underfliken Projektfinansiering:
       <td role="rowheader">Uppskattning vid slutförande</td> 
       <td> <p>Representerar den beräknade totala kostnaden för ditt projekt eller din uppgift när den har slutförts. Detta konfigureras på systemnivå av administratören, men du kan även redigera det på projektnivå. Välj något av följande alternativ:</p> 
        <ul> 
-        <li><strong>Beräkna på projektnivå</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att de faktiska timmarna/den faktiska arbetskostnaden anges i EAC-formlerna. Beräkningen inkluderar Faktiska timmar/kostnader och utgifter som lagts till direkt i den överordnade uppgiften eller projektet.</li> 
-        <li><strong>Samla upp från aktiviteter/underaktiviteter</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att sammanfatta EAC för varje underordnad uppgift. Den här beräkningen exkluderar faktiska timmar/kostnader och utgifter som läggs till direkt i den överordnade aktiviteten eller projektet.</li> 
+        <li><strong>Beräkna på projektnivå</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att de faktiska timmarna/faktiska arbetskostnaderna anges i EAC-formlerna. Beräkningen inkluderar Faktiska timmar/kostnader och utgifter som lagts till direkt i den överordnade uppgiften eller projektet.</li> 
+        <li><strong>Samla upp från aktiviteter/underaktiviteter</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att EAC summeras för varje underordnad uppgift. Den här beräkningen exkluderar faktiska timmar/kostnader och utgifter som läggs till direkt i den överordnade aktiviteten eller projektet.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -198,7 +199,7 @@ Så här redigerar du information på underfliken Projektfinansiering:
      </tr> 
      <tr> 
       <td role="rowheader">Projektvaluta</td> 
-      <td> <p>Ange en valuta för det här projektet, om den skiljer sig från standardvalutan i systemet. Standardvalutan i ditt system definieras av din Workfront-administratör. Mer information om hur du ställer in valutakurser i Workfront finns i artikeln <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.</p> </td> 
+      <td> <p>Ange en valuta för det här projektet, om den skiljer sig från standardvalutan i systemet. Standardvalutan i ditt system definieras av din Workfront-administratör. Mer information om hur du ställer in växelkurser i Workfront finns i artikeln <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.</p> </td> 
      </tr>
     </tbody> 
    </table>

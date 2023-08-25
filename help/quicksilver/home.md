@@ -3,18 +3,18 @@ title: '''[!DNL Adobe Workfront] dokumentation'
 description: Dokumentation för [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront] dokumentation
 
-Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. Adobe Workfront är en arbetsstyrningsapplikation för marknadsföring som hjälper er att hantera hela arbetscykeln på ett och samma ställe.
+Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. Adobe Workfront är ett program för att hantera hela arbetscykeln på ett och samma ställe.
 
-Använd följande Adobe Workfront-dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
+Använd följande hjälpartiklar och ytterligare resurser från Adobe Workfront för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 
 Följande avsnitt pekar på användbara länkar i den här guiden, ordnade efter målgrupp baserat på typiska jobbfunktioner:
 
@@ -40,13 +40,32 @@ Kom igång med Workfront genom att lära dig grunderna.
 
 Se [Grundläggande om Adobe Workfront](/help/quicksilver/workfront-basics/workfront-basics.md).
 
+### Arbetshantering
+
+Lär dig hur du konfigurerar och använder Workfront kraftfulla arbetshanteringsprocesser och verktyg.
+
+Se [Hantera arbete](/help/quicksilver/manage-work/manage-work.md)
+
+
 ### Agile i Workfront
 
 Tack vare de flexibla funktionerna i Workfront kan teamen slutföra små, hanterbara arbetsvolymer med en enhetlig gräns.
 
 Se [Agile - översikt](/help/quicksilver/agile/agile-overview.md).
 
-### Textlägesrapportering
+### Arbeta med dokument
+
+Förbättra upplevelsen genom att lägga till dokument i arbetsflödet.
+
+Se [Dokument](/help/quicksilver/documents/documents-overview.md).
+
+### Rapportering
+
+Om du vill visa befintlig information i ett lättläst format och dela den med alla intressenter använder du rapporter och instrumentpaneler.
+
+Se [Rapporter och kontrollpaneler](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+
+#### Textlägesrapportering
 
 Om du inte vet hur du skapar den rapport du behöver i Workfront kan du hitta den lösning du söker med textläge.
 
@@ -58,11 +77,11 @@ Använd arbetsbelastningsutjämnaren som ett alternativ till att schemalägga re
 
 Se [Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Versionsinformation för Workfront
+### Adobe Workfront-mål
 
-Läs mer om nyheterna i Workfront!
+Anpassa er strategi efter ert arbete för att uppnå samstämmighet och framgång genom att använda Adobe Workfront-målen.
 
-Se [Workfront produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Se [Adobe Workfront-mål](/help/quicksilver/workfront-goals/workfront-goals.md).
 
 ## Utvecklare
 
@@ -77,3 +96,15 @@ Se [Grunderna i API](/help/quicksilver/wf-api/general/api-basics.md).
 Du kan visa alla objekt som är tillgängliga via Adobe Workfront API i API Explorer.
 
 Se [Workfront API Explorer på developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).
+
+### Workfront-integreringar
+
+Alla program på ett och samma ställe genom att integrera Workfront med andra system.
+
+Se [Adobe Workfront-integreringar](/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md).
+
+## Versionsinformation för Workfront
+
+Läs mer om nyheterna i Workfront!
+
+Se [Workfront produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
