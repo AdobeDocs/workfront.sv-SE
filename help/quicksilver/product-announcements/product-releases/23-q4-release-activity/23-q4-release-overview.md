@@ -3,9 +3,9 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e31391e854c088ba203a17db81fc04b61a840c21
+source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                                 <p>Production for Boards tidig åtkomst: 24 augusti 2023</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: TBD</p>
+                                <p>Production for fast release: Ej tillämpligt</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
@@ -110,7 +110,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                                 <p>Production for Boards tidig åtkomst: 10 augusti 2023</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                                <p>Production for fast release: Ej tillämpligt</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
@@ -128,7 +128,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                                 <p>Förhandsversion: 3 augusti 2023</p>
                             </li>
                              <li>
-                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                                <p>Production for fast release: Ej tillämpligt</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
