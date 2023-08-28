@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till problem</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -96,7 +96,7 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
    * [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * Du kan uppdatera kopian av den ursprungliga begäran innan du skickar in den igen som en ny begäran.
-* Om följande ändringar inträffar efter att den ursprungliga begäran har skickats kan du inte längre kopiera den och skicka den igen:
+* Om följande ändringar inträffar efter det att den ursprungliga begäran har skickats, kan du inte längre kopiera den och skicka den igen:
 
    * Begärandekön togs bort.
    * Köämnet togs bort.
@@ -118,8 +118,13 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
 ## Kopiera och skicka begäranden
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Begäranden**.
-1. (Villkorligt) Om avsnittet Skickat inte visas som standard klickar du på **Skickat** i den vänstra panelen.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Begäranden**.
+1. (Villkorligt) Om avsnittet Skickat inte visas som standard klickar du på **Skickat** till vänster.
+
+   >[!TIP]
+   >
+   >   Din Workfront- eller gruppadministratör kan anpassa layoutmallen och ta bort områden från huvudmenyn eller den vänstra panelen i din miljö. I så fall kanske de inte är tillgängliga för dig.
+
 1. Leta reda på den begäran som du vill kopiera och skicka som ny, och gör något av följande:
 
    * Markera den och klicka sedan på **Kopiera** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) i det övre vänstra hörnet i listan Skickade begäranden.
@@ -142,7 +147,7 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
 1. (Valfritt) Uppdatera följande information vid behov:
 
-   * **Typ av begäran**: begärandekön där den kopierade begäran sparas. Som standard sparas den kopierade begäran i begärandekön för den ursprungliga begäran.
+   * **Typ av begäran**: den begärandekö där den kopierade begäran sparas. Som standard sparas den kopierade begäran i begärandekön för den ursprungliga begäran.
    * **Ämnesgrupper** och **Köämnen**, om de är markerade. Namnen eller ämnesgrupperna och köämnena är anpassade för din miljö. Som standard sparas den kopierade begäran i ämnesgrupperna och i köämnena i den ursprungliga begäran.
 
      >[!TIP]
@@ -218,7 +223,7 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
-      <td>Standardstatusen för en ny begäran är "Ny". Din Workfront-administratör kan ha ändrat namnet på den här statusen. Du kan också ändra statusen till något annat i den här listrutan.</td> 
+      <td>Standardstatusen för en ny begäran är "Ny". Din Workfront-administratör kan ha ändrat namnet på den här statusen. Du kan också ändra statusen till något annat i den här nedrullningsbara menyn.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Dokument</strong> </td> 

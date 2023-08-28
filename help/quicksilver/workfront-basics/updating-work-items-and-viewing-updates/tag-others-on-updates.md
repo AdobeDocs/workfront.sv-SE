@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Tagga andra för uppdateringar
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>\
 <span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ Du kan tagga användare manuellt i det aktuella uppdateringsavsnittet.
 
 Du kan tagga andra vid uppdateringar på följande sätt:
 
-* **Automatiskt**: När en användare lägger till en kommentar eller ett svar, taggas de automatiskt och läggs till i taggarna för personer eller team i kommentarsrutan.
+* **Automatiskt**: När en användare startar en tråd, lägger till en kommentar eller lägger till ett svar, taggas de automatiskt och läggs till i taggarna för personer eller team i kommentarsrutan. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >När tråden startar i den gamla kommentarsfunktionen taggas inte deltagare i tråden automatiskt.
+
 * **Manuellt**: När du lägger till en användare manuellt i taggområdet i kommentarsrutan.
 
 Du kan också ta bort användare som är taggade av misstag när du redigerar eller svarar på en kommentar.
@@ -213,3 +220,10 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) <span class="preview">i kommentarens övre högra hörn</span>och sedan klicka **Redigera**. Ta bort alla taggade användare och klicka sedan på **Skicka**. Du kan bara redigera en kommentar inom 15 minuter efter att du har skrivit in den. Du kan bara redigera kommentarer som du har lagt till.
+
+   >[!TIP]
+   >
+   >När du använder den äldre kommentarsfunktionen för att lägga till kommentarer och svar, kan de som inte är specifikt taggade inte tas bort manuellt av dem som använder den nya kommentarsfunktionen.
+
+
+

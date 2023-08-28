@@ -7,7 +7,7 @@ description: The [!UICONTROL Portfolio Optimizer] är det verktyg som används f
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 # [!UICONTROL Portfolio Optimizer] översikt
 
 The [!UICONTROL Portfolio Optimizer] är det verktyg som används för projektutvärdering och -jämförelse. Gransknings- och jämförelseprocessen [!UICONTROL Business Case] Värdet för projekt som tilldelas en portfölj är hur en portföljförvaltare kan prioritera projekt och generera det mest värdet för en organisation.
+
+![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 Syftet med [!UICONTROL portfolio optimizer] ska tillhandahålla ett gränssnitt genom vilket en portföljförvaltare, styrkommitté eller produktledning kan se sammanfattande information om varje projekts affärsplan. Projekten kan sedan prioriteras enligt strategiska värden och mål, eller enligt deras övergripande poäng.
 
@@ -41,10 +43,10 @@ Tänk på följande när du arbetar med ekonomi i [!UICONTROL Portfolio Optimize
 
 * Varje projekt får en poäng när deras [!UICONTROL Business Cases] fylls i enligt de kriterier som de matchar i [!UICONTROL Portfolio Optimizer]. Låga eller höga justeringsprojekt får till exempel högre poäng.
 
-   Mer information om hur du beräknar portföljoptimeringspoängen för ett projekt finns i artikeln [Översikt över [!UICONTROL Portfolio Optimizer] Poäng](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+  Mer information om hur du beräknar portföljoptimeringspoängen för ett projekt finns i artikeln [Översikt över [!UICONTROL Portfolio Optimizer] Poäng](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
 * De ekonomiska beräkningarna för [!UICONTROL Portfolio Optimizer] använder [!UICONTROL Budgeted Cost] i [!UICONTROL Business Case] av projektet.
-* Du kan prioritera dina projekt manuellt i [!UICONTROL Portfolio Optimizer], med beaktande av all information om dem. Detta omfattar till exempel ekonomiska data, anpassning till deras styrkort och avkastning.
+* Du kan prioritera projekt manuellt i [!UICONTROL Portfolio Optimizer], med beaktande av all information om dem. Detta omfattar till exempel ekonomiska data, anpassning till deras styrkort och avkastning.
 
 ### De finansiella områdena i [!UICONTROL Portfolio Optimizer] {#the-financial-areas-in-the-portfolio-optimizer}
 
@@ -79,15 +81,15 @@ Följande ekonomiska fält visas i [!UICONTROL Portfolio Optimizer]:
  <tbody> 
   <tr> 
    <td>[!UICONTROL On Time]</td> 
-   <td> <p>Procentandel projekt i portföljen som anses vara [!UICONTROL On Time]. Det här syns från alla flikar i Portfolio.</p> <p>Ett projekt anses vara [!UICONTROL On Time] när projektet <strong>[!UICONTROL Condition]</strong> är <strong>[!UICONTROL On Target]</strong>. <br>Mer information om [!UICONTROL Project Conditions], se artikeln <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över projektvillkor och villkorstyp</a>.</p> <p>The <strong>[!UICONTROL On Time]</strong> procentandelen beräknas med hjälp av följande formel:</p> <p><em>[!UICONTROL On Time Portfolio Percentage] = Antal [!UICONTROL On Time] Projekt/Totalt antal projekt i en [!UICONTROL Current] eller [!UICONTROL Approved] status</em> </p> </td> 
+   <td> <p>Procentandel projekt i portföljen som anses vara [!UICONTROL On Time]. Det här är synligt från alla flikar i Portfolio.</p> <p>Ett projekt anses vara [!UICONTROL On Time] när projektet <strong>[!UICONTROL Condition]</strong> är <strong>[!UICONTROL On Target]</strong>. <br>Mer information om [!UICONTROL Project Conditions], se artikeln <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över projektvillkor och villkorstyp</a>.</p> <p>The <strong>[!UICONTROL On Time]</strong> procentandelen beräknas med hjälp av följande formel:</p> <p><em>[!UICONTROL On Time Portfolio Percentage] = Antal [!UICONTROL On Time] Projekt/Totalt antal projekt i en [!UICONTROL Current] eller [!UICONTROL Approved] status</em> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL On Budget]</td> 
-   <td> <p>Procentandel projekt i portföljen som anses vara [!UICONTROL On Budget]. Detta visas från alla flikar i en [!UICONTROL Portfolio].</p> <p>Projekt är <strong>[!UICONTROL On Budget]</strong> när de inte har överskridit sin fördefinierade budget. <br>Mer information om budgeten för ett projekt finns i artikeln <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Manage] Information inom projektfinansieringsområdet</a>.</p> <p>The [!UICONTROL On Budget] procentandelen beräknas med hjälp av följande formel:</p> <p><em>[!UICONTROL On Budget Portfolio Percentage] = Antal [!UICONTROL On Budget] Projekt/totalt antal projekt </em><em>i en [!UICONTROL Current] eller [!UICONTROL Approved] status</em> </p> </td> 
+   <td> <p>Procentandel projekt i portföljen som anses vara [!UICONTROL On Budget]. Det här är synligt från alla flikar i en [!UICONTROL Portfolio].</p> <p>Projekt är <strong>[!UICONTROL On Budget]</strong> när de inte har överskridit sin fördefinierade budget. <br>Mer information om budgeten för ett projekt finns i artikeln <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Manage] Information inom projektfinansieringsområdet</a>.</p> <p>The [!UICONTROL On Budget] procentandelen beräknas med hjälp av följande formel:</p> <p><em>[!UICONTROL On Budget Portfolio Percentage] = Antal [!UICONTROL On Budget] Projekt/totalt antal projekt </em><em>i en [!UICONTROL Current] eller [!UICONTROL Approved] status</em> </p> </td> 
   </tr> 
   <tr> 
-   <td>avkastning (för portfölj)</td> 
-   <td> <p>The [!UICONTROL Return on Investment] (avkastning) för portföljen beräknas med hänsyn tagen till den totala [!UICONTROL Benefit] i [!UICONTROL Portfolio] och summan av [!UICONTROL Budgeted Costs] av projekten. Det här syns från alla flikar i Portfolio.</p> <p>Portfolio ROI-värdet beräknas med följande formel:</p> <p><em>Portfolio ROI = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100</em> </p> <p>Mer information om hur avkastningen beräknas för ett projekt finns i artikeln <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Beräkna räntabilitet</a> .</p> </td> 
+   <td>Räntabilitet (för portfölj)</td> 
+   <td> <p>The [!UICONTROL Return on Investment] (avkastning) för portföljen beräknas med hänsyn tagen till den totala [!UICONTROL Benefit] i [!UICONTROL Portfolio] och summan av [!UICONTROL Budgeted Costs] av projekten. Det här är synligt från alla flikar i Portfolio.</p> <p>Portfolio ROI-värdet beräknas med följande formel:</p> <p><em>PORTFOLIO ROI = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100</em> </p> <p>Mer information om hur avkastningen beräknas för ett projekt finns i artikeln <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Beräkna räntabilitet</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aligned] eller [!UICONTROL Alignment Score] </td> 
@@ -137,7 +139,7 @@ Följande ekonomiska fält visas i [!UICONTROL Portfolio Optimizer]:
   </tr> 
   <tr> 
    <td>[!UICONTROL Risk] </td> 
-   <td> <p>Summan av alla [!UICONTROL Potential Risk Costs] av alla projekt i portföljen. The [!UICONTROL Potential Risk Cost] för varje projekt listas i [!UICONTROL Risk] kolumn i [!UICONTROL Portfolio Optimizer]. </p> <p>Mer information om hur du beräknar risker för projekt finns i artikeln <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Beräkna potentiella riskkostnader </a>.</p> </td> 
+   <td> <p>Summan av alla [!UICONTROL Potential Risk Costs] av alla projekt i portföljen. The [!UICONTROL Potential Risk Cost] för varje projekt listas i [!UICONTROL Risk] kolumn i [!UICONTROL Portfolio Optimizer]. </p> <p>Mer information om att beräkna risker för projekt finns i artikeln <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Beräkna potentiella riskkostnader </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Benefit]</td> 
@@ -186,7 +188,7 @@ Följande ikoner och alternativ är tillgängliga för [!UICONTROL Portfolio Opt
   <tr> 
    <td> <img src="assets/nwe-undo-redo-icons-optimizer.png"> </td> 
    <td>[!UICONTROL Undo]/ [!UICONTROL Redo] ikoner</td> 
-   <td>Använd de här ikonerna för att avbryta eller göra om de ändringar du har gjort i [!UICONTROL Portfolio Optimizer] innan du sparar.</td> 
+   <td>Använd de här ikonerna om du vill avbryta eller göra om ändringarna i [!UICONTROL Portfolio Optimizer] innan du sparar.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/hide-show-unselected-portfolio-optimizer-142x74.png" alt="hide_show_unselected_portfolio_optimizer.png" style="width: 142;height: 74;"> </td> 
