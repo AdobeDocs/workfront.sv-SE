@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: Adobe Workfront-moduler
+title: Adobe Workfront moduler
 description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten för att automatisera processerna i Workfront. Om du har en Workfront Fusion for Work Automation- och Integration-licens kan du också använda den för att ansluta till program och tjänster från tredje part.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
+source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
 workflow-type: tm+mt
-source-wordcount: '4998'
+source-wordcount: '5038'
 ht-degree: 0%
 
 ---
@@ -55,22 +55,22 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Anslut [!DNL Workfront] till [!DNL Workfront Fusion]
 
-The [!DNL Workfront] I anslutningen används OAuth 2.0 för att ansluta till [!DNL Workfront].
+The [!DNL Workfront] för att ansluta till [!DNL Workfront].
 
-Du kan skapa en anslutning till [!DNL Workfront] direkt inifrån [!DNL Workfront Fusion] -modul.
+Du kan skapa en anslutning till [!DNL Workfront] direkt inifrån ett [!DNL Workfront Fusion] -modul.
 
 1. I alla [!DNL Workfront] programmodul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] box.
 1. Ange namnet på instansen i URL:en. Exempel: `https://<your instance>.my.workfront.com`.
@@ -111,7 +111,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 +++ **[!UICONTROL Watch Events]**
 
-Den här utlösarmodulen kör ett scenario i realtid när objekt av en viss typ läggs till, uppdateras eller tas bort i Workfront
+Denna utlösarmodul kör ett scenario i realtid när objekt av en viss typ läggs till, uppdateras eller tas bort i Workfront
 
 Modulen returnerar alla standardfält som är associerade med posten, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -139,7 +139,7 @@ Modulen returnerar alla standardfält som är associerade med posten, tillsamman
      </tr> 
      <tr> 
       <td>[!UICONTROL State]</td> 
-      <td>Välj om du vill titta på det gamla läget eller det nya läget.<ul><li><p><b>[!UICONTROL New state]</b></p><p>Utlösa ett scenario när posten ändras <b>till</b> ett givet värde.</p><p>Om läget till exempel är inställt på [!UICONTROL New State] och filtret är inställt på [!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In Progress], utlöser webbkroken ett scenario när [!UICONTROL Status] ändringar i [!UICONTROL In Progress]oavsett status. </p></li><li><p><b>[!UICONTROL Old state]</b></p><p>Utlösa ett scenario när posten ändras <b>från</b> ett givet värde.</p><p>Om läget till exempel är inställt på [!UICONTROL Old State] och filtret är inställt på [!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In Progress], utlöser webbkroken ett scenario när en [!UICONTROL Status] som för närvarande [!UICONTROL In Progress] ändras till en annan status. </p></li></ul></td> 
+      <td>Välj om du vill titta på det gamla eller nya läget.<ul><li><p><b>[!UICONTROL New state]</b></p><p>Utlösa ett scenario när posten ändras <b>till</b> ett givet värde.</p><p>Om läget till exempel är inställt på [!UICONTROL New State] och filtret är inställt på [!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In Progress], utlöser webbkroken ett scenario när [!UICONTROL Status] ändringar i [!UICONTROL In Progress]oavsett status. </p></li><li><p><b>[!UICONTROL Old state]</b></p><p>Utlösa ett scenario när posten ändras <b>från</b> ett givet värde.</p><p>Om läget till exempel är inställt på [!UICONTROL Old State] och filtret är inställt på [!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In Progress], utlöser webbkroken ett scenario när en [!UICONTROL Status] som för närvarande [!UICONTROL In Progress] ändras till en annan status. </p></li></ul></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Events filters]</p> </td> 
@@ -166,7 +166,7 @@ Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modu
 
 +++ **[!UICONTROL Watch Field]**
 
-Den här utlösarmodulen kör ett scenario när ett fält som du anger uppdateras. Modulen returnerar både det gamla och det nya värdet för fältet som du anger. Du kan mappa den här informationen i efterföljande moduler i scenariot.
+Den här utlösarmodulen kör ett scenario när ett fält som du anger uppdateras. Modulen returnerar både det gamla och det nya värdet för det fält som du anger. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -307,7 +307,7 @@ Den här åtgärdsmodulen gör någon av följande konverteringar:
 
 +++ **[!UICONTROL Create a record (attaching custom forms)]**
 
-Den här åtgärdsmodulen skapar ett objekt, till exempel ett projekt, en uppgift eller ett problem i [!DNL Workfront]och gör att du kan lägga till ett anpassat formulär i det nya objektet. I modulen kan du välja vilka av objektets fält som är tillgängliga i modulen.
+Den här åtgärdsmodulen skapar ett objekt, t.ex. ett projekt, en uppgift eller ett problem i [!DNL Workfront]och gör att du kan lägga till ett anpassat formulär i det nya objektet. I modulen kan du välja vilka av objektets fält som är tillgängliga i modulen.
 
 Du anger postens ID.
 
@@ -317,7 +317,7 @@ Du kan till exempel använda den här modulen för att skapa en uppgift i [!DNL 
 
 När du konfigurerar den här modulen visas följande fält.
 
-Se till att du anger det minsta antalet inmatningsfält. Om du till exempel vill skapa ett problem måste du ange ett giltigt överordnat projekt-ID i fältet Projekt-ID för att ange var problemet ska finnas i Workfront. Du kan använda mappningspanelen för att mappa den här informationen från en annan modul i ditt scenario, eller ange den manuellt genom att skriva namnet och sedan välja den i listan.
+Se till att du anger det minsta antalet inmatningsfält. Om du till exempel vill skapa ett problem måste du ange ett giltigt överordnat projekt-ID i fältet Projekt-ID för att ange var problemet ska finnas i Workfront. Du kan använda mappningspanelen för att mappa den här informationen från en annan modul i ditt scenario, eller ange den manuellt genom att skriva in namnet och sedan välja den i listan.
 
 <table style="table-layout:auto">
  <col> 
@@ -368,7 +368,7 @@ Du kan till exempel använda den här modulen för att skapa en uppgift i [!DNL 
 
 När du konfigurerar den här modulen visas följande fält.
 
-Se till att du anger det minsta antalet inmatningsfält. Om du till exempel vill skapa ett problem måste du ange ett giltigt överordnat projekt-ID i fältet Projekt-ID för att ange var problemet ska finnas i Workfront. Du kan använda mappningspanelen för att mappa den här informationen från en annan modul i ditt scenario, eller ange den manuellt genom att skriva namnet och sedan välja den i listan.
+Se till att du anger det minsta antalet inmatningsfält. Om du till exempel vill skapa ett problem måste du ange ett giltigt överordnat projekt-ID i fältet Projekt-ID för att ange var problemet ska finnas i Workfront. Du kan använda mappningspanelen för att mappa den här informationen från en annan modul i ditt scenario, eller ange den manuellt genom att skriva in namnet och sedan välja den i listan.
 
 <table style="table-layout:auto">
  <col> 
@@ -409,8 +409,8 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
 
 Modulen returnerar följande information:
 
-* **[!UICONTROL Status Code]** (tal): Detta anger om HTTP-begäran lyckades eller misslyckades. Det här är standardkoder som du kan söka efter på Internet.
-* **[!UICONTROL Headers]** (objekt): En mer detaljerad kontext för den svars-/statuskod som inte är relaterad till utdatatexten. Alla sidhuvuden som visas i en svarshuvud är inte svarshuvuden, så en del kanske inte är användbara för dig.
+* **[!UICONTROL Status Code]** (nummer): Detta anger om HTTP-begäran lyckades eller misslyckades. Det här är standardkoder som du kan söka efter på Internet.
+* **[!UICONTROL Headers]** (objekt): En mer detaljerad kontext för den svars-/statuskod som inte relaterar till utdatatexten. Alla sidhuvuden som visas i en svarshuvud är inte svarshuvuden, så en del kanske inte är användbara för dig.
 
   Svarshuvuden beror på den HTTP-begäran du valde när du konfigurerade modulen.
 
@@ -430,11 +430,11 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Ange en sökväg som är relativ till<code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
+   <td> <p>Ange en sökväg i förhållande till<code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL API Version]</td> 
-   <td>Välj version av [!DNL Workfront] API som du vill att modulen ska använda.</td> 
+   <td>Välj version av [!DNL Workfront] API som du vill använda modulen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
@@ -442,11 +442,11 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt. Detta avgör begärans innehållstyp.</p> <p>Exempel:<code> {"Content-type":"application/json"}</code></p> <p>Obs! Om du får felmeddelanden och det är svårt att fastställa deras ursprung bör du överväga att ändra rubrikerna baserat på [!DNL Workfront] dokumentation. Om ditt anpassade API-anrop returnerar ett 422 HTTP-begärandefel kan du försöka med att använda en <code>"Content-Type":"text/plain"</code> header.</p> </td> 
+   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt. Detta avgör begärans innehållstyp.</p> <p>Exempel:<code> {"Content-type":"application/json"}</code></p> <p>Obs! Om du får felmeddelanden och det är svårt att fastställa deras ursprung kan du ändra rubrikerna baserat på [!DNL Workfront] dokumentation. Om ditt anpassade API-anrop returnerar ett 422 HTTP-begärandefel kan du försöka med att använda en <code>"Content-Type":"text/plain"</code> header.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Lägg till frågan för API-anropet i form av ett standard-JSON-objekt.</p> <p>Exempel: <code>{"name":"something-urgent"}</code></p> <p>Tips: Vi rekommenderar att du skickar information via JSON-brödtexten i stället för som frågeparametrar.</p> </td> 
+   <td> <p>Lägg till frågan för API-anropet i form av ett standard-JSON-objekt.</p> <p>Exempel: <code>{"name":"something-urgent"}</code></p> <p>Tips! Vi rekommenderar att du skickar information via JSON-brödtexten i stället för som frågeparametrar.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
@@ -464,7 +464,7 @@ Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modu
 
 +++ **[!UICONTROL Delete Record]**
 
-Den här åtgärdsmodulen tar bort ett objekt, t.ex. ett projekt, en uppgift eller ett problem i Workfront.
+Den här åtgärdsmodulen tar bort ett objekt, till exempel ett projekt, en uppgift eller ett problem i Workfront.
 
 Du anger postens ID.
 
@@ -497,11 +497,19 @@ När du konfigurerar den här modulen visas följande fält.
 
 Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
+>[!NOTE]
+>
+>Vi rekommenderar följande scenariokonfiguration för att undvika möjligheten att poster inte tas bort på grund av asynkrona åtgärder.
+>
+>1. Ta bort posten synkront.
+>1. Lägg till felhantering i modulen Ta bort post för att ignorera felet som orsakas av timeout på 40 sekunder.
+
+
 +++
 
 +++ **[!UICONTROL Download Document]**
 
-Den här åtgärdsmodulen hämtar ett dokument från Workfront.
+Denna åtgärdsmodul hämtar ett dokument från Workfront.
 
 Du anger postens ID.
 
@@ -548,9 +556,9 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Välj den åtgärd som du vill att modulen ska utföra.</p> <p>Du kan behöva fylla i ytterligare fält, beroende på [!UICONTROL Record Type] och [!UICONTROL Action] du väljer. Vissa kombinationer av dessa två inställningar kan endast kräva ett post-ID, medan andra (till exempel Projekt för <strong>[!UICONTROL Record Type]</strong> och [!UICONTROL Attach Template] för <strong>[!UICONTROL Action]</strong>) kräver ytterligare information (t.ex. ett objekt-ID och ett mall-ID).</p> <p>Mer information om enskilda fält finns i <a href="http://developer.workfront.com/">Workfront dokumentation för utvecklare</a>. </p> 
+   <td> <p>Välj den åtgärd som du vill att modulen ska utföra.</p> <p>Du kan behöva fylla i ytterligare fält, beroende på [!UICONTROL Record Type] och [!UICONTROL Action] du väljer. Vissa kombinationer av dessa två inställningar kan endast kräva ett post-ID, medan andra (till exempel Projekt för <strong>[!UICONTROL Record Type]</strong> och [!UICONTROL Attach Template] för <strong>[!UICONTROL Action]</strong>) kräver ytterligare information (till exempel ett objekt-ID och ett mall-ID).</p> <p>Mer information om enskilda fält finns i <a href="http://developer.workfront.com/">Dokumentation för Workfront-utvecklare</a>. </p> 
     <ol> 
-     <li value="1"> <p>Välj posttyp i den vänstra navigeringen på [!DNL Workfront] utvecklardokumentationssida. Följande typer har egna sidor:</p> 
+     <li value="1"> <p>Välj posttyp i den vänstra navigeringen på sidan [!DNL Workfront] utvecklardokumentationssida. Följande typer har egna sidor:</p> 
       <ul> 
        <li> <p>[!UICONTROL Projects]</p> </li> 
        <li> <p>[!UICONTROL Tasks]</p> </li> 
@@ -560,7 +568,7 @@ När du konfigurerar den här modulen visas följande fält.
       </ul> <p>För alla andra posttyper väljer du <b>[!UICONTROL Other objects and endpoints]</b>och leta reda på posttypen på de alfabetiskt sorterade sidorna.</p> </li> 
      <li value="2"> <p>På sidan med rätt posttyp söker du efter åtgärden (Ctrl-F eller Cmd-F).</p> </li> 
      <li value="3"> <p>Visa beskrivningar för tillgängliga fält under den valda åtgärden.</p> </li> 
-    </ol> <p>Obs!  <p>När du skapar ett korrektur via [!DNL Workfront] [!UICONTROL Misc Action] är det bästa sättet att skapa ett korrektur utan avancerade alternativ och sedan uppdatera korrekturet med [!DNL Workfront Proof] SOAP API.</p> <p>Mer information om hur du skapar ett korrektur med [!DNL Workfront] API (som den här modulen använder), se <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Lägg till avancerade korrekturalternativ när du skapar ett korrektur via [!DNL Adobe Workfront] API</a></p> </p> </td> 
+    </ol> <p>Obs!  <p>När du skapar ett korrektur via [!DNL Workfront] [!UICONTROL Misc Action] är det bästa sättet att skapa ett korrektur utan några avancerade alternativ och sedan uppdatera korrekturet med [!DNL Workfront Proof] SOAP API.</p> <p>Mer information om hur du skapar ett korrektur med [!DNL Workfront] API (som den här modulen använder), se <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Lägg till avancerade korrekturalternativ när du skapar ett korrektur via [!DNL Adobe Workfront] API</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
@@ -672,7 +680,7 @@ Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modu
 
 +++ **[!UICONTROL Upload Document]**
 
-Den här åtgärdsmodulen överför ett dokument till en [!DNL Workfront] -objekt, till exempel ett projekt, en uppgift eller ett problem.
+Den här åtgärdsmodulen överför ett dokument till [!DNL Workfront] -objekt, till exempel ett projekt, en uppgift eller ett problem.
 
 Du anger platsen för dokumentet, filen som du vill överföra och ett valfritt nytt namn för filen.
 
@@ -753,7 +761,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 +++ **[!UICONTROL Search]**
 
-Den här sökmodulen söker efter poster i ett objekt i [!DNL Workfront] som matchar den sökfråga du anger.
+Sökmodulen söker efter poster i ett objekt i [!DNL Workfront] som matchar den sökfråga du anger.
 
 Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -773,7 +781,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Result Set]</td> 
-   <td>Välj ett alternativ för att ange om du vill att modulen ska få det första resultatet som matchar sökvillkoren eller alla resultat som matchar det.</td> 
+   <td>Välj ett alternativ för att ange om du vill att modulen ska få det första resultatet som matchar dina sökvillkor eller alla resultat som matchar det.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximal]</td> 
@@ -1677,7 +1685,7 @@ Vi rekommenderar att du kontrollerar att det här fungerar som du tänkt dig.
 
 The [!DNL Workfront] [!UICONTROL Watch Events] modulen utlöser scenarier baserat på en webkrok som skapar en händelseprenumeration i [!DNL Workfront] API. Händelseprenumerationen är en uppsättning data som avgör vilka händelser som skickas till webbkroken. Om du till exempel skapar en [!UICONTROL Watch Events] som tittar efter problem skickar evenemangsprenumerationen endast händelser som är relaterade till problem.
 
-Genom att använda händelseprenumerationsfilter kan Fusion-användare skapa händelseprenumerationer som passar bättre för deras användningsfall. Du kan t.ex. skapa en händelseprenumeration i [!DNL Workfront] API för att skicka endast problem som finns i ett specifikt projekt till webbhoven, vilket säkerställer att [!UICONTROL Watch Events] -modulen aktiveras bara för problem i det projektet. Möjligheten att skapa smalare utlösare förbättrar scenariodesignen genom att minska antalet irrelevanta utlösare.
+Genom att använda händelseprenumerationsfilter kan Fusion-användare skapa händelseprenumerationer som passar bättre för deras användningsfall. Du kan t.ex. skapa en händelseprenumeration i [!DNL Workfront] API för att skicka endast problem som finns i ett specifikt projekt till webbhoven, vilket säkerställer att [!UICONTROL Watch Events] -modulen kommer endast att aktiveras för problem i det projektet. Möjligheten att skapa smalare utlösare förbättrar scenariodesignen genom att minska antalet irrelevanta utlösare.
 
 Detta skiljer sig från hur du ställer in ett filter i [!DNL Workfront Fusion] scenario. Utan ett händelseprenumerationsfilter får din webkrok alla händelser som hör till den objekttyp du väljer. De flesta av dessa händelser skulle vara irrelevanta för scenariot och måste filtreras bort innan scenariot kan fortsätta.
 
