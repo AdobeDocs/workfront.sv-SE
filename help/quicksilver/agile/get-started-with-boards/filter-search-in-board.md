@@ -6,16 +6,16 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Filtrera och söka på en anslagstavla
 
-Du kan filtrera en rityta så att den visas:
+Du kan filtrera en anslagstavla så att den visas:
 
 * Kort som tilldelats vissa personer
 * Kort med vissa taggar
@@ -28,9 +28,9 @@ När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går int
 
 Genom att söka kan du även hitta ett visst kort på kortet.
 
-När filter används visas en indikator på ritbordet ![Filter använt på bräde](assets/boards-filterapplied-30x30.png). Klicka **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på **[!UICONTROL Hide filters]** för att stänga filterpanelen.
+När filter används visas en indikator på ritbordet ![Filter använt på bräde](assets/boards-filterapplied-30x30.png). Klicka **[!UICONTROL Clear All]** om du vill ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
 
-![Panelen Filter](assets/boards-all-filters-collapsed-1022.png)
+![Panelen Filter](assets/boards-all-filters-collapsed-0823.png)
 
 ## Åtkomstkrav
 
@@ -51,12 +51,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Filtrera en anslagstavla efter tilldelningar
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Members] och markera den eller de personer vars kort du vill se. Du kan även visa kort som inte har tilldelats.
 
    ![Filtrera efter medlem](assets/boards-filter-by-assignees-0822.png)
