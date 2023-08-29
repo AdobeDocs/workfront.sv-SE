@@ -5,16 +5,16 @@ title: Integreringar med Adobe Experience Manager Assets
 description: Du kan koppla ditt arbete till följande Adobe Experience Manager Assets Integrations.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
+source-git-commit: 69f1ee95754207ea9e6bcaf8ee2d270a15c9fc6b
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # Konfigurera [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 
-Du kan koppla ditt arbete till ditt innehåll i [!DNL Experience Manager Assets]&#x200B;:
+Du kan koppla ditt arbete till innehållet i [!DNL Experience Manager Assets]&#x200B;:
 
 * Överför resurser och metadata från [!DNL Adobe Workfront] till [!DNL Experience Manager Assets]&#x200B;
 * Länka resurser från [!DNL Experience Manager Assets] till dina projekt och uppgifter i [!DNL Workfront&#x200B;]
@@ -77,16 +77,17 @@ Innan du börjar,
 
 ## Ställ in integreringsinformation
 
-1. Klicka på **[!UICONTROL Main Menu]** ikonen i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Setup]** .
+1. Klicka på **[!UICONTROL Main Menu]** i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Setup]** .
 1. Välj **[!UICONTROL Documents]** i den vänstra panelen väljer **[!UICONTROL [!DNL Experience Manager] Integration]**.
+
    >[!NOTE]
    >
    >Det här konfigurationsområdet visas bara om [!DNL Workfront] miljö ingår under en [!DNL Adobe Admin Console].
 
 1. Välj **[!UICONTROL Add [!DNL Experience Manager] Integration]**.
 1. I **[!UICONTROL Name]** anger du det namn som du vill att användare ska se när de interagerar med integreringen i Workfront och Experience Manager Assets.
-1. I **[!UICONTROL Navigation URL]** fyller systemet automatiskt i navigerings-URL:en. Den här skrivskyddade URL:en används för att länka till din organisations [!DNL Experience Manager] -instans från [!UICONTROL Main Menu] för snabb åtkomst.
-1. Välj en databas på menyn **[!UICONTROL [!DNL Experience Manager] Assets repository]** nedrullningsbar meny. Systemet fyller automatiskt i alla [!DNL Experience Manager] databaser som är associerade med det organisations-ID som din användarprofil är tilldelad till.
+1. I **[!UICONTROL Navigation URL]** fyller systemet automatiskt i navigerings-URL:en. Denna skrivskyddade URL används för att länka till organisationens [!DNL Experience Manager] -instans från [!UICONTROL Main Menu] för snabb åtkomst.
+1. Välj en databas på menyn **[!UICONTROL [!DNL Experience Manager] Assets repository]** listruta. Systemet fyller automatiskt i [!DNL Experience Manager] databaser som är associerade med det organisations-ID som din användarprofil är tilldelad till.
    ![välj Experience Manager-databas](assets/setup-information.png)
 
 1. Klicka **[!UICONTROL Save]** eller gå vidare till [Konfigurera metadata (valfritt)](#set-up-metadata-optional) i den här artikeln.
@@ -101,15 +102,15 @@ Du kan mappa [!DNL Workfront] objektdata till objektmediefält i [!DNL Experienc
 
 >[!IMPORTANT]
 >
->Du kan bara mappa metadata i en riktning: från [!DNL Workfront] till [!DNL Experience Manager]. Metadata för dokument som är länkade till [!DNL Workfront] från [!DNL Experience Manager] kan inte överföras till [!DNL Workfront].
+>Du kan bara mappa metadata i en riktning: från [!DNL Workfront] till [!DNL Experience Manager]. Metadata för dokument länkade till [!DNL Workfront] från [!DNL Experience Manager] kan inte överföras till [!DNL Workfront].
 
 ### Konfigurera metadatafält
 
 Innan du börjar mappa metadatafält måste du konfigurera metadatafält i både Workfront och Experience Manager Assets.
 
-Så här konfigurerar du metadatafält:
+Konfigurera metadatafält:
 
-1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront] och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] som förklaras i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront] och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
 1. Konfigurera anpassade formulärfält i Workfront. [!DNL Workfront] har många inbyggda anpassade fält som du kan använda. Du kan även skapa egna anpassade fält enligt anvisningarna i [Skapa eller redigera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
@@ -158,7 +159,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 Du kan mappa både inbyggda och anpassade Workfront-fält till Experience Manager Assets. Följande fältvärden måste matcha i både fall och stavning mellan Workfront och Experience Manager Assets:
 
 * Nedrullningsbara fält
-* Flervalsfält
+* Markera flera fält
 
 >[!TIP]
 >
@@ -194,9 +195,9 @@ När användare skapar en länkad mapp i ett projekt mappas associerade projekt-
 
 >[!NOTE]
 >
->Den här integreringen stöder inte anpassade metadata från [!DNL Adobe Experience Manager].
+>Integrationen stöder inte anpassade metadata från [!DNL Adobe Experience Manager].
 
-Så här mappar du metadata för mappar:
+Så här mappar du metadata:
 
 1. Välj **[!UICONTROL Folders]** ovanför metadatatabellen.
 1. I **[!UICONTROL [!DNL Workfront] field]** väljer du ett inbyggt eller anpassat Workfront-fält.
@@ -214,6 +215,8 @@ Så här mappar du metadata för mappar:
 ### Synkronisering av objektmetadata
 
 An [!DNL Experience Manager] fält som mappas till [!DNL Workfront] portfölj, program, projekt, uppgift, utgåva och dokumentfält uppdateras automatiskt när fältet ändras i [!DNL Workfront].
+
+När det här alternativet är aktiverat innehåller alla resurser som har överförts till Adobe Experience Manager ett kort på sidan Dokumentinformation som visar en realtidsvy av dokumentets Adobe Experience Manager-metadata.
 
 >[!IMPORTANT]
 >
@@ -242,7 +245,7 @@ De standardvärden för arbetsflöde som du anger i integreringen kan åsidosät
 
 ## Konfigurera länkade mappar (valfritt)
 
-Du kan tillåta användare att skapa mappar som är länkade till [!DNL Experience Manager] när du befinner dig i [!DNL Workfront] projekt. När en mapp är länkad visas alla resurser som läggs till i mappen automatiskt i båda [!DNL Workfront] och [!DNL Experience Manager]. När en resurs läggs till i den länkade mappen i [!DNL Workfront] för första gången skickas resursens metadata till [!DNL Experience Manager Assets].
+Du kan tillåta användare att skapa mappar länkade till [!DNL Experience Manager] när du befinner dig i [!DNL Workfront] projekt. När en mapp är länkad visas alla resurser som läggs till i mappen automatiskt i båda [!DNL Workfront] och [!DNL Experience Manager]. När en resurs läggs till i den länkade mappen i [!DNL Workfront] för första gången skickas resursens metadata till [!DNL Experience Manager Assets].
 
 I stegen nedan anger du var du vill att de länkade mapparna ska skapas. Varje integrering kan bara ha en plats för alla länkade mappar.
 
