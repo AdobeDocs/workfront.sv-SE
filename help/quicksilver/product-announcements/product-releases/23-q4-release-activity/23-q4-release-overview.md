@@ -3,9 +3,9 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Förbättringar av användartilldelningar på kort och kort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Nu finns det förbättringar som ger större flexibilitet när du lägger till användare på kort och kort i Adobe Workfront Boards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Förbättringar av användartilldelningar på kort och kort</a></p><p>Nu finns det förbättringar som ger större flexibilitet när du lägger till användare på kort och kort i Adobe Workfront Boards.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -127,6 +127,9 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                             <li>
                                 <p>Förhandsversion: 3 augusti 2023</p>
                             </li>
+                            <li>
+                                <p>Produktion för tidig åtkomst till styrelser: Ej tillämpligt</p>
+                            </li>
                              <li>
                                 <p>Production for fast release: Ej tillämpligt</p>
                             </li>
@@ -157,7 +160,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Förbättrade upplevelser när du skickar dokument till SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p><p>Vi har gjort några ändringar som gör det enklare att hitta mappar när du skickar dokument till dina SharePoint-mappar (GraphAPI)</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Förbättrade upplevelser när du skickar dokument till SharePoint (GraphAPI)</a></p><p>Vi har gjort några ändringar som gör det enklare att hitta mappar när du skickar dokument till dina SharePoint-mappar (GraphAPI)</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -165,17 +168,14 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                                 <p>Förhandsversion: 24 augusti<br /></p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: TBD</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                                <p><span class="preview">Produktion för alla kunder: 31 augusti 2023</span>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Uppgraderingar för att dra och släppa för dokumentintegreringar</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p><p>Vi har gjort några förbättringar för att lägga till tydlighet och ta bort användarfel när en fil dras och släpps till en länkad mapp.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Uppgraderingar för att dra och släppa för dokumentintegreringar</a></p><p>Vi har gjort några förbättringar för att lägga till tydlighet och ta bort användarfel när en fil dras och släpps till en länkad mapp.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -183,10 +183,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                                 <p>Förhandsversion: 24 augusti<br /></p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: TBD</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                                <p><span class="preview">Produktion för alla kunder: 31 augusti 2023</span>
                             </li>
                         </ul>
                     </td>
@@ -213,8 +210,10 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Uppdaterad design när en ny utgåva läggs till i ett projekt</a> </p><p>Den här uppdateringen har annonserats med version 23.3.
-                        <p>Vi har uppdaterat rutan Nytt problem som visas när du skickar in en ny utgåva till ett projekt. Nu matchar gränssnittet rutan Ny begäran som visas när en ny begäran skickas till en begärandekö.  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Uppdaterad design när en ny utgåva läggs till i ett projekt</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Den här uppdateringen har annonserats med version 23.3.</p>
+                        <p>Vi har uppdaterat rutan Nytt problem som visas när du skickar in en ny utgåva till ett projekt. Nu matchar gränssnittet rutan Ny begäran som visas när en ny begäran skickas till en begärandekö.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -232,7 +231,8 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamisk omberäkning av beräknade fält i formulär</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamisk omberäkning av beräknade fält i formulär</a></p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Beräknade fält i ett formulär som är kopplat till ett objekt omberäknas nu dynamiskt i realtid när beroende värden på något formulär på sidan ändras. På så sätt kan du se de uppdaterade resultaten utan att spara formuläret.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -252,6 +252,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Ange planerade timmar för återkommande underordnade uppgifter med enkel varaktighet utan tilldelningar</a></p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Vi har gjort en ändring i hur Planerade timmar tilldelas återkommande uppgifter utan tilldelningar och med en typ av enkel varaktighet. När du nu anger Planerade timmar för en ny återkommande aktivitet med enkel varaktighetstyp och utan tilldelningar, tilldelas även timmarna till de enskilda perioderna. Före den här ändringen sparades inte timmarna för enskilda återkommande aktiviteter när de överordnade aktiviteterna inte tilldelades.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -349,6 +350,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Förbättringar av kommentarupplevelsen</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Förbättringar av uppdateringsavsnittet görs tillgängliga inom tidsramen för den fjärde utgåvan av kvartal 2023 för betaversionen av kommentarsfunktionen. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön för alla kunder med den fjärde utgåvan av kvartal 2023 (oktober 2023).</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -368,6 +370,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nya betaversioner av Canvas Dashboards</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Förbättringar av arbetsytans kontrollpaneler görs tillgängliga inom tidsramen för den fjärde utgåvan av kvartal 2023 som en del av den pågående betaversionen. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön för alla kunder med den fjärde utgåvan av kvartal 2023 (oktober 2023).</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -387,6 +390,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nya filteralternativ för Nytt hem</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Nya filteralternativ är nu tillgängliga för widgeten Mitt arbete i Nytt hem. Alternativen är filter för objekttyper (uppgifter, problem och begäranden) och status (inte redo, klar att börja, arbeta med och slutförd).</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -425,6 +429,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Knappen Ny startsida har tagits bort för konton som har inaktiverat Ny startsida</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Knappen Testa ny startsida finns inte längre för konton där Ny startsida har inaktiverats. Nytt hem måste aktiveras på nytt av systemadministratören innan enskilda användare kan använda knappen för att prova Nytt hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -444,6 +449,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Växla till Ny standardwidget för hem</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Widgeten Att göra, som kräver behörighet att skapa uppgifter, finns nu bara i standardwidgetuppsättningen för användare med licenstyperna Standard, Plan och Work. Dessutom har widgeten automatiskt tagits bort från startsidorna för användare med alla andra licenstyper.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
