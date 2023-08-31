@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
+source-git-commit: 2a5e793077e520e34fdbb9187ba17f1e1bde43e9
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 >[!IMPORTANT]
 >
@@ -93,12 +91,12 @@ Anvisningar om hur du länkar dokument från SharePoint via nya [!DNL SharePoint
 Skicka ett dokument till SharePoint:
 
 1. Klicka på **Skicka till** icon ![Skicka till](assets/send-to-icon.png) och väljer SharePoint (Graph API).
-1. <span class="preview">(Valfritt) Sök i sökfältet efter platsen eller mappen dit du vill skicka dokumentet.</span>
+1. (Valfritt) Sök i sökfältet efter platsen eller mappen dit du vill skicka dokumentet.
 1. Markera platsen eller mappen i listan.
 
-   * <span class="preview">Platserna är markerade med ![Ikon för webbplats](assets/site-icon.png).</span>
+   * Platserna är markerade med ![Ikon för webbplats](assets/site-icon.png).
 
-   * <span class="preview">Mappar är markerade med ![Mappikon](assets/folder-icon.png).</span>
+   * Mappar är markerade med ![Mappikon](assets/folder-icon.png).
 
    * Filerna är inte markerade med en ikon.
 
