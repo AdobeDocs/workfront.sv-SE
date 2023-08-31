@@ -7,9 +7,9 @@ description: Adobe Workfront for Experience Manager Assets Essentials
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -24,4 +24,5 @@ ht-degree: 0%
 * [Visa eller hämta en länkad resurs från Experience Manager Assets eller Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [Skapa en mapp länkad till Experience Manager Assets eller Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [Använd arbetsflöden i integreringen med Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+* [Bryt länken till eller ta bort resurser och mappar från Experience Manager Assets eller Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
 * [Felsöka Adobe Experience Manager-integreringen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
