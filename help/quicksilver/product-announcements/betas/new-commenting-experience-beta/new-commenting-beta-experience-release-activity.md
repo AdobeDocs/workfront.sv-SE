@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
 
 # Ny aktivitet för att frisläppa kommentarer
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ Vi har uppdaterat tidsstämpelformatet för användarens kommentarer på fliken 
 
 Ändringarna påverkar inte systemuppdateringar på fliken Systemaktivitet.
 
-Förhandsgranskning och produktion: 24 augusti 2023
+Förhandsgranska och producera för alla kunder: 24 augusti 2023
 
 ### Vecka 14 augusti 2023
 
 [Se en videodemonstration av alla funktioner som släpptes under veckan 14 augusti 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Ny kommentarfunktion för ytterligare objekt
+
+[!BADGE Producerar för snabb lansering]{type=Positive}
 
 Den nya kommentarsfunktionen kommer att vara tillgänglig för följande objekt, kort efter version 23.3 till Production: malluppgifter, mallar, tidrapporter, team, användare, program, portfolior.
 
@@ -98,6 +102,8 @@ Produktionsrelease för snabb release: Med version 23.8 (31 augusti 2023)
 Produktionsrelease för alla kunder: Med version 23.10 (oktober 2023)
 
 #### Ny designuppdatering för den nya kommentarströmmen
+
+[!BADGE Producerar för snabb lansering]{type=Positive}
 
 Vi har omdesignat den nya kommentarströmmen för att ge den ett mer uppdaterat utseende och känsla. Några förbättringar är:
 
@@ -122,6 +128,8 @@ Production for fast release: Med version 23.8 (31 augusti 2023)
 Produktion för kvartalsvis lansering: Med version 23.10 (oktober 2023)
 
 #### Den nya kommentarsupplevelsen är standardupplevelsen för projekt, uppgifter, utgåvor och dokument
+
+[!BADGE Producerar för snabb lansering]{type=Positive}
 
 Vi gör den nya kommentarsupplevelsen till standardupplevelsen för följande objekt: projekt, uppgifter, problem och dokument.  Den gamla kommentarfunktionen förblir ett alternativ när du öppnar objekten.
 
