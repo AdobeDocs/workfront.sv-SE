@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1777'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * [[!UICONTROL Actual Dates]](#actual-dates)
 * [[!UICONTROL Delegation]](#delegation)
 
-   <!--
+  <!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
   -->
 
@@ -78,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start Date on New Tasks]</td> 
-   <td> <p>Anger standardstartdatumet för nya uppgifter för projektledare. Startdatumet för nya aktiviteter kan antingen vara det planerade startdatumet för projektet eller den dag då aktiviteten skapas.</p> </td> 
+   <td> <p>Bestämmer standardstartdatumet för nya uppgifter för projektledare. Startdatumet för nya aktiviteter kan antingen vara det planerade startdatumet för projektet eller den dag då aktiviteten skapas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
@@ -103,7 +103,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically update Resolvable Issue status when the status of the Resolving Object changes]</td> 
-   <td> <p>När någon konverterar ett problem till ett projekt eller en uppgift blir både det ursprungliga problemet och det konverterade projektet eller den konverterade aktiviteten objekt som löses. Med den här inställningen kan du korrelera upplösningen för det ursprungliga problemet med upplösningen för dess objekt som kan lösas. Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över upplösta och upplösta objekt </a>.</p> <p>För att den här inställningen ska ha någon effekt kan du välja att <strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong> måste väljas.</p> 
+   <td> <p>När någon konverterar ett problem till ett projekt eller en uppgift blir både det ursprungliga problemet och det konverterade projektet eller den konverterade aktiviteten objekt som löses. Med den här inställningen kan du korrelera upplösningen för det ursprungliga problemet med upplösningen för dess objekt som kan lösas. Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</p> <p>För att den här inställningen ska ha någon effekt kan du välja att <strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong> måste väljas.</p> 
     <ul> 
      <li>När den här inställningen är aktiverad kan du skapa anpassade statusvärden med samma nyckel för både utgåvor, projekt och uppgifter. När projektet eller aktiviteten (som ett upplösningsbart objekt) blir en anpassad status, återspeglas ändringen även i problemets status. Statusnyckeln måste vara densamma för utleverans- och projekt- eller aktivitetsstatus.</li> 
      <li>När den här inställningen är inaktiverad ställs objektstatus automatiskt in på standardstatus i stället för de anpassade. Mer information om standardstatusvärdena finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Åtkomst till listan över status för systemproblem</a>.</li> 
@@ -118,8 +118,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till utleveranser</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Ger den primära kontakten (den som skapat problemet) åtkomst till uppgiften för att granska uppgiften, göra uppdateringar och hålla dig informerad om dess förlopp</li> 
-     <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Tillåter den användare som konverterar problemet att ändra dessa alternativ under konverteringen av ett ärende till en aktivitet.</p> <!--
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Ger den primära kontakten (den som skapat problemet) åtkomst till uppgiften så att den kan granska den, hålla sig informerad om förloppet och göra kommentarer i uppdateringsavsnittet för uppgiften.</li> 
+     <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Användare som konverterar problemet kan ändra dessa alternativ under konverteringen av ett problem till en aktivitet.</p> <!--
        Screenshot when possible</p>
       --> </li> 
     </ul> </td> 
@@ -128,21 +128,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">[!UICONTROL When converting an issue to a project]</td> 
    <td> <p>Inställningarna i det här avsnittet avgör vad som händer under konverteringsprocessen från problem till projekt:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the project]</strong>: När du konverterar ett problem förblir det synligt som ett problem tills projektet är klart. Status för utgåvan ändras automatiskt till [!UICONTROL Closed] när projektet har slutförts. När detta är avmarkerat tas problemet bort. </p> <p><b>ANMÄRKNING</b>:  <p>Användare som saknar åtkomst eller behörighet att ta bort problem kan inte ta bort problemet eftersom de konverterar det, oavsett status för den här inställningen. Mer information om åtkomst och behörigheter till problem finns i:</p> 
+     <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the project]</strong>: När du konverterar problemet förblir det synligt som ett problem tills projektet är klart. Status för utgåvan ändras automatiskt till [!UICONTROL Closed] när projektet har slutförts. När detta är avmarkerat tas problemet bort. </p> <p><b>ANMÄRKNING</b>:  <p>Användare som saknar åtkomst eller behörighet att ta bort problem kan inte ta bort problemet eftersom de konverterar det, oavsett status för den här inställningen. Mer information om åtkomst och behörigheter till problem finns i:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till utleveranser</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Ger den primära kontaktpersonen (den som skapat problemet) tillgång till projektet för att granska projektet, göra uppdateringar och hålla sig informerad om projektets förlopp.</li> 
-     <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Låter användaren som konverterar problemet ändra alternativen i listan under konverteringen av en utgåva till ett projekt.</li> 
-    </ul> </td> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Ger den primära kontaktpersonen (den som skapat problemet) åtkomst till projektet för att granska projektet, hålla sig informerad om projektets förlopp och kommentera uppdateringsavsnittet i projektet.</li> 
+     <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Användare som konverterar problemet kan ändra de listade alternativen under konverteringen av en utgåva till ett projekt.</li> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Deletion] {#deletion}
 
-**[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Här kan du avgöra om du tillåter att uppgifter tas bort eller om frågor där timmar loggas tas bort. Det här alternativet är markerat som standard.
+**[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Här kan du bestämma om du vill tillåta borttagning av uppgifter eller problem där timmar loggas. Det här alternativet är markerat som standard.
 
 >[!TIP]
 >
@@ -150,9 +150,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * När det är markerat får du en informativ varning när du tar bort en uppgift eller ett problem. Varningen påminner dig om att om aktiviteten eller problemet har loggat timmar kommer de antingen att flyttas till projektet eller tas bort. Du kan konfigurera om timmarna ska tas bort eller flyttas till projektet i [!UICONTROL Timesheet & Hours Preferences] området på [!UICONTROL Setup]. När du har bekräftat att du har sett varningen tas uppgiften eller problemet bort. Mer information om hur du konfigurerar inställningar för tidrapport och timmar finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   >[!TIP]
-   >
-   >När du tar bort ett projekt med uppgifter och ärenden som har loggade timmar, tas de loggade timmarna bort eller så bevaras de enligt inställningarna i [!UICONTROL Timesheet & Hours Preferences] område på [!UICONTROL Setup]. Varningsmeddelandet visas inte när du tar bort ett projekt.
+  >[!TIP]
+  >
+  >När du tar bort ett projekt med uppgifter och ärenden som har loggade timmar, tas de loggade timmarna bort eller så bevaras de enligt inställningarna i [!UICONTROL Timesheet & Hours Preferences] område på [!UICONTROL Setup]. Varningsmeddelandet visas inte när du tar bort ett projekt.
 
 * När du avmarkerar det här alternativet får du en varning när du tar bort en uppgift eller ett problem med loggade timmar, eller när du tar bort ett projekt med timmar som loggats för dess uppgifter eller problem. Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar tas bort. Det går inte att ta bort aktiviteter, utgåvor eller projekt som har timmar loggade för uppgifter och utgåvor.
 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL When someone is assigned to a task]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definierar standardbehörigheten som en användare har för uppgiften som de är tilldelade till. Mer information om aktivitetsbehörigheter finns i<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
+     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definierar standardbehörigheten som en användare har för den uppgift han/hon är tilldelad till. Mer information om aktivitetsbehörigheter finns i<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Definierar standardbehörigheten som en användare har för det projekt som han/hon har en uppgift tilldelad till. Mer information om projektbehörigheter finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL When someone is assigned to an issue]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definierar standardbehörigheten som en användare har för uppgiften som de är tilldelade till. Mer information om aktivitetsbehörigheter finns i<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
+     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definierar standardbehörigheten som en användare har för den uppgift han/hon är tilldelad till. Mer information om aktivitetsbehörigheter finns i<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Definierar standardbehörigheten som en användare har för det projekt som han/hon har en uppgift tilldelad till. Mer information om projektbehörigheter finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -278,8 +278,8 @@ Låsa eller låsa upp en uppgift eller en utgåva så att grupper kan konfigurer
    * Om du vill att administratörer för grupper under gruppen ska kunna konfigurera en inställning för sina grupper, låser du upp den ![](assets/unlock-toggle-button.png).
    * Om du vill att din grupp och alla grupper under den ska använda din konfiguration för en inställning kontrollerar du att den är låst (detta är standardinställningen).
 
-      >[!IMPORTANT]
-      >
-      >Vi rekommenderar att du kommunicerar med administratörer och användare i grupper i hela systemet för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla grupper i systemet. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer kan ha gjort.
+     >[!IMPORTANT]
+     >
+     >Vi rekommenderar att du kommunicerar med administratörer och användare i grupper i hela systemet för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla grupper i systemet. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer kan ha gjort.
 
 1. Klicka på **[!UICONTROL Save]**.
