@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ Om du vill visa tillgängliga mallar klickar du på **Mallar** icon ![](assets/f
 
 Mallarna automatiserar Workfront processer och arbetsflöden.
 
-### Workfront - Kopiera programanpassade Forms- och fältdata till associerade nya projekt
+### [!BADGE Nyhet!]{type=Informative}
 
 Den här automatiseringen söker efter nya projekt i program med anpassade formulär. Sedan läggs dessa anpassade formulär och fält till i de nya projekten.
+
+### [!BADGE Nyhet!]{type=Informative}
+
+Den här automatiseringen passar för nya projekt i portfolior med anpassade formulär. Därefter läggs de anpassade portföljformulären och fälten till i de nya projekten.
 
 ### Workfront - konvertera godkänt problem till projekt
 
@@ -52,11 +56,11 @@ Den här mallen hämtar en projektbaslinje vid alla projektstatusändringar som 
 
 ### Workfront - Skapa baslinjer varje vecka
 
-Den här mallen hämtar en projektbaslinje varje måndag kl. 6.00 (ET) för projekt som filtreras efter portfölj och skapar en uppdatering i uppdateringsflödet för loggning.
+Den här mallen hämtar en projektbaslinje varje måndag kl. 6.00 (ET) för projekt som filtreras efter portfölj och skapar en uppdatering i uppdateringsströmmen för loggning.
 
-### Sök efter projektmallar som inte används i principtid och meddela
+### [!BADGE Nyhet!]{type=Informative}
 
-Granska dina projektmallar en gång i månaden med hjälp av din egen policy med den här enkla mallen som meddelar lämpliga användare om mallar i strid med din policy.
+Granska dina projektmallar en gång i månaden med hjälp av din egen policy med den här lättadministrerade mallen som meddelar lämpliga användare om mallar som bryter mot din policy.
 
 ## Workfront - Workfront korrekturmallar
 
@@ -80,7 +84,7 @@ Mallarna hämtar information från en webbtjänst och hämtar informationen till
 
 ### APILayer > Workfront - Daily Exchange Rate Update (EUR)
 
-Den här mallen skapar ett scenario som automatiserar uppdateringen av en valutakurs vid en viss tidpunkt. I det här scenariot hämtas priset euro (EUR) till USD från APIlayers.com och frekvensen uppdateras i Workfront.
+Den här mallen skapar ett scenario som automatiserar uppdateringen av en valutakurs vid en viss tidpunkt. I detta scenario hämtas priset euro (EUR) till USD från ett APIlayers.com API och priset i Workfront uppdateras.
 
 ## Workfront-Marketo-mallar
 
@@ -114,7 +118,7 @@ Mer information om integrationen mellan Workfront och Anaplan finns i [Adobe Wor
 
 ### Arbetsflöden för utgiftsoptimering
 
-* [Skicka [!DNL Adobe Workfront] projektuppdateringar till [!DNL Anaplan] listobjekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Skicka [!DNL Adobe Workfront] projektuppdateringar till en [!DNL Anaplan] listobjekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 * [Skicka [!DNL Adobe Workfront] utgifter för [!DNL Anaplan] listobjekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
 * [Skicka [!DNL Adobe Workfront] faktiskt antal timmars uppdateringar av en [!DNL Anaplan] listobjekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 

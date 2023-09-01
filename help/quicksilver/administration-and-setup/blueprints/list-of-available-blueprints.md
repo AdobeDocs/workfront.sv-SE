@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ The [!UICONTROL General Internal Strategic Initiative] plan innehåller en proje
 **[!UICONTROL Human Resources Organization Setup]**
 Den här planen innehåller konfigurationen av organisationsstrukturer som ska utökas till en personalavdelning.
 
-**[!UICONTROL Information Technology Organization Setup]**
+[!BADGE Nyhet!]{type=Informative}**[!UICONTROL Information Technology Organization Setup]**
 Den här planen innehåller konfigurationen av organisationsstrukturer som kan användas i ett IT-användningsfall.
 
 **[!UICONTROL Inherited Instance Basics | Checklist]**
@@ -78,6 +78,10 @@ Den här planen innehåller en mall för [!DNL Workfront professional services] 
 
 **[!UICONTROL New Hire Readiness]**
 Den här planen innehåller en mall för [!DNL Workfront] En organisation som arbetar med professionella tjänster har under många år använt sig av personalavdelningen för att få personalspecialister och personalchefer att slutföra viktiga aktiviteter så att en ny medarbetares första dag blir utomordentlig.
+
+[!BADGE Nyhet!]{type=Informative}**Offboarding | Avgår från användarinstrumentpanel**
+
+Denna plan innehåller en enda kontrollpanel med 13 rapporter som hjälper dig att hitta, omfördela eller på annat sätt hantera objekt och uppgifter som är kopplade till en användare som lämnar Workfront. Du kan också använda dessa rapporter för en användare som går in i en ny roll eller grupp för att tilldela om deras arbete.
 
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
 Den här planen innehåller en enda mall som organiserar arbetet som en [!DNL Workfront] kunden måste slutföra processen för att kunna hantera utbyggnaden till nästa processer efter den initiala implementeringen.
@@ -100,6 +104,10 @@ Den här planen innehåller konfigurationen av organisationsstrukturer för att 
 **[!UICONTROL Recruiting Process Tracking]**
 I den här planen definieras en checklista för interna rekryteringsresurser som kan användas för att hjälpa affärsintressenter att spåra förloppet för personalförfrågningar. Den är utformad för att stödja en hanterad mognadsnivå.
 
+[!BADGE Nyhet!]{type=Informative}**Förberedelse för resurshantering**
+
+Använd den här projektmallen och användarrapporten för att kontrollera att du har rätt inställningar och information för att generera korrekta data för resurshantering.
+
 **[!UICONTROL Risk Control Self Assessment: Key Risk Mitigation Planning]**
 [!UICONTROL Risk Control Self Assessment] (RSCA) definierar en process för att identifiera risker och mäta de kontroller du har infört för att minska dessa risker. Den här mallen formaliserar processen så att du kan utvärdera nya risker, kontrollera att lämpliga kontroller har införts och se till att du vet hur du mäter och dokumenterar kontrollens effektivitet.
 
@@ -117,6 +125,14 @@ Den här planen innehåller en mall för [!DNL Workfront] en organisation som ar
 
 **[!UICONTROL System Administrator Maintenance Dashboard]**
 Den här planen innehåller en enda instrumentpanel som hjälper systemadministratörer att regelbundet underhålla och rensa systemet från störande störningar som kan uppstå över tid.
+
+[!BADGE Nyhet!]{type=Informative}**Värderealisering | Kontrollpanel för kärnvärde**
+
+Denna plan innehåller en enda kontrollpanel med 21 rapporter som hjälper dig att mäta värdet av Workfront. Dessa rapporter hjälper er att omvandla fördelarna med centraliserade arbetsprocesser och hantering av arbetsprocesser till mätbara värden som ni kan spåra över tiden för att få bättre resultat.
+
+[!BADGE Nyhet!]{type=Informative}**Värderealisering | Granska och godkänn kontrollpanel**
+
+Denna plan innehåller en enda kontrollpanel med 7 rapporter som hjälper dig att förverkliga värdet av Workfront. Dessa rapporter hjälper er att omsätta värdena för granskning och godkännande av arbeten till mätbara fördelar som ni kan följa över tiden för att få bättre resultat.
 
 **[!UICONTROL Video Asset Production](Integrerat)**
 The [!UICONTROL Video Asset Production] paketet innehåller en mall som organiserar arbetsprocessen för en standardvideoproduktionsprocess. Mallen ger en smidig process för att skapa originalvideoresurser för ett team som använder standardprocedurer för att definiera hur arbetet ska utföras och som endast använder projektet för att prioritera arbetet och spåra förloppet.
