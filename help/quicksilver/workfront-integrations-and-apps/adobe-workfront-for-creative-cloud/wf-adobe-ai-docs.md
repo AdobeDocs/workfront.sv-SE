@@ -6,9 +6,9 @@ description: Du kan ladda upp ritytorna som dokument för snabb granskning och g
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
+source-git-commit: e3bc8ca88dda16ac792e6de8055296105e6ff0e0
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
-* Du måste installera [!DNL Adobe Workfront for design and video] plugin-program innan du kan överföra dokument från [!DNL Illustrator].
+* Du måste installera [!DNL Adobe Workfront for design and video] innan du kan överföra dokument från [!DNL Illustrator].
 
   Instruktioner finns i [Installera [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka **[!UICONTROL New File]** nära plug-ins nederkant.
 1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
 1. Välj **[!UICONTROL Asset Type]** i listrutan.
-1. Öppna **[!UICONTROL Set Export File Settings]** konfigurerar du önskade exportalternativ baserat på resurstypen ovan.
+1. Öppna **[!UICONTROL Set Export File Settings]** konfigurerar du önskade exportalternativ baserat på den resurstyp som valts ovan.
 
    ![](assets/file-export-settings.png)
 1. Klicka på **[!UICONTROL Upload]**.
