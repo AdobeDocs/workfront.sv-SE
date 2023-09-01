@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -61,10 +61,10 @@ The [!UICONTROL General Internal Strategic Initiative] plan innehåller en proje
 **[!UICONTROL Human Resources Organization Setup]**
 Den här planen innehåller konfigurationen av organisationsstrukturer som ska utökas till en personalavdelning.
 
-[!BADGE Nyhet!]{type=Informative}**[!UICONTROL Information Technology Organization Setup]**
+**[!UICONTROL Information Technology Organization Setup]**
 Den här planen innehåller konfigurationen av organisationsstrukturer som kan användas i ett IT-användningsfall.
 
-**[!UICONTROL Inherited Instance Basics | Checklist]**
+[!BADGE Nyhet!]{type=Informative}**[!UICONTROL Inherited Instance Basics | Checklist]**
 Den här planen innehåller en projektmall (eller checklista) som du kan granska med en kort lista över frågor, resurser och länkar för att få en tydlig förståelse för hur din Workfront-instans har konfigurerats. Använd detta när du nyligen har ärvt en Workfront-instans och behöver hjälp med var du ska börja.
 
 **[!UICONTROL Integrated Campaign Execution]**
