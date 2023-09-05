@@ -6,9 +6,9 @@ description: Du kan installera [!DNL Adobe Workfront for design and video] från
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Om du är [!DNL Adobe Admin Console] administratör kan du inkludera [!DNL Adobe Workfront for design and video] in [!DNL Creative Cloud] distributionspaket. Mer information finns i [Inkludera plugin-program i paketet](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [Se en självstudiekurs här](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+[!DNL Adobe Admin Console] administratörer kan också skapa paket som bara innehåller plugin-program för distribution till användare. Mer information finns i [Skapa [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] paket för dina användare i [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## Installera [!DNL Workfront for design and video] individuellt
 

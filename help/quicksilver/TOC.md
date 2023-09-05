@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '13214'
+source-wordcount: '13222'
 ht-degree: 0%
 
 ---
@@ -740,6 +740,7 @@ ht-degree: 0%
       * [Inaktivera dokumentintegreringar](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Konfigurera SharePoint-integrering](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [Ställ in metadatamappning](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [Skapa [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] paket för dina användare i [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Skapa OAuth2-program för Workfront-integreringar](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Visa och hantera anpassade OAuth2-program](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Konfigurera JumpSeat-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
