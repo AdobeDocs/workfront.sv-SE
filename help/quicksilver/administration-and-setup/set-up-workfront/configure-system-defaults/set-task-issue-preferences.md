@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-   <td> <p>Beräknar planerade och faktiska intäktsuppskattningar för en aktivitet. När <strong>[!UICONTROL Revenue Type]</strong> är inställd på<strong>[!UICONTROL Not Billable]</strong>, genererar de planerade timmarna och de faktiska registrerade timmarna ingen intäktsuppskattning för uppgiften och arbetet med uppgiften bidrar inte till intäkterna på projektnivå.</p> </td> 
+   <td> <p>Beräknar planerade och faktiska intäktsuppskattningar för en aktivitet. När <strong>[!UICONTROL Revenue Type]</strong> är inställd på <strong>[!UICONTROL Not Billable]</strong>, genererar de planerade timmarna och de faktiska registrerade timmarna ingen intäktsuppskattning för uppgiften och arbetet med uppgiften bidrar inte till intäkterna på projektnivå.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cost Type]</td> 
@@ -118,7 +118,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till utleveranser</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Ger den primära kontakten (den som skapat problemet) åtkomst till uppgiften så att den kan granska den, hålla sig informerad om förloppet och göra kommentarer i uppdateringsavsnittet för uppgiften.</li> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Ger den primära kontakten (den som skapat utgåvan) Visa åtkomst till uppgiften för att granska den, hålla dig informerad om hur den fortlöper och göra kommentarer i uppdateringsavsnittet för uppgiften.</li> 
      <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Användare som konverterar problemet kan ändra dessa alternativ under konverteringen av ett problem till en aktivitet.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till utleveranser</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Ger den primära kontaktpersonen (den som skapat problemet) åtkomst till projektet för att granska projektet, hålla sig informerad om projektets förlopp och kommentera uppdateringsavsnittet i projektet.</li> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Ger den primära kontakten (den som skapat problemet) Visa åtkomst till projektet för att granska det, hålla dig informerad om projektets förlopp och kommentera uppdateringsavsnittet i projektet.</li> 
      <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Användare som konverterar problemet kan ändra de listade alternativen under konverteringen av en utgåva till ett projekt.</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL When someone is assigned to a task]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definierar standardbehörigheten som en användare har för den uppgift han/hon är tilldelad till. Mer information om aktivitetsbehörigheter finns i<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
+     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definierar standardbehörigheten som en användare har för den uppgift han/hon är tilldelad till. Mer information om aktivitetsbehörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Definierar standardbehörigheten som en användare har för det projekt som han/hon har en uppgift tilldelad till. Mer information om projektbehörigheter finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL When someone is assigned to an issue]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definierar standardbehörigheten som en användare har för den uppgift han/hon är tilldelad till. Mer information om aktivitetsbehörigheter finns i<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
+     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definierar standardbehörigheten som en användare har för den uppgift han/hon är tilldelad till. Mer information om aktivitetsbehörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Definierar standardbehörigheten som en användare har för det projekt som han/hon har en uppgift tilldelad till. Mer information om projektbehörigheter finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </li> 
     </ul> </td> 
   </tr> 
