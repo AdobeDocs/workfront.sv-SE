@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3550'
 ht-degree: 0%
 
 ---
@@ -218,6 +218,7 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
       <td> <p>Inaktivera det här alternativet om du inte vill att användare utanför företaget ska kunna visa den här uppdateringen.</p> 
       <p><b>ANMÄRKNING</b></p>
       <p>Det här alternativet visas bara när användaren är associerad med ett företag.</p>
+      <p>Det här alternativet är inte tillgängligt i alla områden där du kan lägga till uppdateringar från. Detta är till exempel inte tillgängligt i tredjepartsprogram där du kan lägga till uppdateringar från. </p>
       </td> 
      </tr> 
     </tbody> 
