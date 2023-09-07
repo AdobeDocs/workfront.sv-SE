@@ -4,9 +4,9 @@ description: The [!DNL Adobe Workfront Fusion] Med HUBspot CRM-modulerna kan du 
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -103,7 +103,7 @@ Den här sökmodulen söker efter CRM-objekt efter anpassade egenskaper eller ef
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output properties]</td> 
-   <td>Markera de egenskaper som du vill ska visas i modulens utdata. Vilka fält som är tillgängliga beror på vilket objekt du har valt.</td> 
+   <td>Markera de egenskaper som du vill ska visas i modulens utdata. Vilka fält som är tillgängliga beror på vilket objekt du har markerat.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter by] </td> 
@@ -562,7 +562,7 @@ Den här utlösarmodulen startar ett scenario när en ny kontakt läggs till i e
 
 #### [!UICONTROL List Deal/Ticket Pipelines]
 
-Returnerar alla erbjudanden och biljettledningar för en viss portal.
+Returnerar alla erbjudanden och biljettpipelines för en viss portal.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -618,7 +618,7 @@ Hämtar en lista över företag baserat på en exakt matchning av egenskapen dom
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Domain] </td> 
-   <td>Ange domänen för de företag du vill söka efter, till exempel <code>[!DNL hubspot].com</code>. </td> 
+   <td>Ange domänen för de företag som du vill söka efter, till exempel <code>[!DNL hubspot].com</code>. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -731,6 +731,19 @@ Tar bort en befintlig biljett med dess ID.
 
 Gör att du kan utföra ett anpassat API-anrop.
 
+>[!NOTE]
+>
+>Följande slutpunkter togs bort i HubSpot API den 31 augusti 2023 och kan inte längre användas i Fusion-moduler.
+>
+>* Visa innehållshändelser
+>* Visa sociala händelser
+>* Visa kalenderaktivitetshändelser
+>* Visa alla kalenderhändelser
+>* Skapa kalenderuppgift
+>* Hämta kalenderaktivitet med ID
+>* Uppdatera kalenderaktivitet
+>* Ta bort en kalenderuppgift
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -749,7 +762,7 @@ Gör att du kan utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p> Ange önskade begäranderubriker. Du behöver inte lägga till auktoriseringsrubriker; vi gjorde det redan för dig.</p> </td> 
+   <td> <p> Ange önskade begäranderubriker. Du behöver inte lägga till auktoriseringsrubriker. Vi gjorde det redan för dig.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
