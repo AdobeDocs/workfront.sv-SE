@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
 workflow-type: tm+mt
-source-wordcount: '13222'
+source-wordcount: '13231'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 0%
          * [21.1 Andra förbättringar](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Versionsaktivitet för Adobe Workfront Fusion {#fusion-release}
          * [Versionsaktivitet för Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Versionsaktivitet för Workfront Fusion: 1 september 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
          * [Versionsaktivitet för Workfront Fusion: 21 augusti 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
          * [Versionsaktivitet för Workfront Fusion: 7 augusti 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
          * [Versionsaktivitet för Workfront Fusion: 10 juli 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
@@ -2004,6 +2005,7 @@ ht-degree: 0%
       * [Anslutningar i Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
       * [Om att ansluta Adobe Workfront Fusion till en app eller tjänst](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Skapa anslutningar i Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
+      * [Anslutningsmetadata](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Skapa en anslutning till Adobe Workfront Fusion - grundläggande instruktioner](workfront-fusion/connections/connect-to-fusion-general.md)
       * [Anslut Adobe Workfront Fusion till valfri webbtjänst](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
       * [Anslut Adobe Workfront Fusion till en webbtjänst som använder API-tokenauktorisering](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
