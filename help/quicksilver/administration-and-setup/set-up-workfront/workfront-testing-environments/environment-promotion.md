@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ I det andra steget används `objectCollections` arrayen finns i POSTENS brödtex
 >
 >Varje objekt i arrayen innehåller en `objCode` som motsvarar objektkoden som finns dokumenterad i Workfront API Explorer.
 >
->Varje objekt innehåller också `entities` samling. Detta förväntar sig `ID` och `name` nycklar som ska finnas.
+>Varje objekt innehåller också `entities` samling. Detta förväntar sig `ID` fält. Den kan också acceptera ett valfritt `name` för att göra det enklare att veta vad `ID` representerar.
 >
 >För listan över tillåtna objektkoder som ska begäras i `objectCollections` finns i [Objekt som stöds för miljöbefordran](#supported-objects-for-environment-promotion) i den här artikeln.
 
