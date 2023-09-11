@@ -7,9 +7,9 @@ description: Lag är den tid som måste förflyta efter slutförandet av en fram
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ I följande tabell visas Lag Types och hur du anger hur lång tid varje typ av t
 <p><b>ANMÄRKNING</b></p> Den maximala fördröjningsgränsen för procent är 2 000 %.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Veckodag (w) </p> </td> 
+   <td> <p>Veckodag (vi eller vi) </p> </td> 
    <td> <p>Fördröjningen mellan två uppgifter mäts genom att ange veckodagarna för veckan som innehåller det planerade slutförandedatumet för föregående aktivitet.</p> <p>För den här typen av Lag associeras varje veckodag med ett tal:</p> 
     <ul> 
      <li>söndag=1</li> 
@@ -187,7 +187,7 @@ Om det beräknade startdatumet för den efterföljande uppgiften är en viss tis
 <p>Om du vill ange föregående eller kommande veckor kan du lägga till ett tal framför dagens nummer för lagtypen. </p> <p>Om du till exempel vill ange måndagen för 10 veckor sedan kan du använda den här koden för att ange föregående för din efterträdare:</p> <p><code>4fs-102w</code> </p> <p>10 betyder 10 veckor sedan och 2 är numret som tilldelats till måndag. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Veckodag ej noll (k)</p> </td> 
+   <td> <p>Veckodag icke-noll (k eller ke)</p> </td> 
    <td> <p>Fördröjningen mellan två uppgifter mäts identiskt med veckodag, förutom om föregående tid slutar på samma veckodag som anges. Fördröjningstiden beräknas sedan till intilliggande vecka (+/-). </p> <p>I det här fallet kan fördröjningen aldrig vara 0.</p> </td> 
   </tr> 
  </tbody> 
