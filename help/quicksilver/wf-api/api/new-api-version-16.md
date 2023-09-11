@@ -6,7 +6,7 @@ description: Adobe Workfront släppte API-version 16 den 6 april 2022. API-versi
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
+source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Nyheter i API-version 16
 
-Adobe Workfront släppte API-version 16 den 6 april 2022. API-version 16 innehåller följande ändringar från version 15.
+Adobe Workfront släppte API-version 16 den 6 april 2023. API-version 16 innehåller följande ändringar från version 15.
 
 ## Tillagda resurser
 
@@ -325,7 +325,7 @@ Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsu
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Den här åtgärden lade till fältet <code>teamIDs</code> för att ge stöd åt funktionaliteten att tilldela flera team till en uppgift eller ett problem.</p>
+            <p>Den här åtgärden har lagt till fältet <code>teamIDs</code> för att ge stöd åt funktionaliteten att tilldela flera team till en uppgift eller ett problem.</p>
          </li>
         </ul>
       </td>
@@ -358,7 +358,7 @@ Projekt är arbetsuppgifter inom Workfront och är en viktig byggsten i det sät
 
 ### Hastighet (RATE)
 
-Ett Rate-objekt representerar en faktureringstaxa i Workfront.
+Ett Rate-objekt representerar en faktureringsfrekvens i Workfront.
 
 <table>
   <col/>
@@ -450,7 +450,7 @@ Ett Task-objekt representerar en arbetsuppgift som måste utföras som ett steg 
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Den här åtgärden lade till fältet <code>teamIDs</code> för att ge stöd åt funktionaliteten att tilldela flera team till en uppgift eller ett problem.</p>
+            <p>Den här åtgärden har lagt till fältet <code>teamIDs</code> för att ge stöd åt funktionaliteten att tilldela flera team till en uppgift eller ett problem.</p>
          </li>
         </ul>
       </td>
