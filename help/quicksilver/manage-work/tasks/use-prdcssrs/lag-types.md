@@ -7,16 +7,16 @@ description: Lag är den tid som måste förflyta efter slutförandet av en fram
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
 # Översikt över lagertyper
 
-Lag är den tid som måste förflyta efter slutförandet av en framtvingad föregångare tills den beroende aktiviteten kan börja (Positive Lag), eller den tid som en beroende aktivitet kan starta innan den föregående startar (Negative Lag).
+Lag är den tid som måste förflyta efter det planerade slutförandet av en föregångare tills den beroende aktiviteten kan börja (Positive Lag), eller den tid som en beroende aktivitet kan starta innan den föregående startar (Negative Lag).
 
 De planerade, planerade och beräknade datumen för efterföljande uppgifter beräknas med hänsyn till de föregående aktiviteternas fördröjning och datum för planerade, planerade och beräknade startdatum (slutförande).
 
@@ -89,7 +89,7 @@ Du kan ange fördröjningstyper för uppgifter när du definierar deras föregå
 ### Ange typ av fördröjning i avsnittet Föregående aktiviteter i en uppgift {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Gå till en uppgift som du vill definiera föregångaren och taggtypen för.
-1. Klicka **Föregående** i den vänstra panelen. Du kanske måste klicka **Visa fler** och sedan **Föregående**.
+1. Klicka **Föregående** till vänster. Du kanske måste klicka **Visa fler** och sedan **Föregående**.
 1. Klicka **Lägg till föregående**.
 1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du **Överordnat projekt** namn med ett annat projekt.
 1. Börja skriva namnet på föregående aktivitet och markera den när den visas i listan.
@@ -97,7 +97,7 @@ Du kan ange fördröjningstyper för uppgifter när du definierar deras föregå
 
    Mer information om föregående beroendetyper finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Ange en **Lag** mängd med ett numeriskt värde. Du kan ange negativa tal för att ange en negativ fördröjning.
+1. Ange en **Lag** ett numeriskt värde. Du kan ange negativa tal om du vill ange en negativ fördröjning.
 1. Välj bland följande alternativ för att identifiera vilken typ av fördröjning du vill ange för föregående användare:
 
    * **Dagar**
@@ -106,13 +106,13 @@ Du kan ange fördröjningstyper för uppgifter när du definierar deras föregå
    * **Veckodag**
    * **Veckodag (ej noll)**
 
-      Mer information om dessa Lag-typer och hur de beräknas finns i avsnittet [Översikt över fördröjningstyper](#lag-types-overview) i den här artikeln.
+     Mer information om dessa Lag-typer och hur de beräknas finns i avsnittet [Översikt över fördröjningstyper](#lag-types-overview) i den här artikeln.
 
 1. Klicka **Spara**.
 
 ### Ange typ av fördröjning i en uppgiftslista  {#indicate-lag-types-in-a-task-list}
 
-1. Gå till en uppgiftslista och välj **Standard** Visa från **Visa** nedrullningsbar meny.
+1. Gå till en uppgiftslista och välj **Standard** Visa från **Visa** listruta.
 
 1. Klicka inuti **Föregående** -kolumn som motsvarar den uppgift för vilken du vill ange en föregångare och ett fördröjningsvärde.
 1. Ange följande utan blanksteg:
@@ -120,21 +120,16 @@ Du kan ange fördröjningstyper för uppgifter när du definierar deras föregå
    * numret på den uppgift som du vill ange som föregående för den valda uppgiften
    * förkortningen för den beroendetyp som du vill ange mellan aktiviteterna
 
-      Mer information om förkortningarna för Beroendetyper finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Mer information om förkortningarna för Beroendetyper finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * antingen **+** för en positiv fördröjning eller **-** för negativ fördröjning
 
    * mängden fördröjning
    * förkortningen för den Lag-typ som du vill använda.
 
-      Mer information om förkortningarna för Lag Types finns i avsnittet [Översikt över fördröjningstyper](#lag-types-overview) i den här artikeln.
-   Om du till exempel vill ange att en aktivitet har en föregångare och en positiv fördröjning på 2 dagar, anger du
+     Mer information om förkortningarna för Lag Types finns i avsnittet [Översikt över fördröjningstyper](#lag-types-overview) i den här artikeln.
 
-   ```
-   1fs+2d
-   ```
-
-   i kolumnen Föregående.
+   Om du till exempel vill ange att en aktivitet har en föregångare och en positiv fördröjning på 2 dagar, anger du  `1fs+2d` i kolumnen Föregående.
 
 1. Klicka på Enter på tangentbordet för att spara ändringarna i uppgiften.
 
@@ -155,11 +150,11 @@ I följande tabell visas Lag Types och hur du anger hur lång tid varje typ av t
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Dagar (d)</p> </td> 
-   <td> <p>Fördröjningen mellan två uppgifter som är kopplade till beroendet mäts i arbetsdagar. Det här är standardtypen för fördröjning. </p> <p>Om det till exempel finns ett samband mellan avslutsstart med en fördröjning på två arbetsdagar och föregående aktivitet slutar på fredag, startar den beroende aktiviteten på onsdag. Helgdagarna räknas inte som en del av fördröjningen. </p> <p>Obs! Maximal fördröjningsgräns för dagar är 366.</p> </td> 
+   <td> <p>Dagar (d eller de)</p> </td> 
+   <td> <p>Fördröjningen mellan två uppgifter som är kopplade till beroendet mäts i arbetsdagar. Det här är standardtypen för fördröjning. </p> <p>Om det till exempel finns ett samband mellan avslutsstart med en 2-dagarsfördröjning och föregående aktivitet slutar på fredag, startar den beroende aktiviteten på onsdag. Helgdagarna räknas inte som en del av fördröjningen. </p> <p>Obs! Den maximala fördröjningsgränsen för dagar är 366.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Kalenderdagar (c)</p> </td> 
+   <td> <p>Kalenderdagar (c eller ce)</p> </td> 
    <td> <p>Fördröjningen mellan två uppgifter mäts i kalenderdagar, inklusive helger och helger. </p> <p>Obs! Även om den här fördröjningstypen räknar lediga dagar som en del av fördröjningen, kan en beroende uppgift aldrig starta på en ledig dag. Om den här fördröjningstypen gör att den beroende aktiviteten startar på en ledig dag, schemaläggs det planerade startdatumet för den beroende aktiviteten till följande arbetsdag. </p> <p>Om det till exempel finns ett samband med avslutsstart med en 2-kalenderdagars fördröjning och föregående aktivitet slutar på torsdag, börjar den beroende aktiviteten på måndag i stället för söndag. </p> </td> 
   </tr> 
   <tr> 
@@ -178,12 +173,12 @@ I följande tabell visas Lag Types och hur du anger hur lång tid varje typ av t
      <li>Onsdag=4</li> 
      <li>Torsdag=5</li> 
      <li>Fredag=6</li> 
-     <li>Saturday=7</li> 
+     <li>Lördag=7</li> 
     </ul> <p>Om du vill ange att det planerade startdatumet för efterföljande ska infalla på en tisdag i den aktuella veckan, och tisdagen är före det planerade avslutsdatumet för föregående, ska du skriva följande formel för den efterföljande personen: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
 
 <p><b>ANMÄRKNING</b></p>
 
-Om tisdagen passerat den vecka som förestående aktivitet planeras slutföras är det planerade startdatumet för den efterföljande aktiviteten den första tillgängliga arbetsdagen i den veckan. </p> <p>Om du vill ange att fördröjningen ska infalla på en lördag i den aktuella veckan, och lördagen är efter det planerade slutförandedatumet för föregående, ska du skriva följande formel till den efterföljare du vill använda:</p> <p>4fs+7w</code> </p> <p>Om lördag är en ledig dag väljs nästa tillgängliga dag efter lördag (för att ange positiv fördröjning) som planerat startdatum för efterföljande dag. </p>
+Om det beräknade startdatumet för den efterföljande uppgiften är en viss tisdag och den dagen passerat för den aktuella veckan, är det planerade startdatumet för den efterföljande uppgiften samma dag (tisdag) i nästa vecka, om tillgängligt. </p> <p>Om du vill ange att fördröjningen ska infalla på en lördag i den aktuella veckan, och lördagen är efter det planerade slutförandedatumet för föregående, ska du skriva följande formel till den efterföljare du vill använda:</p> <p><code>4fs+7w</code> </p> <p>Om lördag är en ledig dag väljs nästa tillgängliga dag efter lördag (för att ange positiv fördröjning) som planerat startdatum för efterföljande dag. </p>
 
 <p>Detta gäller inte schemaundantag. Om ett datum också är ett schemaundantag och startdatumet för efterföljande beräknas till den dagen, försöker systemet hitta det närmaste tillgängliga datumet som är den veckodag som anges i föregående uttryck.</p>
 
@@ -206,14 +201,14 @@ Tänk på följande regler när du använder negativ fördröjning:
 
 * Med Negativ fördröjning kan inte start-/slutdatum för en aktivitet framtvingas före eller efter projektets planerade start-/slutdatum. Dessa datum anges i fältet Schemalägg från i projektet.
 
-   I det här fallet bör du tänka på följande:
+  I det här fallet bör du tänka på följande:
 
    * Schemalägg projektet från slutförandedatum.
    * Den sista aktiviteten i projektet ska använda alternativet Måste avslutas vid aktivitetsbegränsning. Vi rekommenderar att aktiviteten ges en tillräckligt lång varaktighet för att alla uppgifter i projektet ska kunna beaktas. De återstående uppgifterna fungerar bra med villkoret Så snart som möjligt.
 
 * Ett felmeddelande kan visas om du använder en relation med en slutbehandlare med uppgifter.
 
-   I det här fallet bör du tänka på följande:
+  I det här fallet bör du tänka på följande:
 
    * Ange en relation mellan aktiviteter som föregås av Slutför/Slutför.
    * Varaktigheten för den efterföljande uppgiften bör vara lika med eller större än det planerade antalet fördröjningsdagar mellan uppgifterna.

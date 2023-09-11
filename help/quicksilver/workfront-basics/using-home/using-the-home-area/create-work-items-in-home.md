@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Skapa arbetsobjekt från hemområdet
-description: Skapa arbetsobjekt från hemområdet
+title: Skapa arbetsobjekt från startdelen
+description: Skapa arbetsobjekt från startdelen
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
 
-# Skapa arbetsobjekt från hemområdet
+# Skapa arbetsobjekt från startdelen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
@@ -39,7 +39,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p><b>ANMÄRKNING</b></p> 
+   <p>Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -48,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Skapa en personlig uppgift
 
@@ -72,6 +73,9 @@ Du kan skapa en personlig uppgift som bara är tillgänglig för dig i [!UICONTR
 >
 >* Till skillnad från vanliga projektuppgifter har personliga uppgifter en begränsad uppsättning fält som visas i Workfront-gränssnittet och påverkar inte tidslinjen eller förloppet för något projekt. Om du tilldelar en personlig uppgift till en annan användare, läggs alla uppgiftsfält till i en personlig uppgift, men uppgiften blir kvar i det personliga projektet för den användare som skapade uppgiften.
 >
+>
+>* Personliga uppgifter visas bara på tidrapporter när de har loggat timmar eller när de är fästa på tidrapporten. Du kan bara fästa en personlig uppgift på en tidrapport när det finns timmar loggade för uppgiften. Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
+> 
 >* Vi rekommenderar att du skapar ett projekt och flyttar alla personliga uppgifter till det om du vill göra personliga uppgifter till en del av det vanliga arbetsflödet.
 >
 > ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
@@ -111,7 +115,7 @@ Du kan lägga till en uppgift eller ett problem i ett befintligt projekt direkt 
    >
    >Uppgiften eller problemet visas på [!UICONTROL Work List] endast när projektet [!UICONTROL Status] är inställd på [!UICONTROL Current].
 
-1. (Villkorligt) Om du vill skapa ett problem väljer du **[!UICONTROL Issue]** från **[!UICONTROL Add As]** nedrullningsbar meny. Som standard **[!UICONTROL Task]** är markerat.
+1. (Villkorligt) Om du vill skapa ett problem väljer du **[!UICONTROL Issue]** från **[!UICONTROL Add As]** listruta. Som standard **[!UICONTROL Task]** är markerat.
 
 1. Klicka **[!UICONTROL Select date]** väljer du sedan datum och tid då uppgiften förfaller.
 1. Klicka **[!UICONTROL Create]** för att spara uppgiften.
