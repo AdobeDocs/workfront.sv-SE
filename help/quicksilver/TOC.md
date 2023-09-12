@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
+source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
 workflow-type: tm+mt
-source-wordcount: '13231'
+source-wordcount: '13334'
 ht-degree: 0%
 
 ---
@@ -1978,6 +1978,41 @@ ht-degree: 0%
       * [Anpassa Adobe Workfront-målterminologi](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Dela ett mål i Workfront-mål](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Aktivera meddelanden om Adobe Workfront-mål](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* Adobe Maestro {#adobe-maestro}
+   * [Adobe Maestro-information](maestro/maestro-information.md)
+   * [Adobe Maestro - översikt](maestro/maestro-overview.md)
+   * [Adobe Maestro-lansering](maestro/release-activity.md)
+   * Adobe Maestro-arkitekturen {#adobe-maestro-architecture}
+      * [Arkitekturinformation](maestro/architecture-and-fields/architecture-and-fields-information.md)
+      * [Skapa arbetsytor](maestro/architecture-and-fields/create-workspaces.md)
+      * [Översikt över posttyper och taxonomier](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
+      * [Skapa posttyper](maestro/architecture-and-fields/create-record-types.md)
+      * [Skapa taxonomiposttyper](maestro/architecture-and-fields/create-a-taxonomy.md)
+      * [Koppla posttyper](maestro/architecture-and-fields/connect-record-types.md)
+      * [Skapa fält](maestro/architecture-and-fields/create-fields.md)
+      * [Redigera posttyper](maestro/architecture-and-fields/edit-record-types.md)
+      * [Redigera fält](maestro/architecture-and-fields/edit-fields.md)
+      * [Ta bort arbetsytor](maestro/architecture-and-fields/delete-workspaces.md)
+      * [Ta bort posttyper](maestro/architecture-and-fields/delete-record-types.md)
+      * [Ta bort fält](maestro/architecture-and-fields/delete-fields.md)
+      * [Exempel på att ansluta posttyper och poster](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
+      * [Lista över arbetsytemallar](maestro/architecture-and-fields/workspace-templates.md)
+   * Adobe Maestro-åtkomst {#adobe-maestro-access}
+      * [Åtkomstinformation](maestro/access/access-information.md)
+      * [Åtkomstöversikt](maestro/access/access-overview.md)
+      * [Ge åtkomst till Adobe Maestro](maestro/access/grant-access.md)
+   * Adobe Maestro-poster {#adobe-maestro-records}
+      * [Information om poster](maestro/records/records-information.md)
+      * [Skapa poster](maestro/records/create-records.md)
+      * [Koppla poster](maestro/records/connect-records.md)
+      * [Redigera poster](maestro/records/edit-records.md)
+      * [Ta bort poster](maestro/records/delete-records.md)
+      * [Dela poster](maestro/records/share-records.md)
+   * Adobe Maestro-vyer {#adobe-maestro-views}
+      * [Vyinformation](maestro/views/views-information.md)
+      * [Hantera postvyer](maestro/views/manage-record-views.md)
+      * [Hantera tabellvyn](maestro/views/manage-the-table-view.md)
+      * [Hantera tidslinjevyn](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * Kom igång med Adobe Workfront Fusion {#get-started-with-workfront-fusion}
