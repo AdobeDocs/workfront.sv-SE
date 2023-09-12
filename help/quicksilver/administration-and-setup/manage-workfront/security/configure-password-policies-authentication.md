@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Konfigurera autentisering (tillgänglig för alla kunder) {#configure-authentication-available-for-all-customers}
 
-Autentiseringsalternativ visas för alla kunder. Förbättrade funktioner för lösenordshantering kommer snart eller är redan tillgängliga för din organisation, vilket beskrivs i avsnittet [Konfigurera förbättrad autentisering (kommer snart)](#configure-enhanced-authentication-coming-soon) i den här artikeln.
+Autentiseringsalternativ visas för alla kunder. Förbättrade funktioner för lösenordshantering kommer snart eller är redan tillgängliga för din organisation, vilket beskrivs i avsnittet [Konfigurera utökad autentisering)](#configure-enhanced-authentication-coming-soon) i den här artikeln.
 
 Så här konfigurerar du autentiseringsinställningar:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System** > **Autentisering**.
 
@@ -91,13 +91,13 @@ Så här konfigurerar du autentiseringsinställningar:
 
 1. Klicka **Spara**.
 
-## Konfigurera förbättrad autentisering (kommer snart) {#configure-enhanced-authentication-coming-soon}
+## Konfigurera förbättrad autentisering{#configure-enhanced-authentication-coming-soon}
 
 I det här avsnittet beskrivs den förbättrade autentiseringsupplevelsen, som kanske inte är tillgänglig för din organisation ännu. Om din organisation inte har migrerats till den nya autentiseringsupplevelsen måste du konfigurera autentiseringsinställningarna enligt beskrivningen i [Konfigurera autentisering (tillgänglig för alla kunder)](#configure-authentication-available-for-all-customers).
 
 Så här konfigurerar du utökade autentiseringsinställningar:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System** > **Förbättrad autentisering**.
 1. I **Lösenordslängd** anger du det minsta antalet tecken som krävs för ett giltigt lösenord.
@@ -114,6 +114,6 @@ Så här konfigurerar du utökade autentiseringsinställningar:
    | Nummer | Kräv minst en siffra |
    | Specialtecken | Kräv minst ett specialtecken |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klicka **Spara**.
