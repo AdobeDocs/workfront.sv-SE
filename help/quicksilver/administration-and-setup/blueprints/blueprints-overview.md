@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Översikt över utkast
+
+Utkast är uppsättningar av Workfront-objekt som hanterar vanliga användningsområden i Workfront. Du kan hämta och installera en plan och sedan konfigurera objekten för ditt specifika användningsfall.
+
+>[!INFO]
+>
+>Exempel:
+>
+>* **Inställningar för personalorganisation**
+>
+>   Den här planen innehåller konfigurationen av organisationsstrukturer som ska utökas till en personalavdelning.
+>
+>* **Lägg till ny IT-checklista för medarbetare**
+>
+>   Den här planen innehåller en mall för att organisera nya anställdas introduktionsaktiviteter. Genom att använda den här mallen kan IT-avdelningen arbeta effektivt, vilket ger en positiv ny medarbetarupplevelse och ger snabbare produktivitet.
+>
+>* **Kontrolllista för ärvda instansgrunder**
+>
+>    Den här planen innehåller en projektmall (eller checklista) som du kan granska med en kort lista över frågor, resurser och länkar för att få en tydlig förståelse för hur din Workfront-instans har konfigurerats. Använd detta när du nyligen har ärvt en Workfront-instans och behöver hjälp med var du ska börja.
+>
+>Om du vill granska de aktuella ritningarna kan du läsa [Lista över tillgängliga ritningar](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbetsstyrningssystem som växer med dig. Systemadministratörer kan bläddra i katalogen med utkast och installera färdiga projektmallar, instrumentpaneler och organisationsstrukturer. Andra användare kan bläddra i katalogen och begära installation av en plan. Mer information finns i [Bläddra i katalogen med ritningar och begär installation av ritningar](../../administration-and-setup/blueprints/browse-catalog.md).
 
