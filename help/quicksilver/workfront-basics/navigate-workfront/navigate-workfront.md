@@ -2,18 +2,20 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Navigera [!DNL Adobe Workfront]
-description: Gå igenom de här områdena för att få en förståelse för hur man navigerar i Workfront.
+description: Läs de här artiklarna för att få en förståelse för hur du navigerar i Workfront och lär dig Workfront terminologi.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 35fba253260deea56b2f3350aa32e1860338103f
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # Navigera [!DNL Adobe Workfront]
+
+Läs de här artiklarna för att få en förståelse för hur du navigerar i Workfront och lär dig Workfront terminologi.
 
 Det här avsnittet innehåller följande underavsnitt och artiklar:
 

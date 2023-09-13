@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Översikt över textläge
-description: Översikt över textläge
+description: Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp av standardgränssnittet eller textlägesgränssnittet när du skapar elementen som utgör rapporten eller listan.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp av standardgränssnittet eller textlägesgränssnittet när du skapar elementen som utgör rapporten eller listan. Med standardgränssnittet kan du referera till fält och deras attribut som är tillgängliga i Workfront-gränssnittet. I textläge kan du referera till fält och attribut som kanske inte är tillgängliga i standardläge, men som är tillgängliga i Workfront-databasen.
 
+Mer information om hur du skapar rapporter i textläge, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League webbplats.
+
 ## Att tänka på innan du använder textläge
 
 >[!TIP]
@@ -39,13 +41,13 @@ Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp av standardg
 * Vi rekommenderar att du använder standardläget för att säkerställa att de rapporter du skapar förblir intakta när Workfront uppdateras. I textläget kan du skapa mer komplexa vyer, filter och grupperingar, men det är också mer komplicerat att underhålla och garanteras inte när Workfront uppdateras.
 * Vi rekommenderar att du alltid försöker att skapa alla rapportelement i standardgränssnittet och växlar till textlägesbyggaren endast för få justeringar.
 
-   >[!TIP]
-   >
-   >Med standardverktyget får du viktiga byggstenar och mönster för kod som du sedan kan använda när du ändrar koden i textläge.
+  >[!TIP]
+  >
+  >Med standardverktyget får du viktiga byggstenar och mönster för kod som du sedan kan använda när du ändrar koden i textläge.
 
 * Det finns en uppsättning regler och en unik syntax som du måste använda för att kunna skapa rapporter och listor i textläge. Kontrollera att du känner till Workfront syntax för textläge innan du börjar.
 
-   Mer information om syntax och regler för användning av textläge finns i [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Mer information om syntax och regler för användning av textläge finns i [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * När du har anpassat ett rapportelement i textläge kanske du inte kan växla tillbaka till standardläge (i en vy) eller så kan koden för det element du skapade tas bort (i filter och grupperingar). Detta beror på att inte alla fält som stöds i textläge stöds i standardläge.
 
@@ -58,7 +60,7 @@ Mer information om standardlägesgränssnittet och hur du skapar en rapport elle
 * [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * [Rapportelement: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
-## Gränssnitt för textläge
+## Textlägesgränssnitt
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add a section or note with a link to an another article about the syntax of text mode >> link to the Calc custom fields vc calc. columns)</p>

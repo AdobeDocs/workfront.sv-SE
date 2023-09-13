@@ -3,9 +3,9 @@ title: Adobe Maestro-lansering
 description: Använd maestro för att skapa egna objekt, fält och arbetsytor.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Nu kan du välja en anpassad ikon för en posttyp och en anpassad färg för pos
 
 Förhandsgranskning och produktion: 13 juli 2023
 
-Nu kan du lägga till en fälttyp för kryssruta i Maestro-posttyper. Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en post. Du kan använda det här fältet för att ange ett specifikt attribut eller en specifik status för den aktuella posten. Du kan till exempel använda den som en flagga för att spåra slutförande, godkännande eller andra binära attribut för varje post.
+Nu kan du lägga till en fälttyp för kryssruta i Maestro-posttyper. Du kan använda ett fält av typen Kryssruta för att lägga till en kryssruta till en post. Du kan använda det här fältet för att ange ett specifikt attribut eller en specifik status för den aktuella posten. Du kan till exempel använda den som en flagga för att spåra slutförande, godkännande eller andra binära attribut för varje post.
 
 ## Vecka 26 juni 2023
 

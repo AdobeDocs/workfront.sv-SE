@@ -6,9 +6,9 @@ description: Översikt över vanliga användningsområden för textläge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ I den här artikeln beskrivs bara några exempel på var du troligen skulle beh�
 * [Exempel på anpassad vy, filter och gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Beräknade anpassade data i rapporter](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
+Mer information om hur du skapar rapporter i textläge, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League webbplats.
+
 <!--this link is outdated: 
 
 For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
@@ -39,7 +41,7 @@ Vi rekommenderar att du använder rapport- och listverktyget för att skapa vyer
 Du kan använda textläget när du vill uppnå följande i Workfront:
 
 * Skapa anpassade beräknade anpassade fält i ett anpassat formulär.\
-   Mer information om beräknade anpassade fält finns i [Använd textläge i beräknade anpassade fält](#use-text-mode-in-calculated-custom-fields) i den här artikeln.
+  Mer information om beräknade anpassade fält finns i [Använd textläge i beräknade anpassade fält](#use-text-mode-in-calculated-custom-fields) i den här artikeln.
 * Förbättra filter, vyer och grupperingar utöver vad som är möjligt i Report Builder. Mer information om hur du använder textläge för filter, vyer och grupperingar finns i följande avsnitt i den här artikeln:
 
    * [Använd textläge i vyer](#use-text-mode-in-views)
@@ -48,7 +50,7 @@ Du kan använda textläget när du vill uppnå följande i Workfront:
 
 * Skapa egna uppmaningar. Du kan bara skapa egna uppmaningar med textläge.
 
-   Mer information om hur du skapar egna uppmaningar finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Mer information om hur du skapar egna uppmaningar finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Använd textläge i beräknade anpassade fält {#use-text-mode-in-calculated-custom-fields}
 
@@ -103,9 +105,9 @@ Exempel på de vanligaste anledningarna att använda textläge i en vy finns i f
 * [Visa: visa resultatet av en beräkning mellan två fält i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [Visa: redigera bredden på en kolumn permanent](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
 * [Visa: sammanfoga information från flera kolumner i en delad kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
-* [Visa: ta bort länken till ett objekt i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+* [Visa: ta bort länk till ett objekt i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 * [Referenssamlingar i en rapport](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-* [Visa: dölja innehållet i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [Visa: dölj innehållet i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
 * [Visa: visa en bild i stället för en sträng i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Visa: visa indrag för uppgifter i en uppgiftslista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [Visa: beräkna tid- och datumskillnader](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
@@ -301,7 +303,7 @@ Du kan använda textläget när du skapar filter för att expandera fält och ob
 Exempel på de vanligaste anledningarna att använda textläge i ett filter finns i följande artiklar:
 
 * [Filter: skapa flera filterregler som refererar till samma fält (&quot;AND&quot;-satser)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-* [Filter: visa endast objekt i en godkännandestatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
+* [Filter: visa endast objekt med godkännandestatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [Filter: visa objekt efter status med samma namn när statusvärdena är kopplade till olika grupper](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 * [Filter: ta bort objekt i en lista genom att jämföra två fält](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
 * Avsnittet [Exempel på textlägesfilter som sträcker sig över flera nivåer i objekthierarkin](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples) i artikeln [Skapa komplexa textlägesfilter med EXISTS-satser](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
@@ -375,7 +377,7 @@ Du kan använda textläget när du skapar grupperingar för att utöka fält och
 
 Exempel på de vanligaste anledningarna att använda textläge i en gruppering finns i följande artiklar:
 
-* [Gruppering: ordna listresultat med ett beräknat värde som är gemensamt för alla objekt i grupperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [Gruppera: ordna listresultat med ett beräknat värde som är gemensamt för alla objekt i grupperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Gruppering: lägga till en fjärde gruppering i en lista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
 * [Gruppering: redigera visningsnamnet i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
 * [Gruppering: ange om resultatet av en gruppering ska komprimeras eller expanderas i textläge](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)

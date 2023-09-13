@@ -7,9 +7,9 @@ description: Vissa fält i Adobe Workfront begränsar antalet tecken som kan ink
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,8 @@ Vissa fält i Adobe Workfront begränsar antalet tecken som kan inkluderas i fä
 När du närmar dig gränsen visas en räknare. När du överskrider gränsen markeras överflödiga tecken och du kan inte bokföra texten. Ta bort tecken tills du är inom den tillåtna gränsen.
 
 Teckengränsen varierar beroende på vilket fält du använder. Gränserna nedan gäller för språk som använder ett latinskt alfabet (t.ex. engelska). Gränsen kan vara lägre för språk som innehåller tecken med utökade eller dubbla byte.
+
+Workfront- eller gruppadministratörer kan inte ändra teckengränserna i fält.
 
 <table style="table-layout:auto"> 
  <col> 

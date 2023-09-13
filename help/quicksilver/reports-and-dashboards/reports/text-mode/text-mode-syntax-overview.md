@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 0%
 
 Du kan använda textlägesgränssnittet för att skapa mer komplexa vyer, filter, grupperingar och anpassade uppmaningar i listor och rapporter. Genom att använda textläge kan du komma åt fält och deras attribut som inte är tillgängliga i standardlägesgränssnittet.
 
-Information om textläget innan du börjar finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Information om och överväganden om textläge innan du börjar finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 En fullständig lista över alla våra rapportbara fält och deras attribut finns i [API Explorer](../../../wf-api/general/api-explorer.md).
 
-## Överväganden om syntax i textläge
+Mer information om hur du skapar rapporter i textläge, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League webbplats.
+
+## Att tänka på när det gäller syntax i textläge
 
 * Du måste förstå Adobe Workfront-syntax innan du kan börja skapa rapportelement i textläge. Workfront-syntaxen för textläge är unik för det här programmet och har unika egenskaper som du måste känna till.
 * Innan du börjar använda textläge i dina rapporter rekommenderar vi att du går igenom våra lektioner för avancerad rapportering för att få en bättre förståelse för vårt textläge. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
@@ -36,7 +38,7 @@ Nedan följer några vanliga riktlinjer när du skapar ett rapporterings- eller 
 * Tänk på hierarkin med objekt i Workfront. Det finns följande skillnader mellan vyer, filter och grupperingar:
 
    * Du kan visa ett objekt som är tre objekt bort från rapporten eller listobjektet i en vy.
-   * Du kan inte referera till objekt som är mer än två objekt från huvudobjektet i en gruppering, ett filter eller en anpassad kommandotolk.
+   * Du kan inte referera till objekt som är mer än två objekt från huvudobjektet i en gruppering, ett filter eller en anpassad prompt.
 
   **Exempel:** Du kan visa Portfolio-ägarens namn eller GUID i en uppgiftsvy:
 
@@ -124,7 +126,7 @@ I följande tabell visas de vanligaste kodraderna i en vy eller gruppering:
 >
 >  `group.0.valuefield=name`
 >  
->* Om du redigerar flera kolumner i en vy i samma kolumn (som för delade kolumner) måste du komma ihåg att varje kodrad för varje kolumn börjar med kolumnnumret.
+>* Om du redigerar flera kolumner i en vy i samma kolumn (som när det gäller delade kolumner) måste du komma ihåg att varje kodrad för varje kolumn börjar med kolumnnumret.
 >
 >  Använd följande format för att identifiera den första kolumnen i en vy:
 >
@@ -157,7 +159,7 @@ Följande regler gäller när du refererar till Workfront-objekt med en `valuefi
 
 * När du refererar till ett anpassat fält ska du använda fältets namn exakt som det visas i gränssnittet.
 
-  **Exempel:** Använd följande rad om du vill referera till ett anpassat projektfält med namnet Ytterligare information i en uppgiftsvy:
+  **Exempel:** Om du vill referera till ett anpassat projektfält med namnet Ytterligare information i en uppgiftsvy använder du följande rad:
 
   `valuefield=project:Additional Details`
 
@@ -184,7 +186,7 @@ Följande regler gäller när du refererar till Workfront-objekt med en `valueex
 
 * Använd kamelcase och punkter för att separera fält som hör ihop.
 
-  **Exempel:** Använd följande rader om du vill visa namnet på ett projekt som är sammanfogat med namnet på uppgiften i en uppgiftsrapport:
+  **Exempel:** Använd följande rader om du vill visa namnet på ett projekt som är sammanfogat med namnet på uppgiften i en aktivitetsrapport:
 
    * I en vy:
 
@@ -200,7 +202,7 @@ Följande regler gäller när du refererar till Workfront-objekt med en `valueex
 
    * Använd namnet på fältet exakt som det visas i gränssnittet.
    * Föregående fältets namn med &quot;DE:&quot;.
-   * Omge fältet med klammerparenteser.
+   * Omsluter fältet med klammerparenteser.
    * Avgränsa fälten som hör till objektet med punkter.
 
   **Exempel:** Använd följande rad för att visa det anpassade fältet Ytterligare information i en uppgiftsvy på en värdesuttrycksrad:
@@ -215,7 +217,7 @@ Följande regler gäller när du refererar till Workfront-objekt med en `valueex
 #### `Valueformat` översikt för vyer och grupperingar
 
 Den näst viktigaste kodraden i en vy eller gruppering är `valueformat=` linje. Detta anger för Workfront i vilket format du vill returnera det värde du anger i dialogrutan
-`valuefield` eller värdeuttrycksrader. Även om du kan använda olika format för `valueformat` rader rekommenderar vi att du alltid använder följande värde när du använder
+`valuefield` eller värdeuttrycksrader. Du kan använda olika format för `valueformat` rader rekommenderar vi att du alltid använder följande värde när du använder
 `valueexpression`:
 
 `valueformat=HTML`
@@ -257,7 +259,7 @@ Syntaxen för att skapa filter liknar den för att skapa egna uppmaningar.
 >
 >Du kan skapa en anpassad fråga genom att först skapa ett filter för satsen som du vill inkludera i prompten. Koppla ihop alla kodrader i ett filter med &quot;&amp;&quot; utan blanksteg mellan raderna och det blir din egen uppmaning.
 
-Mer information om hur du skapar filter och anpassade anvisningar finns i:
+Mer information om hur du skapar filter och anpassade uppmaningar finns i:
 
 * [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -277,7 +279,7 @@ Du kan använda följande element för att skapa filter och anpassade uppmaninga
 
    * OCH
 
-     Detta är standardkopplingen mellan filtersatser.
+     Det här är standardkopplingen mellan filtersatser.
 
    * ELLER
 

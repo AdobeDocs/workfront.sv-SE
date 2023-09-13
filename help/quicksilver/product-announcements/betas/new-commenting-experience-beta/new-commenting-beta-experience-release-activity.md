@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,16 @@ Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av d
 Följande avsnitt innehåller en lista med funktioner som har lagts till efter den ursprungliga version 23.2, med början de som släpptes senast.
 
 Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. I den här artikeln listas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
+
+### Vecka 11 september 2023
+
+#### Den nya kommentarsfunktionen hämtar information från och med 1 januari 2019
+
+Projekt, uppgifter, utgåvor och dokument visar uppdateringar som börjar den 1 januari 2019 nu. Före den här förbättringen har den nya kommentarsupplevelsen endast hämtat uppdateringar från juni 2022 för dessa objekt.
+
+Mer information finns i [Ny kommentarsfunktion](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+Förhandsgranska och producera för alla kunder: 11 september 2023.
 
 ### Vecka 21 augusti 2023
 

@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2630'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 0%
 <THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL>
 -->
 
-Du kan skapa en frågekö där användare kan ange tillfälliga begäranden som inte är planerade för ett projekt. En kö för helpdesk-begäran kan till exempel ställas in för att samla in alla användarförfrågningar som kommer till en IT-avdelning.
+Du kan skapa en frågekö där användare kan ange tillfälliga begäranden som inte är planerade för ett projekt. En kö för helpdesk-begäran kan till exempel ställas in så att den fångar upp alla användarförfrågningar som kommer till en IT-avdelning.
+
+I den här artikeln beskrivs hur du kan skapa en begärandekö där användare kan skicka begäranden. Mer information om hur du skickar en ny begäran till en begärandekö finns i [Kopiera och skicka begäranden](../create-requests/copy-and-submit-requests.md).
 
 ## Åtkomstkrav
 
@@ -126,8 +128,8 @@ När du ställer in ett projekt som en frågekö måste projektstatusen vara Akt
 Så här skapar du en begärandekö:
 
 1. Gå till det projekt som du vill konfigurera som en frågekö.
-1. (Valfritt) Klicka på **Projektinformation** i den vänstra panelen och lägga till en **Beskrivning** till projektet i **Översikt** område. Den här informationen visas för alla nya begäranden.
-1. Klicka **Köinformation** i den vänstra panelen. Du kan behöva klicka **Visa fler** sedan **Köinformation**.
+1. (Valfritt) Klicka på **Projektinformation** i den vänstra panelen och lägga till en **Beskrivning** till projektet i **Ökning** område. Den här informationen visas för alla nya begäranden.
+1. Klicka **Köinformation** till vänster. Du kan behöva klicka **Visa fler** sedan **Köinformation**.
 
    Då öppnas avsnittet Köinformation.
 
@@ -135,7 +137,7 @@ Så här skapar du en begärandekö:
 
 1. Ange följande information:
 
-   * **Publicera som kö för hjälpbegäran:** Välj det här alternativet om du vill identifiera det här projektet som en begärandekö. Alla inkommande problem betraktas som begäranden.\
+   * **Publicera som kö för hjälpbegäran:** Välj det här alternativet om du vill identifiera projektet som en begärandekö. Alla inkommande problem betraktas som begäranden.\
      När det här alternativet inte är markerat fungerar projektet som ett standardprojekt i Workfront och alla inkommande problem är problem.
 
    * **Vem kan lägga till begäranden i den här kön?** Välj vilka användare som har åtkomst att lägga till begäranden i den här kön. Du kan tillåta följande grupper av personer att se begärandekön i området Förfrågningar i det globala navigeringsfältet:
@@ -188,7 +190,7 @@ Så här skapar du en begärandekö:
          <tbody> 
           <tr> 
            <td> <p>Justera ramens storlek</p> </td> 
-           <td> <p>Ändra attributen "width" och "height".</p> <p>Som standard är bredden"500" och höjden"600"</p> </td> 
+           <td> <p>Ändra attributen för bredd och höjd.</p> <p>Som standard är bredden"500" och höjden"600"</p> </td> 
           </tr> 
           <tr> 
            <td> <p>Direktanvändare till en viss ämnesgrupp eller ämnesgrupp i kön</p> </td> 
@@ -220,13 +222,13 @@ Så här skapar du en begärandekö:
      >
      Begärantyper visas bara som ett urval i området Förfrågningar om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du ställer in området Köinformation för ett projekt finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-     Alla typer som markeras här är tillgängliga i formuläret (du kan markera flera). Om du väljer mer än en typ kan du ordna flera förfrågningar som kommer in.\
+     Alla typer som markeras här är tillgängliga i formuläret (du kan markera fler än en). Om du väljer mer än en typ kan du ordna flera förfrågningar som kommer in.\
      Om du till exempel använder formuläret i en begärandekö för ett IT-projekt kan följande typer av begäranden placeras i kön: maskinvara, programvara, felkorrigeringar och problem.
 
    * **Standardvaraktighet:** Standardlängden är den tid det normalt tar att slutföra ett problem. Detta blir standard för alla inkommande ärenden och kan ändras manuellt. Varaktigheten anges vanligtvis i timmar, dagar eller veckor. Standardlängden för ett problem är densamma som de planerade timmarna för problemet. Det planerade slutförandedatumet för problemet beräknas utifrån det här fältet.\
      Standardvärdet för utfärdandevaraktighet är 1 dag eller 8 timmar. Om Workfront-administratören ställer in Normal timma per arbetsdag till mindre än 8 timmar är standardvaraktigheten för utgåvor fortfarande 8 timmar. Om t.ex. antalet timmar per arbetsdag är 7 timmar är standardlängden för utleveranser 1,14 dagar eller 8 timmar. Mer information om hur du ställer in systemet för beräkning av normaltimmar per arbetsdag finns i avsnittet &quot;Beräkningar av tidslinje&quot; i artikeln [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **Personer från samma företag ärver samma behörigheter för alla begäranden.:** När du väljer det här alternativet visas alla begäranden som skickas till kön för användare i samma företag. Användare kan visa dessa begäranden i avsnittet Alla begäranden, som finns i området Begäranden. När denna inställning är aktiverad eller inaktiverad påverkas alla framtida förfrågningar. inte retroaktivt påverkar informationen.
+   * **Personer från samma företag ärver samma behörigheter för alla begäranden.:** När du väljer det här alternativet visas alla begäranden som skickas till kön för användare i samma företag. Användare kan visa dessa begäranden i avsnittet Alla begäranden, som finns i området Begäranden. När den här inställningen är aktiverad eller inaktiverad påverkas alla framtida förfrågningar. Informationen påverkas inte retroaktivt.
    * **När någon gör en förfrågan tilldelar automatiskt** När en användare gör en begäran i kön med begäranden, tilldelas användaren automatiskt den behörighetsnivå som du väljer för den begäran. Välj bland följande behörighetsnivåer:
 
       * **Visa**
@@ -303,7 +305,7 @@ Så här skapar du en begärandekö:
      >
      Anpassade formulär som läggs till i avsnittet Köinformation associeras också med eventuella nya problem som läggs till i projektet eller aktiviteterna i avsnittet Problem.
 
-1. Fortsätt att välja information för inställningarna i **Inställningar för e-postkö** -området, så att användare kan skicka begäranden via e-post till begärandeköprojektet.
+1. Fortsätt att välja information för inställningarna i dialogrutan **E-postköinställningar** -området, så att användare kan skicka begäranden via e-post till begärandeköprojektet.
 
    Mer information finns i [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 

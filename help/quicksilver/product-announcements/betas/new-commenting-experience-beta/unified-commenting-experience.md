@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,9 @@ Följande funktioner har tagits bort från den nya versionen:
 
 >[!NOTE]
 >
->Objekten nedan har endast kommentarer och systemuppdateringar från det senaste året (från juni 2022) tillgängliga när du aktiverar betafunktionen.
+>Objekten som anges nedan har endast de kommentarer och systemuppdateringar som börjar den 1 januari 2019 tillgängliga i den nya kommentarsupplevelsen.
 >
->Du kan visa kommentarer och systemuppdateringar för dessa objekt före juni 2022 när du visar uppdateringsavsnittet i den aktuella upplevelsen:
+>Du kan visa kommentarer och systemuppdateringar för dessa objekt före 1 januari 2019 när du visar uppdateringsavsnittet i den aktuella upplevelsen:
 >
 >* Problem
 >* Projekt

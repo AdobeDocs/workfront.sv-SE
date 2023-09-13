@@ -6,9 +6,9 @@ description: Genom att förstå hur man skapar rapporter får man tillgång till
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 Genom att förstå hur man skapar rapporter får man tillgång till den information man behöver inom Adobe Workfront. Du kan använda någon av de inbyggda rapporterna i Workfront eller skapa egna rapporter från grunden.
 
-Mer information om inbyggda rapporter finns i [Använd inbyggda rapporter från Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). Mer information om hur du skapar en rapport genom att kopiera den finns i [Skapa en kopia av en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Mer information om inbyggda rapporter finns i [Använd inbyggda rapporter från Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+
+Mer information om hur du skapar en rapport genom att kopiera den finns i [Skapa en kopia av en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+Mer information om hur du skapar och hanterar rapporter, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League webbplats.
 
 ## Åtkomstkrav
 
@@ -98,7 +102,7 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
    </table>
 
 1. Klicka när som helst under rapportskapandeprocessen **Använd** för att spara ändringarna.
-1. När du är klar klickar du på **Spara + Stäng**.
+1. När du är klar klickar du **Spara + Stäng**.
 
 ### Lägga till kolumner (vy) i en rapport {#add-columns-view-to-a-report}
 
@@ -108,7 +112,7 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
 
    Mer information om hur du skapar en ny vy finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Om du vill lägga till en ny kolumn klickar du på **Lägg till kolumn**.
+1. Om du vill lägga till en ny kolumn klickar du **Lägg till kolumn**.
 
    eller
 
@@ -122,14 +126,14 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
 
 1. (Valfritt) I dialogrutan **Kolumninställningar** område, markera **Sortera efter den här kolumnen** Om du vill sortera värdena i kolumnen i stigande ordning efter fallande alfabetisk ordning, anger du om den här kolumnen ska användas som första sortering i listan.
 
-   Du kan ha flera sorteringsnivåer i en rapportvy om du vill sortera efter värdet i en kolumn först, värdet i en andra kolumn o.s.v.
+   Du kan ha flera sorteringsnivåer i en rapportvy om du vill sortera efter värdet i en kolumn först, värdet i en andra kolumn, osv.
 
    Om flera resultat är identiska enligt det första sorteringsvillkoret sorteras de i ordningen för det andra sorteringsvillkoret. Om flera resultat är identiska enligt det första och det andra sorteringsvillkoret, sorteras de efter den tredje sorteringen osv.
 
    >[!NOTE]
    >
    >Om du lägger till ett fält som refererar till ett objekt som är för långt bort från det objekt som du rapporterar om, kanske du inte kan sortera efter det här fältet.\
-   >En problemrapport kan till exempel inte sorteras efter fältet Projektägare eftersom den refererar till ytterligare tre objekt: Projekt, ägare och namn. Du kan dock fortfarande lägga till det här fältet i en problemrapport och se informationen för det.
+   >En problemrapport kan till exempel inte sorteras efter fältet Projektägare eftersom den refererar till ytterligare tre objekt: Projekt, Ägare och Namn. Du kan dock fortfarande lägga till det här fältet i en problemrapport och se informationen för det.
 
    <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
@@ -146,9 +150,8 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
    >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
    >
    >* Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
-   >* Faktiska timmar sammanställer värdena för huvuduppgiften och de fristående uppgifterna. de sammanställer inte siffrorna för överordnade och underordnade uppgifters överordnade uppgifter.
-   >* Anpassade datafält för tal- och valutavärden samlar alla uppgifter: föräldrar, barn, föräldrar till föräldrar och fristående uppgifter.
-
+   >* Faktiska timmar sammanställer värdena för de huvudsakliga överordnade och de fristående aktiviteterna. De sammanställer inte siffrorna för de överordnade aktiviteternas överordnade eller underordnade aktiviteternas överordnade uppgifter.
+   >* Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter.
 
    Mer information om hur du använder grupperingar i en rapport finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -205,7 +208,6 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
    >
    >* När du justerar grupperingar manuellt när du visar en lista kommer Workfront ihåg dina manuella inställningar tills du loggar ut. När du loggar in igen visas listan enligt den här inställningen.
    >* Resultatet av en gruppering visas alltid expanderat när du har öppnat dem från ett diagramelement.
-
 
 1. (Valfritt) Du kan välja att skapa en matrisgruppering och visa resultatet i ett rutnätsformat.
 

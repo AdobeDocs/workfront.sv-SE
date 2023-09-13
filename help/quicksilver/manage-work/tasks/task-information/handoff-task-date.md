@@ -7,9 +7,9 @@ description: Leveransdatumet är det datum då en uppgift blir tillgänglig för
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,8 @@ Workfront använder följande regler för att beräkna leveransdatum för en upp
 
 * **När aktiviteten inte har någon föregångare och**:
 
-   * **Det planerade startdatumet har redan infallit**: Leveransdatumet är samma som projektets planerade startdatum.
-   * **Det planerade startdatumet infaller i framtiden (alla datum efter det aktuella datumet)**: Leveransdatumet är samma som det planerade startdatumet för aktiviteten.
+   * **Det planerade startdatumet har redan infallit**: Leveransdatumet är samma som projektets planerade startdatum om aktiviteten inte har någon fast begränsning. Om aktiviteter har tvingade begränsningar finns mer information i avsnittet &quot;När aktiviteten har en tvingad begränsning för planerade datum&quot; nedan.
+   * **Det planerade startdatumet infaller i framtiden (alla datum efter det aktuella datumet)**: Leveransdatumet är samma som det planerade startdatumet för aktiviteten om aktiviteten inte har någon fast begränsning. Om aktiviteter har tvingade begränsningar finns mer information i avsnittet &quot;När aktiviteten har en tvingad begränsning för planerade datum&quot; nedan.
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfront använder följande regler för att beräkna leveransdatum för en upp
 
   Följande scenarier finns:
 
-   * När aktiviteten har begränsningen Måste börja den eller Start inte tidigare än, är leveransdatumet begränsningsdatumet, såvida det inte finns ett faktiskt startdatum för aktiviteten. Om det finns ett faktiskt startdatum för aktiviteten är leveransdatumet det faktiska slutförandedatumet för föregående aktivitet.
-   * När aktiviteten har begränsningen Måste avslutas den eller starta inte senare än är datumet för leverans alltid föregående, oavsett om det finns ett faktiskt startdatum för aktiviteten eller inte.
-   * När aktiviteten har en begränsning med fasta datum är leveransdatumet det planerade startdatumet för aktiviteten, oavsett om den har en föregångare eller inte och oavsett om den har slutförts eller inte.
+   * **När aktiviteten har begränsningen Måste starta den eller Starta inte tidigare än**: Om aktivitetsvillkorsdatumet redan har infallit och det inte finns något faktiskt startdatum för aktiviteten (aktiviteten har inte startats ännu) är leveransdatumet det närmaste möjliga datumet som aktiviteten kan startas för att bearbetas. Om aktiviteten har startats är leveransdatumet lika med startdatumet för projektet.
+   * **När aktiviteten har begränsningen Måste avslutas den eller starta inte senare än**: Om aktivitetsvillkorsdatumet infaller i framtiden och det inte finns något faktiskt startdatum för aktiviteten (aktiviteten har inte startats ännu) är utdelningsdatumet aktivitetens planerade startdatum. Om det finns som faktiskt startdatum för aktiviteten är datumet för leverans projektets startdatum.
+   * **När aktiviteten har en begränsning för fasta datum**: Leveransdatumet är det planerade startdatumet för aktiviteten, oavsett om den har en föregångare eller inte och oavsett om den har slutförts eller inte.
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## Hitta leveransdatumet
 
