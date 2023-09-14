@@ -3,9 +3,9 @@ title: Åtkomstöversikt
 description: Alla användare i en organisation har tillgång till Adobe Maestro. För närvarande finns det inga åtkomstnivåer eller behörigheter kopplade till användare eller informationen i Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->För närvarande ingår Adobe Maestro i ett slutet betaprogram som är öppet för ett begränsat antal kunder.
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
+>
+>Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
+>
+>Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->

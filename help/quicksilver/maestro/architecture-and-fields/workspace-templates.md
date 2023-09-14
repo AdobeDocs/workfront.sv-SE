@@ -3,9 +3,9 @@ title: Lista över arbetsytemallar
 description: En arbetsyta är en samling driftsposttyper och taxonomier som används av ett team och som representerar teamets arbetslivscykel. Maestro har en uppsättning mallar som hjälper dig att komma igång med grundläggande posttyper, taxonomier och fält när du skapar arbetsytan.
 hide: true
 hidefromtoc: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 >[!IMPORTANT]
 >
->För närvarande ingår Adobe Maestro i ett slutet betaprogram som är öppet för ett begränsat antal kunder.
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
 >

@@ -3,9 +3,9 @@ title: Adobe Maestro-information
 description: Som marknadsledare kan ni använda Adobe Maestro för att organisera arbetet under hela marknadsföringscykeln för alla era team. I artiklarna i det här avsnittet beskrivs hur du kan konfigurera Maestro och hur du kan börja använda dess funktioner som en del av dina kampanjhanteringsåtgärder.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
+<!--remove the video at open beta or before-->
+
 Som marknadsledare kan ni använda Adobe Maestro för att organisera arbetet under hela marknadsföringscykeln för alla era team.
 
 >[!IMPORTANT]
 >
->För närvarande ingår Adobe Maestro i ett slutet betaprogram som är öppet för ett begränsat antal kunder.
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
 >
@@ -43,8 +45,20 @@ I artiklarna i avsnitten nedan beskrivs hur du kan konfigurera Maestro och börj
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
 
-* [Maestro - översikt](maestro-overview.md): En översikt på hög nivå över Adobe Maestro, inklusive de termer och begrepp som är unika för den här lösningen.
+## Allmän översikt över Adobe Maestro
+
+I följande artiklar finns en översikt över Adobe Maestro:
+
+<!--update the video when we have something better, especially after Open Beta - remove it-->
+
+* [Se en videodemonstration av Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
+* [Maestro - översikt](maestro-overview.md): En översikt på hög nivå över Adobe Maestro, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Maestro här.
 * [Frisläpp aktivitet](../maestro/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Maestro avslutade betaprogrammet den 22 maj 2023 med exakta releasedatum och en kort översikt över samtliga funktioner.
+
+## Makroarkitektur och funktionalitet
+
+Följande avsnitt innehåller artiklar som i detalj beskriver de Maestro-funktioner som finns för närvarande:
+
 * [Åtkomstinformation](../maestro/access/access-information.md): Information om den åtkomst som behövs för att använda Adobe Maestro.
 * [Arkitekturinformation](../maestro/architecture-and-fields/architecture-and-fields-information.md): Detaljerad information om arkitekturen i Adobe Maestro, med stegvisa instruktioner om hur du kan skapa och hantera arbetsytor, posttyper och fält.
 * [Information om poster](../maestro/records/records-information.md): Detaljerad information och stegvisa instruktioner om hur du kan skapa och hantera poster.

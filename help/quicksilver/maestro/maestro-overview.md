@@ -3,9 +3,9 @@ title: Adobe Maestro - översikt
 description: Adobe Maestro är ett nytt erbjudande från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,14 @@ ht-degree: 0%
 
 <!-- remove the references to closed beta from the entire article-->
 
+<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
+
 >[!IMPORTANT]
 >
->För närvarande ingår Adobe Maestro i ett slutet betaprogram som är öppet för ett begränsat antal kunder.
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
+>[Se en videodemonstration av Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
 ## Introduktion till Adobe Maestro
 
