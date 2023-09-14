@@ -3,9 +3,9 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
+source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,49 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 
 ## Adobe Workfront-förbättringar
 
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättringar av anslagstavlor](#boards-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Andra förbättringar](#other-enhancements)
+
+### Administratörsförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Lägg till värdealternativ från ett externt API till ett anpassat formulär</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>En ny fälttyp, <strong>Extern sökning</strong>finns nu på den anpassade formulärdesignern. När du har data lagrade på ett externt system kan du med den här fälttypen läsa in alternativ från ett externt API och filtrera baserat på andra fältvärden i det anpassade formuläret.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 14 september 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.9</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Förbättringar av anslagstavlor
 
@@ -60,7 +99,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                         <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                </tr>  
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Förbättringar av användartilldelningar på kort och kort</a></p><p>Nu finns det förbättringar som ger större flexibilitet när du lägger till användare på kort och kort i Adobe Workfront Boards.</p>
@@ -157,7 +196,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                         <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                 </tr>  
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Förbättrade upplevelser när du skickar dokument till SharePoint (GraphAPI)</a></p><p>Vi har gjort några ändringar som gör det enklare att hitta mappar när du skickar dokument till dina SharePoint-mappar (GraphAPI)</p>
@@ -165,7 +204,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 24 augusti<br /></p>
+                                <p>Förhandsversion: 24 augusti 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktion för alla kunder: 31 augusti 2023</span></p>
@@ -180,7 +219,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 24 augusti<br /></p>
+                                <p>Förhandsversion: 24 augusti 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktion för alla kunder: 31 augusti 2023</span></p>
@@ -190,7 +229,6 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 </tr>
            </tbody>
         </table>
-
 
 ### Projektförbättringar
 
@@ -272,65 +310,6 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
            </tbody>
         </table>
 
-<!--
-### Financial management enhancements
-
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
-                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: June 29, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
-                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 17, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-        </table>
--->
-
 ### Andra förbättringar
 
 <table>
@@ -387,6 +366,25 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nya snabbåtkomstknappar för widgeten Mitt arbete</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Ytterligare utökade möjligheter att hantera material direkt från Nytt hem, har nya snabbåtkomstknappar lagts till i widgeten Mitt arbete.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 13 september 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.9</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nya filteralternativ för Nytt hem</a> </p>
