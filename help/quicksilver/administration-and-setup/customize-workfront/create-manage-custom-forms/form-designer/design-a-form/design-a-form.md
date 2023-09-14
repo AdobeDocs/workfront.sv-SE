@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 0%
 
 ---
 
 # Designa ett formulär med formulärdesignern
+
+{{preview-and-fast-release}}
 
 Du kan utforma ett anpassat formulär med formulärdesignern. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -492,6 +494,90 @@ Så här lägger du till typsnittsdatumfält:
 
    Klicka **Spara och stäng**.
 
+<div class="preview">
+
+### Lägg till externa sökfält
+
+Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja något av dessa alternativ i listrutan.
+
+Så här lägger du till en extern sökning:
+
+1. På skärmens vänstra sida finns **Extern sökning** och dra den till ett avsnitt på arbetsytan.
+1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Etikett</td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Namn</td> 
+      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar det anpassade fältet.</p> <p>När du konfigurerar det anpassade fältet för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> 
+      <p><b>VIKTIGT</b>:   
+      <ul> 
+      <li>Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen det anpassade fältet där det nu kan refereras till i andra områden av Workfront. <p>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.</p> </li>
+      <li> <p>Vi rekommenderar att du inte skriver in ett namn som redan används för inbyggda Workfront-fält.</p> </li>
+      <li><p>Vi rekommenderar att du inte använder punkt-/punkttecken i det anpassade fältnamnet för att förhindra fel när du använder fältet i olika områden av Workfront.</p></li>
+      </ul> <p>Varje anpassat fältnamn måste vara unikt i din organisations Workfront-instans. På så sätt kan du återanvända ett som redan har skapats för ett annat anpassat formulär. Mer information finns i <a href="#Add" class="MCXref xref">Lägga till ett anpassat fält i ett anpassat formulär</a> i den här artikeln.</p> </td>
+     </tr> 
+      <td role="rowheader">Instruktioner</td> 
+      <td> <p>Ange eventuell ytterligare information om det anpassade fältet. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Format</td>
+      <td><p>Välj den typ av data som ska hämtas i det anpassade fältet.</p>
+      <p><strong>OBS!</strong></p>
+      <ul><li>Du kan ändra formattyp när formuläret har sparats, med en begränsning: Alla befintliga värden på objekt måste kunna konverteras till den nya typen. (Om formattypen till exempel är Text och ett objekt lagrar värdet "abc", kan du inte konvertera fältet och får ett felmeddelande om att systemet inte kan konvertera "abc" till tal/valuta.) Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.</li>
+      <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">Bas-API-URL</td> 
+      <td><p>Skriv eller klistra in URL:en för API:t.</p><p>API-URL:en måste returnera ett JSON-innehåll av de alternativ som du vill visa i listrutan. Du kan använda fältet JSON-sökväg för att välja specifika värden från den returnerade JSON-filen som ska vara listrutealternativ.</p><p>När du anger API-URL:en kan du välja att skicka följande värden i URL:en:</p>
+      <ul><li>$$query - Detta representerar den söktext som slutanvändaren skriver i fältet och gör att du kan implementera frågefiltrering för slutanvändarna. (Användaren söker efter värdet i listrutan.)</li>
+      <li>{fieldName} - Där fieldName är ett anpassat eller inbyggt fält i Workfront. På så sätt kan du implementera filtren för överlappande listrutor när du skickar värdet för ett redan markerat fält till fältet för extern sökning för att filtrera ned alternativen. (Fältet Region finns till exempel redan i formuläret och du begränsar en lista med länder från API:t till de som finns i en viss region.)</li></ul>
+      <p><strong>OBS!</strong> Granska dokumentationen för API:t som du arbetar med för de specifika frågor som du kan definiera.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">HTTP-metod</td> 
+      <td>Välj <strong>Hämta</strong>, <strong>Bokför</strong>, eller <strong>Put</strong> för metoden.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">JSON-sökväg</td>
+      <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutealternativen.</p><p>Om din API-URL till exempel returnerar JSON i det här formatet:</br>
+      <pre>
+      { data: { name: "USA"}, { name: "Canada"} }
+      </pre>
+      </p>
+      <p>kan du använda "$.data[*].name" för att välja USA och Kanada som listrutealternativ.</p> <p>Mer information om JSON-sökvägen och hur du skriver rätt JSON-sökväg finns i <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Sidhuvuden</td>
+      <td>Klicka <strong>Lägg till sidhuvud</strong>och skriv eller klistra in nyckelvärdepar som krävs för autentisering med API:t.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+
+   eller
+
+   Klicka **Spara och stäng**.
+
+>[!NOTE]
+>
+>Tekniska begränsningar för anropet till det externa API:t:
+>
+>* Maximalt antal alternativ: 200 (endast de första 200 alternativen från det returnerade JSON visas)
+>* Timeout: 3 sekunder
+>* Antal återförsök: 3
+>* Väntetid mellan återförsök: 500 ms
+>* Förväntad svarsstatus: 2xx
+
+</div>
+
 ### Lägga till bilder, PDF och videoklipp
 
 Du kan lägga till bilder, PDF och videoklipp i ett anpassat formulär. Användare som arbetar med det objekt som det anpassade formuläret är kopplat till kan endast se bild, PDF eller video i följande områden:
@@ -514,7 +600,7 @@ The Workfront Mobile app -->
 
 +++
 
-Så här lägger du till bilder, PDF eller videor:
+Så här lägger du till bilder, PDF eller videofilmer:
 
 1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
