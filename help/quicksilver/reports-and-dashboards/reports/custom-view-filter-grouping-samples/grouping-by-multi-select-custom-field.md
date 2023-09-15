@@ -3,29 +3,37 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Gruppera en rapport efter ett anpassat fält som har flera val
-description: Du kan gruppera efter värdet i ett anpassat fält med flera val i en Adobe Workfront-rapport. Exempel på anpassade fält med flera val är - REDIGERA MIG.
+description: Du kan bara gruppera efter värdet i ett anpassat fält med flera val i en Adobe Workfront-rapport genom att använda textläge.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Gruppera en rapport efter ett anpassat fält som har flera val
 
-Du kan gruppera efter värdet i ett anpassat fält med flera val i en Adobe Workfront-rapport. Exempel på anpassade fält med flera val är:
+Du kan bara gruppera efter värdet i ett anpassat fält med flera val i en Adobe Workfront-rapport genom att använda textläge.
+
+Exempel på anpassade fält med flera val är:
 
 * Kryssrutor
 * Flervalsmenyer
 
-Du kan bara gruppera efter den här typen av fält i textläge. Mer information om hur du använder textläge finns i artikeln [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Mer information om hur du använder textläge finns i artikeln [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
->[!NOTE]
->
->Du kan inte diagramma en rapport med ett anpassat fält som har flera val. Du måste skapa ytterligare ett beräkningsfält som refererar till det anpassade fältet för flera val för att kunna diagram rapporten med värdet för det anpassade fältet för flera val. Mer information finns i [Diagrama en rapport med ett anpassat fält som har flera val](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+## Att tänka på när du grupperar efter ett anpassat fält med flera val
+
+* Det går inte att diagram över en rapport som använder en gruppering i textläge. Du måste skapa ytterligare ett beräkningsfält som refererar till det anpassade fältet för flera val för att kunna diagram rapporten med värdet för det anpassade fältet för flera val.
+
+  Mer information finns i [Diagrama en rapport med ett anpassat fält som har flera val](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+* Artiklar som har något av alternativen markerat räknas bara en gång.
+
+  Om du till exempel har ett anpassat kryssrutefält med alternativen Val 1 och Val 2 som och bifogar formuläret till uppgifter, grupperas de uppgifter som har både Val 1 och Val 2 som markerade separat från de uppgifter som bara har Val 1 eller Val 2 markerade.
+
 
 ## Åtkomstkrav
 
@@ -57,14 +65,14 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Gruppera en rapport efter anpassade fält som har flera val
 
 Om du vill kunna gruppera efter ett anpassat fält med flera val måste du ha följande krav:
 
 * Bygg det anpassade flervalsfältet i ett anpassat formulär.\
-   Mer information om hur du skapar anpassade formulär och lägger till anpassade fält till dem finns i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält finns i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * Koppla det anpassade formuläret till objekt.
 * Fyll det anpassade fältet för flera val med ett värde för varje objekt. 
@@ -79,12 +87,18 @@ Så här grupperar du ett anpassat fält i en rapport efter flera val:
 
 1. Markera texten i **Gruppera din rapport** och ersätta den med följande kod:
 
-   <pre>group.0.displayName=Flera val, eget fältnamn<br>group.0.valueexpression={DE:Multi-select Custom Field Name}<br>group.0.valueFormat=HTML<br>textmode=true</pre>
+   <pre>
+   group.0.displayName=Multi-select Custom Field Name group.0.valueExpression={DE:Multi-select Custom Field Name} group.0.valueFormat=HTML group.0.textmode=true
+   </pre>
 
-1. Ersätt&quot;Flerval anpassat fältnamn&quot; med det faktiska namnet på det anpassade fältet som det visas i Workfront.  
-1. Klicka **Spara och stäng**.\
-   Objekten i rapporten grupperas efter värdena i det anpassade fältet med flera val.\
-   Namnet på rapportens grupperingar är namnen på det anpassade fältet med flera val följt av de värden som är markerade i fältet. 
+1. Ersätt&quot;Flerval anpassat fältnamn&quot; med det faktiska namnet på det anpassade fältet som det visas i Workfront.
+1. Klicka **Spara och stäng**.
+
+   Objekten i rapporten grupperas efter värdena i det anpassade fältet med flera val.
+
+   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+
+   Namnet på rapportens grupperingar är namnen på det anpassade fältet med flera val följt av de värden som är markerade i fältet.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

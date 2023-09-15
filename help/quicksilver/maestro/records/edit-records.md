@@ -3,9 +3,9 @@ title: Redigera poster
 description: Du kan redigera postinformation i Adobe Maestro. Du måste skapa posttyper innan du kan börja skapa och redigera poster.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Om de redigerade posterna är länkade till andra poster återspeglas den nya informationen om de poster som du redigerar på de länkade posterna.
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
 
+
 ## Redigera poster
 
 Du kan redigera en post i följande områden:
@@ -140,7 +141,9 @@ Du kan redigera en post i följande områden:
 
    >[!TIP]
    >
-   >Länkade fält kan inte redigeras. Informationen för dessa fält fylls i automatiskt från de länkade posterna. Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
+   >* Länkade fält kan inte redigeras. Informationen för dessa fält fylls i automatiskt från de länkade posterna. Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
+   >
+   >* URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
 
 
 

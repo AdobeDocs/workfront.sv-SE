@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ Följande funktioner har tagits bort från den nya versionen:
 * Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs
 * Redigera eget formulär
 * Informationen&quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör loggar in som en annan användare och lägger till en kommentar för deras räkning.
+* Alternativet Fråga efter godkännande när du taggar personer när du lägger till en kommentar i ett dokument.
 
 >[!NOTE]
 >
