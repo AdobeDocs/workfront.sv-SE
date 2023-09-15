@@ -1,23 +1,23 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '''Meddelanden: Diverse information'
+title: 'Meddelanden: Övrig information'
 description: Följande meddelanden informerar dig om aktiviteter som utförs i ett projekt som du sponsrar.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
 
-# Meddelanden: Diverse information
+# Meddelanden: Övrig information
 
 Följande meddelanden informerar dig om aktiviteter som utförs i ett projekt som du sponsrar.
 
-Mer information om hur du konfigurerar vilka meddelanden du får finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information om hur du konfigurerar vilka meddelanden du får finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -39,7 +39,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
  <tbody> 
   <tr> 
    <td> <p><strong>Ett meddelande skickas till [!UICONTROL Announcement Center]</strong> </p> <p>Du får ett e-postmeddelande när ett nytt meddelande har skickats till [!UICONTROL Announcement Center]. </p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL [!DNL Adobe Workfront] Meddelande]: &lt;subject of="" the="" announcement=""&gt;</em></p> </td> 
-   <td> Ämne för meddelandet<br>Texten i meddelandet<br>Bifogade dokument<br>Namnet på den användare som skickade meddelandet<br>Datum och tid då meddelandet skickades </td> 
+   <td> Ämne för meddelandet<br>Texten i meddelandet som ingår i meddelandet<br>Bifogade dokument<br>Namnet på den användare som skickade meddelandet<br>Datum och tid då meddelandet skickades </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>En av mina medarbetare läggs till i ett projekt</strong> </p> <p>En projektledare får ett e-postmeddelande när någon av användarna läggs till i ett projekt. Det här meddelandet skickas oavsett projektets status. </p> <p>Användare med [!UICONTROL Review] licensen får inget meddelande.</p> <p>Ämnet för e-postmeddelandet är: <em>Projekttilldelning: &lt;user name=""&gt;[&lt;project guid=""&gt;_ &lt;user guid=""&gt;]</em></p> </td> 
+   <td> <p><strong>En av mina medarbetare läggs till i ett projekt</strong> </p> <p>En projektledare får ett e-postmeddelande när någon av användarna läggs till i ett projekt. Det här meddelandet skickas oavsett projektets status. </p> <p>Användare med en [!UICONTROL Review] licensen får inget meddelande.</p> <p>E-postmeddelandet innehåller följande: <em>Projekttilldelning: &lt;user name=""&gt;[&lt;project guid=""&gt;_ &lt;user guid=""&gt;]</em></p> </td> 
    <td> <p>Projektnamn<br>Portfolio<br>Projektets referensnummer<br>Namnet på den användare som lade till personen i projektet<br>Namnet på den användare som lades till i projektet<br>Projekt [!UICONTROL Planned Start Date]<br>Projekt [!UICONTROL Planned Completion Date]<br>Procent färdigt projekt<br>Namn på andra i projektet<br>Projektstatus<br>Projektägare<br><strong>[!UICONTROL See More Details]</strong> knapp<br><br><br></p> </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
@@ -73,7 +73,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Någon delar objekt med mig</strong> </p> <p>Du får ett e-postmeddelande när någon lägger till dig i [!UICONTROL Sharing] behörighetslista för ett objekt.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Access Granted]: &lt;object name=""&gt;</em></p> <p>Ett meddelande skickas bara om projektet är i [!UICONTROL Current] status.</p> </td> 
+   <td> <p><strong>Någon delar objekt med mig</strong> </p> <p>Du får ett e-postmeddelande när någon lägger till dig i [!UICONTROL Sharing] lista med behörigheter för ett objekt.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Access Granted]: &lt;object name=""&gt;</em></p> <p>Ett meddelande skickas bara om projektet är i [!UICONTROL Current] status.</p> </td> 
    <td> Objektnamn<br>Namn på överordnat objekt<br>Objektreferensnummer<br>Ursprunglig åtkomst till objektet<br>Ny åtkomst tilldelad objektet<br>Datum och tid då åtkomsten beviljades <br>Namnet på den användare som beviljade åtkomsten </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
@@ -84,7 +84,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
   </tr> 
   <tr> 
    <td> <p><strong>En uppdatering görs av en uppgift, ett problem eller ett projekt som jag prenumererar på</strong> </p> <p>Du får ett e-postmeddelande när någon kommenterar ett objekt som du prenumererar på.</p> <p>Ämnet för prenumerationens e-postmeddelande är: <em>[!UICONTROL An update was made to the] &lt;object type=""&gt; du prenumererar på: &lt;object name=""&gt;</em></p> </td> 
-   <td> Objektnamn<br> Objektreferensnummer<br> Namnet på den användare som kommenterade det prenumererade objektet<br> Datumkommentar<br> Kommentar har lagts till i det prenumererade objektet  </td> 
+   <td> Objektnamn<br> Objektreferensnummer<br> Namnet på den användare som kommenterade det prenumererade objektet<br> Datumkommentar har gjorts<br> Kommentar har lagts till i det prenumererade objektet  </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
  </tbody> 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 701b3c95929259cc01b97866b61a8c4c680ee5a7
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '13339'
+source-wordcount: '13337'
 ht-degree: 0%
 
 ---
@@ -863,7 +863,7 @@ ht-degree: 0%
    * Använd meddelanden {#use-notifications}
       * [Använd meddelanden](workfront-basics/using-notifications/use-notifications.md)
       * [Adobe Workfront-meddelanden](workfront-basics/using-notifications/wf-notifications.md)
-      * [Aktivera eller inaktivera egna händelsemeddelanden](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+      * [Ändra dina egna e-postmeddelanden](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Prenumerera på objekt i Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [Översikt över meddelanden i appen](workfront-basics/using-notifications/in-app-notifications-overview.md)
       * [Visa och hantera meddelanden i appen](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)

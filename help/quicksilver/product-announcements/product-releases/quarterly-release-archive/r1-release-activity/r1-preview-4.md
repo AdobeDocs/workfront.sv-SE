@@ -6,9 +6,9 @@ description: Den här sidan beskriver alla ändringar som är tillgängliga i f�
 author: Luke
 feature: Product Announcements
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ När du skapar godkännandeprocesser för projekt-, uppgifts- och godkännandepr
 
 * Godkännandet&quot;Steg&quot; kallas nu för godkännande&quot;Steg&quot;.
 * Inkludera flera typer av godkännare per fas.\
-   Detta inkluderar användare, team och jobbroller.\
-   Före den här ändringen kan du endast inkludera flera godkännare av samma typ. Du kan till exempel inkludera flera jobbroller, men inte en jobbroll och ett team.
+  Detta inkluderar användare, team och jobbroller.\
+  Före den här ändringen kan du endast inkludera flera godkännare av samma typ. Du kan till exempel inkludera flera jobbroller, men inte en jobbroll och ett team.
 
 * Följande begränsningar som tidigare fanns för att ändra befintliga globala godkännandeprocesser har tagits bort:
 
@@ -66,22 +66,22 @@ Mer information om schemaläggning av användare för inaktivering finns i [Inak
 
 Leveransalternativet Daglig sammandrag är nu tillgängligt i området Åtgärd krävs i meddelandeinställningarna.
 
-Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information finns i [Ändra dina egna e-postmeddelanden](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Kom ihåg att uppdatera e-postadressen som är kopplad till ditt konto för att kunna testa den här funktionen. Detta är obligatoriskt eftersom förhandsvisningssandlådan rensar e-postadresserna för alla användare.
 
-## Förbättring av papperskorgen: Inspelad i uppdateringsströmmen och ta emot e-postmeddelande
+## Förbättring av papperskorgen: Inspelat i uppdateringsströmmen och Ta emot e-postmeddelande
 
 Följande förbättringar lades till vid återställning av borttagna projekt, uppgifter och problem:
 
 * Du får nu ett e-postmeddelande när du har återställt ett objekt.\
-   Som Workfront-administratör får du nu ett e-postmeddelande när du har återställt ett projekt, en uppgift eller ett problem som tidigare har tagits bort. Du får ett e-postmeddelande med information om återställningsprocessens status.\
-   Mer information om hur du återställer objekt i Workfront finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Som Workfront-administratör får du nu ett e-postmeddelande när du har återställt ett projekt, en uppgift eller ett problem som tidigare har tagits bort. Du får ett e-postmeddelande med information om återställningsprocessens status.\
+  Mer information om hur du återställer objekt i Workfront finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * När objektet återställs registreras borttagningen och återställningen av objektet i objektets uppdateringsström och i det överordnade objektets uppdateringsström.\
-   Tidigare spelades endast borttagningen in i det överordnade objektets uppdateringsström.\
-   När uppgiften återställs läggs till exempel ett meddelande till i uppdateringsströmmen för både projektet och själva aktiviteten, vilket anger att uppgiften återställdes. (Borttagningar och återställningar registreras inte för underaktiviteter. Information om borttagning och återställning av underaktiviteter är bara tillgänglig för överordnade uppgifter.)\
-   Mer information finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Tidigare spelades endast borttagningen in i det överordnade objektets uppdateringsström.\
+  När uppgiften återställs läggs till exempel ett meddelande till i uppdateringsströmmen för både projektet och själva aktiviteten, vilket anger att uppgiften återställdes. (Borttagningar och återställningar registreras inte för underaktiviteter. Information om borttagning och återställning av underaktiviteter är bara tillgänglig för överordnade uppgifter.)\
+  Mer information finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
  
 
@@ -102,6 +102,6 @@ Du kan kopiera text i följande fält för alla objekt som är synliga i mobilap
 * Namn
 * Beskrivning
 * Referensnummer
-* Kommentarer
+* Kommentar
 
 Den här funktionaliteten bör lanseras i både iOS- och Android-appbutikerna den 13 februari.

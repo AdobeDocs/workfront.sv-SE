@@ -5,9 +5,9 @@ description: Adobe Workfront skickar meddelanden om objekt som du har tilldelats
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 ## Prenumerera på ett objekt
 
@@ -78,7 +78,6 @@ Så här prenumererar du på ett problem:
    >* Gå till det projekt du vill prenumerera på och klicka på **[!UICONTROL More]** icon ![](assets/qs-more-menu.png) till höger om projektnamnet, och **[!UICONTROL Subscribe]**.
    >* Gå till en projektlista eller rapport och välj ett projekt, klicka på **[!UICONTROL More]** icon ![](assets/qs-more-menu.png) överst i listan klickar du på **[!UICONTROL Subscribe]**. Det här är bara tillgängligt i en lista med projekt.
 
-
 1. Klicka **[!UICONTROL More]** ![](assets/more-icon.png)och sedan klicka **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribe-to-a-work-item-350x258.png)
@@ -89,7 +88,7 @@ Så här prenumererar du på ett problem:
 
    Varje gång någon kommenterar problemet får du ett meddelande i appen. Beroende på vilka funktioner du har aktiverat kan du även få e-postmeddelanden och push-meddelanden för mobilappar.
 
-   Mer information om e-postprenumerationer finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Mer information om e-postprenumerationer finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Avbeställ ett objekt
 
@@ -105,7 +104,6 @@ Så här säger du upp prenumerationen på ett ärende:
    >
    >* Gå till det projekt du vill avsluta prenumerationen på och klicka på **[!UICONTROL More]** icon ![](assets/qs-more-menu.png) till höger om projektnamnet, och **[!UICONTROL Unsubscribe]**.
    >* Gå till en projektlista eller rapport och välj ett projekt, klicka på **[!UICONTROL More]** icon ![](assets/qs-more-menu.png) överst i listan klickar du på **[!UICONTROL Unsubscribe]**. Det här är bara tillgängligt i en lista med projekt.
-
 
 1. Klicka **[!UICONTROL More]** ![](assets/more-icon.png)och sedan klicka **[!UICONTROL Unsubscribe]**.
 
@@ -138,7 +136,6 @@ Alla prenumeranter ges [!UICONTROL View] behörighet till det prenumererade obje
    >   
    >* Gå till en projektlista eller rapport och välj ett projekt.
 
-
 1. Klicka på **[!UICONTROL More]** ![](assets/more-icon.png).
 1. Klicka på nummerbubblan bredvid **[!UICONTROL Subscribe]** länk.
 1. I rutan som visas börjar du skriva namnet på användaren i **[!UICONTROL Subscribe others]** markerar du användaren bland de alternativ som visas.
@@ -162,7 +159,6 @@ När någon lägger till en kommentar i [!UICONTROL Updates] under objektet får
    >   
    >* Gå till en projektlista eller rapport och välj ett projekt.
 
-
 1. Klicka på **[!UICONTROL More]** ![](assets/more-icon.png).
 1. Klicka på nummerbubblan bredvid **[!UICONTROL Subscribe]** eller **[!UICONTROL Unsubscribe]** länk.
 1. På **[!UICONTROL Subscribers]** som visas klickar du på X bredvid namnet på den användare som du vill avbryta prenumerationen på.
@@ -185,7 +181,7 @@ Mer information finns i [Visa och hantera meddelanden i appen](../../workfront-b
 
 ## Ta emot prenumerationens e-postadress
 
-Beroende på vilka funktioner du använder [!UICONTROL Workfront] administratören har aktiverat kan du få prenumerationsmeddelanden via e-post utöver meddelanden i appen när någon kommenterar ett objekt som du prenumererar på.
+Beroende på vilka funktioner [!UICONTROL Workfront] administratören har aktiverat kan du få prenumerationsmeddelanden via e-post utöver meddelanden i appen när någon kommenterar ett objekt som du prenumererar på.
 
 Mer information om hur du konfigurerar eller inaktiverar e-post finns i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
@@ -211,15 +207,15 @@ Tänk på följande när du arbetar med prenumerationer:
 
 * The [!DNL Workfront] administratören kan inte styra vad användare kan eller inte kan prenumerera på.
 
-   Alla med [!UICONTROL View] eller högre behörigheter för alla aktiviteter, utgåvor och projekt kan prenumerera på dem.
+  Alla med [!UICONTROL View] eller högre behörigheter för alla aktiviteter, utgåvor och projekt kan prenumerera på dem.
 
 * Prenumerationer kan inte konfigureras för dagliga digest-e-postmeddelanden.
 * Om du prenumererar på en uppgift, en utgåva eller ett projekt, och du även är tilldelad, primär kontakt eller projektägare, får du bara prenumerationens e-postadress när någon kommenterar det objekt du prenumererar på.
 
-   Mer information om e-postmeddelanden som utlöses när en kommentar görs på något av objekten finns i [Adobe Workfront-meddelanden](../../workfront-basics/using-notifications/wf-notifications.md).
+  Mer information om e-postmeddelanden som utlöses när en kommentar görs på något av objekten finns i [Adobe Workfront-meddelanden](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * Om du prenumererar på ett objekt och gör en kommentar på det, får du inget prenumerationsmeddelande om kommentaren, såvida du inte anger ditt namn i kommentaren.
 * Om den användare som kommenterar objektet gör kommentaren privat genom att låsa kommentaren, och du inte är en del av samma företag som den användaren, får du inget meddelande om kommentaren. Mer information om hur du gör en kommentar privat för ditt företag finns i [Lägga till en uppdatering i en arbetsuppgift](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) avsnitt i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Du kan inte skapa en rapport för prenumerationer. En granskning registreras i uppdateringsstatusen för varje objekt när någon prenumererar på eller avslutar prenumerationen på objektet.
-* Kommentarer som gjorts på underordnade objekt utlöser inte prenumerationsmeddelanden för överordnade objekt. Om du prenumererar på ett projekt får du bara meddelanden om kommentarer som har gjorts i det projektet. Du kommer inte att få meddelanden om kommentarer som gjorts på underordnade objekt som är kopplade till projektet (dvs aktiviteter eller ärenden), såvida du inte prenumererar på varje underordnat objekt. Mer information om objektrelationer finns i [Objektens inbördes beroende och hierarki](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) avsnitt i [Förstå objekt i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+* Kommentarer som gjorts på underordnade objekt utlöser inte prenumerationsmeddelanden för överordnade objekt. Om du prenumererar på ett projekt får du bara meddelanden om kommentarer som har gjorts i det projektet. Du kommer inte att få meddelanden om kommentarer som gjorts på underordnade objekt som är kopplade till projektet (dvs. uppgifter eller ärenden), såvida du inte prenumererar på varje underordnat objekt. Mer information om objektrelationer finns i [Objektens inbördes beroende och hierarki](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) avsnitt i [Förstå objekt i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

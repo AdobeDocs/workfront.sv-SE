@@ -6,9 +6,9 @@ description: Du kan få meddelanden från [!DNL Adobe Workfront] om objekt som d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dessa meddelanden innehåller [!DNL Workfront] åtgärder som du kan vidta inom 
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Så här använder du [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Använd [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 
 ## Åtkomstkrav
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Krav för att ta emot [!DNL Workfront] Meddelanden i [!DNL Microsoft Teams]
 
@@ -51,20 +51,20 @@ Du kan ta emot [!DNL Workfront] meddelanden i [!DNL Microsoft Teams] om följand
 
 * En teamägare har installerat och konfigurerat [!DNL Workfront for Microsoft Teams] för ert team.
 * Du är inloggad [!DNL Workfront] från [!DNL Microsoft Teams].
-* Du har aktiverat snabbmeddelanden i [!DNL Workfront]. Information om hur du aktiverar snabbmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Du har aktiverat snabbmeddelanden i [!DNL Workfront]. Information om hur du aktiverar snabbmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Mer information om installation [!DNL Workfront for Microsoft Teams] och logga in på [!DNL Workfront from Microsoft Teams], se [Installera [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ## Hantera [!DNL Workfront] Meddelanden i [!DNL Microsoft Teams]
 
-När [!DNL Workfront for Microsoft Teams] är installerat, en [!DNL Workfront] chattkanal skapas i [!DNL Microsoft Teams] för alla medlemmar i teamet. När en viss åtgärd utförs i [!DNL Workfront]kan du konfigurera inställningarna för [!DNL Workfront for Microsoft Teams] för att få meddelanden om den åtgärden i [!DNL Workfront] chattkanal för [!DNL Microsoft Teams].
+När [!DNL Workfront for Microsoft Teams] app är installerad, en [!DNL Workfront] chattkanal skapas i [!DNL Microsoft Teams] för alla medlemmar i teamet. När en viss åtgärd utförs i [!DNL Workfront]kan du konfigurera inställningarna för [!DNL Workfront for Microsoft Teams] för att få meddelanden om den åtgärden i [!DNL Workfront] chattkanal för [!DNL Microsoft Teams].
 
 Tänk på följande när du arbetar med [!DNL Workfront] meddelanden från [!DNL Microsoft Teams]:
 
 * Du kan inte ta emot alla, men bara ett visst antal [!DNL Workfront] meddelanden i [!DNL Microsoft Teams].
 * Alla meddelanden du får från [!DNL Workfront] visas i [!DNL Workfront] chattkanal.
 
-   Information om hur du installerar [!DNL Workfront] båda kanalerna, se [Loggar in på [!DNL Workfront] från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) avsnitt i [Installerar [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) artikel.
+  Information om hur du installerar [!DNL Workfront] båda kanalerna, se [Loggar in på [!DNL Workfront] från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) avsnitt i [Installerar [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) artikel.
 
 * Det kan ta upp till 5 minuter mellan den tidpunkt då en uppdatering görs i [!DNL Workfront] och när du får meddelanden om det i [!DNL Microsoft Teams].
 * För varje [!DNL Microsoft Teams] får du också ett e-postmeddelande.
@@ -249,10 +249,10 @@ Du får godkännandemeddelanden när du ombeds godkänna ett objekt, som en uppg
 Du får tilldelningsmeddelanden när du, eller ett team du är på, tilldelas en uppgift eller ett problem i Workfront. Från tilldelningsmeddelandet kan du utföra följande åtgärder:
 
 * **[!UICONTROL Work on it]**: Välj att implementera för att arbeta med objektet. Ett kort meddelande visas som bekräftar att ett nytt objekt har lagts till i din arbetslista.
-* **[!UICONTROL View in [!DNL Workfront]]**: Välj det här alternativet om du vill visa den tilldelade utgåvan eller uppgiften i Workfront, som öppnar en ny flik.
+* **[!UICONTROL View in [!DNL Workfront]]**: Välj det här alternativet om du vill visa det tilldelade problemet eller den tilldelade uppgiften i Workfront, som öppnar en ny flik.
 * **[!UICONTROL Start]**: Klicka för att börja arbeta med objektet. Ett kort meddelande visas som bekräftar att ett nytt objekt har lagts till i din arbetslista.
 * **[!UICONTROL Comment]**: Klicka för att kommentera objektet. Din kommentar visas också i objektets uppdateringsström i Workfront.
-* **[!UICONTROL Status]**: Klicka och välj sedan den nya statusen för arbetsuppgiften i listrutan.
+* **[!UICONTROL Status]**: Klicka och välj sedan den nya statusen för arbetsobjektet i listrutan.
 
 #### Tillgängliga åtgärder för specifika tilldelningsmeddelanden:
 
@@ -302,8 +302,8 @@ Du får tilldelningsmeddelanden när du, eller ett team du är på, tilldelas en
 Du får ett kommunikationsmeddelande när någon kommenterar ett objekt som du är kopplad till, eller inkluderar dig i en uppdatering. I kommunikationsmeddelandet kan du utföra följande åtgärder:
 
 * **Reply**: Klicka för att svara på kommentaren eller [!UICONTROL update]. Ditt svar visas också i uppdateringsströmmen där kommentaren visas i Workfront.
-* **[!UICONTROL View in Workfront]**: Välj det här alternativet om du vill visa kommentaren och objektet i Workfront, som öppnas på en ny flik.
-* **[!UICONTROL Status]**: Klicka och välj sedan en ny status för arbetsuppgiften som kommentaren eller uppdateringen gäller.
+* **[!UICONTROL View in Workfront]**: Välj detta om du vill visa kommentaren och objektet i Workfront, som öppnas på en ny flik.
+* **[!UICONTROL Status]**: Klicka och välj sedan en ny status för det arbetsobjekt som kommentaren eller uppdateringen gäller.
 
 #### Tillgängliga åtgärder för specifika kommunikationsmeddelanden:
 
@@ -367,8 +367,8 @@ Du får ett kommunikationsmeddelande när någon kommenterar ett objekt som du �
 Du får ett informationsmeddelande när det finns en uppdatering av ett objekt som du är kopplad till, men du behöver inte vidta några åtgärder för objektet. Från informationsmeddelandet kan du utföra följande åtgärder:
 
 * **[!UICONTROL Reply]**: Klicka för att svara på [!UICONTROL update]. Ditt svar visas också i objektets uppdateringsström i Workfront.
-* **Visa i Workfront**: Välj det här alternativet om du vill visa kommentaren och objektet i Workfront, som öppnas på en ny flik.
-* **[!UICONTROL Status]**: Klicka på och välj sedan den nya statusen för objektet i listrutan.
+* **Visa i Workfront**: Välj detta om du vill visa kommentaren och objektet i Workfront, som öppnas på en ny flik.
+* **[!UICONTROL Status]**: Klicka och välj sedan den nya statusen för objektet i listrutan.
 
 #### Tillgängliga åtgärder för specifika informationsmeddelanden:
 
@@ -404,10 +404,10 @@ Du får ett informationsmeddelande när det finns en uppdatering av ett objekt s
 
 ### Meddelanden om datumändring {#date-change-notifications}
 
-Du får ett meddelande om datumändring när datumet ändras för en arbetsuppgift som du är tilldelad till. Du kan utföra följande åtgärder från meddelandet om datumändring.
+Du får ett meddelande om datumändring när datumet ändras för en arbetsuppgift som du har tilldelats. Du kan utföra följande åtgärder från meddelandet om datumändring.
 
 * **[!UICONTROL Comment]**: Klicka för att kommentera objektet. Din kommentar visas också i objektets uppdateringsström i Workfront.
-* **[!UICONTROL Status]**: Klicka och välj sedan den nya statusen för arbetsuppgiften i listrutan.
+* **[!UICONTROL Status]**: Klicka och välj sedan den nya statusen för arbetsobjektet i listrutan.
 
 <table style="table-layout:auto"> 
  <col> 

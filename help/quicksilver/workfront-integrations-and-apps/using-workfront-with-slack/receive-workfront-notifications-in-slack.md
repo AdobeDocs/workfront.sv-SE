@@ -6,9 +6,9 @@ description: Ta emot [!DNL Adobe Workfront] meddelanden i [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
 -->
 
-När du har installerat [!DNL Adobe Workfront for Slack]kan du få [!DNL Workfront] meddelanden i [!DNL Slack].\
+Efter installationen [!DNL Adobe Workfront for Slack]kan du få [!DNL Workfront] meddelanden i [!DNL Slack].\
 Mer information om installation [!DNL Workfront for Slack], se [Konfigurera [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 Du kan aktivera ett visst antal [!UICONTROL notifications] som visas i meddelandebubblan i [!DNL Workfront] -gränssnitt, som också ska levereras i [!DNL Slack].
@@ -44,11 +44,11 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.\
+&#42;Kontakta din [!DNL Workfront] administratör.\
 
 ## Förutsättningar
 
-Innan du kan ta emot [!DNL Workfront] meddelanden i [!DNL Slack]måste du
+Innan du får [!DNL Workfront] meddelanden i [!DNL Slack]måste du
 
 * Konfigurera [!DNL Workfront for Slack]\
    Instruktioner om konfigurering [!DNL Workfront for Slack], se [Konfigurera [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
@@ -86,10 +86,10 @@ Innan du kan ta emot [!DNL Workfront] meddelanden i [!DNL Slack]måste du
 Du kan ta emot och svara på [!DNL Workfront] meddelanden från [!DNL Slack].
 
 Du kan inaktivera e-postmeddelanden för meddelanden som du aktiverar i [!DNL Slack], för att vara säker på att du inte får dubbla meddelanden.\
-Mer information om hur du konfigurerar e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information om hur du konfigurerar e-postmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Aktivera eller inaktivera [!DNL Workfront] meddelanden i [!DNL Slack] påverkar inte meddelanden som du får i dialogrutan [!DNL Workfront] gränssnitt.\
-Meddelanden inuti [!DNL Workfront] gränssnittet kan inte inaktiveras.
+Meddelanden inuti [!DNL Workfront] -gränssnittet kan inte inaktiveras.
 
 Hantera dina [!DNL Workfront] meddelanden om [!DNL Slack]:
 
@@ -111,9 +111,9 @@ Hantera dina [!DNL Workfront] meddelanden om [!DNL Slack]:
 
    * (Villkorligt och valfritt) Klicka **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, eller **[!UICONTROL Reject]**, för att godkänna, godkänna med ändringar eller avvisa ett dokument.
 
-      Du kan också föra musen över dokumentets miniatyrbild och klicka på förstoringsglaset för att visa en större förhandsvisning av dokumentet innan du godkänner det.\
+     Du kan också föra musen över dokumentets miniatyrbild och klicka på förstoringsglaset för att visa en större förhandsvisning av dokumentet innan du godkänner det.\
       Endast godkänd Slack [filtyper](https://api.slack.com/types/file) kan förhandsgranskas.
 
-   * (Villkorligt och valfritt) Klicka **[!UICONTROL Grant]** eller **[!UICONTROL Ignore]** för att bevilja eller ignorera begäran om mer åtkomst från en annan användare.\
+   * (Villkorligt och valfritt) Klicka **[!UICONTROL Grant]** eller **[!UICONTROL Ignore]** om du vill bevilja eller ignorera en begäran om mer åtkomst från en annan användare.\
 
-      Du får en bekräftelse på att åtgärden har slutförts i [!DNL Workfront]för varje beslut du fattar i dina meddelanden.
+     Du får en bekräftelse på att åtgärden har slutförts i [!DNL Workfront]för varje beslut du fattar i dina meddelanden.

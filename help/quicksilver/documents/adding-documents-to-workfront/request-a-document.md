@@ -6,9 +6,9 @@ description: Du kan begära ett dokument på alla objekt som har stöd för Doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Du måste ha följande:
 
 1. Gå till området där du vill att dokumentet du begär ska placeras.
 1. Klicka på **Dokument** -fliken. 
-1. Klicka på **Lägg till ny** nedrullningsbar meny.
+1. Klicka på **Lägg till ny** listruta.
 
 1. Klicka **Begär ett dokument**.
 
@@ -65,7 +65,7 @@ Du måste ha följande:
 
    När du skickar en begäran till en användare läggs en platshållare till i dokumentområdet. Du kan påminna användaren eller avbryta begäran från den här platshållaren. Användaren får ett Workfront-meddelande och ett e-postmeddelande om begäran.
 
-   Användaren får ett e-postmeddelande om den här inställningen är aktiverad, samt ett meddelande i appen. Mer information om e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Användaren får ett e-postmeddelande om den här inställningen är aktiverad, samt ett meddelande i appen. Mer information om e-postmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Du kan klicka på länken i e-postmeddelandet och sedan överföra dokumentet. Du kan också klicka på meddelandet i appen. Varje alternativ dirigerar dig till användarprofilsidan där du kan överföra det begärda dokumentet.
 

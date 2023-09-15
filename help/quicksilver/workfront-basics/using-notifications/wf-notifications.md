@@ -6,9 +6,9 @@ description: Adobe Workfront skickar e-postmeddelanden, meddelanden i appen och 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Workfront] skickar ut ett antal e-postmeddelanden som varnar användare om aktiviteter i Workfront och ger användbar information och länkar.
 
-Information om hur du ändrar inställningarna för e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Information om hur du ändrar inställningarna för e-postmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Information om hur du ändrar inställningarna för e-postmeddelanden finns i [A
 Du kan få följande e-postmeddelanden från [!DNL Workfront]:
 
 * [Händelsemeddelanden](#event-notifications)
-* [Dagliga sammandragsmeddelanden](#daily-digest-notifications)
+* [Dagliga sammandrag-meddelanden](#daily-digest-notifications)
 * [Meddelande om kommentarer](#notification-of-posted-comments)
 * [Automatiska påminnelser](#automatic-reminders)
 * [Påminnelsemeddelanden](#reminder-notifications)
@@ -43,25 +43,25 @@ Händelsemeddelanden är fördefinierade i [!DNL Workfront]. De utlöses vanligt
 
 När händelsemeddelandena har aktiverats av [!DNL Workfront] administratör eller gruppadministratör kan du välja vilka du vill få genom att redigera [!UICONTROL Notifications] inställningar i din användarprofil. Du kan också välja om du vill få meddelanden när händelser inträffar eller om du vill få händelser summerade i ett dagligt meddelande.
 
-Beroende på hur [!DNL Workfront] administratören har konfigurerat händelsemeddelanden för din [!DNL Workfront] system (enligt beskrivning i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)) visas kanske bara en delmängd av dessa meddelanden i inställningarna.
+Beroende på hur [!DNL Workfront] administratören har konfigurerat händelsemeddelanden för [!DNL Workfront] system (enligt beskrivning i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)) visas kanske bara en delmängd av dessa meddelanden i inställningarna.
 
 Standardstatusen visar vilka meddelanden (varje dag, direkt eller båda) som är aktiverade som standard för nya användare när du skapar nya användare.
 
 En fullständig lista över händelsemeddelanden och information om hur de aktiveras och konfigureras på systemnivå, gruppnivå eller användarnivå finns på [Händelsemeddelanden är tillgängliga i [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Mer information om hur du väljer vilka händelsemeddelanden du vill ta emot finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information om hur du väljer vilka händelsemeddelanden du vill ta emot finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
 >Händelsemeddelanden är de enda meddelanden som kan konfigureras för att levereras i dagliga sammandragsuppdateringar.
 
-### Dagliga sammandragsmeddelanden
+### Dagliga sammandrag-meddelanden
 
 En fullständig lista över vilka e-postmeddelanden som har aktiverats för en daglig e-postleverans med sammanfattning samt information om alla kategorier för e-postmeddelanden finns i [Händelsemeddelanden](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
 >[!NOTE]
 >
->[!UICONTROL Workfront] skickar inga Dagliga sammanfattningsmeddelanden för [!UICONTROL Miscellaneous] och [!DNL Goals] kategorier med händelser. Du kan inte inaktivera Dagliga meddelanden för dessa kategorier.
+>[!UICONTROL Workfront] skickar inga Dagliga sammandragsmeddelanden för [!UICONTROL Miscellaneous] och [!DNL Goals] kategorier med händelser. Du kan inte inaktivera Dagliga meddelanden för dessa kategorier.
 
 Det finns flera saker som du bör vara medveten om när du får dagliga sammandrag:
 
@@ -85,21 +85,21 @@ Dagliga e-postmeddelanden med sammanfattningar för [!UICONTROL Communication] h
 
 Informationen sammanfattas för objektet där kommunikationen inträffade och ett totalt antal kommunikationsmeddelanden visas för varje objekt.
 
-Mer information om hur du konfigurerar e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information om hur du konfigurerar e-postmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Anvisningar om hur du kommenterar [!UICONTROL Communication] e-post, se [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Mer information om [!UICONTROL Communication] e-post, se [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information om [!UICONTROL Communication] e-post, se [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Mer information om hur du aktiverar dagliga sammandragsmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information om hur du aktiverar dagliga sammandragsmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Automatiska påminnelser
 
-Automatiska påminnelser aktiveras av [!DNL Workfront] för att informera dig om uppgifter och problem som förfaller, förfaller eller ligger nära det planerade slutdatumet. För sena meddelanden skickas e-postmeddelandet varje natt tills uppgiften eller utgåvan har slutförts. När administratören har konfigurerat dessa kan du inte inaktivera dem. Du kan inte heller ändra innehållet eller ämnesraden i ett e-postmeddelande som utlöses av en automatisk påminnelse.
+Automatiska påminnelser aktiveras av [!DNL Workfront] för att informera dig om uppgifter och problem som förfaller, förfaller eller ligger nära det planerade slutförandedatumet. För sena meddelanden skickas e-postmeddelandet varje natt tills uppgiften eller utgåvan har slutförts. När administratören har konfigurerat dessa kan du inte inaktivera dem. Du kan inte heller ändra innehållet eller ämnesraden i ett e-postmeddelande som utlöses av en automatisk påminnelse.
 
 De kan skickas till ett eller flera av följande:
 
-* Användare som tilldelats en uppgift eller ett problem
+* Användare som har tilldelats en uppgift eller ett problem
 * Användarens chef
 * Direktörens chef
 
@@ -116,7 +116,7 @@ Beroende på vilken automatisk påminnelse som aktiveras finns följande typ av 
 * Uppgiftens eller frågans prioritet
 * Datum när aktiviteten eller utgåvan blev försenad
 
-Information om hur du aktiverar automatiska påminnelser finns i [Ställ in automatiska påminnelser](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
+Mer information om hur du aktiverar automatiska påminnelser finns i [Ställ in automatiska påminnelser](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
 
 ### Påminnelsemeddelanden
 
@@ -138,7 +138,7 @@ Du kan välja vilka e-postmeddelanden du vill få med dina inställningar för a
 
 ### Övriga [!DNL Workfront] e-post
 
-Det finns andra e-postmeddelanden du kan få från [!DNL Workfront] som inte kan konfigureras. Följande e-postmeddelanden skickas automatiskt av [!DNL Workfront] när dessa villkor är uppfyllda:
+Det finns andra e-postmeddelanden du kan få från [!DNL Workfront] som inte kan konfigureras. Följande mejl skickas automatiskt av [!DNL Workfront] när dessa villkor är uppfyllda:
 
 * Återställ ett objekt: När [!DNL Workfront] administratören återställer ett objekt från [!UICONTROL Recycle] Bin, ett e-postmeddelande skickas till [!DNL Workfront] administratör.
 * Det gick inte att återställa: När [!DNL Workfront] administratören försöker återställa ett objekt från papperskorgen och återställningen misslyckas. Ett e-postmeddelande skickas till [!DNL Workfront] administratör.

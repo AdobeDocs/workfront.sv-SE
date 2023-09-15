@@ -6,9 +6,9 @@ description: Informationen på den här sidan hänvisar till funktioner som bara
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Informationen på den här sidan hänvisar till funktioner som bara är tillgängliga i sandlådemiljöerna Förhandsvisa och Anpassad uppdatering. Den här funktionen är inte tillgänglig i produktionsmiljön.
 
-Du kan ange alternativ för rapportleverans i vilken testmiljö som helst i Adobe Workfront.
+Du kan ställa in alternativ för rapportleverans i vilken testmiljö som helst i Adobe Workfront.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Workfront test environments, see the "Workfront Testing Environments" section. (NOTE:&nbsp;drafted - link this section)</p>
@@ -83,7 +83,7 @@ När du schemalägger en rapport för leverans i förhandsgranskningsmiljön fin
 
 Huruvida en levererad rapport skapas eller inte i sandlådan för anpassad uppdatering beror på om inställningen Ta emot e-post från den här testmiljön är aktiverad eller inte.
 
-Mer information om hur du aktiverar e-postmeddelanden från förhandsvisningsmiljön finns i avsnittet [Visa och ändra inställningarna för e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) i artikeln [Aktivera eller inaktivera egna händelsemeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information om hur du aktiverar e-postmeddelanden från förhandsvisningsmiljön finns i avsnittet [Visa och ändra inställningarna för e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) i artikeln [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
@@ -96,6 +96,6 @@ När du schemalägger en rapport för leverans i sandlådemiljön för anpassad 
 
 ## Hur externa användare meddelas
 
-Externa användare får inte rapporter som skickas från Workfront testmiljöer och får inte heller något e-postmeddelande.
+Externa användare får inte rapporter som skickas från Workfront testmiljöer och de får inte heller något e-postmeddelande.
 
 Externa användare får endast e-postrapporter om de levereras från en produktionsmiljö.

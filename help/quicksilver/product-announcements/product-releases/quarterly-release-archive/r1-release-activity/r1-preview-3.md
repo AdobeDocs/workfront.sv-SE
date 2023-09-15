@@ -6,9 +6,9 @@ description: Den här sidan beskriver alla ändringar som är tillgängliga i f�
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ Det uppdaterade teamet som arbetar med kalendern innehåller följande förbätt
 Skillnader från verktyget för resursplanering när resurser schemaläggs för projekt:
 
 * Alla teammedlemmar visas i teamet som arbetar i kalendern.\
-   När du schemalägger resurser för projekt visas endast användare som har en associerad roll som matchar en roll för en eller flera uppgifter i området Ej tilldelade.
+  När du schemalägger resurser för projekt visas endast användare som har en associerad roll som matchar en roll för en eller flera uppgifter i området Ej tilldelade.
 * Växlingsverktyget är inte tillgängligt och ingår inte i teamet som arbetar med kalendern.
 * Alla teammedlemmar kan göra ändringar i teamet som arbetar i kalendern.\
-   När resurser schemaläggs för projekt kan bara resurshanterare fatta resursbeslut för projektet.
+  När resurser schemaläggs för projekt kan bara resurshanterare fatta resursbeslut för projektet.
 * Problem visas som standard i teamet som arbetar i kalendern.\
-   När resurser för projekt schemaläggs visas inte ärenden som standard.
+  När resurser för projekt schemaläggs visas inte ärenden som standard.
 
 Mer information om hur du använder det uppdaterade teamet Arbeta med kalender finns i &quot;Resursschemaläggning&quot;.
 
@@ -77,7 +77,7 @@ Före den här ändringen kontrollerade filtret bara vilka uppgifter och problem
 
 Mer information om hur du använder filtret för att styra vad som visas på tidslinjen finns i Filtrera information i området Schemaläggning och Tilldela ej tilldelade uppgifter och ärenden manuellt i områdena Schemaläggning.
 
-### Användare finns kvar på tidslinjen efter att ha tilldelats en uppgift {#users-remain-on-the-timeline-after-being-assigned-a-task}
+### Användare finns kvar på tidslinjen efter att de tilldelats en uppgift {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
 Användarna finns kvar på tidslinjen när de har tilldelats en uppgift eller ett ärende, även om det inte finns några återstående uppgifter eller problem som har en matchande rolltilldelning. På så sätt kan du göra nödvändiga ändringar efter att användarna har tilldelats.
 
@@ -110,7 +110,7 @@ När du gör den här ersättningen visas objektens uppdaterade namn i följande
 
 I följande områden visas inte objektens uppdaterade namn:
 
-* Resursberäkningar
+* Resursuppskattningar
 * Resursbudgethanteraren
 * Kapacitetsplanering
 * Resursrutnät
@@ -144,13 +144,13 @@ Följande fält har tagits bort från Workfront och kan inte längre inkluderas 
 
 Leveransalternativet Daglig sammandrag har lagts till under Begäranden som jag har gjort i meddelandeinställningarna.
 
-Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information finns i [Ändra dina egna e-postmeddelanden](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Kom ihåg att uppdatera e-postadressen som är kopplad till ditt konto för att kunna testa den här funktionen. Detta är obligatoriskt eftersom förhandsvisningssandlådan rensar e-postadresserna för alla användare.
 
 ## Uppdaterat utseende och känsla för e-postmeddelanden om godkännande av dokument
 
-Utseendet på och känslan av meddelandet om godkännande av dokument har uppdaterats med ett nytt användargränssnitt:
+Utseendet på och känslan av meddelandet för&quot;Dokumentgodkännande&quot; har uppdaterats med ett nytt användargränssnitt:
 
 Mer information om e-postmeddelanden finns i [Adobe Workfront-meddelanden](../../../../workfront-basics/using-notifications/wf-notifications.md).
 

@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '''Meddelanden: Godkännandeinformation'
-description: Följande meddelanden informerar dig om godkännandeaktiviteter för en arbetsuppgift som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i Aktivera eller inaktivera egna händelsemeddelanden.
+title: 'Meddelanden: Godkännandeinformation'
+description: Följande meddelanden informerar dig om godkännandeaktiviteter för en arbetsuppgift som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i Ändra dina egna e-postmeddelanden.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Meddelanden: Godkännandeinformation
 
-Följande meddelanden informerar dig om godkännandeaktiviteter för en arbetsuppgift som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Följande meddelanden informerar dig om godkännandeaktiviteter för en arbetsuppgift som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -47,17 +47,17 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td><strong>Dagligen</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>En begäran om dokumentgodkännande har avbrutits</strong> </p> <p>Dokumentgodkännaren får ett e-postmeddelande när dokumentets godkännandebegäran avbryts.</p> <p>Ämnet för e-postmeddelandet är: <em>&lt;user name=""&gt; [!UICONTROL canceled the document approval request]</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt e-postmeddelande med sammandrag.</p> </p> </td> 
+   <td> <p><strong>En begäran om dokumentgodkännande har avbrutits</strong> </p> <p>Dokumentgodkännaren får ett e-postmeddelande när dokumentets godkännandebegäran avbryts.</p> <p>Ämnet för e-postmeddelandet är: <em>&lt;user name=""&gt; [!UICONTROL canceled the document approval request]</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt sammandrag-e-postmeddelande.</p> </p> </td> 
    <td> Namnet på den användare som avbröt godkännandebegäran<br>[!UICONTROL Document Name] </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Jag har utsetts till godkännare</strong> </p> <p>Om någon har delegerat ett godkännande till dig får du ett e-postmeddelande. </p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Delegated] &lt;object type=""&gt; [!UICONTROL Approval - Please Review] &lt;object name=""&gt;</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt e-postmeddelande med sammandrag.</p> </p> </td> 
+   <td> <p><strong>Jag har utsetts till godkännare</strong> </p> <p>Om någon har delegerat ett godkännande till dig får du ett e-postmeddelande. </p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Delegated] &lt;object type=""&gt; [!UICONTROL Approval - Please Review] &lt;object name=""&gt;</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt sammandrag-e-postmeddelande.</p> </p> </td> 
    <td> <p>[!UICONTROL Object Name]<br>[!UICONTROL Parent Object Name]<br>[!UICONTROL Object Reference Number]<br>Namnet på den användare som skickade objektet för godkännande<br>Namnet på den användare för vilken du godkänner objektet<br>Objektstatus<br>Datum och tid när godkännandet begärdes<br>Objektprioritet<br>Namn på godkännandesteg<br>[!UICONTROL Planned Completion Date] för objektet<br><strong>[!UICONTROL Make Approval Decision]</strong> knapp</p> </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Min tidrapport har godkänts</strong> </p> <p>När tidrapporten har godkänts får du ett e-postmeddelande.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Timesheet Approved]: &lt;timesheet start="" date=""&gt; - &lt;timesheet end="" date=""&gt;</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt e-postmeddelande med sammandrag.</p> </p> </td> 
+   <td> <p><strong>Min tidrapport har godkänts</strong> </p> <p>När tidrapporten har godkänts får du ett e-postmeddelande.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Timesheet Approved]: &lt;timesheet start="" date=""&gt; - &lt;timesheet end="" date=""&gt;</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt sammandrag-e-postmeddelande.</p> </p> </td> 
    <td> Namn på den användare som godkände din tidrapport<br>Datum och tid då tidrapporten godkändes<br>Status för tidrapport ([!UICONTROL Approved])<br>Startdatum och slutdatum för tidrapport<br>Totalt antal loggade timmar i tidrapporten<br>Övertidstimmar som loggats i tidrapporten </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 

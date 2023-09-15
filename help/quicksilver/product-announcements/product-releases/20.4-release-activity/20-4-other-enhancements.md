@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -42,14 +42,14 @@ För att förbättra läsbarheten och den övergripande upplevelsen har följand
 * En beroende uppgift som du är tilldelad till är nu klar att starta
 * E-postmeddelande för team med föregående slutförd
 
-Information om hur du aktiverar e-post för testning i förhandsvisningsmiljön finns i avsnittet Hantera e-postmeddelanden i förhandsvisningsavsnittet i [Aktivera eller inaktivera egna händelsemeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Information om hur du aktiverar e-post för testning i förhandsvisningsmiljön finns i avsnittet Hantera e-postmeddelanden i förhandsvisningsavsnittet i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Nya e-postmeddelanden för team
 
 Vi har lagt till följande e-postmeddelanden för team:
 
-* En föregångare till en uppgift som har tilldelats mitt team har slutförts: Det tilldelade teamet får ett e-postmeddelande när en föregångare till någon av deras uppgifter har markerats som slutförd.
-* Alla föregångare till en uppgift som har tilldelats mitt team är slutförda: Det tilldelade teamet får ett e-postmeddelande för varje föregångare som har markerats som slutförd.
+* En föregångare till en uppgift som har tilldelats mitt team har slutförts: Det tilldelade teamet får ett e-postmeddelande när en föregångare till en av deras uppgifter har markerats som slutförd.
+* Alla föregångare för en uppgift som har tilldelats mitt team är slutförda: Det tilldelade teamet får ett e-postmeddelande för varje föregångare som har markerats som slutförd.
 
 Mer information finns i [Meddelanden: Information om arbete som tilldelats mig](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 

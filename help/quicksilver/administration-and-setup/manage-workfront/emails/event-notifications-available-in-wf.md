@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '5008'
+source-wordcount: '5006'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Händelsemeddelanden är e-postmeddelanden som utlöses av olika typer av hände
 Dessa meddelanden kan konfigureras på system- och gruppnivå:
 
 * Information om hur du konfigurerar händelsemeddelanden på systemnivå finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* Mer information om hur du konfigurerar händelsemeddelanden på gruppnivå finns i [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* Mer information om hur du konfigurerar händelsemeddelanden på gruppnivå finns i [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Enskilda användare kan också aktivera och inaktivera sina meddelanden om enskilda händelser i sin individuella profil. Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Enskilda användare kan också aktivera och inaktivera sina meddelanden om enskilda händelser i sin individuella profil. Mer information finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 I följande tabeller visas alla Adobe Workfront händelsemeddelanden, en kort beskrivning av händelsen och om händelsen är aktiv eller inaktiv som standard.
 
@@ -55,7 +55,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Dokument</p> <p> </p> </td> 
    <td> <p>Lägg till dokumentbegäran i begäran</p> </td> 
-   <td> <p>Begär att jag ska överföra dokument.</p> <p>Begäranden får ett e-postmeddelande när de får en begäran om att överföra ett dokument.</p> </td> 
+   <td> <p>Begär att jag ska överföra dokument.</p> <p>Den som begär dokumentet får ett e-postmeddelande när de får en begäran om att överföra ett dokument.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Utfärda väntande godkännande till delegerad godkännare</p> </td> 
-   <td> <p>Jag måste granska ett godkännande som jag har delegerats.</p> <p>När någon delegerar ett ärende till en annan användare meddelas användaren. </p> <p>Ett meddelande skickas bara när projektet har statusen Aktuell.</p> </td> 
+   <td> <p>Jag måste granska ett godkännande som jag har delegerats.</p> <p>När någon delegerar ett godkännande av ett ärende till en annan användare meddelas användaren. </p> <p>Ett meddelande skickas bara när projektet har statusen Aktuell.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -109,7 +109,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Uppgift</p> </td> 
    <td> <p>Aktivitet väntar på godkännande till delegerad godkännare</p> </td> 
-   <td> <p>Jag måste granska ett uppgiftsgodkännande som jag har delegerats.</p> <p>När någon delegerar ett ärende till en annan användare meddelas användaren. </p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid tidpunkten för begäran.</p> </td> 
+   <td> <p>Jag måste granska ett uppgiftsgodkännande som jag har delegerats.</p> <p>När någon delegerar ett godkännande av ett ärende till en annan användare meddelas användaren. </p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid tidpunkten för begäran.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -139,15 +139,15 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Tilldelning</p> </td> 
    <td> <p>Arbetsuppgiftsförfrågan till tilldelad arbetsuppgift</p> </td> 
-   <td> <p>Jag får en ny arbetsförfrågan.</p> <p>Den som har tilldelats arbetsuppgiften får ett e-postmeddelande, såvida inte den som har gjort begäran också är tilldelad. </p> <p>Inget meddelande skickas om aktivitetsstatusen är Slutförd eller om utgivningsstatusen är Stängd.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid tidpunkten för begäran.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Jag får en ny arbetsförfrågan.</p> <p>Den som har tilldelats arbetsuppgiften får ett e-postmeddelande, såvida inte den som har gjort begäran också är tilldelad. </p> <p>Ett meddelande skickas inte om aktivitetsstatusen är Slutförd eller om utgivningsstatusen är Stängd.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid tidpunkten för begäran.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Begäranden som jag har gjort
+## Begäranden jag gjort
 
-Se även [Meddelanden: Begäranden som jag har gjort](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Se även [Meddelanden: Begäranden jag gjort](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -195,14 +195,14 @@ Se även [Meddelanden: Begäranden som jag har gjort](../../../workfront-basics/
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
-   <td> <p>Projektstatusändring till Anges av</p> </td> 
+   <td> <p>Projektstatus har ändrats till Anges av</p> </td> 
    <td> <p>Statusen ändras för ett projekt som jag har skapat.</p> <p>Användaren som skapade projektet får ett e-postmeddelande när projektstatusen ändras.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Lägg till i ärende, primär kontakt</p> </td> 
-   <td> <p>Jag skickar en begäran (bekräftelse).</p> <p>Den primära kontakten i ärendet får ett e-postmeddelande när de skickar ett problem.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet använder vyn "Är supportavdelningen".</p> </td> 
+   <td> <p>Jag skickar en begäran (bekräftelse).</p> <p>Den primära kontakten i ärendet får ett e-postmeddelande när de skickar in ett problem.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet använder vyn "Är supportavdelningen".</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -239,7 +239,7 @@ Se även [Meddelanden: Begäranden som jag har gjort](../../../workfront-basics/
 
 ## Kommunikation
 
-Se även [Meddelanden: Kommunikation](../../../workfront-basics/using-notifications/notifications-communication.md).
+Se även [Meddelanden: Meddelande](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -420,13 +420,13 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Datum för planerat slutförande av ärende ändrat</p> </td> 
+   <td> <p>Datum för planerat slutförande av ärende har ändrats</p> </td> 
    <td> <p>Förfallodatumet ändras för en utgåva som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när det planerade slutförandedatumet ändras, såvida inte den användare som ändrade det planerade slutförandedatumet också är den som tilldelats utgåvan.</p> <p>Ett meddelande skickas bara om projektstatusen är något annat än Planering.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Utgåva statusändring till Problem tilldelat</p> </td> 
+   <td> <p>Utgåva statusändring till Problem tilldelat till</p> </td> 
    <td> <p>Statusen ändras för en av mina arbetsuppgifter.</p> <p>Den som är tilldelad utgåvan får ett e-postmeddelande när statusen ändras, såvida inte den användare som ändrade statusen också är tilldelad.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
@@ -519,7 +519,7 @@ Se även [Meddelanden: Information om projekt som jag är på](../../../workfron
   <tr> 
    <td> <p>Projekt</p> </td> 
    <td> <p>Projektslutförande till projektgruppen</p> </td> 
-   <td> <p>Ett projekt jag håller på med är färdigt.</p> <p>Användare i ett projektteam får ett e-postmeddelande när projektstatusen är Slutförd.</p> <p>Tips: Om projekten slutförs regelbundet kan du aktivera det här alternativet för att skapa många e-postmeddelanden för användare som har ett begränsat antal uppgifter i många projekt. </p> </td> 
+   <td> <p>Ett projekt jag håller på med är färdigt.</p> <p>Användare i ett projektteam får ett e-postmeddelande när projektstatusen är Slutförd.</p> <p>Tips! Om projekten slutförs regelbundet kan du aktivera det här alternativet för att skapa många e-postmeddelanden för användare som har ett begränsat antal uppgifter i många projekt. </p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -618,13 +618,13 @@ Se även [Meddelanden: Information om projekt som jag äger](../../../workfront-
   <tr> 
    <td> <p>Uppgift</p> </td> 
    <td> <p>Slutförd uppgift till projektägare</p> </td> 
-   <td> <p>En uppgift slutförs i ett projekt som jag äger.</p> <p>Projektägaren får ett meddelande. </p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> </td> 
+   <td> <p>En uppgift är slutförd i ett projekt som jag äger.</p> <p>Projektägaren får ett meddelande. </p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Uppgift</p> </td> 
    <td> <p>Förloppsändring för uppgift till projektägare</p> </td> 
-   <td> <p>En uppgift i ett projekt som jag äger kommer efter.</p> <p>Projektägaren får ett e-postmeddelande när en aktivitet i projektet ligger efter schemat.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> </td> 
+   <td> <p>En uppgift i ett projekt som jag äger kommer efter.</p> <p>Projektägaren får ett e-postmeddelande när en aktivitet i projektet försenas.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -662,14 +662,14 @@ Se även [Meddelanden: Information om projekt som jag sponsrar](../../../workfro
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Utgåva till projektsponsorer</p> </td> 
+   <td> <p>Utgåva Lägg till i projektsponsor</p> </td> 
    <td> <p>Ett problem läggs till i ett projekt som jag sponsrar.</p> <p>Projektsponsorn får ett e-postmeddelande när ett problem läggs till i projektet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Slutförande av problem till projektsponsor</p> </td> 
-   <td> <p>Ett problem har åtgärdats i ett projekt som jag sponsrar.</p> <p>Projektsponsorn får ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> </td> 
+   <td> <p>Ett problem har åtgärdats i ett projekt som jag sponsrar.</p> <p>Projektsponsorn får ett mejl.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -693,7 +693,7 @@ Se även [Meddelanden: Information om projekt som jag sponsrar](../../../workfro
   <tr> 
    <td> <p>Uppgift</p> </td> 
    <td> <p>Slutförd uppgift till projektsponsor</p> </td> 
-   <td> <p>En uppgift slutförs i ett projekt som jag sponsrar.</p> <p>Projektsponsorn får ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> </td> 
+   <td> <p>En uppgift slutförs i ett projekt som jag sponsrar.</p> <p>Projektsponsorn får ett mejl.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -704,7 +704,7 @@ Se även [Meddelanden: Information om projekt som jag sponsrar](../../../workfro
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
-   <td> <p>Ej tilldelat problem Lägg till i projektsponsor</p> </td> 
+   <td> <p>Ej tilldelat problem Lägg till i projektsponsorn</p> </td> 
    <td> <p>Ett otilldelat problem läggs till i ett projekt som jag sponsrar.</p> <p>Projektsponsorn får ett e-postmeddelande när ett ej tilldelat problem läggs till i projektet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
@@ -713,7 +713,7 @@ Se även [Meddelanden: Information om projekt som jag sponsrar](../../../workfro
 
 ## Diverse information
 
-Se även [Meddelanden: Diverse information](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -757,7 +757,7 @@ Se även [Meddelanden: Diverse information](../../../workfront-basics/using-noti
   <tr> 
    <td> <p>Användare</p> </td> 
    <td> <p>Ny användare till användare</p> </td> 
-   <td> <p>När en ny användare skapas i Workfront skickar du ett e-postmeddelande till användaren.</p> <p>När den nya användaren har skapats får användaren en e-postinbjudan som meddelar användaren om att ett Workfront-konto har skapats och ber denne ange sitt lösenord.</p> <p>När du skapar en ny användare kan användare välja alternativet"Skicka en inbjudan via e-post till den här personen" (enligt beskrivningen i <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Lägg till användare</a><span style="font-weight: 400;">). När alternativet "Ny användare till användare" har aktiverats globalt får alla nya användare e-postinbjudan oavsett om alternativet "Skicka en inbjudan via e-post till den här personen" har valts.</span></p> </td> 
+   <td> <p>När en ny användare skapas i Workfront skickar du ett e-postmeddelande till användaren.</p> <p>När den nya användaren har skapats får användaren en e-postinbjudan som meddelar användaren att ett Workfront-konto har skapats och ber denne ange sitt lösenord.</p> <p>När du skapar en ny användare kan användare välja alternativet"Skicka en inbjudan via e-post till den här personen" (enligt beskrivningen i <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Lägg till användare</a><span style="font-weight: 400;">). När alternativet "Ny användare till användare" är aktiverat globalt får alla nya användare e-postinbjudan oavsett om alternativet "Skicka en inbjudan via e-post till den här personen" är markerat.</span></p> </td> 
    <td> Inaktiv </td> 
   </tr> 
   <tr> 
@@ -769,7 +769,7 @@ Se även [Meddelanden: Diverse information](../../../workfront-basics/using-noti
   <tr> 
    <td> <p>Användare</p> </td> 
    <td> <p>Objektdelning till användare</p> </td> 
-   <td> <p>Någon delar objekt med mig.</p> </td> 
+   <td> <p>Någon delar ett objekt med mig.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -814,6 +814,6 @@ Se även [Meddelanden: Delegering](../../../workfront-basics/using-notifications
 | Objekttyp | Händelse | Beskrivning | Standardläge |
 |------------------|---------------------------------------------|--------------------------------------------------------------|---------------|
 | Uppgifter och problem | Uppgift och utfärda delegering till tilldelad | Jag delegerar mina uppgifter och ärenden (bekräftelse) | Aktiv |
-| Uppgifter och problem | Stoppa aktiviteten och utfärda delegering till den som tilldelats | Jag avbryter delegeringen av mina uppgifter och frågor (bekräftelse) | Aktiv |
+| Uppgifter och problem | Stoppa aktiviteten och skicka delegering till den som tilldelats uppgiften | Jag avbryter delegeringen av mina uppgifter och frågor (bekräftelse) | Aktiv |
 | Uppgifter och problem | Uppgift och utge delegering till delegat | Någon delegerar sina uppgifter och ärenden till mig | Aktiv |
 | Uppgifter och problem | Stoppa aktiviteter och skicka delegering till delegering | Någon stoppar delegeringen av deras uppgifter och ärenden till mig | Aktiv |

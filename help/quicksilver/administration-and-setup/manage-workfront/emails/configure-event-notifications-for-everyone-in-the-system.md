@@ -5,9 +5,9 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Beroende på vilken händelse du aktiverar och användaren fortsätter att vara 
 
 Du måste först ange vilka meddelanden du vill att alla användare ska få under Konfigurera i Workfront-instansen. När du har aktiverat ett meddelande i inställningsområdet visas det som aktiverat för varje användare på deras profilsida.
 
-När meddelanden har aktiverats i inställningsområdet och visas på användarens profilsidor, kan enskilda användare eller en annan användare med en planlicens även konfigurera aktiverade meddelanden i en användarprofil för att styra vilka meddelanden som en viss användare får och hur ofta. Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+När meddelanden har aktiverats i inställningsområdet och visas på användarens profilsidor, kan enskilda användare eller en annan användare med en planlicens även konfigurera aktiverade meddelanden i en användarprofil för att styra vilka meddelanden som en viss användare får och hur ofta. Mer information finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 En lista över alla händelsemeddelanden som du kan aktivera och inaktivera finns i [Händelsemeddelanden är tillgängliga i Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 

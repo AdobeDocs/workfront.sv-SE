@@ -1,25 +1,25 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '''Meddelanden: Kommunikation'
-description: Följande meddelanden informerar dig om kommunikation, t.ex. en uppdateringskommentar, som händer med ett arbetsobjekt som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i Aktivera eller inaktivera egna händelsemeddelanden.
+title: 'Meddelanden: Kommunikation'
+description: Följande meddelanden informerar dig om kommunikation, t.ex. en uppdateringskommentar, som händer med ett arbetsobjekt som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i Ändra dina egna e-postmeddelanden.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
 
-# Meddelanden: Kommunikation
+# Meddelanden: Meddelande
 
-Följande meddelanden informerar dig om kommunikation, t.ex. en uppdateringskommentar, som händer med ett arbetsobjekt som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Följande meddelanden informerar dig om kommunikation, t.ex. en uppdateringskommentar, som händer med ett arbetsobjekt som du är inblandad i. Mer information om hur du konfigurerar vilka meddelanden du får finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
->De här meddelandena varnar dig om alla kommentarer som har bokförts för en viss artikel. Därför måste du markera eller avmarkera alla meddelanden på samma gång för att kunna levereras i ett dagligt e-postmeddelande med sammandrag. Om du bara vill få meddelanden om vissa kommentarer när de inträffar, kan du ange att de enskilda meddelandena ska skickas direkt.
+>De här meddelandena varnar dig om alla kommentarer som har bokförts för en viss artikel. Därför måste du markera eller avmarkera alla meddelanden på samma gång för att kunna levereras i ett dagligt meddelande. Om du bara vill få meddelanden om vissa kommentarer när de inträffar, kan du ange att de enskilda meddelandena ska skickas direkt.
 
 Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event-notifications.md).
 

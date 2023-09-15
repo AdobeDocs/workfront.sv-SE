@@ -7,9 +7,9 @@ description: Adobe Workfront Boards skickar ett e-postmeddelande till dig när d
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] skickar ett e-postmeddelande till dig när du läggs till på en anslagstavla och när du tilldelas ett kort. Meddelandena är aktiverade som standard och du kan välja vilka e-postmeddelanden du vill få i dina inställningar.
 
-Du får också ett e-postmeddelande när du är taggad i en kommentar på ett anslutet kort, beroende på inställningarna för e-postmeddelanden. Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
+Du får också ett e-postmeddelande när du är taggad i en kommentar på ett anslutet kort, beroende på inställningarna för e-postmeddelanden. Mer information finns i [Ändra dina egna e-postmeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
 
 ## Åtkomstkrav
 

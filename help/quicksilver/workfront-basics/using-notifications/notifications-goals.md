@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '''Meddelanden: Mål'
-description: '''Meddelanden: Mål'
+title: 'Meddelanden: mål'
+description: 'Meddelanden: mål'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
@@ -62,7 +62,7 @@ Den användare vars [!DNL Goals] Aviseringar uppdateras måste ha följande:
 * En layoutmall som innehåller [!DNL Goals] området i [!UICONTROL Main Menu].
 * Tillgång till nya [!DNL Adobe Workfront] upplevelse.
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: we need this here because you can see these notifications from Classic)
   </MadCap:conditionalText>
@@ -70,7 +70,7 @@ Den användare vars [!DNL Goals] Aviseringar uppdateras måste ha följande:
 
 ## [!DNL Goals] meddelanden i [!UICONTROL user profile] area
 
-De meddelanden som visas i följande tabell varnar dig om händelser som inträffar i [!DNL Workfront Goals], till exempel någon som tilldelar dig ett mål, resultat eller en aktivitet eller någon som gör en uppdatering av ett mål, resultat eller en aktivitet som du äger. Mer information om hur du konfigurerar vilka meddelanden du får finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+De meddelanden som visas i följande tabell varnar dig om händelser som inträffar i [!DNL Workfront Goals], till exempel någon som tilldelar dig ett mål, resultat eller en aktivitet eller någon som gör en uppdatering av ett mål, resultat eller en aktivitet som du äger. Mer information om hur du konfigurerar vilka meddelanden du får finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 
@@ -105,7 +105,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td> <p>Namnet på den person som gillade kommentaren</p> <p>Målets period </p> <p>Målets namn</p> <p>Texten i kommentaren </p> <p>The <strong>[!UICONTROL Open in web app]</strong> knappen som öppnar [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> som gör att du kan hantera dina meddelanden.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Någon gillade en uppdatering av mitt mål</strong></td> 
+   <td><strong>Någon tyckte om en uppdatering för mitt mål</strong></td> 
    <td> <p>Du får ett e-postmeddelande när någon gillar en kommentar som du har gjort på ett mål eller när du uppdaterar förloppet för dina resultat eller aktiviteter på målet. </p> <p>Namnet på den person som gillade uppdateringen</p> <p>Målets period </p> <p>Målets namn</p> <p>The <strong>[!UICONTROL Open in web app]</strong> knappen som öppnar [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> som gör att du kan hantera dina meddelanden.</p> </td> 
   </tr> 
  </tbody> 

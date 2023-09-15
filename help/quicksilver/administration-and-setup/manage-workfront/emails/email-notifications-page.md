@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: dfb0ab35929413ee3189ded32b87f7ed9a379d91
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ Som Adobe Workfront-administratör kan du konfigurera händelsemeddelanden, påm
 De här länkarna leder till användarområdet för hjälpartiklar för Adobe Workfront-meddelanden.
 
 * Allmän information om meddelanden finns i [Adobe Workfront-meddelanden](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
-* Mer information om hur du konfigurerar egna meddelanden i din profil finns i [Aktivera eller inaktivera egna händelsemeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Mer information om hur du konfigurerar egna meddelanden i din profil finns i [Ändra dina egna e-postmeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).

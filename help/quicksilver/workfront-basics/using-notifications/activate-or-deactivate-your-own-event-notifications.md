@@ -1,23 +1,24 @@
 ---
 product-area: setup
 navigation-topic: notifications
-title: Aktivera eller inaktivera egna händelsemeddelanden
-description: Din Adobe Workfront-administratör konfigurerar vilka händelsemeddelanden användare får när händelser inträffar i Workfront.
+keywords: ändra,e-post,meddelande,inställningar
+title: Ändra dina egna e-postmeddelanden
+description: I den här artikeln beskrivs hur du kan hantera e-postmeddelanden i din användarprofil.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
 
-# Aktivera eller inaktivera egna händelsemeddelanden
+# Ändra dina egna e-postmeddelanden
 
-Din Adobe [!DNL Workfront] administratör konfigurerar vilka händelsemeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] meddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Din Adobe [!DNL Workfront] administratör konfigurerar vilka e-postmeddelanden användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] meddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-Gruppadministratören kan också konfigurera vilka händelsemeddelanden som ska aktiveras för dig och användarna i hemgruppen. Om [!UICONTROL Home Group] är en undergrupp, du får händelseaviseringar aktiverade för den översta gruppen ovanför gruppen.
+Gruppadministratören kan också konfigurera vilka meddelanden som ska aktiveras för dig och användarna i [!UICONTROL Home Group]. Om [!UICONTROL Home Group] är en undergrupp, du får de meddelanden som är aktiverade för den översta gruppen ovanför gruppen.
 
 Du kan anpassa detta ytterligare genom att konfigurera vilka meddelanden du får. Du kan också välja om du vill få meddelanden när händelser inträffar eller i ett e-postmeddelande med en daglig sammanfattning.
 
@@ -26,7 +27,7 @@ Mer information om e-postmeddelanden finns i [[!DNL Adobe Workfront] meddelanden
 >[!NOTE]
 >
 >* Om du aktiverar en meddelandetyp och sedan upptäcker att du inte får meddelanden av den typen, kan det bero på att den typen inte gäller för din roll.
->* The [!DNL Workfront] administratör eller gruppadministratör kan inte konfigurera meddelanden för [!DNL Workfront Goals]. Om du vill ha mer information om vilka meddelanden [!DNL Workfront] administratörer kan konfigurera, se [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Mer information om hur du konfigurerar enskilda meddelanden för [!DNL Workfront Goals] fortsätta att läsa den här artikeln.
+>* The [!DNL Workfront] administratörer eller gruppadministratörer kan inte konfigurera meddelanden för [!DNL Workfront Goals]. Om du vill ha mer information om vilka meddelanden [!DNL Workfront] administratörer kan konfigurera, se [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Mer information om hur du konfigurerar enskilda meddelanden för [!DNL Workfront Goals] fortsätta att läsa den här artikeln.
 >
 
 ## Åtkomstkrav
@@ -50,13 +51,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
 
 ## Visa och ändra inställningarna för e-postmeddelanden
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]klickar du sedan på ditt användarnamn bredvid din profilbild.
+{{step1-click-profile-pic}}
 
-1. Klicka på **[!UICONTROL More]** icon ![](assets/more-icon.png) och sedan klicka **[!UICONTROL Edit]**.
+1. Klicka på **[!UICONTROL More]** icon ![](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
 
 1. I **[!UICONTROL Edit Person]** går du till **[!UICONTROL Notifications]** -avsnitt.
 

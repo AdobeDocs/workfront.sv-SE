@@ -5,9 +5,9 @@ title: Visa och hantera [!DNL Adobe Workfront] meddelanden i Adobe Creative Clou
 description: Du kan få meddelanden i Adobe Creative Cloud från [!DNL Adobe Workfront] om objekt som du måste godkänna, uppdrag som du har fått eller kommentarer och ändringar i objekt som du är kopplad till.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 8dbe15370287e47416164b5df6542bbb11405099
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,13 @@ Meddelanden finns i följande Adobe Creative Cloud-program:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
 {{cc-install-prereq}}
 
-* Du har aktiverat snabbmeddelanden i [!DNL Workfront]. Information om hur du aktiverar snabbmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Du har aktiverat snabbmeddelanden i [!DNL Workfront]. Information om hur du aktiverar snabbmeddelanden finns i [Ändra dina egna e-postmeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Visa och hantera [!DNL Workfront] meddelanden i Adobe Creative Cloud
 
@@ -71,7 +71,7 @@ Följande meddelanden är tillgängliga i plugin-programmet:
 
 * Någon inkluderade dig på en dirigerad uppdatering
 * Någon inkluderade ditt team i en riktad uppdatering (@teamname)
-* Någon kommenterade din användarprofil
+* Någon har kommenterat din användarprofil
 * Någon kommenterade en uppdatering som du är inkluderad i
 * Någon kommenterade ditt verk eller något du gjorde
 * Ditt dokument har godkänts/godkänts med ändringar/avvisats

@@ -7,9 +7,9 @@ description: I G Suite när du öppnar ett e-postmeddelande Adobe [!DNL Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ I [!DNL G Suite]när du öppnar ett e-postmeddelande [!DNL Adobe Workfront] har 
 
 >[!NOTE]
 >
-> [!DNL Workfront for G Suite] har stöd för nästan alla typer av e-postmeddelanden som du kan få från [!DNL Workfront] (ungefär 120 olika typer). [!UICONTROL Daily digest] e-postmeddelanden skickade från [!DNL Workfront] visas inte i [!DNL Workfront for G Suite]. Mer information om [!DNL Workfront] e-postmeddelandetyper, se [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for G Suite] har stöd för nästan alla typer av e-postmeddelanden som du kan få från [!DNL Workfront] (ungefär 120 olika typer). [!UICONTROL Daily digest] e-postmeddelanden skickade från [!DNL Workfront] visas inte i [!DNL Workfront for G Suite]. Mer information om [!DNL Workfront] e-postmeddelandetyper, se [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Åtkomstkrav
 
@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
@@ -56,7 +56,7 @@ Innan du kan hantera meddelandeinformation från [!DNL G Suite]måste du
 
 ## Hantera [!DNL Adobe Workfront] meddelandeinformation från [!DNL G Suite]
 
-1. Om [!DNL Workfront for G Suite] visas inte, klicka på [!DNL Workfront] icon ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofältet för tillägg längst till höger på sidan.
+1. Om [!DNL Workfront for G Suite] panelen visas inte, klicka på [!DNL Workfront] icon ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofältet för tillägg längst till höger på sidan.
 1. I [!DNL G Suite], öppna en [!DNL Workfront] e-postmeddelande.
 1. Klicka **[!UICONTROL View all updates]** om den visas nära panelens övre del.
 1. Klicka på **[!UICONTROL Details]**.
@@ -88,7 +88,7 @@ Innan du kan hantera meddelandeinformation från [!DNL G Suite]måste du
      </tr> 
      <tr> 
       <td>Uppdatera </td> 
-      <td> <p>Visa en del av hela listan med uppdateringar för objektet så att du har den kontext du behöver <strong>[!UICONTROL Post]</strong> en ny uppdatering eller en <strong>[!UICONTROL Reply]</strong>. Du kan klicka <strong>[!UICONTROL Notify]</strong> om du vill varna vissa användare om ditt svar. </p> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Svara på en [!DNL Adobe Workfront] uppdateringsmeddelande från [!DNL G Suite]</a>.</p> </td> 
+      <td> <p>Visa en del av hela listan med uppdateringar för objektet så att du har den kontext du behöver <strong>[!UICONTROL Post]</strong> en ny uppdatering eller en <strong>[!UICONTROL Reply]</strong>. Klicka <strong>[!UICONTROL Notify]</strong> om du vill varna vissa användare om ditt svar. </p> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Svara på en [!DNL Adobe Workfront] uppdateringsmeddelande från [!DNL G Suite]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Godkännandebegäran</td> 

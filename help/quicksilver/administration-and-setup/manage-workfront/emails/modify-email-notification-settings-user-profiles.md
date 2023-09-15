@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: ändra,e-post,meddelande,inställningar,massredigera,konfigurera,flera,användare
 navigation-topic: emails-administration
 title: Ändra inställningar för e-postmeddelanden i användarnas profiler
-description: Om du är Adobe Workfront-administratör eller har en åtkomstnivå för Planering som gör att du kan redigera andra användares inställningar, kan du konfigurera meddelandeinställningarna för flera användare samtidigt. Detta inkluderar att ange om användare ska få meddelanden när händelser inträffar eller i ett dagligt e-postmeddelande med sammandrag, vilket beskrivs i Adobe Workfront-meddelanden. Mer information om åtkomstnivån som behövs för att redigera användare finns i Bevilja åtkomst till användare.
-author: Lisa, Caroline
+description: Den här artikeln innehåller information för Workfront- eller gruppadministratörer om hur de kan uppdatera e-postmeddelanden för andra användare.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ När du konfigurerar meddelandeinställningar gruppvis kan du bara ändra de ins
 
 >[!NOTE]
 >
->Du kan också konfigurera e-postmeddelanden för en användare åt gången, inklusive din egen profil. Mer information finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>Du kan också konfigurera e-postmeddelanden för en användare åt gången, inklusive din egen profil. Mer information finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Åtkomstkrav

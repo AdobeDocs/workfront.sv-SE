@@ -7,9 +7,9 @@ description: Adobe Workfront-mål innehåller en uppsättning fördefinierade h�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Workfront Goals innehåller en uppsättning händelsemeddelanden som du ka
 
 Information om vilka meddelanden du kan aktivera för Workfront-mål finns på [Meddelanden: Mål](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Mer information om hur du hanterar meddelanden i Adobe Workfront finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information om hur du hanterar meddelanden i Adobe Workfront finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

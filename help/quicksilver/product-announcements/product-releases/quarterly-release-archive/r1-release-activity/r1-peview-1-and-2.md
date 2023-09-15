@@ -2,20 +2,20 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Preview 1 och 2
-description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i R1.1- och R1.2-versionerna. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 19 januari 2017.
+description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön med versionerna R1.1 och R1.2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 19 januari 2017.
 author: Luke
 feature: Product Announcements
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
 # R1 Preview 1 och 2
 
-Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i R1.1- och R1.2-versionerna. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 19 januari 2017.
+Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön med versionerna R1.1 och R1.2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 19 januari 2017.
 
 En lista över alla ändringar som gjorts i R1 finns i [Aktivitetsöversikt för R1-release](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
@@ -44,15 +44,15 @@ Mer information finns i [Godkänna arbete](../../../../review-and-approve-work/m
 När ett projekt, en uppgift eller ett problem väntar på godkännande kan du nu konfigurera om användarna ska kunna:
 
 * Redigera det anpassade formuläret för ett projekt, en uppgift eller ett problem som väntar på godkännande.\
-   Mer information om hur du konfigurerar projekt, uppgifter och utgåvor som ska redigeras när du väntar på godkännande finns i [Konfigurera globala inställningar för godkännande](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  Mer information om hur du konfigurerar projekt, uppgifter och utgåvor som ska redigeras när du väntar på godkännande finns i [Konfigurera globala inställningar för godkännande](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
 * Lägg till ärenden i ett projekt som väntar på godkännande.\
-   Mer information om hur du konfigurerar projekt så att användare kan lägga till problem när projektet väntar på godkännande finns i [Konfigurera systemomfattande projektinställningar](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Mer information om hur du konfigurerar projekt så att användare kan lägga till problem när projektet väntar på godkännande finns i [Konfigurera systemomfattande projektinställningar](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Redigera uppgifter och ärenden i ett projekt som väntar på godkännande.\
-   Mer information om hur du konfigurerar projekt så att användare kan redigera uppgifter och problem när projektet väntar på godkännande finns i [Konfigurera systemomfattande projektinställningar](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Mer information om hur du konfigurerar projekt så att användare kan redigera uppgifter och problem när projektet väntar på godkännande finns i [Konfigurera systemomfattande projektinställningar](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Före denna ändring kunde projekt, uppgifter och ärenden som var under behandling inte redigeras. Det gick inte heller att lägga till problem i projekt som väntar på godkännande, och uppgifter och ärenden kunde inte redigeras i projekt som väntar på godkännande.
+Före den här ändringen gick det inte att redigera projekt, uppgifter och utgåvor som inte hade godkänts. Det gick inte heller att lägga till problem i projekt som väntar på godkännande, och aktiviteter och ärenden kunde inte redigeras i projekt som inte hade godkänts.
 
 ## Tilldela layoutmallar till grupper
 
@@ -68,7 +68,7 @@ Funktionen har ändrats kring redigering av e-postaviseringsinställningar för 
 
 Före den här ändringen sparades de inställningar för e-postmeddelanden som du valde och alla övriga inställningar för oförändrade meddelanden avmarkerades när du sparade ändringarna. 
 
-Mer information finns i&quot;Ändra inställningar för användarmeddelanden gruppvis&quot; i [Aktivera eller inaktivera egna händelsemeddelanden](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Mer information finns i&quot;Ändra inställningar för användarmeddelanden gruppvis&quot; i [Ändra dina egna e-postmeddelanden](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Uppdaterat utseende och känsla för flera e-postmeddelanden
 
@@ -117,7 +117,7 @@ Du kan dela en URL för ett objekt i följande program:
 * Textmeddelande
 * E-post
 * Lagringsenhet (till exempel iCloud-enhet)
-* Ett annat installerat program (t.ex. Notes, Facebook)
+* Ett annat installerat program (till exempel Notes, Facebook)
 * Du kan kopiera en länk till objektet till Urklipp och klistra in det senare i ett annat program. 
 
 ## Sammanhangsberoende hjälp i installationsprogrammet

@@ -6,9 +6,9 @@ description: Du kan tillfälligt delegera det arbete du är tilldelad när du in
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
    * Användaren som du har valt som ombud får ett e-postmeddelande om delegeringen, om deras händelsemeddelanden är aktiverade.
 
-     Mer information om hur du aktiverar personliga e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     Mer information om hur du aktiverar personliga e-postmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 

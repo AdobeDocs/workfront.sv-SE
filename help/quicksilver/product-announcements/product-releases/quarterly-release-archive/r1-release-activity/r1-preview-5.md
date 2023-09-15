@@ -6,9 +6,9 @@ description: Den här sidan beskriver alla ändringar som är tillgängliga i f�
 author: Luke
 feature: Product Announcements
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ En lista över alla ändringar som gjorts i R1 finns i [Aktivitetsöversikt för
 
 Nu kan en användare med behörigheten Hantera för ett projekt följa upp projektets förlopp med hjälp av en användningsrapport.
 
-Tack vare utnyttjanderapporten kan du hålla ditt projekt inom budgeten genom att snabbt se hur de faktiska timmarna spårar mot budgeterade timmar eller planerade timmar för en viss vecka eller månad, eller för hela projektet. Dessutom kan du visa detaljerad information om antalet timmar i varje kategori (budgeterad, planerad och faktisk), kategoriserat efter jobbroll eller enskild användare.
+Tack vare utnyttjanderapporten kan du hålla ditt projekt inom budgeten genom att snabbt se hur de faktiska timmarna spårar mot de budgeterade timmarna eller planerade timmarna för en viss vecka eller månad, eller för hela projektet. Dessutom kan du visa detaljerad information om antalet timmar i varje kategori (budgeterad, planerad och faktisk), kategoriserat efter jobbroll eller enskild användare.
 
 Mer information om hur du spårar användning i ett projekt finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-Som systemadministratör kan du konfigurera om fliken Användning ska vara tillgänglig för användare. Som standard finns fliken Utnyttjande i listrutan Mer i ett projekt. Du kan flytta fliken Användning till en annan plats eller dölja den helt. Om du har definierat anpassade layoutmallar för användare i din organisation måste du lägga till fliken Användning manuellt i de anpassade layoutmallarna.
+Som systemadministratör kan du konfigurera om fliken Användning ska vara tillgänglig för användare. Fliken Utnyttjande finns som standard i listrutan Mer i ett projekt. Du kan flytta fliken Användning till en annan plats eller dölja den helt. Om du har definierat anpassade layoutmallar för användare i din organisation måste du lägga till fliken Användning manuellt i de anpassade layoutmallarna.
 
 Mer information om hur du konfigurerar platsen för fliken Utnyttjande finns i&quot;Anpassa flikar&quot; i&quot;Skapa och hantera layoutmallar&quot;.
 
@@ -58,10 +58,10 @@ Mer information om hur du återställer objekt i Workfront finns i [Återställ 
 Följande förbättringar är nu tillgängliga när du visar en projektlista eller en projektrapport i vyn Milstolpe:
 
 * **Konfigurera om förloppsstatus och Procent färdigt ska visas i vyn:** Det finns ett nytt alternativ som gör att du kan konfigurera om Progress Status-ikoner ska visas i vyn Milstolpe. Dessutom kan du konfigurera om informationen Procent färdigt ska visas för projekt och uppgifter.\
-   Mer information finns i [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+  Mer information finns i [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 * **Redigera Procent färdigt direkt från vyn Milstolpe:** Nu kan du redigera Procent färdigt i projekt och uppgifter direkt i vyn Milstolpe.\
-   Mer information finns i [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+  Mer information finns i [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## Uppdaterat utseende och känsla för flera systemkonfigurationssidor
 
@@ -83,7 +83,7 @@ Organisationshuvuden för händelsemeddelanden i området E-postinställningar m
 
 Mer information om händelsemeddelanden finns i  [Konfigurera händelsemeddelanden för alla i systemet](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-## Avanmäl dig från snabbmeddelanden: Kontextsammanställning av sammandrag
+## Opt out of Instant Notifications: In-Context Digest Configuration
 
 Följande alternativ är nu tillgängliga i e-postmeddelanden direkt. De här alternativen är bara tillgängliga för snabbmeddelanden som också har en daglig sammanfattningsmotsvarighet:
 
@@ -98,7 +98,7 @@ Dessa alternativ är tillgängliga i e-postmeddelandet. Mer information om hur d
 
 Flera meddelanden har flyttats från avsnittet Åtgärd krävs på användarprofilsidan till andra avsnitt, enligt följande:
 
-Mer information om hur du konfigurerar e-postmeddelanden finns i [Aktivera eller inaktivera egna händelsemeddelanden](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+Mer information om hur du konfigurerar e-postmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,12 +133,12 @@ Mer information om hur du konfigurerar e-postmeddelanden finns i [Aktivera eller
    <td> <p> Information om projekt som jag äger </p>   </td> 
   </tr> 
   <tr> 
-   <td> <p> Bekräftelsedatumet ändras för en aktivitet i ett av mina projekt </p> </td> 
+   <td> <p> Bekräftelsedatumet ändras för en aktivitet i ett projekt </p> </td> 
    <td>   <p>Åtgärd krävs</p></td> 
    <td>   <p>Information om projekt som jag äger</p></td> 
   </tr> 
   <tr> 
-   <td> <p> Bekräftelsedatumet ändras för ett problem i ett av mina projekt </p>   </td> 
+   <td> <p> Bekräftelsedatumet ändras för ett problem i ett projekt </p>   </td> 
    <td>   <p>Åtgärd krävs</p></td> 
    <td> <p> Information om projekt som jag äger </p>   </td> 
   </tr> 
@@ -171,17 +171,21 @@ Mer information om hur du konfigurerar e-postmeddelanden finns i [Aktivera eller
 Följande ändringar har lagts till som stöd för den framtida resursplaneringsfunktionen:
 
 * Den aktuella fliken Resursplanering har bytt namn till Äldre resursplanering i området Personer. 
-* En ny flik, Resursplanering, har lagts till i området Personer där den nya funktionen ska utvecklas.\
-   Mer information om den nya fliken Resursplanering finns i [Kom igång med resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+* En ny flik, &quot;Resursplanering&quot;, har lagts till i området Personer där den nya funktionen ska utvecklas.\
+  Mer information om den nya fliken Resursplanering finns i [Kom igång med resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
 * Det aktuella resurspoolobjektet har bytt namn till &quot;Äldre resurspool&quot;.\
-   Mer information om hur du skapar nya användarbaserade resurspooler finns i [Översikt över resurspooler](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  Mer information om hur du skapar nya användarbaserade resurspooler finns i [Översikt över resurspooler](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * Ett nytt resurspool-objekt har skapats med stöd för de nya (användarbaserade) resurspoolerna.
 
-   >[!NOTE]
-   * Om du för närvarande kör rapporter om befintliga äldre resurspooler ändras inte de befintliga rapporterna.
-   * Om du vill skapa en ny rapport för de befintliga (jobbrollbaserade) äldre resurspoolerna måste du välja &quot;Äldre resurspooler&quot; som objekt för rapporten.
-   * Om du vill skapa en ny rapport för de nya (användarbaserade) resurspoolerna måste du välja Resurspooler som objekt för rapporten.
-
+  >[!NOTE]
+  >
+  >
   >   
+  >   
+  * Om du för närvarande kör rapporter om befintliga äldre resurspooler ändras inte de befintliga rapporterna.
+  * Om du vill skapa en ny rapport för de befintliga (jobbrollbaserade) äldre resurspoolerna måste du välja &quot;Äldre resurspooler&quot; som objekt för rapporten.
+  * Om du vill skapa en ny rapport för de nya (användarbaserade) resurspoolerna måste du välja Resurspooler som objekt för rapporten.
+  >   
+  >
