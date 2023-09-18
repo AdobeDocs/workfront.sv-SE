@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Lägga till ett textfält:
 
 1. Leta upp ett av följande textfält till vänster på skärmen och dra det till ett avsnitt på arbetsytan:
 
-   * Enkelradig text:
+   * Enkelradstext
    * Stycketext
    * Textfält med formatering
    * Beskrivning
@@ -254,6 +254,10 @@ Du kan lägga till alternativknappar, kryssrutor och listrutor i ett anpassat fo
 * **Listruta**: Innehåller en lista med alternativ i listrutan.
 
 +++
+
+>[!NOTE]
+>
+>Fält som tillåter flera val, t.ex. kryssrutegruppen, är svåra att schemalägga och gruppera i rapporter. Om du vill att det ska vara enklare att rita och gruppera i rapporter kan du skapa separata fält för varje val (till exempel ett textfält med en rad).
 
 Så här lägger du till alternativknappar och kryssrutor:
 
@@ -568,13 +572,14 @@ Så här lägger du till en extern sökning:
 
 >[!NOTE]
 >
->Tekniska begränsningar för anropet till det externa API:t:
+>Följande objekt är tekniska begränsningar för anropet till det externa API:t:
 >
 >* Maximalt antal alternativ: 200 (endast de första 200 alternativen från det returnerade JSON visas)
 >* Timeout: 3 sekunder
 >* Antal återförsök: 3
 >* Väntetid mellan återförsök: 500 ms
 >* Förväntad svarsstatus: 2xx
+>* Användaren kan se det valda värdet (och redigera värdet) i listor och rapporter i Workfront, men kommer inte att se listrutan med alternativ från det externa API:t.
 
 </div>
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Fält som tillåter flera val, som kryssrutor och listrutor, är svåra att schemalägga och gruppera i rapporter. Om du vill att det ska vara enklare att rita och gruppera i rapporter kan du skapa separata fält för varje val (till exempel ett textfält med en rad).
 
 1. På **Fältinställningar** konfigurerar du de alternativ som är tillgängliga för den typ av anpassat fält som du lägger till:
 
