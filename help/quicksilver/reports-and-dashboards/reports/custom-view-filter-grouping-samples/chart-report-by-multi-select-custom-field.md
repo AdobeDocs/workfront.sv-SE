@@ -7,7 +7,7 @@ description: Du kan bara skapa ett diagram över en rapport med ett anpassat fä
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
    >[!NOTE]
    >
    >Det här alternativet har tagits bort från gruppredigering.  Du kan fortfarande beräkna om uttryck för projekt i grupp genom att klicka på **Mer** icon ![](assets/more-icon-45x33.png) högst upp i en projektlista, och sedan **Beräkna om uttryck**.
-
 
 1. Gå till rapporten där du vill lägga till diagrammet för det beräknade fältet som refererar till det anpassade fältet för flera val.
 1. Klicka **Rapportåtgärder** sedan **Redigera**.
