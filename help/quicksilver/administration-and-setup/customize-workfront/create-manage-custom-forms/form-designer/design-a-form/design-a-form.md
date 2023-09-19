@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 0%
 
 ---
@@ -257,7 +257,7 @@ Du kan lägga till alternativknappar, kryssrutor och listrutor i ett anpassat fo
 
 >[!NOTE]
 >
->Fält som tillåter flera val, t.ex. kryssrutegruppen, är svåra att schemalägga och gruppera i rapporter. Om du vill att det ska vara enklare att rita och gruppera i rapporter kan du skapa separata fält för varje val (till exempel ett textfält med en rad).
+>Fält som tillåter flera markeringar, som kryssrutegruppen och listrutan, är svåra att schemalägga och gruppera i rapporter. Om du vill att det ska vara enklare att rita och gruppera i rapporter kan du skapa separata fält för varje val (till exempel ett textfält med en rad).
 
 Så här lägger du till alternativknappar och kryssrutor:
 
@@ -328,7 +328,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     </tr> 
     <tr> 
      <td role="rowheader">Visningstyp</td> 
-    <td>Växla mellan alternativknappar, kryssrutegrupper och listrutor för fältet.</td> 
+    <td>Växla mellan alternativknappar, kryssrutegrupper, listrutor och flervalslistrutor för fältet.</td> 
     <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
@@ -559,7 +559,7 @@ Så här lägger du till en extern sökning:
      </tr>
      <tr> 
       <td role="rowheader">Sidhuvuden</td>
-      <td>Klicka <strong>Lägg till sidhuvud</strong>och skriv eller klistra in nyckelvärdepar som krävs för autentisering med API:t.</td>
+      <td><p>Klicka <strong>Lägg till sidhuvud</strong>och skriv eller klistra in nyckelvärdepar som krävs för autentisering med API:t.</p><p><strong>OBS!</strong> Rubrikfälten är inte ett säkert ställe att lagra inloggningsuppgifter på och du bör vara försiktig med vad du anger och sparar.</p></td>
      </tr>
     </tbody>
    </table>
@@ -579,7 +579,7 @@ Så här lägger du till en extern sökning:
 >* Antal återförsök: 3
 >* Väntetid mellan återförsök: 500 ms
 >* Förväntad svarsstatus: 2xx
->* Användaren kan se det valda värdet (och redigera värdet) i listor och rapporter i Workfront, men kommer inte att se listrutan med alternativ från det externa API:t.
+>* Användarna kan se det valda värdet (och redigera värdet) i listor och rapporter i Workfront, men kommer inte att se listrutan med alternativ från det externa API:t.
 
 </div>
 
