@@ -7,7 +7,7 @@ description: Genom att använda Workfront Fusion via Adobe Experience Cloud får
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: d43d17f59d8ecc071cf953994721b586ff9328d2
+source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Med den här menyn kan du:
 
 ## Få åtkomst till dina meddelanden
 
-Du hittar meddelanden och meddelanden i meddelandeområdet i det enhetliga gränssnittet.
+Du hittar dina meddelanden och meddelanden i meddelandeområdet i det enhetliga gränssnittet.
 
 Om du vill visa dina meddelanden klickar du på meddelandeikonen ![Ikonen Meddelanden](assets/notifications-icon.png) i skärmens övre högra hörn. En röd punkt på meddelandeikonen anger att du har olästa meddelanden eller meddelanden.
 
