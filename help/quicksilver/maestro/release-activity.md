@@ -3,9 +3,9 @@ title: Adobe Maestro-lansering
 description: Använd maestro för att skapa egna objekt, fält och arbetsytor.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ De släppta funktionerna listas i den ordning de släpps, med den senaste först
 I det här avsnittet beskrivs de funktioner och korrigeringar som har släppts efter lanseringen av Maestro-betaprogrammet, som avslutades den 22 maj 2023.
 
 Funktionerna släpps varje vecka och visas i den ordning de släpps, med den senaste först. Kunder som deltar i det nedstängda betaprogrammet från Maestro har tillgång till alla funktioner i sina förhandsgransknings- och produktionsmiljöer.
+
+## Vecka 18 september 2023
+
+### Ordna om rader
+
+Förhandsgranskning och produktion: 20 september 2023
+
+Du kan nu ändra ordningen på en eller flera rader (eller poster) i tabellvyn på en posttypsida.
 
 ## Vecka 4 september 2023
 

@@ -9,13 +9,13 @@ description: Alla användare måste ha en åtkomstnivå för att kunna logga in 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen
 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>Aktuell plan: Standard
    <p>eller</p>
-   <p>Äldre plan: Plan</p></td> 
+   <p>Gammal plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -57,6 +57,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step-1-to-setup}}
 
-1. Bläddra nedåt till [!UICONTROL **Inställningar**].
+1. Expandera [!UICONTROL **System**] i den vänstra navigeringen klickar du på [!UICONTROL **Inställningar**].
 1. I [!UICONTROL **Allmänna inställningar**] -avsnittet, kontrollera [!UICONTROL **Inaktivera automatisk uppgradering på åtkomstnivåer**] box.
 1. Klicka [!UICONTROL **Spara**].
