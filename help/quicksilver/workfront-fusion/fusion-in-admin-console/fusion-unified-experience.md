@@ -7,9 +7,9 @@ description: Genom att använda Workfront Fusion via Adobe Experience Cloud får
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -109,4 +109,11 @@ Med den här menyn kan du:
 Du hittar dina meddelanden och meddelanden i meddelandeområdet i det enhetliga gränssnittet.
 
 Om du vill visa dina meddelanden klickar du på meddelandeikonen ![Ikonen Meddelanden](assets/notifications-icon.png) i skärmens övre högra hörn. En röd punkt på meddelandeikonen anger att du har olästa meddelanden eller meddelanden.
+
+Instruktioner om hur du konfigurerar meddelanden i Adobe Experience Cloud finns i [Meddelandekonfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) i dokumentationen för Adobe.
+
+Observera följande vid konfiguration:
+
+* **Varningar** hänvisar till fastsatta scenarier.
+* **Uppdateringar av innehåll** hänvisar till fel och varningar i scenariokörningar.
 

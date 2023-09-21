@@ -8,9 +8,9 @@ description: Adobe Workfront Fusions funktioner för organisation och team gör 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -164,6 +164,12 @@ Så här skapar du ett team:
 1. Ange ett namn för det nya teamet och klicka på **Lägg till**.
 
 #### Ange alternativ för teammeddelanden
+
+>[!NOTE]
+>
+>Om du har åtkomst till [!DNL Fusion] via [!DNL Adobe Experience Cloud]hanteras dina meddelanden i [!DNL Experience Cloud] meddelandecenter.
+>
+>Mer information finns i [Få åtkomst till dina meddelanden](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Alternativen för e-postmeddelanden anges på teamnivå.
 
