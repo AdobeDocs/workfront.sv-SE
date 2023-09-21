@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Konfigurera säkerhetsinställningar för system
-description: Som Adobe Workfront-administratör kan du konfigurera säkerhetsinställningar för ditt Workfront-system.
+description: Som Adobe Workfront-administratör kan du konfigurera säkerhetsinställningar för Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Konfigurera systeminställningarna
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **System** > **Inställningar**.
 
@@ -69,10 +69,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Aktivera snabb granskningsprocess</p> </td> 
-      <td>Gör att du kan aktivera månadsvisa Workfront-utgåvor för din organisation istället för kvartalsvisa utgåvor.</p><p>Mer information om processen för snabb släppning finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera eller inaktivera snabba releaser för organisationen</a>.</p></td> 
+      <td>Gör att du kan aktivera månadsvisa Workfront-utgåvor för din organisation istället för kvartalsvisa utgåvor.</p><p>Mer information om processen för snabb släppning finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera eller inaktivera snabba releaser för din organisation</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Tillåt inbäddning av <strong>Workfront</strong> i en iframe</p> </td> 
+      <td role="rowheader"> <p>Tillåt inbäddning <strong>Workfront</strong> i en iframe</p> </td> 
       <td>Gör att du kan bädda in Workfront i en iframe.<p>Det här alternativet är inaktiverat som standard.</p><p><b>VIKTIGT</b>: Om du visar ett webbaserat program i en iframe kan programmet drabbas av en klickjacking-säkerhetslucka.</p></td> 
      </tr> 
      <tr> 
@@ -111,7 +111,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Användare i systemet ser som standard den nya hemupplevelsen </td> 
-      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. I båda fallen kan användarna välja att aktivera eller inaktivera Nytt hem på individnivå. Det här alternativet är aktiverat som standard.</td> 
+      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat kan användarna fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När det är inaktiverat har användarna inte möjlighet att använda Nytt hem. Det här alternativet är aktiverat som standard.</td> 
      </tr> 
     </tbody> 
    </table>
