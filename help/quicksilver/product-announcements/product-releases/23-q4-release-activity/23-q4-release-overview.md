@@ -3,9 +3,9 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
+source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 >| Månadsrelease | Kvartalsvis utgivning |
 >|----|----|
 >| <ul><li>23.8 (31 augusti 2023)</li><li>23.9 (28 september 2023)</li><li>23.10 (26 oktober 2023)</li></ul> | <ul><li>23.10 (vecka 26 oktober 2023)</li></ul> |
+
+Webbseminariet 23.10 kommer att hållas den 5 oktober 2023. Du kan [registrera dig för webbinariet här](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">Funktioner utanför cykeln (de som lanserades till Production före fjärde utgåvan av kvartal 2023) markeras med gult.</span>
 
