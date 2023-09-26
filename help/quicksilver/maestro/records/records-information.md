@@ -3,7 +3,8 @@ title: Information om poster
 description: När du har skapat posttyper i Adobe Maestro kan du skapa enskilda poster av dessa typer. I följande artiklar beskrivs hur du kan skapa och hantera poster i Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

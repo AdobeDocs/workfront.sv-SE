@@ -3,7 +3,8 @@ title: Arkitekturinformation
 description: I följande artiklar beskrivs hur du kan konfigurera arkitekturen för Adobe Maestro. Som en del av den här konfigurationen får du lära dig hur du skapar arbetsytor, posttyper och anpassade fält för att mappa ut de arbetsflöden du vill hantera i Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
