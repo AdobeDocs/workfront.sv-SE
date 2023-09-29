@@ -4,9 +4,9 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,141 @@ Webbseminariet 23.10 kommer att hållas den 5 oktober 2023. Du kan [registrera d
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### Hemförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nya snabbåtkomstknappar för widgetarna Projekt, Uppgift och Ärendespårning</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Ytterligare utökade möjligheter att hantera material direkt från Nytt hem, nya snabbåtkomstknappar har lagts till i widgetarna Projekt, Aktivitet och Ärendespårning.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 13 september 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.9</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nya filteralternativ för Nytt hem</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Nya filteralternativ är nu tillgängliga för widgeten Mitt arbete i Nytt hem. Alternativen är filter för objekttyper (uppgifter, problem och begäranden) och status (inte redo, klar att börja, arbeta med och slutförd).</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 17 augusti 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Stöd för anpassad terminologi i Nytt hem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>För att bättre kunna tillgodose organisationernas unika behov använder Nytt hem nu anpassad terminologi för objekt som definieras i en förekomsts layoutmallar. Om till exempel"Projekt"-objekt har omdöpts till"Kampanjer" i din Workfront-instans visas widgeten Mina projekt som Mina kampanjer i Nytt hem.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 17 augusti 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion för alla kunder: 31 augusti 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Knappen Ny startsida har tagits bort för konton som har inaktiverat Ny startsida</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Knappen Testa ny startsida finns inte längre för konton där Ny startsida har inaktiverats. Nytt hem måste aktiveras på nytt av systemadministratören innan enskilda användare kan använda knappen för att prova Nytt hem.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 17 augusti 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Växla till Ny standardwidget för hem</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Widgeten Att göra, som kräver behörighet att skapa uppgifter, finns nu bara i standardwidgetuppsättningen för användare med licenstyperna Standard, Plan och Work. Dessutom har widgeten automatiskt tagits bort från startsidorna för användare med alla andra licenstyper.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 17 augusti 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: 17 augusti 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis utgivning: 17 augusti 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -366,102 +501,6 @@ Webbseminariet 23.10 kommer att hållas den 5 oktober 2023. Du kan [registrera d
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis utgivning: Med version 23.10 (om inget annat anges)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nya snabbåtkomstknappar för widgeten Mitt arbete</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Ytterligare utökade möjligheter att hantera material direkt från Nytt hem, har nya snabbåtkomstknappar lagts till i widgeten Mitt arbete.</p>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsversion: 13 september 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produktion för snabb lansering: Med version 23.9</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nya filteralternativ för Nytt hem</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Nya filteralternativ är nu tillgängliga för widgeten Mitt arbete i Nytt hem. Alternativen är filter för objekttyper (uppgifter, problem och begäranden) och status (inte redo, klar att börja, arbeta med och slutförd).</p>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsversion: 17 augusti 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produktion för snabb lansering: Med version 23.8</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Stöd för anpassad terminologi i Nytt hem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>För att bättre kunna tillgodose organisationernas unika behov använder Nytt hem nu anpassad terminologi för objekt som definieras i en förekomsts layoutmallar. Om till exempel"Projekt"-objekt har omdöpts till"Kampanjer" i din Workfront-instans visas widgeten Mina projekt som Mina kampanjer i Nytt hem.</p>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsversion: 17 augusti 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Produktion för alla kunder: 31 augusti 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Knappen Ny startsida har tagits bort för konton som har inaktiverat Ny startsida</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Knappen Testa ny startsida finns inte längre för konton där Ny startsida har inaktiverats. Nytt hem måste aktiveras på nytt av systemadministratören innan enskilda användare kan använda knappen för att prova Nytt hem.</p>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsversion: 17 augusti 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produktion för snabb lansering: Med version 23.8</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Växla till Ny standardwidget för hem</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Widgeten Att göra, som kräver behörighet att skapa uppgifter, finns nu bara i standardwidgetuppsättningen för användare med licenstyperna Standard, Plan och Work. Dessutom har widgeten automatiskt tagits bort från startsidorna för användare med alla andra licenstyper.</p>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsversion: 17 augusti 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: 17 augusti 2023</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis utgivning: 17 augusti 2023</p>
                             </li>
                         </ul>
                     </td>

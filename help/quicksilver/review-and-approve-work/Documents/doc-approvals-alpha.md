@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ För att kunna delta i den här Alpha-versionen måste du ha lagts till i Alpha 
 I den femte Alpha-versionen har vi:
 
 * Förbättrade listan med godkännare och granskare
-* Lagt till möjlighet för godkännare som ännu inte har fattat något beslut om godkännande
+* Lagt till möjlighet att påminna godkännare som ännu inte har fattat något beslut om godkännande
 * Lagt till möjlighet att visa enskilda teammedlemmar i godkännandelistan
 * Lagt till möjlighet att lägga till externa godkännare
 * Förbättrad vy för externa godkännare som kan förhandsgranska, hämta och kommentera ett dokument
