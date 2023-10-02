@@ -7,9 +7,9 @@ description: Du kan gruppera kort på en anslagstavla per tilldelad eller tagg. 
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan gruppera kort på en anslagstavla per tilldelad eller tagg. När du välj
 
 >[!NOTE]
 >
->Kort i inloppskolumnen ingår inte i en grupp. Information om intagskolumnen finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Eventuella kort i inloppskolumnen ingår inte i en grupp och inloppskolumnen döljs när en grupp används. Information om intagskolumnen finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Åtkomstkrav
 
