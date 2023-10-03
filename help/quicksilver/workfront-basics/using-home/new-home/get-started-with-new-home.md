@@ -5,13 +5,13 @@ title: Kom igång med nya startsidor i Adobe Workfront
 description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
-
 
 # Kom igång med nya startsidor i Adobe Workfront
 
@@ -131,24 +131,9 @@ Du kan lägga till lite personlig överstrålning på hemsidan genom att välja 
 
 1. I **Bakgrund** i **Anpassa** som visas klickar du på den färg som du vill använda som bakgrund i hemmet. Du kan också klicka **Ingen** för att ta bort bakgrunden.
 
-### Filtrera efter tidsintervall
-
-Du kan snabbt filtrera all information på hemsidan för att visa objektinformation inom tre specifika tidsintervall: Dag, Vecka eller Månad. Dessutom visas en sammanfattning av antalet uppgifter som du har gjort och de som du har slutfört inom intervallet högst upp på hemsidan.
-
-**Så här ändrar du tidsintervallet på hemsidan:**
-
-1. Navigera till startsidan genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) längst upp på skärmen om Hem är inställt som landningssida eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) sedan klicka på **Startsida**.
-
-1. Klicka på tidsintervallfiltret i det övre vänstra hörnet på hemsidan. Som standard är filtret inställt på **Min vecka**.
-
-   ![Listruta för tidsintervallfilter](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. Klicka på någon av **Dag**, **Vecka**, eller **Månad** om du vill filtrera hemsidan så att endast information om objekt som förfaller inom den tidsramen visas.
-
 ## Återgå till aktuell hemupplevelse
 
 För användare som föredrar den befintliga hemupplevelsen kan Nytt hem inaktiveras.
-
 
 **Så här återgår du till den aktuella hemupplevelsen:**
 

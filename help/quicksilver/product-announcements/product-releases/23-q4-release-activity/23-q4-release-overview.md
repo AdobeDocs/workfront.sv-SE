@@ -3,10 +3,10 @@ title: Versionsöversikt för fjärde kvartalet 2023
 description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
-exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,7 @@ Webbseminariet 23.10 kommer att hållas den 5 oktober 2023. Du kan [registrera d
 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättringar av anslagstavlor](#boards-enhancements)
+* [Hemförbättringar](#home-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Andra förbättringar](#other-enhancements)
@@ -201,26 +202,26 @@ Webbseminariet 23.10 kommer att hållas den 5 oktober 2023. Du kan [registrera d
                         </p>
                     </td>
                  </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Ändringar i arbetsspårning i Nytt hem </a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                        <p>Baserat på användarfeedback har vi tagit bort det sidomfattande tidsintervallfiltret och sammanfattningsfältet som justerade uppgifter som förfaller och slutförs. Widgetarna Projekt, Uppgift och Utgåva har inbyggda filtreringsfunktioner som gör att du kan anpassa deras omfång individuellt.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: September 13, 2023<br /></p>
+                                <p>Förhandsversion: 13 september 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.9 release</p>
+                                <p>Produktion för snabb lansering: Med version 23.9</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nya snabbåtkomstknappar för widgetarna Projekt, Uppgift och Ärendespårning</a> </p>
