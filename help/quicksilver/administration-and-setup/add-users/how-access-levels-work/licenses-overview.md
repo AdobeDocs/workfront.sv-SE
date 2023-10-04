@@ -5,21 +5,21 @@ content-type: reference
 product-area: system-administration
 keywords: licens,typ
 navigation-topic: access-levels
-description: Organisationen köpte ett visst antal licenser när den köpte Adobe Workfront. Som Workfront-administratör ger du en av tre typer av nya betalda Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
+description: Organisationen köpte ett visst antal licenser när den köpte Adobe Workfront. Som Workfront-administratör ger du en av tre typer av nya Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
 # Översikt över nya licenser
 
-Organisationen köpte ett visst antal licenser när den köpte Adobe Workfront. Som Workfront-administratör ger du en av tre typer av betalda Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
+Organisationen köpte ett visst antal licenser när den köpte Adobe Workfront. Som Workfront-administratör ger du en av tre typer av Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
 
 ## Hur nya Workfront-licenser och nya åtkomstnivåer knyts ihop
 
