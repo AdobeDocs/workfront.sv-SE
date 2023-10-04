@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
+source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Organisationen köpte ett visst antal licenser när den köpte Adobe Workfront. 
 
 ## Hur nya Workfront-licenser och nya åtkomstnivåer knyts ihop
 
-De tre typerna av nya betalda Workfront-licenser ger olika åtkomstnivåer till Workfront. Varje åtkomstnivå är kopplad till en av dessa licenser.
+De tre typerna av nya Workfront-licenser ger olika åtkomstnivåer till Workfront. Varje åtkomstnivå är kopplad till en av dessa licenser.
 
 Som Workfront-administratör tilldelar du en användare den åtkomstnivå som är kopplad till licensen i stället för att tilldela en licens till en användare.
 
