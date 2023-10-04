@@ -6,9 +6,9 @@ description: Resursfält för händelseprenumeration
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 14e597fc14ab7c424b1313e9c30d69fe6bcd3741
+source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,11 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td> </td> 
    <td> </td> 
    <td> avgWorkPerDay </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> classifierID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -137,6 +142,11 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td> </td> 
    <td> </td> 
    <td>arbete</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workPerDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -241,7 +251,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Obs! LastUpdateDate utlöser bara en händelse första gången som den uppdateras under varje dag. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Obs! LastUpdateDate utlöser bara en händelse första gången den uppdateras under varje dag. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1471,6 +1481,11 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>attachedRateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
@@ -2486,7 +2501,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>tiworkHoursPerDaytle</td> 
+   <td>workHoursPerDay </td> 
   </tr> 
  </tbody> 
 </table>
