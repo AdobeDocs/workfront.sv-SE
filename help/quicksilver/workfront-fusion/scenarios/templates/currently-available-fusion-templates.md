@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ Mallarna automatiserar Workfront processer och arbetsflöden.
 
 ### [!BADGE Nyhet!]{type=Informative}
 
-Den här automatiseringen söker efter nya projekt i program med anpassade formulär. Sedan läggs dessa anpassade formulär och fält till i de nya projekten.
+Den här automatiseringen skapar nya projekt i Workfront baserat på information om namn, Portfolio, status, planerat startdatum och mall som du anger i en CSV-fil.
 
 ### [!BADGE Nyhet!]{type=Informative}
+
+Använd den här mallen för att framtvinga en uppdatering av en 30-dagars anteckning på dina förfrågningar. Begäranden som inte uppdateras inom 30 dagar får sin status ändrad och stängd 60 dagar.
+
+### [!BADGE Nyhet!]{type=Informative}
+
+Den här automatiseringen uppdaterar projekt till Fullständig status som har alla uppgifter slutförda 1005. Projekt med öppna problem eller öppna uppgifter eller projektgodkännanden får en uppdatering, och när de löses kommer projekten att övergå till statusen Slutför.
+
+### [!BADGE Nyhet!]{type=Informative}
+
+Använd det här scenariot för att automatisera varningar om och stängning av projekt som uppfyller organisationens inaktuella projektpolicy.
+
+### [!BADGE Nyhet!]{type=Informative}
+
+Använd den här mallen för att kopiera anteckningar och svar från en utgåva eller förfrågan till ett projekt eller en uppgift som redan har konverterats.
+
+### Workfront - Kopiera programanpassade Forms- och fältdata till associerade nya projekt
+
+Den här automatiseringen söker efter nya projekt i program med anpassade formulär. Sedan läggs dessa anpassade formulär och fält till i de nya projekten.
+
+### Workfront - Kopiera anpassade Forms- och fältdata från Portfolio till associerade nya projekt
 
 Den här automatiseringen passar för nya projekt i portfolior med anpassade formulär. Därefter läggs de anpassade portföljformulären och fälten till i de nya projekten.
 
@@ -58,7 +78,7 @@ Den här mallen hämtar en projektbaslinje vid alla projektstatusändringar som 
 
 Den här mallen hämtar en projektbaslinje varje måndag kl. 6.00 (ET) för projekt som filtreras efter portfölj och skapar en uppdatering i uppdateringsströmmen för loggning.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Sök efter projektmallar som inte används i principtid och meddela
 
 Granska dina projektmallar en gång i månaden med hjälp av din egen policy med den här lättadministrerade mallen som meddelar lämpliga användare om mallar som bryter mot din policy.
 
@@ -81,6 +101,10 @@ Mallarna hämtar information från en webbtjänst och hämtar informationen till
 >[!NOTE]
 >
 > Du måste ha en licens för Workfront Fusion for Work Automation och Integration för att kunna använda mallarna i det här avsnittet.
+
+### [!BADGE Nyhet!]{type=Informative}
+
+Upprätta JWT-auktorisering för ett klient-API.
 
 ### APILayer > Workfront - Daily Exchange Rate Update (EUR)
 
@@ -105,6 +129,19 @@ Detta scenario är ett programmatiskt sätt att skapa e-post- och webbinarikampa
 ### Granska ett e-postkorrektur av ditt e-postutkast från Marketo Engage i Workfront
 
 Den här mallen identifierar om en Workfront-uppgift har ställts in på en granskningsstatus och exporterar sedan e-postutkastet från Marketo Engage för att spara det som ett korrektur i Workfront.
+
+## Workfront-SharePoint-mallar
+
+Mallarna kopplar samman Workfront och SharePoint.
+
+>[!NOTE]
+>
+> Du måste ha en licens för Workfront Fusion for Work Automation och Integration för att kunna använda mallarna i det här avsnittet.
+
+### [!BADGE Nyhet!]{type=Informative}
+
+Med den här mallen kan du se om en SharePoint-mapp har ändrats.
+
 
 ## Workfront-Anaplan-mallar
 
@@ -131,3 +168,6 @@ Mer information om integrationen mellan Workfront och Anaplan finns i [Adobe Wor
 
 * [Skapa en [!DNL Anaplan] listobjekt från en [!DNL Adobe Workfront] kampanjförfrågan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Använd en [!DNL Anaplan] budgetallokering till en [!DNL Adobe Workfront] kampanjförfrågan eller kampanjprojekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
