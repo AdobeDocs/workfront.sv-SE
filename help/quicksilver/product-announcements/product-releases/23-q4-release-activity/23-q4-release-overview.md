@@ -4,9 +4,9 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Webbseminariet 23.10 kommer att hållas den 5 oktober 2023. Du kan [registrera d
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">Beräknade fält i anpassade formulär kan nu använda jokertecknet $$USER</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Jokertecknet $$USER är nu tillgängligt i beräknade anpassade fält och externa sökfält i den nya formulärdesignern.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 5 oktober 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.10</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Lägg till värdealternativ från ett externt API till ett anpassat formulär</a></p>
