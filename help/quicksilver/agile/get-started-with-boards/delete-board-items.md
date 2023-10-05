@@ -6,9 +6,9 @@ description: När du tar bort ett kort från en anslagstavla tas det bort perman
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Ta bort ett kort från en anslagstavla
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Delete]**.
 1. Klicka **[!UICONTROL Delete]** på bekräftelsemeddelandet.
 
-## Arkivera ett kort från en anslagstavla
+## Arkivera ett kort från en styrelse
 
 1. Gå till styrelsen.
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Archive]**.
@@ -54,17 +54,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    An [!UICONTROL Archive] icon ![Arkiv](assets/archive-icon-spectrum-25x20.png) visas på arkiverade kort. Du kan inte redigera ett arkiverat kort, men du kan ta bort det eller flytta det till en annan kolumn.
 
-1. Om du vill återställa ett arkiverat kort klickar du på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Restore]**.
+1. Klicka på knappen **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Restore]**.
 
 ## Filtrera en anslagstavla för att visa arkiverade kort {#filter-a-board-to-show-archived-cards}
 
 Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslagstavlan så att även arkiverade kort visas.
 
 1. Gå till styrelsen.
-1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png), expandera [!UICONTROL Archived Cards] och markera **[!UICONTROL Archived cards]** för att visa eventuella arkiverade kort.
+1. Klicka [!UICONTROL **Konfigurera**] till höger om ritytan för att öppna panelen Konfigurera.
+1. Expandera [!UICONTROL **Kort**].
+1. Aktivera [!UICONTROL **Visa arkiverade kort direkt**].
+1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Archived Cards] och markera **[!UICONTROL Archived cards]** för att visa eventuella arkiverade kort.
 
    Filtret visar antalet arkiverade kort.
 
-   ![Filtrera arkiverade kort](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filtrera arkiverade kort](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >The [!UICONTROL Archived Cards] -avsnittet är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort.
 
 1. Välj **[!UICONTROL Archived cards]** igen för att ta bort alternativet och endast visa aktiva kort.

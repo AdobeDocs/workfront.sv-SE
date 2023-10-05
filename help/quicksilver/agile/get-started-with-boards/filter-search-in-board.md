@@ -6,9 +6,9 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslagstavlan så att även arkiverade kort visas.
 
 1. Gå till styrelsen.
+1. Klicka [!UICONTROL **Konfigurera**] till höger om ritytan för att öppna panelen Konfigurera.
+1. Expandera [!UICONTROL **Kort**].
+1. Aktivera [!UICONTROL **Visa arkiverade kort direkt**].
 1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Archived Cards] och markera **[!UICONTROL Archived cards]** för att visa eventuella arkiverade kort.
 
    Filtret visar antalet arkiverade kort.
 
-   ![Filtrera arkiverade kort](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filtrera arkiverade kort](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >The [!UICONTROL Archived Cards] -avsnittet är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort.
 
 1. Välj **[!UICONTROL Archived cards]** igen för att ta bort alternativet och endast visa aktiva kort.
 
