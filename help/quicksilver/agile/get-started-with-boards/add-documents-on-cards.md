@@ -2,17 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Lägg till dokument på kort
-description: kommer snart!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+description: Du kan lägga till dokument på anslutna kort på Adobe Workfront Boards.
 author: Lisa
 feature: Agile
-source-git-commit: 5c7842352a5b69d04e018e13756a2047c77a0855
+exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
+source-git-commit: 72197651cc13b8a8509510663d840b76f4b23a4f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
 
 # Lägg till dokument på kort
+
+>[!IMPORTANT]
+>
+>Den här funktionen är tillfälligt inaktiverad i alla miljöer.
 
 {{article-preview-and-fast-release}}
 
