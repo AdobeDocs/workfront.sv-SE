@@ -7,34 +7,34 @@ description: Som teamägare kan du installera [!DNL Adobe Workfront for Microsof
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: ffd4d15d72371f5b77c46bc176270e649945e466
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront for Microsoft Teams] Översikt
+# [!DNL Adobe Workfront for Microsoft Teams] Ökning
 
-Som teamägare kan du installera [!DNL Adobe Workfront for Microsoft Teams] app för ert team.
+Som teamägare i [!DNL Microsoft Teams]kan du installera [!DNL Adobe Workfront for Microsoft Teams] app för ert team.
 
 Använda [!DNL Workfront] för Microsoft Teams kan du utföra ett antal åtgärder i [!DNL Workfront] utan att någonsin lämna Microsoft Teams.
 
 Mer information om hur du installerar Workfront för Microsoft Teams finns i [Installera Adobe Workfront för Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-När du har installerat [!DNL Workfront for Microsoft Teams]kan du göra följande utan att lämna din instans av [!DNL Microsoft Teams]:
+Efter installationen [!DNL Workfront for Microsoft Teams]kan du göra följande utan att lämna din instans av [!DNL Microsoft Teams]:
 
 * Sök efter [!DNL Workfront] projekt, uppgifter och problem och dela dem med andra användare.
 
-   Mer information om sökning och delning [!DNL Workfront] objekt från [!DNL Microsoft Teams], se [Söka efter och dela [!DNL Adobe Workfront] objekt i [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+  Mer information om sökning och delning [!DNL Workfront] objekt från [!DNL Microsoft Teams], se [Söka efter och dela [!DNL Adobe Workfront] objekt i [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 * Skapa [!DNL Workfront] personliga uppgifter.
 
-   Mer information om hur du skapar [!DNL Workfront] personliga uppgifter från [!DNL Microsoft Teams], se [Skapa [!DNL Adobe Workfront] uppgifter från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+  Mer information om hur du skapar [!DNL Workfront] personliga uppgifter från [!DNL Microsoft Teams], se [Skapa [!DNL Adobe Workfront] uppgifter från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
-* Skicka [!DNL Workfront] begär och granskar förloppet för dina skickade begäranden.
+* Skicka [!DNL Workfront] begär och granskar förloppet för de inskickade förfrågningarna.
 
-   Information om att skicka [!DNL Workfront] förfrågningar från [!DNL Microsoft Teams], se [Skickar [!DNL Workfront] Begäranden från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md).
+  Mer information om att skicka [!DNL Workfront] förfrågningar från [!DNL Microsoft Teams], se [Skickar [!DNL Workfront] Begäranden från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md).
 
 * Svara på [!DNL Workfront] meddelanden om uppdateringar och kommentarer.
 * Svara på begäranden om dokumentgodkännanden.\
@@ -48,4 +48,4 @@ Tänk på följande när du arbetar med [!DNL Workfront] for [!DNL Microsoft Tea
 * Om mer än ett team behöver ha tillgång till [!DNL Workfront] från [!DNL Microsoft Teams]måste du installera appen för varje team.
 * Du kan visa viss information om [!DNL Workfront] objekt i [!DNL Microsoft Teams]. Namn, status, prioritet, tilldelad, Planerat slutförandedatum för en [!DNL Workfront] objekt. Den här informationen kan inte anpassas.
 * Du kan gå direkt till [!DNL Workfront] objekt och dokument från [!DNL Microsoft Teams].
-* [!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Så här använder du [!DNL Adobe Workfront for Microsoft Teams] måste du använda en annan webbläsare än [!DNL Internet Explorer].
+* [!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Använd [!DNL Adobe Workfront for Microsoft Teams] måste du använda en annan webbläsare än [!DNL Internet Explorer].
