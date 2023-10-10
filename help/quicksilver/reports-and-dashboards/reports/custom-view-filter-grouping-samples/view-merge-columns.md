@@ -7,9 +7,9 @@ description: Du kan sammanfoga informationen som visas i flera separata kolumner
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Så här gör du:
 
    Du måste före kolumnnumret i den första kolumnen skriva numret på den kolumnen. Kolumninventeringen börjar alltid med kolumnen längst till vänster i listan eller rapporten märkt som `column.0.`.
 
-   Om du delar mer än en kolumn måste du lägga till kolumnnumret på kodraderna som innehåller delningsinformationen för varje kolumn.
+   Om du delar mer än en kolumn måste du lägga till kolumnnumret på de kodrader som innehåller delningsinformationen för varje kolumn.
 
    **Exempel:** Här följer textlägeskoden för en sammanfogad kolumn som innehåller tre separata kolumner, med början från den andra kolumnen i listan. De sammanfogade värdena är Projektnamn, Planerat startdatum och Projektägarens namn och det finns ingen brytning mellan de tre värdena:
 
@@ -133,7 +133,7 @@ Gör följande för att sammanfoga data från flera kolumner så att de visas i 
    `sharecol=true`
 
 
-1. Lägg till följande text i den första kolumnen:
+1. Klicka på den första kolumnen och klicka på **Växla till textläge** lägger du sedan till följande text i kolumnen:
 
    `sharecol=true`
 

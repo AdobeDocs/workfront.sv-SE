@@ -6,13 +6,13 @@ description: Den här artikeln innehåller en lista med de vanligaste frågorna 
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # Nya vanliga frågor och svar om kommenteringsupplevelser
 
@@ -24,7 +24,7 @@ Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](
 
 För närvarande stöder vi endast bildbilagor till kommentarer. Om du vill se andra filtyper skickar du in en förfrågan från innovationslabb så att vi kan förstå hur nödvändig funktionen är.
 
-## Kommer du att kunna ändra status, villkor eller planerat slutförandedatum för en arbetsuppgift i den nya kommentarsfunktionen igen?
+## Kommer du att lägga till möjligheten att redigera status, villkor, implementeringsdatum eller planerat slutförandedatum för en arbetsuppgift i den nya kommentarsfunktionen?
 
 Vi planerar inte att återställa möjligheten att utföra de här åtgärderna eftersom de är tillgängliga från huvudet och objektets detaljområden. Vi förstår att vi ber dig att ändra mönstret för att använda kommentarströmmen, men vi gör detta för att behålla kommentarupplevelsen för dess direkta syfte med kommunikation och samarbete.
 

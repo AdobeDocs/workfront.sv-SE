@@ -4,13 +4,13 @@ description: Använd maestro för att skapa egna objekt, fält och arbetsytor.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Maestro-lansering
 
@@ -34,13 +34,21 @@ I det här avsnittet beskrivs de funktioner och korrigeringar som har släppts e
 
 Funktionerna släpps varje vecka och visas i den ordning de släpps, med den senaste först. Kunder som deltar i det nedstängda betaprogrammet från Maestro har tillgång till alla funktioner i sina förhandsgransknings- och produktionsmiljöer.
 
+## Vecka 9 oktober 2023
+
+### Sök i tabellvy
+
+Förhandsgranska och producera: 9 oktober 2023
+
+Nu kan du söka efter ett nyckelord för att snabbt hitta en post i tabellvyn. Du kan använda nyckelord och specialtecken i alla fält som visas på skärmen för att hitta en post. Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-view.md).
+
 ## Vecka 18 september 2023
 
 ### Ordna om rader
 
 Förhandsgranskning och produktion: 20 september 2023
 
-Du kan nu ändra ordningen på en eller flera rader (eller poster) i tabellvyn på en posttypsida.
+Du kan nu ändra ordningen på en eller flera rader (eller poster) i tabellvyn på en posttypsida. Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-view.md).
 
 ## Vecka 4 september 2023
 

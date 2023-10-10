@@ -4,13 +4,13 @@ description: Du kan visa poster och deras fält i en tabellvy när du öppnar po
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
-
 
 # Hantera tabellvyn
 
@@ -145,24 +145,45 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >
    >* Fältet Namn är fryst och ingår inte i den vågräta rullningen.
 
-1. Om du vill öka bredden på kolumnerna klickar du på och drar kolumnseparationslinjerna och släpper dem på önskad plats.
+1. Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om postnamnet för att ändra ordning på raderna.
+
+   >[!NOTE]
+   >
+   >Du kan inte ändra ordning på rader om du använder minst en sortering i tabellvyn.
+
+1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 
    >[!TIP]
    >
    >De ändringar du gör i kolumnbredden och kolumnordningen är permanenta och synliga för alla användare som har åtkomst till posttypen.
 
-1. Om du vill dölja en kolumn håller du pekaren över kolumnrubriken, klickar på nedåtpilen och klickar sedan på **Dölj fält**
+1. Håll pekaren över kolumnrubriken, klicka på nedåtpilen och klicka sedan på **Dölj fält**
 
    eller
 
-   Klicka **Fält** i tabellens verktygsfält och avaktiverar det växlingsknapp som är kopplat till de fält som du vill dölja.
+   Klicka **Fält** i tabellens verktygsfält och avaktiverar alternativet som är kopplat till de fält (eller kolumner) som du vill dölja.
 
    >[!TIP]
    >
    >Antalet dolda fält visas till vänster om ikonen Fält i verktygsfältet.
 
 
-1. Från **Fält** aktiverar du den växlingsknapp som är kopplad till de fält som du vill visa i tabellens kolumner. Alla fält visas som standard.
+1. Klicka på **Fält** ange och aktivera den växlingsknapp som är kopplad till de fält som du vill visa i tabellens kolumner. Alla fält visas som standard.
+
+1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
+
+   1. Klicka på **sök** icon ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med valfritt fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras med blått.
+
+      Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
+
+      Du kan inte använda nyckelord som är kopplade till fält som är dolda i tabellvyn.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
+   1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
+
+   1. Klicka på **X** -ikonen i sökrutan för att rensa sökordet.
+
 
 ### Lägga till rader (eller poster) {#add-rows}
 
@@ -388,12 +409,11 @@ Sortera <!--ungrouped (add this when sorting for groupings will be available--> 
 
 1. Klicka utanför **Sortera poster efter** för att stänga den.
 
+   ![](assets/sorting-in-table-view.png)
+
    Den information som visas i tabellen sorteras efter de valda villkoren.
 
    I de fält som är markerade för sorteringen visas en sorteringsikon följt av ett tal som anger i vilken ordning sorteringen används.
-
-   ![](assets/sorting-in-table-view.png)
-
 
 <!-- this is not available yet: 
 

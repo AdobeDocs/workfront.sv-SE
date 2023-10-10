@@ -5,7 +5,7 @@ description: När du har slutfört och skickat in affärsärendet för en projek
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -51,12 +51,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Tänk på följande när du godkänner ett affärsärende för ett projekt:
 
-* Du måste ha behörigheten Hantera för ett projekt för att kunna godkänna affärsärendet. 
+* Du måste ha behörigheten Hantera för ett projekt för att kunna godkänna affärsärendet för det. 
 * Du kommer inte att kunna se de projekt som väntar på att affärsärendet ska godkännas under dina godkännanden i Hem.
 * Du måste manuellt gå till de enskilda projekt som behöver godkännas av ett affärsärende för att se att de väntar på godkännande. Det finns ingen meddelandefunktion i Workfront som varnar någon om att han eller hon måste godkänna ett projekts affärsfall.
 * Du kan hitta projekt som väntar på godkännande av affärsärendet antingen genom att skapa en projektrapport eller genom att öppna portföljen som de är kopplade till. 
 
-   Mer information om Portfolio finns i artikeln [Översikt över Portfolio i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Mer information om Portfolio finns i artikeln [Översikt över Portfolio i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Godkänn affärsärendet genom att skapa en projektrapport
 
@@ -113,8 +113,8 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
    Observera att alla projekt i rapporten har statusen **Begärd**.
 
 1. Klicka på namnet på ett projekt i rapporten för att öppna det.
-1. Klicka **Affärsärende** i den vänstra panelen.
-1. Klicka **Godkänn** eller **Avvisa** i området Affärsärendesammanfattning för att godkänna eller avvisa affärsärendet. 
+1. Klicka **Affärsärende** till vänster.
+1. Klicka **Godkänn** eller **Avvisa** i området Affärsärendesammanfattning för att godkänna eller avvisa affärsärendet.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 

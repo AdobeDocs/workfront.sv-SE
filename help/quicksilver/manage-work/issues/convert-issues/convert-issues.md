@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,9 @@ Mer information om hur du konverterar problem till projekt finns i [Konvertera e
 
 * När du konverterar ett problem till en uppgift eller ett projekt tas problemet bort från startdelen för den användare som är tilldelad problemet.
 
-* När du konverterar en utgåva till ett projekt med hjälp av en mall överförs den mesta informationen från mallen till det nya projektet. Men viss information från problemet kan också överföras till det nya projektet. Mer information finns i [Översikt över projektfält vid konvertering av ett ärende till ett projekt med en mall](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) i den här artikeln.
+* När du konverterar ett problem överförs inte behörigheterna till de ursprungliga problemen till det konverterade objektet (uppgift eller projekt).
+
+* När du konverterar en utgåva till ett projekt med hjälp av en mall överförs den mesta informationen från mallen till det nya projektet. Men viss information från problemet kan också överföras till det nya projektet. Mer information finns i [Översikt över projektfält vid konvertering av ett ärende till ett projekt med en mall](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) i den här artikeln.
 * När du konverterar ett problem flyttas inte alla dokument eller deras information till det nya objektet som problemet konverteras till. Följande objekt inkluderas när du konverterar ett ärende som har bifogade dokument eller dokumentlänkar:
 
    * Dokument
@@ -110,12 +112,17 @@ I följande tabell visas projektinformation och om den överförs från mallen e
   </tr> 
   <tr> 
    <td>Grupp</td> 
-   <td>Överför från mallen. Om det inte finns någon grupp i mallen ställs den in på den projektgrupp som utgåvan tillhör.</td> 
+   <td><p> Följande scenarier finns:</p>
+     <ul><li>Om en grupp anges under konverteringen blir det projektgruppen</li>
+     <li>Om du konverterar till ett projekt med hjälp av en mall och det finns en grupp i mallen, och du inte anger någon grupp under konverteringen, blir mallgruppen den nya projektets grupp</li>
+      <li> Om det inte finns någon grupp i mallen och du inte anger någon grupp under konverteringen, blir gruppen för den ursprungliga utgåvans projekt grupp i det nya projektet</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Företag</td> 
-   <td>Överför från mallen. Annars är fältet tomt.</td> 
-  </tr> 
+   <td>Företag</td>    
+   <td>  Överför från mallen. Annars är fältet tomt.</td>
+
+</tr> 
   <tr> 
    <td>Projektägare</td> 
    <td>Överför från fältet Mallägare i mallen. I annat fall anges den inloggade användaren som utför konverteringen. </td> 

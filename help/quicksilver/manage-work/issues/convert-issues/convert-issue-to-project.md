@@ -6,9 +6,9 @@ description: Konvertera ett problem till ett projekt i Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Om mer arbete behöver göras för att slutföra ett problem efter att utgåvan 
 
 Du kan konvertera ett ärende till ett nytt projekt eller konvertera det till ett projekt med hjälp av en mall. I den här artikeln beskrivs båda sätten att konvertera problem till projekt.
 
-Allmän information om hur du konverterar problem finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+>[!IMPORTANT]
+>
+>Allmän information om konverteringsproblem finns i artikeln [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 När du skapar ett projekt från ett problem fylls vissa av fälten i från andra objekt. Mer information finns i avsnittet&quot;Nya standardinställningar för projekt&quot; i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
@@ -56,60 +58,59 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan konvertera en utgåva till ett tomt projekt eller konvertera en utgåva till ett projekt med hjälp av en mall.
 
-1. Gå till ett projekt och klicka på **[!UICONTROL Issues]** i den vänstra panelen.
+1. Gå till ett projekt och klicka på **[!UICONTROL Issues]** till vänster.
 1. Gör något av följande i listan med problem som visas:
 
-   * Om du vill konvertera en utgåva till ett tomt projekt klickar du på problemets namn och klickar på knappen **[!UICONTROL More]** meny ![](assets/more-icon.png) till höger om problemnamnet och klicka sedan på **[!UICONTROL Convert to a blank project]**.
+   * Om du vill konvertera en utgåva till ett tomt projekt klickar du på problemets namn och klickar på **[!UICONTROL More]** meny ![](assets/more-icon.png) till höger om problemnamnet och klicka sedan på **[!UICONTROL Convert to a blank project]**.
 
 
-      eller
+     eller
 
-      Välj ett problem i listan över problem och klicka på **[!UICONTROL More]** meny ![](assets/more-icon.png) överst i listan klickar du på **[!UICONTROL Convert to a blank project]**.
+     Välj ett problem i listan över problem och klicka på **[!UICONTROL More]** meny ![](assets/more-icon.png) överst i listan klickar du på **[!UICONTROL Convert to a blank project]**.
 
-      >[!IMPORTANT]
-      >
-      >Alternativet Konvertera till ett tomt projekt visas bara när din system- eller gruppadministratör har aktiverat alternativet [!UICONTROL Allow users to create projects without using a template] i [!UICONTROL Setup] område. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     >[!IMPORTANT]
+     >
+     >Alternativet Konvertera till ett tomt projekt visas bara när system- eller gruppadministratören har aktiverat [!UICONTROL Allow users to create projects without using a template] i [!UICONTROL Setup] område. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 
-      Du måste lägga till uppgifter manuellt i projektet eller bifoga en mall till projektet när du har konverterat utgåvan.
+     Du måste lägga till uppgifter manuellt i projektet eller bifoga en mall till projektet när du har konverterat utgåvan.
 
-      Fortsätt med steg 3e nedan.
+     Fortsätt med steg 3e nedan.
 
-      <!--
+     <!--
      Is this accurate?
      -->
 
-      >[!TIP]
-      >   
-      >* Om problemet skapades med en frågekö ärver det nya projektet gruppen för begärandekön.
-      >* Om problemet skapades genom att det lades till i avsnittet Problem i projektet ärver det nya projektet gruppen för problemprojektet.
-
+     >[!TIP]
+     >   
+     >* Om problemet skapades med en frågekö ärver det nya projektet gruppen för begärandekön.
+     >* Om problemet skapades genom att det lades till i avsnittet Problem i projektet ärver det nya projektet gruppen för problemprojektet.
 
    * Gör något av följande om du vill konvertera ett ärende till ett projekt med en mall:
 
       * Klicka på namnet på ett problem och klicka sedan på [!UICONTROL **Mer**] meny ![](assets/more-icon.png) till höger om problemets namn
 
-         ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
+        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
 
-         eller
+        eller
 
       * Välj problemet i listan med problem, i en rapport eller på en kontrollpanel, klicka på **Mer** meny ![](assets/more-icon.png) överst i listan klickar du på **Konvertera till projekt från mall** och börja skriva namnet på en mall i **Sökmall** och sedan klicka på mallens namn när den visas i listan. Fortsätt med steg 3.
 
-         <!--      
+        <!--      
         (is this accurate?)      
         -->
-      >[!TIP]
-      >
-      >Om du har lagt till mallar i favoritlistan kan du föra musen över [!UICONTROL **Favoritmallar**] och klicka på mallen som du vill använda.
 
-      Rutan Nytt projekt från mall visas.
+     >[!TIP]
+     >
+     >Om du har lagt till mallar i favoritlistan kan du föra musen över [!UICONTROL **Favoritmallar**] och klicka på mallen som du vill använda.
 
-      ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+     Rutan Nytt projekt från mall visas.
 
-      >[!TIP]
-      >
-      >Om problemet är kopplat till en godkännandeprocess eller om det redan är kopplat till ett matchande objekt, visas en varning högst upp i rutan Konvertera till projekt för att meddela dig att godkännandet kommer att tas bort eller att det matchande objektet kommer att skrivas över under konverteringen. Mer information finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+     ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
+     >[!TIP]
+     >
+     >Om problemet är kopplat till en godkännandeprocess eller om det redan är kopplat till ett matchande objekt, visas en varning högst upp i rutan Konvertera till projekt för att meddela dig att godkännandet kommer att tas bort eller att det matchande objektet kommer att skrivas över under konverteringen. Mer information finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. (Villkorligt) Om du valde att konvertera utgåvan till ett projekt med hjälp av en mall fortsätter du med följande steg:
 
@@ -122,6 +123,7 @@ Du kan konvertera en utgåva till ett tomt projekt eller konvertera en utgåva t
       * Antalet uppgifter på den översta nivån som innehåller namnen på de tre viktigaste uppgifterna
       * Antalet uppgifter i mallen
       * Namnen på de anpassade mallformulären
+
    1. (Valfritt) För muspekaren över namnet på en mall och klicka på ikonen Favoriter ![](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
 
       >[!TIP]
@@ -140,47 +142,46 @@ Du kan konvertera en utgåva till ett tomt projekt eller konvertera en utgåva t
       >
       >* Systemadministratören eller gruppadministratören kan lägga till eller ta bort fält i [!UICONTROL Convert to Project box] genom att uppdatera projektinformationen i [!UICONTROL Layout Template].
       >
-      >* Så här uppdaterar du fält i [!UICONTROL Finance] i [!UICONTROL Convert to Project] ruta som du måste ha [!UICONTROL Edit] behörighet till [!UICONTROL Financial Data] på din åtkomstnivå. Om du har [!UICONTROL View] behörighet till [!UICONTROL Financial Data] på din åtkomstnivå överför all ekonomisk information från mallen till det nya projektet och du kan inte redigera den medan du konverterar problemet. Mer information finns i [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-
+      >* Uppdatera fält i [!UICONTROL Finance] i [!UICONTROL Convert to Project] ruta som du måste ha [!UICONTROL Edit] behörighet till [!UICONTROL Financial Data] på din åtkomstnivå. Om du har [!UICONTROL View] behörighet till [!UICONTROL Financial Data] på din åtkomstnivå överför all ekonomisk information från mallen till det nya projektet och du kan inte redigera den medan du konverterar problemet. Mer information finns i [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    1. (Valfritt och villkorligt) Klicka på [!UICONTROL **Alternativ**] i den vänstra panelen väljer du bland de tillgängliga alternativen:
 
       * [!UICONTROL **Behåll det ursprungliga problemet och knyt lösningen till det här projektet**]
 
-         När du avmarkerar det här alternativet tas den ursprungliga utgåvan bort.
+        När du avmarkerar det här alternativet tas den ursprungliga utgåvan bort.
 
-         >[!NOTE]
-         >
-         >Användare som saknar åtkomst eller behörighet att ta bort problem kan inte ta bort problemet eftersom de konverterar det, oavsett status för den här inställningen. Mer information om åtkomst och behörigheter till problem finns i:
-         >
-         >* [Bevilja åtkomst till utleveranser](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
-         > 
-         >* [Dela ett ärende](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
-
+        >[!NOTE]
+        >
+        >Användare som saknar åtkomst eller behörighet att ta bort problem kan inte ta bort problemet eftersom de konverterar det, oavsett status för den här inställningen. Mer information om åtkomst och behörigheter till problem finns i:
+        >
+        >* [Bevilja åtkomst till utleveranser](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+        > 
+        >* [Dela ett ärende](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 
       * [!UICONTROL **Tillåt (användarnamn) åtkomst till det här projektet**]
 
-         Om alternativet inte är markerat är problemet [!UICONTROL Primary Contact] har inte åtkomst till den nya uppgiften.
+        Om alternativet inte är markerat är problemet [!UICONTROL Primary Contact] har inte åtkomst till den nya uppgiften.
 
-         >[!NOTE]
-         >
-         >Vilka alternativ som är tillgängliga här beror på hur Workfront-administratören har konfigurerat dem för alla i systemet eller för din grupp. Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-         >
-         >
-         >Eller, om de översta grupperna i din organisation konfigurerade dem separat, beror alternativen här på vilken grupp du valde för det nya projektet i steg 6. Mer information finns i [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+        >[!NOTE]
+        >
+        >Vilka alternativ som är tillgängliga här beror på hur Workfront-administratören har konfigurerat dem för alla i systemet eller för din grupp. Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+        >
+        >
+        >Eller, om de översta grupperna i din organisation konfigurerade dem separat, beror alternativen här på vilken grupp du valde för det nya projektet i steg 6. Mer information finns i [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+
    1. Klicka [!UICONTROL **Anpassad Forms**] och gör något av följande:
 
-      * Granska de anpassade formulär som är kopplade till mallen. De kommer att överföras till det nya projektet.
+      * Granska de anpassade formulär som är kopplade till mallen. De kommer att gå över till det nya projektet.
       * Kontrollera att alla obligatoriska fält har giltig information.
       * Ändra ordning på de anpassade formulären genom att dra dem ![](assets/drag-object-icon.png) där du vill ha dem.
       * Klicka på **x** till höger om alla formulär som du inte vill överföra till projektet.
       * Om det behövs kan du överföra anpassad formulärinformation från ärendet till projektet.
 
-         >[!TIP]
-         >
-         >* Om ett anpassat formulär med flera objekt som är kopplat till utgåvan är konfigurerat för användning med både utgåvor och projekt, behålls all information som sparas i formuläret när du gör konverteringen om fälten finns både i utgåvan och i projektets anpassade formulär.
-         >* Om ett anpassat formulär med flera objekt och ett beräknat fält bifogas till utgåvan och till projektet, måste utgåvan och projektet vara kompatibla med alla fält som refereras i formulärets beräknade anpassade fält. Om det finns inkompatibilitet visas ett meddelande som varnar dig om att göra ändringar. Mer information finns i avsnittet&quot;Beräknade anpassade fält i anpassade formulär med flera objekt&quot; i [Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-         >* Om du använder en mall för konverteringen och ett anpassat formulär som är kopplat till mallen innehåller ett anpassat fält som också finns i ett anpassat formulär som är kopplat till utgåvan, används fältvärdet från utgåvan för det nya projektet. Om det anpassade fältet är tomt i utgåvan används dock värdet från mallen.
+        >[!TIP]
+        >
+        >* Om ett anpassat formulär med flera objekt som är kopplat till utgåvan är konfigurerat för användning med både utgåvor och projekt, behålls all information som sparas i formuläret när du gör konverteringen om fälten finns både i utgåvan och i projektets anpassade formulär.
+        >* Om ett anpassat formulär med flera objekt och ett beräknat fält bifogas till utgåvan och till projektet, måste utgåvan och projektet vara kompatibla med alla fält som refereras i formulärets beräknade anpassade fält. Om det finns inkompatibilitet visas ett meddelande som varnar dig om att göra ändringar. Mer information finns i avsnittet&quot;Beräknade anpassade fält i anpassade formulär med flera objekt&quot; i [Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+        >* Om du använder en mall för konverteringen och ett anpassat formulär som är kopplat till mallen innehåller ett anpassat fält som också finns i ett anpassat formulär som är kopplat till utgåvan, används fältvärdet från utgåvan för det nya projektet. Om det anpassade fältet är tomt i utgåvan används dock värdet från mallen.
 
    1. Klicka [!UICONTROL **Konvertera till projekt**].
 
@@ -194,12 +195,9 @@ Du kan konvertera en utgåva till ett tomt projekt eller konvertera en utgåva t
       >
       >Vissa problemfält överförs till projektet. De flesta fält som definieras i mallen överförs automatiskt till det nya projektet om du inte ändrade dem i tidigare steg. Mer information finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-
-
-
 1. (Valfritt) Ange ytterligare projektinformation &#x200B;(projektägare, projektdatum) och uppgifter efter behov.
 1. Klicka [!UICONTROL **Konvertera till projekt**].
 
    Problemet konverteras nu till ett projekt.
 
-1. Klicka [!UICONTROL **Gå till projekt**] inuti [!UICONTROL Success] i det övre högra hörnet på sidan. Projektsidan öppnas.
+1. Klicka [!UICONTROL **Gå till projekt**] innanför [!UICONTROL Success] i det övre högra hörnet på sidan. Då öppnas projektsidan.
