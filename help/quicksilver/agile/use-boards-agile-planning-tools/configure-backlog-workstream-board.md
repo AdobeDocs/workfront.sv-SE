@@ -7,14 +7,18 @@ description: Du kan välja att visa en eftersläpande kolumn på en anslagstavla
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Konfigurera eftersläpningen på en arbetsyta
+
+>[!IMPORTANT]
+>
+>Arbetsflöden är bara tillgängliga för en viss kundgrupp.
 
 Du kan välja att visa en eftersläpande kolumn på en anslagstavla i ett arbetsflöde och definiera en fråga för korten som hämtas till eftersläpningen i arbetsflödets kortlista.
 

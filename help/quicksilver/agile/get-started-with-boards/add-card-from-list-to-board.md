@@ -6,14 +6,18 @@ description: Du kan lägga till en uppgift eller ett problem till en styrelse i 
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
 # Lägga till befintliga uppgifter eller ärenden i en [!DNL Adobe Workfront] bräda eller arbetsflöde
+
+>[!IMPORTANT]
+>
+>Arbetsflöden är bara tillgängliga för en viss kundgrupp.
 
 Du kan lägga till uppgifter eller problem till en styrelse eller ett arbetsflöde i [!DNL Adobe Workfront] från en list- eller rapportvy, eller från objektinformationen.
 

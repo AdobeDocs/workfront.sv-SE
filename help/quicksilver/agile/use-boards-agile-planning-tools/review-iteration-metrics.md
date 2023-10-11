@@ -7,14 +7,18 @@ description: Mätvärden finns tillgängliga för varje upprepning i ett arbetsf
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # Granska iterationsmått
+
+>[!IMPORTANT]
+>
+>Arbetsflöden är bara tillgängliga för en viss kundgrupp.
 
 Det finns mätvärden för varje upprepning i ett arbetsflöde, på iterationsprocesspanelen och på kontrollpanelen.
 
@@ -45,9 +49,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Om du vill öppna ett arbetsflöde klickar du på [!UICONTROL **Visa arbetsflöde**].
 1. Välj [!UICONTROL Iteration Process] bräda.
-1. Se mätområdet ovanför brädet uppe till höger. Klicka på upp- och nedpilarna för att flytta mellan iterationer.
+1. Granska mätområdet ovanför brädet högst upp till höger. Klicka på upp- och nedpilarna för att flytta mellan iterationer.
 
-   Följande mått visas: det totala antalet poäng som tilldelats iterationen, återstående punkter som ännu inte slutförts i iteration och antalet punkter som slutförts i iteration.
+   Följande mätvärden visas: totalt antal punkter som har tilldelats iterationen, återstående punkter som ännu inte har slutförts i iterationen och antalet punkter som har slutförts i iterationen.
 
 1. (Valfritt) Klicka på [!UICONTROL **Iterationsinformation**] icon ![Iterationsinformation](assets/iteration-details-button.png) för att öppna informationsdialogrutan för den valda iterationen.
 
@@ -55,6 +59,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-boards}}
 
-Följande mått visas på kontrollpanelen för arbetsflödets aktuella upprepning: det totala antalet poäng som har tilldelats iterationen, antalet punkter som har slutförts och de återstående punkterna som ännu inte har slutförts i iterationen.
+Följande mått visas på kontrollpanelen för arbetsflödets aktuella upprepning: totalt antal punkter som tilldelats upprepningen, antalet punkter som slutförts och återstående punkter som inte slutförts i iterationen.
 
 Om du vill granska mätvärden för andra iterationer måste du öppna iterationspanelen.

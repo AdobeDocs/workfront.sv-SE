@@ -6,14 +6,18 @@ description: The [!UICONTROL boards] På kontrollpanelen visas en lista med pane
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
 
 # Använda panelkontrollpanelen
+
+>[!IMPORTANT]
+>
+>Arbetsflöden är bara tillgängliga för en viss kundgrupp.
 
 Panelerna visar en lista med paneler och arbetsflöden du har tillgång till, inklusive paneler du har skapat och paneler som du har lagts till i. Enskilda paneler som du har åtkomst till som inte ingår i en arbetsström visas först.
 
@@ -46,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Filterbord och arbetsflöden {#filter-boards}
 
@@ -98,7 +102,7 @@ När du arkiverar en styrelse eller ett arbetsflöde skickas det till arkivet oc
 
    Arkiverade objekt är dolda på panelens kontrollpanel såvida du inte använder ett filter för att visa dem. Mer information finns i [[!UICONTROL Filter boards]](#filter-boards) i den här artikeln.
 
-1. Klicka på knappen **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) på tåget eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
+1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) på tåget eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
 
 ## Ta bort en anslagstavla eller ett arbetsflöde
 

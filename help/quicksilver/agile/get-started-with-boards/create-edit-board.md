@@ -6,9 +6,9 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # Skapa eller redigera en anslagstavla
 
 Från [!UICONTROL boards] kan du skapa en ny panel eller redigera en befintlig panel.
-
-Information om hur du lägger till en anslagstavla i ett arbetsflöde finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Åtkomstkrav
 
@@ -38,21 +36,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Skapa en ny anslagstavla
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Om du vill skapa en fristående anslagstavla klickar du på **[!UICONTROL Add board]** i [!UICONTROL Boards] område. Information om hur du lägger till en anslagstavla i ett arbetsflöde finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Klicka på **[!UICONTROL Add board]**.
 
 1. Välj en mall för styrelsen.
 
    | Mall | Beskrivning |
    |---------|----------|
    | Grundläggande bräde | Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. |
-   | Kanban-tavla | Följande kolumner finns på styrelsen: Eftersläpning, Nytt, Pågår, Fullständigt och Väntande. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna.<p>Om du vill använda eftersläpningen måste du ställa in filter för inloppskolumnen. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Om du vill granska standardreglerna för varje kolumn klickar du på [!UICONTROL **Mer** meny] i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Retrospektivkort | Följande kolumner finns på styrelsen: Vad gick bra? Vad kan förbättras? Vem ska vi fira? Vad kan vi göra för att gå fortare? Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
-   | Dynamiskt kort | Följande kolumner finns på styrelsen: Avmarkerad, Ny, Pågår, Väntande och Slutförd. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. (Kolumnen Omarkerad kan byta namn men inte tas bort. Den här kolumnen innehåller alla kort med en status som inte matchar någon av de andra kolumnstatusarna.) <p>Standardkolumnprinciperna tilldelar kort till kolumner baserat på deras status. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Kanban board | Följande kolumner finns på ritytan: Backlog, New, In Progress, Complete och On Hold (Väntande). Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna.<p>Om du vill använda eftersläpningen måste du ställa in filter för inloppskolumnen. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Om du vill granska standardprofilerna för varje kolumn klickar du på [!UICONTROL **Mer** meny] i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Retrospektivkort | Följande kolumner finns i styrelsen: Vad gick bra? Vad skulle kunna förbättras? Vem ska vi fira? Vad kan vi göra för att gå fortare? Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
+   | Dynamiskt kort | Följande kolumner finns på ritytan: Avmarkerad, Ny, Pågår, Väntande och Fullständig. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. (Kolumnen Omarkerad kan byta namn men inte tas bort. Den här kolumnen innehåller alla kort med en status som inte matchar någon av de andra kolumnstatusarna.) <p>Standardkolumnprinciperna tilldelar kort till kolumner baserat på deras status. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. För ett dynamiskt kort följer du stegen i installationsguiden:
 
@@ -61,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       Alla objekt visas på kortet som anslutna kort.
 
-      The [!UICONTROL **Kort som läggs till**] räknaren visar hur många kort som kommer att finnas ombord. Om du till exempel markerar ett projekt med 100 uppgifter och ärenden visas 100 i räknaren. Om du lägger till en användartilldelning och den personen tilldelas till 5 uppgifter i projektet visas 5 i räknaren.
+      The [!UICONTROL **Kort som läggs till**] räknaren visar hur många kort som kommer att finnas ombord. Om du till exempel markerar ett projekt med 100 uppgifter och ärenden visas 100 i räknaren. Om du lägger till en användartilldelning och den personen tilldelas 5 uppgifter i projektet visas 5.
 
    1. (Valfritt) Välj [!UICONTROL **Inkludera slutfört arbete**] för att inkludera färdiga kort ombord.
 
@@ -73,7 +71,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       Detta är samma process som när du skapar ett filter för en inloppskolumn. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-   1. När du har lagt till filtren klickar du på [!UICONTROL **Skapa anslagstavla**].
+   1. När du lagt till filtren klickar du på [!UICONTROL **Skapa anslagstavla**].
 
 1. Ange ett namn för styrelsen i **[!UICONTROL Board]** och tryck på Retur.
 1. Konfigurera styrelsen efter behov.

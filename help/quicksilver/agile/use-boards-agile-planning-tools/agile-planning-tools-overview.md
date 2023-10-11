@@ -7,9 +7,9 @@ description: När du skapar en styrelse med ad hoc-kort och anslutna kort kanske
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,17 @@ Exempel på verktyg som är användbara för Scrum:
 * Kortlista eller eftersläpning
 * Iterationsmått
 
+>[!IMPORTANT]
+>
+>Arbetsflöden och tillhörande verktyg är bara tillgängliga för en viss kundgrupp.
+
 Du kan använda något eller alla av dessa verktyg på ett sätt som fungerar för dig och ditt team, utan att binda dig för en viss flexibel metod.
 
 Det här avsnittet innehåller följande artiklar:
 
 * [Hantera PIA-gränsen (Work In Progress) direkt](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
 * [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
-* [Använd grupper på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+* [Använda grupper på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Konfigurera kortutfall](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
 * [Migrera smidiga team-kanban-kort till Workfront-styrelser](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)

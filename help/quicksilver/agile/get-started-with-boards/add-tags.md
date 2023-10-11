@@ -6,16 +6,20 @@ description: Du kan lägga till taggar till kort för att visa att de liknar var
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
 # Lägg till taggar
 
-Du kan lägga till taggar till kort för att visa att de liknar varandra. Sedan kan du filtrera efter dessa taggar för att visa relaterade kort. Kortmärkord delas inte mellan ritytor, men arbetsflödestaggar är tillgängliga på alla ritytor i ett arbetsflöde.
+Du kan lägga till taggar till kort för att visa att de liknar varandra. Sedan kan du filtrera efter dessa taggar för att visa relaterade kort.
+
+>[!NOTE]
+>
+>Taggar delas inte mellan ritytor.
 
 ## Åtkomstkrav
 
@@ -38,13 +42,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Skapa taggar för en anslagstavla
 
 {{step1-to-boards}}
 
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Tag Manager]**.
 
    ![Välj tagghanteraren](assets/boards-tagmanager-350x189.png)
@@ -57,6 +61,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Tagghanteraren](assets/tag-manager-2023.png)
 
 ## Skapa taggar för ett arbetsflöde
+
+>[!IMPORTANT]
+>
+>Arbetsflöden är bara tillgängliga för en viss kundgrupp.
+
+Arbetsflödestaggar är tillgängliga för alla paneler i ett arbetsflöde.
 
 {{step1-to-boards}}
 
@@ -76,7 +86,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Lägga till en tagg på ett kort
 
-1. Gå till en anslagstavla.
+1. Gå till en styrelse.
 1. Om du vill redigera kortinformationen klickar du på kortet (inte i kortnamnet).
 
    eller
@@ -90,7 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Redigera en tagg
 
-1. Gå till en anslagstavla.
+1. Gå till en styrelse.
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Tag Manager]**.
 
    ![Välj Tagghanteraren.](assets/boards-tagmanager-350x189.png)
@@ -101,22 +111,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ta bort en tagg från ett kort
 
-1. Gå till en anslagstavla.
+1. Gå till en styrelse.
 1. Om du vill redigera kortinformationen klickar du på kortet (inte i kortnamnet).
 
    eller
 
    Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
 
-1. Leta reda på taggen som du vill ta bort från kortet och klicka sedan på **[!UICONTROL Remove]** icon ![Ta bort tagg](assets/copy-of-boards-remove-30x23.png).
+1. Hitta den tagg du vill ta bort från kortet och klicka sedan på **[!UICONTROL Remove]** icon ![Ta bort tagg](assets/copy-of-boards-remove-30x23.png).
 1. Klicka på **[!UICONTROL Close]**.
 
 ## Ta bort en tagg
 
-1. Gå till en anslagstavla.
+1. Gå till en styrelse.
 1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Tag Manager]**.
 
    ![Välj tagghanteraren](assets/boards-tagmanager-350x189.png)
 
-1. Leta reda på taggen som du vill ta bort och klicka sedan på **[!UICONTROL Delete]** icon ![Ta bort tagg](assets/copy-of-boards-delete-30x27.png).
+1. Sök efter den tagg du vill ta bort och klicka sedan på **[!UICONTROL Delete]** icon ![Ta bort tagg](assets/copy-of-boards-delete-30x27.png).
 1. Klicka på **[!UICONTROL Done]**.

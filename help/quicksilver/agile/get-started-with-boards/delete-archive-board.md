@@ -7,16 +7,16 @@ description: Du kan ta bort eller arkivera en styrelse i Workfront. Om du tar bo
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
 # Ta bort eller arkivera en anslagstavla
 
-Du kan ta bort eller arkivera en anslagstavla i [!DNL Workfront]. Om du tar bort en anslagstavla permanent tas den bort från [!DNL Workfront], samtidigt som en styrelse arkiveras behåller alla kort och kan återställas vid ett senare tillfälle. De här alternativen gäller både fristående ritytor och ritytor som ingår i arbetsflöden.
+Du kan ta bort eller arkivera en anslagstavla i [!DNL Workfront]. Om du tar bort en anslagstavla permanent tas den bort från [!DNL Workfront], samtidigt som en styrelse arkiveras behåller alla kort och kan återställas vid ett senare tillfälle.
 
 ## Åtkomstkrav
 

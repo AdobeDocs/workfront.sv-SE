@@ -6,14 +6,19 @@ title: Använda kortlistan
 description: Du kan skapa en kortlista i en arbetsström och lägga till korten i iterationer.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
+source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
 # Använda kortlistan
+
+>[!IMPORTANT]
+>
+>Arbetsströmmar är inte tillgängliga för alla kunder.
 
 Du kan skapa en kortlista i en arbetsström och lägga till korten i iterationer.
 
@@ -61,7 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Estimation]</strong></td> 
-      <td>Det uppskattade antalet timmar som kortet ska fyllas i. Det här är bara ett manuellt tävlingsbidrag.</td> 
+      <td>Det uppskattade antalet timmar som kortet ska fyllas i. Det här är bara en manuell inmatning.</td> 
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Status]</strong></td> 
@@ -123,11 +128,10 @@ Klicka på X för att rensa sökningen.
 1. Om du använder artikelpunkter anger du ett värde i [!UICONTROL **Uppskattning**] fält.
 1. Klicka [!UICONTROL **Spara**].
 
-   Kortet flyttas till iteration och iterationsvärdena visar antalet kort och punkter.
+   Kortet flyttas till iteration och iterationsmåtten visar antalet kort och punkter.
 
    Du kan också dra och släppa ett kort från gruppen Oplanerade kort i iteration eller klicka på [!UICONTROL **Lägg till kort**] om du vill lägga till ett nytt kort i iterationen.
 
 >[!TIP]
 >
->Om du har skapat en anslagsprocess visas alla oplanerade kort i kortlistan i [!UICONTROL Backlog] kolumn. När ett kort flyttas till en annan kolumn blir det en del av den aktiva iterationen. Kort som du lägger till i upprepningen i kortlistan läggs till i en kolumn baserat på deras status.
-
+>Om du har skapat en anslagsprocess visas alla oplanerade kort i kortlistan i [!UICONTROL Backlog] kolumn. När ett kort flyttas till en annan kolumn blir det en del av den aktiva iterationen. Kort som du lägger till i listan läggs till i en kolumn baserat på deras status.

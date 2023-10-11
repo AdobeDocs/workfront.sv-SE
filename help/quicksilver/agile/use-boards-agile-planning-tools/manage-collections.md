@@ -7,14 +7,18 @@ description: Ett arbetsflöde är en konfigurerbar grupp av brädor och kort fö
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Hantera arbetsflöden
+
+>[!IMPORTANT]
+>
+>Arbetsflöden är bara tillgängliga för en viss kundgrupp.
 
 Ett arbetsflöde är en konfigurerbar grupp av brädor och kort för samarbete i arbetet. Arbetsströmmar kan innehålla olika typer av anslagstavlor från mallar och en kortlista med arbetsobjekt. I ett arbetsflöde kan du spåra arbete i iterationer eller utskrifter.
 
@@ -61,15 +65,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 | Mall | Beskrivning |
 |---------|----------|
 | Grundläggande bräde | Tre standardkolumner finns på ritytan. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
-| Kanban-tavla | Följande kolumner finns på styrelsen: Eftersläpning, Nytt, Pågår, Fullständigt och Väntande. Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna.<p>Om du vill använda eftersläpningen måste du ställa in filter för inloppskolumnen. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Om du vill granska standardreglerna för varje kolumn klickar du på [!UICONTROL **Mer** meny] i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-| Retrospektivkort | Följande kolumner finns på styrelsen: Vad gick bra? Vad kan förbättras? Vem ska vi fira? Vad kan vi göra för att gå fortare? Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
-| Upprepningsprocess | Detta är den anslagstavla som används för att definiera och köra en iteration. <p>Följande kolumner finns på styrelsen: Eftersläpning, Nytt, Pågår, Fullständigt och Väntande. Du kan inte lägga till några kolumner på anslagstavlan. <p>Om du vill granska standardreglerna för varje kolumn klickar du på [!UICONTROL **Mer**] meny i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Kanban board | Följande kolumner finns på ritytan: Backlog, New, In Progress, Complete och On Hold (Väntande). Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna.<p>Om du vill använda eftersläpningen måste du ställa in filter för inloppskolumnen. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Om du vill granska standardprofilerna för varje kolumn klickar du på [!UICONTROL **Mer** meny] i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Retrospektivkort | Följande kolumner finns i styrelsen: Vad gick bra? Vad skulle kunna förbättras? Vem ska vi fira? Vad kan vi göra för att gå fortare? Du kan lägga till nya kolumner och byta namn på eller ta bort standardkolumnerna. <p>Inga kolumnprinciper används. |
+| Upprepningsprocess | Detta är den anslagstavla som används för att definiera och köra en iteration. <p>Följande kolumner finns på ritytan: Backlog, New, In Progress, Complete och On Hold (Väntande). Du kan inte lägga till några kolumner på anslagstavlan. <p>Om du vill granska standardprofilerna för varje kolumn klickar du på [!UICONTROL **Mer**] meny i en kolumn och markera [!UICONTROL **Redigera**]. Du kan ändra vilken profil som helst av dessa förinställda profiler. Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 Mer information om hur du ställer in styrelsen finns i [Skapa eller redigera en anslagstavla](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
 ## Filtrera listan med ritytor i ett arbetsflöde
 
-När andra filter än standardvärdena används i board-listan visas en indikator på filterikonen ![Filter tillämpat](assets/boards-filterapplied-30x30.png). Klicka [!UICONTROL **Rensa alla**] för att ta bort alla filter och klicka på [!UICONTROL **Göm filter**] för att stänga filterpanelen.
+När andra filter än standardvärdena används i board-listan visas en indikator på filterikonen ![Filter tillämpat](assets/boards-filterapplied-30x30.png). Klicka [!UICONTROL **Rensa alla**] ta bort alla filter och klicka på [!UICONTROL **Göm filter**] för att stänga filterpanelen.
 
 {{step1-to-boards}}
 
