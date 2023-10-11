@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -145,12 +145,6 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >
    >* Fältet Namn är fryst och ingår inte i den vågräta rullningen.
 
-1. Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om postnamnet för att ändra ordning på raderna.
-
-   >[!NOTE]
-   >
-   >Du kan inte ändra ordning på rader om du använder minst en sortering i tabellvyn.
-
 1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 
    >[!TIP]
@@ -191,9 +185,16 @@ Raderna i en Maestro-tabellvy visar enskilda poster av den valda posttypen.
 
 Du kan ha upp till 10 000 poster (eller rader) för en posttyp i Maestro.
 
-Att lägga till rader i en Maestro-tabellvy är detsamma som att skapa poster i en tabell.
+1. Gå till en posttypssida och välj en **Tabell** i listrutan.
+1. Börja lägga till poster (eller rader) enligt beskrivningen i artikeln [Skapa poster](../records/create-records.md).
 
-Mer information finns i [Skapa poster](../records/create-records.md).
+   Posterna som du lägger till i tabellvyn sparas omedelbart och visas för alla användare som har tillgång till Maestro. <!--this will change with permissions-->
+
+1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om postnamnet för att ändra ordning på raderna.
+
+   >[!NOTE]
+   >
+   >Du kan inte ändra ordning på rader om du använder minst en sortering i tabellvyn.
 
 <!-- this is not possible right now:
 

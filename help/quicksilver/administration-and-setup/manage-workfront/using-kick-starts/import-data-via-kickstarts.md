@@ -9,16 +9,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2510'
 ht-degree: 0%
 
 ---
 
 # Importera data till Adobe Workfront med en snabbstartsmall
 
-Quick-Starts är Excel-arbetsböcker som är särskilt formaterade och som du kan fylla med data som du vill importera till Workfront. Adobe Workfront har en snabbstartsmall som du kan använda för att göra detta, vilket förklaras i [Startar import av data](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Quick-Starts är Excel-arbetsböcker som är särskilt formaterade och som du kan fylla med data som du vill importera till Workfront. Adobe Workfront har en snabbstartsmall som du kan använda för att göra detta, vilket förklaras i [Spark-Startar dataimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 Den här processen är uppdelad i tre huvuduppgifter:
 
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Begränsningar
 
-Du kan importera ett stort antal objekt till Workfront med en snabbstartsmall. Tänk dock på följande begränsningar:
+Du kan importera ett stort antal objekt till Workfront med hjälp av en snabbstartsmall. Tänk dock på följande begränsningar:
 
 * Om du importerar data på det här sättet uppdateras inte information om poster som redan finns i Workfront
 * Du kan bara importera nya poster och deras information
@@ -65,7 +65,7 @@ När du exporterar en snabbstartsmall får du en tom Excel-kalkylbladsarbetsbok.
 
 Så här exporterar du en snabbstartsmall:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System** > **Exportera data (snabbstart)**.
 
@@ -126,7 +126,7 @@ Så här exporterar du en snabbstartsmall:
      </tr> 
      <tr> 
       <td> <p>Användare</p> </td> 
-      <td> <p>Exporterar som Excel-fil. Klicka på <strong>Fler alternativ</strong>.</p> </td> 
+      <td> <p>Exporterar som Excel-fil. Om du vill visa en fullständig lista med alternativ klickar du på <strong>Fler alternativ</strong>.</p> </td> 
       <td> <p>Användare</p> <p>Inställningar</p> </td> 
      </tr> 
      <tr> 
@@ -267,7 +267,7 @@ Så här exporterar du en snabbstartsmall:
     </tbody> 
    </table>
 
-1. Klicka **Hämta**.
+1. Klicka **Ladda ned**.
 1. Fortsätt med [Fyll i kalkylbladsmallen med dina data](#populate-the-spreadsheet-template-with-your-data) för att fylla i mallen med din information.
 
 ## Fyll i kalkylbladsmallen med dina data {#populate-the-spreadsheet-template-with-your-data}
@@ -276,7 +276,7 @@ Så här exporterar du en snabbstartsmall:
 * [Importera en post](#import-a-record)
 * [Inkludera datum](#include-dates)
 * [Använd jokertecken](#use-wildcards)
-* [Ersättning av attributnamn för ID:n](#attribute-name-substitution-for-ids)
+* [Ersättning av attributnamn för ID](#attribute-name-substitution-for-ids)
 
 ### Flikarna (datablad) som ingår i kalkylbladet {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
 
@@ -297,7 +297,7 @@ När du öppnar någon av dessa flikar visas på rad 2 fälten för varje objekt
 >
 >  Om ett obligatoriskt fält innehåller ett standardvärde som angetts i systeminställningarna behöver du inte fylla i det.
 >
->  På **PROJ-projekt** -fliken **setCondition** och **setConditionType** fält kan lämnas tomma, men **setGroupID** och **setName** det går inte att använda kolumner.
+>  På **PROJ-projekt** -fliken, **setCondition** och **setConditionType** fält kan lämnas tomma, men **setGroupID** och **setName** det går inte att använda kolumner.
 >
 
 ### Importera en post  {#import-a-record}
@@ -315,12 +315,17 @@ Varje rad i tabellen motsvarar ett unikt objekt.
 
    * Om det objekt som du importerar redan finns i Workfront-systemet (och du skrev **FALSE** i **isNew** måste ID:t vara det alfanumeriska GUID som finns i Workfront för det objektet.
 
+     ![Exempel-ID för en grupp](assets/kick-start-group-example.png)
+
+   * När du importerar ett projekt måste du ange ett grupp-ID.
+
+      * Om gruppen redan finns i Workfront måste du lägga till dess unika ID i **setGroupID** -fält för projektet.
+      * Om gruppen inte finns i Workfront kan du lägga till **GRUPPgrupp** till din importfil, ange **isNew** fält till **TRUE** på gruppbladet och ange ett numeriskt ID för den nya gruppen i **ID** kolumn. The **setGroupID** fältet för det nya projektet måste matcha det numeriska värdet **ID** för den nya gruppen.
+
      **Exempel:** För ett projekt visas värdet i **setGroupID** Kolumnen måste ha något av följande:
 
       * GUID för en befintlig grupp i din Workfront-instans
-      * Värdet (tal) i ID-kolumnen på **GRUPPGRUPP** blad om du skapar en ny grupp under importen
-
-        ![Exempel-ID för en grupp](assets/kick-start-group-example.png)
+      * Värdet (tal) i ID-kolumnen på **GRUPPgrupp** blad om du skapar en ny grupp under importen
 
 1. Indatavärden för obligatoriska fält och andra fält som du vill fylla i under importen.
 1. (Valfritt) Så här lägger du till anpassade data:
@@ -338,9 +343,9 @@ Workfront kan bearbeta de flesta datumformat. Du måste dock se till att datumko
 
 >[!TIP]
 >
->De flesta tycker att det är enklast att använda formatet MM/DD/ÅÅÅÅ (till exempel: 07/10/2022).
+>De flesta tycker att det är enklast att använda formatet MM/DD/ÅÅÅÅ (till exempel 07/10/2022).
 
-Workfront godkänner också tidsvärden som en del av datumet (till exempel: 07/10/2022 01:30 eller 07/10/2022 1:00 PM).
+Workfront godkänner också tidsvärden som en del av datumet (till exempel 07/10/2022 01:30 eller 07/10/2022 1:00 PM).
 
 Om du utelämnar en tid i datumet gör Workfront något av följande:
 
@@ -377,24 +382,24 @@ Du kan använda följande jokertecken när du fyller i kalkylbladet för snabbst
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
-   <td> <p>Vid användning på en <strong>setAssignedToID</strong> För andra userID-baserade fält tilldelar jokertecknet arbetet eller associerar på annat sätt posten med den person som utför importen.</p> </td> 
+   <td> <p>Vid användning på en <strong>setAssignedToID</strong> eller andra userID-baserade fält tilldelar jokertecknet arbetet eller på annat sätt associerar posten med den person som utför importen.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$KUND</p> </td> 
-   <td> <p>Det här jokertecknet har lagts till specifikt för import från Spark-Start-användare. När ett Workfront-konto skapas skapas en användare med åtkomstnivån Systemadministratör. Det användarnamn som tilldelats standardadministratören kan användas som prefix när andra användare skapas i kontot.</p> <p>Eftersom användarnamn måste vara unika för alla kunder är detta användbart när du har flera personer med mycket vanliga användarnamn, som t.ex. John Smith, som kan ha användarnamnet"jsmith". Genom att föregå användarnamnstilldelningen med standardadministratörens användarnamn kan du garantera att varje användarnamn är unikt (till exempel: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tips: Ett mer elegant sätt att säkerställa att användarnamn är unika i hela systemet är att ange personens e-postadress i <strong>setUsername</strong> fält.</p> </td> 
+   <td> <p>Det här jokertecknet har lagts till specifikt för import från Spark-Start-användare. När ett Workfront-konto skapas skapas en användare med åtkomstnivån Systemadministratör. Det användarnamn som tilldelats standardadministratören kan användas som prefix när andra användare skapas i kontot.</p> <p>Eftersom användarnamn måste vara unika för alla kunder är detta användbart när du har flera personer med mycket vanliga användarnamn, som t.ex. John Smith, som kan ha användarnamnet"jsmith". Genom att föregå användarnamnstilldelningen med standardadministratörens användarnamn kan du garantera att varje användarnamn är unikt (till exempel: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tips! Ett mer elegant sätt att se till att användarnamn är unika i hela systemet är att ange den personens e-postadress i <strong>setUsername</strong> fält.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Ersättning av attributnamn för ID:n  {#attribute-name-substitution-for-ids}
+### Ersättning av attributnamn för ID  {#attribute-name-substitution-for-ids}
 
 Även om det är en god vana att använda ID:n när det är möjligt, är det ibland besvärligt att korsreferens-ID:n från ett blad till ett annat när du ställer in en **setAttributeID** värde. Du kan referera till värden efter namn genom att ändra kolumnrubriken.
 
 **Exempel:**
 
-* **(projektimport)**
+* **(import av projekt)**
 
-  Ange **setGroupID** av projekten genom att gå till **GRUPPGRUPP** kalkylblad, notera respektive grupp-ID och klistra in dem i rätt celler (**setGroupID** kolumn) på **PROJ-projekt** blad.
+  Ange **setGroupID** genom att gå till **GRUPPgrupp** kalkylblad, notera respektive grupp-ID och klistra in dem i rätt celler (**setGroupID** kolumn) på **PROJ-projekt** blad.
 
   Detta är möjligt när du arbetar med bara ett fåtal grupper och projekt, men om du arbetar med flera av varje är det inte praktiskt.
 
@@ -416,7 +421,7 @@ Du kan använda följande jokertecken när du fyller i kalkylbladet för snabbst
 
    * Lägg till en kolumn i kalkylbladet till vänster om **setRoleID** kolumn.
    * Namnge den nya kolumnen **#setRoleID ROLE name**.
-   * Om du vill tilldela roller till befintliga poster anger du rollnamnen i **#setRoleID ROLE name** kolumn.
+   * Ange rollnamnen i dialogrutan för rolltilldelningar till befintliga poster **#setRoleID ROLE name** kolumn.
 
      För rolltilldelningar till nya rollposter anger du det ID som du tilldelade på ROLE-rollbladet i setRoleID.
 
@@ -434,12 +439,12 @@ Quick-Start-importen stöder följande filtyper:
 
   >[!NOTE]
   >
-  >Du måste använda en ZIP-fil när du importerar Excel-kalkylblad som refererar till rapporter. handlingar, avatarer, eller visa, filtrera eller gruppera egenskapsfiler. När du använder en zippad importfil &#42;ZIP-filen måste ha samma namn som &#42;.xlsx eller &#42;.xls-filen och allt innehåll måste vara på samma filstrukturnivå (inga mappar).
+  >Du måste använda en ZIP-fil när du importerar Excel-kalkylblad som refererar till rapporter, dokument, avatarer eller visar, filtrerar eller grupperar egenskapsfiler. När du använder en zippad importfil &#42;ZIP-filen måste ha samma namn som &#42;.xlsx eller &#42;.xls-filen och allt innehåll måste vara på samma filstrukturnivå (inga mappar).
 
 
 Så här importerar du mallkalkylbladsdata till Workfront:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System** >**Importera data (Quick-Starts)**.
 
