@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td><p>Alla anpassade fält som du lägger till visas i det här området.</p>
       <p>Mer information finns i <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Anpassa vilka fält som visas på ett kort</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtask]</strong></span></td>
+      <td><span class="preview"><p>Alla befintliga underaktiviteter för aktiviteten visas i det här avsnittet. Klicka <strong>[!UICONTROL Add Subtask]</strong> för att lägga till en ny underaktivitet.</p>
+      <p>Räknaren högst upp i avsnittet visar antalet slutförda underaktiviteter och det totala antalet underaktiviteter.</p>
+      <p>Mer information om underaktiviteter finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Hantera underaktiviteter på anslagstavlor</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
-      <td> <p>Klicka på <strong>[!UICONTROL Add checklist item]</strong>. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.</p> <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om objekt i checklistor finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong></td>
+      <td><p>Klicka på <strong>[!UICONTROL Add checklist item]</strong>. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.</p>
+      <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om objekt i checklistor finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
