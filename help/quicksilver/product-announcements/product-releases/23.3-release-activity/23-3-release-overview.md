@@ -3,10 +3,10 @@ title: 23.3 - versionsöversikt
 description: 23.3 - versionsöversikt
 author: Becky
 feature: Product Announcements
-exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
+exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
                             </li>
                             <li>
                                 <p>Produktionsrelease för kunder med snabb lansering: tillkännages efter 23.3-utgåvan</p>
-                                <p>Produktionsrelease för alla kunder: Med version 23.10 (oktober 2023)<br>
+                                <p>Produktionsrelease för alla kunder: Ska tillkännages<br>
                                 Funktionen för åsidosättning av tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen från 30 juni till 13 juli 2023.</p>
                             </li>
                         </ul>

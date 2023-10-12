@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
+source-git-commit: 0df32f5b41f4b426325d3eab8f70a4ef2538b452
 workflow-type: tm+mt
-source-wordcount: '13351'
+source-wordcount: '13343'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 0%
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * 2023 Q4-utgåvan {#release-23-q4}
          * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
-         * [Q4-versionsvecka 2023, 24 juli 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
-         * [Q4-versionsvecka 2023, 31 juli 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
-         * [Q4-utgåvveckan 2023, 14 augusti 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
-         * [Q4-utgåvveckan 2023, 21 augusti 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
-         * [Q4-versionsvecka 2023, 11 september 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
-         * [Q4-utgåvveckan 2 oktober 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md)
+         * [2023 Q4 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
+         * [Förbättringar av 2023 Q4-kort](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
+         * [Förbättringar av den ekonomiska förvaltningen under det fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
+         * [2023 Q4 Home enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
+         * [2023 Q4-integreringsförbättringar](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
+         * [2023 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
+         * [2023 Q4 Andra förbättringar](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 2023 Q4-releasen](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * 23.3 Utgåva {#release-23-3}
          * [23.3 Versionsöversikt](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)

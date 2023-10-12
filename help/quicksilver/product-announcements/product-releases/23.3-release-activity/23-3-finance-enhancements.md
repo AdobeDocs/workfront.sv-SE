@@ -3,9 +3,10 @@ title: 23.3 Förbättringar av den ekonomiska förvaltningen
 description: 23.3 Förbättringar av den ekonomiska förvaltningen
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 2
 >
 >* Produktionsrelease för kunder med snabb lansering: tillkännages efter 23.3-utgåvan
 >
->* Produktionsrelease för alla kunder: Produktionsrelease för alla kunder: Med version 23.10 (oktober 2023)
+>* Produktionsrelease för alla kunder: Produktionsrelease för alla kunder: Ska tillkännages
 >
 >Funktionen för åsidosättning av tilldelningsfrekvens inaktiverades tillfälligt i förhandsgranskningen från 30 juni till 13 juli 2023.
 
@@ -36,6 +37,6 @@ Giltig kostnad och faktureringstariffer är nu tillgängliga för företagets, a
 
 Datumrollsuppsättningar för giltighetsjobb är nu även tillgängliga för användarprofilen. Dessa rollassociationer för giltighetsdatum beaktas i ekonomiska beräkningar om användarens jobbroll ändras under ett projekt.
 
-Med en ny funktion, betygskort, kan du definiera flera faktureringspriser per jobbroll baserat på plats. En faktureringsfrekvens för en jobbroll och plats kan även innehålla giltighetsdatum. Gradkort kan kopplas till projekt för att tillämpa all tariffinformation samtidigt för den specifika jobbrollen och platsen. Platsbaserade roller kan också tilldelas aktiviteter med möjlighet att åsidosätta deras satser på tilldelningsnivån.
+Med en ny funktion, tariffkort, kan du definiera flera faktureringspriser per jobbroll baserat på plats. En faktureringsfrekvens för en jobbroll och plats kan även innehålla giltighetsdatum. Gradkort kan kopplas till projekt för att tillämpa all tariffinformation samtidigt för den specifika jobbrollen och platsen. Platsbaserade roller kan också tilldelas aktiviteter med möjlighet att åsidosätta deras satser på tilldelningsnivån.
 
 Mer information finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Skapa och hantera jobbroller](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)och [Översikt över fakturering och intäkt](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

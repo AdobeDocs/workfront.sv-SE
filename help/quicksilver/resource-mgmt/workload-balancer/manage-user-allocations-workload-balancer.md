@@ -6,9 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2808'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du måste ha följande:
 
 Användartilldelningar är timtals som anger hur mycket en användare ska tillbringa en viss dag eller veckodag, vecka eller månad för att slutföra arbetsuppgiften. De ingår i arbetsuppgiftens planerade timmar.
 
-I den här artikeln beskrivs hur du uppdaterar dagliga, veckovisa eller månadsvisa tilldelningar för användare som har tilldelats uppgifter eller utgåvor. Information om hur du hanterar övergripande allokeringar för användare och jobbroller till uppgifter finns i [Hantera användar- och rolltilldelningstimmar för uppgifter](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+I den här artikeln beskrivs hur du uppdaterar dagliga, veckovisa eller månadsvisa tilldelningar för användare som har tilldelats uppgifter eller utgåvor. Information om hur du hanterar övergripande allokeringar för användare och jobbroller till uppgifter finns i [Hantera användar- och rollallokeringstimmar för uppgifter](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
 
 * [Översikt över användarallokering](#user-allocation-overview)
 * [Kriterier som återställer användartilldelningar](#criteria-that-reset-user-allocations)
@@ -80,21 +80,20 @@ Tänk på följande när du söker efter dagliga, veckovisa eller månadsvisa ti
 * Du kan visa dagliga, veckovisa och månadsvisa allokeringar av användarna till deras arbetsposter. Aktivera vyn Vecka eller Månad om du vill visa varje vecka- eller månadstilldelning.
 * Du kan använda Utjämning av arbetsbelastning för att ändra den dagliga, veckovisa eller månadsvisa fördelningen av användarna till uppgifter eller utgåvor. Mer information om hur du justerar vyn för belastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   >[!NOTE]
-   >
-   >Vi rekommenderar att du bestämmer vilken tidsram (varje dag, varje vecka eller varje månad) som du alltid vill använda när du hanterar användartilldelningar och inte växlar mellan dem för samma arbetsobjekt. Om du uppdaterar veckoallokeringar för samma användare som du tidigare har uppdaterat dagliga allokeringar för ändras den dagliga allokeringen för användaren.
+  >[!NOTE]
+  >
+  >Vi rekommenderar att du bestämmer vilken tidsram (varje dag, varje vecka eller varje månad) som du alltid vill använda när du hanterar användartilldelningar och inte växlar mellan dem för samma arbetsobjekt. Om du uppdaterar veckoallokeringar för samma användare som du tidigare har uppdaterat dagliga allokeringar för ändras den dagliga allokeringen för användaren.
 
 * Du kan uppdatera allokeringar för både arbetsdagar och arbetsdagar som inte är arbetsdagar.
 * Tidsstämplarna för planerad start och planerad slutförandedatum för arbetsuppgifterna samt projektschemat är viktiga när Workfront automatiskt beräknar den dagliga allokeringen för uppgiften.
 
 >[!INFO]
 >
-> En aktivitet kan till exempel ha en varaktighet på 2 dagar och 2 planerade timmar och en planerad starttid på 12:00 på den första dagen i varaktigheten med en användare och ett projektschema som slutar klockan 17:00. Användarens kapacitet för första dagen är fem timmar. Användarens kapacitet för den andra dagen är 8 timmar (om schemat börjar klockan 9.00).
+> En aktivitet kan till exempel ha en varaktighet på 2 dagar och 2 planerade timmar och en planerad starttid på 12:00 på den första dagen i varaktigheten med en användare och ett projektschema som slutar klockan 17:00. Användarens kapacitet för första dagen är fem timmar. Användarens kapacitet för den andra dagen är 8 timmar (om schemat börjar klockan 09:00).
 >
 >Workfront beräknar fördelningen av de två timmarna under de två dagarna i tidsperioden med hjälp av följande formel:
 >
->
-```
+>```
 >
 >   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
 >```
@@ -105,7 +104,7 @@ Tänk på följande när du söker efter dagliga, veckovisa eller månadsvisa ti
 >
 >  (2 / 13) * 8 = 1,23 allokeringstimmar för den andra dagen
 >
->  I beräkningarna ovan är 13 det totala antalet tillgängliga timmar för uppgiften: 5 + 8 = 13
+>  I ovanstående beräkningar är 13 det totala antalet tillgängliga timmar för uppgiften: 5 + 8 = 13
 
 
 
@@ -113,26 +112,26 @@ Tänk på följande när du söker efter dagliga, veckovisa eller månadsvisa ti
 
 * När en användare har schemalagt en ledig tid visas dagen eller delen av dagen i grå bakgrund. Om Workfront-administratören har aktiverat inställningen för användartid av i inställningsområdet för att ta hänsyn till användarens ledig tid, flyttas de tilldelade timmarna till nästa tillgängliga dag i tidslinjen. Om inställningen är inaktiverad finns de tilldelade timmarna kvar den dag som är markerad som ledig och användaren visas som överallokerade. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!TIP]
-   >
-   >Om tidsgränsen markerades efter att användaren tilldelades en arbetsuppgift, måste du beräkna om projektets tidslinje för att visa den flyttade allokeringen. Mer information finns i [Beräkna om projekttidslinjer](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  >[!TIP]
+  >
+  >Om tidsgränsen markerades efter att användaren tilldelades en arbetsuppgift, måste du beräkna om projektets tidslinje för att visa den flyttade allokeringen. Mer information finns i [Beräkna om projekttidslinjer](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 * Om det finns flera användare tilldelade till uppgiften, fördelas antalet planerade timmar jämnt till varje användare först, sedan jämnt till varje dag under uppgiftens varaktighet. Distributionen blir den allokering som varje användare tilldelas till uppgiften.
 
-   Följande scenarier kan till exempel finnas:
+  Följande scenarier kan finnas:
 
    * För en aktivitet med en varaktighet på 2 dagar och med 10 planerade timmar tilldelade till en användare, är daglig allokering för användaren 5 timmar för varje dag som standard.
    * För en uppgift med en varaktighet på 2 dagar och med 10 planerade timmar tilldelade till två användare, är daglig allokering för varje användare 2,5 timmar för varje dag som standard.
 
 * Om en uppgift eller ett problem har slutförts före det planerade slutförandedatumet, nås antalet allokerade timmar för återstående dagar och räknas inte av mot användarens totala allokering. Detta visas bara när både ikonen Visa allokeringar och inställningen Visa planerade datum är aktiverad. Mer information om hur du aktiverar inställningar i Utjämning av arbetsbelastning finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   ![](assets/allocations-struck-through-highlighted-350x39.png)
+  ![](assets/allocations-struck-through-highlighted-350x39.png)
 
 * När en användare är överallokerad visas deras tilldelade timmar med en röd bakgrund i användarfältet.
 * När användaren är underallokerad eller tilldelad ett lika stort antal timmar till sin schemalagda tillgängliga tid visas timmarna med en blå bakgrund.
-* Du kan visa användarens allokering i en diagramvy på användarraden. Information om hur du aktiverar diagramvyn för användartilldelningar finns i avsnittet Navigera i arbetsbelastningsutjämnaren i artikeln [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* Du kan visa användarens allokering i en diagramvy på användarraden. Mer information om hur du aktiverar diagramvyn för användartilldelningar finns i avsnittet Navigera i arbetsbelastningsutjämnaren i artikeln [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-   ![](assets/user-allocation-chart-350x237.png)
+  ![](assets/user-allocation-chart-350x237.png)
 
 ### Kriterier som återställer användartilldelningar {#criteria-that-reset-user-allocations}
 
@@ -206,7 +205,7 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
       >
       >Om du ändrar allokeringar när den här inställningen är aktiverad minskar det totala antalet på användarraden.
 
-   1. **Projekt** i **Välj färgtema** -avsnitt. Detta visar varje projekt och dess respektive arbetsobjekt i unika färger och gör det enklare att förstå vilka objekt som tillhör vilket projekt.
+   1. **Projekt** i **Välj färgtema** -avsnitt. Detta visar varje projekt och dess respektive arbetsobjekt i unika färger och gör det lättare att förstå vilka objekt som tillhör vilket projekt.
    1. **Procent** i **Visa användarallokering i** -avsnitt. Detta visar allokeringar som ett procentvärde. Användarens kapacitet enligt schemat anses vara 100 %. Om en användare till exempel är associerad med ett schema på 8 timmar per dag är 8 timmar lika med 100 % kapacitet. Om du vill tilldela användaren fyra timmar per dag uppdaterar du hans/hennes tilldelning till 50 %.
 
       >[!NOTE]
@@ -216,13 +215,13 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
 
 1. Klicka på **Mer** meny ![](assets/qs-more-menu.png) för en arbetsuppgift, klicka sedan på **Redigera allokeringar**.
 
-![](assets/more-menu-on-task-wb-nwe.png)
+   ![](assets/more-menu-on-task-wb-nwe.png)
 
-eller
+   eller
 
-Dubbelklicka på dag, vecka eller månad i fältet för en uppgift eller ett problem.
+   Dubbelklicka på dag, vecka eller månad i fältet för en uppgift eller ett problem.
 
-Allokeringsrutorna kan redigeras.
+   Allokeringsrutorna kan redigeras.
 
 1. Klicka i rutan för varje daglig, veckovis eller månadsvis tilldelning för att manuellt uppdatera timbeloppet eller procentvärdet som du vill att användaren ska tilldelas för varje dag, vecka eller månad. Klicka sedan på **Spara** icon ![](assets/checkmark-icon.png).
 
@@ -243,16 +242,23 @@ Allokeringsrutorna kan redigeras.
    * För uppgifter med varaktighetstyper som inte är enkla eller för utgåvor måste totalsumman för allokeringarna matcha aktiviteten Planerade timmar innan du kan klicka på bockmarkeringsikonen.
    * För uppgifter med enkel varaktighet Typ kan summan av allokeringarna vara högre eller lägre än Planerade timmar och du kan klicka på bockmarkeringsikonen även om de inte matchar. Detta uppdaterar även mängden planerade timmar för aktiviteten. Du måste ha rätt behörighet och åtkomst för att kunna uppdatera planerade timmar för uppgifter från Utjämning av arbetsbelastning.
 
-      >[!TIP]
-      >
-      >En låsikon visas till höger om aktivitetsnamnet när du börjar justera dina allokeringar för att ange att aktiviteten har en enkel varaktighetstyp.
+     >[!TIP]
+     >
+     >En låsikon visas till höger om aktivitetsnamnet när du börjar justera dina allokeringar för att ange att aktiviteten har en enkel varaktighetstyp.
 
-      ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+
    Mer information om villkoren som måste uppfyllas för att uppdatera planerade timmar i arbetsbelastningsutjämnaren finns i följande avsnitt i den här artikeln: [Uppdatera planerade timmar för aktiviteter vid hantering av användarallokeringar](#update-task-planned-hours-when-managing-user-allocations). Mer information om aktivitetens varaktighetstyper finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Villkorligt) Om uppgiften har tilldelats fler än en användare upprepar du de här stegen för varje användare som har tilldelats uppgiften för att uppdatera allokeringarna för varje användare.
 
    Alla som har åtkomst till att visa arbetsbelastningsutjämnaren och visar samma användare och samma projekt som du hanterade, visar nu den uppdaterade allokeringen för de användare som du hanterade.
+
+>[!TIP]
+>
+>En pennikon visas till höger om arbetsobjektets namn för att ange att det justerats manuellt.
+
+![Manuellt justerade timmar, ikon](assets/icon-for-manually-adjusted-hours.png)
 
 ## Uppdatera planerade timmar för aktiviteter vid hantering av användarallokeringar {#update-task-planned-hours-when-managing-user-allocations}
 
@@ -264,20 +270,18 @@ Du kan uppdatera de planerade timmarna för en uppgift när du hanterar använda
 >* Manuell uppdatering av Planerade timmar genom att ändra dagliga allokeringar kan påverka Planerade timmar när tilldelningar tas bort från aktiviteterna i framtiden. Mer information finns i [Översikt över planerade timmar](../../manage-work/tasks/task-information/planned-hours.md).
 >
 >* Det går inte att uppdatera planerade timmar för utgåvor genom att uppdatera allokeringar i Utjämning av arbetsbelastning.
->
-
 
 Detta är möjligt när följande villkor är uppfyllda:
 
 * Du har rätt behörigheter och åtkomst för att hantera planerade timmar från arbetsbelastningsutjämnaren. Bland dessa finns följande:
 
    * Hantera behörigheter för aktiviteterna.
-   * Uppdatera planerade timmar i åtkomsten till belastningsutjämnaren i resurshanteringsområdet på åtkomstnivån.
+   * Uppdatera planerade timmar i åtkomsten till belastningsutjämnaren för arbetsbelastning i resurshanteringsområdet på åtkomstnivån.
 
-   Mer information om åtkomsten som behövs för att använda belastningsutjämnaren finns i följande avsnitt i den här artikeln: [Åtkomstkrav](#access-requirements) .
+  Mer information om åtkomsten som behövs för att använda belastningsutjämnaren finns i följande avsnitt i den här artikeln: [Åtkomstkrav](#access-requirements).
 
 * Aktiviteten har varaktighetstypen Enkel.
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
   -->

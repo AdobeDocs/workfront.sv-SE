@@ -7,9 +7,9 @@ description: Förhandsvisningsmiljön uppdateras en gång i veckan med nya funkt
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,20 @@ ht-degree: 0%
 
 Förhandsvisningsmiljön uppdateras en gång i veckan med nya funktioner. Dessa funktioner finns i versionsinformationen för den kommande kvartalsversionen.
 
+Utgåvor sker vanligtvis i USA runt 8-10 PM Mountain Time.
+
 ## Uppdateringsschema för produktion
 
 ### Funktioner
 
 
-Adobe Workfront har två modeller för nya funktioner och uppdateringar. Din organisation kan välja om du vill få nya funktioner kvartalsvis eller snabbare.
+Adobe Workfront har två modeller för att lansera nya funktioner och uppdateringar. Din organisation kan välja om du vill få nya funktioner kvartalsvis eller snabbare.
 
-Månads- och kvartalsvisa releaser planeras bli tillgängliga den sista torsdagen i månaden.
+Månads- och kvartalsvisa releaser planeras bli tillgängliga den sista torsdagen i månaden. Utgåvor sker vanligtvis i USA runt 8-10 PM Mountain Time.
 
 I nästa version blir funktionerna i Förhandsgranska tillgängliga i produktionsmiljön. I vissa fall görs dock funktionerna tillgängliga i produktionsmiljön utanför en schemalagd release. Dessa ändringar finns kvar i förhandsgranskningen i minst två veckor för att ge dig tillräckligt med tid att bekanta dig med ändringarna. Dessa ändringar kommuniceras också via meddelandecentret när de läggs till i förhandsvisningen.
 
-Mer information om kvartalsvisa och snabba publiceringsprocesser finns i [Aktivera eller inaktivera snabba releaser för organisationen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+Mer information om kvartalsvisa och snabba publiceringsprocesser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### Underhållsuppdateringar
 
@@ -63,7 +65,7 @@ Följande betaprogram kan köpas från Workfront:
    * Nya funktioner som ingår i betaversionen kan antingen släppas till Förhandsgranska eller Produktion, eller till en separat miljö som gjorts tillgänglig för betaprogrammet. Stängda betafunktioner släpps med slumpmässiga intervall utan förvarning.
    * Det finns ingen versionsinformation för stängda betaversioner på produktreleasesidorna.
 
-* **Open eller public beta**: Här följer några exempel på en öppen eller offentlig betaversion:
+* **Open eller public beta**: Följande är egenskaper för en öppen eller offentlig betaversion:
 
    * Funktionerna är tillgängliga för alla Workfront-kunder, men är i betaversion. De kanske inte alltid fungerar som de ska och feedback är alltid välkommen.
    * Deltagandet i en betaversion är valfritt och kunderna kan själva bestämma om de vill använda betafunktionerna.
