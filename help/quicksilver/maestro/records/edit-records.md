@@ -4,13 +4,13 @@ description: Du kan redigera postinformation i Adobe Maestro. Du måste skapa po
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Du kan redigera poster som du eller någon annan användare har skapat. <!--will change with access levels-->
 * Om de redigerade posterna är länkade till andra poster återspeglas den nya informationen om de poster som du redigerar på de länkade posterna.
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
-
+* Du kan inte redigera fält som är länkade från andra poster.
 
 ## Redigera poster
 
@@ -145,6 +145,11 @@ Du kan redigera en post i följande områden:
    >* Länkade fält kan inte redigeras. Informationen för dessa fält fylls i automatiskt från de länkade posterna. Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
    >
    >* URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

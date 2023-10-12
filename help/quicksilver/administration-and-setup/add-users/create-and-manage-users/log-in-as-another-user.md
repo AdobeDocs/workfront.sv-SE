@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Med åtkomstnivån Systemadministratör kan du logga in som vem som helst. Mer information om den här åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> <p>Med en åtkomstnivå för Planering kan du logga in som en användare med en lägre licensnivå om <b>Användare</b> inställningen i åtkomstnivån är konfigurerad till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>ANMÄRKNING</b>: Om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> 
+   <p><b>ANMÄRKNING</b>: Av dessa två alternativ, om användare <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> 
    <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -90,7 +90,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >   
    >* Du kan inte återställa lösenordet för en Workfront-administratör.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Logga in som**.
 
@@ -148,7 +148,7 @@ När du loggar in på Workfront som en annan användare och utför en åtgärd, 
 
 Om du till exempel kommenterar ett objekt när du är inloggad som en annan användare, visar en programsats att du har gjort kommentaren å användarens vägnar.
 
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+<!--remove the note below when we bring this back to Prod: -->
 
 >[!NOTE]
 >
@@ -160,7 +160,7 @@ Om du till exempel kommenterar ett objekt när du är inloggad som en annan anv�
 ### Visa granskningsinformation {#view-audit-information}
 
 1. Logga in på Workfront som Workfront-administratör eller gruppadministratör.
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Logga in som,** klickar du på **Åtkomstlogg** -fliken.
 
@@ -169,5 +169,5 @@ Om du till exempel kommenterar ett objekt när du är inloggad som en annan anv�
 1. (Valfritt) Du kan filtrera resultaten som visas i granskningsspåret på följande sätt:
 
    * Av den användare som har loggat in
-   * Av användare som har loggat in som
+   * Av den användare som har loggat in som
    * Efter datum

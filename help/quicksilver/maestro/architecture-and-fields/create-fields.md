@@ -4,13 +4,13 @@ description: I Adobe Maestro kan du skapa anpassade fält för varje typ av oper
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [Procent](#percentage)
    * [Valuta](#currency)
    * [Kryssruta](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till e
 
    ![](assets/single-line-text-field-type.png)
 
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumnrubrik i en tabell.
 1. Klicka **Skapa**.
@@ -213,12 +214,22 @@ Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till e
 
 Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar fältet Beskrivning. Innehållet i ett styckefält kan innehålla upp till 1 000 tecken.
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Stycke** fälttyp.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
 1. Klicka **Skapa**.
@@ -235,7 +246,7 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
    ![](assets/multi-select-field-type.png)
 
 
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
    * **Val**: De alternativ som är tillgängliga att välja på den nedrullningsbara menyn när fältet har sparats. Du kan ha både siffror och bokstäver för namnet på varje val.
@@ -257,7 +268,7 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
    ![](assets/single-select-field-type.png)
 
 
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
    * **Val**: De alternativ som är tillgängliga att välja på den nedrullningsbara menyn när fältet har sparats. Du kan ha både siffror och bokstäver för namnet på varje val.
@@ -279,7 +290,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
    ![](assets/date-field-type.png)
 
 
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
    * **Datumformat**: Den typ av datumformat som du vill visa i det här fältet.
@@ -308,7 +319,7 @@ Nummerfälttyper samlar in information i talformat.
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Nummer** fälttyp.
 
    ![](assets/number-field-type.png)
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
 
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida.
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
@@ -331,7 +342,7 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 
    ![](assets/percentage-field-type.png)
 
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida.
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
@@ -353,7 +364,7 @@ Valutafälttyper samlar in information i ett talformat som föregås av en valut
 
    ![](assets/currency-field-type.png)
 
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
    * **Valuta**: Den typ av valuta som du vill visa i det här fältet. Detta är en lista över valutor enligt ISO (International Organization of Standardization).
@@ -376,12 +387,30 @@ Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en p
 
    ![](assets/checkbox-field-type.png)
 
-1. Lägg till följande information:
+1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
 1. Klicka **Skapa**.
 
    Det nya kryssrutefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## Skapa fält genom att länka posttyper tillsammans
 
@@ -402,6 +431,3 @@ När du skapar en posttyp skapas även flera fält som är kopplade till den nya
 I Maestro skapas fält för driftsposttyper och taxonomier när du skapar en arbetsyta från en mall.
 
 Mer information finns i [Skapa arbetsytor](../architecture-and-fields/create-workspaces.md).
-
-
-

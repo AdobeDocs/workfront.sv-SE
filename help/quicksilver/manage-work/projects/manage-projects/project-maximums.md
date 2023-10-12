@@ -7,9 +7,9 @@ description: Adobe Workfront har gränser för hur många objekt som kan kopplas
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ Följande objekt som är associerade med projekt har följande gränser:
 
 <b>VIKTIGT</b>
 
-För projekt där aktiviteter har många beroenden rekommenderar vi att antalet uppgifter i projekten är mycket lägre än det högsta tillåtna antalet på 5 000 uppgifter.
+För projekt där aktiviteter har många beroenden kan en prestandaförsämring inträffa vid beräkning av tidslinjen eller vid arbete i projektet.
+
+Därför rekommenderar vi att antalet uppgifter i projekt med komplexa beroenden är mycket lägre än det högsta tillåtna antalet på 5 000 uppgifter.
 
 Några exempel på aktivitetssamband som kan påverka eller förhindra omberäkning av projektets tidslinje är:
 
 <ul><li>Antal underordnade</li>
    <li>Indrag för flera nivåer av uppgifter</li>
-   <li>Antal föregångare</li>
+   <li>Antal föregående</li>
    <li>Flera tilldelningar</li>
    </ul>
    </td> 
@@ -51,7 +53,7 @@ Några exempel på aktivitetssamband som kan påverka eller förhindra omberäkn
   </tr> 
   <tr> 
    <td role="rowheader"><p>Beräkningar av tidslinje</p></td> 
-   <td>Workfront utför inte automatiska tidslinjeberäkningar för projekt som inte har uppdaterats på sex månader och kommer inte att återupptas förrän en uppdatering har gjorts.<p>För projekt som inte har uppdaterats på tre månader utför Workfront tidslinjeberäkningar varje vecka i stället för varje natt.</p><p>Mer information om hur du beräknar projekttidslinjen finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Beräkna om projekttidslinjer</a>. </p></td> 
+   <td>Workfront utför inte automatiska tidslinjeberäkningar för projekt som inte har uppdaterats på sex månader och kommer inte att återupptas förrän en uppdatering har gjorts.<p>För projekt som inte har uppdaterats på 3 månader utför Workfront tidslinjeberäkningar varje vecka i stället för varje natt.</p><p>Mer information om hur du beräknar projekttidslinjen finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Beräkna om projekttidslinjer</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
