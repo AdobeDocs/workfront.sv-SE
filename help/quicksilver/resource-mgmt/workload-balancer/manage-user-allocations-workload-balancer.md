@@ -6,7 +6,7 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Hantera användarallokeringar i Utjämning av arbetsbelastning
+
+{{highlighted-preview}}
 
 Som resurshanterare kan du tilldela användare arbete och hantera deras dagliga, veckovisa eller månadsvisa tilldelningar från belastningsutjämnaren för att se till att de tilldelas ett antal timmar som passar i deras tillgängliga scheman.
 
@@ -256,7 +258,7 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
 
 >[!TIP]
 >
->En pennikon visas till höger om arbetsobjektets namn för att ange att det justerats manuellt.
+><span class="preview">En pennikon visas till höger om arbetsobjektets namn för att ange att det justerats manuellt.</span>
 
 ![Manuellt justerade timmar, ikon](assets/icon-for-manually-adjusted-hours.png)
 

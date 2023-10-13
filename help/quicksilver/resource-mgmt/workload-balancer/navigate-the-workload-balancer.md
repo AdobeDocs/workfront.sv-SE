@@ -6,9 +6,9 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ Tänk på följande när du visar arbetsbelastningsutjämnaren:
 
   >[!NOTE]
   >
-  >* Arbetsobjekt som tilldelats en jobbroll eller ett team, och som även tilldelats en användare som är primär tilldelad, visas inte i området Ej tilldelat arbete.
-  >* Arbetsobjekt som tilldelats en användare och en jobbroll, där jobbrollen väljs som primär tilldelad för artikeln, visas i området Ej tilldelat arbete.
+  >* Arbetsobjekt som tilldelats en jobbroll eller ett team, och som även tilldelats en användare som är den primära tilldelaren, visas både i området Ej tilldelat arbete och under den tilldelade användarens namn i området Tilldelat arbete.
+  >* Arbetsobjekt som har tilldelats en användare och en jobbroll, där jobbrollen har valts som primär tilldelare för artikeln, visas i området Ej tilldelat arbete.
   >* Arbetsobjekt som tilldelats till mer än en användare visas under alla de tilldelade användarnas namn på området Tilldelat arbete.
+
+  Mer information finns i Uppdragsområden i Utjämning av arbetsbelastning i [Översikt över tilldelning av arbete i belastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * När ett projekt inte har några uppgifter under en tidsperiod blir fältet på projektnivå en nedtonad färg.
 
