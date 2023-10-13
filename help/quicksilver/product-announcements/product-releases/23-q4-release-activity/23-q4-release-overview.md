@@ -4,7 +4,7 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 0%
@@ -131,7 +131,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Underuppgifter finns nu på Adobe Workfront Boards</a></p><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span><p>När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla befintliga underaktiviteter till kortet. När du skapar en underaktivitet på ett anslutet kort läggs en underaktivitet till i Workfront-aktiviteten.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Underuppgifter finns nu på Adobe Workfront Boards</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla befintliga underaktiviteter till kortet. När du skapar en underaktivitet på ett anslutet kort läggs en underaktivitet till i Workfront-aktiviteten.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>

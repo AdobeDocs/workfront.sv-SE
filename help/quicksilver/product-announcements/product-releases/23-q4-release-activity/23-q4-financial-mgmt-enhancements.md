@@ -3,9 +3,9 @@ title: Förbättringar av den ekonomiska förvaltningen för fjärde kvartalet 2
 description: Förbättringar av den ekonomiska förvaltningen för fjärde kvartalet 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,5 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 Giltig kostnad och faktureringstariffer är nu tillgängliga för företagets, användarens och jobbrollens objekt i Workfront. När gällande datumsatser tillämpas på ett projekt, och timmar loggas på projektuppgifter, beräknas kostnader och intäkter med hjälp av de angivna tarifferna för varje tidsperiod.
 
 Mer information finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Skapa och hantera jobbroller](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)och [Översikt över fakturering och intäkt](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3424915/){target=_blank}
