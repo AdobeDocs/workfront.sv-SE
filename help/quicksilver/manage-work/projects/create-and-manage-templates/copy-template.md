@@ -6,9 +6,9 @@ description: I stället för att skapa en ny projektmall från grunden kan du ko
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -39,12 +39,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter i en mall</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller ge högre behörighet till en mall</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
+
+## Att tänka på när du kopierar mallar
+
+Följande objekt kopieras alltid från ett befintligt projekt till ett nytt:
+
+* Malluppgifter
+* Standardinformation för mallaktivitet (process för standardgodkännande av aktivitet, anpassad Forms för standarduppgift)
+* Egna formulär
+* Risker
+* Information om köinställningar
+* Portfolio och programmet
+* Godkännanden
+* Dokument
+* Dagarna för de ursprungliga malluppgifterna överförs till den nya mallen. Du måste ändra mallens start- eller slutförandedag (beroende på schemaläge) för att uppdatera de dagar som malluppgifterna gäller, om det behövs.
+
+Följande objekt kopieras aldrig från ett befintligt projekt till ett nytt:
+
+* Faktureringstaxor
+* Användarkommentarer
 
 ## Kopiera en mall
 
@@ -54,5 +74,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Som standard är det nya namnet **Kopia av `<original template name>`.**
 
-1. Välj om du vill **Bevara användartilldelningar för uppgifter och mallar**: Välj det här alternativet om du vill överföra alla uppgifter och malltilldelningar från den ursprungliga mallen till den nya mallen.
+1. Välj om du vill **Bevara användartilldelningar för uppgifter och mallar**: välj det här alternativet om du vill överföra alla uppgifter och malltilldelningar från den ursprungliga mallen till den nya mallen.
 1. Klicka **Spara** om du vill skapa en kopia av mallen.

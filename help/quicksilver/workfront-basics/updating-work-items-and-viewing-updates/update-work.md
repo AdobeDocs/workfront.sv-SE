@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '3550'
+source-wordcount: '3606'
 ht-degree: 0%
 
 ---
@@ -268,7 +268,12 @@ Information om vilka funktioner som är tillgängliga för den nya kommentarsfun
 1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
 1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png)  <span class="preview">i kommentarens övre högra hörn</span>och sedan klicka **Redigera**.
 1. Redigera informationen i kommentaren, lägg till eller ta bort bilder eller ta bort någon av de taggade användarna.
-Du kan redigera din kommentar inom 15 dagar från det att du har skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren angavs.
+Du kan bara redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren angavs.
+
+   >[!TIP]
+   >
+   >Kommentarer från det aktuella året visar inte året i datumstämpeln. Om du hovrar över en tidsstämpel visas hela datumet, inklusive året.
+
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -276,7 +281,8 @@ Du kan redigera din kommentar inom 15 dagar från det att du har skickat in den.
    >
    >* Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
    >* Datumstämpeln bredvid kommentaren är datumet för den ursprungliga kommentaren, inte datumet för den senaste redigeringen.
-   >* Kommentarer från det aktuella året visar inte året i datumstämpeln. Om du hovrar över en tidsstämpel visas hela datumet, inklusive året.
+   >* När du skickar en kommentar för en annan användares räkning (när du loggar in som en annan användare som Workfront- eller gruppadministratör) kan du inte redigera kommentaren om du är inloggad som den andra användaren. Du kan bara redigera kommentaren efter att du har loggat ut som användare och loggat in som du själv.
+
 
 1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-8 ovan. <!--(**************insure this stays accurate***********)--> Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 

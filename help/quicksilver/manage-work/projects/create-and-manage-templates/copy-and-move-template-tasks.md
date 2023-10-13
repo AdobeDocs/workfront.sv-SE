@@ -5,13 +5,13 @@ title: Kopiera och flytta malluppgifter
 description: Du kan kopiera eller flytta en malluppgift till samma mall eller till en annan mall.
 author: Alina
 feature: Work Management
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
-
 
 # Kopiera och flytta malluppgifter
 
@@ -54,6 +54,12 @@ Tänk på följande när du kopierar en malluppgift:
 
 * Delmål överförs inte till den kopierade eller flyttade mallaktiviteten.
 
+* Underaktiviteter överförs till den nya malluppgiften.
+* Anpassade formulär kopieras med mallåtgärden. Informationen i de anpassade fälten överförs endast till den nya malluppgiften när du väljer att kopiera anpassade data.
+* Du kan välja att kopiera vissa objekt som är associerade med malluppgiften till den kopierade uppgiften under kopieringsprocessen. Som standard överförs dock inte följande objekt till den kopierade uppgiften:
+
+   * Användarkommentarer
+
 * Du kan kopiera en malluppgift i följande områden i Adobe Workfront webbprogram:
 
    * På mallens aktivitetsnivå kan du gå till **Mer-ikon** ![](assets/more-icon.png) till höger om mallens uppgiftsnamn.
@@ -64,7 +70,7 @@ Tänk på följande när du kopierar en malluppgift:
 ## Kopiera malluppgifter
 
 1. Gå till mallen som innehåller malluppgiften eller malluppgifterna som du vill kopiera.
-1. Klicka **Malluppgifter** i den vänstra panelen.
+1. Klicka **Malluppgifter** till vänster.
 1. Gör något av följande:
    * Klicka på namnet på en malluppgift för att öppna den.
    * Markera en eller flera malluppgifter i listan.
@@ -79,14 +85,14 @@ Rutan Kopiera malluppgift öppnas.
 
 1. Börja skriva namnet på **Målmall** där du vill kopiera malluppgiften i **Välj målmall** markerar du det när det visas i listan.
 
-   Det aktuella mallnamnet visas som standard. Om du vill kopiera malluppgiften inom samma mall lämnar du fältet oförändrat.
+   Det aktuella mallnamnet visas som standard. Om du vill kopiera malluppgiften inom samma mall lämnar du det här fältet oförändrat.
 
    >[!TIP]
    >
    >Du kan också börja skriva referensnumret eller ange ID:t för mallen. Det kan hjälpa dig att skilja mellan mallar med identiska namn.
 
 1. (Villkorligt) Klicka **begära åtkomst** om du vill begära åtkomst till målmallen, om du inte har åtkomst till den valda mallen.
-1. (Villkorligt) Fortsätt att kopiera malluppgiften till den valda målmallen utan att begära åtkomst om du har tillgång till att lägga till malluppgifter till någon av malluppgifterna i målmallen.
+1. (Villkorligt) Fortsätt att kopiera malluppgiften till den valda målmallen utan att begära åtkomst om du har tillgång till att lägga till malluppgifter i någon av malluppgifterna i målmallen.
 
 1. Klicka **Alternativ** i den vänstra panelen avmarkerar du de malluppgiftsattribut som du inte vill kopiera med malluppgiften. Alla alternativ är markerade som standard.
 
@@ -116,7 +122,7 @@ Rutan Kopiera malluppgift öppnas.
       <li> Måste börja på</li>
       <li> Måste avslutas</li>
       <li> Starta tidigast</li>
-      <li> Starta inte senare än</li>
+      <li> Starta senast</li>
       </ul>
      </td> 
      </tr> 
@@ -135,7 +141,7 @@ Rutan Kopiera malluppgift öppnas.
      </tr>
      <tr> 
       <td role="rowheader">Anpassade data</td> 
-      <td> <p>Värdena för anpassade fält rensas och de anpassade formulären överförs till den kopierade malluppgiften. </p> <p>När du väljer det här alternativet överförs både formulären och värdena för de anpassade fälten till den kopierade malluppgiften. </p> </td> 
+      <td> <p>Värdena för de anpassade fälten rensas och de anpassade formulären överförs till den kopierade malluppgiften. </p> <p>När du väljer det här alternativet överförs både formulären och värdena för de anpassade fälten till den kopierade malluppgiften. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ekonomisk information</td> 
@@ -159,7 +165,7 @@ Rutan Kopiera malluppgift öppnas.
     </tbody> 
    </table>
 
-(FRÅGA OM DEN SISTA RADEN: MALLUPPGIFTEN VERKAR INTE HA DELNING.)
+(FRÅGA OM DEN SISTA RADEN: MALLUPPGIFTEN VERKAR INTE HA &quot;DELA&quot;)
 
 1. (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen väljer du sedan den mallåtgärd i målmallen som du vill ska vara överordnad den kopierade malluppgiften.
 
@@ -189,7 +195,7 @@ Förutom att kopiera malluppgifter kan du även flytta en malluppgift antingen t
 
 
 1. Gå till mallen som innehåller malluppgiften eller malluppgifterna som du vill flytta.
-1. Klicka **Malluppgifter** i den vänstra panelen.
+1. Klicka **Malluppgifter** till vänster.
 1. Gör något av följande:
    * Klicka på namnet på en malluppgift för att öppna den.
    * Markera en eller flera malluppgifter i listan.
@@ -219,7 +225,6 @@ Rutan Flytta malluppgift öppnas.
    >* Alternativavsnittet är bara tillgängligt när du har valt en målmall.
    >* Avmarkera **Markera alla** avmarkerar alla alternativ.
 
-
    Avmarkera följande alternativ om du inte vill överföra informationen till den flyttade malluppgiften. I följande tabell beskrivs vad som händer när alternativen avmarkeras:
 
    <table style="table-layout:auto"> 
@@ -243,7 +248,7 @@ Rutan Flytta malluppgift öppnas.
       <li> Starta den</li>
       <li> Måste avslutas</li>
       <li> Starta tidigast</li>
-      <li> Starta inte senare än</li>
+      <li> Starta senast</li>
       </ul>
 
 
@@ -264,7 +269,7 @@ Rutan Flytta malluppgift öppnas.
      </tr>
      <tr> 
       <td role="rowheader">Anpassade data</td> 
-      <td> <p>Värdena för anpassade fält rensas och de anpassade formulären överförs med den flyttade mallaktiviteten. </p> <p>När du väljer det här alternativet överförs både formulären och värdena för de anpassade fälten med den flyttade malluppgiften. </p> </td> 
+      <td> <p>Värdena för de anpassade fälten rensas och de anpassade formulären överförs med den flyttade mallaktiviteten. </p> <p>När du väljer det här alternativet överförs både formulären och värdena för de anpassade fälten med den flyttade malluppgiften. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ekonomisk information</td> 
@@ -295,7 +300,7 @@ Rutan Flytta malluppgift öppnas.
     </tbody> 
    </table>
 
-(FRÅGA OM DEN SISTA RADEN: MALLUPPGIFTEN VERKAR INTE HA DELNING.)
+(FRÅGA OM DEN SISTA RADEN: MALLUPPGIFTEN VERKAR INTE HA &quot;DELA&quot;)
 
 1. (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen väljer du sedan den mallåtgärd i målmallen som du vill ska vara överordnad den flyttade malluppgiften.
 
@@ -317,5 +322,3 @@ Rutan Flytta malluppgift öppnas.
 1. Klicka **Flytta malluppgift**.
 
    De flyttade malluppgifterna finns nu i den angivna mallen och är antingen underuppgifter till den valda överordnade malluppgiften eller de senaste malluppgifterna i mallen.
-
-

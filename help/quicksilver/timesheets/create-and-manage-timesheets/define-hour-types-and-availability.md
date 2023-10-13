@@ -6,9 +6,9 @@ description: En timtyp är en etikett som du kan använda för att kategorisera 
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Det finns två uppsättningar timtyper i Adobe Workfront:
 * **Allmänna timmar:** Timmar som inte är kopplade till ett projekt, t.ex. sjuktid eller administration. Du kan bara logga allmänna timmar på tidrapporten.
 * **Projektspecifika timmar:** Timmar som är inloggade på projekt, uppgifter och problem. Du kan logga projektspecifika timmar från alla platser där du kan logga tid.
 
-När du loggar in i Workfront beror de projektspecifika timtyperna som är tillgängliga på de konfigurationsalternativ som ställs in på system-, projekt- och användarnivå. (Följande standardtyper av projektspecifika timmar är alltid tillgängliga: Projekttid, Aktivitetstid och Utfärdandetid.)
+När du loggar in i Workfront beror de projektspecifika timtyperna som är tillgängliga på de konfigurationsalternativ som ställs in på system-, projekt- och användarnivå. (Följande standardtyper av projektspecifika timmar är alltid tillgängliga: Projekttid, Aktivitetstid och Utgivningstid.)
 
 De timtyper som är tillgängliga att välja när loggningstiden (i projekt, uppgifter och ärenden) bestäms först av de timtyper som systemadministratören gör tillgängliga, och sedan av de timtyper som valts på projekt- och användarnivå.
 
@@ -61,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Definiera tillgänglighet på systemnivå
 
-Systemadministratören avgör vilka projektspecifika timtyper som blir tillgängliga i hela systemet enligt beskrivningen i [Hantera timtyper](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) avsnitt i  [Hantera timtyper](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+Systemadministratören avgör vilka projektspecifika timtyper som blir tillgängliga i hela systemet enligt beskrivningen i [Hantera timtyper](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Definiera tillgänglighet på projektnivå {#define-availability-at-the-project-level}
 
@@ -93,7 +93,7 @@ Om du gör en timtyp tillgänglig på användarnivå enligt beskrivningen i det 
 
 Så här definierar du de timtyper som är tillgängliga för en användare:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka på din avatar i det övre vänstra hörnet.
 1. Klicka på **Mer** -menyn bredvid användarnamnet och klicka sedan på **Redigera**.
@@ -102,11 +102,30 @@ Så här definierar du de timtyper som är tillgängliga för en användare:
 1. I **Resursplanering** i **Tillgängliga timtyper** gör något av följande, beroende på vilka timtyper du vill göra tillgängliga när du loggar in på ett projekt, en uppgift eller ett problem:
 
    * **Så här gör du alla timtyper tillgängliga för användaren:** Markera alla timtyper.\
-      Om du låter alla timtyper vara omarkerade är detta tekniskt detsamma som att välja alla timtyper. I det här fallet är dock alla timtyper tillgängliga för användaren endast i projekt, uppgifter och ärenden där **Nej** är markerat i **Timtyper för filter** vid redigering av projektet, enligt beskrivningen i [Definiera tillgänglighet på projektnivå](#define-availability-at-the-project-level).
+     Om du låter alla timtyper vara omarkerade är detta tekniskt detsamma som att välja alla timtyper. I det här fallet är dock alla timtyper tillgängliga för användaren endast i projekt, uppgifter och ärenden där **Nej** är markerat i **Timtyper för filter** vid redigering av projektet, enligt beskrivningen i [Definiera tillgänglighet på projektnivå](#define-availability-at-the-project-level).
    * **Så här gör du bara en delmängd av timtyperna tillgängliga för användaren:** Välj bara de timtyper som du vill göra tillgängliga.
 
-      För att timtyperna som du väljer på användarnivå ska vara tillgängliga för projekt, uppgifter och ärenden måste samma timtyper också väljas i **Timtyper för filter** vid redigering av projektet, enligt beskrivningen i [Definiera tillgänglighet på projektnivå](#define-availability-at-the-project-level).
+     För att timtyperna som du väljer på användarnivå ska vara tillgängliga för projekt, uppgifter och ärenden måste samma timtyper också väljas i **Timtyper för filter** vid redigering av projektet, enligt beskrivningen i [Definiera tillgänglighet på projektnivå](#define-availability-at-the-project-level).
 
 1. Klicka **Spara ändringar**.
 
    När du loggar timmar i ett projekt, en uppgift eller ett ärende är de timtyper du väljer tillgängliga om samma timtyper har gjorts tillgängliga på projektnivå.
+
+
+## Hur timtyper på användarnivå och projektnivå fungerar tillsammans
+
+I följande lista beskrivs vilka timtyper som visas för ett objekt efter att du har anpassat och filtrerat timtyper på både användarnivå och projektnivå:
+
+* När du öppnar ett objekt för att logga tid visar listrutan Timtyp som standard de standardtimtyper som är kopplade till användaren. Det här inträffar när du inte har anpassat timtyperna.
+
+* När du har anpassat timtyper och definierat tillgängliga timtyper för användaren eller filtrerat timtyper för ett projekt finns följande scenarier:
+
+   * Om du valde alla timtyper för fältet Tillgänglig timtyp i din användarprofil och projektets timtyper inte filtreras, visas alla tillgängliga timtyper när du loggar tid.
+   * Om du bara har valt en delmängd av timtyper för fältet Tillgänglig timtyp i din användarprofil och projektets timtyper inte filtreras, visas endast användarens timtyper när du loggar tid.
+   * Om du har valt alla timtyper för fältet Tillgänglig timtyp i din användarprofil och projektets timtyper har filtrerats, visas endast projektets timtyper och standardtimtyper som Projekttid, Aktivitetstid, Utgivningstid beroende på objektet.
+   * Om du bara valde en delmängd av timtyperna för fältet Tillgänglig timtyp i din användares profil och projektets timtyper filtreras, visas bara de timtyper som är gemensamma för användaren och projektet. Om inga timtyper är gemensamma för användaren och projektet visas endast standardtimtyperna (Projekttid, Aktivitetstid, Utgivningstid).
+
+>[!TIP]
+>
+>   Om du väljer en annan timtyp i stället för standardtimtypen för ett objekt, kommer timtypen att klistras in. Nästa gång du loggar in på samma objekt blir timtypen automatiskt den som du senast valde.
+

@@ -6,9 +6,9 @@ description: Du kan kopiera en utgåva eller en förfrågan och spara dem i samm
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan kopiera en utgåva eller en förfrågan och spara dem i samma eller ett a
 Du kan kopiera utgåvor från följande objekt:
 
 * Från ett projekt till samma projekt (duplicera det i samma projekt)
-* Från en uppgift till samma uppgift (dubblett om samma uppgift används)
+* Från en uppgift till samma uppgift (duplicera om den finns i samma uppgift)
 * Från ett projekt till ett annat projekt
 * Från en uppgift till ett projekt
 
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> <p>Granska eller högre licens för att kopiera ett problem i avsnittet Problem i ett projekt.</p> </td> 
+   <td> <p>Begäran eller senare</p> <p>Granska eller högre licens för att kopiera en utgåva i avsnittet Problem i ett projekt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå*</td> 
@@ -57,13 +57,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Att tänka på vid problem som är kopplade till dokument eller begärandeköer
+## Att tänka på när du kopierar problem
+
+### Allmänna överväganden vid kopiering av problem
+
+Du kan välja att kopiera vissa objekt som är kopplade till utgåvan till den kopierade utgåvan under kopieringsprocessen. Vissa objekt överförs dock som standard till den nya utgåvan, medan andra inte gör det, vilket beskrivs i listorna nedan.
+
+Följande objekt kopieras som standard till den nya utgåvan:
+
+* Primär kontakt
+* Anpassade formulär. Informationen i de anpassade fälten kopieras endast till den nya utgåvan när du väljer Anpassade data i kopieringsprocessen.
+* Godkännanden
+* Planerade startdatum och planerade slutförandedatum
+
+Följande objekt kopieras inte till den nya utgåvan som standard:
+
+* Inloggade timmar
+
+### Att tänka på vid problem som rör dokument eller begärandeköer
 
 Tänk på följande när du kopierar problem som innehåller dokument eller är kopplade till en begärandekö:
 
 * **När ett problem är kopplat till en begärandekö:** När du kopierar en utgåva till ett annat objekt och utgåvan är kopplad till en begärandekö, är den kopierade utgåvan inte längre kopplad till den ursprungliga kön som den första utgåvan kom från.
-* **När ett dokument bifogas till utgåvan:** När du kopierar en utgåva till ett annat objekt och utgåvan har ett bifogat dokument, flyttas även dokumentet och dess versioner till den nya utgåvan. Eventuella korrektur eller godkännanden som är kopplade till dokumentet flyttas inte.
-* **När ett problem är länkat till ett dokument eller en mapp:** När du kopierar ett ärende som har dokument eller mappar länkade till en tredjepartstjänst som Google Drive, överförs länkarna till dokumenten till den kopierade utgåvan. 
+* **När ett dokument bifogas till utgåvan:** När du kopierar en utgåva till ett annat objekt och utgåvan har ett bifogat dokument, flyttas även dokumentet och dess versioner till den nya utgåvan. Eventuella korrektur eller godkännanden som är kopplade till dokumentet flyttas inte.
+* **När ett problem är länkat till ett dokument eller en mapp:** När du kopierar ett ärende som har dokument eller mappar länkade till en tredjepartstjänst som Google Drive, överförs länkarna till dokumenten till den kopierade utgåvan.
 
 ## Kopiera utgåvor i en lista
 
@@ -75,7 +92,7 @@ Du kan kopiera en eller flera utgåvor från en lista med utgåvor eller från e
 
    Gå till en problemrapport.
 
-1. Om du valde att gå till ett projekt klickar du på **Problem** i den vänstra panelen.
+1. Om du valde att gå till ett projekt klickar du på **Problem** till vänster.
 1. Markera det eller de problem som du vill kopiera och klicka på **Menyn Mer** överst i problemlistan klickar du på **Kopiera till**.
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
@@ -84,7 +101,7 @@ Du kan kopiera en eller flera utgåvor från en lista med utgåvor eller från e
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE:&nbsp;ensure step number stays accurate)
+   (NOTE: ensure step number stays accurate)
    </MadCap:conditionalText>
    -->
 
@@ -106,19 +123,20 @@ Du kan kopiera en utgåva när du visar den.
    >
    >Endast 100 projekt visas i listan.
 
-1. (Villkorligt) Klicka **begära åtkomst** om du inte har tillgång till kopieringsutgåvor av projektet.
+1. (Villkorligt) Klicka **begära åtkomst** om du inte har tillgång till kopieringsutgåvor av projektet.
 1. (Villkorligt) Fortsätt att kopiera utgåvan till det valda målprojektet utan att begära åtkomst om du har tillgång till att lägga till utgåvor till någon av åtgärderna i målprojektet.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Liknande meddelanden visas om det valda projektet väntar på godkännande, är slutfört eller är inaktivt, när Workfront-administratören förhindrar att det uppstår problem i dessa projekt. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Liknande meddelanden visas om det valda projektet väntar på godkännande, är slutfört eller är inaktivt, när Workfront-administratören förhindrar att det uppstår problem i dessa projekt. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. (Valfritt) I dialogrutan **Alternativ** avmarkerar du något av objekten i tabellen nedan för att ta bort dem från den nya utgåvan. Alla alternativ är markerade som standard.
 
    >[!NOTE]
-   Detta påverkar bara de kopierade utgåvorna och inte de ursprungliga utgåvorna.
+   >
+   >Detta påverkar bara de kopierade utgåvorna och inte de ursprungliga utgåvorna.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -130,7 +148,7 @@ Du kan kopiera en utgåva när du visar den.
      </tr> 
      <tr> 
       <td role="rowheader">Förlopp</td> 
-      <td>Tar bort procent slutfört, om någon, av utgåvan. </td> 
+      <td>Tar bort procent slutfört, om någon, av utgåvan.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dokument</td> 
@@ -146,7 +164,7 @@ Du kan kopiera en utgåva när du visar den.
      </tr> 
      <tr> 
       <td role="rowheader">Anpassade data</td> 
-      <td>Tar bort informationen från det anpassade formuläret i frågan, samt informationen om anpassade formulär som är kopplade till dokument som är kopplade till problemet, om de också kopieras med problemet. De anpassade formulären förblir kopplade till problemen och dokumenten, men informationen i formulären kommer inte att överföras till den nya utgåvan. </td> 
+      <td>Tar bort informationen från det anpassade formuläret i frågan, samt informationen om anpassade formulär som är kopplade till dokument som är kopplade till problemet, om de också kopieras med problemet. De anpassade formulären förblir kopplade till problemen och dokumenten, men informationen i formulären kommer inte att överföras till den nya utgåvan. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -156,4 +174,4 @@ Du kan kopiera en utgåva när du visar den.
 
    De kopierade utgåvorna läggs till i det angivna projektet.
 
- 
+

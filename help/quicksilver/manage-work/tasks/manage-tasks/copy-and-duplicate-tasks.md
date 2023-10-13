@@ -6,9 +6,9 @@ description: Du kan kopiera en uppgift från ett projekt till ett annat projekt,
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -85,9 +85,14 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Tänk på följande när du kopierar en uppgift:
 
-* Problem kopieras inte med uppgiften.
 * Milstolpar överförs till den kopierade aktiviteten och tas bort från den ursprungliga aktiviteten.
 * När du kopierar en uppgift från ett projekt till ett annat kan uppgiftsdatumen beräknas om. Omberäkningen tar hänsyn till den tidsplan som det nya projektet använder och projektets Schedule From-information.
+* Underaktiviteter överförs till den nya aktiviteten.
+* Anpassade formulär kopieras med uppgiften. Informationen i de anpassade fälten överförs endast till de kopierade uppgifterna när du väljer att kopiera anpassade data när du kopierar uppgiften.
+* Du kan välja att kopiera vissa objekt som är associerade med uppgiften till den kopierade uppgiften under kopieringsprocessen. Som standard överförs dock inte följande objekt till den kopierade uppgiften:
+   * Problem
+   * Inloggade timmar
+   * Användarkommentarer <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 Du kan kopiera en uppgift i följande områden i Adobe Workfront webbprogram:
 
@@ -113,7 +118,7 @@ Du kan kopiera en uppgift i följande områden i Adobe Workfront webbprogram:
 
    Gå till en uppgiftsrapport.
 
-1. Klicka **Uppgifter** i den vänstra panelen.
+1. Klicka **Uppgifter** till vänster.
 1. Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) sedan **Spara automatiskt**.
 
    >[!IMPORTANT]
@@ -189,7 +194,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
     <tbody> 
      <tr> 
       <td role="rowheader">Begränsning</td> 
-      <td> <p>Aktivitetsbegränsningen anges till Så snart som möjligt eller Sent som möjligt baserat på inställningen för projektschemaläge.</p> <p> När du väljer det här alternativet överförs den aktuella begränsningen av uppgiften till den kopierade uppgiften. </p> <p>Obs! När du flyttar eller kopierar en uppgift med datumspecifika begränsningar till ett annat projekt och villkorsdatumen för aktiviteten ligger utanför datumen för det nya projektet, ändras antingen aktivitetsbegränsningen till Så snart som möjligt eller Sent som möjligt eller så justeras datumen för planerad start eller planerad slutförning för projekten. Exempel på datumspecifika begränsningar är Måste starta, Måste sluta den, Starta inte tidigare än, Starta inte senare än, osv. Mer information om uppgiftsbegränsningar och hur uppgiftsbegränsningar och projektdatum kan påverkas finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a> och leta efter en viss begränsning.</p> </td> 
+      <td> <p>Aktivitetsbegränsningen anges till Så snart som möjligt eller Sent som möjligt baserat på inställningen för projektschemaläge.</p> <p> När du väljer det här alternativet överförs den aktuella begränsningen av uppgiften till den kopierade uppgiften. </p> <p>Obs! När du flyttar eller kopierar en uppgift med datumspecifika begränsningar till ett annat projekt och villkorsdatumen för aktiviteten ligger utanför datumen för det nya projektet, ändras antingen aktivitetsbegränsningen till Så snart som möjligt eller Så sent som möjligt, eller så justeras datumen för planerad start eller planerad slutförning för projekten. Exempel på datumspecifika begränsningar är Måste starta, Måste sluta den, Starta inte tidigare än, Starta inte senare än, osv. Mer information om uppgiftsbegränsningar och hur uppgiftsbegränsningar eller projektdatum kan påverkas finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a> och leta efter en viss begränsning.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Uppdrag</td> 
@@ -229,7 +234,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
      </tr> 
      <tr> 
       <td role="rowheader">Anpassade data</td> 
-      <td> <p>Värdena för anpassade fält rensas och de anpassade formulären överförs till den kopierade uppgiften. </p> <p>När du väljer det här alternativet överförs både formulären och värdena för de anpassade fälten till den kopierade uppgiften. </p> </td> 
+      <td> <p>Värdena för de anpassade fälten rensas och de anpassade formulären överförs till den kopierade uppgiften. </p> <p>När du väljer det här alternativet överförs både formulären och värdena för de anpassade fälten till den kopierade uppgiften. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -251,7 +256,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 
 1. Markera alternativknappen för den överordnade när du har hittat den. 
 
-   Om du inte väljer en överordnad uppgift kopieras uppgifterna som huvuduppgifter i stället för underuppgifter och placeras i slutet av uppgiftslistan i målprojektet. 
+   Om du inte väljer en överordnad uppgift kopieras uppgifterna som huvuduppgifter i stället för underaktiviteter, och de placeras i slutet av uppgiftslistan i målprojektet. 
 
 1. Klicka **Kopiera uppgift**
 
@@ -292,7 +297,7 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
 ### Duplicera uppgifter
 
 1. Gå till det projekt som innehåller uppgiften eller aktiviteterna som du vill duplicera.
-1. Klicka **Uppgifter** i den vänstra panelen.
+1. Klicka **Uppgifter** till vänster.
 1. Gör något av följande:
 
    * (Villkorligt) Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara automatiskt**, markerar de uppgifter du vill duplicera och klickar sedan på **Menyn Mer** ![](assets/qs-more-menu-29x11.png) > **Duplicera**.
