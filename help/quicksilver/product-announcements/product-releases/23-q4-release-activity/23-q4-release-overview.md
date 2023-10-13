@@ -4,9 +4,9 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -285,6 +285,25 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Delegera arbetsknapp för widgetarna Projekt, Uppgift och Problem</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>En vanlig efterfrågad funktion på den gamla hemsidan är att vi nu har lagt till en delegatknapp i widgetarna Mitt arbete, Mina uppgifter och Mina problem så att du enkelt kan delegera arbete när du inte är på kontoret.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 12 oktober 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 23.10</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för bokrutor för nytt hem</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>

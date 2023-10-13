@@ -3,9 +3,9 @@ title: Förbättringar av startsidan för fjärde kvartalet 2023
 description: Förbättringar av startsidan för fjärde kvartalet 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 Den här sidan beskriver alla förbättringar av Home som gjorts i den fjärde utgåvan av kvartal 2023 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.10.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns på [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Delegera arbetsknapp för widgetarna Projekt, Uppgift och Problem
+
+En vanlig efterfrågad funktion på den gamla hemsidan är att vi nu har lagt till en delegatknapp i widgetarna Mitt arbete, Mina uppgifter och Mina problem så att du enkelt kan delegera arbete när du inte är på kontoret. På delegatmenyn, som fungerar på samma sätt som den gjorde före Nytt hem, kan du välja till vem och under hur lång tid du vill delegera dina artiklar och utgåvor. Observera att delegering av arbete måste vara aktiverat i din Workfront-miljö för att knappen ska visas.
+
+Mer information om delegering i Workfront finns i [Hantera delegering av uppgifter och utgåvor](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## Ny widget för bokrutor för nytt hem
 
