@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Att tänka på när du redigerar poster
 
 * Du kan redigera poster som du eller någon annan användare har skapat. <!--will change with access levels-->
-* Om de redigerade posterna är länkade till andra poster återspeglas den nya informationen om de poster som du redigerar på de länkade posterna.
+* Du kan inte redigera fält som är länkade från andra poster eller fält som innehåller beräkningar.
+* Om de poster som du visar är länkade till andra poster, återspeglas den nya informationen om de poster som du redigerar på de länkade posterna.
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
-* Du kan inte redigera fält som är länkade från andra poster.
+* URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
+* Du kan använda följande formateringsalternativ för RTF när du redigerar ett stycketextfält:
+
+   * Fet
+   * Kursiv
+   * Understruken
+   * Lägg till en länk
+   * Lägga till en punktlista
+   * Lägga till en numrerad lista
 
 ## Redigera poster
 
@@ -99,9 +108,11 @@ Du kan redigera en post i följande områden:
 
 ### Redigera en post från postens informationssida
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på Makestro.
+1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro**.
 
    Arbetsytan som du öppnar senast öppnas.
+
+1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
 1. Gör något av följande:
 
    * Klicka på en posts namn i en tabellvy.
@@ -120,11 +131,6 @@ Du kan redigera en post i följande områden:
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    Länkade fält eller fält som innehåller beräkningar eller som genereras av systemet kan inte redigeras.
-
-
 1. Klicka **Spara ändringar**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### Redigera en post från posttyptabellvyn
@@ -132,24 +138,15 @@ Du kan redigera en post i följande områden:
 1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> klicka sedan på **Maestro** ![](assets/maestro-icon.png).
 
    Arbetsytan som du senast öppnade öppnas.
+
+1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
 1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
 
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
-1. Klicka inuti en post för att börja redigera information om posten och tryck sedan på **Retur** på tangentbordet för att spara ändringarna. Ändringarna sparas automatiskt.
+1. Klicka inuti en post för att börja redigera information om den infogade posten.
 
-   >[!TIP]
-   >
-   >* Länkade fält kan inte redigeras. Informationen för dessa fält fylls i automatiskt från de länkade posterna. Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
-   >
-   >* URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. Tryck **Retur** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt.

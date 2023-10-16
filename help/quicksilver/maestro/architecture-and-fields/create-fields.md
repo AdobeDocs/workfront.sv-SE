@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2828'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [Procent](#percentage)
    * [Valuta](#currency)
    * [Kryssruta](#checkbox)
-     <!--* [People](#people)-->
+   * [Folk](#people)
 
    >[!IMPORTANT]
    >
@@ -212,17 +212,13 @@ Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till e
 
 ### Stycke {#paragraph}
 
-Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar fältet Beskrivning. Innehållet i ett styckefält kan innehålla upp till 1 000 tecken.
-
-<!-- remove the last sentence above and add this tip when we go to rich text: 
+Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar fältet Beskrivning.
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
-
-* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
-
--->
+>* Innehållet i ett styckefält kan innehålla upp till 1 000 tecken.
+>
+>* Du kan använda RTF-formatering för att förbättra innehållet i styckefält när de visas i tabellvyn eller på detaljsidan för en post.
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Stycke** fälttyp.
 
@@ -394,23 +390,25 @@ Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en p
 
    Det nya kryssrutefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
 
-<!--
-### People
+### Folk
 
-You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
- 
-    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+Du kan använda fälttypen Personer för att lägga till en användare <!--, job role, or team--> till en post. Det här är ett typsnittsfält och du kan bara lägga till användare<!--, roles, or teams--> som redan finns i Workfront.
 
-1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**.
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Folk** fälttyp.
 
-    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+   ![](assets/people-field-type.png)
 
--->
+1. Lägg till följande information i **Nytt fält** tab:
+   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida.
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
+   * **Tillåt flera värden**: Välj det här alternativet om du vill tillåta användare att lägga till fler än en användare i det här fältet. Det här alternativet är som standard avmarkerat.
+
+   >[!NOTE]
+   >
+   >    Om du väljer Tillåt flera värden och flera användare lagras på de poster som fältet är kopplat till, kan du inte längre avmarkera inställningen när du redigerar det här fältet.
+1. Klicka **Skapa**.
+
+   Det nya fältet av typen Personer läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
 
 ## Skapa fält genom att länka posttyper tillsammans
 

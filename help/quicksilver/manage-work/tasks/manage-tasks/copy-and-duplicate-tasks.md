@@ -6,9 +6,9 @@ description: Du kan kopiera en uppgift från ett projekt till ett annat projekt,
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -85,30 +85,18 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Tänk på följande när du kopierar en uppgift:
 
-* Milstolpar överförs till den kopierade aktiviteten och tas bort från den ursprungliga aktiviteten.
 * När du kopierar en uppgift från ett projekt till ett annat kan uppgiftsdatumen beräknas om. Omberäkningen tar hänsyn till den tidsplan som det nya projektet använder och projektets Schedule From-information.
-* Underaktiviteter överförs till den nya aktiviteten.
 * Anpassade formulär kopieras med uppgiften. Informationen i de anpassade fälten överförs endast till de kopierade uppgifterna när du väljer att kopiera anpassade data när du kopierar uppgiften.
 * Du kan välja att kopiera vissa objekt som är associerade med uppgiften till den kopierade uppgiften under kopieringsprocessen. Som standard överförs dock inte följande objekt till den kopierade uppgiften:
    * Problem
    * Inloggade timmar
-   * Användarkommentarer <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * Användarkommentarer <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* Följande objekt flyttas som standard till den kopierade uppgiften:
 
-Du kan kopiera en uppgift i följande områden i Adobe Workfront webbprogram:
+   * Milstolpar överförs till den kopierade aktiviteten och tas bort från den ursprungliga aktiviteten.
+   * Underaktiviteter överförs till den nya aktiviteten.
 
-* På aktivitetsnivå från **Mer-ikon** ![](assets/qs-more-menu-19x7.png) till höger om aktivitetsnamnet.
-
-  Mer information finns i [Kopiera en uppgift på aktivitetsnivå](#copy-a-task-at-the-task-level) i den här artikeln.
-
-* Gör något av följande i en uppgiftslista:
-
-   * Högerklicka på namnet på en uppgift.
-   * Markera uppgiften (eller aktiviteterna) och expandera **Mer** icon ![](assets/more-icon-task-list.png) högst upp i uppgiftslistan.
-   * Välj en uppgift och utöka **Mer** icon ![](assets/more-icon-task-list.png) bredvid aktivitetsnamnet.
-
-     Det här alternativet är inte tillgängligt när du markerar flera uppgifter.
-
-  Mer information finns i [Kopiera uppgifter i en lista](#copy-tasks-in-a-list) i den här artikeln.
+* Du kan kopiera en uppgift åt gången eller kopiera flera uppgifter åt gången när du redigerar uppgifter i en lista.
 
 ## Kopiera uppgifter i en lista {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ Du kan kopiera en uppgift i följande områden i Adobe Workfront webbprogram:
 
    Gå till en uppgiftsrapport.
 
-1. Klicka **Uppgifter** till vänster.
+1. (Villkorligt) Klicka **Uppgifter** i den vänstra panelen, om du öppnade projektet som innehåller uppgifterna.
 1. Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) sedan **Spara automatiskt**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ Du kan kopiera en uppgift i följande områden i Adobe Workfront webbprogram:
 
    * Klicka på **Menyn Mer** överst i uppgiftslistan klickar du på **Kopiera till**.
    * Högerklicka på de markerade uppgifterna och klicka sedan på **Kopiera till**.
-   * När du markerar en uppgift klickar du på **Mer** meny ![](assets/more-icon-task-list.png) bredvid uppgiftsnamnet i listan och klicka sedan på **Kopiera till**.
+   * När du markerar en uppgift klickar du på **Mer** meny ![](assets/more-icon-task-list.png) bredvid uppgiftsnamnet i listan och klicka sedan på **Kopiera till**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Fortsätt med kopieringen av uppgiften enligt beskrivningen i avsnittet [Kopiera en uppgift på aktivitetsnivå](#copy-a-task-at-the-task-level) med början från steg 4.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## Kopiera en uppgift på aktivitetsnivå {#copy-a-task-at-the-task-level}
 
-Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en uppgift när du har öppnat den. 
+Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en uppgift när du har öppnat den.
 
 1. Hitta en uppgift i ditt Workfront-system genom att söka efter den.
-1. Klicka på namnet på uppgiften för att öppna den. 
+1. Klicka på namnet på uppgiften för att öppna den.
 1. Klicka på **Mer** nedrullningsbar meny ![](assets/qs-more-menu.png) bredvid namnet på uppgiften och klicka sedan på **Kopiera** **till**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Ange namnet på **Målprojekt** där du vill kopiera uppgiften i **Välj målprojekt** fält. 
+1. Ange namnet på **Målprojekt** där du vill kopiera uppgiften i **Välj målprojekt** fält.
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 
    Det aktuella projektnamnet visas som standard. Om du vill kopiera uppgiften inom samma projekt låter du det här fältet vara oförändrat.
 
-1. (Villkorligt) Klicka **begära åtkomst** om du vill begära åtkomst till projektet, om du inte har åtkomst till det valda projektet.
+1. (Villkorligt) Klicka **begära åtkomst** om du vill begära åtkomst till projektet, om du inte har åtkomst till det valda projektet.
 1. (Villkorligt) Fortsätt att kopiera uppgiften till det valda målprojektet utan att begära åtkomst om du har åtkomst till att lägga till uppgifter i någon av uppgifterna i målprojektet.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Liknande meddelanden visas om det valda projektet väntar på godkännande, är slutfört eller inte alls, när Workfront-administratören förhindrar att uppgifter läggs till i dessa projekt. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Liknande meddelanden visas om det valda projektet väntar på godkännande, är slutfört eller inte alls, när Workfront-administratören förhindrar att uppgifter läggs till i dessa projekt. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Klicka **Alternativ** i den vänstra panelen avmarkerar du de uppgiftsattribut du inte vill kopiera med uppgiften. Alla alternativ är markerade som standard.
+1. Klicka **Alternativ** i den vänstra panelen avmarkerar du de uppgiftsattribut du inte vill kopiera med uppgiften. Alla alternativ är markerade som standard.
 
    >[!TIP]
    >
-   Markera och avmarkera sedan **Markera alla** avmarkerar alla alternativ.
+   >Markera och avmarkera sedan **Markera alla** avmarkerar alla alternativ.
 
    Avmarkera följande alternativ om du inte vill överföra dem till den kopierade uppgiften. I följande tabell beskrivs vad som händer när alternativen avmarkeras:
 
@@ -239,24 +225,24 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
     </tbody> 
    </table>
 
-1.  (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen markerar du den uppgift i målprojektet som du vill ska vara överordnad den kopierade uppgiften.
+1. (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen markerar du den uppgift i målprojektet som du vill ska vara överordnad den kopierade uppgiften.
 
-   >[!TIP]
-   >
-   När du väljer att kopiera flera uppgifter i en lista blir alla markerade uppgifter underordnade den markerade överordnade.
+>[!TIP]
+>
+>När du väljer att kopiera flera uppgifter i en lista blir alla markerade uppgifter underordnade den markerade överordnade.
 
-   Välj en överordnad genom att göra något av följande:
+Välj en överordnad genom att göra något av följande:
 
-   * Välj en av de överordnade i projektplanen i uppgiftslistan.
-   * Klicka på sökikonen ![Ikonen Sök](assets/search-icon.png) och söka efter en överordnad uppgift efter namn.
+* Välj en av de överordnade i projektplanen i uppgiftslistan.
+* Klicka på sökikonen ![Ikonen Sök](assets/search-icon.png) och söka efter en överordnad uppgift efter namn.
 
-   Uppgiften ska visas i listan.
+Uppgiften ska visas i listan.
 
-   ![Välj överordnad uppgift när en uppgift flyttas med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![Välj överordnad uppgift när en uppgift flyttas med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. Markera alternativknappen för den överordnade när du har hittat den. 
+1. Markera alternativknappen för den överordnade när du har hittat den.
 
-   Om du inte väljer en överordnad uppgift kopieras uppgifterna som huvuduppgifter i stället för underaktiviteter, och de placeras i slutet av uppgiftslistan i målprojektet. 
+   Om du inte väljer en överordnad uppgift kopieras uppgifterna som huvuduppgifter i stället för underaktiviteter, och de placeras i slutet av uppgiftslistan i målprojektet.
 
 1. Klicka **Kopiera uppgift**
 
@@ -275,7 +261,6 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
 ### Att tänka på vid duplicering av uppgifter {#considerations-for-duplicating-tasks}
 
 * Du kan bara duplicera en uppgift i en uppgiftslista när listan sorteras efter uppgiftsnummer.
-
 * Den nya aktiviteten får samma namn som den ursprungliga aktiviteten.
 * Du kan inte välja vilken information som ska dupliceras till den nya uppgiften. Nästan all information från den ursprungliga aktiviteten överförs som standard till den duplicerade aktiviteten, inklusive den överordnade relationen.
 * Följande objekt överförs inte till den nya uppgiften:
@@ -285,10 +270,12 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
    * Problem
    * Endast de föregående som ingår i samma grupp med kopierade uppgifter kopieras också med de efterföljande uppgifterna.
 
-     **Exempel:** Om du till exempel kopierar Task 2 och dess föregångare, Task 1, samtidigt, får du en kopia av Task 2 och en kopia av Task 1. Kopian av uppgift 1 kommer att vara föregångaren till kopian av uppgift 2. Men om du bara kopierar Task 2 utan att kopiera dess föregångare har kopian ingen föregångare.
+     **EXEMPEL**
+
+     Om du till exempel kopierar Task 2 och dess föregångare, Task 1, samtidigt, får du en kopia av Task 2 och en kopia av Task 1. Kopian av uppgift 1 kommer att vara föregångaren till kopian av uppgift 2. Men om du bara kopierar Task 2 utan att kopiera dess föregångare har kopian ingen föregångare.
 
 * När du duplicerar en överordnad uppgift dupliceras även alla underordnade uppgifter, även när de underordnade uppgifterna inte har markerats.
-* Du kan duplicera flera åtgärder samtidigt.
+* Du kan duplicera en eller flera uppgifter samtidigt.
 
   Du kan dock inte duplicera flera uppgifter som inte är sekventiella samtidigt.
 
@@ -312,4 +299,4 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
 
       1. Klicka **Spara** för att spara ändringarna.
 
-   1. Redigera uppgifter i en lista
+         Uppgifterna dupliceras och läggs till i samma projekt som de ursprungliga uppgifterna.

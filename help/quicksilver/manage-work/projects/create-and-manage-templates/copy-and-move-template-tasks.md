@@ -6,9 +6,9 @@ description: Du kan kopiera eller flytta en malluppgift till samma mall eller ti
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -52,22 +52,23 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Tänk på följande när du kopierar en malluppgift:
 
-* Delmål överförs inte till den kopierade eller flyttade mallaktiviteten.
+* Följande information överförs som standard till den flyttade uppgiften:
 
-* Underaktiviteter överförs till den nya malluppgiften.
-* Anpassade formulär kopieras med mallåtgärden. Informationen i de anpassade fälten överförs endast till den nya malluppgiften när du väljer att kopiera anpassade data.
+   * Anpassade formulär och anpassad fältinformation.
+   * Underaktiviteter.
+
+* Följande information överförs inte till den flyttade eller kopierade uppgiften:
+
+   * Delmål överförs inte till den kopierade eller flyttade mallaktiviteten.
+
 * Du kan välja att kopiera vissa objekt som är associerade med malluppgiften till den kopierade uppgiften under kopieringsprocessen. Som standard överförs dock inte följande objekt till den kopierade uppgiften:
 
    * Användarkommentarer
-
-* Du kan kopiera en malluppgift i följande områden i Adobe Workfront webbprogram:
-
-   * På mallens aktivitetsnivå kan du gå till **Mer-ikon** ![](assets/more-icon.png) till höger om mallens uppgiftsnamn.
-
-   * I en malluppgiftslista.
-* Du kan kopiera eller flytta malluppgifter en åt gången eller genom att markera flera malluppgifter.
+* Anpassade formulär kopieras med mallåtgärden. Informationen i de anpassade fälten överförs endast till den nya malluppgiften när du väljer att kopiera anpassade data.
 
 ## Kopiera malluppgifter
+
+Du kan kopiera en enstaka malluppgift eller flera malluppgifter samtidigt.
 
 1. Gå till mallen som innehåller malluppgiften eller malluppgifterna som du vill kopiera.
 1. Klicka **Malluppgifter** till vänster.
@@ -165,7 +166,6 @@ Rutan Kopiera malluppgift öppnas.
     </tbody> 
    </table>
 
-(FRÅGA OM DEN SISTA RADEN: MALLUPPGIFTEN VERKAR INTE HA &quot;DELA&quot;)
 
 1. (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen väljer du sedan den mallåtgärd i målmallen som du vill ska vara överordnad den kopierade malluppgiften.
 
@@ -191,8 +191,7 @@ Rutan Kopiera malluppgift öppnas.
 
 ## Flytta malluppgifter
 
-Förutom att kopiera malluppgifter kan du även flytta en malluppgift antingen till en annan malluppgift i samma mall eller till en annan mall.
-
+Du kan flytta en malluppgift till en annan malluppgift i samma mall eller till en annan mall. Du kan flytta en malluppgift eller flera malluppgifter åt gången.
 
 1. Gå till mallen som innehåller malluppgiften eller malluppgifterna som du vill flytta.
 1. Klicka **Malluppgifter** till vänster.
@@ -300,7 +299,6 @@ Rutan Flytta malluppgift öppnas.
     </tbody> 
    </table>
 
-(FRÅGA OM DEN SISTA RADEN: MALLUPPGIFTEN VERKAR INTE HA &quot;DELA&quot;)
 
 1. (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen väljer du sedan den mallåtgärd i målmallen som du vill ska vara överordnad den flyttade malluppgiften.
 
