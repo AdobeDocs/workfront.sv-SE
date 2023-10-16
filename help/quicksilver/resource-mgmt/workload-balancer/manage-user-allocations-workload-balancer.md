@@ -6,9 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '2808'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Du måste ha följande:
 
 Användartilldelningar är timtals som anger hur mycket en användare ska tillbringa en viss dag eller veckodag, vecka eller månad för att slutföra arbetsuppgiften. De ingår i arbetsuppgiftens planerade timmar.
 
-I den här artikeln beskrivs hur du uppdaterar dagliga, veckovisa eller månadsvisa tilldelningar för användare som har tilldelats uppgifter eller utgåvor. Information om hur du hanterar övergripande allokeringar för användare och jobbroller till uppgifter finns i [Hantera användar- och rollallokeringstimmar för uppgifter](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+I den här artikeln beskrivs hur du uppdaterar dagliga, veckovisa eller månadsvisa tilldelningar för användare som har tilldelats uppgifter eller utgåvor. Information om hur du hanterar övergripande allokeringar för användare och jobbroller till uppgifter finns i [Hantera användar- och rollallokeringstimmar för uppgifter](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 * [Översikt över användarallokering](#user-allocation-overview)
 * [Kriterier som återställer användartilldelningar](#criteria-that-reset-user-allocations)
@@ -95,10 +95,7 @@ Tänk på följande när du söker efter dagliga, veckovisa eller månadsvisa ti
 >
 >Workfront beräknar fördelningen av de två timmarna under de två dagarna i tidsperioden med hjälp av följande formel:
 >
->```
->
->   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
->```
+>`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
 >
 >  Till exempel är de dagliga tilldelningstimmarna för varje dag:
 >   
@@ -107,8 +104,6 @@ Tänk på följande när du söker efter dagliga, veckovisa eller månadsvisa ti
 >  (2 / 13) * 8 = 1,23 allokeringstimmar för den andra dagen
 >
 >  I ovanstående beräkningar är 13 det totala antalet tillgängliga timmar för uppgiften: 5 + 8 = 13
-
-
 
 * Två användare i olika tidszoner eller scheman i andra tidszoner än de tilldelade användarnas kan få allokeringsbeloppen att se annorlunda ut för två användare som visar samma arbetsobjekt.
 
@@ -199,9 +194,9 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
 
 1. (Valfritt) Klicka på **Inställningar** icon ![](assets/gear-icon-settings.png) och välj något av följande alternativ:
 
-   1. **Inkludera timmar från utleveranser**. På så sätt kan du hantera utleveransallokeringar utöver uppgiftsallokeringar.
-   1. **Visa slutfört arbete** . Här visas artiklar som har slutförts och schemalagts under tidslinjen som du hanterar allokeringar för.
-   1. **Visa återstående tid** alternativ. Det totala antalet timmar för varje användare (på användarraden) ändras. När den här inställningen är aktiverad visas de timmar som varje användare har tillgängligt för arbete i stället för det antal timmar som de har tilldelats.
+   1. **Inkludera timmar från utleveranser**. På så sätt kan du hantera utleveransallokeringar utöver uppgiftsallokeringar.
+   1. **Visa slutfört arbete**. Här visas artiklar som har slutförts och schemalagts under tidslinjen som du hanterar allokeringar för.
+   1. **Visa återstående tid**. Det totala antalet timmar för varje användare (på användarraden) ändras. När den här inställningen är aktiverad visas de timmar som varje användare har tillgängligt för arbete i stället för det antal timmar som de har tilldelats.
 
       >[!TIP]
       >
@@ -213,7 +208,6 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
       >[!NOTE]
       >
       >Workfront-administratören bestämmer vilket schema som ska användas i hela systemet för att beräkna användarens kapacitet i området Resurshantering i installationsprogrammet. Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
 
 1. Klicka på **Mer** meny ![](assets/qs-more-menu.png) för en arbetsuppgift, klicka sedan på **Redigera allokeringar**.
 
