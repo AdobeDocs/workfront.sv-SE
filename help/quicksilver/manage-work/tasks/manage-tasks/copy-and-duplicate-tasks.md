@@ -6,9 +6,9 @@ description: Du kan kopiera en uppgift från ett projekt till ett annat projekt,
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ Tänk på följande när du kopierar en uppgift:
    Gå till en uppgiftsrapport.
 
 1. (Villkorligt) Klicka **Uppgifter** i den vänstra panelen, om du öppnade projektet som innehåller uppgifterna.
-1. Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) sedan **Spara automatiskt**.
+1. Klicka på **Planläge** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png)och se till att **Spara automatiskt** är aktiverat.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,22 +229,22 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 
 1. (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen markerar du den uppgift i målprojektet som du vill ska vara överordnad den kopierade uppgiften.
 
->[!TIP]
->
->När du väljer att kopiera flera uppgifter i en lista blir alla markerade uppgifter underordnade den markerade överordnade.
+   >[!TIP]
+   >
+   >När du väljer att kopiera flera uppgifter i en lista blir alla markerade uppgifter underordnade den markerade överordnade.
 
-Välj en överordnad genom att göra något av följande:
+   Välj en överordnad genom att göra något av följande:
 
-* Välj en av de överordnade i projektplanen i uppgiftslistan.
-* Klicka på sökikonen ![Ikonen Sök](assets/search-icon.png) och söka efter en överordnad uppgift efter namn.
+   * Välj en av de överordnade i projektplanen i uppgiftslistan.
+   * Klicka på sökikonen ![Ikonen Sök](assets/search-icon.png) och söka efter en överordnad uppgift efter namn.
 
-Uppgiften ska visas i listan.
+   Uppgiften visas i listan.
 
-![Välj överordnad uppgift när en uppgift flyttas med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Välj överordnad uppgift när en uppgift flyttas med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Markera alternativknappen för den överordnade när du har hittat den.
 
-   Om du inte väljer en överordnad uppgift kopieras uppgifterna som huvuduppgifter i stället för underaktiviteter, och de placeras i slutet av uppgiftslistan i målprojektet.
+   Om du inte väljer en överordnad uppgift kopieras uppgifterna som huvuduppgifter i stället för underuppgifter och placeras i slutet av uppgiftslistan i målprojektet.
 
 1. Klicka **Kopiera uppgift**
 
@@ -287,11 +289,11 @@ Du kan snabbt duplicera en uppgift i en uppgiftslista om du behöver en identisk
 1. Klicka **Uppgifter** till vänster.
 1. Gör något av följande:
 
-   * (Villkorligt) Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara automatiskt**, markerar de uppgifter du vill duplicera och klickar sedan på **Menyn Mer** ![](assets/qs-more-menu-29x11.png) > **Duplicera**.
+   * (Villkorligt) Klicka på **Planläge** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) och säkerställa **Spara automatiskt** är aktiverat väljer du de uppgifter du vill duplicera och klickar sedan på **Menyn Mer** ![](assets/qs-more-menu-29x11.png) > **Duplicera**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Villkorligt) Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara manuellt** > **Standard** eller **Planering av tidslinje** gör du följande:
+   * (Villkorligt) Klicka på **Planläge** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Spara manuellt** > **Standard** eller **Planering av tidslinje** gör du följande:
 
       1. Markera den eller de uppgifter du vill duplicera och klicka på **Duplicera**.
       1. (Valfritt) Klicka på **Ångra** om du vill ångra ändringarna och inte duplicera uppgifterna.

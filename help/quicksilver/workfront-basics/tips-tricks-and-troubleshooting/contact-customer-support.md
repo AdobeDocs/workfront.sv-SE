@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Kontakta kundsupport
-description: Kontakta kundsupport
+description: Om du är Adobe Workfront-kund kan du kontakta Workfront kundsupport per telefon eller genom att skicka en anmälan online.
 feature: Get Started with Workfront
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-Som [!DNL Adobe Workfront] kan du kontakta [!DNL Workfront] Kundsupport per telefon eller via telefon.
+Som en [!DNL Adobe Workfront] kan du kontakta [!DNL Workfront] Kundsupport per telefon eller via telefon.
 
 >[!NOTE]
 >
->Kontakta [!DNL Workfront] Kundsupport per telefon.
+>Om du har allvarliga problem kan du kontakta [!DNL Workfront] Kundsupport per telefon.
 
 ## Telefon
 
@@ -47,7 +47,7 @@ Du kan skicka in en supportanmälan från självbetjäningen [!DNL Experience Le
 
    På supportwebbplatsen kan du enkelt navigera till öppna supportärenden, logga ett nytt ärende, visa de viktigaste supportartiklarna eller få tillgång till ytterligare utbildningsmaterial.
 
-1. Välj alternativet &quot;[!UICONTROL Open a support case]&quot;, klicka sedan på **[!UICONTROL Sign]I**.
+1. Välj alternativet om du vill skicka ett ärende **[!UICONTROL Open a support case]** och sedan klicka **[!UICONTROL Sign]I**.
 
 1. Klicka **[!UICONTROL Open case]** till vänster.
 
@@ -79,9 +79,9 @@ Du kan skicka in en supportanmälan från självbetjäningen [!DNL Experience Le
    >
    >Du kan även navigera till [!UICONTROL My cases] sida genom att klicka **[!UICONTROL My cases]** till vänster.
 
-1. På [!UICONTROL My cases] använder du alternativen längst upp på sidan för att filtrera efter produkt ([!DNL Experience Cloud] lösning) eller case [!UICONTROL Status] (öppna eller stängda). Du kan också använda [!UICONTROL search] om du vill söka efter nyckelord som gäller dina supportärenden.
+1. På **[!UICONTROL My cases]** använder du alternativen längst upp på sidan för att filtrera efter **Produkt ([!DNL Experience Cloud] lösning)** eller fall **[!UICONTROL Status]** (Öppen eller stängd). Du kan också använda [!UICONTROL search] om du vill söka efter nyckelord som gäller dina supportärenden.
 
-1. Om du vill visa mer information om ett ärende klickar du på **Ärendenummer** för att komma åt den. The [!UICONTROL case] visas.
+1. Om du vill visa mer information om ett ärende klickar du på **Ärendenummer** för att komma åt den. The [!UICONTROL case] -vyn öppnas.
 
 1. I [!UICONTROL case] granska de senaste kommentarerna hos den som äger ärendet och lägg till eventuella ytterligare bilagor eller svar.
 

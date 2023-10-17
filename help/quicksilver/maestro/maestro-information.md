@@ -4,13 +4,13 @@ description: Som marknadsledare kan ni använda Adobe Maestro för att organiser
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Maestro-information
 
@@ -53,8 +53,8 @@ I följande artiklar finns en översikt över Adobe Maestro:
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [Se en videodemonstration av Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Maestro - översikt](maestro-overview.md): En översikt på hög nivå över Adobe Maestro, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Maestro här.
-* [Frisläpp aktivitet](../maestro/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Maestro avslutade betaprogrammet den 22 maj 2023 med exakta releasedatum och en kort översikt över samtliga funktioner.
+* [Adobe Maestro - översikt](maestro-overview.md): En översikt på hög nivå över Adobe Maestro, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Maestro här.
+* [Adobe Maestro-lansering](../maestro/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Maestro avslutade betaprogrammet den 22 maj 2023 med exakta releasedatum och en kort översikt över samtliga funktioner.
 
 ## Makroarkitektur och funktionalitet
 
@@ -64,4 +64,3 @@ Följande avsnitt innehåller artiklar som i detalj beskriver de Maestro-funktio
 * [Arkitekturinformation](../maestro/architecture-and-fields/architecture-and-fields-information.md): Detaljerad information om arkitekturen i Adobe Maestro, med stegvisa instruktioner om hur du kan skapa och hantera arbetsytor, posttyper och fält.
 * [Information om poster](../maestro/records/records-information.md): Detaljerad information och stegvisa instruktioner om hur du kan skapa och hantera poster.
 * [Vyinformation](../maestro/views/views-information.md): Detaljerad information om maestro-vyer och hur du hanterar dem.
-

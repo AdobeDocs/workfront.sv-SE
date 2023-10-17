@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b></p>
+
+<p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -99,7 +101,7 @@ I den här artikeln beskrivs hur du skapar en begärandekö från ett befintligt
  <tbody> 
   <tr> 
    <td role="rowheader">Köinformation</td> 
-   <td> <p>Du måste konfigurera ett projekt som en begärandekö i området Köinformation. Detta steg är obligatoriskt. </p> <p>Mer information finns i <a href="#create-a-request-queue" class="MCXref xref">Skapa en begärandekö</a> i den här artikeln.</p> </td> 
+   <td> <p>Du måste konfigurera ett projekt som en begärandekö i området Köinformation. Detta steg är obligatoriskt. </p> <p>Mer information finns i <a href="#create-a-request-queue" class="MCXref xref">Skapa en begärandekö</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ämnesgrupper</td> 
@@ -140,14 +142,14 @@ Så här skapar du en begärandekö:
    * **Publicera som kö för hjälpbegäran:** Välj det här alternativet om du vill identifiera projektet som en begärandekö. Alla inkommande problem betraktas som begäranden.\
      När det här alternativet inte är markerat fungerar projektet som ett standardprojekt i Workfront och alla inkommande problem är problem.
 
-   * **Vem kan lägga till begäranden i den här kön?** Välj vilka användare som har åtkomst att lägga till begäranden i den här kön. Du kan tillåta följande grupper av personer att se begärandekön i området Förfrågningar i det globala navigeringsfältet:
+   * **Vem kan lägga till begäranden i den här kön?** Välj vilka användare som har åtkomst att lägga till begäranden i den här kön. Du kan tillåta följande grupper av personer att se begärandekön i området Förfrågningar i det globala navigeringsfältet när de lägger till en ny begäran:
 
      | Vem kan skriva in förfrågningar? | Beskrivning |
      |---|---|
      | Alla | Alla Workfront-användare med ett aktivt konto kan visa den här begärandekön och lägga till begäranden i den |
      | Personer med visningsåtkomst till det här projektet | Användare med behörigheten Visa i projektet kan visa och lägga till begäranden i den här kön |
      | Personer i det här projektets företag | Användare som tillhör det företag som är associerat med det här projektet kan visa och lägga till begäranden i den här kön. Om det finns ett företag som är associerat med projektet visas företagets namn inom parentes efter den här inställningen. |
-     | Personer i det här projektets grupp | Användare som tillhör gruppen som är kopplad till det här projektet kan visa och lägga till begäranden i den här kön. Om det finns en grupp som är associerad med projektet visas gruppens namn inom parentes efter den här inställningen. |
+     | Personer i det här projektets grupp | Användare som tillhör gruppen som är kopplad till det här projektet kan visa och lägga till begäranden i den här kön. Om det finns en grupp som är associerad med projektet visas gruppens namn inom parentes efter den här inställningen, i grått teckensnitt. |
 
      {style="table-layout:auto"}
 
@@ -172,7 +174,7 @@ Så här skapar du en begärandekö:
 
         >[!NOTE]
         >
-        När du visar en begärandekö i en iframe visas endast begärandeformuläret, begärandenamnet är förmarkerat och nedtonat. Användaren kan inte ändra typen för begäran. Navigeringskomponenterna i området Begäranden visas inte.
+        >När du visar en begärandekö i en iframe visas endast begärandeformuläret, begärandenamnet är förmarkerat och nedtonat. Användaren kan inte ändra typen för begäran. Navigeringskomponenterna i området Begäranden visas inte.
 
         För att formuläret för begärandekön ska kunna visas när du använder den här inbäddningskoden måste du aktivera inställningen&quot;Tillåt inbäddning av Workfront i en iframe&quot; i systeminställningarna. Mer information om hur du aktiverar inbäddning av Workfront i en iframe finns i [Konfigurera säkerhetsinställningar för system](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). Om den här inställningen inte är aktiverad visas iframe-elementet som tomt.
 
@@ -220,7 +222,7 @@ Så här skapar du en begärandekö:
 
      >[!NOTE]
      >
-     Begärantyper visas bara som ett urval i området Förfrågningar om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du ställer in området Köinformation för ett projekt finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >Begärantyper visas bara som ett urval i området Förfrågningar om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du ställer in området Köinformation för ett projekt finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Alla typer som markeras här är tillgängliga i formuläret (du kan markera fler än en). Om du väljer mer än en typ kan du ordna flera förfrågningar som kommer in.\
      Om du till exempel använder formuläret i en begärandekö för ett IT-projekt kan följande typer av begäranden placeras i kön: maskinvara, programvara, felkorrigeringar och problem.
@@ -231,9 +233,9 @@ Så här skapar du en begärandekö:
    * **Personer från samma företag ärver samma behörigheter för alla begäranden.:** När du väljer det här alternativet visas alla begäranden som skickas till kön för användare i samma företag. Användare kan visa dessa begäranden i avsnittet Alla begäranden, som finns i området Begäranden. När den här inställningen är aktiverad eller inaktiverad påverkas alla framtida förfrågningar. Informationen påverkas inte retroaktivt.
    * **När någon gör en förfrågan tilldelar automatiskt** När en användare gör en begäran i kön med begäranden, tilldelas användaren automatiskt den behörighetsnivå som du väljer för den begäran. Välj bland följande behörighetsnivåer:
 
-      * **Visa**
-      * **Contribute**. Det här är standardvalet.
-      * **Hantera**
+      * **Visa åtkomst**
+      * **Contribute Access**. Det här är standardvalet.
+      * **Hantera åtkomst**
 
      Mer information om Workfront behörighetsmodell finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\
      Om du anger behörigheter här sparar du tid i stället för att behöva bevilja behörigheter för varje enskild inkommande begäran. Om du väljer det här alternativet påverkas alla framtida förfrågningar, men befintliga förfrågningar påverkas inte retroaktivt.
@@ -242,7 +244,7 @@ Så här skapar du en begärandekö:
 
      >[!IMPORTANT]
      >
-     Om projektgruppen ändras blir den gruppspecifika godkännandeprocess som är kopplad till befintliga utgåvor en godkännandeprocess för engångsbruk. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i [Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+     >Om projektgruppen ändras blir den gruppspecifika godkännandeprocess som är kopplad till befintliga utgåvor en godkännandeprocess för engångsbruk. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i [Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
      Om du har flera köämnen associerade med en begärandekö rekommenderar vi att du i stället kopplar godkännandeprocesser till köämnena. Mer information om hur du skapar köämnen finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -251,21 +253,20 @@ Så här skapar du en begärandekö:
       * Endast aktiva godkännandeprocesser visas i listan.
       * Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. En godkännandeprocess som är associerad med en annan grupp än den som projektet har visas inte i listan.
 
-   * **Standardflöde**: Associera en routningsregel med den här begärandekön. Använd routningsregler för att automatiskt tilldela nya ärenden som skickas till en begärandekö till rätt resurs (användare, jobbroll eller team) och till rätt projekt. Alla utleveranser som skickas till den här kön kommer att associeras med den här routningsregeln. Du måste konfigurera routningsregler innan du kan associera dem med begärandekön.\
+   * **Standardflöde**: Associera en routningsregel med den här begärandekön. Använd routningsregler för att automatiskt tilldela nya ärenden som skickas till en begärandekö till rätt resurs (användare, jobbroll eller team) och till rätt projekt. Alla utleveranser som skickas till den här kön kommer att associeras med den här routningsregeln. Du måste konfigurera routningsregler innan de visas i avsnittet Köinformation och innan du kan associera dem med begärandekön.\
      Om du har flera köämnen som är associerade med en frågekö rekommenderar vi att du i stället kopplar routningsregler till köämnena. Mer information om hur du skapar routningsregler finns i [Skapa routningsregler](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-   * **Nya fält:** I avsnittet Visa följande markerade fält för alla användare väljer du de fält som du vill ska vara synliga för alla användare som skickar en begäran till projektet eller lägger till ett problem i projektet eller aktiviteterna.
+   * **Nya fält:** I **Visa följande markerade fält för alla användare** markerar du de fält som du vill ska vara synliga för alla användare som skickar en begäran till projektet eller lägger till ett problem i projektet eller uppgifterna.
 
      >[!TIP]
      >
-     Nya fält för ärenden som har valts i avsnittet Köinformation är också kopplade till nya problem som har lagts till i projektet eller till uppgifterna i avsnittet Problem.
+     >Nya fält för ärenden som har valts i avsnittet Köinformation är också kopplade till nya problem som har lagts till i projektet <!--this is confusing: or to the tasks in the Issues section-->.
 
      När du aktiverar något av fälten Tilldelad till, Jobbroll eller Team ändras alltid namnen till Tilldelningar i formuläret för begäran, men du kan bara ange vilken typ av uppdrag som har valts här.
 
      >[!NOTE]
      >
-     Om du markerade Tilldelad till i området Köinformation kan du bara ange användare i fältet Uppdrag i formuläret för begäran. I det här fallet kan du inte ange jobbroller eller ett team.
-
+     >Om du markerade Tilldelad till i området Köinformation kan du bara ange användare i fältet Uppdrag i formuläret för begäran. I det här fallet kan du inte ange jobbroller eller ett team.
 
    * **Dokument**: Om du väljer att visa avsnittet Dokument i det nya formuläret för begäran, ska du välja var avsnittet för dokumentöverföring ska placeras. Välj bland följande:
 
@@ -286,7 +287,7 @@ Så här skapar du en begärandekö:
 
      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
-   * **Visa alla markerade och omarkerade fält till:** Välj vilka användare du vill visa alla fält i formuläret. Följande alternativ styr åtkomsten till fälten i formuläret.
+   * **Visa alla markerade och omarkerade fält till:** Välj vilka användare du vill visa alla fält i det nya begärandeformuläret. Följande alternativ styr åtkomsten till fälten i formuläret.
 
      | Vilka användare som kan se alla fält i det begärda formuläret | Beskrivning |
      |---|---| 
@@ -294,8 +295,8 @@ Så här skapar du en begärandekö:
      | Personer med visningsåtkomst till det här projektet (planlicens) | De användare som har en planlicens som även har visningsbehörighet för det här projektet kan se både det valda och de omarkerade fälten. Resten av användarna som kan skicka begäranden till det här projektet kan se endast de valda fälten. |
      | Inga användare | Inga användare kan se de omarkerade fälten. Alla användare som kan skicka begäranden till det här projektet kan bara se de markerade fälten. |
 
-   * **Anpassad Forms**: Välj ett anpassat formulär som ska associeras med begärandekön. Det är bara Issue Custom Forms (Utforma anpassad) som du kan välja i den här listrutan. Alla utleveranser som skickas till begärandekön har de valda formulären kopplade till sig.\
-     Om du har flera köämnen kopplade till en frågekö rekommenderar vi att du i stället kopplar anpassade formulär till köämnen. Mer information om hur du skapar underavsnitt för begärandekön finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   * **Anpassad Forms**: Välj ett anpassat formulär som ska associeras med begärandekön. Det är bara Issue Custom Forms (Utforma anpassad) som du kan välja i den här listrutan. Alla utleveranser som skickas till begärandekön har de valda formulären kopplade till sig. Du måste skapa anpassade formulär innan du kan se dem i avsnittet Köinformation.
+Om du har flera köämnen kopplade till en frågekö rekommenderar vi att du i stället kopplar anpassade formulär till köämnen. Mer information om hur du skapar underavsnitt för begärandekön finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![](assets/custom-forms-on-queue-details.png)
 
@@ -303,7 +304,7 @@ Så här skapar du en begärandekö:
 
      >[!TIP]
      >
-     Anpassade formulär som läggs till i avsnittet Köinformation associeras också med eventuella nya problem som läggs till i projektet eller aktiviteterna i avsnittet Problem.
+     >Anpassade formulär som läggs till i avsnittet Köinformation är också kopplade till eventuella nya problem som har lagts till i projektet <!--this is confusiong: or the tasks in the Issues  section-->.
 
 1. Fortsätt att välja information för inställningarna i dialogrutan **E-postköinställningar** -området, så att användare kan skicka begäranden via e-post till begärandeköprojektet.
 

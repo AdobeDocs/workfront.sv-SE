@@ -4,9 +4,10 @@ description: I följande artiklar beskrivs hur du kan konfigurera arkitekturen f
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ I artiklarna i följande avsnitt beskrivs hur du kan konfigurera Maestro-arbetsy
 * [Redigera posttyper](../architecture-and-fields/edit-record-types.md)
 * [Koppla posttyper](../architecture-and-fields/connect-record-types.md)
 * [Exempel på att ansluta posttyper och poster](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [Skapa fält i Adobe Maestro](../architecture-and-fields/create-fields.md)
+* [Skapa fält](../architecture-and-fields/create-fields.md)
 * [Redigera fält](../architecture-and-fields/edit-fields.md)
 * [Ta bort arbetsytor](../architecture-and-fields/delete-workspaces.md)
 * [Ta bort posttyper](../architecture-and-fields/delete-record-types.md)
 * [Ta bort fält](../architecture-and-fields/delete-fields.md)
-
-

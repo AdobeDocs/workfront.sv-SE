@@ -6,9 +6,9 @@ description: Du kan kopiera eller flytta en malluppgift till samma mall eller ti
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -50,21 +50,33 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Att tänka på när du kopierar eller flyttar malluppgifter
 
-Tänk på följande när du kopierar en malluppgift:
+Tänk på följande när du kopierar malluppgifter:
+
+* Följande information överförs inte till den kopierade uppgiften:
+
+   * Milstolpar
+
+* Du kan välja att kopiera vissa objekt som är associerade med malluppgiften till den kopierade uppgiften under kopieringsprocessen. Som standard överförs dock inte följande objekt till den kopierade uppgiften:
+
+   * Användarkommentarer
+
+* Anpassade formulär kopieras med malluppgiften när du kopierar en malluppgift. Informationen i de anpassade fälten överförs endast till den nya malluppgiften när du väljer att kopiera anpassade data.
+
+* Följande objekt överförs som standard till den kopierade malluppgiften:
+
+   * Underaktiviteter
+
+Tänk på följande när du flyttar malluppgifter:
 
 * Följande information överförs som standard till den flyttade uppgiften:
 
    * Anpassade formulär och anpassad fältinformation.
    * Underaktiviteter.
+   * Användarkommentarer.
 
-* Följande information överförs inte till den flyttade eller kopierade uppgiften:
+* Följande information överförs inte till den flyttade aktiviteten:
 
-   * Delmål överförs inte till den kopierade eller flyttade mallaktiviteten.
-
-* Du kan välja att kopiera vissa objekt som är associerade med malluppgiften till den kopierade uppgiften under kopieringsprocessen. Som standard överförs dock inte följande objekt till den kopierade uppgiften:
-
-   * Användarkommentarer
-* Anpassade formulär kopieras med mallåtgärden. Informationen i de anpassade fälten överförs endast till den nya malluppgiften när du väljer att kopiera anpassade data.
+   * Milstolpar.
 
 ## Kopiera malluppgifter
 

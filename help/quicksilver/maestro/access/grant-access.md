@@ -4,19 +4,21 @@ description: Lär dig hur du ger åtkomst och delar information i Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Ge åtkomst till Adobe Maestro
 
 >[!IMPORTANT]
+>
+>Adobe Maestro är ett nytt erbjudande från Adobe Workfront.
 >
 >För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro är ett nytt erbjudande från Adobe Workfront. Mer information finns i [Maestro - översikt](../maestro-overview.md).
 
 För närvarande kan alla användare i organisationen ha tillgång till Maestro om följande krav är uppfyllda:
 
@@ -50,9 +50,9 @@ När din organisation har registrerats i betaprogrammet för Maestro kan du läg
 
 Så här delar du Maestro-området med en layoutmall:
 
-1. Logga in på Workfront som systemadministratör.
+1. Logga in på **Workfront** som systemadministratör.
 
-1. Lägg till ikonen Maka på huvudmenyn med hjälp av en layoutmall.
+1. Lägg till **Maestro** icon ![](assets/maestro-icon.png) till **Huvudmeny** med **Layoutmall**.
 
    Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ Så här delar du Maestro-området med en layoutmall:
    Alla användare som är tilldelade mallen kan nu komma åt Maestro på huvudmenyn.
 
    Användare kan börja skapa arbetsytor, posttyper, poster och fält.
-
-
-

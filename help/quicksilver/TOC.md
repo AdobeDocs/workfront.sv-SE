@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0df32f5b41f4b426325d3eab8f70a4ef2538b452
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '13343'
+source-wordcount: '13344'
 ht-degree: 0%
 
 ---
@@ -1990,7 +1990,7 @@ ht-degree: 0%
       * [Arkitekturinformation](maestro/architecture-and-fields/architecture-and-fields-information.md)
       * [Skapa arbetsytor](maestro/architecture-and-fields/create-workspaces.md)
       * [Översikt över posttyper och taxonomier](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-      * [Skapa posttyper](maestro/architecture-and-fields/create-record-types.md)
+      * [Skapa driftsposttyper](maestro/architecture-and-fields/create-record-types.md)
       * [Skapa taxonomiposttyper](maestro/architecture-and-fields/create-a-taxonomy.md)
       * [Koppla posttyper](maestro/architecture-and-fields/connect-record-types.md)
       * [Skapa fält](maestro/architecture-and-fields/create-fields.md)

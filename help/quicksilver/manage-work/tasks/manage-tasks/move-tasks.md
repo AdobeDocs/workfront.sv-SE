@@ -6,9 +6,9 @@ description: Du kan flytta uppgifter till olika projekt eller till olika överor
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Du kan flytta uppgifter i Adobe Workfront mellan följande objekt:
 * En uppgift inom samma projekt under en annan överordnad aktivitet.
 
 Du kan flytta en uppgift på aktivitetsnivå eller flytta en uppgift från en lista med uppgifter.
+Du kan flytta en enstaka uppgift, eller flera uppgifter åt gången, från en lista med uppgifter.
 
 ## Åtkomstkrav
 
@@ -55,13 +56,29 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Flytta en uppgift i en lista
+## Att tänka på när du flyttar uppgifter
 
-Så här flyttar du en uppgift som visas i en uppgiftslista:
+Tänk på följande när du flyttar en uppgift:
+
+* När du flyttar en uppgift från ett projekt till ett annat kan uppgiftsdatumen beräknas om. Omberäkningen tar hänsyn till den tidsplan som det nya projektet använder och projektets Schedule From-information.
+
+* Du kan välja att flytta vissa objekt som är kopplade till uppgiften till den flyttade aktiviteten under den flyttade processen. Som standard överförs dock följande objekt till den flyttade aktiviteten:
+
+   * Problem
+   * Inloggade timmar
+   * Användarkommentarer
+   * Anpassade formulär och anpassad fältinformation
+   * Underaktiviteter
+
+Följande objekt flyttas inte med uppgiften som standard:
+
+* Milstolpar överförs till den kopierade aktiviteten och tas bort från den ursprungliga aktiviteten.
+
+## Flytta aktiviteter i en lista
 
 1. Gå till det projekt som innehåller uppgiften eller aktiviteterna som du vill flytta.
 1. Klicka **Uppgifter** i den vänstra panelen för att visa uppgiftslistan.
-1. Se till att **Spara automatiskt** växlingsknappen är aktiverad och välj sedan den eller de uppgifter du vill flytta.
+1. Klicka på **Planläge** icon ![](assets/plan-mode-icon.png) och se till att **Spara automatiskt** växlingsknappen är aktiverad och välj sedan den eller de uppgifter som du vill flytta.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -77,7 +94,7 @@ Så här flyttar du en uppgift som visas i en uppgiftslista:
 
    * Klicka på **Mer** meny ![](assets/qs-more-menu.png) överst i uppgiftslistan klickar du på **Flytta till**.
    * Högerklicka på de markerade uppgifterna och klicka sedan på **Flytta till**.
-   * När du markerar en uppgift klickar du på **Mer** meny ![](assets/more-icon-task-list.png) bredvid uppgiftsnamnet i listan och klicka sedan på **Flytta till**.
+   * När du markerar en uppgift klickar du på **Mer** meny ![](assets/more-icon-task-list.png) bredvid uppgiftsnamnet i listan och klicka sedan på **Flytta till**.
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
@@ -91,7 +108,7 @@ Så här flyttar du en uppgift som visas i en uppgiftslista:
 
 ## Flytta en uppgift på aktivitetsnivå {#move-a-task-at-the-task-level}
 
-Förutom att flytta uppgifter från en lista med uppgifter kan du även flytta en uppgift på aktivitetsnivå efter att du har öppnat den. 
+Förutom att flytta uppgifter från en lista med uppgifter kan du även flytta en uppgift på aktivitetsnivå efter att du har öppnat den.
 
 1. Hitta en uppgift i ditt Workfront-system genom att söka efter den.
 1. Klicka på namnet på uppgiften för att öppna den.
@@ -103,12 +120,12 @@ Förutom att flytta uppgifter från en lista med uppgifter kan du även flytta e
 
    >[!TIP]
    >
-   >Det här fältet är nedtonat och går inte att redigera när du väljer att flytta flera uppgifter i en lista. Du kan hålla muspekaren över fältet Uppgiftsnamn så visas en lista med alla markerade uppgifter.
+   >Fältet Uppgiftsnamn är nedtonat och går inte att redigera när du väljer att flytta flera uppgifter i en lista. Du kan hålla muspekaren över fältet Uppgiftsnamn så visas en lista med alla markerade uppgifter.
    >
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. Ange namnet på **Målprojekt** där du vill att uppgiften ska flyttas i **Välj målprojekt** fält.
+1. Ange namnet på **Målprojekt** där du vill flytta uppgiften i **Välj målprojekt** fält.
 
    Om du vill flytta aktiviteten inom samma projekt skriver du namnet på det aktuella projektet.
 
@@ -118,7 +135,6 @@ Förutom att flytta uppgifter från en lista med uppgifter kan du även flytta e
    >* Du kan också börja skriva referensnumret eller ange projektets ID. Detta kan hjälpa dig att skilja mellan projekt med identiska namn.
    >* Endast 100 projekt visas i listan.
 
-
 1. (Villkorligt) Klicka **Begär åtkomst** om du vill begära åtkomst till projektet, om du inte har åtkomst till det valda projektet.
 1. (Villkorligt) Fortsätt att flytta aktiviteten till det valda målprojektet utan att begära åtkomst om du har åtkomst till att lägga till aktiviteter i någon av uppgifterna i målprojektet.
 
@@ -126,16 +142,17 @@ Förutom att flytta uppgifter från en lista med uppgifter kan du även flytta e
 
    >[!TIP]
    >
-   >Liknande meddelanden visas om det valda projektet väntar på godkännande, är slutfört eller inte alls, när Workfront-administratören förhindrar att uppgifter läggs till i dessa projekt. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Liknande meddelanden visas om det valda projektet väntar på godkännande, är slutfört eller inte alls, när Workfront-administratören förhindrar att uppgifter läggs till i dessa projekt. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Valfritt) Klicka på **Alternativ** i den vänstra panelen
+1. (Valfritt) Klicka på **Alternativ** i den vänstra panelen
 
    eller
 
    Bläddra nedåt till **Alternativ** i rutan Flytta uppgift avmarkerar du något av objekten i tabellen nedan för att ta bort dem från de flyttade uppgifterna. Alla alternativ är markerade som standard.
 
    >[!IMPORTANT]
-   Om du avmarkerar objekt i alternativlistan förlorar du data. Information från den befintliga aktiviteten tas bort och kan inte återställas.
+   >
+   >Om du avmarkerar objekt i alternativlistan förlorar du data. Information från den befintliga aktiviteten tas bort och kan inte återställas.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -157,10 +174,10 @@ Förutom att flytta uppgifter från en lista med uppgifter kan du även flytta e
       <li> Starta den</li>
       <li> Måste avslutas</li>
       <li> Starta tidigast</li>
-      <li> Starta inte senare än</li>
+      <li> Starta senast</li>
       </ul>
 
-   Mer information om uppgiftsbegränsningar och hur uppgiftsbegränsningar och projektdatum kan påverkas finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a> och leta efter en viss begränsning.</p> </td>
+   Mer information om uppgiftsbegränsningar och hur uppgiftsbegränsningar eller projektdatum kan påverkas finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a> och leta efter en viss begränsning.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Uppdrag</td> 
@@ -172,7 +189,7 @@ Förutom att flytta uppgifter från en lista med uppgifter kan du även flytta e
      </tr> 
      <tr> 
       <td role="rowheader">Förlopp</td> 
-      <td>Aktivitetsstatusen är Ny. Annars bevaras den befintliga aktivitetsstatusen. </td> 
+      <td>Aktivitetsstatusen är Ny. I annat fall bevaras den befintliga aktivitetsstatusen. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ekonomisk information</td> 
@@ -214,27 +231,29 @@ Förutom att flytta uppgifter från en lista med uppgifter kan du även flytta e
 
    eller
 
-   Bläddra till **Markera överordnad** markerar du sedan den uppgift i målprojektet som du vill ska vara överordnad den flyttade uppgiften.
+   Bläddra till **Markera överordnad** markerar du sedan den uppgift i målprojektet som du vill ska bli överordnad den flyttade uppgiften.
 
    >[!TIP]
-   När du väljer att flytta flera uppgifter i en lista blir alla markerade uppgifter underordnade den markerade överordnade.
+   >
+   >När du väljer att flytta flera uppgifter i en lista blir alla markerade uppgifter underordnade den markerade överordnade.
 
    Välj en överordnad genom att göra något av följande:
 
    * Välj en av de överordnade i projektplanen i uppgiftslistan.
    * Klicka på sökikonen ![Ikonen Sök](assets/search-icon.png) och söka efter en överordnad uppgift efter namn.
 
-   Uppgiften ska visas i listan.
+   Uppgiften visas i listan.
 
    ![Välj överordnad uppgift när en uppgift flyttas med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Markera alternativknappen för den överordnade när du har hittat den.
 
-   Om du inte väljer någon överordnad uppgift flyttas uppgifterna som huvuduppgifter i stället för underaktiviteter, och de placeras i slutet av uppgiftslistan i målprojektet.
+   Om du inte väljer någon överordnad uppgift flyttas uppgifterna som huvuduppgifter i stället för underuppgifter, och de placeras i slutet av uppgiftslistan i målprojektet.
 
 1. Klicka **Flytta uppgift**
 
    eller
 
    Klicka **Flytta uppgifter** när du markerar flera uppgifter i en lista.
-De flyttade aktiviteterna finns nu i det angivna projektet och är antingen underaktiviteter till en överordnad aktivitet eller de sista aktiviteterna i projektet.
+
+   De flyttade aktiviteterna finns nu i det angivna projektet och är antingen underaktiviteter till en överordnad aktivitet eller de sista aktiviteterna i projektet.

@@ -1,20 +1,20 @@
 ---
-title: Skapa posttyper
+title: Skapa driftsposttyper
 description: Posttyperna är objekttyperna för Adobe Maestro. I Maestro kan du skapa anpassade posttyper som illustrerar de arbetsuppgifter som behövs i organisationens livscykel.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
 
-
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Skapa posttyper
+# Skapa driftsposttyper
 
 >[!IMPORTANT]
 >
@@ -260,11 +260,3 @@ Du kan importera följande objekt från följande program:
    * Program
 
 Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
-
-
-
-
-
-
-
-
