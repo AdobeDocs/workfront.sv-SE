@@ -7,7 +7,7 @@ description: CSI (Cost Schedule Performance Index) är en automatisk beräkning 
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Översikt över CSI (Cost Schedule Performance Index)
 
-CSI (Cost Schedule Performance Index) är en automatisk beräkning som kombinerar kostnadsprestandaindexet (CPI) och SPI (Schedule Performance Index) till ett allmänt mått som balanserar kostnad och schema. Genom att multiplicera dessa värden tillsammans kan ett enda mätvärde ta hänsyn till ett långsamt schema till en lägre budget eller vice versa. Projektledare kan använda detta för att avgöra om allmänna projekt- eller uppgiftshälsoförhållanden förloras för att driva schemat efter projektet.
+CSI (Cost Schedule Performance Index) är en automatisk beräkning som kombinerar kostnadsprestandaindexet (CPI) och SPI (Schedule Performance Index) till ett allmänt mått som balanserar kostnad och schema. Genom att multiplicera dessa värden tillsammans kan ett enda mätvärde ta hänsyn till ett långsamt schema till en lägre budget eller vice versa. Projektledare kan använda detta för att avgöra om allmänna projekt- eller uppgiftshälsoförhållanden förloras för att driva tidsplanen från mitten av projektet.
 
 >[!TIP]
 >
@@ -31,18 +31,16 @@ CSI (Cost Schedule Performance Index) är en automatisk beräkning som kombinera
 Du kan bara få tillgång till informationen i det här måttet om följande finns i din organisation:
 
 * Dina användare loggar in på det arbete de utför.\
-   CSI beräknas baserat på timmar.
+  Detta beräknar CSI baserat på timmar.
 * Dina användare eller jobbroller har associerade kostnader per timme. 
 
-   Detta beräknar CSI baserat på kostnader.
+  Detta beräknar CSI baserat på kostnader.
 
 ## Hur Workfront beräknar prestandaindex för kostnadsschema (CSI)
 
 Workfront beräknar kostnadsprestandaindex (CSI) för ett projekt eller en uppgift med följande formel:
 
-```
-CSI = CPI x SPI
-```
+`CSI = CPI x SPI`
 
 Mer information om CPI finns i artikeln [Beräkna index för kostnadsprestanda (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
@@ -50,9 +48,8 @@ Mer information om SPI finns i artikeln [Beräkna SPI (Schedule Performance Inde
 
 CSI har följande tre möjliga värden:
 
-* 1 = Följer den övergripande planen   
-* 
-   >1 = Kombination av budgetplan
+* 1 = Följer den övergripande planen
+* \>1 = Kombination av budgetplan
 * &lt;1 = Kombination av överbudgeterat schema
 
 ![](assets/csi-highlighted.png)
