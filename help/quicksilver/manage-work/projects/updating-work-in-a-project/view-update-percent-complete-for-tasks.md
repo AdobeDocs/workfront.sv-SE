@@ -6,9 +6,9 @@ description: Du kan uppdatera procentandelen färdigt för en uppgift för att a
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -82,28 +82,36 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Områden där du kan uppdatera procentandelen färdigt för en uppgift
 
-Du kan uppdatera procentandelen färdigt för en aktivitet i något av följande områden:
+Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 
 * **I en uppgiftslista**: Du kan uppdatera procentandelen färdigt för en uppgift när kolumnen Procent färdigt visas.\
-   Mer information om redigering online finns i [Redigera objekt i en lista i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+  Mer information om redigering online finns i [Redigera objekt i en lista i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 * **I vyn Milstolpe**: Du kan uppdatera procentandelen färdigt för en aktivitet när du använder vyn Milstolpe i en projektlista eller en projektrapport. Mer information finns i [Använda vyn Milstolpe](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 * **När du uppdaterar uppgiften**: Du kan uppdatera alternativet Procent färdigt för en uppgift när du lägger till en uppdatering för uppgiften.
 
-   >[!IMPORTANT]
-   >
-   >Det här alternativet visas först när du har aktiverat alternativet Visa procent färdigt.\
-   >Så här aktiverar du uppdateringsfältet Procent färdigt för uppgifter:
-   >
-   >1. Gå till **Huvud** menu>ditt namn>**Mer** ikon bredvid ditt namn >**Redigera** > markera **Visa procent färdigt vid uppdateringsstatus**.\
-      >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >[!IMPORTANT]
+  >
+  >Det här alternativet visas först när du har aktiverat alternativet Visa procent färdigt.\
+  >Så här aktiverar du uppdateringsfältet Procent färdigt för uppgifter:
+  >
+  >1. Gå till **Huvud** menu>ditt namn>**Mer** ikon bredvid ditt namn >**Redigera** > markera **Visa procent färdigt vid uppdateringsstatus**.\
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+
+* **I uppgiftsrubriken**: Du kan uppdatera procentandelen färdigt för en uppgift i uppgiftshuvudet. Mer information finns i [Redigera uppgifter](../../tasks/manage-tasks/edit-tasks.md).
+
+  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 
-* **I uppgiftshuvudet**: Du kan uppdatera procentandelen färdigt för en uppgift i uppgiftshuvudet. Mer information finns i [Redigera uppgifter](../../tasks/manage-tasks/edit-tasks.md).
+## Att tänka på när du uppdaterar procentandelen färdigt för en uppgift
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+* När du har markerat en uppgift som 100 % slutförd uppdateras aktivitetens status till Fullständig.
+* Följande scenarier finns för överordnade uppgifter:
+   * Du kan inte uppdatera procentandelen färdigt för en överordnad aktivitet till 100 % när projektets slutföringsläge för sammanfattning är inställt på Automatisk och underaktiviteterna inte är slutförda.
+   * Du kan uppdatera procentandelen färdigt för en överordnad aktivitet till 100 % när projektets slutföringsläge för sammanfattning är inställt på Manuellt och underaktiviteterna är slutförda eller ofullständiga.
 
+  Mer information finns i [Redigera projekt](../manage-projects/edit-projects.md).
 
 ## Uppdatera procentandelen slutfört för en uppgift
 

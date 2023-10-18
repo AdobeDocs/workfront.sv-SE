@@ -4,13 +4,13 @@ description: Ett sätt att ange hur enskilda posttyper relaterar till varandra �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
+>
 >För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
@@ -42,6 +44,7 @@ Du kan ansluta följande:
 
 * Posttyper för operationsmaestro
 * Posttyper för maestro-operationer till taxonomiposttyper
+* Magnettaxonomityper till driftsposttyper
 * Posttyper och objekttyper från andra program.
 
 På så sätt kan du visa fält från den länkade posten eller objekttypen på en annan Maestro-post.
@@ -240,7 +243,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka **Lägg till fält** för att spara ändringarna.
 
-   Följande ska läggas till:
+   Följande objekt läggs till:
 
    * Det länkade postfält som visar posterna från den länkade posttypen efter att du har lagt till dem manuellt. Namnet på det länkade postfältet är det namn du valde i steg 6. <!-- ensure this is still accurate-->
 
@@ -250,18 +253,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Ett länkat postfält på den posttyp som du länkar till. Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
 
-     Om du t.ex. länkar posttypen &quot;Produkt&quot; från posttypen &quot;Kampanj&quot; och namnger det anslutna fältet för Campaign &quot;Länkad produkt&quot;, skapas ett länkat fält för &quot;Kampanj&quot; för posttypen Produkt.
+     Om du t.ex. länkar posttypen &quot;Produkt&quot; från posttypen &quot;Kampanj&quot; och namnger det anslutna fältet för Campaign &quot;Länkad produkt&quot;, skapas ett &quot;Kampanjlänkat&quot; postfält för posttypen Produkt.
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >Det länkade postfältet som visar den posttyp som du länkar från läggs inte till i posttyper när du ansluter en posttyp med följande: <!--is this temporary for taxonomies??-->
-     >        
-     >   * En taxonomi.
-     >   * En objektstyp från ett annat program.
-
-1. (Valfritt) Klicka på listrutan till höger om det länkade postfältet i den ursprungliga posttypen eller i tabellvyn för den länkade posttypen och klicka sedan på något av följande:
+1. (Valfritt) Klicka på nedåtpilen i huvudet för de länkade postfälten i den ursprungliga posttypen eller i tabellvyn för den länkade posttypen och klicka sedan på något av följande:
 
    * **Redigera fält**: Du kan bara uppdatera **Namn** och **Beskrivning** information om fältet.
    * **Redigera sökfält**: Lägg till eller ta bort fält för den länkade posten.
@@ -270,11 +264,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Följ instruktionerna i steg 7-12 ovan för att lägga till eller ta bort fält. <!--ensure these step numbers stay accurate-->
 
-1. (Valfritt) Klicka på nedåtpilen i huvudet på den länkade posten eller de länkade fälten och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på nedåtpilen i huvudet på det länkade postfältet från den posttyp som du länkar från och klicka sedan på **Ta bort**.
 
-   Postfältet och eventuella ytterligare sökfält tas bort och fälten och deras information kan inte återställas.
+   Postfältet och eventuella ytterligare länkade sökfält tas bort och fälten och deras information kan inte återställas.
 
    >[!TIP]
    >
-   >    Det länkade postfältet på den post som är länkad från den ursprungliga posten tas inte bort. <!-- is this still accurate?! -->
-
+   >    Det länkade postfältet för den posttyp som du länkar till tas inte bort. <!-- is this still accurate?! -->

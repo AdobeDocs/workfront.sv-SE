@@ -4,13 +4,13 @@ description: När du har skapat anslutningar mellan posttyper kan du koppla ensk
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Koppla poster
 
 >[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
 >
 >För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
@@ -276,15 +278,3 @@ När du har skapat en anslutning mellan en Maestro-posttyp och en Workfront-obje
    >  De fält som du lägger till eller tar bort på Workfront objektposttypsida läggs inte till och tas inte bort från Maestro-posttypen som länkar till Workfront-objekttypen. Fälten visas bara på den skrivskyddade posttypssidan för Workfront, så du kan granska dem i Maestro.
 
 1. (Valfritt) I listrutan Visa på Workfront-objektposttypsidan väljer du tidslinjevyn för att visa de länkade Workfront-objekten i tidslinjevyn.
-
-
-
-
-
-
-
-
-
-
-
-

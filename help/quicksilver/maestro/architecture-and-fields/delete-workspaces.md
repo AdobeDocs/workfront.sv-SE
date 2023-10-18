@@ -4,19 +4,21 @@ description: Du kan ta bort arbetsytor när de inte längre är relevanta.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Ta bort arbetsytor
 
 >[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
 >
 >För närvarande ingår Adobe Maestro i ett slutet betaprogram som är öppet för ett begränsat antal kunder.
 >

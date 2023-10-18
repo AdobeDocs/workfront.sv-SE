@@ -4,19 +4,21 @@ description: I Adobe Maestro kan du ta bort anpassade fält som inte längre är
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Ta bort fält
 
 >[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
 >
 >För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
@@ -35,6 +37,9 @@ Du kan ta bort fält i Maestro som inte längre är relevanta.
 * Du kan ta bort fält som du har skapat eller fält som har skapats av andra användare. <!--this will change with access levels/ permissions-->
 * Du kan bara ta bort ett fält i posttyptabellen.
 * All information som lagras i fältet tas bort och kan inte återställas.
+* När du tar bort ett länkat postfält tas även alla länkade sökfält bort från den posttyp du länkar från. De länkade postfälten för de posttyper som du länkar till tas inte bort.
+
+  Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Åtkomstkrav

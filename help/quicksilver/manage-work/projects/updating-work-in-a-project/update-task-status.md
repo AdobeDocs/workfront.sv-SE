@@ -6,9 +6,9 @@ description: Du kan uppdatera en uppgifts status för att informera andra om var
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -83,13 +83,22 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
+## Att tänka på när du uppdaterar aktiviteternas status
+
+* När du markerar en uppgift som slutförd uppdateras procentandelen slutförd till 100 %.
+* Följande scenarier finns för överordnade uppgifter:
+   * Du kan inte uppdatera statusen för en överordnad aktivitet till Fullständig när läget Sammanfattning av slutförande för projektet är inställt på Automatisk och underaktiviteterna inte slutförs.
+   * Du kan uppdatera statusen för en överordnad aktivitet till Fullständig när läget Sammanfattning av slutförande för projektet är inställt på Manuell och underaktiviteterna är slutförda eller ofullständiga.
+
+  Mer information finns i [Redigera projekt](../manage-projects/edit-projects.md).
+
 ## Uppdatera aktivitetsstatus manuellt
 
 När du uppdaterar en aktivitetsstatus kan du även skriva en förklaring till den nya statusen och ändra annan aktivitetsinformation, t.ex. förfallodatumet.
 
 1. Gå till en uppgift som du är tilldelad till och som du vill uppdatera statusen för.
 1. Klicka på **Status** i uppgiftshuvudet och välj en ny status.
-1. (Valfritt) Gör något av följande för att ange ytterligare information om uppdateringen och klicka sedan på **Uppdatera** eller, om uppgiften har **Slutförd** status, klicka **Klart:**
+1. (Valfritt) Gör något av följande för att ange ytterligare information om uppdateringen och klicka sedan på **Uppdatera** eller, om uppgiften har **Complete** status, klicka **Klart:**
 
    * Om du vill lägga till en anteckning om uppdateringen går du till **Uppdateringar** område och klicka **Starta en ny uppdatering** och skriver sedan din anteckning.
 
@@ -98,11 +107,11 @@ När du uppdaterar en aktivitetsstatus kan du även skriva en förklaring till d
 
    * Om du vill uppdatera aktivitetens implementeringsdatum expanderar du **Bekräftelsedatum** och välj ett nytt implementeringsdatum.
    * Om du vill få en visuell indikation på slutförd uppgift drar du bubblan under Procent färdigt eller dubbelklickar på den för att ange ett procentvärde.\
-      ![](assets/drag-the-progress-bar-350x155.png)
+     ![](assets/drag-the-progress-bar-350x155.png)
 
 ## Uppdatera aktivitetsstatus automatiskt
 
-Workfront uppdaterar automatiskt den befintliga statusen för en aktivitet till en annan status när åtgärderna i tabellen nedan inträffar.
+Workfront uppdaterar automatiskt den befintliga statusen för en aktivitet till en annan status när åtgärderna som anges i tabellen nedan inträffar.
 
 >[!NOTE]
 >
@@ -121,17 +130,17 @@ Workfront uppdaterar automatiskt den befintliga statusen för en aktivitet till 
   <tr> 
    <td>Uppdatera aktivitetsprocenten slutförd till 100 %</td> 
    <td>Nytt eller Pågående</td> 
-   <td>Slutförd</td> 
+   <td>Complete</td> 
   </tr> 
   <tr> 
    <td>Uppdatera procent färdigt för aktiviteten från 100 % till ett lägre tal</td> 
-   <td>Slutförd</td> 
+   <td>Complete</td> 
    <td>Pågår</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Klicka på knappen Starta uppgift för att acceptera att arbeta med en uppgift som du har tilldelats</span> </td> 
    <td><span>Nytt</span> </td> 
-   <td> <p>Status som är associerad med knappen Start Task (Starta uppgift) i inställningarna för Home Team (Hemteam).</p> <p>Mer information om hur du ersätter knappen Arbeta på den med knappen Starta uppgift finns i <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på) med en Start-knapp</a></span>.</p> <p>Tips: <span>Klicka</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">knappen Ångra</span>när du klickat på Starta uppgift återställs statusen till Ny. </p> </td> 
+   <td> <p>Status som är associerad med knappen Starta uppgift i inställningarna för Hemteam.</p> <p>Mer information om hur du ersätter knappen Arbeta på den med knappen Starta uppgift finns i <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på) med en Start-knapp</a></span>.</p> <p>Tips: <span>Klicka</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">knappen Ångra</span>när du klickat på Starta uppgift återställs statusen till Ny. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,17 +4,19 @@ description: I den här artikeln beskrivs ett exempel på hur du skapar en anslu
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # Exempel på att ansluta posttyper och poster
 
 >[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
 >
 >För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
@@ -193,6 +195,3 @@ Så här gör du:
    >    De fält som du lägger till i posten Workfront Project Makestro läggs bara till på Workfront Project-sidan och läggs inte till på Campaign-posttypsidan, som länkade fält. Du måste lägga till projektfälten från fältet med kopplade objekt för projektinformation i posttypen Campaign för att kunna visa dem för kampanjer.
 
 1. (Valfritt och villkorligt) Om du har valt att visa minst två datumfält för projekt klickar du på **Visa** nedrullningsbar meny i posttyptabellen för Workfront Project och sedan **Skapa vy** > **Tidslinje** > **Skapa** för att skapa en tidslinjevy och visa projekten på en tidslinje.
-
-
-

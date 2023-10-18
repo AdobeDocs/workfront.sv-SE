@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>:</p> 
+   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,14 +434,20 @@ När du har fyllt i Excel-mallen med dina data kan du överföra informationen t
 
 Quick-Start-importen stöder följande filtyper:
 
-* XML-baserad Excel (&#42;.xlsx)
-* Äldre Excel (&#42;.xls)
-* Zippad (&#42;ZIP) xlsx- eller xls-fil
+* XML-baserad Excel (.xlsx)
+* Äldre Excel (.xls)
+* Zippad fil (.ZIP) (som endast innehåller .xlsx- eller .xls-filer)
 
   >[!NOTE]
   >
-  >Du måste använda en ZIP-fil när du importerar Excel-kalkylblad som refererar till rapporter, dokument, avatarer eller visar, filtrerar eller grupperar egenskapsfiler. När du använder en zippad importfil &#42;ZIP-filen måste ha samma namn som &#42;.xlsx eller &#42;.xls-filen och allt innehåll måste vara på samma filstrukturnivå (inga mappar).
-
+  >Du måste använda en ZIP-fil när du importerar Excel-kalkylblad som refererar till följande objekt:
+  >
+  >* Rapporter
+  >* Dokument
+  >* Avatarer
+  >* Visa, filtrera eller gruppera egenskapsfiler.
+  >
+  >När du använder en ZIP-importfil måste ZIP-filen ha samma namn som .xlsx- eller .xls-filen och alla filer måste ha samma strukturnivå (inga mappar).
 
 Så här importerar du mallkalkylbladsdata till Workfront:
 

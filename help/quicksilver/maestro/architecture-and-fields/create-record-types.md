@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Skapa driftsposttyper
 
 >[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
 >
 >För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
@@ -100,7 +102,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
         Mer information finns i [Skapa arbetsytor](../architecture-and-fields/create-workspaces.md).
       * När du importerar dem med en Excel- eller CSV-fil. Detta är inte tillgängligt för taxonomiposttyper.
-      * När du skapar en anslutning till objekttyper från ett annat program, när du lägger till fält till en posttyp. Detta skapar en skrivskyddad posttyp i Maestro som är kopplad till objekttyper från det ursprungliga programmet. Detta är inte tillgängligt för taxonomiposttyper.
+      * När du skapar en anslutning till objekttyper från ett annat program, när du lägger till fält till en posttyp. Detta skapar en skrivskyddad posttyp i Maestro som är kopplad till objekttyper från det ursprungliga programmet.
 
      Mer information om hur du kopplar objekttyper till Maestro-poster finns i [Koppla poster](../records/connect-records.md).
    * Manuellt:
@@ -258,5 +260,7 @@ Du kan importera följande objekt från följande program:
    * Projekt
    * Portfolio
    * Program
+   * Företag
+   * Grupp
 
 Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).

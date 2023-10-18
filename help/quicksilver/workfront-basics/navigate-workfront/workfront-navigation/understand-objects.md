@@ -5,9 +5,9 @@ title: Förstå objekt i [!DNL Adobe Workfront]
 description: Förstå objekt i [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1946'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Den information du visar i [!DNL Adobe Workfront] representeras av objekt som la
 
 Förstå hur objekt definieras i [!DNL Workfront] är viktigt så att du kan använda rätt objekt för de behov som finns i organisationen.
 
-Om du till exempel planerar en stor mängd arbete måste du använda [!UICONTROL Project] -objekt för att definiera det arbetet. Om du vill dela upp arbetet i mindre planerade steg kan du använda [!UICONTROL Task] -objekt. För en mindre mängd arbete som inte är planerat och som kan utföras oväntat kan du använda objektet Utgåva. Om du vill följa förloppet och hur budgeten och tidslinjen följs för en grupp projekt kan du ordna dem i [!UICONTROL Portfolios] och [!UICONTROL Programs]. Om du vill definiera andra element som kan hjälpa dig att lösa ditt arbete, vill du använda andra objekt som lagras under [!UICONTROL Projects], [!UICONTROL Tasks], [!UICONTROL Issues], eller [!UICONTROL Portfolios], gilla [!UICONTROL Documents], [!UICONTROL Notes], [!UICONTROL Hours], [!UICONTROL Users], eller [!UICONTROL Job Roles].
+Om du till exempel planerar en stor mängd arbete måste du använda [!UICONTROL Project] -objekt för att definiera det arbetet. Om du vill dela upp arbetet i mindre planerade steg kan du använda [!UICONTROL Task] -objekt. För en mindre mängd arbete som inte är planerat och som kan utföras oväntat kan du använda objektet Utgåva. Om du vill följa förloppet och hur budgeten och tidslinjen följs för en grupp projekt kan du ordna dem i [!UICONTROL Portfolios] och [!UICONTROL Programs]. Om du vill definiera andra element som kan hjälpa dig att lösa ditt arbete, vill du använda andra objekt som lagras under [!UICONTROL Projects], [!UICONTROL Tasks], [!UICONTROL Issues], eller [!UICONTROL Portfolios], gilla [!UICONTROL Documents], [!UICONTROL Updates], [!UICONTROL Hours], [!UICONTROL Users], eller [!UICONTROL Job Roles].
 
 [!UICONTROL Reports] och [!UICONTROL Dashboards] är ett annat exempel på objekt som kan hjälpa dig att ordna mängden data du har i [!DNL Workfront] visuellt för att göra det enkelt för alla användare.
 
@@ -53,14 +53,14 @@ Nedan följer några av de vanligaste objekten i [!DNL Workfront] och deras resp
 
 För en fullständig lista över objekt i [!DNL Workfront], se [API Explorer](../../../wf-api/general/api-explorer.md).
 
-*Planerna är objekten i [!DNL Workfront Scenario Planner]. Mer information om [!DNL Scenario Planner], se [The [!UICONTROL Scenario Planner] översikt](../../../scenario-planner/scenario-planner-overview.md).
+*Planerna är objekten i [!DNL Adobe Workfront Scenario Planner]. Mer information om [!DNL Scenario Planner], se [The [!UICONTROL Scenario Planner] översikt](../../../scenario-planner/scenario-planner-overview.md).
 
-*[!UICONTROL Goals] är objekten i [!DNL Workfront Goals]. Mer information om [!DNL Workfront Goals], se [[!DNL Adobe Workfront Goals] översikt](../../../workfront-goals/goal-management/wf-goals-overview.md).
+*[!UICONTROL Goals] är objekten i [!DNL Adobe Workfront Goals]. Mer information om [!DNL Workfront Goals], se [[!DNL Adobe Workfront Goals] översikt](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 
 ## Anpassa objektnamn
 
-Som [!DNL Workfront] kan du anpassa objektnamn i [!DNL Workfront] genom att använda  [!UICONTROL Layout Template].
+Som en [!DNL Workfront] kan du anpassa objektnamn i [!DNL Workfront] genom att använda  [!UICONTROL Layout Template].
 
 Mer information om hur du anpassar objektnamn med en  [!UICONTROL Layout Template], se [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -72,7 +72,7 @@ När du har anpassat en layoutmall och tilldelat den till användare, ser dessa 
 
 >[!IMPORTANT]
 >
->The [!DNL Workfront] dokumentation refererar alltid till objektens standardnamn. Som [!DNL Workfront] måste du informera användarna om ändringarna i objektnamnen så att de kan förstå hur de använder [!DNL Workfront] dokumentation, samt de områden i programmen som inte återspeglar ändringarna i objektens namn.
+>The [!DNL Workfront] dokumentation refererar alltid till objektens standardnamn. Som en [!DNL Workfront] måste du informera användarna om ändringarna i objektnamnen så att de kan förstå hur de använder [!DNL Workfront] dokumentation, samt de områden i programmen som inte återspeglar ändringarna i objektens namn.
 
 * [Objektnamn som kan anpassas med en  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-layout-template)
 * [Områden i [!DNL Workfront] som återspeglar de anpassade objektnamnen](#areas-of-workfront-that-reflect-the-customized-object-names)
@@ -80,7 +80,7 @@ När du har anpassat en layoutmall och tilldelat den till användare, ser dessa 
 
 ### Objektnamn som kan anpassas med en [!UICONTROL Layout Template]
 
-Som [!DNL Workfront] kan du anpassa namnen på följande objekt så att de matchar terminologin i organisationen:
+Som en [!DNL Workfront] kan du anpassa namnen på följande objekt så att de matchar terminologin i organisationen:
 
 * [!UICONTROL Portfolio]
 * [!UICONTROL Program]
@@ -91,16 +91,16 @@ Som [!DNL Workfront] kan du anpassa namnen på följande objekt så att de match
 * [!UICONTROL Result]*
 * [!UICONTROL Activity]*
 
-   *[!UICONTROL Goals], [!UICONTROL results]och [!UICONTROL activities] är endast tillgängliga om ditt företag har köpt [!DNL Workfront Goals]. Mer information om [!DNL Workfront Goals], se [[!DNL Adobe Workfront Goals] översikt](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  *[!UICONTROL Goals], [!UICONTROL results]och [!UICONTROL activities] är endast tillgängliga om ditt företag har köpt [!DNL Workfront Goals]. Mer information om [!DNL Workfront Goals], se [[!DNL Adobe Workfront Goals] översikt](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 * [!UICONTROL Initiative]**
 * [!UICONTROL Scenario]**
 * [!UICONTROL Plan]**
 
-   **[!UICONTROL Initiatives], [!UICONTROL scenarios]och [!UICONTROL plans] är bara tillgängliga om ditt företag har köpt [!DNL Workfront Scenario Planner]. Mer information om [!DNL Scenario Planner], se [Kom igång med [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
+  **[!UICONTROL Initiatives], [!UICONTROL scenarios]och [!UICONTROL plans] är bara tillgängliga om ditt företag har köpt [!DNL Workfront Scenario Planner]. Mer information om [!DNL Scenario Planner], se [Kom igång med [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
 
 
-Om den större mängden arbete i organisationen till exempel kallas för engagemang kan du ersätta namnet[!UICONTROL Project]&#39; med &#39;Engagement&#39;. Dina [!DNL Workfront] gränssnittet visar&quot;Engagement&quot; i stället för[!UICONTROL Project]&#39; överallt där namnet &#39;[!UICONTROL Project]visas.
+Om den större mängden arbete i organisationen till exempel kallas för engagemang kan du ersätta namnet[!UICONTROL Project]&#39; med &#39;Engagement&#39;. Dina [!DNL Workfront] gränssnittet visar&quot;Engagement&quot; i stället för[!UICONTROL Project]&#39; överallt där namnet &#39;[!UICONTROL Project]skulle visas.
 
 Mer information om hur du kan anpassa objektnamn med  [!UICONTROL Layout Templates], se [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -132,20 +132,20 @@ I följande områden visas inte objektens uppdaterade namn:
 
 * [!DNL Outlook] Tillägg
 
-## Konsekvenser av anpassning av objektnamn
+### Konsekvenser av anpassning av objektnamn
 
 Du bör vara medveten om följande när du anpassar objektnamn i [!DNL Workfront]:
 
 * Du kan stöta på stilistiska eller grammatiska fel på systemskärmar. Om du till exempel byter namn på &#39;[!UICONTROL Issue]till &#39;Begäran&#39; och du ser var som helst i systemet frasen &#39;En begäran&#39;, som fungerar som det ska och som inte ska betraktas som ett fel.
 * Dina anpassade namn för objekten är inte översättningsbara. Endast [!DNL Workfront] standardnamn kan översättas på de språk som stöds. Mer information om språk som stöds i [!DNL Workfront], se [Språk som stöds på [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md). De anpassade objektnamnsfälten har stöd för främmande tecken så att du kan ange terminologi på vilket språk som helst.
 * När du anpassar objektnamn med en  [!UICONTROL Layout Template]rekommenderar vi att du tilldelar  [!UICONTROL Layout Templates] runt era affärsenheter (team eller grupper).\
-   Vi rekommenderar att du använder namn som är tydliga för användarna av dessa affärsenheter för att undvika förvirring.
+   Vi rekommenderar att du använder namn som är tydligt begripliga för användarna av dessa affärsenheter för att undvika förvirring.
 * E-postmeddelanden och levererade rapporter innehåller alltid objektnamn som definieras av  [!UICONTROL Layout Template] för den användare som genererar e-postmeddelandet. Dina användare bör vara förberedda på att se objektnamn i sina e-postmeddelanden som inte är relaterade till deras grupp eller team, om de får e-postmeddelanden från användare i andra team och grupper.\
-   Som [!DNL Workfront] -administratör, rekommenderar användare att lägga märke till de ikoner som är associerade med varje objekt. Ikonerna är desamma för olika objektnamn och överensstämmer med standardobjektet så som det visas i databasen. För en lista med alla [!DNL Workfront] ikoner som är kopplade till objekt, se [Objektikoner](#object-icons).
+   Som en [!DNL Workfront] -administratör, rekommenderar användare att lägga märke till de ikoner som är associerade med varje objekt. Ikonerna är desamma för olika objektnamn och överensstämmer med standardobjektet så som det visas i databasen. För en lista med alla [!DNL Workfront] ikoner som är kopplade till objekt, se [Objektikoner](#object-icons).
 
-   >[!TIP]
-   >
-   >För vanliga uppgifter i organisationen bör du överväga att skapa anpassad dokumentation som återspeglar din terminologi.
+  >[!TIP]
+  >
+  >För vanliga uppgifter i organisationen bör du överväga att skapa anpassad dokumentation som återspeglar din terminologi.
 
 ## Objektikoner
 
@@ -197,7 +197,7 @@ Alla objekt är inte sökbara i [!DNL Workfront]. Du kan utföra enkla och avanc
 | [!UICONTROL Programs] | ✓ | ✓ |
 | [!UICONTROL Dashboards] | ✓ | ✓ |
 | [!UICONTROL Companies] | ✓ | ✓ |
-| [!UICONTROL Notes] | ✓ |  |
+| [!UICONTROL Notes] (eller [!UICONTROL Updates]) | ✓ |  |
 
 Mer information om hur du kör enkla och avancerade sökningar i [!DNL Workfront], se [Sök [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
@@ -232,26 +232,26 @@ Du kan rapportera följande objekt när du använder rapportverktyget i [!DNL Wo
 * [!UICONTROL Approval]
 * [!UICONTROL Approval Process]
 * [!UICONTROL Assignment]
-* [!UICONTROL Backlog Work Item]\
-   Visar aktiviteter eller problem i den flexibla eftersläpningen. Mer information om den flexibla eftersläpningen finns i [Hantera den flexibla eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+<!--this is no longer available: * [!UICONTROL Backlog Work Item]\
+   Displays tasks or issues on the agile backlog. For more information about the agile backlog, see [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).-->
 
 * [!UICONTROL Baseline]
 * [!UICONTROL Baseline Task]
 * [!UICONTROL Billing Record]
 * [!UICONTROL Budgeted Hour]
 
-   Det här är [!UICONTROL Budgeted Hours], som de visas i de äldre, föråldrade resurshanteringsverktygen.
+  Det här är [!UICONTROL Budgeted Hours], som de visas i de äldre, föråldrade resurshanteringsverktygen.
 
-   &quot;Bud. Timmar i fältet [!UICONTROL Budgeted Hour] rapport refererar till de timmar som har budgeterats för jobbroller i [!UICONTROL Resource Planner]. Mer information finns i [Förstå [!UICONTROL Budgeted Labor Cost] och [!UICONTROL Budgeted Hours] för projekt](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  &quot;Bud&quot;. Timmar i fältet [!UICONTROL Budgeted Hour] rapport refererar till de timmar som har budgeterats för jobbroller i [!UICONTROL Resource Planner]. Mer information finns i [Förstå [!UICONTROL Budgeted Labor Cost] och [!UICONTROL Budgeted Hours] för projekt](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Calendar Event]
-* [!UICONTROL Category] (eller [!UICONTROL Custom Form])
 * [!UICONTROL Company]
+* [!UICONTROL Custom Form]
 * [!UICONTROL Dashboard]
 * [!UICONTROL Document]
 * [!UICONTROL Document Approval]
 * [!UICONTROL Document Version]\
-   Här kan du visa olika information om dokumentets version, det dokument som versionen är kopplad till, vem som skapade versionen och den användare som skapade korrekturet i dokumentversionen om det finns ett sådant (korrekturläsare).
+   Du kan visa information om dokumentets version, det dokument som versionen är kopplad till, vem som skapade versionen och den användare som skapade korrekturet i dokumentversionen om det finns ett sådant (korrekturläsare).
 * [!UICONTROL Email Template]
 * [!UICONTROL Expense]
 * [!UICONTROL Expense Type]
@@ -260,65 +260,59 @@ Du kan rapportera följande objekt när du använder rapportverktyget i [!DNL Wo
 * [!UICONTROL Filter]
 * [!UICONTROL Goal]
 
-   Du kan skapa en rapport för strategiska mål eller så kan du visa målrelaterad information i en projektrapport när projekt är kopplade till mål som målaktiviteter. Du kan skapa strategiska mål och koppla ihop projekt med dem endast om din organisation har köpt en [!DNL Workfront Goals] licens. Mer information om [!DNL Workfront Goals], se [[!DNL Workfront Goals] översikt](../../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om hur du ansluter projekt till strategiska mål finns i [Lägga till projekt i mål i Adobe Workfront-mål](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Du kan skapa en rapport för strategiska mål eller så kan du visa målrelaterad information i en projektrapport när projekt är kopplade till mål som målaktiviteter. Du kan skapa strategiska mål och koppla ihop projekt med dem endast om din organisation har köpt en [!DNL Workfront Goals] licens. Mer information om [!DNL Workfront Goals], se [[!DNL Workfront Goals] översikt](../../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om hur du ansluter projekt till strategiska mål finns i [Lägg till projekt i mål i Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: hardcoded links in this paragraph)
-  </MadCap:conditionalText>
-  -->
-
-   >[!TIP]
-   >
-   >Du kan inte rapportera om projektmål som är kopplade till en [!UICONTROL Business Case]. Mer information om projektmål jämfört med strategiska mål finns i [Ordlista för [!DNL Adobe Workfront] terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >[!TIP]
+  >
+  >Du kan inte rapportera om projektmål som är kopplade till en [!UICONTROL Business Case]. Mer information om projektmål jämfört med strategiska mål finns i [Ordlista för [!DNL Adobe Workfront] terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Group]
 * [!UICONTROL Grouping]
 * [!UICONTROL Hour Type]
 * [!UICONTROL Initiative]
 
-   Du kan bara skapa en rapport för initiativ som är underordnade objekt till en plan om ditt företag har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om initiativ finns i [Översikt över initiativen i [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
+  Du kan bara skapa en rapport för initiativ som är underordnade objekt till en plan om ditt företag har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om initiativ finns i [Översikt över initiativen i [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
 
 * Initiera jobbroll
 
-   Du kan bara skapa en rapport för de jobbroller som är kopplade till initiativen i en plan om ditt företag har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om hur du skapar initiativ och associerar dem med jobbroller finns i [Skapa och redigera i [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
+  Du kan bara skapa en rapport för de jobbroller som är kopplade till initiativen i en plan om ditt företag har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om hur du skapar initiativ och associerar dem med jobbroller finns i [Skapa och redigera i [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]
 * [!UICONTROL Journal Entry]
 
-   Du kan rapportera om spårade systemuppdateringar i [!UICONTROL Updates] områden med objekt som uppgifter, projekt, problem osv. Mer information finns på [Rapport om [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+  Du kan rapportera om spårade systemuppdateringar i [!UICONTROL Updates] områden med objekt som uppgifter, projekt, problem osv. Mer information finns på [Rapport om [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layout Template]
 * [!UICONTROL Milestone]
 * [!UICONTROL Milestone Path]
-* [!UICONTROL Note]
+* [!UICONTROL Note] eller [!UICONTROL Updates]
 
-   >[!NOTE]
-   >
-   >Du kan rapportera kommentarer som lagts till av enskilda användare.
+  >[!NOTE]
+  >
+  >Du kan rapportera kommentarer som lagts till av enskilda användare.
 
 * [!UICONTROL Parameter] (eller [!UICONTROL Custom Field])
 * [!UICONTROL Parameter Group] (eller [!UICONTROL Section Break])
-* [!UICONTROL Portal Profile] (här visas information som har tagits bort)
+  <!--this is no longer in the UI: * [!UICONTROL Portal Profile] (this displays information that has been deprecated)-->
 * [!UICONTROL Portfolio]
 * [!UICONTROL Program]
 * [!UICONTROL Project] ([!UICONTROL Financial Data])
 
-   >[!NOTE]
-   >
-   >Ekonomisk information fylls i i [!UICONTROL Project] ([!UICONTROL Financial Data]) rapporteras endast när de data som hör till den är yngre än 5 år. Om en jobbroll till exempel allokerades till en uppgift i januari 2015 och idag är september 2021, är det ett finansfält som [!UICONTROL Allocation Date] för jobbrollen inte fylls i i [!UICONTROL Project (Financial Data)] rapport.
+  >[!NOTE]
+  >
+  >Ekonomisk information fylls i i [!UICONTROL Project] ([!UICONTROL Financial Data]) rapporteras endast när de data som hör till den är yngre än 5 år. Om en jobbroll till exempel allokerades till en uppgift i januari 2015 och idag är september 2021, är det ett finansfält som [!UICONTROL Allocation Date] för jobbrollen inte fylls i i [!UICONTROL Project (Financial Data)] rapport.
 
 * [!UICONTROL Proof Approval]\
-   Här kan du visa olika information om korrekturgodkännandet, inklusive: Beviset som skickats in för godkännande, information om [!UICONTROL Approver], information om den begärande (om den begärande parten är en licensierad [!DNL Workfront] användare), versionsinformation, korrektur-ID och datum när korrekturet skapades.\
+   Gör att du kan visa olika uppgifter om bevisgodkännandet, inklusive: beviset som skickades för godkännande, information om [!UICONTROL Approver], information om den begärande parten (om den begärande parten är en licensierad [!DNL Workfront] användare), versionsinformation, korrektur-ID och datum när korrekturet skapades.\
    [!UICONTROL Proof Approval] rapporter innehåller endast korrektur som är tillgängliga i användarnas arbetsytor där beslut ännu inte har fattats.\
    Bevisgodkännanden tilldelas i [!DNL Workfront] enligt beskrivning [Lägga till användare i ett korrektur](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Dela ett korrektur inom [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 * [!UICONTROL Queue]
 * [!UICONTROL Queue Topic]
-* [!UICONTROL Rate] (här visas jobbroll [!UICONTROL Billing Rate] information)
+* [!UICONTROL Rate] (här visas befattningsroll [!UICONTROL Billing Rate] information)
 * [!UICONTROL Reminder Notification]
 * [!UICONTROL Report]
 * [!UICONTROL Resource Pool]
@@ -331,14 +325,15 @@ Du kan rapportera följande objekt när du använder rapportverktyget i [!DNL Wo
 * [!UICONTROL Template Task]
 * [!UICONTROL Time Off]
 
-   Du kan rapportera användarens ledig tid enligt vad användaren anger i sin profil.
+  Du kan rapportera användarens ledig tid enligt vad användaren anger i sin profil.
 
 * [!UICONTROL Timesheet]
 * [!UICONTROL Timesheet Profile]
 * [!UICONTROL Topic Group]
+* [!UICONTROL User Approval]
 * [!UICONTROL User Delegation]
 
-   Du kan rapportera om användare som har delegerats att utföra andra uppgifter och problem medan de inte är på kontoret. Den här rapporten visar den användare som inte är på kontoret samt den användare som fullgör sina uppgifter medan de är ute.
-
+  Du kan rapportera om användare som har delegerats att utföra andra uppgifter och problem medan de inte är på kontoret. Den här rapporten visar den användare som inte är på kontoret samt den användare som fullgör sina uppgifter medan de är ute.
+* [!UICONTROL Users Decisions]
 * [!UICONTROL View]
-* [!UICONTROL Work Item] (avser uppgifter och ärenden)
+* [!UICONTROL Work Item] (här skapas en rapport för uppgifter och problem)

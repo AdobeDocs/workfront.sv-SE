@@ -4,13 +4,13 @@ description: Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
-
 
 # Hantera tidslinjevyn
 
@@ -27,6 +27,8 @@ role: User
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
 >
 >För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
 >
@@ -261,5 +263,3 @@ Uppdatera inställningarna för tidslinjevyn för att ange vilken information so
 1. Klicka **Spara**.
 
    Posterna visas i tidslinjevyn med de specifikationer som du har valt.
-
-

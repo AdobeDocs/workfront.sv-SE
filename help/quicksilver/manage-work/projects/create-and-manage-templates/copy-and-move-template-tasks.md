@@ -6,7 +6,7 @@ description: Du kan kopiera eller flytta en malluppgift till samma mall eller ti
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
 source-wordcount: '2127'
 ht-degree: 0%
@@ -70,9 +70,9 @@ Tänk på följande när du flyttar malluppgifter:
 
 * Följande information överförs som standard till den flyttade uppgiften:
 
-   * Anpassade formulär och anpassad fältinformation.
-   * Underaktiviteter.
-   * Användarkommentarer.
+   * Anpassade formulär och anpassad fältinformation
+   * Underaktiviteter
+   * Användarkommentarer
 
 * Följande information överförs inte till den flyttade aktiviteten:
 

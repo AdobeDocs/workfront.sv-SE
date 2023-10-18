@@ -6,9 +6,9 @@ description: Du kan flytta uppgifter till olika projekt eller till olika överor
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Tänk på följande när du flyttar en uppgift:
 
 Följande objekt flyttas inte med uppgiften som standard:
 
-* Milstolpar överförs till den kopierade aktiviteten och tas bort från den ursprungliga aktiviteten.
+* Milstolpar
 
 ## Flytta aktiviteter i en lista
 
