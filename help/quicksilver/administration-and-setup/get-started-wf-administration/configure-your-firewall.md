@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 13%
 >Information om hur du konfigurerar tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe-appar och -tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>Organisationens sätt att konfigurera tillåtelselista är unikt för varje organisation. Samarbeta med IT-avdelningen för att identifiera organisationens rutiner och implementera dessa tillägg.
 
 Om brandväggen eller e-postservern är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista. Detta öppnar kommunikationen mellan din miljö och Adobe Workfront-servrarna och tillåter följande processer:
 
