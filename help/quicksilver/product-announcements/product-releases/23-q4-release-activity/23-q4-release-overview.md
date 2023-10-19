@@ -4,9 +4,9 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -325,8 +325,8 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny startsida för medverkande: Ny startsida</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p>
-                        <p>Ny startsida är nu standardstartsida för medverkarkonton. Den nya standardstartsidan innehåller ett antal widgetar som är särskilt valda för att hjälpa medarbetarna att hantera sitt arbete direkt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny startsida för Contributor: Ny startsida</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span> </p>
+                        <p>Ny startsida är nu standardstartsida för Contributor-/begärande-konton. Den nya standardstartsidan innehåller ett antal widgetar som är särskilt markerade för att göra det möjligt för medarbetare att hantera sitt arbete direkt.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -628,27 +628,8 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterade e-postmallar</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
-                        <p>Vi har uppdaterat två av de vanligaste e-postmeddelandena som utgör början på ett nytt initiativ för att uppdatera våra e-postmeddelanden om evenemang: dokumentgodkännande och objektdelning.</p>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsversion: 12 oktober 2023</p>
-                            </li>
-                            <li>
-                                <p>Produktion för snabb lansering: Med version 23.10</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ändringar på huvudmenyn för Contributor</a> <span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
-                        <p>Om du vill informera medarbetarna bättre om vilka funktioner som är tillgängliga med en betald Workfront-licenstyp kan de nu se alla alternativ som finns på huvudmenyn.</p>
+                        <p>För att informera medverkande/begärande om vilka funktioner som är tillgängliga med en betald Workfront-licenstyp kan de nu se alla alternativ som finns på huvudmenyn.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>

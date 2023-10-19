@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: dc9d331045f5381290983a5b37bf16e72249422c
 workflow-type: tm+mt
-source-wordcount: '13344'
+source-wordcount: '13357'
 ht-degree: 0%
 
 ---
@@ -379,6 +379,8 @@ ht-degree: 0%
          * [Ny kommentarsfunktion](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Ny aktivitet för att frisläppa kommentarer](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nya vanliga frågor och svar om kommenteringsupplevelser](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
+      * Integreringsalfa för Workfront och Frame.io {#frame-io-wf-integration-alpha}
+         * [Adobe Workfront och Frame.io native integration alpha: översikt](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 * Administration och konfiguration {#administration-and-setup}
    * [Administration och konfiguration](administration-and-setup/administration-and-setup.md)
    * Kom igång med administration {#get-started-administration}

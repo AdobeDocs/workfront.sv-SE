@@ -6,9 +6,9 @@ description: Du kan begära ett dokument på alla objekt som har stöd för Doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Du måste ha följande:
 
    Du kan klicka på länken i e-postmeddelandet och sedan överföra dokumentet. Du kan också klicka på meddelandet i appen. Varje alternativ dirigerar dig till användarprofilsidan där du kan överföra det begärda dokumentet.
 
-   Du kan också svara direkt på e-postmeddelandet och bifoga de begärda dokumenten (om du har konfigurerats att stödja e-postsvar). Information om hur du konfigurerar e-postsvar finns i .
+   Du kan också svara direkt på e-postmeddelandet och bifoga de begärda dokumenten (om du har konfigurerats att stödja e-postsvar).
 
 1. När du har överfört dokumentet kan den person som begärde det få åtkomst till dokumentet i sin personliga **Dokument** område.
 
