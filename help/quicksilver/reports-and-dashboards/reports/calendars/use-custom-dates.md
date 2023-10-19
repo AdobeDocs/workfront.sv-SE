@@ -6,9 +6,9 @@ description: En kalenderrapport är en dynamisk rapport som ger en visuell repre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -50,16 +50,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
-1. Du måste ha anpassade datumfält och ett värde i fältet som är tillgängligt i [!DNL Workfront] -instans. Om du inte har skapat något anpassat formulär med anpassade datum följer du instruktionerna i de två första avsnitten i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Du måste ha anpassade datumfält och ett värde i fältet tillgängligt i [!DNL Workfront] -instans. Om du inte har skapat något anpassat formulär med anpassade datum följer du instruktionerna i de två första avsnitten i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Bifoga det anpassade formuläret till ett projekt, en uppgift eller ett ärende som du tänker lägga till i kalendern och ange ett datum. Mer information finns i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Ställ in artikelgruppen
 
-Du kan välja hur du vill att objektgruppen ska visas i kalendern.
+Du kan välja hur du vill att gruppen med objekt ska visas i din kalender.
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Calendars]**.
 
@@ -101,7 +101,7 @@ Du kan välja hur du vill att objektgruppen ska visas i kalendern.
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Custom Dates]</strong></td>
-      <td><p>Ange det anpassade datumnamnet som är kopplat till objektet som du vill spåra.</p></td>
+      <td><p>Ange det anpassade datumnamnet som är kopplat till objektet som du vill spåra.</p><p><strong>OBS!</strong> Sökningen efter det anpassade datumnamnet är begränsad till 50 resultat för att undvika prestandaproblem.</td>
      </tr>
     </tbody>
    </table>
@@ -121,7 +121,7 @@ När du har ställt in hur du vill att objekten ska visas måste du lägga till 
 1. Klicka **[!UICONTROL Add Tasks]**, **[!UICONTROL Add Projects]**, eller **[!UICONTROL Add Issues]**, beroende på vilken objekttyp du lägger till i kalendern.\
    ![Välj objekt för kalender](assets/field-name.png)
 
-1. I listrutan börjar du skriva fältnamnet och väljer sedan fältkällan för objektet som du vill visa i kalendern (till exempel **[!UICONTROL Late Tasks]**).
+1. I listrutan börjar du skriva fältnamnet och väljer sedan fältkällan för det objekt som du vill visa i kalendern (till exempel **[!UICONTROL Late Tasks]**).
 1. Ange en villkorssats för kalendergrupperingen.
 
    ![Villkorssats](assets/condition-statement-calendar.png)
