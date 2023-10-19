@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ Förhandsgranskning och produktion: 16 oktober 2023
 
 Vi har lagt till kontroller för Rich Text-format för stycketextfält. Du kan formatera styckefält med RTF-text antingen i tabellvyn för en posttyp eller på detaljsidan för en post. Mer information finns i [Redigera poster](../maestro/records/edit-records.md).
 
+
+### Spela in och gruppera färgkodning för tidslinjevyn
+
+Förhandsgranskning och produktion: 19 oktober 2023
+
+Nu kan du färgkoda postfälten och grupperingarna i tidslinjevyn.
+
+Följande är alternativ för de färger som du kan välja att visa för poststaplar och grupperingar i tidslinjevyn:
+
+* Grupperingar kan matcha följande färger:
+
+   * Grå (standard)
+
+   * Färgen på fältet som du grupperar efter
+
+* Staplar kan matcha följande färger:
+
+   * Posttypens färg
+
+   * Färgen på ett fält som du väljer
+
+   * Färgen på grupperingen
+
+   * Ingen färg (standard)
+
+När du matchar färger till ett visst fält kan du bara markera fält med färgkodade alternativ.
+
+Mer information finns i [Hantera tidslinjevyn](../maestro/views/manage-the-timeline-view.md).
 
 ## Vecka 9 oktober 2023
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 1. Klicka **Logga in.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ När du loggar in som en annan användare ändras det senaste inloggningsdatumet
 När du loggar in på Workfront som en annan användare och utför en åtgärd, visar Workfront tydligt att alla åtgärder du utför görs av dig för den användare som du är inloggad som.
 
 Om du till exempel kommenterar ett objekt när du är inloggad som en annan användare, visar en programsats att du har gjort kommentaren å användarens vägnar.
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->När du använder den nya kommentarsfunktionen läggs kommentaren till som den användare som loggade in som en annan användare och det finns inget som tyder på att han/hon lägger till en kommentar för någon annans räkning.
->
->Om en Workfront-administratör till exempel loggar in som en annan användare är den användare som är associerad med kommentaren Workfront-administratören. Mer information finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### Visa granskningsinformation {#view-audit-information}
 

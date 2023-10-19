@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -65,23 +65,23 @@ Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av d
   >
   >    Iterationer kommer även i fortsättningen att ha den gamla kommentarsfunktionen. Den nya kommentarfunktionen är inte tillgänglig för upprepningar.
 
+* Första kvartalet 2024 (januari 2024):
+
+   * Alternativet att växla tillbaka till den tidigare kommentarströmmen tas bort och den nya kommentarströmmen blir den enda upplevelsen för alla objekt, med undantag för iterationer.
+
 ## Frisläppta funktioner
 
 Följande avsnitt innehåller en lista med funktioner som har lagts till efter den ursprungliga version 23.2, med början de som släpptes senast.
 
 Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. I den här artikeln listas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### Vecka 16 oktober 2023
 
-### Week of October 9, 2023
+#### Lägg till informationen &quot;för &lt; användarnamn >&quot; när du kommenterar när du är inloggad som en annan användare
 
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+När vi gjorde om kommentarfunktionerna hade vi tagit bort indikatorn &quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör lade till kommentarer medan han/hon var inloggad som en annan användare. Informationen har nu återställts.
 
-While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
-
-Preview and production for all customers: October 13, 2023. 
-
--->
+Förhandsgranska och producera för alla kunder: 19 oktober 2023.
 
 ### Vecka 11 september 2023
 

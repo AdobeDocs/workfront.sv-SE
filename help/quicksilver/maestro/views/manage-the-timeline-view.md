@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ Så här hanterar du en tidslinjevy:
 
 ### Lägg till filter
 
-Med filter kan du minska mängden information som visas på skärmen.
+Du kan minska mängden information som visas på skärmen genom att använda filter.
 
 Tänk på följande när du arbetar med filter i tidslinjevyn:
 
@@ -166,13 +166,13 @@ Tänk på följande när du arbetar med filter i tidslinjevyn:
 
 * Filtren är unika för den vy du väljer. Två tidslinjevyer av samma posttyp kan ha olika filter. Två användare som tittar på samma tidslinjevy ser samma filter som används för närvarande.
 
-* Du kan inte namnge de filter som du skapar och använder i en tidslinjevy.
+* Du kan inte namnge de filter som du skapar för en tidslinjevy.
 
-* När du tar bort filter tas de bort från alla som använder samma posttyp som du och använder samma vy som du använder.
+* När du tar bort filter tas de bort från alla som använder samma posttyp som du och som visar samma vy som du.
 
-Att lägga till filter i tidslinjevyn är detsamma som att lägga till filter i tabellvyn.
+* Att lägga till filter i tidslinjevyn är detsamma som att lägga till filter i tabellvyn.
 
-Mer information finns i avsnittet&quot;Lägg till filter&quot; i artikeln [Hantera tabellvyn](../views/manage-the-table-view.md).
+  Mer information finns i avsnittet&quot;Lägg till filter&quot; i artikeln [Hantera tabellvyn](../views/manage-the-table-view.md).
 
 ### Lägg till gruppering
 
@@ -180,45 +180,49 @@ Mer information finns i avsnittet&quot;Lägg till filter&quot; i artikeln [Hante
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 Du kan gruppera poster efter liknande information när du tillämpar en gruppering på en vy.
 
 Tänk på följande när du arbetar med grupperingar i tidslinjevyn:
 
-* Du kan använda grupperingar både i tabell- och tidslinjevyerna. Grupperingarna i tabellvyn är oberoende av grupperingarna i tidslinjevyn av samma posttyp.
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * Du kan använda tre nivåer av gruppering i en maestro-vy. Posterna grupperas i den ordning som du väljer grupperingar.
 * Du kan använda upp till fyra nivåer av gruppering när du använder API:t.
+* Grupperingarna är unika för den vy du väljer. Två tidslinjevyer av samma posttyp kan ha olika grupperingar. Två användare som tittar på samma tidslinjevy ser samma gruppering som används för närvarande.
+
+* Du kan inte namnge grupperingarna som du skapar för en tidslinjevy.
+
+* Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
 
 Så här lägger du till en gruppering:
 
-1. Skapa en tidslinjevy enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
-1. Klicka **Gruppering**.
+1. Skapa en tidslinjevy för en posttyp, enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
+1. Klicka **Gruppering** i det övre högra hörnet av tidslinjevyn.
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** och söker efter ett annat fält och klickar sedan på det när det visas i listan.
+1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** söker du efter ett annat fält och klickar sedan på det när det visas i listan.
 
    >[!TIP]
    >
    >Du kan inte markera länkade fält.
 
-   Grupperingen används automatiskt på tidslinjen och posterna visas inuti grupperingsrutan. Antalet objekt i en gruppering visas på grupperingsraden.
+   Grupperingen används automatiskt på tidslinjen och posterna visas inuti grupperingsrutan.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till upp till tre grupperingar.
 
-   Antalet grupperingar som används visas till vänster om grupperingsikonen i det övre högra hörnet av verktygsfältet.
+   Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Valfritt) Klicka på **x** till höger om en gruppering för att ta bort grupperingen
+1. (Valfritt) Klicka på **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
    eller
 
-   Klicka **Rensa alla** om du vill ta bort alla grupperingar.
+   Klicka **Rensa alla** om du vill ta bort alla fält.
 
 1. Klicka utanför **Gruppera poster efter** för att stänga den.
 
@@ -232,20 +236,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### Redigera inställningarna för tidslinjevyn {#edit-the-timeline-view-settings}
 
-Uppdatera inställningarna för tidslinjevyn för att ange vilken information som ska visas i tidslinjeavsnittet i vyn.
+Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informationen ska visas i tidslinjeavsnittet i vyn.
 
-1. Skapa en tidslinjevy enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
+1. Skapa en tidslinjevy för en posttyp, enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
 1. Klicka **Inställningar**.
 1. Klicka **Datum och tid** i den vänstra panelen väljer du en **Startdatum** och **Slutdatum** som ska visas på tidslinjen. Du kan välja standarddatum för start och slut eller välja ett tillgängligt datumfält. De staplar som representerar posterna börjar på det datum som du anger som startdatum och slutar på det datum som motsvarar slutdatumet.
 
    >[!NOTE]
    >
-   >    Poster som inte har några värden för start- eller slutdatum eller som har ett startdatum efter slutdatumet visas inte i tidslinjevyn.
+   >Poster som inte har några värden för start- eller slutdatum eller som har ett startdatum efter slutdatumet visas inte i tidslinjevyn.
 
+1. Klicka **Stapelformat** i den vänstra panelen för att ange vilka fält som ska visas i postfälten.
 
-1. Klicka **Postinformation** för att ange vilka fält du vill visa på poststrecken.
-
-   Fältet Namn är markerat som standard.
+   Fältet Namn är markerat som standard. <!--adjust this when the primary field is released??-->
 
 1. Klicka **Lägg till fält** om du vill lägga till upp till fyra fält i postfälten.
 1. Klicka inuti **Sökfält** och klicka på det fält som du vill lägga till.
@@ -259,6 +262,41 @@ Uppdatera inställningarna för tidslinjevyn för att ange vilken information so
    En förhandsvisning av hur staplarna kommer att se ut på tidslinjen visas till höger.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. Klicka **Färg** i den vänstra panelen, om du vill anpassa färgerna för posterna och grupperingarna på tidslinjen.
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. (Villkorligt och valfritt) Om du har lagt till en gruppering i tidslinjevyn väljer du bland följande alternativ för att ange en färg för grupperingen i **Ange grupperingsfärg** avsnitt:
+
+   * **Standard (grått)**: Färgen på grupperingarna är inställd på grått. Det här är standardinställningen.
+   * **Fältvärden**: Färgen på grupperingarna matchar färgen på fältet som du grupperar efter.
+Du kan bara matcha färgen på grupperingarna mot fält med färgkodade alternativ.
+
+   Flervalsfält eller envalsfält kan t.ex. ha färgkodade alternativ.
+
+   Om du grupperar efter fält utan färgkodade alternativ förblir grupperingsfärgen grå.
+
+   >[!TIP]
+   >
+   >Om du inte har lagt till grupperingar i tidslinjevyn visas inte det här avsnittet.
+
+1. I **Ange postfärg** väljer du bland följande alternativ för att ange en färg för posterna:
+
+   * **Posttyp**: Färgen på posterna matchar färgen på den posttyp du valde. Det här är standardalternativet.
+   * **Fältvärden**: Färgen på posterna matchar färgen i ett fält som du anger. Fortsätt med steg 10. <!--ensure this stays accurate-->
+   * **Gruppering**: Färgen på posterna matchar färgen som du angav för grupperingarna. Det här alternativet är nedtonat när du inte har använt några grupperingar på tidslinjevyn.
+   * **Ingen**: Poster visas i ett vitt fält.
+
+1. (Villkorligt) Om du har valt **Fältvärden** för postfärgerna väljer du ett fält på menyn **Matcha postfärgen till** listruta.
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   Endast fält med färgkodade alternativ visas i listrutan.
+
+   Flervalsfält eller envalsfält kan t.ex. ha färgkodade alternativ.
+
+   Om du inte har något fält med färgkodade alternativ för den valda posttypen är det här alternativet nedtonat.
 
 1. Klicka **Spara**.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,10 @@ En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvec
 
 Den nya kommentarsfunktionen blir långsamt tillgänglig för alla objekt med uppdateringsavsnittet i Workfront, och senare kommer den att utvidgas till andra Adobe Experience Cloud-program.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## Funktioner
@@ -50,7 +47,7 @@ Följande funktioner har tagits bort från den nya versionen:
 * Kommentera en systemuppdatering
 * Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs
 * Redigera eget formulär
-* Informationen&quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör loggar in som en annan användare och lägger till en kommentar för deras räkning. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* Informationen&quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör loggar in som en annan användare och lägger till en kommentar för dennes räkning togs ursprungligen bort. Den återinfördes den 19 oktober 2023.
 * Alternativet Fråga efter godkännande när du taggar personer när du lägger till en kommentar i ett dokument.
 
 >[!NOTE]
@@ -381,34 +378,36 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Lös kommentarer 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>3 kv 2023 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Sök i kommentarer 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>3 kv 2023 
+   <td>1 kv 2024 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Kopiera och klistra in bilder i en kommentar
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>1 kv 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>Redigera eget formulär 
    </td>
@@ -456,7 +455,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

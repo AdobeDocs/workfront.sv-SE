@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -133,8 +133,6 @@ Informationen i uppdateringsavsnittet är organiserad på olika sätt beroende p
 
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
@@ -211,8 +209,6 @@ Information om vilka funktioner som är tillgängliga för den nya kommentarsfun
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## Uppdateringar som också visas på objekt med högre rankning
 
@@ -325,18 +321,13 @@ Adobe Workfront-administratörer och gruppadministratörer kan logga in som andr
 
 Mer information finns i [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Alla kommentarer som görs för en annan användares räkning anges i kommentaren.
+Tänk på följande när du loggar in som en annan användare och lägger till kommentarer:
 
-<!--remove the note below when we release this back to the new commenting-->
+* Alla kommentarer som görs för en annan användares räkning anges i kommentaren.
 
->[!NOTE]
->
->När du använder den nya kommentarsfunktionen läggs kommentaren till som den användare som loggade in som en annan användare och det finns inget som tyder på att han/hon lägger till en kommentar för någon annans räkning.
->
->Om en Workfront-administratör till exempel loggar in som en annan användare är den användare som är associerad med kommentaren Workfront-administratören. Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* En gruppadministratör kan kommentera för en annan persons räkning, men kan inte ta bort kommentaren. Det är bara en Adobe Workfront-administratör som kan ta bort en kommentar som de har gjort för en annan användares räkning.
 
-
-En gruppadministratör kan kommentera för en annan persons räkning, men kan inte ta bort kommentaren. Det är bara en Adobe Workfront-administratör som kan ta bort en kommentar som de har gjort för en annan användares räkning.
+* En Workfront- eller gruppadministratör kan bara redigera en kommentar som de har lagt till för en annan användares räkning när de loggar ut som användare och sedan loggar in som sig själva.
 
 ## Visa systemuppdateringar för arbetsobjekt med journalpostrapporten
 
