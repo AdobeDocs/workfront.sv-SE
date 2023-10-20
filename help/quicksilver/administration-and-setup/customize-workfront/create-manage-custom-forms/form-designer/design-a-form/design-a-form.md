@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 0%
 
 ---
@@ -502,7 +502,7 @@ Så här lägger du till typsnittsdatumfält:
 
 ### Lägg till externa sökfält
 
-Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja något av dessa alternativ i listrutan.
+Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan.
 
 Så här lägger du till en extern sökning:
 
@@ -540,7 +540,8 @@ Så här lägger du till en extern sökning:
      <tr> 
       <td role="rowheader">Bas-API-URL</td> 
       <td><p>Skriv eller klistra in URL:en för API:t.</p><p>API-URL:en måste returnera ett JSON-innehåll av de alternativ som du vill visa i listrutan. Du kan använda fältet JSON-sökväg för att välja specifika värden från den returnerade JSON-filen som ska vara listrutealternativ.</p><p>När du anger API-URL:en kan du välja att skicka följande värden i URL:en:</p>
-      <ul><li>$$query - Detta representerar den söktext som slutanvändaren skriver i fältet och gör att du kan implementera frågefiltrering för slutanvändarna. (Användaren söker efter värdet i listrutan.)</li>
+      <ul><li>$$QUERY - Detta representerar den söktext som slutanvändaren skriver i fältet och gör att du kan implementera frågefiltrering för slutanvändarna. (Användaren söker efter värdet i listrutan.)</li>
+      <li>$$HOST - Detta representerar den aktuella Workfront-värden och kan användas för att göra /search API-anrop till Workfront API. När jokertecknet används hanteras autentiseringen och användarna behöver inte skicka autentiseringshuvuden. (Användare kan t.ex. söka efter uppgifter med bas-URL:en "$$HOST/attask/api/task/search" och kan söka efter uppgifter och välja värden från en returnerad lista med uppgifter.)</li>
       <li>{fieldName} - Där fieldName är ett anpassat eller inbyggt fält i Workfront. På så sätt kan du implementera filtren för överlappande listrutor när du skickar värdet för ett redan markerat fält till fältet för extern sökning för att filtrera ned alternativen. (Fältet Region finns till exempel redan i formuläret och du begränsar en lista med länder från API:t till de som finns i en viss region.)</li></ul>
       <p><strong>OBS!</strong> Granska dokumentationen för API:t som du arbetar med för de specifika frågor som du kan definiera.</p></td> 
      </tr>
@@ -561,6 +562,15 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">Sidhuvuden</td>
       <td><p>Klicka <strong>Lägg till sidhuvud</strong>och skriv eller klistra in nyckelvärdepar som krävs för autentisering med API:t.</p><p><strong>OBS!</strong> Rubrikfälten är inte ett säkert ställe att lagra inloggningsuppgifter på och du bör vara försiktig med vad du anger och sparar.</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">Flervalsmeny</td>
+      <td><p>Välj det här alternativet om du vill tillåta användaren att välja mer än ett värde i listrutan.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">Gör ett obligatoriskt fält</td>
+      <td><p>Välj det här alternativet om du vill att fältet ska vara obligatoriskt för att användaren ska kunna fylla i det anpassade formuläret.</p></td>
+     </tr>       
     </tbody>
    </table>
 
