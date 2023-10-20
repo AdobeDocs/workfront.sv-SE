@@ -4,9 +4,9 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar i realtid i uppgiftslistan</a> </p>
+                        <p>[!BADGE In production]{type=Informative}</p>
+                        <p>Uppgiftslistor uppdateras nu i realtid. Ändringar som görs i en uppgift uppdateras i uppgiftslistan så att en användare som visar uppgiftslistan kan se ändringen utan att uppdatera sidan.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Ej tillämpligt<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion för alla kunder: fasad utrullning, klar 19 oktober 2023</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

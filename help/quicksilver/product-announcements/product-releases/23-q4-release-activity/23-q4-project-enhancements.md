@@ -3,9 +3,9 @@ title: Förbättringar av projektet för fjärde kvartalet 2023
 description: Förbättringar av projektet för fjärde kvartalet 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ Mer information finns i [Redigera information i anpassade formulärfält](/help/
 Vi har gjort en ändring i hur Planerade timmar tilldelas återkommande uppgifter utan tilldelningar och med en typ av enkel varaktighet. När du nu anger Planerade timmar för en ny återkommande aktivitet med enkel varaktighetstyp och utan tilldelningar, tilldelas även timmarna till de enskilda perioderna. Före den här ändringen sparades inte timmarna för enskilda återkommande aktiviteter när de överordnade aktiviteterna inte tilldelades.
 
 Mer information om hur du skapar återkommande uppgifter finns i [Skapa återkommande uppgifter](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Uppdateringar i realtid i uppgiftslistan
+
+Uppgiftslistor uppdateras nu i realtid. Ändringar som görs i en uppgift uppdateras i uppgiftslistan så att en användare som visar uppgiftslistan kan se ändringen utan att uppdatera sidan.
