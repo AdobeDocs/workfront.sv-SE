@@ -7,8 +7,9 @@ title: Scenarier i [!DNL Adobe] Workfront Fusion
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -37,9 +38,9 @@ Det här avsnittet innehåller följande artiklar:
 * [Schemalägg ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md)
 * [Aktivera eller inaktivera ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
 * [Lägga till ett filter i ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
-* [Felsökningsscenarier med [!DNL Adobe Workfront Fusion] DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
+* [Felsökningsscenarier med [!DNL Adobe Workfront Fusion] Utvecklingsverktyg](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
 * [Scenariomallar](../../workfront-fusion/scenarios/templates/fusion-templates.md)
-* [[!DNL Adobe Workfront Fusion] scenarioexempel: Koppla e-post, [!UICONTROL Text Parser]och [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
+* [[!DNL Adobe Workfront Fusion] scenarioexempel: ansluta e-post, [!UICONTROL Text Parser]och [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Återställa en scenarioversion i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Kopiera moduler eller scenarier i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [Visa och hantera låsta scenarier i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)

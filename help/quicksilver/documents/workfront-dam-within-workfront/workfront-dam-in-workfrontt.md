@@ -2,19 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Adobe Workfront DAM i Adobe Workfront
+title: ADOBE WORKFRONT DAM i ADOBE WORKFRONT
 description: Adobe Workfront DAM är ett DAM-system (Digital Asset Management) inom Adobe Workfront. Workfront DAM är en enda plats där du kan lagra dina digitala resurser och enkelt utnyttja dem från Workfront.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: c0de93c5-ee48-47b2-9862-c2f1993cae24
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront DAM i Adobe Workfront
+# ADOBE WORKFRONT DAM i ADOBE WORKFRONT
 
 Adobe Workfront DAM är ett DAM-system (Digital Asset Management) inom Adobe Workfront. Workfront DAM är en enda plats där du kan lagra dina digitala resurser och enkelt utnyttja dem från Workfront.
 

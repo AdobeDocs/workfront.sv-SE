@@ -7,8 +7,9 @@ navigation-topic: administration-and-setup
 description: Som Workfront-administratör kan du anpassa element som layoutmallar, anpassade formulär och statusvärden efter behoven hos användarna i din organisation.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: c9b16408-c02f-409e-91df-33288f3aae23
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%

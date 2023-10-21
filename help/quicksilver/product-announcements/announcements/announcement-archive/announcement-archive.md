@@ -5,7 +5,9 @@ title: Meddelandearkiv
 description: Det här avsnittet innehåller tidigare meddelanden om referens
 author: Luke
 feature: Product Announcements
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+recommendations: noDisplay, noCatalog
+exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 # Meddelandearkiv
 
-* [Uppdaterad mobilapp för iOS och Android (i början av augusti 2017)](updated-mobile-app.md)
+* [Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)](updated-mobile-app.md)
 * [TLS 1.2 krävs i Adobe Workfront](tls-1-disabled.md)
 * [Outlook 365-tillägget är nu tillgängligt](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
 * [Ersättning av verktyg baserade på Flash i Adobe Workfront](replace-flash-tools.md)
@@ -24,4 +26,3 @@ ht-degree: 0%
 * [Spoofing &amp; POP Reply](email-spoofing-pop-reply-message.md)
 * [Kunder som använder kluster 1, 2 och 3 måste uppdatera alla IP-block i tillåtelselista för att förhindra blockering av Adobe Workfront tjänster](clusters-1-3-update-whitelist.md)
 * [Ta bort anpassad SMTP som ett alternativ för utgående e-post](remove-custom-smtp.md)
-

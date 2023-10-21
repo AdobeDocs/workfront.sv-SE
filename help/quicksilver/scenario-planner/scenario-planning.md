@@ -6,8 +6,9 @@ title: Adobe Workfront Scenario Planner
 description: En lista med artiklar som beskriver funktionaliteten i Workfront Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
+recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Planer - översikt i [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
 * [Skapa och redigera planer i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)
 * [Skapa och jämföra planscenarier i [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)
-* [Ta bort planer i [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)
+* [Ta bort planer i dialogrutan [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)
 * [Översikt över initiativen i [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)
 * [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)
 * [Kopiera initiativ i [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)

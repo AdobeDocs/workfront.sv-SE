@@ -6,8 +6,9 @@ title: Uppgifter
 description: Uppgifter är mindre arbetsobjekt i Adobe Workfront som bidrar till slutförandet av ett projekt. Läs mer om hur du hanterar uppgifter i följande artiklar.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 3%

@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Visa godkännanden
 description: Godkännandeprocesser ger flexibilitet att skapa godkännanden i flera steg för projekt, uppgifter och ärenden. Adobe Workfront administratörer definierar godkännandeprocesser för att skapa enhetlighet i hela systemet.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -59,26 +59,26 @@ Du kan visa eller hantera godkännanden från följande områden:
 * I hemområdet
 
    * Alla projekt, uppgifter, utgåvor, tidrapporter, dokument och åtkomst som väntar på ditt godkännande visas i Hem-området när du väljer att visa alla eller godkännanden.
-   * Godkännanden som du har skickat själv visas även i Hem, under Godkännanden som jag har skickat i arbetslistan. Mer information finns i [Granska material som du skickar in för godkännande på Hem-sidan](#review-work-you-submit-for-approval-in-the-home-area) i den här artikeln.
+   * Godkännanden som du själv har skickat visas även i Hem, i avsnittet Godkännanden som jag har skickat i arbetslistan. Mer information finns i [Granska material som du skickar in för godkännande på Hem-sidan](#review-work-you-submit-for-approval-in-the-home-area) i den här artikeln.
    * Godkännanden tas bort från Hem-området när det associerade projektet, aktiviteten eller utgåvan har markerats som Löst, Spärrat, Stängt eller Avbrutet.
 
-   Mer information om hur du använder Home finns i [Kom igång med Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Mer information om hur du använder Home finns i [Kom igång med Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * I huvudet på ett projekt, en uppgift, en utgåva, ett dokument eller ett korrektur
 * I avsnittet Godkännanden för ett projekt, en uppgift eller ett ärende
 * I en rapport
 
-   >[!NOTE]
-   >
-   >Du kan inte fatta ett beslut om ett godkännande från en rapport.
+  >[!NOTE]
+  >
+  >Du kan inte fatta ett beslut om ett godkännande från en rapport.
 
-   Du kan skapa en rapport för projekt, uppgifter, utgåvor eller dokumentgodkännande som innehåller godkännandeinformation.
+  Du kan skapa en rapport för projekt, uppgifter, utgåvor eller dokumentgodkännande som innehåller godkännandeinformation.
 
-   Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Granska material som du skickar in för godkännande på Hem-sidan {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
    >
@@ -87,8 +87,7 @@ Du kan visa eller hantera godkännanden från följande områden:
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
 
-
-1. Välj **Arbetslista** klickar du på **Filter** nedrullningsbar meny och välj **Godkännanden**.
+1. Välj **Arbetslista** och klickar sedan på **Filter** nedrullningsbar meny och välj **Godkännanden**.
 1. Expandera **Godkännanden som jag har skickat** och hitta de godkännanden du skickade.
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)

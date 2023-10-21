@@ -6,8 +6,9 @@ title: Hantera korrekturmeddelanden
 description: Hantera meddelanden för korrekturkommentarer och beslut
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 85ed29bd-c5f5-4cc3-8ba9-24d45585dfbe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '20'
 ht-degree: 0%

@@ -8,8 +8,9 @@ description: Här hittar du olika hjälpmedel för att administrera din organisa
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!UICONTROL External] användarlicenstyp saknas på åtkomstnivåer](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 * [Inloggningsfel: [!UICONTROL The following fields are invalid: emailAddr cannot be null]](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
 * [Förhindra fläckning och lägg till [!DNL Adobe Workfront] SPF-poster](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
-* [Hämtar historiska data från [!DNL Adobe Workfront]: pros och cons](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
+* [Hämtar historiska data från [!DNL Adobe Workfront]: pros and cons](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
 * [Spara en e-postrubrikfil](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [Delning visar mer än en behörighet](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [Oautentiserad e-post accepteras inte på grund av domänens DMARC-princip](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)

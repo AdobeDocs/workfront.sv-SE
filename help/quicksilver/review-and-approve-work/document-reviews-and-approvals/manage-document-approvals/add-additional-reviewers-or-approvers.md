@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Lägga till ytterligare godkännare eller granskare i ett dokument
 description: Du kan lägga till ytterligare godkännare eller granskare i ett dokument som redan har väntande godkännanden.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # Lägga till ytterligare godkännare eller granskare i ett dokument
 
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller ge högre åtkomst till objektet som är associerat med åtkomstbegäran eller godkännandet </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomsten till objektet som är associerat med åtkomstbegäran eller godkännandet </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Lägg till ytterligare godkännare eller granskare från dokumentsidan
 
-1. Gå till dokumentsidan genom att klicka på dokumentets namn och markera sedan den version av dokumentet som du vill lägga till en godkännare eller granskare i versionslistan. Den senaste versionen väljs som standard.
+1. Gå till dokumentsidan genom att klicka på dokumentets namn och markera sedan den version av dokumentet som du vill lägga till en godkännare eller granskare i listrutan version. Den senaste versionen väljs som standard.
 
 1. Välj **Godkännanden** i den vänstra rutan. Alla befintliga godkännare och granskare listas här.
 

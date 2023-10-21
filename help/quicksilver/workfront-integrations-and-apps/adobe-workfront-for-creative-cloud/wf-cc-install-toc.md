@@ -4,8 +4,9 @@ description: Installera Adobe Workfront för Creative Cloud-program
 author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 593d1ca0-2a46-4f37-8766-b2950101a932
-source-git-commit: d4bdbce1c5fd5551ac225290840ba50b0ebeae45
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '28'
 ht-degree: 0%

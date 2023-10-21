@@ -6,8 +6,9 @@ title: Resurshantering
 description: Med Resurshantering kan resursansvariga fatta affärsbeslut som säkerställer att de enskilda medarbetare som är tillgängliga idag budgeteras mot det högsta prioriteringsarbetet. Även om den kan börja på jobbrollsnivå är resurshanteringen så småningom bekymrad över användare och deras underutnyttjande eller överengagemang.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -23,7 +24,6 @@ Med Resurshantering kan resursansvariga fatta affärsbeslut som säkerställer a
 Det här avsnittet innehåller följande artiklar:
 
 * [Kom igång med resurshantering](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-
 <!--
 
 * [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)

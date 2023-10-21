@@ -7,8 +7,9 @@ title: Scenariomallar
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
-source-git-commit: 229fd48d604385a1bfcaba2fd34eb6f3bbdde7a7
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -31,4 +32,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Visa, redigera och ta bort [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] Malladministration](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
 * [[!DNL Adobe Workfront Fusion] mallar, frågor och svar](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
-* [Tillgänglig [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)
+* [Tillgänglig för tillfället [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

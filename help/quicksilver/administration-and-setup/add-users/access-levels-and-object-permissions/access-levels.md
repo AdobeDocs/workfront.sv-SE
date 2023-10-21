@@ -7,8 +7,9 @@ description: Som Adobe Workfront-administratör kan du ge användare åtkomst at
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

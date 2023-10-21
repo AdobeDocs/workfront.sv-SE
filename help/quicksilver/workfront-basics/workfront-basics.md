@@ -5,8 +5,9 @@ title: Grundläggande om Adobe Workfront
 description: Granska dessa områden för att få en förståelse för grunderna i Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 17%
@@ -26,6 +27,6 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Arbeta med anpassade formulär](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
 * [Använd meddelanden](../workfront-basics/using-notifications/use-notifications.md)
 * [Bevilja och begär behörigheter för objekt](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
-* [Hantera ditt konto och din profil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
+* [Hantera konto och profil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [Mobilappar](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Tips, tricks och felsökning för Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

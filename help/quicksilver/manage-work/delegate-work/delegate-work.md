@@ -6,8 +6,9 @@ title: Delegera arbete
 description: Artiklarna i det här avsnittet innehåller information om hur du kan delegera arbete medan du tillfälligt är utanför kontoret.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: e449366e-3bfa-4710-a597-91de404112d4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

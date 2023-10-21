@@ -6,8 +6,9 @@ title: Skapa och hantera portföljer
 description: Ett Portfolio är en samling projekt som konkurrerar om samma resurser, budget och tidsplan. Projekten i Portfolio är tillräckligt lika så att de skulle använda samma resurspool och mätas mot samma styrkort.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: eea47cc9-becb-4617-b49c-265c20753908
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

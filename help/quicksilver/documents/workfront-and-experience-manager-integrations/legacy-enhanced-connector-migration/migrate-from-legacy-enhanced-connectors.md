@@ -4,8 +4,9 @@ description: Migrera från tidigare eller förbättrade anslutningar
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: fe407134-1265-4c84-aac7-10a303afe0fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%

@@ -8,8 +8,9 @@ description: Som Workfront-administratör kan du anpassa varumärket i din Workf
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 0%

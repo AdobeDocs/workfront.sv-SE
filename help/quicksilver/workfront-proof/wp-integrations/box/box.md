@@ -7,8 +7,9 @@ title: Box
 description: Det här avsnittet innehåller följande artiklar - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: d49cfd97-1cd8-4d0b-997f-37013623da62
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%

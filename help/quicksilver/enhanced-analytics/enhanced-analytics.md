@@ -6,8 +6,9 @@ navigation-topic: reports-and-dashboards
 description: Det här avsnittet innehåller följande artiklar - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 Det här avsnittet innehåller följande artiklar:
 
 * [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md)
-* [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md)
+* [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md)
 * [Förstå nyckeltal för förbättrade analyser](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
 * [Visa flygplansvisualisering i Förbättrad analys](../enhanced-analytics/flight-plan-overview.md)
 * [Visa Burndown-visualisering i Förbättrad analys](../enhanced-analytics/burndown-overview.md)
@@ -29,11 +30,10 @@ Det här avsnittet innehåller följande artiklar:
 * [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](../enhanced-analytics/activity-by-team-overview.md)
 * [Visa resurskapaciteten i Förbättrad analys](../enhanced-analytics/resource-capacity-overview.md)
 * [Visa teamkapacitetvisualisering i Förbättrad analys](../enhanced-analytics/team-capacity-overview.md)
+  <!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
 
-<!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
-
-<!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Mer information om avancerad analys finns i [Förbättrade inlärningsvägar för analyser](https://one.workfront.com/s/enhanced-analytics-program).
+Mer ingående utbildning om Förbättrad analys finns i [Förbättrade inlärningsvägar för analyser](https://one.workfront.com/s/enhanced-analytics-program).

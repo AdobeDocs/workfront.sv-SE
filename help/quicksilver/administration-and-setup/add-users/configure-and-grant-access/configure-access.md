@@ -8,8 +8,9 @@ description: Som Adobe Workfront-administratör kan du ge användare åtkomst at
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -37,7 +38,7 @@ I dessa artiklar beskrivs hur du som Adobe Workfront-administratör kan ge anvä
 * [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Bevilja åtkomst till scenarioplan](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
-* [Bevilja åtkomst till Adobe Workfront-mål](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* [Ge åtkomst till Adobe Workfront mål](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 ## Se även
 

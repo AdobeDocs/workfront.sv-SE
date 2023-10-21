@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Godkänn ett dokument
 description: Om du tilldelas som godkännare för ett dokument finns det flera sätt att fatta beslut om godkännande.
 author: Nolan
-feature: Work Management
-source-git-commit: 967e599376714c600d4c920582938a90d8399dc0
+feature: Work Management, Digital Content and Documents
+exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
 
 ---
-
 
 # Godkänn ett dokument
 
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Godkänn ett dokument från startsidan
 
-1. Klicka på **Startsida** icon ![](../assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](../assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       * **Godkänn** anger att inga ändringar behövs för den här versionen av dokumentet och att godkännande ges.
 
-      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
+      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
 
    * **Behöver göras** anger att dokumentversionen inte är godkänd och kräver betydande ändringar.
 
@@ -88,7 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Namnet på den användare som begärde godkännandet visas ovanför dokumentnamnet i Hem med texten &quot;*Användare A* skulle vilja ha ditt godkännande den..&quot;, liksom under **Skickat av** i godkännandeinformationen som visas till höger när ett godkännande har valts.
 
-   * När du har bestämt dig för ett godkännande finns godkännandet kvar på fliken Mina godkännanden med texten&quot;Beslutsfattad&quot; tills du klickar på knappen **Uppdatera** eller tills du uppdaterar webbläsarsidan.
+   * När du har bestämt dig för ett godkännande finns godkännandet kvar på fliken Mina godkännanden med texten&quot;Beslutsfattad&quot; tills du klickar på knappen **Uppdatera** eller tills webbläsarsidan uppdateras.
 
 ## Godkänn ett dokument från dokumentsidan
 
@@ -96,7 +96,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj den version av dokumentet som väntar på ditt godkännande i listrutan för version bredvid dokumentets namn. Den senaste versionen väljs som standard.
 
-   Om den valda versionen av dokumentet har ett väntande godkännande visas beslutsmenyknapparna i sidans övre högra hörn. om andra versioner av dokumentet har väntande godkännanden för dig, visas en röd punkt på den nedrullningsbara versionsmenyn.
+   Om den aktuella versionen av dokumentet har ett väntande godkännande visas beslutsmenyerna i det övre högra hörnet på sidan. Om andra versioner av dokumentet har väntande godkännanden visas en röd punkt på den nedrullningsbara versionsmenyn.
 
    <!--
    ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
@@ -108,7 +108,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       * **Godkänn** anger att inga ändringar behövs för den här versionen av dokumentet och att godkännande ges.
 
-      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
+      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
 
    * **Behöver göras** anger att dokumentversionen inte är godkänd och kräver betydande ändringar.
 
@@ -116,11 +116,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 
-1. Klicka på dokumentet som ska godkännas och rutan Dokumentsammanfattning öppnas.
+1. Klicka på det dokument som ska godkännas och rutan Dokumentsammanfattning öppnas.
 
 1. Välj den version av dokumentet som du vill granska i listrutan. Den senaste versionen väljs som standard.
 
-   Om den aktuella versionen av dokumentet har ett väntande godkännande visas beslutsmenyknapparna i det övre högra hörnet av dokumentsammanfattningsrutan. om andra versioner av dokumentet har väntande godkännanden för dig, visas en röd punkt på den nedrullningsbara versionsmenyn.
+   Om den aktuella versionen av dokumentet har ett väntande godkännande visas beslutsmenyknapparna i det övre högra hörnet av dokumentsammanfattningsrutan. Om andra versioner av dokumentet har väntande godkännanden för dig visar versionsmenyn en röd punkt.
 
    <!--
    ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
@@ -132,6 +132,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       * **Godkänn** anger att inga ändringar behövs för den här versionen av dokumentet och att godkännande ges.
 
-      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
+      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
 
    * **Behöver göras** anger att dokumentversionen inte är godkänd och kräver betydande ändringar.

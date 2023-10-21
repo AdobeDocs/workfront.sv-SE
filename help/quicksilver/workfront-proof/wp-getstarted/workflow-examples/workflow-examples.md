@@ -6,8 +6,9 @@ title: Exempel på arbetsflöden
 description: Det här avsnittet innehåller följande artiklar - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 09d204ee-7413-47c2-bffd-239bca3ce101
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%

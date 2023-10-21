@@ -4,11 +4,11 @@ navigation-topic: approvals
 title: Begär dokumentgodkännanden
 description: Du kan begära godkännande från chefer eller andra användare för ett dokument i Adobe Workfront. Du kan också begära dokumentgodkännanden från personer utan Workfront-konton om Workfront-administratören har aktiverat den funktionen, enligt beskrivningen i Konfigurera systemsäkerhetsinställningar.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Upprepa föregående steg om du vill lägga till andra godkännare.
 
-## Skicka ett godkännande igen för en ny version
+## Skicka ett godkännande på nytt för en ny version
 
 Beslut om dokumentgodkännande återställs inte automatiskt när du överför en ny version. Om dokumentet till exempel godkänns med ändringar visas&quot;ändringar&quot; som beslut, även om du överför en ny version med de angivna ändringarna. Du kan rensa beslutet om en ny version om du skickar in godkännandet manuellt igen.
 
@@ -75,7 +75,7 @@ Beslut om dokumentgodkännande återställs inte automatiskt när du överför e
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Bläddra nedåt till **Godkännanden** i Sammanfattning klickar du på **Mer** inline med godkännarens namn och välj **Ta bort**.
+1. Bläddra nedåt till **Godkännanden** i Sammanfattning klickar du på **Mer** inline with the approver name and select **Ta bort**.
 
    Godkännandebegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
 
@@ -86,6 +86,6 @@ Du kan skicka ett meddelande för att påminna en godkännare om att du väntar 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Bläddra nedåt till **Godkännanden** i Sammanfattning klickar du på **Mer** inline med godkännarens namn och välj **Påminn**.
+1. Bläddra nedåt till **Godkännanden** i Sammanfattning klickar du på **Mer** inline with the approver name and select **Påminn**.
 
    Godkännaren får ett meddelande som informerar dem om att godkännandet fortfarande väntar. De kan även få en påminnelse via e-post om de har aktiverat detta.

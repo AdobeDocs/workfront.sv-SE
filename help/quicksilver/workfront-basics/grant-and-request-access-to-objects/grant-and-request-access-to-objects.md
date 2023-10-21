@@ -6,8 +6,9 @@ title: Bevilja och begär behörigheter för objekt
 description: Läs de här artiklarna för att lära dig hur du ger och begär behörighet till objekt i Workfront.
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -35,13 +36,13 @@ Det här avsnittet innehåller följande artiklar om hur du kan bevilja och beg�
 * [Dela ett dokument](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
 * [Dela rapporter, kontrollpaneler och kalendrar](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
-* [Dela ett filter, en vy eller en gruppering](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Dela ett filter, en vy eller en grupp](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md)
 
-   Detta kräver ytterligare licens för Workfront Scenario Planner. Mer information finns i [Åtkomst krävs för att använda scenarioplaneraren](../../scenario-planner/access-needed-to-use-sp.md).
+  Detta kräver ytterligare licens för Workfront Scenario Planner. Mer information finns i [Åtkomst krävs för att använda scenarioplaneraren](../../scenario-planner/access-needed-to-use-sp.md).
 
 * [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-   Detta kräver ytterligare licens för Workfront Goals. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  Detta kräver ytterligare licens för Workfront Goals. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 * [Konfigurera åtkomst till Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).

@@ -7,8 +7,9 @@ title: Mappning i Adobe Workfront Fusion
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 31612996-988c-450c-8a1e-eb6c77f74692
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 0%

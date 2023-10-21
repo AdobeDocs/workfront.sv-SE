@@ -1,8 +1,9 @@
 ---
 filename: wf-kb
 title: Workfront kunskapsbas
+recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 0%
@@ -22,12 +23,12 @@ ht-degree: 0%
 * [Dokument](documents/documents-overview.md)
 * [Rapportering](reports-and-dashboards/reports-and-dashboards-overview.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
 * [Tidrapporter](timesheets/timesheets-all.md)
-* [Adobe Workfront integreringar](workfront-integrations-and-apps/workfront-integrations.md)
+* [Adobe Workfront-integreringar](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Workfront Proof](workfront-proof/workfront-proof.md)
 * [Produktmeddelanden](product-announcements/product-announcements.md)

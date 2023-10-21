@@ -5,9 +5,9 @@ navigation-topic: approvals
 title: Översikt över godkännandeprocessen
 description: Du kan skapa en godkännandeprocess och bifoga den till ett objekt för att se till att angivna användare granskar vissa ändringar innan objektet bearbetas.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1747'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Instruktioner om hur du skapar en godkännandeprocess finns i [Skapa en godkänn
 
 Den här artikeln innehåller allmän information om godkännandeprocesser som är kopplade till arbetsobjekt.
 
-## Typ av godkännandeprocesser
+## Olika typer av godkännandeprocesser
 
 Om du är Adobe Workfront-administratör, eller en användare med administrativ åtkomst till godkännandeprocesser, kan du skapa följande godkännandeprocesser för projekt, uppgifter och ärenden:
 
@@ -38,17 +38,17 @@ Om du är Adobe Workfront-administratör, eller en användare med administrativ 
    * I rutan Redigera projekt visas området Standardprocess för godkännande av uppgift
    * Under Standardgodkännandeprocess i avsnittet Köinformation eller Köämne i ett projekt. Projektet måste aktiveras som en begärandekö.
 
-* **En global godkännandeprocess på gruppnivå**: Användarna kan bifoga dessa till följande:
+* **En global godkännandeprocess på gruppnivå**: Användare kan bifoga dessa till följande:
 
    * Ett projekt, en uppgift eller en utgåva som tillhör gruppen som är associerad med godkännandeprocessen i avsnittet Godkännanden
    * I rutan Redigera projekt, området Standardprocess för godkännande av uppgift för ett projekt som tillhör gruppen som är associerad med godkännandeprocessen
    * Under Standardgodkännandeprocess i avsnittet Köinformation eller Köämne i ett projekt. Projektet måste aktiveras som en begärandekö och måste tillhöra gruppen som är associerad med godkännandeprocessen.
 
-   Mer information om hur du skapar godkännandeprocesser på system- eller gruppnivå finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Mer information om hur du skapar godkännandeprocesser på system- eller gruppnivå finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-* **En godkännandeprocess för enstaka användning**: För användning med ett enda projekt, en uppgift, en utgåva, en mall eller en malluppgift. Den här typen av godkännandeprocess påverkar bara det objekt som är associerat med det och som inte är tillgängligt för att kopplas till några andra objekt.
+* **En godkännandeprocess för enstaka användning**: För användning med ett enda projekt, en uppgift, ett ärende, en mall eller en malluppgift. Den här typen av godkännandeprocess påverkar bara det objekt som är associerat med det och som inte är tillgängligt för att kopplas till några andra objekt.
 
-   Mer information om hur du skapar en godkännandeprocess för enstaka användning finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Mer information om hur du skapar en godkännandeprocess för enstaka användning finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 >[!NOTE]
 >
@@ -65,37 +65,39 @@ Mer information om hur du skapar en godkännandeprocess på systemnivå eller en
 
    * Varje godkännandeprocess motsvarar en viss arbetsartikelstatus i Workfront-systemet. När du ändrar status för en arbetsuppgift, kräver ett bifogat godkännande för den statusen att statusändringen ska bekräftas innan den nya statusen kan tilldelas artikeln.
 
-      >[!TIP]
-      >
-      >
-      >   
-      >   
-      >   * Du kan koppla ett godkännande på gruppnivå till en global status eller en gruppnivåstatus.
-      >   * Du kan inte ändra status för en artikel med en godkännandeprocess till en annan status än den som är associerad med godkännandeprocessen.
-
-         >   
-         >   
-         >     Om du till exempel har ett uppgiftsgodkännande som är associerat med statusen Pågår, ändrar aktiviteten automatiskt status till Pågår när godkännandet beviljas. Det kan inte automatiskt ändra sin status till Slutförd eller någon annan status som inte är associerad med godkännandet.
-
+     >[!TIP]
+     >
+     >
+     >   
+     >   
+     >   * Du kan koppla ett godkännande på gruppnivå till en global status eller en gruppnivåstatus.
+     >   * Du kan inte ändra status för en artikel med en godkännandeprocess till en annan status än den som är associerad med godkännandeprocessen.
+     >   
+     >   
+     >     Om du till exempel har ett uppgiftsgodkännande som är associerat med statusen Pågår, ändrar aktiviteten automatiskt status till Pågår när godkännandet beviljas. Det kan inte automatiskt ändra sin status till Slutförd eller någon annan status som inte är associerad med godkännandet.
+     >   
+     >   
+     >
 
    * Enheterna som är kopplade till en godkännandeprocess kan vara användare, jobbroller eller team. Användarna ansvarar själva för att godkänna eller avvisa godkännandet. Du kan tilldela godkännanden till användare som fyller i en viss roll i projektet. Du kan till exempel tilldela ett godkännande till en projektägare eller Sponsorn. Mer information finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-      Följande scenarier finns:
+     Följande scenarier finns:
 
       * När du tilldelar ett godkännande till jobbroller kan alla användare i projektgruppen som är associerade med jobbrollen fatta ett beslut om godkännandet. Rollen som är associerad med godkännandet kan vara deras primära roll eller andra roller.
 
-         Mer information om projektteamet finns i [Översikt över projektteamet](../../manage-work/projects/planning-a-project/project-team-overview.md).
+        Mer information om projektteamet finns i [Översikt över projektgruppen](../../manage-work/projects/planning-a-project/project-team-overview.md).
 
       * När du tilldelar ett godkännande till ett team kan alla medlemmar i det teamet fatta ett beslut om godkännandet. Teamet som är associerat med godkännandet kan antingen vara deras hemteam eller något av deras andra team.
 
-         Mer information om en användares roller och team finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+        Mer information om en användares roller och team finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * När du skapar en arbetsuppgift bifogas ingen godkännandeprocess automatiskt. Du måste bifoga en manuellt om du vill använda en. Mer information om hur du bifogar en godkännandeprocess till ett objekt finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 * Workfront-administratören eller en användare med administrativ åtkomst till godkännandeprocesser kan skapa globala godkännandeprocesser på systemnivå som kan användas i hela systemet. En gruppadministratör med administrativ åtkomst till godkännandeprocesser kan skapa en global godkännandeprocess på gruppnivå som bara kan användas av en viss grupp som de hanterar.
 * Om du inte vill använda en fördefinierad global godkännandeprocess på system- eller gruppnivå för en arbetsuppgift, kan du skapa och bifoga en godkännandeprocess för den när du har behörigheten Hantera för det objekt som du vill bifoga godkännandeprocessen för.
 
-   >[!NOTE]
-   Du kan bara använda en godkännandeprocess en gång för det specifika objekt som det skapades för. Du kan associera globala statusvärden och gruppnivåstatusar för engångsgodkännandeprocesser för projekt, uppgifter, utgåvor, mallar och malluppgifter.
+  >[!NOTE]
+  >
+  Du kan bara använda en godkännandeprocess en gång för det specifika objekt som det skapades för. Du kan associera globala statusvärden och gruppnivåstatusar för engångsgodkännandeprocesser för projekt, uppgifter, utgåvor, mallar och malluppgifter.
 
 * När du kopplar en godkännandeprocess på gruppnivå till ett objekt med anpassade statusvärden på gruppnivå, kan en konflikt skapas mellan godkännandestatusarna för den föregående gruppen och de som finns på systemnivå om du ändrar projektgruppen. Överväg att ta bort godkännandeprocesserna på gruppnivå för projektet eller dess uppgifter eller problem innan gruppen uppdateras. Mer information om hur du skapar godkännandeprocesser på gruppnivå finns i [Godkännandeprocesser på gruppnivå](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md). Mer information om hur du skapar anpassade gruppstatusar finns i [Skapa eller redigera en gruppstatus](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md). Mer information om hur du uppdaterar gruppen med ett projekt finns i [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -103,10 +105,10 @@ Mer information om hur du skapar en godkännandeprocess på systemnivå eller en
 
 I det här avsnittet förklaras följande om hur du godkänner arbetsobjekt:
 
-* [Hur godkännandeprocesser bygger på status](#how-approval-processes-rely-on-statuses)
+* [Hur godkännandeprocesser förlitar sig på status](#how-approval-processes-rely-on-statuses)
 * [Så här använder ett typiskt arbetsflöde en godkännandeprocess](#how-a-typical-workflow-uses-an-approval-process)
 
-### Hur godkännandeprocesser bygger på status {#how-approval-processes-rely-on-statuses}
+### Hur godkännandeprocesser förlitar sig på status {#how-approval-processes-rely-on-statuses}
 
 Genom att bifoga en status till en godkännandeprocess försäkrar du dig om att artikeln rör sig mellan avdelningarna i rätt ordning.
 
@@ -125,6 +127,7 @@ Följande scenario visar hur en godkännandeprocess hjälper användare att godk
 1. Workfront-administratören eller en användare med administrativ åtkomst till godkännandeprocesser skapar en godkännandeprocess för ett projekt, en uppgift eller ett problem.
 
    >[!NOTE]
+   >
    Du kan koppla projektgodkännandeprocesser till en mall och uppgiftsgodkännandeprocesser till en malluppgift. När du har gjort det blir godkännandeprocessen ett projekt eller en process för godkännande av en uppgift när någon använder mallen för att skapa ett projekt. En godkännandeprocess som är kopplad till en mall- eller malluppgift är fortfarande en engångsprocess för projekt och uppgifter.
 
 1. En användare med behörigheten Hantera för projektet, uppgiften eller utgåvan kopplar godkännandeprocessen till objektet, eller skapar ett engångsgodkännande för objektet.
@@ -145,13 +148,13 @@ När de båda har godkänt broschyren i Workfront ändras projektstatusen till K
 
 ## Dokumentgodkännandeprocesser
 
-Dokumentgodkännanden används för ett mer allmänt godkännande. Synpunkter hämtas i chattformat på fliken Uppdateringar. Du kan använda godkännandeknapparna för att godkänna, avvisa eller godkänna med ändringar.
+Dokumentgodkännanden används för ett mer allmänt godkännande. Feedback hämtas i chattformat på fliken Uppdateringar. Du kan använda godkännandeknapparna för att godkänna, avvisa eller godkänna med ändringar.
 
 Information om hur du lägger till godkännare i ett dokument när det har överförts till Workfront finns i [Begär dokumentgodkännanden](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
 ## Bevis på godkännandeprocesser
 
-Bevisgodkännanden används för en djupare granskning och innehåller vanligtvis mer komplicerade arbetsflöden. Feedback spelas in med markeringsverktyg i korrekturläsaren. Du kan använda godkännandeknapparna för att godkänna, avvisa eller godkänna med ändringar.
+Bevisgodkännanden används för en djupare granskning och innehåller i allmänhet mer komplicerade arbetsflöden. Feedback spelas in med markeringsverktyg i korrekturläsaren. Du kan använda godkännandeknapparna för att godkänna, avvisa eller godkänna med ändringar.
 
 Information om hur du lägger till ett automatiskt arbetsflöde i ett dokumentkorrektur och anger vissa användare i arbetsflödet som godkännare av korrekturet finns i [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 

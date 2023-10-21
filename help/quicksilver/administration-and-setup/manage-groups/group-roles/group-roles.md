@@ -8,8 +8,9 @@ description: Workfront-administratören ger grupper åtkomst till de områden i 
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

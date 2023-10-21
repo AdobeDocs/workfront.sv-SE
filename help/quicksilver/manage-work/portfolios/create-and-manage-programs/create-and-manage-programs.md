@@ -6,8 +6,9 @@ title: Skapa och hantera program
 description: Program representerar en samling projekt som delar en gemensam strategi, mål eller mål som överskrider projektgränserna. Program får inte finnas utanför en portfölj.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%

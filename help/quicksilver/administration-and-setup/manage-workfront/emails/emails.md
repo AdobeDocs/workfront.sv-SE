@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: E-post
-description: E-post i Adobe Workfront består av meddelanden, påminnelser och användarinbjudningar. Systemadministratörer ansvarar för att upprätta många av e-postinställningarna. andra användare (beroende på åtkomstnivå) kan dock dra nytta av att använda e-postfunktioner för att hantera sin egen kommunikation kring arbetet.
+description: E-post i Adobe Workfront består av meddelanden, påminnelser och användarinbjudningar. Systemadministratörer ansvarar för att skapa många av e-postinställningarna, men andra användare (beroende på åtkomstnivå) kan ha nytta av att använda e-postfunktioner för att hantera sin egen kommunikation kring arbetet.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # E-post
 
-E-post i Adobe Workfront består av meddelanden, påminnelser och användarinbjudningar. Systemadministratörer ansvarar för att upprätta många av e-postinställningarna. andra användare (beroende på åtkomstnivå) kan dock dra nytta av att använda e-postfunktioner för att hantera sin egen kommunikation kring arbetet.
+E-post i Adobe Workfront består av meddelanden, påminnelser och användarinbjudningar. Systemadministratörer ansvarar för att skapa många av e-postinställningarna, men andra användare (beroende på åtkomstnivå) kan ha nytta av att använda e-postfunktioner för att hantera sin egen kommunikation kring arbetet.
 
 E-post i Workfront (både internt och externt) är skiftande och dynamisk. Automatisk kommunikation kan skickas till användare som meddelar dem när uppgifterna är sena. Meddelanden kan ställas in för en specifik arbetsuppgift för att påminna en användare när en uppgift närmar sig ett förfallodatum. Inbjudningar kan konfigureras så att användare kan skapa egna lösenord i stället för att låta systemadministratören hantera lösenord.
 

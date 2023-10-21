@@ -6,8 +6,9 @@ title: Hantera dina [!DNL Adobe Workfront] konto
 description: Läs de här artiklarna för att lära dig hur du hanterar dina [!DNL Workfront] konto.
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: f442a681-39fa-499c-8b1f-95d50424f539
-source-git-commit: fb0cd6ebaa88eead46abe029b0a4cc89a3510014
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

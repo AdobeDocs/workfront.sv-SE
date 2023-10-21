@@ -6,8 +6,9 @@ title: Hantera problem
 description: Följande artiklar innehåller information om hur du hanterar problem.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%

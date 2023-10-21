@@ -7,8 +7,9 @@ title: Workfront Korrektur för tekniker
 description: Det här avsnittet innehåller följande underavsnitt – EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: dbdaa5c8-4d09-4e12-b84f-b3a37e6b3b78
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 21%

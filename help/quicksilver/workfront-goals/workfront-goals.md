@@ -4,8 +4,9 @@ description: Adobe Workfront-mål
 author: Alina
 draft: Probably
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
-source-git-commit: 8d475c4b1eb818f4c693ccd3c731201979438459
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -41,7 +42,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 * En Pro eller högre [Adobe Workfront](https://www.workfront.com/plans).
 * En Adobe Workfront Goals-licens förutom en Workfront-licens.
 
-   Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+  Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
 Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
@@ -53,7 +54,7 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Målgranskning och avsnitten om Adobe Workfront-mål](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Resultat och aktiviteter i Adobe Workfront mål](../workfront-goals/results-and-activities/results-and-activities.md)
 
-   <!--
+  <!--
   <li>Tips, tricks, and troubleshooting for Workfront Goals (might come after GA)</li>
   -->
 

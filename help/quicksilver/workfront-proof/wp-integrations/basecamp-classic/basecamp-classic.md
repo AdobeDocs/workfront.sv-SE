@@ -7,8 +7,9 @@ title: Klassisk basstämpel
 description: Det här avsnittet innehåller följande artiklar - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b66b7820-bb8a-4d29-822c-0de968fa2492
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

@@ -8,8 +8,9 @@ description: Du kan integrera Workfront med företagets SSO-lösning. Den här k
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
-source-git-commit: 2cbdd0cb065dee01ad128d782334a55233c13156
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

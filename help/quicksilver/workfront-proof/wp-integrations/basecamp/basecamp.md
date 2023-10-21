@@ -7,8 +7,9 @@ title: Basecamp
 description: Det här avsnittet innehåller följande artiklar - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: ba0819cf-debd-47eb-ab9d-a326b84aa1e8
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
@@ -26,4 +27,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Lägg till ett korrektur i en [!DNL Basecamp] Projekt](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
 * [Integrera [!DNL Workfront Proof] med [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
 * [Granska ett korrektur i [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [Förstå [!DNL Basecamp] Integration med [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [Förstå [!DNL Basecamp] Integrering med [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

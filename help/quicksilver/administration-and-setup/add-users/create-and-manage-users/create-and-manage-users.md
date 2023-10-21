@@ -8,8 +8,9 @@ description: Du kan lägga till användare i Adobe Workfront genom att skapa ens
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Logga in som en annan användare](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
 * [Återställ en användares inställningar](../../../administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
 * [Ändra ett användarnamn](../../../administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
-* [Ändra lösenordet för en automatiskt tilldelad användare](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
+* [Ändra lösenordet för en användare som har tilldelats automatiskt](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
 * [Mappa användarattribut och autodistribuera nya användare](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [Inaktivera eller återaktivera en användare](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)

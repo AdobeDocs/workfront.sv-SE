@@ -4,8 +4,9 @@ description: Du kan använda [!DNL Adobe Workfront] for [!DNL Salesforce] integr
 author: Becky
 draft: Probably
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 5089fd81-c094-487b-8ffa-e4d2ba2e4ae6
-source-git-commit: 05213ffab4b26bbca2eb532b7c02791b5f80cc0c
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%

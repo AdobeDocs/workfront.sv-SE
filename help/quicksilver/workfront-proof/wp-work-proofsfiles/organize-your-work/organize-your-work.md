@@ -7,8 +7,9 @@ title: Ordna ditt arbete
 description: Det här avsnittet innehåller följande artiklar - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 2064baa7-598c-4e42-a4f3-211198fb065f
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%

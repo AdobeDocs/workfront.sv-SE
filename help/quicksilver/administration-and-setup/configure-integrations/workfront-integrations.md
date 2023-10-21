@@ -7,8 +7,9 @@ description: Du kan integrera Adobe Workfront med tredjepartsprogram. Integratio
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%

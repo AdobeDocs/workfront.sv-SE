@@ -4,8 +4,9 @@ description: Adobe Workfront med Anaplan
 author: Becky
 draft: Probably
 feature: Workfront Integrations and Apps, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
-source-git-commit: 607c08adf261cd51a7f50a30b6a674b74ba276ea
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -24,7 +25,7 @@ The [!DNL Adobe Workfront] med [!DNL Anaplan] integreringen erbjuder följande a
 
 ### Arbetsflöden för utgiftsoptimering
 
-* [Skicka [!DNL Adobe Workfront] projektuppdateringar till [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [Skicka [!DNL Adobe Workfront] projektuppdateringar till en [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 * [Skicka [!DNL Adobe Workfront] utgifter för [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
 * [Skicka [!DNL Adobe Workfront] faktiskt antal timmars uppdateringar av en [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 

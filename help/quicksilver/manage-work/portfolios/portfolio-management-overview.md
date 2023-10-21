@@ -6,8 +6,9 @@ title: hantering av Portfolio
 description: Mer information om portföljhantering finns i följande avsnitt.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d
-source-git-commit: fb0cd6ebaa88eead46abe029b0a4cc89a3510014
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 0%

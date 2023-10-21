@@ -6,8 +6,9 @@ title: Granska ett korrektur
 description: Visa innehåll i ett korrektur
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 9fbdf8a3-eebc-4ad3-9ad9-7d8ad782b929
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

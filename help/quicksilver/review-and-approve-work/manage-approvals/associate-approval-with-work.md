@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Associera en ny eller befintlig godkännandeprocess med arbete
 description: I den här artikeln beskrivs hur du kan associera godkännandeprocesser med arbetsobjekt. Mer information om hur du associerar godkännanden med korrektur eller dokument finns i följande artiklar.
 author: Courtney and Alina
-feature: Work Management
-exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 7dbb9ca9b26f17710a7897e98dca109b5c886bd7
+feature: Work Management, Digital Content and Documents
+sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
+source-git-commit: e375408e6ccc25ff8d5c1e4f6c4fc7da2208db46
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 0%
@@ -79,21 +79,21 @@ Förutom de överväganden som beskrivs nedan rekommenderar vi att du går igeno
 * Du måste skapa projektet, uppgiften, utgåvan, mallen eller malluppgiften innan godkännandeprocessen kan kopplas till dem.
 * När du kopplar en godkännandeprocess till ett objekt för en status som har passerat och i vilken objektet för närvarande är, kommer godkännandeprocessen inte att aktiveras och inga meddelanden skickas till godkännarna.
 
-   **Exempel:** Om en aktivitet har statusen Fullständig och du bifogar en godkännandeprocess som är kopplad till statusen Fullständig, utlöses inte godkännandet.
+  **Exempel:** Om en aktivitet har statusen Fullständig och du bifogar en godkännandeprocess som är kopplad till statusen Fullständig, utlöses inte godkännandet.
 
 * När du kopplar en godkännandeprocess till den första statusen för ett objekt (genom att använda en mall för uppgifter och projekt, använda inställningarna för köinställningar för utgåvor eller definiera uppgiftsinställningarna för ett projekt för nya uppgifter), åsidosätts godkännandeprocesserna om det inskickade godkännandet återkallas. I det här fallet får godkännarna inga meddelanden.
 
-   Mer information om hur du återkallar godkännanden finns i [Visa godkännanden](../../review-and-approve-work/manage-approvals/view-approvals.md).
+  Mer information om hur du återkallar godkännanden finns i [Visa godkännanden](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
-   >[!TIP]
-   >
-   >Den första statusen för en aktivitet eller ett problem är Ny. Den första statusen för ett projekt är den status som valts av Workfront-administratören i Projektinställningar i systemet. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >[!TIP]
+  >
+  >Den första statusen för en aktivitet eller ett problem är Ny. Den första statusen för ett projekt är den status som valts av Workfront-administratören i Projektinställningar i systemet. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Associationen mellan godkännandeprocesser och ett objekt registreras inte i objektets uppdateringsområde.
 * Du kan inte associera en godkännandeprocess med en överordnad aktivitet.
 * När du lägger till en användare, ett team eller en roll som godkännare får de inte automatiskt behörighet till objektet som är kopplat till det godkännandet. De får behörigheter till objektet när godkännandesteget aktiveras. Annars måste objekten delas med dem innan de kan fatta ett beslut om godkännande.
 
-I följande avsnitt beskrivs olika metoder för att koppla en godkännandeprocess till ett projekt, en uppgift eller ett problem.
+I följande avsnitt beskrivs de olika metoderna för att koppla en godkännandeprocess till ett projekt, en uppgift eller ett problem.
 
 ## Associera en global godkännandeprocess med en arbetsuppgift {#associate-a-global-approval-process-with-a-work-item}
 
@@ -102,17 +102,19 @@ Du kan associera en global godkännandeprocess med en arbetsuppgift (projekt, up
 Den globala godkännandeprocessen måste vara tillgänglig för den grupp som är associerad med arbetsuppgiften eller för alla grupper i systemet.
 
 >[!NOTE]
+>
 Du kan koppla projektgodkännandeprocesser till en mall och uppgiftsgodkännandeprocesser till en malluppgift. När du har gjort det blir godkännandeprocessen ett projekt eller en process för godkännande av en uppgift när någon använder mallen för att skapa ett projekt. En godkännandeprocess som är kopplad till en mall- eller malluppgift är fortfarande en engångsprocess för projekt och uppgifter.
 
 Information om hur Workfront-administratörer kan konfigurera en global godkännandeprocess för alla grupper i systemet och hur gruppadministratörer kan skapa godkännanden för en grupp finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 >[!NOTE]
+>
 Du kan också ändra en global godkännandeprocess efter dina specifika behov. Mer information finns i avsnittet [Ändra en global godkännandeprocess för användning på ett specifikt objekt](#modify-a-global-approval-process-for-use-on-a-specific-object) i den här artikeln.
 
 Så här associerar du en befintlig global godkännandeprocess med en projekt-, uppgifts-, utgåva-, mall- eller malluppgift:
 
 1. Gå till den arbetsuppgift där du vill associera en godkännandeprocess.
-1. Klicka **Godkännanden** i den vänstra panelen.
+1. Klicka **Godkännanden** till vänster.
 
    Du kan behöva klicka **Visa fler** och sedan klicka **Godkännanden**.
 
@@ -131,7 +133,7 @@ Så här associerar du en befintlig global godkännandeprocess med en projekt-, 
    ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. Klicka **Spara**.
-1. (Valfritt) Klicka på Redigera godkännandeprocess om du vill ändra det befintliga godkännande du har kopplat till objektet. Detta ändrar den globala godkännandeprocessen till en enda godkännandeprocess. Mer information finns i avsnittet [Ändra en global godkännandeprocess för användning på ett specifikt objekt](#modify-a-global-approval-process-for-use-on-a-specific-object) i den här artikeln.
+1. (Valfritt) Klicka på Redigera godkännandeprocess om du vill ändra det befintliga godkännande som du har kopplat till objektet. Detta ändrar den globala godkännandeprocessen till en enda godkännandeprocess. Mer information finns i avsnittet [Ändra en global godkännandeprocess för användning på ett specifikt objekt](#modify-a-global-approval-process-for-use-on-a-specific-object) i den här artikeln.
 
 ## Ändra en global godkännandeprocess för användning på ett specifikt objekt {#modify-a-global-approval-process-for-use-on-a-specific-object}
 
@@ -142,12 +144,14 @@ Att ändra en global godkännandeprocess som är kopplad till ett objekt är ide
 Du kan ändra en global godkännandeprocess så att den passar alla specifika behov för projektet, uppgiften eller utgåvan som du associerar med den.
 
 >[!IMPORTANT]
+>
 När du ändrar en global godkännandeprocess blir den en godkännandeprocess som bara kan användas på det objekt där du ändrade den. Den globala godkännandeprocessen ändras inte.
+>
 Tänk på följande begränsningar när du ändrar en global godkännandeprocess:
+>
 * Godkännandeprocessen ändras endast för det projekt, den uppgift eller det problem som du associerar godkännandeprocessen med.
 * Eventuella ändringar som en administratör gör i den ursprungliga globala godkännandeprocessen återspeglas inte i den globala godkännandeprocess som du har ändrat.
 >
-
 
 Så här ändrar du en godkännandeprocess som redan är kopplad till ett objekt:
 
@@ -156,9 +160,10 @@ Så här ändrar du en godkännandeprocess som redan är kopplad till ett objekt
    Instruktioner finns i avsnittet [Associera en global godkännandeprocess med en arbetsuppgift](#associate-a-global-approval-process-with-a-work-item) i den här artikeln.
 
    >[!IMPORTANT]
+   >
    Se till att du klickar **Spara** när du lägger till godkännandet.
 
-1. När den globala godkännandeprocessen har lagts till klickar du på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet på godkännandesidan. Den här åtgärden omvandlar den globala godkännandeprocessen eller godkännandeprocessen på gruppnivå till en enda godkännandeprocess.
+1. Klicka på knappen **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet på godkännandesidan. Den här åtgärden omvandlar den globala godkännandeprocessen eller godkännandeprocessen på gruppnivå till en enda godkännandeprocess.
 1. Gör eventuella ändringar i den befintliga godkännandeprocessen. Mer information finns i avsnittet [Associera en godkännandeprocess med ett projekt, en uppgift, en utgåva, en mall eller en malluppgift](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) i den här artikeln.
 1. Klicka **Spara** och sedan klicka **Spara** en gång till för att bekräfta att du vill konvertera den globala godkännandeprocessen till en enda godkännandeprocess som bara är tillgänglig för det här objektet.
 
@@ -169,6 +174,7 @@ Du kan skapa en godkännandeprocess som bara kan användas för ett specifikt pr
 Du kan även koppla en enstaka godkännandeprocess till en mall- eller malluppgift så att den är tillgänglig för projekt och uppgifter som skapas från mallen.
 
 >[!NOTE]
+>
 Du kan associera en godkännandeprocess för enstaka användning med status på system- eller gruppnivå för ett projekt, en uppgift, en utgåva, en mall eller en malluppgift. Mer information om status för Workfront finns i [Skapa eller redigera en status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 Om du skapar en godkännandeprocess på det här sättet kan du skapa en anpassad godkännandeprocess som passar dina behov. Godkännandeprocessen kan dock inte kopplas till andra arbetsuppgifter i framtiden.
@@ -178,7 +184,7 @@ Du kan också ändra en global godkännandeprocess för ett visst objekt och det
 Så här skapar du en godkännandeprocess för en enstaka användning:
 
 1. Gå till projektet, uppgiften, utgåvan, mallen eller malluppgiften där du vill koppla en godkännandeprocess.
-1. Klicka **Godkännanden** i den vänstra panelen.
+1. Klicka **Godkännanden** till vänster.
 
    Du kan behöva klicka **Visa fler** > **Godkännanden**.
 
@@ -195,10 +201,11 @@ Så här skapar du en godkännandeprocess för en enstaka användning:
    -->
 
    >[!TIP]
+   >
    När du har kopplat godkännandeprocessen för enstaka användning visas den som`<Custom>`&quot; i fältet Godkännandeprocess i rutan Redigera med mallar och malluppgifter. Mer information om hur du redigerar mallar och malluppgifter finns i följande artiklar:
+   >
    * [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
    * [Redigera en malluppgift](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
-
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
@@ -213,10 +220,10 @@ Följande scenarier finns: 
 * Godkännandet tas inte bort om du tar bort den globala godkännandeprocessen eller godkännandeprocessen på gruppnivå. Godkännandet är fortfarande tillgängligt för framtida bruk.
 * Om du tar bort en enanvändares godkännandeprocess tas den bort från Workfront och kan inte återställas.
 
-Så här tar du bort en godkännandeprocess från en arbetsuppgift:
+Så här tar du bort eller tar bort en godkännandeprocess från en arbetsuppgift:
 
 1. Gå till projektet, uppgiften, utgåvan, mallen eller malluppgiften där du vill ta bort en godkännandeprocess som du har lagt till tidigare.
-1. Klicka **Godkännanden** i den vänstra panelen.
+1. Klicka **Godkännanden** till vänster.
 
    Du kan behöva klicka **Visa fler** > **Godkännanden**.
 

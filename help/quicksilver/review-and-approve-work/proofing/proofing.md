@@ -6,8 +6,9 @@ title: Korrektur
 description: Det här avsnittet innehåller följande underavsnitt – EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: 9fda4318a644aba899cd5e7aa6b3b28b9bea7eee
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 18%
@@ -18,7 +19,7 @@ ht-degree: 18%
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Språköversikt](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [Korrektur - översikt](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
 * [Hantera korrektur i Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
 * [Granska korrektur i Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)

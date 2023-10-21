@@ -3,19 +3,20 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
-title: Granska korrektur i Web Proofing Viewer
+title: Granska korrektur i webbkorrekturläsaren
 description: Det här avsnittet innehåller följande artiklar - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 0cfac975-a561-4e0a-8703-8173b50957ca
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
-# Granska korrektur i Web Proofing Viewer
+# Granska korrektur i webbkorrekturläsaren
 
 >[!IMPORTANT]
 >

@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Återkalla inskickade godkännanden
 description: Du kan återkalla följande objekt som skickats in för godkännande.
 author: Courtney and Alina
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 7dbb9ca9b26f17710a7897e98dca109b5c886bd7
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -65,13 +65,14 @@ Om du återkallar ett godkännande som är associerat med projektets inledande s
 
 Så här återkallar du ett projektgodkännande som du har skickat:
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
+   >
    Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >
    * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
-
 
 1. I **Arbetslista** område, navigera till **Godkännanden som jag har skickat** gruppering.
 
@@ -90,17 +91,19 @@ När du återkallar ett uppgiftsgodkännande återgår uppgiften till den status
 Om du återkallar ett godkännande som är associerat med aktivitetens inledande status, kringgås godkännandeprocessen och aktiviteten behåller sin startstatus.
 
 >[!NOTE]
+>
 Du kan koppla den första statusen för ett projekt eller en uppgift till en godkännandeprocess med hjälp av en mall. Mer information om hur du lägger till godkännanden i en mall finns i [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 Så här återkallar du ett aktivitetsgodkännande som du har skickat:
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
+   >
    Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >
    * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
-
 
 1. I **Arbetslista** område, navigera till **Godkännanden som jag har skickat** gruppering.
 
@@ -114,20 +117,22 @@ Så här återkallar du ett aktivitetsgodkännande som du har skickat:
 
 ## Problem
 
-När du återkallar ett utfärdande godkännande återgår utgåvan till den status den hade innan godkännandeprocessen startades.
+När du återkallar ett godkännande av en utgåva återgår utgåvan till den status den hade innan godkännandeprocessen startades.
 
 Om du återkallar ett godkännande som är associerat med den inledande statusen för utgåvan, kommer godkännandeprocessen att ignoreras och utgåvan kommer att fortsätta att vara i den inledande statusen.
 
 >[!NOTE]
+>
 Du kan koppla den första statusen för en utgåva till en godkännandeprocess med hjälp av en mall. Mer information om hur du skapar en frågekö finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
+   >
    Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >
    * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
-
 
 1. I **Arbetslista** område, navigera till **Godkännanden som jag har skickat** gruppering.
 
@@ -143,13 +148,14 @@ Du kan koppla den första statusen för en utgåva till en godkännandeprocess m
 
 När du återkallar ett tidrapportgodkännande återgår tidrapporten till den status den hade innan den skickades för godkännande.
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
+   >
    Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >
    * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
-
 
 1. I **Arbetslista** område, navigera till **Godkännanden som jag har skickat** gruppering.
 
@@ -165,13 +171,14 @@ När du återkallar ett tidrapportgodkännande återgår tidrapporten till den s
 
 Om du vill återkalla ett dokumentgodkännande måste du ta bort en eller alla användare från godkännandet manuellt.
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
+   >
    Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >
    * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
-
 
 1. I **Arbetslista** område, navigera till **Godkännanden som jag har skickat** gruppering.
 
@@ -188,13 +195,14 @@ Om du vill återkalla ett dokumentgodkännande måste du ta bort en eller alla a
 
 ## Åtkomstbegäranden
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
+   >
    Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >
    * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
-
 
 1. I **Arbetslista** område, navigera till **Godkännanden som jag har skickat** gruppering.
 

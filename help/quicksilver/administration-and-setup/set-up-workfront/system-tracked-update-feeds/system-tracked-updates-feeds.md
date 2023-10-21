@@ -8,8 +8,9 @@ description: Adobe Workfront loggar aktiviteten som utförs på vissa objekt i s
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 3a565a58dfa6008e00722eca4f7b1dbc2b47a08e
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%

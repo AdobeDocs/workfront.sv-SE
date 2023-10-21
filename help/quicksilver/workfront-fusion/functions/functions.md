@@ -7,8 +7,9 @@ title: Funktioner i [!DNL Adobe Workfront Fusion]
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: a7cf0030-79b4-478b-9684-531271bf717c
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%

@@ -5,9 +5,10 @@ navigation-topic: projects-navigation-topic
 title: Arbetsgodkännanden
 description: Det här avsnittet innehåller artiklar om arbetsgodkännanden i Workfront.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 66674732-6ad7-477b-8473-03b1dac750a3
-source-git-commit: c111ae72da39fc1637320d993906ae9451e17e99
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%

@@ -6,8 +6,9 @@ title: Adobe Workfront for Microsoft Teams - översikt
 description: Som teamägare kan du installera [!DNL Adobe Workfront for Microsoft Teams] app för ert team.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: ffd4d15d72371f5b77c46bc176270e649945e466
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%

@@ -6,8 +6,9 @@ title: Iterationer
 description: Läs de här artiklarna för att lära dig hur du använder iterationer.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 0%

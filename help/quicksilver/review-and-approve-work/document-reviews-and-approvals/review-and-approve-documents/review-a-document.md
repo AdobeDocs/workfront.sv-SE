@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Granska ett dokument
 description: Som granskare kan du förhandsgranska ett dokument som har skickats till dig för granskning.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
 
 ---
-
 
 # Granska ett dokument
 
@@ -67,7 +67,7 @@ Add once functionality is added
 
    ELLER
 
-   Klicka **Hämta** om du vill hämta en lokal kopia av dokumentet till din enhet.
+   Klicka **Ladda ned** om du vill hämta en lokal kopia av dokumentet till din enhet.
 
 1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **Uppdateringar** -avsnitt. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -79,14 +79,14 @@ Add once functionality is added
 
 1. Välj den version av dokumentet som du vill granska i listrutan. Den senaste versionen väljs som standard.
 
-1. Håll pekaren över förhandsgranskningen av dokumentet i dialogrutan **Detaljer** överst i rutan Dokumentsammanfattning. Sedan antingen:
+1. Håll pekaren över förhandsgranskningen av dokumentet i dialogrutan **Information** överst i rutan Dokumentsammanfattning. Sedan antingen:
 
    Klicka **Förhandsgranska** om du vill öppna en skrivskyddad version av dokumentet i ett nytt fönster.
 
    ELLER
 
-   Klicka **Hämta** om du vill hämta en lokal kopia av dokumentet till din enhet.
+   Klicka **Ladda ned** om du vill hämta en lokal kopia av dokumentet till din enhet.
 
 1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **Uppdateringar** -avsnitt. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till **Versioner** i rutan Dokumentsammanfattning och klicka sedan på ikonen Mer ![](../assets/more-icon.png) bredvid den version du vill granska och välja **Hämta** eller **Förhandsgranska**.
+1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till **Versioner** i rutan Dokumentsammanfattning och klicka sedan på ikonen Mer ![](../assets/more-icon.png) bredvid den version du vill granska och välja **Ladda ned** eller **Förhandsgranska**.

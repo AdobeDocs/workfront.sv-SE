@@ -6,8 +6,9 @@ title: Burndown
 description: Läs de här artiklarna för att lära dig hur du använder nedladdningsschemat.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 0c3621e2-26e5-4b9f-84cc-967761a3f050
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%

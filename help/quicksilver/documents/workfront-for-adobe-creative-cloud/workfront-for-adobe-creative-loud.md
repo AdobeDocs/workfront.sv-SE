@@ -2,19 +2,20 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Workfront Extension för Illustrator och InDesign
-description: Workfront Extension är ett tillägg för Adobe som gör att du kan spara och exportera resurser som du skapar i Illustrator eller InDesign till Workfront, vilket snabbar upp godkännande- och granskningsprocessen.
+title: Workfront Extension for Illustrator and InDesign
+description: Workfront Extension är ett tillägg för Adobe som gör att du kan spara och exportera material som du skapar i Illustrator eller InDesign till Workfront, vilket snabbar upp godkännande- och granskningsprocessen.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: d9a02d4b-94ae-4150-a932-fd88d131892f
-source-git-commit: 275b2a70526b4c5b42b87cbecc0b76831eed0241
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-# Workfront Extension för Illustrator och InDesign
+# Workfront Extension for Illustrator and InDesign
 
 <!--
 >[!IMPORTANT]
@@ -22,7 +23,7 @@ ht-degree: 0%
 >We are removing the Workfront extension for Illustrator and InDesign from the Creative Cloud exchange in mid-November.
 -->
 
-Workfront Extension är ett tillägg för Adobe som gör att du kan spara och exportera resurser som du skapar i Illustrator eller InDesign till Workfront, vilket snabbar upp godkännande- och granskningsprocessen.
+Workfront Extension är ett tillägg för Adobe som gör att du kan spara och exportera material som du skapar i Illustrator eller InDesign till Workfront, vilket snabbar upp godkännande- och granskningsprocessen.
 
 Det här avsnittet innehåller följande artiklar:
 

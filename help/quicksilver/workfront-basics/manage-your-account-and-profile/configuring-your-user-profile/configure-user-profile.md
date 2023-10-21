@@ -6,8 +6,9 @@ title: Konfigurera din användarprofil
 description: Läs artiklarna i det här avsnittet och lär dig hur du konfigurerar [!DNL Workfront] användarprofil.
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 2%

@@ -5,8 +5,9 @@ title: Använda området Hem
 description: Läs de här artiklarna för att lära dig hur du använder hemområdet i Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

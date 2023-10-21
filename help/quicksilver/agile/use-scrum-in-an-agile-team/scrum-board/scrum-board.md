@@ -6,8 +6,9 @@ title: Scrum board
 description: Läs artiklarna i det här avsnittet om du vill veta mer om hur du använder Scrum board i Workfront.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: ce032f98-4716-4ed7-99f3-c7ebf0a16a70
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

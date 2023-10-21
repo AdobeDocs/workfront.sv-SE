@@ -6,8 +6,9 @@ title: Läs följande artiklar för att få en förståelse för hur du anpassar
 description: Läs om hur du anpassar mål i Adobe Workfront i följande artiklar.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: d7087420e3cd641445974738b00e9338b327e7d7
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

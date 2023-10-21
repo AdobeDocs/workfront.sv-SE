@@ -8,8 +8,9 @@ description: Som gruppadministratör för en undergrupp kan du skapa, flytta, vi
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 76bbd4c5-a859-4641-aed5-d55e88a66069
-source-git-commit: 01b27ffa881dae44c0f9d84f9a4853c4b4d32b5f
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%

@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Ta bort godkännare eller granskare från ett dokument
 description: Du kan ta bort enskilda godkännare eller granskare från ett dokument.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # Ta bort godkännare eller granskare från ett dokument
 

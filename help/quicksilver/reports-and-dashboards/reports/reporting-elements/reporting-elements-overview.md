@@ -6,8 +6,9 @@ title: Översikt över rapportelement
 description: Alla rapporter och listor från Adobe Workfront är en kombination av tre viktiga element - vyer, filter och grupperingar.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -45,7 +46,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Skapa eller redigera vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 * [Generera rapporter med datumbaserade jokertecken](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
 * [Generera rapporter med användarbaserade jokertecken](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
-* [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Dela ett filter, en vy eller en grupp](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Ta bort filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [Använda vyn Milstolpe](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
 * [Ändra kolumnbredd och -ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

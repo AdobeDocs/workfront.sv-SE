@@ -6,8 +6,9 @@ title: Använda Desktop Proofing Viewer
 description: Installera Desktop Proofing Viewer
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 9451302a-9add-4958-91e9-8d4de6add139
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%

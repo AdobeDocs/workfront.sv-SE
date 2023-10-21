@@ -5,8 +5,9 @@ title: Kom igång med anslagstavlor i [!DNL Adobe Workfront]
 description: Läs dessa artiklar och lär dig hur du använder anslagstavlor i Workfront.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%

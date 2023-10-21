@@ -2,23 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Projektets ekonomi
+title: Projektets finanser
 description: Följande artiklar innehåller information om områden där du kan hitta ekonomisk information om projekt och hur du hanterar projektekonomi.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
-# Projektets ekonomi
+# Projektets finanser
 
 Mer information om områden där du kan hitta finansiell information om projekt och om hur du hanterar projektekonomi finns i följande artiklar:
 
-## Allmänna projektbudgetar
+## Projektets allmänna finanser
 
 [Översikt över projektets ekonomi](../../../manage-work/projects/project-finances/project-finances-overview-1.md)
 
@@ -46,7 +47,7 @@ Mer information om områden där du kan hitta finansiell information om projekt 
 
 [Beräkna budgeterad kostnad för utfört arbete (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md)
 
-[Beräkna budgeterad kostnad för planerat arbete (BCWS)](../../../manage-work/projects/project-finances/calculate-bcws.md)
+[Beräkna budgeterad kostnad för schemalagt arbete (BCWS)](../../../manage-work/projects/project-finances/calculate-bcws.md)
 
 [Beräkna nettovärde](../../../manage-work/projects/project-finances/calculate-net-value.md)
 

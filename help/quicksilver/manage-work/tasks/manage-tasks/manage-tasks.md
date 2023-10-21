@@ -6,8 +6,9 @@ title: Hantera uppgifter
 description: Läs mer om hur du hanterar uppgifter i följande artiklar.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 * [Översikt över att spara samtidiga ändringar i en uppgiftslista](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
 
-   <!--
+  <!--
   <li><a href="../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md" class="MCXref xref" xrefformat="{para}">Manage task details, custom forms, and finances</a> (drafted not to lose the TOC spot, but the article is in draft)</li>
   -->
 

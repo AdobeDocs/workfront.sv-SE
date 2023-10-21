@@ -6,8 +6,9 @@ title: Allmänna API-ämnen
 description: Allmänna API-ämnen
 author: Becky
 feature: Workfront API
+recommendations: noDisplay, noCatalog
 exl-id: 4025002b-4b11-4105-81d6-5d493a0f2255
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 4%

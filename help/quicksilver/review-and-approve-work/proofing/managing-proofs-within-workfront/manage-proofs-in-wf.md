@@ -6,8 +6,9 @@ title: Hantera korrektur i Adobe Workfront
 description: Det här avsnittet innehåller följande artiklar - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: dcd049e4-2e9f-49b9-adac-8b8e67187a3b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 0%

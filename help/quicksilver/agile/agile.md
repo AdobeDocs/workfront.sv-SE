@@ -6,8 +6,9 @@ title: Agile
 description: Läs artiklarna i de här områdena och lär dig hur du använder Agile i Adobe Workfront.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%

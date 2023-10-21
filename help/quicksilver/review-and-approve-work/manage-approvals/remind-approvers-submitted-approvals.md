@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Påminn godkännare om inskickade godkännanden
 description: Du kan påminna godkännare om väntande godkännanden för följande objekt - REDIGERA MIG.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller ge högre åtkomst till objektet som är associerat med åtkomstbegäran eller godkännandet </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomsten till objektet som är associerat med åtkomstbegäran eller godkännandet </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ Du kan begära ytterligare åtkomst för följande objekt:
 
 Så här påminner du en annan användare om att godkänna din åtkomstbegäran för ett objekt:
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
    >
@@ -74,7 +74,6 @@ Så här påminner du en annan användare om att godkänna din åtkomstbegäran 
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
-
 
 1. I **Arbetslista** område, gå till **Godkännanden som jag har skickat** gruppering.
 
@@ -88,7 +87,7 @@ Så här påminner du en annan användare om att godkänna din åtkomstbegäran 
 
 ## Dokument
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
    >
@@ -96,7 +95,6 @@ Så här påminner du en annan användare om att godkänna din åtkomstbegäran 
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
-
 
 1. I **Arbetslista** område, gå till **Godkännanden som jag har skickat** gruppering.
 

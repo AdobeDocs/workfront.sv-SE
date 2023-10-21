@@ -7,8 +7,9 @@ title: Adobe Workfront Fusion
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
-source-git-commit: 89e7481e90e802e352b917654b82047edca033eb
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%

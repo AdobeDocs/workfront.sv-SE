@@ -6,8 +6,9 @@ title: Skapa och hantera projektmallar
 description: Läs mer om hur du skapar och hanterar projektmallar i följande artiklar.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%

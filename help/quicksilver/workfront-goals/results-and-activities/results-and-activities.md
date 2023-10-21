@@ -6,8 +6,9 @@ title: Resultat och aktiviteter i Adobe Workfront mål
 description: Resultat och aktiviteter är förloppsindikatorer för ett mål i Adobe Workfront-målen. Läs mer om resultat och aktiviteter i följande artiklar.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -56,7 +57,7 @@ Det här avsnittet innehåller följande artiklar:
 
 * [Kom igång med resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
 * [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Lägg till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Lägga till projekt i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+* [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till projekt i mål i Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
 * [Redigera resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 * [Ta bort resultat, aktiviteter och projekt från mål i Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Skapa ett dokumentgodkännande
 description: Du kan begära godkännande från andra användare för ett dokument i Adobe Workfront.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en begäran om dokumentgodkännande
 
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa ett dokumentgodkännande från dokumentsidan
 
-1. Gå till dokumentsidan genom att klicka på dokumentets namn och välj sedan den version av dokumentet som du vill skapa ett godkännande för i versionslistan. Den senaste versionen väljs som standard.
+1. Gå till dokumentsidan genom att klicka på dokumentets namn och välj sedan den version av dokumentet som du vill skapa ett godkännande för i versionsmenyn. Den senaste versionen väljs som standard.
 
 1. Välj **Godkännanden** i den vänstra rutan.
 
