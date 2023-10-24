@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -113,6 +113,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Då öppnas posttypens sida.
 1. (Villkorligt) Välj en **Tabellvy** från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
 1. Håll markören över kolumnrubriken för ett fält som du vill redigera och klicka sedan på nedåtpilen efter fältnamnet.
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. Klicka **Redigera fält**, uppdatera informationen om fältet och klicka på **Spara**.
 
    <!--insert screen shot when finalized-->

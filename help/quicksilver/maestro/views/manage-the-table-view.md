@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    * Ta kolumnrubriken och dra den till önskad plats. Kolumnen som du flyttade snabbt visas med en blå bakgrund tills du gör andra justeringar i tabellen.
 
-   * Klicka **Fält** i tabellens verktygsfält, dra och släpp fälten i önskad ordning och klicka sedan utanför **Fältens synlighet och ordningsruta** för att stänga den.
+   * Klicka **Fält** i tabellens verktygsfält, dra och släpp fälten i önskad ordning och klicka sedan utanför **Fältens synlighet och ordning** för att stänga den.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -157,14 +157,14 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    eller
 
-   Klicka **Fält** i tabellens verktygsfält och avaktiverar alternativet som är kopplat till de fält (eller kolumner) som du vill dölja.
+   Klicka **Fält** i tabellens verktygsfält och avaktiverar alternativet som är kopplat till de fält (eller kolumner) som du vill dölja. The **Fältens synlighet och ordning** visas.
 
    >[!TIP]
    >
    >Antalet dolda fält visas till vänster om ikonen Fält i verktygsfältet.
 
 
-1. Klicka på **Fält** ange och aktivera den växlingsknapp som är kopplad till de fält som du vill visa i tabellens kolumner. Alla fält visas som standard.
+1. Klicka på **Fält** och aktivera den växlingsknapp som är kopplad till de fält som du vill visa i tabellens kolumner. Alla fält visas som standard.
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
