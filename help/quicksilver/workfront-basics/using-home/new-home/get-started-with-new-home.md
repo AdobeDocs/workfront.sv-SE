@@ -6,9 +6,9 @@ description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar alla godkännanden för din organisation i en tabell med anpassningsbara kolumner, samt ett sökfält där du kan söka efter specifika godkännanden.
 
 * **Omnämnanden**\
-    Visar senaste kommentarstrådar som innehåller @ omnämnanden av dig i Workfront, samt en svarsknapp som gör att du kan skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
+    Visar senaste kommentarstrådar från hela Workfront, ungefär som sidan Mina uppdateringar, samt en svarsknapp som gör att du kan skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
 
 * **Att göra**\
     Med den här unika widgeten kan du lägga till textobjekt i en personlig checklista som du kan redigera fritt.
@@ -78,7 +78,7 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Medarbetare</td>
-        <td>Mitt arbete, omnämnanden</td>
+        <td>Mina förfrågningar, omnämnanden, väntar på mitt godkännande, anslagstavlor</td>
     </tr>
     <tr>
         <td>Extern</td>
@@ -104,11 +104,11 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
         <td>Mitt arbete, omnämnanden</td>
     </tr>
     <tr>
-        <td>Begränsad</td>
+        <td>Begäran</td>
         <td>Mina projekt, väntar på mitt godkännande</td>
     </tr>
     <tr>
-        <td>Medarbetare</td>
+        <td>Contribute</td>
         <td>Mitt arbete, omnämnanden</td>
     </tr>
     <tr>

@@ -4,9 +4,9 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -364,9 +364,9 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nya snabbåtkomstknappar för widgetarna Projekt, Uppgift och Ärendespårning</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nya snabbåtgärdsknappar för widgeten Mitt arbete</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Ytterligare utökade möjligheter att hantera material direkt från Nytt hem, nya snabbåtkomstknappar har lagts till i widgetarna Projekt, Aktivitet och Ärendespårning.</p>
+                        <p>Ytterligare utökade möjligheter att hantera material direkt från Nytt hem, har nya snabbåtgärdsknappar lagts till i widgeten Mitt arbete.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>

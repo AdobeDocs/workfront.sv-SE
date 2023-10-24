@@ -6,9 +6,9 @@ description: I [!DNL Workfront] mobilappen kan du se alla ritytor du har skapat 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] är flexibla verktyg som ger teamsamarbete genom att ge åtkomst till en delad anslagstavla som innehåller kolumner och kort. Mer information om ritytor finns i [Översikt över styrelser](/help/quicksilver/agile/boards-overview.md).
 
-I [!DNL Workfront] mobilappen kan du se alla ritytor du har skapat eller har lagts till i i skrivbordsversionen av [!DNL Workfront]. Du kan inte skapa en ny anslagstavla i mobilappen.
+I [!DNL Workfront] mobilappen kan du se alla ritytor du har skapat eller har lagts till i i skrivbordsversionen av [!DNL Workfront]. Du kan inte skapa en ny app i mobilappen.
 
 Alla ändringar du gör av brädkolumner och kort i appen återspeglas också i skrivbordsversionen av ritytan.
 
 Om du vill ge feedback på mobilanslagstavlor väljer du **[!UICONTROL Send]** ![Skicka feedback](assets/mobile-send-feedback-icon.png) ikonen längst upp på en anslagstavla och följ anvisningarna.
+
+>[!NOTE]
+>
+>För närvarande har mobilappen stöd för alla typer av anslagstavlor **utom** Iteration Process boards.
 
 ## Visa och filtrera listan med ritytor
 
@@ -32,7 +36,7 @@ Om du vill ge feedback på mobilanslagstavlor väljer du **[!UICONTROL Send]** !
 1. Om du vill sortera eller filtrera listan med ritytor väljer du [!UICONTROL **Fler filter**].
 1. Välj bland följande alternativ:
 
-   * Välj [!UICONTROL **Arkiverad**] om du vill visa arkiverade paneler i listan. Endast aktiva ritytor visas som standard.
+   * I filteravsnittet väljer du [!UICONTROL **Arkiverad**] om du vill visa arkiverade paneler i listan. Endast aktiva ritytor visas som standard.
    * I avsnittet Sortera väljer du [!UICONTROL **Ändrat den**] eller [!UICONTROL **Namn**].
    * Välj [!UICONTROL **Stigande**] eller [!UICONTROL **Fallande**] för att definiera sorteringsordningen.
 
@@ -44,7 +48,7 @@ Om du vill ge feedback på mobilanslagstavlor väljer du **[!UICONTROL Send]** !
 
 >[!NOTE]
 >
->För närvarande kan du bara arkivera eller ta bort en anslagstavla från skrivbordsversionen av [!DNL Workfront] [!UICONTROL Boards], inte från mobilappen.
+>I nuläget kan du bara arkivera eller ta bort en anslagstavla från skrivbordsversionen av [!DNL Workfront] [!UICONTROL Boards], inte från mobilappen.
 
 ## Visa styrelsens innehåll
 
@@ -56,7 +60,7 @@ Om ritytan innehåller en inloppskolumn visas den som kolumnen längst till vän
 
 ## Arbeta med anslutna kort
 
-Ett anslutet kort är anslutet till en befintlig aktivitet eller ett befintligt problem i [!DNL Workfront]. I mobilappen anges ett anslutet kort med ![Anslutet kort, ikon](assets/mobile-boards-connected-card-icon.png) ikon. I bilden nedan är det andra kortet ett anslutet kort.
+Ett anslutet kort är anslutet till en befintlig aktivitet eller ett befintligt problem i [!DNL Workfront]. I mobilappen anges ett anslutet kort med ![Anslutet kort, ikon](assets/mobile-boards-connected-card-icon.png) -ikon. I bilden nedan är det andra kortet ett anslutet kort.
 
 När någon av följande uppgifter uppdateras för kortet på en plats uppdateras det automatiskt på den andra platsen:
 
@@ -75,7 +79,7 @@ Om du till exempel uppdaterar namnet på ett anslutet kort på en bräda i mobil
    >
    >Du kan välja en annan tagg på kortet, men du kan inte skapa nya taggar i mobilappen.
 
-1. (Valfritt) Om du vill ta bort ett kort väljer du [!UICONTROL **Mer**] meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj [!UICONTROL **Ta bort**]. Välj sedan [!UICONTROL **Ta bort**] på bekräftelsemeddelandet.
+1. (Valfritt) Välj [!UICONTROL **Mer**] meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj [!UICONTROL **Ta bort**]. Välj sedan [!UICONTROL **Ta bort**] på bekräftelsemeddelandet.
 
 ## Arbeta med ad hoc-kort
 
@@ -91,9 +95,9 @@ Ett ad hoc-kort är inte anslutet till en Workfront-uppgift eller -utgåva. I bi
 
 1. (Valfritt) Om du vill lägga till ett nytt ad hoc-kort väljer du [!UICONTROL **Nytt kort**] i kolumnen där du vill lägga till kortet och ange kortnamnet. Om du vill lägga till mer information väljer du det nya kortet.
 
-1. (Valfritt) Om du vill kopiera ett kort väljer du [!UICONTROL **Mer**] meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj [!UICONTROL **Kopiera**].
+1. (Valfritt) Välj [!UICONTROL **Mer**] meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj [!UICONTROL **Kopiera**].
 
-1. (Valfritt) Om du vill ta bort ett kort väljer du [!UICONTROL **Mer**] meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj [!UICONTROL **Ta bort**]. Välj sedan [!UICONTROL **Ta bort**] på bekräftelsemeddelandet.
+1. (Valfritt) Välj [!UICONTROL **Mer**] meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj [!UICONTROL **Ta bort**]. Välj sedan [!UICONTROL **Ta bort**] på bekräftelsemeddelandet.
 
 ## Hantera checklisteobjekt på kort
 
@@ -126,7 +130,7 @@ När filter används visas en indikator på ritbordet ![Filter använt på bräd
 ### Sök på en anslagstavla
 
 1. Markera filtret och sökikonen ![Filtrera och söka](assets/filter-search-icon-mobile-boards.png).
-1. Ange en sökterm i rutan och välj [!UICONTROL **Klar**] eller ![Klar, ikon](assets/mobile-apply-icon-checkmark.png).
+1. Skriv in en sökterm i rutan och välj [!UICONTROL **Klar**] eller ![Klar, ikon](assets/mobile-apply-icon-checkmark.png).
 
    Alla kort som innehåller söktermen i titeln visas.
 Välj X för att rensa sökningen.

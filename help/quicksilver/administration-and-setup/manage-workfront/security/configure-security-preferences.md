@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Användare i systemet ser som standard den nya hemupplevelsen </td> 
-      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat kan användarna fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När det är inaktiverat har användarna inte möjlighet att använda Nytt hem. Det här alternativet är aktiverat som standard.</td> 
+      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. <b>När det är inaktiverat har användarna inte möjlighet att använda Nytt hem.</b> Den här inställningen är aktiverad som standard.</td> 
      </tr> 
     </tbody> 
    </table>
