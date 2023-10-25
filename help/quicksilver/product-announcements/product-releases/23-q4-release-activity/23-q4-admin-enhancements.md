@@ -3,9 +3,9 @@ title: Förbättringar av administratören för fjärde kvartalet 2023
 description: Förbättringar av administratören för fjärde kvartalet 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 Den här sidan beskriver alla administratörsförbättringar som gjorts i den fjärde utgåvan av kvartal 2023 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.10.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns på [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Bevis- och dokumentbeslut som är tillgängliga för kunder med äldre licensmodell
+
+Gamla kunder som ännu inte gått över till den nya licensmodellen för Adobe Workfront kan nu se data med antalet beslut om bevis/dokument per användare och månad i en enda rapport. Dessa data är tillgängliga när du kör en rapport om användarbeslut.
+
+Mer information finns i [Förstå objekt i Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) och [Visa antalet korrektur- och dokumentbeslut för alla användare](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
 
 ## Beräknade fält i anpassade formulär kan nu använda jokertecknet $$USER
 

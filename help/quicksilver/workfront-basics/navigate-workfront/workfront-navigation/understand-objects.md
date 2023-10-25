@@ -5,9 +5,9 @@ title: Förstå objekt i [!DNL Adobe Workfront]
 description: Förstå objekt i [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -334,6 +334,10 @@ Du kan rapportera följande objekt när du använder rapportverktyget i [!DNL Wo
 * [!UICONTROL User Delegation]
 
   Du kan rapportera om användare som har delegerats att utföra andra uppgifter och problem medan de inte är på kontoret. Den här rapporten visar den användare som inte är på kontoret samt den användare som fullgör sina uppgifter medan de är ute.
+
 * [!UICONTROL Users Decisions]
+
+  Du kan rapportera hur många beslut användare har fattat om korrektur och dokument under den aktuella månaden.
+
 * [!UICONTROL View]
 * [!UICONTROL Work Item] (här skapas en rapport för uppgifter och problem)
