@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # Översikt över licenser
 
-Organisationen köpte ett visst antal licenser när den förvärvade Adobe Workfront. Som Workfront-administratör ger du en av fyra typer av betalda Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
+Organisationen köpte ett visst antal licenser när den förvärvade Adobe Workfront. Som Workfront-administratör ger du en av 5 typer av Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
 
 ## Hur licenser och åtkomstnivåer knyts ihop
 
-De fyra typerna av betalda Workfront-licenser ger olika åtkomstnivåer till Workfront. Varje åtkomstnivå är kopplad till en av dessa licenser.
+De 5 typerna av Workfront-licenser ger olika åtkomstnivåer till Workfront. Varje åtkomstnivå är kopplad till en av dessa licenser.
 
 Som Workfront-administratör tilldelar du en användare den åtkomstnivå som är kopplad till licensen i stället för att tilldela en licens till en användare.
 
@@ -34,6 +34,7 @@ Tabellen och diagrammet visar de viktigaste åtkomstnivåerna till Workfront:
 | Plan | Systemadministratör, planerare |
 | Arbete | Arbetare |
 | Granska | Granskare |
+| Begäran | Begärande |
 | Extern | Extern användare |
 
 >[!NOTE]

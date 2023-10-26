@@ -6,7 +6,7 @@ description: Åsidosätt faktureringstariffer på projektnivå med faktureringst
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -86,11 +86,11 @@ När du har aktiverat alternativet för åsidosättning av faktureringsräntor p
 
    * Flera projekt:
 
-   1. Gå till en lista med projekt.
-   1. Markera kryssrutan i linje med de projekt som du vill uppdatera.
-   1. Klicka **Redigera**.
-   1. I avsnittet Inställningar aktiverar du **Omberäkna kostnader och intäkter** alternativ.
-   1. Klicka **Spara ändringar**.
+      1. Gå till en lista med projekt.
+      1. Markera kryssrutan i linje med de projekt som du vill uppdatera.
+      1. Klicka **Redigera**.
+      1. I avsnittet Inställningar aktiverar du **Omberäkna kostnader och intäkter** alternativ.
+      1. Klicka **Spara ändringar**.
 
    * Ett projekt:
 

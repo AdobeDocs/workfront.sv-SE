@@ -6,7 +6,7 @@ description: Obligatoriska planer, licenstyper och åtkomst till Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 2137d792485324386b33e75af91ab09415b48390
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Hantera ett projekt i flexibel vy
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -163,7 +161,7 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 
 ## Visa ett projekt i Agile-vyn
 
-1. <span class="preview">Gå till det projekt som du vill visa i en flexibel vy, antingen i uppgiftslistan eller i problemlistan.</span>
+1. Gå till det projekt som du vill visa i en flexibel vy, antingen i uppgiftslistan eller i problemlistan.
 1. Klicka på **Styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png).
 
    Vyn i projektvyn visas som standard.
