@@ -2,19 +2,19 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Skapa en mapp som är länkad till Experience Manager Assets eller Assets Essentials
+title: Skapa en mapp länkad till Experience Manager Assets eller Assets Essentials
 description: Du kan skapa en mapp som är länkad till Experience Manager Assets eller Assets Essentials i Workfront.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# Skapa en mapp som är länkad till Experience Manager Assets eller Assets Essentials
+# Skapa en mapp länkad till Experience Manager Assets eller Assets Essentials
 
 Du kan skapa en mapp som är länkad till Experience Manager Assets eller Assets Essentials i Workfront. Eftersom mappen är länkad visas alla resurser som läggs till i mappen automatiskt i både Workfront och Experience Manager. Du behöver inte skicka resursen manuellt om den finns i en länkad mapp.
 
@@ -39,7 +39,7 @@ Du måste ha följande:
   <tr>
    <td><strong>Produkt</strong>
    </td>
-   <td>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i produkten.
+   <td>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials och du måste läggas till som användare i produkten.
    </td>
   </tr>
   <tr>
@@ -51,7 +51,7 @@ Du måste ha följande:
   <tr>
    <td><strong>Konfigurationer på åtkomstnivå</strong>
    </td>
-   <td>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <strong>Bevilja användaren fullständig administrativ åtkomst</strong>.
+   <td>Du måste vara Workfront-administratör för att kunna konfigurera en integrering med Experience Manager. När den har konfigurerats kan användare med en planlicens ställa in länkade mappar i enskilda projekt.
    </td>
   </tr>
 </table>
