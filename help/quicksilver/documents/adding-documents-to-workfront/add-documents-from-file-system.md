@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Lägga till dokument i Adobe Workfront från filsystemet
-description: Du kan lägga till dokument till projekt, uppgifter eller problem i följande områden i Adobe Workfront - REDIGERA ME.
+description: Du kan lägga till dokument i projekt, uppgifter eller problem i flera områden i Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 # Lägga till dokument i Adobe Workfront från filsystemet
 
-{{preview-and-fast-release}}
-
 Du kan lägga till dokument i projekt, uppgifter eller problem i följande områden i Adobe Workfront:
 
 * Det globala dokumentområdet
 * Dokumentområdet för ett Workfront-objekt
-* <span class="preview">Ett anslutet kort på Workfront</span>
+* Ett anslutet kort på Workfront
 
 Du kan också överföra nya versioner av dokument och lägga till länkar till dokument från tredjepartsleverantörer i molnet, som Google Drive, Dropbox och Microsoft OneDrive. Mer information om hur du lägger till nya versioner av dokument finns i [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md). Mer information om hur du lägger till dokument från tredjepartsleverantörer i molnet finns i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

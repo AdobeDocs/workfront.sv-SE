@@ -6,7 +6,7 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Använd anslutna kort på ritytor
-
-{{preview-and-fast-release}}
 
 Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i [!DNL Workfront].
 
@@ -27,8 +25,8 @@ När någon av följande uppgifter uppdateras för kortet på en plats uppdatera
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
-* <span class="preview">[!UICONTROL Subtasks]</span>
-* <span class="preview">[!UICONTROL Documents]</span>
+* [!UICONTROL Subtasks]
+* [!UICONTROL Documents]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtask]</strong></span></td>
-      <td><span class="preview"><p>Alla befintliga underaktiviteter för aktiviteten visas i det här avsnittet. Klicka <strong>[!UICONTROL Add Subtask]</strong> för att lägga till en ny underaktivitet.</p>
+      <td role="rowheader"><strong>[!UICONTROL Subtask]</strong></td>
+      <td><p>Alla befintliga underaktiviteter för aktiviteten visas i det här avsnittet. Klicka <strong>[!UICONTROL Add Subtask]</strong> för att lägga till en ny underaktivitet.</p>
       <p>Räknaren högst upp i avsnittet visar antalet slutförda underaktiviteter och det totala antalet underaktiviteter.</p>
-      <p>Mer information om underaktiviteter finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Hantera underaktiviteter på anslagstavlor</a>.</p></span></td>
+      <p>Mer information om underaktiviteter finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Hantera underaktiviteter på anslagstavlor</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checklist]</strong></td>
@@ -148,8 +146,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om objekt i checklistor finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
-      <td><span class="preview">För ett befintligt dokument håller du pekaren över dokumentminiatyrbilden och klickar på <strong>Förhandsgranska</strong> för att visa filen i webbläsaren eller <strong>Ladda ned</strong> för att hämta filen till datorn. Information om ett nytt dokument finns i <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Lägg till dokument på kort</a>.</span></td>
+      <td role="rowheader"><strong>[!UICONTROL Documents]</strong></td>
+      <td>För ett befintligt dokument håller du pekaren över dokumentminiatyrbilden och klickar på <strong>Förhandsgranska</strong> för att visa filen i webbläsaren eller <strong>Ladda ned</strong> för att hämta filen till datorn. Information om ett nytt dokument finns i <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Lägg till dokument på kort</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>

@@ -6,7 +6,7 @@ description: Du kan lägga till dokument på anslutna kort på Adobe Workfront B
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Lägg till dokument på kort
-
-{{article-preview-and-fast-release}}
 
 Du kan lägga till dokument på anslutna kort på Adobe Workfront Boards. Alla dokument som du lägger till på kortet blir tillgängliga på fliken Dokument i den anslutna uppgiften eller utgåvan, och dokument som läggs till i uppgiften eller utgåvan visas på kortet. Samma filtyper stöds i båda områdena. Mer information om dokument i Workfront finns i [Lägga till dokument i Adobe Workfront från filsystemet](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

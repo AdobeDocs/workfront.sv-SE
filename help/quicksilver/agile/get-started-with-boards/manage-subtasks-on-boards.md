@@ -5,7 +5,7 @@ title: Hantera underaktiviteter på anslagstavlor
 description: Genom att använda underuppgifter på kort kan du upprätta en överordnad-underordnad relation mellan uppgifter och skapa en hierarki av arbete.
 author: Lisa
 feature: Agile
-source-git-commit: 7b4e1bc58fbaf30ff86e8ec95664cb3baaae2ef7
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Hantera underaktiviteter på anslagstavlor
-
-{{highlighted-preview-article-level}}
 
 Genom att använda underuppgifter på kort kan du upprätta en överordnad-underordnad relation mellan uppgifter och skapa en hierarki av arbete. En underuppgift som du lägger till på ett kort på en Workfront-anslagstavla läggs också till i uppgiften i Workfront-projektet. Mer information om underaktiviteter och uppgifter på projektnivå finns i [Skapa underaktiviteter](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

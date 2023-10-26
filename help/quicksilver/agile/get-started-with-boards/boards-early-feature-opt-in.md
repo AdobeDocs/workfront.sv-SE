@@ -7,9 +7,9 @@ description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -183,9 +183,9 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   </tr>
   <tr>
    <td>Visa dokument på anslutna kort</td>
-   <td>Delvis släppt</td>
+   <td>Frisläppt</td>
   </tr>
- </tbody> 
+ </tbody>
 </table>
 
 ## Anmäl dig till tidiga funktioner

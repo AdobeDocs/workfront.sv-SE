@@ -6,7 +6,7 @@ description: Obligatoriska planer, licenstyper och åtkomst till Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
+source-git-commit: 2137d792485324386b33e75af91ab09415b48390
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Hantera ett projekt i flexibel vy
 
-{{preview-and-fast-release}}
+{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -155,7 +155,7 @@ I stället blir alla användare i projektet i stort sett de smidiga teamen för 
 
 #### Varje användare i projektet kan visa projektet i en annan Agile-vy {#each-user-on-the-project-can-view-the-project-in-a-different-agile-view}
 
-Till skillnad från en smidig upprepning kan användare i ett projekt anpassa den flexibla vyn för sig själva, medan andra användare använder en annan flexibel vy.
+Till skillnad från en smidig upprepning kan användare i ett projekt anpassa den flexibla vyn för sig själva, medan andra användare använder en annan, flexibel vy.
 
 I en smidig upprepning bestäms den information som finns tillgänglig på den flexibla artikelpanelen (t.ex. tillgängliga statuskolumner) på teamnivån.
 
