@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Konfigurera systemuppdateringar
 description: Workfront genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates] för att registrera ändringar som användare utför på objektet. Som en [!DNL Workfront] administratör, du kan konfigurera vilka objektfält och åtgärder [!DNL Workfront] spår för att registrera systemuppdateringar.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 0%
 * Ändringar som användare gör i ett objektfält
 * Åtgärder som användare utför på ett objekt
 
-Dessa systemuppdateringar innehåller ändringar som gjorts, namnet på den användare som gjorde ändringen samt tid och datum för ändringen.
+Dessa systemuppdateringar innehåller följande typ av information:
+
+* Ändringen gjordes
+* Namnet på den användare som gjorde ändringen
+* Tid och datum för ändringen
 
 Mer information om systemuppdateringar finns i [Systemspårade uppdateringar](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 

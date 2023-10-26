@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Systemspårade uppdateringar
+
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] hämtar aktiviteten för vissa objekt genom att logga statusinformation i objektets [!UICONTROL Updates] område.
 
@@ -32,6 +34,8 @@ The [!UICONTROL Updates] omfattar följande typer av uppdateringar:
 
   Mer information om systemuppdateringsflöden och hur du aktiverar dem finns i [Konfigurera systemuppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  ![](assets/system-updates-example-unified-stream.png)
+
   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -40,7 +44,9 @@ The [!UICONTROL Updates] omfattar följande typer av uppdateringar:
 
 ## Överväganden om systemspårade uppdateringar
 
-* Systemspårade uppdateringar är inte tillgängliga för alla objekt som har uppdateringsområdet. The [!UICONTROL Updates] -området är tillgängligt för följande objekt:
+Systemspårade uppdateringar är inte tillgängliga för alla objekt som har uppdateringsområdet.
+
+* The [!UICONTROL Updates] -området är tillgängligt för följande objekt:
 
    * [!UICONTROL Project]
    * [!UICONTROL Task]
@@ -64,12 +70,13 @@ The [!UICONTROL Updates] omfattar följande typer av uppdateringar:
 
      Mer information om uppdateringar av kort finns i [Använd anslutna kort på ritytor](../../../agile/get-started-with-boards/connected-cards.md).
 
-* [!DNL Workfront] spårar inte några systemuppdateringar för följande objekt:
+* [!DNL Workfront] spårar inte systemuppdateringar för följande objekt:
 
    * [!UICONTROL Team]
    * [!UICONTROL Template]
    * [!UICONTROL Template Task]
    * Ad hoc [!UICONTROL Card]
+   * [!UICONTROL Iterations]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -77,17 +84,17 @@ The [!UICONTROL Updates] omfattar följande typer av uppdateringar:
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Användare kan visa systemuppdateringar som standard eller välja att inte visa dem.
+* Nedan följer skillnader mellan den nya och den gamla kommentarsfunktionen:
 
-  Mer information om hur du inaktiverar visning av systemuppdateringar finns i avsnittet [Aktivera eller inaktivera systemuppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) i artikeln [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * När du använder den nya kommentarsfunktionen visas användaruppdateringar på fliken Kommentarer och systemuppdateringar på fliken Systemaktivitet.
 
-  >[!NOTE]
-  >
-  >Vi håller just nu på att omarbeta kommentarupplevelsen och [!UICONTROL Updates] område i [!DNL Workfront].
-  >
-  > Du kan inte dölja systemuppdateringar när du använder den nya kommentarsfunktionen.
-  > 
-  >Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * När du använder den äldre kommentarsfunktionen visas system- och användaruppdateringarna i ett kontinuerligt flöde.
+
+   * När man använder en äldre kommentarsfunktion kan man som standard se systemuppdateringar eller välja att inte visa dem. Det går inte att inaktivera systemuppdateringar när den nya kommentarfunktionen används.
+
+     Mer information om hur du inaktiverar visning av systemuppdateringar finns i avsnittet [Aktivera eller inaktivera systemuppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) i artikeln [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfront registrerar systemspårade uppdateringar för följande objekt, men det finns inget alternativ för att inaktivera visning av dem:
 

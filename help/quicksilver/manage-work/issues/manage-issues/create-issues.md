@@ -8,24 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
 
 # Skapa problem
 
-<!--remove Preview and Prod references when this comes to Prod-->
+<!--
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
 
-<span class="preview">Mer information om den aktuella versionen finns i [Versionsöversikt för fjärde kvartalet 2023](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span> 
 
-
+-->
 
 När du arbetar med ett projekt kanske du upptäcker att oväntade händelser inträffar. Du kan logga oväntade händelser som problem för ett visst projekt eller en uppgift. Användare med lämplig åtkomst kan visa och övervaka status för problem allt eftersom projektet eller aktiviteten fortskrider till slutförandet, vilket eliminerar behovet av långa e-postkedjor eller statusmöten. Till skillnad från planerade aktiviteter representerar ärenden oplanerade arbetsuppgifter i Adobe Workfront.
 
@@ -87,68 +87,67 @@ Information om hur du skapar problem genom att skicka dem till en begärandekö 
 
 När du har definierat fälten för ett nytt utgivningsformulär i ditt projekt kan du börja skapa problem.
 
-Hur du skapar problem varierar beroende på vilken miljö du väljer att skapa problemet.
+<!-- OLD UI: redesigned on Oct 26, 2023:
 
-### Skapa problem i en uppgift eller ett projekt med knappen Nytt problem i produktionsmiljön
+Creating issues differs depending on which environment you choose to create the issue. 
 
-Så här skapar du ett problem för en aktivitet eller ett projekt:
+### Create issues on a task or project using the New Issue button in the Production environment
 
-1. Gå till ett projekt där du vill skapa problemet.
-1. (Valfritt) Om du vill logga problemet för en uppgift går du till **Uppgifter** och klicka sedan på namnet på en uppgift.
-1. Klicka på **Problem** -avsnitt.
+To create an issue on a task or a project:
+
+1. Go to a project where you want to create the issue. 
+1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
+1. Click the **Issues** section.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
 
-1. Klicka **Nytt problem**.
+1. Click **New Issue**.
 
    ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
 
-1. (Villkorligt) Om den som skapat projektet har skapat köämnen eller ämnesgrupper i projektet läggs de till i det nya utgivningsformuläret. Ange **Ämnesgrupp** eller **Köämne** av din nya utgåva. Ämnesgrupper och Köämnen har namn som är anpassade efter din miljö.\
-   Mer information om hur du skapar ämnesgrupper finns i [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Mer information om hur du skapar köämnen finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
+   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
-   * Om det bara finns ett köämne i projektet visas det automatiskt.
-   * Om ämnesgruppen inte har några köämnen eller ämnesgrupper under sig är ingenting tillgängligt i listrutan Ämnesgrupp.
+   * If there is only one Queue Topic set on the project, it is displayed automatically.
+   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
 
-1. (Villkorligt) Om den som skapat projektet tillåts för **Typ av begäran** fält som ska visas i formuläret Nytt problem, välj typ av problem bland följande alternativ:
+1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
 
-   * Felrapport
-   * Ändra ordning
-   * Problem
-   * Begäran\
-     Beroende på hur din Workfront-administratör har konfigurerat dina projektinställningar kan det finnas olika namn på problemtyperna.
+   * Bug Report
+   * Change Order
+   * Issue
+   * Request  
+     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
 
    >[!TIP]
    >
-   >Begärandetyperna måste vara aktiverade i köinformationen och även när du skapar ett köämne som ska visas som ett val i formuläret Nytt problem. Mer information finns i följande artiklar:
-   >* [Skapa en begärandekö](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Skapa köämnen](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
+   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 
-1. Lägg till ett namn för den nya utgåvan i **Ärendenamn** fält.
-1. Fortsätt att ange fälten som är tillgängliga i **Nytt problem** formulär. Mer information om fälten som är tillgängliga när du anger en ny utgåva finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Add a name for the new issue in the **Issue Name** field. 
+1. Continue specifying the fields available in the **New Issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
-   >Alla problemrelaterade fält är inte tillgängliga i formuläret Nytt problem. Den som skapar projektet aktiverar de fält som är tillgängliga när ett problem skapas när de definierar området Köinformation i projektet. Mer information finns i [Skapa en begärandekö](../../requests/create-and-manage-request-queues/create-request-queue.md).
+   >Not all the issue-related fields are available in the New Issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
 
 
-1. (Villkorligt) Om köämnen är kopplade till ett anpassat formulär visas det anpassade formuläret i dialogrutan **Nytt problem** formulär.\
-   eller\
-   Om projektet är kopplat till ett anpassat formulär via området Köinformation, visas formuläret i dialogrutan **Nytt problem** efter Workfront standardfält.
+1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
+   Or  
+   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, after the default Workfront fields.
 
-   Mer information finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicka **Spara nytt problem.**
+1. Click **Save New Issue.**
 
-Problem kan tilldelas flera användare, jobbroller eller ett team. Mer information om hur du tilldelar och hanterar begäranden finns i [Hantera arbets- och teamförfrågningar](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
-
-<div class="preview">
-
-### Skapa problem i en uppgift eller ett projekt med knappen Nytt problem i förhandsgranskningsmiljön
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
+-->
 
 Så här skapar du ett problem för en aktivitet eller ett projekt:
 
@@ -202,7 +201,6 @@ Rutan Nytt problem visas.
 
    Problem kan tilldelas flera användare, jobbroller eller ett team. Mer information om hur du tilldelar och hanterar begäranden finns i [Hantera arbets- och teamförfrågningar](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-</div>
 
 ## Skapa ärenden för en aktivitet eller ett projekt
 

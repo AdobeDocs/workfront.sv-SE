@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3617'
 ht-degree: 0%
 
 ---
@@ -17,21 +17,28 @@ ht-degree: 0%
 
 
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>\
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">Information om det aktuella releaseschemat finns i [Versionsöversikt för fjärde kvartalet 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
->Beroende på vilken miljö och vilka objekt du har tillgång till kommentarfunktionerna från kan du se olika funktioner i uppdateringsavsnittet.
+>
+>Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du se följande funktionalitet för uppdateringsavsnittet:
+>* Den nya upplevelsen
+>* Den gamla upplevelsen
+>* Det nya och gamla gränssnittet
 >
 >Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar objekt från följande områden:
 >
 > * Startsida
 > * Panelen Sammanfattning i listor
@@ -169,20 +176,18 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Lägga till en uppdatering i en arbetsuppgift
 
-Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på vilken version av uppdateringsavsnittet och vilket objekt du väljer.
-
-### Lägga till en uppdatering för en arbetsuppgift i det aktuella uppdateringsavsnittet
-
-<!--on October 26, replace "current" with "legacy"-->
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Följande funktionalitet är tillgänglig för alla objekt utom mål och kort. Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
->
->Du kan lägga till och visa uppdateringar för kort i kortområdet när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+>Informationen på den här sidan beskriver hur du uppdaterar projekt, uppgifter och problem.
+
+
+Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på vilken version av uppdateringsavsnittet du använder.
+
+### Lägga till en uppdatering för en arbetsuppgift i det äldre uppdateringsavsnittet
 
 1. Gå till den arbetsuppgift som du vill uppdatera (till exempel ett projekt, en uppgift eller en utgåva) för.
 1. Klicka på **Uppdateringar** -avsnitt.
+1. (Villkorligt) Om det är aktiverat klickar du på **Nya kommentarer** i det övre högra hörnet av uppdateringsavsnittet för att inaktivera det och aktivera den tidigare kommentarfunktionen.
 1. Klicka **Starta en ny uppdatering,** skriv sedan in uppdateringen.
 1. (Valfritt) Använd RTF eller lägg till känslolägesikoner, länkar eller bilder i uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 1. (Valfritt) Uppdatera någon av följande information om arbetsuppgiften:
@@ -236,15 +241,14 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 
 ### Lägga till en uppdatering av en arbetsuppgift med hjälp av den nya kommentarsfunktionen
 
-Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
+1. Leta reda på objektet som du vill uppdatera (projekt, uppgift eller utgåva) och klicka sedan på namnet för att öppna objektets sida.
 1. Klicka  **Uppdateringar** till vänster.
+1. (Villkorligt) Om **Nya kommentarer** är inaktiverat, klicka för att aktivera det.
 
-   The **Kommentar** -fliken är markerad som standard.
+   Detta möjliggör den nya kommentarsfunktionen. The **Kommentar** -fliken är markerad som standard.
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -263,19 +267,23 @@ Information om vilka funktioner som är tillgängliga för den nya kommentarsfun
    >Indikatorn visas först när kommentaren har skickats för objektet, inte när kommentaren fortfarande är sammansatt.
    >
    >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
-   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
-1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png)  <span class="preview">i kommentarens övre högra hörn</span>och sedan klicka **Redigera**.
-1. Redigera informationen i kommentaren, lägg till eller ta bort bilder eller ta bort någon av de taggade användarna.
-Du kan bara redigera din kommentar inom 15 dagar från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren angavs.
+1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka sedan på **Redigera**.
+
+   >[!IMPORTANT]
+   >
+   >Du kan bara redigera din kommentar inom 15 dagar från det att du skickat in den.
+
+1. Redigera informationen i kommentaren, lägg till eller ta bort bilder eller ta bort någon av de taggade användarna. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren angavs.
 
    >[!TIP]
    >
    >Kommentarer från det aktuella året visar inte året i datumstämpeln. Om du hovrar över en tidsstämpel visas hela datumet, inklusive året.
 
 
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -284,34 +292,27 @@ Du kan bara redigera din kommentar inom 15 dagar från det att du skickat in den
    >* När du skickar en kommentar för en annan användares räkning (när du loggar in som en annan användare som Workfront- eller gruppadministratör) kan du inte redigera kommentaren om du är inloggad som den andra användaren. Du kan bara redigera kommentaren efter att du har loggat ut som användare och loggat in som du själv.
 
 
-1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar, följ sedan stegen 4-8 ovan. <!--(**************insure this stays accurate***********)--> Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Valfritt) Klicka på **Svara** eller börja skriva en kommentar i **Lägg till svar ...** för att svara på en befintlig kommentar, följ sedan stegen 4-8 ovan. <!--(**************insure this stays accurate***********)--> Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-   >[!TIP]
-   >
-   >   <span class="preview">Om du vill lägga till fler svar i ett befintligt svar kan du börja skriva i **Lägg till svar...** eller klicka **Svara** på den ursprungliga kommentaren. Svaret läggs till i slutet av tråden.</span>
+1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet medan du lade till dina kommentarer, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
 
-
-1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
-
-   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
+   ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Ytterligare kommentarer visas längst ned på skärmen.
-
 
 
    >[!NOTE]
    >
    >   Indikatorn&quot;nya kommentarer&quot; och knappen&quot;Visa&quot; visas bara när både de användare som har öppnat de nya uppdateringarna och de användare som för närvarande tittar på uppdateringsavsnittet använder den nya kommentarsfunktionen.
 
-
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png). Ikonen uppdateras med antalet gilla-markeringar.
-1. (Villkorligt och Valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
+1. (Villkorligt och valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
 
-   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
+   ![](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Namnen på de två första taggade enheterna visas bredvid deras avatarer. Om fler än två enheter är taggade visas bara namnet på den första och antalet ytterligare enheter.</span>
+   >Namnen på de två första taggade enheterna visas bredvid deras avatarer. Om fler än två enheter är taggade visas bara namnet på den första och antalet ytterligare enheter.
 
 1. (Valfritt) Klicka på **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När objektet eller något av dess underordnade objekt uppdateras, genererar Workfront en anteckning om den uppdateringen och visar den på fliken Systemaktivitet.
 
@@ -327,7 +328,7 @@ Du kan bara redigera din kommentar inom 15 dagar från det att du skickat in den
 
 >[!NOTE]
 >
->Vissa av alternativen i verktygsfältet RTF kanske inte är tillgängliga för den nya kommentarsfunktionen.
+>Följande information beskriver hur du använder RTF i den nya kommentarsfunktionen, om inte annat anges.
 
 Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till olika objekt i den, som känslolägesikoner, länkar eller bilder.
 
@@ -340,15 +341,18 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
    | **Attribut** | **Knappen Verktygsfält** | **Mac kortkommandon** | **Kortkommandon i Windows** |
    |---|---|---|---|
-   | Fet | ![mceclip10.png](assets/mceclip10.png) | Jesse+b | Ctrl+B |
+   | Fet | ![](assets/mceclip10.png) | Jesse+b | Ctrl+B |
    | Kursiv | ![mceclip9.png](assets/mceclip9.png) | Jesse+i | Ctrl+I |
    | Understruken | ![mceclip8.png](assets/mceclip8.png) | Jesse+u | Ctrl+U |
-   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar:¥+K</br> <br>Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer:</br> | <br>Så här öppnar du rutan Skapa länkar eller Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten i betafunktionen för kommentarer: Ctrl+V</br> |
+   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Lägg till länkar:¥+K</br> <br>Så här klistrar du in en länk över den markerade texten: +V</br> | <br>Så här öppnar du rutan Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten: Ctrl+V</br> |
    | Punktlista | ![mceclip6.png](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
    | Numrerad lista | ![mceclip5.png](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
-   | Blockcitat | ![](assets/block-quote-icon-large.png) | ¥+Shift+9 | Ctrl+Skift+9 |
+   | Blockcitat | ![](assets/block-quote-icon-large.png) | ¥+Shift+9 | <br>Ctrl+Skift+9</br> <br>Detta är inte tillgängligt i den nya kommentarsfunktionen. </br> |
+
+   <!--remove the last row when we remove legacy from the system-->
 
    Om du vill avbryta formateringen av text avmarkerar du attributet på **RTF** verktygsfält.
+
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
@@ -359,11 +363,13 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Om din organisation använder Workfront med Internet Explorer förlorar all formaterad text som klistras in i en uppdatering sin RTF-formatering och visas som oformaterad text. Du kan formatera om texten med attributen i verktygsfältet RTF.
    >* RTF-formatering är inte tillgängligt för uppdateringar som gjorts i tidrapporteraren eller för antecknings- och senaste villkorsobjekt som visas i en rapport.
 
-1. (Valfritt) Om du vill ta med text från tidigare uppdateringar eller från andra källor och skilja den från din egen uppdatering, kan du markera den som en blockoffert. Klicka på **Blockcitat** icon ![](assets/block-quote-small.png) och skriv den text du vill citera. Den citerade texten visas markerad med en lodrät grå linje. Klicka på **Blockcitat** om du vill återgå till normal formatering.
+1. (Valfritt och villkorligt) Om du vill ta med text från tidigare uppdateringar eller från andra källor och skilja den från din egen uppdatering, kan du markera den som en blockoffert. Klicka på **Blockcitat** icon ![](assets/block-quote-small.png) och skriv den text du vill citera. Den citerade texten visas markerad med en lodrät grå linje. Klicka på **Blockcitat** om du vill återgå till normal formatering. Detta är inte tillgängligt i den nya kommentarsfunktionen.
 
-   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-1. (Valfritt) Lägg till känslolägesikoner i uppdateringen.
+   ![](assets/block-quote-marked-350x144.png)</span>
+
+1. (Valfritt) Klicka på **emoji** icon ![](assets/emoji-icon.png) för att lägga till känslolägesikoner i uppdateringen.
 
    >[!NOTE]
    >
@@ -384,13 +390,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    1. Under **Text som ska visas** skriver du eller klistrar in länktexten.
    1. Klicka **Spara**.
 
-1. (Valfritt) Om du vill bifoga en bild till uppdateringen gör du något av följande, beroende på vilken miljö du använder:
-
-   * Klicka på **Bild** icon ![](assets/addimageicon-35x32.png) och bläddra till bilden på datorn eller dra bilden till uppdateringsområdet när du använder den aktuella uppdateringsupplevelsen
-
-   eller
-
-   Klicka på **Lägg till bilaga** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn när du använder den nya kommentarsfunktionen. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
+1. (Valfritt) Om du vill bifoga en bild till uppdateringen klickar du på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn när du använder den nya kommentarsfunktionen.
 
    >[!NOTE]
    >
@@ -400,11 +400,13 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Du kan skicka en uppdatering med en bild och utan text.
    >* När du tar bort en kommentar som innehåller en bild, finns följande scenarier beroende på vilken upplevelse du väljer:
    >
-   >     * I den aktuella kommentarsfunktionen finns bilden kvar i området Dokument, men visas inte längre i uppdateringsavsnittet.
+   >     * I den gamla kommentarsfunktionen finns bilden kvar i området Dokument men visas inte längre i uppdateringsavsnittet.
    >     * I den nya kommentarsfunktionen tas bilden bort både från uppdateringsavsnittet och från dokumentområdet. Bilden tas också bort från dokumentområdet när du redigerar en kommentar och tar bort bilden.
    >* När någon tar bort en bild som är kopplad till en kommentar från dokumentområdet tas den även bort från kommentaren.
 
-1. Klicka **Uppdatera**  eller **Skicka** när du använder betafunktionen för kommentarer.
+   <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. Klicka **Skicka** för att lägga till din kommentar.
 
 
 ## Kopiera uppdateringsinformation
@@ -413,13 +415,14 @@ Du kan kopiera en uppdatering på flera olika sätt. När du har kopierat en lä
 
 Kopieringen av en uppdatering skiljer sig åt beroende på vilken kommentarsfunktion du använder.
 
-### Kopiera en uppdatering i den aktuella kommentarsfunktionen
+### Kopiera en uppdatering i det gamla kommentargränssnittet
 
-<!--October 26 - replace current with legacy-->
+<!--remove legacy when removed from the UI-->
 
 * [Kopiera uppdateringen](#copy-the-update)
 * [Kopiera trådlänken](#copy-the-thread-link)
 * [Kopiera uppdateringslänken](#copy-the-update-link)
+* [Offertsvar](#quote-reply)
 
 #### Kopiera uppdateringen {#copy-the-update}
 
@@ -449,18 +452,35 @@ Med det här alternativet kopieras en specifik uppdateringslänk till Urklipp. N
 
    ![](assets/copy-update-link-old-ui.png)
 
+
+#### Offertsvar
+
+Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar som ett blockcitat.
+
+1. Gå till den uppdatering eller det svar som du vill kopiera.
+1. Klicka på **Mer** menyn och klicka sedan på **Offertsvar**.
+
+   En ny kommentarsruta öppnas och det citerade svaret inkluderas i den nya kommentaren och markeras som ett blockcitat.
+
+1. Fortsätt lägga till uppdateringen och klicka på **Svara** för att lägga till kommentaren.
+
 ### Kopiera en uppdatering i den nya kommentarsfunktionen
 
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
+Du kan kopiera information från en befintlig kommentar genom att göra något av följande:
+
 * [Kopiera länk](#copy-link)
 * [Kopiera brödtext](#copy-body-text)
+* [Offertsvar](#quote-reply-1)
+
+![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
 #### Kopiera länk
 
-Med det här alternativet kopieras kommentaren eller länken till Urklipp så att du kan dela kommentaren eller hela tråden med andra användare.
+Alternativet Kopiera länk kopierar kommentaren eller länken till Urklipp så att du kan dela kommentaren eller hela tråden med andra användare.
 
 1. Gå till den uppdatering vars länk du vill kopiera.
 
@@ -468,10 +488,25 @@ Med det här alternativet kopieras kommentaren eller länken till Urklipp så at
 
 #### Kopiera brödtext
 
-Med det här alternativet kopieras texten från en specifik uppdatering till Urklipp.
+Alternativet Kopiera brödtext kopierar texten från en specifik uppdatering till Urklipp.
 
 1. Gå till den uppdatering eller det svar som du vill kopiera.
 1. Klicka på **Mer** menyn och klicka sedan på **Kopiera brödtext**.
+
+#### Offertsvar
+
+Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar som en blockcitat.
+
+1. Gå till den uppdatering eller det svar som du vill kopiera.
+1. Klicka på **Mer** menyn och klicka sedan på **Offertsvar**.
+
+   En ny kommentarsruta öppnas och det citerade svaret inkluderas i den nya kommentaren och markeras som ett blockcitat.
+
+   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
+
+1. Fortsätt lägga till uppdateringen och klicka på **Skicka** för att lägga till kommentaren.
 
 ## Ta bort en uppdatering eller ett svar
 
@@ -484,7 +519,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicka på **Bekräfta** eller klicka **Ta bort** när du använder betafunktionen för kommentarer.
+1. Klicka på **Ta bort**.
 
    >[!NOTE]
    >
@@ -492,9 +527,9 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
-   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
+   ![](assets/removed-comment-indicator-new-experience.png)
 
-   När du använder betafunktionen för kommentarer tas borttagna kommentarer bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
+   Borttagna kommentarer tas bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
@@ -521,18 +556,19 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
 -->
 
+
+
 ## Aktivera eller inaktivera systemuppdateringar
 
-<!--October 2023: remove the whole section because this is no longer possible -->
+<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
 
 <!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
 >Det går inte att inaktivera systemuppdateringar när den nya kommentarfunktionen används.
->Informationen i det här avsnittet gäller endast de funktioner som är tillgängliga i det aktuella uppdateringsavsnittet. <!--October 26: replace current with legacy-->
->Mer information om systemuppdateringar i betaversionen finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
-
+>Informationen i det här avsnittet gäller endast de funktioner som är tillgängliga i det äldre uppdateringsavsnittet. &lt;!—remove this section when we remove legacy from system->
+>Mer information om systemuppdateringar i den nya kommentarsfunktionen finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 I uppdateringsavsnittet för ett Workfront-objekt visas två typer av information:
 

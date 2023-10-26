@@ -6,9 +6,9 @@ description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrappor
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Som standard döljs kommentarer första gången du öppnar en tidrapport.
 
 Så här visar du kommentarer på en tidrapport:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Tidrapporter**.
 1. Öppna tidrapporten där du vill visa kommentarer.
@@ -78,26 +78,28 @@ Kommentarerna visas under objektet där timinmatningen och kommentaren loggades.
 
 Du kan göra allmänna kommentarer om tidrapporten.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Tidrapporter**.
-1. Gå till den tidrapport där du vill kommentera.
-1. Klicka **Uppdateringar** i den vänstra panelen och börja skriva en uppdatering.
-1. (Valfritt) Lägg till personer eller team i **Meddela** -fält för att inkludera andra i uppdateringen. Mer information om Workfront-uppdateringar finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Skriv din kommentar och klicka sedan på **Uppdatera**.
+1. Gå till tidrapporten där du vill göra en kommentar.
+1. Klicka **Uppdateringar** i den vänstra panelen ser du till att **Kommentar** är markerad och börjar ange en uppdatering i **Ny kommentar** box.
+1. (Valfritt) Lägg till personer eller team i **Tagga personer eller team** -fält för att inkludera andra i uppdateringen. Mer information finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. (Valfritt) Lägg till RTF-formatering i kommentaren. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Valfritt) Välj **Privat till mitt företag** om du bara vill att personer från ditt företag ska kunna se uppdateringen.
+1. Skriv din kommentar och klicka sedan på **Skicka**.
 
    Din kommentar visas i [!UICONTROL Updates] i tidrapporten.
 
-   Systemgenererade uppdateringar visas även i det här området när du aktiverar [!UICONTROL **Visa systemuppdateringar**] i uppdateringsavsnittet.
+1. (Valfritt) Klicka på **Systemaktivitet** för att granska systemgenererade uppdateringar.
 
    Mer information finns i avsnittet Aktivera eller inaktivera systemuppdateringar i artikeln [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Kommentera en enskild timpost i en tidrapport {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Tidrapporter**.
-1. Gå till tidrapporten där du vill göra en kommentar och klicka på **Tidrapport** i den vänstra panelen.
+1. Gå till tidrapporten där du vill göra en kommentar och klicka på **Tidrapport** till vänster.
 1. Klicka i timpostfältet där du vill kommentera och klicka **Kommentar** för att lägga till en kommentar för timbidraget.
 
    >[!TIP]
@@ -105,14 +107,14 @@ Du kan göra allmänna kommentarer om tidrapporten.
    >   När du använder ett vanligt QWERTY-tangentbord när du har klickat på rutan för timmatning, trycker du på följande uppsättning tangenter för att öppna kommentarsrutan:
    >   * Skift+F2 för både Windows- och Mac-datorer.
 
-
    Gör något av följande:
 
    * Skriv en ny kommentar och klicka på **Klar**.
    * Redigera en befintlig kommentar och klicka på **Klar** eller klicka **Avbryt** för att ignorera ändringarna.
    * Klicka på **Ta bort** icon ![](assets/delete.png) om du vill ta bort en sparad kommentar.
 
-      En blå markör visas i det övre högra hörnet av timpostrutan för att ange att kommentarer har loggats med tidsangivelsen.
+     En blå markör visas i det övre högra hörnet av timpostrutan för att ange att kommentarer har loggats med tidsangivelsen.
+
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
@@ -120,7 +122,6 @@ Du kan göra allmänna kommentarer om tidrapporten.
    >   När du använder ett vanligt QWERTY-tangentbord kan du trycka på följande uppsättning tangenter i kommentarsrutan för att spara kommentaren:
    >   * Ctrl + Retur för Windows-datorer.
    >   * Cmd + Retur för Mac-datorer.
-
 
 
 1. (Valfritt) Mer information om hur du konfigurerar kommentarer som ska visas på en timingplats finns i avsnittet [Visa kommentarer för timregistrering på en tidrapport](#view-hour-entry-comments-on-a-timesheet) i den här artikeln.
@@ -134,9 +135,9 @@ Du kan göra allmänna kommentarer om tidrapporten.
 
 Du kan bara kommentera uppgifter och ärenden i en tidrapport. Du kan inte kommentera projekt eller allmän tid.
 
-1. Klicka på [!UICONTROL **Huvudmeny**] icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på [!UICONTROL **Huvudmeny**] icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 1. Klicka [!UICONTROL **Tidrapporter**].
-1. Gå till tidrapporten där du vill kommentera och klicka på [!UICONTROL **Tidrapport**] i den vänstra panelen.
+1. Gå till tidrapporten där du vill kommentera och klicka på [!UICONTROL **Tidrapport**] till vänster.
 1. Klicka på raden för en uppgift eller ett problem och klicka sedan på [!UICONTROL **Öppna sammanfattning**].
 1. Börja skriva en uppdatering i [!UICONTROL **Uppdateringar**] på panelen Sammanfattning och klicka sedan [!UICONTROL **Uppdatera**].
 Uppdateringen visas i uppdateringsavsnittet för uppgiften och utgåvan.

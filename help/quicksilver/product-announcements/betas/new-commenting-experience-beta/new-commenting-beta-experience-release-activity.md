@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2209'
 ht-degree: 0%
 
 ---
@@ -25,41 +25,70 @@ ht-degree: 0%
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 
-Den här sidan innehåller information om tidslinjen för releasen för den nya kommentarsfunktionen som för närvarande pågår i Adobe Workfront.
+>[!IMPORTANT]
+>
+>Informationen i den här artikeln hänvisar till funktioner som släpptes under betaversionen för den nya kommentarsfunktionen.
+>
+>Betaprogrammet för de nya kommentarerna inleddes i april 2023 och avslutades i oktober 2023.
+>
+>Funktionerna som släpptes under betaperioden har gjorts tillgängliga för alla kunder från och med den fjärde kvartsutgåvan av 2023 (oktober 2023) och betaprogrammet har stängts.
+> 
+><br>Mer information finns i följande artiklar: </br>
+>
+>* Mer information om funktionerna som släpptes under den nya betaperioden finns i [Ny kommentarsfunktion](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>* Mer information om funktioner som släpps för kommenteringsfunktionen när det nya betaprogrammet för kommentarsfunktionen har stängts finns i den aktuella produktreleaseversionsöversikten.
 
-Allmän information om den nya kommentarsfunktionen, inklusive en lista över funktioner som för närvarande är tillgängliga eller finns i forskningsrapporter, finns i [Ny kommentarsfunktion](../new-commenting-experience-beta/unified-commenting-experience.md).
+<!--
+ This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
+
+For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
 
 >[!IMPORTANT]
 >
->Den nya kommentarsfunktionen som lanserades i Beta i version 23.2. Mer information om den ursprungliga versionen finns i [23.2 Versionsöversikt](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+>The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
->Funktioner som släpps till Workfront-objekt som stöder betakommentarsfunktionen släpps även i uppdateringsavsnittet för följande objekt som enda kommentarsfunktion:
->* Mål
->* Kort i området för nämnderna.
+>Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
+>* Goals
+>* Cards in the Boards area. 
 
-## Frigör tidslinje
+-->
 
-Vi planerar att släppa den nya kommentarsupplevelsen iterativt. Detta påverkar utvalda objekt i varje release. En liten uppsättning funktioner kan släppas i början och fler funktioner kommer att läggas till i de återstående objekten över tiden.
+## Ny tidslinje för att frigöra kommentarsfunktioner
 
-Information om vilka Workfront-objekt som visas i uppdateringsavsnittet finns i   [Översikt över uppdateringsavsnittet](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Den nya kommentarsfunktionen ger en ny design till uppdateringsavsnittet för Workfront-objekt.
 
-Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av den nya kommentarsfunktionen i produktionsmiljön. Förutom milstolparna nedan kommer vi att fortsätta att förbättra kommentarsupplevelsen med mindre förbättringar. Mer information om alla funktioner som släpps finns i [Frisläppta funktioner](#released-features) i den här artikeln.
+Information om vilka Workfront-objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av den nya kommentarsfunktionen i produktionsmiljön. Förutom milstolparna nedan kommer vi att fortsätta att förbättra kommentarsupplevelsen med mindre förbättringar.
+
+Mer information om vilka funktioner som släpptes under betaperioden och när de släpptes finns i [Funktioner som släppts under betaperioden](#features-released-during-the-beta-period) i den här artikeln.
+
+Mer information om funktionerna som släppts för den nya kommentarsfunktionen efter att betaperioden stängts finns i den aktuella versionsöversikten.
+
+Här följer en planerad tidslinje för den nya kommentarsfunktionen:
 
 * Med version 23.2 (6 april 2023):
-   * Kommentarsupplevelse Beta för problem
-   * Ny kommenteringsupplevelse för mål (som den enda upplevelsen)
+   * Starta kommenteringsfunktionen Beta för problem
+   * Släpp den nya kommentarsfunktionen för mål (som den enda upplevelsen)
 * Med version 23.3 (20 juli 2023):
-   * Kommentarer Beta för projekt, uppgifter och dokument.
-   * Ny kommentarsfunktion för kort i styrelserutan (som den enda upplevelsen)
+   * Starta kommenteringsfunktionen Beta för projekt, uppgifter och dokument.
+   * Släpp den nya kommentarsfunktionen för kort i boardvyn (som den enda upplevelsen)
 * Under den fjärde utgåvan av kvartal 2023 (begränsad utgåva, endast tillgänglig för kunder som väljer den snabba utgåvan):
-   * Ny kommentarfunktion för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
-   * Kommentarsupplevelsen Beta för projekt, uppgifter, utgåvor och dokument blir standardalternativet. Betaetiketten tas bort.
-* Med den fjärde utgåvan för kvartal 2023 (23.10) (oktober 2023)
-   * Ny kommentarfunktion för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
-   * Den nya kommentarsfunktionen för projekt, uppgifter, utgåvor och dokument blir standardalternativet. Detta avslutar betaversionen av den nya kommentarsfunktionen.
+   * Släpp den nya kommentarsfunktionen för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
+   * Uppdatera kommentarsupplevelsen Beta för projekt, uppgifter, utgåvor och dokument så att de blir standardalternativet. Betaetiketten tas bort.
+* Med den fjärde utgåvan för kvartal 2023 (23.10) (26 oktober 2023)
+   * Släpp den nya kommentarsfunktionen för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen) till alla kunder.
+   * Gör den nya kommentarsfunktionen för projekt, uppgifter, utgåvor och dokument till standardalternativet.
+
+  >[!IMPORTANT]
+  >
+  >    Detta avslutar betaversionen av den nya kommentarsfunktionen.
+
+   * Gör alla funktioner som släpps för kommenteringsupplevelsen från och med detta datum till en del av de aktuella vanliga månads- och kvartalsvisa releaserna.
 * I slutet av 2023:
-   * Den gamla kommentarfunktionen är fortfarande ett sekundärt alternativ för följande objekt: projekt, uppgifter, problem och dokument.
+   * Behåll den gamla kommentarsfunktionen som ett sekundärt alternativ för följande objekt: projekt, uppgifter, ärenden och dokument. Den nya kommentarsfunktionen är standardalternativet för alla användare.
 
   >[!NOTE]
   >
@@ -67,13 +96,15 @@ Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av d
 
 * Första kvartalet 2024 (januari 2024):
 
-   * Alternativet att växla tillbaka till den tidigare kommentarströmmen tas bort och den nya kommentarströmmen blir den enda upplevelsen för alla objekt, med undantag för iterationer.
+   * Ta bort alternativet att växla tillbaka till den gamla kommentarströmmen och göra den nya kommentarströmmen till den enda upplevelsen för alla objekt, med undantag för iterationer.
 
-## Frisläppta funktioner
+## Funktioner som släppts under betaperioden
 
-Följande avsnitt innehåller en lista med funktioner som har lagts till efter den ursprungliga version 23.2, med början de som släpptes senast.
+Funktionerna som beskrivs i det här avsnittet är nu tillgängliga för alla kunder och i alla miljöer.
 
-Följande information avser släppningsaktiviteten varje vecka av de funktioner som ingår i den nya betafunktionen för kommentering. I den här artikeln listas nya funktioner som har lagts till och problem som har lösts för den nya kommentarsfunktionen.
+Följande funktioner lades till i kommentarsprocessen under betaversionen, mellan den 23.2-utgåvan (6 april 2023) och den fjärde utgåvan av kvartal 2023 (26 oktober 2023).
+
+Följande information hänvisar till frisläppningsaktiviteten varje vecka, med början från den senaste uppdateringen.
 
 ### Vecka 16 oktober 2023
 
@@ -109,7 +140,9 @@ Förhandsgranska och producera för alla kunder: 24 augusti 2023
 
 #### Ny kommentarfunktion för ytterligare objekt
 
-[!BADGE Producerar för snabb lansering]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 Den nya kommentarsfunktionen kommer att vara tillgänglig för följande objekt, kort efter version 23.3 till Production: malluppgifter, mallar, tidrapporter, team, användare, program, portfolior.
 
@@ -125,7 +158,9 @@ Produktionsrelease för alla kunder: Med version 23.10 (oktober 2023)
 
 #### Ny designuppdatering för den nya kommentarströmmen
 
-[!BADGE Producerar för snabb lansering]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 Vi har omdesignat den nya kommentarströmmen för att ge den ett mer uppdaterat utseende och känsla. Några förbättringar är:
 
@@ -151,7 +186,9 @@ Produktion för kvartalsvis lansering: Med version 23.10 (oktober 2023)
 
 #### Den nya kommentarsupplevelsen är standardupplevelsen för projekt, uppgifter, utgåvor och dokument
 
-[!BADGE Producerar för snabb lansering]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 Vi gör den nya kommentarsupplevelsen till standardupplevelsen för följande objekt: projekt, uppgifter, problem och dokument.  Den gamla kommentarfunktionen förblir ett alternativ när du öppnar objekten.
 

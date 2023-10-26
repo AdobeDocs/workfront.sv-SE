@@ -7,31 +7,32 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
 
+
 # Översikt över uppdateringsavsnittet
 
-<!--take "Beta" references out when we remove the beta-->
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>\
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-<span class="preview">Information om det aktuella releaseschemat finns i [Versionsöversikt för fjärde kvartalet 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
 >[!IMPORTANT]
 >
 >Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
 >
->Beroende på vilken miljö och vilka objekt du har tillgång till kommentarfunktionerna från kan du se olika funktioner i uppdateringsavsnittet.
+>Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du se följande funktionalitet för uppdateringsavsnittet:
+>* Den nya upplevelsen
+>* Den gamla upplevelsen
+>* Det nya och gamla gränssnittet
+>
+>Den här artikeln innehåller information om de nya och äldre versionerna av uppdateringsavsnittet.
 >
 >Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet och är inte tillgänglig för följande områden:
+>Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar objekt från följande områden:
 >
 > * Startsida
 > * Panelen Sammanfattning i listor
@@ -43,188 +44,96 @@ ht-degree: 0%
 >
 >Iterations display the legacy commenting experience.-->
 
-<!--old note, removed with August 2023: 
-
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->You can access the new experience for the following objects:
-> * Issues, projects, tasks, and documents.
->
->     This is available when you enable the new commenting experience.
->
->     This functionality is available only for the Updates section, and it is not available for the following areas:
->
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals, cards in the Boards area
->
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
-
-The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
-
--->
 
 ## Översikt över uppdateringsavsnittet
 
-* I uppdateringsavsnittet för ett objekt visas upp till 200 av de senaste uppdateringarna under de senaste 90 dagarna.
+I uppdateringsavsnittet för ett objekt visas systemuppdateringar och upp till 200 av de senaste uppdateringarna som användare har gjort under de senaste 90 dagarna.
 
-  ![](assets/updates-tab-before-unified-experience-for-issues.png)
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* Uppdateringsavsnittet visas för följande objekt:
+Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du hitta följande i uppdateringsavsnittet:
 
-  <table style="table-layout:auto"> 
-  <col> 
-  <col> 
-  <tbody> 
-    <tr> 
-    <td> 
-      <ul> 
-      <li>Dokument</li> 
-      <li>Mål</li> 
-      <li>Problem</li> 
-      <li>Iterationer</li> 
-      <li>Projekt</li> 
-      <li>Program</li> 
-      <li>Portfolio</li> 
-      </ul> </td> 
-    <td> 
-      <ul> 
-      <li>Artiklar*</li> 
-      <li>Uppgifter</li> 
-      <li>Mallar</li> 
-      <li>Malluppgifter</li> 
-      <li>Tidrapporter</li> 
-      <li>Användare</li>
-      <li>Kort ombord</li>
-      </ul> </td> 
-    </tr> 
-  </tbody> 
-  </table>
+* Både den nya och gamla kommentarsfunktionen för följande objekt:
 
-  *Artiklar är uppgifter. All information som rör uppgifter är också tillgänglig för artiklar.
+   * Projekt
+   * Uppgift (här ingår artiklar)
+   * Problem
+   * Dokument
 
-Informationen i uppdateringsavsnittet är organiserad på olika sätt beroende på vilken miljö du kommer åt den från.
+     >[!TIP]
+     >
+     >Använd alternativet Ny kommentering för att visa den nya kommentarsfunktionen (när du aktiverar den) eller den gamla kommentarsfunktionen (när du inaktiverar den). Den nya kommentarsfunktionen är standard. Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+* Bara den nya kommentarsfunktionen för objekten som listas nedan. Det finns inget alternativ för att aktivera den gamla kommentarfunktionen för dessa objekt:
+
+   * Mål
+
+     >[!NOTE]
+     >
+     >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   * Kort ombord
+   * Team
+   * Mall
+   * Malluppgift
+   * Tidrapport
+   * Program
+   * Portfolio
+   * Användare
+
+* Endast den äldre kommentarsfunktionen för följande objekt:
+
+   * Iterationer
+
+     Det finns inget alternativ för att aktivera den nya kommentarfunktionen för iterationer.
+
+### Översikt över uppdateringsavsnittet i den nya kommentarsfunktionen
+
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
+
+>[!NOTE]
+>
+>Den nya kommentarsfunktionen är inte tillgänglig för upprepningar.
 
 
-### Översikt över aktuellt uppdateringsavsnitt
+* I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
 
-<!--October 26 - replace current with legacy-->
 
-* I det aktuella uppdateringsavsnittet visas följande information:
+   * **Kommentar**: Visar kommentarer från användare och svar på dessa kommentarer. Använd fliken Kommentarer för att lägga till nya kommentarer eller svara på befintliga kommentarer. Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Till exempel hämtas ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-   * **Användaruppdateringar**: Synpunkter från användare och svar på dessa kommentarer.
-   * **Systemuppdateringar**: Informationsmeddelanden som Workfront skapar för att spela in vissa händelser i ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Följande objekt registrerar inte systemuppdateringar:
+* Följande objekt saknar fliken Systemaktivitet:
 
    * Team
    * Mall
    * Malluppgift
-
-### Översikt över uppdateringsavsnittet i den nya kommentarsfunktionen
-
-Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
-
-* I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
-
-   * **Kommentar**: Visar kommentarer från användare och svar på dessa kommentarer. Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-      * Följande objekt saknar fliken Systemaktivitet:
-
-         * Team
-         * Mall
-         * Malluppgift
-         * Ad hoc-kort
-
-* För närvarande kan du lägga till kommentarer och svara på uppdateringar med hjälp av den nya kommentarsfunktionen för följande objekt:
+   * Ad hoc-kort
 
 
-   * Projekt
-   * Uppgifter (och artiklar)
-   * Problem
-   * Dokument
-   * Mål
+### Översikt över det äldre uppdateringsavsnittet
 
-  >[!NOTE]
-  >
-  >Du måste ha ytterligare en licens för att få tillgång till Workfront Goals. Mer information finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+<!--when we remove legacy, make this section an "Iterations-only" section-->
 
-   * Kort ombord
+![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
-  >[!NOTE]
-  >
-  > Du kan lägga till och visa uppdateringar för kort i kortområdet när du aktiverar avsnitten Kommentarer och Systemaktivitet på ett kort. Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
+I avsnittet med äldre uppdateringar visas följande information:
 
+* **Användaruppdateringar**: Synpunkter från användare och svar på dessa kommentarer.
+* **Systemuppdateringar**: Informationsmeddelanden som Workfront skapar för att spela in vissa händelser i ett objekt. Du kan t.ex. fånga in ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <span class="preview">
+Följande objekt registrerar inte systemuppdateringar:
 
-   * Mallar
-   * Malluppgifter
-   * Tidrapporter
-   * Användare
-   * Portfolio
-   * Program
+* Team
+* Mall
+* Malluppgift
+* Iterationer
 
-  >[!NOTE]
-  >
-  >    Du kan inte visa den nya kommentarsfunktionen för iterationer.
-
-  </span>
-
-<!--hidden in August 2023 and replaced by the list above: 
-
-  <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td> 
-        <ul> 
-        <li><p>Goals</p>
-        <li>Cards in the Boards area*</li>
-          This is the only experience for goals and cards.
-        </li> 
-        <li>Projects</li>
-        </ul> </td> 
-      <td> 
-        <ul> 
-        <li>Issues</li> 
-        <li>Tasks</li>
-        <li>Documents</li>
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
-
-  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
-  -->
 
 ## Uppdateringar som också visas på objekt med högre rankning
 
-Kommentarer eller svar på uppdateringar av vissa objekt visas också i uppdateringsavsnittet för objekt med högre rankning.
+Kommentarer, svar eller systemuppdateringar för vissa objekt visas också i uppdateringsavsnittet för objekt med högre rankning.
 
 När du till exempel lägger till en uppdatering för en uppgift visas uppdateringen i uppdateringsavsnittet för uppgiften och i uppdateringsavsnittet för projektet som innehåller uppgiften.
-
->[!NOTE]
->
->När du aktiverar den nya kommentarsfunktionen visas kommentarer på följande objekt med högre rankning:
->
->* Problem
->* Projekt
->* Uppgifter
->
->Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 I följande tabell visas de objekt vars kommentarer också visas på de objekt som ligger högst upp i listan:
 
@@ -263,7 +172,7 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
    <td>Team</td> 
   </tr> 
   <tr> 
-   <td>Tidrapport</td> 
+   <td>Tidrapport*</td> 
    <td>Användare, team</td> 
   </tr> 
   <tr> 
@@ -275,16 +184,23 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
    <td>Iteration, Team</td> 
   </tr> 
   <tr> 
-   <td>Upprepning</td> 
+   <td>Iteration*</td> 
    <td>Team</td> 
   </tr>
 
 <tr> 
+   <td>Resultat</td> 
    <td>Mål</td> 
-   <td>Resultat, aktivitet</td> 
+  </tr> 
+  <tr> 
+   <td>Aktivitet</td> 
+   <td>Mål</td> 
   </tr> 
  </tbody> 
 </table>
+* Dessa är inte tillgängliga för den nya kommentarsfunktionen.
+
+<br>
 
 >[!NOTE]
 >
@@ -294,26 +210,32 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
 >
 > Det går inte att svara på systemuppdateringar i den nya kommentarsfunktionen. Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+</br>
+
 ## Begränsningar i uppdateringsavsnittet
 
 Det finns vissa begränsningar i uppdateringsavsnittet för ett team och när du anger uppdateringar för andra användares räkning.
 
 ### Begränsningar för användare och team
 
-Du kan inte lägga till nya kommentarer i uppdateringsavsnittet i ett team.
+Tänk på följande när du visar uppdateringar för användare och team:
 
-<span class="preview">Du kan lägga till ett svar på en uppdatering som du visar i ett team. Svaret visas i teamets uppdateringsavsnitt samt i uppdateringsavsnittet för det objekt det tillhör. </span>
+* Du kan inte lägga till nya kommentarer i uppdateringsavsnittet i ett team.
 
-Uppdateringsavsnittet för team fylls i av uppdateringar som anges för följande objekt:
+* Du kan lägga till ett svar på en uppdatering som du visar i ett team. Svaret visas i teamets uppdateringsavsnitt samt i uppdateringsavsnittet för det objekt det tillhör.
 
-* Användare
-* Tidrapporter
-* Artiklar
-* Iterationer
+* Uppdateringsavsnittet för team fylls i av uppdateringar som anges för följande objekt:
 
-I uppdateringsavsnittet för användare och team kan du visa de uppdateringar som har gjorts under de senaste 90 dagarna.
+   * Användare
+   * Tidrapporter*
+   * Artiklar
+   * Iterationer*
 
-Om du vill se alla uppdateringar som gjorts för en användare eller ett team, utöver 90-dagarsgränsen, kan du skapa en rapport för anteckningar. Rapporten ska inte ha något tidsfilter som visar alla uppdateringar som gjorts för användare eller team. Mer information finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  *Dessa finns inte för den nya kommentarsfunktionen.
+
+* I uppdateringsavsnittet för användare och team kan du visa de uppdateringar som har gjorts under de senaste 90 dagarna.
+
+  Om du vill se alla uppdateringar som gjorts för en användare eller ett team, utöver 90-dagarsgränsen, kan du skapa en rapport för anteckningar. Rapporten ska inte ha något tidsfilter som visar alla uppdateringar som gjorts för användare eller team. Mer information finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Begränsningar när du skriver kommentarer för en annan användares räkning
 
@@ -327,7 +249,7 @@ Tänk på följande när du loggar in som en annan användare och lägger till k
 
 * En gruppadministratör kan kommentera för en annan persons räkning, men kan inte ta bort kommentaren. Det är bara en Adobe Workfront-administratör som kan ta bort en kommentar som de har gjort för en annan användares räkning.
 
-* En Workfront- eller gruppadministratör kan bara redigera en kommentar som de har lagt till för en annan användares räkning när de loggar ut som användare och sedan loggar in som sig själva.
+* En Workfront- eller gruppadministratör kan bara redigera en kommentar som de har lagt till för en annan användares räkning när de loggar ut som användare och sedan loggar in som sig själva. De kan inte ta bort en kommentar för en annan användares räkning.
 
 ## Visa systemuppdateringar för arbetsobjekt med journalpostrapporten
 
