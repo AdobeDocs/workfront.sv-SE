@@ -7,7 +7,7 @@ description: Du kan skapa en mapp som är länkad till Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
+source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -79,6 +79,7 @@ Så här skapar du en länkad mapp:
 
 1. Gå till det projekt där du vill ha mappen.
 1. Välj **Lägg till ny** går du till den Experience Manager-integrering som administratören har konfigurerat.
+
    >[!NOTE]
    >
    >Workfront-administratören kan välja vilket namn som helst för integreringen, så det kanske inte uttryckligen anger Experience Manager Assets eller Assets Essentials.
