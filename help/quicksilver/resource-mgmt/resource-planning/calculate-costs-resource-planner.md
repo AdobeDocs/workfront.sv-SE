@@ -6,7 +6,7 @@ description: Du kan budgetera dina resurser i Adobe Workfront Resursplanering ge
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Beräkna kostnader i resursplaneraren
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -32,7 +30,7 @@ Du kan budgetera dina resurser i Adobe Workfront Resursplanering genom att anvä
 >Mer information om hur du associerar självkostnad per timme med användare finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Innan du budgeterar dina resurser måste du se till att du har en god förståelse för vad som behöver göras (Planerade timmar, FTE eller Kostnad) och vilken tid användarna är öppna för arbete (Tillgängliga timmar, FTE eller Kostnad).\
-Mer information om hur du förstår informationen i resursplaneraren vid budgetering med timmar eller heltidsekvivalenter finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Mer information om hur du förstår informationen i resursplaneraren vid budgetering med timmar eller heltidsekvivalenter finns i [Översikt över timmar, heltidsanställda och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Åtkomstkrav
 
@@ -71,7 +69,7 @@ Som standard visas tillgänglighets- och allokeringsinformationen i timmar i res
 
 Så här visar du tillgänglig, planerad och budgeterad information efter kostnad i resursplaneraren:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Resurser**.
 1. Gå till Resursplaneraren.
@@ -142,13 +140,9 @@ Om rollen inte har någon kostnad per timme är den tillgängliga rollkostnaden 
 * The **Kostnadstyp** av projektets uppgifter.\
   Mer information om kostnadstypen för en uppgift finns i [Spåra kostnader](../../manage-work/projects/project-finances/track-costs.md).
 
-<div class="preview">
-
 * Giltiga datum för kostnadstarifferna för jobbroller och användare.
 
   Om rollen eller användaren till exempel har 10 planerade timmar i februari och 10 planerade timmar i mars, men kostnadsnivån har ändrats från 12 till 20 USD i mars, är värdet för den planerade kostnaden i februari 120 USD och i mars är den planerade kostnaden 200 USD.
-
-</div>
 
 >[!NOTE]
 >
@@ -166,17 +160,13 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Projektets planerade kostnad är 0,00 USD.
 
-* När **Kostnadstyp** är **Användare per timme** och det finns en **användartilldelning** på uppgiften:
+* När **Kostnadstyp** är **Användare per timme** och det finns **användartilldelning** på uppgiften:
 
    * **Roll och användarplanerad kostnad**:
 
      Planerad kostnad för användare beräknas med följande formel:
 
-
-
-     ```
-     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-     ```
+     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
      Om en användare har en kostnadstariff i sin profil används den taxan för att beräkna planerad kostnad. I annat fall används systemnivåkostnaden per timme för den primära rollen.
 
@@ -186,15 +176,13 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Den planerade kostnaden för roll beräknas med följande formel:
 
-     ```
-     Role Planned Cost = SUM(User Planned Cost)
-     ```
+     `Role Planned Cost = SUM(User Planned Cost)`
 
    * **Planerad kostnad för projekt**:
 
      Projektets planerade kostnad är 0,00 USD.
 
-* När **Kostnadstyp** är **Användare per timme** och det finns en **jobbrolltilldelning** på uppgiften:
+* När **Kostnadstyp** är **Användare per timme** och det finns **jobbrolltilldelning** på uppgiften:
 
    * **Roll och användarplanerad kostnad**:
 
@@ -202,9 +190,7 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Den planerade kostnaden för roll beräknas med följande formel:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Systemnivåkostnaden per timkostnad för den jobbroll som är tilldelad till aktiviteten används för att beräkna planerad kostnad.
 
@@ -222,7 +208,7 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Projektets planerade kostnad är 0,00 USD.
 
-* När **Kostnadstyp** är **Roll timvis** och det finns en **användartilldelning** på uppgiften:
+* När **Kostnadstyp** är **Roll timvis** och det finns **användartilldelning** på uppgiften:
 
    * **Roll och användarplanerad kostnad**:
 
@@ -230,9 +216,7 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Den planerade kostnaden för roll beräknas enligt följande formel:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfront tittar på den jobbroll som användaren utför i uppgiften för att beräkna den planerade kostnaden för rollen.
 
@@ -242,11 +226,9 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Projektets planerade kostnad beräknas med följande formel:
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
-* När **Kostnadstyp** är **Roll timvis** och det finns en **jobbrolltilldelning** på uppgiften:
+* När **Kostnadstyp** är **Roll timvis** och det finns **jobbrolltilldelning** på uppgiften:
 
    * **Roll och användarplanerad kostnad**:
 
@@ -254,9 +236,7 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Den planerade kostnaden för roll beräknas enligt följande formel:
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfront tittar på den jobbroll som användaren utför i uppgiften för att beräkna den planerade kostnaden för rollen.
 
@@ -264,9 +244,7 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Projektets planerade kostnad beräknas med följande formel:
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

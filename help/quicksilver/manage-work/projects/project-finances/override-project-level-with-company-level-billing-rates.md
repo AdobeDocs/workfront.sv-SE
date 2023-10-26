@@ -6,16 +6,14 @@ description: Åsidosätt faktureringstariffer på projektnivå med faktureringst
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Åsidosätt faktureringstariffer på projektnivå med faktureringstariffer på företagsnivå
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -68,7 +66,7 @@ När en användare manuellt beräknar om budgeten för projektet tillämpas even
 
 1. Klicka **Spara ändringar**.
 
-## Uppdatera faktureringstariffer på företagsnivå och tillämpa dem på ett projekt
+## Uppdatera faktureringspriser på företagsnivå och tillämpa dem på ett projekt
 
 När du har aktiverat alternativet för åsidosättning av faktureringsräntor på företagsnivå för ett projekt, gäller ändringar av företagets faktureringssatser för projektet när ekonomin beräknas om.
 
@@ -76,21 +74,13 @@ När du har aktiverat alternativet för åsidosättning av faktureringsräntor p
 >
 >Användare måste ha tillgång till företag på sin åtkomstnivå för att kunna uppdatera faktureringspriserna på företagsnivå.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar**.
 1. Klicka **Företag**.
 1. Klicka på namnet på det företag som är associerat med det projekt för vilket du aktiverat åsidosättning av faktureringspriser på företagsnivå.
-1. Klicka **Faktureringstaxor** i den vänstra panelen.
-1. I produktionsmiljön anger du den nya faktureringsnivån för en befintlig jobbroll i **Företagets faktureringstakt** och tryck sedan på Retur.
+1. Klicka **Faktureringstaxor** till vänster.
+1. Uppdatera **Företagets faktureringstakt** och start-/slutdatum för en befintlig jobbroll och tryck sedan på Retur.
 
-   eller
-
-   <div class="preview">
-
-   Uppdatera **Företagets faktureringstakt** och start-/slutdatum för en befintlig jobbroll och tryck sedan på Retur.
-
-   Om du vill lägga till ett nytt giltighetsdatum för företagsfaktureringstariff väljer du en faktureringstaxa för jobbrollen och klickar på Redigera. Mer information om aktuella företagsfaktureringspriser finns i [Åsidosätt faktureringssatser för jobbroller på företagsnivå](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   Om du vill lägga till ett nytt giltighetsdatum för företagsfaktureringstariff väljer du en faktureringssats för jobbrollen och klickar på **Redigera**. Mer information om aktuella företagsfaktureringspriser finns i [Åsidosätt faktureringssatser för jobbroller på företagsnivå](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Gör något av följande om du vill uppdatera företagsräntor för ett eller flera projekt:
 
@@ -99,10 +89,10 @@ När du har aktiverat alternativet för åsidosättning av faktureringsräntor p
    1. Gå till en lista med projekt.
    1. Markera kryssrutan i linje med de projekt som du vill uppdatera.
    1. Klicka **Redigera**.
-   1. Aktivera alternativet **Omberäkna kostnader och intäkter** alternativ.
+   1. I avsnittet Inställningar aktiverar du **Omberäkna kostnader och intäkter** alternativ.
    1. Klicka **Spara ändringar**.
 
    * Ett projekt:
 
-      1. Gå till det projekt där du aktiverade åsidosättning av faktureringspriser på företagsnivå.
+      1. Gå till det projekt där du aktiverade åsidosättning av faktureringstariffer på företagsnivå.
       1. Klicka på **Mer** meny ![](assets/qs-more-icon-on-an-object.png) bredvid projektnamnet i rubriken och klicka sedan på **Beräkna om ekonomi**.
