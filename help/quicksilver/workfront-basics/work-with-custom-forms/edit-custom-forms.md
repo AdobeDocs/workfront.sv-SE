@@ -7,7 +7,7 @@ description: Du kan redigera information i ett anpassat formulär när formulär
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Redigera information i anpassade formulärfält
-
-{{preview-and-fast-release}}
 
 Du kan redigera information i ett anpassat formulär när formuläret har kopplats till ett objekt. Mer information om hur du lägger till anpassade formulär till objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -105,7 +103,7 @@ Att redigera information i ett anpassat formulär som är kopplat till ett objek
 
    När någon ändrar data i ett annat objekt som refereras av beräknade anpassade fält i objektet, återspeglas inte ändringarna automatiskt i objektet. Mer information om hur du manuellt uppdaterar alla beräknade anpassade fält i objektet finns i [Beräkna om alla beräknade anpassade fält för ett objekt](#recalculate-all-calculated-custom-fields-for-an-object) i den här artikeln.
 
-   <span class="preview">När beroende fält på sidan ändras, beräknas beräkningsfält i det anpassade formuläret dynamiskt om i realtid. Du kan se det nya beräknade fältvärdet utan att spara formuläret, men det används inte i själva verket i formuläret och objektet förrän du sparar ändringarna. Detta gäller även beräkningsfält i standardformulär och anpassade formulär.</span>
+   När beroende fält på sidan ändras, beräknas beräkningsfält i det anpassade formuläret dynamiskt om i realtid. Du kan se det nya beräknade fältvärdet utan att spara formuläret, men det används inte i själva verket i formuläret och objektet förrän du sparar ändringarna. Detta gäller även beräkningsfält i standardformulär och anpassade formulär.
 
    Du kan även uppdatera alla beräknade anpassade fält manuellt för ett objekt när du redigerar objektet gruppvis tillsammans med andra objekt i en lista. Instruktioner finns i [Beräkna om alla beräknade anpassade fält för flera objekt i en lista när objekten redigeras](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) i den här artikeln.
 
