@@ -6,10 +6,10 @@ description: Resursfält för händelseprenumeration
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: a000e1fc353bfbe47851062945adb810804d8dee
+source-git-commit: 80b42da8f9cd51571258c7b09fe4498be5244320
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '644'
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p><span style="color: #ff0000;"> Detta fält är inaktuellt och kommer att tas bort under veckan den 23 oktober 2023.</p></span></td> 
+   <td>workPerDate <p>[!BADGE Borttagen]{type=negative tooltip="Det här fältet togs bort 26 oktober 2023."}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -219,7 +219,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   </tr> 
   <tr> 
   <tr> 
-   <td>Kontrollpanel</td> 
+   <td>Tavla</td> 
    <td>PTLTAB</td> 
    <td>accessorID</td> 
   </tr> 
@@ -251,7 +251,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Obs! LastUpdateDate utlöser bara en händelse första gången den uppdateras under varje dag. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Obs! LastUpdateDate utlöser bara en händelse första gången som den uppdateras under varje dag. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -481,12 +481,12 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>enteredByID</span> </td> 
+   <td><span>enterByID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ext</span> </td> 
+   <td><span>ankare</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -526,7 +526,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofApprovalStatusID</span> </td> 
+   <td><span>provgodkännandeStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -776,7 +776,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> actualCost </td> 
+   <td> faktiskKostnad </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -941,12 +941,12 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>beskrivning</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteredByID</td> 
+   <td>enterByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1056,12 +1056,12 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>refuseringIssueID</td> 
+   <td>declineIssuedID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resolveOpTaskID</td> 
+   <td>resolutAktivitets-ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1501,7 +1501,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertOpTaskOriginatorID</td> 
+   <td>convertedOpTaskOriginatorID</td> 
   </tr> 
   <tr> 
    <td> </td> 
