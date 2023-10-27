@@ -7,9 +7,9 @@ description: Webbhooks - översikt
 author: Becky
 feature: Workfront API
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: eb738fa8cadaafb0332c5c78a3816d5c346c33b2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Webbhooks - översikt
 
-Adobe Workfront Document Webhooks definierar en uppsättning API-slutpunkter genom vilka Workfront gör auktoriserade API-anrop till en extern dokumentleverantör. På så sätt kan vem som helst skapa ett plugin-program för mellanvara för vilken dokumentlagringsleverantör som helst.
+Adobe Workfront Document Webhooks definierar en uppsättning API-slutpunkter genom vilka Workfront gör auktoriserade API-anrop till en extern dokumentleverantör. På så sätt kan vem som helst skapa ett plugin-program för mellanvara för alla dokumentlagringsleverantörer.
 
 ![](assets/mceclip0-350x262.png)
 
@@ -29,19 +29,23 @@ Användarupplevelsen för webkrosbaserade integreringar liknar den för befintli
 * Överför filer till den externa dokumentleverantören
 * Visa en miniatyrbild för dokumentet
 
-**Referensimplementering**
+**Referenskörning**
 
-Workfront tillhandahåller en referensimplementering som hjälper dig att snabbt komma igång med utvecklingen av en ny webbhooksimplementering. Kod för detta finns på [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app) . Implementeringen är Java-baserad och gör att Workfront kan ansluta dokument i ett nätverksfilsystem. 
+Workfront ger exempel på en referensimplementering för att hjälpa till att snabbt komma igång med utvecklingen av en ny webbhooksimplementering. De här exemplen finns på [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Exemplen är Java-baserade och gör det möjligt för Workfront att ansluta dokument i ett nätverksfilsystem. 
+
+>[!NOTE]
+>
+>Resurserna i GitHub är bara exempel och kan inte köra en implementering.
 
 ## Versioner
 
 * Version 1.0 (Releasedatum - maj 2015): Inledande specifikation
 
-* Version 1.1 (Releasedatum - juni 2015). Uppdaterat /uploadInit - Added documentId och documentVersionId
+* Version 1.1 (Releasedatum - juni 2015) Uppdaterat /uploadInit - Added documentId och documentVersionId
 
-* Version 1.2 (Releasedatum - oktober 2015): Lagt till /createFolder
+* Version 1.2 (Releasedatum - oktober 2015): Tillagd /createFolder
 
-* Kommande versioner (Releasedatum - TBD):
+* Kommande versioner (Release Date - TBD):
 
    * Lagt till/ta bort
    * Lagt till/byt namn
