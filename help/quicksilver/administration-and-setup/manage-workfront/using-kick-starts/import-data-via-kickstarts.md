@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 0%
 
 ---
@@ -308,13 +308,21 @@ Varje rad i tabellen motsvarar ett unikt objekt.
 1. Fyll i cellen i **isNew** kolumn:
 
    * Om objektet du importerar är nytt skriver du **TRUE** om du vill importera data i raden.
-   * Om objektet redan finns i Workfront skriver du **FALSE** för att ignorera raden.
+   * Om objektet redan finns i Workfront **FALSE** måste finnas i kolumnen för att raden ska ignoreras.
+
+      * Poster som redan finns i Workfront uppdateras inte.
+      * Om du har laddat ned en mall med data är befintliga objekt redan markerade med **FALSE**.
+      * Om du har laddat ned en tom mall behöver du inte lägga till nya rader för befintliga objekt.
 
 1. Fyll i cellen i **ID** på något av följande sätt:
 
-   * Om det objekt du importerar är nytt (och du har skrivit **TRUE** i **isNew** -kolumn) anger du valfritt nummer för ID:t. Numret måste vara unikt i kalkylbladet.
+   * Om det objekt du importerar är nytt (och du har skrivit **TRUE** i **isNew** ) skriver du valfritt nummer för ID:t. Numret måste vara unikt i kalkylbladet.
 
-   * Om det objekt som du importerar redan finns i Workfront-systemet (och du skrev **FALSE** i **isNew** måste ID:t vara det alfanumeriska GUID som finns i Workfront för det objektet.
+   * Om objektet redan finns i Workfront (och **FALSE** finns i **isNew** måste ID:t vara det alfanumeriska GUID som finns i Workfront för det objektet.
+
+      * Poster som redan finns i Workfront uppdateras inte.
+      * Om du hämtade en mall med data innehåller befintliga objekt redan GUID som ID.
+      * Du kan importera ett nytt objekt baserat på ett befintligt objekt genom att ändra **FALSE** till **TRUE** i **isNew** -kolumn, ändra ID:t och göra nödvändiga datajusteringar innan du importerar.
 
      ![Exempel-ID för en grupp](assets/kick-start-group-example.png)
 
