@@ -3,16 +3,16 @@ title: Förbättringar av den ekonomiska förvaltningen för fjärde kvartalet 2
 description: Förbättringar av den ekonomiska förvaltningen för fjärde kvartalet 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Förbättringar av den ekonomiska förvaltningen för fjärde kvartalet 2023
 
-Den här sidan beskriver alla förbättringar av den ekonomiska hanteringen som gjorts i den fjärde utgåvan av kvartalet 2023 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.10.
+Den här sidan beskriver alla förbättringar av den ekonomiska hanteringen som gjorts i den fjärde utgåvan av kvartalet 2023 i förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.10.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns på [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
