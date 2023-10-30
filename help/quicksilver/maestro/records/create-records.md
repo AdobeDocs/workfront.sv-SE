@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,12 @@ Alla poster av den valda typen visas i tabellvyn.
 1. Klicka **Nytt &lt; Posttypnamn >** i tabellens sista rad för att lägga till en ny rad i tabellen.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
+
+   >[!TIP]
+   >
+   >    Skriv CTRL+Retur om du vill lägga till en ny post på en ny rad.
+
+   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. Börja skriva information på den nya raden om den nya posten.
 
