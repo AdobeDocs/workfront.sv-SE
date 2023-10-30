@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlö
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 3a7983279a38c30cb58078d129ea22dee137d9a5
+source-git-commit: 7abbe7cc50391687b7983b58f0b435ec2b72850e
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlöst så att du
 Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Fusion-versioner 2023
+
+### Oktober 2023
+
+
+* [Versionsaktivitet för Workfront Fusion: 30 oktober 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
 
 ### September 2023
 

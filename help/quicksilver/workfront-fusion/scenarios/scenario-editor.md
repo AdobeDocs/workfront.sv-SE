@@ -7,9 +7,9 @@ description: Med scenarioredigeraren kan du skapa och redigera scenarier i ett v
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -49,19 +49,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Öppna scenarioredigeraren:
 
-1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) i den vänstra panelen.
+1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) till vänster.
 
 1. Om du vill skapa ett scenario klickar du på **[!UICONTROL Create a new scenario]** i det övre högra hörnet på sidan.
 
@@ -71,7 +71,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
    I scenarioredigeraren som visas kan du göra allt som anges i tabellen nedan. Mer information finns i [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. När du är klar med redigeringen av ett scenario (eller när som helst medan du redigerar) klickar du på knappen [!UICONTROL Save] ikon. ![](assets/save-icon.gif)
+1. När du är klar med redigeringen av ett scenario (eller när som helst medan du redigerar) klickar du på knappen [!UICONTROL Save] -ikon. ![](assets/save-icon.gif)
 
    >[!NOTE]
    >
@@ -119,15 +119,15 @@ Följande åtgärder är tillgängliga i Scenarioredigeraren:
    </tr>  
    <tr>   
      <td role="rowheader">Konfigurera scenarioinställningarna</td>   
-     <td>Klicka på [!UICONTROL Scenario settings] ikon. <img src="assets/gear-icon-settings.png"> De här inställningarna är främst avsedda för avancerade användare.</td>  
+     <td>Klicka på [!UICONTROL Scenario settings] -ikon. <img src="assets/gear-icon-settings.png"> De här inställningarna är främst avsedda för avancerade användare.</td>  
    </tr>  
    <tr>   
      <td role="rowheader">Skriv eller visa anteckningar om scenariot</td>   
-     <td>Klicka på [!UICONTROL Notes] ikon. <img src="assets/notes-icon.gif"></td>  
+     <td>Klicka på [!UICONTROL Notes] -ikon. <img src="assets/notes-icon.gif"></td>  
    </tr>  
    <tr> 
      <td role="rowheader">Justera modulernas layout automatiskt </td>   
-     <td>Klicka på [!UICONTROL Auto-align] ikon. <img src="assets/auto-align-icon.gif"></td>  </tr>  <tr>   <td role="rowheader">Visa en animering som visar hur data flödar genom scenariot</td>   <td>Klicka på [!UICONTROL Explain Flow] ikon. <img src="assets/explain-flow-airplane-icon.gif"></td>  
+     <td>Klicka på [!UICONTROL Auto-align] -ikon. <img src="assets/auto-align-icon.gif"></td>  </tr>  <tr>   <td role="rowheader">Visa en animering som visar hur data flödar genom scenariot</td>   <td>Klicka på [!UICONTROL Explain Flow] -ikon. <img src="assets/explain-flow-airplane-icon.gif"></td>  
    </tr>  
    <tr> 
      <td role="rowheader">Exportera scenariot till datorn som en plan</td>   
@@ -143,15 +143,15 @@ Följande åtgärder är tillgängliga i Scenarioredigeraren:
    </tr>  
    <tr> 
      <td role="rowheader">Konfigurera [!UICONTROL Flow Control] inställningar</td>   
-     <td> <p>Klicka på [!UICONTROL Flow Control] ikon. <img src="assets/flow-control-icon.gif"> Du kan ställa in en uppgift så att den upprepas ett visst antal gånger, konvertera en array till en serie paket och sammanfoga flera paket till ett enda paket. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Flödeskontroll in [!DNL Adobe Workfront Fusion]</a>.</p> </td>  
+     <td> <p>Klicka på [!UICONTROL Flow Control] -ikon. <img src="assets/flow-control-icon.gif"> Du kan ställa in en uppgift så att den upprepas ett visst antal gånger, konvertera en array till en serie paket och sammanfoga flera paket till ett enda paket. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Flödeskontroll in [!DNL Adobe Workfront Fusion]</a>.</p> </td>  
    </tr>  
    <tr> 
      <td role="rowheader">Förbättra scenariot med avancerade verktyg</td>   
-     <td>Klicka på [!UICONTROL Tools] ikon. <img src="assets/tools-icon.gif"> Du kan skapa utlösare, åtgärder, aggregatorer och transformatorer. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">verktyg</a>.</td>  
+     <td>Klicka på [!UICONTROL Tools] -ikon. <img src="assets/tools-icon.gif"> Du kan skapa utlösare, åtgärder, aggregatorer och transformatorer. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">verktyg</a>.</td>  
    </tr>  
    <tr> 
      <td role="rowheader">Använda textanalysverktyg</td>   
-     <td>Klicka på [!UICONTROL Text parser] ikon. <img src="assets/text-parser-icon.gif"> Du kan hämta element från HTML-kod, söka efter och extrahera strängelement som matchar ett sökmönster, söka efter och ersätta text och"skrapa" data från en webbplats. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">verktyg</a>.</td>  
+     <td>Klicka på [!UICONTROL Text parser] -ikon. <img src="assets/text-parser-icon.gif"> Du kan hämta element från HTML-kod, söka efter och extrahera strängelement som matchar ett sökmönster, söka efter och ersätta text och"skrapa" data från en webbplats. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">verktyg</a>.</td>  
    </tr>  
    <tr> 
      <td role="rowheader">Få tillgång till de mest använda programmen och tjänsterna</td>   
@@ -160,6 +160,11 @@ Följande åtgärder är tillgängliga i Scenarioredigeraren:
    <tr> 
      <td role="rowheader">Testkör scenariot</td>   
      <td>Klicka <strong>[!UICONTROL Run once]</strong> för att verifiera att scenariot fungerar som du tänkt dig innan du aktiverar det. När det är aktiverat körs scenariot enligt dess schema. Om allt inte fungerar som det ska kan du gå till avsnittet Felhantering och lära dig hur du hanterar fel.</td> 
+   </tr> 
+   <tr> 
+     <td role="rowheader">Felsök scenariot med utvecklingsverktyget</td>   
+     <td>Mer information finns i Mer information <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">Felsökningsscenarier med [!DNL Adobe Workfront Fusion] Devtool</a>.
+</td> 
    </tr> 
 </tbody>
 </table>

@@ -2,25 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Felsöka scenarier med Adobe Workfront Fusion DevTool
-description: Med Adobe Workfront Fusion DevTool kan du förstå och felsöka scenarier. DevTool lägger till en extra panel i Chrome Developer Tools. Med den här felsökningspanelen kan du kontrollera alla manuella körningar av ditt scenario, granska alla utförda åtgärder och se information om alla API-anrop som utförs. Du kan se vilken modul, åtgärd eller enskilt svar som orsakade felet och använda den kunskapen för att förfina ditt scenario.
+title: Felsöka scenarier med Adobe Workfront Fusion Devtool
+description: Med Adobe Workfront Fusion Devtool kan du förstå och felsöka scenarier. Utvecklingsverktyget lägger till en extra panel i Chrome Developer Tools. Med den här felsökningspanelen kan du kontrollera alla manuella körningar av ditt scenario, granska alla utförda åtgärder och se information om alla API-anrop som utförs. Du kan se vilken modul, åtgärd eller enskilt svar som orsakade felet och använda den kunskapen för att förfina ditt scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
 
-# Felsökningsscenarier med [!DNL Adobe Workfront Fusion] Utvecklingsverktyg
+# Felsökningsscenarier med [!DNL Adobe Workfront Fusion] Devtool
 
-The [!DNL Adobe Workfront Fusion] Med DevTool kan du förstå och felsöka scenarier. DevTool lägger till en extra panel i [!DNL Chrome Developer Tools]. Med den här felsökningspanelen kan du kontrollera alla manuella körningar av ditt scenario, granska alla utförda åtgärder och se information om alla API-anrop som utförs. Du kan se vilken modul, åtgärd eller enskilt svar som orsakade felet och använda den kunskapen för att förfina ditt scenario.
-
->[!NOTE]
->
->Workfront Fusion DevTool är inte tillgängligt för organisationer som använder Fusion via Adobe Unified Shell.
+The [!DNL Adobe Workfront Fusion] Med Devtool kan du förstå och felsöka scenarier. Utvecklingsverktyget lägger till en extra panel i [!DNL Chrome Developer Tools]. Med den här felsökningspanelen kan du kontrollera alla manuella körningar av ditt scenario, granska alla utförda åtgärder och se information om alla API-anrop som utförs. Du kan se vilken modul, åtgärd eller enskilt svar som orsakade felet och använda den kunskapen för att förfina ditt scenario.
 
 ## Åtkomstkrav
 
@@ -61,34 +57,49 @@ Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Installera [!DNL Chrome] DevTool-tillägg
+## Åtkomst till Workfront Fusion Devtool
 
-<!--
-To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
+Åtkomsten till utvecklingsverktyget skiljer sig åt beroende på om du använder Fusion i [!DNL Adobe Unified Experience].
 
-1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
-1. When the files have downloaded, extract them to a folder of your choice.
-1. Open a tab in [!DNL Chrome]
-1. In the search bar of the tab, enter `chrome://extensions`.
-1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
-1. Click **[!UICONTROL Load unpacked]**.
-1. Select the folder containing the DevTool (where you extracted the files in step 2).
+* [Öppna utvecklingsverktyget i [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Få åtkomst till utvecklingsverktyget i klassiska [!DNL Fusion] upplevelse](#access-the-devtool-in-the-classic-fusion-experience)
 
-   Once unpacked, the DevTool appears among your other Chrome extensions.
-   -->
+### Öppna utvecklingsverktyget i [!DNL Adobe Unified Experience]
 
-Du kan lägga till [!DNL Workfront Fusion] DevTool till [!DNL Chrome] via [!UICONTROL [!DNL Chrome] Web Store].
+Om du använder Fusion i det enhetliga Adobe-skalet kan du komma åt Dev-verktyget från scenredigeraren.
 
-1. Klicka [den här länken](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) för att gå till [!DNL Workfront Fusion] DevTool på [!UICONTROL [!DNL Chrome] Web Store].
+1. Gå till Scenarioredigeraren för det scenario som du vill felsöka.
+
+   Information om hur du hittar Scenarioredigeraren finns i [Scenarioredigerare](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+
+1. Högerklicka i ett tomt område på sidan (inte i en modul).
+1. Välj **Open Devtool**.
+
+>[!NOTE]
+>
+>För närvarande är det bara **Live Stream** -området i utvecklingsverktyget är tillgängligt för användare i det enhetliga skalet.
+
+### Få åtkomst till utvecklingsverktyget i klassiska [!DNL Fusion] upplevelse
+
+Så här använder du utvecklingsverktyget i klassiska [!DNL Fusion] måste du installera en [!DNL Chrome] tillägg. Du kan sedan använda det här tillägget från [!DNL Chrome] Utvecklarverktyg.
+
+* [Installera installationsfilen [!DNL Chrome] Devtool-tillägg](#install-the-chrome-devtool-extension)
+* [Leta reda på [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+
+#### Installera [!DNL Chrome] Devtool-tillägg
+
+Du kan lägga till [!DNL Workfront Fusion] Utveckla för [!DNL Chrome] via [!UICONTROL [!DNL Chrome] Web Store].
+
+1. Klicka [den här länken](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) för att gå till [!DNL Workfront Fusion] Devtool på [!UICONTROL [!DNL Chrome] Web Store].
 1. Klicka på **[!UICONTROL Add to [!DNL Chrome]]**.
 1. Granska behörigheter i det fönster som öppnas. Om du godkänner behörigheterna klickar du på **[!UICONTROL Add Extension]**.
 
-The [!DNL Workfront Fusion] DevTool-tillägget läggs till i din [!DNL Chrome] tillägg.
+The [!DNL Workfront Fusion] Utvecklingsverktyget läggs till i [!DNL Chrome] tillägg.
 
 
-## Leta reda på [!DNL Workfront Fusion] Utvecklingsverktyg
+#### Leta reda på [!DNL Workfront Fusion] Devtool
 
-Använd [!DNL Workfront Fusion] DevTool, du måste lägga till [!DNL Workfront Fusion] DevTool-tillägg till [!DNL Chrome] webbläsare, enligt beskrivning i [Installera Chrome DevTool-tillägget](#install-the-chrome-devtool-extension).
+Använd [!DNL Workfront Fusion] Devtool, du måste lägga till [!DNL Workfront Fusion] Utveckla tillägg till [!DNL Chrome] webbläsare, enligt beskrivning i [Installera tillägget Chrome Devtool](#install-the-chrome-Devtool-extension).
 
 1. Öppna [!DNL Workfront Fusion] scenario.
 1. Öppna [!DNL Chrome Developer Tools]:
@@ -114,9 +125,9 @@ Använd [!DNL Workfront Fusion] DevTool, du måste lägga till [!DNL Workfront F
 
 1. Klicka på **[!DNL Workfront Fusion]** tabba in [!DNL Chrome Dev Tools].
 
-## Använd [!DNL Workfront Fusion] Utvecklingsverktyg
+## Använd [!DNL Workfront Fusion] Devtool
 
-Workfront Fusion DevTool är uppdelat i tre huvudavsnitt. Du hittar dessa på den vänstra panelen i DevTool-fönstret.
+Workfront Fusion Devtool är uppdelat i tre huvudavsnitt. De finns i den vänstra panelen i fönstret Utvecklare.
 
 * [Live Stream](#live-stream)
 * [Scenariofelsökning](#scenario-debugger)
@@ -147,26 +158,26 @@ Live Stream visar vad som händer i bakgrunden när du klickar på Kör en gång
         <li> <p>Begärandetext</p> </li> 
         <li> <p>Svarshuvuden</p> </li> 
         <li> <p>Svarstext</p> </li> 
-       </ul> <p>Om du vill visa den här informationen klickar du på lämplig flik i den högra panelen i dialogrutan [!DNL Workfront Fusion] DevTool</p> </td> 
+       </ul> <p>Om du vill visa den här informationen klickar du på lämplig flik i den högra panelen i dialogrutan [!DNL Workfront Fusion] Devtool.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Sök efter förfrågningar och svar</p> </td> 
-      <td> <p>Ange söktermen i sökfältet i den vänstra panelen i dialogrutan [!DNL Workfront Fusion] DevTool för att endast visa begäranden som innehåller söktermen.</p> </td> 
+      <td> <p>Ange söktermen i sökfältet i den vänstra panelen i dialogrutan [!DNL Workfront Fusion] Utvecklingsverktyget om du bara vill visa begäranden som innehåller söktermen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Ta bort listan med begäranden </p> </td> 
-      <td> <p>Klicka på papperskorgsikonen i det övre högra hörnet av DevTool-verktygets vänstra panel för att rensa listan över begäranden som spelats in av [!DNL Workfront Fusion] DevTool </p> </td> 
+      <td> <p>Klicka på papperskorgsikonen i det övre högra hörnet av utvecklingsverktygets vänstra panel för att rensa listan över begäranden som spelats in av [!DNL Workfront Fusion] Devtool. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Aktivera konsolloggning</p> </td> 
-      <td> <p>Klicka på datorikonen <img src="assets/console-computer-icon.png"> i det övre högra hörnet av DevTool vänstra panel.</p> <p>Inloggning på konsolen aktiveras när datorikonen är grön.</p> </td> 
+      <td> <p>Klicka på datorikonen <img src="assets/console-computer-icon.png"> i det övre högra hörnet av utvecklingsverktygets vänstra panel.</p> <p>Inloggning på konsolen aktiveras när datorikonen är grön.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Hämta begäran i Raw JSON-format eller cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>Råformat JSON</strong> </p> <p>Klicka <strong>[!UICONTROL Copy RAW]</strong> i det övre högra hörnet av DevTool högra ruta.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Klicka <strong>[!UICONTROL Copy cURL]</strong> i det övre högra hörnet av DevTool högra ruta.</p> </li> 
+        <li> <p><strong>Råformat JSON</strong> </p> <p>Klicka <strong>[!UICONTROL Copy RAW]</strong> i det övre högra hörnet av utvecklingsverktygets högra ruta.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Klicka <strong>[!UICONTROL Copy cURL]</strong> i det övre högra hörnet av utvecklingsverktygets högra ruta.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -177,13 +188,13 @@ Live Stream visar vad som händer i bakgrunden när du klickar på Kör en gång
 Scenariofelsökaren är användbar för mer komplexa scenarier. Den visar historiken för scenariot som körs och gör att du kan söka efter moduler efter namn eller ID.
 
 1. Klicka på **[!UICONTROL Scenario Debugger]** icon ![](assets/scenario-debugger-icon.png) för att öppna Scenario Debugger.
-1. (Valfritt) Ange söktermen (namn eller modul-ID) i sökfältet i den vänstra rutan i [!DNL Workfront Fusion] DevTool i [!UICONTROL Scenario Debugger] -avsnitt.
+1. (Valfritt) Ange söktermen (namn eller modul-ID) i sökfältet i den vänstra rutan i [!DNL Workfront Fusion] Utvecklingsverktyget i [!UICONTROL Scenario Debugger] -avsnitt.
 1. Dubbelklicka på modulens namn för att öppna dess inställningar i scenarioredigeraren.
 1. Visa information om begäran genom att klicka på önskad åtgärd.
 
 ### verktyg
 
-The [!DNL Workfront Fusion] DevTool har verktyg som gör det enklare att konfigurera ditt scenario.
+The [!DNL Workfront Fusion] Utvecklingsverktyg har verktyg som gör det enklare att konfigurera ditt scenario.
 
 1. Klicka på **[!UICONTROL Tools]** icon ![](assets/console-tools-icon.png) för att öppna verktygen.
 1. Välj det verktyg som du vill använda
