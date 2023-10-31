@@ -5,9 +5,9 @@ author: Lisa
 draft: Probably
 feature: Product Announcements
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den fjärde utgåvan, kvartal 2023.
 
 En lista över alla ändringar som är tillgängliga i den fjärde utgåvan av kvartal 2023 finns på [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Håll utkik efter uppdateringar för e-postmallar för dokumentgodkännanden
+
+>[!NOTE]
+>
+>Förhandsversion: 1 november 2023; Produktionsrelease för alla kunder: 1 november
+
+E-postmallen för aviseringar om dokumentgodkännande har uppdaterats för att bättre matcha andra e-postmallar från Adobe och för att förbättra tydligheten och användbarheten.
 
 ## Indikator för manuellt justerade allokeringar i arbetsbelastningsutjämnaren
 

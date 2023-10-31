@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Användare i systemet ser som standard den nya hemupplevelsen </td> 
-      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. <b>När det är inaktiverat har användarna inte möjlighet att använda Nytt hem.</b> Den här inställningen är aktiverad som standard.</td> 
+      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När alternativet är inaktiverat visas inte den banderoll som gör att användaren kan växla till Nytt hem, men användaren kan fortfarande navigera till sin nya hemsida genom att ange <code>/home/workspaces</code> i slutet av instansens URL. Den här inställningen är aktiverad som standard.</td> 
      </tr> 
     </tbody> 
    </table>
