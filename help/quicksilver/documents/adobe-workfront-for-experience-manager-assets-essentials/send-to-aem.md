@@ -2,21 +2,22 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Skicka ett dokument till Experience Manager Assets eller Assets Essentials
-description: Du kan skicka dokument från Workfront till Experience Manager Assets eller Assets Essentials. Dokument som överförs och skickas från Workfront till Assets Essentials räknas fortfarande av mot den totala dokumentlagringen. Resurser som är länkade från Assets Essentials räknas inte in i det totala lagringsutrymmet.
+description: Du kan skicka dokument från Workfront till Experience Manager Assets eller Assets Essentials. Dokument som överförts och skickats från Workfront till Assets Essentials räknas fortfarande mot den totala dokumentlagringen. Resurser som är länkade från Assets Essentials räknas inte in i det totala lagringsutrymmet.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 91da06fe23b464e0422d50b0db69f4eae3db642f
+source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
 
 # Skicka ett dokument till Experience Manager Assets eller Assets Essentials
 
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
-Du kan skicka dokument från Workfront till Experience Manager Assets eller Assets Essentials. Dokument som överförs och skickas från Workfront till Assets Essentials räknas fortfarande av mot den totala dokumentlagringen. Resurser som är länkade från Assets Essentials räknas inte in i det totala lagringsutrymmet.
+Du kan skicka dokument från Workfront till Experience Manager Assets eller Assets Essentials. Dokument som överförts och skickats från Workfront till Assets Essentials räknas fortfarande mot den totala dokumentlagringen. Resurser som är länkade från Assets Essentials räknas inte in i det totala lagringsutrymmet.
 
 Metadatafält mappas först när du skickar en resurs från Workfront till Experience Manager Assets eller Assets Essentials. Alla metadata som har konfigurerats för att mappa för överordnade objekt skickas också. Mer information om hur du konfigurerar metadatamappning finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -42,7 +43,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Du måste ha Experience Manager as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.
+   <td>Du måste ha Experience Manager as a Cloud Service eller Assets Essentials, och du måste läggas till i produkten som användare i Admin Console.
 </td> 
   </tr> 
   <tr> 
@@ -67,9 +68,9 @@ Innan du börjar,
 
 ## Skicka ett dokument från Workfront
 
-När en användare skickar ett dokument från Workfront till Experience Manager Assets eller Assets Essentials överförs mappade metadata längs dokumentet. När dokumentet har skickats återspeglas inte ändringar i dokumentets metadata i Workfront i Resurser eller Assets Essentials. Om ett mappat fält i Workfront ändras måste du skicka en ny version av dokumentet med de uppdaterade metadata till Assets eller Assets Essentials. Information om hur du ställer in eller redigerar metadata finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen av Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+När en användare skickar ett dokument från Workfront till Experience Manager Assets eller Assets Essentials överförs mappade metadata tillsammans med dokumentet. När dokumentet har skickats återspeglas inte ändringar i dokumentets metadata i Workfront i Resurser eller Assets Essentials. Om ett mappat fält i Workfront ändras måste du skicka en ny version av dokumentet med de uppdaterade metadata till Assets eller Assets Essentials. Information om hur du ställer in eller redigerar metadata finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen av Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-Så här skickar du ett dokument:
+Skicka ett dokument:
 
 1. Gå till **Dokument** i Workfront och markera dokumentet som du vill skicka.
 1. Klicka **Skicka till** väljer du sedan den integrering av Experience Manager som administratören har konfigurerat.
@@ -81,7 +82,7 @@ Så här skickar du ett dokument:
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Välj vart du vill att resursen ska gå och klicka sedan på **Välj mapp**.
-1. Klicka på **Spara**.
+1. När du hittar önskat mål klickar du på **Spara**.
 
 ## Skicka en ny version
 
@@ -98,7 +99,7 @@ Så här skickar du den senaste versionen:
 
    >[!NOTE]
    >
-   >Workfront-administratören kan välja vilket namn som helst för integreringen, så det kanske inte uttryckligen anger Assets eller Assets Essentials.
+   >Workfront-administratören kan välja vilket namn som helst för integreringen, så det kanske inte specifikt anger Assets eller Assets Essentials.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -115,9 +116,9 @@ Du kan flytta ett dokument till en länkad mapp i Experience Manager Assets om b
 1. Leta reda på dokumentet som du vill flytta.
 1. Dra och släpp dokumentet till den länkade Experience Manager Assets-mappen som du vill flytta det till.
 
-Dokumentalternativen är inte tillgängliga när dokumentet håller på att flyttas. När dokumentet har flyttats till Experience Manager Assets visas det inte längre i dokumentlistan i Workfront.
+<div class="preview">Dokumentalternativen är inte tillgängliga när dokumentet håller på att flyttas. När dokumentet har flyttats till Experience Manager Assets visas det inte längre i dokumentlistan i Workfront.
 
 >[!NOTE]
 >
 > De åtgärder eller redigeringar du gör i dokumentet när det flyttas visas inte i dokumentet i Experience Manager Assets och kommer därför att gå förlorade.
-
+</div>

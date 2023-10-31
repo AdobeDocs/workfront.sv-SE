@@ -3,9 +3,10 @@ title: Förbättringar av fjärde kvartalet 2023-integreringen
 description: Förbättringar av fjärde kvartalet 2023-integreringen
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
+source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -27,6 +28,10 @@ Vi har gjort några ändringar i hur du skickar dokument till dina SharePoint-ma
 Mer information finns i [Länka dokument via den nya SharePoint-integreringen](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Uppgraderingar för att dra och släppa för dokumentintegreringar
+
+>[!NOTE]
+>
+>Den här funktionen har ännu inte släppts till produktionsmiljöer.
 
 Vi har förbättrat användarupplevelsen något när vi drar och släpper en fil i en länkad mapp.
 
