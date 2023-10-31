@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ De släppta funktionerna listas i den ordning de släpps, med den senaste först
 I det här avsnittet beskrivs de funktioner och korrigeringar som har släppts efter lanseringen av Maestro-betaprogrammet, som avslutades den 22 maj 2023.
 
 Funktionerna släpps varje vecka och visas i den ordning de släpps, med den senaste först. Kunder som deltar i det nedstängda betaprogrammet från Maestro har tillgång till alla funktioner i sina förhandsgransknings- och produktionsmiljöer.
+
+## Vecka 30 oktober 2023
+
+### Nya fälttyper för användar- och datumfält för att fånga vem som skapade eller senast ändrade en post eller på vilket datum
+
+Förhandsgranskning och produktion: 30 oktober 2023
+
+Vi har introducerat följande fälttyper för Maestro-poster:
+
+* Skapad av
+
+* Skapad den
+
+* Senast ändrad av
+
+* Senast ändrat den
+
+Fältvärdena för de fält som skapas från dessa fälttyper är skrivskyddade och fångar namnet på användaren som skapade eller senast ändrade en post, eller datumet då posten skapades eller ändrades senast.
+
+Mer information finns i [Skapa fält](../maestro/architecture-and-fields/create-fields.md).
+
+### Navigera till Workfront-objekt från en Maestro-post
+
+Förhandsgranskning och produktion: 31 oktober 2023
+
+Nu kan du öppna Workfront objektsidor från följande områden i Maestro:
+
+* Skrivskyddad vy för Workfront-objektspostregister
+
+* Workfront-objektets skrivskyddade postinformationssida
+
+Mer information finns i [Koppla poster](../maestro/records/connect-records.md).
 
 ## Vecka 16 oktober 2023
 
