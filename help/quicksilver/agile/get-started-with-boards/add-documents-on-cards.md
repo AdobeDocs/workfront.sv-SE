@@ -6,9 +6,9 @@ description: Du kan lägga till dokument på anslutna kort på Adobe Workfront B
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. På kortet hittar du [!UICONTROL Documents] område. Klicka ![Ikonen Lista](assets/docs-list-icon.png) om du vill visa alla dokument i en lista, eller klicka på ![Galleriikon](assets/docs-gallery-icon.png) om du vill visa dokumenten i ett galleri.
 1. Håll muspekaren över dokumentminiatyrbilden och klicka [!UICONTROL **Förhandsgranska**] för att visa filen i webbläsaren eller [!UICONTROL **Ladda ned**] för att hämta filen till datorn.
+
+   >[!NOTE]
+   >
+   >PDF visar ingen miniatyrbild.
