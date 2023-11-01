@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
+source-git-commit: 608a5beb5e29a786e41d713f1414a0cb79baf093
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Mer information finns i [Bevilja användaren fullständig administrativ åtkomst
 
 Den här åtkomstnivån är även kopplad till standardlicensen och är utformad för användare som:
 
-* Planera, skapa och spåra alla projekt på ett och samma ställe
+* Planera, skapa och spåra alla projekt på ett ställe
 * Automatisera rutinprocesserna
 * Hantera resurser
 * Spåra och samarbeta vid förfrågningar
@@ -115,13 +115,13 @@ Den här åtkomstnivån är kopplad till Light-licensen och är utformad för an
 * Visa alla artiklar och uppdateringar som är kopplade till arbetet
 * Godkänn projekt, uppgifter och ärenden
 * Visa instrumentpaneler och rapporter
-* Spåra tid
+* Spåra tid och godkänn tidrapporter
 * Skapa och hantera problem
 * Gör uppdateringar på jobbet
 
 Användare med åtkomstnivån Light:
 
-* Det går inte att tilldela arbetsobjekt eller godkänna tidrapporter
+* Kan tilldelas arbetsobjekt men kan inte slutföra dem.
 * Kan komma åt förfrågningar och dokument på huvudmenyn.
 * Har begränsad möjlighet att skapa objekt - de kan inte skapa projekt, portfolior, program eller rapporter.
 
@@ -256,14 +256,14 @@ Den här åtkomstnivån är kopplad till Contributor-licensen och är utformad f
 
 * Skicka begäranden
 * Spåra förfrågningar
-* Uppdatera och granska förfrågningar.
+* Uppdatera och granska förfrågningar
 
 Användare med denna inbyggda åtkomstnivå:
 
-* Kan göra förfrågningar och uppdatera dessa förfrågningar
+* Kan göra förfrågningar och uppdatera dem
 * Kan överföra och godkänna dokument
 * Kan granska status för de utgåvor som de har skickat in
-* Det går inte att tilldela arbetsobjekt
+* Kan tilldelas arbetsobjekt men kan inte slutföra dem
 * Kan bara komma åt begäranden från huvudmenyn. Mer information om köer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
@@ -302,7 +302,7 @@ Den här åtkomstnivån är inte kopplad till en betald Workfront-licens. Det ä
 
 Workfront-användare kan tilldela uppgifter till externa användare även om externa användare inte kan logga in på systemet. Men vi avråder från detta eftersom arbetet skulle förbli olöst i systemet.
 
-Användare med åtkomstnivå Extern användare:
+Användare med extern användaråtkomst:
 
 * Kan endast visa dokument och kalenderrapporter som delas med dem
 * Visa de användare som delar dokument och kalenderrapporter med sig
@@ -325,7 +325,7 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Problem | ✓ |   |   |
 | Portfolio | ✓ |   |   |
 | Program | ✓ |   |   |
-| Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   | ✓ (Endast för kalenderrapporter. ingen möjlighet att dela rapporter) |   |
+| Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   | ✓ (Endast för kalenderrapporter, ingen möjlighet att dela rapporter) |   |
 | Filter, vyer och grupperingar | ✓ |   |   |
 | Dokument |   | ✓ (ingen möjlighet att dela dokument) |   |
 | Användare |   | ✓ |   |
@@ -386,20 +386,19 @@ Användare får åtkomst till enskilda objekt när andra användare delar och ge
 
 >[!NOTE]
 >
->* Om en användare delar ett objekt med vissa behörigheter och objektet har underordnade objekt, ärver mottagaren samma behörigheter för dessa underordnade objekt.
+>* Om en användare delar ett objekt med vissa behörigheter och det objektet har underordnade objekt under sig, ärver mottagaren samma behörigheter för dessa underordnade objekt.
 >* Om en åtkomstnivå begränsar användare från att ta bort vissa objekt, hindras de inte från att ta bort underordnade objekt som finns i dessa objekt.
-
 
 En användare kan ge mottagaren någon av följande behörigheter till det enskilda objektet:
 
-* **Visa**: Den här behörighetsnivån tillåter att mottagaren delar objektet på något av följande sätt:
+* **Visa**: Den här behörighetsnivån tillåter mottagaren att dela objektet på något av följande sätt:
 
    * System-wide så att alla användare kan se det (inte tillgängligt för alla objekt)
    * Med externa användare som inte har någon Workfront-licens (inte tillgänglig för alla objekt)
    * Med en e-postadress (endast tillgängligt för dokument och kalendrar)
 
 * **Contribute**: (ej tillgängligt för alla objekt)
-* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som delaren tilldelat. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
+* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som har beviljats av den som delar objektet. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
 
 ### Exempel på scenarier
 
