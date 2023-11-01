@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,10 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
    * Valuta
    * Kryssruta
    * Folk
+   * Skapad av
+   * Skapad den
+   * Senast ändrad av
+   * Senast ändrat den
 
 * **Länkade posttyper**, **Länkade poster** och **Länkade postfält**: Du kan skapa en anslutning mellan följande enheter:
 

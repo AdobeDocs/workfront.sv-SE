@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Om de borttagna posterna är länkade till andra poster tas de länkade posterna inte bort, men informationen från den borttagna posten tas också bort.
 * Du kan inte ta bort flera poster samtidigt. <!--this will probably change-->
 * Du kan inte ta bort poster från tidslinjevyn.
+* Du kan inte ta bort en posttyp som är länkad från ett annat program. Om du t.ex. länkar en Maestro-post till ett Workfront-objekt kan du inte ta bort Workfront-objektet från Workfront objektpostsida.
 
 ## Ta bort poster
 

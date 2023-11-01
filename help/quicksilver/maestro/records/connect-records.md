@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Du kan ansluta följande:
 * Mejsel operationsregister till taxonomiposter
 * Arkiv och objekt från andra program.
 
-  Följande program och objekttyper stöds för närvarande:
+  Du kan koppla Maestro-poster till objekt av den typ som listas nedan från följande program:
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Alla som har tillgång till Maestro kan se kopplingarna mellan Maestro-posterna eller mellan Maestro-poster och Workfront-objekt. Du kan även visa och redigera alla andras anslutningar. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * Du kan koppla en Maestro-post till ett eller flera objekt från ett annat program.
 * Du kan inte ansluta taxonomier till posttyper eller till objekt från ett annat program. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* För närvarande kan du bara länka Maestro-poster till Workfront-objekt. Om du vill länka Maestro-poster till Workfront-objekt måste du ha följande:
+* Om du vill länka Maestro-poster till Workfront-objekt måste du ha följande:
 
    * Workfront-objekt. Du måste till exempel först skapa projekt, portföljer, program, företag eller grupper i Workfront.
    * Makroarbetsytor, posttyper och poster. Mer information finns i följande artiklar:
@@ -151,16 +151,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ### Connect Maestro-poster
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i Workfront övre högra hörn, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> klicka sedan på **Maestro** ![](assets/maestro-icon.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
 
    Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill koppla poster från.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
-1. Välj en tabellvy på menyn **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
+1. Välj en **Tabell** visa från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
 1. Lägg till en anslutning till en annan post eller objekttyp från den valda posttypen. Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
 
-En ny kolumn läggs till i tabellen för att visa den länkade posttypen.
+   En ny kolumn läggs till i tabellen för att visa den länkade posttypen.
 
 1. Lägg till poster till den posttyp du valde genom att lägga till en ny rad i tabellen. Mer information finns i [Skapa poster](../../maestro/records/create-records.md).
 1. Gå till kolumnen för den länkade posten från en post som visas i tabellvyn och hovra över cellen för den post som du vill länka till andra Maestro-poster. Klicka sedan på **+** -ikon.
@@ -201,7 +201,7 @@ En ny kolumn läggs till i tabellen för att visa den länkade posttypen.
 
 När du har skapat en anslutning mellan en Maestro-posttyp och en Workfront-objekttyp kan du koppla enskilda Maestro-poster till objekt i Workfront. Du kan också koppla fält från Workfront-objektet till Maestro-posttypen.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i Workfront övre högra hörn, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> klicka sedan på **Maestro** ![](assets/maestro-icon.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
 
    Den senast använda arbetsytan bör öppnas som standard.
 
@@ -265,11 +265,30 @@ När du har skapat en anslutning mellan en Maestro-posttyp och en Workfront-obje
    >
    >    * Om du vill visa posttypen för Workfront-objektet i tidslinjevyn måste det finnas minst två datumfält i tabellvyn på den skrivskyddade Workfront-posttypsidan.
 
-1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) bredvid Workfront objekttyp i sidhuvudet och klicka sedan på **Byt namn** om du vill redigera postens namn.
+1. (Valfritt) Gör något av följande om du vill öppna Workfront objektpostinformationssida i Maestro:
 
-   >[!NOTE]
-   >
-   >    Du kan inte ta bort en länkad Workfront-posttyp eller några objekt från Workfront posttypsida.
+   * Gå till det länkade postfältet för Workfront-objektet från den posttyp du länkade från och klicka på namnet på Workfront-objektet.
+   * Från **Tabell** vy över posttypssidan för Workfront, klicka på namnet på Workfront-objektet
+
+     eller
+
+     Klicka på **Mer** till höger om Workfront-objektnamnet och klicka sedan på **Visa**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Då öppnas sidan Maestro Details (Maestro-information) för det länkade Workfront-objektet. Det här är en skrivskyddad sida.
+
+1. (Valfritt) Gör något av följande om du vill öppna det länkade Workfront-objektet i Workfront:
+
+   * Från **Tabell** visa Workfront posttypsida, klicka på namnet på Workfront-objektet,
+
+   eller
+
+   Klicka på **Mer** till höger om Workfront-objektnamnet och klicka sedan på **Gå till källa**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Då öppnas Workfront objektsida. Du kan redigera information om Workfront-objektet om du har behörighet att göra det.
 
 1. (Valfritt) Klicka på **Lägg till fält** icon ![](assets/add-fields-icon.png) i tabellvyns övre högra hörn på posttypssidan för Workfront om du vill lägga till eller ta bort Workfront-fält från posttypen för Workfront.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '3484'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när det gäller Maestro-fält
 
-* Du kan bara skapa fält från tabellvyn för en posttypsida. Fält visas som kolumner i tabellvyn.
+* Du kan bara skapa fält från tabellvyn för en posttypsida. Fält visas som kolumner i tabellvyn. Alla fält som är kopplade till en posttyp visas också på sidan Detaljer för varje post av den typen.
 
   Mer information om hur du hanterar tabellkolumner (eller postfält) finns i [Hantera tabellvyn](../views/manage-the-table-view.md).
 
@@ -189,6 +189,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [Valuta](#currency)
    * [Kryssruta](#checkbox)
    * [Folk](#people)
+   * [Skapad av](#created-by)
+   * [Skapad den](#created-date)
+   * [Senast ändrad av](#last-modified-by)
+   * [Senast ändrat den](#last-modified-date)
 
    >[!IMPORTANT]
    >
@@ -209,7 +213,7 @@ Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till e
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumnrubrik i en tabell.
 1. Klicka **Skapa**.
 
-   Det nya enradiga fältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya enradiga fältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 
 ### Stycke {#paragraph}
@@ -232,7 +236,7 @@ Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar 
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
 1. Klicka **Skapa**.
 
-   Det nya styckefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya styckefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 
 ### Flera val {#multi-select}
@@ -255,7 +259,7 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
 1. Klicka **Skapa**.
 
-   Det nya flervalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya flervalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Enkelval {#single-select}
 
@@ -277,7 +281,7 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
 1. Klicka **Skapa**.
 
-   Det nya envalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya envalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Datum {#date}
 
@@ -291,7 +295,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
 1. Lägg till följande information i **Nytt fält** tab:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
-   * **Datumformat**: Den typ av datumformat som du vill visa i det här fältet.
+   * **Datumformat**: Den typ av datumformat som du vill visa i det här fältet. <!--update this casing - submitted bug for it-->
 
      Välj bland följande format:
       * **Språk**: Matchar språkområdet i webbläsaren.
@@ -299,7 +303,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
       * **Lång**: 16 maj 2023
       * **europeisk**: 16/05/2023
       * **ISO**: 2023-05-16
-   * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat.
+   * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. <!--update this setting name - submitted bug for it to be changed-->
 
      Välj bland följande alternativ:
 
@@ -308,7 +312,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
 
 1. Klicka **Skapa**.
 
-   Det nya datumfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya datumfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Nummer {#number}
 
@@ -330,7 +334,7 @@ Nummerfälttyper samlar in information i talformat.
 
 1. Klicka **Skapa**.
 
-   Det nya nummerfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya nummerfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Procent {#percentage}
 
@@ -352,7 +356,7 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 
 1. Klicka **Skapa**.
 
-   Det nya procentfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya procentfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Valuta {#currency}
 
@@ -375,7 +379,7 @@ Valutafälttyper samlar in information i ett talformat som föregås av en valut
 
 1. Klicka **Skapa**.
 
-   Det nya valutafältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya valutafältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Kryssruta
 
@@ -390,7 +394,7 @@ Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en p
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
 1. Klicka **Skapa**.
 
-   Det nya kryssrutefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya kryssrutefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Folk
 
@@ -411,7 +415,109 @@ Du kan använda fälttypen Personer för att lägga till en användare <!--, job
 
 1. Klicka **Skapa**.
 
-   Det nya fältet av typen Personer läggs till som en kolumn till posttypen och dess värden kan kopplas till poster. Fältet visas även på detaljsidan för en post.
+   Det nya fältet av typen Personer läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
+
+### Skapad av
+
+Du kan använda fälttypen Skapad av för att lägga till användaren som skapade posten i en post. Det här är ett skrivskyddat fält och fyller automatiskt i med namnet på den användare som var inloggad när posten skapades.
+
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Skapad av** fälttyp.
+
+   ![](assets/created-by-field-type.png)
+
+1. Lägg till följande information i **Nytt fält** tab:
+
+   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
+
+1. Klicka **Skapa**.
+
+   Det nya fältet Skapat efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som skapade varje post.
+
+
+### Skapad den
+
+Du kan använda fälttypen Skapat för att lägga till datumet när en post skapades i en post. Det här är ett skrivskyddat fält som automatiskt fylls i med datumet (och eventuellt med tiden) när posten skapades.
+
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Skapad den** fälttyp.
+
+   ![](assets/created-date-field-type.png)
+
+   <!--check the image above - added bug fix for UI text changes-->
+
+1. Lägg till följande information i **Nytt fält** tab:
+
+   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
+   * **Datumformat**: Välj bland följande format:
+
+      * **Språk**: Matchar språkområdet i webbläsaren.
+      * **Standard**: 05/16/2023
+      * **Lång**: 16 maj 2023
+      * **europeisk**: 16/05/2023
+      * **ISO**: 2023-05-16
+   * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. <!--submitted a UI text change for this - check the UI-->
+
+     Välj bland följande alternativ:
+
+      * **24 timmar**: Till exempel: 18:00
+      * **12 timmar**: Exempel: 6:00 PM
+
+1. Klicka **Skapa**.
+
+   Det nya fältet Skapad av-datum läggs till som en kolumn till posttypen och dess värden är förifyllda med datumet (eller datum och tid) när posten skapades.
+
+
+### Senast ändrad av
+
+Du kan använda fälttypen Senast ändrad av för att lägga till användaren som senast ändrade posten till en post. Det här är ett skrivskyddat fält och fyller automatiskt i med namnet på den användare som var inloggad när posten senast uppdaterades.
+
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Senast ändrad av** fälttyp.
+
+   ![](assets/last-modified-by-field-type.png)
+
+1. Lägg till följande information i **Nytt fält** tab:
+
+   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
+
+1. Klicka **Skapa**.
+
+   Det nya fältet Senast ändrad efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som senast ändrade varje post.
+
+
+### Senast ändrat den
+
+Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet när en post senast ändrades till en post. Det här är ett skrivskyddat fält som automatiskt fylls i med datumet (och eventuellt med tiden) när posten senast ändrades.
+
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Skapad den** fälttyp.
+
+   ![](assets/last-modified-date-field-type.png)
+
+   <!--check the image above - added bug fix for UI text changes-->
+
+1. Lägg till följande information i **Nytt fält** tab:
+
+   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
+   * **Datumformat**: Välj bland följande format:
+
+      * **Språk**: Matchar språkområdet i webbläsaren.
+      * **Standard**: 05/16/2023
+      * **Lång**: 16 maj 2023
+      * **europeisk**: 16/05/2023
+      * **ISO**: 2023-05-16
+   * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. <!--submitted a UI text change for this - check the UI-->
+
+     Välj bland följande alternativ:
+
+      * **24 timmar**: Till exempel: 18:00
+      * **12 timmar**: Exempel: 6:00 PM
+
+1. Klicka **Skapa**.
+
+   Det nya fältet Senast ändrad datumtyp läggs till som en kolumn till posttypen och dess värden är förifyllda med datumet (eller datum och tid) när posten senast ändrades.
+
 
 ## Skapa fält genom att länka posttyper tillsammans
 

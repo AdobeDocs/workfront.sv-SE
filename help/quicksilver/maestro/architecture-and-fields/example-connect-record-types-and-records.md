@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ Så här gör du:
    * De projekt som du har valt att ansluta till kampanjer visas som separata poster på posttypsidan för Workfront Project. Projektposterna är också skrivskyddade och informationen uppdateras automatiskt när projekten uppdateras i Workfront. Du måste lägga till fler projekt från den anslutna Maestro-posten för att kunna visa dem i posttypen Workfront Project.
    * Fältet för Campaign-länkad post fylls i med namnen på de kampanjer som är kopplade till projekt från sidan för Campaign-posttyp.
 
-1. (Valfritt) Klicka på **Mer** icon ![](assets/more-menu.png) till höger om posttypnamnet för Workfront Project och klicka på **Byt namn** för att byta namn på posttypen.
+1. (Valfritt) Gör något av följande om du vill öppna Workfront projektinformationssida i Maestro:
 
-   >[!TIP]
-   >
-   >Du kan byta namn på en posttyp genom att klicka på namnet i posttypsrubriken.
+   * Från den posttyp du länkade från (**Campaign**), gå till det länkade postfältet för Workfront-projekt (**Projektinformation**) och klickar på namnet på ett Workfront-projekt.
+   * Från **Tabell** vy över **Workfront Project** postsida klickar du på namnet på ett Workfront-projekt
 
-1. Klicka på ikonen Lägg till fält ![](assets/add-fields-icon.png) i det övre högra hörnet av posttyptabellen för Workfront Project om du vill lägga till fler projektfält till posttypen Workfront Project Makestro.
+     eller
+
+     Klicka på **Mer** till höger om ett Workfront-projekt och klicka sedan på **Visa**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Nu öppnas sidan Maestro Details för det länkade Workfront-projektet. Det här är en skrivskyddad sida.
+
+1. (Valfritt) Gör något av följande om du vill öppna det länkade Workfront-projektet i Workfront:
+
+   * Från **Tabell** vy över **Workfront Project** klickar du på namnet på ett Workfront-projekt,
+
+   eller
+
+   Klicka på **Mer** till höger om Workfront projektnamn och klicka sedan på **Gå till källa**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Då öppnas Workfront projektsida. Du kan redigera information om Workfront-projektet om du har behörighet att göra det.
+
+1. Klicka på **Lägg till fält** icon ![](assets/add-fields-icon.png) i det övre högra hörnet av posttyptabellen för Workfront Project om du vill lägga till fler projektfält till posttypen Workfront Project Makestro.
 1. Klicka på **+** ikon för de projektfält som du vill lägga till i Workfront Project Makestro-posten i dialogrutan **Omarkerade fält** -avsnitt.
 1. Klicka på **-** ikon för de projektfält som du vill ta bort från Workfront Project Makestro-posten i dialogrutan **Markerade fält** -avsnitt.
 1. Klicka **Spara**.
