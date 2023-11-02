@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ Nu kan du öppna Workfront objektsidor från följande områden i Maestro:
 * Workfront-objektets skrivskyddade postinformationssida
 
 Mer information finns i [Koppla poster](../maestro/records/connect-records.md).
+
+### Förbättrad navigering i tabellvyn
+
+Förhandsgranska och producera: 2 november 2023
+
+Navigeringen i tabellvyn för en posttypssida har förbättrats.
+
+Nedan följer några av förbättringarna:
+
+* Använd tabbtangenten på tangentbordet för att navigera i tabellens kolumner och rader
+
+* Lägg till en ny post från valfri kolumnposition. Före den här förbättringen kunde du bara lägga till en post från den första kolumnen.
+
+* Använd tangentbordskombinationen Skift + Retur för att lägga till en ny post (eller rad) i tabellen.
+
+Mer information finns i [Skapa poster](../maestro/records/connect-records.md).
 
 ## Vecka 16 oktober 2023
 

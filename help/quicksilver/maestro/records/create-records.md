@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ Alla poster av den valda typen visas i tabellvyn.
 
 1. (Villkorligt) Om posttypsidan inte öppnas i tabellvyn klickar du på **Visa** och välj en befintlig **Tabellvy** ![](assets/table-view-icon.png) eller klicka **Skapa vy > Tabell** för att skapa en tabellvy.
 
-1. Klicka **Nytt &lt; Posttypnamn >** i tabellens sista rad för att lägga till en ny rad i tabellen.
+1. Om du vill lägga till nya poster klickar du **Nytt &lt; Posttypnamn >** i tabellens sista rad
+
+   eller
+
+   Klicka **Skift + Retur** på tangentbordet från en kolumn eller rad i tabellen. Det här annonserar en tom rad.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
-
-   >[!TIP]
-   >
-   >    Skriv CTRL+Retur om du vill lägga till en ny post på en ny rad.
-
-   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. Börja skriva information på den nya raden om den nya posten.
 
