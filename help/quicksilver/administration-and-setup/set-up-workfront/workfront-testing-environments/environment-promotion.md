@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: d777e42a91b18586da22be3aeb35be32e1439104
+source-git-commit: a485f213cc735cd6596a89c560b33ee1b896c47d
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2296'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,8 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 | Utgiftstyp (EXPTYP) | Utgiftstyp |
 | Risktyp (risktyp) | Risktyp |
 | Resurspool (RSPL) | Resurspool |
+
+\* Inte tillgängligt för tillfället
 
 ## Autentisering
 
