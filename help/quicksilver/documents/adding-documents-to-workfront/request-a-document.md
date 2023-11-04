@@ -6,9 +6,9 @@ description: Du kan begära ett dokument på alla objekt som har stöd för Doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,6 @@ Du måste ha följande:
    Användaren får ett e-postmeddelande om den här inställningen är aktiverad, samt ett meddelande i appen. Mer information om e-postmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Du kan klicka på länken i e-postmeddelandet och sedan överföra dokumentet. Du kan också klicka på meddelandet i appen. Varje alternativ dirigerar dig till användarprofilsidan där du kan överföra det begärda dokumentet.
-
-   Du kan också svara direkt på e-postmeddelandet och bifoga de begärda dokumenten (om du har konfigurerats att stödja e-postsvar).
 
 1. När du har överfört dokumentet kan den person som begärde det få åtkomst till dokumentet i sin personliga **Dokument** område.
 

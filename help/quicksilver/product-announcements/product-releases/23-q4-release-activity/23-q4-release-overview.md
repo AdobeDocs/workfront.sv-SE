@@ -4,9 +4,9 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: b179a4681ab08773ceaa4a6cd81c764acda1dcf1
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2695'
 ht-degree: 0%
 
 ---
@@ -304,7 +304,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Delegera arbetsknapp för widgetarna Projekt, Uppgift och Problem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>En vanlig efterfrågad funktion på den gamla hemsidan är att vi nu har lagt till en delegatknapp i widgetarna Mitt arbete, Mina uppgifter och Mina problem så att du enkelt kan delegera arbete när du inte är på kontoret.</p>
+                        <p>En vanlig efterfrågad funktion på den gamla hemsidan är att vi nu har lagt till en delegatknapp i widgetarna Mitt arbete, Mina uppgifter och Mina problem så att du enkelt kan delegera arbete när du inte är på kontoret. Observera att delegering av arbete måste vara aktiverat i din Workfront-miljö för att knappen ska visas.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
