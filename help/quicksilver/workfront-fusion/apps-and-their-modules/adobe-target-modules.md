@@ -9,7 +9,7 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 51db439995430dad86e41190520824743216df69
 workflow-type: tm+mt
 source-wordcount: '2200'
 ht-degree: 0%
@@ -188,7 +188,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#Create" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Record type]</td>
@@ -197,19 +197,19 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
       <ul>
         <li>
           <p>[!UICONTROL AB Activity]</p>
-          <p>Fortsätt till <a href="#AB%C2%A0Activ" class="MCXref xref" >AB-aktivitetsfält</a>.</p>
+          <p>Fortsätt till <a href="#ab-activity-fields" class="MCXref xref" >AB-aktivitetsfält</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL XT Activity]</p>
-          <p>Fortsätt till <a href="#XT" class="MCXref xref" >XT Activity fields</a>.</p>
+          <p>Fortsätt till <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Offer]</p>
-          <p>Fortsätt till <a href="#Offer" class="MCXref xref" >Erbjudandefält</a>.</p>
+          <p>Fortsätt till <a href="#offer-fields" class="MCXref xref" >Erbjudandefält</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Audience]</p>
-          <p>Fortsätt till <a href="#Audience" class="MCXref xref" >Målgruppsfält</a>.</p>
+          <p>Fortsätt till <a href="#audience-fields" class="MCXref xref" >Målgruppsfält</a>.</p>
         </li>
       </ul>
     </td>
@@ -657,7 +657,7 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Target] API
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#Create" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] Bas-URL]</td>
@@ -710,7 +710,7 @@ Den här åtgärdsmodulen tar bort en enstaka AB-aktivitet, XT-aktivitet, erbjud
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#Create" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -733,7 +733,7 @@ Den här åtgärdsmodulen hämtar data för en aktivitet, ett erbjudande, en må
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#Create" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -756,7 +756,7 @@ Den här åtgärdsmodulen uppdaterar en aktivitet, ett erbjudande eller en publi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#Create" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
@@ -766,12 +766,12 @@ Den här åtgärdsmodulen uppdaterar en aktivitet, ett erbjudande eller en publi
           <li>
             <p><b>[!UICONTROL AB Activity]</b>
             </p>
-            <p>Se fältbeskrivningar i <a href="#AB%C2%A0Activ" class="MCXref xref" >AB-aktivitetsfält</a> under <a href="#Create2" class="MCXref xref" >Skapa en post</a>.</p>
+            <p>Se fältbeskrivningar i <a href="#ab-activity-fields" class="MCXref xref" >AB-aktivitetsfält</a> under <a href="#create-a-record" class="MCXref xref" >Skapa en post</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL XT Activity]</b>
             </p>
-            <p>Se fältbeskrivningar i <a href="#XT" class="MCXref xref" >XT Activity fields</a> under <a href="#Create2" class="MCXref xref" >Skapa en post</a>.</p>
+            <p>Se fältbeskrivningar i <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a> under <a href="#create-a-record" class="MCXref xref" >Skapa en post</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Other Activity]</b>
@@ -781,12 +781,12 @@ Den här åtgärdsmodulen uppdaterar en aktivitet, ett erbjudande eller en publi
           <li>
             <p><b>[!UICONTROL Offer]</b>
             </p>
-            <p>Se fältbeskrivningar i <a href="#Offer" class="MCXref xref" >Erbjudandefält</a> under <a href="#Create2" class="MCXref xref" >Skapa en post</a>.</p>
+            <p>Se fältbeskrivningar i <a href="#offer-fields" class="MCXref xref" >Erbjudandefält</a> under <a href="#create-a-record" class="MCXref xref" >Skapa en post</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
             </p>
-            <p>Se fältbeskrivningar i <a href="#Audience" class="MCXref xref" >Målgruppsfält</a> under <a href="#Create2" class="MCXref xref" >Skapa en post</a>.</p>
+            <p>Se fältbeskrivningar i <a href="#audience-fields" class="MCXref xref" >Målgruppsfält</a> under <a href="#create-a-record" class="MCXref xref" >Skapa en post</a>.</p>
           </li>
         </ul>
       </td>
@@ -815,7 +815,7 @@ Den här sökmodulen hämtar en lista med poster av den valda typen.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#Create" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
@@ -852,7 +852,7 @@ Den här sökmodulen söker efter aktiviteter, erbjudanden eller målgrupper bas
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#Create" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
