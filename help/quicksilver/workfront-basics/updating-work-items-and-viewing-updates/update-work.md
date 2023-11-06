@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3810'
 ht-degree: 0%
 
 ---
@@ -415,55 +415,6 @@ Du kan kopiera en uppdatering på flera olika sätt. När du har kopierat en lä
 
 Kopieringen av en uppdatering skiljer sig åt beroende på vilken kommentarsfunktion du använder.
 
-### Kopiera en uppdatering i det gamla kommentargränssnittet
-
-<!--remove legacy when removed from the UI-->
-
-* [Kopiera uppdateringen](#copy-the-update)
-* [Kopiera trådlänken](#copy-the-thread-link)
-* [Kopiera uppdateringslänken](#copy-the-update-link)
-* [Offertsvar](#quote-reply)
-
-#### Kopiera uppdateringen {#copy-the-update}
-
-Med det här alternativet kopieras texten från en specifik uppdatering till Urklipp.
-
-1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** menyn och klicka sedan på **Kopiera brödtext**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Kopiera trådlänken {#copy-the-thread-link}
-
-Med det här alternativet kopieras den fullständiga trådlänken till Urklipp så att du kan dela tråden med andra användare.
-
-1. Gå till uppdateringstråden som du vill kopiera.
-
-1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Kopiera uppdateringslänken {#copy-the-update-link}
-
-Med det här alternativet kopieras en specifik uppdateringslänk till Urklipp. När du delar uppdateringslänken ser användaren som följer den en ram runt uppdateringen.
-
-1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### Offertsvar
-
-Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar som ett blockcitat.
-
-1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** menyn och klicka sedan på **Offertsvar**.
-
-   En ny kommentarsruta öppnas och det citerade svaret inkluderas i den nya kommentaren och markeras som ett blockcitat.
-
-1. Fortsätt lägga till uppdateringen och klicka på **Svara** för att lägga till kommentaren.
-
 ### Kopiera en uppdatering i den nya kommentarsfunktionen
 
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -486,6 +437,14 @@ Alternativet Kopiera länk kopierar kommentaren eller länken till Urklipp så a
 
 1. Klicka på **Mer** menyn och klicka sedan på **Kopiera länk**.
 
+1. Klistra in länken som du kopierade i föregående steg i ett e-postmeddelande eller i ett annat program för att dela den med andra. Den delade länken öppnar kommentaren som du delade länken från.
+
+   >[!TIP]
+   >
+   >När du delar länken för en konversation på ett underordnat objekt från ett objekt med högre rankning, öppnar länken tråden i uppdateringsområdet för det högre rankade objektet.
+   >
+   >Om du till exempel kopierar länken till en uppgiftskommentar från projektets uppdateringsområde, öppnas projektsidan.
+
 #### Kopiera brödtext
 
 Alternativet Kopiera brödtext kopierar texten från en specifik uppdatering till Urklipp.
@@ -507,6 +466,64 @@ Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Fortsätt lägga till uppdateringen och klicka på **Skicka** för att lägga till kommentaren.
+
+### Kopiera en uppdatering i det gamla kommentargränssnittet
+
+<!--remove legacy when removed from the UI-->
+
+* [Kopiera uppdateringen](#copy-the-update)
+* [Kopiera trådlänken](#copy-the-thread-link)
+* [Kopiera uppdateringslänken](#copy-the-update-link)
+* [Offertsvar](#quote-reply)
+
+  >[!TIP]
+  >
+  >När du kopierar och delar länken för en konversation på ett underordnat objekt från ett objekt med högre rankning, öppnar länken kopplingen i det underordnade objektets uppdateringsområde.
+  >
+  >Om du t.ex. kopierar länken till en uppgiftskommentar från projektets uppdateringsområde, öppnar kommentaren uppgiftssidan.
+
+#### Kopiera uppdateringen {#copy-the-update}
+
+Med det här alternativet kopieras texten från en specifik uppdatering till Urklipp.
+
+1. Gå till den uppdatering eller det svar som du vill kopiera.
+1. Klicka på **Mer** menyn och klicka sedan på **Kopiera brödtext**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### Kopiera trådlänken {#copy-the-thread-link}
+
+Med det här alternativet kopieras den fullständiga trådlänken till Urklipp så att du kan dela tråden med andra användare.
+
+1. Gå till uppdateringstråden som du vill kopiera.
+
+1. Klicka på **Mer** menyn och klicka sedan på **Kopiera trådlänk**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+1. Klistra in länken som du kopierade i föregående steg i ett e-postmeddelande eller i ett annat program för att dela den med andra. Den delade länken öppnar kommentaren som du delade länken från.
+
+#### Kopiera uppdateringslänken {#copy-the-update-link}
+
+Med det här alternativet kopieras en specifik uppdateringslänk till Urklipp. När du delar uppdateringslänken ser användaren som följer den en ram runt uppdateringen.
+
+1. Gå till den uppdatering eller det svar som du vill kopiera.
+1. Klicka på **Mer** -menyn intill den enskilda uppdateringen och klicka sedan på **Kopiera uppdateringslänk**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. Klistra in länken som du kopierade i föregående steg i ett e-postmeddelande eller i ett annat program för att dela den med andra. Den delade länken öppnar kommentaren som du delade länken från.
+
+#### Offertsvar
+
+Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar som ett blockcitat.
+
+1. Gå till den uppdatering eller det svar som du vill kopiera.
+1. Klicka på **Mer** menyn och klicka sedan på **Offertsvar**.
+
+   En ny kommentarsruta öppnas och det citerade svaret inkluderas i den nya kommentaren och markeras som ett blockcitat.
+
+1. Fortsätt lägga till uppdateringen och klicka på **Svara** för att lägga till kommentaren.
 
 ## Ta bort en uppdatering eller ett svar
 

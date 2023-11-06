@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,13 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 Som en [!DNL Adobe Workfront] kan du ange inställningar för tidrapporter och timmar på [!DNL Workfront] för att definiera vilka objekt tidrapporterna kan förifyllas med och vilka objekt som användarna kan logga tid på.
+
+>[!NOTE]
+>
+>Objekt som du loggade tid för under tidsramen för tidrapporten visas som standard i tidrapporten, även om de inte uppfyller villkoren som beskrivs i den här artikeln för att fylla i tidrapporten i förväg.
+>
+>Mer information om loggningstid finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 Alla ändringar du gör i tidrapporter påverkar alla tidrapporter som skapas i framtiden.
 
@@ -66,7 +73,8 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
        <ul> 
         <li>Projekt, uppgifter och problem där de har åtkomst till loggtiden</li> 
         <li>Deras tidrapporter som allmän tid</li> 
-       </ul> <p>Detta är användbart när användare tänker vara borta från kontoret och vill logga in den tiden i förväg.</p> <p><b>ANMÄRKNING</b>: Du kan inte hindra användare från att logga in på uppgifter eller problem som har stängts eller avbrutits. Du kan bara hindra användare från att logga in på fullständiga eller döda projekt. Vi rekommenderar att du använder filter i listor med uppgifter och problem för att utesluta de som har slutförts eller avbrutits från att vara synliga för användarna.</p> </td> 
+       </ul> <p>Detta är användbart när användare tänker vara borta från kontoret och vill logga in den tiden i förväg.</p> <p><b>ANMÄRKNING</b>:</p> 
+       <p>Du kan inte hindra användare från att logga in på uppgifter eller problem som har stängts eller avbrutits. Du kan bara hindra användare från att logga in på fullständiga eller döda projekt. Vi rekommenderar att du använder filter i listor med uppgifter och problem för att utesluta de som har slutförts eller avbrutits från att vara synliga för användarna.</p> </td> 
      </tr>
 
    <tr> 
@@ -126,7 +134,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Tasks & Issues that have Planned Dates in timesheet's date range]</td> 
-      <td> <p>När du väljer det här alternativet innehåller tidrapporten uppgifter och utgåvor som har antingen ett planerat startdatum eller ett slutförandedatum som ligger inom datumintervallet för tidrapporten.</p> </td> 
+      <td> <p>När det här alternativet är markerat innehåller tidrapporten uppgifter och utgåvor som har antingen ett planerat startdatum eller ett slutförandedatum som ligger inom datumintervallet för tidrapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> [!UICONTROL Tasks that have Projected Dates in timesheet's date range]</td> 
@@ -146,15 +154,15 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
       <td> 
        <ul> 
         <li><strong>[!UICONTROL Keep logged time already added to timesheets as general time]</strong>: Om projektet återställs vid ett senare tillfälle finns tiden kvar på tidrapporten.</li> 
-        <li><strong>[!UICONTROL Delete any logged time]</strong>: Om projektet återställs senare återställs den tid som redan är loggad till projektet.</li> 
+        <li><strong>[!UICONTROL Delete any logged time]</strong>: Om projektet återställs vid ett senare tillfälle återställs den tid som redan är loggad till projektet.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL When deleting tasks or issues]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Move any logged time to the project where the task or issue resides]</strong>: Om aktiviteten eller problemet återställs senare återstår tiden för projektet.<br></li> 
-        <li> <p><strong>[!UICONTROL Delete any logged time]</strong>: Om aktiviteten eller problemet återställs senare återställs loggad tid till uppgiften eller problemet.</p> <p>Mer information om dessa alternativ finns i <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] på timmar när ett objekt tas bort och återställs</a>.</p> </li> 
+        <li><strong>[!UICONTROL Move any logged time to the project where the task or issue resides]</strong>: Om den här uppgiften eller problemet återställs senare återstår tiden för projektet.<br></li> 
+        <li> <p><strong>[!UICONTROL Delete any logged time]</strong>: Om uppgiften eller problemet återställs senare återställs loggad tid till uppgiften eller problemet.</p> <p>Mer information om dessa alternativ finns i <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] på timmar när ett objekt tas bort och återställs</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -185,8 +193,8 @@ Så här låser du upp en projektinställning så att grupper kan konfigurera de
    * Om du vill att gruppadministratörer ska kunna konfigurera en inställning för sina grupper låser du upp den ![](assets/unlock-toggle-button.png).
    * Om du vill att alla grupper ska använda din konfiguration för en inställning måste du se till att den är låst (detta är standardinställningen).
 
-      >[!IMPORTANT]
-      >
-      >Vi rekommenderar att du kommunicerar med administratörer och användare i grupper i hela systemet för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla grupper i systemet. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer kan ha gjort.
+     >[!IMPORTANT]
+     >
+     >Vi rekommenderar att du kommunicerar med administratörer och användare i grupper i hela systemet för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla grupper i systemet. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer kan ha gjort.
 
 1. Klicka på **[!UICONTROL Save]**.
