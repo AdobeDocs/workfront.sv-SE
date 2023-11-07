@@ -7,7 +7,7 @@ description: Mappning är processen att tilldela en moduls utdata, strukturerade
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 0%
@@ -49,13 +49,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -102,7 +102,7 @@ Mer information finns i [Konfigurera en moduls inställningar i [!DNL Adobe Work
 
 Du kan mappa flera objekt till ett fält, kombinera dem med litteraler (fasta värden) och använda operatorer och funktioner för att skapa komplexa formler:
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 Du hittar funktionerna och operatorerna på mappningspanelen under någon av dess flikar.
 
@@ -133,9 +133,9 @@ Mer information om hur du mappar objekt med funktioner finns i [Mappa objekt med
 
 ## Samlingar
 
-Vissa objekt kan innehålla flera värden av olika typer. Detta är samlingstypsobjekt.
+Vissa objekt kan innehålla flera värden av olika typer. Det här är samlingstypsobjekt.
 
-Du kan identifiera en [!UICONTROL collection] textobjekt av den lilla svarta rektangeln som visas till höger om objektets etikett och dess automatiskt utökade lista över underobjekt:
+Du kan identifiera [!UICONTROL collection] textobjekt av den lilla svarta rektangeln som visas till höger om objektets etikett och dess automatiskt utökade lista över underobjekt:
 
 ![](assets/collection.png)
 
@@ -194,7 +194,7 @@ Här följer en detaljerad beskrivning av formeln:
 
    >[!NOTE]
    >
-   >Alla parametrar är skiftlägeskänsliga. Även om objektets etikett i det här exemplet skiljer sig från dess Raw-namn endast med versaler, är det nödvändigt att använda raw-namnet, som alla är gemener i motsats till etikettvärdet.
+   >Alla parametrar är versalkänsliga. Även om objektets etikett i det här exemplet skiljer sig från dess Raw-namn endast med versaler, är det nödvändigt att använda raw-namnet, som alla är gemener i motsats till etikettvärdet.
 
 1. Den tredje parametern är nyckelobjektets raw-namn:
 
@@ -228,7 +228,7 @@ För varje modul visar mappningspanelen alla utdataobjekt, som anges av modulens
 
 1. Högerklicka på modulen och klicka sedan på **[!UICONTROL Run this module only]** på menyn som visas.
 
-   Om det inte finns några webbhooks i kö väntar modulen på att en ny webkrok ska bearbetas.
+   Om det inte finns några webhooks i kö väntar modulen på att en ny webkrok ska bearbetas.
 
 1. Skapa en webkrok.
 
