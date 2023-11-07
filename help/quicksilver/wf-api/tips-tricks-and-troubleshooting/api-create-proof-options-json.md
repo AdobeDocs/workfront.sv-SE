@@ -5,8 +5,9 @@ title: Lägg in avancerade korrekturfunktioner med Adobe Workfront API
 description: Lägg in avancerade korrekturfunktioner med Adobe Workfront API
 author: Becky
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -30,20 +31,20 @@ I det här avsnittet beskrivs hur du skapar ett korrektur med avancerade alterna
 
 API:t ProofHQ innehåller en rad åtgärder som inte är tillgängliga för korrektur i Workfront API. Genom att använda dessa åtgärder kan du ändra eller konfigurera korrekturet med större precision än vad som finns i Workfront API.
 
-En översikt över ProofHQ API finns i [PoofHQ - översikt](../../proofhq-api/general/overview.md). Du kan även referera till [KorrekturHQ-dokumentation](https://api.proofhq.com/home.html).
+En översikt över ProofHQ API finns i [PoofHQ - översikt](../../proofhq-api/general/overview.md). Du kan även använda [KorrekturHQ-dokumentation](https://api.proofhq.com/home.html).
 
 >[!NOTE]
 >
->* Workfront API är ett REST-fyllt API. API:t ProofHQ är ett SOAP-API.
+>* Workfront API är ett REST-fyllt API. API:t ProofHQ är ett SOAP API.
 >* Korrektur som har skapats i API:t ProofHQ länkas inte automatiskt till Workfront. Därför rekommenderar vi att du skapar korrektur i Workfront API innan du uppdaterar dem med API:t ProofHQ.
 >
-
 
 ### Skapa ett korrektur med avancerade korrekturfunktioner
 
 1. Skapa ett korrektur med `Document createProof` i Workfront API.
 
    >[!NOTE]
+   >
    När du skapar korrekturet anger du `{}` som värdet för `advancedProofingOptions` parameter.
 
 1. När korrekturet har skapats använder du API:t för Korrektur för att lägga till avancerade alternativ.
@@ -151,7 +152,9 @@ I det här avsnittet beskrivs hur du skapar ett korrektur med avancerade korrekt
 Du kan skapa korrektur via Workfront API med `Document createProof` åtgärd. Den här åtgärden accepterar `advancedProofingOptions` parameter, som har värdetypen `string`. Ta med avancerade korrekturalternativ i `createProof` måste du ange alternativen i `advancedProofingOptions` i JSON-format.
 
 >[!NOTE]
+>
 Det kan vara svårt att förutsäga vilka fält som ska inkluderas i din avancerade korrekturinställningsalternativ för JSON. Du kanske vill granska organisationens nätverksdata samtidigt som du använder avancerad korrektur i Workfront och basera din JSON på de fält och värden som din organisation vanligtvis använder.
+>
 Eftersom dessa fält kan vara svåra att förutse rekommenderar vi att du skapar ett korrektur med Workfront API och sedan uppdaterar det med API:t för Korrektur på HQ. Mer information finns i [Skapa ett korrektur med API:erna Workfront och ProofHQ (rekommenderas)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) i den här artikeln
 
 ### Exempel

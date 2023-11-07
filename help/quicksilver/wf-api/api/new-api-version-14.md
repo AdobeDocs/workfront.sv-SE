@@ -5,8 +5,9 @@ title: Nyheter i API-version 14
 description: Adobe Workfront släppte API-version 14 den 9 september 2021. API-version 14 innehåller följande ändringar från version 14.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
@@ -245,7 +246,7 @@ Projekt är arbetsuppgifter inom Workfront och är en viktig byggsten i det sät
 
 Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publicerats i Help Desk-området där användarna kan skicka utgåvor till den.
 
-Mer information om köer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 

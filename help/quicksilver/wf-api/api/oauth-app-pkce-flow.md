@@ -5,8 +5,9 @@ title: Använda PKCE-flöde för OAuth 2-program
 description: Använda PKCE-flöde för OAuth 2-program
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Ett PKCE-flöde har följande steg. Stegen i det här avsnittet visas endast i i
 
 1. OAuth2 dirigerar tillbaka till ditt program med en `authorization code`.
 
-1. Programmet skickar koden tillsammans med `code_verifier`, till OAuth2.
+1. Programmet skickar den här koden tillsammans med `code_verifier`, till OAuth2.
 
 1. OAuth2 Authorization Server transformerar `code_verifier` med `code_challenge_method` från den ursprungliga auktoriseringsbegäran och kontrollerar resultatet mot `code_challenge`. Om värdet för båda strängarna matchar har servern verifierat att förfrågningarna kommer från samma klient och kommer att skicka ett `access token`.
 
@@ -62,7 +63,7 @@ Det första steget är att generera en kodverifierare och en utmaning.
       <tr>
         <td role="rowheader">Kodverifieraren</td>
         <td>
-          <p>Slumpmässig URL-säker sträng med en minsta längd på 43 tecken</p>
+          <p>Slumpmässig URL-säker sträng med minst 43 tecken</p>
         </td>
       </tr>
       <tr>

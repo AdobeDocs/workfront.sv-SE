@@ -5,8 +5,9 @@ title: Leveranskrav för evenemangsprenumeration
 description: Leveranskrav för evenemangsprenumeration
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Slutpunkter för tjänsten som använder Adobe Workfront händelseteckningsmedde
 
 * För att leveranssystemet för händelseprenumerationer ska kunna bekräfta att meddelandet togs emot måste slutpunkten returnera en HTTP-status på 200 nivåer (till exempel 200 OK eller 202) för alla inkommande meddelanden.
 
-* Om en status på 200 nivåer inte returneras antar systemet för händelseprenumerationer att meddelandet inte kunde levereras och börjar tillämpa rätt princip för återförsök. Mer information om Workfront policy för återförsök finns i [Återkommande prenumerationer](../../wf-api/api/event-sub-retries.md).
+* Om en status på 200 nivåer inte returneras antar systemet för händelseprenumerationer att meddelandet inte kunde levereras och börjar tillämpa rätt princip för återförsök. Mer information om Workfront policy för återförsök finns i [Återkommande prenumerationer på evenemang](../../wf-api/api/event-sub-retries.md).
 
 * I samband med att en 200-nivåstatus returneras som svarsstatus måste HTTP-svaret tas emot inom fem sekunder efter att leveransförsöket har startats. Detta villkor säkerställer att konsumentaffärsprocesser eller infrastrukturbegränsningar inte försenar leveransen av andra meddelanden som väntar på leverans.
 

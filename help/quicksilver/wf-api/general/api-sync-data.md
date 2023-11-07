@@ -6,8 +6,9 @@ title: Synkronisera data för program och tjänster med API:t
 description: Synkronisera data för program och tjänster med API:t
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -33,7 +34,7 @@ När du konfigurerar tjänsten för batchuppdateringar här är några viktiga s
 
 Anmälningsdatum lagras med ISO 8601-formatering. Den här standarden innehåller datum-, tids- och tidszonsinformation.
 
-**Exempel:** ISO 8601 datumformat
+**Exempel:** ISO 8601-datumformat
 
 <!-- [Copy](javascript:void(0);) -->
  
@@ -53,7 +54,7 @@ https://<domain>.my.workfront.com/attask/api/v15.0/OPTASK/search?fields=ID,name,
 
 ### Journalpostobjekt
 
-Om du är intresserad av att få ändringar som rör ett specifikt fält i ett objekt kan du fråga objektet Journalpost. Objektet Workfront Journal Entry kan ställas in för att logga information om specifika objektfält när dessa fält ändras, se [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) om du vill ha mer information.
+Om du är intresserad av att få ändringar som rör ett specifikt fält i ett objekt kan du skicka en fråga till objektet Journalpost. Objektet Workfront Journal Entry kan ställas in för att logga information om specifika objektfält när dessa fält ändras, se [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) om du vill ha mer information.
 
 När ett fält har konfigurerats för att loggas som en del av journaltransaktionsobjektet skapas en motsvarande journalpost varje gång fältet ändras. Sedan kan du fråga efter objektet Journal Entry med hjälp av ett API-anrop som ser ut ungefär så här:
 

@@ -5,8 +5,9 @@ title: Använda JWT-flöde för anpassade OAuth 2-program
 description: Använda JWT-flöde för anpassade OAuth 2-program
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -37,8 +38,8 @@ Om du vill generera den offentliga nyckeln gör du **en** av följande:
 
 * Öppna MacOS/Linux-terminalen och kör följande kommando och överför sedan `certificate_pub.crt` med **Lägg till offentlig nyckel** i OAuth2-programmets konfiguration i Workfront.
 
-   <!-- [Copy](javascript:void(0);) -->
-   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
+  <!-- [Copy](javascript:void(0);) -->
+  <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
 * Använd **Generera ett offentligt/privat nyckelpar** i OAuth2-programmets konfiguration i Workfront för att generera RSA.
 
@@ -54,7 +55,7 @@ Följande tabell innehåller information om fält som kan behövas när du konfi
  <tbody> 
   <tr> 
    <td role="rowheader">exp</td> 
-   <td> <p>Obligatoriskt. Parametern expiration är en obligatorisk parameter som mäter den absoluta tiden sedan 1970-01-01. Du måste se till att förfallotiden är senare än tidpunkten för utfärdandet. Efter denna tid är JWT inte längre giltigt. </p> <p>Obs! Vi rekommenderar att du har en mycket kort token (några minuter) så att den upphör att gälla så snart den har bytts ut mot en åtkomsttoken. Varje gång en ny åtkomsttoken krävs signeras en JWT och byts ut. Detta är ett säkrare tillvägagångssätt. Vi rekommenderar inte längre aktiva token som återanvänds för att få åtkomsttoken efter behov.</p> </td> 
+   <td> <p>Obligatoriskt. Parametern expiration är en obligatorisk parameter som mäter den absoluta tiden sedan 1970-01-01. Du måste se till att förfallotiden är senare än tidpunkten för utfärdandet. Efter denna tid är JWT inte längre giltigt. </p> <p>Obs! Vi rekommenderar att du har en mycket kort token (några minuter), så att den upphör att gälla så snart den har bytts ut mot en åtkomsttoken. Varje gång en ny åtkomsttoken krävs signeras en JWT och byts ut. Detta är ett säkrare tillvägagångssätt. Vi rekommenderar inte längre aktiva token som återanvänds för att få åtkomsttoken efter behov.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">is</td> 

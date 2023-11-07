@@ -5,8 +5,9 @@ title: Utgående meddelandeformat för händelseprenumerationer
 description: Utgående meddelandeformat för händelseprenumerationer
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -23,11 +24,11 @@ Följande ändringar kommer att göras i det utgående meddelandeformatet:
 
 * Utgående meddelanden kommer att innehålla oldState och newState för en Workfront-resurs.
 
-   Dessa värden visar de ändringar som har gjorts i ett objekt som ett resultat av en händelse i Workfront.
+  Dessa värden visar de ändringar som har gjorts i ett objekt som ett resultat av en händelse i Workfront.
 
 * Metadatafältet eventTime läggs till i alla utgående meddelanden.
 
-   I det här fältet anges, i nanosekunder och EpochSeconds, den tidpunkt då en händelse inträffade. Använd eventTime när du beställer händelser som bearbetas av integreringen.
+  I det här fältet anges, i nanosekunder och EpochSeconds, den tidpunkt då en händelse inträffade. Använd eventTime när du beställer händelser som bearbetas av integreringen.
 
 * Fältet owner:companyID som refereras på NOTE-resursen tas bort.
 * Refererat objectOn-objektet för aktuell version på DOCU-resursen (dokumentet) tas bort.

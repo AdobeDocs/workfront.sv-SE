@@ -5,8 +5,9 @@ title: Borttagning av API-intern
 description: Borttagning av API-intern
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Borttagning av API-intern
 
-API-Internal är en version av Adobe Workfront API som inte stöds på grund av dess design och syfte. Även om den innehåller de senaste uppdateringarna av Workfront API kan den ändras utan föregående meddelande och bör därför användas med försiktighet i produktionsintegreringar. Workfront rekommenderar starkt att alla API-interna integreringar uppdateras till ett versionshanterat API.
+API-Internal är en version av Adobe Workfront API som inte stöds på grund av dess design och syfte. Även om den innehåller de senaste uppdateringarna av Workfront API kan den ändras utan föregående meddelande och bör därför användas med försiktighet i produktionsintegreringar. Workfront rekommenderar att du uppdaterar alla API-interna integreringar till ett versionshanterat API.
 
 Mer information om vilka versioner av Workfront-API som stöds finns i [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
 

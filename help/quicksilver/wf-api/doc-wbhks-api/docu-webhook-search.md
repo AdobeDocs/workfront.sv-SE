@@ -2,19 +2,20 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Sök via dokumentwebbhotell
-description: Sök via dokumentwebbhotell
+title: Sök via webbhotell för dokument
+description: Sök via webbhotell för dokument
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
 
-# Sök via dokumentwebbhotell
+# Sök via webbhotell för dokument
 
 Returnerar metadata för de filer och mappar som returneras från en sökning. Detta kan implementeras som en fulltextsökning eller som en vanlig databasfråga. Adobe Workfront anropar slutpunkten /search när användaren utför en sökning från den externa filläsaren.
 
@@ -48,7 +49,7 @@ GET/sökning
   </tr> 
   <tr> 
    <td>offset</td> 
-   <td> Sidförskjutningen som används tillsammans med"max".</td> 
+   <td> Sidförskjutningen som används tillsammans med max.</td> 
   </tr> 
  </tbody> 
 </table>

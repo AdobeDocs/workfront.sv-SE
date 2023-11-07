@@ -6,8 +6,9 @@ title: Filtrera händelsens prenumerationsmeddelanden
 description: Filtrera händelsens prenumerationsmeddelanden
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%
@@ -108,7 +109,7 @@ I följande exempel i Java visas hur du filtrerar projektnyttolaster baserat på
 
    AWS SDK används för att anropa en annan Lambda som ansvarar för att leverera det filtrerade meddelandet till önskad slutpunkt.
 
-   Syftet med att överlåta ansvaret för att skicka meddelandet till en annan Lambda är att undvika en timeout i leveransbegäran från tjänsten Event Subscription. Den tillåtna tidsgränsen för leverans är för närvarande fem sekunder. Om filtret tar längre tid än vad inställningen tillåter kan du bearbeta begäran, men tjänsten Event Subscription (Händelseabonnemang) kommer att gå ut och hamna i en repetitionsloop tills den får ett svar på 200 nivåer inom tidsgränsen.
+   Syftet med att överlåta ansvaret för att skicka meddelandet till en annan Lambda är att undvika en timeout i leveransbegäran från tjänsten Event Subscription. För närvarande är den tillåtna tidsgränsen för leverans inställd på fem sekunder. Om filtret tar längre tid än vad inställningen tillåter kan du bearbeta begäran, men tjänsten Event Subscription (Händelseabonnemang) kommer att gå ut och hamna i en repetitionsloop tills den får ett svar på 200 nivåer inom tidsgränsen.
 
    Mer information om hur du hanterar meddelandeleverans finns i [Förbättra meddelandeleveransen samtidigt som tidsgränser överskrids](#improving-message-delivery-while-accommodating-timeouts).
 
@@ -273,7 +274,7 @@ Du kan avvärja ett nytt försök genom att separera de tidskrävande delarna av
 
 Även om bearbetningen eller filtreringen inte överskrider tidsgränsen på fem sekunder är det ändå bra att separera den första beröringspunkten för meddelandefiltrering eller -bearbetning från andra behandlings- eller leveranssteg på klientsidan. På så sätt har överlämnandet av meddelandet till destinationen från tjänsten Event Subscription minimalt med tid och prestanda för båda parter.
 
-Mer information om återförsöksmekanismen finns i [Återkommande prenumerationer](../../wf-api/api/event-sub-retries.md).
+Mer information om återförsöksmekanismen finns i [Återkommande prenumerationer på evenemang](../../wf-api/api/event-sub-retries.md).
 
 ## Implementera värdbaserade filter i den molnlösa arkitekturen
 
@@ -295,7 +296,7 @@ Innan du använder filterexemplen i en molnfri miljö gör du följande:
 
 I en molnfri arkitektur kan det ibland vara svårt att nå de tjänster som ansvarar för att ta emot prenumerationsmeddelanden. I sådana fall kan meddelanden överskrida gränsen för antal nya försök och gå förlorade, utan att det går att hämta informationen i meddelandena.
 
-Vi rekommenderar att du, när du startar tjänsten, implementerar en fråga där du tillfrågas om det senaste tillståndet för alla resurser som kan ha inkluderats i de missade meddelandena. Som visas i följande exempel kan du använda filtervillkoren för att fråga efter resurser som matchar villkoret och sedan bearbeta deras aktuella tillstånd.
+Vi rekommenderar att du, när du startar tjänsten, implementerar en fråga där du tillfrågas om det senaste tillståndet för alla resurser som kan ha inkluderats i de missade meddelandena. Så som visas i följande exempel kan du använda filtervillkoren för att fråga efter resurser som matchar villkoret och sedan bearbeta deras aktuella tillstånd.
 
 ```
 public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuery(LambdaLogger logger) {

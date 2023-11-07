@@ -5,8 +5,9 @@ title: Nyheter i API-version 12
 description: Workfront släppte API version 12 den 12 november 2020. API-version 12 innehåller följande ändringar från version 11
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 0%
@@ -346,17 +347,17 @@ En viss arbetsuppgift, till exempel en uppgift, ett dokument eller en tidrapport
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>Följande flaggor har tagits bort:</p> 
       <ul> 
-       <li> <p>DYNAMISK,</p> </li> 
+       <li> <p>DYNAMISKA,</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
      <li> <p><strong>groupID</strong> </p> <p>Följande flaggor har lagts till</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
-       <li> <p>DYNAMISK,</p> </li> 
+       <li> <p>DYNAMISKA,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och visar om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och anger om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
       <ul> 
        <li> <p>1 (liten)</p> </li> 
        <li> <p>2 (medel)</p> </li> 
@@ -594,7 +595,7 @@ Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsu
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>Ordningen anger en uppgifts eller artikels position på Agile-eftersläpningen.</p> <p>Det här fältet tog bort följande flaggor:
        <ul>
-        <li>DYNAMISK,</li>
+        <li>DYNAMISKA,</li>
         <li>LAZY_READ,</li>
         <li>NOT_GROUPABLE:</li>
        </ul></p> </li> 
@@ -684,7 +685,7 @@ Mer information om portföljer finns i [Översikt över Portfolio i Adobe Workfr
 
 ### Program {#program}
 
-Ett programobjekt är en delmängd av projekt i en portfölj, där liknande projekt kan grupperas tillsammans.
+Ett Program-objekt är en delmängd av projekt i en portfölj, där liknande projekt kan grupperas tillsammans.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -711,7 +712,7 @@ Ett programobjekt är en delmängd av projekt i en portfölj, där liknande proj
 
 Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publicerats till Help Desk-området där användarna kan skicka problem till den.
 
-Mer information om köer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -792,7 +793,7 @@ Ett Task-objekt representerar en arbetsuppgift som måste utföras som ett steg 
    <td role="rowheader">Direktfält</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och visar om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och anger om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
       <ul> 
        <li> <p>1 (liten)</p> </li> 
        <li> <p>2 (medel)</p> </li> 
@@ -861,7 +862,7 @@ Mer information om malluppgifter finns i [Redigera en malluppgift](../../manage-
    <td role="rowheader">Direktfält</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och visar om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och anger om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
       <ul> 
        <li> <p>1 (liten)</p> </li> 
        <li> <p>2 (medel)</p> </li> 
@@ -961,17 +962,17 @@ Ett Work-objekt är ett vanligt gränssnitt som både Task och OpTask ärver och
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>Ordningen anger en uppgifts eller artikels position på Agile-eftersläpningen.</p> <p>Det här fältet tog bort följande flaggor:</p> 
       <ul> 
-       <li> <p>DYNAMISK,</p> </li> 
+       <li> <p>DYNAMISKA,</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
-     <li> <p><strong>groupID</strong> </p> <p>I det här fältet lades följande flaggor till:</p> 
+     <li> <p><strong>groupID</strong> </p> <p>I det här fältet har följande flaggor lagts till:</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
-       <li> <p>DYNAMISK,</p> </li> 
+       <li> <p>DYNAMISKA,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och visar om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och anger om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
       <ul> 
        <li> <p>1 (liten)</p> </li> 
        <li> <p>2 (medel)</p> </li> 

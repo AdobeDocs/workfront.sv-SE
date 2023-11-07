@@ -6,10 +6,11 @@ title: Document Webhooks API
 description: Document Webhooks API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3646'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Document Webhooks API
 
-Adobe Workfront Document Webhooks definierar en uppsättning API-slutpunkter genom vilka Workfront gör auktoriserade API-anrop till en extern dokumentleverantör. På så sätt kan vem som helst skapa ett plugin-program för mellanvara för vilken dokumentlagringsleverantör som helst.
+Adobe Workfront Document Webhooks definierar en uppsättning API-slutpunkter genom vilka Workfront gör auktoriserade API-anrop till en extern dokumentleverantör. På så sätt kan vem som helst skapa ett plugin-program för mellanvara för alla dokumentlagringsleverantörer.
 
 Användarupplevelsen för webkrosbaserade integreringar liknar den för befintliga dokumentintegreringar, som Google Drive, Box och Dropbox. En Workfront-användare kan till exempel utföra följande åtgärder:
 
@@ -27,13 +28,13 @@ Användarupplevelsen för webkrosbaserade integreringar liknar den för befintli
 * Överför filer till den externa dokumentleverantören
 * Visa en miniatyrbild för dokumentet
 
-## Referensimplementering
+## Referenskörning
 
 Workfront tillhandahåller en referensimplementering som hjälper dig att snabbt komma igång med utvecklingen av en ny webbhooksimplementering. Kod för detta finns på [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Implementeringen är Java-baserad och gör att Workfront kan ansluta dokument i ett nätverksfilsystem.
 
 ## Registrera en Webkroks-integrering
 
-Workfront-administratörer kan lägga till en anpassad webbkrokintegrering för sitt företag genom att gå till Inställningar > Dokument > Anpassade integreringar i Workfront. På sidan Anpassad integrering i installationsprogrammet kan administratörer visa en lista över befintliga webkrok-integreringar för dokument. Från den här sidan kan integreringar läggas till, redigeras, aktiveras och inaktiveras. Om du vill lägga till en integrering klickar du på knappen Lägg till integrering.
+Workfront-administratörer kan lägga till en anpassad webbkrokintegrering för sitt företag genom att gå till Inställningar > Dokument > Anpassade integreringar i Workfront. På sidan Anpassad integrering i installationsprogrammet kan administratörer visa en lista över befintliga webkrok-integreringar för dokument. Från den här sidan kan integreringar läggas till, redigeras, aktiveras och inaktiveras. Om du vill lägga till en integrering klickar du på knappen &quot;Lägg till integrering&quot;.
 
 ### Tillgängliga fält
 
@@ -55,7 +56,7 @@ När du lägger till en integrering anger administratören värden för följand
   </tr> 
   <tr> 
    <td>Bas-API-URL</td> 
-   <td> <p>Plats för återanrops-API. När du anropar det externa systemet lägger Workfront bara till slutpunktsnamnet till den här adressen. Om administratören till exempel angav Bas-API-URL:en, " https://www.mycompany.com/api/v1", använder Workfront följande URL för att hämta dokumentets metadata: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
+   <td> <p>Plats för återanrops-API:t. När du anropar det externa systemet lägger Workfront bara till slutpunktsnamnet till den här adressen. Om administratören t.ex. angav Bas-API-URL:en, https://www.mycompany.com/api/v1, använder Workfront följande URL för att hämta ett dokuments metadata: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
   </tr> 
   <tr> 
    <td>Begär parametrar</td> 
@@ -75,7 +76,7 @@ När du lägger till en integrering anger administratören värden för följand
   </tr> 
   <tr> 
    <td>Klient-ID</td> 
-   <td>(Endast OAuth2) Klient-ID:t för OAuth2 för den här integreringen</td> 
+   <td>(Endast OAuth2) Klient-ID för OAuth2 för den här integreringen</td> 
   </tr> 
   <tr> 
    <td>Klienthemlighet</td> 
@@ -83,7 +84,7 @@ När du lägger till en integrering anger administratören värden för följand
   </tr> 
   <tr> 
    <td>Workfront Omdirigerings-URI</td> 
-   <td>  <p>(Endast OAuth2) Detta är ett skrivskyddat fält som genereras av Workfront. Det här värdet används för att registrera integreringen med den externa dokumentprovidern. Obs! Som beskrivs ovan för Autentiserings-URL måste providern lägga till parametern "state" och dess värde i frågesträngen när omdirigeringen utförs.</p></td> 
+   <td>  <p>(Endast OAuth2) Detta är ett skrivskyddat fält som genereras av Workfront. Det här värdet används för att registrera integreringen med den externa dokumentprovidern. Obs! Som beskrivs ovan för autentiserings-URL måste providern lägga till parametern "state" och dess värde i frågesträngen när den utför omdirigeringen.</p></td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 
@@ -107,7 +108,7 @@ behörighet att agera å deras vägnar. Den här handskakningsprocessen utförs 
 1. Användaren börjar ansluta webbkrokintegreringen till sitt konto. För närvarande gör du detta genom att klicka på listrutan Lägg till dokument > Lägg till tjänst > Anpassat integrationsnamn.
 1. Workfront navigerar till användaren via autentiserings-URL:en, som kan uppmana användaren att logga in på den externa dokumentleverantören. Den här sidan hanteras av webbkrokprovidern eller det externa dokumenthanteringssystemet. När du gör det lägger Workfront till en state-parameter i autentiserings-URL:en. Detta värde måste skickas tillbaka till Workfront genom att samma värde läggs till i Workfront Retur-URI i steget nedan.
 1. När användaren har loggat in på det externa systemet (eller om användaren redan är inloggad) visas sidan Autentisering, som förklarar att Workfront begär åtkomst för att utföra en uppsättning åtgärder för användarens räkning.
-1. Om användaren klickar på Tillåt omdirigeras webbläsaren till Workfront omdirigerings-URI och &quot;code=`<code>`till frågesträngen. Enligt specifikationen OAuth2 är denna token kortlivad. Frågesträngen måste också ha följande, &quot;state=`<sent_by_workfront>`&quot;.
+1. Om användaren klickar på Tillåt omdirigeras webbläsaren till Workfront omdirigerings-URI och &quot;code=`<code>`&quot; till frågesträngen. Enligt specifikationen OAuth2 är denna token kortlivad. Frågesträngen måste också ha följande, &quot;state=`<sent_by_workfront>`&quot;.
 1. Workfront behandlar denna begäran och gör ett API-anrop till Token Endpoint URL med auktoriseringskoden.
 1. Token Endpoint URL returnerar en uppdateringstoken och åtkomsttoken.
 1. Workfront lagrar en sådan token och tillhandahåller webbkrokintegreringen för den här användaren.
@@ -188,7 +189,7 @@ URL:en är konfigurerbar och motsvarar värdet för Token Endpoint URL på sidan
   <tr> 
    <td>grant_type</td> 
    <td>ja</td> 
-   <td> <p>Du kan ange värdena "permission_code" eller "refresh_token". Det angivna värdet anger vilken av de två parametrarna som skickas till det här API-anropet: eller refresh_token.</p> </td> 
+   <td> <p>Du kan ange värdena "authentication_code" eller "refresh_token". Det angivna värdet anger vilken av de två parametrarna som skickas till det här API-anropet: code eller refresh_token.</p> </td> 
   </tr> 
   <tr> 
    <td>kod</td> 
@@ -292,7 +293,7 @@ GET /metadata?id=[dokument- eller mapp-ID]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>  <p>Fil- eller mappens ID, som webbkrokprovidern refererar till. Detta skiljer sig från Workfront dokument-ID. Använd värdet '/' för att hämta metadata för rotkatalogen.</p><p>Obs! ID:t får innehålla högst 255 tecken.</p></td> 
+   <td>  <p>Fil- eller mappens ID, som webbkrokprovidern refererar till. Detta skiljer sig från Workfront dokument-ID. Använd värdet '/' för att hämta metadata för rotkatalogen.</p><p>Obs! Den maximala längden för ID:t är 255 tecken.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -396,9 +397,9 @@ GET/filer
 |---|---|
 | parentId  | Mappens ID. Använd värdet &#39;/&#39; för att hämta metadata för rotkatalogen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Dokumentets webhooks-API stöder för närvarande inte sidindelning.
+Dokumentets webhooks-API har för närvarande inte stöd för sidnumrering.
 
 **Svar**
 
@@ -464,7 +465,7 @@ GET/sökning
   </tbody> 
 </table>
 
-Dokumentets webhooks-API stöder för närvarande inte sidindelning.
+Dokumentets webhooks-API har för närvarande inte stöd för sidnumrering.
 
  
 
@@ -533,13 +534,13 @@ GET/miniatyrbild
 | id  | Dokument-ID. |
 | size  |  Miniatyrbildens bredd |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 **Svar**
 
-Byte för miniatyrbilden i Raw-format.
+Byte till miniatyrbilden för Raw.
 
 **Exempel:** `https://www.acme.com/api/thumbnail?id=123456`
 
@@ -547,7 +548,7 @@ Byte för miniatyrbilden i Raw-format.
 
 Att överföra en fil till en dokumentlagringsleverantör är en tvåstegsprocess som kräver två separata API-slutpunkter. Workfront påbörjar överföringen genom att anropa /uploadInit. Den här slutpunkten returnerar ett dokument-ID som sedan skickas till /upload när dokumentbyte överförs. Beroende på det underliggande dokumentlagringssystemet kan det vara nödvändigt att skapa ett dokument med längden noll och sedan uppdatera innehållet i dokumentet senare.
 
-Dokument-ID och dokumentversions-ID kan läggas till i version 1.1 av den här specifikationen och användas för att hämta extra information från Workfront. Om dokumenthanteringssystemet till exempel vill ha extra information om dokumentet, kan webhochimplementeringskoden använda dokument-ID:t för att hämta informationen med Workfront RESTful API. Som en god vana kan den här informationen komma från anpassade datafält i dokumentet och innehålla uppgifter, problem eller projekt.
+Dokument-ID och dokumentversions-ID kan läggas till i version 1.1 av den här specifikationen för att hämta extra information från Workfront. Om dokumenthanteringssystemet till exempel vill ha extra information om dokumentet, kan webhochimplementeringskoden använda dokument-ID:t för att hämta informationen med Workfront RESTful API. Som en god vana kan den här informationen komma från anpassade datafält i dokumentet och innehålla uppgifter, problem eller projekt.
 
 **URL**
 
@@ -633,7 +634,7 @@ eller
 }
 ```
 
-**Exempel:** `https://www.acme.com/api/upload?id=1234` *[dokumentbyte som ingår i uppdateringsströmmen]*
+**Exempel:** `https://www.acme.com/api/upload?id=1234` *[dokumentbyte som ingår i uppdateringsflödet]*
 
 **Svar**
 
@@ -679,7 +680,7 @@ JSON som innehåller information om den här tjänsten
   <tr> 
    <td>version </td> 
    <td>Sträng </td> 
-   <td>Det interna versionsnumret för den här tjänsten. Detta nummer bestäms av webbkroktjänstleverantören och används endast i informationssyfte.<br><br></td> 
+   <td>Tjänstens interna versionsnummer. Detta nummer bestäms av webbkroktjänstleverantören och används endast i informationssyfte.<br><br></td> 
   </tr> 
   <tr> 
    <td>utgivare </td> 
@@ -728,7 +729,7 @@ POST /createFolder
 | parentId  | Mappens ID som mappen ska skapas i |
 | name  | Namnet på den nya mappen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -761,7 +762,7 @@ returnerar
  }
 ```
 
-### Ta bort ett dokument eller en mapp
+### Ta bort dokument eller mappar
 
 (Releasedatum - TBD) Tar bort ett dokument eller en mapp med det angivna ID:t i det externa systemet. Om du tar bort en mapp tas även dess innehåll bort.
 
@@ -776,7 +777,7 @@ PUT /delete
 | documentId  | Dokument-ID som ska tas bort |
 | folderId  |  Mappens ID som ska tas bort |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Besvara en JSON-sträng som anger om åtgärden lyckades eller misslyckades, enligt avsnittet Felhantering nedan.
 
@@ -814,7 +815,7 @@ PUT /rename
 | id | Dokument- eller mapp-ID att byta namn på |
 | name  | Det nya namnet på dokumentet eller mappen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -890,7 +891,7 @@ GET /customAction
 
 **Svar**
 
-En JSON-sträng som anger om åtgärden lyckades eller misslyckades, vilket anges i felhanteringsavsnittet nedan. Vid fel (d.v.s. status = &quot;error&quot;) visas det angivna felmeddelandet för användaren i Workfront.
+En JSON-sträng som anger om åtgärden lyckades eller misslyckades, vilket anges i felhanteringsavsnittet nedan. Vid fel (d.v.s. status = &quot;error&quot;) visas det angivna felmeddelandet för användaren.
 
 **Exempel:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
@@ -911,7 +912,7 @@ Det kan uppstå problem när API-begäranden behandlas. Detta bör hanteras på 
 
    * 403 - Ej tillåtet. Anger att tokens för begäran saknas eller är ogiltiga, eller att autentiseringsuppgifterna som är associerade med tokens inte har åtkomst till den angivna resursen. För OAuth-baserade webbhotell försöker Workfront hämta nya åtkomsttokens.
    * 404 - Hittades inte. Anger att den angivna filen eller mappen inte finns.
-   * 500 - Internt serverfel. Andra typer av fel.
+   * 500 - Internt serverfel. Alla andra typer av fel.
 
 * Beskriv felet i svarstexten i följande format:
 
@@ -938,16 +939,16 @@ För att köra dessa tester behöver du följande:
 
 Dessa tester förutsätter också att du redan har registrerat din Document Webkroch-instans i Workfront under Konfigurera > Dokument > Anpassade integreringar.
 
-### Test 1: Tillhandahålla webbkroktjänsten för dokument för en användare
+### Test 1: Tillhandahåll Document Webkroch-tjänsten för en användare
 
 Testar autentiserings-URL:en och tokens slutpunkts-URL:en för OAuth-baserade webkrockproviders.
 
 1. I Workfront går du till huvuddokumentsidan genom att klicka på länken Dokument i det övre navigeringsfältet.
 1. Klicka på listrutan Lägg till dokument och välj webbkroktjänsten för dokument under Lägg till tjänst.
-1. (Endast OAuth-tjänster) När du har slutfört föregående steg läses tjänstens OAuth2-autentiseringssida in i ett popup-fönster. (Obs! kan du uppmanas att logga in på tjänsten först.) Från autentiseringssidan ger du Workfront åtkomst till användarens konto genom att klicka på knappen Lita på eller Tillåt.
+1. (Endast OAuth-tjänster) När du har slutfört föregående steg läses tjänstens OAuth2-autentiseringssida in i ett popup-fönster. (Obs! Du kan uppmanas att logga in på tjänsten först.) Från autentiseringssidan ger du Workfront åtkomst till användarens konto genom att klicka på knappen Lita på eller Tillåt.
 1. Kontrollera att tjänsten har lagts till i listrutan Lägg till dokument. Om du inte ser den från början kan du försöka med att uppdatera webbläsaren.
 
-### Test 2: Länka ett dokument till Workfront Testar följande slutpunkter: /filer, /metadata
+### Test 2: Länka ett dokument till Workfront Testar följande slutpunkter: /files, /metadata
 
 1. I Workfront går du till huvuddokumentsidan genom att klicka på länken Dokument i det övre navigeringsfältet.
 1. Välj webbkroktjänsten för dokument under Lägg till dokument.
@@ -957,7 +958,7 @@ Testar autentiserings-URL:en och tokens slutpunkts-URL:en för OAuth-baserade we
 
 ### Test 3: Navigera till ett dokument i innehållshanteringssystemet
 
-Testar följande slutpunkter: /metadata (specifikt viewLink)
+Testar följande slutpunkter: /metadata (särskilt viewLink)
 
 1. Länka ett dokument till Workfront
 1. Markera dokumentet och klicka på länken Öppna.
@@ -965,7 +966,7 @@ Testar följande slutpunkter: /metadata (specifikt viewLink)
 
 ### Test 4: Navigera till ett dokument i innehållshanteringssystemet (med inloggning)
 
-Testar följande slutpunkter: /metadata (specifikt viewLink)
+Testar följande slutpunkter: /metadata (särskilt viewLink)
 
 1. Se till att du är utloggad från innehållshanteringssystemet.
 1. Länka ett dokument till Workfront.
@@ -990,7 +991,7 @@ Testar följande slutpunkter: /search
 1. Utför en sökning från modal.
 1. Kontrollera att sökresultaten är korrekta.
 
-### Test 7: Skicka dokument från Workfront till innehållshanteringssystemet
+### Test 7: Skicka dokument från Workfront till content management-systemet
 
 Testar följande slutpunkter: /files, /uploadInit, /upload
 
@@ -1018,9 +1019,9 @@ Testar följande slutpunkter: /download
 1. Skicka dokumentet till Workfront genom att välja Dokumentåtgärder > Skicka till.. > Workfront. Då skapas en ny dokumentversion i Workfront.
 1. Hämta dokumentet från Workfront genom att klicka på länken Hämta.
 
-### Test 10: Uppdatera åtkomsttoken (endast OAuth2 Webkrok-providers)
+### Test 10: Uppdatera åtkomsttoken (endast OAuth2 Webkrok providers)
 
-Testar följande slutpunkter: URL för tokenslutpunkt
+Testar följande slutpunkter: Token Endpoint URL
 
 1. Tillhandahålla en webbkroktjänst för dokument för en användare
 1. Invalidera användarens åtkomsttoken genom att antingen 1 ) vänta på timeout eller 2) ogiltigförklara den manuellt i det externa systemet.
@@ -1028,7 +1029,7 @@ Testar följande slutpunkter: URL för tokenslutpunkt
 
 >[!NOTE]
 >
->För närvarande skickar du till.. är inte tillgängligt för länkade dokument. Detta kommer att läggas till av Workfront. Du kan testa slutpunkten för /download genom att trycka på slutpunkten manuellt med en REST-klient, till exempel Postman. Alternativt kan du testa slutpunkten för /download genom att generera ett digitalt korrektur. Om du vill aktivera korrektur på webben kontaktar du Workfront.
+>För närvarande är Skicka till inte tillgängligt för länkade dokument. Detta läggs till av Workfront. Du kan testa slutpunkten för /download genom att trycka på slutpunkten manuellt med en REST-klient, till exempel Postman. Alternativt kan du testa slutpunkten för /download genom att generera ett digitalt korrektur. Om du vill aktivera korrektur på webben kontaktar du Workfront.
 
 ## Versioner
 

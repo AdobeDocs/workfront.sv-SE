@@ -6,8 +6,9 @@ title: Hämta metadata för en fil eller mapp
 description: Hämta metadata för en fil eller mapp
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -37,8 +38,8 @@ GET /metadata?id=[dokument- eller mapp-ID]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>Fil- eller mappens ID, som webbkrokprovidern refererar till. Detta skiljer sig från Adobe Workfront dokument-ID. Använd värdet "/" för att hämta metadata för rotkatalogen.
-   <p>Obs! ID:t får innehålla högst 255 tecken.</p></td> 
+   <td>Fil- eller mappens ID, som webbkrokprovidern refererar till. Detta skiljer sig från Adobe Workfront dokument-ID. Använd värdet '/' för att hämta metadata för rotkatalogen.
+   <p>Obs! Den maximala längden för ID:t är 255 tecken.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +68,7 @@ GET /metadata?id=[dokument- eller mapp-ID]
   <tr> 
    <td>sort </td> 
    <td>Sträng </td> 
-   <td>Anger om det här objektet är en fil eller mapp ("fil" eller"mapp")</td> 
+   <td>Anger om det här objektet är en fil eller mapp ('fil' eller 'mapp')</td> 
   </tr> 
   <tr> 
    <td>id</td> 

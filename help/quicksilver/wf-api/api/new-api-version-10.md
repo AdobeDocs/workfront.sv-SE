@@ -5,10 +5,11 @@ title: Nyheter i API-version 10
 description: Uppdaterade resurser
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntry
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | RAPPORT  |
 |   |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### KalenderPostExternReferens
 
@@ -55,7 +56,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | RAPPORT  |
 |   |   |   |   |   |   | SÖK  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
@@ -69,7 +70,7 @@ ht-degree: 0%
 |   |   |   |   |   |   | RAPPORT  |
 |   |   |   |   |   |   | SÖK  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
@@ -83,7 +84,7 @@ ht-degree: 0%
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 | userID |   |   |   |   |   | SÖK |
 | workDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Uppdaterade resurser**
 
@@ -112,7 +113,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Workfron
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 | projectBudgetedCost  |   |   |   |   |   |   |
@@ -120,20 +121,20 @@ Följande befintliga resurser har uppdaterats med den här versionen av Workfron
 | projectRoi  |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### Tilldelning
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| assignPercent `¹` |   |   |   |   |   |   |
+| assignPercent `<sup>1</sup>` |   |   |   |   |   |   |
 | displayedByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹`added validator LESS_THAN_EQUAL
+`<sup>1</sup>`added validator LESS_THAN_EQUAL
 
 ### BudgeteradTimme
 
@@ -141,7 +142,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Workfron
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -149,11 +150,11 @@ Följande befintliga resurser har uppdaterats med den här versionen av Workfron
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| name `¹` |   |   |   |   |   |   |
+| name `<sup>1</sup>` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ändringar i possibleValues
+<sup>1</sup> Ändringar av possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -161,36 +162,36 @@ Följande befintliga resurser har uppdaterats med den här versionen av Workfron
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Dokument
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocumentRequest
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DocumentVersion
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ändringar i possibleValues
+<sup>1</sup> Ändringar av possibleValues
 
 Utgift
 
@@ -198,7 +199,7 @@ Utgift
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Grupp
 
@@ -207,44 +208,44 @@ Utgift
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LinkedFolder
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ändringar i possibleValues
+<sup>1</sup> Ändringar av possibleValues
 
 ### OpTask
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | pendingApproval¹ |  |  |  |
+| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Typen har ändrats från null till boolesk
+<sup>1</sup> Typen har ändrats från null till boolesk
 
 ### PortalSection
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Portfolio
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| portfolioNetValue |  |  |  |  |  |  |
+| portfolioNetValue |   |   |   |  |  |   |
 | portfolioRoi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Projekt
 
@@ -255,25 +256,25 @@ Utgift
 | projectRoi |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### KorrekturGodkännande
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| godkännareBeslut |  |  |  |  |  |  |
+| godkännareBeslut |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Hastighet
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹tillagd validerarVALUTA
+<sup>1</sup>tillagd valideringsvaluta
 
 ### Uppgift
 
@@ -283,7 +284,7 @@ Utgift
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -291,11 +292,11 @@ Utgift
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ tillagd validerare LESS_THAN
+<sup>1</sup> added validator LESS_THAN
 
 ### TeamAssignment
 
@@ -303,7 +304,7 @@ Utgift
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TeamTask
 
@@ -311,7 +312,7 @@ Utgift
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tidrapport
 
@@ -319,17 +320,17 @@ Utgift
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Uppdatera
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ ändringar av possibleValues
+<sup>1</sup> ändringar av possibleValues
 
 ### Användare
 
@@ -337,29 +338,29 @@ Utgift
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| eventType <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ ändringar av possibleValues
+<sup>1</sup> ändringar av possibleValues
 
 ### Arbete
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval ¹  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Typen har ändrats från null till boolesk
+<sup>1</sup> Typen har ändrats från null till boolesk
 
 ## Borttagna resurser {#removed-resources}
 
@@ -375,7 +376,7 @@ Utgift
 | roleID |   |   |   |   |   | RAPPORT  |
 | userID |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

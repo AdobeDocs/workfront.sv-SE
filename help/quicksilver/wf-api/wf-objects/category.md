@@ -5,8 +5,9 @@ title: När APIModel INTERNAL inte har stöd för fältprojekttid (OpTask)Katego
 description: När APIModel INTERNAL inte har stöd för fältprojekttid (OpTask)
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 # Kategori
 
 FileClass: &quot;java.lang.IllegalArgumentException&quot;,\
-meddelande: &quot;APIModel INTERNAL stöder inte fältprojekttid (OpTask)&quot;
+meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&quot;
 
 <table style="table-layout:auto"> 
  <col width="100"> 

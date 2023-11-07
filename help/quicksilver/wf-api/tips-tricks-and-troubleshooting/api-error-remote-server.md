@@ -5,8 +5,9 @@ title: API-felmeddelande 400 - Ogiltig begäran
 description: API-felmeddelande 400 - Ogiltig begäran
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

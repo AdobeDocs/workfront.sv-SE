@@ -5,8 +5,9 @@ title: Uppdatering till e-postadress uppdaterar inte användarnamnet
 description: Uppdatering till e-postadress uppdaterar inte användarnamnet
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2d24d1b8-9504-484f-9cc0-d2f1abd6391a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%

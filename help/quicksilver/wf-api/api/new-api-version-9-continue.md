@@ -5,10 +5,11 @@ title: Nyheter i API version 9 (forts.)
 description: Den här listan är den andra halvan av en större lista. Den första halvan finns på What's New i API Version 9. En lista över uppdateringar av version 9 finns i Uppdateringar av API-version 9.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -83,7 +84,7 @@ Den här listan är den andra halvan av en större lista. Den första halvan kan
 | `viewID` |   |   |   |   |   |   |
 | `width` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionLastViewer
 
@@ -95,7 +96,7 @@ Den här listan är den andra halvan av en större lista. Den första halvan kan
 | `reportID` |  |  |  |  |  | `SEARCH` |
 | viewerID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionStatisticInfo
 
@@ -113,7 +114,7 @@ Den här listan är den andra halvan av en större lista. Den första halvan kan
 | `viewsThisQuarter`  |   |   |   |   |   |   |
 | `viewsThisYear`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTab
 
@@ -135,7 +136,7 @@ Den här listan är den andra halvan av en större lista. Den första halvan kan
 | `tabname` |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTabSection
 
@@ -152,7 +153,7 @@ Den här listan är den andra halvan av en större lista. Den första halvan kan
 | `portalSectionObjID`  |   |   |   |   |   |   |
 | `portalTabID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ReportFolder
 
@@ -162,7 +163,7 @@ Den här listan är den andra halvan av en större lista. Den första halvan kan
 | `ID`  |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ScheduleReport
 

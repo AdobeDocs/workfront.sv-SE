@@ -5,10 +5,11 @@ title: Nyheter i API-version 6
 description: Nyheter i API-version 6
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ ht-degree: 0%
 
 ## Uppdaterade objekt
 
-Ändringar i befintliga objekt: tilläggen visas bara, borttagningar har genomstrykning, ändringar i befintliga har en bifogad anteckning efter tabellen
+Ändringar i befintliga objekt: tillägg visas bara, borttagningar har genomstrykning, ändringar i befintliga objekt har en bifogad anteckning efter tabellen
 
 ### Uppdatera
 
@@ -60,14 +61,14 @@ ht-degree: 0%
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ändrar möjliga värden
+<sup>1</sup> Ändringar av möjliga värden
 
-² hasFilters-attributet har ändrats till true
+<sup>2</sup> hasFilters-attributet har ändrats till true
 
  
 
@@ -76,16 +77,16 @@ ht-degree: 0%
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
 | completeHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Datumvalidering tillagd
+<sup>1</sup> Datumvalidering har lagts till
 
-² NOT_FILTERABLE-flagga tillagd
+<sup>2</sup> NOT_FILTERABLE-flagga tillagd
 
  
 
@@ -93,9 +94,9 @@ ht-degree: 0%
 
 |   | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -105,15 +106,15 @@ ht-degree: 0%
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ändrar till möjliga värden
+<sup>1</sup> Ändringar av möjliga värden
 
  
 
-### Godkännandesökväg¹
+### Godkännandesökväg<sup>1</sup>
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
@@ -126,13 +127,13 @@ ht-degree: 0%
 | isPrivate |   |   |   |   |   | Sök |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| name<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ändrad till Rapporterbar
+<sup>1</sup> Ändrad till Rapporteringsbar
 
-² Längdvaliderare har lagts till
+<sup>2</sup> Längdvaliderare har lagts till
 
  
 
@@ -140,14 +141,14 @@ ht-degree: 0%
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Valideringsdatum har lagts till
+<sup>1</sup> Datumvalidering tillagd
 
-² Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterbar flagga tillagd
 
  
 
@@ -159,7 +160,7 @@ ht-degree: 0%
 |   |   |   |   | swapUsersOnProjects |   |   |
 |   |   |   |   | unassignUserFromProjects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -167,11 +168,11 @@ ht-degree: 0%
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Inte_Filterbar flagga tillagd
+<sup>1</sup> Inte_Filterbar flagga tillagd
 
  
 
@@ -179,11 +180,11 @@ ht-degree: 0%
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Inte_Filterbar flagga tillagd
+<sup>1</sup> Inte_Filterbar flagga tillagd
 
  
 
@@ -191,11 +192,11 @@ ht-degree: 0%
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| faktureringsdatum¹ |   |   |   |   |   |   |
+| faktureringsdatum<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ tillagd NO_TIME-fältflagga
+<sup>1</sup> tillagd NO_TIME-fältflagga
 
 ### Burndown-händelse 
 
@@ -204,7 +205,7 @@ ht-degree: 0%
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,7 +216,7 @@ ht-degree: 0%
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -227,7 +228,7 @@ Anpassad uppräkning 
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuses |   |
 |   |   |   |   |   | taskGroupStatuses |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +239,7 @@ Dokument 
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -246,11 +247,11 @@ Växelkurs 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| ränta¹ |   |   |   |   |   |   |
+| ränta<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ PRECISION-valideraren har ändrats för 8 till 9
+<sup>1</sup> PRECISION-valideraren har ändrats för 8 till 9
 
  
 
@@ -260,7 +261,7 @@ Växelkurs 
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -268,29 +269,29 @@ Växelkurs 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ändrar till möjliga värden
+<sup>1</sup> Ändringar av möjliga värden
 
  
 
-### Optask (Issue)¹ 
+### Optask (Issue)<sup>1</sup> 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flaggad som RESTORABLE
+<sup>1</sup> Flaggad som RESTORABLE
 
-² Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterbar flagga tillagd
 
  
 
-### Projekt¹ 
+### Projekt<sup>1</sup> 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
@@ -301,28 +302,28 @@ Växelkurs 
 | arbete |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flaggas som RESTORABLE och RESOURCE_MANAGEABLE
+<sup>1</sup> Flaggas som RESTORABLE och RESOURCE_MANAGEABLE
 
-² Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterbar flagga tillagd
 
  
 
-### Uppgift¹
+### Uppgift<sup>1</sup>
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flaggad som RESTORABLE
+<sup>1</sup> Flaggad som RESTORABLE
 
-² AT_DATE_YEAR_BEFORE validerare har lagts till
+<sup>2</sup> AT_DATE_YEAR_BEFORE-valideraren har lagts till
 
-³ ej_Filterbar flagga tillagd
+<sup>3</sup> Inte_Filterbar flagga tillagd
 
  
 
@@ -333,31 +334,31 @@ Växelkurs 
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Mall¹ 
+### Mall<sup>1</sup> 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
 |   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flaggas som RESTORABLE och RESOURCE_MANAGEABLE
+<sup>1</sup> Flaggas som RESTORABLE och RESOURCE_MANAGEABLE
 
-### Malluppgift¹ 
+### Malluppgift<sup>1</sup> 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flaggad som RESTORABLE
+<sup>1</sup> Flaggad som RESTORABLE
 
-² Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterbar flagga tillagd
 
  
 
@@ -365,11 +366,11 @@ Växelkurs 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ MAX_LENGTH-överträdelse
+<sup>1</sup> MAX_LENGTH-överträdelse
 
  
 
@@ -377,13 +378,13 @@ Växelkurs 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Möjliga värden har ändrats
+<sup>1</sup> Möjliga värden har ändrats
 
-² har filter som ändrats till `[true]`
+<sup>2</sup> har filter ändrat till `[true]`
 
  
 

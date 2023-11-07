@@ -6,8 +6,9 @@ title: Hämta OAuth2-token
 description: Hämta OAuth2-token
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -44,7 +45,7 @@ URL:en är konfigurerbar och motsvarar värdet för Token Endpoint URL på sidan
   <tr>
    <td>grant_type</td>
    <td>ja</td>
-   <td><p>Du kan ange värdena "permission_code" eller "refresh_token". Det angivna värdet anger vilken av de två parametrarna som skickas till det här API-anropet: eller refresh_token.</p></td>
+   <td><p>Du kan ange värdena "authentication_code" eller "refresh_token". Det angivna värdet anger vilken av de två parametrarna som skickas till det här API-anropet: code eller refresh_token.</p></td>
   </tr>
   <tr>
    <td>kod</td>

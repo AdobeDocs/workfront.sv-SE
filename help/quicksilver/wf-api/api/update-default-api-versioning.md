@@ -5,8 +5,9 @@ title: Uppdatera integreringar som använder API-standardversionshantering
 description: Uppdatera integreringar som använder API-standardversionshantering
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Om du vill omvandla en standard-API-begäran till en versionshanterad API-begär
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
-När du uppdaterar dina Workfront API-begäranden kan du ange vilken version av vårt API som stöds. Mer information om hur du refererar till ett specifikt API finns i [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md).
+När du uppdaterar dina Workfront API-begäranden kan du ange vilken version av API:t som stöds. Mer information om hur du refererar till ett specifikt API finns i [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md).
 
 För att få maximalt stöd bör du ringa den senaste versionen. Du hittar en lista över API:er som stöds i [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
 

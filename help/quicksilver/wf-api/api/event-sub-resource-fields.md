@@ -5,8 +5,9 @@ title: Resursfält för händelseprenumeration
 description: Resursfält för händelseprenumeration
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 80b42da8f9cd51571258c7b09fe4498be5244320
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 1%
@@ -219,7 +220,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   </tr> 
   <tr> 
   <tr> 
-   <td>Tavla</td> 
+   <td>Kontrollpanel</td> 
    <td>PTLTAB</td> 
    <td>accessorID</td> 
   </tr> 
@@ -251,7 +252,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Obs! LastUpdateDate utlöser bara en händelse första gången som den uppdateras under varje dag. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Obs! LastUpdateDate utlöser bara en händelse första gången den uppdateras under varje dag. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -481,12 +482,12 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>enterByID</span> </td> 
+   <td><span>enteredByID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ankare</span> </td> 
+   <td><span>ext</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -526,7 +527,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>provgodkännandeStatusID</span> </td> 
+   <td><span>proofApprovalStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -776,7 +777,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> faktiskKostnad </td> 
+   <td> actualCost </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -941,12 +942,12 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>beskrivning</td> 
+   <td>description</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1056,12 +1057,12 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>declineIssuedID</td> 
+   <td>refuseringIssueID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resolutAktivitets-ID</td> 
+   <td>resolveOpTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1501,7 +1502,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertedOpTaskOriginatorID</td> 
+   <td>convertOpTaskOriginatorID</td> 
   </tr> 
   <tr> 
    <td> </td> 

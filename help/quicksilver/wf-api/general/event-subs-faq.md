@@ -5,8 +5,9 @@ title: Frågor och svar - Evenemangsprenumerationer
 description: Frågor och svar - Evenemangsprenumerationer
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 0%
@@ -38,11 +39,11 @@ Händelseprenumerationsfilter är ett sätt på vilket händelsedelare kan sorte
 
 ## Varför returnerar API:t en 409-konfliktsvarskod?
 
-Om du försöker skapa en händelseprenumeration och få en svarskod: 409 är i konflikt. Den prenumeration du försökte skapa är en dubblett. Workfront tillåter inte att duplicerade prenumerationer skapas.
+Om du försöker skapa en händelseprenumeration och får en svarskod: 409 hamnar den prenumeration du försökte skapa i en dubblett. Workfront tillåter inte att duplicerade prenumerationer skapas.
 
 ## Vad ska jag göra om mina meddelanden inte levereras till min slutpunkt?
 
-Sök efter följande scenarier och använd den rekommenderade lösningen:
+Leta efter följande scenarier och använd den rekommenderade lösningen:
 
 * Se till att prenumerationsslutpunkten som definieras av **url** field - returnerar en 2XX HTTP-svarskod. Om så inte är fallet kontaktar du Workfront Support eller läser [Leveranskrav för evenemangsprenumeration](../../wf-api/general/setup-event-sub-endpoint.md).
 
@@ -61,13 +62,13 @@ Några av följande scenarier kan vara ansvariga:
 
    * Efter en respitperiod på 100 meddelanden, om en viss URL - som kan vara kopplad till en eller flera prenumerationer - misslyckas mer än 70 % av tiden eller om URL:en inte kan leverera efter 2000 försök i följd, görs inget försök att leverera meddelanden som matchar prenumerationer med samma URL. I stället står meddelandena omedelbart i kö för ett nytt försök.
 
-      Var 10:e minut efter att en URL har inaktiverats försöker vi leverera nästa meddelande som kommer fram för bearbetning. Om det meddelandet lyckas återaktiverar vi den URL:en och därefter alla matchande prenumerationer. Om det meddelandet inte skickas återställs den 10-minuterstimern och vi försöker igen när det har gått ut.
+     Var 10:e minut efter att en URL har inaktiverats försöker vi leverera nästa meddelande som kommer fram för bearbetning. Om det meddelandet lyckas återaktiverar vi den URL:en och därefter alla matchande prenumerationer. Om det meddelandet inte skickas återställs den 10-minuterstimern och vi försöker igen när det har gått ut.
 
-      Det här beteendet kan uppfattas som inkonsekvent eller fördröjd leverans, men följer bara vår policy för hur händelseprenumerationsmeddelanden hanteras.
+     Det här beteendet kan uppfattas som inkonsekvent eller fördröjd leverans, men följer bara vår policy för hur händelseprenumerationsmeddelanden hanteras.
 
    * En URL för en händelseprenumeration är inaktiverad om något av följande villkor uppfylls:
 
-      * Prenumerations-URL:en kunde inte leverera på 7 dagar och har misslyckats med minst 2 000 efterföljande leveransförsök under de senaste 72 timmarna.
+      * Prenumerations-URL:en kunde inte levereras på 7 dagar och har misslyckats med minst 2 000 efterföljande leveransförsök under de senaste 72 timmarna.
       * Prenumerations-URL:en kunde inte leverera 50 000 efterföljande försök.
 
 ## Vad ska jag göra om jag får 500-svarsstatus när jag försöker anropa Event Subscription API?
@@ -90,6 +91,6 @@ Vanligtvis kan du förvänta dig att ta emot händelseleveransbegäranden om hä
 
 * **Fält som utlöser händelseabonnemangsnyttolaster**: [Resursfält för händelseprenumeration](../../wf-api/api/event-sub-resource-fields.md)
 
-* **Förstå återförsök till händelseabonnemang**: [Återkommande prenumerationer](../../wf-api/api/event-sub-retries.md)
+* **Förstå återförsök till händelseabonnemang**: [Återkommande prenumerationer på evenemang](../../wf-api/api/event-sub-retries.md)
 
 * **Konfigurera brandväggen för Workfront**: [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

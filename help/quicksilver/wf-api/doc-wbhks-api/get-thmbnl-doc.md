@@ -6,8 +6,9 @@ title: Hämta en miniatyrbild för ett dokument
 description: Hämta en miniatyrbild för ett dokument
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 31960689-1811-4ba7-a63d-0842caedf3ea
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
@@ -28,11 +29,11 @@ GET/miniatyrbild
 | Namn  | Beskrivning |
 |---|---|
 | id  | Dokument-ID. |
-| size  |  Bredden på miniatyrbilden. |
+| size  |  Miniatyrbildens bredd. |
 
 
 ## Svar
 
-Byte för miniatyrbilden i Raw-format.
+Byte till miniatyrbilden för Raw.
 
 **Exempel:**: https://www.acme.com/api/thumbnail?id=123456

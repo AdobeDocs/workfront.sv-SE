@@ -6,8 +6,9 @@ title: Skapa en mapp med dokumentwebbhotell
 description: Skapa en mapp med dokumentwebbhotell
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 50905915-58c9-4b50-b8a1-133833884a88
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 1%
@@ -52,7 +53,7 @@ returnerar
 ```
 {title:"New Folder",br /> kind:"folder"
  id":"5678",
- viewLink:"”,
+ viewLink:"",
  downloadLink:"",
  mimeType:"",
  dateModified:"2014­06­05T17:39:45.251Z"

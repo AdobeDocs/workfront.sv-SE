@@ -5,10 +5,11 @@ title: Nyheter i API-version 9
 description: Det här är en lista över resurser som är nya för API version 9. En lista över uppdateringar som gjorts för resurserna i version 9 finns på Uppdateringar till API-version 9
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,7 @@ Det här är en lista över resurser som är nya för API version 9. En lista ö
 | `nameKey` |  |  |  |  |  |  |
 | `securityModelType` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessLevelPermissions
 
@@ -53,7 +54,7 @@ Det här är en lista över resurser som är nya för API version 9. En lista ö
 | `objObjCode` |  |  |  |  |  |  |
 | `secondaryActions` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessRulePreference
 
@@ -61,7 +62,7 @@ Det här är en lista över resurser som är nya för API version 9. En lista ö
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### BudgeteradTimme
 
@@ -75,7 +76,7 @@ Det här är en lista över resurser som är nya för API version 9. En lista ö
 | `roleID`  |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarPortalSection
 
@@ -90,7 +91,7 @@ Det här är en lista över resurser som är nya för API version 9. En lista ö
 | `objID`  |   |   |   |   |   |   |
 | `objObjCode`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarSection
 
@@ -107,7 +108,7 @@ Det här är en lista över resurser som är nya för API version 9. En lista ö
 | `plannedDate` |   |   |   |   |   |   |
 | `startDate` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalSection
 
@@ -135,7 +136,7 @@ Det här är en lista över resurser som är nya för API version 9. En lista ö
 | `url` |   |   |   |   |   |   |
 | `viewID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

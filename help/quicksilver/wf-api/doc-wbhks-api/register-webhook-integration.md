@@ -6,8 +6,9 @@ title: Registrera en webbkrosintegrering
 description: Registrera en webbkrosintegrering
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront-administratörer kan lägga till en anpassad webbkrokintegrering för sitt företag genom att gå till Inställningar > Dokument > Anpassade integreringar i Workfront. På sidan Anpassad integrering i installationsprogrammet kan administratörer visa en lista över befintliga webkrok-integreringar för dokument. Från den här sidan kan integreringar läggas till, redigeras, aktiveras och inaktiveras.
 
-Om du vill lägga till en integrering klickar du på **Lägg till anpassad integrering**.
+Om du vill lägga till en integrering klickar du **Lägg till anpassad integrering**.
 
 ![](assets/webhooks-integration-350x230.png)
 
@@ -45,7 +46,7 @@ När du lägger till en integrering anger administratören värden för följand
   </tr> 
   <tr> 
    <td>Bas-API-URL</td> 
-   <td> <p>Plats för återanrops-API. När du anropar det externa systemet lägger Workfront bara till slutpunktsnamnet till den här adressen. Om administratören till exempel angav Bas-API-URL:en, "https://www.mycompany.com/api/v1", använder Workfront följande URL för att hämta dokumentets metadata: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
+   <td> <p>Plats för återanrops-API:t. När du anropar det externa systemet lägger Workfront bara till slutpunktsnamnet till den här adressen. Om administratören t.ex. angav Bas-API-URL:en, https://www.mycompany.com/api/v1, använder Workfront följande URL för att hämta ett dokuments metadata: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
   </tr> 
   <tr> 
    <td>Begär parametrar</td> 
@@ -65,7 +66,7 @@ När du lägger till en integrering anger administratören värden för följand
   </tr> 
   <tr> 
    <td>Klient-ID</td> 
-   <td>(Endast OAuth2) Klient-ID:t för OAuth2 för den här integreringen</td> 
+   <td>(Endast OAuth2) Klient-ID för OAuth2 för den här integreringen</td> 
   </tr> 
   <tr> 
    <td>Klienthemlighet</td> 
@@ -73,7 +74,7 @@ När du lägger till en integrering anger administratören värden för följand
   </tr> 
   <tr> 
    <td>Workfront Omdirigerings-URI</td> 
-   <td>(Endast OAuth2) Detta är ett skrivskyddat fält som genereras av Workfront. Det här värdet används för att registrera integreringen med den externa dokumentprovidern. Obs! Som beskrivs ovan för Autentiserings-URL måste providern lägga till parametern "state" och dess värde i frågesträngen när omdirigeringen utförs.</td> 
+   <td>(Endast OAuth2) Detta är ett skrivskyddat fält som genereras av Workfront. Det här värdet används för att registrera integreringen med den externa dokumentprovidern. Obs! Som beskrivs ovan för autentiserings-URL måste providern lägga till parametern "state" och dess värde i frågesträngen när den utför omdirigeringen.</td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 

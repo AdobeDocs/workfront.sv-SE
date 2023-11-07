@@ -6,8 +6,9 @@ title: Filöverföring via webbhotell för dokument
 description: Filöverföring via webbhotell för dokument
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Att överföra en fil till en dokumentlagringsleverantör är en tvåstegsprocess som kräver två separata API-slutpunkter. Adobe Workfront påbörjar överföringen genom att anropa /uploadInit. Den här slutpunkten returnerar ett dokument-ID som sedan skickas till /upload när dokumentbyte överförs. Beroende på det underliggande dokumentlagringssystemet kan det vara nödvändigt att skapa ett dokument med längden noll och sedan uppdatera innehållet i dokumentet senare.
 
-Dokument-ID och dokumentversions-ID kan läggas till i version 1.1 av den här specifikationen och användas för att hämta extra information från Workfront.
+Dokument-ID och dokumentversions-ID kan läggas till i version 1.1 av den här specifikationen för att hämta extra information från Workfront.
 
 **Exempel:** Om dokumenthanteringssystemet vill ha extra information om dokumentet, kan webhochimplementeringskoden använda dokument-ID:t för att hämta informationen med Workfront RESTful API. Som en god vana kan den här informationen komma från anpassade datafält i dokumentet och innehålla uppgifter, problem eller projekt.
 
@@ -93,7 +94,7 @@ Dokumentets byte med Raw-innehåll.
 
 ```
 {
-result: “success”
+result: "success"
 }
 ```
 
@@ -101,7 +102,7 @@ eller
 
 ```
 {
-result: “fail”
+result: "fail"
 }
 ```
 

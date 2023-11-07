@@ -5,8 +5,9 @@ title: API för händelseprenumeration
 description: API för händelseprenumeration
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 0%
@@ -76,7 +77,7 @@ Om du vill skapa, fråga efter eller ta bort en händelseprenumeration behöver 
 * Du måste ha åtkomstnivån &quot;Systemadministratör&quot; för att kunna använda händelseprenumerationer.
 * A `sessionID`  måste anges för att du ska kunna använda API:t för händelseprenumerationer
 
-   Mer information finns i [Autentisering](api-basics.md#authentication) in [Grunderna i API](api-basics.md).
+  Mer information finns i [Autentisering](api-basics.md#authentication) in [Grunderna i API](api-basics.md).
 
 ## Formge prenumerationsresursen
 
@@ -90,7 +91,7 @@ Prenumerationsresursen innehåller följande fält.
 
    * **Sträng** - ObjCode för objektet som prenumererar på ändringar. Möjliga värden för objCode listas i tabellen nedan.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -219,7 +220,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Exempel på begärandetext:**
+**Exempel på brödtext i begäran:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -263,7 +264,7 @@ När du frågar efter Workfront HTTP använder du GET-metoden. Det finns två s�
 Du kan fråga alla händelseprenumerationer för en kund eller använda följande för att hantera svaret. Du kan också använda följande alternativ för att hantera svaret:
 
 * **page**: frågeparameteralternativ som anger hur många sidor som ska returneras. Standardvärdet är 1.
-* **limit**: frågeparameteralternativ för att ange antalet resultat som ska returneras per sida. Standardvärdet är 100 med högst 1 000.
+* **limit**: frågeparameteralternativ som anger hur många resultat som ska returneras per sida. Standardvärdet är 100 med högst 1 000.
 
 Syntaxen för att ange alla händelseprenumerationer för en viss kund är följande:
 
@@ -419,13 +420,14 @@ Du kan använda händelseprenumerationsfiltrering för att försäkra dig om att
 Till exempel en **UPPDATERING - AKTIVITET** händelseprenumeration kan bara anges som utlösare när **newState** för en händelsenyttolast definierar **taskStatus** as **aktuell**.
 
 >[!IMPORTANT]
+>
 Följande attribut gäller för händelseprenumerationsfiltrering
 
 * När ett filterfält har ett värde som inte är tomt är det bara meddelanden med en **newState** som innehåller filternycklar och värden skickas till den prenumererade URL:en
 * Du kan filtrera efter anpassade data i **newState** OCH/ELLER **oldState** för objektet
 * Filter utvärderas enbart utifrån om de är lika med ett visst värde eller inte
 * Om filtersyntaxen är felaktig eller inte matchar några data i **newState** av nyttolasten returneras inget valideringsmeddelande för att ange att ett fel har inträffat
-* Det går inte att uppdatera filter för en prenumeration som redan finns; en ny prenumeration måste skapas med nya filterparametrar.
+* Det går inte att uppdatera filter för en prenumeration som redan finns. En ny prenumeration måste skapas med nya filterparametrar.
 * Flera filter kan tillämpas på en prenumeration och prenumerationen levereras endast när alla filtervillkor är uppfyllda.
 * Att tillämpa flera filter på en prenumeration är en metod som motsvarar att använda en **OCH** logisk operator.
 * Flera händelseprenumerationer kan användas på ett enda objekt så länge som en eller flera parametrar för händelseprenumerationsfält är olika för varje händelseteckning.
@@ -435,7 +437,7 @@ Följande attribut gäller för händelseprenumerationsfiltrering
 
 Du kan ange ett jämförelsefält tillsammans med filterfältet. Använd en jämförelseoperator i det här fältet för att filtrera för jämförande resultat. Du kan till exempel skapa en UPDATE - TASK-prenumeration som bara skickar en nyttolast om aktivitetsstatusen INTE är lika med aktuell. Du kan använda följande jämförelseoperatorer:
 
-#### eq: likhet
+#### eq: lika
 
 Det här filtret gör att meddelanden kan visas om ändringen som inträffade matchar `fieldValue` i filtret exakt. The `fieldValue` är skiftlägeskänsligt.
 
@@ -580,6 +582,7 @@ Det här filtret gör att meddelanden kan visas om ändringen som inträffade in
 Det här filtret tillåter bara att meddelanden visas om det angivna fältet (`fieldName`) har ett annat värde i lägena oldstate och newstate. Uppdatera andra fält förutom det angivna (`fieldName`) returnerar inte den ändringen.
 
 >[!NOTE]
+>
 `fieldValue` i filterarrayen nedan har ingen effekt.
 
 ```
@@ -604,6 +607,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 `oldState` är inte möjligt på CREATE `eventTypes`.
 
 >[!NOTE]
+>
 Prenumerationen nedan med det angivna filtret returnerar endast meddelanden där aktivitetens namn innehåller `again` på `oldState`, vad det var innan en uppdatering gjordes för uppgiften.
 Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
@@ -626,7 +630,7 @@ Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena so
 
 ### Använda kopplingsfält
 
-The `filterConnector` på prenumerationens nyttolast kan du välja hur filtren ska tillämpas. Standardvärdet är &quot;AND&quot;, där alla filter måste vara `true` för prenumerationsmeddelandet. Om du anger &quot;OR&quot; får bara ett filter matcha för att prenumerationsmeddelandet ska visas.
+The `filterConnector` på prenumerationens nyttolast kan du välja hur filtren ska tillämpas. Standardvärdet är &quot;AND&quot;, där alla filter måste vara `true` för att prenumerationsmeddelandet ska komma fram. Om du anger &quot;OR&quot; får bara ett filter matcha för att prenumerationsmeddelandet ska visas.
 
 ```
 {
@@ -695,7 +699,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <tbody> 
   <tr> 
    <td>200 (inget innehåll)</td> 
-   <td>Servern har tagit bort den händelseprenumeration som matchar det angivna prenumerations-ID:t.</td> 
+   <td>Servern har tagit bort den händelseprenumeration som matchar angivet prenumerations-ID.</td> 
   </tr> 
   <tr> 
    <td>401 (obehörig)</td> 
@@ -951,7 +955,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
 
  
 
-### Exempel på svarstext
+### Exempel på brödtext i svar
 
 <!-- [Copy](javascript:void(0);) -->
 

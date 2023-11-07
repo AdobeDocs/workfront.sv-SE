@@ -5,10 +5,11 @@ title: Uppdateringar av API-version 8
 description: Följande befintliga resurser har uppdaterats med den här versionen av Adobe Workfront API. Om du vill se vilka resurser som är nya för version 8 läser du Nyheter i API-version 8. Ändringar som görs i en resurs anges på följande sätt - REDIGERA MIG.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -27,38 +28,38 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| action¹  |   |   |   |   |   |   |
+| åtgärd<sup>1</sup>  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Ändrar möjliga värden
+<sup>1</sup> Ändringar av möjliga värden
 
-### AccessRule¹ 
+### AccessRule<sup>1</sup> 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| coreAction²  |   |   |   |   |   |   |
-| forbiddenActions² |   |   |   |   |   |   |
-| SecondaryActions² |   |   |   |   |   |   |
+| coreAction<sup>2</sup>  |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
+| secondaryActions<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Borttagen flagga: RAPPORTERBART\
-² Ändrar möjliga värden
+<sup>1</sup> Borttagen flagga: RAPPORTERBAR\
+<sup>2</sup> Ändringar av möjliga värden
 
 ### Godkännande
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  | resourcePools |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden\
-² Flaggor tillagda: DYNAMIC, LAZY_READ och NOT_GROUPABLE
+<sup>1</sup>Ändringar av möjliga värden\
+<sup>2</sup>Tillagda flaggor: DYNAMIC, LAZY_READ och NOT_GROUPABLE
 
 ### Tilldelning
 
@@ -68,38 +69,38 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
 |   |   |   |   | unassignUserFromTasks |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Kund
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
-| proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
+| proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### CustomerPreferences
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| name¹ |   |   |   |   |   |   |
+| name<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### DokumentGodkännande
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Flagga tillagd: NOT_FILTERABLE
+<sup>1</sup>Flagga tillagd: NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -107,7 +108,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |---|---|---|---|---|---|---|
 | activeProofStages |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Grupp
 
@@ -115,17 +116,17 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |---|---|---|---|---|---|---|
 |   |   | ägare |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HourType
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |   |   |   |   |   |   |
+| appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Flagga tillagd: NOT_FILTERABLE
+<sup>1</sup>Flagga tillagd: NOT_FILTERABLE
 
 ### Upprepning
 
@@ -133,7 +134,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gilla
 
@@ -141,61 +142,61 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Anteckning
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditType¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### OpTask
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | iteration |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | uppskattning |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### Portfolio
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### Program
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### Projekt
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### KorrekturGodkännande
 
@@ -203,23 +204,23 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |---|---|---|---|---|---|---|
 | godkännareID | godkännare |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Flagga tillagd: NOT_FILTERABLE
+<sup>1</sup>Flagga tillagd: NOT_FILTERABLE
 
 ### QueueDef
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| requestCoreAction¹ |   |   |   |   |   |   |
-| requestForbiddenActions¹ |   |   |   |   |   |   |
+| requestCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| requestForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### Hastighet
 
@@ -229,7 +230,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 | name |   |   |   |   |   |   |
 | startDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ReservedTime
 
@@ -237,7 +238,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceManager
 
@@ -245,19 +246,19 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Uppgift
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### Team
 
@@ -269,7 +270,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 | teamStoryBoardIssueStatuses |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Mall
 
@@ -277,27 +278,27 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TemplateTask
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 Uppdatera
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| updateType¹ | `updateEndorsement` |   |   |   |   |   |
+| updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### Användare
 
@@ -307,7 +308,7 @@ Uppdatera
 |   |   | userGroups |   |   |   |   |   |   |
 |   |   | userRoles |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
@@ -315,22 +316,22 @@ Uppdatera
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventType¹ |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden
+<sup>1</sup>Ändringar av möjliga värden
 
 ### Arbete
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹Ändrar till möjliga värden\
-² Flaggor tillagda: DYNAMIC, LAZY_READ och NOT_GROUPABLE
+<sup>1</sup>Ändringar av möjliga värden\
+<sup>2</sup>Tillagda flaggor: DYNAMIC, LAZY_READ och NOT_GROUPABLE

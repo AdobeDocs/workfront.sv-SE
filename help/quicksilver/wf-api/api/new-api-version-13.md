@@ -5,8 +5,9 @@ title: Nyheter i API-version 13
 description: Adobe Workfront släppte API-version 13 den 22 april 2021. API-version 13 innehåller följande ändringar från version 12.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -341,7 +342,7 @@ Ett ProofApproval-objekt representerar ett godkännande som är direkt kopplat t
 
 Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publicerats till Help Desk-området där användarna kan skicka problem till den.
 
-Mer information om köer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -470,12 +471,12 @@ Objektet som representerar layoutmallar i Adobe Workfront Classic finns i [Layou
     <ul> 
      <li> <p><b>migrateCustomersAllLayoutTemplates</b> </p> <p>Tar argumentet:</p> 
       <ul> 
-       <li> <p>overrideIfExists (boolean)</p> </li> 
+       <li> <p>overrideIfExists (boolesk)</p> </li> 
       </ul> </li> 
      <li> <p><b>migrateLayoutTemplates</b> </p> <p>Tar argumenten:</p> 
       <ul> 
        <li> <p>layoutTemplateIDs (string[])</p> </li> 
-       <li> <p>overrideIfExists (boolean)</p> </li> 
+       <li> <p>overrideIfExists (boolesk)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

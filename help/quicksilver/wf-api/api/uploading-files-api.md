@@ -5,8 +5,9 @@ title: Överföra filer via API
 description: Överföra filer via API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Du kan överföra filer med Workfront API:er med API-verktyg som Postman eller med enkla cURL-kommandon.
 
-Information om hur du överför dokument finns i instruktionerna för **Överför dokument** i Workfront [Bokför beteende](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Du kan också använda samma instruktioner för cURL-begäranden.
+Information om hur du överför dokument finns i instruktionerna för **Överför dokument** i WORKFRONT [Bokför beteende](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Du kan också använda samma instruktioner för cURL-begäranden.
 
 **Följ dessa riktlinjer när du använder API-verktyg för att överföra filer:**
 
@@ -27,7 +28,7 @@ Information om hur du överför dokument finns i instruktionerna för **Överfö
 
 * Din begäran bör resultera i ett svar som innehåller ett värde för dess referens.
 
-* Använd handtagsvärdet, objekttypen och GUID-värdet för objID i en JSON-nyttolast för att göra ett efterföljande anrop. Detta är till för att skapa objektet för filen, som i följande exempel:
+* Använd referensvärdet, objekttypen och GUID-värdet för objID i en JSON-nyttolast för att göra ett efterföljande anrop. Detta är till för att skapa objektet för filen, som i följande exempel:
 
 ```
 }

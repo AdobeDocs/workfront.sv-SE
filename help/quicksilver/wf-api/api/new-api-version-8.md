@@ -5,10 +5,11 @@ title: Nyheter i API-version 8
 description: Det här är en lista över resurser som är nya i API-version 9. En lista över uppdateringar av resurserna i version 8 finns på Uppdateringar till API-version 8
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -44,18 +45,18 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 | uiObjCode |   |   |   |   |   |   |
 | uiObjectID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### APIVersionMetadata
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
 | deprecationRelease |   |   |   |   |   | COUNT  |
-| removeRelease |   |   |   |   |   | GET |
+| removalRelease |   |   |   |   |   | GET |
 | versionName |   |   |   |   |   | RAPPORT |
 |   |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **KanbanBoard**
 
@@ -69,7 +70,7 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 |   |   |   |   |   |   | RAPPORT |
 |   |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### KorrekturGodkännandestatus
 
@@ -79,7 +80,7 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 | proofApprovalStatusID |   |   |   |   |   |   |
 | proofApprovalStatusLabel |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **KorrekturFilmetadata**
 
@@ -91,7 +92,7 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 | ID |   |   |   |   |   |   |
 | isURL |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **ResursBudgeteradTimme**
 
@@ -105,7 +106,7 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 | userID |   |   |   |   |   | RAPPORT |
 |   |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Resursplaneringsfilter
 
@@ -119,7 +120,7 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 |   |   |   |   |   |   | RAPPORT |
 |   |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **RichTextNote**
 
@@ -130,7 +131,7 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 |   |   |   |   |   |   | RAPPORT |
 |   |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Prenumerera
 
@@ -139,11 +140,11 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 |  ID |   |   |   | addSubscribers | prenumeranter | LÄGG TILL |
 |   |   |   |   | removeSubscribers |   | COUNT  |
 |   |   |   |   | prenumererar |   | DELETE |
-|   |   |   |   | avbeställa |   | GET |
+|   |   |   |   | avsluta prenumeration |   | GET |
 |   |   |   |   |   |   | RAPPORT |
 |   |   |   |   |   |   | SÖK |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserRole
 

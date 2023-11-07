@@ -1,19 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Återkommande prenumerationer
-description: Återkommande prenumerationer
+title: Återkommande prenumerationer på evenemang
+description: Återkommande prenumerationer på evenemang
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-# Återkommande prenumerationer
+# Återkommande prenumerationer på evenemang
 
 När du implementerar ett meddelandesystem finns det några kavattningar som måste åtgärdas för att säkerställa stabilitet, konsekvens och en bra användarupplevelse. Ett av bristerna i ett system för meddelandeleverans är att säkerställa att meddelandena når sin destination med framgång och veta vad som ska göras när de inte kommer fram.
 
@@ -21,7 +22,7 @@ Vissa integreringar kan acceptera leveransfel och sedan släppa meddelandet och 
 
 ## Adobe Workfront Strategy for Event Subscription Retries
 
-Eftersom kunderna utnyttjar Workfront-plattformen som en viktig del av sitt dagliga kunskapsarbete, erbjuder Workfront ramverk för händelseteckning en mekanism som säkerställer att man försöker leverera varje budskap i största möjliga utsträckning.
+Eftersom kunderna utnyttjar Workfront-plattformen som en viktig del i sitt dagliga kunskapsarbete, erbjuder Workfront ramverk för händelseteckning en mekanism som säkerställer att alla meddelanden skickas så långt det går.
 
 Händelseutlösta utgående meddelanden som inte kan levereras till kundens slutpunkter skickas igen tills leveransen har slutförts i upp till 48 timmar. Under denna tid sker återförsök med en stegvis reducerad frekvens tills leveransen är framgångsrik eller tills 48 timmar har gått.
 
@@ -33,7 +34,7 @@ I följande flödesschema visas strategin för att försöka skicka meddelanden 
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
-Följande förklaringar motsvarar stegen i flödesdiagrammet:
+Följande förklaringar motsvarar de steg som beskrivs i flödesdiagrammet:
 
 1. Meddelandet kan inte levereras.
 1. Information om misslyckad meddelandeleverans loggas.

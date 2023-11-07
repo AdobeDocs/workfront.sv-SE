@@ -5,8 +5,9 @@ title: Nyheter i API-version 15
 description: Adobe Workfront släppte API version 14 den 14 juni 2022. API-version 15 innehåller följande ändringar från version 14.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 0%
@@ -1267,7 +1268,7 @@ Ett Portfolio-objekt är en samling projekt som konkurrerar om samma resurser, v
 
 ### Program (PRGM)
 
-Ett programobjekt är en delmängd av projekt i en portfölj, där liknande projekt kan grupperas tillsammans.
+Ett Program-objekt är en delmängd av projekt i en portfölj, där liknande projekt kan grupperas tillsammans.
 
 <table>
   <col/>
@@ -1360,7 +1361,7 @@ Projekt är arbetsuppgifter inom Workfront och är en viktig byggsten i det sät
 
 Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publicerats i Help Desk-området där användarna kan skicka utgåvor till den.
 
-Mer information om köer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table>
   <col/>

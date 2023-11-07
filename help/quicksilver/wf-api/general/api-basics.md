@@ -5,8 +5,9 @@ title: Grunderna i API
 description: Grunderna i API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -34,7 +35,7 @@ I produktions-, förhandsgransknings- och testmiljöer har slutanvändarförfrå
 
 All användning av API:t bör testas i Workfront beta-miljö innan den körs i produktionsmiljön. Om någon kund använder API för en process som Workfront rimligen anser vara betungande för on-demand-programvaran (dvs. processen orsakar en i hög grad negativ effekt på programvarans prestanda för andra kunder), förbehåller sig Workfront rätten att begära att kunden avbryter denna process. Om kunden inte rättar sig efter detta och problemet kvarstår förbehåller sig Workfront rätten att avsluta processen.
 
-## REST Basics
+## Grundläggande om REST
 
 I det här avsnittet ges en introduktion på hög nivå om hur du interagerar med Workfront REST API för följande REST-principer:
 
@@ -58,12 +59,12 @@ Objekten ändras genom att en HTTP-begäran skickas till deras unika URI. Den å
 
 Standardmetoderna för HTTP motsvarar följande åtgärder:
 
-* **GET** - Hämtar ett objekt med hjälp av ID, söker efter alla objekt med hjälp av en fråga, kör rapporter eller kör namngivna frågor
+* **GET** - Hämtar ett objekt efter ID, söker efter alla objekt med hjälp av en fråga, kör rapporter eller kör namngivna frågor
 * **POST** - Infogar ett nytt objekt
 * **PUT** - Redigerar ett befintligt objekt
 * **DELETE** - Tar bort ett objekt
 
-För att undvika klientbrister eller protokolllängdsbegränsningar kan metodparametern användas för att åsidosätta HTTP-beteendet. En GET-åtgärd kan till exempel implementeras genom följande URI:
+För att undvika klientbrister eller protokolllängdsbegränsningar kan parametern method användas för att åsidosätta HTTP-beteendet. En GET-åtgärd kan till exempel implementeras genom följande URI:
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
 ### Svar
@@ -122,16 +123,22 @@ API:t använder samma cookie-baserade autentisering som används av webbgränssn
 ## Inloggning
 
 >[!IMPORTANT]
+>
 Workfront rekommenderar inte längre att `/login` slutpunkt eller API-nycklar. Använd i stället någon av följande autentiseringsmetoder:
+>
 * Serverautentisering med JWT
 * Användarautentisering med OAuth2
 >
 Instruktioner om hur du konfigurerar dessa autentiseringsmetoder finns i [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 Instruktioner om hur du använder serverautentisering i Workfront finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med JWT-flöde](../../wf-api/api/oauth-app-jwt-flow.md)
+>
 Instruktioner om hur du använder användarautentisering i Workfront finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med hjälp av ett auktoriseringskodsflöde](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
+>
 Det förfarande som beskrivs i detta avsnitt gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Det går inte att logga in på Workfront via Workfront API om din organisation har anslutit sig till Adobe Business Platform.
+>
 En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Med ett giltigt användarnamn och lösenord kan du använda följande begäran för att få ett sessions-ID:
@@ -143,6 +150,7 @@ POST /attask/api/v15.0/login?username=admin&password=user
 Detta ställer in en cookie för att autentisera framtida begäranden samt returnera ett JSON-svar med det nyligen skapade sessions-ID:t, användar-ID:t för den inloggade användaren och andra sessionsattribut.
 
 >[!NOTE]
+>
 Om du har en angiven API-användare som även är administratör rekommenderar Workfront att du loggar in med en API-nyckel.
 
 **Generera en API-nyckel**
@@ -163,7 +171,7 @@ Du kan också hämta en API-nyckel som tidigare har genererats för en viss anv�
 PUT /attask/api/v15.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
 ```
 
-Du kan sedan använda det här resultatet för att autentisera API-anrop genom att lägga till &quot;apiKey&quot; som en begärandeparameter med det här värdet i stället för ett sessions-ID eller användarnamn och lösenord. Detta är fördelaktigt ur säkerhetssynpunkt.
+Du kan sedan använda det här resultatet för att autentisera API-anrop genom att lägga till &quot;apiKey&quot; som en begärandeparameter med det här värdet i stället för ett sessions-ID eller användarnamn och lösenord. Detta är fördelaktigt ur ett säkerhetsperspektiv.
 
 Följande begäran är ett exempel på hur du hämtar data från ett projekt med apiKey:
 
@@ -191,7 +199,7 @@ GET /attask/api/v15.0/logout?sessionID=abc1234
 
 Det sessions-ID som ska loggas ut kan anges antingen som en cookie, begäranhuvud eller begärandeparameter.
 
-Så här loggar du ut en användare:
+Logga ut en användare:
 
 1. Navigera till inloggningsskärmen, men logga inte in.
 1. Ändra URL:en till /attask/api/v15.0/project/search.\
@@ -206,7 +214,7 @@ Du måste alltid inkludera det sessions-ID som anges efter inloggning när du g�
 
 ## GET
 
-Använd metoden HTTP GET för att hämta ett eller flera objekt och köra rapporter.
+Använd HTTP GET-metoden för att hämta ett eller flera objekt och för att köra rapporter.
 
 ### Hämtar objekt
 
@@ -232,7 +240,7 @@ Du kan hämta flera objekt i samma begäran genom att ange parametern id request
 GET /attask/api/v15.0/project?id=4c78...54d0,4c78...54d1
 ```
 
-Lägg märke till /attask/api/v15.0/project?id=.. begäran är densamma som `/attask/api/v15.0/project/...` begäran.
+Lägg märke till att begäran /attask/api/v15.0/project?id=.. är densamma som `/attask/api/v15.0/project/...` begäran.
 
 #### Hämta ett objekt med URI:n
 
@@ -263,11 +271,11 @@ I följande tabell visas några modifierare som du kan använda med Workfront AP
 
 | **Modifierare** | **Beskrivning** | **Exempel** |
 |---|---|---|
-| eq | returnerar resultat som har statusen stängd | <pre>...status=cls&amp;status_Mod=eq..</pre> |
+| eq | returnerar resultat som har statusen stängd | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | ne | returnerar resultat som inte har statusen stängd | <pre>...status=cls&amp;status_Mod=ne..</pre> |
 | gte | returnerar resultat som har en procentandel färdig som är större än eller lika med 50 | <pre>...percentComplete=50&amp;percentComplete_Mod=get...</pre> |
 | lte | returnerar resultat som har en procentandel färdig som är mindre än eller lika med 50 | <pre>...percentComplete=50&amp;percentComplete_Mod=lte..</pre> |
-| är null | returnerar resultat där beskrivningen är null | <pre>...description_Mod=is null..</pre> |
+| är null | returnerar resultat där beskrivningen är Null | <pre>...description_Mod=är null...</pre> |
 | notnull | returnerar resultat där beskrivningen inte är Null | <pre>...description_Mod=not null..</pre> |
 | innehåller | returnerar resultat där namnet innehåller &quot;Workfront&quot; | <pre>...name=Workfront&amp;name_Mod=contains...</pre> |
 | mellan | returnerar resultat som har ett anmälningsdatum inom de senaste 7 dagarna | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
@@ -275,6 +283,7 @@ I följande tabell visas några modifierare som du kan använda med Workfront AP
 {style="table-layout:auto"}
 
 >[!NOTE]
+>
 Sökbegäranden är skiftlägeskänsliga. Om du får ett felmeddelande bör du kontrollera  **_Mod** och **_Intervall** har rätt skiftläge.
 
 #### Använda ELLER-satser
@@ -286,7 +295,7 @@ En OR-programsats returnerar bara poster i API-anropet som uppfyller OR-programs
 Om du till exempel vill filtrera efter
 
 * Uppgifter som har ett namn som innehåller &quot;Planning&quot; ELLER
-* Uppgifter i en portfölj med namnet&quot;FixedAssets&quot; OCH tilldelade till någon med ett namn som innehåller&quot;Steve&quot; OR
+* Uppgifter i en portfölj med namnet&quot;FixedAssets&quot; OCH tilldelade till någon med namnet&quot;Steve&quot; OR
 * Uppgifter som har en överordnad aktivitet med namnet &quot;Slutlig aktivitet&quot;
 
 Använd sedan följande API-anrop med dess flera OR-satser:
@@ -305,7 +314,7 @@ Du kan undvika det här problemet genom att placera dessa värden i filterparame
 
 Som standard är data som returneras från en sökning en JSON-array. Beroende på ditt sätt att arbeta kan det vara mer effektivt att få resultatet som ett JSON-objekt indexerat med ID. Detta kan du göra genom att använda parametern för mappningsbegäran. Till exempel begäran 
 <pre>/attask/api/v15.0/task/search?map=true</pre>returnerar ett svar som indexerats med ett ID som liknar följande:
-<pre>{<br>    "data": {<br>        "4c9a97db000000f13ee446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": första uppgift,<br>            "ID": "4c9a97db000000f13ee446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "andra uppgift",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
+<pre>{<br>    "data": {<br>        "4c9a97db000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": "first task",<br>            "ID": "4c9a97db000000f13ee446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "second task",<br>            "ID": "4ca28ba60002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
 
 #### Använda parametern Fältbegäran
 
@@ -313,9 +322,10 @@ Som standard returneras bara den mest använda delmängden av fält när du häm
 
 Du kan använda fältparametern request för att ange att en kommaavgränsad lista med specifika fält returneras. Till exempel begäran
 <pre>/attask/api/v15.0/task/search?fields=planningStartDate,priority</pre>returnerar ett svar som liknar följande:
-<pre>{<br>    prioritet: 2,<br>    "name": första uppgift,<br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
+<pre>{<br>    prioritet: 2,<br>    "name": "first task",<br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
+>
 Dessa fältnamn är skiftlägeskänsliga.
 
 En lista över möjliga fältreferenser finns i  [API Explorer](../../wf-api/general/api-explorer.md)
@@ -325,7 +335,7 @@ En lista över möjliga fältreferenser finns i  [API Explorer](../../wf-api/ge
 Du kan söka efter kapslade objekt. Som standard returneras kapslade objekt med endast namn och ID. Om du till exempel vill hämta alla problem tillsammans med deras ägare använder du följande begäran:
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Om mer information krävs kan du begära ett kapslat fält med kolonsyntax. Följande begäran söker till exempel efter alla problem tillsammans med ägarens namn, ID, titel och telefonnummer
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>och returnerar följande: 
-<pre>{<br>    "name": "en viktig fråga",<br>    "ID": "4c78285f0000908ea8cfd66e084939f",<br>    ägare: {<br>        "title": "Operationsspecialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>{<br>    "name": "an important issue",<br>    "ID": "4c78285f0000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Hämtar kapslade samlingar
 
@@ -342,9 +352,9 @@ Som standard returneras bara namnet och ID för varje uppgift, men ytterligare k
 
 Du kan hämta anpassade datafält med prefixet&quot;DE:&quot;. Om du till exempel vill begära ett projekt med en parameter som heter&quot;CustomText&quot; använder du följande begäran:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>som skulle returnera
-<pre>{<br>    "name": "anpassat dataprojekt",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Du kan också hämta alla anpassade data för ett objekt genom att begära fältet parameterValues. Exempel, 
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Du kan också hämta alla anpassade data för ett objekt genom att begära fältet parameterValues. Exempel, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>returnerar liknande data som följande:
-<pre>{<br>    "name": "anpassat dataprojekt",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
 #### Använda namngivna frågor
 
@@ -400,7 +410,7 @@ För att få optimala prestanda visas i följande tabell de begränsningar som f
   <tr> 
    <td>Maximalt antal resultat</td> 
    <td>2,000</td> 
-   <td>Frågefiltret (dvs. $$LIMIT) kan inte returnera fler än 2 000 resultat. Mer information finns i Sidnumrerade svar.</td> 
+   <td>Frågefiltret (dvs. $$LIMIT) kan inte returnera fler än 2 000 resultat. Mer information finns i"Sidnumrerade svar".</td> 
   </tr> 
   <tr> 
    <td>Maximalt fältdjup</td> 
@@ -444,7 +454,7 @@ Använd en sorteringsparameter för att försäkra dig om att resultatet är rä
 Du kan skapa en åtkomstregel som avgör vem som får åtkomst till ett objekt. Nedan följer exempel på åtkomstregler som du kan ange:
 
 Om du vill ställa in ett projekt så att det bara delas med en användare med ID &quot;abc123&quot; använder du följande begäran:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Om du bara vill dela med en ny person och behålla befintliga behörigheter intakta:
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Om du bara vill dela med en ny person och behålla befintliga behörigheter intakta:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>Så här hämtar du befintliga åtkomstregler:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
@@ -470,7 +480,7 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 Du kan överföra dokument via följande API-URL:
 <pre>POST /attask/api/v15.0/upload</pre>API förväntar sig att innehållstypen ska vara multipart/form-data. Filens parameternamn måste vara uploadedFile. Servern returnerar följande JSON-data:
 <pre>{<br>    "handle": "4c7c08fa000002ff924e298ee148df4"<br>}</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
-<pre>POST /attask/api/v15.0/document?updates={<br>    namn: aFileName,<br>    referens: abc...123, (referens från filöverföringen)<br>    docObjCode: PROJ, (eller UPPGIFT, OPTASK osv.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>}</pre>
+<pre>POST /attask/api/v15.0/document?updates={<br>    name: aFileName,<br>    handle: abc...123, (handle from the file upload)<br>    docObjCode: PROJ, (eller TASK, OPTASK osv.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>}</pre>
 
 ## PUT
 
@@ -486,17 +496,18 @@ Objekten uppdateras alltid med ID:t med objektets unika URI. Fält som ska uppda
 ### Ange JSON-redigeringar
 
 Som visas i följande exempel kan du använda parametern för uppdateringsbegäran för att ange de fält som ska uppdateras med JSON-syntax:
-<pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{<br>     namn: "Nytt projektnamn", <br>     status: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{<br>     Namn:"Nytt projektnamn". <br>     status: "CUR", <br>     ... <br>}</pre>
 
 ### Skapa kapslade uppdateringar
 
 Vissa objekt har privatägda samlingar som kan uppdateras. I följande exempel visas hur du skriver över befintliga tilldelningar för en viss uppgift:
-<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>    uppdrag: [ <br>        { <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        },{ <br>            roleID: "111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>    tilldelningar: [ <br>        { <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
+>
 Uppdateringar som görs på den översta nivån är små, men uppdateringar av en samling eller ett kapslat objekt ersätter den befintliga samlingen. Om du vill redigera ett enstaka uppdrag i en uppgift utan att påverka objekten använder du PUT i uppdraget i stället för i uppgiften.
 
-I följande exempel blir ett projekt en offentlig helpdesk-kö. Observera att befintliga köegenskaper ersätts.
+I följande exempel blir ett projekt en offentlig helpdesk-kö. Observera att de befintliga köegenskaperna ersätts.
 <pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
 
 ### Använda parametern Åtgärdsbegäran
@@ -507,11 +518,11 @@ Vissa objekt har stöd för ytterligare åtgärder som kan utföras utöver enkl
 ### Flytta objekt
 
 I följande exempel visas syntaxen för att flytta en uppgift från ett projekt till ett annat:
-<pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8..</pre>Ett exempel för varje åtgärdstyp finns här: (?)
+<pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8..</pre>Ett exempel för varje åtgärdstyp finns här: (??)
 <pre>PUT /attask/api/v15.0/project/1234/approvedApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/revgApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Det är bara flyttåtgärden som kräver att du identifierar ytterligare attribut för att ange vilket projekt som arbetsposten ska flyttas till.
 
 Följande är ett exempel på varje åtgärdstyp: 
-<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VISA'}]}</pre>
+<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
 
 ### Dela objekt
 
@@ -529,9 +540,10 @@ DELETE tar bort ett objekt. I samtliga fall kan URI:n innehålla parametern forc
 
 En satsvisa uppdateringssats uppdaterar flera objekt samtidigt i ett enda API-anrop. Ett API-anrop för att skapa satsvis byggs på liknande sätt som ett vanligt uppdateringsanrop, vilket visas i följande exempel:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planeratStartdatum: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planeratStartdatum: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>Du kan också göra en gruppuppdatering som liknar följande:
+<pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>Du kan också göra en gruppuppdatering som liknar följande:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     namn: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planeratStartdatum: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planeratStartdatum: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
+<pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a40078",<br>     namn: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
 
 >[!NOTE]
-Atombatchoperationer kan bara returnera &quot;lyckades: true&quot; eller ett fel.
+>
+Atombatchåtgärder kan bara returnera &quot;success: true&quot; eller ett fel.

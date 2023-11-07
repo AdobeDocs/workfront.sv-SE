@@ -5,8 +5,9 @@ title: Auktoriseringskodflöde för anpassade OAuth 2-program
 description: Auktoriseringskodflöde för anpassade OAuth 2-program
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -21,8 +22,8 @@ Om du vill integrera med Workfront och tillåta klientappen att kommunicera med 
 * Skapa ett OAuth2-program
 * Konfigurera tredjepartsprogrammet
 * Länk till sidan Autentisera för dina användare
-* Ställ in auktoriseringskodflöde: Användare loggar in på Workfront-instansen och godkänner att klientprogrammet tillåter att de ansluter till Workfront för deras räkning. Därför får du en auktoriseringskod som du byter ut med åtkomst- och uppdateringstokens.
-* Ställ in Uppdatera tokenflöde: I det här flödet använder du uppdateringstoken för att hämta en ny åtkomsttoken när den gamla har upphört att gälla.
+* Konfigurera auktoriseringskodflöde: Användare loggar in på Workfront-instansen och godkänner att klientprogrammet tillåter att de ansluter till Workfront för deras räkning. Därför får du en auktoriseringskod som du byter ut med åtkomst- och uppdateringstokens.
+* Konfigurera uppdateringstokenflöde: I det här flödet använder du uppdateringstoken för att hämta en ny åtkomsttoken när den gamla har upphört att gälla.
 
 ## Skapa ett OAuth2-program
 
@@ -30,13 +31,13 @@ Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett OAuth2-progr
 
 ## Länk till sidan Autentisera för dina användare
 
-Dina användare måste logga in för att godkänna den här integreringen på sina egna konton. Sidan som de ska godkänna har ett specifikt format, som beskrivs här. Använd den här informationen för att fastställa adressen till appens auktoriseringssida och förse användarna med den här adressen eller en länk till den.
+Dina användare måste logga in för att godkänna integreringen på sina egna konton. Sidan som de ska godkänna har ett specifikt format, som beskrivs här. Använd den här informationen för att fastställa adressen till appens auktoriseringssida och förse användarna med den här adressen eller en länk till den.
 
 * Den fullständiga URL:en till din organisations domän. Exempel:
 
-   ```
-   https://myorganization.my.workfront.com
-   ```
+  ```
+  https://myorganization.my.workfront.com
+  ```
 
 
 * `client_id`: Detta är det klient-ID som genererades när du skapade OAuth2-appen i Workfront.
@@ -64,7 +65,7 @@ Tredjepartsprogrammet kan kräva konfiguration. Följande tabell innehåller inf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">URI för auktorisering</td> 
+   <td role="rowheader">Auktoriserings-URI</td> 
    <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
   </tr> 
   <tr> 
@@ -93,12 +94,12 @@ Så här loggar du in användare med OAuth2:
 1. Om användaren tillåter åtkomst omdirigeras sidan till `redirect_url`. Omdirigeringen måste innehålla följande frågeparametrar:
 
 * `code`: Auktoriseringskoden som krävs för att hämta åtkomsttoken/uppdateringstoken.
-* `domain`: Din organisations domän. Exempel: in `myorganization.my.workfront.com`, domänen är `myorganization`.
-* `lane`: begärans körfält. Exempel: in `myorganization.preview.workfront.com`är `preview`.
+* `domain`: Din organisations domän. Exempel: i `myorganization.my.workfront.com`, domänen är `myorganization`.
+* `lane`: begärans körfält. Exempel: i `myorganization.preview.workfront.com`, är `preview`.
 
-   >[!IMPORTANT]
-   >
-   >The `code` är endast giltigt i 2 minuter. Därför måste du hämta uppdaterings- och åtkomsttoken inom den tiden.
+  >[!IMPORTANT]
+  >
+  >The `code` är endast giltigt i 2 minuter. Därför måste du hämta uppdaterings- och åtkomsttoken inom den tiden.
 
 1. När du har en kod kan du begära uppdatering och åtkomst till tokens genom att skicka koden tillsammans med klientprogrammets autentiseringsuppgifter till `/integrations/oauth2/api/v1/token` slutpunkt.
 

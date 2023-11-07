@@ -2,12 +2,13 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Testa webkroanslutningar
-description: Testa webkroanslutningar
+title: Testa webkrockanslutningar
+description: Testa webkrockanslutningar
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 ---
 
 
-# Testa webkroanslutningar
+# Testa webkrockanslutningar
 
 Kör de manuella testerna i det här avsnittet för att kontrollera att implementeringen av dokumentwebkroken fungerar som den ska. Dessa steg går igenom Adobe Workfront webbgränssnitt och når indirekt slutpunkterna för webkromimplementeringen.
 
@@ -27,20 +28,20 @@ Följande krav krävs för att köra testerna:
 
 * En Workfront-användare för det här kontot med systemadministratörsbehörighet
 
-* En webkrok-instans för dokument med HTTP-slutpunkter som är tillgängliga för Workfront
+* En webkrockinstans för dokument med HTTP-slutpunkter som är tillgängliga för Workfront
 
 Dessa tester förutsätter också att din Document Webkroch-instans är registrerad. (Du kan registrera din instans i Workfront under Konfigurera > Dokument > Anpassade integreringar.)
 
-**Test 1: Tillhandahålla webbkroktjänsten för dokument för en användare**
+**Test 1: Tillhandahåll Document Webkroch-tjänsten för en användare**
 
 Testar autentiserings-URL:en och tokens slutpunkts-URL:en för OAuth-baserade webkrockproviders.
 
 1. I Workfront går du till huvuddokumentsidan genom att klicka på länken Dokument i det övre navigeringsfältet.
 1. Klicka på listrutan Lägg till dokument och välj webbhotell för dokument under Lägg till tjänst.
-1. (Endast OAuth-tjänster) När du har slutfört föregående steg visas tjänstens OAuth2-autentiseringssida i ett popup-fönster. (Obs! kan du uppmanas att logga in på tjänsten först.) Från autentiseringssidan ger du Workfront åtkomst till användarens konto genom att klicka på knappen Lita på eller Tillåt.
+1. (Endast OAuth-tjänster) När du har slutfört föregående steg visas tjänstens OAuth2-autentiseringssida i ett popup-fönster. (Obs! Du kan uppmanas att logga in på tjänsten först.) Från autentiseringssidan ger du Workfront åtkomst till användarens konto genom att klicka på knappen Lita på eller Tillåt.
 1. Kontrollera att tjänsten har lagts till i listrutan Lägg till dokument. Om du inte ser den från början kan du försöka med att uppdatera webbläsaren.
 
-**Test 2: Länka ett dokument till Workfront Testar följande slutpunkter: /filer, /metadata**
+**Test 2: Länka ett dokument till Workfront Testar följande slutpunkter: /files, /metadata**
 
 1. I Workfront går du till huvuddokumentsidan genom att klicka på länken Dokument i det övre navigeringsfältet.
 1. Välj webbkroktjänsten för dokument under Lägg till dokument.
@@ -50,7 +51,7 @@ Testar autentiserings-URL:en och tokens slutpunkts-URL:en för OAuth-baserade we
 
 **Test 3: Navigera till ett dokument i innehållshanteringssystemet**
 
-Testar följande slutpunkter: /metadata (specifikt viewLink)
+Testar följande slutpunkter: /metadata (särskilt viewLink)
 
 1. Länka ett dokument till Workfront
 1. Markera dokumentet och klicka på länken Öppna.
@@ -58,7 +59,7 @@ Testar följande slutpunkter: /metadata (specifikt viewLink)
 
 **Test 4: Navigera till ett dokument i innehållshanteringssystemet (med inloggning)**
 
-Testar följande slutpunkter: /metadata (specifikt viewLink)
+Testar följande slutpunkter: /metadata (särskilt viewLink)
 
 1. Se till att du är utloggad från innehållshanteringssystemet.
 1. Länka ett dokument till Workfront.
@@ -83,7 +84,7 @@ Testar följande slutpunkter: /search
 1. Utför en sökning från modal.
 1. Kontrollera att sökresultaten är korrekta.
 
-**Test 7: Skicka dokument från Workfront till innehållshanteringssystemet**
+**Test 7: Skicka dokument från Workfront till content management-systemet**
 
 Testar följande slutpunkter: /files, /uploadInit, /upload
 
@@ -111,9 +112,9 @@ Testar följande slutpunkter: /download
 1. Skicka dokumentet till Workfront genom att välja Dokumentåtgärder > Skicka till.. > Workfront. Då skapas en ny dokumentversion i Workfront.
 1. Hämta dokumentet från Workfront genom att klicka på länken Hämta.
 
-**Test 10: Uppdatera åtkomsttoken (endast OAuth2 Webkrok-providers)**
+**Test 10: Uppdatera åtkomsttoken (endast OAuth2 Webkrok providers)**
 
-Testar följande slutpunkter: URL för tokenslutpunkt
+Testar följande slutpunkter: Token Endpoint URL
 
 1. Tillhandahålla en webbkroktjänst för dokument för en användare
 1. Invalidera användarens åtkomsttoken genom att antingen 1 ) vänta på timeout eller 2) ogiltigförklara den manuellt i det externa systemet.
@@ -121,4 +122,4 @@ Testar följande slutpunkter: URL för tokenslutpunkt
 
 >[!NOTE]
 >
->För närvarande skickar du till.. är inte tillgängligt för länkade dokument. Detta kommer att läggas till av Workfront. Du kan testa slutpunkten för /download genom att trycka på slutpunkten manuellt med en REST-klient, till exempel Postman. Alternativt kan du testa slutpunkten för /download genom att generera ett digitalt korrektur. Om du vill aktivera korrektur på webben kontaktar du Workfront.
+>För närvarande är Skicka till inte tillgängligt för länkade dokument. Detta läggs till av Workfront. Du kan testa slutpunkten för /download genom att trycka på slutpunkten manuellt med en REST-klient, till exempel Postman. Alternativt kan du testa slutpunkten för /download genom att generera ett digitalt korrektur. Om du vill aktivera korrektur på webben kontaktar du Workfront.

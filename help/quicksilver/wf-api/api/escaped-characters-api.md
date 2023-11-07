@@ -5,8 +5,9 @@ title: Inaktuella tecken i API-svar
 description: Inaktuella tecken i API-svar
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 7%
@@ -32,7 +33,7 @@ Hexadecimal escape-sekvens kräver att giltiga hexadecimala siffror används. I 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>\u000<em>x</em></p> <p>Var <em>x</em> är den hexadecimala koden för talen 0 till 7</p> </td> 
+   <td> <p>\u000<em>x</em></p> <p>Var, <em>x</em> är den hexadecimala koden för talen 0 till 7</p> </td> 
    <td>0-7</td> 
    <td>Unicode-tecken som representeras av kodpunkterna 0 till 7</td> 
   </tr> 
@@ -87,7 +88,7 @@ Hexadecimal escape-sekvens kräver att giltiga hexadecimala siffror används. I 
    <td>\ (omvänt snedstreck)</td> 
   </tr> 
   <tr> 
-   <td> <p>\u<em>xxxx</em></p> <p>Var <em>xxxx</em> är den hexadecimala koden för tal över 127</p> </td> 
+   <td> <p>\u<em>xxxx</em></p> <p>Var, <em>xxxx</em> är den hexadecimala koden för tal över 127</p> </td> 
    <td>128+</td> 
    <td>Unicode-tecken för alla kodpunkter över 127</td> 
   </tr> 
