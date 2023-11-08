@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d666b54f3bb13f2ad923b819774ac4f849db75e8
+source-git-commit: 0fca20c1745afdb1d573f12fc8e608d331065e32
 workflow-type: tm+mt
-source-wordcount: '13383'
+source-wordcount: '13391'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 0%
       * [Produktreleaser - översikt](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront-releaseschema och -process](product-announcements/product-releases/workfront-release-schedule.md)
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * 2023 Q4-utgåvan {#release-24-q1}
+         * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+         * [2024 Q1-integreringsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
       * 2023 Q4-utgåvan {#release-23-q4}
          * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023 Q4 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
