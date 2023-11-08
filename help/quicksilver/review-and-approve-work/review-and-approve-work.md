@@ -3,21 +3,21 @@ content-type: reference
 product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Granska och godkänn arbetet
-description: Det här avsnittet innehåller följande underavsnitt – EDIT ME.
-author: Courtney
+description: Du kan associera godkännanden med arbete eller med dokument i Adobe Workfront.
+author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 29%
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
 # Granska och godkänn arbetet
 
-Det här avsnittet innehåller följande underavsnitt:
+Följande artiklar innehåller information om hur du associerar godkännanden med arbete, dokument eller korrektur.
 
 <!-- * [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md) -->
 * [Arbetsgodkännanden](../review-and-approve-work/manage-approvals/manage-approvals.md)

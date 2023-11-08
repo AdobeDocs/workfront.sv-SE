@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: beräkna tid- och datumskillnader'
-description: Du kan beräkna skillnaden mellan följande - REDIGERA ME.
+description: Skapa en vy som visar skillnaden mellan två datumfält på ett objekt eller mellan ett datumfält på ett objekt och ett annat datumfält på det överordnade objektet.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Du kan till exempel beräkna skillnaden mellan Planerat slutförandedatum och Fa
 1. Klicka **Lägg till kolumn** och sedan klicka **Växla till textläge**.
 
 1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
+1. Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med följande kod:
 
    ```
    displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
@@ -102,18 +102,18 @@ Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet
 1. Klicka **Lägg till kolumn** och sedan klicka **Växla till textläge**.
 
 1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med någon av följande koder:
+1. Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med någon av följande koder:
 
    * Så här visar du skillnaden mellan projektets planerade slutförandedatum och aktivitetens datum:
 
-      ```
-      displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
-      ```
+     ```
+     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+     ```
 
    * Så här visar du skillnaden mellan planerat slutförandedatum för den överordnade aktiviteten och aktivitetens datum:
 
-      ```
-      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
-      ```
+     ```
+     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+     ```
 
 1. Klicka **Spara** sedan **Spara vy**.

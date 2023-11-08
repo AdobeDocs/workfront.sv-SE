@@ -1,13 +1,13 @@
 ---
 title: Adobe Maestro-lansering
-description: Använd maestro för att skapa egna objekt, fält och arbetsytor.
+description: Adobe Maestro är för närvarande tillgängligt för utvalda Workfront-kunder. Läs den här artikeln ofta och lär dig mer om de funktioner som nyligen släppts för Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ De släppta funktionerna listas i den ordning de släpps, med den senaste först
 I det här avsnittet beskrivs de funktioner och korrigeringar som har släppts efter lanseringen av Maestro-betaprogrammet, som avslutades den 22 maj 2023.
 
 Funktionerna släpps varje vecka och visas i den ordning de släpps, med den senaste först. Kunder som deltar i det nedstängda betaprogrammet från Maestro har tillgång till alla funktioner i sina förhandsgransknings- och produktionsmiljöer.
+
+## Vecka 6 november 2023
+
+### Gruppering för registervyn
+
+Förhandsgranska och producera: 7 november 2023
+
+Nu kan du gruppera poster i tabellvyn för en posttypsida. Du kan gruppera efter tre unika fält i Maestro-gränssnittet <!--checking into this for now: and by four fields when using the API-->.
+
+Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-view.md).
 
 ## Vecka 30 oktober 2023
 

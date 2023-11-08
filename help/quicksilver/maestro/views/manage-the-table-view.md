@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2069'
 ht-degree: 0%
 
 ---
@@ -319,45 +319,55 @@ Så här lägger du till ett filter i en tabellvy:
 
 1. (Valfritt) Klicka på **Filter** och klickar sedan på **x** för att ta bort ett filter. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### Lägg till grupperingar {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+Du kan gruppera poster efter liknande information när du tillämpar en gruppering på en vy.
 
-You can group records by similar information when applying  a grouping to a view.
+Att lägga till grupperingar i tabellvyn påminner om att lägga till grupperingar i tidslinjevyn.
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+Tänk på följande:
 
-Consider the following:
+* Du kan använda grupperingar både i tabell- och tidslinjevyerna. Grupperingarna i tabellvyn är oberoende av grupperingarna i tidslinjevyn av samma posttyp.
+* Du kan använda tre nivåer av gruppering i en maestro-vy. Posterna grupperas i den ordning som du väljer grupperingar.
+&lt;!—* Du kan använda upp till fyra nivåer av gruppering när du använder API:t. —check on this for now—>
+* Grupperingarna är unika för den vy du väljer. Två tabellvyer av samma posttyp kan ha olika grupperingar. Två användare som tittar på samma tabellvy ser samma gruppering som används för närvarande.
+* Du kan inte namnge grupperingarna som du skapar för en tabellvy.
+* Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
+* Du kan redigera poster som listas under en gruppering.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+Så här lägger du till en gruppering:
 
-To add a grouping:
+1. Skapa en tidslinjevy för en posttyp, enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
+1. Klicka **Gruppering** i det övre högra hörnet av tidslinjevyn.
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** söker du efter ett annat fält och klickar sedan på det när det visas i listan.
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >Du kan inte markera länkade fält.
 
--->
+   Grupperingen tillämpas automatiskt på tabellen och posterna visas under grupperingsseparationslinjen
+
+1. (Valfritt) Upprepa stegen ovan om du vill lägga till upp till tre grupperingar.
+
+   Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. (Valfritt) I **Gruppera poster efter** klickar du på **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
+
+   eller
+
+   Klicka **Rensa alla** om du vill ta bort alla fält.
+
+1. Klicka utanför **Gruppera poster efter** för att stänga den.
+1. (Valfritt) Klicka på **+ Ny &lt; posttypnamn >** i slutet av en gruppering för att lägga till nya poster, och sedan uppdatera sidan för att lägga till den nya posten i rätt gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Lägg till en sortering {#sort-information}
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -120,8 +120,6 @@ Tänk på följande:
      * Edit record information
 -->
 
-När du skapar en tidslinjevy visas alla poster av den valda posttypen som fält på en tidslinje som standard.
-
 Så här hanterar du en tidslinjevy:
 
 1. Gå till den posttypssida som du vill visa tidslinjen för.
@@ -129,7 +127,7 @@ Så här hanterar du en tidslinjevy:
 
    ![](assets/timeline-view-example.png)
 
-   Posterna som är associerade med den posttyp du valde visas som staplar på en kronologisk tidslinje.
+   Posterna som är associerade med den posttyp du valde visas som staplar på en tidslinje och sorteras i kronologisk ordning som standard.
 
 1. Navigera genom tidslinjen på något av följande sätt:
 
@@ -176,26 +174,22 @@ Tänk på följande när du arbetar med filter i tidslinjevyn:
 
 ### Lägg till gruppering
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Du kan gruppera poster efter liknande information när du tillämpar en gruppering på en vy.
 
+Att lägga till grupperingar i tidslinjevyn påminner om att lägga till grupperingar i tabellvyn.
+
 Tänk på följande när du arbetar med grupperingar i tidslinjevyn:
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* Du kan använda grupperingar både i tabell- och tidslinjevyerna. Grupperingarna i tabellvyn är oberoende av grupperingarna i tidslinjevyn av samma posttyp.
 * Du kan använda tre nivåer av gruppering i en maestro-vy. Posterna grupperas i den ordning som du väljer grupperingar.
 * Du kan använda upp till fyra nivåer av gruppering när du använder API:t.
 * Grupperingarna är unika för den vy du väljer. Två tidslinjevyer av samma posttyp kan ha olika grupperingar. Två användare som tittar på samma tidslinjevy ser samma gruppering som används för närvarande.
-
 * Du kan inte namnge grupperingarna som du skapar för en tidslinjevy.
-
 * Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
 
-Så här lägger du till en gruppering:
+Så här lägger du till en gruppering i tidslinjevyn:
 
 1. Skapa en tidslinjevy för en posttyp, enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
 1. Klicka **Gruppering** i det övre högra hörnet av tidslinjevyn.
@@ -218,7 +212,7 @@ Så här lägger du till en gruppering:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Valfritt) Klicka på **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
+1. (Valfritt) I **Gruppera poster efter** klickar du på **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
    eller
 

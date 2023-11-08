@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 0%
 
 Som en [!DNL Adobe Workfront] kan du ange inställningar för tidrapporter och timmar på [!DNL Workfront] för att definiera vilka objekt tidrapporterna kan förifyllas med och vilka objekt som användarna kan logga tid på.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Objekt som du loggade tid för under tidsramen för tidrapporten visas som standard i tidrapporten, även om de inte uppfyller villkoren som beskrivs i den här artikeln för att fylla i tidrapporten i förväg.
+>Förutom de objekt som förifyller en tidrapport enligt villkoren som beskrivs i den här artikeln, visas även följande objekt på tidrapporter som standard:
+>* Objekt som du loggade tid för under tidsramen i tidrapporten
+>* Objekt som är fästa på tidrapporten
+>* Objekt som du söker efter och lägger till manuellt i tidrapporten. Manuellt tillagda objekt fästs som standard.
 >
->Mer information om loggningstid finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 Alla ändringar du gör i tidrapporter påverkar alla tidrapporter som skapas i framtiden.
