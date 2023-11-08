@@ -4,9 +4,9 @@ description: Versionsöversikt för fjärde kvartalet 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
 workflow-type: tm+mt
-source-wordcount: '2695'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Underuppgifter finns nu på Adobe Workfront Boards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla befintliga underaktiviteter till kortet. När du skapar en underaktivitet på ett anslutet kort läggs en underaktivitet till i Workfront-aktiviteten.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Underuppgifter finns nu på Adobe Workfront Boards</a> <span style="color: #ff0000; font-weight: bold;">(Tillfälligt otillgängligt den 7 november 2023)</span></p><p>[!BADGE In production ]{type=Informative}</p><p>När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla befintliga underaktiviteter till kortet. När du skapar en underaktivitet på ett anslutet kort läggs en underaktivitet till i Workfront-aktiviteten.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>

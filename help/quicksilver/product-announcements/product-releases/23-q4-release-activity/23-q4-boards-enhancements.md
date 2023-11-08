@@ -3,9 +3,10 @@ title: Förbättringar av fjärde kvarteret 2023-kort
 description: Förbättringar av fjärde kvarteret 2023-kort
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 4a527328-df5d-446a-899c-a613131c7001
+source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,10 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 Mer information om hur du väljer att använda nya funktioner i Boards före kvartalsversionen finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Underuppgifter finns nu på Adobe Workfront Boards
+
+>[!NOTE]
+>
+>Den här funktionen är inte tillgänglig från och med 7 november 2023. Den här sidan uppdateras när funktionen är tillgänglig.
 
 När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla befintliga underaktiviteter till kortet. När du skapar en underaktivitet på ett anslutet kort läggs en underaktivitet till i Workfront-aktiviteten.
 
