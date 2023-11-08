@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2123'
 ht-degree: 0%
 
 ---
@@ -56,12 +56,15 @@ Följande Workfront-objekt stöds av händelseprenumerationer.
 * Kontrollpanel
 * Dokument
 * Utgift
+* Fält
 * Timme
 * Problem
 * Anteckning
 * Portfolio
 * Program
 * Projekt
+* Post
+* Posttyp
 * Rapport
 * Uppgift
 * Mall
@@ -122,6 +125,10 @@ Prenumerationsresursen innehåller följande fält.
         <td scope="col">EXPNS</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Fält</p></td> 
+        <td scope="col"><p>FÄLT</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>Timme</p></td> 
         <td scope="col">TIMME</td> 
        </tr> 
@@ -144,6 +151,14 @@ Prenumerationsresursen innehåller följande fält.
        <tr> 
         <td scope="col"><p>Projekt</p></td> 
         <td scope="col"><p>PROJ</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Post</p></td> 
+        <td scope="col"><p>POST</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Posttyp</p></td> 
+        <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Rapport</p></td> 
