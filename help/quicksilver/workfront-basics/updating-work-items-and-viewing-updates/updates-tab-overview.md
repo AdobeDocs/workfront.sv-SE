@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -172,8 +172,11 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
    <td>Team</td> 
   </tr> 
   <tr> 
-   <td>Tidrapport*</td> 
-   <td>Användare, team</td> 
+   <td>Tidrapport</td> 
+   <td><p>Användare, team</p>
+   <p><b>ANMÄRKNING</b></p>
+   <p>Tidrapportkommentarer visas i uppdateringsavsnittet för den användare som gör kommentaren och uppdateringsavsnittet i sin hemgrupp.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Malluppgift</td> 
@@ -184,7 +187,7 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
    <td>Iteration, Team</td> 
   </tr> 
   <tr> 
-   <td>Iteration*</td> 
+   <td>Upprepning</td> 
    <td>Team</td> 
   </tr>
 
@@ -198,7 +201,7 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
   </tr> 
  </tbody> 
 </table>
-* Dessa är inte tillgängliga för den nya kommentarsfunktionen.
+
 
 <br>
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,7 @@ Så här lägger du till en gruppering i tidslinjevyn:
    Klicka **Rensa alla** om du vill ta bort alla fält.
 
 1. Klicka utanför **Gruppera poster efter** för att stänga den.
+1. (Valfritt) Klicka på **Inställningar** sedan **Färg** till färgkodsgrupperingar. Mer information finns i [Redigera inställningarna för tidslinjevyn](#edit-the-timeline-view-settings) i den här artikeln.
 
 <!-- 
 

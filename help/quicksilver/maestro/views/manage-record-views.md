@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ I följande tabell visas likheter och skillnader mellan tabell- och tidslinjevye
 
 ## Skapa eller redigera vyer {#create-or-edit-views}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) längst upp till höger <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->och sedan klicka **Maestro** ![](assets/maestro-icon.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** icon ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
 Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture-and-fields/create-workspaces.md).
 1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture-and-fields/create-record-types.md).
 

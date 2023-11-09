@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Dela postlänkar från posttypstabellvyn
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> klicka sedan på **Maestro**.
+1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro**.
 
    Arbetsytan som du senast öppnade öppnas.
 1. Klicka på ett posttypskort.
@@ -110,7 +110,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Håll muspekaren över en posts namn och klicka sedan på Mer-menyn ![](assets/more-menu.png)och sedan klicka **Kopiera länk**.
+   Håll muspekaren över en posts namn och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Kopiera länk**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
