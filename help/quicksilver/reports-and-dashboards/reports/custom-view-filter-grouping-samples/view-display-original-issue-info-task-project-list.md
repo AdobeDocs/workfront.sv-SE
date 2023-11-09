@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: visa ursprunglig probleminformation för uppgifter och projektlistor'
-description: Du kan visa följande information från den ursprungliga utgåvan i en vy över uppgifts- och projektlistor efter att utgåvan har konverterats till aktiviteterna och projekten i listan - EDIT ME.
+title: 'Visa: visa information om ursprunglig utgåva i uppgifts- och projektlistor'
+description: Du kan visa information från den ursprungliga utgåvan i en vy över uppgifts- och projektlistor efter att utgåvan har konverterats till aktiviteterna och projekten i listan.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# Visa: visa information om ursprungligt problem i uppgifts- och projektlistor
+# Visa: visa information om ursprunglig utgåva i uppgifts- och projektlistor
 
 Du kan visa följande information från den ursprungliga utgåvan i en vy över uppgifts- och projektlistor efter att utgåvan har konverterats till aktiviteterna och projekten i listan:
 
 * Namn på konverterat ärende
 * Konverterat utgivningsdatum
-* Namn på den som skapat problemet
+* Namn på den som skapat det konverterade problemet
 
 Mer information om hur du skapar en vy med standardrapportverktyget finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Mer information om hur du inkluderar ytterligare probleminformation om projekt och uppgiftslistor finns även i [Visa: ursprungliga utgivningsdetaljer för uppgifter och projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Mer information om hur du inkluderar ytterligare probleminformation om projekt och uppgiftslistor finns även i [Visa: information om ursprunglig utleverans för uppgifter och projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

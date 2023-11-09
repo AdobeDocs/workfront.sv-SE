@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: '"Felmeddelande i kalendern: "Den här kalendern har visningsrättigheterna för en inaktiverad användare."'
-description: Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln - REDIGERA ME.
+title: '"Felmeddelande i kalendern: "Den här kalendern har visningsrättigheter för en inaktiverad användare."'
+description: Läs mer om felmeddelandet "Den här kalendern har visningsrättigheter för en inaktiverad användare".
 author: Lisa
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
-# Felmeddelande i kalendern: &quot;Den här kalendern har visningsrättigheterna för en inaktiverad användare.&quot;
+# Felmeddelande i kalendern: &quot;Den här kalendern har visningsrättigheter för en inaktiverad användare.&quot;
 
 ## Åtkomstkrav
 

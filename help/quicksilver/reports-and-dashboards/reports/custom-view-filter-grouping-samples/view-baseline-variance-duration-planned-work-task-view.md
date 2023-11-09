@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: baslinjeavvikelse för Varaktighet och Planerat arbete i en uppgiftsvy'
-description: Se ett exempel på en vy som visar information om varaktighet och planerad arbetsbaslinje.
+description: Visa baslinjeavvikelsen för Varaktighet och Planerat arbete.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---

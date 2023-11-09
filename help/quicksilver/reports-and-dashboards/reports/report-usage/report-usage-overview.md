@@ -3,14 +3,14 @@ content-type: overview;reference
 product-area: reporting
 navigation-topic: reports
 title: Översikt över rapportanvändning
-description: Det här avsnittet innehåller följande artiklar - EDIT ME.
+description: Läs mer om rapportanvändning.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: cacac66d-371a-42b0-891d-2e26bb4af326
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---

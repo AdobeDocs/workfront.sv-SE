@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: projektvy för flera rader'
-description: I den här projektvyn kan du - REDIGERA MIG.
+title: 'Visa: projektvy med flera rader'
+description: Läs mer om projektvyn i flera rader i rapporter.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -16,24 +16,24 @@ ht-degree: 0%
 
 # Visa: projektvy med flera rader
 
-I den här projektvyn kan du:
+I projektvyn kan du:
 
 * Visa projektinformation i flerradsformat.\
-   Vyn använder
+  Vyn använder
 
-   ```
-   sharecol=true
-   ```
+  ```
+  sharecol=true
+  ```
 
-   om du vill kombinera flera fält under samma kolumnrubrik. Mer information om den här taggen finns i [Visa: sammanfoga information från flera kolumner i en delad kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+  om du vill kombinera flera fält under samma kolumnrubrik. Mer information om den här taggen finns i [Visa: sammanfoga information från flera kolumner i en delad kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 * Använd en platshållarkolumn som innehåller en radbrytningstagg i HTML (
 
-   ```
-   <br>
-   ```
+  ```
+  <br>
+  ```
 
-   ) om du till exempel vill att beskrivningen ska visas under projektnamnet.
+  ) om du till exempel vill att beskrivningen ska visas under projektnamnet.
 * Visa projektägaren inom parentes efter projektnamnet.
 * Visa projektnamnet som en länk till projektet.
 

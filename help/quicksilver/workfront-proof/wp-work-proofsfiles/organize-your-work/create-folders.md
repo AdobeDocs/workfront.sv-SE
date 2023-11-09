@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Skapa mappar i [!DNL Workfront Proof]
-description: Du kan skapa undermappar på något av följande sätt - REDIGERA ME.
+description: Du kan skapa undermappar i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ Navigeringen i den synliga sökvägen visar om du skapar en mapp på den överst
 I det här avsnittet kan du lägga till (och kontrollera) följande information i mappen som du skapar:
 
 * Mappnamn - det här fältet är obligatoriskt (1)
-* Klicka på [!UICONTROL See the list] länk (2) öppnar ett popup-fönster med en lista över personer som den här mappen delas med. Den här informationen är särskilt användbar när du skapar undermappar, eftersom undermappar automatiskt delas med samma personer som den överordnade mappen
+* Klicka på [!UICONTROL See the list] länk (2) öppnar ett popup-fönster med en lista över personer som mappen delas med. Den här informationen är särskilt användbar när du skapar undermappar, eftersom undermappar automatiskt delas med samma personer som den överordnade mappen
 * Beskrivning (3) - här kan du lägga till en kort beskrivning av mappen, som visas på sidan Mappinformation
 * Gör mappen privat (4) - Om du markerar rutan blir den privat (så synlig endast för de personer du delar mappen med explicit och användarna i ditt konto med profilerna i [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) eller [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ). Se [Förstå mappbehörigheter i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) om du vill veta mer om privata och offentliga mappar i Workfront Proof.
 
@@ -111,12 +111,12 @@ I det här avsnittet kan du fylla i informationen om din klient. På så sätt k
 
 ### Dela {#share}
 
-I [!UICONTROL Share] kan du
+I [!UICONTROL Share] -sektion du kan:
 
 * Tilldela en ny ägare av mappen (1) - den som har skapat mappen finns kvar i listan i mappen och kan inte tas bort, men du kan göra en annan användare på ditt konto till ägare som ger användaren redigeringsbehörighet för mappen.
 * Dela mappen med andra [!DNL Workfront Proof] användare genom att skriva in sin e-postadress (2) - Observera att mappar endast kan delas med personer som har egna [!DNL Workfront Proof] inloggningar.
 * Ange behörigheter för de personer som du delar mappen med (3). Detta är användbart för delning av privata mappar med användare från ditt konto - du kan bestämma om användare med [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) bör kunna skapa, redigera och ta bort objekt i mappen.
-* Ta bort en användare från mappresurslistan genom att klicka på papperskorgsikonen (4) till höger om användarens namn.
+* Ta bort en användare från mappresurslistan genom att klicka på papperskorgen (4) till höger om användarens namn.
 * Ta bort alla från mappresurslistan genom att klicka på den översta papperskorgsikonen (5) - Observera att du inte kommer att kunna ta bort den som har skapat eller äger mappen.
 
 Se även [Dela mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).

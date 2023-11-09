@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Box
-description: Det här avsnittet innehåller följande artiklar - EDIT ME.
+description: Lär dig mer om integrering med Box.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d49cfd97-1cd8-4d0b-997f-37013623da62
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---

@@ -2,14 +2,14 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Uppdateringar av API-version 8
-description: Följande befintliga resurser har uppdaterats med den här versionen av Adobe Workfront API. Om du vill se vilka resurser som är nya för version 8 läser du Nyheter i API-version 8. Ändringar som görs i en resurs anges på följande sätt - REDIGERA MIG.
+description: Visa uppdateringarna av API-version 8.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---

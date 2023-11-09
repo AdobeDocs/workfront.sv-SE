@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Visa innehåll i ett korrektur
-description: Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln - REDIGERA ME.
+description: Lär dig hur du visar innehåll i ett korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Ändra visningen av ditt korrektur
 
@@ -70,7 +70,7 @@ Du kan visa ett statiskt korrektur som innehåller flera sidor i en enda vy, i e
      </tr> 
      <tr> 
       <td role="rowheader">Tidskriftsvy</td> 
-      <td>Visar alla sidor i en enda tidskriftsvy (sida vid sida och staplade). Klicka på miniatyrbilden för den sida som du vill visa eller tryck på vänster- och högerpilarna för att bläddra mellan alla sidor.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
+      <td>Visar alla sidor i en enda tidskriftsvy (sida vid sida och staplade). Klicka på miniatyrbilden för den sida som du vill visa eller tryck på vänster- och högerpilstangenterna för att bläddra mellan alla sidor.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
      </tr> 
     </tbody> 
    </table>
@@ -126,7 +126,7 @@ Du kan rotera korrekturet i korrekturläsaren. När du roterar ett korrektur som
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   Korrekturläget roteras 90 grader varje gång du klickar på **Rotera** ikon.
+   Korrekturläget roteras 90 grader varje gång du klickar på **Rotera** -ikon.
 
 ## Zooma och panorera ett korrektur
 
@@ -139,15 +139,15 @@ Du kan justera zoomprocenten när du visar korrekturet. När du visar ett korrek
 
    * Klicka på **Zooma** kan du antingen klicka på korrekturet för att visa korrekturet i en högre zoomnivå eller dra över ett område i korrekturet för att bara visa det området.
 
-      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
    * Klicka på den aktuella zoomningsprocenten, klicka på en ny zoomningsprocent eller klicka på **Anpassa till bredd**, **Anpassa till höjd**, eller **Anpassa till sida**.
 
-      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
    * Klicka på **Plus** eller **Minus** ikoner för att öka eller minska zoomningsprocenten.
 
-      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
 1. Om du behöver panorera till ett visst område i videoklippet klickar du på **Panorera** och dra sedan korrekturet efter behov.
 

@@ -2,13 +2,13 @@
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Redigera korrekturfaser och granskare
-description: Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln - REDIGERA ME.
+description: Lär dig redigera korrekturfaser och granskare.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -48,15 +48,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Redigera en scen
 
-1. Håll markören över raden som innehåller dokumentet i en dokumentlista som innehåller dokumentet och klicka sedan på **Korrektur**.
+1. Håll markören över raden som innehåller dokumentet i en dokumentlista som innehåller dokumentet och klicka sedan på **Korrekturarbetsflöde**.
 
    eller
 
-   I det fristående Workfront-korrekturet klickar du på **Mer** (tre punkter) till höger om korrekturet och klicka sedan på **Visa korrekturinformation**.
+   Klicka på den fristående Workfront-korrektur på **Mer** (tre punkter) till höger om korrekturet och klicka sedan på **Visa korrekturinformation**.
 
 1. Gör någon av följande ändringar i **Arbetsflöde** avsnitt:
 
@@ -77,12 +77,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td>Markera kryssrutorna bredvid namnen och klicka sedan på <strong>Ta bort</strong> -ikonen i det övre högra hörnet av scenavsnittet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Meddelande till alla granskare</td> 
+      <td role="rowheader">Skicka meddelande till alla granskare</td> 
       <td>Välj <strong>Mer</strong> i det övre högra hörnet av scenavsnittet och välj <strong>Meddelande alla</strong>. Konfigurera meddelandet och välj <strong>Skicka</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lägga till en granskare på scenen</td> 
-      <td>Välj <strong>Mer</strong> i det övre högra hörnet av scenavsnittet och välj <strong>Dela</strong>. Lägg till användaren och konfigurera deras roll och e-postaviseringar, och upprepa om det behövs. När du är klar klickar du på <strong>Dela</strong>.</td> 
+      <td>Välj <strong>Mer</strong> i det övre högra hörnet av scenavsnittet och välj <strong>Dela</strong>. Lägg till användaren och konfigurera deras roll och e-postaviseringar, och upprepa om det behövs. När du är klar klickar du <strong>Dela</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ta bort scenen</td> 

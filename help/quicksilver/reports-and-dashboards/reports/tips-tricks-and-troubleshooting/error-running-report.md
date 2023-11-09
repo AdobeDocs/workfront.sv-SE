@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: "Felmeddelande när en rapport körs: 'Du är inte inloggad.'"
-description: Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln - REDIGERA ME.
+title: '"Felmeddelande när en rapport körs: "Du är inte inloggad."'
+description: Läs mer om felmeddelandet"Du är inte inloggad".
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
-# Felmeddelande när en rapport körs: &quot;Du är för närvarande inte inloggad.&quot;
+# Felmeddelande när en rapport körs:&quot;Du är inte inloggad.&quot;
 
 ## Åtkomstkrav
 
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Problem
 
 När du kör en rapport, eller visar den på en kontrollpanel, returnerar följande fel:\
-*Vi provar det igen. Du är för närvarande inte inloggad.*
+*Vi provar det igen. Du är inte inloggad.*
 
 Inga resultat visas i rapporten.
 

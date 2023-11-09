@@ -4,15 +4,15 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Arbeta med korrektur och filer i [!DNL Workfront Proof]
-description: Det här avsnittet innehåller följande underavsnitt – EDIT ME.
+description: Arbeta med korrektur och filer i [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 11%
+source-wordcount: '70'
+ht-degree: 0%
 
 ---
 

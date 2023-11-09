@@ -2,13 +2,13 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Final
-description: Följande funktioner är för närvarande inte tillgängliga i Förhandsgranska eller Beta, men släpps till produktionsmiljön i R1 - REDIGERA ME.
+description: Versionsaktivitet 2018.3
 author: Luke
 feature: Product Announcements
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ När du tidigare lade till en ny version av dokumentet genererades inte korrektu
 
 När du använder menyn Dokument, mer för att överföra en ny version, genereras inget korrektur automatiskt.
 
-Mer information finns i avsnittet i
+Mer information finns under
 
 ## Ge alla korrekturanvändare tillgång till Korrektur på högdagrar direkt från Workfront-gränssnittet (Workfront)
 
@@ -103,7 +103,7 @@ Mer information om mobilappen finns i .
 
 ## Sök i PDF-dokument (ProofHQ)
 
-Nu kan du göra sökningar i PDF-dokument, Office-dokument och statiska webbsidor.
+Nu kan du söka i PDF-dokument, Office-dokument och statiska webbsidor.
 
 Mer information finns i  [Sök efter innehåll i ett korrektur](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
@@ -119,14 +119,14 @@ ProofHQ Premium-konton som är integrerade med Workfront ser nu följande förb�
 Du kan nu inkludera följande ytterligare information i anpassade vyer:
 
 * **Mottagarnivådata**\
-   Du kan konfigurera anpassade vyer så att de inkluderar följande kolumner som är relaterade till data på mottagarnivå: Roll, position, e-postaviseringar, Min deadline, Datum tillagt i korrektur och Mottagarsökning.\
-   Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **Språkdata**\
-   Du kan konfigurera anpassade vyer så att de inkluderar följande kolumner som är relaterade till korrekturdata: Antal kommentarer (alla versioner), Storlek på disk, Korrekturtyp, Antal filer per version, Kommentera data i bifogad fil (storlek på disk, filnamn) och Filtrera efter undermapp.\
-   Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Du kan konfigurera anpassade vyer så att de omfattar följande kolumner som är relaterade till data på mottagarnivå: Roll, Position, E-postaviseringar, Min deadline, Datum tillagd i korrektursökning och Mottagarsökning.\
+  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Korrekturdata**\
+  Du kan konfigurera anpassade vyer så att de innehåller följande kolumner som är relaterade till korrekturdata: antal kommentarer (alla versioner), storlek på disk, korrekturtyp, antal filer per version, data för bifogade kommentarer (storlek på disk, filnamn) och filtrering efter undermapp.\
+  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Data på scennivå relaterade till automatiserade arbetsflöden**\
-   Du kan konfigurera anpassade vyer så att de omfattar följande kolumner som är relaterade till enskilda steg i automatiserade arbetsflöden: SOCD-status, Stage Deadlines, Active Stage Name, Next Stage Name, Stage name och Template.\
-   Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Du kan konfigurera anpassade vyer så att de omfattar följande kolumner som är relaterade till enskilda steg i automatiserade arbetsflöden: SOCD-status, Stage Deadlines, Active Stage Name, Next Stage Name, Stage name och Template.\
+  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Förbättringar av korrekturrapporter (tidigare analyser) (Korrektur, högdagrar)
 

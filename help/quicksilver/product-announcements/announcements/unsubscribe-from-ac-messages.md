@@ -2,13 +2,13 @@
 content-type: reference
 navigation-topic: announcements
 title: Avbeställ utskick från meddelandecentret
-description: Meddelanden från meddelandecentret skickas från Adobe Workfront till Workfront kundbas. Du kan avbeställa följande typer av meddelanden från meddelandecentret - EDIT ME.
+description: Meddelanden från meddelandecentret skickas från Adobe Workfront till Workfront kundbas. Du kan avbryta prenumerationen på meddelanden från meddelandecentret.
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: e2335829f22551ce9fd4c88071c97fb1a893a1d8
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Meddelanden från meddelandecentret skickas från Adobe Workfront till Workfront
 
 * Meddelanden om funktionalitet som släpps funktionellt vid sidan av dessa större releaser.
 
-   De flesta nya funktionerna som introducerats i Workfront-plattformen lanseras i samband med en av de fyra stora releaserna varje år. Vissa funktioner släpps dock funktionellt vid sidan av dessa större releaser. Varje gång en funktion släpps utanför en större release får du ett meddelande via meddelandecentret. (Mer information om meddelandecentret finns i [Skicka meddelanden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+  De flesta nya funktionerna som introducerats i Workfront-plattformen lanseras i samband med en av de fyra stora releaserna varje år. Vissa funktioner släpps dock funktionellt vid sidan av dessa större releaser. Varje gång en funktion släpps utanför en större release får du ett meddelande via meddelandecentret. (Mer information om meddelandecentret finns i [Skicka meddelanden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
 * Kommentarer om kommande utbildningar och evenemang.
 

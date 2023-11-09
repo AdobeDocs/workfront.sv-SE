@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Sidlayout på fliken Vyer i Workfront Proof
-description: Du kan justera sidlayouten på fliken Vyer. Följande layoutalternativ är tillgängliga - REDIGERA MIG.
+description: Du kan justera sidlayouten på fliken Vyer.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Du kan justera sidlayouten på [!UICONTROL Views] -fliken. Följande layoutalter
 * Visar korrektur- eller filnamn plus standardvykolumner
 * The [!UICONTROL proof actions] menyn finns till höger om raden (1)
 
-   ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
+  ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
 
 ## Miniatyrlista
 
@@ -36,14 +36,14 @@ Du kan justera sidlayouten på [!UICONTROL Views] -fliken. Följande layoutalter
 * The [!UICONTROL proof actions] menyn finns till höger om raden (1)
 * Observera att det här är standardvyn.
 
-   ![Page_views_-_thumbnails_list_view.png](assets/page-views---thumbnails-list-view-350x164.png)
+  ![Page_views_-_thumbnails_list_view.png](assets/page-views---thumbnails-list-view-350x164.png)
 
 ## Miniatyrbilder
 
 * Visar endast korrekturbild/filikon och korrektur-/filnamn
 * The [!UICONTROL proof actions] -menyn finns i det övre högra hörnet för varje korrektur (1)
 
-   ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
+  ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
 
 ## Ändra sidlayout
 

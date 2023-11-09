@@ -3,13 +3,13 @@ title: Visa resurskapaciteten i Förbättrad analys
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Resurskapaciteten visas om ett team är över, under eller på kapaciteten. Beräkningen baseras på - EDIT ME.
+description: Resurskapaciteten visas om ett team är över, under eller på kapaciteten.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Resurskapaciteten visas om ett team är över, under eller på kapaciteten. Denn
 
 * **Tillgänglig kapacitet**: Det totala antalet timmar som ett hemteam har tillgängligt för att arbeta under den filtrerade tidsperioden
 
-   >[!NOTE]
-   >
-   >Om du tittar på en framtida tidsperiod beräknas den tillgängliga kapaciteten baserat på teamets kapacitet för de senaste 7 dagarna. Därför beaktas inte schemalagd PTO.
+  >[!NOTE]
+  >
+  >Om du tittar på en framtida tidsperiod beräknas den tillgängliga kapaciteten baserat på teamets kapacitet för de senaste 7 dagarna. Därför beaktas inte schemalagd PTO.
 
 * **Planerad kapacitet**: Det totala antalet planerade arbetstimmar som förväntas av hemteamet under den filtrerade tidsperioden
 
@@ -71,19 +71,19 @@ I Resurskapaciteten visas följande information:
 
 * **Planerad kapacitet**: Den blå cirkeln motsvarar det antal timmar som hemteamet har tilldelats.
 
-   ![](assets/resource-capacity-blue-circle.png)
+  ![](assets/resource-capacity-blue-circle.png)
 
-* **Faktisk kapacitet**: Den lodräta linjen står i linje med ett hemteamnamn och visar antalet tillgängliga timmar för hemteamet.
+* **Faktisk kapacitet**: Den lodräta linjen står i linje med hemteamets namn och visar antalet tillgängliga timmar för hemteamet.
 
-   ![](assets/resource-capacity-vertical-line.png)
+  ![](assets/resource-capacity-vertical-line.png)
 
 * **Överkapacitet**: När den vågräta linjen och den blå cirkeln visas till höger om den lodräta linjen tilldelades arbetsteamet mer arbete än vad de kan slutföra under det tillgängliga antalet timmar. Detta innebär att teamet kan vara överkapacitetskassan under den filtrerade tidsperioden. Det antal timmar som teamet behöver slutföra visas till höger om den blå cirkeln.
 
-   ![](assets/resource-capacity-over-capacity.png)
+  ![](assets/resource-capacity-over-capacity.png)
 
 * **Under kapacitet**: När den vågräta linjen och den blå cirkeln visas till vänster om den lodräta linjen har hemteamet fler tillgängliga timmar än det antal planerade arbetstimmar de tilldelats. Detta innebär att teamet kan vara under kapacitet för den filtrerade tidsperioden. Det ytterligare antalet tillgängliga timmar för hemteamet att slutföra arbetet visas till vänster om den blå cirkeln.
 
-   ![](assets/resource-capacity-under-capacity.png)
+  ![](assets/resource-capacity-under-capacity.png)
 
 När du hovrar över en rad visas det exakta antalet timmar för planerad kapacitet och tillgänglig kapacitet samt antalet timmar som hemteamet är över eller under kapacitet.
 
@@ -98,7 +98,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 ## Visa resurskapaciteten som visualisering
 
 1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
-1. Välj **Folk**.
+1. I den vänstra panelen väljer du **Folk**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
@@ -106,11 +106,11 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Mer information om hur du använder datumintervallfiltret finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Villkorligt) Om du inte har ställt in teamfiltret lägger du till teamfiltret och väljer varje team som du vill se data för.
 
-   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    När du har lagt till filter visas data för upp till 50 projekt och filtren förblir aktiva även när du lämnar sidan eller loggar ut från Workfront.
 
@@ -120,7 +120,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Håll muspekaren över teamlinjen för att se hur många timmar som fortfarande är tillgängliga för schemaläggning, hur många timmar som hemteamet ska klara av och det totala antalet arbetade timmar som är märkta som över, under eller som kapacitet.
+1. Håll muspekaren över teamlinjen för att se hur många timmar som fortfarande är tillgängliga för schemaläggning, hur många timmar hemteamet ska klara sig och det totala antalet arbetade timmar som är märkta som över, under eller som kapacitet.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 

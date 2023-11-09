@@ -2,13 +2,13 @@
 product-area: documents;setup
 navigation-topic: review-a-proof
 title: Konfigurera inställningar för korrekturläsare
-description: Du kan konfigurera följande inställningar för både Web Proofing Viewer och Desktop Proofing Viewer - EDIT ME.
+description: Du kan konfigurera inställningar för både Web Proofing Viewer och Desktop Proofing Viewer.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Du kan konfigurera följande inställningar för både Web Proofing Viewer och D
 * Om markeringsverktygen visas längst upp i korrekturläsaren eller i en nedrullningsbar meny.
 * Vilka e-postmeddelanden du får som granskare på det korrektur du har öppnat.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the Desktop Proofing Viewer is the default viewer for all types of proofs (static and video, as well as interactive).</li>
   -->
 
@@ -33,7 +33,7 @@ Du kan konfigurera följande inställningar för Desktop Proofing Viewer:
 
 * Hur du vill att länkar i webbplatsinnehåll ska öppnas i visningsprogrammet.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the background color of the Desktop Proofing Viewer is the default near-black color or white.</li>
   -->
 
@@ -54,10 +54,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Konfigurera inställningar för korrekturläsare
 
@@ -76,7 +76,7 @@ Så här konfigurerar du visningsinställningar för språkkontroll:
 1. Öppna Web Proofing Viewer eller Desktop Proofing Viewer på något av följande sätt:
 
    * Om du har korrekturläsning i Adobe Workfront går du till en dokumentlista som innehåller det korrektur du vill visa, för muspekaren över dokumentet och klickar sedan **Öppna korrektur**.
-   * Om du använder Workfront Proof klickar du på **Gå till korrektur** -ikon för korrekturet på kontrollpanelen eller en visningslista ![](assets/go-to-proof-blue-icon.png).
+   * Klicka på **Gå till korrektur** -ikon för korrekturet på kontrollpanelen eller en visningslista ![](assets/go-to-proof-blue-icon.png).
 
 1. Om det vänstra verktygsfältet inte visas klickar du på **Meny** -ikonen i det övre vänstra hörnet av Web Proofing Viewer.
 
@@ -88,21 +88,21 @@ Så här konfigurerar du visningsinställningar för språkkontroll:
 
    Vilka inställningar som är tillgängliga beror på vilken typ av korrektur du har öppnat.
 
-   * **Visa markeringar** (finns alltid i Web Proofing Viewer och Desktop Proofing Viewer): Det här är de kommentarmarkeringar som granskarna lägger till i korrektur när de använder markeringsverktygen. Om du inaktiverar dem kan du fortfarande se dem när du klickar på en kommentar i kommentarlistan.
+   * **Visa markeringar** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Det här är kommentarmarkeringarna som granskare lägger till i korrektur när de använder markeringsverktygen. Om du inaktiverar dem kan du fortfarande se dem när du klickar på en kommentar i kommentarlistan.
 
-      Den här inställningen påverkar alla korrektur som du öppnar.
+     Den här inställningen påverkar alla korrektur som du öppnar.
 
-   * **Visa punkter** (finns alltid i Web Proofing Viewer och Desktop Proofing Viewer): Detta är de numrerade punkter som granskarna lägger till i korrektur när de använder markeringsverktygen. De visar var och i vilken ordning granskaren lade till kommentarer. Om du inaktiverar dem kan du fortfarande se dem när du klickar på en kommentar i kommentarlistan.
+   * **Visa punkter** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Detta är de numrerade punkter som granskare lägger till i korrektur när de använder markeringsverktygen. De visar var och i vilken ordning granskaren lade till kommentarer. Om du inaktiverar dem kan du fortfarande se dem när du klickar på en kommentar i kommentarlistan.
 
-      Den här inställningen påverkar alla korrektur som du öppnar.
+     Den här inställningen påverkar alla korrektur som du öppnar.
 
-   * **Använda utökade markeringsverktyg** (finns alltid i Web Proofing Viewer och Desktop Proofing Viewer): Alternativen för markeringsverktyget visas som standard längst upp i korrekturläsaren. Du kan konfigurera dem så att de visas på en lodrät meny som bara öppnas när du klickar på den.
+   * **Använda utökade markeringsverktyg** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Som standard visas markeringsverktygen längst upp i korrekturläsaren. Du kan konfigurera dem så att de visas på en lodrät meny som bara öppnas när du klickar på den.
 
-      Den här inställningen används för alla korrektur som du öppnar.
+     Den här inställningen används för alla korrektur som du öppnar.
 
-   * **Skicka mig e-postmeddelanden om** (finns alltid i Web Proofing Viewer och Desktop Proofing Viewer): Klicka på ett av alternativen nedan. Den här inställningen påverkar bara det korrektur som är öppet. Mer information finns i [Översikt över meddelanden om korrekturkommentarer och beslut](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **Skicka mig e-postmeddelanden om** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Klicka på ett av alternativen nedan. Den här inställningen påverkar bara det korrektur som är öppet. Mer information finns i [Översikt över meddelanden om korrekturkommentarer och beslut](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -137,15 +137,15 @@ Så här konfigurerar du visningsinställningar för språkkontroll:
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **När du klickar på hyperlänkar i ett korrektur** (endast tillgängligt i Desktop Proofing Viewer): Välj ett alternativ för att ange vad som ska hända i Desktop Proofing Viewer när du klickar på en länk som ska öppnas på en ny webbläsarflik eller i ett nytt fönster.
+   * **När du klickar på hyperlänkar i ett korrektur** (endast tillgängligt i Desktop Proofing Viewer): Välj ett alternativ för att ange vad som ska hända i Desktop Proofing Viewer när du klickar på en länk som är inställd på att öppnas på en ny webbläsarflik eller i ett nytt fönster.
 
-      Den här inställningen gäller för alla interaktiva korrektur som du öppnar.
+     Den här inställningen gäller för alla interaktiva korrektur som du öppnar.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -164,12 +164,12 @@ Så här konfigurerar du visningsinställningar för språkkontroll:
       </tbody> 
      </table>
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **Rensa cache**: Rensar webbläsarens cachedata som kan sparas med ett interaktivt korrektur som du visar. Detta gör att innehåll som popup-fönster (som kan blockeras av webbläsarens cachedata) kan visas i Desktop Proofing Viewer.
+   * **Rensa cache**: Raderar webbläsarens cachedata som kan sparas med ett interaktivt korrektur som du visar. Detta gör att innehåll som popup-fönster (som kan blockeras av webbläsarens cachedata) kan visas i Desktop Proofing Viewer.
 
-      De data som rensas inkluderar HTTP-cachen (t.ex. bilder som ska återanvändas efter nästa siduppdatering) och webblagringsdatacachen (t.ex. cookies och data som identifierar användare).
+     De data som rensas inkluderar HTTP-cachen (t.ex. bilder som ska återanvändas efter nästa siduppdatering) och webblagringsdatacachen (t.ex. cookies och data som identifierar användare).
 
-      Den här inställningen påverkar bara det korrektur som är öppet.
+     Den här inställningen påverkar bara det korrektur som är öppet.

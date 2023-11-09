@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Skriv ut och exportera kommentarer i [!DNL Workfront Proof]
-description: Kommentarssammanfattningen finns direkt i följande områden - REDIGERA ME.
+description: Kommentarssammanfattningen finns i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ På kommentarsammanfattningssidan har du följande utskriftsalternativ att välj
 
 I miniatyrbildsvyn visas varje kommentar i ordning, tillsammans med den fullständiga tråden för varje kommentar. Du kan också sortera kommentarer och se miniatyrbilden för varje kommentar med tillagda markeringar.
 
-Om du vill skriva ut miniatyrbildsvyn klickar du på **[!UICONTROL Printer]** ikonen längst upp till höger på sidan och välj något av följande:
+Klicka på knappen **[!UICONTROL Printer]** ikonen längst upp till höger på sidan och välj något av följande:
 
 * Sortera efter kommentar-ID eller sida (1)
 * Miniatyrbild för varje kommentar med tillagda markeringar (2)
@@ -88,12 +88,12 @@ Ladda ned [!DNL Excel] sammanfattning:
 
 Ladda ned [!DNL Excel] sammanfattning från sidan Korrekturinformation:
 
-1. Klicka på Exportera till **[!DNL Excel]** ikon. (2)
+1. Klicka på Exportera till **[!DNL Excel]** -ikon. (2)
 1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exportera till PDF
 
-Följ de här stegen för att exportera ett korrektur till PDF tillsammans med alla markeringar och kommentarer:
+Om du vill exportera ett korrektur till PDF, tillsammans med alla markeringar och kommentarer, följer du dessa steg:
 
 1. Gå till **[!UICONTROL Views]** till vänster på skärmen.
 1. Klicka på **[!UICONTROL More]** ikon infogad med ett korrektur och klicka sedan **[!UICONTROL Print comments]**.

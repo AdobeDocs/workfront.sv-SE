@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Felsökning - skadat gränssnittsteckensnitt i korrekturläsare på Mac
-description: Om du märker att korrekturläsaren inte visar gränssnittsteckensnitt på rätt sätt kan det bero på vissa problem med teckensnitten på din Mac-dator. Prova följande lösningar för att lösa problemet - REDIGERA MIG.
+description: Felsöka skadat gränssnittsteckensnitt i korrekturläsaren i Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Kontrollera om det finns några dubbletter av teckensnitt i systemet.
 
 1. Stäng webbläsaren som du använder.
 1. Öppna programmet Teckensnittsbok i mappen Program.
-1. Klicka **[!UICONTROL All Fonts]** (1).
+1. Klicka **[!UICONTROL All Fonts]** (1)
 1. Klicka på **[!UICONTROL Edit]** > **[!UICONTROL Look for Enabled Duplicates]**.
 
 1. Klicka **[!UICONTROL Yes]** för att lösa dubbletter.
@@ -55,7 +55,7 @@ Det andra sättet är att använda terminalen, vilket kan göras genom att köra
 
 Ett annat sätt är att använda ett teckensnittscache-verktyg som t.ex. FontNuke och rensa cacheminnet med hjälp av det.
 
-Många prepress- och designstudior använder också Universal Type Server för att hantera licensiering och distribution av teckensnitt. Ibland kan ett problem uppstå med Universell Type Server-teckensnittscachen, vilket kan orsaka [!DNL Workfront Proof] anteckningar som ska försvinna.
+Många prepress- och designstudior använder också Universal Type Server för att hantera licensiering och distribution av teckensnitt. Ibland kan ett problem uppstå med Universal Type Server-teckensnittscachen, vilket kan orsaka [!DNL Workfront Proof] anteckningar som ska försvinna.
 
 Åtgärda problemet genom att rensa Universell Type Server-teckensnittscachen och starta om Universal Type Server.
 
@@ -70,7 +70,7 @@ Det äldre korrekturläsaren baseras på [!DNL Flash Player] och ibland kan det 
 1. Håll ned Option-tangenten och klicka på [!UICONTROL Library] mapp.
 1. Efter [!UICONTROL Library] mapp öppnas, gå till [!UICONTROL Fonts] i.
 1. Flytta alla teckensnitt som finns i [!UICONTROL Fonts] till en annan mapp, kanske på skrivbordet (skapa inte en annan mapp i mappen Fonts).
-1. Den här åtgärden döljer alla anpassade teckensnitt; bör du fortfarande ha standardsystemteckensnitten sparade på sin egen plats.
+1. Den här åtgärden döljer alla anpassade teckensnitt. Du bör fortfarande ha standardsystemteckensnitten sparade på sin separata plats.
 1. Avsluta och starta om [!DNL Safari].
 1. Öppna korrekturet igen.
 

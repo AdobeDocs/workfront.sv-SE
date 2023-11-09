@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Sök efter innehåll i ett korrektur
-description: Du kan snabbt hitta text i ett korrektur som skapats för följande typer av dokument - REDIGERA ME.
+description: Lär dig att snabbt hitta text i ett korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Aktuell plan: Granska</p> <p>Äldre plan: Granska</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -52,12 +52,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Sök efter innehåll i ett korrektur
 
 1. Öppna det korrektur som du vill söka i.
-1. Klicka på **Sök efter dokument** ikon.
+1. Klicka på **Sök efter dokument** -ikon.
 
    ![](assets/search-document-icon-search-in-proof-350x129.png)
 

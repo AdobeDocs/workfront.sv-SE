@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Välj betalningsmetod i [!DNL Workfront] Korrektur
-description: Följande betalningsalternativ är tillgängliga - REDIGERA MIG.
+description: Läs mer om betalningar i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Följande betalningsalternativ är tillgängliga:
 | kreditkort | kreditkort |
 | girering |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Vi godkänner inte kontroller
 
@@ -42,7 +42,6 @@ Vi godkänner inte kontroller
 >* Ändringen av betalningsmetoden tillämpas inte på din aktuella prenumeration. Om du vill ändra detta för en faktura som redan har utfärdats kontaktar du vårt finansteam på [finance@proofhq.com](mailto:finance@proofhq.com).
 >* Du kan inte ändra betalningsmetod eller lägga till ett kreditkort om en utvärderingsplan har angetts för ditt konto. Du kan ange dessa uppgifter när du uppgraderar ditt konto.
 >
-
 
 
 
@@ -68,7 +67,7 @@ Om du har satellitkonton måste du uppdatera dina kreditkortsuppgifter och betal
 1. Gå till [!UICONTROL Billing] i ditt navkonto.\
    Mer information om faktureringssidan finns i [The [!DNL Workfront] Korrekturfaktureringssida](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Öppna [!UICONTROL accounts list] nedrullningsbar meny. (1)
+1. Öppna [!UICONTROL accounts list] listruta. (1)
 1. Välj det satellitkonto (2) som är kopplat till det kreditkort som du vill uppdatera.
 1. Fortsätt med [Ändra betalningsmetod och kreditkortsinformation](#changing-your-payment-method-and-credit-card-details).\
    ![Satellite_account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)

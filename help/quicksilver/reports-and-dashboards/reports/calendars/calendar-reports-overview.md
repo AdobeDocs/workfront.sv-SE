@@ -3,13 +3,13 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Översikt över kalenderrapporter
-description: En kalenderrapport är egentligen en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan visa datuminformation i en kalenderrapport för följande objekt - REDIGERA ME.
+description: En kalenderrapport är egentligen en dynamisk rapport som ger en visuell representation av ditt arbete.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---

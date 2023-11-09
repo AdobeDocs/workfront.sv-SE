@@ -2,13 +2,13 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Uppdatera ditt arbete i Adobe Photoshop
-description: Du kan uppdatera ditt arbete inom följande områden - REDIGERA MIG.
+description: Du kan uppdatera ditt material med Adobe Workfront plugin.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 

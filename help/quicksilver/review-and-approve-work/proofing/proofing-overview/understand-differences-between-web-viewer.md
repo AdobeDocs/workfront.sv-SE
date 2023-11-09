@@ -3,13 +3,13 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer - översikt
-description: Adobe Workfront har två olika korrekturläsare - EDIT ME.
+description: Lär dig skillnaderna mellan korrekturläsare för datorer och webben.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Adobe Workfront har två olika korrekturläsare:
 
-* **Web Proofing Viewer:** Utformad främst för korrektur av statiska filer och videofiler. Körs i Google Chrome, Firefox eller Safari.
+* **Webbkorrekturläsare:** Utformad främst för korrektur av statiska filer och videofiler. Körs i Google Chrome, Firefox eller Safari.
 * **Desktop Proofing Viewer:** Utformad för korrektur av interaktiva filer samt video och statiska filer. Kör som ett fristående program på din arbetsstation. Mer information finns i [Förstå Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
 * Om din organisation av säkerhetsskäl inte kan använda appen Desktop Proofing Viewer kan din Workfront-administratör konfigurera ditt system så att du kan granska interaktivt innehåll som paketerats i en ZIP-arkivfil i Web Proofing Viewer. Mer information finns i  [Konfigurera korrektur av interaktivt innehåll i Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
@@ -28,14 +28,14 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
 * **Interaktivt webbinnehåll - URL**: Om du skapar ett korrektur för webbinnehåll med en URL-adress och vill korrekturgranska innehållet interaktivt, måste du använda Desktop Proofing Viewer.
 * **Interaktivt webbinnehåll - ZIP-fil**: Om du skapar ett korrektur för webbinnehåll med en ZIP-fil kan du antingen använda Web Proofing Viewer (med vissa begränsningar) eller Desktop Proofing Viewer. Mer information om begränsningarna med att använda Web Proofing Viewer för interaktivt innehåll finns i [Konfigurera korrektur av interaktivt innehåll i Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Statiskt och videomaterial**: Om du skapar ett korrektur som innehåller statiskt innehåll kan du antingen använda Web Proofing Viewer eller Desktop Proofing Viewer.
+* **Statiskt och videomaterial**: Om du skapar ett korrektur med statiskt innehåll kan du antingen använda Web Proofing Viewer eller Desktop Proofing Viewer.
 
 ## Statiska korrektur
 
 | **Funktion** | **Webbkorrekturläsare** | **Desktop Proofing Viewer** |
 |---|---|---|
 | Öppna statiskt korrektur | ✓ | ✓&#42; |
-| Enkelt, magasin och kontinuerliga vyer | ✓ | ✓&#42; |
+| Enkelt, magasinerat och kontinuerligt | ✓ | ✓&#42; |
 | Panorering | ✓ | ✓&#42; |
 | Zooma | ✓ | ✓&#42; |
 | Rotera | ✓ | ✓&#42; |
@@ -46,7 +46,7 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
 | Posta kommentar på flera sidor | ✓ (tillgänglig i alla vyer) | ✓&#42; (tillgängligt på alla vyer) |
 | Avancerade statiska kortkommandon | ✓ (mer information finns i [Kortkommandon i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(mer information finns i [Kortkommandon i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Den här funktionen fungerar bara om Workfront-administratören har konfigurerat Desktop Proofing Viewer som standardvisningsprogram för alla korrektur.
 
@@ -65,7 +65,7 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
 | Gör videokorrektur (videoklippen blir klara och startar automatiskt) | ✓ | ✓&#42;  |
 | Avancerade kortkommandon för video | ✓ (mer information finns i [Kortkommandon i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Den här funktionen fungerar bara om Desktop Proofing Viewer har konfigurerats som standardvisningsprogram för alla korrektur.
 
@@ -80,9 +80,9 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
 | Granska oskyddade HTTP-platser | Stöds inte | ✓ |
 | Granska iFrame-skyddade webbplatser (webbplatser som skyddas från att visas i en iFrame) | Stöds inte | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Kommentarer
+## Kommentar
 
 <table style="table-layout:auto"> 
  <col> 
@@ -231,7 +231,7 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
 | Fatta beslut | ✓ | ✓ |
 | Anpassa beslut | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Jämför korrektur
 
@@ -373,7 +373,7 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
 |---|---|---|
 | Inbäddad kod | Planerad för framtiden för statiskt och inbyggt videokort | Stöds inte  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Översättningar
 

@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Konfigurera korrekturinställningar i [!DNL Workfront Proof]
-description: Du kan konfigurera ett korrektur som du skapar eller redigerar på något av följande sätt - REDIGERA ME.
+description: Du kan konfigurera ett korrektur som du skapar eller redigerar i korrektur.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,12 @@ Information om beslut finns i [Fatta ett beslut om ett korrektur i korrekturläs
 
 En av de stora sakerna med [!DNL Workfront Proof] är att vem som helst kan granska ett bevis, du behöver inte ha ett eget [!DNL Workfront Proof] att göra det. Mottagarna får ett e-postmeddelande med en personlig URL som tar dem direkt till korrektursidan, utan att de behöver logga in [!DNL Workfront Proof].
 
-Om du behöver högre säkerhetsnivå för din granskning och godkännandeprocess kan du använda kräv inloggning till korrekturet. Detta innebär att endast [!DNL Workfront Proof] -användare kan läggas till i korrekturet. Och de måste ange sina e-postadresser och lösenord innan de kan komma åt dem.
+Men om du behöver högre säkerhetsnivå för din granskning och godkännandeprocess kan du använda kräv inloggning till korrekturet. Detta innebär att endast [!DNL Workfront Proof] -användare kan läggas till i korrekturet. Och de måste ange sina e-postadresser och lösenord innan de kan komma åt dem.
 
 >[!NOTE]
 >
 >* *För att någon ska kunna logga in på beviset (när inloggning krävs har aktiverats) måste de ha lagts till i beviset.*
 >* *Om inloggning krävs är aktiverad går det inte att aktivera prenumerationer.*
-
 
 Så här kräver du inloggning för alla användare som granskar korrekturet:
 

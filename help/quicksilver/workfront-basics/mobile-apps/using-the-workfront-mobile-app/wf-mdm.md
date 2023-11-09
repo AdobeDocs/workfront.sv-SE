@@ -3,20 +3,20 @@ content-type: reference
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront för hantering av mobila enheter (MDM)
-description: Adobe [!DNL Workfront] har samarbetat med ett fåtal MDM-plattformar (Mobile Device Management) för att ge organisationer en säkrare och mer kontrollerad mobilupplevelse. Workfront mobilapp finns på följande plattformar för hantering av mobila enheter - EDIT ME.
+description: Adobe [!DNL Workfront] har samarbetat med ett fåtal MDM-plattformar (Mobile Device Management) för att ge organisationer en säkrare och mer kontrollerad mobilupplevelse.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] for [!DNL Mobile Device Management] (MDM)
 
-Adobe [!DNL Workfront] har samarbetat med några [!DNL Mobile Device Management] (MDM)-plattformar för att ge organisationer en säkrare och mer kontrollerad mobilupplevelse. The [!DNL Workfront] mobilappen finns på följande plattformar för hantering av mobila enheter:
+Adobe [!DNL Workfront] har samarbetat med några [!DNL Mobile Device Management] (MDM)-plattformar som ger en säkrare och mer kontrollerad mobilupplevelse. The [!DNL Workfront] mobilappen finns på följande plattformar för hantering av mobila enheter:
 
 ## MobileIron
 

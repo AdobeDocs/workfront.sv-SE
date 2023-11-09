@@ -1,19 +1,19 @@
 ---
-title: Använd filter i Förbättrad analys
+title: Använda filter i Förbättrad analys
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Filtren i området Förbättrad analys hjälper dig att fokusera på specifika projekt eller specifika typer av data. De typer av filter du använder kan ge dig insikt i - REDIGERA ME.
+description: Filtren i området Förbättrad analys hjälper dig att fokusera på specifika projekt eller specifika typer av data.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---
 
-# Använd filter i Förbättrad analys
+# Använda filter i Förbättrad analys
 
 Filtren i området Förbättrad analys hjälper dig att fokusera på specifika projekt eller specifika typer av data. De typer av filter du använder kan ge dig insikt i:
 
@@ -90,11 +90,11 @@ Du kan lägga till filter baserat på standardprojektfält, anpassade formulärf
 >Du kan också använda tangenterna på tangentbordet för att navigera till och lägga till ett nytt filter.\
 >Mer information finns i [Kortkommandon](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) i artikeln [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
 
-* [Lägg till ett projektfältfilter](#add-a-project-field-filter)
-* [Lägg till ett projektfältfilter](#add-a-project-field-filter)
+* [Lägga till ett projektfältfilter](#add-a-project-field-filter)
+* [Lägga till ett projektfältfilter](#add-a-project-field-filter)
 * [Lägg till ett teamfilter](#add-a-team-filter)
 
-### Lägg till ett projektfältfilter {#add-a-project-field-filter}
+### Lägga till ett projektfältfilter {#add-a-project-field-filter}
 
 Med projektfältfilter kan du filtrera data för projekt och uppgifter baserat på de värden som anges i fält som ingår i projekt som standard.
 
@@ -109,9 +109,9 @@ Följande filtertyper för projektfält är tillgängliga:
 | **Sponsorn** | Visar data endast för projekt med de valda sponsorerna |
 | **Projektägare** | Visar data endast för projekt med de valda projektägarna |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Egna formulärfilter fungerar annorlunda. Mer information finns i [Lägg till ett projektfältfilter](#add-a-project-field-filter).
+Egna formulärfilter fungerar annorlunda. Mer information finns i [Lägga till ett projektfältfilter](#add-a-project-field-filter).
 
 Så här lägger du till ett projektfältfilter:
 
@@ -120,7 +120,7 @@ Så här lägger du till ett projektfältfilter:
 
    >[!NOTE]
    >
-   >Olika filtertyper visar olika data. Du kan bara använda en filtertyp i ett filter. När du har valt en filtertyp är den inte tillgänglig för användning i ett annat projektfältfilter.
+   >Olika filtertyper visar olika data. Du kan bara använda en filtertyp i ett filter. När du har valt det här alternativet är en filtertyp inte tillgänglig för användning i ett annat projektfältfilter.
 
 1. Leta upp de värden som du vill se data för genom att ange minst tre tecken i textfältet **Sök** markerar du de värden som du vill inkludera i filtret.
 
@@ -140,18 +140,20 @@ Så här lägger du till ett projektfältfilter:
    >
    >   
    >   
-   >   * Använd pilarna längst ned till vänster för att visa de kommande 50 projekten i den visualiseringen.\
-      >     ![](assets/pagination-350x118.png)
+   >   * Använd pilarna i det nedre vänstra hörnet för att visa de nästa 50 projekten i den visualiseringen.\
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * Använd listrutan Sortera efter i en visualisering för att visa projekten i en annan ordning.\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    Information om hur du justerar datumintervallet finns i [Ändra datumintervallfilter](#change-the-date-range-filter).
 
 ### Lägg till ett anpassat formulärfilter för projekt
 
-Med filtertypen Anpassat formulär kan du filtrera data för projekt och uppgifter baserat på de värden som anges i anpassade formulärfält i projekt. Till skillnad från andra typer av förbättrade analysfilter kan du lägga till fler än ett eget formulärfilter. Varje filter för anpassat formulär innehåller värden som bara anges i det valda fältet i ett specifikt anpassat formulär.
+Med filtertypen Anpassat formulär kan du filtrera data för projekt och uppgifter baserat på de värden som anges i anpassade formulärfält i projekt. Till skillnad från andra typer av förbättrade analysfilter kan du lägga till fler än ett filter för anpassade formulär. Varje filter för anpassat formulär innehåller värden som bara anges i det valda fältet i ett specifikt anpassat formulär.
 
 Så här lägger du till ett eget formulärfilter:
 
@@ -167,17 +169,17 @@ Så här lägger du till ett eget formulärfilter:
    >
    >Alla anpassade formulärfältstyper kan inte läggas till i ett filter. Förbättrad analys har för närvarande bara stöd för de fälttyper som listas ovan.
 
-   * **Kryssruta**, **nedrullningsbar**, eller **alternativknapp**: Markera varje värde i det markerade fältet som du vill inkludera i filtret eller klicka på **Markera alla** kryssrutan.\
-      ![](assets/custom-form-filter-checkbox-350x255.png)
+   * **Kryssruta**, **nedrullningsbar**, eller **alternativknapp**: Välj varje värde i det markerade fältet som du vill ta med i filtret eller klicka på **Markera alla** kryssrutan.\
+     ![](assets/custom-form-filter-checkbox-350x255.png)
 
    * **Datum**: Använd pilarna för att navigera till en viss månad och välj sedan datumet i det markerade fältet som du vill ta med i filtret.\
-      ![](assets/custom-form-filter-date-350x348.png)
+     ![](assets/custom-form-filter-date-350x348.png)
 
-   * **Text**: Ange den text i det markerade fältet som du vill ta med i filtret.\
-      ![](assets/custom-form-filter-text-350x90.png)
+   * **Text**: Ange texten i det markerade fältet som du vill ta med i filtret.\
+     ![](assets/custom-form-filter-text-350x90.png)
 
    * **Nummer**: Ange numret i det markerade fältet som du vill ta med i filtret.\
-      ![](assets/custom-form-filter-number-350x93.png)
+     ![](assets/custom-form-filter-number-350x93.png)
 
 1. När du har angett eller valt de värden som du vill filtrera efter klickar du på **Använd filter**.
 
@@ -193,12 +195,14 @@ Så här lägger du till ett eget formulärfilter:
    >
    >   
    >   
-   >   * Använd pilarna längst ned till vänster för att visa de kommande 50 projekten i den visualiseringen.\
-      >     ![](assets/pagination-350x118.png)
+   >   * Använd pilarna i det nedre vänstra hörnet för att visa de nästa 50 projekten i den visualiseringen.\
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * Använd listrutan Sortera efter i en visualisering för att visa projekten i en annan ordning.\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    Information om hur du justerar datumintervallet finns i [Ändra datumintervallfilter](#change-the-date-range-filter).
 
@@ -210,7 +214,7 @@ Så här lägger du till ett eget formulärfilter:
    ![](assets/people-area-cropped-qs-350x276.png)
 
 1. Klicka på i skärmens övre vänstra hörn **Lägg till filter** väljer du **Team** filter.
-1. Hitta de team du vill se data för genom att ange minst tre tecken i **Sök** markerar du de team som du vill inkludera i filtret. Om du vill välja alla team klickar du på **Markera alla**.
+1. Hitta de team du vill se data för genom att ange minst tre tecken i **Sök** markerar du de team som du vill inkludera i filtret. Om du vill välja alla team klickar du **Markera alla**.
 
    ![](assets/select-team-value-350x253.png)
 
@@ -234,14 +238,14 @@ Du kan ta bort ett filter när du vill. Om du tar bort ett filter visas det inte
 >Du kan också använda tangenterna på tangentbordet för att navigera till och ta bort ett befintligt filter.\
 >Mer information finns i [Kortkommandon](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) i artikeln [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
 
-Så här tar du bort ett filter:
+Ta bort ett filter:
 
 1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
 1. Om du vill ta bort ett arbetsfilter finns det kvar i **Arbete** område.
 
    eller
 
-   Om du vill ta bort ett personfilter väljer du **Folk** i den vänstra panelen.
+   Om du vill ta bort ett personfilter väljer du **Folk** till vänster.
 
 1. Leta reda på det önskade filtret och klicka på **X** för att ta bort den.
 

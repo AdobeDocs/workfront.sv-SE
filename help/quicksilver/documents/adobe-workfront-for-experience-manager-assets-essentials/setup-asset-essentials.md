@@ -2,13 +2,13 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Konfigurera integreringen av Experience Manager Assets Essentials
-description: Koppla samman ditt material med ditt i Experience Manager Assets Essentials - EDIT ME.
+description: Koppla samman materialet med innehållet i Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a6cb6d4780f2b1c3e77547caf7324e882d2dab4f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Koppla samman materialet med innehållet i Experience Manager Assets Essentials &#x200B;:
 
-* Skicka material och metadata från Adobe Workfront till Experience Manager Assets Essentials-&#x200B;
+* Överför material och metadata från Adobe Workfront till Experience Manager Assets Essentials-&#x200B;
 * Länka material från Experience Manager Assets Essentials till projekt och uppgifter i Workfront &#x200B;
 * Underlätta versionshantering för resurser som skickas till Experience Manager Assets Essentials
 
@@ -68,7 +68,7 @@ Du måste ha följande:
 
 ## Konfigurera integreringen
 
-1. Klicka på **Huvudmeny** ikonen i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar**.
+1. Klicka på **Huvudmeny** i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar**.
 1. Välj  **Dokument** ![dokument, ikon](assets/document-icon.png) i den vänstra panelen väljer **Integrering med Experience Manager**.
 1. Välj **Lägg till integrering med Experience Manager**.
 1. Ange följande:
@@ -88,7 +88,7 @@ Du måste ha följande:
    </tr>
    <tr>
       <td>
-      <strong>Experience Manager Assets</strong>
+      <strong>Experience Manager Assets-databas</strong>
       </td>
       <td>
       Systemet fyller automatiskt i den Experience Manager-databas som är kopplad till ditt organisations-ID.
@@ -109,7 +109,7 @@ Mappa Workfront-objektdata till mediefält i Experience Manager Assets. Metadata
 Innan du börjar måste du
 
 * Konfigurera ett metadataschema i Experience Manager Assets Essentials enligt anvisningarna i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-* (Valfritt) Konfigurera anpassade formulärfält i Workfront. Workfront har många inbyggda anpassade fält som du kan använda. Du kan dock även skapa egna anpassade fält. Mer information finns i [Skapa eller redigera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* (Valfritt) Konfigurera anpassade formulärfält i Workfront. Workfront har många anpassade fält som du kan använda. Du kan dock även skapa egna anpassade fält. Mer information finns i [Skapa eller redigera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 +++ **Workfront- och Experience Manager Assets-fält som stöds**
 

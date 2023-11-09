@@ -3,14 +3,14 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Granska korrektur i Adobe Workfront
-description: Det här avsnittet innehåller följande artiklar - EDIT ME.
+description: Lär dig hur du granskar korrektur i Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cf62d4ef-1244-4038-a56d-4a325140f93a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---

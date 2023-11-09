@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: Det går inte att logga in på [!DNL Workfront Proof] Mobilapp
-description: När du försöker logga in på Workfront Proof Mobile App returneras den - REDIGERA MIG.
+description: Felsöka inloggning i mobilappen Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---

@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Generera korrektur i [!DNL Workfront Proof]
-description: Med Workfront Proof kan du skapa korrektur av dokument eller webbplatser och dela dessa med andra. Följande steg beskriver de olika konfigurationsalternativ som är tillgängliga - EDIT ME.
+description: Med Workfront Proof kan du skapa korrektur av dokument eller webbplatser och dela dessa med andra.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2156'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ ht-degree: 0%
 1. Om du vill korrekturgranska ett eller flera dokument lägger du till dokument som ska korrektur på något av följande sätt (upprepa den här processen om du vill lägga till flera dokument som ska korrektur):
 
    * Dra ett dokument från filsystemet till dra-och-släpp-området i **[!UICONTROL Add Files]** område.
-   * Klicka i dra-och-släpp-området i dialogrutan **[!UICONTROL Add Files]** bläddra sedan till och markera dokumentet som du vill överföra från filsystemet på din arbetsstation.
+   * Klicka i dra och släpp-området i dialogrutan **[!UICONTROL Add Files]** bläddra sedan till och markera dokumentet som du vill överföra från filsystemet på din arbetsstation.
 
-      ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
+     ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
 
 1. Om du vill korrekturgranska en eller flera webbplatser anger du URL-adressen till den webbplats du vill korrekturgranska i dialogrutan **[!UICONTROL Add Files]** område, tryck sedan på **[!UICONTROL Enter]**.
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 
 1. (Valfritt) Ändra filnamnen för överförda filer:
 
-   1. För musen över dokumentnamnet som du vill ändra i dokumentlistan i dialogrutan **[!UICONTROL Add Files]** klickar du på **[!UICONTROL Edit]** ikon.
+   1. För musen över dokumentnamnet som du vill ändra i dokumentlistan i dialogrutan **[!UICONTROL Add Files]** klickar du på **[!UICONTROL Edit]** -ikon.
 
       ![proof_edit.png](assets/proof-edit-350x53.png)
 
-   1. I **[!UICONTROL Proof name]** fält, ange ett nytt namn och klicka sedan på **[!UICONTROL Done]**.
+   1. I **[!UICONTROL Proof name]** fält, ange ett nytt namn och klicka sedan **[!UICONTROL Done]**.
 
-   1. (Valfritt) Om du vill ta bort filer som inte ska överföras för du musen över dokumentet som du vill ta bort i dokumentlistan i dialogrutan **[!UICONTROL Add Files]** klickar du på **[!UICONTROL Delete]** ikon.
+   1. (Valfritt) Om du vill ta bort filer som inte ska överföras för du musen över dokumentet som du vill ta bort i dokumentlistan i dialogrutan **[!UICONTROL Add Files]** klickar du på **[!UICONTROL Delete]** -ikon.
 
       ![proof_delete.png](assets/proof-delete-350x53.png)
 
@@ -79,11 +79,11 @@ ht-degree: 0%
 
    * **Grundläggande:** Välj det här alternativet om du vill ange vilka användare som ska ha tillgång till korrekturet omedelbart efter att det har skapats. Du kan dela korrekturet med flera användare.
 
-      Mer information om hur du delar ett korrektur finns i&quot;Lägga till användare i ett korrektur&quot; i [Dela ett korrektur inom [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+     Mer information om hur du delar ett korrektur finns i&quot;Lägga till användare i ett korrektur&quot; i [Dela ett korrektur inom [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
    * **Automatiserad:** Välj det här alternativet om du vill hantera granskning och godkännande av innehåll när du har komplexa granskningsprocesser, eller om du skickar innehåll för granskning till samma grupper av personer regelbundet. Med automatiserat arbetsflöde flyttas korrekturet från scen till scen tills det är slutgiltigt godkänt. De berörda användarna meddelas när de behöver göra ett godkännande.
 
-      Mer information om hur du skapar ett automatiskt arbetsflöde finns i [Ställ in ett korrektur med ett automatiserat arbetsflöde i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
+     Mer information om hur du skapar ett automatiskt arbetsflöde finns i [Ställ in ett korrektur med ett automatiserat arbetsflöde i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
 1. Välj om du vill skicka e-postmeddelanden och ett anpassat meddelande till de användare som du valde i föregående steg:
 
@@ -99,7 +99,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">Kräv inloggning - korrektur kan bara delas med andra användare</td> 
-      <td> <p><strong>Kräv inloggning - korrektur kan bara delas med andra användare:</strong> När det här alternativet är markerat är det bara [!DNL Workfront Proof] -användare kan visa korrekturet.</p> <p>Det här alternativet är inaktiverat som standard. alla som har URL:en kan se korrekturet.</p> <p>När det här alternativet är markerat:</p> 
+      <td> <p><strong>Kräv inloggning - korrektur kan bara delas med andra användare:</strong> När det här alternativet är markerat är det bara [!DNL Workfront Proof] -användare kan visa korrekturet.</p> <p>Det här alternativet är inaktiverat som standard. Alla med URL-adressen kan visa korrekturet.</p> <p>När det här alternativet är markerat:</p> 
        <ul> 
         <li>Användarna kan inte logga in på korrekturet om de inte har lagts till i korrekturet.</li> 
         <li>Det går inte att aktivera prenumerationer.</li> 
@@ -131,7 +131,7 @@ ht-degree: 0%
        <ul> 
         <li><strong>Abonnentroll</strong>: Standardkorrekturrollen som tilldelas alla granskare som prenumererar på korrekturet.</li> 
         <li><strong>Inställningar för e-postavisering för prenumeranter</strong>: Standardvarningsmeddelandet som tilldelas alla granskare som prenumererar på korrekturet.</li> 
-        <li> <p><strong>Åtkomstbevis via e-postlänk krävs för</strong>: Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>Endast e-postmeddelanden med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (Prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till beviset. syftet med detta alternativ är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</p> <p>Obs! Om korrekturet har bifogat ett automatiserat arbetsflöde kommer alla prenumerationer att generera bekräftelsemeddelanden till korrekturägaren, så att de kan bestämma i vilken fas personen ska läggas till.</p> </li> 
+        <li> <p><strong>Åtkomstbevis via e-postlänk krävs för</strong>: Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>E-post med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (Prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till ett bevis. Syftet med det här alternativet är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</p> <p>Obs! Om korrekturet har ett automatiserat arbetsflöde bifogat, kommer alla prenumerationer att generera bekräftelsemeddelanden till korrekturägaren, så att de kan bestämma i vilken fas personen ska läggas till.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -155,7 +155,7 @@ Du kan generera ett korrektur för en URL-adress för första gången. Du kan oc
 
 >[!NOTE]
 >
->Du kan bara generera ett interaktivt korrektur för en URL om [!DNL Workfront] -miljön är integrerad med [!DNL Workfront Proof] Premiumkonto. Kontakta systemadministratören om du inte kan använda korrektur enligt beskrivningen i det här avsnittet.
+>Du kan bara generera ett interaktivt korrektur för en URL om [!DNL Workfront] -miljön är integrerad med [!DNL Workfront Proof] Premiumkonto. Om du inte kan använda korrektur enligt beskrivningen i det här avsnittet kontaktar du systemadministratören.
 
 Så här skapar du ett korrektur för en URL:
 
@@ -166,7 +166,7 @@ Så här skapar du ett korrektur för en URL:
 
    * Skicka via Dropzone (Enterprise-funktionen).
 
-1. (Villkorligt) I **[!UICONTROL New proof]** sida som visas för att skapa en ny version av ett befintligt korrektur:
+1. (Villkorligt) I dialogrutan **[!UICONTROL New proof]** sida som visas för att skapa en ny version av ett befintligt korrektur:
 
    1. Välj det URL-korrektur där du vill lägga till en ny version.
    1. Klicka på **[!UICONTROL New Version]** överst på sidan.
@@ -199,7 +199,7 @@ Så här skapar du ett korrektur för en URL:
      </tr> 
      <tr> 
       <td role="rowheader">Interaktiv</td> 
-      <td> <p>Skapar ett korrektur som gör att granskarna kan navigera på webbplatsen, visa bilder i HTML5, element i Flash och så vidare.</p> <p>För att kunna skapa ett interaktivt korrektur måste webbplatsen ha ett säkert protokoll (https). Dessutom kan webbplatser som inte kan bäddas in i en iframe inte genereras som ett interaktivt korrektur (begränsningar för inbäddning av iframe styrs av den webbplats som du försöker bädda in).</p> <p>När det inledande korrekturet har skapats kan den här inställningen inte ändras när efterföljande versioner skapas.</p> <p>Mer information om interaktiv korrektur finns i <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generera ett korrektur för interaktivt innehåll</a>.</p> </td> 
+      <td> <p>Skapar ett korrektur som gör att granskarna kan navigera på webbplatsen, visa bilder i HTML5, Flash osv.</p> <p>För att kunna skapa ett interaktivt korrektur måste webbplatsen ha ett säkert protokoll (https). Dessutom kan webbplatser som inte kan bäddas in i en iframe inte genereras som ett interaktivt korrektur (begränsningar för inbäddning av iframe styrs av den webbplats som du försöker bädda in).</p> <p>När det inledande korrekturet har skapats kan den här inställningen inte ändras när efterföljande versioner skapas.</p> <p>Mer information om interaktiv korrektur finns i <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generera ett korrektur för interaktivt innehåll</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Skärmbildupplösning</td> 
@@ -207,12 +207,12 @@ Så här skapar du ett korrektur för en URL:
      </tr> 
      <tr> 
       <td role="rowheader">Leta efter undersidor</td> 
-      <td>(Det här alternativet är inte tillgängligt för interaktiva korrektur.) Välj det här alternativet om du vill navigera på webbplatsens sidor. Du kan expandera webbplatsen upp till två nivåer från huvudsidan. För musen över en sida för att visa sidans URL. Markera bara de sidor som du vill korrekturgranska. Varje sida som du väljer skapas som ett enskilt korrektur som standard; eller, aktivera <strong>Kombinera till ett enda korrektur</strong> om du vill kombinera alla markerade sidor till ett enda korrektur.</td> 
+      <td>(Det här alternativet är inte tillgängligt för interaktiva korrektur.) Välj det här alternativet om du vill navigera på webbplatsens sidor. Du kan expandera webbplatsen upp till två nivåer från huvudsidan. För musen över en sida för att visa sidans URL. Markera bara de sidor som du vill korrekturgranska. Varje sida som du väljer skapas som ett enskilt korrektur som standard, eller aktivera <strong>Kombinera till ett enda korrektur</strong> om du vill kombinera alla markerade sidor till ett enda korrektur.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Valfritt) Konfigurera eventuella avancerade alternativ för korrektur, som att dela korrektur, lägga till ett automatiserat arbetsflöde eller ställa in åtkomst- och prenumerationsinställningar. Mer information om dessa alternativ finns i följande artiklar:
+1. (Valfritt) Konfigurera eventuella avancerade alternativ för korrektur, som att dela korrektur, lägga till ett automatiserat arbetsflöde eller ställa in åtkomst- och prenumerationsinställningar. Mer information om de här alternativen finns i följande artiklar:
 
    * [Dela ett korrektur inom [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [Ställ in ett korrektur med ett automatiserat arbetsflöde i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
@@ -252,7 +252,7 @@ Mer information om hur du lägger till ett interaktivt URL-korrektur finns i  [G
 
 1. I **[!UICONTROL New proof]** som visas drar och släpper du det interaktiva .zip-paketet i **[!UICONTROL Add files]** område.
 
-1. (Valfritt) Konfigurera eventuella avancerade alternativ för korrektur, som att dela korrekturet, lägga till ett automatiskt arbetsflöde eller ställa in åtkomst- och prenumerationsinställningar. Mer information om dessa alternativ finns i följande artiklar:
+1. (Valfritt) Konfigurera eventuella avancerade alternativ för korrektur, som att dela korrekturet, lägga till ett automatiskt arbetsflöde eller ställa in åtkomst- och prenumerationsinställningar. Mer information om de här alternativen finns i följande artiklar:
 
    * [Dela ett korrektur inom [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * i artikeln

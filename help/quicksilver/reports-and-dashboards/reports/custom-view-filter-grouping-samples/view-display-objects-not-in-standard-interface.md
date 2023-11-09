@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: visningsobjekt som inte ingår i standardgränssnittet'
-description: Du kan visa objekt som inte ingår i standardlägesgränssnittet i en vy. Du kan bara göra detta genom att referera till dem via textläge. Du kan bestämma vilka fält som kan inkluderas i en vy på något av följande sätt - REDIGERA ME.
+description: Du kan visa objekt som inte ingår i standardlägesgränssnittet i en vy. Du kan bara göra detta genom att referera till dem via textläge.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Du kan visa objekt som inte ingår i standardlägesgränssnittet i en vy. Du kan
 Du kan bestämma vilka fält som kan inkluderas i en vy på något av följande sätt:
 
 * Använd [API Explorer](../../../wf-api/general/api-explorer.md) för att identifiera andra objekt som kan refereras via textläge.\
-   Alla fält som finns dokumenterade i API Explorer är inte giltiga för textläge. Vissa fält kan bara rapporteras via API:t.
+  Alla fält som finns dokumenterade i API Explorer är inte giltiga för textläge. Vissa fält kan bara rapporteras via API:t.
 
 * Hitta objektets ID-fält i en kolumn. De flesta objekt som har ett fält-ID har också ett motsvarande kolumn- eller fältnamn som kanske inte är tillgängligt via standardlägesgränssnittet.
 
-   Du kan använda textläge för att inkludera kolumn- eller fältnamnet i en vy i stället för ID:t genom att ersätta `fieldnameID` med `fieldname:name`.
+  Du kan använda textläge för att inkludera kolumn- eller fältnamnet i en vy i stället för ID:t genom att ersätta `fieldnameID` med `fieldname:name`.
 
-   I standardlägesgränssnittet **Ägar-ID för Portfolio** -fältet är tillgängligt för en projektvy, men **Portfolio ägarnamn** fältet är inte. Du kan använda textläge för att visa **Portfolio ägarnamn** i kolumnen för en vy.
+  I standardlägesgränssnittet **Ägar-ID för Portfolio** -fältet är tillgängligt för en projektvy, men **Portfolio ägarnamn** fältet är inte. Du kan använda textläge för att visa **Portfolio ägarnamn** i kolumnen för en vy.
 
 ## Åtkomstkrav
 
@@ -77,7 +77,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    eller
 
-   Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
+   Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med följande kod:
 
    ```
    valuefield=portfolio:owner:name

@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Konfigurera alternativ för godkännandebeslut i [!DNL Workfront Proof]
-description: Som [!DNL Workfront Proof] administratörer som använder en Select- eller Premium-utgåva kan konfigurera beslutsalternativ på följande sätt för alla korrektur som skapas av [!DNL Workfront Proof] användare i din organisation - REDIGERA MIG.
+description: Du kan konfigurera beslutsalternativ för godkännande för alla korrektur som skapas av [!DNL Workfront Proof] användare i organisationen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Som [!DNL Workfront Proof] administratörer som använder en Select- eller Premium-utgåva kan konfigurera beslutsalternativ på följande sätt för alla korrektur som skapas av [!DNL Workfront Proof] användare i din organisation:
+Som en [!DNL Workfront Proof] administratörer som använder en Select- eller Premium-utgåva kan konfigurera beslutsalternativ på följande sätt för alla korrektur som skapas av [!DNL Workfront Proof] användare i din organisation:
 
 * Ändra namnet på beslutet
 * Ändra ordningen på besluten som visas i korrekturläsaren
@@ -34,14 +34,14 @@ I den här artikeln förklaras följande:
 1. Öppna **[!UICONTROL Decisions]** -fliken.
 1. Gör någon av följande ändringar:
 
-   * Om du vill dölja ett beslut klickar du på **[!UICONTROL Hide]** till höger om det beslut ni inte behöver.
+   * Om du vill dölja ett beslut klickar du **[!UICONTROL Hide]** till höger om det beslut ni inte behöver.
    * Om du vill byta namn på ett beslut klickar du på beslutsnamnet, redigerar det och klickar sedan utanför rutan (eller trycker på Retur). [!DNL Workfront Proof] uppdaterar namnet på beslutet för alla befintliga korrektur i systemet.
 
-      >[!IMPORTANT]
-      >
-      >Behåll logiken för ett beslut när du byter namn på det. Standardbeslutet&quot;Avvisat&quot; kan till exempel ändras till&quot;Ny version krävs&quot;, men det bör inte ändras till&quot;Skicka till skrivare&quot;.)
+     >[!IMPORTANT]
+     >
+     >Behåll logiken för ett beslut när du byter namn på det. Standardbeslutet&quot;Avvisat&quot; kan till exempel ändras till&quot;Ny version krävs&quot;, men det bör inte ändras till&quot;Skicka till skrivare&quot;.)
 
-      Om du vill gå tillbaka till [!DNL Workfront Proof] som standard kan du klicka på Återställ standardbeslut.
+     Om du vill gå tillbaka till [!DNL Workfront Proof] som standard kan du klicka på Återställ standardbeslut.
 
 >[!NOTE]
 >
@@ -86,5 +86,5 @@ Du kan också bestämma om du vill att meddelandet ska visas för alla beslutsfa
    ![post_beslut_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 
 1. I **[!UICONTROL Display message]** anger du vilka beslut det här meddelandet ska visas i.
-Om du inte väljer minst ett beslut visas inte meddelandet på korrekturet. Kontrollera minst en ruta i den här kolumnen.
+Om du inte väljer minst ett beslut visas inte meddelandet på korrekturet. Kontrollera minst en ruta i kolumnen.
    ![post_Decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)

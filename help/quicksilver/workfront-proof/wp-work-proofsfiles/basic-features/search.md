@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Söker [!DNL Workfront Proof]
-description: Du kan söka efter följande typer av innehåll på Workfront webbplats för korrektur - EDIT ME.
+description: Du kan söka efter innehåll på Workfront korrekturwebbplats.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---

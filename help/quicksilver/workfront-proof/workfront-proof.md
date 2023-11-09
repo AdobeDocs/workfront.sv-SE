@@ -4,15 +4,15 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof
-description: Det här avsnittet innehåller följande underavsnitt – EDIT ME.
+description: Lär dig hur du använder Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 12%
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
