@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Skapa och ändra anpassade åtkomstnivåer
 
-<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
+<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
 Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare. När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information om åtkomstnivåer finns i
 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>Aktuell plan: Standard
    <p>eller</p>
-   <p>Äldre plan: Plan</p></td> 
+   <p>Gammal plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step-1-to-setup}}
 
-1. Klicka **Åtkomstnivåer** i den vänstra panelen.
+1. Klicka **Åtkomstnivåer** till vänster.
 1. Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på **Kopiera**.
 
    eller
@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. (Villkorligt) Om **Standard** eller **Plan** är markerat i **Licenstyp** ruta, bläddra till avsnittet **Tillåt administrativ åtkomst för** och välj administratörsbehörigheter för de som ska ha den här åtkomstnivån.
+1. (Villkorligt) Om **Standard** eller **Plan** är markerat i **Licenstyp** rulla till avsnittet **Tillåt administrativ åtkomst för** och välj administratörsbehörigheter för de som ska ha den här åtkomstnivån.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,7 +114,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <li>Utgifter för projekt, uppgifter eller ärenden som de hanterar</li>
         <li>Deras egna utgifter</li>
         <li>Utgifter för underordnade</li>
-       </ul><p><b>ANMÄRKNING</b>: Detta gör att användaren inte kan skapa nya utgiftstyper.</p></td> 
+       </ul><p><b>ANMÄRKNING</b>: Detta innebär inte att användaren kan skapa nya utgiftstyper.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Jobbroller</td> 
@@ -184,7 +184,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt aldrig användare att ta bort meddelanden</td> 
-      <td>Hindrar användare från att ta bort meddelanden i meddelandecentret. Mer information finns i <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Skicka meddelanden</a>.</td> 
+      <td>Förhindrar att användare tar bort meddelanden i meddelandecentret. Mer information finns i <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Skicka meddelanden</a>.</td> 
      </tr> 
     </tbody> 
    </table>
