@@ -6,16 +6,14 @@ description: Använd arbetsflöden i integreringen med Experience Manager Assets
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
 
 # Använda arbetsflöden i Experience Manager Assets-integrering
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. En Workfront-administratör kan konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
 
@@ -147,8 +145,6 @@ Redigera arbetsflödet för länkade mappar:
 
 #### Publicera resurser
 
-<div class="preview">
-
 Så här redigerar du arbetsflödet för publicering av resurser:
 
 1. Växla **Publicera resurser automatiskt** på eller av efter behov.
@@ -159,4 +155,4 @@ Så här redigerar du arbetsflödet för publicering av resurser:
 
    Om du är i [!DNL Adobe Experience Manager area]sparar ändringarna automatiskt. <!--Do they though?-->
 
-</div>
+
