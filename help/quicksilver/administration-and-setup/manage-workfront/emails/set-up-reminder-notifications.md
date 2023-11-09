@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -109,13 +109,13 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
       <td role="rowheader">Kriterier</td> 
       <td> <p>Välj villkoren för att kvalificera påminnelsemeddelandet som ska schemaläggas. Påminnelsemeddelanden är inte schemalagda såvida inte valet av villkor uppfylls.</p> <p>Följande villkorsalternativ är tillgängliga, beroende på vilken objekttyp du valde i steg 4:</p> 
        <ul> 
-        <li><strong>Ofullständigt i aktuella projekt:</strong> (Tillgängligt för påminnelser om aktiviteter och ärenden) Påminnelsemeddelandet schemaläggs att skickas endast när objektstatusen som påminnelsemeddelandet är associerat med inte är Fullständig och projektstatusen är Aktuell.</li> 
-        <li><strong>Alla i aktuella projekt:</strong>(Tillgängligt för påminnelser om aktiviteter och utleveranser) Påminnelsemeddelandet schemaläggs att skickas oavsett objektstatus och endast när den projektstatus som påminnelsemeddelandet är associerat med är Aktuell.</li> 
-        <li><strong>Ofullständiga projekt:</strong> (Tillgängligt för projektpåminnelser) Påminnelsemeddelandet schemaläggs att skickas när projektstatusen är något annat än Fullständigt.</li> 
-        <li><strong>Fullständiga projekt:</strong> (Tillgängligt för projektpåminnelser) Påminnelsemeddelandet schemaläggs att skickas när projektstatusen är Slutförd.</li> 
-        <li><strong>Öppna tidrapporter:</strong> (Tillgängligt för tidrapportpåminnelser) Påminnelsemeddelandet schemaläggs att skickas när tidrapportens status är Öppen.</li> 
-        <li><strong>Skickade tidrapporter:</strong> (Tillgängligt för tidrapportpåminnelser) Påminnelsemeddelandet schemaläggs att skickas när tidrapportens status har skickats.</li> 
-        <li><strong>Öppna tidrapport eller mindre än 40 timmar per vecka:</strong> (Tillgängligt för tidrapportpåminnelser) Påminnelsemeddelandet schemaläggs att skickas när tidrapportens status är Öppen eller när tidrapporten har loggats under 40 timmar.</li> 
+        <li><strong>Ofullständigt i aktuella projekt:</strong> <i>(Tillgängligt för uppgifter och utgivningspåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas endast när objektstatusen som påminnelsemeddelandet är associerat med inte är Fullständig och projektstatusen är Aktuell.</li> 
+        <li><strong>Alla i aktuella projekt:</strong> <i>(Tillgängligt för uppgifter och utgivningspåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas oavsett objektstatus och endast när det projektstatus som påminnelsemeddelandet är kopplat till är Aktuell.</li> 
+        <li><strong>Ofullständiga projekt:</strong> <i>(Tillgängligt för projektpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när projektstatusen är något annat än Fullständigt.</li> 
+        <li><strong>Alla projekt:</strong> <i>(Tillgängligt för projektpåminnelser)</i> Påminnelsemeddelandet är schemalagt att skickas oavsett projektstatus.</li> 
+        <li><strong>Öppna tidrapporter:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatusen är öppen.</li> 
+        <li><strong>Skickade tidrapporter:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatus har skickats.</li> 
+        <li><strong>Öppna tidrapport eller mindre än 40 timmar per vecka:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatusen är öppen eller när tidrapporten har loggats under 40 timmar.</li> 
         <li><strong>E-postmall:</strong> I listrutan väljer du en e-postmall som ska bifogas påminnelsen.<br>Mer information om hur du skapar en e-postmall finns i <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Konfigurera e-postmallar</a>.</li> 
        </ul> </td> 
      </tr> 

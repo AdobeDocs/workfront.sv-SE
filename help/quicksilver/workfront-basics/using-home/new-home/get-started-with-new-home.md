@@ -6,9 +6,9 @@ description: New Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar uppgifter som du har tilldelats i en tabell med anpassningsbara filter, vyer och grupperingar, samt en knapp som du använder för att skapa en ny uppgift.
 
 * **Mina problem**\
-    Visar problem som har tilldelats dig i en tabell med anpassningsbara filter, vyer och grupperingar, samt en knapp som skapar ett nytt problem direkt.
+    Visar problem som har tilldelats dig i en tabell med anpassningsbara filter, vyer och grupperingar, samt en knapp som skapar ett nytt problem direkt. Den här widgeten innehåller bara problem vars associerade projekt är inställda på Aktuell.
 
 * **Mina förfrågningar**\
     Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningsrutan för en begäran.
