@@ -5,14 +5,17 @@ title: Använd arbetsflöden i integreringen med Experience Manager Assets Essen
 description: Använd arbetsflöden i integreringen med Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
 
 # Använda arbetsflöden i Experience Manager Assets-integrering
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. En Workfront-administratör kan konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
 
@@ -41,7 +44,7 @@ Du måste ha följande:
   <tr>
    <td><strong>Produkt</strong>
    </td>
-   <td><p>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.</p><p>Du måste ha skrivåtkomst till databasen i Adobe Experience Manager för att kunna skapa länkade mappar.</p>&gt;
+   <td><p>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.</p><p>Du måste ha skrivåtkomst till databasen i Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -72,7 +75,7 @@ Innan du börjar,
 
 Du kan lägga till ett arbetsflöde i en projektmall. Arbetsflödet används för alla projekt som skapas från mallen.
 
-1. <!-- main menu snippet??--> Öppna en mall genom att klicka på **Mallar** på huvudmenyn och sedan väljer du mallen i listan.
+1. Öppna en mall genom att klicka på **Mallar** på huvudmenyn och sedan väljer du mallen i listan.
 1. Klicka **Experience Manager Assets** i den vänstra navigeringspanelen.
 
    >[!NOTE]
@@ -82,7 +85,7 @@ Du kan lägga till ett arbetsflöde i en projektmall. Arbetsflödet används fö
 1. I **Välj en integrering för fält för automatiserade arbetsflöden** väljer du integrering med de arbetsflöden du vill använda för projekt som skapas från den här mallen.
 1. (Valfritt) Redigera alla arbetsflödesvärden som du vill använda för projekt som skapas från den här mallen.
 
-   Om du till exempel vill skapa en länkad mapp på en annan plats än standardvärdet anger du platsen för den länkade mappen.
+   Instruktioner om specifika arbetsflöden finns i [Redigera värden i ett projekt](#edit-workflow-values-in-a-project) i den här artikeln.
 
    Endast arbetsflöden som har aktiverats under Experience Manager i installationsprogrammet är tillgängliga i mallar eller projekt.
 
@@ -99,7 +102,7 @@ Du kan lägga till ett arbetsflöde när du skapar ett projekt eller lägga till
    Instruktioner finns i [Skapa ett projekt med en mall](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. När du väljer en mall för projektet väljer du den mall som innehåller de arbetsflöden du vill använda för det här projektet.
-1. (Valfritt) Redigera alla arbetsflödesvärden för projektet enligt beskrivningen i [Redigera arbetsflödesvärden i ett projekt](#edit-workflow-values-in-a-project).
+1. (Valfritt) Redigera alla arbetsflödesvärden för projektet enligt beskrivningen i [Redigera värden i ett projekt](#edit-workflow-values-in-a-project).
 
    Endast arbetsflöden som har aktiverats under Experience Manager i installationsprogrammet är tillgängliga i mallar eller projekt.
 
@@ -111,31 +114,49 @@ Du kan lägga till ett arbetsflöde när du skapar ett projekt eller lägga till
    Instruktioner finns i [Bifoga en mall till ett projekt](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 1. När du väljer en mall för projektet väljer du den mall som innehåller de arbetsflöden du vill använda för det här projektet.
-1. (Valfritt) Redigera alla arbetsflödesvärden för projektet enligt beskrivningen i [Redigera arbetsflödesvärden i ett projekt](#edit-workflow-values-in-a-project).
+1. (Valfritt) Redigera alla arbetsflödesvärden för projektet enligt beskrivningen i [Redigera värden i ett projekt](#edit-workflow-values-in-a-project).
 
-### Redigera arbetsflödesvärden i ett projekt
+   Endast arbetsflöden som har aktiverats under Experience Manager i installationsprogrammet är tillgängliga i mallar eller projekt.
+
+### Redigera värden i ett projekt
 
 Du kan redigera arbetsflödesvärden på projektnivå. Arbetsflödesvärden på projektnivå åsidosätter värden som angetts i projektmallen, som åsidosätter standardvärdena som angetts i Adobe Experience Manager Assets-integreringen.
 
 Alla arbetsflödesvärden finns i:
 
-* Avsnittet Arbetsflöden i fönstret Skapa projekt eller Redigera projekt.
+* Arbetsflödesavsnittet i fönstret Skapa projekt eller Redigera projekt.
 * The Adobe Experience Manager section of the left navigation.
 
 
-   >[!NOTE]
-   >
-   >Om dessa områden inte visas har Workfront-administratören inte aktiverat arbetsflöden för din organisation.
+  >[!NOTE]
+  >
+  >Om dessa områden inte visas har Workfront-administratören inte aktiverat arbetsflöden för din organisation.
 
 #### Länkade mappar
 
-Så här redigerar du arbetsflödet för länkade mappar:
+Redigera arbetsflödet för länkade mappar:
 
-1. Växla **[!UICONTROL Create Linked folder]** på.
-1. Välj en mappsökväg för att ange var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
-1. Klicka på Spara om du använder fönstret Skapa projekt eller Redigera projekt.
+1. Växla **[!UICONTROL Create Linked folder]** på eller av efter behov.
+1. (Villkorligt) Om du aktiverar länkade mappar väljer du en mappsökväg som anger var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
+1. Klicka **[!UICONTROL Save]** om du använder [!UICONTROL Create Project] eller [!UICONTROL Edit project] -fönstret.
 
    eller
 
-   Om du befinner dig i Adobe Experience Manager sparar ändringarna automatiskt. <!--Do they though?-->
+   Om du är i [!DNL Adobe Experience Manager area]sparar ändringarna automatiskt. <!--Do they though?-->
 
+
+#### Publicera resurser
+
+<div class="preview">
+
+Så här redigerar du arbetsflödet för publicering av resurser:
+
+1. Växla **Publicera resurser automatiskt** på eller av efter behov.
+1. (Villkorligt) Om du aktiverar publicering väljer du om du vill publicera till publiceringstjänsten, varumärkesportalen eller båda.
+1. Klicka **[!UICONTROL Save]** om du använder [!UICONTROL Create Project] eller [!UICONTROL Edit project] -fönstret.
+
+   eller
+
+   Om du är i [!DNL Adobe Experience Manager area]sparar ändringarna automatiskt. <!--Do they though?-->
+
+</div>
