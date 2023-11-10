@@ -7,16 +7,16 @@ description: Syftet med en kontrollpanel är att ge snabb åtkomst till informat
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c6e63ac7e98b7cc05476393aa53f5b738ca60a41
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
 # Kom igång med instrumentpaneler
 
-Syftet med en kontrollpanel är att ge snabb åtkomst till information. Du kan samla information i rapporter och sedan placera dem på kontrollpaneler för att göra informationen enklare att komma åt.
+Syftet med en kontrollpanel är att ge snabb åtkomst till information som kommer från flera rapporter. Först kan du samla information i rapporter och sedan montera flera rapporter på kontrollpaneler för att göra informationen enklare att komma åt.
 
 ## Åtkomstkrav
 
@@ -54,13 +54,13 @@ Du måste ha följande:
 Du kan fylla en kontrollpanel med följande objekt i Adobe Workfront:
 
 * Rapporter\
-   Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Kalendrar\
-   Mer information om hur du skapar kalendrar finns i [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+  Mer information om hur du skapar kalendrar finns i [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 * Externa sidor\
-   Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Mer information om hur du skapar en kontrollpanel finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
@@ -69,19 +69,19 @@ Mer information om hur du skapar en kontrollpanel finns i [Skapa en instrumentpa
 Du kan dela en kontrollpanel med användarna på följande sätt:
 
 * Enskild delning.\
-   Mer information om att dela instrumentpaneler finns i [Dela rapporter, kontrollpaneler och kalendrar](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) och [Dela en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+  Mer information om att dela instrumentpaneler finns i [Dela rapporter, kontrollpaneler och kalendrar](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) och [Dela en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Lägg till en kontrollpanel i ett område eller objekt i Workfront med ett anpassat avsnitt.\
-   Mer information om hur du skapar anpassade avsnitt finns i [Vänster navigering i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  Mer information om hur du skapar anpassade avsnitt finns i [Vänster navigering i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Placera kontrollpanelerna på layoutmallar, som du kan dela med användarna.\
-   Mer information om att dela instrumentpaneler via layoutmallar finns i [Anpassa den vänstra panelen med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Mer information om att dela instrumentpaneler via layoutmallar finns i [Anpassa den vänstra panelen med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 * Skriv ut en papperskopia av dem som du vill dela med användarna.\
-   Mer information om hur du skriver ut kontrollpaneler finns i [Skriva ut en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
+  Mer information om hur du skriver ut kontrollpaneler finns i [Skriva ut en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Exportera dem som en pdf-fil så att du kan skicka dem via e-post till användarna.\
-   Mer information om hur du exporterar en kontrollpanel till en PDF-fil finns i [Exportera en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+* Exportera dem som en .pdf-fil så att du kan skicka dem via e-post till användarna.\
+  Mer information om hur du exporterar en kontrollpanel till en PDF-fil finns i [Exportera en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 När du delar en kontrollpanel med användare delas även alla rapporter, kalendrar och externa sidor som finns på kontrollpanelen med samma användare som standard.
 
@@ -94,9 +94,9 @@ När du delar en kontrollpanel med användare delas även alla rapporter, kalend
 Du kan visa en kontrollpanel på följande sätt:
 
 * Öppna avsnittet som det är placerat i och instrumentpanelen som är placerad i avsnittet visas.\
-   Mer information om hur du placerar kontrollpaneler i anpassade avsnitt finns i [Navigering till vänster i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  Mer information om hur du placerar kontrollpaneler i anpassade avsnitt finns i [Navigering till vänster i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Sök efter och få tillgång till den manuellt när du hittar den.
+* Sök efter den och få tillgång till den manuellt när du hittar den.
 
 ## Åtkomst till en kontrollpanel
 
@@ -105,9 +105,9 @@ Du kan visa en kontrollpanel på följande sätt:
 
    * **Mina instrumentpaneler**: De instrumentpaneler du har skapat visas här.
 
-      >[!TIP]
-      >
-      >Om du inte har Redigera-åtkomst till rapporter, instrumentpaneler och kalendrar på åtkomstnivån kan du inte skapa instrumentpaneler. I det här fallet är listan Mina instrumentpaneler tom.
+     >[!TIP]
+     >
+     >Om du inte har Redigera-åtkomst till rapporter, instrumentpaneler och kalendrar på åtkomstnivån kan du inte skapa instrumentpaneler. I det här fallet är listan Mina instrumentpaneler tom.
 
    * **Delade instrumentpaneler**: Kontrollpaneler som har skapats av andra användare och delats med dig visas här.
    * **Alla instrumentpaneler**: Här visas både dina och andra användares kontrollpaneler som delas med dig.

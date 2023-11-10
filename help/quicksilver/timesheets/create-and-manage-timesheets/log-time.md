@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3449'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ Så här tar du bort ett objekt från tidrapporten som har lagts till manuellt:
 
 Du kan logga projektspecifik tid i Hem.
 
-Allmän information om hur du använder området Hem finns i [Använda området Hem](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Allmän information om hur du använder området Hem finns i följande avsnitt:
 
-Så här loggar du tid på ett arbetsobjekt från hemområdet:
+* Mer information om hur du använder det äldre Hem-området finns i [Använda området Hem](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* Mer information om hur du använder den nya hemområdet finns i [Kom igång med nya startsidor i Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### Logga tid på ett arbetsobjekt från den nya hemsidan
+
+1. Till **Startsida** område.
+1. Lägg till följande widgetar:
+
+   * Mina uppgifter
+   * Mina problem
+   * Mitt arbete
+   * Mina förfrågningar
+1. Välj en uppgift, ett problem eller en förfrågan i en lista och klicka sedan på **Sammanfattning**
+
+   eller
+
+   Klicka på **Sammanfattning** icon ![](assets/open-summary-icon-in-home.png) från en uppgift eller ett problem i widgeten Mitt arbete.
+
+   Panelen Sammanfattning öppnas till höger.
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. Fortsätt med loggningstiden på sammanfattningspanelen enligt beskrivningen i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### Logga tid på ett arbetsobjekt från det äldre hemområdet
 
 1. I **Arbetslista** markerar du det objekt där du vill logga tid.
 1. Klicka på i den högra panelen **Loggtid**.
@@ -430,16 +454,16 @@ Så här loggar du tid i timavsnittet för ett projekt, en uppgift eller ett pro
    * **Ägare:** Ditt namn visas i det här fältet som standard.\
      Om du loggar timmarna för en annan användare anger du användarens namn.
 
-   * **Timmar**: Ange antalet timmar för projektet, uppgiften eller utgåvan.
    * **Timtyp**: Välj en timtyp på den nedrullningsbara menyn, om den skiljer sig från den som visas som standard.
 
      Beroende på vilka timtyper som är konfigurerade i systemet kan alternativen här variera. Mer information om hur du konfigurerar timtyper finns i [Definiera timtyper och tillgänglighet för tidrapporter](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Jobbroll**: (Villkorligt) Om Workfront- eller gruppadministratören har aktiverat **Tilldela jobbroller till timposter manuellt** inställning, välja en **Jobbroll** i listrutan. Den roll som anges när du tilldelas till objektet visas som standard. Om du inte har tilldelats en roll för objektet visas din primära roll som standard. Mer information om inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **Timmar**: Ange antalet timmar för projektet, uppgiften eller utgåvan.
 
-1. Klicka **Loggtimmar**.
+1. Klicka **Loggtid**.
 
 ### Panelen Sammanfattning
 

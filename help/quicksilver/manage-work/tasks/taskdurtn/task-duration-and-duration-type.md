@@ -6,10 +6,11 @@ title: Översikt över aktivitetsvaraktighet och varaktighetstyp
 description: Aktivitetens varaktighet är skillnaden mellan det planerade slutförandedatumet och det planerade startdatumet för aktiviteten. Varaktighet anger den tidsram som är tillgänglig för uppgiften att slutföras.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -40,11 +41,11 @@ Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront
 
 * Om uppgiften har tilldelats flera användare:
 
-   Workfront tar hänsyn till antingen projektplanen eller den primära uppdragstagarens tidsplan.
+  Workfront tar hänsyn till antingen projektplanen eller den primära uppdragstagarens tidsplan.
 
-   Din Workfront-administratör avgör vilket schema Workfront använder när en uppgift tilldelas flera användare. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Din Workfront-administratör avgör vilket schema Workfront använder när en uppgift tilldelas flera användare. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   Stegen liknar det första scenariot efter att du har förstått vilket schema Workfront använder för att beräkna varaktighet.
+  Stegen liknar det första scenariot efter att du har förstått vilket schema Workfront använder för att beräkna varaktighet.
 
 ## Tidsenheter för aktivitetsvaraktighet
 
@@ -56,7 +57,7 @@ När du uppdaterar varaktigheten för uppgifter i en lista kan du använda följ
 |---|---|
 | Minuter | M |
 | Timmar | H |
-| Dagar. Detta är standardinställningen. | D |
+| Dagar. Det här är standardinställningen. | D |
 | Veckor | B |
 | Månader | T |
 | Förflutna minuter | EM |
@@ -65,7 +66,7 @@ När du uppdaterar varaktigheten för uppgifter i en lista kan du använda följ
 | Förflutna veckor | FV |
 | Förflutna månader | ET |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Exempel:** Om du vill ange att varaktigheten för en uppgift är 3 Förfluten dag skriver du&quot;3 ED&quot; i fältet Varaktighet i en uppgiftslista.  Du kan också välja önskat alternativ för Tidsenhet för varaktighet i den nedrullningsbara menyn när du redigerar en uppgift eller i delen Aktivitetsinformation. Mer information om hur du redigerar åtgärder finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -103,7 +104,7 @@ Varaktighetstyp hjälper dig att svara på följande frågor:
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">Typ av varaktighet </th> 
+   <th scope="row">Varaktighetstyp </th> 
    <th scope="col"> <p><strong> -funktion</strong> </p> </th> 
    <th scope="col"> <p><strong>Hur resurserna påverkar den</strong> </p> </th> 
   </tr> 
@@ -111,7 +112,7 @@ Varaktighetstyp hjälper dig att svara på följande frågor:
  <tbody> 
   <tr> 
    <th scope="col"> <p><strong>Beräknad tilldelning</strong> </p> </th> 
-   <td scope="col"> <p>Beräknar allokeringsprocenten för varje tilldelad för en uppgift. </p> <p>När du väljer den här varaktighetstypen kan du ange individuell Varaktighet och Planerade timmar för uppgiften. Workfront dividerar de planerade timmarna med antalet timmar i aktivitetens varaktighet och med antalet resurser som tilldelats aktiviteten för att beräkna allokeringen för varje tilldelad.</p> <p>Mer detaljerad information finns i <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Översikt över varaktighetstyp: Beräknad tilldelning</a>.</p> </td> 
+   <td scope="col"> <p>Beräknar allokeringsprocenten för varje tilldelad för en uppgift. </p> <p>När du väljer den här varaktighetstypen kan du ange individuell Varaktighet och Planerade timmar för uppgiften. Workfront dividerar de planerade timmarna med antalet timmar i aktivitetens varaktighet och med antalet resurser som tilldelats aktiviteten för att beräkna allokeringen för varje tilldelad.</p> <p>Mer detaljerad information finns i <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Översikt över varaktighetstyp: Beräknat uppdrag</a>.</p> </td> 
    <td scope="col">Varaktighet och Planerade timmar ändras inte när du lägger till eller tar bort tilldelningar för aktiviteten. </td> 
   </tr> 
   <tr> 
@@ -121,8 +122,8 @@ Varaktighetstyp hjälper dig att svara på följande frågor:
   </tr> 
   <tr> 
    <th scope="col"> <p>Ansträngningsstyrd</p> </th> 
-   <td scope="col"> <p>Bestämmer antalet planerade timmar baserat på antalet resurser.</p> <p>När du väljer den här varaktighetstypen kan du ange en enskild Varaktighet för uppgiften. Workfront beräknar de planerade timmarna för aktiviteten genom att multiplicera antalet dagar i tidsperioden med antalet arbetstimmar i tidsplanen och dividera antalet med antalet tilldelningar för aktiviteten. </p> <p>Du kan ändra allokeringsprocenten för varje tilldelad till uppgiften manuellt, men antalet planerade timmar är detsamma.</p> <p>Mer detaljerad information finns i <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Översikt över varaktighetstyp: Ansträngningsstyrd</a>.</p> </td> 
-   <td scope="col"> <p>Planerade timmar ökar när tilldelningar tas bort från aktiviteten.</p> <p>Planerade timmar minskar när tilldelningar läggs till i aktiviteten. </p> <p>Varaktigheten ändras inte, oavsett antalet tilldelningar eller deras schema. </p> <p>Varaktigheten är lika med Planerade timmar. Planerad varaktighet är lika med Planerade timmar delat med antalet tilldelningar.</p> </td> 
+   <td scope="col"> <p>Bestämmer antalet planerade timmar baserat på antalet resurser.</p> <p>När du väljer den här varaktighetstypen kan du ange en enskild Varaktighet för uppgiften. Workfront beräknar de planerade timmarna för aktiviteten genom att multiplicera antalet dagar i tidsperioden med antalet arbetstimmar i tidsplanen och dividera antalet med antalet tilldelningar för aktiviteten. </p> <p>Du kan ändra allokeringsprocenten för varje tilldelad till uppgiften manuellt, men antalet planerade timmar är detsamma.</p> <p>Mer detaljerad information finns i <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Översikt över varaktighetstyp: ansträngningsstyrd</a>.</p> </td> 
+   <td scope="col"> <p>Planerade timmar ökar när tilldelningar tas bort från aktiviteten.</p> <p>Planerade timmar minskar när tilldelningar läggs till i aktiviteten. </p> <p>Varaktigheten ändras inte, oavsett antalet tilldelningar eller deras schema. </p> <p>Varaktigheten är lika med Planerade timmar. Planerad varaktighet är lika med Planerade timmar dividerat med antalet tilldelningar.</p> </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>Enkel</strong> </p> </th> 
