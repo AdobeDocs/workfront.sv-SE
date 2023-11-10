@@ -6,7 +6,7 @@ description: Du kan besvara e-postmeddelanden från Workfront som genererats fr�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -19,12 +19,8 @@ Beroende på hur dina e-postmeddelanden är konfigurerade kan du få ett e-postm
 
 Du kan svara på en uppdatering från ett e-postmeddelande på följande sätt:
 
-svara på den ursprungliga kommentaren.
-
-* Använd kommentarsknappen i e-postmeddelandet för att gå tillbaka till Workfront och svara på uppdateringen i uppdateringsområdet.
-* Svara på det e-postmeddelande du får. Ditt e-postmeddelande läggs till som en Workfront
-
-
+* Använd knappen Kommentar i e-postmeddelandet för att gå tillbaka till Workfront och svara på uppdateringen i uppdateringsområdet.
+* Svara på det e-postmeddelande du får. Ditt e-postmeddelande läggs till som ett svar från Workfront på den ursprungliga kommentaren.
 
 >[!NOTE]
 >
@@ -46,7 +42,7 @@ Du kan svara på e-post från Workfront som genereras från kommentarer som gjor
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -102,7 +98,7 @@ När du får ett e-postmeddelande från Workfront kan du snabbt lägga till en u
 
 Så här lägger du till en uppdatering i ett e-postmeddelande från Workfront:
 
-1. Öppna det e-postmeddelande från Workfront som du vill svara på och öppna sedan ett e-postfönster från det ursprungliga e-postmeddelandet.
+1. Öppna Workfront-mejlet som du vill svara på i ditt e-postprogram och öppna sedan ett svarsfönster från det ursprungliga e-postmeddelandet.
 
    >[!NOTE]
    >

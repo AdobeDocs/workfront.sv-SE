@@ -6,9 +6,9 @@ description: Följande meddelanden informerar dig om aktiviteter som utförs i e
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Ett fel som kräver min uppmärksamhet hittades</strong> </p> <p>Användaren som svarar på en kommentar via e-post får ett e-postmeddelande när svaret inte kan levereras.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Failed to Process on] &lt;subject of="" original="" message=""&gt;</em></p> <p>Mer information om hur du använder e-post för att svara på kommentarer finns i .<strong></strong></p> </td> 
+   <td> <p><strong>Ett fel som kräver min uppmärksamhet hittades</strong> </p> <p>Användaren som svarar på en kommentar via e-post får ett e-postmeddelande när svaret inte kan levereras.</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Failed to Process on] &lt;subject of="" original="" message=""&gt;</em></p> <p>Mer information om hur du använder e-post för att svara på kommentarer finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">Svara på e-postmeddelanden</a>.</p> </td>
    <td> </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
