@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: adce227ab7108409195be56ace27f533a926268b
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '13391'
 ht-degree: 0%
@@ -729,7 +729,7 @@ ht-degree: 0%
          * [Hantera gruppobjekt](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [Hantera gruppföretag](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [Hantera grupplayoutmallar](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-         * [Hantera gruppprojekt](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+         * [Hantera gruppportföljer](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
          * [Hantera gruppprogram](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
          * [Hantera gruppteam](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
          * [Hantera gruppgodkännandeprocesser](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)

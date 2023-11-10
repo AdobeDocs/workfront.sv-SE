@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 Om du vill ta reda på vilket utvecklingsstadium ett projekt, en uppgift eller ett problem har kan användaren visa statusen.
 
-I det här projektet visar till exempel statusen Planering att projektledaren för närvarande planerar aspekter av projektet, som tidslinjen, aktivitetstilldelningar och godkännanden.
+I det här projektet visar till exempel statusen Planering att projektledaren för närvarande planerar aspekter av projektet, till exempel tidslinjen, aktivitetstilldelningar och godkännanden.
 
-![](assets/statuses-overview.png)
+![Exempel på projektstatus](assets/statuses-overview.png)
 
 Att ändra status för ett projekt, en uppgift eller ett problem är vanligtvis en manuell process. Det finns dock tillfällen då status för ett problem ändras automatiskt, beroende på andra faktorer som inträffar i systemet.
 
-Workfront levereras med nio projektstatusar, tre aktivitetsstatusar och tio problemstatusar. Mer information finns i följande artiklar:
+Workfront levereras med nio projektstatusar, tre aktivitetsstatusar och 10 problemstatusar. Mer information finns i följande artiklar:
 
 * [Öppna listan över status för systemprojekt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [Åtkomst till listan över status för systemaktivitet](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)

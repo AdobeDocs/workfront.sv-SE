@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa, arbeta med och skapa team för din grupp från gruppområdet
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
 
@@ -58,6 +58,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 1. Gör något av följande:
 
    * **Lägg till ett team**: Klicka **Nytt team** använder du följande alternativ för att konfigurera den:
+
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
    <table style="table-layout:auto"> 
@@ -70,7 +71,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        </tr> 
        <tr> 
        <td role="rowheader">Grupp</td> 
-       <td> <p> Systemet fyller i gruppfältet för den nya portföljen med gruppen som du visar. Om du vill associera teamet med en annan grupp börjar du skriva namnet på gruppen och väljer sedan namnet när den visas.</p> <p>Du kan se till att du associerar rätt grupp med teamet genom att hålla markören över gruppen och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANMÄRKNING</b>: När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i den gruppen eller undergruppen hantera teamet utan att vara medlem i det. Gruppadministratörer kan gå till Teams-området från huvudmenyn och klicka på pilen Byt team <img src="assets/switch-team-icon.png" alt="Byt ikon för team"> för att lista alla team som har tilldelats de grupper som de hanterar.</p> </td> 
+       <td> <p> Systemet fyller i gruppfältet för det nya teamet med gruppen som du visar. Om du vill associera teamet med en annan grupp börjar du skriva namnet på gruppen och väljer sedan namnet när den visas.</p> <p>Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANMÄRKNING</b>: När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i gruppen eller undergruppen hantera teamet utan att vara medlem i det. Gruppadministratörer kan gå till Teams-området från huvudmenyn och klicka på pilen Byt team <img src="assets/switch-team-icon.png" alt="Byt ikon för team"> för att lista alla team som har tilldelats de grupper som de hanterar.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Teammedlemmar</td> 
@@ -82,7 +83,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        </tr> 
        <tr> 
        <td role="rowheader">Kalender</td> 
-       <td>Välj vilken kalenderflik som ska visas för det här teamet.</td> 
+       <td>Välj vilken kalenderflik som ska visas för teamet.</td> 
        </tr> 
        <tr> 
        <td role="rowheader">Arbeta på den</td> 
@@ -95,9 +96,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       </tbody> 
      </table>
 
-   * **Redigera team**: Välj minst ett team, klicka på **den** Ikonen Redigera ![](assets/edit-icon.png)använder du följande alternativ för att konfigurera den:
+   * **Redigera team**: Välj minst ett team, klicka **den** Ikonen Redigera ![](assets/edit-icon.png)använder du följande alternativ för att konfigurera den:
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -107,7 +108,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        </tr> 
        <tr> 
        <td role="rowheader">Grupp</td> 
-       <td> <p>Associera teamet med en grupp. Börja skriva namnet på gruppen och markera sedan namnet när det visas.</p> <p>Du kan se till att du associerar rätt grupp med teamet genom att hålla markören över gruppen och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANMÄRKNING</b>: När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i den gruppen eller undergruppen hantera teamet utan att vara medlem i det. Gruppadministratörer kan gå till Teams-området från huvudmenyn och klicka på pilen Byt team <img src="assets/switch-team-icon.png" alt="Byt ikon för team"> för att lista alla team som har tilldelats de grupper som de hanterar.</p> </td> 
+       <td> <p>Associera teamet med en grupp. Börja skriva namnet på gruppen och markera sedan namnet när det visas.</p> <p>Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANMÄRKNING</b>: När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i gruppen eller undergruppen hantera teamet utan att vara medlem i det. Gruppadministratörer kan gå till Teams-området från huvudmenyn och klicka på pilen Byt team <img src="assets/switch-team-icon.png" alt="Byt ikon för team"> för att lista alla team som har tilldelats de grupper som de hanterar.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Ägare</td> 
@@ -144,5 +145,5 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       </tbody> 
      </table>
 
-   * **Ta bort team**: Markera minst ett team och klicka sedan på ikonen Ta bort ![](assets/delete.png).
-   * **Exportera listan över team**: Klicka **Exportera** ![](assets/export.png)väljer du sedan det filformat du vill använda för den exporterade listan.
+   * **Ta bort team**: Välj minst ett team och klicka sedan på ikonen Ta bort ![](assets/delete.png).
+   * **Exportera listan över team**: Klicka **Exportera** ![](assets/export.png)väljer du sedan det filformat som du vill använda för den exporterade listan.
