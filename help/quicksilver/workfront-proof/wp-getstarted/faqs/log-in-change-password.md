@@ -8,7 +8,7 @@ description: Workfront Korrekturadministratör kan konfigurera personlig profile
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -23,10 +23,10 @@ ht-degree: 0%
 
 ## Loggar in
 
-1. Gå till [inloggningssidan](http://www.proofhq.com/login) (eller på vår webbplats  [www.proofhq.com](http://www.proofhq.com/)).
+1. Gå till [inloggningssidan](https://www.proofhq.com/login) (eller på vår webbplats  [www.proofhq.com](https://www.proofhq.com/)).
 
 1. Klicka på [!UICONTROL login] längst upp till höger.
-1. Ange din e-postadress och ditt lösenord.\
+1. Ange e-postadress och lösenord.\
    Om du har glömt ditt lösenord, se avsnittet  [När du har glömt lösenordet](#when-you-forget-your-password) senare i den här artikeln.
 
 1. Om du vill vara inloggad (utan att logga in efter 30 minuters inaktivitet) väljer du **[!UICONTROL Keep me logged in]**.
@@ -39,14 +39,14 @@ För [!UICONTROL Enterprise] och [!UICONTROL Unlimited] planer erbjuder vi enkel
 ## Loggar ut
 
 1. Klicka **[!UICONTROL Logout]** i det övre högra hörnet av Workfront Proof.\
-   Ett meddelande visas som bekräftar att du är utloggad. Du kan klicka **[!UICONTROL Back to login page]** för att logga in igen om du vill.\
+   Ett meddelande visas som bekräftar att du är utloggad. Klicka **[!UICONTROL Back to login page]** om du vill logga in igen.\
    The [!DNL Workfront Proof] administratören kan konfigurera anpassad profilering för det här meddelandet. Se [Varumärken [!DNL Workfront Proof] webbplats](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Eller, om och du använder en [!UICONTROL Enterprise] eller [!UICONTROL Unlimited] versionsplan, se  [Varumärken [!DNL Workfront Proof] webbplats - avancerad](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## När du har glömt lösenordet {#when-you-forget-your-password}
 
 Om du glömmer lösenordet kan du ha [!DNL Workfront Proof] mejla ett återställningsmeddelande till dig.
 
-1. Gå till [inloggningssidan](http://www.proofhq.com/login) (eller på vår webbplats  [www.proofhq.com](http://www.proofhq.com/)).
+1. Gå till [inloggningssidan](https://www.proofhq.com/login) (eller på vår webbplats  [www.proofhq.com](https://www.proofhq.com/)).
 
 1. Klicka på **[!UICONTROL Forgot password?]**
 1. Skriv din e-postadress i rutan som visas och klicka sedan på **[!UICONTROL Get Link]**.

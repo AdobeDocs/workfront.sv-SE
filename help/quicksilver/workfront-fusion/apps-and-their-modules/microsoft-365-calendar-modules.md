@@ -9,7 +9,7 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Microsoft Office 365 Calendar], samt ansluta till flera tredjepartsprogram och -tjänster.
 
-För att kunna använda [!DNL Office 365 Calendar] med [!DNL Adobe Workfront Fusion]måste du ha en [!DNL Office 365 Excel] konto. Du kan skapa en på [www.office.com](http://www.office.com/).
+För att kunna använda [!DNL Office 365 Calendar] med [!DNL Adobe Workfront Fusion]måste du ha en [!DNL Office 365 Excel] konto. Du kan skapa en på [www.office.com](https://www.office.com/).
 
 Instruktioner om hur du ansluter Office 365-kontot till [!DNL Workfront Fusion], se [Skapa en anslutning till Adobe [!DNL Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-När du har gett ditt samtycke omdirigeras du tillbaka till [!UICONTROL Workfront Fusion] administrationssida där du kan fortsätta att skapa ditt scenario.
+När du har godkänt omdirigeras du tillbaka till [!UICONTROL Workfront Fusion] administrationssida där du kan fortsätta att skapa ditt scenario.
 
 ## Åtkomstkrav
 
@@ -55,13 +55,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -204,7 +204,7 @@ Den här åtgärdsmodulen hämtar information om den angivna händelsen.
 
 #### [!UICONTROL Create an Event]
 
-Den här åtgärdsmodulen skapar en ny händelse.
+Denna åtgärdsmodul skapar en ny händelse.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -268,7 +268,7 @@ Den här åtgärdsmodulen skapar en ny händelse.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Response requested]</td> 
-   <td>Välj <strong>[!UICONTROL Yes]</strong> om du vill att den som bjuder in ska skicka ett svar på händelseinbjudan.</td> 
+   <td>Välj <strong>[!UICONTROL Yes]</strong> om du vill att den som bjuder in ska skicka ett svar på evenemangsinbjudan.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Show as]</td> 
@@ -367,7 +367,7 @@ Den här åtgärdsmodulen uppdaterar en befintlig händelse.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Response requested]</td> 
-   <td>Välj <strong>[!UICONTROL Yes]</strong> om du vill att den som bjuder in ska skicka ett svar på händelseinbjudan.</td> 
+   <td>Välj <strong>[!UICONTROL Yes]</strong> om du vill att den som bjuder in ska skicka ett svar på evenemangsinbjudan.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Show as]</td> 
@@ -398,7 +398,7 @@ Den här åtgärdsmodulen uppdaterar en befintlig händelse.
 
 #### [!UICONTROL Delete an Event]
 
-Den här åtgärdsmodulen tar bort en befintlig händelse.
+Denna åtgärdsmodul tar bort en befintlig händelse.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ Den här åtgärdsmodulen skapar en ny kalender i ditt Google-konto.
 
 #### [!UICONTROL Update a Calendar]
 
-Den här åtgärdsmodulen redigerar en befintlig kalender.
+Denna åtgärdsmodul redigerar en befintlig kalender.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -514,7 +514,7 @@ Den här åtgärdsmodulen redigerar en befintlig kalender.
 
 #### [!UICONTROL Delete a Calendar]
 
-Den här åtgärdsmodulen tar bort en befintlig kalender.
+Denna åtgärdsmodul tar bort en befintlig kalender.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -549,7 +549,7 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Ange en sökväg som är relativ till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/events</code></p> </td> 
+   <td> <p>Ange en sökväg i förhållande till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/events</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 

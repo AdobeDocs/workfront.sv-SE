@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: a485f213cc735cd6596a89c560b33ee1b896c47d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2296'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Autentisering utförs genom att ett sessions-ID eller en API-nyckel skickas, som
 
 ### Autentisering av begärandehuvud
 
-Den autentiseringsmetod som rekommenderas är att skicka ett begärandehuvud med namnet SessionID som innehåller sessionstoken. Fördelen med att vara säker mot [CSRF (Cross-site Request Forgery)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) och inte störa URI:n för cachelagring.
+Den autentiseringsmetod som rekommenderas är att skicka ett begärandehuvud med namnet SessionID som innehåller sessionstoken. Fördelen med att vara säker mot [CSRF (Cross-site Request Forgery)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) och inte störa URI:n för cachelagring.
 
 Följande är ett exempel på en begäranderubrik:
 

@@ -4,7 +4,7 @@ description: Du kan visa hälsotillståndet för [!DNL Workfront] plattform, ink
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Du kan visa statusuppdateringar på [!DNL Adobe] Statusplats.
 
    eller
 
-   Typ [status.adobe.com](http://status.adobe.com/) i webbläsaren för att komma åt statuswebbplatsen.
+   Typ [status.adobe.com](https://status.adobe.com/) i webbläsaren för att komma åt statuswebbplatsen.
 
 1. Välj **[!UICONTROL Experience Cloud]**.
 1. Bläddra nedåt och markera **[!UICONTROL Adobe Workfront]** från listan över lösningar.
@@ -41,13 +41,13 @@ Du kan visa statusuppdateringar på [!DNL Adobe] Statusplats.
 
 Så här prenumererar du på statuswebbplatsen eller för att hantera din prenumeration efter att du redan har prenumererat:
 
-1. Gå till [status.adobe.com](http://status.adobe.com/).
-1. Välj **[!UICONTROL Manage subscriptions]**.
-1. Om du har ett befintligt konto loggar du in på kontot; i annat fall skapar du ett nytt konto.
+1. Gå till [status.adobe.com](https://status.adobe.com/).
+1. I statusfältet väljer du **[!UICONTROL Manage subscriptions]**.
+1. Om du har ett befintligt konto loggar du in på kontot, annars skapar du ett nytt konto.
 1. Klicka på **[!UICONTROL Create subscriptions]** -knappen.
 1. Välj **[!UICONTROL Adobe Workfront]** under **[!UICONTROL Experience Cloud]** sidhuvud och klicka sedan på **[!UICONTROL Continue]**.
 1. Välj inställningar för region och händelsetyp och klicka sedan på **[!UICONTROL Continue]**.
-1. Klicka **[!UICONTROL Done]** för att bekräfta din prenumeration.
+1. Klicka **[!UICONTROL Done]** för att bekräfta prenumerationen.
 
 ## Förstå namngivna sårbarheter
 

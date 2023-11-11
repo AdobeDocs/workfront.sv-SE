@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ Du behöver inte skaffa något nytt sessions-ID innan varje anrop till API:t. De
 
 ## Vad är ett bevis/en personlig URL?
 
-**Team/Offentlig**: Varje korrekturversion har en unik Team-URL (Public). Om det här alternativet är aktiverat öppnas korrekturet i skrivskyddat läge. Du kan hämta Team-URL:en med [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) -metod.
+**Team/Offentlig**: Varje korrekturversion har en unik Team-URL (Public). Om det här alternativet är aktiverat öppnas korrekturet i skrivskyddat läge. Du kan hämta Team-URL:en med [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) -metod.
 
-**Personligt**: En personlig URL är unik för alla granskare och korrekturversioner. Om en korrekturuppsättning innehåller tre versioner och en granskare finns i alla versioner har granskaren tre unika personliga URL:er. En personlig URL öppnar korrekturversionen med granskaren som redan är identifierad och som därför ska vara säker och inte delas. Personliga URL:er kan hämtas genom att anropa [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) och sedan iterera över varje  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) och hämta parametern &quot;proof_url&quot;.
+**Personligt**: En personlig URL är unik för alla granskare och korrekturversioner. Om en korrekturuppsättning innehåller tre versioner och en granskare finns i alla versioner har granskaren tre unika personliga URL:er. En personlig URL öppnar korrekturversionen med granskaren som redan är identifierad och som därför ska vara säker och inte delas. Personliga URL:er kan hämtas genom att anropa [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) och sedan iterera över varje  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) och hämta parametern &quot;proof_url&quot;.
 
 ## >Hur du inkluderar anpassade parametrar när du öppnar minikorrekturet?
 
@@ -71,5 +71,5 @@ Exempelvis en URL för minikorrektur
 
 ## Hur skapar man en Java Web Service Client?
 
-[Den här videon](http://screencast.com/t/xsSNrqs5b) visar hur du kan skapa en Java Web Service-klient med hjälp av Eclipse och Workfront Proof WSDL-definitionen.
+[Den här videon](https://screencast.com/t/xsSNrqs5b) visar hur du kan skapa en Java Web Service-klient med hjälp av Eclipse och Workfront Proof WSDL-definitionen.
 

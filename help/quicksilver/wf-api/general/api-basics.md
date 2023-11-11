@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Autentisering utförs genom att ett sessions-ID skickas som kan ges på något a
 
 #### Autentisering av begärandehuvud
 
-Den autentiseringsmetod som rekommenderas är att skicka ett begärandehuvud med namnet SessionID som innehåller sessionstoken. Fördelen med att vara säker mot [CSRF (Cross-site Request Forgery)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) och inte störa URI:n för cachelagring.
+Den autentiseringsmetod som rekommenderas är att skicka ett begärandehuvud med namnet SessionID som innehåller sessionstoken. Fördelen med att vara säker mot [CSRF (Cross-site Request Forgery)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) och inte störa URI:n för cachelagring.
 
 Följande är ett exempel på en begäranderubrik:
 

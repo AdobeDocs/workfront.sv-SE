@@ -7,7 +7,7 @@ description: Scenarioplaneraren kräver en separat licens från Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -55,8 +55,8 @@ Du måste se till att följande villkor uppfylls innan du kan komma åt [!DNL Wo
 
 -->
 
-* Din organisation måste köpa en [!DNL Workfront] [!UICONTROL Business] eller högre [!DNL Workfront] plan. Mer information om [!DNL Workfront] planer, se [Workfront-planer](http://workfront.com/plans).
-* Din organisation måste köpa en [!DNL Workfront Scenario Planner] licens, utöver [!DNL Workfront] licens. Kontakta [!DNL Workfront] Kontorepresentant som kan lära sig mer om [!DNL Workfront Scenario Planner] licenser.
+* Din organisation måste köpa en [!DNL Workfront] [!UICONTROL Business] eller högre [!DNL Workfront] plan. Mer information om [!DNL Workfront] planer, se [Workfront-planer](https://workfront.com/plans).
+* Din organisation måste köpa en [!DNL Workfront Scenario Planner] licens, utöver [!DNL Workfront] licens. Kontakta [!DNL Workfront] Kontorepresentant som kan läsa om [!DNL Workfront Scenario Planner] licenser.
 
 <!--drafted for P&P: 
 
@@ -78,9 +78,9 @@ Du måste se till att följande villkor uppfylls innan du kan komma åt [!DNL Wo
    * [!UICONTROL Work]
    * [!UICONTROL Review]
 
-   >[!NOTE]
-   >
-   >Användare med [!UICONTROL Request] eller [!UICONTROL External] licenstypen kan inte komma åt [!DNL Workfront Scenario Planner].
+  >[!NOTE]
+  >
+  >Användare med en [!UICONTROL Request] eller [!UICONTROL External] licenstypen kan inte komma åt [!DNL Workfront Scenario Planner].
 
 <!--drafted - replace the note above with this at P&P release: 
   * When using the current licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
@@ -88,33 +88,33 @@ Du måste se till att följande villkor uppfylls innan du kan komma åt [!DNL Wo
 
 * Dina [!DNL Workfront] måste administratören ge dig [!UICONTROL View] eller [!UICONTROL Edit] behörighet till [!DNL Scenario Planner] på din åtkomstnivå.
 
-   Mer information om hur du beviljar åtkomst till [!DNL Workfront Scenario Planner], se [Bevilja åtkomst till [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Mer information om hur du beviljar åtkomst till [!DNL Workfront Scenario Planner], se [Bevilja åtkomst till [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * (Valfritt och rekommenderas) Om du vill visa eller uppdatera ekonomisk information för dina planer och initiativ kan du [!DNL Workfront] administratören måste också ge dig åtkomst till [!UICONTROL Financial Data] på din åtkomstnivå. Information om hur du ger ekonomiska data på din åtkomstnivå finns i [Bevilja åtkomst till finansiella uppgifter](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-   <!--this used to be true but not anymore:
+  <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
-* Om du behöver få åtkomst till planer som du inte har skapat måste den som skapat planen ge dig rätt behörighet för att få åtkomst till dem. Information om vilka behörigheter som krävs för att komma åt planer och initiativ som du inte har skapat finns i [Behörigheter krävs för att få tillgång till planer och initiativ](#permissions-needed-to-access-plans-and-initiatives) i den här artikeln.
+* Om du behöver få åtkomst till planer som du inte har skapat måste den som skapat planen ge dig rätt behörighet för att få åtkomst till dem. Information om vilka behörigheter som krävs för att komma åt planer och initiativ som du inte har skapat finns i [Behörigheter som krävs för att få tillgång till planer och initiativ](#permissions-needed-to-access-plans-and-initiatives) i den här artikeln.
 
 ## Åtkomst krävs för att visa planer och initiativ
 
-Förutom att ditt företag köper rätt licens för [!DNL Workfront Scenario Planner], [!DNL Workfront] administratören måste även tilldela dig följande åtkomst och inställningar så att du kan se [!DNL Workfront Scenario Planner] och informationen på detta område:
+Förutom att ditt företag köper rätt licens för [!DNL Workfront Scenario Planner], dina [!DNL Workfront] administratören måste även tilldela dig följande åtkomst och inställningar så att du kan se [!DNL Workfront Scenario Planner] och informationen på detta område:
 
 * En åtkomstnivå med minst [!UICONTROL View] behörighet till [!DNL Scenario Planner].
 
-   Mer information om åtkomstnivån till [!DNL Scenario Planner], se [Bevilja åtkomst till [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Mer information om åtkomstnivån till [!DNL Scenario Planner], se [Bevilja åtkomst till [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * En åtkomstnivå med minst [!UICONTROL View] behörighet till [!UICONTROL Financial Data] om du behöver visa ekonomisk information om planen och initiativen. Exempel på ekonomisk information är budgetar, kostnader eller jobbrollstariffer.
 
-   Mer information om [!UICONTROL Financial Data] åtkomstnivå, se [Bevilja åtkomst till finansiella uppgifter](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Mer information om [!UICONTROL Financial Data] åtkomstnivå, se [Bevilja åtkomst till finansiella uppgifter](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-   >[!TIP]
-   >
-   >[!UICONTROL Requestors] och [!UICONTROL External] Användarna har inte åtkomst att visa [!DNL Scenario Planner].
+  >[!TIP]
+  >
+  >[!UICONTROL Requestors] och [!UICONTROL External] Användarna har inte åtkomst att visa [!DNL Scenario Planner].
 
-* Visa behörigheter för planen. Information om vilka behörigheter som krävs för att komma åt planer och initiativ som du inte har skapat finns i [Behörigheter krävs för att få tillgång till planer och initiativ](#permissions-needed-to-access-plans-and-initiatives) i den här artikeln.
+* Visa behörigheter för planen. Information om vilka behörigheter som krävs för att komma åt planer och initiativ som du inte har skapat finns i [Behörigheter som krävs för att få tillgång till planer och initiativ](#permissions-needed-to-access-plans-and-initiatives) i den här artikeln.
 
 ## Tillgång till att hantera planer och initiativ
 
@@ -122,23 +122,23 @@ Dina [!DNL Workfront] administratören måste ge dig följande åtkomst så att 
 
 * A [!UICONTROL Plan] eller [!UICONTROL Work] licenstyp med Redigera-åtkomst till [!DNL Scenario Planner] på din åtkomstnivå.
 
-   Alla andra licenstyper har inte åtkomst till att hantera planer.
+  Alla andra licenstyper har inte åtkomst till att hantera planer.
 
-   Mer information om att bevilja åtkomst till [!DNL Scenario Planner] från åtkomstnivån, se [Bevilja åtkomst till [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Mer information om att bevilja åtkomst till [!DNL Scenario Planner] från åtkomstnivån, se [Bevilja åtkomst till [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * A [!UICONTROL Plan] licenstyp med [!UICONTROL Edit] behörighet till [!UICONTROL Financial Data] på din åtkomstnivå, om du även behöver uppdatera ekonomisk information om planen.
 
-   Några exempel på ekonomisk information som du kan redigera är [!UICONTROL Budget], [!UICONTROL Planned Benefit]och [!UICONTROL Fixed Costs].
+  Några exempel på ekonomisk information som du kan redigera är [!UICONTROL Budget], [!UICONTROL Planned Benefit]och [!UICONTROL Fixed Costs].
 
-   >[!TIP]
-   >
-   >Endast [!UICONTROL Plan] certifikatinnehavare har [!UICONTROL Edit] behörighet till [!UICONTROL Financial Data].
+  >[!TIP]
+  >
+  >Endast [!UICONTROL Plan] certifikatinnehavare har [!UICONTROL Edit] behörighet till [!UICONTROL Financial Data].
 
-   Mer information om [!UICONTROL Financial Data] åtkomstnivå, se [Bevilja åtkomst till finansiella uppgifter](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Mer information om [!UICONTROL Financial Data] åtkomstnivå, se [Bevilja åtkomst till finansiella uppgifter](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-* Hantera behörigheter till en plan som du inte har skapat. Information om vilka behörigheter som krävs för att komma åt planer och initiativ som du inte har skapat finns i [Behörigheter krävs för att få tillgång till planer och initiativ](#permissions-needed-to-access-plans-and-initiatives) i den här artikeln.
+* Hantera behörigheter till en plan som du inte har skapat. Information om vilka behörigheter som krävs för att komma åt planer och initiativ som du inte har skapat finns i [Behörigheter som krävs för att få tillgång till planer och initiativ](#permissions-needed-to-access-plans-and-initiatives) i den här artikeln.
 
-## Behörigheter krävs för att få tillgång till planer och initiativ
+## Behörigheter som krävs för att få tillgång till planer och initiativ
 
 Åtkomstnivåer fungerar tillsammans med behörigheter i [!DNL Workfront] för att ge er insyn i planer och initiativ som ni inte har skapat. Förutom att ha rätt åtkomstnivå för att komma åt [!DNL Scenario Planner]måste du också ha rätt behörighet till planen som du vill visa eller hantera, om du inte är den som har skapat planen.
 

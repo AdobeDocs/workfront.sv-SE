@@ -9,7 +9,7 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 0%
@@ -57,13 +57,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -310,7 +310,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Resolution ID]</td> 
-   <td>Ange ID:t för den upplösning som du vill använda för ditt korrektur. En lista med matchnings-ID:n finns i [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API-dokumentation</a>.</td> 
+   <td>Ange ID:t för den upplösning som du vill använda för ditt korrektur. En lista med matchnings-ID:n finns i [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API-dokumentation</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -393,7 +393,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
-   <td> <p>Skriv det unika ID:t för beviset som finns på [!UICONTROL Proof Details] sida. Mer information finns i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Hantera korrekturinformation i [!DNL Workfront Proof]</a>.</p> </td> 
+   <td> <p>Skriv det unika ID:t för beviset som finns på sidan [!UICONTROL Proof Details] sida. Mer information finns i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Hantera korrekturinformation i [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -471,7 +471,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Update Proof]
 
-Den här åtgärdsmodulen uppdaterar ett befintligt korrektur i [!DNL Workfront Proof].
+Denna åtgärdsmodul uppdaterar ett befintligt korrektur i [!DNL Workfront Proof].
 
 Du anger korrekturets ID och posttyp samt vilka fält som ska inkluderas i utdata.
 
@@ -491,7 +491,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
-   <td> <p>Skriv det unika ID:t för beviset som finns på [!UICONTROL Proof Details] sida. Mer information finns i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Hantera korrekturinformation i [!DNL Workfront Proof]</a>.</p> </td> 
+   <td> <p>Skriv det unika ID:t för beviset som finns på sidan [!UICONTROL Proof Details] sida. Mer information finns i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Hantera korrekturinformation i [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Deadline]</td> 
@@ -555,7 +555,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Subject]</td> 
-   <td>Ange eller mappa föremålet för korrekturet</td> 
+   <td>Ange eller mappa korrekturens ämne</td> 
   </tr> 
  </tbody> 
 </table>
@@ -590,7 +590,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Search]
 
-Den här sökmodulen söker efter poster i ett objekt i [!DNL Workfront Proof] som matchar den sökfråga du anger.
+Sökmodulen söker efter poster i ett objekt i [!DNL Workfront Proof] som matchar den sökfråga du anger.
 
 Modulen returnerar korrekturets ID om den söker efter ett korrektur. Eller returnerar mottagarens användar-ID, e-post, namn, befattningar och e-postalias om den söker efter mottagare. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 

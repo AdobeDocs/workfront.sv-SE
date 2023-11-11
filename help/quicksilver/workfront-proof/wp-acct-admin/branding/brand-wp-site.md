@@ -3,11 +3,11 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
 title: Varumärken [!DNL Workfront Proof] webbplats
-description: Som [!DNL Workfront Proof] -administratör kan du märka din [!DNL Workfront Proof] för att ge dig och dina användare en mer anpassad upplevelse.
+description: Som en [!DNL Workfront Proof] -administratör, du kan märka din [!DNL Workfront Proof] för att ge dig och dina användare en mer anpassad upplevelse.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 >
 >Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront] Korrektur. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Som [!DNL Workfront Proof] -administratör kan du märka din [!DNL Workfront Proof] för att ge dig och dina användare en mer anpassad upplevelse.
+Som en [!DNL Workfront Proof] -administratör, du kan märka din [!DNL Workfront Proof] för att ge dig och dina användare en mer anpassad upplevelse.
 
 Grundläggande kontouppgifter finns på alla planer utan extra kostnad.
 
@@ -42,7 +42,7 @@ Så här aktiverar du profilering för ditt konto:
 
    ![Enable_branding.png](assets/enable-branding-350x177.png)
 
-   Bilden visas nu på din inloggningssida.
+   Varumärkesbilden visas nu på din inloggningssida.
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Så här konfigurerar du e-postmärkning:
    Mer information om de olika kontoinställningarna du kan konfigurera finns i [Kontoinställningar.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. Klicka på **[!UICONTROL Settings]** -fliken.
-1. I **[!UICONTROL Branding]** avsnitt, klicka **[!UICONTROL Edit]** bredvid e-postprogrambilden (1).
+1. I **[!UICONTROL Branding]** avsnitt, klicka **[!UICONTROL Edit]** bredvid bilden för e-postprogrammet (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. Välj den bild som du vill använda för att varumärka e-postmeddelanden. (2)
@@ -135,4 +135,4 @@ Så här konfigurerar du e-postmärkning:
 
 Om du skapar ett korrektur via [!DNL Workfront Proof] API: du kan inaktivera knappar och länkar och skapa egna länkar.
 
-Se [[!DNL Workfront Proof] API](http://api.proofhq.com/) för mer information.
+Se [[!DNL Workfront Proof] API](https://api.proofhq.com/) för mer information.

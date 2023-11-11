@@ -9,7 +9,7 @@ description: Du kan använda SOAP-modulen för att ansluta till SOAP API:er i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!UICONTROL SOAP] modul
 
-Du kan använda [!UICONTROL SOAP] modul att ansluta till [!UICONTROL SOAP] API:er i [!UICONTROL Adobe Workfront Fusion].
+Du kan använda [!UICONTROL SOAP] modul att ansluta till [!UICONTROL SOAP] API:er [!UICONTROL Adobe Workfront Fusion].
 
 ## Åtkomstkrav
 
@@ -49,13 +49,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -68,7 +68,7 @@ The [!UICONTROL SOAP] Modulen är för närvarande i betaversion och stöder int
 * Begränsningar för totalt antal siffror
 * Begränsningar för tomt utrymme
 * Flera delar i in- och utdatameddelanden. Endast meddelanden med en del stöds
-* Anpassade XML-schemaelement definierade med hjälp av [[!UICONTROL SOAP] Kodning](http://schemas.xmlsoap.org) scheman och element.
+* Anpassade XML-schemaelement definierade med hjälp av [[!UICONTROL SOAP] Kodning](https://schemas.xmlsoap.org) scheman och element.
 
 >[!INFO]
 >
@@ -135,7 +135,7 @@ Om [!UICONTROL SOAP] modulen vägrar att bearbeta WSDL-filen eller genererar oli
 1. Kopiera URL:en från `location` -attribut.
 1. I [!DNL Workfront Fusion], klistra in URL-adressen i HTTP-modulens URL-fält.
 1. Öppna [Online [!UICONTROL SOAP] Klient](https://wsdlbrowser.com/) i ett nytt webbläsarfönster/en ny flik.
-1. Klistra in WSDL-URL i WSDL-URL-fältet.
+1. Klistra in WSDL-URL:en i WSDL-URL-fältet.
 1. Klicka på **[!UICONTROL Browse]**.
 1. Välj från listan med funktioner till vänster, till exempel `getLanguages`.
 1. Kopiera innehållet i [!UICONTROL Request XML] textområde.
