@@ -2,12 +2,12 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
-title: Som Adobe Workfront-administratör kan du ställa in valutakurser i Workfront.
-description: Ställ in valutakurser
+title: Ställ in valutakurser
+description: Som Adobe Workfront-administratör kan du ställa in valutakurser i Workfront.
 feature: System Setup and Administration
 role: Admin
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Hur du ställer in valutakurser påverkar om användare kan ändra valutakurser 
 
 >[!IMPORTANT]
 >
->Växelkurserna i Workfront är inte dynamiska. värdet som du anger måste uppdateras när växelkursförändringar inträffar.
+>Valutakurserna i Workfront är inte dynamiska. Värdet som du anger måste uppdateras när växelkursförändringar inträffar.
 
 ## Åtkomstkrav
 
@@ -64,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ställ in valutakurser
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Projektinställningar** > **Växelkurser.**
 
@@ -78,13 +78,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka **Spara** för att spara ändringarna.
 
-## Gör det möjligt för användare att ändra standardvalutan för ett projekt
+## Ge användarna möjlighet att ändra standardvalutan för ett projekt
 
 Användarna kan ändra standardvalutan för ett projekt när följande villkor är uppfyllda:
 
 * Användaren har en planlicens med administrativ åtkomst till Exchange-priser.
 
-   Mer information finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Mer information finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Mer än en valuta är aktiverad i Workfront.
 
@@ -96,7 +96,7 @@ Användarna kan ändra valutan för en jobbroll när följande villkor är uppfy
 
 * Användaren har en planlicens med administrativ åtkomst till jobbroller.
 
-   Mer information finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Mer information finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Mer än en valuta är aktiverad i Workfront.
 
