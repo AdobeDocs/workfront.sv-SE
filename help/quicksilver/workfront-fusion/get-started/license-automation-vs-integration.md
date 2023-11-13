@@ -8,25 +8,31 @@ description: Adobe Workfront Fusion har två olika licenser som avgör vilken fu
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 8c781894022661bee229a88556728659ff634310
+source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# Äldre [!DNL Adobe Workfront Fusion] licenser
+# [!DNL Adobe Workfront Fusion] licenser
+
+[!DNL Workfront Fusion] har två licensieringsmodeller, en ny driftbaserad modell och en äldre anslutningsbaserad modell.
+
+## Driftbaserad licensieringsmodell (ny)
+
+Den nya [!DNL Workfront Fusion] licensmodellen baseras på antalet åtgärder som din organisation använder. I den här modellen har alla organisationer tillgång till samma funktioner.
+
+Information om vad som räknas som en åtgärd under den nya licensieringsmodellen finns i [Åtgärder i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+
+## Kopplingsbaserad licensieringsmodell (äldre)
 
 I [!DNL Adobe Workfront Fusion] äldre licensmodell, [!DNL Fusion] erbjuder två olika licenser som avgör vilken funktionalitet du har tillgång till. Din organisation valde en av dessa licenser när den köpte [!DNL Workfront Fusion].
-
->[!NOTE]
->
->Den nya licensmodellen för Fusion baseras på antalet åtgärder som din organisation använder. I den här modellen har alla organisationer tillgång till samma funktioner.
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
-För att ta reda på vilken typ av [!DNL Workfront Fusion] licens som din organisation har, kontakta din [!DNL Workfront Fusion] administratör.
+Ta reda på vilken typ av [!DNL Workfront Fusion] licens som din organisation har, kontakta din [!DNL Workfront Fusion] administratör.
 
 ## [!DNL Workfront Fusion for Work Automation]
 
@@ -36,7 +42,7 @@ För att ta reda på vilken typ av [!DNL Workfront Fusion] licens som din organi
 
 ### Fördelar med [!DNL Workfront Fusion for Work Automation]
 
-A [!DNL Workfront Fusion for Work Automation] licenser kan du automatisera [!DNL Workfront] arbetsflöden. Genom att använda [!DNL Workfront Fusion for Work Automation]kan ni skapa scenarier för att automatisera organisationens unika arbetsprocesser. Det finns många fördelar med att automatisera [!DNL Workfront] -processer.
+A [!DNL Workfront Fusion for Work Automation] licenser kan du automatisera [!DNL Workfront] arbetsflöden. Genom att [!DNL Workfront Fusion for Work Automation]kan ni skapa scenarier för att automatisera organisationens unika arbetsprocesser. Många fördelar med att automatisera [!DNL Workfront] -processer.
 
 * Automatisering går snabbare och mindre felbenägen
 * Arbetsflöden som inte kräver några beslut eller som har beslut som baseras på enkel logik, som if/then, är bra kandidater för automatisering
@@ -51,7 +57,7 @@ Med [!DNL Workfront Fusion for Work Automation] har du tillgång till följande:
 * Webhooks
 * Verktyg och transformatormoduler som:
 
-   * PDF-verktyg
+   * PDF verktyg
    * Arkiv
    * CSV
    * Datalager
