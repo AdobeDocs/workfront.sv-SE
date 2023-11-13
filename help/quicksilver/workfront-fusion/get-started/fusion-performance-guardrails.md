@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 229fd48d604385a1bfcaba2fd34eb6f3bbdde7a7
+source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Automatisering kräver snabb bearbetning, så [!DNL Adobe Workfront Fusion] har 
 * Standardtidsgränsen för scenariokörning är **40 minuter**. När körningen når denna tidsgräns, [!DNL Workfront Fusion] avbryter scenariokörning efter nästa cykel eller åtgärd, beroende på scenariot. Detta medför att scenariot avbryts kort efter att gränsen på 40 minuter har nåtts
 * Den största tillåtna storleken för en scenarioplan är **5 MB** men vi rekommenderar att du håller scenariostorleken under **3 MB**.
 
-   Programmoduler som skapar eller uppdaterar data med ett stort antal fält kan orsaka mycket stora utkast.
+  Programmoduler som skapar eller uppdaterar data med ett stort antal fält kan orsaka mycket stora utkast.
 
    * När du använder [!DNL Workfront] ska du bara välja fält som behövs för att skapa eller uppdatera användningsfall.
    * När du använder andra program kan du använda anpassade API-moduler för att interagera med valfri posttyp som har ett stort antal fält.
@@ -45,13 +45,13 @@ Automatisering kräver snabb bearbetning, så [!DNL Adobe Workfront Fusion] har 
 
 ## Filer
 
-* Fusions totala bearbetningskapacitet för filer är **1 GB**. Gränsen baseras på den totala minneskostnaden. Alla operationer bidrar till den kostnaden. Om en fil på 400 MB laddas ned och överförs blir den totala kostnaden för filkapaciteten 800 MB.
+* Fusions totala bearbetningskapacitet för filer är **1 GB**. Gränsen baseras på en total minneskostnad. Alla operationer bidrar till den kostnaden. Om en fil på 400 MB laddas ned och överförs blir den totala kostnaden för filkapaciteten 800 MB.
 
 ## Serverminnesanvändning
 
 * Serverminnesanvändningen för en enskild körning är begränsad till **1 GB**.
 
-   Många faktorer, till exempel stora filer eller komplexa moduler, kan påverka minnesanvändningen på ett sätt som är svårt att förutse eller kontrollera. På grund av detta kan din scenariokörning överskrida minnesgränsen på 1 GB, även om scenariot följer alla andra prestandaskydd. Om du överskrider minnesgränsen misslyckas körningen.
+  Många faktorer, till exempel stora filer eller komplexa moduler, kan påverka minnesanvändningen på ett sätt som är svårt att förutse eller kontrollera. På grund av detta kan din scenariokörning överskrida minnesgränsen på 1 GB, även om scenariot följer alla andra prestandaskydd. Om du överskrider minnesgränsen misslyckas körningen.
 
 ## Webhooks
 
@@ -64,3 +64,8 @@ Automatisering kräver snabb bearbetning, så [!DNL Adobe Workfront Fusion] har 
    * Webkroken används bara i inaktiva scenarier, som har varit inaktiva i mer än 30 dagar.
 
 * Inaktiverade webhooks tas bort och avregistreras automatiskt om de inte är anslutna till några scenarier och har inaktiverats i över 30 dagar.
+
+## Körningshistorik
+
+* Körningshistorikloggarna är begränsade till en storlek på **100 MB**. Om körningshistoriken överskrider den här storleken visas endast de första 100 MB.
+
