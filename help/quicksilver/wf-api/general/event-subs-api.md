@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
+source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,7 @@ Följande Workfront-objekt stöds av händelseprenumerationer.
 * Mall
 * Tidrapport
 * Användare
+* Arbetsyta
 
 En lista med fält som stöds av händelseprenumerationsobjekt finns på [Resursfält för händelseprenumeration](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -179,6 +180,10 @@ Prenumerationsresursen innehåller följande fält.
        <tr> 
         <td scope="col">Användare</td> 
         <td scope="col">ANVÄNDARE</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Arbetsyta</td> 
+        <td scope="col">ARBETSYTA</td> 
        </tr> 
       </tbody> 
      </table>
