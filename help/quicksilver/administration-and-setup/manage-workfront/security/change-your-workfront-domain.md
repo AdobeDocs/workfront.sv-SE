@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: b9e088a0cdb32f3e8c565ea17f4613dda104bd7b
+source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Begär en domänändring
 
-1. Klicka på **Support** på Workfront One page och börja skapa ett supportärende.
+1. Börja skapa en supportbiljett på Experience League.
 1. I **Beskrivning** ska du inkludera den nya domänen som du vill ha samt tidsramen när du vill att den nya domänen ska aktiveras.
 1. Fyll i rutorna för supportärendet och klicka sedan på **Skicka**.
 
@@ -64,7 +64,7 @@ Om ditt företag använder enkel inloggning krävs följande steg när du har ä
 >
 >Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på **System** > **Kundinformation** och se till att din domän är uppdaterad på sidan Kundinformation.
 
