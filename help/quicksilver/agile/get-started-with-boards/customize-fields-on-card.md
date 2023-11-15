@@ -6,9 +6,9 @@ description: Du kan anpassa vilka fält som ska visas på ett kort genom att ina
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Anpassade fält är tillgängliga på anslutna kort. De visas bara i helskärmsläge, inte i den komprimerade vyn.
 
->[!NOTE]
->
->När du lägger till ett anpassat fält på dina kort är uppgifterna på kortet skrivskyddade.
+Informationen i anpassade fält kan redigeras på kortet, men vissa anpassade element kan bara redigeras i det ursprungliga fältet och inte på kortet.
 
 1. Gå till en anslagstavla och klicka [!UICONTROL **Konfigurera**] för att öppna panelen Konfigurera.
 1. Expandera [!UICONTROL **Kort**].
