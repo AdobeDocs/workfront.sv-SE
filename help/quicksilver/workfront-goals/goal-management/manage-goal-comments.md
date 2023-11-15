@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ Du måste ha följande innan du kan börja:
 
 * En layoutmall som innehåller området Mål på huvudmenyn.
 
-## Leta rätt på uppdateringsavsnittet
+## Hantera målkommentarer
 
 Du kan lägga till kommentarer till mål i uppdateringsavsnittet på målsidan.
 
 Du kan svara på eller gilla en kommentar som du eller andra har lagt till i det här området.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) > **Mål** längst upp till höger.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** icon ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Mål**.
 Detta öppnar mållistan.
 1. Leta reda på målet som du vill lägga till kommentarer i och klicka sedan på namnet för att öppna målsidan.
 1. Klicka  **Uppdateringar** till vänster.
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. Klicka på **x** -ikonen i sökfältet för att rensa sökresultaten och återgå till hela sökningen.
 1. Klicka på **Kommentar** i det övre vänstra hörnet av uppdateringsområdet.
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
