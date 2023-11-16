@@ -7,9 +7,9 @@ description: Med Adobe Workfront Fusion Devtool kan du förstå och felsöka sce
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
+source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Om du använder Fusion i det enhetliga Adobe-skalet kan du komma åt Dev-verktyg
 
 >[!NOTE]
 >
->För närvarande är det bara **Live Stream** -området i utvecklingsverktyget är tillgängligt för användare i det enhetliga skalet.
+>För närvarande är det bara **Live Stream** och **Scenariofelsökning** -områden är tillgängliga för användare i den enhetliga upplevelsen. The **verktyg** är för närvarande inte tillgängligt i Unified Experience.
 
 ### Få åtkomst till utvecklingsverktyget i klassiska [!DNL Fusion] upplevelse
 
@@ -193,6 +193,10 @@ Scenariofelsökaren är användbar för mer komplexa scenarier. Den visar histor
 1. Visa information om begäran genom att klicka på önskad åtgärd.
 
 ### verktyg
+
+>[!NOTE]
+>
+>Det här området är för närvarande inte tillgängligt för användare i Adobe Unified Experience.
 
 The [!DNL Workfront Fusion] Utvecklingsverktyg har verktyg som gör det enklare att konfigurera ditt scenario.
 
