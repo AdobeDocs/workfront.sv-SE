@@ -3,9 +3,9 @@ title: Första utgåvan, kvartal 2024, översikt
 description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
-source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
+source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-förbättringar
 
+* [Förbättrad dokumenthantering](#document-management-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Uppdatera ström- och meddelandeförbättringar](#update-stream-and-notification-enhancements)
+
+### Förbättrad dokumenthantering
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markera en granskning som slutförd</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att göra det tydligare när ett dokument har granskats och är klart för nästa godkännandefas har vi skapat ett nytt <strong>Slutför min granskning</strong> -knappen.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 16 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Dokumentets gransknings- och godkännandestatus visas i dokumentrubriken</a></p><p>För att göra gransknings- och godkännandeprocessen mer genomskinlig har vi lagt till statusen i sidhuvudet på sidan Dokumentinformation.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 9 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+</table>
 
 ### Integration enhancements
 
@@ -60,21 +117,91 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typsnittsfält är nu tillgängliga i Adobe Experience Manager Integration</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att göra det enklare att länka fält mellan Workfront och Adobe Experience Manager har vi lagt till stöd för typsnittsfält i metadatamappningen. Nu kan du mappa typsnittsfält till motsvarande fält i Adobe Experience Manager.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 16 november 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion för alla kunder: 7 december 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Publicera material automatiskt i Adobe Experience Manager</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har lagt till ytterligare ett arbetsflöde i Adobe Experience Manager-integreringen. Nu kan du ange att dina resurser ska publiceras automatiskt när de skickas till Adobe Experience Manager. Integrationen kan konfigureras för att publicera till Adobe Experience Manager publiceringstjänst eller till en Adobe Experience Manager varumärkesportal.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 9 november 2024, 2023<br /></p>
+                                <p>Förhandsversion: 9 november 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion för alla kunder: 9 november. 2023</span></p>
+                                <p><span class="preview">Produktion för alla kunder: 9 november 2023</span></p>
                             </li>
                         </ul>
                     </td>
+                    </tr>
            </tbody>
         </table>
 
+### Uppdatera ström- och meddelandeförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Sök efter en kommentar eller användare i uppdateringsavsnittet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Om du snabbt vill hitta information i uppdateringsavsnittet för ett objekt kan du nu söka efter ett nyckelord från en kommentar eller efter en användare som är associerad med en kommentar.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 16 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Kopiera och klistra in en bild i en kommentar i uppdateringsavsnittet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Om du vill ge innehållet i ett meddelande ett sammanhang kan du nu snabbt bifoga bilder till dina kommentarer genom att kopiera dem från datorn och klistra in dem i en ny uppdatering eller ett nytt svar.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 16 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+</table>
 
 ## Meddelanden
 

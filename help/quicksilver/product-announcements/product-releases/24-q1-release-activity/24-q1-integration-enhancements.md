@@ -3,9 +3,9 @@ title: Integreringsförbättringar för första kvartalet 2024
 description: Integreringsförbättringar för första kvartalet 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 864ba63e448a070b3ae5413196cc2fdd316fb931
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,14 @@ ht-degree: 0%
 Den här sidan beskriver alla integreringsförbättringar som gjorts i den första utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den första utgåvan av kvartal 2024.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Typsnittsfält är nu tillgängliga i Adobe Experience Manager Integration
+
+För att göra det enklare att länka fält mellan Workfront och Adobe Experience Manager har vi lagt till stöd för typsnittsfält i metadatamappningen. Nu kan du mappa typsnittsfält till motsvarande fält i Adobe Experience Manager.
+
+Om en användare väljer ett annat värde för ett fält i Workfront återspeglas ändringen direkt i Adobe Experience Manager. Om ett fältvärdesalternativ ändras (till exempel om ett team ändrar namnet till ett nytt namn) återspeglas dessutom ändringen i Adobe Experience Manager.
+
+Mer information och instruktioner om metadatamappning i Adobe Experience Manager-integreringen finns i [Ställ in metadata](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-metadata-optional).
 
 ## Publicera material automatiskt i Adobe Experience Manager
 
