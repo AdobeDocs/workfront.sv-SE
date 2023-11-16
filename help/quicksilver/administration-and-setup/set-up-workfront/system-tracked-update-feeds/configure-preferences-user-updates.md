@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Om du vill utföra de här stegen på systemnivå måste du ha [!UICONTROL System Administrator] åtkomstnivå.</p><p>Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Om du vill utföra de här stegen på systemnivå måste du ha [!UICONTROL System Administrator] åtkomstnivå.</p><p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,14 +49,11 @@ Som standard kan användare inte lägga till bilder i uppdateringar. När du akt
 >[!NOTE]
 >
 >* Bilder som sparas i uppdateringar räknas in i dokumentets lagringsgräns. Mer information finns i [Kontrollera dokumentlagringsgränser](../../../documents/managing-documents/check-document-storage.md).
->* Bilderna är bara tillgängliga via [!UICONTROL Updates] -fliken på ett objekt och är inte tillgänglig på [!UICONTROL Documents] -fliken.
+>* Bilderna är tillgängliga via [!UICONTROL Updates] -fliken på ett objekt och är även tillgänglig i [!UICONTROL Documents] området under [!UICONTROL Main Menu].
 >
 
-
-
-
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
-1. Välj **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
+1. I den vänstra panelen väljer du **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 1. Välj **[!UICONTROL Preferences]** -fliken.
 
    ![Användarinställningar för uppdateringsflöden](assets/updatefeeds-preferences-350x137.png)

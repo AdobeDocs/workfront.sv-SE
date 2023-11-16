@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4e06eaf0755f284692db1cf6511fa5b598b88e28
+source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '3985'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,13 @@ ht-degree: 0%
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. </span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
 -->
 
 >[!IMPORTANT]
@@ -38,7 +39,7 @@ ht-degree: 0%
 >
 >Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar objekt från följande områden:
+>Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar uppdateringar från följande områden:
 >
 > * Startsida
 > * Panelen Sammanfattning i listor
@@ -390,13 +391,17 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    1. Under **Text som ska visas** skriver du eller klistrar in länktexten.
    1. Klicka **Spara**.
 
-1. (Valfritt) <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> Klicka på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn när du använder den nya kommentarsfunktionen.
+1. (Valfritt) <span class="preview">Om du vill bifoga en bild till uppdateringen kopierar du en skärmbild från datorn och klickar sedan på **CTRL + V** för Windows (eller **CMD + V** för Mac) klistra in den i kommentaren</span>
+
+   eller
+
+   Klicka på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn när du använder den nya kommentarsfunktionen.
 
    >[!NOTE]
    >
    >* Din Workfront-administratör måste aktivera tillägg av bilder i avsnittet Inställningar för uppdatering av feeds i Workfront-gränssnittsområdet innan du kan se ikonerna för bilden eller Lägg till bilaga. Mer information finns i [Konfigurera inställningar för användaruppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Största bildfilsstorlek är 7 MB. Bildfiltyper som stöds är .jpg, .gif och .png.
-   >* Bilder är tillgängliga i uppdateringsavsnittet för ett objekt och är även tillgängliga i dokumentområdet.
+   >* Bilder är tillgängliga från uppdateringsavsnittet för ett objekt och är även tillgängliga i området Dokument under huvudmenyn.
    >* Du kan skicka en uppdatering med en bild och utan text.
    >* När du tar bort en kommentar som innehåller en bild, finns följande scenarier beroende på vilken upplevelse du väljer:
    >
@@ -408,30 +413,28 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
 1. Klicka **Skicka** för att lägga till din kommentar.
 
-<!-- for the search for comments - November 2023 release to Preview: 
-
 <div class="preview">
 
-## Search for an update
+## Söka efter en uppdatering
 
 >[!NOTE]
 >
->This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+>Den här funktionen är bara tillgänglig för fliken Kommentarer i den nya kommentarsupplevelsen. Detta är inte tillgängligt för fliken Systemaktivitet i uppdateringsavsnittet.
 
-You can search for a comment or a reply in the Updates section of an object. 
+Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett objekt.
 
-1. Go to the **Updates** section of an object.
-1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. Gå till **Uppdateringar** del av ett objekt.
+1. Börja skriva ett nyckelord <!--or a user's name--> i **Sök** i det övre högra hörnet av uppdateringsavsnittet. <!--You can search for comment owner's names or for users who are tagged on comments. -->
 
    ![](assets/search-field-in-updates-tab.png)
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   Nyckelordet <!--or user--> som du sökte efter markeras och kommentarerna som innehåller den visas högst upp i uppdateringsavsnittet.
 
-1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+1. Klicka på **x** -ikonen i sökfältet för att rensa sökresultaten och återgå till hela sökningen.
 
 </div>
 
--->
+<!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
 ## Kopiera uppdateringsinformation
 
