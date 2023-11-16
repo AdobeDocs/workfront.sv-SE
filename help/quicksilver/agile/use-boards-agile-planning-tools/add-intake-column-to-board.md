@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![Filter Builder](assets/intake-filter-dialog6.png)
 
-   I det här exemplet visas ett filter för aktiviteter från ett specifikt projekt som har statusen [!UICONTROL New] eller [!UICONTROL In Progress]och har tilldelats mig.
+   I det här exemplet visas ett filter för aktiviteter från ett specifikt projekt som har statusen [!UICONTROL New] eller [!UICONTROL In Progress].
+
+   >[!NOTE]
+   >
+   >Vi rekommenderar att du inte använder jokertecknet&quot;Me&quot; (inloggad användare) i ett kortfilter eftersom det inte alltid är säkert att uppgifter eller problem visas för den inloggade användaren. När styrelsen har konfigurerats med rätt uppgifter och ärenden kan du filtrera ritytan så att den visar objekt för en viss tilldelad person. Mer information finns i [Filtrera och söka på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
    Mer information om hur du skapar ett filter finns i avsnittet Skapa eller redigera ett filter i standardverktyget i artikeln [Skapa eller redigera filter i [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -141,7 +145,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Använda inloppskolumnen
 
 Kort i inloppskolumnen går inte att redigera förrän du flyttar dem till andra kortkolumner. Du kan klicka på kortet för att öppna det i en skrivskyddad vy eller klicka på ![Öppna uppgift eller ärende](assets/boards-launch-icon.png) för att öppna uppgiften eller problemet på en ny flik i webbläsaren.
-
 
 Du kan ändra ordning på objekten i inloppskolumnen manuellt.
 
