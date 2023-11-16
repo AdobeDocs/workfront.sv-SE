@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ Om du vill visa tillgängliga mallar klickar du på **Mallar** icon ![](assets/f
 
 Mallarna automatiserar Workfront processer och arbetsflöden.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Workfront - Skapa projekt från CSV
 
 Den här automatiseringen skapar nya projekt i Workfront baserat på information om namn, Portfolio, status, planerat startdatum och mall som du anger i en CSV-fil.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Workfront - Rensa begäranden utan nya anteckningar de senaste 30 dagarna
 
 Använd den här mallen för att framtvinga en uppdatering av en 30-dagars anteckning på dina förfrågningar. Begäranden som inte uppdateras inom 30 dagar får sin status ändrad och stängd 60 dagar.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Workfront - Ändra projektstatus till Fullständigt vid 100 % slutfört.
 
 Den här automatiseringen uppdaterar projekt till Fullständig status som har alla uppgifter slutförda 1005. Projekt med öppna problem eller öppna uppgifter eller projektgodkännanden får en uppdatering, och när de löses kommer projekten att övergå till statusen Slutför.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Workfront - Varna och försök att stänga inaktuella projekt
 
 Använd det här scenariot för att automatisera varningar om och stängning av projekt som uppfyller organisationens inaktuella projektpolicy.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Workfront - Kopiera nya anteckningar och svar från källa/förfrågan till redan konverterade projekt eller uppgifter
 
 Använd den här mallen för att kopiera anteckningar och svar från en utgåva eller förfrågan till ett projekt eller en uppgift som redan har konverterats.
 
@@ -57,6 +57,10 @@ Den här automatiseringen passar för nya projekt i portfolior med anpassade for
 ### Workfront - konvertera godkänt problem till projekt
 
 Den här mallen konverterar ärenden till projekt. Du kan ändra den så att den uppfyller organisationens standarder.
+
+### [!BADGE Nyhet!]{type=Informative}
+
+I det här flexibla scenariot kopieras dokument från ärenden eller förfrågningar till tidigare konverterade projekt eller uppgifter.
 
 ### Skräddarsytt meddelande baserat på fältändring
 
@@ -102,7 +106,7 @@ Mallarna hämtar information från en webbtjänst och hämtar informationen till
 >
 > Du måste ha en licens för Workfront Fusion for Work Automation och Integration för att kunna använda mallarna i det här avsnittet.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Upprättar anslutning med JWT (JSON Web Token)
 
 Upprätta JWT-auktorisering för ett klient-API.
 
@@ -138,7 +142,7 @@ Mallarna kopplar samman Workfront och SharePoint.
 >
 > Du måste ha en licens för Workfront Fusion for Work Automation och Integration för att kunna använda mallarna i det här avsnittet.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Se ändringar i SharePoint-mappen
 
 Med den här mallen kan du se om en SharePoint-mapp har ändrats.
 
