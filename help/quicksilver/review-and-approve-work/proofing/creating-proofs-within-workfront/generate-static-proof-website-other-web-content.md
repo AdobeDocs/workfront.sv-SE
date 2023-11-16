@@ -6,9 +6,9 @@ description: Du kan generera ett nytt statiskt korrektur eller en ny version av 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Skapa ett statiskt korrektur för en webbplats eller annat webbinnehåll
 
@@ -58,7 +58,7 @@ Om du vill skapa ett statiskt bevis måste webbplatsen vara tillgänglig för al
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa ett nytt korrektur för en webbplats eller en ny version av ett befintligt.
 1. Klicka **Dokument** i den vänstra panelen .
-1. (Villkorligt) Om du skapar ett nytt korrektur klickar du på **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
+1. (Villkorligt) Om du skapar ett nytt korrektur klickar du **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
 1. (Villkorligt) Om du skapar en ny version av ett befintligt korrektur:
 
    1. För musen över det URL-korrektur som du vill skapa en ny version för och markera det sedan genom att klicka i den ljusblå bakgrunden runt det.
@@ -69,9 +69,9 @@ Om du vill skapa ett statiskt bevis måste webbplatsen vara tillgänglig för al
 
 1. Ange URL-adressen till den webbplats som du vill korrekturgranska i dialogrutan **Lägg till filer** område, tryck sedan på **Retur**.
 
-   URL:en visas under rutan där du skrev den.
-
-   ![](assets/url-name-appears-below-350x142.png)
+   >[!NOTE]
+   >
+   > URL:en får inte innehålla fler än 1 000 tecken.
 
 1. Klicka på den URL som du har lagt till.
 
@@ -80,7 +80,7 @@ Om du vill skapa ett statiskt bevis måste webbplatsen vara tillgänglig för al
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Valfritt) Om du vill ändra namnet på korrekturet från webbplatsens URL till något annat anger du en **Korrekturnamn.**
-1. Se till att **Ta skärmbild** är markerat och du kan använda något av följande alternativ:
+1. Kontrollera att **Ta skärmbild** är markerat och använder något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 

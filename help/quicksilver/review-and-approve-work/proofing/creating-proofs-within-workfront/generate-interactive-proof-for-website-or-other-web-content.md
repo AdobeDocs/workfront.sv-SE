@@ -6,9 +6,9 @@ description: Du kan generera ett nytt interaktivt korrektur eller en ny version 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -50,13 +50,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Skapa ett interaktivt korrektur för en webbplats eller annat webbinnehåll
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa ett nytt korrektur för en webbplats eller en ny version av ett befintligt.
-1. Klicka **Dokument** i den vänstra panelen.
-1. (Villkorligt) Om du skapar ett nytt korrektur klickar du på **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
+1. Klicka **Dokument** till vänster.
+1. (Villkorligt) Om du skapar ett nytt korrektur klickar du **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
 
 1. (Villkorligt) På **Nytt korrektur** visas om du skapar en ny version av ett befintligt korrektur:
 
@@ -64,13 +64,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       ![Select_proof_by_select_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
+
    1. I **Lägg till ny** nedrullningsbar meny, klicka **Version** > **Korrektur**.
 
-1. I **Lägg till filer** skriver du webbadressen till den webbplats du vill korrekturgranska och trycker sedan på **Retur**.
+1. I **Lägg till filer** skriver du webbadressen till den webbplats du vill korrekturgranska och trycker sedan på **Retur**.  Du kan upprepa den här processen om du vill lägga till flera webbplatser som ska korrektur.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
-   Du kan upprepa den här processen om du vill lägga till flera webbplatser som ska korrektur.
+
+   >[!NOTE]
+   >
+   > URL:en får inte innehålla fler än 1 000 tecken.
 
 1. Klicka på den URL som du har lagt till.
 
