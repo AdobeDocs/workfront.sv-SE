@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -300,6 +300,7 @@ När du öppnar någon av dessa flikar visas på rad 2 fälten för varje objekt
 >
 >  På **PROJ-projekt** -fliken, **setCondition** och **setConditionType** fält kan lämnas tomma, men **setGroupID** och **setName** det går inte att använda kolumner.
 >
+>* Vissa fält, inklusive **setResourceRevenue** och **setEnteredByID**, genereras automatiskt av systemet. Om du anger data för de här fälten i kalkylbladet åsidosätter snabbstartsprocessen dem när du överför kalkylbladet.
 
 ### Importera en post  {#import-a-record}
 
