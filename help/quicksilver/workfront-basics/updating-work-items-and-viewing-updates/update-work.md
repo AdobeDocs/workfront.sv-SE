@@ -6,22 +6,20 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '4005'
 ht-degree: 0%
 
 ---
 
 # Uppdatera arbete
 
-
-
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. </span>
 
-<span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+<span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -263,7 +261,7 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
 
    >[!TIP]
    >
-   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar visas en röd linje med en ny indikator som informerar dig om de nyare kommentarerna.
+   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar finns det en röd linje med en ny indikator som informerar dig om de nyare kommentarerna.
    >
    >Indikatorn visas först när kommentaren har skickats för objektet, inte när kommentaren fortfarande är sammansatt.
    >
@@ -290,7 +288,7 @@ Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på v
    >
    >* Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
    >* Datumstämpeln bredvid kommentaren är datumet för den ursprungliga kommentaren, inte datumet för den senaste redigeringen.
-   >* När du skickar en kommentar för en annan användares räkning (när du loggar in som en annan användare som Workfront- eller gruppadministratör) kan du inte redigera kommentaren om du är inloggad som den andra användaren. Du kan bara redigera kommentaren efter att du har loggat ut som användare och loggat in som du själv.
+   >* När du lägger till en kommentar för en annan användares räkning (när du loggar in som en annan användare som Workfront- eller gruppadministratör) kan du inte redigera kommentaren om du är inloggad som den andra användaren. Du kan bara redigera kommentaren efter att du har loggat ut som användare och loggat in som du själv.
 
 
 1. (Valfritt) Klicka på **Svara** eller börja skriva en kommentar i **Lägg till svar ...** för att svara på en befintlig kommentar, följ sedan stegen 4-8 ovan. <!--(**************insure this stays accurate***********)--> Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
@@ -391,17 +389,18 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    1. Under **Text som ska visas** skriver du eller klistrar in länktexten.
    1. Klicka **Spara**.
 
-1. (Valfritt) <span class="preview">Om du vill bifoga en bild till uppdateringen kopierar du en skärmbild från datorn och klickar sedan på **CTRL + V** för Windows (eller **CMD + V** för Mac) klistra in den i kommentaren</span>
+1. (Valfritt) <span class="preview">Om du vill bifoga en bild till uppdateringen kopierar du en skärmbild från datorn och klistrar in den i kommentaren </span>
 
    eller
 
-   Klicka på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn när du använder den nya kommentarsfunktionen.
+   Klicka på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
 
    >[!NOTE]
    >
    >* Din Workfront-administratör måste aktivera tillägg av bilder i avsnittet Inställningar för uppdatering av feeds i Workfront-gränssnittsområdet innan du kan se ikonerna för bilden eller Lägg till bilaga. Mer information finns i [Konfigurera inställningar för användaruppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Största bildfilsstorlek är 7 MB. Bildfiltyper som stöds är .jpg, .gif och .png.
    >* Bilder är tillgängliga från uppdateringsavsnittet för ett objekt och är även tillgängliga i området Dokument under huvudmenyn.
+   >* <span class="preview">Du kan klistra in bilden genom att högerklicka i den nya kommentaren eller genom att trycka på CTRL + V för Windows (eller CMD + V för Mac) på tangentbordet.</span>
    >* Du kan skicka en uppdatering med en bild och utan text.
    >* När du tar bort en kommentar som innehåller en bild, finns följande scenarier beroende på vilken upplevelse du väljer:
    >
@@ -424,13 +423,17 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett objekt.
 
 1. Gå till **Uppdateringar** del av ett objekt.
-1. Börja skriva ett nyckelord <!--or a user's name--> i **Sök** i det övre högra hörnet av uppdateringsavsnittet. <!--You can search for comment owner's names or for users who are tagged on comments. -->
+1. Börja skriva ett nyckelord <!--or a user's name --> i **Sök** i det övre högra hörnet av **Kommentar** -fliken.
+
+   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    ![](assets/search-field-in-updates-tab.png)
 
    Nyckelordet <!--or user--> som du sökte efter markeras och kommentarerna som innehåller den visas högst upp i uppdateringsavsnittet.
 
-1. Klicka på **x** -ikonen i sökfältet för att rensa sökresultaten och återgå till hela sökningen.
+   Workfront söker igenom hela objektets uppdateringsström, utanför kommentarerna som visas på skärmen.
+
+1. Klicka på **x** -ikonen i sökfältet för att rensa sökresultaten och återgå till alla kommentarer.
 
 </div>
 

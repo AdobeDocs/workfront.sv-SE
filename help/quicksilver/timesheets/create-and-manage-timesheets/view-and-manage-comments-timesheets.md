@@ -6,9 +6,9 @@ description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrappor
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ Kommentarerna visas under objektet där timinmatningen och kommentaren loggades.
 
 ### Kommentera den övergripande tidrapporten {#comment-on-the-overall-timesheet}
 
-Du kan göra allmänna kommentarer om tidrapporten.
+Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripande tidrapporten liknar kommentarer i andra objekt.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** icon ![](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om det är tillgängligt.
 
 1. Klicka **Tidrapporter**.
 1. Gå till tidrapporten där du vill göra en kommentar.
 1. Klicka **Uppdateringar** i den vänstra panelen klickar du på **Kommentar** -fliken.
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. Ange en uppdatering i dialogrutan **Ny kommentar** box.
+1. Börja lägga till nya kommentarer eller svara på befintliga, enligt beskrivningen i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Lägg till personer eller team i **Tagga personer eller team** -fält för att inkludera andra i uppdateringen. Mer information finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Valfritt) Lägg till RTF-formatering i kommentaren. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Välj **Privat till mitt företag** om du bara vill att personer från ditt företag ska kunna se uppdateringen.
 1. Skriv din kommentar och klicka sedan på **Skicka**.
 
-   Din kommentar visas i [!UICONTROL Updates] i tidrapporten.
+   Din kommentar visas i [!UICONTROL Updates] på fliken Kommentarer.
 
 1. (Valfritt) Klicka på **Systemaktivitet** för att granska systemgenererade uppdateringar.
 
-   Mer information finns i avsnittet Aktivera eller inaktivera systemuppdateringar i artikeln [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Kommentera en enskild timpost i en tidrapport {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
