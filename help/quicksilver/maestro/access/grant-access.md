@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -26,29 +26,28 @@ ht-degree: 0%
 >
 >Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
 
-<!-- the table will change after we implement access levels/ permissions for Maestro-->
-<!-- fix the formatting on the table - some lines are way too spaced out-->
+Alla användare i organisationen kan ha tillgång till Maestro om följande förutsättningar är uppfyllda:
 
-För närvarande kan alla användare i organisationen ha tillgång till Maestro om följande krav är uppfyllda:
+<!--the first requisite will be removed when we go to GA-->
 
 * Din organisation är registrerad i det betaprogram som Adobe Maestro stängde.
+* Som systemadministratör måste du lägga till Maestro-området på huvudmenyn med hjälp av en layoutmall.
 
-  Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet.
+  Maestro visas inte som standard på huvudmenyn för någon användare, inklusive systemadministratörer.
 
+  Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-Mer information om vilken åtkomst du behöver finns i [Översikt över åtkomst till Adobe Maestro](../access/access-overview.md).
+<!-- take out the note below when we release permissions-->
 
 >[!NOTE]
 >
 >Det finns inga åtkomstnivåer eller behörigheter kopplade till användare eller informationen i Maestro. Alla användare som har Maestro aktiverat i sin miljö kan visa, redigera och ta bort all information som andra användare lägger till i Maestro.
 
-## Aktivera Maestro för användare i din Workfront-instans
+## Dela Maestro-området på huvudmenyn med andra
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-När din organisation har registrerats i betaprogrammet för Maestro kan du lägga till Maestro-området för andra användare med hjälp av en layoutmall.
-
-Så här delar du Maestro-området med en layoutmall:
+När din organisation har registrerats i betaprogrammet för Maestro kan du lägga till Maestro-området på huvudmenyn för alla användare med hjälp av en layoutmall.
 
 1. Logga in på **Workfront** som Workfront-administratör.
 
@@ -65,11 +64,16 @@ Så här delar du Maestro-området med en layoutmall:
    Användare kan börja skapa arbetsytor, posttyper, poster och fält.
 
 <!--
+
 ## Share permissions to a workspace
+
+Only system administrators can access all workspaces in Maestro. As a system administrator, you must share a workspace with other users for them to view, manage, or contribute to it. 
+
+To share a workspace with others: 
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
-1. In the field provided, start typing the name of a user or a group, then click it when it displays in the list. 
+1. In the field provided, start typing the name of a user or a group (******ensure you can share with groups*******), then click it when it displays in the list. 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
     * Contribute
@@ -82,7 +86,7 @@ Så här delar du Maestro-området med en layoutmall:
 ## Remove permissions to a workspace
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********) add screen shot when UI is finalized and maybe edit the steps???****)
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
 1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
     
     The user or the users that belong to the group removed no longer have access to the workspace or its objects. 

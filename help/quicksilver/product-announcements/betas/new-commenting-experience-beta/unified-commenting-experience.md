@@ -7,28 +7,33 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # Ny kommentarsfunktion
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder.  </span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln hänvisar till funktioner som släpptes under betaversionen för den nya kommentarsfunktionen.
+>Informationen i den här artikeln avser funktioner som har släppts till den nya kommentarsfunktionen.
 >
->Betaprogrammet för de nya kommentarerna inleddes i april 2023 och avslutades i oktober 2023.
+>Betaprogrammet för de nya kommentarerna inleddes i april 2023 och avslutades i oktober 2023. Betaprogrammet för den nya kommentarsupplevelsen avslutades i oktober 2023-versionen.
 >
->Funktionerna som släpptes under betaperioden har gjorts tillgängliga för alla kunder från och med den fjärde kvartsutgåvan av 2023 (oktober 2023) och betaprogrammet har stängts.
+>Funktionerna som beskrivs i den här artikeln lanserades för alla kunder i oktober 2023, om inget annat anges.
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -394,13 +399,13 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1 kv 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -409,13 +414,13 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1 kv 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -508,15 +513,15 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 
 * Både den nya och gamla kommentarsfunktionen för följande objekt:
 
-      * Projekt
-      * Uppgift (här ingår artiklar)
-      * Problem
-      * Dokument
-      
-      >[!TIP]
-      >
-      >Använd alternativet Ny kommentering om du vill visa den nya kommentarsfunktionen (när du aktiverar den) eller den äldre kommentarsfunktionen (när du inaktiverar den), som beskrivs i det här avsnittet. Den nya kommentarsfunktionen är standard.
-  
+   * Projekt
+   * Uppgift (här ingår artiklar)
+   * Problem
+   * Dokument
+
+  >[!TIP]
+  >
+  >Använd alternativet Ny kommentering för att visa den nya kommentarsfunktionen (när du aktiverar den) eller den äldre kommentarsfunktionen (när du inaktiverar den), som beskrivs i det här avsnittet. Den nya kommentarsfunktionen är standard.
+
    * Bara den nya kommentarsfunktionen för objekten som listas nedan. Det finns inget alternativ för att aktivera den gamla kommentarfunktionen för dessa objekt:
 
       * Mål
