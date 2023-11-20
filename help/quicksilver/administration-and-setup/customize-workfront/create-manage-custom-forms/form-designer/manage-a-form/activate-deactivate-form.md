@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # Inaktivera eller återaktivera ett anpassat formulär
 
 Du kan återaktivera eller inaktivera ett anpassat formulär. Vi rekommenderar att du inaktiverar anpassade formulär i stället för att ta bort formulär som du inte längre använder för att bevara historiska data.
+
+>[!NOTE]
+>
+>Om ett anpassat formulär inaktiveras men fortfarande ingår i ett köämne eller en definition av en frågekö, bifogas det till nya begäranden. Om du inte vill att formuläret ska vara på begäran måste du ta bort det manuellt från kön.
 
 ## Åtkomstkrav
 
