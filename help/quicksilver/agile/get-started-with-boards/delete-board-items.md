@@ -6,9 +6,9 @@ description: När du tar bort ett kort från en anslagstavla tas det bort perman
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 
    >[!NOTE]
    >
-   >The [!UICONTROL Archived Cards] -avsnittet är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort.
+   >The [!UICONTROL Archived Cards] -avsnittet är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort. Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Välj **[!UICONTROL Archived cards]** igen för att ta bort alternativet och endast visa aktiva kort.

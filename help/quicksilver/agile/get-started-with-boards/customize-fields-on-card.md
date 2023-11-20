@@ -6,9 +6,9 @@ description: Du kan anpassa vilka fält som ska visas på ett kort genom att ina
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,19 @@ Informationen i anpassade fält kan redigeras på kortet, men vissa anpassade el
 >[!NOTE]
 >
 >Om du senare byter namn på det anpassade fältet i Workfront måste du redigera fältetiketten på konfigurationspanelen så att den matchar, annars visas inte fältet på korten.
+
+## Visa eller dölj arkiverade kort
+
+Du måste aktivera en konfigurationsinställning för att kunna visa arkiverade kort på en anslagstavla.
+
+1. Gå till en anslagstavla och klicka [!UICONTROL **Konfigurera**] för att öppna panelen Konfigurera.
+1. Expandera [!UICONTROL **Kort**].
+1. Aktivera [!UICONTROL **Visa arkiverade kort direkt**].
+
+   Nu kan du filtrera ritytan så att alla kort som har arkiverats visas. Mer information finns i [Filtrera och söka på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. Klicka [!UICONTROL **Dölj konfigurera**] för att stänga panelen Konfigurera.
+
+## Konfigurera kortutfall
+
+Information om hur du automatiskt tar bort kort från anslagstavlan efter en viss tid finns i [Konfigurera kortutfall](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

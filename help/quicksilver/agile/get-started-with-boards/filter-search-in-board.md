@@ -6,9 +6,9 @@ description: Du kan filtrera en anslagstavla så att endast vissa kort visas.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 
    >[!NOTE]
    >
-   >The [!UICONTROL Archived Cards] -avsnittet är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort.
+   >The [!UICONTROL Archived Cards] -avsnittet är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort. Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Välj **[!UICONTROL Archived cards]** igen för att ta bort alternativet och endast visa aktiva kort.
 
