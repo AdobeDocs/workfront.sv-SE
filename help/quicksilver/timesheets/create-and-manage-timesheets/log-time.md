@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3449'
+source-wordcount: '3489'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ Du kan logga tid i följande områden i Workfront:
 
 #### Logga tid på en tidrapport {#log-time-on-a-timesheet}
 
-Du kan logga allmänna timmar eller projektspecifika timmar på en tidrapport.
+Du kan logga tid på följande objekt i tidrapporten:
+
+* I förväg ifyllda uppgifter, utgåvor och projekt som visas automatiskt, baserat på hur Workfront-administratören anger tidrapportinställningarna. Information om hur tidrapporter fylls i i förväg finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  Endast de uppgifter och utgåvor som du har tilldelats är ifyllda i tidrapporten. Uppgifter och ärenden som tilldelats dina team eller jobbroller fyller inte i din tidrapport automatiskt.
+
+  Om du klickar på Arbeta på ett objekt som har tilldelats dina team tilldelas objektet till dig och objektet visas i tidrapporten.
+* Uppgifter, ärenden eller projekt som du lägger till manuellt.
+* Uppgifter, ärenden eller projekt som du redan har loggat in på någon annan plats i Workfront.
+* Allmän tid (semester, utbildning, overheadtime).
 
 >[!NOTE]
 >
 >Granska användare som tilldelats en tidrapportprofil kan se området Tidrapporter och logga allmänna timmar. De kan dock inte logga timmar för uppgifter eller ärenden som tilldelats dem och som visas på tidrapporten.
 
-1. Klicka på [!UICONTROL **Huvudmeny**] icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+Så här loggar du tid på en tidrapport:
+
+1. Klicka på [!UICONTROL **Huvudmeny**] icon ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** icon ![](assets/lines-main-menu.png) i det övre vänstra hörnet av Workfront, om tillgängligt.
 
 1. Klicka [!UICONTROL **Tidrapporter**]. Din aktuella tidrapport visas som standard.
    ![Tidrapport](assets/timesheet-redesigned-nwe.png)
-
-   Tidrapporten är förifylld med objekt som du har tilldelats under tidrapportens tidsram. Mer information om hur tidrapporter fylls i i förväg finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). Om du inte ser något objekt på tidrapporten kan du lägga till det.
-
-   >[!NOTE]
-   >
-   >Tidrapporten fyller bara i förväg med objekt som du har tilldelats. Den förifylls inte med objekt som tilldelats dina team eller jobbroller.
-   >
-   >Om du klickar på Arbeta på ett objekt som har tilldelats dina team tilldelas objektet till dig och objektet visas i tidrapporten.
 
 
 1. (Valfritt) Klicka på **helskärm** icon ![](assets/full-screen.png) om du vill visa tidrapporten i helskärmsläge klickar du på **exit-full-screen** ![](assets/exit-full-screen.png) -ikonen för att återgå till tidrapporten.
