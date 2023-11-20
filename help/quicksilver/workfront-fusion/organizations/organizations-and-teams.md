@@ -8,9 +8,9 @@ description: Adobe Workfront Fusions funktioner för organisation och team gör 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ En användare har en av följande roller i en organisation:
 * **[!UICONTROL Accountant]**: En revisorsroll tillåter bara användare att se licensinformation på kontrollpanelen för organisationen.
 * **[!UICONTROL App Developer]**: Funktioner för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
 
+Information om specifika åtgärder som är tillgängliga för användare i varje organisationsroll finns i [Organisations- och teamroller](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Bjuda in användare till en organisation
 
 Som standard kan en organisationsägare (eller behörig användare) bjuda in en annan person att gå med i organisationen.
@@ -145,7 +147,7 @@ En användare har en av följande roller i varje team:
 * **[!UICONTROL Team Operator]**: [!UICONTROL operator] Med roll kan användare se körningsdata och ändra statusen &quot;Aktiv&quot; för scenarier.
 * **[!UICONTROL Team Restricted Member]**: Funktioner för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
 
-Mer information om specifika uppgifter som är tillgängliga för teamroller finns i[Organisations- och teamroller](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Information om specifika åtgärder som är tillgängliga för användare i varje teamroll finns i [Organisations- och teamroller](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Teamhantering
 
