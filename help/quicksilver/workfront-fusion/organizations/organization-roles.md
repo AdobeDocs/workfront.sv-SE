@@ -8,9 +8,9 @@ description: Den här artikeln innehåller information om åtkomst och behörigh
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,6 @@ I den här artikeln beskrivs vilka funktioner som är tillgängliga för de olik
 >Organisationsroller är åtskilda från teamroller i [!DNL Workfront Fusion]. Mer information om organisation och teamroller finns i [Organisationer och team](../organizations/organizations-and-teams.md).
 
 ## Åtkomstkrav
-
-Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
-
-&lt;## Åtkomstkrav
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
@@ -106,7 +102,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ta bort organisationer</p> </td> 
+   <td> <p>Ta bort organisation</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
    <td> </td> 
    <td> </td> 
@@ -122,7 +118,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
   <tr> 
    <td> <p>Hantera organisationsanvändare</p> </td> 
    <td><span style="font-family: 'Wingdings'">ä</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ä</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
