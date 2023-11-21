@@ -1,20 +1,31 @@
 ---
-title: Ta bort poster
-description: Du kan ta bort poster som du eller någon annan användare har skapat. Du kan inte återställa borttagna poster.
+title: Ta bort fält
+description: I Adobe Maestro kan du ta bort anpassade fält som inte längre är relevanta.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Ta bort poster
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# Ta bort fält
 
 >[!IMPORTANT]
 >
@@ -26,7 +37,22 @@ ht-degree: 0%
 >
 >Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
 
-Du kan ta bort poster som inte längre är relevanta i Adobe Maestro.
+I Adobe Maestro kan du skapa anpassade fält för att lagra information om poster.
+
+Mer information om hur du skapar anpassade fält i Maestro finns i [Skapa fält](../fields/create-fields.md).
+
+Du kan ta bort fält i Maestro som inte längre är relevanta.
+
+## Att tänka på när du tar bort Maestro-fält:
+
+* Du kan ta bort fält som du har skapat eller fält som har skapats av andra användare eller av systemet. <!--this will change with access levels/ permissions-->
+* Du kan inte ta bort namnfältet för en post. <!--change this to say you can't delete the field selected to be the primary-->
+* Du kan bara ta bort ett fält i posttyptabellen.
+* All information som lagras i fältet tas bort och kan inte återställas.
+* När du tar bort ett länkat postfält tas även alla länkade sökfält bort från den posttyp du länkar från. De länkade postfälten för de posttyper som du länkar till tas inte bort.
+
+  Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Åtkomstkrav
 
@@ -70,7 +96,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
  </tbody>
 </table>
-
 
 <!--
 After permssions - replace the table with: 
@@ -118,7 +143,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -126,6 +151,7 @@ After permssions - replace the table with:
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,58 +164,23 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Att tänka på när du tar bort poster
+## Ta bort fält
 
-* Du kan ta bort poster som du eller någon annan användare har skapat.
-* Du kan inte återställa borttagna poster. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Om de borttagna posterna är länkade till andra poster tas de länkade posterna inte bort, men informationen från den borttagna posten tas också bort.
-* Du kan inte ta bort flera poster samtidigt. <!--this will probably change-->
-* Du kan inte ta bort poster från tidslinjevyn.
-* Du kan inte ta bort en posttyp som är länkad från ett annat program. Om du t.ex. länkar en Maestro-post till ett Workfront-objekt kan du inte ta bort Workfront-objektet från Workfront objektpostsida.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-## Ta bort poster
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
 
-Du kan ta bort en post från följande områden:
+   Då öppnas den senast använda arbetsytan i Maestro.
+1. Klicka på kortet för en posttyp vars fält du vill ta bort.
+1. (Villkorligt) Välj en **Tabellvy** från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
+1. Leta reda på fältet som du vill ta bort i kolumnrubrikerna, håll markören över kolumnrubriken och klicka sedan på nedåtpilen efter fältnamnet.
 
-* [Från detaljsidan för en post](#delete-a-record-from-the-records-details-page)
-* [Från tabellvyn för en posttyp](#delete-a-record-from-the-record-type-table-view)
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-### Ta bort en post från postens informationssida
+1. Klicka **Ta bort**. <!-- check this: they might replace it with **Delete field**-->
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på Makestro.
+   <!--insert screen shot when finalized-->
 
-   Arbetsytan som du öppnar senast öppnas.
-1. Klicka på en posttyp.
+1. Klicka **Ta bort** för att bekräfta.
 
-   Posttypssidan öppnas.
-1. Gör något av följande:
-
-   * Klicka på en posts namn i en tabellvy.
-   * Håll markören över namnet på en post i tabellvyn och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * Klicka på ett postfält i en tidslinjevy.
-
-   Posten **Information** sidan öppnas.
-
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort** sedan **Ta bort** igen för att bekräfta.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-Posten tas bort och kan inte återställas.
-
-### Ta bort en post från posttyptabellvyn
-
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro**.
-
-   Arbetsytan som du senast öppnade öppnas.
-1. Klicka på en posttyp.
-
-   Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
-
-   Posterna som är associerade med den valda posttypen visas i tabellvyn.
-1. Högerklicka på en postrad och klicka sedan på **Ta bort**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   Posten tas bort och kan inte återställas.
+   Fältet tas bort, kan inte återställas och kan inte längre kopplas till några poster.

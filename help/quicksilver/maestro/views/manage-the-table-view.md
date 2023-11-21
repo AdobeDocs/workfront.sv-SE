@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
 >
@@ -125,7 +125,7 @@ Att lägga till kolumner i en vy är detsamma som att lägga till fält i en pos
 Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 1. Gå till en posttypssida och välj en **Tabell** i listrutan.
-1. Börja lägga till fält (eller kolumner) enligt beskrivningen i artikeln [Skapa fält](../architecture-and-fields/create-fields.md).
+1. Börja lägga till fält (eller kolumner) enligt beskrivningen i artikeln [Skapa fält](../fields/create-fields.md).
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på sidan Detaljer för posterna av den valda posttypen.
 
@@ -238,7 +238,7 @@ Så här lägger du till ett filter i en tabellvy:
 
      >[!TIP]
      >
-     > Du kan inte markera länkade fält. Mer information finns i [Skapa fält](../architecture-and-fields/create-fields.md).
+     > Du kan inte markera länkade fält. Mer information finns i [Skapa fält](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Sortera <!--ungrouped (add this when sorting for groupings will be available--> 
 
    >[!TIP]
    >
-   > Du kan inte markera länkade fält. Mer information finns i [Skapa fält](../architecture-and-fields/create-fields.md).
+   > Du kan inte markera länkade fält. Mer information finns i [Skapa fält](../fields/create-fields.md).
 
 1. (Valfritt) I dialogrutan **Sortera poster efter** klickar du på **x** till höger om ett sorteringsfält för att ta bort sorteringen
 

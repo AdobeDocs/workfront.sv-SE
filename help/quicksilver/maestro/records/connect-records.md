@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
 >
@@ -42,9 +42,9 @@ Du kan ansluta Adobe Maestro-poster till varandra eller till objekt från andra 
 
 Du måste först koppla ihop två posttyper eller en posttyp till en objekttyp från ett annat program, och sedan kan du använda posttypens tabellvy för att koppla poster till varandra eller poster till andra objekt.
 
-Mer information om hur du ansluter posttyper till varandra eller till objekttyper från andra program finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
+Mer information om hur du ansluter posttyper till varandra eller till objekttyper från andra program finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
-Ett exempel på hur du ansluter posttyper finns i [Exempel på att ansluta posttyper och poster](../architecture-and-fields/example-connect-record-types-and-records.md).
+Ett exempel på hur du ansluter posttyper finns i [Exempel på att ansluta posttyper och poster](../architecture/example-connect-record-types-and-records.md).
 
 Du kan ansluta följande:
 
@@ -113,6 +113,61 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Workfront-objekt. Du måste till exempel först skapa projekt, portföljer, program, företag eller grupper i Workfront.
    * Makroarbetsytor, posttyper och poster. Mer information finns i följande artiklar:
 
-      * [Skapa arbetsytor](../architecture-and-fields/create-workspaces.md)
-      * [Skapa posttyper](../architecture-and-fields/create-record-types.md)
+      * [Skapa arbetsytor](../architecture/create-workspaces.md)
+      * [Skapa posttyper](../architecture/create-record-types.md)
       * [Skapa poster](../records/create-records.md)
 
-   * Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
+   * Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md)
 
 ### Connect Maestro-poster
 
@@ -158,7 +213,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill koppla poster från.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Välj en **Tabell** visa från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
-1. Lägg till en anslutning till en annan post eller objekttyp från den valda posttypen. Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
+1. Lägg till en anslutning till en annan post eller objekttyp från den valda posttypen. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
    En ny kolumn läggs till i tabellen för att visa den länkade posttypen.
 
@@ -216,7 +271,7 @@ När du har skapat en anslutning mellan en Maestro-posttyp och en Workfront-obje
    * Företag
    * Grupp
 
-   Mer information finns i [Koppla posttyper](../architecture-and-fields/connect-record-types.md).
+   Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
    En ny kolumn läggs till i tabellen för att visa den länkade objekttypen.
 

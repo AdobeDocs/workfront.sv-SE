@@ -1,20 +1,32 @@
 ---
-title: Ta bort poster
-description: Du kan ta bort poster som du eller någon annan användare har skapat. Du kan inte återställa borttagna poster.
+title: Redigera posttyper
+description: Du kan redigera posttyper när de har sparats. Posttyperna är objekttyperna för Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+role: User
+feature: Work Management 
+topic: Architecture
+hidefromtoc: yes
+hide: yes
+---
 
-# Ta bort poster
+-->
+
+# Redigera posttyper
 
 >[!IMPORTANT]
 >
@@ -26,7 +38,7 @@ ht-degree: 0%
 >
 >Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
 
-Du kan ta bort poster som inte längre är relevanta i Adobe Maestro.
+Posttyperna är objekttyperna för Adobe Maestro. Du kan redigera utseendet på posttyper som du eller någon annan har skapat. Mer information om hur du skapar posttyper i Maestro finns i [Skapa posttyper](../architecture/create-record-types.md).
 
 ## Åtkomstkrav
 
@@ -118,7 +130,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -138,58 +150,34 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Att tänka på när du tar bort poster
+## Redigera posttyper
 
-* Du kan ta bort poster som du eller någon annan användare har skapat.
-* Du kan inte återställa borttagna poster. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Om de borttagna posterna är länkade till andra poster tas de länkade posterna inte bort, men informationen från den borttagna posten tas också bort.
-* Du kan inte ta bort flera poster samtidigt. <!--this will probably change-->
-* Du kan inte ta bort poster från tidslinjevyn.
-* Du kan inte ta bort en posttyp som är länkad från ett annat program. Om du t.ex. länkar en Maestro-post till ett Workfront-objekt kan du inte ta bort Workfront-objektet från Workfront objektpostsida.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
 
-## Ta bort poster
+   Den senast använda arbetsytan bör öppnas som standard.
 
-Du kan ta bort en post från följande områden:
+1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill skapa posttyper för.
+1. Håll muspekaren över ett kort av en posttyp och klicka på knappen **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Uppdatera utseende**.
 
-* [Från detaljsidan för en post](#delete-a-record-from-the-records-details-page)
-* [Från tabellvyn för en posttyp](#delete-a-record-from-the-record-type-table-view)
+   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
 
-### Ta bort en post från postens informationssida
+1. Uppdatera följande information i rutan Uppdatera posttyp:
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på Makestro.
+   * **Postnamn**: Redigera posttypens namn om det behövs. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Utseende**: Redigera färg och form för ikonen som är associerad med posttypen. Gör följande:
+      * Välj en färg som identifierar posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
+      * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
 
-   Arbetsytan som du öppnar senast öppnas.
-1. Klicka på en posttyp.
+     ![](assets/update-record-type-box.png)
 
-   Posttypssidan öppnas.
-1. Gör något av följande:
+1. Klicka utanför rutan Uppdatera posttyp för att spara ändringarna.
+1. (Valfritt) Klicka på posttypskortet i arbetsytan för att öppna posttypens sida.
+1. Klicka på **Mer** till höger om posttypens namn och klicka sedan på **Byt namn** för att byta namn på posttypen
 
-   * Klicka på en posts namn i en tabellvy.
-   * Håll markören över namnet på en post i tabellvyn och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
+   eller
 
-     ![](assets/contextual-menu-for-record-row.png)
-   * Klicka på ett postfält i en tidslinjevy.
+   Byt namn på posttypen i rubriken.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
-   Posten **Information** sidan öppnas.
+   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort** sedan **Ta bort** igen för att bekräfta.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-Posten tas bort och kan inte återställas.
-
-### Ta bort en post från posttyptabellvyn
-
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro**.
-
-   Arbetsytan som du senast öppnade öppnas.
-1. Klicka på en posttyp.
-
-   Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
-
-   Posterna som är associerade med den valda posttypen visas i tabellvyn.
-1. Högerklicka på en postrad och klicka sedan på **Ta bort**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   Posten tas bort och kan inte återställas.
+   Du kan också byta namn på en posttyp i huvudet på posttypens sida.

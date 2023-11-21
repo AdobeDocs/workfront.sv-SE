@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
 >
@@ -153,8 +153,8 @@ I följande tabell visas likheter och skillnader mellan tabell- och tidslinjevye
 ## Skapa eller redigera vyer {#create-or-edit-views}
 
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** icon ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
-Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture-and-fields/create-workspaces.md).
-1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture-and-fields/create-record-types.md).
+Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture/create-record-types.md).
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
@@ -189,10 +189,10 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
 1. Från **Huvudmeny** ![](assets/main-menu-workfront.png) i skärmens övre högra hörn <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner of the screen, if available,--> klicka **Maestro** ![](assets/maestro-icon.png).
 
-   Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture-and-fields/create-workspaces.md).
+   Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 1. Klicka på ett posttypskort.
 
-   Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture-and-fields/create-record-types.md).
+   Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture/create-record-types.md).
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
@@ -208,8 +208,8 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
 
 1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the type selected display in the table view. 
 

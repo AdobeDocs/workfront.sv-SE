@@ -1,20 +1,31 @@
 ---
-title: Ta bort poster
-description: Du kan ta bort poster som du eller någon annan användare har skapat. Du kan inte återställa borttagna poster.
+title: Ta bort posttyper
+description: Du kan ta bort driftsposttyper eller taxonomiposttyper när de inte längre är relevanta.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# Ta bort poster
+# Ta bort posttyper
 
 >[!IMPORTANT]
 >
@@ -26,7 +37,13 @@ ht-degree: 0%
 >
 >Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
 
-Du kan ta bort poster som inte längre är relevanta i Adobe Maestro.
+Du kan ta bort driftsposttyper eller taxonomiposttyper när de inte längre är relevanta.
+
+Mer information om posttyper och taxonomier finns i [Översikt över posttyper och taxonomier](../architecture/overview-of-record-types-and-taxonomies.md).
+
+Vi rekommenderar att du återskapar de fält och de poster som är kopplade till den posttyp eller taxonomi som du vill ta bort på en annan posttyp innan du tar bort dem.
+
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Åtkomstkrav
 
@@ -70,7 +87,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
  </tbody>
 </table>
-
 
 <!--
 After permssions - replace the table with: 
@@ -118,14 +134,16 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,58 +156,29 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Att tänka på när du tar bort poster
+## Att tänka på när du tar bort posttyper
 
-* Du kan ta bort poster som du eller någon annan användare har skapat.
-* Du kan inte återställa borttagna poster. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Om de borttagna posterna är länkade till andra poster tas de länkade posterna inte bort, men informationen från den borttagna posten tas också bort.
-* Du kan inte ta bort flera poster samtidigt. <!--this will probably change-->
-* Du kan inte ta bort poster från tidslinjevyn.
-* Du kan inte ta bort en posttyp som är länkad från ett annat program. Om du t.ex. länkar en Maestro-post till ett Workfront-objekt kan du inte ta bort Workfront-objektet från Workfront objektpostsida.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-## Ta bort poster
+* Du kan ta bort alla posttyper och taxonomi som du eller någon i organisationen har skapat. <!--this will change with access levels and permissions-->
+* När du tar bort posttyper tas all information som är kopplad till dem bort, inklusive fält och poster av den typen.
+* Du kan inte återställa borttagna posttyper eller deras information.
 
-Du kan ta bort en post från följande områden:
+## Ta bort posttyper
 
-* [Från detaljsidan för en post](#delete-a-record-from-the-records-details-page)
-* [Från tabellvyn för en posttyp](#delete-a-record-from-the-record-type-table-view)
+Att ta bort taxonomiposttyper är identiskt med att ta bort driftsposttyper.
 
-### Ta bort en post från postens informationssida
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på Makestro.
+   Den senast använda arbetsytan bör öppnas som standard.
 
-   Arbetsytan som du öppnar senast öppnas.
-1. Klicka på en posttyp.
+1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill ta bort posttyper för.
 
-   Posttypssidan öppnas.
-1. Gör något av följande:
+   Arbetsytan öppnas och posttyperna och taxonomierna som är kopplade till den visas.
+1. Klicka på kortet för den posttyp eller taxonomi som du vill ta bort.
 
-   * Klicka på en posts namn i en tabellvy.
-   * Håll markören över namnet på en post i tabellvyn och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
+   Då öppnas posttypens sida.
+1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Ta bort**.
+1. Klicka **Ta bort** för att bekräfta.
 
-     ![](assets/contextual-menu-for-record-row.png)
-   * Klicka på ett postfält i en tidslinjevy.
-
-   Posten **Information** sidan öppnas.
-
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort** sedan **Ta bort** igen för att bekräfta.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-Posten tas bort och kan inte återställas.
-
-### Ta bort en post från posttyptabellvyn
-
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro**.
-
-   Arbetsytan som du senast öppnade öppnas.
-1. Klicka på en posttyp.
-
-   Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
-
-   Posterna som är associerade med den valda posttypen visas i tabellvyn.
-1. Högerklicka på en postrad och klicka sedan på **Ta bort**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   Posten tas bort och kan inte återställas.
+   Den valda posttypen eller taxonomin, tillsammans med fälten och tillhörande poster, tas bort.

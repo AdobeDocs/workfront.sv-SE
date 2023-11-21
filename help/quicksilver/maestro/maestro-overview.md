@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe.
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder.
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
 >[Se en videodemonstration av Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Mer information finns i [Skapa arbetsytor](../maestro/architecture-and-fields/create-workspaces.md).
+  Mer information finns i [Skapa arbetsytor](../maestro/architecture/create-workspaces.md).
 
 * **Posttyp**: Huvudobjekttypen för Maestro.
 
@@ -140,7 +140,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
   I Maestro kan du skapa alla posttyper som passar din organisations arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
 
-  Mer information finns i [Översikt över driftsposttyper och taxonomier](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  Mer information finns i [Översikt över driftsposttyper och taxonomier](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro har följande posttyper:
 
@@ -150,7 +150,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
      Exempel: Campaign, Activity, Program kan vara driftsposttyper.
 
-     Mer information finns i [Skapa posttyper](../maestro/architecture-and-fields/create-record-types.md).
+     Mer information finns i [Skapa posttyper](../maestro/architecture/create-record-types.md).
 
    * **Taxonomi**: En posttyp som samlar in attribut om en operativ posttyp.
 
@@ -160,7 +160,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
      Till exempel kan Audience, Region eller Address vara posttyper av taxonomintyp.
 
-     Mer information finns i [Skapa taxonomiposttyper](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     Mer information finns i [Skapa taxonomiposttyper](../maestro/architecture/create-a-taxonomy.md).
 
 * **Post**: En instans av en Maestro-posttyp. En post kan referera till en driftsposttyp eller till en taxonomi.
 
@@ -183,7 +183,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
   Maestro levereras med en arbetsyta för försäljning, marknadsföring och produkthantering.
 
-  Mer information finns i [Skapa arbetsytor](../maestro/architecture-and-fields/create-workspaces.md).
+  Mer information finns i [Skapa arbetsytor](../maestro/architecture/create-workspaces.md).
 
 * **Fält**: Fält är attribut som du kan lägga till i användnings- eller taxonomiposttyper som innehåller information om posttypen. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
    * Maestro-fälten är helt anpassningsbara och är bara tillgängliga i Maestro. Du har inte åtkomst till Maestro-fält från Workfront.
 
-  Mer information finns i [Skapa fält](../maestro/architecture-and-fields/create-fields.md)
+  Mer information finns i [Skapa fält](../maestro/fields/create-fields.md)
 
   En ny operativ posttyp är som standard associerad med följande fördefinierade fält:
 
@@ -243,7 +243,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
   Mer information om hur du länkar posttyper, poster och skapar länkade fält finns i följande artiklar:
 
-   * [Koppla posttyper](../maestro/architecture-and-fields/connect-record-types.md)
+   * [Koppla posttyper](../maestro/architecture/connect-record-types.md)
    * [Koppla poster](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

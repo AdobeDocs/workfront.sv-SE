@@ -1,20 +1,20 @@
 ---
-title: Ta bort poster
-description: Du kan ta bort poster som du eller någon annan användare har skapat. Du kan inte återställa borttagna poster.
+title: Skapa taxonomiposttyper
+description: Taxonomier är en typ av återanvändbara posttyper som hämtar attribut om en operativ posttyp i Adobe Workfront Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Ta bort poster
+# Skapa taxonomiposttyper
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,11 @@ ht-degree: 0%
 >
 >Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
 
-Du kan ta bort poster som inte längre är relevanta i Adobe Maestro.
+Taxonomier är posttyper som hämtar attribut om operativa posttyper i Adobe Maestro.
+
+Campaign kan till exempel vara en operativ posttyp. Följande är taxonomier som samlar in attribut om posttypen Campaign: Region, Audience, Country.
+
+Mer information om posttyper i Maestro finns i [Översikt över posttyper och taxonomier](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Åtkomstkrav
 
@@ -34,7 +38,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> Adobe product</p> </td>
    <td>
@@ -63,6 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">Layoutmall</td>
    <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/grant-access.md">Ge åtkomst till Adobe Maestro</a>. </p>  
@@ -70,7 +77,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
  </tbody>
 </table>
-
 
 <!--
 After permssions - replace the table with: 
@@ -118,15 +124,14 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -138,58 +143,34 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Att tänka på när du tar bort poster
+## Att tänka på när du skapar taxonomier
 
-* Du kan ta bort poster som du eller någon annan användare har skapat.
-* Du kan inte återställa borttagna poster. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Om de borttagna posterna är länkade till andra poster tas de länkade posterna inte bort, men informationen från den borttagna posten tas också bort.
-* Du kan inte ta bort flera poster samtidigt. <!--this will probably change-->
-* Du kan inte ta bort poster från tidslinjevyn.
-* Du kan inte ta bort en posttyp som är länkad från ett annat program. Om du t.ex. länkar en Maestro-post till ett Workfront-objekt kan du inte ta bort Workfront-objektet från Workfront objektpostsida.
+* Du måste skapa en arbetsyta innan du kan skapa taxonomier på arbetsytan.
 
-## Ta bort poster
+  Mer information om arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+* Du kan skapa en taxonomiposttyp genom att göra något av följande:
+   * Skapa dem automatiskt när du skapar en arbetsyta med hjälp av en mall. Mer information finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+   * Skapa dem manuellt, från grunden.
+   * Skapa dem manuellt genom att klistra in information från en extern lista.
 
-Du kan ta bort en post från följande områden:
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-* [Från detaljsidan för en post](#delete-a-record-from-the-records-details-page)
-* [Från tabellvyn för en posttyp](#delete-a-record-from-the-record-type-table-view)
+* Alla nya taxonomier innehåller följande fält:
 
-### Ta bort en post från postens informationssida
+   * Namn <!--if there won't be any more fields, consider rephrasing this-->
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på Makestro.
+  Dessutom kan du lägga till anpassade fält i taxonomier. Mer information finns i [Skapa fält](../fields/create-fields.md).
 
-   Arbetsytan som du öppnar senast öppnas.
-1. Klicka på en posttyp.
+  >[!NOTE]
+  >
+  >    Taxonomier som skapas när en arbetsytemall används har ytterligare fält.
 
-   Posttypssidan öppnas.
-1. Gör något av följande:
+## Skapa en taxonomi
 
-   * Klicka på en posts namn i en tabellvy.
-   * Håll markören över namnet på en post i tabellvyn och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
+Att skapa taxonomier påminner om att skapa en operativ posttyp från grunden eller från en arbetsytemall.
 
-     ![](assets/contextual-menu-for-record-row.png)
-   * Klicka på ett postfält i en tidslinjevy.
+Mer information finns i avsnittet&quot;Skapa en posttyp från grunden&quot; i artikeln [Skapa posttyper](../architecture/create-record-types.md).
 
-   Posten **Information** sidan öppnas.
-
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort** sedan **Ta bort** igen för att bekräfta.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-Posten tas bort och kan inte återställas.
-
-### Ta bort en post från posttyptabellvyn
-
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro**.
-
-   Arbetsytan som du senast öppnade öppnas.
-1. Klicka på en posttyp.
-
-   Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
-
-   Posterna som är associerade med den valda posttypen visas i tabellvyn.
-1. Högerklicka på en postrad och klicka sedan på **Ta bort**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   Posten tas bort och kan inte återställas.
+Mer information om hur du skapar taxonomier automatiskt när du skapar en arbetsyta från en mall finns i [Skapa arbetsytor](../architecture/create-workspaces.md).

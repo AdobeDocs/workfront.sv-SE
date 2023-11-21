@@ -4,9 +4,9 @@ description: Du kan dela eller ta bort behörigheter till en Adobe Maestro-arbet
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # Översikt över delningsbehörigheter i Adobe Maestro
 
@@ -35,7 +37,7 @@ Du kan dela följande objekt i Maestro:
 
 * Arbetsytor
 
-  Delade arbetsytor delar alla posttyper, poster och fält som är kopplade till arbetsytorna.
+  När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna.
 
 ## Att tänka på när du delar objekt i Maestro
 
@@ -46,7 +48,7 @@ Du kan dela följande objekt i Maestro:
    * Användare
    * Grupper
 
-## Dela behörigheter för Maestro-objekt
+## Delningsbehörigheter för Maestro-objekt
 
 Följande tabell visar vilken behörighetsnivå du kan välja när du delar en maestro-arbetsyta:
 
@@ -54,9 +56,14 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>Behörighetsnivå</b></p></td> 
+   <td> <p><b>Åtgärder som du kan utföra</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">Visa</td> 
-   <td> <p>Du kan utföra följande åtgärder:</p> 
+   <td role="rowheader"><p>Visa</p></td> 
+   <td> 
     <ul> 
      <li>Visa arbetsytan</li> 
      <li>Visa alla posttyper på arbetsytan</li> 
@@ -65,8 +72,8 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribute</td> 
-   <td> <p>Du kan utföra följande åtgärder:</p> 
+   <td role="rowheader"><p>Contribute</p></td> 
+   <td>  
     <ul> 
      <li>Alla åtgärder som ingår i behörigheten Visa</li> 
      <li>Lägg till poster</li>
@@ -77,8 +84,8 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Hantera</td> 
-   <td> <p>Du kan utföra följande åtgärder:</p> 
+   <td role="rowheader"><p>Hantera</p></td> 
+   <td> 
     <ul> 
      <li>Alla åtgärder som ingår i behörigheterna Visa och Contribute</li> 
      <li>Redigera posttyper</li> 
@@ -90,7 +97,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-administratörer</td> 
+   <td role="rowheader"><p>Workfront-administratörer</p></td> 
    <td> <p>Det här är inte Maestro-tillstånd.</p>
    <p> Alla Workfront-administratörer kan göra följande: </p>
    <ul><li>Skapa arbetsytor</li>
@@ -101,13 +108,15 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## Dela en arbetsyta
 
-Mer information om hur du delar en maestro-arbetsyta finns i [Ge åtkomst](../access/grant-access.md).
+Mer information om hur du delar en maestro-arbetsyta finns i [Ge åtkomst till Adobe Maestro](../access/grant-access.md).
 
 ## Ta bort behörigheter till en arbetsyta
 
-Mer information om hur du delar en maestro-arbetsyta finns i [Ge åtkomst](../access/grant-access.md).
+Mer information om hur du delar en maestro-arbetsyta finns i [Ge åtkomst till Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 
