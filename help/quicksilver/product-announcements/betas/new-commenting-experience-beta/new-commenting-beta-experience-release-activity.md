@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -117,6 +117,11 @@ Förhandsgranska och producera för alla kunder: 19 oktober 2023.
 ### Vecka 11 september 2023
 
 #### Den nya kommentarsfunktionen hämtar information från och med 1 januari 2019
+
+>[!NOTE]
+>
+>Denna begränsning har tagits bort efter 28 november 2023. Mer information finns i [Första utgåvan, kvartal 2024, översikt](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
 
 Projekt, uppgifter, utgåvor och dokument visar uppdateringar som börjar den 1 januari 2019 nu. Före den här förbättringen har den nya kommentarsupplevelsen endast hämtat uppdateringar från juni 2022 för dessa objekt.
 

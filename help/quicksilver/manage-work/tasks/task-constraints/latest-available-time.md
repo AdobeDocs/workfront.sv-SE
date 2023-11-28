@@ -7,7 +7,7 @@ description: Senaste tillgängliga tid (LAT) är en typ av uppgiftsbegränsning 
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -24,12 +24,12 @@ Du kan använda LAT-begränsningen när du vill schemalägga en uppgift att bör
 
 Begränsningen skiljer sig från Så snart som möjligt eftersom den inte tvingar föregående eller efterföljande aktiviteter att schemaläggas om. Det påverkar bara schemat för den uppgift som det är associerat med och anger den till den senaste tillgängliga tiden baserat på dess förhållande till andra uppgifter.
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera aktivitetsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>To update the Task Constraint to Latest Available Time:</p>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p> </li>
@@ -52,23 +52,23 @@ Begränsningen Senaste tillgängliga tid skiljer sig från begränsningen som Sa
 * Aktiviteter i projektet har en föregående relation
 * Efterföljande aktivitet har en flexibel uppgiftsbegränsning
 
-I denna situation:
+I den här situationen:
 
 * **Senaste tillgängliga tid:** Om du använder den senaste tillgängliga tidsbegränsningen för föregående aktivitet prioriteras efterföljande efterföljande åtgärds flexibla villkor.
 
-   **Exempel:** Aktivitet A är till exempel en föregångare till Aktivitet B. Aktivitet A har den senaste tillgängliga tidsbegränsningen och aktivitet B har begränsningen As Snon As Possible. I så fall är uppgift A schemalagd så nära projektets början som möjligt.
+  **Exempel:** Aktivitet A är till exempel en föregångare till aktivitet B. Aktivitet A har den senaste tillgängliga tidsbegränsningen och aktivitet B har begränsningen Så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets början som möjligt.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **Så sent som möjligt:** I det här fallet ges företräde till föregående aktivitet om du använder begränsningen som Sena som möjligt för föregående aktivitet.
 
-   **Exempel:** Aktivitet A är till exempel en föregångare till Aktivitet B. Aktivitet A har begränsningen As Late As Possible och Aktivitet B har begränsningen As Snon As Possible. I så fall är uppgift A schemalagd så nära projektets slut som möjligt.
+  **Exempel:** Aktivitet A är till exempel en föregångare till Aktivitet B. Aktivitet A har begränsningen Så sent som möjligt och aktivitet B har begränsningen Så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets slut som möjligt.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
+<p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
 <p>The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:</p>
 <ul>
 <li> The project is scheduled From Completion </li>

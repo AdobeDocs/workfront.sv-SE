@@ -4,9 +4,10 @@ description: Du kan dela eller ta bort behörigheter till en Adobe Maestro-arbet
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -94,6 +95,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
      <li>Lägg till fält</li> 
      <li>Ta bort fält</li> 
      <li>Lägg till nya anslutningar mellan posttyper</li> 
+     <li>Dela arbetsytan med användare och grupper</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ Mer information om hur du delar en maestro-arbetsyta finns i [Ge åtkomst till A
 Mer information om hur du delar en maestro-arbetsyta finns i [Ge åtkomst till Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-
