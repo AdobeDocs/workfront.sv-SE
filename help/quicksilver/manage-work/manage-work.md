@@ -3,19 +3,27 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Hantera arbete
-description: I följande avsnitt finns artiklar om hur du hanterar arbeten i Adobe Workfront.
+description: Du kan använda Adobe Workfront för att hantera ditt arbete. Du kan börja med att avgöra vilka arbetsobjekt du använder för att definiera arbetet, beroende på hur komplext det är och vilka resurser eller vilken budget du allokerar till det. I det här avsnittet beskrivs hur du organiserar ditt arbete i större arbetsposter som projekt, portfolior eller program, och hur du kan dela upp större mängder arbete i mer hanterbara arbetsposter som uppgifter och ärenden. Du kan också använda Gantt-schemat för att definiera en tidslinje för ditt arbete eller delegera ditt arbete till andra när det inte är tillgängligt för att slutföra det.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 3%
+source-wordcount: '218'
+ht-degree: 0%
 
 ---
 
-# Hantera arbete
+# Hantera arbetsinformation
+
+Du kan använda Adobe Workfront för att hantera ditt arbete.
+
+Du kan börja med att avgöra vilka arbetsobjekt du använder för att definiera arbetet, beroende på hur komplext det är och vilka resurser eller vilken budget du allokerar till det.
+
+I det här avsnittet beskrivs hur du organiserar ditt arbete i större arbetsposter som projekt, portfolior eller program, och hur du kan dela upp större mängder arbete i mer hanterbara arbetsposter som uppgifter och ärenden.
+
+Du kan också använda Gantt-schemat för att definiera en tidslinje för ditt arbete eller delegera ditt arbete till andra när det inte är tillgängligt för att slutföra det.
 
 Det här avsnittet innehåller följande underavsnitt:
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ Du kan redigera en post i följande områden:
 
 ### Redigera en post från posttyptabellvyn
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> klicka sedan på **Maestro** ![](assets/maestro-icon.png).
+1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
 
    Arbetsytan som du senast öppnade öppnas.
 
@@ -201,10 +201,38 @@ Du kan redigera en post i följande områden:
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
+1. (Villkorligt) Från **Visa** i den nedrullningsbara menyn i tabellens övre högra hörn väljer du en **Tabell** vy. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
 
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
 1. Klicka inuti en post för att börja redigera information om den infogade posten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Tryck **Retur** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. En sparad indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
+
+   >[!NOTE]
+   >
+   >  Du kan inte redigera information för följande fält eftersom de är skrivskyddade och Workfront uppdaterar dem automatiskt:
+   >  
+   >  * Länkade fält som skapats genom länkning av posttyper
+   >  * Fält av följande typer: Skapad av, Skapad, Senast ändrad av, Senast ändrad
+
+
+1. (Valfritt) Kopiera ett befintligt värde för ett fält, klistra in i ett fält av samma typ på en annan post och klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
+
+   >[!NOTE]
+   >
+   >Tänk på följande:
+   >
+   >* Du kan inte kopiera information från en annan källa, förutom ett Maestro-fält av samma typ som det fält som du klistrar in informationen i.
+   >
+   >* Du kan inte kopiera och klistra in fältvärden för fält som visas i området Detaljer för en post.
+   >* Du kan inte kopiera och klistra in fältvärden för följande fälttyper:
+   ><ul>
+   >
+   > * Folk
+   >
+   > * Systemfält
+   >
+   > * Länkade fält som har skapats som ett resultat av att poster kopplas
+
+   <!--take People out of the list above when they release this - this might be coming later-->
