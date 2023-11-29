@@ -3,13 +3,13 @@ title: Första utgåvan, kvartal 2024, översikt
 description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # Första utgåvan, kvartal 2024, översikt
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### Hemförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Snabbåtgärdsknapparna för Mitt arbete har ändrats så att de bara visas när du för musen över</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att förbättra prestandan visas nu snabbåtgärdsknapparna i widgeten Mitt arbete endast när du håller muspekaren över en arbetsuppgift.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 29 november 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion för alla kunder: 29 november 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Integration enhancements
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Den nya kommentarsfunktionen hämtar in all information för projekt, uppgifter, ärenden och dokument</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Projekt, uppgifter, ärenden och dokument visar alla uppdateringar i det nya området för kommenteringsupplevelser sedan början av din Workfront-instans.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 28 november 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för alla kunder: 28 november 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Sök efter en kommentar eller användare i uppdateringsavsnittet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Om du snabbt vill hitta information i uppdateringsavsnittet för ett objekt kan du nu söka efter ett nyckelord från en kommentar eller efter en användare som är associerad med en kommentar.</p>

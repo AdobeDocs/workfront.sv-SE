@@ -3,7 +3,8 @@ title: Förbättringar av dokumenthanteringen i det första kvartalet 2024
 description: Förbättringar av dokumenthanteringen i det första kvartalet 2024
 author: Lisa
 feature: Product Announcements
-source-git-commit: 5c5052798b485a94ee820899ebd5babeded99494
+exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av dokumenthanteringen som gjorts i den första utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den första utgåvan av kvartal 2024.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Dokumentets gransknings- och godkännandestatus visas i dokumentrubriken
 
