@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ För att du enkelt ska kunna testa de nya funktionerna i alfaversionen har vi sk
 
 Om du vill testa funktionen loggar du in på Workfront Preview eller Sandbox och utför följande steg:
 
+>[!NOTE]
+>
+><span class="preview">Markerad text</span> Nedan beskrivs funktioner som ännu inte har implementerats för testning, men som kommer att ingå i en senare version.
+>
+
 1. **Koordinatorer:** Skapa ett projekt i Workfront med `Frame.io alpha testing` grupp tilldelad som projektgrupp.
 
-1. **Koordinatorer:** I Workfront tilldelar du dina användare till projekt- eller bildruteaktiverade uppgifter och ändrar projektstatus till Aktuell.
+1. **Koordinatorer:** Inom Workfront kan du tilldela dina kreatörer till projektet <span class="preview">eller Aktiverade bildruteuppgifter</span> och ändra projektstatus till Aktuell.
 
 1. **Kreatörer:** Kontrollera dina e-postmeddelanden om det finns en inbjudan till det nyligen skapade Frame.io-projektet
 
 1. **Kreatörer:** Klicka på knappen&quot;Gå med i projekt&quot; i e-postmeddelandet med en inbjudan om att gå med i Frame.io-projektet, granska det kreativa utkastet i projektet och börja skapa ditt innehåll i valfritt verktyg på Creative Cloud.
 
-1. **Kreatörer:** Överför dina skapade resurser till Frame.io och lägg till dem i det länkade Workfront-projektet (eller tilldelade Frame-aktiverade uppgifter).
+1. **Kreatörer:** Överför dina skapade resurser till Frame.io och lägg till dem i det länkade Workfront-projektet <span class="preview">(eller tilldelade bildruteaktiverade uppgifter).</span>
 
 1. **Koordinatorer:** I Workfront hittar du de länkade Frame.io-resurserna i ditt projekt och tilldelar granskare/godkännare (mer information om hur du tilldelar granskningar/godkännare finns i [Lägga till ytterligare godkännare eller granskare i ett dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
 1. **Intressenter:** I Workfront kan du visa din godkännandebegäran i Hem- eller Dokumentinformation och granska dokumentet Frame.io Viewer. Lämna sedan en kommentar med feedback.
 
-1. **Koordinatorer:** I Workfront kan du visa de kommentarer som har skapats av berörda parter i uppdateringsavsnittet i det dokument som är kopplat till Frame.io.
+1. <span class="preview">**Koordinatorer:** I Workfront kan du visa de kommentarer som har skapats av berörda parter i uppdateringsavsnittet i det dokument som är kopplat till Frame.io.</span>
 
-1. **Intressenter:** Fatta ett beslut inifrån Frame.io Viewer.
+1. <span class="preview">**Intressenter:** Fatta ett beslut inifrån Frame.io Viewer.</span>
 
-1. **Kreatörer:** I Frame.io ser du det övergripande godkännandebeslutet för dina tillgångar.
+1. <span class="preview">**Kreatörer:** I Frame.io ser du det övergripande godkännandebeslutet för dina tillgångar.</span>
 
 1. **Kreatörer:** I Frame.io tillämpar du de begärda ändringarna genom att lägga till den uppdaterade versionen i den anslutna resursens versionsstack.
 
