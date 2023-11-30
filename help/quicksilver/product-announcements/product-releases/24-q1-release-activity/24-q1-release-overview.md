@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typsnittsfält är nu tillgängliga i Adobe Experience Manager Integration</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att göra det enklare att länka fält mellan Workfront och Adobe Experience Manager har vi lagt till stöd för typsnittsfält i metadatamappningen. Nu kan du mappa typsnittsfält till motsvarande fält i Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typsnittsfält är nu tillgängliga i Adobe Experience Manager Integration</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra det enklare att länka fält mellan Workfront och Adobe Experience Manager har vi lagt till stöd för typsnittsfält i metadatamappningen. Nu kan du mappa typsnittsfält till motsvarande fält i Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -159,7 +159,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Förhandsversion: 16 november 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion för alla kunder: 7 december 2023</span></p>
+                                <p><span class="preview">Produktion för alla kunder: 29 november 2023</span></p>
                             </li>
                         </ul>
                     </td>
