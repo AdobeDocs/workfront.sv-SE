@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 7a700709e76105de9a0ad9505ed2db485066af2d
+source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
 workflow-type: tm+mt
-source-wordcount: '13430'
+source-wordcount: '13442'
 ht-degree: 0%
 
 ---
@@ -140,6 +140,7 @@ ht-degree: 0%
          * [21.1 Mobilförbättringar](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Andra förbättringar](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Versionsaktivitet för Adobe Workfront Fusion {#fusion-release}
+         * [Versionsaktivitet för Workfront Fusion: 27 november 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
          * [Versionsaktivitet för Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
          * [Versionsaktivitet för Workfront Fusion: 13 november 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
          * [Versionsaktivitet för Workfront Fusion: 30 oktober 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
@@ -2150,6 +2151,7 @@ ht-degree: 0%
       * [Adobe Creative Cloud Libraries-moduler](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic moduler](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets-moduler](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Modulen Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizer moduler](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe PDF Services-moduler](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Luftburna moduler](workfront-fusion/apps-and-their-modules/airtable-modules.md)
