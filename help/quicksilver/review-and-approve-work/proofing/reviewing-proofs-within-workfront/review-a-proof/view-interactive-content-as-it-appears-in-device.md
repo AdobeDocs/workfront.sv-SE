@@ -6,9 +6,9 @@ description: Du kan förhandsgranska hur ett interaktivt korrektur ser ut på ol
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Enhets- och upplösningsvyer i Desktop Proofing Viewer jämfört med Web Proofing Viewer
 
@@ -54,9 +54,9 @@ Din Adobe Workfront-administratör har konfigurerat ditt system så att du kan g
 
 * I Web Proofing Viewer kan du visa interaktivt innehåll så som det visas i upplösningar för de olika enheterna. Men Web Proofing Viewer emulerar inte innehållet med gränssnittsspecifikationer på dessa enheter, till exempel knappfärg.
 
-   >[!NOTE]
-   >
-   >Din Workfront-administratör kan konfigurera anpassade enheter för användare i din organisation enligt beskrivningen i Konfigurera anpassade enheter för interaktiva korrektur i artikeln.
+  >[!NOTE]
+  >
+  >Din Workfront-administratör kan konfigurera anpassade enheter för användare i din organisation enligt beskrivningen i [Konfigurera anpassade enheter för korrektur](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) i artikeln [Konfigurera korrekturinställningar för din organisation](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Visa ett korrektur med en förinställd enhet eller upplösningsinställning
 
@@ -94,6 +94,6 @@ Din Adobe Workfront-administratör har konfigurerat ditt system så att du kan g
    Den anpassade upplösningen visas på följande platser:
 
    * I **Upplösning** längst ned i mitten av visningsprogrammet.\
-      ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
+     ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
    * I kommentarer lägger granskarna till korrekturet. Varje kommentar innehåller den skärmupplösning som valdes när granskaren skapade kommentaren.
