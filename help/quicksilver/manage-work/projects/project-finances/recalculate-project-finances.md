@@ -6,9 +6,9 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Ekonomer beräknas i Förbättrad analys på följande sätt:
 
 När hastigheten för en användare eller roll ändras under ett projekts livslängd kan följande inträffa:
 
-* När ändringen görs används den uppdaterade tariffen från den tidpunkten när timmar loggas och den ekonomiska informationen beräknas. Om du ändrar hastigheten påverkas inte hur saker och ting beräknades innan ändringen gjordes. För alla befintliga loggade timmar används den gamla kursen för att beräkna ekonomisk information.
+* När ändringen görs används den uppdaterade tariffen från och med den tidpunkten när timmar loggas och den ekonomiska informationen beräknas. Om du ändrar hastigheten påverkas inte hur saker och ting beräknades innan ändringen gjordes. För alla befintliga loggade timmar används den gamla kursen för att beräkna ekonomisk information.
 * Du kan tvinga Adobe Workfront att använda den nya avgiften retroaktivt för alla timmar som har loggats hittills genom att använda alternativet Beräkna om finansiering. Detta tvingar Workfront att retroaktivt beräkna alla tidigare angivna timmar, planerade kostnader och intäkter i enlighet med den nya tariffinformationen.
 
 >[!CAUTION]
@@ -78,18 +78,18 @@ Mer information om faktureringstariffer och intäkter finns i artikeln [Översik
 Inkomstnivåerna kan ändras på följande nivåer:
 
 * Systemnivån (för jobbroller)\
-   Mer information om hur du skapar jobbroller med faktureringssatser på systemnivå finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Mer information om hur du skapar jobbroller med faktureringssatser på systemnivå finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Användarnivån\
-   Mer information om hur du ändrar faktureringsinformation för användare finns i artikeln [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Mer information om hur du ändrar faktureringsinformation för användare finns i artikeln [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Företagsnivå (för jobbroller)\
-   Mer information finns i [Åsidosätt faktureringssatser för jobbroller på företagsnivå](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+  Mer information finns i [Åsidosätt faktureringssatser för jobbroller på företagsnivå](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Projektnivån (för jobbroller)\
-   Mer information om hur du åsidosätter rollfrekvenser för jobb på projektnivå finns i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Mer information om hur du åsidosätter rollfrekvenser på projektnivå finns i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-En användares faktureringstaxa ändras till exempel under ett projekt från 50 till 75 USD per timme och du vill att alla befintliga data ska fortsätta att beräknas till den gamla taxan ($50 och timme). När projektets ekonomi beräknas om kommer dock befintliga finansiella uppgifter att uppdateras för att återspegla den nya faktureringstakten (75 USD i timmen).
+En användares faktureringstakt ändras till exempel under ett projekt från 50 till 75 USD per timme och du vill att alla befintliga data ska fortsätta att beräknas till den gamla avgiften ($50 och timme). När projektets ekonomi beräknas om kommer dock befintliga finansiella uppgifter att uppdateras för att återspegla den nya faktureringstakten (75 USD i timmen).
 
 * [Bevara projektintäkt genom att skapa en faktureringspost](#preserve-project-revenue-by-creating-a-billing-record)
 * [Bevara projektintäkter genom att använda flera åsidosättningar av faktureringsgrad](#preserve-project-revenue-by-using-multiple-billing-rate-overrides)
@@ -106,7 +106,7 @@ Mer information om hur du skapar faktureringsposter finns i artikeln [Skapa fakt
 
 När faktureringstarifferna ändras för jobbroller på projektnivå kan du behålla befintliga intäkter som redan har beräknats i projektet genom att använda flera åsidosättningar av faktureringsfrekvenser som är låsta inom en angiven tidsram.
 
-Mer information om hur du använder flera åsidosättningar av faktureringstariffer finns i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Mer information om hur du använder flera åsidosättningar av faktureringsavgifter finns i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -117,10 +117,10 @@ Mer information om hur du använder flera åsidosättningar av faktureringstarif
 Kostnadstarifferna kan ändras på följande nivåer:
 
 * Systemnivå (för jobbroller)\
-   Mer information om hur du skapar jobbroller med kostnadsnivåer på systemnivå finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Mer information om hur du skapar jobbroller med kostnadsnivåer på systemnivå finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Användarnivå\
-   Mer information om hur du ändrar kostnadstariffen för användare finns i artikeln [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Mer information om hur du ändrar kostnadstariffen för användare finns i artikeln [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 När faktureringspriserna ändras på någon nivå som nämns ovan kan du behålla befintliga kostnader som redan har beräknats i projektet genom att låsa den tid som registrerats i projektet och beräkna med den gamla avgiften i en faktureringspost med statusen Fakturerad. Mer information om hur du skapar faktureringsposter finns i artikeln [Skapa faktureringsposter](../../../manage-work/projects/project-finances/create-billing-records.md).
 
@@ -130,17 +130,17 @@ När du inte beräknar om ekonomin i projektet eller när du låser timmarna som
 
 ## Omberäkna finanser för ett projekt manuellt {#manually-recalculate-finances-for-a-project}
 
-Om dina priser ändras under ett projekts löptid och du vill att dina kostnads- och intäktsberäkningar ska återspegla de nya kostnaderna, måste du manuellt beräkna om projektets ekonomi.
+Om dina priser ändras under ett projekts livslängd och du vill att dina kostnads- och intäktsberäkningar ska återspegla de nya kostnaderna, måste du manuellt beräkna om projektets ekonomi.
 
 >[!NOTE]
 >
->Du kan förhindra att intäktsvärdena uppdateras för att återspegla de nya räntorna när du manuellt beräknar om finansiering genom att följa stegen i avsnittet [Bevara ekonomiska data för uppgifter med befintliga timmar](#preserve-financial-data-for-tasks-with-existing-hours) i den här artikeln. Kostnadsvärdena uppdateras alltid för att återspegla de nya priserna när du manuellt beräknar om budgeten för ett projekt.
+>Du kan förhindra att intäktsvärdena uppdateras för att återspegla de nya räntorna när du manuellt beräknar om finansiering genom att följa stegen i avsnittet [Bevara ekonomiska data för uppgifter med befintliga timmar](#preserve-financial-data-for-tasks-with-existing-hours) i den här artikeln. Kostnadsvärdena uppdateras alltid för att återspegla de nya kostnaderna när du manuellt beräknar om budgeten för ett projekt.
 
 Du kan beräkna om ekonomin för projekt i Workfront från projektsidan eller från en projektlista eller rapport.
 
-Du kan beräkna om ekonomin samtidigt som du redigerar dem i grupp. Mer information finns i [Automatisk omberäkning av flera ekonomi samtidigt i rutan Redigera projekt](#manually-recalculate-finances-in-bulk-in-the-edit-projects-box) i den här artikeln.
+Du kan beräkna om ekonomin samtidigt som du redigerar dem i grupp. Mer information finns i [Manuellt beräkna flera ekonomier åt gången](#manually-recalculate-finances-in-bulk) i den här artikeln.
 
-1. Gå till projektet där du vill beräkna om ekonomin och klicka på **Mer** icon ![](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet
+1. Gå till projektet där du vill beräkna om ekonomin och klicka på **Mer** icon ![](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
@@ -154,14 +154,14 @@ Du kan beräkna om ekonomin samtidigt som du redigerar dem i grupp. Mer informat
    >
    >Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du beräknar om deras ekonomi i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
 
-1. Klicka **Beräkna om ekonomi**.
+1. Klicka **Beräkna om ekonomi**.
 
    Alla planerade kostnader och intäkter för projektet beräknas om med ny information.
 
-   Du bör få en bekräftelse högst upp i webbläsaren på att projektets ekonomi har beräknats korrekt.\
-   Befintliga kostnadsvärden och vissa intäktsvärden som inte har låsts uppdateras för att återspegla de nya tarifferna.
+   Du bör få en bekräftelse högst upp i webbläsaren på att projektets ekonomi har beräknats korrekt.
+Befintliga kostnadsvärden och vissa intäktsvärden som inte har låsts uppdateras för att återspegla de nya tarifferna.
 
-## Automatisk omberäkning av flera ekonomi samtidigt i rutan Redigera projekt {#manually-recalculate-finances-in-bulk-in-the-edit-projects-box}
+## Manuellt beräkna flera ekonomier åt gången{#manually-recalculate-finances-in-bulk}
 
 Du kan manuellt beräkna om ekonomin för flera projekt genom att redigera dem i grupp. Detta gör att projektintäkterna beräknas om retroaktivt.
 
@@ -172,15 +172,19 @@ Du kan manuellt beräkna om ekonomin för flera projekt genom att redigera dem i
 Så här beräknar du om ekonomin för flera projekt manuellt:
 
 1. Gå till en lista med projekt.
-1. Markera flera projekt i listan och klicka sedan på **Redigera**.
+1. Markera flera projekt i listan och klicka sedan på **Mer** icon ![](assets/qs-more-icon-on-an-object.png) högst upp i listan.
+
+   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
    >Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du redigerar dem i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
 
-1. Klicka **Inställningar** väljer **Omberäkna kostnader och intäkter**.
+1. Klicka **Beräkna om ekonomi**.
 
-1. Klicka **Spara ändringar**.
+   Alla planerade kostnader och intäkter för de valda projekten beräknas om med ny information.
+
+   Du bör få en bekräftelse högst upp i webbläsaren på att projektens ekonomi har beräknats korrekt.
 
 ## Åtgärder som utlöser en automatisk omberäkning av ekonomin
 
