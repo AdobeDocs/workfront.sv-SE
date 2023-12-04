@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * Från hemområdet (för uppgifter och ärenden)
    * Från panelen Sammanfattning i en lista över objekt eller från en tidrapport (för uppgifter och ärenden)
 
-Informationen på den här sidan beskriver hur du kan kommentera Workfront-objekt och hur du uppdaterar projekt, uppgifter och problem.
+Informationen på den här sidan beskriver hur du kan kommentera Workfront-objekt och hur du uppdaterar projekt, uppgifter och problem när du lägger till kommentarer till dem.
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md). Du måste ha ytterligare en licens för att få tillgång till Workfront Goals.
 
@@ -156,13 +158,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Begär eller högre för problem och dokument; Granska eller högre för alla andra objekt</p> </td> 
+   <td> <p>Begär eller högre för utgåvor och dokument</p>
+   <p> Granska eller högre för alla andra objekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
    <td> <p>Visa eller redigera åtkomst för objektet som uppdateringen är aktiverad för</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -175,14 +178,29 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Lägga till en uppdatering i en arbetsuppgift
 
+Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på vilken version av uppdateringsavsnittet du använder.
+
+Du kan lägga till uppdateringar för följande objekt:
+
+* Projekt
+* Uppgifter
+* Problem
+* Program
+* Portfolio
+* Mallar
+* Malluppgifter
+* Användare
+* Tidrapporter
+* Team
+* Mål
+* Kort i området Varv
+* Iterationer
+
+### Lägga till en uppdatering för en arbetsuppgift i det äldre uppdateringsavsnittet
+
 >[!IMPORTANT]
 >
 >Informationen på den här sidan beskriver hur du uppdaterar projekt, uppgifter och problem.
-
-
-Hur du lägger till en uppdatering för en arbetsuppgift varierar beroende på vilken version av uppdateringsavsnittet du använder.
-
-### Lägga till en uppdatering för en arbetsuppgift i det äldre uppdateringsavsnittet
 
 1. Gå till den arbetsuppgift som du vill uppdatera (till exempel ett projekt, en uppgift eller en utgåva) för.
 1. Klicka på **Uppdateringar** -avsnitt.

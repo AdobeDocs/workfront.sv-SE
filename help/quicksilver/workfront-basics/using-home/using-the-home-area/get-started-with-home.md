@@ -1,31 +1,38 @@
 ---
 content-type: overview
 navigation-topic: use-the-home-area
-title: Kom igång med Home
-description: Det finns två sätt att visa ditt arbete i [!UICONTROL Home] område, antingen från [!UICONTROL Work List] eller kalendern.
-author: Lisa
+title: Kom igång med [!UICONTROL Home]
+description: Det finns två sätt att visa ditt arbete i [!UICONTROL Home] område, antingen från [!UICONTROL Work List] eller [!UICONTROL Calendar].
+author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
 
 # Kom igång med [!UICONTROL Home]
 
-Det finns två sätt att visa ditt arbete i [!UICONTROL Home] område, antingen från [!UICONTROL Work List] eller kalendern.
+I den här artikeln beskrivs en översikt över den aktuella [!UICONTROL Home] område i [!DNL Adobe Workfront]. Mer information om att arbeta i nya [!UICONTROL Home], se [Kom igång med nya startsidor i Adobe Workfront](../new-home/get-started-with-new-home.md).
+
+Det finns två sätt att visa ditt arbete i den aktuella [!UICONTROL Home] område:
+
+* Från [!UICONTROL Work List]
+* Från [!UICONTROL Calendar].
 
 ## Arbetslista
 
-The [!UICONTROL Work List] kan du visa allt ditt tilldelade arbete på ett och samma ställe:
+Du kan visa allt ditt tilldelade arbete på ett och samma ställe i dialogrutan [!UICONTROL Work List]:
 
 ![[!UICONTROL Work List] paneler](assets/worklist-and-right-panel-home.png)
 
-S. Använd den vänstra panelen för att filtrera, sortera och välja arbete som du har tilldelats.
+Granska följande avsnitt i den aktuella [!UICONTROL Home] området, enligt markeringen i bilden ovan:
 
-B. När du har markerat ett arbetsobjekt i den vänstra panelen kan du använda den högra panelen för att interagera med anpassade fält, göra uppdateringar och logga tid.
+* **A**: Använd den vänstra panelen för att filtrera, sortera och välja arbete som du har tilldelats.
+
+* **B**: När du har valt ett arbetsobjekt i den vänstra panelen kan du använda den högra panelen för att interagera med anpassade fält, göra uppdateringar och logga tid.
 
 Mer information om hur du använder [!UICONTROL Home Work List]finns i följande artiklar:
 
@@ -34,17 +41,19 @@ Mer information om hur du använder [!UICONTROL Home Work List]finns i följande
 
 ## Kalender
 
-I kalendern kan du visualisera arbetet genom att visa när arbetsobjekten förfaller och blockera tid för att slutföra dem:
+Du kan visualisera ditt arbete genom att visa när arbetsuppgifter förfaller och du kan blockera tid för att slutföra dem genom att granska ditt arbete i [!UICONTROL Calendar] i [!UICONTROL Home] område:
 
 ![](assets/calendar-home-nwe-350x114.png)
 
-S. Använd [!UICONTROL Calendar] för att skapa en visuell karta över det arbete du behöver utföra. Klicka och dra arbetsobjekten från [!UICONTROL Work List] till kalendern för att blockera arbetstid.
+Granska följande avsnitt i den aktuella [!UICONTROL Home] området, enligt markeringen i bilden ovan:
 
-B. Synkronisera med din [!DNL Outlook] kalender. Hantera möten och arbeta på ett och samma ställe.
+* **A**: Använd [!UICONTROL Calendar] för att skapa en visuell karta över det arbete du behöver utföra. Klicka och dra arbetsobjekten från [!UICONTROL Work List] på [!UICONTROL Calendar] för att blockera arbetstid.
 
-C. Använd [!UICONTROL Details] om du vill öppna en ny högerpanel där du kan visa mer information om arbetsposten.
+* **B**: Använd [!UICONTROL Calendar]Synkroniseringsalternativ för synkronisering med [!DNL Outlook] kalender. Hantera möten och arbeta på ett och samma ställe.
 
-D. Använd förfallofältet för att hålla reda på när arbete som tilldelats dig förfaller.
+* **C**: Använd [!UICONTROL Details] om du vill öppna en ny högerpanel där du kan visa mer information om arbetsposten.
+
+* **D**: Använd förfallofältet för att hålla reda på när arbete som du har tilldelats förfaller.
 
 Mer information om hur du använder hemkalendern finns i [Använd [!UICONTROL Home Calendar] visa](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
@@ -78,15 +87,15 @@ Nedan följer exempel på hur du kan filtrera objekt som du visar i Hem:
 
 * Filtrera efter objekttyp och tillstånd.
 
-   Om du till exempel vill visa alla uppgifter kan du välja [!UICONTROL Tasks] filter. Om du vill vara mer specifik än den här och bara visa uppgifter som du kan börja arbeta med, väljer du [!UICONTROL Ready to Start] filter under [!UICONTROL Tasks] filter.
+  Om du till exempel vill visa alla uppgifter kan du välja [!UICONTROL Tasks] filter. Om du vill vara mer specifik än den här och bara visa uppgifter som du kan börja arbeta med, väljer du [!UICONTROL Ready to Start] filter under [!UICONTROL Tasks] filter.
 
 * Filtrera endast efter objekttyp.
 
-   Du kan till exempel välja [!UICONTROL Issues] för att se alla problem i alla lägen ([!UICONTROL Working On] eller [!UICONTROL Requested]), eller [!UICONTROL Approvals] om du vill se alla arbetsobjekt, förfrågningar om åtkomst, tidrapport, dokument och korrekturgodkännanden.
+  Du kan t.ex. välja [!UICONTROL Issues] för att se alla problem i alla lägen ([!UICONTROL Working On] eller [!UICONTROL Requested]), eller [!UICONTROL Approvals] om du vill se alla arbetsobjekt, förfrågningar om åtkomst, tidrapport, dokument och korrekturgodkännanden.
 
 * Filtrera endast efter status.
 
-   Du kan till exempel välja [!UICONTROL Completed] för att visa uppgifter och ärenden som har slutförts. Detta inkluderar personliga uppgifter men inte godkännanden.
+  Du kan t.ex. välja [!UICONTROL Completed] för att visa uppgifter och ärenden som har slutförts. Detta inkluderar personliga uppgifter men inte godkännanden.
 
 Mer information om hur du använder filter finns i [Visa objekt i [!UICONTROL Work List] i [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
@@ -98,7 +107,7 @@ The [!UICONTROL Home] -området har en permanent gruppering som är dedikerad ti
 
 >[!NOTE]
 >
->The [!UICONTROL Filter] och [!UICONTROL Sort by] alternativen påverkar inte [!UICONTROL Team Requests] gruppering. Grupperingen visas så länge du har arbete tilldelat ditt team.
+>The [!UICONTROL Filter] och [!UICONTROL Sort by] alternativen påverkar inte [!UICONTROL Team Requests] gruppering. Den här grupperingen visas så länge du har arbete tilldelat ditt team.
 
 Mer information om hur du får åtkomst till teamförfrågningar finns i artikeln [[!UICONTROL Manage] arbets- och teamförfrågningar i [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -132,7 +141,7 @@ Mer information om hur du använder [!UICONTROL My Priority], se [Prioritera arb
 
 Använd den högra panelen i [!UICONTROL Home] för att uppdatera och slutföra arbetet.
 
-### Arbeta i ett utrymme som passar dig
+### Arbeta i ett utrymme som är anpassat för dig
 
 Dina [!DNL Adobe Workfront] kan lägga till upp till 16 anpassade fält så att det blir enklare att hitta och uppdatera informationen. De flesta fälten kan redigeras, så du behöver inte navigera till arbetsposten.
 
@@ -150,7 +159,7 @@ Kommunicera snabbt och effektivt med medarbetare från [!UICONTROL Home] område
 
 * Uppdaterar [!UICONTROL Commit Date]
 
-   <!--
+  <!--
   <note type="note">
   This is the only place you can update the Commit Date in Home.
   <br>
