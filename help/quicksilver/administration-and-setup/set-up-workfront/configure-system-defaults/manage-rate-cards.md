@@ -7,9 +7,10 @@ description: Med tariffkort kan du definiera flera faktureringspriser per roll, 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -34,8 +35,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Äldre plan: [!UICONTROL Plan]</p>
-       <p>Aktuell plan: [!UICONTROL Standard]</p></td> 
+   <td><p>Ny plan: [!UICONTROL Standard] </p>
+       <p>eller</p> 
+       <p>Aktuell plan: [!UICONTROL Plan] </p>
+   </td>    
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 

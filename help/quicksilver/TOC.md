@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '13442'
+source-wordcount: '13775'
 ht-degree: 0%
 
 ---
@@ -761,7 +761,7 @@ ht-degree: 0%
       * [Visa och hantera anpassade OAuth2-program](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Konfigurera JumpSeat-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
       * [Hjälp om Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
-   * Utkast {#blueprints}
+   * Blueprints {#blueprints}
       * [Utkast](administration-and-setup/blueprints/blueprints.md)
       * [Översikt över utkast](administration-and-setup/blueprints/blueprints-overview.md)
       * [Konfigurera åtkomst till ritningar](administration-and-setup/blueprints/configure-access-to-blueprints.md)
@@ -2339,7 +2339,7 @@ ht-degree: 0%
       * [Skapa ett listobjekt för en Anaplan från en Adobe Workfront-kampanjbegäran](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Använda en Anaplan-budgettilldelning på en Adobe Workfront-kampanjbegäran eller ett kampanjprojekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
-   * [Workfront Proof](workfront-proof/workfront-proof.md)
+   * [Workfront-korrektur: artikelindex](workfront-proof/workfront-proof.md)
    * Kom igång med Workfront Proof {#get-started-wf-proof}
       * [Komma igång med Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * Exempel på arbetsflöden {#workflow-examples}

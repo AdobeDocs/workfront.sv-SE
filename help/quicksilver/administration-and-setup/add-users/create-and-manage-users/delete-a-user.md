@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -26,9 +26,10 @@ När en användare lämnar organisationen kan du ta bort den användaren från A
 >
 >Ta bort en användare från [!DNL Adobe Admin Console] inaktiverar användaren i [!DNL Workfront], men tar inte bort dem från [!DNL Workfront].
 >
->  Instruktioner om hur du tar bort en användare i Adobe Admin Console finns i avsnittet&quot;Ta bort användare permanent&quot; i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta din Adobe Admin Console-administratör.
+>  Instruktioner om hur du tar bort en användare i Adobe Admin Console finns i avsnittet&quot;Ta bort användare permanent&quot; i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta Adobe Admin Console Administrator.
 >
 >  En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
 
 ## Åtkomstkrav
 
@@ -51,7 +52,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
      <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>av dessa två alternativ, om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +62,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 När du inaktiverar en användare händer följande:
 
-* Tar bort användarens licenser till både Workfront och Workfront Proof om Workfront-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront Proof](../../../workfront-proof/workfront-proof.md).
+* Tar bort användarens licenser till både Workfront och Workfront Proof om Workfront-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront-korrektur: artikelindex](../../../workfront-proof/workfront-proof.md).
 * Användaren kan inte längre tilldelas arbete.
 * Användaren kan inte längre läggas till i uppdateringar.
 * Användaren kan inte längre läggas till i team eller grupper.
@@ -71,10 +72,10 @@ När du inaktiverar en användare händer följande:
    * Uppgifter, ärenden, projekt, portfolior
    * Kontrollpaneler
 
-      >[!NOTE]
-      >
-      >Om du inaktiverar en användare och inte längre kan visa rapporter eller kontrollpaneler som är kopplade till en användare, kan du behöva uppdatera **Kör den här rapporten med åtkomsträttigheterna för:** fält.\
-      >Mer information finns i [Varför kan jag inte komma åt en rapport som ägs av en inaktiverad användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) i [Vanliga frågor och svar om rapporter](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artikel.
+     >[!NOTE]
+     >
+     >Om du inaktiverar en användare och inte längre kan visa rapporter eller kontrollpaneler som är kopplade till en användare, kan du behöva uppdatera **Kör den här rapporten med åtkomsträttigheterna för:** fält.\
+     >Mer information finns i [Varför kan jag inte komma åt en rapport som ägs av en inaktiverad användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) i [Vanliga frågor och svar om rapporter](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artikel.
 
    * Dokument
    * Uppdateringar
@@ -84,7 +85,7 @@ När du inaktiverar en användare händer följande:
 
 Om du tar bort en användare händer följande:
 
-* Tar bort användarens licenser till både Workfront och Workfront Proof om Workfront-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront Proof](../../../workfront-proof/workfront-proof.md).
+* Tar bort användarens licenser till både Workfront och Workfront Proof om Workfront-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront-korrektur: artikelindex](../../../workfront-proof/workfront-proof.md).
 * Användaren kan inte längre tilldelas arbete.
 * Användaren kan inte längre läggas till i uppdateringar.
 * Användaren kan inte längre läggas till i team eller grupper.
@@ -94,17 +95,17 @@ Om du tar bort en användare händer följande:
    * Uppgifter, ärenden, projekt, portfölj
    * Kontrollpaneler
 
-      >[!NOTE]
-      >
-      >Du förlorar även åtkomsten till anpassade avsnitt som innehöll kontrollpaneler som är kopplade till den borttagna användaren.\
-      >Mer information finns i [Hur får jag åtkomst till en instrumentpanel som innehåller en rapport som ägs av en borttagen användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) i [Vanliga frågor och svar om rapporter](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artikel.
+     >[!NOTE]
+     >
+     >Du förlorar även åtkomsten till anpassade avsnitt som innehöll kontrollpaneler som är kopplade till den borttagna användaren.\
+     >Mer information finns i [Hur får jag åtkomst till en instrumentpanel som innehåller en rapport som ägs av en borttagen användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) i [Vanliga frågor och svar om rapporter](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artikel.
 
    * Uppdateringar
    * Timmar
 
-      >[!NOTE]
-      >
-      >Objekten finns kvar i Workfront men objektets ägare är nu tom.
+     >[!NOTE]
+     >
+     >Objekten finns kvar i Workfront men objektets ägare är nu tom.
 
 * Om användaren har överfört dokument under dokumentområdet i det globala navigeringsfältet, tas även dokumenten bort.
 * Om användaren har checkat ut dokument som han/hon äger och dokumenten har överförts till huvuddokumentområdet (som nås från huvudmenyn), tas dokumenten bort med användaren. Mer information om utcheckning av dokument finns i [Checka ut dokument](../../../documents/managing-documents/check-out-documents.md).
@@ -115,11 +116,11 @@ Du kan ta bort användare en åt gången permanent eller ta bort flera användar
 
 ## Ta bort en eller flera användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Användare**.
 1. Markera minst en användare som du vill ta bort och klicka på menyn Mer ![](assets/more-icon.png)och sedan klicka **Ta bort**.
-1. Klicka på **Ta bort** för att bekräfta borttagningen.
+1. Klicka i rutan som visas **Ta bort** för att bekräfta borttagningen.
 
    Processen att ta bort användare körs som en bakgrundsprocess, så du kan fortsätta använda Workfront när användaren eller användarna tas bort.
 

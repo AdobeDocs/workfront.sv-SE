@@ -9,10 +9,10 @@ description: Alla användare måste ha en åtkomstnivå för att kunna logga in 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ Du kan inaktivera alternativet för automatisk uppgradering från inställningso
 >[!IMPORTANT]
 >
 >När detta är inaktiverat uppgraderas inte obetalda användare som överträffar det angivna antalet beslut automatiskt.
-
 
 ## Åtkomstkrav
 
@@ -42,9 +41,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Aktuell plan: Standard
+   <td>Ny plan: Standard
    <p>eller</p>
-   <p>Gammal plan: Plan</p></td> 
+   <p>Aktuell plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 

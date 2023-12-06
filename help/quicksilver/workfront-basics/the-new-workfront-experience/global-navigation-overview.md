@@ -5,9 +5,9 @@ description: Det övre navigeringsfältet, som visas högst upp på skärmen i d
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Mer information om de senaste versionerna finns i [Visa senaste artiklar](../../
 
 ## [!UICONTROL Search] meny
 
-The **[!UICONTROL Search]** icon ![](assets/search-icon.png) i det övre högra hörnet av [!DNL Workfront] låter dig utföra en grundläggande sökning, begränsa sökningen till ett specifikt objekt eller använda [!UICONTROL Advanced Search] om du vill söka efter ett nyckelord för ett specifikt objekt och använda filter för att begränsa sökningen till specifika fält.
+The **[!UICONTROL Search]** icon ![](assets/search-icon.png) i det övre högra hörnet av [!DNL Workfront] gör att du kan utföra en grundläggande sökning, begränsa sökningen till ett specifikt objekt eller använda [!UICONTROL Advanced Search] om du vill söka efter ett nyckelord för ett specifikt objekt och använda filter för att begränsa sökningen till specifika fält.
 
 Mer information om sökning finns i [Sök [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
@@ -107,7 +107,7 @@ Varje ikon tar dig till en annan plats i det nya [!DNL Adobe Workfront] upplevel
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Förbättrad analys - översikt</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] översikt</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt över scenarioplanen</a></li> 
-     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Korrektur</a></li> 
+     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Korrektur: artikelindex</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -130,7 +130,7 @@ Nedanför dessa alternativ i dialogrutan [!UICONTROL Main Menu]kan du komma åt:
 
 <tr> 
    <td> <p class="bold">[!UICONTROL Logout]</p> </td> 
-   <td>Klicka <b>[!UICONTROL Logout]</b> loggar ut dig från [!DNL Workfront].</td> 
+   <td>Klicka <b>[!UICONTROL Logout]</b> loggar ut dig [!DNL Workfront].</td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Antalet licenser som används uppdateras automatiskt när du tilldelar åtkomstn
 
 Så här visar du licensinformation i ditt system:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Längst ned på den vänstra panelen klickar du på **System** > **Licenser**.
 
@@ -56,7 +56,7 @@ Så här visar du licensinformation i ditt system:
 
    >[!NOTE]
    >
-   >Korrekturlicenser är endast tillgängliga för kunder som har köpt det betalda Workfront-tillägget Proof utöver sin Workfront-licens. Mer information om det här tillägget finns i [Workfront Proof](../../workfront-proof/workfront-proof.md).
+   >Korrekturlicenser är endast tillgängliga för kunder som har köpt det betalda Workfront-tillägget Proof utöver sin Workfront-licens. Mer information om det här tillägget finns i [Workfront-korrektur: artikelindex](../../workfront-proof/workfront-proof.md).
 
 1. (Villkorligt) Om meddelandet visas **Om du vill ange ett maxvärde måste du lägga till en hemgrupp** lägger du till en hemgrupp i systemet enligt anvisningarna i avsnittet [Lägga till eller ta bort en hemgrupp på sidan Licenser](#add-or-remove-a-home-group-to-the-licenses-page) i den här artikeln.
 
@@ -71,11 +71,12 @@ Om din organisation har köpt Workfront-mål visas även licensinformationen fö
 * Det totala antalet Workfront Goals-licenser som ditt företag har köpt
 * Antalet Workfront Goals-licenser som är kopplade till användare. Det här är antalet användare som ska ha beviljat minst Visa åtkomst till mål på åtkomstnivå.
 
-Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om åtkomst till Workfront-mål finns på [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om åtkomst till Workfront-mål finns på [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 >[!NOTE]
 >
 >Med Workfront kan du tilldela fler licenser för Workfront Goals som du har köpt. Om du tilldelar fler licenser än vad som tillåts enligt Workfront Goals-avtalet kontaktar en Workfront-kontoansvarig dig för att tala om att du har överskridit ditt avtalsnummer.
+>
 
 <!--
 If an organization has other paid add-on products, their license information also displays here. If the organization doesn't have any paid add-on products, nothing displays here. (Drafted this because not sure this is accurate: Scenario Planner is an add-on product and its licenses are not displayed there.)
@@ -84,10 +85,11 @@ If an organization has other paid add-on products, their license information als
 >[!TIP]
 >
 >Användare utan administrativ åtkomst kan använda en grupprapport för att visa licensantal. Skapa en ny grupprapport på fliken Rapport och lägg till följande kolumner:>
->* Licenstypsgräns: Arbetargräns
->* Licenstypsgräns: Planeringsgräns
+>* Begränsning av licenstyp: Worker-gräns
+>* Gräns för licenstyp: Planeringsgräns
 >
 >Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>
 
 ## Visa information om månatliga korrektur- och dokumentavrop
 
@@ -109,7 +111,7 @@ Du måste ha en Business- eller Enterprise Workfront-plan för att kunna använd
 
 Varje användare kan endast tilldelas en hemgrupp. Workfront tillhandahåller ett grupporienterat licensantal genom att beräkna hur många licenser som tilldelas och används i respektive hemgrupp.
 
-Om meddelandet visas **Om du vill ange ett maxvärde måste du lägga till en hemgrupp** på sidan Licenser måste du lägga till minst en hemgrupp på sidan Licenser.
+Om du ser meddelandet **Om du vill ange ett maxvärde måste du lägga till en hemgrupp** på sidan Licenser måste du lägga till minst en hemgrupp på sidan Licenser.
 
 >[!IMPORTANT]
 >
@@ -117,10 +119,9 @@ Om meddelandet visas **Om du vill ange ett maxvärde måste du lägga till en he
 >* Du kan bara lägga till grupper på den översta nivån som hemgrupper, inte undergrupper. Om en användare har en undergrupp tilldelad som sin hemgrupp läggs hans/hennes licens till i antalet licenser för den översta gruppen ovanför den undergruppen.
 >
 
-
 Så här lägger du till eller tar bort en hemgrupp på sidan Licenser:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Längst ned på den vänstra panelen klickar du på **System** > **Licenser**.
 
@@ -146,7 +147,7 @@ Gruppadministratörer kan visa antalet licenser som tilldelats och använts i en
 
 Så här anger du det maximala antalet licenser för en hemgrupp:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Längst ned på den vänstra panelen klickar du på **System** > **Licenser**.
 
