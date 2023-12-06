@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Vecka 4 december 2023
+
+### Kopiera och klistra in information från ett fält till ett annat i Maestro-tabellvyn för fält av typen Folk och länkade poster
+
+Förhandsgranskning och produktion: 5 december 2023
+
+Nu kan du kopiera och klistra in information från ett fält till ett annat fält av samma typ i en tabellvy av typen Maestro. Den här funktionen stöds nu för följande typer av fält:
+
+* Folk
+* Länkade postfält
+
+Tänk på följande:
+
+* Kopiering och inklistring av fältvärden från ett fält till ett annat stöds för fält som visar flera värden.
+
+* Du kan inte kopiera information från en annan källa, förutom ett Maestro-fält av samma typ som det fält som du klistrar in informationen i.
+
+* Du kan inte kopiera och klistra in fältvärden för fält som visas i området Detaljer för en post.
+
+Mer information finns i [Redigera poster](../maestro/records/edit-records.md).
+
+Mer information om länkade fält finns i [Koppla posttyper](../maestro/architecture/connect-record-types.md).
 
 ## Vecka 27 november 2023
 

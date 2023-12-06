@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dcdcf21903d0fceb3c05039689bb87ae4c834d07
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '4704'
+source-wordcount: '4775'
 ht-degree: 0%
 
 ---
@@ -563,12 +563,13 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen går du till de områden som visas i den vänstra panelen för att redigera information för varje område.
 1. Om du vill redigera information i detaljavsnittet klickar du på **Redigera** icon ![](assets/edit-icon.png)väljer du sedan något av områdena nedan eller klickar på **Redigera alla** för att redigera information i alla områden:
 
-   * Översikt
+   * Ökning
    * Anpassad Forms
 
    Namnen på tullformulär visas bara om det finns anpassade formulär kopplade till objektet.
 
    * Ekonomi
+
    >[!TIP]
    >
    >Om du vill ha information om alla fält som visas i området Detaljer kan du fortsätta redigera alla fält med rutan Redigera mall nedan.
@@ -577,10 +578,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    The **Redigera mall** öppnas. Avsnitten i den här rutan innehåller samma fält som finns i avsnittet Mallinformation.
 
-1. Överväg att redigera information i något av följande avsnitt:
+1. Överväg att redigera information i följande avsnitt:
 
    * [Mallnamn](#template-name)
-   * [Översikt](#overview-preview)
+   * [Ökning](#overview-preview)
    * [Ekonomi](#finance-preview)
    * [Anpassad Forms](#custom-forms-preview)
    * [Projektinställningar](#project-settings)
@@ -601,10 +602,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 
 
-### Översikt {#overview-preview}
+### Ökning {#overview-preview}
 
 1. Börja redigera mallen enligt beskrivningen ovan.
-1. I **Redigera mall** ruta, klicka **Översikt**.
+1. I **Redigera mall** ruta, klicka **Ökning**.
 
    ![](assets/edit-template-box-overview-section.png)
 
@@ -638,7 +639,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <td><p>Välj mellan följande villkorstyper:</p> 
          <ul> 
          <li><strong>Manuell:</strong> Projektägaren ställer in villkoret för projektet manuellt. <strong></strong></li> 
-         <li><strong>Status:</strong> Workfront ställer automatiskt in villkoret för det framtida projektet baserat på förloppsstatusen för uppgifter på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
+         <li><strong>Förloppsstatus:</strong> Workfront ställer automatiskt in villkoret för det framtida projektet baserat på förloppsstatusen för uppgifter på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
        </ul>
          </td> 
          </tr> 
@@ -646,7 +647,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td role="rowheader"><strong>Schemaläge</strong></td> 
          <td><p>Ange om projektet som använder den här mallen är schemalagt från <strong>Startdatum</strong>eller från <strong>Slutförandedatum</strong>. Det här valet bestämmer planerade datum för framtida aktiviteter i projektet med den här mallen. </p><p>Välj bland följande: </p> 
        <ul> 
-       <li><p><strong>Schemalägg från startdatum</strong>: Mallens startdatum är faktiskt Startdagen. När du schemalägger en mall från startdatum, beräknas mallens slutförandedag baserat på varaktigheten för alla malluppgifter i Adobe Workfront. Mallens startdag blir det planerade startdatumet för det framtida projektet.</p></li> 
+       <li><p><strong>Schemalägg från startdatum</strong>: Mallens startdatum är faktiskt Startdagen. När du schemalägger en mall från startdatum beräknas mallens avslutningsdag baserat på varaktigheten för alla malluppgifter i Adobe Workfront. Mallens startdag blir det planerade startdatumet för det framtida projektet.</p></li> 
        <li><p><strong>Schemalägg från slutförandedatum</strong>: Mallens slutförandedatum är faktiskt Slutförandedagen. När du schemalägger en mall från Slutförandedatum beräknas mallens startdag i Workfront utifrån varaktigheten för alla malluppgifter. Mallens slutförandedag blir det planerade slutförandedatumet för det framtida projektet. </p></li> 
        </ul><p>Mer information om malluppgifternas start- och slutförandedagar finns i <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Översikt över start- och slutförandedagar i en mall</a>. </p><p>Inställningen Schemalägg från för mallar liknar inställningen för projekt. Workfront-administratören väljer standardinställningen Schemalägg från för projekten i ditt system. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p></td> 
        </tr>
@@ -661,7 +662,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Grupp</strong></td> 
-         <td><p>I listrutan väljer du den grupp som du vill ska associeras med projekt som skapats från mallen. Det kan vara en grupp på vilken nivå som helst. </p><p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANTECKNINGAR</b>
+         <td><p>I listrutan väljer du den grupp som du vill ska associeras med projekt som skapats från mallen. Det kan vara en grupp på alla nivåer. </p><p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANTECKNINGAR</b>
 
    <ul> 
        <li><p>När någon skapar ett projekt med en mall som inte har en grupp markerad, kopplas den öppna gruppen till projektet i området Projekt på en grupps sida.</p><p>Detta skiljer sig från andra områden där systemet associerar en användares hemgrupp med projektet när användaren skapar projektet med en mall som inte har någon markerad grupp.</p></li> 
@@ -680,11 +681,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li>De får automatiskt behörigheten Hantera till mallen. </li> 
          <li>De läggs till i projektteamet och får automatiskt behörigheten Hantera för det projekt som skapas från mallen. </li> 
          <li>De blir projektägare när projektet skapas från den här mallen. </li> 
+         <li> Om den användare som är utsedd som mallägare har begränsad åtkomst till mallar eller projekt från åtkomstnivån, begränsas behörigheten Hantera för mallen och för projekten. Om de till exempel bara har behörigheten Visa för mallar eller projekt på åtkomstnivån får de automatiskt behörigheterna Visa för mallen och projektet när de har angetts som mallägare.</li>
          </ul></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Mallsponsor</strong></td> 
-         <td><p>Användaren som anges i det här fältet blir Projektsponsor när mallen läggs till i projektet. Den här användaren läggs till i projektteamet och får automatiskt visningsbehörighet för projektet. Användaren som är angiven som mallsponsor måste vara en Workfront-användare. </p></td> 
+         <td><p>Användaren som anges i det här fältet blir projektsponsorn när mallen läggs till i projektet. Den här användaren läggs till i projektteamet och får automatiskt visningsbehörighet för projektet. Användaren som är angiven som mallsponsor måste vara en Workfront-användare. </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Resurshanteraren</strong></td> 
@@ -735,7 +737,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Fast kostnad</strong></td> 
-         <td><p>Ange fast kostnad för de projekt som skapas från den här mallen. Detta skiljer sig från arbetskostnaden som kommer från timmarna i projektet och kostnaden som kommer från kostnaderna för projektet. Den fasta kostnaden för ett projekt tas med i beräkningen av ett projekts nettovärde och ingår i den budgeterade kostnaden.</p></td> 
+         <td><p>Ange fast kostnad för projekt som skapas från den här mallen. Detta skiljer sig från arbetskostnaden som kommer från timmarna i projektet och kostnaden som kommer från kostnaderna för projektet. Den fasta kostnaden för ett projekt tas med i beräkningen av ett projekts nettovärde och ingår i den budgeterade kostnaden.</p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Fast intäkt</strong></td> 
@@ -796,7 +798,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
        <td role="rowheader"><strong>Sökväg för milstolpe</strong> </td> 
-       <td> <p>Välj en milstolpe-sökväg för mallen. Endast aktiva milstolpesökvägar visas i listan.<br>Mer information om milstolpbanor finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Skapa en milstolpbana</a>.</p> </td> 
+       <td> <p>Välj en milstolpe för mallen. Endast aktiva milstolpesökvägar visas i listan.<br>Mer information om milstolpbanor finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Skapa en milstolpe-bana</a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Slutförandeläge</strong> </td> 
@@ -810,7 +812,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <td role="rowheader"><strong>Läge för slutförande av sammanfattning</strong> </td> 
        <td> <p>Styr hur de överordnade aktiviteterna i det framtida projektet markeras som slutförda. <br>Välj bland följande alternativ:</p> 
        <ul> 
-       <li> <p><strong>Automatisk</strong>: De överordnade aktiviteterna markeras som Slutfört och de uppdaterar automatiskt procentandelen slutförd, allt eftersom de underordnade aktiviteterna slutförs och procentandelen slutförd för de underordnade uppdateras. </p> </li> 
+       <li> <p><strong>Automatisk</strong>: De överordnade aktiviteterna är markerade som Slutförd och de uppdaterar automatiskt procentandelen slutförd, allt eftersom de underordnade aktiviteterna slutförs och procentandelen slutförd för de underordnade uppdateras. </p> </li> 
        <li> <p><strong>Manuell</strong>: Du måste uppdatera procentandelen slutförd och statusen för de överordnade uppgifterna manuellt, oberoende av vilka ändringar som görs för de underordnade uppgifterna. </p> </li> 
        </ul> </td> 
        </tr> 
@@ -818,12 +820,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td role="rowheader"><strong>Uppdateringstyp</strong> </td> 
          <td> <p>Styr när de ändringar du gör i tidslinjen för det framtida projektet sparas i projektet. </p> 
          <b>EXEMPEL </b> 
-         <p>Följande ändringar av projektet utlöser en uppdatering av projektets tidslinje:</p> 
+         <p>Följande ändringar av projektet utlöser en uppdatering av tidslinjen i projektet:</p> 
          <ul> 
          <li> <p>uppdatera datum för uppgifter</p> </li> 
          <li> <p>ändra föregående relationer<br></p> </li> 
          <li> <p>ändra överordnade-underordnade relationer</p> </li> 
-         <li> <p>lägga till eller ta bort tilldelningar förutom att ändra aktivitetsbegränsningen eller varaktighetstypen.</p> </li> 
+         <li> <p>lägga till eller ta bort tilldelningar förutom att ändra uppgiftens begränsning eller varaktighet.</p> </li> 
          </ul> 
          </div> <p>Välj bland följande alternativ:<br></p> 
          <ul> 
@@ -833,7 +835,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li> <p><strong>Ändra endast</strong>: Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Du kanske vill välja det här alternativet om ändringarna sällan inträffar i projektet eller i andra projekt som tidslinjen är beroende av.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>Endast automatiskt</strong>: Projektets tidslinje uppdateras varje natt. den inte uppdateras omedelbart efter att ändringar har gjorts.<br>Du kan välja det här alternativet om det sker många ändringar varje dag i projektet eller i andra projekt som tidslinjen är beroende av. Tänk dock på att du valde den här inställningen eftersom projektet inte uppdateras samtidigt som ändringarna görs.<br></p> </li> 
+         <li> <p><strong>Endast automatiskt</strong>: Projektets tidslinje uppdateras varje natt. Den uppdateras inte omedelbart efter ändringar.<br>Du kan välja det här alternativet om det sker många ändringar varje dag i projektet eller i andra projekt som tidslinjen är beroende av. Tänk dock på att du valde den här inställningen eftersom projektet inte uppdateras samtidigt som ändringarna görs.<br></p> </li> 
          </ul> 
          <ul> 
          <li> <p><strong>Endast manuellt</strong>: Projektets tidslinje uppdateras bara när du väljer alternativet att beräkna om tidslinjer enligt beskrivningen i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Beräkna om projekttidslinjer</a>.<br></p> </li> 
@@ -841,13 +843,13 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Schema</strong> </td> 
-         <td> <p>Välj ett schema för mallen. Detta blir schemat för projektet som skapas från den här mallen. Det ska vara samma schema som tilldelats de flesta personer som arbetar med projektet. Du måste skapa ett schema innan du kan tilldela det till en mall.<br>Mer information om hur du skapar scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>. <br>Om du inte har skapat anpassade scheman i ditt system väljs standardschemat. </p> </td> 
+         <td> <p>Välj ett schema för mallen. Det här blir schemat för projektet som skapas från den här mallen. Det ska vara samma schema som tilldelats de flesta personer som arbetar med projektet. Du måste skapa ett schema innan du kan tilldela det till en mall.<br>Mer information om hur du skapar scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>. <br>Om du inte har skapat anpassade scheman i ditt system väljs standardschemat. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Användningstid av</strong> </td> 
          <td> <p>Avgör om tidpunkten för den primära tilldelades för en uppgift justerar planerade aktivitetsdatum. När du kopplar mallen till ett befintligt projekt, och mallen har en annan inställning för det här fältet än projektet, ändras inte inställningen för projektet. Standardalternativet för den här inställningen för en ny mall är samma som projektinställningen på systemnivå. </p> <p>Mer information om projektinställningarna på systemnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p> <p>Information om hur den här inställningen påverkar aktivitetsdatum i ett projekt finns i <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>.<br>Välj bland följande alternativ:<br></p> 
          <ul> 
-         <li> <p><strong>Överväg användarens ledig tid i aktivitetsvaraktigheter</strong>: När du väljer det här alternativet justeras de planerade datumen för aktiviteterna i projektet som skapas från den här mallen enligt tiden för den primära tilldelaren för aktiviteten, om tiden för inaktivitet inträffar under aktivitetens varaktighet. </p> </li> 
+         <li> <p><strong>Överväg användarens ledig tid i aktivitetsvaraktigheter</strong>: När du väljer det här alternativet justeras de planerade datumen för de uppgifter i projektet som skapas från den här mallen enligt tiden för den primära tilldelaren av uppgiften, om tiden för detta inträffar under aktivitetens varaktighet. </p> </li> 
          <li> <p><strong>Ignorera användartid för aktivitetsvaraktighet</strong>: När du väljer det här alternativet förblir de planerade datumen för aktiviteterna i projektet som skapas från den här mallen som de ursprungligen var planerade, även om aktivitetens primära tilldelare har en ledig tid under aktivitetens varaktighet. </p> </li> 
          </ul> </td> 
        </tr> 
@@ -871,14 +873,14 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Resurspooler</strong> </td> 
+         <td role="rowheader"><strong>Resursgrupper</strong> </td> 
          <td> <p>Ange de resurspooler som är associerade med mallen. Resurspooler är samlingar med användare som behövs samtidigt för att slutföra ett projekt. Mer information om resurspooler finns i <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Översikt över resurspooler </a>.</p> <p> <p><b>ANMÄRKNING</b>
 
    När du redigerar flera mallar samtidigt visas endast de resurspooler som är gemensamma för alla valda mallar i det här fältet. Om de valda mallarna inte har några delade resurspooler kommer det här fältet att vara tomt. Resurspoolerna som du anger här skriver över mallarnas enskilda resurspooler.</p> </p> </td>
    </tr>
        <tr> 
          <td role="rowheader"><strong>Filtrera timtyp</strong> </td> 
-         <td> <p>Tänk på följande:</p> <p>Välj <strong>Nej</strong> för att göra alla projektspecifika timtyper tillgängliga i det framtida projektet. (Det här är standardvalet)</p> <p>eller</p> <p>Välj <strong>Ja</strong> Om du bara vill göra en delmängd av de projektspecifika timtyperna tillgängliga i det framtida projektet väljer du de timtyper du vill göra tillgängliga. (Håll ned Skift om du vill markera flera timtyper.)</p> <p>Om du väljer det här alternativet blir endast de timtyper som du väljer tillgängliga när du loggar timmar i projektet (eller om uppgifter och problem i projektet). Du måste välja minst en timtyp; Om du väljer det här alternativet och inte väljer några timtyper, blir alla timtyper tillgängliga i projektet.</p> <p>Samma timtypval måste göras på den enskilda användarnivån för att användaren ska kunna se dessa timtypalternativ i projektet. </p> <p>Mer information om hur du definierar timtyper på användarnivå finns i avsnittet <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Loggtid</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>.</p> </td> 
+         <td> <p>Tänk på följande:</p> <p>Välj <strong>Nej</strong> för att göra alla projektspecifika timtyper tillgängliga i det framtida projektet. (Det här är standardvalet)</p> <p>eller</p> <p>Välj <strong>Ja</strong> Om du bara vill göra en delmängd av de projektspecifika timtyperna tillgängliga i det framtida projektet väljer du de timtyper du vill göra tillgängliga. (Håll ned Skift om du vill markera flera timtyper.)</p> <p>Om du väljer det här alternativet blir endast de timtyper som du väljer tillgängliga när du loggar timmar i projektet (eller om uppgifter och problem i projektet). Du måste välja minst en timtyp. Om du väljer det här alternativet och inte väljer någon timtyp, blir alla timtyper tillgängliga i projektet.</p> <p>Samma timtypval måste göras på den enskilda användarnivån för att användaren ska kunna se dessa timtypalternativ i projektet. </p> <p>Mer information om hur du definierar timtyper på användarnivå finns i avsnittet <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Loggtid</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Godkännandeprocess</strong> </td> 
@@ -921,17 +923,17 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
    ![](assets/edit-template-box-tax-settings-section.png)
 
 1. I **Standardprocess för godkännande av uppgift** markerar du den godkännandeprocess som du vill associera med alla nya uppgifter när du lägger till dem i ett projekt som skapas från den här mallen. Du måste skapa en godkännandeprocess för uppgifter innan du kan koppla den till uppgifter. Endast aktiva godkännandeprocesser visas i listan. Mer information om hur du skapar godkännandeprocesser finns i [Skapar godkännandeprocesser](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. I **Standardinställd Forms för aktivitet** markerar du det eller de anpassade formulär som du vill koppla till alla nya uppgifter när du lägger till dem i ett projekt som skapats från den här mallen. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa anpassad Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan associera upp till tio anpassade formulär med en uppgift.
+1. I **Anpassad Forms för aktivitetsstandard** markerar du det eller de anpassade formulär som du vill koppla till alla nya uppgifter när du lägger till dem i ett projekt som skapats från den här mallen. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa anpassad Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan associera upp till tio anpassade formulär med en uppgift.
 1. (Valfritt) Välj **Använd Arbetsinsats för att automatiskt beräkna aktivitetsplanerade timmar** om du vill aktivera hantering av uppgiftsinsats genom att använda Arbetsinsats i stället för Planerade timmar i projektet som skapas från mallen.
 1. (Villkorligt och valfritt) Om du valde Använd arbetsinsats för att automatiskt beräkna planerade timmar för en uppgift klickar du på listrutan för att uppdatera procentandelen för varje nivå av arbetsinsats. Följande procentvärden är standardvärden:
 
    | Arbetsinsats | Procentvärde |
    |---|---|
-   | Liten | 25% |
-   | Medel | 50% |
-   | Stor | 75% |
+   | Liten | 25 % |
+   | Medel | 50 % |
+   | Stor | 75 % |
 
-   Mer information om hur du använder Arbetsinsats för att hantera åtgärder i projekt finns i [Översikt över arbetsinsats](../../../manage-work/tasks/task-information/work-effort.md).
+   Mer information om hur du använder Arbetsinsats för att hantera insatsen i projekt finns i [Översikt över arbetsinsats](../../../manage-work/tasks/task-information/work-effort.md).
 
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
@@ -997,7 +999,7 @@ Genom att redigera probleminställningarna kan du hindra användare från att l�
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Ge även åtkomst till projektet</strong> </td> 
-         <td> <p> Välj från <strong>Visa</strong>, <strong>Contribute</strong>, eller <strong>Hantera</strong> tillgång till projektet. Användaren som tilldelats en utgåva får automatiskt tillgång till projektet. </p> </td> 
+         <td> <p> Välj från <strong>Visa</strong>, <strong>Contribute</strong>, eller <strong>Hantera</strong> tillgång till projektet. Användaren som tilldelats en utgåva får automatiskt även den här åtkomsten till projektet. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>När någon skickar en begäran: Ge dem åtkomst</strong> </td> 
@@ -1031,7 +1033,7 @@ Du kan redigera flera mallar samtidigt och uppdatera all information om dem.
 
 Så här redigerar du flera mallar samtidigt:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Mallar**.
 1. Markera flera mallar i listan.
@@ -1068,34 +1070,34 @@ Att lägga till följande objekt i en mall är detsamma som att lägga till dem 
 * Dokument
 * Risker
 
-   Mer information om hur du skapar risker finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  i artikeln [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Mer information om hur du skapar risker finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  i artikeln [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Godkännandeprocesser
 
-   Mer information om hur du associerar godkännandeprocesser med arbete finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Mer information om hur du associerar godkännandeprocesser med arbete finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 * Faktureringstaxor
 
-   Mer information om hur du åsidosätter faktureringssatser för ett projekt finns i [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Mer information om hur du åsidosätter faktureringssatser för ett projekt finns i [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Utgifter
 
-   Mer information om hur du lägger till utgifter finns i [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Mer information om hur du lägger till utgifter finns i [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Ämnesgrupper och Köämnen
 
-   Mer information om hur du lägger till ämnesgrupper och ämnen i kön till ett projekt eller en mall finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Mer information om hur du lägger till ämnesgrupper och ämnen i kön till ett projekt eller en mall finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Du kan lägga till följande objekt till uppgifterna i mallen:
 
 * Dokument
 * Utgifter
 
-   Mer information om hur du lägger till utgifter finns i [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Mer information om hur du lägger till utgifter finns i [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Godkännanden
 
-   Mer information om hur du associerar godkännanden med arbete finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  Mer information om hur du associerar godkännanden med arbete finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 
 ## Aktivera eller inaktivera en mall
@@ -1106,11 +1108,11 @@ Inaktiverade mallar påverkar inte befintliga projekt som skapats med dem.
 
 Så här inaktiverar du en mall:
 
-1. Gå till en aktiv mall och klicka sedan på **Mer** ![](assets/qs-more-icon-on-an-object.png) -menyn intill mallnamnet och klicka sedan på **Inaktivera**.
+1. Gå till en aktiv mall och klicka sedan på **Mer** ![](assets/qs-more-icon-on-an-object.png) -menyn bredvid mallnamnet och klicka sedan på **Inaktivera**.
 
    ![](assets/deactivate-template-link-in-more-menu.png)
 
    Mallen är inte längre aktiv och användarna kan inte längre hitta den för att skapa projekt utifrån den.
-1. (Valfritt) Om du vill aktivera mallen klickar du på **Mer** ![](assets/qs-more-icon-on-an-object.png) -menyn intill mallnamnet och klicka sedan på **Aktivera**.
+1. (Valfritt) Klicka på **Mer** ![](assets/qs-more-icon-on-an-object.png) -menyn bredvid mallnamnet och klicka sedan på **Aktivera**.
 
    Mallen är nu aktiv och kan bifogas till projekt eller användas för att skapa projekt.

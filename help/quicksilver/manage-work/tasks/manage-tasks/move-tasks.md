@@ -6,9 +6,9 @@ description: Du kan flytta uppgifter till olika projekt eller till olika överor
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,9 @@ Du måste ha följande åtkomst för att kunna utföra åtgärderna i den här a
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td> <p>Ny plan: Standard </p> 
+ <p>eller</p>  
+<p>Aktuell plan: Arbete eller högre </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 

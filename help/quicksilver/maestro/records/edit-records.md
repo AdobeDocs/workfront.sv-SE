@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ Du kan redigera en post i följande områden:
    >  * Fält av följande typer: Skapad av, Skapad, Senast ändrad av, Senast ändrad
 
 
-1. (Valfritt) Kopiera ett befintligt värde för ett fält, klistra in i ett fält av samma typ på en annan post och klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
+1. (Valfritt) Kopiera ett eller flera befintliga värden för ett fält, klistra in dem i ett fält av samma typ på en annan post och klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ Du kan redigera en post i följande områden:
    >* Du kan inte kopiera och klistra in fältvärden för följande fälttyper:
    ><ul>
    >
-   > * Folk
-   >
    > * Systemfält
-   >
-   > * Länkade fält som har skapats som ett resultat av att poster kopplas
+
 
    <!--take People out of the list above when they release this - this might be coming later-->

@@ -2,27 +2,27 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Kom igång med [!UICONTROL Home]
-description: Det finns två sätt att visa ditt arbete i [!UICONTROL Home] område, antingen från [!UICONTROL Work List] eller [!UICONTROL Calendar].
+description: The [!UICONTROL Home] är den enda butik du behöver för att hitta uppgifter, utgåvor och godkännanden som du har tilldelats. Det finns två sätt att visa ditt arbete i [!UICONTROL Home] område, antingen från [!UICONTROL Work List] eller [!UICONTROL Calendar].
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
 
 # Kom igång med [!UICONTROL Home]
 
-I den här artikeln beskrivs en översikt över den aktuella [!UICONTROL Home] område i [!DNL Adobe Workfront]. Mer information om att arbeta i nya [!UICONTROL Home], se [Kom igång med nya startsidor i Adobe Workfront](../new-home/get-started-with-new-home.md).
+I den här artikeln beskrivs en översikt över den aktuella [!UICONTROL Home] område i [!DNL Adobe Workfront]. Mer information om att arbeta i nya [!UICONTROL Home], se [Kom igång med Nytt hem](../new-home/get-started-with-new-home.md).
 
 Det finns två sätt att visa ditt arbete i den aktuella [!UICONTROL Home] område:
 
 * Från [!UICONTROL Work List]
 * Från [!UICONTROL Calendar].
 
-## Arbetslista
+## [!UICONTROL Work List]
 
 Du kan visa allt ditt tilldelade arbete på ett och samma ställe i dialogrutan [!UICONTROL Work List]:
 
@@ -39,7 +39,7 @@ Mer information om hur du använder [!UICONTROL Home Work List]finns i följande
 * [Visa objekt i [!UICONTROL Work List] i [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Skapa arbetsobjekt från [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
-## Kalender
+## [!UICONTROL Calendar]
 
 Du kan visualisera ditt arbete genom att visa när arbetsuppgifter förfaller och du kan blockera tid för att slutföra dem genom att granska ditt arbete i [!UICONTROL Calendar] i [!UICONTROL Home] område:
 
@@ -59,15 +59,15 @@ Mer information om hur du använder hemkalendern finns i [Använd [!UICONTROL Ho
 
 ## Hitta ditt arbete
 
-The [!UICONTROL Home] är den enda butik du behöver för att hitta uppgifter, utgåvor och godkännanden som du har tilldelats. Filtrerings- och sorteringsalternativen finns inbyggda i [!UICONTROL Home] arbetar tillsammans för att hjälpa dig att arbeta som du vill. Du kan använda [!UICONTROL Sort by] om du vill gruppera objekt och sedan använda filtret för att fokusera på det arbete som behöver slutföras.
+The [!UICONTROL Home] är den enda butik du behöver för att hitta uppgifter, utgåvor och godkännanden som du har tilldelats. Filtrerings-, grupperings- och sorteringsalternativen fungerar tillsammans så att du kan ordna dina arbetsobjekt som du vill. Du kan använda grupperingar för att gruppera objekt, filter för att fokusera på arbete som behöver slutföras och slutligen sortera objekten i den stigande eller fallande ordningen i grupperingen.
 
 >[!NOTE]
 >
 >Filtrerings- och sorteringsalternativen lagras i webbläsaren. Om du konsekvent använder samma webbläsare på samma dator (och inte rensar platsdata) ändras inte filtren och sorteringen, men om du byter webbläsare eller dator ändras filtren och sorteringen.
 
-### Gruppera liknande arbetsobjekt tillsammans med &#39;[!UICONTROL Group by]Alternativet
+### Gruppera liknande arbetsuppgifter tillsammans med grupperingar
 
-The [!UICONTROL Sort by] kan du gruppera liknande objekt i arbetslistan. Du kan sortera efter:
+Du kan använda grupperingar för att visa liknande objekt under en gemensam rubrik i arbetslistan. Du kan gruppera objekt efter:
 
 * [!UICONTROL Planned Completion]
 * [!UICONTROL Planned Start]
@@ -93,21 +93,17 @@ Nedan följer exempel på hur du kan filtrera objekt som du visar i Hem:
 
   Du kan t.ex. välja [!UICONTROL Issues] för att se alla problem i alla lägen ([!UICONTROL Working On] eller [!UICONTROL Requested]), eller [!UICONTROL Approvals] om du vill se alla arbetsobjekt, förfrågningar om åtkomst, tidrapport, dokument och korrekturgodkännanden.
 
-* Filtrera endast efter status.
-
-  Du kan t.ex. välja [!UICONTROL Completed] för att visa uppgifter och ärenden som har slutförts. Detta inkluderar personliga uppgifter men inte godkännanden.
-
 Mer information om hur du använder filter finns i [Visa objekt i [!UICONTROL Work List] i [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
 ### Få tillgång till arbete som tilldelats ditt team
 
-The [!UICONTROL Home] -området har en permanent gruppering som är dedikerad till gruppförfrågningar med en direktlänk till teamets begärandesida. Använd den här grupperingen för att visa och komma åt begäranden för alla team du är i.
+The [!UICONTROL Home] området har en permanent gruppering ([!UICONTROL Team Requests]) som visar uppgifter och ärenden som tilldelats dina team. Team visas i det här avsnittet. När du klickar på ett teamnamn öppnas sidan Teamförfrågningar för det teamet.
 
 >[!NOTE]
 >
->The [!UICONTROL Filter] och [!UICONTROL Sort by] alternativen påverkar inte [!UICONTROL Team Requests] gruppering. Den här grupperingen visas så länge du har arbete tilldelat ditt team.
+>Filtrerings- och sorteringsalternativen påverkar inte [!UICONTROL Team Requests] gruppering. Den här grupperingen visas så länge du har arbete tilldelat ditt team.
 
 Mer information om hur du får åtkomst till teamförfrågningar finns i artikeln [[!UICONTROL Manage] arbets- och teamförfrågningar i [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -115,19 +111,19 @@ Mer information om hur du får åtkomst till teamförfrågningar finns i artikel
 
 ### Övervaka material som du har skickat in
 
-Håll reda på material som du har skickat in för godkännande direkt från [!UICONTROL Work List]. Du kan påminna godkännaren om arbetet som behöver godkännas. Du kan även återkalla godkännandet om det behövs.
+Håll reda på material som du har skickat in för godkännande direkt från [!UICONTROL Work List]. Det finns en permanent gruppering för [!UICONTROL Approvals I've Submitted] när du väljer att visa [!UICONTROL Approvals] i [!UICONTROL Work List]. Du kan påminna godkännaren om arbetet som behöver godkännas. Du kan även återkalla godkännandet om det behövs.
 
 >[!NOTE]
 >
->The [!UICONTROL Filter] och [!UICONTROL Sort by] alternativen påverkar inte [!UICONTROL Approvals I've Submitted] gruppering. Den här grupperingen visas så länge du väntar på godkännande.
-
-
+>Filtret och sorteringen påverkar inte [!UICONTROL Approvals I've Submitted] gruppering. Den här grupperingen visas så länge du väntar på godkännande.
+>
+>Antalet godkännanden i [!UICONTROL Approvals] Filtret visar inte antalet objekt som du har skickat för godkännande. The [!UICONTROL Approvals] Filtret visar bara de objekt som väntar på ditt godkännande.
 
 ![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
 
 ## Prioritera det som är viktigt för dig
 
-The [!UICONTROL Work List] gör att du kan identifiera och prioritera arbete som är viktigt för dig med [!UICONTROL My Priority Sort by] alternativ. Du kan lägga till upp till 20 objekt i [!UICONTROL My Priority] lista. Använd [!UICONTROL More] om du vill lägga till arbetsobjekt i prioriteringslistan.
+The [!UICONTROL Work List] gör att du kan identifiera och prioritera arbete som är viktigt för dig med [!UICONTROL My Priority] gruppering. Du kan lägga till upp till 20 objekt i [!UICONTROL My Priority] lista.
 
 >[!NOTE]
 >
@@ -139,34 +135,31 @@ Mer information om hur du använder [!UICONTROL My Priority], se [Prioritera arb
 
 ## Få det gjort
 
-Använd den högra panelen i [!UICONTROL Home] för att uppdatera och slutföra arbetet.
+När du klickat på namnet på ett objekt i [!UICONTROL Work List], använder du den högra panelen i [!UICONTROL Home] för att uppdatera och slutföra arbetet.
 
 ### Arbeta i ett utrymme som är anpassat för dig
 
-Dina [!DNL Adobe Workfront] kan lägga till upp till 16 anpassade fält så att det blir enklare att hitta och uppdatera informationen. De flesta fälten kan redigeras, så du behöver inte navigera till arbetsposten.
+Dina [!DNL Workfront] kan lägga till upp till 16 anpassade fält i objekt i [!UICONTROL Work List]för att göra det enklare att hitta och uppdatera den information du behöver. De flesta fälten kan redigeras, så du behöver inte navigera till arbetsposten.
 
-Om du vill uppdatera något av fälten i det här området klickar du bara på fältet.
+Om du vill uppdatera något av fälten i det här området klickar du bara på ett fält. Om fältet är redigerbart kan du ändra det på den högra panelen.
 
 >[!NOTE]
 >
->Du kan inte uppdatera [!UICONTROL Commit Date] i det här området.
+>Du kan inte uppdatera [!UICONTROL Commit Date] om det här fältet läggs till i ett arbetsobjekt från en layoutmall.
 
 ![](assets/16-fields-home-350x137.png)
 
-### Uppdatera medarbetare med viktig information
+### Uppdatera andra med viktig information
 
-Kommunicera snabbt och effektivt med medarbetare från [!UICONTROL Home] område. Du ställer frågor till dina medarbetare, underrättar dem om de senaste uppdateringarna eller svarar på direkta kommentarer. Dessutom kan du uppdatera andra om de framsteg du gör genom att:
+Kommunicera snabbt och effektivt med andra från [!UICONTROL Home] område. Med kommentarsdelen av en arbetsuppgift kan du ställa frågor, meddela andra om de senaste uppdateringarna eller svara på direkta kommentarer från [!UICONTROL Home] område. Dessutom kan du uppdatera andra om de framsteg du gör genom att:
 
-* Uppdaterar [!UICONTROL Commit Date]
+* Uppdaterar [!UICONTROL Commit Date] i kommentarsområdet
 
-  <!--
-  <note type="note">
-  This is the only place you can update the Commit Date in Home.
-  <br>
-  </note>
-  -->
+  >[!NOTE]
+  >
+  >   Det här är den enda platsen där du kan uppdatera implementeringsdatumet i hemmet.
 
-* Rapportera hur du känner att saker och ting går
+* Rapportering om hur du känner att saker och ting går, genom att lägga till en kommentar eller uppdatera [!UICONTROL Condition] av en artikel
 * Uppdaterar fältet Procent färdigt
 
 Mer information om kommunikation finns i [!UICONTROL Home] område, se [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
