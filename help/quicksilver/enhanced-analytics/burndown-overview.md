@@ -7,9 +7,9 @@ description: I Burndown-visualiseringen visas ett specifikt projekts nedgång ö
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d337008d4fca8c41b98b10f9059ec1cc379811e1
+source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -18,23 +18,30 @@ ht-degree: 0%
 
 I Burndown-visualiseringen visas ett specifikt projekts nedgång över tid och hjälper dig att förstå förhållandet mellan projektvillkor, hastighet och återstående timmar - eller dagar.
 
-![](assets/burndown-350x112.png)
+![Exempel på utökad analys](assets/burndown120623.png)
 
 ## Åtkomstkrav
 
-Du måste ha följande:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a>*</td> 
-   <td> <p>Företag eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td>
+      <p>Ny plan: Alla</p>
+      <p>eller</p>
+      <p>Aktuell plan: Business eller högre</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td>
+      <p>Ny plan: ljus eller högre</p>
+      <p>eller</p>
+      <p>Aktuell plan: Granska eller senare</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -42,7 +49,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,27 +58,27 @@ Du måste ha följande:
 
 ## Förutsättningar
 
-Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
 
 ## Förstå Burndown-visualiseringen
 
-Den täckande blå raden visar den planerade hastigheten från startdatumet till det planerade slutförandedatumet. Den här raden justeras när arbete läggs till, tas bort eller uppdateras och ändras till en streckad vertikal linje när projektet når det planerade slutförandedatumet.
+Den täckande blå raden visar den planerade hastigheten från startdatumet till det planerade slutförandedatumet. Den här raden justeras när arbete läggs till, tas bort eller uppdateras, och den ändras till en streckad vertikal linje när projektet når det planerade slutförandedatumet.
 
-![](assets/burndown-planned-line.png)
+![Planerad hastighet](assets/burndown-planned-line.png)
 
 Den faktiska raden visar hur många timmar - eller dagar - som har ägnats åt projektet över tid. Färgen på den här raden anger projektets villkor varje dag:
 
-* **Grön**: Projektet är på mål.
+* **Grön**: Projektet är på målet.
 
-   ![](assets/burndown-green.png)
+  ![På mål](assets/burndown-green.png)
 
 * **Orange**: Projektet är i fara.
 
-   ![](assets/burndown-orange.png)
+  ![Vid risk](assets/burndown-orange.png)
 
 * **Röd**: Projektet är i trubbel.
 
-   ![](assets/burndown-red.png)
+  ![I trubbel](assets/burndown-red.png)
 
 Mer information om projektvillkoren finns i [Översikt över projektvillkor och villkorstyp](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -82,31 +89,32 @@ Under x-axeln i visualiseringen kan du se mer information om hur uppgifter och t
 Genom att se all den här informationen i Burndown-visualiseringen kan du avgöra:
 
 * Det enskilda projektets hälsa över tiden
-* Hur problem (eller oplanerade arbeten) påverkade det planerade arbetet.
-* Vilka händelser som förlängde ditt projekt efter det ursprungliga slutförandedatumet.
+* Hur problem som kommer in (eller oplanerade arbeten) påverkade det planerade arbetet
+* Vilka händelser som förlängde ditt projekt efter det ursprungliga slutförandedatumet
 
 Om du vill veta hur du får de bästa data för den här visualiseringen kan du läsa [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visa Burndown-visualisering
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
+{{step1-to-analytics}}
+
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Välj datum](assets/filters-select-date-range-350x344.png)
 
-   Mer information om hur du använder datumintervallfiltret finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Villkorligt) Om du behöver begränsa projektdatauppsättningen markerar och tillämpar du de filter som du vill använda.
 
-   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    När du har lagt till filter visas data för upp till 50 projekt och filtren förblir aktiva även när du lämnar sidan eller loggar ut från Workfront.
 
-1. (Valfritt) Om du vill zooma in ett datumintervall markerar du en punkt i visualiseringen för början av datumintervallet och drar till slutet av datumintervallet.
+1. (Valfritt) Om du vill zooma in ett datumintervall markerar du en punkt i visualiseringen för början av datumintervallet och drar den till slutet av datumintervallet.
 
-   Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas.
+   Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas automatiskt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Tidsramsfilter](assets/timeframe-filter-350x220.png)
 
 1. Klicka på ett projekt i Flight-planen eller på Project treemap-visualisering för att visa mer information.
 
@@ -116,12 +124,10 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
    >
    >Mer information om dessa andra visualiseringar finns i:
    >
-   >   
-   >   
    >   * [Visa flygplansvisualisering i Förbättrad analys](../enhanced-analytics/flight-plan-overview.md)
    >   * [Visa projekttreemap-visualisering i Förbättrad analys](../enhanced-analytics/project-treemap-overview.md)
    >   * [Visa uppgifter i flygvisualisering i Förbättrad analys](../enhanced-analytics/tasks-in-flight-overview.md)
-
+   >
 
 1. (Valfritt) Ändra vyn från planerade timmar till **varaktighet**.
 
@@ -130,23 +136,23 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
    >[!NOTE]
    >
    >Markera **varaktighet** ändrar all timinformation till dagar.\
-   >![](assets/duration-burndown-350x112.png)\
-   >Mer information om varaktighet i området Förbättrad analys finns i avsnittet&quot;Varaktighet&quot; i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+   >![Tid för nedbränning](assets/duration-burndown-350x112.png)\
+   >Mer information om varaktighet i området Förbättrad analys finns i avsnittet&quot;Varaktighet&quot; i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
 
 1. Klicka på en punkt i linjediagrammet.
 
-   Det exakta datumet visas och ytterligare information om uppgifter och timmar - eller dagar - för den valda dagen visas nedan.
+   Det exakta datumet visas under diagrammet och ytterligare information om uppgifter och timmar - eller dagar - för den valda dagen.
 
-   ![](assets/burndown-task-and-hour-changes-350x121.png)
+   ![Förbränningsinformation](assets/burndown-task-and-hour-changes-350x121.png)
 
    >[!NOTE]
    >
    >Om den faktiska hastigheten är en platt linje som löper längs x-axeln (inline med 0 timmar eller 0 dagar) i visualiseringen innebär det att inga planerade timmar - eller dagar - har lagts till i projektet.\
    >Om den faktiska hastigheten är en platt linje ovanför x-axeln (i linje med ett antal timmar eller antal dagar) som aldrig går ned, innebär det att inga uppgifter har slutförts inom den filtrerade tidsperioden.
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Exportera** icon ![](assets/export.png)i det övre högra hörnet av visualiseringen väljer du exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Exportera** icon ![Ikonen Exportera](assets/export.png)i det övre högra hörnet av visualiseringen och välj exportformat:
 
-   * **Diagram (PNG)**
-   * **Datatabell (XSLX)**
+   * Diagram (PNG)
+   * Datatabell (XSLX)
 
-1. (Valfritt) Om du vill se information om förloppet för uppgifter i det valda projektet tittar du på Aktiviteter i flygvisualisering som visas under nedladdningsvisualiseringen.
+1. (Valfritt) Om du vill se information om förloppet för uppgifter i det valda projektet tittar du på Aktiviteter i flygvisualisering som visas under nedladdningsvisualiseringen. Mer information finns i [Visa uppgifter i flygvisualisering i Förbättrad analys](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).
