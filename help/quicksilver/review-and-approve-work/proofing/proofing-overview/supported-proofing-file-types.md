@@ -2,19 +2,19 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Översikt över filtyper och storleksbegränsningar som stöds
+title: Översikt över filtyper och storleksbegränsningar som stöds för korrektur
 description: Du kan dela och granska olika typer av filer med granskarna, även om de inte har det program som användes för att skapa filerna (t.ex. Photoshop eller Illustrator) installerat på sina datorer. Vi stöder statiska filer, video, ljud, webbinspelningar och interaktiva filtyper som är upp till 4 GB stora.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
-# Översikt över filtyper och storleksbegränsningar som stöds
+# Översikt över filtyper och storleksbegränsningar som stöds för korrektur
 
 Du kan dela och granska olika typer av filer med granskarna, även om de inte har det program som användes för att skapa filerna (t.ex. Photoshop eller Illustrator) installerat på sina datorer. Vi stöder statiska filer, video, ljud, webbinspelningar och interaktiva filtyper som är upp till 4 GB stora.
 
@@ -57,7 +57,7 @@ Workfront har följande begränsningar:
 * ARW - Sony Raw-format
 * AWD - Microsoft Fax
 * BMP - Bitmappsformat för Windows och OS/2
-* CAL - CALS Raster
+* CAL - CALS-raster
 * CGM - Computer Graphics Metafile
 * CIN - Kodak Cineon
 * CLP - Windows Urklipp
@@ -105,10 +105,10 @@ Workfront har följande begränsningar:
 * JPM - JPEG 2000 Part 6
 * JPX - JPEG 2000 Part 2
 * KDC - Kodak Digital Camera
-* Mac - MacPaint
+* MAC - MacPaint
 * MIF - MapInfo Interchange
 * MNG - Multipel nätverksgrafik
-* MO:DCA - Blandat objekt: Dokumentets innehållsarkitektur
+* MO:DCA - blandat objekt: Dokumentinnehållsarkitektur
 * MSP - Microsoft Paint
 * MRC - LEAD Mixed Raster Content
 * MRC - T.44 Blandat rasterinnehåll
@@ -131,7 +131,7 @@ Workfront har följande begränsningar:
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint-presentation
 * PPTX - PowerPoint-presentation 2007 PS - PostScript-fil
-* PSD - Photoshop
+* PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
 * RAS - SUN Raster
@@ -141,7 +141,7 @@ Workfront har följande begränsningar:
 * RW2 - Panasonic Raw-format
 * SCT - Scitex Continuous Tone
 * SFF - Strukturerat faxformat
-* SGI - Silicon Graphics Image
+* SGI - Silicon Graphics-bild
 * SHP - ESRI-form
 * SMP - Xionics
 * SNP - Ögonblicksbild av Microsoft Access-rapport
@@ -192,7 +192,7 @@ Workfront har följande begränsningar:
 * PDF - Adobe Portable Document File
 * PPT - PowerPoint-presentation
 * PPTX - PowerPoint-presentation 2007 PS - PostScript-fil
-* PSD - Photoshop
+* PSD - PHOTOSHOP
 * RTF - RTF
 * XLS - Microsoft Excel-kalkylblad
 * XLSX - Microsoft Excel-kalkylblad 2007
@@ -247,6 +247,6 @@ Du kan bara skicka in zip-filer om de innehåller ett helt interaktivt projekt o
 
 Mer information finns i [Översikt över korrektur av interaktivt material](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-## InDesign och Quark-filer
+## InDesign- och Quark-filer
 
-Vi stöder inte InDesign och Quark-filer eftersom de inte är självständiga filtyper och de refererar till många andra filer, som bilder och teckensnitt. Utdata från dessa filtyper varierar beroende på utdatainställningarna. Vi rekommenderar att man sparar InDesign och Quark-filer som PDF och överför PDF.
+Vi stöder inte InDesign- och Quark-filer eftersom de inte är självständiga filtyper och de refererar till många andra filer, som bilder och teckensnitt. Utdata från dessa filtyper varierar beroende på utdatainställningarna. Vi rekommenderar att man sparar InDesign och Quark-filer som PDF och överför PDF.
