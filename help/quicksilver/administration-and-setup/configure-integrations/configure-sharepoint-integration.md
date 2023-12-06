@@ -3,14 +3,14 @@ title: Konfigurera [!DNL SharePoint] integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Ni kan integrera [!DNL Workfront] med [!DNL SharePoint] online, ger användarna möjlighet att navigera till, länka och lägga till [!DNL SharePoint] dokument i Workfront. Den angivna funktionaliteten liknar den för andra [!DNL Workfront] integreringar, som Google Drive, Box och Dropbox.
-author: Becky, Caroline
+description: Ni kan integrera [!DNL Workfront] med [!DNL SharePoint] online, ger användarna möjlighet att navigera till, länka och lägga till [!DNL SharePoint] dokument i Workfront. Den angivna funktionaliteten liknar den för andra [!DNL Workfront] dokumentintegreringar.
+author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3fafc4d782e518d774e981c2e37f9a5f1595edb1
+source-git-commit: 3cc1745b33d645d37248185b4163a39c1bead60e
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör. För information om [!DNL Workfront] administratörer, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td>Du måste vara en [!DNL Workfront] administratör. För information om [!DNL Workfront] administratörer, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Förutsättningar
 
-Du måste ha nödvändig åtkomst eller behörighet i [!DNL SharePoint] för att ändra eller konfigurera organisationens [!DNL SharePoint].
+Du måste ha nödvändig åtkomst eller behörighet i [!DNL SharePoint] för att ändra eller konfigurera [!DNL SharePoint] integrering.
 
 ## Länka dokument via den nya SharePoint-integreringen
 
@@ -84,7 +84,7 @@ Instruktioner om hur du länkar dokument genom det nya [!DNL SharePoint] integre
 
 ### Länka dokument från SharePoint
 
-Anvisningar om hur du länkar dokument från SharePoint via nya [!DNL SharePoint] integrering, se [Länka ett externt dokument till [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+Anvisningar om hur du länkar dokument från SharePoint via nya [!DNL SharePoint] integrering, se [Länka ett externt dokument till [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
 
 ### Skicka dokument till SharePoint
 
@@ -121,10 +121,7 @@ Första gången en användare lägger till ett dokument i [!DNL Workfront] från
 | Bevara åtkomst till data som du har gett åtkomst till | Tillåter [!DNL Workfront] för att generera en uppdateringstoken. |
 | Logga in och läs användarprofilen | Tillåter [!DNL Workfront] om du vill använda åtkomsttoken för att agera för användarens räkning via inloggningsflödet OAuth2. |
 
-Den här åtkomsten beviljas av användaren första gången de använder integreringen och kan återkallas när som helst.
-
-Tänk på följande när det gäller åtkomst till [!DNL SharePoint] via [!DNL Workfront] [!DNL SharePoint] integrering:
-
+* Den här åtkomsten beviljas av användaren första gången de använder integreringen och kan återkallas när som helst.
 * Behörigheterna som krävs för integreringen är **delegerad** behörigheter.
 * [!DNL Workfront] begär den lägsta åtkomstnivå som krävs för att utföra åtgärder i integreringen.
 * Åtkomst till att visa, redigera eller ta bort en [!DNL Adobe Workfront] dokument länkat till [!DNL SharePoint] baseras på användarens åtkomst till [!DNL Workfront]. All navigering, hämtning eller redigering av en [!DNL SharePoint] fil eller mapp kräver åtkomst till [!DNL SharePoint]och åtkomsten till dessa åtgärder styrs av [!DNL SharePoint].
@@ -143,24 +140,25 @@ Om en resurs först överfördes till [!DNL Workfront]och sedan skicka till [!DN
 
 För att säkerställa att dina användare har fortsatt åtkomst till dokument som är länkade till Workfront via äldre [!DNL SharePoint] integreringen måste du konfigurera om åtkomsten till det gamla [!DNL SharePoint] integrering och håller SharePoint Client Secret uppdaterat.
 
-* [Konfigurera om åtkomst till äldre [!DNL SharePoint] integration](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
-* [Konfigurera klienthemligheten för fortsatt åtkomst till äldre [!DNL SharePoint] integration](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
+* [Konfigurera om åtkomst till äldre [!DNL SharePoint] integration](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Konfigurera klienthemligheten för fortsatt åtkomst till äldre [!DNL SharePoint] integration](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Konfigurera om åtkomst till äldre [!DNL SharePoint] integration
 
-För att säkerställa att du kan komma åt dokument som är länkade via äldre [!DNL SharePoint] integreringen, och samtidigt vara säker på att användarna inte kan länka nya dokument genom integreringen, ska du slutföra följande procedur.
+Omkonfigurera äldre [!DNL SharePoint] integreringen ger användarna tillgång till dokument som länkats via äldre [!DNL SharePoint] integreringen, samtidigt som man ser till att användarna inte kan länka nya dokument genom integreringen.
 
 >[!NOTE]
 >
 > * Det gamla [!DNL SharePoint] integreringen är märkt &quot;[!DNL SharePoint].&quot;
 > * Den nya [!DNL SharePoint] integreringen är märkt &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].&quot;
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **[!UICONTROL Setup]** ![Inställningar](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
 1. Välj **[!UICONTROL Documents]** i den vänstra navigeringen väljer du **[!UICONTROL Cloud Providers]**.
 1. Se till att **[!DNL SharePoint]** och **[!UICONTROL [!DNL SharePoint] (Graph API)]** båda är aktiverade.
 1. Klicka på **[!UICONTROL Save]**.
 1. Välj **[!UICONTROL Documents]** i den vänstra navigeringen väljer du **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Markera bockmarkeringen till vänster i listan för alla befintliga integreringar och välj sedan **[!UICONTROL Disable]**.
+   ![](assets/disable-old-sharepoint.png)
 
 
 ### Konfigurera klienthemligheten för fortsatt åtkomst till äldre [!DNL SharePoint] integration
@@ -175,13 +173,13 @@ Dina [!DNL SharePoint] Klienthemlighet upphör en gång om året. För att säke
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. Generera en ny klienthemlighet enligt beskrivningen i [Ersätta en utgående klienthemlighet i en [!DNL SharePoint] Tillägg](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+1. Generera en ny klienthemlighet enligt beskrivningen i [Ersätta en utgående klienthemlighet i en [!DNL SharePoint] Tillägg](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopiera den här klienthemligheten till en säker plats.
 1. Logga in [!DNL Workfront] som administratör.
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
 1. Klicka på i den vänstra panelen **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Klicka på [!DNL SharePoint] integrering som du vill uppdatera och klicka sedan på **[!UICONTROL Edit]**.
-1. Ange den nya klienthemligheten i dialogrutan **[!UICONTROL Client Secret]** fält.
+1. Leta reda på **Anslutningsinformation** i redigeringsfönstret anger du den nya klienthemligheten i **[!UICONTROL SharePoint Client Secret]** fält.
 1. Klicka på **[!UICONTROL Save]**.
 
 <!--
@@ -467,7 +465,8 @@ Så här visar du en webbplatssamling i [!DNL Workfront]måste följande villkor
 
 * Användaren måste ha vyåtkomst till webbplatssamlingen i [!DNL SharePoint].
 
-  Så här verifierar du [!DNL SharePoint], gå till [!DNL SharePoint]och öppna webbplatssamlingen > [!UICONTROL Settings] > [!UICONTROL Site permissions].
+  Så här verifierar du [!DNL SharePoint]kontrollerar du webbplatssamlingens behörigheter i SharePoint.
+
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:

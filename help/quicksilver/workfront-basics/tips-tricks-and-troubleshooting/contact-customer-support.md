@@ -2,12 +2,13 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Kontakta kundsupport
-description: Om du är Adobe Workfront-kund kan du kontakta Workfront kundsupport per telefon eller genom att skicka en anmälan online.
+description: Om du är Adobe Workfront-kund kan du kontakta Workfront kundsupport per telefon eller genom att skicka en anmälan online. I den här artikeln finns anvisningar om hur du kontaktar kundsupport och hur du visar och hanterar dina supportärenden.
 feature: Get Started with Workfront
+author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 489c5b0fd1f4b50a2b479070064dda2ee09185f8
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -36,28 +37,32 @@ Du kan kontakta [!DNL Workfront Customer Support] 7 dagar i veckan, 24 timmar om
 
 Du kan skicka in en supportanmälan från självbetjäningen [!DNL Experience League] portal.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Endast behöriga supportkontakter (eller berättigade kunder) kan skicka supportärenden online.
+>Endast behöriga supportkontakter (eller supportberättigade användare) kan skicka supportärenden online.
 
 
 1. Från [[!DNL Experience League]](https://experienceleague.adobe.com) webbplats, klicka på **[!UICONTROL Support]**  överst på sidan.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   På supportwebbplatsen kan du enkelt navigera till öppna supportärenden, logga ett nytt ärende, visa de viktigaste supportartiklarna eller få tillgång till ytterligare utbildningsmaterial.
+   The [!UICONTROL Support] sidan öppnas.
+
+   Från [!UICONTROL Support] på startsidan kan du navigera till dina öppna supportärenden, logga ett nytt ärende, visa det översta [!UICONTROL Support] artiklar, eller få tillgång till ytterligare utbildningsresurser.
 
 1. Välj alternativet om du vill skicka ett ärende **[!UICONTROL Open a support case]** och sedan klicka **[!UICONTROL Sign]I**.
 
 1. Klicka **[!UICONTROL Open case]** till vänster.
 
+<!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
+-->
 
-   The [!UICONTROL case creation] öppnas där du kan ange ditt produktnamn ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], osv.), skiftläge och fallbeskrivning.
+The [!UICONTROL case creation] öppnas där du kan ange ditt produktnamn ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], osv.), skiftläge och fallbeskrivning.
 
-   >[!TIP]
-   >
-   >Var så beskrivande som möjligt när du beskriver problemet som du står inför för att hjälpa oss att snabba upp felsökningsprocessen.
+>[!TIP]
+>
+>Var så beskrivande som möjligt när du beskriver problemet som du står inför för att hjälpa oss att snabba upp felsökningsprocessen.
 
 
 1. Fyll i informationen för följande fält för att ge oss mer specifik information:
@@ -69,29 +74,30 @@ Du kan skicka in en supportanmälan från självbetjäningen [!DNL Experience Le
 
 1. Överför relevanta filer och klicka sedan på **[!UICONTROL Submit case]**.
 
-   The [!UICONTROL My cases] visas.
+   Ärendet är inlämnat och [!UICONTROL My cases] visas.
 
-   ![](assets/all-cases-list-exl-support-portal.png)
-
-1. (Valfritt) På **[!UICONTROL My cases]** sida, granska ärenden som din organisation har skickat in.
-
-   >[!TIP]
-   >
-   >Du kan även navigera till [!UICONTROL My cases] sida genom att klicka **[!UICONTROL My cases]** till vänster.
-
-1. På **[!UICONTROL My cases]** använder du alternativen längst upp på sidan för att filtrera efter **Produkt ([!DNL Experience Cloud] lösning)** eller fall **[!UICONTROL Status]** (Öppen eller stängd). Du kan också använda [!UICONTROL search] om du vill söka efter nyckelord som gäller dina supportärenden.
-
-1. Om du vill visa mer information om ett ärende klickar du på **Ärendenummer** för att komma åt den. The [!UICONTROL case] -vyn öppnas.
-
-1. I [!UICONTROL case] granska de senaste kommentarerna hos den som äger ärendet och lägg till eventuella ytterligare bilagor eller svar.
-
-1. Klicka **[!UICONTROL Escalate to management]** till höger om sidan under **[!UICONTROL Case Detail]** för att eskalera ärendet.
-
-1. Klicka på **[!UICONTROL Close case]** för att stänga ärendet.
-
+   <!--
+   [](assets/all-cases-list-exl-support-portal.png)
+   -->
 
 Om du har några frågor eller problem med att skicka in en förfrågan kan du ringa kundsupport.
 
+
+## Visa och hantera supportärenden
+
+1. Navigera till **[!UICONTROL My cases]** sida. Den här sidan öppnas när du skickar ett ärende, eller så kan du öppna den genom att klicka på **[!UICONTROL My cases]** i den vänstra navigeringen.
+
+1. (Valfritt) Använd alternativen längst upp på sidan för att filtrera efter **Produkt ([!DNL Experience Cloud] lösning)** eller fall **[!UICONTROL Status]** ([!UICONTROL Open] eller Cl). Du kan också använda [!UICONTROL search] om du vill söka efter nyckelord som gäller dina supportärenden.
+
+1. (Valfritt) Om du vill visa mer information om ett ärende klickar du på **Ärendenummer** för att komma åt den.
+
+   Fallvyn öppnas.
+
+1. (Valfritt) I fallvyn kan du granska de senaste kommentarerna med den tilldelade ärendeägaren och lägga till eventuella ytterligare bilagor eller svar.
+
+1. (Valfritt) Om du vill eskalera ärendet klickar du på **[!UICONTROL Escalate to management]** till höger på sidan under **[!UICONTROL Case Detail].
+
+1. Klicka på **[!UICONTROL Close case]** för att stänga ärendet.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

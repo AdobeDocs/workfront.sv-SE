@@ -4,21 +4,21 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Du kan integrera Adobe Workfront med tredjepartsprogram. Integrationer kan göra Workfront ännu bättre och skräddarsy det efter företagets behov.
-author: Becky, Caroline
+description: Du kan integrera Adobe Workfront med tredjepartsprogram och andra [!DNL Adobe] produkter. Integrationer kan göra Workfront ännu bättre och skräddarsy det efter företagets behov. Läs mer om de olika typerna av integreringar i den här artikeln.
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 68bfc55b68863682c3a0e3fcf303c4501420dd98
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] integreringar
 
-Du kan integrera Adobe Workfront med tredjepartsprogram och andra [!DNL Adobe] produkter. Integrationer kan göra Workfront ännu bättre och skräddarsy det efter företagets behov.
+Ni kan integrera [!DNL Adobe Workfront] med program från tredje part samt andra [!DNL Adobe] produkter. Integrationer kan göra Workfront ännu bättre och skräddarsy det efter företagets behov.
 
 Integreringarna för [!DNL Workfront] delas in i följande kategorier:
 
@@ -42,15 +42,15 @@ Så här kommer du igång med inbyggda (inbyggda) integreringar:
 
    En lista över tillgängliga integreringar finns på [Integrationer utan extra kostnad](#integrations-available-at-no-additional-cost) och [Integreringar som kräver ytterligare köp](#integrations-requiring-an-additional-purchase).
 
-1. **Identifiera er teknikadministratör**
+1. **Identifiera din teknikadministratör**
 
-   Identifiera organisationens teknikadministratör för det program du vill integrera med [!DNL Workfront]. Om du till exempel väljer att integrera med [!DNL Jira]måste du ha kontakt med företagets [!DNL Jira] administrera och engagera dem i alla konfigurationsbehov på deras plattform. Du bör även ta med den här administratören i alla samtal med [!DNL Workfront] Kundsupport.
+   Identifiera organisationens teknikadministratör för det program du vill integrera med [!DNL Workfront]. Om du till exempel väljer att integrera med [!DNL Jira]måste du ha kontakt med företagets [!DNL Jira] och engagera dem i alla konfigurationsbehov på deras plattform. Du bör även ta med den här administratören i alla samtal med [!DNL Workfront] Kundsupport.
 
    För att få igång administratören måste du ge dem de specifika instruktionerna för integreringen. Länkar till dessa instruktioner finns i [Integrationer utan extra kostnad](#integrations-available-at-no-additional-cost).
 
 1. **Engagera med [!DNL Workfront] Kundsupport**
 
-   Om din administratör har problem med den inbyggda integreringskonfigurationen kan du använda [!DNL Workfront] Kundsupport för att hjälpa till att vägleda eller felsöka. while [!DNL Workfront] kommer inte att konfigurera integreringen för dig, vi strävar efter att ge dig alla verktyg och resurser du behöver för att göra det själv. Du kan prata direkt med kundsupporten eller utforska de omfattande resursartiklarna som hjälper dig att enkelt konfigurera integreringen.
+   Om administratören har problem med den inbyggda integreringskonfigurationen kan du kontakta [!DNL Workfront] Kundsupport för att hjälpa till att vägleda eller felsöka. while [!DNL Workfront] kommer inte att konfigurera integreringen för dig, vi strävar efter att ge dig alla verktyg och resurser du behöver för att göra det själv. Du kan prata direkt med kundsupporten eller utforska de omfattande resursartiklarna som hjälper dig att enkelt konfigurera integreringen.
 
    Om du vill få kontakt med kundsupport går du till [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -60,7 +60,7 @@ Så här kommer du igång med inbyggda (inbyggda) integreringar:
 
    >[!NOTE]
    >
-   >Du måste vara den tilldelade supportkontakten hos din organisation för att kunna skicka in ett supportärende. När ärendet har skickats kan du lägga till din teknikadministratör för det andra systemet i konversationen. De kan inte kontakta supporten direkt själva.
+   >Du måste vara den tilldelade supportkontakten hos din organisation för att kunna skicka in ett supportärende. När ärendet har skickats kan du lägga till din teknikadministratör för det andra systemet i konversationen. De kan inte kontakta supporten direkt.
 
 Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske inte uppfyller alla företagets behov. Om så är fallet kan du kontakta din kontoansvarige för att diskutera en anpassad integrering.
 
@@ -130,7 +130,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
     <ul> 
      <li>[!DNL G Suite] användare måste ha [!DNL Workfront] licens </li> 
      <li>[!DNL Workfront] behörigheter för visning och arbetsdelning måste anges per åtkomstnivå </li> 
-     <li> POP-aktiverat e-postkonto </li> 
+     <li> Användaren måste ha ett POP-aktiverat e-postkonto </li> 
      <li>[!DNL Workfront] begäraninställningarna måste innehålla POP-inställningar </li> 
     </ul> </td> 
    <td> 
@@ -158,7 +158,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] plan eller högre</li> 
+     <li><p>Ny Workfront-plan: [!UICONTROL Select] [!DNL Workfront] plan eller högre</p><p>Aktuell Workfront-plan: [!UICONTROL Pro] [!DNL Workfront] plan eller högre</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -234,7 +234,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] plan eller högre</li> 
+     <li><p>Ny Workfront-plan: [!UICONTROL Select] [!DNL Workfront] plan eller högre</p><p>Aktuell Workfront-plan: [!UICONTROL Pro] [!DNL Workfront] plan eller högre</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -289,18 +289,26 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
 
 * [!DNL Workfront Fusion]
 
+  [!DNL Adobe Workfront Fusion] länkar åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar data automatiskt. Den har dedikerade anslutningar till många appar, men kan ansluta till alla program med ett offentligt API.
+
   Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-  Mer information finns i [Adobe Workfront för Experience Manager Assets och Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
+Tack vare integreringen mellan Workfront och Experience Manager Assets eller Assets Essentials kan företag förbättra innehållets hastighet och time-to-market genom att knyta ihop arbete och hantering av digitala resurser.
+
+Mer information finns i [Översikt över integreringar med Adobe Workfront for Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## Partnerintegreringar
 
-[!DNL Workfront] har ett omfattande partnersystem som innehåller dussintals integreringar som berikar [!DNL Workfront] upplevelse.
+[!DNL Workfront] har många partnerintegreringar som berikar [!DNL Workfront] upplevelse.
 
-Exempel på befintliga partnererbjudanden är integreringar med [!DNL Salesforce.com], [!DNL Oracle Responsys]och [!DNL Microsoft Visual Studio]. Mer information om dessa och andra spännande integreringar finns i [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Exempel på befintliga partnererbjudanden är integreringar med [!DNL Salesforce.com], [!DNL Oracle Responsys]och [!DNL Microsoft Visual Studio].
+
+Mer information om dessa och andra partnerintegreringar finns i [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-The [!DNL Workfront] Med API kan du utöka och förbättra [!DNL Workfront] genom att utnyttja vårt publika API. Du kan skapa egna integreringar med vårt öppna API. En detaljerad lista över tillgängliga objekt i [!DNL Workfront] API, se [!DNL Workfront] [API Explorer](../../wf-api/general/api-explorer.md).
+The [!DNL Workfront] Med API kan du utöka och förbättra [!DNL Workfront] genom att utnyttja vårt publika API. Du kan skapa egna integreringar med vårt öppna API.
+
+En detaljerad lista över tillgängliga objekt i [!DNL Workfront] API, se [!DNL Workfront] [API Explorer](../../wf-api/general/api-explorer.md).
