@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,7 @@ Du kan lägga till uppdateringar för följande objekt:
 1. Klicka på **Uppdateringar** -avsnitt.
 1. (Villkorligt) Om det är aktiverat klickar du på **Nya kommentarer** i det övre högra hörnet av uppdateringsavsnittet för att inaktivera det och aktivera den tidigare kommentarfunktionen.
 1. Klicka **Starta en ny uppdatering,** skriv sedan in uppdateringen.
-1. (Valfritt) Använd RTF eller lägg till känslolägesikoner, länkar eller bilder i uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
+1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 1. (Valfritt) Uppdatera någon av följande information om arbetsuppgiften:
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ Du kan lägga till uppdateringar för följande objekt:
    * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
 1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
-1. (Valfritt) Använd RTF eller lägg till känslolägesikoner, länkar eller bilder i uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
+1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ Du kan lägga till uppdateringar för följande objekt:
 
    >[!IMPORTANT]
    >
-   >Du kan bara redigera din kommentar inom 15 dagar från det att du skickat in den.
+   >Du kan bara redigera kommentaren inom 15 minuter från det att du skickat in den.
 
 1. Redigera informationen i kommentaren, lägg till eller ta bort bilder eller ta bort någon av de taggade användarna. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren angavs.
 
@@ -407,11 +407,15 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    1. Under **Text som ska visas** skriver du eller klistrar in länktexten.
    1. Klicka **Spara**.
 
-1. (Valfritt) <span class="preview">Om du vill bifoga en bild till uppdateringen kopierar du en skärmbild från datorn och klistrar in den i kommentaren </span>
+1. (Valfritt) Gör något av följande om du vill bifoga en bild till uppdateringen:
 
-   eller
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   Klicka på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
+   * <span class="preview">Kopiera en skärmbild från datorn och klistra sedan in den i kommentaren </span>
+   * Klicka på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
+
 
    >[!NOTE]
    >
