@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Skapa ett projekt
-description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa projekt från grunden, använda en mall eller genom att konvertera utgåvor eller uppgifter till projekt.
+description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa projekt från grunden, använda en mall eller konvertera utgåvor eller uppgifter till projekt.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 9125e2f7dbff41625166dcd358bab44d7c1b971b
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Ny plan: Standard</p>
+        <p>eller</p>
+        <p>Aktuell plan: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå*</td> 
@@ -77,7 +79,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>När du skapar ett projekt får du automatiskt behörigheten Hantera i projektet </p> <p> Mer information om projektbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>När du skapar ett projekt får du automatiskt behörigheten Hantera för projektet.</p> <p> Mer information om projektbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,105 +93,93 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 * Skapa ett projekt från grunden utan att använda en mall. I den här artikeln beskrivs hur du skapar ett projekt från grunden.
 
 * Kopiera ett befintligt projekt.\
-   Mer information om att kopiera projekt finns i [Kopiera ett projekt](../../../manage-work/projects/manage-projects/copy-project.md).
+  Mer information om att kopiera projekt finns i [Kopiera ett projekt](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Använd en mall.\
-   Mer information om hur du använder en mall för att skapa ett nytt projekt finns i [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
+  Mer information om hur du använder en mall för att skapa ett nytt projekt finns i [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 * Importera ett projekt från Microsoft Project.\
-   Mer information om hur du importerar ett projekt från MS Project finns i [Importera ett projekt från Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Mer information om hur du importerar ett projekt från MS Project finns i [Importera ett projekt från Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * Importera ett projekt med snabbstart.
 
-   Som Workfront-administratör kan du importera projekt med en snabbstart.
+  Som Workfront-administratör kan du importera projekt med en snabbstart.
 
-   Mer information om hur du importerar data med&quot;kick-launes&quot; i Workfront finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md) .
+  Mer information om hur du importerar data med&quot;kick-launes&quot; i Workfront finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   Mer information om hur du importerar projekt med hjälp av snabbstarter finns i [Scenario: enkel import av projekt och uppgifter](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
+  Mer information om hur du importerar projekt med hjälp av snabbstarter finns i [Startscenario: enkel import av projekt och uppgifter](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 * Publicera ett projekt från ett scenario i Adobe Workfront Scenario Planner. Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md). Mer information om hur du skapar projekt från publiceringsinitiativ finns i  [Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Förutsättningar
 
-Innan du börjar måste du se till att
+Innan du börjar måste du se till att:
 
 * Din system- eller gruppadministratör har aktiverat inställningen&quot;Tillåt användare att skapa projekt utan att använda en mall&quot; under Konfigurera.
 
-   Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Nya standardinställningar för projekt
 
-När du skapar ett projekt använder Workfront en uppsättning standardinställningar. Status-, grupp- eller schemaläge är till exempel förinställda när du skapar ett projekt.
+När du skapar ett projekt använder Workfront en uppsättning standardinställningar. Status, Grupp och Schemaläge är till exempel förinställda när du skapar ett projekt.
 
 Tänk på följande:
 
-* Som Workfront-administratör eller gruppadministratör kan du konfigurera standardinställningarna för ett nytt projekt när du konfigurerar projektinställningar för din Workfront-instans eller för en grupp.
+* Som Workfront-administratör eller gruppadministratör kan du konfigurera standardinställningarna för ett nytt projekt när du konfigurerar projektinställningar för hela Workfront-instansen eller för en grupp.
 * Workfront tillämpar inställningarna för gruppen, om det finns några, innan den tillämpar inställningarna som angetts av Workfront-administratören.
 * Standardstatusen för ett nytt projekt motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för en grupp.
 
-   >[!NOTE]
-   >
-   >Vi rekommenderar att standardstatusen för ett nytt projekt är Planering. När du gör ändringar i det nya projektet ser det till att meddelanden inte utlöses för de användare som är tilldelade till projektet.
-   >
-   >Mer information om hur du ställer in standardstatus och andra standardinställningar för ett nytt projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+  >[!NOTE]
+  >
+  >Vi rekommenderar att standardstatusen för ett nytt projekt är Planering. När du gör ändringar i det nya projektet ser det till att inga meddelanden skickas till användarna som är tilldelade projektet.
+  >
+  >Mer information om hur du ställer in standardstatus och andra standardinställningar för ett nytt projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 * Följande scenarier gäller för hur Workfront definierar gruppen och statusen för ett nytt projekt:
 
    * Om du skapar ett projekt från grunden är projektgruppen din hemgrupp.
 
-      Projektets status är standardstatus i Projektinställningar i din hemgrupp, om det finns någon, eller i din Workfront-instans. Du kan ändra standardstatus när du skapar projektet till vilken status som helst som är tillgänglig för Projektgruppen.
+     Projektets status är standardstatus i Projektinställningar i din hemgrupp, om det finns någon, eller i din Workfront-instans. Du kan ändra standardstatus när du skapar projektet till vilken status som helst som är tillgänglig för Projektgruppen.
 
    * Om du skapar ett projekt med hjälp av en mall har inställningarna från mallen företräde framför de inställningar som har angetts av Workfront- eller gruppadministratören.
 
-      Det nya projektets grupp är mallgruppen. Om mallen inte är associerad med en grupp är projektgruppen hemgruppen för den användare som skapar projektet.
+     Det nya projektets grupp är mallgruppen. Om mallen inte är associerad med en grupp är projektgruppen hemgruppen för den användare som skapar projektet.
 
-      Standardstatusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för gruppen. Du kan ändra standardstatus när du skapar ett projekt från en mall, till någon av statusvärdena för den grupp av projektet som är antingen mallgruppen eller hemgruppen för den användare som skapar projektet.
+     Standardstatusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för gruppen. Du kan ändra standardstatus när du skapar ett projekt från en mall, till någon av statusvärdena för den grupp av projektet som är antingen mallgruppen eller hemgruppen för den användare som skapar projektet.
 
    * Om du skapar ett projekt genom att konvertera ett problem, är gruppen för ett nytt projekt gruppen för problemets befintliga projekt. Om den användare som konverterar problemet inte har tillgång till problemets projekt eller om problemets projekt inte har någon grupp, är gruppen för det nya projektet hemgruppen för den användare som konverterar problemet.
 
-      Det nya projektets status matchar gruppstatusarna för gruppen som är associerad med projektet, som antingen är gruppen för det ursprungliga projektet eller hemgruppen för användaren som konverterar problemet.
+     Det nya projektets status matchar gruppstatusarna för gruppen som är associerad med projektet, som antingen är gruppen för det ursprungliga projektet eller hemgruppen för användaren som konverterar problemet.
 
-      Om du använder en mall när du skapar projektet genom att konvertera problemet, se det andra scenariot ovan för att ta reda på vilken grupp och vilken status Workfront gäller för det nya projektet.
+     Om du använder en mall när du skapar projektet genom att konvertera problemet, se det andra scenariot ovan för att ta reda på vilken grupp och vilken status Workfront gäller för det nya projektet.
 
 ## Skapa ett projekt från grunden
 
 1. Gör något av följande:
 
-   * Klicka på **Huvudmeny** ![](assets/main-menu-icon.png), klicka **Projekt** och sedan expandera **Nytt projekt**.
+   * Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) längst upp till vänster. Klicka **Projekt** och sedan expandera **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
-
-      >[!TIP]
-      >
-      >När du skapar ett projekt med hjälp av en mall från en portfölj uppdateras fältet Portfolio i det nya projektet till att visa den portfölj som du valde att skapa projektet från. Detta skriver över Portfolio-fältet i mallen, om det har angetts.
-
    * Gå till ett program och expandera **Nytt projekt**.
-
-      >[!TIP]
-      >
-      >När du skapar ett projekt med hjälp av en mall från ett program uppdateras fältet Program för de nya projekten så att det program du valde att skapa projektet från visas. Fältet Portfolio i mallen uppdateras för att visa portföljen för det program du valde att skapa projektet från. Fälten Program och Portfolio i mallen skrivs över, om de har angetts.
-
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-      >[!TIP]
-      >
-      >När du skapar ett projekt med en mall från en grupp, visas den grupp du skapar projektet från i fältet Grupp i det nya projektet endast när fältet Grupp i mallen inte har angetts. Om mallgruppsfältet anges är gruppfältet för det nya projektet mallfältet.
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Ny projektmeny](assets/new-project-dropdown-nwe-350x358.png)
 
-1. Klicka **Nytt projekt** om du vill skapa ett projekt från grunden.
+1. Klicka **Nytt projekt** på menyn för att skapa ett projekt från grunden.
 1. Ange ett namn för projektet. Tryck på Retur för att spara namnet.
 
-   ![](assets/untitled-project-rename-new-project-nwe-350x127.png)
+   ![Ange ett namn för projektet](assets/rename-untitled-project.png)
 
-   Projektsidans sidhuvud innehåller en snabb översikt över aktuell hälsa och status för ett projekt. Informationen i projekthuvudet ändras allt eftersom projektinformationen uppdateras.
+   Projektsidans sidhuvud innehåller en snabb översikt över aktuell hälsa och förloppet för ett projekt. Informationen i projekthuvudet ändras allt eftersom projektinformationen uppdateras.
 
-1. Klicka **Börja lägga till** **Uppgifter**.
+1. Klicka **Börja lägga till uppgifter**.
 
    eller
 
-   Klicka **Ny uppgift** om du vill lägga till uppgifter i projektet och tilldela resurser till dem.\
+   Klicka **Ny uppgift** om du vill lägga till uppgifter i projektet och tilldela resurser till dem.
+
    Mer information om hur du lägger till uppgifter i ett projekt finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Redigera projektinformationen genom att klicka på&#x200B;**Menyn Mer** och sedan **Redigera** ![](assets/qs-edit-icon.png) bredvid namnet på projektet.
+1. Redigera projektinformationen genom att klicka på **Mer** -menyn och sedan **Redigera** ![](assets/qs-edit-icon.png) bredvid namnet på projektet.
 
    The **Redigera projekt** öppnas.
 

@@ -7,9 +7,9 @@ description: Beroendetyper refererar till föregående relationer mellan uppgift
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,13 @@ Mer information om föregående aktiviteter finns i [Översikt över föregåend
 
 Följande är Workfront beroendetyper:
 
-* **Slutstart (fs)**: Föregående aktivitet måste avslutas innan den beroende aktiviteten kan startas. Det här är standardberoendetypen som används när ingen annan beroendetyp har angetts.
-* **Slutför (ff)**: Föregående aktivitet måste avslutas innan den beroende aktiviteten kan slutföras.
+* **Slutstart (fs)**: Föregående aktivitet måste slutföras innan den beroende aktiviteten kan startas. Det här är standardberoendetypen som används när ingen annan beroendetyp har angetts.
+* **Slutför (ff)**: Föregående aktivitet måste slutföras innan den beroende aktiviteten kan slutföras.
 * **Start-Start (ss)**: Föregående aktivitet måste starta innan den beroende aktiviteten kan startas. Du kan inte starta den beroende aktiviteten om inte föregående aktivitet har startats.
 * **Start-slut (sf)**: Föregående aktivitet måste starta innan den beroende aktiviteten kan slutföras. Du kan starta den beroende aktiviteten innan föregångaren startas, men du kan inte slutföra den om inte föregående aktivitet har startats.
 * **Schemalagd start (sd)**: Detta schemalägger en uppgift som Finish-Start, men den faktiska verkställighetstypen är en Finish-Finish. När du använder det här schemaläggs den beroende aktiviteten att starta efter att föregående aktivitet har slutförts. Tvingande åtgärder gör det dock så att den beroende aktiviteten kan starta när som helst, men den kan inte slutföras förrän föregående aktivitet är klar.
+
+>[!NOTE]
+>
+>Förkortningarna för Beroendetyper används i uppgiftslistor för att definiera föregående relationer. Mer information finns i [Exempel på föregående värden i en uppgiftslista](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [Översikt över föregående aktiviteter](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+

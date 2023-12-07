@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan kommer att uppdateras med ytterligare förbättringar eftersom den första utgåvan av kvartal 2024 närmar sig den planerade produktionsutgåvan.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera dig för webbinariet här](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Funktioner utanför cykeln (de som lanserades till Production före första utgåvan av kvartal 2024) markeras med gult.</span>
 

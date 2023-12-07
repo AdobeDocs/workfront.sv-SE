@@ -6,7 +6,7 @@ description: Filtren i området Förbättrad analys i Adobe Workfront hjälper d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -28,9 +28,6 @@ Du kan lägga till och ta bort filter efter behov, så bevarar Workfront de filt
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
- </caption> 
  <col> 
  <col> 
  <tbody> 
@@ -50,15 +47,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td> 
   </tr>
   <tr> 
-   <td><b>Åtkomstnivå*</b> </td> 
+   <td>Åtkomstnivå* </td> 
    <td> <p>Visa åtkomst till projekt</p> <p>Du måste också ha Visa-åtkomst till Uppgifter, Portfolio och Användare för att kunna se specifika filteralternativ för projektfält.</p> <p>Obs! Om begränsningar har valts i avsnittet Ange ytterligare begränsningar i dialogrutan Redigera åtkomstnivå kanske du inte ser all information i filtren eller på sidan Förbättrad analys efter att filtret har tillämpats. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Objektbehörigheter</b> </p> </td> 
+   <td> <p>Objektbehörigheter </p> </td> 
    <td> <p>Visa</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
