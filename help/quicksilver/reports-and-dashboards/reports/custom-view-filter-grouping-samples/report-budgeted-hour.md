@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Rapport: Budgeterad timme'
-description: '''Rapport: Budgeterad timme'
+title: 'Rapport: Budgeterad timme'
+description: 'Rapport: Budgeterad timme'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    Standardvyn används för rapporten.
 
-1. (Valfritt) Klicka på knappen **Budgeterade timmar** kolumn, sedan **Växla till textläge** och sedan ändra
+1. (Valfritt) Om du vill göra rapporten lättare att läsa klickar du på **Budgeterade timmar** kolumn, sedan **Växla till textläge** och sedan ändra
 
    ```
    valuefield
@@ -87,7 +87,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    Detta avrundar antalet budgeterade timmar till ett antal decimaler som du anger.
 
-   Mer information om hur du avrundar ett tal i Workfront finns i artikeln [Beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Mer information om hur du avrundar ett tal i Workfront finns i artikeln [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (Valfritt) Klicka på **Lägg till kolumn** om du vill lägga till ytterligare kolumner.
 1. (Valfritt) För att rapporten ska bli lättare att läsa rekommenderar vi att du lägger till en gruppering i den. Vi föreslår följande gruppering:

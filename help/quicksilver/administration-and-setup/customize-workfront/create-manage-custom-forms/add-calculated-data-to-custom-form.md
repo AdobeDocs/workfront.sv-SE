@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Du kan använda både inbyggda Workfront-fält och anpassade fält som du redan 
    >
    >I detta exempel `SUB` är uttrycket och de refererade fälten är `actualRevenue` och `actualCost`.
 
-   En beräkning börjar oftast med ett uttryck följt av parenteser som innehåller de fält som du vill referera till när det anpassade formuläret är kopplat till ett objekt. Mer information om tillgängliga uttryck finns i [Beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   En beräkning börjar oftast med ett uttryck följt av parenteser som innehåller de fält som du vill referera till när det anpassade formuläret är kopplat till ett objekt. Mer information om tillgängliga uttryck finns i [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Varje fält måste omges av klammerparenteser, vilket förklaras i avsnittet [Syntax krävs i beräknade anpassade fält](#syntax-required-in-calculated-custom-fields) i den här artikeln. När du börjar skriva namnet på ett fält ger systemet förslag och du kan välja ett som infogar det i beräkningen.
 
@@ -138,7 +138,7 @@ Du kan använda både inbyggda Workfront-fält och anpassade fält som du redan 
    >
    >Du kan göra något av följande för att få hjälp med beräkningen:
    > 
-   >* Håll muspekaren över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en Lär dig mer-länk för mer information i artikeln [Beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Håll muspekaren över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en Lär dig mer-länk för mer information i artikeln [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Använd färgkodningen för att identifiera de komponenter du har lagt till. Uttryck visas i blått och fält visas i grönt.
    >  ![](assets/colors-fields-expressions.jpg)
@@ -206,13 +206,13 @@ Varje fält måste ha den syntax som beskrivs nedan, med klammerparenteser runt 
 
 * Om du vill att beräkningen ska referera till ett inbyggt fält måste fältnamnet omges av klammerparenteser.
 
-Exempel: `{actualRevenue}`
+Till exempel: `{actualRevenue}`
 
 Fältnamn är skiftlägeskänsliga och måste visas exakt som de visas i Workfront.
 
 * Om du vill att beräkningen ska referera till ett anpassat fält måste fältnamnet omges av klammerparenteser och föregås av `DE:` inom parentes.
 
-Exempel: `{DE:Profit}`
+Till exempel: `{DE:Profit}`
 
 Alla anpassade fält som du kan välja mellan när du skriver visas. `DE:`.
 

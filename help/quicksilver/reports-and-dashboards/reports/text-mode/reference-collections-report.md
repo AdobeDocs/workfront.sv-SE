@@ -6,9 +6,9 @@ description: Referenssamlingar i en rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 8b6324302a70319f387d1e09d1eb92fbdabf7e32
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2587'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ En samling är en lista med objekt som är länkade till ett annat objekt.
 
 Du har följande två relationer mellan objekt i Workfront:
 
-* **En personlig relation**: Ett objekt kan bara länkas till ett annat objekt i taget.\
-   Ett projekt kan till exempel bara länkas till en portfölj i taget.
+* **Ett-till-ett-förhållande**: Ett objekt kan bara länkas till ett annat objekt i taget.\
+  Ett projekt kan till exempel bara länkas till en portfölj i taget.
 
-* **En 1:N-relation**: Ett objekt kan länkas till flera andra objekt samtidigt.\
-   Ett projekt kan till exempel ha flera uppgifter. I det här fallet utgör uppgiftslistan en samling för projektet.
+* **En 1:N-relation**: Ett objekt kan länkas till flera andra objekt i taget.\
+  Ett projekt kan t.ex. ha flera uppgifter. I det här fallet utgör uppgiftslistan en samling för projektet.
 
 >[!IMPORTANT]
 >
@@ -103,7 +103,7 @@ Du kan referera till objekt från en samling i följande rapportelement:
 
 * Vyer
 * Filter
-* Uppmaningar
+* Fråga
 
 Du kan inte referera till objekt från en samling i följande rapportelement:
 
@@ -112,11 +112,11 @@ Du kan inte referera till objekt från en samling i följande rapportelement:
 
 Du kan till exempel referera till uppgiften eller utleverans av samlingar från en projektrapport för att visa aktivitets- eller utleveransinformation på projektnivå.
 
-* [Referera till en samling i vyn för en rapport](#reference-a-collection-in-the-view-of-a-report)
+* [Referera till en samling i rapportvyn](#reference-a-collection-in-the-view-of-a-report)
 * [Referera till en samling i ett rapportfilter](#reference-a-collection-in-the-filter-of-a-report)
 * [Referera till en samling i den anpassade uppmaningen för en rapport](#reference-a-collection-in-the-custom-prompt-of-a-report)
 
-### Referera till en samling i vyn för en rapport {#reference-a-collection-in-the-view-of-a-report}
+### Referera till en samling i rapportvyn {#reference-a-collection-in-the-view-of-a-report}
 
 Du kan referera till en objektsamling i rapportvyn för att visa attribut för objekt som är kopplade till rapportens objekt.
 
@@ -171,7 +171,7 @@ Så här lägger du till en samlingskolumn i en rapportvy:
 
    Du kan ersätta **värdefält** med **värdeuttryck** om du vill skapa ett anpassat uttryck i vyn.
 
-   Mer information om beräknade anpassade uttryck finns i [Beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Mer information om beräknade anpassade uttryck finns i [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Om du till exempel vill visa en lista med uppgifter i en projektrapport. Den här samlingen använder en `valuefield` rad för att referera till aktiviteternas namn.
 
@@ -179,43 +179,43 @@ Så här lägger du till en samlingskolumn i en rapportvy:
 
    * Använd följande kod för att skapa din kolumn:
 
-      ```
-      valueformat=HTML
-      textmode=true
-      type=iterate
-      listdelimiter=<p>
-      displayname=Project Tasks Names
-      listmethod=nested(tasks).lists
-      valuefield=name
-      ```
+     ```
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Project Tasks Names
+     listmethod=nested(tasks).lists
+     valuefield=name
+     ```
 
    * Använd följande kod för att visa en lista med problem i rapporten:
 
-      ```
-      displayname=Project Issues Names
-      listdelimiter=<p>
-      listmethod=nested(issues).lists
-      textmode=true
-      type=iterate
-      valuefield=name
-      valueformat=HTML
-      ```
+     ```
+     displayname=Project Issues Names
+     listdelimiter=<p>
+     listmethod=nested(issues).lists
+     textmode=true
+     type=iterate
+     valuefield=name
+     valueformat=HTML
+     ```
 
-      Observera att i en samling måste du använda **problem** för **listmethod** rad i stället för **opTasks** som är databasnamnet för ärenden. Mer information om när du ska använda **problem** och när de ska användas **opTask** när du refererar till problem, se [Använd&quot;opTask&quot; och&quot;issue&quot; när du refererar till problem](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Observera att i en samling måste du använda **problem** för **listmethod** rad i stället för **opTasks** som är databasnamnet för ärenden. Mer information om när du ska använda **problem** och när **opTask** när du refererar till problem, se [Använd&quot;opTask&quot; och&quot;issue&quot; när du refererar till problem](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
    * Om du vill visa en lista över aktiviteterna i en projektrapport tillsammans med deras primära tilldelade användare, använder du en **värdeuttryck** rad för att referera till namnen på de uppgifter som finns bredvid namnen på deras primära tilldelningar i stället för **värdefält**.
 
-      Använd följande kod för att skapa din kolumn:
+     Använd följande kod för att skapa din kolumn:
 
-      ```
-      valueformat=HTML
-      textmode=true
-      type=iterate
-      listdelimiter=<p>
-      displayname=Tasks Names - Primary Assignee
-      listmethod=nested(tasks).lists
-      valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
-      ```
+     ```
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Tasks Names - Primary Assignee
+     listmethod=nested(tasks).lists
+     valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
+     ```
 
 1. Följande kolumn visas i projektrapporten med alla uppgifter i varje projekt tillsammans med de primära tilldelningarna:
 
@@ -257,7 +257,7 @@ Raderna i ett textläge för en samling beskrivs i följande tabell:
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Detta är avgränsaren som används för att separera värdena i listan.<br>Vi rekommenderar att du använder <code>&lt;p&gt;</code> som lägger till en radbrytning mellan värdena.</p> <p>Du kan även använda följande:</p> <p><code>&amp;zwj;</code> (sammanfogning med nollbredd). Värdena i samlingen har ingen separation mellan dem.<br><strong>,</strong> =kommaavgränsare. Samlingens värden avgränsas med ett kommatecken följt av inget blanksteg.<br><strong>/</strong> = snedstrecksavgränsare. Samlingens värden avgränsas med ett snedstreck.<br><strong>-</strong> = streckavgränsare. Samlingens värden avgränsas med ett streck.<br>Om du lämnar den här raden tom läggs ett kommatecken till, följt av ett mellanslag mellan värdena i samlingen, som standard.</p> </td> 
+   <td> <p>Detta är avgränsaren som används för att separera värdena i listan.<br>Vi rekommenderar att du <code>&lt;p&gt;</code> som lägger till en radbrytning mellan värdena.</p> <p>Du kan även använda följande:</p> <p><code>&amp;zwj;</code> (nollbreddsskarv). Värdena i samlingen har ingen separation mellan dem.<br><strong>,</strong> =kommaavgränsare. Samlingens värden avgränsas med ett kommatecken följt av inget blanksteg.<br><strong>/</strong> = snedstreck Samlingens värden avgränsas med ett snedstreck.<br><strong>-</strong> = streckavgränsare. Samlingens värden avgränsas med ett streck.<br>Om du lämnar den här raden tom läggs ett kommatecken till, följt av ett mellanslag mellan värdena i samlingen, som standard.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Kolumnnamn</em> </td> 
@@ -269,7 +269,7 @@ Raderna i ett textläge för en samling beskrivs i följande tabell:
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>Den här raden definierar vilket fält du refererar till från samlingsobjektet.</p> <p>Ersätt <strong>samlingsobjektfält</strong> med namnet på fältet för det objekt som du refererar till i samlingen, så som det visas i <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>Du kan ersätta den här raden med:</p> <p><strong>värdeuttryck</strong>=beräknat fält för samlingsobjekt</p> <p>Använda <strong>värdeuttryck</strong>kan du visa ett beräknat anpassat uttryck i kolumnen.</p> <p>Mer information om formatering <strong>värdeuttryck</strong> linjer, se <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Översikt över syntaxen i textläge</a>.</p> </td> 
+   <td> <p>Den här raden definierar vilket fält du refererar till från samlingsobjektet.</p> <p>Ersätt <strong>samlingsobjektfält</strong> med namnet på fältet för det objekt som du refererar till i samlingen, så som det visas i <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>Du kan ersätta raden med:</p> <p><strong>värdeuttryck</strong>=beräknat fält för samlingsobjekt</p> <p>Använda <strong>värdeuttryck</strong>kan du visa ett beräknat anpassat uttryck i kolumnen.</p> <p>Mer information om formatering <strong>värdeuttryck</strong> linjer, se <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Översikt över syntaxen i textläge</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -282,7 +282,7 @@ Tänk på följande begränsningar när du skapar en samlingsvy:
 * Du kan inte använda villkorsstyrd formatering i en samlingsvy.
 * Du kan inte göra ett objekt i en samling till en klickbar länk.
 * Du kan inte skapa en samlingsvy för en annan samling.\
-   Du kan till exempel inte visa alla tilldelningar för varje uppgift i en projektrapport. Du kan bara visa den primära tilldelaren för varje uppgift i en projektvy.
+  Du kan till exempel inte visa alla tilldelningar för varje uppgift i en projektrapport. Du kan bara visa den primära tilldelaren för varje uppgift i en projektvy.
 
 ### Referera till en samling i ett rapportfilter {#reference-a-collection-in-the-filter-of-a-report}
 
@@ -418,6 +418,7 @@ Så här lägger du till en referens till en samling i den anpassade uppmaningen
    Detta genererar en rapport där alla projekt i listan har minst ett problem tilldelat användaren vars GUID är 57cf1b7a00077c9f02f66cb09c8f86c.
 
    >[!NOTE]
+   >
    Observera att du måste använda **problem** för samlingsobjektets namn. API Explorer har för närvarande inget samlingsobjektsnamn för problem.
 
 1. Klicka **Klar**.

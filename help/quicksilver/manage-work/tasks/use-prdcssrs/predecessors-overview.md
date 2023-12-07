@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Översikt över föregående aktiviteter
-description: En föregångare är den uppgift som en annan uppgift (kallas efterföljande eller beroende uppgift) är beroende av. Adobe Workfront stöder fem typer av beroenden av föregångare.
+description: En föregångare är den uppgift som en annan aktivitet (kallas efterföljande eller beroende uppgift) är beroende av. Adobe Workfront stöder fem typer av beroenden av föregångare.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-En föregångare är den uppgift som en annan uppgift (kallas efterföljande eller beroende uppgift) är beroende av. Adobe Workfront stöder fem typer av beroenden av föregångare. Mer information om föregående beroenden finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+En föregångare är den uppgift som en annan aktivitet (kallas efterföljande eller beroende uppgift) är beroende av. Adobe Workfront stöder fem typer av beroenden av föregångare. Mer information om föregående beroenden finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Översikt över Föregående
 
 Förståelse av föregångarfunktioner är viktigt för att förstå tidslinjerna i dina projekt.
 
-Föregående relationer mellan uppgifter finns både i ett och samma projekt och i flera projekt.
+Det finns aktivitetsföregångarrelationer både mellan aktiviteter i ett enskilt projekt och mellan aktiviteter från olika projekt.
 
-Om du är beroende av flera projekt kan du skapa föregångare för flera projekt.
+Om du är beroende av flera projekt kan du skapa föregående projekt mellan aktiviteter från två olika projekt.
 
-Oavsett om föregående och efterföljande aktiviteter tillhör samma projekt eller två olika projekt beräknas beroendena och tidslinjerna på samma sätt.
+Oavsett om föregående och efterföljande aktiviteter tillhör samma projekt eller två olika projekt beräknas beroenden och tidslinjer för varje projekt på samma sätt.
 
 När det gäller föregångare påverkas projekttidslinjen av följande:
 
@@ -38,15 +38,19 @@ När det gäller föregångare påverkas projekttidslinjen av följande:
 * Laga värde och typ\
   Mer information om både beroende och fördröjning finns i [Exempel på föregående värden i en uppgiftslista](#examples-of-predecessor-values-in-a-task-list).
 
-Om till exempel uppgift A är en föregångare till uppgift B i en slutstartrelation, och uppgift B har en uppgiftsbegränsning som är så snart som möjligt, tilldelar Workfront uppgift B ett planerat startdatum omedelbart efter det planerade avslutningsdatumet för uppgift A, oavsett om föregångaren har verkställts eller inte.
+  Om till exempel uppgift A är en föregångare till uppgift B i en slutstartrelation, och uppgift B har en uppgiftsbegränsning som är så snart som möjligt, tilldelar Workfront uppgift B ett planerat startdatum omedelbart efter det planerade avslutningsdatumet för uppgift A, oavsett om föregångaren har verkställts eller inte.
 
 För att förstå tidigare relationer måste du förstå:
 
 * **Beroendetyper:** Föregångare länkas av olika beroendetyper. Mer information om beroendetyper finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Tvinga en föregångare:** När en föregångare verkställs kan den efterföljande aktiviteten inte starta förrän föregångaren har slutförts. Efterföljande uppgift visas som start direkt efter att föregående har slutförts.
+* **Tvinga en föregångare:** När en föregångare verkställs kan den efterföljande uppgiften inte börja förrän föregångaren är klar. Efterföljande uppgift visas som start direkt efter att föregående har slutförts.
 
-  Workfront tillåter inte att den markeras som Pågår eller Fullständig förrän föregående har slutförts. Workfront tillåter dock att timmar rapporteras för uppgiften.\
+  När föregående inte har slutförts (eller startats) och den inte används kan efterföljande aktivitet starta, men projekttidslinjen påverkas fortfarande av datumen för både föregående och efterföljande aktiviteter.
+
+  Med en framtvingad föregångare tillåter inte Workfront att efterföljande aktivitet markeras som Pågår eller Fullständig förrän föregående har slutförts.
+
+  Workfront tillåter dock att timmar rapporteras för uppgiften.\
   Mer information om att framtvinga föregående aktiviteter finns i [Tvinga föregående](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Lager:** Du kan skapa fördröjningar i dina beroenden som skapar en fördröjning som måste inträffa när en föregående aktivitet har slutförts och innan efterföljande aktivitet kan börja. Lagar påverkar tidslinjen i projektet.
@@ -104,7 +108,7 @@ När du visar föregående aktiviteter i en lista med uppgifter kan du se någon
 
   >[!NOTE]
   >
-  >Tillämpat värde (**e**) måste läggas till i Lag, inte i föregångaren.
+  >Du måste lägga till det tvingande värdet (**e**) till Lag och inte till föregångaren.
 
 * **4515:2** Föregående aktivitetsnummer är 2. - Det här är ett slutdatum till början, ett beroende som inte krävs med föregångaren i projektet med referensnummer **4515**.
 

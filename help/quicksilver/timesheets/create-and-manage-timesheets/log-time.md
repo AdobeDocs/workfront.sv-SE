@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3489'
+source-wordcount: '3494'
 ht-degree: 0%
 
 ---
@@ -351,7 +351,7 @@ Du kan logga projektspecifik tid i Hem.
 Allmän information om hur du använder området Hem finns i följande avsnitt:
 
 * Mer information om hur du använder det äldre Hem-området finns i [Använda området Hem](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Mer information om hur du använder den nya hemområdet finns i [Kom igång med nya startsidor i Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* Mer information om hur du använder den nya hemområdet finns i [Kom igång med Nytt hem](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Logga tid på ett arbetsobjekt från den nya hemsidan
 

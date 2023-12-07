@@ -7,9 +7,9 @@ description: Du kan använda textläge i en kolumn för att visa en beräkning m
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Om du t.ex. vill ta reda på antalet veckodagar som förflutit mellan två datum
 Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet och det faktiska slutförandedatumet för en aktivitet och visa resultatet i en kolumn.
 
 Du kan använda två andra datum i den här beräkningen (Faktisk start, Faktisk slutförning, Projicerad start, Projicerad slutförning osv.).\
-Mer information om beräknade datauttryck finns i [Beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Mer information om beräknade datauttryck finns i [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Åtkomstkrav
 
@@ -66,8 +66,8 @@ Så här lägger du till den här kolumnen i en uppgiftsvy:
 1. Klicka **Lägg till kolumn** sedan **Växla till textläge**.
 
 1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
-   <pre>displayName=Week Day Difference<br>textmode=true<br>valueExpression=WEEKDAYDIFF({planningCompletionDate},{actualCompletionDate})<br>valueFormat=HTML</pre>
+1. Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med följande kod:
+   <pre>displayName=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueFormat=HTML</pre>
 
-1. (Valfritt) Följ stegen som beskrivs i [Gruppering: visa resultatet av att aggregera flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+1. (Valfritt) Följ stegen som beskrivs i [Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 1. Klicka **Spara** sedan **Spara vy**.

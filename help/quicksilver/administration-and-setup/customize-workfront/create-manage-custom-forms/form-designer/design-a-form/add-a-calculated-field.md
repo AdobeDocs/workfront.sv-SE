@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
       * Om du vill att beräkningen ska referera till ett inbyggt fält måste fältnamnet omges av klammerparenteser.
 
-        Exempel: `{actualRevenue}`
+        Till exempel: `{actualRevenue}`
 
         Fältnamn är skiftlägeskänsliga och måste visas exakt som de visas i Workfront.
 
@@ -188,7 +188,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
       * Om du vill att beräkningen ska referera till ett anpassat fält måste fältnamnet omges av klammerparenteser och föregås av `DE:` inom parentes.
 
-        Exempel: `{DE:Profit}`
+        Till exempel: `{DE:Profit}`
 
         Alla anpassade fält som du kan välja mellan när du skriver visas. `DE:`.
 
@@ -281,7 +281,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
       >
       >Du kan göra något av följande för att få hjälp med beräkningen:
       > 
-      >* Håll muspekaren över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en Lär dig mer-länk för mer information i artikeln [Beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Håll muspekaren över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en Lär dig mer-länk för mer information i artikeln [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Använd färgkodningen för att identifiera de komponenter du har lagt till. Uttryck visas i blått och fält visas i grönt.
       >  ![](assets/colors-fields-expressions.jpg)

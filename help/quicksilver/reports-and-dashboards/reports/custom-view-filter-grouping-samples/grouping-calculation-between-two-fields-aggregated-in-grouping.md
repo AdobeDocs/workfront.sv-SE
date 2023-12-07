@@ -3,23 +3,23 @@ content-type: reference
 product-area: reporting;projects
 keywords: beräknad,aggregat,avancerad,vyer
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Gruppering: visa resultatet av sammanställningen av flera beräknade värden i en gruppering'
+title: 'Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering'
 description: Du kan använda textläge i en kolumn för att visa en beräkning mellan två fält i vyn för en rapport eller lista. Varje rad visar beräkningen för varje objekt i rapporten eller listan.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
-# Gruppering: visa resultatet av att aggregera flera beräknade värden i en gruppering
+# Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering
 
 Du kan använda textläge i en kolumn för att visa en beräkning mellan två fält i vyn för en rapport eller lista. Varje rad visar beräkningen för varje objekt i rapporten eller listan.
 
-Du kan till exempel visa skillnaden mellan faktiska timmar och Planerade timmar i en tredje kolumn som heter Arbetsbalans för varje uppgift i en uppgiftsrapport. Mer information om beräknade datauttryck finns i [Beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Du kan till exempel visa skillnaden mellan faktiska timmar och Planerade timmar i en tredje kolumn som heter Arbetsbalans för varje uppgift i en uppgiftsrapport. Mer information om beräknade datauttryck finns i [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Du kan visa det aggregerade värdet för flera objekt i den beräknade vyn i samma kolumn i en grupp genom att lägga till en beräkning i `aggregator` rad i kolumnen som innehåller det beräknade värdet. Du kan t.ex. aggregera (visa summan av) antalet timmar i Arbetsbalans för alla uppgifter i grupperingen av rapporten eller listan för kolumnen Arbetsbalans. I den här artikeln beskrivs hur du gör detta.
 
@@ -60,7 +60,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 1. Gå till en uppgiftsrapport, klicka på **Rapportåtgärder** > **Redigera**.
 1. I **Grupperingar** flik, klicka **Lägg till gruppering** och börja skriva **Projektnamn** i **Gruppera din rapport** > **Först efter** markerar du det när det visas i listan.
 
-1. I **Kolumner (vy)** flik, klicka **Lägg till kolumn** börjar sedan skriva **Planerade timmar** i **Visa i den här kolumnen** markerar du det när det visas i listan.
+1. I **Kolumner (vy)** flik, klicka **Lägg till kolumn** och börja sedan skriva **Planerade timmar** i **Visa i den här kolumnen** markerar du det när det visas i listan.
 
    >[!TIP]
    >

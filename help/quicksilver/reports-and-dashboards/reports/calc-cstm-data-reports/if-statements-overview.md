@@ -2,32 +2,32 @@
 content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: Översikt över IF-programsatser
+title: Översikt över IF-satser
 description: Du kan använda IF-programsatser i allmänna programmeringsspråk. I Adobe Workfront kan du använda IF-satser för att jämföra, formatera och strängsätta datafält, både för rapportering och för anpassade datamängder. Att tänka matematiskt på"IF"-satser leder också till en bättre konceptuell förståelse eftersom variabler för uttryck ofta används.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
 
-# Översikt över IF-satser
+# Översikt över IF-programsatser
 
 Du kan använda IF-programsatser i allmänna programmeringsspråk. I Adobe Workfront kan du använda IF-satser för att jämföra, formatera och strängsätta datafält, både för rapportering och för anpassade datamängder. Att tänka matematiskt på&quot;IF&quot;-satser leder också till en bättre konceptuell förståelse eftersom variabler för uttryck ofta används.
 
-## Recommendations for &quot;IF&quot;-programsatser
+## Recommendations for &quot;IF&quot;-satser
 
 Tänk på följande innan du skapar en IF-programsats:
 
 * Vi rekommenderar en grundläggande förståelse för alla allmänna programmeringsspråk, men vi behöver det inte, för den här guiden.
-* Vi behöver en mer avancerad förståelse för Workfront textläge. Detta gör det lättare att förstå terminologin i Workfront API och att förstå syntaxen för anpassade data i dessa specifika format.
+* Vi behöver en mer avancerad förståelse för Workfront textlägessyntax. Detta gör det lättare att förstå terminologin i Workfront API och att förstå syntaxen för anpassade data i dessa specifika format.
 
-   Mer information om Workfront API finns i [Grunderna i API](../../../wf-api/general/api-basics.md).
+  Mer information om Workfront API finns i [Grunderna i API](../../../wf-api/general/api-basics.md).
 
-   Mer information om hur du använder textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Mer information om hur du använder textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 * Du kan skapa IF-satser för följande Workfront-element:
 
@@ -45,7 +45,7 @@ Du kan skapa IF-satser i Workfront med följande format:
 <pre>IF(villkor,sant uttryck,falskt uttryck)</pre>Komponenterna i en IF-programsats är:
 
 * **IF**= Detta är det beräknade Workfront-datauttrycket för &quot;function&quot;. På samma sätt som SUM- och PROD-uttrycken anger detta först att funktionen ska tolkas som en IF-sats. Använd alltid versaler för &quot;IF&quot; i den här kontoutdraget.\
-   En lista över alla beräknade datameddelanden finns i [Beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+  En lista över alla beräknade datameddelanden finns i [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 * **Villkor**= Detta är villkoret som Workfront-variabeln måste uppfylla och det är grunden för den här ekvationen. Allt som senare kan anges i ekvationen beror på villkoret. Du kan använda ett antal referenser, jämförelser eller matematiska uttryck för att starta en ekvation. Några exempel på villkor är:
 
@@ -65,7 +65,7 @@ I följande exempel används det ursprungliga programsatsformatet för att skriv
 IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track","On Track")
 ```
 
-I det dagliga talet skulle det här uttrycket betyda: Om mitt objekts beräknade slutförandedatum är &quot;större än&quot;, det planerade slutförandedatumet för samma objekt, visar du ordet &quot;Av-spår&quot; i det här fältet. Om inte, visa ordet&quot;Vid spår&quot;.
+I det dagliga talet skulle den här satsen betyda: Om det beräknade slutförandedatumet för mitt objekt är &quot;större än&quot; det planerade slutförandedatumet för mitt objekt, visas ordet &quot;Av-spår&quot; i det här fältet. Om inte, visa ordet&quot;Vid spår&quot;.
 
 ## Skapa beräknade fält i anpassade formulär eller anpassade kolumner med hjälp av IF-satser
 
@@ -98,7 +98,7 @@ valueexpression=IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track"
 
 ### Flera IF-satser {#multiple-if-statements}
 
-Du kan sätta ihop flera IF-satser med följande programsats för att skapa ett mer komplext och dynamiskt uttryck:
+Du kan sätta ihop flera&quot;IF&quot;-programsatser med följande programsats för att skapa ett mer komplext och dynamiskt uttryck:
 
 <pre>IF(Condition1,True Expression,IF(Condition2,True Expression,False Expression))</pre>Observera att det nu inte finns någon falsk programsats för den första"IF". Istället ersatte vi den med början av en andra "IF".
 
@@ -106,9 +106,9 @@ Följande är exempel på ett beräknat anpassat fält och dess motsvarande anpa
 
 * Beräknat anpassat fält:
 
-   ```
-   IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track",IF({plannedCompletionDate}>{projectedCompletionDate},"Off Track","On Track"))
-   ```
+  ```
+  IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track",IF({plannedCompletionDate}>{projectedCompletionDate},"Off Track","On Track"))
+  ```
 
 * Beräknad anpassad kolumn:
 
@@ -121,4 +121,4 @@ Du kan utforska dessa alternativ ytterligare genom att återskapa exemplen i din
 
 Det bästa sättet att lära sig detta är att experimentera med olika fält och scenarier. Bekanta dig också med API Explorer, som visar fältnamnen som kan användas. Mer information om API Explorer finns i [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Mer information om Workfront-syntax för beräknade datauttryck finns i [Beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Mer information om Workfront-syntax för beräknade datauttryck finns i [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
