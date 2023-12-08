@@ -7,7 +7,7 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 26aa5a1f9b0fd88c83d9967245d2a8149d39b607
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -56,21 +56,20 @@ Exempel:
 
 * I ett anpassat fält, i ett anpassat formulär för uppgifter, använder du följande för att generera namnet på det överordnade projektet för den uppgift där det anpassade formuläret är kopplat:
 
-  ```
-  {project}.{name}
-  ```
+
+  ` {project}.{name}`
+
 
 * I en anpassad kolumn i en rapport använder du följande för att lägga till en anpassad kolumn för projektnamn i en aktivitetsrapport:
 
-  ```
-  valuefield=project:name
-  ```
+
+  `valuefield=project:name`
+
 
   eller
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
+
 
   >[!TIP]
   >

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Du kan redigera en post i följande områden:
 
 1. Klicka **Spara ändringar**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Redigera en post från posttyptabellvyn
+### Redigera en post från tabellvyn för en posttyp
 
 1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ Du kan redigera en post i följande områden:
    >
    >  Du kan inte redigera information för följande fält eftersom de är skrivskyddade och Workfront uppdaterar dem automatiskt:
    >  
-   >  * Länkade fält som skapats genom länkning av posttyper
+   >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
    >  * Fält av följande typer: Skapad av, Skapad, Senast ändrad av, Senast ändrad
 
 
@@ -225,11 +225,12 @@ Du kan redigera en post i följande områden:
    >
    >* Du kan inte kopiera information från en annan källa, förutom ett Maestro-fält av samma typ som det fält som du klistrar in informationen i.
    >
-   >* Du kan inte kopiera och klistra in fältvärden för fält som visas i området Detaljer för en post.
+   >* Du kan inte kopiera och klistra in fältvärden i området Detaljer för en post. Den här funktionen stöds bara i tabellvyn för en posttyp.
    >* Du kan inte kopiera och klistra in fältvärden för följande fälttyper:
-   ><ul>
    >
-   > * Systemfält
+   >
+   >    * Länkade fält som skapas genom att koppla posttyper. Du kan kopiera och klistra in länkade postfält. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
+   >    * Fält av följande typer: Skapad av, Skapad, Senast ändrad av, Senast ändrad
 
 
    <!--take People out of the list above when they release this - this might be coming later-->

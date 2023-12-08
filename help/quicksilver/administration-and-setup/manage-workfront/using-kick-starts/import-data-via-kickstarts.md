@@ -5,13 +5,13 @@ keywords: kickstart,sparkstart,kickstarter,sparkstarter
 navigation-topic: use-kick-starts
 title: Importera data till Adobe Workfront med en snabbstartsmall
 description: Quick-Starts är Excel-arbetsböcker som är särskilt formaterade och som du kan fylla med data som du vill importera till Workfront. Adobe Workfront tillhandahåller en snabbstartsmall som du kan använda för att göra detta, vilket förklaras i Kickstarts-dataimporteraren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2780'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td>
+   <p> Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -56,23 +59,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan importera ett stort antal objekt till Workfront med hjälp av en snabbstartsmall. Tänk dock på följande begränsningar:
 
-* Om du importerar data på det här sättet uppdateras inte information om poster som redan finns i Workfront
-* Du kan bara importera nya poster och deras information
+* Om du importerar data på det här sättet uppdateras inte information om poster som redan finns i Workfront.
+* Du kan bara importera nya poster och deras information.
 * Importera högst 2 000 poster i taget för att säkerställa att importen inte tar slut
 
 ## Exportera en snabbstartsmall som en kalkylbladsfil
 
-När du exporterar en snabbstartsmall får du en tom Excel-kalkylbladsarbetsbok. I efterföljande procedurer i den här artikeln fyller du i arbetsboken med dina uppgifter och importerar dem sedan tillbaka till Workfront.
+När du exporterar en snabbstartsmall får du en tom Excel-kalkylbladsarbetsbok. När kalkylbladet har laddats ned till datorn kan du använda det för att fylla i informationen och sedan importera den tillbaka till Workfront.
 
 Så här exporterar du en snabbstartsmall:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicka **System** > **Exportera data (snabbstart)**.
+<!--
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. Klicka **Fler alternativ** väljer du sedan de typer av information som du vill inkludera.
+1. Klicka **System** > **Importera data (Quick-Starts)**.
 
-   Varje alternativ som du väljer representerar en samling med flera flikar i det exporterade kalkylbladet. Om du t.ex. väljer alternativet Rapport inkluderas alla objekt som behövs för att skapa en rapport i kalkylbladet (vyer, filter, grupperingar, rapporter).
+1. Välj de typer av information som du vill inkludera.
+
+   Varje alternativ som du väljer representerar en samling med flera flikar i det exporterade kalkylbladet. Om du t.ex. väljer **Rapport** om du vill kan du inkludera alla objekt som behövs för att skapa en rapport i kalkylbladet (vyer, filter, grupperingar, rapporter).
 
    Du kan använda alla objekttyper som listas nedan för att importera data till Workfront. (Det enda undantaget är alternativet Åtkomstnivåer. Databladet Åtkomstnivåer i en export tillhandahålls i referenssyfte, vilket gör att du kan tilldela en åtkomstnivå till ett nytt användarkonto via ID.)
 
@@ -93,22 +99,22 @@ Så här exporterar du en snabbstartsmall:
      <tr> 
       <td scope="col"> <p>Kontrollpanel</p> <p>Alla instrumentpaneler i systemet är tillgängliga för export. Du kan välja upp till 100 specifika kontrollpaneler i en enda export.</p> </td> 
       <td scope="col">Exporterar som ZIP-fil</td> 
-      <td scope="col"> <p>Parameter</p> <p>Parameteralternativ</p> <p>Parametergrupp</p> <p>Kategoriparameter</p> <p>Kategori</p> <p>Rapport</p> <p>Portal Tab Section</p> <p>Kontrollpanel</p> <p>Inställningar</p> </td> 
+      <td scope="col"> <p>Parameter</p> <p>Beskrivning</p><p>Parameteralternativ</p> <p>Parametergrupp</p> <p>Kategoriparameter</p> <p>Kategori</p> <p>Rapport</p> <p>Portal Tab Section</p> <p>Kontrollpanel</p> <p>Inställningar</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Rapport</p> <p>Alla rapporter i systemet är tillgängliga för export. Du kan välja upp till 100 specifika rapporter i en enda export.</p> </td> 
       <td scope="col">Exporterar som ZIP-fil </td> 
-      <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Parameteralternativ</p> <p scope="col">Parametergrupp</p> <p scope="col">Kategoriparameter</p> <p scope="col">Kategori</p> <p scope="col">Rapport</p> <p scope="col">Inställningar</p> </td> 
+      <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Beskrivning</p> <p scope="col">Parameteralternativ</p> <p scope="col">Parametergrupp</p> <p scope="col">Kategoriparameter</p> <p scope="col">Kategori</p> <p scope="col">Rapport</p> <p scope="col">Inställningar</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Godkännande</p> </td> 
       <td scope="col"> <p>Exporterar som Excel-fil</p> </td> 
-      <td scope="col"> <p>Steggodkännare</p> <p>Godkännandesteg</p> <p>Godkännande</p> <p>Godkännandeprocess</p> <p>Inställningar</p> </td> 
+      <td scope="col"> <p>Scengodkännare</p> <p>Godkännandefas</p> <p>Godkännande</p> <p>Godkännandeprocess</p> <p>Inställningar</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Anpassade data</p> </td> 
       <td scope="col"> <p>Exporterar som Excel-fil</p> </td> 
-      <td scope="col"> <p>Parameter</p> <p>Parameteralternativ</p> <p>Parametergrupp</p> <p>Kategoriparameter</p> <p>Kategori</p> <p>Inställningar</p> </td> 
+      <td scope="col"> <p>Parameter</p> <p>Beskrivning</p>  <p>Parameteralternativ</p> <p>Parametergrupp</p> <p>Kategoriparameter</p> <p>Kategori</p> <p>Inställningar</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Utgiftstyp</p> </td> 
@@ -189,13 +195,33 @@ Så här exporterar du en snabbstartsmall:
       <td>Jobbroll</td> 
       <td>Exporterar som Excel-fil</td> 
       <td> <p> Jobbroll</p> <p>Inställningar </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Äldre resurspool</td> 
+      <td>Exporterar som Excel-fil</td> 
+      <td> <p> Äldre resurspool</p> <p>Inställningar </p> </td> 
+     </tr>
+
+   <tr> 
       <td>Sökväg för milstolpe</td> 
       <td> Exporterar som Excel-fil</td> 
       <td> <p> Milstolpe</p> <p>Sökväg för milstolpe</p> <p>Inställningar </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Icke-arbetsrelaterad resurs</td> 
+      <td> Exporterar som Excel-fil</td> 
+      <td> <p> Icke-arbetsrelaterad resurs</p> <p>Inställningar</p></td> 
+     </tr>
+
+   <tr> 
+      <td>Resurskategori utanför arbetsplats</td> 
+      <td> Exporterar som Excel-fil</td> 
+      <td> <p> Resurskategori utanför arbetsplats</p> <p>Inställningar</p></td> 
+     </tr>
+
+   <tr> 
       <td>Anteckning</td> 
       <td>Exporterar som Excel-fil</td> 
       <td> <p> Anteckning</p> <p>Inställningar </p> </td> 
@@ -216,11 +242,6 @@ Så här exporterar du en snabbstartsmall:
       <td> <p> Resursberäkning</p> <p>Inställningar </p> </td> 
      </tr> 
      <tr> 
-      <td>Resurspool</td> 
-      <td>Exporterar som Excel-fil</td> 
-      <td> <p> Resurspool</p> <p>Inställningar </p> </td> 
-     </tr> 
-     <tr> 
       <td>risk</td> 
       <td>Exporterar som Excel-fil</td> 
       <td> <p> risk</p> <p>Inställningar </p> </td> 
@@ -233,7 +254,7 @@ Så här exporterar du en snabbstartsmall:
      <tr> 
       <td>Styrkort</td> 
       <td>Exporterar som Excel-fil</td> 
-      <td> <p>Styrkortfrågor</p> <p>Styrkortsalternativ</p> <p>Styrkort</p> <p>Inställningar </p> </td> 
+      <td> <p>Styrkortfråga</p> <p>Styrkortsalternativ</p> <p>Styrkort</p> <p>Inställningar </p> </td> 
      </tr> 
      <tr> 
       <td>Uppgift</td> 
@@ -269,17 +290,17 @@ Så här exporterar du en snabbstartsmall:
    </table>
 
 1. Klicka **Ladda ned**.
-1. Fortsätt med [Fyll i kalkylbladsmallen med dina data](#populate-the-spreadsheet-template-with-your-data) för att fylla i mallen med din information.
+1. Fortsätt med [Fyll i kalkylbladsmallen med dina data](#populate-the-spreadsheet-template-with-your-data) om du vill fylla i det tomma mallkalkylbladet med din information.
 
 ## Fyll i kalkylbladsmallen med dina data {#populate-the-spreadsheet-template-with-your-data}
 
-* [Flikarna (datablad) som ingår i kalkylbladet](#about-the-tabs-data-sheets-included-in-the-spreadsheet)
+* [Översikt över flikarna (datablad) i kalkylbladet](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
 * [Importera en post](#import-a-record)
 * [Inkludera datum](#include-dates)
 * [Använd jokertecken](#use-wildcards)
 * [Ersättning av attributnamn för ID](#attribute-name-substitution-for-ids)
 
-### Flikarna (datablad) som ingår i kalkylbladet {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
+### Översikt över flikarna (datablad) i kalkylbladet
 
 >[!TIP]
 >
@@ -293,12 +314,13 @@ När du öppnar någon av dessa flikar visas på rad 2 fälten för varje objekt
 >
 >Undvik fel genom att kontrollera följande:
 >
->* Ta inte bort eller ändra dessa fält på något sätt. Ändra t.ex. inte deras ordning eller namn.
->* Fyll i alla fält med en kolumnrubrik i fet stil. Dessa representerar obligatoriska fält.
+>* Ta inte bort den tomma första raden i ett snabbstartskalkylblad.
+>* Ta inte bort, ändra eller ordna om dessa fält (kolumnrubriker) på något sätt. Ändra t.ex. inte deras ordning eller namn.
+>* Lägg till värden i alla fält som visas i fet stil i kolumnrubriken. Dessa representerar obligatoriska fält.
 >
->  Om ett obligatoriskt fält innehåller ett standardvärde som angetts i systeminställningarna behöver du inte fylla i det.
+>     Om ett obligatoriskt fält innehåller ett standardvärde som angetts i systeminställningarna behöver du inte fylla i det.
 >
->  På **PROJ-projekt** -fliken, **setCondition** och **setConditionType** fält kan lämnas tomma, men **setGroupID** och **setName** det går inte att använda kolumner.
+>     På **PROJ-projekt** -fliken, **setCondition** och **setConditionType** fält kan lämnas tomma, men **setGroupID** och **setName** det går inte att använda kolumner.
 >
 >* Vissa fält, inklusive **setResourceRevenue** och **setEnteredByID**, genereras automatiskt av systemet. Om du anger data för de här fälten i kalkylbladet åsidosätter snabbstartsprocessen dem när du överför kalkylbladet.
 
@@ -306,26 +328,30 @@ När du öppnar någon av dessa flikar visas på rad 2 fälten för varje objekt
 
 Varje rad i tabellen motsvarar ett unikt objekt.
 
-1. Fyll i cellen i **isNew** kolumn:
+1. Lägg till information i **isNew** kolumn:
 
-   * Om objektet du importerar är nytt skriver du **TRUE** om du vill importera data i raden.
-   * Om objektet redan finns i Workfront **FALSE** måste finnas i kolumnen för att raden ska ignoreras.
+   * Om objektet du importerar är nytt skriver du **TRUE** om du vill importera data i raden. Det här värdet är skiftlägeskänsligt och måste alltid anges med versaler
+   * Om objektet redan finns i Workfront skriver du **FALSE** i **isNew** för att ignorera raden. Det här värdet är skiftlägeskänsligt och måste alltid anges med versaler
 
       * Poster som redan finns i Workfront uppdateras inte.
-      * Om du har laddat ned en mall med data är befintliga objekt redan markerade med **FALSE**.
+      * Om du har laddat ned en mall med data från Workfront är befintliga objekt redan markerade med **FALSE**.
       * Om du har laddat ned en tom mall behöver du inte lägga till nya rader för befintliga objekt.
 
-1. Fyll i cellen i **ID** på något av följande sätt:
+1. Lägg till information i **ID** på något av följande sätt:
 
-   * Om det objekt du importerar är nytt (och du har skrivit **TRUE** i **isNew** ) skriver du valfritt nummer för ID:t. Numret måste vara unikt i kalkylbladet.
+   * Om det objekt du importerar är nytt (och du har skrivit **TRUE** i **isNew** ) skriver du valfritt nummer för ID:t. Numret måste vara unikt i kalkylbladet. Om du till exempel importerar tre objekt kan du ge dem ID 1, 2 respektive 3.
 
-   * Om objektet redan finns i Workfront (och **FALSE** finns i **isNew** måste ID:t vara det alfanumeriska GUID som finns i Workfront för det objektet.
+   * Om objektet redan finns i Workfront (och **FALSE** finns i **isNew** kolumn) och du importerar ny information om befintliga objekt, måste ID:t vara det alfanumeriska GUID som finns i Workfront för det objektet.
 
-      * Poster som redan finns i Workfront uppdateras inte.
-      * Om du hämtade en mall med data innehåller befintliga objekt redan GUID som ID.
-      * Du kan importera ett nytt objekt baserat på ett befintligt objekt genom att ändra **FALSE** till **TRUE** i **isNew** -kolumn, ändra ID:t och göra nödvändiga datajusteringar innan du importerar.
+   >[!TIP]
+   >
+   > Om du vill ta reda på ett objekts unika GUID i Workfront kan du skapa en rapport för det objektet och lägga till ID-kolumnen i rapporten. Värdet för varje objekt i den kolumnen är objektets GUID.
 
-     ![Exempel-ID för en grupp](assets/kick-start-group-example.png)
+   * Poster som redan finns i Workfront uppdateras inte.
+   * Om du hämtade en mall med data innehåller befintliga objekt redan GUID som ID.
+   * Du kan importera ett nytt objekt baserat på ett befintligt objekt genom att ändra **FALSE** till **TRUE** i **isNew** -kolumn, ändra ID:t och göra nödvändiga datajusteringar innan du importerar.
+
+   ![Exempel-ID för en grupp](assets/kick-start-group-example.png)
 
    * När du importerar ett projekt måste du ange ett grupp-ID.
 
@@ -341,7 +367,7 @@ Varje rad i tabellen motsvarar ett unikt objekt.
 1. (Valfritt) Så här lägger du till anpassade data:
 
    * Skapa en ny kolumn för varje anpassat fält som du vill ta med i importprocessen.
-   * Namnge varje ny kolumn för motsvarande anpassade fält enligt följande: **DE:[Namn på anpassat fält som visas i Workfront]**.
+   * Namnge varje ny kolumn för motsvarande anpassade fält enligt följande: **DE:[Namnet på det anpassade fältet så som det visas i Workfront]**. Du kan till exempel skapa följande anpassade fält:&quot;DE: Avdelningar&quot;.
    * I kolumnen **setCategoryID** skriver du GUID för det befintliga anpassade formuläret som det här anpassade fältet finns på. Det här fältet är obligatoriskt vid import av anpassade data.
    * Om du behöver lägga till flera datavärden i det anpassade fältet (t.ex. alternativknappar, kryssrutor eller listor), ska du separera värdena med hjälp av den anpassade datamängdsavgränsaren | i det lodräta fältet, som finns på fliken Inställningar.
 
@@ -353,13 +379,17 @@ Workfront kan bearbeta de flesta datumformat. Du måste dock se till att datumko
 
 >[!TIP]
 >
->De flesta tycker att det är enklast att använda formatet MM/DD/ÅÅÅÅ (till exempel 07/10/2022).
+>Det vanligaste formatet är formatet MM/DD/ÅÅÅÅ.
+>
+>Exempel: 07/10/2023.
 
-Workfront godkänner också tidsvärden som en del av datumet (till exempel 07/10/2022 01:30 eller 07/10/2022 1:00 PM).
+Workfront godkänner också tidsvärden som en del av datumet.
+
+Exempel: 07/10/2022 01:30 eller 07/10/2022 1:00 PM.
 
 Om du utelämnar en tid i datumet gör Workfront något av följande:
 
-* 12.00. Systemets tidszon måste matcha din tidszon för att du ska kunna se det förväntade datumresultatet.
+* Anta att tiden är 12:00. Systemets tidszon måste matcha din tidszon för att du ska kunna se det förväntade datumresultatet.
 * Om den finns i ett objekt som är associerat med ett schema, flyttas tiden till den tidigaste tidpunkt som schemat tillåter.
 
 >[!NOTE]
@@ -407,19 +437,19 @@ Du kan använda följande jokertecken när du fyller i kalkylbladet för snabbst
 
 **Exempel:**
 
-* **(import av projekt)**
+* **Projektimport**
 
   Ange **setGroupID** genom att gå till **GRUPPgrupp** kalkylblad, notera respektive grupp-ID och klistra in dem i rätt celler (**setGroupID** kolumn) på **PROJ-projekt** blad.
 
   Detta är möjligt när du arbetar med bara ett fåtal grupper och projekt, men om du arbetar med flera av varje är det inte praktiskt.
 
-  Om du vill ersätta attributnamn för det exempel som beskrivs ovan ändrar du **setGroupID** kolumnrubrik till **#setGroupID GROUP****namn**. Sedan kan du referera till varje projekts grupp efter namn.
+  Om du vill ersätta attributnamn för det exempel som beskrivs ovan ändrar du **setGroupID** kolumnrubrik till **#setGroupID GROUP name**. Sedan kan du referera till varje projekts grupp efter namn.
 
   >[!NOTE]
   >
   >Alternativet att använda attributnamnsersättning är begränsat till referenser enbart för befintliga poster. Du kan inte använda namnersättning för objekt som du skapar i samma import.
 
-* **(användarimport)**
+* **Användarimport**
 
   Fyll i **setRoleID** från en lista med roller på **ROLE-roll** -fliken.
 
@@ -443,8 +473,7 @@ När du har fyllt i Excel-mallen med dina data kan du överföra informationen t
 
 Quick-Start-importen stöder följande filtyper:
 
-* XML-baserad Excel (.xlsx)
-* Äldre Excel (.xls)
+* Excel (.xls eller .xlsx)
 * Zippad fil (.ZIP) (som endast innehåller .xlsx- eller .xls-filer)
 
   >[!NOTE]
@@ -460,7 +489,9 @@ Quick-Start-importen stöder följande filtyper:
 
 Så här importerar du mallkalkylbladsdata till Workfront:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
+<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
 1. Klicka **System** >**Importera data (Quick-Starts)**.
 
@@ -468,7 +499,7 @@ Så här importerar du mallkalkylbladsdata till Workfront:
 
 1. Klicka **Överför.**
 
-   Om det tar längre tid än fem minuter att överföra Excel-filen till Workfront, inträffar programmet och filen kan inte överföras.
+   Om det tar längre tid än fem minuter att överföra Excel-filen till Workfront, tar det längre tid att överföra filen och Workfront kan inte överföra den.
 
    Prova att importera data i mindre grupper av objekt.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -128,6 +128,21 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 1. Börja lägga till fält (eller kolumner) enligt beskrivningen i artikeln [Skapa fält](../fields/create-fields.md).
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på sidan Detaljer för posterna av den valda posttypen.
+
+<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
+
+    (******add screen shot*****)
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
+
+    >[!NOTE]
+    >
+    >    Only fields of the following types can be primary fields: 
+
+        * Single-line text
+        * Number
+        * Formula -->
+
 
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 

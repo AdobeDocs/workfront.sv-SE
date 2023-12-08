@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -152,9 +152,9 @@ After permssions - replace the table with:
 
 ## Redigera posttyper
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Den senast använda arbetsytan bör öppnas som standard.
+Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill skapa posttyper för.
 1. Håll muspekaren över ett kort av en posttyp och klicka på knappen **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Uppdatera utseende**.
@@ -181,3 +181,4 @@ After permssions - replace the table with:
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    Du kan också byta namn på en posttyp i huvudet på posttypens sida.
+1. (Valfritt) Expandera den nedåtriktade pilen till höger om ett posttypsnamn och välj en annan posttyp att redigera.
