@@ -7,7 +7,7 @@ description: Med Adobe Workfront Fusion Devtool kan du förstå och felsöka sce
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
+source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Så här använder du utvecklingsverktyget i klassiska [!DNL Fusion] måste du i
 
 Du kan lägga till [!DNL Workfront Fusion] Utveckla för [!DNL Chrome] via [!UICONTROL [!DNL Chrome] Web Store].
 
-1. Klicka [den här länken](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) för att gå till [!DNL Workfront Fusion] Devtool på [!UICONTROL [!DNL Chrome] Web Store].
+1. Klicka [den här länken](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) för att gå till [!DNL Workfront Fusion] Devtool på [!UICONTROL [!DNL Chrome] Web Store].
 1. Klicka på **[!UICONTROL Add to [!DNL Chrome]]**.
 1. Granska behörigheter i det fönster som öppnas. Om du godkänner behörigheterna klickar du på **[!UICONTROL Add Extension]**.
 
