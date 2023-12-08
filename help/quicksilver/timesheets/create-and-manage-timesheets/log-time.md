@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3494'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li>
-   <li> Arbeta eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul>
+   <td> <p>Ny plan:<ul><li>Ljus eller högre för att logga allmänna timmar i en tidrapport</li></p>
+   <li> Standard eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul></p>
+   <p>eller</p>
+   <p>Aktuell plan:<ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li></p>
+   <li> Arbeta eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Timposter som ingår i fakturerade faktureringsposter är nedtonade och kan inte redigeras i tidrapporten. Mer information finns i [Skapa faktureringsposter](../../manage-work/projects/project-finances/create-billing-records.md).
 * Personliga uppgifter visas inte som standard i tidrapporten. Personliga uppgifter visas bara i tidrapporten när de har loggat tid. När du har loggat tiden för en personlig uppgift kan du fästa uppgiften på tidrapporten och den kommer att finnas kvar på tidrapporten om den är fäst. Mer information finns i [Skapa arbetsobjekt från startdelen](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## Loggtid
+## Loggtid {#log-time-section}
 
 Du kan logga tid i följande områden i Workfront:
 
@@ -136,7 +139,7 @@ Du kan logga tid på följande objekt i tidrapporten:
 
 Så här loggar du tid på en tidrapport:
 
-1. Klicka på [!UICONTROL **Huvudmeny**] icon ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** icon ![](assets/lines-main-menu.png) i det övre vänstra hörnet av Workfront, om tillgängligt.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) längst upp till vänster.
 
 1. Klicka [!UICONTROL **Tidrapporter**]. Din aktuella tidrapport visas som standard.
    ![Tidrapport](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ Så här loggar du tid på en tidrapport:
 1. (Valfritt) Expandera listrutorna för filter, vy och gruppering för att tillämpa eller anpassa en och visa önskad objektinformation.
 
 1. Markera ett eller flera objekt i listan och klicka sedan på **Lägg till**.
+
+   Om du har lagt till färre än 50 objekt samtidigt läggs objekten till i tidrapporten. Uppgifter och ärenden visas under namnet på projektet.
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ Så här loggar du tid på en tidrapport:
 
    ![Nedrullningsbar meny för timtyp](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   Beroende på operativsystem eller webbläsare och när du använder ett vanligt QWERTY-tangentbord trycker du på följande uppsättning med tangenter för att lägga till ytterligare en rad:
@@ -231,7 +237,6 @@ Så här loggar du tid på en tidrapport:
    >   Beroende på operativsystem eller webbläsare och när du använder ett vanligt QWERTY-tangentbord trycker du på följande uppsättning tangenter för att ta bort en rad:
    >   * Ctrl + Alt + - för Windows-datorer
    >   * Cmd + Option + - för Mac datorer
-
 
 1. Ange hur lång tid du vill logga in en viss dag i tidslinjesektionen i tidrapporten och klicka sedan utanför timrutan för att spara timposten. Timmarna sparas automatiskt. Raden som du loggar tid för markeras med ljusblått och rutan för timuppgifterna markeras med mörkblått.
 
@@ -299,6 +304,8 @@ Så här loggar du tid på en tidrapport:
 1. (Valfritt) Klicka på [!UICONTROL **Uppdateringar**] i den vänstra panelen och lägg sedan till en uppdatering i tidrapporten. Mer information om Workfront-uppdateringar finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesigned-tidrapport-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+
+1. (Valfritt) Gå tillbaka till **Tidrapport** området där du vill stänga eller skicka tidrapporten.
 
    * **Stäng**: Stäng tidrapporten när du är klar med uppdateringen. Det här alternativet är endast tillgängligt när din tidrapport inte är kopplad till en godkännare.
 

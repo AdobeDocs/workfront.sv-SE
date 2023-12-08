@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -99,14 +99,14 @@ Följande likheter finns mellan syntaxen för uppsättningarna med rapportelemen
 
 ### Syntax för vyer och grupperingar
 
-Du kan lägga märke till att kodraderna när du skapar vyer och grupperingar är lika.
+Kodraderna när du skapar vyer och grupperingar är lika.
 
 Mer information om hur du skapar vyer och grupperingar finns i följande artiklar:
 
 * [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-Den viktigaste kodraden för en vy eller gruppering är den rad som identifierar det objekt som refereras i vyns kolumn eller grupperingen. Beroende på om det här fältet är en direkt referens till ett databasfält i Workfront eller en beräkning mellan flera fält kan kodraden börja med `valuefield` eller `valueexpression`
+Den viktigaste kodraden för en vy eller gruppering är den rad som identifierar det objekt som refereras i vyns kolumn eller i grupperingen. Den här kodraden kan börja med `valuefield` eller `valueexpression` baserat på om det här fältet är en direkt referens till ett databasfält i Workfront eller en beräkning mellan flera fält.
 
 I följande tabell visas de vanligaste kodraderna i en vy eller gruppering:
 
@@ -216,13 +216,11 @@ Följande regler gäller när du refererar till Workfront-objekt med en `valueex
 
 #### `Valueformat` översikt för vyer och grupperingar
 
-Den näst viktigaste kodraden i en vy eller gruppering är `valueformat=` linje. Detta anger för Workfront i vilket format du vill returnera det värde du anger i dialogrutan
-`valuefield` eller värdeuttrycksrader. Du kan använda olika format för `valueformat` rader rekommenderar vi att du alltid använder följande värde när du använder
-`valueexpression`:
+Den näst viktigaste kodraden i en vy eller gruppering är `valueformat=` linje. Detta anger för Workfront i vilket format du vill returnera det värde du anger i dialogrutan `valuefield` eller `valueexpression` rader. Du kan använda olika format för `valueformat` rader rekommenderar vi att du alltid använder följande värde när du använder `valueexpression`:
 
 `valueformat=HTML`
 
-För ytterligare `valueformats` värden, se även följande artiklar:
+För ytterligare `valueformat` värden, se även följande artiklar:
 
 * [Formatera datum i textlägesrapporter](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formatera tal, valuta och procentvärden i textlägesrapporter](../../reports/text-mode/format-numbers-in-text-mode-reports.md)

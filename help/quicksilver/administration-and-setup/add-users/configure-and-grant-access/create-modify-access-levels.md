@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare. När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information om åtkomstnivåer finns i
+Som Adobe Workfront-administratör kan du skapa anpassade åtkomstnivåer och använda dem för användare. När du arbetar med åtkomstnivåer är det viktigt att förstå hur de fungerar tillsammans med objektbehörigheterna som användarna ger när de delar objekt med varandra. Mer information om åtkomstnivåer finns i:
 
 * [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Växelkurser</td> 
-      <td> <p>Lägg till ny valuta i Workfront.</p> <p>Utan den här åtkomsten kan användaren bara lägga till en befintlig valuta i ett projekt som han/hon skapar.</p> </td> 
+      <td> Lägg till ny valuta i Workfront. <p>Utan den här åtkomsten kan användaren bara lägga till en befintlig valuta i ett projekt som han/hon skapar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Utgifter</td> 
@@ -118,13 +118,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Jobbroller</td> 
-      <td> <p>Med den här åtkomsten kan användaren göra följande:</p> 
+      <td> Med den här åtkomsten kan användaren göra följande: 
        <ul> 
         <li>Visa och redigera befintliga jobbroller</li> 
         <li>Lägg till nya jobbroller</li> 
         <li>Redigera rollfakturering och kostnadstariffer</li> 
        </ul> 
-       <p>Viktig information om åtkomst till finansiella data som är tillgängliga för en Standard- eller Planering-användare med administrativ åtkomst till jobbroller finns i <a href="#planner-users-with-administrative-access-to-job-roles">Standard- eller planeringsläsare med administrativ åtkomst till jobbroller</a>.</p>
+       <p>Viktig information om åtkomst till finansiella data som är tillgängliga för en Standard- eller Planering-användare med administrativ åtkomst till jobbroller finns i <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard- eller planeringsläsare med administrativ åtkomst till jobbroller</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Tidrapporter och timmar</td> 
-      <td> <p>Gruppadministratörer kan tilldela tidrapportprofiler till användare i de grupper och undergrupper som de hanterar.</p> <p>Om det här alternativet inte är aktiverat kan gruppadministratörer inte tilldela andra användare i de grupper och undergrupper som de hanterar tidrapportprofiler, även om de kan skapa dem.</p> <p>Alla andra användare som har en Standard- eller Plan-licens kan visa alla timmar och tidrapporter i Workfront.</p> <p>Om det här alternativet inte är aktiverat kan användare bara visa timmar på:</p> 
+      <td> Gruppadministratörer kan tilldela tidrapportprofiler till användare i de grupper och undergrupper som de hanterar. <p>Om det här alternativet inte är aktiverat kan gruppadministratörer inte tilldela andra användare i de grupper och undergrupper som de hanterar tidrapportprofiler, även om de kan skapa dem.</p> <p>Alla andra användare som har en Standard- eller Plan-licens kan visa alla timmar och tidrapporter i Workfront.</p> <p>Om det här alternativet inte är aktiverat kan användare bara visa timmar på:</p> 
        <ul> 
         <li>Projekt, uppgifter eller problem som de hanterar</li> 
         <li>Deras egen tidrapport</li> 
@@ -168,11 +168,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Visa endast uppdateringar som de har inkluderats i konversationen</td> 
-      <td> <p>Gör det möjligt för användare att endast se kommentarer där deras namn eller teamets namn har inkluderats.</p> <p> <p><b>ANMÄRKNING</b>: Detta förhindrar att användare prenumererar på objekt i Workfront. Mer information om att prenumerera på objekt finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Lägg till användare</a>.</p> </p> </td> 
+      <td> Gör det möjligt för användare att endast se kommentarer där deras namn eller teamets namn har inkluderats. <p> <p><b>ANMÄRKNING</b>: Detta förhindrar att användare prenumererar på objekt i Workfront. Mer information om att prenumerera på objekt finns i <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Prenumerera på objekt i Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt aldrig användare att ta bort kommentarer </td> 
-      <td> <p>Hindrar användare från att ta bort kommentarer om objekt. </p> <p><b>ANMÄRKNING</b>: Ingen kan ta bort kommentarer från andra användare.</p> </td> 
+      <td> Hindrar användare från att ta bort kommentarer om objekt.  <p><b>ANMÄRKNING</b>: Ingen kan ta bort kommentarer från andra användare.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Visa endast företag, grupper och team som de tillhör</td> 
@@ -191,7 +191,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Villkorligt och valfritt) Om ditt Workfront-system är konfigurerat för användare som tillhör flera företag kan du begränsa synligheten till andra användare baserat på vilket företag de tillhör i avsnittet **Personer i andra företag bör endast visa användare från**.
 
-   Du kan begränsa användarna så att de bara kan se användare från det egna företaget eller från det företag som du har angett som primärt företag. Mer information om det primära företaget finns i [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Du kan begränsa användarna så att de bara kan se användare från det egna företaget eller från det företag som du har angett som primärt företag. Det primära företaget representerar vanligtvis ditt Workfront-konto där de flesta av dina användare arbetar. Mer information om det primära företaget finns i [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
