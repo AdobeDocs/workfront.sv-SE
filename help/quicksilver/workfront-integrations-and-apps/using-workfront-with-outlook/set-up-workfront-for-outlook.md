@@ -2,20 +2,20 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Konfigurera [!DNL Adobe Workfront] for [!DNL Outlook]
-description: Adobe Workfront Fusion är integrerat med Outlook. I den här artikeln beskrivs hur du kan börja använda den här integreringen i dina egna arbetsflöden.
+description: The [!DNL Adobe Workfront] [!DNL Outlook] kan du använda nyckeln [!DNL Workfront] uppgifter direkt från Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
 # Konfigurera [!DNL Adobe Workfront for Outlook]
 
-The [!DNL Adobe Workfront] [!DNL Outlook] kan du göra följande [!DNL Workfront] uppgifter direkt från Outlook:
+The [!DNL Adobe Workfront] [!DNL Outlook] kan du använda följande tangent [!DNL Workfront] uppgifter direkt från Outlook:
 
 * Uppdatera ett befintligt projekt, en uppgift eller ett problem med information från ett e-postmeddelande. Mer information finns i [Uppdatera ett befintligt objekt från ett [!DNL Outlook] e-post](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
 * Skapa en [!DNL Workfront] förfrågan baserad på ett e-postmeddelande inom [!DNL Outlook]. Mer information finns i [Skapa en Adobe Workfront-förfrågan från en [!DNL Outlook] e-post](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
@@ -41,12 +41,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
-  <tr>
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Ny plan: Standard </p>
- <p>eller</p> 
-<p>Aktuell plan: [!UICONTROL Work], [!UICONTROL Plan] </p> 
-  </td> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td> 
+   <p>Ny plan: [!UICONTROL Standard]</p> 
+   <p>Aktuell plan:[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +70,7 @@ The [!DNL Workfront] tillägg för [!DNL Outlook] stöds i miljöer som uppfylle
 
 ### Klientkrav {#client-requirements}
 
-Vi stöder följande versioner av [!DNL Outlook]:
+Workfront stöder följande versioner av [!DNL Outlook]:
 
 * [!DNL Outlook 2013] eller senare [!DNL Windows]
 *[!DNL  Outlook 2016] eller senare [!DNL Windows]
@@ -91,7 +90,7 @@ När klienten konfigureras måste användaren välja någon av följande kontoty
 
 E-postserverns krav uppfylls som standard när du ansluter till [!DNL Office 365] eller [!DNL Outlook.com]. Om du är ansluten till en lokal installation av [!DNL Exchange Server]gäller följande krav:
 
-* Vi stöder alla [!DNL Exchange On-Premise] servrar
+* Workfront stöder alla [!DNL Exchange On-Premise] servrar
 * [!DNL Exchange Web Services] (EWS) måste vara aktiverat och måste vara exponerat för Internet.
 * Servern måste ha ett giltigt autentiseringscertifikat för att servern ska kunna utfärda giltiga identitetstoken. Nya installationer av [!DNL Exchange Server] innehåller ett standardautentiseringscertifikat.
 
@@ -103,11 +102,7 @@ Mer information om vilka miljöer som stöds finns i [[!DNL Microsoft Office 365
 
 ## Installera tillägget
 
-Mer information om hur du ställer in [!DNL Workfront] tillägg för [!DNL Outlook], se [[!DNL Workfront] - Samverkande arbetsledning.](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)
-
-* [[!DNL Workfront] for [!DNL Outlook 365]](#workfront-for-outlook-365-workfront-for-outlook-365)
-* [[!DNL Workfront] for [!DNL Outlook] på webben](#workfront-for-outlook-on-the-web-workfront-for-outlook-on-the-web)
-* [[!DNL Workfront] for [!DNL Outlook] på [!DNL Windows] eller [!DNL Mac]](#workfront-for-outlook-on-windows-or-mac-workfront-for-outlook-on-windows-or-mac)
+Du kan hämta Workfront-tillägget för Outlook från [Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
 ### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
 

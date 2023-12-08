@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,13 @@ En uppgifts varaktighetstyp identifierar relationen mellan antalet resurser som 
 
 ## Översikt över aktivitetsvaraktighet
 
->[!NOTE]
->
->När hänsyn tas till den primära tilldelades tid för ett projekt kan aktivitetens planerade datum ändras, men aktivitetens varaktighet är densamma. Information om hur du tar hänsyn till den primära uppdragstagarens tid när du planerar ett projekt finns i  [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 Om aktivitetens faktiska start- och slutförandedatum ligger utanför schemat för projektet, den primära tilldelaren eller standardschemat, är aktivitetens varaktighet noll.
 
 **Exempel:** Om du har ett schema som börjar kl. 9.00 och slutar kl. 12.00 och en aktivitet som schemaläggs att starta kl. 2:00 och avslutas kl. 17:00, är aktivitetens varaktighet noll.
 
-Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront.
+Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront:
 
-* Om uppgiften har tilldelats en användare använder Workfront någon av följande scheman, i exakt den här ordningen för att beräkna varaktigheten:
+* Om uppgiften tilldelas till en användare av Workfront, använder någon av följande scheman, i exakt den här ordningen för att beräkna varaktigheten:
 
    1. Workfront tar hänsyn till användarens schema.
    1. Om användaren inte är kopplad till ett schema, tar Workfront hänsyn till projektets tidsplan.
@@ -41,11 +37,15 @@ Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront
 
 * Om uppgiften har tilldelats flera användare:
 
-  Workfront tar hänsyn till antingen projektplanen eller den primära uppdragstagarens tidsplan.
+   1. Workfront tar hänsyn till antingen projektplanen eller den primära uppdragstagarens tidsplan.
 
   Din Workfront-administratör avgör vilket schema Workfront använder när en uppgift tilldelas flera användare. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   Stegen liknar det första scenariot efter att du har förstått vilket schema Workfront använder för att beräkna varaktighet.
+
+>[!NOTE]
+>
+>När hänsyn tas till den primära tilldelades tid för ett projekt kan aktivitetens planerade datum ändras, men aktivitetens varaktighet är densamma. Information om hur du tar hänsyn till den primära uppdragstagarens tid när du planerar ett projekt finns i  [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Tidsenheter för aktivitetsvaraktighet
 
@@ -94,7 +94,7 @@ Varaktighetstyp hjälper dig att svara på följande frågor:
 * Hur stort är jobbet?
 * Hur lång tid kommer det att ta?
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## Definiera varaktighetstyper
 
@@ -104,8 +104,8 @@ Varaktighetstyp hjälper dig att svara på följande frågor:
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">Varaktighetstyp </th> 
-   <th scope="col"> <p><strong> -funktion</strong> </p> </th> 
+   <th scope="row"><p><strong>Varaktighetstyp</strong></p></th> 
+   <th scope="col"> <p><strong>Funktion</strong> </p> </th> 
    <th scope="col"> <p><strong>Hur resurserna påverkar den</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -121,7 +121,7 @@ Varaktighetstyp hjälper dig att svara på följande frågor:
    <td scope="col"> <p>Planerade timmar ökar när tilldelningar läggs till i uppgiften. </p> <p>Planerade timmar minskar när tilldelningar tas bort från aktiviteten.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>Ansträngningsstyrd</p> </th> 
+   <th scope="col"> <p><strong>Ansträngningsstyrd</strong></p> </th> 
    <td scope="col"> <p>Bestämmer antalet planerade timmar baserat på antalet resurser.</p> <p>När du väljer den här varaktighetstypen kan du ange en enskild Varaktighet för uppgiften. Workfront beräknar de planerade timmarna för aktiviteten genom att multiplicera antalet dagar i tidsperioden med antalet arbetstimmar i tidsplanen och dividera antalet med antalet tilldelningar för aktiviteten. </p> <p>Du kan ändra allokeringsprocenten för varje tilldelad till uppgiften manuellt, men antalet planerade timmar är detsamma.</p> <p>Mer detaljerad information finns i <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Översikt över varaktighetstyp: ansträngningsstyrd</a>.</p> </td> 
    <td scope="col"> <p>Planerade timmar ökar när tilldelningar tas bort från aktiviteten.</p> <p>Planerade timmar minskar när tilldelningar läggs till i aktiviteten. </p> <p>Varaktigheten ändras inte, oavsett antalet tilldelningar eller deras schema. </p> <p>Varaktigheten är lika med Planerade timmar. Planerad varaktighet är lika med Planerade timmar dividerat med antalet tilldelningar.</p> </td> 
   </tr> 
