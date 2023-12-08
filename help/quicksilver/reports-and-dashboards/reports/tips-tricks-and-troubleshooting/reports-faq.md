@@ -7,9 +7,9 @@ description: Vanliga frågor och svar om rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Mer information om hur du ändrar filter och grupperingar finns i artiklarna [Ö
 Rapporten eller kalendern kan ha en jokerteckensfiltervariabel som pekar på användaren som är inloggad. I det här fallet visar rapporten information baserat på den användare som är inloggad. Justera filtret för att ta bort jokertecknet som pekar på den inloggade användaren.\
 ![](assets/qs--user.id-filter-variable-350x79.png)
 
-En fullständig lista över användarbaserade jokertecken-filtervariabler finns i [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+En fullständig lista med användarbaserade översikt över jokerteckenfiltervariabler finns i [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Varför verkar uppgifterna i min rapport ofullständiga?
 
@@ -110,7 +110,7 @@ Mer information finns i [Kör och leverera en rapport med åtkomsträttigheter f
 
 Om du vill visa alla uppgifter eller ärenden som du har tilldelats, oavsett om du är ägare (eller primär tilldelad) eller inte, använder du följande filter i en aktivitets- eller problemrapport:
 
-1. Öppna en aktivitets- eller problemrapport.
+1. Få åtkomst till en aktivitet eller en problemrapport.
 1. På **Filter** flik, klicka **Lägg till en filterregel**.
 
 1. I **Börja skriva fältnamn..** fält, börja skriva **Namn på uppdragsanvändare** markerar du den när den visas i listan.
@@ -134,14 +134,14 @@ Kontrollera först att du har rätt behörighet och behörighet för att lägga 
 
 Det finns dock några saker som kan förhindra att länkarna visas:
 
-* Om du har använt snabbfiltret på de här listorna visas inte länkarna. Ta bort snabbfiltret och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
-   Information om snabbfiltret finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+* Om du har använt snabbfiltret på dessa listor visas inte länkarna. Ta bort snabbfiltret och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
+  Information om snabbfiltret finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* Om du har en **Gruppering** länkarna visas inte i de här listorna. Ta bort **Gruppering** och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
-   Mer information om hur du skapar grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+* Om du har en **Gruppering** länkarna visas inte i dessa listor. Ta bort **Gruppering** och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
+  Mer information om hur du skapar grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 * Om du har en **Visa** länkarna visas inte i listor som har en annan valuta än projektets standardvaluta. Ändra **Visa** till **Projektets ursprungliga valuta** och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
-   Mer information om hur du ändrar valuta i vyn finns i [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+  Mer information om hur du ändrar valuta i vyn finns i [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ![](assets/nwe-project-original-currency-350x229.png)
 
@@ -155,7 +155,7 @@ Informationen kan uppdateras manuellt i en cachelagrad rapport.\
 Mer information om hur du uppdaterar en cachelagrad rapport finns i [Köra en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 Informationen kan uppdateras manuellt i en cachelagrad kontrollpanel.\
-Mer information om hur du uppdaterar en cachelagrad kontrollpanel finns i avsnittet [Visa instrumentpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) i artikeln [Kom igång med instrumentpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Mer information om att uppdatera en cachelagrad kontrollpanel finns i avsnittet [Visa instrumentpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) i artikeln [Kom igång med instrumentpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Kan jag ändra rapportens ägare?
 
@@ -164,10 +164,10 @@ Mer information om hur du uppdaterar en cachelagrad kontrollpanel finns i avsnit
 Du kan inte ändra rapportens ägare. Den användare som skapade rapporten kan dock tillåta andra användare att redigera rapporten. Hur du kan tillåta användare att redigera en rapport beror på vilken typ av användare du är.
 
 * Systemadministratörer kan tillåta användare med en planlicens att redigera rapporter genom att konfigurera alternativet Redigera i rapportraden så att de får tillgång till Skapa en rapport.\
-   Mer information finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Mer information finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Alla slutanvändare som har tillgång till att skapa och dela rapporter kan låta andra redigera enskilda rapporter genom att dela dem och ge andra användare behörigheten Hantera.\
-   Mer information finns i [Dela en rapport i Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Mer information finns i [Dela en rapport i Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 Om du har behörighet att visa eller hantera en rapport kan du också göra en kopia av rapporten, som du sedan blir ägare till som standard. Mer information om hur du kopierar en rapport finns i [Skapa en kopia av en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 

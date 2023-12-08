@@ -5,9 +5,9 @@ description: Det övre navigeringsfältet, som visas högst upp på skärmen i d
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Nedanför dessa alternativ i dialogrutan [!UICONTROL Main Menu]kan du komma åt:
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
-   <td> <p>Klicka <b>[!UICONTROL Setup]</b> tar dig till [!UICONTROL Setup] där du kan konfigurera olika aspekter av [!DNL Workfront] konto. Beroende på vilka åtkomstinställningar du har kan det vara begränsat vad du kan konfigurera.</p> <p>Mer information om [!UICONTROL Setup] område, se <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration och konfiguration</a>.</p> </td> 
+   <td> <p>Klicka <b>[!UICONTROL Setup]</b> tar dig till [!UICONTROL Setup] där du kan konfigurera olika aspekter av [!DNL Workfront] konto. Beroende på vilka åtkomstinställningar du har kan det vara begränsat vad du kan konfigurera.</p> <p>Mer information om [!UICONTROL Setup] område, se <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration och inställning: artikelindex</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Help]</p> </td> 

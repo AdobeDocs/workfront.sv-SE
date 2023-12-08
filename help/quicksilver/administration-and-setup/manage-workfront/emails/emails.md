@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Händelsemeddelanden är tillgängliga i Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Anpassa e-postämnen för händelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [Ändra inställningar för e-postmeddelanden i användarnas profiler](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [Ändra e-postaviseringsinställningar för flera användare](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
 * [Ställ in påminnelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [Bifoga ett påminnelsemeddelande till ett objekt](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [Ställ in automatiska påminnelser](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)

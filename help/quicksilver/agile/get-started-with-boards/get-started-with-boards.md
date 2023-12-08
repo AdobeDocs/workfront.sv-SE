@@ -1,20 +1,20 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Kom igång med anslagstavlor i [!DNL Adobe Workfront]
+title: "Kom igång med anslagstavlor: artikelindex"
 description: Läs dessa artiklar och lär dig hur du använder anslagstavlor i Workfront.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
-# Kom igång med anslagstavlor i [!DNL Adobe Workfront]
+# Kom igång med anslagstavlor: artikelindex
 
 Det här avsnittet innehåller följande artiklar:
 

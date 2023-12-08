@@ -4,9 +4,9 @@ description: Följande viktiga förbättringar har gjorts för hantering av anpa
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ När detta inträffar kan du göra något av följande:
 
 Instruktioner om hur du lägger till ett beräknat anpassat fält i ett anpassat formulär finns i [Lägga till beräknade data i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Mer information om variabler som `$$OBJCODE`, se [Variabler för jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Mer information om variabler som `$$OBJCODE`, se [Översikt över filtervariabler för jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Varning om hur du tar bort en objekttyp från ett anpassat formulär
 

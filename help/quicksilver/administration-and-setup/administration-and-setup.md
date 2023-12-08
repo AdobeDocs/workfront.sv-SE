@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: Administration och konfiguration
-description: I det här avsnittet hittar du den information du behöver för att hantera Workfront-systemet.
+title: "Administration och inställning: artikelindex"
+description: Hitta den information du behöver för att hantera Workfront-systemet.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 24%
+source-wordcount: '73'
+ht-degree: 0%
 
 ---
 
-# Administration och konfiguration
+# Administration och inställning: artikelindex
 
-Det här avsnittet innehåller följande underavsnitt:
+Administratörer kan styra och anpassa användarupplevelsen i Workfront. Använd länkarna nedan för att komma igång:
 
 * [Kom igång med Adobe Workfront administration](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--
@@ -31,6 +31,6 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Hantera Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
 * [Hantera grupper](../administration-and-setup/manage-groups/manage-groups.md)
 * [Konfigurera integreringar](../administration-and-setup/configure-integrations/workfront-integrations.md)
-* [Utkast](../administration-and-setup/blueprints/blueprints.md)
+* [Blueprints](../administration-and-setup/blueprints/blueprints.md)
 * [Vanliga frågor om administratörer](../administration-and-setup/administrator-faqs/adminstrator-faqs.md)
 * [Tips, tricks och felsökning för administration och konfiguration](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)

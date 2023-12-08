@@ -7,14 +7,14 @@ description: Genom att använda jokertecken i filter kan du referera till en all
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: eb85a68801b3542efc94766a017dd7b59b99b914
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
 
-# Variabler för jokertecken
+# Översikt över filtervariabler för jokertecken
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -27,46 +27,48 @@ ht-degree: 0%
 </div>
 -->
 
-Adobe Workfront stöder filtervariabler eller jokertecken när följande element skapas:
-
-* Filter i listor, rapporter och Resursplanering
-
-   Mer information om Workfront-filter finns i artikeln [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-
-* Avancerade sökningar
-
-   Mer information om avancerade sökningar finns i avsnittet [Använd avancerad sökning](../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search) i artikeln [Sök i Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
-
-* Beräknade kolumner i vyer
-* Villkorsstyrd formatering i vyer
-
-   Mer information om villkorsstyrd formatering finns i artikeln [Använd villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-
-* Beräknade anpassade fält
-
-   >[!NOTE]
-   >
-   >Jokerteckensfiltervariabler stöds inte när kapslade samlingar i en beräknad kolumn refereras.
-
-   Mer information om beräknade anpassade fält och kolumner finns i artikeln [Beräknade anpassade fält kontra beräknade kolumner](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
-
-Genom att använda jokertecken kan du referera till en allmän användare eller ett allmänt datum i stället för en specifik användare eller ett specifikt datum. På så sätt är elementen som du skapar dynamiska och resultatet ändras beroende på i vilket sammanhang de används.
+Med jokertecken kan du referera till en allmän användare eller ett allmänt datum i stället för en specifik användare eller ett specifikt datum. På så sätt är elementen som du skapar dynamiska. Resultatet ändras beroende på i vilket sammanhang de används.
 
 Om du till exempel filtrerar $$USER.homeGroupID i en projektrapport hämtas endast projekt som är kopplade till hemgruppen för den användare som är inloggad.
 
-Du kan använda datumbaserade eller användarbaserade filtervariabler i Workfront.
+Du kan använda filtervariabler, som också kallas jokertecken, när du skapar följande element:
+
+<table>
+    <tr>
+        <td>Filter i listor, rapporter och Resursplanering</td>
+        <td>Mer information om Workfront-filter finns i artikeln <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Översikt över filter i Adobe Workfront</a>.
+</td>
+    </tr>
+    <tr>
+        <td>Avancerade sökningar</td>
+        <td>Mer information om avancerade sökningar finns i avsnittet <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Använd avancerad sökning</a> i artikeln <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Sök i Adobe Workfront</a>.
+    </tr>
+    <tr>
+        <td>Beräknade kolumner i vyer</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Villkorsstyrd formatering i vyer</td>
+        <td>Mer information om villkorlig formatering finns i artikeln <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Använd villkorsstyrd formatering i vyer</a>.
+    </tr>
+    <tr>
+        <td>Beräknade anpassade fält</td>
+        <td>Jokerteckensfiltervariabler stöds inte när kapslade samlingar i en beräknad kolumn refereras.
+
+Mer information om beräknade anpassade fält och kolumner finns i artikeln <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Beräknade anpassade fält kontra beräknade kolumner</a>.
+</td>
+    </tr>
+</table>
 
 ## Datumbaserade jokerteckensfiltervariabler
 
-Alternativen för Workfront datumbaserade jokertecken kan användas tillsammans med alla datumfilterattribut.
-
-Mer information om hur du lägger till ett datumbaserat jokertecken i en rapport finns i artikeln [Generera rapporter med datumbaserade jokertecken](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Alternativen för datumbaserade jokertecken kan användas i kombination med alla datumfilterattribut. Mer information om hur du lägger till ett datumbaserat jokertecken i en rapport finns i artikeln [Generera rapporter med datumbaserade jokertecken](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
 >Om du skapar en datum- och tidsberäkning som inte innehåller någon tidsdel, eller som använder datumjokertecknen $$TODAY eller $$NOW, används datumet enligt UTC-zonen (Coordinated Universal Time), inte enligt din lokala tidszon. Detta kan orsaka ett oväntat datumresultat.
 
-Välj bland följande datumbaserade jokertecken:
+Du kan välja mellan följande datumbaserade jokertecken:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,12 +80,12 @@ Välj bland följande datumbaserade jokertecken:
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NU</strong> </p> </td> 
-   <td> <p>Detta liknar jokertecknet $$TODAY men innehåller aktuellt datum och aktuell tid. $$NOW är lika med aktuellt datum och aktuell tid.</p> <p>Om du till exempel vill visa alla timposter som har angetts fram till den aktuella tiden, kan du göra detta genom att använda följande regel i ett timfilter: <em>Planerat startdatum mindre än $$NOW</em>.</p> <p>Obs! Detta jokertecken stöds inte i resursplaneraren.</p> </td> 
+   <td> <p>Detta liknar jokertecknet $$TODAY, men innehåller aktuellt datum och aktuell tid. $$NOW är lika med aktuellt datum och aktuell tid.</p> <p>Om du till exempel vill visa alla timposter som har angetts fram till den aktuella tiden, kan du göra detta genom att använda följande regel i ett timfilter: <em>Planerat startdatum mindre än $$NOW</em>.</p> <p>Obs! Detta jokertecken stöds inte i resursplaneraren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Om du vill ange olika tidsperioder och olika tidpunkter (framtida eller tidigare) kan du kombinera jokertecken med följande:
+Om du vill ange olika tidsperioder och olika tidpunkter (framtida eller tidigare) kan du kombinera jokertecknen ovan med följande:
 
 | Attribut |   |
 |---|---|
@@ -96,14 +98,14 @@ Om du vill ange olika tidsperioder och olika tidpunkter (framtida eller tidigare
 
 {style="table-layout:auto"}
 
-| **Kvalificerare** |  |
+| **Kvalificerare** | |
 |---|---|
 | **b** | början av veckan (söndag) |
 | **e** | veckoslut (lördag) |
 
 {style="table-layout:auto"}
 
-| **Operatorer** |  |
+| **Operatorer** | |
 |---|---|
 | **+** | lägg till värde i jokerteckenvärde |
 | **-** | subtrahera värde från jokertecken |
@@ -117,10 +119,10 @@ Jokertecknet `$$TODAYb+2w` hänvisar till&quot;2 veckor från början av denna v
 >[!IMPORTANT]
 >
 >Om ett filter eller en rapport innehåller en användarbaserad jokerteckensfiltervariabel visar resultaten alltid information som filtrerats av den användare som är inloggad. När du delar ett sådant filter eller en sådan rapport med en annan användare, hämtar jokertecknet information för användaren som tittar på rapporten. De två användarna ser olika resultat.
+>
+>Mer information om hur du lägger till ett användarbaserat jokertecken i en rapport finns i artikeln [Generera rapporter med användarbaserade jokertecken](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-Mer information om hur du lägger till ett användarbaserat jokertecken i en rapport finns i artikeln [Generera rapporter med användarbaserade jokertecken](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
-
-Workfront tillhandahåller följande användarbaserade variabler:
+Du kan välja mellan följande användarbaserade variabler:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -169,7 +171,7 @@ Workfront tillhandahåller följande användarbaserade variabler:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
-   <td> <p>Variabeln $$USER.name refererar till det fullständiga namnet för den inloggade användaren.</p> <p>Obs!   <p>Denna jokervariabel fungerar bara när du ändrar ett filter i textläge. Du kan inte använda det här jokertecknet i filter som inte stöder textläge. Du kan till exempel inte använda jokertecknet i filtren i följande områden:</p> 
+   <td> <p>Variabeln $$USER.name refererar till det fullständiga namnet för den inloggade användaren.</p> <p>Obs!   <p>Denna jokervariabel fungerar bara när du ändrar ett filter i textläge. Du kan inte använda det här jokertecknet i filter som inte har stöd för textläge. Du kan till exempel inte använda jokertecknet i filtren i följande områden:</p> 
      <ul> 
       <li> <p>Resursplanering</p> </li> 
       <li> <p>Utjämning av arbetsbelastning</p> </li> 
@@ -194,16 +196,18 @@ Workfront tillhandahåller följande användarbaserade variabler:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.roleID</strong> </p> </td> 
-   <td> <p>Variabeln $$USER.roleID refererar till den inloggade användarens primära roll. Med hjälp av den här variabeln kan du rapportera uppgifter eller ärenden som tilldelats en specifik jobbroll.</p> <p>Om du till exempel vill se alla uppgifter som tilldelats den inloggade användarens primära roll kan du använda följande filterregel i ett uppgiftsfilter:</p> <p><em>Uppgift: Roll-ID är lika med $$USER.roleID.</em> </p> </td> 
+   <td> <p>Variabeln $$USER.roleID refererar till den inloggade användarens primära roll. Med hjälp av den här variabeln kan du rapportera uppgifter eller ärenden som tilldelats en specifik jobbroll.</p> <p>Om du till exempel vill se alla uppgifter som tilldelats den inloggade användarens primära roll kan du använda följande filterregel i ett uppgiftsfilter:</p> <p><em>Aktivitet: Roll-ID är lika med $$USER.roleID.</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td role="rowheader">$$USER.roleIDs</td> 
-   <td> <p>Variabeln $$USER.roleIDs refererar till alla jobbroller som är associerade med den inloggade användaren. Med den här variabeln kan du rapportera uppgifter eller ärenden som tilldelats någon av de jobbroller som är kopplade till den inloggade användaren. </p> <p>Om du till exempel vill se alla uppgifter som tilldelats någon av de roller som är associerade med den inloggade användaren, kan du använda följande filterregel i ett uppgiftsfilter:</p> <p><i>Uppgift: Roll-ID är lika med $$USERID.roleIDs<br></i> </p> <p>Tips: The <i>Uppgift: Roll-ID är lika med $$USERID.roleIDs</i> filterregeln finns i de inbyggda filtren Ej tilldelade uppgifter i Min roll och Ej tilldelade problem i Min roll. </p> </td> 
+   <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
+   <td> <p>Variabeln $$USER.roleIDs refererar till alla jobbroller som är associerade med den inloggade användaren. Med den här variabeln kan du rapportera uppgifter eller ärenden som tilldelats någon av de jobbroller som är kopplade till den inloggade användaren. </p> <p>Om du till exempel vill se alla uppgifter som tilldelats någon av de roller som är associerade med den inloggade användaren, kan du använda följande filterregel i ett uppgiftsfilter:</p> <p><i>Aktivitet: Roll-ID är lika med $$USERID.roleID<br></i> </p> <p>Tips: <i>Aktivitet: Roll-ID är lika med $$USERID.roleID</i> filterregeln finns i de inbyggda filtren Ej tilldelade uppgifter i Min roll och Ej tilldelade problem i Min roll. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Objektbaserade filtervariabler för jokertecken
+## Objektbaserade jokerteckensfiltervariabler
+
+Du kan välja mellan följande objektbaserade jokertecken:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -214,8 +218,8 @@ Workfront tillhandahåller följande användarbaserade variabler:
    <td> 
     <div> 
      <p>Variabeln $$OBJCODE refererar till objekttypen. </p> 
-     <p>Om formulärets valda objekttyper i ett anpassat formulär inte är kompatibla med ett fält som refereras i ett beräknat anpassat fält, kan du använda det här jokertecknet för att undvika problemet med att skapa dubbletter av formulär för de objekttyperna.</p> 
-     <p>I det beräknade anpassade fältet gör du detta genom att ta med jokertecknet i ett IF-uttryck så att beräkningen kan generera olika värden för vart och ett av formulärets objekttyper. </p> 
+     <p>Om formulärets valda objekttyper i ett anpassat formulär inte är kompatibla med ett fält som refereras i ett beräknat anpassat fält, kan du använda jokertecknet för att undvika problemet med att skapa dubbletter för de objekttyperna.</p> 
+     <p>I det beräknade anpassade fältet gör du detta genom att ta med jokertecknet i ett IF-uttryck, så att beräkningen kan generera olika värden för vart och ett av formulärets objekttyper. </p> 
      <p>Mer information och ett exempel finns i avsnittet <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Beräknade anpassade fält i anpassade formulär med flera objekt</a> i artikeln <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Lägga till beräknade data i ett anpassat formulär</a>.</p> 
     </div> </td> 
   </tr> 

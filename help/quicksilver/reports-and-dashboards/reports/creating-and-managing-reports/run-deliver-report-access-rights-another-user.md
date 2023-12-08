@@ -6,9 +6,9 @@ description: Som standard kan användare bara se de objekt i en rapport som de h
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Om du kör en rapport med åtkomsträttigheter för en annan användare som har 
 >[!TIP]
 >
 >Du bör ersätta **Kör den här rapporten med åtkomsträttigheterna för:** fältet med en aktiv användare endast om du vill att rapporten ska visas med den användarens åtkomstbehörighet. En arbetslicensanvändare kanske inte har behörighet att se alla objekt i en rapport som skapats av en planlicensanvändare eller systemadministratör, såvida inte rapporten visas med behörigheten för en planerare eller systemadministratör.\
-Om rapporten delas med användare med liknande åtkomst som användaren som anges i **Kör den här rapporten med åtkomsträttigheterna för:** kan du lämna fältet tomt.
+Om rapporten delas med användare med liknande åtkomst som användaren som anges i **Kör den här rapporten med åtkomsträttigheterna för:** kan du lämna det här fältet tomt.
 
 ## Åtkomstkrav
 
@@ -63,7 +63,7 @@ De användare som får åtkomst till rapporten måste ha minst behörigheten Vis
 
 Så här kör du en rapport med åtkomsträttigheter för en annan användare:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Rapporter**.
 
 1. Markera den rapport som du vill visa med en annan användares åtkomsträttigheter.
 1. Klicka **Rapportåtgärder** och sedan klicka **Redigera**.
@@ -74,6 +74,7 @@ Så här kör du en rapport med åtkomsträttigheter för en annan användare:
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
+   >
    Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja någon annan användare än sig själva för **Kör den här rapporten med åtkomsträttigheter för:** fält.
 
 1. Klicka **Klar**.
@@ -81,8 +82,10 @@ Så här kör du en rapport med åtkomsträttigheter för en annan användare:
    Rapporten visas nu för alla användare som rapporten delas med som om den visades av användaren som anges i **Kör den här rapporten med åtkomsträttigheterna för:** fält.
 
 >[!IMPORTANT]
+>
 Ange en annan användare än den inloggade användaren för **Kör den här rapporten med åtkomsträttigheterna för:** fältet påverkar den information som visas i rapporten om rapporten innehåller ett filter som använder ett jokertecken som refererar till den inloggade användaren. Rapporten visas enligt det värde som anges i **Kör den här rapporten med åtkomsträttigheterna för:** i stället för det som definieras i jokerteckensfiltret.
-Mer information om jokertecken för användarfält finns i avsnittet om användarbaserade variabler i [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>
+Mer information om jokertecken för användarfält finns i avsnittet om användarbaserade variabler i [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Leverera en rapport med åtkomsträttigheter för en annan användare
 
@@ -90,9 +93,9 @@ Du kan konfigurera rapporter som ska levereras som bilagor till ett e-postmeddel
 
 Så här skickar du en rapport med åtkomsträttigheter för en annan användare:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Rapporter**.
 
-1. Välj den rapport du vill leverera med en annan användares åtkomstbehörighet.
+1. Välj den rapport som du vill leverera med en annan användares åtkomstbehörighet.
 1. Klicka på rapportens namn för att markera den.
 1. Klicka **Rapportåtgärder**.
 1. Klicka **Skicka rapport**.
@@ -101,7 +104,8 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
-   Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja någon annan användare än sig själva för **Leverera den här rapporten med åtkomsträttigheter för:** fält.
+   >
+   Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja någon annan användare än sig själva för **Leverera den här rapporten med åtkomsträttigheterna i:** fält.
 
 1. Välj **Format** vill du att rapporten ska visas i e-postmeddelandet:
 
@@ -120,7 +124,7 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
 
 I följande rapporter visas en källkolumn där du kan visa information om det överordnade objektet:
 
-* Rapporter
+* Utfallsrapporter
 * Timrapporter
 * Dokumentrapporter
 
@@ -134,20 +138,20 @@ Du kan till exempel lägga till något av följande i en rapport med en källkol
 * Kolumnerna Projektnamn eller Aktivitetsnamn i en problemrapport.
 * En kolumn som använder textlägesuttryck som refererar till alla tre objekten. Följande är ett exempel för en timrapport:
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   Mer information om visningslägen för text finns i [Redigera en vy i textläge](../text-mode/edit-text-mode-in-view.md).
+  Mer information om visningslägen för text finns i [Redigera en vy i textläge](../text-mode/edit-text-mode-in-view.md).

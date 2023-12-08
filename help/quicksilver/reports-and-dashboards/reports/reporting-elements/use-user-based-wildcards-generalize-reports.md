@@ -6,9 +6,9 @@ description: Du kan generera en rapport genom att använda jokertecken i ställe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Instruktioner om hur du skapar rapporter finns i [Skapa en rapport](../../../rep
 
 ## Instruktioner
 
-Så här infogar du ett användarbaserat jokertecken i en rapport:
+Infoga ett användarbaserat jokertecken i en rapport:
 
 1. Gå till en rapport som du vill infoga ett användarbaserat jokertecken för.
 1. Klicka **Rapportåtgärder** sedan **Redigera**.
@@ -77,7 +77,7 @@ Så här infogar du ett användarbaserat jokertecken i en rapport:
 
 1. I **Börja skriva namn ...** ruta, typ: `$$USER.ID` eller `$$USER.name` om du vill att rapporten ska visa information om användaren som loggar in, baserat på deras namn. Du kan infoga andra jokertecken som refererar till den inloggade användarens Group, Team, Company eller annan information.
 
-   En fullständig lista över användarbaserade jokertecken finns i [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   En fullständig lista över användarbaserade jokertecken finns i [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
@@ -88,7 +88,7 @@ Så här infogar du ett användarbaserat jokertecken i en rapport:
 Se även:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

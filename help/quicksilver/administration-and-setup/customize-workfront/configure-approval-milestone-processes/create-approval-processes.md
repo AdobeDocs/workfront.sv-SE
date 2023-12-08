@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 7800211cedc91285a755d2783fff3324e5d16843
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2202'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,10 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td> <p>Ny plan: Standard </p>
+ <p>eller</p> 
+<p>Aktuell plan: Plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -66,7 +69,7 @@ Du måste ha följande:
 
 ## Skapa en global godkännandeprocess på systemnivå eller gruppnivå för arbetsobjekt
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. (Villkorligt) Om du skapar en godkännandeprocess på systemnivå klickar du på **Processer** > **Godkännanden** till vänster.
 
@@ -78,7 +81,7 @@ Du måste ha följande:
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. Klicka på **Projektgodkännanden**, **Uppgiftsgodkännanden**, eller **Utfärda godkännanden** , beroende på vilken typ av godkännandeprocess du vill skapa.
+1. Välj antingen **Projektgodkännanden**, **Uppgiftsgodkännanden**, eller **Utfärda godkännanden** -fliken.
 
 1. Klicka **Ny godkännandeprocess**.
 1. Ange följande information i rutan som visas:
@@ -89,15 +92,15 @@ Du måste ha följande:
     <tbody> 
      <tr> 
       <td role="rowheader">Namn på godkännandeprocess</td> 
-      <td>Skriv ett beskrivande namn för godkännandeprocessen. Användarna ser det här namnet när de tillämpar godkännandeprocessen på ett objekt, vilket beskrivs i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>.</td> 
+      <td><p>Skriv ett beskrivande namn för godkännandeprocessen. Användarna ser det här namnet när de tillämpar godkännandeprocessen på ett objekt, vilket beskrivs i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning</td> 
-      <td>Skriv en beskrivning av godkännandeprocessen. Detta visas i dialogrutan <b>Godkännanden</b> i <b>Inställningar</b> -området bredvid namnet på godkännandeprocessen.</td> 
+      <td><p>Skriv en beskrivning av godkännandeprocessen. Detta visas i dialogrutan <b>Godkännanden</b> i <b>Inställningar</b> -området bredvid namnet på godkännandeprocessen.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Är aktiv</td> 
-      <td> <p>Låt det här alternativet vara aktiverat om du vill att andra användare ska kunna koppla godkännandeprocessen till projekt, uppgifter och utgåvor som de skapar. </p> <p>Det här alternativet är aktiverat som standard.</p> <p> Att markera en godkännandeprocess som inaktiv är användbart när din organisation inte längre behöver använda den, men du vill bevara historik om dess användning.</p> </td> 
+      <td> <p>Låt det här alternativet vara aktiverat om du vill att andra användare ska kunna koppla godkännandeprocessen till projekt, uppgifter och utgåvor som de skapar. </p> <p>Det här alternativet är aktiverat som standard.</p> <p> Tips! Det kan vara bra att markera en godkännandeprocess som inaktiv när organisationen inte längre behöver använda den, men du vill bevara historik om hur den används.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Den här godkännandeprocessen kan användas av </td> 
@@ -159,12 +162,12 @@ Du måste ha följande:
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Du kan upprepa den här processen om du vill lägga till flera godkännare på scenen. I ett och samma steg kan en kombination av användare, team och jobbroller ingå som godkännare. Det finns ingen gräns för hur många godkännare du kan lägga till på en scen.</p> <p><b>VIKTIGT</b>:  <p>När du tilldelar jobbroller som godkännare kan alla användare som är kopplade till den jobbrollen som också finns i projektteamet fatta ett beslut om godkännandet. </p> <p>När du tilldelar ett team som godkännare kan alla användare i det teamet fatta ett beslut om godkännandet. </p> <p>Mer information om projektteamet finns i <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Översikt över projektgruppen</a>. Mer information om hur du godkänner arbete finns i <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Godkänna arbete </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Endast ett beslut krävs</td> 
-      <td> <p>(Visas endast om du lägger till flera godkännare på scenen) Välj det här alternativet om någon av godkännarna på scenen kan godkänna eller avvisa arbetsobjektet under den här fasen. Den här åtgärden gör att arbetsobjektet kan lämna scenen. </p> <p>När det här alternativet inte är markerat måste alla identifierade godkännare godkänna eller avvisa scenen (i valfri ordning) innan artikeln lämnar scenen. Om någon av godkännarna avvisar scenen avbryts processen och börjar om så att nödvändiga ändringar kan göras. Sedan kan godkännarna godkänna eller avvisa scenen en gång till.</p> <p>När ett team utses till godkännare kan alla medlemmar i teamet bevilja eller avvisa en fas.</p> </td> 
+      <td role="rowheader">Endast ett beslut krävs <br> <br>(Visas bara om du lägger till flera godkännare på scenen) </td> 
+      <td> <p>Välj det här alternativet om någon av godkännarna på scenen kan godkänna eller avvisa arbetsuppgiften under den här fasen. Den här åtgärden gör att arbetsobjektet kan lämna scenen. </p> <p>När det här alternativet inte är markerat måste alla identifierade godkännare godkänna eller avvisa scenen (i valfri ordning) innan artikeln lämnar scenen. Om någon av godkännarna avvisar scenen avbryts processen och börjar om så att nödvändiga ändringar kan göras. Sedan kan godkännarna godkänna eller avvisa scenen en gång till.</p> <p>När ett team utses till godkännare kan alla medlemmar i teamet bevilja eller avvisa en fas.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Lägg till fas</p> </td> 
-      <td>(Valfritt) Lägg till ytterligare en scen i banan med alternativen som förklaras i de tre raderna ovan. Du kan lägga till så många steg som du behöver i banan.</td> 
+      <td><p>(Valfritt) Lägg till ytterligare en scen i banan med alternativen som förklaras i de tre raderna ovan. Du kan lägga till så många steg som du behöver i banan.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Välj vad som ska hända när godkännandet avvisas</p> </td> 
@@ -197,7 +200,11 @@ Mer information om hur du redigerar en godkännandeprocess finns i [Redigera en 
 
 ## Associera en godkännandeprocess med en arbetsuppgift
 
-När du vill skapa en godkännandeprocess för en arbetsuppgift (projekt, uppgift eller utgåva) skapar du först godkännandeprocessen, skapar arbetsuppgiften och sedan kan du och dina användare associera godkännandeprocessen med arbetsuppgiften.
+När du vill skapa en godkännandeprocess för en arbetsuppgift (projekt, uppgift eller utgåva)
+
+1. Skapa godkännandeprocessen först
+1. Skapa arbetsuppgiften
+1. Associera godkännandeprocessen med arbetsuppgiften
 
 Instruktioner om hur du associerar en godkännandeprocess med en arbetsuppgift finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 

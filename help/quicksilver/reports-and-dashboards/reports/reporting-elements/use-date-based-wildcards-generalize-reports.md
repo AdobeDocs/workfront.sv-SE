@@ -6,9 +6,9 @@ description: Du kan generera en rapport genom att använda jokertecken i ställe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
 
 ## Instruktioner
 
-Så här infogar du ett datumbaserat jokertecken i en rapport:
+Infoga ett datumbaserat jokertecken i en rapport:
 
 1. Gå till en rapport som du vill infoga ett datumbaserat jokertecken för.
 1. Klicka **Rapportåtgärder** sedan **Redigera**.
@@ -90,7 +90,7 @@ Så här infogar du ett datumbaserat jokertecken i en rapport:
 1. (Valfritt) Om du vill visa information som inträffar inom en tidsram efter det datum då rapporten körs skriver du `$$TODAY+1w` för att visa information nästa vecka, eller `$$TODAY+2m` för att visa information under de kommande två månaderna. Du kan också ange tidsramar för kvartal, timmar, dagar eller år.
 1. (Valfritt) Om du vill visa information om något som har inträffat inom en tidsram före det datum då rapporten körs skriver du `$$TODAY-1w` för att visa information från föregående vecka, eller `$$TODAY-2m` för att visa information från de senaste två månaderna. Du kan också ange tidsramar för kvartal, timmar, dagar eller år.
 
-   En fullständig lista över attribut, kvalificerare och operatorer som du kan använda i datumbaserade jokertecken finns i artikeln [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   En fullständig lista över attribut, kvalificerare och operatorer som du kan använda i datumbaserade jokertecken finns i artikeln [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
@@ -101,7 +101,7 @@ Så här infogar du ett datumbaserat jokertecken i en rapport:
 Se även:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Använd villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

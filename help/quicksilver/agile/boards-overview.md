@@ -7,9 +7,9 @@ description: Adobe Workfront Boards är flexibla verktyg som ger teamsamarbete g
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Med anslagstavlor kan du:
 * Organisera och hantera arbetet för ett team på ett och samma ställe
 * Använda flexibla planeringsverktyg som en inloppskolumn för Kanban-tavlor
 
-Mer information om hur du använder de grundläggande funktionerna för ritytor finns i [Kom igång med anslagstavlor i [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Information om flexibla planeringsverktyg i ritytor finns i [Översikt över flexibla planeringsverktyg](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+Mer information om hur du använder de grundläggande funktionerna för ritytor finns i [Kom igång med anslagstavlor: artikelindex](../agile/get-started-with-boards/get-started-with-boards.md). Information om flexibla planeringsverktyg i ritytor finns i [Översikt över flexibla planeringsverktyg](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
 Mer information om hur du använder en styrelse i ett projekt finns i [Hantera ett projekt i flexibel vy](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 

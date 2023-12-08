@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '13777'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -392,7 +392,7 @@ ht-degree: 0%
          * [Adobe Workfront och Frame.io native integration alpha: översikt](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Adobe Workfront och Frame.io, inbyggd integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Administration och konfiguration {#administration-and-setup}
-   * [Administration och konfiguration](administration-and-setup/administration-and-setup.md)
+   * [Administration och inställning: artikelindex](administration-and-setup/administration-and-setup.md)
    * Kom igång med administration {#get-started-administration}
       * [Kom igång med administration: artikelindex](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Definiera mål för genomförandet](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -807,7 +807,7 @@ ht-degree: 0%
    * [Krav för Adobe Workfront webbläsare](workfront-basics/workfront-browser-requirements.md)
    * [Språk som stöds i Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
    * Navigera i Adobe Workfront {#navigate}
-      * [Navigera i Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * [Navigera i Adobe Workfront: artikelindex](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront Search {#search}
          * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
          * [Sök i Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -973,7 +973,7 @@ ht-degree: 0%
    * [Agile](agile/agile.md)
    * [Översikt över styrelser](agile/boards-overview.md)
    * Kom igång med anslagstavlor i Adobe Workfront {#boards-in-workfront}
-      * [Kom igång med anslagstavlor i Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Kom igång med anslagstavlor: artikelindex](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront Boards - videodemonstrationer](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Anmäl dig till tidig funktion](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Använda panelkontrollpanelen](agile/get-started-with-boards/use-boards-page.md)
@@ -1516,7 +1516,7 @@ ht-degree: 0%
          * [Översikt över grupperingar i Adobe Workfront](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
          * [Skapa grupperingar i Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
          * [Redigera befintliga grupperingar](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-         * [Variabler för jokertecken](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+         * [Översikt över filtervariabler för jokertecken](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
          * [Generera rapporter med datumbaserade jokertecken](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [Generera rapporter med användarbaserade jokertecken](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [Dela ett filter, en vy eller en grupp](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
@@ -1785,7 +1785,7 @@ ht-degree: 0%
          * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Korrektur {#proofing}
-      * [Korrektur](review-and-approve-work/proofing/proofing.md)
+      * [Korrektur: artikelindex](review-and-approve-work/proofing/proofing.md)
       * Korrektur - översikt {#proofing-overview}
          * [Korrektur - översikt](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Översikt över behörighetsprofiler för korrektur](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

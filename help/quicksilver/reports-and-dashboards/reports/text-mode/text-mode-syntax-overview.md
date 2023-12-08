@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ Följande regler gäller när du refererar till Workfront-objekt med en `valueex
 
 * Du kan använda ett jokertecken i en `valueexpression` men inte i `valuefield` linje.
 
-  Mer information om jokertecken finns i [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Mer information om jokertecken finns i [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` översikt för vyer och grupperingar
@@ -285,4 +285,4 @@ Du kan använda följande element för att skapa filter och anpassade uppmaninga
      >
      >Satskopplingar är skiftlägeskänsliga och alltid versaler. &quot;AND&quot; kan utelämnas i textläge.
 
-* Jokertecken för att göra filter mer dynamiska och anpassa dem för aktuell tid eller för användaren som är inloggad. Mer information om jokertecken finns i [Variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Jokertecken för att göra filter mer dynamiska och anpassa dem för aktuell tid eller för användaren som är inloggad. Mer information om jokertecken finns i [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
