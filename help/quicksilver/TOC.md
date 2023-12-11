@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '13783'
+source-wordcount: '13780'
 ht-degree: 0%
 
 ---
@@ -919,7 +919,7 @@ ht-degree: 0%
       * Konfigurera din användarprofil {#configure-user-profile}
          * [Konfigurera din användarprofil](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [Konfigurera mina inställningar](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-         * [Konfigurera ledig tid i Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+         * [Konfigurera ledig tid](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
       * Hantera ditt Adobe Workfront-konto {#manage-workfront-account}
          * [Hantera ditt Adobe Workfront-konto](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Logga in på Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)

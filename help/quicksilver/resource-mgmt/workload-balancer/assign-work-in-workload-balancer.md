@@ -6,9 +6,9 @@ description: Som resurshanterare kan du använda Adobe Workfront Workload Balanc
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -34,24 +34,25 @@ Du måste förstå hur Workfront beräknar den tillgängliga tiden för en anvä
 
 Workfront använder följande information för att beräkna användarens kapacitet i belastningsutjämnaren:
 
-* Resurshanteringsinställningarna. Workfront-administratören bestämmer hur den tillgängliga tiden beräknas för systemet genom att välja att använda något av följande i området Resurshantering under Konfigurera:
+* Inställningar för resurshantering. Workfront-administratören bestämmer hur den tillgängliga tiden beräknas för systemet genom att välja att använda något av följande i området Resurshantering under Konfigurera:
 
    * Standardschemat för Workfront-systemet och användarens FTE.
    * Användarens schema, enligt vad som anges i området Användarprofil.
 
-      Detta beräknar användarens dagliga och veckovisa tillgänglighet. Eventuella schemaundantag för det valda schemat återspeglas i användarens kapacitet i Utjämning av arbetsbelastning.
-   Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     Detta beräknar användarens dagliga och veckovisa tillgänglighet. Eventuella schemaundantag för det valda schemat återspeglas i användarens kapacitet i Utjämning av arbetsbelastning.
 
-   Mer information om scheman finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+  Mer information om scheman finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * Användaren är ledig. Detta anger vilka dagar som användaren planerar att starta.
 
-   Mer information finns i [Konfigurera ledig tid i Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Mer information finns i [Konfigurera ledig tid](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Användarens arbetstid. Detta anger hur många procent av heltidstiden som användaren är tillgänglig för att utföra faktiskt projektrelaterat arbete, exklusive extrakostnader. Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
 
 
-## Tilldela arbete i belastningsutjämnaren
+## Tilldela arbete i arbetsbelastningsutjämnaren
 
 Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller tilldela om artiklar som har tilldelats användare i Utjämning för arbetsbelastning.
 
@@ -59,17 +60,17 @@ Du kan tilldela arbete i belastningsutjämnaren på följande sätt:
 
 * Ett objekt i taget genom att tilldela varje objekt manuellt.
 
-   Du kan göra avancerade uppdrag när du tilldelar objekt manuellt, en åt gången.
+  Du kan göra avancerade uppdrag när du tilldelar objekt manuellt, en åt gången.
 
-   Mer information finns i [Tilldela arbete manuellt med hjälp av Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  Mer information finns i [Tilldela arbete manuellt med hjälp av Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 * Ett objekt i taget genom att dra och släppa arbetsobjekt till den användare som ska tilldelas.
 
-   Mer information finns i [Tilldela arbete i belastningsutjämnaren genom att dra och släppa](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  Mer information finns i [Tilldela arbete i belastningsutjämnaren genom att dra och släppa](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 * Flera objekt i taget med alternativet Gruppera tilldelningar. Du kan definiera regler som objekten tilldelas till flera användare samtidigt.
 
-   Mer information finns i [Tilldela flera arbeten med hjälp av belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Mer information finns i [Tilldela flera arbeten med hjälp av belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 Mer information om hur du frigör arbete finns i [Ta bort tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
@@ -154,7 +155,7 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 * Användare kan ha mer än en jobbroll kopplad till sin profil. Mer information om hur du associerar användare med jobbroller finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Uppgifter eller ärenden tilldelas vanligtvis först till en eller flera jobbroller eller till ett team. När projekten är klara att starta kan de behöva tilldelas användare.\
-   Om en uppgift eller ett ärende tilldelas till en eller flera roller och du sedan även tilldelar en användare, bestämmer Adobe Workfront vilken jobbroll som ska associeras med den andra användaren (om någon) enligt följande regler:
+  Om en uppgift eller ett ärende tilldelas till en eller flera roller och du sedan även tilldelar en användare, bestämmer Adobe Workfront vilken jobbroll som ska associeras med den andra användaren (om någon) enligt följande regler:
 
    * Om det bara finns en tilldelad jobbroll och den matchar användarens primära roll, tilldelas uppgiften eller utgåvan endast den användare som fyller sin primära roll.
    * Om det finns flera roller tilldelade och minst en av rollerna matchar användarens sekundära roller, tilldelas uppgiften eller utgåvan till användaren som uppfyller en av deras övriga roller - som Workfront väljer slumpmässigt om det finns flera matchningar - samt eventuella ytterligare roller som tilldelas.
