@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Skapa en anpassad rapport
-description: Genom att förstå hur man skapar rapporter får man tillgång till den information man behöver inom Adobe Workfront. Du kan använda någon av de inbyggda rapporterna i Workfront eller skapa egna rapporter från grunden.
+description: Du kan ge åtkomst till den information din organisation behöver inom Adobe Workfront genom att skapa rapporter. Du kan använda någon av de inbyggda rapporterna i Workfront eller skapa anpassade rapporter från grunden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Skapa en anpassad rapport
 
-Du kan ge åtkomst till den information din organisation behöver inom Adobe Workfront genom att skapa rapporter. Du kan använda någon av de inbyggda rapporterna i Workfront eller skapa anpassade rapporter från grunden.
+Du kan ge åtkomst till den information din organisation behöver i Adobe Workfront genom att skapa rapporter. Du kan använda någon av de inbyggda rapporterna i Workfront eller skapa anpassade rapporter från grunden.
 
 Mer information om inbyggda rapporter finns i [Använd inbyggda rapporter från Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
@@ -38,7 +38,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nytt: Standard </p>
+   eller
+   <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -47,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Du får behörighet att hantera rapporten som du skapar</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Du får behörigheten Hantera för de rapporter du skapar.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa en rapport {#create-a-report}
 
-Om du vill titta på en video om hur du skapar en rapport kan du titta på det här [Skapa en anpassad rapport](#Walk-thr) nedan.
+{{step1-to-reports}}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer du sedan den objekttyp som du vill använda för rapporten.
 
    Report builder läses in.
@@ -109,17 +110,17 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
 
 1. Börja skapa en rapport enligt beskrivningen i [Skapa en rapport](#create-a-report) i den här artikeln.
 1. I Report builder väljer du **Kolumner (vy)** för att identifiera de kolumner som ska visas i rapporten.
-1. (Valfritt) Klicka på **Använd en befintlig vy** om du vill använda en befintlig vy.
+1. (Valfritt) Klicka på **Använd en befintlig vy** och klicka på namnet på en vy i listrutan om du vill använda en befintlig vy.
 
-   Mer information om hur du skapar en ny vy finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Mer information om hur du skapar en vy finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Valfritt) Om du vill ta bort en befintlig kolumn klickar du på kolumnen som du vill ta bort och klickar sedan på knappen **x** bredvid det aktuella namnet i kolumnrubriken.
 
 1. Om du vill lägga till en ny kolumn klickar du **Lägg till kolumn**.
 
    eller
 
-   Om du vill ändra en befintlig kolumn markerar du den kolumn som du vill ändra och klickar sedan på (x) bredvid det aktuella namnet.
-
-1. Börja skriva det fält som du vill lägga till. Om fältet är tillgängligt fylls det i för varje objekt där det kan kopplas. Klicka på fältets namn för att lägga till det i kolumnen.
+   Om du vill ändra en befintlig kolumn klickar du på kolumnen och klickar på **Ta bort** icon ![](assets/x-icon-circled.png) till vänster om det aktuella fältet i **Visa i det här kolumnfältet** i det övre vänstra hörnet av rapportverktyget, och börja skriva ett nytt fält och klicka sedan på det när det visas i listan.
 
    Mer information om fälten som visas i kolumnerna finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
    >
    >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
    >
-   >* Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
+   >* Alla sifferfält och valutafält utom Faktiska timmar (t.ex. Planerad eller Faktisk arbetskostnad, Planerad eller Faktisk kostnad, Planerad eller Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
    >* Faktiska timmar sammanställer värdena för de huvudsakliga överordnade och de fristående aktiviteterna. De sammanställer inte siffrorna för de överordnade aktiviteternas överordnade eller underordnade aktiviteternas överordnade uppgifter.
    >* Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter.
 
@@ -193,7 +194,8 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
 
    eller
 
-   Välj **Tillämpa en befintlig gruppering** för att välja en befintlig gruppering
+   Välj **Tillämpa en befintlig gruppering** om du vill välja en befintlig gruppering när den visas i listan.
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Börja skriva det fält som du vill lägga till som en gruppering. Om fältet är tillgängligt fylls det i för varje objekt där det kan kopplas. Klicka på fältets namn för att lägga till det i den grupperingen.
@@ -210,7 +212,7 @@ Om du vill titta på en video om hur du skapar en rapport kan du titta på det h
    >* När du justerar grupperingar manuellt när du visar en lista kommer Workfront ihåg dina manuella inställningar tills du loggar ut. När du loggar in igen visas listan enligt den här inställningen.
    >* Resultatet av en gruppering visas alltid expanderat när du har öppnat dem från ett diagramelement.
 
-1. (Valfritt) Du kan välja att skapa en matrisgruppering och visa resultatet i ett rutnätsformat.
+1. (Valfritt) Klicka på **Växla till matrisgruppering**, för att skapa en matrisgruppering och visa resultatet i ett rutnätsformat.
 
    Mer information om hur du skapar en matrisrapport finns i [Skapa en matrisrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
