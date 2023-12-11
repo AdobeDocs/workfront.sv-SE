@@ -6,9 +6,9 @@ description: Lär dig exportera rapportdata
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Det finns flera begränsningar för hur rapporter visas i Workfront och hur de exporteras via manuell export, en levererad rapport eller via API:t.
 
+* **50 000 celler:** Det maximala antalet celler som tillåts i en rapportexport för Excel-filer.
 * **50 000 rader:** Antalet rader med data som tillåts i en rapportexport för PDF- och tabbavgränsade filer.
 
    * För Excel .xls-filer är den här gränsen **65 000 rader**.
@@ -310,14 +311,14 @@ Länkarna kan peka på alla objekt i Workfront som stöder länkning. När du ex
 
 >[!TIP]
 >
->Om raden `valueformat=HTML` visas i textläge för en anpassad fältkolumn och länkvärdena inte visas i en exporterad PDF-fil, du måste ange ytterligare kodrader i kolumnen i textläge.
+Om raden `valueformat=HTML` visas i textläge för en anpassad fältkolumn och länkvärdena inte visas i en exporterad PDF-fil, du måste ange ytterligare kodrader i kolumnen i textläge.
 >
->Om du t.ex. har ett anpassat fält med namnet Open Q1 Projects som innehåller länkar lägger du till följande kod:
+Om du t.ex. har ett anpassat fält med namnet Open Q1 Projects som innehåller länkar lägger du till följande kod:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 När du exporterar till ett Excel-format inkluderas bara länkar till objekt i den exporterade filen, och de stöds bara på platser där du kan välja att tillåta länkar i exporterade Excel-dokument, t.ex. rapportleveranser.
 
