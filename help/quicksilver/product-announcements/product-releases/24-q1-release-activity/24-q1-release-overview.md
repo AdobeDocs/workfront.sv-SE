@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,25 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markera en granskning som slutförd</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att göra det tydligare när ett dokument har granskats och är klart för nästa godkännandefas har vi skapat ett nytt <strong>Slutför min granskning</strong> -knappen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterad status för dokumentgodkännanden</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 7 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markera en granskning som slutförd</a></p><p>För att göra det tydligare när ett dokument har granskats och är klart för nästa godkännandefas har vi skapat ett nytt <strong>Slutför min granskning</strong> -knappen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
