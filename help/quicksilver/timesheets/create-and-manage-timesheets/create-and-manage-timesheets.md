@@ -1,20 +1,20 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: Skapa och hantera tidrapporter i Adobe Workfront
+title: "Skapa och hantera tidrapporter: artikelindex"
 description: Du kan skapa tidrapporter i Adobe Workfront och hålla reda på hur länge du ska arbeta. Läs mer om hur du skapar, redigerar och hanterar tidrapporter i följande artiklar.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
-# Skapa och hantera tidrapporter i Adobe Workfront
+# Skapa och hantera tidrapporter: artikelindex
 
 Det här avsnittet innehåller följande artiklar:
 

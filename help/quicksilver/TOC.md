@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 0%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 0%
       * [Tips, tricks och felsökning för godkännanden](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visa antalet korrektur- och dokumentbeslut för alla användare](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Tidrapporter {#timesheets}
-   * [Tidrapporter](timesheets/timesheets-all.md)
+   * [Tidrapporter: artikelindex](timesheets/timesheets-all.md)
    * Information om tidrapport {#details}
-      * [Information om tidrapport i Adobe Workfront](timesheets/timesheets/timesheets.md)
+      * [Information om tidrapport: artikelindex](timesheets/timesheets/timesheets.md)
       * [Översikt över tidrapporter](timesheets/timesheets/timesheets-overview.md)
       * [Förstå layouten för tidrapporten](timesheets/timesheets/timesheet-layout.md)
-   * Skapa och hantera tidrapporter i Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Skapa och hantera tidrapporter i Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * Skapa och hantera tidrapporter {#create-and-manage-timesheets-in-adobe-workfront}
+      * [Skapa och hantera tidrapporter: artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Skapa, redigera och tilldela tidrapportprofiler](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definiera timtyper och tillgänglighet för tidrapporter](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Skapa en tidrapport för engångsbruk](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 0%
       * [Generera tidrapporter manuellt](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Exportera en lista med tidrapporter](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * Konfigurera hur tid ska loggas {#configure-timesheet-preferences}
-      * [Konfigurera hur tid ska loggas](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [Konfigurera hur tid loggas: artikelindex](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Konfigurera om tid är inloggad i timmar eller dagar](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * Tips, tricks och felsökning för tidrapporter {#tips-tricks-troubleshooting-for-timesheets}
-      * [Tips, tricks och felsökning](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [Tips, tricks och felsökning: artikelindex](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [Korrigera arbetsveckans startdag för tidrapporter](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [Förhindra att åtgärden Beräkna om finanser påverkar historiska timmar när priserna ändras](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Spåra timnoteringar med Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

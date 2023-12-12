@@ -3,9 +3,9 @@ filename: wf-kb
 title: Workfront kunskapsbas
 recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
-* [Tidrapporter](timesheets/timesheets-all.md)
+* [Tidrapporter: artikelindex](timesheets/timesheets-all.md)
 * [Adobe Workfront-integreringar](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Workfront Proof](workfront-proof/workfront-proof.md)

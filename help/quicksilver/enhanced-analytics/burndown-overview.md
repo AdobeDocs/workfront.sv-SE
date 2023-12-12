@@ -7,9 +7,9 @@ description: I Burndown-visualiseringen visas ett specifikt projekts nedgång ö
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
    <td>
-      <p>Ny plan: Alla</p>
+      <p>Nytt: Alla</p>
       <p>eller</p>
-      <p>Aktuell plan: Business eller högre</p></td>
+      <p>Aktuell: Business eller högre</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
    <td>
-      <p>Ny plan: ljus eller högre</p>
+      <p>Nytt: Ljus eller högre</p>
       <p>eller</p>
-      <p>Aktuell plan: Granska eller senare</p>
+      <p>Aktuell: Granska eller senare</p>
    </td> 
   </tr> 
   <tr> 

@@ -7,9 +7,9 @@ description: Huvudmenyn ändras med den åtkomstnivå som du har tilldelats av [
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Följande områden ingår i standardlayouten för en [!UICONTROL Worker]:
 
 * **[!UICONTROL Requests]**: Du kan skicka in förfrågningar och granskningsförfrågningar som du eller dina teammedlemmar har skickat in här. Mer information finns i [Begäranden](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Timesheets]**: Du kan komma åt aktuella, framtida eller gamla tidrapporter här. Mer information finns i [Tidrapporter](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Timesheets]**: Du kan komma åt aktuella, framtida eller gamla tidrapporter här. Mer information finns i [Tidrapporter: artikelindex](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL Documents]**: Du kan ladda upp dokument eller granska dokument som delas med dig här. Mer information finns i [Dokument](../../../documents/documents-overview.md).
 

@@ -5,9 +5,9 @@ description: Det övre navigeringsfältet, som visas högst upp på skärmen i d
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Varje ikon tar dig till en annan plats i det nya [!DNL Adobe Workfront] upplevel
    <td> 
     <ul> 
      <li>[!UICONTROL Requests]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Skapa förfrågningar</a></li> 
-     <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Tidrapporter</a></li> 
+     <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Tidrapporter: artikelindex</a></li> 
      <li>[!UICONTROL Documents]: <a href="../../documents/documents-overview.md" class="MCXref xref">Dokument</a></li> 
      <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Skapa och hantera projektmallar</a></li> 
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Förbättrad analys - översikt</a></li> 

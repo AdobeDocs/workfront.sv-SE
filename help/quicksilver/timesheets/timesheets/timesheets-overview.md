@@ -7,9 +7,9 @@ description: Du kan använda tidrapporter för att spåra den tid du tillbringar
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Mer information om hur du loggar tid i Workfront finns i [Loggtid](../../timeshe
 
 >[!TIP]
 >
->Om du är Workfront- eller gruppadministratör kan du skapa tidrapporter och associera dem med dina användare. Mer information om hur du skapar tidrapporter finns i [Skapa och hantera tidrapporter](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Om du är Workfront- eller gruppadministratör kan du skapa tidrapporter och associera dem med dina användare. Mer information om hur du skapar tidrapporter finns i [Skapa och hantera tidrapporter: artikelindex](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Förstå projekttid jämfört med icke-projekttid
