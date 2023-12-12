@@ -6,9 +6,9 @@ description: Att definiera en struktur för arbetsfördelning (WBS) för ett pro
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Om du vill definiera strukturresultat och slutprodukter i Workfront rekommendera
   Mer information om hur du skapar uppgifter finns i artikeln [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * Identifiera vilka som är de viktigaste resultaten av de uppgifter du just har skapat och koppla dem till milstolparna.\
-  Mer information om hur du skapar milstolpeuppgifter finns i artiklarna [Skapa en milstolpbana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) och [Koppla milstolpar till uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Mer information om hur du skapar milstolpeuppgifter finns i artiklarna [Skapa en milstolpe-bana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) och [Koppla milstolpar till uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Dela upp uppgifter med för stort omfång i underaktiviteter. Koppla dem till den överordnade som definierar din slutprodukt.\
   Mer information om hur du skapar underaktiviteter finns i artikeln [Skapa underaktiviteter](../../../manage-work/tasks/create-tasks/create-subtasks.md).
@@ -78,7 +78,7 @@ Tänk på följande:
 
 * En uppgifts varaktighet är den tidsram som är tillgänglig för att slutföra en uppgift. När du beräknar Varaktighet kanske du vill ange ett värde som tar hänsyn till möjligheten till en fördröjning. Om liknande projekt har slutförts tidigare kan det vara bra att ange det här värdet.
 
-  Eftersom varaktighet är en uppskattning bör du se till att fastställa optimistiska tidsvärden för att ta hänsyn till faktorer som kan påverka uppgiften, t.ex. väder, strömavbrott, leverantörssvårigheter eller andra oförutsedda händelser. Se även till att du tar hänsyn till om det finns några associerade föregående- eller beroendeuppgifter och hur de kan begränsa arbetet och påverka slutförandet av uppgifter.
+  Eftersom varaktighet är en uppskattning bör du se till att fastställa optimistiska tidsvärden för att ta hänsyn till faktorer som kan påverka uppgiften, t.ex. väder, strömavbrott, leverantörssvårigheter eller andra oförutsedda händelser. Se även till att du tar hänsyn till om det finns några associerade föregående- eller beroendeuppgifter och hur de kan placera begränsningar i arbetet och påverka slutförandet av uppgifter.
 
   Beroende på aktivitetens varaktighetstyp kan du ändra varaktigheten för en aktivitet under ett projekts livstid, men detta påverkar även tidslinjen för projektet. Mer information om varaktigheten för en uppgift finns i artikeln [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
@@ -108,13 +108,13 @@ I början av ett räkenskapsår eller ett kvartal kanske du vill hantera dina re
 Mer information om hur du planerar att använda dina resurser på en högre nivå finns i artikeln [Kom igång med resursplanering](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 När du hanterar dina resurser i samband med att du skapar arbetsfördelningsstrukturen för ett projekt och ser till att varje uppgift tilldelas rätt resurs, är du redo att schemalägga dina resurser för det arbete som behöver utföras.\
-Mer information om hur du schemalägger resurser finns i artiklarna i [Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/workload-balancer.md) -avsnitt.
+Mer information om hur du schemalägger resurser finns i artiklarna i [Utjämning av arbetsbelastning: artikelindex](../../../resource-mgmt/workload-balancer/workload-balancer.md) -avsnitt.
 
 ## Uppskatta projektekonomi
 
 Workfront beräknar de planerade kostnaderna för varje uppgift och de totala kostnaderna för ett projekt. Planerade kostnader för en aktivitet inkluderar alla utgifter för aktiviteten plus kostnaden för medarbetaren eller rollen som tilldelats uppgiften. Timtaxor för uppgiften, rollen och medarbetaren tilldelas när uppgiften, rollen och användaren skapas.
 
-Mer information om projektets ekonomi finns i avsnittet [Projektets ekonomi](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Mer information om projektets ekonomi finns i avsnittet [Projektets finanser](../../../manage-work/projects/project-finances/project-finances-overview.md) .
 
 ## Fastställa godkännandepunkter för projektet
 
@@ -142,7 +142,7 @@ Du kan visa uppgiftslistan på projektnivå.
 
 1. Gå till det projekt som du vill visa strukturen för arbetsfördelning för.
 1. Välj **Uppgifter** -fliken.
-1. (Valfritt) Välj **Ingenting** i **Gruppering** nedrullningsbar meny.
+1. (Valfritt) Välj **Ingenting** i **Gruppering** listruta.
 
    Arbetsfördelningsstrukturen visar inte indraget för uppgifterna i strukturen.
 

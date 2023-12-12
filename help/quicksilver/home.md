@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Workfront] dokumentation'
 description: Dokumentation för [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Se [Resurser för textläge](/help/quicksilver/reports-and-dashboards/reports/te
 
 Använd arbetsbelastningsutjämnaren som ett alternativ till att schemalägga resurser i Workfront.
 
-Se [Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+Se [Utjämning av arbetsbelastning: artikelindex](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
 ### Adobe Workfront-mål
 

@@ -1,13 +1,13 @@
 ---
 title: Hantera användare i Adobe Admin Console
 description: Som Adobe-administratör kan du skapa Adobe Workfront-användare och systemadministratörer med Adobe Admin Console.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,35 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
 
    Om du redan har ett Adobe-konto går du till [Adobe Admin Console page](https://adminconsole.adobe.com/).
 
+## Mer information om Adobe Admin Console
+
+* Workfront systemadministratörer kan inaktivera en Workfront-användare i Workfront, men detta inaktiverar inte användaren i Admin Console.
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
+  -->
+
+* Användaren **Hemgrupp** bestäms utifrån den användare som skapade dem. Det går inte att anpassa inifrån Admin Console.
+* Åtkomstnivån för Workfront-systemadministratören kan bara redigeras inifrån Adobe Admin Console.
+
+  <!--
+  DRAFTED IN FLARE:
+  How is this done?
+  
+  -->
+
+* Om du vill ändra en användares åtkomst från systemadministratören till någon annan åtkomstnivå måste du först gå via Admin Console.
+
+  <!--
+   This is not clear
+  -->
+
+* Om du vill ta bort systemadministratörsåtkomst från en användare i Workfront måste du använda Adobe Admin Console för att ta bort användaren som produktprofiladministratör. Detta ändrar användarens Workfront-åtkomstnivå från systemadministratör till begärande.
+
+  >[!IMPORTANT]
+  >
+  >Gör inga ändringar i själva produktprofilen.
+
 ## Gå till användar- och administratörsområdet för din Production-instans av Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
 1. Från [Adobe Admin Console page](https://adminconsole.adobe.com/)väljer du **Produkter** i det övre navigeringsfältet och välj sedan **Workfront** produktpanel.
@@ -67,7 +96,7 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
 
    >[!TIP]
    >
-   >Din Preview-instans, den andra länken i listan, är en testmiljö som replikerar din produktionsmiljö. Mer information finns i [Sandlådemiljön Adobe Workfront Preview](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >Den andra länken i listan, din Preview-instans, är en testmiljö som replikerar din produktionsmiljö. Mer information finns i [Sandlådemiljön Adobe Workfront Preview](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
    >
    >
    >Du kan också se länkar till sandlådemiljöer i listan. Mer information finns i [Sandlådemiljön Adobe Workfront Preview](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
@@ -96,7 +125,7 @@ Workfront-användare måste läggas till i Adobe Admin Console. En administratö
 
 ### Skapa användare i Workfront direkt i Adobe Admin Console
 
-1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i [Gå till användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
+1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i avsnittet [Gå till användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
 1. Med **Användare** som är markerad ovanför listan, välj **Lägg till användare**.
 1. I **Lägg till användare i den här produktprofilen** anger du e-postadressen eller namnet på en användare som du vill lägga till och väljer **Spara**.
 
@@ -114,7 +143,7 @@ Workfront-användare måste läggas till i Adobe Admin Console. En administratö
 
    >[!NOTE]
    >
-   >För nya användare av Adobe skickar Admin Console ett e-postmeddelande med en inbjudan om att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-system.
+   >För nya användare av Adobe skickar Admin Console ett e-postmeddelande med en inbjudan om att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-program.
    >
    >För användare som redan har Adobe kan användaren få ett e-postmeddelande om att Workfront är tillgängligt eller inte. Detta är en inställning som styrs av Adobe-administratören för produkten.
 
@@ -134,9 +163,9 @@ Instruktioner om hur du skapar en användare i Workfront finns i [Lägg till anv
 
 Godkänna en användare:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
-1. Markera användaren och klicka sedan på ikonen Mer ![](assets/more-icon.png).
+1. Markera användaren och klicka sedan på M **o** re, ikon ![](assets/more-icon.png).
 
 1. Klicka på **Godkänn** och sedan klicka **Skicka**.
 
@@ -144,9 +173,9 @@ Godkänna en användare:
 
    Om du vill avvisa användaren och ta bort den från Workfront klickar du på **Avvisa** och sedan klicka **Skicka**.
 
-Godkända användare läggs automatiskt till i Adobe Admin Console.
+   Godkända användare läggs automatiskt till i Adobe Admin Console.
 
-Avvisade användare tas automatiskt bort från Workfront.
+   Avvisade användare tas automatiskt bort från Workfront.
 
 
 
@@ -154,9 +183,9 @@ Avvisade användare tas automatiskt bort från Workfront.
 
 Åtkomstnivån för systemadministratören ges endast på Adobe Admin Console. Du kan inte bevilja eller ta bort administratörsåtkomst inifrån Workfront.
 
-Du måste lägga till en användare i din Production-instans av Workfront innan du kan göra användaren till Workfront-systemadministratör. Instruktioner finns i [Skapa användare i Workfront med Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console) i den här artikeln.
+Du måste lägga till en användare i din Production-instans av Workfront innan du kan göra användaren till Workfront-systemadministratör. Instruktioner finns i avsnittet [Skapa användare i Workfront med Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console) i den här artikeln.
 
-1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i [Gå till användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
+1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i avsnittet [Gå till användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
 1. Välj **Administratörer** -fliken ovanför listan med användare.
 1. Välj **Lägg till administratör**.
 1. I **Lägg till produktprofiladministratörer** anger du e-postadresserna eller namnen på de administratörer som du vill lägga till och väljer **Spara**.
@@ -169,34 +198,7 @@ Du måste lägga till en användare i din Production-instans av Workfront innan 
    >
    >Gör inga ändringar i själva produktprofilen.
 
-## Mer information om Adobe Admin Console:
 
-* Workfront systemadministratörer kan inaktivera en Workfront-användare i Workfront, men detta inaktiverar inte användaren i Admin Console.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
-  -->
-
-* Användaren **Hemgrupp** bestäms utifrån den användare som skapade dem. Detta går för närvarande inte att anpassa inifrån Admin Console.
-* Åtkomstnivån för Workfront-systemadministratören kan bara redigeras inifrån Adobe Admin Console.
-
-  <!--
-  DRAFTED IN FLARE:
-  How is this done?
-  
-  -->
-
-* Redigering av en användare som är systemadministratör till någon annan åtkomstnivå måste göras via Admin Console först.
-
-  <!--
-   This is not clear
-  -->
-
-* Om du vill ta bort systemadministratörsåtkomst för en användare i Workfront måste du använda Adobe Admin Console för att ta bort användaren som produktprofiladministratör. Detta ändrar användarens Workfront-åtkomstnivå från systemadministratör till begärande.
-
-  >[!IMPORTANT]
-  >
-  >Gör inga ändringar i själva produktprofilen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

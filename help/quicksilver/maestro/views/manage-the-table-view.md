@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Så här hanterar du en tabellvy:
 
 Kolumnrubrikerna i en Maestro-tabellvy visar fält som är kopplade till posterna i vyn. Samma fält som visas i tabellvyn visas även i detaljavsnittet för en Maestro-post. Mer information finns i [Redigera poster](../records/edit-records.md).
 
-<!-- this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. -->
+<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
 Att lägga till kolumner i en vy är detsamma som att lägga till fält i en posttyp.
 
@@ -128,21 +128,6 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 1. Börja lägga till fält (eller kolumner) enligt beskrivningen i artikeln [Skapa fält](../fields/create-fields.md).
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på sidan Detaljer för posterna av den valda posttypen.
-
-<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
-
-    (******add screen shot*****)
-
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
-
-    >[!NOTE]
-    >
-    >    Only fields of the following types can be primary fields: 
-
-        * Single-line text
-        * Number
-        * Formula -->
-
 
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 
@@ -161,6 +146,27 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >* Du kan inte dölja fältet Namn.
    >
    >* Fältet Namn är fryst och ingår inte i den vågräta rullningen.
+
+   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+
+   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    (******add screen shot*****)
+
+    1. Click **Set field** to confirm. 
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
+    >[!NOTE]
+    >
+    >   * Only fields of the following types can be primary fields: 
+    >
+    >       * Single-line text
+    >       * Number
+    >       * Formula (********HIDE THIS FOR NOW???********)
+    >
+    >   * The primary field is always frozen.
+    >
+    >   * Changing the primary field in your table view affects the view for all other users who choose it.
+    
+    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
 
 1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 
@@ -213,12 +219,12 @@ Du kan ha upp till 10 000 poster (eller rader) för en posttyp i Maestro.
    >
    >Du kan inte ändra ordning på rader om du använder minst en sortering i tabellvyn.
 
-<!-- this is not possible right now:
+   <!-- this is not possible right now:
 
-1. To reorder the rows, click the row header, drag and drop it in the desired location. 
+    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
 
-    The changes you make to the row order are permanent and visible to all users who access the record type
--->
+        The changes you make to the row order are permanent and visible to all users who access the record type
+    -->
 
 ### Lägg till filter {#add-filters}
 

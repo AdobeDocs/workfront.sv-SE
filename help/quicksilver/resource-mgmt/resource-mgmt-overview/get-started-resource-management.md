@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Kom igång med resurshantering
-description: Med Resurshantering kan du konfigurera systemet för att exakt förutsäga användningen av dina resurser baserat på deras tillgänglighet så att det arbete som måste utföras är klart i tid och enligt budget.
+description: Med Resurshantering kan du konfigurera ditt system så att användningen av dina resurser beräknas utifrån tillgängligheten, så att det arbete som måste utföras i tid och budget slutförs korrekt.
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 </div>
 -->
 
-Med Resurshantering kan du konfigurera systemet för att exakt förutsäga användningen av dina resurser baserat på deras tillgänglighet så att det arbete som måste utföras är klart i tid och enligt budget.
+Med Resurshantering kan du konfigurera ditt system så att användningen av dina resurser beräknas utifrån tillgängligheten, så att det arbete som måste utföras i tid och budget slutförs korrekt.
 
 ## Översikt över resurshantering i Adobe Workfront
 
-Resurshantering avser alla aktiviteter som utförs av Adobe Workfront-administratören, resurshanteraren och projektägaren för att planera (resurs- eller scenarioplanering) och schemalägga (arbetsbelastningsutjämning) en organisations resurser och tilldela dem till det arbete som behöver utföras med hänsyn till deras tillgänglighet. Dessutom hänvisar resurshantering även till att visa information om den planerade och faktiska resursallokeringen i en rapportvy (utnyttjanderapport).
+Resurshantering avser alla aktiviteter som utförs av Adobe Workfront-administratören, resurshanteraren och projektägaren för att planera (resurs- eller scenarioplanering) och schemalägga (arbetsbelastningsutjämning) en organisations resurser och tilldela dem till det arbete som behöver utföras, med hänsyn till deras tillgänglighet. Dessutom hänvisar resurshanteringen också till att visa information om den planerade och faktiska resursallokeringen i en rapportvy (utnyttjanderapport).
 
 Workfront har flera verktyg som används för att hantera resurser. Varje verktyg har ett enskilt omfång. För närvarande kan du använda följande resurshanteringsverktyg i Workfront, beroende på vilket stadium av resurshanteringen du befinner dig i:
 
@@ -34,21 +34,21 @@ Workfront har flera verktyg som används för att hantera resurser. Varje verkty
 
    * **Resursplaneraren**: Du kan använda resursplaneraren i den första fasen av resurshanteringen för att budgetera projekttiden för dina resurser utifrån deras schemalagda tillgänglighet. Under planeringen av resursfasen kan du ordna användare i resurspooler och tilldela flera resurspooler till ett projekt.
 
-      Mer information om resursplanering finns i avsnittet [Resursplanering i Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Mer information om resursplanering finns i avsnittet [Resursplanering i Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
-   * **Scenarioplaneraren**: Detta är en planering av resurser på en högre nivå som gör det möjligt att hantera dem i flera olika initiativ som kan omfatta en, tre eller fem års plan och innehålla flera projekt. Du kan använda det bästa scenariot för att få ut så mycket som möjligt av deras tillgänglighet och budget.
+   * **Scenarioplanen**: Detta är en planering av resurser på en högre nivå som gör att du kan hantera dem i flera olika initiativ som kan omfatta en, tre eller fem års plan och innehålla flera projekt. Du kan använda det bästa scenariot för att få ut så mycket som möjligt av deras tillgänglighet och budget.
 
-      Scenario Planner kräver en separat licens utöver Workfront-licensen. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../scenario-planner/scenario-planner-overview.md).
+     Scenario Planner kräver en separat licens utöver Workfront-licensen. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../scenario-planner/scenario-planner-overview.md).
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
 * Använd följande verktyg om du vill schemalägga eller tilldela resurser till det verkliga arbetet (uppgifter och ärenden):
 
-   * **Utjämning av arbetsbelastning**: Detta hör till en resurshanteringsfas på lägre nivå, där du kan tilldela dina resurser till det verkliga arbetet (uppgifter och ärenden) som de måste utföra, baserat på hur många timmar som behövs för att slutföra dem och deras tillgänglighet. Med Utjämning av arbetsbelastning kan du tilldela användare till verkligt arbete som för närvarande inte är tilldelat eller tilldelat till jobbroller.
+   * **Utjämning av arbetsbelastning**: Detta hör till en resurshanteringsfas på lägre nivå, där du kan tilldela resurser till det verkliga arbetet (uppgifter och ärenden) som de måste utföra, baserat på hur många timmar som behövs för att slutföra dem och deras tillgänglighet. Med Utjämning av arbetsbelastning kan du tilldela användare till verkligt arbete som för närvarande inte är tilldelat eller tilldelat till jobbroller.
 
-      Mer information om Workfront Balancer finns i avsnittet [Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Mer information om Workfront Balancer finns i avsnittet [Utjämning av arbetsbelastning: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -72,9 +72,9 @@ Workfront har flera verktyg som används för att hantera resurser. Varje verkty
 
    * **Användningsrapport**: Använd den här rapporten om du vill visa resursanvändningen för projekt. Du kan jämföra budgeterade, planerade och faktiska tilldelningar för dina projekt och hur de påverkar projektens kostnader och intäkter.
 
-      Mer information om användningsrapporten finns i [Visa information om resursutnyttjande](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+     Mer information om användningsrapporten finns i [Visa information om resursutnyttjande](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
-## Resurshanteringsprocessens komponenter
+## Komponenterna i resurshanteringsprocessen
 
 >[!NOTE]
 >
@@ -83,42 +83,42 @@ Workfront har flera verktyg som används för att hantera resurser. Varje verkty
 Processen för att hantera resurser i Workfront omfattar följande steg:
 
 * **Konfiguration**: Som systemadministratör, resurshanterare eller projektägare måste du konfigurera vissa fält och objekt i din Workfront-instans innan du hanterar dina resurser. Mer information om vilka krav som krävs för att börja hantera resurser i Workfront finns i [Krav för korrekt resurshantering](#prerequisites-for-accurate-resource-management) i den här artikeln.\
-   Förutom att ha projekt med arbetsobjekt måste du konfigurera följande objekt i Workfront:
+  Förutom att ha projekt med arbetsobjekt måste du konfigurera följande objekt i Workfront:
 
    * Användare\
-      Mer information om hur du skapar användare finns i artikeln [Lägg till användare](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+     Mer information om hur du skapar användare finns i artikeln [Lägg till användare](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
    * Jobbroller\
-      Mer information om hur du skapar jobbroller finns i artikeln [Skapa och hantera jobbroller](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+     Mer information om hur du skapar jobbroller finns i artikeln [Skapa och hantera jobbroller](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
    * Scheman\
-      Mer information om hur du skapar scheman finns i artikeln [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Mer information om hur du skapar scheman finns i artikeln [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * Projektinställningar
 
-      >[!TIP]
-      >
-      >Det är bara en system- eller gruppadministratör som kan ändra projektinställningarna för systemet eller gruppen.
+     >[!TIP]
+     >
+     >Det är bara en system- eller gruppadministratör som kan ändra projektinställningarna för systemet eller gruppen.
 
-      Mer information om hur du definierar projektinställningar finns i artikeln [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     Mer information om hur du definierar projektinställningar finns i artikeln [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * Resurspooler
+   * Resursgrupper
 
-      Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+     Mer information om hur du skapar resurspooler finns i [Skapa resursgrupper](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
    * Resurshanteringsinställningar
 
-      Som system måste du bestämma hur Workfront ska beräkna användarnas tillgänglighet på systemnivå, oavsett om det sker med användarens schema eller systemets standardschema.
+     Som system måste du bestämma hur Workfront ska beräkna användarnas tillgänglighet på systemnivå, oavsett om det sker med användarens schema eller systemets standardschema.
 
-      Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* **Resurstilldelning**: Som resurshanterare, eller projektägare, kan du definiera resursallokering för dina projekt samt tilldela arbete. I det här steget kan du hantera uppskattningen av resursallokeringen med hjälp av Resursplaneraren eller Scenarioplaneraren och tilldela faktiska arbeten till användare i belastningsutjämnaren.
+* **Resursallokering**: Som resurshanterare eller projektägare kan du definiera resursallokering för dina projekt samt tilldela arbete. I det här steget kan du hantera uppskattningen av resursallokeringen med hjälp av Resursplaneraren eller Scenarioplaneraren och tilldela faktiska arbeten till användare i Utjämning av arbetsbelastning.
 
-   Mer information om resursplanering och tilldelning av arbete finns i följande avsnitt:
+  Mer information om resursplanering och tilldelning av arbete finns i följande avsnitt:
 
    * [Resursplanering i Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
-   * [Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/workload-balancer.md)
+   * [Utjämning av arbetsbelastning: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -126,9 +126,9 @@ Processen för att hantera resurser i Workfront omfattar följande steg:
   For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
 -->
 
-* **Analys**: Som resurshanterare, projektägare eller personansvarig granskar du användningsrapporten för att få en förståelse för hur budgeterade och planerade allokeringar av dina resurser jämfört med de faktiska. Granska informationen per timmar, kostnad eller intäkt. Mer information om användningsrapporten finns i [Visa information om resursutnyttjande](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Analys**: Som resurshanterare, projektägare eller personansvarig kan du läsa användningsrapporten för att få en förståelse för hur budgeterade och planerade allokeringar av dina resurser jämfört med de faktiska. Granska informationen per timmar, kostnad eller intäkt. Mer information om användningsrapporten finns i [Visa information om resursutnyttjande](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
-## Åtkomst som behövs för att visa och hantera resurser med hjälp av verktygen för resurshantering i Workfront
+## Åtkomst som behövs för att visa och hantera resurser med verktygen för resurshantering i Workfront
 
 Följande användare har tillgång till verktygen för resurshantering i Workfront:
 
@@ -137,9 +137,9 @@ Du måste vara en av följande användare och ha följande åtkomst och behörig
 * Systemadministratören.
 * En användare med en planlicens.
 
-   En användare med en arbetslicens kan använda belastningsutjämnaren för ett projekt och hantera tilldelningar och tilldelningar.
+  En användare med en arbetslicens kan använda belastningsutjämnaren för ett projekt och hantera tilldelningar och tilldelningar.
 
-   Förutom att du har en Work-licens eller en senare licens måste du ha följande för att kunna använda specifika resurshanteringsverktyg:
+  Förutom att du har en Work-licens eller en senare licens måste du ha följande för att kunna använda specifika resurshanteringsverktyg:
 
    * Redigera åtkomst till resurshantering (behövs inte för att göra tilldelningar i arbetsbelastningsutjämnaren)
    * Redigera åtkomst till finansiella data för att visa kostnadsinformation i resursplaneraren
@@ -155,7 +155,7 @@ Du måste vara en av följande användare och ha följande åtkomst och behörig
   >You do not have to be a Resource Manager to use the Resource Planner, Scenario Planner, or the Workload Balancer. 
 -->
 
-Mer information om åtkomsten till budgetresurserna finns i artikeln [Åtkomst krävs för att budgetera resurser](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Mer information om åtkomsten som behövs för att budgetera resurser finns i artikeln [Åtkomst krävs för att budgetera resurser](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 Mer information om åtkomsten som behövs för att hantera resurser i Arbetsbelastningsutjämnaren finns i [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
@@ -165,10 +165,9 @@ Du måste uppfylla en uppsättning krav innan du kan använda resurshanteringsve
 
 Mer information om kraven för varje resurshanteringsverktyg i Workfront finns i:
 
-* Avsnittet&quot;Krav för att arbeta i resursplaneraren&quot; i artikeln [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-
-<!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* Avsnittet&quot;Bästa tillvägagångssätt för att använda belastningsutjämnaren för arbetsbelastning&quot; i artikeln [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Avsnittet Krav för att arbeta i resursplaneraren i artikeln [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
+* Avsnittet&quot;Bästa tillvägagångssätt för att använda belastningsutjämnaren&quot; i artikeln [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Tillgång till budgetresurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

@@ -3,19 +3,21 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Utjämning av arbetsbelastning
-description: Utjämning av arbetsbelastning är ett verktyg för resursplanering som gör att du kan tilldela arbetsobjekt till dina resurser.
-author: Alina
+description: Utjämning av arbetsbelastning är ett resursplaneringsverktyg i Adobe Workfront som gör att du kan tilldela uppgifter och utgåvor till dina personalresurser.
+author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# Utjämning av arbetsbelastning
+# Utjämning av arbetsbelastning: artikelindex
+
+Utjämning av arbetsbelastning är ett resursplaneringsverktyg i Adobe Workfront som gör att du kan tilldela uppgifter och utgåvor till dina personalresurser.
 
 Mer information om vad belastningsutjämnaren är, hur du navigerar i den och hur du tilldelar arbete med den finns i följande artiklar:
 
@@ -31,13 +33,4 @@ Mer information om vad belastningsutjämnaren är, hur du navigerar i den och hu
 * [Ta bort tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
 * [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 * [Dela arbetsbelastningsutjämnaren med en länk](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/add-custom-section-for-balancer.md" class="MCXref xref" xrefformat="{para}">Add a custom section to display the Workload Balancer </a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/what-if-scenarios-balancer.md" class="MCXref xref" xrefformat="{para}">Perform 'what-if' scenarios in the Workload Balancer</a> </li>
-  -->
-
 * [Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)

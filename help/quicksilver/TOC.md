@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
 workflow-type: tm+mt
-source-wordcount: '13781'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -1741,7 +1741,7 @@ ht-degree: 0%
       * [Resursanvändning](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Visa information om resursutnyttjande](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Utjämning av arbetsbelastning {#the-workload-balancer}
-      * [Utjämning av arbetsbelastning](resource-mgmt/workload-balancer/workload-balancer.md)
+      * [Utjämning av arbetsbelastning: artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
       * [Översikt över belastningsutjämnaren](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [Leta reda på arbetsbelastningsutjämnaren](resource-mgmt/workload-balancer/locate-workload-balancer.md)
