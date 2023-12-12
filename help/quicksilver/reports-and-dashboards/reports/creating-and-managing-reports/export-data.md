@@ -315,10 +315,10 @@ Om raden `valueformat=HTML` visas i textläge för en anpassad fältkolumn och l
 >
 Om du t.ex. har ett anpassat fält med namnet Open Q1 Projects som innehåller länkar lägger du till följande kod:
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 När du exporterar till ett Excel-format inkluderas bara länkar till objekt i den exporterade filen, och de stöds bara på platser där du kan välja att tillåta länkar i exporterade Excel-dokument, t.ex. rapportleveranser.
 
