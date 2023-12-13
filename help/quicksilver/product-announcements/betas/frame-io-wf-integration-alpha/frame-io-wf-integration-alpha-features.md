@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Om du vill testa funktionen loggar du in på Workfront Preview eller Sandbox och
 
 1. **Koordinatorer:** Skapa ett projekt i Workfront med `Frame.io alpha testing` grupp tilldelad som projektgrupp.
 
-1. **Koordinatorer:** Inom Workfront kan du tilldela dina kreatörer till projektet <span class="preview">eller Aktiverade bildruteuppgifter</span> och ändra projektstatus till Aktuell.
+1. **Koordinatorer:** Inom Workfront kan du tilldela dina kreatörer till projektet <span class="preview">eller Åtgärder som stöder bildrutor (observera att underaktiviteter inte kan markeras som bildrutor aktiverade)</span> och ändra projektstatus till Aktuell.
 
 1. **Kreatörer:** Kontrollera dina e-postmeddelanden om det finns en inbjudan till det nyligen skapade Frame.io-projektet
 
@@ -60,6 +60,10 @@ Om du vill testa funktionen loggar du in på Workfront Preview eller Sandbox och
 1. **Kreatörer:** I Frame.io tillämpar du de begärda ändringarna genom att lägga till den uppdaterade versionen i den anslutna resursens versionsstack.
 
 1. **Koordinatorer:** I Workfront tilldelar du godkännare/granskare till den nyligen överförda versionen och övervakar förloppet tills den har signerat.
+
+## Detaljerat testscenario
+
+För deltagare som vill testa ytterligare funktioner har vi skapat ett mer komplicerat testscenario. En guide för detta detaljerade testscenario kan laddas ned här: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## Funktionsplaner
 
