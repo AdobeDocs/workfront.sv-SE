@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ Du kan skapa poster i Maestro genom att göra något av följande:
 
 * Skapa dem manuellt för Maestro-posttyper
 * Koppla dem till Maestro-poster från andra program.
+* Skapa poster genom att kopiera och klistra in information från en extern lista.
+
+I den här artikeln beskrivs hur du skapar Maestro-poster. Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
+
+* [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Hantera tidslinjevyn](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## Åtkomstkrav
 
@@ -183,7 +189,7 @@ Alla poster av den valda typen visas i tabellvyn.
 
 ## Skapa poster genom att ansluta dem från ett annat program
 
-Du kan importera poster från andra program genom att länka dem till poster som är länkade till Maestro.
+Du kan importera poster från andra program genom att länka dem till poster som är länkade till Maestro. Detta skapar en Maestro-posttyp för det anslutna objektet från tredjepartsprogrammet. Poster som du ansluter till de ursprungliga Maestro-posterna visas i det tredjepartsprogram som är anslutet till objektet Maestro-posttyptabellvy.
 
 1. Skapa en Maestro-posttyp enligt beskrivningen i [Skapa posttyper](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ Du kan importera poster från andra program genom att länka dem till poster som
 
      Om du t.ex. ansluter en Maestro-posttyp till Workfront-projekt skapas en skrivskyddad posttyp med namnet&quot;Workfront projects&quot; i samma arbetsyta.
    * Skrivskyddade poster på posttypssidan från tredje part. Posterna som importeras från tredjepartsprogrammet förblir skrivskyddade och kan bara uppdateras i det ursprungliga programmet.
-
 
 ## Skapa poster genom att kopiera och klistra in information från en extern lista
 

@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ I det här avsnittet hittar du information och instruktioner om hur du konfigure
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Definiera mål för implementeringen av Adobe Workfront](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+* [Översikt över hur du definierar mål för implementeringen av Adobe Workfront](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
 * [Hantera tillgängliga licenser i ditt system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 * [Konfigurera grundläggande information för ditt system](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [Översikt över brandväggen](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)

@@ -5,12 +5,13 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d1fe7165932fb6f2aff3c8488bdb8e1dfae3b6d3
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
+
 
 # Bevilja åtkomst för användare
 
@@ -45,15 +46,15 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
 
 * En Workfront-administratör.
 
-   Mer information finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Mer information finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 * En användare med en standardplanlicens som även har åtkomst till användare, vilket förklaras i den här artikeln.
 
-   Användare som är begränsade att bara se användare från sitt företag eller det primära företaget har tillgång till att redigera endast de användare som de kan se. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Användare som är begränsade att bara se användare från sitt företag eller det primära företaget har tillgång till att redigera endast de användare som de kan se. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* En användare med en standardplanlicens som också anges som hanterare för en annan användare.
+* En användare med en standardplanlicens som också är angiven som hanterare för en annan användare.
 
-   Användare som har behörighet att redigera för användare på åtkomstnivå kan hantera användare som rapporterar till dem. Mer information om hur du hanterar en användare finns i [Visa organisationsschemat](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  Användare som har behörighet att redigera för användare på åtkomstnivå kan hantera användare som rapporterar till dem. Mer information om hur du hanterar en användare finns i [Visa organisationsschemat](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 * En användare med en standardplanlicens som har skapat en användare kan inaktivera, ta bort eller redigera användaren som han/hon skapade. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -64,7 +65,7 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
 
    1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på **Visa** till höger om **Användare**.
 
-   1. Inaktivera **Visa kontaktinformation** och klickar sedan på X för att stänga **Finjustera inställningarna** box.
+   1. Inaktivera **Visa kontaktinformation** klickar du sedan på X för att stänga **Finjustera inställningarna** box.
 
 1. Klicka på kugghjulsikonen om du vill ändra möjligheten för användare med planlicens att redigera andra användare ![](assets/gear-icon-settings.png) på **Redigera** till höger om **Användare** väljer du sedan de funktioner du vill tilldela:
 
@@ -75,10 +76,10 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
      <tr> 
       <td role="rowheader"><strong>Skapa</strong> </td> 
       <td> <p>Tillåter användare att skapa användare.<br>Det här alternativet är aktiverat som standard.</p> 
-      &lt;!--
+      &lt;!—
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Kontrollera att den här ändringen görs innan du raderar dessa två anteckningar. Den 29 mars 2019 säger req doc att detta beror på undersökningsresultaten.</p>
 
-       &lt;p>&lt;b>OBS&lt;/b>: Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.&lt;/p>
+       &lt;p>&lt;b>Obs&lt;/b>! Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.&lt;/p>
        —>  &lt;/td>
    </tr> 
      <tr> 
@@ -111,7 +112,7 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
    >Om du inte vill ge gruppadministratörer åtkomst till alla medlemmar i de grupper som de administrerar kan du inaktivera båda alternativen för användaradministratörer ovan. Gruppadministratörer kan fortfarande komma åt gruppmedlemmar som de lägger till i Workfront eller som rapporterar till dem i Workfront.
 
 1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. När du är klar klickar du på **Spara**.
+1. När du är klar klickar du **Spara**.
 
 ## Tillgång till användare per licenstyp
 

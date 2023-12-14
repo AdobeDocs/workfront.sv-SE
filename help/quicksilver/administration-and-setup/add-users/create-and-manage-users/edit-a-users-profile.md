@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Som Adobe Workfront-administratör kan du skapa nya användare och hantera befintliga profiler.
-author: Courtney, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: a5596a2c734aa1d0f7927e37873761abd56e590b
+source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3396'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,7 @@ ht-degree: 0%
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Som Adobe Workfront-administratör kan du skapa nya användare och hantera befintliga profiler. Mer information om hur du skapar användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-
-Användare med en planlicens kan också skapa och hantera användare. Mer information om vilken åtkomst som krävs för att redigera användare finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Som Adobe Workfront-administratör kan du skapa användare och hantera befintliga profiler. Mer information om hur du skapar användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Åtkomstkrav
 
@@ -45,25 +43,35 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td> <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
      <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>av dessa två alternativ, om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+     <li> <p>The <b>Användare</b> -objekt på din åtkomstnivå konfigurerad för <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av följande två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+     <ul><li> Användaradministratör (alla användare)</li>
+     <li>Användaradministratör (gruppanvändare)</li></ul>
+     <p>If  <b>Användaradministratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem för att kunna redigera användaren.</p> 
+     <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>
+</table> 
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Redigera en användarprofil
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
-1. Markera användaren och klicka sedan på ikonen Redigera ![](assets/edit-icon.png).
+{{step-1-to-users}}
 
-1. I **Redigera användare** som visas ändrar du följande information och klickar sedan på **Spara ändringar**:
+1. Markera användaren och klicka sedan på **Redigera** icon ![](assets/edit-icon.png).
+
+   Rutan Redigera användare visas.
+
+1. I **Redigera användare** ändrar du följande information och klickar på **Spara ändringar** när som helst:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -73,18 +81,21 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td role="rowheader">Personlig information </td> 
       <td> 
        <ul> 
-        <li><b>Förnamn</b>, <b>Efternamn</b></li> 
-        <li> <p><b>E-postadress:</b> E-postadressen till en användare är även användarens användarnamn i Workfront. Fältet är skiftlägeskänsligt och måste vara unikt. Om någon användare försöker lägga till en icke-unik e-postadress tre gånger i ett 10-minutersfönster visas ett reCAPTCHA-svar.</p> <p>Om du använder e-postadressen tillåtelselista och anger en e-postdomän som inte finns med i listan får användaren inga e-postmeddelanden. Mer information om tillåtelselista finns i <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Konfigurera din e-postadress tillåtelselista</a>.</p> </li> 
-        <li> <p><b>Återställ lösenord</b>: Klicka på den här länken om du vill återställa användarens lösenord. Du ombeds ange ditt eget lösenord innan du kan återställa en användares lösenord.</p> <p>Om du vill återställa en annan användares lösenord måste du vara Workfront-administratör eller gruppadministratör.</p> <p><b>ANMÄRKNING</b>:  
+        <li><p><b>Förnamn</b></p></li>
+        <li><p><b>Efternamn</b></p></li> 
+        <li> <p><b>E-postadress:</b> E-postadressen till en användare är även användarens användarnamn i Workfront. Fältet är skiftlägeskänsligt och måste vara unikt. Om någon användare försöker lägga till en icke-unik e-postadress tre gånger i ett 10-minutersfönster visas ett reCAPTCHA-svar.</p> <p> Välj <b>Jag är ingen robot</b> innan du kan fortsätta.</p><p>Om du använder e-postadressen tillåtelselista och anger en e-postdomän som inte finns med i listan får användaren inga e-postmeddelanden. Mer information om tillåtelselista finns i <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Konfigurera din e-postadress tillåtelselista</a>.</p> </li> 
+        <li> <p><b>Återställ lösenord</b>: Klicka på den här länken om du vill återställa användarens lösenord. Du måste ange ditt eget lösenord innan du kan återställa en annan användares lösenord.</p> <p>Om du vill återställa en annan användares lösenord måste du vara Workfront-administratör eller gruppadministratör.</p> <p><b>ANMÄRKNING</b>:  
           <ul> 
-           <li> <p>Om du är gruppadministratör kan du bara återställa lösenord för användare i de grupper där du är utsedd som sådana. Behörigheten Användaradministratör (gruppanvändare) måste även aktiveras på din åtkomstnivå:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Den här inställningen är inaktiverad som standard. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </li> 
+           <li> <p>Om du är gruppadministratör kan du bara återställa lösenord för användare i de grupper där du är utsedd till administratör. Behörigheten Användaradministratör (gruppanvändare) måste även aktiveras på din åtkomstnivå:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Den här inställningen är inaktiverad som standard. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </li> 
            <li> <p>Du kan inte återställa lösenordet för en Workfront-administratör.</p> </li> 
           </ul> </p> </li> 
         <li><b>&lt;sso configuration=""&gt; Användarnamn</b>: Om din Workfront-administratör har aktiverat en SSO-integrering med Workfront visas SSO-användarnamnet i det här fältet. Den typ av SSO-konfiguration som är aktiverad för din Workfront-instans visas i det här fältet. </li> 
-        <li> <p><b>OnlyAllow &lt;sso configuration=""&gt; Autentisering</b>: Om Workfront-administratören har aktiverat en SSO-integrering med Workfront och har uppdaterat alla användare för enkel inloggning (SSO), är det här fältet markerat som standard. Den typ av SSO-konfiguration som är aktiverad för din Workfront-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste användaren logga in på Workfront med sina SSO-inloggningsuppgifter. Om du avmarkerar den kan de logga in på Workfront med sina Workfront-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar Workfront med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Översikt över enkel inloggning i Adobe Workfront</a></p> <p>Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> <p><b>ANMÄRKNING</b>: Om du är gruppadministratör kan du redigera &lt;sso configuration=""&gt; endast för användare i de grupper där du är utsedd som sådana. Behörigheten Användaradministratör (gruppanvändare) måste även aktiveras på din åtkomstnivå.
+        <li> <p><b>OnlyAllow &lt;sso configuration=""&gt; Autentisering</b>: Om Workfront-administratören har aktiverat en SSO-integrering med Workfront och har uppdaterat alla användare för enkel inloggning (SSO), är det här fältet markerat som standard. Den typ av SSO-konfiguration som är aktiverad för din Workfront-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste användaren logga in på Workfront med sina SSO-inloggningsuppgifter. Om du avmarkerar den kan de logga in på Workfront med sina Workfront-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar Workfront med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Översikt över enkel inloggning i Adobe Workfront</a></p> <p>Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> 
+        <p><b>ANMÄRKNING</b>:</p> 
+        <p> Om du är gruppadministratör kan du redigera &lt;sso configuration=""&gt; endast för användare i de grupper där du är utsedd som sådana. Behörigheten Användaradministratör (gruppanvändare) måste även aktiveras på din åtkomstnivå.
         <p>Om du är gruppadministratör och har behörigheten Användaradministratör (alla användare) aktiverad på din åtkomstnivå kan du redigera &lt;sso configuration=""&gt; fält för alla användare.</p> </li> 
-        <li><b>Jobbinformation:</b> Information om jobbet, t.ex. befattning, och vilket expertområde användaren ansvarar för.</li> 
-        <li><p><b>Kontaktinformation</b>: Användarens telefonnummer och adress.</p>
+        <li><b>Jobbinformation:</b> Information om jobbet, t.ex. befattningen (i <b>Titel</b> fält) och vilket expertområde användaren ansvarar för (i <b>Tala med mig om</b> fält).</li> 
+        <li><p><b>Kontaktinformation</b>: Användarens telefonnummer (i <b>Telefonnummer, ext.</b>och <b>Mobilnummer</b> fält) och adress (i <b>Adress, ort, stat, postnummer, land</b> fält).</p>
         <p>Om användaren är aktiverad för UUM (Unified User Management) eller Adobe Identity Management System (IMS) är <b>Land</b> i avsnittet Kontaktinformation accepterar bara landskodsvärden (till exempel USA, GB, IN).</p></li>
        </ul> </td> 
      </tr> 
@@ -93,15 +104,16 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td> 
        <ul> 
       <li> <p><b>Tidszon:</b> Användarens tidszon.</p> <p>Mer information om hur du kan hjälpa användare att samarbeta i Workfront över olika tidszoner finns i <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeta över tidszoner</a>.</p> </li> 
-       <li><b>Språk för e-post</b>: Användarens förvalda e-postspråk. Detta påverkar formatet för siffror och datum i e-postmeddelanden som kommer från Workfront.</li>
+       <li><b>Språk för e-post</b>: Användarens förvalda e-postspråk. Detta påverkar formatet för siffror och datum i e-postmeddelanden som kommer från Workfront till den här användaren.</li>
 
    <li><b>Ta emot e-postmeddelanden från den här testmiljön</b>: Markera det här alternativet om du vill få e-postmeddelanden från den miljö du är inloggad i.
       <p><b>ANMÄRKNING</b></p>
-      Det här alternativet är bara tillgängligt i förhandsgransknings- och sandlådemiljöer. E-postmeddelanden är som standard aktiverade i produktionsmiljön. 
+      <p>Det här alternativet är bara tillgängligt i förhandsgransknings- och sandlådemiljöer. E-postmeddelanden är som standard aktiverade i produktionsmiljön. </p>
       </li>
 
    <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill visa ett procentvärde i området Uppdatera för den här användarens uppgifter.</li> 
-       <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användaren tilldelar sig själv ska visas direkt på fliken Arbeta med. Som standard visas allt som tilldelats en användare på fliken Arbetsbegäran.</li> 
+       <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användaren tilldelar sig själv ska visas direkt i listan Arbeta på i hemområdet. Som standard visas allt som tilldelats en användare i listorna Ready to Start eller Not Ready (Klart att starta) i området Home (Hem).</li> 
+       <li><b>Generera korrektur automatiskt när dokument överförs</b>: Markera det här alternativet om du vill att de dokument som användaren överför omedelbart ska generera ett korrektur. Beroende på vilken Workfront-licens du har kan det totala antalet korrektur som finns tillgängliga för alla användare påverkas när du skapar korrektur. </li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -112,11 +124,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td role="rowheader">Åtkomst</td> 
       <td> 
        <ul> 
-      <li><b>Är aktiv:</b> Markera den här rutan om du vill ange att användaren är aktiv. Aktiva användare använder en Workfront-licens. Om du rensar rutan inaktiveras användaren.</li> 
+      <li><b>Är aktiv:</b> Markera den här rutan om du vill ange att användaren är aktiv. Aktiva användare använder en Workfront-licens. Om du avmarkerar rutan inaktiveras användaren och användaren hindras från att logga in på Workfront.</li> 
        <li> <p><b>Åtkomstnivå:</b> Välj den åtkomstnivå som ska tilldelas den här användaren.</p> 
-       <p>När du tilldelar en åtkomstnivå till en användare kan du tilldela en nivå som är lika med eller mindre än din egen åtkomstnivå. (Om din åtkomstnivå till exempel är Planering kan du inte tilldela administratörsåtkomstnivån.) Du kan dock inte tilldela en åtkomstnivå som är lägre än din egen åtkomstnivå om Workfront-administratören har aktiverat icke-standardbehörigheter på åtkomstnivån som inte är aktiverade på din egen åtkomstnivå (via finjusteringsinställningarna som beskrivs i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>). </p> 
-       <p>Mer information om åtkomstnivåer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a>.</p><p> <b>Obs!</b> Om din organisation använder den nya åtkomstmodellen (Standard/Light/Contributor) kan du inte tilldela om en Standard- eller Light-användare till en Contributor-åtkomstnivå om användaren redan har nått sin beslutsgräns för månaden. </p><p>Mer information om den nya åtkomstmodellen finns i <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a>. </p><p>Information om beslutsgränser finns på <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Begränsat dokument och bevisbeslut för obetalda användare - översikt</a>.</p></li> 
-       <li> <p><b>Layoutmall</b>: Välj en layoutmall för användaren. Den här layoutmallen har företräde framför alla layoutmallar som har tilldelats användarens hemgrupp, hemteam eller primära jobbroll. Mer information om tilldelningsprioriteten för layoutmallar finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a>.</p> <p><b>ANMÄRKNING</b>:  <p>Listan med mallar som är tillgängliga i det här fältet beror på din åtkomst:</p> 
+       <p>När du tilldelar en åtkomstnivå till en användare kan du tilldela en nivå som är lika med eller lägre än din egen åtkomstnivå.</p>
+       <p>Om åtkomstnivån till exempel är Plan kan du inte tilldela åtkomstnivån Administratör. Du kan dock inte tilldela en åtkomstnivå som är lägre än din egen åtkomstnivå om Workfront-administratören har aktiverat icke-standardbehörigheter på åtkomstnivån som inte är aktiverade på din egen åtkomstnivå. </p>
+       <p>Om du t.ex. har en planlicens utan tillgång till borttagningsuppgifter, kan du inte tilldela någon en arbetslicens med åtkomst till borttagningsuppgifter även om arbetslicensen är lägre än planlicensen. Mer information finns i  <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> 
+       <p>Mer information om åtkomstnivåer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a>.</p>
+       <p> <b>OBS!</b></p> 
+       <p> Om din organisation använder den nya åtkomstmodellen (Standard/Light/Contributor) kan du inte tilldela om en Standard- eller Light-användare till en Contributor-åtkomstnivå om användaren redan har nått sin beslutsgräns för månaden. </p><p>Mer information om den nya åtkomstmodellen finns i <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a>. </p><p>Information om beslutsgränser finns på <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">Begränsat dokument och bevisbeslut för obetalda användare - översikt</a>.</p></li> 
+       <li> <p><b>Layoutmall</b>: Välj en layoutmall för användaren. Den här layoutmallen har företräde framför alla layoutmallar som har tilldelats användarens hemgrupp, hemteam eller primära roll. Mer information om tilldelningsprioriteten för layoutmallar finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a>.</p> <p><b>ANMÄRKNING</b>:  <p>Följande lista beskriver hur listan med mallar som du har tillgängliga i det här fältet beror på din åtkomst:</p> 
        <ul> 
        <li>Som Workfront-administratör kan du se alla layoutmallar på system- och gruppnivå.</li> 
        <li>Som gruppadministratör kan du se layoutmallar på systemnivå samt de som är kopplade till de grupper som du hanterar.</li> 
@@ -129,12 +145,17 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td> 
        <ul> 
       <li><b>Företag</b>: Användarens företag. Användare kan bara associeras med ett företag. Du måste skapa ett företag innan du kan associera det med en användare. Endast aktiva företag visas i listan. Mer information om hur du skapar företag finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Skapa och redigera företag</a>.</li> 
-      <li><b>Rapporter till:</b> Om du har angett ett företag för användaren kan du även ange användarens direkta hanterare i det här fältet. En användare kan bara ha en hanterare.</li> 
-      <li><b>Direktrapporter:</b> Om du har angett ett företag för användaren kan du även ange användares direkta rapporter. En användare kan ha flera direktrapporter.</li> 
-      <li><b>Hemteam</b>: Ange användarens hemteam. Användare kan bara ha ett hemteam.</li> 
-      <li><b>Andra team</b>: Användare kan tillhöra flera team.</li> 
-      <li> <p><b>Hemgrupp:</b> Välj en lämplig grupp att tilldela användaren till. Detta ger användaren möjlighet att komma åt objekt som delas med gruppen.</p> <p>Detta är ett obligatoriskt fält. Alla användare måste vara kopplade till en hemgrupp. Om du inte väljer någon grupp tilldelas gruppen som den nya användarens hemgrupp.</p> <p><b>ANMÄRKNING</b>: Du kan bara tilldela en grupp till en användare om du är Workfront-administratör, är administratör för gruppen eller om gruppen är offentlig.</p> </li> 
-      <li> <p><b>Andra grupper</b>: Användare kan tillhöra flera grupper. Du kan bara tilldela en grupp till en användare om du är Workfront-administratör, är administratör för gruppen eller om gruppen är offentlig.</p> <p><b>VIKTIGT</b>: Om du lägger till en användare i fler än 100 grupper kan prestandaproblem uppstå i alla områden i Workfront som läser in listan med grupper.</p> <p>Mer information om publika grupper finns i <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Skapa en grupp</a>.</p> <p>Mer information om grupper finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> </li> 
+      <li><b>Rapporter till:</b> Om du har angett ett företag för användaren kan du även ange användarens direkta hanterare i det här fältet. En användare kan bara ha en hanterare. Det här fältet visas inte om användaren inte är associerad med ett företag först. </li> 
+      <li><b>Direktrapporter:</b> Om du har angett ett företag för användaren kan du även ange användares direkta rapporter. En användare kan ha flera direktrapporter. Det här fältet visas inte om användaren inte är associerad med ett företag först.</li> 
+      <li><b>Hemteam</b>: Ange användarens hemteam. Användare kan bara ha ett hemteam. Hemteamet är viktigt när du tilldelar en layoutmall eller när du definierar knappen Arbeta med det för uppgifter och ärenden som tilldelats användaren. </li> 
+      <li><b>Andra team</b>: Användare kan tillhöra flera team. En användare kan visa arbetsobjekt som är tilldelade något av deras team i hemområdet. </li> 
+      <li> <p><b>Hemgrupp:</b> Välj en lämplig grupp att tilldela användaren till. Detta ger användaren möjlighet att komma åt objekt som delas med gruppen. Du kan också dela layoutmallar med användarens hemgrupp.</p> <p>Detta är ett obligatoriskt fält. Alla användare måste vara kopplade till en hemgrupp. Om du inte väljer någon grupp tilldelas gruppen som den nya användarens hemgrupp.</p> <p><b>ANMÄRKNING</b>:</p> 
+      <p> Du kan bara tilldela en grupp till en användare om något av följande är sant:</p>
+      <ul><li>du är Workfront-administratör</li>
+      <li>du är administratör för gruppen</li>
+      <li>Gruppen är offentlig.</li></ul> 
+      <li> <p><b>Andra grupper</b>: Användare kan tillhöra flera grupper. Du kan bara tilldela en grupp till en användare om du är Workfront-administratör, är administratör för gruppen eller om gruppen är offentlig.</p> <p><b>VIKTIGT</b>:</p> 
+      <p>Om du lägger till en användare i fler än 100 grupper kan prestandaproblem uppstå i alla områden i Workfront som läser in listan med grupper.</p> <p>Mer information om publika grupper finns i <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Skapa en grupp</a>.</p> <p>Mer information om grupper finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -150,7 +171,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    Mer information om hur du skapar scheman i Workfront finns i <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>.
 
-   Schemalagda undantag och ledig tid kan också påverka användarkapaciteten.
+   Schemalagda undantag och ledig tid kan också påverka användarens kapacitet.
 
    Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i inställningsområdet. Mer information finns i <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a>.
 
@@ -158,8 +179,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
    </li> 
-      <li> <b>Schemalägg inaktivering</b>: Markera den här kryssrutan om du vill schemalägga att den här användaren ska inaktiveras efter en viss tidsperiod. </li> 
-       <li><b>Schemalagt inaktiveringsdatum</b>: Det datum efter vilket användaren inaktiveras. Information om hur du schemalägger användare för inaktivering finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>.</li> 
+      <li> <b>Schemalägg inaktivering</b>: Markera den här rutan om du vill att den här användaren ska inaktiveras ett visst datum och vid en viss tidpunkt. </li> 
+       <li><b>Schemalagt inaktiveringsdatum</b>: Det datum och den tidpunkt då användaren inaktiveras. Information om hur du schemalägger användare för inaktivering finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>.</li> 
        <li> <p><b>Primär roll</b>: Detta är den primära rollen som användaren kan utföra i Workfront. Alla uppgifter och utgåvor som användaren är tilldelad till tilldelas även den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> <p>Endast aktiva jobbroller visas i listan. </p> </li> 
        <li>Om du valde en <b>Primär roll</b>, <b>Procent tillgängliga heltidsanställda</b> visas. Ange hur många procent av tiden i användarens schema som ska tilldelas den här jobbrollen. Standardvärdet för procentandelen FTE-tillgänglighet för den primära rollen är 100 %. </li> 
        <li> <p><b>Andra roller</b>: En användare kan ha flera jobbroller i Workfront. Jobbroller är viktiga i resurshanteringen. Det finns ingen gräns för hur många jobbroller en användare kan utföra. Vi rekommenderar dock att du inte tilldelar en användare till ett för stort antal jobbroller eftersom resurshanteringen kan bli alltför komplex för dessa användare.<p>Endast aktiva jobbroller visas i listan. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. <br>Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 

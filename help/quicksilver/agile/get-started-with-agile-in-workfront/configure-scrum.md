@@ -6,16 +6,29 @@ description: Du kan konfigurera följande alternativ för Scrum-team under eller
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
 
 # Konfigurera [!UICONTROL Scrum]
 
-Du kan konfigurera följande alternativ för flexibla team under eller efter det att teamet har skapats. Du skapar ett rörligt team (Kanban eller Scrum) i [!DNL Adobe Workfront] enligt beskrivning i [Skapa ett smidigt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Du kan skapa ett smidigt team i [!DNL Adobe Workfront] enligt beskrivning i [Skapa ett smidigt team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). När ni skapar ett smidigt team kan ni välja den metod som teamet använder för att slutföra arbetet. Du kan välja mellan följande alternativ:
+
+* Scrum
+* Kanban
+
+I den här artikeln beskrivs hur du konfigurerar inställningarna för ett Scrum-team. När du har skapat ett smidigt team och valt Scrum-metod kan du uppdatera följande inställningar i den här artikeln:
+
+* Om artiklarna beräknas i antal poäng eller timmar
+* Statuskolumnerna på den flexibla artikelpanelen för iterationer och projekt
+* Ytterligare fält att visa på artikelkort på den flexibla artikelpanelen
+* Hur färgindikatorer används för artiklar på den flexibla artikelpanelen
+* Hur datum används när arbetsobjekt läggs till i en iteration
+
+Mer information om hur du konfigurerar ett Kanban-team finns i [Konfigurera Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ## Åtkomstkrav
 
@@ -28,17 +41,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Work] eller högre</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p> 
+   eller
+   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till team</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+*Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
 
 ## Konfigurera om artiklar ska beräknas i punkter eller timmar
 
@@ -100,9 +122,9 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
    >[!IMPORTANT]
    >
-   >Endast låsta systemomfattande statusar är tillgängliga för val; du kan inte välja gruppspecifika statusar. Den första kolumnens status motsvarar alltid **[!UICONTROL New]**.
+   >Det går bara att välja låsta systemomfattande statusvärden. Du kan inte välja gruppspecifika statusar. Den första kolumnens status motsvarar alltid **[!UICONTROL New]**.
 
-   Du kan lägga till anpassade statusvärden om [!DNL Workfront] administratören har konfigurerat dem, anpassade statusvärden kan konfigureras enligt beskrivningen i [Skapa eller redigera en status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   Du kan lägga till anpassade statusvärden om [!DNL Workfront] administratören har konfigurerat dem; anpassade statusvärden kan konfigureras enligt beskrivningen i [Skapa eller redigera en status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
    >[!NOTE]
    >
@@ -132,7 +154,7 @@ Du kan visa ytterligare data (inklusive anpassade data) på artikelkort. Du kan 
 
 >[!NOTE]
 >
->Om du använder ett anpassat fält på ett artikelkort kan det inte innehålla en punkt/punkt i namnet.
+>Om du använder ett anpassat fält på ett artikelkort kan det inte innehålla punkter i namnet.
 
 Så här konfigurerar du artikelkort som tilldelats det flexibla teamet så att ytterligare fält visas:
 
@@ -174,14 +196,14 @@ Så här ändrar du hur färger tilldelas artiklar för ett smidigt team:
 1. I [!UICONTROL Agile] i [!UICONTROL Associate Card Color to] väljer du bland följande alternativ:
 
    * **[!UICONTROL Project]**: Färger är kopplade till det projekt som artikeln är kopplad till. (När en artikel skapas måste den kopplas till ett projekt, vilket beskrivs i [Skapa en Agile Story](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Alla uppgifter från samma projekt visas med samma färg.
-   * **[!UICONTROL Free Form]**: Alla kort visas som blå som standard tills användaren ändrar färgen manuellt enligt beskrivningen i [[!UICONTROL Categorize stories by color] på Scrum board](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
-   * **[!UICONTROL Priority]**: Färgerna kopplas till artikelprioriteten enligt följande:
+   * **[!UICONTROL Free Form]**: Alla kort visas som standard med blått tills användaren ändrar färgen manuellt enligt beskrivningen i [[!UICONTROL Categorize stories by color] på Scrum board](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **[!UICONTROL Priority]**: Färger är kopplade till artikelprioritet enligt följande:
 
-      * Hög = röd
+      * Hög = Röd
       * Medel = gul
       * Låg = Grön\
 
-         Om systemadministratören har konfigurerat anpassade prioriteringar för din [!DNL Workfront] system, den högsta prioriteten är röd, den näst högsta är gul och den tredje högsta är grön.
+        Om systemadministratören har konfigurerat anpassade prioriteringar för din [!DNL Workfront] system, den högsta prioriteten är röd, den näst högsta är gul och den tredje högsta är grön.
    * **[!UICONTROL Task Owner]**: Alla artiklar med samma primära tilldelade färg har samma färg. Den primära tilldelaren är den användare som först tilldelades uppgiften.
 
 
@@ -199,7 +221,7 @@ När du lägger till ett arbetsobjekt i en upprepning av en upprepning ändras s
 
    * **[!UICONTROL Modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: När arbetsobjekt läggs till i en iteration ändras arbetsuppgiftens datum till iteration-datum.\
 
-      Mer information om hur datum ändras finns i avsnittet [Förstå hur inlagda artiklar påverkar aktivitetsdatum](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) i artikeln [Lägga till artiklar i en befintlig upprepning](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+     Mer information om hur datum ändras finns i avsnittet [Förstå hur inlagda artiklar påverkar aktivitetsdatum](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) i artikeln [Lägga till artiklar i en befintlig upprepning](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
    * **[!UICONTROL Do not modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: När arbetsobjekt läggs till i en iteration behåller arbetsobjekten sina ursprungliga datum.
 
    Om du ändrar datumalternativet justeras inte datum för arbetsobjekt som redan finns i upprepningen.

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '13783'
+source-wordcount: '13788'
 ht-degree: 0%
 
 ---
@@ -395,7 +395,7 @@ ht-degree: 0%
    * [Administration och inställning: artikelindex](administration-and-setup/administration-and-setup.md)
    * Kom igång med administration {#get-started-administration}
       * [Kom igång med administration: artikelindex](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-      * [Definiera mål för genomförandet](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+      * [Översikt över hur du definierar mål för implementeringen av Adobe Workfront](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [Hantera era licenser](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [Konfigurera grunderna](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [Översikt över brandväggen](administration-and-setup/get-started-wf-administration/firewall-overview.md)

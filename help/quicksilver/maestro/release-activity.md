@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Vecka 18 december 2023
+
+### Uppdatera det primära fältet i en tabellvy för en posttyp
+
+Förhandsgranskning och produktion: 14 december 2023
+
+Du kan nu välja det fält som du vill visa i den första kolumnen i en Maestro-tabellvy. Det här fältet kallas nu primärt fält.
+
+Före den här förbättringen visas namnfältet för en post alltid i den första kolumnen i tabellvyn och det kan inte placeras på en annan plats.
+
+Observera följande med den här förbättringen:
+
+* Kolumnen eller fältet Namn är som standard fortfarande den första kolumnen i en tabell.
+
+* Du kan välja vilket fält som helst av följande typer som primärt fält och ersätta fältet Namn i den första kolumnen:
+
+   * Enkelradig text
+
+   * Nummer
+
+   * Formel
+
+     >[!NOTE]
+     >
+     >Formeltypsfält kommer att frisläppas vid ett senare datum.
+
+* Det primära fältet i en tabellvy fryses alltid och kan inte flyttas om du inte anger ett annat fält som primärt fält.
+
+* Du kan ändra det primära fältet från en icke-primär kolumnrubrik.
+
+* Alla tabellvyer av en posttyp har samma primära fält som du väljer.
+
+Mer information finns i [Hantera tabellvy](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## Vecka 4 december 2023
 

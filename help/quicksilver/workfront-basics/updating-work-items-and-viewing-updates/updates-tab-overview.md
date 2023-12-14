@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 0%
 # Översikt över uppdateringsavsnittet
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. </span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
 
 >[!IMPORTANT]
 >
@@ -49,7 +56,7 @@ ht-degree: 0%
 
 I uppdateringsavsnittet för ett objekt visas systemuppdateringar och upp till 200 av de senaste uppdateringarna som användare har gjort under de senaste 90 dagarna.
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
 
 Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du hitta följande i uppdateringsavsnittet:
 
@@ -89,7 +96,7 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 
 ### Översikt över uppdateringsavsnittet i den nya kommentarsfunktionen
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 >[!NOTE]
 >
@@ -202,9 +209,6 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
  </tbody> 
 </table>
 
-
-<br>
-
 >[!NOTE]
 >
 >Svar som lagts till i systemuppdateringar sammanfogas inte med det överordnade objektet. Endast direkta svar på ett underordnat objekt och svar som lagts till i befintliga uppdateringar läggs ihop med överordnade objekt.
@@ -213,7 +217,6 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
 >
 > Det går inte att svara på systemuppdateringar i den nya kommentarsfunktionen. Mer information finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## Begränsningar i uppdateringsavsnittet
 

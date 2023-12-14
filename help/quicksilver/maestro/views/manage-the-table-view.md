@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -137,36 +137,44 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* Fältet Namn är alltid det första fältet i tabellvyn.
-   >
-   >* Du kan inte flytta fältet Namn till en annan position.
-   >
-   >* Du kan inte dölja fältet Namn.
-   >
-   >* Fältet Namn är fryst och ingår inte i den vågräta rullningen.
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* Fältet Namn är alltid det första fältet i tabellvyn.
+     >
+     >* Du kan inte flytta fältet Namn till en annan position.
+     >
+     >* Du kan inte dölja fältet Namn.
+     >
+     >* Fältet Namn är fryst och ingår inte i den vågräta rullningen.
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * Ersätt fältet i den första kolumnen med ett annat fält genom att ändra det primära fältet. Mer information finns i steg 4. <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. (Valfritt) Håll markören över ett fältnamn i kolumnrubriken för ett fält som inte visas i den första kolumnen i tabellen, klicka på nedåtpilen till höger om fältnamnet och klicka sedan på **Ange som primärt fält**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. Klicka **Ange fält** för att bekräfta.
+
+   Fältet blir ett primärt fält, vilket betyder att det visas som den första kolumnen i tabellvyn. Det föregående primära fältet flyttas till den andra kolumnen.
+
+   >[!NOTE]
+   >
+   >   * Endast fält av följande typer kan vara primära fält:
+   >
+   >       * Enkelradig text
+   >       * Nummer
+   >       * Formel
+   >
+   >         Formelfält kommer att frisläppas vid ett senare datum.
+   >
+   >   * Det primära fältet är alltid fryst och kan inte flyttas. Du kan välja ett annat fält som ska ersätta ett primärt fält om du behöver flytta det till en annan plats.
+   >
+   >   * Om du ändrar det primära fältet i tabellvyn påverkas vyn för alla andra användare som väljer det.
+   >
+   >   * Om du ändrar det primära fältet i en tabellvy påverkas alla tabellvyer.
+   >
+   >   * Du kan inte ta bort eller dölja ett primärt fält.
 
 1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 

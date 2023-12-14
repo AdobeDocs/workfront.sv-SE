@@ -6,9 +6,9 @@ description: Du skapar ett kanban- eller Scrum-team i [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -42,16 +42,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
    <td> <p>Nytt: [!UICONTROL Standard]</p> 
    eller
    <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till team</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
@@ -68,7 +75,6 @@ Så här konfigurerar du hur berättelser beräknas för ditt team:
 1. Välj det flexibla team som du vill hantera.
 1. Klicka på **[!UICONTROL More]** meny ![](assets/more-menu.png) väljer **[!UICONTROL Edit]**.
 
-   Endast teammedlemmar med antingen en [!UICONTROL Plan] eller [!UICONTROL Work] se det här alternativet.\
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
 1. I **[!UICONTROL Agile]** i **[!UICONTROL Estimate Stories in]** väljer du om du vill använda punkter eller timmar för att beräkna artikelns storlek (arbetsbelastning). Om du väljer Punkter anger du hur många timmar som ska vara lika med 1 punkt. (Standardvärdet är 1 punkt = 8 timmar.) Detta är antalet planerade timmar som läggs till i artikeln.
@@ -89,8 +95,6 @@ Så här definierar du de statusvärden som är tillgängliga för den artikelpa
 
 1. Välj det flexibla team som du vill hantera.
 1. Klicka på **[!UICONTROL More]** väljer du **[!UICONTROL Edit]**.
-
-   Endast teammedlemmar med antingen en [!UICONTROL Plan] eller [!UICONTROL Work] se det här alternativet.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
@@ -139,7 +143,6 @@ Så här konfigurerar du artikelkort som tilldelats det flexibla teamet så att 
 
 1. Välj det flexibla team som du vill hantera.
 1. Klicka på **[!UICONTROL More]** väljer du **[!UICONTROL Edit]**.\
-   Endast teammedlemmar med antingen en [!UICONTROL Plan] eller [!UICONTROL Work] se det här alternativet.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
@@ -166,8 +169,6 @@ Så här begränsar du PIA för ditt Kanban-team:
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]** meny ![](assets/more-menu.png)väljer **[!UICONTROL Edit]**.
 
-   Endast teammedlemmar med antingen en [!UICONTROL Plan] eller [!UICONTROL Work] se det här alternativet.
-
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
 1. I **[!UICONTROL Agile]** i **[!UICONTROL Methodology]** kontrollerar du att Kanban är markerat.
@@ -193,8 +194,6 @@ Du kan konfigurera artiklar från en eftersläpning så att de automatiskt lägg
 1. Välj det Kanban-team som du vill hantera.
 1. Klicka på **[!UICONTROL More]** meny ![](assets/more-menu.png)väljer **[!UICONTROL Edit]**.
 
-   Endast teammedlemmar med antingen en [!UICONTROL Plan] eller [!UICONTROL Work] se det här alternativet.
-
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
 1. Välj **[!UICONTROL Automatically add next story from backlog]** för att konfigurera att nästa objekt från eftersläpningen automatiskt läggs till i **[!UICONTROL New]** kolumn när ett objekt flyttas ut från **[!UICONTROL In Progress]** kolumn.
@@ -215,8 +214,6 @@ Du kan välja hur länge färdiga kort ska vara kvar på [!UICONTROL Kanban] br�
 1. (Valfritt) Klicka på **[!UICONTROL Switch Teams]** icon ![Ikonen Byt team](assets/switch-team-icon.png)väljer du sedan ett nytt Kanban-team i listrutan eller söker efter ett team i sökfältet.
 1. Välj Kanban-teamet.
 1. Klicka på **[!UICONTROL More]** meny ![](assets/more-menu.png) väljer **[!UICONTROL Edit]**.
-
-   Endast teammedlemmar med antingen en [!UICONTROL Plan] eller [!UICONTROL Work] se det här alternativet.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
