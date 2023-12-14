@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
+source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ Med den här integreringen är vårt mål att göra det möjligt för kreatörer
 
 Mer information om hur alfavärdet fungerar och hur du kan delta finns i [Integreringsalfa för Adobe Workfront och Frame.io: översikt](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
-
 >[!NOTE]
 >
 >Om du kommer på dessa sidor utan att ditt företag deltar i det här alfaversionsprogrammet, var noga med att behandla informationen här och kontakta din Workfront- eller Frame.io-administratör för mer information.
+>
 
 ## Grundläggande testscenario
 
@@ -32,30 +32,32 @@ För att du enkelt ska kunna testa de nya funktionerna i alfaversionen har vi sk
 
 Om du vill testa funktionen loggar du in på Workfront Preview eller Sandbox och utför följande steg:
 
->[!NOTE]
->
-><span class="preview">Markerad text</span> Nedan beskrivs funktioner som ännu inte har implementerats för testning, men som kommer att ingå i en senare version.
->
-
 1. **Koordinatorer:** Skapa ett projekt i Workfront med `Frame.io alpha testing` grupp tilldelad som projektgrupp.
 
-1. **Koordinatorer:** Inom Workfront kan du tilldela dina kreatörer till projektet <span class="preview">eller Åtgärder som stöder bildrutor (observera att underaktiviteter inte kan markeras som bildrutor aktiverade)</span> och ändra projektstatus till Aktuell.
+1. **Koordinatorer:** I Workfront markerar du de uppgifter som kräver kreativt arbete som bildruteaktiverade (i uppgiftsinformationen) och tilldelar dina användare (tilldela dig själv också om du vill testa hela arbetsflödet).
+
+>[!NOTE]
+>
+>Underaktiviteter kan inte markeras som bildrutor aktiverade.
+>
+
+1. **Koordinatorer:** Ladda upp din översikt och ändra projektstatus till Aktuell.
 
 1. **Kreatörer:** Kontrollera dina e-postmeddelanden om det finns en inbjudan till det nyligen skapade Frame.io-projektet
 
 1. **Kreatörer:** Klicka på knappen&quot;Gå med i projekt&quot; i e-postmeddelandet med en inbjudan om att gå med i Frame.io-projektet, granska det kreativa utkastet i projektet och börja skapa ditt innehåll i valfritt verktyg på Creative Cloud.
 
-1. **Kreatörer:** Överför dina skapade resurser till Frame.io och lägg till dem i det länkade Workfront-projektet <span class="preview">(eller tilldelade bildruteaktiverade uppgifter).</span>
+1. **Kreatörer:** Överför dina skapade resurser till Frame.io och lägg till dem i det länkade Workfront-projektet genom att välja någon av de tilldelade Frame-aktiverade åtgärderna. Välj alternativet för att markera uppgiften som slutförd.
 
-1. **Koordinatorer:** I Workfront hittar du de länkade Frame.io-resurserna i ditt projekt och tilldelar granskare/godkännare (mer information om hur du tilldelar granskningar/godkännare finns i [Lägga till ytterligare godkännare eller granskare i ett dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
+1. **Koordinatorer:** I Workfront söker du efter de länkade Frame.io-resurserna i den bildruteaktiverade aktiviteten och kontrollerar att aktivitetens status har ändrats till&quot;complete&quot;.
 
-1. **Intressenter:** I Workfront kan du visa din godkännandebegäran i Hem- eller Dokumentinformation och granska dokumentet Frame.io Viewer. Lämna sedan en kommentar med feedback.
+1. **Koordinatorer:** Tilldela granskare/godkännare till den länkade Frame.io-resursen. Tilldela dig själv som godkännare också om du vill testa hela arbetsflödet. (Mer information om hur du tilldelar granskningar/godkännare finns i [Lägga till ytterligare godkännare eller granskare i ett dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
-1. <span class="preview">**Koordinatorer:** I Workfront kan du visa de kommentarer som har skapats av berörda parter i uppdateringsavsnittet i det dokument som är kopplat till Frame.io.</span>
+1. **Intressenter:** I Workfront kan du visa din godkännandebegäran i Hem, Dokumentinformation eller i det mottagna e-postmeddelandet. Öppna resursen i Frame.io Viewer, lämna en kommentar med feedback och fatta ett beslut.
 
-1. <span class="preview">**Intressenter:** Fatta ett beslut inifrån Frame.io Viewer.</span>
+1. **Koordinatorer:** I Workfront kan du läsa de kommentarer som har skapats av berörda parter i uppdateringsavsnittet i det dokument som är kopplat till Frame.io samt beslutet i godkännandeavsnittet eller dokumentsammanfattningsfönstret.
 
-1. <span class="preview">**Kreatörer:** I Frame.io ser du det övergripande godkännandebeslutet för dina tillgångar.</span>
+1. **Kreatörer:** I Frame.io ser du det övergripande godkännandebeslutet för dina tillgångar.
 
 1. **Kreatörer:** I Frame.io tillämpar du de begärda ändringarna genom att lägga till den uppdaterade versionen i den anslutna resursens versionsstack.
 
@@ -71,17 +73,14 @@ Nedan finns information om de primära användningsområdena som vi vill ta upp 
 
 >[!NOTE]
 >
-><span class="preview">Markerad text</span> Nedan beskrivs funktioner som ännu inte har implementerats, men som kommer att ingå i en senare version.
->
 >Punkter under en **&quot;Potentiella förbättringar i framtida releaser&quot;** sidhuvudet kan, eller behöver inte, ingå i en framtida release, beroende på feedback och våra utvecklingsplaner.
 >
 
-
 ### Workfront-administratörer kan skapa en anslutning mellan Workfront-grupper och Frame.io-konton
 
-* <span class="preview">I Workfront kan du ansluta en Workfront-grupp till ett Frame.io-konto</span>
+* I Workfront kan du ansluta en Workfront-grupp till ett Frame.io-konto
 
-* Ett nytt Frame.io-team skapas i Frame.io som representerar den anslutna Workfront-gruppen
+* Ett nytt Frame.io-team skapas i Frame.io som representerar den anslutna Workfront-gruppen (observera att den här funktionen bara har aktiverats för kunder som använder integreringen i Production. Kunder som fortfarande testar i sandlådan eller förhandsgranskningen kommer att ha anslutningen konfigurerad av Adobe team.)
 
 **Potentiella förbättringar i framtida versioner:**
 
@@ -93,19 +92,17 @@ Nedan finns information om de primära användningsområdena som vi vill ta upp 
 
 * Möjlighet att markera Workfront-projekt som Frame.io aktiverat genom att tilldela en bildruteansluten grupp
 
-* <span class="preview">Förbättring: Möjlighet att växla aktiviteter i Workfront-projekt till Frame-åtgärder som i sin tur skapar uppgiftsmappar i Frame.io</span>
+* Möjlighet att växla aktiviteter i Workfront-projekt till Frame-uppgifter som i sin tur skapar uppgiftsmappar inuti Frame.io
 
-* När statusen för ett Workfront-projekt är Aktuell skapas ett motsvarande anslutet projekt i bildrutan, användare som tilldelats Workfront läggs till i bildruteprojektet och ett e-postmeddelande skickas till dem från Frame.io
+* Om ett Workfront-projekt har en bildruteansluten grupp tilldelad och minst en bildruteaktiverad uppgift, och Workfront-projektstatus är Aktuell, skapas ett motsvarande anslutet projekt i bildruta, Workfront-tilldelade användare läggs till i bildruteprojektet och ett e-postmeddelande skickas till dem från Frame.io
 
-   * Alla Workfront Project-medlemmar (användare och team) läggs till som medarbetare i Frame.io-projektet (när projekt skapas och senare)
-
-   * <span class="preview">Ändra: Användare och team som är tilldelade till bildruteaktiverade Workfront-uppgifter läggs till som medarbetare i Frame.io-projektet och meddelas (när projekt skapas och senare)</span>
+   * Användare och team som är tilldelade Frame-aktiverade Workfront-uppgifter läggs till som medarbetare till Frame.io-projektet och meddelas (när projekt skapas och senare)
 
 * Dokument (Creative Brief) som läggs till i projektet och aktiviteter som är aktiverade för bildruta flyttas till Frame.io-projektet (i respektive arbetsmapp) när projektet skapas (utlösare: projektstatus inställd på Aktuell)
 
    * Vi rekommenderar att du begränsar antalet dokument som läggs till i projektet innan du börjar arbeta med bara dina projektdokument, så att du slipper skicka flera onödiga dokument till Frame.io.
 
-* <span class="preview">Förbättring: Användare/team som uttryckligen inte tilldelats från en bildruteaktiverad Workfront-uppgift tas bort från Frame.io-projektet</span>
+   * Dokument/uppgifter som läggs till efter den inledande projektsynkroniseringen överförs inte till Frame.io, endast användare/team
 
 **Potentiella förbättringar i framtida versioner:**
 
@@ -121,9 +118,9 @@ Nedan finns information om de primära användningsområdena som vi vill ta upp 
 
 * Överföringar av nya versioner inuti Frame.io skapar automatiskt nya dokumentversioner i Workfront för anslutna resurser
 
-* <span class="preview">Förbättring: Möjlighet att markera de refererade Workfront-åtgärderna som slutförda inifrån Frame.io</span>
+* Möjlighet att markera de refererade Workfront-aktiviteterna som slutförda inifrån Frame.io
 
-* <span class="preview">Förbättring: Om det anslutna Workfront-dokumentet tas bort ligger det kvar i Frame.io och kan återanslutas till samma eller andra projektuppgifter</span>
+* Om det anslutna Workfront-dokumentet tas bort ligger det kvar i Frame.io och kan återanslutas till samma eller andra projektuppgifter
 
 **Potentiella förbättringar i framtida versioner:**
 
@@ -135,7 +132,7 @@ Nedan finns information om de primära användningsområdena som vi vill ta upp 
 
 * Workfront-användare och -team kan läggas till i nya dokumentgodkännanden för Frame.io-anslutna dokument
 
-* <span class="preview">Förbättring: När en användare/ett team inte delas från ett dokument som är aktiverat för bildrutor förlorar de även åtkomsten till resursen i Frame.io Viewer</span>
+* När en användare/grupp inte delas från ett dokument som är aktiverat för bildrutor förlorar de även åtkomsten till resursen i Frame.io Viewer
 
 **Potentiella förbättringar i framtida versioner:**
 
@@ -151,12 +148,4 @@ Nedan finns information om de primära användningsområdena som vi vill ta upp 
 
 * Möjlighet att utnyttja de gransknings- och kommentarfunktioner som finns i Frame.io Viewer, som kommer att synkroniseras med Workfront Update Stream
 
-* <span class="preview">Möjlighet att fatta ett beslut om godkännande av ett nytt dokument inifrån Frame.io Viewer</span>
-
-### Inom Frame.io kommer kreatörerna att informeras om det övergripande beslutet som fattats om den anslutna Frame.io-resursen
-
-* <span class="preview">Förbättring: Den övergripande statusen för dokumentgodkännande visas för resurser i Frame.io</span>
-
-### Projektsamordnare kan skicka det slutliga materialet till AEM
-
-* <span class="preview">Förbättring: Ramanslutna dokument, inklusive metadata, kan skickas till AEM med den befintliga Workfront + AEM Asset CS-kopplingen</span>
+* Möjlighet att fatta ett beslut om godkännande av ett nytt dokument inifrån Frame.io Viewer
