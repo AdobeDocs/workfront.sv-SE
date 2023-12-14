@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1937'
 ht-degree: 0%
 
 ---
@@ -232,8 +232,12 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
    * Två Maestro-posttyper
    * En Maestro-posttyp och en Workfront projekt-, program-, portfölj-, företag- eller gruppobjekttyp.
+   * En Maestro-posttyp och en Adobe Experience Manager-resurs, mapp eller samling.
 
-  ![](assets/new-connection-tab-with-workfront-option.png)
+     Du måste ha en Adobe Experience Manager-licens för att kunna länka posttyper med Experience Manager-objekt.
+
+     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
   När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster av dessa typer till varandra. Anslutningen mellan posterna visas som ett länkat postfält.
 
@@ -273,15 +277,15 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Maestr
 
 | Maestro-objekt | Gräns |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Antal arbetsytor för en Workfront-instans | 1,000 |
+| Antal arbetsytor för en Workfront-instans | 1 000 |
 | Antal posttyper för en arbetsyta | 1 000 (inkluderar taxonomier för arbetsytan eller objekt som du importerar från tredjepartsprogram) |
-| Antal poster för en posttyp | 10,000 |
+| Antal poster för en posttyp | 10 000 |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält | 1 000 tecken |
-| Storlek på fil som du kan klistra in i en posttypstabell | 1MB |
-| Storlek på fil som du kan importera via API för en posttypstabell | 1.5MB |
+| Storlek på fil som du kan klistra in i en posttypstabell | 1 MB |
+| Storlek på fil som du kan importera via API för en posttypstabell | 1,5 MB |
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
-| Storlek på Excel-fil som du kan importera i en tabell | 5MB |
+| Storlek på Excel-fil som du kan importera i en tabell | 5 MB |
 
 ## Aktivera Maestro för användare i din Workfront-instans
 
@@ -367,6 +371,7 @@ I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i M
 | Koppla ihop Maestro-poster och taxonomier | ✓ |
 | Söka efter poster i tabellvyn | ✓ |   |
 | Koppla ihop Maestro-poster till Workfront projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
+| Koppla Maestro-poster till Adobe Experience Manager resurser, mappar och samlingar | ✓ |                                  |                 |
 | Sidan med postinformation | ✓ |                                  |                  |
 | Uppdatera layouten på sidan med postinformation |                               | ✓ |                  |
 | Behörigheter för arbetsytan | | ✓ |  |
@@ -375,6 +380,8 @@ I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i M
 | Anpassa färg och ikon för en post | ✓ |                                  |                 |
 | Lägga till kommentarer i poster |                               | ✓ |                 |
 | RTF-formatering för styckefält | ✓ |                                  |                 |
+
+
 
 ## Aktivitet för lansering av Maestro
 

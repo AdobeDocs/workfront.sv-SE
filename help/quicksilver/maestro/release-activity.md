@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ Observera följande med den här förbättringen:
 * Alla tabellvyer av en posttyp har samma primära fält som du väljer.
 
 Mer information finns i [Hantera tabellvy](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Koppla ihop Maestro-poster med Adobe Experience Manager (AEM) resurser
+
+Förhandsversion: 14 december 2023
+
+Produktionsrelease: 15 december 2023
+
+Nu kan du upprätta en anslutning mellan posttyperna Maestro och Adobe Experience Manager-resurser.
+
+När du har upprättat anslutningen är följande funktioner tillgängliga med den här uppdateringen:
+
+* Maestro-användare kan länka AEM resurser, mappar eller samlingar till en Maestro-post från en viss databas i AEM som de har tillgång till
+
+* Maestro-användare kan visa alla anslutna resurser i Maestro när de har anslutit till poster.
+
+* En Experience Manager Assets-posttyp skapas automatiskt i Maestro när du har upprättat anslutningen. Kopplade resurser visas i Maestro-tabellen och tidslinjevyerna för den här nya posttypen.
+
+* Du kan visa AEM i Maestro-posttabellen där du ansluter från.
+
+Mer information finns i [Koppla posttyper](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## Vecka 4 december 2023
 

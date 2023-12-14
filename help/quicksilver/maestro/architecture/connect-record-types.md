@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Om du vill ansluta Maestro-posttyper till Experience Manager Assets måste du ha en Adobe Experience Manager Assets</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ Tänk på följande:
       * Företag
       * Grupper
 
+   * Adobe Experience Manager Assets:
+
+      * Resurser
+      * Mappar
+      * Samlingar
+
 * När du har kopplat en posttyp till en annan posttyp eller till en objekttyp från ett annat program finns följande scenarier:
 
    * När du ansluter två posttyper: Ett länkat postfält skapas för den posttyp som du ansluter från. Ett liknande länkat postfält skapas för den posttyp som du ansluter till.
@@ -230,12 +238,14 @@ Tänk på följande:
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Klicka på **+** i tabellvyns övre högra hörn och klicka sedan på **Ny anslutning** -fliken.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. I **Posttyp** väljer du något av följande: <!--is the field name spelled right? lowercase "t"?-->
 
-   * En annan operativ posttyp
-   * En taxonomi
-   * Ett Workfront-projekt, Portfolio, Program, Company eller Group.
+   * En annan operativ posttyp från den arbetsyta du valde
+   * En taxonomi från arbetsytan som du valde
+   * Ett projekt, Portfolio, program, företag eller grupp i avsnittet Workfront objekttyper.
+   * Experience Manager Assets från programdelen Adobe.
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ Tänk på följande:
    * **Tillåt flera poster**: Välj det här alternativet för att ange att du tillåter att användare kan lägga till flera poster när fältet för länkad posttyp visas på de ursprungliga posterna. Detta är markerat som standard.
    * **Välj sökfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Detta är markerat som standard.
 
+1. (Villkorligt och valfritt) Om du valt att ansluta ett Workfront-objekt väljer du en **Eget formulär** från **Länka endast projekt som uppfyller dessa villkor** -avsnitt. <!--this needs to be updated for each object when they fix this UI.--> Det är bara objekt som har de markerade anpassade formulären kopplade som kan länkas till den valda Maestro-posttypen. Du kan markera flera formulär.
+
+   ![](assets/workfront-project-connection-selection.png)
+
+1. (Villkorligt) Om du valt att ansluta till Experience Manager Assets väljer du en databas i dialogrutan **Experience Manager-databas** nedrullningsbar meny i **Länka resurser från följande databas** -avsnitt. Detta är ett obligatoriskt fält. Endast databaser som du har åtkomst till i Experience Manager Assets visas i det här fältet.
+
+   ![](assets/aem-assets-connection-selection.png)
+
 1. Klicka **Skapa**.
 
-1. (Villkorligt) Om du valde inställningen Välj uppslagsfält i föregående steg visas **Lägg till sökfält** öppnas.
+1. (Villkorligt) Om du markerade **Välj sökfält** i föregående steg **Lägg till sökfält** öppnas.
 
    Klicka på **+** ikon för att lägga till fält från **Omarkerade fält** område.
 
@@ -274,6 +292,10 @@ Tänk på följande:
 1. (Valfritt och villkorligt) Om du väljer att länka ett tal, en valuta, en procentandel eller ett datumtypsfält, ska du även välja ett aggregeringsvärde. Värdena för de länkade fälten visas antingen avgränsade med kommatecken eller som ett aggregeringsvärde enligt den aggregator du väljer, när användare markerar mer än en länkad post i det länkade postfältet.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > Aggregatorer är inte tillgängliga när du ansluter posttyper till Experience Manager Assets.
 
    Välj bland följande:
 
