@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,47 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
 
 ## Adobe Workfront-förbättringar
 
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättrad dokumenthantering](#document-management-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Uppdatera ström- och meddelandeförbättringar](#update-stream-and-notification-enhancements)
+
+### Administratörsförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Handläggningsbeslut för korrektur/dokument är nu tillgängliga de senaste 12 månaderna</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Rapporterna om användarbeslut för både nya och gamla licenstyper visar nu antalet beslut för den aktuella månaden samt de föregående 12 månaderna.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 14 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### Förbättrad dokumenthantering
 
@@ -59,7 +97,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterad status för dokumentgodkännanden</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterad status för dokumentgodkännanden</a></p><p>För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -132,7 +170,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Snabbåtgärdsknapparna för Mitt arbete har ändrats så att de bara visas när du för musen över</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att förbättra prestandan visas nu snabbåtgärdsknapparna i widgeten Mitt arbete endast när du håller muspekaren över en arbetsuppgift.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Snabbåtgärdsknapparna för Mitt arbete har ändrats så att de bara visas när du för musen över</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att förbättra prestandan visas nu snabbåtgärdsknapparna i widgeten Mitt arbete endast när du håller muspekaren över en arbetsuppgift.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -215,7 +253,25 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Den nya kommentarsfunktionen hämtar in all information för projekt, uppgifter, ärenden och dokument</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Projekt, uppgifter, ärenden och dokument visar alla uppdateringar i det nya området för kommenteringsupplevelser sedan början av din Workfront-instans.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Dra och släpp en bild i en kommentar i uppdateringsavsnittet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Om du vill förbättra innehållet i dina kommentarer kan du nu snabbt dra och släppa en bild i en kommentar eller svara i uppdateringsavsnittet för ett objekt.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 14 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Den nya kommentarsfunktionen hämtar in all information för projekt, uppgifter, ärenden och dokument</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Projekt, uppgifter, ärenden och dokument visar alla uppdateringar i det nya området för kommenteringsupplevelser sedan början av din Workfront-instans.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -223,14 +279,14 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                                 <p>Förhandsversion: 28 november 2023</p>
                             </li>
                             <li>
-                                <p>Produktion för alla kunder: 28 november 2023</p>
+                                <p><span class="preview">Produktion för alla kunder: 28 november 2023</span></p>
                             </li>
                         </ul>
                     </td>
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Sök efter en kommentar eller användare i uppdateringsavsnittet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Om du snabbt vill hitta information i uppdateringsavsnittet för ett objekt kan du nu söka efter ett nyckelord från en kommentar eller efter en användare som är associerad med en kommentar.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Sök efter en kommentar eller användare i uppdateringsavsnittet</a></p><p>Om du snabbt vill hitta information i uppdateringsavsnittet för ett objekt kan du nu söka efter ett nyckelord från en kommentar eller efter en användare som är associerad med en kommentar.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -248,7 +304,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Kopiera och klistra in en bild i en kommentar i uppdateringsavsnittet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Om du vill ge innehållet i ett meddelande ett sammanhang kan du nu snabbt bifoga bilder till dina kommentarer genom att kopiera dem från datorn och klistra in dem i en ny uppdatering eller ett nytt svar.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Kopiera och klistra in en bild i en kommentar i uppdateringsavsnittet</a></p><p>Om du vill ge innehållet i ett meddelande ett sammanhang kan du nu snabbt bifoga bilder till dina kommentarer genom att kopiera dem från datorn och klistra in dem i en ny uppdatering eller ett nytt svar.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>

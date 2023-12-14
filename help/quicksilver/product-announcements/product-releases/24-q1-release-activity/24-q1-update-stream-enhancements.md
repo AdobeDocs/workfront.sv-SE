@@ -4,9 +4,9 @@ description: Första kvartalet 2024 Uppdateringsström och aviseringsförbättri
 author: Lisa
 feature: Product Announcements
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 7e1bcff7361a76988a319b266c7b885a6b614c15
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Den här sidan beskriver alla uppdateringsströmmar och aviseringsförbättringar som gjorts i den första utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den första utgåvan av kvartal 2024.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Dra och släpp en bild i en kommentar i uppdateringsavsnittet
+
+Om du vill förbättra innehållet i dina kommentarer kan du nu snabbt dra och släppa en bild i en kommentar eller svara i uppdateringsavsnittet för ett objekt.
+
+Du kan bara lägga till bilder som sparas på datorn i följande format: .jpg, .jpeg, .png, .gif.
+
+Den här funktionaliteten fanns i den gamla kommentarströmmen och har nu lagts till i den nya kommentarsfunktionen.
+
+Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Den nya kommentarsfunktionen hämtar in all information för projekt, uppgifter, ärenden och dokument
 
