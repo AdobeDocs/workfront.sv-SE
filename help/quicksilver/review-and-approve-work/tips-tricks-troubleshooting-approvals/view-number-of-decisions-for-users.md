@@ -6,15 +6,17 @@ description: Du kan visa antalet korrektur- och dokumentbeslut som har fattats a
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 
 # Visa antalet korrektur- och dokumentbeslut för alla användare
+
+{{highlighted-preview}}
 
 Du kan visa antalet korrektur- och dokumentbeslut som har fattats av användare i din Workfront-instans.
 
@@ -26,11 +28,17 @@ Du kan visa antalet korrektur- och dokumentbeslut som har fattats av användare 
 
 Så här visar du antalet beslut för en användare:
 
-1. Klicka på **Huvudmeny** i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare**.
+{{step-1-to-users}}
 
 1. Öppna **Vyer** väljer du **Licenser** vy.
+1. Hitta kolumnen **Beslut den här månaden** för att se hur många beslut varje användare har fattat under månaden.
+1. <span class="preview">Öppna **Vyer** område och välj **Historisk användarvy**.</span>
+1. <span class="preview">Hitta kolumnen **Användarhistoriskt beslut** för att se hur många beslut varje användare har fattat under en månad. Data returneras 12 månader från den aktuella månaden.</span>
 
-1. Hitta kolumnen **Beslut den här månaden** för att visa hur många beslut varje användare har fattat under månaden.
+>[!NOTE]
+>
+><span class="preview">Om den historiska användarvyn inte är tillgänglig kan du skapa en ny vy för att visa historiska data. Lägg till **Användarhistoriskt beslut** som en kolumn i vyn. Mer information om hur du lägger till en kolumn i en vy finns i [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).</span>
+
 
 ## Visa beslut i rapportområdet
 
@@ -38,7 +46,12 @@ Så här visar du antalet beslut för en användare:
 >
 >Den här rapporten gäller användare på både nya och gamla åtkomstnivåmodeller.
 
-1. Klicka på **Huvudmeny** i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+{{step1-to-reports}}
+
 1. Klicka **Ny rapport** väljer **Användarbeslut**.
+1. Hitta kolumnen **Beslut den här månaden** för att se hur många beslut varje användare har fattat under månaden.
+
+   <span class="preview">Data returneras 12 månader från den aktuella månaden. The **Månad** och **År** kolumner visar vilken månad besluten togs i. Månad 1 är januari, månad 2 är februari och så vidare.</span>
+
 1. Granska rapporten och redigera den efter behov. Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
