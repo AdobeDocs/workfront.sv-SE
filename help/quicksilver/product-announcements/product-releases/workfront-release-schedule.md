@@ -7,9 +7,9 @@ description: Förhandsvisningsmiljön uppdateras en gång i veckan med nya funkt
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Utgåvor sker vanligtvis i USA runt 8-10 PM Mountain Time.
 
 Adobe Workfront har två modeller för att lansera nya funktioner och uppdateringar. Din organisation kan välja om du vill få nya funktioner kvartalsvis eller snabbare.
 
-Månads- och kvartalsvisa releaser planeras bli tillgängliga den sista torsdagen i månaden. Utgåvor äger vanligtvis rum cirka 8-10 amerikanska Mountain Time kvällen innan.
+Månads- och kvartalsvisa releaser planeras vara tillgängliga torsdagen den andra hela veckan i månaden, om inte annat anges. Information om kommande datum finns i den senaste [Versionsöversikt](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+Utgåvor äger vanligtvis rum cirka 8-10 amerikanska Mountain Time kvällen före utgivningsdatumet.
 
 I nästa version blir funktionerna i Förhandsgranska tillgängliga i produktionsmiljön. I vissa fall görs dock funktionerna tillgängliga i produktionsmiljön utanför en schemalagd release. Dessa ändringar finns kvar i förhandsgranskningen i minst två veckor för att ge dig tillräckligt med tid att bekanta dig med ändringarna. Dessa ändringar kommuniceras också via meddelandecentret när de läggs till i förhandsvisningen.
 
