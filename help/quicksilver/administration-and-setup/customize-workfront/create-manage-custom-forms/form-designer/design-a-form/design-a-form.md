@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
 workflow-type: tm+mt
-source-wordcount: '4918'
+source-wordcount: '4927'
 ht-degree: 0%
 
 ---
@@ -499,6 +499,10 @@ Så här lägger du till typsnittsdatumfält:
 ### Lägg till externa sökfält
 
 Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan.
+
+>[!NOTE]
+>
+>Extern sökfunktion är inte tillgänglig för Document-objekt.
 
 Så här lägger du till en extern sökning:
 
