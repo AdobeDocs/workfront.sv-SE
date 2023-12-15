@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Workfront] dokumentation'
 description: Dokumentation för [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Se [Rapporter och kontrollpaneler](/help/quicksilver/reports-and-dashboards/repo
 
 Om du inte vet hur du skapar den rapport du behöver i Workfront kan du hitta den lösning du söker med textläge.
 
-Se [Resurser för textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+Se [Resurser för textläge: artikelindex](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
 ### Utjämning av arbetsbelastning
 

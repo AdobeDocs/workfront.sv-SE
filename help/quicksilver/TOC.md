@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '13810'
+source-wordcount: '13812'
 ht-degree: 0%
 
 ---
@@ -1634,7 +1634,7 @@ ht-degree: 0%
          * [Visa: användarens personliga ledig tid](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [Diagrama en rapport med ett anpassat fält som har flera val](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
       * Resurser för textläge {#text-mode}
-         * [Resurser för textläge](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+         * [Resurser för textläge: artikelindex](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
          * [Översikt över textläge](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
          * [Översikt över vanliga användningsområden för textläge](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
          * [Översikt över syntaxen i textläge](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)

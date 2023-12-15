@@ -2,20 +2,32 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Exportera data
-description: Lär dig exportera rapportdata
+description: Du kan exportera Adobe Workfront-data från olika listor, rapporter, kontrollpaneler och sökningar.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
+source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2206'
 ht-degree: 0%
 
 ---
 
 # Exportera data
 
+<!-- Audited: 12/2023 -->
+
 Du kan exportera Adobe Workfront-data från olika listor, rapporter, kontrollpaneler och sökningar.
+
+Några av orsakerna till att data exporteras är:
+
+* Du vill skicka en kopia av dina data till någon utanför Workfront.
+* Du vill skicka resultatet av en rapport som en bifogad fil till en extern användare.
+* Du vill skapa en extern säkerhetskopia av dina Workfront-data.
+* Det finns en gräns för att endast visa 2 000 resultat på en sida i Workfront webbprogram. Om din rapport producerar mer än 2 000 kan du exportera rapporten till något av de tillgängliga formaten och visa alla resultat i rapporten i en lista.
+
+Du kan antingen exportera en rapport manuellt från Workfront-gränssnittet eller schemalägga en leverans för en rapport så att rapporten skickas till dig vid ett senare tillfälle. Mer information om schemaläggning av levererade rapporter finns i [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
 Informationen i den här artikeln gäller inte följande exporter:
 
 * Exporterar information från diagramrapporter.
@@ -29,15 +41,6 @@ Informationen i den här artikeln gäller inte följande exporter:
 * Exporterar information från resursplaneraren.
 
   Mer information om hur du exporterar informationen från resursplaneraren finns i &quot;Exportalternativ&quot; i [Översikt över navigering i resursplanering](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
-
-Några av orsakerna till att data exporteras är:
-
-* Du vill skicka en kopia av dina data till någon utanför Workfront.
-* Du vill skicka resultatet av en rapport som en bifogad fil till en extern användare.
-* Du vill skapa en extern säkerhetskopia av dina Workfront-data.
-* Det finns en gräns för att endast visa 2 000 resultat på en sida i Workfront webbprogram. Om din rapport producerar mer än 2 000 kan du exportera rapporten till något av nedanstående format och visa alla resultat i rapporten i en lista.
-
-Du kan antingen exportera en rapport manuellt från Workfront-gränssnittet eller schemalägga en leverans för en rapport så att rapporten skickas till dig vid ett senare tillfälle. Mer information om schemaläggning av levererade rapporter finns i [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Åtkomstkrav
 
@@ -55,7 +58,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td>
+    <p>Nytt: Ljus eller högre</p>
+    <p>eller</p>
+    <p>Aktuell: Granska eller senare</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -63,21 +69,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörighet till en rapport eller kontrollpanel för att exportera rapporten eller kontrollpanelen</p> <p>Visa eller högre behörigheter för de objekt som du visar i en lista för att exportera listan</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörighet till en rapport eller kontrollpanel för att exportera rapporten eller kontrollpanelen</p> <p>Visa eller högre behörigheter för de objekt som du visar i en lista för att exportera listan</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
 Rapporten måste skapas innan du kan exportera dess data.
 
-Mer information om hur du skapar rapporter finns i [Skapa en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) eller [Skapa en kopia av en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Exportformat och -begränsningar
-
-* [Exportformat](#export-formats)
-* [Exportbegränsningar](#export-limits)
 
 ### Exportformat {#export-formats}
 
@@ -105,7 +110,7 @@ Det finns flera begränsningar för hur rapporter visas i Workfront och hur de e
 
    * För Excel .xls-filer är den här gränsen **65 000 rader**.
    * För Excel .xlsx-filer är den här gränsen **100 000 rader**.
-   * Dessa begränsningar utesluter kolumnrubriker samt rader för grupperingar i rapporten. Om du till exempel har 6 grupperingar i en rapport och 50 000 rader eller data, kommer den exporterade filen att ha 50 000 rader.
+   * Dessa begränsningar utesluter kolumnrubriker samt rader för grupperingar i rapporten. Om du t.ex. har 6 grupperingar i en rapport och 50 000 rader data, kommer den exporterade filen att ha 50 000 rader.
 
   >[!IMPORTANT]
   >
@@ -129,11 +134,11 @@ Det finns flera begränsningar för hur rapporter visas i Workfront och hur de e
    * En export via en API-integrering.
    * Data som exporteras med en snabbstart.
 
-     Mer information om hur du exporterar data via direktuppspelning finns i [Exportera data från Adobe Workfront via Quick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+     Mer information om hur du exporterar data via direktuppspelning finns i [Exportera data från Adobe Workfront via Quick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >Du kan exportera 50 000 rader i en snabbstartfil, men du kan bara exportera data till en Excel-formatfil. 
+     >Du kan exportera 50 000 rader i en snabbstartfil, men du kan bara exportera data till en Excel-formatfil.
 
    * Exporterar användningsinformation för ett projekt.
 
@@ -151,9 +156,6 @@ Om du har frågor eller funderingar kring din begränsning kan du kontakta Workf
 
 ## Exportera data
 
-* [Exportera data från en rapport eller lista](#export-data-from-a-report-or-list)
-* [Exportera data från en kontrollpanel](#export-data-from-a-dashboard)
-
 ### Exportera data från en rapport eller lista {#export-data-from-a-report-or-list}
 
 1. Gå till den rapport eller lista som du vill exportera.
@@ -167,14 +169,17 @@ Om du har frågor eller funderingar kring din begränsning kan du kontakta Workf
 
 1. Klicka **Exportera** väljer du sedan ett format.
 
+   <!--
+   This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
-   Om du vill exportera en kontrollpanelsrapport måste du ha en planlicens.\
-   ![](assets/nwe-dashboard-export-note-350x271.png)
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/nwe-dashboard-export-note-350x271.png)
+   -->
 
    eller
 
-   Klicka på **Exportera** icon ![](assets/export-icon-nwe.png)väljer du sedan ett format.
+   Klicka på **Exportera** icon ![Ikonen Exportera](assets/export-icon-nwe.png)väljer du sedan ett format.
 
    Vilka alternativ som är tillgängliga för export till PDF beror på språkinställningarna i användarinställningarna för Workfront:
 
@@ -212,21 +217,18 @@ Mer information om hur du exporterar data från en kontrollpanel finns i [Export
 
 Oavsett om du exporterar en lista med objekt eller en rapport kommer den exporterade filen att ha ett filnamn och en titel. Du kan hitta den exporterade filen på datorn genom att referera till filnamnet. Rapportens titel ger användarna en indikation på vad den exporterade filen representerar när du delar den med dem.
 
-* [Filnamn för exporterade listor](#file-names-for-exported-lists)
-* [Filnamn för exporterade rapporter](#file-names-for-exported-reports)
-
 #### Filnamn för exporterade listor {#file-names-for-exported-lists}
 
 När du exporterar en lista med objekt visas objekttypen i den exporterade filen i filnamnet och i titeln på listan.
 
 När du exporterar en lista med uppgifter eller problem visas **Filnamn** kan vara något av följande:
 
-* När du exporterar uppgiftslistor och utleveranslistor i ett projekt:
+* När du exporterar uppgiftslistor och utgivningslistor i ett projekt:
 
    * *The_project_name_Exported_Tasks*(*i PDF, Excel, Excel (.xlsx) eller tabbavgränsade format)*
    * *The_project_name_Exported_Issues*(*i PDF, Excel, Excel (.xlsx) eller tabbavgränsade format)*
 
-* När du exporterar uppgiftslistor och utleveranslistor i en uppgift (underaktiviteter):
+* När du exporterar uppgifter och utgivningslistor i en uppgift (underuppgifter):
 
    * **The_project_name_the_task_name_Exported_Tasks**(*i PDF, Excel, Excel (.xlsx) eller tabbavgränsade format)*
    * **The_project_name_the_task_name_Exported_Issues**(*i PDF, Excel, Excel (.xlsx) eller tabbavgränsade format)*
@@ -245,19 +247,16 @@ När du exporterar en rapport blir den exporterade rapportens filnamn:
 
 ### Titlar {#titles}
 
-När du exporterar en lista med objekt kommer bara filen i PDF-format att ha en rubrik. Om du exporterar en lista eller en rapport till Excel, Excel (.xlsx) eller tabbavgränsade format har filen ingen rubrik.
-
-* [Titlar för exporterade listor](#titles-for-exported-lists)
-* [Titlar för exporterade rapporter](#titles-for-exported-reports)
+När du exporterar en lista med objekt kommer bara filen i PDF-format att ha en rubrik. Om du exporterar en lista eller en rapport till Excel, Excel (.xlsx) eller tabbavgränsad format har filen ingen rubrik.
 
 #### Titlar för exporterade listor {#titles-for-exported-lists}
 
-När du exporterar en uppgiftslista och en utskickslista i ett projekt till en PDF-fil är det exporterade dokumentets titel något av följande:
+När du exporterar uppgiftslistor och utleveranslistor i ett projekt till en PDF-fil är det exporterade dokumentets titel något av följande:
 
 * *Projektnamn - Exporterade uppgifter*
 * *Projektnamn - Exporterade problem*
 
-När du exporterar uppgiftslistor och problemlistor i en Task-fil till en PDF-fil är rutan i det exporterade dokumentet något av följande:
+När du exporterar uppgiftslistor och utleveranslistor i en uppgift till en PDF-fil är rutan i det exporterade dokumentet något av följande:
 
 * *Projektnamn - Aktivitetsnamn - Exporterade uppgifter*
 * *Projektnamn - Aktivitetsnamn - Exporterade problem*
@@ -272,7 +271,7 @@ Titeln kan till exempel vara:
 
 En rapport som exporteras till en PDF-fil får en rubrik.
 
-Om rapporten exporteras till Excel, Excel (.xlsx) eller tabbavgränsade format har den exporterade rapporten ingen rubrik. Den exporterade filens namn är rapportens namn så som det visas i Workfront webbprogram.
+Om rapporten exporteras till Excel, Excel (.xlsx) eller tabbavgränsad format har den exporterade rapporten ingen rubrik. Den exporterade filens namn är rapportens namn så som det visas i Workfront webbprogram.
 
 Om rapporten innehåller en beskrivning inkluderas den i den exporterade filen.
 
@@ -297,11 +296,11 @@ När du exporterar ett projekt till .pdf visas alla underaktiviteter som indragn
 
 Du får alltid standardfliken för en rapport när en rapport skickas eller schemaläggs för en leverans, såvida inte rapporten har en särskild vy.
 
-Om rapporten har särskild formatering i webbprogrammet bör den levereras med den speciella formateringen när flikarna Detaljer och Matris visas endast för PDF- och Excel-filer.
+Om rapporten har särskild formatering i webbprogrammet bör den levereras med specialformateringen när flikarna Detaljer och Matris visas, endast för PDF- och Excel-filer.
 
 >[!NOTE]
 >
-Om de data du exporterar innehåller delade kolumner och du exporterar till ett Excel- eller tabbavgränsat format, separeras dessa kolumner i den exporterade filen.
+>Om de data du exporterar innehåller delade kolumner och du exporterar till ett Excel- eller tabbavgränsat format, separeras dessa kolumner i den exporterade filen.
 
 Mer information om hur du anpassar formatering i en rapport finns i [Använd villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -311,18 +310,22 @@ Länkarna kan peka på alla objekt i Workfront som stöder länkning. När du ex
 
 >[!TIP]
 >
-Om raden `valueformat=HTML` visas i textläge för en anpassad fältkolumn och länkvärdena inte visas i en exporterad PDF-fil, du måste ange ytterligare kodrader i kolumnen i textläge.
+>Om raden `valueformat=HTML` visas i textläge för en anpassad fältkolumn och länkvärdena inte visas i en exporterad PDF-fil, du måste ange ytterligare kodrader i kolumnen i textläge.
 >
-Om du t.ex. har ett anpassat fält med namnet Open Q1 Projects som innehåller länkar lägger du till följande kod:
+>Om du t.ex. har ett anpassat fält med namnet Open Q1 Projects som innehåller länkar lägger du till följande kod:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+>`link.url=customDataLabelsAsString(Open Q1 Projects)`
+>`linkedname=direct`
 
 När du exporterar till ett Excel-format inkluderas bara länkar till objekt i den exporterade filen, och de stöds bara på platser där du kan välja att tillåta länkar i exporterade Excel-dokument, t.ex. rapportleveranser.
 
 ## Varumärke {#branding}
+
+>[!IMPORTANT]
+>
+>Varumärkesprofileringen gäller endast för organisationer som ännu inte anslutit sig till Adobe Experience Cloud.
+>
+>Om er organisation har anslutit sig till Adobe Experience Cloud är er varumärkning inte tillgänglig.
 
 Om din Workfront-administratör har lagt till anpassad profilering i din Workfront-instans för Global Navigation Bar, innehåller de exporterade PDF-filerna även din anpassade logotyp.
 
