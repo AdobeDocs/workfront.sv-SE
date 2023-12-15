@@ -1,21 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Översikt över integreringar i Adobe Experience Manager Assets
-description: Tack vare integreringen mellan Workfront och Experience Manager Assets eller Assets Essentials kan företag förbättra innehållets hastighet och time-to-market genom att knyta ihop material och hantering av digitala resurser.
+title: Översikt över Adobe Experience Manager Assets integreringar
+description: Tack vare integreringen mellan Workfront och Experience Manager Assets eller Assets Essentials kan företag förbättra innehållets hastighet och time-to-market genom att knyta ihop arbete och hantering av digitala resurser.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 059cfa79c57f071b3c7efd690b583099f46c99fb
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
-# Översikt över integreringar i Adobe Experience Manager Assets
+# Översikt över Adobe Experience Manager Assets integreringar
 
-Tack vare integreringen mellan Workfront och Experience Manager Assets eller Assets Essentials kan företag förbättra innehållets hastighet och time-to-market genom att knyta ihop material och hantering av digitala resurser.
+<!-- Audited: 12/2023 -->
+
+Integrationen mellan Workfront och Experience Manager Assets eller Assets Essentials hjälper organisationer att förbättra innehållets hastighet och time-to-market genom att knyta samman arbete och hantering av digitala resurser.
 
 >[!IMPORTANT]
 >
@@ -29,7 +31,7 @@ Tack vare integreringen med Experience Manager kan du
 * Skapa automatiskt mappar som är länkade mellan Workfront och Experience Manager
 * Synkronisera enkelt metadata för befintliga länkade resurser
 * Uppdatera automatiskt metadata för portfolior, program, projekt, uppgifter, utgåvor och dokument när de ändras i Workfront
-* Koppla smidigt ihop flera Experience Manager Assets-arkiv med en Workfront-miljö, eller flera Workfront-miljöer, till en Experience Manager Assets-databas över olika företags-ID:n.
+* Koppla smidigt samman flera Experience Manager Assets-arkiv med en Workfront-miljö eller flera Workfront-miljöer till en Experience Manager Assets-databas över olika företags-ID:n
 
 
 ## Förutsättningar
@@ -51,4 +53,4 @@ Tack vare integreringen med Experience Manager kan du
    1. [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 eller
    1. [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. Använd integreringen: Skicka material, skapa länkade mappar, mappa metadata och mycket mer. Se [Adobe Workfront för Experience Manager Assets och Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) för mer information.
+1. Använd integreringen: Skicka resurser, skapa länkade mappar, mappa metadata och mycket mer. Se [Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) för mer information.

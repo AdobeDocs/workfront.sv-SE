@@ -7,14 +7,16 @@ description: Med Resurshantering kan du konfigurera ditt system så att användn
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Kom igång med resurshantering
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront har flera verktyg som används för att hantera resurser. Varje verkty
 
    * **Resursplaneraren**: Du kan använda resursplaneraren i den första fasen av resurshanteringen för att budgetera projekttiden för dina resurser utifrån deras schemalagda tillgänglighet. Under planeringen av resursfasen kan du ordna användare i resurspooler och tilldela flera resurspooler till ett projekt.
 
-     Mer information om resursplanering finns i avsnittet [Resursplanering i Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Mer information om resursplanering finns i [Resursplanering i Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Scenarioplanen**: Detta är en planering av resurser på en högre nivå som gör att du kan hantera dem i flera olika initiativ som kan omfatta en, tre eller fem års plan och innehålla flera projekt. Du kan använda det bästa scenariot för att få ut så mycket som möjligt av deras tillgänglighet och budget.
 
@@ -48,7 +50,7 @@ Workfront har flera verktyg som används för att hantera resurser. Varje verkty
 
    * **Utjämning av arbetsbelastning**: Detta hör till en resurshanteringsfas på lägre nivå, där du kan tilldela resurser till det verkliga arbetet (uppgifter och ärenden) som de måste utföra, baserat på hur många timmar som behövs för att slutföra dem och deras tillgänglighet. Med Utjämning av arbetsbelastning kan du tilldela användare till verkligt arbete som för närvarande inte är tilldelat eller tilldelat till jobbroller.
 
-     Mer information om Workfront Balancer finns i avsnittet [Utjämning av arbetsbelastning: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Mer information om Workfront Balancer finns i [Utjämning av arbetsbelastning: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Du måste uppfylla en uppsättning krav innan du kan använda resurshanteringsve
 
 Mer information om kraven för varje resurshanteringsverktyg i Workfront finns i:
 
-* Avsnittet Krav för att arbeta i resursplaneraren i artikeln [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Avsnittet [Krav för att arbeta i resursplaneraren](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) i artikeln [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* Avsnittet&quot;Bästa tillvägagångssätt för att använda belastningsutjämnaren&quot; i artikeln [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Avsnittet [Bästa tillvägagångssätt för att använda belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) i artikeln [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Tillgång till budgetresurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

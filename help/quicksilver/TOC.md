@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3361cf540b5a32cb4621b550b17253675ef43222
+source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
 workflow-type: tm+mt
-source-wordcount: '13793'
+source-wordcount: '13796'
 ht-degree: 0%
 
 ---
@@ -451,8 +451,8 @@ ht-degree: 0%
          * [Förhandsgranska sandlådemiljö](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Anpassad miljö för uppdatering av sandlådan](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
          * [Flytta objekt från ett objekt [!DNL Workfront] miljö till annan](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-   * Lägg till användare {#add-users}
-      * [Lägg till användare i Workfront](administration-and-setup/add-users/add-users.md)
+   * Användarhantering {#add-users}
+      * [Användarhantering: artikelindex](administration-and-setup/add-users/add-users.md)
       * Skapa och hantera användare {#create-manage-users}
          * [Hantera användare](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Lägg till användare](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -1111,8 +1111,8 @@ ht-degree: 0%
          * [Korrektur för en länkad resurs med den utökade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [Visa eller hämta en länkad resurs med den förbättrade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Adobe Workfront för Experience Manager Assets och Assets Essentials {#wf-aem-essentials}
-         * [Adobe Workfront för Experience Manager Assets och Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-         * [Översikt över integreringar i Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+         * [Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+         * [Översikt över Adobe Experience Manager Assets integreringar](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Länka resurser och mappar från Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Visa mappade metadata för Experience Manager Assets eller Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [Visa eller hämta en länkad resurs från Experience Manager Assets eller Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)

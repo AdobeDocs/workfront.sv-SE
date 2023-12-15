@@ -6,22 +6,25 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
 
 # Översikt över delningsbehörigheter för objekt
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redundancy here with the article Permissions for shared objects?</p>
 -->
+När du delar ett objekt med någon i systemet kan du ge mottagaren någon av följande behörigheter: visa, bidra och hantera.
 
-Du behöver inte vara Adobe Workfront-administratör för att dela behörigheter för objekt som du har åtkomst till, men behörigheter för objekt fungerar inom de åtkomstnivåer som anges av Workfront-administratören.
+Du behöver inte vara Adobe Workfront-administratör för att dela behörigheter för objekt som du har åtkomst till, men dina behörigheter för objekt fungerar inom de åtkomstnivåer som anges av Workfront-administratören.
 
-Du kan dela eller ta bort behörigheter till ett objekt som du har skapat eller ett objekt som delats med dig. När du inte är den som har skapat objektet måste du ha delningsåtkomst för det objekt som du vill dela på åtkomstnivån, förutom att du måste ha delningsbehörighet för objektet. Mer information om åtkomstnivåer finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) eller [Översikt över åtkomstnivåer](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Du kan dela eller ta bort behörigheter till ett objekt som du har skapat eller ett objekt som delats med dig. När du inte är den som har skapat objektet måste du ha delningsåtkomst för objektet som du vill dela på åtkomstnivån, förutom att du måste ha delningsbehörighet för objektet. Mer information om åtkomstnivåer finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) eller [Översikt över åtkomstnivåer](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -47,7 +50,7 @@ Du kan dela följande objekt i Workfront med andra användare:
 
 * **Dokumentmappar**: Mer information finns i [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-* **Korrektur**: Mer information finns i [Dela ett korrektur i Workfront Proof](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+* **Korrektur**: Mer information finns i [Dela ett korrektur i Workfront](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 * **Rapporter, kontrollpaneler och kalendrar**: Mer information finns i [Dela rapporter, kontrollpaneler och kalendrar](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). Se även följande artiklar:
 
@@ -55,64 +58,64 @@ Du kan dela följande objekt i Workfront med andra användare:
    * [Dela en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Dela en kalenderrapport](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filter, vyer och grupperingar**: Mer information finns i [Dela ett filter, en vy eller en gruppering](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **Filter, vyer och grupperingar**: Mer information finns i [Dela ett filter, en vy eller en grupp](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 * **Planer**: Mer information finns i [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md).
 
-   Detta kräver ytterligare en licens.
+  Detta kräver ytterligare en licens.
 
 * **Mål**: Mer information finns i [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
-   Detta kräver ytterligare en licens.
+  Detta kräver ytterligare en licens.
 
 ## Att tänka på när du delar objekt
 
 * Du kan bara dela samma nivå eller en lägre behörighetsnivå som du har på objektet.
 
-   Om du till exempel har Contribute-behörighet för objektet kan du inte ge en annan användare behörigheten Hantera för det objektet.
+  Om du till exempel har Contribute-behörighet för objektet kan du inte ge en annan användare behörigheten Hantera för det objektet.
 
-* Du kan inte dela ett objekt med en behörighetsnivå som är högre än en användares åtkomstnivå. Om en användare till exempel har behörigheten Visa för projekt på åtkomstnivån kan du inte ge dem behörigheten Hantera för ett projekt.
+* Du kan inte dela ett objekt med en behörighetsnivå som är högre än en användares åtkomstnivå.
+
+  Om en användare till exempel har behörigheten Visa för projekt på åtkomstnivån kan du inte ge dem behörigheten Hantera för ett projekt.
 * En användare med behörighet att åtminstone visa ett objekt kan dela objektet med någon annan.
 * Du kan dela objekt med aktiva användare, jobbroller, team, grupper eller företag.
 
-   >[!NOTE]
-   >
-   >Du kan bara dela en plan eller ett mål med andra aktiva användare. Detta kräver ytterligare licenser.
-   >
-   >
-   >Mer information finns i:
-   >
-   >* [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md)
-   >* [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
-
+  >[!NOTE]
+  >
+  >Du kan bara dela en plan eller ett mål med andra aktiva användare. Detta kräver ytterligare licenser.
+  >
+  >
+  >Mer information finns i:
+  >
+  >* [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md)
+  >* [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 ## Delningsbegränsningar
 
-Du kan dela ett objekt med upp till 100 enheter (användare, team, grupper, jobbroller, företag). Vi rekommenderar att du delar objekt med grupper, team eller företag i stället för med enskilda användare, för att undvika den här begränsningen.
+Du kan dela ett objekt med upp till 100 enheter (användare, team, grupper, jobbroller, företag). Vi rekommenderar att du delar objekt med grupper, team eller företag i stället för med enskilda användare för att undvika den här begränsningen.
 
 ## Dela behörigheter för objekt
 
-Följande tabell visar vilken behörighetsnivå du kan välja när du delar ett objekt. Alla objekt har inte alla dessa inställningar tillgängliga. Du kan ge en annan entitet behörighet att visa eller hantera ett objekt. Om du delar ett projekt, en uppgift eller ett problem kan du även ge Contribute behörighet.
+Följande tabell visar behörighetsnivån som du kan välja när du delar ett objekt. Alla objekt har inte alla dessa inställningar tillgängliga. Du kan ge en annan entitet behörighet att visa eller hantera ett objekt. Om du delar ett projekt, en uppgift eller ett problem kan du även ge Contribute behörighet.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Visa</td> 
+   <td role="rowheader"><strong>Visa</strong></td> 
    <td> <p>Du kan utföra följande åtgärder på objektet:</p> 
     <ul> 
-     <li>Visa objektet</li> 
-     <li>Lägga till dokument i objektet</li> 
-     <li>Visa ekonomisk information om objektet</li> 
+     <li><p>Visa objektet</p></li> 
+     <li><p>Lägga till dokument i objektet</p></li> 
+     <li><p>Visa ekonomisk information om objektet</p></li> 
      <li> <p>Dela objektet<br></p> <p>När du delar objektet kan du ge andra användare samma behörighetsnivå som du bara har på objektet, inte en högre nivå.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribute</td> 
+   <td role="rowheader"><strong>Contribute</strong></td> 
    <td> <p>Du kan utföra följande åtgärder på objektet:</p> 
     <ul> 
-     <li>Se det</li> 
      <li>Alla åtgärder som ingår i behörigheten Visa.</li> 
      <li>Lägg till utgifter i den</li> 
      <li>Lägg till problem i den (om det är en uppgift eller ett projekt)</li> 
@@ -123,30 +126,26 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar ett 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Hantera</td> 
+   <td role="rowheader"><strong>Hantera</strong></td> 
    <td> <p>Du kan utföra följande åtgärder på objektet:</p> 
     <ul> 
-     <li>Se det</li> 
      <li>Alla åtgärder som ingår i behörigheterna Visa och Contribute</li> 
      <li>Ta bort den</li> 
      <li>Hantera finansiell information i den</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Gör detta offentligt för externa användare</td> 
+   <td role="rowheader"><strong>Gör detta offentligt för externa användare</strong></td> 
    <td> <p>Alla som saknar ett Workfront-konto kan visa objektet genom att klicka på en länk till det. Detta är inte tillgängligt för alla objekt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Gör detta synligt för hela systemet</td> 
+   <td role="rowheader"><strong>Gör detta synligt för hela systemet</strong></td> 
    <td> <p>Objektet kan hittas i sökningar och visas av alla som har ett Workfront-konto.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Förstå ärvda behörigheter och objekthierarkin
-
-* [Behörigheter som ärvts från överordnade objekt](#permissions-inherited-from-parent-objects)
-* [Tillstånd som förvärvats via organisationsmedlemskap](#permissions-acquired-through-organizational-memberships) 
 
 ### Behörigheter som ärvts från överordnade objekt {#permissions-inherited-from-parent-objects}
 
@@ -156,7 +155,7 @@ Om du till exempel ger en användare Contribute-behörighet till ett projekt, ha
 
 Om du fortsätter med exemplet ovan kan du inte begränsa behörigheter till underordnade objekt. Om du inte vill att användaren ska ha Contribute-behörigheter för underordnade objekt som är kopplade till projektet, måste du ta bort ärvda behörigheter från objekten manuellt och sedan justera behörigheterna för den enskilda användaren, inklusive eventuella avancerade inställningar. 
 
-Mer information om hierarkin och det inbördes beroendet för objekt i Workfront finns i avsnittet [Objektens inbördes beroende och hierarki](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om hierarkin och det inbördes beroendet för objekt i Workfront finns i avsnittet [Objektens inbördes beroende och hierarki](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) i artikeln [Adobe Workfront-objekt - översikt](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
