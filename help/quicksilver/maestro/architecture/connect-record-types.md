@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,10 @@ Du kan använda Adobe Maestro för att utforma anpassningsbara arbetsytor som in
 
 Du kan ansluta följande:
 
-* Posttyper för operationsmaestro
-* Posttyper för maestro-operationer till taxonomiposttyper
-* Magnettaxonomityper till driftsposttyper
-* Posttyper och objekttyper från andra program.
+* Posttyper i maestro operativt
+* Maestro taxonomier mot varandra
+* Posttyper och taxonomier för Maestro operativt
+* Posttyper och taxonomier med objekttyper från andra program.
 
 På så sätt kan du visa fält från den länkade posten eller objekttypen på en annan Maestro-post.
 
@@ -75,7 +75,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <p> Adobe product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Om du vill ansluta Maestro-posttyper till Experience Manager Assets måste du ha en Adobe Experience Manager Assets</p>
+   <p><b>ANMÄRKNING</b></p>
+   <p>Om du vill ansluta Maestro-posttyper till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console. </p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
@@ -123,7 +124,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -185,11 +186,7 @@ Tänk på följande:
    * Två driftsposttyper
    * Två taxonomier
    * En driftsposttyp och en taxonomi
-   * En operativ posttyp och en objekttyp från ett annat program.
-
-     >[!TIP]
-     >
-     >    Du kan inte ansluta en taxonomiposttyp till en operativ posttyp eller till en objekttyp från ett annat program.
+   * En operativ posttyp eller en taxonomi och en objekttyp från ett annat program.
 
 * Du kan koppla följande objekt från följande program till posttyper i Maestro:
 
@@ -203,36 +200,44 @@ Tänk på följande:
 
    * Adobe Experience Manager Assets:
 
-      * Resurser
+      * Bilder
       * Mappar
-      * Samlingar
+
+     >[!IMPORTANT]
+     >
+     >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Maestro-poster till Adobe Experience Manager Assets.
+     >
+     >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * När du har kopplat en posttyp till en annan posttyp eller till en objekttyp från ett annat program finns följande scenarier:
 
-   * När du ansluter två posttyper: Ett länkat postfält skapas för den posttyp som du ansluter från. Ett liknande länkat postfält skapas för den posttyp som du ansluter till.
+   * **När du ansluter två posttyper**: Ett länkat postfält skapas för den posttyp som du ansluter från. Ett liknande länkat postfält skapas för den posttyp som du ansluter till.
 
      Om du till exempel ansluter posttypen&quot;Campaign&quot; till posttypen&quot;Product&quot; skapas ett länkat postfält som du kallar&quot;Linked Product&quot; för posttypen Campaign, och en länkad posttyp som automatiskt kallas&quot;Campaign&quot; skapas för posttypen Produkt.
 
-   * När du kopplar ett posttypsfält till en taxonomi: Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas i den taxonomi som du ansluter till.
+   * **När du ansluter en posttyp med en objekttyp från ett annat program**: Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i tredjepartsprogramobjektet.
 
-     Om du till exempel kopplar posttypen&quot;Campaign&quot; till posttypen&quot;Audience&quot; skapas ett länkat postfält som du kallar&quot;Linked Audience&quot; i posttypen Campaign. Inget länkat postfält som automatiskt heter Campaign skapas i posttypen Audience taxonomy. <!--this might be temporary-->
-
-   * När du ansluter ett posttypsfält med en objekttyp från ett annat program skapas ett länkat postfält för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i Workfront-projektet i Workfront. Ett länkat postfält skapas endast i objekttypen i Workfront när de faktiska objekten är kopplade till Maestro-posterna.
+     En ny Maestro-posttyp skapas för tredjepartsprogramobjektet endast när faktiska objekt är kopplade till Maestro-posterna.
 
      Mer information finns i [Koppla poster](../records/connect-records.md).
 
-* När du har anslutit posttyperna kan du koppla flera fält från en posttyp till en annan posttyp. Dessa fält kommer att refereras som&quot;länkade fält&quot; eller&quot;sökfält&quot;.
+   * **När du lägger till uppslagsfält från posten eller objektet som du ansluter till**: Länkade fält läggs till i den post som du ansluter från som visar de uppslagsfält som du har valt att hämta från den länkade posten till de poster som du länkar från. Postfälten är alltid skrivskyddade och fylls i automatiskt med värden för tredjepartsobjektet.
+
+     Om du till exempel kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och du väljer att överföra fältet Planerat slutförandedatum för projektet till Maestro-posten, skapas ett länkat fält med namnet Planerat slutförandedatum (från projekt) automatiskt för den post du länkar från.
+
 * Länkade postfält föregås av en relationsikon ![](assets/relationship-field-icon.png).
+
+  Länkade fält föregås av en ikon som anger fälttypen. Till exempel ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
+
 * När du har skapat enskilda poster för en posttyp kan du välja de poster som du ansluter till från det länkade posttypsfältet. Mer information finns i [Koppla poster](../records/connect-records.md).
-* Du kan inte redigera informationen i de länkade fälten från den posttyp som du länkar från, eftersom de automatiskt fylls i från den ursprungliga posttypen som de tillhör så fort du markerar de länkade posterna.
 
 ## Koppla posttyper
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/dots-main-menu.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-   Den senast använda arbetsytan bör öppnas som standard.
+Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill koppla posttyper från.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
@@ -242,16 +247,19 @@ Tänk på följande:
 
 1. I **Posttyp** väljer du något av följande: <!--is the field name spelled right? lowercase "t"?-->
 
-   * En annan operativ posttyp från den arbetsyta du valde
-   * En taxonomi från arbetsytan som du valde
-   * Ett projekt, Portfolio, program, företag eller grupp i avsnittet Workfront objekttyper.
-   * Experience Manager Assets från programdelen Adobe.
+   * En annan operativ posttyp eller en taxonomi från arbetsytan som du valde
+
+     >[!TIP]
+     >
+     >Det är bara posttyper och taxonomier från den arbetsyta som du har valt som är tillgängliga att ansluta till.
+     > 
+     >Om du inte har andra posttyper på den valda arbetsytan visas inte arbetsytans namn.
+
+   * A **Projekt, Portfolio, Program, Företag**, eller **Grupp** från **Workfront-objekttyper** -avsnitt.
+   * **Experience Manager Assets** från **Adobe-program** -avsnitt.
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
-   >[!TIP]
-   >
-   > Det går bara att välja posttyper och taxonomier från den valda arbetsytan.
 
 1. Uppdatera följande information:
 
@@ -275,7 +283,7 @@ Tänk på följande:
 
 1. Klicka **Skapa**.
 
-1. (Villkorligt) Om du markerade **Välj sökfält** i föregående steg **Lägg till sökfält** öppnas.
+1. (Villkorligt) Om du markerade **Välj sökfält** inställning, **Lägg till sökfält** öppnas.
 
    Klicka på **+** ikon för att lägga till fält från **Omarkerade fält** område.
 
@@ -285,9 +293,8 @@ Tänk på följande:
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
-   >[!NOTE]
-   >
-   >Om du inte markerar något av fälten visas **Namn** av den länkade posten är det enda synliga fältet i den ursprungliga postens tabellvy. The **Namn** kan inte tas bort.
+
+1. (Valfritt) Klicka på **Hoppa över** och lägg inte till några fält från den länkade posten eller objektet. The **Namn** av den länkade posten är det enda synliga fältet i den ursprungliga postens tabellvy.
 
 1. (Valfritt och villkorligt) Om du väljer att länka ett tal, en valuta, en procentandel eller ett datumtypsfält, ska du även välja ett aggregeringsvärde. Värdena för de länkade fälten visas antingen avgränsade med kommatecken eller som ett aggregeringsvärde enligt den aggregator du väljer, när användare markerar mer än en länkad post i det länkade postfältet.
 
@@ -318,19 +325,17 @@ Tänk på följande:
 
 1. (Valfritt) Använd **sök** icon ![](assets/search-icon.png) om du vill söka efter ett fält.
 
-1. (Valfritt) Klicka på **Hoppa över** om du inte vill lägga till några fält från den anslutna posttypen.
-
 1. Klicka **Lägg till fält** för att spara ändringarna.
 
    Följande objekt läggs till:
 
-   * Det länkade postfält som visar posterna från den länkade posttypen efter att du har lagt till dem manuellt. Namnet på det länkade postfältet är det namn du valde i steg 6. <!-- ensure this is still accurate-->
+   * Det länkade postfältet som visar posterna från den länkade posttypen efter att du har lagt till dem manuellt. Namnet på det länkade postfältet är det namn du valde i steg 5. <!--accurate-->
 
-   * Det eller de länkade fält som visar information från fälten av den länkade posttypen efter att du manuellt har lagt till posterna i det länkade postfältet. De länkade fälten skapas endast när **Välj sökfält** inställningen är markerad när anslutningen skapas. De länkade fälten namnges enligt det här mönstret:
+   * Det eller de länkade fält som visar information från fälten för den länkade posttypen efter att du manuellt har lagt till posterna i det länkade postfältet. De länkade fälten skapas endast när **Välj sökfält** inställningen är markerad när anslutningen skapas. De länkade fälten namnges enligt det här mönstret:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-   * Ett länkat postfält på den posttyp som du länkar till. Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
+   * När du länkar Maestro-posttyper till varandra läggs ett länkat postfält till i den posttyp som du länkar till . Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
 
      Om du t.ex. länkar posttypen &quot;Produkt&quot; från posttypen &quot;Kampanj&quot; och namnger det anslutna fältet för Campaign &quot;Länkad produkt&quot;, skapas ett &quot;Kampanjlänkat&quot; postfält för posttypen Produkt.
 
@@ -341,7 +346,14 @@ Tänk på följande:
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   Följ instruktionerna i steg 7-12 ovan för att lägga till eller ta bort uppslagsfält. <!--ensure these step numbers stay accurate-->
+   Följ instruktionerna i steg 9-13 ovan för att lägga till eller ta bort uppslagsfält. <!--ensure these step numbers stay accurate-->
+
+   >[!NOTE]
+   >
+   > Du kan inte lägga till sökfälten för den post som du länkar från till den länkade posttypen som anger ett objekt i ett tredjepartsprogram.
+   >
+   > Du kan till exempel inte lägga till sökfältet för ett Campaign-maestro-objekt från det länkade fältet Campaign som visas i posttypen Maestro-projekt när du länkar till Workfront-projekt.
+
 
 1. (Valfritt) Klicka på nedåtpilen i huvudet på det länkade postfältet från den posttyp som du länkar från och klicka sedan på **Ta bort**.
 

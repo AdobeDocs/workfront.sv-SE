@@ -6,7 +6,7 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Kom igång med nya startsidan
+
+<!--Audited: 12/2023-->
 
 Den nya Home-upplevelsen i Adobe Workfront syftar till att förbättra den aktuella Home-upplevelsen samtidigt som du får ett flexiblare sätt att fokusera på rätt arbete.
 

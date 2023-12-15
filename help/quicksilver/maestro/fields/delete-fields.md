@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ Du kan ta bort fält i Maestro som inte längre är relevanta.
 
 ## Att tänka på när du tar bort Maestro-fält:
 
+* Du kan bara ta bort ett fält i posttyptabellvyn.
 * Du kan ta bort fält som du har skapat eller fält som har skapats av andra användare eller av systemet. <!--this will change with access levels/ permissions-->
-* Du kan inte ta bort namnfältet för en post. <!--change this to say you can't delete the field selected to be the primary-->
-* Du kan bara ta bort ett fält i posttyptabellen.
+* Du kan inte ta bort det primära fältet för en post.
 * All information som lagras i fältet tas bort och kan inte återställas.
 * När du tar bort ett länkat postfält tas även alla länkade sökfält bort från den posttyp du länkar från. De länkade postfälten för de posttyper som du länkar till tas inte bort.
 

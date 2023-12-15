@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -140,13 +140,13 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
      >[!TIP]
      >
-     >* Fältet Namn är alltid det första fältet i tabellvyn.
+     >* Fältet Namn är som standard alltid det första fältet i tabellvyn. Detta betraktas som ett primärt fält.
      >
-     >* Du kan inte flytta fältet Namn till en annan position.
+     >* Du kan inte flytta fältet Namn till en annan plats om du inte anger ett annat fält som primärt fält. Mer information finns i steg 4. <!--accurate?-->
      >
-     >* Du kan inte dölja fältet Namn.
+     >* Du kan inte dölja eller ta bort ett primärt fält.
      >
-     >* Fältet Namn är fryst och ingår inte i den vågräta rullningen.
+     >* Det primära fältet är fryst och ingår inte i den vågräta rullningen.
 
    * Ersätt fältet i den första kolumnen med ett annat fält genom att ändra det primära fältet. Mer information finns i steg 4. <!--accurate?-->
 
@@ -197,11 +197,13 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på **sök** icon ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med valfritt fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras med blått.
+   1. Klicka på **sök** icon ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med valfritt fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
 
       Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
 
       Du kan inte använda nyckelord som är kopplade till fält som är dolda i tabellvyn.
+
+      När du trycker på Retur på tangentbordet flyttas du till nästa fält som hittas.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 

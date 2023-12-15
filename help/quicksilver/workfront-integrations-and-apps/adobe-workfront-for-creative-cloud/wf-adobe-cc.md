@@ -8,15 +8,17 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
 
 # [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] Appar
+
+<!--Audited: 12/2023-->
 
 Du kan använda [!DNL Adobe Workfront] for [!DNL Creative Cloud] plugin till
 

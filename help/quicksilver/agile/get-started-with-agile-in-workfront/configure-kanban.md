@@ -6,7 +6,7 @@ description: Du skapar ett kanban- eller Scrum-team i [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 0%
@@ -32,6 +32,8 @@ I den här artikeln beskrivs hur du konfigurerar inställningarna för ett Kanba
 Mer information om hur du konfigurerar ett Scrum-team finns i [Konfigurera Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Åtkomstkrav
+
+<!--Audited: 12/2023-->
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 

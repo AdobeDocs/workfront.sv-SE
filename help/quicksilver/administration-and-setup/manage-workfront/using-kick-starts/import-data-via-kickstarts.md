@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Importera data till Adobe Workfront med en snabbstartsmall
+
+<!--Audited: 12/2023-->
 
 Quick-Starts är Excel-arbetsböcker som är särskilt formaterade och som du kan fylla med data som du vill importera till Workfront. Adobe Workfront har en snabbstartsmall som du kan använda för att göra detta, vilket förklaras i [Spark-Startar dataimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 

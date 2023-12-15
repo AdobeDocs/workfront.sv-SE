@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ Observera följande med den här förbättringen:
 Mer information finns i [Hantera tabellvy](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### Koppla ihop Maestro-poster med Adobe Experience Manager (AEM) resurser
+### Koppla ihop Maestro-poster med Adobe Experience Manager Assets
 
 Förhandsversion: 14 december 2023
 
 Produktionsrelease: 15 december 2023
 
-Nu kan du upprätta en anslutning mellan posttyperna Maestro och Adobe Experience Manager-resurser.
+>[!IMPORTANT]
+>
+>Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Maestro-poster till Adobe Experience Manager Assets.
+>
+>Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+Nu kan du upprätta en anslutning mellan posttyperna Maestro och Adobe Experience Manager Assets.
 
 När du har upprättat anslutningen är följande funktioner tillgängliga med den här uppdateringen:
 
-* Maestro-användare kan länka AEM resurser, mappar eller samlingar till en Maestro-post från en viss databas i AEM som de har tillgång till
+* Du kan länka resurser och mappar i Experience Manager till en Maestro-post från en viss databas i Experience Manager Assets som de har tillgång till. Du kan koppla resursfält till Maestro-fält i den här processen.
 
-* Maestro-användare kan visa alla anslutna resurser i Maestro när de har anslutit till poster.
+* Maestro-användare kan visa namnet på de anslutna resurserna samt värdena för de anslutna fälten i Maestro
 
-* En Experience Manager Assets-posttyp skapas automatiskt i Maestro när du har upprättat anslutningen. Kopplade resurser visas i Maestro-tabellen och tidslinjevyerna för den här nya posttypen.
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* Du kan visa AEM i Maestro-posttabellen där du ansluter från.
+* Du kan klicka på resursnamnet i tabellvyn för Maestro-posten från det anslutna postfältet och visa ett popup-fönster med miniatyrbilden för resursen och flera nyckelfält. I popup-fönstret kan du navigera till resursvisningsprogrammet i Experience Manager och visa all information om det.
 
-Mer information finns i [Koppla posttyper](/help/quicksilver/maestro/architecture/connect-record-types.md)
+Mer information finns i [Koppla posttyper](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Vecka 4 december 2023
 
