@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '13796'
+source-wordcount: '13812'
 ht-degree: 0%
 
 ---
@@ -1132,9 +1132,9 @@ ht-degree: 0%
 * Hantera arbete {#manage-work}
    * [Hantera arbete](manage-work/manage-work.md)
    * Projekt {#projects}
-      * [Projekt](manage-work/projects/projects-overview.md)
+      * [Projekt: artikelindex](manage-work/projects/projects-overview.md)
       * Planera ett projekt {#plan-a-project}
-         * [Planera ett projekt](manage-work/projects/planning-a-project/plan-project-overview.md)
+         * [Planera ett projekt: artikelindex](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [Planera en projektöversikt](manage-work/projects/planning-a-project/plan-project.md)
          * [Bestämma struktur för arbetsfördelning i ett projekt](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
          * [Översikt över projektgruppen](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -1155,14 +1155,14 @@ ht-degree: 0%
          * [Översikt över status för projektförlopp](manage-work/projects/planning-a-project/project-progress-status.md)
          * [Översikt över projektets planerade startdatum](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * Skapa projekt {#create-projects}
-         * [Skapa projekt](manage-work/projects/create-projects/create-projects-overview.md)
+         * [Skapa projekt: artikelindex](manage-work/projects/create-projects/create-projects-overview.md)
          * [Skapa ett projekt](manage-work/projects/create-projects/create-project.md)
          * [Begär ett projekt](manage-work/projects/create-projects/request-project.md)
          * [Skapa ett projekt med en mall](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importera ett projekt från Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Skapa projektbaslinjer](manage-work/projects/create-projects/create-baselines.md)
       * Uppdatera arbete i ett projekt {#update-work-on-a-project}
-         * [Uppdatera arbete i ett projekt](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+         * [Uppdatera arbete i ett projekt: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Tillämpa statusvärden på arbete som är associerat med en grupp](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [Uppdatera aktivitetsstatus](manage-work/projects/updating-work-in-a-project/update-task-status.md)
          * [Uppdatera utgivningsstatus](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1173,7 +1173,7 @@ ht-degree: 0%
          * [Uppdatera villkor för aktiviteter och ärenden](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [Uppdatera villkor för ett projekt](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
       * Hantera projekt {#manage-projects}
-         * [Hantera projekt](manage-work/projects/manage-projects/manage-projects-overview.md)
+         * [Hantera projekt: artikelindex](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [Redigera projekt](manage-work/projects/manage-projects/edit-projects.md)
          * [Kopiera ett projekt](manage-work/projects/manage-projects/copy-project.md)
          * [Spara ett projekt som en mall](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1195,7 +1195,7 @@ ht-degree: 0%
          * [Översikt över projektstatistik](manage-work/projects/manage-projects/project-metrics.md)
          * [Översikt över projektbegränsningar](manage-work/projects/manage-projects/project-maximums.md)
       * Skapa och hantera projektmallar {#create-and-manage-project-templates}
-         * [Skapa och hantera projektmallar](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+         * [Skapa och hantera projektmallar: artikelindex](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Översikt över projektmallen](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [Skapa en projektmall](manage-work/projects/create-and-manage-templates/create-template.md)
          * [Skapa projektmallar från exempel](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -1212,7 +1212,7 @@ ht-degree: 0%
          * [Översikt över start- och slutförandedagar i en mall](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Översikt över att bifoga en mall till ett projekt](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definiera ett affärsärende {#define-business-case}
-         * [Definiera ett affärsärende](manage-work/projects/define-a-business-case/define-business-case.md)
+         * [Definiera ett affärsärende: artikelindex](manage-work/projects/define-a-business-case/define-business-case.md)
          * [Översikt över affärsområdet](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Skapa ett affärsärende för ett projekt](manage-work/projects/define-a-business-case/create-business-case.md)
          * [Godkänn ett affärsärende](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1226,7 +1226,7 @@ ht-degree: 0%
          * [Skapa och redigera risker i projekt](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [Exportera affärsfallet för ett projekt](manage-work/projects/define-a-business-case/export-business-case.md)
       * Projektets finanser {#project-finances}
-         * [Projektets finanser](manage-work/projects/project-finances/project-finances-overview.md)
+         * [Projektekonomi: artikelindex](manage-work/projects/project-finances/project-finances-overview.md)
          * [Projektfinansieringsfält](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [Beräkna om projektekonomi](manage-work/projects/project-finances/recalculate-project-finances.md)
          * [Projektfinansiering som ingår i projektbaslinjer](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
@@ -1255,7 +1255,7 @@ ht-degree: 0%
          * [Förstå budgeterad arbetskostnad och budgeterade timmar för projekt](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [Beräkna planerad arbetskostnad](manage-work/projects/project-finances/planned-labor-cost.md)
       * Tips, tricks och felsökning för projekt {#tips-tricks-troubleshooting-for-projects}
-         * [Tips, tricks och felsökning för projekt](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+         * [Tips, tricks och felsökning: artikelindex](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [Vanliga frågor om projekt](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [Projektstatus ändras inte från Fullständigt till Aktuell](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [Beräkningsexempel - Beräkna EAC som en sammanslagning av uppgifter](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)

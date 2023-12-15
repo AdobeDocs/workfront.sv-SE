@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa, arbeta med och skapa projekt för din grupp från området Grupper
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
 
@@ -71,7 +71,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Arbeta med ett projekt</p> </td> 
-      <td> <p>Markera projektet och använd sedan verktygsfältsknapparna för att redigera <img src="assets/edit-icon.png">, dela <img src="assets/share-icon.png">eller ta bort <img src="assets/delete.png">.</p> <p>Mer information om dessa aktiviteter finns i <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Hantera projekt</a>.</p> </td> 
+      <td> <p>Markera projektet och använd sedan verktygsfältsknapparna för att redigera <img src="assets/edit-icon.png">, dela <img src="assets/share-icon.png">eller ta bort <img src="assets/delete.png">.</p> <p>Mer information om dessa aktiviteter finns i <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Hantera projekt: artikelindex</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Skapa ett nytt projekt för gruppen</p> </td> 

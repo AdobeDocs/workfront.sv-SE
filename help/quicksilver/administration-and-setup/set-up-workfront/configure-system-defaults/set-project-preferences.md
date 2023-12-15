@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
   </tr>
   <tr> 
    <td role="rowheader">[!UICONTROL Set new project's status to]</td> 
-   <td> <p>Fastställ status för nya projekt.</p>  <p><b>ANMÄRKNING</b>  
+   <td> <p>Bestäm status för nya projekt.</p>  <p><b>ANMÄRKNING</b>  
      <ul> 
       <li>Om du eller någon annan [!DNL Workfront] administratören döljer statusen som valts här, standardstatusen ändras till den första statusen i statuslistan.</li> 
      </ul> 
@@ -120,7 +120,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Performance Index Method] </p> </td> 
-   <td> <p>Prestandaindexmetoden (PIM) för projektet styr metoden [!DNL Workfront] använder för att beräkna värden för upparbetat värde, t.ex. [!UICONTROL Cost Performance Index] (CPI) och [!UICONTROL Estimate At Completion] (EAC). Mer information finns i <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Beräkna [!UICONTROL Cost Performance Index] (CPI)</a> och <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Calculate Estimate At Completion] (EAC)</a></p> 
+   <td> <p>Prestandaindexmetoden (PIM) för projektet styr metoden [!DNL Workfront] använder för att beräkna värden för upparbetat värde, t.ex. [!UICONTROL Cost Performance Index] (CPI) och [!UICONTROL Estimate At Completion] (EAC) Mer information finns i <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Beräkna [!UICONTROL Cost Performance Index] (CPI)</a> och <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Calculate Estimate At Completion] (EAC)</a></p> 
     <ul> 
      <li><strong>[!UICONTROL Hour-based]</strong>: [!DNL Workfront] använder [!UICONTROL Planned Hours] för att beräkna prestandamått som EAC och CPI. När PIM beräknas baserat på timmar visas EAC som ett antal timmar. Se till att du har ett värde för [!UICONTROL Planned Hours], förutom noll.</li> 
      <li> <p><strong>[!UICONTROL Cost-based]</strong>: [!DNL Workfront] använder [!UICONTROL Planned Labor Cost] för att beräkna prestandamått som EAC och CPI. Se till att dina jobbroller eller -användare är kopplade till kostnaden per timme. När PIM beräknas baserat på kostnader visas EAC som ett valutavärde.</p> <p>Projektledaren kan ändra den här inställningen på projektnivå med [!UICONTROL Finance] område i [!UICONTROL Project Details]. Mer information finns i <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Hantera information i projektet [!UICONTROL Finance] area</a>.</p> </li> 
@@ -131,8 +131,8 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
    <td> <p>Bestäm vilka data [!DNL Workfront] används för att beräkna [!UICONTROL Estimate at Completion] (EAC) som representerar den beräknade totala kostnaden för ett projekt.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>:EAC för den överordnade aktiviteten och projektet bestäms genom att ange [!UICONTROL Actual Hours] eller [!UICONTROL Actual Labor Cost] i EAC-formlerna. Denna beräkning innehåller [!UICONTROL Actual Hours] eller [!UICONTROL Costs and Expenses] läggs till direkt i den överordnade uppgiften eller det överordnade projektet.</li> 
-     <li> <p><strong>[!UICONTROL Roll up from tasks/subtasks]</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att sammanfatta EAC för varje underordnad uppgift. Denna beräkning exkluderar [!UICONTROL Actual Hours] eller [!UICONTROL Actual Costs and Expenses] läggs till direkt i den överordnade uppgiften eller det överordnade projektet.</p> <p>Projektledaren kan ändra den här inställningen på projektnivå med [!UICONTROL Finance] område i [!UICONTROL Project Details].Mer information finns i <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Hantera information i projektet [!UICONTROL Finance] area</a>.</p> </li> 
-    </ul> <p>Mer information om hur EAC beräknas finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Beräkna [!UICONTROL Estimate At Completion] (EAC)</a>.</p> </td> 
+     <li> <p><strong>[!UICONTROL Roll up from tasks/subtasks]</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att EAC summeras för varje underordnad uppgift. Denna beräkning exkluderar [!UICONTROL Actual Hours] eller [!UICONTROL Actual Costs and Expenses] läggs till direkt i den överordnade uppgiften eller det överordnade projektet.</p> <p>Projektledaren kan ändra den här inställningen på projektnivå med [!UICONTROL Finance] område i [!UICONTROL Project Details].Mer information finns i <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Hantera information i projektet [!UICONTROL Finance] area</a>.</p> </li> 
+    </ul> <p>Mer information om hur EAC beräknar finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Beräkna [!UICONTROL Estimate At Completion] (EAC)</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -155,10 +155,10 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL User Time Off]</td> 
-   <td> <p>Avgör om tiden för den primära tilldelaren för en uppgift justerar planerade datum för den uppgiften i ett projekt.</p> 
+   <td> <p>Avgör om tiden för den primära tilldelaren för en uppgift justerar de planerade datumen för den uppgiften i ett projekt.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>: När en tid är schemalagd för en uppgifts primära tilldelare justeras aktivitetens planerade datum om tidpunkten för avbrottet inträffar under aktivitetens varaktighet. Det här är standardinställningen. </p> <p>Om en uppgift med en begränsning för [!UICONTROL As Soon As Possible] är planerad att börja den 1 juni och slutföras den 3 juni, och den primära tilldelaren har markerat 2 juni som"Time-off", aktivitetens planerade datum justeras till 1 juni till 4 juni.</p> <p><b>VIKTIGT</b>: Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning.</p> </li> 
-     <li><strong>[!UICONTROL Ignore user time off in task durations]</strong>: De planerade datumen för varje uppgift i ett projekt förblir som de ursprungligen planerade, även om den primära tilldelaren för en uppgift har en ledig tid under varaktigheten.</li> 
+     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>: När en tidpunkt är schemalagd för en uppgifts primära tilldelare justeras aktivitetens planerade datum om tidpunkten för avbrottet inträffar under aktivitetens varaktighet. Det här är standardinställningen. </p> <p>Om en uppgift med en begränsning för [!UICONTROL As Soon As Possible] är planerad att börja den 1 juni och slutföras den 3 juni, och den primära tilldelaren har markerat 2 juni som"Time-off", aktivitetens planerade datum justeras till 1 juni till 4 juni.</p> <p><b>VIKTIGT</b>: Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning.</p> </li> 
+     <li><strong>[!UICONTROL Ignore user time off in task durations]</strong>: De planerade datumen för varje uppgift i ett projekt förblir som de ursprungligen var planerade, även om den primära tilldelaren för en uppgift har en ledig tid under varaktigheten.</li> 
     </ul> <p>Tänk på följande när du väljer alternativ för den här inställningen:</p> 
     <ul> 
      <li>När du ändrar den här inställningen ärver endast projekt och mallar som skapats efter ändringen den uppdaterade inställningen. </li> 
@@ -167,7 +167,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
        <li>Planerat startdatum</li> 
        <li>Planerat slutförandedatum</li> 
        <li>Båda datumen</li> 
-       <li>Inget datum. </li> 
+       <li>Ingendera datum. </li> 
       </ul> <p>Om en aktivitet till exempel har en begränsning för [!UICONTROL Fixed Dates]justerar inte datumen när den primära tilldelade har en ledig tid, även om alternativet [!UICONTROL Consider user time off in task duration] är markerat. Mer information om uppgiftsbegränsningar finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Översikt över uppgiftsbegränsning</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -202,7 +202,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
    <td role="rowheader"> <p>[!UICONTROL Timeline Calculations] </p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Typical hours per work day]</strong>: Ange antalet timmar på en vanlig arbetsdag för de användare som ska arbeta med projekt. Standardvärdet är 8 timmar.</li> 
+     <li><strong>[!UICONTROL Typical hours per work day]</strong>: Ange antalet timmar på en vanlig arbetsdag för användare som ska arbeta med projekt. Standardvärdet är 8 timmar.</li> 
     </ul> 
     <ul> 
      <li><strong>[!UICONTROL Typical work days per week]</strong>: Ange standardarbetsveckan för de användare som ska arbeta med projekt. Standardvärdet är 5 dagar.</li> 
@@ -217,7 +217,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
 
 ### [!UICONTROL Business Cases] {#business-cases}
 
-Du kan skapa ett affärsärende för nyskapade projekt i hela systemet för att skicka projektförfrågningar. Du kan ange inställningar för vilka områden som ska visas på **[!UICONTROL Business Case]** formulär. Vi rekommenderar att du aktiverar dessa alternativ så att andra verktyg, som [!UICONTROL Portfolio Optimizer], uppdateras korrekt. Mer information om vad varje fält visar finns i [Definiera ett affärsärende](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+Du kan skapa ett affärsärende för nyskapade projekt i hela systemet för att skicka projektförfrågningar. Du kan ange inställningar för vilka områden som ska visas på **[!UICONTROL Business Case]** formulär. Vi rekommenderar att du aktiverar dessa alternativ så att andra verktyg, som [!UICONTROL Portfolio Optimizer], uppdateras korrekt. Mer information om vad varje fält visar finns i [Definiera ett affärsärende: artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 Efter [!DNL Workfront] administratören aktiverar avsnitten i [!UICONTROL Business Case]kan en projektägare sedan skapa ett affärsärende på projektnivå. Mer information om hur du skapar ett affärsärende finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -231,15 +231,15 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL After a project has been marked as Complete, people can still] </p> </td> 
-   <td> <p>Bestäm reglerna för din organisation (eller grupp, om du konfigurerar projektinställningar för en grupp) för om en uppgift eller ett problem kan tas bort efter att projektstatusen har markerats [!UICONTROL Complete].</p> 
+   <td> <p>Ange reglerna för din organisation (eller grupp, om du konfigurerar projektinställningar för en grupp) för om en uppgift eller ett problem kan tas bort efter att projektstatusen har markerats [!UICONTROL Complete].</p> 
     <ul> 
-     <li><strong>[!UICONTROL Delete Tasks]</strong>: Tillåter användare att ta bort aktiviteter från ett projekt efter att projektet har markerats [!UICONTROL Complete].<br></li> 
+     <li><strong>[!UICONTROL Delete Tasks]</strong>: Tillåter användare att ta bort uppgifter från ett projekt efter att projektet har markerats [!UICONTROL Complete].<br></li> 
      <li><strong>[!UICONTROL Delete Issues]</strong>: Tillåter användare att ta bort utgåvor från ett projekt efter att projektet har markerats [!UICONTROL Complete].</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
-   <td> <p>Bestäm reglerna för din organisation (eller grupp, om du konfigurerar projektinställningar för en grupp) för vad som händer med uppgifter, ärenden, dokument och andra objekt i ett projekt när projektstatusen har markerats <strong>[!UICONTROL Complete]</strong>, <strong>[!UICONTROL Dead]</strong>, eller är <strong>[!UICONTROL Pending Approval]</strong>.</p> 
+   <td> <p>Bestäm reglerna för din organisation (eller grupp, om du konfigurerar projektinställningar för en grupp) vad som ska hända med uppgifter, ärenden, dokument och andra objekt i ett projekt när projektstatusen har markerats <strong>[!UICONTROL Complete]</strong>, <strong>[!UICONTROL Dead]</strong>, eller är <strong>[!UICONTROL Pending Approval]</strong>.</p> 
     <ul> 
      <li><strong>[!UICONTROL Add and edit tasks]</strong> Tillåter användare att:
       <ul>

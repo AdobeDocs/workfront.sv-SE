@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2658'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 >
 >* När en Workfront-administratör har låst upp en inställning på systemnivå kan du konfigurera den och sedan låsa den så att alla i gruppen och dess undergrupper använder samma konfiguration. Detta är parallellt med möjligheten för en Workfront-administratör att konfigurera och låsa en inställning för alla i systemet. Mer information finns i [Låsa eller låsa upp ett projekt, en uppgift eller en utleverans för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
-
 
 Konfiguration på gruppnivå är också möjligt för uppgifter och utgåvor samt för tidrapport- och timinställningar. Mer information finns i [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) och [Konfigurera tidrapport och timinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
@@ -62,7 +61,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 >
 >Om du är Workfront-administratör kan du kringgå steg 1-4 genom att gå till Inställningar > Projektinställningar > Projekt och sedan söka efter gruppens namn i rutan längst upp på sidan.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
 
@@ -102,9 +101,9 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
 </td></tr>
   <tr> 
    <td role="rowheader">Ange status för det nya projektet till</td> 
-   <td> <p>Fastställ status för nya projekt.</p> <p><b>ANMÄRKNING</b>   
+   <td> <p>Bestäm status för nya projekt.</p> <p><b>ANMÄRKNING</b>   
      <ul> 
-      <li>Om du eller någon annan Workfront-administratör döljer den status som valts här ändras standardstatusen till den första statusen i statuslistan.</li> 
+      <li>Om du eller någon annan Workfront-administratör döljer den status som valts här, ändras standardstatusen till den första statusen i statuslistan.</li> 
      </ul> 
      <ul> 
       <li data-mc-conditions="SnippetConditions-wf-groups.groups">För gruppprojektinställningar kan du välja enbart en låst status eller en obligatorisk status som standardstatus.</li> 
@@ -120,7 +119,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
    <td> <p>Procent färdigt för ett projekt eller en överordnad uppgift baseras på aktiviteternas allmänna förlopp. Den här informationen kan beräknas utifrån varaktigheten eller den planerade timmen för aktiviteterna i ett projekt.</p> <p>Om du väljer Varaktighet bestämmer varaktigheten för varje aktivitet i ett projekt den totala procentandelen färdigt för projektet, och varaktigheten för varje underaktivitet bestämmer den totala procentandelen färdigt för den överordnade aktiviteten.</p> <p>Om du väljer Varaktighet måste du ange Normal tid per arbetsdag och Normal arbetsdag per vecka i avsnittet Tidslinjer. Workfront använder den här informationen vid beräkning av en uppgifts procentandel slutförd baserat på Varaktighet. </p> <p>Om du väljer Planerade timmar kontrollerar du att antalet planerade timmar har definierats för alla aktiviteter i varje projekt, och att beloppet inte är noll.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Ange automatiskt projektets villkor baserat på förloppsstatusen</td> 
+   <td role="rowheader">Ställ in projektets villkor automatiskt baserat på förloppsstatusen</td> 
    <td> <p>Med den här inställningen kan användare ställa in villkoret för ett projekt manuellt (på mål, risk, i problem) eller låta Workfront ställa in villkoret (förloppsstatus) automatiskt baserat på projektets förlopp på tidslinjen. Mer information om villkor för projekt finns i <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Översikt över projektvillkor och villkorstyp</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +130,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
    <td role="rowheader"> <p>Resultatindexmetod </p> </td> 
    <td> <p>Performance Index Method (PIM) for the project controls the method Workfront uses to calculate Earned Value metrics such as Cost Performance Index (CPI) and Estimate At Completion (EAC). Mer information finns i <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Beräkna index för kostnadsprestanda (CPI)</a>och <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Beräkna uppskattning vid slutförande</a></p> 
     <ul> 
-     <li><strong>Timbaserad</strong>: Workfront använder Planerade timmar för att beräkna prestandamått som EAC och CPI. När PIM beräknas baserat på timmar visas EAC som ett antal timmar. Kontrollera att du har ett annat värde än noll för Planerade timmar.</li> 
+     <li><strong>Timbaserad</strong>: Workfront använder Planerade timmar för att beräkna prestandamått som EAC och CPI. När PIM beräknas baserat på timmar visas EAC som ett antal timmar. Se till att du har ett annat värde än noll för Planerade timmar.</li> 
      <li> <p><strong>Kostnadsbaserad</strong>: Workfront använder Planerad arbetskostnad för att beräkna prestandamått som EAC och CPI. Se till att dina jobbroller eller -användare är kopplade till kostnaden per timme. När PIM beräknas baserat på kostnader visas EAC som ett valutavärde.</p> <p>Projektledaren kan ändra den här inställningen på projektnivå med hjälp av området Ekonomi i Projektinformation. Mer information finns i <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Hantera information i projektfinansieringsdelen</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,8 +139,8 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
    <td> <p>Bestäm vilka data Workfront använder för att beräkna uppskattningen vid slutförande (EAC) som representerar den beräknade totala kostnaden för ett projekt.</p> 
     <ul> 
      <li><strong>Beräkna på projektnivå</strong>:EAC för den överordnade uppgiften och projektet bestäms genom att Faktiska timmar eller Faktisk arbetskostnad anges i EAC-formlerna. Beräkningen omfattar faktiska timmar eller kostnader och utgifter som läggs till direkt i den överordnade aktiviteten eller projektet.</li> 
-     <li> <p><strong>Samla in uppgifter/underuppgifter</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att sammanfatta EAC för varje underordnad uppgift. Den här beräkningen exkluderar faktiska timmar eller faktiska kostnader och utgifter som läggs till direkt i den överordnade aktiviteten eller projektet.</p> <p>Projektledaren kan ändra den här inställningen på projektnivå med hjälp av området Ekonomi i Projektinformation. Mer information finns i <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Hantera information i projektfinansieringsdelen</a>.</p> </li> 
-    </ul> <p>Mer information om hur EAC beräknas finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Beräkna uppskattning vid slutförande</a>.</p> </td> 
+     <li> <p><strong>Samla in uppgifter/underuppgifter</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att EAC summeras för varje underordnad uppgift. Den här beräkningen exkluderar faktiska timmar eller faktiska kostnader och utgifter som läggs till direkt i den överordnade aktiviteten eller projektet.</p> <p>Projektledaren kan ändra den här inställningen på projektnivå med hjälp av området Ekonomi i Projektinformation. Mer information finns i <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Hantera information i projektfinansieringsdelen</a>.</p> </li> 
+    </ul> <p>Mer information om hur EAC beräknar finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Beräkna uppskattning vid slutförande</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -158,16 +157,16 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
    <td role="rowheader">Schemalägg från</td> 
    <td> <p>Ange om nya projekt ska schemaläggas från Startdatum eller från Slutförandedatum när de skapas.</p> 
     <ul> 
-     <li><strong>Startdatum</strong>: Som standard för nya uppgifter anges ett planerat startdatum för projektet av aktivitetsbegränsningen Så snart som möjligt och projektansvariga.</li> 
-     <li><strong>Slutförandedatum</strong>: Som standard för nya uppgifter anges ett planerat slutförandedatum för projektet av aktivitetsbegränsningen Så sent som möjligt och projektansvariga.</li> 
+     <li><strong>Startdatum</strong>: Nya aktiviteter blir standard i åtgärdsbegränsningen Så snart som möjligt och projektledare uppmanas att ange ett planerat startdatum för projektet.</li> 
+     <li><strong>Slutförandedatum</strong>: Nya uppgifter anges som standard med aktivitetsbegränsningen Så sent som möjligt och projektledare uppmanas att ange ett planerat slutförandedatum för projektet.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Användningstid av</td> 
-   <td> <p>Avgör om tiden för den primära tilldelaren för en uppgift justerar planerade datum för den uppgiften i ett projekt.</p> 
+   <td> <p>Avgör om tiden för den primära tilldelaren för en uppgift justerar de planerade datumen för den uppgiften i ett projekt.</p> 
     <ul> 
-     <li> <p><strong>Överväg användarens ledig tid i aktivitetsvaraktigheter</strong>: När en tid är schemalagd för en uppgifts primära tilldelare justeras aktivitetens planerade datum om tidpunkten för avbrottet inträffar under aktivitetens varaktighet. Det här är standardinställningen. </p> <p>Om en uppgift med ett villkor som är lika med så snart som möjligt är schemalagd att påbörjas den 1 juni och slutföras den 3 juni, och den primära uppdragen har markerat till 2 juni som"Time-off", justeras aktivitetens planerade datum till 1 juni till 4 juni.</p> <p><b>VIKTIGT</b>: Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning.</p> </li> 
-     <li><strong>Ignorera användartid för aktivitetsvaraktighet</strong>: De planerade datumen för varje uppgift i ett projekt förblir som de ursprungligen planerade, även om den primära tilldelaren för en uppgift har en ledig tid under varaktigheten.</li> 
+     <li> <p><strong>Överväg användarens ledig tid i aktivitetsvaraktigheter</strong>: När en tidpunkt är schemalagd för en uppgifts primära tilldelare justeras aktivitetens planerade datum om tidpunkten för avbrottet inträffar under aktivitetens varaktighet. Det här är standardinställningen. </p> <p>Om en uppgift med ett villkor som är lika med så snart som möjligt är schemalagd att påbörjas den 1 juni och slutföras den 3 juni, och den primära uppdragen har markerat till 2 juni som"Time-off", justeras aktivitetens planerade datum till 1 juni till 4 juni.</p> <p><b>VIKTIGT</b>: Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning.</p> </li> 
+     <li><strong>Ignorera användartid för aktivitetsvaraktighet</strong>: De planerade datumen för varje uppgift i ett projekt förblir som de ursprungligen var planerade, även om den primära tilldelaren för en uppgift har en ledig tid under varaktigheten.</li> 
     </ul> <p>Tänk på följande när du väljer alternativ för den här inställningen:</p> 
     <ul> 
      <li>När du ändrar den här inställningen ärver endast projekt och mallar som skapats efter ändringen den uppdaterade inställningen. </li> 
@@ -176,7 +175,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
        <li>Planerat startdatum</li> 
        <li>Planerat slutförandedatum</li> 
        <li>Båda datumen</li> 
-       <li>Inget datum. </li> 
+       <li>Ingendera datum. </li> 
       </ul> <p>Om en aktivitet till exempel har en begränsning med fasta datum, justeras inte datumen när den primära tilldelaren har en ledig tid, även om alternativet Beakta användarens tid för en uppgift är markerat. Mer information om uppgiftsbegränsningar finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Översikt över uppgiftsbegränsning</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -204,7 +203,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
    <td role="rowheader"> <p>Beräkningar av tidslinje </p> </td> 
    <td> 
     <ul> 
-     <li><strong>Vanliga timmar per arbetsdag</strong>: Ange antalet timmar på en vanlig arbetsdag för de användare som ska arbeta med projekt. Standardvärdet är 8 timmar.</li> 
+     <li><strong>Vanliga timmar per arbetsdag</strong>: Ange antalet timmar på en vanlig arbetsdag för användare som ska arbeta med projekt. Standardvärdet är 8 timmar.</li> 
     </ul> 
     <ul> 
      <li><strong>Vanliga arbetsdagar per vecka</strong>: Ange standardarbetsveckan för de användare som ska arbeta med projekt. Standardvärdet är 5 dagar.</li> 
@@ -219,7 +218,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
 
 ### Affärsärenden {#business-cases}
 
-Du kan skapa ett affärsärende för nyligen skapade projekt som är kopplade till gruppen för att skicka projektbegäranden. Du kan ange inställningar för vilka områden som ska visas på **Affärsärende** formulär. Vi rekommenderar att du aktiverar de här alternativen så att andra verktyg, som Portfolio-optimering, uppdateras korrekt. Mer information om vad varje fält visar finns i [Definiera ett affärsärende](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+Du kan skapa ett affärsärende för nyligen skapade projekt som är kopplade till gruppen för att skicka projektbegäranden. Du kan ange inställningar för vilka områden som ska visas på **Affärsärende** formulär. Vi rekommenderar att du aktiverar de här alternativen så att andra verktyg, som Portfolio-optimering, uppdateras korrekt. Mer information om vad varje fält visar finns i [Definiera ett affärsärende: artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 När Workfront-administratören har aktiverat avsnitten i affärsärendet kan en projektägare sedan skapa ett affärsärende på projektnivå. Mer information om hur du skapar ett affärsärende finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -236,12 +235,12 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
    <td> <p>Bestäm reglerna för din organisation (eller grupp, om du konfigurerar projektinställningar för en grupp) för om en uppgift eller ett problem kan tas bort efter att projektstatusen har markerats som Slutförd.</p> 
     <ul> 
      <li><strong>Ta bort aktiviteter</strong>: Tillåter användare att ta bort uppgifter från ett projekt efter att projektet har markerats som Slutfört.<br></li> 
-     <li><strong>Ta bort problem</strong>: Tillåter användare att ta bort utgåvor från ett projekt efter att projektet har markerats som Slutfört.</li> 
+     <li><strong>Ta bort problem</strong>: Tillåter användare att ta bort utgåvor från ett projekt efter att projektet har markerats som Slutförd.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><strong>När ett projekt har markerats som slutfört, inaktivt eller väntar på godkännande kan man fortfarande</strong> </p> </td> 
-   <td> <p>Bestäm reglerna för din organisation (eller grupp, om du konfigurerar projektinställningar för en grupp) för vad som händer med uppgifter, ärenden, dokument och andra objekt i ett projekt när projektstatusen har markerats <strong>Slutförd</strong>, <strong>Död</strong>, eller är <strong>Väntar på godkännande</strong>.</p> 
+   <td> <p>Bestäm reglerna för din organisation (eller grupp, om du konfigurerar projektinställningar för en grupp) vad som ska hända med uppgifter, ärenden, dokument och andra objekt i ett projekt när projektstatusen har markerats <strong>Complete</strong>, <strong>Död</strong>, eller är <strong>Väntar på godkännande</strong>.</p> 
     <ul> 
      <li><strong>Lägga till och redigera uppgifter</strong> Tillåter användare att: 
       <ul> 
@@ -254,7 +253,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
        <li>Lägg till problem i ett projekt när projektet har markerats som slutfört eller inaktivt. (Du kan inte lägga till utgåvor i ett projekt som väntar på godkännande.)</li> 
       </ul></li> 
      <li> <p><strong>Lägga till dokument i projektet och i dess uppgifter och ärenden</strong>: Tillåter användare att lägga till dokument i ett projekt (eller att lägga till dokument till aktiviteter och ärenden i projektet) efter att projektet har markerats som Fullständigt eller Dölj.</p> <p>Det här alternativet gäller inte projekt som väntar på godkännande.</p> </li> 
-     <li> <p><strong>Bifoga mallar</strong>: Tillåter användare att bifoga mallar till ett projekt efter att projektet har markerats som Fullständigt eller Dölj.</p> <p>Det här alternativet gäller inte projekt som väntar på godkännande.</p> </li> 
+     <li> <p><strong>Bifoga mallar</strong>: Tillåter användare att bifoga mallar till ett projekt efter att projektet har markerats som fullständigt eller dolt.</p> <p>Det här alternativet gäller inte projekt som väntar på godkännande.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

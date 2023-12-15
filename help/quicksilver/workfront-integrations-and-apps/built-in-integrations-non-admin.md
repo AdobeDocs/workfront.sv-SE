@@ -7,7 +7,7 @@ description: Ni kan integrera [!DNL Adobe Workfront] med program från tredje pa
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Adobe Workfront inbyggda integreringsöversikt
+
+<!-- Audited: 12/2023 -->
 
 Ni kan integrera [!DNL Adobe Workfront] med program från tredje part samt andra [!DNL Adobe] produkter. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Om du till exempel är kreativ anställd i marknadsföringsbranschen kan du använda [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] program som exporterar resurser direkt från Photoshop till Workfront.
 

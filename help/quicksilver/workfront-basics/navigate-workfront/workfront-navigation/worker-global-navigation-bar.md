@@ -7,9 +7,9 @@ description: Huvudmenyn ändras med den åtkomstnivå som du har tilldelats av [
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Följande områden ingår i standardlayouten för en [!UICONTROL Worker]:
 
 * **[!UICONTROL Home]**: Uppgifter och ärenden som du har tilldelats visas här. Det här är standardstartsidan för en arbetare, men den visas inte i [!UICONTROL Main Menu] såvida inte en Workfront-administratör lägger till den i layoutmallen.  Mer information finns i [Kom igång med [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Projects]**: Projekt som delas med dig visas här. Mer information finns i [Projekt](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Projects]**: Projekt som delas med dig visas här. Mer information finns i [Projekt: artikelindex](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL Reports]**: Rapporter som delas med dig visas här. Mer information finns i [Rapporter](../../../reports-and-dashboards/reports/reports-overview.md).
 

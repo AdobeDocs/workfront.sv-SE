@@ -6,9 +6,9 @@ description: Portfolio eller Project Portfolio Management (PPM) är processen at
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Mer information om portföljoptimering finns i [Optimera projekt i Portfolio Opt
 
 ### Resursplanering {#resource-planning}
 
-Förutom att optimera portföljens prestanda och prioritera projektet ser Resource Manager till att rätt resurser tilldelas projekten. De bedömer tillgängligheten och fördelningen av resurserna med hjälp av de resurshanteringsverktyg som finns i [!DNL Workfront].
+Resurshanteraren ser till att rätt resurser tilldelas projekten tillsammans med optimering av portföljens prestanda och prioritering av projektet. De bedömer tillgängligheten och fördelningen av resurserna med hjälp av de resurshanteringsverktyg som finns i [!DNL Workfront].
 
 Beroende på vilka resurser som är tillgängliga kan det vara nödvändigt att prioritera om projekten i Portfolio Manager.
 
@@ -77,7 +77,7 @@ Mer information om resurshantering finns i [Hantera resurser](../../../resource-
 
 När du har fått projektgodkännandet från Portfolio Manager och valideringen av resurserna från Resource Manager, som projektägare, kan du placera projektet i statusen [!UICONTROL Current] så kan användarna påbörja arbetet för att slutföra projektet. Vi rekommenderar att du hämtar en baslinje för projektet i den här fasen, så att du får en referenspunkt för projektet i dess ursprungliga skick.
 
-Mer information om hur du hanterar projekt i [!DNL Workfront], se [Hantera projekt](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Mer information om hur du hanterar projekt i [!DNL Workfront], se [Hantera projekt: artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 Mer information om hur du skapar baslinjer i projekt finns i [Skapa projektbaslinjer](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Postmortem för projekt {#project-postmortem}

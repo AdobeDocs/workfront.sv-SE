@@ -6,9 +6,9 @@ description: Att definiera en struktur för arbetsfördelning (WBS) för ett pro
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Mer information om hur du schemalägger resurser finns i artiklarna i [Utjämnin
 
 Workfront beräknar de planerade kostnaderna för varje uppgift och de totala kostnaderna för ett projekt. Planerade kostnader för en aktivitet inkluderar alla utgifter för aktiviteten plus kostnaden för medarbetaren eller rollen som tilldelats uppgiften. Timtaxor för uppgiften, rollen och medarbetaren tilldelas när uppgiften, rollen och användaren skapas.
 
-Mer information om projektets ekonomi finns i avsnittet [Projektets finanser](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Mer information om projektets ekonomi finns i avsnittet [Projektekonomi: artikelindex](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Fastställa godkännandepunkter för projektet
 

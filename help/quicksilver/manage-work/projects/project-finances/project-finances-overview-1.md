@@ -7,9 +7,9 @@ description: Att hålla koll på projektekonomin är avgörande för att hantera
 author: Alina
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Ni kan hålla koll på er ekonomi med ett antal fält som samlar budget, kostnad
 Mer information finns i följande artiklar:
 
 * [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [Projektets ekonomi](../../../manage-work/projects/project-finances/project-finances-overview.md)
+* [Projektekonomi: artikelindex](../../../manage-work/projects/project-finances/project-finances-overview.md)
 * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 * [Hantera aktivitetsfinanser i avsnittet Uppgiftsinformation](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
@@ -53,7 +53,7 @@ I följande tabell visas en del av de finanser som du kan hålla reda på i Work
  <tbody> 
   <tr> 
    <td>Tid</td> 
-   <td> Information om hur du spelar in tid i ett projekt finns i <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>. </td> 
+   <td> Mer information om hur du spelar in tid i ett projekt finns i <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
@@ -122,7 +122,7 @@ I följande tabell visas en del av de finanser som du kan hålla reda på i Work
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Uppskattning vid slutförande (EAC)</td> 
+   <td>Uppskattning vid slutförande</td> 
    <td> Information om hur du beräknar EAC finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Beräkna uppskattning vid slutförande</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
@@ -151,14 +151,14 @@ I följande tabell visas en del av de finanser som du kan hålla reda på i Work
   </tr> 
   <tr> 
    <td>BCWS (Budgeted Cost of Work Scheduled)</td> 
-   <td>Ett prestandamått. Mer information om hur du beräknar BCWS finns i <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">Beräkna budgeterad kostnad för planerat arbete (BCWS)</a>. </td> 
+   <td>Ett prestandamått. Mer information om hur du beräknar BCWS finns i <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">Beräkna budgeterad kostnad för schemalagt arbete (BCWS)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Budgeterad kostnad för utfört arbete (BCWP)</td> 
-   <td>Ett prestandamått. Information om hur du beräknar BCWP finns i <a href="../../../manage-work/projects/project-finances/calculate-bcwp.md" class="MCXref xref">Beräkna budgeterad kostnad för utfört arbete (BCWP) </a>.</td> 
+   <td>Ett prestandamått. Mer information om hur du beräknar BCWP finns i <a href="../../../manage-work/projects/project-finances/calculate-bcwp.md" class="MCXref xref">Beräkna budgeterad kostnad för utfört arbete (BCWP) </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

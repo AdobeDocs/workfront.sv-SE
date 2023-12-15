@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 681d3b74eec1388f3b6cc7edf51422e0019cc318
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -277,8 +277,8 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 
 | Workfront objekttyp | Ingen åtkomst | Visa åtkomst | Redigera åtkomst |
 |---|---|---|---|
-| Projekt |   | ✓ (endast sidan Projektinformation) |   |
-| Uppgift |   | ✓(Endast informationssidan) |   |
+| Projekt |   | ✓ |   |
+| Uppgift |   | ✓ |   |
 | Problem |   |   | ✓ |
 | Portfolio | ✓ |   |   |
 | Program | ✓ |   |   |

@@ -6,7 +6,7 @@ description: Du kan använda [!DNL Adobe Workfront for Jira] integrera [!DNL Jir
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Konfigurera [!DNL Adobe Workfront for Jira]
+
+<!-- Audited: 12/2023 -->
 
 Du kan använda [!DNL Adobe Workfront for Jira] integrera [!DNL Jira] och [!DNL Workfront] system.
 

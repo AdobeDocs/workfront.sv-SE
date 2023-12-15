@@ -7,9 +7,9 @@ description: The [!UICONTROL Portfolio Optimizer] är det verktyg som används f
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ Syftet med [!UICONTROL portfolio optimizer] ska tillhandahålla ett gränssnitt 
 
 The [!UICONTROL Portfolio Optimizer] kan bara hjälpa dig om du har uppfyllt följande krav:
 
-
-* The [!UICONTROL Business Cases] har slutförts i projekten. Mer information finns i artiklarna i avsnittet [Definiera ett affärsärende](../../projects/define-a-business-case/define-business-case.md).
-* En portfölj definieras i området Projektöversikt i avsnittet Projektinformation för de projekt du vill granska
+* The [!UICONTROL Business Cases] har slutförts i projekten. Mer information finns i artiklarna i [Definiera ett affärsärende: artikelindex](../../projects/define-a-business-case/define-business-case.md).
+* En portfölj definieras i området Projektöversikt i avsnittet Projektinformation för de projekt som du vill granska.
 * Du har angett projektbudget och planerad förmån för de projekt som du vill granska. Fast kostnad och Fast intäkt är valfria men tillför ytterligare värde. Mer information finns i [Projektfinansieringsfält](../../projects/project-finances/project-finances-overview-1.md).
-
 
 Mer information om hur du hittar [!UICONTROL Portfolio Optimizer], se [Leta reda på [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
@@ -166,7 +164,7 @@ Följande ikoner och alternativ är tillgängliga för [!UICONTROL Portfolio Opt
   <tr> 
    <td>Ikon i Portfolio-optimering</td> 
    <td>Namn</td> 
-   <td> -funktion</td> 
+   <td>Funktion</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
