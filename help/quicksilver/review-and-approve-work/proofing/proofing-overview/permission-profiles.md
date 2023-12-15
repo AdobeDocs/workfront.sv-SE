@@ -4,20 +4,24 @@ product-area: documents
 keywords: bevis,behörighet
 navigation-topic: proofing-overview
 title: Översikt över behörighetsprofiler för korrektur
-description: Behörighetsprofiler för korrektur avgör vilka övergripande behörigheter användare har för alla korrektur i ditt konto. Behörighetsprofiler för korrektur tilldelas användare i deras användarprofil. Behörighetsprofiler för korrektur skiljer sig från korrekturroller. Mer information om korrekturroller finns i Översikt över korrekturroller.
+description: Behörighetsprofiler för korrektur avgör vilka övergripande behörigheter användare har för alla korrektur i ditt konto. Behörighetsprofiler för korrektur tilldelas användare i deras användarprofil. Behörighetsprofiler för korrektur skiljer sig från korrekturroller.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 9b60133c4cc20deb410f507854597f44d0607228
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
 # Översikt över behörighetsprofiler för korrektur
 
-Behörighetsprofiler för korrektur avgör vilka övergripande behörigheter användare har för alla korrektur i ditt konto. Behörighetsprofiler för korrektur tilldelas användare i deras användarprofil. Behörighetsprofiler för korrektur skiljer sig från korrekturroller. Mer information om korrekturroller finns i [Översikt över profilroller](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+<!--Audited: 12/2023-->
+
+Behörighetsprofiler för korrektur avgör vilka övergripande behörigheter användare har för alla korrektur i ditt konto. Behörighetsprofiler för korrektur tilldelas användare i deras användarprofil.
+
+Behörighetsprofiler för korrektur skiljer sig från korrekturroller. Mer information om korrekturroller finns i [Översikt över profilroller](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -29,10 +33,10 @@ Behörighetsprofiler för korrektur avgör vilka övergripande behörigheter anv
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the&nbsp;account settings&nbsp;and billing of those accounts from the hub account level.</p> </li>
-<li> <p>Billing Administrators and Administrators can delete users. This can only be done in&nbsp;Account settings.</p> </li>
+<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the account settings and billing of those accounts from the hub account level.</p> </li>
+<li> <p>Billing Administrators and Administrators can delete users. This can only be done in Account settings.</p> </li>
 <li>When Billing Administrators and Administrators view proofs that are owned by other users in their account, they view them with the role of a Reviewer.</li>
-<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them.&nbsp;</li>
+<li>Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them. </li>
 </ul>
 -->
 
@@ -42,7 +46,9 @@ I följande tabell visas de behörigheter som är tillgängliga för respektive 
 
 <table>
   <tr>
-   <td colspan="5" ><strong>Egna objekt</strong>
+   <td colspan="1" ><strong></strong>
+   </td>
+   <td colspan="4" ><strong>Egna objekt</strong>
    </td>
    <td colspan="3" ><strong>Andra användares objekt</strong>
    </td>
@@ -129,26 +135,6 @@ I följande tabell visas de behörigheter som är tillgängliga för respektive 
    <td>
    </td>
   </tr>
-  <tr>
-   <td>Observer
-   </td>
-   <td>
-   </td>
-   <td>x
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
 </table>
 
 ### Administratör
@@ -189,7 +175,7 @@ Administratörer har åtkomst till [Kontoinställningar](https://support.workfro
  </tbody> 
 </table>
 
-&#42;Finns endast i den fristående Workfront Proof-produkten.
+&#42;Finns endast i Workfront Proof.
 
 ### Supervisor
 
@@ -250,7 +236,7 @@ Chefer har följande behörigheter:
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Visa, redigera eller ta bort korrektur och filer som skapats av andra användare i organisationen. </p> <p>Redigera korrektursvar.</p> </li> 
+     <li> <p>Visa, redigera eller ta bort korrektur och filer som skapats av andra användare i organisationen. </p> </li><li><p>Redigera korrektursvar.</p> </li> 
      <li> <p>Ta bort privata eller offentliga mappar för andra användare</p> </li> 
      <li> <p>Gå till faktureringssidan eller redigera faktureringsinformationen</p> </li> 
      <li> <p>Lägga till, redigera eller ta bort användare</p> </li> 
@@ -270,15 +256,15 @@ Chefer har följande behörigheter:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot&nbsp;create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create proofs, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -286,7 +272,7 @@ Chefer har följande behörigheter:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs&nbsp;or replies.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit proofs or replies.</p>
 -->
 
 <!--
@@ -294,7 +280,7 @@ Chefer har följande behörigheter:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access&nbsp;the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>&nbsp;and&nbsp;<a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a> and <a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
 -->
 
 <!--
@@ -302,32 +288,31 @@ Chefer har följande behörigheter:
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the&nbsp;trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts. </p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts. </p>
 -->
 
 
 ><!--
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
+><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
 >-->
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
 >  -->
 >  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing </li>>
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
 >  -->
-
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Guest</h3>
@@ -359,6 +344,6 @@ Chefer har följande behörigheter:
 
 <!--
 <note type="note">
-&nbsp;Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
+ Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
 </note>
 -->

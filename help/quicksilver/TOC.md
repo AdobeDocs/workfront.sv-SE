@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13810'
 ht-degree: 0%
 
 ---
@@ -1436,7 +1436,7 @@ ht-degree: 0%
          * [Definiera frågetyper för ett projekt](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
       * Skapa förfrågningar {#create-requests}
          * [Skapa förfrågningar](manage-work/requests/create-requests/create-requests.md)
-         * [Skapa och skicka Adobe Workfront-förfrågningar](manage-work/requests/create-requests/create-submit-requests.md)
+         * [Skapa och skicka begäranden](manage-work/requests/create-requests/create-submit-requests.md)
          * [Skapa begäranden från utkast](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [Sök efter skickade begäranden](manage-work/requests/create-requests/locate-submitted-requests.md)

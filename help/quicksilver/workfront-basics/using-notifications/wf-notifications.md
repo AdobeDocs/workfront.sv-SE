@@ -6,7 +6,7 @@ description: Adobe Workfront skickar e-postmeddelanden, meddelanden i appen och 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Översikt över meddelanden
+
+<!--Audited: 12/2023-->
 
 [!DNL Adobe Workfront] skickar e-postmeddelanden, meddelanden i appen och meddelanden till din mobila enhet.
 

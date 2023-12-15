@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 Som Adobe Workfront-administratör tilldelar du en åtkomstnivå till en användare för två syften:
 
-* Alla användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront.
-* Du använder åtkomstnivån för att styra vad en användare kan se och göra med vissa Workfront-objekt och -områden.
+* Varje användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront.
+* Åtkomstnivåerna styr vad en användare kan se och göra med vissa Workfront-objekt och -områden.
 
 Var och en av de sex inbyggda åtkomstnivåerna är kopplad till en av de fem Workfront-licenserna: Plan, Work, Review, Request och External.
 
@@ -32,7 +32,7 @@ Extern är en obetald licens som främst är avsedd för dokumentutbyte med meda
 
 ![](assets/access-levels-and-licenses-old.png)
 
-Mer information om relaterade ämnen finns i följande artiklar:
+Mer information om ämnen som rör åtkomstnivåer finns i följande artiklar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ Mer information om relaterade ämnen finns i följande artiklar:
   <tr> 
    <td><strong>Tilldela åtkomstnivåer</strong></td> 
    <td> <p>Instruktioner om hur du tilldelar en åtkomstnivå till en användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Åtkomstnivåerna Standard, Light, Contributor</td> 
+   <td> <p>Om du ser dessa åtkomstnivåer i din miljö i stället för i Planera, Arbeta, Granska eller Begär, använder din organisation den nya åtkomstnivåmodellen. Mer information om den nya modellen finns i <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

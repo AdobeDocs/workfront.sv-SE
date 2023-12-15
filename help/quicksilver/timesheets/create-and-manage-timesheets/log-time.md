@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3564'
+source-wordcount: '3562'
 ht-degree: 0%
 
 ---
 
 # Loggtid
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Ny plan:<ul><li>Ljus eller högre för att logga allmänna timmar i en tidrapport</li></p>
+   <td> <p>Nytt:<ul><li>Ljus eller högre för att logga allmänna timmar i en tidrapport</li></p>
    <li> Standard eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul></p>
    <p>eller</p>
-   <p>Aktuell plan:<ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li></p>
+   <p>Aktuell:<ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li></p>
    <li> Arbeta eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul></p>
    </td> 
   </tr> 

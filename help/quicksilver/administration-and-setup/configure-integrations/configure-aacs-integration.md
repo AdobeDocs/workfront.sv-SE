@@ -5,9 +5,9 @@ title: Konfigurera [!UICONTROL Experience Manager Assets as a Cloud Service] int
 description: Du kan koppla ditt arbete till innehållet i [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Du måste ha följande:
 
 Innan du börjar,
 
-* Du måste ha [!DNL Workfront] och [!DNL Adobe Experience Manager Assets] associeras med ett organisations-ID i [!DNL Adobe Admin Consol]e. Mer information finns i [Plattformsbaserade administrationsskillnader ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* Du måste ha [!DNL Workfront] och [!DNL Adobe Experience Manager Assets] associeras med ett organisations-ID i [!DNL Adobe Admin Console]. Mer information finns i [Plattformsbaserade administrationsskillnader ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## Ställ in integreringsinformation
@@ -242,7 +242,7 @@ De standardvärden för arbetsflöde som du anger i integreringen kan åsidosät
 Följande arbetsflöden är tillgängliga i Adobe Experience Manager-integreringen:
 
 * [Skapa länkade Adobe Experience Manager-mappar](#create-adobe-experience-manager-linked-folders)
-* [Publicera resurser som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Publicera material som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Skapa länkade Adobe Experience Manager-mappar
 
@@ -250,9 +250,9 @@ Följande arbetsflöden är tillgängliga i Adobe Experience Manager-integrering
 1. Välj en mappsökväg för att ange var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
    ![Navigering för länkad mapp](assets/select-folder-aem-integration.png)
 1. Aktivera **[!UICONTROL Append Portfolio and Program Names]** om du vill att Portfolio och programnamn ska inkluderas automatiskt i slutet av den länkade mappens namn.
-1. Klicka **[!UICONTROL Save]** eller gå vidare till [Publicera resurser som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) i den här artikeln.
+1. Klicka **[!UICONTROL Save]** eller gå vidare till [Publicera material som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) i den här artikeln.
 
-### Publicera resurser som skickas till Adobe Experience Manager Assets
+### Publicera material som skickas till Adobe Experience Manager Assets
 
 1. Växla på **[!UICONTROL Publish assets automatically]**.
 1. Markera rutan bredvid den plats där du vill publicera resurser som skickats till Adobe Experience Manager-resurser. Du kan aktivera ett eller båda alternativen.
