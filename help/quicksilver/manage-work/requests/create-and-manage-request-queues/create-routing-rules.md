@@ -8,14 +8,16 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Skapa routningsregler
+
+<!-- Audited: 12/2023 -->
 
 Routningsreglerna styr vad Adobe Workfront gör med problem när de skickas till en begärandekö. Mer information om hur du skapar frågeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -53,7 +55,7 @@ Routningsregler skickar problem till specifika användare eller jobbroller som �
 </table>
 -->
 
-Du måste ha följande:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +67,10 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>
+    <p>Nytt: Standard</p>
+    <p>eller</p>
+    <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -75,19 +80,19 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p> Hantera behörigheter för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p> Hantera behörigheter för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Skapa en hanteringsregel
 
 1. Gå till det projekt där du vill lägga till routningsreglerna för dina begäranden.
-1. Klicka **Routningsregler** i den vänstra panelen. Du kan behöva klicka **Visa fler** sedan **Routningsregler**.
-1. Klicka **Nya routningsregler** för att lägga till den nya regeln.
-1. Ange följande information för routningsregeln:
+1. Klicka **Routningsregler** till vänster. Du kan behöva klicka **Visa fler** sedan **Routningsregler**.
+1. Klicka **Ny hanteringsregel** för att lägga till den nya regeln.
+1. Ange följande information för hanteringsregeln:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +102,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Namn</strong> </td> 
-      <td> <p>Namnet på routningsregeln. Du kan se routningsregeln om du har tillgång till den här informationen i projektet.</p> </td> 
+      <td>Namnet på routningsregeln. Du kan se routningsregeln om du har tillgång till den här informationen i projektet.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beskrivning</strong> </td> 
@@ -113,7 +118,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    <p><b>ANMÄRKNING</b></p>
 
-   När utgåvan har skickats in kan du redigera uppdragen och tilldela andra användare, roller eller team. Mer information finns i  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Tilldela ärenden </a>.
+   När utgåvan har skickats in kan du redigera uppdragen och tilldela andra användare, roller eller team. Mer information finns i  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Tilldela ärenden</a>.
 
    </td> 
      </tr> 
@@ -130,11 +135,11 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    När du dirigerar ett problem till ett projekt får användare med behörigheter för det aktuella projektet de behörigheter som angetts för det projektet. Mer information om hur du ställer in behörigheter för projekt finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![](assets/new-routing-rule-box-nwe-350x419.png)
+   ![Ny ruta för hanteringsregel](assets/new-routing-rule-box.png)
 
 1. Klicka **Spara**.
 
-   Den här processen definierar bara routningsregeln. För att säkerställa att ärendet dirigeras när det skickas till begärandekön måste du välja routningsregeln på **Köinformation** flik under **Standardflöde**.
+   Den här processen definierar bara routningsregeln. Du måste välja routningsregeln på **Köinformation** flik under **Standardflöde**.
 
    Mer information om hur du lägger till en standardflöde i en begärandekö finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 

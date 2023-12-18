@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
 
 # Skapa köämnen
+
+<!-- Audited: 12/2023 -->
 
 Köämnen fungerar tillsammans med routningsregler för att automatiskt tilldela inkommande arbete till en användare, en jobbroll, ett team eller för att placera det i ett projekt. Köämnen definierar villkoren som måste finnas för att routningsregeln ska implementeras.
 
@@ -50,7 +52,7 @@ Det finns ingen gräns för hur många köämnen som kan tilldelas till en ämne
 </table>
 -->
 
-Du måste ha följande:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +64,10 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>
+    <p>Nytt: Standard</p>
+    <p>eller</p>
+    <p>Aktuell: Planera</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -70,12 +75,12 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p> Hantera behörigheter för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p> Hantera behörigheter för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Skapa ett köämne
 
@@ -87,17 +92,19 @@ Du måste ha följande:
    * [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Gå till det projekt som du valde att aktivera som en kö för hjälpbegäran och där du vill skapa ett nytt köämne.\
-   Mer information om hur du anger ett projekt som en kö för hjälpbegäran finns i följande artikel:\
-   [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   Mer information om hur du anger ett projekt som en kö för hjälpbegäranden finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   Du kan ordna relaterade köämnen under en ämnesgrupp eller direkt under projektet som angetts som en kö för hjälpbegäran. Då får den som gjorde begäran en serie listrutor.\
+   Du kan ordna relaterade köämnen under en ämnesgrupp. Då får den som gjorde begäran en serie listrutor.
+
+   eller
+
    Du kan kapsla in köämnen direkt under projektet som angetts som en kö för hjälpbegäran, utan någon ämnesgrupp.
 
    Mer information om hur du skapar ämnesgrupper finns i [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Klicka **Köämnen** i den vänstra panelen. Du kan behöva klicka **Visa fler** sedan **Köämnen**.
+1. Klicka **Köämnen** till vänster. Du kan behöva klicka **Visa fler** sedan **Köämnen**.
 1. Klicka **Nytt köämne**.
-1. På **Nytt köämne** Ange följande:
+1. På **Nytt köämne** ange följande:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -113,7 +120,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Lägg till i ämnesgrupp</strong> </td> 
-      <td> Om det inte finns några ämnesgrupper i projektet används projektets namn som ämnesgrupp.<br>Om du vill skapa ytterligare ämnesgrupper härifrån väljer du <strong>Skapa ny ämnesgrupp</strong> i listrutan.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> Om det inte finns några ämnesgrupper i projektet blir projektets namn som ämnesgrupp.<br>Om du vill skapa ytterligare ämnesgrupper härifrån väljer du <strong>Skapa ny ämnesgrupp</strong> i listrutan.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Anpassad Forms</strong> </td> 
@@ -123,7 +130,7 @@ Du måste ha följande:
       <td role="rowheader"><strong>Standardgodkännande</strong></td> 
       <td> <p>Associera en godkännandeprocess med det här köavsnittet. Endast godkännandeprocesser för problem visas i den här listrutan. Alla utleveranser som skickas till den här kön kommer att associeras med den här godkännandeprocessen. Adobe Workfront-administratören måste definiera godkännandeprocesser på systemnivå innan du kan koppla dem till köämnen. <span>En användare med administrativ åtkomst till godkännandeprocesser kan också skapa gruppspecifika godkännandeprocesser.</span> Mer information om hur du skapar godkännandeprocesser finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Skapa en godkännandeprocess för arbetsobjekt</a>.<br></p> 
        <div> 
-        <p>Viktigt: Om projektgruppen ändras blir den gruppspecifika godkännandeprocess som är kopplad till befintliga utgåvor en godkännandeprocess för engångsbruk. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>.</p> 
+        <p>Viktigt: Om projektgruppen ändras blir den gruppspecifika godkännandeprocess som är kopplad till befintliga problem en godkännandeprocess för engångsbruk. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>.</p> 
         <p>Tänk på följande när du lägger till godkännandeprocesser i köämnen: </p> 
         <ul style="list-style-type: circle;"> 
          <li>Endast aktiva godkännandeprocesser visas i listan. </li> 
@@ -137,7 +144,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standardflöde</strong> </td> 
-      <td>Ange den routningsregel som du vill koppla till köämnet. Du måste skapa routningsregeln innan du kan koppla den till ett köämne. Mer information finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Skapa routningsregler</a> </td> 
+      <td>Ange den routningsregel som du vill koppla till köämnet. Du måste skapa routningsregeln innan du kan koppla den till ett köämne. Mer information finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Skapa routningsregler</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Typ av begäran</strong> </td> 
@@ -156,8 +163,7 @@ Du måste ha följande:
     </tbody> 
    </table>
 
-   ![](assets/new-queue-topic-box-nwe-350x375.png)
+   ![Ny ämnesruta för kö](assets/new-queue-topic-box.png)
 
-1.  
 1. Klicka **Spara**.\
    Köämnet är nu tillgängligt att använda och visas i området Begäranden i Workfront när en frågekö och en ämnesgrupp har valts.
