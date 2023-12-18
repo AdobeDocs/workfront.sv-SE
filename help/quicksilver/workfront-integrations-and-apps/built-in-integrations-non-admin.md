@@ -7,9 +7,9 @@ description: Ni kan integrera [!DNL Adobe Workfront] med program från tredje pa
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,6 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
     <ul> 
      <li>Skapa nya biljetter i [!DNL Jira] baserat på uppgifter och problem i [!DNL Workfront]</li> 
      <li>Synkronisera uppdateringar och status för länkade uppgifter mellan [!DNL Workfront] och [!DNL Jira] </li> 
-     <li>Fungerar på båda [!DNL Jira] Server och Jira Cloud </li> 
     </ul> </td> 
   </tr> 
   <tr> 
