@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,4 @@ Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller 
 
 * Mer information om hur du skapar åtkomstnivåer finns i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 * Mer information om hur användare kan dela objekt med varandra och bevilja behörigheterna Visa och Redigera för dessa objekt finns i [Bevilja och begär behörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Mer information om tabellen Åtkomstkrav som finns i dokumentationsartiklar finns i [Krav för åtkomstnivåer i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
