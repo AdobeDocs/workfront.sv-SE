@@ -1,40 +1,42 @@
 ---
 title: Hantera postkommentarer
-description: Du kan samarbeta med poster i Adobe Maestro genom att lägga till uppdateringar och ställa frågor eller svar i kommentarområdet i en post.
+description: Du kan samarbeta med poster i Adobe Maestro genom att lägga till kommentarer eller svar i kommentarområdet i en post.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # Hantera postkommentarer
 
-Du kan samarbeta i Adobe Maestro-poster genom att lägga till uppdateringar och ställa frågor eller svar i kommentarområdet i en post.
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. </span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+Du kan samarbeta med poster i Adobe Maestro genom att lägga till kommentarer eller svar i kommentarområdet i en post.
 
 ## Att tänka på när du kommenterar en post
 
 * Du kan lägga till kommentarer och svar i driftsposter och taxonomier i Maestro, i kommentarsavsnittet i en post.
 
-* Kommentarer som läggs till i länkade poster visas inte i de poster som du länkar från. Om du till exempel kommenterar ett projekt som är länkat till en Campaign-post, visas kommentaren bara i projektposten i Maestro och inte i kampanjposten som du länkar från.
+* Kommentarer som läggs till i länkade poster visas inte i de poster som du länkar från. Om du till exempel kommenterar en Maestro-produktpost som är länkad till en Campaign-post, visas kommentaren bara i produktposten i Maestro och inte i Campaign-posten som du länkar från.
 
-* Kommentarer som läggs till i länkade objekt i andra program visas inte i Maestro.
-Kommentarer som läggs till i länkade objekt i Maestro visas inte i andra program.\
-  Kommentarer som läggs till i projekt i Workfront visas t.ex. inte i samma projekt som är länkat till en kampanj i Maestro.
+* Du kan lägga till kommentarer i Maestro-poster som har skapats som ett resultat av en anslutning mellan en Maestro-post och ett objekt från ett annat program.
 
-* Du kan tagga användare så att de uppmärksammas på en uppdatering. Taggade användare får inga meddelanden i appen eller e-postmeddelanden om din uppdatering. Du kan inte tagga team i en Maestro-kommentar.
+  Du kan t.ex. kommentera Project Maestro-posten när du har kopplat Workfront-projekt till Maestro-poster. Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 
-  >[!TIP]
-  >
-  >* Kommentarägare taggas inte automatiskt i en uppdatering.
-  >
-  >* Du kan inte ta bort taggade användare från en uppdatering när du svarar på den.
+* Kommentarer som lagts till i länkade objekt i andra program visas inte i Maestro och kommentarer som lagts till i länkade objekt i Maestro visas inte i andra program.
+
+  Kommentarer som läggs till i projekt i Workfront visas t.ex. inte i samma projekt som är länkat till en kampanj i Maestro, och kommentarer som läggs till i projektet Maestro visas inte i Workfront.
+
+* Du kan tagga användare så att de uppmärksammas på en uppdatering. Taggade användare får inga meddelanden i appen eller e-postmeddelanden om din uppdatering. <!--this might change??-->
 
 * Du kan lägga till en uppdatering till poster från följande områden i Maestro:
 
@@ -140,27 +142,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ### Hantera kommentarer på poster
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/dots-main-menu.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-   Den senast öppnade arbetsytan öppnas som standard.
+Den senast öppnade arbetsytan öppnas som standard.
 1. Välj en tabellvy på menyn **Visa** listruta.
 1. Klicka på namnet på en post i tabellvyn.
 
-   Posten **Information** sidan öppnas.
+   Posten **Information** sidan öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
 
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
@@ -197,9 +187,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
    >
    >Kommentarer från det aktuella året visar inte året i datumstämpeln. Om du hovrar över en tidsstämpel visas hela datumet, inklusive året.
 
-1. (Valfritt och villkorligt) Om du vill söka efter en befintlig kommentar börjar du skriva ett nyckelord i sökrutan i det övre högra hörnet av **Kommentar** område.
+1. <span class="preview">(Valfritt och villkorligt) Om du vill söka efter en befintlig kommentar börjar du skriva ett nyckelord i sökrutan i det övre högra hörnet av **Kommentar** område.</span>
 
-   ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
 
 1. (Valfritt) Klicka på **Svara** eller börja skriva en kommentar i **Lägg till svar ...** för att svara på en befintlig kommentar följer du steg 4-8 ovan. <!--(**************accurate??***********)-->
 

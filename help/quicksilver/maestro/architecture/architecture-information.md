@@ -1,13 +1,13 @@
 ---
-title: Arkitekturinformation
+title: "Arkitektur: artikelindex"
 description: I följande artiklar beskrivs hur du kan konfigurera arkitekturen för Adobe Maestro. Som en del av den här konfigurationen får du lära dig hur du skapar arbetsytor, posttyper och anpassade fält för att mappa ut de arbetsflöden du vill hantera i Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Arkitekturinformation
+# Arkitektur: artikelindex
 
 >[!IMPORTANT]
 >

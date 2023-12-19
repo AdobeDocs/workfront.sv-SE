@@ -6,9 +6,9 @@ description: Du kan utse resurshanterare för ett projekt för att ange vem som 
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!-- remove Prod and Prev references with Prod release - Jan 2023-->
 
-Du kan utse resurshanterare för ett projekt för att ange vem som ansvarar för att hantera resurser i projektet. Detta är ett informationsfält och det är inte kopplat till några resurshanteringsverktyg.
+Du kan utse resurshanterare för ett projekt för att ange vem som ansvarar för att hantera resurser i projektet. Det här är ett informationsfält och det är inte anslutet till några resurshanteringsverktyg.
 
 <!-- drafted for res scheduling deprecation blurb for preview release
 Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
@@ -111,7 +111,7 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
 >[!NOTE]
 >
->Resurshanteraren är inte en jobbroll. det är ett fält som är tillgängligt i ett projekt eller en mall som du kan uppdatera manuellt.
+>Resurshanteraren är inte en jobbroll. Det är ett fält som är tillgängligt i ett projekt eller en mall som du kan uppdatera manuellt.
 
 * Du kan utse upp till 30 användare till resurshanterare för ett enskilt projekt eller en enskild mall.
 
@@ -124,7 +124,7 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
 * Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the Workload Balancer.
 
-  For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+  For information about the Workload Balancer, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
  -->
 
@@ -132,7 +132,7 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
 * De användare som du anger som resurshanterare för ett projekt eller en mall blir inte automatiskt en del av projektgruppen.
 
-   Mer information om projektteam finns i [Hantera projektgruppen](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Mer information om projektteam finns i [Hantera projektgruppen](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * Du kan utse resurshanterare för projekt eller för projektmallar. När du anger Resurshanterare för en projektmall blir alla användare som du anger som resurshanterare för mallen automatiskt Resurshanterare för alla projekt som skapas med den mallen.
 * Du kan visa fältet Resurshanterare i följande områden:
@@ -152,13 +152,13 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
    * Om du vill lägga till resurshanterare i flera projekt samtidigt går du till en lista med projekt, markerar de projekt där du vill utse en eller flera resurshanterare och klickar sedan på **Redigera**.
 
-      Befintliga resurshanterare tas inte bort från de projekt du redigerar; Alla användare som du lägger till på det här sättet läggs till som Resurshanterare i projektet förutom som befintliga Resurshanterare.
+     Befintliga resurshanterare tas inte bort från projekt som du redigerar. Alla användare som du lägger till på det här sättet läggs till som resurshanterare i projektet utöver befintliga resurshanterare.
 
    * Börja skapa ett nytt projekt om du vill lägga till resurshanterare i ett nytt projekt.
 
-      Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
+     Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-1. I **Översikt** i dialogrutan Redigera projekt klickar du på **Resurshanteraren** fält.
+1. I **Ökning** i dialogrutan Redigera projekt klickar du på **Resurshanteraren** fält.
 1. Börja skriva namnet på den användare som du vill lägga till som resurshanterare för projektet och klicka sedan på namnet när det visas i listan.
 
    Upprepa det här steget om du vill lägga till flera resurshanterare för projektet.
@@ -167,7 +167,7 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
 ## Ange resurshanterare för en mall
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Mallar**.
 
@@ -177,11 +177,11 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
    * Om du vill lägga till resurshanterare i flera mallar samtidigt går du till en lista med mallar och väljer de mallar där du vill utse en eller flera resurshanterare. Klicka sedan på **Redigera**.
 
-      Befintliga resurshanterare tas inte bort från de mallar du redigerar; Alla användare som du lägger till på det här sättet läggs till som Resurshanterare i mallen förutom alla befintliga Resurshanterare.
+     Befintliga resurshanterare tas inte bort från mallarna som du redigerar. Alla användare som du lägger till på det här sättet läggs till som resurshanterare i mallen förutom befintliga resurshanterare.
 
    * Om du vill lägga till resurshanterare i en ny mall klickar du på **Ny mall** och klicka sedan på **Menyn Mer** bredvid mallnamnet, och **Redigera .**
 
-1. I **Översikt** klickar du på **Resurshanteraren** fält.
+1. I **Ökning** -avsnittet, klicka i **Resurshanteraren** fält.
 1. Börja skriva namnet på den användare som du vill lägga till som resurshanterare för mallen och klicka sedan på namnet när det visas i listan.
 
    Upprepa det här steget om du vill lägga till flera resurshanterare i mallen.

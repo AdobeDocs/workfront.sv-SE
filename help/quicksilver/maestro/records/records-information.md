@@ -1,13 +1,13 @@
 ---
-title: Information om poster
+title: "Poster: artikelindex"
 description: När du har skapat posttyper i Adobe Maestro kan du skapa enskilda poster av dessa typer. I följande artiklar beskrivs hur du kan skapa och hantera poster i Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ hide: yes
 ---
 -->
 
-# Information om poster
+# Poster: artikelindex
 
 >[!IMPORTANT]
 >
@@ -45,3 +45,4 @@ I följande artiklar beskrivs hur du kan skapa och hantera poster i Adobe Maestr
 * [Ta bort poster](../records/delete-records.md)
 * [Dela poster](../records/share-records.md)
 * [Koppla poster](../records/connect-records.md)
+* [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md)

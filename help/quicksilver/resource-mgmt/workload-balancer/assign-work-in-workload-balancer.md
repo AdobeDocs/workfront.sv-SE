@@ -6,9 +6,9 @@ description: Som resurshanterare kan du använda Adobe Workfront Workload Balanc
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Som resurshanterare kan du använda Adobe Workfront Workload Balancer för att visa arbetsobjekt som ännu inte har tilldelats användare samt tilldela dem dessa objekt.
 
-Allmän information om belastningsutjämnaren finns i [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Allmän information om belastningsutjämnaren finns i [Översikt över belastningsutjämnare](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Du kan tilldela arbetsobjekt (uppgifter och ärenden) till användare i andra områden av Workfront. Genom att använda Utjämning av arbetsbelastning kan du enkelt förstå användarnas tillgänglighet och tydligt se alla andra objekt som de är tilldelade innan du tilldelar dem mer arbete.
 

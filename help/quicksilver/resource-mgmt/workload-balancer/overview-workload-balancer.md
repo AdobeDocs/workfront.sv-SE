@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Översikt över belastningsutjämnaren
+title: Översikt över belastningsutjämnare
 description: När projektledare har planerat arbetet i projekt genom att skapa uppgifter och när resursansvariga har allokerat jobbrollresurser till projekt i resursplaneraren kan projektägare och teamchefer använda arbetsbelastningsutjämnaren för att tilldela användare arbetsobjekt.
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
-# Översikt över belastningsutjämnaren
+# Översikt över belastningsutjämnare
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>

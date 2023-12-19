@@ -6,9 +6,9 @@ description: För att effektivt hitta arbetsobjekt och fokusera på de användar
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2455'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Som resurshanterare kan du använda arbetsbelastningsutjämnaren för att visa och hantera arbetsbelastningen för dina användare. Mer allmän information om belastningsutjämnaren finns i följande artiklar:
 
-* [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+* [Översikt över belastningsutjämnare](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
@@ -81,16 +81,16 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Tänk på följande när du arbetar med filter i Arbetsbelastningsutjämnaren:
 
-* Beroende på varifrån du öppnar arbetsbelastningsutjämnaren kan det hända att Workfront redan filtrerar informationen åt dig. Mer information om fördefinierade filter finns i avsnittet [Förtillämpade filter i Utjämning av arbetsbelastning](#pre-applied-filters-in-the-workload-balancer) i den här artikeln.
+* Beroende på varifrån du öppnar arbetsbelastningsutjämnaren kan Workfront redan filtrera informationen åt dig. Mer information om fördefinierade filter finns i avsnittet [Förtillämpade filter i Utjämning av arbetsbelastning](#pre-applied-filters-in-the-workload-balancer) i den här artikeln.
 * Du kan skapa och använda ett filter utan att spara det, eller så kan du spara ett filter och återanvända det senare.
 * När du tillämpar ett filter utan att spara det kan du återgå till de ursprungliga listorna genom att uppdatera sidan.
 * Du kan visa filter som du har skapat eller filter som andra användare har skapat och delat med dig.
 * När du tar bort eller redigerar ett delat filter tas det även bort eller redigeras för alla som det delas med.
 * När du skapar filter i Utjämning av arbetsbelastning i ett område är de inte tillgängliga i andra områden.
 
-   Filter som skapas i resursområdet är till exempel inte tillgängliga i arbetsbelastningsutjämnaren för ett projekt eller ett team.
+  Filter som skapas i resursområdet är till exempel inte tillgängliga i arbetsbelastningsutjämnaren för ett projekt eller ett team.
 
-   Mer information om var du hittar belastningsutjämnaren finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+  Mer information om var du hittar belastningsutjämnaren finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 * Du kan bara visa de objekt som matchar de valda filtren som också matchar datumen i tidslinjen som visas på skärmen i Utjämning av arbetsbelastning.
 
@@ -99,9 +99,9 @@ Tänk på följande när du arbetar med filter i Arbetsbelastningsutjämnaren:
 I Utjämning av arbetsbelastning visas information i två olika områden:
 
 * **Ej tilldelad arbetsyta**: arbetsposter som ännu inte har tilldelats användare.
-* **Den tilldelade arbetsytan**: arbetsobjekt som är tilldelade användare.
+* **Den tilldelade arbetsytan**: arbetsposter som tilldelas användare.
 
-   Mer information om vad som visas i de olika områdena finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Mer information om vad som visas i de olika områdena finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 >[!IMPORTANT]
 >
@@ -169,7 +169,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
    >
    >Filtret Standard visar användare som tillhör någon av dina team och deras arbetsuppgifter. Du kan redigera en kopia av det här filtret.
 
-   Om du öppnar [!UICONTROL Workload Balancer] från ett projekt[!UICONTROL This project's work items]filtret kan redan användas. Detta visar endast arbetsobjekt som tilldelats användare i det här projektet. Du kan duplicera och spara en kopia av det här filtret.
+   Om du öppnar [!UICONTROL Workload Balancer] från ett projekt,[!UICONTROL This project's work items]filtret kan redan användas. Detta visar endast arbetsobjekt som tilldelats användare i det här projektet. Du kan duplicera och spara en kopia av det här filtret.
 
    Som standard är [!UICONTROL Workload Balancer] för ett projekt visas alla arbetsobjekt som tilldelats alla användare i projektet.
 
@@ -198,13 +198,12 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
       >* **Föreslagna fält**: de fält som används oftast.
 
 
-
    1. Välj en modifierare i den andra listrutan. Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
    1. Välj eller ange ett värde för fältet som du filtrerar efter.
 
       >[!NOTE]
       >
-      > När du vill visa arbetsobjekt från en viss portfölj kan du använda följande filter: &quot;Portfolio namn innehåller marknadsföring.&quot; Här visas arbetsuppgifter som tillhör en portfölj som innehåller&quot;marknadsföring&quot; i namnet.
+      > När du vill visa arbetsobjekt från en viss portfölj kan du använda följande filter:&quot;Portfolio name contains marketing&quot;. Här visas arbetsuppgifter som tillhör en portfölj som innehåller&quot;marknadsföring&quot; i namnet.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
@@ -235,7 +234,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
    >Klicka **Avbryt** tar dig när som helst tillbaka till filterområdet.
 
 1. Välj **Namnlöst filter** och ange namnet på det nya filtret i stället.
-1. Välj en ikon för det nya filtret på **Ikon** nedrullningsbar meny.
+1. Välj en ikon för det nya filtret på **Ikon** listruta.
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
@@ -274,7 +273,7 @@ Du kan duplicera och redigera ett filter för att skapa ett nytt.
 
    * Namn
 
-      Som standard är det nya filternamnet&quot;(ursprungligt filternamn) Kopiera&quot;.
+     Som standard är det nya filternamnet&quot;(ursprungligt filternamn) Kopiera&quot;.
 
    * Ikon
    * Beskrivning
@@ -324,7 +323,7 @@ Tänk på följande innan du tar bort ett filter:
 
 * Du kan inte återställa borttagna filter.
 * Du kan inte ta bort fördefinierade filter.
-* Du kan inte ta bort ett osparat filter. De tas bort automatiskt när du loggat ut och loggat in på Workfront igen.
+* Du kan inte ta bort ett osparat filter. De tas bort automatiskt efter utloggning och inloggning på Workfront.
 * När du tar bort ett delat filter tas det även bort för alla användare som det delas med.
 * När du har tagit bort alla sparade filter visas belastningsutjämnaren enligt de ursprungliga standardvärdena.
 
@@ -358,7 +357,7 @@ Tänk på följande när du delar filter i Utjämning av arbetsbelastning:
 * Filter som du delar i resursområdet visas inte i arbetsbelastningsutjämnaren för ett projekt eller ett team.
 * De filter för belastningsutjämning som du delar med andra visas inte i andra områden av Workfront.
 
-Så här delar du ett filter:
+Dela ett filter:
 
 1. Gå till Utjämning av arbetsbelastning
 1. Klicka på **Filterikon** ![](assets/filter-icon.png) i det övre högra hörnet av **Ej tilldelat arbete** eller **Tilldelat arbete** områden.\
@@ -391,6 +390,7 @@ Så här delar du ett filter:
    1. Klicka **Visa** och inaktivera **Dela** alternativ. Den är aktiverad som standard.
 
    1. Klicka **Hantera** och inaktivera antingen **Dela** eller **Ta bort** alternativ. De är aktiverade som standard.
+
    >[!TIP]
    >
    >Användare kan inte få en högre behörighet än deras åtkomstnivå. Om de inte har åtkomst till redigeringsfilter på åtkomstnivån kan de inte få behörighet att hantera ett filter. Workfront inaktiverar alternativet Hantera för dessa användare och alternativet är nedtonat.

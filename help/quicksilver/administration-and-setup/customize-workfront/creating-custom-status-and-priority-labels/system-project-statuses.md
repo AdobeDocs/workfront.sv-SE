@@ -3,28 +3,28 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Systemprojektstatus
-description: Workfront har 9 inbyggda systemprojektstatusar. De första tre i tabellen nedan är obligatoriska, vilket betyder att du kan låsa upp, byta namn på och ändra ordning på dem, men du kan inte dölja eller ta bort dem. Att ändra en projektstatus är vanligtvis en manuell process. Men ibland ändras en projektstatus automatiskt beroende på andra faktorer som inträffar i systemet.
-author: Caroline
+title: Översikt över status för systemprojekt
+description: Workfront har 9 inbyggda systemprojektstatusar. De första tre i tabellen nedan är obligatoriska, vilket betyder att du kan låsa upp, byta namn på och ändra ordning på dem, men du kan inte dölja eller ta bort dem. Att ändra en projektstatus är vanligtvis en manuell process. Men ibland ändras en projektstatus automatiskt beroende på andra aktiviteter som sker i systemet.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
 
-# Systemprojektstatus
+# Översikt över status för systemprojekt
 
 Workfront har 9 inbyggda systemprojektstatusar.
 
 De första tre i tabellen nedan är obligatoriska, vilket betyder att du kan låsa upp, byta namn på och ändra ordning på dem, men du kan inte dölja eller ta bort dem.
 
-Att ändra en projektstatus är vanligtvis en manuell process. Det finns emellertid vissa scenarier som beskrivs i följande lista när en projektstatus ändras automatiskt, beroende på andra faktorer som inträffar i systemet.
+Att ändra en projektstatus är vanligtvis en manuell process. Det finns emellertid vissa scenarier som beskrivs i följande lista när en projektstatus ändras automatiskt, beroende på andra aktiviteter som sker i systemet.
 
-Följande projektstatusar finns i din Workfront-instans:
+Workfront tillhandahåller följande projektstatusar med din Adobe Workfront-instans:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,19 +43,19 @@ Följande projektstatusar finns i din Workfront-instans:
  <tbody> 
   <tr> 
    <td>Planering (obligatorisk status)</td> 
-   <td> <p>Projektledaren planerar tidslinjen för projektet, tilldelning av uppgifter och godkännanden. Projektledaren ställer in den här statusen för ett projekt manuellt.</p> <p><b>TIPS</p> <p> Vi rekommenderar att du anger standardstatus för nya projekt i Workfront till Planning. Som Workfront-administratör kan du ändra standardstatus för alla nya projekt under Projekt i Projektinställningar.</p> </td> 
-   <td> <p>Användare i projektteamet kan som standard se projektet i sina projektlistor (utan ett anpassat filter) i området Projekt i Workfront. De uppgifter och utgåvor som tilldelats dem i projektet fyller inte i sin arbetslista. Endast godkännanden och godkända arbetsobjekt visas i hemarbetslistan.</p> <p>Inga meddelanden skickas när ett projekt har den här statusen.</p> <p>Vi rekommenderar att alla ändringar som kan utlösa en uppdatering av tidslinjen i projektet, eller ändringar av aktiviteter och tilldelningar av utleveranser, görs medan projektet är i planeringsstatus. Detta minimerar antalet meddelanden som användare får.</p> <p>Projektets tidslinje beräknas inte automatiskt av systemet.</p> </td> 
+   <td> <p>Projektledaren planerar tidslinjen för projektet, tilldelning av uppgifter och godkännanden. Projektledaren ställer in den här statusen för ett projekt manuellt.</p> <p><b>TIPS</p> <p> Vi rekommenderar att du anger standardstatus för nya projekt i Workfront till Planning. Som Workfront-administratör kan du ändra standardstatus för alla nya projekt under Projekt i Projektinställningar.</p> <p>Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Konfigurera systemomfattande projektinställningar</a>.</p></td> 
+   <td> <p>Användare i projektteamet kan som standard se projektet i sina projektlistor (utan ett anpassat filter) i området Projekt i Workfront. De uppgifter och utgåvor som tilldelats dem i projektet fyller inte i sin arbetslista. Endast godkännanden och godkända arbetsobjekt visas i hemarbetslistan.</p> <p>Inga meddelanden skickas när ett projekt har den här statusen.</p> <p>Vi rekommenderar att du gör alla ändringar som kan utlösa en uppdatering av tidslinjen i projektet, eller ändringar av aktiviteter och tilldelningar när projektet är i planeringsstatus. Detta minimerar antalet meddelanden som användare får.</p> <p>Projektets tidslinje beräknas inte automatiskt av systemet.</p> </td> 
   </tr> 
   <tr> 
    <td>Aktuell (obligatorisk status)</td> 
-   <td> <p>Användarna arbetar på det. Projektledaren ska omvandla ett projekt till Aktuell för att signalera att det har startat.</p> <p>Det här är standardstatusen för nya projekt i Workfront.</p> <p><b>TIPS</b></p>
+   <td> <p>Användare arbetar med uppgifter och problem i projektet. Projektledaren ska omvandla ett projekt till Aktuell för att signalera att det har startat.</p> <p>Det här är standardstatusen för nya projekt i Workfront.</p> <p><b>TIPS</b></p>
 
 <p> Som Workfront-administratör kan du ändra standardstatus för nya projekt under Projekt i Projektinställningar. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
-   <td> <p>Användare i projektteamet kan som standard se projektet i sina projektlistor (utan ett anpassat filter) i området Projekt i Workfront. De uppgifter och utgåvor som tilldelats dem i projektet fyller i deras arbetslista. De kan börja acceptera arbete med uppgifter och ärenden och flytta dem till sin lista Arbeta med.</p> <p>I ett aktuellt projekt skickas dessutom alla meddelanden om tidslinjeändringar, tilldelningar, nödvändiga åtgärder och godkännanden till användarna i projektteamet.</p> <p>Projektets tidslinje beräknas automatiskt av systemet om projektets uppdateringstyp är inställd på Automatisk, Vid ändring, Automatisk och Vid ändring.</p> <p>Tips! Det är en god idé att hålla justeringarna för projektplaner så få som möjligt när ett projekt har den här statusen så att användarna inte får för många meddelanden.</p> </td> 
+   <td> <p>Användare i projektteamet kan som standard se projektet i sina projektlistor (utan ett anpassat filter) i området Projekt i Workfront. De uppgifter och utgåvor som tilldelats dem i projektet fyller i deras arbetslista. De kan börja acceptera arbete med uppgifter och ärenden och flytta dem till sin lista Arbeta med.</p> <p>I ett aktuellt projekt skickas alla meddelanden om tidslinjeändringar, tilldelningar, nödvändiga åtgärder och godkännanden till användarna i projektteamet.</p> <p>Projektets tidslinje beräknas automatiskt av systemet om projektets uppdateringstyp är inställd på Automatisk, Vid ändring eller Automatisk och Vid ändring.</p> <p><b>TIPS</b></p> <p> Det är en bra idé att hålla justeringarna för projektplaner så få som möjligt när ett projekt har den här statusen så att användarna inte får för många meddelanden.</p> </td> 
   </tr> 
   <tr> 
    <td>Slutförd (obligatorisk status)</td> 
-   <td> <p> Projektet är slutfört:</p> 
+   <td> <p> Alla uppgifter och ärenden i projektet har slutförts och projektet är slutfört.</p> 
      <p>Om projektets slutföringsläge är inställt på Manuellt väljer projektledaren den här statusen manuellt för att informera användare i projektteamet om att sluta arbeta med projektet.</p> 
     <p>Om du har valt Automatiskt för Slutförandeläge för projektet markeras ett projekt automatiskt som Fullständigt när alla uppgifter och ärenden i projektet har markerats som Fullständigt. 
     <p><b>VIKTIGT</b> </p>
@@ -75,7 +75,7 @@ Följande projektstatusar finns i din Workfront-instans:
   <tr> 
    <td>Parkerad</td> 
    <td>Projektet har inte slutförts ännu, men på grund av vissa förseningar måste projektet tillfälligt avbrytas. Projektledaren väljer att använda den här statusen för att varna användare i projektteamet om att sluta arbeta med projektet vid den aktuella tidpunkten.</td> 
-   <td> <p>Användare i projektteamet kan som standard inte se projektet i sina projektlistor (utan ett anpassat filter) i området Projekt i Workfront. De uppgifter och utgåvor som har tilldelats dem i projektet tas bort från deras arbetslista. </p> <p>Godkännandebeslut kan inte beviljas för uppgifter eller ärenden.</p> <p>Meddelanden om ändringar i tidslinjen, tilldelningar, nödvändiga åtgärder och godkännanden skickas inte till användare i projektteamet.</p> <p> <p><b>ANMÄRKNING</b>: När du placerar ett projekt som är parkerat stoppas inte tidslinjen i projektet. Projektet kan fortfarande visa sig vara i riskzonen eller i svårigheter även om ingen arbetar aktivt med projektet. Vissa manuella justeringar av datumen för de återstående öppna uppgifterna kan behövas när du återställer projektet till Aktuell igen, så att projektet kan visa uppdaterat förlopp.</p> </p> </td> 
+   <td> <p>Användare i projektteamet kan som standard inte se projektet i sina projektlistor (utan ett anpassat filter) i området Projekt i Workfront. De uppgifter och utgåvor som har tilldelats dem i projektet tas bort från deras arbetslista. </p> <p>Godkännandebeslut kan inte beviljas för uppgifter eller ärenden.</p> <p>Meddelanden om ändringar i tidslinjen, tilldelningar, nödvändiga åtgärder och godkännanden skickas inte till användare i projektteamet.</p> <p> <p><b>ANMÄRKNING</b></p>  <p>När du placerar ett projekt som är parkerat stoppas inte tidslinjen i projektet. Projektet kan fortfarande visa sig vara i riskzonen eller i svårigheter även om ingen arbetar aktivt med projektet. Vissa manuella justeringar av datumen för de återstående öppna uppgifterna kan behövas när du återställer projektet till Aktuell igen, så att projektet kan visa uppdaterat förlopp.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Begärd</td> 
@@ -94,7 +94,7 @@ Följande projektstatusar finns i din Workfront-instans:
   </tr> 
   <tr> 
    <td>Idea</td> 
-   <td>Projektstatusen markeras automatiskt som Idea när du skickar en projektförfrågan. Mer information om hur du begär ett projekt med hjälp av ett affärsfall finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Granska begärda projekt</a>.</td> 
+   <td>Projektstatusen markeras automatiskt som Idea när du skickar en projektförfrågan, innan du slutför affärsärendet. Mer information om hur du begär ett projekt med hjälp av ett affärsfall finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Granska begärda projekt</a>.</td> 
    <td> <p>Användare i projektteamet kan som standard inte se projektet i sina projektlistor (utan ett anpassat filter) i området Projekt i Workfront. De uppgifter och utgåvor som tilldelats dem i projektet fyller inte i sin arbetslista.</p> <p>Alla meddelanden som rör projektet, förutom ett meddelande om statusändring, skickas inte till någon användare.</p> <p>Projektets tidslinje beräknas inte automatiskt av systemet.</p> </td> 
   </tr> 
  </tbody> 

@@ -2,13 +2,13 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Skapa ett smidigt team
-description: Med Adobe Workfront kan smidiga team slutföra arbetet på ett stegvis och organiserat sätt.
+description: Med Adobe Workfront kan smidiga team slutföra arbetet på ett inkrementellt och organiserat sätt.
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Alla användare i organisationen kan se det flexibla teamet och se alla flexibla
 
 [!DNL Workfront] stöder följande flexibla metoder:
 
-* **[!UICONTROL Scrum]**: Team har en eftersläpning av arbete som behöver göras. När teamet är redo att arbeta med en viss del av arbetet flyttas arbetet från eftersläpningen till en upprepning. Mer information om hur du hanterar ett Scrum-team finns i [Scrum in a agile team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
+* **[!UICONTROL Scrum]**: Team har en eftersläpning i arbetet som behöver göras. När teamet är redo att arbeta med en viss del av arbetet flyttas arbetet från eftersläpningen till en upprepning. Mer information om hur du hanterar ett Scrum-team finns i [Scrum in a agile team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
-* **[!UICONTROL Kanban]:** Team flyttar arbete i Kanban-vyn över förbestämda statusar. Standardstatus är: eftersläpning, pågående och slutförd. Mer information om hur du hanterar ett Kanban-team finns i [Kanban i ett rörligt team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **[!UICONTROL Kanban]:** Team flyttar arbete i Kanban-vyn över förbestämda statusar. Standardstatusvärdena är: eftersläpning, pågående och slutförd. Mer information om hur du hanterar ett Kanban-team finns i [Kanban i ett rörligt team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Åtkomstkrav
 
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
 
 ## Bestäm en flexibel metod
 
@@ -83,7 +83,7 @@ Följande funktionalitet stöder den här metoden:
 * Visa ett nedladdningsbart diagram för att se förloppet mot artiklar under upprepningen\
    Mer information finns i [Översikt över Agile-nedladdningsdiagram](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-## Skapa ett nytt smidigt team
+## Skapa ett smidigt team
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
 1. Klicka på **[!UICONTROL Switch Teams]** icon ![Byt ikon för team](assets/switch-team-icon.png)och sedan klicka **[!UICONTROL Create New Team]**.
@@ -106,7 +106,7 @@ Följande funktionalitet stöder den här metoden:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Börja skriva namnet på en grupp som ska läggas till i teamet och markera sedan namnet när det visas i listrutan.</p> <p>Obs! När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i den gruppen eller undergruppen hantera teamet utan att vara medlem i det. Gruppadministratörer kan gå till [!UICONTROL Teams] området från [!UICONTROL Main Menu] och klicka på [!UICONTROL Switch Teams] pil <img src="assets/switch-team-icon.png" alt="Byt ikon för team"> för att lista alla team som har tilldelats de grupper som de hanterar.</p> </td> 
+      <td> <p>Börja skriva namnet på en grupp som ska läggas till i teamet och markera sedan namnet när det visas i listrutan.</p> <p>Obs! När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i den gruppen eller undergruppen hantera teamet utan att vara medlem i gruppen. Gruppadministratörer kan gå till [!UICONTROL Teams] området från [!UICONTROL Main Menu] och klicka på [!UICONTROL Switch Teams] pil <img src="assets/switch-team-icon.png" alt="Byt ikon för team"> för att lista alla team som har tilldelats de grupper som de hanterar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 

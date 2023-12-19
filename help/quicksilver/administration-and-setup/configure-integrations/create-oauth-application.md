@@ -3,22 +3,23 @@ title: Skapa OAuth2-program för [!DNL Workfront] integreringar
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Som en [!DNL Adobe Workfront] kan du skapa OAuth2-program för din instans av [!DNL Workfront], som ger andra program åtkomst till Workfront. Dina användare kan sedan ge dessa andra program behörighet att komma åt sina Workfront-data. På så sätt kan du integrera Workfront med valfria program, inklusive egna, interna program.
+description: Som en [!DNL Adobe Workfront] -administratör kan du skapa OAuth2-program för din instans av [!DNL Workfront], som ger andra program åtkomst till Workfront. Dina användare kan sedan ge dessa andra program behörighet att komma åt sina Workfront-data. På så sätt kan du integrera Workfront med valfria program, inklusive egna, interna program.
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
 
 # Skapa OAuth2-program för [!DNL Workfront] integreringar
 
-Som en [!DNL Adobe Workfront] kan du skapa OAuth2-program för din instans av [!DNL Workfront]som ger andra program åtkomst [!DNL Workfront]. Användarna kan sedan ge dessa andra program behörighet att komma åt sina [!DNL Workfront] data. På så sätt kan du integrera med valfria program, inklusive egna, interna program.
+Som en [!DNL Adobe Workfront] -administratör kan du skapa OAuth2-program för din instans av [!DNL Workfront]som ger andra program åtkomst [!DNL Workfront]. Användarna kan sedan ge dessa andra program behörighet att komma åt sina [!DNL Workfront] data. På så sätt kan du integrera med valfria program, inklusive egna, interna program.
 
-När du skapar en [!UICONTROL OAuth2] genererar du ett klient-ID och klienthemlighet. Dina användare kan sedan använda klient-ID i API-anrop för att integrera med det program du har skapat.
+När du skapar [!UICONTROL OAuth2] genererar du ett klient-ID och klienthemlighet. Dina användare kan sedan använda klient-ID i API-anrop för att integrera med det program du har skapat.
 
 >[!NOTE]
 >
@@ -42,7 +43,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nytt: [!UICONTROL Standard]</p>
+   eller
+   <p>Aktuell:[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -51,11 +54,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## OAuth2 - översikt
 
-Tänk dig att ett program behöver hämta specifik information från [!DNL Workfront]. Ett program som begär information kallas för en klient. I det här exemplet är klientnamnet ClientApp. ClientApp behöver åtkomst till en viss användares information och behöver därför åtkomst [!DNL Workfront] som den användaren. Om användaren ger ClientApp sitt användarnamn och lösenord kan ClientApp komma åt alla data som användaren har åtkomst till. Detta är en säkerhetsrisk eftersom ClientApp bara behöver en liten, specifik uppsättning information.
+Tänk dig att ett program måste hämta specifik information från [!DNL Workfront]. Ett program som begär information kallas för en klient. I det här exemplet är klientnamnet ClientApp. ClientApp behöver åtkomst till en viss användares information och måste därför ha åtkomst [!DNL Workfront] som den användaren. Om användaren ger ClientApp sitt användarnamn och lösenord kan ClientApp komma åt alla data som användaren har åtkomst till. Det här är en säkerhetsrisk eftersom ClientApp bara behöver en liten, specifik uppsättning information.
 
 När du skapar en OAuth2-app för ClientApp berättar du i stort sett [!DNL Workfront] som ClientApp har åtkomst till [!DNL Workfront], men bara om den användare vars konto ClientApp har åtkomst ger behörighet för åtkomsten.
 
@@ -112,7 +115,7 @@ När du skapar ett OAuth2-program ska du välja den typ av program som bäst upp
 
 >[!NOTE]
 >
->Du kan ha upp till tio OAuth2-program totalt åt gången.
+>Du kan ha upp till totalt tio OAuth2-program samtidigt.
 
 * [Skapa ett OAuth2-program med serverautentisering (JWT-flöde)](#create-an-oauth2-application-using-server-authentication-jwt-flow)
 * [Skapa ett OAuth2-program med användarens inloggningsuppgifter (kodflöde för auktorisering)](#create-an-oauth2-application-using-user-credentials-authorization-code-flow)
@@ -120,11 +123,12 @@ När du skapar ett OAuth2-program ska du välja den typ av program som bäst upp
 
 ### Skapa ett OAuth2-program med serverautentisering (JWT-flöde) {#create-an-oauth2-application-using-server-authentication-jwt-flow}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicka på **[!UICONTROL System]** väljer **[!UICONTROL OAuth Applications]**.
-1. Klicka på **[!UICONTROL Create app integration]**.
-1. I fönstret som visas väljer du **[!UICONTROL Server Authentication]**.
+1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL System]** väljer **[!UICONTROL OAuth2 Applications]**.
+1. Klicka **[!UICONTROL Create app integration]**.
+The **Nytt OAuth2-program** visas.
+1. I **Nytt OAuth2-program** ruta, markera **[!UICONTROL Server Authentication]**.
 1. Ange ett namn för det nya programmet, till exempel &quot;[!DNL Workfront] för ClientApp.&quot;
 1. Klicka på **[!UICONTROL Create]**.
 1. Fyll i fälten för den nya appen.
@@ -139,7 +143,7 @@ När du skapar ett OAuth2-program ska du välja den typ av program som bäst upp
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Det här fältet genereras automatiskt</p> <p><b>VIKTIGT</b>:  <p>Kopiera innehållet i det här fältet till en annan säker fil innan du stänger den här sidan. Du kommer inte att kunna se den här hemliga nyckeln igen.</p> <p>Om du förlorar den här nyckeln tar du bort den och skapar en ny klienthemlighet.</p> 
+      <td> <p>Det här fältet genereras automatiskt</p> <p><b>VIKTIGT</b>:  <p>Kopiera innehållet i det här fältet till en annan säker fil innan du stänger den här sidan. Du kommer inte att kunna se den här hemliga nyckeln igen.</p> <p>Om du förlorar den här nyckeln tar du bort den och skapar en klienthemlighet.</p> 
         <ol> 
          <li value="1"> <p>Klicka på <b>[!UICONTROL Delete]</b> icon <img src="assets/delete.png"> om du vill ta bort den aktuella klienthemligheten.</p> </li> 
          <li value="2"> <p>Klicka <b>[!UICONTROL Add client secret]</b> för att skapa en ny klienthemlighet.</p> </li> 
@@ -170,10 +174,13 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
 
 ### Skapa ett OAuth2-program med användarens inloggningsuppgifter (kodflöde för auktorisering) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
-1. Klicka på **[!UICONTROL System]** väljer **[!UICONTROL OAuth Applications]**.
+{{step-1-to-setup}}
+
+1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL System]** väljer **[!UICONTROL OAuth2 Applications]**.
 1. Klicka på **[!UICONTROL Create app integration]**.
-1. I det fönster som visas väljer du **[!UICONTROL User Authentication]**.
+
+   The **Nytt OAuth2-program** visas.
+1. I **Nytt OAuth2-program** ruta, markera **[!UICONTROL User Authentication]**.
 1. Ange ett namn för det nya OAuth2-programmet, till exempel &quot;[!DNL Workfront] för ClientApp.&quot;
 1. Klicka på **[!UICONTROL Create]**.
 1. Fyll i fälten för den nya appen.
@@ -188,7 +195,7 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Det här fältet genereras automatiskt</p> <p><b>VIKTIGT</b>:  <p>Kopiera innehållet i det här fältet till en annan säker fil innan du stänger den här sidan. Du kommer inte att kunna se den här hemliga nyckeln igen.</p> <p>Om du förlorar den här nyckeln tar du bort den och skapar en ny klienthemlighet.</p> 
+      <td> <p>Det här fältet genereras automatiskt</p> <p><b>VIKTIGT</b>:  <p>Kopiera innehållet i det här fältet till en annan säker fil innan du stänger den här sidan. Du kommer inte att kunna se den här hemliga nyckeln igen.</p> <p>Om du förlorar den här nyckeln tar du bort den och skapar en klienthemlighet.</p> 
         <ol> 
          <li value="1"> <p>Klicka på <b>[!UICONTROL Delete]</b> icon <img src="assets/delete.png"> om du vill ta bort den aktuella klienthemligheten.</p> </li> 
          <li value="2"> <p>Klicka <b>[!UICONTROL Add client secret]</b> för att skapa en ny klienthemlighet.</p> </li> 
@@ -235,10 +242,13 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
 
 ### Skapa ett ensidigt OAuth2-webbprogram med PKCE {#create-an-oauth2-single-page-web-application-using-pkce}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
-1. Klicka på **[!UICONTROL System]** väljer **[!UICONTROL OAuth Applications]**.
+{{step-1-to-setup}}
+
+1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL System]** väljer **[!UICONTROL OAuth2 Applications]**.
 1. Klicka på **[!UICONTROL Create app integration]**.
-1. I det fönster som visas väljer du **[!UICONTROL Single-page web application]**.
+
+   The **Nytt OAuth2-program** visas.
+1. I **Nytt OAuth2-program** ruta, markera **[!UICONTROL Single Page Web Application]**.
 1. Ange ett namn för den nya [!UICONTROL OAuth2] program, till exempel &quot;[!DNL Workfront] för ClientApp.&quot;
 1. Klicka på **[!UICONTROL Create]**.
 1. Fyll i fälten för den nya appen.
@@ -252,19 +262,19 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
       <td> <p>Det här fältet genereras automatiskt.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Redirect URLs]</td> 
+      <td role="rowheader">[!UICONTROL Redirect URls]</td> 
       <td>Användare omdirigeras till den här sökvägen när de har autentiserats med Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Refresh token rotation]</td> 
+      <td role="rowheader">[!UICONTROL Rotate refresh token everytime it is used]</td> 
       <td>Aktivera det här alternativet om du vill att en ny uppdateringstoken ska utfärdas när uppdateringstoken används. Programmet måste lagra den nya uppdateringstoken efter varje uppdatering.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Absolute refresh token expiration]</td> 
+      <td role="rowheader">[!UICONTROL Absolute expiration]</td> 
       <td> <p>Välj hur lång tid du vill att en uppdateringstoken ska finnas innan den upphör att gälla. När den upphör att gälla måste användarna logga in på integreringen igen. Välj "[!UICONTROL No expiration]" om du inte vill att uppdateringstoken ska upphöra att gälla.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Inactivity refresh token expiration]</td> 
+      <td role="rowheader">[!UICONTROL Inactivity expiration]</td> 
       <td> <p>Välj efter hur lång tid, om användaren inte har varit aktiv i systemet, deras uppdateringstoken förfaller. </p> <p>Om till exempel inaktivitetens utgångsdatum för uppdateringstoken är sex månader och användaren inte loggar in på sex månader, upphör uppdateringstoken att gälla även om den absoluta utgångstiden för uppdateringstoken kan anges längre.</p> </td> 
      </tr> 
      <tr> 
@@ -280,11 +290,25 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
       <td>Ange en beskrivning för integreringen.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL App Description URL]</td> 
-      <td>Det kan vara en länk till en"Om oss"-sida eller en sida med mer information om integreringen.</td> 
+      <td role="rowheader">[!UICONTROL Developer name]</td> 
+      <td>Detta är namnet på den utvecklare som konfigurerar OAuth2-programmet.</td> 
      </tr> 
-    </tbody> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL Developer email address]</td> 
+      <td>Detta är e-postadressen till den utvecklare som konfigurerar OAuth2-programmet.</td> 
+     </tr> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL Privacy policy UTL]</td> 
+      <td>Det här är länken till den plats där din organisation lagrar integritetspolicyn.</td> 
+     </tr>
+
+
+   </tbody> 
    </table>
+
+   <!-- removed this from the table, and added "Developer name" and following rows:
+   [!UICONTROL App Description URL]</td> 
+      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -300,7 +324,7 @@ Ytterligare konfiguration och användning av det skapade OAuth2-programmet kräv
 
 >[!NOTE]
 >
->Dina användare får åtkomst till [!UICONTROL OAuth2] via API. I det här avsnittet beskrivs funktionaliteten i allmänna termer och finns endast i informationssyfte.
+>Dina användare får åtkomst till [!UICONTROL OAuth2] via API:t. I det här avsnittet beskrivs funktionaliteten i allmänna termer och finns endast i informationssyfte.
 >
 >Specifika anvisningar om hur du använder OAuth2-programmet, inklusive specifika API-anrop, finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med hjälp av ett auktoriseringskodsflöde](../../wf-api/api/oauth-app-code-token-flow.md).
 

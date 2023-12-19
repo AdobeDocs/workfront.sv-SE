@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ I följande artiklar finns en översikt över Adobe Maestro:
 
 Följande avsnitt innehåller artiklar som i detalj beskriver de Maestro-funktioner som finns för närvarande:
 
-* [Åtkomstinformation](../maestro/access/access-information.md): Information om åtkomst och behörigheter som krävs för att använda Adobe Maestro.
-* [Arkitekturinformation](../maestro/architecture/architecture-information.md): Detaljerad information om arkitekturen i Adobe Maestro, med stegvisa instruktioner om hur du kan skapa och hantera arbetsytor och posttyper.
-* [Fältinformation](../maestro/fields/fields-information.md): Detaljerad information och stegvisa instruktioner om hur du skapar anpassade fält för posttyper i Maestro.
-* [Information om poster](../maestro/records/records-information.md): Detaljerad information och stegvisa instruktioner om hur du kan skapa och hantera poster.
-* [Vyinformation](../maestro/views/views-information.md): Detaljerad information om vyerna i maestro och hur du hanterar dem när du visar poster på en posttypssida.
+* [Åtkomst: artikelindex](../maestro/access/access-information.md): Information om åtkomst och behörigheter som krävs för att använda Adobe Maestro.
+* [Arkitektur: artikelindex](../maestro/architecture/architecture-information.md): Detaljerad information om arkitekturen i Adobe Maestro, med stegvisa instruktioner om hur du kan skapa och hantera arbetsytor och posttyper.
+* [Fält: artikelindex](../maestro/fields/fields-information.md): Detaljerad information och stegvisa instruktioner om hur du skapar anpassade fält för posttyper i Maestro.
+* [Poster: artikelindex](../maestro/records/records-information.md): Detaljerad information och stegvisa instruktioner om hur du kan skapa och hantera poster.
+* [Vyer: artikelindex](../maestro/views/views-information.md): Detaljerad information om vyerna i maestro och hur du hanterar dem när du visar poster på en posttypssida.

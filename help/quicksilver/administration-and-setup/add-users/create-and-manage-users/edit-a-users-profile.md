@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3369'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill visa ett procentvärde i området Uppdatera för den här användarens uppgifter.</li> 
        <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användaren tilldelar sig själv ska visas direkt i listan Arbeta på i hemområdet. Som standard visas allt som tilldelats en användare i listorna Ready to Start eller Not Ready (Klart att starta) i området Home (Hem).</li> 
-       <li><b>Generera korrektur automatiskt när dokument överförs</b>: Markera det här alternativet om du vill att de dokument som användaren överför omedelbart ska generera ett korrektur. Beroende på vilken Workfront-licens du har kan det totala antalet korrektur som finns tillgängliga för alla användare påverkas när du skapar korrektur. </li>
+       <li><b>Generera korrektur automatiskt när dokument överförs</b>: Markera det här alternativet om du vill att de dokument som användaren överför omedelbart ska generera ett korrektur. </li>
        </ul> </td> 
      </tr> 
      <tr> 

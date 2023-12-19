@@ -7,9 +7,9 @@ description: Du kan använda belastningsutjämnaren för att schemalägga resurs
 author: Alina
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,11 @@ I den här artikeln beskrivs de områden där du kan komma åt belastningsutjäm
 >
 >Mer information om belastningsutjämnaren för arbetsbelastning och hur du använder den för att hantera och schemalägga resurser för arbete finns i följande artiklar:
 >
->* [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+>* [Översikt över belastningsutjämnare](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 >* [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [Översikt över tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 >
-
 
 ## Åtkomstkrav
 
@@ -85,7 +84,7 @@ Följande avsnitt visar var du kan komma åt Utjämning av arbetsbelastning i Wo
 ### Få åtkomst till belastningsutjämnaren för flera projekt i resursområdet
 
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)och sedan klicka **Resurser**.
-1. Klicka **Utjämning av arbetsbelastning** i den vänstra panelen.
+1. Klicka **Utjämning av arbetsbelastning** till vänster.
 
    ![](assets/nwe-balancer-global.png)
 
@@ -94,7 +93,7 @@ Följande avsnitt visar var du kan komma åt Utjämning av arbetsbelastning i Wo
    * **Ej tilldelat arbete**: Inga ej tilldelade arbetsuppgifter.
    * **Tilldelat arbete**: Alla aktiva användare i systemet.
 
-      Vi rekommenderar att du använder filter när du visar användare i området Tilldelat arbete. Mer information finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
+     Vi rekommenderar att du använder filter när du visar användare i området Tilldelat arbete. Mer information finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Åtkomst till belastningsutjämnaren för ett team
 
@@ -110,9 +109,9 @@ Hemteamets sida visas.
    * **Ej tilldelat arbete**: Objekt som har tilldelats teamet och inte tilldelats användare.
    * **Tilldelat arbete**: Alla medlemmar i teamet med alla deras uppdrag.
 
-      >[!TIP]
-      >
-      >Teammedlemmar kan tilldelas till arbete som även tilldelats teamet eller till arbete som tilldelats andra team eller roller.
+     >[!TIP]
+     >
+     >Teammedlemmar kan tilldelas till arbete som även tilldelats teamet eller till arbete som tilldelats andra team eller roller.
 
 
 
@@ -120,7 +119,7 @@ Hemteamets sida visas.
 
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)och sedan klicka **Projekt**.
 1. Klicka på namnet på ett projekt för att öppna projektsidan.
-1. Klicka **Utjämning av arbetsbelastning** i den vänstra panelen. Du kanske måste klicka **Visa fler** sedan **Utjämning av arbetsbelastning**.
+1. Klicka **Utjämning av arbetsbelastning** till vänster. Du kanske måste klicka **Visa fler** sedan **Utjämning av arbetsbelastning**.
 
    Utjämning av arbetsbelastning för projektet visas.
 
@@ -129,11 +128,11 @@ Hemteamets sida visas.
    I arbetsbelastningsutjämnaren för ett projekt visas följande som standard:
 
    * **Ej tilldelat arbete**: Objekt från projektet som har tilldelats till jobbroller eller team och som inte har tilldelats användare.
-   * **Tilldelat arbete**: Användare som är tilldelade till objekt i projektet.
+   * **Tilldelat arbete**: Användare som har tilldelats objekt i projektet.
 
-      >[!TIP]
-      >
-      >Du kan visa alla användare i systemet i stället för endast de som finns i projektet (i området Tilldelad arbetsyta) genom att aktivera alternativet Visa alla användare. Mer information finns i [Navigera till arbetsbelastningsutjämnaren](../workload-balancer/navigate-the-workload-balancer.md).
+     >[!TIP]
+     >
+     >Du kan visa alla användare i systemet i stället för endast de som finns i projektet (i området Tilldelad arbetsyta) genom att aktivera alternativet Visa alla användare. Mer information finns i [Navigera till arbetsbelastningsutjämnaren](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## Lägga till arbetsbelastningsutjämnaren i ett anpassat avsnitt
@@ -142,7 +141,7 @@ Du kan lägga till arbetsbelastningsutjämnaren i valfritt anpassat avsnitt.
 
 De flesta anpassningar som du redan har tillämpat på Utjämning av arbetsbelastning bevaras när du lägger till dem i ett anpassat avsnitt.
 
-1. Gå till Utjämning av arbetsbelastning genom att gå till något av följande områden:
+1. Gå till Utjämning av arbetsbelastning genom att gå till något av följande:
 
    * Resursområdet
    * Ett team

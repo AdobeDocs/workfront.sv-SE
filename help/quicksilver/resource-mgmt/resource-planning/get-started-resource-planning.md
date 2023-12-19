@@ -7,9 +7,9 @@ description: Du kan använda resursplaneringsverktygen för att hantera dina job
 author: Alina
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -27,31 +27,31 @@ Du kan använda Adobe Workfront resurshanteringsverktyg för att förutsäga res
 
 Du kan använda resursplaneringsverktygen för att hantera dina jobbroller, deras tillgänglighet och allmänna tilldelning till projekt baserat på den här tillgängligheten.
 
-Budgetering av användarnas allmänna tilldelning till projekt tilldelar dem inte till faktiskt arbete (uppgifter och ärenden). Du måste tilldela resurser som ska fungera med hjälp av Utjämning av arbetsbelastning.
+Budgetering av användarnas allmänna tilldelning till projekt tilldelar dem inte till faktiskt arbete (uppgifter och ärenden). Du måste tilldela dina resurser så att de fungerar med hjälp av Utjämning av arbetsbelastning.
 
-Mer information om att schemalägga resurser i Workfront med hjälp av belastningsutjämnaren finns i [Översikt över belastningsutjämnaren](../workload-balancer/overview-workload-balancer.md).
+Mer information om att schemalägga resurser i Workfront med hjälp av belastningsutjämnaren finns i [Översikt över belastningsutjämnare](../workload-balancer/overview-workload-balancer.md).
 
-## Resursplaneringsverktyg i Workfront
+## Verktyg för resursplanering i Workfront
 
 Om du vill budgetera tid för dina resurser för de projekt du tänker tilldela dem kan du använda följande verktyg:
 
-* För budgetering av anslag för och prioritering av flera projekt på systemnivå: använder resursplaneraren på systemnivå.
+* Om du vill budgetera allokeringar för och prioritera flera projekt på systemnivå använder du resursplaneringsverktyget på systemnivå.
 
-   Du kommer åt resursplaneraren genom att gå till planeringsavsnittet i resursområdet.
+  Du kommer åt resursplaneraren genom att gå till planeringsavsnittet i resursområdet.
 
-   Mer information om resursplaneraren finns i [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Mer information om resursplaneraren finns i [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* För budgeteringsallokeringar för ett enskilt projekt: Använd resursplaneraren på projektnivå i området Resursbudgetering i ett projekts affärsärende. Mer information om budgeteringsresurser för ett projekt finns i artikeln [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* För budgeteringsallokeringar för ett enskilt projekt: använd resursplaneraren på projektnivå i området Resursbudgetering i ett projektärende. Mer information om budgeteringsresurser för ett projekt finns i artikeln [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Om du vill hantera användare och ordna dem i pooler baserat på gemensamma kunskaper eller avdelningsstruktur och sedan hantera deras allokeringar för de projekt de tilldelas, måste du skapa resurspooler. Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Om du vill hantera användare och ordna dem i pooler baserat på gemensamma kunskaper eller avdelningsstruktur och sedan hantera deras allokeringar för de projekt de tilldelas, måste du skapa resurspooler. Mer information om hur du skapar resurspooler finns i [Skapa resursgrupper](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
-   >[!TIP]
-   >
-   >Resursbudgeteringsområdet för ett projekt är resursplaneraren på projektnivå. När du budgeterar resurser i ett projekts affärsfall visas informationen även i resursplaneraren på systemnivå.
+  >[!TIP]
+  >
+  >Resursbudgeteringsområdet för ett projekt är resursplaneraren på projektnivå. När du budgeterar resurser i ett projekts affärsfall visas informationen även i resursplaneraren på systemnivå.
 
 * Använd Adobe Workfront Scenario Planner för att hantera resurser på en hög nivå, i flera olika satsningar och för att anpassa arbetet efter organisationens strategi. Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../scenario-planner/scenario-planner-overview.md).
 
-   Du kan använda resursplaneringsverktyget både på systemnivå, för flera projekt, och för att budgetera resurser för ett enskilt projekt i området Resursbudgetering för affärärendet. Mer information om budgetering av resurser för ett projekt i ett affärsfall finns i [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Du kan använda resursplaneringsverktyget både på systemnivå, för flera projekt, och för att budgetera resurser för ett enskilt projekt i området Resursbudgetering för affärärendet. Mer information om budgetering av resurser för ett projekt i ett affärsfall finns i [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Syftet med resursplaneringsverktygen
 
@@ -61,11 +61,11 @@ Om du vill budgetera tid för dina resurser för de projekt du tänker tilldela 
    * Förstå tillgängligheten för dina resurser baserat på ditt användares schema.
    * Budgettimme, heltidsanställd eller kostnadsallokering för dina resurser (användare och jobbroller) för de projekt som de är tilldelade till.
 
-   Mer information om hur du arbetar i resursplaneraren finns i artikeln [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Mer information om hur du arbetar i resursplaneraren finns i artikeln [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Med hjälp av Scenarioplaneraren kan ni skapa företagsplaner för flera initiativ som skisserar företagets övergripande strategiska resultat. Mer information finns i [Kom igång med scenarioplanen](../../scenario-planner/get-started-with-scenario-planning.md).
 
-   Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../scenario-planner/scenario-planner-overview.md).
+  Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

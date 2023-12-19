@@ -7,9 +7,9 @@ description: Med Resurshantering kan du konfigurera ditt system så att användn
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Processen för att hantera resurser i Workfront omfattar följande steg:
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **Analys**: Som resurshanterare, projektägare eller personansvarig kan du läsa användningsrapporten för att få en förståelse för hur budgeterade och planerade allokeringar av dina resurser jämfört med de faktiska. Granska informationen per timmar, kostnad eller intäkt. Mer information om användningsrapporten finns i [Visa information om resursutnyttjande](../../resource-mgmt/resource-utilization/view-utilization-information.md).
@@ -169,7 +169,7 @@ Mer information om kraven för varje resurshanteringsverktyg i Workfront finns i
 
 * Avsnittet [Krav för att arbeta i resursplaneraren](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) i artikeln [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* Avsnittet [Bästa tillvägagångssätt för att använda belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) i artikeln [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Avsnittet [Bästa tillvägagångssätt för att använda belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) i artikeln [Översikt över belastningsutjämnare](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Tillgång till budgetresurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

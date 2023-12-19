@@ -7,9 +7,9 @@ description: Du kan beräkna och budgetera allokeringen av dina resurser till de
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: ec49a7d3adeb24c1b8df0ff5fafe650d18d92280
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ Du kan använda resursplaneraren för att enkelt förstå tillgängligheten för
 >[!IMPORTANT]
 >
 >Du kan inte använda resursplaneraren för att tilldela användare verkligt arbete (uppgifter och ärenden). Du kan bara beräkna hur lång tid det tar för användare eller jobbroller att slutföra ett projekt, oavsett vilka uppgifter och ärenden de har tilldelats.\
->Om du vill tilldela användare verkligt arbete måste du använda Utjämning av arbetsbelastning. Mer information om belastningsutjämnaren finns i [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Om du vill tilldela användare verkligt arbete måste du använda Utjämning av arbetsbelastning. Mer information om belastningsutjämnaren finns i [Översikt över belastningsutjämnare](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Du kan visa information i resursplaneraren i tre olika vyer. Du kan använda varje vy för att uppfylla något av följande:
+Du kan visa information i resursplaneraren i tre olika vyer. Du kan använda varje vy för att uppfylla något av följande syften:
 
 * Om du vill budgetera tiden eller kostnaden för dina resurser för det arbete som behöver utföras med projekt- och rollvyerna. Detta är huvudsyftet med resursplaneraren.\
-   Mer information om budgetering i Resursplanering finns i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Mer information om budgetering i Resursplanering finns i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * Så här visar du följande information i användarvyn:
 
@@ -44,37 +44,37 @@ Du kan visa information i resursplaneraren i tre olika vyer. Du kan använda var
    * Den planerade tid som behövs för att slutföra arbetet enligt projektplanen.
    * den tid som användare redan har loggat in på faktiska arbetsobjekt.
 
-   Mer information om hur du visar Tillgängliga, Planerade och Faktiska timmar eller FTE för användare i Resursplaneraren finns i artikeln [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  Mer information om hur du visar Tillgängliga, Planerade och Faktiska timmar eller FTE för användare i Resursplaneraren finns i artikeln [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
 ## Resursplaneringsfrågor
 
 * Du kan prioritera de projekt som du arbetar med och budgetera resurstilldelningen utifrån deras prioritet, så att du ser till att du har resurser tilldelade till de viktigaste projekten först.
 
-   Mer information om hur du prioriterar projekt i resursplaneraren finns i [Prioritera projekt i resursplaneraren](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Mer information om hur du prioriterar projekt i resursplaneraren finns i [Prioritera projekt i resursplaneraren](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * Du kan visa timtals-, FTE- och kostnadsinformation från uppgifter och utgåvor av projekt.
 
-   >[!NOTE]
-   >
-   >Uppgifter och ärenden visas inte i resursplaneraren. Timmar, heltidsekvivalenter och kostnadsinformation från resursallokeringarna för aktiviteterna visas i resursplaneraren som ett totalt antal för projektet.
+  >[!NOTE]
+  >
+  >Uppgifter och ärenden visas inte i resursplaneraren. Timmar, heltidsekvivalenter och kostnadsinformation från resursallokeringarna för aktiviteterna visas i resursplaneraren som ett totalt antal för projektet.
 
 * Timme-, FTE- och kostnadsinformation från överordnade uppgifter är exkluderad från de projekt som visas i resursplaneraren. Vi rekommenderar att du endast tilldelar resurser till underordnade uppgifter om du vill hantera resursernas tid eller kostnad i resursplaneraren.
 
-   Mer information om överordnade uppgifter finns i följande artiklar:
+  Mer information om överordnade uppgifter finns i följande artiklar:
 
    * [Översikt över uppgifter](../../manage-work/tasks/task-information/tasks-overview.md)
    * [Skapa underaktiviteter](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
-   >[!TIP]
-   >
-   >Överordnade uppgifter visar det totala antalet timmar och kostnader för de underordnade uppgifterna. På grund av detta räknas dessa belopp två gånger när du räknar timmar, heltidsekvivalenter och kostnader för de underordnade aktiviteterna och de överordnade aktiviteterna. Det är därför den överordnade uppgiftsinformationen inte ingår i resursplaneraren.
+  >[!TIP]
+  >
+  >Överordnade uppgifter visar det totala antalet timmar och kostnader för de underordnade uppgifterna. På grund av detta räknas dessa belopp två gånger när du räknar timmar, heltidsekvivalenter och kostnader för de underordnade aktiviteterna och de överordnade aktiviteterna. Det är därför den överordnade uppgiftsinformationen inte ingår i resursplaneraren.
 
 * Du kan inte hantera allokeringen av team i de projekt där de har uppgifter eller problem i resursplaneraren.
 * Du kan budgetera resurser för flera projekt samtidigt med hjälp av Resursplanering eller för ett enskilt projekt med hjälp av resursbudgeteringsområdet i affärsärendet. Den information du budgeterar för ett projekt visas också i Resursplanering.
 
-   Mer information om hur du kan budgetera resurser för ett enskilt projekt finns i artikeln [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Mer information om hur du kan budgetera resurser för ett enskilt projekt finns i artikeln [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Mer information om hur du kan budgetera resurser i resursplaneraren för flera projekt samtidigt finns i avsnittet Budgetresurser i resursplaneraren i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Mer information om hur du kan budgetera resurser i resursplaneraren för flera projekt samtidigt finns i avsnittet Budgetresurser i resursplaneraren i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Krav för att arbeta i resursplaneraren {#prerequisites-for-working-in-the-resource-planner}
 
@@ -108,54 +108,55 @@ Kontrollera att följande användarinställningar finns innan du börjar använd
 
 * Du har rätt åtkomst till budgetresurser.
 
-   Mer information om åtkomsten till budgetresurserna finns i artikeln [Tillgång till budgetresurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Mer information om åtkomsten som behövs för att budgetera resurser finns i artikeln [Tillgång till budgetresurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Användare som är tilldelade aktiviteter läggs till i de resurspooler som är associerade med projektet.
 
-   Mer information om hur du lägger till användare i resurspooler finns i [Associera resurspooler med användare](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  Mer information om hur du lägger till användare i resurspooler finns i [Associera resurspooler med användare](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
-   >[!NOTE]
-   >
-   >När användare inte läggs till i resurspooler kan följande scenarier finnas:
-   >
-   >   
-   >   
-   >   * Användarna visas inte i resursplaneraren även om de kan tilldelas aktiviteter i projekten.
-   >   * Om de uppgifter de är kopplade till har Planerade timmar visas dessa timmar inte för projektet i resursplaneraren, såvida inte användaren också är associerad med en jobbroll för dessa uppgifter.
-   >   * Om användarna är associerade med en jobbroll för en aktivitet i projektet visas Planerade timmar i resursplaneraren för jobbrollen, men jobbrollen kan inte budgeteras.
-
+  >[!NOTE]
+  >
+  >När användare inte läggs till i resurspooler kan följande scenarier finnas:
+  >
+  >   
+  >   
+  >   * Användarna visas inte i resursplaneraren även om de kan tilldelas aktiviteter i projekten.
+  >   * Om de uppgifter de är kopplade till har Planerade timmar visas dessa timmar inte för projektet i resursplaneraren, såvida inte användaren också är associerad med en jobbroll för dessa uppgifter.
+  >   * Om användarna är associerade med en jobbroll för en aktivitet i projektet visas Planerade timmar i resursplaneraren för jobbrollen, men jobbrollen kan inte budgeteras.
+  >   
+  >
 
 * Användare som är tilldelade till arbets- och resurspooler måste ha scheman och jobbroller kopplade till sin profil.
 
-   Mer information om hur du associerar scheman och jobbroller med användare finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Mer information om hur du associerar scheman och jobbroller med användare finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   >[!NOTE]
-   >
-   >Användare som inte är associerade med ett schema men som finns i projektets resurspool kan inte budgeteras i resursplaneraren.
+  >[!NOTE]
+  >
+  >Användare som inte är associerade med ett schema men som finns i projektets resurspool kan inte budgeteras i resursplaneraren.
 
 * För korrekt information om tillgängliga timmar bör du se till att scheman som är kopplade till dina användare har schemaundantagen och tidsgränsen för uppdateringar.
 
-   >[!NOTE]
-   >
-   >Om en användare inte är associerad med ett schema, är standardschemat i ditt Workfront-system associerat med användaren som standard i Resursplaneraren.
+  >[!NOTE]
+  >
+  >Om en användare inte är associerad med ett schema, är standardschemat i ditt Workfront-system associerat med användaren som standard i Resursplaneraren.
 
-   Mer information om hur du skapar scheman finns i artikeln [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Mer information om hur du skapar scheman finns i artikeln [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Om du vill budgetera dina resurser efter kostnad måste du associera jobbroller med Kostnad/tim. räntenivåer. Kostnaden som är associerad med jobbroller som tilldelats användare i dina resurspooler används för att beräkna budgeterad arbetskostnad och budgeterad kostnad för projektet.\
-   Mer information om hur du associerar jobbroller med frekvenser finns i artikeln [Skapa och hantera jobbroller](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-   Mer information om hur du beräknar arbetskostnad finns i artikeln [Förstå budgeterad arbetskostnad och budgeterade timmar för projekt](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-   Mer information om hur du beräknar budgeterad kostnad finns i artikeln [Beräkna budgeterad kostnad](../../manage-work/projects/project-finances/budgeted-cost.md).
+  Mer information om hur du associerar jobbroller med frekvenser finns i artikeln [Skapa och hantera jobbroller](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+  Mer information om hur du beräknar arbetskostnad finns i artikeln [Förstå budgeterad arbetskostnad och budgeterade timmar för projekt](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
+  Mer information om hur du beräknar budgeterad kostnad finns i artikeln [Beräkna budgeterad kostnad](../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ### Projektkrav {#project-prerequisites}
 
 Kontrollera att följande projektinställningar finns innan du börjar använda resursplaneraren:
 
 * Dina projekt är kopplade till resurspooler.\
-   Mer information om hur du lägger till resurspooler i projekt finns i [Associera resurspooler med projekt och mallar](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  Mer information om hur du lägger till resurspooler i projekt finns i [Associera resurspooler med projekt och mallar](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
 
-   >[!IMPORTANT]
-   >
-   >Projekt utan resurspooler visar inte information om planerad timme eller tilldelningar i resursplaneraren.
+  >[!IMPORTANT]
+  >
+  >Projekt utan resurspooler visar inte information om planerad timme eller tilldelningar i resursplaneraren.
 
 ### Krav för uppgifter och problem {#tasks-and-issues-prerequisites}
 
@@ -168,13 +169,13 @@ Se till att följande installations- och utgivningsinställningar finns innan du
    * Användare i projektets resurspooler som också är associerade med jobbroller
    * Jobbroller
 
-   >[!NOTE]
-   >
-   >De planerade timmarna med uppgifter och ärenden som tilldelats till jobbroller visas i resursplaneraren, men dessa timmar kan inte budgeteras om inte en användare som är associerad med jobbrollen listas i en resurspool som är associerad med projektet.
+  >[!NOTE]
+  >
+  >De planerade timmarna med uppgifter och ärenden som tilldelats till jobbroller visas i resursplaneraren, men dessa timmar kan inte budgeteras om inte en användare som är associerad med jobbrollen listas i en resurspool som är associerad med projektet.
 
 * Du bör inte tilldela överordnade uppgifter till användare eller roller.
 
-   Om du vill visa timinformation i resursplaneraren för användare eller roller som är kopplade till överordnade uppgifter måste du även tilldela dem till de underordnade uppgifterna. Resursplaneraren visar inte information från överordnade aktiviteter.
+  Om du vill visa timinformation i resursplaneraren för användare eller roller som är kopplade till överordnade uppgifter måste du även tilldela dem till de underordnade uppgifterna. Resursplaneraren visar inte information från överordnade aktiviteter.
 
 * Aktiviteter och ärenden har ett värde för Planerade timmar som är större än noll.
 * Aktiviteter och ärenden har ett värde för Varaktighet som är större än noll.
@@ -250,7 +251,7 @@ Mer information om dessa begränsningar finns i artikeln [Resursplanering - visn
 
 Du kan visa värden för tillgänglighet, allokering och planerad i resursplaneraren i Timmar, FTE eller Kostnad.
 
-Mer information om hur du ändrar den information som visas i resursplaneraren finns i avsnittet [Visa information per timme, heltid eller kostnad](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) i artikeln [Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+Mer information om hur du ändrar den information som visas i resursplaneraren finns i avsnittet [Visa information per timme, heltid eller kostnad](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) i artikeln [Granska resurstillgänglighet och allokering med Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 Mer information om hur timmar och heltidsanställda för användare och roller beräknas i Workfront finns i artikeln [Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
@@ -258,7 +259,7 @@ Mer information om hur timmar och heltidsanställda för användare och roller b
 
 Du måste ha behörigheterna Visa åtkomst till finansiella data och Visa ekonomiska behörigheter för projekten för att kunna se informationen efter kostnad i resursplaneraren.
 
-Förutom att visa tillgänglighets-, allokerings- och planvärden i resursplaneraren i timmar och heltidsekvivalenter kan du även visa dem per kostnad.
+Förutom att visa tillgänglighets-, allokerings- och planvärden i resursplaneraren i timmar och heltidsekvivalenter kan du även visa dem som Kostnad.
 
 >[!TIP]
 >

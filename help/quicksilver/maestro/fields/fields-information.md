@@ -1,17 +1,18 @@
 ---
-title: Adobe Maestro-fält
+title: "Fält: artikelindex"
 description: Du kan lägga till nya fält i Adobe Maestro som återspeglar organisationens livscykel. Fält är attribut för posttyper.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# Fältinformation
+# Fält: artikelindex
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ I artiklarna i följande avsnitt beskrivs hur du skapar och konfigurerar Maestro
 * [Redigera fält](../fields/edit-fields.md)
 * [Ta bort fält](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

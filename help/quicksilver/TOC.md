@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '13828'
+source-wordcount: '13836'
 ht-degree: 0%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 0%
          * [Skapa anpassade statusvärden och prioritetsetiketter](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Översikt över status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [Visa alla projektstatusvärden](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-         * [Projektstatus](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+         * [Översikt över status för systemprojekt](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
          * [Visa alla uppgiftsstatusvärden](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [Uppgiftsstatus](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [Lista utleveransstatus](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -1744,7 +1744,7 @@ ht-degree: 0%
       * [Visa information om resursutnyttjande](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Utjämning av arbetsbelastning {#the-workload-balancer}
       * [Utjämning av arbetsbelastning: artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
-      * [Översikt över belastningsutjämnaren](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+      * [Översikt över belastningsutjämnare](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [Leta reda på arbetsbelastningsutjämnaren](resource-mgmt/workload-balancer/locate-workload-balancer.md)
       * [Översikt över tilldelning av arbete i belastningsutjämnaren](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
@@ -2003,7 +2003,7 @@ ht-degree: 0%
    * [Adobe Maestro - översikt](maestro/maestro-overview.md)
    * [Adobe Maestro-lansering](maestro/release-activity.md)
    * Adobe Maestro-arkitekturen {#adobe-maestro-architecture}
-      * [Arkitekturinformation](maestro/architecture/architecture-information.md)
+      * [Arkitektur: artikelindex](maestro/architecture/architecture-information.md)
       * [Skapa arbetsytor](maestro/architecture/create-workspaces.md)
       * [Översikt över posttyper och taxonomier](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [Skapa driftsposttyper](maestro/architecture/create-record-types.md)
@@ -2015,7 +2015,7 @@ ht-degree: 0%
       * [Exempel på att ansluta posttyper och poster](maestro/architecture/example-connect-record-types-and-records.md)
       * [Lista över arbetsytemallar](maestro/architecture/workspace-templates.md)
    * Adobe Maestro-fält {#adobe-maestro-fields}
-      * [Fältinformation](maestro/fields/fields-information.md)
+      * [Fält: artikelindex](maestro/fields/fields-information.md)
       * [Översikt över fält](maestro/fields/fields-overview.md)
       * [Skapa fält](maestro/fields/create-fields.md)
       * [Redigera fält](maestro/fields/edit-fields.md)
@@ -2025,14 +2025,15 @@ ht-degree: 0%
       * [Åtkomstöversikt](maestro/access/access-overview.md)
       * [Ge åtkomst till Adobe Maestro](maestro/access/grant-access.md)
    * Adobe Maestro-poster {#adobe-maestro-records}
-      * [Information om poster](maestro/records/records-information.md)
+      * [Poster: artikelindex](maestro/records/records-information.md)
       * [Skapa poster](maestro/records/create-records.md)
       * [Koppla poster](maestro/records/connect-records.md)
       * [Redigera poster](maestro/records/edit-records.md)
       * [Ta bort poster](maestro/records/delete-records.md)
       * [Dela poster](maestro/records/share-records.md)
+      * [Hantera postkommentarer](maestro/records/manage-record-comments.md)
    * Adobe Maestro-vyer {#adobe-maestro-views}
-      * [Vyinformation](maestro/views/views-information.md)
+      * [Vyer: artikelindex](maestro/views/views-information.md)
       * [Hantera postvyer](maestro/views/manage-record-views.md)
       * [Hantera tabellvyn](maestro/views/manage-the-table-view.md)
       * [Hantera tidslinjevyn](maestro/views/manage-the-timeline-view.md)

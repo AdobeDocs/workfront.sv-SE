@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Vecka 18 december 2023
+## Vecka 18 december 2024
+
+### Lägga till kommentarer på poster från detaljsidan
+
+Preview and Production for all customers: 18 december 2023
+
+>[!NOTE]
+>
+>Följande funktioner kommer att vara tillgängliga i Production i januari 2024:
+>
+>* Sök efter kommentarer
+>
+>* Kopiera och klistra in bilder
+>
+>* Dra och släppa bilder
+>
+>Mer information finns i [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+Nu kan du samarbeta med andra om enskilda poster genom att lägga till kommentarer eller svara andra samtidigt som du visar en post på detaljsidan.
+
+Kommentarsupplevelsen för Maestro-poster matchar den nya kommentarsfunktionen för Workfront-objekt.
+
+Mer information finns i [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## Vecka 11 december 2023
 
 ### Uppdatera det primära fältet i en tabellvy för en posttyp
 
@@ -102,7 +126,7 @@ Mer information finns i [Hantera tabellvy](/help/quicksilver/maestro/views/manag
 
 Förhandsversion: 14 december 2023
 
-Produktionsrelease: 15 december 2023
+Produktionsrelease: planerad till 15 december 2023
 
 >[!IMPORTANT]
 >

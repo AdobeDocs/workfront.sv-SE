@@ -7,9 +7,9 @@ description: Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort 
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort beskrivning a
    <td>Stöds inte längre med version 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Resursplanering</p> <p>Utjämning av arbetsbelastning ger en förbättrad upplevelse vid schemaläggning av resurser.</p> <p>Mer information om belastningsutjämnaren finns i <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Översikt över belastningsutjämnaren</a>.</p> </td> 
+   <td> <p>Resursplanering</p> <p>Utjämning av arbetsbelastning ger en förbättrad upplevelse vid schemaläggning av resurser.</p> <p>Mer information om belastningsutjämnaren finns i <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Översikt över belastningsutjämnare</a>.</p> </td> 
    <td> </td> 
-   <td> <p>Stöds inte längre den 9 november 2020 (med version 20.4)</p> <p>--</p> <p>Borttagen från Workfront efter första halvåret 2022</p> </td> 
+   <td> <p>Stöds inte längre den 9 november 2020 (med version 20.4)</p> <p>—</p> <p>Borttagen från Workfront efter första halvåret 2022</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Äldre Workfront Fusion</p> <p>Workfront Fusion ger en förbättrad upplevelse från äldre Workfront Fusion.</p> <p>Mer information om Workfront Fusion finns i <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
@@ -49,7 +49,7 @@ Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort beskrivning a
    <td>Borttagen från Workfront-plattformen den 31 mars 2021</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>Nu finns det olika verktyg i Workfront som kan användas som ersättning för alla Flash-baserade verktyg. Mer detaljerad information finns i <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Ersättning av verktyg baserade på Flash i Adobe Workfront</a>.</p> </td> 
+   <td> <p>Flash</p> <p>Nu finns det olika verktyg i Workfront som ersättning för varje verktyg som är baserat på Flash. Mer detaljerad information finns i <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Ersättning av verktyg baserade på Flash i Adobe Workfront</a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Borttagen från Workfront-plattformen den 19 november 2020</p> </td> 
   </tr> <!--
