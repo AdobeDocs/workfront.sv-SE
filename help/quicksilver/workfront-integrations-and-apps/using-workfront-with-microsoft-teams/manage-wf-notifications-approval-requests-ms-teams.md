@@ -6,14 +6,18 @@ description: Du kan få meddelanden från [!DNL Adobe Workfront] om objekt som d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
 
 # Hantera [!DNL Adobe Workfront] meddelanden i [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
 
 Du kan få meddelanden från [!DNL Adobe Workfront] om objekt som du måste godkänna, uppdrag som du har fått eller kommentarer och ändringar i objekt som du är kopplad till.
 

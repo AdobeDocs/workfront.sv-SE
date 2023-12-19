@@ -6,14 +6,18 @@ description: Du kan söka efter [!DNL Workfront] objekt i [!DNL Adobe WorkfrontW
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
 # Söka efter och dela [!DNL Adobe Workfront] objekt i [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
 
 Du kan söka efter [!DNL Workfront] objekt i [!DNL Adobe Workfront] kanal in [!DNL Microsoft Teams] och dela dessa med teammedlemmar.
 
@@ -39,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar för delning [!DNL Workfront] objekt i [!DNL Microsoft Teams] {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
 
@@ -52,7 +56,7 @@ Mer information om installation [!UICONTROL Workfront for Microsoft Teams] och l
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Så här använder du [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Använd [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 
 ## Söka efter och dela [!DNL Workfront] objekt i [!DNL Microsoft Teams] {#search-for-and-share-workfront-items-in-microsoft-teams}
@@ -62,9 +66,9 @@ Du kan söka efter följande [!DNL Workfront] objekt från en [!DNL Microsoft Te
 * Projekt
 * Uppgifter
 
-   >[!NOTE]
-   >
-   >Du kan inte söka efter personliga uppgifter.
+  >[!NOTE]
+  >
+  >Du kan inte söka efter personliga uppgifter.
 
 * Problem
 
@@ -72,25 +76,25 @@ När du har hittat de objekt du sökte efter kan du dela dem med andra användar
 
 Om du vill söka efter en [!DNL Workfront] objekt från [!DNL Microsoft Teams] och dela det med andra:
 
-1. I [!DNL Microsoft Teams], går till valfri chattkanal och klickar på **[!DNL Workfront]** ikon.
-1. Sök efter [!DNL Workfront] genom att göra något av följande:
+1. I [!DNL Microsoft Teams], går till valfri chattkanal och klickar på **[!DNL Workfront]** -ikon.
+1. Sök efter [!DNL Workfront] gör något av följande:
 
    * Klicka på [!DNL Workfront] -ikon under konversationsfältet.\
 
-      ![ms_teams_workfront_pin_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
+     ![ms_teams_workfront_pin_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
       Ikonen kan visas under **[!UICONTROL More]** i stället.\
       ![more_icon.png](assets/more-icon-52x34.png)\
       The **[!UICONTROL Search]** visas som standard.
 
    * Typ *@[!DNL Workfront]* från valfri kanal väljer du Workfront och väljer sedan **[!UICONTROL Search].**
 
-      ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
+     ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
 1. I [!UICONTROL search] Ange ett namn eller referensnummer för ett projekt, en uppgift eller ett ärende och klicka på det när det visas i listan.\
    ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
-   Detta lägger till ett kort med [!DNL Workfront] i chattfältet. Viss information om artikeln finns på kortet, inklusive namnet på artikeln, det överordnade objektet, status, prioritet, procent färdigt.
+   Detta lägger till ett kort med [!DNL Workfront] objekt i chattfältet. Viss information om artikeln finns på kortet, inklusive namnet på artikeln, det överordnade objektet, status, prioritet, procent färdigt.
 
-1. (Valfritt) Lägg till en kommentar under [!DNL Workfront] och klicka sedan på **[!UICONTROL Send]** eller tryck på Enter.\
+1. (Valfritt) Lägg till en kommentar under [!DNL Workfront] kort och klicka sedan på **[!UICONTROL Send]** eller tryck på Enter.\
    Detta skickar meddelandet inklusive [!DNL Workfront] till din kanal.\
    Alla medlemmar i kanalen kan se det här meddelandet, inklusive informationen på [!DNL Workfront] kort.
 

@@ -6,20 +6,24 @@ description: När teamägaren har installerat Adobe Workfront för Microsoft Tea
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
 
 # Skicka [!DNL Adobe Workfront] förfrågningar från [!DNL Microsoft] Team
 
-När teamägaren har installerat [!DNL Adobe Workfront for Microsoft Teams]kan du skicka in [!DNL Workfront] förfrågningar från [!DNL Microsoft Teams] konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om installation [!DNL Workfront for Microsoft Teams], se [Installerar [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>[!NOTE]
+>
+>Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
+
+När teamägaren har installerat [!DNL Adobe Workfront for Microsoft Teams]kan du skicka in [!DNL Workfront] från [!DNL Microsoft Teams] konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om installation [!DNL Workfront for Microsoft Teams], se [Installerar [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Så här använder du [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Använd [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 
 ## Åtkomstkrav
@@ -36,12 +40,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Arbete, Planera, Granska, Begär</p> </td> 
+   <td> <p>Arbete, Planera, Granska, Begäran</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
@@ -85,7 +89,7 @@ Dina [!DNL Microsoft Teams] teamägaren måste installera [!DNL Workfront] for [
 
    Begäran visas i [!DNL Workfront], i den angivna begärandekön. Du får en bekräftelse på att begäran har skickats.
 
-## Visa [!DNL Workfront] du skickade in [!DNL Microsoft Teams]
+## Visa [!DNL Workfront] som du skickade in [!DNL Microsoft Teams]
 
 1. Klicka på **[!UICONTROL More added apps]** (tre punkter) ikon i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
 
@@ -100,7 +104,7 @@ Dina [!DNL Microsoft Teams] teamägaren måste installera [!DNL Workfront] for [
    * **[!UICONTROL Reference number]**
    * **[!UICONTROL Request type]**: Namnet på den begärandekö där du skickade begäran
    * **[!UICONTROL Status]**
-   * **[!UICONTROL Submitted on]**: Datumet då du skickade din begäran
+   * **[!UICONTROL Submitted on]**: Det datum då du skickade din begäran
    * **[!UICONTROL Assigned to]**
 
 1. (Valfritt) Klicka på rubriken för någon av kolumnerna i listan för att sortera listan efter den kolumnen. Som standard [!DNL Workfront] sorterar listan efter [!UICONTROL Submitted on] datum, med början från den senast skickade begäran.

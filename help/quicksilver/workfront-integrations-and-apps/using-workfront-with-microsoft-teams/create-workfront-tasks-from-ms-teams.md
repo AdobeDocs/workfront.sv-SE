@@ -6,14 +6,18 @@ description: Du kan skapa personliga uppgifter i Adobe [!DNL Workfront] från Mi
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # Skapa [!DNL Adobe Workfront] uppgifter från [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
 
 ## Åtkomstkrav
 
@@ -34,7 +38,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
@@ -45,7 +49,7 @@ Du kan skapa personliga uppgifter i [!DNL Adobe Workfront] från [!DNL Microsoft
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Så här använder du [!DNL Adobe Workfront for Microsoft Teams] måste du använda en annan webbläsare än [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Använd [!DNL Adobe Workfront for Microsoft Teams] måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 Mer information om installation [!DNL Workfront for Microsoft Teams] och logga in på [!UICONTROL Workfront] från [!DNL Microsoft Teams], se [Installera [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
@@ -63,9 +67,9 @@ Mer information om installation [!DNL Workfront for Microsoft Teams] och logga i
       * Börja skriva **[!DNL @workfront]** i [!UICONTROL conversation] välj sedan [!DNL Workfront] valfri kanal.
       * Fortsätt skriva **[!UICONTROL New task]** i [!UICONTROL conversation] för att skapa en ny uppgift.
 
-         The [!UICONTROL New task] visas på [!DNL Workfront] båda kanalerna.
+        The [!UICONTROL New task] visas på [!DNL Workfront] båda kanalerna.
 
-         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
+        ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
 1. I [!UICONTROL Workfront] båda kanalerna, ange följande information på [!UICONTROL New task] kort:
 
@@ -73,7 +77,7 @@ Mer information om installation [!DNL Workfront for Microsoft Teams] och logga i
    * Uppgiftsbeskrivning i **[!UICONTROL Write the tasks's description]** fält.
    * Det datum då uppgiften måste vara slutförd den **[!UICONTROL Due Date]** fält.
 
-1. Klicka på **[!UICONTROL Save].**
+1. Klicka **[!UICONTROL Save].**
 
    Den nya personliga uppgiften skapas i [!DNL Workfront]. A [!UICONTROL Reference Number] är tilldelad den och synlig på [!UICONTROL new task] kort.
 

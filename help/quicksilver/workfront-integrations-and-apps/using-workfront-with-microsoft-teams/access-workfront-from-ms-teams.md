@@ -6,7 +6,7 @@ description: Du kan komma åt [!DNL Adobe Workfront] från [!DNL Microsoft Teams
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: ea7379df385f0ca8a11b35b95df9dd0927f21716
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -15,7 +15,11 @@ ht-degree: 0%
 
 # Åtkomst [!DNL Adobe Workfront] från [!DNL Microsoft Teams]
 
-Du kan komma åt [!DNL Adobe Workfront] från [!DNL Microsoft Teams] och utför flera åtgärder i [!DNL Workfront] genom att skriva kommandon i [!DNL Workfront] båda kanalerna eller någon annan teamkanal.
+>[!NOTE]
+>
+>Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
+
+Du kan komma åt [!DNL Adobe Workfront] från [!DNL Microsoft Teams] och utför flera åtgärder i [!DNL Workfront] genom att skriva kommandon i [!DNL Workfront] båda kanalerna eller andra teamkanaler.
 
 Du kan göra följande i [!DNL Workfront] från [!DNL Microsoft Teams]:
 
@@ -28,7 +32,7 @@ De kommandon du använder från [!DNL Microsoft Teams] för att utföra dessa å
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Så här använder du [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Använd [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 ## Åtkomstkrav
 
@@ -49,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
@@ -79,9 +83,9 @@ Du kan skapa personliga uppgifter i [!DNL Adobe Workfront] från [!DNL Microsoft
 
    * Åtkomst [!DNL Workfront] genom att skriva ett kommando i **[!UICONTROL Type your questions here]** fält.
 
-      Kommandon är inte skiftlägeskänsliga.
+     Kommandon är inte skiftlägeskänsliga.
 
-      The [!DNL Workfront] roboten svarar på din begäran i [!DNL Workfront] chattkanal.
+     The [!DNL Workfront] roboten svarar på din begäran i [!DNL Workfront] chattkanal.
 
 ## Åtkomst [!DNL Workfront] från en teamkanal
 
@@ -98,10 +102,10 @@ Du kan skapa personliga uppgifter i [!DNL Adobe Workfront] från [!DNL Microsoft
    * **[!DNL Log out]** för att logga ut från Workfront
    * **[!DNL New task]** skapa en ny personlig uppgift
 
-      Mer information om hur du skapar nya uppgifter från [!DNL Microsoft Teams], se [Skapa [!DNL Adobe Workfront] uppgifter från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Mer information om hur du skapar nya uppgifter från [!DNL Microsoft Teams], se [Skapa [!DNL Adobe Workfront] uppgifter från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Help]** om du vill visa en lista med alla tillgängliga kommandon.
 
-      The [!DNL Workfront] roboten svarar på din begäran i [!DNL Workfront] chattkanal.
+     The [!DNL Workfront] roboten svarar på din begäran i [!DNL Workfront] chattkanal.
 
-1. Gå till [!DNL Workfront] chattchattkanal som båda kan komma åt [!DNL Workfront] och slutföra din begäran.
+1. Gå till [!DNL Workfront] chattchattkanal som båda kan komma åt [!DNL Workfront] och slutför din förfrågan.
