@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2219'
 ht-degree: 0%
 
 ---
@@ -649,7 +649,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
 
 #### [!UICONTROL Make a custom API call]
 
-Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Target] API
+Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Target] API.
 
 <table style="table-layout:auto"> 
   <col/>
