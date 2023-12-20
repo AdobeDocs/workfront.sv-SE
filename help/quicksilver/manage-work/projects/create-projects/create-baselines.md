@@ -6,14 +6,16 @@ description: En baslinje är en ögonblicksbild av ett projekt som representerar
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
 
 # Skapa projektbaslinjer
+
+<!-- Audited: 12/2023 -->
 
 En baslinje är en ögonblicksbild av ett projekt som representerar viktig information som ingår i den ursprungliga projektplanen eller vid någon tidpunkt under projektets löptid.
 
@@ -65,7 +67,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+    <td><p>Nytt: Standard</p>
+        <p>eller</p>
+        <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå*</td> 
@@ -74,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter till projektet eller högre för att visa baslinjer</p> <p>Hantera behörigheter för projektet för att skapa baslinjer</p> <p> Mer information om projektbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter till projektet eller högre för att visa baslinjer</p> <p>Hantera behörigheter för projektet för att skapa baslinjer</p> <p> Mer information om projektbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,13 +102,13 @@ Du kan skapa en baslinje på följande sätt:
 
 * **Automatiskt**: Din Workfront-administratör eller en gruppadministratör ställer in projektinställningen för Workfront så att en baslinje skapas automatiskt när ett projekt blir Aktuell. När den här inställningen är aktiverad skapas en baslinje när projektstatusen blir Aktuell. När den här inställningen inte är aktiverad måste du skapa baslinjer manuellt.
 
-   Mer information om hur du konfigurerar projektinställningar och ställer in automatisk baslinje finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Mer information om hur du konfigurerar projektinställningar och ställer in automatisk baslinje finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   >[!CAUTION]
-   >
-   >Om du aktiverar den här inställningen skapas automatiskt en baslinje för ett projekt varje gång ett projekts status ändras till Aktuell. Den första skapade baslinjen är standardbaslinjen. Du måste skapa alla andra baslinjer manuellt under projektets livslängd.
+  >[!CAUTION]
+  >
+  >Om du aktiverar den här inställningen skapas automatiskt en baslinje för ett projekt varje gång ett projekts status ändras till Aktuell. Den första skapade baslinjen är standardbaslinjen. Du måste skapa alla andra baslinjer manuellt under projektets livslängd.
 
-* **Manuellt**: Du kan skapa nya baslinjer för projektet efter behov. Du kan sedan jämföra baslinjer för att se hur projektet fortskrider över tid.
+* **Manuellt**: Du kan skapa nya baslinjer för projektet när det behövs. Du kan sedan jämföra baslinjer för att se hur projektet fortskrider över tid.
 
 Så här skapar du en baslinje:
 
@@ -115,7 +119,7 @@ Så här skapar du en baslinje:
 
    Klicka **Visa fler** och sedan klicka **Baslinjer**.
 
-   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
+   ![Baslinjesektion i projekt](assets/baselines-section-on-project-with-header.png)
 
 1. Klicka **Ny baslinje.**
 1. Ange namnet på baslinjen.
@@ -124,21 +128,21 @@ Så här skapar du en baslinje:
 
    Som standard visas följande information om den baslinje du skapade:
 
-   * Baslinjenamn
-   * Ingångsdatum
+   * Originalnamn
+   * Ingångsdatum för baslinje
    * Planerat startdatum för projektet när baslinjen skapades
    * Projektets planerade startdatum när baslinjen skapades
    * Projektets faktiska varaktighet när baslinjen skapades
    * % färdigt för projektet när baslinjen skapades
    * Indikator för standardbaslinje som visar om en baslinje är standardbaslinjen för projektet
 
-      >[!TIP]
-      >
-      >Du kan inte visa information från två baslinjer samtidigt i samma vy eller rapport. Du kan bara visa information från en viss baslinje och standardbaslinjen i samma rapport. Du kan ändra vilken baslinje du anser vara standardbaslinje när som helst under projektets livslängd.
+     >[!TIP]
+     >
+     >Du kan inte visa information från två baslinjer samtidigt i samma vy eller rapport. Du kan bara visa information från en viss baslinje och standardbaslinjen i samma rapport. Du kan ändra vilken baslinje du anser vara standardbaslinje när som helst under projektets livslängd.
 
-1. (Valfritt) Klicka på listrutepilen intill vyn och sedan **Anpassa vy** om du vill lägga till fält i vyn och jämföra ytterligare information mellan baslinjer.
+1. (Valfritt) Klicka på **Visa** skapar du sedan en ny vy eller redigerar den aktuella vyn för att lägga till fält i vyn och jämföra ytterligare information mellan baslinjer. Mer information finns i [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## Skapa en rapport för en baslinje eller en baslinje
+## Skapa en rapport för en baslinje eller en baslinjeaktivitet
 
 Om du vill visa baslinjeinformation kan du även skapa en rapport för baslinje- eller baslinjeaktiviteter. På så sätt kan du visa valfritt antal fält om baslinjerna eller baslinjeåtgärderna för att jämföra dem i en vy.
 
@@ -148,6 +152,6 @@ Om du vill visa baslinjeinformation kan du även skapa en rapport för baslinje-
 
 Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Vi rekommenderar att du lägger till en projektnamnsgruppering i Baslinje- eller Baslinjerapporten så att det blir enklare att läsa.
+Vi rekommenderar att du lägger till en projektnamnsgruppering i din rapport över baslinje- eller baslinjeaktiviteter så att det blir enklare att läsa.
 
 Mer information om hur du skapar en gruppering finns i [Skapa grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

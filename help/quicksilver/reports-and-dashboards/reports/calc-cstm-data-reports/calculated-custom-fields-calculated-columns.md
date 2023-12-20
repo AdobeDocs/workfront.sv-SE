@@ -3,30 +3,30 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Beräknade anpassade fält kontra beräknade kolumner
-description: Läs mer om anpassade data i rapporter och kontrollpaneler
+description: Om du vill samla flera fält i Adobe Workfront och visa det sammanlagda värdet i ett nytt fält kan du skapa ett beräknat anpassat fält i ett anpassat formulär eller en beräknad kolumn i en vy.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # Beräknade anpassade fält kontra beräknade kolumner
 
-Om du vill samla flera fält i Adobe Workfront och visa det sammanlagda värdet i ett nytt fält kan du göra följande:
+Om du vill samla flera fält i Adobe Workfront och visa det sammanlagda värdet i ett nytt fält kan du skapa följande:
 
 * Ett beräknat anpassat fält i ett anpassat formulär\
-  Mer information om hur du lägger till ett beräknat anpassat fält i ett anpassat formulär finns i avsnittet [Lägga till ett beräknat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) i artikeln [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Mer information om hur du lägger till ett beräknat anpassat fält i ett anpassat formulär finns i avsnittet [Lägga till ett beräknat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) i artikeln [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * En beräknad kolumn i en vy\
-  Mer information om hur du använder beräkningar i en vy finns i avsnittet [Använd textläge i vyer](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) i artikeln [Översikt över vanliga användningsområden för textläge](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Mer information om hur du använder beräkningar i en vy finns i avsnittet [Använd textläge i vyer](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) i artikeln [Översikt över vanliga användningsområden för textläge](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Även om du använder textläge för att skapa både beräknade fält och beräknade kolumner skiljer sig syntaxen för att skapa dem åt. Läs artiklarna ovan om du vill veta mer om hur du skapar beräknade fält och beräknade kolumner. Mer information om de olika syntaxerna som används i beräknade datamängder, som beräknade anpassade fält och kolumner, finns i avsnittet [Syntax för beräknade anpassade fält kontra beräknade anpassade kolumner](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) i den här artikeln.
+Även om du använder textläge för att skapa både beräknade fält och beräknade kolumner skiljer sig syntaxen för att skapa dem åt. Läs artiklarna ovan om du vill veta mer om hur du skapar beräknade fält och beräknade kolumner. Mer information om de olika syntaxerna som används i beräknade datamängder, som beräknade anpassade fält och kolumner, finns i avsnittet [Syntax för beräknade anpassade fält kontra beräknade anpassade kolumner](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) i den här artikeln.
 
-Du kan använda samma beräkningar i båda beräkningsfälten samt i en beräknad kolumn. Beroende på vad du har för syfte med beräkningarna kan det dock vara bra att bygga en jämfört med en annan.
+Du kan använda samma beräkningar i båda beräkningsfälten samt i en beräknad kolumn. Beroende på vad du vill göra med beräkningarna kan det dock vara bra att bygga en jämfört med en annan.
 
 ## Syntax för beräknade anpassade fält kontra beräknade anpassade kolumner
 
@@ -36,25 +36,19 @@ Exempel:
 
 * I ett anpassat fält, i ett anpassat formulär för uppgifter, använder du följande för att generera namnet på det överordnade projektet för den uppgift där det anpassade formuläret är kopplat:
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * I en anpassad kolumn i en rapport använder du följande för att lägga till en anpassad kolumn för projektnamn i en aktivitetsrapport:
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   eller
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
-  >Samma syntax gäller för alla rapportelement i textläge där beräkningsuttryck används: vyer, filter, grupperingar, uppmaningar.
+  >Samma syntax gäller för alla rapportelement i textläge där beräkningsuttryck används: vyer, filter, grupperingar och uppmaningar.
 
 Skillnaderna mellan de två syntaxerna är:
 
@@ -63,8 +57,8 @@ Skillnaderna mellan de två syntaxerna är:
  <col> 
  <tbody> 
   <tr> 
-   <td>Beräknat eget fält</td> 
-   <td>Element för beräknad anpassad rapportering</td> 
+   <td><strong>Beräknat eget fält</strong></td>
+   <td><strong>Element för beräknad anpassad rapportering</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Använd namnet på fälten så som de visas i Workfront-gränssnittet.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Exempel på fältnamn som används i ett beräknat anpassat fält: <code>Planned Completion Date</code>.</p> </td> 
@@ -76,7 +70,7 @@ Skillnaderna mellan de två syntaxerna är:
   </tr> 
   <tr> 
    <td>Avgränsa fälten med punkter</td> 
-   <td> <p>Separera fälten med kolon när du använder dem i en <code>valuefield </code>line</p> <p>Separera fälten efter punkter när du använder dem i en <code>valueexpression </code>linje. </p> </td> 
+   <td> <p>Separera fälten med kolon när du använder dem i en <code>valuefield</code>linje.</p> <p>Separera fälten efter punkter när du använder dem i en <code>valueexpression</code>linje.</p> </td> 
   </tr> 
  </tbody> 
 </table>

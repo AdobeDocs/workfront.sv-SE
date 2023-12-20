@@ -7,9 +7,9 @@ description: Övertid beräknas inte som standard i Adobe Workfront, men du kan 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Mer information om hur du associerar användare med självkostnad per timme finn
 
 >[!NOTE]
 >
->Fältet Övertid som du kan lägga till i en tidrapportvy i en lista eller rapport visar informationen som finns i fältet Övertid i tidrapporten. Den här informationen uppdateras manuellt av en användare som har behörighet att ändra tidrapporten. Mer information om fältet Övertid i en tidrapport finns i artikeln [Förstå layouten för tidrapporten](../../../timesheets/timesheets/timesheet-layout.md).
+>Fältet Övertid som du kan lägga till i en tidrapportvy i en lista eller rapport visar informationen som finns i fältet Övertid i tidrapporten. Den här informationen uppdateras manuellt av en användare som har behörighet att ändra tidrapporten. Mer information om fältet Övertid i en tidrapport finns i artikeln [Översikt över tidrapportslayout](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Åtkomstkrav
 
@@ -75,7 +75,7 @@ Så här lägger du till en beräknad övertidskolumn i en tidrapportvy:
 1. Klicka **Växla till textläge**.
 1. I **Visa i den här kolumnen** område, klicka **Klicka för att redigera text**.
 1. Kopiera och klistra in följande textlägeskod i **Textläge** -dialogrutan.
-   <pre>displayName=Beräknad övertidskostnad<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueExpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueFormat=currencyStringCurrencyRounded</pre>
+   <pre>displayName=Beräknad övertidskostnad<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueFormat=currencyStringCurrencyRounded</pre>
 
    >[!NOTE]
    >
@@ -89,6 +89,6 @@ Så här lägger du till en beräknad övertidskolumn i en tidrapportvy:
 
 1. (Valfritt och villkorligt) Om du skapar en tidrapport anger du ett namn för rapporten och klickar sedan på **Spara rapport**.
 
-   Kostnaden för övertid för varje användare visas i **Beräknad övertidskostnad** kolumn.
+   Kostnaden för övertid visas i **Beräknad övertidskostnad** kolumn.
 
    ![calculate_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)

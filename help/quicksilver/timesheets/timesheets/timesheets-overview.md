@@ -7,9 +7,9 @@ description: Du kan använda tidrapporter för att spåra den tid du tillbringar
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Så här öppnar du en tidrapport:
 
 {{step1-to-timesheets}}
 
-Alla dina tidrapporter och tidrapporter som du har tillgång till som standard. Mer information om tidrapportslayouten i Adobe Workfront finns i [Förstå layouten för tidrapporten](../../timesheets/timesheets/timesheet-layout.md).
+Alla dina tidrapporter och tidrapporter som du har tillgång till som standard. Mer information om tidrapportslayouten i Adobe Workfront finns i [Översikt över tidrapportslayout](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 

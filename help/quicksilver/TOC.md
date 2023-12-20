@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 0%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 0%
    * Information om tidrapport {#details}
       * [Information om tidrapport: artikelindex](timesheets/timesheets/timesheets.md)
       * [Översikt över tidrapporter](timesheets/timesheets/timesheets-overview.md)
-      * [Förstå layouten för tidrapporten](timesheets/timesheets/timesheet-layout.md)
+      * [Översikt över tidrapportslayout](timesheets/timesheets/timesheet-layout.md)
    * Skapa och hantera tidrapporter {#create-and-manage-timesheets-in-adobe-workfront}
       * [Skapa och hantera tidrapporter: artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Skapa, redigera och tilldela tidrapportprofiler](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
