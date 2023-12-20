@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Som Adobe Workfront-administratör kan du återställa eller ta bort användarinställningarna för alla användare i Workfront-systemet. Enskilda användare kan även återställa sina egna användarinställningar.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
 # Återställ en användares inställningar
+
+<!-- Audited: 12/2023 -->
 
 Som Adobe Workfront-administratör kan du återställa eller ta bort användarinställningarna för alla användare i Workfront-systemet.
 
@@ -35,7 +37,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -80,7 +84,7 @@ När du återställer användarinställningarna återställs vissa inställninga
   </tr> 
   <tr> 
    <td>Användarinställningar</td> 
-   <td> <p>Återställd till systemstandard</p> <p>E-postmeddelanden återställs till systemets standardinställningar</p> </td> 
+   <td> <p>Återställd till systemstandard</p> <p>E-postmeddelanden återställs till systemets standardinställningar.</p> </td> 
   </tr> 
   <tr> 
    <td>Användardefinierade anpassade flikar</td> 
@@ -88,28 +92,25 @@ När du återställer användarinställningarna återställs vissa inställninga
   </tr> 
   <tr> 
    <td>Användardefinierade alternativ för global navigering</td> 
-   <td>Återgå till layoutmallsdefinition eller systemstandard om ingen layoutmall har tilldelats.</td> 
+   <td>Återgå till layoutmallsdefinition eller till systemstandard om ingen layoutmall har tilldelats.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Återställ användarinställningar
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Välj **Logga in som**.
 1. Börja skriva namnet på den användare vars inställningar du vill återställa och klicka sedan på namnet när det visas i listrutan.
 1. Välj  **Logga in**.
-1. Lägg till `/resetUser` efter `workfront.com`.
+1. Lägg till i URL-fältet högst upp i webbläsaren `/resetUser` efter `workfront.com`.
 
    >[!NOTE]
    >
    >Det här är skiftlägeskänsligt. U måste ha inledande versal och de återstående tecknen måste ha gemener. Exempel:
    >
-   >
-   ```
-   >https://company_domain.my.workfront.com/resetUser
-   >```
+   >`https://company_domain.my.workfront.com/resetUser`
 
 1. Tryck **Retur**.
 1. Om du vill återställa alla användarinställningar väljer du **Återställ**.
