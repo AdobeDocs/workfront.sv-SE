@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Redigera textläge i en gruppering
-description: OBS! gör alla FVG-artiklar likadana för redigering i textläge)'
+description: 'OBS! Gör alla FVG-artiklar likadana för redigering i textläge)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Mer information finns i:
 
 * [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Exempel på anpassad vy, filter och gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Anpassad vy, filter och gruppering av exempel: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Redigera textläge i en gruppering
 
@@ -86,6 +86,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 1. Klicka **Lägg till gruppering** om du vill lägga till grupperingarna klickar du på **Växla till textläge** i det övre högra hörnet av verktyget.
 
    >[!TIP]
+   >
    Du kan lägga till upp till tre grupperingar i standardgränssnittet. Du kan bara lägga till en fjärde gruppering i textläge, och du kan inte ha fler än fyra grupperingsnivåer i Workfront.
 
 1. Börja skriva namnet på ett fält som du vill gruppera efter.
@@ -111,6 +112,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
    ```
 
    >[!IMPORTANT]
+   >
    Raderna i fet stil är obligatoriska.
 
    <!--
@@ -146,6 +148,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
    -->
 
    >[!TIP]
+   >
    Nyckelraderna i en textlägesgruppering liknar de rader som behövs för att skapa textlägesvyer.
 
    <!--
@@ -180,19 +183,19 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
        <ol> 
         <li value="1"> <p> Om namnet på fältet som du visar är en fras i stället för ett enda substantiv, måste du använda kamelversionssyntax för <code>valuefield</code>. Koden är till exempel för det planerade startdatumet för en åtgärd:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Om du vill visa ett anpassat fält visas <code>valuefield</code> värdet är fältets faktiska namn, som du ser det i gränssnittet. För ett anpassat fält med namnet "Mer information" är koden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Om du vill gruppera efter objekt som är relaterade till andra objekt med <code>valuefield</code> kodrad objektnamnen och attributen avgränsas med kolon.</p> <p>En gruppering efter Portfolio-namn för en uppgiftslista har till exempel följande värde för värdefältraden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Detta anger att du från rapportens (uppgiftens) objekt kan komma åt nästa relaterade objekt (projekt); Därifrån kan du komma åt följande relaterade objekt från projektet (portföljen); portföljens namn (namn).</p> </li> 
+        <li value="3"> <p>Om du vill gruppera efter objekt som är relaterade till andra objekt med <code>valuefield</code> kodrad objektnamnen och attributen avgränsas med kolon.</p> <p>En gruppering efter Portfolio-namn för en uppgiftslista har till exempel följande värde för värdefältraden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Detta anger att du kan komma åt nästa relaterade objekt (projekt) från rapportens (uppgiftens) objekt. Därifrån kan du komma åt följande relaterade objekt från projektet (portföljen) och sedan portföljens namn (namnet).</p> </li> 
        </ol> <p>Mer information om hur objekt ansluter till varandra finns i avsnittet <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Objektens inbördes beroende och hierarki</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Förstå objekt i Adobe Workfront</a>.</p> <p>Obs! Om du väljer ett fält i textläge som inte är giltigt i standardgränssnittet och växlar till standardgränssnittet, tas grupperingen bort.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueFormat=</strong> </td> 
-      <td> <p>Den här raden representerar det format som används för att visa <code>valuefield</code>. The <code>valueformat</code> identifierar om ett objekt eller fält visas som text, tal, procent eller datum.</p> <p>Vi rekommenderar att du använder <code>HTML</code> för <code>valueformat</code>, särskilt när du använder <code>valueexpression</code>, för att informationen ska visas på bästa sätt.</p> <p>Mer information om ytterligare värden för den här raden finns i <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Använda villkorsstyrd formatering i textläge</a>.</p> </td> 
+      <td> <p>Den här raden representerar det format som används för att visa <code>valuefield</code>. The <code>valueformat</code> identifierar om ett objekt eller fält visas som text, tal, procent eller datum.</p> <p>Vi rekommenderar att du <code>HTML</code> för <code>valueformat</code>, särskilt när du använder <code>valueexpression</code>, för att informationen ska visas på bästa sätt.</p> <p>Mer information om ytterligare värden för den här raden finns i <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Använda villkorsstyrd formatering i textläge</a>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueexpression=</strong> </p> </td> 
       <td> <p>Du kan lägga till den här raden som ska ersättas <code>valuefield</code>om du vill gruppera listan med hjälp av en beräkning mellan flera fält.</p> <p>Du måste omge <code>valuefield</code> av objekten inom klammerparentes varje gång du använder dem i en <code>valueexpression</code>.</p> <p>Följande scenarier finns:</p> 
        <ol> 
-        <li value="1"> <p>Om du vill visa namnet på en gruppering i versaler använder du:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>The <code>valuefield</code> för objektet är rättstavat så som det visas i API-utforskaren.</p> </li> 
-        <li value="2">Om du vill lägga till flera <code>valuefields</code> genom att knyta ihop dem i en <code>valueexpression </code>måste du separera dem med en punkt.<p>Om du till exempel vill visa namnet på portföljen med stora bokstäver i en uppgiftslista använder du följande kod i <code>valueexpression</code> rad:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Om du vill använda ett anpassat fält i en <code>valueexpression</code> rad som du måste skriva före fältets namn med <code>DE:</code> för att ange att det är ett anpassat fält. Fältets namn är stavat så som det visas i gränssnittet.</p><p>Viktigt: <span>När du använder ett anpassat fält som placeras i ett anpassat formuläravsnitt som har begränsade behörigheter för vissa användare, beräknas <code>valueexpression </code>är tomt när dessa användare visar den här beräkningen i en rapport. Mer information om hur du justerar behörigheter i anpassade formuläravsnitt finns i</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a></span>.</p><p>Om du t.ex. har ett anpassat fält med namnet"Utvecklarnamn" och vill gruppera efter det här fältet och visa det med versaler, kan du använda följande <code>valueexpression</code> för att ange detta:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>När du refererar till ett anpassat fält av typen Typeahead använder du följande uttryck för att referera till namnet på objektet som är markerat i ett fält med namnet "Utvecklarnamn":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="1"> <p>Om du vill visa namnet på en gruppering i versaler använder du:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>The <code>valuefield</code> objektets stavning så som den visas i API-utforskaren.</p> </li> 
+        <li value="2">Om du vill lägga till flera <code>valuefields</code> genom att knyta ihop dem i en <code>valueexpression </code>måste du separera dem med en punkt.<p>Om du till exempel vill visa namnet på portföljen med stora bokstäver i en uppgiftslista använder du följande kod i <code>valueexpression</code> rad:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Om du vill använda ett anpassat fält i en <code>valueexpression</code> rad som du måste skriva före fältets namn med <code>DE:</code> för att ange att det är ett anpassat fält. Fältets namn är rättstavat så som det visas i gränssnittet.</p><p>Viktigt: <span>När du använder ett anpassat fält som placeras i ett anpassat formuläravsnitt som har begränsade behörigheter för vissa användare, beräknas <code>valueexpression </code>är tomt när dessa användare visar den här beräkningen i en rapport. Mer information om hur du justerar behörigheter i anpassade formuläravsnitt finns i</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a></span>.</p><p>Om du t.ex. har ett anpassat fält med namnet"Utvecklarnamn" och vill gruppera efter det här fältet och visa det med versaler, kan du använda följande <code>valueexpression</code> för att ange detta:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>När du refererar till ett anpassat fält av typen Typeahead använder du följande uttryck för att referera till namnet på objektet som är markerat i ett fält med namnet "Utvecklarnamn":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -226,9 +229,9 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
      -->
 
    >[!TIP]
+   >   
    * När du justerar grupperingar manuellt när du visar en lista kommer Workfront ihåg dina manuella inställningar tills du loggar ut. När du loggar in igen visas listan enligt den här inställningen.
    * Resultatet av en gruppering visas alltid expanderat när du har öppnat dem från ett diagramelement.
-
 
 1. Klicka **Klar** om du vill spara ändringarna och fortsätta redigera grupperingen eller rapporten.
 1. Klicka **Spara gruppering** i en lista eller **Spara + Stäng** för att spara rapporten.

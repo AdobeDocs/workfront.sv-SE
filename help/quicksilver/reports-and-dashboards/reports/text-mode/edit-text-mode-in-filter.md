@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Redigera ett filter i textläge
-description: 'OBS! lägg till ett avsnitt i den här artikeln: /content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Utkast till det här området i översiktsartikeln om textläge)'''
+description: 'OBS! Lägg till ett avsnitt i den här artikeln: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Utkast till det här området i översiktsartikeln om textläge)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du kan redigera ett filter i en lista eller rapport i textläge för att komma åt fält som inte är tillgängliga i standardgränssnittet och skapa mer komplexa filter.
 
-Fler exempel på textläge när du skapar ett filter finns i avsnittet Exempel på anpassade filter i artikeln [Exempel på anpassad vy, filter och gruppering](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Fler exempel på textläge när du skapar ett filter finns även i avsnittet Exempel på anpassade filter i artikeln [Anpassad vy, filter och gruppering av exempel: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Åtkomstkrav
 
@@ -60,7 +60,7 @@ Mer information finns i:
 
 * [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Exempel på anpassad vy, filter och gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Anpassad vy, filter och gruppering av exempel: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Redigera textläge i ett filter
 
@@ -163,12 +163,19 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 >[!NOTE]
 >
 >Du kan ha flera &quot;OR&quot;-programsatser i samma filter. Varje gång du har en ny OR-sats ökar siffran efter OR:.
-Använd följande om du vill filtrera efter uppgifter som har statusen Pågår eller som har tilldelats den inloggade användaren eller som har det planerade slutförandedatumet idag:
+>
+Om du vill filtrera efter uppgifter som har statusen Pågår eller som har tilldelats den inloggade användaren eller som har det planerade slutförandedatumet idag använder du följande:
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
 1. Klicka **Klar** om du vill spara ändringarna och fortsätta redigera rapporten eller filtret.

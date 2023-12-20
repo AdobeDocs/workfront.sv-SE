@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Exempel på anpassad vy, filter och gruppering
-description: Exempel på anpassad vy, filter och grupperingArtikel i innehållsförteckningen". Jag såg inte särskilt mycket värde när det gällde att ordna detta efter objekt.)"
-author: Lisa and Nolan
+title: "Anpassad vy, filter och gruppering av exempel: artikelindex"
+description: I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar som du kan använda i ditt Adobe Workfront-konto.
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Exempel på anpassad vy, filter och gruppering
+# Anpassad vy, filter och gruppering av exempel: artikelindex
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>

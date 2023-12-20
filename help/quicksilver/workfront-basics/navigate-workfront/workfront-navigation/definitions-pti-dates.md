@@ -5,7 +5,7 @@ title: Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Adobe Wor
 description: Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 0%
@@ -18,12 +18,12 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
 -->
 
-I den här artikeln finns definitioner för de vanligaste datumen som är associerade med projekt, uppgifter och problem i [!DNL Adobe Workfront]. Bilderna här är exempel på var datumen visas i Workfront och de är inte fullständiga. Det finns andra områden som visar datumen. Alla datum visas också i projekt, uppgifter och problemrapporter och listor.
+I den här artikeln finns definitioner för de vanligaste datumen som är associerade med projekt, uppgifter och problem i [!DNL Adobe Workfront]. Bilderna här är exempel på var datumen visas i Workfront och de är inte fullständiga. Det finns andra områden som visar datumen. Alla datum visas också i projekt, uppgifter och utgivningsrapporter och listor.
 
 Mer information om rapporter och listor finns i följande artiklar:
 
 * [Kom igång med listor i [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
-* [Kom igång med rapporter i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Kom igång med rapporter](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 Mer information om projekt-, aktivitets- och problemfält finns i [Ordlista för [!DNL Adobe Workfront] terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -33,7 +33,7 @@ The [!UICONTROL Planned Start Date] är det datum då ett projekt, en uppgift el
 
 Beroende på [!UICONTROL Task Constraint]kanske du inte kan redigera [!UICONTROL Planned Start Date] för en uppgift. Beroende på [!UICONTROL Schedule Mode] i projektet kanske du inte kan redigera [!UICONTROL Planned Start Date] av ett projekt.
 
-Mer information finns i [Översikt över projektet [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
+Mer information finns i [Översikt [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
 ![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
 
@@ -75,7 +75,7 @@ Du kan ange manuellt när arbetet påbörjas med en uppgift eller ett problem, e
 >
 >The [!UICONTROL Actual Start Date] matchar inte en [!UICONTROL Planned Start Date] för ett projekt, en uppgift eller ett fel eftersom användaren kan börja arbeta senare eller tidigare än det planerade datumet.
 
-Mer information finns i [Översikt över projektet [!UICONTROL Actual Start Date]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+Mer information finns i [Översikt [!UICONTROL Actual Start Date]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ The [!UICONTROL Actual Completion Date] för ett projekt sammanfaller med datume
 >
 >The [!UICONTROL Actual Completion Date] matchar inte [!UICONTROL Planned Completion Date].
 
-Mer information finns i [Översikt över projektet [!UICONTROL Actual Completion Date]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+Mer information finns i [Översikt [!UICONTROL Actual Completion Date]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 ![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
@@ -122,13 +122,13 @@ The [!UICONTROL Projected Start Date] är ett realtidsdatum när projektet, uppg
 
 När du först planerar ett projekt, [!UICONTROL Planned Start Date] och [!UICONTROL Projected Start Date] uppgifterna och projektet är identiska. Eftersom förseningar kan inträffa eller uppgifter kan slutföras tidigare, kan [!UICONTROL Projected Start Date] kan bli annorlunda än [!UICONTROL Planned Start Date].
 
-För en uppgift [!UICONTROL Projected Start Date] kan också skilja sig från [!UICONTROL Planned Start Date] när någon av dess föregångare ligger efter schemat.
+För en uppgift: [!UICONTROL Projected Start Date] kan också skilja sig från [!UICONTROL Planned Start Date] när någon av dess föregångare ligger efter schemat.
 
 >[!TIP]
 >
 >Du kan visa [!UICONTROL Projected Start Date] för en utgåva endast i en lista eller rapport.
 
-Mer information finns i [Översikt över projektet [!UICONTROL Projected Start Date]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
+Mer information finns i [Översikt [!UICONTROL Projected Start Date]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
@@ -136,7 +136,7 @@ Mer information finns i [Översikt över projektet [!UICONTROL Projected Start D
 
 The [!UICONTROL Projected Completion Date] är en beräknad indikator i realtid för när projektet, uppgiften eller utgåvan ska slutföras. När projektet, aktiviteten eller utgåvan har markerats som Slutfört visas [!UICONTROL Projected Completion Date] Ändringar av datumet för [!UICONTROL Actual Completion Date].
 
-Om allt är jämnt och som planerat [!UICONTROL Projected Completion date] ska matcha [!UICONTROL Planned Completion Date]. I annat fall på grund av fördröjningar för föregående aktiviteter [!UICONTROL Projected Completion Date] kan skilja sig från [!UICONTROL Planned Completion Date].
+Om allt blir som planerat [!UICONTROL Projected Completion date] ska matcha [!UICONTROL Planned Completion Date]. I annat fall på grund av fördröjningar för föregående aktiviteter [!UICONTROL Projected Completion Date] kan skilja sig från [!UICONTROL Planned Completion Date].
 
 Mer information finns i [Översikt över [!UICONTROL Projected Completion Date] för projekt, uppgifter och ärenden](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -158,12 +158,12 @@ Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timeshee
 
 >[!TIP]
 >
->Vi rekommenderar att du loggar in på arbetsuppgifter och problem i stället för överordnade uppgifter eller projekt. Den tid som är inloggad på arbetsuppgifterna sammanställs med de överordnade uppgifterna och projektet som [!UICONTROL Actual Hours] för de överordnade uppgifterna och projektet. Tid för inloggningsproblem räknas upp till projektet som [!UICONTROL Actual Hours] för projektet.
+>Vi rekommenderar att du loggar in på arbetsuppgifter och problem i stället för överordnade uppgifter eller projekt. Den tid som är inloggad på arbetsuppgifterna sammanställs med de överordnade uppgifterna och projektet som [!UICONTROL Actual Hours] för de överordnade aktiviteterna och projektet. Tid för inloggningsproblem räknas upp till projektet som [!UICONTROL Actual Hours] för projektet.
 
 ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
 ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
 
-Du kan visa [!UICONTROL Hour Entry Dates] timrapporter och listor.
+Du kan visa [!UICONTROL Hour Entry Dates] i timrapporter och listor.
 
 ![](assets/hour-entry-date-in-view-nwe-350x173.png)

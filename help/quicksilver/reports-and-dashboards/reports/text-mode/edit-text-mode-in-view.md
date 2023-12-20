@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Redigera en vy i textläge
-description: 'OBS! lägg till ett avsnitt i den här artikeln: Elements/create-customize-views.html *** Utkast till det här området i översiktsartikeln om textläge)'''
+description: 'OBS! Lägg till ett avsnitt i den här artikeln: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Utkast till det här området i översiktsartikeln om textläge)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1639'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Mer information finns i:
 
 * [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Exempel på anpassad vy, filter och gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Anpassad vy, filter och gruppering av exempel: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Redigera textläge i en vy
 
@@ -75,7 +75,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 1. Gör något av följande:
 
    1. Gå till rapporten och klicka sedan på **Rapportåtgärder** > **Redigera** > **Kolumner (vy)** -fliken.
-   1. Gå till listan och från **Visa** nedrullningsbar meny, för musen över vyn som du vill ändra och klicka på **Redigera** icon ![](assets/edit-icon.png).
+   1. Om du vill komma åt vyn från en lista går du till listan och från **Visa** nedrullningsbar meny, för musen över vyn som du vill ändra och klicka på **Redigera** icon ![](assets/edit-icon.png).
 
       Vyverktyget öppnas.
 
@@ -97,7 +97,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
-   Följande tabell visar nyckelraderna i textläge:
+   Följande tabell visar nyckelraderna i en textlägesvy:
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make this a snippet and add it to the grouping article too)</p>
@@ -124,7 +124,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
      </tr> 
      <tr> 
       <td><strong>valueFormat=</strong> </td> 
-      <td> <p>Den här raden representerar det format som används för att visa <code>valuefield</code>. The <code>valueformat</code> identifierar om ett objekt eller fält visas som text, tal, procent eller datum.</p> <p>Vi rekommenderar att du använder <code>HTML</code> för <code>valueformat</code>, särskilt när du använder <code>valueexpression</code>, för att informationen ska visas på bästa sätt. </p> <p>Mer information om ytterligare värden för den här raden finns i <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Använda villkorsstyrd formatering i textläge</a>.</p> </td> 
+      <td> <p>Den här raden representerar det format som används för att visa <code>valuefield</code>. The <code>valueformat</code> identifierar om ett objekt eller fält visas som text, tal, procent eller datum.</p> <p>Vi rekommenderar att du <code>HTML</code> för <code>valueformat</code>, särskilt när du använder <code>valueexpression</code>, för att informationen ska visas på bästa sätt. </p> <p>Mer information om ytterligare värden för den här raden finns i <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Använda villkorsstyrd formatering i textläge</a>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueexpression=</strong> </p> </td> 
@@ -133,7 +133,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
         <li value="1"> <p>Om du vill visa ett fält i en kolumn med stora bokstäver använder du:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>The <code>valuefield</code> objektets stavning så som den visas i API-utforskaren. </p> </li> 
         <li value="2">Om du vill lägga till flera <code>valuefields</code> genom att binda ihop dem måste du separera dem med en punkt.</li> 
         <li value="3"> <p>Om du till exempel vill visa namnet på den primära tilldelade personen för en uppgift med <code>valueexpression</code>använder du:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
-        <li value="4"> <p>Om du vill använda ett anpassat fält i en <code>valueexpression</code> rad som du måste skriva före fältets namn med <code>DE:</code> för att ange att det är ett anpassat fält. Fältets namn är stavat så som det visas i gränssnittet. </p> <p>Viktigt: När du använder ett anpassat fält som placeras i ett anpassat formuläravsnitt som har begränsade behörigheter för vissa användare, är beräkningen av värdesuttrycket tom när dessa användare visar beräkningen i en rapport. Mer information om hur du justerar behörigheter i anpassade formuläravsnitt finns i <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a></span>.</p> <p>Om du t.ex. har ett anpassat fält med namnet"Utvecklarnamn" och vill visa det här fältet med versaler i en kolumn, kan du använda följande <code>valueexpression</code> för att ange detta:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>När du refererar till ett anpassat fält av typen Typeahead använder du följande uttryck för att referera till namnet på objektet som är markerat i ett fält med namnet "Utvecklarnamn":</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
+        <li value="4"> <p>Om du vill använda ett anpassat fält i en <code>valueexpression</code> rad som du måste skriva före fältets namn med <code>DE:</code> för att ange att det är ett anpassat fält. Fältets namn är rättstavat så som det visas i gränssnittet. </p> <p>Viktigt! När du använder ett anpassat fält som placeras i ett anpassat formuläravsnitt som har begränsade behörigheter för vissa användare, är beräkningen av värdesuttrycket tom när dessa användare visar beräkningen i en rapport. Mer information om hur du justerar behörigheter i anpassade formuläravsnitt finns i <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a></span>.</p> <p>Om du t.ex. har ett anpassat fält med namnet"Utvecklarnamn" och vill visa det här fältet med versaler i en kolumn, kan du använda följande <code>valueexpression</code> för att ange detta:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>När du refererar till ett anpassat fält av typen Typeahead använder du följande uttryck för att referera till namnet på objektet som är markerat i ett fält med namnet "Utvecklarnamn":</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -162,7 +162,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
      </tr> 
      <tr> 
       <td><strong>makeFieldEditable=</strong> </td> 
-      <td> <p>Den här raden definierar om det värde som visas i en kolumn är redigerbart eller inte. Om den här raden är lika med <strong>true</strong>kan värdet i kolumnen redigeras. Om den här raden är lika med <code>false</code>, går det inte att redigera värdet i kolumnen.</p> </td> 
+      <td> <p>Den här raden definierar om det värde som visas i en kolumn är redigerbart eller inte. Om den här raden är lika med <strong>true</strong>, kan värdet i kolumnen redigeras. Om den här raden är lika med <code>false</code>, går det inte att redigera värdet i kolumnen.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>link.valuefield=</strong> </td> 
@@ -170,7 +170,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
      </tr> 
      <tr> 
       <td><strong>link.valueformat=</strong> </td> 
-      <td> <p>Infoga bara den här raden när du har infogat <code>link.valuefield</code> rad för att lägga till en länk till värdet i en kolumn. Länken öppnar informationssidan för objektet. Detta värde ska matcha <code>valueformat=</code> och anger vilket format som används för att visa <code>valuefield</code>. </p> <p>Viktigt: När du visar textläget i en inbyggd kolumn som även innehåller en länk, ser du ett antal rader som refererar till länken. Vissa av dessa rader kanske inte längre stöds eller är onödiga när du skapar en egen anpassad kolumn i textläge och lägger till länksatserna i den. Raderna som är obligatoriska när du lägger till ett länkat värde är<code> link.valuefield</code> och <code>link.valueformat</code>. </p> </td> 
+      <td> <p>Infoga bara den här raden när du har infogat <code>link.valuefield</code> rad för att lägga till en länk till värdet i en kolumn. Länken öppnar informationssidan för objektet. Detta värde ska matcha <code>valueformat=</code> och anger vilket format som används för att visa <code>valuefield</code>. </p> <p>Viktigt! När du visar textläget i en inbyggd kolumn som även innehåller en länk, ser du ett antal rader som refererar till länken. Vissa av dessa rader kanske inte längre stöds eller är onödiga när du skapar en egen anpassad kolumn i textläge och lägger till länksatserna i den. Raderna som är obligatoriska när du lägger till ett länkat värde är<code> link.valuefield</code> och <code>link.valueformat</code>. </p> </td> 
      </tr> 
      <tr> 
       <td><strong>aggregator.function=</strong> </td> 

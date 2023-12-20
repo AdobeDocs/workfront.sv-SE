@@ -6,9 +6,9 @@ description: Du kan redigera inställningarna för en rapport för att definiera
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -75,15 +75,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Visa</td> 
-      <td>Välj den standardflik som visas för alla användare när rapporten läses in.</td> 
+      <td>Välj standardfliken som visas för alla användare när rapporten läses in.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">När rapporten läses in på en kontrollpanel, visa ... objekt</td> 
+      <td role="rowheader">Visa ... objekt när rapporten läses in på en kontrollpanel</td> 
       <td>Ange antalet objekt som ska visas för alla användare när rapporten läses in på en kontrollpanel. Standardvärdet är 15 objekt och det maximala antalet objekt är 200.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Visa vyn Resursstödraster på fliken Detaljer</td> 
-      <td> <p>(Endast användarrapport) Välj det här alternativet om du vill visa resursstödrastret på fliken Information i rapporten.</p> <p>Obs! När du använder vyn Resursstödraster på en användarrapport visar rapporten endast projekt som har statusen Aktuell. Om du vill se projekt med någon annan status kan du använda fliken Användare i området Personer i det globala navigeringsfältet och använda vyn Resursstödraster där. <!--
+      <td role="rowheader">Visa vyn Resursstödraster på fliken Information</td> 
+      <td> <p>(Endast användarrapport) Välj det här alternativet om du vill visa resursstödrastret på fliken Information i rapporten.</p> <p>Obs! När du använder vyn Resursstödraster på en användarrapport visas endast projekt som har statusen Aktuell. Om du vill se projekt med någon annan status kan du använda fliken Användare i området Personer i det globala navigeringsfältet och använda vyn Resursstödraster där. <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
@@ -115,13 +115,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka **Rapportera uppmaningar** för att ställa in eventuella uppmaningar för rapporten.\
    Mer information om hur du lägger till uppmaningar i en rapport finns i artikeln [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Klicka **Klart,** sedan klicka **Spara + Stäng**.
+1. Klicka **Klart,** klicka sedan på **Spara + Stäng**.
 
 ## Ytterligare information
 
 Se även:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Kom igång med rapporter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Kom igång med rapporter](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Använd inbyggda rapporter från Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
 workflow-type: tm+mt
-source-wordcount: '13836'
+source-wordcount: '13835'
 ht-degree: 0%
 
 ---
@@ -1504,7 +1504,7 @@ ht-degree: 0%
       * [Rapporter](reports-and-dashboards/reports/reports-overview.md)
       * Grundläggande om rapportering {#report-basics}
          * [Grundläggande om rapportering](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [Kom igång med rapporter i Adobe Workfront](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [Kom igång med rapporter](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [Spara standardrapporter som nya rapporter](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * Rapporteringselement {#report-elements}
          * [Översikt över rapportelement](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1562,7 +1562,7 @@ ht-degree: 0%
          * [Exempel på beräknat anpassat fält: visa en tidsstämpel för status i ett anpassat formulär](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [Exempel på beräknat anpassat fält: visa ett fälts redigeringshistorik](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * Exempel på anpassad vy, filter och gruppering {#custom-view-samples}
-         * [Exempel på anpassad vy, filter och gruppering](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [Anpassad vy, filter och gruppering av exempel: artikelindex](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapporter eller listor: visa användare som är kopplade till ett objekt](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filter: visa ofullständiga föregångare mellan projekt](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [Filter: visa ofullständiga projektövergripande efterföljande](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
