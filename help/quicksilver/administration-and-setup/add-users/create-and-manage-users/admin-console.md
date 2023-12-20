@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
 
 ## Gå till användar- och administratörsområdet för din Production-instans av Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. Från [Adobe Admin Console page](https://adminconsole.adobe.com/)väljer du **Produkter** i det övre navigeringsfältet och välj sedan **Workfront** produktpanel.
+1. Från [Adobe Admin Console page](https://adminconsole.adobe.com/)väljer du **Produkter** i det övre navigeringsfältet och sedan väljer **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. I listan som visas väljer du länken längst upp.
 
    Det här är din produktionsinstans där dina användare arbetar.
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ Godkänna en användare:
 
 {{step-1-to-users}}
 
-1. Markera användaren och klicka sedan på M **o** re, ikon ![](assets/more-icon.png).
+1. Markera användaren och klicka sedan på **Mer** icon ![](assets/more-icon.png).
 
 1. Klicka på **Godkänn** och sedan klicka **Skicka**.
 
