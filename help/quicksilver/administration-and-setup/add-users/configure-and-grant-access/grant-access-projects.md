@@ -4,20 +4,24 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att definiera en användares åtkomst till projekt i Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # Bevilja åtkomst till projekt
 
-Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att definiera en användares åtkomst till projekt, vilket förklaras i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+<!-- Audited: 12/2023 -->
+
+Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att definiera en användares åtkomst till projekt, vilket förklaras i följande artiklar:
+* [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 
 Mer information om hur du använder anpassade åtkomstnivåer för att hantera användarnas åtkomst till andra objekttyper i Workfront finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -33,11 +37,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Adobe Workfront</td> 
    <td>Alla</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
-  </tr> 
-  <tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Nytt: Standard </p>
+ <p>eller</p> 
+<p>Aktuell: Planera </p> 
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
@@ -56,8 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >* Användare med en arbetslicens har begränsade projekträttigheter. De kan bidra till ett projekt, men inte hantera ett.
    >* Användare med en granskningslicens har behörighet att visa projekt från konverterade utgåvor, men deras visningsrättigheter är begränsade.
    >* Information om behörigheter som användare kan ge när de delar projekt med andra finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-   >* När du konfigurerar en åtkomstnivåinställning för en viss typ av objekt påverkar den konfigurationen inte användarens åtkomst till objekt med lägre rankning. Du kan till exempel begränsa användare från att ta bort projekt på åtkomstnivån, men detta förhindrar dem inte från att ta bort aktiviteter, som har lägre rankning än projekt. Mer information om objekthierarkin finns i avsnittet [Objektens inbördes beroende och hierarki](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
+   >* När du konfigurerar en åtkomstnivåinställning för en viss typ av objekt påverkar den konfigurationen inte användarens åtkomst till objekt med lägre rankning. Du kan t.ex. hindra användare från att ta bort projekt på åtkomstnivån, men detta förhindrar dem inte från att ta bort aktiviteter, som har lägre rankning än projekt.Mer information om objekthierarkin finns i avsnittet [Objektens inbördes beroende och hierarki](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Valfritt) Klicka på **ange standardinställningar för delning** till höger om alternativet Skapa, och sedan **Lägg till regel** om du vill lägga till en delningsregel för nya projekt.
 
@@ -77,7 +84,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på X för att stänga **Finjustera inställningarna** box.
 1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. När du är klar klickar du på **Spara**.
+1. När du är klar klickar du **Spara**.
 
    När åtkomstnivån har skapats kan du tilldela den till en användare. Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

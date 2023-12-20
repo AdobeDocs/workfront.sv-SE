@@ -7,14 +7,16 @@ description: Du kan skapa en godkännandeprocess och bifoga den till ett objekt 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # Översikt över godkännandeprocessen
+
+<!-- Audited: 12/2023 -->
 
 Du kan skapa en godkännandeprocess och bifoga den till ett objekt för att se till att angivna användare granskar vissa ändringar innan objektet bearbetas.
 
@@ -24,25 +26,24 @@ Detta är tillgängligt för följande typer av objekt i Adobe Workfront:
 * Dokument
 * Korrektur
 
+Den här artikeln innehåller allmän information om godkännandeprocesser som är kopplade till arbetsobjekt.
 Instruktioner om hur du skapar en godkännandeprocess finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Den här artikeln innehåller allmän information om godkännandeprocesser som är kopplade till arbetsobjekt.
-
-## Olika typer av godkännandeprocesser
+## Typer av godkännandeprocesser för arbetsuppgifter
 
 Om du är Adobe Workfront-administratör, eller en användare med administrativ åtkomst till godkännandeprocesser, kan du skapa följande godkännandeprocesser för projekt, uppgifter och ärenden:
 
 * **En global godkännandeprocess på systemnivå**: Användare kan bifoga dessa till något av följande:
 
    * Ett projekt, en uppgift eller en utgåva i avsnittet Godkännanden
-   * I rutan Redigera projekt visas området Standardprocess för godkännande av uppgift
-   * Under Standardgodkännandeprocess i avsnittet Köinformation eller Köämne i ett projekt. Projektet måste aktiveras som en begärandekö.
+   * I rutan Redigera projekt i området Standardprocess för godkännande av uppgift
+   * I avsnittet Köinformation eller Köämne i ett projekt i området Standardgodkännandeprocess. Projektet måste aktiveras som en begärandekö.
 
 * **En global godkännandeprocess på gruppnivå**: Användare kan bifoga dessa till följande:
 
    * Ett projekt, en uppgift eller en utgåva som tillhör gruppen som är associerad med godkännandeprocessen i avsnittet Godkännanden
-   * I rutan Redigera projekt, området Standardprocess för godkännande av uppgift för ett projekt som tillhör gruppen som är associerad med godkännandeprocessen
-   * Under Standardgodkännandeprocess i avsnittet Köinformation eller Köämne i ett projekt. Projektet måste aktiveras som en begärandekö och måste tillhöra gruppen som är associerad med godkännandeprocessen.
+   * I rutan Redigera projekt i området Standardprocess för godkännande av uppgift för ett projekt som tillhör gruppen som är associerad med godkännandeprocessen
+   * I avsnittet Köinformation eller Köämne i ett projekt i området Standardgodkännandeprocess. Projektet måste aktiveras som en begärandekö och måste tillhöra gruppen som är associerad med godkännandeprocessen.
 
   Mer information om hur du skapar godkännandeprocesser på system- eller gruppnivå finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

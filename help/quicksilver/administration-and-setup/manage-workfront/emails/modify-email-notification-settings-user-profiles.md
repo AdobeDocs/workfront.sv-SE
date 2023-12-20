@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Ändra e-postaviseringsinställningar för flera användare
+
+<!-- Audited: 12/2023 -->
 
 Om du är Adobe Workfront-administratör eller har en åtkomstnivå för Planering som gör att du kan redigera andra användares inställningar, kan du konfigurera meddelandeinställningarna för flera användare samtidigt. Detta inkluderar att ange om användare ska få meddelanden när händelser inträffar, eller i ett e-postmeddelande med dagliga sammandrag enligt beskrivningen i [Adobe Workfront-meddelanden](../../../workfront-basics/using-notifications/wf-notifications.md). Mer information om åtkomstnivån som behövs för att redigera användare finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 

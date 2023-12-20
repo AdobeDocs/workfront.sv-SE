@@ -7,7 +7,7 @@ description: Du kan beräkna och budgetera allokeringen av dina resurser till de
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Översikt över resursplanering
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -40,9 +42,9 @@ Du kan visa information i resursplaneraren i tre olika vyer. Du kan använda var
 
 * Så här visar du följande information i användarvyn:
 
-   * tillgängligheten för dina användare enligt deras schema
-   * Den planerade tid som behövs för att slutföra arbetet enligt projektplanen.
-   * den tid som användare redan har loggat in på faktiska arbetsobjekt.
+   * Tillgängligheten för dina användare enligt deras schema
+   * Den planerade tid som krävs för att slutföra arbetet enligt projektplanen
+   * Den tid som användare redan har loggat in på faktiska arbetsobjekt
 
   Mer information om hur du visar Tillgängliga, Planerade och Faktiska timmar eller FTE för användare i Resursplaneraren finns i artikeln [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 

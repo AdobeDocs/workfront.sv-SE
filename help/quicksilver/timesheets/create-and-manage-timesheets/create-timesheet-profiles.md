@@ -6,9 +6,9 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,17 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Plan </p> </td> 
+   <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Nytt: Standard </p>
+ <p>eller</p> 
+<p>Aktuell: Planera </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Ge användarna administrativ åtkomst till vissa områden</a>.</p>  <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -63,7 +64,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 >
 >Om du vill aktivera ändringar av tidrapportprofilen i aktuella tidrapporter måste du ta bort de befintliga tidrapporterna och sedan generera nya. Instruktioner finns i [Ta bort tidrapporter i Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) och [Generera tidrapporter manuellt](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Om du skapar eller redigerar en tidrapportprofil som ska användas i hela systemet klickar du på **Tidrapport och timmar**.
 
@@ -94,25 +95,25 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
       <li> <p>Om du skapar en tidrapportprofil på systemnivå lämnar du det här fältet tomt.</p> <p>Alla användare som kan redigera användarkonton kan bifoga en tidrapport på systemnivå till andra användare.</p> <p>Endast en Workfront-administratör kan redigera en tidrapportprofil på systemnivå.</p> </li> 
       </ul> 
      <ul> 
-      <li> <p>Identifiera gruppen här om du skapar en tidrapportprofil för en grupp som du administrerar.</p> <p>Detta tilldelar inte tidrapportprofilen till användarna i gruppen. kan bara gruppens administratörer ändra tidrapportprofilen. Du tilldelar profilen till användare i steg 6.</p> <p><b>ANMÄRKNING</b>
+      <li> <p>Identifiera gruppen här om du skapar en tidrapportprofil för en grupp som du administrerar.</p> <p>Detta tilldelar inte tidrapportprofilen till användarna i gruppen utan bara gruppens administratörer möjlighet att ändra tidrapportprofilen. Du tilldelar profilen till användare i steg 6.</p>
 
-   När användare utanför gruppen kopplar tidrapportprofiler till andra användare kan de inte se eller bifoga den här tidrapportprofilen.</p> </li>
-   </ul> </p> </td> 
+   <p><b>ANMÄRKNING</b>: När användare utanför gruppen bifogar tidrapportprofiler till andra användare kan de inte se eller bifoga den här tidrapportprofilen.</p> </li> 
+      </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Skapa tidrapporter</strong> </td> 
       <td> <p> <p>Ange när tidrapportprofilen ska generera tidrapporterna. En tidrapport kan ställas in så att den automatiskt genereras varje vecka, varannan vecka, halvår eller månad. Välj den veckodag då du vill att tidrapporten ska skapas.</p>
       <p>En veckotidrapport börjar det datum då den skapas. Om du t.ex. skapar veckotidrapporter varje torsdag är den första dagen i veckan på tidrapporten torsdag.</p>
-      <p><b>ANMÄRKNING</b></p>
 
-   <p>Workfront skapar alltid två tidrapporter i taget: den första tidrapporten alltid innehåller det aktuella datumet och den andra tidrapporten startar när tidsramen för den första avslutas.</p> </p> </td> 
+
+   <p><b>ANMÄRKNING</b>: Workfront skapar alltid två tidrapporter i taget: den första tidrapporten innehåller alltid det aktuella datumet och den andra tidrapporten startar när tidsramen för den första är slut.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Godkännare</strong></p> </td> 
       <td> <p> <p>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Du kan identifiera upp till 7 användare som godkännare på en tidrapport. Det är praktiskt att identifiera flera användare för att se till att en godkännare är tillgänglig när någon inte är på kontoret. Alla godkännare meddelas när en användare skickar tidrapporten för godkännande. Endast en användare behöver godkänna tidrapporten för att den ska godkännas.</p> <p>Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administrationsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Använd listrutan för att välja godkännare för tidrapporten (om en godkännare krävs). Du kan välja mellan följande alternativ:</p> 
       <ul> 
       <li><strong>Ingen</strong>: Tidrapporten behöver inte godkännas.</li> 
-      <li><strong>Deras chef</strong>: Det här är standardgodkännaren som ställs in av systemet. I det här fallet godkänner den användare som är utsedd som sin chef tidrapporten när den skickas för godkännande.</li> 
+      <li><strong>Deras chef</strong>: Detta är standardgodkännaren som ställs in av systemet. I det här fallet godkänner den användare som är utsedd som sin chef tidrapporten när den skickas för godkännande.</li> 
       <li><strong>Specifika personer:</strong> Du kan ange specifika användare efter namn som tidrapportgodkännare. Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som <strong>Stängd</strong> och tas bort från listan över tidrapportgodkännanden för alla återstående godkännare.</li> 
        </ul> </p> </td> 
      </tr> 
@@ -128,15 +129,15 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
       <li>När <b>Begränsa redigering av tidrapporter till ägare och administratörer</b> är aktiverat:</li>
       <ul><li>Godkännare kan bara godkänna och avvisa tidrapport, oavsett om <b>Redigeringstid</b> är aktiverat eller inte. </li>
       <li>Tidrapportsägarnas chefer kan bara visa sina direkt rapporters tidrapporter.</li></ul>
-      <li>När <b>Begränsa redigering av tidrapporter till ägare och administratörer</b> är inaktiverat:</li>
+      <li>När <b>Begränsa redigering av tidrapporter till ägare och administratörer</b> alternativet är inaktiverat:</li>
     <ul><li>När <b>Redigeringstid</b> är aktiverat kan godkännare skicka, öppna igen eller stänga tidrapporten och redigera tiden.</li>
       <li>När <b>Redigeringstid</b> är inaktiverat, godkännare kan inte skicka, öppna igen eller stänga tidrapporten och kan inte redigera tiden. Godkännare kan bara godkänna eller avvisa tidrapporten. </li>
       <li>Tidrapportsägarnas chefer kan skicka, återkalla, öppna och redigera sina direkt underställda tidrapporter.</li></ul>
       </ul>
 
-   <p><b>ANMÄRKNING</b>
+   <p>
 
-   När du har skickat in en tidrapport för godkännande kan du inte längre redigera timmarna. Om du vill returnera en inskickad tidrapport till ett redigerbart tillstånd måste du återkalla tidrapporten eller låta godkännaren avvisa tidrapporten. Mer information finns i <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Skicka en tidrapport för godkännande</a> och<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Godkänn en tidrapport</a>.</p> </p> </td>
+   <b>ANMÄRKNING</b>: När du har skickat in en tidrapport för godkännande kan du inte längre redigera timmarna. Om du vill returnera en inskickad tidrapport till ett redigerbart tillstånd måste du återkalla tidrapporten eller låta godkännaren avvisa tidrapporten. Mer information finns i <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Skicka en tidrapport för godkännande</a> och<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Godkänn en tidrapport</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Tillgängliga timtyper</strong> </td> 

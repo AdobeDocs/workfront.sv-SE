@@ -7,7 +7,7 @@ description: Projektvillkoret är en visuell representation av hur projektet for
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Översikt över projektvillkor och villkorstyp
+
+<!-- Audited: 12/2023 -->
 
 Projektvillkoret är en visuell representation av hur projektet fortskrider. Det är en variabel som kan rapporteras och som bestäms av förhållandet mellan projektets planerade, planerade och beräknade datum.
 
@@ -27,20 +29,19 @@ Tänk på följande när du är insatt i ett projekts villkor:
    * Manuellt av användare som har åtkomst till Hantera projektet och när villkorstypen för projektet är inställd på Manuell.
    * Automatiskt av Adobe Workfront när villkorstypen för projektet är inställd på Status. Projektets förloppsstatus bestäms av förloppet för aktiviteterna i projektet. Mer information om projektets förloppsstatus finns i [Översikt över status för projektförlopp](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-   Mer information om hur du uppdaterar villkorstypen för projektet finns i [Ange villkorstyp för ett projekt](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
+  Mer information om hur du uppdaterar villkorstypen för projektet finns i [Ange villkorstyp för ett projekt](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
 
 * När du tillåter att Workfront automatiskt beräknar projektvillkoren rekommenderar vi att du använder föregående aktiviteter för dina uppgifter så att aktivitetens förlopp återspeglar projektets aktuella förlopp och förloppsstatus.
 * Som projektägare kan du ändra projektet till att använda en manuell villkorstyp i stället för att använda förloppsstatusen genom att ändra villkorstypen från förloppsstatus till Manuell.
 
-   >[!NOTE]
-   >
-   >Projekt som har någon av följande statusvärden markeras alltid som På mål, oavsett datum för aktiviteterna och förloppet:
-   >
-   >* Idea
-   >* Begärd
-   >* Godkänd
-   >* Avvisad
-
+  >[!NOTE]
+  >
+  >Projekt som har någon av följande statusvärden markeras alltid som På mål, oavsett datum för aktiviteterna och förloppet:
+  >
+  >* Idea
+  >* Begärd
+  >* Godkänd
+  >* Avvisad
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -74,14 +75,14 @@ I det här fallet kan värdena för Projektvillkor vara:
  <col> 
  <tbody> 
   <tr> 
-   <td>Projektvillkor</td> 
-   <td>Status för projektförlopp</td> 
-   <td>Workfront villkorsindikator</td> 
+   <td><strong>Projektvillkor</strong></td> 
+   <td><strong>Status för projektförlopp</strong></td> 
+   <td><strong>Workfront villkorsindikator</strong></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>På mål</td> 
-   <td> <li>När statusen för projektet är I tid är villkoret för projektet <strong>På mål</strong>.</li> </td> 
+   <td>När statusen för projektet är I tid är villkoret för projektet <strong>På mål</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
@@ -110,9 +111,9 @@ I vyn för en projektrapport kan du visa följande fält som är relaterade till
 
 * **Projektvillkor:** Visar projektets aktuella villkor.
 * **Uppdatering av projektvillkor**: Visar den senaste uppdateringen som projektägaren har tillhandahållit i projektets uppdateringsström, tillsammans med det nya villkoret.\
-   Kommentarer som gjorts i villkorsuppdateringar visas inte i dialogrutan **Villkorsuppdatering** kolumn; visas bara huvuduppdateringen.
+  Kommentarer som gjorts i villkorsuppdateringar visas inte i dialogrutan **Villkorsuppdatering** -kolumn. Endast huvuduppdateringen visas.
 
-* **Senaste villkorsanteckning**: Visar den uppdatering som objektets ägare senast angav för ett objekt. Det här fältet är användbart för att visa ägarens senaste aktivitet eller interaktion för ett objekt.\
-   The **Senaste villkorsanteckning** kolumnen är tom om anteckningstexten för den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.
+* **Meddelande om senaste villkor**: Visar den uppdatering som objektets ägare senast angav för ett objekt. Det här fältet är användbart för att visa ägarens senaste aktivitet eller interaktion för ett objekt.\
+  The **Meddelande om senaste villkor** kolumnen är tom om anteckningstexten för den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.
 
 Mer information om hur du skapar en rapport finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

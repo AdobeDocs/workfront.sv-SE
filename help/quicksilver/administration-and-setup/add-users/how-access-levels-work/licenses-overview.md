@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: licens,typ
 navigation-topic: access-levels
 description: Organisationen köpte ett visst antal licenser när den köpte Adobe Workfront. Som Workfront-administratör ger du en av tre typer av nya Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
+source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -19,13 +19,15 @@ ht-degree: 0%
 
 # Översikt över nya licenser
 
+<!-- Audited: 12/2023 -->
+
 Organisationen köpte ett visst antal licenser när den köpte Adobe Workfront. Som Workfront-administratör ger du en av tre typer av Workfront-licenser till varje användare när du tilldelar användaren en åtkomstnivå.
 
 ## Hur nya Workfront-licenser och nya åtkomstnivåer knyts ihop
 
 De tre typerna av nya Workfront-licenser ger olika åtkomstnivåer till Workfront. Varje åtkomstnivå är kopplad till en av dessa licenser.
 
-Som Workfront-administratör tilldelar du en användare den åtkomstnivå som är kopplad till licensen i stället för att tilldela en licens till en användare.
+I stället för att tilldela en licens till en användare, tilldelar du användaren den åtkomstnivå som är kopplad till den licensen.
 
 Tabellen och diagrammet visar de viktigaste åtkomstnivåerna till Workfront:
 
@@ -54,6 +56,6 @@ När du tilldelar en åtkomstnivå till en användare minskas antalet tillgängl
 
 Om du till exempel tilldelar en användare åtkomstnivån Standard, kommer antalet tillgängliga standardlicenser att minskas med 1.
 
-Du kan visa licenser och åtkomstnivåer som tilldelats dina användare. Mer information finns i [Visa användarnas åtkomstnivåer och licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
+Du kan visa licenser och åtkomstnivåer som tilldelats dina användare. Mer information finns i [Visa användarnas åtkomstnivåer och licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Mer information om hur du hanterar licenser finns i [Hantera tillgängliga licenser i ditt system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
+Mer information om hur du hanterar licenser finns i [Hantera tillgängliga licenser i ditt system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

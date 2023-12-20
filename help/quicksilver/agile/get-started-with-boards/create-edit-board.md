@@ -6,14 +6,16 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera en anslagstavla
+
+<!-- Audited: 12/2023 -->
 
 Från [!UICONTROL boards] kan du skapa en ny panel eller redigera en befintlig panel.
 
@@ -29,6 +31,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Nytt: Medarbetare eller högre </p>
+ <p>eller</p> 
+<p>Aktuell: [!UICONTROL Request] eller högre </p> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
    <td> <p>[!UICONTROL Request] eller högre</p> </td> 
@@ -40,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa en ny anslagstavla
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+{{step1-to-boards}}
 1. Klicka på **[!UICONTROL Add board]**.
 
 1. Välj en mall för styrelsen.
@@ -86,7 +95,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Redigera en befintlig styrelse
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+{{step1-to-boards}}
 1. På kontrollpanelen väljer du den panel som ska öppnas.
 1. Redigera styrelsen efter behov. Du kan klicka på styrelsens namn för att byta namn på det.
 
