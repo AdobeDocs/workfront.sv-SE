@@ -6,9 +6,9 @@ description: Portfolio eller Project Portfolio Management (PPM) är processen at
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Mer information om hur du skapar ett affärsärende och en projektförfrågan fi
 
 ### Projektgranskning {#project-review}
 
-När du har skickat in projektförfrågan granskar projektledaren eller ett ledningsgrupp den och avgör om den ska godkännas eller inte. Om de godkänns väljs de för ett företag som heter Project Portfolio.
+När du har skickat in projektbegäran granskar projektledaren eller ett ledningsgrupp den och avgör om du ska godkänna projektet eller inte. Om de godkänner projektet väljs projektet ut för ett företag som heter Project Portfolio.
 
 Mer information om portföljer finns i [Portfolio, översikt i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Mer information om hur du godkänner ett affärsärende finns i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -67,9 +67,9 @@ Mer information om portföljoptimering finns i [Optimera projekt i Portfolio Opt
 
 ### Resursplanering {#resource-planning}
 
-Resurshanteraren ser till att rätt resurser tilldelas projekten tillsammans med optimering av portföljens prestanda och prioritering av projektet. De bedömer tillgängligheten och fördelningen av resurserna med hjälp av de resurshanteringsverktyg som finns i [!DNL Workfront].
+Resurshanteraren ser till att rätt resurser tilldelas projekten tillsammans med optimering av portföljens prestanda och prioritering av projekten. De bedömer tillgängligheten och fördelningen av resurserna med hjälp av de resurshanteringsverktyg som finns i [!DNL Workfront].
 
-Beroende på vilka resurser som är tillgängliga kan det vara nödvändigt att prioritera om projekten i Portfolio Manager.
+Beroende på vilka resurser som är tillgängliga kan du behöva prioritera om projekten i Portfolio Manager.
 
 Mer information om resurshantering finns i [Hantera resurser](../../../resource-mgmt/manage-resources.md) -avsnitt.
 

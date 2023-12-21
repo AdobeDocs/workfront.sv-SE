@@ -6,9 +6,9 @@ description: Ändra användartilldelningar för flera utgåvor i en lista
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan ändra användartilldelningar samtidigt till flera utgåvor. Mer informa
 * [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Tilldela ärenden](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Allmän information om hur du tilldelar problem finns i [Ändra översikt över utleveranstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Allmän information om hur du tilldelar problem finns i [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
@@ -84,11 +84,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       Dialogrutan Nytt filter visas.
 
    1. Klicka **Lägg till en filterregel.**
-   1. Om du vill filtrera efter en viss roll expanderar du **Tilldelningsroller,** sedan klicka **ID.**
+   1. Om du vill filtrera efter en viss roll expanderar du **Tilldelningsroller,** klicka sedan på **ID.**
 
       eller
 
-      Om du vill filtrera efter en viss användare expanderar du **Tilldelningsanvändare,** sedan klicka **ID.**
+      Om du vill filtrera efter en viss användare expanderar du **Tilldelningsanvändare,** klicka sedan på **ID.**
 
       >[!TIP]
       >
@@ -113,13 +113,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       1. Börja skriva namnet på en användare, roll eller team och markera det sedan när det visas i listan. Uppdraget läggs till och ersätter inte de aktuella tilldelningarna för de valda utgåvorna.
 
          >[!TIP]
+         >
          Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+         >
          Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+         >
          * Tilldela om arbetsuppgiften till aktiva resurser.
          * Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
-
          Information som är gemensam för alla valda utgåvor visas. Om till exempel samma användare tilldelas alla utgåvor visas den användaren i **Tilldelad** kolumn. Om information inte är vanlig i de markerade problemen visas ingen information.
+
    1. Så här tar du bort enskilda tilldelningar:
 
       1. Klicka på **X-ikon** bredvid namnet på den tilldelare som du vill ta bort om den tilldelande visas i uppdragslistan.
@@ -129,13 +132,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
          (Villkorligt) Om den tilldelade personen som du vill ta bort inte visas i avsnittet Uppdrag eftersom den tilldelade personen endast är tilldelad till vissa av de utgåvor som du har valt, klickar du på **Ta bort tilldelad** och börja skriva namnet på den som du vill ta bort och klicka sedan på namnet när det visas i listrutan.
 
       1. Klicka **Ta bort tilldelad** igen om du vill lägga till ytterligare en tilldelad som ska tas bort.
+
    1. Så här tar du bort alla befintliga tilldelningar:
 
       1. Klicka **Ta bort alla befintliga tilldelningar** och sedan klicka **Ja, ta bort alla tilldelningar**.
 
-         Detta tar inte bara bort vanliga tilldelningar (tilldelningar som visas i redigeringsdialogrutan) utan även alla tilldelningar för alla markerade frågor.
-
-
+         Detta tar inte bara bort vanliga tilldelningar (tilldelningar som visas i redigeringsdialogrutan), utan även alla tilldelningar för alla markerade frågor.
 
 1. (Valfritt) Ändra något av följande alternativ för de tilldelningar du har valt för att associera med problemen:
 

@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-issues
-title: Ändra översikt över utleveranstilldelningar
+title: Översikt över ändring av utgivningstilldelningar
 description: Du kan tilldela utgåvor eller ta bort tilldelning från användare, team eller jobbroller. Du kan tilldela flera resurser samtidigt, eller bara en resurs. Du kan tilldela en utgåva åt gången eller flera utgåvor åt gången.
 author: Alina
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
-# Ändra översikt över utleveranstilldelningar
+# Översikt över ändring av utgivningstilldelningar
 
 Du kan tilldela utgåvor eller ta bort tilldelning från användare, team eller jobbroller. Du kan tilldela flera resurser samtidigt, eller bara en resurs. Du kan tilldela en utgåva åt gången eller flera utgåvor åt gången.
 
@@ -26,7 +26,6 @@ Du kan tilldela utgåvor eller ta bort tilldelning från användare, team eller 
 >
 >* Tilldela om arbetsuppgiften till aktiva resurser.
 >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-
 
 Den här artikeln innehåller allmän information om effekten av att ändra problemtilldelningar. Mer information om hur du tilldelar problem finns i följande artiklar:
 
@@ -41,7 +40,7 @@ Viss information i den här artikeln gäller även för tilldelningar av uppgift
 Du kan ändra användartilldelningarna av flera olika anledningar, bland annat följande:
 
 * Användarna går med eller lämnar teamet
-* En användare tar en semester som sträcker sig utanför förfallodatumet
+* En användare tar en semester som sträcker sig utanför förfallodatumet för utgåvan
 * En specifik roll eller användare anges som tilldelad för flera utgåvor och du vill snabbt ändra alla artiklar som ska tilldelas till en annan användare eller roll
 
 ## Att tänka på när du tar bort tilldelningar från frågor

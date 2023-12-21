@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,14 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Som Workfront-administratör eller gruppadministratör kan du skapa och ändra layoutmallar för att anpassa följande layoutelement i Workfront för dina användare:
+Som Adobe Workfront-administratör eller gruppadministratör kan du skapa och ändra layoutmallar för att anpassa följande layoutelement i Workfront:
 
 * Huvudmeny
 * Navigeringspanelen till vänster
 * Hemsida
 * Vyer, filter och grupperingar som andra använder med listor och rapporter.
 * Terminologi på skärmen
+* Projekt-, uppgifts- och problemhuvuden
 
 När du har skapat eller ändrat en layoutmall kan du tilldela den till enskilda användare, team, grupper eller jobbroller.
 
@@ -48,13 +49,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td><p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-  </tr> 
+   <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.</p>
+<p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>ANMÄRKNING</b>:</p> <p>Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.
+
+Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+</tr> 
  </tbody> 
 </table>
 
@@ -69,7 +74,7 @@ Mer information om layoutmallar finns i [Layoutmallar](../../../administration-a
 
 ## Skapa eller ändra en layoutmall
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **Gränssnitt** > **Layoutmallar**.
 
@@ -79,7 +84,7 @@ Mer information om layoutmallar finns i [Layoutmallar](../../../administration-a
 
    Klicka på namnet på layoutmallen som du vill ändra.
 
-1. Om du skapar en ny layoutmall skriver du en **Namn på layoutmall** och (valfritt) a **Beskrivning** för den.
+1. Om du skapar en ny layoutmall skriver du **Namn på layoutmall** och (valfritt) a **Beskrivning** för den.
 
 1. Anpassa delar av användargränssnittet enligt följande artiklar:
 
@@ -92,10 +97,13 @@ Mer information om layoutmallar finns i [Layoutmallar](../../../administration-a
    * [Anpassa filter, vyer och grupperingar med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Anpassa användargränssnittsterminologi med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
-1. Fortsätt med att testa layoutmallen och göra den tillgänglig för användare, så som beskrivs i artiklarna nedan:
+1. Fortsätt att testa layoutmallen och göra den tillgänglig för användare, så som beskrivs i artiklarna nedan:
 
    * [Testa en ny layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [Bevilja administrativ åtkomst för en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Tilldela användare till en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-Du kan också skapa en ny layoutmall genom att kopiera den och ändra kopian. Mer information finns i [Kopiera en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>[!TIP]
+>
+>Du kan också skapa en layoutmall genom att kopiera den och ändra kopian. Mer information finns i [Kopiera en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+

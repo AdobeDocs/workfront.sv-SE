@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
 workflow-type: tm+mt
-source-wordcount: '13834'
+source-wordcount: '13835'
 ht-degree: 0%
 
 ---
@@ -1381,7 +1381,7 @@ ht-degree: 0%
          * [Kopiera problem](manage-work/issues/manage-issues/copy-issues.md)
          * [Flytta problem](manage-work/issues/manage-issues/move-issues.md)
          * [Ta bort problem](manage-work/issues/manage-issues/delete-issues.md)
-         * [Ändra översikt över utleveranstilldelningar](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+         * [Översikt över ändring av utgivningstilldelningar](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [Ändra användartilldelningar för flera utgåvor i en lista](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Uppdatera automatiskt utskicksstatus från Väntar på feedback till Pågår](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * Gantt-schemat {#the-gantt-chart}

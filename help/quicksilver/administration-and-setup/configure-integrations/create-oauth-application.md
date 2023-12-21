@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -298,7 +298,7 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
       <td>Detta är e-postadressen till den utvecklare som konfigurerar OAuth2-programmet.</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL Privacy policy UTL]</td> 
+      <td role="rowheader">[!UICONTROL Privacy policy URL]</td> 
       <td>Det här är länken till den plats där din organisation lagrar integritetspolicyn.</td> 
      </tr>
 

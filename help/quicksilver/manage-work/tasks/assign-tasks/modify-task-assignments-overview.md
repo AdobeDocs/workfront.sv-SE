@@ -7,9 +7,9 @@ description: Du kan tilldela uppgifter till eller ta bort tilldelning från anv�
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Du kan tilldela uppgifter till eller ta bort tilldelning från användare, team 
 >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 >
 
-
 Den här artikeln innehåller allmän information om effekten av att ändra uppgiftstilldelningar. Mer information om hur du tilldelar uppgifter finns i följande artiklar:
 
 * Mer information om hur du tilldelar uppgifter finns i [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md) och [Ändra flera användartilldelningar i en uppgiftslista](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
@@ -36,7 +35,7 @@ Den här artikeln innehåller allmän information om effekten av att ändra uppg
 * Mer information om hur du ändrar tilldelningar för flera aktiviteter i schemaläggningsområdet finns i&quot;Ändra flera användartilldelningar för aktiviteter i schemaläggningsområdena&quot;.
 * Mer information om hur du tilldelar uppgifter med hjälp av belastningsutjämnaren finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Viss information i den här artikeln gäller även för uppdrag i ärenden. Mer information om hur du tilldelar problem och andra överväganden finns i [Ändra översikt över utleveranstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Viss information i den här artikeln gäller även för uppdrag i ärenden. Mer information om hur du tilldelar problem och andra överväganden finns i [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## När användartilldelningar ska ändras för uppgifter
 
@@ -45,9 +44,9 @@ Du kan ändra användartilldelningarna för uppgifter av olika anledningar, blan
 * Användarna går med eller lämnar teamet
 * En användare tar en semester som sträcker sig längre än förfallodatum för uppgifter
 
-   >[!NOTE]
-   >
-   >När du tilldelar användare arbetsuppgifterna påverkar tillgängligheten enligt deras scheman de planerade och planerade datumen för uppgifterna. Mer information om scheman finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >[!NOTE]
+  >
+  >När du tilldelar användare arbetsuppgifterna påverkar tillgängligheten enligt deras scheman de planerade och planerade datumen för uppgifterna. Mer information om scheman finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * En specifik roll eller användare anges som tilldelad för flera uppgifter och du vill snabbt ändra alla objekt som ska tilldelas till en annan användare eller roll
 
@@ -58,7 +57,7 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 * Användare kan ha mer än en jobbroll kopplad till sin profil. Mer information om hur du associerar användare med jobbroller finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Uppgifter eller ärenden tilldelas vanligtvis först till en eller flera jobbroller eller till ett team. När projekten är klara att starta kan de behöva tilldelas användare.\
-   Om en uppgift eller ett ärende tilldelas till en eller flera roller och du sedan även tilldelar en användare, bestämmer Adobe Workfront vilken jobbroll som ska associeras med den andra användaren (om någon) enligt följande regler:
+  Om en uppgift eller ett ärende tilldelas till en eller flera roller och du sedan även tilldelar en användare, bestämmer Adobe Workfront vilken jobbroll som ska associeras med den andra användaren (om någon) enligt följande regler:
 
    * Om det bara finns en tilldelad jobbroll och den matchar användarens primära roll, tilldelas uppgiften eller utgåvan endast den användare som fyller sin primära roll.
    * Om det finns flera roller tilldelade och minst en av rollerna matchar användarens sekundära roller, tilldelas uppgiften eller utgåvan till användaren som uppfyller en av deras övriga roller - som Workfront väljer slumpmässigt om det finns flera matchningar - samt eventuella ytterligare roller som tilldelas.
@@ -74,9 +73,9 @@ När du tar bort en användare från en uppgift med följande varaktighetstyper:
 
 * **Enkelt:** De planerade timmar som tilldelats den användaren subtraheras från aktivitetens totala planerade timmar.
 
-   >[!IMPORTANT]
-   >
-   >Detta kan påverka projektplanen negativt eftersom det ändrar det totala antalet planerade timmar för aktiviteten och projektet.
+  >[!IMPORTANT]
+  >
+  >Detta kan påverka projektplanen negativt eftersom det ändrar det totala antalet planerade timmar för aktiviteten och projektet.
 
 * **Ansträngningsstyrd:** Allokeringsprocenten ändras inte för andra användare.
 * **Beräknad tilldelning:** Allokeringsprocenten för andra användare justeras så att summan motsvarar 100 %.

@@ -6,9 +6,9 @@ description: Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp av standardgränssnittet eller textlägesgränssnittet när du skapar elementen som utgör rapporten eller listan. Med standardgränssnittet kan du referera till fält och deras attribut som är tillgängliga i Workfront-gränssnittet. I textläge kan du referera till fält och attribut som kanske inte är tillgängliga i standardläge, men som är tillgängliga i Workfront-databasen.
+Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp av standardgränssnittet eller textlägesgränssnittet när du skapar elementen som utgör rapporten eller listan.
+
+Med standardgränssnittet kan du referera till fält och deras attribut som är tillgängliga i Workfront-gränssnittet.
+
+I textläge kan du referera till fält och attribut som kanske inte är tillgängliga i standardläge, men som är tillgängliga i Workfront-databasen.
 
 Mer information om hur du skapar rapporter i textläge, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League webbplats.
 
@@ -74,9 +78,6 @@ En fullständig lista över alla våra rapportbara fält finns i [API Explorer](
 >
 >Alla fält som är tillgängliga via API är inte tillgängliga via textlägesgränssnittet. Om du använder rätt fält i textlägeskoden och inte visar de resultat du förväntar dig, kan det hända att fältet bara kan rapporteras via API:t.
 
-* [Få åtkomst till rapportelement och redigera textläge](#access-reporting-elements-and-edit-text-mode)
-* [Vanliga skäl att använda textläge](#common-reasons-to-use-text-mode)
-
 ## Få åtkomst till rapportelement och redigera textläge {#access-reporting-elements-and-edit-text-mode}
 
 Att få åtkomst till textlägesgränssnittet är detsamma för vyer, grupperingar och filter när du får åtkomst till dem från en rapport eller lista.
@@ -95,13 +96,20 @@ Anpassade uppmaningar kan bara redigeras i textläge. Du kan bara komma åt uppm
 
 Mer information om hur du får åtkomst till textlägesgränssnittet för anpassade uppmaningar finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
--->
+## Vanliga skäl att använda textläge {#common-reasons-to-use-text-mode}
+
+Förutom att skapa anpassade uppmaningar som bara kan konfigureras i textläge rekommenderar vi att du använder rapportverktyget för att skapa vyer, filter och grupperingar. I vissa fall kan du dock använda textläge för att förbättra rapporter och listor.
+
+Mer information om vanliga användningsområden för textläge finns i [Översikt över vanliga användningsområden för textläge](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
+  -->
+
+<!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
+  -->
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> </li>
@@ -120,18 +128,18 @@ Mer information om hur du får åtkomst till textlägesgränssnittet för anpass
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
--->
+  <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
+  -->
 
 <!--
-<note type="tip">
-We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
-</note>
--->
+  <note type="tip">
+  We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
+  </note>
+  -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
+  -->
 
 <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
@@ -539,21 +547,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-    &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Den första grupperingen i rapporten har gruppnumret 0. Alla rader som refererar till den första grupperingen börjar med group.0.&lt;/code>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Den andra grupperingen i rapporten har gruppnumret 1. Alla rader som refererar till den andra grupperingen börjar med &lt;code>group.1&lt;/code>.&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Den tredje grupperingen i rapporten har gruppnummer 2. Alla rader som refererar till den tredje grupperingen börjar med &lt;code>grupp.2&lt;/code>.&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Endast i textläge kan du lägga till gruppnumret 3 för en fjärde gruppering. Alla rader som refererar till den fjärde grupperingen börjar med &lt;code>gruppen.3&lt;/code>.&lt;/em>&lt;/li>
-    —>
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+  -->
 
 <!--
    <note type="note">
@@ -585,11 +593,13 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report)</p>   
    -->
 
->[!TIP]
->
->När du justerar grupperingar manuellt när du visar en lista kommer Workfront ihåg dina manuella inställningar tills du loggar ut. När du loggar in igen visas listan enligt den här inställningen.
->
->Resultatet av en gruppering visas alltid expanderat när du har öppnat dem från ett diagramelement.
+<!--
+   >[!TIP]
+   >
+   >When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >
+   >The results of a grouping always display expanded after accessing them from a chart element.
+   -->
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -611,8 +621,4 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## Vanliga skäl att använda textläge {#common-reasons-to-use-text-mode}
 
-Förutom att skapa anpassade uppmaningar som bara kan konfigureras i textläge rekommenderar vi att du använder rapportverktyget för att skapa vyer, filter och grupperingar. I vissa fall kan du dock använda textläge för att förbättra rapporter och listor.
-
-Mer information om vanliga användningsområden för textläge finns i [Översikt över vanliga användningsområden för textläge](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

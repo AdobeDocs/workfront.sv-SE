@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # Tilldela ärenden
 
-Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i [Ändra översikt över utleveranstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ Du kan tilldela utgåvor till användare, roller och team för att ange vem som 
 
 Utöver den här artikeln rekommenderar vi att du läser följande artiklar för mer information om hur du tilldelar problem:
 
-* [Ändra översikt över utleveranstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Ändra användartilldelningar för flera utgåvor i en lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -121,14 +121,14 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (Villkorligt) Klicka på ett av namnen i dialogrutan **Föreslagna uppdrag** list
-   * Klicka **Tilldela mig** för att tilldela den till dig själv
-   * Klicka **Avancerat**
+   * Klicka **Tilldela mig** tilldela den till dig själv
+   * Klicka **Avancerat**.
 
      Att skapa avancerade uppdrag fungerar ungefär på samma sätt för uppgifter och ärenden. Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
      >[!TIP]
      >
-     >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn.
+     >När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn.
      >
      >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
      >
@@ -153,7 +153,7 @@ Beroende på vilket fält som visas i vyn kan du tilldela följande enheter till
 Så här tilldelar du utgåvor i en lista:
 
 1. Gå till en lista med problem som har fälten Tilldelad, Tilldelad eller Uppdrag i vyn.
-1. Gör något av följande om du vill tilldela utgåvor:
+1. Gör något av följande om du vill tilldela problem:
 
    * Klicka inuti **Tilldelad till** eller **Tilldelad** fält och börja skriva namnet på en aktiv användare som du vill tilldela utgåvan och klicka sedan på den när den visas i listan.
 
@@ -165,7 +165,7 @@ Så här tilldelar du utgåvor i en lista:
 
    >[!TIP]
    >
-   >När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn.
+   >När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn.
    >
    >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
    >

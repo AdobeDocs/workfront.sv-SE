@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Konfigurera systemomfattande projektinställningar
 description: Som en [!DNL Adobe Workfront] kan du konfigurera standardinställningar för alla projekt som skapas i systemet. Inställningarna påverkar projekt, uppgifter och problembeteende.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -32,28 +32,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] plan</p></td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nytt: [!UICONTROL Standard]</p>
+   eller
+   <p>Aktuell: [!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL System Administrator]</p> <p><b>ANMÄRKNING</b>:</p><p>Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Konfigurera projektinställningar för hela organisationen
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects]**.
 
-1. På den sida som visas fortsätter du med något av de fyra avsnitten nedan för att konfigurera inställningar för [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases]och [!UICONTROL Life after Death].
-1. Om du vill att alla grupper i hela organisationen ska använda samma projektinställningar måste du se till att alla inställningar är låsta ![](assets/lock-toggle-button.png) (det här är standardvärdet).
+1. På **Projektinställningar** fortsätter du med något av de fyra avsnitten nedan för att konfigurera inställningar för [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases]och [!UICONTROL Life after Death].
+1. Om du vill att alla grupper i organisationen ska använda samma projektinställningar måste du se till att alla inställningar är låsta ![](assets/lock-toggle-button.png) (det här är standardvärdet).
 
    >[!IMPORTANT]
    >
@@ -89,7 +92,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
          </ul>
         <p>Den här inställningen är aktiverad som standard. </p> 
         <p><b>ANMÄRKNING</b></p>
-        <p> En gruppadministratör kan ändra den här inställningen för en grupp. När en användare tillhör flera grupper med olika inställningar, får användaren skapa ett projekt utan en mall om den här inställningen är aktiverad för hemgruppen.</p> 
+        <p> En gruppadministratör kan ändra den här inställningen för en grupp. När en användare tillhör flera grupper med olika inställningar kan användaren skapa ett projekt utan en mall om inställningen är aktiverad för hemgruppen.</p> 
         </td> 
   </tr>
   <tr> 
@@ -112,7 +115,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
-   <td> <p>Med den här inställningen kan användare ange [!UICONTROL Condition] av ett projekt manuellt ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) eller har [!DNL Workfront] ange [!UICONTROL Condition] (Status) automatiskt baserat på projektets förlopp på tidslinjen. Mer information om villkor för projekt finns i <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Översikt över projektvillkor och villkorstyp</a>.</p> </td> 
+   <td> <p>Med den här inställningen kan användare ange [!UICONTROL Condition] för ett projekt manuellt till ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) eller att ha [!DNL Workfront] ange [!UICONTROL Condition] (Status) automatiskt baserat på projektets förlopp på tidslinjen. Mer information om villkor för projekt finns i <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Översikt över projektvillkor och villkorstyp</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Create baselines automatically]</p> </td> 
@@ -130,7 +133,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
    <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Bestäm vilka data [!DNL Workfront] används för att beräkna [!UICONTROL Estimate at Completion] (EAC) som representerar den beräknade totala kostnaden för ett projekt.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Calculate at project level]</strong>:EAC för den överordnade aktiviteten och projektet bestäms genom att ange [!UICONTROL Actual Hours] eller [!UICONTROL Actual Labor Cost] i EAC-formlerna. Denna beräkning innehåller [!UICONTROL Actual Hours] eller [!UICONTROL Costs and Expenses] läggs till direkt i den överordnade uppgiften eller det överordnade projektet.</li> 
+     <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att ange [!UICONTROL Actual Hours] eller [!UICONTROL Actual Labor Cost] i EAC-formlerna. Denna beräkning innehåller [!UICONTROL Actual Hours] eller [!UICONTROL Costs and Expenses] läggs till direkt i den överordnade uppgiften eller det överordnade projektet.</li> 
      <li> <p><strong>[!UICONTROL Roll up from tasks/subtasks]</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att EAC summeras för varje underordnad uppgift. Denna beräkning exkluderar [!UICONTROL Actual Hours] eller [!UICONTROL Actual Costs and Expenses] läggs till direkt i den överordnade uppgiften eller det överordnade projektet.</p> <p>Projektledaren kan ändra den här inställningen på projektnivå med [!UICONTROL Finance] område i [!UICONTROL Project Details].Mer information finns i <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Hantera information i projektet [!UICONTROL Finance] area</a>.</p> </li> 
     </ul> <p>Mer information om hur EAC beräknar finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Beräkna [!UICONTROL Estimate At Completion] (EAC)</a>.</p> </td> 
   </tr> 
@@ -157,7 +160,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
    <td role="rowheader">[!UICONTROL User Time Off]</td> 
    <td> <p>Avgör om tiden för den primära tilldelaren för en uppgift justerar de planerade datumen för den uppgiften i ett projekt.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>: När en tidpunkt är schemalagd för en uppgifts primära tilldelare justeras aktivitetens planerade datum om tidpunkten för avbrottet inträffar under aktivitetens varaktighet. Det här är standardinställningen. </p> <p>Om en uppgift med en begränsning för [!UICONTROL As Soon As Possible] är planerad att börja den 1 juni och slutföras den 3 juni, och den primära tilldelaren har markerat 2 juni som"Time-off", aktivitetens planerade datum justeras till 1 juni till 4 juni.</p> <p><b>VIKTIGT</b>: Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning.</p> </li> 
+     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>: När en tidpunkt är schemalagd för en uppgifts primära tilldelare justeras aktivitetens planerade datum om tidpunkten för avbrottet inträffar under aktivitetens varaktighet. Det här är standardinställningen. </p> <p>Om en uppgift med en begränsning för [!UICONTROL As Soon As Possible] är planerad att börja den 1 juni och slutföras den 3 juni, och den primära tilldelaren har markerat 2 juni som"Time-off", aktivitetens planerade datum justeras till 1 juni till 4 juni.</p> <p><b>VIKTIGT</b>:</p> <p>Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning.</p> </li> 
      <li><strong>[!UICONTROL Ignore user time off in task durations]</strong>: De planerade datumen för varje uppgift i ett projekt förblir som de ursprungligen var planerade, även om den primära tilldelaren för en uppgift har en ledig tid under varaktigheten.</li> 
     </ul> <p>Tänk på följande när du väljer alternativ för den här inställningen:</p> 
     <ul> 
@@ -172,7 +175,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Project timelines will be automatically re-calculated]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Project timelines are automatically re-calculated]</p> </td> 
    <td> <p>Avgör när tidslinjen för ett projekt beräknas om. Mer information om hur du beräknar om projekttidslinjen finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Beräkna om projekttidslinjer</a>.</p> <p>Följande alternativ är aktiverade som standard. Du kan välja en eller flera av följande inställningar:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Every night]</strong>: Välj det här om du vill beräkna om projekttidslinjer varje kväll. Ändringar som du gör i projektet som kan påverka tidslinjen visas inte direkt. [!DNL Workfront​​​] Beräknar om tidslinjer på natten endast för projekt där båda följande villkor är uppfyllda:</p> <p> 
@@ -185,14 +188,14 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
         <li>Ändra endast</li>
         <li>Endast automatiskt</li> 
       </ul>       
-    <b>TIPS</b>
+    <b>TIPS:</b>
     <p>Projekt som har uppdateringstypen Endast manuell påverkas inte av den här inställningen.</p>
     <li> <p><strong>När ett projekts omfång ändras</strong>: Välj det här om du vill beräkna om projekttidslinjer omedelbart när en ändring av projektomfånget sker. Mer information om vad som utgör en ändring av projektets omfång finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Beräkna om projekttidslinjer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL When multiple users are assigned to a task use the schedule of the]</p> </td> 
-   <td> <p>Om ett projekt inte har tilldelats ett schema eller om användarna som är tilldelade till dess uppgifter inte har tilldelats ett schema, [!DNL Workfront] använder systemets standardschema för att beräkna tidslinjen för aktiviteterna.</p> <p>Om du tilldelar flera användare till samma uppgift i ett projekt har ett tilldelat schema - och användarna som tilldelats till aktiviteterna har också ett schema -[!UICONTROL Workfront] använder följande scheman:</p> 
+   <td> <p>Om ett projekt inte har tilldelats ett schema eller om användarna som är tilldelade till dess uppgifter inte har tilldelats ett schema, [!DNL Workfront] använder systemets standardschema för att beräkna tidslinjen för aktiviteterna.</p> <p>Om du tilldelar flera användare till samma uppgift i ett projekt och projektet har ett tilldelat schema, och användarna som tilldelats till uppgifterna också har ett schema, [!UICONTROL Workfront] använder följande scheman:</p> 
     <ul> 
      <li><strong>[!UICONTROL Primary Assignment]</strong>: [!DNL Workfront] använder schemat för den primära tilldelningen för aktiviteten för att beräkna tidslinjer.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] använder schemat för projektet för att beräkna tidslinjen för varje uppgift.</li> 
@@ -205,12 +208,12 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
      <li><strong>[!UICONTROL Typical hours per work day]</strong>: Ange antalet timmar på en vanlig arbetsdag för användare som ska arbeta med projekt. Standardvärdet är 8 timmar.</li> 
     </ul> 
     <ul> 
-     <li><strong>[!UICONTROL Typical work days per week]</strong>: Ange standardarbetsveckan för de användare som ska arbeta med projekt. Standardvärdet är 5 dagar.</li> 
-    </ul> <p>Dessa två alternativ konverterar dagar till timmar, eller veckor till dagar.</p> <p>Om du till exempel har en aktivitet med 8 planerade timmar och varaktigheten beräknas baserat på planerade timmar, [!DNL Workfront] konverterar timmarna till dagar för att visa Varaktighet som dagar.</p> <p>Från Normal [!UICONTROL work days per week] fält, [!DNL Workfront] beräknar heltidsmotsvarigheten (FTE) för datorn. Det här är vad [!DNL Workfront] används vid beräkning av allokeringar för användare.</p> <p>Dessa värden används när du planerar projekttidslinjer, budgeterar för resurser eller loggar tid mot projekt. </p> <p>De används inte när du skapar tidrapporter för användare i systemet, vilket beskrivs i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] tidrapport och timinställningar</a>.</p> <p><b>ANMÄRKNING</b>: [!DNL Workfront] administratörer kan inte låsa upp [!UICONTROL Timeline Calculations] inställningar.</p> </td> 
+     <li><strong>[!UICONTROL Typical work days per week]</strong>: Ange standardarbetsvecka för användare som arbetar med projekt. Standardvärdet är 5 dagar.</li> 
+    </ul> <p>Dessa två alternativ konverterar dagar till timmar, eller veckor till dagar.</p> <p>Om du till exempel har en aktivitet med 8 planerade timmar och varaktigheten beräknas baserat på planerade timmar, [!DNL Workfront] konverterar timmarna till dagar för att visa Varaktighet som dagar.</p> <p>Från Normal [!UICONTROL work days per week] fält, [!DNL Workfront] beräknar heltidsmotsvarigheten (FTE) för datorn. Det här är vad [!DNL Workfront] används vid beräkning av allokeringar för användare.</p> <p>Dessa värden används när du planerar projekttidslinjer, budgeterar för resurser eller loggar tid mot projekt. </p> <p>De används inte när du skapar tidrapporter för användare i systemet, vilket beskrivs i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] tidrapport och timinställningar</a>.</p> <p><b>ANMÄRKNING</b>:</p> <p>[!DNL Workfront] administratörer kan inte låsa upp [!UICONTROL Timeline Calculations] inställningar.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <p>Konfigurera anpassade årliga kvartal för användare som ska arbeta med projekt. Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. Du kan lägga till flera anpassade kvartal. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal för projekt</a>.</p>  <p><b>ANMÄRKNING</b>: [!DNL Workfront] administratörer kan inte låsa upp [!UICONTROL Custom Quarters] inställningar.</p> </td> 
+   <td> <p>Konfigurera anpassade årliga kvartal för användare som ska arbeta med projekt. Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. Du kan lägga till flera anpassade kvartal. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal för projekt</a>.</p>  <p><b>ANMÄRKNING</b>: </p><p>[!DNL Workfront] administratörer kan inte låsa upp [!UICONTROL Custom Quarters] inställningar.</p> </td> 
   </tr> 
  </tbody> 
 </table>
