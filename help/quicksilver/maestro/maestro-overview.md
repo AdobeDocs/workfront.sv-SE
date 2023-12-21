@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,44 @@ Här följer några av huvudfunktionerna i Maestro:
 * Lös problemet med att hantera arbetet i alla faser och för alla intressenter som deltar i arbetsprocessen.
 * Anpassa arbetsflödena helt och hållet, från att bestämma vilka objekttyper (eller posttyper) organisationen använder till att konfigurera hur dessa objekt länkar till varandra.
 * Länka till objekttyper från andra system och skapa ett sammanhängande ramverk för alla era processer.
+
+## Aktuella funktioner i Maestro
+
+I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Maestro och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
+
+| Funktion | Ute nu | Tillgänglig snart | Forskning |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+| Skapa arbetsytor | ✓ |                                  |                  |
+| Skapa driftsposttyper | ✓ |                                  |                  |
+| Skapa taxonomier | ✓ |                                  |                  |
+| Skapa personliga, namngivna poster och taxonomier | ✓ |                                  |                  |
+| Skapa anpassade postfält | ✓ |                                  |                  |
+| Importera posttyper och fält med en Excel- eller CSV-fil | ✓ |                                  |                  |
+| Länka poster | ✓ |                                  |                  |
+| Visa poster i en tabell | ✓ |                                  |                  |
+| Visa poster på en tidslinje | ✓ |                                  |                  |
+| Filtrera poster | ✓ |                                  |                  |
+| Gruppera poster i tidslinjevyn | ✓ |                                  |                  |
+| Gruppera poster i tabellvyn | ✓ |                                 |                  |
+| Sortera poster i tabellvyn | ✓ |                                 |                  |
+| Sortera poster i tidslinjevyn |                               | ✓ |                  |
+| Sortera grupperingar i tabellvyn |                               | ✓ |                  |
+| Sortera grupperingar i tidslinjevyn |                               | ✓ |                  |
+| Ansluta arbetsytor |                               | ✓ |                  |
+| Koppla ihop Maestro-poster och taxonomier | ✓ |
+| Söka efter poster i tabellvyn | ✓ |   |
+| Koppla ihop Maestro-poster till Workfront projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
+| Koppla Maestro-poster till Adobe Experience Manager-resurser | ✓ |                                  |                 |
+| Sidan med postinformation | ✓ |                                  |                  |
+| Uppdatera layouten på sidan med postinformation |                               | ✓ |                  |
+| Behörigheter för arbetsytan | | ✓ |  |
+| Skicka begäranden |                               |                                  | ✓ |
+| Kreativ översikt |                               |                                  | ✓ |
+| Anpassa färg och ikon för en post | ✓ |                                  |                 |
+| Lägga till kommentarer i poster | ✓ |                                  |                 |
+| RTF-formatering för styckefält | ✓ |                                  |                 |
+| Maestro-moduler för Adobe Workfront Fusion | ✓ |                                  |                 |
+| Kopiera och klistra in information från ett fält till ett annat | ✓ |                                  |                 |
 
 ## Åtkomst krävs för att använda Maestro under det avslutade betaprogrammet
 
@@ -344,44 +382,6 @@ Så här hittar du Maestro:
    1. Skapa en tidslinjevy från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
 
    1. Anpassa tidslinjevyn genom att uppdatera filter, grupperingar eller inställningar.
-
-## Aktuella funktioner i Maestro
-
-I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Maestro och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
-
-| Funktion | Ute nu | Tillgänglig snart | Forskning |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| Skapa arbetsytor | ✓ |                                  |                  |
-| Skapa driftsposttyper | ✓ |                                  |                  |
-| Skapa taxonomier | ✓ |                                  |                  |
-| Skapa personliga, namngivna poster och taxonomier | ✓ |                                  |                  |
-| Skapa anpassade postfält | ✓ |                                  |                  |
-| Importera posttyper och fält med en Excel- eller CSV-fil | ✓ |                                  |                  |
-| Länka poster | ✓ |                                  |                  |
-| Visa poster i en tabell | ✓ |                                  |                  |
-| Visa poster på en tidslinje | ✓ |                                  |                  |
-| Filtrera poster | ✓ |                                  |                  |
-| Gruppera poster i tidslinjevyn | ✓ |                                  |                  |
-| Gruppera poster i tabellvyn | ✓ |                                 |                  |
-| Sortera poster i tabellvyn | ✓ |                                 |                  |
-| Sortera poster i tidslinjevyn |                               | ✓ |                  |
-| Sortera grupperingar i tabellvyn |                               | ✓ |                  |
-| Sortera grupperingar i tidslinjevyn |                               | ✓ |                  |
-| Ansluta arbetsytor |                               | ✓ |                  |
-| Koppla ihop Maestro-poster och taxonomier | ✓ |
-| Söka efter poster i tabellvyn | ✓ |   |
-| Koppla ihop Maestro-poster till Workfront projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
-| Koppla Maestro-poster till Adobe Experience Manager resurser, mappar och samlingar | ✓ |                                  |                 |
-| Sidan med postinformation | ✓ |                                  |                  |
-| Uppdatera layouten på sidan med postinformation |                               | ✓ |                  |
-| Behörigheter för arbetsytan | | ✓ |  |
-| Skicka begäranden |                               |                                  | ✓ |
-| Kreativ översikt |                               |                                  | ✓ |
-| Anpassa färg och ikon för en post | ✓ |                                  |                 |
-| Lägga till kommentarer i poster |                               | ✓ |                 |
-| RTF-formatering för styckefält | ✓ |                                  |                 |
-
-
 
 ## Aktivitet för lansering av Maestro
 

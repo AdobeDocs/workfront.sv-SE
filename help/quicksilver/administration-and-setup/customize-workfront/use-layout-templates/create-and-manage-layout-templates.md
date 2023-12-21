@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,14 @@ Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i
 ## Att tänka på när du skapar och hanterar layoutmallar
 
 * Användarna kan anpassa några områden i sin egen layout. När du ändrar en layoutmall sammanfogas ändringarna med eventuella anpassningar som de har gjort, utan att de skrivs över eller återställs. Detta gäller även om du tilldelar användare till en ny layoutmall.
-* Dina äldre layoutmallar som skapats i Adobe Workfront Classic har automatiskt varit tillgängliga i den nya Adobe Workfront-upplevelsen sedan de migrerades i början av hösten 2019. Layoutmallar som skapats i Adobe Workfront Classic efter den tidpunkten migrerades i april 2020. Vi rekommenderar att du uppdaterar dessa layoutmallar i den nya Adobe Workfront-upplevelsen för att utnyttja de nya funktionerna och göra dem ännu mer användbara i den miljön.
 * Gruppadministratörer och användare med en planlicens som kan redigera andra användare kan lägga till layoutmallar på system- och gruppnivå till de användare som de kan hantera när de redigerar sin profil.
 * Gruppadministratörer kan inte tilldela layoutmallar till jobbroller eller team.
 
 Mer information om layoutmallar finns i [Layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+
+<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
+* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
+-->
 
 ## Skapa eller ändra en layoutmall
 

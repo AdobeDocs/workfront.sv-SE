@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 
 1. Klicka på **+** i tabellvyns övre högra hörn för att lägga till nya fält.
-1. I **Nytt fält** väljer du bland följande fälttyper:
+1. I **Nytt fält** flik, söka efter en fälttyp i **Fälttyp** eller välj någon av följande fälttyper:
 
    * [Enkelradig text](#single-line-text)
    * [Stycke](#paragraph)

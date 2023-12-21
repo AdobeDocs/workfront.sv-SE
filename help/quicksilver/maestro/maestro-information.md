@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ I följande artiklar finns en översikt över Adobe Maestro:
 * [Se en videodemonstration av Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
 * [Adobe Maestro - översikt](maestro-overview.md): En översikt på hög nivå över Adobe Maestro, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Maestro här.
 * [Adobe Maestro-lansering](../maestro/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Maestro avslutade betaprogrammet den 22 maj 2023 med exakta releasedatum och en kort översikt över samtliga funktioner.
+* [Adobe Maestro-moduler för Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 
 ## Makroarkitektur och funktionalitet
 

@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 0%
 > * Startsida
 > * Panelen Sammanfattning i listor
 > * Sammanfattningspanelen i tidrapporter
+> * Panelen Sammanfattning i Utjämning av arbetsbelastning
 
 <!-- with October 26 release: add somewhere this:
 

@@ -6,9 +6,9 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,11 @@ Tänk på följande:
      Om du använder en mall när du skapar projektet genom att konvertera problemet, se det andra scenariot ovan för att ta reda på vilken grupp och vilken status Workfront gäller för det nya projektet.
 
 ## Skapa ett projekt från grunden
+
+>[!NOTE]
+>
+>Om du skapar ett projekt med en mall rekommenderar vi att du också ser artikeln [Skapa ett projekt med en mall](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
 
 1. Gör något av följande:
 

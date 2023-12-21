@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2870'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,13 @@ Mer information finns i [Hantera postkommentarer](/help/quicksilver/maestro/reco
 
 ### Macromedia-kontakt (beta) för Adobe Workfront Fusion
 
-Förhandsgranska och produktion: 21 december 2023
+Produktion: 21 december 2023
+
+>[!IMPORTANT]
+>
+>Din organisation måste köpa Adobe Workfront Fusion för att kunna skapa anslutningar med Maestro.
+>
+>Mer information finns i [Adobe Workfront Fusion - översikt](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 Nu kan du använda Adobe Workfront Fusion för att ansluta till Maestro. Med den nya anslutningen till Adobe Maestro Fusion kan du
 

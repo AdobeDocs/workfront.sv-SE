@@ -6,7 +6,7 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -149,24 +149,24 @@ Tänk på följande när du skapar filter med de olika gränssnitten:
   >
   >1. Använd standardverktyget för att skapa ett filter med följande syntax:
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. Växla till det äldre verktyget och redigera filtret med syntaxen för det äldre verktyget enligt anvisningarna i [Skapa eller redigera ett filter i det äldre verktyget](#create-filter-in-legacy-builder) i den här artikeln. Syntaxen för den äldre versionen av Builder visar filtersatserna enligt följande:
+  >1. Växla till det äldre verktyget och redigera filtret med syntaxen för det äldre verktyget enligt beskrivningen i avsnittet [Skapa eller redigera ett filter i det äldre verktyget](#create-filter-in-legacy-builder) i den här artikeln. Syntaxen för den äldre versionen av Builder visar filtersatserna enligt följande:
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Ändra filtret i det äldre gränssnittet.
   >1. Växla tillbaka till standardverktyget. Filterprogramsatsen visas i enlighet med logiken som stöds i det äldre verktyget, enligt beskrivningen ovan.
   >
-  >   Filtret visas i standardgränssnittet i Builder enligt följande:
+  >      Filtret visas i standardgränssnittet i Builder enligt följande:
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   Det beror på att filtret har ändrats i det äldre gränssnittet.
+  >      Det beror på att filtret har ändrats i det äldre gränssnittet.
 
 ## Skapa eller redigera ett filter i standardverktyget
 

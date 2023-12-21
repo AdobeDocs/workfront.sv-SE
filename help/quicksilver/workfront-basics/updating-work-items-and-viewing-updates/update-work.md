@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ After the monthly releases to Production, the same features are also available i
 > * Startsida
 > * Panelen Sammanfattning i listor
 > * Sammanfattningspanelen i tidrapporter
+> * Panelen Sammanfattning i Utjämning av arbetsbelastning
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -100,7 +101,7 @@ After the monthly releases to Production, the same features are also available i
 
    * Från ett Workfront-objekt, i uppdateringsavsnittet
    * Från hemområdet (för uppgifter och ärenden)
-   * Från panelen Sammanfattning i en lista över objekt eller från en tidrapport (för uppgifter och ärenden)
+   * Från panelen Sammanfattning i en lista över objekt, en tidrapport eller från arbetsbelastningsutjämnaren (för uppgifter och ärenden)
 
 Informationen på den här sidan beskriver hur du kan kommentera Workfront-objekt och hur du uppdaterar projekt, uppgifter och problem när du lägger till kommentarer till dem.
 

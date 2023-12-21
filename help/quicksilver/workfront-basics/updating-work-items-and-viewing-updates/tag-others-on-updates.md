@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 > * Startsida
 > * Panelen Sammanfattning i listor
 > * Sammanfattningspanelen i tidrapporter
+> * Panelen Sammanfattning i Utjämning av arbetsbelastning
 
 Du kan tagga användare när de gör en uppdatering av ett objekt om du vill dra deras uppmärksamhet till ett objekt som de annars kanske inte följer.
 
