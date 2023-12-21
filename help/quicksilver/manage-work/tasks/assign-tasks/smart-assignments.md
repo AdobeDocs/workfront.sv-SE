@@ -7,26 +7,26 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
 
 # Översikt över smarta uppdrag
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
 
-När du hanterar uppgifter och ärenden kan du använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet. Smarta tilldelningar är förslag som Adobe Workfront ger dig när du tilldelar resurser arbetsobjekt baserat på en algoritm som avgör vilken resurs som passar bäst för jobbet.
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder.</span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+
+När du hanterar uppgifter och ärenden kan du använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet. Smarta tilldelningar är förslag som Adobe Workfront ger dig när du tilldelar resurser arbetsobjekt baserat på en algoritm som avgör vilken resurs som passar bäst för jobbet. Smarta uppdrag kan vara användare, jobbroller eller team.
 
 >[!NOTE]
 >
->Smarta tilldelningar tar inte hänsyn till användarens tillgänglighet. Men deras tillgänglighet enligt scheman påverkar planerade och planerade datum för uppgifter och ärenden när de tilldelas. Mer information om scheman finns i artikeln [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>När du föreslår användare tar smarta tilldelningar inte hänsyn till användarens tillgänglighet. Men deras tillgänglighet enligt scheman påverkar planerade och planerade datum för uppgifter och ärenden när de tilldelas. Mer information om scheman finns i artikeln [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Den här artikeln innehåller allmän information om smarta tilldelningar. Mer information om hur du använder smarta tilldelningar för att tilldela uppgifter och utgåvor till användare finns i [Gör smarta uppdrag](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
@@ -43,90 +43,79 @@ Tänk på följande när du arbetar med smarta uppdrag:
 
 Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter eller ärenden:
 
-* En uppgiftslista eller utgivningslista eller rapport <!--edit this to say just issue list or report and update screen shot - add new one-->
+* En problemlista eller rapport i uppdragskolumnen
 
-  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-issue-list.png)
 
-<!--
-* <span class="preview">A task list or report (******insert shot here*****)</span>
--->
+* <span class="preview">En uppgiftslista eller rapport i uppdragskolumnen </span>
 
-* En aktivitets- eller utgivningsrubrik
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+
+* En uppgift eller en utgåva i uppdragsfältet
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-* Åtgärds- eller ärendesammanfattningspanelen
+* Åtgärdens eller ärendets sammanfattningspanel i uppdragsområdet
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Uppdragsfältet för ett objekt som visas i hemområdet
+* Uppdragsfältet för ett objekt som visas i hemområdet i uppdragsområdet när du öppnar en uppgift eller ett ärende
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
-
-<!--removed for scheduling deprecation: 
-
-* Resource Scheduling
-
-  ![](assets/smart-assignments-scheduling-350x219.png)
-
-  >[!CAUTION]
-  >
-  >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
--->
-* Utjämning av arbetsbelastning
+* Utjämning av arbetsbelastning i området Tilldelad den här till när du tilldelar en uppgift eller ett problem
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Kriterier för smarta tilldelningar
 
-<!--
+
 <div class="preview">
 
-Smart assignments work differently for tasks than for issues.  
+Smarta uppdrag fungerar annorlunda för uppgifter än för ärenden.
 
-### Smart assignments criteria for tasks
+### Kriterier för smarta tilldelningar för uppgifter
 
-Task smart assignments work in two phases:  
+Beräkningen av smarta tilldelningar för aktiviteten fungerar i två faser.
 
-#### First phase of smart assignment calculation criteria for tasks 
+#### Första fasen i beräkningen av smart tilldelning för uppgifter
 
-Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+I den första fasen av beräkningen av smarta tilldelningar beräknar Workfront likhetspoäng för varje uppdrag. Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas tar hänsyn till följande:
 
-* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+* En poäng på 100 % ges till ett befintligt uppdrag där namnen på aktiviteten, projektet och portföljen är identiska med de uppgifter du försöker tilldela. Projekt- och portföljnamnen för en uppgift i en befintlig tilldelning måste också matcha projektet och portföljen för den uppgift du försöker tilldela.
 
-* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+* Om endast en del av den här informationen från andra uppdrag matchar de befintliga aktiviteterna kan poängen vara lägre än 100 %.
 
-  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
- 
-    >[!TIP]
-    >
-    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+  Om du till exempel tilldelar en uppgift med namnet&quot;Min andra uppgift&quot; för ett projekt med namnet&quot;Mitt projekt&quot; i en portfölj med namnet&quot;Min portfölj&quot; och du har en befintlig uppgift med namnet&quot;Min uppgift&quot; i ett annat projekt med namnet&quot;Mitt projekt&quot; i en portfölj med namnet&quot;Min portfölj&quot;, kan användaren som tilldelats&quot;Min uppgift&quot; få resultatet 95 % eftersom namnet på den befintliga uppgiften och den uppgift du försöker tilldela nu är liknande, men inte identiska .
 
-* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+  >[!TIP]
+  >
+  >  Workfront söker endast efter matchningar i namnfälten för uppgifter, projekt och portföljer och inte i andra fält.
 
-* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+* Ett uppdrag kan få ett högre poängvärde när det tilldelas till många uppgifter i systemet som har liknande namn. Om till exempel ett team som heter&quot;Utveckling&quot; tilldelas 50 % av uppgifterna i systemet som innehåller&quot;AI&quot; i namnet och du nu tilldelar en annan uppgift med&quot;AI&quot; i namnet, blir poängen för&quot;Utvecklingsteamet&quot; högre. I det här fallet är projektnamnen och portföljerna inte lika viktiga.
 
-* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
-For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+* Med hänsyn till detta poängsystem listas de första 7 förslagen som smarta tilldelningar i fallande ordning efter poängen. Uppdrag med bakgrundsmusik som är lägre än 40 % visas inte.
 
-* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+* Om flera tilldelningar har identiska poäng, visas de i den ordning som tilldelningarna gjordes, med början från det senaste datumet.
 
-#### Second phase of smart assignment calculation criteria for tasks
+  Om Rick till exempel tilldelades en liknande uppgift tidigare i dag och Jennifer tilldelades en liknande uppgift för två dagar sedan visas Rick först.
 
-If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+* Om det inte finns några matchningar som använder den här beräkningen startar den andra fasen av smarta tilldelningar, som beräknas med en annan algoritm.
 
-### Smart assignments criteria for tasks and issues 
+#### Andra fasen av beräkning av smart tilldelning för uppgifter
 
-</div> 
+Om det första steget i smarta uppdrag inte hittar några träffar, beräknar Workfront smarta tilldelningar för uppgifter på samma sätt som när de beräknas för problem.
+
+Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter och ärenden](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
+
+### Kriterier för smarta uppdrag för uppgifter och ärenden
+
+</div>
 
 >[!NOTE]
 >
-><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
-
--->
+><span class="preview">Följande villkor gäller endast för uppgifter när den första fasen i beräkningen av den smarta tilldelningen inte hittade några matchningar. mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för uppgifter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard. </span>
 
 Användare rekommenderas i listrutan Smarta tilldelningar baserat på en kombination av följande kriterier (listas i ordning från viktigaste till minst viktiga):
 

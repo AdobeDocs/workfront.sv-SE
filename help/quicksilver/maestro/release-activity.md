@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,11 +87,31 @@ Kommentarsupplevelsen för Maestro-poster matchar den nya kommentarsfunktionen f
 
 Mer information finns i [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### Macromedia-kontakt (beta) för Adobe Workfront Fusion
+
+Förhandsgranska och produktion: 21 december 2023
+
+Nu kan du använda Adobe Workfront Fusion för att ansluta till Maestro. Med den nya anslutningen till Adobe Maestro Fusion kan du
+
+* Skapa, läsa, uppdatera och ta bort poster
+
+* Hämta en lista med poster efter posttyp
+
+* Ta bort eller hämta en lista med posttyper
+
+* Sök poster
+
+* Anropa ett API
+
+* Utlösa ett scenario när en ändring görs i Maestro
+
+Mer information finns i [Adobe Maestro-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## Vecka 11 december 2023
 
 ### Uppdatera det primära fältet i en tabellvy för en posttyp
 
-Förhandsgranskning och produktion: 14 december 2023
+Förhandsgranska och produktion: 14 december 2023
 
 Du kan nu välja det fält som du vill visa i den första kolumnen i en Maestro-tabellvy. Det här fältet kallas nu primärt fält.
 
@@ -126,7 +146,7 @@ Mer information finns i [Hantera tabellvy](/help/quicksilver/maestro/views/manag
 
 Förhandsversion: 14 december 2023
 
-Produktionsrelease: planerad till 15 december 2023
+Produktionsrelease: 21 december 2023
 
 >[!IMPORTANT]
 >
@@ -155,7 +175,7 @@ Mer information finns i [Koppla posttyper](/help/quicksilver/maestro/architectur
 
 ### Kopiera och klistra in information från ett fält till ett annat i Maestro-tabellvyn för fält av typen Folk och länkade poster
 
-Förhandsgranskning och produktion: 5 december 2023
+Förhandsgranska och produktion: 5 december 2023
 
 Nu kan du kopiera och klistra in information från ett fält till ett annat fält av samma typ i en tabellvy av typen Maestro. Den här funktionen stöds nu för följande typer av fält:
 
@@ -178,7 +198,7 @@ Mer information om länkade fält finns i [Koppla posttyper](../maestro/architec
 
 ### Kopiera och klistra in information från ett fält till ett annat i Maestro-tabellvyn
 
-Förhandsgranska och producera: 28 november 2023
+Förhandsgranska och produktion: 28 november 2023
 
 Nu kan du kopiera och klistra in information från ett fält till ett annat fält av samma typ i en tabellvy av typen Maestro.
 
@@ -202,7 +222,7 @@ Mer information finns i [Redigera poster](../maestro/records/edit-records.md).
 
 ### Gruppering för registervyn
 
-Förhandsgranska och producera: 7 november 2023
+Förhandsgranska och produktion: 7 november 2023
 
 Nu kan du gruppera poster i tabellvyn för en posttypsida. Du kan gruppera efter tre unika fält i Maestro-gränssnittet <!--checking into this for now: and by four fields when using the API-->.
 
@@ -212,7 +232,7 @@ Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-vi
 
 ### Nya fälttyper för användar- och datumfält för att fånga vem som skapade eller senast ändrade en post eller på vilket datum
 
-Förhandsgranskning och produktion: 30 oktober 2023
+Förhandsgranska och produktion: 30 oktober 2023
 
 Vi har introducerat följande fälttyper för Maestro-poster:
 
@@ -242,7 +262,7 @@ Mer information finns i [Koppla poster](../maestro/records/connect-records.md).
 
 ### Förbättrad navigering i tabellvyn
 
-Förhandsgranska och producera: 2 november 2023
+Förhandsgranska och produktion: 2 november 2023
 
 Navigeringen i tabellvyn för en posttypssida har förbättrats.
 
@@ -260,20 +280,20 @@ Mer information finns i [Skapa poster](../maestro/records/connect-records.md).
 
 ### Ny personfältstyp
 
-Förhandsgranskning och produktion: 16 oktober 2023
+Förhandsgranska och produktion: 16 oktober 2023
 
 Nu kan du lägga till ett fält av typen Personer i Maestro-posttyper. Du kan använda fält av typen Personer för att associera befintliga användare med en post. Mer information finns i [Skapa fält](../maestro/fields/create-fields.md).
 
 ### RTF-format för styckefält
 
-Förhandsgranskning och produktion: 16 oktober 2023
+Förhandsgranska och produktion: 16 oktober 2023
 
 Vi har lagt till kontroller för Rich Text-format för stycketextfält. Du kan formatera styckefält med RTF-text antingen i tabellvyn för en posttyp eller på detaljsidan för en post. Mer information finns i [Redigera poster](../maestro/records/edit-records.md).
 
 
 ### Spela in och gruppera färgkodning för tidslinjevyn
 
-Förhandsgranskning och produktion: 19 oktober 2023
+Förhandsgranska och produktion: 19 oktober 2023
 
 Nu kan du färgkoda postfälten och grupperingarna i tidslinjevyn.
 
@@ -303,7 +323,7 @@ Mer information finns i [Hantera tidslinjevyn](../maestro/views/manage-the-timel
 
 ### Sök i tabellvy
 
-Förhandsgranska och producera: 9 oktober 2023
+Förhandsgranskning och produktion: 9 oktober 2023
 
 Nu kan du söka efter ett nyckelord för att snabbt hitta en post i tabellvyn. Du kan använda nyckelord och specialtecken i alla fält som visas på skärmen för att hitta en post. Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-view.md).
 
@@ -311,7 +331,7 @@ Nu kan du söka efter ett nyckelord för att snabbt hitta en post i tabellvyn. D
 
 ### Ordna om rader
 
-Förhandsgranskning och produktion: 20 september 2023
+Förhandsgranska och produktion: 20 september 2023
 
 Du kan nu ändra ordningen på en eller flera rader (eller poster) i tabellvyn på en posttypsida. Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-view.md).
 
@@ -340,7 +360,7 @@ Tänk på följande:
 
 ### URL-stöd för enkelradiga textfält
 
-Förhandsgranskning och produktion: 7 september 2023
+Förhandsgranska och produktion: 7 september 2023
 
 För bättre synlighet när du arbetar med länkar i tabellvyn har vi lagt till stöd för URL-adresser i enkelradiga textfält. När du använder URL:er till andra webbplatser eller externa enheter när du uppdaterar ett textfält med en rad identifieras de nu som länkar och du kan klicka på dem från tabellen. Före den här förbättringen visas länkar som text.
 
@@ -360,7 +380,7 @@ Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-vi
 
 ### Koppla ihop Maestro-poster med program och portfolior
 
-Förhandsgranskning och produktion: 24 augusti 2023
+Förhandsgranska och produktion: 24 augusti 2023
 
 Nu kan du koppla samman en Maestro-post med Workfront program och portfolior. Du måste skapa en anslutning mellan en Maestro-posttyp och ett program eller en portfölj som skapar ett anslutet fält. Sedan kan du koppla alla Maestro-poster från alla andra posttyper inom samma arbetsyta till specifika program och portföljer som skapar en skrivskyddad posttyp för Workfront eller Workfront Portfolio i samma arbetsyta. Tänk på följande:
 
@@ -370,7 +390,7 @@ Nu kan du koppla samman en Maestro-post med Workfront program och portfolior. Du
 
 ### Ny sorteringsfunktion för tabellvyn
 
-Förhandsgranskning och produktion: 24 augusti 2023
+Förhandsgranska och produktion: 24 augusti 2023
 
 Nu kan du sortera poster i tabellvyn på en posttypssida.
 Följande funktioner är nu tillgängliga:
@@ -380,7 +400,7 @@ Följande funktioner är nu tillgängliga:
 
 ### Förbättringar av tidslinjevyn: nytt utseende och känsla för grupperingar och växeln för vyn Kompakt/Standard
 
-Förhandsgranskning och produktion: 24 augusti 2023
+Förhandsgranska och produktion: 24 augusti 2023
 
 Vi har infört följande förbättringar av tidslinjevyn:
 
@@ -411,13 +431,13 @@ Du kan nu rulla vågrätt i tidslinjevyn för en posttyp.
 
 ### Importera posttyper från en Excel-fil
 
-Förhandsgranska och producera: 10 augusti 2023
+Förhandsgranska och produktion: 10 augusti 2023
 
 Nu kan du importera en Excel-fil för att skapa posttyper på en arbetsyta. Tabellerna i filen blir posttyper och kolumnerna i filen blir deras respektive fält.
 
 ### Förbättrad upplevelse vid anslutning av posttyper och projekt
 
-Förhandsgranska och producera: 10 augusti 2023
+Förhandsgranska och produktion: 10 augusti 2023
 
 Vi har förbättrat ditt sätt att koppla posttyper, inklusive att ansluta till Workfront-projekt. Som en del av den här förbättringen gjorde vi följande ändringar när vi lade till ett fält för en posttyp från tabellvyn:
 
@@ -429,13 +449,13 @@ Vi har förbättrat ditt sätt att koppla posttyper, inklusive att ansluta till 
 
 ### Uppdatera utseendet för en posttyp
 
-Förhandsgranskning och produktion: 13 juli 2023
+Förhandsgranska och produktion: 13 juli 2023
 
 Nu kan du välja en anpassad ikon för en posttyp och en anpassad färg för posttypsikonen.
 
 ### Ny fälttyp för kryssruta
 
-Förhandsgranskning och produktion: 13 juli 2023
+Förhandsgranska och produktion: 13 juli 2023
 
 Nu kan du lägga till en fälttyp för kryssruta i Maestro-posttyper. Du kan använda ett fält av typen Kryssruta för att lägga till en kryssruta till en post. Du kan använda det här fältet för att ange ett specifikt attribut eller en specifik status för den aktuella posten. Du kan till exempel använda den som en flagga för att spåra slutförande, godkännande eller andra binära attribut för varje post.
 
@@ -469,6 +489,6 @@ Nu kan du koppla en Maestro-post till Workfront-projekt. Du måste skapa en kopp
 
 ### Tvådatumskrav för att skapa en tidslinjevy
 
-Förhandsgranskning och produktion: 31 maj 2023
+Förhandsgranska och produktion: 31 maj 2023
 
 Du måste ha minst två datumfält associerade med en posttyp för att kunna skapa en tidslinjevy.
