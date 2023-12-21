@@ -6,9 +6,9 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       The [!UICONTROL **Kort som läggs till**] räknaren visar hur många kort som kommer att finnas ombord. Om du till exempel markerar ett projekt med 100 uppgifter och ärenden visas 100 i räknaren. Om du lägger till en användartilldelning och den personen tilldelas 5 uppgifter i projektet visas 5.
 
-   1. (Valfritt) Välj [!UICONTROL **Inkludera slutfört arbete**] för att inkludera färdiga kort ombord.
+   1. (Valfritt) Välj [!UICONTROL **Inkludera slutfört arbete som arkiverade kort**] för att lägga in slutförda uppgifter och ärenden i styrelsen som arkiverade kort.
 
       >[!NOTE]
       >
-      >Om det här alternativet inte är markerat kommer kort i andra statusar att&quot;ramla av&quot; och inte längre visas.
+      >Som standard visas inte arkiverade kort på anslagstavlan. Om du vill visa arkiverade kort måste du aktivera en konfigurationsinställning och sedan filtrera ritytan så att arkiverade kort visas. Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) och [Filtrera och söka på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >Om det här alternativet inte är markerat visas inte de färdiga korten i samband med att anslagstavlan skapas. Kort som senare markerats som fullständiga finns kvar på kortet i kolumnen Fullständigt och arkiveras inte om du inte ställer in kortutfall. Mer information finns i [Konfigurera kortutfall](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Valfritt) Klicka på [!UICONTROL **Använd avancerade filter**] om du vill visa ytterligare filteralternativ.
 
