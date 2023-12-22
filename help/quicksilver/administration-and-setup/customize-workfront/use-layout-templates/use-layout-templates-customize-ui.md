@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ac70fc3564273ef7865de2ae4ca704bb7f61af70
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Anpassa den vänstra panelen med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
 * [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
 * [Anpassa hem och sammanfattning med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Anpassa nytt hem med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
 * [Anpassa fästa sidor med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [Anpassa filter, vyer och grupperingar med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 * [Anpassa användargränssnittsterminologi med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i Hem och i Sammanfattning. Varje konfiguration som du gör enligt stegen nedan påverkar Hem- och Sammanfattningspanelen på samma sätt. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
 
-Du kan konfigurera:
+Du kan konfigurera
 
 * Vilka fält som visas för en uppgift eller ett problem i området Detaljer, och i vilken ordning
 * Vare sig uppdateringar, loggad tid, bifogade dokument och tidsstämplar visas för en vald uppgift eller utgåva
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 
 1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det användarna ser** och sedan klicka **Hem och sammanfattning**.
 
-1. Klicka på objekttypen (**Uppgifter**, **Problem**, **Projekt**, **Dokument**, eller **Dokumentversioner**) som du vill anpassa i Hem och Sammanfattning.
+1. Klicka på objekttypen (**Uppgifter**, **Problem**, **Projekt**, **Dokument**, eller **Dokumentversioner**) som du vill anpassa i Home och Summary.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -134,7 +134,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
        <ul>
         <li>Planerat slutförandedatum</li>
         <li>Bekräftelsedatum</li>
-        <li><p>Skickat den</p></li>
+        <li>Skickat den</li>
        </ul><p><b>ANMÄRKNING</b>: När det här alternativet är aktiverat flyttas arbetsobjekt som blivit förfallna till grupperingen Sent i hemarbetslista baserat enbart på datum, inte tid.</p></td> 
      </tr> 
     </tbody> 

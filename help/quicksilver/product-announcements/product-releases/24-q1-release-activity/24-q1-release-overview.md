@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Förbättringar av anslagstavlor
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Dynamiska kort arkiverar färdiga kort när styrelsen skapas</a></p><p>[!BADGE In production ]{type=Informative}</p><p>När du skapar en dynamisk anslagstavla kan du välja att inkludera slutförda uppgifter och ärenden på ritytan. För projekt med ett stort antal slutförda uppgifter och problem kan den dynamiska panelen ha prestandaproblem. När du skapar en dynamisk styrelse och väljer att inkludera det färdiga arbetet, läggs uppgifterna och frågorna nu in i styrelsen som arkiverade kort.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion för alla kunder: 21 december 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administratörskontroller för nya Hem med layoutmallar</a></p><p>Administratörer kan nu anpassa nya startsidor för användare med hjälp av layoutmallar. Anpassningsalternativen inkluderar val av obligatoriska widgetar och deras placering, val av bakgrund och widgetspecifika alternativ för att välja tillgängliga filter och grupper (och inställning av standardvärden).</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Snabbåtgärdsknapparna för Mitt arbete har ändrats så att de bara visas när du för musen över</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att förbättra prestandan visas nu snabbåtgärdsknapparna i widgeten Mitt arbete endast när du håller muspekaren över en arbetsuppgift.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -228,6 +280,44 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                             </li>
                             <li>
                                 <p><span class="preview">Produktion för alla kunder: 9 november 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### Projektförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-drivna smarta uppdrag</a></p><p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används överallt i Workfront där du tilldelar en uppgift (uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen).</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
                             </li>
                         </ul>
                     </td>

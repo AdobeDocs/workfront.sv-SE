@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13842'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 0%
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * 2024 Q1-utgåvan {#release-24-q1}
          * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-         * [Förbättringar av första kvartalet 2024-administratören](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
-         * [Förbättringar av dokumenthanteringen i det första kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [2024 Q1 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
+         * [Förbättrad dokumenthantering 2024 Q1](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [Förbättringar av 2024 Q1-kort](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
+         * [2024 Q1 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
          * [2024 Q1-integreringsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-         * [Första kvartalet 2024 Uppdateringsström och aviseringsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-         * [Första kvartalet 2024, förbättringar av startsidan](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+         * [2024 Q1 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+         * [2024 Q1 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * 2023 Q4-utgåvan {#release-23-q4}
          * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023 Q4 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -537,6 +539,7 @@ ht-degree: 0%
          * [Anpassa den vänstra panelen](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [Anpassa detaljvyn](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Anpassa hem och sammanfattning](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Anpassa nytt hem](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Anpassa fästa sidor](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Anpassa filter, vyer, grupperingar](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [Anpassa användargränssnittets terminologi](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
