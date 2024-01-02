@@ -4,9 +4,9 @@ description: Förbättringar av dokumenthanteringen i det första kvartalet 2024
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,29 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 ## Uppdaterad status för dokumentgodkännanden
 
+>[!NOTE]
+>
+>Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.
+
 För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.
 
 Mer information om specifika tillgängliga statusar finns i [Dokumentgodkännandestatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Dokumentets gransknings- och godkännandestatus visas i dokumentrubriken
 
+>[!NOTE]
+>
+>Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.
+
 För att göra gransknings- och godkännandeprocessen mer genomskinlig har vi lagt till statusen i sidhuvudet på sidan Dokumentinformation. Nu kan du snabbt se vilket beslut om godkännande som fattats för dokumentet eller om dokumentet fortfarande är under granskning.
 
 Mer information om olika statusar finns i [Dokumentgodkännandestatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Markera en granskning som slutförd
+
+>[!NOTE]
+>
+>Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.
 
 För att göra det tydligare när ett dokument har granskats och är klart för nästa godkännandefas har vi skapat ett nytt **Slutför min granskning** -knappen. Nu när en användare som är inställd som granskare har granskat ett dokument kan de klicka på **Slutför min granskning** för att i Workfront spela in att granskningen är klar.
 

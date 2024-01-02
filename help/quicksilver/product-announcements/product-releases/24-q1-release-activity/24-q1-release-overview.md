@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                                 <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -163,6 +164,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                                 <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -181,6 +183,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                                 <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></p>
                     </td>
                 </tr>                
            </tbody>
