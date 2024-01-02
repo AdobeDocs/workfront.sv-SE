@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
@@ -197,15 +197,15 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på **sök** icon ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med valfritt fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
+   1. Klicka på **Sök** icon ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med valfritt fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
 
       Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
 
       Du kan inte använda nyckelord som är kopplade till fält som är dolda i tabellvyn.
 
-      När du trycker på Retur på tangentbordet flyttas du till nästa fält som hittas.
-
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+   1. Tryck på Retur på tangentbordet för att gå till nästa sökbara fält.
 
    1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
 

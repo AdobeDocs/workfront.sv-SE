@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 0%
@@ -502,9 +502,12 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
 
 ## Frigör tidslinje
 
-Mer information om de nya funktionerna som släpps till den nya kommentarsfunktionen under betatestningsperioden finns i [Ny aktivitet för att kommentera betaversionen](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>[!IMPORTANT]
+>
+>Mer information om de nya funktionerna som släpps till den nya kommentarsfunktionen under betatestningsperioden finns i [Ny aktivitet för att kommentera betaversionen](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>
+>Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av den nya kommentarsfunktionen i produktionsmiljön. Förutom milstolparna nedan kommer vi att fortsätta att förbättra kommentarsupplevelsen med mindre förbättringar.
 

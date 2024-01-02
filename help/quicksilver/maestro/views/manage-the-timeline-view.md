@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,20 @@ Så här hanterar du en tidslinjevy:
    Klicka **Växla till komprimerad vy** för att visa de poster vars datum inte överlappar på samma rad. <!--check to see if they updated the name of the setting here-->
 
    Poster visas som standard i den komprimerade vyn.
+
+1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
+
+   1. Klicka på **Sök** icon ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med valfritt fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
+
+      Du kan inte använda nyckelord som är kopplade till fält som är dolda i tabellvyn.
+
+   1. Tryck på Retur på tangentbordet för att gå till nästa sökbara fält.
+   1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
+   1. Klicka på X-ikonen i sökrutan för att ta bort sökordet.
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)

@@ -6,14 +6,16 @@ description: Med Adobe Workfront kan smidiga team slutföra arbetet på ett inkr
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
 # Skapa ett smidigt team
+
+<!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront] möjliggör för rörliga team att slutföra arbetet på ett inkrementellt och organiserat sätt.
 
@@ -41,7 +43,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Plan] skapa ett nytt smidigt team, [!UICONTROL Work] eller högre för att konvertera ett team till ett smidigt team</p> </td> 
+   <td> <p>Nytt: Standard</p>
+   Aktuell: 
+   <ul><li><p>[!UICONTROL Plan] skapa ett nytt smidigt team</p></li> 
+   <li><p>[!UICONTROL Work] eller högre för att konvertera ett team till ett smidigt team</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,12 +90,15 @@ Följande funktionalitet stöder den här metoden:
 
 ## Skapa ett smidigt team
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
-1. Klicka på **[!UICONTROL Switch Teams]** icon ![Byt ikon för team](assets/switch-team-icon.png)och sedan klicka **[!UICONTROL Create New Team]**.
+{{step1-to-team}}
+
+1. Klicka på **[!UICONTROL Switch Teams]** icon ![Byt ikon för team](assets/switch-team-icon.png)och sedan klicka **[!UICONTROL Create new team]**.
 
    ![Välj Skapa nytt team.](assets/create-new-team-350x198.png)
 
-1. Ange följande information på [!UICONTROL New Team] dialog:
+   Rutan Nytt team visas.
+
+1. Ange följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,10 +111,17 @@ Följande funktionalitet stöder den här metoden:
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL This is an Agile Team]</strong> </td> 
       <td>Välj det här alternativet om du vill konfigurera det nya teamet så att det blir ett smidigt team.</td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
+      <td>Välj det här alternativet om du vill aktivera teamet. Inaktiva team är inte synliga för andra användare att tilldela till arbete. </td> 
+     </tr>
+
+
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Börja skriva namnet på en grupp som ska läggas till i teamet och markera sedan namnet när det visas i listrutan.</p> <p>Obs! När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i den gruppen eller undergruppen hantera teamet utan att vara medlem i gruppen. Gruppadministratörer kan gå till [!UICONTROL Teams] området från [!UICONTROL Main Menu] och klicka på [!UICONTROL Switch Teams] pil <img src="assets/switch-team-icon.png" alt="Byt ikon för team"> för att lista alla team som har tilldelats de grupper som de hanterar.</p> </td> 
+      <td> <p>Börja skriva namnet på en grupp som ska läggas till i teamet och markera sedan namnet när det visas i listrutan.</p> <p><b>ANMÄRKNING</b></p> <p> När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i gruppen eller undergruppen hantera teamet utan att vara medlem i gruppen. Gruppadministratörer kan gå till [!UICONTROL Teams] området från [!UICONTROL Main Menu] och klicka på [!UICONTROL Switch Teams] pil <img src="assets/switch-team-icon.png" alt="Byt ikon för team"> för att lista alla team som har tilldelats de grupper som de hanterar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
@@ -145,7 +160,9 @@ Du kan konvertera ett befintligt team till ett smidigt team:
 
 1. Klicka **Spara ändringar.**
 
-   Mer information om hur du konfigurerar ett Agile-team finns i följande artiklar:
+   Teamet sparas som ett Agile-team. Du kan konfigurera det nya teamet som ett Scrum- eller Kanban-team när du redigerar teamet.
+
+   Mer information finns i följande artiklar:
 
    * [Konfigurera [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [Konfigurera [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

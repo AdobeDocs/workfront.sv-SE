@@ -6,7 +6,7 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Skapa eller redigera filter i Adobe Workfront
+
+<!--Audited: 12/2023-->
 
 Du kan begränsa mängden information som visas på skärmen i en lista med objekt med ett filter. Du kan definiera vissa villkor baserat på viss information om ett objekt och bara visa de objekt som uppfyller dessa villkor.
 

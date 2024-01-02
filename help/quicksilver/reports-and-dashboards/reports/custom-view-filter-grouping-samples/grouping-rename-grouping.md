@@ -2,21 +2,23 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Gruppering: redigera visningsnamnet i en gruppering'
-description: Du kan byta namn på grupperingar till något som är mer bekant för användarna.
-author: Lisa and Nolan
+title: 'Gruppering: redigera visningsnamnet i en gruppering'
+description: Du kan ändra namn på grupperingar i listor och rapporter till något som är mer välbekant för användarna.
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 # Gruppering: redigera visningsnamnet i en gruppering
 
-Du kan byta namn på grupperingar till något som är mer bekant för användarna.
+<!--Audited: 01/2024-->
+
+Du kan byta namn på grupperingar till något som är mer välbekant för användarna.
 
 Om du t.ex. använder standardgrupperingen Portfolio namn i en lista med projekt visas grupperingens namn som *Portfolio: Namn:`<name of portfolio>`*.
 
@@ -40,8 +42,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en gruppering </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td>
+
+<p>Nytt: </p>
+   <ul>
+   <li> <p>Medarbetare som ändrar en gruppering </p></li>
+   <li><p>Standard för att ändra en rapport</p></li></ul>
+
+<p> Aktuell:</p>
+   <ul>  
+   <li><p>Begäran om att ändra en gruppering </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -65,47 +76,36 @@ Så här ändrar du visningsnamnet i en projektgruppering:
 1. Gå till en lista med projekt.
 1. Från **Gruppering** nedrullningsbar meny, välja **Ny gruppering**.
 
-1. Klicka **Lägg till gruppering** och börja skriva &quot;Portfolio Name&quot; i dialogrutan **Först av:** markerar du det när det visas i listan.
+1. Klicka **Lägg till gruppering** och börja skriva &quot;Portfolio Name&quot; i dialogrutan **Först av:** markerar du det när det visas i listan.
 
 1. Klicka **Växla till textläge**.
 1. Gör något av följande:
 
    * Lägg till följande kod i den befintliga texten i **Gruppera din rapport** box:
 
-      ```
-      group.0.displayname=Your
-      ```
 
-      ```
-      Value
-      ```
+     `group.0.displayname=Your Value`
 
-      Eller i det här fallet:
 
-      ```
-      group.0.displayname=Portfolio
-      ```
+     Eller i det här fallet:
+
+     `group.0.displayname=Portfolio`
 
    * Ta bort alla rader i grupperingens textlägesgränssnitt som innehåller ordet &quot;name&quot; och lägg sedan till raden:
 
-      ```
-      group.0.name=Your Value
-      ```
+     `group.0.name=Your Value`
 
-      Eller i det här fallet:
+     Eller i det här fallet:
 
-      ```
-      group.0.name=Portfolio
-      ```
+     `group.0.name=Portfolio`
 
-      Du kan också lämna
+     >[!TIP]
+     >
+     >Du kan också lämna `group.0.name=` och `group.0.displayname=` tomma rader, i vilket fall grupperingen visar det värde som du grupperar efter.
 
-      ```
-      group.0.name
-      ```
 
-      en tom rad, i vilket fall grupperingen visar namnet på värdet som du grupperar efter.
-
-      ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Klicka **Klar** sedan **Spara gruppering**.
+
+   Grupperingens standardnamn ändras enligt textlägesinformationen.

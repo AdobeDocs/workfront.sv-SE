@@ -6,14 +6,16 @@ description: Portfolio är samlingar av projekt eller program i Adobe Workfront.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Ta bort och inaktivera portföljer
+
+<!--Audited: 01/2024-->
 
 Portfolio är samlingar av projekt eller program i [!DNL Adobe Workfront]. Du kan ta bort eller inaktivera en portfölj om du upptäcker att den inte är relevant för ditt system.
 
@@ -33,11 +35,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nytt: [!UICONTROL Standard] </p>
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p> <p><b>ANMÄRKNING</b></p> <p> Om du inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -72,14 +75,14 @@ När du inaktiverar en portfölj kan du fortfarande komma åt den från [!UICONT
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
 
-1. Klicka på **[!UICONTROL Portfolios]** .
+1. Klicka **[!UICONTROL Portfolios]** .
 1. Klicka på namnet på portföljen.
-1. Klicka på Mer-menyn ![](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
+1. Klicka på **Mer** meny ![](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
 
 ## Ta bort en portfölj
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
-1. Klicka på **[!UICONTROL Portfolios]** .
+1. Klicka **[!UICONTROL Portfolios]** .
 1. Välj portföljen och klicka sedan på **[!UICONTROL Delete]**&#x200B; [!UICONTROL Delete] icon ![](assets/delete.png).
 1. Klicka i rutan som visas **[!UICONTROL Yes, Delete It]** för att bekräfta.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Vecka 18 december 2024
+## Vecka 25 december 2023
+
+### Söka i tidslinjevyn
+
+Förhandsgranska och produktion: 27 december 2023
+
+Nu kan du söka efter ett nyckelord för att snabbt hitta en post i tidslinjevyn. Du kan använda nyckelord och specialtecken från alla fält som visas på skärmen för att hitta en post. Mer information finns i [Hantera tidslinjevyn](../maestro/views/manage-the-timeline-view.md).
+
+## Vecka 18 december 2023
 
 ### Lägga till kommentarer på poster från detaljsidan
 
@@ -331,7 +339,7 @@ Mer information finns i [Hantera tidslinjevyn](../maestro/views/manage-the-timel
 
 Förhandsgranskning och produktion: 9 oktober 2023
 
-Nu kan du söka efter ett nyckelord för att snabbt hitta en post i tabellvyn. Du kan använda nyckelord och specialtecken i alla fält som visas på skärmen för att hitta en post. Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-view.md).
+Nu kan du söka efter ett nyckelord för att snabbt hitta en post i tabellvyn. Du kan använda nyckelord och specialtecken från alla fält som visas på skärmen för att hitta en post. Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-view.md).
 
 ## Vecka 18 september 2023
 
