@@ -4,9 +4,9 @@ description: Första kvartalet 2024, förbättringar av startsidan
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,17 @@ Den här sidan beskriver alla hemförbättringar som gjorts i första utgåvan a
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-## Administratörskontroller för nya Hem med layoutmallar
+<!--
 
-Administratörer kan nu anpassa nya startsidor för användare med hjälp av layoutmallar. Anpassningsalternativen inkluderar val av obligatoriska widgetar och deras placering, val av bakgrund och widgetspecifika alternativ för att välja tillgängliga filter och grupper (och inställning av standardvärden).
+## Administrator controls for new Home using layout templates
 
-Observera att alternativen för administratörslayoutmallar åsidosätter enskilda användares anpassning, dvs. att när ändringar sparas i en layoutmall ändras den nya startsidan så att den matchar layoutmallen och deras befintliga widgetval flyttas längst ned på sidan. Widgetar som valts av administratören kan flyttas av en användare, men de kan inte tas bort.
+Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).
 
-Mer information finns i [Anpassa nytt hem med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
+
+For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+
+-->
 
 ## Snabbåtgärdsknapparna för Mitt arbete har ändrats så att de bara visas när du för musen över
 
