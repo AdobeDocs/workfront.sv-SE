@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1795'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
@@ -128,7 +128,7 @@ När du skapar ett OAuth2-program ska du välja den typ av program som bäst upp
 1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL System]** väljer **[!UICONTROL OAuth2 Applications]**.
 1. Klicka **[!UICONTROL Create app integration]**.
 The **Nytt OAuth2-program** visas.
-1. I **Nytt OAuth2-program** ruta, markera **[!UICONTROL Server Authentication]**.
+1. I **Nytt OAuth2-program** ruta, markera **[!UICONTROL Machine to Machine Application]**.
 1. Ange ett namn för det nya programmet, till exempel &quot;[!DNL Workfront] för ClientApp.&quot;
 1. Klicka på **[!UICONTROL Create]**.
 1. Fyll i fälten för den nya appen.
@@ -180,7 +180,7 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
 1. Klicka på **[!UICONTROL Create app integration]**.
 
    The **Nytt OAuth2-program** visas.
-1. I **Nytt OAuth2-program** ruta, markera **[!UICONTROL User Authentication]**.
+1. I **Nytt OAuth2-program** ruta, markera **[!UICONTROL Web Application]**.
 1. Ange ett namn för det nya OAuth2-programmet, till exempel &quot;[!DNL Workfront] för ClientApp.&quot;
 1. Klicka på **[!UICONTROL Create]**.
 1. Fyll i fälten för den nya appen.
@@ -262,11 +262,11 @@ Instruktioner om hur du konfigurerar och använder OAuth2-programmet med inloggn
       <td> <p>Det här fältet genereras automatiskt.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Redirect URls]</td> 
+      <td role="rowheader">[!UICONTROL Redirect URLs]</td> 
       <td>Användare omdirigeras till den här sökvägen när de har autentiserats med Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Rotate refresh token everytime it is used]</td> 
+      <td role="rowheader">[!UICONTROL Rotate refresh token every time it is used]</td> 
       <td>Aktivera det här alternativet om du vill att en ny uppdateringstoken ska utfärdas när uppdateringstoken används. Programmet måste lagra den nya uppdateringstoken efter varje uppdatering.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
