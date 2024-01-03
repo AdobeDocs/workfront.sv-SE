@@ -6,24 +6,24 @@ description: När du delar dina rapporter med andra användare i Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 # Använd villkorsstyrd formatering i vyer
 
+<!--Audited: 01/2024-->
+
 När du delar dina rapporter med andra användare i Adobe Workfront bör du överväga att anpassa rapportvyn så att viss information blir lättare att läsa eller bara sticka ut.
 
 Du kan anpassa fliken Detaljer för dina rapporter genom att lägga till speciell eller villkorsstyrd formatering till rapportvyn.
 
-Du måste ha behörigheten Hantera för rapporten för att kunna redigera den och lägga till specialformatering i vyn.
-
 Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Genom att villkorligt formatera kolumner i rapportvyn kan du ange regler som påverkar hur rapporten visas. När dessa villkor eller regler är uppfyllda används den särskilda formateringen.
+Genom att villkorligt formatera kolumner i rapportvyn kan du ange regler som påverkar rapportens utseende. När dessa villkor eller regler är uppfyllda används den särskilda formateringen.
 
 Om procentandelen färdigt för en uppgift till exempel är mindre än 20 procent kan du markera fältet genom att visa procenttalet i fet stil, röd text och en gul bakgrundsfärg.
 
@@ -49,11 +49,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Begäran eller senare </p> </td> 
+   <td> <p>Nytt:</p> 
+   <ul><li>Standard för rapportvyer</li>
+  <li> Medarbetare eller högre för listvyer</li></ul>
+
+<p>Aktuell:</p>
+   <ul>
+    <li> Planera för rapportvyer </li>
+    <li> Begär eller högre för listvyer </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera en vy i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera en vy i en rapport</p> <p><b>ANMÄRKNING</b></p> <p>Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -66,21 +73,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Förutsättningar
 
-Du måste skapa en rapport innan du kan lägga till villkorsstyrd formatering i den.
+Du måste skapa en rapport innan du kan lägga till villkorsstyrd formatering i vyn.
 
 Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Skapa en villkorsstyrd vy
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+{{step1-to-reports}}
 
-1. Klicka på namnet på en rapport där du vill skapa en villkorsstyrd vy.
+1. Klicka på namnet på en rapport där du vill skapa en villkorsstyrd vy
 
    eller
 
-   Klicka **Rapportåtgärder** och sedan klicka **Redigera**.
+   Klicka **Ny rapport** väljer du sedan en objekttyp för att skapa en ny rapport.
 
-1. (Villkorligt) Om du redigerade en rapport markerar du en befintlig kolumn eller skapar en ny kolumn.
+1. (Villkorligt) Om du redigerar en befintlig rapport klickar du på **Rapportåtgärder** och sedan klicka **Redigera**.
+
+1. I **Kolumner (vy)** klickar du för att markera en befintlig kolumn eller klickar på **Lägg till kolumn** för att skapa en kolumn.
+1. I **Visa i den här kolumnen** i det övre vänstra hörnet av rapportverktyget markerar du fältet som du vill visa i den nya kolumnen.
 1. Klicka **Avancerade alternativ**.
 
 1. Ange följande information:
@@ -95,7 +105,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Fältformat</strong></td> 
-      <td>Välj i vilket format värdet i kolumnen ska visas. Beroende på vad kolumnfältet är kan du med det här alternativet ange hur datum, siffror och valutor ska visas.</td> 
+      <td>Välj i vilket format värdet i kolumnen ska visas. Beroende på vad kolumnfältet är kan du med det här alternativet ange hur datum, siffror och valutor ska visas. Det här alternativet visas inte för alla kolumner.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Visa den här kolumnen när du arbetar på en instrumentpanel</strong></td> 
@@ -112,7 +122,9 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
    </note>
    -->
 
-1. I **När:** anger du en villkorssats för kolumnen. Till exempel: när aktivitetsprocenten är lika med (skiftlägeskänslig) 50.
+1. I **När:** anger du en villkorssats för kolumnen.
+
+   Till exempel:&quot;när aktivitetsprocenten är lika med (skiftlägeskänslig) 50.&quot;
 1. I **Visa fältet så här:** anger hur det här fältet ser ut när villkoret som definieras ovan är uppfyllt.
 
    Ange följande information:
@@ -123,7 +135,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Textfärg</strong></td> 
-      <td> <p>Välj den färg som texten ska visas i. Det finns 8 tillgängliga färger.</p> <p>Obs! Om fältet innehåller en hyperlänk används inte textfärgmarkeringarna i det här fältet.</p> </td> 
+      <td> <p>Välj den färg som texten ska visas i. Det finns 8 tillgängliga färger.</p> <p><b>ANMÄRKNING</b></p> <p> Om fältet innehåller en hyperlänk används inte textfärgmarkeringarna i det här fältet.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Textformat</strong></td> 
@@ -143,7 +155,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Visa text</strong></td> 
-      <td> <p>Välj det här alternativet om du vill visa en anpassad etikett för den här kolumnen i stället för dess verkliga värde. Ange den text som ska visas i stället för värdet i det angivna fältet.</p> <p>Viktigt: Markera <strong>Visa text</strong> inaktiverar möjligheten att redigera texten i den här kolumnen.<br>Du kan inte heller ändra värdet för en Predecessor-kolumn eftersom den innehåller inbyggd logik.</p> </td> 
+      <td> <p>Välj det här alternativet om du vill visa en anpassad etikett för den här kolumnen i stället för dess verkliga värde. Ange den text som ska visas i stället för värdet i det angivna fältet.</p> <p><b>VIKTIGT</b></p> <p>Markera <strong>Visa text</strong> inaktiverar möjligheten att redigera texten i den här kolumnen.<br>Du kan inte heller ändra värdet för en Predecessor-kolumn eftersom den innehåller inbyggd logik.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Använd på hela raden</strong></td> 
@@ -155,20 +167,23 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
 1. Klicka **Lägg till regel**.\
    Du kan lägga till ytterligare regler i samma kolumn eller lägga till regler i andra kolumner.
 
-   Reglerna tillämpas i den ordning de skapades. De kombineras men skriver inte över varandra, men en kolumnregel har företräde framför en radregel i samma cell.
+   Reglerna tillämpas i den ordning de skapades. De kombineras men de skriver inte över varandra, men en kolumnregel har företräde framför en radregel i samma cell.
 
-   Exempel 1: Du kan först skapa en regel som anger att textfärgen är lila och fet när projektstatus är Byggnad. Sedan skapar du en andra regel som anger när aktivitetsnamnet inte är tomt, att textfärgen är röd och kursiv och att bakgrundsfärgen är grön. I det här exemplet händer följande:
+   **EXEMPEL 1**
+
+   Du kan först skapa en regel som anger att textfärgen är lila och fet när ett projekt har statusen Byggnad. Sedan skapar du en andra regel som anger att när en uppgifts namn inte är tomt blir textfärgen röd och kursiv och bakgrundsfärgen grön. I det här exemplet händer följande:
 
    * Aktiviteter vars projektstatus är Byggnad visas i lila och fet text. Om aktivitetsnamnet inte är tomt har aktiviteterna också en grön bakgrund.
    * Uppgifter vars projektstatus är något annat än Byggnad (och aktivitetsnamnet inte är tomt) visas i röd och kursiv text med grön bakgrund.
 
-   Exempel 2: Skapa en regel på projektets planerade slutförandedatum som påverkar hela raden och gör om bakgrundsgrått om projektet avbryts (Status = &quot;Död&quot;). Skapa sedan en kolumnregel som ändrar bakgrunden till röd när projektets planerade slutförandedatum är mindre än idag (vilket innebär att projektet är sent). I det här exemplet, om ett projekt som avbryts har ett sent avslutsdatum, visas cellen som röd även om övriga celler i raden är grå. Så här korrigerar du formateringen:
+   **EXEMPEL 2**
+
+   Skapa en regel i kolumnen Datum för planerat slutförande i projektet som påverkar hela raden och gör bakgrunden grå om projektet avbryts (till exempel när Projektstatus är Inaktiv). Skapa sedan en kolumnregel som ändrar bakgrunden till röd när projektets planerade slutförandedatum är mindre än idag (vilket innebär att projektet är sent). I det här exemplet, om ett projekt som avbryts har ett sent avslutsdatum, visas cellen som röd även om de andra cellerna i raden är grå. Så här korrigerar du den här formateringen:
 
    * Redigera formateringen för det planerade slutförandedatumet och ta bort kolumnregeln för den röda bakgrunden i sena projekt.
-   * Lägg till en kolumnregel med samma formatering som radregeln (grå bakgrund när Projektstatus = &quot;Död&quot;)
+   * Lägg till en kolumnregel med samma formatering som radregeln (grå bakgrund när Projektstatus = Dölj).
    * Lägg till kolumnregeln igen för den röda bakgrunden i sena projekt.
    * När du sparar reglerna och vyn används inte den röda bakgrunden i ett projekt som har avbrutits.
-
 
 1. Klicka **Klar**.
 1. Klicka **Spara + Stäng**.\

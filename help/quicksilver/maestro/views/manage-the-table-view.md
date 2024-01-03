@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
@@ -209,7 +209,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
 
-   1. Klicka på **X** -ikonen i sökrutan för att rensa sökordet.
+   1. Klicka på **x** -ikonen i sökrutan för att rensa sökordet.
 
 
 ### Lägga till rader (eller poster) {#add-rows}

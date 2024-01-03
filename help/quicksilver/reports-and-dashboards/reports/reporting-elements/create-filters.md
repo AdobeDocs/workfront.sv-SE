@@ -6,9 +6,9 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2456'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Du kan använda följande typer av filter i Adobe Workfront:
 
   Mer information om snabbfilter finns i [Använda snabbfiltret på en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-* Permanenta filter som du kan spara och använda flera gånger på flera listor och rapporter. I den här artikeln beskrivs hur du skapar ett permanent filter eller redigerar ett befintligt i en lista eller rapport.
+* Permanenta filter som du kan spara och använda flera gånger i flera listor och rapporter. I den här artikeln beskrivs hur du skapar ett permanent filter eller redigerar ett befintligt i en lista eller rapport.
 
 * Filter inom andra områden av Workfront, utanför listor och rapporter.
 
@@ -202,7 +202,7 @@ Skapa ett filter med standardgränssnittet i Builder:
    </tr>
    <tr>
    <td role="rowheader"><strong>Systemstandard</strong></td>
-   <td>Workfront standardfilter, liksom filter som Workfront-administratören har lagt till i din filterlista, antingen på systemnivå eller i din layoutmall.</td>
+   <td>Workfront standardfilter och filter som Workfront-administratören har lagt till i din filterlista, antingen på systemnivå eller i layoutmallen.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Delas med mig</strong></td>
@@ -263,14 +263,14 @@ Skapa ett filter med standardgränssnittet i Builder:
    >
    >Beroende på vilken modifierare du har valt kan du välja flera värden.
 
-1. Klicka **Lägg till filter** om du vill markera ett annat fält och lägga till ett nytt filtervillkor i filtersatsen.
+1. Klicka **Lägg till filter** om du vill välja ett annat fält lägger du till ett filtervillkor i filtersatsen.
 1. (Valfritt) Klicka på **Ta bort** icon ![Ikonen Ta bort](assets/delete.png) för att ta bort befintliga filtersatser.
 
    eller
 
    Klicka **Rensa alla** för att rensa alla filtervillkor.
 
-1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.
+1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är **OCH**. Klicka på operatorn för att ändra den till **ELLER**.
 
    >[!TIP]
    >
@@ -294,7 +294,7 @@ Skapa ett filter med standardgränssnittet i Builder:
 
    >[!TIP]
    >
-   >Vi rekommenderar att du skapar så mycket av filtret som möjligt med standardgränssnittet för byggaren och bara använder textläget när du måste göra ändringar i filtret som bara stöds i textläge.
+   >Vi rekommenderar att du skapar så mycket av filtret som möjligt med standardgränssnittet för byggaren och bara använder textläget när du måste ändra filtren som bara stöds i textläge.
 
    Mer information om hur du skapar ett filter med hjälp av textlägesgränssnittet finns i [Redigera ett filter i textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -306,7 +306,7 @@ Skapa ett filter med standardgränssnittet i Builder:
 
 1. (Valfritt) Klicka på **Använd** om du vill använda filtret på listan och se resultatet.
 
-   Om filtret inte ger några resultat kommer listan att vara tom.
+   Om filtret inte ger några resultat är listan tom.
 
 1. Klicka **Spara som ny** för att spara filtret för framtida bruk.
 
@@ -329,13 +329,13 @@ Skapa ett filter med standardgränssnittet i Builder:
    >Klicka **Avbryt** tar dig när som helst tillbaka till filterområdet.
 
 1. Klicka **Spara**. Filtret sparas i listan Sparat och används i objektlistan.
-1. (Valfritt) Om du vill flytta ett filter till favoritlistan håller du pekaren över ett filter i filterlådan och klickar på favoritikonen ![Favoritikon](assets/favorites-icon-small.png).
+1. (Valfritt) Om du vill flytta ett filter till favoritlistan håller du pekaren över ett filter i filterlådan och klickar på knappen **Favorit** icon ![Favoritikon](assets/favorites-icon-small.png).
 
    eller
 
    Håll pekaren över ett filter i filterlådan och klicka på Mer-menyn ![Menyn Mer](assets/more-icon-spectrum.png)och klicka **Favorit**.
 
-1. (Valfritt) Klicka på **Staplingsfilter** för att aktivera staplade filter. Med det här alternativet kan du använda mer än ett sparat filter. Filterreglerna tillämpas i den ordning du markerar dem.
+1. (Valfritt) Klicka på **Staplingsfilter** för att aktivera staplade filter. Med det här alternativet kan du använda mer än ett sparat filter. Filterreglerna tillämpas i den ordning som du markerar dem.
 
    >[!TIP]
    >
@@ -377,7 +377,7 @@ Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär
 
    eller
 
-   Håll pekaren över det filter du vill ändra och klicka på **Redigera** icon ![](assets/edit-icon.png).
+   Håll pekaren över det filter som du vill ändra och klicka på **Redigera** icon ![](assets/edit-icon.png).
 
    Verktyget för att anpassa filtret startas.
 
@@ -388,7 +388,7 @@ Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär
 
      Fält som är kopplade till filterobjektet visas i **Börja skriva fältnamn** box.
 
-   * Klicka **OCH** eller **ELLER** när en ny filterregel läggs till.\
+   * Klicka **OCH** eller **ELLER** när du lägger till en filterregel.\
      När du lägger till filterregler använder du filtermodifierarna för att fastställa filtervillkoret. Mer information om filtermodifierare finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -415,11 +415,11 @@ Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär
 
    Mer information om hur du skapar ett filter med hjälp av textlägesgränssnittet finns i [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicka **Spara filter** om du vill skapa ett nytt filter eller ersätta det markerade med dina ändringar.
+1. Klicka **Spara filter** om du vill skapa ett filter eller ersätta det markerade med dina ändringar.
 
    eller
 
-   Klicka **Spara som nytt filter** om du vill skapa ett nytt filter från det markerade.
+   Klicka **Spara som nytt filter** om du vill skapa ett filter från det markerade.
 
    Det nya filtret visas i filterlistan och tillämpas automatiskt på den lista eller rapport som du har valt.
 

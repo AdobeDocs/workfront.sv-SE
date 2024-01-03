@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,11 @@ Så här hanterar du en tidslinjevy:
 
       Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
 
-      Du kan inte använda nyckelord som är kopplade till fält som är dolda i tabellvyn.
+      Du kan inte använda nyckelord som är associerade med fält som inte visas i tidslinjevyn.
 
    1. Tryck på Retur på tangentbordet för att gå till nästa sökbara fält.
    1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
-   1. Klicka på X-ikonen i sökrutan för att ta bort sökordet.
+   1. Klicka på **x** -ikonen i sökrutan för att rensa sökordet.
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)

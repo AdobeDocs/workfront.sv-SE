@@ -3,32 +3,40 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Konfigurera e-postaviseringsinställningar i [!DNL Workfront Proof]
-description: E-postmeddelanden informerar medarbetare om den senaste aktiviteten i korrektur, som kommentarer, svar, beslut.
+description: E-postmeddelanden som genererats av Workfront Proof informerar medarbetare om den senaste aktiviteten i korrektur, som kommentarer, svar eller beslut.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1773'
 ht-degree: 0%
 
 ---
 
 # Konfigurera e-postaviseringsinställningar i [!DNL Workfront Proof]
 
+<!--Audited: 01/2024-->
+
 >[!IMPORTANT]
 >
 >Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-E-postmeddelanden informerar medarbetare om den senaste aktiviteten i korrektur, som kommentarer, svar, beslut.
+E-postmeddelanden informerar medarbetare om den senaste aktiviteten i korrektur, som kommentarer, svar eller beslut.
 
-E-postmeddelanden till granskarna kan anges på sidan Nytt korrektur. [!UICONTROL New version] och hanteras i [!UICONTROL Workflow] i [!UICONTROL Proof details] sida. Mer information finns i [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Du kan ange e-postmeddelanden för granskare inom följande områden:
+
+* Sidan Nytt korrektur
+* The [!UICONTROL New version] page
+* The [!UICONTROL Workflow] i [!UICONTROL Proof details] sida.
+
+Mer information finns i [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Alla användare kan också ange egna e-postaviseringsinställningar som automatiskt tillämpas när ett korrektur delas med dem. Om medarbetarna har sina inställningar, eller kontoadministratörerna har sina rekommendationer om hur ofta aviseringar ska göras. Detta kan anges som korrekturstandard på användarnas informationssidor.
+Alla användare kan också ange egna e-postaviseringsinställningar som automatiskt tillämpas när ett korrektur delas med dem. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 
 >[!NOTE]
 >
@@ -38,17 +46,17 @@ Användare med [!UICONTROL Administrator] eller [!UICONTROL Billing Administrato
 
 Mer information om profiler finns i [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Konfigurera korrekturinställningar i personliga inställningar ([!DNL Workfront Proof] endast användare)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
+* [Konfigurera standardvärden för korrektur i personliga inställningar ([!DNL Workfront Proof] endast användare)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
 * [Ändra e-postaviseringar för en mottagare](#change-email-alerts-for-a-recipient)
 * [Konfigurera korrekturinställningar för en användare](#configure-proof-defaults-for-a-user)
 
-## Konfigurera korrekturinställningar i personliga inställningar ([!DNL Workfront Proof] endast användare)
+## Konfigurera standardvärden för korrektur i personliga inställningar ([!DNL Workfront Proof] endast användare)
 
 Du kan konfigurera korrekturinställningar för korrektur som du skapar.
 
-Information om korrekturinställningar finns i [!DNL Workfront] administratör eller [!DNL Workfront Proof] -administratören kan konfigurera, se .
+<!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]**.
+1. Klicka **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]**.
 
 1. Klicka på **[!UICONTROL Proofing defaults]** -fliken.
 1. Klicka **[!UICONTROL Default email notification settings]** för att utöka den.
@@ -107,26 +115,26 @@ Information om korrekturinställningar finns i [!DNL Workfront] administratör e
       <td>Ange om du vill få en [!UICONTROL Proof made] e-post när du skapar ett korrektur. Mer information finns i <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">The [!UICONTROL Proof Made] e-post</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Format of emails sent to me]</strong> </td> 
-      <td> <p>Välj mellan e-postmeddelanden med HTML och e-postmeddelanden med vanlig text. </p> <p>Obs!  Standardinställningarna för korrektur åsidosätts av inställningarna på korrekturnivå. Om korrekturmeddelanden via e-post inaktiveras för hela kontot i [!UICONTROL Account] inställningar skickas inga e-postaviseringar till medarbetarna även om [!UICONTROL Disabled email alert] är inte markerat på korrektur.<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
+      <td> <p>Välj mellan e-postmeddelanden med HTML och e-postmeddelanden med vanlig text. </p> <p><b>ANMÄRKNING</b></p>
+      <p>Standardinställningarna för korrektur åsidosätts av inställningarna på korrekturnivå. Om korrekturmeddelanden via e-post inaktiveras för hela kontot i [!UICONTROL Account] inställningar skickas inga e-postaviseringar till medarbetarna även om [!UICONTROL Disabled email alert] är inte markerat på korrektur.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Under **[!UICONTROL Message settings]**&#x200B;ändrar du något av följande:
 
-   | **[!UICONTROL Proof subject template]** | Visas på sidan Nytt korrektur, Ny version, Meddelande och Påminn. Kan redigeras innan det skickas. |
+   | Korrekturmall | Beskrivning |
    |---|---|
+   | **[!UICONTROL Proof subject template]** | Visas på sidan Nytt korrektur, Ny version, Meddelande och Påminn. Kan redigeras innan det skickas. |
    | **[!UICONTROL Proof message template]** | Visas på sidan Nytt korrektur, Ny version, Meddelande och Påminn. Kan redigeras innan det skickas. |
-
-   {style=&quot;table-layout:auto&quot;}
 
 ## Ändra e-postaviseringar för en mottagare
 
 Du kan ändra e-postaviseringar för en viss mottagare i en gruppåtgärd.
 
 1. Klicka **[!UICONTROL Contacts]** i den vänstra navigeringspanelen.
-1. Klicka på **[!UICONTROL More]** (tre punkter) för mottagaren och klicka sedan på **[!UICONTROL View member details]** i listrutan.
+1. Klicka på **[!UICONTROL More]** meny ![](assets/more-button-small.png) för mottagaren klickar du på **[!UICONTROL View member details]** i listrutan.
 
 1. Öppna **[!UICONTROL Shared items]** -avsnitt.
 1. Markera kryssrutan till vänster om varje objekt som du vill ändra e-postaviseringen för.
@@ -136,17 +144,17 @@ Du kan ändra e-postaviseringar för en viss mottagare i en gruppåtgärd.
 
 ## Konfigurera korrekturinställningar för en användare
 
-Om du är en [!DNL Workfront Proof] kan du ange standardvärden för korrektur för användare i ditt konto.
+Om du är [!DNL Workfront Proof] kan du ange standardvärden för korrektur för användare i ditt konto.
 
-1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Account settings]**.
+1. Klicka **[!UICONTROL Settings]** > **[!UICONTROL Account settings]**.
 
 1. Öppna **[!UICONTROL Users]** -fliken.
-1. Öppna **[!UICONTROL  More]** till höger om användarens namn. ![More_button_small.png](assets/more-button-small.png)
+1. Öppna **[!UICONTROL  More]** meny ![More_button_small.png](assets/more-button-small.png) till höger om användarens namn.
 
 1. Klicka **[!UICONTROL View users details]** i listrutan.
 1. Under **[!UICONTROL Settings]**, klicka **[!UICONTROL Default email alert settings]** för att utöka den.
 
-1. Välj ett av alternativen i tabellen nedan i listrutan till höger om följande två inställningar:
+1. Välj ett av alternativen som förklaras i tabellen nedan i listrutan till höger om följande två inställningar:
 
    * **[!UICONTROL Default email alert]**: Påverkar alla korrektur som delas med dig. Den här inställningen kan åsidosättas på korrekturnivån.
    * **[!UICONTROL Default email alert for new guest reviewers]**: Påverkar granskare som inte tidigare fanns som kontakter i ditt konto.
@@ -201,8 +209,8 @@ Om du är en [!DNL Workfront Proof] kan du ange standardvärden för korrektur f
       <td>Ange om du vill få en [!UICONTROL Proof made] e-post när du skapar ett korrektur. Mer information finns i <a href="https://support.workfront.com/hc/en-us/article">The [!UICONTROL Proof Made] E-post.</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Format of emails sent to me]</strong> </td> 
-      <td> <p>Välj mellan e-postmeddelanden med HTML och e-postmeddelanden med vanlig text. </p> <p>Obs!  Standardinställningarna för korrektur åsidosätts av inställningarna på korrekturnivå. Om korrekturmeddelanden via e-post inaktiveras för hela kontot i [!UICONTROL Account] inställningar skickas inga e-postaviseringar till medarbetarna även om [!UICONTROL Disabled email alert] är inte markerat på korrektur.<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
+      <td> <p>Välj mellan e-postmeddelanden med HTML och e-postmeddelanden med vanlig text. </p> <p><b>ANMÄRKNING</b></p> <p>Standardinställningarna för korrektur åsidosätts av inställningarna på korrekturnivå. Om korrekturmeddelanden via e-post inaktiveras för hela kontot i [!UICONTROL Account] inställningar skickas inga e-postaviseringar till medarbetarna även om [!UICONTROL Disabled email alert] är inte markerat på korrektur.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
