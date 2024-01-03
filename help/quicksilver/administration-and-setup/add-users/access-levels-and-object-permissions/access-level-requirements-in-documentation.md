@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 I Workfront-dokumentationen finns en tabell med information om vilka behörigheter som krävs för den proceduren. I den här tabellen för åtkomstkrav kan du förstå om du kan utföra en viss åtgärd i Workfront eller varför du inte kan göra det. I den här artikeln förklaras varje element i tabellen för åtkomstkrav och den innehåller felsökningstips och länkar till mer detaljerad information.
 
 Om det inte finns någon rad i tabellen för åtkomstkrav i en viss artikel finns det inga krav av den typen för den åtgärden.
+
+Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Aktuellt&quot;. Detta beror på att Workfront går över till en ny prissättnings- och paketeringsmodell, där vissa organisationer arbetar enligt den nya modellen och andra fortfarande använder den nuvarande modellen. Kontakta Workfront-administratören för att ta reda på vilken modell din organisation använder. Information och länkar till information finns i [Åtkomstkravregistret](#the-access-requirements-table) i den här artikeln.
 
 >[!NOTE]
 >
@@ -53,14 +55,26 @@ Om det inte finns någon rad i tabellen för åtkomstkrav i en viss artikel finn
       </p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>Workfront erbjuder vissa produkter som kan köpas utöver Workfront.
+   <p>Artiklar som beskriver de procedurer som utförs i dessa ytterligare produkter listar den produkt som krävs här.</p>
+   <ul>
+   <li>Adobe Experience Manager Assets eller Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront-mål</li>
+   <li>Workfront Scenario Planner</li>
+   </ul>
+   <p>Kontakta Workfront-administratören om du vill veta om din organisation har köpt någon av dessa produkter.</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
-   <td> Åtkomstnivåer är behörighetsgrupper för åtgärder som du kan utföra i Workfront, som anges av Workfront-administratören. <p>Workfront har inbyggda åtkomstnivåer som motsvarar Workfront-licenser, men din Workfront-administratör kan skapa fler åtkomstnivåer för att bättre återspegla de behörighetsgrupper som behövs i organisationen.</p>
+   <td> Åtkomstnivåer är behörighetsgrupper för åtgärder som du kan utföra i Workfront, som anges av Workfront-administratören. <p>Workfront har inbyggda åtkomstnivåer som motsvarar Workfront-licenser, men Workfront-administratören kan skapa fler åtkomstnivåer för att bättre återspegla de behörighetsgrupper som behövs i organisationen.</p>
    <ul>
     <li>Adobe Workfront går över till en ny prissättnings- och paketeringsmodell. Mer information om åtkomstnivåer för varje modell finns i:
    <ul>
    <li>Nytt: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a></li>
    <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Översikt över åtkomstnivåer</a></li></ul></li>
-    <li>Kontakta din Workfront-administratör om du vill veta mer om din åtkomstnivå</li>
+    <li>Kontakta Workfront-administratören om du vill veta mer om din åtkomstnivå</li>
     <li>Om du är Workfront-administratör kan du läsa <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a> om du vill veta mer om hur du ger åtkomst till specifika objekt på åtkomstnivån.</li>  
    <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</li>
     </td>
