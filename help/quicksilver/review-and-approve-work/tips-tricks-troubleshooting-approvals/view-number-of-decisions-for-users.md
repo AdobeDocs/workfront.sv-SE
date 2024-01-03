@@ -3,12 +3,12 @@ product-area: documents
 navigation-topic: approvals
 title: Visa antalet korrektur- och dokumentbeslut för alla användare
 description: Du kan visa antalet korrektur- och dokumentbeslut som har fattats av användare i din Workfront-instans.
-author: Courtney
+author: Courtney and Lisa
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
+source-git-commit: 21df7fd2340214034a2a2d6b4199861a2d8f71cd
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Så här visar du antalet beslut för en användare:
 1. Öppna **Vyer** väljer du **Licenser** vy.
 1. Hitta kolumnen **Beslut den här månaden** för att se hur många beslut varje användare har fattat under månaden.
 1. <span class="preview">Öppna **Vyer** område och välj **Historisk användarvy**.</span>
-1. <span class="preview">Hitta kolumnen **Användarhistoriskt beslut** för att se hur många beslut varje användare har fattat under en månad. Data returneras 12 månader från den aktuella månaden.</span>
+1. <span class="preview">Hitta kolumnen **Användarhistoriskt beslut** för att se hur många beslut varje användare har fattat under en månad. Informationen kan omfatta upp till 12 månader före den aktuella månaden, beroende på när rapporten gjordes tillgänglig för din organisation.</span>
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Så här visar du antalet beslut för en användare:
 1. Klicka **Ny rapport** väljer **Användarbeslut**.
 1. Hitta kolumnen **Beslut den här månaden** för att se hur många beslut varje användare har fattat under månaden.
 
-   <span class="preview">Data returneras 12 månader från den aktuella månaden. The **Månad** och **År** kolumner visar vilken månad besluten togs i. Månad 1 är januari, månad 2 är februari och så vidare.</span>
+   <span class="preview">Informationen kan omfatta upp till 12 månader före den aktuella månaden, beroende på när rapporten gjordes tillgänglig för din organisation. The **Månad** och **År** kolumner visar vilken månad besluten togs i. Månad 1 är januari, månad 2 är februari och så vidare.</span>
 
 1. Granska rapporten och redigera den efter behov. Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
