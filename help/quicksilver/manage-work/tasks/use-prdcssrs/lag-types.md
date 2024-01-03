@@ -2,23 +2,25 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Översikt över lagertyper
+title: Översikt över fördröjningstyper
 description: Lag är den tid som måste förflyta efter slutförandet av en framtvingad föregångare tills den beroende aktiviteten kan börja (Positive Lag), eller den tid som en beroende aktivitet kan starta innan den föregående startar (Negative Lag).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
-# Översikt över lagertyper
+# Översikt över fördröjningstyper
+
+<!-- Audited: 01/2024 -->
 
 Lag är den tid som måste förflyta efter det planerade slutförandet av en föregångare tills den beroende aktiviteten kan börja (Positive Lag), eller den tid som en beroende aktivitet kan starta innan den föregående startar (Negative Lag).
 
-De planerade, planerade och beräknade datumen för efterföljande uppgifter beräknas med hänsyn till de föregående aktiviteternas fördröjning och datum för planerade, planerade och beräknade startdatum (slutförande).
+De planerade, planerade och beräknade datumen för efterföljande uppgifter beräknas med hänsyn till de föregående aktiviteternas fördröjning samt datum för planerade, planerade och beräknade start (slutförande).
 
 ## Åtkomstkrav
 
@@ -64,7 +66,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -72,7 +76,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för aktiviteterna och projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för aktiviteterna och projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,9 +86,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Ange typ av fördröjning och fördröjning för uppgifter
 
 Du kan ange fördröjningstyper för uppgifter när du definierar deras föregångarrelationer.
-
-* [Ange typ av fördröjning i avsnittet Föregående aktiviteter i en uppgift](#indicate-lag-types-in-the-predecessors-section-of-a-task)
-* [Ange typ av fördröjning i en uppgiftslista](#indicate-lag-types-in-a-task-list)
 
 ### Ange typ av fördröjning i avsnittet Föregående aktiviteter i en uppgift {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
@@ -106,13 +107,13 @@ Du kan ange fördröjningstyper för uppgifter när du definierar deras föregå
    * **Veckodag**
    * **Veckodag (ej noll)**
 
-     Mer information om dessa Lag-typer och hur de beräknas finns i avsnittet [Översikt över fördröjningstyper](#lag-types-overview) i den här artikeln.
+     Mer information om dessa Lag-typer och hur de beräknas finns i avsnittet [Lag Types](#lag-types) i den här artikeln.
 
 1. Klicka **Spara**.
 
 ### Ange typ av fördröjning i en uppgiftslista  {#indicate-lag-types-in-a-task-list}
 
-1. Gå till en uppgiftslista och välj **Standard** Visa från **Visa** listruta.
+1. Gå till en uppgiftslista och välj **Standard** vy.
 
 1. Klicka inuti **Föregående** -kolumn som motsvarar den uppgift för vilken du vill ange en föregångare och ett fördröjningsvärde.
 1. Ange följande utan blanksteg:
@@ -125,15 +126,15 @@ Du kan ange fördröjningstyper för uppgifter när du definierar deras föregå
    * antingen **+** för en positiv fördröjning eller **-** för negativ fördröjning
 
    * mängden fördröjning
-   * förkortningen för den Lag-typ som du vill använda.
+   * förkortningen för den Lag-typ som du vill använda
 
-     Mer information om förkortningarna för Lag Types finns i avsnittet [Översikt över fördröjningstyper](#lag-types-overview) i den här artikeln.
+     Mer information om förkortningarna för Lag Types finns i avsnittet [Lag Types](#lag-types) i den här artikeln.
 
-   Om du till exempel vill ange att en aktivitet har en föregångare och en positiv fördröjning på 2 dagar, anger du  `1fs+2d` i kolumnen Föregående.
+   Om du till exempel vill ange att en aktivitet har en föregångare och en positiv fördröjning på 2 dagar, anger du `1fs+2d` i kolumnen Föregående.
 
-1. Klicka på Enter på tangentbordet för att spara ändringarna i uppgiften.
+1. Tryck på Retur på tangentbordet för att spara ändringarna i uppgiften.
 
-## Översikt över fördröjningstyper {#lag-types-overview}
+## Lag Types {#lag-types}
 
 Ett exempel på en uppgift som skulle kräva en fördröjning kan vara att såga träd i lumber. Om det nyskurna träet måste torka under en tid innan det kan skäras upp, så blir det en fördröjning mellan att skära träden och såga upp dem i lummer.
 
@@ -159,7 +160,7 @@ I följande tabell visas Lag Types och hur du anger hur lång tid varje typ av t
   </tr> 
   <tr> 
    <td> <p>Procent (p eller pe)</p> </td> 
-   <td> <p>Fördröjningen uttrycks som en procentandel av den beräknade tiden för att slutföra föregående aktivitet. </p> <p>Om det till exempel finns ett samband mellan avslutsstart med 20 % fördröjning av en 10-dagars föregående aktivitet, beräknar systemet hur många dagar som motsvarar 20 % av föregående uppgifts varaktighet och använder den som fördröjning. I så fall är det två dagar efter att uppgiften har slutförts. </p>
+   <td> <p>Fördröjningen uttrycks som en procentandel av den beräknade tiden för att slutföra föregående aktivitet. </p> <p>Om det till exempel finns ett samband mellan avslutad start med 20 % fördröjning av en 10-dagars föregående aktivitet, beräknas hur många dagar som motsvarar 20 % av föregående uppgifts varaktighet och som fördröjning används. I så fall är det två dagar efter att uppgiften har slutförts. </p>
 
 <p><b>ANMÄRKNING</b></p> Den maximala fördröjningsgränsen för procent är 2 000 %.</p> </td> 
   </tr> 
@@ -193,7 +194,7 @@ Om det beräknade startdatumet för den efterföljande uppgiften är en viss tis
  </tbody> 
 </table>
 
-## Negativ fördröjning - översikt
+## Negativ fördröjning
 
 Du kan använda ett negativt värde, Lag, för att ange om aktiviteten behöver eller kan börja innan föregående aktivitet avslutas.
 

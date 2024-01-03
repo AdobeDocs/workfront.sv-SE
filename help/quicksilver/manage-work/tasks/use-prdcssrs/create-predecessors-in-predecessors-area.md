@@ -6,7 +6,7 @@ description: Du kan använda föregående aktiviteter (eller bara föregående a
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -21,9 +21,9 @@ I den här artikeln visas hur du kan ställa in föregångare med hjälp av flik
 
 Mer information om hur du ställer in föregående aktiviteter i en lista med uppgifter finns i [Skapa en föregående relation i uppgiftslistan](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
-Du kan visa föregående aktiviteter för följande områden i Adobe Workfront:
+Du kan visa föregående aktiviteter för uppgifter i följande områden i Adobe Workfront:
 
-* I avsnittet Föregående aktiviteter för de beroende aktiviteterna
+* I avsnittet Föregående aktiviteter för beroende uppgifter
 * I Gantt-schemat
 * I uppgiftslistan i kolumnen Föregående
 
@@ -60,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa en föregångare för en uppgift
 
-1. Gå till en uppgift som du vill ange som beroende uppgift och klicka sedan på **Föregående** i den vänstra panelen.
+1. Gå till en uppgift som du vill ange som beroende uppgift och klicka sedan på **Föregående** till vänster.
 
    Du kan behöva klicka **Visa fler** sedan **Föregående**.
 
@@ -79,7 +79,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Ange en **Lag** antal dagar.
 
-   Mer information om Lag Types finns i &#x200B; [Översikt över lagertyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Mer information om Lag Types finns i &#x200B; [Översikt över fördröjningstyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 1. Välj **Krävs** om du vill framtvinga den föregående relationen mellan de två uppgifterna.
 

@@ -6,9 +6,9 @@ description: En föregångare för flera projekt är en uppgift som en annan akt
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    * **Beroendetyp:** Välj relationen som du vill att föregående aktivitet ska ha med den beroende aktiviteten. Standardrelationen är &quot;Slutför-Start&quot;, vilket innebär att föregående aktivitet måste slutföras innan den beroende aktiviteten kan startas. Mer information om de olika beroendetyperna finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
 
-   * **Lag:** Ange den tid som måste förflyta efter slutförandet av en framtvingad föregångare tills den beroende aktiviteten kan börja. Mer information om olika typer av fördröjningar finns i [Översikt över lagertyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Lag:** Ange den tid som måste förflyta efter slutförandet av en framtvingad föregångare tills den beroende aktiviteten kan börja. Mer information om olika typer av fördröjningar finns i [Översikt över fördröjningstyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
    * **Tvingad:** När det här alternativet är markerat kan beroendeförhållandet mellan de två aktiviteterna inte kringgås av användare som startar aktiviteter tidigt. Om du till exempel tillämpar en relation mellan Aktivitet A och Aktivitet B, kan inte Aktivitet B startas förrän Aktivitet A har slutförts. Mer information om att framtvinga föregående aktiviteter finns i [Tvinga föregående](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 

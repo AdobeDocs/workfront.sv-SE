@@ -7,9 +7,9 @@ description: En föregångare är den uppgift som en annan aktivitet (kallas eft
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ För att förstå tidigare relationer måste du förstå:
 
 * **Lager:** Du kan skapa fördröjningar i dina beroenden som skapar en fördröjning som måste inträffa när en föregående aktivitet har slutförts och innan efterföljande aktivitet kan börja. Lagar påverkar tidslinjen i projektet.
 
-  Mer information om fördröjningstyper finns i [Översikt över lagertyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Mer information om fördröjningstyper finns i [Översikt över fördröjningstyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Skapa tidigare relationer
 

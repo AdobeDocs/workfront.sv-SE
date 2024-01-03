@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '13842'
+source-wordcount: '13841'
 ht-degree: 0%
 
 ---
@@ -1351,7 +1351,7 @@ ht-degree: 0%
          * [Skapa föregångare mellan projekt](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
          * [Översikt över typer av uppgiftsberoenden](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
          * [Tvinga föregående](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-         * [Översikt över lagertyper](manage-work/tasks/use-prdcssrs/lag-types.md)
+         * [Översikt över fördröjningstyper](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [Översikt över uppgiftsberoendeloop](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
       * Tips, tricks och felsökning för uppgifter {#tips-tricks-and-troubleshooting-for-tasks}
          * [Tips, tricks och felsökning för uppgifter](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
@@ -1762,7 +1762,7 @@ ht-degree: 0%
       * [Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Granska och godkänn arbetet {#review-and-approve-work}
    * [Granska och godkänn arbetet](review-and-approve-work/review-and-approve-work.md)
-   * [Alfa-program - dokumentgodkännanden](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Alpha - dokumentgodkännanden](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Begränsat dokument och bevisbeslut för obetalda användare - översikt](review-and-approve-work/proof-doc-decision-limits.md)
    * Arbetsgodkännanden {#work-approvals}
       * [Arbetsgodkännanden](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2156,7 +2156,7 @@ ht-degree: 0%
       * [Adobe Acrobat Sign moduler](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Adobe Creative Cloud Libraries-moduler](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic moduler](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
-      * [Adobe Experience Manager Assets-moduler](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Adobe Experience Manager Assets moduler](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Modulen Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizer moduler](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Maestro-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
