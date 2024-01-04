@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
+source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,15 @@ Den här planen innehåller en mall för [!DNL Workfront] en organisation som ar
 **[!UICONTROL System Administrator Maintenance Dashboard]**
 Den här planen innehåller en enda instrumentpanel som hjälper systemadministratörer att regelbundet underhålla och rensa systemet från störande störningar som kan uppstå över tid.
 
-**Värderealisering | Kontrollpanel för kärnvärde**
+**Värderealisering | Instrumentpanel för kärnvärde**
 
 Denna plan innehåller en enda kontrollpanel med 21 rapporter som hjälper dig att mäta värdet av Workfront. Dessa rapporter hjälper er att omvandla fördelarna med centraliserade arbetsprocesser och hantering av arbetsprocesser till mätbara värden som ni kan spåra över tiden för att få bättre resultat.
 
-**Värderealisering | Granska och godkänn kontrollpanel**
+[!BADGE Nyhet!]{type=Informative}**Värderealisering | Leverera instrumentpanel för klientbaserade tjänster**
+
+Denna plan innehåller en enda kontrollpanel med åtta rapporter som hjälper dig att dra nytta av fördelarna med Workfront. Dessa rapporter är utformade för att hjälpa er att omvandla era kundriktade tjänster till mätbart värde som ni kan spåra över tiden för att få bättre resultat.
+
+**Värderealisering | Granska och godkänn kontrollpanelen**
 
 Denna plan innehåller en enda kontrollpanel med 7 rapporter som hjälper dig att förverkliga värdet av Workfront. Dessa rapporter hjälper er att omsätta värdena för granskning och godkännande av arbeten till mätbara fördelar som ni kan följa över tiden för att få bättre resultat.
 
