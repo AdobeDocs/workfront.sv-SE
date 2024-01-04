@@ -6,9 +6,9 @@ description: Navigera i en portfölj
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >
      >Om du bara vill visa specifika projekt kan du skapa ett projektfilter i **[!UICONTROL Filter]** listrutan högst upp i listan med projekt för att minska antalet projekt som visas.
 
-     Mer information om hur du skapar filter finns i [Översikt över filter i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. Klicka **[!UICONTROL Programs]** i den vänstra panelen för att skapa program i portföljen eller hantera befintliga program.\

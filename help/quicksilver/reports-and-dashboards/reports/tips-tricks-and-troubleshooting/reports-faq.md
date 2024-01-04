@@ -7,9 +7,9 @@ description: Vanliga frågor och svar om rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ När jag kör en rapport som har ett diagram visas felmeddelandet &quot;Wow där
 
 Det här felet innebär att diagrammet innehåller upp till 618 distinkta resultat, till exempel mer än 618 staplar i ett stapeldiagram. För att lösa visningsproblemet måste du förfina resultatet genom att ändra det aktuella filtret och gruppera markeringar.
 
-Mer information om hur du ändrar filter och grupperingar finns i artiklarna [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) och [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Mer information om hur du ändrar filter och grupperingar finns i artiklarna [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) och [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Varför ser jag mina uppgifter (eller problem) när jag öppnar samma rapport (eller kalender) som min medarbetare och de ser sina uppgifter istället?
 

@@ -6,9 +6,9 @@ description: Med filter- och villkorsmodifierarna kan du skapa filter och skapa 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Med filter- och villkorsmodifierarna kan du skapa filter och skapa villkor för formatering av rapportresultat.
 
-Mer information om hur du skapar filter finns i artikeln [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Mer information om hur du skapar filter finns i artikeln [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Mer information om hur du använder villkorsstyrd formatering i Vyer finns i artikeln [Använd villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -68,7 +68,7 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p><strong>Innehåller</strong> </p> </td> 
    <td> <p><strong>cicontains</strong> </p> </td> 
-   <td> <p>(Skiftlägesokänslig) Detta är den skiftlägesokänsliga versionen av <strong>innehåller</strong>. Till exempel: cicontains inf hämtar alla värden som innehåller antingen Inf eller inf.</p> <p> <p>Obs! Adobe Workfront söker efter det exakta ord eller den fras du anger för varje filtersats. Om du t.ex. söker efter ett projekt som innehåller frasen"nytt projekt" i namnet, visas inga projekt som bara innehåller"nytt" eller"projekt", eller"nytt huvudprojekt" i namnet. Filtret hittar bara projekt med den exakta frasen"nytt projekt" i namnet.</p> </p> </td> 
+   <td> <p>(Skiftlägesokänslig) Detta är den skiftlägesokänsliga versionen av <strong>innehåller</strong>. Till exempel: "cicontains inf" hämtar alla värden som innehåller antingen "Inf" eller "inf".</p> <p> <p>Obs! Adobe Workfront söker efter det exakta ord eller den fras som du anger för varje filtersats. Om du t.ex. söker efter ett projekt som innehåller frasen"nytt projekt" i namnet, visas inga projekt som bara innehåller"nytt" eller"projekt", eller"nytt huvudprojekt" i namnet. Filtret hittar bara projekt med den exakta frasen"nytt projekt" i namnet.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
@@ -83,7 +83,7 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
-   <td> <p>Det här är en skiftlägeskänslig version av <strong>gilla</strong>. Till exempel: "cilike %Current% %Dead%" returnerar alla anteckningar som innehåller "Current to Dead" eller "current to död".</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+   <td> <p>Det här är en skiftlägeskänslig version av <strong>gilla</strong>. Exempel: "cilike %Current% %Dead%" returnerar alla anteckningar som innehåller "Current to Dead" eller "current to Dead".</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
@@ -102,7 +102,7 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   </tr> 
   <tr valign="top"> 
    <td><strong>Finns inte</strong> </td> 
-   <td><strong>ANTECKNINGAR</strong> </td> 
+   <td><strong>NOTEXISTER</strong> </td> 
    <td> <p>Den här modifieraren används bara med komplexa filter i en EXISTS-programsats. Dessa filter refererar endast till följande objekt: </p> 
     <ul> 
      <li>Objekt som sträcker sig över flera nivåer i objekthierarkin </li> 
@@ -112,7 +112,7 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p> </p> <p> </p> <p> </p> <p><strong>Jämn</strong> </p> </td> 
    <td> <p><strong>in</strong> </p> </td> 
-   <td> <p>(Skiftlägeskänsligt) Med den här modifieraren kan du skapa en kommaavgränsad lista med variabler som ska jämföras med ett enskilt attribut utvärderat i ett filter. Hela listan behandlas som en OR-sats och returnerar alla resultat som uppfyller villkoren för en eller flera av variablerna.</p> <p>Om du till exempel söker efter projekt och använder"i CUR, PLN, CPL" returneras alla projekt som har statusen Aktuell, ELLER Planering, ELLER Fullständig.</p> <p>Den inbyggda modifieraren <strong>Jämn</strong> motsvarar textlägesmodifieraren i <strong>in</strong>. Det innebär att du kan välja Lika med flera värden för fältet.</p> <p>Du kan t.ex. välja "Status är lika med aktuell, Planering, Död" i en projektrapport och du kan visa projekt i någon av dessa statusar.</p> </td> 
+   <td> <p>(Skiftlägeskänsligt) Med den här modifieraren kan du skapa en kommaavgränsad lista med variabler som ska jämföras med ett enskilt attribut utvärderat i ett filter. Hela listan behandlas som en OR-sats och returnerar alla resultat som uppfyller villkoren för en eller flera av variablerna.</p> <p>Om du till exempel söker efter projekt och använder"i CUR, PLN, CPL" returneras alla projekt som har statusen Aktuell, ELLER Planering, ELLER Fullständig.</p> <p>Inbyggd modifierare <strong>Jämn</strong> motsvarar textlägesmodifieraren i <strong>in</strong>. Det innebär att du kan välja Lika med flera värden för fältet.</p> <p>Du kan t.ex. välja "Status är lika med aktuell, Planering, Död" i en projektrapport och du kan visa projekt i någon av dessa statusar.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
@@ -127,7 +127,7 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>gilla</strong> </p> </td> 
-   <td> <p>(Skiftlägeskänsligt) Söker efter delar av en textsträng på liknande sätt som <strong>innehåller</strong>. Men <strong>gilla</strong> gör att du kan infoga jokertecken för att dela upp texten.</p> <p>Om du till exempel söker efter anteckningar och använder "som %Current% %Dead%" returneras alla anteckningar som innehåller frasen "Aktuell till aktuell". Den innehåller inga anteckningar som innehåller"Dead to Current". Varje värde söks igenom i den ordning som det listas. % representerar ett jokertecken som ersätter tecken eller textsegment.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+   <td> <p>(Skiftlägeskänsligt) Söker efter delar av en textsträng på ungefär samma sätt som <strong>innehåller</strong>. Men <strong>gilla</strong> gör att du kan infoga jokertecken för att dela upp texten.</p> <p>Om du till exempel söker efter anteckningar och använder "som %Current% %Dead%" returneras alla anteckningar som innehåller frasen "Aktuell till aktuell". Den innehåller inga anteckningar som innehåller"Dead to Current". Varje värde söks igenom i den ordning som det listas. % representerar ett jokertecken som ersätter tecken eller textsegment.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Mindre än</strong> </p> </td> 

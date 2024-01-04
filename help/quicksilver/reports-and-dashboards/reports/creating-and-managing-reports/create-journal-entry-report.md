@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2686'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Journalanmälningsrapporten innehåller systemuppdateringar från uppdateringsom
 Journalanmälningsrapporten kan visa:
 
 * Hur många statusändringar som har gjorts
-* När en uppgift eller ett problem togs bort
+* När en uppgift eller ett problem har tagits bort
 * Hur värden i viktiga anpassade fält ändrades under ett projekts livscykel
 * Vilka viktiga datum som har ändrats under ett projekts livscykel
 * Om ägaren till ett projekt har ändrats
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter för de objekt som innehåller journalposterna som du visar i rapporten</p> <p>Du får behörigheten Hantera för rapporten när du har skapat den</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter för de objekt som innehåller journalposterna som du visar i rapporten</p> <p>När du har skapat rapporten får du behörigheten Hantera</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,11 +64,11 @@ Innan du kan utföra de åtgärder som beskrivs i den här artikeln måste du ko
 
 * Alla fält som du vill rapportera om spåras i Workfront. Du kan bara rapportera data från uppdateringsområdet som spåras.
 
-   Mer information om hur du lägger till fält som du vill att Workfront ska spåra finns i [Konfigurera systemuppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Mer information om hur du lägger till fält som du vill att Workfront ska spåra finns i [Konfigurera systemuppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * Alla anpassade fält som du vill rapportera om har inställningen **Visa fältändringar i uppdateringsflöden** aktiverat.
 
-   Mer information om hur du aktiverar den här inställningen för ett anpassat fält finns i avsnittet [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Mer information om hur du aktiverar den här inställningen för ett anpassat fält finns i avsnittet [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Översikt över journaltrans.
 
@@ -98,7 +98,7 @@ Standardvyn för den här rapporten innehåller följande kolumner:
   </tr> 
   <tr> 
    <td><strong>Ändra typ</strong> </td> 
-   <td> <p>Den typ av ändring som gjorts i det påverkade fältet. Beroende på vilka filterregler du har konfigurerat och vilka åtgärder som har vidtagits av användarna kan följande visas i det här fältet:</p> 
+   <td> <p>Den typ av ändring som har gjorts i det påverkade fältet. Beroende på vilka filterregler du har konfigurerat och vilka åtgärder som har vidtagits av användarna kan följande visas i det här fältet:</p> 
     <ul> 
      <li> <p>Lägg till</p> </li> 
      <li> <p>Granskning</p> </li> 
@@ -167,7 +167,7 @@ Den här informationen kan användas för att hjälpa till med revision och för
 >Om du vill jämföra skillnaden i dagar mellan villkorsändringar kan du använda Förbättrad analys.\
 >Mer information om förbättrade analyser finns i [Förbättrad analys - översikt](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -208,10 +208,10 @@ Den här informationen kan användas för att hjälpa till med revision och för
        <ul> 
         <li> <p> <strong>CUR</strong>: Aktuell</p> </li> 
         <li> <p><strong>UTBILDNING</strong>: Död</p> </li> 
-        <li> <p><strong>ONH</strong>: Parkerad</p> </li> 
+        <li> <p><strong>ONH</strong>: Väntar</p> </li> 
         <li> <p><strong>PLN</strong>: Planering</p> </li> 
         <li> <p><strong>CPL</strong>: Slutförd</p> </li> 
-        <li> <p><strong>REQ</strong>: Begärd</p> </li> 
+        <li> <p><strong>REQ</strong>: Begärt</p> </li> 
         <li> <p><strong>APR</strong>: Godkänd</p> </li> 
         <li> <p><strong>REJ</strong>: Avvisad</p> </li> 
         <li> <p><strong>IDA</strong>: Idea</p> </li> 
@@ -250,7 +250,7 @@ Den här informationen kan användas för att hjälpa till med revision och för
    >
    >Om du vill rapportera om villkorsändringar kan du i stället lägga till filterregeln **Fältnamn** > **Jämn** > **Villkor**.
 
-   Mer information om hur du lägger till filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Valfritt) Lägg till en fråga om du vill begränsa rapportens fokus och minska inläsningstiderna.
 
@@ -276,12 +276,12 @@ Den här informationen kan användas för att hjälpa till med revision och för
 
 Du kan ställa in journalpostrapporten så att den visar:
 
-* Vilka uppgifter eller problem har tagits bort
+* Vilka uppgifter eller problem som har tagits bort
 * Vem tog bort en uppgift eller ett problem
 
 Så här ser du när en uppgift eller ett problem togs bort:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -330,9 +330,10 @@ Så här ser du när en uppgift eller ett problem togs bort:
    * **Ändra typ** > **Jämn** > **Ta bort**
    * **Projekt-ID** > **Jämn** > **`<project>`**
 
-      <!--WRITER check link; this png file has spaces
+     <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
-   Mer information om hur du lägger till filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+   Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Valfritt) Lägg till en fråga om du vill begränsa rapportens fokus och minska inläsningstiderna.
 
@@ -364,7 +365,7 @@ Du kan spåra viktiga fältändringar under projektets gång. Du kan ställa in 
 
 Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -409,7 +410,7 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Tidigare datumvärde</p> </td> 
-      <td> <p>Det tidigare datumvärdet i det anpassade fältet.</p> </td> 
+      <td> <p>Föregående datumvärde i det anpassade fältet.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nytt datumvärde</p> </td> 
@@ -432,14 +433,15 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
    * **Fältnamn för journalpost** > **Innehåller** > **DE**
 
-      >[!TIP]
-      >
-      >Lägg till filterregeln om du vill begränsa den här rapporten till specifika anpassade fält **Fältnamn för journalpost** > **Jämn** > **`<custom field>`**.
+     >[!TIP]
+     >
+     >Lägg till filterregeln om du vill begränsa rapporten till specifika anpassade fält **Fältnamn för journalpost** > **Jämn** > **`<custom field>`**.
 
    * **Projekt-ID** > **Jämn** > **`<project>`**
 
-      ![](assets/qs-custom-form-changes-filter-350x92.png)
-   Mer information om hur du lägger till filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     ![](assets/qs-custom-form-changes-filter-350x92.png)
+
+   Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Valfritt) Lägg till en fråga om du vill begränsa rapportens fokus och minska inläsningstiderna.
 
@@ -465,7 +467,7 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
 Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planerade slutförandedatumet ändras under ett projekts livstid.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -540,7 +542,7 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   Mer information om hur du lägger till filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Valfritt) Lägg till en fråga om du vill begränsa rapportens fokus och minska inläsningstiderna.
 
@@ -566,7 +568,7 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
 
 Du kan ställa in journalanmälningsrapporten för att visa hur många gånger projektägaren, eller projektledaren, ändras under ett projekts livslängd.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -627,8 +629,9 @@ Du kan ställa in journalanmälningsrapporten för att visa hur många gånger p
    * **Fältnamn** > **Jämn** > **ownerID**
    * **Projekt-ID** > **Jämn** > **`<project name>`**
 
-      ![](assets/qs-owner-changes-filter-350x94.png)
-   Mer information om hur du lägger till filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     ![](assets/qs-owner-changes-filter-350x94.png)
+
+   Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Valfritt) Lägg till en fråga om du vill begränsa rapportens fokus och minska inläsningstiderna.
 

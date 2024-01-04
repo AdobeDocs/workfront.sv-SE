@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +79,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
    De standardinställningar du väljer avgör vilka användare av Filter, Visa och Gruppera som ska se i listor i hela Workfront när layoutmallen tilldelas dem. Om du inte ändrar dessa standardinställningar visas alla listor enligt följande:
 
    * **Filter**: Alla
-   * **Visa**: Standard (om tillämpligt) vissa listor har inte den här vyn)
+   * **Visa**: Standard (där det är tillämpligt; vissa listor har inte den här vyn)
    * **Gruppering**: Ingenting
 
    Du kan dölja alternativen Alla, Standard och Ingenting efter att du har valt olika standardvärden (se steg 5), men de kan inte tas bort.
@@ -104,7 +104,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
         <ol> 
          <li value="1"> Klicka <strong>Lägg till filter</strong>, <strong>Lägg till vy</strong>, eller <strong>Lägg till gruppering</strong> längst ned i listan Filter, Visa eller Gruppering. I rutan som visas börjar du skriva namnet på en befintlig anpassad listkontroll som du tidigare skapat för din organisation och klickar sedan på namnet när det visas.</li> 
          <li value="2"> Om du vill att den nya anpassade listkontrolluppsättningen ska vara standardfilter, vy eller gruppering för layoutmallen klickar du på <strong>Ange som standard</strong>. </li> 
-         <li value="3"> <p>Klicka <strong>Lägg till</strong> när du är klar.</p> <p><b>ANMÄRKNING</b>: <p>Användare kan lägga till anpassade listkontroller i sina egna listor. Om du lägger till anpassade listkontroller i en layoutmall läggs listkontrollerna till och de flyttas längst ned på panelen. inte ersätter dem.</p> <p>Detta gäller även om du tilldelar användaren en ny layoutmall med anpassade listkontroller. </p> <p>Mer information om hur du anpassar listkontroller finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Översikt över filter i Adobe Workfront</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Översikt över vyer i Adobe Workfront</a>och <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Översikt över grupperingar i Adobe Workfront</a>.</p> </p> </li> 
+         <li value="3"> <p>Klicka <strong>Lägg till</strong> när du är klar.</p> <p><b>ANMÄRKNING</b>: <p>Användare kan lägga till anpassade listkontroller i sina egna listor. Om du lägger till anpassade listkontroller i en layoutmall läggs listkontrollerna till och flyttas längst ned på panelen. Dina ersätter inte de egna kontrollerna.</p> <p>Detta gäller även om du tilldelar användaren en ny layoutmall med anpassade listkontroller. </p> <p>Mer information om hur du anpassar listkontroller finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Översikt över filter</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Översikt över vyer i Adobe Workfront</a>och <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Översikt över grupperingar i Adobe Workfront</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 

@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Dela ett filter, en vy eller en gruppering
+title: Dela ett filter, en vy eller en grupp
 description: Du kan dela filter, vyer och grupperingar som du har tillgång till för att visa med andra användare.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
 
-# Dela ett filter, en vy eller en gruppering
+# Dela ett filter, en vy eller en grupp
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -32,7 +32,7 @@ När ett filter, en vy eller en gruppering delas med dig, kan du använda filtre
 
 Mer information om hur du skapar ett filter, en vy eller en gruppering finns i följande artiklar:
 
-* [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -58,14 +58,14 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Visa eller högre behörigheter med åtkomst till delning till en vy, ett filter eller en gruppering</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter med åtkomst till delning till en vy, filter eller gruppering</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Dela ett filter, en vy eller en gruppering
+## Dela ett filter, en vy eller en grupp
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
@@ -94,7 +94,7 @@ Dela ett filter med standardgränssnittet i Builder:
    <tbody>
    <tr>
    <td role="rowheader"><strong>Favoriter</strong></td>
-   <td>Filter som du har markerat som favoriter. När du väljer ett filter visas dess ursprungliga plats under filternamnet och den döljs i den ursprungliga listan om du inte tar bort den som favorit.</td>
+   <td>Filter som du markerade som favoriter. När du väljer ett filter visas dess ursprungliga plats under filternamnet och den döljs i den ursprungliga listan om du inte tar bort den som favorit.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Sparad</strong></td>
@@ -139,6 +139,7 @@ Dela ett filter med standardgränssnittet i Builder:
       >[!NOTE]
       >
       >Om du aktiverar Hantera-åtkomst med alternativet Ta bort kan dessa användare ta bort filtret från alla användare, även om de inte äger filtret.
+
    >[!TIP]
    >
    >Användare kan inte få en högre behörighet än deras åtkomstnivå. Om de inte har åtkomst till redigeringsfilter på åtkomstnivån kan de inte få behörighet att hantera ett filter. Workfront inaktiverar alternativet Hantera för dessa användare och alternativet är nedtonat.

@@ -6,9 +6,9 @@ description: Du kan exportera Adobe Workfront-data från olika listor, rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Det finns flera begränsningar för hur rapporter visas i Workfront och hur de e
 
   Om din rapport innehåller fler än 50 000/65 000/100 000 rader och du vill exportera alla data, rekommenderar vi att du använder filter eller uppmaningar för att få mindre datamängder och utföra flera exporter.
 
-  Mer information om hur du använder filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Mer information om hur du använder filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   Mer information om hur du använder uppmaningar finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

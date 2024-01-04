@@ -7,9 +7,9 @@ description: Du kan skapa en kopia av alla rapporter som du har tillgång till. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter till en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Om du vill skapa en kopia av en rapport som du är ägare av gör du följande:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Rapporter** sedan **Alla rapporter**.
 1. Öppna en rapport.
@@ -92,7 +92,7 @@ Om du vill skapa en kopia av en rapport som du är ägare av gör du följande:
 
 Om du vill skapa en kopia av en standardrapport gör du följande:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Rapporter** sedan **Alla rapporter**.
 1. Klicka på namnet på en standardrapport för att öppna den.
@@ -104,7 +104,7 @@ Om du vill skapa en kopia av en standardrapport gör du följande:
 
    * **Kolumner (vy)**: Mer information om hur du anpassar vyer finns i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
    * **Grupperingar**: Mer information om hur du anpassar grupperingar finns i artikeln [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **Filter**: Mer information om hur du anpassar filter finns i artikeln [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **Filter**: Mer information om att anpassa filter finns i artikeln [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
    * **Diagram**: Mer information om hur du anpassar ett rapportdiagram finns i artikeln [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. Klicka på i det övre högra hörnet **Rapportinställningar**.

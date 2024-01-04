@@ -6,9 +6,9 @@ description: Om flera valutakurser har konfigurerats i Adobe Workfront kan du an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -63,14 +63,15 @@ Innan du kan visa alternativa valutor enligt beskrivningen i det här avsnittet 
 Så här konverterar du ekonomiska värden mellan valutor när du arbetar med rapporter:
 
 1. Gå till rapporten där du vill konvertera ekonomiska värden till en annan valuta.
-1. Klicka på **Visa** nedrullningsbar lista, klicka **Ändra valuta** väljer du sedan någon av följande valutor som du vill visa ekonomiska värden i:
+1. Klicka på **Visa** listruta, klicka **Ändra valuta** väljer du sedan någon av följande valutor som du vill visa ekonomiska värden i:
 
    * Projektets ursprungliga valuta
    * Valfri annan valuta
 
-      >[!TIP]
-      >
-      >Du kan bara välja valutor som tidigare har valts i Inställningar.
+     >[!TIP]
+     >
+     >Du kan bara välja valutor som tidigare har valts i Inställningar.
+
    Med det här alternativet kan du snabbt konvertera ekonomiska värden i en rapport mellan olika tariffvärden.
 
    ![Ändra valuta](assets/qs-change-currency-2022-350x257.png)
@@ -119,7 +120,7 @@ Så här visar du två projekt med anpassade valutor i en rapport:
 
 1. I **Filter** flik, lägga till ett filter för **Projektnamn** och välja de två projekten med olika valutor.
 
-   Mer information om hur du skapar ett filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Mer information om hur du skapar ett filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klicka **Spara + Stäng**.
 

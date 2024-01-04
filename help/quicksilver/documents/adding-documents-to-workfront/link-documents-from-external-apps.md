@@ -2,18 +2,20 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Länka dokument från externa program
-description: Du kan länka dokument och mappar till Adobe Workfront.
+description: Du kan länka dokument och mappar till Adobe Workfront från externa källor.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2588'
 ht-degree: 0%
 
 ---
 
 # Länka dokument från externa program
+
+<!-- Audited: 01/2024 -->
 
 Du kan länka dokument och mappar till Adobe Workfront från följande källor:
 
@@ -36,7 +38,7 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Du kan göra korrektur som ursprungligen skapats i Workfront Proof tillgängliga i Workfront. Du måste ha en Pro Workfront-plan eller senare för att kunna använda den här funktionen. Mer information om olika planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</td> 
+   <td>Du kan göra korrektur som ursprungligen skapats i Workfront Proof tillgängliga i Workfront. För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -48,7 +50,7 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
   </tr> 
   <tr> 
    <td role="rowheader">Andra dokumentleverantörer (via anpassade dokumentintegreringar)</td> 
-   <td> <p class="workfront_plans">Du måste ha en Pro Workfront-plan eller senare för att kunna använda den här funktionen. Mer information om olika planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</p> </td> 
+   <td> <p class="workfront_plans">För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -94,12 +96,6 @@ Följande undantag gäller:
 ## Länka ett dokument från ett externt program till Workfront
 
 Du kan länka befintliga dokument till en extern molnleverantör. Detta inkluderar alla delade dokument.
-
-* [Förutsättningar](#prerequisites)
-* [Länka ett externt dokument till Workfront](#link-an-external-document-to-workfront)
-* [Lägga till en ny version av ett länkat dokument](#add-a-new-version-of-a-linked-document)
-* [Länka Workfront korrekturdokument](#link-workfront-proof-documents)
-* [Skapa ett Google-dokument i Workfront](#create-a-google-document-from-within-workfront)
 
 ### Förutsättningar {#prerequisites}
 
@@ -190,7 +186,7 @@ Du kan lägga till en ny version av ett dokument som är länkat till Workfront 
    >
    >För dokument som är länkade till Box visas inte länken till dokumentet i Box förrän du uppdaterar sidan.
 
-Information om hur du lägger till en ny version av ett dokument som du har överfört till Workfront från filsystemet finns i [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Information om hur du lägger till en ny version av ett dokument som du har överfört till Workfront från filsystemet finns i [Lägga till dokument i Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Länka Workfront korrekturdokument {#link-workfront-proof-documents}
 
@@ -205,7 +201,7 @@ Du kan bara länka de korrektur för vilka du har åtkomst till Visa i Workfront
    >
    >Alternativen på den här menyn kan variera beroende på vilka tredjepartsleverantörer som är konfigurerade i din miljö.
 
-1. I **Länk** korrektur **från** Workfront korrekturruta som visas börjar med att skriva namnet på det korrektur som du vill göra tillgängligt i Workfront.
+1. I **Länka korrektur från Workfront Proof** börjar du skriva namnet på det korrektur som du vill göra tillgängligt i Workfront.
 
    Listan filtreras när du skriver.
 
@@ -223,9 +219,7 @@ Du kan skapa ett nytt Google-dokument i Workfront. Du kan inte skapa nya dokumen
 
 1. Gå till **Dokument** i Workfront där du vill ha dokumentet.
 1. Klicka **Lägg till ny** > **Google-fil** väljer du sedan den typ av Google-dokument som du vill skapa.
-
-1. Välj den typ av Google Doc som du vill skapa.
-1. Om **Lägg till Google Drive-konto** visas klickar du på **Auktorisera Googe Drive**.
+1. Om **Lägg till Google Drive-konto** visas klickar du på **Auktorisera Google Drive**.
 
    Ett Google-dokument läggs till i **Dokument** -fliken.
 
@@ -233,7 +227,7 @@ Du kan skapa ett nytt Google-dokument i Workfront. Du kan inte skapa nya dokumen
    >
    > Min enhet och Delad med mig visar två olika resultat. Om du inte kan hitta en fil på Min enhet checkar du in mappen Delad med mig.
 
-## Uppdatera och länka ett dokument från Workfront till en extern molnleverantör
+## Överföra och länka ett dokument från Workfront till en extern molnleverantör
 
 Du kan överföra och länka ett dokument från Workfront till en extern molnleverantör. Detta flyttar lagringen av dokumentet från Workfront till den externa molnleverantören. När dokumentet ändras i det externa programmet uppdateras det automatiskt i Workfront.
 
@@ -256,11 +250,7 @@ Användare utan Workfront-åtkomst kan se dokumentet i det externa programmet om
 
 ## Länka mappar
 
-När du länkar en mapp mellan Workfront och en extern molnleverantör länkas mappen och allt dess innehåll. Om användare utan Workfront-åtkomst lägger till, tar bort och ändrar filer från det externa dokumentprogrammet synkroniseras deras ändringar med Workfront. I följande avsnitt beskrivs hur du länkar mappar och undermappar:
-
-* [Mappåtkomsträttigheter](#folder-access-rights)
-* [Länka en eller flera externa mappar](#link-one-or-more-external-folders)
-* [Lägga till undermappar i en länkad mapp](#add-subfolders-to-a-linked-folder)
+När du länkar en mapp mellan Workfront och en extern molnleverantör länkas mappen och allt dess innehåll. Om användare utan Workfront-åtkomst lägger till, tar bort och ändrar filer från det externa dokumentprogrammet synkroniseras deras ändringar med Workfront.
 
 ### Mappåtkomsträttigheter {#folder-access-rights}
 
@@ -330,8 +320,6 @@ När du lägger till ett dokument i en länkad mapp via Workfront, läggs det au
 
 1. Markera den länkade mapp där du vill ha dokumentet och klicka på **Lägg till nytt > Dokument**, bläddra sedan till dokumentet och lägg till det i mappen.
 
-
-
    eller
 
    I **Dokument** där du vill ha dokumentet drar du det till en länkad mapp.
@@ -340,10 +328,11 @@ När du lägger till ett dokument i en länkad mapp via Workfront, läggs det au
 
 >[!NOTE]
 >
-> * Dokumentalternativen är inte tillgängliga när dokumentet håller på att flyttas. När dokumentet har flyttats till Experience Manager Assets visas det inte längre i dokumentlistan i Workfront.
+> * Dokumentalternativen är inte tillgängliga när dokumentet håller på att flyttas.
 >
-> * De åtgärder eller redigeringar du gör i dokumentet när det flyttas visas inte i dokumentet i Experience Manager Assets och kommer därför att gå förlorade.
-
+> * När ett dokument har flyttats till Experience Manager Assets visas det inte längre i dokumentlistan i Workfront.
+>
+> * De åtgärder eller redigeringar du gör i ett dokument när det flyttas visas inte i dokumentet i Experience Manager Assets och kommer därför att gå förlorade.
 
 ## Ta bort ett länkat dokument eller en länkad mapp
 
@@ -362,4 +351,4 @@ Om du vill att namnet ska matcha i Workfront och det externa programmet måste d
 
 >[!IMPORTANT]
 >
->Byt inte namn på ett dokument i Workfront som är länkat till Dropbox. Om du gör det blir filen i Workfront otillgänglig. Byt i stället namn på filen i Dropbox och synkronisera sedan filen igen enligt beskrivningen i [Länka dokument från externa program](#synchronizing-changes-made-on-a-linked-document).
+>Byt inte namn på ett dokument i Workfront som är länkat till Dropbox. Om du gör det blir filen i Workfront otillgänglig. Byt i stället namn på filen i Dropbox och synkronisera sedan filen igen.

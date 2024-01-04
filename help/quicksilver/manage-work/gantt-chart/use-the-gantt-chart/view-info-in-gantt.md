@@ -5,9 +5,9 @@ description: Aktivitetslistan Gantt Chart och Project list Gantt Chart innehåll
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Leta reda på  [!UICONTROL Gantt Chart]
 
@@ -55,7 +55,7 @@ Du kan hitta både Gantt-schemat för uppgiftslistan och projektlistan [!UICONTR
 
 I projektlistan [!UICONTROL Gantt Chart], uppgifter som inte finns på [!UICONTROL Critical Path] visas som ljusblå vågräta linjer. Uppgifter som finns på [!UICONTROL Critical Path] för ett projekt visas som röda vågräta linjer.
 
-Mer information om uppgifter finns i [!UICONTROL Critical Path], se [Översikt över projektet [!UICONTROL Critical Path]](../../../manage-work/tasks/manage-tasks/critical-path.md).
+Mer information om uppgifter finns i [!UICONTROL Critical Path], se [Översikt [!UICONTROL Critical Path]](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
 ## Visa aktivitetsinformation i projektlistan [!UICONTROL Gantt Chart]
 
@@ -85,13 +85,13 @@ Så här visar du uppgifter i ett projekt från en lista med projekt:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
    -->
 
-1. Klicka på **[!UICONTROL Show Task List]** ikon.
+1. Klicka på **[!UICONTROL Show Task List]** -ikon.
 
 1. Klicka på listrutepilen bredvid namnet på projektet i projektlistan till vänster om du vill visa uppgifter under det projektet.\
    Här visas aktivitetsinformation på  [!UICONTROL Gantt Chart].\
    ![Show_task_list_enabled_project_expanded.png](assets/show-task-list-enabled-project-expanded-350x78.png)
 
-1. (Valfritt) Klicka på **[!UICONTROL Print]** ikonen i det övre högra hörnet om du vill exportera [!UICONTROL Gantt Chart].
+1. (Valfritt) Klicka på **[!UICONTROL Print]** -ikonen i det övre högra hörnet om du vill exportera [!UICONTROL Gantt Chart].
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ Du kan justera tidsperioden som visas på [!UICONTROL Gantt Chart] om du vill vi
 1. Välj en tidsram bland följande tillgängliga alternativ:
 
    * **[!UICONTROL Fit All]**: Det här alternativet visar tidslinjen för hela projektet.
-   * **[!UICONTROL All Projects]**: Det här alternativet är bara tillgängligt i Gantt-schemat för projektlistor.
+   * **[!UICONTROL All Projects]**: Det här alternativet är bara tillgängligt i Gantt-schemat för projektlistan.
    * **[!UICONTROL Year]**
    * **[!UICONTROL Quarter]**
    * **[!UICONTROL Month]**
@@ -140,7 +140,7 @@ Du kan justera tidsperioden som visas på [!UICONTROL Gantt Chart] om du vill vi
 
 ## Använda filter, vyer och grupperingar
 
-The [!UICONTROL Gantt Chart] är en visuell representation av den information som visas i uppgiftslistan. Du kan använda filter, vyer och grupperingar på objekten som listas i båda [!UICONTROL Gantt Chart]s.
+The [!UICONTROL Gantt Chart] är en visuell representation av den information som visas i uppgiftslistan. Du kan använda filter, vyer och grupperingar på de objekt som listas i båda [!UICONTROL Gantt Chart]s.
 
 >[!CAUTION]
 >
@@ -150,7 +150,7 @@ Filter och grupperingar som du tillämpar på listan visas både i projektlistan
 
 * Filter\
    Du kan använda ett filter på listan för att styra den information som visas i [!UICONTROL Gantt Chart].\
-   Mer information om hur du använder ett filter finns i  [Översikt över filter i [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Mer information om hur du använder ett filter finns i  [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Grupperingar\
    Grupperingar som du använder i listan visas på [!UICONTROL Gantt Chart].\

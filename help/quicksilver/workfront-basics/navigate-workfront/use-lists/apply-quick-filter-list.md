@@ -5,9 +5,9 @@ description: Du kan använda snabbfiltret i en lista med objekt för att bara hi
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Du kan använda snabbfiltret i en lista med objekt för att bara hitta objekt so
 >Du kan söka efter objekt som innehåller ett sökord med hjälp av snabbfilter, oavsett om objektet har visats fysiskt på skärmen eller visas när du har rullat längst ned på sidan. När du använder webbläsarens sökfunktioner kan du bara hitta objekt som visas fysiskt på skärmen. Om listan innehåller flera sidor hittar snabbfiltren inte objekt som finns på sidor som inte visas.
 
 Om du vill spara ett snabbfilter rekommenderar vi att du i stället skapar ett permanent filter för listan.\
-Mer information om hur du skapar filter i [!DNL Adobe Workfront], se artikeln [Översikt över filter i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Mer information om hur du skapar filter i [!DNL Adobe Workfront], se artikeln [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-Snabbfiltret är för närvarande tillgängligt i följande områden
+Snabbfiltret är tillgängligt i följande områden
 
 
 Du kan använda tillfälliga snabbfilter i alla listor, förutom följande:
@@ -35,9 +35,9 @@ Du kan använda tillfälliga snabbfilter i alla listor, förutom följande:
 * The [!UICONTROL Reports] area
 * Dokumentlistor och rapporter
 * Flera [!UICONTROL Setup] områden
-   >[!NOTE]
-   >
-   >Snabbfilter finns i följande inställningsområden: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates]och [!UICONTROL Custom Forms].
+  >[!NOTE]
+  >
+  >Snabbfilter finns i följande inställningsområden: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates]och [!UICONTROL Custom Forms].
 
 
 Tänk på följande när du använder snabbfilter på en lista:
@@ -77,7 +77,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Använda ett snabbfilter på en lista
 
@@ -88,11 +88,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Beroende på operativsystem eller webbläsare och när du använder ett vanligt QWERTY-tangentbord trycker du på följande uppsättning kommandon för att starta snabbfiltret:
 
    * ALT+F för [!DNL Windows] datorer
-   * ALT/Option+F för [!DNL Mac] datorer
+   * ALT/ Alt+F för [!DNL Mac] datorer
 
-      >[!TIP]
-      >
-      >Om du trycker på CTRL+F eller CMD+F visas ett verktygstips bredvid snabbfiltret för att påminna dig om dessa kommandon. Kommandona visas också i sökrutan för snabbfilter.
+     >[!TIP]
+     >
+     >Om du trycker på CTRL+F eller CMD+F visas ett verktygstips bredvid snabbfiltret för att påminna dig om dessa kommandon. Kommandona visas också i sökrutan för snabbfilter.
 
 1. I **[!UICONTROL Filter page]** anger du nyckelordet som du vill filtrera efter.
 
@@ -106,7 +106,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Valfritt) Om du vill redigera objekt som hittas av snabbfiltret satsvis:
 
-   1. Markera alla eller flera av objekten i listan och klicka sedan på **[!UICONTROL Edit]** om du vill redigera objekten gruppvis.
+   1. Markera alla eller flera objekt i listan och klicka sedan på **[!UICONTROL Edit]** om du vill redigera objekten gruppvis.
    1. När du är klar klickar du på **[!UICONTROL Save Changes]**.
 
 1. (Valfritt) Om du vill exportera de objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på **[!UICONTROL Export]**.

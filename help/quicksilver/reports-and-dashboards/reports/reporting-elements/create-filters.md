@@ -6,9 +6,9 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan använda följande typer av filter i Adobe Workfront:
 
 * Filter inom andra områden av Workfront, utanför listor och rapporter.
 
-  En lista över alla filter i Workfront och de områden där du kan använda dem finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  En lista över alla filter i Workfront och de områden där du kan använda dem finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Åtkomstkrav
 
@@ -241,7 +241,7 @@ Skapa ett filter med standardgränssnittet i Builder:
 
    ![Inkludera om alla eller några listrutor eller sanna](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Mer information om filteroperatorer finns i [Översikt över filter i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Mer information om filteroperatorer finns i [Översikt över filter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klicka på den nedrullningsbara menyn för att visa en lista över nyligen använda fält och föreslagna fält att filtrera efter. De föreslagna fälten visas för närvarande i listan som du filtrerar.
 

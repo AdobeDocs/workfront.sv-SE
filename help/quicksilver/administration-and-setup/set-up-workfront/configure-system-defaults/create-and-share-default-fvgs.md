@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 75c4abfa9aebf1d07a851486391291cddc94f1a9
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,11 +54,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gör något av följande, beroende på om du skapar eller redigerar ett filter, en vy eller en gruppering:
 
-   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Filters]**.
+   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Filters]**.
 
-   * Klicka på **[!UICONTROL Interface]>** **[!UICONTROL Views]**.
+   * Klicka **[!UICONTROL Interface]>** **[!UICONTROL Views]**.
 
-   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
+   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
 
 1. Om du skapar ett filter, en vy eller en gruppering klickar du på **[!UICONTROL Add Filter]**, **[!UICONTROL Add View]**, eller **[!UICONTROL Add Grouping]** markerar du sedan den objekttyp som du vill associera det nya filtret, den nya vyn eller grupperingen med.
 
@@ -70,7 +70,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Mer information om tillgängliga alternativ finns i följande artiklar:
 
-   * [Översikt över filter i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [Översikt över vyer i [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Översikt över grupperingar i [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -97,14 +97,14 @@ Så här visar eller döljer du filter, vyer eller grupperingar som är tillgän
 
    >[!TIP]
    >
-   >Om du vill att filter, vy och gruppering ska vara tillgängliga för de flesta användare, men dölja dem för andra, kan du använda layoutmallen. Mer information finns i [Anpassa filter, vyer och grupperingar med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Om du vill att filtret, vyn eller grupperingen ska vara tillgänglig för de flesta användare, men dölja den för andra, kan du använda layoutmallen. Mer information finns i [Anpassa filter, vyer och grupperingar med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Villkorligt) Markera det filter, den vy eller gruppering som du vill dölja för användarna och klicka sedan på **[!UICONTROL Disable system-wide]**. När det är inaktiverat döljs filtret, vyn eller grupperingen från layoutmallen samt användare i hela systemet.
 
 
 ## Göra filter, vyer och grupperingar tillgängliga för alla användare {#make-filters-views-or-groupings-available-to-users}
 
-I de här stegen beskrivs hur du gör filter, vyer och grupperingar tillgängliga i [!UICONTROL Share] i [!UICONTROL Interface] område i [!UICONTROL Setup]. Den här inställningen fungerar som en på/av-switch för hela systemet, inklusive layoutmallen.
+I de här stegen beskrivs hur du gör filter, vyer och grupperingar tillgängliga i [!UICONTROL Share] i dialogrutan [!UICONTROL Interface] område i [!UICONTROL Setup]. Den här inställningen fungerar som en på/av-switch för hela systemet, inklusive layoutmallen.
 
 {{step-1-to-setup}}
 
@@ -129,15 +129,15 @@ I de här stegen beskrivs hur du gör filter, vyer och grupperingar tillgänglig
 
 1. Gör något av följande, beroende på om du tar bort ett filter, en vy eller en gruppering:
 
-   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Filters]**
+   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Filters]**
 
-   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Views]**
+   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Views]**
 
-   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**
+   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**
 
 1. Markera ett eller flera objekt i listan och klicka sedan på **[!UICONTROL Delete]** icon ![Ikonen Ta bort](assets/delete.png).
 1. I någon av följande artiklar finns detaljerad information om hur du konfigurerar ett filter, en vy eller en gruppering.
 
-   * [Översikt över filter i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [Översikt över vyer i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Översikt över grupperingar i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

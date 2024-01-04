@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -261,7 +261,7 @@ Syntaxen för att skapa filter liknar den för att skapa egna uppmaningar.
 
 Mer information om hur du skapar filter och anpassade uppmaningar finns i:
 
-* [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 Mer information om hur du skapar filter i textläge finns i [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).

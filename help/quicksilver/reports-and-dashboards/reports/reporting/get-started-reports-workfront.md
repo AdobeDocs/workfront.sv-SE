@@ -7,9 +7,9 @@ description: Rapporterna ger insyn i vad som händer med användare och arbete. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Rapporterna är en kombination av följande tre element i Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <li>Styr mängden information som visas i en rapport.</li> <li>Mer information om filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Översikt över filter i Adobe Workfront</a>.</li> <li>Mer information om filtermodifierare finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- och villkorsmodifierare</a>.</li> <li>Du kan filtrera med jokertecken för att göra filtren mer allmänna och ge dem mer flexibilitet.</li> <li>Mer information om att använda jokertecken i filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabler för jokertecken</a>.</li> </td> 
+   <td> <li>Styr mängden information som visas i en rapport.</li> <li>Mer information om filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Översikt över filter</a>.</li> <li>Mer information om filtermodifierare finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- och villkorsmodifierare</a>.</li> <li>Du kan filtrera med jokertecken för att göra filtren mer allmänna och ge dem mer flexibilitet.</li> <li>Mer information om att använda jokertecken i filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabler för jokertecken</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

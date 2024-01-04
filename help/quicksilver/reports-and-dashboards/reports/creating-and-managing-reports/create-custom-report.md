@@ -6,9 +6,9 @@ description: Du kan ge åtkomst till den information din organisation behöver i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Om du klickade **Lägg till en filterregel** börjar du skriva det fält som du vill lägga till som ett filter. Om fältet är tillgängligt fylls det i för varje objekt där det kan kopplas. Klicka på namnet på fältet för att lägga till det i det filtret.\
    Använd filtermodifierare för att skapa filtret. Mer information om filtermodifierare finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   Mer information om hur du skapar nya filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Mer information om hur du skapar nya filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Valfritt) Du kan välja att skapa ett filter i textläge genom att klicka på **Växla till textläge**.
 

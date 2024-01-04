@@ -6,9 +6,9 @@ description: 'OBS! Lägg till ett avsnitt i den här artikeln: /Content/Reports 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Att redigera ett filter i textläge är identiskt för rapporter och listor. Åt
 >
 >Vi rekommenderar att du skapar så mycket som möjligt av filtret i standardläge och sedan konverterar filtret till textläge för att redigera det.
 
-Mer information om hur du skapar filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

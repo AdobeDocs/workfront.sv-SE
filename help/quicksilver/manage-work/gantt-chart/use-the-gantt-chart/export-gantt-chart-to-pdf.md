@@ -5,9 +5,9 @@ description: Du kan exportera Gantt-diagrammet till PDF.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Exportera [!UICONTROL Gantt chart]
 
@@ -60,23 +60,23 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
    * Filter, vyer och grupperingar efter behov i listan över uppgifter. Alla filter och grupperingar som är markerade i listvyn bevaras när du visar [!UICONTROL Gantt chart]. Vyer visas på den exporterade [!UICONTROL Gantt chart] endast i listan som visas bredvid [!UICONTROL Gantt chart] på första sidan. Vyer visas inte på [!UICONTROL Gantt chart] själv.
 
-      >[!TIP]
-      >
-      >Om du vill ha mer utrymme för [!UICONTROL Gantt chart] använder du en vy som innehåller så få kolumner som möjligt.
+     >[!TIP]
+     >
+     >Om du vill ha mer utrymme för [!UICONTROL Gantt chart] använder du en vy som innehåller så få kolumner som möjligt.
 
-   * Konfigurationsalternativ på [!UICONTROL Gantt chart]. Du kan till exempel aktivera milstolpar, datum, [!UICONTROL baselines], eller [!UICONTROL percent complete] visas på [!UICONTROL Gantt chart].
+   * Konfigurationsalternativ på [!UICONTROL Gantt chart]. Du kan t.ex. aktivera milstolpar, datum, [!UICONTROL baselines], eller [!UICONTROL percent complete] visas på [!UICONTROL Gantt chart].
 
-      Mer information finns i   [Konfigurera hur information visas på [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+     Mer information finns i   [Konfigurera hur information visas på [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
-      >[!NOTE]
-      >
-      > Uppdrag visas inte på [!UICONTROL Gantt chart] när [!UICONTROL Gantt chart] exporteras till PDF. När [!UICONTROL Gantt chart] när du exporterar till PDF visas uppdrag endast i listvyn.
+     >[!NOTE]
+     >
+     > Uppdrag visas inte på [!UICONTROL Gantt chart] när [!UICONTROL Gantt chart] exporteras till PDF. När [!UICONTROL Gantt chart] när du exporterar till PDF visas uppdrag endast i listvyn.
 
    * Tidsperioden som visas på [!UICONTROL Gantt chart].\
 
-      Mer information finns i [Visa information i [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     Mer information finns i [Visa information i dialogrutan [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-      Hur tidsperioden visas i exportfilen beror på om du väljer **[!UICONTROL What I see]** eller **[!UICONTROL Multiple pages]** i ett senare steg.
+     Hur tidsperioden visas i exportfilen beror på om du väljer **[!UICONTROL What I see]** eller **[!UICONTROL Multiple pages]** i ett senare steg.
 
 1. (Valfritt) Om du bara vill ta med vissa uppgifter i det exporterade PDF markerar du de uppgifter som du vill ta med.
 
@@ -90,28 +90,27 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
 1. Välj om du bara vill exportera det du ser eller hela [!UICONTROL Gantt chart]:
 
-   * **[!UICONTROL What I see]:** Exporterar alla uppgifter (inklusive underaktiviteter) som visas på skärmen innan upp till 500 objekt exporteras. (Detta är inte vad som visas i **[!UICONTROL Preview]** sektion; den [!UICONTROL Preview] -avsnittet innehåller bara exempeldata.)
+   * **[!UICONTROL What I see]:** Exporterar alla uppgifter (inklusive underaktiviteter) som visas på skärmen innan upp till 500 objekt exporteras. (Detta är inte vad som visas i **[!UICONTROL Preview]** sektion; [!UICONTROL Preview] -avsnittet innehåller bara exempeldata.)
 
-      Underaktiviteter tas med i det exporterade PDF även om den överordnade aktiviteten är komprimerad och underaktiviteterna inte visas. Om du bara vill ta med överordnade uppgifter markerar du de överordnade uppgifter som du vill ta med och låter alla underaktiviteter vara omarkerade.
+     Underaktiviteter tas med i det exporterade PDF även om den överordnade aktiviteten är komprimerad och underaktiviteterna inte visas. Om du bara vill ta med överordnade uppgifter markerar du de överordnade uppgifter som du vill ta med och låter alla underaktiviteter vara omarkerade.
 
-      Du kan använda **[!UICONTROL Zoom To]** rullgardinsmeny eller skjutreglaget om du bara vill visa en del av [!UICONTROL Gantt chart], enligt beskrivningen i [Visa information i [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) .
+     Du kan använda **[!UICONTROL Zoom To]** rullgardinsmeny eller skjutreglaget om du bara vill visa en del av [!UICONTROL Gantt chart], enligt beskrivningen i [Visa information i dialogrutan [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) .
 
    * **[!UICONTROL Multiple pages]:** Exporterar hela [!UICONTROL Gantt chart], även det som inte visas på den aktuella skärmen, upp till 500 objekt.\
 
-      Du kan använda **[!UICONTROL Zoom To]** nedrullningsbar meny eller skjutreglaget för att bestämma hur mycket information som visas på varje sida, enligt beskrivningen i [Konfigurera hur information visas på [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). Välj ett mer detaljerat alternativ om du vill visa fler sidor att exportera, eller välj ett mindre detaljerat alternativ om du vill visa färre sidor att exportera.
+     Du kan använda **[!UICONTROL Zoom To]** nedrullningsbar meny eller skjutreglaget för att bestämma hur mycket information som visas på varje sida, enligt beskrivningen i [Konfigurera hur information visas på [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). Välj ett mer detaljerat alternativ om du vill visa fler sidor att exportera, eller välj ett mindre detaljerat alternativ om du vill visa färre sidor att exportera.
 
-      >[!NOTE]
-      >
-      >Om du behöver exportera en [!UICONTROL Gantt chart] som innehåller fler än 500 objekt, tillämpar du ett filter på listan innan du visar [!UICONTROL Gantt chart] så att färre än 500 objekt eller 250 sidor visas. Mer information om hur du använder ett filter finns i  [Översikt över filter i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-      >
-      >
-      >Du kan inte exportera hela Gantt-schemat under följande omständigheter:
-      >
-      >   
-      >   
-      >   * När den sträcker sig över mer än 250 sidor
-      >   * När den innehåller mer än 500 objekt
-
+     >[!NOTE]
+     >
+     >Om du behöver exportera en [!UICONTROL Gantt chart] som innehåller fler än 500 objekt, tillämpar du ett filter på listan innan du visar [!UICONTROL Gantt chart] så att färre än 500 objekt eller 250 sidor visas. Mer information om hur du använder ett filter finns i  [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     >
+     >
+     >Du kan inte exportera hela Gantt-schemat under följande omständigheter:
+     >
+     >   
+     >   
+     >   * När den sträcker sig över mer än 250 sidor
+     >   * När den innehåller mer än 500 objekt
 
 
 

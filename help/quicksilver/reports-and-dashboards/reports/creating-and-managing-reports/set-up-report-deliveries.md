@@ -6,9 +6,9 @@ description: Översikt över rapportleverans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -32,46 +32,47 @@ Mer information om hur du levererar rapporter i sandlådemiljön för förhandsg
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
 -->
 
-Tänk på följande när du schemalägger rapporter för leverans:
+Tänk på följande när du planerar leveransrapporter:
 
 * Du kan schemalägga upp till 10 upprepade rapportleveranser för en viss rapport.
 * Du kan schemalägga att en rapport ska levereras endast om du har skapat rapporten. Om du behöver skicka en rapport som du inte har skapat kan du skicka den manuellt.
 
 ## Exportbegränsningar
 
-Det finns flera storleksbegränsningar som påverkar hur rapporter visas i Workfront och hur de exporteras via manuell export, en levererad rapport eller via API:
+Det finns flera storleksbegränsningar som påverkar hur rapporter visas i Workfront och hur de exporteras via manuell export, en levererad rapport eller via API:t:
 
 * **5 MB filstorlek:** Filstorleksgräns för exporterade rapporter som är schemalagda för leverans. Om en exporterad fil som bifogas till ett e-postmeddelande är större än 5 MB, skickas en länk dit filen kan hämtas via e-post i stället för den bifogade exporterade rapporten. 
 
-   >[!NOTE]
-   >
-   >Excel .xlsx-filer som är större än 5 MB genererar inte något e-postmeddelande. Du kan exportera rapporten manuellt till det här formatet. Mer information om att exportera rapporter finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >[!NOTE]
+  >
+  >Excel .xlsx-filer som är större än 5 MB genererar inte något e-postmeddelande. Du kan exportera rapporten manuellt till det här formatet. Mer information om att exportera rapporter finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50 000 rader:** Antalet rader med data som tillåts i en rapportexport för PDF- och tabbavgränsade filer.
 
-   För Excel .xls-filer är den här gränsen **65 000 rader**.
+  För Excel .xls-filer är den här gränsen **65 000 rader**.
 
-   För Excel .xlsx-filer är den här gränsen **100 000 rader**.
+  För Excel .xlsx-filer är den här gränsen **100 000 rader**.
 
-   Dessa begränsningar utesluter kolumnrubriker samt rader för grupperingar i rapporten. Om du till exempel har 6 grupperingar i en rapport och 50 000 rader eller data, kommer den exporterade filen att ha 50 000 rader.
+  Dessa begränsningar utesluter kolumnrubriker samt rader för grupperingar i rapporten. Om du t.ex. har 6 grupperingar i en rapport och 50 000 rader data, kommer den exporterade filen att ha 50 000 rader.
 
-   Om rapporten innehåller fler objekt än dessa gränser visas ett felmeddelande om att exporten och leveransen av rapporten inte lyckas. Minska antalet objekt som visas på skärmen till ett tal som är mindre än eller lika med dessa gränser för att kunna leverera resultatet. Om du vill exportera alla data rekommenderar vi att du använder filter för att få mindre mängder data och sedan utföra flera exporter. Mer information finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Om rapporten innehåller fler objekt än dessa gränser visas ett felmeddelande om att exporten och leveransen av rapporten inte lyckas. Minska antalet objekt som visas på skärmen till ett tal som är mindre än eller lika med dessa gränser för att kunna leverera resultatet. Om du vill exportera alla data rekommenderar vi att du använder filter för att få mindre mängder data och sedan utföra flera exporter. Mer information finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-   Dessa begränsningar gäller
+  Dessa begränsningar gäller för
 
    * Manuell export av en rapport.
    * En schemalagd rapport.
-   * En export via en API-integrering. 
+   * En export via en API-integrering.
    * Data som exporteras med en snabbstart.
 
-      Mer information om hur du exporterar data via direktuppspelning finns i artikeln [Exportera data från Adobe Workfront via Quick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Mer information om hur du exporterar data via direktuppspelning finns i artikeln [Exportera data från Adobe Workfront via Quick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-      >[!NOTE]
-      Du kan exportera 50 000 rader i en snabbstartfil, men bara till en Excel-formatfil. 
+     >[!NOTE]
+     >
+     Du kan exportera 50 000 rader i en snabbstartfil, men bara till en Excel-formatfil. 
 
    * Exporterar användningsinformation för ett projekt.
 
-      Mer information om hur du exporterar användningsinformation för ett projekt finns i [Översikt över resursanvändningsrapporten](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     Mer information om hur du exporterar användningsinformation för ett projekt finns i [Översikt över resursanvändningsrapporten](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **65 530 hyperlänkar:** Det här är en gräns som gäller för dokument som innehåller fler än 65 530 hyperlänkar. Dessa dokument kan inte öppnas när de exporteras manuellt eller skickas i en levererad rapport. Observera att ett Excel-dokument kanske bara innehåller 200 rader med data, men att dokumentet inte öppnas om det finns fler än 65 530 länkar i dokumentet. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds. 
 * **256 kolumner**: Det här är en gräns som gäller för dokument som innehåller fler än 256 kolumner. Dessa dokument kan inte exporteras manuellt eller skickas i en levererad rapport. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds. 
@@ -93,8 +94,8 @@ När du tar emot en rapport i ett e-postmeddelande kanske rapportens tidsstämpe
 Tänk på följande: 
 
 * När du visar en rapport i webbläsaren matchar rapportens tidsstämpel och format språkområdet och tidszonen i webbläsaren, enligt inställningarna i webbläsaren.
-* När rapporten levereras i ett e-postmeddelande, levereras den med den tidsstämpel och det format som matchar användarens språkområde och tidszon enligt inställningarna i din Workfront-profil.\
-   Mer information om användarspråk och tidszon i Workfront finns i artikeln [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* När rapporten levereras i ett e-postmeddelande, levereras den med den tidsstämpel och det format som matchar användarens språkområde och tidszon så som de anges i din Workfront-profil.\
+  Mer information om användarspråk och tidszon i Workfront finns i artikeln [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Rapporter med en särskild vy {#reports-with-a-special-view}
 
@@ -109,6 +110,7 @@ Nedan följer några särskilda synpunkter:
 * Rapporterar med ett diagram som standardflik
 
 >[!NOTE]
+>
 Om det också finns en matrisflik i rapporten, förutom standardfliken med en specialvy, levereras rapporten som den visas på fliken Matris.
 
 Mer information om hur du använder en specialvy för en rapport finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -136,11 +138,12 @@ Om du har schemalagt att den levererade rapporten ska formateras som en PDF elle
 Rapporter som schemalagts för leverans i Excel-, Excel- (.xlsx) eller TSV-format har ingen rubrik.
 
 >[!NOTE]
+>
 Om rapporten innehåller en beskrivning inkluderas den i den exporterade filen, om filen är formaterad som PDF eller HTML.
 
 ### Tidsstämplar {#timestamps}
 
-En tidsstämpel visas bara i den bifogade filen om filens format är en .pdf-fil. Tidsstämpeln finns i den bifogade filens sidfot.
+En tidsstämpel visas bara i den bifogade filen om filens format är en PDF-fil. Tidsstämpeln finns i den bifogade filens sidfot.
 
 Tidsstämpeln innehåller:
 
@@ -177,15 +180,15 @@ Namnet på rapporten i e-postmeddelandet är också en länk.
 
 Du kan se om en rapport har konfigurerats för leverans genom att skapa följande:
 
-* **En vy** för objektet Rapport i en lista eller en rapport för rapporter: Skapa en vy i en lista med rapporter eller i en rapport för rapporter, och lägg till följande kolumn i vyn:\
-   *Namn på schemalagd rapport.\
-   *Namnen på alla leveranser som schemalagts för den rapporten listas i kolumnen i en punktlista.\
-   ![schedule_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+* **En vy** för objektet Rapport i en lista eller en rapport för rapporter: Skapa en vy i en lista över rapporter eller i en rapport för rapporter, och lägg till följande kolumn i vyn:\
+  *Namn på schemalagd rapport.\
+  *Namnen på alla leveranser som schemalagts för den rapporten listas i kolumnen i en punktlista.\
+  ![schedule_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
 * **Ett filter** för objektet Rapport: Skapa ett filter i en lista med rapporter eller i en rapport om rapporter med följande programsats: *Schemalagt rapport-ID är inte tomt*.\
-   Detta visar endast rapporter som har schemalagts i listan eller rapporten.\
-   ![](assets/qs-scheduled-report-filter-350x101.png)\
-   Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Mer information om hur du skapar en rapport om rapporter finns i [Skapa en rapport om rapporteringsaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Detta visar endast rapporter som har schemalagts i listan eller rapporten.\
+  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Mer information om hur du skapar en rapport om rapporter finns i [Skapa en rapport om rapporteringsaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating&nbsp;Report Delivery</h2>

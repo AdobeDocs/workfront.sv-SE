@@ -6,9 +6,9 @@ description: Filter och uppmaningar liknar varandra i den bemärkelsen att de b�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Filter och uppmaningar liknar varandra i den bemärkelsen att de båda begränsar den mängd information som du visar i en rapport.
 
-Du skapar ett filter när du vill att den information som visas i rapporten ska filtreras med samma villkor varje gång du kör rapporten. Filter skapas en gång och de är hårdkodade i rapporten. Mer information om hur du skapar filter finns i artikeln [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Du skapar ett filter när du vill att den information som visas i rapporten ska filtreras med samma villkor varje gång du kör rapporten. Filter skapas en gång och de är hårdkodade i rapporten. Mer information om hur du skapar filter finns i artikeln [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Frågar är öppna filter som kan anpassas och tillämpas på olika sätt varje gång du kör en rapport.
 
@@ -89,9 +89,9 @@ Instruktioner om hur du skapar en rapport finns i [Skapa en rapport](../../../re
 
    Kommandot är dock lika flexibelt som en vanlig prompt eftersom du kan välja mellan flera fördefinierade satser, till skillnad från att bara ha ett hårdkodat filter i rapporten.
 
-   Ange följande information för den anpassade uppmaningen: Villkoret för en anpassad prompt kan bara redigeras i textläge. Detta gör att flera villkor kan användas i ett enda fält.
+   Ange följande information för den anpassade prompten: Villkoret för en anpassad prompt kan bara redigeras i textläge. Detta gör att flera villkor kan användas i ett enda fält.
 
-   * **Fältnamn:** Detta är namnet på uppmaningen, som du ser den innan du kör rapporten.
+   * **Fält:** Detta är namnet på uppmaningen, som du ser den innan du kör rapporten.
    * **Etikett:** Det här är namnet på ett av alternativen i uppmaningen som du ser det innan du kör rapporten.
    * **Villkor:** Ange ett villkor som definierar uppmaningen.
 
@@ -101,15 +101,16 @@ Instruktioner om hur du skapar en rapport finns i [Skapa en rapport](../../../re
 
    * alla uppgifter i framtida projekt där projektstatusen är Idea, Begärd, Planerad och Aktuell:
 
-      ```
-      project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
-      ```
+     ```
+     project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
+     ```
 
    * alla uppgifter i slutförda (tidigare) projekt där projektstatusen är Slutförd eller Död:
 
-      ```
-      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
-      ```
+     ```
+     project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
+     ```
+
    Mer information om modifiering i textläge finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
@@ -129,7 +130,7 @@ Så här kör du en rapport med en fråga:
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. Välj ett villkor för en eller alla uppmaningar som visas på **Uppmaningar** -fliken.\
+1. Välj ett villkor för en eller alla uppmaningar som visas på **Fråga** -fliken.\
    (Valfritt) Du kan lämna uppmaningarna tomma och inte filtrera rapporten efter uppmaningsvillkoren.
 
 1. Klicka **Kör rapport**.\
@@ -150,7 +151,7 @@ Följande är begränsningar när det gäller att dela rapporter från Workfront
 
 * När du delar en rapport offentligt kan användarna inte köra rapporten genom att köra uppmaningen, såvida de inte har Workfront-inloggningsuppgifter och först loggar in för att visa rapporten i Workfront.
 
-   Mer information om att dela rapporter finns i artikeln [Dela en rapport i Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Mer information om att dela rapporter finns i artikeln [Dela en rapport i Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * När du schemalägger en begärd rapport för leverans innehåller rapporten i e-postbilagan de data som efterfrågas. När användaren klickar på länken i e-postmeddelandet för att få åtkomst till rapporten måste han/hon logga in först för att kunna visa rapporten och köra uppmaningen själv.
 
-   Mer information om att schemalägga en levererad rapport finns i [Schemalägg automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Mer information om att schemalägga en levererad rapport finns i [Schemalägg automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

@@ -6,9 +6,9 @@ description: Du kan förbättra dina rapporter genom att lägga till ett diagram
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Mer information om hur du skapar en vy finns i [Översikt över vyer i Adobe Wor
 Mer information om grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 Om rapporten innehåller för många objekt skapas inget diagram. I det här fallet måste du också lägga till ett filter i rapporten för att minska antalet resultat i rapporten.\
-Mer information om filter finns i [Översikt över filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Mer information om filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Åtkomstkrav
 
@@ -69,7 +69,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >* Grupperingar i textläge stöds inte i diagram. Mer information om grupperingar i textläge finns i [Redigera textläge i en gruppering](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Om du lägger till en enda gruppering som representerar ett mätvärde, visas alla diagram utom ett cirkeldiagram som gruppering med samma färg.
 
-
    Mer information om grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Välj **Diagram** -fliken.
@@ -89,40 +88,39 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ### Kolumndiagram {#column-chart}
 
-Lägga till en **Kolumn** diagram till din rapport:
+Lägga till en **Kolumn** till rapporten:
 
 1. Börja lägga till ett diagram i rapporten enligt beskrivningen i [Lägga till ett diagram i en rapport](#add-a-chart-to-a-report).
 1. I **Vänster (Y) axel** markerar du de värden som du vill ta med på diagrammets Y-axel och hur du vill att informationen ska sammanfattas.
 1. I **Nedre (X) axel** markerar du den gruppering som du vill ta med i diagrammet.
-1. (Valfritt) Välj **Egna färger** om du vill tilldela dina önskade färger till var och en av kolumnerna.\
+1. (Valfritt) Välj **Egna färger** om du vill tilldela dina önskade färger till varje kolumn.\
    Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
 
 1. (Valfritt) Välj **Visa i 3D** om du vill visa diagrammet i en tredimensionell vy.
-1. (Valfritt) **Gruppera kolumner**: Välj det här alternativet om du vill definiera hur kolumnerna ska grupperas.\
+1. (Valfritt) **Gruppera kolumner**: Välj det här alternativet om du vill definiera hur du vill att kolumnerna ska grupperas.\
    Välj bland följande alternativ:
 
    * Klicka på något av följande alternativ för att välja hur de grupperade kolumnerna ska visas:\
-      **- sida vid sida**
-
-      **- Staplad**
-      **- Staplad till 100 %**
+     **- sida vid sida**
+     **- Staplad**
+     **- Staplad till 100 %**
 
    * Markera den gruppering som du vill ta med i diagrammet.
-   * (Valfritt) Välj **Egna färger** om du vill anpassa färgerna i kolumnerna.\
-      Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
+   * (Valfritt) Välj **Egna färger** om du vill anpassa kolumnernas färger.\
+     Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
 
 1. (Valfritt) Välj **Kombinationsdiagram** om du vill inkludera ytterligare ett värde i diagrammet, samt hur du vill att informationen ska sammanfattas.\
    Tänk på följande alternativ:
 
    * **Rita på sekundär axel**: Välj det här alternativet om du vill rita data till höger om diagrammet.
-   * **Diagramtyp**: Välj om du vill att det här extra värdet ska visas som en rad eller en tredje kolumn.\
-      ![](assets/qs-column-chart-350x163.png)
+   * **Diagramtyp**: Välj om du vill att det här extra värdet ska visas som en rad eller som en tredje kolumn.\
+     ![](assets/qs-column-chart-350x163.png)
 
 1. Klicka **Spara + Stäng** för att spara diagrammet och rapporten.
 
 ### Stapeldiagram {#bar-chart}
 
-Lägga till en **Liggande** diagram till din rapport:
+Lägga till en **Liggande** till rapporten:
 
 1. Börja lägga till ett diagram i rapporten enligt beskrivningen i [Lägga till ett diagram i en rapport](#add-a-chart-to-a-report).
 1. I **Nedre (X) axel** markerar du de värden som du vill ta med på X-axeln i diagrammet samt hur du vill att informationen ska sammanfattas.
@@ -131,18 +129,17 @@ Lägga till en **Liggande** diagram till din rapport:
    Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
 
 1. (Valfritt) Välj **Visa i 3D** om du vill visa diagrammet i en tredimensionell vy.
-1. (Valfritt) Grupperingsfält**: Välj det här alternativet om du vill definiera hur staplarna ska grupperas.\
+1. (Valfritt) Grupperingsfält**: Välj det här alternativet om du vill definiera hur du vill att staplarna ska grupperas.\
    Välj bland följande alternativ:
 
    * Klicka på något av följande alternativ för att välja hur de grupperade fälten ska visas:\
-      **- sida vid sida**
-
-      **- Staplad**
-      **- Staplad till 100 %**
+     **- sida vid sida**
+     **- Staplad**
+     **- Staplad till 100 %**
 
    * Markera den gruppering som du vill ta med i diagrammet.
    * (Valfritt) Välj **Egna färger** om du vill anpassa färgerna i kolumnerna.\
-      Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
+     Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
 
 1. (Valfritt) Välj **Kombinationsdiagram** om du vill inkludera ytterligare ett värde i diagrammet, samt hur du vill att informationen ska sammanfattas.\
    ![](assets/qs-bar-chart-350x167.png)
@@ -151,7 +148,7 @@ Lägga till en **Liggande** diagram till din rapport:
 
 ### Cirkeldiagram {#pie-chart}
 
-Lägga till en **Cirkel** diagram till din rapport:
+Lägga till en **Cirkel** till rapporten:
 
 1. Börja lägga till ett diagram i rapporten enligt beskrivningen i [Lägga till ett diagram i en rapport](#add-a-chart-to-a-report).
 1. I **Värden** markerar du de värden som du vill ska visas i rapporten samt hur du vill att de ska sammanfattas.\
@@ -165,13 +162,13 @@ Lägga till en **Cirkel** diagram till din rapport:
 
    * **Procent**: Diagramresultatet visas i procent.
    * **Nummer**: Diagramresultatet visas som ett tal.\
-      ![](assets/qs-pie-chart-350x171.png)
+     ![](assets/qs-pie-chart-350x171.png)
 
 1. Klicka **Spara + Stäng** för att spara diagrammet och rapporten.
 
 ### Linjediagram {#line-chart}
 
-Lägga till en **Linje** diagram till din rapport:
+Lägga till en **Linje** till rapporten:
 
 1. Börja lägga till ett diagram i rapporten enligt beskrivningen i [Lägga till ett diagram i en rapport](#add-a-chart-to-a-report).
 1. I **Vänster (Y) axel** markerar du de värden som du vill ta med på diagrammets Y-axel och hur du vill att informationen ska sammanfattas.
@@ -186,7 +183,7 @@ Lägga till en **Linje** diagram till din rapport:
 
    * Välj det värde som du vill inkludera i diagrammet samt hur du vill att informationen ska sammanfattas.
    * Välj **Rita på sekundär axel** för att rita data till höger om diagrammet.\
-      ![](assets/qs-line-chart-350x172.png)
+     ![](assets/qs-line-chart-350x172.png)
 
 1. Klicka **Spara + Stäng** för att spara diagrammet och rapporten.
 
@@ -194,7 +191,7 @@ Lägga till en **Linje** diagram till din rapport:
 
 A **Mätare** visar antalet poster som uppfyller vissa villkor i ett mätformat. Indikatorn för mätaren pekar på antalet poster som uppfyller de villkor som valts i vyn och rapportgrupperingen. Ingen rapportgruppering krävs för att konfigurera ett mätdiagram.
 
-Lägga till en **Mätare** diagram till din rapport:
+Lägga till en **Mätare** till rapporten:
 
 1. Börja lägga till ett diagram i rapporten enligt beskrivningen i [Lägga till ett diagram i en rapport](#add-a-chart-to-a-report).
 1. I **Värden** markerar du de värden som du vill ska visas i rapporten samt hur du vill att de ska sammanfattas. Om du väljer **Antal poster**, är de värden som visas objektet i rapporten.
@@ -202,7 +199,7 @@ Lägga till en **Mätare** diagram till din rapport:
 1. I **Indikatorer** markerar du den gruppering som du vill ta med i diagrammet. Grupperingen representeras av indikatorraden i diagrammet.\
    Om du har en gruppering som innehåller två objekt visas två indikatorer i diagrammet.\
    Om du t.ex. har en gruppering av projektstatus och det finns två projektstatusvärden (Aktuell och Väntande), innehåller mätdiagrammet två mätningsindikatorer. De pekar på antalet projekt som har den statusen.\
-   (Valfritt) Välj **Totalt** i **Indikatorer** för att visa det totala antalet markerade objekt i **Värden** fält.
+   (Valfritt) Välj **Totalt** i **Indikatorer** fält för att visa det totala antalet markerade objekt i **Värden** fält.
 
 1. I **Värdeintervall** anger du värdeintervall och färg för dessa värden som ska visas i mätardiagrammet.
 1. (Valfritt) Klicka på **Lägg till ett annat värdeintervall** om du vill lägga till ytterligare värdeintervall i diagrammet.\
@@ -214,7 +211,7 @@ Lägga till en **Mätare** diagram till din rapport:
 
 Du kan visa upp till tre fält för ett objekt i en **Bubbla** diagram. Det innebär att du kan visa upp till fyra datapunkter i ett bubbeldiagram. Varje entitet med tre associerade fält visas som en cirkel som uttrycker två av fälten inom dess plats inom X- och Y-axlarna. Det tredje fältet representeras av cirkelns storlek.
 
-Lägga till en **Bubbla** diagram till din rapport:
+Lägga till en **Bubbla** till rapporten:
 
 1. Börja lägga till ett diagram i rapporten enligt beskrivningen i [Lägga till ett diagram i en rapport](#add-a-chart-to-a-report).
 1. I **Vänster (Y) axel** markerar du de värden som du vill ta med på diagrammets Y-axel. Värdena kommer från rapportvyn. Ange hur du vill att informationen ska sammanfattas.
@@ -223,14 +220,14 @@ Lägga till en **Bubbla** diagram till din rapport:
    >[!NOTE]
    >
    >Se till att du har minst en kolumn som är summerad för att fältet ska vara aktivt.\
-   >Mer information om att sammanfatta informationen i en rapportkolumn finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   >Mer information om hur du sammanfattar informationen i en rapportkolumn finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. I **Bubbelstorlek** markerar du de värden som du vill representera med storleken på bubblorna i diagrammet. Värdena kommer från rapportvyn. Ange hur du vill att informationen ska sammanfattas.
 
    >[!NOTE]
    >
    >Se till att du har minst en kolumn som är summerad för att fältet ska vara aktivt.\
-   >Mer information om att sammanfatta informationen i en rapportkolumn finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   >Mer information om hur du sammanfattar informationen i en rapportkolumn finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. I **Bubblor** markerar du den gruppering som du vill ta med i diagrammet. Grupperingen representeras av placeringen av bubblorna i diagrammet.
 1. I **Bubbelfärg** markerar du det fält som du vill ska representeras av bubblornas färger.
@@ -249,7 +246,7 @@ Lägga till en **Bubbla** diagram till din rapport:
    ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 
-1. Klicka **Spara + Stäng** för att spara ändringarna i gränssnittsverktyget.
+1. Klicka **Spara + Stäng** om du vill spara ändringarna i gränssnittsverktyget.
 
 ## Exportera ett diagram
 
@@ -258,7 +255,7 @@ Du kan exportera ett diagram till en PDF-fil.
 Så här exporterar du ett diagram:
 
 1. Klicka **Exportera** om du vill exportera diagrammet till .pdf.\
-   En pdf-fil hämtas till datorn.
+   En pdf-fil laddas ned till datorn.
 
 1. Öppna PDF-filen.\
    Den exporterade filen innehåller följande information:
@@ -281,10 +278,10 @@ Du kan bara välja en färg för fält som visas i rapportvyn. Du kan välja fle
 Så här anpassar du diagramfärger:
 
 1. Gå till **Diagram** i Report Builder.
-1. Välj en diagramtyp att lägga till i rapporten.\
+1. Välj en diagramtyp som du vill lägga till i rapporten.\
    Mer information om hur du lägger till ett diagram i rapporten finns i [Lägga till ett diagram i en rapport](#add-a-chart-to-a-report).
 
-1. Klicka **Egna färger** när det här fältet är tillgängligt.\
+1. Klicka **Egna färger** när fältet är tillgängligt.\
    Dialogrutan Egna färger visas.\
    ![](assets/custom-colors-in-charts-350x286.png)
 
@@ -300,17 +297,17 @@ Så här anpassar du diagramfärger:
       1. (Valfritt) Ange ett hexadecimalt färgvärde för färgen i stället för att välja ett av de tillgängliga färgproven\
          eller\
          Klicka på färgväljaren som visas när du har klickat på den hexadecimala koden och välj en annan färg.
-   * **Lägg till färg**: Fortsätt med att lägga till egna färger för alla andra möjliga alternativ för det markerade fältet.
-   * **Ta bort alla**: Välj det här alternativet om du vill ta bort alla färger och alternativ i fältet som är markerat ovan.
+
+   * **Lägg till färg**: Fortsätt lägga till anpassade färger för alla andra möjliga alternativ för det markerade fältet.
+   * **Ta bort alla**: Välj det här alternativet om du vill ta bort alla färger och alternativ i fältet som markerats ovan.
    * **Avancerade alternativ**: Välj bland följande alternativ:
 
-      * **Inget värde**: Markera det här fältet och en egen färg för att visa den kolumn i diagrammet som grupperar &quot;inget värde&quot;-objekt. Det här är objekt som inte kan grupperas efter något av alternativen i det fält som är markerat i grupperingen.
-      * **Alla andra värden**: Markera det här fältet och en egen färg om du vill visa alla andra diagramelement vars alternativ inte är markerade ovan.
+      * **Inget värde**: Markera det här fältet och en egen färg för att visa den kolumn i diagrammet som grupperar &quot;inget värde&quot;-objekt. Det här är objekt som inte kan grupperas efter något av alternativen i det fält som är markerat i din gruppering.
+      * **Alla andra värden**: Markera det här fältet och en egen färg för att visa alla andra diagramelement vars alternativ inte är markerade ovan.
 
-         >[!NOTE]
-         >
-         >De färger som du har använt senast visas högst upp i dialogrutan Egna färger. När du för musen över en färg som nyligen har använts visas namnet på det fält som är associerat med den.
-
+        >[!NOTE]
+        >
+        >De färger som du har använt senast visas högst upp i dialogrutan Egna färger. När du för musen över en färg som nyligen har använts visas namnet på det fält som är associerat med den.
 
 1. Klicka på&quot;x&quot; i det övre högra hörnet av dialogrutan Egna färger för att stänga dialogrutan Egna färger. Färgerna som du har valt sparas automatiskt.
 1. Klicka **Spara + Stäng** för att spara diagrammet och köra rapporten.
@@ -335,6 +332,6 @@ Tänk på följande begränsningar när du arbetar med diagram:
    * Du kan inte ändra teckensnittstypen eller storleken på värdena för varje element.
    * Du kan inte ändra namn på axlarna i diagrammet.
 
-* Du kan inte redigera teckenförklaringen för diagrammet.
+* Det går inte att redigera teckenförklaringen.
 * När du använder beräkningsfält för dina grupperingar kan du inte klicka på diagramelementen.
 * Det största antalet datapunkter som du kan visa i ett diagram är fyra i ett bubbeldiagram. Alla andra diagramtyper visar två eller högst tre datapunkter.

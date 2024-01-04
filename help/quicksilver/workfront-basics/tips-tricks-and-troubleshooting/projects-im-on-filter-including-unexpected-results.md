@@ -5,14 +5,15 @@ title: Projekt jag arbetar med filtrerar inklusive oväntade resultat
 description: Läs den här artikeln om du vill felsöka de projekt jag är på, inklusive oväntade resultat.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
+exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
-# Projekt som jag är på-filter innehåller oväntade resultat
+# Projekt jag arbetar med har oväntade resultat
 
 ## Åtkomstkrav
 
@@ -39,16 +40,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Problem
 
-The [!UICONTROL **Projekt jag är på**] Filtret innehåller resultat som jag inte förväntar mig, eftersom jag inte är tilldelad eller associerad med dessa projekt.
+The [!UICONTROL **Projekt som jag är på**] Filtret innehåller resultat som jag inte förväntar mig, eftersom jag inte är tilldelad eller associerad med dessa projekt.
 
 ## Lösning
 
-The [!UICONTROL **Projekt jag är på**] filtret innehåller projekt som innehåller användaren i någon av dess [!UICONTROL **Projektinformation**] fält, inklusive fält som är enkla att missa eller som fyllts i automatiskt, t.ex. [!UICONTROL **Anges av**] eller [!UICONTROL **Sponsorns-ID**]. Det finns två möjliga lösningar för att ta bort oönskade resultat:
+The [!UICONTROL **Projekt som jag är på**] filtret innehåller projekt som innehåller användaren i någon av dess [!UICONTROL **Projektinformation**] fält, inklusive fält som är enkla att missa eller som fyllts i automatiskt, t.ex. [!UICONTROL **Anges av**] eller [!UICONTROL **Sponsorns-ID**]. Det finns två möjliga lösningar för att ta bort oönskade resultat:
 
 1. Kontrollera [!UICONTROL **Projektinformation**] för varje oväntat projekt som ingår i filtret, och ta bort ditt namn från alla fält.
 
    ELLER
 
-1. Försök med ett liknande filter, som [!UICONTROL **Projekt jag äger**], som endast innehåller projekt som är specifikt tilldelade dig.
+1. Prova med ett liknande filter, som [!UICONTROL **Projekt jag äger**], som endast innehåller projekt som är specifikt tilldelade dig.
 
-Mer information om hur du använder filter i [!DNL Workfront], se [Filteröversikt i [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+Mer information om hur du använder filter i [!DNL Workfront], se [Översikt över filter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

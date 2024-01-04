@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Vi har förbättrat sättet som användare visas på när du lägger till dem i 
 
 * Resurshanteraren
 
-När du nu lägger till en användare i något av dessa fält i områdena Redigera eller Detaljer visas även användarens primära roll och e-postadress, förutom namn och avatar. Detta gör det lättare att skilja mellan flera användare med liknande eller identiska namn.
+När du nu lägger till en användare i något av dessa fält i områdena Redigera eller Detaljer visas även användarens primära roll och e-postadress, förutom namnet och avataren. Detta gör det lättare att skilja mellan flera användare med liknande eller identiska namn.
 
 Mer information finns i [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-OBS! Ytterligare användarfält för projekt, uppgifter och utgåvor kommer att uppdateras med den här funktionen i framtida versioner.
+Obs! Ytterligare användarfält för projekt, uppgifter och utgåvor kommer att uppdateras med den här funktionen i framtida versioner.
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
@@ -66,17 +66,17 @@ Tidigare orsakade tidsinställningar i beräkningar förvirring när de varierad
 
 Mer information finns i [Arbeta över tidszoner](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
-## Förbättringar av anpassade formulär: Adobe XD och snabbfiltret
+## Förbättrade anpassade formulär: Adobe XD och Snabbfilter
 
 Baserat på din feedback har vi introducerat följande förbättringar för att förbättra din upplevelse när du hanterar anpassade formulär:
 
 * Lägg till en Adobe XD-fil för att göra ett anpassat formulär mer visuellt och informativt. När formuläret är kopplat till ett objekt kan användare som arbetar med objektet visa och interagera med den XD filen inifrån formuläret.
 
-   Mer information finns i [Lägga till eller redigera en bild eller en annan resurswidget i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Mer information finns i [Lägga till eller redigera en bild eller en annan resurswidget i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Använd snabbfiltret för att enkelt hitta objekt i den moderniserade listan med anpassade formulär och fält. Du får också ett bättre utseende och en bättre känsla när du hanterar formulär och fält.
 
-   Mer information om snabbfiltret finns i [Använda snabbfiltret på en lista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Mer information om snabbfiltret finns i [Använda snabbfiltret på en lista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
@@ -84,7 +84,7 @@ Baserat på din feedback har vi introducerat följande förbättringar för att 
 
 Filtrering av projekt-, uppgifts- och problemlistor har gjorts om så att du snabbt kan skapa och dela filter. Funktioner:
 
-* Ett intuitivt gränssnitt för betaversion som skapar ett nytt filter
+* Ett intuitivt betaversionsgränssnitt för att skapa ett nytt filter
 
 * Möjlighet att markera ett filter som en favorit
 
@@ -112,21 +112,21 @@ Textläget är fortfarande tillgängligt för avancerad filterredigering, och sy
 
 ### Vi vill ha din feedback!
 
-Med denna allmänna betaversion får användarna möjlighet att skicka feedback direkt till teamet som arbetar med filterupplevelsen genom att klicka på knappen för feedback. Vi ser fram emot att få höra av dig och dina användare om den nya filterupplevelsen i betaversionen. Om ditt team vill träffa en produkt direkt för att ge mer feedback kan du planera ett möte här: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Med denna allmänna betaversion får användarna möjlighet att skicka feedback direkt till teamet som arbetar med filterupplevelsen genom att klicka på knappen för feedback. Vi ser fram emot att få höra av dig och dina användare om den nya filterupplevelsen i betaversionen. Om ditt team vill träffas direkt för att ge mer feedback kan du planera ett möte här: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Vad kommer härnäst?
 
 * Ny upplevelse av grupperingar och vyer (kallas även kolumner)
 
-   Vi börjar arbeta med den nya upplevelsen för grupperingar och vyer (kallas även kolumner) så att den blir konsekvent med den nya filterupplevelsen och har några av samma bra funktioner som den nya filterupplevelsen.
+  Vi börjar arbeta med den nya upplevelsen för grupperingar och vyer (kallas även kolumner) så att den blir konsekvent med den nya filterupplevelsen och har några av samma bra funktioner som den nya filterupplevelsen.
 
 * Implementera nya filter i andra delar av Adobe Workfront
 
-   Vi kommer att samarbeta med team i hela produkten för att implementera den nya filterupplevelsen inom andra områden i Workfront.
+  Vi kommer att arbeta tillsammans med team i hela produkten för att implementera den nya filterupplevelsen inom andra områden i Workfront.
 
 
 Vi vill leverera värde till er iterativt, så vi kommer att fortsätta leverera när de nya upplevelserna och andra områden är klara. Håll dig uppdaterad och få mer spännande uppdateringar.
 
-Mer information finns i [Översikt över filter i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) och [Skapa eller redigera filter i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Mer information finns i [Översikt över filter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) och [Skapa eller redigera filter i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412391/)

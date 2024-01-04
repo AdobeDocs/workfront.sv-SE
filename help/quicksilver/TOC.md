@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '13841'
+source-wordcount: '13838'
 ht-degree: 0%
 
 ---
@@ -1512,7 +1512,7 @@ ht-degree: 0%
       * Rapporteringselement {#report-elements}
          * [Översikt över rapportelement](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [Rapportelement: filter, vyer och grupperingar](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-         * [Översikt över filter i Adobe Workfront](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+         * [Översikt över filter](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
          * [Skapa eller redigera filter i Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-filters.md)
          * [Filter- och villkorsmodifierare](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
          * [Översikt över vyer i Adobe Workfront](reports-and-dashboards/reports/reporting-elements/views-overview.md)
