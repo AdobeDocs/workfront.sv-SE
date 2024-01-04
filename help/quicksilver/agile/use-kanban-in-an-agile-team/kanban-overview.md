@@ -7,16 +7,20 @@ description: Läs den här artikeln för att få en bättre förståelse för hu
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Kanban - översikt
 
+<!-- Audited: 01/2024 -->
+
 I följande avsnitt kan du bättre förstå hur [!UICONTROL Kanban] kortfunktioner.
+
+En beskrivning av[!UICONTROL anban] metod, se [Skapa ett smidigt team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 Om du är intresserad av att migrera från ett rörligt team [!UICONTROL Kanban] gå till [!DNL Workfront] [!UICONTROL Boards], se [Migrera smidigt team [!UICONTROL Kanban] kort till [!DNL Workfront] boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
@@ -24,13 +28,13 @@ Om du är intresserad av att migrera från ett rörligt team [!UICONTROL Kanban]
 
 The [!UICONTROL Kanban] brädet består av följande element:
 
-**Kolumn med eftersläpning**: Visar alla aktiviteter som finns i eftersläpningen. Den här kolumnen visas inte som standard. Mer information om eftersläpningen, inklusive hur den visas på [!UICONTROL Kanban] bräda, se [Hantera den flexibla eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Kolumn med eftersläpning**: Visar alla uppgifter som finns i eftersläpningen. Den här kolumnen visas inte som standard. Mer information om eftersläpningen, inklusive hur den visas på [!UICONTROL Kanban] board, se [Hantera den flexibla eftersläpningen](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Artikelstatus**: Anger hur en artikel fortskrider baserat på vilken statuskolumn artikeln finns i.
 
 Mer information finns i [Uppdatera artikelstatus på [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-Du kan anpassa artikelstatus för projektet genom att ändra den flexibla vyn enligt beskrivningen i avsnittet [[!UICONTROL Create or customize an Agile view]](../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Översikt över vyer i [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Du kan anpassa artikelstatus för projektet genom att ändra den flexibla vyn enligt beskrivningen i avsnittet [[!UICONTROL Create or customize an Agile view]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Skapa eller redigera vyer i [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 >[!NOTE]
 >

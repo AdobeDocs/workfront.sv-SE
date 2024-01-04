@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Hantera ett projekt i flexibel vy
-description: Obligatoriska planer, licenstyper och åtkomst till Adobe Workfront Plan Team, Pro, Business eller Enterprise Workfront License Type Review, Work eller Plan Behörigheter i åtkomstmodellen Redigera åtkomst och möjlighet att skapa rapporter, instrumentpaneler och kalendrar
-author: Alina
+description: Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet eller skapa iterationer).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -202,7 +202,7 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 
 Precis som med standardvyer i Workfront kan du anpassa befintliga flexibla vyer eller skapa nya flexibla vyer från grunden. Till skillnad från standardvyer kan du inte skapa nya flexibla vyer som baseras på befintliga flexibla vyer.
 
-Mer information om hur du skapar och anpassar flexibla vyer finns i avsnittet&quot;Skapa eller anpassa en flexibel vy&quot; i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Mer information om hur du skapar och anpassar flexibla vyer finns i [Skapa eller anpassa en Agile-vy](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) i artikeln [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Dela en befintlig Agile-vy
 
