@@ -4,9 +4,9 @@ description: Förbättringar av dokumenthanteringen i det första kvartalet 2024
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
+source-git-commit: ab094f2d52942ce9dfa8989cc83c49c65b43de15
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ För att göra gransknings- och godkännandeprocessen mer genomskinlig har vi la
 
 Mer information om olika statusar finns i [Dokumentgodkännandestatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-## Markera en granskning som slutförd
+## Slutför min granskning
 
 >[!NOTE]
 >
