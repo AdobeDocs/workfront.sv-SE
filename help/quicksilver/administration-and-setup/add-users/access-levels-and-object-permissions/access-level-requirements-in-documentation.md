@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
+source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,12 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <p>Artiklar som beskriver de procedurer som utförs i dessa ytterligare produkter listar den produkt som krävs här.</p>
    <ul>
    <li>Adobe Experience Manager Assets eller Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront-mål</li>
-   <li>Workfront Scenario Planner</li>
+   <li>Workfront Fusion *</li>
+   <li>Workfront-mål *</li>
+   <li>Workfront Scenario Planner *</li>
    </ul>
-   <p>Kontakta Workfront-administratören om du vill veta om din organisation har köpt någon av dessa produkter.</p></td> 
+   <p>* Ingår i Workfront Ultimate
+   <p>Om du vill veta om din organisation har köpt någon av dessa produkter eller om din organisation ingår i Workfront Ultimate-planen kontaktar du Workfront-administratören.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licens</td> 
