@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Du kan också använda Gantt-schemat för att definiera en tidslinje för ditt a
 Det här avsnittet innehåller följande underavsnitt:
 
 * [Projekt: artikelindex](../manage-work/projects/projects-overview.md)
-* [Uppgifter](../manage-work/tasks/tasks-overview.md)
+* [Uppgifter: artikelindex](../manage-work/tasks/tasks-overview.md)
 * [Problem](../manage-work/issues/issues-overview.md)
 * [Gantt-schemat](../manage-work/gantt-chart/the-gantt-chart.md)
 * [hantering av Portfolio](../manage-work/portfolios/portfolio-management-overview.md)

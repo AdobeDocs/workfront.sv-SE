@@ -2,23 +2,27 @@
 content-type: reference;overview
 product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
-title: Rapportering
-description: Granska dessa områden för att få en förståelse för hur man rapporterar i Adobe Workfront.
+title: "Rapporter och kontrollpaneler: artikelindex"
+description: Du kan ordna information i rapporter i Adobe Workfront. Du kan placera flera rapporter på en kontrollpanel. Du kan dela både rapporter och kontrollpaneler med andra för bättre samarbete.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 618c9dda-ad7d-4a05-960b-3ad14c14d605
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 3%
+source-wordcount: '88'
+ht-degree: 0%
 
 ---
 
 
-# Rapporter och kontrollpaneler
+# Rapporter och kontrollpaneler: artikelindex
 
-Det här avsnittet innehåller följande underavsnitt:
+<!--Audited: 01/2024-->
+
+Du kan ordna information i rapporter i Adobe Workfront. Du kan placera flera rapporter på en kontrollpanel. Du kan dela både rapporter och kontrollpaneler med andra för bättre samarbete.
+
+Mer information om rapporter och kontrollpaneler finns i artiklarna i följande underavsnitt:
 
 * [Rapporter](../reports-and-dashboards/reports/reports-overview.md)
 * [Kontrollpaneler](../reports-and-dashboards/dashboards/dashboards-overview.md)

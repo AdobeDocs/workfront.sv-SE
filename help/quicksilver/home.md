@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Workfront] dokumentation'
 description: Dokumentation för [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Se [Dokument](/help/quicksilver/documents/documents-overview.md).
 
 Om du vill visa befintlig information i ett lättläst format och dela den med alla intressenter använder du rapporter och instrumentpaneler.
 
-Se [Rapporter och kontrollpaneler](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+Se [Rapporter och kontrollpaneler: artikelindex](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
 
 #### Textlägesrapportering
 

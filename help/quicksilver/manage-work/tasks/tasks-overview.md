@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Uppgifter
+title: "Uppgifter: artikelindex"
 description: Uppgifter är mindre arbetsobjekt i Adobe Workfront som bidrar till slutförandet av ett projekt. Läs mer om hur du hanterar uppgifter i följande artiklar.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 3%
+source-wordcount: '83'
+ht-degree: 0%
 
 ---
 
-# Uppgifter
+# Uppgifter: artikelindex
 
-Det här avsnittet innehåller följande underavsnitt:
+<!--Audited: 01/2024-->
+
+Uppgifter är mindre arbetsobjekt i Adobe Workfront som bidrar till slutförandet av ett projekt. Läs mer om hur du hanterar uppgifter i artiklarna i följande underavsnitt:
 
 * [Uppgiftsinformation](../../manage-work/tasks/task-information/task-information.md)
 * [Skapa uppgifter](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)

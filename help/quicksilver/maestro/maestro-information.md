@@ -1,18 +1,18 @@
 ---
-title: Adobe Maestro-information
+title: "Adobe Maestro information: artikelindex"
 description: Som marknadsledare kan ni använda Adobe Maestro för att organisera arbetet under hela marknadsföringscykeln för alla era team. I artiklarna i det här avsnittet beskrivs hur du kan konfigurera Maestro och hur du kan börja använda dess funktioner som en del av dina kampanjhanteringsåtgärder.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Adobe Maestro-information
+# Adobe Maestro-information: artikelindex
 
 <!--
 title: Adobe Maestro 

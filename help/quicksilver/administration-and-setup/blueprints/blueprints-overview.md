@@ -4,21 +4,25 @@ content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Översikt över utkast
-description: Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbetsstyrningssystem som växer med dig.
-author: Lisa
+description: Utkast är uppsättningar av Workfront-objekt som hanterar vanliga användningsområden i Workfront. Du kan hämta och installera en plan och sedan konfigurera objekten för ditt specifika användningsfall.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
 
 # Översikt över utkast
 
+<!--Audited: 01/2024-->
+
 Utkast är uppsättningar av Workfront-objekt som hanterar vanliga användningsområden i Workfront. Du kan hämta och installera en plan och sedan konfigurera objekten för ditt specifika användningsfall.
+
+![](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
@@ -32,7 +36,7 @@ Utkast är uppsättningar av Workfront-objekt som hanterar vanliga användningso
 >
 >   Den här planen innehåller en mall för att organisera nya anställdas introduktionsaktiviteter. Genom att använda den här mallen kan IT-avdelningen arbeta effektivt, vilket ger en positiv ny medarbetarupplevelse och ger snabbare produktivitet.
 >
->* **Kontrolllista för ärvda instansgrunder**
+>* **Grunderna för ärvda instanser | Checklista**
 >
 >    Den här planen innehåller en projektmall (eller checklista) som du kan granska med en kort lista över frågor, resurser och länkar för att få en tydlig förståelse för hur din Workfront-instans har konfigurerats. Använd detta när du nyligen har ärvt en Workfront-instans och behöver hjälp med var du ska börja.
 >
@@ -43,9 +47,9 @@ Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbe
 
 Varje plan är avsedd för en avdelning och en viss mognadsnivå, vilket gör att du snabbare kan implementera beprövade metoder i ditt system. De mognadsnivåer som anges nedan anges på prenumerationskortet för trycksakskatalogen och detaljerna.
 
-**[!UICONTROL Managed]:** Hanterade projektmallar gör det lättare att anta en ny affärsprocess innan aktiviteter och slutprodukter accepteras som standardprocedurer. De innehåller uppgifter för att säkerställa att varje steg i den nya processen följs.
+* **[!UICONTROL Managed]:** Hanterade projektmallar gör det lättare att anta en ny affärsprocess innan aktiviteter och slutprodukter accepteras som standardprocedurer. De innehåller uppgifter för att säkerställa att varje steg i den nya processen följs.
 
-**[!UICONTROL Integrated]:** Integrerade projektmallar förutsätter att affärsfunktionerna stöds genom en standardiserad procedur. Deltagare i processen vet vilka steg och uppgifter de behöver för att slutföra processen. Projektmallarna som stöder den här processen innehåller färre uppgifter för att bara spåra milstolpar och andra viktiga slutprodukter som behövs för rapportering.
+* **[!UICONTROL Integrated]:** Integrerade projektmallar förutsätter att affärsfunktionerna stöds genom en standardiserad procedur. Deltagare i processen vet vilka steg och uppgifter de behöver för att slutföra processen. Projektmallarna som stöder den här processen innehåller färre uppgifter för att bara spåra milstolpar och andra viktiga slutprodukter som behövs för rapportering.
 
 ## Hitta rätt ritning
 
@@ -57,9 +61,9 @@ Den blå typen visar vad som ingår i ritningen. Typen visas längst ned på kor
 
 Följande typer av ritningar finns:
 
-* Projektmallar: Inkluderar standardobjekt som är kopplade till en projektmall (uppgifter, ärenden, roller och team) och vissa inställningar som är relaterade till dessa objekt. Mer information finns i [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
-* Organisationsstrukturer: Inkluderar objekt som är kopplade till en organisations struktur (företag, grupper, roller och team). Mer information finns i [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
-* Kontrollpaneler: Inkluderar en eller flera instrumentpaneler för ett visst användningsfall, t.ex. implementeringstjänster.
+* **Projektmallar**: Inkluderar standardobjekt som är kopplade till en projektmall (uppgifter, ärenden, roller och team) och vissa inställningar som rör dessa objekt. Mer information finns i [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Organisationsstrukturer**: Inkluderar objekt som är kopplade till strukturen i en organisation (företag, grupper, roller och team). Mer information finns i [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Kontrollpaneler**: Inkluderar en eller flera instrumentpaneler för ett specifikt användningsfall, t.ex. implementeringstjänster.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
@@ -82,7 +86,7 @@ Varje plan innehåller en informationssida. Från den här sidan kan du:
 
 ## Installera en plan
 
-Systemadministratören kan installera direkt i produktionsmiljön eller i sandlådemiljöer. Mer information finns på [Installera en plan](../../administration-and-setup/blueprints/blueprints-install.md) eller [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
+En Workfront-administratör kan installera en plan direkt i alla miljöer (i produktions-, förhandsgransknings- eller sandlådemiljöer). Mer information finns på [Installera en plan](../../administration-and-setup/blueprints/blueprints-install.md) eller [Konfigurera en plan](../../administration-and-setup/blueprints/configure-template-package.md).
 
 Efter installationen kan du vara osäker på vilka åtgärder som ska vidtas. Mer information finns i [Åtgärder som ska vidtas efter installation av en plan](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 

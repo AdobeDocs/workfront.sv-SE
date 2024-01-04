@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '13838'
+source-wordcount: '13844'
 ht-degree: 0%
 
 ---
@@ -1265,7 +1265,7 @@ ht-degree: 0%
          * [Beräkningsexempel - Beräkna EAC som en sammanslagning av uppgifter](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [Beräkningsexempel - beräkna EAC på projektnivå](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * Uppgifter {#tasks}
-      * [Uppgifter](manage-work/tasks/tasks-overview.md)
+      * [Uppgifter: artikelindex](manage-work/tasks/tasks-overview.md)
       * Uppgiftsinformation {#task-information}
          * [Uppgiftsinformation](manage-work/tasks/task-information/task-information.md)
          * [Översikt över uppgifter](manage-work/tasks/task-information/tasks-overview.md)
@@ -1479,7 +1479,7 @@ ht-degree: 0%
       * [Tips, tricks och felsökning för team och grupper](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Användarnamnet används redan](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Rapportering {#reporting}
-   * [Rapportering](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [Rapporter och kontrollpaneler: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Arbetsyta för rapportering {#reporting-canvas}
       * [Arbetsyta för rapportering](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
       * Hantera rapporter {#manage-reports}
