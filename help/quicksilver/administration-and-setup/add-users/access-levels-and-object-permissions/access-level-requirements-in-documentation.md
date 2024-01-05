@@ -1,5 +1,5 @@
 ---
-title: Krav på åtkomstnivåer
+title: Åtkomstkrav i Workfront-dokumentation
 content-type: reference
 product-area: system-administration
 keywords: behörighet,nivå,system,administratör,planerare,arbetare,granskare,begärande,extern,användare
@@ -8,16 +8,14 @@ description: I Workfront-dokumentationen finns en tabell med information om vilk
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
+source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Krav för åtkomstnivåer i Workfront-dokumentationen
+# Åtkomstkrav i Workfront-dokumentation
 
 I Workfront-dokumentationen finns en tabell med information om vilka behörigheter som krävs för den proceduren. I den här tabellen för åtkomstkrav kan du förstå om du kan utföra en viss åtgärd i Workfront eller varför du inte kan göra det. I den här artikeln förklaras varje element i tabellen för åtkomstkrav och den innehåller felsökningstips och länkar till mer detaljerad information.
 
@@ -50,7 +48,7 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <ul>
    <li>Nytt: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Översikt över nya licenser</a></li>
    <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser</a></li></ul></li>
-   <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.
+   <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.
    </ul>
       </p> </td> 
   </tr> 
@@ -75,27 +73,20 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <li>Nytt: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a></li>
    <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Översikt över åtkomstnivåer</a></li></ul></li>
     <li>Kontakta Workfront-administratören om du vill veta mer om din åtkomstnivå</li>
-    <li>Om du är Workfront-administratör kan du läsa <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a> om du vill veta mer om hur du ger åtkomst till specifika objekt på åtkomstnivån.</li>  
-   <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</li>
+    <li>Om du är Workfront-administratör kan du läsa <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a> om du vill veta mer om hur du ger åtkomst till specifika objekt på åtkomstnivån.</li>  
+   <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</li>
     </td>
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td><p>Objektbehörigheter avser den åtkomst du har till enskilda Workfront-objekt när du skapar dem eller när de delas med dig. Du måste till exempel ha behörigheten Visa för ett visst projekt för att kunna visa projektet, även om åtkomstnivån tillåter dig att visa projekt. I det här avsnittet av tabellen för åtkomstkrav beskrivs eventuella objektbehörigheter som du behöver för att utföra åtgärden i artikeln.</p>
-   <p>Mer information om hur du begär ytterligare åtkomst till ett objekt finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p></td> 
+   <p>Mer information om hur du begär ytterligare åtkomst till ett objekt finns i <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p><p>Mer information om hur du delar ett objekt finns i <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Dela ett objekt</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Workfront erbjuder vissa produkter som kan köpas utöver Workfront.
-   <p>Artiklar som beskriver de procedurer som utförs i dessa ytterligare produkter listar den produkt som krävs här.</p>
-   <ul>
-   <li>Adobe Experience Manager Assets eller Assets Essentials </li>
-   <li>Workfront Fusion *</li>
-   <li>Workfront-mål *</li>
-   <li>Workfront Scenario Planner *</li>
-   </ul>
-   <p>* Ingår i Workfront Ultimate
-   <p>Om du vill veta om din organisation har köpt någon av dessa produkter eller om din organisation ingår i Workfront Ultimate-planen kontaktar du Workfront-administratören.</p></td> 
+   <td role="rowheader">Layoutmall</td> 
+   <td><p>Layoutmallar styr vad du kan se på huvudmenyn och konfigureras av Workfront-administratören. På den här raden antecknas eventuella områden i Workfront som måste ingå i huvudmenyn för att åtgärden ska kunna utföras.</p><p>Om en artikel uppmanar dig att klicka på ett område på huvudmenyn, och det området inte visas på huvudmenyn, kontaktar du Workfront-administratören för att avgöra om det området kan göras tillgängligt för dig.</p><p>
+   Mer information om hur en Workfront-administratör kan konfigurera huvudmenyn finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">Anpassa huvudmenyn med hjälp av en layoutmall</a>.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licens</td> 
