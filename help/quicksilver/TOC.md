@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: b505937d1faaa29a5c5f89c7db5ca721ea9337e0
 workflow-type: tm+mt
-source-wordcount: '13844'
+source-wordcount: '13843'
 ht-degree: 0%
 
 ---
@@ -480,7 +480,7 @@ ht-degree: 0%
          * [Tillgång till objekt och områden med nya licenser](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-         * [Krav för åtkomstnivåer i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+         * [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * Hur åtkomstnivåer fungerar {#legacy-access-levels}
          * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [Åtkomstöversikt](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
