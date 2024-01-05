@@ -6,9 +6,9 @@ description: Du kan lägga till dokument i projekt, uppgifter eller problem i fl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Så här lägger du till ett dokument:
 1. Gå till projektet, uppgiften eller utgåvan där du vill lägga till ett nytt dokument.
 1. Klicka på **Dokument** klickar du på **Lägg till ny** listruta.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. Beroende på vilken typ av dokument du vill lägga till gör du något av följande:
 
@@ -98,7 +98,7 @@ Så här lägger du till ett dokument:
         <li value="1">Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Begär ett dokument</strong>.</li> 
         <li value="2">I <strong>Vilka begär du det från?</strong> anger du namnet på den användare som du begär dokumentet från.</li> 
         <li value="3">I <strong>Berätta för dem vad du begär</strong> anger du namnet på dokumentet.</li> 
-        <li value="4"> <p>Klicka <strong>Skicka förfrågan</strong>.</p> <p>Din förfrågan visas på fliken Dokument.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Mer information om hur du begär dokument finns i <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Begär ett dokument</a>.</p> </li> 
+        <li value="4"> <p>Klicka <strong>Skicka förfrågan</strong>.</p> <p>Din förfrågan visas på fliken Dokument.</p> <p>Mer information om hur du begär dokument finns i <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Begär ett dokument</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
