@@ -6,9 +6,9 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: b2409ceb7358d92ca1941bd849cb6ffd76f0763e
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Kom igång med nya startsidan
 
 <!--Audited: 12/2023-->
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Den nya Home-upplevelsen i Adobe Workfront syftar till att förbättra den aktuella Home-upplevelsen samtidigt som du får ett flexiblare sätt att fokusera på rätt arbete.
 
@@ -56,6 +58,9 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
 
 * **Alla godkännanden**\
     Visar alla godkännanden för din organisation i en tabell med anpassningsbara kolumner, samt ett sökfält där du kan söka efter specifika godkännanden.
+
+* <span class="preview">**Väntande godkännanden**</span>\
+    <span class="preview">Visar godkännanden som tilldelats ett dokument i ett projekt som du äger. Här kan du visa godkännandestatus och påminna användare om ofullständiga granskningar och godkännanden. <span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></span>
 
 * **Omnämnanden**\
     Visar senaste kommentarstrådar från hela Workfront, ungefär som sidan Mina uppdateringar. Du kan använda svarsknappen för att skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
