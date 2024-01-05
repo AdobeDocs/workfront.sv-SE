@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b505937d1faaa29a5c5f89c7db5ca721ea9337e0
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '13843'
+source-wordcount: '13844'
 ht-degree: 0%
 
 ---
@@ -2222,6 +2222,7 @@ ht-degree: 0%
       * [Moduler för Microsoft Word-mallar](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
       * [MIME-moduler](workfront-fusion/apps-and-their-modules/mime.md)
       * [NetSuite-moduler](workfront-fusion/apps-and-their-modules/netsuite.md)
+      * [[!DNL OpenAI(ChatGPT & DALL-E)] moduler](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
       * [Qualtrics-moduler](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
       * [Quickbase-moduler](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
       * [Salesforce-moduler](workfront-fusion/apps-and-their-modules/salesforce-modules.md)

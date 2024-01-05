@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -119,6 +119,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Microsoft Word Template] moduler](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
 * [[!UICONTROL MIME] moduler](../../workfront-fusion/apps-and-their-modules/mime.md)
 * [[!DNL NetSuite] moduler](../../workfront-fusion/apps-and-their-modules/netsuite.md)
+* [[!DNL OpenAI(ChatGPT & DALL-E)] moduler](../../workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
 * [[!DNL Qualtrics] moduler](../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
 * [[!DNL Quickbase] moduler](../../workfront-fusion/apps-and-their-modules/quickbase-modules.md)
 * [[!DNL Salesforce] moduler](../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)

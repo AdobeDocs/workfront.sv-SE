@@ -9,9 +9,9 @@ description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsfl�
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -92,7 +92,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL NetSuite] konto för Workfront Fusion, se<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Skapa en anslutning till [!DNL NetSuite] i en Workfront Fusion NetSuite-modul</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL NetSuite] konto för Workfront Fusion, se <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Skapa en anslutning till [!DNL NetSuite] i en Workfront Fusion NetSuite-modul</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -100,7 +100,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
