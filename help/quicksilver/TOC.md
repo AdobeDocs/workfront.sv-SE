@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: a4581dfe503c6afa43b203a3c3fe461107619e67
 workflow-type: tm+mt
-source-wordcount: '13846'
+source-wordcount: '13853'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ ht-degree: 0%
       * Versionsaktivitet för Adobe Workfront Fusion {#fusion-release}
          * [Versionsaktivitet för Workfront Fusion: 27 november 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
          * [Versionsaktivitet för Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+           [Versionsaktivitet för Workfront Fusion: 1 januari 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
          * [Versionsaktivitet för Workfront Fusion: 13 november 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
          * [Versionsaktivitet för Workfront Fusion: 30 oktober 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
          * [Versionsaktivitet för Workfront Fusion: 1 september 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
