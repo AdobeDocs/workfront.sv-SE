@@ -6,7 +6,7 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -50,6 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en ny anslagstavla
 
 {{step1-to-boards}}
+
 1. Klicka på **[!UICONTROL Add board]**.
 
 1. Välj en mall för styrelsen.
@@ -98,6 +99,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Redigera en befintlig styrelse
 
 {{step1-to-boards}}
+
 1. På kontrollpanelen väljer du den panel som ska öppnas.
 1. Redigera styrelsen efter behov. Du kan klicka på styrelsens namn för att byta namn på det.
 

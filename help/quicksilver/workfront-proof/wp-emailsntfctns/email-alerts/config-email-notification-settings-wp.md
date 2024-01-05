@@ -7,9 +7,9 @@ description: E-postmeddelanden som genererats av Workfront Proof informerar meda
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ E-postmeddelanden informerar medarbetare om den senaste aktiviteten i korrektur,
 
 Du kan ange e-postmeddelanden för granskare inom följande områden:
 
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>Fristående Workfront Proof</td> 
+  </tr> 
+</table>
+
+E-postmeddelanden till granskarna kan anges på sidan Nytt korrektur. [!UICONTROL New version] och hanteras i [!UICONTROL Workflow] i [!UICONTROL Proof details] sida. Mer information finns i [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * Sidan Nytt korrektur
 * The [!UICONTROL New version] page
 * The [!UICONTROL Workflow] i [!UICONTROL Proof details] sida.
 
 Mer information finns i [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+Alla användare kan också ange egna e-postaviseringsinställningar som automatiskt tillämpas när ett korrektur delas med dem om medarbetarna har sina inställningar eller kontoadministratörer har sina rekommendationer om hur ofta aviseringar ska göras. Detta kan anges som korrekturstandard på användarnas informationssidor.
 
 Alla användare kan också ange egna e-postaviseringsinställningar som automatiskt tillämpas när ett korrektur delas med dem. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

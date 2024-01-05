@@ -7,20 +7,22 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
 
 # Skapa uppgifter i ett projekt
 
+<!-- Audited: 1/2024 -->
+
 Du kan bara skapa uppgifter i ett projekt efter att du har skapat projektet.
 
 När du har skapat ett projekt kanske du vill lägga till uppgifter och ändra dem för att ordna projektplanen. Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-Mer information om hur du skapar personliga uppgifter som inte finns i ett projekt finns i avsnittet&quot;Skapa en personlig uppgift&quot; i artikeln [Skapa arbetsobjekt från hemområdet](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Mer information om hur du skapar personliga uppgifter som inte finns i ett projekt finns i [Skapa en personlig uppgift](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) i artikeln [Skapa arbetsobjekt från startdelen](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 I den här artikeln beskrivs hur du skapar åtgärder från grunden. Du kan också skapa uppgifter på följande sätt:
 
@@ -28,35 +30,6 @@ I den här artikeln beskrivs hur du skapar åtgärder från grunden. Du kan ocks
 * Genom att flytta uppgifter från ett projekt till ett annat. Mer information finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Åtkomstkrav
-
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,7 +41,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-licens*</p> </td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td><p>Aktuell: Arbete eller högre</p> 
+   eller
+   <p>Nytt: Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -81,14 +56,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
+
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Skapa uppgifter i ett projekt
 
 1. Gå till det projekt där du vill skapa en uppgift.
-1. Klicka **Uppgifter** i den vänstra panelen.
+1. Klicka **Uppgifter** till vänster.
 1. (Villkorligt) Om du visar uppgiftslistan i en flexibel vy klickar du på **Listvy** icon ![](assets/list-view-in-agile-view-for-tasks.png) i det övre högra hörnet för att visa uppgiftslistan.
-1. (Valfritt) Klicka på **Planläge** icon ![](assets/nwe-plan-mode-icon-task-list.png) och markera **Spara manuellt** väljer du antingen **Standard** eller **Planering av tidslinje**. Detta inaktiverar **Spara automatiskt** som är aktiverat som standard.
+1. (Valfritt) Klicka på **Planläge** icon ![](assets/nwe-plan-mode-icon-task-list.png) och markera **Spara manuellt** väljer du antingen **Standard** eller **Planering av tidslinje**. Detta inaktiverar **Spara automatiskt** som aktiveras som standard.
 
    ![Välj Spara manuellt](assets/manual-save-option.png)
 
@@ -98,8 +74,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Skapa en ny uppgift genom att göra något av följande:
 
-   * Klicka **Ny uppgift** högst upp i uppgiftslistan
-   * Klicka **Lägg till fler aktiviteter** längst ned i uppgiftslistan
+   * Klicka **Ny uppgift** högst upp i uppgiftslistan.
+   * Klicka **Lägg till fler aktiviteter** längst ned i uppgiftslistan.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
@@ -126,7 +102,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. Ange information för följande områden i den vänstra panelen i rutan Skapa uppgift:
 
       * Aktivitetsnamn
-      * Översikt
+      * Ökning
       * Uppdrag
       * Anpassad Forms
       * Ekonomi
@@ -134,7 +110,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
         Mer information om hur du definierar alla uppgiftsrelaterade fält i en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-   1. (Villkorligt och valfritt) Uppdatera **Återkommande frekvens** fält. Mer information om hur du skapar återkommande uppgifter finns i [Skapa återkommande uppgifter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+   1. (Villkorligt och valfritt) Om du vill att uppgiften ska vara återkommande uppdaterar du **Återkommande frekvens** fält. Mer information om hur du skapar återkommande uppgifter finns i [Skapa återkommande uppgifter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att bifoga ett dokument till den nya uppgiften och klicka sedan på **Lägga till eller länka filer** om du vill lägga till ett dokument till uppgiften från datorn, en annan tjänst eller länka dokument och mappar från datorn eller en annan tjänst.
 
 1. (Villkorligt) Om du klickade **Lägg till fler aktiviteter** i steg 5 börjar du att ange uppgiftsinformationen med hjälp av redigering online och trycker sedan på Retur.
@@ -149,7 +125,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Villkorligt) Gör något av följande:
 
-   * Om du klickade **Ny uppgift** i steg 5, klicka **Skapa uppgift** för att spara ändringarna och lägga till den nya uppgiften i projektet.
+   * Om du klickade **Ny uppgift** i steg 5 klickar du på **Skapa uppgift** för att spara ändringarna och lägga till den nya uppgiften i projektet.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
@@ -161,7 +137,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 
-      1. Klicka var som helst i webbläsaren för att skicka ändringarna eller tryck på Enter.
+      1. Klicka var som helst i webbläsaren för att skicka ändringarna eller tryck på Retur.
       1. (Valfritt) Markera den nyligen skapade uppgiften i uppgiftslistan och klicka sedan på **Indrag**.
 
          Detta gör den nya uppgiften till en underordnad uppgift eller underuppgift till den föregående uppgiften.

@@ -7,33 +7,31 @@ description: Det finns flera typer av datum som visar tidslinjen för uppgifter 
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
 
 # Differentiera mellan planerade och beräknade datum
 
-Det finns flera typer av datum som visar tidslinjen för uppgifter mellan när de kan starta och när de kan slutföras. 
-
-Nedan följer några datum som visar tidslinjen för uppgifter:
+Det finns flera typer av datum som visar tidslinjen för uppgifter mellan när de kan starta och när de kan slutföras. Nedan följer några datum som visar tidslinjen för uppgifter:
 
 * Planerade startdatum och planerade slutförandedatum
 * Planerade startdatum och planerade slutförandedatum
 * Beräknad starttid och beräknad förfallotid
 * Faktiska start- och slutförandedatum
 
-I den här artikeln beskrivs skillnaderna mellan beräknade och planerade datum för projekt. När aktiviteten skapas för första gången bör datumen för planerad, projicerad och beräknad matcha. Det finns vissa undantag. 
+I den här artikeln beskrivs skillnaderna mellan beräknade och planerade datum för projekt.
 
-Mer information om projekt-, uppgifts- och utfärdandedatum i Adobe Workfront finns i [Översikt över Project-, Task- och Issue-datum i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+När aktiviteten skapas för första gången bör datumen för planerad, projicerad och beräknad matcha. Det finns vissa undantag. 
+
+Mer information om projekt-, uppgifts- och utgivningsdatum i Adobe Workfront finns i [Översikt över Project-, Task- och Issue-datum i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Översikt över planerade datum
 
-Planerade datum är de datum som projektägaren definierar som start- och slutdatum för aktiviteterna. 
-
-Du eller projektägaren kan ändra planerade datum för en uppgift manuellt.
+Planerade datum är de datum som projektägaren definierar som start- och slutdatum för aktiviteterna. Du eller projektägaren kan ändra planerade datum för en uppgift manuellt.
 
 ## Översikt över faktiska datum
 
@@ -47,9 +45,9 @@ Tänk på följande när du arbetar med Planerade och beräknade datum för uppg
 
 * Du kan inte ändra varken beräknade eller planerade datum för uppgifter manuellt. Båda beräknas av Adobe Workfront.
 * När du skapar en uppgift bör datumen för Projicerat och Uppskattat vara identiska och de bör visa de faktiska tidpunkterna när uppgifterna kan börja eller sluta.\
-   Vissa uppdateringar som du gör för uppgifter påverkar värdena för Planerade och Uppskattade datum direkt. 
+  Vissa uppdateringar som du gör för uppgifter påverkar värdena för Planerade och Uppskattade datum direkt. 
 
-   Om användaren till exempel startar eller slutför en uppgift, visar aktiviteten Faktiska start- och slutförandedatum som påverkar aktivitetens beräknade och beräknade datum. Om en tilldelad för aktiviteten ändrar implementeringsdatumet påverkar det här datumet även aktivitetens planerade datum.
+  Om användaren till exempel startar eller slutför en uppgift, visar aktiviteten Faktiska start- och slutförandedatum som påverkar aktivitetens beräknade och beräknade datum. Om en tilldelad för aktiviteten ändrar implementeringsdatumet påverkar det här datumet även aktivitetens planerade datum.
 
 ## Skillnad mellan planerade och beräknade datum
 
@@ -68,8 +66,6 @@ Det beräknade slutförandedatumet beräknas utifrån det aktuella förloppet f�
 
 Om aktiviteten har slutförts till 50 % idag är det beräknade slutförandedatumet den 25 september (det ska vara slutfört efter 2 dagar, vilket är halva tiden för uppgiften).
 
-* [Förstå när planerade datum uppdateras för aktiviteter](#understand-when-projected-dates-update-on-tasks)
-* [Förstå när beräknade datum uppdateras för uppgifter](#understand-when-the-estimated-dates-update-on-tasks)
 
 ### Förstå när planerade datum uppdateras för aktiviteter {#understand-when-projected-dates-update-on-tasks}
 
@@ -79,35 +75,35 @@ I följande lista visas flera scenarier när de beräknade datumen för uppgifte
 
 * När en uppgift har markerats som slutförd:
 
-   *Planerade datum = Uppskattade datum = Faktiska datum*
+  *Planerade datum = beräknade datum = faktiska datum*
 
 * När en uppgift har ett faktiskt startdatum:
 
-   *Planerat startdatum = beräknat startdatum = faktiskt startdatum*
+  *Planerat startdatum = beräknat startdatum = faktiskt startdatum*
 
 * När en aktivitet inte har ett faktiskt startdatum, men det finns ett obligatoriskt villkor för det planerade startdatumet (måste börja den) som kommer i framtiden:
 
-   *Planerat startdatum = villkorsdatum*
+  *Planerat startdatum = villkorsdatum*
 
-   Mer information om begränsningsdatum finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  Mer information om begränsningsdatum finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * När en aktivitet inte har ett faktiskt startdatum och aktiviteten inte har ett tvingat villkorsdatum:
 
-   *Planerat startdatum = nästa tillgängliga datum i framtiden som ligger inom arbetsschemat*
+  *Planerat startdatum = nästa tillgängliga datum i framtiden som ligger inom arbetsschemat*
 
 * När den som tilldelats uppdaterar implementeringsdatumet:
 
-   *Planerat slutförandedatum = Bekräftelsedatum*
+  *Planerat slutförandedatum = Bekräftelsedatum*
 
-   Mer information om implementeringsdatum finns i [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Mer information om implementeringsdatum finns i [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * När aktiviteten inte har ett uppdaterat implementeringsdatum och aktiviteten har en tvingad begränsning (Måste slutföras) för det planerade slutförandedatumet som infaller i framtiden:
 
-   *Planerat slutförandedatum = Begränsningsdatum*
+  *Planerat slutförandedatum = Begränsningsdatum*
 
 * När en aktivitet inte har ett uppdaterat implementeringsdatum, ett framtvingat villkorsdatum i framtiden eller har ett tidigare begränsningsdatum:
 
-   *Planerat slutförandedatum = systemberäkning för slutförandedatum baserat på den aktuella förloppet och det arbete som återstår att utföra*
+  *Planerat slutförandedatum = systemberäkning för slutförandedatum baserat på den aktuella förloppet och återstående arbete*
 
 ### Förstå när beräknade datum uppdateras för uppgifter {#understand-when-the-estimated-dates-update-on-tasks}
 
@@ -117,12 +113,12 @@ Jämfört med de scenarier som beskrivs ovan för Planerade datum återspeglar d
 
 Nedan följer några exempel på vad som kan påverka den verkliga tidslinjen för en uppgift: 
 
-* aktivitetsförlopp i relation till planerade datum och till aktuell dag
-* procent färdigt för uppgiften hittills
-* föregående relation
-* föregående förlopp
-* användartilldelning
+* Uppgiftsförlopp i relation till planerade datum och till aktuell dag
+* Procent färdigt för uppgiften hittills
+* Föregående relation
+* Föregående förlopp
+* Användartilldelning
 
-   >[!NOTE]
-   >
-   >Användartilldelning kan påverka det beräknade slutförandedatumet för en aktivitet om det påverkar hastigheten med vilken uppgiften kan slutföras. Om till exempel varaktighetstypen för aktiviteten är Anstruken kan du slutföra uppgiften tidigare genom att lägga till tilldelningar. Därför ändras det beräknade slutförandedatumet.
+  >[!NOTE]
+  >
+  >Användartilldelning kan påverka det beräknade slutförandedatumet för en aktivitet om det påverkar hastigheten med vilken uppgiften kan slutföras. Om till exempel varaktighetstypen för aktiviteten är Anstruken kan du slutföra uppgiften tidigare genom att lägga till tilldelningar. Därför ändras det beräknade slutförandedatumet.

@@ -7,14 +7,16 @@ description: Du kan sammanfoga informationen som visas i flera separata kolumner
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # Visa: sammanfoga information från flera kolumner i en delad kolumn
+
+<!-- Audited: 1/2024 -->
 
 Du kan sammanfoga informationen som visas i flera separata kolumner och visa den i en delad kolumn.
 
@@ -32,8 +34,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td> <p> Aktuell: 
+   <ul>
+   <li>Begäran om att ändra en vy</li> 
+   <li>Planera att ändra en rapport</li>
+   </ul>
+     </p>
+     <p> Nytt: 
+   <ul>
+   <li>Medarbetare som ändrar en vy</li> 
+   <li>Standard för att ändra en rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -77,7 +90,7 @@ Du kan sammanfoga data från flera separata kolumner så att de visas i en kolum
 >
 >Det här arbetssättet rekommenderas när du sammanfogar två kolumner som aldrig kan visa ett värde för samma post samtidigt. I en arbetsuppgiftsrapport kan till exempel kolumnerna Utgivningsnamn och Uppgiftsnamn sammanfogas utan en radbrytning mellan dem, eftersom en arbetsuppgift aldrig kan ha ett Frågenamn och ett Uppgiftsnamn samtidigt. En arbetsuppgift kan antingen vara en utgåva eller en uppgift i Workfront.
 
-Så här gör du:
+Så här sammanfogar du data från två kolumner utan radbrytning:
 
 1. Lägg till följande text i den första kolumnen som du vill sammanfoga i textläge för en vy:
 

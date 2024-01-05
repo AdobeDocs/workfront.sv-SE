@@ -9,7 +9,7 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 0%
@@ -353,7 +353,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Method]</td> 
-   <td>Ange åtgärden för API-anropet. Information om tillgängliga åtgärder finns i <a href="http://api.proofhq.com/">Korrektur för API-dokumentation</a>.</td> 
+   <td>Ange åtgärden för API-anropet. Information om tillgängliga åtgärder finns i <a href="https://api.proofhq.com/">Korrektur för API-dokumentation</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 

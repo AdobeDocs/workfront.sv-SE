@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
-source-wordcount: '13844'
+source-wordcount: '13846'
 ht-degree: 0%
 
 ---
@@ -551,7 +551,7 @@ ht-degree: 0%
          * [Kopiera en layoutmall](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [Ta bort klassiska layoutmallar med ett API-anrop](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Egna formulär {#custom-forms}
-         * [Egna formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [Anpassade formulär: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Översikt över anpassade formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Äldre anpassad formulärbyggare {#custom-form-builder}
             * Använda verktyget för anpassade formulär {#use-the-custom-form-builder}

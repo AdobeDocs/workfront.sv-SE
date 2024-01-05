@@ -7,7 +7,7 @@ description: Du kan använda IF-programsatser i allmänna programmeringsspråk. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Översikt över IF-programsatser
+
+<!-- Audited: 1/2024 -->
 
 Du kan använda IF-programsatser i allmänna programmeringsspråk. I Adobe Workfront kan du använda IF-satser för att jämföra, formatera och strängsätta datafält, både för rapportering och för anpassade datamängder. Att tänka matematiskt på&quot;IF&quot;-satser leder också till en bättre konceptuell förståelse eftersom variabler för uttryck ofta används.
 
@@ -44,10 +46,10 @@ Tänk på följande innan du skapar en IF-programsats:
 Du kan skapa IF-satser i Workfront med följande format:
 <pre>IF(villkor,sant uttryck,falskt uttryck)</pre>Komponenterna i en IF-programsats är:
 
-* **IF**= Detta är det beräknade Workfront-datauttrycket för &quot;function&quot;. På samma sätt som SUM- och PROD-uttrycken anger detta först att funktionen ska tolkas som en IF-sats. Använd alltid versaler för &quot;IF&quot; i den här kontoutdraget.\
+* **IF** = Detta är det beräknade Workfront-datauttrycket för &quot;function&quot;. På samma sätt som SUM- och PROD-uttrycken anger detta först att funktionen ska tolkas som en IF-sats. Använd alltid versaler för &quot;IF&quot; i den här kontoutdraget.\
   En lista över alla beräknade datameddelanden finns i [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **Villkor**= Detta är villkoret som Workfront-variabeln måste uppfylla och det är grunden för den här ekvationen. Allt som senare kan anges i ekvationen beror på villkoret. Du kan använda ett antal referenser, jämförelser eller matematiska uttryck för att starta en ekvation. Några exempel på villkor är:
+* **Villkor** = Detta är villkoret som Workfront-variabeln måste uppfylla och det är grunden för den här ekvationen. Allt som senare kan anges i ekvationen beror på villkoret. Du kan använda ett antal referenser, jämförelser eller matematiska uttryck för att starta en ekvation. Några exempel på villkor är:
 
    * Ett datum är större än ett annat datum för ett angivet objekt.
    * En status är lika med en av de tillgängliga statusvärdena för ett angivet objekt.
@@ -55,9 +57,9 @@ Du kan skapa IF-satser i Workfront med följande format:
 
 * **Villkorsoperator** = det här är den operator som hjälper dig att skapa villkoret för programsatsen&quot;IF&quot;. &quot;är lika med&quot; eller &quot;är större än&quot; är villkorsoperatorer. En lista över villkorsoperatorer som du kan använda i programsatser finns i [Villkorsoperatorer i beräknade anpassade uttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expression**= Det här är variabeln &quot;True&quot;, som anger vilken indikator som ska visas när villkoren för villkoret är uppfyllda (sanna indikatorer).
+* **True****Expression** = Det här är variabeln &quot;True&quot;, som anger vilken indikator som ska visas när villkoren för villkoret är uppfyllda (sanna indikatorer).
 
-* **Falskt uttryck**= Det här är variabeln &quot;False&quot;, som anger vilken indikator som ska visas för ekvationen när villkoren för villkoret inte uppfylls (falska indikatorer).
+* **Falskt uttryck** = Det här är variabeln &quot;False&quot;, som anger vilken indikator som ska visas för ekvationen när villkoren för villkoret inte uppfylls (falska indikatorer).
 
 I följande exempel används det ursprungliga programsatsformatet för att skriva ett enkelt datauttryck för en IF-programsats. Uttrycket jämför två olika datumfält i Workfront följt av ett True/False-resultat som en datasträng:
 

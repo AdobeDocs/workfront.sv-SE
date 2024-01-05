@@ -3,16 +3,19 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Konfigurera [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 description: Du kan koppla ditt arbete till innehållet i [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
 
 # Konfigurera [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,7 +48,8 @@ Du måste ha följande:
   <tr>
    <td><strong>[!DNL Adobe Workfront] licenser*</strong>
    </td>
-   <td>[!UICONTROL Plan]
+   <td>Aktuell: [!UICONTROL Plan] <br>
+   Nytt: [!UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -81,7 +85,8 @@ Innan du börjar,
 
 ## Ställ in integreringsinformation
 
-1. Klicka på **[!UICONTROL Main Menu]** i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Setup]** .
+{{step-1-to-setup}}
+
 1. Välj **[!UICONTROL Documents]** i den vänstra panelen väljer **[!UICONTROL [!DNL Experience Manager] Integration]**.
 
    >[!NOTE]
