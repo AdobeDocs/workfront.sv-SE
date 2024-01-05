@@ -6,14 +6,16 @@ description: Gantt-scheman i Adobe Workfront ger en visuell representation av ti
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Kom igång med [!UICONTROL Gantt Chart]
+
+<!-- Audited: 01/2024 -->
 
 Gantt-scheman i Adobe Workfront ger en visuell representation av tidslinjen för en lista över uppgifter eller projekt.
 
@@ -35,7 +37,7 @@ I [!DNL Adobe Workfront], det finns två [!UICONTROL Gantt Charts] med liknande 
 * Du kan konfigurera vilken information som ska visas i båda uppgiftslistorna [!UICONTROL Gantt Chart] och projektlistan [!UICONTROL Gantt Chart].
 * Du kan inte konfigurera färgerna eller teckensnitten som [!UICONTROL Gantt chart] information visas.
 * När information uppdateras från uppgifter återspeglas den automatiskt i både uppgiftslistan [!UICONTROL Gantt Chart] och projektlistan [!UICONTROL Gantt Chart].
-* När information uppdateras från malluppgifterna återspeglas den automatiskt i malluppgiftslistan [!UICONTROL Gantt Chart].
+* När information uppdateras från malluppgifter återspeglas den automatiskt i malluppgiftslistan [!UICONTROL Gantt Chart].
 
 ## Öppna [!UICONTROL Gantt Chart]
 
@@ -44,9 +46,6 @@ The [!UICONTROL Gantt] diagram i [!DNL Workfront]  ger en visuell representation
 Du kan visa uppgiftslistan [!UICONTROL Gantt Chart] direkt från uppgiftslistan i ett projekt eller från en uppgiftsrapport.
 
 Du kan visa projektlistan [!UICONTROL Gantt Chart] i en projektlista eller en projektrapport.
-
-* [Uppgiftslista [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
-* [Projektlista [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
 
 ### Uppgiftslista [!UICONTROL Gantt Chart] {#task-list-gantt-chart}
 

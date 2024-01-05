@@ -3,44 +3,48 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Översikt över kalenderrapporter
-description: En kalenderrapport är egentligen en dynamisk rapport som ger en visuell representation av ditt arbete.
+description: En kalenderrapport är en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan visa datuminformation i en kalenderrapport för uppgifter, utgåvor och projekt.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Översikt över kalenderrapporter
 
-En kalenderrapport är egentligen en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan visa datuminformation i en kalenderrapport för följande objekt:
+<!-- Audited: 01/2024 -->
+
+En kalenderrapport är egentligen en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan visa datuminformation i en kalenderrapport för följande objekt:
 
 * Uppgifter
 * Problem
 * Projekt
 
-Din möjlighet att få åtkomst till kalenderrapporter i [!DNL Adobe Workfront] bestäms av [!DNL Workfront] genom din åtkomstnivå. Mer information om åtkomstnivån som behövs för att visa kalenderrapporter finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Din möjlighet att få åtkomst till kalenderrapporter i [!DNL Adobe Workfront] bestäms av din åtkomstnivå. Mer information om åtkomst som krävs för att visa kalenderrapporter finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Skapa egna kalendrar
 
-[!UICONTROL Workfront] skapar automatiskt en egen standardkalender när:
+[!DNL Workfront] skapar automatiskt din personliga standardkalender när:
 
-* En nyskapad användare som inte har tillgång till några andra kalendrar besöker kalenderrapportsidan för första gången\
-   ELLER
-* En användare tar bort alla kalendrar manuellt och har inte åtkomst till några andra kalendrar
+* Du är en nyskapad användare som inte har tillgång till några andra kalendrar och du går till kalenderrapportsidan för första gången
 
->[!NOTE]
->
->Den personliga kalendern skapas inte om användaren har åtkomst till andra kalendrar, till exempel en systemomfattande delad kalender eller kalendrar som delas specifikt med användaren.
+  ELLER
 
-Dessutom kan användare skapa kalendrar och komma åt kalendrar som delas med dem av andra användare. Det finns ingen gräns för hur många kalendrar som en användare har tillgång till i Workfront.
+* Du kan ta bort alla kalendrar manuellt och inte ha tillgång till några andra kalendrar
 
 >[!NOTE]
 >
->Du måste ha [!UICONTROL Edit] behörighet till [!UICONTROL Reports], [!UICONTROL Dashboards]och [!UICONTROL Calendars] på din åtkomstnivå för att skapa en kalenderrapport. Kontakta [!DNL Workfront] administratör.
+>Den personliga kalendern skapas inte om du har tillgång till andra kalendrar, till exempel en systemomfattande delad kalender eller kalendrar som delas specifikt med dig.
+
+Dessutom kan du skapa kalendrar och komma åt kalendrar som delas med dig av andra användare. Det finns ingen gräns för hur många kalendrar du kan få åtkomst till i [!DNL Workfront].
+
+>[!NOTE]
+>
+>Du måste ha [!UICONTROL Edit] behörighet till [!UICONTROL Reports], [!UICONTROL Dashboards]och [!UICONTROL Calendars] på din åtkomstnivå för att skapa en kalenderrapport. Kontakta [!DNL Workfront] administratör om du vill ha mer information.
 
 ## Gruppera artiklar efter datum
 
