@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för väntande godkännanden tillgänglig</a></p><p><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem. </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 3 januari 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administratörskontroller för nya Hem med layoutmallar</a></p><p>Administratörer kan nu anpassa nya startsidor för användare med hjälp av layoutmallar. Anpassningsalternativen inkluderar val av obligatoriska widgetar och deras placering, val av bakgrund och widgetspecifika alternativ för att välja tillgängliga filter och grupper (och inställning av standardvärden).</p>
                     </td>

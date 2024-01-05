@@ -4,9 +4,9 @@ description: Första kvartalet 2024, förbättringar av startsidan
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Den här sidan beskriver alla hemförbättringar som gjorts i första utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den första utgåvan av kvartal 2024.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Ny widget för väntande godkännanden tillgänglig
+
+För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem. Här visas en lista över användare som har tilldelats behörighet att godkänna eller granska dokument i projekt som du äger, hur de ser på granskningen eller godkännandet och en påminnelse till granskare och godkännare att slutföra granskningen eller godkännandet.
+
+Mer information om Hem-widgetar finns i [Kom igång med nya startsidan](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Administratörskontroller för nya Hem med layoutmallar
 
