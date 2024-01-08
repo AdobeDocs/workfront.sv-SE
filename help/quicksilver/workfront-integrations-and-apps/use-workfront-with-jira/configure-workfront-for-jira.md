@@ -6,9 +6,9 @@ description: Du kan använda [!DNL Adobe Workfront for Jira] integrera [!DNL Jir
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2205'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]*</td> 
+   <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]</td> 
    <td><p>Nytt: Alla</p>
        <p>eller</p>
        <p>Aktuell: [!UICONTROL Pro] eller högre</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td><p>Nytt: [!UICONTROL Standard] </p>
        <p>eller</p> 
        <p>Aktuell: [!UICONTROL Plan] </p>
@@ -54,13 +54,13 @@ Du måste ha följande:
    <td> <p>Systemadministratörsåtkomst</p> <p>Viktigt: Vi rekommenderar att du skapar separata systemadministratörskonton i [!DNL Jira] och [!DNL Workfront] att ägna sig åt den här integreringen, i stället för att använda befintliga integreringar som kan kopplas till användare.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör. För information om [!DNL Workfront] administratörer, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 

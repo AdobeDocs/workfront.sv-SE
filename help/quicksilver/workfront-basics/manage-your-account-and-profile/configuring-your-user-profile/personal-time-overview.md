@@ -7,9 +7,9 @@ description: Det är viktigt att ange i Adobe Workfront när en godkänd tid är
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -45,24 +45,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td> <p>Nytt: Standard (för att konfigurera din personliga tid till ledig)</p>
         <p>eller</p>
         <p>Aktuell: Arbeta eller högre (för att konfigurera din personliga tid till ledig)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td>[!UICONTROL Manager] med [!UICONTROL Edit User] åtkomst (för att ändra tiden i kalendern för andra användare)<br>
    <strong>OBS!</strong> Om en chef redigerar en annan användares personliga tid i kalendern visas alla poster i användarens tidszon och inte i hanterarens tidszon.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Konfigurera personlig timeout i [!DNL Workfront]
 

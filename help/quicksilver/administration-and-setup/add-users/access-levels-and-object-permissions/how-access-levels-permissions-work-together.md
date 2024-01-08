@@ -10,9 +10,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ På en anpassad åtkomstnivå kan du konfigurera inställningarna för dessa obj
 >
 >Vi rekommenderar att du låter de inbyggda åtkomstnivåerna vara oförändrade så att du kan referera till dem när du har konfigurerat användarna. Om du vill anpassa en åtkomstnivå kopierar du standardåtkomstnivån och ändrar kopian. (Du kan göra detta för alla åtkomstnivåer förutom systemadministratör och extern användare.)
 
-En detaljerad förklaring av de olika standardåtkomstnivåerna finns i [Inbyggda åtkomstnivåer i Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+En detaljerad förklaring av de olika standardåtkomstnivåerna finns i [Inbyggda åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 Instruktioner om hur du tilldelar en åtkomstnivå till en användare finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -76,20 +76,20 @@ Instruktioner om hur du tilldelar en åtkomstnivå till en användare finns i [R
 
 När du delar ett objekt med någon i systemet kan en användare ge mottagaren någon av följande behörigheter till objektet.
 
-* **Visa**: Den här behörighetsnivån tillåter att mottagaren delar objektet på något av följande sätt:
+* **Visa**: Den här behörighetsnivån tillåter mottagaren att dela objektet på något av följande sätt:
 
    * System-wide så att alla användare kan se det (inte tillgängligt för alla objekt)
    * Med externa användare som inte har någon Workfront-licens (inte tillgänglig för alla objekt)
    * Med en e-postadress (endast tillgängligt för dokument)
 
 * **Contribute**: (ej tillgängligt för alla objekt)
-* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som delaren tilldelat. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
+* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som har beviljats av den som delar objektet. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
 
-   >[!INFO]
-   >
-   >**Exempel:** Om mottagarens åtkomstnivå inte tillåter projektredigering kan den personen inte redigera eller ta bort ett projekt även om den som delar har gett behörighet att hantera det.
-   >
-   >Eller, om mottagarens åtkomstnivå tillåter projektredigering, men användaren bara har gett behörighet att visa ett projekt, kan användaren inte redigera eller ta bort projektet.
+  >[!INFO]
+  >
+  >**Exempel:** Om mottagarens åtkomstnivå inte tillåter projektredigering kan den personen inte redigera eller ta bort ett projekt även om den som delar har gett behörighet att hantera det.
+  >
+  >Eller, om mottagarens åtkomstnivå tillåter projektredigering, men användaren bara har gett behörighet att visa ett projekt, kan användaren inte redigera eller ta bort projektet.
 
 I följande tabell jämförs en användares allmänna åtkomst till objekt (som definieras av användarens åtkomstnivå) med behörigheter för ett specifikt delat objekt:
 
@@ -126,10 +126,9 @@ I följande tabell jämförs en användares allmänna åtkomst till objekt (som 
 
 >[!NOTE]
 >
->* Om en användare delar ett objekt med vissa behörigheter och objektet har underordnade objekt, ärver mottagaren samma behörigheter för dessa underordnade objekt.
+>* Om en användare delar ett objekt med vissa behörigheter och det objektet har underordnade objekt under sig, ärver mottagaren samma behörigheter för dessa underordnade objekt.
 >* Om en åtkomstnivå begränsar användare från att ta bort vissa objekt, hindras de inte från att ta bort underordnade objekt som finns i dessa objekt.
 >
-
 
 ## Fler exempelscenarier
 

@@ -1,5 +1,5 @@
 ---
-title: Skapa eller ändra anpassade åtkomstnivåer
+title: Skapa och ändra anpassade åtkomstnivåer
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%

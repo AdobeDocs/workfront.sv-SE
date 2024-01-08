@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Tabellen och diagrammet visar de viktigaste åtkomstnivåerna till Workfront:
 
 >[!NOTE]
 >
->Extern licens är inte en betald licens. Den är främst avsedd för dokumentutbyte med medarbetare som inte använder Workfront. Mer information finns i [Inbyggda åtkomstnivåer i Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>Extern licens är inte en betald licens. Den är främst avsedd för dokumentutbyte med medarbetare som inte använder Workfront. Mer information finns i [Inbyggda åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## Så här definierar en licens en åtkomstnivå
 
