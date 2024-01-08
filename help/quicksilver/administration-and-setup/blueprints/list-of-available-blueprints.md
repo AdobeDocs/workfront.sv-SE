@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
+source-git-commit: d07902daa53c83b6ee50dbb53bc84b42f6098407
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Den här planen innehåller konfigurationen av organisationsstrukturer som ska u
 **[!UICONTROL Information Technology Organization Setup]**
 Den här planen innehåller konfigurationen av organisationsstrukturer som kan användas i ett IT-användningsfall.
 
-**[!UICONTROL Inherited Instance Basics | Checklist]**
+[!BADGE Nyhet!]{type=Informative}**[!UICONTROL Inherited Instance Basics | Checklist]**
 Den här planen innehåller en projektmall (eller checklista) som du kan granska med en kort lista över frågor, resurser och länkar för att få en tydlig förståelse för hur din Workfront-instans har konfigurerats. Använd detta när du nyligen har ärvt en Workfront-instans och behöver hjälp med var du ska börja.
 
 **[!UICONTROL Integrated Campaign Execution]**
@@ -79,7 +79,7 @@ Den här planen innehåller en mall för [!DNL Workfront professional services] 
 **[!UICONTROL New Hire Readiness]**
 Den här planen innehåller en mall för [!DNL Workfront] En organisation som arbetar med professionella tjänster har under många år använt sig av personalavdelningen för att få personalspecialister och personalchefer att slutföra viktiga aktiviteter så att en ny medarbetares första dag blir utomordentlig.
 
-**Offboarding | Avgår från användarinstrumentpanel**
+[!BADGE Nyhet!]{type=Informative}**Offboarding | Avgår från användarinstrumentpanel**
 
 Denna plan innehåller en enda kontrollpanel med 13 rapporter som hjälper dig att hitta, omfördela eller på annat sätt hantera objekt och uppgifter som är kopplade till en användare som lämnar Workfront. Du kan också använda dessa rapporter för en användare som går in i en ny roll eller grupp för att tilldela om deras arbete.
 
@@ -104,7 +104,7 @@ Den här planen innehåller konfigurationen av organisationsstrukturer för att 
 **[!UICONTROL Recruiting Process Tracking]**
 I den här planen definieras en checklista för interna rekryteringsresurser som kan användas för att hjälpa affärsintressenter att spåra förloppet för personalförfrågningar. Den är utformad för att stödja en hanterad mognadsnivå.
 
-**Förberedelse för resurshantering**
+[!BADGE Nyhet!]{type=Informative}**Förberedelse för resurshantering**
 
 Använd den här projektmallen och användarrapporten för att kontrollera att du har rätt inställningar och information för att generera korrekta data för resurshantering.
 
@@ -126,7 +126,7 @@ Den här planen innehåller en mall för [!DNL Workfront] en organisation som ar
 **[!UICONTROL System Administrator Maintenance Dashboard]**
 Den här planen innehåller en enda instrumentpanel som hjälper systemadministratörer att regelbundet underhålla och rensa systemet från störande störningar som kan uppstå över tid.
 
-**Värderealisering | Instrumentpanel för kärnvärde**
+[!BADGE Nyhet!]{type=Informative}**Värderealisering | Instrumentpanel för kärnvärde**
 
 Denna plan innehåller en enda kontrollpanel med 21 rapporter som hjälper dig att mäta värdet av Workfront. Dessa rapporter hjälper er att omvandla fördelarna med centraliserade arbetsprocesser och hantering av arbetsprocesser till mätbara värden som ni kan spåra över tiden för att få bättre resultat.
 
@@ -134,7 +134,7 @@ Denna plan innehåller en enda kontrollpanel med 21 rapporter som hjälper dig a
 
 Denna plan innehåller en enda kontrollpanel med åtta rapporter som hjälper dig att dra nytta av fördelarna med Workfront. Dessa rapporter är utformade för att hjälpa er att omvandla era kundriktade tjänster till mätbart värde som ni kan spåra över tiden för att få bättre resultat.
 
-**Värderealisering | Granska och godkänn kontrollpanelen**
+[!BADGE Nyhet!]{type=Informative}**Värderealisering | Granska och godkänn kontrollpanelen**
 
 Denna plan innehåller en enda kontrollpanel med 7 rapporter som hjälper dig att förverkliga värdet av Workfront. Dessa rapporter hjälper er att omsätta värdena för granskning och godkännande av arbeten till mätbara fördelar som ni kan följa över tiden för att få bättre resultat.
 
