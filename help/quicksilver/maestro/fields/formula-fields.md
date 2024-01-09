@@ -4,9 +4,9 @@ description: I Adobe Maestro kan du skapa formelfält där funktioner och befint
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * Formelfält refererar till fält som tillhör samma posttyp. Du kan inte referera till fält från andra posttyper när du skapar ett formelfält. <!--is this still accurate??-->
 * Du kan inte ändra fälttypen för ett formelfält när du har sparat det.
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
-* Du kan inte använda uppslagsfält från länkade posttyper.
 * Du måste lägga till de fält som du refererar till i formler när de visas i maestro-gränssnittet.
+* Du kan använda sökfält från länkade posttyper i en formel vid ett senare datum.
 
 ## Formler som stöds
 

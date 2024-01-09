@@ -1,13 +1,13 @@
 ---
 title: Översikt över delningsbehörigheter i Adobe Maestro
-description: Du kan dela eller ta bort behörigheter till en Adobe Maestro-arbetsyta som du har skapat.
+description: Du kan dela eller ta bort behörigheter till en Adobe Maestro-arbetsyta eller -vy.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,15 @@ ht-degree: 0%
 >
 >Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
 
-Du kan dela eller ta bort behörigheter till en Adobe Maestro-arbetsyta som du har skapat.
+Du kan dela eller ta bort behörigheter till en Adobe Maestro-arbetsyta eller -vy.
+
+I den här artikeln beskrivs behörighetsnivåerna för Maestro-objekt.
+
+Mer information om hur du delar arbetsytor och vyer finns i följande artiklar:
+
+* [Dela en arbetsyta](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Dela en vy](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objekt som du kan dela i Adobe Maestro
 
@@ -48,6 +56,8 @@ Du kan dela följande objekt i Maestro:
 
    * Ny prismodell: Standardlicens
    * Aktuell prismodell: Arbeta eller högre licens
+
+  Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Systemadministratörer kan hantera och dela arbetsytor som andra användare har skapat.
 * Om du inte är systemadministratör kan du bidra till arbetsytor som skapats av andra om de delas med dig.
 * Du kan inte dela flera arbetsytor samtidigt.
@@ -58,44 +68,91 @@ Du kan dela följande objekt i Maestro:
 
 ## Delningsbehörigheter för Maestro-objekt
 
-Följande tabell visar vilken behörighetsnivå du kan välja när du delar en maestro-arbetsyta eller -vy:
+Tabellerna i följande avsnitt visar vilken behörighetsnivå du kan välja när du delar en maestro-arbetsyta eller -vy och vilka funktioner varje nivå tillåter.
 
+### Behörigheter för arbetsytan
+
+|        | Hantera | Contribute | Visa |
+|--------|--------|------------|-------|
+| Redigera | ✓ |            |       |
+| Dela | ✓ |            |       |
+| Ta bort | ✓ |            |       |
+| Visa | ✓ | ✓ | ✓ |
+
+### Posttypbehörigheter
+
+Posttypsbehörigheter ärvs när du ger behörighet till arbetsytan.
+
+|        | Hantera | Contribute | Visa |
+|--------|--------|------------|-------|
+| Skapa | ✓ |            |       |
+| Ta bort | ✓ |            |       |
+| Redigera | ✓ |            |       |
+| Visa | ✓ | ✓ | ✓ |
+
+### Spela in behörigheter
+
+Postbehörigheter ärvs när du ger behörighet till arbetsytan.
+
+|        | Hantera | Contribute | Visa |
+|--------|--------|------------|-------|
+| Skapa | ✓ |            |       |
+| Ta bort | ✓ | ✓ |       |
+| Redigera | ✓ | ✓ |       |
+| Visa | ✓ | ✓ | ✓ |
+
+### Fältbehörigheter
+
+Fältbehörigheter ärvs när du ger behörighet till arbetsytan.
+Följande behörigheter refererar till själva fälten och inte till värdena som associeras med varje fält. Om du vill redigera fältvärden måste du ha behörighet att redigera poster.
+
+|        | Hantera | Contribute | Visa |
+|--------|--------|------------|-------|
+| Skapa | ✓ |            |       |
+| Ta bort | ✓ |            |       |
+| Redigera | ✓ |            |       |
+| Visa | ✓ | ✓ | ✓ |
+
+
+### Visa behörigheter
+
+Du måste tilldela separata behörigheter för att spela in vyer. Om du ger behörighet till arbetsytan ges inte behörighet till postvyerna på arbetsytan.
+
+|        | Hantera | Visa |
+|--------|--------|-------|
+| Redigera | ✓ |       |
+| Ta bort | ✓ |       |
+| Visa | ✓ | ✓ |
+| Använd | ✓ | ✓ |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td><p><b>Nytt: Standardlicens</b></p> <p><b>Aktuell: Worker-licens eller högre</b></p></strong>
-   </td>
-   <td><strong>Hantera behörigheter</strong>
-   </td>
-   <td><strong>Contribute-behörigheter</strong>
-   </td>
-   <td><strong>Visa behörigheter</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Skapa</strong>
-   </td>
-   <td rowspan="5" ><strong>Arbetsyta</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
    <td>
    </td>
    <td>
+   </td>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
+   </td>
+   <td><strong>Manage permissions</strong>
+   </td>
+   <td><strong>Contribute permissions</strong>
+   </td>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Ta bort</strong>
+   <td><strong>Create</strong>
+   </td>
+   <td rowspan="5" ><strong>Workspace</strong>
    </td>
    <td>✓
    </td>
@@ -107,7 +164,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Dela</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -119,7 +176,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Redigera</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -131,21 +188,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Visa</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Skapa/ta bort</strong>
-   </td>
-   <td rowspan="3" ><strong>Posttyp*</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -157,19 +200,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Redigera</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Visa</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -181,9 +212,47 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Skapa/ta bort</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Post*</strong>
+   <td rowspan="3" ><strong>Record Type*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record*</strong>
    </td>
    <td>✓
    </td>
@@ -195,7 +264,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Redigera</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -207,7 +276,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Visa</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -220,21 +289,9 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
   </tr>
   <tr>
    <tr>
-   <td><strong>Skapa</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>Visa</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Ta bort</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -246,7 +303,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Dela</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -258,7 +315,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Redigera</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -270,7 +327,19 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Visa</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -283,9 +352,9 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
   </tr>
 
 <tr>
-   <td><strong>Skapa/ta bort</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Fält*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
    <td>✓
    </td>
@@ -297,7 +366,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Redigera</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -309,7 +378,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
    </td>
   </tr>
   <tr>
-   <td><strong>Visa</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -325,11 +394,7 @@ Följande tabell visar vilken behörighetsnivå du kan välja när du delar en m
 
 </table>
 
-*Posttyper, poster och fält ärver behörigheter från arbetsytan.
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Allmän information om åtkomst i Maestro finns på [Översikt över delningsbehörigheter i Adobe Maestro](../access/sharing-permissions-overview.md).
 
-Mer information om att dela arbetsytor finns i [Dela en arbetsyta](/help/quicksilver/maestro/access/share-workspaces.md).
-
-Mer information om att dela vyer finns i [Dela en vy](/help/quicksilver/maestro/access/share-views.md)
 

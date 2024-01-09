@@ -4,9 +4,9 @@ description: Du kan dela en vy med andra för att säkerställa samarbete när d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -83,14 +83,14 @@ Du kan dela vyer som du har skapat eller vyer som du har behörighet att hantera
 
 >[!NOTE]
 >
->Systemadministratörer kan inte visa eller dela vyer som de inte själva skapat.
+>Systemadministratörer kan inte visa eller dela vyer som de inte själva skapat. De kan bara visa eller dela vyer som delas med dem.
 
 
-Så här delar du en arbetsyta med andra:
+Så här delar du en vy med andra:
 
 {{step1-to-maestro}}
 
-1. Öppna arbetsytan som du vill dela och klicka sedan på ett posttypskort.
+1. Öppna arbetsytan vars vy du vill dela och klicka sedan på ett posttypskort.
 
    Då öppnas posttypssidan.
 
@@ -98,7 +98,7 @@ Så här delar du en arbetsyta med andra:
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. I **Ge arbetsytan åtkomst till** börjar du skriva namnet på en användare eller grupp och klickar sedan på den när den visas i listan.
+1. I **Ge vy åtkomst till** börjar du skriva namnet på en användare eller grupp och klickar sedan på den när den visas i listan.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ Så här delar du en arbetsyta med andra:
 
 {{step1-to-maestro}}
 
-1. Öppna arbetsytan som du vill dela och klicka sedan på ett posttypskort.
+1. Öppna arbetsytan vars vy du vill dela och klicka sedan på ett posttypskort.
 
    Då öppnas posttypssidan.
 
 1. Håll markören över den vy du vill dela i listrutan Visa och klicka på **Mer** meny ![](assets/more-menu.png) till höger om vynamnet och klicka sedan på **Dela**.
 
-1. Sök efter den användare eller grupp som du vill ta bort och klicka sedan på **Ta bort**.
+1. Sök efter den användare eller grupp som du vill ta bort och klicka sedan på **Ta bort** i listrutan Behörigheter till höger om användarens eller gruppens namn.
 
 1. Klicka **Spara**.
 
