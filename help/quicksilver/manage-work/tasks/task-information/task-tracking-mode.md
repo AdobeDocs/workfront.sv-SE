@@ -7,14 +7,16 @@ description: Du kan justera inställningen för spårningsläge för en uppgift 
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Översikt över läget Uppgiftsspårning
+
+<!-- Audited: 01/2024 -->
 
 Du kan justera inställningen för spårningsläge för en uppgift när du skapar eller redigerar en uppgift för att styra hur och när statusindikatorerna för en uppgift visas. I Adobe Workfront visas statusflaggor när du konfigurerar vissa inställningar för att spåra förloppet för uppgifter.
 
@@ -52,7 +54,7 @@ När det här alternativet är markerat använder Workfront uppgiftens loggade p
 
 ### Anta i tid {#assume-on-time}
 
-Workfront antar att en uppgift kommer att slutföras i tid oavsett aktuell slutförandestatus. Om så inte är fallet antar Workfront automatiskt ett planerat slutförandedatum som infaller nästa arbetsdag. Du måste fortfarande ange när uppgiften har slutförts. Använd det här alternativet när användare inte regelbundet uppdaterar sina uppgifter.
+Workfront antar att en uppgift kommer att slutföras i tid oavsett aktuell slutförandestatus. Om aktiviteten inte slutförs i tid (på det planerade slutförandedatumet) antar Workfront automatiskt ett planerat slutförandedatum på nästa arbetsdag. Du måste fortfarande ange när uppgiften har slutförts. Använd det här alternativet när användare inte regelbundet uppdaterar sina uppgifter.
 
 ### Ignorera sena varningar {#ignore-late-warnings}
 
@@ -64,15 +66,15 @@ Workfront antar att uppgifterna kommer att slutföras enligt schemat och markera
 
 Följande undantag finns:
 
-* Om aktiviteten har ofullständiga föregångare slutförs den inte automatiskt förrän alla dess föregångare har slutförts. Föregångare måste verkställas.
+* Om aktiviteten har ofullständiga föregångare kommer den inte att slutföras automatiskt förrän alla dess föregångare har slutförts. Föregångare måste verkställas.
 * Om aktiviteten har begränsningen Fast datum slutförs alltid aktiviteten på det planerade slutförandedatumet, oavsett om dess föregångare har slutförts eller inte.
 
 >[!IMPORTANT]
 >
 >Om du väljer att låta uppgifter slutföras automatiskt markeras aktiviteten som slutförd när projekttiden beräknas om. Om projektets uppdateringstyp är inställd på Automatisk eller Automatisk och vid ändring, beräknas projekttidslinjen dagligen. Mer information om tidslinjeomberäkningar för projekt finns i [Beräkna om projekttidslinjer](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->Tiden för det faktiska slutförandedatumet är midnatt på dagen när tidslinjen beräknas automatiskt. Den tid som används för att generera den här tidsstämpeln är datorns Tid&amp;zon som definieras av Workfront-administratören under Kundinformation i installationsprogrammet. Mer information om hur du ställer in datorns tidszon finns i [Konfigurera grundläggande information för ditt system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>Tiden för det faktiska slutförandedatumet är midnatt på dagen när tidslinjen beräknas automatiskt. Den tid som används för att generera den här tidsstämpeln är datorns tidszon som definieras av Workfront-administratören under Kundinformation i installationsprogrammet. Mer information om hur du ställer in datorns tidszon finns i [Konfigurera grundläggande information för ditt system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Föregående {#predecessor}
 
-Workfront uppskattar det beräknade slutförandedatumet för en aktivitet enligt dess föregående relation. En uppgifts förloppsstatus bestäms utifrån den här uppskattningen. Aktivitet B har till exempel Varaktighet 1 Dag och är schemalagd att slutföras två dagar efter föregående aktivitet, Aktivitet A, som bör ta fem dagar. En användare uppdaterar sedan aktivitet B till 50 % färdigt, men föregående aktivitet, Aktivitet A, har inte startats ännu. Workfront ändrar beroende uppgift B för slutförande sex dagar efter startdatumet för föregående uppgift, vilket ger 5 dagar för uppgift A och 1 dag för uppgift B.
+Workfront uppskattar det beräknade slutförandedatumet för en aktivitet enligt dess föregående relation. En uppgifts förloppsstatus bestäms utifrån denna uppskattning. Aktivitet B har till exempel Varaktighet 1 Dag och är schemalagd att slutföras två dagar efter föregående aktivitet, Aktivitet A, som bör ta fem dagar. En användare uppdaterar sedan aktivitet B till 50 % färdigt, men föregående aktivitet, Aktivitet A, har inte startats ännu. Workfront schemalägger beroende uppgift B för slutförande sex dagar efter startdatumet för föregående uppgift, vilket ger 5 dagar för uppgift A och 1 dag för uppgift B.

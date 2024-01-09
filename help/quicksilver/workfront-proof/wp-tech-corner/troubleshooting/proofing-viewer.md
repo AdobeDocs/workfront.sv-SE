@@ -4,18 +4,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Felsökning - [!DNL Workfront Proof] korrekturläsare
-description: Om ditt korrekturinnehåll inte läses in och du bara kan se ett tomt korrekturläsare, är det troligtvis därför att något blockerar den här åtgärden lokalt. Prova de möjliga lösningarna nedan.
+description: Om ditt korrekturinnehåll inte läses in och du bara kan se ett tomt korrekturläsare, är det troligtvis därför att något blockerar den här åtgärden lokalt.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
 
 # Felsökning - [!DNL Workfront Proof] korrekturläsare
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 Om ditt korrekturinnehåll inte läses in och du bara kan se ett tomt korrekturläsare, är det troligtvis därför att något blockerar den här åtgärden lokalt. Prova de möjliga lösningarna nedan.
 
-## Kontrollera webbläsaren och [!DNL Flash Player] Versionerna är uppdaterade
+## Kontrollera webbläsaren <!--and [!DNL Flash Player]--> versionen är uppdaterad
 
 Alla utvecklare arbetar hela tiden med sina program och de släpper regelbundet nya funktioner och korrigeringar för sina produkter. Detta är för att förbättra användarupplevelsen och upprätthålla säkerhetsnivån så att det är den bästa metoden att endast använda de senaste versionerna. Detta hjälper också till att undvika konflikter mellan programmen.
 
@@ -41,40 +43,42 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 ### Webbläsarversion
 
-Idag uppdateras de flesta webbläsarna automatiskt, men om du har problem bör du kontrollera vilken version du använder och uppdatera vid behov.
+Vanligtvis uppdateras de flesta webbläsare automatiskt, men om du har problem bör du kontrollera vilken version du använder och utföra en uppdatering, om det behövs.
 
-Gå till webbläsaren [!UICONTROL Menu] och hitta [!UICONTROL About] (i vissa fall kan detta vara synligt under [!UICONTROL Help] meny). I [!UICONTROL About] I den här popup-rutan hittar du information om den aktuella webbläsarversionen och även ett alternativ för att uppdatera/söka efter uppdateringar.
+Gå till webbläsaren [!UICONTROL Menu] och hitta [!UICONTROL About] (i vissa fall kan detta vara synligt under [!UICONTROL Help] meny). I [!UICONTROL About] I finns information om den aktuella webbläsarversionen och även ett alternativ för att uppdatera/söka efter uppdateringar.
 
-Se i Chrome:
+I Chrome:
 
-![ProofView_3.png](assets/proofview-3-350x206.png)
+![Chrome-webbläsarversion](assets/proofview-3.png)
 
-När du har fått det senaste [!DNL Flash Player] installerade plugin-program och webbläsarversioner försöker öppna korrekturet igen och se om problemet är löst.
+När du har installerat den senaste webbläsarversionen kan du försöka att öppna korrekturet igen och se om problemet är löst.
 
-## Kontrollera din lokala [!DNL Flash] Lagring finns
+<!--
+## Ensure Your Local [!DNL Flash] Storage is Available
 
-Våra [!DNL Workfront Proof] Visningsprogrammet är baserat på Flash och vi lagrar vissa data om korrektur (d.v.s. kommentarer, korrekturrutor, [!DNL Workfront Proof] visningsprograminställningar) på datorn med [!DNL Flash Player]. Om [!DNL Workfront Proof] Visningsprogrammet öppnas, men det finns inget innehåll inuti som du bör kontrollera att Flashen Lagring är tillgänglig på datorn och att [!DNL Workfront Proof] får använda den.
+Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data about the proofs (i.e., comments, proof tiles, [!DNL Workfront Proof] Viewer settings) on your computer using [!DNL Flash Player]. If the [!DNL Workfront Proof] Viewer opens, but there is no content inside you will want to make sure that the Flash Storage is available on your machine and that [!DNL Workfront Proof] is allowed to use it.
 
-Om det finns lite lagringsutrymme allokerat, men du arbetar med större korrektur med flera sidor och kommentarer, försök att öka [!DNL Flash] Lagring och ladda om ditt bevis.
+If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
 
-Besök vår [Problem med att visa korrektur - [!DNL Flash] Förklaring av delade objekt](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) för detaljerade anvisningar.
+Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
+-->
 
 ## Identifiera var problemet finns
 
 * Öppnar korrekturen i en annan webbläsare?
-* Om du använder en webbläsare dagligen och du har problem med att visa korrektur där kan du försöka öppna samma korrektur i en annan webbläsare på datorn. Det gör du genom att kopiera korrekturlänken från URL-fältet i huvudwebbläsaren och klistra in den i en annan webbläsare. Om korrekturet öppnas där kan du granska huvudwebbläsarkonfigurationen, plugin-program och tillägg eftersom dessa kan störa.
-* Vi har ingen webbläsare att föredra, men om du har prestandaproblem i din nuvarande webbläsare rekommenderar vi att du byter till en annan.
+* Om du använder en webbläsare varje dag och har problem med att visa korrektur där, kan du försöka öppna samma korrektur i en annan webbläsare på datorn. Det gör du genom att kopiera korrekturlänken från URL-fältet i huvudwebbläsaren och klistra in den i en annan webbläsare. Om korrekturet öppnas där kan du granska huvudwebbläsarkonfigurationen, plugin-program och tillägg eftersom dessa kan störa.
+* Vi har ingen föredragen webbläsare, men om du har prestandaproblem i din nuvarande webbläsare rekommenderar vi att du byter till en annan.
 * Öppnar korrekturen på en annan dator på din plats?
-Om ditt korrektur inte öppnas i någon webbläsare på datorn kan du försöka öppna det på en annan dator på din plats och/eller utanför din plats. På så sätt kan du avgöra om ett problem beror på din dator eller om det är något i ditt lokala nätverk.
-Om din säkerhetsnivå är högre ansluter du till [!DNL Workfront Proof] kan blockeras av:
+Om ditt korrektur inte öppnas i någon webbläsare på datorn kan du försöka öppna det på en annan dator på din plats och/eller utanför din plats. På så sätt kan du avgöra om ett problem har uppstått på din dator eller om problemet har uppstått i ditt lokala nätverk.
+Om säkerhetsnivån är högre ansluter du till [!DNL Workfront Proof] kan blockeras av:
 
    * Ditt lokala AV-program
    * Din nätverkslösning
-   * Konfigurera DNS, brandvägg eller proxy
+   * DNS-, brandväggs- eller proxykonfiguration
    * Det här är de inställningar som vi inte kan kontrollera. Det finns olika säkerhetslösningar tillgängliga och vi kan inte avgöra vilka som är implementerade i ditt nätverk och vilka som kan blockera anslutningar till [!DNL Workfront Proof]. Det är inte heller upp till [!DNL Workfront Proof] för att bestämma din interna säkerhetskonfiguration. Om du har problem med att öppna korrektur på flera datorer i ditt nätverk rekommenderar vi att du kontaktar IT-teamet så att de kan kontrollera nätverksinställningarna och auktorisera eller lägga till [!DNL Workfront Proof] till tillåtelselista, om det behövs.
 
 * Är anslutningarna till [!DNL Workfront Proof] tillåts i ditt nätverk?
-I korrekturläsaren läser vi in sidrutorna - fragment av sidorna. Om innehållet inte läses in korrekt kan det bero på att vissa anslutningar till [!DNL Workfront Proof] är blockerade i ditt nätverk. Du måste se till att alla anslutningar och allt innehåll från *.proofhq.com läggs till i tillåtelselista. IT-avdelningen bör kunna hjälpa till att verifiera detta.
+I korrekturläsaren läser vi in sidrutorna - fragment av sidorna. Om innehållet inte läses in som det ska i slutet kan det bero på att vissa anslutningar till [!DNL Workfront Proof] är blockerade i ditt nätverk. Du måste se till att alla anslutningar och allt innehåll från *.proofhq.com läggs till i tillåtelselista. IT-avdelningen bör kunna hjälpa till att verifiera detta.
 
 ## Granska plugin-program
 
@@ -84,7 +88,7 @@ Det bästa sättet är att ta bort alla okända tillägg och bara behålla de so
 
 Om det finns något tillägg som stör inläsningen av korrektur kan du försöka kontrollera informationen i webbläsarens konsol.
 
-![ProofView_4.png](assets/proofview-4-350x57.png)
+![Webbläsarkonsol](assets/proofview-4.png)
 
 I de flesta nyare webbläsare finns det ytterligare utvecklarverktyg tillgängliga och de kan användas för mer avancerad felsökning.
 
@@ -94,7 +98,6 @@ Om du har problem med att visa korrektur:
 * Kontrollera om det finns några varningar eller meddelanden i konsolen. Dessa uppgifter kan hjälpa till att identifiera vad som är orsaken till problemen.
 * Låt IT-avdelningen analysera resultaten. De bör kunna ge råd och hjälpa till att lösa det lokala problemet.
 * Dela resultaten med vårt supportteam. Vi hjälper gärna till.
-
 
 ## Kontrollera inställningar för blandat innehåll
 
