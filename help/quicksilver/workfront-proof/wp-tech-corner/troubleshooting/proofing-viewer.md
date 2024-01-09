@@ -8,9 +8,9 @@ description: Om ditt korrekturinnehåll inte läses in och du bara kan se ett to
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -82,15 +82,15 @@ I korrekturläsaren läser vi in sidrutorna - fragment av sidorna. Om innehålle
 
 ## Granska plugin-program
 
-Om webbläsaren och [!DNL Flash Player] plug-inen är uppdaterad och nätverket blockerar inte anslutningarna till [!DNL Workfront Proof] det kan finnas något i webbläsaren som påverkar visningen av korrektur. Idag finns det flera plugin-program och tillägg i webbläsaren och vissa av dem stör eller står i konflikt med de andra.
+Om webbläsaren är uppdaterad och nätverket inte blockerar anslutningarna till [!DNL Workfront Proof]kan det finnas något i webbläsaren som påverkar visningen av korrektur. Det finns ofta flera plugin-program och tillägg tillgängliga i webbläsaren, och vissa av dem kan störa eller stå i konflikt med de andra.
 
-Det bästa sättet är att ta bort alla okända tillägg och bara behålla de som du använder och som du litar på. Varje webbläsare bör ge dig alternativ för att kontrollera/ändra/ta bort plugin-program och tillägg. Våra [!DNL Workfront Proof] Visningsprogrammet är baserat på [!DNL Flash] och vi använder JavaScript för att läsa in visningsprogrammet så att du särskilt vill granska de plugin-program som kan påverka dessa.
+Det bästa sättet är att ta bort alla okända tillägg och bara behålla de som du använder och som du litar på. Varje webbläsare bör ge dig alternativ för att kontrollera/ändra/ta bort plugin-program och tillägg. Vi använder JavaScript för att läsa in [!DNL Workfront Proof] visningsprogrammet så att du särskilt vill granska de plugin-program som kan påverka det.
 
 Om det finns något tillägg som stör inläsningen av korrektur kan du försöka kontrollera informationen i webbläsarens konsol.
 
 ![Webbläsarkonsol](assets/proofview-4.png)
 
-I de flesta nyare webbläsare finns det ytterligare utvecklarverktyg tillgängliga och de kan användas för mer avancerad felsökning.
+I de flesta nyare webbläsare finns det ytterligare utvecklarverktyg tillgängliga, och de kan användas för mer avancerad felsökning.
 
 Om du har problem med att visa korrektur:
 
@@ -101,8 +101,8 @@ Om du har problem med att visa korrektur:
 
 ## Kontrollera inställningar för blandat innehåll
 
-Alla anslutningar till [!DNL Workfront Proof] är över HTTPS. I dialogrutan [!DNL Workfront Proof] Visningsprogrammet läser in rutorna via HTTP och data skyddas med tokens. Detta skapar blandat innehåll som vissa webbläsare eller säkerhetslösningar kan blockera (som standard eller enligt manuell konfiguration).
+Alla anslutningar till [!DNL Workfront Proof] är över HTTPS. I dialogrutan [!DNL Workfront Proof] Visningsprogrammet läser in rutorna via HTTP och data skyddas med tokens. Detta skapar blandat innehåll som vissa webbläsare eller säkerhetslösningar kan blockera (som standard eller genom manuell konfiguration).
 
-Om detta är orsaken till att korrektur inte öppnas på datorn (du bör kunna se de relevanta varningarna i webbläsarens konsol) godkänner du sådana anslutningar för [!DNL Workfront Proof] eller ändra inställningarna för att tillåta passivt blandat innehåll på datorn. Det blandade innehållet kan blockeras av webbläsaren, AV-programmet, nätverkskonfigurationen osv. - för att fastställa den exakta orsaken kontaktar du IT-teamet/nätverksadministratörerna. De bör också kunna hjälpa till att aktivera det blandade innehållet på din dator.
+Om detta är orsaken till att korrekturen inte öppnas på datorn (du bör kunna se de relevanta varningarna i webbläsarens konsol) måste du godkänna sådana anslutningar för [!DNL Workfront Proof] eller ändra inställningarna för att tillåta passivt blandat innehåll på datorn. Det blandade innehållet kan blockeras av webbläsaren, AV-programmet eller nätverkskonfigurationen för att fastställa den exakta orsaken. Kontakta IT-avdelningen/nätverksadministratörerna. De bör också kunna hjälpa till att aktivera det blandade innehållet på din dator.
 
 
