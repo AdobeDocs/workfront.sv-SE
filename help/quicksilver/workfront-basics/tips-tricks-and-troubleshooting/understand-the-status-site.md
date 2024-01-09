@@ -4,14 +4,16 @@ description: Du kan visa hälsotillståndet för [!DNL Workfront] plattform, ink
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 # The [!DNL Adobe Workfront] Statuswebbplats
+
+<!-- Audited: 1/2024 -->
 
 ## Översikt över statuswebbplatsen
 
@@ -28,11 +30,7 @@ Du har tillgång till följande information på statuswebbplatsen:
 
 Du kan visa statusuppdateringar på [!DNL Adobe] Statusplats.
 
-1. Gå till [[!DNL https://one.workfront.com]](https://one.workfront.com/)och sedan klicka **[!UICONTROL Status]** i **[!UICONTROL Support]** i sidans nedre högra hörn.
-
-   eller
-
-   Typ [status.adobe.com](https://status.adobe.com/) i webbläsaren för att komma åt statuswebbplatsen.
+1. Typ [status.adobe.com](https://status.adobe.com/) i webbläsaren för att komma åt statuswebbplatsen.
 
 1. Välj **[!UICONTROL Experience Cloud]**.
 1. Bläddra nedåt och markera **[!UICONTROL Adobe Workfront]** från listan över lösningar.
@@ -43,6 +41,7 @@ Så här prenumererar du på statuswebbplatsen eller för att hantera din prenum
 
 1. Gå till [status.adobe.com](https://status.adobe.com/).
 1. I statusfältet väljer du **[!UICONTROL Manage subscriptions]**.
+   ![](assets/manage-subs.png)
 1. Om du har ett befintligt konto loggar du in på kontot, annars skapar du ett nytt konto.
 1. Klicka på **[!UICONTROL Create subscriptions]** -knappen.
 1. Välj **[!UICONTROL Adobe Workfront]** under **[!UICONTROL Experience Cloud]** sidhuvud och klicka sedan på **[!UICONTROL Continue]**.
@@ -50,10 +49,6 @@ Så här prenumererar du på statuswebbplatsen eller för att hantera din prenum
 1. Klicka **[!UICONTROL Done]** för att bekräfta prenumerationen.
 
 ## Förstå namngivna sårbarheter
-
-* [Vad är en namngiven sårbarhet?](#what-is-a-named-vulnerability)
-* [Hur visar jag namngivna sårbarheter som identifierats av [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [Varför är detta viktigt?](#why-is-this-important)
 
 ### Vad är en namngiven sårbarhet? {#what-is-a-named-vulnerability}
 

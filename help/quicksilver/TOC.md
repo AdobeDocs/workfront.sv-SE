@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
 workflow-type: tm+mt
-source-wordcount: '13864'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -2557,7 +2557,6 @@ ht-degree: 0%
          * [Felsökning - skadat gränssnittsteckensnitt i korrekturläsare på Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Förstå hur cache och cookies påverkar Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Snabba upp problem i Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Problem med att visa korrektur - beskrivna objekt i Flashen](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [Felsökning - Workfront korrekturläsare för korrektur](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Integrering med Workfront Proof {#wf-proof-integrations}
       * [Integrering med Workfront Proof](workfront-proof/wp-integrations/wp-integrations.md)

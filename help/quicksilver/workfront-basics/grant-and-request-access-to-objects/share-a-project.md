@@ -6,14 +6,16 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
 
 # Dela ett projekt i Adobe Workfront
+
+<!-- Audited: 1/2024 -->
 
 Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redigera projekt när du tilldelar din åtkomstnivå. Mer information finns i [Bevilja åtkomst till projekt](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -27,24 +29,24 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * Som standard har den som skapat ett projekt behörighet att hantera projektet och anges även som projektägare. Om projektet har tilldelats en annan ägare har den användaren även behörighet att hantera projektet. När den som skapat projektet (eller ägaren) delar projektet med andra användare, ger de användarna vissa behörigheter för att styra vad de kan göra när de arbetar med projektet.
 
-   Om en projektägare inte har någon planeringslicens har de dock inte fullständig åtkomst för att hantera projektet. Endast en användare med en planlicens kan ha behörighet att hantera ett projekt. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Om en projektägare inte har någon planeringslicens har de dock inte fullständig åtkomst för att hantera projektet. Endast en användare med en planlicens kan ha behörighet att hantera ett projekt. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Du kan dela projekt individuellt eller dela flera i taget. Delningsprojekt är identiska med att dela andra objekt. Mer information om hur du delar objekt i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Du kan ge följande behörigheter till ett projekt: 
+* Du kan ge följande behörigheter till ett projekt:
 
    * Visa
    * Hantera
    * Contribute
 
-      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * När du delar ett projekt ärver alla uppgifter, utgåvor och dokument samma behörigheter, om inget annat anges.
 
-   Information om hur du hanterar åtkomst till uppgifter och problem i projektet baserat på en användares behörigheter till projektet finns i [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+  Information om hur du hanterar åtkomst till uppgifter och problem i projektet baserat på en användares behörigheter till projektet finns i [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
-   Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Du kan ta bort ärvda behörigheter från ett projekt så att de underordnade objekten inte ärver dem. Mer information om hur du tar bort ärvda behörigheter från objekt finns i  [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Du kan ta bort ärvda behörigheter från ett projekt så att de underordnade objekten inte ärver dem. Mer information om hur du tar bort ärvda behörigheter från objekt finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Olika sätt att dela ett projekt {#ways-to-share-a-project}
 
@@ -53,29 +55,29 @@ Du kan dela ett projekt på följande sätt:
 * Manuellt genom att göra något av följande:
 
    * Lägga till användare i projektteamet. När du lägger till användare i projektteamet får de automatiskt behörigheten Visa i projektet.\
-      Mer information om hur du lägger till användare i ett projektteam finns i avsnittet&quot;Lägga till användare i ett projektteam&quot; i [Översikt över projektteamet](../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Mer information om hur du lägger till användare i ett projektteam finns i avsnittet&quot;Lägga till användare i ett projektteam&quot; i [Översikt över projektgruppen](../../manage-work/projects/planning-a-project/project-team-overview.md).
    * Dela projekten individuellt eller gruppvis när du använder **Delning** alternativ.
 
-      Att dela ett projekt påminner om att dela alla andra objekt i Adobe Workfront.
+     Att dela ett projekt påminner om att dela alla andra objekt i Adobe Workfront.
 
-      Mer information om hur du delar objekt i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Mer information om hur du delar objekt i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Gör något av följande automatiskt:
 
    * Placera ett projekt i en **Portfolio** eller **Program** som redan delas med andra. Användarna får samma behörigheter till projektet som de har för portföljen eller programmet.\
-      Mer information om hur du lägger till ett projekt i ett projekt **Portfolio**, se [Lägga till projekt i en portfölj](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-      Mer information om hur du lägger till ett projekt i ett projekt **Program**, se [Lägga till ett projekt i ett program](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+     Mer information om hur du lägger till ett projekt i ett projekt **Portfolio**, se [Lägga till projekt i en portfölj](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+     Mer information om hur du lägger till ett projekt i ett projekt **Program**, se [Lägga till ett projekt i ett program](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-      Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
    * Lägg till entiteter i projektdelning på en mall som används för att skapa projektet. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Definiera projektåtkomstmallen.
 
-      Information om hur du definierar projektåtkomstmallen finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Information om hur du definierar projektåtkomstmallen finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-      >[!TIP]
-      >
-      >När du bifogar eller sparar en mall kan du rensa reglerna för Projektdelning av mallar.
+     >[!TIP]
+     >
+     >När du bifogar eller sparar en mall kan du rensa reglerna för Projektdelning av mallar.
 
    * Redigera ett projekt och definiera **När någon får åtkomst till det här projektet** inställning. Mer information finns i [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 

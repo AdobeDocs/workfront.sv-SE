@@ -6,18 +6,21 @@ description: The [!DNL Adobe Workfront for Microsoft Teams] kan du utföra grund
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
 
 # Installera [!DNL Adobe Workfront] för Microsoft Teams
 
->[!NOTE]
+<!-- Audited: 1/2024 -->
+
+>[!IMPORTANT]
 >
 >Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
+
 
 The [!DNL Adobe Workfront for Microsoft Teams] kan du utföra grundläggande åtgärder i [!DNL Workfront] utan att lämna [!DNL Microsoft Teams] chattkanaler.
 
@@ -40,7 +43,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td><p>Nytt: Standard</p>
+    <p>Aktuell: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,9 +58,6 @@ Du måste vara teamägare i [!DNL Microsoft Teams] för installation [!DNL Workf
 ## Installera [!DNL Workfront for Microsoft Teams]
 
 Som teamägare i [!DNL Microsoft Teams]kan du installera [!DNL Workfront for Microsoft Teams] för varje team, antingen från [!DNL Microsoft] Lagra eller från en fil som tillhandahålls av [!DNL Workfront].
-
-* [Installera [!DNL Workfront for Microsoft Teams] från Microsoft Store](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
-* [Installera [!DNL Workfront for Microsoft Teams] från en privat fil](#install-workfront-for-microsoft-teams-from-a-private-file)
 
 ### Installera [!DNL Workfront for Microsoft Teams] från [!DNL Microsoft] Butik
 

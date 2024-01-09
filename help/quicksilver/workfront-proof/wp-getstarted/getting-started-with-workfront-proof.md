@@ -3,20 +3,22 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: Komma igång med [!DNL Workfront Proof]
+title: "Komma igång med [!DNL Workfront Proof]: artikelindex"
 description: Kom igång med Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
 
-# Komma igång med [!DNL Workfront Proof]
+# Komma igång med [!DNL Workfront Proof]: artikelindex
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >

@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
 
 # Ställ in påminnelsemeddelanden
 
-Påminnelsemeddelanden skickar e-postmeddelanden till mottagare baserat på angivna villkor. Som Adobe Workfront-administratör eller en användare med behörigheten Planering och administrativ åtkomst till påminnelsemeddelanden kan du manuellt associera påminnelsemeddelanden med dina arbetsobjekt, till exempel projekt, uppgifter, utgåvor och tidrapporter.
+<!-- Audited: 1/2024 -->
+
+Påminnelsemeddelanden skickar e-postmeddelanden till mottagare baserat på angivna villkor. Du kan associera påminnelsemeddelanden manuellt med dina arbetsobjekt, till exempel projekt, uppgifter, utgåvor och tidrapporter.
 
 <!--
 DRAFTED IN FLARE:
@@ -39,7 +41,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td> <p>Nytt: Standard </p>
+ <p>eller</p> 
+<p>Aktuell: Planera</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -52,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Anpassa påminnelsemeddelandet
 
-Du kan anpassa påminnelsemeddelandet med ett anpassat e-postmeddelande som innehåller ett eget ämne och brödtext. E-postbrödtexten kan innehålla HTML.
+Du kan anpassa ämnet, brödtexten och HTML i e-postmeddelandet med påminnelser.
 
 Du kan också använda det standardmeddelande som ingår i påminnelsemeddelandet. I standardmeddelandet används påminnelsemeddelandets namn som e-postmeddelandets ämne och objektnamnet i e-postmeddelandets brödtext, inklusive händelsen som utlöste meddelandet.
 
@@ -62,7 +67,7 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
 
 ## Skapa ett påminnelsemeddelande
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka **E-post** > **Meddelanden** > **Påminnelsemeddelanden**.
 
@@ -144,10 +149,12 @@ Om en påminnelse till exempel är inställd på att utlösa en timme efter det 
 
 Så här aktiverar du ett påminnelsemeddelande manuellt:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka **System** > **Diagnostik** i det nedre vänstra hörnet av Workfront.
 
 1. Klicka **Skicka påminnelsemeddelanden** och vänta på att de skickas.
 
    De användare som anges i påminnelsemeddelandet får ett e-postmeddelande.
+
+![](assets/reminder-test.png)

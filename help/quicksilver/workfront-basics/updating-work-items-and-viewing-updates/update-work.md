@@ -6,7 +6,7 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: ba0dc486dfb104eb9fb8c964875f77cf24f520fd
 workflow-type: tm+mt
 source-wordcount: '4189'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Uppdatera arbete
+
+<!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
@@ -112,7 +114,6 @@ Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe 
 Mer information om hur du kommenterar kort i området för anslagstavlor finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Åtkomstkrav
-
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 

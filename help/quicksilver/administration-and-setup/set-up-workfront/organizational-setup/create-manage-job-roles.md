@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Skapa och hantera jobbroller
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -35,7 +37,9 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>Aktuell: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -48,10 +52,12 @@ Du måste ha följande:
 
 ## Skapa en jobbroll
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront, klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+Så här skapar du en jobbroll:
+
+{{step-1-to-setup}}
 
 1. Klicka på &#x200B; i den vänstra panelen **[!UICONTROL Job Roles].**
-1. Klicka på **[!UICONTROL New Job Role].**
+1. Klicka **[!UICONTROL New Job Role].**
 1. Konfigurera följande:
 
    <table style="table-layout:auto"> 
