@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a4581dfe503c6afa43b203a3c3fe461107619e67
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
-source-wordcount: '13853'
+source-wordcount: '13864'
 ht-degree: 0%
 
 ---
@@ -2024,10 +2024,13 @@ ht-degree: 0%
       * [Skapa fält](maestro/fields/create-fields.md)
       * [Redigera fält](maestro/fields/edit-fields.md)
       * [Ta bort fält](maestro/fields/delete-fields.md)
+      * [Översikt över formelfält](maestro/fields/formula-fields.md)
    * Adobe Maestro-åtkomst {#adobe-maestro-access}
       * [Åtkomstinformation](maestro/access/access-information.md)
       * [Åtkomstöversikt](maestro/access/access-overview.md)
-      * [Ge åtkomst till Adobe Maestro](maestro/access/grant-access.md)
+      * [Översikt över delningsbehörigheter i Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+      * [Dela en arbetsyta](maestro/access/share-workspaces.md)
+      * [Dela en vy](maestro/access/share-views.md)
    * Adobe Maestro-poster {#adobe-maestro-records}
       * [Poster: artikelindex](maestro/records/records-information.md)
       * [Skapa poster](maestro/records/create-records.md)

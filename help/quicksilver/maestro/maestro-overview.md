@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
 source-wordcount: '1959'
 ht-degree: 0%
@@ -82,7 +82,8 @@ I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i M
 | Koppla Maestro-poster till Adobe Experience Manager-resurser | ✓ |                                  |                 |
 | Sidan med postinformation | ✓ |                                  |                  |
 | Uppdatera layouten på sidan med postinformation |                               | ✓ |                  |
-| Behörigheter för arbetsytan | | ✓ |  |
+| Dela arbetsytor | | ✓ |  |
+| Visa | | ✓ |  |
 | Skicka begäranden |                               |                                  | ✓ |
 | Kreativ översikt |                               |                                  | ✓ |
 | Anpassa färg och ikon för en post | ✓ |                                  |                 |
@@ -99,61 +100,7 @@ I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i M
 
 Mer information om vilken åtkomst som krävs för att använda Maestro finns i [Översikt över åtkomst till Adobe Maestro](../maestro/access/access-overview.md).
 
-<!-- hidden the table after I moved the content to the Access overview article: 
-
-You must have the following access to use Adobe Maestro: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../maestro/access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-************* Activate note when going to GA: 
-
->[!NOTE]
->
->If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
--->
+<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
 
 ## Maestro-terminologi
 
@@ -330,23 +277,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Maestr
 
 Din organisation måste registrera sig i det slutna betaprogrammet för Adobe Maestro innan du kan komma åt Maestro. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
 
-Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Maestro finns i [Ge åtkomst till Adobe Maestro](../maestro/access/grant-access.md).
-
-<!--hidden this after moved it to a separate article
-
-After your organization has been enrolled in the Maestro beta program, you can add the Maestro area for other users by using a layout template. 
-
-To share the Maestro area using a layout template: 
-
-1. Log in to Workfront as a system administrator.  
-
-1. Add the Maestro icon to the Main Menu using a Layout Template. For information, see [Customize the Main Menu using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md). 
-
-1. Assign the  layout template to the users that you want to have access to Maestro.For information, see [Assign users to a layout template](../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
-
-    All users who can access Maestro in their Main Menu can start creating workspaces, records types, records, and fields.  
-  -->
-
+Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Maestro finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Hitta maestro
 

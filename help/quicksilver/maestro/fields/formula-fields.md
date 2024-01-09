@@ -4,16 +4,19 @@ description: I Adobe Maestro kan du skapa formelfält där funktioner och befint
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
+
+# Översikt över formelfält
+
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO TOC************>
+<!--**********ADD TO miniTOC************>
 
 <!---
 title: Formula fields
@@ -26,7 +29,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Översikt över formelfält
+<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 >[!IMPORTANT]
 >
@@ -81,7 +84,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/grant-access.md">Ge åtkomst till Adobe Maestro</a>. </p>  
+   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -132,7 +135,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -151,11 +154,64 @@ After permssions - replace the table with:
 * Formelfält refererar till fält som tillhör samma posttyp. Du kan inte referera till fält från andra posttyper när du skapar ett formelfält. <!--is this still accurate??-->
 * Du kan inte ändra fälttypen för ett formelfält när du har sparat det.
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
+* Du kan inte använda uppslagsfält från länkade posttyper.
+* Du måste lägga till de fält som du refererar till i formler när de visas i maestro-gränssnittet.
+
+## Formler som stöds
+
+Vi stöder alla formler från Workfront beräkningsfält. Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+Dessutom stöder vi följande uttryck för formelfält i Maestro:
 
 
-<!--
-## The syntax of Maestro formula fields
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Uttryck</th> 
+   <th>Förklaring och exempel</th> 
+  </tr> 
+ </thead> 
+ <tbody>
 
-## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+<tr> 
+   <td><strong>ARRAYJOIN</strong> </td> 
+   <td> <p>Returnerar sammanfogad sträng med avgränsare.</p> <p>Uttrycket formateras på följande sätt:
 
--->
+    ARRAYJOIN(delimiter,array)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>ARRAYUNIQUE</strong> </td> 
+   <td> <p>Returnerar en array med unika värden.</p> <p>Uttrycket formateras på följande sätt:
+
+    ARRAYUNIQUE(array)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>SETTIMEZON</strong> </td> 
+   <td> <p>Anger tidszonen för ett datum och en tid till en viss tidszon.</p> <p>Uttrycket formateras på följande sätt:
+
+    SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td> <p>Returnerar veckonumret i ett år. Du kan också ange vilken dag veckan börjar på (använd 1 för söndag eller 2 för måndag). Om det utelämnas startar veckor som standard på söndag.</p> <p>Uttrycket formateras på följande sätt:
+
+    VECKOFYEAR(date,2)
+    eller
+    VECKOFYEAR(datum)
+</p>
+   </td></tr>
+
+</table>
+
+
+
+
+

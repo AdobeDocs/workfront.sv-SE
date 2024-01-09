@@ -6,9 +6,9 @@ description: Översikt över rapportleverans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Tänk på följande:
 
 När du använder en särskild vy för en rapport visas den speciella vyn i på fliken Detaljer i rapporten i Workfront.
 
-När du schemalägger leveransen av en rapport som har en särskild vy visas standardfliken Detaljer i den bifogade filen i det skickade e-postmeddelandet, i stället för i den speciella vyn.
+När du schemalägger leveransen av en rapport som har en särskild vy visas fliken Detaljer i den bifogade filen i det skickade e-postmeddelandet, i stället för i den speciella vyn.
 
 Nedan följer några särskilda synpunkter:
 

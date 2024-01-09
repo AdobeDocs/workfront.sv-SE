@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,11 @@ Som Workfront-administratör måste du ge dina användare åtkomst att använda 
 Följande artiklar innehåller information om vilken åtkomst användarna behöver för att använda Maestro:
 
 * [Åtkomstöversikt](../access/access-overview.md)
-* [Ge åtkomst till Adobe Maestro](../access/grant-access.md)
+
+<!--make the following live with permissions release: 
+
+* [Overview of sharing permissions in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
+* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Share a view](/help/quicksilver/maestro/access/share-views.md)
+
+-->

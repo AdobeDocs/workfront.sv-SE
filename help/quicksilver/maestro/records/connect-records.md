@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '2930'
+source-wordcount: '2927'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/grant-access.md">Ge åtkomst till Adobe Maestro</a>. </p></td>
+   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p></td>
   </tr>
  </tbody>
 </table>
@@ -162,7 +162,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

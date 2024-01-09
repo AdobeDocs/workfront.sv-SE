@@ -4,9 +4,9 @@ description: Du kan samarbeta med poster i Adobe Maestro genom att lägga till k
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/grant-access.md">Ge åtkomst till Adobe Maestro</a>. </p>  
+   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -128,7 +128,7 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
