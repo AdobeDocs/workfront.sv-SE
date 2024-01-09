@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5038'
+source-wordcount: '5369'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ När webbkroken har skapats kan du visa adressen till slutpunkten som händelser
 
 Mer information finns i avsnittet [Exempel på händelsenyttolaster](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) i [!DNL Workfront] Hjälpartikel [API för händelseprenumeration](../../wf-api/general/event-subs-api.md).
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ Se till att du anger det minsta antalet inmatningsfält. Om du till exempel vill
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ Se till att du anger det minsta antalet inmatningsfält. Om du till exempel vill
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -532,7 +532,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Välj den åtgärd som du vill att modulen ska utföra.</p> <p>Du kan behöva fylla i ytterligare fält, beroende på [!UICONTROL Record Type] och [!UICONTROL Action] du väljer. Vissa kombinationer av dessa två inställningar kan endast kräva ett post-ID, medan andra (till exempel Projekt för <strong>[!UICONTROL Record Type]</strong> och [!UICONTROL Attach Template] för <strong>[!UICONTROL Action]</strong>) kräver ytterligare information (till exempel ett objekt-ID och ett mall-ID).</p> <p>Mer information om enskilda fält finns i <a href="http://developer.workfront.com/">Dokumentation för Workfront-utvecklare</a>. </p> 
+   <td> <p>Välj den åtgärd som du vill att modulen ska utföra.</p> <p>Du kan behöva fylla i ytterligare fält, beroende på [!UICONTROL Record Type] och [!UICONTROL Action] du väljer. Vissa kombinationer av dessa två inställningar kan endast kräva ett post-ID, medan andra (till exempel Projekt för <strong>[!UICONTROL Record Type]</strong> och [!UICONTROL Attach Template] för <strong>[!UICONTROL Action]</strong>) kräver ytterligare information (till exempel ett objekt-ID och ett mall-ID).</p> <p>Mer information om enskilda fält finns i <a href="http://developer.workfront.com/">Dokumentation för Workfront-utvecklare</a>. <p><strong>Anteckning</strong>: Dokumentationswebbplatsen för utvecklare innehåller endast information via API-version 14, men innehåller ändå värdefull information för API-anrop. </p> 
     <ol> 
      <li value="1"> <p>Välj posttyp i den vänstra navigeringen på sidan [!DNL Workfront] utvecklardokumentationssida. Följande typer har egna sidor:</p> 
       <ul> 
@@ -577,7 +577,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] object types available for each [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+Se en lista över [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] tillgängliga objekttyper för varje [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
