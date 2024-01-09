@@ -7,9 +7,9 @@ description: Du kan använda en layoutmall för att konfigurera vad användarna 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,10 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>Om du anger ett standardfilter eller en gruppering för en viss widget med hjälp av en layoutmall kanske det inte börjar gälla omedelbart på grund av befintliga användarinställningar. Om du vill använda det nya filtret eller grupperingen direkt kan du eller användaren behöva återställa sina användarinställningar genom att lägga till &quot;/resetUser&quot; i slutet av URL:en.
 
 1. Fortsätt att anpassa layoutmallen.
 

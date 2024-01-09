@@ -6,9 +6,9 @@ description: Gör det möjligt för användare att skicka ett ärende via e-post
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: ca3c28174dca24f14a75869bdc209569d8d8d1a0
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Följande krav krävs för att konfigurera ett projekt så att användare kan l�
 Dessa villkor måste vara uppfyllda innan den här funktionen aktiveras:
 
 * Användare som skickar e-postmeddelanden till det här kontot måste vara aktiva användare med en licens för Workfront.
-* Externa användare kan inte skicka e-postmeddelanden till en begärandekö eftersom de inte har åtkomst att skapa problem.
 * Användare som skickar e-postmeddelanden till det här kontot måste ha behörigheten Lägg till problem i projektet.
-* E-postmeddelandena som kommer från den e-postadress som är kopplad till en aktiv Workfront-användare är de enda e-postmeddelanden som tillåts skicka utgåvor till projektet.
+* Externa användare kan inte skicka e-postmeddelanden till en begärandekö eftersom de inte har åtkomst att skapa problem.
+* Det är bara e-postmeddelanden som kommer från en e-postadress som är kopplad till en aktiv Workfront-användare som kan skicka utgåvor till projektet. E-postmeddelanden som vidarebefordras till en aktiv Workfront-användare via e-post som inte är kopplad till ett Workfront-konto kan inte skapa problem under projektet eftersom den ursprungliga avsändarens e-postadress måste kopplas till ett aktivt Workfront-konto.
 * Projektet är konfigurerat som en begärandekö.
 * E-postkontot som är kopplat till projektet är inte länkat till ett Workfront-användarkonto.
 
@@ -72,19 +72,18 @@ Dessa villkor måste vara uppfyllda innan den här funktionen aktiveras:
 
 >[!NOTE]
 >
->Tänk på följande när du aktiverar e-postköinställningar:
+>Tänk på följande när du aktiverar inställningar för e-postkö:
 >
 >* Workfront tillåter en unik e-postkö per begäran för alla kluster. Om du väljer att inaktivera din begärandekö behåller du den e-postadress du skapade så länge som den fortfarande finns i rutan Ange e-postadress. Om du väljer att inte längre använda e-postadressen måste du ta bort den från fältet Intag-e-post så att den kan användas senare.
 >
 >* Om det finns flera köämnen eller ämnesgrupper i begärandekön väljer Workfront slumpmässigt det köämne som förfrågningarna ska gå till, vilket gör att det blir svårt att hantera e-postbegäranden.
-   >Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
+>Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
 
-
-1. Gå till projektet som du vill aktivera för att ta emot utgåvor via e-post.
-1. Klicka **Köinformation** i den vänstra panelen. Du kan behöva klicka **Visa fler** först.
+1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
+1. Klicka **Köinformation** till vänster. Du kan behöva klicka **Visa fler** först.
 1. I **Kötyp** område, markera **Publicera som kö för hjälpbegäran**.
 
-1. Bläddra nedåt till **Inställningar för e-postkö** område och sedan markera **Aktivera inmatning via e-post**.
+1. Bläddra nedåt till **E-postköinställningar** område och sedan markera **Aktivera inmatning via e-post**.
 
 1. Ange början på e-postadressen i dialogrutan **Ange e-postadress** box.
 
@@ -92,10 +91,9 @@ Dessa villkor måste vara uppfyllda innan den här funktionen aktiveras:
 
    >[!CAUTION]
    >
-   >* Den här e-postadressen kan inte återställas från papperskorgen om projektet som innehåller begärandekön tas bort.
+   >* E-postadressen kan inte återställas från papperskorgen om projektet som innehåller begärandekön tas bort.
    >
-   >* Eftersom den här e-postadressen måste vara unik kanske den inte är tillgänglig i framtiden om den tas bort.
-
+   >* Eftersom e-postadressen måste vara unik kanske den inte är tillgänglig i framtiden om den tas bort.
    <!--
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
