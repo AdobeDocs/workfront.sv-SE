@@ -3,22 +3,24 @@ content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Översikt över automatiserat arbetsflöde
-description: Med automatiserade arbetsflöden kan du skapa en serie sekventiella eller parallella granskningsfaser, upprätta beroenden mellan dessa faser och begränsa synligheten för vissa användare. Om granskningsprocessen består av olika steg flyttar automatiserade arbetsflöden automatiskt korrekturet genom de olika stegen och informerar berörda granskare och godkännare längs vägen. Mer information om hur du ställer in ett automatiserat arbetsflöde finns i Skapa ett avancerat korrektur med ett automatiserat arbetsflöde.
+description: Med automatiserade arbetsflöden kan du skapa en serie sekventiella eller parallella granskningsfaser, upprätta beroenden mellan dessa faser och begränsa synligheten för vissa användare. Om granskningsprocessen består av olika steg flyttar automatiserade arbetsflöden automatiskt korrekturet genom de olika stegen och informerar berörda granskare och godkännare längs vägen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
 # Översikt över automatiserat arbetsflöde
 
+<!-- Audited: 01/2024 -->
+
 Med automatiserade arbetsflöden kan du skapa en serie sekventiella eller parallella granskningsfaser, upprätta beroenden mellan dessa faser och begränsa synligheten för vissa användare. Om granskningsprocessen består av olika steg flyttar automatiserade arbetsflöden automatiskt korrekturet genom de olika stegen och informerar berörda granskare och godkännare längs vägen. Mer information om hur du konfigurerar ett automatiskt arbetsflöde finns i [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Exempel:**  Automatiska arbetsflöden hjälper er att hantera komplexa korrekturgranskningsprocesser som
+**Exempel:**  Med automatiserade arbetsflöden kan ni hantera komplexa korrekturgranskningsprocesser som:
 
 * När olika grupper eller granskare måste granska innehållet i en viss ordning
 * När det finns beroenden mellan användarens aktivitet när de granskar innehållet
@@ -36,9 +38,9 @@ Stegen kan låsas manuellt, liksom när nästa steg startar eller när alla besl
 
 Du kan utse en primär beslutsfattare för en fas. Personens beslut gör alla andra beslut för scenen onödiga.
 
-På samma sätt kan du välja att bara begära ett beslut för en fas. När du gör det markeras granskningsprocessen för scenen som slutförd efter att någon av mottagarna har fattat sitt beslut på scenen.
+På samma sätt kan du välja att bara kräva ett beslut för en fas. När du gör det markeras granskningsprocessen för scenen som slutförd efter att någon av mottagarna har fattat sitt beslut på scenen.
 
-Du kan låta alla granskare få meddelande om sin inbjudan att granska innehållet när granskningsprocessen påbörjas, eller så kan du låta varje granskare få ett meddelande först när deras scen aktiveras.
+Du kan låta alla granskare få meddelande om sin inbjudan att granska innehållet när granskningsprocessen påbörjas, eller så kan du låta varje granskare få ett meddelande först när deras scen är aktiverad.
 
 ## Privata faser
 
@@ -46,7 +48,7 @@ Som standard är kommentarer som lämnas av granskare i alla steg synliga för a
 
 Om du vill förhindra att vissa grupper av granskare ser andra granskares kommentarer, kan du skapa privata faser.
 
-Privata faser är bara synliga för granskare som har lagts till i de stegen. De är också synliga för användare som har redigeringsbehörighet för korrektur eller redigeringsbehörighet för alla objekt som skapas i din organisations Adobe Workfront-konto (Supervisor och senare eller användare med anpassade profiler för vilka redigering av andra personers information är aktiverat).
+Privata faser är bara synliga för granskare som har lagts till i de stegen. De är också synliga för användare som har redigeringsbehörighet för korrektur eller redigeringsbehörighet för alla objekt som har skapats i organisationens Adobe Workfront-konto (Supervisor och senare, eller användare med anpassade profiler för vilka redigering av andra personers information är aktiverat).
 
 Kommentarer som lagts till av deltagare på den privata scenen ingår inte i e-postmeddelanden och korrekturkommentarssammanfattningar som begärts av någon som inte har behörighet att visa dem.
 
@@ -56,14 +58,14 @@ Arbetsflödesdiagrammet är en visuell representation av korrekturets granskning
 
 ![intro-to-aw-example-chart.png](assets/intro-to-aw-example-diagram-350x199.png)
 
-I live-korrektur visas scenberoenden med en streckad grå linje för inaktiva stadier eller en heldragen svart linje för aktiva stadier. Stegen visas i grönt om godkännandeprocessen slutfördes inom den angivna tidsgränsen. Fas som närmar sig sina deadlines visas i orange och i faser efter att de har visat sin deadline i rött.
+I live-korrektur visas scenberoenden med en streckad grå linje för inaktiva stadier eller en heldragen svart linje för aktiva stadier. Stegen visas i grönt om godkännandeprocessen slutfördes inom den angivna tidsgränsen. Fallar som närmar sig sina deadlines visas i orange och i faser efter deras deadlines och visas i rött.
 
 ![workflow_2.png](assets/workflow-2-350x183.png)
 
 ## Automatiserade arbetsflödesmallar
 
-Om man använder samma granskningsprocess för flera korrektur kan Workfront-administratören skapa mallar för automatiserat arbetsflöde som gör det enklare att skapa korrektur. Du kan välja en mall för automatiserat arbetsflöde när du konfigurerar ett korrektur för att lägga till faserna och granskarna i mallen i korrekturet. Du kan ändra mallen som används för korrekturet efter behov innan och efter det att du har skapat korrekturet.
+Om man använder samma granskningsprocess för flera korrektur kan Workfront-administratören skapa mallar för automatiserat arbetsflöde som gör det enklare att skapa korrektur. Du kan välja en mall för automatiserat arbetsflöde när du konfigurerar ett korrektur för att lägga till faserna och granskarna i mallen i korrekturet. Du kan ändra den mall som används för korrekturet efter behov innan och efter det att du har skapat korrekturet.
 
 Din Workfront-administratör kan skapa ett obegränsat antal mallar utifrån ditt företags behov.
 
-Om du vill veta mer om hur du skapar, använder och hanterar mallar kan du kontakta Workfront-administratören.
+Mer information om hur du skapar, använder och hanterar mallar får du från Workfront-administratören.
