@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: '2688'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,58 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Anslut [!DNL Workfront Proof] till [!DNL Workfront Fusion]
+
+Du kan skapa en anslutning till [!DNL Workfront Proof] direkt inifrån ett [!DNL Workfront Fusion] -modul.
+
+1. I alla [!DNL Workfront Fusion] modul, klicka på [!UICONTROL **Lägg till**] bredvid [!UICONTROL Connection] fält
+
+2. Fyll i följande fält:
+
+   <table style="table-layout:auto"> 
+        <col/>
+        <col/>
+        <tbody>
+            <tr>
+                <td role="rowheader">
+                    <p role="rowheader">[!UICONTROL Connection name]</p>
+                </td>
+                <td>Ange ett namn för anslutningen</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL connections.environmentType]</td>
+                <td>Ange om det är en produktionsmiljö eller en icke-produktionsmiljö som Förhandsgranska eller Sandbox.</td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL connections.authenticationType]</td>
+                <td>Ange om det här är ett tjänstkonto eller ett personligt konto.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Email / Username]</td>
+                <td>Ange ditt användarnamn [!DNL Workfront Proof] konto.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Password]</td>
+                <td>Ange lösenordet för [!DNL Workfront Proof] konto.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Tenant name]</td>
+                <td><strong>Anteckning</strong>: Kunder som inte använder BYOK måste lämna det här fältet tomt. <p>Ange klientorganisations-ID för det här kontot. Kontakta Workfront kundsupport om du behöver hjälp med att hitta ditt klient-ID.</p></td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL Domain Extension]</td>
+                <td>Ange tillägget för den URL som du använder för att komma åt ditt konto. <p>Exempel: <code>com</code> eller <code>eu</code></p></td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Production, Preview, or Custom Environment]</td>
+                <td>Välj en anslutning till en produktion, förhandsgranskning eller en anpassad miljö.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+3. Klicka [!UICONTROL **Fortsätt**] för att spara anslutningen och återgå till modulen
 
 ## [!DNL Workfront Proof] moduler och deras fält
 
