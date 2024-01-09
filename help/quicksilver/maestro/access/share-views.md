@@ -4,7 +4,7 @@ description: Du kan dela en vy med andra för att säkerställa samarbete när d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -112,8 +112,6 @@ Så här delar du en vy med andra:
 
 ## Ta bort behörigheter till en vy
 
-
-{{step1-to-maestro}}
 
 {{step1-to-maestro}}
 

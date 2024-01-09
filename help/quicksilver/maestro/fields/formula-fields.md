@@ -4,9 +4,9 @@ description: I Adobe Maestro kan du skapa formelfält där funktioner och befint
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## Formler som stöds
 
-Vi stöder alla formler från Workfront beräkningsfält. Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Masterformelfält har stöd för alla uttryck från Workfront beräkningsfält. Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Dessutom stöder vi följande uttryck för formelfält i Maestro:
 
@@ -179,7 +179,7 @@ Dessutom stöder vi följande uttryck för formelfält i Maestro:
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Returnerar sammanfogad sträng med avgränsare.</p> <p>Uttrycket formateras på följande sätt:
 
-    ARRAYJOIN(delimiter,array)
+<code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ Dessutom stöder vi följande uttryck för formelfält i Maestro:
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Returnerar en array med unika värden.</p> <p>Uttrycket formateras på följande sätt:
 
-    ARRAYUNIQUE(array)
+<code>ARRAYUNIQUE(array)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Returnerar ID för en post.</p> <p>Uttrycket formateras på följande sätt:
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ Dessutom stöder vi följande uttryck för formelfält i Maestro:
    <td><strong>SETTIMEZON</strong> </td> 
    <td> <p>Anger tidszonen för ett datum och en tid till en viss tidszon.</p> <p>Uttrycket formateras på följande sätt:
 
-    SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)
+<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ Dessutom stöder vi följande uttryck för formelfält i Maestro:
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Returnerar veckonumret i ett år. Du kan också ange vilken dag veckan börjar på (använd 1 för söndag eller 2 för måndag). Om det utelämnas startar veckor som standard på söndag.</p> <p>Uttrycket formateras på följande sätt:
 
-    VECKOFYEAR(date,2)
-    eller
-    VECKOFYEAR(datum)
+<code>VECKOFYEAR(date,2)</code>
+eller
+<code>VECKOFYEAR(datum)</code>
 </p>
    </td></tr>
 

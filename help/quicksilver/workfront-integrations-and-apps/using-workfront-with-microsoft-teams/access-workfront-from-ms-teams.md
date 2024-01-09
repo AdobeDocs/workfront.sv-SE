@@ -6,14 +6,16 @@ description: Du kan komma åt [!DNL Adobe Workfront] från [!DNL Microsoft Teams
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # Åtkomst [!DNL Adobe Workfront] från [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p>
+   <p>Aktuell: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+*Kontakta din [!DNL Workfront] administratör.
+
+*Mer information om Workfront åtkomstkrav finns i [Översikt över åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -63,6 +68,8 @@ Du kan skapa personliga uppgifter i [!DNL Adobe Workfront] från [!DNL Microsoft
 * Du är inloggad [!DNL Workfront] från [!DNL Microsoft Teams].
 
 ## Åtkomst [!DNL Workfront] från [!DNL Workfront] chattbaserad robot
+
+Du måste vara inloggad på Workfront.
 
 1. Öppna **[!DNL Workfront]** chattkanal.
 1. Klicka på **[!DNL Workfront]** -ikonen under textfältet för att visa sökrutan.
@@ -89,6 +96,8 @@ Du kan skapa personliga uppgifter i [!DNL Adobe Workfront] från [!DNL Microsoft
 
 ## Åtkomst [!DNL Workfront] från en teamkanal
 
+Du måste vara inloggad på Workfront.
+
 1. Öppna en teamkanal och skriv **@[!DNL Workfront]** väljer **[!DNL Workfront].**
 
 1. Klicka **[!UICONTROL Search]** om du vill söka efter ett projekt, en uppgift eller ett problem.
@@ -102,7 +111,7 @@ Du kan skapa personliga uppgifter i [!DNL Adobe Workfront] från [!DNL Microsoft
    * **[!DNL Log out]** för att logga ut från Workfront
    * **[!DNL New task]** skapa en ny personlig uppgift
 
-     Mer information om hur du skapar nya uppgifter från [!DNL Microsoft Teams], se [Skapa [!DNL Adobe Workfront] uppgifter från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Mer information om hur du skapar uppgifter från [!DNL Microsoft Teams], se [Skapa [!DNL Adobe Workfront] uppgifter från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Help]** om du vill visa en lista med alla tillgängliga kommandon.
 

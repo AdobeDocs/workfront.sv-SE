@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Redigera poster
 
@@ -130,17 +130,6 @@ After permssions - replace the table with:
 -->
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## Att tänka på när du redigerar poster
 
 * Du kan redigera poster som du eller någon annan användare har skapat. <!--will change with access levels-->
@@ -193,9 +182,9 @@ Arbetsytan som du öppnar senast öppnas.
 
 ### Redigera en post från tabellvyn för en posttyp
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
 
-   Arbetsytan som du senast öppnade öppnas.
+Arbetsytan som du senast öppnade öppnas.
 
 1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
 1. Klicka på ett posttypskort.
@@ -232,5 +221,7 @@ Arbetsytan som du öppnar senast öppnas.
    >    * Länkade fält som skapas genom att koppla posttyper. Du kan kopiera och klistra in länkade postfält. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
    >    * Fält av följande typer: Skapad av, Skapad, Senast ändrad av, Senast ändrad
 
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
 
-   <!--take People out of the list above when they release this - this might be coming later-->
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->

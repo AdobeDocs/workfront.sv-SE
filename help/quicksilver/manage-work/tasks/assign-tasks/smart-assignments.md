@@ -7,9 +7,9 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,17 @@ Beräkningen av smarta tilldelningar för aktiviteten fungerar i två faser.
 
 #### Första fasen i beräkningen av smart tilldelning för uppgifter
 
-I den första fasen av beräkningen av smarta tilldelningar beräknar Workfront likhetspoäng för varje uppdrag. Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas tar hänsyn till följande:
+I den första fasen av beräkningen av smarta tilldelningar beräknar Workfront likhetspoäng för varje uppdrag.
+
+>[!NOTE]
+>
+>Den första fasen i beräkningen av smarta tilldelningar gäller inte följande aktivitetsområden:
+>
+>* Masstilldelningar i arbetsbelastningsutjämnaren.
+>* Anslutna kort på kort.
+
+
+Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas tar hänsyn till följande:
 
 * En poäng på 100 % ges till ett befintligt uppdrag där namnen på aktiviteten, projektet och portföljen är identiska med de uppgifter du försöker tilldela. Projekt- och portföljnamnen för en uppgift i en befintlig tilldelning måste också matcha projektet och portföljen för den uppgift du försöker tilldela.
 
@@ -115,7 +125,7 @@ Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter 
 
 >[!NOTE]
 >
-><span class="preview">Följande villkor gäller endast för uppgifter när den första fasen i beräkningen av den smarta tilldelningen inte hittade några matchningar. mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för uppgifter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard. </span>
+><span class="preview">Följande villkor gäller endast för uppgifter när den första fasen i beräkningen av den smarta tilldelningen inte hittade några matchningar. Mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för uppgifter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard. </span>
 
 Användare rekommenderas i listrutan Smarta tilldelningar baserat på en kombination av följande kriterier (listas i ordning från viktigaste till minst viktiga):
 

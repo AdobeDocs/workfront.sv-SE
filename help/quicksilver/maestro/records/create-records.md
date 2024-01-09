@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,8 @@ After permssions - replace the table with:
 
 Du kan skapa poster i tabellvyn för en posttypssida.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** icon ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
+
 Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture/create-record-types.md).
 
@@ -186,6 +187,11 @@ Alla poster av den valda typen visas i tabellvyn.
    >  * Fält som refererar till andra posttyper eller beräknade fält är skrivskyddade fält.
 
 1. Fortsätt lägga till information på varje rad och klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
+
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
+
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->
 
 ## Skapa poster genom att ansluta dem från ett annat program
 

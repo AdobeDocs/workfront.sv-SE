@@ -6,14 +6,16 @@ description: Använda villkorsstyrd formatering i textläge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
 
 # Använda villkorsstyrd formatering i textläge
+
+<!--Audited: 01/2024-->
 
 <!--
 (NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
@@ -38,20 +40,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nytt: Standard </p> 
+   <p>Aktuell: Planera</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera vyer i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera vyer i en rapport</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter till en rapport för att redigera vyer i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter till en rapport för att redigera vyer i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
+*Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Villkorsstyrd formatering i textläge
 
@@ -59,13 +65,13 @@ I textläget kan du skapa mer komplexa vyer, filter, grupperingar och uppmaninga
 
 En fullständig lista över alla våra rapportbara fält finns i  [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Mer information om hur du använder textlägessyntax finns i [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Mer information om hur du använder syntax i textläge finns i [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 Du kan också använda textläge för att formatera vyer i rapporter och listor. Med villkorsstyrd formatering kan du ändra rapportens vyer genom att ändra teckensnittstyp och bakgrund för resultaten i rapporten samt ikoner och flaggor. Vi rekommenderar att du alltid bygger upp dina vyer med standardgränssnittet först och växlar till textlägesgränssnittet endast när det är absolut nödvändigt.
 
 >[!NOTE]
 >
-> Det går inte att använda CSS-format för att anpassa villkorsstyrd formatering. Du måste i stället använda de fördesignade formateringsalternativen som finns i Adobe Workfront.
+> Det går inte att anpassa villkorsstyrd formatering med CSS-format. Du måste i stället använda de fördesignade formateringsalternativen som finns i Adobe Workfront.
 
 ## Lägga till villkorsstyrd formatering i vyer
 
@@ -104,13 +110,11 @@ Du kan anpassa följande element i en kolumn när du använder villkorsstyrd for
 
 Om du vill ändra den kolumnrubrik som visas lägger du till följande kod i kolumnen: `displayname= [Name of column]`. Om du till exempel vill namnge en kolumn som Projektägare ser textkoden ut så här:
 
-```
-displayname=Project Owner
-```
+`displayname=Project Owner`
 
 #### Formatera datum {#format-dates}
 
-Datum kan konfigureras för visning i en mängd olika format.
+Datum kan konfigureras för visning i olika format.
 
 Mer information finns i [Formatera datum i textlägesrapporter](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
@@ -270,11 +274,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->The *styledef.case.0.comparison.icon* -raden är alltid false om du inte arbetar med ikoner.
+>The `styledef.case.0.comparison.icon` -raden är alltid false om du inte arbetar med ikoner.
 >
->The *styledef.case.0.comparison.truetext* raden lämnas alltid tom tills du arbetar med att skriva över text.
+>The `styledef.case.0.comparison.truetext` raden lämnas alltid tom tills du arbetar med att skriva över text.
 >
->The *styledef.case.0.comparison.rightText* raden är tom när kvalificeraren inte är tom.
+>The `styledef.case.0.comparison.righttext` raden är tom när kvalificeraren inte är tom.
 
 Om vi till exempel vill visa företagsnamnet i grön text i en projektrapport kan du använda följande kod:
 
@@ -293,7 +297,7 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >[!NOTE]
 >
 >* Även om den här programsatsen kan användas för en företagsnamnkolumn, kan den även användas för andra kolumner i rapporten. Grön text visas bara om projektet har ett associerat företag. Kom ihåg `[field name]`, `[value]`och `[qualifier]` kör om konditioneringen slutligen visas i kolumnen eller inte.
->* När vi arbetar med kvalificerare rekommenderar vi att du använder `cicontains` i stället för `equal`. Som standard `equal` söker efter ID-nummer. Använda `cicontains` kan du komma åt objekt efter deras namn.
+>* När vi arbetar med kvalificerare bör du använda `cicontains` i stället för `equal`. Som standard `equal` söker efter ID-nummer. Använda `cicontains` kan du komma åt objekt efter deras namn.
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
@@ -308,7 +312,7 @@ styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
 ```
 
-Använd följande tabeller för att identifiera vilka rader som behöver ändras och vilka värden du bör ange för att definiera kolumnformatet:
+Använd följande tabeller för att identifiera vilka rader som måste ändras och vilka värden du bör ange för att definiera kolumnformatet:
 
 | **Textfärg** | **Rad: textcolor=** |
 |---|---|
@@ -355,7 +359,7 @@ Använd följande tabeller för att identifiera vilka rader som behöver ändras
 
 Du kan använda mer än ett formateringsformat på en sats. Programsatsen core förblir oförändrad och eventuella ytterligare formateringsuttryck läggs till i programsatsen.
 
-Om du till exempel använder den tidigare programsatsen för att inkludera företagsnamn i grön, fetstilt text. Programsatsen skulle skrivas med följande kod:
+Om du till exempel använder den tidigare programsatsen för att inkludera företagsnamn i grön fetstilt. Programsatsen skulle skrivas med följande kod:
 
 ```
 styledef.case.0.comparison.leftmethod=company:name
@@ -400,7 +404,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->Raderna som börjar med `case.0.` jämföra skiftläge med att identifiera textanvändning. Raderna som börjar med **styledef.case.0.** är tidiga villkorsstyrda formateringssatser där vi identifierar textanvändning via `truetext` -uttryck. Se till att ange `truetext` till ett värde i stället för att lämna det tomt.
+>Raderna som börjar med `case.0.` jämföra skiftläge med att identifiera textanvändning. Raderna som börjar med `styledef.case.0.` är tidiga villkorsstyrda formateringssatser där vi identifierar textanvändning via `truetext` -uttryck. Se till att ange `truetext` till ett värde i stället för att lämna det tomt.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -410,87 +414,28 @@ styledef.case.0.comparison.truetext=not today
 
 Om du vill använda ett villkor för hela raden använder du följande kod tillsammans med kolumnkoden:
 
+
 ```
 styledef.case.0.comparison.icon=false
-```
-
-```
 styledef.case.0.comparison.isrowcase=true
-```
-
-```
 styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 styledef.case.0.comparison.truetext=
-```
-
-```
 row.0.styledef.applyallcases=true
-```
-
-```
 row.0.styledef.case.0.comparison.icon=false
-```
-
-```
 row.0.styledef.case.0.comparison.isrowcase=true
-```
-
-```
 row.0.styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 row.0.styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 row.0.styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 row.0.styledef.case.0.comparison.truetext=
 ```
 
@@ -511,6 +456,7 @@ image.case.0.comparison.truetext=
 
 Om du till exempel har en projektrapport vill du skapa en kolumn där du vill visa ett urholkat ansikte för varje planerat slutförandedatum som inte är lika med dagens datum. Använd följande textlägeskod för att lägga till ikonen i kolumnen:
 
+
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
 image.case.0.comparison.lefttext=plannedCompletionDate
@@ -523,7 +469,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->Observera att programsatsen använder `icon=true` -uttryck. Programsatsen skiljer sig också från andra villkorliga formateringssatser eftersom den inte använder `style.def` -format, men i stället ett unikt bildformat.
+>Observera att programsatsen använder `icon=true` -uttryck. Programsatsen skiljer sig också från andra villkorliga formateringssatser eftersom den inte använder `style.def` -format, utan ett unikt bildformat.
 
 ![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
 
@@ -574,12 +520,20 @@ Tänk på följande när du lägger till aggregerare i en kolumn i textläge:
    * Datum
    * Valuta
 
-* Du kan lägga till en aggregator i en kolumn som visar en beräkning. Det aggregerade värdet visas i grupperingen av vyn eller rapporten. Mer information finns i [Gruppering: visa resultatet av att aggregera flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+* Du kan lägga till en aggregator i en kolumn som visar en beräkning. Det aggregerade värdet visas i grupperingen av vyn eller rapporten. Mer information finns i [Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * Kodraderna för definitionen av kolumnen måste vara identiska med kodraderna som inför aggregatorn och föregås av &quot;aggregator&quot;. Om du till exempel har en kolumn där du visar Planerade timmar i ett projekt, är textläget för kolumnhuvudraderna:
 
-  ```
+```
   valuefield=workRequired
   valueformat=compound
-  ```
+```
 
-  När du vill aggregera värdet för alla rader i vygrupperingen kan vi lägga till följande kod för att lägga till aggregeringsvärdena: `aggregator.valuefield=workRequired` ( `aggregator.valuefield` raden måste vara samma som `valuefield` som beskriver kolumnen) `aggregator.valueformat=compound` ( `aggregator.valueformat` raden måste ha samma värde som `valueformat` som beskriver kolumnen) `aggregator.function=SUM` (det här är en obligatorisk rad som anger hur du vill samla kolumnen, och i det här fallet vill du lägga till alla enskilda planerade timmar i ett nummer på grupperingsraden) `aggregator.displayformat=minutesAsHoursString` (eftersom timmar lagras i Workfront på några minuter vill vi ange `displayformat` i timmar när de lagras i minuter)
+När du vill samla in värdena för alla rader i grupperingen av vyn kan vi lägga till följande kod för att lägga till aggregeringsvärdena:
+
+`aggregator.valuefield=workRequired` (på `aggregator.valuefield` raden måste vara samma som `valuefield` som beskriver kolumnen)
+
+`aggregator.valueformat=compound` (på `aggregator.valueformat` raden måste ha samma värde som `valueformat` som beskriver kolumnen)
+
+`aggregator.function=SUM` (det här är en obligatorisk rad som anger hur du vill samla kolumnen, och i det här fallet vill du lägga till alla enskilda planerade timmar i ett nummer på grupperingsraden)
+
+`aggregator.displayformat=minutesAsHoursString` (eftersom timmar lagras i Workfront på några minuter vill vi ange `displayformat` i timmar när de lagras i minuter)

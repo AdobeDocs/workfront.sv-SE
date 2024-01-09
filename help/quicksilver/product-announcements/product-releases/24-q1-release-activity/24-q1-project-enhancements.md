@@ -3,9 +3,9 @@ title: Förbättringar av projekt för första kvartalet 2024
 description: Förbättringar av projekt för första kvartalet 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 ## AI-drivna smarta uppdrag
 
-Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används överallt i Workfront där du tilldelar en uppgift (uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen).
+Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.
 
 Nu tittar algoritmen på följande information när den föreslår smarta tilldelningar:
 
