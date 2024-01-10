@@ -4,9 +4,9 @@ description: Integreringsförbättringar för första kvartalet 2024
 author: Becky
 feature: Product Announcements
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Den här sidan beskriver alla integreringsförbättringar som gjorts i den första utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den första utgåvan av kvartal 2024.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Nu används metadata i Experience Manager Assets Essentials `xcm:keywords` i stället för `dc:subject`
+
+Vi har uppdaterat integreringen av Experience Manager Assets Essentials för att matcha upplevelsen av Experience Manager Assets as a Cloud Service integrering. När du mappar flera enkelradiga textfält till ett enda fält i Experience Manager Assets använder båda tjänsterna nu `xcm:keywords` fält.
+
+Tidigare mappades dessa fält till `dc:subject` i Experience Manager Assets Essentials. Experience Manager Assets as a Cloud Service funktioner är oförändrade.
+
+Alla Experience Manager Assets Essentials-metadata som är mappade till `dc:subject` måste mappas om till `xcm:keywords`.
+
+Mer information om att mappa metadata till Experience Manager Assets Essentials finns i [AEM nyckelord](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
 ## Typsnittsfält är nu tillgängliga i Adobe Experience Manager Integration
 

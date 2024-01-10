@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterad status för dokumentgodkännanden</a></p><p>För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.</p>
@@ -276,6 +277,23 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nu används metadata i Experience Manager Assets Essentials <code>xcm:keywords</code> i stället för <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har uppdaterat integreringen av Experience Manager Assets Essentials för att matcha upplevelsen av Experience Manager Assets as a Cloud Service integrering. När du mappar flera enkelradiga textfält till ett enda fält i Experience Manager Assets använder båda tjänsterna nu <code>xcm:keywords</code> fält.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 10 januari 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: 10 januari 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis utgivning: 10 januari 2023</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typsnittsfält är nu tillgängliga i Adobe Experience Manager Integration</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra det enklare att länka fält mellan Workfront och Adobe Experience Manager har vi lagt till stöd för typsnittsfält i metadatamappningen. Nu kan du mappa typsnittsfält till motsvarande fält i Adobe Experience Manager.</p>
