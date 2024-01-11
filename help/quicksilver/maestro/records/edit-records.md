@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -179,5 +179,5 @@ Arbetsytan som du senast öppnade öppnas.
 
 1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om redigering eller kopiering och inklistring av postinformation:
 
-   * **Ångra**: CTRL/CMD + Z
-   * **Gör om**: CTRL/CMD + Skift + Z
+   * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
+   * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring

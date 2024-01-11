@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ I Maestro kan du skapa anpassade posttyper som passar din organisations behov.
    * [Driftposttyp](#operational-record-type): En posttyp som representerar strategiska planer, initiativ eller planerat arbete. Exempel: Campaign, Activity, Tactic, Opportunity kan vara operativa posttyper.
    * [Taxonomi](#taxonomy): Posttyper som samlar in attribut om en operativ posttyp. Region, Adress, Audience kan till exempel vara taxonomier.
 
-* När du skapar en posttyp kan alla i organisationen visa, redigera eller ta bort den. <!--this will change with access levels and permissions-->
+* När du skapar en posttyp kan bara du och de du ger behörighet att komma åt arbetsytan visa posttypen.
 * Du måste skapa en arbetsyta innan du kan skapa posttyper för arbetsytan.
 * Du kan ha en kombinerad summa på 1 000 driftsposttyper och taxonomier på en arbetsyta. Detta inkluderar posttyper eller taxonomier som du skapar från grunden eller som du importerar från andra system.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Du kan lägga till nya fält i Adobe Maestro som återspeglar organisationens li
 
 * Workfront-fält är bara tillgängliga från Maestro när du kopplar Maestro-posttyper till Workfront-objekttyper och lägger till länkade eller sökbara fält från Workfront-objekt. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
-* Du kan visa och uppdatera inställningarna för de fält som du eller någon annan användare har skapat. <!--this will change with access/ permissions-->
+* Du kan visa och uppdatera inställningarna för de fält som du eller någon annan användare har skapat, om du har behörigheten Hantera för den arbetsyta som fältet tillhör.
 
 * Du kan ha upp till 500 fält för en posttyp.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>Om du vill ansluta Maestro-posttyper till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
@@ -76,74 +81,25 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 
 <tr>
-   <td role="rowheader">Åtkomstnivå</td>
-   <td> <p>Alla</p>  
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
+   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Behörigheter</p></td>
+   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -160,17 +116,17 @@ After permssions - replace the table with:
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* Du kan ta bort alla posttyper och taxonomi som du eller någon i organisationen har skapat. <!--this will change with access levels and permissions-->
-* När du tar bort posttyper tas all information som är kopplad till dem bort, inklusive fält och poster av den typen.
+* Du kan bara ta bort posttyper eller taxonomier från arbetsytor där du har behörigheten Hantera.
+* När du tar bort posttyper tas all information som är kopplad till dem bort, inklusive fält och poster av den typen. Posttypen tas bort från alla användare som använder arbetsytan.
 * Du kan inte återställa borttagna posttyper eller deras information.
 
 ## Ta bort posttyper
 
 Att ta bort taxonomiposttyper är identiskt med att ta bort driftsposttyper.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Den senast använda arbetsytan bör öppnas som standard.
+Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill ta bort posttyper för.
 

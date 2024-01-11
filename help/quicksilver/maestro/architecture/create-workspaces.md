@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -54,81 +59,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Nytt: Standard</p>
+   <p>Aktuell: Arbete eller högre</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Åtkomstnivå</td>
-   <td> <p>Alla</p>  
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
+   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>
 </td>
   </tr>
+
 <tr>
-   <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Behörigheter</p></td>
+   <td> <p>Du får behörigheten Hantera för de arbetsytor du skapar. </p>  
 </td>
   </tr>
- </tbody>
+
+<tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Du måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level*</p></td>
-   <td> <p>System Administrator</p>  
-   <p>The following license types:</p>
-   <ul><li>New: Standard</li>
-   <li>Current: Worker or higher </li></ul>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver\administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
-
-
+Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -145,13 +104,15 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 * Du kan skapa arbetsytor för specifika organisationsenheter inom organisationen, så att de matchar det unika sätt som varje enhet fungerar på.
 * De posttyper och taxonomier som en arbetsyta innehåller bör återspegla arbetslivscykeln för en organisationsenhet.
-* När du skapar en arbetsyta kan alla i organisationen visa, redigera eller ta bort den.  <!--this will change with access levels and permissions-->
+* När du skapar en arbetsyta är det bara du som har behörighet att komma åt och hantera arbetsytan. Du måste dela det med andra användare för att de ska kunna samarbeta med dig på samma plats. Mer information finns i [Dela en arbetsyta](/help/quicksilver/maestro/access/share-workspaces.md).
 * Du kan ha högst 1 000 arbetsytor i din organisation.
 * Arbetsytor innehåller posttyper som är unika för varje arbetsyta. <!--this might change-->
 
 ## Skapa en arbetsyta
 
-1. (Villkorligt) Om du inte har några arbetsytor klickar du på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+1. (Villkorligt) Om du inte har några arbetsytor i din miljö klickar du på **Skapa arbetsyta**
 
    Du kan också klicka på nedåtpilen till höger om arbetsytans namn från en befintlig arbetsyta och sedan klicka på **Skapa arbetsyta**.
 

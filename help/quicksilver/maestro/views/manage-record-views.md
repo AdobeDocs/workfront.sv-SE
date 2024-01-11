@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <tr>
 <tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,8 +71,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 
 <tr>
-   <td role="rowheader">Åtkomstnivå</td>
-   <td> <p>Alla</p>  
+   <td role="rowheader">Åtkomstnivåkonfiguration</td>
+   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Behörigheter</p></td>
+   <td> <p>Hantera behörigheter till vyn</p>  
 </td>
   </tr>
 
@@ -84,71 +90,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 ## Att tänka på när du arbetar med maestro-vyer
 
 * Vyer i maestro är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
-* Vyer som du skapar är synliga för alla som kommer åt Maestro-området. <!-- edit this when we have permissions and the views will be shared only to be visible by others-->
-  <!-- this is not yet possible: * You can share views with others if you want them to also apply them to the same record types.-->
+* Vyer som du skapar visas bara för dig och de användare som du delar vyerna med.
 * Att skapa vyer för driftsposttyper är identiskt med att bygga vyer för taxonomiposttyper.
-* När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har åtkomst till Maestro-området.
+* När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har behörighet till vyn.
 * Följande element är unika för varje vy i Maestro:
 
    * Filter
@@ -163,14 +110,13 @@ When we release permissions to views:
   >
   > Eftersom Maestro för närvarande är i betaversion är vissa vyelement kanske inte tillgängliga för båda vyerna.
 
-
 I den här artikeln beskrivs följande information om maestro-vyer:
 
 * [Skapa och redigera en vy](#create-or-edit-record-views)
 * [Ta bort en vy](#delete-views)
   <!--* [Duplicate a view](#duplicate-views)-->
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-  <!--* [Share a view](#share-views) - not possible yet-->
+* [Dela en vy](#share-a-view)
 
 ## Likheter och skillnader mellan tabell- och tidslinjevyerna
 
@@ -200,7 +146,9 @@ I följande tabell visas likheter och skillnader mellan tabell- och tidslinjevye
 
 ## Skapa eller redigera vyer {#create-or-edit-views}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** icon ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+
 Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture/create-record-types.md).
 
@@ -249,6 +197,11 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 1. Klicka **Ta bort** för att bekräfta. <!--ensure there is not another saving step here?!-->
 
    Vyn tas bort för alla användare som har åtkomst till Maestro-området och kan inte återställas.
+
+## Dela en vy
+
+Mer information om att dela vyer finns i [Dela en vy](/help/quicksilver/maestro/access/share-views.md).
+
 
 <!--not possible yet - August 30, 2023: 
 
