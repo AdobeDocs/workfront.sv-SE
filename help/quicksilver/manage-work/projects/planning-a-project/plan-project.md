@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # Planera en projektöversikt
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 Ett projekt är en stor arbetsuppgift i Adobe Workfront. Du kan dela upp ett projekt i uppgifter som är mindre arbetsobjekt, som uppgifter. Uppgifter kan tilldelas användare eller team som ansvarar för att de slutförs. När alla användare har slutfört sina uppgifter blir projektet också färdigt.
@@ -104,7 +106,7 @@ Tänk på följande när du skapar tidslinjen för projektet:
 
   Du kan till exempel ha ett projekt för att bygga en lägenhetsbyggnad. Ett av era mål är rörmokningen och ett annat är att lägga grunden. En av dina rörmokningsuppgifter är att koppla upp dig till vattenlinjen i huvudstaden, och detta måste göras innan du lägger grunden. De flesta av dina andra rörmokningsuppgifter kan dock inte utföras förrän efter att grunden lagts. I det här fallet bör du överväga att använda föregångare för att förstå när ett mål kan börja efter att dess förutsättning är klar.
 
-  När du använder överordnade uppgifter för att ordna mål kan du skapa en uppgift för varje viktigt mål och lägga till underaktiviteter när du kommer till steget att dela upp viktiga mål i enskilda uppgifter. Detta håller de uppgifter som är en del av målet organiserade i projektet.
+  När du använder överordnade uppgifter för att ordna mål kan du skapa en uppgift för varje viktigt mål och lägga till underuppgifter när du kommer till steget att dela upp viktiga mål i enskilda uppgifter. Detta håller de uppgifter som är en del av målet organiserade i projektet.
 
   Mer information om föregående aktiviteter finns i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

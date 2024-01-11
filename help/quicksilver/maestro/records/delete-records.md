@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
    <p> Adobe product</p> </td>
    <td>
@@ -52,80 +57,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens</p>
+   </td>
    <td>
    <p>Alla</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Åtkomstnivå</td>
-   <td> <p>Alla</p>  
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
+   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro </p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Behörigheter</p></td>
+   <td> <p>Contribute eller högre behörighet till en arbetsyta</a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
 
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,9 +115,10 @@ Du kan ta bort en post från följande områden:
 
 ### Ta bort en post från postens informationssida
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på Makestro.
+{{step1-to-maestro}}
 
-   Arbetsytan som du öppnar senast öppnas.
+Arbetsytan som du öppnar senast öppnas.
+
 1. Klicka på en posttyp.
 
    Posttypssidan öppnas.
@@ -179,9 +139,10 @@ Posten tas bort och kan inte återställas.
 
 ### Ta bort en post från posttyptabellvyn
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro**.
+{{step1-to-maestro}}
 
-   Arbetsytan som du senast öppnade öppnas.
+Arbetsytan som du senast öppnade öppnas.
+
 1. Klicka på en posttyp.
 
    Posttypssidan öppnas.
@@ -194,7 +155,7 @@ Posten tas bort och kan inte återställas.
 
    Posten tas bort och kan inte återställas.
 
-<!--1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
+1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om borttagning av en post:
 
-   * **Undo**: CTRL/CMD + Z
-   * **Redo**: CTRL/CMD + Shift + Z-->
+   * **Ångra**: CTRL/CMD + Z
+   * **Gör om**: CTRL/CMD + Skift + Z

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,9 @@ I den här artikeln listas de funktioner som har släppts efter lanseringen av b
 
 De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i det nedstängda betaprogrammet från Maestro har tillgång till alla funktioner i sin produktionsmiljö.
 
-<!--
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
--->
+>Mellan maj 2023 och december 2023 släpptes alla funktioner i den här artikeln till både förhandsgransknings- och produktionsmiljön. Maestro-funktionerna har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som släpps efter detta datum är för närvarande tillgängliga i Produktion.
 
 I den här artikeln listas de funktioner och korrigeringar som har släppts efter lanseringen av Maestro-betaprogrammet, den 22 maj 2023.
 
@@ -42,83 +40,80 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
 
-<!--## Week of January 15, 2024
+## Vecka 15 januari 2024
 
-### Maestro capabilities are removed from the Preview and Sandbox environments 
+### Makrofunktioner tas bort från förhandsgransknings- och sandlådemiljöerna
 
-Preview and sandbox: <***Date here****> 
+Förhandsgranska och sandlåda: 11 januari 2024
 
-The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+Maestro-området och alla Maestro-funktioner har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna. Maestro kommer att läggas till i dessa miljöer vid ett senare datum som vi kommer att informera om i versionsinformationen.
 
-(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
+### Maestro-behörigheter för arbetsytor och vyer
 
-### Maestro permissions for workspaces and views
+Produktion: 11 januari 2024
 
-Production: <****date here****>
+Förhandsgranska: Ska bestämmas
 
-Preview: To be determined
+Nu kan du dela en arbetsyta eller en vy med användare och grupper. Du kan ange deras behörigheter till olika nivåer beroende på vilken information de behöver för att visa eller redigera.
 
-You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+När du delar en arbetsyta har användarna behörighet till posttyperna, posterna och fälten på den arbetsytan.
 
-When you share a workspace, users have permissions to the record types, records, and fields in that space.
+När du delar en arbetsyta får användarna inte delningsbehörigheter till vyerna som är kopplade till posttyperna på arbetsytan. Du måste tilldela olika behörigheter till vyer.
 
-When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
+Följande behörighetsnivåer gäller för arbetsytorna i Maestro:
 
-The following are the permissions levels for Maestro workspaces:  
+* Visa: Användare kan visa arbetsytor som delas med dem. De kan även visa posttyper och poster från den delade arbetsytan.
 
-* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* Contribute: Användare kan skapa, redigera och ta bort poster på den arbetsyta som delas med dem.  De kan inte skapa eller redigera posttyper eller arbetsytor som delas med dem.
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
+* Hantera: Användare kan skapa, redigera och ta bort arbetsytor, posttyper, poster och fält på arbetsytor som delas med dem.
 
-* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
+Följande behörighetsnivåer gäller för postvyer:
 
-The following are the permissions levels for record type views:
+* Visa: Användare kan välja vyn i listrutan Visa på en posttypsida.
+* Hantera: Användare kan redigera, dela och ta bort vyn.
 
-* View: Users can select the view from the View drop-down menu of a record type.
-* Manage: Users can edit, share, and delete the view. 
+Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md) och [Översikt över delningsbehörigheter i Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+### Ny formelfältstyp
 
-### New Formula field type (title) 
+Produktion: 11 januari 2024
 
-Production: <*******date**********> 
+Förhandsgranska: Ska bestämmas
 
-Preview: To be determined 
+Nu kan du lägga till ett formeltypsfält till en posttyp.
 
-You can now add a Formula type field to a record type.  
+Formelfält genererar ett nytt värde med hjälp av befintliga värden från andra fält i en posttyp och en funktion som anger hur befintliga värden ska beräknas.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+Du kan inte använda uppslagsfält från länkade posttyper i en formelberäkning. Den här funktionen kommer att vara tillgänglig vid ett senare tillfälle.
 
-You cannot use lookup fields from linked record types in a formula calculation.  
+Mer information finns i [Översikt över formelfält](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+### Ångra/Gör om åtgärder vid hantering av poster i tabellvyn
 
-### Undo/ Redo actions when managing records in the table view
+Produktion: 11 januari 2024
 
-Production: <****Date******>
-Preview: To be determined
+Förhandsgranska: Ska bestämmas
 
-You can now undo or redo your changes when performing the following actions in the table view:  
+Du kan nu ångra eller göra om dina ändringar när du utför följande åtgärder i tabellvyn:
 
-* Copy/ paste data 
-* Edit record 
-* Add record 
-* Delete record 
+* Kopiera/klistra in data
+* Redigera post
+* Lägg till post
+* Ta bort post
 
-You can use the following keystrokes to undo or redo actions: 
+Du kan använda följande tangenttryckningar för att ångra eller göra om åtgärder:
 
-* Undo: CTRL + Z 
-* Redo: CTRL + Shift+Z 
+* Ångra: CTRL/CMD + Z
+* Gör om: CTRL/CMD + Skift+Z
 
-For more information, see the following articles:  
+Mer information finns i följande artiklar:
 
-* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+* [Redigera poster](/help/quicksilver/maestro/records/edit-records.md)
 
-* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+* [Ta bort poster](/help/quicksilver/maestro/records/delete-records.md)
 
-* Create records (/help/quicksilver/maestro/records/create-records.md) 
-
--->
+* [Skapa poster](/help/quicksilver/maestro/records/create-records.md)
 
 ## Vecka 25 december 2023
 

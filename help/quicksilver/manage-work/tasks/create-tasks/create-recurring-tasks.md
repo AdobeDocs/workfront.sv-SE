@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
 
 # Skapa återkommande uppgifter
+
+<!--Audited: 01/2024-->
 
 Du kan skapa återkommande uppgifter för uppgifter som du måste upprepa som en del av ett enda projekt.
 
@@ -34,20 +36,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td> <p>Nytt: Standard</p> 
+   <p>Aktuell: Arbete eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till uppgifter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Bevilja åtkomst till uppgifter</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter till projektet med möjlighet att lägga till uppgifter eller högre</p> <p>När du skapar en uppgift får du automatiskt behörigheten Hantera för uppgiften</p> <p> Mer information om aktivitetsbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Dela en uppgift </a>. </p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter till projektet med möjlighet att lägga till uppgifter eller högre</p> 
+   <p>När du skapar en uppgift får du automatiskt behörigheten Hantera för uppgiften</p> 
+   <p> Mer information om aktivitetsbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Dela en uppgift </a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa en återkommande uppgift
 
@@ -55,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 >
 >Du kan inte skapa en återkommande uppgift genom att ändra en befintlig uppgift. Du måste skapa en ny uppgift.
 
-1. Gå till projektet där du vill skapa en återkommande uppgift och klicka sedan på **Uppgifter** i den vänstra panelen.
+1. Gå till det projekt där du vill skapa en återkommande uppgift och klicka sedan på **Uppgifter** i den vänstra panelen.
 1. Klicka **Ny uppgift**.
 
    Dialogrutan Ny uppgift visas.
@@ -69,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >   Varaktighet och Planerade timmar som anges för en ny återkommande aktivitet är Varaktighet och Planerade timmar för varje förekomst. Den överordnade aktivitetens varaktighet är tiden mellan det planerade startdatumet för den första aktiviteten och det planerade slutförandedatumet för den senaste aktiviteten. Den överordnade uppgiftens planerade timmar är det totala antalet planerade timmar från alla förekomster.
 
-1. Klicka **Översikt** i den vänstra panelen.
+1. Klicka **Ökning** till vänster.
 1. Bläddra nedåt till **Återkommande schema** väljer du **Gör detta till en återkommande uppgift** alternativ.
 
    ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
@@ -102,7 +107,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td role="rowheader"><strong>Månad</strong> </td> 
       <td> <p>Uppgiften upprepas varje månad, varannan månad, var tredje månad och så vidare, beroende på vilken frekvens du väljer. Du kan välja mellan 1 och 12 månader. </p> <p>I <strong>Upprepningar</strong> väljer du bland följande alternativ när du vill att uppgiften ska utföras:</p> 
        <ul> 
-        <li> <p><strong>varje månad &lt;month date=""&gt;</strong> </p> <p>Du kan välja dagar mellan 1 och 30 eller välja <strong>sista</strong>. Du kan t.ex. välja "varje månad den 30:e". </p> </li> 
+        <li> <p><strong>varje månad &lt;month date=""&gt;</strong> </p> <p>Du kan välja dagar mellan 1 och 30 eller välja <strong>sista</strong>. Du kan till exempel välja "varje månad den 30:e". </p> </li> 
         <li> <p><strong>varje månad &lt;number&gt; &lt;day of="" the="" week=""&gt;</strong> </p> <p>I den första listrutan kan du välja ett tal mellan 1 och 4 för veckonumret i månaden eller så kan du välja "senaste". </p> <p>I den andra listrutan kan du välja vilken veckodag som helst. </p> <p>Du kan t.ex. välja "varje månad den andra tisdagen". </p> </li> 
        </ul> </td> 
      </tr> 
@@ -122,7 +127,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka **Skapa uppgift.**
 
-   Uppgiftslistan visas. Den återkommande uppgiften skapas som en överordnad uppgift och alla återkommande aktiviteter är dess underordnade. Workfront genererade automatiskt namnen på de underordnade uppgifterna med det namn du angav för den överordnade uppgiften följt av ett nummer. Mer information om vilka fält som fylls i automatiskt från den överordnade återkommande uppgiften finns i [Översikt över återkommande uppgifter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   Uppgiftslistan visas. Den återkommande uppgiften skapas som en överordnad uppgift och alla återkommande aktiviteter är dess underordnade. Workfront genererade automatiskt namnen på de underordnade uppgifterna med det namn du angav för den överordnade uppgiften följt av ett nummer. De återkommande uppgifterna placeras i slutet av uppgiftslistan.
+
+   Mer information om vilka fält som fylls i automatiskt från den överordnade återkommande uppgiften finns i [Översikt över återkommande uppgifter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
    ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 

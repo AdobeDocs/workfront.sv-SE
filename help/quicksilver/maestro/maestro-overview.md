@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 0%
 # Adobe Maestro - översikt
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i M
 | Koppla Maestro-poster till Adobe Experience Manager-resurser | ✓ |                                  |                 |
 | Sidan med postinformation | ✓ |                                  |                  |
 | Uppdatera layouten på sidan med postinformation |                               | ✓ |                  |
-| Dela arbetsytor | | ✓ |  |
-| Visa | | ✓ |  |
+| Dela arbetsytor | ✓ | |  |
+| Visa | ✓ | |  |
 | Skicka begäranden |                               |                                  | ✓ |
 | Kreativ översikt |                               |                                  | ✓ |
 | Anpassa färg och ikon för en post | ✓ |                                  |                 |
@@ -92,15 +88,11 @@ I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i M
 | Maestro-moduler för Adobe Workfront Fusion | ✓ |                                  |                 |
 | Kopiera och klistra in information från ett fält till ett annat | ✓ |                                  |                 |
 
-## Åtkomst krävs för att använda Maestro under det avslutade betaprogrammet
+## Aktivera Maestro för användare i din Workfront-instans
 
->[!IMPORTANT]
->
->För närvarande finns det inga åtkomstnivåer eller behörigheter kopplade till användare eller informationen i Maestro. Alla användare kan visa, redigera och ta bort all information som andra användare lägger till i Maestro.
+Din organisation måste registrera sig i det slutna betaprogrammet för Adobe Maestro innan du kan komma åt Maestro. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
 
-Mer information om vilken åtkomst som krävs för att använda Maestro finns i [Översikt över åtkomst till Adobe Maestro](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Maestro finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro-terminologi
 
@@ -185,7 +177,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
    * Maestro-fälten är helt anpassningsbara och är bara tillgängliga i Maestro. Du har inte åtkomst till Maestro-fält från Workfront.
 
-  Mer information finns i [Skapa fält](../maestro/fields/create-fields.md)
+  Mer information finns i [Skapa fält](../maestro/fields/create-fields.md).
 
   En ny operativ posttyp är som standard associerad med följande fördefinierade fält:
 
@@ -208,6 +200,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
    * Procent
    * Valuta
    * Kryssruta
+   * Formel
    * Folk
    * Skapad av
    * Skapad den
@@ -272,12 +265,6 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Maestr
 | Storlek på fil som du kan importera via API för en posttypstabell | 1,5 MB |
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
 | Storlek på Excel-fil som du kan importera i en tabell | 5 MB |
-
-## Aktivera Maestro för användare i din Workfront-instans
-
-Din organisation måste registrera sig i det slutna betaprogrammet för Adobe Maestro innan du kan komma åt Maestro. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
-
-Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Maestro finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Hitta maestro
 

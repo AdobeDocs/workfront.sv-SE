@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Create fields
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
@@ -63,9 +63,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,73 +93,25 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 
 <tr>
-   <td role="rowheader">Åtkomstnivå</td>
-   <td> <p>Alla</p>  
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
+   <td> <p>Det finns ingen åtkomstnivåkontroll för Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Behörigheter</p></td>
+   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -199,7 +156,7 @@ Den senast använda arbetsytan bör öppnas som standard.
    * [Procent](#percentage)
    * [Valuta](#currency)
    * [Kryssruta](#checkbox)
-     <!--* [Formula](#formula)-->
+   * [Formel](#formula)
    * [Folk](#people)
    * [Skapad av](#created-by)
    * [Skapad den](#created-date)
@@ -408,35 +365,34 @@ Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en p
 
    Det nya kryssrutefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
-<!--
+### Formel
 
-### Formula
+Formelfält genererar ett nytt värde med hjälp av befintliga värden från andra fält i en posttyp och en funktion som anger hur befintliga värden ska beräknas.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
+Mer information finns i [Översikt över formelfält](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
- 
-    ![](assets/new-formula-field-with-list-of-expressions.png)
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Formel** fälttyp.
 
-1. Add the following information in the **New field** tab:
+   ![](assets/new-formula-field-with-list-of-expressions.png)
 
-   * **Name**: Enter a name for the new field.
-   * **Description**: Add information about the new field.
-   * **Formula**: Start typing at least one character to access an expression, then select it when it displays in the list. 
-  
-1. Click the selected expression to reveal the definition and view its formatting. 
+1. Lägg till följande information i **Nytt fält** tab:
+
+   * **Namn**: Ange ett namn för det nya fältet.
+   * **Beskrivning**: Lägg till information om det nya fältet.
+   * **Formel**: Börja skriva minst ett tecken för att komma åt ett uttryck och markera det sedan när det visas i listan.
+
+1. Klicka på det markerade uttrycket för att visa definitionen och dess formatering.
 
    ![](assets/description-of-formula-expression.png)
 
-1. Add field names as they display in Maestro interface to reference them in a formula. 
+   Mer information om vilka uttryck som stöds finns i [Översikt över formelfält](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Click **Create**.
+1. Lägg till fältnamn som de visas i maestro-gränssnittet för att referera till dem i en formel.
 
-     The new formula field is added as a column to the record type and its values can be associated with records.
+1. Klicka **Skapa**.
 
--->
+   Det nya formelfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
+
 
 ### Folk
 
