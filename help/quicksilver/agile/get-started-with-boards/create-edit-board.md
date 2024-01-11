@@ -6,9 +6,9 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -28,24 +28,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td> <p>Nytt: Medarbetare eller högre </p>
  <p>eller</p> 
 <p>Aktuell: [!UICONTROL Request] eller högre </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa en ny anslagstavla
 
@@ -64,6 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. För ett dynamiskt kort följer du stegen i installationsguiden:
 
+   1. Ange ett namn för styrelsen och klicka på [!UICONTROL **Nästa**].
    1. Sök efter och markera [!DNL Workfront] [!UICONTROL **Projekt**] för att lägga in uppgifter och frågor i styrelsen.
    1. Sök efter och markera [!UICONTROL **Uppdrag**] för att lägga in uppgifter och frågor i styrelsen.
 
@@ -71,13 +68,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       The [!UICONTROL **Kort som läggs till**] räknaren visar hur många kort som kommer att finnas ombord. Om du till exempel markerar ett projekt med 100 uppgifter och ärenden visas 100 i räknaren. Om du lägger till en användartilldelning och den personen tilldelas 5 uppgifter i projektet visas 5.
 
-   1. (Valfritt) Välj [!UICONTROL **Inkludera slutfört arbete som arkiverade kort**] för att lägga in slutförda uppgifter och ärenden i styrelsen som arkiverade kort.
+   1. (Valfritt) Välj [!UICONTROL **Arkivera inte färdiga kort**] för att lägga till slutförda uppgifter och ärenden till styrelsen som synliga kort i kolumnen Slutfört. När det här alternativet inte är markerat hämtas färdiga kort när styrelsen skapas till styrelsen som arkiverade kort.
 
       >[!NOTE]
       >
       >Som standard visas inte arkiverade kort på anslagstavlan. Om du vill visa arkiverade kort måste du aktivera en konfigurationsinställning och sedan filtrera ritytan så att arkiverade kort visas. Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) och [Filtrera och söka på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >Om det här alternativet inte är markerat visas inte de färdiga korten i samband med att anslagstavlan skapas. Kort som senare markerats som fullständiga finns kvar på kortet i kolumnen Fullständigt och arkiveras inte om du inte ställer in kortutfall. Mer information finns i [Konfigurera kortutfall](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Valfritt) Klicka på [!UICONTROL **Använd avancerade filter**] om du vill visa ytterligare filteralternativ.
 
