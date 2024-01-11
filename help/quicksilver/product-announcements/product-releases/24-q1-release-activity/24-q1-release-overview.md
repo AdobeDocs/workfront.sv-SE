@@ -4,16 +4,16 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # Första utgåvan, kvartal 2024, översikt
 
-Den här sidan innehåller information om de funktioner som ingår i den första utgåvan av kvartal 2024 som planeras släppas i januari 2024.
+Den här sidan innehåller information om de funktioner som ingår i den första utgåvan av kvartal 2024 som är planerad till veckan den 15 januari 2024.
 
 Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan kommer att uppdateras med ytterligare förbättringar eftersom den första utgåvan av kvartal 2024 närmar sig den planerade produktionsutgåvan.
 
@@ -60,7 +60,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Handläggningsbeslut för korrektur/dokument är nu tillgängliga de senaste 12 månaderna</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Rapporterna om användarbeslut för både nya och gamla licenstyper visar nu antalet beslut för den aktuella månaden samt de föregående 12 månaderna.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Handläggningsbeslut för korrektur/dokument är nu tillgängliga de senaste 12 månaderna</a></p><p>Rapporterna om användarbeslut för både nya och gamla licenstyper visar nu antalet beslut för den aktuella månaden samt de föregående 12 månaderna.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -208,7 +208,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för väntande godkännanden tillgänglig</a></p><p><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för väntande godkännanden tillgänglig</a></p><p>För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -357,7 +357,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                                 <p>Produktion för snabb lansering: Med version 24.1</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.1</p>
+                                <p>Produktion för alla kunder: Med version 24.4 (april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Dra och släpp en bild i en kommentar i uppdateringsavsnittet</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Om du vill förbättra innehållet i dina kommentarer kan du nu snabbt dra och släppa en bild i en kommentar eller svara i uppdateringsavsnittet för ett objekt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Dra och släpp en bild i en kommentar i uppdateringsavsnittet</a></p><p>Om du vill förbättra innehållet i dina kommentarer kan du nu snabbt dra och släppa en bild i en kommentar eller svara i uppdateringsavsnittet för ett objekt.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>

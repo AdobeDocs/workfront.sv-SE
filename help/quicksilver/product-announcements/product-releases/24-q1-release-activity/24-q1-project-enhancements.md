@@ -3,9 +3,9 @@ title: Förbättringar av projekt för första kvartalet 2024
 description: Förbättringar av projekt för första kvartalet 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Den här sidan beskriver alla projektförbättringar som gjorts i första utgåv
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## AI-drivna smarta uppdrag
+
+>[!NOTE]
+>
+>Produktion för snabb lansering: Med version 24.1, produktion för alla kunder: Med version 24.4 (april 2024)
 
 Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.
 
