@@ -7,9 +7,9 @@ description: Huvudmenyn ändras med den åtkomstnivå som du har tilldelats av [
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Följande områden ingår i standardlayouten för en [!UICONTROL Worker]:
 
 * **[!UICONTROL Dashboards]**: Kontrollpaneler som delas med dig visas här. Mer information finns i [Kontrollpaneler](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Calendars]**: Kalendrar som delas med dig visas här. Mer information finns i [Kalendrar](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Calendars]**: Kalendrar som delas med dig visas här. Mer information finns i [Kalendrar: artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL Teams]**: Uppgifter och ärenden som tilldelats dina team visas i det här området. Som arbetare är du den enda [!DNL Workfront] användare som ser [!UICONTROL Teams] som standard.
 

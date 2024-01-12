@@ -2,22 +2,26 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: Kalendrar
-description: Granska de här artiklarna för att få en förståelse för kalenderrapporter i Adobe Workfront.
+title: "Kalendrar: artikelindex"
+description: En kalenderrapport är en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan visa datuminformation i en kalenderrapport för projekt, uppgifter och utgåvor. Granska de här artiklarna för att få en förståelse för kalenderrapporter i Adobe Workfront.
 author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-# Kalendrar
+# Kalendrar: artikelindex
 
-Det här avsnittet innehåller följande artiklar:
+<!--Audited: 01/2024-->
+
+En kalenderrapport är en dynamisk rapport som ger en visuell representation av ditt arbete. Du kan visa datuminformation i en kalenderrapport för projekt, uppgifter och utgåvor.
+
+Läs följande artiklar för att få en förståelse för kalenderrapporter i Adobe Workfront:
 
 * [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [Använd anpassade datumfält i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

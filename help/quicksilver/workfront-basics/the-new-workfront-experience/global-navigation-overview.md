@@ -5,9 +5,9 @@ description: Det övre navigeringsfältet, som visas högst upp på skärmen i d
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Varje ikon tar dig till en annan plats i det nya [!DNL Adobe Workfront] upplevel
      <li>[!UICONTROL Projects]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projekt: artikelindex</a></li> 
      <li>[!UICONTROL Reports]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Rapporter</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Kontrollpaneler</a></li> 
-     <li>[!UICONTROL Calendars]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Kalendrar</a></li> 
+     <li>[!UICONTROL Calendars]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Kalendrar: artikelindex</a></li> 
      <li>[!UICONTROL Resourcing]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Resurshantering </a></li> 
      <li>[!UICONTROL Teams]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">Skapa och hantera team</a></li> 
      <li>[!UICONTROL Users]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">Skapa och hantera användare</a></li> 

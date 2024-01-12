@@ -6,9 +6,9 @@ description: Syftet med kontrollpanelen är att ge snabb åtkomst till informati
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ Syftet med kontrollpanelen är att ge snabb åtkomst till information. Du kan fy
 
 * Rapporter
 
-   Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Kalendrar
 
-   Mer information om hur du skapar kalendrar finns i [Kalendrar](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  Mer information om hur du skapar kalendrar finns i [Kalendrar: artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * Externa sidor
 
-   Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 När du har skapat de här objekten och lagt till dem på en kontrollpanel kan du redigera kontrollpanelen för att lägga till fler objekt i den, ta bort befintliga objekt från den eller redigera instrumentpanelsinformationen.
 
@@ -90,7 +90,7 @@ Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpan
 
    >[!NOTE]
    >
-   >När du söker efter ett objekt returnerar sökningen någon av de 2 000 senast skapade rapporterna. Rapportnamn som innehåller Unicode-tecken returneras inte i sökresultaten. Det är en god vana att undvika att ta med Unicode-tecken när du namnger objekt i Workfront genom att skriva namn i stället för att kopiera och klistra in namn från en annan källa.
+   >När du söker efter ett objekt returneras de 2 000 senast skapade rapporterna. Rapportnamn som innehåller Unicode-tecken returneras inte i sökresultaten. Det är en god vana att undvika att ta med Unicode-tecken när du namnger objekt i Workfront genom att skriva namn i stället för att kopiera och klistra in namn från en annan källa.
 
 1. (Valfritt) Välj en ny layout för kontrollpanelen genom att klicka på en alternativknapp som motsvarar den layout du vill använda.
 1. (Valfritt) För muspekaren över namnet på en befintlig rapport och klicka på papperskorgsikonen för att ta bort den från kontrollpanelen.

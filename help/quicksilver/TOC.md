@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 0%
          * [Förstå hur du organiserar rapporter på en kontrollpanel](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Visa rapportanvändning](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * Kalendrar {#calendars}
-         * [Kalendrar](reports-and-dashboards/reports/calendars/calendars.md)
+         * [Kalendrar: artikelindex](reports-and-dashboards/reports/calendars/calendars.md)
          * [Översikt över kalenderrapporter](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [Använd anpassade datumfält i en kalenderrapport](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [Använd planerade datum i en kalenderrapport](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 0%
       * [Koppla posttyper](maestro/architecture/connect-record-types.md)
       * [Redigera posttyper](maestro/architecture/edit-record-types.md)
       * [Ta bort arbetsytor](maestro/architecture/delete-workspaces.md)
+      * [Redigera arbetsytor](maestro/architecture/edit-workspaces.md)
       * [Ta bort posttyper](maestro/architecture/delete-record-types.md)
       * [Exempel på att ansluta posttyper och poster](maestro/architecture/example-connect-record-types-and-records.md)
       * [Lista över arbetsytemallar](maestro/architecture/workspace-templates.md)
@@ -2029,8 +2030,8 @@ ht-degree: 0%
       * [Åtkomstinformation](maestro/access/access-information.md)
       * [Åtkomstöversikt](maestro/access/access-overview.md)
       * [Översikt över delningsbehörigheter i Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-      * [Dela en arbetsyta](maestro/access/share-workspaces.md)
-      * [Dela en vy](maestro/access/share-views.md)
+      * [Dela arbetsytor](maestro/access/share-workspaces.md)
+      * [Visa](maestro/access/share-views.md)
    * Adobe Maestro-poster {#adobe-maestro-records}
       * [Poster: artikelindex](maestro/records/records-information.md)
       * [Skapa poster](maestro/records/create-records.md)

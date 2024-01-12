@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ I den här artikeln beskrivs behörighetsnivåerna för Maestro-objekt.
 
 Mer information om hur du delar arbetsytor och vyer finns i följande artiklar:
 
-* [Dela en arbetsyta](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Dela arbetsytor](/help/quicksilver/maestro/access/share-workspaces.md)
 
-* [Dela en vy](/help/quicksilver/maestro/access/share-views.md)
+* [Visa](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objekt som du kan dela i Adobe Maestro
 
@@ -53,7 +53,7 @@ Du kan dela följande objekt i Maestro:
 * Du måste ha följande licens för att skapa arbetsytor i Maestro:
 
    * Ny prismodell: Standardlicens
-   * Aktuell prismodell: Arbeta eller högre licens
+   * Aktuell prismodell: Planera licens.
 
   Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Systemadministratörer kan hantera och dela arbetsytor som andra användare har skapat.

@@ -6,9 +6,9 @@ description: Du kan använda föregående aktiviteter (eller bara föregående a
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Du kan använda föregående aktiviteter (eller bara föregående aktiviteter) f
 
 I den här artikeln beskrivs hur du skapar föregående aktiviteter i uppgiftslistan.
 
-Du kan visa föregående aktiviteter för följande områden i Adobe Workfront:
+Du kan visa föregående aktiviteter för uppgifter i följande områden i Adobe Workfront:
 
 * I uppgiftslistan i kolumnen Föregående.
 * I Gantt-diagrammet
@@ -36,32 +36,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nytt: Standard </p><p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för aktiviteterna och projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för aktiviteterna och projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Skapa en föregångare
+## Skapa en föregående
 
 1. Gå till ett projekt.
-1. Klicka **Uppgifter** i den vänstra panelen.
+1. Klicka **Uppgifter** till vänster.
 1. Kontrollera att den aktuella vyn visar **Föregående** kolumn.
 
    Om kolumnen Föregående inte visas i vyn kan du ändra till en vy som gör det eller lägga till kolumnen i vyn.
@@ -69,6 +69,22 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 1. Välj den uppgift som du vill ange som beroende uppgift.
 1. Klicka inuti **Föregående** kolumn.
 1. Ange det aktivitetsnummer som du vill ange som föregångare för den valda uppgiften och tryck sedan på **Retur**.
+
+   >[!TIP]
+   >
+   >Så här lägger du till en föregångare för flera projekt:
+   >
+   >1. Klicka på **Planläge** ikon och välj **Spara automatiskt**.
+   >
+   >1. Skriv in referensnumret för föregående projekts projekt följt av kolon och uppgiftens nummer. Skriv till exempel: 765021:12. Detta anger att referensnumret för föregående projekt är 765021 och föregående är uppgiftsnummer 12 i projektet.
+   >
+   >1. Lägg till beroendetypen för den här föregångaren. Mer information finns i [Skapa föregångare mellan projekt](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   >
+   >Tryck **Retur**.
+   >
+   >**VIKTIGT**
+   >
+   >Du kan inte lägga till föregångare för flera projekt när uppgiftslistan visas i läget Manuell sparning.
 
    Föregående-ikonen blir grön när föregående aktivitet har markerats som slutförd. Detta signalerar att den beroende aktiviteten är klar för arbete.
 
@@ -86,7 +102,7 @@ Du kan snabbt visa information om föregående i uppgiftslistan.
 
    Följande information visas:
 
-   **Föregående namn:** Namnet på den föregångare som refereras. Föregångarens aktivitetsnummer inkluderas. Klicka på aktivitetsnamnet för att öppna det. I exemplet ovan är föregångaren Produktion/utförande/leverans.
+   **Föregående namn:** Namnet på den föregångare som refereras. Föregångarens aktivitetsnummer inkluderas. Klicka på aktivitetsnamnet för att öppna det. I exemplet ovan är föregångaren Produktion/Körning/Leverans.
 
    **Projektnamn:** Namnet på det projekt där föregångaren finns. Projektet identifieras som det aktuella projektet om föregående projekt tillhör samma projekt som aktiviteten, eller som ett korsprojekt om föregående projekt tillhör ett annat projekt. I ovanstående exempel är projektnamnet Digital Asset Production (Integrated) - Project. Mer information om föregående projekt finns i [Skapa föregångare mellan projekt](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
@@ -98,6 +114,6 @@ Du kan snabbt visa information om föregående i uppgiftslistan.
 
    **Planerat slut:** Det planerade slutförandedatumet för föregående aktivitet.
 
-   **Antal föregångare:** Antalet föregångare för den föregångare som refereras. I exemplet ovan har föregångaren 1.
+   **Antal föregående:** Antalet föregångare för den föregångare som refereras. I exemplet ovan har föregångaren 1.
 
-   **Antal efterträdare:** Antalet efterföljande (eller beroende) uppgifter för föregående som refereras. I exemplet ovan har den föregående som refereras 1 efterföljande.
+   **Antal efterföljande:** Antalet efterföljande (eller beroende) uppgifter för föregående som refereras. I exemplet ovan har den föregående som refereras 1 efterföljande.
