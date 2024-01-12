@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Skapa och hantera jobbroller
 description: Som en [!DNL Adobe Workfront] administratör eller en användare med administrativ åtkomst till jobbroller kan du skapa jobbroller som kan tilldelas användare och ta bort standardjobbroller som inte är relevanta för din organisation.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Så här skapar du en jobbroll:
       <td>
         <p>Välj en valuta som är associerad med den här jobbrollen. Det här är valutan som [!DNL Workfront] används för att beräkna kostnader och intäkter som är associerade med den här jobbrollen. </p> 
         <p><span>Detta skiljer sig från [!UICONTROL Base Currency] som [!DNL Workfront] administratörer i [!UICONTROL Setup] och kan vara en annan än den valuta som är associerad med ett projekt.</span> </p> 
-        <p>Tips: Endast valutor är tillgängliga i [!UICONTROL Exchange Rates] finns i det här fältet.</p> 
+        <p>Tips: Endast valutor är tillgängliga i [!UICONTROL Exchange Rates] finns i det här fältet. Om du bara har ställt in en valuta visas inte det här fältet.</p> 
        <p><span>Mer information om hur du konfigurerar [!UICONTROL Base Currency] in [!DNL Workfront], se</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.</p> <p><span>Mer information om hur du ändrar valuta för ett projekt finns i</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Ändra projektvalutan</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -318,6 +318,10 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 ## Steg 1 - Resurser hämtas - {#step1-to-resourcing}
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Resourcing]**.
+
+## Steg 1 - Gå till användningsrapporten - {#step1-to-utilization-report}
+
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Resourcing]** sedan [!UICONTROL **Användning**] till vänster.
 
 <!-- Review and approve work -->
 

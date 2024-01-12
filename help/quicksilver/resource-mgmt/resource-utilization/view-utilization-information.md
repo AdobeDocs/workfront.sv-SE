@@ -2,24 +2,26 @@
 product-area: resource-management
 navigation-topic: resource-utilization
 title: Visa information om resursutnyttjande
-description: Du kan visa användningen av dina resurser med hjälp av användningsrapporten.
+description: Du kan visa hur dina resurser används i användningsrapporten.
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '7854'
+source-wordcount: '7243'
 ht-degree: 0%
 
 ---
 
 # Visa information om resursutnyttjande
 
+<!-- Audited: 01/2024 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)</p>
 -->
 
-Du kan visa användningen av dina resurser med hjälp av användningsrapporten.
+Du kan visa hur dina resurser används i användningsrapporten.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -44,40 +46,40 @@ Du måste ha följande för att få tillgång till användningsrapporten:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Pro eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller öka åtkomsten till följande:</p> 
     <ul> 
      <li> <p>Resurshantering </p> </li> 
      <li> <p>Projekt</p> </li> 
      <li> <p>Portfolio</p> </li> 
      <li> <p>Program</p> </li> 
-     <li> <p>Finansiella data om du vill visa information efter kostnad</p> </li> 
-    </ul> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+     <li> <p>Finansiella data, om du vill visa information efter kostnad</p> </li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa åtkomst till projekt, portföljer och program för att komma åt användningssektionen i resursområdet</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Hantera åtkomst till projektet för att få åtkomst till användningsavsnittet i ett projekt</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa åtkomst till projekt, portföljer och program för att komma åt användningssektionen i resursområdet</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Hantera åtkomst till ett projekt för att få åtkomst till projektdelen Använda</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>
 -->
-
-I följande avsnitt beskrivs hur du visar och använder användningsinformation.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -102,16 +104,11 @@ I följande avsnitt beskrivs hur du visar och använder användningsinformation.
 
 ## Översikt över användningsrapporten {#overview-of-the-utilization-report}
 
-Med användningsrapporten kan du visa förloppet, kostnaden eller intäkterna för ett projekt, ett program eller en portfölj i en enda rapport. Du kan också jämföra intäkter med kostnad.
+Med användningsrapporten kan du visa förloppet, kostnaden eller intäkterna för ett projekt, program eller en portfölj i en enda rapport. Du kan också jämföra intäkter med kostnad.
 
 Du kan visa användningsrapporten i området Resurser om du vill visa användning för flera projekt, eller så kan du visa den på nivån för ett projekt, om du vill visa användning för de enskilda resurser (jobbroller och användare) som är associerade med projektet.
 
 Mer information om hur du använder och använder användningsrapporten finns i [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) i den här artikeln.
-
-* [Spåra timmar (förlopp)](#track-hours-progress)
-* [Spåra kostnad](#track-cost)
-* [Spåra intäkter](#track-revenue)
-* [Jämför intäkter med planerade och faktiska kostnader](#compare-revenue-against-planned-and-actual-costs)
 
 ### Spåra timmar (förlopp) {#track-hours-progress}
 
@@ -127,15 +124,16 @@ Följande information finns i användningsrapporten när timmar spåras:
  <thead> 
   <tr> 
    <th><strong>Kolumnrubrik vid visning av timmar</strong> </th> 
-   <th><strong> -funktion</strong> </th> 
+   <th><strong>Funktion</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td scope="col"><strong>Budgeterade timmar</strong> </td> 
-   <td scope="col"> <p>Det totala antalet budgeterade timmar för de inkluderade projekten. Du kan visa det totala antalet budgeterade timmar för den totala livslängden för de inkluderade projekten, eller så kan du visa det totala budgeterade timmarna endast för det angivna datumintervallet (du kan ange en enskild vecka eller månad). </p> <p>Budgeterade timmar fylls i från information som är tillgänglig i den nya resursbudgeteringsområdet för affärsärendet eller resursplaneraren<em>.</em></p> <p>Budgeterade timmar visas i användningsrapporten på någon av följande rader:</p> 
+   <td scope="col"> <p>Det totala antalet budgeterade timmar för de inkluderade projekten. Du kan visa det totala antalet budgeterade timmar för den totala livslängden för de inkluderade projekten, eller så kan du visa det totala budgeterade timmarna endast för det angivna datumintervallet (du kan ange en enskild vecka eller månad). </p> <p>Budgeterade timmar fylls i från information som är tillgänglig i området Resursbudgetering i affärsärendet eller i resursplaneraren<em>.</em></p> <p>Budgeterade timmar visas i användningsrapporten på någon av följande rader:</p> 
     <ul> 
-     <li> Budgeterade timmar summeras efter jobbroll och av enskilda användare i utnyttjanderapporten enligt följande:<br><strong>Enskild användare:</strong> Budgeterade timmar summeras för varje användare i utnyttjanderapporten. Dessa budgeterade timmar är associerade med de uppgifter och utgåvor som användaren är tilldelad till i de inkluderade projekten. (Du kan expandera raden för motsvarande jobbroll om du vill visa en lista över användare med den jobbrollen.)<br><strong>Jobbroll:</strong> Budgeterade timmar summeras efter jobbroll i utnyttjanderapporten.<br>Budgeterade timmar visas i en viss jobbroll som ett resultat av något av följande scenarier: 
+     <li> Budgeterade timmar summeras efter jobbroll och av enskilda användare i utnyttjanderapporten enligt följande:<br><strong>Enskild användare:</strong> Budgeterade timmar summeras för varje användare i utnyttjanderapporten. Dessa budgeterade timmar är associerade med de uppgifter och utgåvor som användaren är tilldelad till i de inkluderade projekten. (Du kan expandera raden för motsvarande jobbroll om du vill visa en lista över användare med den jobbrollen.)<br><strong>Jobbroll:</strong> Budgeterade timmar summeras efter jobbroll i utnyttjanderapporten.<br>Budgeterade timmar visas i en viss jobbroll som ett resultat av något av följande scenarier:
+     <ul>
      <li>Jobbrollen definieras som den primära jobbrollen för användaren som är tilldelad uppgiften eller utleveransen där de budgeterade timmarna är associerade. </li> 
        <li>När du visar användningsinformation för ett enskilt projekt används jobbrollen för användaren som tilldelats timarna, oavsett om det inte finns någon tilldelning för uppgiften eller utgåvan, en annan användare tilldelas utan jobbrolltilldelning, en annan användare tilldelas med en annan jobbroll eller ett annat team tilldelas.</li> 
        <li>När du visar användningsinformation för flera projekt, program eller portföljer, används endast jobbrollen för användaren som tilldelats timmarna när rollen tilldelas för en aktivitet eller utgåva i ett projekt. </li> 
@@ -144,14 +142,13 @@ Följande information finns i användningsrapporten när timmar spåras:
     </ul> 
     <ul> 
      <li> <p><strong>Ej allokerade timmar</strong>: Budgeterade timmar visas i användningsrapporten i avsnittet Ej allokerade timmar när budgeterade timmar är associerade med en uppgift eller utgåva och det inte finns någon användare eller roll tilldelad till uppgiften eller utgåvan.<br>Det här avsnittet visas bara när det finns timmar i projektet som matchar den här beskrivningen och när du visar användningsrapporten från eller från ett projekt. </p> <p>Det här avsnittet visas bara när det finns timmar i projektet som matchar den här beskrivningen och när du visar användningsrapporten från eller från ett projekt. </p> </li> 
-    </ul> <p>Mer information om budgeterade timmar finns i avsnittet Hitta budgeterade timmar för ett projekt i <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Förstå budgeterad arbetskostnad och budgeterade timmar för projekt</a> artikel.</p> </td> 
+    </ul> <p>Mer information om budgeterade timmar finns i <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">Hitta budgeterade timmar för ett projekt</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">Förstå budgeterad arbetskostnad och budgeterade timmar för projekt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Planerade timmar</strong> </td> 
-   <td scope="col"> <!-- Yay, no errors, warnings, or alerts! -->
-
+   <td scope="col">
 <p>
-Planerade timmar för de inkluderade projekt som är associerade med tilldelningarna för varje uppgift och utgåva. Du kan visa det totala antalet planerade timmar för alla tilldelningar i projektet under den totala tiden för de inkluderade projekten, eller så kan du bara visa totalt antal planerade timmar för det angivna datumintervallet (du kan ange en enskild vecka eller månad). 
+Planerade timmar för de inkluderade projekt som är associerade med tilldelningarna för varje uppgift och utgåva. Du kan visa det totala antalet planerade timmar för alla tilldelningar i projektet under den totala tiden för de inkluderade projekten, eller så kan du bara visa totalt antal planerade timmar för det angivna datumintervallet (du kan ange en enskild vecka eller månad).
 </p>
 <p>
 <strong>TIPS </strong>
@@ -204,7 +201,7 @@ Planerade timmar visas på användningsrapporten på någon av följande rader:
 </li>  
 </ul>
 
-<li><strong>Ej allokerade timmar</strong>: Planerade timmar visas i användningsrapporten i avsnittet Ej allokerade timmar när Planerade timmar är associerade med en aktivitet eller ett problem och det inte finns någon användare eller roll tilldelad till uppgiften eller problemet. Det här avsnittet visas bara när det finns timmar i projektet som matchar den här beskrivningen och när användningsrapporten för ett enskilt projekt visas. <br>Mer information om planerade timmar finns i <a href="../../manage-work/tasks/task-information/planned-hours.md">Översikt över planerade timmar</a>.
+<li><strong>Ej allokerade timmar</strong>: Planerade timmar visas i användningsrapporten i avsnittet Ej allokerade timmar när Planerade timmar är kopplade till en uppgift eller utgåva och det inte finns någon användare eller roll tilldelad till uppgiften eller utgåvan. Det här avsnittet visas bara när det finns timmar i projektet som matchar den här beskrivningen och när du visar användningsrapporten för ett enskilt projekt. <br>Mer information om planerade timmar finns i <a href="../../manage-work/tasks/task-information/planned-hours.md">Översikt över planerade timmar</a>.
 </li> 
 </ul>
 </li> 
@@ -212,15 +209,15 @@ Planerade timmar visas på användningsrapporten på någon av följande rader:
   </tr> 
   <tr> 
    <td><strong>Faktiska timmar</strong> </td> 
-   <td> <p> Totalt antal loggade timmar för uppgifter, utleveranser, <span>och i projektet</span> för de projekt som ingår. Du kan visa de totala faktiska timmarna för den övergripande livstiden för de inkluderade projekten, eller så kan du bara visa de totala faktiska timmarna för det angivna datumintervallet (du kan ange en enskild vecka eller månad). </p> <p>Varning! Användningsrapporten innehåller timmar som är loggade på projektet, underordnade uppgifter, utgåvor och överordnade uppgifter med minst en tilldelning. Det omfattar inte timmar som loggats till överordnade uppgifter utan tilldelningar. Vi rekommenderar att du inte använder överordnade uppgifter som arbetsuppgifter och endast tilldelar underordnade uppgifter till dina resurser. </p> <p>Faktiska timmar visas i användningsrapporten på någon av följande rader:</p> 
+   <td> <p> Totalt antal loggade timmar för uppgifter, utleveranser, <span>och i projektet</span> för de projekt som ingår. Du kan visa de totala faktiska timmarna för den övergripande livstiden för de inkluderade projekten, eller så kan du bara visa de totala faktiska timmarna för det angivna datumintervallet (du kan ange en enskild vecka eller månad). </p> <p><strong>Varning:</strong> Användningsrapporten innehåller timmar som loggats till projektet, underordnade uppgifter, utgåvor och överordnade uppgifter med minst en tilldelning. Det omfattar inte timmar som loggats till överordnade uppgifter utan tilldelningar. Vi rekommenderar att du inte använder överordnade uppgifter som arbetsuppgifter och endast tilldelar underordnade uppgifter till dina resurser. </p> <p>Faktiska timmar visas i användningsrapporten på någon av följande rader:</p> 
     <ul> 
      <li> Faktiska timmar sammanfattas efter jobbroll och av enskilda användare i utnyttjanderapporten för ett projekt enligt följande:<br><strong>Enskild användare:</strong> Faktiska timmar visas i användningsrapporten på raden för den användare som loggade timmarna. (Du kan expandera raden för motsvarande jobbroll för att visa en lista över användare med den jobbrollen som har loggade timmar.)<br><strong>Jobbroll:</strong> Faktiska timmar som loggas av användare som är associerade med dessa roller sammanfattas i användningsrapporten på raden för motsvarande jobbroll.<br>Faktiska timmar visas i en viss jobbroll som ett resultat av något av följande scenarier: 
       <ul> 
-       <li>Jobbrollen definieras som den primära jobbrollen för användaren som loggade timmarna.</li> 
+       <li>Jobbrollen definieras som den primära jobbrollen för användaren som loggade timmarna</li> 
        <li>Det finns ingen tilldelning för aktiviteten eller problemet</li> 
        <li>En annan användare har tilldelats utan jobbrolltilldelning</li> 
        <li>En annan användare har tilldelats en annan jobbroll</li> 
-       <li> <p>Ett team har tilldelats.</p> </li> 
+       <li> <p>Ett team har tilldelats</p> </li> 
       </ul></li>  
      <p>Om användaren som loggar timmarna inte har någon jobbroll associerad med sin profil, är den jobbroll som används för användningsrapporten den jobbroll som tilldelats uppgiften eller utgåvan där timmar loggas eller den jobbroll som är associerad med den primära ägaren av uppgiften eller utgåvan. </p> 
      <li><strong>Övriga timmar:</strong> Faktiska timmar visas i användningsrapporten i avsnittet Andra timmar, på raden för användaren som loggade in timmarna.<br>Timmar visas i det här avsnittet när användaren som loggade timmarna inte har någon jobbroll definierad i systemet.<br>Det här avsnittet visas bara när det finns timmar i projektet som matchar den här beskrivningen. </li> 
@@ -241,16 +238,16 @@ Planerade timmar visas på användningsrapporten på någon av följande rader:
 
 Du kan spåra kostnader genom att visa hur de budgeterade kostnaderna och de planerade kostnaderna jämförs med de faktiska kostnaderna.
 
-När du spårar kostnaderna för ett projekt, program eller en portfölj kommer information i användningsrapporten från uppgifter. Kostnadsinformation från uppgifter finns alltid i användningsrapporten. Kostnaden för uppgifter beräknas baserat på uppgiftens kostnadstyp. Mer information om kostnadstypen för uppgifter finns i&quot;Ändra kostnadstyper för enskilda uppgifter&quot; i [Spåra kostnader](../../manage-work/projects/project-finances/track-costs.md).
+När du spårar kostnaderna för ett projekt, program eller en portfölj kommer information i användningsrapporten från uppgifter. Kostnadsinformation från uppgifter finns alltid i användningsrapporten. Kostnaden för uppgifter beräknas baserat på uppgiftens kostnadstyp. Mer information om kostnadstypen för uppgifter finns i [Hur Workfront beräknar kostnadstyper för uppgifter](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks) in [Spåra kostnader](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
 Du kan visa kostnadsinformation i användningsrapporten på följande sätt:
 
-* För en viss vecka eller månad, eller för hela projektet, programmet eller portföljen.
-* Per roll eller individ, för projekt.
+* För en viss vecka eller månad, eller för hela projektet, programmet eller portföljen
+* Per roll eller individ, för projekt
 
-Valutan som används i utnyttjanderapporten bestäms av den valuta som har angetts för projektet. Mer information om hur du justerar valutan för ett projekt finns i [Ändra projektvalutan](../../manage-work/projects/project-finances/change-project-currency.md).
+Valutan i utnyttjanderapporten bestäms av den valuta som har angetts för projektet. Mer information om hur du justerar valutan för ett projekt finns i [Ändra projektvalutan](../../manage-work/projects/project-finances/change-project-currency.md).
 
-Följande information finns i användningsrapporten när du spårar kostnad:
+Följande information finns i användningsrapporten när du spårar kostnader:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -258,7 +255,7 @@ Följande information finns i användningsrapporten när du spårar kostnad:
  <thead> 
   <tr> 
    <th><strong>Kolumnrubrik vid visning av kostnad</strong> </th> 
-   <th> <p><strong> -funktion</strong> </p> </th> 
+   <th> <p><strong>Funktion</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -268,15 +265,15 @@ Följande information finns i användningsrapporten när du spårar kostnad:
   </tr> 
   <tr> 
    <td scope="col"><strong>Planerad kostnad</strong> </td> 
-   <td scope="col"> <p>Den totala planerade kostnaden för de inkluderade projekten. Du kan visa den totala planerade kostnaden för den totala livscykeln för de inkluderade projekten, eller så kan du bara visa den totala planerade kostnaden för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Observera att för vyerna vecka, månad och kvartal beräknas de planerade kostnaderna som ett genomsnitt av den valda perioden när kostnadstarifferna för jobbroller eller användare är gällande.</p><p>Information om hur den planerade kostnaden för projektet beräknas finns i avsnittet"Hur Workfront beräknar planerade, budgeterade och faktiska kostnader" i artikeln <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
+   <td scope="col"> <p>Den totala planerade kostnaden för de inkluderade projekten. Du kan visa den totala planerade kostnaden för den totala livscykeln för de inkluderade projekten, eller så kan du bara visa den totala planerade kostnaden för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Observera att för vyerna vecka, månad och kvartal beräknas de planerade kostnaderna som ett genomsnitt av den valda perioden när kostnadstarifferna för jobbroller eller användare är gällande.</p><p>Information om hur den planerade kostnaden för projektet beräknas finns i <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Hur Workfront beräknar planerade, budgeterade och faktiska kostnader</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Spåra kostnader</a>.</p> </td>
   </tr> 
   <tr> 
    <td scope="col"><strong>Faktisk kostnad</strong> </td> 
-   <td scope="col"> <p>Den totala faktiska kostnaden för de inkluderade projekten. Du kan visa den totala faktiska kostnaden för den övergripande livscykeln för de inkluderade projekten, eller så kan du bara visa den totala faktiska kostnaden för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Information om hur den faktiska kostnaden för projektet beräknas finns i avsnittet"Hur Workfront beräknar planerade, budgeterade och faktiska kostnader" i artikeln <a href="../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
+   <td scope="col"> <p>Den totala faktiska kostnaden för de inkluderade projekten. Du kan visa den totala faktiska kostnaden för den övergripande livscykeln för de inkluderade projekten, eller så kan du bara visa den totala faktiska kostnaden för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Information om hur den faktiska kostnaden för projektet beräknas finns i <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Hur Workfront beräknar planerade, budgeterade och faktiska kostnader</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Spåra kostnader</a>.</p> </td>
   </tr> 
   <tr> 
    <td><strong>Budgeterad avvikelse (för kostnad)</strong> </td> 
-   <td scope="col"> <p>Den totala budgeterade kostnaden minus den totala faktiska kostnaden för de inkluderade projekten. Du kan visa den totala budgeterade avvikelsen för den totala livslängden för de inkluderade projekten, eller så kan du visa den totala budgeterade avvikelsen endast för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Om värdet är positivt visas det i grönt. Detta anger att den totala budgeterade kostnaden är större än den faktiska kostnaden.</p> <p>Om värdet är negativt visas det i rött. Detta anger att den totala budgeterade kostnaden är mindre än den faktiska kostnaden.</p> </td> 
+   <td scope="col"> <p>Den totala budgeterade kostnaden minus den totala faktiska kostnaden för de inkluderade projekten. Du kan visa den totala budgeterade avvikelsen för den totala livslängden för de inkluderade projekten, eller så kan du visa den totala budgeterade avvikelsen endast för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Om värdet är positivt visas det i grönt. Detta anger att den totala budgeterade kostnaden är större än den faktiska kostnaden.</p> <p>Om värdet är negativt visas det i rött. Detta anger att den totala budgeterade kostnaden är mindre än den faktiska kostnaden.</p> </td>
   </tr> 
   <tr> 
    <td><strong>Planerad avvikelse (för kostnad)</strong> </td> 
@@ -293,10 +290,7 @@ När du spårar intäkten för ett projekt, program eller en portfölj inkludera
 
 Informationen i följande tabell är tillgänglig i användningsrapporten när du spårar intäkt.
 
-Mer information om fälten och hur Workfront beräknar dem finns i följande artiklar:
-
-* [Spåra kostnader](../../manage-work/projects/project-finances/track-costs.md)
-* [Översikt över fakturering och intäkt](../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
+Information om de specifika fälten och hur Workfront beräknar dem finns även i [Spåra kostnader](../../manage-work/projects/project-finances/track-costs.md) och [Översikt över fakturering och intäkt](../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -304,7 +298,7 @@ Mer information om fälten och hur Workfront beräknar dem finns i följande art
  <thead> 
   <tr> 
    <th><strong>Kolumnrubrik vid visning av intäkt</strong> </th> 
-   <th> <strong> -funktion</strong></th> 
+   <th> <strong>Funktion</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -314,7 +308,7 @@ Mer information om fälten och hur Workfront beräknar dem finns i följande art
   </tr> 
   <tr> 
    <td scope="col"><strong>Planerad intäkt</strong> </td> 
-   <td scope="col"> <p>Planerad intäkt i användningsrapporten är den intäkt som är associerad med de planerade timmarna som tilldelats resurserna för aktiviteterna i projektet.</p> <p>Workfront beräknar projektets planerade inkomster för utnyttjanderapporten enligt följande formel:</p> <p><code>Project Planned Revenue = SUM&nbsp;(All Tasks Planned Revenue)</code> </p> 
+   <td scope="col"> <p>Planerad intäkt i användningsrapporten är den intäkt som är associerad med de planerade timmarna som tilldelats resurserna för aktiviteterna i projektet.</p> <p>Workfront beräknar projektets planerade inkomster för utnyttjanderapporten enligt följande formel:</p> <p><code>Project Planned Revenue = SUM (All Tasks Planned Revenue)</code> </p> 
    <p><b>ANMÄRKNING</b>
    <p>Projektets planerade inkomster som visas i utnyttjanderapporten skiljer sig från den planerade intäkten som visas i området Projektinformation och projektrapporter. </p> <p>Planerad intäkt i området Projektinformation återspeglar aktivitetsintäkten och projektets fasta intäkt. Planerad intäkt i användningsrapporten visar planerad intäkt som bara är associerad med aktiviteterna i projektet. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
@@ -323,27 +317,23 @@ Mer information om fälten och hur Workfront beräknar dem finns i följande art
 
 Till skillnad från inom andra områden av Workfront beräknar användningsrapporten Planerad intäkt för uppgifter med fast intäkt genom att dividera Fast intäkt jämnt med antalet planerade timmar för uppgiften. </p> <p>En aktivitet har till exempel en intäkt på $200. Om aktiviteten har 4 planerade timmar blir varje timme 50 dollar. Detta distribueras på användar- och rollnivå. Distributionen är unik för användningsrapporten.</p> <p><b>ANMÄRKNING</b>
 
-Om du har en aktivitet med fast intäkt och det inte finns några planerade timmar för uppgiften, visas inte Intäkter i användningsrapporten eftersom det inte går att distribuera den till timmarna. Om du har planerat timmar för uppgifter med fast intäkt och inga tilldelningar visas Intäkter som Ej allokerad intäkt. </p> <p><strong>Roll varje timme:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsränta som har angetts för en viss roll, multiplicerat med antalet planerade timmar som är associerat med den rollen. Workfront använder följande formel:</p> <p><code>Planerad intäkt per timme för roll = SUM(Planerade timmar från roll för alla aktiviteter) * Faktureringshastighet för roll</code></p><p><b>OBS!</b> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumändringar i räntesatsen.</p>   <p><strong>Användartimme:</strong> Inkomsterna för aktiviteten beräknas med hjälp av den angivna faktureringssatsen för en viss användare, multiplicerat med antalet planerade timmar som är associerat med den användaren. Workfront använder följande formel:</p> <p><code>Planerad intäkt per timme för användare = SUM(Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare</code> </p> <p><b>OBS!</b> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumändringar i räntesatsen.</p> <p><b>Roll timvis eller användarens timma plus fast</b> </p> <p><b>VIKTIGT</b>
+Om du har en aktivitet med fast intäkt och det inte finns några planerade timmar för uppgiften, visas inte Intäkter i användningsrapporten eftersom det inte går att distribuera den till timmarna. Om du har planerat timmar för uppgifter med fast intäkt och inga tilldelningar visas Intäkter som Ej allokerad intäkt. </p> <p><strong>Roll varje timme:</strong> Inkomsterna för aktiviteten beräknas med hjälp av den angivna faktureringssatsen för en specifik roll, multiplicerat med antalet planerade timmar som är associerat med den rollen. Workfront använder följande formel:</p> <p><code>Planerad intäkt per timme för roll = SUM(Planerade timmar från roll för alla aktiviteter) * Faktureringshastighet för roll</code></p><p><b>OBS!</b> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumändringar i räntesatsen.</p>   <p><strong>Användartimme:</strong> Inkomsterna för aktiviteten beräknas med hjälp av den angivna faktureringssatsen för en viss användare, multiplicerat med antalet planerade timmar som är associerat med den användaren. Workfront använder följande formel:</p> <p><code>Planerad intäkt per timme för användare = SUM(Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare</code> </p> <p><b>OBS!</b> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumändringar i räntesatsen.</p> <p><b>Roll timvis eller användarens timma plus fast</b> </p> <p><b>VIKTIGT</b>
 
 Till skillnad från andra områden i Workfront beräknar användningsrapporten den planerade intäkten genom att dividera den fasta intäkten jämnt med antalet planerade timmar för uppgiften. </p> <p>Följande fall finns: </p>
 <ul>
 <li> <p><strong>Roll timvis plus fast:</strong> Inkomsterna för aktiviteten beräknas med den faktureringsränta som har angetts för en viss roll, multiplicerat med antalet planerade timmar som är associerat med rollen. Dessutom läggs ett fast belopp som anges för aktiviteten till i rollfrekvensen. Workfront använder följande formel:</p> <p><code>Roll timvis plus fast planerad intäkt = [SUM (Planerade timmar från roll för alla uppgifter) * Rollfaktureringshastighet] + SUM(aktivitetens tak eller fasta belopp/uppgiftens planerade timmar)</code> </p> </li>
-</ul>
-<ul>
 <li> <p><strong>Användarens timlön plus fast:</strong> Faktureringssatsen som har angetts för en viss användare, multiplicerat med antalet planerade timmar för aktiviteten från den användaren. Dessutom läggs ett fast belopp som anges för aktiviteten till i användarfrekvensen. Workfront använder följande formel:</p> <p><code>Planerad intäkt per timme för användare plus fast planerad intäkt = [SUM (Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare] + SUM(aktivitetens tak eller fasta belopp/uppgiftens planerade timmar)</code> </p> </li>
 </ul> <p><b>Roll eller användarens timma med ände</b> </p> <p><b>VIKTIGT</b>
 
 Till skillnad från i andra områden i Workfront, om den planerade inkomsten överskrider taket, anses beloppet över det högsta beloppet som en fast intäkt. Planerad intäkt beräknas genom att den fasta intäkten delas jämnt med antalet planerade timmar för uppgiften och sedan läggs till i beloppet för Socket och rollen eller användarens timintäkt. <br></p> <p>Följande fall finns: </p>
 <ul>
 <li> <p><strong>Roll timvis med versaler:</strong> Aktiviteter faktureras varje timme som i Roll-timmen, men de har ett maxbelopp som du kan ange. Workfront använder följande formel:</p> <p><code>Roll timvis med planerad kostnad = [SUM (Planerade timmar från roll för alla uppgifter och ärenden) * Roll Faktureringshastighet] + ändpunkt Uppgiftens belopp + SUM(Belopp över uppgifternas startbelopp / Planerade timmar)</code> </p> </li>
-</ul>
-<ul>
 <li> <p><strong>Användarens timma med versaler:</strong> Aktiviteter faktureras varje timme som användaren anger, men de har ett maxbelopp som du kan ange. Workfront använder följande formel: </p> <p><code>Användaren per timme med Planerad intäkt för kap. = [SUM (Planerade timmar från användare för alla uppgifter) * Faktureringshastighet för användare] + ändpunkt Uppgiftens belopp + SUM(Belopp över uppgifternas startbelopp / Planerade timmar)</code> </p> </li>
 </ul> <p>Mer information om vilken roll eller användare som ska beaktas vid beräkning av planerad intäkt finns i <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkt</a>.</p> </td>
 </tr> 
   <tr> 
-   <td><strong>Faktisk intäkt</strong> </td> 
-   <td> <p>Faktisk intäkt är den intäkt som är associerad med aktivitetens faktiska timmar <span>och projektet</span>. Mer information om faktisk intäkt finns i avsnittet Spåra intäktsbelopp i artikeln <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkt</a>.</p>
+   <td><strong>Faktisk intäkt</strong> </td>
+   <td> <p>Faktisk intäkt är den intäkt som är associerad med aktivitetens och projektets faktiska timmar. Mer information om faktisk intäkt finns i <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Spåra intäktsbelopp</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Översikt över fakturering och intäkt</a>.</p>
 
 <p>Hur användningsrapporten beräknar faktisk intäkt för de inkluderade projekten varierar beroende på vilken intäktstyp som har angetts för uppgiften, enligt följande:</p> <p><strong>Fast intäkt:</strong> Oavsett uppgiftstilldelningarna beräknas alltid aktivitetens intäkt med det fasta belopp som har angetts för aktiviteten.</p> <p><b>VIKTIGT</b>
 
@@ -354,32 +344,27 @@ Om du har en aktivitet med fast intäkt och det inte finns några faktiska timma
 Till skillnad från i andra områden i Workfront beräknar användningsrapporten Faktisk intäkt genom att dividera Fast intäkt jämnt med antalet timmar som loggats för uppgiften. </p> <p>Följande fall finns: </p>
 <ul>
 <li> <p><strong>Roll timvis plus fast:</strong> Den faktureringsfrekvens som har angetts för en viss roll, multiplicerat med antalet timmar som loggats mot uppgiften från en användare med den rollen. Dessutom läggs ett fast belopp som anges för aktiviteten till i rollfrekvensen. </p> <p>Workfront använder följande formel:</p> <p><code>Roll timvis plus fast faktisk intäkt = [SUM (Faktiska timmar från roll för alla uppgifter) * Rollfaktureringshastighet] + SUM(aktivitetens tak eller fasta belopp/uppgiftens faktiska timmar)</code> </p> </li>
-</ul>
-<ul>
 <li> <p><strong>Användarens timlön plus fast:</strong> Den faktureringsfrekvens som har angetts för en viss användare, multiplicerat med antalet timmar som loggats mot uppgiften från den användaren. Dessutom läggs ett fast belopp som anges för aktiviteten till i användarfrekvensen. </p> <p>Workfront använder följande formel:</p> <p><code>Användaren per timme plus fast faktisk intäkt = [SUM (Faktiska timmar från roll för alla uppgifter) * Faktureringshastighet för användare] + SUM(aktivitetens tak eller fasta belopp/aktivitetens användartimmar)</code> </p> </li>
 </ul> <p><b>Roll eller användarens timma med ände</b> </p> <p><b>VIKTIGT</b>
 
-Till skillnad från i andra områden i Workfront, om den planerade inkomsten överskrider taket, anses beloppet över det högsta beloppet som en fast intäkt. Planerad intäkt beräknas genom att den fasta intäkten delas jämnt med antalet planerade timmar för uppgiften och sedan läggs till i beloppet för Socket och rollen eller användarens timintäkt. <br></p> <p>Följande scenarier finns:</p>
+Till skillnad från i andra områden i Workfront, om den planerade inkomsten överskrider taket, anses beloppet över det högsta beloppet som en fast intäkt. Planerad intäkt beräknas genom att den fasta intäkten delas jämnt med antalet planerade timmar för uppgiften och sedan läggs till i beloppet för Socket och rollen eller användarens timintäkt. <br></p> <p>Följande fall finns:</p>
 <ul>
 <li> <p><strong>Roll timvis med versaler:</strong> Aktiviteter faktureras varje timme som i Roll-timmen, men de har ett maxbelopp som du kan ange. Workfront använder följande formel:</p> <p><code>Roll timvis med faktisk omsättning för kap. = [SUM (Faktiska timmar från roll för alla uppgifter och ärenden) * Roll Faktureringshastighet] + ändpunkt Uppgiftens belopp + SUM(Belopp över beloppets gräns/faktiska timmar för uppgiften)</code></p> </li>
-</ul>
-<ul>
 <li> <p><strong>Användarens timma med versaler:</strong> Aktiviteter faktureras varje timme som användaren anger, men de har ett maxbelopp som du kan ange.</p> <p> Workfront använder följande formel:</p> <p><code>Användarens timma med den faktiska kostnaden = [SUM (Faktiska timmar från roll för alla uppgifter och ärenden) * Faktureringshastighet för användare] + ändpunkt Uppgiftens belopp + SUM(Belopp över beloppets gräns/faktiska timmar för uppgiften)</code> </p> </li>
 </ul>
-<div>
 <p><strong>Projektintäkter</strong>: Inkomsterna som är kopplade till de timmar som är inloggade i projektet beräknas med hänsyn till beloppet Fakturering per timme för den primära jobbrollen för användaren som loggar tiden. Vi rekommenderar inte att du loggar på projektet. </p>
 <p><b>ANMÄRKNING</b>
 
 Om användaren inte är associerad med en jobbroll eller om fakturering per timme för den primära rollen är noll, beräknar Workfront faktisk intäkt med användarens faktureringsbelopp per timme. Om användaren inte har ett faktureringsbelopp per timme i sin profil är Faktisk intäkt noll. </p>
-</div> </td>
-</tr> 
+</td> 
+  </tr> 
   <tr> 
    <td><strong>Budgeterad avvikelse (för intäkt)</strong> </td> 
-   <td> <p>Total faktisk intäkt minus budgeterad intäkt för de inkluderade projekten.<br>Du kan visa den totala budgeterade avvikelsen för den totala livslängden för de inkluderade projekten, eller så kan du visa den totala budgeterade avvikelsen endast för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Om värdet är positivt visas det i grönt. Detta anger att den totala budgeterade inkomsten är större än den faktiska inkomsten.</p> <p>Om värdet är negativt visas det i rött. Detta anger att den totala budgeterade inkomsten är mindre än den faktiska inkomsten.</p> </td> 
+   <td> <p>Total faktisk intäkt minus budgeterad intäkt för de inkluderade projekten.<br>Du kan visa den totala budgeterade avvikelsen för den totala livslängden för de inkluderade projekten, eller så kan du visa den totala budgeterade avvikelsen endast för det angivna datumintervallet (du kan ange en enskild vecka eller månad).</p> <p>Om värdet är positivt visas det i grönt. Detta anger att den totala budgeterade inkomsten är större än den faktiska inkomsten.</p> <p>Om värdet är negativt visas det i rött. Detta anger att den totala budgeterade inkomsten är mindre än den faktiska inkomsten.</p> </td>
   </tr> 
   <tr> 
    <td><strong>Planerad avvikelse (för intäkt)</strong> </td> 
-   <td> <p>Total faktisk intäkt minus den totala planerade intäkten för de inkluderade projekten.<br>Du kan visa den totala planerade avvikelsen för den övergripande livslängden för de inkluderade projekten, eller så kan du bara visa den totala planerade avvikelsen för det angivna datumintervallet (du kan ange en enskild vecka eller månad). </p> <p>Om värdet är positivt visas det i grönt. Detta anger att den totala planerade intäkten är större än den faktiska intäkten.</p> <p>Om värdet är negativt visas det i rött. Detta anger att den totala planerade intäkten är mindre än den faktiska intäkten.</p> </td> 
+   <td> <p>Total faktisk intäkt minus den totala planerade intäkten för de inkluderade projekten.<br>Du kan visa den totala planerade avvikelsen för den övergripande livslängden för de inkluderade projekten, eller så kan du bara visa den totala planerade avvikelsen för det angivna datumintervallet (du kan ange en enskild vecka eller månad). </p> <p>Om värdet är positivt visas det i grönt. Detta anger att den totala planerade intäkten är större än den faktiska intäkten.</p> <p>Om värdet är negativt visas det i rött. Detta anger att den totala planerade intäkten är mindre än den faktiska intäkten.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -404,7 +389,7 @@ Följande information finns i användningsrapporten när du jämför intäkter m
  <thead> 
   <tr> 
    <th><strong>Kolumnrubrik vid visning av intäkter kontra kostnad (planerad)</strong> </th> 
-   <th> <strong> -funktion</strong></th> 
+   <th> <strong>Funktion</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -424,7 +409,7 @@ Om Planerad intäkt är lika med 0 visas Marginal som 0. </p> </td>
 </tr> 
   <tr> 
    <td scope="col"> <p scope="col"><strong>Kolumnrubrik vid visning av intäkter kontra kostnad (faktisk)</strong> </p>  </td> 
-   <td scope="col"><p><strong> -funktion</strong></p></td> 
+   <td scope="col"><p><strong>Funktion</strong></p></td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Faktisk kostnad</strong> </td> 
@@ -462,58 +447,57 @@ Så här spårar du förloppet eller kostnaden för ett eller flera projekt med 
       1. Gå till ett projekt som du vill visa användningsinformation för och klicka sedan på **Visa mer > Utnyttjande**.
       1. Användningsinformation visas automatiskt när du visar ett enskilt projekt och du behöver inte använda ett filter.\
          Om du vill filtrera användningsrapporten kan du använda ett filter och sedan klicka på **Kör**.\
-         Mer information om hur du filtrerar användningsrapporten finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
+         Mer information om hur du filtrerar användningsrapporten finns i [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda användare och roller (användarna grupperas i sin associerade roll).
 
    * Så här visar du användningsinformation för flera projekt:
 
-      1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser** sedan **Användning** till vänster.
-      1. Tillämpa ett filter på användningsrapporten och klicka sedan på **Kör**.\
-         Du måste ange ett eller flera projekt i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
+     {{step1-to-utilization-report}}
+
+      1. Tillämpa ett filter på användningsrapporten och klicka sedan på **Kör**.
+Du måste ange ett eller flera projekt i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda roller och projekt (roller grupperas i deras associerade projekt).
 
    * Så här visar du användningsinformation för ett program:
 
-      1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser** sedan **Användning** i den vänstra panelen och klicka på **Visa**>**Program**.
+     {{step1-to-utilization-report}}
+
+      1. Klicka **Visa**>**Program**.
       1. Tillämpa ett filter på användningsrapporten och klicka sedan på **Kör**.\
-         Du måste ange ett eller flera program i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
+         Du måste ange ett eller flera program i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda projekt och program (projekten grupperas inom det tillhörande programmet).
 
    * Så här visar du användningsinformation för en portfölj:
 
-      1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser** sedan **Användning** i den vänstra panelen och klicka på **Visa**>**Portfolio**.
+     {{step1-to-utilization-report}}
+
+      1. Klicka **Visa**>**Portfolio**.
       1. Tillämpa ett filter på användningsrapporten och klicka sedan på **Kör**.\
-         Du måste ange en eller flera portföljer i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
+         Du måste ange en eller flera portföljer i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i [Information om filteranvändning](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda projekt, program och portföljer (projekten grupperas i respektive tillhörande program och programmen grupperas i respektive associerad portfölj).
 
-1. Klicka på knappen **Visa** och välj sedan något av följande:
+1. Klicka på i det övre högra hörnet av användningsrapporten **Visa** väljer du sedan något av följande på menyn:
 
    * **Kostnad**
    * **Timmar**
    * **Intäkter**
    * **Intäkter kontra kostnader (planerade)**
-   * **Intäkter kontra kostnader (faktisk)**.
+   * **Intäkter kontra kostnader (faktisk)**
 
-   Det alternativ du väljer avgör vilka kolumner och vilken information som är tillgänglig i rapporten. Mer information om den tillgängliga informationen i varje kolumn finns i tabellen i steg 5.\
-   ![](assets/utilization-view-dropdown.png)
+   Det alternativ du väljer avgör vilka kolumner och vilken information som är tillgänglig i rapporten.
+   ![Visningsalternativ](assets/utilization-view-dropdown.png)
 
 1. (Valfritt) Välj det datumintervall som utnyttjandeinformationen ska visas för. Du kan visa information för en viss vecka eller månad till vänster om **Övergripande** kolumn. Information om det övergripande projektet, programmet eller portföljen visas alltid i **Övergripande** kolumn.\
-   Mer information finns i avsnittet [Justera det datumintervall som information visas för](#adjust-the-date-range-for-which-information-is-displayed) i den här artikeln.
+   Mer information finns i [Justera det datumintervall som information visas för](#adjust-the-date-range-for-which-information-is-displayed) i den här artikeln.
 
 1. (Valfritt) Klicka på en kolumnrubrik om du vill sortera användningsrapporten efter informationen i den kolumnen. Sortering fungerar bara när du inkluderar flera objekt i rapporten. Du kan till exempel sortera resultatet av rapporten när du tittar på mer än ett projekt (eller portfölj eller program). Du kan inte sortera resultaten när du bara tittar på ett projekt (eller en portfölj eller ett program) åt gången.
 1. Använd informationen i avsnittet [Översikt över användningsrapporten](#overview-of-the-utilization-report) i den här artikeln om du vill veta mer om varje kolumn i användningsrapporten.
 
 ## Information om filteranvändning {#filter-utilization-information}
 
-Du kan filtrera innehållet som visas i en användningsrapport för ett projekt. Du kan filtrera på uppgifter, ärenden, roller och anpassade data. När du tillämpar ett filter på användningsrapporten innehåller användningsrapporten information som baseras på de kriterier som du väljer.
+Du kan filtrera innehållet som visas i en användningsrapport för ett projekt. Du kan filtrera på uppgifter, ärenden, roller och anpassade data. När du tillämpar ett filter innehåller användningsrapporten information som baseras på de villkor du väljer.
 
-Du kan skapa ett filter eller använda ett filter som du har skapat tidigare.
-
-* [Skapa eller ändra ett filter](#create-or-modify-a-filter)
-* [Använda ett sparat filter](#apply-a-saved-filter)
-* [Duplicera ett filter](#duplicate-a-filter)
-* [Byta namn på ett filter](#rename-a-filter)
-* [Ta bort ett filter](#delete-a-filter)
+Du kan skapa ett nytt filter eller använda ett filter som du har skapat tidigare.
 
 ### Skapa eller ändra ett filter {#create-or-modify-a-filter}
 
@@ -521,14 +505,10 @@ När du skapar ett filter har alla Workfront-användare som har tillgång till a
 
 Så här skapar eller ändrar du ett filter:
 
-1. Om du vill filtrera användningsinformation för ett enskilt projekt går du till det projekt som du vill filtrera användningsinformationen för och klickar sedan på **Visa mer > Utnyttjande** till vänster.
-
-   eller
-
-   Om du vill filtrera användningsinformation för flera projekt, för ett program eller för en portfölj klickar du på ikonen Huvudmeny ![](assets/main-menu-icon.png) i Workfront övre högra hörn, **Resurser**, **Användning** i den vänstra panelen och sedan **Visa**>**Program** eller **Portfolio** eller **Projekt**.
+1. Öppna användningsrapporten.
+Se [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) för att göra detta.
 
 1. Klicka på **Filter** om du vill visa filteralternativen.
-
 1. (Villkorligt) Om du vill ändra ett befintligt filter klickar du på **Filter** och välj sedan det filter som du vill ändra.
 1. Ange följande information för att skapa eller ändra filtret:
 
@@ -553,12 +533,12 @@ Så här skapar eller ändrar du ett filter:
    * **Problem:** Börja skriva namnet på det problem som innehåller den information du vill inkludera i användningsrapporten och klicka sedan på namnet när det visas i listrutan.\
      Upprepa den här processen om du vill inkludera information från flera utgåvor i användningsrapporten.\
      Om du redan har definierat portföljer, program eller projekt i filtret måste den utgåva du anger finnas i någon av portföljerna, programmen eller projekten som redan ingår i filtret. Om så inte är fallet inkluderas inte data från problemet i användningsrapporten.\
-     Kostnadsinformation för utleveranser ingår inte alltid i användningsrapporten. Mer information om när kostnadsinformation om problem ingår i användningsrapporten finns i avsnittet [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) i den här artikeln.
+     Kostnadsinformation för utleveranser ingår inte alltid i användningsrapporten. Mer information om när kostnadsinformation om problem ingår i användningsrapporten finns i [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) i den här artikeln.
 
-   * **Roller:** Börja skriva namnet på den roll du vill ska visas i användningsrapporten och klicka sedan på namnet när det visas i listrutan. Upprepa den här processen om du vill ta med ytterligare roller.\
-     Användningsrapporten innehåller endast information om de roller du anger. En uppgift innehåller till exempel 10 faktiska timmar. 6 av dessa timmar kommer från en Designer-roll och 4 är från en Developer-roll. Om du filtrerar användningsrapporten efter roll för Designer tas de fyra timmarna som kommer från utvecklarrollen inte med i rapporten.
+   * **Roller:** Börja skriva namnet på den roll du vill ska visas i användningsrapporten och klicka sedan på namnet när det visas i listrutan. Upprepa den här processen om du vill ta med ytterligare roller.
+Användningsrapporten innehåller endast information om de roller du anger. En uppgift innehåller till exempel 10 faktiska timmar. Sex av dessa timmar kommer från en Designer-roll och fyra är från en Developer-roll. Om du filtrerar användningsrapporten efter roll för Designer tas de fyra timmarna som kommer från utvecklarrollen inte med i rapporten.
 
-   * **Lägg till filterregel:** Klicka **Lägg till filterregel** klickar du i det första fältet och börjar sedan skriva det fältnamn som du vill filtrera på. Om fältet är tillgängligt fylls det i för varje objekt där det kan kopplas. Klicka på fältets namn för att lägga till det i filtret.
+   * **Lägg till filterregel:** Klicka **Lägg till filterregel**, klickar i textfältet och börjar skriva det fältnamn som du vill filtrera på. Om fältet är tillgängligt fylls det i för varje objekt där det kan kopplas. Klicka på fältets namn för att lägga till det i filtret.
 
      >[!IMPORTANT]
      >
@@ -569,52 +549,46 @@ Så här skapar eller ändrar du ett filter:
 
 1. Klicka på om du vill skapa ett nytt filter **Spara filter**.\
    eller\
-   Om du vill ändra ett befintligt filter klickar du på listrutepilen bredvid **Spara filter** knapp och sedan klicka **Spara nytt filter**.\
-   I **Filternamn** -fält, ange ett namn för filtret och klicka sedan på **Spara**.\
-   Användningsområdet filtreras med den information som du har inkluderat i filtret.
+   Klicka på pilen bredvid **Spara filter** knapp och sedan klicka **Spara nytt filter**.
+I **Filternamn** fält, skriv ett namn för filtret och klicka på **Spara**.
+Användningsområdet filtreras med den information som du har inkluderat i filtret.
 
 ### Använda ett sparat filter {#apply-a-saved-filter}
 
-1. Om du vill använda ett filter på användningsrapporten för ett enskilt projekt går du till det projekt som du vill filtrera för och klickar sedan på **Visa mer > Utnyttjande** till vänster.
-
-   eller
-
-   Om du vill använda ett filter på användningsrapporten för flera projekt, för ett program eller för en portfölj klickar du på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn, **Resurser**, **Användning** i den vänstra panelen och sedan **Visa**>**Program** eller **Portfolio** eller **Projekt**.
+1. Öppna användningsrapporten.
+Se [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) för att göra detta.
 
 1. Klicka **Sparade filter** väljer du sedan det filter som du vill använda i listrutan.
 
 ### Duplicera ett filter {#duplicate-a-filter}
 
-1. Om du vill duplicera ett filter i användningsrapporten för ett enskilt projekt går du till det projekt som du vill duplicera filtret för och klickar sedan på **Visa mer > Utnyttjande** till vänster.
+1. Öppna användningsrapporten.
+Se [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) för att göra detta.
 
-   eller
+1. Klicka **Sparade filter** hovra över det filter du vill duplicera och klicka på **Duplicera** -ikon.
 
-   Om du vill duplicera ett filter i användningsrapporten för flera projekt, för ett program eller för en portfölj klickar du på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser** sedan **Användning** till vänster.
+   ![Duplicera, ikon](assets/utilization-filter-duplicate.png)
 
-1. Klicka **Sparade filter**, för musen över det filter som du vill duplicera i listrutan och klicka sedan på **Duplicera** -ikon.
-
-   ![](assets/utilization-filter-duplicate.png)\
    Dialogrutan Duplicera filter visas.
 
-1. I **Filternamn** anger du ett namn för det nya filtret och klickar sedan på **Spara**.
+1. I **Filternamn** anger du ett namn för det nya filtret och klickar på **Spara**.
 
 ### Byta namn på ett filter {#rename-a-filter}
 
-När du byter namn på ett filter visas det nya namn du väljer för alla Workfront-användare som har tillgång till användningsrapporten.
+När du byter namn på ett filter ser alla Workfront-användare som har åtkomst till användningsrapporten det nya namn som du angav.
 
 Byta namn på ett filter:
 
-1. Om du vill byta namn på ett filter i användningsrapporten för ett enskilt projekt går du till det projekt som du vill byta namn på filtret för och klickar sedan på **Visa mer > Utnyttjande** till vänster.
+1. Öppna användningsrapporten.
+Se [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) för att göra detta.
 
-   eller
+1. Klicka **Sparade filter** Håll markören över det filter du vill byta namn på och klicka på **Byt namn** -ikon.
 
-   Om du vill byta namn på ett filter i användningsrapporten för flera projekt, för ett program eller för en portfölj klickar du på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser** sedan **Användning** till vänster.
+   ![Byt namn på filterikon](assets/utilization-filter-rename.png)
 
-1. Klicka **Sparade filter**, för musen över det filter som du vill duplicera i listrutan och klicka sedan på **Byt namn** -ikon.\
-   ![](assets/utilization-filter-rename.png)\
    Dialogrutan Byt namn på filter visas.
 
-1. I **Filternamn** anger du ett namn för det nya filtret och klickar sedan på **Spara**.
+1. I **Filternamn** anger du ett namn för det nya filtret och klickar på **Spara**.
 
 ### Ta bort ett filter {#delete-a-filter}
 
@@ -622,15 +596,12 @@ När du tar bort ett filter tas filtret bort för alla Workfront-användare som 
 
 Ta bort ett filter:
 
-1. Om du vill ta bort ett filter i användningsrapporten för ett enskilt projekt går du till det projekt som du vill ta bort filtret för och klickar sedan på **Visa mer > Utnyttjande** till vänster.
+1. Öppna användningsrapporten.
+Se [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) för att göra detta.
 
-   eller
+1. Klicka **Sparade filter** Håll markören över det filter som du vill ta bort och klicka på **Ta bort** -ikon.
 
-   Om du vill ta bort ett filter i användningsrapporten för flera projekt, för ett program eller för en portfölj klickar du på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser** sedan **Användning** till vänster.
-
-1. Klicka **Sparade filter**, för musen över det filter som du vill duplicera i listrutan och klicka sedan på **Ta bort** -ikon.
-
-   ![](assets/utilization-filter-delete.png)
+   ![Ikonen Ta bort](assets/utilization-filter-delete.png)
 
 1. Klicka **Ta bort** när du får en fråga om du vill ta bort filtret.
 
@@ -638,11 +609,8 @@ Ta bort ett filter:
 
 Du kan justera det datumintervall för vilket användningsinformation visas. Du kan välja ett tidigare eller framtida datum. De ändringar du gör visas bara för dig.
 
-1. Om du vill justera datumintervallet för användningsrapporten för ett enskilt projekt går du till det projekt som du vill justera datumintervallet för och klickar sedan på **Visa mer > Utnyttjande** till vänster.
-
-   eller
-
-   Om du vill justera datumintervallet för användningsrapporten för flera projekt, för ett program eller för en portfölj klickar du på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser** sedan **Användning** till vänster.
+1. Öppna användningsrapporten.
+Se [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) för att göra detta.
 
 1. Klicka på datumintervallet bredvid **Exportera** -knappen.
 
@@ -654,7 +622,7 @@ Du kan justera det datumintervall för vilket användningsinformation visas. Du 
    * **Månad:** Välj det här alternativet om du vill välja en viss månad.
 
    Datumintervallet du väljer visas i användningsrapporten till vänster om **Övergripande** kolumn.\
-   Workfront kommer ihåg om du vill visa en vecka- eller månadsvy. Nästa gång du öppnar utnyttjanderapporten visas den aktuella veckan eller den aktuella månaden, beroende på vilket alternativ du väljer.
+   Workfront kommer ihåg om du vill visa en vecka- eller månadsvy. Nästa gång du öppnar användningsrapporten visas aktuell vecka eller aktuell månad, beroende på vilket alternativ du väljer.
 
 ## Exportera användningsinformation
 
@@ -664,25 +632,22 @@ När negativa tal visas i Microsoft Excel visas de inom parentes.
 
 Så här exporterar du användningsinformation:
 
-1. Om du vill exportera användningsinformation för ett enskilt projekt går du till det projekt som du vill exportera användningsinformation för och klickar sedan på **Användning** -fliken (beroende på layoutinställningarna kan den finnas under **Mer** -fliken).
+1. Öppna användningsrapporten.
+Se [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) för att göra detta.
 
-   eller
-
-   Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser** sedan **Användning** till vänster.
-
-1. Klicka **Exportera**, som finns i det övre vänstra hörnet av **Användning** -fliken.
+1. Klicka **Exportera** i det övre vänstra hörnet av rapporten.
 
 1. Välj bland följande alternativ:
 
    * **PDF:** Exporterar rapporten i PDF-format. Det här är det rekommenderade formatet om du tänker skriva ut rapporten.\
-     Välj antingen **Letter - stående**, **Letter - liggande**, eller **Andra storlekar** (innehåller alternativ för export i Legal (8,5 x 14 tum), Ledger (11 x 17 tum) och A4).\
-     Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
+     Välj antingen **Letter - stående**, **Letter - liggande**, eller **Andra storlekar** (innehåller alternativ för export i Legal (8,5 x 14 tum), Ledger (11 x 17 tum) och A4).
+Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på datorn.
 
-   * **Excel:** Exporterar rapporten i XLSX-format. Detta är det rekommenderade formatet om du tänker analysera data i Excel ytterligare.\
-     Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
+   * **Excel:** Exporterar rapporten i XLSX-format. Detta är det rekommenderade formatet om du tänker analysera data i Excel ytterligare.
+Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på datorn.
 
-   * **Tabbavgränsad:** Exporterar rapporten i TSV-format. Detta är det rekommenderade formatet om du tänker importera data till tredjepartsprogram för ytterligare analys.\
-     Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
+   * **Tabbavgränsad:** Exporterar rapporten i TSV-format. Detta är det rekommenderade formatet om du tänker importera data till tredjepartsprogram för ytterligare analys.
+Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på datorn.
 
 1. Läs informationen i artikeln [Exportera data](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) om du vill veta hur du använder den exporterade filen.
 
@@ -690,20 +655,19 @@ Så här exporterar du användningsinformation:
 
 Du kan visualisera data från användningsrapporten i en diagramvy.
 
-1. Om du vill visa en användningsrapport för ett enskilt projekt i ett diagramformat går du till det projekt du vill visa och klickar sedan på **Visa mer > Utnyttjande** till vänster.
+1. Öppna användningsrapporten.
+Se [Följ upp framsteg, kostnader och intäkter med användningsrapporten](#track-progress-cost-and-revenue-with-the-utilization-report) för att göra detta.
 
-   eller
+1. Klicka på knappen **Diagram** -ikon.
 
-   Om du vill visa en användningsrapport i ett diagramformat för flera projekt, för ett program eller för en portfölj klickar du på **Rapportering** i det globala navigeringsfältet för att gå till rapportområdet och klicka sedan på **Användning** -fliken.
+   ![Diagramikon](assets/utilization-chart.png)
 
-1. Klicka på knappen **Diagram** -ikon.\
-   ![](assets/utilization-chart.png)\
    Användningsrapporten visas i en diagramvy.
 
-1. (Valfritt) Konfigurera detta för att visa projekt, program eller Portfolio genom att välja lämpligt alternativ i dialogrutan **Visa** listruta.
-1. (Valfritt) För musen över en viss tidpunkt i rapporten för att visa data för den tidpunkten.
+1. (Valfritt) Konfigurera diagrammet för att visa projekt, program eller Portfolio genom att välja lämpligt alternativ i dialogrutan **Visa** listruta.
+1. (Valfritt) Hovra över en viss tidpunkt i rapporten för att visa data för den tidpunkten.
 
-   ![](assets/utilization-chart-hover-350x176.png)
+   ![Hovra över en datapunkt](assets/utilization-chart-hover.png)
 
-1. (Valfritt) Justera filtren för att bestämma vilken information som visas i diagrammet. Mer information om hur du justerar filtren finns i avsnittet [Information om filteranvändning](#filter-utilization-information) i den här artikeln.
-1. (Valfritt) Konfigurera tidsramen för diagramrapporten enligt beskrivningen i avsnittet [Justera det datumintervall som information visas för](#adjust-the-date-range-for-which-information-is-displayed) i den här artikeln.
+1. (Valfritt) Justera filtren för att ändra vilken information som visas i diagrammet. Mer information om hur du justerar filtren finns i [Information om filteranvändning](#filter-utilization-information) i den här artikeln.
+1. (Valfritt) Konfigurera tidsramen för diagramrapporten enligt beskrivningen i [Justera det datumintervall som information visas för](#adjust-the-date-range-for-which-information-is-displayed) i den här artikeln.
