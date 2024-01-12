@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan bestämma vilka avsnitt i ett anpassat formulär som ska visas eller hoppas över baserat på vad användaren gör när han eller hon fyller i det.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -56,26 +56,23 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 * Du kan inte lägga till hopplogik i en widget eller avsnittsbrytning. Du kan bara lägga till den i ett flervalsfält (alternativknappar, listrutor eller kryssrutor).
 
-* Du kan lägga till både visningslogik och hopplogik i ett anpassat fält. Följande gäller för det anpassade fältet:
+* Du kan lägga till både visningslogik och hopplogik i ett anpassat fält om allt av följande gäller för det anpassade fältet:
 
    * Det är ett flervalsfält (alternativknappar, listrutor eller kryssrutor)
    * Det föregås av ett flervalsfält
    * Därefter kommer ett annat anpassat fält
 
 * När du kopierar formulär med visningslogik eller hopplogik kopieras logiken till det nya anpassade formuläret.
-* Tänk på följande när du skapar en visningslogikregel för ett anpassat formulär
+* När du redigerar flera objekt samtidigt visas alla anpassade fält i rutan Redigera objekt, inklusive de fält som hoppas över eller döljs.
+* Tänk på följande när du skapar en visningslogikregel för ett anpassat formulär:
 
    * Anpassade fält som inte ingår i en programsats för visningslogik visas som standard i ett anpassat formulär.
    * Du kan skapa logiksatser för visning av flera fält.
-
-* När du redigerar flera objekt samtidigt visas alla anpassade fält i rutan Redigera objekt, inklusive de fält som hoppas över eller döljs.
+   * Om alla fält under en avsnittsbrytning har visningslogik och alla är dolda som ett resultat av logiken, döljs hela avsnittet i det anpassade formuläret.
 
 ## Skapa ett exempel på ett anpassat formulär som har visnings- och hopplogik
 
 Det bästa sättet att lära sig att lägga till visnings- och hopplogik i ett anpassat formulär är att använda det praktiska exemplet som förklaras i de två följande avsnitten:
-
-* [Visningslogik](#display-logic)
-* [Hoppa över logik](#skip-logic)
 
 ### Visningslogik {#display-logic}
 

@@ -4,12 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Lägga till en avsnittsbrytning i ett anpassat formulär med det äldre formulärverktyget
 description: Du kan gruppera anpassade fält och widgetar i ett anpassat formulär i avsnitt med rubriker. Detta är användbart för att ge en välordnad upplevelse till användare som fyller i formuläret. Om du dessutom behöver begränsa åtkomsten till vissa anpassade fält och widgetar för vissa användare, kan du placera dem i ett avsnitt och sedan ge åtkomst till avsnittet till endast dessa användare.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -83,12 +84,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td>Skriv text om du vill förklara för användarna vad avsnittet är till för. Detta visas under avsnittets etikett i det anpassade formuläret.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Lägg till logik</td> 
-      <td>Använd visningslogik för att ange om avsnittet ska visas i formuläret, baserat på de val som användare gör i anpassade fält med flera val när de fyller i formuläret. Mer information finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Lägga till visningslogik och hoppa över logik i ett anpassat formulär</a>.</td> 
+      <td role="rowheader"><p>Lägg till logik</p></td> 
+      <td><p>Använd visningslogik för att ange om avsnittet ska visas i formuläret, baserat på de val som användare gör i anpassade fält med flera val när de fyller i formuläret.</p><p><strong>OBS!</strong> Om alla enskilda fält under en avsnittsbrytning har visningslogik och alla är dolda som ett resultat av logiken, döljs hela avsnittet i det anpassade formuläret. Detta inträffar även om visningslogik inte används för avsnittsbrytningen.</p><p>Mer information finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Lägga till visningslogik och hoppa över logik i ett anpassat formulär</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Ge åtkomst</p> </td> 
-      <td> <p> Markera de behörigheter som användare behöver för ett objekt där det anpassade formuläret är kopplat för att visa det här avsnittet och redigera fältvärdena. 
+      <td> <p> Markera de behörigheter som användare behöver för ett objekt där det anpassade formuläret är kopplat för att visa det här avsnittet och redigera fältvärdena.
        <p>Följande behörigheter är tillgängliga under <b>Användare med denna åtkomst till objektet kan visa fältvärden</b>:</p> 
          <ul>
           <li><strong>Visa</strong>: Visa behörigheter för objektet</li>
