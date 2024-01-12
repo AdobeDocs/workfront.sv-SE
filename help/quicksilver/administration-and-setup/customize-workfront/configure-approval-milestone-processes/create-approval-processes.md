@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Ny plan: Standard </p>
  <p>eller</p> 
 <p>Aktuell plan: Plan </p> 
@@ -62,12 +62,12 @@ Du måste ha följande:
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Om du är Workfront-administratör eller har administrativ åtkomst till godkännandeprocesser kan du skapa en godkännandeprocess på systemnivå eller en godkännandeprocess på gruppnivå för en viss grupp.</p> 
-   <p>Om du är gruppadministratör kan du skapa godkännandeprocesser på gruppnivå för grupper som du hanterar.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <p>Om du är gruppadministratör kan du skapa godkännandeprocesser på gruppnivå för grupper som du hanterar.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa en global godkännandeprocess på systemnivå eller gruppnivå för arbetsobjekt
 

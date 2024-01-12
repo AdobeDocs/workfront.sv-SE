@@ -6,9 +6,9 @@ description: Du kan koppla ditt arbete till innehållet i [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ Du måste ha följande:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan*</strong>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
    <td>Alla
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenser*</strong>
+   <td><strong>[!DNL Adobe Workfront] licenser</strong>
    </td>
    <td>Aktuell: [!UICONTROL Plan] <br>
    Nytt: [!UICONTROL Standard]
@@ -67,13 +67,12 @@ Du måste ha följande:
   <tr>
    <td>Konfigurationer på åtkomstnivå*
    </td>
-   <td>Du måste vara en [!DNL Workfront] administratör. För information om [!DNL Workfront] administratörer, se <strong>Bevilja användaren fullständig administrativ åtkomst</strong>.
+   <td>Du måste vara en [!DNL Workfront] administratör.
    </td>
   </tr>
 </table>
 
-
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Förutsättningar
