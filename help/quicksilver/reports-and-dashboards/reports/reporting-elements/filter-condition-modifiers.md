@@ -6,14 +6,16 @@ description: Med filter- och villkorsmodifierarna kan du skapa filter och skapa 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
 
 # Filter- och villkorsmodifierare
+
+<!-- Audited: 1/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is temporary - Lilit is fixing this in a future story: NOTE If the field you are filtering for has multiple options, this filters out the results that contain only the choice you specify. If the field contains additional options including the one specified, those results are not filtered from the report. See this document and search for "not equal" for the link to the req doc: https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit) </p>
@@ -27,9 +29,11 @@ Mer information om hur du använder villkorsstyrd formatering i Vyer finns i art
 
 ## Filter- och villkorsmodifierare
 
-En lista med inbyggda modifierare för tidsramar finns i artikeln [Filtrera rapporter efter tidsramar](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Vissa modifierare är inbyggda och du kan välja dem från en nedrullningsbar meny i filtret eller villkorsstyrd formateringssats. Andra modifierare kan bara användas i textlägesfilter.
 
-Vissa modifierare är inbyggda och du kan välja dem från en nedrullningsbar meny i filtret eller villkorsstyrd formateringssats. Andra modifierare kan bara användas i textlägesfilter. Mer information om textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Mer information om textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+
+En lista med inbyggda modifierare för tidsramar finns i artikeln [Filtrera rapporter efter tidsramar](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 Du kan använda följande villkorsmodifierare i filter och villkorsstyrda formateringssatser:
 
@@ -48,7 +52,7 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p><strong>Är tom</strong> </p> </td> 
    <td> <p><strong>blank</strong> </p> </td> 
-   <td> <p>Fältet finns för objektet men fältet har ännu inte fått något värde.</p> </td> 
+   <td> <p>Fältet finns för objektet men fältet har för närvarande inget värde.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Är inte tom</strong> </p> </td> 
@@ -68,37 +72,71 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p><strong>Innehåller</strong> </p> </td> 
    <td> <p><strong>cicontains</strong> </p> </td> 
-   <td> <p>(Skiftlägesokänslig) Detta är den skiftlägesokänsliga versionen av <strong>innehåller</strong>. Till exempel: "cicontains inf" hämtar alla värden som innehåller antingen "Inf" eller "inf".</p> <p> <p>Obs! Adobe Workfront söker efter det exakta ord eller den fras som du anger för varje filtersats. Om du t.ex. söker efter ett projekt som innehåller frasen"nytt projekt" i namnet, visas inga projekt som bara innehåller"nytt" eller"projekt", eller"nytt huvudprojekt" i namnet. Filtret hittar bara projekt med den exakta frasen"nytt projekt" i namnet.</p> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>(Skiftlägesokänslig) Det här alternativet är inte skiftlägeskänsligt för <strong>eq</strong>. Det returnerar bara en exakt matchning av det sökda värdet.</p> <p>Om du till exempel söker efter en uppgift med ett specifikt namn söker "task name cieq test" efter uppgifter där namnet är "Test", "TEST" eller "Test", men inte en uppgift med namnet "test 123".</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>ciin</strong> </p> </td> 
-   <td> <p>(Skiftlägesokänslig) Detta är den skiftlägesokänsliga versionen av <strong>in</strong>.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>cilike</strong> </p> </td> 
-   <td> <p>Det här är en skiftlägeskänslig version av <strong>gilla</strong>. Exempel: "cilike %Current% %Dead%" returnerar alla anteckningar som innehåller "Current to Dead" eller "current to Dead".</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>cinotin</strong> </p> </td> 
-   <td> <p>(Skiftlägesokänslig) Detta är den skiftlägesokänsliga versionen av <strong>notin</strong>.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om hur du skapar filter i textläge finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> </td> 
-   <td> <p><strong>innehåller</strong> </p> </td> 
-   <td> <p>(Skiftlägeskänsligt) Söker efter den angivna texten i en hel textsträng.</p> <p>Om du till exempel använder"contains Inf" hämtas allt med"Inf" i det, till exempel ordet"Infinity".</p> <p>Den här modifieraren kan bara användas i textlägesfilter.Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+   <td> <p>Det här är <i>skiftlägesokänslig</i> version av <strong>innehåller</strong>. Till exempel: <code>cicontains inf</code> hämtar alla värden som innehåller antingen <code>Inf</code> eller <code>inf</code>.</p> <p> <p>Obs! Adobe Workfront söker efter det exakta ord eller den fras som du anger för varje filtersats. Om du till exempel söker efter ett projekt som innehåller frasen <code>new project</code> i namnet visar inte Workfront projekt som bara <code>new</code> eller bara <code>project</code>, eller <code>new main project</code> i namnet. Filtret hittar bara projekt med den exakta frasen <code>new project</code> i namnet.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Innehåller inte</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>(Skiftlägesokänslig) Den filtrerar efter objekt som saknar det angivna värdet.</p> <p>"innehåller till exempel inte inf" fångar något utan "Inf" eller "inf" i namnet.</p> <p>Obs! <span>Om fältet som du filtrerar efter har flera alternativ filtreras resultaten som innehåller både det alternativ som du anger, samt det alternativ som du anger och eventuella ytterligare alternativ.</span> </p> </td> 
+   <td> <p>Det här är <i>skiftlägesokänslig</i> version av <strong>notcontains</strong>.</p><p>Den här modifieraren filtrerar efter objekt som saknar det angivna värdet.</p> <p>Till exempel: <code>does not contain inf</code> hämtar allt utan <code>Inf</code> eller <code>inf</code> i namnet.</p> <p>Obs! <span>Om fältet som du filtrerar efter har flera alternativ filtreras resultaten som innehåller både det alternativ som du anger, samt det alternativ som du anger och eventuella ytterligare alternativ.</span> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> </td> 
+   <td> <p><strong>innehåller</strong> </p> </td> 
+   <td> <p> Söker efter angiven <i>skiftlägeskänslig</i> text genom en hel textsträng.</p> <p>Använd till exempel <code>contains Inf</code> fångar allt med <code>Inf</code> i den, till exempel ordet <code>Infinity.</code></p> <p>Den här modifieraren kan bara användas i textlägesfilter.Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>notcontains</strong> </p> </td> 
+   <td> <p>Den filtrerar efter objekt som saknar <i>skiftlägeskänslig</i> angivet värde.</p> <p>Till exempel: <code>notcontains inf</code> hämtar allt utan <code>inf</code>men visar värden som innehåller <code>Inf</code>.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  </tr> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>cieq</strong> </p> </td> 
+   <td> <p>Det här är <i>skiftlägesokänslig</i> alternativ för <strong>eq</strong>. Det returnerar bara en exakt matchning av det sökda värdet.</p> <p>Om du t.ex. söker efter en uppgift med ett specifikt namn <code>task name cieq test</code> söker efter uppgifter där namnet är <code>Test</code>, <code>TEST</code>, eller <code>Test</code>, men ingen uppgift med namnet hittas <code>test 123.</code></p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> </td> 
+   <td><strong>cine</strong> </td> 
+   <td> <p>Det här är <i>skiftlägesokänslig</i> alternativ för <strong>ne</strong>, och det är motsatsen till <b>cieq</b> modifierare. Det returnerar bara resultat som inte är en exakt matchning av det sökda värdet, utan hänsyn tagen till värdets skiftläge.</p> <p>Till exempel: <b>cine</b> returnerar alla värden som inte är lika med "current" eller "Current". </p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  </tr>   <tr valign="top"> 
+   <td> </td> 
+   <td> <p><strong>eq</strong> </p> </td> 
+   <td> <p>Den här modifieraren returnerar bara en exakt, <i>skiftlägeskänslig</i> matchar det sökda värdet.</p> <p>Om du till exempel söker efter fullständiga projekt, <code>eq CPL</code> returnerar alla projekt med statusen Slutför. <code>eq CPL, CUR</code> returnerar inget resultat eftersom ett projekt inte kan vara fullständigt och aktuellt samtidigt.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> </td> 
+   <td><strong>ne</strong> </td> 
+   <td> <p>Det här är <i>skiftlägeskänslig</i> motsatt <strong>eq</strong>. Det returnerar bara resultat som inte är en exakt matchning av det sökda värdet, och det matchar även värdets skiftläge.</p> <p>Till exempel: <b>ne</b> returnerar värden som inte är lika med "Aktuell", men som inte returnerar några värden som inte är lika med "aktuell". </p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.<br></p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>ciin</strong> </p> </td> 
+   <td> <p> Det här är <i>skiftlägesokänslig</i> version av <strong>in</strong>.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>cinotin</strong> </p> </td> 
+   <td> <p>Det här är <i>skiftlägesokänslig</i> version av <strong>notin</strong>.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> <p> </p> <p> </p> <p><strong>Jämn</strong> </p> </td> 
+   <td> <p><strong>in</strong> </p> </td> 
+   <td> <p>Med den här modifieraren kan du skapa en kommaavgränsad lista med <i>skiftlägeskänslig</i> variabler som ska jämföras med ett enskilt attribut utvärderat i ett filter. Hela listan behandlas som en OR-sats och returnerar alla resultat som uppfyller villkoren för en eller flera av variablerna.</p> <p>Om du t.ex. söker efter projekt, använder <code>in CUR, PLN, CPL</code> returnerar alla projekt som har statusvärdet Aktuell, ELLER Planering, ELLER Fullständig.</p> <p>Inbyggd modifierare <strong>Jämn</strong> motsvarar textlägesmodifieraren i <strong>in</strong>. Det innebär att du kan välja Lika med flera värden för fältet.</p> <p>Du kan t.ex. välja "Status är lika med aktuell, Planering, Död" i en projektrapport och du kan visa projekt i någon av dessa statusar.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p><strong>Inte lika med</strong> </p> </td> 
+   <td> <p><strong>notin</strong> </p> </td> 
+   <td> <p>Det här är <i>skiftlägeskänslig</i> motsatt <strong>in</strong>. Det returnerar bara resultat som inte finns i den angivna listan.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> <p>Obs! <span>Om fältet som du filtrerar efter har flera alternativ filtreras resultaten som innehåller både det alternativ som du anger, samt det alternativ som du anger och eventuella ytterligare alternativ.</span> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>cilike</strong> </p> </td> 
+   <td> <p>Det här är <i>skiftlägesokänslig</i> version av <strong>gilla</strong>. Till exempel: <code>cilike %Current% %Dead%</code> returnerar alla anteckningar som innehåller <code>Current to Dead</code> eller <code>current to dead</code>.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>gilla</strong> </p> </td> 
+   <td> <p>Den här modifieraren söker efter delar av en <i>skiftlägeskänslig</i> textsträng på liknande sätt som <strong>innehåller</strong>. Men <strong>gilla</strong> gör att du kan infoga jokertecken för att dela upp texten.</p> <p>Om du till exempel söker efter anteckningar, använda <code>like %Current% %Dead%</code> returnerar alla anteckningar som innehåller frasen"Aktuell till död". Den innehåller inga anteckningar som innehåller"Dead to Current". Varje värde söks igenom i den ordning som det listas. % representerar ett jokertecken som ersätter tecken eller textsegment.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Finns inte</strong> </td> 
@@ -110,24 +148,9 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
     </ul> <p>Mer information om hur du skapar komplexa filter med EXISTS-programsatser finns i artikeln <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md">Skapa komplexa textlägesfilter med EXISTS-satser</a>. Detta är den enda modifieraren som används i EXISTS-satser.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> </p> <p> </p> <p> </p> <p><strong>Jämn</strong> </p> </td> 
-   <td> <p><strong>in</strong> </p> </td> 
-   <td> <p>(Skiftlägeskänsligt) Med den här modifieraren kan du skapa en kommaavgränsad lista med variabler som ska jämföras med ett enskilt attribut utvärderat i ett filter. Hela listan behandlas som en OR-sats och returnerar alla resultat som uppfyller villkoren för en eller flera av variablerna.</p> <p>Om du till exempel söker efter projekt och använder"i CUR, PLN, CPL" returneras alla projekt som har statusen Aktuell, ELLER Planering, ELLER Fullständig.</p> <p>Inbyggd modifierare <strong>Jämn</strong> motsvarar textlägesmodifieraren i <strong>in</strong>. Det innebär att du kan välja Lika med flera värden för fältet.</p> <p>Du kan t.ex. välja "Status är lika med aktuell, Planering, Död" i en projektrapport och du kan visa projekt i någon av dessa statusar.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> </td> 
-   <td> <p><strong>eq</strong> </p> </td> 
-   <td> <p>(Skiftlägeskänsligt) Detta returnerar endast en exakt matchning av det sökda värdet.</p> <p>Om du till exempel söker efter fullständiga projekt returnerar "eq CPL" alla projekt med fullständig status. "eq CPL, CUR" returnerar inget resultat eftersom ett projekt inte kan vara fullständigt och aktuellt samtidigt.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om hur du använder textläge för att skapa filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
    <td> <p><strong>Större än</strong> </p> </td> 
    <td> <p><strong>gt</strong> </p> </td> 
    <td> <p>Detta söker efter alla resultat med ett värde som är större än det angivna värdet, exklusive det angivna värdet.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>gilla</strong> </p> </td> 
-   <td> <p>(Skiftlägeskänsligt) Söker efter delar av en textsträng på ungefär samma sätt som <strong>innehåller</strong>. Men <strong>gilla</strong> gör att du kan infoga jokertecken för att dela upp texten.</p> <p>Om du till exempel söker efter anteckningar och använder "som %Current% %Dead%" returneras alla anteckningar som innehåller frasen "Aktuell till aktuell". Den innehåller inga anteckningar som innehåller"Dead to Current". Varje värde söks igenom i den ordning som det listas. % representerar ett jokertecken som ersätter tecken eller textsegment.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Mindre än</strong> </p> </td> 
@@ -147,32 +170,13 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p><strong>Mellan</strong> </p> </td> 
    <td> <p><strong>mellan</strong> </p> </td> 
-   <td> <p>Tillhandahåller två obligatoriska fältvärden och söker efter alla resultat inom intervallet för båda fälten inklusive de angivna värdena.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>notcontains</strong> </p> </td> 
-   <td> <p>(Skiftlägeskänsligt) Den filtrerar efter objekt som saknar det angivna värdet.</p> <p>"notcontains inf" fångar till exempel allt med utan "inf", men visar värden som innehåller "Inf".</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+   <td> <p>Tillhandahåller två obligatoriska fältvärden och söker efter alla resultat inom intervallet för båda fälten, inklusive de angivna värdena.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notbetween</strong> </p> </td> 
    <td> <p>Det här är motsatsen till <strong>mellan</strong>. Det innehåller två obligatoriska värdefält och söker efter alla resultat utanför intervallet för båda fälten inklusive de angivna värdena.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p><strong>Inte lika med</strong> </p> </td> 
-   <td> <p><strong>notin</strong> </p> </td> 
-   <td> <p>(Skiftlägeskänsligt) Detta är motsatsen till <strong>in</strong>. Det returnerar bara resultat som inte finns i den angivna listan.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> <p>Obs! <span>Om fältet som du filtrerar efter har flera alternativ filtreras resultaten som innehåller både det alternativ som du anger, samt det alternativ som du anger och eventuella ytterligare alternativ.</span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> </td> 
-   <td><strong>ne</strong> </td> 
-   <td> <p>(Skiftlägeskänsligt) Detta är motsatsen till <strong>eq</strong>. Det returnerar bara resultat som inte är en exakt matchning av det sökda värdet, och det matchar även värdets skiftläge.</p> <p>Till exempel: <b>ne</b> returnerar värden som inte är lika med "Aktuell", men som inte returnerar några värden som inte är lika med "aktuell". </p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.<br></p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> </td> 
-   <td><strong>cine</strong> </td> 
-   <td> <p>(Skiftlägesokänslig) Det här alternativet är inte skiftlägeskänsligt för <strong>ne</strong> och det är motsatsen till <b>cieq</b> modifierare. Det returnerar bara resultat som inte är en exakt matchning av det sökda värdet, utan hänsyn tagen till värdets skiftläge.</p> <p>Till exempel: <b>cine</b> returnerar alla värden som inte är lika med "current" eller "Current". </p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>

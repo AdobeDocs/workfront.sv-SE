@@ -6,14 +6,16 @@ description: The [!UICONTROL boards] På kontrollpanelen visas en lista med pane
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
 
 # Använda panelkontrollpanelen
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,25 +47,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td> 
+   <p>Nytt: [!UICONTROL Contributor] eller högre</p> 
+   <p>eller</p>
+   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Filterbord och arbetsflöden {#filter-boards}
 
 Du kan filtrera panelkontrollpanelen så att den visar aktiva, arkiverade eller alla paneler eller arbetsflöden.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Boards]**.
 1. Klicka [!UICONTROL **Filter**] i området för anslagstavlor eller i området för arbetsflöden, och välj **[!UICONTROL All]**, **[!UICONTROL Active]**, eller **[!UICONTROL Archived]**.
 
    När ett annat filter än standardfiltret används på kontrollpanelen visas en indikator på filterikonen ![Filter som används på instrumentpanelen](assets/boards-filterapplied-30x30.png).
 
 ## Sortera ritytor
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Boards]**.
 1. Om du vill sortera listan över ritytor klickar du på [!UICONTROL **Sortera**]. Standardsorteringsalternativet för sidan är **[!UICONTROL Date modified]**. Du kan också sortera sidan efter board **[!UICONTROL Name]**.
 
    Välj **[!UICONTROL Reverse order]** om du vill sortera ritytorna i omvänd ordning efter ändringsdatum eller namn. När pilen på sorteringsikonen pekar uppåt, används omvänd ordning. När pilen pekar nedåt används standardordningen.
@@ -74,7 +81,7 @@ Du kan filtrera panelkontrollpanelen så att den visar aktiva, arkiverade eller 
 
 Du kan söka efter en specifik anslagstavla i området för anslagstavlor eller söka efter en viss arbetsström i området Arbetsflöden.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Boards]**.
 1. Klicka [!UICONTROL **Sök**] och skriv ett sökord. Tryck sedan på Enter.
 
    Alla anslagstavlor eller arbetsflöden som innehåller söktermen i titeln visas.
@@ -93,7 +100,7 @@ När du arkiverar en styrelse eller ett arbetsflöde skickas det till arkivet oc
 >
 >När du arkiverar ett arbetsflöde arkiveras alla dess styrelser.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Boards]**.
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på tåget eller i arbetsflödet och väljer **[!UICONTROL Archive]**.
 
    I ett arbetsflöde är menyn till höger, bredvid [!UICONTROL **Visa arbetsflöde**] -knappen.
@@ -114,7 +121,7 @@ Om du tar bort ett arbetsflöde tas även alla ritytor i arbetsflödet bort.
 >
 >Du kan bara ta bort ritytor och arbetsflöden som du har skapat, inte ritytor och arbetsflöden som du har lagts till i.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Boards]**.
 1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på tåget eller i arbetsflödet och väljer **[!UICONTROL Delete]**.
 
    I ett arbetsflöde är menyn till höger, bredvid [!UICONTROL **Visa arbetsflöde**] -knappen.

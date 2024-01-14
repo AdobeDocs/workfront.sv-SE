@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 0%
 
 ---
@@ -645,9 +645,9 @@ ht-degree: 0%
          * [Dölj rapporter](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * E-post {#emails}
          * [E-post](administration-and-setup/manage-workfront/emails/emails.md)
-         * [E-postmeddelanden](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [E-postmeddelanden: artikelindex](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Konfigurera händelsemeddelanden](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [Tillgängligt händelsemeddelande](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [Tillgängliga händelsemeddelanden](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Lås upp händelsemeddelanden för alla grupper](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [Ämnesrader för händelsemeddelanden](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [Ändra användarnas inställningar för e-postmeddelanden](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -694,8 +694,8 @@ ht-degree: 0%
    * Hantera grupper {#manage-groups}
       * [Hantera grupper](administration-and-setup/manage-groups/manage-groups.md)
       * Grupper {#groups}
-         * [Översikt över grupper](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [Grupper](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [Grupper: artikelindex](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [Översikt över grupper](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [Översikt över undergrupper](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [Översikt över hemgrupper](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * Skapa och hantera grupper {#create-manage-groups}

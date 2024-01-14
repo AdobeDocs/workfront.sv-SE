@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 description: Som Adobe Workfront-administratör kan du skapa anpassade statusvärden för projekt, uppgifter och ärenden.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: f3785c66b979cc95bf1d2d2ccacbdeefe0ef0967
+source-git-commit: 69c1b92526d3607b8ed21ce29c118de08c33a0ee
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera en status
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -39,14 +41,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td>
+     <p>Nytt: Standard</p>
+     <p>eller</p>
+     <p>Aktuell: Planera</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa eller redigera en anpassad status
 
@@ -54,13 +62,13 @@ Du kan lägga till en anpassad status som kan användas av hela organisationen e
 
 När du skapar en anpassad status för hela organisationen kan du konfigurera den så att alla grupper i systemet kan använda den utan att redigera den. Eller så kan du konfigurera det så att gruppadministratörer kan ändra det för sina grupper, vilket förklaras i [Skapa eller redigera en gruppstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
 
 1. Klicka på i den vänstra panelen **Projektinställningar** > **Status**.
 
 1. (Villkorligt) Om du skapar eller redigerar en status som ska användas i hela systemet måste du se till att **Systemstatus** är markerat i rutan i det övre högra hörnet.
 
-   ![](assets/system-statuses-in-upper-rt-corner.jpg)
+   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    eller
 
@@ -106,7 +114,7 @@ När du skapar en anpassad status för hela organisationen kan du konfigurera de
      </tr> 
      <tr> 
       <td role="rowheader">Dölj status</td> 
-      <td> <p>(Endast projekt- och aktivitetsstatus)</p> <p>Aktivera det här alternativet om du vill att statusen ska vara dold för användarna. När det är inaktiverat (standardinställningen) kan alla användare i systemet använda statusen.</p> <p>Du kan dölja statusen Problem genom att inaktivera alla fyra problemtyperna (Felrapport, Ändra ordning, Problem, Begäran).</p> </td> 
+      <td> <p>(Endast projekt- och aktivitetsstatus)</p> <p>Aktivera det här alternativet om du vill att statusen ska vara dold för användarna. När det här alternativet är inaktiverat (standardinställningen) kan alla användare i systemet använda statusen.</p> <p>Du kan dölja statusen Problem genom att inaktivera det här alternativet för alla fyra problemtyperna (Felrapport, Ändra ordning, Problem, Begäran).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lås för alla grupper</td> 
@@ -115,7 +123,7 @@ När du skapar en anpassad status för hela organisationen kan du konfigurera de
        <p>När en status är olåst kan gruppadministratörer anpassa den för sina enskilda grupper.</p>
 
    <div>
-       <p>Du kan använda både låsta och olåsta lägen i en systemgodkännandeprocess. Om du skapar en systemgodkännandeprocess med en olåst systemstatus kan användare i hela systemet bifoga godkännandeprocessen till vilket projekt, vilken uppgift eller vilken utgåva som helst i systemet.</p>
+       <p>Du kan använda både låsta och olåsta lägen i en systemgodkännandeprocess. Om du skapar en systemgodkännandeprocess med en olåst systemstatus kan användare i hela systemet bifoga godkännandeprocessen till alla projekt, aktiviteter eller utgåvor i systemet.</p>
        <p> I följande scenarier visas varningsmeddelanden som hjälper dig och dina användare att förstå resultaten av upplåsning av en status:</p>
        <ul>
        <li>En administratör låser upp en systemnivåstatus som används i en godkännandeprocess. Ett meddelande varnar som kan ta bort den olåsta statusen för sina grupper, vilket skulle förhindra gruppmedlemmar från att använda godkännandeprocessen korrekt för objekt som tilldelats deras grupp.</li>
