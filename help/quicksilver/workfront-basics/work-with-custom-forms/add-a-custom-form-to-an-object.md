@@ -7,9 +7,9 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Adobe Workfront-licens*</td> 
+  <td role="rowheader">Adobe Workfront-licens</td> 
   <td> <p>Nytt: Medarbetare eller högre </p>
  <p>eller</p> 
 <p>Aktuell: Begäran eller senare </p> 
@@ -57,10 +57,9 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till de objekt som du hanterar anpassade formulär för</p> <p><b>ANMÄRKNING</b></p>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td> <p>Redigera åtkomst till de objekt som du hanterar anpassade formulär för</p>
+    </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Hantera behörigheter för objektet som du vill bifoga ett anpassat formulär för.</p> <p>Visa eller högre behörigheter i det anpassade formuläret, med behörighet att <b>Bifoga till anpassade data</b> objekt (projekt, uppgifter och ärenden). Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett eget formulär</a>.</p> <p>Viktigt: Om du inte har någon planlicens med administrativ åtkomst till Custom Forms måste du ha specifika behörigheter för att åtminstone kunna visa det anpassade formuläret, vilket beskrivs i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett eget formulär</a>. Dessa behörigheter måste beviljas dig även om formuläret är synligt i hela systemet. </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
@@ -68,7 +67,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
