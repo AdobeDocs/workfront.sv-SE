@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Skapa ett korrektur för ett dokument
-description: Du kan generera ett korrektur för ett dokument när du överför det till Workfront.
+description: Du kan generera ett korrektur för ett dokument när du överför det till Workfront. Du kan också generera ett korrektur för ett dokument som redan har överförts till Adobe Workfront eller för en ny version av ett korrektur som redan har överförts till Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -50,13 +50,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Överföra ett dokument och skapa ett korrektur
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa ett nytt korrektur.
 1. Klicka på **Dokument** -fliken.
-1. Klicka på Dokument ![](assets/document-icon.png) i den vänstra panelen.
+1. Klicka på Dokument ![](assets/document-icon.png) till vänster.
 1. Klicka **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
 
    >[!TIP]
@@ -83,9 +83,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan dra och släppa ett dokument från filsystemet (till exempel skrivbordet) för att skapa ett nytt korrektur eller en ny version av ett befintligt korrektur. Korrekturläret innehåller följande inställningar, beroende på om du skapar ett nytt korrektur eller en ny version:
 
-* **Nytt korrektur:** Skapar ett enkelt korrektur som bara delas med dig. Du kan ändra delningsinställningarna när korrekturet har skapats enligt beskrivningen i [Redigera korrekturinställningar](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **Nytt bevis:** Skapar ett enkelt korrektur som bara delas med dig. Du kan ändra delningsinställningarna när korrekturet har skapats enligt beskrivningen i [Redigera korrekturinställningar](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
-* **Ny version av befintligt korrektur:** Skapar en ny version med samma korrekturinställningar som i den tidigare versionen.
+* **Ny version av befintligt bevis:** Skapar en ny version med samma korrekturinställningar som i den tidigare versionen.
 
 Så här använder du dra och släpp för att generera ett nytt korrektur eller en ny korrekturversion:
 
@@ -95,7 +95,7 @@ Så här använder du dra och släpp för att generera ett nytt korrektur eller 
 ## Skapa ett korrektur för ett befintligt dokument
 
 1. Gå till projektet, aktiviteten eller utgåvan där du vill ha korrekturet och klicka sedan på **Dokument** -avsnitt.
-1. Håll muspekaren över dokumentet och klicka sedan på **Skapa korrektur** som visas under dokumentnamnet.
+1. Håll muspekaren över dokumentet och klicka sedan på **Skapa korrektur** länk som visas under dokumentnamnet.
 
    >[!NOTE]
    >

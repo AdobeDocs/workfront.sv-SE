@@ -3,18 +3,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Hantera korrekturroller i [!DNL Workfront Proof]
-description: Korrekturroller gör att du kan bevilja behörigheter till användare som begränsas av den behörighetsprofil som är konfigurerad för deras användarprofil. (Mer information om behörighetsprofiler finns i Proof Permissions Profiles i [!DNL Workfront Proof].)
+description: Korrekturroller gör att du kan bevilja behörigheter till användare som begränsas av den behörighetsprofil som är konfigurerad för deras användarprofil.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
 
 # Hantera korrekturroller i [!DNL Workfront Proof]
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -39,7 +41,7 @@ Följande korrekturroller ges till användare för ett enskilt korrektur när an
 
 Korrekturrollen definierar vilka åtgärder en granskare kan vidta i förhållande till det specifika korrekturet.
 
-Om du till exempel är granskare blir du ombedd att granska korrekturet genom att lägga till markeringar och kommentarer. Om du är granskare och godkännare blir du ombedd att granska och även fatta ett beslut om beviset.
+Om du till exempel är en granskare blir du ombedd att granska korrekturet genom att lägga till markeringar och kommentarer. Om du är granskare och godkännare blir du ombedd att granska och även fatta ett beslut om beviset.
 
 Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (även om deras kontoprofil inte tillåter det) och låter dem använda ytterligare funktioner som att lägga till åtgärder i kommentarer, skapa nya versioner och lägga till fler granskare till korrekturet.
 
@@ -140,7 +142,7 @@ Mer information finns i [Dela mappar i [!DNL Workfront Proof]](../../../workfron
 
 >[!NOTE]
 >
->Den här rollen kan endast tilldelas användare av [!DNL Workfront Proof]
+>Den här rollen kan endast tilldelas användare av [!DNL Workfront Proof].
 
 ### Moderator {#moderator}
 
@@ -177,10 +179,6 @@ Med den här rollen kan man hantera och moderera korrekturkommentarerna, så att
 
 Du kan tilldela korrekturroller när du skapar nya korrektur, skapar nya versioner av befintliga korrektur eller på befintliga korrektur.
 
-* [Nya korrektur](#new-proofs)
-* [Nya versioner](#new-versions)
-* [Befintliga korrektur](#existing-proofs)
-
 ### Nya korrektur {#new-proofs}
 
 Bevisroller kan tilldelas granskare på [!UICONTROL New proof] sida under korrekturframtagningsprocessen (1).
@@ -189,7 +187,7 @@ Bevisroller kan tilldelas granskare på [!UICONTROL New proof] sida under korrek
 
 ### Nya versioner {#new-versions}
 
-När du skapar en ny version av ett korrektur visas granskarna från den tidigare versionen automatiskt (med samma roll som den tidigare versionen).
+När du skapar en ny version av ett korrektur visas granskarna från den tidigare versionen automatiskt (med samma roll som den föregående versionen).
 
 Du kan redigera korrekturrollerna som tillämpas på granskarna när du skapar den nya versionen (1).
 
@@ -197,7 +195,7 @@ Du kan redigera korrekturrollerna som tillämpas på granskarna när du skapar d
 
 ### Befintliga korrektur {#existing-proofs}
 
-Om du vill ändra en persons roll för ett befintligt korrektur kan du göra det på [!UICONTROL Proof details] sida efter infogad redigering av deras roll i arbetsflödesavsnittet (1):
+Om du vill ändra en persons roll för ett befintligt korrektur kan du göra det på [!UICONTROL Proof details] sida vid sida genom att redigera deras roll i arbetsflödesavsnittet (1).
 
 ![Korrektur_roller_-_Korrektur_detaljer_sida_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
 
@@ -219,10 +217,7 @@ Mer information finns i [Personliga inställningar i [!DNL Workfront Proof]](../
 
 ## Skapare och ägare
 
-Skapare och ägare har fullständig redigeringsbehörighet för beviset.
-
-* [Skapare](#creators)
-* [Ägare](#owners)
+Skapare och ägare har fullständig redigeringsbehörighet för korrekturet.
 
 ### Skapare {#creators}
 
@@ -234,7 +229,7 @@ Det går inte att ändra eller ta bort korrekturläsaren från ett korrektur.
 
 ### Ägare {#owners}
 
-Som standard är skaparen också ägare av beviset. Skaparen kan dock göra någon annan till korrekturägare när han eller hon först skapar ett korrektur (på [!UICONTROL New proof] sida).
+Som standard är skaparen även ägare av beviset, men skaparen kan göra någon annan till korrekturägare när han eller hon först skapar beviset (på [!UICONTROL New proof] sida).
 
 Så här ändrar du ägare på sidan Nytt korrektur:
 
@@ -247,25 +242,21 @@ När beviset har skapats går det fortfarande att ändra ägare. Alla som har re
 
 Möjligheten att ändra ägare av ett korrektur är särskilt användbar när det gäller arbetsflödeshantering. Det gör att den person som ansvarar för projektet kan ta över ägarskapet av korrektur och ge dem redigeringsbehörighet för korrektur och möjlighet att visa dem i [!UICONTROL My proofs] vy.
 
-Om du vill ändra ägare för korrekturet via [!UICONTROL Proof details] sida:
+Om du vill ändra ägaren av korrekturet via [!UICONTROL Proof details] sida:
 
-* Klicka på Åtgärder-menyn bredvid namnet på den person som du vill göra ägare
-* Välj [!UICONTROL Make owner] i listrutan.
-* Du kan även klicka på [!UICONTROL Owner] bredvid korrekturbilden och välj den nya ägaren i listrutan.
+* Klicka på Åtgärder-menyn bredvid namnet på den person som du vill göra ägare.
+* Välj [!UICONTROL **Skapa ägare**] i listrutan.
+* Du kan även klicka på [!UICONTROL **Ägare**] bredvid korrekturbilden och välj den nya ägaren i listrutan.
 
 När detta är klart visas ordet &quot;Ägare&quot; bredvid den personens namn.
 
 >[!NOTE]
 >
->Endast en användare från samma konto eller ett partnerkonto kan göras ägare av ett bevis. En användare på ett partnerkonto kan endast göras ägare av ett bevis när:
+>Endast en användare från samma konto eller ett partnerkonto kan göras ägare av ett bevis. En användare på ett partnerkonto kan endast göras till ägare av ett bevis när:
 >
 >* Det finns en befintlig partnerrelation mellan kontona. Mer information finns i [Partnerkonton i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md).
 >* Det finns inga anpassade fält på [!UICONTROL New proof] sida.
 >* Korrektet har inte tilldelats någon mapp.
 >* Inga taggar har lagts till i korrekturet.
->
-
-
-
 
 Tillfälligt delegera korrekturägarskap inom [!DNL Workfront Proof], se [Ange tillfälliga korrekturägare i [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).

@@ -6,7 +6,7 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
 source-wordcount: '2450'
 ht-degree: 0%
@@ -55,11 +55,11 @@ eller
 
 Om du vill redigera ett filter i en rapport måste du ha följande licens:
 
-<p>Nytt: Planera</p>
+<p>Nytt: Standard</p>
 
 eller
 
-<p>Aktuell: Standard</p>
+<p>Aktuell: Planera</p>
 
 </td> 
   </tr> 
