@@ -4,7 +4,7 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nu används metadata i Experience Manager Assets Essentials <code>xcm:keywords</code> i stället för <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har uppdaterat integreringen av Experience Manager Assets Essentials för att matcha upplevelsen av Experience Manager Assets as a Cloud Service integrering. När du mappar flera enkelradiga textfält till ett enda fält i Experience Manager Assets använder båda tjänsterna nu <code>xcm:keywords</code> fält.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Nu används metadata i Experience Manager Assets Essentials <code>xcm:keywords</code> i stället för <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har uppdaterat integreringen av Experience Manager Assets Essentials för att matcha upplevelsen av Experience Manager Assets as a Cloud Service integrering. När du mappar flera enkelradiga textfält till ett enda fält i Experience Manager Assets använder båda tjänsterna nu <code>xcm:keywords</code> fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
