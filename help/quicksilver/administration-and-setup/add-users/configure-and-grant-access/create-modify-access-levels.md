@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr> 
      <tr> 
       <td role="rowheader">Visa endast företag, grupper och team som de tillhör</td> 
-      <td>Tillåter användare att endast visa och dela objekt med företag, grupper och team som de tillhör.</td> 
+      <td>Tillåter användare att endast visa och dela objekt med företag, grupper och team som de tillhör.<p><strong>ANMÄRKNING</strong>: Användare med beställarlicenser kan inte visa företag som de inte tillhör, även om det här alternativet har valts.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt aldrig synlighet för planerade timmar eller faktiska timmar</td> 
