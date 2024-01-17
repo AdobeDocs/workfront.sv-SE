@@ -4,20 +4,18 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
+source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Första utgåvan, kvartal 2024, översikt
 
-Den här sidan innehåller information om de funktioner som ingår i den första utgåvan av kvartal 2024 som är planerad till veckan den 15 januari 2024.
+Den här sidan innehåller information om de funktioner som ingår i den första utgåvan av kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön för alla kunder med 24.1-utgåvan den 18 och 19 januari 2024.
 
-Förbättringarna på den här sidan är tillgängliga i förhandsvisningsmiljön. Den här sidan kommer att uppdateras med ytterligare förbättringar eftersom den första utgåvan av kvartal 2024 närmar sig den planerade produktionsutgåvan.
-
-Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera dig för webbinariet här](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+24.1-utgåvan av webbinariet var den 11 januari 2024. Du kan [registrera dig för webbinariet för att visa en on-demand-inspelning här](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Funktioner utanför cykeln (de som lanserades till Production före första utgåvan av kvartal 2024) markeras med gult.</span>
 
@@ -352,9 +350,10 @@ Webbseminariet 24.1 kommer att hållas den 11 januari 2024. Du kan [registrera d
                         <ul>
                             <li>
                                 <p>Förhandsversion: 21 december 2023</p>
+                                <p>Obs! Den här funktionen kommer att finnas kvar i förhandsgranskningen till version 24.4.</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.1</p>
+                                <p>Produktion för snabb lansering: Med version 24.2 (februari 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för alla kunder: Med version 24.4 (april 2024)</p>

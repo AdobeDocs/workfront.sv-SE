@@ -3,9 +3,9 @@ title: Förbättringar av projekt för första kvartalet 2024
 description: Förbättringar av projekt för första kvartalet 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Produktion för snabb lansering: Med version 24.1, produktion för alla kunder: Med version 24.4 (april 2024)
+>Produktion för snabb lansering: Med version 24.2 (februari 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
 
 Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.
 
