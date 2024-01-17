@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ I följande tabell visas likheter och skillnader mellan tabell- och tidslinjevye
 | Kopiera rader från en extern lista och klistra in dem i en tabell | ✓ |               |
 | Visa poster på en tidslinje |            | ✓ |
 | Filtrera poster | ✓ | ✓ |
-| Gruppposter |           | ✓ |
+| Gruppposter | ✓ | ✓ |
 | Sortera poster | ✓ |              |
 | Färgkodsposter |           | ✓ |
 | Färgkodsgrupperingar |           | ✓ |
-| Sök poster | ✓ | ✓ |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| Sök efter specifika poster | ✓ | ✓ |
+| Dela vy | ✓ | ✓ |
+| Öppna postens informationssida från vyn | ✓ | ✓ |
 
 ## Skapa eller redigera vyer {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
    Som standard får vyn namnet &quot;Tabell &lt; nummer >&quot; eller &quot;Tidslinje &lt; nummer >&quot;. Talet är ett automatiskt genererat steg.
 
 1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på **Mer** meny ![](assets/more-menu.png) > **Byt namn** för att uppdatera vynamnet. <!--ensure there is not another saving step here?!-->
-1. (Valfritt) Mer information finns i följande artiklar om du vill hantera en vy:
+1. (Valfritt) Mer information om hur du hanterar en viss typ av vy finns i följande artiklar:
 
    * [Hantera tabellvyn](../views/manage-the-table-view.md)
    * [Hantera tidslinjevyn](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## Ta bort vyer
 
@@ -202,6 +197,7 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
 Mer information om att dela vyer finns i [Visa](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 

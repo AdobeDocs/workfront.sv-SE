@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
 >
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+>Mer information finns i [Adobe Maestro - översikt](/help/quicksilver/maestro/maestro-overview.md).
 
 Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Maestro.
 
@@ -129,7 +129,12 @@ Så här hanterar du en tidslinjevy:
 
    ![](assets/timeline-view-example.png)
 
-   Posterna som är associerade med den posttyp du valde visas som staplar på en tidslinje och sorteras i kronologisk ordning som standard.
+   Posterna som är associerade med den posttyp du valde visas som staplar på en tidslinje och sorteras som standard i kronologisk ordning efter startdatum.
+
+   >[!TIP]
+   >
+   >    Sorteringen av posterna på tidslinjen är inte synlig i den komprimerade vyn.
+
 
 1. Navigera genom tidslinjen på något av följande sätt:
 
@@ -165,8 +170,8 @@ Så här hanterar du en tidslinjevy:
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)
    * [Gruppering](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
    * [Inställningar](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Lägg till filter
 

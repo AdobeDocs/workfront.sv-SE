@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 0%
 
 ---
@@ -204,7 +204,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
       Du kan inte använda nyckelord som är kopplade till fält som är dolda i tabellvyn.
 
-   1. Tryck på Retur på tangentbordet för att gå till nästa sökbara fält.
+   1. Tryck **Retur** på tangentbordet för att gå till nästa sökbara fält.
 
    1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
 
@@ -279,7 +279,7 @@ Så här lägger du till ett filter i en tabellvy:
         </thead>
         <tbody>
         <tr>
-            <td>Enkelrad, stycke </td>
+            <td>Enkelrad, Stycke, Formel </td>
             <td><p>Innehåller</p>
             <p>Innehåller inte</p>
             <p>Är</p>
@@ -296,7 +296,7 @@ Så här lägger du till ett filter i en tabellvy:
             <p>Är inte tom</p></td>
         </tr>
         <tr>
-            <td>Flera val</td>
+            <td>Flera val, personer</td>
             <td><p>Har någon av</p>
             <p>Har alla</p>
             <p>Är exakt</p>
@@ -305,7 +305,7 @@ Så här lägger du till ett filter i en tabellvy:
             <p>Är inte tom</p></td>
         </tr>
         <tr>
-            <td>Numeriskt, procenttal, valuta</td>
+            <td>Antal, Procentandel, Valuta</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
 1. (Valfritt) Gör något av följande om du vill bifoga en bild till uppdateringen:
 
-   * <span class="preview">Spara bilden på datorn och dra och släpp den i området Ny kommentar.</span>
-     <span class="preview">Detta är inte tillgängligt i produktionsmiljön för den nya kommentarsfunktionen. Det går att dra och släppa en bild i en kommentar i den gamla kommentarsfunktionen i Production. </span>
-
-   * <span class="preview">Kopiera en skärmbild från datorn och klistra sedan in den i kommentaren </span>
+   * Spara bilden på datorn och dra och släpp den i området Ny kommentar.
+   * Kopiera en skärmbild från datorn och klistra sedan in den i kommentaren. Detta är inte tillgängligt i den gamla kommentarsfunktionen.
    * Klicka på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
 
 
@@ -392,7 +390,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Din Workfront-administratör måste aktivera tillägg av bilder i avsnittet Inställningar för uppdatering av feeds i Workfront-gränssnittsområdet innan du kan se ikonerna för bilden eller Lägg till bilaga. Mer information finns i [Konfigurera inställningar för användaruppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Största bildfilsstorlek är 7 MB. Bildfiltyper som stöds är .jpg, .gif och .png.
    >* Bilder är tillgängliga från uppdateringsavsnittet för ett objekt och är även tillgängliga i området Dokument under huvudmenyn.
-   >* <span class="preview">Du kan klistra in bilden genom att högerklicka i den nya kommentaren eller genom att trycka på CTRL + V för Windows (eller CMD + V för Mac) på tangentbordet.</span>
+   >* Du kan klistra in bilden genom att högerklicka i den nya kommentaren eller genom att trycka på CTRL + V för Windows (eller Δ+ V för Mac) på tangentbordet.
    >* Du kan skicka en uppdatering med en bild och utan text.
    >* När du tar bort en kommentar som innehåller en bild, finns följande scenarier beroende på vilken upplevelse du väljer:
    >
@@ -404,12 +402,10 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
 1. (Valfritt) Gör något av följande om du vill visa en bild i den befintliga uppdateringen:
 
-   * Klicka på **Förhandsgranska** icon <span class="preview">![](assets/previewimageicon-31x31.png)</span> på miniatyrbilden för att öppna bilden i full storlek på en ny flik i webbläsaren.
+   * Klicka på **Förhandsgranska** icon ![](assets/previewimageicon-31x31.png) på miniatyrbilden för att öppna bilden i full storlek på en ny flik i webbläsaren.
    * Klicka på **Ladda ned** icon ![](assets/downloadimageicon.png) på miniatyrbilden för att hämta bilden.
 
 1. Klicka **Skicka** för att lägga till din kommentar.
-
-<div class="preview">
 
 ## Söka efter en uppdatering
 
@@ -422,7 +418,11 @@ Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett 
 1. Gå till **Uppdateringar** del av ett objekt.
 1. Börja skriva ett nyckelord <!--or a user's name --> i **Sök** i det övre högra hörnet av **Kommentar** -fliken.
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   Du kan bara söka efter ord som tillhör texten i en kommentar eller ett svar. Du kan inte söka efter namn på användare eller team som taggats i en uppdatering.
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett 
    Workfront söker igenom hela objektets uppdateringsström, utanför kommentarerna som visas på skärmen.
 
 1. Klicka på **x** -ikonen i sökfältet för att rensa sökresultaten och återgå till alla kommentarer.
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

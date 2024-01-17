@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,11 @@ Här följer några av huvudfunktionerna i Maestro:
 * Anpassa arbetsflödena helt och hållet, från att bestämma vilka objekttyper (eller posttyper) organisationen använder till att konfigurera hur dessa objekt länkar till varandra.
 * Länka till objekttyper från andra system och skapa ett sammanhängande ramverk för alla era processer.
 
-## Aktuella funktioner i Maestro
+## Maestro-funktioner
 
 I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Maestro och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
+
+Information om nya funktioner och när de släpps finns på [Aktivitet för lansering av Maestro](/help/quicksilver/maestro/release-activity.md).
 
 | Funktion | Ute nu | Tillgänglig snart | Forskning |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
 * **Länkade fält** (eller sökfält): När du har upprättat anslutningen mellan två posttyper och länkar samman enskilda poster kan du referera till de länkade posternas fält i den post du ansluter från.
 
+  Om du till exempel ansluter en Maestro-kampanj till ett Workfront-projekt kan du visa fältet Projektägare för sammankopplade projekt på Maestro-kampanjposterna.
+
   ![](assets/add-lookup-fields-modal.png)
 
   Mer information om hur du länkar posttyper, poster och skapar länkade fält finns i följande artiklar:
@@ -268,7 +272,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Maestr
 
 ## Hitta maestro
 
-Kontrollera att din organisation har fått tillgång till Maestro och att din system- eller gruppadministratör har lagt till Maestro-området på huvudmenyn.
+Kontrollera att din organisation har fått tillgång till Maestro och att din system- eller gruppadministratör har lagt till Maestro-området på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md) .
 
 Så här hittar du Maestro:
 
