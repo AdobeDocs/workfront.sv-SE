@@ -3,12 +3,12 @@ product-area: calendars;setup
 navigation-topic: use-the-home-area
 title: Konfigurera visningsinställningar för hemkalendern
 description: Du kan konfigurera inställningarna för hemkalendern så att de integreras med en webbaserad version av Outlook och hjälpa dig att spåra arbetsbelastningen utifrån de tillgängliga arbetstiderna.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
 
 ## Om integrering [!DNL Microsoft Outlook] kalendrar
 
@@ -51,12 +51,12 @@ Tänk på följande när du konfigurerar din hemkalender med [!DNL Microsoft Out
 
 * Du kan bara integrera en webbaserad version av [!DNL Outlook] i molnet [!DNL Office 365] eller [!DNL Outlook Live].
 
-   Lokalt [!DNL Outlook] och [!DNL Outlook] på ett molnbaserat företag [!DNL Exchange] servern stöds inte.
+  Lokalt [!DNL Outlook] och [!DNL Outlook] på ett molnbaserat företag [!DNL Exchange] servern stöds inte.
 
-   Om din organisation använder enkel inloggning behöver du [!DNL Microsoft 365 E3] eller [!DNL E5].
+  Om din organisation använder enkel inloggning behöver du [!DNL Microsoft 365 E3] eller [!DNL E5].
 
 * Bifogade filer som är kopplade till din [!DNL Outlook] händelser är inte kopplade till [!DNL Outlook] händelser i din hemkalender.
-* Integrering med en [!DNL Outlook] kalendern måste fyllas i för varje enskild användare.
+* Integration med en [!DNL Outlook] kalendern måste fyllas i för varje enskild användare.
 * Händelser som visas i [!UICONTROL Due] -fältet visas inte på [!DNL Microsoft] om du inte har dragit dem från [!UICONTROL Work List] till [!DNL Adobe Workfront] Kalender. Mer information finns i [[!UICONTROL Due] bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) och [Arbetslista på [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [[!UICONTROL Home Calendar] visa](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 * När du aktiverar integreringen med [!DNL Outlook], arbetar bara objekt som dras till [!UICONTROL Home Calendar] från och med den tidpunkten synkroniseras. Objekt som fanns på hemkalendern innan integreringen aktiverades visas inte, och du måste dra dem till hemkalendern igen om du vill att de ska visas i [!DNL Outlook].
@@ -71,7 +71,7 @@ Tänk på följande när du konfigurerar din hemkalender med [!DNL Microsoft Out
 
 1. I [!UICONTROL Home Calendar] visa klickar du på **[!UICONTROL Settings]** kugghjulsikon ![Calendar_Settings_istället_icon.png](assets/calendar-settings-gear-icon.png) i det övre högra hörnet för att öppna **[!UICONTROL Calendar settings]** till höger i fönstret.
 
-   Om du behöver information om hur du använder [!UICONTROL Home Calendar] visa, se [Visa [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+   Om du behöver information om hur du använder [!UICONTROL Home Calendar] se [Visa [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
 1. (Valfritt) För att integrera [!DNL Microsoft Outlook] kalender, klicka på **[!UICONTROL Add account]** i det övre högra hörnet av **[!UICONTROL Calendar settings]** -panelen. Om du blir ombedd att göra det anger du [!DNL Microsoft Outlook] inloggningsinformation. Du kan upprepa det här steget om du vill lägga till flera [!DNL Outlook] konton.
 
@@ -85,9 +85,9 @@ Tänk på följande när du konfigurerar din hemkalender med [!DNL Microsoft Out
 1. (Valfritt) Under varje [!DNL Microsoft] konto som du har lagt till i föregående steg, välj **[!UICONTROL View]** eller **[!UICONTROL Sync]**:
 
    * **[!UICONTROL View]**: Det här är ett skrivskyddat alternativ som visas [!DNL Microsoft] kalenderhändelser på [!UICONTROL Home Calendar].
-   * **[!UICONTROL Sync]**: Det här alternativet möjliggör tvåvägssynkronisering mellan [!DNL Microsoft] och [!UICONTROL Home] kalendrar. Med andra ord: [!DNL Workfront] [!UICONTROL Home Calendar] objekt exporteras till [!DNL Microsoft] kalender och [!DNL Microsoft] kalenderobjekt som importeras till din Workfront [!UICONTROL Home Calendar] i realtid.
+   * **[!UICONTROL Sync]**: Det här alternativet tillåter en tvåvägssynkronisering mellan [!DNL Microsoft] och [!UICONTROL Home] kalendrar. Med andra ord: [!DNL Workfront] [!UICONTROL Home Calendar] objekt exporteras till [!DNL Microsoft] kalender och [!DNL Microsoft] kalenderobjekt som importeras till din Workfront [!UICONTROL Home Calendar] i realtid.
 
-      ![](assets/view-sync-checkboxes-qs.png)
+     ![](assets/view-sync-checkboxes-qs.png)
 
 1. (Valfritt) Under [!DNL Workfront] eller ett integrerat konto väljer du de associerade kalendrar som du vill visa på din [!UICONTROL Home Calendar] (till exempel din PTO-, Birthdays- eller Holidays-kalender) och klicka sedan på webbläsarens [!UICONTROL Refresh] eller [!UICONTROL Reload] för att se ändringarna.
 
@@ -95,11 +95,11 @@ Tänk på följande när du konfigurerar din hemkalender med [!DNL Microsoft Out
 
 1. Konfigurera följande alternativ:
 
-   * **[!UICONTROL My Work Days]:** Välj de dagar du arbetar.
+   * **[!UICONTROL My Work Days]:** Välj vilka dagar du ska arbeta.
    * **[!UICONTROL My Usual Start Time]:** Välj den tidpunkt då du börjar din arbetsdag.
-   * **[!UICONTROL My Usual End Time]:** Välj den tid du vill avsluta arbetsdagen.
+   * **[!UICONTROL My Usual End Time]:** Välj den tid du vill avsluta din arbetsdag.
 
-   [!DNL Workfront] använder de här tre inställningarna för att beräkna hur många timmar du arbetar under en vecka. Detta nummer påverkar [!UICONTROL Allocation] bar, som hjälper dig att spåra arbetsbelastningen mot dina tillgängliga arbetstimmar. Mer information finns i [[!UICONTROL Allocation] bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) i artikeln [[!UICONTROL Home Calendar] visa](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+   [!DNL Workfront] använder de här tre inställningarna för att beräkna hur många timmar du arbetar under en vecka. Det här numret påverkar [!UICONTROL Allocation] bar, som hjälper dig att spåra arbetsbelastningen mot dina tillgängliga arbetstimmar. Mer information finns i [[!UICONTROL Allocation] bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) i artikeln [[!UICONTROL Home Calendar] visa](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 1. Klicka utanför **[!UICONTROL Calendar settings]** för att stänga den.
 

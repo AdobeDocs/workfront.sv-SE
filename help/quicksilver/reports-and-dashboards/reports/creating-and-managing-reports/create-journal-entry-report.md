@@ -1,13 +1,13 @@
 ---
 title: Rapport om uppdateringsområdet
-description: Rapport om uppdateringsområdet
+description: Journalanmälningsrapporten innehåller systemuppdateringar från uppdateringsområdet för projekt, uppgifter, utgåvor och andra objekt som tidigare bara var tillgängliga via Adobe Workfront API. Även om det här är en avancerad rapport som är avsedd för specifika användningsområden, är det lättare för dig att rapportera om projektaktiviteter och systemuppdateringar i Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2745'
 ht-degree: 0%
 
 ---
@@ -38,25 +38,25 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard </p><p>eller </p><p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter för de objekt som innehåller journalposterna som du visar i rapporten</p> <p>När du har skapat rapporten får du behörigheten Hantera</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter för de objekt som innehåller journalposterna som du visar i rapporten</p> <p>När du har skapat rapporten får du behörigheten Hantera</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -68,7 +68,7 @@ Innan du kan utföra de åtgärder som beskrivs i den här artikeln måste du ko
 
 * Alla anpassade fält som du vill rapportera om har inställningen **Visa fältändringar i uppdateringsflöden** aktiverat.
 
-  Mer information om hur du aktiverar den här inställningen för ett anpassat fält finns i avsnittet [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Mer information om hur du aktiverar den här inställningen för ett anpassat fält finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Översikt över journaltrans.
 
@@ -127,7 +127,7 @@ Standardvyn för den här rapporten innehåller följande kolumner:
  </tbody> 
 </table>
 
-Om du vill ordna informationen i den här rapporten kan du använda det inbyggda grupperingsprojektet. Projektgrupperingen ger dig en primär gruppering av projektnamn och en sekundär gruppering av anmälningsdatum. Du kan använda den här befintliga grupperingen när du skapar en rapport eller använda den när du visar rapporten.
+Om du vill ordna informationen i den här rapporten kan du använda den inbyggda grupperingen Projekt. Projektgrupperingen ger dig en primär gruppering av projektnamn och en sekundär gruppering av anmälningsdatum. Du kan använda den här befintliga grupperingen när du skapar en rapport eller använda den när du visar rapporten.
 
 Mer information om hur du ställer in vyer, filter och grupperingar för rapporten finns i relevanta avsnitt:
 
@@ -167,7 +167,7 @@ Den här informationen kan användas för att hjälpa till med revision och för
 >Om du vill jämföra skillnaden i dagar mellan villkorsändringar kan du använda Förbättrad analys.\
 >Mer information om förbättrade analyser finns i [Förbättrad analys - översikt](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ Du kan ställa in journalpostrapporten så att den visar:
 
 Så här ser du när en uppgift eller ett problem togs bort:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ Så här ser du när en uppgift eller ett problem togs bort:
 
    Mer information om hur du lägger till kolumner finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. I **Filter** flik, klicka **Lägg till filterregel** lägger du sedan till följande:
+1. I **Filter** flik, klicka **Lägg till filterregel** lägger du sedan till följande filter:
 
    * **Ändra typ** > **Jämn** > **Ta bort**
    * **Projekt-ID** > **Jämn** > **`<project>`**
@@ -365,7 +365,7 @@ Du kan spåra viktiga fältändringar under projektets gång. Du kan ställa in 
 
 Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
    Mer information om hur du lägger till kolumner finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. I **Filter** flik, klicka **Lägg till filterregel** lägger du sedan till följande:
+1. I **Filter** flik, klicka **Lägg till filterregel** lägger du sedan till följande filter:
 
    * **Fältnamn för journalpost** > **Innehåller** > **DE**
 
@@ -467,7 +467,7 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
 Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planerade slutförandedatumet ändras under ett projekts livstid.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
 
 Du kan ställa in journalanmälningsrapporten för att visa hur många gånger projektägaren, eller projektledaren, ändras under ett projekts livslängd.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapporter**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka **Ny rapport** väljer **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)

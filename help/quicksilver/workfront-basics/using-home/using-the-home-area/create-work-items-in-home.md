@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Skapa arbetsobjekt från startdelen
-description: Skapa arbetsobjekt från startdelen
-author: Lisa
+description: Du kan skapa arbetsobjekt från [!UICONTROL Home] område. Du kan skapa personliga uppgifter för dig själv, begära arbete från andra användare eller lägga till uppgifter i specifika projekt.
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan skapa en personlig uppgift som bara är tillgänglig för dig i [!UICONTROL Home] område:
 
 1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. Klicka på **[!UICONTROL New Task]** > **[!UICONTROL Personal]**.
+1. Klicka **[!UICONTROL New Task]** > **[!UICONTROL Personal]**.
 
    ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
 

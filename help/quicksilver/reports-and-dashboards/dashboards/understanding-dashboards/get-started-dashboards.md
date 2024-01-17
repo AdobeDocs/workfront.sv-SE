@@ -7,14 +7,16 @@ description: Syftet med en kontrollpanel är att ge snabb åtkomst till informat
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
 
 # Kom igång med instrumentpaneler
+
+<!-- Audited: 1/2024 -->
 
 Syftet med en kontrollpanel är att ge snabb åtkomst till information som kommer från flera rapporter. Först kan du samla information i rapporter och sedan montera flera rapporter på kontrollpaneler för att göra informationen enklare att komma åt.
 
@@ -29,25 +31,25 @@ Du måste ha följande:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-plan*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront</strong></p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-licens*</strong></p> </td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td> <p><strong>Adobe Workfront-licens</strong></p> </td> 
+   <td> <p>Nytt: Medarbetare eller högre</p><p>eller</p><p>Aktuell: Granska eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Åtkomstnivå*</strong> </td> 
-   <td> <p>Visa eller öka åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><strong>Åtkomstnivå</strong> </td> 
+   <td> <p>Visa eller öka åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>Visa behörigheter på kontrollpanelen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.<br>Mer information om behörigheter för kontrollpaneler finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Dela rapporter, kontrollpaneler och kalendrar </a>.</p> </td> 
+   <td> <p>Visa behörigheter på kontrollpanelen</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objekt som du kan lägga till på en kontrollpanel
 
@@ -80,12 +82,12 @@ Du kan dela en kontrollpanel med användarna på följande sätt:
 * Skriv ut en papperskopia av dem som du vill dela med användarna.\
   Mer information om hur du skriver ut kontrollpaneler finns i [Skriva ut en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Exportera dem som en .pdf-fil så att du kan skicka dem via e-post till användarna.\
+* Exportera dem som en PDF-fil så att du kan skicka dem till användare via e-post.\
   Mer information om hur du exporterar en kontrollpanel till en PDF-fil finns i [Exportera en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 När du delar en kontrollpanel med användare delas även alla rapporter, kalendrar och externa sidor som finns på kontrollpanelen med samma användare som standard.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Om en användare tas bort är de instrumentpaneler som de har skapat inte längre tillgängliga. Mer information finns på [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -93,14 +95,14 @@ När du delar en kontrollpanel med användare delas även alla rapporter, kalend
 
 Du kan visa en kontrollpanel på följande sätt:
 
-* Öppna avsnittet som det är placerat i och instrumentpanelen som är placerad i avsnittet visas.\
+* Gå till det anpassade avsnittet där kontrollpanelen är placerad.\
   Mer information om hur du placerar kontrollpaneler i anpassade avsnitt finns i [Navigering till vänster i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Sök efter den och få tillgång till den manuellt när du hittar den.
+* Sök efter och få tillgång till kontrollpanelen manuellt.
 
 ## Åtkomst till en kontrollpanel
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png)och sedan klicka **Kontrollpaneler**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
 1. Håll pekaren över den vänstra sidlisten och välj sedan något av följande:
 
    * **Mina instrumentpaneler**: De instrumentpaneler du har skapat visas här.
@@ -110,7 +112,7 @@ Du kan visa en kontrollpanel på följande sätt:
      >Om du inte har Redigera-åtkomst till rapporter, instrumentpaneler och kalendrar på åtkomstnivån kan du inte skapa instrumentpaneler. I det här fallet är listan Mina instrumentpaneler tom.
 
    * **Delade instrumentpaneler**: Kontrollpaneler som har skapats av andra användare och delats med dig visas här.
-   * **Alla instrumentpaneler**: Här visas både dina och andra användares kontrollpaneler som delas med dig.
+   * **Alla instrumentpaneler**: Här visas både dina instrumentpaneler och instrumentpaneler som andra användare har delat med dig.
 
    ![Kontrollpaneler](assets/dashboards-area.png)
 
