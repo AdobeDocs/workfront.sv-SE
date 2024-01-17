@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Översikt över tilldelning av arbete i belastningsutjämnaren
 description: Som resurshanterare kan du använda Adobe Workfront Workload Balancer för att visa arbetsobjekt som ännu inte har tilldelats användare samt tilldela dem dessa objekt.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%

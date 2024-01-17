@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren
-description: Om du inte har rätt behörighet eller behörighet kanske du inte kan visa eller hantera dina arbetstilldelningar i Arbetsbelastningsbalanseraren.
-author: Alina
+description: Utan rätt åtkomst eller behörigheter kanske du inte kan visa eller hantera dina arbetstilldelningar i Utjämning av arbetsbelastning.
+author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

@@ -3,11 +3,11 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Tilldela arbete manuellt med hjälp av Utjämning av arbetsbelastning
 description: Du kan tilldela arbetsobjekt till användare manuellt med hjälp av Adobe Workfront Workload Balancer.
-author: Alina
+author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
      Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Valfritt) Klicka på **Ikonen Visa allokeringar** ![](assets/show-allocations-icon-small.png)klickar du på **Menyn Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
+1. (Valfritt) Klicka på **Ikonen Visa allokeringar** ![](assets/show-allocations-icon-small.png)och klickar sedan på **Menyn Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
 
    eller
 

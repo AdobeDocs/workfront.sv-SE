@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: b5e0a590d258df4510a0bb6a44b57099f32ae6b9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Översikt över grupper
+
+<!-- Audited: 01/2024 -->
 
 En Workfront-administratör kan skapa användargrupper som sammanfaller med avdelningsstrukturen. Grupper liknar, men skiljer sig från, team och företag.
 
@@ -28,7 +30,7 @@ Du kan skapa upp till 14 nivåer med undergrupper under en grupp. Mer informatio
 
 ## Organisera användare med grupper
 
-Som Workfront-administratör eller gruppadministratör kan du associera användare med grupper och undergrupper. Om du gör en grupp offentlig kan användare med en planeringslicens associera användare med den. Mer information om gruppadministratörer och offentliga grupper finns i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Som Workfront-administratör eller gruppadministratör kan du associera användare med grupper och undergrupper. Om du gör en grupp offentlig kan användare med en Standard- (ny) eller Plan-licens (aktuell) associera användare med den. Mer information om gruppadministratörer och offentliga grupper finns i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 När du skapar en användare rekommenderar vi att du lägger till användaren i rätt hemgrupp och andra grupper som användaren ska arbeta i. En användare kan bara ha en hemgrupp, men kan finnas i flera andra grupper.
 

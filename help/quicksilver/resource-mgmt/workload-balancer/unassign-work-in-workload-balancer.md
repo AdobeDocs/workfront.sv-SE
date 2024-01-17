@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Ta bort tilldelning av arbete i belastningsutjämnaren
 description: Du kan ta bort tilldelning av användare från arbetsobjekt på arbetsytan Tilldelad arbetsyta i Adobe Workfront Workload Balancer eller tilldela om dem till andra användare, roller eller team.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -73,9 +73,10 @@ Så här tar du bort tilldelning av arbetsobjekt från användare:
 1. Gör något av följande:
 
    * Hitta det objekt som du vill ta bort tilldelning för i en användares område, klicka på det och dra och släpp det i området Ej tilldelat eller i en annan användares område.
-   * Klicka på **Mer** icon ![](assets/more-icon-task-list.png) till höger om namnet på en arbetsuppgift klickar du på **Tilldela detta till** tar du sedan bort namnet på enheterna som tilldelats arbetsuppgiften eller anger ett annat namn och klickar på **Spara**.
+   * Klicka på **Mer** icon ![](assets/more-icon-task-list.png) till höger om namnet på en arbetsuppgift klickar du på **Tilldela detta till** tar du sedan bort namnet på enheterna som är tilldelade arbetsuppgiften eller anger ett annat namn och klickar på **Spara**.
 
-      ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+
    Objektet visas i området Ej tilldelat arbete om det matchar filtervillkoren för det området och inte har tilldelats någon annan användare, eller om det har tilldelats en annan användare i användarområdet.
 
    Mer information om filtrering av information i Utjämning av arbetsbelastning finns i [Filtrera information i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

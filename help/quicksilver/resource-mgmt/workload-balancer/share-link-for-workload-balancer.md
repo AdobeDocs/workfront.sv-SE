@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Dela arbetsbelastningsutjämnaren med en länk
 description: Du kan dela belastningsutjämnaren med andra användare som kanske inte har resursområdet tillgängligt. Mer information om hur du använder arbetsbelastningsutjämnaren finns i Navigera i Arbetsbelastningsutjämnaren.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -63,9 +63,9 @@ När du delar en länk till belastningsutjämnaren för arbetsbelastning med and
 * Projekt, uppgift, användarinformation. Detta inkluderar information om användarallokering.
 * Informationen visas enligt det valda filtret.
 
-   >[!IMPORTANT]
-   >
-   >Om du tar bort filtren när du har delat länken får användarna som visar arbetsbelastningsutjämnaren från länken en varning om att filtren har tagits bort. De visar alla användare på den tilldelade arbetsytan. Det här är standardvyn för Utjämning av arbetsbelastning.
+  >[!IMPORTANT]
+  >
+  >Om du tar bort filtren när du har delat länken får användarna som visar arbetsbelastningsutjämnaren från länken en varning om att filtren har tagits bort. De visar alla användare på den tilldelade arbetsytan. Det här är standardvyn för Utjämning av arbetsbelastning.
 
 * Antalet veckor som tidigare valts.
 
@@ -81,11 +81,11 @@ Följande alternativ är tillgängliga för användare som visar arbetsbelastnin
 * Ikonen Inställningar
 * Ikonen Visa allokeringar
 
-   Mer information om hur du använder dessa alternativ finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Mer information om hur du använder dessa alternativ finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * Ikonen Visa rollallokeringar
 
-   Det här är bara tillgängligt för arbetsbelastningsutjämnaren för ett projekt.
+  Det här är bara tillgängligt för arbetsbelastningsutjämnaren för ett projekt.
 
 Användaren som tar emot den delade länken kan inte göra följande i arbetsbelastningsutjämnaren via den här länken:
 
@@ -98,7 +98,7 @@ Användaren som tar emot den delade länken kan inte göra följande i arbetsbel
 Du behöver följande åtkomst för att visa information i arbetsbelastningsutjämnaren från en delad länk:
 
 * En giltig Adobe Workfront-licens och du måste vara inloggad på Workfront.
-* Visa minst åtkomst till resurshantering på din åtkomstnivå. Information om hur du beviljar åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Visa minst åtkomst till resurshantering på din åtkomstnivå. Mer information om hur du beviljar åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 * Visa behörigheter för de projekt, uppgifter, utgåvor och användare som visas i Utjämning av arbetsbelastning.
 
 ## Dela arbetsbelastningsutjämnaren med andra användare från en länk
@@ -112,11 +112,11 @@ Du behöver följande åtkomst för att visa information i arbetsbelastningsutj�
    * Uppdatera valet av tidsperiod.
    * Klicka **Dag, vecka**, eller **Månad** för att visa information varje dag, vecka eller månad.
 
-      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+     ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * Använd filter på områdena Ej tilldelat och Tilldelat arbete.
 
-      Mer information om filtrering av information i Utjämning av arbetsbelastning finns i [Filtrera information i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Mer information om filtrering av information i Utjämning av arbetsbelastning finns i [Filtrera information i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 1. Klicka på **länkikon** ![](assets/wb-shearable-link-icon-small.png).
 
@@ -127,8 +127,8 @@ Du behöver följande åtkomst för att visa information i arbetsbelastningsutj�
    * Klistra in den i ett e-postmeddelande, chattmeddelande eller något annat program och dela den med andra användare.
    * Lägg till den i ett anpassat avsnitt som en extern sida, lägg till det anpassade avsnittet i en användarprofil eller i en layoutmall och dela sedan layoutmallen med användare, team, jobbroller eller grupper.
 
-      Mer information om hur du skapar en extern sida finns i [Bädda in en extern webbsida i en instrumentpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Mer information om hur du lägger till anpassade avsnitt i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Mer information om hur du skapar en extern sida finns i [Bädda in en extern webbsida i en instrumentpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Mer information om hur du lägger till anpassade avsnitt i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
-      >[!IMPORTANT]
-      >
-      >När du lägger till belastningsutjämnaren för arbetsbelastning i ett objekts anpassade avsnitt filtreras inte informationen i belastningsutjämnaren av objektet. I Utjämning av arbetsbelastning visas den information som filtrerats av de filter som ursprungligen tillämpades.
+     >[!IMPORTANT]
+     >
+     >När du lägger till belastningsutjämnaren för arbetsbelastning i ett objekts anpassade avsnitt filtreras inte informationen i belastningsutjämnaren av objektet. I Utjämning av arbetsbelastning visas den information som filtrerats av de filter som ursprungligen tillämpades.

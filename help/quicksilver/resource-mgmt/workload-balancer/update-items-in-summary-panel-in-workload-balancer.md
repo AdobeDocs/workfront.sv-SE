@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen
 description: Du kan öppna panelen Sammanfattning i Utjämning av arbetsbelastning för att uppdatera arbetsobjekt i områdena Tilldelad och Ej tilldelad arbetsyta.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
