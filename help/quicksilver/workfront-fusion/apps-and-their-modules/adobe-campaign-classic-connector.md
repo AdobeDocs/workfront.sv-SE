@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: Adobe Campaign Classic-moduler
+title: Adobe Campaign Classic moduler
 description: Med [!DNL Adobe Campaign Classic] -moduler kan du starta en [!DNL Adobe Workfront Fusion] scenario baserat på händelser i [!DNL Adobe Campaign Classic] konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och ladda upp dokument.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -49,21 +49,74 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Anslut [!DNL Adobe Campaign Classic] till [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>Vi rekommenderar att du skapar en server-till-server-anslutning. Adobe Campaign har uppdaterat sitt API så att det endast accepterar server-till-server-anslutningar. Om du ansluter till Campaign version 8 eller senare **måste** skapa en server till server-anslutning.
+>
+>Mer information om Campaigns nya anslutningskrav finns i [Migrering av tekniska aktörer från Campaign till Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) i kampanjdokumentationen.
+
 1. I alla [!DNL Adobe Campaign Classic] modul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] fält.
-1. Ange den bas-URL som du använder för att ansluta till din [!DNL Adobe Campaign Classic] -instans.
-1. Ange ditt användarnamn och lösenord.
+1. Fyll i följande fält:
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection type]</td>
+          <td>
+            <p>Ange om du skapar en grundläggande anslutning eller en server-till-server-anslutning.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Ange ett namn för anslutningen.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Base URL]</td>
+          <td>Ange den bas-URL som du använder för att ansluta till din [!DNL Adobe Campaign Classic] -instans.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Username]</td>
+          <td>Om du skapar en grundläggande anslutning anger du ditt Adobe Campaign-användarnamn.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Password]</td>
+          <td>Om du skapar en grundläggande anslutning anger du ditt Adobe Campaign-lösenord.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Om du skapar en server-till-server-anslutning anger du [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Om du skapar en server-till-server-anslutning anger du [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Environment]</td>
+          <td>Ange om du är ansluten till en produktionsmiljö eller icke-produktionsmiljö.
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type]</td>
+          <td>Ange om du ansluter till ett tjänstkonto eller ett personligt konto.
+        </tr>
+   </tbody>
+    </table>
 1. Klicka **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
 
 ## [!DNL Adobe Campaign Classic] moduler och deras fält
@@ -128,7 +181,7 @@ Denna schemalagda utlösarmodul startar ett scenario när en post ändras.
 
 #### [!UICONTROL Create a record]
 
-Den här åtgärdsmodulen skapar en ny post i [!DNL Adobe Campaign Classic].
+Denna åtgärdsmodul skapar en ny post i [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -244,7 +297,7 @@ Mer information om specifika åtgärder och fält finns i [[!DNL Adobe Campaign]
 
 #### [!UICONTROL Read a record]
 
-Den här åtgärdsmodulen läser en post från [!DNL Adobe Campaign Classic].
+Denna åtgärdsmodul läser en post från [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,7 +313,7 @@ Den här åtgärdsmodulen läser en post från [!DNL Adobe Campaign Classic].
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
-   <td>Ange på kartan ID:t för den post som du vill läsa.</td> 
+   <td>Ange på kartan ID för den post som du vill läsa.</td> 
   </tr> 
  <tr> 
    <td role="rowheader">[!UICONTROL Fields to include in output] </td> 
