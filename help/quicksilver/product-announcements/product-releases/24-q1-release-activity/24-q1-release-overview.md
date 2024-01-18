@@ -4,9 +4,9 @@ description: Första utgåvan, kvartal 2024, översikt
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
+source-git-commit: 2a825387d0a17b459d3c1204ef57c09bae754452
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,11 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 ## Adobe Workfront-förbättringar
 
 * [Administratörsförbättringar](#administrator-enhancements)
+* [Förbättringar av anslagstavlor](#boards-enhancements)
 * [Förbättrad dokumenthantering](#document-management-enhancements)
+* [Hemförbättringar](#home-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Projektförbättringar](#project-enhancements)
 * [Uppdatera ström- och meddelandeförbättringar](#update-stream-and-notification-enhancements)
 
 ### Administratörsförbättringar
@@ -58,7 +61,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Handläggningsbeslut för korrektur/dokument är nu tillgängliga de senaste 12 månaderna</a></p><p>Rapporterna om användarbeslut för både nya och gamla licenstyper visar nu antalet beslut för den aktuella månaden samt de föregående 12 månaderna.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Handläggningsbeslut för korrektur/dokument är nu tillgängliga de senaste 12 månaderna</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Rapporterna om användarbeslut för både nya och gamla licenstyper visar nu antalet beslut för den aktuella månaden samt de föregående 12 månaderna.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -206,7 +209,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för väntande godkännanden tillgänglig</a></p><p>För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för väntande godkännanden tillgänglig</a></p><p>För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -225,7 +228,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administratörskontroller för nya Hem med layoutmallar</a></p><p>Administratörer kan nu anpassa nya startsidor för användare med hjälp av layoutmallar. Anpassningsalternativen inkluderar val av obligatoriska widgetar och deras placering, val av bakgrund och widgetspecifika alternativ för att välja tillgängliga filter och grupper (och inställning av standardvärden).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administratörskontroller för nya Hem med layoutmallar</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Administratörer kan nu anpassa nya startsidor för användare med hjälp av layoutmallar. Anpassningsalternativen inkluderar val av obligatoriska widgetar och deras placering, val av bakgrund och widgetspecifika alternativ för att välja tillgängliga filter och grupper (och inställning av standardvärden).</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -382,7 +385,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Dra och släpp en bild i en kommentar i uppdateringsavsnittet</a></p><p>Om du vill förbättra innehållet i dina kommentarer kan du nu snabbt dra och släppa en bild i en kommentar eller svara i uppdateringsavsnittet för ett objekt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Dra och släpp en bild i en kommentar i uppdateringsavsnittet</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Om du vill förbättra innehållet i dina kommentarer kan du nu snabbt dra och släppa en bild i en kommentar eller svara i uppdateringsavsnittet för ett objekt.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -415,7 +418,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Sök efter en kommentar eller användare i uppdateringsavsnittet</a></p><p>Om du snabbt vill hitta information i uppdateringsavsnittet för ett objekt kan du nu söka efter ett nyckelord från en kommentar eller efter en användare som är associerad med en kommentar.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Sök efter en kommentar eller användare i uppdateringsavsnittet</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Om du snabbt vill hitta information i uppdateringsavsnittet för ett objekt kan du nu söka efter ett nyckelord från en kommentar eller efter en användare som är associerad med en kommentar.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -433,7 +436,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Kopiera och klistra in en bild i en kommentar i uppdateringsavsnittet</a></p><p>Om du vill ge innehållet i ett meddelande ett sammanhang kan du nu snabbt bifoga bilder till dina kommentarer genom att kopiera dem från datorn och klistra in dem i en ny uppdatering eller ett nytt svar.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Kopiera och klistra in en bild i en kommentar i uppdateringsavsnittet</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Om du vill ge innehållet i ett meddelande ett sammanhang kan du nu snabbt bifoga bilder till dina kommentarer genom att kopiera dem från datorn och klistra in dem i en ny uppdatering eller ett nytt svar.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
