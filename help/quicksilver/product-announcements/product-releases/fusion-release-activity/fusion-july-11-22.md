@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 11 juli 2022"'
+title: "Workfront Fusion-lansering: vecka 11 juli 2022"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 11 juli 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 19d4610a-670a-49e7-b276-f670de867910
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ Mer information finns i [Figma-moduler](../../../workfront-fusion/apps-and-their
 
 ## Workday Connector och moduler är nu tillgängliga
 
-Nu kan du använda Adobe Workfront Fusion för att ansluta till ditt Workday-konto. Med Workday-modulerna kan du
+Nu kan du ansluta till ditt Workday-konto med Adobe Workfront Fusion. Med Workday-modulerna kan du
 
 * Skapa, läsa, uppdatera eller ta bort en post
 
@@ -52,7 +53,7 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till ditt Workday-kon
 * Begär Workday API
 
 
-Mer information finns i [Workday-moduler](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
+Mer information finns i [Workday moduler](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
 
 ## Anslutning och moduler för Adobe Creative Cloud Libraries finns nu tillgängliga
 
@@ -71,7 +72,7 @@ Mer information finns i [Adobe Creative Cloud Libraries-moduler](../../../workfr
 
 ## Adobe Target-anslutning och -moduler finns nu tillgängliga
 
-Nu kan du använda Adobe Workfront Fusion för att ansluta till ditt Adobe Target-konto. Med Adobe Target-modulerna kan du
+Nu kan du ansluta till ditt Adobe Target-konto med Adobe Workfront Fusion. Med Adobe Target-modulerna kan du
 
 * Skapa, läsa, uppdatera eller ta bort poster som aktiviteter, erbjudanden, målgrupper, egenskaper och rapporter
 
@@ -82,4 +83,4 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till ditt Adobe Targe
 * Utför ett anpassat API-anrop
 
 
-Mer information finns i [Adobe Target-moduler](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).
+Mer information finns i [Adobe Target moduler](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).

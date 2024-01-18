@@ -6,10 +6,11 @@ title: 21.1 Förbättrad projektledning
 description: Den här sidan beskriver alla projekthanteringsförbättringar som gjorts i version 21.1 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 15 februari 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfr
 
 Vi har uppdaterat hur procentandelen slutförda problem fungerar för problem som har konverterats till projekt eller uppgifter. När ett problem konverteras till en aktivitet eller ett projekt uppdateras procentandelen slutfört av problemet synkroniserat med procentandelen slutfört för den åtgärd eller det projekt som åtgärdas när inställningen&quot;Uppdatera lösningsstatus automatiskt när statusen för det objekt som löses ändras&quot; aktiveras från konfigurationen.
 
-Mer information om hur du konverterar problem finns i [Översikt över upplösta och upplösta objekt](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Mer information om hur du konverterar problem finns i [Översikt över objekt som kan lösas och lösas](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Lista över nya skickade begäranden
 
@@ -70,11 +71,11 @@ Mer information om hur du definierar nya fält för problem i ett projekt finns 
 
 >[!NOTE]
 >
->Borttagen från version; kommer att finnas kvar i Förhandsgranska och distribueras till Produktion med 21.2.
+>Borttagen från release; finns kvar i förhandsgranskning och släpps till produktion med version 21.2.
 
 För att skapa enhetlighet med den nya Workfront-upplevelsen och för att effektivisera när du skickar in begäranden har vi gjort om rutan Ny begäran i området Begäranden. Nedan följer några av förbättringarna:
 
-* Ett enhetligt användargränssnitt med resten av den nya Workfront-upplevelsen
+* Ett enhetligt användargränssnitt med resten av Workfront
 * Eliminerade området med nya förfrågningar för en enklare och mer intuitiv upplevelse
 * Ett nytt, effektivare sätt att bifoga dokument
 
@@ -86,7 +87,7 @@ Mer information om hur du skickar begäranden finns i [Skapa och skicka Workfron
 
 >[!NOTE]
 >
->Borttagen från version; kommer att finnas kvar i Förhandsgranska och distribueras till Produktion med 21.2.
+>Borttagen från release; finns kvar i förhandsgranskning och släpps till produktion med version 21.2.
 
 Vi har nu gjort det möjligt att dela en länk till en begärandekö, en ämnesgrupp eller ett köämne medan du skapar en begäran.
 

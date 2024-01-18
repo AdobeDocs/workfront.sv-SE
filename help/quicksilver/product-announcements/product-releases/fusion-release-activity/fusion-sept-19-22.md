@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 19 september 2022"'
+title: "Workfront Fusion-lansering: vecka 19 september 2022"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 19 september 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 3c6d000d-dfeb-4b4a-91bf-7ea346c1ce70
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# Versionsaktivitet för Workfront Fusion: Vecka 19 september 2022
+# Versionsaktivitet för Workfront Fusion: 19 september 2022
 
 ## Adobe Journey Optimizer Connector och moduler är nu tillgängliga
 
@@ -39,4 +40,4 @@ Med Adobe Campaign Classic-modulerna kan du
 * Utför en åtgärd från Adobe Campaign API
 * Göra ett anpassat API-anrop till Adobe Campaign Classic API
 
-Mer information finns i [Adobe Campaign Classic-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).
+Mer information finns i [Adobe Campaign Classic moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).

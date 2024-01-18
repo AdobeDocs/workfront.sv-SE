@@ -5,10 +5,11 @@ title: Andra Workfront Classic-funktioner som lanserades i Production före vers
 description: Följande funktioner var tillgängliga för Workfront Classic Production-miljön före 2019.4-utgåvan av Production.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Information om tidsramen för releasen och alla funktioner som är tillgängliga
      <p><strong>Finns i följande miljöer:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
-      <li>Den nya Workfront-upplevelsen</li> 
+      <li>Nya Workfront</li> 
      </ul> 
      <p><strong>Produktionsrelease:</strong> </p> 
      <ul> 
@@ -49,7 +50,7 @@ Information om tidsramen för releasen och alla funktioner som är tillgängliga
       <p><strong>Finns i följande miljöer:</strong> </p> 
       <ul> 
        <li>Workfront Classic</li> 
-       <li>Den nya Workfront-upplevelsen</li> 
+       <li>Nya Workfront</li> 
       </ul> 
       <p><strong>Första tillgängliga i förhandsvisning:</strong> </p> 
       <ul> 
@@ -67,7 +68,7 @@ Information om tidsramen för releasen och alla funktioner som är tillgängliga
       <p><strong>Finns i följande miljöer:</strong> </p> 
       <ul> 
        <li>Workfront Classic</li> 
-       <li>Den nya Workfront-upplevelsen</li> 
+       <li>Nya Workfront</li> 
       </ul> 
       <p><strong>Första tillgängliga i förhandsvisning:</strong> </p> 
       <ul> 

@@ -4,11 +4,12 @@ description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 2 augusti 2
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -50,16 +51,17 @@ Två nya funktioner är nu tillgängliga på mappningspanelen.
 
 * Ny funktion för datum och tid: dateDifference
 
-   För att göra det enklare att beräkna tidsrymder i dina scenarier har vi lagt till den nya&quot;dateDifference&quot;-funktionen för datum och tid. Den här funktionen tar två datum eller tidpunkter och en tidsenhet, och returnerar tiden mellan datum och tidpunkter, uttryckt i vald tidsenhet.
+  För att göra det enklare att beräkna tidsrymder i dina scenarier har vi lagt till den nya&quot;dateDifference&quot;-funktionen för datum och tid. Den här funktionen tar två datum eller tidpunkter och en tidsenhet, och returnerar tiden mellan datum och tidpunkter, uttryckt i vald tidsenhet.
 
-   Tidigare kunde datum- och tidsdifferensen bara beräknas med en formel som användaren har angett.
+  Tidigare kunde datum- och tidsdifferensen bara beräknas med en formel som användaren har angett.
 
-   Mer information finns i [Datum- och tidsfunktioner i Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
+  Mer information finns i [Datum- och tidsfunktioner i Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
 
 * Ny arrayfunktion: arrayDifference
 
-   Den här funktionen tar två arrayer och returnerar en ny array. Du kan välja vilken typ av ny array som modulen returnerar:
+  Den här funktionen tar två arrayer och returnerar en ny array. Du kan välja vilken typ av ny array som modulen returnerar:
 
    * En array med element från en array som inte finns i den andra
    * En array med element som finns i den ena arrayen eller den andra, men inte i båda.
-   Mer information finns i [Arrayfunktioner i Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
+
+  Mer information finns i [Arrayfunktioner i Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).

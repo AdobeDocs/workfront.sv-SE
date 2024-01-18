@@ -5,10 +5,11 @@ title: 20.3 Förbättrad projektledning
 description: Den här sidan beskriver alla projekthanteringsförbättringar som gjorts i version 20.3 till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 10 augusti 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: d337008d4fca8c41b98b10f9059ec1cc379811e1
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -25,13 +26,13 @@ En lista över alla ändringar som är tillgängliga i version 20.3 finns i [20.
 >
 >Den här funktionen stöds endast i den nya Adobe Workfront-upplevelsen. Den är tillgänglig för vissa listor i Adobe Workfront Classic, men stöds inte i Adobe Workfront Classic.
 
-Nu när systemadministratören skapar anpassade formulärfält som är konfigurerade för formatering kan du formatera text i de fält där du använder dem mest: i listor i hela Workfront. I stället för att gå in i området Detaljer och formatera text i det anpassade formuläret kan du klicka på ett fält i en lista och använda Fet, Kursiv och Understruken för text där.
+När systemadministratören skapar anpassade formulärfält som är konfigurerade för formatering kan du nu formatera text i de fält där du använder dem mest: i listor i hela Workfront. I stället för att gå in i området Detaljer och formatera text i det anpassade formuläret kan du klicka på ett fält i en lista och använda Fet, Kursiv och Understruken för text där.
 
 Observera att den här funktionen bara är tillgänglig i de uppdaterade listorna. Mer information om uppdaterade listor finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 Information om hur en Workfront-administratör skapar textfält med formatering finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Uppdaterat utseende och känsla för flera globala rubriker
+## Uppdaterat utseende och känsla för flera globala sidhuvuden
 
 >[!NOTE]
 >
@@ -67,9 +68,9 @@ Mer information om den nya rutan Redigera projekt finns i [Redigera projekt](../
 >
 >Den här funktionen är bara tillgänglig i den nya Adobe Workfront-upplevelsen
 
-Den nya panelen Sammanfattning till höger om dokumentlistan är nu tillgänglig med en förbättrad design i den nya Workfront-upplevelsen. Panelen innehåller samma åtgärder och information som finns på panelen till höger när du markerar ett dokument i Workfront Classic, inklusive dokumentinformation, uppdateringar, anpassad Forms, godkännanden och dokumentversioner.
+Den nya sammanfattningspanelen till höger om dokumentlistan är nu tillgänglig med en förbättrad design i den nya Workfront-upplevelsen. Panelen innehåller samma åtgärder och information som finns på panelen till höger när du markerar ett dokument i Workfront Classic, inklusive dokumentinformation, uppdateringar, anpassad Forms, godkännanden och dokumentversioner.
 
-Vissa åtgärder är inte tillgängliga just nu, men kommer att läggas till i en framtida version. Bland dessa åtgärder finns korrekturarbetsflödet.
+Vissa åtgärder är inte tillgängliga just nu, men kommer att läggas till i en framtida version. Bland dessa åtgärder finns korrekturläsningsarbetsflödet.
 
 Mer information finns i [Sammanfattning av dokumentöversikt](../../../documents/managing-documents/summary-for-documents.md).
 
@@ -100,13 +101,13 @@ Alla projektinställningar kan anpassas på gruppnivå, förutom för tidslinjeb
 
 Mer information om inställningar för gruppprojekt finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-## Nytt för administratörer: Skapa anpassade formulärfält där användarna kan formatera text
+## Nytt för administratörer: Skapa anpassade formulärfält där användare kan formatera text
 
 I ett anpassat formulär kan du nu skapa fält som innehåller textformateringsknappar. När användare skriver i dessa fält kan de markera och ordna texten med fet stil, kursiv stil och understrykning. Den höga teckengränsen på 15 000 tillåter mycket text och formatering.
 
 Mer information finns i Skapa ett anpassat formulär i den nya Workfront-upplevelsen.
 
-## Nytt för administratörer: Skapa både ett internt namn och en etikett som användaren vänder sig till för ett eget formulärfält
+## Nytt för administratörer: Skapa både ett internt namn och en etikett som är riktad mot användaren för ett anpassat formulärfält
 
 Om du vill ha större flexibilitet när det gäller etiketter och ommärkning av anpassade formulärfält kan du nu skapa en intern *name* för ett fält utöver användaren *label* du har använt. Detta ger dig frihet att ändra den fältetikett som visas för användarna utan att ändra fältnamnet som visas i systemet.
 

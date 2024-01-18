@@ -5,10 +5,11 @@ title: 20.3 Förbättrad resurshantering
 description: Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 20.3 till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 10 augusti 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ De här filtren ersätter jokerfiltervariablerna för $$USER.ID, $$USER.roleID, 
 
 När du tillämpar något av dessa filter och sedan delar arbetsbelastningsutjämnaren eller placerar den på en kontrollpanel, kommer alla andra användare att se sin egen information.
 
-Mer information om hur du använder filter i Arbetsbelastningsutjämnaren finns i [Filtrera information i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Mer information om hur du använder filter i Utjämning av arbetsbelastning finns i [Filtrera information i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ## Ny sortering för projekt i Utjämning av arbetsbelastning
 
@@ -76,7 +77,7 @@ Mer information om hur du hanterar allokeringar i Arbetsbelastningsutjämnaren f
 **Finns i följande miljöer:**
 
 * Adobe Workfront Classic
-* Den nya Adobe Workfront-upplevelsen
+* Nya Adobe Workfront
 
 ### Uppdatera aktivitetsplanerade timmar i arbetsbelastningsutjämnaren {#update-task-planned-hours-in-the-workload-balancer}
 
@@ -84,11 +85,11 @@ Mer information om hur du hanterar allokeringar i Arbetsbelastningsutjämnaren f
 >
 >Den här förbättringen kommer att vara tillgänglig i produktionen strax efter version 2020.2.
 
-Ett nytt alternativ i området Resurshantering på åtkomstnivån ger nu användare med den här åtkomsten möjlighet att redigera Planerade timmar från belastningsutjämnaren. När du justerar allokeringar i belastningsutjämnaren behöver den totala dagliga allokeringen inte matcha antalet planerade timmar för aktiviteterna. När du har sparat dina allokeringar blir det totala antalet allokeringstimmar antalet planerade timmar för uppgiften. Detta är bara möjligt för uppgifter som har en enkel varaktighetstyp.
+Ett nytt alternativ i området Resurshantering på åtkomstnivån ger nu användare med den här åtkomsten möjlighet att redigera Planerade timmar från belastningsutjämnaren. När du justerar allokeringar i belastningsutjämnaren behöver den totala dagliga allokeringen inte matcha antalet planerade timmar för aktiviteterna. När du har sparat dina allokeringar blir det totala antalet allokeringstimmar antalet planerade timmar för uppgiften. Detta är bara möjligt för aktiviteter som har en enkel varaktighetstyp.
 
 Mer information om hur du hanterar allokeringar i Arbetsbelastningsutjämnaren finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Information om hur du beviljar åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Mer information om hur du beviljar åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ### Ett bekvämare sätt att uppdatera allokeringar i arbetsbelastningsutjämnaren {#a-more-convenient-way-to-update-allocations-in-the-workload-balancer}
 

@@ -4,10 +4,11 @@ description: 20.4 Förbättrad projektledning
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ För att göra den här upplevelsen bekant för dig har vi utformat användargr�
 
 Mer information finns i [Konfigurera delning för anpassade fält och widgetar](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
-## Nytt för administratörer: Standardiserad delning av anpassade formulär
+## Nytt för administratörer: Standardanpassad formulärdelning
 
 Vi har standardiserat delning för anpassade Forms så att du kan använda samma Workfront-process för objektdelning som du redan känner till. Och den nya delningsfunktionen ger dig större kontroll över vem som kan redigera, ta bort och använda anpassade Forms som du skapar. Du kan begränsa delning för ett anpassat formulär till vissa användare, roller, team, grupper och företag. Du kan även avgöra om mottagarna kan visa eller hantera det anpassade formuläret.
 
@@ -64,11 +65,11 @@ För att spara tid och öka förståelsen för ett projekts övergripande hälsa
 
 Du kan göra markeringar i diagrammen för att visa olika aspekter av uppgifter och problem i ett projekt och klicka på vissa element för att visa aktivitetsinformation.
 
-Den här funktionen ingår nu i [Grundläggande om planering, del 3 inlärningsväg](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering, del 3 utbildningsväg](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) på Workfront One.
 
 ## Nytt för administratörer: Tilldela en företagsledare till en grupp
 
-För att du bättre ska kunna organisera och definiera dina grupper har vi lagt till möjligheten att utse en användare till affärsledare för en grupp (eller undergrupp). En företagsledare är en Workfront-användare som fattar affärsbeslut för en koncern.
+För att du bättre ska kunna organisera och definiera dina grupper har vi lagt till möjligheten att utse en användare till affärsledare för en grupp (eller undergrupp). En företagsledare är en Workfront-användare som fattar affärsbeslut för en grupp.
 
 Det nya fältet Business Leader kan användas i rapportfilter, vyer och grupperingar. Du kan t.ex. filtrera efter en viss affärsledare för att endast visa de grupper som personen har tilldelats i den rollen.
 
@@ -100,7 +101,7 @@ Den här funktionen ingår nu i [Grundläggande om administratörer, del 1 utbil
 
 För att hjälpa till att hämta det datum och den tid då arbetet faktiskt startar på en arbetsuppgift kan användare ersätta knappen Arbeta på den med knappen Start som automatiskt uppdaterar arbetsuppgiftens status och faktiska startdatum.
 
-Uppdaterad den 24 september: När du har klickat på Starta uppgift eller Starta problem kan du nu välja att återställa ditt val och ange att du kanske inte är redo att börja arbeta med ett arbetsobjekt genom att klicka på Ångra. Arbetsuppgiften återgår till statusen Nytt och datumet för implementering och det faktiska startdatumet tas bort. Alternativet Ångra visas mycket kort och tas bort när du navigerar bort från eller uppdaterar sidan.
+Uppdaterades den 24 september: När du klickat på Starta uppgift eller Starta utgåva kan du nu välja att återställa ditt val och ange att du kanske inte är redo att börja arbeta med en arbetsuppgift genom att klicka på Ångra. Arbetsuppgiften återgår till statusen Nytt och datumet för implementering och det faktiska startdatumet tas bort. Alternativet Ångra visas mycket kort och tas bort när du navigerar bort från eller uppdaterar sidan.
 
 Mer information om hur du konfigurerar det här alternativet finns i [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
@@ -118,7 +119,7 @@ Mer information om hur du skickar begäranden finns i &quot; [Skapa och skicka W
 
 För att göra det enklare att hantera och rapportera om de team som är kopplade till en grupp kan du nu tilldela vilken grupp som helst till ett team som du har tillgång till för redigering.
 
-När du tilldelar ett team till en grupp kan dess gruppadministratörer hantera teamet utan att vara medlem i det. På sidan Teaminformation kan de se vilka team som har tilldelats till grupper som de hanterar. Och de kan köra en rapport för att lista alla team som är kopplade till en viss grupp.
+När du tilldelar ett team till en grupp kan dess gruppadministratörer hantera teamet utan att vara medlem i det. På sidan Teaminformation kan de se vilka team som har tilldelats till de grupper som de hanterar. Och de kan köra en rapport för att lista alla team som är kopplade till en viss grupp.
 
 Mer information finns i [Skapa ett team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 

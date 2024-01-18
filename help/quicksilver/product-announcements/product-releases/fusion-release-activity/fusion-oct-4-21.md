@@ -4,11 +4,12 @@ description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka 4 oktober 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 783eb2f6-d7a8-4d2e-8a21-5cc1390349b4
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ För större tydlighet har vi gjort det möjligt att se händelsefiltren som anv
 
 Tidigare kunde användare bara se händelsefilter när de skapade webkroken, och det fanns inget sätt att visa filtren i en befintlig Workfront > Bevaka händelser-modul.
 
-Mer information finns i [Evenemangsprenumerationsfilter i Workfront > Bevaka händelser-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Evenemangsprenumerationsfilter i Workfront > Bevaka händelser-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Koppla anpassade formulär till Workfront-objekt med Workfront > Skapa post- och Uppdatera postmoduler
 
@@ -35,11 +36,11 @@ För att göra användningen av anpassade formulär mer lik upplevelsen i Workfr
 
 Tidigare kunde du ange värden i fält i anpassade formulär, men de var inte ordnade efter formulär och kunde vara svåra att hitta.
 
-Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Använd RTF i kommentarer och anpassade fält som skapats i Workfront Fusion
 
-Nu kan du använda RTF-text när du använder Workfront > Skapa en post eller Uppdatera en postmodul i Workfront Fusion. Lägg till HTML-taggar i texten för kommentaren eller det anpassade fält som du lägger till eller uppdaterar, och formateringen visas i kommentaren i Workfront. Denna funktion gäller även svar på kommentarer.
+Nu kan du använda RTF när du använder Workfront > Skapa en post eller Uppdatera en postmodul i Workfront Fusion. Lägg till HTML-taggar i texten för kommentaren eller det anpassade fält som du lägger till eller uppdaterar, och formateringen visas i kommentaren i Workfront. Den här funktionen gäller även för svar på kommentarer.
 
 Uppdateringarna har stöd för följande RTF-format:
 
@@ -54,6 +55,6 @@ Uppdateringarna har stöd för följande RTF-format:
 
 Tidigare kunde formaterad text bara läggas till i kommentarer eller anpassade fält via Workfront eller Workfront API.
 
-Mer information om modulerna Skapa post och Uppdatera post finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information om modulerna Skapa post och Uppdatera post finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 Mer information om RTF i kommentarer och anpassade fält finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

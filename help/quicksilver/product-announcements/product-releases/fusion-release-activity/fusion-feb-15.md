@@ -4,11 +4,12 @@ description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 15 februari
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d4bac9f7-500a-40c1-bb44-7726830ae154
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -37,8 +38,8 @@ Mer information finns i [Adobe Workfront Fusion - organisationer och team](../..
 
 ## Välj API-version i Workfront > Anropsmodul för anpassat API
 
-För att göra dina API-anrop mer anpassningsbara har vi gjort det möjligt för dig att välja den version av Workfront API som du vill att Workfront > Anpassa API-anropsmodulen ska använda. Du kan välja mellan version 11, version 12 eller Workfront interna API.
+För att göra dina API-anrop mer anpassningsbara har vi gjort det möjligt för dig att välja den version av Workfront API som du vill att Workfront > Anpassad API-anropsmodul ska använda. Du kan välja mellan version 11, version 12 eller Workfront interna API.
 
 Tidigare gick det inte att välja Workfront API-version för den här modulen.
 
-Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

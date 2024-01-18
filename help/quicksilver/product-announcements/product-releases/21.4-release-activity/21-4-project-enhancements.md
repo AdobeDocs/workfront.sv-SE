@@ -4,10 +4,11 @@ description: 21.4 Projektförbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-wo
 
 Innan Workfront-användare kan inkludera bilder i uppdateringar måste den här funktionen först aktiveras av Adobe Workfront-administratören enligt beskrivningen i [Konfigurera inställningar för användaruppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
-## Uppdaterad algoritm för smarta tilldelningar
+## Uppdaterad algoritm för smarta tilldelning
 
 Vi har förbättrat algoritmen som används för smarta tilldelningar. Med den nya förbättringen tittar Workfront på de 30 senaste uppdragen som gjorts av den inloggade användaren för att ge förslag när de tilldelar uppgifter och ärenden. Listan med förslag kan innehålla upp till 50 användare.
 
@@ -47,7 +48,7 @@ Vi har gjort om gränssnittet för att skapa ett projekt från en mall så att d
 
 Vi har uppdaterat gränssnittet för att skapa projektet både när du skapar det från både projektet och mallområdet.
 
-För information [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
+För information, [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Ny upplevelse när mallar bifogas till projekt
 

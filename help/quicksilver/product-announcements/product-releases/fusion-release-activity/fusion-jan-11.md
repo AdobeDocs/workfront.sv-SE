@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 11 januari 2021"'
+title: "Workfront Fusion-lanseringsaktivitet: 11 januari 2021"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 11 januari 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2439e2a7-9404-433a-bd71-a7776042d8a0
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Nu kan du använda Workfront Fusion för att ansluta till ditt Widen-konto. Med 
 * Läs eller uppdatera metadata för resurser
 * Sök efter resurser baserat på villkor som du anger
 * Hämta en lista med resurser i en samling
-* Utför ett anpassat API-anrop.
+* Anropa ett anpassat API.
 
 Mer information finns i [Bredda moduler](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
@@ -52,7 +53,7 @@ Mer information om datadoggmoduler finns i [Datadogmoduler](../../../workfront-f
 
 Nu kan du använda Workfront Fusion 2.0 för att ansluta till ditt Cvent-konto.
 
-Med händelsemodlingarna kan du:
+Med händelsemodulerna kan du:
 
 * Skapa en mötesförfrågan
 * Läs poster som kontakter, händelser eller inbjudningar
@@ -91,7 +92,7 @@ Mer information finns i [DocuSign-moduler](../../../workfront-fusion/apps-and-th
 
 Vi har gjort det enklare för dig att hitta specifik information från tidigare körningar av scenarier. Fusions nya textsökning gör det möjligt att söka i exekveringshistorik efter alla data i ett paket. Om du till exempel vill identifiera vilken körning som har skapat en viss uppgift kan du använda fullständig textsökning för att söka efter detta uppgifts-ID.
 
-Tidigare var det nödvändigt att hitta specifik körningsinformation för att se varje körning separat.
+Tidigare var det nödvändigt att hitta specifik körningsinformation för att kunna se varje körning separat.
 
 Mer information finns i [Visa ett scenarios körningshistorik i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
@@ -117,25 +118,25 @@ Vi har lagt till några nya funktioner för att hjälpa dig att anpassa och för
 
 * The
 
-   ```
-   omit
-   ```
+  ```
+  omit
+  ```
 
-   -funktionen är en allmän funktion som utelämnar de angivna tangenterna för objektet och returnerar resten.
+  -funktionen är en allmän funktion som utelämnar de angivna tangenterna för objektet och returnerar resten.
 * The
 
-   ```
-   pick
-   ```
+  ```
+  pick
+  ```
 
-   är en allmän funktion som bara väljer de angivna tangenterna från objektet.
+  är en allmän funktion som bara väljer de angivna tangenterna från objektet.
 * The
 
-   ```
-   escapeMarkdown
-   ```
+  ```
+  escapeMarkdown
+  ```
 
-   -funktionen är en strängfunktion som undgår alla Markdown-taggar i en text.
+  -funktionen är en strängfunktion som undgår alla Markdown-taggar i en text.
 
 Mer information om funktionerna Uteslut och Plockning finns i [Allmänna funktioner i Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
 

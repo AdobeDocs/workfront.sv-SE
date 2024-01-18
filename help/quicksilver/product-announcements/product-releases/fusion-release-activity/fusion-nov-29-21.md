@@ -4,11 +4,12 @@ description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 29 november
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2ad970eb-daa3-4a18-8324-a07a3d75816b
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -28,8 +29,8 @@ Nu kan du använda Adobe Workfront Fusion för att skapa och modifiera PDF. Efte
 Med verktygsmodulerna i Adobe PDF kan du
 
 * Generera en PDF från data som du anger
-* Extrahera data från en PDF
-* Skapa en PDF från en bild, ett dokument eller en HTML-fil
+* Extrahera data från PDF
+* Skapa en PDF från en bild, ett dokument eller HTML
 * Konvertera en PDF till en bild eller ett dokument
 * Kombinera PDF-filer i en större PDF-fil
 * Skydda en PDF-fil med ett lösenord eller ta bort lösenordsskyddet från PDF

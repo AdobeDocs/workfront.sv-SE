@@ -4,15 +4,16 @@ description: Utforma och känna av uppdateringar under 23.1-releasetidningen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
-source-git-commit: 89d7b526cecb441700baca98092aefd319a1d72a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
 
-# Uppdateringar som både ser ut och känns under 23.1-releasetiden
+# Uppdateringar som både ser ut och känns under 23.1-releasetidningen
 
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjorts inom tidsramen för version 23.1. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts.
 
@@ -22,7 +23,7 @@ En lista över alla ändringar som är tillgängliga i version 23.1 finns i [23.
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 1 december 2022, Planerad produktionsrelease: 15 december 2022
+>Förhandsversion: 1 december 2022; Planerad produktionsversion: 15 december 2022
 
 Sidorna Filter, Vyer och Grupperingar under Inställningar > Gränssnitt har nu det mer moderna utseende och känsla som finns i de flesta andra listor i Workfront.
 
@@ -30,7 +31,7 @@ Sidorna Filter, Vyer och Grupperingar under Inställningar > Gränssnitt har nu 
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 8 december 2022, Planerad produktionsrelease: Med version 23.1
+>Förhandsversion: 8 december 2022; Planerad produktionsversion: Med version 23.1
 
 Som en del av uppdateringen av utseendet och känslan hos Workfront har vi gjort om rutan Redigera mall. Du kan öppna den nya rutan Redigera mall från en enskild mall eller från en malllista.
 
@@ -48,7 +49,7 @@ Mer information finns i [Redigera projektmallar](/help/quicksilver/manage-work/p
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: Ej tillämpligt Planerad produktionsrelease: 14 november 2022.
+>Förhandsversion: Ej tillämpligt; Planerad produktionsrelease: 14 november 2022.
 
 För att skapa en mer enhetlig upplevelse inom Jira har vi uppdaterat integreringen av Workfront för Jira. Utseendet och känslan av Workfront för Jiras integrering matchar nu Jiras utseende och känsla.
 
@@ -56,11 +57,11 @@ Funktionen för integrering av Workfront för Jira har inte ändrats.
 
 Mer information om integrering av Workfront för Jira finns i [Adobe Workfront för Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
-## Val av smart användare vid uppdatering av användarfält
+## Val av smarta användare vid uppdatering av användarfält
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 27 oktober 2022; Planerad produktionsrelease: 10 november 2022.
+>Förhandsversion: 27 oktober 2022; Planerad produktionsversion: 10 november 2022.
 >
 >När dessa fält har uppdaterats i Production den 10 november uppdateras alla återstående användarfält i hela Workfront direkt i Production som en del av veckovisa korrigeringar.
 
@@ -88,7 +89,7 @@ Mer information, och en videodemonstration av en liknande funktion finns i&quot;
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 20 oktober 2022; Planerad produktionsrelease: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
+>Förhandsversion: 20 oktober 2022; Planerad produktionsrelease: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
 På sidan Notifications (Meddelanden) ser det ut och känns nu modernt, i linje med andra delar av Workfront.
 
@@ -104,7 +105,7 @@ Mer information om hur du använder de nya filtren finns i [Skapa eller redigera
 
 Listorna som visas här innehåller nu både betafilter och standardfilterverktyget.
 
-#### Förhandsgranskningsversion: 13 oktober 2022; Planerad produktionsrelease: 27 oktober 2022
+#### Förhandsversion: 13 oktober 2022; Planerad produktionsversion: 27 oktober 2022
 
 * Portfolio
 
@@ -152,4 +153,4 @@ Listorna som visas här innehåller nu både betafilter och standardfilterverkty
 
 * Group Companies
 
-* Gruppteam
+* Gruppera team

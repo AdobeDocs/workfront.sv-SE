@@ -5,10 +5,11 @@ title: Funktioner som blev tillgängliga i förhandsgranskningen 2016
 description: Följande funktioner blev tillgängliga i förhandsvisningsmiljön 2016. Dessa funktioner planeras att lanseras i produktionsmiljön med R1-versionen.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Mer information om hur du aktiverar alternativ för användartilldelning finns i
 
 ## Layoutmall avgör om den nya eller gamla kalendern visas i arbetsytan
 
-**Sandlåda för förhandsgranskning: 7 dec 2016, Tidig åtkomst: 14 dec 2016** 
+**Sandlådan för förhandsgranskning: 7 dec 2016; Tidig åtkomst: 14 dec 2016** 
 
 Den nya kalendern visas som standard i området Mitt arbete när ingen layoutmall används.
 
@@ -55,20 +56,20 @@ Om du väljer det här alternativet kan du konfigurera den äldre kalendern som 
 
 När du använder den äldre kalendern i området Mitt arbete visas endast det arbete du har åtagit dig.
 
-Om du vill konfigurera Workfront så att den nya kalendern visas i området Mitt arbete när en layoutmall används, konfigurerar du layoutmallen så att den visar planerat slutförandedatum för uppgifter och ärenden och tilldelar sedan layoutmallen till rätt användare.
+Om du vill konfigurera Workfront så att den nya kalendern visas på arbetsytan Mitt när en layoutmall används, konfigurerar du layoutmallen så att den visar planerat slutförandedatum för uppgifter och ärenden och tilldelar sedan layoutmallen till rätt användare.
 
 Mer information om hur du konfigurerar layoutmallen finns i [Skapa och hantera layoutmallar](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Skapa och hantera layoutmallar](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Outlook 365 Beta
 
-**Beta: TBD; Allmän tillgänglighet: TBD**
+**Beta: TBD; allmänt tillgänglig: TBD**
 
 Du kan använda Workfront från Outlook för Office 365 enligt beskrivningen i följande avsnitt:
 
 * [Konfigurera Adobe Workfront för Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * &quot;Uppdatera ett befintligt objekt från ett e-postmeddelande med Outlook 365&quot;
 
-## Ändra ordning på kolumner i en lista med dra och släpp
+## Ändra ordning på kolumner i en lista med dra-och-släpp
 
 **Tidig åtkomst: 20 feb 2016**
 
@@ -86,7 +87,7 @@ Mer information om kontrollpaneler finns i [Skapa en instrumentpanel](../../../.
 
 ## Kontrollera åtkomst till anpassade Forms
 
-**Sandlåda för förhandsgranskning: 23 jan 2016**
+**Förhandsgranskningssandlåda: 23 januari 2016**
 
 Nu kan du styra vem som har åtkomst till ett anpassat formulär genom att ge åtkomst till enskilda användare, team, roller, grupper eller företag. 
 
@@ -96,6 +97,6 @@ Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../.
 
 ## Integrering med Adobe Creative Cloud
 
-**Tillägget är tillgängligt för hämtning: April 2016**
+**Tillägg som kan hämtas: april 2016**
 
 Workfront-tillägget för Adobe Creative Cloud är utformat för att du ska kunna spara och exportera material som du skapar i Creative Cloud till Workfront, vilket snabbar upp godkännande- och granskningsprocessen.

@@ -4,10 +4,11 @@ description: 23.1 Agile-förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f0e21f9b2846c5665474903a2910ce9f41cdf810
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ De nya Scrum-planeringsfunktionerna i Adobe Workfront Boards erbjuder flexibla a
 
 * Spåra arbeten i iterationer och fjädrar
 * Använd snabbhet för att vägleda teamets åtaganden
-* Spåra driftstopp och slutförandegrad
+* Spåra nedbränning och slutförandegrad
 
 Planeringsfunktionerna för Scrum kommer snabbt efter version 23.1.
 
@@ -32,7 +33,7 @@ Planeringsfunktionerna för Scrum kommer snabbt efter version 23.1.
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Förfallodatum för anslutna kort i Workfront Boards mappas nu till det planerade slutförandedatumet på det associerade Workfront-objektet. Om du uppdaterar förfallodatumet på ett kort uppdateras det planerade slutförandedatumet för uppgiften eller utgåvan. Om du ändrar det planerade slutförandedatumet ändras även kortets förfallodatum. Tidigare var kortets förfallodatum en manuell inmatning och mappades inte till något datum för en uppgift eller utgåva.
 
@@ -44,11 +45,11 @@ Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/ag
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
-## Poster i checklistan och Workfront-underuppgifter är nu länkade
+## Poster i checklistan för anslagstavlor och Workfront-underuppgifter är nu länkade
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla underuppgifter som checklisteobjekt på kortet. När du skapar ett checklisteobjekt på ett anslutet kort läggs en underuppgift till i Workfront-uppgiften. Checklisteobjekt vid problem är inte kopplade till några Workfront-objekt.
 
@@ -62,7 +63,7 @@ Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/ag
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Det finns en ny konfigurationsinställning för att aktivera korträknare för alla kolumner på en anslagstavla. Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare till.
 
@@ -72,7 +73,7 @@ Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-start
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Nu kan du sortera panelernas kontrollpanel efter panelnamn eller datum och söka efter en viss panel i listan.
 
@@ -82,7 +83,7 @@ Mer information finns i [Använda panelkontrollpanelen](/help/quicksilver/agile/
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Om ett kort på en anslagstavla har tilldelats en status, visas nu statusen på kortet så att du inte behöver öppna kortet för att se statusen. Den här förbättringen gäller för både ad hoc-kort och anslutna kort.
 
@@ -94,7 +95,7 @@ Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/ag
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Nu kan du skicka en länk till ett visst kort till en annan kortanvändare. Personen måste ha tillgång till för att kunna visa styrelsen innan de kan öppna länken.
 
@@ -114,7 +115,7 @@ Mer information om kort finns i [Lägga till ett ad hoc-kort till en anslagstavl
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Listan med filter på en anslagstavla innehåller nu alternativet att filtrera efter anslutning, som visar alla anslutna kort för ett visst projekt. Du kan även filtrera efter kort som inte är anslutna.
 
@@ -126,7 +127,7 @@ Mer information finns i [Filtrera och söka på en anslagstavla](/help/quicksilv
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Du kan konfigurera en styrelse så att kort arkiveras, eller&quot;faller bort&quot; från styrelsen, enligt ett schema. Det finns alternativ för att ange att kort i en viss kolumn ska arkiveras på ett visst antal dagar eller veckor. Du kan till exempel definiera utfallet så att kort i en fullständig kolumn arkiveras efter att de finns i kolumnen i två veckor.
 

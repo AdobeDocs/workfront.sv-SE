@@ -3,9 +3,11 @@ title: 23.3 Agile-förbättringar
 description: 23.3 Agile-förbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -28,7 +30,7 @@ Agile View för ett projekt innehåller nu ytterligare funktioner för att filtr
 
 När du sitter i styrelsen kan du växla till den äldre Agile-vyn.
 
-Mer information finns i [Hantera ett projekt i Agile-vyn](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Mer information finns i [Hantera ett projekt i flexibel vy](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
@@ -56,17 +58,17 @@ Mer information finns i [E-postmeddelanden och inställningar för anslagstavlor
 
 ## Mål som är tillgängliga i arbetsströmsversioner på Adobe Workfront-anslagstavlor
 
-Vi har lagt till möjligheten att lägga till mål i en iteration utan att behöva lista målen på ett kort. Mål läggs till i ett checklisteformat och kan markeras som fullständiga. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.
+Vi har lagt till möjligheten att lägga till mål i en iteration, utan att behöva lista målen på ett kort. Mål läggs till i ett checklisteformat och kan markeras som fullständiga. Mätområdet högst upp till höger om iterationen visar hur många mål som finns och hur många som har slutförts.
 
 Dessutom är kolumnen Nästa iteration nu tillgänglig på itereringspaneler. När du placerar ett kort i den här kolumnen överförs det automatiskt till nästa iteration och återgår inte till eftersläpningen. På nästa iteration visas kortet i den kolumn som motsvarar dess status.
 
 Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-## Lägg till kommentarer på kort i ritytor
+## Lägga till kommentarer till kort på anslagstavlor
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Nu kan du lägga till kommentarer i både ad hoc-kort och anslutna kort på anslagstavlan och tagga andra användare på kommentarerna. Kommentarerna finns i kortinformationen. Kommentarsfunktionen för anslagstavlor använder den nya kommentarsfunktionen från Adobe Workfront.
 
@@ -84,7 +86,7 @@ Mer information finns i [Lägg till taggar](/help/quicksilver/agile/get-started-
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Förenklade filter har lagts till i inställningen för inloppskolumnen så att du kan definiera inloppskolumnen snabbare. De tillgängliga filtren är Workfront-projekt och uppdrag per team eller användare. Du kan växla till de avancerade filtren om du vill.
 
@@ -96,7 +98,7 @@ Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Filtren i den dynamiska kortmallen har förenklats så att du kan skapa en anslagstavla snabbare. De tillgängliga filtren är Workfront-projekt och uppdrag per team eller användare. Du kan växla till de avancerade filtren om du vill. De här filteralternativen finns även på panelen Konfigurera för dynamiska ritytor.
 
@@ -106,7 +108,7 @@ Mer information finns i [Skapa eller redigera en anslagstavla](/help/quicksilver
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 En ny mall, Dynamic Board, är nu tillgänglig för fristående anslagstavlor. Den här mallen är inte tillgänglig för ritytor i en arbetsström.
 
@@ -128,11 +130,11 @@ Mer information finns i [Migrera smidiga team-kanban-kort till Workfront-styrels
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
-## Navigering till vänster har lagts till i kortinformation på brädor
+## Vänster navigering har lagts till i kortinformation på korten
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 I takt med att fler fältalternativ läggs till på kort på Workfront Boards har kortinformationen blivit längre. Med en ny navigeringspanel till vänster om kortinformationen kan du markera ett avsnitt och automatiskt flytta till den gruppen med fält.
 
@@ -146,7 +148,7 @@ Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt. Eftersom e-postmeddelanden i allmänhet inte används i Förhandsgranska, släpptes den här funktionen samtidigt för kunder som vill anmäla sig tidigt (endast för tidiga användare).
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards. Eftersom e-postmeddelanden i allmänhet inte används i Förhandsgranska, släpptes den här funktionen samtidigt för kunder som vill anmäla sig tidigt (endast för tidiga användare).
 
 E-postmeddelanden är nu tillgängliga för Adobe Workfront Boards. Meddelandena är aktiverade som standard och du kan välja vilka e-postmeddelanden du vill få i inställningarna. Du får ett e-postmeddelande när du läggs till på en anslagstavla och när du tilldelas ett kort.
 

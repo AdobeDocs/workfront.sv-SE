@@ -4,10 +4,11 @@ description: 23.2 versionsöversikt
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ Den här sidan innehåller information om de funktioner som finns i version 23.1
 
 Tips om hur du förbereder dig för den kommande versionen finns på [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
-## Släpp webbinarium
+## Frigör webbinarium
 
 I stället för ett webbinarium om en release bjuder vi in dig att registrera dig för Adobe Summit för att se följande Workfront-sessioner:
 
-[Effektfulla upplevelser: Från innehållsskapande till personalisering](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) den 21 mars 2023 för att lära sig nya sätt att skapa, hantera och personalisera innehåll och leverera slagkraftiga upplevelser med större effektivitet. Den här sessionen kommer att strömmas live för virtuella målgrupper.
+[Effektiva upplevelser: Från innehållsskapande till personalisering](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) den 21 mars 2023 för att lära sig nya sätt att skapa, hantera och personalisera innehåll och leverera slagkraftiga upplevelser med större effektivitet. Den här sessionen kommer att strömmas live för virtuella målgrupper.
 
 [Framtiden för Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) den 23 mars 2023 för att se visionen för Workfront och dess plats i ekosystemet Adobe och få en smygtitt på den framtida färdplanen. Den här sessionen spelas in och blir tillgänglig senare som on-demand-innehåll.
 
@@ -77,7 +78,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                         <p>Med den nya formulärdesignern har vi lagt till möjligheten att 
                         <ul>
                         <li><strong>Kopiera ett fält</strong>: Nu kan du kopiera befintliga fält genom att klicka på ikonen Kopiera på fälten direkt från arbetsytan.</li>
-                        <li><strong>Använd ett standardavsnitt</strong>: Om den som har skapat formuläret inte har lagt till något avsnitt överst i formuläret visas nu standardavsnittet på arbetsytan, så att användare kan justera behörigheten för fält som inte har något anpassat avsnitt tilldelat. </li>
+                        <li><strong>Använda ett standardavsnitt</strong>: Om den som skapat formuläret inte har lagt till något avsnitt överst i formuläret visas nu ett standardavsnitt på arbetsytan, så att användarna kan justera behörigheterna för fält som inte har något anpassat avsnitt tilldelat. </li>
                         <li><strong>Ändra storlek för beskrivande text</strong>: Du kan nu tilldela små, medelstora eller stora storlekar till beskrivande textfält. Du kan också använda dem på samma rad med andra fält. <span style="color: #ff0000;"> Ändringen av storleken för den beskrivande texten har fördröjts tillfälligt, men kommer snart.</span></li> 
                         </ul>
                         </p>
@@ -85,7 +86,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 9 mars 2023</p>
+                                <p>Förhandsversion: 9 mars 2023</p>
                             </li>
                             <li>
                                  <p>Produktionsrelease: Med version 23.2<br />
@@ -97,12 +98,12 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Byta namn på punkter i layoutmall</span></a>
-                        <p>Nu kan du ändra namn på punkter i en layoutmall så att de blir mer användbara för användarna i stället för att använda standardnamnet för den fästa sidan. Fästpunkter som administratörer skapar visas för alla användare som är tilldelade layoutmallen och användarna kan inte ändra namn på dessa punkter.</p>
+                        <p>Nu kan du ändra namn på punkter i en layoutmall så att de blir mer användbara för användarna i stället för att använda standardnamnet för den fästa sidan. Fästpunkter som administratörer skapar visas för alla användare som är tilldelade layoutmallen, och användarna kan inte ändra namn på dessa punkter.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 9 februari 2023<br /></p>
+                                <p>Förhandsversion: 9 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease: Med version 23.2</p>
@@ -137,7 +138,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 23 mars 2023<br /></p>
+                                <p>Förhandsversion: 23 mars 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.2</p>
@@ -159,7 +160,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 17 mars 2023<br /></p>
+                                <p>Förhandsversion: 17 mars 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.2</p>
@@ -175,7 +176,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 17 mars 2023<br /></p>
+                                <p>Förhandsversion: 17 mars 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.2</p>
@@ -191,7 +192,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 17 mars 2023<br /></p>
+                                <p>Förhandsversion: 17 mars 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.2</p>
@@ -207,7 +208,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 2 mars 2023<br /></p>
+                                <p>Förhandsversion: 2 mars 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.2</p>
@@ -223,7 +224,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 23 februari 2023<br /></p>
+                                <p>Förhandsversion: 23 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 2 mars 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -240,7 +241,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                                <p>Förhandsversion: 16 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -252,12 +253,12 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Definiera en standardstatus för kort som flyttas till en kortkolumn</a></p>
-                        <p>Du kan nu ange en standardstatus som ska gälla för kort som flyttas till en viss kolumn genom att välja en anpassad status och en systemstatus i kolumnprofilerna. När du flyttar ett kort till kolumnen försöker Workfront först att använda den anpassade statusen (till exempel Väntar på feedback). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Väntande). Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.</p>
+                        <p>Du kan nu ange en standardstatus som ska gälla för kort som flyttas till en viss kolumn genom att välja en anpassad status och en systemstatus i kolumnprofilerna. När du flyttar ett kort till kolumnen försöker Workfront först att använda den anpassade statusen (till exempel Väntar på feedback). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Väntande). Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen, flyttas kortet automatiskt till kolumnen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                                <p>Förhandsversion: 16 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -274,7 +275,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                                <p>Förhandsversion: 16 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -292,10 +293,10 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 26 januari 2023<br /></p>
+                                <p>Förhandsversion: 26 januari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: Den här funktionen är försenad och kommer att släppas den 9 februari. <span style="color: #ff0000;">Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: Den här funktionen är försenad och släpps 9 februari. <span style="color: #ff0000;">Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.2</p>
                             </li>
                         </ul>
@@ -309,7 +310,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 26 januari 2023<br /></p>
+                                <p>Förhandsversion: 26 januari 2023<br /></p>
                             </li>
                             <li>
                                  <p>Produktionsrelease för tidig anmälan: 2 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -345,10 +346,10 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 9 mars 2023<br /></p>
+                                <p>Förhandsversion: 9 mars 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Produktionsrelease: Från och med 23 mars kommer detta att lanseras i en fasad lansering som kommer att vara klar efter 11 maj 2023</span></p>
+                                 <p><span class="preview">Produktionsrelease: Från och med den 23 mars kommer detta att lanseras i en fasad lansering som kommer att vara klar efter den 11 maj 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -361,7 +362,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 2 mars 2023<br /></p>
+                                <p>Förhandsversion: 2 mars 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Produktionsrelease: Med version 23.2</span></p>
@@ -377,7 +378,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                                <p>Förhandsversion: 16 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Produktionsrelease: 2 mars 2023 (utanför cykeln)</span></p>
@@ -413,7 +414,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 16 februari 2023<br /></p>
+                                <p>Förhandsversion: 16 februari 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Produktionsrelease: 2 mars 2023 (utanför cykeln)</span></p>
@@ -445,7 +446,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Kontrollpaneler på arbetsytan</a></p>
-                        <p>Kontrollpaneler på arbetsytan har lagts till som en pågående funktion för kontrollpaneler som kan aktiveras i layoutmallar. På arbetsytans kontrollpaneler kan rapportarbetsytevisualiseringar kombineras med befintliga rapporter utöver de nya layoutalternativen. För närvarande stöds bara listrapporter, men fler alternativ läggs till under utvecklingen.</p>
+                        <p>Kontrollpaneler på arbetsytan har lagts till som en pågående funktion för kontrollpaneler som kan aktiveras i layoutmallar. På arbetsytans kontrollpaneler kan rapportarbetsytevisualiseringar kombineras med befintliga rapporter utöver de nya layoutalternativen. För närvarande stöds bara listrapporter, men fler alternativ läggs till allt eftersom utvecklingen fortsätter.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -489,7 +490,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsgranskningsversion: Ej tillämpligt<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease: Finns i Apple App Store och Google Play Store 13 mars 2023</p>
+                                 <p>Produktionsrelease: Finns i Apple App Store och Google Play Store den 13 mars 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -542,7 +543,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 20 mars 2023<br /></p>
+                                <p>Förhandsversion: 20 mars 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Produktionsrelease: Med version 23.2 </span></p>
@@ -567,7 +568,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsgranskningsversion: Ej tillämpligt<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease: Mid-to-late March 2023</p>
+                                <p>Produktionsrelease: mitten av mars 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -584,7 +585,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsgranskningsversion: Ej tillämpligt<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease: Mid-to-late March 2023</p>
+                                <p>Produktionsrelease: mitten av mars 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -600,7 +601,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsgranskningsversion: Ej tillämpligt<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease: 6 februari 2023</p>
+                                 <p>Produktionsversion: 6 februari 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -616,7 +617,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsgranskningsversion: Under hela tidsramen för version 23.2<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease: Minst två veckor efter förhandsgranskning (om inget annat anges)</span></p>
+                                <p><span class="preview">Produktionsrelease: Minst två veckor efter lanseringen till Förhandsgranska (om inget annat anges)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -632,7 +633,7 @@ Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 
 
 ### Förbättringar av Workfront Scenario Planner
 
-Det finns inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
+Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-korrektur
 
@@ -654,9 +655,9 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 Mer information om underhållsuppdateringar som gjordes i version 23.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### Utbildningsuppdateringar
+### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funktioner som snart ska tas bort från Workfront
 

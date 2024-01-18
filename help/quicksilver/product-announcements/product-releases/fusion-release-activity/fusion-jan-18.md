@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 18 januari 2021"'
+title: 'Workfront Fusion-lanseringsaktivitet: 18 januari 2021'
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 18 januari 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: c7d92bb7-bdf5-4f8b-89d6-d2cd4c5fc3b7
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ Nu kan du använda Workfront Fusion för att ansluta till dina Azure Active Dire
 * Skapa poster.
 * Hämta data från befintliga poster.
 * Sök efter poster baserat på villkor som du anger.
-* Utför ett anpassat API-anrop.
+* Anropa ett anpassat API.
 
 Mer information finns i [Azure Active Directory-moduler](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
 
@@ -52,18 +53,18 @@ Nu kan du använda Workfront Fusion för att ansluta till dina Azure DevOps-prog
 * Hämta eller överföra bifogade filer.
 * Länka samman artiklar i arbetet.
 * Hämta en lista med arbetsobjekt.
-* Utför ett anpassat API-anrop.
+* Anropa ett anpassat API.
 
 Mer information finns i [Azure DevOps-moduler](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
 
 ## Nu finns Qaltrics-anslutning och -moduler
 
-Nu kan du använda Workfront Fusion 2.0 för att ansluta till ditt Qualtrics-konto. Med Qualtrics-modulerna kan du
+Nu kan du använda Workfront Fusion 2.0 för att ansluta till ditt Qualtrics-konto. Med Qualtrics-modulerna kan du:
 
-* Utlös ett scenario när ett nytt undersökningssvar skapas.
+* Utlös ett scenario när ett nytt enkätsvar skapas.
 * Skapa, hämta, uppdatera, ta bort eller lista katalogkontakter.
 * Skapa en ny undersökningsdistribution för SMS.
-* Distribuera en enkät via e-post.
-* Utför ett anpassat API-anrop.
+* Distribuera en undersökning via e-post.
+* Anropa ett anpassat API.
 
 Mer information finns i [Qualtrics-moduler](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).

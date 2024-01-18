@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 17 augusti 2020"'
+title: "Workfront Fusion-lansering: vecka 17 augusti 2020"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 17 augusti 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d3fc3169-b23e-49ea-aafd-136761278ef6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront
 
 Nu kan du använda Workfront Fusion för att ansluta till ditt SharePoint-konto. Med SharePoint-modulerna kan du utföra åtgärder på ditt SharePoint-konto, till exempel skapa objekt, läsa dokument eller hämta filer.
 
-Mer information om tillgängliga SharePoint-moduler finns i [SharePoint-moduler](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
+Mer information om tillgängliga SharePoint-moduler finns i [SharePoint moduler](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
 
 **Förhandsversion**
 

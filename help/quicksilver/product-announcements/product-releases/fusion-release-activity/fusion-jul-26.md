@@ -4,11 +4,12 @@ description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 26 juli 202
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 07bbdf99-986e-408d-9ee7-3c43dbb5b2ff
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Mer information finns i [Salesforce-moduler](../../../workfront-fusion/apps-and-
 
 ## Mer tydlig information om kontoåtkomst när du godkänner Adobe Workfront Fusion-anslutningar
 
-Medgivandeskärmarna för anslutningar till Adobe Workfront Fusion har uppdaterats. Nu kan du se de specifika åtgärder och områden som anslutningarna har åtkomst till, så att du bättre kan förstå vad du tillåter att programmet får åtkomst till.
+Medgivandeskärmarna för anslutningar till Adobe Workfront Fusion har nu uppdaterats. Nu kan du se de specifika åtgärder och områden som anslutningarna har åtkomst till, så att du bättre kan förstå vad du tillåter att programmet får åtkomst till.
 
 Mer information finns i [Ansluta modulens app eller webbtjänst till Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) avsnitt i [Skapa ett scenario i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 

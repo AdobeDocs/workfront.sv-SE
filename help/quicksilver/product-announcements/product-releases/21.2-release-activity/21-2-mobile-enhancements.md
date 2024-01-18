@@ -6,10 +6,11 @@ title: 21.2 Mobilförbättringar
 description: Den här sidan beskriver alla mobilförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i versionsöversikt 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5ec5f0bd-6234-488b-bd3a-f14400b08cab
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Mer information finns i [Adobe Workfront för iOS](../../../workfront-basics/mob
 
 >[!NOTE]
 >
->Den här funktionen kommer att vara allmänt tillgänglig i Apple App Store den 27 april 2021.
+>Den här funktionen blir allmänt tillgänglig i Apple App Store den 27 april 2021.
 
 Mobilappen har nu stöd för följande objekt i anpassade formulärtypsnittsfält:
 
@@ -51,7 +52,7 @@ Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../a
 
 >[!NOTE]
 >
->Den här funktionen kommer att vara allmänt tillgänglig i Apple App Store den 27 april 2021. Den kommer att vara allmänt tillgänglig i Google Play Store med 21.2 Production Edition från och med 10 maj 2021.
+>Den här funktionen blir allmänt tillgänglig i Apple App Store den 27 april 2021. Den kommer att vara allmänt tillgänglig i Google Play Store med 21.2 Production Edition från och med 10 maj 2021.
 
 Nu kan du spara delvis ifyllda begäranden som utkast i mobilappen. Vi har lagt till ett nytt avsnitt i området Begär så att du enkelt kan hitta dina utkast.
 

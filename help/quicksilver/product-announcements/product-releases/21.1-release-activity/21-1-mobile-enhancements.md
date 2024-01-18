@@ -4,10 +4,11 @@ description: 21.1 Mobilförbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.
 
 Vi har lagt till brödtextnavigering i Workfront mobilapp. Nu kan du använda den här funktionen för att navigera till överordnade arbetsobjekt i ett projekt.
 
-## RTF i anpassade formulär i Workfront
+## RTF i anpassade formulär i Workfront-appen
 
 Nu kan du använda RTF-formatering i anpassade formulärtextfält i Workfront mobilapp.
 

@@ -4,10 +4,11 @@ description: 2.1 Projektförbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -54,7 +55,7 @@ Mer information finns i [Skapa och hantera instrumentpaneler](../../../reports-a
 
 Nu kan du lägga till och redigera anpassade formulär direkt i dokumentsammanfattningspanelen.
 
-Med den här ändringen får du också ett nytt utseende i dokumentsammanfattningen. Det finns ett nytt avsnitt, Översikt, som innehåller både miniatyrbilden och dokumentinformationen. Du kan även checka in och ut dokument i dokumentinformationsavsnittet.
+Med den här ändringen får du också ett nytt utseende och en ny känsla i dokumentsammanfattningen. Det finns ett nytt avsnitt, Översikt, som innehåller både miniatyrbilden och dokumentinformationen. Du kan även checka in och ut dokument i dokumentinformationsavsnittet.
 
 Tidigare var du tvungen att gå till fliken Egna formulär i Dokumentinformation för att göra ändringar eller lägga till anpassade formulär.
 
@@ -104,7 +105,7 @@ Det omdesignade gränssnittet matchar upplevelsen när du skapar ett projekt fr�
 
 Mer information finns i [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## Konvertera ärenden till projekt med hjälp av en mall från listor, rapporter och kontrollpaneler
+## Konvertera ärenden till projekt med en mall från listor, rapporter och kontrollpaneler
 
 >[!NOTE]
 >

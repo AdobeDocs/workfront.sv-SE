@@ -1,14 +1,15 @@
 ---
-title: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 7 februari 2022
-description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 7 februari 2022
+title: Aktivitet för Workfront Fusion:&nbsp;Vecka den 7 februari 2022
+description: Aktivitet för Workfront Fusion:&nbsp;Vecka den 7 februari 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 4cc64bf6-98a4-4a92-b8d5-0c1e5e293171
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront
 
 ## Anaplan-anslutning och moduler är nu tillgängliga
 
-Nu kan du använda Adobe Workfront Fusion för att ansluta till ditt Anaplan-konto. Med Anaplan-modulerna kan du
+Nu kan du ansluta till ditt Anaplan-konto med Adobe Workfront Fusion. Med Anaplan-modulerna kan du
 
 * Skapa, läsa, uppdatera, ta bort eller söka i Anaplan-poster
 * Batchimportposter till Anaplan
@@ -43,9 +44,9 @@ Mer information finns i [Anaplan-moduler](../../../workfront-fusion/apps-and-the
 </div>
 -->
 
-## Gå direkt till Scenarioredigeraren när du skapar ett scenario
+## Gå direkt till scenredigeraren när du skapar ett scenario
 
-Vi har tagit bort sidan för programval för att göra scenarioskapandet smidigare. Nu kan du gå direkt till scenredigeraren och välja det program du vill ansluta till i listan som visas när du lägger till en modul.
+Vi har tagit bort sidan för programval för att göra scenarioskapandet smidigare. Nu kan du gå direkt till Scenarioredigeraren och välja det program du vill ansluta till i listan som visas när du lägger till en modul.
 
 Tidigare kunde du välja appar både från sidan för programval och från listan.
 

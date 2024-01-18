@@ -4,8 +4,9 @@ description: 22.4 Andra förbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,9 +23,9 @@ En lista över alla ändringar som är tillgängliga i version 22.4 finns i [22.
 
 Det här plugin-programmet kan nu installeras i InDesign. Du får tillgång till information om arbetsuppgifterna, kan samarbeta med kollegor i uppdateringsområdet och kan skicka in korrektur för granskning utan att behöva lämna XD. Gå till Adobe Creative Cloud Marketplace och ladda ned pluginen idag.
 
-Mer information om plugin-programmet finns i [[!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Mer information om plugin-programmet finns i [[!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] Program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[Ladda ned Adobe Workfront för InDesign på Marketplace idag](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[Ladda ned Adobe Workfront för InDesign på marknaden idag](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
 Administratörer kan även [skapa ett paket med plugin-program](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) från Admin Console och distribuera till användare på ett hanterat eller självhanterat sätt.
 
@@ -40,7 +41,7 @@ Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Servic
 
 ## Metadatapush för överordnade objekt för program och portföljer
 
-När en mediefil skickas till Experience Manager Assets eller Assets Essentials för första gången skickas även alla metadata som konfigurerats för att mappa för överordnade objekt för program och portföljer.
+När en resurs skickas till Experience Manager Assets eller Assets Essentials skickas nu även alla metadata som konfigurerats för att mappa för överordnade objekt för program och portföljer.
 
 Tidigare skickades bara överordnade projektdata.
 
@@ -86,6 +87,6 @@ Följande funktioner ingår i den här versionen:
 
 * Möjlighet att byta namn på Campaign-objektet från layoutmallen
 
-   Workfront system- och gruppadministratörer kan lägga till området Campaigns (Beta) på huvudmenyn i en layoutmall. Detta gör det tillgängligt för alla användare som är tilldelade mallen. När kampanjen är tillgänglig kan vem som helst i Workfront skapa en kampanj.
+  Workfront system- och gruppadministratörer kan lägga till området Campaigns (Beta) på huvudmenyn i en layoutmall. Detta gör det tillgängligt för alla användare som är tilldelade mallen. Alla i Workfront kan skapa en kampanj när den är tillgänglig.
 
 

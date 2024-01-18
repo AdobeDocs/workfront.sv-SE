@@ -3,9 +3,11 @@ title: Förbättringar av administratören för fjärde kvartalet 2023
 description: Förbättringar av administratören för fjärde kvartalet 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: 7ed37978-b821-488e-9ca1-b81825255be3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---

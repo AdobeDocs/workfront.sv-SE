@@ -6,10 +6,11 @@ title: 21.1 Andra förbättringar
 description: Den här sidan beskriver alla andra förbättringar som gjorts i version 21.1 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 15 februari 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.
 
 ## Uppdateringar av kraven för misslyckade händelseprenumerationer
 
-Vi uppdaterar kraven för mjuk inaktivering vid fel med händelseprenumeration. Förutom de befintliga kraven inaktiveras nu Event-prenumerationer om de inte lyckas leverera inom 2 000 försök. Detta är för att stärka den befintliga 70-procentiga felregeln, som under vissa omständigheter kan leda till alltför många fel.
+Vi uppdaterar kraven för mjuk inaktivering vid fel med händelseprenumeration. Förutom de befintliga kraven inaktiveras nu även Event-prenumerationer om de inte lyckas leverera inom 2 000 försök. Detta är för att stärka den befintliga 70-procentiga felregeln, som under vissa omständigheter kan leda till alltför många fel.
 
 Dessutom kommer vi att lägga till krav på inaktivering från och med februari 2021.
 
@@ -46,7 +47,7 @@ Mer information finns i [Gör det möjligt för användare att skicka ett ärend
 
 Mer information om varför vi gör den här ändringen finns i [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Den här funktionen ingår nu i [Köhantering i den nya Workfront-upplevelsen](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Köhantering i nya Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) utbildningsväg på Workfront One.
 
 ## Begränsa timredigering för tidrapporter
 
@@ -69,8 +70,8 @@ Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timeshee
 
 Du kan nu dölja övertidsrutan för att förenkla för användaren om du inte spårar övertid i Workfront. Du kan dölja övertidsrutan för en enskild tidrapport eller i tidrapportprofilen:
 
-* Engångstidrapport: När du väljer att dölja övertidsrutan i en enskild tidrapport, döljs den bara för den tidrapporten. Mer information finns i [Skapa en tidrapport för engångsbruk](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Tidrapportprofil: När du väljer att dölja övertidsrutan i tidrapportprofilen, kommer alla framtida tidrapporter som skapas för de användare som tilldelats den profilen inte att se övertidsrutan. Mer information finns i [Skapa, redigera och tilldela tidrapportprofiler](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Enkel tidrapport: När du väljer att dölja övertidsrutan i en enskild tidrapport döljs den bara för den tidrapporten. Mer information finns i [Skapa en tidrapport för engångsbruk](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Tidrapportprofil: När du väljer att dölja rutan för övertid i tidrapportprofilen kommer alla framtida tidrapporter som skapas för de användare som tilldelats den profilen inte att se rutan för övertid. Mer information finns i [Skapa, redigera och tilldela tidrapportprofiler](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Tidigare kunde du inte dölja övertidsrutan på tidrapporter.
 
@@ -78,7 +79,7 @@ Tidigare kunde du inte dölja övertidsrutan på tidrapporter.
 
 För att det ska bli enklare att visa hela sökvägen har vi lagt till funktionerna för att expandera och komprimera.
 
-Nu grupperas alla trunkerade objekt före projektet med texten &quot;mer&quot;. &quot;3 till&quot; betyder till exempel att det finns 3 objekt som inte visas.
+Nu grupperas alla trunkerade objekt före projektet med texten &quot;mer&quot;. &quot;3 till&quot; betyder t.ex. att det finns 3 objekt som inte visas.
 
 Tidigare var du tvungen att klicka på ellipsen för att visa trunkerade objekt i en nedrullningsbar meny.
 

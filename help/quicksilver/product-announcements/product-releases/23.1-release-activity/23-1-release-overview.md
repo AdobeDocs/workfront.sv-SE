@@ -4,10 +4,11 @@ description: 23.1 - versionsöversikt
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -77,7 +78,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 20 oktober 2022<br /></p>
+                                <p>Förhandsversion: 20 oktober 2022<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsrelease: 27 oktober 2022 (utanför cykeln)</span></p>
@@ -95,7 +96,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 13 oktober 2022<br /></p>
+                                <p>Förhandsversion: 13 oktober 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 23.1</p>
@@ -129,7 +130,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         <ul>
                         <li>Spåra arbeten i iterationer och fjädrar</li>
                         <li>Använd snabbhet för att vägleda teamets åtaganden</li>
-                        <li>Spåra driftstopp och slutförandegrad</li>
+                        <li>Spåra nedbränning och slutförandegrad</li>
                         </ul>
                         </p>
                     </td>
@@ -142,7 +143,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                             </li>
                             <li>
                                 <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
-                                <p>Produktionsrelease för alla kunder: Snabbt följa efter version 23.1</p>
+                                <p>Produktionsrelease för alla kunder: Följ snabbt efter version 23.1</p>
                             </li>
                         </ul>
                     </td>
@@ -160,7 +161,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                                 <p>Förhandsgranskningsversion: 1 december 2022<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för tidig anmälan: Otillgänglig</p> 
+                                <p>Produktionsrelease för tidig anmälan: Ej tillgänglig</p> 
                                 <p>Produktionsrelease för alla kunder: Med version 23.1</p>
                             </li>
                         </ul>
@@ -168,7 +169,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Poster i checklistan och Workfront-underuppgifter är nu länkade</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Poster i checklistan för anslagstavlor och Workfront-underuppgifter är nu länkade</a></p>
                         <p>När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla underuppgifter som checklisteobjekt på kortet. När du skapar ett checklisteobjekt på ett anslutet kort läggs en underuppgift till i Workfront-uppgiften. Checklisteobjekt vid problem är inte kopplade till några Workfront-objekt.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -179,7 +180,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                                 <p>Förhandsgranskningsversion: 1 december 2022<br /><span style="color: #ff0000;"> Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas med 23.1.</span></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för tidig anmälan: Otillgänglig</p>
+                                <p>Produktionsrelease för tidig anmälan: Ej tillgänglig</p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.1</p>
                             </li>
                         </ul>
@@ -195,7 +196,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 17 november 2022<br /></p>
+                                <p>Förhandsversion: 17 november 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 1 december 2022 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -214,7 +215,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 10 november 2022<br /></p>
+                                <p>Förhandsversion: 10 november 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 17 november 2022 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -233,7 +234,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 10 november 2022<br /></p>
+                                <p>Förhandsversion: 10 november 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 17 november 2022 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -255,7 +256,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 10 november 2022<br /></p>
+                                <p>Förhandsversion: 10 november 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 17 november 2022 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -274,7 +275,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 27 oktober 2022<br /></p>
+                                <p>Förhandsversion: 27 oktober 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 3 november 2022 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -294,7 +295,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 27 oktober 2022<br /></p>
+                                <p>Förhandsversion: 27 oktober 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 3 november 2022 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
@@ -389,10 +390,10 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: Februari/mars 2023<br /></p>
+                                <p>Förhandsversion: februari/mars 2023<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease: Februari/mars 2023</p>
+                                <p>Produktionsrelease: februari/mars 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -437,7 +438,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar som både ser ut och känns under 23.1-releasetiden</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar som både ser ut och känns under 23.1-releasetidningen</a></p>
                         <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för version 23.1. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -462,7 +463,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 27 oktober 2022<br /></p>
+                                <p>Förhandsversion: 27 oktober 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: 3 november 2022 <span style="color: #ff0000;"> Den här funktionen gäller endast kunder som är registrerade för Adobe Unified Experience för Workfront.</span></p>
@@ -477,14 +478,14 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         <p>Följande uppdateringar är nu tillgängliga för häftstift:</p>
                         <ul>
                         <li>Byt namn på befintliga punkter</li>
-                        <li>En förbättrad upplevelse när du tar bort ett häftstift</li>
+                        <li>En förbättrad upplevelse när du tar bort ett stift</li>
                         </ul>
                         <p>Alternativen för att byta namn på ett häftstift och ta bort ett häftstift visas i en nedrullningsbar meny när du hovrar över stiftet.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 13 oktober 2022<br /></p>
+                                <p>Förhandsversion: 13 oktober 2022<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsrelease: 27 oktober 2022 (utanför cykeln)</span></p>
@@ -503,7 +504,7 @@ Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 
 
 ### Förbättringar av WorkfrontScenarioplanering
 
-Det finns inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
+Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-korrektur
 
@@ -525,9 +526,9 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 Mer information om underhållsuppdateringar som gjordes i version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### Utbildningsuppdateringar
+### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funktioner som snart ska tas bort från Workfront
 
@@ -542,7 +543,7 @@ För närvarande gör vi följande ändringar:
 * Ta bort området Campaigns (Beta) från huvudmenyn och från layoutmallarna i förhandsvisningsmiljön.
 * Ta bort området för kampanjer (betaversion) från huvudmenyn och från layoutmallarna i produktionsmiljön för de kunder som aktiverade det på begäran.
 
-Dessutom kommer alla artiklar som beskriver den här funktionen också att tas bort.
+Dessutom tas alla artiklar som beskriver den här funktionen också bort.
 
 #### **Listkontroller (från området Gränssnitt i installationsprogrammet)**
 

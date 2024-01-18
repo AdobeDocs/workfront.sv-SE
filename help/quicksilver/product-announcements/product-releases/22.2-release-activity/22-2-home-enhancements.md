@@ -4,10 +4,11 @@ description: 22.2 Hem-förbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 18ff9c45-f8f0-467c-b232-91e863f16cb8
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,5 +33,5 @@ För att få större kontroll över och fokus på din arbetslista har vi impleme
 
 Tidigare gav filtren i Hem inte korrekt antal arbetsobjekt i listan när du markerade ett eller flera filter och de skapade förvirring om arbetsobjektens status.
 
-Mer information finns i [Visa objekt i arbetslistan i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Mer information finns i [Visa objekt i arbetslista i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 

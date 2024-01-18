@@ -4,10 +4,11 @@ description: 2.1 Förbättrade begäranden
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: be6da26d-1d80-4946-8222-cd164b2b633f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ En lista över alla ändringar som är tillgängliga i version 2.1 finns i [2.1 
 
 ## Gränssnittsförbättring för användare som inte har behörighet att skapa begäranden
 
-För att förbättra användarnas upplevelse när de arbetar med begäranden har vi infört en förbättring av gränssnittet som anger för den inloggade användaren att de inte har tillgång till att skapa begäranden. I och med den här förbättringen är knappen Ny begäran nedtonad för användare som inte har åtkomst till att skapa problem. När du hovrar över den nedtonade knappen visas ett verktygstips som förklarar att Workfront-administratören har begränsat den aktuella användarens åtkomst för att skapa begäranden.
+För att förbättra användarnas upplevelse när de arbetar med förfrågningar har vi infört en förbättring av gränssnittet som anger för den inloggade användaren att de inte har tillgång till att skapa förfrågningar. I och med den här förbättringen är knappen Ny begäran nedtonad för användare som inte har åtkomst till att skapa problem. När du hovrar över den nedtonade knappen visas ett verktygstips som förklarar att Workfront-administratören har begränsat den aktuella användarens åtkomst för att skapa begäranden.
 
 Före den här förbättringen visades inte knappen Ny begäran i området Begäranden för dessa användare. Kopiering och inlämning av en begäran som ny är också begränsad.
 
@@ -50,7 +51,7 @@ Mer information finns i [Kopiera och skicka begäranden](../../../manage-work/re
 
 >[!NOTE]
 >
->Den här funktionen togs tillfälligt bort från förhandsvisningsmiljön den 12 november 2021. Den kommer att läggas till vid ett senare tillfälle.
+>Den här funktionen togs tillfälligt bort från förhandsvisningsmiljön den 12 november 2021. Den kommer att läggas till på nytt vid ett senare tillfälle.
 
 För att förbättra synligheten och interaktionen med panelen Sammanfattning har vi lagt till en etikett till ikonen Öppna sammanfattning i avsnittet Skickat i området Begäranden. Etiketten är nu dynamisk och uppdateras beroende på om panelen är öppen eller stängd.
 

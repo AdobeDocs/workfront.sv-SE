@@ -4,11 +4,12 @@ description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 23 augusti 
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ För att göra det enklare att använda moduler har vissa listrutor ersatts med 
 
 Tidigare valde användare objekt i listrutor. Beroende på vilket objekt det är kan listorna vara långa och det kan vara besvärligt att bläddra och hitta objekt.
 
-Mer information om Workfront-moduler finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information om Workfront-moduler finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Faktureringspostobjekt är nu tillgängligt i Workfront-moduler
 
@@ -42,7 +43,7 @@ Faktureringspostobjektet är tillgängligt i listrutor med objektval i följande
 
 Tidigare var faktureringspostobjektet endast tillgängligt via mappning.
 
-Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 1 februari 2021"'
+title: "Workfront Fusion-lansering: vecka 1 februari 2021"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 1 februari 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ Mer information finns i [MariaDB-moduler](../../../workfront-fusion/apps-and-the
 
 ## Marketo Connector och moduler är nu tillgängliga
 
-* Nu kan du använda Workfront Fusion för att ansluta till ditt Marketo-konto. Med Marketo Connector kan du
+* Nu kan du ansluta till ditt Marketo-konto med Workfront Fusion. Med Marketo Connector kan du
 * Utlös ett scenario när en post skapas eller uppdateras.
 * Skapa, läsa eller uppdatera poster
 * Överför eller hämta filer
@@ -55,7 +56,7 @@ Mer information finns i [MariaDB-moduler](../../../workfront-fusion/apps-and-the
 * Kopiera ett program
 * Göra ett anpassat API-anrop
 
-Mer information finns i [Marketo-moduler](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
+Mer information finns i [Marketo moduler](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 
 <!--
 

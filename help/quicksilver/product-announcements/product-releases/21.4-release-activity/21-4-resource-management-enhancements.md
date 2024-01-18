@@ -4,10 +4,11 @@ description: 21.4 Förbättrad resurshantering
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -40,12 +41,12 @@ Vi har gjort om filterupplevelsen i arbetsbelastningsutjämnaren så att den inn
 
 * Enklare och effektivare användargränssnitt som matchar den nya Workfront-upplevelsen
 * Ytterligare fält som du kan filtrera efter
-* Möjlighet att duplicera ett filter
+* Kan duplicera ett filter
 * Dela filter med andra användare
 
 Mer information finns i [Hantera filter i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 >[!NOTE]
 >
->Med filteruppdateringarna har vi eliminerat **Alla arbetsuppgifter** och **Det här projektets arbetsobjekt** inbyggda filter i ett projekts belastningsutjämnare.
+>Med filteruppdateringarna har vi eliminerat **Alla arbetsobjekt** och **Det här projektets arbetsobjekt** inbyggda filter i ett projekts belastningsutjämnare.
 

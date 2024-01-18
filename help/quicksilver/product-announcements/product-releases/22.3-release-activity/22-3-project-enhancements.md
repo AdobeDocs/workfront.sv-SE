@@ -4,10 +4,11 @@ description: projektuppdateringar under tidsramen för version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -46,9 +47,9 @@ För att få din användning av Workfront att överensstämma med den nya Workfr
 
 Uppdateringen innehåller:
 
-* Ett uppdaterat användargränssnitt som matchar resten av den nya Workfront-upplevelsen.
+* Ett uppdaterat användargränssnitt som matchar resten av Workfront.
 
-* Åtkomst för att konvertera ett ärende till uppgifter från en lista eller rapport.
+* Åtkomst för att konvertera ett problem till aktiviteter från en lista eller rapport.
 
 * Standardformulären som definieras i området Aktivitetsinställningar i målprojektet som läggs till i den nya uppgiften.
 
@@ -75,7 +76,7 @@ För att förbereda dig för framtida förbättringar som hjälper dig att lägg
 
 Mer information finns i avsnittet &quot;Bygg beräkningen för ditt beräknade anpassade fält&quot; i [artikel Lägga till beräknade data i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-## Bevara korrekt information när två användare med en gemensam roll deltar i en godkännandeprocess
+## Behåll korrekt information när två användare med en gemensam roll deltar i en godkännandeprocess
 
 För att säkerställa att dina data för godkännande av arbete är korrekta har vi gjort en ändring i hur godkännandeinformation registreras för en artikel när en godkännandeprocess för flera roller är kopplad till artikeln.
 
@@ -89,7 +90,7 @@ Mer information om godkännandeprocesser i Workfront finns i [Översikt över go
 
 >[!NOTE]
 >
->Den här funktionen var ursprungligen planerad att lanseras med version 22.2. Den släpptes till produktion den 21 april 2022.
+>Den här funktionen var ursprungligen planerad att lanseras med version 2.2. Den släpptes till produktion den 21 april 2022.
 
 
 För att dina data ska bli korrekta har vi gjort en ändring som bevarar tilldelningstimmar och behåller planerad tid för aktiviteten oförändrad när du ändrar tilldelningar för aktiviteten.
@@ -144,7 +145,7 @@ Mer information om att dela mappar finns i [Dela en dokumentmapp på den överst
 
 >[!NOTE]
 >
->Den här funktionen är planerad att tas bort från förhandsgranskningen den 9 januari 2023. Mer information finns i [23.1 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Den här funktionen kommer att tas bort från förhandsgranskningen den 9 januari 2023. Mer information finns i [23.1 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >
@@ -175,7 +176,7 @@ Följande funktioner ingår i den här versionen:
 
 * Möjlighet att byta namn på Campaign-objektet från layoutmallen
 
-   Workfront system- och gruppadministratörer kan lägga till området Campaigns (Beta) på huvudmenyn i en layoutmall. Detta gör det tillgängligt för alla användare som är tilldelade mallen. När kampanjen är tillgänglig kan vem som helst i Workfront skapa en kampanj.
+  Workfront system- och gruppadministratörer kan lägga till området Campaigns (Beta) på huvudmenyn i en layoutmall. Detta gör det tillgängligt för alla användare som är tilldelade mallen. Alla i Workfront kan skapa en kampanj när den är tillgänglig.
 
 
 

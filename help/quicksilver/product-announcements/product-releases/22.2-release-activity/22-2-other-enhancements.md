@@ -4,10 +4,11 @@ description: 22.2 Andra förbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Vi har gjort flera förbättringar av navigeringsfältet längst upp i Adobe Wor
 
 * Favoriter och Senaste har nu separata ikoner i det övre navigeringsfältet. Alla innehåller fortfarande samma innehåll (sidor som du har markerat som favoriter och sidor som du nyligen har besökt), och du kan fortsätta lägga till och ta bort favoritsidor på samma sätt.
 * Utseendet och känslan hos både stift och huvudmenyn har uppdaterats till designstandarderna för Adobe, inklusive färger och teckensnitt. Det sätt som du lägger till och tar bort punkter och de områden du har tillgång till på huvudmenyn har inte ändrats.
-* Ikonerna till höger om det övre navigeringsfältet har ordnats om för att bli mer intuitiva. Ikonordningen är: hjälplänk, meddelanden, favoriter, senaste nytt, sökning, huvudmeny.
+* Ikonerna till höger om det övre navigeringsfältet har ordnats om för att bli mer intuitiva. Ikonordningen är: hjälplänk, meddelanden, favoriter, senaste, sökning, huvudmeny.
 
 Mer information finns i [Översikt över det övre navigeringsfältet](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 

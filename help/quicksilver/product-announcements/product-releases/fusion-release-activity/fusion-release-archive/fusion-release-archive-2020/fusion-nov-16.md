@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 16 november 2020"'
+title: 'Workfront Fusion-lanseringsaktivitet: 16 november 2020'
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 16 november 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9221a69e-2482-478b-95a9-f62dd28538d6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -49,11 +50,11 @@ Vi har lagt till några kortkommandon för att göra scenarioskapandet enklare:
 * Ctrl/Cmd+Skift+Retur: Kör ett scenario en gång
 * Ctrl/Cmd + Skift + S: Spara ett scenario
 
-Mer information om hur du bygger Workfront Fusion 2.0 finns i [Skapa ett scenario i Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
+Mer information om hur du skapar scenarier i Workfront Fusion 2.0 finns i [Skapa ett scenario i Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ## Uppdateringar till Office 365 Excel-anslutningsprogrammet
 
-Vi har lagt till några nya moduler för att utöka de sätt som du kan använda Office 365 Excel-anslutningen. Nu kan du
+Vi har lagt till några nya moduler för att utöka de sätt som du kan använda Office 365 Excel-anslutningen. Nu kan du:
 
 * Utlösa en modul från ändringar till arbetsböcker
 * Söka i eller hämta arbetsböcker
@@ -73,4 +74,4 @@ Vi har uppdaterat Workfront Connector så att OAuth 2.0 används. Den här uppda
 
 Befintliga anslutningar kräver för närvarande inga ändringar. Du kan dock återauktorisera befintliga anslutningar om du vill dra nytta av fördelarna med OAuth 2.0.
 
-Mer information finns i [Adobe Workfront-moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

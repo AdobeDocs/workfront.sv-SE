@@ -5,10 +5,11 @@ title: R1 Preview 1 och 2
 description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön med versionerna R1.1 och R1.2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 19 januari 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---

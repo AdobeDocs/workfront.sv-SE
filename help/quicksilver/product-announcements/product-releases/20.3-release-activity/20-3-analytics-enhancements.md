@@ -1,19 +1,20 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Förbättrad analys
+title: 20.3 Förbättringar av analysen
 description: Den här sidan beskriver alla analysförbättringar som gjorts i version 20.3 till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 10 augusti 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# 20.3 Förbättrad analys
+# 20.3 Förbättringar av analysen
 
 Den här sidan beskriver alla analysförbättringar som gjorts i version 20.3 till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 10 augusti 2020.
 

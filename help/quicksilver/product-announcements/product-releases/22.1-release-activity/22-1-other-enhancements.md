@@ -4,10 +4,11 @@ description: 22.1 Andra förbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 761ad16f-0c6e-48c7-a3d3-49ebfa1694e5
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ För att göra det enklare och snabbare att hitta objekt som kräver din uppmär
 
 Före dessa förbättringar kan du bara gruppera dina objekt efter planerat slutförandedatum och efter implementeringsdatum.
 
-Mer information finns i [Visa objekt i arbetslistan i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Mer information finns i [Visa objekt i arbetslista i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ## Lägg till området Mina uppdateringar för alla licensierade användare
 

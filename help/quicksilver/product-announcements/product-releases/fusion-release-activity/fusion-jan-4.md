@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 4 januari 2021"'
+title: "Workfront Fusion-lansering: 4 januari 2021"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 4 januari 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 64502a4c-afe9-4bc8-985c-d4ce879233a2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Vi har lagt till några nya moduler för att utöka de sätt du kan använda e-p
 * Lista bilagor
 * Hämta en bifogad fil
 * Lägg till en bifogad fil
-* Göra ett API-anrop
+* Anropa ett API
 
 Vi har också tagit bort modulen Iterate-bilagor. Du kan kombinera modulen Lista bifogade filer med modulen iterator för att iterera igenom bifogade filer.
 

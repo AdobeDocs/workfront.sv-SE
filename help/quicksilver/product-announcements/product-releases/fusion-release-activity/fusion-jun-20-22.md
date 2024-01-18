@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 20 juni 2022"'
+title: "Workfront Fusion-lansering: vecka 20 juni 2022"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion veckan efter 20 juni 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: b18a4a36-6347-4ece-a2c1-4d71917181ce
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -41,4 +42,4 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till ditt Adobe AEM A
 * Göra ett anpassat API-anrop
 
 
-Mer information finns i [Adobe Experience Manager Assets-moduler](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md).
+Mer information finns i [Adobe Experience Manager Assets moduler](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md).

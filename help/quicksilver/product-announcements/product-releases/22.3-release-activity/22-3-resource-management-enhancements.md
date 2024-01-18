@@ -1,13 +1,14 @@
 ---
-title: resurshanteringsuppdateringar under tidsramen för version 22.3
-description: resurshanteringsuppdateringar under tidsramen för version 22.3
+title: resurshanteringsuppdateringar under tidsramen för version 2.3
+description: resurshanteringsuppdateringar under tidsramen för version 2.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ För att förbättra din upplevelse när du använder belastningsutjämnaren har
 
 * Förbättrad sortering i avsnitten Ej tilldelad och Tilldelad.
 
-   Nu kan du sortera efter användarnamn eller jobbroller (i området Ej tilldelat arbete) och efter projektfält i både området Ej tilldelat och området Tilldelat arbete.
+  Nu kan du sortera efter användarnamn eller jobbroller (i området Ej tilldelat arbete) och efter projektfält i både området Ej tilldelat och området Tilldelat arbete.
 
 * Om du för musen över uppgifter eller problem visas ytterligare information (projektnamn, planerade start- och slutdatum, beroenden, planerade timmar, namn på överordnade uppgifter).
 

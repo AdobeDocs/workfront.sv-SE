@@ -5,10 +5,11 @@ title: Andra Workfront Classic-funktioner som lanserades i Production före vers
 description: Följande funktioner var tillgängliga för Workfront Classic Production-miljön före 2020.1-utgåvan av Production.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 267757fb-a8ef-43cf-a93c-3ac59d8bb432
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Information om tidsramen för releasen och alla funktioner som är tillgängliga
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td> Workfront cookie-beteende har uppdaterats för att bibehålla kompatibiliteten med Chrome <p>För att bibehålla kompatibiliteten med en kommande Google Chrome-uppdatering (Chrome v80) har vi uppdaterat Workfront-plattformen så att cookies skickas på rätt sätt med begäranden. </p> <p>Den här Chrome-uppdateringen ändrar standardvärdet för cookie-attributet SameSite. Om du vill testa hur din Workfront-instans fungerar efter uppdateringen av Google Chrome justerar du flaggorna i Chrome och aktiverar följande alternativ: </p> 
+   <td> Workfront cookie-beteende har uppdaterats för att bibehålla kompatibilitet med Chrome <p>För att bibehålla kompatibiliteten med en kommande Google Chrome-uppdatering (Chrome v80) har vi uppdaterat Workfront-plattformen så att cookies skickas på rätt sätt med begäranden. </p> <p>Den här Chrome-uppdateringen ändrar standardvärdet för cookie-attributet SameSite. Om du vill testa hur din Workfront-instans fungerar efter uppdateringen av Google Chrome justerar du flaggorna i Chrome och aktiverar följande alternativ: </p> 
     <ul> 
      <li>"SameSite som standard cookies" </li> 
      <li>"Cookies utan SameSite måste vara säkra"</li> 
@@ -32,7 +33,7 @@ Information om tidsramen för releasen och alla funktioner som är tillgängliga
      <p><strong>Finns i följande miljöer:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
-      <li>Den nya Workfront-upplevelsen</li> 
+      <li>Nya Workfront</li> 
      </ul> 
      <p><strong>Förhandsversion</strong> </p> 
      <ul> 
@@ -55,7 +56,7 @@ Information om tidsramen för releasen och alla funktioner som är tillgängliga
      <p><strong>Finns i följande miljöer:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
-      <li>Den nya Workfront-upplevelsen</li> 
+      <li>Nya Workfront</li> 
      </ul> 
      <p><strong>Produktionsrelease:</strong> </p> 
      <ul> 
@@ -69,7 +70,7 @@ Information om tidsramen för releasen och alla funktioner som är tillgängliga
      <p><strong>Finns i följande miljöer:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
-      <li>Den nya Workfront-upplevelsen</li> 
+      <li>Nya Workfront</li> 
      </ul> 
      <p><strong>Produktionsrelease:</strong> </p> 
      <ul> 
@@ -83,7 +84,7 @@ Information om tidsramen för releasen och alla funktioner som är tillgängliga
      <p><strong>Finns i följande miljöer:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
-      <li>Den nya Workfront-upplevelsen</li> 
+      <li>Nya Workfront</li> 
      </ul> 
      <p><strong>Produktionsrelease:</strong> </p> 
      <ul> 

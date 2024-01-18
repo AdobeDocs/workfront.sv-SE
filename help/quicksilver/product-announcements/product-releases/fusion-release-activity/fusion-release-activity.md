@@ -7,8 +7,9 @@ title: Översikt över publiceringsaktiviteten för Adobe Workfront Fusion
 description: Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlöst så att du kan koncentrera dig på nya uppgifter istället för att upprepa samma uppgifter om och om igen.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 1d0c03e7818f6ecf4cd5ea8b6cc1c7324fbadd23
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%

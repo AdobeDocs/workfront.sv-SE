@@ -4,10 +4,11 @@ description: rapportera uppdateringar under tidsramen för version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d6dba849-6915-4c2c-b378-a8d3daa8a0d5
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ För att återspegla resursbudgeteringsinformation från resursplaneraren har vi
 
 * Budgettimmar för resursplanering
 
-   Eftersom de refererade till inaktuella verktyg som har tagits bort från Workfront i tidigare versioner har vi tagit bort följande resursbudgeteringsfält från listor och rapporter:
+  Eftersom de refererade till inaktuella verktyg som har tagits bort från Workfront i tidigare versioner har vi tagit bort följande resursbudgeteringsfält från listor och rapporter:
 
 
 Följande resursbudgeteringsfält har tagits bort från listor och rapporter eftersom de refererade till inaktuella verktyg som har tagits bort från Workfront i tidigare versioner:

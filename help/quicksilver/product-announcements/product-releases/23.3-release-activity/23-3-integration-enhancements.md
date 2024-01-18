@@ -3,9 +3,11 @@ title: 23.3 Integration enhancements
 description: 23.3 Integration enhancements
 author: Lisa
 feature: Product Announcements
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+recommendations: noDisplay, noCatalog
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -40,7 +42,7 @@ Information om hur du installerar Workfront for Creative Cloud-plugin-program fi
 
 ## Visa och hantera Workfront-meddelanden från Workfront för plugin-program för Creative Cloud
 
-För att förenkla för dig att få de meddelanden du behöver har vi gjort det möjligt att visa och hantera Workfront-meddelanden utan att behöva lämna Adobe Creative Cloud. Nu kan du visa meddelanden och komma åt arbetsobjekt och kommentarer som hör till dessa meddelanden direkt från Workfront plugin-fönster i programmet Creative Cloud.
+För att förenkla för dig att få de meddelanden du behöver har vi gjort det möjligt att visa och hantera Workfront-meddelanden utan att behöva lämna Adobe Creative Cloud. Nu kan du visa meddelanden, arbetsobjekt och kommentarer som hör till dessa meddelanden, direkt från Workfront plugin-fönster i programmet Creative Cloud.
 
 Tidigare var meddelanden bara tillgängliga i Workfront och via e-post.
 
@@ -66,7 +68,7 @@ For more information, see [Link documents from external applications](/help/quic
 
 Med det nya arbetsflödet Skapa länkad mapp för Adobe Experience Manager-integreringen kan du konfigurera integreringen med en sökväg till en Adobe Experience Manager Assets-mapp. När integreringen läggs till i en projektmall skapas automatiskt en länkad undermapp i Experience Manager Assets i den angivna mappen för projekt som skapas från mallen.
 
-Tidigare krävdes åtgärder från användaren för att skapa länkade mappar.
+Tidigare krävdes åtgärder från användarens sida för att skapa länkade mappar.
 
 Den här funktionaliteten är bara tillgänglig om Adobe Experience Manager as a Cloud Service är integrerat med Workfront. Detta är inte tillgängligt i Adobe Experience Manager förbättrade anslutning.
 

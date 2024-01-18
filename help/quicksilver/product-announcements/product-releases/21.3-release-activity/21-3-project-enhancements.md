@@ -4,10 +4,11 @@ description: 21.3 Projektförbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1df4ccdb-5b74-414c-a622-b0a5ed30a8c4
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -153,7 +154,7 @@ Mer information om objektrubrikerna i den nya Workfront-upplevelsen finns i [Nya
 
 Vi har gjort det enklare att lägga till ett anpassat formulär som någon annan kan fylla i - eller som du senare ska fylla i - i ett objekt. Formuläret försätts inte längre i redigeringsläge automatiskt när du lägger till det. Du kan bara spara det tomma formuläret i objektet.
 
-Tidigare när du lade till ett anpassat formulär till ett objekt, övergick sidan till redigeringsläge och du var tvungen att fylla i alla obligatoriska fält i formuläret innan du kunde spara det till objektet. Detta var inte praktiskt när formuläret var avsett för en annan användare att fylla i, eller när du ännu inte visste vad som skulle läggas in i ett obligatoriskt fält i formuläret.
+Tidigare när du lade till ett anpassat formulär till ett objekt, övergick sidan till redigeringsläge och du var tvungen att fylla i alla obligatoriska fält i formuläret innan du kunde spara det till objektet. Det var inte praktiskt när formuläret var avsett för en annan användare att fylla i, eller när du ännu inte visste vad som skulle läggas in i ett obligatoriskt fält i formuläret.
 
 Mer information om hur du lägger till ett anpassat formulär till ett objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

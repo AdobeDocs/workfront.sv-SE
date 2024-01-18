@@ -6,10 +6,11 @@ title: 21.2 Förbättrade begäranden
 description: Den här sidan beskriver alla begäranden som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i versionsöversikt 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Ex
 >
 >Den här funktionen är bara tillgänglig i den nya Adobe Workfront-upplevelsen
 
-I takt med att vi fortsätter att lyssna på och införliva dina synpunkter har vi lagt till flera förbättringar i arbetsflödet för nya förfrågningar som gör din interaktion med Adobe Workfront enklare och mer intuitiv. De här förbättringarna är:
+I takt med att vi fortsätter att lyssna på och införliva dina synpunkter har vi lagt till flera förbättringar i arbetsflödet för nya förfrågningar som gör din interaktion med Adobe Workfront enklare och mer intuitiv. Dessa förbättringar är:
 
 * Du kan välja var avsnittet Dokument ska placeras för att överföra filer när du skapar en frågekö när du definierar köinställningarna. Du kan placera det här avsnittet antingen före eller efter de anpassade fälten i begärandeformuläret. Mer information finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 * Sortering av listan Skickade begäranden efter en av kolumnerna bevaras nu när du navigerar bort från sidan. Mer information finns i [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -73,7 +74,7 @@ Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Ex
 
 För att få en enhetlig upplevelse i alla delar av Adobe Workfront har vi lagt till ikonen Öppna sammanfattning i avsnittet Skickat i området Begäranden. Nu kan du öppna panelen Sammanfattning för skickade problem och se mer information om problemen, tilldela dem eller lägga till ett dokument eller en kommentar.
 
-Mer information om skickade begäranden finns i [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Mer information om de skickade förfrågningarna finns i [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) utbildningsväg på Workfront One.
 
@@ -95,7 +96,7 @@ Mer information finns i [Skapa en begärandekö](../../../manage-work/requests/c
 
 För att skapa enhetlighet med den nya Workfront-upplevelsen och för att effektivisera när du skickar in begäranden har vi gjort om rutan Ny begäran i området Begäranden. Nedan följer några av förbättringarna:
 
-* Ett enhetligt användargränssnitt med resten av den nya Workfront-upplevelsen
+* Ett enhetligt användargränssnitt med resten av Workfront
 * Eliminerade området med nya förfrågningar för en enklare och mer intuitiv upplevelse
 * Ett nytt, effektivare sätt att bifoga dokument
 

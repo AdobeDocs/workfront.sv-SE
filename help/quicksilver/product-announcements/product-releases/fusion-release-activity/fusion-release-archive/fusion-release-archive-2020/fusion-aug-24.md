@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 24 augusti 2020"'
+title: "Workfront Fusion-lansering: 24 augusti 2020"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 17 augusti 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 195fc28b-435c-4c5e-be47-c73dea0499a6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ När du väljer någon av åtgärderna convertToProject eller convertToTask hjä
 * Det finns ingen ny lista med Project-standardfält (eller aktivitetsfält) som du kan fylla i eller mappa för det nya objektet. Tidigare krävdes en avancerad konfiguration för den här modulen. Om du har använt den här modulen tidigare är din avancerade konfiguration fortfarande tillgänglig under Avancerade inställningar.
 * En ny parameter: Kopiera anpassade data. Om det här alternativet är aktiverat kopieras alla anpassade fält som har värden på det ursprungliga objektet och som finns på det nya objektet automatiskt till det nya objektet.
 
-Mer information finns i [Adobe Workfront-moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Överför ett dokument till en viss mapp i Workfront Upload Document Module.
 
@@ -39,7 +40,7 @@ När du överför ett dokument till ett projekt, en uppgift eller ett ärende ka
 
 Tidigare var det inte möjligt att överföra direkt till en mapp.
 
-Mer information finns i [Adobe Workfront-moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Ute nu: Hubspot CRM och moduler
 

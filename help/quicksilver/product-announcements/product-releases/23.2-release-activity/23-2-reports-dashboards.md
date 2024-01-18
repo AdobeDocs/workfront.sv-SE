@@ -4,9 +4,11 @@ description: 23.2 Förbättringar av rapporter och kontrollpaneler
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+recommendations: noDisplay, noCatalog
+exl-id: 2b5785e4-2fc3-4b93-9fdf-9638282c732d
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -19,6 +21,6 @@ En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.
 
 ## Kontrollpaneler på arbetsytan
 
-Kontrollpaneler på arbetsytan har lagts till som en pågående funktion för kontrollpaneler som kan aktiveras i layoutmallar. På arbetsytans kontrollpaneler kan rapportarbetsytevisualiseringar kombineras med befintliga rapporter utöver de nya layoutalternativen. För närvarande stöds bara listrapporter, men fler alternativ läggs till under utvecklingen.
+Kontrollpaneler på arbetsytan har lagts till som en pågående funktion för kontrollpaneler som kan aktiveras i layoutmallar. På arbetsytans kontrollpaneler kan rapportarbetsytevisualiseringar kombineras med befintliga rapporter utöver de nya layoutalternativen. För närvarande stöds bara listrapporter, men fler alternativ läggs till allt eftersom utvecklingen fortsätter.
 
 Mer information om hur du aktiverar och använder arbetsytans kontrollpaneler finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

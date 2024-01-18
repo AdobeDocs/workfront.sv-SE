@@ -1,13 +1,14 @@
 ---
-title: andra uppdateringar under tidsramen för version 22.3
-description: andra uppdateringar under tidsramen för version 22.3
+title: andra uppdateringar under tidsramen för version 2.3
+description: andra uppdateringar under tidsramen för version 2.3
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 88d4c34e-9a3a-489d-ac97-2d81903104d8
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---

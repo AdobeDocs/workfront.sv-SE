@@ -4,15 +4,16 @@ content-type: release-notes
 product-area: workfront-integrations
 keywords: fusion
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 30 november 2020"'
+title: "Workfront Fusion-lansering: 30 november 2020"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 30 november 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -35,11 +36,11 @@ Mer information finns i [Adobe Workfront Fusion - prestandaräknare](../../../..
 
 ## Lägga till ett anpassat formulär i ett Workfront-objekt i Workfront Fusion 2.0
 
-För att du ska kunna lägga till anpassade formulär till objekt är Workfront Fusion 2.0, har vi lagt till en AssignCategories-åtgärd i Workfront > Misc. Åtgärdsmodul.
+För att du ska kunna lägga till anpassade formulär till objekt är Workfront Fusion 2.0, har vi lagt till åtgärden AssignCategories i Workfront > Misc. Åtgärdsmodul.
 
 Tidigare var det inte möjligt att använda en Workfront Fusion 2.0-modul för att lägga till ett anpassat formulär i ett objekt i Workfront.
 
-Mer information om Workfront > Div. Åtgärdsmodul, se [Adobe Workfront-moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information om Workfront > Div. Åtgärdsmodul, se [Adobe Workfront moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

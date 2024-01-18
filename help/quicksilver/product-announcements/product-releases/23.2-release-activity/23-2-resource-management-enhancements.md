@@ -4,9 +4,11 @@ description: 23.2 Förbättrad resurshantering
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+recommendations: noDisplay, noCatalog
+exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -21,7 +23,7 @@ En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 16 februari 2023, Planerad produktionsrelease: 2 mars 2023
+>Förhandsversion: 16 februari 2023; Planerad produktionsversion: 2 mars 2023
 
 För att resursansvariga ska kunna beräkna tillgängligheten för sina användare och ta hänsyn till den tid som användarna lägger ner på faktiskt, projektrelaterat arbete introducerar vi arbetstidsbegreppet för Adobe Workfront.
 

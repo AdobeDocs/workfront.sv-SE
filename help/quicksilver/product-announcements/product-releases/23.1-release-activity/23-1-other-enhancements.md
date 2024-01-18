@@ -4,10 +4,11 @@ description: 23.1 Andra förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Den uppdaterade pluginen, Adobe Workfront för design och video, har nu stöd f�
 
 Denna plugin ger dig tillgång till information om arbetsuppgifterna, möjlighet att samarbeta med kollegor i uppdateringsområdet och möjlighet att logga alla utan att lämna ditt favoritprogram i Creative Cloud.
 
-Hämta [Adobe Workfront för design och video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) på Marketplace idag.
+Ladda ned [Adobe Workfront för design och video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) på Marketplace idag.
 
 Administratörer kan även [skapa ett paket med plugin-program](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) från Admin Console och distribuera till användare på ett hanterat eller självhanterat sätt.
 
@@ -64,7 +65,7 @@ Den uppdaterade pluginen, Adobe Workfront för design och video, har nu stöd f�
 
 Denna plugin ger dig tillgång till information om arbetsuppgifterna, möjlighet att samarbeta med kollegor i uppdateringsområdet och möjlighet att logga alla utan att lämna ditt favoritprogram i Creative Cloud.
 
-Hämta [Adobe Workfront för design och video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) på marknaden idag.
+Ladda ned [Adobe Workfront för design och video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) på marknaden idag.
 
 Administratörer kan även [skapa ett paket med plugin-program](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) från Admin Console och distribuera till användare på ett hanterat eller självhanterat sätt.
 
@@ -89,7 +90,7 @@ Följande uppdateringar är nu tillgängliga för häftstift:
 
 * Byt namn på befintliga punkter
 
-* En förbättrad upplevelse när du tar bort ett häftstift
+* En förbättrad upplevelse när du tar bort ett stift
 
 Alternativen för att byta namn på ett häftstift och ta bort ett häftstift visas i en nedrullningsbar meny när du hovrar över stiftet.
 

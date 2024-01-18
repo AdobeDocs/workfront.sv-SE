@@ -4,15 +4,16 @@ content-type: release-notes
 product-area: workfront-integrations
 keywords: uppdatera
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 28 juni 2021"'
+title: "Workfront Fusion-release activity: Week of June 28, 2021"
 description: På den här sidan beskrivs alla förbättringar som gjorts i Adobe Workfront Fusion under veckan efter 28 juni 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: abd14599-2c5e-4c8a-b8ba-5434483434a8
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -39,4 +40,4 @@ Om du vill använda Workfront nya funktioner för filtrering av händelseprenume
 
 Tidigare skulle modulen Bevakade poster hämta alla poster. Användare kan bara filtrera genom att konfigurera filter i senare scenariomoduler.
 
-Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

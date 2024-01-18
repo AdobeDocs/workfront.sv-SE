@@ -6,10 +6,11 @@ title: 21.2 Projektförbättringar
 description: Den här sidan beskriver alla projektförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i versionsöversikt 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1650'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ Mer information finns i [Hantera artiklar och problem på Scrum board](../../../
 >
 >Finns endast i nya Adobe Workfront.
 
-Som en del av uppdateringen av utseendet på den nya Workfront-upplevelsen har vi gjort om rutan Redigera problem. Du kan öppna den nya rutan Redigera problem från ett enskilt ärende eller när du redigerar ett enstaka ärende från en lista.
+Som en del av uppdateringen av utseendet och känslan i den nya Workfront-upplevelsen har vi gjort om rutan Redigera problem. Du kan öppna den nya rutan Redigera problem från ett enskilt ärende eller när du redigerar ett enstaka ärende från en lista.
 
 Förutom att utseendet och känslan har uppdaterats är följande ändringar även tillgängliga i rutan Ärendeuppgift:
 
@@ -102,7 +103,7 @@ Mer information om hur du fyller i anpassade formulär finns i [Redigera informa
 
 När en utgåva konverteras till ett projekt överförs den som har begärt utgåvan till projektet och visas i fältet Originator för det konverterade utgåvan. Du kan visa det här fältet i området Projektinformation, liksom i projektrapporter och listor. Den här informationen visas även för uppgifter, endast i rapporter och listor.
 
-Du måste aktivera det här fältet i layoutmallen för att kunna visa det i den nya Adobe Workfront-upplevelsen för projekt.
+Du måste aktivera det här fältet i din layoutmall för att kunna visa det i den nya Adobe Workfront-upplevelsen för projekt.
 
 Mer information om hur du konverterar problem finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -132,7 +133,7 @@ Användarna kan nu se textformatering som fet stil, punktlistor och hyperlänkar
 
 Tidigare i Workfront Classic var textformateringen bara synlig i listorna Projekt, Aktivitet och Timme.
 
-Mer information om hur du formaterar text i ett anpassat fält finns i [Skapa ett anpassat formulär](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Mer information om textformatering i anpassade fält finns i [Skapa ett anpassat formulär](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
 Mer information om hur du visar information i listor finns i [Kom igång med listor](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
 

@@ -4,10 +4,11 @@ description: 22.4 versionsöversikt
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3271'
 ht-degree: 0%
 
 ---
@@ -49,13 +50,13 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
                     </td>
                 </tr>            
 <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Använd olåsta statusvärden i en godkännandeprocess
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Använda olåsta statusvärden i en godkännandeprocess
 </a></p> <p>Den här funktionen har tagits bort från 22.3-produktionsversionen. Den här funktionen är planerad att lanseras till Production vid en senare tidpunkt.</p> 
 <p>För att du ska få större kontroll över godkännandeprocesserna och statusvärdena i ditt system har vi gjort det möjligt att skapa en godkännandeprocess som baseras på en olåst systemstatus. Dessutom kan du nu låsa upp status som redan används i en godkännandeprocess. Tidigare var det nödvändigt att låsa en systemstatus som användes i en godkännandeprocess. Detta gjorde den tillgänglig för alla grupper - utan möjlighet att ta bort eller byta namn på den - så att gruppadministratörerna inte kunde effektivisera sin grupps lista över statusar efter deras specifika behov.</p>   
    </td> 
     <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
-     <li> <p>Förhandsgranskningsversion: 2 juni 2022<br></p> </li> 
+     <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: 15 september 2022</p> </li> 
     </ul>  </td>
                 <tr>
@@ -86,7 +87,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 25 augusti 2022<br /></p>
+                                <p>Förhandsversion: 25 augusti 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -104,7 +105,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 8 september 2022<br /></p>
+                                <p>Förhandsversion: 8 september 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -122,7 +123,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 25 augusti 2022<br /></p>
+                                <p>Förhandsversion: 25 augusti 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -133,13 +134,13 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Tidig anmälan av nya funktioner för de senaste funktionerna på anslagstavlan</a> </p>
-                        <p>Vi är glada över att kunna öppna nya anslagstavlor för tidiga funktioner. Det här valfria verktyget är tillgängligt för alla organisationer.</p>
-                        <p>Endast en Workfront-administratör kan välja att använda de tidiga funktionerna. När administratören väljer att använda funktioner i ett tidigt skede är alla användare i organisationen informerade och de ytterligare funktionerna är aktiverade i din Workfront produktionsmiljö.</p>
+                        <p>Vi är glada över att kunna öppna nya anslagstavlor för tidig anmälan av funktioner. Det här valfria verktyget är tillgängligt för alla organisationer.</p>
+                        <p>Endast en Workfront-administratör kan välja att använda de tidiga funktionerna. När administratören väljer att använda funktioner i ett tidigt skede är alla användare i organisationen anslutna och de extra funktionerna är aktiverade i din Workfront produktionsmiljö.</p>
                     </td>
                     <td><b>Tillgängligt på följande datum:</b>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juli 2022 <br /></p>
+                                <p>Förhandsversion: 22 juli 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: 28 juli 2022</p>
@@ -188,7 +189,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
    </td> 
     <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
-     <li> <p>Förhandsgranskningsversion: 9 september 2022 <br></p> </li> 
+     <li> <p>Förhandsversion: 9 september 2022 <br></p> </li> 
      <li> <p>Produktionsrelease: Med version 22.4</p> </li> 
      </td>
   </tr>                
@@ -201,7 +202,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
 </td> 
     <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
-     <li> <p>Förhandsgranskningsversion: 2 september 2022<br></p> </li> 
+     <li> <p>Förhandsversion: 2 september 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 22.4</p> </li> 
     </ul> 
     </td>
@@ -210,13 +211,13 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart användarval för projektroller i områdena Redigera och Detaljer</a> </p>
                         <p>Vi har förbättrat det sätt som användare visas på när du lägger till dem i projektägaren, projektsponsorn och resurshanterarens projektfält i rutan Redigera och i avsnittet Detaljer i projektet.</p>
-                        <p>När du nu lägger till en användare i något av dessa fält i områdena Redigera eller Detaljer visas även användarens primära roll och e-postadress, förutom namn och avatar. Detta gör det lättare att skilja mellan flera användare med liknande eller identiska namn.</p>
+                        <p>När du nu lägger till en användare i något av dessa fält i områdena Redigera eller Detaljer visas även användarens primära roll och e-postadress, förutom namnet och avataren. Detta gör det lättare att skilja mellan flera användare med liknande eller identiska namn.</p>
                         <p><b>OBS!</b> Ytterligare användarfält för projekt, uppgifter och utgåvor kommer att uppdateras med den här funktionen i framtida versioner.</p>
                     </td>
                     <td><b>Tillgängligt på följande datum:</b>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 25 augusti 2022</p>
+                                <p>Förhandsversion: 25 augusti 2022</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -243,7 +244,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                     <td><b>Tillgängligt på följande datum:</b>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 18 augusti 2022</p>
+                                <p>Förhandsversion: 18 augusti 2022</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -257,7 +258,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         <p>Filtrering av projekt-, uppgifts- och problemlistor har gjorts om så att du snabbt kan skapa och dela filter. Funktioner:</p>
                         <ul>
                             <li>
-                                <p>Ett intuitivt gränssnitt för betaversion som skapar ett nytt filter</p>
+                                <p>Ett intuitivt betaversionsgränssnitt för att skapa ett nytt filter</p>
                             </li>
                             <li>
                                 <p>Möjlighet att markera ett filter som en favorit</p>
@@ -281,7 +282,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                     <td><b>Tillgängligt på följande datum:</b>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 21 juli 2022<br /></p>
+                                <p>Förhandsversion: 21 juli 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: 4 augusti 2022 </p>
@@ -291,7 +292,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av anpassade formulär: Adobe XD och snabbfiltret</a>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av anpassade formulär: Adobe XD och Snabbfilter</a>
                         </p>
                         <p>Baserat på din feedback har vi introducerat följande förbättringar för att förbättra din upplevelse när du hanterar anpassade formulär:
 
@@ -308,7 +309,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 4 augusti 2022 <br /></p>
+                                <p>Förhandsversion: 4 augusti 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: 11 augusti 2022</p>
@@ -347,7 +348,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 8 september 2022<br /></p>
+                                <p>Förhandsversion: 8 september 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 15 september 2022</p>
@@ -367,7 +368,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 8 september 2022<br /></p>
+                                <p>Förhandsversion: 8 september 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 15 september 2022</p>
@@ -386,7 +387,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 9 september 2022<br /></p>
+                                <p>Förhandsversion: 9 september 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -404,7 +405,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 17 augusti 2022<br /></p>
+                                <p>Förhandsversion: 17 augusti 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 25 augusti 2022</p>
@@ -425,7 +426,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 4 augusti 2022<br /></p>
+                                <p>Förhandsversion: 4 augusti 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 11 augusti 2022</p>
@@ -444,7 +445,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juli 2022 <br /></p>
+                                <p>Förhandsversion: 22 juli 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 28 juli 2022</p>
@@ -465,7 +466,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 juli 2022 <br /></p>
+                                <p>Förhandsversion: 22 juli 2022 <br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för tidig anmälan: 28 juli 2022</p>
@@ -503,7 +504,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 8 september 2022<br /></p>
+                                <p>Förhandsversion: 8 september 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -530,7 +531,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 8 september 2022<br /></p>
+                                <p>Förhandsversion: 8 september 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -550,14 +551,14 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                                 <p>Problem visas i området Ej tilldelat arbete när inställningen Inkludera timmar från problem aktiveras.</p>
                             </li>
                         </ul>
-                        <p>Före dessa förbättringar kunde bara planlicensanvändare justera användartilldelningar och utgåvor som bara visades i arbetsytan Tilldelad arbetsyta.</p>
+                        <p>Före dessa förbättringar var det bara planlicensanvändare som kunde justera användartilldelningar och utgåvor som visades på arbetsytan Tilldelad arbetsyta.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 25 augusti 2022<br /></p>
+                                <p>Förhandsversion: 25 augusti 2022<br /></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: Med version 22.4</p>
@@ -587,7 +588,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar som både ser ut och känns under 22.4-releasetidningen</a> </p>
-                        <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för version 22.4. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts. </p>
+                        <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för version 2.4. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -628,10 +629,10 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 6 oktober 2022<br /></p>
+                                <p>Förhandsversion: 6 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease: 26 oktober 2022</p>
+                                <p>Produktionsversion: 26 oktober 2022</p>
                             </li>
                         </ul>
                     </td>
@@ -639,16 +640,16 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Metadatapush för överordnade objekt för program och portföljer</a></p>
-                        <p>När en mediefil skickas till Experience Manager Assets eller Assets Essentials för första gången skickas även alla metadata som konfigurerats för att mappa för överordnade objekt för program och portföljer.</p>
+                        <p>När en resurs skickas till Experience Manager Assets eller Assets Essentials skickas nu även alla metadata som konfigurerats för att mappa för överordnade objekt för program och portföljer.</p>
                         <p>Tidigare skickades bara överordnade projektdata.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 6 oktober 2022<br /></p>
+                                <p>Förhandsversion: 6 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease: 26 oktober 2022</p>
+                                <p>Produktionsversion: 26 oktober 2022</p>
                             </li>
                         </ul>
                     </td>
@@ -658,7 +659,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (beta)</a> </p>
                         <p>Vi introducerar ett nytt objekt för Adobe Workfront som kan förändra ditt arbetssätt. </p>
                         <p>Med Workfront Campaigns kan ni ordna projekt från olika portföljer och program i en ny arbetsbehållare.
-Kampanjer lanserades i betaversionen av Preview med version 22.3 i juli 2022.</p>
+Kampanjer lanserades som betaversion i juli 2022 i version 22.3.</p>
 <p>Den nya behållaren kommer att utvecklas i framtida versioner för att koppla arbetsobjekt som för närvarande hanteras i separata vattentäta skott.</p>
 
     &lt;/td>
@@ -675,8 +676,8 @@ Kampanjer lanserades i betaversionen av Preview med version 22.3 i juli 2022.</p
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Utökad teambeskrivning&lt;/a>&lt;/p>
-    &lt;p>I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på beskrivningen för att visa den i ett popup-fönster. Alla URL:er i beskrivningen går att klicka på i popup-fönstret, och du kan klicka i beskrivningstexten för att redigera den (om du har tillgång till redigering av gruppinställningarna).&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />&quot;>Utökad teambeskrivning&lt;/a>&lt;/p>
+    &lt;p>I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på beskrivningen för att visa den i ett popup-fönster. {para} Alla URL:er i beskrivningen går att klicka på i popup-fönstret, och du kan klicka i beskrivningstexten för att redigera den (om du har tillgång till redigering av gruppinställningarna).&lt;/p>
     &lt;p>Tidigare var det enda sättet att se allt innehåll att bläddra igenom beskrivningen på ett smalt område.&lt;/p>
 <p>Den här förbättringen av beskrivningen gäller både rörliga och icke-rörliga team.</p>
                     </td>
@@ -709,11 +710,11 @@ Med den här uppgraderingen stöder Desktop Proofing Viewer Chrome version 98 f�
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför 22.4-versionen. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.4-versionen. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av WorkfrontScenarioplanering
 
-Det finns inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
+Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-korrektur
 
@@ -721,7 +722,7 @@ Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området
 
 ### Förbättringar av Workfront-mål
 
-Det finns inga Workfront Goals-uppdateringar just nu i versionen. Det här området uppdateras när det finns uppdateringar.
+Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
 ### API-version 14
 
@@ -739,7 +740,7 @@ Mer information om underhållsuppdateringar som gjordes i version 2.3 finns i [W
 
 Webbseminariet 22.4 kommer att hållas torsdagen den 22 september 2022 kl. 9.00 PDT. Du kan [registrera dig för webbinariet här](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
-### Utbildningsuppdateringar
+### Uppdateringar
 
 Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i [Uppdateringssida för utbildningsversioner](https://one.workfront.com/s/training-release-updates).
 
@@ -764,12 +765,12 @@ Arbetsbelastningsutjämnaren ersätter resursschemaläggaren.
 
 * Zoomintegration
 
-### Funktioner som tas bort efter version 22.4
+### Funktioner som tas bort efter version 2.4
 
 Följande funktion kommer att tas bort i november 2022:
 
 * SHARE-händelsetypen i Event Subscriptions API.
 
-   Den här händelsetypen gjorde att kunder kunde se när behörigheter för objekt uppdaterades.
+  Den här händelsetypen gjorde att kunder kunde se när behörigheter för objekt uppdaterades.
 
-   Mer information om händelseprenumerationer och andra händelsetyper som fortfarande stöds finns i [API för händelseprenumeration](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Mer information om händelseprenumerationer och andra händelsetyper som fortfarande stöds finns i [API för händelseprenumeration](/help/quicksilver/wf-api/general/event-subs-api.md)

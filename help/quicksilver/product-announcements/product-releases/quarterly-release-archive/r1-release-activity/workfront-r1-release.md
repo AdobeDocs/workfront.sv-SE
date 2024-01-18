@@ -5,10 +5,11 @@ title: Workfront R1
 description: HÅLL ALLA ENGAGERAD OCH EFFEKTIV Workfront släpper nya produktfunktioner på alla produktlinjer tre gånger per år (version 1, version 2 och version 3). I den första utgåvan av 2017 års (R1,) har flera förbättringar gjorts i grundfunktionerna i Workfront, ProofHQ och Workfront DAM vilket gör att kunskapsarbetare kan vara mer produktiva, engagerade och lägga mindre tid på att hantera arbetet och mer på att få saker gjorda.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 ## HÅLL ALLA ENGAGERADE OCH EFFEKTIVA
 
-Workfront släpper nya produktfunktioner på alla produktlinjer tre gånger per år (utgåva 1, utgåva 2 och utgåva 3). I den första utgåvan av 2017 års (R1,) har flera förbättringar gjorts i grundfunktionerna i Workfront, ProofHQ och Workfront DAM vilket gör att kunskapsarbetare kan vara mer produktiva, engagerade och lägga mindre tid på att hantera arbetet och mer på att få saker gjorda.
+Workfront släpper nya produktfunktioner på alla produktlinjer tre gånger per år (version 1, version 2 och version 3). I den första utgåvan av 2017 års (R1,) har flera förbättringar gjorts i grundfunktionerna i Workfront, ProofHQ och Workfront DAM vilket gör att kunskapsarbetare kan vara mer produktiva, engagerade och lägga mindre tid på att hantera arbetet och mer på att få saker gjorda.
 
 ## NYHETER I DEN SENASTE VERSIONEN?
 
 * [FÖRBÄTTRINGAR AV Workfront](#workfront-enhancements)
 * [FÖRBÄTTRINGAR AV PROFHQ](#proofhq-enhancements)
-* [Workfront DAM-FÖRBÄTTRINGAR](#workfront-dam-enhancements)
+* [WORKFRONT DAM-FÖRBÄTTRINGAR](#workfront-dam-enhancements)
 
 ## FÖRBÄTTRINGAR AV Workfront {#workfront-enhancements}
 
@@ -74,13 +75,13 @@ Mer information finns i:  [R1 Final](../../../../product-announcements/product-
 **Korrektur för HQ-förhandsgranskning**
 ProofHQ gör nu att du kan testa nya funktioner i en förhandsvisningsmiljö innan du släpper den för alla användare.
 
-## Workfront DAM-FÖRBÄTTRINGAR {#workfront-dam-enhancements}
+## WORKFRONT DAM-FÖRBÄTTRINGAR {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)\
 **Inbäddade DAM-länkar**
 För marknadsföringsteam som behöver ett bättre sätt att hantera, publicera och spåra användningen av digitala resurser på externa plattformar har funktionen för inbäddade länkar den kontroll ni behöver för att hantera processen med att dela rätt innehåll vid rätt tidpunkt.
 
-**DAM-metadatafält som krävs**
+**DAM obligatoriska metadatafält**
 Förbättra kategoriseringen av digitala resurser med obligatoriska metadatafält som ger ökad kontroll över resursdelning.
 
 **Håll alla engagerade och effektiva med Workfront.**

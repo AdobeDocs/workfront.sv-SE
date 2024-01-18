@@ -4,9 +4,11 @@ description: 23.2 Agile-förbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+recommendations: noDisplay, noCatalog
+exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -66,7 +68,7 @@ Mer information finns i [Lägga till befintliga uppgifter eller problem i en sty
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Nu kan du logga timmar på anslutna kort, på samma sätt som du gör för en uppgift eller ett problem. Du måste ha rätt behörighet för aktiviteten eller problemet för att kunna logga tiden.
 
@@ -79,7 +81,7 @@ Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/ag
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 
 Anpassning är nu tillgängligt för att konfigurera vilka fält som ska visas på ett kort, både i den fullständiga vyn när kortet är öppet och i den komprimerade kortvyn på kortet. När du inaktiverar ett fält visas inte i någon av vyerna. Du kan även aktivera ett fält i den fullständiga vyn och dölja det i den komprimerade vyn.
@@ -92,9 +94,9 @@ Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quick
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
-Du kan nu ange en standardstatus som ska gälla för kort som flyttas till en viss kolumn genom att välja en anpassad status och en systemstatus i kolumnprofilerna. När du flyttar ett kort till kolumnen försöker Workfront först att använda den anpassade statusen (till exempel Väntar på feedback). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Väntande). Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen flyttas kortet automatiskt till kolumnen.
+Du kan nu ange en standardstatus som ska gälla för kort som flyttas till en viss kolumn genom att välja en anpassad status och en systemstatus i kolumnprofilerna. När du flyttar ett kort till kolumnen försöker Workfront först att använda den anpassade statusen (till exempel Väntar på feedback). Om den anpassade statusen inte är tillgänglig för det kortet kommer Workfront att använda systemstatusen i stället (till exempel Väntande). Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen, flyttas kortet automatiskt till kolumnen.
 
 Tidigare uppmanades du att välja en status för varje kort som flyttats till kolumnen, om flera statusar var tillgängliga.
 
@@ -106,7 +108,7 @@ Mer information finns i [Hantera kolumner](/help/quicksilver/agile/get-started-w
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Nu kan du skapa samlingar på panelkontrollpanelen. En samling är en grupp styrelser för samarbete i arbete. När du har namngett samlingen kan du lägga till ritytor i samlingen med hjälp av en uppsättning mallar med fördefinierade inställningar, till exempel kolumnnamn. Du kan också flytta fristående anslagstavlor till en samling. När en styrelse finns i en samling kan den flyttas till en annan samling, men den kan inte bli en fristående styrelse.
 
@@ -120,7 +122,7 @@ Mer information finns i [Hantera samlingar](/help/quicksilver/agile/use-boards-a
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Beräkningsfältet på anslutna kort i Workfront Boards mappar nu till artikelpunktsfältet för det associerade Workfront-objektet.
 
@@ -136,6 +138,6 @@ Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/ag
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Nu kan du klicka på ett anslutet kort i intag-kolumnen för att se en version av innehållet som bara är för visning. Du kan inte redigera kortets innehåll förrän kortet flyttas från inmatningskolumnen till en annan kolumn på kortet.

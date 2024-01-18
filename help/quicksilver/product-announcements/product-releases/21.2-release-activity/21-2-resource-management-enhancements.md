@@ -6,10 +6,11 @@ title: 21.2 Förbättrad resurshantering
 description: Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i versionsöversikt 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 00133efe-f779-4217-87af-a223dcf043ee
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Med en ny inställning i Resursplaneraren kan du använda Planerade timmar när 
 
 Före den här förbättringen beräknade Workfront nettovärden endast med Budgeterade timmar. Nettovärden visar skillnaden mellan Tillgängliga och Budgeterade eller Planerade timmar, FTE eller Kostnad. Budgeterade timmar är fortfarande standardinställningen vid beräkning av nettovärden.
 
-Mer information finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Mer information finns i [Översikt över timmar, heltidsanställda och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## 12-veckorsvy i arbetsbelastningsutjämnaren
 

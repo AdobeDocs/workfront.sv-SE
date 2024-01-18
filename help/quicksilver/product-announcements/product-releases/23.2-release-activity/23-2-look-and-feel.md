@@ -4,13 +4,14 @@ description: Utforma och känna av uppdateringar under 23.2-releasetidningen
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
+recommendations: noDisplay, noCatalog
+exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
-
 
 # Utforma och känna av uppdateringar under 23.2-releasetidningen
 
@@ -22,7 +23,7 @@ En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 4 april 2023, Planerad produktionsrelease: 20 april 2023
+>Förhandsversion: 4 april 2023; Planerad produktionsversion: 20 april 2023
 
 Vi har uppdaterat listan Utkast i området Begäranden så att den överensstämmer med de senaste listorna i Workfront.
 Några av uppdateringarna är följande:
@@ -37,7 +38,7 @@ Mer information finns i [Skapa begäranden från utkast](/help/quicksilver/manag
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 9 februari 2023, Planerad produktionsrelease: 2 mars 2023
+>Förhandsversion: 9 februari 2023; Planerad produktionsversion: 2 mars 2023
 
 Ytterligare användarinformation visas nu när du lägger till användare i följande områden:
 
@@ -62,7 +63,7 @@ Vi har uppdaterat utseendet på dokumentversionsikonen. Ikonen visar nu en röd 
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 16 februari 2023, Planerad produktionsrelease: 2 mars 2023
+>Förhandsversion: 16 februari 2023; Planerad produktionsversion: 2 mars 2023
 
 För att göra användningen av Adobe Workfront enhetlig överallt i programmet har vi gjort om gränssnittet när vi kopierar eller flyttar en malluppgift. Detta är för närvarande tillgängligt när du kopierar en malluppgift på aktivitetsnivå eller kopierar en uppgift eller flera uppgifter i en lista.
 
@@ -70,6 +71,6 @@ Några av förbättringarna är:
 
 * All information som du måste uppdatera innan du kopierar eller flyttar malluppgiften visas på en kontinuerlig sida.
 * Workfront kontrollerar om du har åtkomst till målmallen omedelbart efter att du har valt mallen. Före den här förbättringen visades ett varningsmeddelande om att du inte har rätt åtkomst när du har bekräftat kopian eller flyttningen, vilket resulterade i extra steg och att åtgärden inte tillåts.
-* Möjlighet att begära åtkomst för en mall där du vill kopiera eller flytta malluppgiften utan att lämna rutan Kopiera eller Flytta malluppgift.
+* Möjlighet att begära åtkomst till en mall där du vill kopiera eller flytta malluppgiften utan att lämna rutan Kopiera eller Flytta malluppgift.
 
 Mer information finns i [Kopiera och flytta malluppgifter](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).

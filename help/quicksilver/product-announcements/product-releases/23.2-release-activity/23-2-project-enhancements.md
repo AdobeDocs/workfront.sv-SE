@@ -4,10 +4,11 @@ description: 23.2 Projektförbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
-source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Förutom ett uppdaterat utseende och en uppdaterad känsla för gränssnittet fi
 
 * Du kan anpassa din layoutmall och spegla dessa anpassningar på sidan Detaljer i ett projekt, samt i rutorna Redigera projekt (när du redigerar ett projekt) och Redigera projekt (när du redigerar flera projekt).
 
-* Tydliga indikatorer när värdena för varje fält är olika för de valda projekten: en multipla värden-indikator visas för fält vars värden inte matchar mellan de markerade projekten.
+* Tydliga indikatorer när värdena för varje fält skiljer sig mellan de markerade projekten: en &quot;Multiple values&quot;-indikator visas för fält vars värden inte matchar mellan de markerade projekten.
 
 * Anger vilka anpassade formulär som redan är kopplade till de valda projekten och antalet projekt som redan har ett visst formulär.
 
@@ -56,7 +57,7 @@ Mer information finns i [Skapa eller redigera filter i Adobe Workfront](/help/qu
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: 16 februari 2023, Planerad produktionsrelease: 2 mars 2023
+>Förhandsversion: 16 februari 2023; Planerad produktionsversion: 2 mars 2023
 
 Nu kan du kopiera timmarna som har budgeterats i området Resursbudgetering i affärsärendet eller Resursplanering när du kopierar ett projekt. Före den här förbättringen överfördes inte de budgeterade timmarna för projektet till det kopierade projektet.
 

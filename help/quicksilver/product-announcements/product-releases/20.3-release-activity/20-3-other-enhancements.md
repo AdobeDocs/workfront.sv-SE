@@ -5,10 +5,11 @@ title: 20.3 andra förbättringar
 description: Den här sidan beskriver alla andra förbättringar som gjorts i version 20.3 i produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 10 augusti 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -75,7 +76,7 @@ Mer information finns i [Använd anpassade datumfält i en kalenderrapport](../.
 
 ## E-poständringar
 
-**Ändringar i utgående e-post:** Alla e-postmeddelanden från Workfront kommer från notifications@my.workfront.com. Detta inkluderar automatiska varningar och kommunikation mellan användare.
+**Ändringar i utgående e-post:** Alla mejl från Workfront kommer från notifications@my.workfront.com. Detta inkluderar automatiska varningar och kommunikation mellan användare.
 
 Tidigare kunde systemadministratörer lägga till en anpassad e-postadress i området E-postinställningar.
 
@@ -87,7 +88,7 @@ Mer information finns i [Sofing av e-post och POP-svar e-poständringar](https:/
 
 En teknik för e-postautentisering (DKIM) kommer att inkluderas i alla utgående e-postmeddelanden. Denna DKIM-signatur är inte synlig för slutanvändaren men tillåter validering på servernivå och stärker vårt befintliga autentiseringsramverk.
 
-## Uppdateringar av registreringen i den nya Workfront-upplevelsen
+## Uppdateringar av registreringen i nya Workfront
 
 Gruppadministratörer har nu åtkomst till att registrera och avregistrera användare som tillhör de grupper som de hanterar för att göra användarregistreringen i den nya Workfront-upplevelsen mer hanterbar.
 
@@ -98,7 +99,7 @@ Det finns nu även en länk för användarinformation som visar följande använ
 * E-postadress
 * Profilbild
 
-## Nytt för administratörer: Varumärk Workfront för specifika grupper, team, roller och användare
+## Nytt för administratörer: varumärke-Workfront för specifika grupper, team, jobbroller och användare
 
 >[!NOTE]
 >
@@ -123,9 +124,9 @@ Gruppadministratörer kan enklare hantera grupper nu när allt de behöver finns
 Här är de viktigaste högdagrarna:
 
 * Gruppinformation: Visa och redigera grundläggande information om gruppen, till exempel gruppens namn, beskrivning, gruppadministratörernas namn och om gruppen är offentlig eller privat.
-* Lista över gruppmedlemmar: Visa alla gruppmedlemmar och använd det nya verktygsfältet för att snabbt lägga till, ta bort, exportera, aktivera och inaktivera medlemskap. Du kan också redigera medlemmarnas profiler och skicka dem Uppdatera kommentarer.
-* Fältet Gruppadministratör i rubriken: När du visar en grupp som du hanterar kan du snabbt tilldela eller ta bort tilldelningen av en gruppmedlem som administratör för gruppen. Du kan också göra detta i listan med gruppmedlemmar med hjälp av den nya kolumnen Grupproll.
-* Delgruppslista: Visa, redigera, kopiera, exportera och ta bort undergrupper i en grupp som du hanterar.
+* Lista med gruppmedlemmar: Visa alla gruppmedlemmar och använd det nya verktygsfältet för att snabbt lägga till, ta bort, exportera, aktivera och inaktivera medlemskap. Du kan också redigera medlemmarnas profiler och skicka dem Uppdatera kommentarer.
+* Fältet Gruppadministratör i rubriken: När du visar en grupp som du hanterar kan du snabbt tilldela eller ta bort en gruppmedlem som administratör för gruppen. Du kan också göra detta i listan med gruppmedlemmar med hjälp av den nya kolumnen Grupproll.
+* Lista med undergrupper: Visa, redigera, kopiera, exportera och ta bort undergrupper i en grupp som du hanterar.
 * Statuslista: Visa och hantera gruppens status.
 
 Mer information finns i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
@@ -136,7 +137,7 @@ För att göra det enklare att ordna dina Workfront-grupper så att de matchar d
 
 Mer information finns i [Översikt över grupper](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-## Nytt för administratörer: Ny installationssidlist
+## Nytt för administratörer: Nytt sidofält för installationsprogrammet
 
 >[!NOTE]
 >

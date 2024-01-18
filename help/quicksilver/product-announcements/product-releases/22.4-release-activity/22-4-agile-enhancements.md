@@ -4,10 +4,11 @@ description: 22.4 Agile-förbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: 87d0b668185c4185646bfa1622eb37337844bcbc
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ En lista över alla ändringar som är tillgängliga i version 22.4 finns i [22.
 
 ## Inmatningskolumn tillgänglig för ritytor
 
-OBS! Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+Obs! Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards för tidiga funktioner.
 
 Nu kan du lägga till en inmatningskolumn på en anslagstavla. Den här kolumnen hämtar automatiskt in uppgifter och ärenden till styrelsen när de läggs till i Workfront, baserat på filter som du anger.
 
@@ -34,7 +35,7 @@ Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help
 
 ## Uppdaterad filterpanel i ritytor
 
-OBS! Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+Obs! Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards för tidiga funktioner.
 
 Filtrerings- och sökikonerna på en anslagstavla har flyttats till vänster på skärmen. När du klickar på filterikonen öppnas en panel till vänster för att visa alla filteralternativ. Tidigare visades filtren i en listruta till höger på ritytan.
 
@@ -50,7 +51,7 @@ Du kan också definiera vad som ska hända när ett kort flyttas från en grupp 
 
 Kort i inloppskolumnen ingår inte i en grupp.
 
-Mer information finns i [Använd grupper på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
+Mer information finns i [Använda grupper på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
@@ -82,7 +83,7 @@ Mer information finns i [Lägga till eller ta bort medlemmar från en anslagstav
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig genom att du har anmält dig till Workfront Boards så snart som möjligt.
+>Den här funktionen är endast tillgänglig genom att man väljer den tidiga funktionen för Workfront Boards.
 
 Du kan nu ange en PIA-gräns (Work In Progress) för valfri kolumn på en anslagstavla. När du aktiverar en PIA-gräns visas en räknare i kolumnen med aktuellt antal kort och gränsen. Räknaren blir röd om kolumnen innehåller fler kort än gränsen. Det här är bara en visuell varning och du hindras inte från att lägga till fler kort än gränsen.
 

@@ -1,28 +1,29 @@
 ---
-title: 2.4 Förbättringar av administratörer
-description: 2.4 Förbättringar av administratörer
+title: 22.4 Förbättringar av administratören
+description: 22.4 Förbättringar av administratören
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 80fa784e15c3b4a927ee8ba2d18a80a2d84f4a91
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-# 2.4 Förbättringar av administratörer
+# 22.4 Förbättringar av administratören
 
 Den här sidan beskriver alla administratörsförbättringar som gjorts i version 22.4 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga den 3 oktober 2022.
 
 En lista över alla ändringar som är tillgängliga i version 22.4 finns i [22.4 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Använd olåsta statusvärden i en godkännandeprocess
+## Använda olåsta statusvärden i en godkännandeprocess
 
 >[!NOTE]
 >
->Den här funktionen introducerades först i förhandsvisningsmiljön under tidsramen för version 22.3. Den lanseras i Production 15 september 2022.
+>Den här funktionen introducerades först i förhandsvisningsmiljön under 22.3-versionen. Den lanseras i Production 15 september 2022.
 
 För att du ska få större kontroll över godkännandeprocesserna och statusvärdena i ditt system har vi gjort det möjligt att skapa en godkännandeprocess som baseras på en olåst systemstatus. Dessutom kan du nu låsa upp status som redan används i en godkännandeprocess. Tidigare var det nödvändigt att låsa en systemstatus som användes i en godkännandeprocess. Detta gjorde den tillgänglig för alla grupper - utan möjlighet att ta bort eller byta namn på den - så att gruppadministratörerna inte kunde effektivisera sin grupps lista över statusar efter deras specifika behov.
 
@@ -86,9 +87,9 @@ Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](/he
 
 ## Tidig anmälan av nya funktioner för de senaste funktionerna på anslagstavlan
 
-Vi är glada över att kunna öppna nya anslagstavlor för tidiga funktioner. Det här valfria verktyget är tillgängligt för alla organisationer.
+Vi är glada över att kunna öppna nya anslagstavlor för tidig anmälan av funktioner. Det här valfria verktyget är tillgängligt för alla organisationer.
 
-Endast en Workfront-administratör kan välja att använda de tidiga funktionerna. När administratören väljer att använda funktioner i ett tidigt skede är alla användare i organisationen informerade och de ytterligare funktionerna är aktiverade i din Workfront produktionsmiljö.
+Endast en Workfront-administratör kan välja att använda de tidiga funktionerna. När administratören väljer att använda funktioner i ett tidigt skede är alla användare i organisationen anslutna och de extra funktionerna är aktiverade i din Workfront produktionsmiljö.
 
 Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
@@ -98,7 +99,7 @@ Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfro
 
 >[!NOTE]
 >
->Den här funktionen introducerades först i förhandsvisningsmiljön under tidsramen för version 22.3. Den lanseras i Production med version 22.4.
+>Den här funktionen introducerades först i förhandsvisningsmiljön under 22.3-versionen. Den lanseras i Production med version 22.4.
 
 Det är nu enklare att redigera beräkningar för anpassade fält eftersom felinformation som anges direkt i beräkningen är användbar. När du skapar ett beräknat fält i ett anpassat formulär markeras fel i rosa. När du hovrar över den markerade delen visas ett verktygstips som beskriver vad problemet är.
 
@@ -108,7 +109,7 @@ Mer information finns i [Lägga till beräknade data i ett anpassat formulär](/
 
 ## Migrering till Adobe Unified Experience
 
-OBS! Denna migrering har skjutits upp till Q1-Q2 2023. Alla berörda kunder meddelas vid den tidpunkten.
+OBS! Migreringen har skjutits upp till Q1-Q2 2023. Alla berörda kunder meddelas vid den tidpunkten.
 
 Om din organisation har anslutit sig till Adobe Admin Console migreras din Workfront-instans till Adobe Unified Experience med version 22.4.
 

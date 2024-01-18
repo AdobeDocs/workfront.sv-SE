@@ -3,9 +3,11 @@ title: 23.3 Andra förbättringar
 description: 23.3 Andra förbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -21,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 2
 För att användare av alla typer bättre ska kunna utnyttja Workfront för sina specifika behov har Home fått en större uppdatering! Den nya hemupplevelsen erbjuder visuell anpassning och innehållsanpassning för hemsidan, vilket ger flexibilitet att endast visa den information som är mest relevant för ditt arbete. Med nya Home kan du:
 
 * Välj bland en mängd produktivitetswidgetar som innehåller den information som är viktigast för dig, med relevanta verktyg som du kan komma åt direkt från vissa widgetar
-* Anpassa hemsidans utseende och layout; personalisera ditt hem med en färgstark banderoll eller genom att flytta och ändra storlek på widgetar på den dynamiska arbetsytan när du vill
+* Anpassa utseendet och layouten på hemsidan, anpassa hemsidan med en färgstark banderoll eller flytta och ändra storlek på widgetar på den dynamiska arbetsytan när du vill
 * Filtrera widgetinformation baserat på när arbetet ska utföras, skapa anpassade Att göra-listor med mera!
 
 New Home är en stor ny funktion som vi är glada över att kunna fortsätta utveckla och förbättra. Dela med dig av din upplevelse med hjälp av det nya hemmet via feedbackknappen i appen.

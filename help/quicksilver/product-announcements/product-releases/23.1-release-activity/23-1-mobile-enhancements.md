@@ -4,10 +4,11 @@ description: 23.1 Mobilförbättringar
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5fb7236c-c1fa-4a9a-9b4e-67a28dbaf6d2
-source-git-commit: 97db4e7bb5c1428c9a2d20b1ec80734b73ba8b4a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Ytterligare funktioner:
 * Filtrera styrelsen efter medlem eller tagg
 * Visa inloppskolumnen och flytta kort från inloppskolumnen till brädet
 
-Alla ändringar du gör i spalter och kort i appen visas också i skrivbordsversionen av ritytan. För tillfället kan du bara öppna dina skrivbordstavlor och inte skapa nya i appen.
+Alla ändringar du gör i spalter och kort i appen visas också i skrivbordsversionen av ritytan. För närvarande kan du bara öppna dina skrivbordstavlor och inte skapa nya anslagstavlor i programmet.
 
 Följande artiklar uppdateras när appen släpps i appbutikerna:
 

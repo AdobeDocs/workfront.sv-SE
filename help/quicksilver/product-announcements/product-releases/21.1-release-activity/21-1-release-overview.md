@@ -6,10 +6,11 @@ title: 21.1 - versionsöversikt
 description: 21.1-utgåvan gjordes tillgänglig i produktionsmiljön samma vecka som .
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3635'
+source-wordcount: '3658'
 ht-degree: 0%
 
 ---
@@ -81,27 +82,27 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Ny åtkomstnivåinställning för kopiering av projekt</a> </p> <p>För att du som systemadministratör ska få större kontroll över vad planerare kan göra med ett projekt har vi gjort redigeringsåtkomsten till projekt på åtkomstnivån mer detaljerad genom att införa en ny inställning som gör att du kan aktivera eller inaktivera möjligheten att kopiera projekt. När du aktiverade användarnas åtkomst till redigeringsprojekt hade de automatiskt åtkomst till att kopiera dem före den här ändringen. Med den nya funktionen kan du ge någon åtkomst till redigeringsprojekt utan att nödvändigtvis ha tillgång till kopiera dem genom att inaktivera den nya inställningen Kopiera.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#in" class="MCXref xref" xrefformat="{para}">I ett anpassat formulär på ett objekt markerar du alla objekt i ett flervalsfält</a> </p> <p>När du fyller i ett flervalsfält i ett anpassat formulär på informationssidan för ett objekt kan du klicka på Markera alla om du behöver markera alla tillgängliga alternativ.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Inte tillgängligt för tillfället när du skickar en ny begäran.)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Inte tillgängligt för tillfället när du skickar en ny begäran.)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#recalcul" class="MCXref xref" xrefformat="{para}">Beräkna om alla anpassade formulärfält för ett objekt</a> </p> <p>Nu är det enklare att se till att alla data i beräknade anpassade fält är aktuella för ett objekt. Med det nya menyalternativet Beräkna om uttryck kan du snabbt beräkna om alla data i dessa fält.</p> <p>Detta är särskilt användbart när någon har redigerat data i ett annat objekt som refereras av ett beräknat anpassat fält i objektet.</p> <p>Tidigare var användarna tvungna att använda tillfälliga lösningar för att säkerställa att alla data i beräknade anpassade fält var aktuella. De redigerade till exempel objektet tillsammans med andra objekt för att använda det omberäkningsalternativ som är tillgängligt för massredigering.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 10 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 10 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#unlock" class="MCXref xref" xrefformat="{para}">Lås upp uppgifter och utgivningsinställningar för gruppadministratörer</a> </p> <p>Workfront-administratörer kan nu ge gruppadministratörer mer självbestämmande genom att låsa upp enskilda uppgifter och utgåvor. När en inställning är olåst kan gruppadministratörer konfigurera den för sina grupper så att den passar varje grupps unika behov och interna processer.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Före den 24 juni 2021 var detta endast tillgängligt som en del av en fasad utrullning för kunder i kluster 4 och 6 samt några andra kunder. Nu finns det i Production för alla kunder.)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Före den 24 juni 2021 var detta endast tillgängligt som en del av en fasad utrullning för kunder i kluster 4 och 6 samt några andra kunder. Nu finns det i Production för alla kunder.)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur" class="MCXref xref" xrefformat="{para}">Konfigurera åtkomstnivåinställningar för portföljer och program separat</a> </p> <p>Nu är det enklare att hantera användaråtkomst till portföljer och program eftersom du kan konfigurera deras åtkomstnivåinställningar separat.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#select" class="MCXref xref" xrefformat="{para}">Markera alla kryssrutor i en serie när du redigerar information i ett anpassat formulär</a> </p> <p>När du fyller i ett fält för anpassat formulär som innehåller kryssrutor på informationssidan för ett objekt kan du klicka på Markera alla om du behöver markera alla kryssrutor som är tillgängliga.</p> <p>Det här alternativet visas bara om fältet innehåller fler än två kryssrutor.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Inte tillgängligt för tillfället när du skickar en begäran.)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Inte tillgängligt för tillfället när du skickar en begäran.)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur2" class="MCXref xref" xrefformat="{para}">Konfigurera din Workfront-e-postadress tillåtelselista</a> </p> <p>För att skydda dina data bättre kan du nu använda en e-postdomän som tillåtslista till:</p> 
@@ -109,23 +110,23 @@ For specific release dates and times for each cluster, see the
      <li> <p>Styr var Workfront e-postmeddelanden kan skickas om de innehåller rapporter eller dokument som lagras i Workfront</p> </li> 
      <li> <p>Kontrollera e-postdomäner i den e-postadress som användarna kan ange i sina användarprofiler</p> </li> 
     </ul> <p>Om du t.ex. vill skydda känsliga data, t.ex. en rapport med en lista över dina riskkunder, kan du bara inkludera din interna e-postdomän eller domäner i e-postmeddelandet som tillåtslista. På så sätt kan användare inte skicka den rapporten (eller någon annan Workfront-rapport) till en extern e-postadress.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1 </p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1 </p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#assign" class="MCXref xref" xrefformat="{para}">Tilldela en gruppadministratör för en undergrupp</a> </p> <p>För att göra det enklare för olika nivåer i organisationen att arbeta oberoende har vi lagt till möjligheten att tilldela en gruppadministratör till en undergrupp. Nu kan du se till att du delegerar hantering av undergrupper till rätt personer.</p> <p>Tidigare var det bara en grupp på den översta nivån som kunde ha gruppadministratörer och dessa administratörer hanterade alla undergrupper under den översta gruppen.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#work" class="MCXref xref" xrefformat="{para}">Arbeta med gruppprojekt och godkännandeprocesser i området Grupper</a> </p> <p>Om du är gruppadministratör är det enkelt att visa och arbeta med gruppens projekt och godkännandeprocesser nu när de listas i gruppområdet. </p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur3" class="MCXref xref" xrefformat="{para}">Konfigurera händelsemeddelanden för grupper</a> <span style="color: #dc143c; font-weight: bold;">Nyheter i förhandsvisning!</span></p> <p>Workfront-administratörer kan nu ge gruppadministratörer större självständighet genom att tillåta dem att konfigurera händelsemeddelanden för sina toppnivågrupper. Undergrupper ärver händelseaviseringskonfigurationer från sin överordnade grupp.</p> <p>Tidigare var händelsemeddelanden bara konfigurerbara av en Workfront-administratör på systemnivå, vilket innebär att alla grupper måste använda samma uppsättning händelsemeddelanden.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 22 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Inledningsvis endast tillgängligt i produktion för kunder i kluster 4 som en del av en fasad utrullning. tillgängliga för andra kluster kort därefter)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur3" class="MCXref xref" xrefformat="{para}">Konfigurera händelsemeddelanden för grupper</a> <span style="color: #dc143c; font-weight: bold;">Nyheter i förhandsvisning!</span></p> <p>Workfront-administratörer kan nu ge gruppadministratörer större självständighet genom att tillåta dem att konfigurera händelsemeddelanden för sina toppnivågrupper. Undergrupper ärver händelseaviseringskonfigurationer från den översta överordnade gruppen.</p> <p>Tidigare var händelsemeddelanden bara konfigurerbara av en Workfront-administratör på systemnivå, vilket innebär att alla grupper måste använda samma uppsättning händelsemeddelanden.</p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 22 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Inledningsvis endast tillgängligt i produktion för kunder i kluster 4 som en del av en fasad utrullning; tillgängligt för andra kluster kort därefter)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#view" class="MCXref xref" xrefformat="{para}">Visa antalet licenser som används och tilldelas i en grupp</a> </p> <p>För att avgöra hur bra licenserna distribueras kan du nu visa antalet licenser som används i en grupp och eventuella undergrupper under den.</p> <p>Om du hanterar en grupp på den översta nivån kan du visa både antalet licenser som används i en grupp (och dess undergrupper) och det maximala antalet licenser som tilldelas för gruppen.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,11 +143,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md#workload" class="MCXref xref" xrefformat="{para}">Utjämning av arbetsbelastning för projekt</a> </p> <p>Utjämningen av arbetsbelastning är nu tillgänglig i ett projekt. Nu har du ett alternativ för att välja mellan att använda arbetsbelastningsutjämnaren eller schemaläggningsverktyget för att hantera dina projektresurser.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 17 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: 17 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Workfront Balancer för ett team</a> </p> <p>Utjämningen av arbetsbelastning är nu tillgänglig i ett team. Nu har du ett alternativ för att välja mellan att använda belastningsutjämnaren eller schemaläggningsverktyget för att hantera dina teamresurser. </p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -163,31 +164,31 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#export" class="MCXref xref" xrefformat="{para}">Export finns nu i avsnittet Metrics i ett projekt</a> </p> <p>Om du enklare vill dela status och förlopp för ett projekt kan du nu exportera hela kontrollpanelen i avsnittet Metrisk i ett projekt till en PNG-fil.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 15 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 15 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#update" class="MCXref xref" xrefformat="{para}">Uppdatera utleveransprocent slutfört när projektet eller aktiviteten konverterades från utleveransuppdateringen</a> </p> <p>Vi har uppdaterat hur procentandelen slutförda problem fungerar för problem som har konverterats till projekt eller uppgifter. När ett problem konverteras till en aktivitet eller ett projekt uppdateras procentandelen slutfört av problemet synkroniserat med procentandelen slutfört för den åtgärd eller det projekt som åtgärdas när inställningen"Uppdatera lösningsstatus automatiskt när statusen för det objekt som löses ändras" aktiveras från konfigurationen.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#fields" class="MCXref xref" xrefformat="{para}">Fält som tagits bort från sidan Ny begäran</a> </p> <p>Som en del av omdesignen av sidan Ny begäran har vi uppdaterat de nya fält för problem som har konfigurerats i avsnittet Köinställningar i ett projekt.</p> <p>Olika fält för nya problem visas bara när du skapar ett problem i projektets problemavsnitt. De visas inte när du skickar ett problem med hjälp av en frågekö i området Begäranden.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Borttagen från version)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Borttagen från version)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Ny upplevelse när begäranden skickas i området Förfrågningar</a> </p> <p>För att skapa enhetlighet med den nya Workfront-upplevelsen och för att effektivisera när du skickar in begäranden har vi gjort om rutan Ny begäran i området Begäranden.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Borttagen från release; kommer att finnas kvar i Förhandsgranska och distribueras till produktion med 21.2)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Borttagen från version; kommer att finnas kvar i förhandsgranskning och i Production med version 21.2)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Dela en länk till en begärandekö när du skickar en begäran</a> </p> <p>Vi har nu gjort det möjligt att dela en länk till en begärandekö, en ämnesgrupp eller ett köämne medan du skapar en begäran.</p> <p>Innan du skickar en ny begäran kan du kopiera en länk till begärandekön, ämnesgruppen eller köämnet för begäran och dela den med andra användare, eller bädda in den i en instrumentpanel.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Borttagen från release; kommer att finnas kvar i Förhandsgranska och distribueras till produktion med 21.2)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 13 januari 2021</p> <p>Produktionsrelease: Med version 21.1 <span style="color: #dc143c; font-weight: bold;">(Borttagen från version; kommer att finnas kvar i förhandsgranskning och i Production med version 21.2)</span></p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">Lista över nya skickade begäranden</a> </p> <p>För att du ska kunna hantera dina skickade begäranden på ett enklare och mer konsekvent sätt har vi tagit bort avsnitten Begäranden som jag har skickat och Alla begäranden i området Begäranden och ersatt dem med en ny skickad lista. Listan har en välbekant utseende som matchar alla andra listor i systemet, vilket gör att du kan filtrera efter olika kategorier av skickade begäranden och snabbt söka efter en begäran som kan vara svår att hitta.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#search" class="MCXref xref" xrefformat="{para}">Söka efter en grupp som du vill tilldela ett projekt och visa information om den</a> </p> <p>Nu är det enklare att se till att du identifierar rätt grupp när du tilldelar en grupp till ett projekt. Håll muspekaren över namnet på en grupp som du hittar i grupprutan och klicka sedan på infoikonen som visas bredvid namnet för att visa verktygstipset Gruppinformation.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 17 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: 17 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Ny delegeringsrapport för användare</a> </p> <p>Tidigare kunde information för delegering av uppgifter, utgåvor och projektgodkännande endast visas av delegaten i hemområdet. Om du vill att andra användare ska kunna se den här informationen kan plananvändarna nu skapa rapporten för användardelegering, som innehåller följande information:</p> 
@@ -196,7 +197,7 @@ For specific release dates and times for each cluster, see the
      <li> <p>Vilken användare har delegerats dessa godkännanden</p> </li> 
      <li> <p>Start- och slutdatum för dessa delegationer</p> </li> 
     </ul> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 17 december 2020</p> <p>Produktionsrelease: 21 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: 17 december 2020</p> <p>Produktionsrelease: 21 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -213,15 +214,15 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#people" class="MCXref xref" xrefformat="{para}">Personsidan är nu tillgänglig för alla kluster</a> </p> <p>Sidan Personer är nu tillgänglig på Workfront Classic för kluster 4. Den här sidan innehåller diagram för aktivitet per team, resurskapacitet och teamkapacitet.</p> <p>Den här sidan var tidigare tillgänglig med version 20.3 i både Workfront Classic och den nya Workfront-upplevelsen för alla andra kluster.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 28 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen (tidigare tillgänglig)</p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 28 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen (tidigare)</p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#enhanced" class="MCXref xref" xrefformat="{para}">Förbättrade analysfunktioner visas nu som standard</a> </p> <p>Obs! Den här ändringen gäller endast användare som nyligen har lagts till i layoutmallar. Användare som har tilldelats en anpassad layoutmall påverkas inte heller av den här ändringen.</p> <p>I standardlayoutmallen är Analytics-området nu aktiverat som standard, vilket innebär att användare som är tilldelade den här layoutmallen nu kan se Analytics-området i det globala navigeringsfältet i Workfront Classic och huvudmenyn i den nya Workfront-upplevelsen.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 6 november 2020</p> <p>Produktionsrelease: 3 december 2020</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 6 november 2020</p> <p>Produktionsrelease: 3 december 2020</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md#availab" class="MCXref xref" xrefformat="{para}">Förbättrad analys tillgänglig för alla kluster</a> </p> <p>Förbättrad analys finns för alla Workfront-kluster, inklusive kunder med kluster 6.</p> <p>Tidigare fanns det ingen förbättrad analys tillgänglig med Google Cloud Platform, vilket förhindrar att kunder i kluster 6 får tillgång till Analytics-området. Nu har Business- och Enterprise-kunder i kluster 6 tillgång till Analytics-området.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: 3 december 2020</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 20 november 2020</p> <p>Produktionsrelease: 3 december 2020</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -238,7 +239,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Förbättringar av Adobe Workfront-meddelanden i Microsoft Teams</a> </p> <p>För att göra det enklare för dig att använda Workfront via Microsoft Teams har vi lagt till olika förbättringar i Microsoft Teams-meddelanden som skickas från Workfront.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: Ej tillämpligt</p> <p>Produktionsrelease: 12 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: Ej tillämpligt</p> <p>Produktionsrelease: 12 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,15 +256,15 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nya navigeringsskyltar i Adobe Workfront-appen</a> </p> <p>Vi har lagt till brödtextnavigering i Workfront mobilapp. Nu kan du använda den här funktionen för att navigera till överordnade arbetsobjekt i ett projekt.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: Ej tillämpligt</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: Ej tillämpligt</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md#rich" class="MCXref xref" xrefformat="{para}">RTF i anpassade formulär i Workfront</a> </p> <p>Nu kan du använda RTF-formatering i anpassade formulärtextfält i Workfront mobilapp.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: Ej tillämpligt</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md#rich" class="MCXref xref" xrefformat="{para}">RTF i anpassade formulär i Workfront-appen</a> </p> <p>Nu kan du använda RTF-formatering i anpassade formulärtextfält i Workfront mobilapp.</p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: Ej tillämpligt</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md#sso" class="MCXref xref" xrefformat="{para}">SSO-användare kan nu logga in på nytt i Workfront-appen med ansikts-ID eller fingeravtrycksteknik</a> </p> <p>Om din organisation använder enkel inloggning (SSO) kan du nu använda ditt ansikts-ID eller fingeravtryck för att logga in på Workfront-mobilappen efter att sessionen har avslutats. Du måste dock logga in med dina SSO-inloggningsuppgifter från början.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: Ej tillämpligt</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: Ej tillämpligt</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -280,36 +281,36 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Releasedatum och miljöer</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Uppdateringar av kraven för misslyckade händelseprenumerationer</a> </p> <p>Vi uppdaterar kraven för mjuk inaktivering vid fel med händelseprenumeration. Förutom de befintliga kraven inaktiveras nu Event-prenumerationer om de inte lyckas leverera inom 2 000 försök. Detta är för att stärka den befintliga 70-procentiga felregeln, som under vissa omständigheter kan leda till alltför många fel.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: Ej tillämpligt</p> <p>Produktionsrelease: 11 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Uppdateringar av kraven för misslyckade händelseprenumerationer</a> </p> <p>Vi uppdaterar kraven för mjuk inaktivering vid fel med händelseprenumeration. Förutom de befintliga kraven inaktiveras nu även Event-prenumerationer om de inte lyckas leverera inom 2 000 försök. Detta är för att stärka den befintliga 70-procentiga felregeln, som under vissa omständigheter kan leda till alltför många fel.</p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: Ej tillämpligt</p> <p>Produktionsrelease: 11 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nya Team-fält tillgängliga för Daily Digest</a> </p> <p>Vi har lagt till fälten för teamgodkännande och tilldelningar i e-postmeddelandet Åtgärd krävs varje dag.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 17 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: 17 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#replacin" class="MCXref xref" xrefformat="{para}">Ersätta POP-e-postalternativ i begärandeköer</a> </p> <p>Vi ersätter POP-e-postalternativet för begärandeköer med ett nytt system som hanteras av Workfront. Du kan fortfarande skicka begäranden via e-post, men du måste konfigurera en ny e-postadress som hanteras av Workfront i området Begärandekö i stället. </p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 17 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: 17 december 2020</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#restrict" class="MCXref xref" xrefformat="{para}">Begränsa timredigering för tidrapporter</a> </p> <p>För att få bättre kontroll över tidrapporter och timredigering har vi lagt till en inställning som tillåter dig att begränsa timredigering till tidrapportsägare och systemadministratörer.</p> <p>Tidigare kunde användare med alternativet Tidrapporter och timmar aktiverat på åtkomstnivån redigera timmar på alla tidrapporter.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 21 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 21 januari 2021</p> <p>Produktionsrelease: Med version 21.1</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#improved" class="MCXref xref" xrefformat="{para}">Förbättrade filter och vyer i området Tidrapporter</a> </p> <p>Vi har lagt till filter för projekt och problem samt lagt till alternativen Visa och Gruppera på söksidan.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: 21 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: 21 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#hide" class="MCXref xref" xrefformat="{para}">Dölja övertidsrutan i tidrapporter</a> </p> <p>Du kan nu dölja övertidsrutan för att förenkla för användaren om du inte spårar övertid i Workfront. Du kan dölja övertidsrutan för en enskild tidrapport eller i tidrapportprofilen.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: 16 december 2020</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 2 december 2020</p> <p>Produktionsrelease: 16 december 2020</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#expand" class="MCXref xref" xrefformat="{para}">Expandera eller komprimera objekt i navigeringen i vägbeskrivningar</a> </p> <p>För att det ska bli enklare att visa hela sökvägen har vi lagt till funktionerna för att expandera och komprimera.</p> <p>Nu grupperas alla trunkerade objekt före projektet med texten "mer". "3 till" betyder till exempel att det finns 3 objekt som inte visas.</p> <p>Tidigare var du tvungen att klicka på ellipsen för att visa trunkerade objekt i en nedrullningsbar meny.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 7 januari 2020</p> <p>Produktionsrelease: 21 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#expand" class="MCXref xref" xrefformat="{para}">Expandera eller komprimera objekt i navigeringen i vägbeskrivningar</a> </p> <p>För att det ska bli enklare att visa hela sökvägen har vi lagt till funktionerna för att expandera och komprimera.</p> <p>Nu grupperas alla trunkerade objekt före projektet med texten "mer". "3 till" betyder t.ex. att det finns 3 objekt som inte visas.</p> <p>Tidigare var du tvungen att klicka på ellipsen för att visa trunkerade objekt i en nedrullningsbar meny.</p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 7 januari 2020</p> <p>Produktionsrelease: 21 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nytt utseende och ny känsla för banbrytande navigering</a> </p> <p>För att hjälpa användare att bättre identifiera var de befinner sig i Workfront och enklare navigera mellan objekt har vi förbättrat breadcrumb-navigeringen flera gånger.</p> </td> 
-   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 10 december 2020</p> <p>Produktionsrelease: 21 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Den nya Adobe Workfront-upplevelsen </p> </td> 
+   <td><strong>Tillgängligt på följande datum:</strong> <p>Betaversion: 10 december 2020</p> <p>Produktionsrelease: 21 januari 2021</p> <p><strong>Finns i följande miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -385,9 +386,9 @@ Mer information finns i [Konfigurera brandväggens tillåtelselista](../../../ad
 
 ### Borttagning av Flash {#flash-deprecation}
 
-Alla verktyg baserade på Flash togs bort från alla produkter den 19 november 2020.
+Alla verktyg för Flash togs bort från alla produkter den 19 november 2020.
 
-Läs mer om ersättningslösningar för varje Flash-baserat verktyg i följande artikel: [Ersättning av verktyg baserade på Flash i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Läs mer om ersättningslösningar för respektive verktyg i följande Flash: [Ersättning av verktyg baserade på Flash i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### 21.1 Release Webinar {#21-1-release-webinar}
 

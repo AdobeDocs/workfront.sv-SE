@@ -4,10 +4,11 @@ description: Se och känna av uppdateringar under 22.4-releasetidningen
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
-source-git-commit: 53cc430dc5fce8f3d0b570c661ec93dd566c7ab9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Mer information finns i [Hantera tillgängliga licenser i ditt system](/help/qui
 
 >[!NOTE]
 >
->förhandsversion: 21 juli 2022; Produktionsrelease: 18 augusti 2022
+>Förhandsversion: 21 juli 2022; Produktionsrelease: 18 augusti 2022
 
 I området Anpassade Forms har nu listorna det mer moderna utseende och känsla som finns i de flesta andra listor i hela Workfront. Den här uppdateringen lägger till snabbfiltret, som du använder för att visa endast de anpassade formulär som du behöver för att granska, redigera eller dela.
 
@@ -36,11 +37,11 @@ I området Anpassade Forms har nu listorna det mer moderna utseende och känsla 
 
 Verktygsfälten i följande listor och rapporter har nu ett modernt utseende och känsla, vilket gör att du snabbt kan hantera objekt i Adobe Workfront.
 
-### Förhandsgranskningsversion: 28 juli 2022, Produktionsrelease: med version 22.4
+### Förhandsversion: 28 juli 2022; Production release: med 22.4-utgåvan
 
 Lista med ämnesgrupper för projektkö
 
-### Förhandsgranskningsversion: 21 juli 2022, Produktionsrelease: med version 22.4
+### Förhandsversion: 21 juli 2022; Produktionsrelease: med 22.4-utgåvan
 
 Lista över utfärdandetimmar
 
@@ -48,7 +49,7 @@ Lista med aktivitetstimmar
 
 Lista med aktivitetsföregångare
 
-Lista med ämnen i projektkön
+Lista med ämnen i projektkö
 
 Faktureringslista för projekt
 

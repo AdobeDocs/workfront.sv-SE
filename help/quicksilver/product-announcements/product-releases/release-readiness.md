@@ -5,8 +5,9 @@ title: Förbered dig för en [!DNL Adobe Workfront] release
 description: Följ de här tipsen för att smidigt uppdatera din organisation för varje ny version av Workfront.
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -19,9 +20,9 @@ ht-degree: 0%
 >
 >Workfront har två modeller för att lansera nya funktioner och uppdateringar. Din organisation kan välja om du vill få nya funktioner kvartalsvis eller snabbare. Processen med att förbereda för en release är densamma oavsett vilken modell organisationen använder.
 >
->En detaljerad förklaring av de två modellerna finns på [Aktivera eller inaktivera snabba releaser för organisationen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>En detaljerad förklaring av de två modellerna finns på [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-[!DNL Adobe Workfront] regelbundet släpper viktiga uppdateringar av produktionsmiljön. Som [!DNL Workfront] kan du se till att din organisation får en smidig övergång till varje ny version av [!DNL Workfront] produkt.
+[!DNL Adobe Workfront] regelbundet släpper viktiga uppdateringar av produktionsmiljön. Som en [!DNL Workfront] kan du se till att din organisation får en smidig övergång till varje ny version av [!DNL Workfront] produkt.
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
@@ -68,7 +69,7 @@ Länkar till versionsöversikterna finns i [Produktreleaser](product-releases.md
 >
 >Meddelanden från meddelandecentret direkt från [!DNL Workfront] är endast tillgängliga för [!DNL Workfront] administratörer.
 
-Som [!DNL Workfront] administratör får du ett meddelande från meddelandecentret från [!DNL Workfront] om olika aspekter av releasen. Du får ett meddelande från meddelandecentret när något av följande inträffar:
+Som en [!DNL Workfront] administratör får du ett meddelande från meddelandecentret från [!DNL Workfront] om olika aspekter av releasen. Du får ett meddelande från meddelandecentret när något av följande inträffar:
 
 * Nya funktioner är tillgängliga i produktionsmiljön
 * Funktioner som lanseras som förhandsversion kommer att släppas till produktion före den schemalagda versionen.
@@ -96,7 +97,7 @@ Mer information om [!UICONTROL Preview Sandbox] miljö, se [The [!DNL Adobe Work
 
 ### Delta i det publicerade webbinariet
 
-[!DNL Workfront] Webbseminariet Release är värd kort före vissa versioner. Här är [!DNL Workfront] produktteamet förklarar och demonstrerar nya funktioner och kan besvara frågor från dem som deltar.
+[!DNL Workfront] Webbseminariet Release är värd kort före vissa utgåvor. Här är [!DNL Workfront] produktteamet förklarar och demonstrerar nya funktioner och kan besvara frågor från dem som deltar.
 
 Webbseminarier presenteras via [!DNL Workfront] Announcement Center. Registreringslänkar finns på sidan Versionsöversikt.
 
@@ -124,7 +125,7 @@ När du förbereder dig för att förmedla versionsinformation till dina använd
 * Interna nyhetsbrev
 * E-post
 * Meddelanden från meddelandecentret (vidarebefordras från [!DNL Workfront] eller skapat av dig)
-* Information om samarbetsverktyg, som [!DNL Slack] eller [!DNL Microsoft Teams]
+* Kommentarer om samarbetsverktyg som [!DNL Slack] eller [!DNL Microsoft Teams]
 * Interna webbinarier eller kurser
 
 Du kan välja balansen mellan [!DNL Workfront] resurser (som dokumentation, versionsinformation och utbildning) med information som är mer anpassad efter organisationens behov och arbetsflöden. Genom att visa användarna hur nya funktioner kan förbättra arbetet eller spara tid och energi kan användarna ta till vara ändringarna, men du kan spara tid genom att använda demos eller dokumentation som redan finns tillgänglig via [!DNL Workfront].

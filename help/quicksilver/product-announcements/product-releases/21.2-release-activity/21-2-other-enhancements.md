@@ -6,10 +6,11 @@ title: 21.2 Andra förbättringar
 description: Den här sidan beskriver alla andra förbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i versionsöversikt 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Den här sidan beskriver alla andra förbättringar som gjorts i version 21.2 i 
 
 Workfront har gett sitt varumärke till Adobe Workfront.
 
-De mest framträdande områdena inom Adobe Workfront och våra kundtillvända webbplatser har nu uppdaterats. Övriga områden kommer snart att uppdateras.
+De mest framträdande områdena inom Adobe Workfront och våra kundtillvända webbplatser uppdateras nu. Övriga områden kommer snart att uppdateras.
 
 **Uppdaterade områden**
 
@@ -77,9 +78,9 @@ Mer information om objektrubrikerna i den nya Workfront-upplevelsen finns i [Nya
 
 Workfront lagrar nu objektstatusar på ett nytt sätt.
 
-Dessa ändringar påverkar inte hur statussökningar utförs. API-begäranden som innehåller en objektstatussökning returnerar dock en ofullständig lista över gruppstatus.
+De här ändringarna påverkar inte hur statussökningar utförs. API-begäranden som innehåller en objektstatussökning returnerar dock en ofullständig lista över gruppstatus.
 
-Mer information finns i [Ändringar i API:t: Statussöksvar](../../../wf-api/api/api-changes-search.md) .
+Mer information finns i [Centrala API-ändringar: statussöksvar](../../../wf-api/api/api-changes-search.md) .
 
 ## Nyttolaster för händelseprenumerationer har uppdaterats för att inkludera alla fält som slutar i ID
 

@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 3 maj 2021"'
+title: "Workfront Fusion-lansering: 3 maj 2021"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 3 maj 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: af3312c5-3416-4c03-8528-6a2c0240110e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -36,12 +37,12 @@ För att förbättra säkerheten har vi lagt till en ny anslutningstyp i Workfro
 
 * Azure DevOps
 
-   Den nya anslutningstypen begränsar omfattningen till de som specifikt behövs av Workfront Fusion.
+  Den nya anslutningstypen begränsar omfattningen till de som specifikt behövs av Workfront Fusion.
 
 * Azure DevOps (begär alla scope)
 
-   Det här är den äldre anslutningstypen, som begär alla scope som är tillgängliga i en anslutning till Azure DevOps.
+  Det här är den äldre anslutningstypen, som begär alla scope som är tillgängliga i en anslutning till Azure DevOps.
 
-Vi rekommenderar att du använder anslutningstypen Azure DevOps i alla nya scenarier där Azure DevOps används. Vi rekommenderar även att du ändrar några Azure DevOps-moduler i dina befintliga scenarier så att de använder den nya anslutningstypen. Den gamla anslutningstypen Azure DevOps (Request all scopes) kommer inom kort att bli inaktuell.
+Vi rekommenderar att du använder anslutningstypen Azure DevOps i alla nya scenarier där Azure DevOps används. Vi rekommenderar även att du ändrar några Azure DevOps-moduler i dina befintliga scenarier så att de använder den nya anslutningstypen. Den gamla anslutningstypen för Azure DevOps (Begär alla omfattningar) kommer att bli inaktuell inom den närmaste framtiden.
 
 Mer information finns i [Azure DevOps-moduler](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).

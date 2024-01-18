@@ -4,18 +4,19 @@ description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 13 septembe
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d9056d6f-a62d-4516-930e-4c3f4fbaec3e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # Versionsaktivitet för Workfront Fusion: 13 september 2021
 
-Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion veckan efter 23 september 2021.
+På den här sidan beskrivs alla förbättringar som gjorts i Adobe Workfront Fusion under veckan efter den 23 september 2021.
 
 En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
@@ -40,7 +41,7 @@ Vi har också gjort det möjligt att sortera historiken för scenariokörning. D
 * Antal åtgärder
 * Överförda data
 
-Mer information om hur du filtrerar och sorterar körningshistorik finns i [Visa ett scenarios körningshistorik i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Mer information om historik för filtrering och sortering finns i [Visa ett scenarios körningshistorik i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Hjälplänkar i Fusion leder nu till specifika artiklar
 
@@ -58,7 +59,7 @@ Tidigare hade alla exekveringar en informationsknapp, och ibland kunde användar
 
 Mer information finns i [Visa ett scenarios körningshistorik i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
-## Tidsgränsen för SDL-hanterad översättningskontakt ökade till 120 sekunder
+## Tidsgränsen för SDL-hanterad översättningskontakt har ökat till 120 sekunder
 
 För att minska tidsgränser för SDL Managed Translation Connector har vi ökat tidsgränsen till 120 sekunder.
 

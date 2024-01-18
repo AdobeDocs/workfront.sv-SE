@@ -3,9 +3,11 @@ title: 23.3 Projektförbättringar
 description: 23.3 Projektförbättringar
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---

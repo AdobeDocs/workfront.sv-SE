@@ -4,10 +4,11 @@ description: 22.2&nbsp;Projektförbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ in January 2022
 
 den 4 april 2022. En lista över alla ändringar som är tillgängliga i version 2.2 finns i [22.2 Versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
-## Adobe Workfront Boards finns nu att köpa!
+## Nu finns Adobe Workfront Boards!
 
 Styrelserna är flexibla verktyg som ger teamsamarbete genom att ge åtkomst till en delad anslagstavla som innehåller kolumner och kort.
 
@@ -47,22 +48,22 @@ Följande ytterligare förbättringar är nu tillgängliga för Workfront Boards
 
 * Tagga kort på anslagstavlor
 
-   Nu kan du kategorisera kort på din anslagstavla med färgkodade taggar. Med taggar kan du snabbt identifiera kort. Du kan till och med sortera din anslagstavla baserat på märkord.
+  Nu kan du kategorisera kort på din anslagstavla med färgkodade taggar. Med taggar kan du snabbt identifiera kort. Du kan till och med sortera din anslagstavla baserat på märkord.
 
 * Hantera kort på anslagstavlor
 
-   Vi har lagt till följande funktioner som hjälper dig att hantera kort på din bräda:
+  Vi har lagt till följande funktioner som hjälper dig att hantera kort på din bräda:
 
    * Kopiera ett kort: Skapa en kopia av ett befintligt kort på din bräda.
-   * Flytta ett kort: Flytta snabbt kort till antingen överkanten eller nederkanten av en rityta med de nya alternativen i överkanten av kolumnen och underkanten av kolumnmenyn.
+   * Flytta ett kort: Flytta kort snabbt till antingen överkanten eller nederkanten av en anslagstavla med de nya alternativen för överkanten och underkanten av en kolumn.
 
 * Sök på anslagstavlor
 
-   Vi har lagt till ett sökfält som hjälper dig att söka efter alla kort på din anslagstavla.
+  Vi har lagt till ett sökfält som hjälper dig att söka efter alla kort på din anslagstavla.
 
-* Ange ett förfallodatum för ett kort på en anslagstavla
+* Ange ett förfallodatum för ett kort i en bok
 
-   Du kan nu ange ett förfallodatum för enskilda kort på din bräda.
+  Du kan nu ange ett förfallodatum för enskilda kort på din bräda.
 
 Mer information finns i [Kom igång med anslagstavlor i Adobe Workfront](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
@@ -129,7 +130,7 @@ Mer information finns i [Konvertera ett problem till ett projekt i Adobe Workfro
 
 >[!NOTE]
 >
->Den här funktionen var ursprungligen planerad att lanseras med version 22.2. Den släpps till produktion den 21 april 2022.
+>Den här funktionen var ursprungligen planerad att lanseras med version 2.2. Den släpps till produktion den 21 april 2022.
 
 För att dina data ska bli korrekta har vi gjort en ändring som bevarar tilldelningstimmar och behåller planerad tid för aktiviteten oförändrad när du ändrar tilldelningar för aktiviteten.
 

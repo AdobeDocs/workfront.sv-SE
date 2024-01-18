@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 2 november 2020"'
+title: "Workfront Fusion-lansering: 2 november 2020"
 description: Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 2 november 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 60e04bd9-3de2-4053-9358-6922e6316aa4
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,11 +25,11 @@ En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Wor
 
 En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
 
-## Allocadia-anslutning och moduler är nu tillgängliga
+## Allocadia-anslutning och -moduler är nu tillgängliga
 
 Nu kan du använda Workfront Fusion 2.0 för att ansluta till ditt Allocadia-konto.
 
-Med hjälp av Allocadia-modulerna kan du
+Med Allocadia-modulerna kan du:
 
 * Utlösa ett scenario när poster läggs till eller uppdateras i Allocadia
 * Skapa, läsa, uppdatera eller ta bort en Allocadia-post
@@ -38,7 +39,7 @@ Mer information om tillgängliga Allocadia-moduler finns i [Allocadia-moduler](.
 
 ## DocuSign-anslutning och moduler är nu tillgängliga (kommer snart)
 
-Nu kan du använda Workfront Fusion 2.0 för att ansluta till ditt DocuSign-konto. Med DocuSign-modulerna kan du:
+Nu kan du använda Workfront Fusion 2.0 för att ansluta till ditt DocuSign-konto. Med DocuSign-modulerna kan du
 
 * Utlösa ett scenario när ett kuvert ändrar sin status
 * Skapa ett omslag

@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion-lanseringsaktivitet: Vecka 27 juni 2022"'
+title: "Workfront Fusion-lansering: vecka 27 juni 2022"
 description: På den här sidan beskrivs alla förbättringar som gjorts i Adobe Workfront Fusion under veckan efter 27 juni 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: c960dd49-8e2a-4f57-bdce-8b27e7e47a26
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---

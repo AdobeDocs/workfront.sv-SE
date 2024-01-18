@@ -4,10 +4,11 @@ description: 2.3 Administratörsförbättringar
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -32,9 +33,9 @@ Nu kan du redigera följande korrekturinställningar i Workfront Setup Area:
 
 Mer information finns i [Konfigurera standardinställningar för korrektur](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
-## Använd olåsta statusvärden i en godkännandeprocess
+## Använda olåsta statusvärden i en godkännandeprocess
 
-**Obs!** Borttagen från 22.3-produktionsversionen. Den här funktionen är planerad att lanseras i produktion den 15 september 2022.
+**Obs!** Borttagen från 22.3-produktionsutgåvan. Den här funktionen är planerad att lanseras till Production den 15 september 2022.
 
 För att du ska få större kontroll över godkännandeprocesserna och statusvärdena i ditt system har vi gjort det möjligt att skapa en godkännandeprocess som baseras på en olåst systemstatus. Dessutom kan du nu låsa upp status som redan används i en godkännandeprocess.
 
@@ -73,7 +74,7 @@ Uppdateringen innehåller följande förbättringar:
 
 * Ta bort befintliga fält från projekthuvudet.
 
-* Lägg till nya icke-redigerbara fält för projektöversikt. Du kan inte lägga till anpassade fält eller fält som kan redigeras. Redigerbara fält som finns i projekthuvudet kan finnas kvar i rubriken.
+* Lägg till nya, icke-redigerbara fält för projektöversikt. Du kan inte lägga till anpassade fält eller fält som kan redigeras. Redigerbara fält som finns i projekthuvudet kan finnas kvar i rubriken.
 
 * Objektrubriken kan innehålla upp till fem fält.
 

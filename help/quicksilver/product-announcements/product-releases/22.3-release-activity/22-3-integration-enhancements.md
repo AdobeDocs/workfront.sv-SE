@@ -4,10 +4,11 @@ description: 2.3 Integration enhancements
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Den här sidan beskriver alla integreringsförbättringar som gjorts i version 2
 
 Vi är glada över att kunna meddela att Adobe Workfront Experience Manager Assets-integreringen nu är tillgänglig för Cloud Service.
 
-Vi har också introducerat nya funktioner för både Cloud Service och Assets Essentials: Den här integreringen ger användarna möjlighet att
+Vi har också introducerat nya funktioner för både Cloud Service och Assets Essentials: Den här integreringen gör att användare kan
 
 * Skapa automatiskt länkade AEM i Workfront
 
@@ -29,7 +30,7 @@ Vi har också introducerat nya funktioner för både Cloud Service och Assets Es
 * Visa de senaste AEM metadata i realtid i Workfront
 
 
-Du måste ha Workfront och Adobe Experience Manager Assets eller Assets Essentials kopplade till ditt företags-ID i Adobe Admin Console för att kunna använda den här integreringen. Mer information får du om du pratar med din säljare på Adobe.
+Du måste ha Workfront och Adobe Experience Manager Assets eller Assets Essentials kopplat till ditt företags-ID i Adobe Admin Console för att kunna använda den här integreringen. Mer information får du om du pratar med din säljare på Adobe.
 
 Mer information om hur du konfigurerar integreringen finns i
 
@@ -52,7 +53,7 @@ Mer information finns i [Konfigurera integrering med äldre SharePoint](/help/qu
 
 ## Kombinera flera filer i ett och samma korrektur i plugin-programmet Creative Cloud
 
-Du kan nu överföra filer utanför med det innehåll du har skapat i plugin-programmet Adobe Workfront för Creative Cloud för att skapa korrektur för flera filer i Workfront. Utanför filer visas som extra korrektursidor i Workfront. Med den här förbättringen har vi även uppdaterat utseendet och känslan av att skapa bevis.
+Du kan nu överföra filer utanför med det innehåll du har skapat i plugin-programmet Adobe Workfront för Creative Cloud för att skapa korrektur för flera filer i Workfront. Utanför filer visas som extra korrektursidor i Workfront. Med den här förbättringen har vi även uppdaterat utseendet och känslan av att skapa korrektur.
 
 Mer information finns i
 

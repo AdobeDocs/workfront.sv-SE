@@ -5,10 +5,11 @@ title: Aktivitetsöversikt för R1-release
 description: Den här sidan innehåller information om de funktioner som ingår i R1-versionen.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 Den här sidan innehåller information om de funktioner som ingår i R1-versionen. 
 
-R1-versionen är för närvarande tillgänglig för testning i förhandsgranskning. R1-releaser till produktionsmiljön i en fasad utrullning på kvällarna 26 och 27 april 2017 (MDT).
+R1-versionen är för närvarande tillgänglig för testning i förhandsversionen, R1-versioner i produktionsmiljön i en fasad utrullning på kvällarna 26 och 27 april 2017 (MDT).
 
-Med R1-versionen kan användare, kunskapsarbetare och administratörer hantera sitt arbete bättre. Med R1 kan administratörer anpassa Workfront för att bättre matcha organisationens terminologi. kunskapsarbetare kan utnyttja användningsrapporter för att bättre förstå hur projekten spårar mot planerade och budgeterade timmar, användare kan delta i Workfront direkt från Outlook 365 och bli produktivare när de använder Workfront mobilapp, och mycket annat.
+Med R1-versionen kan användare, kunskapsarbetare och administratörer hantera sitt arbete bättre. Med R1 kan administratörer anpassa Workfront för att bättre matcha organisationens terminologi; kunskapsarbetare kan utnyttja användningsrapporter för att bättre förstå hur projekt spåras mot planerade och budgeterade timmar; användare kan engagera sig i Workfront direkt från Outlook 365 och vara mer produktiva när de använder Workfront mobilapp - och mycket annat.
 
 I följande avsnitt finns en fullständig lista över de förbättringar som är tillgängliga i R1:
 
@@ -33,7 +34,7 @@ I följande avsnitt finns en fullständig lista över de förbättringar som är
 * [Förbättringar i mobiler och Outlook](#mobile-and-outlook-enhancements)
 * [Andra förbättringar](#other-enhancements)
 * [Förbättringar av korrektur](#proofing-enhancements)
-* [Funktionaliteten frigörs inte till produktion i R1](#functionality-not-releasing-to-production-in-r1)
+* [Funktionen släpper inte till produktion i R1](#functionality-not-releasing-to-production-in-r1)
 * [2017 R1 Preview Release Webinars](#2017-r1-preview-release-webinars)
 * [Underhållsuppdateringar](#maintenance-updates)
 
@@ -43,7 +44,7 @@ Mer detaljerad information om de ändringar vi gör i vår versionsprocess finns
 
 * [Återställ projekt, uppgifter och problem från papperskorgen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#restore-projects-tasks-and-issues-with-recycle-bin)
 * [Förbättring av papperskorgen: Aktiviteter och underaktiviteter återställs till föregående ordning](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#recycle-bin-improvement-tasks-and-subtasks-are-restored-to-their-previous-order)
-* [Förbättring av papperskorgen: Inspelad i uppdateringsströmmen och ta emot e-postmeddelande](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#enhancements-when-restoring-objects)
+* [Förbättring av papperskorgen: Inspelat i uppdateringsströmmen och Ta emot e-postmeddelande](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#enhancements-when-restoring-objects)
 
 ## Förbättringar av systemkonfigurationen {#system-configuration-enhancements}
 
@@ -89,7 +90,7 @@ Mer detaljerad information om de ändringar vi gör i vår versionsprocess finns
 * [Nya alternativ för e-postsammandrag av&quot;förfrågningar jag gjort&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#new-email-digest-options-for-requests-i-have-made)
 * [Nya alternativ för e-postsammandrag för&quot;Åtgärder krävs&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#new-email-digest-options)
 * [Uppdaterade grupperingar för händelsemeddelanden i området för e-postinställningar](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-event-notifications-in-the-setup-area)
-* [Avanmäl dig från snabbmeddelanden: Kontextsammanställning av sammandrag](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
+* [Opt out of Instant Notifications: In-Context Digest Configuration](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
 * [Olika e-postmeddelanden har flyttats från avsnittet Åtgärd krävs till andra projektrelaterade avsnitt](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#various-email-notifications-moved-from-the-action-needed-section-to-other-project-related-sections)
 * [Ändringar av användarmeddelanden för gruppredigering](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#changes-to-bulk-editing-user-notifications)
 
@@ -105,9 +106,9 @@ Följande funktioner är för närvarande inte tillgängliga i Förhandsgranska 
 
 ## Förbättringar av korrektur {#proofing-enhancements}
 
-Det finns inga korrekturförbättringar tillgängliga i förhandsvisningsmiljön. dessa förbättringar kommer att finnas i Production med R1.
+Språkförbättringar är inte tillgängliga i förhandsvisningsmiljön. Dessa förbättringar är tillgängliga i Production med R1.
 
-### Förbättrade korrekturfunktioner i Workfront
+### Förbättringar av korrektur i Workfront
 
 Följande förbättringar har släppts till Workfront-programmet med R1:
 
@@ -124,7 +125,7 @@ Följande förbättringar har släppts till programmet ProofHQ med R1:
 * [Uppdaterat globalt navigeringsfält (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar):
 
    * Ny användarprofilbild
-   * Ny länk till Workfront-programmet (när ProofHQ-kontot är integrerat med ett Workfront-konto)
+   * Ny länk till Workfront (när ProofHQ-kontot är integrerat med ett Workfront-konto)
    * Uppdaterat utseende och känsla
 
 * [Inkludera ytterligare information i anpassade vyer (KorrekturHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views)
@@ -136,15 +137,15 @@ Följande förbättringar har släppts till programmet ProofHQ med R1:
 * [Konfigurera rapporter så att det nya Gantt-schemat visas som standard](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#configure-reports-to-show-the-new-gantt-chart-by-default)
 * [Sammanhangsberoende hjälp i installationsprogrammet](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#context-sensitive-help)
 
-## Funktionaliteten frigörs inte till produktion i R1 {#functionality-not-releasing-to-production-in-r1}
+## Funktionen släpper inte till produktion i R1 {#functionality-not-releasing-to-production-in-r1}
 
-Den funktionalitet som beskrivs i detta avsnitt var tillgänglig i förhandsvisningsmiljön under R1-releasecykeln. Men den här funktionen är inte tillgänglig för Production in R1. Funktionen kommer att tas bort från förhandsvisningsmiljön i 6 veckor, vilket leder fram till R1-versionen till Production. När R1 har släppts till Production återinförs det i förhandsvisningsmiljön.
+Funktionerna som beskrivs i det här avsnittet var tillgängliga i förhandsvisningsmiljön under R1-releasecykeln, men den här funktionaliteten släpps inte till Produktion i R1. Funktionen kommer att tas bort från förhandsvisningsmiljön i 6 veckor, vilket leder fram till R1-versionen till Production. När R1 har släppts till Production återinförs det i förhandsvisningsmiljön.
 
-* [Ny resursplaneringsfunktion (ej tillgänglig i produktion i R1)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (Inte tillgängligt i produktion i R1. kvar i **Förhandsgranska**)
+* [Ny resursplaneringsfunktion (ej tillgänglig i produktion i R1)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (Inte tillgängligt i produktion i R1; återstår i **Förhandsgranska**)
 
-* [Ändra ordning på kolumner i en lista med dra och släpp](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (Inte tillgängligt i produktion i R1. kvar i **Tidig åtkomst**)
+* [Ändra ordning på kolumner i en lista med dra-och-släpp](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (Inte tillgängligt i produktion i R1; återstår i **Tidig åtkomst**)
 
-* [Uppdaterad Look and Feel i kontrollpanelslistan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (Inte tillgängligt i produktion i R1. kvar i **Tidig åtkomst**)
+* [Uppdaterad Look and Feel i kontrollpanelslistan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (Inte tillgängligt i produktion i R1; återstår i **Tidig åtkomst**)
 
 * [Funktioner som blev tillgängliga i förhandsgranskningen 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area) (Inte tillgängligt i produktion i R1. **borttagen från tidig åtkomst** den 19 april 2017)
 
@@ -157,4 +158,4 @@ Information om hur du visar webbinära inspelningar för R1-versionen finns i [W
 
 ## Underhållsuppdateringar {#maintenance-updates}
 
-En fullständig lista över de senaste underhållsuppdateringarna för Workfront finns i .
+En fullständig lista över de senaste underhållsuppdateringarna av Workfront-systemet finns i .

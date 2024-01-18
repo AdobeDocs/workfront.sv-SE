@@ -4,10 +4,11 @@ description: 21.3 Andra förbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 82f51b74-4743-497c-87c6-6258aa7b02bf
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -26,9 +27,9 @@ En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.
 
 Följande förbättringar har lagts till på startsidan i Adobe Workfront mobilapp:
 
-* Med omdesignade widgetar för arbetsobjekt och en större sökruta hittar du snabbt det du behöver.
+* Omarbetade widgetar för arbetsobjekt och en större sökruta hjälper dig att snabbt hitta det du behöver.
 * Navigeringsfältet för hem, virtuell assistent, snabbuppgift, meddelanden och användarprofil flyter nu över hemområdet för enkel åtkomst.
-* Menyn Mitt arbete rullas vågrätt och visar följande alternativ: Projekt, uppgifter och problem, förfrågningar, godkännanden och tidrapporter. Upp till tre kort för det valda alternativet visas under menyn.
+* Menyn Mitt arbete rullas vågrätt och visar följande alternativ: Projekt, Åtgärder och problem, Begäranden, Godkännanden och Tidrapporter. Upp till tre kort för det valda alternativet visas under menyn.
 
 Följande artiklar uppdateras när appen släpps i appbutikerna:
 

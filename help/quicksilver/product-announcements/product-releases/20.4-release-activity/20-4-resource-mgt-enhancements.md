@@ -4,10 +4,11 @@ description: 20.4 Förbättrad resurshantering
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Följande förbättringar är nu tillgängliga med den här nya funktionen:
 
 Mer information om arbetsinsats finns i [Översikt över arbetsinsats](../../../manage-work/tasks/task-information/work-effort.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering, del 2 inlärningsväg](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering, del 2 utbildningsväg](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) på Workfront One.
 
 ## Projektstatusbaserade färger för arbetsobjekt i Utjämning av arbetsbelastning
 
@@ -59,9 +60,9 @@ För att säkerställa en smidig och användarvänlig upplevelse när du hantera
 
 * Nu kan du öppna Sammanfattning för problem och uppgifter från ikonen Sammanfattning i stället för menyn Mer. Den här upplevelsen är nu densamma som i listor.
 
-   >[!NOTE]
-   >
-   >Det här alternativet är endast tillgängligt i den nya Adobe Workfront-upplevelsen.
+  >[!NOTE]
+  >
+  >Det här alternativet är endast tillgängligt i den nya Adobe Workfront-upplevelsen.
 
 * Du kan öppna menyn Mer till vänster om ett objektfält i stället för i slutet av ett objektfält. Det gör det enklare att hitta objekt som sträcker sig över en lång tidsperiod.
 * Du kan komma åt uppdragsfunktionerna med ett kortkommando. Tidigare var detta bara tillgängligt från menyn Mer.

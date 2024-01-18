@@ -4,11 +4,12 @@ description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 21 februari
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8349dd47-6233-4f26-af9c-2f180c7aecd1
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -23,10 +24,10 @@ En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront
 
 ## Adobe Acrobat Sign Connector och moduler är nu tillgängliga
 
-Nu kan du använda Adobe Workfront Fusion för att ansluta till ditt Adobe Acrobat Sign-konto. Med Adobe Acrobat Sign-modulerna kan du
+Nu kan du ansluta till ditt Adobe Acrobat Sign-konto med Adobe Workfront Fusion. Med Adobe Acrobat Sign-modulerna kan du
 
 * Skapa, uppdatera och läsa avtal eller andra poster
 * Visa eller sök efter poster på ditt Adobe Acrobat Sign-konto
 * Göra ett anpassat API-anrop
 
-Mer information finns i [Adobe Acrobat Sign-moduler](../../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md).
+Mer information finns i [Adobe Acrobat Sign moduler](../../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md).

@@ -5,10 +5,11 @@ title: Webbseminarier om R1-versionen
 description: Dessa webbinarier fokuserade på funktionaliteten i R1-versionen.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5656710c-873b-4f8c-822f-49858f149892
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Dessa webbinarier fokuserade på funktionaliteten i R1-versionen. 
 
-R1-versionen är för närvarande tillgänglig för testning i förhandsgranskning. R1-versioner till produktionsmiljön den 26 april 2017.
+R1-versionen är för närvarande tillgänglig för test i Preview, R1-versioner i produktionsmiljön den 26 april 2017.
 
 Mer information om funktionerna i webbinarierna finns i [Aktivitetsöversikt för R1-release](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) sida.
 
@@ -72,7 +73,7 @@ Den här delen av webbinariet innehåller följande ämnen:
 
 Den här delen av webbinariet innehåller följande ämnen:
 
-* Terminologiska anpassningar
+* Anpassa terminologi
 * Alternativ för e-postsammandrag
 * Förbättringar av e-postutseende och -känsla
 * Välja ut direktmeddelanden
