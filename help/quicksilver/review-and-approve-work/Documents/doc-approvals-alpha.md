@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alfa-program - dokumentgodkännanden
+title: Alpha - dokumentgodkännanden
 description: Vi är glada över att kunna lansera vårt Alpha-program för godkännande av dokument. Här hittar du information om den senaste Alpha-releasen tillsammans med en kort videogenomgång som hjälper dig att komma igång.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
 
-# Alfa-program - dokumentgodkännanden
+# Alpha - dokumentgodkännanden
 
 Vi är glada över att kunna lansera vårt Alpha-program för godkännande av dokument. Här hittar du information om den senaste Alpha-releasen tillsammans med en kort videogenomgång som hjälper dig att komma igång.
 
@@ -25,6 +25,20 @@ Vi är glada över att kunna lansera vårt Alpha-program för godkännande av do
 För att kunna delta i den här Alpha-versionen måste du ha lagts till i Alpha in Preview av produktgruppen. Om inte, kontakta din Customer Success eller Account Manager och be om att få lägga till.
 
 ## Senaste versionen
+
+## Alpha version 6 - jan 2024
+
+I den här sjätte Alpha-versionen har vi:
+
+* Förbättrade upplevelser av att lägga till deltagare med ett nytt popup-fönster som förhindrar att man lägger till personer av misstag och får dem informerade
+* En ny widget för väntande godkännanden som visar alla utestående godkännanden för projekt som du äger, inklusive möjligheten att se alla som är på godkännande, deras status och möjligheten att påminna alla som ännu inte har fattat något beslut
+* En ny&quot;Slutför min granskning&quot;-åtgärd för alla granskare har lagts till som de kan använda för att ange att de har utfört sitt steg
+
+Se hela videomaterialet nedan:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _Tidigare versioner_
 
 ### Alpha version 5 - september 2023
 
@@ -36,11 +50,7 @@ I den femte Alpha-versionen har vi:
 * Lagt till möjlighet att lägga till externa godkännare
 * Förbättrad vy för externa godkännare som kan förhandsgranska, hämta och kommentera ett dokument
 
-Se hela videomaterialet nedan:
-
->[!VIDEO](https://video.tv.adobe.com/v/3424613/)
-
-## _Tidigare versioner_
+Titta på [videoutgång](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Alpha version 4 - maj 2023
 
@@ -48,15 +58,13 @@ I den fjärde Alpha-versionen, innan vi börjar producera för endast en viss ku
 
 Vi ser fram emot den här milstolpen och ser fram emot mycket mer framöver!
 
-Se hela videomaterialet nedan:
-
-Titta på [videoutgång](https://video.tv.adobe.com/v/3420094/){target=_blank}
+Titta på [videoutgång](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Alpha version 3 - mars 2023
 
 I den här tredje Alpha-versionen har vi införlivat din feedback genom att presentera framgångsrika meddelanden som visar när vi slutför åtgärder som att lägga till eller ta bort godkännare och granskare. Dessutom ger den här versionen bättre synlighet för väntande godkännanden, som nu kan visas på sidorna Hem och Mina uppdateringar, vilket gör att användare enkelt kan godkänna dokument direkt från dessa sidor.
 
-Titta på [videoutgång](https://video.tv.adobe.com/v/3417854/){target=_blank}
+Titta på [videoutgång](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha version 2 - jan 2023
 
