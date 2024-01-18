@@ -7,9 +7,9 @@ description: Det planerade slutförandedatumet är en beräknad realtidsindikato
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -22,69 +22,40 @@ I följande avsnitt beskrivs hur det planerade slutförandedatumet bestäms för
 
 ## Åtkomstkrav
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>For current licenses: 
-   <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>For legacy licenses: 
-   <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
-   <li><p>A Plan license to create a report</p> </li></ul>
-      </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller senare om du vill visa det planerade slutförandedatumet i en rapport</p> <p>En planlicens för att skapa en rapport</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Nytt: 
+   <ul><li><p>Medarbetare eller senare för att visa det planerade slutförandedatumet i en rapport</p></li> <li><p>En standardlicens för att skapa en rapport</p></li> </ul>
+
+<p>Aktuell: 
+   <ul><li><p>Granska eller senare om du vill visa det planerade slutförandedatumet i en rapport</p></li> 
+   <li><p>En planlicens för att skapa en rapport</p> </li></ul>
+      </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Du måste ha behörighet att redigera rapporter, instrumentpaneler och kalendrar för att skapa en rapport</p> <p>Du måste ha behörighet att redigera filter, vyer och grupperingar för att kunna skapa en rapport eller ändra en listvy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Du måste ha behörighet att redigera rapporter, instrumentpaneler och kalendrar för att skapa en rapport</p> <p>Du måste ha behörighet att redigera filter, vyer och grupperingar för att kunna skapa en rapport eller ändra en listvy</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter i ett projekt</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter i ett projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hur Adobe Workfront fastställer det planerade slutförandedatumet
 
@@ -122,27 +93,23 @@ Vilka kriterier som används för att bestämma det planerade slutförandedatume
 
 ## Visa planerat slutförandedatum
 
-Du kan visa projektens, aktivitetens och problemens beräknade slutförandedatum i rapporter. Du kan visa det planerade slutförandedatumet för projekt och uppgifter i andra områden av Workfront. 
-
-* [Visa planerat slutförandedatum för ett projekt](#view-the-projected-completion-date-of-a-project)
-* [Visa planerat slutförandedatum för en uppgift](#view-the-projected-completion-date-of-a-task)
-* [Visa planerat slutförandedatum för ett problem](#view-the-projected-completion-date-of-an-issue)
+Du kan visa projektens, aktivitetens och problemens beräknade slutförandedatum i rapporter. Du kan visa det planerade slutförandedatumet för projekt och uppgifter i andra områden av Workfront.
 
 ### Visa planerat slutförandedatum för ett projekt {#view-the-projected-completion-date-of-a-project}
 
 1. Gå till det projekt där du vill visa det planerade slutförandedatumet.
 1. Klicka **Projektinformation** till vänster.
-1. Leta reda på **Planerat slutförandedatum** fältet i **Ökning** -avsnitt.
+1. Leta reda på **Planerat slutförandedatum** fältet i **Ökning** > **Projektdatum** -avsnitt.
 
 ### Visa planerat slutförandedatum för en uppgift {#view-the-projected-completion-date-of-a-task}
 
 1. Gå till den uppgift där du vill visa det planerade slutförandedatumet.
 1. Klicka **Uppgiftsinformation** till vänster.
-1. Leta reda på **Planerat slutförandedatum** fältet i **Ökning** -avsnitt.
+1. Leta reda på **Planerat slutförandedatum** fältet i **Ökning** > **Datum och begränsning för uppgift** -avsnitt.
 
 ### Visa planerat slutförandedatum för ett problem {#view-the-projected-completion-date-of-an-issue}
 
-Du kan bara visa det planerade slutförandedatumet för utgåvor i en problemrapport eller listvy. Att skapa en listvy påminner om att skapa vyn i en rapport.
+Du kan bara visa det planerade slutförandedatumet för utgåvor i en problemrapport eller listvy. Att skapa en listvy påminner om att skapa vyn i en rapport.
 
 Så här skapar du en problemrapport som innehåller det planerade slutförandedatumet:
 

@@ -6,9 +6,9 @@ description: Med ett grundläggande arbetsflöde kan du skicka flera granskare t
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -27,24 +27,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Markera eller högre</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td>
+   <p>Nytt: Alla</p>
+    <p>Aktuell plan: Pro eller högre</p>
+   <p>Äldre plan: Välj eller högre</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+    <p>Aktuell: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till dokument</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
 
 ## Skapa ett avancerat korrektur med ett grundläggande arbetsflöde
 
@@ -83,7 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <tr> 
       <th> <p> </p> </th> 
       <th> <p><strong>Visa ett korrektur</strong> </p> </th> 
-      <th> <p><strong>Lägg till markeringar</strong> </p> </th> 
+      <th> <p><strong>Lägga till markeringar</strong> </p> </th> 
       <th> <p><strong>Lägg till kommentarer</strong> </p> </th> 
       <th> <p><strong>Redigera egna kommentarer om det inte finns några svar</strong> </p> </th> 
       <th> <p><strong>Fatta ett beslut</strong> </p> </th> 
@@ -209,7 +214,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td> <p>Gör att Workfront-användaren kan göra följande:</p> 
        <ul> 
         <li>Lös en kommentar efter att den har adresserats, vilket förklaras i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Lös korrekturkommentarer</a>.</li> 
-        <li>Tillämpa åtgärder på kommentarer enligt <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Använda funktionsmakron för korrekturkommentarer</a>. </li> 
+        <li>Tillämpa åtgärder på kommentarer, vilket förklaras i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Använda funktionsmakron för korrekturkommentarer</a>. </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -324,8 +329,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <li><strong>Inställningar för e-postavisering för prenumeranter:</strong> Standardvarningsmeddelandet som tilldelas alla granskare som prenumererar på korrekturet.</li>
        </ul><p>
         <ul>
-         <li><strong>Åtkomstbevis via e-postlänk krävs för:</strong> Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>Endast e-postmeddelanden med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till ett bevis. Syftet med det här alternativet är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</li>
-        </ul><p>Obs!  Om korrekturet har ett automatiserat arbetsflöde bifogat, kommer alla prenumerationer att generera bekräftelsemeddelanden till korrekturägarna, så att de kan bestämma i vilken fas personen ska läggas till.<br></p></p></td> 
+         <li><strong>Åtkomstbevis via e-postlänk krävs för:</strong> Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>E-post med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till ett bevis. Syftet med det här alternativet är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</li>
+        </ul><p>Obs! Om korrekturet har ett automatiserat arbetsflöde bifogat, kommer alla prenumerationer att generera bekräftelsemeddelanden till korrekturägarna, så att de kan bestämma i vilken fas personen ska läggas till.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>

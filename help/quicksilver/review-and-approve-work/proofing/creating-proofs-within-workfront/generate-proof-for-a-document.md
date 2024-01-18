@@ -6,9 +6,9 @@ description: Du kan generera ett korrektur för ett dokument när du överför d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> 
+   <p>Nytt: Alla </p>
+   <p>Aktuell: Pro eller högre</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Nytt: Standard</p>
+   <p>Aktuell: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Behörighetsprofil för bevis </td> 
@@ -45,19 +49,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Överföra ett dokument och skapa ett korrektur
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa ett nytt korrektur.
-1. Klicka på **Dokument** -fliken.
+1. Klicka på **Dokument** -fliken.
 1. Klicka på Dokument ![](assets/document-icon.png) till vänster.
-1. Klicka **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
+1. Klicka **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Överföra ett dokument och skapa en ny version av ett korrektur
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa en ny version av ett befintligt korrektur.
-1. Klicka på **Dokument** -fliken.
+1. Klicka på **Dokument** -fliken.
 1. Markera dokumentet där du vill lägga till en ny version.
-1. Klicka **Lägg till ny** > **Version** > **Korrektur**.
+1. Klicka **Lägg till ny** > **Version** > **Korrektur**.
 1. I **Ny korrekturversion** sida som visas kan du
 
    * [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
