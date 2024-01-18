@@ -6,9 +6,9 @@ description: Du kan uppdatera implementeringsdatumet för en uppgift eller ett �
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -19,45 +19,7 @@ Du kan uppdatera implementeringsdatumet för en uppgift eller ett ärende som du
 
 ## Åtkomstkrav
 
-<!--drafted for P&P
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   For the current licenses:
-   <ul>
-   <li><p>Standard for tasks</p> </li>
-   <li><p>Contributor or higher for issues</p></li>
-   </ul>
-   For legacy licenses:
-<ul>
-   <li><p>Work or higher for tasks</p></li> 
-   <li><p>Request or higher for issues</p></li>
-</ul>
-
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
+<!--Audited: 01/2024-->
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -71,24 +33,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Arbeta eller högre för uppgifter</p> 
-   <p>Begär eller högre för problem</p>
-   </td> 
+   <td> 
+   För de nya licenserna:
+   <ul>
+   <li><p>Standard för uppgifter</p> </li>
+   <li><p>Medarbetare eller högre för problem</p></li>
+   </ul>
+   För aktuella licenser:
+<ul>
+   <li><p>Arbeta eller högre för uppgifter</p></li> 
+   <li><p>Begär eller högre för problem</p></li>
+</ul>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och ärenden</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till uppgifter och ärenden</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för aktiviteten eller problemet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för aktiviteten eller problemet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -98,44 +68,28 @@ Innan du börjar måste du tilldelas uppgiften eller utgåvan som du vill uppdat
 
 Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor.
 
-1. Gå till en uppgift eller ett ärende som du har tilldelats som **Aktivitetsägare**.
+1. Gå till en uppgift eller ett ärende som du har tilldelats som **Ägare**.
 
    Mer information om hur du tar reda på vem som är aktivitetsägare för ett problem eller en uppgift finns i avsnittet [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. Klicka på Arbete på i huvud för aktiviteten eller utgåvan
+1. Klicka **Uppgiftsinformation** eller **Ärendeinformation** till vänster.
+1. Klicka **Ökning** för att utöka den.
+1. Uppdatera **Bekräftelsedatum** fält.
 
-   eller
+   ![](assets/task-commit-date-edit-highlighted-details-page.png)
 
-   Klicka **Starta aktivitet** eller **Starta utgåva** om knappen Arbeta med den har anpassats i din miljö för att ange att du nu arbetar med arbetsuppgiften.
+1. Klicka **Spara ändringar**.
 
-   För närvarande gäller samma datum för implementering och planerat slutförandedatum för aktiviteten eller utgåvan.
+   När du har gjort den här ändringen händer följande: 
 
-1. (Valfritt) Om du klickade på Starta uppgift eller Starta problem klickar du på **Ångra** i skärmens nedre vänstra hörn. Bekräftelsedatumet har tagits bort.
+   * Bekräftelsedatumet och det planerade slutförandedatumet för aktiviteten eller utgåvan är inte längre desamma.
 
-   Mer information om hur du ersätter knappen Arbeta med knappen Start finns i  [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+     Istället ändras datumet för implementering och det beräknade slutförandedatumet för aktiviteten eller utgåvan.
 
-   >[!TIP]
-   >
-   >Alternativet att ångra markeringen för att starta arbetet är inte tillgängligt när du klickar på **Arbeta på den**.
+     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-1. Klicka **Uppdateringar** i den vänstra panelen klickar du på **Starta en ny uppdatering** >**Bekräftelsedatum**
+   * Om du använder det gamla uppdateringsområdet får projektägaren ett meddelande om att du har föreslagit ett nytt implementeringsdatum för aktiviteten eller utgåvan och kan för närvarande uppdatera det planerade slutförandedatumet för aktiviteten eller utgåvan så att det matchar det implementeringsdatum du föreslog. Den här funktionen stöds inte i den nya kommenteringsfunktionen. Mer information finns i [Den nya kommentarsfunktionen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-   eller
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-   Klicka **Uppgiftsinformation** eller **Ärendeinformation** i den vänstra panelen dubbelklickar du **Bekräftelsedatum** och välj ett nytt datum i kalendern och klicka sedan på **Spara ändringar**.
-   ![](assets/commit-date-calendar-picker-in-updates-stream-nwe-350x452.png)
-
-   Följande saker händer när du har gjort den här ändringen: 
-
-   * Datum för implementering och planerat slutförandedatum är inte längre detsamma.
-
-      Istället ändras datumet för implementering och det beräknade slutförandedatumet för aktiviteten eller utgåvan.
-
-      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
-
-   * Ändringarna sparas automatiskt när du väljer ett nytt datum i uppdateringsområdet.
-   * Projektägaren får ett meddelande om att du har föreslagit ett nytt implementeringsdatum för uppgiften eller utgåvan och att du för närvarande kan uppdatera det planerade slutförandedatumet för aktiviteten eller utgåvan så att det matchar det implementeringsdatum du föreslog.
-
-      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
-
-      Mer information om meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet [Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) i artikeln [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Mer information om meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet [Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) i artikeln [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).

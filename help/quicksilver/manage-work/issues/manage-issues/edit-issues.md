@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -77,8 +77,6 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Valfritt) Om du vill redigera begränsad information om ett problem klickar du på **Ärendeinformation** till vänster.
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -372,7 +370,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
      </tr> 
      <tr> 
       <td role="rowheader">Påminnelsemeddelanden</td> 
-      <td> <p>Markera den kryssruta för vilken du vill bifoga påminnelsemeddelanden till den här utgåvan. Alla påminnelsemeddelanden för problem visas. Din Workfront-administratör måste konfigurera påminnelsemeddelanden innan du kan välja dem i ett ärende. Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Ställ in påminnelsemeddelanden</a></p> </td> 
+      <td> <p>Markera den kryssruta för vilken du vill bifoga påminnelsemeddelanden till den här utgåvan. Alla påminnelsemeddelanden för problem visas. Workfront-administratören måste konfigurera påminnelsemeddelanden innan du kan välja dem i ett ärende. Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Ställ in påminnelsemeddelanden</a></p> </td> 
      </tr> 
     </tbody> 
    </table>

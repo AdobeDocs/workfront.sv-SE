@@ -1,54 +1,25 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Uppdatera utleveransstatus
+title: Uppdatera utgivningsstatus
 description: Du kan uppdatera status för ett problem för att informera andra om var problemet finns och hur det utvecklas.
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
-# Uppdatera utleveransstatus
+# Uppdatera utgivningsstatus
+
+<!--Audited: 01/2024-->
 
 Du kan uppdatera status för ett problem för att informera andra om var problemet finns och hur det utvecklas.
 
 ## Åtkomstkrav
-
-<!--drafted for P&P;
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -57,27 +28,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td> <p>Ny licens: Medarbetare eller högre</p>
+   eller
+   <p>Aktuell licens: Begär eller högre</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till problem</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för problemet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Utfärdandestatus
 
@@ -103,14 +75,19 @@ Du kan uppdatera utgivningsstatus manuellt eller låta Workfront uppdatera dem a
 
 ## Uppdatera utgivningsstatus manuellt
 
-När du uppdaterar en utgivningsstatus kan du även lägga till en förklaring om den nya statusen och ändra annan utgivningsinformation, t.ex. utfästelsedatumet.
+Du kan uppdatera problemstatusen i följande områden i Workfront:
 
-1. Gå till en utgåva som du har tilldelats och som du vill uppdatera statusen för.
+* Utgivningsrubriken på uppgiftssidan.
+* Rutan Redigera problem när du redigerar ett problem.
+* Avsnittet Information på utgivningssidan.
+* I en problemlista eller rapport när statusfältet visas i vyn.
+* På panelen Sammanfattning av problemet.
+
+Så här uppdaterar du utgivningsstatusen manuellt i utgivningsrubriken:
+
+1. Gå till ett problem som du vill uppdatera statusen för.
 1. Klicka på **Status** i utgivningsrubriken och välj en ny status.
-
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
-
-1. Dra eller dubbelklicka på bubblan under för att få en visuell indikation på att problemet har åtgärdats **Procent färdigt** i ärendets rubrik.
+1. Dra eller dubbelklicka på bubblan under för att få en visuell indikation på att problemet har åtgärdats **Procent färdigt** i utgåvans rubrik
 
    eller
 
@@ -118,20 +95,40 @@ När du uppdaterar en utgivningsstatus kan du även lägga till en förklaring o
 
    ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-1. (Valfritt) Gör något av följande för att ange ytterligare information om uppdateringen och klicka sedan på **Uppdatera** eller, om utgåvan har en status som är lika med Fullständig, klicka på **Klart:**
+1. (Valfritt) Gör något av följande för att ange ytterligare information om uppdateringen:
 
-   * Om du vill lägga till en anteckning om uppdateringen går du till **Uppdateringar** och klicka **Starta en ny uppdatering** och skriver sedan din anteckning.
+   * Om du vill lägga till en anteckning om uppdateringen går du till **Uppdateringar** och klicka **Ny kommentar** och skriv sedan en anteckning.
 
-      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Om du vill meddela vissa användare om uppdateringen skriver du deras namn i **Meddela** som visas när du skriver en anteckning om uppdateringen. Mer information finns i [Tagga andra för uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Om du vill uppdatera problemets skick klickar du på **Villkor** väljer du det villkor som bäst återspeglar problemets aktuella tillstånd. Välj bland följande alternativ:
+   * Om du vill meddela vissa användare om uppdateringen skriver du deras namn i **Tagga personer eller team** fält som visas när du skriver en kommentar. Mer information finns i [Tagga andra för uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Om du vill uppdatera datumet för implementeringen av felet klickar du på **Ärendeinformation** och sedan redigera **Bekräftelsedatum** fält. Mer information finns i [Redigera problem](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
-      * Går smidigt
-      * Vissa bekymmer
-      * Större vägspärrar
-   * Om du vill uppdatera datumet för implementeringen av utgåvan expanderar du **Bekräftelsedatum** och välj ett nytt datum.
 
+   >[!IMPORTANT]
+   >
+   >  Endast utgivare kan uppdatera implementeringsdatumet.
+
+
+
+<!--Old instructions, in old commenting: 
+
+When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
+
+1. Go to an issue that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the issue header and select a new status.
+
+   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+
+1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
+
+   Or
+
+   Click inside the bubble in the header of the issue to enter a percentage.
+
+   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+-->
 
 ## Uppdatera utgivningsstatus automatiskt
 
@@ -147,9 +144,9 @@ Workfront uppdaterar automatiskt status för en utgåva till en annan status nä
  <col> 
  <tbody> 
   <tr> 
-   <td>Åtgärd</td> 
-   <td>Ursprunglig status</td> 
-   <td>Ny status</td> 
+   <td><b>Åtgärd</b></td> 
+   <td><b>Ursprunglig status</b></td> 
+   <td><b>Ny status</b></td> 
   </tr> 
   <tr> 
    <td>Uppdatera utleveransprocenten till 100 %</td> 
@@ -164,7 +161,7 @@ Workfront uppdaterar automatiskt status för en utgåva till en annan status nä
   <tr> 
    <td>Uppdatera statusen för ett objekt som är kopplat till problemet</td> 
    <td>Olika statusar</td> 
-   <td> <p>Olika statusar</p> <p>Mer information om hur du löser objekt och hur de påverkar status för problem finns i avsnittet Synkronisera status för det lösta objektet med statusen för det lösta objektet i artikeln <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över upplösta och upplösta objekt </a>.</p> </td> 
+   <td> <p>Olika statusar</p> <p>Mer information om hur du löser objekt och hur de påverkar status för problem finns i avsnittet Synkronisera status för det lösta objektet med statusen för det lösta objektet i artikeln <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Klicka på knappen Starta problem för att godkänna att du arbetar med ett problem som du har tilldelats</span> </td> 

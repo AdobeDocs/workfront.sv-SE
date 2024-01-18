@@ -6,49 +6,20 @@ description: Du kan uppdatera procentandelen färdigt för en uppgift för att a
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # Visa och uppdatera Procent färdigt för uppgifter
 
+<!--Audited:01/2024-->
+
 Du kan uppdatera procentandelen färdigt för en uppgift för att ange förloppet som du har gjort för uppgiften att slutföra den.
 
 ## Åtkomstkrav
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
 
@@ -57,27 +28,28 @@ Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td> <p>Ny licens: Standard</p> 
+   eller
+   <p>Aktuell licens: Arbeta eller högre</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till uppgifter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för uppgiften</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för uppgiften</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Områden där du kan uppdatera procentandelen färdigt för en uppgift
@@ -89,15 +61,16 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 
 * **I vyn Milstolpe**: Du kan uppdatera procentandelen färdigt för en aktivitet när du använder vyn Milstolpe i en projektlista eller en projektrapport. Mer information finns i [Använda vyn Milstolpe](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **När du uppdaterar uppgiften**: Du kan uppdatera alternativet Procent färdigt för en uppgift när du lägger till en uppdatering för uppgiften.
+<!--only in legacy commenting: 
+* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
 
   >[!IMPORTANT]
   >
-  >Det här alternativet visas först när du har aktiverat alternativet Visa procent färdigt.\
-  >Så här aktiverar du uppdateringsfältet Procent färdigt för uppgifter:
+  >This option displays only after you enable the Show Percent Complete option.  
+  >To enable the percent complete update bar for tasks, do the following:   
   >
-  >1. Gå till **Huvud** menu>ditt namn>**Mer** ikon bredvid ditt namn >**Redigera** > markera **Visa procent färdigt vid uppdateringsstatus**.\
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
 * **I uppgiftsrubriken**: Du kan uppdatera procentandelen färdigt för en uppgift i uppgiftshuvudet. Mer information finns i [Redigera uppgifter](../../tasks/manage-tasks/edit-tasks.md).
 
@@ -125,7 +98,7 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 
    eller
 
-   Klicka och dra **Procent färdigt** fält till det nummer som behövs för att ange hur mycket av uppgiften du slutförde.
+   Klicka och dra **Procent färdigt** fält till det nummer som behövs för att ange hur mycket av uppgiften du slutförde, när den är tillgänglig.
 
    >[!NOTE]
    >
@@ -133,4 +106,6 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 
 
 1. Tryck på Retur på tangentbordet för att spara procentandelen färdig.
+
+Procent färdigt i projektet uppdateras också automatiskt.
 

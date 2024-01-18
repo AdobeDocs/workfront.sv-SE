@@ -6,9 +6,9 @@ description: Du kan koppla en problemlösning manuellt till en lösning på ett 
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Du kan koppla en problemlösning manuellt till en lösning på ett projekt, en u
 >
 >När du kopplar en problemlösning till ett annat objekts upplösning kan du inte längre manuellt redigera status för det ursprungliga problemet.
 
-Mer information om att lösa och lösa objekt finns i [Översikt över upplösta och upplösta objekt](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Mer information om hur du löser och löser problem finns i [Översikt över objekt som kan lösas och lösas](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Åtkomstkrav
 
@@ -45,7 +45,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för det problem du länkar till ett annat problem, en annan uppgift eller ett annat projekt</p> <p>Visa eller högre behörigheter för det problem, den uppgift eller det projekt som du lägger till i det befintliga problemet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för det problem som du länkar till ett annat problem, en annan uppgift eller ett annat projekt</p> <p>Visa eller högre behörigheter för det problem, den uppgift eller det projekt som du lägger till i det befintliga problemet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,18 +56,17 @@ Du måste ha följande:
 
 Innan du börjar måste du:
 
-* Har ett problem vars lösning du vill koppla till en lösning på ett annat problem, en annan uppgift eller ett annat projekt
+* Har ett problem vars lösning du vill koppla till en lösning av ett annat problem, en annan uppgift eller ett annat projekt
 
 * Har ytterligare ett problem, en uppgift eller ett projekt
 
 ## Bind lösningen av ett problem till en lösning av ett annat problem, en annan uppgift eller ett annat projekt
 
-1. Navigera till ett problem vars lösning du vill koppla till en lösning på ett annat problem eller en uppgift eller ett projekt.
-1. Klicka på **Ärendeinformation** > **Översikt** område.
+1. Navigera till ett problem vars lösning du vill koppla till en lösning på ett annat problem eller till lösningen av en uppgift eller ett projekt.
+1. Klicka på **Ärendeinformation** i den vänstra panelen och sedan expandera **Ökning** område.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Gå till **Översikt** området i **Ärendeinformation** -avsnitt.
 1. Klicka på **Löst av** och välj bland följande typer av matchande objekt:
 
    * **Projekt**
@@ -79,7 +78,6 @@ Innan du börjar måste du:
    * **Löser projekt**
    * **Åtgärdar uppgift**
    * **Löser problem**
-
 
 1. Börja skriva namnet på ett specifikt projekt, en viss uppgift eller ett specifikt problem i **Löser projekt**, **Uppgift**, eller **Problem** och sedan klicka på den när den visas i listan.
 

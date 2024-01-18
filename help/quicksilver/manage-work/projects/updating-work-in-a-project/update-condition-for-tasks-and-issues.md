@@ -6,9 +6,9 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -25,46 +25,6 @@ Adobe Workfront-administratören kan skapa anpassade villkor för din miljö enl
 
 ## Åtkomstkrav {#access-requirements}
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   
-   For the current licenses:
-   <ul><li><p>Standard for tasks</p></li>
-   <li><p>Contributor or higher for issues</p></li></ul>
-
-
-   For legacy licenses:
-   <ul><li><p>Work or higher for tasks</p></li>
-   <li><p>Request or higher for issues</p></li></ul>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
-   <p>Manage permissions on tasks and issues to update the Condition</p>
-    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -72,31 +32,37 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Arbeta eller högre för uppgifter</p>
-   <p>Begär eller högre för problem</p>
+   <td>
+
+För de nya licenserna:
+<ul><li><p>Standard för uppgifter</p></li>
+   <li><p>Medarbetare eller högre för problem</p></li></ul>
+
+
+För aktuella licenser:
+<ul><li><p>Arbeta eller högre för uppgifter</p></li>
+   <li><p>Begär eller högre för problem</p></li></ul>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomst till projekt</p> <p>Redigera åtkomst till uppgifter och ärenden </p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller öka åtkomst till projekt</p> <p>Redigera åtkomst till uppgifter och ärenden </p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa eller öka behörigheter för aktiviteter och ärenden för att visa deras villkor</p>
    <p>Hantera behörigheter för aktiviteter och problem för att uppdatera villkoret</p>
-    <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Leta reda på villkoret för uppgifter och problem
 
@@ -104,7 +70,7 @@ Villkor visas som en flagga som är kopplad till uppgifter eller problem. De kan
 
 Du hittar villkoren för uppgifter och problem i följande områden:
 
-* Området Uppgift och Utleverans av uppdateringar, i en uppdatering, när du har tilldelats uppgiften eller utgåvan.
+* Området Uppgift och Utleverans av uppdateringar, i en uppdatering, när du har tilldelats uppgiften eller utgåvan. Detta stöds inte i den nya kommentarsfunktionen. Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 * Rapporter och listor när du visar fältet Villkor i en vy eller gruppering.
 
 >[!NOTE]
@@ -113,13 +79,13 @@ Du hittar villkoren för uppgifter och problem i följande områden:
 
 ## Uppdatera villkoret automatiskt genom att uppdatera statusen
 
-När du har tilldelats en uppgift eller ett ärende och du klickar på **Arbeta på den** , Starta aktivitet eller Starta problem, eller uppdatera status för aktiviteten, så ändras villkoret automatiskt till standardvillkoret som är associerat med **Går smidigt**.
+När du har tilldelats en uppgift eller ett ärende och du klickar på **Arbeta på den** , Starta aktivitet eller Starta problem, eller uppdatera status för aktiviteten, så ändras villkoret för aktiviteten eller problemet automatiskt till det standardvillkor som är associerat med **Går smidigt**.
 
 Mer information om hur du använder ett anpassat villkor som standardvillkor finns i artiklarna  [Ange ett anpassat villkor som standard för uppgifter och ärenden](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) och [Ange ett anpassat villkor som standard för projekt](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
 Mer information om hur du ändrar aktivitetsstatus finns i [Uppdatera aktivitetsstatus](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
 
-Mer information om hur du ändrar utgivningsstatus finns i [Uppdatera utleveransstatus](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
+Mer information om hur du ändrar utgivningsstatus finns i [Uppdatera utgivningsstatus](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
 
 Mer information om hur du ställer in knappen Work On It (Arbeta på den) på knappen Start Task (Starta aktivitet) eller Start Issue (Starta problem) finns i [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
@@ -127,31 +93,30 @@ Mer information om hur du ställer in knappen Work On It (Arbeta på den) på kn
 
 Du måste tilldelas en uppgift eller ett ärende eller ha behörigheten Hantera för att kunna ställa in villkoret på den.
 
-Uppdateringen av villkoret för en aktivitet eller ett problem skiljer sig åt beroende på om du har tilldelats den eller inte:
+Du kan uppdatera villkoret för en uppgift eller ett problem manuellt i en rapport eller en utgivningslista när du visar fältet Villkor i vyn.
 
-* Du kan uppdatera villkoret på fliken Uppdateringar eller i en lista med uppgifter eller problem om du har tilldelats dem.
-* Du kan bara uppdatera villkoret i en lista med uppgifter eller problem om du inte har tilldelats dem, men har behörighet att hantera dem. I det här fallet kan du inte uppdatera villkoret på fliken Uppdatera för uppgiften eller problemet.
 
-Så här ställer du in villkoret för en aktivitet eller ett problem manuellt:
+<!--old Condition update - in the commenting stream: 
+Updating the Condition of a task or issue differs depending on whether you are assigned to it or not:
 
-1. Gå till en uppgift eller ett ärende som du har tilldelats och som du vill ange villkoret för.
+* If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-   eller
+Så här uppdaterar du villkoret för en aktivitet eller ett problem manuellt:
 
-   Gå till en lista över uppgifter eller problem som du har behörigheten Hantera för, men som inte har tilldelats till dig.
+1. Gå till en lista över uppgifter eller problem som du har behörighet att hantera. Kontrollera **Villkor** -fältet visas i listvyn.
 
-1. Ändra villkoret för problemet eller aktiviteten enligt följande:
+1. Uppdatera **Villkor** genom att dubbelklicka på det befintliga villkoret och välja ett nytt värde i listrutan.
 
-   * Om du har tilldelats uppgiften eller utgåvan och har behörigheten Hantera, går du till **Uppdateringar** flik, klicka **Starta en ny uppdatering** väljer du **Villkor** som bäst återspeglar aktivitetens förlopp, ange orsaken till ändringen av villkoret i dialogrutan **Starta en ny uppdatering** område (valfritt) och klicka sedan på **Uppdatera**.
+   ![](assets/condition-drop-down-values-in-task-list.png)
 
-      ![](assets/change-condition-update-comment-350x141.png)
+   >[!NOTE]
+   >
+   >Villkoren kan anpassas efter din miljö, så du kan hitta fler än tre alternativ för Villkor i din miljö. Namnen på villkoren kan skilja sig från namnen ovan. Mer information om hur du anpassar villkor i Workfront finns i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-      >[!NOTE]
-      >
-      >Villkoren kan anpassas efter din miljö, så du kan hitta fler än tre alternativ för Villkor i din miljö. Namnen på villkoren kan skilja sig från namnen ovan. Mer information om hur du anpassar villkor i Workfront finns i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-      Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Tryck **Retur** på tangentbordet eller klicka utanför fältet Villkor för att spara den nya aktiviteten eller villkoret för problemet.
 
-      <!--   
+   <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->

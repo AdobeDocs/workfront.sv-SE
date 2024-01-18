@@ -6,9 +6,9 @@ description: Konvertera ett problem till ett projekt i Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1428'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ Du kan konvertera en utgåva till ett tomt projekt eller konvertera en utgåva t
    * Gör något av följande om du vill konvertera ett ärende till ett projekt med en mall:
 
       * Klicka på namnet på ett problem och klicka sedan på [!UICONTROL **Mer**] meny ![](assets/more-icon.png) till höger om problemets namn
-
-        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
 
         eller
 

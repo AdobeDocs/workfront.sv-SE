@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Uppdatera arbete i ett projekt: artikelindex
+
+<!--Audited: 01/2024-->
 
 Om du vill uppdatera status och förlopp för ett projekt måste du uppdatera status och förloppet för dess uppgifter. Det sammanställs så småningom för att visa projektets förlopp.
 

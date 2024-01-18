@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ Så här skapar du ett problem för en aktivitet eller ett projekt:
 1. (Valfritt) Om du vill logga problemet för en uppgift går du till **Uppgifter** och klicka sedan på namnet på en uppgift.
 1. Klicka på **Problem** -avsnitt.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   Listan med projektproblem visas
 
-1. Klicka **Nytt problem**.
+1. Klicka **Nytt problem** högst upp i listan över utgåvor.
 Rutan Nytt problem visas.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,8 +218,8 @@ Så här skapar du interna utgåvor:
 
 1. Gå till ett projekt där du vill skapa problemet.
 1. (Valfritt) Om du vill logga problemet för en uppgift går du till **Uppgifter** och klicka sedan på namnet på en uppgift.
-1. Klicka på **Problem** -avsnitt.
-1. Klicka **Lägg till fler problem**.
+1. Klicka på **Problem** i den vänstra panelen.
+1. Klicka **Lägg till fler problem** längst ned i problemlistan.
 
    En ny rad skapas i listan med problem i avsnittet Problem.
 

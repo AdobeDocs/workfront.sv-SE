@@ -6,9 +6,9 @@ description: Du kan definiera en prioritet för ett problem för att ange hur vi
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -97,13 +97,11 @@ I följande tabell kan du se hur varje standardprioritetsetikett och dess motsva
 ## Uppdatera prioriteten för ett problem {#update-the-priority-of-an-issue}
 
 1. Gå till det problem vars prioritet du vill ändra.
-1. Klicka **Ärendeinformation** i den vänstra panelen.
+1. Klicka **Ärendeinformation** till vänster.
 
-   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
+   The **Ökning** -avsnittet ska visas som standard.
 
-   The **Översikt** -avsnittet ska visas som standard.
-
-1. Klicka på **Prioritet** i **Grundläggande information** område.
+1. Klicka på **Prioritet** fältet i **Grundläggande information** område.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
@@ -111,4 +109,4 @@ I följande tabell kan du se hur varje standardprioritetsetikett och dess motsva
 
    Beroende på hur din Workfront-administratör har konfigurerat prioriteter i ditt system kan alternativen variera.
 
-1. Klicka **Spara ändringar**.
+1. Klicka **Spara ändringar**.

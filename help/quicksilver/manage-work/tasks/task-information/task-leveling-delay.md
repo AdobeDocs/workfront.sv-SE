@@ -6,7 +6,7 @@ description: Ibland kan det finnas konflikter mellan aktivitetsscheman i ett pro
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Ibland kan det finnas konflikter mellan aktivitetsscheman i ett projekt. Du kan fördela resurser eller hantera resurskonflikter genom att schemalägga om resurser och aktiviteter så att alla aktiviteter kan slutföras inom ett realistiskt schema. Mer information om att jämna ut uppgifter finns i [Nivåresurser i Gantt-schemat](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
-Som projektledare eller tilldelad uppgift kan du även lägga till en nivåfördröjning för enskilda uppgifter för att ta hänsyn till eventuella konflikter mellan resurser och schemaläggning. Med andra ord kan en aktivitet schemaläggas med en fördröjning för att säkerställa att en mer realistisk tidsplanering täcker resurskonflikter när Adobe Workfront nivåer används.
+Som projektledare eller tilldelad uppgift kan du även lägga till en nivåfördröjning för enskilda uppgifter för att ta hänsyn till eventuella konflikter mellan resurser och schemaläggning. Med andra ord kan en aktivitet schemaläggas med en fördröjning för att säkerställa att en mer realistisk schemaläggning åsidosätter resurskonflikter när Adobe Workfront nivåer används.
 
 Om du lägger till en nivåfördröjning för en aktivitet justeras aktivitetens beräknade slutförandedatum. Information om det planerade slutdatumet finns på [Översikt över planerat slutförandedatum för projekt, uppgifter och ärenden](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -55,8 +55,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Gå till en uppgift som du vill lägga till en nivåfördröjning för.
 1. Klicka på **Mer-ikon** till höger om uppgiftsnamnet och klicka sedan på **Redigera**.
 
-   ![](assets/qs-task-edit-icon-highlighted-350x154.png)
-
 1. Klicka **Inställningar**.
 
    ![](assets/leveling-delay-edit-task-nwe-350x345.png)
@@ -67,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Välj bland följande alternativ för tidsenheter:
 
    * Minuter
-   * Timmar. Detta är standardinställningen.
+   * Timmar. Det här är standardinställningen.
    * Dagar
    * Veckor
    * Månader

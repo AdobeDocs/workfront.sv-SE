@@ -6,7 +6,7 @@ description: Du kan bifoga en mall till ett projekt antingen under den inledande
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
@@ -143,7 +143,7 @@ Du kan bifoga en mall till ett projekt i Workfront från projektsidan eller frå
      </tr> 
      <tr> 
       <td role="rowheader">De valda objekten nedan överförs till projektet. Avmarkera de som du vill utesluta.</td> 
-      <td> <p>Avmarkera kryssrutorna bredvid den information du vill ta bort från mallen innan du bifogar den till projektet. Den här informationen överförs inte från mallen till projektet. Mer information om respektive fält finns i <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Översikt över att bifoga en mall till ett projekt</a>. </p> <p>Viktigt: Om du markerar <strong>Inställningar för köegenskaper och problem</strong> skriver du över köinformationen för mallen från projektet. I det här fallet läggs reglerna för routning, köämnen och ämnesgrupper i mallen till i projektets. <br>Om projektet har ställts in som en begärandekö och mallen som du kopplar till projektet inte har ställts in som en begärandekö, tas köinformationen för projektet bort om du lämnar <strong>Inställningar för köegenskaper och problem</strong> kryssrutan är markerad. <br>Om du avmarkerar <strong>Köegenskaper och inställningar för problem</strong> bevaras alla inställningar för köinställningar för projektet och inga inställningar för köinställningar från mallen bifogas. </p> </td> 
+      <td> <p>Avmarkera kryssrutorna bredvid den information du vill ta bort från mallen innan du bifogar den till projektet. Den här informationen överförs inte från mallen till projektet. Mer information om respektive fält finns i <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Översikt över att bifoga en mall till ett projekt</a>. </p> <p>Viktigt: Om du markerar <strong>Inställningar för köegenskaper och problem</strong> skriver du över köinformationen för mallen från projektet. I det här fallet läggs reglerna för routning, köämnen och ämnesgrupper i mallen till i projektets. <br>Om projektet har ställts in som en begärandekö och mallen som du kopplar till projektet inte har ställts in som en begärandekö, tas köinformationen för projektet bort om du lämnar <strong>Inställningar för köegenskaper och problem</strong> är markerad. <br>Om du avmarkerar <strong>Köegenskaper och inställningar för problem</strong> bevaras alla inställningar för köinställningar för projektet och inga inställningar för köinställningar från mallen bifogas. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Anpassat Forms-avsnitt</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -155,16 +155,15 @@ Du kan bifoga en mall till ett projekt i Workfront från projektsidan eller frå
     </tbody> 
    </table>
 
-1. (Valfritt) Uppdatera information i anpassade formulär. Denna information överförs till projektet.
+1. (Valfritt) Uppdatera information i anpassade formulär. Den här informationen överförs till projektet.
 
    >[!TIP]
    >
    >* Det här steget är obligatoriskt när de anpassade formulären i mallen innehåller obligatoriska fält som är tomma.
    >* Om fälten från de anpassade mallformulären redan finns i projektet och innehåller information, bevaras den information som redan finns i projektet. Du kan inte redigera dem när du bifogar mallen.
 
-
 1. Klicka **Bifoga mall.**
-1. Klicka **Avbryt bifogad fil** om du vill sluta koppla mallen.
+1. Klicka **Avbryt bilaga** om du vill sluta koppla mallen.
 
    eller
 
@@ -172,7 +171,7 @@ Du kan bifoga en mall till ett projekt i Workfront från projektsidan eller frå
 
    När du har bifogat mallen kan du redigera projektet och justera uppgifter, information och inställningar efter behov.
 
-1. (Valfritt) Klicka på **Projektinformation** sedan **Översikt** för att visa namnet på mallen som du bifogade i **Projektrelationer** område.
+1. (Valfritt) Klicka på **Projektinformation** sedan **Ökning** för att visa namnet på mallen som du bifogade i **Projektrelationer** område.
 
    >[!TIP]
    >
@@ -191,11 +190,9 @@ Du kan bifoga flera mallar (en åt gången) till samma projekt, enligt stegen so
 Så här förstår du vilken mall som används i ett projekt:
 
 1. Navigera till ett projekt som har en bifogad mall.
-1. Klicka **Projektinformation** i den vänstra panelen.
-1. Sök efter namnet på mallen som är kopplad till projektet i **Mall** fältet längst ned i **Översikt** avsnitt under **Projektrelationer** .
+1. Klicka **Projektinformation** till vänster.
+1. Sök efter namnet på mallen som är kopplad till projektet i **Mall** fältet längst ned i **Ökning** avsnitt under **Projektrelationer** .
 
    ![](assets/nwe-template-info-on-project-350x356.png)
 
- 
 
- 
