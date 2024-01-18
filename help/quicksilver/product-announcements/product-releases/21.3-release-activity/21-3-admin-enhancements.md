@@ -4,10 +4,11 @@ description: 21.3 Administratörsförbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -26,13 +27,13 @@ Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbe
 
 Mer information finns i [Översikt över utkast](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Den här funktionen ingår nu i [Projektmallar i den nya Workfront-upplevelsen](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Projektmallar i nya Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) utbildningsväg på Workfront One.
 
 ## Nytt för gruppadministratörer: Skapa och hantera status för en grupp på alla nivåer
 
 För att göra det enklare för alla nivåer i en organisation att hantera och styra sina arbetsflöden oberoende av varandra har vi introducerat möjligheten att skapa och hantera statusar för undergrupper. Från avsnittet Grupper i Setup kan du nu göra följande för grupper som du administrerar på alla nivåer:
 
-* Skapa, redigera, ta bort och dölja en status för en grupp
+* Skapa, redigera, ta bort och dölja en gruppstatus
 * Lås en status för en grupp så att alla undre undergrupper kan använda den på samma sätt
 * Lås upp en status för en grupp så att administratörer av undergrupper kan anpassa den efter deras unika behov
 * Ange en gruppstatus som standardstatus

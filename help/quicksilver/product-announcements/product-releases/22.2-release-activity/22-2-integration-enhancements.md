@@ -4,10 +4,11 @@ description: 2.2 Integration enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -28,11 +29,11 @@ En lista över alla ändringar som är tillgängliga i version 2.2 finns i [22.2
 
 ## Integrering med Adobe Workfront med Anaplan är nu tillgängligt
 
-Workfront kan nu integreras med ditt Anaplan-konto för att ge dig större flexibilitet och insikt i de ekonomiska aspekterna av dina Workfront-projekt. Genom att länka Workfront-objekt till Anaplan-objekt kan du uppdatera informationen mellan de båda kontona automatiskt, så att informationen i båda kontona är aktuell och identisk. Du kan också aktivera automatiserade processer i Anaplan baserat på åtgärder i Workfront (eller vice versa).
+Workfront kan nu integreras med ditt Anaplan-konto för att ge dig större flexibilitet och insikt i de ekonomiska aspekterna av dina Workfront-projekt. Genom att länka Workfront-objekt till Anaplan-objekt kan du uppdatera information mellan de båda kontona automatiskt, så att informationen i båda är aktuell och identisk. Du kan också aktivera automatiserade processer i Anaplan baserat på åtgärder i Workfront (eller vice versa).
 
 Du kan till exempel skapa en kampanj i Anaplan och sedan skapa ett Workfront-projekt eller -program som är länkat till kampanjen. Alla kostnader som spåras i Workfront kan sedan överföras tillbaka till Anaplan för att granska kampanjens resultat.
 
-Andra arbetsflöden du kan överväga att använda Workfront till Anaplan-integrering för är:
+Andra arbetsflöden du kan överväga att använda Workfront till Anaplan-integrering för är bland annat:
 
 * Skapa Anaplan-budgetbegäranden från nya Workfront-projekt
 * Skapa Workfront-projekt från nya listobjekt i Anaplan
@@ -46,7 +47,7 @@ Workfront för Experience Manager förbättrade anslutningsprogram innehåller n
 
 * Nu kan du skapa länkade mappar mellan Adobe Workfront och Adobe Experience Manager Assets as a Cloud Service även om det finns flera projektlänkade mappkonfigurationer.
 * Stöd för sidnumrering av händelseabonnemang har lagts till
-* Stöd för AEM 6.4.x har lagts till
+* Utökat stöd för AEM 6.4.x
 * Stöd för proxymiljöer har lagts till
 * Flera felkorrigeringar baseras på feedback från partner och kunder
 
@@ -84,7 +85,7 @@ För att få bättre kontroll över åtkomst och säkerhet för dina anpassade O
 
 Mer information finns i [Skapa OAuth2-program för Workfront-integreringar](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-## Använd offentliga och privata nycklar i dina anpassade OAuth2-integreringar för server-till-server-appar
+## Använd publika och privata nycklar i dina anpassade OAuth2-integreringar för server-till-server-appar
 
 Nu kan du konfigurera OAuth2-program server-till-server i dina anpassade integreringar. Genom att ställa in offentliga och privata nycklar kan du tillåta att Workfront kommunicerar med ett annat program utan att använda inloggningsuppgifter.
 

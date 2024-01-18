@@ -5,10 +5,11 @@ title: 20.3 Integration- och mobilförbättringar
 description: Den här sidan beskriver alla integrations- och mobilförbättringar som gjorts med version 20.3 i produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 10 augusti 2020.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f9f7dad59a107daea5eae1da4b3f59230da8df88
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Workfront samarbetar med MobileIron, en plattform för hantering av mobila enhet
 
 Med Workfront for MobileIron kan administratörer begränsa funktioner som kopiera/klistra in och skärmdumpar. Du kan hämta appen Workfront for MobileIron på [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Information om hur du konfigurerar programmet finns i [Konfigurera Adobe Workfront för MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Mer information om hur du konfigurerar programmet finns i [Konfigurera Adobe Workfront för MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Ny mobil Virtual Assistant
 

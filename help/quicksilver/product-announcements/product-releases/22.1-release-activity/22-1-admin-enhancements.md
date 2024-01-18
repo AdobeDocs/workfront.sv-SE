@@ -4,10 +4,11 @@ description: 2.1 Förbättringar av administratören
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -54,7 +55,7 @@ Mer information finns i [Konfigurera en plan](../../../administration-and-setup/
 
 ## Formatuppdateringar i området Anpassade Forms
 
-Området Anpassade Forms har en ny stil och känsla som gör att det är uppdaterat med många andra områden i den nya Workfront-upplevelsen.
+Området Anpassade Forms har en ny stil och känsla som gör den uppdaterad med många andra områden i den nya Workfront-upplevelsen.
 
 Mer information om hur du skapar ett anpassat formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -87,9 +88,9 @@ Mer information om hur du visar granskningsloggsinformation finns i [Visa och ex
 
 Följande förbättringar av utkast är nu tillgängliga:
 
-* Vissa utkast innehåller nu företag som du kan anpassa innan du installerar planen. Du kan mappa ett företag i planen till ett befintligt företag i din Workfront-instans eller skapa ett nytt företag om det behövs.
+* Vissa ritningar innehåller nu företag som du kan anpassa innan du installerar ritningen. Du kan mappa ett företag i planen till ett befintligt företag i din Workfront-instans eller skapa ett nytt företag om det behövs.
 * Nu finns en ny ritningstyp, Organisationsstruktur. Vissa utkast innehåller element från flera typer (till exempel Projektmall och Organisationsstruktur). Du kan filtrera med hjälp av en ritningstyp på katalogsidan.
-* Avsnitten&quot;Installera inställningar&quot; och&quot;Mallägande&quot; på konfigurationssidan har kombinerats till&quot;Mallinställningar&quot; för enkelhetens skull.
+* Avsnitten Installera inställningar och Mallägande på konfigurationssidan har kombinerats till Mallinställningar för att bli enklare.
 
 Mer information finns i [Konfigurera en plan](../../../administration-and-setup/blueprints/configure-template-package.md).
 
@@ -131,7 +132,7 @@ Tidigare var du tvungen att låsa upp och låsa upp meddelanden igen en i taget.
 
 Mer information finns i [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-## För gruppadministratörer: Enklare att välja en ersättningsgrupp när du tar bort en grupp
+## För gruppadministratörer: Det är enklare att välja en ersättningsgrupp när du tar bort en grupp
 
 När du tar bort en grupp är det två förbättringar i rutan Ta bort grupp som gör det enklare att markera den ersättningsgrupp som du vill behålla den borttagna gruppens användare, arbetsobjekt och undergrupper:
 

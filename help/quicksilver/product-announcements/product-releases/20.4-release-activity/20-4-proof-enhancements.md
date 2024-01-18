@@ -4,10 +4,11 @@ description: 20.4 Förbättrade korrektur
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 0469ac71-66d1-4651-918a-99f2b6038b7c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ Tidigare kunde du bara godkänna ett dokument från området Dokumentinformation
 
 Mer information finns i [Fatta ett beslut om ett korrektur i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-## Generera ett korrektur automatiskt när du överför en dokumentinställning som är inaktiverad som standard
+## Generera ett korrektur automatiskt när du överför en dokumentinställning inaktiverat som standard
 
 Alternativet i användarprofilen att automatiskt generera korrektur när dokument överförs är nu inaktiverat som standard för nya korrekturanvändare. Den här ändringen påverkar inte aktuella användare. Om du har aktiverat den här inställningen kommer den att vara så stor.
 

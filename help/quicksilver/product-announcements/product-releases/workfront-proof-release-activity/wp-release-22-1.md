@@ -4,8 +4,9 @@ description: Workfront-korrekturutgivningsaktivitet:&nbsp;Vecka den 29 november 
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: ea19cb35-6972-4741-ba44-2e3973f68072
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Workfront korrekturutgivningsaktivitet: 29 november 2021
 
-Den här sidan beskriver ändringar som gjorts i Workfront Proof (fristående korrekturprogram). De ändringar som beskrivs här gäller inte korrekturfunktionen i Adobe Workfront.
+Den här sidan beskriver ändringar som gjorts i Workfront Proof (fristående korrekturprogram). De ändringar som beskrivs här gäller inte för korrekturfunktionen i Adobe Workfront.
 
 ## Ny behörighetsprofil för korrektur i Workfront Proof
 

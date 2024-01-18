@@ -6,10 +6,11 @@ title: 21.2 Administratörsförbättringar
 description: Den här sidan beskriver alla administratörsförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i versionsöversikt 21.2.
 author: Luke
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Under Granskningsloggar kan du nu spåra och felsöka ändringar på fler områd
 
 Mer information finns i [Granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Den här funktionen ingår nu i [Admin Fundamentals for the new Workfront experience, Part 2: Projektinställningar](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Admin Fundamentals for the new Workfront experience, Part 2: Project Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) utbildningsväg på Workfront One.
 
 ## För gruppadministratörer: Förbättrade kontroller för att flytta undergrupper och ett uppdaterat verktygsfält
 
@@ -47,7 +48,7 @@ Vi har gjort följande förbättringar i området Undergrupper under Konfigurera
 
 * För att du snabbt ska kunna ordna om de grupper du hanterar har vi lagt till en knapp i verktygsfältet Lägg till undergrupper som du kan använda för att skapa nya undergrupper och flytta befintliga.
 
-   Mer information finns i [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Mer information finns i [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 * Verktygsfältet i undergruppsområdet gör nu listor förenliga med andra moderniserade listor i den nya Workfront-upplevelsen. När du markerar grupper representerar ikonerna tillgängliga funktioner i verktygsfältet.
 
@@ -70,7 +71,7 @@ Mer information om tidrapporter och timinställningar finns i [Konfigurera tidra
 Två förbättringar i området Grupper i Setup gör att listor överensstämmer med andra moderniserade listor i den nya Workfront-upplevelsen:
 
 * När du markerar grupper representerar ikonerna tillgängliga funktioner i verktygsfältet.
-* I listan med grupper, kolumner, sortering och hierarki får du det nyare utseende och den känsla du är van vid i andra listor. Som standard visas även upp till 2 000 objekt på en sida i listor i stället för 100.
+* I listan med grupper, kolumner, sortering och hierarki får du det nyare utseende och den känsla du är van vid i andra listor. Som standard visas även upp till 2 000 objekt på en sida i listor, i stället för 100.
 
 Mer information om de moderniserade listorna i Workfront finns i [Ändra hur en lista visas](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
 
@@ -82,7 +83,7 @@ Mer information om området Grupper finns i [Hantera grupper](../../../administr
 >
 >Finns endast i nya Adobe Workfront.
 
-Vi fortsätter att göra det enklare att hantera dina grupper och tillhörande objekt på ett och samma ställe. Nu kan du visa och arbeta med en grupps program i området Grupper i Konfigurera. På så sätt slipper du gå till Program för att hantera gruppens program. Listan med gruppprogram som du arbetar med är dessutom åtskild från de andra programmen i systemet.
+Vi fortsätter att göra det enklare att hantera dina grupper och tillhörande objekt på ett och samma ställe. Nu kan du visa och arbeta med en grupps program i området Grupper i Konfigurera. På så sätt slipper du gå till programområdet för att hantera gruppens program. Listan med gruppprogram som du arbetar med är dessutom åtskild från de andra programmen i systemet.
 
 Mer information finns i [Skapa, ändra och visa en grupps program](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
@@ -98,7 +99,7 @@ För att förbättra orienteringen för administratörer i inställningsområdet
 * Hierarkiinformation ovanför namnet på varje undersida (till exempel på sidan för en enskild grupp)
 * Moderniserade teckenformat och teckenstorlekar
 
-   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 Mer information om Konfigurera finns i [Administration och konfiguration](../../../administration-and-setup/administration-and-setup.md).
 
@@ -152,7 +153,7 @@ Tidigare behövde du, utan den här kolumnen, skapa en rapport manuellt i textl�
 
 Mer information finns i [Visa alla rapporter som använder ett visst anpassat fält eller en viss widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 
-## För gruppadministratörer: Visa och hantera en grupp och dess objekt på ett och samma ställe
+## För gruppadministratörer: Visa och hantera en grupp och dess objekt på ett ställe
 
 >[!NOTE]
 >

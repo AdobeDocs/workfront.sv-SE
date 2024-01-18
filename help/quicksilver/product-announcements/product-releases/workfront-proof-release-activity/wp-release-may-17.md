@@ -2,12 +2,13 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: "Workfront-korrekturutgivningsaktivitet: Vecka 17 maj 2021"
-description: Den här sidan beskriver ändringar som gjorts i Workfront Proof (fristående korrekturprogram). De ändringar som beskrivs här gäller inte korrekturfunktionen i Adobe Workfront.
+title: "Workfront Proof Release Activity: Week of 17, 2021"
+description: Den här sidan beskriver ändringar som gjorts i Workfront Proof (fristående korrekturprogram). De ändringar som beskrivs här gäller inte för korrekturfunktionen i Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 # Workfront korrekturutgivningsaktivitet: 17 maj 2021
 
-Den här sidan beskriver ändringar som gjorts i Workfront Proof (fristående korrekturprogram). De ändringar som beskrivs här gäller inte korrekturfunktionen i Adobe Workfront.
+Den här sidan beskriver ändringar som gjorts i Workfront Proof (fristående korrekturprogram). De ändringar som beskrivs här gäller inte för korrekturfunktionen i Adobe Workfront.
 
-## Användarprofilmenyer i Workfront Proof använder nu typsnittsfält för att söka efter användare
+## Användarprofilmenyer i Workfront Proof använder nu standardfält för att söka efter användare
 
 >[!NOTE]
 >

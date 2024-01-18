@@ -3,11 +3,12 @@ title: 2.1 Förbättrad korrekturläsning
 description: 2.1 Förbättrad korrekturläsning
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 750c0a3863989e758ec35b11e48603300fa31fc7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,6 @@ En lista över alla ändringar som är tillgängliga i version 2.1 finns i [2.1 
 >* EMEA-kunder med integrerat korrektur som skapats efter 6 juli 2021
 >* Alla kunder i USA
 >
-
 
 För att skapa en mer integrerad upplevelse mellan Workfront och Korrektur har vi gjort flera förbättringar när det gäller korrekturfunktioner för granskare och beställare:
 

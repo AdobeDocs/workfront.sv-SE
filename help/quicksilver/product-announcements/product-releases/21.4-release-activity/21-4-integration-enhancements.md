@@ -4,10 +4,11 @@ description: 21.4 Integration enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ Följande uppdateringar visas nu i Workfront för integrering med Slack:
 * Workfront för Slack har ett nytt utseende och en ny känsla.
 * Nu får du meddelanden från Workfront för Slack i realtid.
 
-   Om du till exempel har tilldelats en uppgift får du det meddelandet så snart du har tilldelats. Tidigare kunde det dröja innan anmälan gjordes i Slack.
+  Om du till exempel har tilldelats en uppgift får du det meddelandet så snart du har tilldelats. Tidigare kunde det dröja innan anmälan gjordes i Slack.
 
 Den här uppdateringen kräver att du auktoriserar om Workfront för integrering med Slack. Information om hur du godkänner integreringen finns i [Konfigurera Adobe Workfront för Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
@@ -53,4 +54,4 @@ Mer information om specifika integreringar finns i integreringens dokumentation.
 
 ## API-nyckelautentisering behövs inte längre för integreringar
 
-Workfront integreringar har nyligen börjat använda OAuth2 för bättre säkerhet och användbarhet. Som en del av detta kräver Workfront inte längre API-nycklar för autentisering av integreringar.
+Workfront integreringar har nyligen börjat använda OAuth2 för bättre säkerhet och användbarhet. Som en del av detta kräver Workfront inte längre API-nycklar för integreringsautentisering.

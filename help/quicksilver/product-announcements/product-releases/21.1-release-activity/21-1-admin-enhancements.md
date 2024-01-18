@@ -6,10 +6,11 @@ title: 21.1 Förbättringar av administratörer
 description: Den här sidan beskriver alla administratörsförbättringar som gjorts i version 21.1 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 15 februari 2021.
 author: Luke
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Mer information om åtkomstnivån Planera finns i [Bevilja åtkomst till projekt
 
 Mer information om hur du kopierar ett projekt finns i [Kopiera ett projekt](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Den här funktionen ingår nu i [Grunderna för administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
 
 ## I ett anpassat formulär på ett objekt markerar du alla objekt i ett flervalsfält
 
@@ -62,7 +63,7 @@ Adobe Workfront-administratörer kan nu ge gruppadministratörer mer självbest�
 
 Mer information finns i [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Den här funktionen ingår nu i [Grunderna för administratörer i den nya Workfront-upplevelsen, del 2: Projektinställningar](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 2: Projektinställningar](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) utbildningsväg på Workfront One.
 
 ## Konfigurera åtkomstnivåinställningar för portföljer och program separat
 
@@ -74,7 +75,7 @@ Mer information om hur du konfigurerar en åtkomstnivå finns i [Skapa eller än
 
 Mer information om åtkomstinställningar som du kan konfigurera för program och portföljer finns i [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Den här funktionen ingår nu i [Grunderna för administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
 
 ## Markera alla kryssrutor i en serie när du redigerar information i ett anpassat formulär
 
@@ -107,7 +108,7 @@ Tidigare var det bara en grupp på den översta nivån som kunde ha gruppadminis
 
 Mer information finns i avsnittet [Gruppadministratörer för undergrupper](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) i artikeln [Översikt över undergrupper](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Den här funktionen ingår nu i [Grunderna för administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
 
 ## Konfigurera händelsemeddelanden för grupper
 
@@ -115,16 +116,16 @@ Den här funktionen ingår nu i [Grunderna för administratörer i den nya Workf
 >
 >Finns endast som en del av den stegvisa lanseringen för kunder som kan låsa upp projektinställningar för grupper. Detta omfattar alla kunder i kluster 4 och 6 samt ett litet antal kunder i andra kluster. Den här anteckningen uppdateras när funktionen blir tillgänglig för fler kluster.
 
-Workfront-administratörer kan nu ge gruppadministratörer större självständighet genom att tillåta dem att konfigurera händelsemeddelanden för sina toppnivågrupper. Undergrupper ärver händelseaviseringskonfigurationer från sin överordnade grupp.
+Workfront-administratörer kan nu ge gruppadministratörer större självständighet genom att tillåta dem att konfigurera händelsemeddelanden för sina toppnivågrupper. Undergrupper ärver händelseaviseringskonfigurationer från den översta överordnade gruppen.
 
 Tidigare var händelsemeddelanden bara konfigurerbara av en Workfront-administratör på systemnivå, vilket innebär att alla grupper måste använda samma uppsättning händelsemeddelanden.
 
 Mer information finns i följande artiklar:
 
 * [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
-* [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
+* [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Den här funktionen ingår nu i [Grunderna för administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
 
 Den här funktionen ingår nu i [E-post och meddelanden i appen i den nya Workfront-upplevelsen](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) utbildningsväg på Workfront One.
 
@@ -134,11 +135,11 @@ Om du är gruppadministratör är det enkelt att visa och arbeta med gruppens pr
 
 * Klicka på Projekt på den vänstra menyn för att visa gruppens projekt och skapa nya för gruppen. Om ett markerat projekt har delats med dig kan du använda knapparna i verktygsfältet för att redigera, exportera, kopiera eller ta bort det.
 
-   Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+  Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 * Klicka på Godkännanden på den vänstra menyn för att visa och hantera alla godkännandeprocesser som är kopplade till gruppen.
 
-   Mer information finns i [Godkännandeprocesser på gruppnivå](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+  Mer information finns i [Godkännandeprocesser på gruppnivå](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 Den här funktionen är även tillgänglig för Workfront-administratörer.
 

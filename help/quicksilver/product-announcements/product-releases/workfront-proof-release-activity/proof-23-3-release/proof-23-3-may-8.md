@@ -6,14 +6,16 @@ title: Adobe Workfront proof 23.3 release activity Week of 8 maj 2023
 description: Den här sidan beskriver alla förbättringar som gjorts i version 23.3 av Adobe Workfront Proof i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön under veckan 8 maj 2023.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+recommendations: noDisplay, noCatalog
+exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Proof 23.3: 8 maj 2023
+# Adobe Workfront Proof 23.3-utgåvan: 8 maj 2023
 
 Den här sidan beskriver alla förbättringar som gjorts i version 23.3 av Adobe Workfront Proof i förhandsvisningsmiljön den 8 maj 2023.
 

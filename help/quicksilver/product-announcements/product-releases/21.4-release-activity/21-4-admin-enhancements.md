@@ -4,10 +4,11 @@ description: 21.4 Administratörsförbättringar
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Mer information om godkännandeprocesser finns i [Översikt över godkännandepr
 
 Mer information om hur du hanterar gruppgodkännandeprocesser finns i [Godkännandeprocesser på gruppnivå](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
-## Nytt för administratörer: Grupper kan konfigurera sina egna inställningar för tidrapport och timma
+## Nytt för administratörer: Grupper kan konfigurera egna inställningar för tidrapport och timme
 
 >[!NOTE]
 >
@@ -40,21 +41,21 @@ Mer information om hur en Workfront-administratör låser upp en tidrapport och 
 
 Mer information om hur en gruppadministratör konfigurerar olåsta uppgifter och utfärdar inställningar för en grupp finns i [Konfigurera tidrapport och timinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-## Nytt för Workfront-administratörer: Konfigurera layoutmallar för användare med automatisk etablering i den nya Workfront-upplevelsen
+## Nytt för Workfront-administratörer: Konfigurera layoutmallar för automatiskt tilldelade användare i den nya Workfront-upplevelsen
 
-Nu kan du konfigurera layoutmallar i den nya Workfront-upplevelsen för användare som etablerats automatiskt. I listrutan Workfront-användarattribut, där du mappar användarattribut (Inställningar > System > Enkel inloggning), finns nu ett nytt menyalternativ på menyn Ny layoutmall som du kan använda för att göra den här konfigurationen. Tidigare kunde du bara konfigurera layoutmallar för användare med automatisk etablering i Workfront Classic.
+Nu kan du konfigurera layoutmallar i den nya Workfront-upplevelsen för användare som etablerats automatiskt. I listrutan Workfront-användarattribut, där du mappar användarattribut (Inställningar > System > Enkel inloggning), finns det nu ett nytt menyalternativ på menyn Ny layoutmall som du kan använda för att göra den här konfigurationen. Tidigare kunde du bara konfigurera layoutmallar för användare med automatisk etablering i Workfront Classic.
 
 Instruktioner om hur du mappar användarattribut finns i [Mappa användarattribut och autodistribuera nya användare](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## Nytt fält visar de grupper som användarna tillhör
 
-Nu är det enkelt att ta reda på vilka grupper användarna tillhör. I en rapport eller vy som listar användare kan du skapa en kolumn med hjälp av det nya fältet Andra grupper. I det här fältet visas de grupper där varje användare är medlem.
+Nu är det enkelt att ta reda på vilka grupper användarna tillhör. I en rapport eller vy som listar användare kan du skapa en kolumn med det nya fältet Andra grupper. I det här fältet visas de grupper där varje användare är medlem.
 
 Mer information om hur du använder rapporter och vyer finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) och [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Sidan med information om utkast visar nu en bild
 
-På informationssidan för varje plan visas nu en bild av projektmallen som installeras tillsammans med ritningen. Bilden innehåller en förhandsvisning av det blå innehållet så att du vet vad du ska installera. Du kan också förhandsvisa hela bilden i webbläsaren eller hämta bilden.
+På informationssidan för varje plan visas nu en bild av projektmallen som installeras tillsammans med ritningen. Bilden innehåller en förhandsvisning av det blå innehållet så att du vet vad du håller på att installera. Du kan också förhandsvisa hela bilden i webbläsaren eller hämta bilden.
 
 Mer information finns i [Översikt över utkast](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
@@ -70,13 +71,13 @@ Observera att när du använder dessa inställningar konverteras inte projekt so
 
 Mer information finns i [Konfigurera en plan](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-## Nytt för gruppadministratörer: Visa och hantera nyligen borttagna och återställda objekt i en grupp
+## Nytt för gruppadministratörer: Visa och hantera en grupps nyligen borttagna och återställda objekt
 
 >[!NOTE]
 >
 >Den här funktionen är bara tillgänglig i den nya Adobe Workfront-upplevelsen.
 
-Vi fortsätter att göra det enklare att hantera dina grupper och tillhörande objekt på ett och samma ställe. Nu kan du visa och arbeta med en grupps nyligen borttagna och återställda objekt i gruppområdet. Detta gör att du inte behöver gå till området Senast borttaget eller Senast återställt i installationsprogrammet för att hantera dessa objekt. Listan med gruppobjekt som du arbetar med hålls åtskild från andra borttagna och återställda objekt i systemet.
+Vi fortsätter att göra det enklare att hantera dina grupper och tillhörande objekt på ett och samma ställe. Nu kan du visa och arbeta med en grupps nyligen borttagna och återställda objekt i området Grupper. Detta gör att du inte behöver gå till området Senast borttaget eller Senast återställt i installationsprogrammet för att hantera dessa objekt. Listan med gruppobjekt som du arbetar med hålls åtskild från andra borttagna och återställda objekt i systemet.
 
 Mer information finns i [Visa och hantera nyligen borttagna objekt i en grupp](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) och [Visa och hantera nyligen återställda objekt i en grupp](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
 
@@ -87,13 +88,13 @@ Nu är det enklare att se till att gruppens projektmallar motsvarar gruppens beh
 * Resultatindexmetod
 * Villkorstyp
 * Schemalägg från
-* Användartid ledig
+* Användaren är ledig
 * Uppdateringstyp
 * Inställningar för åtkomstsektion
 
 När du skapar en ny malluppgift i en projektmall som är associerad med en grupp, ärver malluppgiften följande inställningar från gruppens uppgiftsinställningar:
 
-* Typ av varaktighet
+* Varaktighetstyp
 * Intäktstyp
 * Kostnadstyp
 
@@ -109,19 +110,19 @@ Nu är det enklare att ändra ett anpassat fält i ett anpassat formulär. Med e
 
 Mer information finns i [Visa alla anpassade formulär som använder ett visst anpassat fält eller en viss widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
-## Nytt för gruppadministratörer: Låsa och låsa upp projekt-, uppgifts- och utgivningsinställningar för en grupp
+## Nytt för gruppadministratörer: Lås och lås upp projekt-, uppgifts- och utgivningsinställningar för en grupp
 
 Nu kan du se till att alla i undergrupperna under gruppen använder samma inställningar eller låta dem konfigurera en inställning för sina unika arbetsflöden.
 
 * När en Workfront-administratör har låst upp en inställning på systemnivå kan du konfigurera och sedan låsa den för alla undergrupper under gruppen. Även om du fortfarande kan konfigurera om den låsta inställningen kan inte administratörer av undergrupper göra det för sina grupper.
 
-   Omvänt kan du låsa upp en inställning för gruppen. Detta gör att undergruppsadministratörer kan konfigurera den för sina användares unika arbetsflödesbehov för projekt, uppgifter eller utgåvor.
+  Omvänt kan du låsa upp en inställning för gruppen. Detta gör att undergruppsadministratörer kan konfigurera den för sina användares unika arbetsflödesbehov för projekt, uppgifter eller utgåvor.
 
-   Mer information finns i [Låsa eller låsa upp ett projekt, en uppgift eller en utleverans för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  Mer information finns i [Låsa eller låsa upp ett projekt, en uppgift eller en utleverans för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 * Om du är Workfront-administratör behöver du inte gå till gruppområdet för att konfigurera en undergrupps inställningar. Under Projektinställningar, Åtgärder och ärenden, eller Inställningar för tidrapporter och timmar, kan du använda sökrutan längst upp på sidan för att hitta undergruppen och konfigurera dess inställningar.
 
-   Mer information finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) och [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Mer information finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) och [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Nytt för gruppadministratörer: Skapa och redigera mallar från området Grupper
 
@@ -139,7 +140,7 @@ Mer information finns i [Skapa och ändra en grupps projektmallar](../../../admi
 >
 >Den här funktionen är bara tillgänglig i den nya Adobe Workfront-upplevelsen.
 
-Nu är det enklare att ange information i detaljavsnittet för ett objekt: Skriv och spara information i ett enda anpassat fält eller utökningsbart område (t.ex. Översikt och Ekonomi), även om obligatoriska fält i andra anpassade formulär på objektet ännu inte är ifyllda.
+Nu är det enklare att ange information i informationsavsnittet för ett objekt: Skriv och spara information i ett enda anpassat fält eller utökningsbart område (t.ex. Översikt och Ekonomi), även om obligatoriska fält i andra anpassade formulär för objektet ännu inte har fyllts i.
 
 Tidigare när du angav information i ett anpassat formulär eller utökningsbart område för ett objekt, gick alla anpassade formulär som var kopplade till objektet in i redigeringsläge och alla obligatoriska fält för dem måste fyllas i innan du kunde spara ändringarna. Detta var ett problem om du inte kunde fylla i ett obligatoriskt fält eftersom det var avsett för en annan användare.
 
@@ -151,7 +152,7 @@ Om du vill redigera alla anpassade formulär och utökningsbara områden i detal
 
 För att göra det enklare för alla nivåer i en organisation att hantera och styra sina arbetsflöden oberoende av varandra har vi introducerat möjligheten att skapa och hantera statusar för undergrupper. Från avsnittet Grupper i Setup kan du nu göra följande för grupper som du administrerar på alla nivåer:
 
-* Skapa, redigera, ta bort och dölja en status för en grupp
+* Skapa, redigera, ta bort och dölja en gruppstatus
 * Lås en status för en grupp så att alla undre undergrupper kan använda den på samma sätt
 * Lås upp en status för en grupp så att administratörer av undergrupper kan anpassa den efter deras unika behov
 * Ange en gruppstatus som standardstatus
@@ -163,7 +164,7 @@ Tidigare var den här funktionen bara tillgänglig för grupper på den översta
 
 Mer information finns i [Hantera gruppstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-## Nytt för Workfront-administratörer: Migrera layoutmallar från Workfront Classic till den nya Workfront-upplevelsen på egen hand
+## Nytt för Workfront-administratörer: Migrera layoutmallar från Workfront Classic till den nya Workfront-upplevelsen själv
 
 >[!NOTE]
 >
@@ -171,7 +172,7 @@ Mer information finns i [Hantera gruppstatus](../../../administration-and-setup/
 
 För att hjälpa dig att hantera layoutmallar medan användarna växlar till den nya Workfront-upplevelsen har vi skapat en knapp som du kan använda för att migrera layoutmallar från Workfront Classic till den nya upplevelsen utan att behöva använda Workfront kundsupport.
 
-Tidigare var det bara Workfront kundsupport som kunde migrera dina layoutmallar från Workfront Classic till den nya Workfront-upplevelsen.
+Tidigare var det bara Workfront kundsupport som kunde migrera dina layoutmallar från Workfront Classic till nya Workfront.
 
 ## När du associerar en mall med en grupp väljer du en process för gruppgodkännande i Köinformation och Köämnen
 

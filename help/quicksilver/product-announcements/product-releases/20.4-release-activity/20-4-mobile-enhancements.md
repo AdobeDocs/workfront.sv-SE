@@ -4,10 +4,11 @@ description: 20.4 Förbättringar av mobiler och integrering
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -39,7 +40,7 @@ Workfront samarbetar med MobileIron, en plattform för hantering av mobila enhet
 
 Med Workfront for MobileIron kan administratörer begränsa funktioner som kopiera/klistra in och skärmdumpar. Du kan hämta appen Workfront for MobileIron på [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Information om hur du konfigurerar programmet finns i [Konfigurera Adobe Workfront för MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Mer information om hur du konfigurerar programmet finns i [Konfigurera Adobe Workfront för MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Skapa en uppgift snabbt i Workfront mobilapp
 

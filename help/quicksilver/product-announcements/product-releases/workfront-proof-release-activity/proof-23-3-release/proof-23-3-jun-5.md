@@ -6,14 +6,16 @@ title: Adobe Workfront proof 23.3 release activity Week of June 5, 2023
 description: Den här sidan beskriver alla förbättringar som gjorts i version 23.3 av Adobe Workfront Proof i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 5 juni 2023.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 9aa69a4375d432218bd25a0927476d92178d8cb5
+recommendations: noDisplay, noCatalog
+exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Proof 23.3: Vecka 5 juni 2023
+# Versionsaktivitet för Adobe Workfront Proof 23.3: 5 juni 2023
 
 Den här sidan beskriver alla förbättringar som gjorts i version 23.3 av Adobe Workfront Proof i förhandsvisningsmiljön den 5 juni 2023.
 
@@ -29,5 +31,4 @@ Användare kan fortsätta skapa korrektur för följande Office-filtyper: DOC, D
 
 Storleksgränsen för PowerPoint- och Word-filer är nu 512 MB.
 
-Mer information finns i [Översikt över filtyper och storleksbegränsningar som stöds](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
-
+Mer information finns i [Översikt över filtyper och storleksbegränsningar som stöds för korrektur](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
