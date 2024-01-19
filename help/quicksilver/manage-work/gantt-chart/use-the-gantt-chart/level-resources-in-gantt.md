@@ -6,9 +6,9 @@ description: Information om hur du jämnar ut resurser i Gantt-schemat.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Översikt över resursutjämning
 
@@ -57,23 +57,23 @@ Om samma resurs tilldelas två olika uppgifter kan du använda resursutjämning 
 
 Tänk på följande när du utjämnar resurser i ett projekt:
 
-* Resursutjämning gäller endast ett projekt, så [!DNL Adobe Workfront] delar inte resurser över mer än ett projekt åt gången.
-* If **[!UICONTROL Effort Driven]** markeras som **[!UICONTROL Duration Type]**, [!DNL Workfront] kommer inte att jämna ut resurserna.
+* Resursutjämning gäller endast ett projekt, så [!DNL Adobe Workfront] delar inte resurser över mer än ett projekt i taget.
+* If **[!UICONTROL Effort Driven]** markeras som en **[!UICONTROL Duration Type]**, [!DNL Workfront] kommer inte att jämna ut resurserna.
 * När flera användare tilldelas till samma uppgift avbryts utjämningen.
-* Villkor för typen av **[!UICONTROL Task Constraint]** har företräde framför resursutjämning. Om **[!UICONTROL Fixed Dates]** markeras som [!UICONTROL Task Constraint], kommer resursutjämning inte att ändra aktivitetsdatumen.
+* Villkor för typen av **[!UICONTROL Task Constraint]** har företräde framför resursutjämning. Om **[!UICONTROL Fixed Dates]** är markerat som [!UICONTROL Task Constraint], kommer resursutjämning inte att ändra aktivitetsdatumen.
 * Föregående relationer har företräde framför resursutjämning.
 * **[!UICONTROL Resource Leveling]** måste anges till **[!UICONTROL Manual]** för projektet för att justera utjämningen i [!UICONTROL Gantt chart]. Om du har behörigheten Hantera för projektet kan du låta systemet automatiskt nivåindela resurser genom att justera den här inställningen i projektet och välja **[!UICONTROL Automatic]** i stället för **[!UICONTROL Manual]** i **[!UICONTROL Edit Project]** box.
 
-   ![](assets/resource-leveling-mode-350x177.png)
+  ![](assets/resource-leveling-mode-350x177.png)
 
 * Som projektägare, eller tilldelad uppgift, kan du ange en nivåfördröjning för en aktivitet för att ange att det finns en stor risk att aktiviteten behöver extra tid. Mer information om hur du lägger till en nivåfördröjning för en uppgift finns i [Uppdatera nivåfördröjning för aktivitet](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
-## Använd resursutjämning i dialogrutan [!UICONTROL Gantt Chart]
+## Använd resursutjämning i [!UICONTROL Gantt Chart]
 
 Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut era resurser.
 
 1. Gå till det projekt som du vill nivåindela.
-1. I **[!UICONTROL Tasks]** klickar du på **[!UICONTROL Gantt chart]** ikon.
+1. I **[!UICONTROL Tasks]** klickar du på **[!UICONTROL Gantt chart]** -ikon.
 
    Alla ändringar sparas automatiskt när **[!UICONTROL Autosave]** är aktiverat. Den är aktiverad som standard.
 
@@ -85,14 +85,14 @@ Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut era r
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Klicka på **[!UICONTROL Level Resources]** nedrullningsbar meny.
+1. Klicka på **[!UICONTROL Level Resources]** listruta.
 
    ![Level_resources.png](assets/level-resouces.png)
 
 1. Välj något av följande alternativ:
 
-   * **[!UICONTROL Level Now]**: Använder resursutjämning för den valda aktiviteten.
-   * **[!UICONTROL Clear Leveling]**: Tar bort all resursutjämning från den markerade aktiviteten.
+   * **[!UICONTROL Level Now]**: Använder resursutjämning för den markerade aktiviteten.
+   * **[!UICONTROL Clear Leveling]**: Tar bort all resursutjämning från den valda aktiviteten.
 
    >[!NOTE]
    >
@@ -108,7 +108,6 @@ Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut era r
    >* Windows: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
 
 
-
 1. Klicka **[!UICONTROL Save]** i det övre högra hörnet av [!UICONTROL Gantt chart].
 
 <!--
@@ -120,7 +119,7 @@ Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut era r
 <p>To manually add a Leveling Delay to a task:</p>
 <ol>
 <li value="1">Navigate to a task for which you want to add a Leveling Delay.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p> <p> <img src="assets/qs-task-edit-icon-highlighted-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>. </p>  </li>
 <li value="3">Click <strong>Settings</strong>.<br></li>
 <li value="4">Specify the <strong>Leveling Delay</strong>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li>
 <li value="5">Click <strong>Save Changes</strong>. </li>

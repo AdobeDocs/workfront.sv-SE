@@ -6,9 +6,9 @@ description: Du kan kopiera en uppgift från ett projekt till ett annat projekt,
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1736'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 
 1. Hitta en uppgift i ditt Workfront-system genom att söka efter den.
 1. Klicka på namnet på uppgiften för att öppna den.
-1. Klicka på **Mer** nedrullningsbar meny ![](assets/qs-more-menu.png) bredvid namnet på uppgiften och klicka sedan på **Kopiera** **till**.
+1. Klicka på **Mer** nedrullningsbar meny ![](assets/qs-more-menu.png) bredvid namnet på uppgiften och klicka sedan på **Kopiera till**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 

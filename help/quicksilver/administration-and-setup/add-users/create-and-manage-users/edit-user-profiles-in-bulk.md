@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Redigera användarprofiler gruppvis
 description: Som Adobe Workfront-administratör kan du redigera flera användarkonton samtidigt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Instruktioner om hur du redigerar en användarprofil i Adobe Admin Console finns i avsnittet Redigera användarinformation i artikeln [Överför användare gruppvis](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) eller kontakta din Adobe Admin Console-administratör.
+>Instruktioner om hur du redigerar en användarprofil i Adobe Admin Console finns i avsnittet Redigera användarinformation i artikeln [Överför användare gruppvis](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) eller kontakta Adobe Admin Console Administrator.
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -32,7 +32,6 @@ Du kan redigera flera användarkonton samtidigt. När användare gruppredigeras 
 >* Du kan inte redigera personlig information i användarprofilerna gruppvis eftersom informationen måste vara unik för varje användare.
 >* För att säkerställa att data är korrekta och att prestanda är optimala rekommenderar vi att du inte väljer fler än 2 000 användare åt gången för en massredigering.
 >
-
 
 ## Åtkomstkrav
 
@@ -55,7 +54,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
      <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>av dessa två alternativ, om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +62,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Redigera flera användarkonton samtidigt
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 
 1. Markera flera användare och klicka sedan på ikonen Redigera ![](assets/edit-icon.png).
 
@@ -79,8 +78,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        <ul> 
         <li><b>Tidszon:</b> Användarens tidszon.</li> 
         <li><b>Språk</b>: Användarens språkområde. Detta påverkar formatet för siffror och datum i e-postmeddelanden som kommer från Workfront.</li> 
-        <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill att ett procentfält ska visas i uppdateringsflödet för uppgifter för alla användare.</li> 
-        <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användarna tilldelar sig själva ska visas direkt på fliken Arbeta med. Som standard visas allt som tilldelats en användare på fliken Arbetsbegäran.</li> 
+        <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill att ett procentfält ska visas i uppdateringsområdet för alla användares uppgifter när du använder den äldre kommentarfunktionen. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.</li> 
+        <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användarna tilldelar sig själva ska visas direkt på fliken Arbeta på. Som standard visas allt som tilldelats en användare på fliken Arbetsbegäran.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -100,7 +99,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
         <p>Mer information om åtkomstnivåer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a>.</p> 
          </li> 
         <li> 
-        <p><b>Layoutmall</b>: Välj en layoutmall för användarna. Layoutmallen som tilldelats användarna har företräde framför alla layoutmallar som tilldelats deras hemgrupp, hemteam eller primära jobbroll. Mer information om tilldelningsprioriteten för layoutmallen finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a>.</p> 
+        <p><b>Layoutmall</b>: Välj en layoutmall för användarna. Den layoutmall som tilldelats användarna har företräde framför alla layoutmallar som tilldelats deras hemgrupp, hemteam eller primära jobbroll. Mer information om tilldelningsprioriteten för layoutmallen finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a>.</p> 
         <p><b>ANMÄRKNING</b>: Listan med layoutmallar som är tillgängliga i det här fältet beror på din åtkomst:
           <ul>
            <li>Som Workfront-administratör kan du se alla layoutmallar på system- och gruppnivå.</li>
@@ -160,9 +159,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
    </li>
 
-   <li><b>Schemalägg inaktivering</b>: Markera den här rutan om du vill att användare ska inaktiveras efter en viss tid.</li> 
-       <li><b>Schemalagt inaktiveringsdatum</b>: Datumet efter vilket användarna inaktiveras. Mer information om schemaläggning av användare för inaktivering finns i avsnittet <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>.</li> 
-       <li> <p><b>Primär roll</b>: Detta är den primära rollen som en användare har i Workfront. Alla uppgifter och utgåvor som användarna tilldelas till tilldelas som standard även den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a></p> <p>Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+   <li><b>Schemalägg inaktivering</b>: Markera den här rutan om du vill schemalägga att användare ska inaktiveras efter en viss tidsperiod.</li> 
+       <li><b>Schemalagt inaktiveringsdatum</b>: Det datum efter vilket användarna inaktiveras. Mer information om schemaläggning av användare för inaktivering finns i avsnittet <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>.</li> 
+       <li> <p><b>Primär roll</b>: Detta är den primära jobbrollen som en användare har i Workfront. Alla uppgifter och utgåvor som användarna tilldelas till tilldelas som standard även den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a></p> <p>Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
        <li>(Villkorligt) Om du markerade en <b>Primär roll</b>, <b>Procent tillgängliga heltidsanställda</b> visas. Ange hur många procent av tiden för användarens scheman som ska tilldelas den här jobbrollen. Standardvärdet för procentandelen FTE-tillgänglighet för den primära rollen är 100 %.</li> 
        <li> <p><b>Andra roller</b>: Användare kan ha flera jobbroller i Workfront. Jobbroller är viktiga i resurshanteringen. Det finns ingen gräns för hur många jobbroller en användare kan utföra. Vi rekommenderar dock att du inte tilldelar en användare till ett för stort antal jobbroller eftersom resurshanteringen kan bli alltför komplex för dessa användare.</p> <p>Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Du kan bara uppdatera det här fältet om du har en planlicens med administratörsåtkomst eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
        <li> <p>(Villkorligt) Om du markerade en eller flera <b>Andra roller</b>, <b>Procent tillgängliga heltidsanställda</b> visas för varje roll. Ange hur stor procentandel av tiden för användarens scheman som ska tilldelas varje jobbroll. Standardvärdet för procentandelen FTE-tillgänglighet för andra roller är 0 %.</p> <p><b>ANMÄRKNING</b>:  
@@ -170,7 +169,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        <li>Om andra roller har 0 % FTE-tillgänglighet visas de inte i resursplaneraren, såvida inte användarna har tilldelats till uppgifter i de här rollerna.</li> 
        <li> <p>Summan av alla procent av FTE-tillgänglighet för alla roller måste vara lika med 100 %. Varje procentandel av FTE-tillgänglighet beräknar tillgängliga timmar för varje roll per användare i resursplaneraren. Tillgängliga timmar för varje roll per användare beror på användarens tillgängliga tid.</p> <p>Den tillgängliga tiden för användaren beräknas av Workfront utifrån den metod som Workfront-administratören har valt för att beräkna FTE i Inställningar för resurshantering.</p> <p>Mer information om hur du beräknar tillgänglighet för användaren finns i <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>.</p> <p>Mer information om hur du konfigurerar inställningar för resurshantering finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>.</p> </li> 
        </ul> </p> </li> 
-       <li> <p><b>Schema</b>: Associera ett schema med användarna. Schemat för användarna beräknar tidslinjen för de uppgifter som användarna har tilldelats.</p> <p>En Workfront-administratör eller en gruppadministratör måste skapa ett schema innan det kan kopplas till användare.</p> <p>Välj en systemnivå eller ett gruppschema för att tilldela det till de valda användarna.</p> <p>Mer information om scheman på systemnivå och gruppnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>.</p> <p><b>VIKTIGT</b>: Workfront använder schemat för en användare endast när inställningen Beräkna resurstillgänglighet med är inställd på Användarens schema. Mer information om hur inställningen Beräkna resurstillgänglighet med påverkar vilket schema som används för resurshantering finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>.</p> </li> 
+       <li> <p><b>Schema</b>: Associera ett schema med användarna. Schemat för användarna beräknar tidslinjen för de uppgifter som användarna är tilldelade till.</p> <p>En Workfront-administratör eller en gruppadministratör måste skapa ett schema innan det kan kopplas till användare.</p> <p>Välj en systemnivå eller ett gruppschema för att tilldela det till de valda användarna.</p> <p>Mer information om scheman på systemnivå och gruppnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>.</p> <p><b>VIKTIGT</b>: Workfront använder schemat för en användare endast när inställningen Beräkna resurstillgänglighet med är inställd på användarens schema. Mer information om hur inställningen Beräkna resurstillgänglighet med påverkar vilket schema som används för resurshantering finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Konfigurera inställningar för resurshantering</a>.</p> </li> 
        <li> <p><b>Tidrapportprofil</b>: Associera en tidrapportprofil med användarna. Detta garanterar att tidrapporterna genereras automatiskt för användarna.</p> 
        <p><b>ANMÄRKNING</b>:  
        <ul> 
@@ -186,7 +185,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        <li> <p><b>Tillgängliga timtyper</b>: Välj de timtyper som ska vara tillgängliga för användaren. De här timtyperna visas överallt i Workfront där användarna kan logga tid. En användare kan bara se timtyperna som är aktiverade på projektnivå och på användarnivå.</p> 
        <p>Mer information om vilka timtyper som är tillgängliga för användarna finns i <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definiera timtyper och tillgänglighet för tidrapporter</a>.</p> 
        </li> 
-       <li> <b>FTE</b>: Det här är heltidsmotsvarigheten för användaren. Workfront använder det här numret för att beräkna användarens tillgänglighet baserat på standardschemat endast när inställningarna för resurshantering på systemnivå är inställda på standardschemat.
+       <li> <b>FTE</b>: Detta är heltidsmotsvarigheten för användaren. Workfront använder det här numret för att beräkna användarens tillgänglighet baserat på standardschemat endast när inställningarna för resurshantering på systemnivå är inställda på standardschemat.
 
    <p>FTE anger hur lång tid användaren kan tillbringa på jobbet. Detta inkluderar overheadkostnader och tid för projektarbete. Till exempel ingår även tid som används i möten eller utbildning i heltidsanställda.</p>
 
@@ -204,11 +203,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    Mer information om hur du skapar scheman i Workfront finns i <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>.
    </li> 
-       <li> <p><b>Resurspooler</b>: Associera användarna med resurspooler.</p> <p><b>ANMÄRKNING</b>: Endast de resurspooler som är gemensamma för alla markerade användare visas i det här fältet. Om de valda användarna inte har några delade resurspooler är det här fältet tomt. Om det här fältet är tomt skrivs de resurspooler som du anger här över sina enskilda resurspooler.</p> 
+       <li> <p><b>Resursgrupper</b>: Associera användarna med resurspooler.</p> <p><b>ANMÄRKNING</b>: Endast de resurspooler som är gemensamma för alla markerade användare visas i det här fältet. Om de valda användarna inte har några delade resurspooler är det här fältet tomt. Om det här fältet är tomt skrivs de resurspooler som du anger här över sina enskilda resurspooler.</p> 
        <p>Mer information om resurspooler finns i <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Översikt över resurspooler </a>.</p> </li> 
        <li><b>Kostnad per timme</b>: Kostnadsbeloppet per timme för användaren. </li> 
        <li><b>Fakturering per timme</b>: Beloppet för fakturering per timme för användaren.</li> 
-       <li><b>Anpassad Forms</b>: Koppla ett befintligt anpassat formulär till användarna. Du måste skapa ett anpassat formulär innan du kan koppla det till en användare. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</li> 
+       <li><b>Anpassad Forms</b>: Associera ett befintligt anpassat formulär med användarna. Du måste skapa ett anpassat formulär innan du kan koppla det till en användare. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</li> 
        <li><b>Kommentar</b>: Skriv en kommentar i fältet. Alla valda användare får ett meddelande i appen samt ett e-postmeddelande med din kommentar. Kommentaren visas på fliken Uppdateringar i användarens profil.</li> 
        </ul> </td> 
      </tr> 

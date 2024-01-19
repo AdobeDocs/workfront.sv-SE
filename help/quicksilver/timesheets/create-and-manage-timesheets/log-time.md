@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3493'
+source-wordcount: '3520'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ Allmän information om hur du använder området Hem finns i följande avsnitt:
 
 #### Logga tid på ett arbetsobjekt från den nya hemsidan
 
+Du kan logga tid på alla objekt i widgetarna med hjälp av panelen Sammanfattning. Mer information finns i [Panelen Sammanfattning](#summary-panel) i den här artikeln.
+
+Om du dessutom vill logga tiden för ett objekt i widgeten Mitt arbete:
+
 1. Till **Startsida** område.
-1. Lägg till följande widgetar:
+1. Lägg till **Mitt arbete** widgeten till ditt hem.
+1. Välj en uppgift, ett problem eller en förfrågan i en lista och klicka sedan på **Arbeta på den**
+1. Håll muspekaren över uppgiften eller problemet som du vill logga in på och klicka sedan på **Loggtid** icon ![](assets/log-time-icon-in-new-home.png) till höger om uppgiftsinformationen.
 
-   * Mina uppgifter
-   * Mina problem
-   * Mitt arbete
-   * Mina förfrågningar
-1. Välj en uppgift, ett problem eller en förfrågan i en lista och klicka sedan på **Sammanfattning**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   eller
-
-   Klicka på **Sammanfattning** icon ![](assets/open-summary-icon-in-home.png) från en uppgift eller ett problem i widgeten Mitt arbete.
-
-   Panelen Sammanfattning öppnas till höger.
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. Fortsätt med loggningstiden på sammanfattningspanelen enligt beskrivningen i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. Klicka **Loggtid**.
 
 #### Logga tid på ett arbetsobjekt från det äldre hemområdet
 

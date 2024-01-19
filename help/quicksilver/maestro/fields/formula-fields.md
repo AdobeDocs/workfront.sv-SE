@@ -4,9 +4,9 @@ description: I Adobe Maestro kan du skapa formelfält där funktioner och befint
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Dessutom stöder vi följande uttryck för formelfält i Maestro:
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Returnerar ID för en post.</p> <p>Uttrycket formateras på följande sätt:
+   <td> <p>Returnerar ID för en post. Varje post har ett unikt ID.</p> <p>Uttrycket formateras på följande sätt:
 
 <code>{ID}</code>
 </p>

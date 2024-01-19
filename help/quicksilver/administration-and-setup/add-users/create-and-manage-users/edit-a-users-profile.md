@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3381'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <p>Det här alternativet är bara tillgängligt i förhandsgransknings- och sandlådemiljöer. E-postmeddelanden är som standard aktiverade i produktionsmiljön. </p>
       </li>
 
-   <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill visa ett procentvärde i området Uppdatera för den här användarens uppgifter.</li> 
+   <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill visa ett procentvärde i området Uppdatera för den här användarens uppgifter när du använder den äldre kommentarfunktionen. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.</li> 
        <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användaren tilldelar sig själv ska visas direkt i listan Arbeta på i hemområdet. Som standard visas allt som tilldelats en användare i listorna Ready to Start eller Not Ready (Klart att starta) i området Home (Hem).</li> 
        <li><b>Generera korrektur automatiskt när dokument överförs</b>: Markera det här alternativet om du vill att de dokument som användaren överför omedelbart ska generera ett korrektur. </li>
        </ul> </td> 

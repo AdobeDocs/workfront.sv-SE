@@ -6,9 +6,9 @@ description: Dina [!DNL Adobe Workfront] profil innehåller information om dig s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2913'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,9 @@ Du kan ändra något av följande i det här underavsnittet:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Show percent complete on update status]</strong> </td> 
-   <td>Markera den här kryssrutan om du vill visa ett procentfält i [!UICONTROL update status] aktivitetsfält, så att du kan uppdatera procentandelen färdigt för en uppgift när du anger en aktivitetsuppdatering.</td> 
+   <td>Markera det här alternativet om du vill att ett procentvärde ska vara ifyllt i området Uppdateringar för dina uppgifter när du använder den gamla kommentarfunktionen. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 

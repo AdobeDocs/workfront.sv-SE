@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
 
 # Ny kommentarsfunktion
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ Bland förbättringarna i den nya kommentarsfunktionen finns följande:
 * Realtidsindikator när nya kommentarer läggs till i ett objekt
 * Redigera kommentarer när de har skickats
 
-Följande funktioner har tagits bort från den nya versionen:
+Följande funktioner har tagits bort eller kommer att tas bort från den nya funktionen:
 
 * Kommentera en systemuppdatering
-* Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs
+* Möjlighet att redigera status, villkor, datum för genomförande och procent slutfört samtidigt som du kommenterar uppgifter och problem
 * Redigera eget formulär
 * Informationen&quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör loggar in som en annan användare och lägger till en kommentar för dennes räkning togs ursprungligen bort. Den återinfördes den 19 oktober 2023.
 * Alternativet Fråga efter godkännande när du taggar personer när du lägger till en kommentar i ett dokument.
+* Inställningen &quot;Visa procent färdigt vid uppdateringsstatus&quot; när du redigerar en användares profilruta tas bort. Funktionen för att uppdatera procentandelen färdigt för en uppgift eller ett problem har tagits bort.
+* Meddelandet till projektägaren i uppdateringsområdet om att den som tilldelades en uppgift eller utgåva redigerade implementeringsdatumet <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
