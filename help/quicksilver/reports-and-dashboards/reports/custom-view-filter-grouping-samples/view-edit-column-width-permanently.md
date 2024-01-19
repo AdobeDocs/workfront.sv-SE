@@ -7,18 +7,20 @@ description: Du kan tillfälligt ändra kolumnbredden genom att dra och släppa 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 261c1b73d785094de4ee8549c856a091920ba04a
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
 # Visa: redigera bredden på en kolumn permanent
 
+<!-- Audited: 1/2024 -->
+
 Du kan tillfälligt ändra kolumnbredden genom att dra och släppa marginalerna så att de matchar den önskade bredden. Mer information finns i [Ändra kolumnbredd och -ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Du kan ändra bredden på valfri kolumn i vyn permanent genom att använda textläget i kolumnen när du redigerar vyn.
+Om du vill ändra bredden på en kolumn i en vy permanent måste du använda textläget i kolumnen när du redigerar vyn.
 
 ## Åtkomstkrav
 
@@ -29,34 +31,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt:<ul><li>Medarbetare som ändrar en vy</li><li>Standard för att ändra en rapport</li></ul></p><p>eller</p>Aktuell:<ul><li>Begäran om att ändra en vy</li><li>Planera att ändra en rapport</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Redigera bredden på en kolumn permanent
 
 >[!IMPORTANT]
 >
->Om du ändrar bredden på en kolumn manuellt enligt beskrivningen i avsnittet Ändra bredden och ordningen på kolumner tillfälligt i artikeln [Ändra kolumnbredd och -ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) När du har ändrat bredden på kolumnen permanent bevaras kolumnens bredd enligt din manuella storleksändring och bredden på kolumnen som uppdateras enligt följande steg skrivs över. Du kan visa kolumnen enligt den bredd som definieras i följande steg när du har rensat cachen eller loggat in från en annan webbläsare.
+>Om du ändrar bredden på en kolumn manuellt enligt beskrivningen i avsnittet [Ändra bredden och ordningen på kolumner tillfälligt](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) i artikeln [Ändra kolumnbredd och -ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) När du har ändrat bredden på kolumnen permanent bevaras kolumnens bredd enligt den manuella storleksändringen. I det här fallet skrivs bredden på kolumnen som uppdateras enligt följande steg över. Du kan visa kolumnen enligt den bredd som definieras i följande steg när du har rensat cachen eller loggat in från en annan webbläsare.
 >
 >Mer information om hur du anpassar bredden på kolumner när du använder gränssnittet för textläge finns i definitionerna &quot;width&quot; och &quot;stretch&quot; i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
