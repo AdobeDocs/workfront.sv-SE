@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -352,7 +352,7 @@ Som standard returneras bara namnet och ID för varje uppgift, men ytterligare k
 
 Du kan hämta anpassade datafält med prefixet&quot;DE:&quot;. Om du till exempel vill begära ett projekt med en parameter som heter&quot;CustomText&quot; använder du följande begäran:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>som skulle returnera
-<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Du kan också hämta alla anpassade data för ett objekt genom att begära fältet parameterValues. Exempel, 
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Du kan också hämta alla anpassade data för ett objekt genom att begära fältet parameterValues. Till exempel: 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>returnerar liknande data som följande:
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -361,11 +361,11 @@ Du kan hämta anpassade datafält med prefixet&quot;DE:&quot;. Om du till exempe
 Vissa objekttyper har namngivna sökningar som vanligtvis utförs och som är tillgängliga genom att lägga till frågans namn i slutet av objekttypen URI. Följande begäran hämtar till exempel arbetsobjekten (uppgifter och ärenden) som användaren är tilldelad till:
 <pre>/attask/api/v15.0/work/myWork</pre>Namngivna frågor har stöd för att begära att parametern fields hämtar ytterligare fält. Vissa namngivna frågor accepterar även ytterligare filter. En lista med tillåtna namngivna frågor för ett objekt finns på fliken Åtgärd för objektet i [API-utforskaren](../../wf-api/general/api-explorer.md).
 
-#### Använda räkningsfiltret
+#### Använda `Count`
 
-Du kan ange hur många resultat som ska returneras av en viss sökning. Detta gör att servern kan behandla begäran snabbare och sparar bandbredd. Till exempel begäran
+Du kan använda `count` för att returnera antalet resultat som matchar din fråga. Detta kan vara användbart när du inte behöver data i resultaten. Genom att bara returnera antalet kan servern behandla begäran snabbare och spara bandbredd. Till exempel begäran
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>returnerar antalet resultat i följande format:
-<pre>{<br>    "count": 3 <br>}</pre>Detta resulterar i en mycket mindre nedladdning än om de fullständiga objekten skickas. Filtersyntaxen är identisk med sökkommandot.
+<pre>{<br>    "count": 3 <br>}</pre>Att returnera ett antal är en mycket mindre dataöverföring än om de fullständiga objekten returneras. Syntaxen är identisk med sökkommandot.
 
 ### Begär en rapport
 
@@ -409,7 +409,7 @@ För att få optimala prestanda visas i följande tabell de begränsningar som f
   </tr> 
   <tr> 
    <td>Maximalt antal resultat</td> 
-   <td>2,000</td> 
+   <td>2 000</td> 
    <td>Frågefiltret (dvs. $$LIMIT) kan inte returnera fler än 2 000 resultat. Mer information finns i"Sidnumrerade svar".</td> 
   </tr> 
   <tr> 
@@ -419,12 +419,12 @@ För att få optimala prestanda visas i följande tabell de begränsningar som f
   </tr> 
   <tr> 
    <td>Maximalt antal objekt</td> 
-   <td>50,000</td> 
+   <td>50 000</td> 
    <td>Resultatuppsättningen får inte innehålla 50000 primära och sekundära objekt.</td> 
   </tr> 
   <tr> 
    <td>Maximalt antal fält</td> 
-   <td nowrap>1,000,000</td> 
+   <td nowrap>1 000 000</td> 
    <td>När resultatmängden är mindre än 50 000 objekt kan resultatet innehålla högst 1 000 000 fält.</td> 
   </tr> 
   <tr> 
