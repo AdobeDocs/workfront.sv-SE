@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterad status för dokumentgodkännanden</a></p><p>För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterad status för dokumentgodkännanden</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markera en granskning som slutförd</a></p><p>För att göra det tydligare när ett dokument har granskats och är klart för nästa godkännandefas har vi skapat ett nytt <strong>Slutför min granskning</strong> -knappen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markera en granskning som slutförd</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra det tydligare när ett dokument har granskats och är klart för nästa godkännandefas har vi skapat ett nytt <strong>Slutför min granskning</strong> -knappen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Dokumentets gransknings- och godkännandestatus visas i dokumentrubriken</a></p><p>För att göra gransknings- och godkännandeprocessen mer genomskinlig har vi lagt till statusen i sidhuvudet på sidan Dokumentinformation.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Dokumentets gransknings- och godkännandestatus visas i dokumentrubriken</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra gransknings- och godkännandeprocessen mer genomskinlig har vi lagt till statusen i sidhuvudet på sidan Dokumentinformation.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -210,7 +210,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för väntande godkännanden tillgänglig</a></p><p>För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för väntande godkännanden tillgänglig</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>

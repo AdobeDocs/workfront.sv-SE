@@ -6,16 +6,14 @@ description: Som granskare kan du förhandsgranska ett dokument som har skickats
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 9a5780010e32526282255dd8a54e6ae22c5f0c55
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Granska ett dokument
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Som granskare kan du visa ett dokument som har skickats till dig för granskning. Till skillnad från ett godkännande fattar du inget beslut. I stället bekräftar du att du har granskat resursen.
 
@@ -72,7 +70,7 @@ Add once functionality is added
    Klicka **Ladda ned** om du vill hämta en lokal kopia av dokumentet till din enhet.
 
 1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **Uppdateringar** -avsnitt. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. <span class="preview">Om du vill registrera att du har slutfört granskningen klickar du på **Fullständig granskning**.</span>
+1. Om du vill registrera att du har slutfört granskningen klickar du på **Fullständig granskning**.
 
 ## Granska ett dokument från rutan Dokumentsammanfattning
 
@@ -93,4 +91,4 @@ Add once functionality is added
 1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **Uppdateringar** -avsnitt. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till **Versioner** i rutan Dokumentsammanfattning och klicka sedan på ikonen Mer ![](../assets/more-icon.png) bredvid den version du vill granska och välja **Ladda ned** eller **Förhandsgranska**.
-1. <span class="preview"> Om du vill registrera att du har slutfört granskningen klickar du på **Fullständig granskning**.</span>
+1. Om du vill registrera att du har slutfört granskningen klickar du på **Fullständig granskning**.

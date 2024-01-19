@@ -5,9 +5,9 @@ title: Översikt över objektrubriker
 description: Du kan snabbt visa information om objekt i [!DNL Adobe Workfront] när du granskar deras sidhuvud. Informationen i en rubrik kan innehålla objektets ägare, status eller procentandelen slutförd.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Så här kommer du åt ett projekts huvud:
 
 Följande rubriker är tillgängliga i Hem:
 
-* Uppgift: Mer information om hur du kan använda den här rubriken finns i [Översikt över aktivitetshuvud](#task-header-overview) i den här artikeln.
+* Aktivitet: Mer information om hur du kan använda den här rubriken finns i [Översikt över aktivitetshuvud](#task-header-overview) i den här artikeln.
 * Problem: Mer information om hur du kan använda den här rubriken finns i [Översikt över problemrubriken](#issue-header-overview) i den här artikeln.
 
 ## Anpassningsbara rubriker
@@ -58,7 +58,7 @@ Projekthuvudet visar som standard följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -121,7 +121,7 @@ Uppgiftshuvudet innehåller som standard följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -156,11 +156,11 @@ Uppgiftshuvudet innehåller som standard följande information:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Work on It], [!UICONTROL Done], eller [!UICONTROL Start Task] knapp</p> </td> 
-   <td> <p>Om uppgiften är tilldelad dig kan du klicka på [!UICONTROL Work on It] <span>eller [!UICONTROL Start Task]</span> för att indikera att du nu arbetar med uppgiften, eller [!UICONTROL Done] för att ange att du har slutfört uppgiften.</p> <p><span>Mer information om att ersätta [!UICONTROL Work On It] knapp med [!UICONTROL Start Task] knapp, se <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt [!UICONTROL Work On It] knapp med [!UICONTROL Start] knapp</a></span>.</p> </td> 
+   <td> <p>Om uppgiften är tilldelad dig kan du klicka på [!UICONTROL Work on It] <span>eller [!UICONTROL Start Task]</span> för att indikera att du nu arbetar med uppgiften, eller [!UICONTROL Done] för att ange att du har slutfört uppgiften.</p> <p><span>Mer information om hur du ersätter [!UICONTROL Work On It] knapp med [!UICONTROL Start Task] knapp, se <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt [!UICONTROL Work On It] knapp med [!UICONTROL Start] knapp</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>Du kan redigera uppgiften [!UICONTROL Planned Completion Date] <span>och tid</span> i sidhuvudet.</p> <p>Tips: Observera att [!UICONTROL Commit Date] är inte synlig i sidhuvudet. Du kan visa den på [!UICONTROL Details] sida.</p> </td> 
+   <td> <p>Du kan redigera uppgiften [!UICONTROL Planned Completion Date] <span>och tid</span> i sidhuvudet.</p> <p>Tips! Observera att [!UICONTROL Commit Date] är inte synlig i sidhuvudet. Du kan visa den på [!UICONTROL Details] sida.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -184,7 +184,7 @@ Uppgiftshuvudet innehåller som standard följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -219,11 +219,11 @@ Uppgiftshuvudet innehåller som standard följande information:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Work on It], [!UICONTROL Done], <span>eller [!UICONTROL Start Issue] knapp</span></td> 
-   <td>Om utgåvan har tilldelats dig kan du klicka på [!UICONTROL Work on It] <span>eller [!UICONTROL Start Issue]</span> för att indikera att du nu arbetar med frågan, eller [!UICONTROL Done] för att ange att du har slutfört problemet.<span>Mer information om att ersätta [!UICONTROL Work On It] knapp med [!UICONTROL Start Task] knapp, se</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt [!UICONTROL Work On It] knapp med [!UICONTROL Start] knapp</a></span><span>.</span></td> 
+   <td>Om utgåvan har tilldelats dig kan du klicka på [!UICONTROL Work on It] <span>eller [!UICONTROL Start Issue]</span> för att indikera att du nu arbetar med frågan, eller [!UICONTROL Done] för att ange att du har slutfört problemet.<span>Mer information om hur du ersätter [!UICONTROL Work On It] knapp med [!UICONTROL Start Task] knapp, se</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt [!UICONTROL Work On It] knapp med [!UICONTROL Start] knapp</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>Du kan redigera problemet [!UICONTROL Planned Completion Date] <span>och tid</span> i sidhuvudet.</p> <p>Tips: Observera att [!UICONTROL Commit Date] är inte synlig i sidhuvudet. Du kan visa den på [!UICONTROL Details] sida.</p> </td> 
+   <td> <p>Du kan redigera problemet [!UICONTROL Planned Completion Date] <span>och tid</span> i sidhuvudet.</p> <p>Tips! Observera att [!UICONTROL Commit Date] är inte synlig i sidhuvudet. Du kan visa den på [!UICONTROL Details] sida.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -247,7 +247,7 @@ Programhuvudet visar följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -270,7 +270,7 @@ Programhuvudet visar följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Aktiveringsstatus</td> 
-   <td> <p>Om programmet är inaktiverat visas texten[!UICONTROL PROGRAM DEACTIVATED]" visas ovanför programnamnet i sidhuvudet.</p> </td> 
+   <td> <p>Om programmet är inaktiverat visas texten "[!UICONTROL PROGRAM DEACTIVATED]" visas ovanför programnamnet i sidhuvudet.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Programmets verksamhetsområde</td> 
@@ -278,7 +278,7 @@ Programhuvudet visar följande information:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
-   <td> <p>Du kan inte redigera [!UICONTROL Percent Complete] för programmet i sidhuvudet. Den här informationen uppdateras från projekten i programmet.</p> <p>Tips: Som standard är procentandelen slutförd av programmet ett genomsnitt av procentvärdena för slutförda projekt i en [!UICONTROL Current] eller [!UICONTROL Approved Status] som tillhör programmet.</p> </td> 
+   <td> <p>Du kan inte redigera [!UICONTROL Percent Complete] för programmet i sidhuvudet. Den här informationen uppdateras från projekten i programmet.</p> <p>Tips! Som standard är procentandelen slutförd av programmet ett genomsnitt av procentvärdena för slutförda projekt i en [!UICONTROL Current] eller [!UICONTROL Approved Status] som tillhör programmet.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -306,7 +306,7 @@ Portföljrubriken innehåller följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -329,7 +329,7 @@ Portföljrubriken innehåller följande information:
   </tr> 
   <tr> 
    <td role="rowheader">The [!UICONTROL actions] portföljens yta</td> 
-   <td> <p>Bredvid namnet på portföljen [!UICONTROL actions] visas.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Bredvid namnet på portföljen visas [!UICONTROL actions] visas.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
@@ -369,7 +369,7 @@ Mallhuvudet visar följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -416,7 +416,7 @@ Malluppgiftshuvudet visar följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -452,7 +452,7 @@ Malluppgiftshuvudet visar följande information:
  </tbody> 
 </table>
 
-## Översikt över huvud för faktureringspost
+## Översikt över rubriker i faktureringspost
 
 ![](assets/billing-record-header-nwe-350x19.png)
 
@@ -463,7 +463,7 @@ Faktureringsposthuvudet visar följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -511,14 +511,14 @@ Faktureringsposthuvudet visar följande information:
 
 ![](assets/user-header-350x20.png)
 
-Användarhuvudet visar följande information:
+I användarhuvudet visas följande information:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -570,7 +570,7 @@ Teamhuvudet innehåller följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -602,7 +602,7 @@ Teamhuvudet innehåller följande information:
  </tbody> 
 </table>
 
-## Översikt över iterationshuvudet
+## Översikt över iterationshuvud
 
 ![](assets/iteration-header-350x19.png)
 
@@ -613,14 +613,14 @@ I iterationshuvudet visas följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td role="rowheader">Objektikon </td> 
-   <td> <p>Den orange [!UICONTROL Iteration] icon <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> visas till vänster om upprepningens namn.</p> </td> 
+   <td> <p>Den orange [!UICONTROL Iteration] icon <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> visas till vänster om iterationsnamnet.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Namnet på upprepningen</td> 
@@ -660,7 +660,7 @@ Grupprubriken innehåller följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -678,7 +678,7 @@ Grupprubriken innehåller följande information:
    <td> <p>Texten "[!UICONTROL GROUP]" visas ovanför gruppnamnet i rubriken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The [!UICONTROL actions] gruppområde</td> 
+   <td role="rowheader">The [!UICONTROL actions] område i gruppen</td> 
    <td> <p>Bredvid namnet på gruppen visas [!UICONTROL More] meny <img src="assets/more-menu.png"> visas, vilket gör att du kan välja följande alternativ:</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
@@ -712,7 +712,7 @@ I dokumentrubriken visas följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -739,12 +739,12 @@ I dokumentrubriken visas följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Godkännandet [!UICONTROL Decision] area</td> 
-   <td> <p>När dokumentet är i ett steg för godkännande [!UICONTROL Decisions] visas i det övre högra hörnet av dokumenthuvudet.</p> <p>Använd följande ikoner för att hantera godkännanden för dokumentet:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Mer information om godkännandebeslut finns i <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Godkänna arbete </a>.</p> </td> 
+   <td> The [!UICONTROL Decisions] visas i det övre högra hörnet av dokumenthuvudet. Det här området skiljer sig åt beroende på godkännandefasen och om du är godkännare, granskare eller ingen av dem. <ul><li> <p>Om du är godkännare kan du använda följande ikoner för att hantera godkännanden för dokumentet:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Mer information om godkännandebeslut finns i <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Godkänna arbete</a>.</li><li><p>Om du är granskare kan du klicka på knappen Slutför min granskning för att ange att du har granskat dokumentet.</p><p>Mer information om hur du granskar ett dokument finns i <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Granska ett dokument</a>.</p></li><li>I annat fall visas den aktuella gransknings- och godkännandestatusen för dokumentet i det här området.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Översikt över företagshuvudet {#company-header-overview}
+## Översikt över företagshuvud {#company-header-overview}
 
 ![](assets/company-header-350x20.png)
 
@@ -755,7 +755,7 @@ Följande information visas i företagshuvudet:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -796,14 +796,14 @@ I planhuvudet visas följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td role="rowheader">Tillbaka till planer</td> 
-   <td>Om du klickar på den här länken kommer du till [!UICONTROL Plans] lista.</td> 
+   <td>Klicka på den här länken för dig till [!UICONTROL Plans] lista.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektikon </td> 
@@ -825,14 +825,14 @@ I planhuvudet visas följande information:
    <td role="rowheader">Ytterligare planåtgärder</td> 
    <td> <p>Under plannamnet och åtgärdsområdet kan du utföra följande åtgärder:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Show conflicts]</strong>: Om du klickar på den här växeln visas eller döljs konflikter i initiativen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Show conflicts]</strong>: Om du klickar på den här växeln visas eller döljs konflikterna i initiativen.</p> </li> 
      <li> <p><strong>[!UICONTROL Compare scenarios]</strong>: Om du klickar på den här länken visas en jämförelse sida vid sida av de scenarier du har skapat.</p> </li> 
      <li> <p><strong>[!UICONTROL Scenario selection]</strong>: I den här listrutan kan du kopiera ett scenario eller välja att visa ett annat scenario.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Jobbrollinformation</td> 
-   <td>I [!UICONTROL Job Role] kan du se hur många jobbroller som är tillgängliga för planen jämfört med hur många som krävs. Om du klickar i rutan kan du justera de tillgängliga jobbrollerna.</td> 
+   <td>I [!UICONTROL Job Role] kan du se hur många jobbroller som är tillgängliga för planen jämfört med hur många som krävs. Om du klickar i rutan kan du justera tillgängliga jobbroller.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Financial] information</td> 
@@ -867,7 +867,7 @@ Målrubriken innehåller följande information:
  <col> 
  <thead> 
   <tr> 
-   <th>Huvudinformation</th> 
+   <th>Rubrikinformation</th> 
    <th>Anteckningar</th> 
   </tr> 
  </thead> 
@@ -914,7 +914,7 @@ Målrubriken innehåller följande information:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
-   <td>Anger om målet är aktivt, nytt eller stängt. Du kan inte uppdatera målstatusen manuellt. Mer information finns i <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Översikt över målstatus i [!DNL Adobe Workfront Goals]</a></td> 
+   <td>Anger om målet är aktivt, nytt eller stängt. Du kan inte uppdatera målstatusen manuellt. Mer information finns i <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Målstatusöversikt i [!DNL Adobe Workfront Goals]</a></td> 
   </tr> 
  </tbody> 
 </table>
