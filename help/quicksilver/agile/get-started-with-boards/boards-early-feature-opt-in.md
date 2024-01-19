@@ -7,25 +7,20 @@ description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Board
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Anmäl dig till tidig funktion för [!DNL Adobe Workfront] [!UICONTROL Boards]
 
-Vykort med ad hoc-kort och anslutna kort är tillgängliga för alla användare, och vi är glada över att kunna öppna fler funktioner för tidig anmälan av funktioner från och med juli 2022.
+Anmäl dig till tidig funktion för [!DNL Adobe Workfront] [!UICONTROL Boards] startades i juli 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] är flexibla verktyg som ger teamsamarbete genom att ge åtkomst till en delad anslagstavla som innehåller kolumner och kort.
 
 Allmän information om ritytor finns i [[!UICONTROL Boards] översikt](/help/quicksilver/agile/boards-overview.md).
-
-## Frigör schema
-
-* Tidig start av nya funktioner i förhandsgranskning: 22 juli 2022
-* officiell version: 28 juli 2022
 
 ## Funktioner
 
@@ -138,8 +133,8 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
    <td>Frisläppt</td>
   </tr>
   <tr>
-   <td>Importera underaktiviteter som checklisteobjekt på kort</td>
-   <td>Planerad</td>
+   <td>Importera underaktiviteter på kort</td>
+   <td>Frisläppt</td>
   </tr>
   <tr>
    <td>Anpassa visning av fält på ett kort</td>
@@ -163,7 +158,7 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
   </tr>
   <tr>
    <td>Migrera gamla kanban-kort till styrelser</td>
-   <td>Den här funktionen kommer att vara tillgänglig i produktion den 18 maj 2023 och ingår inte i anmälan om tidiga funktioner.</td>
+   <td>Den här funktionen är tillgänglig i produktion den 18 maj 2023 och ingår inte i anmälan om tidiga funktioner.</td>
   </tr>
   <tr>
    <td>Skapa dynamiska ritytor</td>
@@ -198,7 +193,8 @@ Tidiga funktioner för anslagstavlor är tillgängliga för alla organisationer.
 
 Endast [!DNL Workfront] administratörer kan välja tidiga funktioner för styrelser. När en [!DNL Workfront] administratören aktiverar tidiga funktioner, så att alla användare i organisationen kan komma åt dem.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Klicka ![Anmäl dig tidigt](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) högst upp på kontrollpanelsskärmen.
 1. Klicka på **[!UICONTROL Enable]**.
 1. Börja använda de tidiga funktionerna i styrelserna.
@@ -228,6 +224,7 @@ Men [!DNL Workfront] administratören kan dölja alternativet för anslagstavlor
 
 Endast [!DNL Workfront] administratörer kan välja att inte få tidiga funktioner. Om en [!DNL Workfront] administratören inaktiverar de tidiga funktionerna, vilket innebär att alla användare i organisationen avanmäts.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Klicka ![Anmäl dig till tidig funktion aktiverat](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) högst upp på kontrollpanelsskärmen.
 1. Klicka på **[!UICONTROL Disable]**.

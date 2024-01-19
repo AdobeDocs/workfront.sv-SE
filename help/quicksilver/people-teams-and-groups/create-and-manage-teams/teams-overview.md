@@ -7,14 +7,16 @@ description: Syftet med ett team i Adobe Workfront är att fånga in livets dyna
 author: Lisa
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Översikt över team
+
+<!-- Audited: 01/2024 -->
 
 Syftet med ett team i [!DNL Adobe Workfront] är att fånga dynamiken i det verkliga livet i funktionella arbetsgrupper på arbetsplatsen.
 
@@ -26,10 +28,10 @@ A [!DNL Workfront Team] skiljer sig från ett projektteam. [!DNL Workfront] I te
 
 ## Skapa team
 
-Team skapas vanligtvis av en [!DNL Workfront] -administratör, men en användare med lämplig åtkomst kan även skapa team. När ett team har skapats kan projektledaren tilldela ett helt team till en uppgift i stället för att besluta om en enskild roll eller jobbroll.
+Team skapas vanligtvis av en [!DNL Workfront] -administratör, men en användare med lämplig åtkomst kan även skapa team. När ett team har skapats kan projektledaren tilldela ett helt team till en uppgift i stället för att besluta om en enskild roll eller jobbroll. Mer information finns i [Skapa ett team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Grupptilldelningar
 
-En projektledare vet inte alltid vilken person som ska slutföra ett uppdrag - bara att en viss arbetsenhet eller ett visst team slutför ett sådant arbete.
+En projektledare vet inte alltid vilken person som ska slutföra ett uppdrag - bara att en viss arbetsenhet eller grupp slutför ett sådant arbete.
 
-Medlemmar i ett tilldelat team kan även gå till [!UICONTROL Teams] > [!UICONTROL Team] Området med förfrågningar och se vilka uppgifter som tilldelats deras team. De kan bedöma effekten av en uppgift och frivilligt arbeta med den.
+Medlemmar i ett tilldelat team kan även gå till [!UICONTROL Teams] > [!UICONTROL Team] Området med förfrågningar och se vilka uppgifter som tilldelats deras team. De kan bedöma effekten av en uppgift och frivilligt arbeta med den. Mer information finns i [Översikt över gruppförfrågningar](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
