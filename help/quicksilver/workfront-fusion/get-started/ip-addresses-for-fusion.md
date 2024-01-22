@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: adb324323330f53108532cc7a7e68466fdb84273
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -39,12 +39,21 @@ Lägg till följande IP-adresser i tillåtelselista för att aktivera [!DNL Work
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] US Datacenter</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] Amerikanskt datacenter</p> </td> 
    <td> 
     <ul> 
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] på Microsoft Azure-klustret</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -61,8 +70,12 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
    <td> <p> hook.app-eu.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] US Datacenter</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] Amerikanskt datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] på Microsoft Azure-klustret</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>
