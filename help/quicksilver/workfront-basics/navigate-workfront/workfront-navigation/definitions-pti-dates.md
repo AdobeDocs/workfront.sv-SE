@@ -5,9 +5,9 @@ title: Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Adobe Wor
 description: Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Du kan ange manuellt när arbetet har slutförts för en uppgift eller ett probl
 * Status för projekt, uppgift eller utleverans ändras till [!UICONTROL Complete], [!UICONTROL Closed], eller [!UICONTROL Resolved].
 * Aktivitets- eller projektprocenten slutförd är 100 %.
 
-The [!UICONTROL Actual Completion Date] för ett projekt sammanfaller med datumet då den första uppgiften i projektet slutförs.
+The [!UICONTROL Actual Completion Date] för ett projekt sammanfaller med datumet då du slutförde den sista uppgiften i projektet.
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ The [!UICONTROL Commit Date] är det datum då en användare som har tilldelats 
 >
 >Ändra [!UICONTROL Commit Date] påverkar [!UICONTROL Projected Completion Date] men inte [!UICONTROL Planned Completion Date] för en uppgift eller ett problem. Projektledaren kan använda de ändringar som en tilldelad gör på [!UICONTROL Commit Date] för att uppdatera [!UICONTROL Planned Completion Date] för en uppgift eller ett problem.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL Projected Start Date]
 
 The [!UICONTROL Projected Start Date] är ett realtidsdatum när projektet, uppgiften eller utgåvan inträffar och alla förseningar beaktas. Detta är ett mer korrekt startdatum för projektet, aktiviteten eller utgåvan än [!UICONTROL Planned Start Date]. The [!UICONTROL Planned Start Date] tar inte hänsyn till förseningar eller tidigare datum.
@@ -132,7 +128,7 @@ Mer information finns i [Översikt [!UICONTROL Projected Start Date]](../../../m
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL rojected Completion Date]
+## [!UICONTROL Projected Completion Date]
 
 The [!UICONTROL Projected Completion Date] är en beräknad indikator i realtid för när projektet, uppgiften eller utgåvan ska slutföras. När projektet, aktiviteten eller utgåvan har markerats som Slutfört visas [!UICONTROL Projected Completion Date] Ändringar av datumet för [!UICONTROL Actual Completion Date].
 
@@ -146,24 +142,28 @@ Mer information finns i [Översikt över [!UICONTROL Projected Completion Date] 
 
 När du loggar tid för projekt, uppgifter och utleveranser för att ange hur mycket faktisk tid (i timmar) du tillbringar med att arbeta med projektet, aktiviteten eller problemet, blir tiden du loggar [!UICONTROL Actual Hours] av projektet, uppgiften eller utgåvan.
 
-Datumet då du loggar tiden är [!UICONTROL Hour Entry Date] fält på timinmatningen.
+Datumet då du loggar tiden är [!UICONTROL Hour Entry Date] fält på timinmatningen. I vissa timlistor och rapporter visas Timinmatningsdatum som datum.
 
 >[!TIP]
 >
 >The [!UICONTROL Hour Entry Date] skiljer sig från [!UICONTROL Entry Date] på så sätt att det inte är datumet då timloggen skapades, utan det datum som du vill associera timmarna till.
 
-Du kan logga tiden i [!UICONTROL project], [!UICONTROL task], eller [!UICONTROL issue Updates] eller i [!UICONTROL Hours] avsnitt . När du loggar in i [!UICONTROL Hours] kan du ange timanmälningsdatum och användaren som timmarna tillhör manuellt.
+Du kan logga och visa tiden i följande områden i Workfront:
 
-Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* Logga och visa tiden i [!UICONTROL project], [!UICONTROL task], eller [!UICONTROL issue Updates] eller i [!UICONTROL Hours] -avsnitt. När du loggar in i [!UICONTROL Hours] kan du ange timanmälningsdatum och användaren som timmarna tillhör manuellt.
 
->[!TIP]
->
->Vi rekommenderar att du loggar in på arbetsuppgifter och problem i stället för överordnade uppgifter eller projekt. Den tid som är inloggad på arbetsuppgifterna sammanställs med de överordnade uppgifterna och projektet som [!UICONTROL Actual Hours] för de överordnade aktiviteterna och projektet. Tid för inloggningsproblem räknas upp till projektet som [!UICONTROL Actual Hours] för projektet.
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >Vi rekommenderar att du loggar in på arbetsuppgifter och problem i stället för överordnade uppgifter eller projekt. Den tid som är inloggad på arbetsuppgifterna sammanställs med de överordnade uppgifterna och projektet som [!UICONTROL Actual Hours] för de överordnade aktiviteterna och projektet. Tid för inloggningsproblem räknas upp till projektet som [!UICONTROL Actual Hours] för projektet.
 
-Du kan visa [!UICONTROL Hour Entry Dates] i timrapporter och listor.
+* Logga tid i uppdateringsflödet för en uppgift eller ett problem.
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* Visa [!UICONTROL Hour Entry Dates] i timrapporter och listor.
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)

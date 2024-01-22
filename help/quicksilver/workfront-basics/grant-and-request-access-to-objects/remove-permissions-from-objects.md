@@ -6,58 +6,22 @@ description: Du kan ta bort andra användares behörigheter för objekt som du h
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Ta bort behörigheter från objekt
 
-Du kan ta bort andra användares behörigheter för objekt som du har åtkomst till Dela. Att ta bort behörigheter från objekt är identiskt för alla objekt som kan delas. 
+<!--Audited: 01/2024-->
 
-Liknande överväganden som för att dela objekt gäller för borttagning av behörigheter från objekt. Mer information finns i avsnittet [Att tänka på när du delar objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) i artikeln [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+Du kan ta bort andra användares behörigheter för objekt som du har åtkomst till Dela. Att ta bort behörigheter från objekt är identiskt för alla objekt som kan delas.
+
+Liknande överväganden som för att dela objekt gäller för borttagning av behörigheter från objekt. Mer information finns i avsnittet [Att tänka på när du delar objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) i artikeln [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## Åtkomstkrav
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or  
-   <p>Legacy license: Request or higher</p>
-   <p><b>NOTE</b></p>
-
-   <p>Some objects require a higher access than Request. </p>
-   
-   <p>For example, for the current license, a Contributor can share issues, but only Standard-license users can share a project.</p>
-   
-   <p>For the legacy license, a Requestor can share issues, but only Workers or Planners can share a project.</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you want to share</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 Du måste ha följande för att kunna dela objekt:
 
@@ -66,60 +30,77 @@ Du måste ha följande för att kunna dela objekt:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p>
+   <td> <p>Ny licens: Medarbetare eller högre</p>
+   eller  
+   <p>Aktuell licens: Begär eller högre</p>
    <p><b>ANMÄRKNING</b></p>
 
-Vissa objekt kräver högre åtkomst än Request. En begärande kan till exempel dela problem, men bara arbetare eller planerare kan dela ett projekt.
+<p>Vissa objekt kräver högre åtkomst än Request. </p>
 
-</td> 
+<p>För den nya licensen kan till exempel en medarbetare dela problem, men bara standardlicensanvändare kan dela ett projekt.</p>
+
+<p>För den aktuella licensen kan en begärande dela utgåvor, men bara arbetare eller planerare kan dela ett projekt.</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller senare till de objekt som du vill dela</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till de objekt som du vill dela</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter eller högre för de objekt som du vill dela</p> <p>Hantera behörigheter för att ta bort ärvda behörigheter för objekt</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter eller högre för de objekt som du vill dela</p> <p>Hantera behörigheter för att ta bort ärvda behörigheter för objekt</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ta bort enheter från delningslistan för ett objekt {#remove-entities-from-the-sharing-list-of-an-object}
 
-Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från delningslistan för ett objekt. Detta tar bort deras behörigheter till objektet.
+Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från delningslistan för ett objekt. Detta tar bort deras behörigheter till objektet.
 
-1. Gå till objektet som du vill dela.
+1. Gå till objektet som du vill ta bort behörigheter från.
 
    Mer information om vilka objekt som kan delas finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Klicka på **Mer** icon ![](assets/more-icon.png)bredvid objektnamnet och klicka sedan på **Delning** eller **Dela.**
+1. (Villkorligt) Gör följande för program, portföljer och dokument:
 
-   ![](assets/share-a-document-350x160.png)
+   1. Klicka på **Mer** icon ![](assets/more-icon.png)bredvid objektnamnet och klicka sedan på **Delning** eller **Dela.**
 
-1. Klicka på **x** bredvid namnet på en användare, ett team, en grupp, ett företag eller en jobbroll som ska tas bort i rutan för objektåtkomst.
+      ![](assets/share-a-document-350x160.png)
 
-   ![](assets/remove-permissions-on-project-nwe-350x479.png)
+   1. Klicka på **x** bredvid namnet på en användare, ett team, en grupp, ett företag eller en jobbroll som ska tas bort i rutan för objektåtkomst.
 
-1. I `<User Name>`Den här menyn kommer att ta bort Workfront-åtkomst. Välj om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.\
+      ![](assets/remove-permissions-on-portfolio.png)
+
+   1. I **&lt; Användarnamn > har inte längre åtkomst till Workfront** väljer du om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
+
+1. (Villkorligt) Gör följande för projekt, uppgifter och ärenden:
+
+   1. Klicka **Dela** till höger om objektets namn.
+
+      ![](assets/new-share-button.png)
+   1. Hitta den användare, roll, det team, den grupp eller det företag som du vill ta bort från objektet.
+   1. Klicka **Ta bort**.
+I **Ta bort &lt; Användarnamn > från** väljer du om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
+
+      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+
    Följande scenarier finns:
 
-   * Om du bara tar bort entiteten från objektet förlorar entiteten sina behörigheter för objektet och deras ärvda behörigheter till de underordnade objekten. Om de tidigare beviljats behörigheter till de underordnade objekten individuellt behåller de samma behörigheter för alla underordnade objekt som är kopplade till dem när du väljer det här alternativet. 
-   * Om du tar bort entiteten från objektet och alla underordnade objekt förlorar entiteten sina behörigheter till objektet och alla underordnade objekt, även när de tidigare fått individuell behörighet för varje underordnat objekt. 
+   * Om du bara tar bort entiteten från objektet förlorar entiteten sina behörigheter för objektet och deras ärvda behörigheter till de underordnade objekten. Om de tidigare beviljats behörigheter till de underordnade objekten individuellt behåller de samma behörigheter för alla underordnade objekt som är kopplade till dem när du väljer det här alternativet.
+   * Om du tar bort entiteten från objektet och alla underordnade objekt förlorar entiteten sina behörigheter till objektet och alla underordnade objekt, även när de tidigare fått individuell behörighet för varje underordnat objekt.
 
 1. Klicka **Spara**.
 
 ## Ta bort behörigheter från flera objekt samtidigt
 
-Du kan ta bort entiteter (användare, jobbroller, team, grupper, företag) från flera objekt samtidigt när du markerar dem gruppvis i en lista. 
+Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från flera objekt samtidigt när du markerar dem i en lista.
 
 >[!NOTE]
 >

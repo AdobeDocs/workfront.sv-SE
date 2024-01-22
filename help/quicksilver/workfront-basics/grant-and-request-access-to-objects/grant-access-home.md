@@ -6,9 +6,9 @@ description: Användare kan begära åtkomst till objekt i Adobe Workfront. Mer 
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Bevilja åtkomst till objekt i Hem-området
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
 
    >[!NOTE]
    >
@@ -93,25 +93,41 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
 
+1. (Villkorligt) Gör följande i den äldre Hem-delen:
 
-1. I **Arbetslista** markerar du den åtkomstbegäran som du vill hantera.\
+   1. I **Arbetslista** väljer du den åtkomstbegäran som du vill hantera i **Godkännanden** -avsnitt.
+
    ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
-1. Klicka på knappen Ge åtkomst i det övre högra hörnet.\
-   Beroende på vilken typ av åtkomst som begärts ändras knappens namn. Om den som gjorde begäran till exempel frågar efter åtkomst till vyn, visas det på knappen **Bevilja åtkomst till vy**.\
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+   Begäran visas till höger om arbetslistan.
 
-1. (Valfritt) Om du vill ge en annan åtkomstnivå än den som begärts klickar du på pilen bredvid knappen Ge åtkomst och väljer den nya åtkomsten.\
-   Ett meddelande visas som bekräftar att åtkomst har beviljats.\
-   ELLER\
-   Klicka **Ignorera** för att neka åtkomst.\
-   Ett meddelande visas som bekräftar att åtkomst ignorerades.
+   1. Klicka på knappen Ge åtkomst i det övre högra hörnet.\
+      Beroende på vilken typ av åtkomst som begärts ändras knappens namn. Om den som gjorde begäran till exempel frågar efter åtkomst till vyn, visas det på knappen **Bevilja åtkomst till vy**.\
+      ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+
+   1. (Valfritt) Om du vill ge en annan åtkomstnivå än den som begärts klickar du på pilen bredvid knappen Ge åtkomst och väljer den nya åtkomsten. Klicka sedan på **Bevilja &lt; Behörighetsnivå > Åtkomst >**.\
+      Ett meddelande visas som bekräftar att åtkomst har beviljats.
+
+   1. (Valfritt) Klicka på **Ignorera** för att neka åtkomst.\
+      Ett meddelande visas som bekräftar att åtkomst ignorerades.
+
+1. (Villkorligt) Gör följande från den nya startdelen:
+
+   1. Gå till **Väntar på mitt godkännande** och leta reda på begäran om mer åtkomst och klicka sedan på **Ge åtkomst**.
+
+      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+
+   1. (Valfritt) Om du vill ge en annan åtkomstnivå än den som begärts klickar du på listrutan till vänster om knappen Ge åtkomst och väljer den nya åtkomsten. Klicka sedan på **Ge åtkomst**.
+
+      Åtkomstbegäran beviljas och tas bort från listan över godkännandebegäranden.
+
+   1. (Valfritt) Klicka på **Ignorera** för att neka åtkomst. Åtkomstbegäran beviljas inte och begäran tas bort från listan över godkännandebegäranden.
 
 ## Konfigurera e-postmeddelanden för begäranden
 
 Du kan konfigurera om du ska få e-postmeddelanden för åtkomstbegäranden. Din Workfront-administratör kan inaktivera den här funktionen (enligt beskrivningen i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Inställningar** eller bläddra till avsnittet Inställningar.
 1. I **Skicka e-post när** nedrullningsbar lista, markera eller avmarkera **Någon begär åtkomst från mig**, beroende på om du vill få e-postmeddelanden när en annan användare begär åtkomst från dig eller inte.

@@ -6,9 +6,9 @@ description: Din synlighet för objekt i Adobe Workfront beror på din åtkomst 
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1429'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Förstå standarddelningsregler
+## Förstå reglerna för standarddelning
 
-Följande standarddelningsregler träder i kraft automatiskt när de ställs in som standardalternativ i ditt Workfront-system. 
+Följande standarddelningsregler träder i kraft automatiskt när de ställs in som standardalternativ i ditt Workfront-system.
 
-* Användare som tilldelats en uppgift eller ett problem har Contribute-åtkomst. 
+* Användare som tilldelats en uppgift eller ett problem har Contribute-åtkomst.
 * Projekt-, Portfolio- och programhanterare har behörigheten Hantera för de objekt de äger.
 * Användare som ingår i en konversation har åtkomst till Visa på objektet där konversationen sker.
 * Användare som tilldelats som godkännare har åtkomst till Visa på det objekt som väntar på godkännande.
-* När du delar en kontrollpanel delas även alla rapporter på kontrollpanelen med samma åtkomst till samma användare. 
+* När du delar en kontrollpanel delas även alla rapporter på kontrollpanelen med samma åtkomst till samma användare.
 * Objektägare kan inte utöka åtkomsten till ett objekt utanför sin åtkomst till det objektet enligt administratörens definition.
 
 ## Begär åtkomst
@@ -102,26 +102,26 @@ Du kan begära inledande åtkomst till objekt som du för närvarande inte har �
 * [Begär initial åtkomst](#request-initial-access)
 * [Begär ytterligare åtkomst](#request-additional-access)
 
-### Begär initial åtkomst  {#request-initial-access}
+### Begär initial åtkomst  {#request-initial-access}
 
-Om du inte redan har åtkomst till ett objekt och navigerar till det objektet från en länk, visas en skärm som talar om att du inte har tillgång till informationen.  
+Om du inte redan har åtkomst till ett objekt och navigerar till det objektet från en länk, visas en skärm som talar om att du inte har tillgång till informationen.
 
 Så här begär du inledande åtkomst till ett objekt:
 
 1. Klicka **Begär åtkomst**.\
    The **Begär åtkomst** visas.
 
-1. (Villkorligt) Om fler än en användare har behörighet att ge dig ytterligare åtkomst visas en nedrullningspil bredvid användarens namn. 
+1. (Villkorligt) Om fler än en användare har behörighet att ge dig ytterligare åtkomst visas en nedrullningspil bredvid användarens namn.
 1. Välj den användare i listrutan som du vill ska få din åtkomstbegäran.\
-   Endast 10 användare visas i listrutan. Listan sorteras i bokstavsordning.\
-   Mer information om ordningen för användarna i den här listrutan finns i  [Hierarki för de nedrullningsbara menyerna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Endast tio användare visas i listrutan. Listan sorteras i bokstavsordning.\
+   Mer information om ordningen för användarna i den här listrutan finns i  [Hierarki för de nedrullningsbara menyerna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Välj den typ av åtkomst du begär i listrutan.
-1. (Valfritt) I dialogrutan **P.S.** anger du en anteckning till användaren om varför du behöver ytterligare åtkomst.
+1. (Valfritt) I dialogrutan **PS** anger du en anteckning till användaren om varför du behöver ytterligare åtkomst.
 
    ![](assets/request-access-dialog-350x314.png)
 
-Om du inte har åtkomstnivåbehörighet för ett objekt och du försöker få åtkomst till det från en länk, visas en skärm som talar om för dig att du ska kontakta Workfront-administratören. 
+Om du inte har åtkomstnivåbehörighet för ett objekt och du försöker få åtkomst till det från en länk, visas en skärm som talar om för dig att du ska kontakta Workfront-administratören.
 
 Om du t.ex. inte har portföljåtkomst, men fått en länk till en portfölj, visas följande meddelande:\
 ![](assets/permission-request-initial2-350x96.png)
@@ -132,16 +132,17 @@ Så här begär du ytterligare åtkomst till ett objekt som du redan har begrän
 
 1. Gå till objektet som du vill begära ytterligare åtkomst för.
 
-1. Klicka på **Mer** inline with the project name, then click **Begär mer åtkomst**.\
+1. Klicka på **Mer** till höger om projektnamnet och klicka sedan på **Begär mer åtkomst**.
+
    ![](assets/request-access-in-project-350x201.png)
 
 1. (Villkorligt) Om fler än en användare har behörighet att ge dig ytterligare åtkomst visas en nedrullningspil bredvid användarens namn.
 1. Välj den användare i listrutan som du vill ska få din åtkomstbegäran.\
-   Endast 10 användare visas i listrutan. Listan sorteras i bokstavsordning.\
-   Mer information om ordningen för användarna i den här listrutan finns i  [Hierarki för de nedrullningsbara menyerna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Endast tio användare visas i listrutan. Listan sorteras i bokstavsordning.\
+   Mer information om ordningen för användarna i den här listrutan finns i  [Hierarki för de nedrullningsbara menyerna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Välj den åtkomstnivå du begär i listrutan.
-1. (Valfritt) I dialogrutan **P.S.** anger du en anteckning om varför du behöver ytterligare åtkomst.
+1. (Valfritt) I dialogrutan **PS** anger du en anteckning om varför du behöver ytterligare åtkomst.
 1. Klicka **Begär åtkomst**.\
    ![](assets/request-access-dialog-350x314.png)
 
@@ -154,15 +155,15 @@ Så här begär du ytterligare åtkomst till ett objekt som du redan har begrän
 
 När du fyller i listorna Begär åtkomst eller Begär mer åtkomst på objekt, väljer Workfront en lista med upp till tio användare som uppfyller olika roller vid delning av objektet enligt beskrivningen nedan. Dessa användare kan ge åtkomst till objektet till den användare som begär det.\
 Resultatlistan sorteras sedan efter namn i stigande alfabetisk ordning.\
-Workfront visar upp till 10 användare i listorna Begär åtkomst och Begär mer åtkomst. 
+Workfront visar upp till 10 användare i listorna Begär åtkomst och Begär mer åtkomst.
 
-Användarnas ordning i listrutorna Begär åtkomst eller Begär mer åtkomst bestäms av följande regler: 
+Användarnas ordning i listrutorna Begär åtkomst eller Begär mer åtkomst bestäms av följande regler:
 
-* Den första användaren i listan är objektet &quot;owner&quot;, vilket beskrivs i [Förstå objektets ägare](#understand-the-owner-of-an-object). 
+* Den första användaren i listan är objektet &quot;owner&quot;, vilket beskrivs i [Förstå objektets ägare](#understand-the-owner-of-an-object).
 * Därefter fylls listan i med användare som objektet delas individuellt med. De visas i alfabetisk ordning.
 * Listan fylls sedan i ytterligare med användare som får den åtkomst de behöver genom att dela med sina team, grupper eller företag. De visas i alfabetisk ordning.
-* Om listan är tom läggs Workfront-administratörerna till så att det alltid finns någon att begära åtkomst från. De visas i alfabetisk ordning. 
-* Var och en av användarna i listan måste ha den begärda åtkomsten till objektet och åtkomsten för att kunna dela objektet. 
+* Om listan är tom läggs Workfront-administratörerna till så att det alltid finns någon att begära åtkomst från. De visas i alfabetisk ordning.
+* Var och en av användarna i listan måste ha den begärda åtkomsten till objektet och åtkomsten för att kunna dela objektet.
 
 ### Förstå objektets ägare {#understand-the-owner-of-an-object}
 
@@ -180,11 +181,11 @@ Användarnas ordning i listrutorna Begär åtkomst eller Begär mer åtkomst bes
  <tbody> 
   <tr> 
    <td>Projekt</td> 
-   <td>Ägaren är projektägaren eller, om den saknas eller inte har nödvändig åtkomst, ägaren till den överordnade portföljen. <p>De är kanske inte samma person som den som skapat projektet. </p></td> 
+   <td>Ägaren är projektägaren eller, om den saknas eller inte har nödvändig åtkomst, ägaren till den överordnade portföljen. <p>De är kanske inte samma person som den som skapat projektet. </p></td> 
   </tr> 
   <tr> 
    <td>Uppgifter</td> 
-   <td>Ägaren är den primära uppdragstagaren eller, om den saknas eller inte har nödvändig åtkomst, ägaren av det projekt där aktiviteten finns, enligt definitionen ovan. <p>De är kanske inte samma person som den som har skapat uppgiften. </p></td> 
+   <td>Ägaren är den primära uppdragstagaren eller, om den saknas eller inte har nödvändig åtkomst, ägaren av det projekt där aktiviteten finns, enligt definitionen ovan. <p>De är kanske inte samma person som den som har skapat uppgiften. </p></td> 
   </tr> 
   <tr> 
    <td>Problem</td> 
@@ -200,11 +201,11 @@ Användarnas ordning i listrutorna Begär åtkomst eller Begär mer åtkomst bes
   </tr> 
   <tr> 
    <td>Rapporter och kontrollpaneler</td> 
-   <td>Ägaren är skaparen, rapporten eller kontrollpanelen. </td> 
+   <td>Ägaren är skaparen, rapporten eller kontrollpanelen. </td> 
   </tr> 
   <tr> 
    <td>Kalendrar</td> 
-   <td>Ägaren är den som har skapat kalendern. Alla användare har som standard en kalender tilldelad dem. De betraktas som ägare av den kalendern. </td> 
+   <td>Ägaren är den som har skapat kalendern. Alla användare har som standard en kalender tilldelad dem. De betraktas som ägare av den kalendern. </td> 
   </tr> 
   <tr> 
    <td>Filter, vyer och grupperingar</td> 
@@ -221,4 +222,4 @@ Användarnas ordning i listrutorna Begär åtkomst eller Begär mer åtkomst bes
  </tbody> 
 </table>
 
- 
+

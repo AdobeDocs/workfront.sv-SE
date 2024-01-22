@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs layouten för tidrapporter i Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -121,9 +121,9 @@ Du kan logga flera timposter för samma arbetsuppgift för olika timtyper. Mer i
 
 ![Uppdateringsområdet i den vänstra tidrapportpanelen](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-Du kan kommentera i en tidrapport för att kommunicera med tidrapportgodkännare eller andra användare i uppdateringsavsnittet i den vänstra panelen.
+Du kan kommentera i en tidrapport för att kommunicera med tidrapportgodkännare eller andra användare i uppdateringsavsnittet på den vänstra panelen i tidrapporten.
 
-Eventuella kommentarer som gjorts i tidrapporten visas i det här området, längst ned i tidrapporten. Det här området visas under tidrapporten och ovanför tidrapporternas sidfot. Mer information finns i [Visa och hantera kommentarer på en tidrapport](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Eventuella kommentarer som gjorts i tidrapporten visas i det här området.
 
 ## Panelen Sammanfattning
 
