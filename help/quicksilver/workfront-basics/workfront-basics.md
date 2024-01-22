@@ -3,13 +3,13 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Grundläggande om Adobe Workfront
 description: Granska dessa områden för att få en förståelse för grunderna i Adobe Workfront.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 152159a27bf7253d292133d3406096d8f7049922
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 16%
 
 ---
@@ -25,7 +25,7 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Startsida](../workfront-basics/using-home/home.md)
 * [Uppdatera arbetsuppgifter och visa uppdateringar](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Arbeta med anpassade formulär](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
-* [Använd meddelanden](../workfront-basics/using-notifications/use-notifications.md)
+* [Använd meddelanden: artikelindex](../workfront-basics/using-notifications/use-notifications.md)
 * [Bevilja och begär behörigheter för objekt](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [Hantera konto och profil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [Mobilappar](../workfront-basics/mobile-apps/mobile-apps.md)

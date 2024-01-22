@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '13860'
+source-wordcount: '13862'
 ht-degree: 0%
 
 ---
@@ -882,7 +882,7 @@ ht-degree: 0%
       * [Exportera anpassade formulär och objektinformation](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
       * [Hantera anpassade formulär som är kopplade till objekt](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Använd meddelanden {#use-notifications}
-      * [Använd meddelanden](workfront-basics/using-notifications/use-notifications.md)
+      * [Använd meddelanden: artikelindex](workfront-basics/using-notifications/use-notifications.md)
       * [Översikt över meddelanden](workfront-basics/using-notifications/wf-notifications.md)
       * [Ändra dina egna e-postmeddelanden](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Prenumerera på objekt i Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)

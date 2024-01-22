@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Använd meddelanden
+title: "Använd meddelanden: artikelindex"
 description: Läs de här artiklarna för att lära dig hur du använder meddelanden i Adobe Workfront.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-# Använd meddelanden
+# Använd meddelanden: artikelindex
+
+[!DNL Adobe Workfront] skickar e-postmeddelanden, meddelanden i appen och mobilmeddelanden som varnar dig om aktiviteter i [!DNL Workfront].
+
+<!-- Audited: 01/2024 -->
 
 Det här avsnittet innehåller följande artiklar:
 
