@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs de inställningar som är tillgänglig
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -45,20 +45,20 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Öppna scenarioinställningarna
 
 1. Öppna scenarioredigeraren enligt anvisningarna i [Scenarioredigeraren i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md).
-1. Klicka på kugghjulsikonen i sidans nedre vänstra hörn.
+1. Klicka på kugghjulsikonen i det nedre vänstra hörnet på sidan.
 
    ![](assets/scenario-settings-350x221.png)
 
@@ -70,13 +70,19 @@ Det här alternativet avgör hur [!DNL Adobe Workfront Fusion] fortsätter om et
 
 ## [!UICONTROL Sequential processing]
 
-Det här alternativet avgör hur [!DNL Workfront Fusion] fortsätter om ett fel inträffar och körningen av ett scenario flyttas till [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Om [!UICONTROL Sequential processing] om det här alternativet är aktiverat slutar Workfront Fusion att bearbeta aktivitetssekvensen helt tills alla ofullständiga körningar är åtgärdade. Om [!UICONTROL Sequential processing] alternativet är inaktiverat fortsätter scenariot att köras enligt schemat, följt av upprepade försök att köra de ofullständiga körningarna igen.
+Det här alternativet avgör hur [!DNL Workfront Fusion] fortsätter om ett fel inträffar och körningen av ett scenario flyttas till [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Om [!UICONTROL Sequential processing] om det här alternativet är aktiverat slutar Workfront Fusion att bearbeta aktivitetssekvensen helt tills alla ofullständiga körningar är åtgärdade. Om [!UICONTROL Sequential processing] om alternativet är inaktiverat fortsätter scenariot att köras enligt schemat, följt av upprepade försök att köra de ofullständiga körningarna igen.
+
+>[!NOTE]
+>
+>Sekventiell bearbetning kan orsaka en fördröjning i körningen av ett scenario. Om det fortfarande finns ofullständiga körningar i kön när en utlösare för ett instansscenario eller ett schemalagt scenario är inställt på att köras, kommer det scenariot att köras när alla körningar är slutförda innan det är klart.
+>
+>Om användningsfallet för dina scenarier inte kräver sekventiell bearbetning rekommenderar vi att du inaktiverar alternativet för sekventiell bearbetning.
 
 Mer information om schemaläggning finns i [Schemalägg ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
 ## Data är konfidentiella
 
-När ett scenario har körts kan du som standard visa information om vilka data som har bearbetats av moduler i scenariot. Om du inte vill att den här informationen ska lagras aktiverar du [!UICONTROL Data is confidential] alternativ.
+När ett scenario har körts kan du som standard visa information om vilka data som har bearbetats av moduler i scenariot. Om du inte vill att informationen ska lagras aktiverar du [!UICONTROL Data is confidential] alternativ.
 
 Mer information om hur du visar information finns i [Scenariokörningsflöde i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -86,7 +92,7 @@ Mer information om hur du visar information finns i [Scenariokörningsflöde i [
 
 ## Aktivera dataförlust
 
-Det här alternativet har att göra med aktivering av dataförlust om [!DNL Workfront Fusion] inte kan spara ett paket i kön till [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) (t.ex. på grund av brist på ledigt utrymme). När det här alternativet är aktiverat går data förlorade för att förhindra avbrott i den övergripande scenariokörningen. Detta är användbart för scenarier där högsta prioritet är kontinuerlig körning och inkommande felaktiga data inte är så viktiga.
+Det här alternativet har att göra med aktivering av dataförlust om [!DNL Workfront Fusion] inte kan spara ett paket i kön till [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) (till exempel på grund av brist på ledigt utrymme). När det här alternativet är aktiverat går data förlorade för att förhindra avbrott i den övergripande scenariokörningen. Detta är användbart för scenarier där högsta prioritet är kontinuerlig körning och inkommande felaktiga data inte är så viktiga.
 
 När ett scenario körs kan en modul ibland stöta på en fil som är större än den tillåtna maxstorleken. I detta fall [!DNL Workfront Fusion] intäkter i enlighet med inställningen av [!UICONTROL Enable data loss] och ett varningsmeddelande visas.
 
@@ -136,7 +142,7 @@ Det kan vara praktiskt att ange fler cykler när du vill förhindra avbrott i an
 >
 >The [!UICONTROL Maximum number of returned files] i [!UICONTROL Dropbox] >[!UICONTROL Watch files] modulen är inställd på `10`.
 >
->Om 100 filer läggs till i mappen Dropbox och [!UICONTROL Maximum number of returned files] är inställt på 10, sedan bearbetas 10 filer under den första cykeln, de nästa 10 filerna i den andra cykeln, de nästa 10 filerna i den tredje cykeln och så vidare, tills alla filer har bearbetats.
+>Om 100 filer läggs till i Dropbox-mappen och [!UICONTROL Maximum number of returned files] är inställt på 10, sedan bearbetas 10 filer under den första cykeln, de nästa 10 filerna i den andra cykeln, de nästa 10 filerna i den tredje cykeln och så vidare, tills alla filer har bearbetats.
 >
 >Alla filer bearbetas inom 1 scenariokörning.
 >
