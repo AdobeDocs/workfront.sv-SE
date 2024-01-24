@@ -6,20 +6,27 @@ description: Du kan använda smarta tilldelningar för att identifiera vem som �
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Gör smarta uppdrag
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder.</span>
 
 <span class="preview">Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-Du kan använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet. Smarta tilldelningar är förslag för användare som Adobe Workfront ger dig när du tilldelar resurser arbetsobjekt baserat på en algoritm som avgör vilken resurs som passar bäst för jobbet. Mer information om smarta tilldelningar finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Du kan använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet.
+
+Smarta tilldelningar är förslag för användare som Adobe Workfront ger dig när du tilldelar resurser arbetsobjekt baserat på en algoritm som avgör vilken resurs som passar bäst för jobbet.
+
+<span class="preview">Det finns två olika algoritmer i Workfront för uppgifter och problem. </span>
+Mer information om smarta tilldelningar finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Åtkomstkrav
 
@@ -76,9 +83,16 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   De användare som visas i den här listan är förslag på smarta uppdrag för uppgiften eller problemet.
+   Förslag på smarta uppdrag visas i **Föreslagna tilldelningar** område.
 
-   Mer information om var de smarta tilldelningarna visas finns i avsnittet Hitta förslag på smarta tilldelningar i artikeln [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   För uppgifter visas de smarta tilldelningarna i följande avsnitt, beroende på vilken fas av algoritmens beräkning som identifierar tilldelningarna:
+
+   * **Föreslagna tilldelningar**: Tilldelningar som identifieras i den första fasen i den smarta uppgiftens algoritmberäkning.
+   * <span class="preview">**Resultat**: Tilldelningar som identifieras i den andra fasen av den smarta uppgiftens algoritmberäkning. Det här avsnittet är inte tillgängligt för problem. </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. Markera användaren i listan med rekommendationer genom att klicka på namnet på användaren.
 

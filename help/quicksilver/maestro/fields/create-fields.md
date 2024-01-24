@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
 source-wordcount: '3390'
 ht-degree: 0%
@@ -385,7 +385,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/maestro/
 
    >[!NOTE]
    >
-   >    Du kan inte lägga till fält från länkade poster i en formel. Den här funktionen kommer att släppas vid ett senare datum. Mer information om nya versioner finns i [Adobe Maestro-friskrivningsverksamhet](/help/quicksilver/maestro/release-activity.md).
+   >    Du kan inte lägga till fält från länkade poster i en formel. Den här funktionen kommer att släppas vid ett senare datum. Mer information om nya versioner finns i [Adobe Maestro-lansering](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klicka **Skapa**.

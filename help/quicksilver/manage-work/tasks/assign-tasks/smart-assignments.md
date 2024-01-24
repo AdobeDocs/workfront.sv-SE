@@ -7,9 +7,9 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* En uppgift eller en utgåva i uppdragsfältet
+* <span class="preview">En uppgiftsrubrik i uppdragsfältet</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* En ärenderubrik i uppdragsfältet
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * Åtgärdens eller ärendets sammanfattningspanel i uppdragsområdet
 
@@ -70,14 +74,17 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
 ## Kriterier för smarta tilldelningar
 
-
 <div class="preview">
 
 Smarta uppdrag fungerar annorlunda för uppgifter än för ärenden.
 
 ### Kriterier för smarta tilldelningar för uppgifter
 
-Beräkningen av smarta tilldelningar för aktiviteten fungerar i två faser.
+Beräkningen av smarta tilldelningar för aktiviteten fungerar i två faser som använder två olika algoritmer.
+
+Beroende på vilken algoritm som hittar den smarta tilldelningen visas tilldelningarna under två separata avsnitt i fältet Uppdrag. Mer information finns i [Gör smarta uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+
+![](assets/smart-assignments-task-list.png)
 
 #### Första fasen i beräkningen av smart tilldelning för uppgifter
 
@@ -111,6 +118,8 @@ Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas 
 
   Om Rick till exempel tilldelades en liknande uppgift tidigare i dag och Jennifer tilldelades en liknande uppgift för två dagar sedan visas Rick först.
 
+* Uppdrag som identifieras i den här fasen listas i **Föreslagna tilldelningar** i uppdragsfältet.
+
 * Om det inte finns några matchningar som använder den här beräkningen startar den andra fasen av smarta tilldelningar, som beräknas med en annan algoritm.
 
 #### Andra fasen av beräkning av smart tilldelning för uppgifter
@@ -119,6 +128,8 @@ Om det första steget i smarta uppdrag inte hittar några träffar, beräknar Wo
 
 Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter och ärenden](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
 
+Uppdrag som identifieras i den här fasen listas i **Resultat** i uppdragsfältet. <!--update this to "Other assignments"-->
+
 ### Kriterier för smarta uppdrag för uppgifter och ärenden
 
 </div>
@@ -126,6 +137,8 @@ Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter 
 >[!NOTE]
 >
 ><span class="preview">Följande villkor gäller endast för uppgifter när den första fasen i beräkningen av den smarta tilldelningen inte hittade några matchningar. Mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för uppgifter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard. </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 Användare rekommenderas i listrutan Smarta tilldelningar baserat på en kombination av följande kriterier (listas i ordning från viktigaste till minst viktiga):
 
