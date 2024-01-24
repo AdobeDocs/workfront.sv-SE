@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '13862'
+source-wordcount: '13867'
 ht-degree: 0%
 
 ---
@@ -2057,6 +2057,7 @@ ht-degree: 0%
       * [IP-adresser för åtkomst till Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion-licenser](workfront-fusion/get-started/license-automation-vs-integration.md)
       * [Åtgärder i [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
+      * [Adobe Workfront Fusion - videoöversikt](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
    * Grundläggande om Adobe Workfront Fusion {#workfront-fusion-basics}
       * [Grundläggande om Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
       * [Ändra profilinställningar i Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)

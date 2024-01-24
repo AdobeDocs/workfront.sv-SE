@@ -8,9 +8,9 @@ description: An [!DNL Adobe Workfront Fusion] datalager, som liknar en databas e
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ An [!DNL Adobe Workfront Fusion] datalager, som liknar en databas eller en enkel
 Med datalagermodulerna kan du lägga till, ersätta, uppdatera, hämta, ta bort, söka efter eller räkna poster i [!DNL Adobe Workfront Fusion] datalager.
 
 Mer information om hur du skapar, redigerar och felsöker datalager finns i [Datalager i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+
+En videointroduktion till datalager i Workfront Fusion finns på:
+
+* [Datalager](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Åtkomstkrav
 
@@ -52,13 +56,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -97,7 +101,7 @@ Modulen returnerar postens ID och eventuella associerade fält, tillsammans med 
 
 >[!NOTE]
 >
->Modulen genererar ett fel när du försöker lägga till den post som redan finns i datalagret under samma namn och [!UICONTROL Overwrite an existing record] är inaktiverat.
+>Modulen genererar ett fel när du försöker lägga till den post som redan finns i datalagret under samma namn och [!UICONTROL Overwrite an existing record] alternativet är inaktiverat.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -111,7 +115,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
-   <td> <p>Ange den unika nyckeln för den post som du vill att modulen ska lägga till eller ersätta. Nyckeln kan användas senare för att hämta posten. Om du lämnar fältet tomt genereras en nyckel automatiskt.</p> </td> 
+   <td> <p>Ange den unika nyckeln för den post som du vill att modulen ska lägga till eller ersätta. Nyckeln kan användas senare för att hämta posten. Om du lämnar det här fältet tomt genereras en nyckel automatiskt.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Overwrite an existing record] </td> 
@@ -159,7 +163,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 ### [!UICONTROL Get a Record]
 
-Den här åtgärdsmodulen hämtar en post.
+Denna åtgärdsmodul hämtar en post.
 
 Du anger datalagret och postens nyckel.
 

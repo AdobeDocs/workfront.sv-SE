@@ -9,9 +9,9 @@ description: The [!DNL Adobe Workfront Fusion Frame].io modules enable you to mo
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Frame.io] moduler
 
 The [!DNL Adobe Workfront Fusion] [!DNL Frame.io] kan du övervaka, skapa, uppdatera, hämta eller ta bort resurser och kommentarer i [!DNL Frame.io] konto.
+
+En videointroduktion till Frame.io-anslutningen finns i:
+
+* [Ram.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Åtkomstkrav
 
@@ -49,13 +53,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -138,7 +142,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 ![](assets/map-toggle-350x74.png)
 
 * [Resurser](#assets)
-* [Kommentarer](#comments)
+* [Kommentar](#comments)
 * [Projekt](#projects)
 * [Övriga](#other)
 
@@ -338,7 +342,7 @@ Med den här åtgärdsmodulen kan du uppdatera en befintlig resurs namn, beskriv
 
 #### [!UICONTROL Watch Asset Deleted]
 
-Den här utlösarmodulen startar ett scenario när en resurs tas bort.
+Denna utlösarmodul startar ett scenario när en resurs tas bort.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -405,7 +409,7 @@ Den här utlösarmodulen startar ett scenario när en ny resurs skapas.
  </tbody> 
 </table>
 
-### Kommentarer
+### Kommentar
 
 * [[!UICONTROL Create a Comment]](#create-a-comment)
 * [[!UICONTROL Delete a Comment]](#delete-a-comment)
@@ -499,7 +503,7 @@ Den här åtgärdsmodulen tar bort en befintlig kommentar.
 
 #### [!UICONTROL Get a Comment]
 
-Den här åtgärdsmodulen hämtar information om den angivna kommentaren.
+Denna åtgärdsmodul hämtar information om den angivna kommentaren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -534,7 +538,7 @@ Den här åtgärdsmodulen hämtar information om den angivna kommentaren.
 
 #### [!UICONTROL List Comments]
 
-Den här sökmodulen hämtar alla kommentarer för den angivna resursen.
+Sökmodulen hämtar alla kommentarer för den angivna resursen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -643,7 +647,7 @@ Den här utlösarmodulen startar ett scenario när en ny kommentar eller ett nyt
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name] </td> 
-   <td> <p>Ange namnet på webkroken, t.ex. Ny kommentar.</p> </td> 
+   <td> <p>Ange webbkrokens namn, t.ex. Ny kommentar.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
@@ -660,7 +664,7 @@ Den här utlösarmodulen startar ett scenario när en ny kommentar eller ett nyt
 
 #### [!UICONTROL List Projects]
 
-Den här sökmodulen hämtar alla projekt för det angivna teamet.
+Denna sökmodul hämtar alla projekt för det angivna teamet.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -697,7 +701,7 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Ange en sökväg som är relativ till <code>https://api.frame.io</code>. Exempel: <code> /v2/teams</code></p> <p>Obs! En lista över tillgängliga slutpunkter finns i [!DNL Frame.io] API-referens.</p> </td> 
+   <td> <p>Ange en sökväg i förhållande till <code>https://api.frame.io</code>. Exempel: <code> /v2/teams</code></p> <p>Obs! En lista över tillgängliga slutpunkter finns i [!DNL Frame.io] API-referens.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 

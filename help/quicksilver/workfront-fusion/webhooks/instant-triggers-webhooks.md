@@ -7,9 +7,9 @@ description: Många tjänster tillhandahåller webbhookar för att leverera snab
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ Många tjänster tillhandahåller webbhookar för att leverera snabbmeddelanden 
 ![](assets/instant-350x256.png)
 
 Om tjänsten inte tillhandahåller webhooks måste du använda avsökningsutlösare för att regelbundet avsöka tjänsten.
+
+En videointroduktion till webbhooks i Workfront Fusion finns på:
+
+* [Introduktion till webbhooks](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Mellanliggande webhooks](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
 ## Åtkomstkrav
 
@@ -51,13 +56,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -67,7 +72,7 @@ Alla meddelanden från inkommande webbhooks lagras i webbkrokens kö.
 
 1. Klicka **[!UICONTROL Webhooks]** i menyn till vänster.
 1. Hitta den webkrok som du vill visa kön för.
-1. Klicka på knappen med en lastbilsikon och antal mottagna webbhooks.
+1. Klicka på knappen med en lastbilsikon och antal mottagna webbböcker.
 
    ![](assets/webhooks-truck-icon.png)
 
@@ -99,7 +104,7 @@ I så fall körs ditt scenario omedelbart när [!DNL Workfront Fusion] tar emot 
 Om du använder någon annan schemainställning än [!UICONTROL Immediately]körs scenariot med de intervall du anger. Eftersom det går att samla in flera webbböcker i kön under intervallet bör du ange [[!UICONTROL Maximum number of cycles]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) till ett högre värde än standard 1 för att bearbeta fler webbhooks i en enda scenario:
 
 1. Klicka på [!UICONTROL Scenario settings] icon ![](assets/gear-icon-settings.png) längst ned i ditt scenario.
-1. I **[!UICONTROL Scenario settings]** anger du en siffra i rutan som visas **[!UICONTROL Max number of cycles]** om du vill ange antalet webbböcker från kön som du vill köra varje gång du kör scenariot.
+1. I **[!UICONTROL Scenario settings]** anger du en siffra i rutan **[!UICONTROL Max number of cycles]** om du vill ange antalet webbböcker från kön som du vill köra varje gång du kör scenariot.
 
 ## Kursgränser
 
@@ -115,7 +120,7 @@ En webkrok som inte har tilldelats något scenario på mer än 120 timmar tas bo
 
 ## Felhantering
 
-När ett fel inträffar i ditt scenario med en direktutlösare:
+När det finns ett fel i ditt scenario med en direktutlösare:
 
 * Stoppar omedelbart - när scenariot är inställt på att köras [!UICONTROL Immediately].
 * Stoppar efter 3 misslyckade försök (3 fel) - när scenariot är inställt på att köras enligt schema.

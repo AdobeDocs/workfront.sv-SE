@@ -8,9 +8,9 @@ description: Ett datalager, som liknar en databas eller en enkel tabell, kan lag
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ Med datalagringsmodulerna kan du utföra följande åtgärder för poster i dina
 * Antal
 
 Mer information om hur du använder datalagermoduler finns i [[!UICONTROL Data store] moduler](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+
+En videointroduktion till datalager i Workfront Fusion finns på:
+
+* [Datalager](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Åtkomstkrav
 
@@ -60,13 +64,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -118,7 +122,7 @@ Innan du kan använda ett datalager i en modul måste du skapa datalagret i [!DN
 
 ### Ställ in datastrukturen
 
-1. När du skapar eller redigerar ett datalager klickar du på **[!UICONTROL Add]**.
+1. När du skapar eller redigerar ett datalager klickar du **[!UICONTROL Add]**.
 1. I **[!UICONTROL Add data structure]** konfigurera följande fält som visas:
 
    <table style="table-layout:auto">

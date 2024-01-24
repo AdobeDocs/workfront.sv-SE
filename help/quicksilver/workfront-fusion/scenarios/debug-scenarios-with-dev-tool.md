@@ -7,9 +7,9 @@ description: Med Adobe Workfront Fusion Devtool kan du förstå och felsöka sce
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,10 @@ ht-degree: 0%
 
 The [!DNL Adobe Workfront Fusion] Med Devtool kan du förstå och felsöka scenarier. Utvecklingsverktyget lägger till en extra panel i [!DNL Chrome Developer Tools]. Med den här felsökningspanelen kan du kontrollera alla manuella körningar av ditt scenario, granska alla utförda åtgärder och se information om alla API-anrop som utförs. Du kan se vilken modul, åtgärd eller enskilt svar som orsakade felet och använda den kunskapen för att förfina ditt scenario.
 
-En ingående videogenomgång av verktyget Fusion Devtool finns på [Utvecklargenomgång](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
+En videointroduktion och genomgång av verktyget Fusion Devtool finns på
+
+* [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
+* [Utvecklargenomgång](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## Åtkomstkrav
 

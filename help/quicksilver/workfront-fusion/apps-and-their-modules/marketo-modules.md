@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: Marketo-moduler
+title: Marketo moduler
 description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Marketo], samt ansluta till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Marketo] moduler
 
 I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Marketo], samt ansluta till flera tredjepartsprogram och -tjänster.
+
+En videointroduktion till Marketo Connector finns på:
+
+* [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -53,13 +57,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -72,7 +76,7 @@ Används [!DNL Marketo] moduler, du måste ha en [!DNL Marketo] konto.
 Du kan skapa en anslutning till [!DNL Marketo] direkt inifrån [!DNL Marketo] -modul.
 
 1. I alla [!DNL Marketo] modul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] fält.
-1. Ange [!DNL Marketo] konto eller [!DNL Marketo] [!UICONTROL Munchkin] ID. Detta är den unika delen av bas-URL:en eller slutpunkten som tilldelats ditt konto och som du använder för att komma åt [!DNL Marketo] via [!UICONTROL REST] API. Instruktioner om hur du hittar detta finns i [Bas-URL](https://developers.marketo.com/rest-api/base-url/) i [!DNL Marketo] dokumentation.
+1. Ange [!DNL Marketo] konto eller [!DNL Marketo] [!UICONTROL Munchkin] ID. Det här är den unika delen av bas-URL:en eller slutpunkten som tilldelats ditt konto och som du använder för att komma åt [!DNL Marketo] via [!UICONTROL REST] API. Instruktioner om hur du hittar detta finns i [Bas-URL](https://developers.marketo.com/rest-api/base-url/) i [!DNL Marketo] dokumentation.
 1. Ange [!UICONTROL Client ID] och [!UICONTROL Client secret]. Instruktioner om hur du hittar dessa finns i [Autentisering](https://developers.marketo.com/rest-api/authentication/) i [!DNL Marketo] dokumentation.
 1. Klicka **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
 
@@ -171,7 +175,7 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg som är relativ till <code>https://{your-base-url}.mktorest.com/</code>.</td> 
+   <td>Ange en sökväg i förhållande till <code>https://{your-base-url}.mktorest.com/</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
@@ -201,7 +205,7 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
 
 #### [!UICONTROL Create a record]
 
-Den här åtgärdsmodulen skapar en ny post i [!DNL Marketo]
+Denna åtgärdsmodul skapar en ny post i [!DNL Marketo]
 
 <table style="table-layout:auto"> 
  <col> 
@@ -495,7 +499,7 @@ Den här åtgärdsmodulen gör en kopia av ett program med det befintliga progra
 
 #### [!UICONTROL List records]
 
-Den här åtgärdsmodulen hämtar alla poster av en viss typ.
+Denna åtgärdsmodul hämtar alla poster av en viss typ.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -556,7 +560,7 @@ Den här sökmodulen hämtar en lista med poster som matchar specifika sökvillk
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Values]</td> 
-   <td>För varje värde som du vill söka efter klickar du på <b>[!UICONTROL Add item]</b> och ange värdet.</td> 
+   <td>För varje värde du vill söka efter klickar du på <b>[!UICONTROL Add item]</b> och ange värdet.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output]</td> 

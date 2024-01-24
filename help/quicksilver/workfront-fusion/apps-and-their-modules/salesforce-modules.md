@@ -9,9 +9,9 @@ description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsfl�
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2435'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Salesforce] moduler
 
 I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder [!DNL Salesforce], samt ansluta till flera tredjepartsprogram och -tjänster.
+
+En videointroduktion till Salesforce-anslutningen finns på:
+
+* [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -59,13 +63,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -77,11 +81,11 @@ Används [!DNL Salesforce] moduler, du måste ha en [!DNL Salesforce] konto.
 
 När du söker efter objekt kan du antingen ange enskilda sökord eller skapa en mer komplex fråga med jokertecken och operatorer:
 
-* Använd asteriskens jokertecken (\*) som ersättning för noll eller flera tecken. Om du till exempel söker efter Ca\* hittas objekt som börjar med Ca
-* Använd frågetecken som jokertecken (?) som ersättning för ett enskilt tecken. Om du söker efter Jo?n hittas objekt med termen John eller Joan men inte Jon
-* Använd operatorn för citattecken (&quot; &quot;) för att hitta en exakt frasmatchning. Till exempel: &quot;Månadsmöte&quot;
+* Använd asteriskens jokertecken (\*) som ersättning för noll eller flera tecken. En sökning efter Ca\* söker efter objekt som börjar med Ca
+* Använd frågetecken som jokertecken (?) som ersättning för ett enda tecken. Om du söker efter Jo?n hittas objekt med termen John eller Joan men inte Jon
+* Använd operatorn för citattecken (&quot; &quot;) för att hitta en exakt frasmatchning. Till exempel:&quot;Månadsmöte&quot;
 
-Mer information om sökmöjligheter finns i [!DNL Salesforce] utvecklardokumentation om SOQL och SOSL.
+Mer information om sökmöjligheter finns i [!DNL Salesforce] dokumentation om SOQL och SOSL.
 
 ## [!DNL Salesforce] moduler och deras fält
 
@@ -179,7 +183,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### *[!UICONTROL Watch a field]*
 
-Den här utlösarmodulen startar ett scenario när ett fält uppdateras i [!DNL Salesforce].
+Denna utlösarmodul startar ett scenario när ett fält uppdateras i [!DNL Salesforce].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -310,12 +314,12 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
 
 Modulen returnerar följande:
 
-* **[!UICONTROL Status Code]** (tal): Detta anger om HTTP-begäran lyckades eller misslyckades. Det här är standardkoder som du kan söka efter på Internet.
-* **[!UICONTROL Headers]** (objekt): En mer detaljerad kontext för den svars-/statuskod som inte är relaterad till utdatatexten. Alla sidhuvuden som visas i en svarshuvud är inte svarshuvuden, så en del kanske inte är användbara för dig.
+* **[!UICONTROL Status Code]** (nummer): Detta anger om HTTP-begäran lyckades eller misslyckades. Det här är standardkoder som du kan söka efter på Internet.
+* **[!UICONTROL Headers]** (objekt): En mer detaljerad kontext för den svars-/statuskod som inte relaterar till utdatatexten. Alla sidhuvuden som visas i en svarshuvud är inte svarshuvuden, så en del kanske inte är användbara för dig.
 
   Svarshuvuden beror på den HTTP-begäran du valde när du konfigurerade modulen.
 
-* **[!UICONTROL Body]** (objekt): Beroende på vilken HTTP-begäran du valde när du konfigurerade modulen kan du få tillbaka data. Dessa data, till exempel data från en [!UICONTROL GET] request, finns i det här objektet.
+* **[!UICONTROL Body]** (objekt): Beroende på vilken HTTP-begäran du valde när du konfigurerade modulen kan du få tillbaka data. Dessa data, till exempel data från en [!UICONTROL GET] finns i det här objektet.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -329,7 +333,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Ange en sökväg som är relativ till<code> &lt;Instance URL&gt;/services/data/v46.0/</code>.</p> <p>En lista över tillgängliga slutpunkter finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Utvecklarhandbok för Salesforce REST API</a>.</p> </td> 
+   <td> <p>Ange en sökväg i förhållande till<code> &lt;Instance URL&gt;/services/data/v46.0/</code>.</p> <p>En lista över tillgängliga slutpunkter finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Utvecklarhandbok för Salesforce REST API</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
@@ -433,7 +437,7 @@ När du konfigurerar den här modulen visas följande fält.
      <ul> 
       <li>[!UICONTROL Attachment]</li> 
       <li>[!UICONTROL Document]</li> 
-      <li>[!UICONTROL ContentDocument] (Detta är ett dokument som har överförts till ett bibliotek i [!DNL Saleforce CRM Content] eller [!DNL Salesforce Files].)</li> 
+      <li>[!UICONTROL ContentDocument] (Det här är ett dokument som har överförts till ett bibliotek i [!DNL Saleforce CRM Content] eller [!DNL Salesforce Files].)</li> 
      </ul> </td>
   </tr> 
   <tr>
@@ -446,7 +450,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Update a Record]
 
-Den här åtgärdsmodulen redigerar en post i ett objekt.
+Denna åtgärdsmodul redigerar en post i ett objekt.
 
 I modulen kan du välja vilka av objektets fält som är tillgängliga i modulen. Detta minskar antalet fält som du måste bläddra igenom när du ställer in modulen.
 
@@ -481,7 +485,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Search with Query]
 
-Den här sökmodulen söker efter poster i ett objekt i [!DNL Salesforce] som matchar den sökfråga du anger. Du kan mappa den här informationen i efterföljande moduler i scenariot.
+Sökmodulen söker efter poster i ett objekt i [!DNL Salesforce] som matchar den sökfråga du anger. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -508,7 +512,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Query] / [!UICONTROL SOSL Query] / [!UICONTROL SOQL Query]</td> 
-   <td> <p>Ange frågan som du vill söka efter.</p> <p>Mer information om SOSL finns på <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce Object Search Language (SOSL)</a> i [!DNL Salesforce] dokumentation.</p> <p>Mer information om SOQL finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> i [!DNL Salesforce] dokumentation.</p> <p>Obs! Observera att värdet på parametern <code>RETURNING </code>påverkar modulens utdata. Om du använder <code>LIMIT</code>, [!DNL Fusion] kommer att ignorera inställningarna i [!UICONTROL Maximal count of records] fält. Om du inte anger någon gräns infogar Fusion värdet [!UICONTROL LIMIT = Maximal count of records].</p> </td> 
+   <td> <p>Ange frågan som du vill söka efter.</p> <p>Mer information om SOSL finns på <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce Object Search Language (SOSL)</a> i [!DNL Salesforce] dokumentation.</p> <p>Mer information om SOQL finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> i [!DNL Salesforce] dokumentation.</p> <p>Obs! Observera att parameterns värde <code>RETURNING </code>påverkar modulens utdata. Om du <code>LIMIT</code>, [!DNL Fusion] ignorerar inställningarna i [!UICONTROL Maximal count of records] fält. Om du inte anger någon gräns infogar Fusion värdet [!UICONTROL LIMIT = Maximal count of records].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximal count of records]</td> 
@@ -535,7 +539,7 @@ Den här åtgärdsmodulen hämtar alla poster som uppfyller ett visst villkor.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search criteria]</td> 
-   <td>Markera fältet som du vill söka efter, operatorn som du vill använda i frågan och värdet som du söker efter i fältet. Du kan koppla frågor med AND eller OR.</td> 
+   <td>Markera fältet som du vill söka efter, operatorn som du vill använda i frågan och värdet som du söker efter i fältet. Du kan koppla frågor med hjälp av AND eller OR.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
