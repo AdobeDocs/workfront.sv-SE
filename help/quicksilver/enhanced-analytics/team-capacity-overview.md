@@ -7,47 +7,56 @@ description: Teamkapacitetvisualiseringen visar den totala kapacitet som ett hem
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
 
 # Visa teamkapacitetvisualisering i Förbättrad analys
 
+<!-- Audited: 01/2024 -->
+
 Teamkapacitetvisualiseringen visar den totala kapacitet som ett hemteam har, oavsett om de är överallokerade eller underallokerade, och hur dynamisk kapaciteten är över tiden.
 
-![](assets/team-capacity-350x110.png)
+![Teamkapacitet](assets/team-capacity.png)
 
 ## Åtkomstkrav
 
-Du måste ha följande:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a>*</td> 
-   <td> <p>Företag eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>
+      <p>Nytt: Alla</p>
+      <p>eller</p>
+      <p>Aktuell: Business eller högre</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader">Översikt över Adobe Workfront-licenser</td>
+   <td>
+      <p>Nytt: Ljus eller högre</p>
+      <p>eller</p>
+      <p>Aktuell: Granska eller senare</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Visa åtkomst till projekt</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td>Visa </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -57,22 +66,22 @@ Information om krav för att använda Förbättrad analys finns i avsnittet Krav
 
 Teamkapacitetvisualiseringen visar den arbetsvolym som tilldelats hemteamet en viss dag.
 
-* **Burnout**: När den mörkare blå fyllningsfärgen är ovanför den prickade linjen har hemteamet fler arbetstimmar än de kan fylla i det antal timmar teamet är tillgängligt att arbeta. Detta visar att teamet är överallokerat och kan komma att närma sig utbränning.
+* **Burnout**: När den mörkare blå fyllningsfärgen är ovanför den prickade linjen har hemteamet fler arbetstimmar än de kan fylla i det antal timmar teamet är tillgängligt för arbete. Detta visar att teamet är överallokerat och kan komma att närma sig utbränning.
 
-   ![](assets/team-capacity-over-capacity.png)
+  ![Överkapacitet](assets/team-capacity-over-capacity.png)
 
-* **Obestridd**: När den mörkare blå fyllningsfärgen är under den prickade linjen har hemarbeteamet fler arbetstimmar än den mängd arbete de tilldelats. Detta visar att teamet är underallokerat och kan vara obestritt.
+* **Obestridd**: När den mörkare blå fyllningsfärgen är under den prickade linjen har arbetsteamet fler timmar att arbeta än den mängd arbete de tilldelats. Detta visar att teamet är underallokerat och kan vara obestritt.
 
-   ![](assets/team-capacity-under-capacity.png)
+  ![Under kapacitet](assets/team-capacity-under-capacity.png)
 
 * **Saldo**: När den ljusare eller mer genomskinliga blå fyllningsfärgen är precis ovanför, precis nedanför eller på den prickade linjen har hemarbetsteamet tilldelats ett antal arbetstimmar som de ska kunna slutföra inom sina tillgängliga arbetstimmar. Detta visar att teamets arbetsbelastning är mer balanserad.
 
-   ![](assets/team-capacity-at-capacity.png)
+  ![Vid kapacitet](assets/team-capacity-at-capacity.png)
 
 När du hovrar över en punkt i visualiseringen visas följande information för en viss dag:
 
-* **Schemalagda timmar**: Detta är antalet planerade arbetstimmar som teamet behöver för att slutföra.
-* **Tillgängliga timmar**: Detta är antalet arbetstimmar som teamet är tillgängligt för att arbeta.
+* **Schemalagda timmar**: Det här är antalet planerade arbetstimmar som teamet behöver för att slutföra.
+* **Tillgängliga timmar**: Det här är antalet arbetstimmar som teamet kan arbeta under.
 * **Kapacitet**: Förutom en kapacitetsprocent visas även beteckningarna På kapacitet, Under kapacitet eller Över kapacitet.
 
 Om du ser den här informationen blir det lättare att avgöra:
@@ -86,20 +95,21 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
 ## Visa teamkapacitetvisualisering
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
-1. Välj **Folk**.
+{{step1-to-analytics}}
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+1. I den vänstra panelen väljer du **Folk**.
+
+   ![Välj personer](assets/people-area-cropped-qs-350x276.png)
 
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Datumintervallfilter](assets/filters-select-date-range-350x344.png)
 
-   Mer information om hur du använder datumintervallfiltret finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Villkorligt) Om du inte har ställt in teamfiltret lägger du till teamfiltret och väljer varje team som du vill se data för.
 
-   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    När du har lagt till filter visas data för upp till 50 projekt och filtren förblir aktiva även när du lämnar sidan eller loggar ut från Workfront.
 
@@ -113,14 +123,14 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Tidsramsfilter](assets/timeframe-filter-350x220.png)
 
 1. Håll muspekaren över en punkt på den graderade linjen för att se de schemalagda timmarna och de planerade timmarna för det angivna datumet, samt kapacitetsprocenten och om hemteamet var över, under eller vid tidpunkten.
 
-   ![](assets/team-capacity-capacity-pop-up-350x351.png)
+   ![Popup för teamkapacitet](assets/team-capacity-capacity-pop-up-350x351.png)
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Ikonen Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen väljer du exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Exportera** icon ![Ikonen Exportera](assets/export.png) i det övre högra hörnet av visualiseringen väljer du exportformat:
 
-   * **Diagram (PNG)**
-   * **Datatabell (XSLX)**
+   * Diagram (PNG)
+   * Datatabell (XSLX)
 

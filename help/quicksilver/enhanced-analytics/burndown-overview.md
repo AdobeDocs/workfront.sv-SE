@@ -7,7 +7,7 @@ description: I Burndown-visualiseringen visas ett specifikt projekts nedgång ö
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa</p> </td> 
+   <td> <p>Visa</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 ## Förutsättningar
 
-Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Förstå Burndown-visualiseringen
 
@@ -152,7 +152,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
    >Om den faktiska hastigheten är en platt linje som löper längs x-axeln (inline med 0 timmar eller 0 dagar) i visualiseringen innebär det att inga planerade timmar - eller dagar - har lagts till i projektet.\
    >Om den faktiska hastigheten är en platt linje ovanför x-axeln (i linje med ett antal timmar eller antal dagar) som aldrig går ned, innebär det att inga uppgifter har slutförts inom den filtrerade tidsperioden.
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Exportera** icon ![Ikonen Exportera](assets/export.png)i det övre högra hörnet av visualiseringen och välj exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Exportera** icon ![Ikonen Exportera](assets/export.png) i det övre högra hörnet av visualiseringen och välj exportformat:
 
    * Diagram (PNG)
    * Datatabell (XSLX)
