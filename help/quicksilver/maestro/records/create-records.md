@@ -1,13 +1,13 @@
 ---
 title: Skapa poster
-description: I Adobe Maestro är en post en instans av en posttyp. Du måste skapa posttyper innan du kan skapa enskilda poster.
+description: I Adobe Maestro är en post en instans av en posttyp. Du måste skapa posttyper innan du kan skapa enskilda poster. Att skapa taxonomiposter är identiskt med att skapa driftsposter.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Du kan ha följande typer av poster:
 * **Driftsregister**: De representerar arbetsrelaterade objekt. För en operativ post med namnet&quot;Campaign&quot; kan du till exempel ha namngett poster som&quot;Monthly Newsletter&quot; eller&quot;Sommarförsäljning&quot;.
 * **Taxonomiposter**: De representerar attribut som kan kopplas till operativa poster. För en taxonomiposttyp som heter &quot;Kanal&quot; kan du till exempel ha namngett taxonomier som &quot;E-post&quot;, &quot;Sociala media&quot; eller &quot;Annonsering&quot;.
 
-Att skapa driftsposter är detsamma som att skapa taxonomiposter eller taxonomier.
+Att skapa driftsposter är identiskt med att skapa taxonomiposter.
 
 Du kan skapa poster i Maestro genom att göra något av följande:
 
@@ -120,7 +120,7 @@ Alla poster av den valda typen visas i tabellvyn.
 
 1. (Villkorligt) Om posttypsidan inte öppnas i tabellvyn klickar du på **Visa** och välj en befintlig **Tabellvy** ![](assets/table-view-icon.png) eller klicka **Skapa vy > Tabell** för att skapa en tabellvy.
 
-1. Om du vill lägga till nya poster klickar du **Nytt &lt; Posttypnamn >** i tabellens sista rad
+1. Om du vill lägga till nya poster klickar du **Ny post** i tabellens sista rad
 
    eller
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '13867'
+source-wordcount: '13870'
 ht-degree: 0%
 
 ---
@@ -2040,6 +2040,7 @@ ht-degree: 0%
       * [Ta bort poster](maestro/records/delete-records.md)
       * [Dela poster](maestro/records/share-records.md)
       * [Hantera postkommentarer](maestro/records/manage-record-comments.md)
+      * [Översikt över avsnittet Historik](maestro/records/history-section-overview.md)
    * Adobe Maestro-vyer {#adobe-maestro-views}
       * [Vyer: artikelindex](maestro/views/views-information.md)
       * [Hantera postvyer](maestro/views/manage-record-views.md)

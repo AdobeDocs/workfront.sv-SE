@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
 
-<!--
-## Week of January 22, 2024
+## Vecka 22 januari 2024
 
-### New History section displays system activity for Maestro records (title) 
+### Avsnittet Ny historik visar systemaktivitet för Maestro-poster
 
-Production: < date > 
+Produktion: 25 januari 2024
 
-Preview: To be determined 
+Förhandsgranska: Ska bestämmas
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+För att förbättra granskningsfunktionerna har vi introducerat ett nytt avsnitt på den högra panelen i en post där du kan granska ändringar som gjorts i den post som spelats in av systemet.
 
-Maestro records the following information in the new History section:  
+Följande information registreras i det nya historikavsnittet:
 
-* Any field changes 
+* Alla fältändringar
 
-* The full name of the user who made the change 
+* De gamla och nya värdena i fälten när värdena ändras
 
-* A date and time stamp of when the change occurred. 
+* Det fullständiga namnet på användaren som gjorde ändringen
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* En datum- och tidsstämpel som anger när ändringen inträffade.
 
--->
+Mer information finns i [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### Ny etikett för ny postlänk
+
+Produktion: 25 januari 2024
+
+Förhandsgranska: Ska bestämmas
+
+För att skapa konsekvens när du skapar poster har vi ändrat namnet på länken + Ny för att skapa poster till&quot;+ Ny post&quot;.  Före den här uppdateringen innehöll länken posttypens namn. Den nya länken är nu tillgänglig när du skapar operations- och taxonomiposter. Mer information finns i [Skapa poster](/help/quicksilver/maestro/records/create-records.md).
 
 ## Vecka 8 januari 2024
 

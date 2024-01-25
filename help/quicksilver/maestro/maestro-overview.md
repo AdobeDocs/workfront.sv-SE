@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,7 @@ Information om nya funktioner och när de släpps finns på [Aktivitet för lans
 | Kreativ översikt |                               |                                  | ✓ |
 | Anpassa färg och ikon för en post | ✓ |                                  |                 |
 | Lägga till kommentarer i poster | ✓ |                                  |                 |
+| Visa ändringshistorik för en post | ✓ |                                  |                 |
 | RTF-formatering för styckefält | ✓ |                                  |                 |
 | Maestro-moduler för Adobe Workfront Fusion | ✓ |                                  |                 |
 | Kopiera och klistra in information från ett fält till ett annat | ✓ |                                  |                 |

@@ -1,12 +1,12 @@
 ---
 title: Hantera postkommentarer
-description: Du kan samarbeta med poster i Adobe Maestro genom att lägga till kommentarer eller svar i kommentarområdet i en post.
+description: Du kan samarbeta med poster i Adobe Maestro genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # Hantera postkommentarer
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Du kan samarbeta med poster i Adobe Maestro genom att lägga till kommentarer eller svar i kommentarområdet i en post.
+Du kan samarbeta med poster i Adobe Maestro genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+I den högra panelen för en post visas följande avsnitt:
 
-The right panel of a record displays the following sections:
+* **Kommentar**: Visar kommentarer och svar som användare lägger till i poster.
+* **Historik**: Visar ändringar som användarna gör i postfälten. Mer information finns i [Översikt över avsnittet Historik](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>På den högra panelen visas både för driftsposter och taxonomiposter.
+
 
 ## Att tänka på när du kommenterar en post
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * Du kan tagga användare så att de uppmärksammas på en uppdatering. Taggade användare får inga meddelanden i appen eller e-postmeddelanden om din uppdatering. <!--this might change??-->
 
-* Du kan lägga till en uppdatering till poster från följande områden i Maestro:
+* Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Maestro:
 
-   * Från detaljsidan.
+   * Från sidan Detaljer för en post eller taxonomi.
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ Den senast öppnade arbetsytan öppnas som standard.
 
    Posten **Information** sidan öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
 
+1. (Villkorligt) Om den högra panelen inte öppnas som standard klickar du på **Visa kommentarer** ![](assets/show-comments-icon.png) i det övre högra hörnet för att öppna kommentarsavsnittet.
+
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ Den senast öppnade arbetsytan öppnas som standard.
 1. (Valfritt) Klicka på **Mer** icon ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka på något av följande alternativ för att kopiera information från en kommentar:
 
    * **Kopiera länk**: Detta kopierar en länk till kommentaren till Urklipp.
-   * **Kopiera brödtext** t: Texten i kommentaren kopieras till Urklipp.
+   * **Kopiera brödtext**: Texten i kommentaren kopieras till Urklipp.
    * **Offertsvar**: Innehållet i kommentaren kopieras till ett nytt svar. Bilder inkluderas inte i det kopierade svaret.
 
    Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Klicka på **Mer** icon ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka sedan på **Ta bort** för att ta bort kommentaren.
+1. (Valfritt) Klicka på **Dölj kommentarer** icon ![](assets/hide-comments-icon.png) för att stänga den högra panelen.
 
-<!--
-## History section overview
+## Översikt över avsnittet Historik
 
-*********also update the screen shot above for the Comments section ******
+Du kan granska ändringar som gjorts i posten i historikavsnittet på den högra panelen i en driftspost eller taxonomi.
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+Mer information finns i [Översikt över avsnittet Historik](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->
