@@ -1,21 +1,21 @@
 ---
-title: Förbättringar av projekt för första kvartalet 2024
-description: Förbättringar av projekt för första kvartalet 2024
-author: Nolan
+title: Andra kvartalet 2024 - projektförbättringar
+description: Andra kvartalet 2024 - projektförbättringar
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Förbättringar av projekt för första kvartalet 2024
+# Andra kvartalet 2024 - projektförbättringar
 
-Den här sidan beskriver alla projektförbättringar som gjorts i första utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den första utgåvan av kvartal 2024.
+Den här sidan beskriver alla projektförbättringar som gjorts i andra utgåvan av kvartalet 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2024 finns på [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Mer relevanta smarta tilldelningar
 
