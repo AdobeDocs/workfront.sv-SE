@@ -2,20 +2,22 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Skapa en instrumentpanel
-description: Du kan skapa kontrollpaneler för att snabbt komma åt information i rapporter, kalendrar och externa sidor.
+description: Du kan skapa kontrollpaneler för att snabbt komma åt information i Adobe Workfront. Rapporter, kalendrar och externa sidor kan läggas till på kontrollpaneler som du kan dela med andra för optimalt samarbete.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Skapa en instrumentpanel
 
-Du kan skapa kontrollpaneler för att snabbt komma åt information i rapporter, kalendrar och externa sidor.
+<!--Audited: 01/2024-->
+
+Du kan skapa kontrollpaneler för att snabbt komma åt information i Adobe Workfront. Rapporter, kalendrar och externa sidor kan läggas till på kontrollpaneler som du kan dela med andra för optimalt samarbete.
 
 Mer information om kontrollpaneler finns i [Kom igång med instrumentpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
@@ -30,25 +32,27 @@ Du måste ha följande:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-plan*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront</strong></p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront-licens*</strong></p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Aktuell: Planera </p>
+   eller
+   <p>Nytt: Standard </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><strong>Konfigurationer på åtkomstnivå</strong> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>Du får behörigheten Hantera till den nya instrumentpanelen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.<br>Mer information om behörigheter för kontrollpaneler finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Dela rapporter, kontrollpaneler och kalendrar </a>.</p> </td> 
+   <td> <p>Du får behörigheten Hantera för de instrumentpaneler du skapar</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -56,13 +60,14 @@ Du måste skapa något av följande objekt innan du kan lägga till dem på en k
 
 * **Rapporter**: Information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* **Kalendrar**: Mer information om hur du skapar kalendrar finns i [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* **Kalendrar**: Information om hur du skapar kalendrar finns i [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-* **Externa sidor**: Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Du kan lägga till befintliga externa sidor på en kontrollpanel eller skapa en från den nya kontrollpanelen. Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Skapa en instrumentpanel
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png)och sedan klicka **Instrumentpaneler.**
+{{step1-to-dashboards}}
+
 1. Klicka **Ny instrumentpanel**.\
    Dialogrutan Ny instrumentpanel visas.
 
@@ -83,28 +88,28 @@ Du måste skapa något av följande objekt innan du kan lägga till dem på en k
     </tbody>
    </table>
 
-1. Välj en layout genom att klicka på alternativknappen för den.
+1. Välj en layout genom att klicka på alternativknappen som motsvarar den högst upp på **Välj layout/Lägg till rapporter/Lägg till kalendrar** -avsnitt. Det är den layout som rapporter, kalendrar och externa sidor visas i på kontrollpanelen.
 
    Layouten med en kolumn är standard.
 
    Mer information om rapportlayout på kontrollpaneler finns i [Förstå hur rapporter visas på en kontrollpanel](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: Consider adding the information from this article here, at some point, instead of linking to it.)
-   </MadCap:conditionalText>
+   Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Lägg till befintliga rapporter, kalendrar eller externa sidor genom att söka efter dem i **Sök efter namn eller typ..** och sedan dra dem till layoutfönstret när de visas i listan.
+1. Sök efter rapporter, kalendrar eller externa sidor i **Sök efter namn eller typ..** och sedan dra dem till layoutfönstret när de visas i listan.
 
    >[!NOTE]
    >
-   >När du söker efter ett objekt returnerar sökningen någon av de 2 000 senast skapade rapporterna. Rapportnamn som innehåller Unicode-tecken returneras inte i sökresultaten. Det är en god vana att undvika att ta med Unicode-tecken när du namnger objekt i Workfront genom att skriva namn i stället för att kopiera och klistra in namn från en annan källa.
+   >När du söker efter ett objekt returneras de 2 000 senast skapade rapporterna. Rapportnamn som innehåller Unicode-tecken returneras inte i sökresultaten. Det är en god vana att undvika att ta med Unicode-tecken när du namnger objekt i Workfront genom att skriva namn i stället för att kopiera och klistra in namn från en annan källa.
 
    ![Sök efter rapporter](assets/qs-new-dashboard-ui-0722.png)
 
-1. (Valfritt) Klicka på **Lägg till extern sida** om du vill lägga till en extern sida på kontrollpanelen.\
+1. (Valfritt) Klicka på **Lägg till extern sida** om du vill lägga till en ny extern sida på kontrollpanelen.
+
    Mer information om hur du skapar externa sidor och bäddar in dem i kontrollpaneler finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. Klicka **Spara + Stäng**.\
+1. Klicka **Spara + Stäng**.
+
    En tidsstämpel visas i det övre högra hörnet av instrumentpanelen. Tidsstämpeln innehåller datum, tid och tidszon när instrumentpanelen senast uppdaterades.

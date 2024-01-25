@@ -4,9 +4,9 @@ description: Du kan granska ändringar som gjorts i posten och som spelats in av
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ Du kan granska ändringarna som gjorts för postfält i historikavsnittet på de
 
    * Flera val
    * Länkade postfält
-   * Länkade (sökning) fält
    * Folk
 
   Om ändringen bara har lagt till värden i fältet visas inte det gamla värdet och bara det nya fältvärdet visas.
@@ -80,5 +79,14 @@ Du kan granska ändringarna som gjorts för postfält i historikavsnittet på de
 * Fält av typen Kryssruta visar aldrig det gamla värdet i genomstrykningsformat. Om fältet redigeras visas bara det aktuella läget när ändringen gjordes.
 
   Mer information om Maestro-fält finns i [Skapa fält](/help/quicksilver/maestro/fields/create-fields.md).
+
+* Ändringar i fält av följande typer visas inte i avsnittet Historik:
+
+   * Länkade (sökning) fält
+   * Formel
+   * Skapad av
+   * Skapad den
+   * Senast ändrad av
+   * Senast ändrat den
 
 * Om ett fält tas bort från systemet finns uppdateringarna som gjorts i det fältet kvar i historikavsnittet. Det finns inget som tyder på att fältet har tagits bort i historikdelen av en post.

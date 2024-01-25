@@ -3,21 +3,25 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Skapa korrektur
-description: Lär dig skapa korrektur.
+description: Du kan skapa korrektur av dokument i Adobe Workfront. Du kan skapa korrektur av dokument i Adobe Workfront. Du kan skapa korrektur för dokument, interaktivt innehåll och webbplatser. Läs om hur du skapar korrektur i följande artiklar.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# Skapa korrektur
+# Skapa korrektur: artikelindex
 
-Det här avsnittet innehåller följande artiklar:
+<!--Audited: 01/2024-->
+
+Du kan skapa korrektur av dokument i Adobe Workfront. Du kan skapa korrektur för dokument, interaktivt innehåll och webbplatser.
+
+Läs om hur du skapar korrektur i följande artiklar:
 
 * [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

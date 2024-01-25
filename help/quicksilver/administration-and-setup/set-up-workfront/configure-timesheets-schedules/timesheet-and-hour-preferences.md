@@ -4,18 +4,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Konfigurera tidrapport och timinställningar
 description: Som en [!DNL Adobe Workfront] kan du ange inställningar för tidrapporter och timmar på [!DNL Workfront] för att definiera vilka objekt tidrapporterna kan förifyllas med och vilka objekt som användarna kan logga tid på.
-author: Courtney and Alina
+author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # Konfigurera tidrapport och timinställningar
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -23,7 +25,8 @@ Som en [!DNL Adobe Workfront] kan du ange inställningar för tidrapporter och t
 
 >[!IMPORTANT]
 >
->Förutom de objekt som förifyller en tidrapport enligt villkoren som beskrivs i den här artikeln, visas även följande objekt på tidrapporter som standard:
+>Förutom de objekt som förifyller en tidrapport enligt villkoren som beskrivs i den här artikeln, visas följande objekt även på tidrapporter som standard:
+>
 >* Objekt som du loggade tid för under tidsramen i tidrapporten
 >* Objekt som är fästa på tidrapporten
 >* Objekt som du söker efter och lägger till manuellt i tidrapporten. Manuellt tillagda objekt fästs som standard.
@@ -48,24 +51,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Aktuell:[!UICONTROL Plan]</p>
+   eller
+   <p>Nytt: Standard</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p>  </td>
 </tr> 
  </tbody> 
 </table>
 
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Ange inställningar för tidrapport och timme
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicka på **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
+1. Klicka **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
 
-1. På sidan som visas i **[!UICONTROL General preferences]** konfigurerar du något av följande alternativ:
+   Sidan Inställningar för tidrapporter och timmar visas.
+
+1. (Valfritt) I dialogrutan **Inställningar för systemtidrapporter och timmar** sökruta, börja skriva namnet på en grupp och markera den när den visas i listan.
+
+   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+
+   Sidan Inställningar för tidrapport och timmar uppdateras med inställningarna för den valda gruppen. Inställningarna på systemnivå måste vara olåsta för att du ska kunna ändra inställningarna på gruppnivå. Mer information finns i avsnittet [Lås upp tidrapport och timinställningar för grupper](#unlock-timesheet-and-hour-preferences-for-groups) i den här artikeln.
+
+1. I **[!UICONTROL General preferences]** konfigurerar du något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,7 +104,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Restrict timesheet editing to owners and admins]</td> 
+      <td role="rowheader">[!UICONTROL Restrict timesheet editing to owners and administrators]</td> 
       <td> <p>Begränsa redigering till tidrapportägare och [!DNL Workfront] administratörer. När det här alternativet är inaktiverat kan tidrapporter även redigeras av:</p> 
        <ul> 
         <li> <p>Användare med administrativ åtkomst till tidrapporter och timmar på åtkomstnivå</p> </li> 
@@ -99,7 +113,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Restrict hour editing to owners and admins]</td> 
+      <td role="rowheader">[!UICONTROL Restrict hour editing to owners and administrators]</td> 
       <td>Begränsa redigering till den användare som anger timmarna och [!DNL Workfront] administratörer. Den här inställningen gäller för [!UICONTROL Hours] i ett projekt eller i en timrapport.</td> 
      </tr> 
     </tbody> 
@@ -109,15 +123,15 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
 
    <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Log time directly on projects]</td>
+        <td>[!UICONTROL Directly on projects]</td>
         <td>Tillåter användare att logga tid i projektet (båda på [!UICONTROL Updates] och tidrapport). Om användare inte registrerar tid på projektnivå bör dessa alternativ vara avmarkerade.</td>
     </tr>
     <tr>
-        <td>Logga in på projekt som är slutförda</td>
+        <td>[!UICONTROL On projects that are complete]</td>
         <td>Tillåter användare att registrera tid i ett projekt som har markerats som slutfört. Om det här alternativet är inaktiverat kan användare inte registrera tid för det arbete de har utfört i projekt i [!UICONTROL Complete] status.</td>
     </tr>
     <tr>
-        <td>Logga in på projekt som är döda</td>
+        <td>[!UICONTROL On projects that are dead]</td>
         <td>När det här alternativet är aktiverat kan användare logga timmar i projekt med en [!UICONTROL Dead] status.</td>
     </tr>
    </table>
@@ -130,14 +144,16 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Work that is within] &lt;number of weeks&gt; [!UICONTROL of the timesheet's work range]</td> 
-      <td> <p>Definierar antalet veckor före och efter datumintervallet för tidrapporten som innehåller datum för uppgifter och ärenden som tilldelats användaren. Standardinställningen är 1 vecka, och du kan utöka intervallet till 4 veckor. Det innebär att tidrapporten är förifylld med uppgifter och ärenden som har datum var som helst mellan fyra veckor före datumintervallet i tidrapporten upp till fyra veckor efter datumintervallet i tidrapporten, om du väljer 4 veckor för intervallet. </p> </td> 
+      <td> <p>Definierar antalet veckor före och efter datumintervallet för tidrapporten som innehåller datum för uppgifter och ärenden som tilldelats användaren.</p> 
+      <p>Standardinställningen är 1 vecka, och du kan utöka intervallet till 4 veckor.</p> 
+      <p>Det innebär att tidrapporten är förifylld med uppgifter och ärenden som har datum var som helst mellan fyra veckor före datumintervallet i tidrapporten upp till fyra veckor efter datumintervallet i tidrapporten, om du väljer 4 veckor för intervallet. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Tasks & Issues that have been completed]</td> 
+      <td role="rowheader">[!UICONTROL Tasks and issues that have been completed]</td> 
       <td>Om flera resurser vanligtvis tilldelas till en enskild uppgift rekommenderar vi den här inställningen. Detta innebär att när en resurs registrerar tid mot aktiviteten och markerar den som slutförd, kan de andra resurser som tilldelats aktiviteten fortfarande hitta uppgiften eller problemet i sin tidrapport för att registrera sina timmar.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Tasks & Issues that have Planned Dates in timesheet's date range]</td> 
+      <td role="rowheader">[!UICONTROL Tasks and issues that have Planned Dates in timesheet's date range]</td> 
       <td> <p>När det här alternativet är markerat innehåller tidrapporten uppgifter och utgåvor som har antingen ett planerat startdatum eller ett slutförandedatum som ligger inom datumintervallet för tidrapporten.</p> </td> 
      </tr> 
      <tr> 
@@ -154,7 +170,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL When deleting projects]</td> 
+      <td role="rowheader"> När projekt tas bort</td> 
       <td> 
        <ul> 
         <li><strong>[!UICONTROL Keep logged time already added to timesheets as general time]</strong>: Om projektet återställs vid ett senare tillfälle finns tiden kvar på tidrapporten.</li> 
@@ -162,10 +178,10 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL When deleting tasks or issues]</td> 
+      <td role="rowheader">När uppgifter eller problem tas bort</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Move any logged time to the project where the task or issue resides]</strong>: Om den här uppgiften eller problemet återställs senare återstår tiden för projektet.<br></li> 
+        <li><strong>[!UICONTROL Move any logged time to the project]</strong> där uppgiften eller problemet finns: Om den här uppgiften eller problemet återställs senare, återstår tiden för projektet.<br></li> 
         <li> <p><strong>[!UICONTROL Delete any logged time]</strong>: Om uppgiften eller problemet återställs senare återställs loggad tid till uppgiften eller problemet.</p> <p>Mer information om dessa alternativ finns i <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] på timmar när ett objekt tas bort och återställs</a>.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -176,7 +192,7 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
 
 ## Lås upp tidrapport och timinställningar för grupper
 
-Grupper i din organisation kan behöva en tidrapport eller timinställning som har konfigurerats annorlunda för deras unika arbetsflöden. Du kan låsa upp inställningen för alla grupper i hela organisationen så att de kan konfigurera den på egen hand.
+Grupper i organisationen kan behöva tidrapporter eller timinställningar som har konfigurerats på olika sätt för sina unika arbetsflöden. Du kan låsa upp inställningarna för alla grupper i hela organisationen så att de kan konfigurera dem själva.
 
 När en inställning är olåst och en gruppadministratör ändrar den, påverkas tidrapportsägarna om gruppen är deras hemgrupp.
 
@@ -188,17 +204,19 @@ Mer information om hur en gruppadministratör konfigurerar tidrapport och timins
 
 Så här låser du upp en projektinställning så att grupper kan konfigurera den:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront, klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **[!UICONTROL Timesheets & Hours]** och sedan klicka **[!UICONTROL Preferences]**.
 
 1. Gör något av följande:
 
-   * Om du vill att gruppadministratörer ska kunna konfigurera en inställning för sina grupper låser du upp den ![](assets/unlock-toggle-button.png).
-   * Om du vill att alla grupper ska använda din konfiguration för en inställning måste du se till att den är låst (detta är standardinställningen).
+   * Om du vill att gruppadministratörer ska kunna konfigurera en inställning för sina grupper klickar du på **låsa upp** växla ![](assets/unlock-toggle-button.png) för att låsa upp den.
+   * Om du vill att alla grupper ska använda din konfiguration för en inställning måste du se till att växlingen är låst ![](assets/locked-preference-toggle.png) (det här är standardvärdet).
 
      >[!IMPORTANT]
      >
-     >Vi rekommenderar att du kommunicerar med administratörer och användare i grupper i hela systemet för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla grupper i systemet. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer kan ha gjort.
+     >Vi rekommenderar att du kommunicerar med administratörer och användare i grupper i hela systemet för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning.
+     >
+     >När du låser den ärvs konfigurationen för den av alla grupper i systemet. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer kan ha gjort.
 
 1. Klicka på **[!UICONTROL Save]**.
