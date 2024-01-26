@@ -3,20 +3,20 @@ title: Visa resurskapaciteten i Förbättrad analys
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Resurskapaciteten visas om ett team är över, under eller på kapaciteten.
+description: Du kan bedöma om ett team är över, under eller i kapacitet när du tittar på Ökad resursvisualisering för analyser i Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Visa resurskapaciteten i Förbättrad analys
 
-Resurskapaciteten visas om ett team är över, under eller på kapaciteten.
+Du kan bedöma om ett team är över, under eller i kapacitet när du tittar på Ökad resursvisualisering för analyser i Adobe Workfront.
 
 ## Åtkomstkrav
 
@@ -27,33 +27,38 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a>*</td> 
-   <td> <p>Företag eller högre</p> </td> 
+   <td>Adobe Workfront</a>*</td> 
+   <td> <p>Aktuell: Business eller högre</p>
+   eller
+   <p>Nytt: Alla</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td>Adobe Workfront-licens*</td> 
+   <td> <p>Aktuell: Granska eller senare</p>
+   eller
+   <p>Nytt: Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Visa åtkomst till projekt</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörighet för ett projekt</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
 Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Förstå resurskapaciteten visualisering
+## Lär dig mer om resurskapaciteten
 
-Resurskapaciteten visas om ett team är över, under eller på kapaciteten. Denna beräkning bygger på följande:
+Resurskapaciteten visar om ett team är över, under eller i kapacitet. Denna beräkning bygger på följande:
 
 * **Tillgänglig kapacitet**: Det totala antalet timmar som ett hemteam har tillgängligt för att arbeta under den filtrerade tidsperioden
 
