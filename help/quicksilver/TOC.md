@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 0%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 0%
       * [Tips, tricks och felsökning](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Anpassade statusvärden som inte visas på den mobila artikelpanelen](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Dokument {#documents}
-   * [Dokument](documents/documents-overview.md)
+   * [Dokument: artikelindex](documents/documents-overview.md)
    * Lägg till nya dokument i Adobe Workfront {#add-new-documents-to-workfront}
       * [Lägg till nya dokument i Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [Lägga till dokument i Adobe Workfront från filsystemet](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 0%
          * [Koppla milstolpar till uppgifter](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [Konvertera en uppgift till ett projekt](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * Aktivitetsbegränsningar {#task-constraints}
-         * [Aktivitetsbegränsningar](manage-work/tasks/task-constraints/task-constraints.md)
+         * [Aktivitetsbegränsningar: artikelindex](manage-work/tasks/task-constraints/task-constraints.md)
          * [Översikt över uppgiftsbegränsning](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [Översikt över aktivitetsbegränsning: Starta inte senare än](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [Översikt över aktivitetsbegränsning: Starta tidigast](manage-work/tasks/task-constraints/start-no-earlier-than.md)

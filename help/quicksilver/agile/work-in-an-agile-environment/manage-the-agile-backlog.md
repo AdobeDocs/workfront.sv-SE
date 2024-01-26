@@ -6,9 +6,9 @@ description: Uppgifter och ärenden kan tilldelas ett smidigt team och läggas t
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: b855f032b24079ff27435fb833cd3ed8a382a77c
+source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -37,33 +37,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Work] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Worker] eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL Manage] åtkomst till det projekt som artikeln är på</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] åtkomst till det projekt som artikeln är på</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa och hantera artiklar i efterloggen
 
 * [Ordna om artiklar](#reorder-stories)
-* [[!UICONTROL Break] ned berättelser](#break-down-stories)
+* [[!UICONTROL Break down] artiklar](#break-down-stories)
 * [Redigera artiklar](#edit-stories)
-* [Skapa nya artiklar i eftersläpningen](#create-new-stories-on-the-backlog)
-* [Flytta artiklar från eftersläpningen till en iteration eller en kanban-panel](#move-stories-from-the-backlog-to-an-iteration-or-kanban-board)
 
 ### Ordna om artiklar {#reorder-stories}
 
@@ -91,7 +89,6 @@ Eftersom artiklar i en eftersläpning varierar i storlek kan användarna dela up
 >* Artiklar kan bara delas upp om de är kopplade till ett projekt.
 
 
-
 Så här bryter du ned en artikel:
 
 1. Gå till den eftersläpning som innehåller artikeln som du vill bryta ned.
@@ -105,7 +102,7 @@ Så här bryter du ned en artikel:
 
 ### Redigera artiklar {#edit-stories}
 
-Du kan redigera artiklar direkt från [!UICONTROL Stories] eller [!UICONTROL Issues] -flikar i eftersläpningen på samma sätt som du redigerar uppgifter eller problem i ett projekt i grupp, enligt beskrivningen i [Redigera flera uppgifter samtidigt](../../manage-work/tasks/manage-tasks/edit-tasks.md#editing-tasks-in-bulk) in [Redigera uppgifter](../../manage-work/tasks/manage-tasks/edit-tasks.md) och [Redigera problem](../../manage-work/issues/manage-issues/edit-issues.md#bulk-editing-issues) in [Redigera problem](../../manage-work/issues/manage-issues/edit-issues.md).
+Du kan redigera artiklar direkt från [!UICONTROL Stories] eller [!UICONTROL Issues] -flikar i eftersläpningen på samma sätt som du redigerar uppgifter eller problem i ett projekt i grupp, enligt beskrivningen i [Redigera flera uppgifter samtidigt](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Redigera uppgifter](../../manage-work/tasks/manage-tasks/edit-tasks.md)och [Redigera problem](../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Skapa nya artiklar i eftersläpningen {#create-new-stories-on-the-backlog}
 
@@ -116,20 +113,20 @@ Du kan skapa nya artiklar i eftersläpningen genom att skapa artikeln direkt fr�
 
 ### Skapa en artikel från eftersläpningen {#create-a-story-from-the-backlog}
 
-När du skapar en artikel från en eftersläpning skapas artikeln som en uppgift eller ett problem i ett projekt. Du kan inte skapa en artikel från eftersläpningen som ett problem.
+När du skapar en artikel från en eftersläpning skapas artikeln som en uppgift eller ett problem i ett projekt. Du kan inte skapa en artikel utifrån eftersläpningen som ett problem.
 
 Så här skapar du en artikel från en eftersläpning:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Teams]**.
 
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)väljer du sedan ett nytt Scrum-team i listrutan eller söker efter ett team i sökfältet.
+1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)väljer du sedan ett nytt Scrum-team i listrutan eller söker efter ett team i sökfältet och markerar det när det visas.
 
 1. Välj **[!UICONTROL Backlog]** från den vänstra panelen.
 1. Gör något av följande, beroende på om du vill skapa en uppgift eller ett problem:
 
    * **Så här skapar du en uppgift:** Klicka **[!UICONTROL Stories]**.
 
-   * **Så här skapar du en utgåva:** Klicka **[!UICONTROL Issues]**.
+   * **Så här skapar du ett problem:** Klicka **[!UICONTROL Issues]**.
 
 1. Klicka **[!UICONTROL New Story]** eller **[!UICONTROL New Issue]**.
 
@@ -153,7 +150,7 @@ Så här skapar du en artikel från en eftersläpning:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimate]</strong></td>
-      <td>Ange en punkt eller timuppskattning för artikeln. Uppskattningar påverkar nedladdningsdiagrammet. Nedbrytningsdiagrammet för en iteration är endast korrekt om varje artikel innehåller en korrekt uppskattning. (Om du anger en punktuppskattning måste du i gruppinställningarna ha angett hur många timmar varje punkt representerar.)</td>
+      <td>Ange en punkt eller timuppskattning för artikeln. Uppskattningar påverkar nedladdningsdiagrammet. Nedbrytningsdiagrammet för en iteration är endast korrekt om varje artikel innehåller en korrekt uppskattning. (Om du anger en punktuppskattning måste du i gruppinställningarna ha angett hur många timmar varje punkt ska representera.)</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
@@ -161,7 +158,7 @@ Så här skapar du en artikel från en eftersläpning:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
-      <td>(Valfritt) Börja skriva namnet på den överordnade uppgift som den här artikeln är underordnad för och klicka sedan på namnet när den visas i listrutan.</td>
+      <td>(Valfritt) Börja skriva namnet på den överordnade uppgift som den här artikeln är underordnad och klicka sedan på namnet när den visas i listrutan.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
@@ -176,9 +173,9 @@ Så här skapar du en artikel från en eftersläpning:
 
 Du kan tilldela en uppgift eller ett ärende till ett smidigt team. När uppgiften eller utgåvan har tilldelats visas den som en ny artikel i teamets eftersläpning.
 
-Så här tilldelar du en uppgift eller ett ärende till ett smidigt team:
+Så här tilldelar du en uppgift eller en utgåva till ett smidigt team:
 
-1. Gå till det projekt som innehåller uppgiften som du vill tilldela om.
+1. Gå till det projekt som innehåller uppgiften som du vill tilldela.
 1. Markera uppgiften eller utgåvan i listan.
 1. Klicka på **[!UICONTROL Edit]**.
 1. Klicka på **[!UICONTROL Assignments]**.
@@ -188,10 +185,15 @@ Så här tilldelar du en uppgift eller ett ärende till ett smidigt team:
 1. Klicka på **[!UICONTROL Save Changes]**.\
    Uppgiften eller utgåvan är nu tillgänglig i teamets eftersläpning.
 
-## Flytta artiklar från eftersläpningen till en iteration eller + board {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+## Flytta artiklar till eller från eftersläpningen
 
+{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+
+* [Flytta artiklar från eftersläpningen till en iteration eller + board](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Flytta befintliga artiklar till eftersläpningen](#move-existing-stories-to-the-backlog)
 * [Exportera artiklar från eftersläpningen](#export-stories-from-the-backlog)
+
+### Flytta artiklar från eftersläpningen till en iteration eller + board
 
 1. Gå till eftersläpningen i det flexibla teamet.
 1. Markera de artiklar som du vill flytta till en iteration eller en kanban-panel och klicka sedan på **[!UICONTROL More]** > **[!UICONTROL Move to]**.\
@@ -203,7 +205,7 @@ Så här tilldelar du en uppgift eller ett ärende till ett smidigt team:
 
    * **För Scrum-team:** I **[!UICONTROL Select Iteration]** markerar du den iteration där du vill flytta artiklarna.
 
-   * **För Kanban-team:** I **[!UICONTROL Select Kanban Board]** fält, välj ditt team [!UICONTROL Kanban] bräda. (Kanban-team kan bara ha ett [!UICONTROL Kanban] bräda.)
+   * **För Kanban-team:** I **[!UICONTROL Select Kanban Board]** välj ditt team [!UICONTROL Kanban] bräda. (Kanban-team kan bara ha ett [!UICONTROL Kanban] bräda.)
 
 1. Klicka på **[!UICONTROL Move Story]**.
 

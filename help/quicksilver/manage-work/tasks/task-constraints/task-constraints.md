@@ -2,24 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Aktivitetsbegränsningar
+title: "Aktivitetsbegränsningar: artikelindex"
 description: Uppgiftsbegränsningar avgör när en uppgift ska starta och avslutas i ett projekt. Du kan använda flera uppgiftsbegränsningar för att ange när en uppgift ska starta och avslutas. Mer information om alla uppgiftsbegränsningar i Workfront finns i följande artiklar.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2e37b051-00ff-4784-bd8b-1897bb4ac80b
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# Aktivitetsbegränsningar
+# Aktivitetsbegränsningar: artikelindex
+
+<!-- Audited: 1/2024 -->
 
 Uppgiftsbegränsningar avgör när en uppgift ska starta och avslutas i ett projekt. Du kan använda flera uppgiftsbegränsningar för att ange när en uppgift ska starta och avslutas. Mer information om alla aktivitetsbegränsningar i Workfront finns i följande artiklar:
-
-Det här avsnittet innehåller följande artiklar:
 
 * [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
 * [Uppdatera aktivitetsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)

@@ -6,24 +6,27 @@ description: Du kan tillfälligt delegera det arbete du är tilldelad när du in
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
 
 # Hantera delegering av uppgifter och utgåvor
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 Du kan tillfälligt delegera det arbete du är tilldelad när du inte är på kontoret.
 
-Du kan delegera uppgifter och utleveranser eller delegera godkännanden. I den här artikeln beskrivs hur du delegerar uppgifter och utfärdar tilldelningar.
+Du kan delegera uppgifter och utgivningstilldelningar eller delegera godkännanden. I den här artikeln beskrivs hur du delegerar uppgifter och utfärdar tilldelningar.
 
 Allmän information om att delegera arbete finns i [Delegera arbetsöversikt](../../manage-work/delegate-work/delegate-work-overview.md).
 
@@ -35,10 +38,10 @@ Allmän information om att delegera arbete finns i [Delegera arbetsöversikt](..
 >* Behörigheterna måste fungera inom sina åtkomstnivåer och ibland kan deras åtkomstnivåer vara lägre än dina.
 >
 >   
->   Om en användare till exempel bara har Visa åtkomst till uppgifter på sin åtkomstnivå och du har behörigheten Hantera för de uppgifter som du delegerar till dem, får de behörigheten Hantera för de uppgifter som du delegerar till dem. De kan dock inte utföra samma åtgärder som du för de delegerade uppgifterna. De måste begära Redigera-åtkomst till uppgifter från systemadministratören för att kunna uppdatera uppgifter om du inte är anställd.
+>   Om en användare till exempel bara har Visa åtkomst till uppgifter på sin åtkomstnivå och du har behörigheten Hantera för de uppgifter som du delegerar till dem, får de behörigheten Hantera för de uppgifter som du delegerar till dem. De kan dock inte utföra samma åtgärder som du för de delegerade uppgifterna. Om du vill kunna uppdatera uppgifter utan att vara närvarande måste du begära redigeringsåtkomst till uppgifter från systemadministratören.
 >
 >   
->   Mer information om hur en användare kan ändra din åtkomstnivå finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   Information om hur en systemadministratör kan ändra din åtkomstnivå finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* För artiklar som tilldelas efter att delegeringen redan har startats kan det ta upp till en timme efter det att artikeln har tilldelats [!DNL Workfront] om du vill dela de nyligen tilldelade objekten med ombudet.
 
@@ -50,31 +53,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Granska eller högre</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Nytt: Medarbetare eller högre</p><p>eller</p><p>Aktuell: Granska eller senare</p>
 
 >[!NOTE]
 >
->Även om du kan tilldelas att arbeta när du har en Request-licens, kan du inte delegera ditt arbete till andra. [!DNL Workfront] rekommenderar inte att du tilldelar arbete till gransknings- eller begärananvändare.
+>Även om du kan tilldelas att arbeta när du har en Request-licens, kan du inte delegera ditt arbete till andra. [!DNL Workfront] rekommenderar inte att du tilldelar arbete till gransknings-, begärande- eller medverkande användare.
 
 </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och ärenden Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till uppgifter och ärenden 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa eller högre behörigheter för de uppgifter eller utgåvor som du har tilldelats</p> 
-    <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -92,7 +96,7 @@ Innan du kan utföra de aktiviteter som beskrivs i den här artikeln måste du s
 
 Innan du delegerar arbete till andra rekommenderar vi att du kontaktar dem och informerar dem om att de kommer att utses till delegater på dina arbetsuppgifter. Be om deras muntliga godkännande innan du delegerar arbetet för att försäkra dig om att de har den tid som krävs för att slutföra arbetet medan du är utanför kontoret.
 
-Allmän information om delegering av uppgifter och problem finns i [Översikt över uppgifter och problem i delegering](delegate-work.md).
+Allmän information om delegering av uppgifter och problem finns i [Översikt över uppgifter och problem i delegering](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 Så här delegerar du dina uppgifter och utgåvor till andra:
 
@@ -102,9 +106,9 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
 1. I [!UICONTROL **Delegera uppgifter och ärenden**] uppdaterar du följande:
 
-   * [!UICONTROL **Delegera dina uppgifter och ärenden till**]: Börja skriva namnet på en användare som du vill att dina uppgifter och utgåvor ska delegeras till och markera sedan den när den visas i listan. Du kan bara välja en användare.\
+   * [!UICONTROL **Delegera dina uppgifter och ärenden till**]: Börja skriva namnet på en användare som du vill att dina uppgifter och utgåvor ska delegeras till och markera sedan den när den visas i listan. Du kan bara välja en användare.
 
-     Användaren som du väljer som ombud får samma behörigheter som dina behörigheter för de uppgifter och utgåvor som du delegerar till dem. Mer information finns i [Översikt över delegeringsuppgifter och utgåvor](delegate-work-overview.md).
+     Användaren som du väljer som ombud får samma behörigheter som dina behörigheter för de uppgifter och utgåvor som du delegerar till dem.
 
    * [!UICONTROL **Startdatum**]: Välj ett datum i kalendern när delegeringen av dina arbetsposter ska börja.
 
@@ -118,7 +122,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
      >[!TIP]
      >
-     >Om du inte väljer ett slutdatum aktiveras delegeringen bara för den aktuella dagen.
+     >Om du låter fältet Slutdatum vara tomt och alternativet Inget slutdatum inte är markerat, ställs delegeringen bara in för den aktuella dagen.
 
      ![](assets/delegate-box-expanded-in-home.png)
 
@@ -128,14 +132,14 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
    * Ditt arbete delegeras till den angivna användaren. Alla ofullständiga uppgifter eller utgåvor som har datum inom den tidsram du valde (inklusive nyligen tilldelade uppgifter, efter att delegeringen aktiverats) delegeras.
 
-   >[!TIP]
-   >
-   >   Slutförda arbetsuppgifter som har datum inom delegeringens tidsram delegeras inte.
+     >[!TIP]
+     >
+     >   Slutförda arbetsuppgifter som har datum inom delegeringens tidsram delegeras inte.
 
 
    * Du får ett meddelande i skärmens övre högra hörn som bekräftar att du har aktiverat delegering av ditt arbete till en annan användare. Namnet på delegatanvändaren visas i bekräftelsemeddelandet.
 
-   * En indikation på att dina uppgifter och utgåvor har delegerats till andra användare visas på de flesta områden där du kan se tilldelningar i [!DNL Workfront]. Mer information om vilka områden som inte innehåller delegaternas namn finns i [Översikt över delegeringsuppgifter och utgåvor](delegate-work-overview.md).
+   * En indikation på att dina uppgifter och utgåvor har delegerats till andra användare visas på de flesta områden där du kan se tilldelningar i [!DNL Workfront]. Mer information om vilka områden som inte innehåller delegaternas namn finns i [Delegera arbetsöversikt](delegate-work-overview.md).
 
    * The [!UICONTROL **Delegera**] knappen i [!UICONTROL Home] område ändras till [!UICONTROL **Redigera delegering**] ange att det finns en delegering på plats.
    <!--
@@ -151,9 +155,6 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
    * Användaren som du har valt som ombud får ett e-postmeddelande om delegeringen, om deras händelsemeddelanden är aktiverade.
 
      Mer information om hur du aktiverar personliga e-postmeddelanden finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## Redigera eller stoppa delegering
 
@@ -201,9 +202,9 @@ Du kommer åt [!UICONTROL Assignments] i följande områden:
 
 * Aktivitets- eller utgivningsrubriken
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
   The [!UICONTROL Assignments] fält i uppgifts- eller utgivningsrubriken ändras till [!UICONTROL Assignments and delegations].
+
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * The [!UICONTROL Workload Balancer] när uppgifter eller problem tilldelas manuellt
 
