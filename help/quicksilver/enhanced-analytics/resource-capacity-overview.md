@@ -7,16 +7,20 @@ description: Du kan bedöma om ett team är över, under eller i kapacitet när 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Visa resurskapaciteten i Förbättrad analys
 
+<!--Audited: 01/2024-->
+
 Du kan bedöma om ett team är över, under eller i kapacitet när du tittar på Ökad resursvisualisering för analyser i Adobe Workfront.
+
+De team som illustreras i resursvisualiseringen avser det hemteam med användare som har tilldelats arbetet under den angivna tidsperioden.
 
 ## Åtkomstkrav
 
@@ -56,9 +60,9 @@ Du måste ha följande:
 
 Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Lär dig mer om resurskapaciteten
+## Förstå resurskapaciteten visualisering
 
-Resurskapaciteten visar om ett team är över, under eller i kapacitet. Denna beräkning bygger på följande:
+Resurskapaciteten visas om ett team är över, under eller på kapaciteten. Denna beräkning bygger på följande:
 
 * **Tillgänglig kapacitet**: Det totala antalet timmar som ett hemteam har tillgängligt för att arbeta under den filtrerade tidsperioden
 
@@ -90,24 +94,25 @@ I Resurskapaciteten visas följande information:
 
   ![](assets/resource-capacity-under-capacity.png)
 
-När du hovrar över en rad visas det exakta antalet timmar för planerad kapacitet och tillgänglig kapacitet samt antalet timmar som hemteamet är över eller under kapacitet.
+När du hovrar över en teamrad visas det exakta antalet timmar för planerad kapacitet och tillgänglig kapacitet, liksom antalet timmar som hemteamet är över eller under kapacitet.
 
 Om du ser den här informationen blir det lättare att avgöra:
 
-* Om hemteamet var övertilldelat eller undertilldelat.
-* Det största projektet var att hemteamet fokuserade på.
-* Vilka hemteam som finns tillgängliga för jobbet.
+* Om teamet är överallokerat eller underallokerat.
+* Det största projektet är att hemteamet är fokuserat på.
+* Vilka team som finns tillgängliga för arbete.
 
 Om du vill veta hur du får de bästa data för den här visualiseringen kan du läsa [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visa resurskapaciteten som visualisering
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
+{{step1-to-analytics}}
+
 1. I den vänstra panelen väljer du **Folk**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
+1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret i diagrammets övre högra hörn.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,7 +130,15 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Håll muspekaren över teamlinjen för att se hur många timmar som fortfarande är tillgängliga för schemaläggning, hur många timmar hemteamet ska klara sig och det totala antalet arbetade timmar som är märkta som över, under eller som kapacitet.
+1. Hovra över teamlinjen för hemmabruk för att se följande:
+
+   * Hur många timmar som fortfarande är tillgängliga för schemaläggning
+   * Antal timmar som hemteamet har planerat att slutföra
+   * Det totala antalet arbetade timmar. Det totala antalet arbetade timmar kan ha följande etiketter:
+
+      * Över
+      * Under
+      * På kapaciteten.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 

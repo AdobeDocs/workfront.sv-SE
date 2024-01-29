@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan redigera en post i följande områden:
 
 * [Från detaljsidan för en post](#edit-a-record-from-the-records-details-page)
-* [Från tabellvyn för en posttyp](#edit-a-record-from-the-record-type-table-view)
+* [Från tabellvyn för en posttyp](#edit-a-record-from-the-table-view-of-a-record-type)
 
 ### Redigera en post från postens informationssida
 
@@ -181,3 +181,5 @@ Arbetsytan som du senast öppnade öppnas.
 
    * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
+<!--
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->

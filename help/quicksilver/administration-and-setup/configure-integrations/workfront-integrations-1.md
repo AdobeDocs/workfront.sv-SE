@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <li>Sök efter [!DNL Workfront] projekt, uppgifter och problem </li> 
      <li>Skapa [!DNL Workfront] personliga uppgifter </li> 
      <li>Skicka [!DNL Workfront] förfrågningar </li> 
-    </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]</a>.</p> </td> 
+    </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: artikelindex</a>.</p> </td> 
    <td> 
     <ul> 
      <li>Varje team i organisationen måste installera integreringen om mer än ett team vill använda den</li> 

@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Som Adobe Workfront-administratör kan du spåra användarändringar som utlösts i systemet under de senaste 90 dagarna med hjälp av granskningsloggar.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
 
 # Granskningsloggar
+
+<!--Audited: 01/2024-->
 
 Som Adobe Workfront-administratör kan du spåra användarändringar som utlösts i systemet under de senaste 90 dagarna med hjälp av granskningsloggarna som beskrivs nedan.
 
@@ -43,14 +45,14 @@ Följande fält registreras i alla poster i granskningsloggen:
   </tr> 
   <tr> 
    <td role="rowheader">Åtgärd</td> 
-   <td> Användarens åtgärd, till exempel Ändra, Skapa och Ta bort. </td> 
+   <td> Åtgärder som utförs av användaren, till exempel Ändra, Skapa och Ta bort. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objekt</td> 
-   <td> Namnet på det objekt som påverkas av åtgärden. </td> 
+   <td> Namnet på det objekt som påverkas som ett resultat av åtgärden. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Detaljer</td> 
+   <td role="rowheader">Information</td> 
    <td>Mer information om åtgärden. För musen över texten för att läsa hela meddelandet.</td> 
   </tr> 
   <tr> 
@@ -73,7 +75,7 @@ Följande fält registreras i alla poster i granskningsloggen:
 * [Jobbroller](#job-roles)
 * [Inloggningsförsök](#login-attempt)
 * [Prioritet](#priority)
-* [Projektinställningar](#project-preferences)
+* [Projektinställningar](#project-preference)
 * [Allvarlighetsgrad](#severity)
 * [Status](#status)
 * [Inställningar för uppgifter och ärenden](#tasks-issues-preferences)
@@ -90,11 +92,11 @@ Systemet genererar en loggpost på åtkomstnivå när en användare utför någo
    * Ändrar licenstypen
    * Ändrar behörigheter till projekt, uppgifter, ärenden, Portfolio, program, rapporter, dokument, användare eller mallar
 
-      >[!NOTE]
-      >
-      >Systemet registrerar inte några behörighetsändringar i finansiella data eller inom följande åtkomsttyper: Visa och redigera.
-      >
-      >Om en användare t.ex. ändrar åtkomsttypen Planering från Visa till Redigera, visas inte information i den nedrullningsbara menyn Finjustera inställningarna.
+     >[!NOTE]
+     >
+     >Systemet registrerar inte några behörighetsändringar i finansiella data eller inom följande åtkomsttyper: Visa och redigera.
+     >
+     >Om en användare t.ex. ändrar åtkomsttypen Planering från Visa till Redigera, visas inte information i den nedrullningsbara menyn Finjustera inställningarna.
 
 ### Företag {#company}
 
@@ -142,11 +144,11 @@ Systemet genererar en loggpost för anpassad fältgranskning när en användare 
    * Ändrar namn, etikett, instruktioner eller format
    * Ändrar visningstypen
 
-      Detta är bara tillgängligt om fältet är av någon av följande typer: en rad, stycke, listruta, kryssruta, alternativknapp
+     Detta är endast tillgängligt om fältet är en av följande typer: en rad, ett stycke, nedrullningsbar lista, kryssruta, alternativknapp
 
    * Ändrar fältstorleken
 
-      Detta är bara tillgängligt om fältet är av någon av följande typer: enkel rad, stycke, text med formatering
+     Detta är endast tillgängligt om fältet är en av följande typer: en rad, ett stycke, text med formatering
 
    * Lägger till, tar bort eller döljer ett fältval
    * Redigerar en etikett eller ett värde för fältval
@@ -175,7 +177,7 @@ Systemet genererar en anpassad Forms-granskningsloggpost när en användare utf�
    * Aktiverar eller inaktiverar Uppdatera tidigare beräkningar
    * Lägger till eller ändrar hopplogik eller visningslogik
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -265,7 +267,7 @@ Systemet genererar en post i prioritetsgranskningsloggen när en användare utf�
 
 Mer information om hur du konfigurerar prioriteringar finns i [Skapa och anpassa prioriteringar](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-### Projektinställningar {#project-preferences}
+### Projektinställningar {#project-preference}
 
 Systemet genererar en granskningsloggpost för projektinställningar när en användare utför någon av följande åtgärder:
 
@@ -331,17 +333,17 @@ Systemet genererar en loggpost för användargranskning när en användare utfö
 
 * Skapar en användare
 
-   <!--
+  <!--
   DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
   
   -->
 
-   >[!NOTE]
-   >
-   >Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.
+  >[!NOTE]
+  >
+  >Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
 * Tar bort en användare
 * Ändrar en användares åtkomstnivå, företag, team eller grupp
-* Aktiverar en användare
+* Aktivera en användare
 * Inaktiverar en användare

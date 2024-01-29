@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Skapa ett styrkort
 description: Ett styrkort mäter hur väl ett projekt överensstämmer med de tidigare fastställda kriterierna för en portfölj. Ett styrkort avspeglar ofta en organisations uppdrag, värderingar och strategiska mål. Chefer för Portfolio definierar vanligtvis styrkortsfrågor och svar för att säkerställa att de är meningsfulla och värdefulla vid projektprioritering och urval. An [!DNL Adobe Workfront] administratören bygger styrkort baserat på rekommendationer från portföljförvaltare.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Skapa ett styrkort
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -34,27 +36,33 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>[!UICONTROL Business] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Aktuell: [!UICONTROL Business] eller högre</p> 
+   eller
+   <p>Nytt: [!UICONTROL Prime] eller högre</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td><p>Aktuell:[!UICONTROL Plan]</p>
+   eller
+   <p>Nytt: [!UICONTROL Standard]</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Skapa ett styrkort
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicka **[!UICONTROL Scorecards]** och sedan klicka **[!UICONTROL New Scorecard]** om du vill skapa ett nytt styrkort och starta styrkortsverktyget.
+1. Klicka **[!UICONTROL Scorecards]** och sedan klicka **[!UICONTROL New Scorecard]** för att starta styrkortsverktyget och skapa ett styrkort.
 
 1. Ange en **[!UICONTROL Scorecard Name]** och **[!UICONTROL Description]**.
 
    Namnet visas när du associerar styrkortet med projektet. Beskrivningen visas bredvid styrkortets namn i styrkortslistan.
 
-1. Klicka på **[!UICONTROL Add Question]** nedrullningsbar meny för att öppna [!UICONTROL scorecard question] och sedan ange följande information för din fråga:
+1. Klicka på **[!UICONTROL Add Question]** nedrullningsbar meny där [!UICONTROL scorecard question] och sedan ange följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -70,7 +78,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Negative Points]</td> 
-      <td>Välj det här alternativet om du vill ange att [!DNL Workfront] ska subtrahera från de totala möjliga punkterna. Negativa poäng kan inte läggas till i maximalt möjliga poäng i ett styrkort.</td> 
+      <td>Välj det här alternativet om du vill ange att [!DNL Workfront] ska subtrahera från de totala möjliga poängen. Negativa poäng kan inte läggas till i maximalt möjliga poäng i ett styrkort.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Display Type]</td> 
@@ -86,14 +94,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >
    >Du kan ändra ordningen på frågorna i styrkortet genom att dra och släppa frågorna i rätt ordning.
 
-1. Klicka **[!UICONTROL Save]** när du är klar med datainmatningen.
+1. Klicka **[!UICONTROL Save]** när du är klar med att ange all information.
+
+   Detta skapar styrkortet och projektledare kan nu bifoga det till projektärendet.
 
 ## Tillämpa ett styrkort på ett projekt
 
 En användare med [!UICONTROL manage] behörigheter för ett projekt kan tillämpa ett styrkort på ett projekt efter att styrkortet har skapats av [!DNL Workfront] administratör.
 
 Ett styrkort läggs till i ett projekt som en del av skapandet av ett affärsärende för projektet. Mer information om hur du lägger till ett styrkort i ett projekt finns i [Tillämpa ett styrkort på ett projekt och generera ett justeringsresultat](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
-
-Mer information om hur du skapar styrkort finns i [Skapa ett styrkort](#create-a-scorecard).
 
 Mer information om projektbehörigheter finns i [Dela ett projekt i [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

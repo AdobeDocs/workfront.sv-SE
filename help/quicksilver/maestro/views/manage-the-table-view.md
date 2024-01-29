@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 0%
@@ -222,6 +222,9 @@ Du kan ha upp till 10 000 poster (eller rader) för en posttyp i Maestro.
 
    Posterna som du lägger till i tabellvyn sparas omedelbart och visas för alla användare som har behörigheten Visa eller högre på arbetsytan.
 
+   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
+        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+
 1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om postnamnet för att ändra ordning på raderna.
 
    >[!NOTE]
@@ -235,9 +238,9 @@ Du kan ha upp till 10 000 poster (eller rader) för en posttyp i Maestro.
         The changes you make to the row order are permanent and visible to all users who access the record type
     -->
 
-### Lägg till filter {#add-filters}
+<!-- this section below links from the timeline view; consider splitting them if they become different-->
 
-<!-- this section links from the timeline view; consider splitting them if they become different-->
+### Lägg till filter {#add-filters}
 
 Med filter kan du minska mängden information som visas på skärmen.
 
