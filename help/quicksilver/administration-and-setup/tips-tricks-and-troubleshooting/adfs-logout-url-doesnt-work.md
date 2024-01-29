@@ -5,18 +5,20 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Utloggnings-URL för ADFS fungerar inte
 description: Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Adobe Admin Console.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Utloggnings-URL för ADFS fungerar inte
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 ## Problem
 
-När du använder ADFS-utloggnings-URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0) får du en meddelandesida med felet: &quot;Det gick inte att komma åt webbplatsen. Försök att gå till webbplatsen igen.&quot;
+När du använder ADFS-utloggnings-URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0) får du en meddelandesida med följande fel:&quot;Det gick inte att komma åt webbplatsen. Försök att gå till webbplatsen igen.&quot;
 
 Om problemet kvarstår kontaktar du administratören för den här webbplatsen och anger följande referensnummer för att identifiera problemet: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
@@ -44,18 +46,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] licens</td> 
-   <td>Plan</td> 
+   <td> 
+   <p>Nytt: Standard</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör. Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront] administratör. Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Lösning
 
-1. Gå till ADFS-hanterarservern **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` egenskaper.
+1. Gå till din ADFS-hanterarserver **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` egenskaper.
 
 1. Under **[!UICONTROL Endpoints]** flik, klicka **[!UICONTROL Add]**.
 

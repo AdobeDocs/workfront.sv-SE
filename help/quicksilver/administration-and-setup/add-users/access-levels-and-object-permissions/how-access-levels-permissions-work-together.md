@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: åtkomst,modell,tratt,diagram,nivåer,behörigheter
 navigation-topic: access-levels
 description: Adobe Workfront-administratören avgör vilken åtkomstnivå varje användare ska ha. Åtkomstnivån definierar vad användare kan se och göra med objekttyper och områden i systemet.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,8 @@ ht-degree: 0%
 
 Adobe Workfront-administratören avgör vilken åtkomstnivå varje användare ska ha. Åtkomstnivån definierar vad användare kan se och göra med objekttyper och områden i systemet.
 
-Dessutom får användare åtkomst till enskilda objekt när andra användare delar och ger vissa behörigheter för dessa objekt.
+Användarna får även åtkomst till enskilda objekt när andra användare delar och ger vissa behörigheter för dessa objekt.
 
-De aktiviteter som en användare kan göra med ett objekt definieras därför av en kombination av åtkomstnivån och behörigheterna som användaren får för det projektet.
 
 ![](assets/security-model-hierachy.png)
 

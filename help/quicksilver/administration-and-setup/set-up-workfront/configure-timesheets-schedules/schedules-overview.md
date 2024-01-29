@@ -6,11 +6,11 @@ keywords: användare,schema
 navigation-topic: configure-timesheets-and-schedules
 title: Översikt över scheman
 description: Du kan definiera din arbetsvecka med hjälp av scheman. Du kan associera ett schema med en användare eller ett projekt. Detta gör att [!DNL Adobe Workfront] för att beräkna tidslinjer och användartillgänglighet. Instruktioner finns i Skapa ett schema.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Översikt över scheman
 
+<!-- Audited: 1/2024 -->
+
 Du kan definiera din arbetsvecka med hjälp av scheman och associera ett schema med en användare eller ett projekt. Detta gör att [!DNL Adobe Workfront] för att beräkna tidslinjer och användartillgänglighet. Instruktioner finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Tänk på följande när du arbetar med scheman i Workfront:
 
 * The [!DNL Workfront] administratör identifierar arbetstiderna för organisationen i ett schema.
 
-  På samma sätt kan en gruppadministratör identifiera arbetstiderna för ett schema som administreras av en grupp som de hanterar.
-
-  Mer information om gruppadministratörer finns i [Gruppadministratörer](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  På samma sätt kan en gruppadministratör identifiera arbetstiderna för ett schema som administreras av en grupp som de hanterar. Mer information om gruppadministratörer finns i [Gruppadministratörer](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   Ett schema kan till exempel definieras som: måndag till fredag, 08:00 till 17:00, med en timbrytning till lunch.
 

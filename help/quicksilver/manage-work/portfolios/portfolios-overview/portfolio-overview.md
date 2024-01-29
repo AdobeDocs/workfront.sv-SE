@@ -7,14 +7,16 @@ description: Ett Portfolio är en samling projekt som har enhetliga egenskaper. 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Portfolio, översikt i [!DNL Adobe Workfront]
+
+<!-- Audited: 1/2024 -->
 
 Ett Portfolio är en samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp Portfolio i Program och associera projekten med Program innan de läggs till i Portfolio.
 
@@ -22,7 +24,12 @@ Du kan använda Portfolio och Program för att ordna projekt. Genom att organise
 
 ## Åtkomst krävs för att skapa portföljer
 
-Du måste ha [!UICONTROL Edit] behörighet till Portfolio på din åtkomstnivå för att skapa och hantera Portfolio, och du måste ha [!UICONTROL Manage] behörighet för Portfolio att kunna redigera den. Du måste ha [!UICONTROL View] behörigheter på Portfolio för att kunna se det.\
+Du måste ha följande åtkomst för att skapa och hantera portföljer:
+
+* [!UICONTROL Edit] behörighet till Portfolio på din åtkomstnivå för att skapa och hantera Portfolio
+* [!UICONTROL Manage] behörighet för Portfolio att kunna redigera den
+* [!UICONTROL View] behörighet för Portfolio att kunna se den
+
 Mer information om åtkomst till Portfolio finns i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
 Mer information om behörigheter till Portfolio finns i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 

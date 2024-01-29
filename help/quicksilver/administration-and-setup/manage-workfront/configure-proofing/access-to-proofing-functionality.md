@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Det finns för närvarande tre alternativa stavningsplaner för korrektur i Work
 
 * **Nya Workfront-planer**: Språkkontroll inkluderas automatiskt för alla licenser i de nya Workfront-planerna.
 * **Aktuella Workfront Pro+-planer**: Språkkontroll ingår automatiskt i Work- och Plan-licenser om du har ett Workfront-abonnemang för proffs, företag eller företag.
-* **Workfront Premium Legacy-planer**: Det här alternativet gäller äldre Workfront-planer - Select, Enterprise, Premium. Språkkontroll ingår inte automatiskt i licenserna i den här planen. Du måste ge korrekturåtkomst till specifika användare i deras användarprofil.
+* **Äldre Workfront Premium-planer**: Det här alternativet gäller äldre Workfront-planer - Select, Enterprise, Premium. Språkkontroll ingår inte automatiskt i licenserna i den här planen. Du måste ge korrekturåtkomst till specifika användare i deras användarprofil.
 
   Om du är Workfront-administratör kan du kontrollera och se vilken plan din instans är på genom att gå till Inställningar > System > Licenser.
 

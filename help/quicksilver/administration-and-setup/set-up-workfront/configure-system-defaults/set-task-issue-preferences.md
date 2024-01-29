@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1782'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
-   <td> <p>Bestämmer relationen mellan antalet resurser (och deras allokeringsprocent) och varaktigheten eller den totala ansträngningen för aktiviteten. Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Typ av aktivitetsvaraktighet och varaktighet</a></p> </td> 
+   <td> <p>Bestämmer relationen mellan antalet resurser (och deras allokeringsprocent) och varaktigheten eller den totala ansträngningen för aktiviteten. Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Typer av varaktighet och varaktighet för aktivitet: artikelindex</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
@@ -271,7 +271,7 @@ Låsa eller låsa upp en uppgift eller en utgåva så att grupper kan konfigurer
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klicka på **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks & Issues]**.
+1. Klicka **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks & Issues]**.
 
 1. Gör något av följande:
 

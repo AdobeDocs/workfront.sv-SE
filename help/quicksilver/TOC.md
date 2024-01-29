@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
 workflow-type: tm+mt
-source-wordcount: '13886'
+source-wordcount: '13888'
 ht-degree: 0%
 
 ---
@@ -1337,7 +1337,7 @@ ht-degree: 0%
          * [Översikt över aktivitetsbegränsning: Så sent som möjligt](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [Uppdatera aktivitetsbegränsningen för en uppgift](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
       * Typ av aktivitetsvaraktighet och varaktighet {#task-duration-and-duration-types}
-         * [Typ av aktivitetsvaraktighet och varaktighet](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+         * [Typer av varaktighet och varaktighet för aktivitet: artikelindex](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [Översikt över aktivitetsvaraktighet och varaktighetstyp](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [Översikt över varaktighetstyp: Beräknat uppdrag](manage-work/tasks/taskdurtn/calculated-assignment.md)
          * [Översikt över varaktighetstyp: ansträngningsstyrd](manage-work/tasks/taskdurtn/effort-driven.md)
