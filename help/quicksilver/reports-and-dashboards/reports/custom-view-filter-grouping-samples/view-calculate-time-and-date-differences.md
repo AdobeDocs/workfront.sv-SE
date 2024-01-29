@@ -7,14 +7,16 @@ description: Lär dig att beräkna tid- och datumskillnader.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
+source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # Visa: beräkna tid- och datumskillnader
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 Du kan beräkna skillnaden mellan följande:
 
 * Tid- och datumskillnaden mellan två datumfält i samma objekt
-* Tid- och datumskillnaden mellan fältet i ett objekt och ett annat fält i det överordnade objektet
+* Tid- och datumskillnaden mellan ett fält i ett objekt och ett annat fält i det överordnade objektet
 
 >[!TIP]
 >
@@ -38,34 +40,33 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: </p><ul><li><p>Medarbetare som ändrar en vy </p></li><li>
+   <p>Standard för att ändra en rapport</p></li></ul><p>eller</p><p>Aktuell:</p><ul><li><p>Begäran om att ändra en vy </p></li><li>
+   <p>Planera att ändra en rapport</p> </li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Beräkna tiden och datumskillnaden mellan två datumfält i samma objekt
 
 Du kan till exempel beräkna skillnaden mellan Planerat slutförandedatum och Faktiskt slutförandedatum för en aktivitet.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-350x92.png)
+![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Gå till en lista med uppgifter.
 1. Från **Visa** nedrullningsbar meny, klicka **Ny vy**.
@@ -80,7 +81,12 @@ Du kan till exempel beräkna skillnaden mellan Planerat slutförandedatum och Fa
 1. Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med följande kod:
 
    ```
-   displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
+    displayname=Planned-Actual Completion Date
+    linkedname=direct
+    querysort=plannedCompletionDate
+    textmode=true
+    valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)
+    valueformat=HTML
    ```
 
 1. Klicka **Spara** sedan **Spara vy**.
@@ -90,7 +96,7 @@ Du kan till exempel beräkna skillnaden mellan Planerat slutförandedatum och Fa
 En lista över objekt och deras överordnade objekt finns i avsnittet Förstå det inbördes beroendet och objekthierarkin i [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet för en aktivitet och det planerade slutförandedatumet för den överordnade aktiviteten, eller för projektet som aktiviteten är på.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-350x184.png)
+![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Gå till en lista med uppgifter.
 1. Från **Visa** nedrullningsbar meny, klicka **Ny vy**.
@@ -107,13 +113,18 @@ Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet
    * Så här visar du skillnaden mellan projektets planerade slutförandedatum och aktivitetens datum:
 
      ```
-     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+      displayname=Project Planned Completion - Task Planned Completion (Days)
+      textmode=true
+      valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      valueformat=HTML
      ```
 
    * Så här visar du skillnaden mellan planerat slutförandedatum för den överordnade aktiviteten och aktivitetens datum:
 
      ```
-     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      textmode=true<br>valueformat=HTML
+      displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
 1. Klicka **Spara** sedan **Spara vy**.
