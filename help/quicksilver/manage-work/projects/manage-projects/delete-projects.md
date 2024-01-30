@@ -2,84 +2,57 @@
 title: Ta bort projekt
 product-area: projects
 navigation-topic: manage-projects
-description: Du kan ta bort ett projekt om projektet och dess data inte längre behövs.
+description: Du kan ta bort ett projekt om projektet och dess data inte längre behövs. Som ett alternativ till att ta bort ett projekt rekommenderar vi att du redigerar projektet och ändrar statusen till Fullständigt eller Dölj. Detta tar bort alla aktuella uppgifter som är relaterade till projektet från en användares uppgiftslista, men sparar alla data som är kopplade till projektet.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+recommendations: noDisplay, noCatalog
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Ta bort projekt
 
+<!--Audited: 01/2024-->
+
 Du kan ta bort ett projekt om projektet och dess data inte längre behövs.
 
 Som ett alternativ till att ta bort ett projekt rekommenderar vi att du redigerar projektet och ändrar statusen till Fullständigt eller Dölj. Detta tar bort alla aktuella uppgifter som är relaterade till projektet från en användares uppgiftslista, men sparar alla data som är kopplade till projektet.
 
+Du kan ta bort ett projekt i en projektlista eller på projektnivå.
+
 ## Åtkomstkrav
 
-<!-- drafted for P&P:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>Adobe Workfront</p> </td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
+   <td> <p>Adobe Workfront-licens*</p> </td> 
+   <td> <p>Aktuell licens: Planera </p> 
+   eller
+   <p>Ny licens: Standard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Åtkomstnivåkonfiguration</td> 
+   <td> <p>Redigera åtkomst till projekt med möjlighet att skapa och ta bort projekt</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt, uppgifter, problem med möjlighet att ta bort projekt, uppgifter och problem</p> <p><b>ANMÄRKNING</b></p>
-
-<p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för projektet, uppgifter och problem med projektet med möjlighet att ta bort projektet, uppgifterna och problemen. </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Objektbehörigheter </p> </td> 
+   <td> <p>Redigera åtkomst till projekt, uppgifter, problem med möjlighet att ta bort projekt, uppgifter och problem</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-Du kan ta bort ett projekt i en projektlista eller på projektnivå.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förstå processen med att ta bort projekt
 
@@ -125,7 +98,7 @@ Du kan ta bort ett projekt i en projektlista eller på projektnivå.
 
      Du kan inte ta bort ett projekt som har faktureringsposter med statusen Fakturerad. Mer information finns i [Skapa faktureringsposter](../../projects/project-finances/create-billing-records.md).
 
-* Beroende på hur din Workfront-administratör konfigurerar inställningarna för projekt, uppgift eller borttagning av problem i tidrapport och timinställningar för din Workfront-instans, hanteras timmar som är loggade för uppgifter, problem eller projektet på något av följande sätt när du tar bort projektet:
+* Beroende på hur din Workfront-administratör konfigurerar inställningarna för projekt, uppgift eller borttagning av problem i tidrapportinställningarna för din Workfront-instans, hanteras timmar som är loggade för uppgifter, problem eller projektet på något av följande sätt när du tar bort projektet:
 
    * Timmarna finns kvar på tidrapporten som allmän tid.
    * Timmarna tas bort och återställs om projektet återställs.
@@ -138,7 +111,7 @@ Du kan ta bort ett projekt i en projektlista eller på projektnivå.
    * Om projektet som du tar bort är länkat till det enda publicerade initiativet från en plan, tas även indikationen på att planen har publicerats bort.
    * Om du återställer ett borttaget projekt återställs projektet, men länken till projektet återställs inte och området för scenarioplanering visas inte längre i Projektinformation.
 
-     Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevelsen och kräver ytterligare en licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+     Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
      Mer information om projekt som är kopplade till initiativ i scenarioplanen finns i [Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -166,7 +139,7 @@ Du kan ta bort projekt från en lista med projekt.
 ## Ta bort ett projekt på projektnivå
 
 1. Gå till det projekt som du vill ta bort.
-1. Klicka på **Mer** icon ![](assets/qs-more-menu.png)och sedan klicka **Ta bort projekt**.
+1. Klicka på **Mer** icon ![](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Ta bort projekt**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

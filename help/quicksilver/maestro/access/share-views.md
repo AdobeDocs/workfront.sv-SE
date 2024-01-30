@@ -4,9 +4,9 @@ description: Du kan dela en vy med andra för att säkerställa samarbete när d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Visa
+
+{{maestro-important-intro}}
 
 Du kan dela en vy med andra för att säkerställa samarbete när du arbetar i Adobe Workfront Maestro.
 
@@ -107,6 +109,8 @@ Så här delar du en vy med andra:
    * Hantera
 
      Mer information om behörighetsnivåer och vilka åtgärder användare kan utföra för varje nivå finns i [Översikt över delningsbehörigheter i Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Klicka **Kopiera länk** om du vill kopiera en länk till vyn till Urklipp.
+1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
 1. Klicka **Spara**.
 
 

@@ -1,26 +1,32 @@
 ---
 content-type: overview
 title: Översikt över det övre navigeringsfältet
-description: Det övre navigeringsfältet, som visas högst upp på skärmen i det nya [!DNL Adobe Workfront] -gör att du enkelt kan hitta och navigera till andra delar av plattformen.
+description: Det övre navigeringsfältet som visas högst upp på skärmen i [!DNL Adobe Workfront] - gör det enkelt att hitta och navigera till andra delar av plattformen.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
 # Översikt över det övre navigeringsfältet
 
-Det övre navigeringsfältet, som visas högst upp på skärmen i [!DNL Adobe Workfront] gör att du enkelt kan hitta och navigera till andra delar av plattformen.
+<!--Audited: 01/2024-->
+
+Det övre navigeringsfältet som visas högst upp på skärmen i [!DNL Adobe Workfront] - gör det enkelt att hitta och navigera till andra delar av plattformen.
 
 ![Övre navigeringsfältet](assets/global-navigation-bar.png)
 
 ## [!UICONTROL Home] icon
 
-The **[!UICONTROL Home]** icon ![](assets/home-icon.png) tar dig till [!UICONTROL Home] sida, som är standardlandningssida. Mer information om Hem finns i [Använd [!UICONTROL Home] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+The **[!UICONTROL Home]** icon ![](assets/home-icon.png) tar dig till [!UICONTROL Home] sida, som är standardlandningssida.
+
+Som standard öppnas området Hem med Hem-ikonen. Mer information om Hem finns i [Använd [!UICONTROL Home] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+
+Workfront-administratören kan anpassa hemikonen för att öppna en annan sida genom att skapa en layoutmall och tilldela den till dig. Mer information finns i [Anpassa landningssidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## Fastnålade sidor
 
@@ -36,11 +42,17 @@ Mer information om Hjälp-menyn finns i [Åtkomst [!DNL Adobe Workfront] help](.
 
 Den blå numrerade rutan ![](assets/notifications-icon.png) i skärmens övre högra hörn öppnas en lista med meddelanden.
 
-Mer information om meddelanden finns i [Visa och hantera meddelanden i appen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Du kommer åt följande på menyn Meddelanden:
+
+* **Meddelanden**: Detta är varningar som genereras av Workfront när vissa villkor uppfylls för att du ska få reda på vilken information som kan behöva din uppmärksamhet.
+
+* **Meddelanden**: Meddelanden från Workfront-administratören om viktiga ämnen.
+
+Mer information om meddelanden och meddelanden finns i [Visa och hantera meddelanden i appen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## [!UICONTROL Favorites] meny
 
-The **[!UICONTROL Favorites]** icon ![Favoriter](assets/favorites-icon-62x55.png) öppnar en lista med sidor i systemet som du har beställt. Du kan lägga till sidan som du är på från den här menyn.
+The **[!UICONTROL Favorites]** icon ![Favoriter](assets/favorites-icon-62x55.png) öppnar en lista med sidor i systemet som du har markerat som favoriter. Du kan lägga till sidan som du är på från den här menyn.
 
 Mer information om favoriter finns i [Visa och hantera favoriter](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
@@ -64,7 +76,7 @@ Mer information om sökning finns i [Sök [!DNL Adobe Workfront]](../../workfron
 >
 > Om din organisation har anslutit sig till [!DNL Adobe Experience Cloud], se [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-The **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) öppnar [!UICONTROL Main Menu]som gör att du kan navigera till en annan del av Workfront.
+The **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) öppnar [!UICONTROL Main Menu], där du kan navigera till ett annat område i Workfront.
 
 De alternativ som är tillgängliga i [!UICONTROL Main Menu] är beroende av:
 
@@ -74,7 +86,9 @@ De alternativ som är tillgängliga i [!UICONTROL Main Menu] är beroende av:
 
 ![Alternativ på huvudmenyn](assets/main-menu-options-350x481.png)
 
-Varje ikon tar dig till en annan plats i det nya [!DNL Adobe Workfront] upplevelse. Mer information om de olika områdena finns i:
+Varje ikon tar dig till olika delar av Workfront.
+
+Mer information om de olika områdena finns i:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
@@ -113,7 +127,7 @@ Varje ikon tar dig till en annan plats i det nya [!DNL Adobe Workfront] upplevel
  </tbody> 
 </table>
 
-Nedanför dessa alternativ i dialogrutan [!UICONTROL Main Menu]kan du komma åt:
+I den nedre delen av huvudmenyn finns följande:
 
 <table style="table-layout:auto"> 
  <col> 

@@ -6,37 +6,14 @@ description: Du kan använda smidiga funktioner i ditt projekt utan de administr
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Hantera ett projekt i flexibel vy
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet eller skapa iterationer).
 
@@ -51,30 +28,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td> <p>Aktuell: Granska eller senare</p> 
+   <p>Nytt: Medarbetare eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
    <td> <p>Redigera åtkomst till följande områden:</p> 
     <ul> 
      <li> <p>Projekt</p> </li> 
      <li> <p>Rapporter, instrumentpaneler, kalendrar</p> </li> 
      <li> <p>Filter, vyer, grupperingar</p> </li> 
-    </ul> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter för projektet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förstå Agile-projekt
 
@@ -111,7 +89,9 @@ Det finns vissa skillnader mellan att använda rörliga vyer i ett projekt och a
 * Uppgifter som varken har en överordnad uppgift eller en underuppgift visas alltid som ett artikelkort på artikelpanelen.\
   Följande uppgifter visas till exempel i projektlistvyn:
 
-  ![Flexibel projektlista - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-single-list-nwe.png) Följande uppgifter visas i projektvyn:
+  ![Flexibel projektlista - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-single-list-nwe.png)
+
+  Följande uppgifter visas i projektvyn:
 
   ![Projektflexibel vy - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 ## Visa ett projekt i Agile-vyn
 
 1. Gå till det projekt som du vill visa i en flexibel vy, antingen i uppgiftslistan eller i problemlistan.
-1. Klicka på **Styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png).
+1. Klicka på **Styrelsevy** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png).
 
    Vyn i projektvyn visas som standard.
 
@@ -210,7 +190,9 @@ Mer information om hur du skapar och anpassar flexibla vyer finns i [Skapa eller
 >
 >Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
-Mer information om hur du delar en flexibel vy finns i [Dela ett filter, en vy eller en grupp](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Du kan dela en Agile-vy som du har skapat eller ha behörighet till på samma sätt som du delar andra vyer, eller filtrera eller gruppera.
+
+Mer information finns i [Dela ett filter, en vy eller en grupp](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Ta bort en befintlig Agile-vy
 
@@ -218,4 +200,6 @@ Mer information om hur du delar en flexibel vy finns i [Dela ett filter, en vy e
 >
 >Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
-Mer information om hur du tar bort en vy finns i avsnittet Ta bort en vy i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Du kan ta bort en Agile-vy på samma sätt som du tar bort andra vyer, filter eller grupperingar.
+
+Mer information finns i [Ta bort filter, vyer och grupperingar](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

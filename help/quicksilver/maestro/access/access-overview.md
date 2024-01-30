@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,7 @@ ht-degree: 0%
 
 # Åtkomstöversikt
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att få tillgång till Maestro.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Det finns begränsningar för licens- och delningsbehörighet för att använda Adobe Maestro-funktionerna.
 

@@ -4,7 +4,7 @@ description: Du kan redigera postinformation i Adobe Maestro och associera varje
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Visa eller högre behörigheter på en arbetsyta </p>  
-   <p>Visa eller högre behörigheter i tabellvyn </p> 
+   <td> <p>Contribute eller högre behörighet till en arbetsyta </p>  
+   <p>Contribute eller högre behörigheter till tabellvyn </p> 
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>

@@ -3,19 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: Skapa och redigera företag
-description: Du kan lägga till företag i [!DNL Workfront] och använda dem för ekonomisk planering, rapportering, för att definiera behörigheter kring objekt och för att hålla information konfidentiell.
-author: Caroline
+description: Du kan lägga till företag i [!DNL Adobe Workfront] och använda dem för ekonomisk planering, rapportering, för att definiera behörigheter kring objekt och för att hålla information konfidentiell.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera företag
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -30,33 +32,36 @@ Du måste ha följande för att kunna hantera företag i [!DNL Workfront]:
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] plan*</p> </td> 
-   <td>[!UICONTROL Team] eller högre</td> 
+   <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] licens*</p> </td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Aktuell: [!UICONTROL Plan]</p>
+   eller
+   <p>Nytt: [!UICONTROL Standard]</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
    <td> <p>Något av följande:</p> 
     <ul> 
-     <li> <p>The [!UICONTROL System Administrator] åtkomstnivå som gör att du kan redigera vilket företag som helst i systemet. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p>Administrativ åtkomst för att hantera företag, vilket gör att du kan redigera vilket företag som helst i systemet. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </li> 
+     <li> <p>The [!UICONTROL System Administrator] åtkomstnivå som gör att du kan redigera vilket företag som helst i systemet. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
+     <li> <p>Administrativ åtkomst för att hantera företag, vilket gör att du kan redigera vilket företag som helst i systemet. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </li> 
     </ul> <p><b>ANMÄRKNING</b>:  
      <ul> 
       <li> <p>Du kan också hantera företag som är kopplade till en grupp där du har tilldelats som gruppadministratör.</p> </li> 
       <li> <p>För att lägga till och ta bort användare från [!DNL Workfront] måste du ha något av följande:</p> 
        <ul> 
         <li> <p>The [!UICONTROL System Administrator] åtkomstnivå. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-        <li> <p>På din åtkomstnivå [!UICONTROL Edit] måste väljas för [!UICONTROL Users] inställning. För [!UICONTROL Users] inställning, under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> , [!UICONTROL Create] och minst ett av de två [!UICONTROL User Admin] måste vara aktiverade. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Om du använder [!UICONTROL User Admin (Group Users)] måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
+        <li> <p>På din åtkomstnivå [!UICONTROL Edit] måste väljas för [!UICONTROL Users] inställning. För [!UICONTROL Users] inställning, under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">, [!UICONTROL Create] och minst ett av de två [!UICONTROL User Admin] måste vara aktiverade. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Om du använder [!UICONTROL User Admin (Group Users)] måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
        </ul> <p>Mer information om inställningen Användare på en åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har kontaktar du [!DNL Workfront] administratör.
+&#42;Om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har kontaktar du [!DNL Workfront] administratör. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Fördelar med att lägga till användare i ett företag {#benefits-of-adding-users-to-a-company}
 
@@ -82,16 +87,18 @@ Som standard är det företag som är associerat med din instans av [!DNL Workfr
 
 Så här lägger du till eller redigerar ett företag:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{#step-1-to-setup}
 
 1. Klicka på **[!UICONTROL Companies]**.
+
+   En lista över företag visas.
 1. Om du lägger till ett företag klickar du på **[!UICONTROL New Company]**.
 
    eller
 
-   Om du redigerar ett befintligt företag väljer du företaget och klickar sedan på **[!UICONTROL Edit]**.
+   Om du redigerar ett befintligt företag väljer du företaget och klickar sedan på **[!UICONTROL Edit]** överst i företagslistan.
 
-1. Använd alternativen som visas för att konfigurera följande information:
+1. Uppdatera följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,18 +111,18 @@ Så här lägger du till eller redigerar ett företag:
         <li> <p><b>[!UICONTROL Company Name]</b>: Ange ett namn för företaget.</p> </li> 
         <li> <p><b>[!UICONTROL Is Active]</b>: När det här alternativet är aktiverat kan användarna hitta företaget och bifoga det till projekt som de skapar och redigerar. Ett inaktivt företag kan inte bifogas till projekt. Det här alternativet är aktiverat som standard.</p> </li> 
         <li> <p><b>[!UICONTROL This is the Primary Company]</b>: Tilldelar företaget som din organisations primära företag. Det primära företaget representerar vanligtvis din [!DNL Workfront] där de flesta av dina användare arbetar.</p> <p>Du kan ha ett företag eller inget företag angivet som primärt företag, men du kan inte ha flera företag angivna som primärföretag. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> <p><b>ANMÄRKNING</b>: Genom att ändra åtkomstnivåerna kan du begränsa användarnas möjlighet att se andra användare: endast i det primära företaget eller i det tillhörande företaget och det primära företaget. Mer information om hur huvudföretaget fungerar med användarnas åtkomstnivåer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </li> 
-        <li> <p><b>[!UICONTROL Group]</b>: Om det finns en grupp som gör affärer med företaget kan du lägga till namnet på gruppen här. Detta är användbart för gruppadministratörer som behöver rapportera om och hantera alla företag som deras grupper gör affärer med.</p> <p><b>VIKTIGT</b>: Om du inte associerar gruppen som ska arbeta med det här företaget kan inte administratörer för gruppen komma åt den såvida de inte har administrativ åtkomst till företag på åtkomstnivå. Mer information om hur den här åtkomsten beviljas finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Börja skriva namnet på gruppen och tryck sedan på <strong>[!UICONTROL Enter]</strong> när den visas.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">När du tilldelar en grupp till ett företag, ökar gruppadministratörerna för gruppen [!UICONTROL Manage] åtkomst till företaget. Mer information finns i <a href="#group-administrators-and-companies" class="MCXref xref">Gruppadministratörer och företag</a> i den här artikeln.</p> </li> 
+        <li> <p><b>[!UICONTROL Group]</b>: Om det finns en grupp som gör affärer med företaget kan du lägga till namnet på gruppen här. Detta är användbart för gruppadministratörer som behöver rapportera om och hantera alla företag som deras grupper gör affärer med.</p> <p><b>VIKTIGT</b>: Om du inte associerar gruppen som ska arbeta med det här företaget kan inte administratörer för gruppen få åtkomst till företaget såvida de inte har administrativ åtkomst till företag på åtkomstnivå. Mer information om hur den här åtkomsten beviljas finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Börja skriva namnet på gruppen och tryck sedan på <strong>[!UICONTROL Enter]</strong> när den visas.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">När du tilldelar en grupp till ett företag, ökar gruppadministratörerna för gruppen [!UICONTROL Manage] åtkomst till företaget. Mer information finns i <a href="#group-administrators-and-companies" class="MCXref xref">Gruppadministratörer och företag</a> i den här artikeln.</p> </li> 
         <li> <p><b>[!UICONTROL Company Members]</b>: Lägg till befintliga användare i företaget. Genom att göra detta associerar du de här användarna med det här företaget.</p> <p>Det finns ingen gräns för hur många användare du associerar med ett företag, men en användare kan inte associeras med mer än ett företag.</p> </li> 
        </ul> </td> 
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] section</td> 
-      <td> <p>Om det finns fält som du vill lägga till i företaget som inte är tillgängliga i [!DNL Workfront]kan du skapa ett eget formulär och associera det med ditt företag. Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan. Endast aktiva företag visas i listrutan. Mer information om hur du skapar anpassade Forms finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>. </p> </td> 
+      <td> <p>Om det finns fält som du vill lägga till i företaget som inte är tillgängliga i [!DNL Workfront]kan du skapa ett eget formulär och associera det med ditt företag. </p> <p>Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan.</p> <p>Endast aktiva anpassade formulär visas i listrutan.</p> <p> Mer information om hur du skapar anpassade Forms finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Om du skapar ett nytt företag klickar du på **[!UICONTROL Create Company]**.
+1. (Villkorligt) Om du skapar ett företag klickar du på **[!UICONTROL Create Company]**.
 
    eller
 
@@ -129,7 +136,7 @@ Mer information om hur du hanterar medlemskap för ett befintligt företag finns
 
 Mer information om att åsidosätta faktureringssatser på företagsnivå finns i [Åsidosätt faktureringssatser för jobbroller på företagsnivå](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-## Om att dela objekt med företag
+## Översikt över att dela objekt med företag
 
 Vissa behörigheter är tillgängliga för användare som är kopplade till ett företag, vilket förklaras i avsnittet [Fördelar med att lägga till användare i ett företag](#benefits-of-adding-users-to-a-company). Förutom dessa behörigheter kan du ge användarna behörighet att visa, bidra till och redigera objekt i [!DNL Workfront] genom att dela objektet med företaget.
 

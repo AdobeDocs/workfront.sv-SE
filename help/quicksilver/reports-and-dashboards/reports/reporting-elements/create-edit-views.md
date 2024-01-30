@@ -6,7 +6,7 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -90,8 +90,8 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
         >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
         >   
         >   * Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
-        >   * Faktiska timmar sammanställer värdena för huvuduppgiften och de fristående uppgifterna. de sammanställer inte siffrorna för överordnade och underordnade uppgifters överordnade uppgifter.
-        >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: föräldrar, barn, föräldrar till föräldrar och fristående uppgifter.
+        >   * Faktiska timmar sammanställer värdena för de huvudsakliga överordnade och de fristående aktiviteterna. De sammanställer inte siffrorna för de överordnade aktiviteternas överordnade eller underordnade aktiviteternas överordnade uppgifter.
+        >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter.
         >   
         >
 
@@ -134,26 +134,26 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
    >
    >The **Spara som ny vy** är det enda tillgängliga alternativet när du anpassar en inbyggd Workfront-vy.
 
-   Åtkomsten styr hur vyn sparas. Om du skapade vyn från början kan du spara ändringarna; i annat fall uppmanas du att spara en version. Tänk på att de ändringar du gör i vyn påverkar användare som vyn har delats med.
+   Åtkomsten styr hur vyn sparas. Om du skapade vyn från början kan du spara ändringarna. Annars uppmanas du att spara en version. Tänk på att de ändringar du gör i vyn påverkar användare som vyn har delats med.
 
 ### Skapa eller anpassa en Agile-vy {#create-or-customize-an-agile-view}
 
-Du kan skapa en ny Agile-vy eller anpassa en befintlig Agile-vy som du tidigare har skapat.
+Du kan skapa en Agile-vy eller anpassa en befintlig Agile-vy som du har skapat tidigare.
 
 >[!IMPORTANT]
 >
 >Flexibla vyer är bara tillgängliga när du visar ett projekt.
 
-Mer information om Agile-vyer finns i artikeln [Hantera ett projekt i Agile-vyn](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Mer information om Agile-vyer finns i artikeln [Hantera ett projekt i flexibel vy](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 >[!NOTE]
 >
->Den här proceduren gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
+>Den här proceduren gäller endast för den äldre Agile-vyn, inte för en projektvy.
 
 Så här skapar eller anpassar du en Agile-vy:
 
 1. Gå till listan med uppgifter i ett projekt.
-1. Klicka på **styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png)och klicka sedan på **Använd äldre flexibilitet** i styrelseläget.
+1. Klicka på **Styrelse** icon ![Ikon för anslagstavla](assets/board-icon-for-agile-view.png)och klicka sedan på **Använd äldre flexibilitet** i styrelseläget.
 
 1. (Villkorligt) Så här anpassar du en befintlig Agile-vy:
 
@@ -163,7 +163,7 @@ Så här skapar eller anpassar du en Agile-vy:
    1. Klicka på **Visa** nedrullningsbar meny igen och klicka sedan på **Anpassa vy**.\
       ![](assets/view-agile-customize.png)
 
-1. (Villkorligt) Klicka på **Ny vy**.\
+1. (Villkorligt) Om du vill skapa en ny Agilvy klickar du på **Ny vy**.\
    The **Anpassa flexibel vy** visas.
 
 1. I **Anpassa flexibel vy** anger du ett namn för vyn Agile.\
@@ -211,14 +211,14 @@ Så här skapar eller anpassar du en Agile-vy:
       <td>Alla underaktiviteter matchar färgen för den överordnade uppgiften, så att färgerna för alla artiklar i en viss simbana är desamma.<br>Färger tilldelas slumpmässigt till aktiviteter när de skapas om aktiviteten inte har några underaktiviteter eller inte har någon överordnad aktivitet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fri form:</strong> </td> 
+      <td role="rowheader"><strong>Kostnadsfri form:</strong> </td> 
       <td> Alla kort visas som blått som standard tills användaren ändrar färgen manuellt enligt beskrivningen i artikeln <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Kategorisera artiklar efter färg på Scrum board</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Prioritet:</strong> </td> 
       <td> <p> Färgerna kopplas till artikelprioriteten enligt följande:</p> 
        <ul> 
-        <li>Hög = röd</li> 
+        <li>Hög = Röd</li> 
         <li>Medel = gul</li> 
         <li>Låg = Grön<br>Om Workfront-administratören har konfigurerat anpassade prioriteringar för ditt Workfront-system är den högsta prioriteten röd, den näst högsta gula och den återstående är grön.</li> 
        </ul> </td> 
@@ -238,7 +238,7 @@ Så här skapar eller anpassar du en Agile-vy:
 
    * Artikelnamn med en länk direkt till uppgiften
    * Projektnamnet med en länk direkt till projektet\
-     Den här länken visas endast när den flexibla vyn används på en iteration. den visas inte när du använder en Agile-vy i ett projekt.
+     Den här länken visas bara när du använder den flexibla vyn på en iteration. Den visas inte när du använder en Agile-vy i ett projekt.
    * Uppgiftsbeskrivningen
    * Aktuellt åtagande
    * Visa och redigera procentandelen antingen genom att justera själva procentandelen eller genom att justera antalet punkter eller timmar som är klara
@@ -247,6 +247,6 @@ Så här skapar eller anpassar du en Agile-vy:
    Du kan visa ytterligare data (inklusive anpassade data) på artikelkort. Du kan visa ytterligare fält på artikelkort av någon anledning. Du kan till exempel visa Kund-ID om du arbetar med artiklar för flera kunder i projektet eller om du vill visa Startdatum för aktiviteten.
 
 1. Klicka **Spara**.\
-   Åtkomsten styr hur vyn sparas. Om du skapade vyn från början kan du spara ändringarna; i annat fall uppmanas du att spara en version. Tänk på att de ändringar du gör i vyn påverkar användare som vyn har delats med.
+   Åtkomsten styr hur vyn sparas. Om du skapade vyn från början kan du spara ändringarna. Annars uppmanas du att spara en version. Tänk på att de ändringar du gör i vyn påverkar användare som vyn har delats med.
 
 1. (Valfritt) Klicka på **Lista** om du vill återgå till listan med uppgifter.

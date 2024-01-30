@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -37,27 +37,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td><p>Aktuell: Planera</p>
+   eller
+   <p>Nytt: Standard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
    <td> <p>Systemadministratör</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Skapa en ny e-postmall {#create-a-new-email-template}
+*Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+## Skapa en e-postmall {#create-an-email-template}
 
-1. Klicka på **E-post** > **Meddelanden**> **E-postmallar**.
+{{step-1-to-setup}}
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+1. Klicka på i den vänstra panelen **E-post** > **Meddelanden**> **E-postmallar**.
+
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klicka **Ny e-postmall**.
 
-1. I **Ny e-postmall** anger du följande information i rutan som visas:
+1. I **Ny e-postmall** anger du följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,24 +69,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <tbody> 
      <tr> 
       <td role="rowheader">Namn</td> 
-      <td>E-postmallens namn (obligatoriskt).</td> 
+      <td>Lägg till en rubrik för e-postmallen. Detta är ett obligatoriskt fält.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Objekttyp</td> 
-      <td>Ange den objekttyp som du vill associera mallen med (obligatoriskt, som standard ställs den in på"Utgåva").</td> 
-     </tr>
+      <td>Ange den objekttyp som du vill associera mallen med. Välj bland följande objekt:
+      <ul>
+      <li>Projekt</li>
+      <li>Uppgift</li>
+      <li>Problem</li>
+      <li>Tidrapport</li> </ul>
+
+   Detta är ett obligatoriskt fält och det är som standard inställt på Projekt.</td>
+   </tr>
      <tr> 
       <td role="rowheader">Beskrivning</td> 
-      <td>Beskrivning av mallen.</td> 
+      <td>Lägg till mer information om e-postmallen, dess syfte och avsedd målgrupp.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Ämne </td> 
-      <td>Ämne som visas när e-postmeddelandet skickas (obligatoriskt).</td> 
+      <td>Lägg till texten som visas på ärenderaden i e-postmeddelandet när e-postmeddelandet som genereras av mallen skickas. Detta är ett obligatoriskt fält.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Brödtext </td> 
-      <td> <p>Innehåll som visas när e-postmeddelandet skickas.</p> <p>Du kan använda HTML-formatering för e-postinnehållet enligt beskrivningen i <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Lägga till HTML-formatering i en e-postmall</a> i den här artikeln.</p> </td> 
+      <td> <p>Lägg till texten för e-postmeddelandets innehåll.</p> <p>Du kan använda HTML-formatering för e-postinnehållet, vilket beskrivs i avsnittet <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Lägga till HTML-formatering i en e-postmall</a> i den här artikeln.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ Innehållet i e-postmeddelandet för ett meddelande som varnar den som tilldelat
 
 Om du vill hämta jokertecknet för ett objekt gör du något av följande:
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* Gå till API-utforskaren och välj namnen på objekten på fliken Fält för ett objekt. Mer information om API Explorer finns i [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Använd värdet för värdefält som du hittar i en rapportvy i textläge. Mer information om värden för textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Använd `valuefield` det värde som du hittar i en rapportvy i textläge. Mer information om värden för textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  Värdet &quot;heading&quot; kan vara objektets namn, som du vill att det ska visas i e-postbrödtexten.
+The `heading` värdet kan vara namnet på objektet, som du vill att det ska visas i e-postbrödtexten.
 
 ### Länka till anpassade fält med HTML {#link-to-custom-fields-with-html}
 
-Du kan inkludera länkar till användare och anpassade fält med **$$** jokertecken som anger att e-postgeneratorn ska söka efter värden från databasen som är associerad med objektet. De måste finnas på båda sidor om databasattributreferensen.
+Du kan inkludera länkar till användare och anpassade fält med `$$` jokertecken som anger att e-postgeneratorn ska söka efter värden från databasen som är associerad med objektet. De måste finnas på båda sidor om databasattributreferensen.
 
 Om du till exempel lägger till följande text som HTML skulle den tilldelade användarens förnamn läggas till i påminnelsemeddelandet som är kopplat till en uppgift:
 

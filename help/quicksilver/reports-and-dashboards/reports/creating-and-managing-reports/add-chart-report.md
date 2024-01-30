@@ -6,22 +6,29 @@ description: Du kan förbättra dina rapporter genom att lägga till ett diagram
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett diagram i en rapport
 
+<!--Audited: 01/2024-->
+
 Du kan förbättra dina rapporter genom att lägga till ett diagram. Du kan lägga till diagram i befintliga rapporter eller i rapporter som du skapar.
 
-Innan du lägger till ett diagram i en rapport bör du skapa en vy och en gruppering för rapporten. De flesta diagram kan inte läggas till om inte informationen är grupperad i rapporten. Det enda diagram som kan läggas till utan gruppering är ett mätardiagram.\
-Mer information om hur du skapar en vy finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+Innan du lägger till ett diagram i en rapport bör du skapa en vy och en gruppering för rapporten.
+
+Du kan inte lägga till diagram i de flesta rapporter om du inte först grupperar informationen i rapporten. Det enda diagram som kan läggas till utan gruppering är ett mätardiagram.
+
+Mer information om vyer finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 Mer information om grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Om rapporten innehåller för många objekt skapas inget diagram. I det här fallet måste du också lägga till ett filter i rapporten för att minska antalet resultat i rapporten.\
+Om rapporten innehåller för många objekt skapas inget diagram. I det här fallet måste du också lägga till ett filter i rapporten för att minska antalet resultat i rapporten.
+
 Mer information om filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Åtkomstkrav
@@ -33,33 +40,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Aktuell: Planera </p>
+   eller
+   <p>Nytt: Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Lägga till ett diagram i en rapport
 
 1. Gå till en befintlig rapport eller skapa en ny rapport. Mer information om hur du skapar en ny rapport finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Villkorligt) Om du går till en befintlig rapport klickar du på **Rapportåtgärder** > **Redigera**.
 
-1. Se till att **Kolumner (vy)** har uppdaterats för att uppfylla rapportens behov.\
-   Mer information om hur du skapar eller ändrar rapportens vy finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. Se till att **Kolumner (vy)** har uppdaterats för att visa den information som du vill diagramma i rapporten.
+
+   Mer information om hur du skapar eller ändrar rapportens vy finns i [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Klicka på **Grupperingar** och lägga till en gruppering.
 
@@ -69,13 +79,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >* Grupperingar i textläge stöds inte i diagram. Mer information om grupperingar i textläge finns i [Redigera textläge i en gruppering](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Om du lägger till en enda gruppering som representerar ett mätvärde, visas alla diagram utom ett cirkeldiagram som gruppering med samma färg.
 
-   Mer information om grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Mer information om hur du skapar grupperingar finns i [Skapa grupperingar i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Välj **Diagram** -fliken.
 1. Klicka på en diagramtyp för att markera den.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. Du kan lägga till följande typer av diagram i en Adobe Workfront-rapport:
+1. Välj bland följande diagramtyper:
 
    * [Kolumndiagram](#column-chart)
    * [Stapeldiagram](#bar-chart)
@@ -100,12 +110,13 @@ Lägga till en **Kolumn** till rapporten:
 1. (Valfritt) **Gruppera kolumner**: Välj det här alternativet om du vill definiera hur du vill att kolumnerna ska grupperas.\
    Välj bland följande alternativ:
 
-   * Klicka på något av följande alternativ för att välja hur de grupperade kolumnerna ska visas:\
-     **- sida vid sida**
-     **- Staplad**
-     **- Staplad till 100 %**
+   * Klicka på något av följande alternativ för att välja hur de grupperade kolumnerna ska visas:
 
-   * Markera den gruppering som du vill ta med i diagrammet.
+      * **Sida vid sida**
+      * **Skiktat**
+      * **Staplad till 100 %**
+
+   * Välj den gruppering som du vill ta med i diagrammet från **Gruppera data efter** listruta.
    * (Valfritt) Välj **Egna färger** om du vill anpassa kolumnernas färger.\
      Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ Lägga till en **Liggande** till rapporten:
    Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
 
 1. (Valfritt) Välj **Visa i 3D** om du vill visa diagrammet i en tredimensionell vy.
-1. (Valfritt) Grupperingsfält**: Välj det här alternativet om du vill definiera hur du vill att staplarna ska grupperas.\
+1. (Valfritt) Välj **Gruppfält** för att definiera hur du vill att staplarna ska grupperas.\
    Välj bland följande alternativ:
 
-   * Klicka på något av följande alternativ för att välja hur de grupperade fälten ska visas:\
-     **- sida vid sida**
-     **- Staplad**
-     **- Staplad till 100 %**
+   * Klicka på något av följande alternativ för att välja hur de grupperade fälten ska visas:
 
-   * Markera den gruppering som du vill ta med i diagrammet.
+      * **Sida vid sida**
+      * **Skiktat**
+      * **Staplad till 100 %**
+
+   * Välj hur du vill gruppera informationen i diagrammet från **Gruppera data efter** listruta.
    * (Valfritt) Välj **Egna färger** om du vill anpassa färgerna i kolumnerna.\
      Mer information om hur du anpassar diagramfärger finns i [Anpassa diagramfärger](#customize-chart-colors).
 

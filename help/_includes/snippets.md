@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -248,6 +248,18 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 ## Steg 1 - Komma till Maestro - {#step1-to-maestro}
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Maestro]**.
+
+## Maestro important intro - {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
+>
+>För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
+>
+>Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
+>
+>Mer information om Maestro finns på [Adobe Maestro - översikt](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

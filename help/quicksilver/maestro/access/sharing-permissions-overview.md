@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,7 @@ ht-degree: 0%
 
 # Översikt över delningsbehörigheter i Adobe Maestro
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att få tillgång till Maestro.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan dela eller ta bort behörigheter till en Adobe Maestro-arbetsyta eller -vy.
 
@@ -63,6 +55,7 @@ Du kan dela följande objekt i Maestro:
    * Användare
    * Grupper
 * Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem.
+* Du kan dela en länk till en arbetsyta eller en vy från en posttypssida med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan eller posttypssidan som visas i den valda vyn.
 
 ## Delningsbehörigheter för Maestro-objekt
 
