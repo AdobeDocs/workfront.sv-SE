@@ -3,19 +3,21 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Rapporter
-description: Granska de här områdena för att få en förståelse för hur du använder rapportering i Adobe Workfront.
+description: Läs mer om rapportering i Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
-# Rapporter
+# Rapporter: artikelindex
+
+<!-- Audited: 1/2024 -->
 
 Det här avsnittet innehåller följande underavsnitt:
 
@@ -29,5 +31,3 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Översikt över rapportanvändning](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [Kalendrar: artikelindex](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Tips, tricks och felsökning för rapporter](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
-
-<!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

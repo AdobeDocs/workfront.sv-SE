@@ -7,14 +7,16 @@ description: I Activity by team-visualisering visas aktiviteter som inträffar u
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
 
 # Visa aktivitetsbaserad teamvisualisering i Förbättrad analys
+
+<!-- Audited: 12/2023 -->
 
 I Activity by team-visualisering visas aktiviteter som inträffar under en viss tidsperiod för ett hemteam, så att du kan förstå hur olika hemteam tillbringade sin tid i Adobe Workfront. Beroende på hur ditt hemteam är konfigurerat i Workfront kan den här visualiseringen ge dig olika insikter och svara på olika frågor.
 
@@ -23,7 +25,7 @@ I Activity by team-visualisering visas aktiviteter som inträffar under en viss 
 >Visualiseringen av projektaktiviteten liknar den här visualiseringen, men den visar aktivitet baserat på personer som har tilldelats till projekt i stället för personer som har tilldelats till ett hemteam.\
 >Mer information om projektaktivitetsvisualisering finns i [Visa projektaktivitetsvisualisering i Förbättrad analys](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png)
+![](assets/activity-by-team-350x113.png){width="700"}
 
 ## Åtkomstkrav
 
@@ -34,25 +36,30 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront</a></td> 
    <td> <p>Företag eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a></td> 
+   <td>
+      <p>Nytt:</p> 
+         <ul><li>Ljus eller högre</li></ul>
+      <p>Aktuell:</p>
+         <ul><li>Granska eller högre</li></ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst till projekt</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -64,15 +71,15 @@ De olika aktiviteterna visas i olika färger för att sammanfatta specifika hän
 
 * **Användare som är inloggade**: Lila rutor visar att personer i hemteamet loggade in den dagen. En mörkare ton anger att fler personer loggar in.
 
-   ![](assets/project-activity-users-logged-in.png)
+  ![](assets/project-activity-users-logged-in.png)
 
-* **Ändring av aktivitetsstatus**: Rutor visar att personer i hemteamet ändrade status för en uppgift den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
+* **Ändring av aktivitetsstatus**: Rutor för rosa visar att personer i hemteamet ändrade status för en uppgift den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
 
-   ![](assets/project-activity-task-status-changes.png)
+  ![](assets/project-activity-task-status-changes.png)
 
 * **Slutförda uppgifter**: Blå rutor visar att folk i hemteamet slutförde en uppgift den dagen. En mörkare ton anger att fler uppgifter slutförs.
 
-   ![](assets/project-activity-tasks-completed.png)
+  ![](assets/project-activity-tasks-completed.png)
 
 När du hovrar över en ruta visas det exakta antalet gånger som åtgärden har slutförts under en viss dag. Du kan välja ett team för att se en beskrivning av dessa aktiviteter för varje person i hemteamet.
 
@@ -87,7 +94,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 ## Visa Aktivitet efter teamvisualisering
 
 1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
-1. Välj **Folk**.
+1. I den vänstra panelen väljer du **Folk**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
@@ -95,11 +102,11 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Mer information om hur du använder datumintervallfiltret finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Villkorligt) Om du inte har ställt in teamfiltret lägger du till teamfiltret och väljer varje team som du vill se data för.
 
-   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    När du har lagt till filter visas data för upp till 50 projekt och filtren förblir aktiva även när du lämnar sidan eller loggar ut från Workfront.
 

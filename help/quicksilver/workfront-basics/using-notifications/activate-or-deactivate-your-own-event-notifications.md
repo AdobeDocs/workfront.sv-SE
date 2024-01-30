@@ -7,14 +7,16 @@ description: I den här artikeln beskrivs hur du kan hantera e-postmeddelanden i
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
 # Ändra dina egna e-postmeddelanden
+
+<!-- Audited: 1/2024 -->
 
 Din Adobe [!DNL Workfront] administratör konfigurerar vilka e-postmeddelanden användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] meddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
@@ -41,17 +43,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td>  <p>Nytt:</p> 
+   <ul><li>Medarbetare eller högre</li></ul>
+   <p>Aktuell:</p>
+   <ul><li>Begäran eller högre</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visa och ändra inställningarna för e-postmeddelanden
 

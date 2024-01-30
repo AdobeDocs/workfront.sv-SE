@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 13%
+source-wordcount: '1608'
+ht-degree: 0%
 
 ---
 
 # Konfigurera brandväggens tillåtelselista
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
@@ -144,7 +146,7 @@ Om produktionsmiljön finns i kluster 4 lägger du till följande IP-adresser f�
 * 52.29.197.69
 * 52.48.124.108
 * 69.169.230.231
-* 69.169. 230.232
+* 69.169. 230,232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
@@ -528,7 +530,7 @@ Du måste lägga till följande IP-adresser i tillåtelselista för att kunna an
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
      <li>35.165.152.202</li> 
-     <li>54.184.151.122</li> 
+     <li>54 184 151 122</li> 
      <li>35.84.40.190</li> 
      <li>54.218.48.56</li> 
      <li>34.211.224.9</li> 

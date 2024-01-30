@@ -6,7 +6,7 @@ description: Du kan skapa kontrollpaneler för arbetsytan som integrerar visuali
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: da55003a14851d7894693fb95bff866c20938849
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Översikt över kontrollpaneler på arbetsytan
+
+<!-- Audited: 12/2023 -->
 
 Canvas Dashboards, en funktion som för närvarande är under utveckling för Dashboards, erbjuder ett nytt alternativ för att skapa effektiva kontrollpaneler i Workfront. Arbetsytans kontrollpaneler gör det enkelt att ta med visualiseringar av arbetsytan i befintliga rapporter, vilket ger större flexibilitet och nya layoutalternativ.
 
@@ -39,7 +41,7 @@ Ett nytt alternativ för Canvas Dashboards på den vänstra panelen på den befi
 
 1. Klicka på **Anpassa det användarna ser** listrutemeny och klicka sedan på **Kontrollpaneler**.
 
-1. I **Vänster panel** listan som visas nedan klickar du på ![](assets/delete-secondary-nav-item.png) ikon bredvid **Kontrollpaneler på arbetsytan**. Ikonen ändras till ![](assets/add-secondary-nav-item.png) för att visa att den nu visas i den vänstra panelen på panelen för ritytor.
+1. I **Vänster panel** listan som visas nedan klickar du på ![](assets/delete-secondary-nav-item.png) ikon bredvid **Kontrollpaneler på arbetsytan**. Ikonen ändras till ![](assets/add-secondary-nav-item.png) om du vill visa att den nu visas i den vänstra panelen för kontrollpaneler.
 
 1. Klicka **Spara** längst ned på skärmen.
 
@@ -73,7 +75,7 @@ Ett nytt alternativ för Canvas Dashboards på den vänstra panelen på den befi
 
 1. Håll muspekaren över den typ av rapportwidget som du vill lägga till och klicka sedan på kryssrutan som visas.
 
-1. När du har markerat alla widgetar som du vill lägga till klickar du på **Lägg till** i det övre högra hörnet.
+1. När du har markerat alla widgetar du vill lägga till klickar du på **Lägg till** längst upp till höger.
 
 1. De valda widgetarna visas på kontrollpanelen. Klicka **Konfiguration** i mitten av en widget för att välja vilken rapport som ska visas.
 
@@ -82,12 +84,12 @@ Ett nytt alternativ för Canvas Dashboards på den vänstra panelen på den befi
 >[!WARNING]
 > Det går för närvarande att lägga till flera widgetar som visar information från samma rapport, men vi rekommenderar att du bara visar varje rapport en gång eftersom det kan påverka kontrollpanelens prestanda.
 
-### Redigera en widget på en Canvas-kontrollpanel
+### Redigera en widget på en arbetsytans kontrollpanel
 
 1. Öppna Canvas-instrumentpaneler enligt beskrivningen i **Öppna Canvas-instrumentpaneler** ovan.
 
 1. Klicka på den kontrollpanel som du vill redigera i listan med kontrollpaneler.
 
-1. (Valfritt) Om du vill ändra storlek på en widget drar och släpper du **Ändra storlek** -ikonen i det nedre vänstra hörnet av widgeten till önskad storlek.
+1. (Valfritt) Dra och släpp **Ändra storlek** -ikonen i det nedre vänstra hörnet av widgeten till önskad storlek.
 
 1. (Valfritt) Om du vill flytta en widget drar du i den intilliggande tomma ytan för widgeten och drar den till önskad relativ position på kontrollpanelen.

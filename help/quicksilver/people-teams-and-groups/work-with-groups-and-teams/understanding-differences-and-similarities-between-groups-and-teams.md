@@ -7,14 +7,16 @@ description: Grupper och team är samlingar med användare i Adobe Workfront.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Grupper kontra team i [!DNL Adobe Workfront]
+
+<!-- Audited: 12/2023 -->
 
 Grupper och team är samlingar med användare i [!DNL Adobe Workfront].
 

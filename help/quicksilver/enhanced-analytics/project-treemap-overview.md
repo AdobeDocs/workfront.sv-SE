@@ -7,18 +7,20 @@ description: Visualisering av projekttreemap är en vy över timmar - eller daga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Visa projekttreemap-visualisering i Förbättrad analys
 
+<!-- Audited: 12/2023 -->
+
 Visualisering av projekttreemap är en vy över timmar - eller dagar - som har arbetats i ett visst tidsfönster jämfört med andra arbetsinsatser i storlek. Detta hjälper er att förstå hur mycket tid folk har ägnat åt ett projekt.
 
-![](assets/project-treemap-350x126.png)
+![](assets/project-treemap-350x126.png){width="700"}
 
 ## Åtkomstkrav
 
@@ -29,25 +31,29 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a></td> 
    <td> <p>Företag eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a></td> 
+   <td>   <p>Nytt:</p> 
+   <ul><li>Ljus eller högre</li></ul>
+   <p>Aktuell:</p>
+   <ul><li>Granska eller högre</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst till projekt</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -61,11 +67,11 @@ Visualiseringen av projekttreemap består av:
 
 * **Mindre, ljusblå rutor**: Projekt som har färre timmar - eller dagar - visas som mindre rutor med ljusblå färg.
 
-   ![](assets/project-treemap-smaller-box.png)
+  ![](assets/project-treemap-smaller-box.png)
 
 * **Större, mörkblå rutor**: Projekt som har fler timmar - eller dagar - visas som större rutor med en mörkblå färg.
 
-   ![](assets/project-treemap-larger-box-350x205.png)
+  ![](assets/project-treemap-larger-box-350x205.png)
 
 * **Medelstora, blå rutor**: Projekt som hamnar mellan de två kategorierna visas som medelstora rutor med en blå nyans mellan de mörkblå och ljusblå färgerna. Det finns tre möjliga nyanser av blått för de medelstora rutorna.
 
@@ -94,11 +100,11 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Mer information om hur du använder datumintervallfiltret finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Villkorligt) Om du behöver begränsa projektdatauppsättningen markerar och tillämpar du de filter som du vill använda.
 
-   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Mer information om hur du lägger till filter i Förbättrad analys finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    När du har lagt till filter visas data för upp till 50 projekt och filtren förblir aktiva även när du lämnar sidan eller loggar ut från Workfront.
 
@@ -129,9 +135,8 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
    >
    >Om du valde **varaktighet** visas följande information om varaktighet:
    >
-   >* **Planerad tidsram**: Antalet dagar som planeras för att slutföra projektet.
+   >* **Planerad tidsram**: Antal dagar som planeras för att slutföra projektet.
    >* **Dagar som har arbetats**: Den planerade varaktigheten för varje aktivitet som slutfördes inom det datumintervall som valts överst, dividerat med antalet timmar per dag.
-
    >   
    >![](assets/duration-treemap-350x159.png)
    >
