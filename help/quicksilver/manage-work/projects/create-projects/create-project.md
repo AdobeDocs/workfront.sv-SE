@@ -6,9 +6,9 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till projekt</p> </td> 
   </tr> 
   <tr> 

@@ -6,14 +6,16 @@ description: Dina [!DNL Adobe Workfront] profil innehåller information om dig s
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a750d2707699e1d4783d950807138a74baf78715
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2886'
 ht-degree: 0%
 
 ---
 
 # Konfigurera mina inställningar
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -48,10 +50,10 @@ Följande rutnät visar vilka avsnitt i [!UICONTROL My Settings] området är sy
    <th><strong>[!UICONTROL My Settings] Områden</strong> </th> 
    <th><strong>Synlig eller redigerbar</strong> </th> 
    <th><strong>[!UICONTROL System Administrator]</strong> </th> 
-   <th><strong>[!UICONTROL Planner]</strong> </th> 
+   <th><strong>[!UICONTROL Standard] eller [!UICONTROL Planner]</strong> </th> 
    <th><strong>[!UICONTROL Worker]</strong> </th> 
-   <th><strong>[!UICONTROL Reviewer]</strong> </th> 
-   <th><strong>[!UICONTROL Requestor]</strong> </th> 
+   <th><strong>[!UICONTROL Light] eller [!UICONTROL Reviewer]</strong> </th> 
+   <th><strong>[!UICONTROL Contributor] eller [!UICONTROL Requestor]</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -196,8 +198,9 @@ Följande rutnät visar vilka avsnitt i [!UICONTROL My Settings] området är sy
 
 ## Konfigurera [!UICONTROL My Settings] area
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Eller (om det är tillgängligt) klicka på din profilbild i det övre navigeringsområdet och klicka sedan på **[!UICONTROL Workfront Profile]**.
-1. Klicka på **[!UICONTROL More]** meny ![](assets/more-icon.png)och sedan klicka **[!UICONTROL Edit]**.
+{{step1-click-profile-pic}}
+
+1. Klicka på **[!UICONTROL More]** menyn bredvid ditt namn ![Menyn Mer](assets/more-icon.png)och sedan klicka **[!UICONTROL Edit]**.
 
 1. Beroende på din åtkomstnivå kan du uppdatera följande avsnitt:
 
@@ -207,7 +210,7 @@ Följande rutnät visar vilka avsnitt i [!UICONTROL My Settings] området är sy
    * [Åtkomst](#access)
    * [Organisation](#organization)
    * [Resursplanering](#resource-planning)
-   * [Eget formulär](#custom-form)
+   * [Anpassad Forms](#custom-form)
    * [Kommentar](#comment)
 
 1. Klicka på **[!UICONTROL Save]**.
@@ -264,7 +267,7 @@ Du kan ändra något av följande i det här underavsnittet:
 <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Title]</strong></td>
-        <td>Ange titel. Detta är inte samma sak som din jobbroll. Titeln ingår inte i resursplaneringen, men din jobbroll är det. Din titel visas i [!DNL Workfront] var du än befinner dig - ditt namn och din avatarskärm. Den är synlig för alla som har tillgång till din användare.</td>
+        <td>Ange titel. Detta är inte samma sak som din jobbroll. Titeln ingår inte i resursplaneringen, men din jobbroll är det. Din titel visas i [!DNL Workfront] var du än befinner dig - ditt namn och din avatarskärm. Den är synlig för alla som har tillgång till din användarprofil.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Talk to Me About]</strong></td>
@@ -321,7 +324,7 @@ Ange vad du vill visa i [!DNL Workfront] i det här avsnittet.
 
 >[!NOTE]
 >
->Användare med en [!UICONTROL Requestor] licensen inte har några andra objekt på den vänstra panelen tillgängliga som kan läggas till i deras [!UICONTROL Main Menu], utanför [!UICONTROL Requests] område. Som en [!DNL Workfront] kan du tilldela användare med en begärande licens till en layoutmall som innehåller alla andra områden i [!UICONTROL Main Menu]. Efter det kan de välja vilka områden som ska visas i [!UICONTROL Main Menu] genom att redigera deras användarprofil.
+>Användare med en [!UICONTROL Contributor] eller [!UICONTROL Requestor] licensen inte har några andra objekt på den vänstra panelen tillgängliga som kan läggas till i deras [!UICONTROL Main Menu], utanför [!UICONTROL Requests] område. A [!DNL Workfront] administratör kan tilldela användare med en [!UICONTROL Contributor] eller [!UICONTROL Requestor] licensiera till en layoutmall som innehåller alla andra områden i [!UICONTROL Main Menu]. Efter det kan de välja vilka områden som ska visas i [!UICONTROL Main Menu] genom att redigera deras användarprofil.
 
 Du kan ändra något av följande i det här underavsnittet:
 
@@ -340,7 +343,7 @@ Du kan ändra något av följande i det här underavsnittet:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Show percent complete on update status]</strong> </td> 
-   <td>Markera det här alternativet om du vill att ett procentvärde ska vara ifyllt i området Uppdateringar för dina uppgifter när du använder den gamla kommentarfunktionen. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.
+   <td>Välj det här alternativet om du vill visa ett procentvärde i uppdateringsområdet för dina uppgifter när du använder den äldre kommentarfunktionen. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.
 
 </td> 
   </tr> 
@@ -358,7 +361,7 @@ Du kan ändra något av följande i det här underavsnittet:
 
 ### [!UICONTROL Notifications]
 
-Ange vilka meddelanden du vill få från [!DNL Workfront]. Mer information om hur du konfigurerar meddelanden finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Ange vilka meddelanden du vill ta emot från [!DNL Workfront]. Mer information om hur du konfigurerar meddelanden finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Access]
 
@@ -378,11 +381,11 @@ Du kan ändra något av följande i det här underavsnittet:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
-   <td>Det här fältet är synligt för användare med en [!UICONTROL Plan] eller [!UICONTROL Workfront administrator] åtkomstnivå, och den kan bara redigeras för [!DNL Workfront] administratörer. Om du är [!DNL Workfront] bör du tänka på att inte ändra din åtkomstnivå till något lägre när du ändrar det här fältet. </td> 
+   <td>Det här fältet är synligt för användare med en [!UICONTROL Standard], [!UICONTROL Plan], eller [!UICONTROL Workfront administrator] åtkomstnivå, och den kan bara redigeras för [!DNL Workfront] administratörer. Om du är [!DNL Workfront] bör du tänka på att inte ändra din åtkomstnivå till något lägre när du ändrar det här fältet. </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
-   <td>Det här fältet är synligt för användare med en [!UICONTROL Plan] eller [!UICONTROL [!DNL Workfront] administratörs] åtkomstnivå, och den kan bara redigeras för [!UICONTROL [!DNL Workfront] administratörer] eller användare med [!UICONTROL Plan] licens som även har administratörsbehörighet. Här väljer du en layoutmall för att uppdatera utseendet och fältet i Workfront-gränssnittet. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.<br>Mer information om layoutmallar och hur de påverkar gränssnittet finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a></td> 
+   <td>Det här fältet är synligt för användare med en [!UICONTROL Standard], [!UICONTROL Plan], eller [!UICONTROL [!DNL Workfront] administratörs] åtkomstnivå, och den kan bara redigeras för [!UICONTROL [!DNL Workfront] administratörer] eller användare med [!UICONTROL Standard] eller [!UICONTROL Plan] licens som även har administratörsbehörighet. Här väljer du en layoutmall för att uppdatera utseendet och fältet i Workfront-gränssnittet. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.<br>Mer information om layoutmallar och hur de påverkar gränssnittet finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a></td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
@@ -401,7 +404,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Permission Profile]</strong></td> 
    <td> <p>I det här fältet visas den åtkomstnivå du har i [!DNL Workfront Proof]. Det är bara tillgängligt om:</p> 
     <ul> 
-     <li>Ditt företag använder en äldre [!DNL Workfront] och har köpt [!DNL Workfront Proof] eller så har du en [!UICONTROL Work] eller [!UICONTROL Plan] licens på nyare [!DNL Workfront] plan.</li> 
+     <li>Ditt företag använder en äldre [!DNL Workfront] och har köpt [!DNL Workfront Proof] eller så har du en [!UICONTROL Standard], [!UICONTROL Work], eller [!UICONTROL Plan] licens på nyare [!DNL Workfront] plan.</li> 
      <li>Du är aktiverad som korrekturanvändare.</li> 
     </ul> <p>[!DNL Workfront] administratörer kan redigera fältet för alla användare utom själva, så att alla användare ser fältet som skrivskyddat i sina egna profiler. Mer information om behörighetsprofilen finns i <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">Översikt över behörighetsprofiler för korrektur</a>.</p> </td> 
   </tr> 
@@ -410,7 +413,7 @@ Du kan ändra något av följande i det här underavsnittet:
 
 ### [!UICONTROL Organization]
 
-Den här informationen konfigureras vanligtvis av [!DNL Workfront] administratör, när de skapar [!DNL Workfront] konto. Du kan även uppdatera information om din organisation eller organisationsstruktur i det här avsnittet. Endast användare med en [!UICONTROL Plan] eller [!UICONTROL System Administrator] åtkomstnivån kan redigera det här avsnittet. 
+Den här informationen konfigureras vanligtvis av [!DNL Workfront] administratör, när de skapar [!DNL Workfront] konto. Du kan även uppdatera information om din organisation eller organisationsstruktur i det här avsnittet. Endast användare med en [!UICONTROL Standard], [!UICONTROL Plan], eller [!UICONTROL System Administrator] åtkomstnivån kan redigera det här avsnittet.
 
 Du kan ändra något av följande i det här underavsnittet:
 
@@ -432,19 +435,19 @@ Du kan ändra något av följande i det här underavsnittet:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Team]</strong> </td> 
-   <td> <p>Välj en <strong>[!UICONTROL Home Team]</strong> i listrutan. Det här fältet är synligt för användare med en [!UICONTROL Plan] eller [!UICONTROL System Administrator] åtkomstnivå, och den kan bara redigeras för [!DNL Workfront] administratörer eller användare med [!UICONTROL Plan] licens som även har administratörsbehörighet. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.<br></p> <p>Dina <strong>Hemteam</strong> kan påverka utseendet och känslan hos [!DNL Workfront] om en layoutmall är associerad med teamet. </p> <p> <br>Mer information om team finns i <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Översikt över team</a>.</p> </td> 
+   <td> <p>Välj en <strong>[!UICONTROL Home Team]</strong> i listrutan. Det här fältet är synligt för användare med en [!UICONTROL Standard], [!UICONTROL Plan], eller [!UICONTROL System Administrator] åtkomstnivå, och den kan bara redigeras för [!DNL Workfront] administratörer eller användare med [!UICONTROL Standard] eller [!UICONTROL Plan] licens som även har administratörsbehörighet. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.<br></p> <p>Dina <strong>Hemteam</strong> kan påverka utseendet och känslan hos [!DNL Workfront] om en layoutmall är associerad med teamet. </p> <p>Mer information om team finns i <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Översikt över team</a>.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Teams]</strong> </td> 
-   <td> <p>Du kan tillhöra fler än ett team. Ange ytterligare team som du tillhör i det här fältet genom att börja skriva namnet på ett team och sedan klicka för att markera det när det visas i listan. Tillhör för många team kan skapa förvirring om arbete som är tilldelat teamen. Mer information om team finns i <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Översikt över team</a>.</p> <p>Det här fältet är synligt för användare med en [!UICONTROL Plan] eller [!UICONTROL System Administrator] licens, och den kan bara redigeras för [!DNL Workfront] administratörer eller användare med [!UICONTROL Plan] licens som även har administratörsbehörighet. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td> 
+   <td> <p>Du kan tillhöra fler än ett team. Ange ytterligare team som du tillhör i det här fältet genom att börja skriva namnet på ett team och sedan klicka för att markera det när det visas i listan. Tillhör för många team kan skapa förvirring om arbete som är tilldelat teamen. Mer information om team finns i <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Översikt över team</a>.</p> <p>Det här fältet är synligt för användare med en [!UICONTROL Standard], [!UICONTROL Plan], eller [!UICONTROL System Administrator] licens, och den kan bara redigeras för [!DNL Workfront] administratörer eller användare med [!UICONTROL Standard] eller [!UICONTROL Plan] licens som även har administratörsbehörighet. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Group]</strong> </td> 
-   <td> <p>Välj en <strong>[!UICONTROL Home Group]</strong> i listrutan.</p> <p>Obs! Detta är ett obligatoriskt fält. Du kan inte ha en användare som inte är associerad med en grupp.<br></p> <p>Det här fältet är synligt för användare med en [!UICONTROL Plan] eller [!UICONTROL System Administrator] nivå. Mer information om vem som kan redigera <strong>[!UICONTROL Home Group]</strong> -fält, se <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md#prerequisites" class="MCXref xref">Lägg till användare</a> avsnitt i <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Lägg till användare</a>.Dina <strong>[!UICONTROL Home Group]</strong> är standardgruppen för alla projekt och standardgruppen <strong>[!UICONTROL Home Group]</strong> för alla nya användare du skapar. Alla anpassade formulär som du skapar delas med <strong>[!UICONTROL Home Group]</strong> som standard.</p> <p>Mer information om grupper finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> </td> 
+   <td> <p>Välj en <strong>[!UICONTROL Home Group]</strong> i listrutan.</p> <p>Obs! Detta är ett obligatoriskt fält. Du kan inte ha en användare som inte är associerad med en grupp.<br></p> <p>Det här fältet är synligt för användare med en [!UICONTROL Standard], [!UICONTROL Plan], eller [!UICONTROL System Administrator] nivå. Mer information om vem som kan redigera <strong>[!UICONTROL Home Group]</strong> fält, se <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Redigera en användares profil</a>. Dina <strong>[!UICONTROL Home Group]</strong> är standardgruppen för alla projekt och standardgruppen <strong>[!UICONTROL Home Group]</strong> för alla nya användare du skapar. Alla anpassade formulär som du skapar delas med <strong>[!UICONTROL Home Group]</strong> som standard.</p> <p>Mer information om grupper finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Groups]</strong> </td> 
-   <td> <p>Du kan tillhöra flera grupper. Ange ytterligare grupper som du tillhör i det här fältet genom att börja skriva namnet på en grupp. Klicka för att markera den när den visas i listan. Det här fältet är synligt för användare med en [!UICONTROL Plan] eller [!UICONTROL System Administrator] åtkomstnivå. Mer information om vem som kan redigera <strong>[!UICONTROL Other Groups]</strong> finns i avsnittet "Andra grupper" i <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Lägg till användare</a>.</p> <p>Mer information om grupper finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> </td> 
+   <td> <p>Du kan tillhöra flera grupper. Ange ytterligare grupper som du tillhör i det här fältet genom att börja skriva namnet på en grupp. Klicka för att markera den när den visas i listan. Det här fältet är synligt för användare med en [!UICONTROL Standard], [!UICONTROL Plan], eller [!UICONTROL System Administrator] åtkomstnivå. Mer information om vem som kan redigera <strong>[!UICONTROL Other Groups]</strong> fält, se <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Redigera en användares profil</a>.</p> <p>Mer information om grupper finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -461,19 +464,19 @@ Använd något av följande i det här avsnittet:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong></td> 
-   <td>Markera den här rutan om du vill schemalägga att ditt konto ska inaktiveras efter en viss tidsperiod. I <p><strong>[!UICONTROL Scheduled Deactivation Date]</strong> anger vilket datum ditt konto ska inaktiveras. Mer information om hur du inaktiverar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>. </p><p>Du kan redigera inaktiveringsfälten för ditt konto om du har en planlicens eller om du är [!DNL Workfront] administratör. </p></td> 
+   <td>Markera den här rutan om du vill schemalägga att ditt konto ska inaktiveras efter en viss tidsperiod. I <p><strong>[!UICONTROL Scheduled Deactivation Date]</strong> anger vilket datum ditt konto ska inaktiveras. Mer information om hur du inaktiverar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>. </p><p>Du kan redigera inaktiveringsfälten för ditt konto om du har en [!UICONTROL Standard] eller [!UICONTROL Plan] eller så är du [!DNL Workfront] administratör. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
-   <td> <p>Det här är den primära rollen som du kan fylla i Workfront. Alla uppgifter och utgåvor som du är tilldelad till tilldelas som standard även den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Du kan bara uppdatera det här fältet om du har en [!UICONTROL Plan] licens med administrativ användaråtkomst eller om du är [!DNL Workfront] administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td> 
+   <td> <p>Det här är den primära rollen som du kan fylla i Workfront. Alla uppgifter och utgåvor som du är tilldelad till tilldelas som standard även den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Du kan bara uppdatera det här fältet om du har en [!UICONTROL Standard] eller [!UICONTROL Plan] licens med administrativ användaråtkomst eller om du är [!DNL Workfront] administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) Om du markerade en [!UICONTROL Primary Role], [!UICONTROL Percentage of FTE Availability] visas.</strong></td> 
-   <td>Ange hur stor procentandel av din schemalagda tid som tilldelas den här jobbrollen. Standardvärdet för [!UICONTROL Percentage of FTE Availability] för den primära rollen är 100 %</td> 
+   <td>Ange hur stor procentandel av din schemalagda tid som tilldelas den här jobbrollen. Standardvärdet för [!UICONTROL Percentage of FTE Availability] för den primära rollen är 100 %.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Roles]</strong> </td> 
-   <td> <p>Du kan ha flera jobbroller i [!DNL Workfront]. Jobbroller är viktiga i resurshanteringen. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Du kan bara uppdatera det här fältet om du har en [!UICONTROL Plan] licens med administrativ användaråtkomst eller om du är [!DNL Workfront] administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td> 
+   <td> <p>Du kan ha flera jobbroller i [!DNL Workfront]. Jobbroller är viktiga i resurshanteringen. Mer information om jobbroller finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> <p>Du kan bara uppdatera det här fältet om du har en [!UICONTROL Standard] eller [!UICONTROL Plan] licens med administrativ användaråtkomst eller om du är [!DNL Workfront] administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) Om du markerade en eller flera andra roller visas [!UICONTROL Percentage of FTE Availability] visas för varje roll.</strong></td> 
@@ -485,7 +488,7 @@ Använd något av följande i det här avsnittet:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Schema</strong></td> 
-   <td> <p>Endast [!DNL Workfront] administratörer eller användare med [!UICONTROL Plan] licenser som även har administrativ åtkomst för tidrapporter och timmar kan uppdatera det här fältet. Mer information om administrativ åtkomst för tidrapporter och timmar finns i avsnittet"Tidrapporter och timmar" i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Välj rätt tidrapport i listrutan. Detta garanterar att dina tidrapporter genereras automatiskt enligt de specifikationer som angetts av [!DNL Workfront] administratör. </p> </td> 
+   <td> <p>Endast [!DNL Workfront] administratörer eller användare med [!UICONTROL Standard] eller [!UICONTROL Plan] licenser som även har administrativ åtkomst för tidrapporter och timmar kan uppdatera det här fältet. Mer information om administrativ åtkomst för tidrapporter och timmar finns i avsnittet"Tidrapporter och timmar" i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Välj rätt tidrapport i listrutan. Detta garanterar att dina tidrapporter genereras automatiskt enligt de specifikationer som angetts av [!DNL Workfront] administratör. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Default Hour Type]</strong> </td> 
@@ -497,7 +500,7 @@ Använd något av följande i det här avsnittet:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Resource Pool]</strong> </td> 
-   <td>Välj en resurspool som du tillhör. Det här fältet är endast avsett för rapportering och information, det påverkar inte schemaläggning eller planering av resurser.</td> 
+   <td>Välj en resurspool som du tillhör. Detta fält är endast avsett för rapportering och information. Detta påverkar inte schemaläggning eller planering av resurser.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
@@ -514,21 +517,22 @@ Använd något av följande i det här avsnittet:
  </tbody> 
 </table>
 
-### [!UICONTROL Custom Form]
+### [!UICONTROL Custom Forms]
 
-Du kan koppla ett anpassat formulär till din användarprofil. På så sätt kan du lagra ytterligare information för användaren som annars inte kan lagras i [!DNL Workfront] Inbyggda fält som beskrivs ovan.\
-Du måste ha någon av följande behörigheter eller behörigheter för att kunna koppla ett anpassat formulär till användaren:
+Du kan koppla ett anpassat formulär till din användarprofil. På så sätt kan du lagra ytterligare information för användaren som annars inte kan lagras i [!DNL Workfront] Inbyggda fält som beskrivs ovan.
+
+Du måste ha någon av följande behörigheter eller behörigheter för att kunna koppla ett anpassat formulär till din användarprofil:
 
 * Du är en [!DNL Workfront] administratör.
-* Du är en [!UICONTROL Plan] licensanvändaren och det anpassade användarformuläret delas med en av dina grupper.
+* Du är en [!UICONTROL Standard] eller [!UICONTROL Plan] licensanvändaren och det anpassade användarformuläret delas med en av dina grupper.
 
-Alla användare kan se anpassade formulär som har associerats med deras användare.
+Alla användare kan se anpassade formulär som har kopplats till deras profiler.
 
 Dina [!DNL Workfront] administratören måste konfigurera anpassade formulär för användarobjektet för att du ska kunna koppla ett anpassat formulär till din användarprofil. Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ### [!UICONTROL Comment]
 
-Du kan spela in en kommentar om din användarprofil som lagras på [!UICONTROL Updates] -fliken för din användare.
+Du kan spela in en kommentar i din användarprofil, som lagras i profilens [!UICONTROL Updates] -fliken.
 
 Du kan klicka på [!UICONTROL people] -ikonen om du vill ta med andra i uppdateringen.
 
