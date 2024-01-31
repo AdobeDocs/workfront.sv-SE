@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
+source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '5011'
 ht-degree: 0%
 
 ---
@@ -498,7 +498,7 @@ Så här lägger du till typsnittsdatumfält:
 
 ### Lägg till externa sökfält
 
-Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan.
+Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan. Det externa sökfältet är också tillgängligt i listor och rapporter.
 
 >[!NOTE]
 >
@@ -541,8 +541,10 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">Bas-API-URL</td> 
       <td><p>Skriv eller klistra in URL:en för API:t.</p><p>API-URL:en måste returnera ett JSON-innehåll av de alternativ som du vill visa i listrutan. Du kan använda fältet JSON-sökväg för att välja specifika värden från den returnerade JSON-filen som ska vara listrutealternativ.</p><p>När du anger API-URL:en kan du välja att skicka följande värden i URL:en:</p>
       <ul><li>$$QUERY - Detta representerar den söktext som slutanvändaren skriver i fältet och gör att du kan implementera frågefiltrering för slutanvändarna. (Användaren söker efter värdet i listrutan.)</li>
-      <li>$$HOST - Detta representerar den aktuella Workfront-värden och kan användas för att göra /search API-anrop till Workfront API. När jokertecknet används hanteras autentiseringen och användarna behöver inte skicka autentiseringshuvuden. (Användare kan t.ex. söka efter uppgifter med bas-URL:en "$$HOST/attask/api/task/search" och kan söka efter uppgifter och välja värden från en returnerad lista med uppgifter.)</li>
-      <li>{fieldName} - Där fieldName är ett anpassat eller inbyggt fält i Workfront. På så sätt kan du implementera filtren för överlappande listrutor när du skickar värdet för ett redan markerat fält till fältet för extern sökning för att filtrera ned alternativen. (Fältet Region finns till exempel redan i formuläret och du begränsar en lista med länder från API:t till de som finns i en viss region.)</li>
+      <li><p>$$HOST - Detta representerar den aktuella Workfront-värden och kan användas för att göra /search API-anrop till Workfront API. När jokertecknet används hanteras autentiseringen och användarna behöver inte skicka autentiseringshuvuden. (Användare kan till exempel söka efter uppgifter med bas-URL:en <code>$$HOST/attask/api/task/search</code> och det går att söka efter uppgifter och välja värden från en returnerad lista med uppgifter.)<p>
+      <p>Om API:t som du refererar till tillåter det kan du även inkludera modifierare i sökfrågan för att identifiera hur sökningen ska fungera. Du kan t.ex. använda följande som bas-API-URL för att låta andra söka efter Workfront-projekt som innehåller viss text: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Läs mer om Workfront sökmodifierare i <a href="/help/quicksilver/wf-api/general/api-basics.md">Grunderna i API</a>.</p></li>
+      <li><p>{fieldName} - Där fieldName är ett anpassat eller inbyggt fält i Workfront. På så sätt kan du implementera filtren för överlappande listrutor när du skickar värdet för ett redan markerat fält till fältet för extern sökning för att filtrera ned alternativen. (Fältet Region finns till exempel redan i formuläret och du begränsar en lista med länder från API:t till de som finns i en viss region.)</p>
+      <p>För ett externt sökfält som är beroende av andra fält (med {fieldName} syntax) är alternativen som returneras från API begränsade till dem som matchar strängar eller värden som anges i de andra fälten. (Den här funktionen stöds inte i listor och rapporter.)</p></li>
       <li>{referenceObject}.{fieldName} - Där fältet ingår i ett objekt. Syntaxen liknar anpassade uttryck. (Till exempel portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>OBS!</strong> Granska dokumentationen för API:t som du arbetar med för de specifika frågor som du kan definiera.</p></td>
      </tr>
@@ -585,12 +587,11 @@ Så här lägger du till en extern sökning:
 >
 >Följande objekt är tekniska begränsningar för anropet till det externa API:t:
 >
->* Maximalt antal alternativ: 200 (endast de första 200 alternativen från det returnerade JSON visas)
+>* Maximalt antal alternativ: 2 000 (endast de första 2 000 unika alternativen från det returnerade JSON visas)
 >* Timeout: 3 sekunder
 >* Antal återförsök: 3
 >* Väntetid mellan återförsök: 500 ms
 >* Förväntad svarsstatus: 2xx
->* Användarna kan se det valda värdet (och redigera värdet) i listor och rapporter i Workfront, men kommer inte att se listrutan med alternativ från det externa API:t.
 
 ### Lägga till bilder, PDF och videoklipp
 
