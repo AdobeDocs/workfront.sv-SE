@@ -6,7 +6,7 @@ description: I den här artikeln beskrivs hur du kan hitta och hantera mål i Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -98,7 +105,7 @@ You must have the following to perform the activities described in this article:
    <td> <p>Redigera åtkomst till mål</p> <p><b>ANMÄRKNING</b><p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Bevilja åtkomst till Adobe Workfront-mål</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Ge åtkomst till Adobe Workfront mål</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -109,17 +116,20 @@ You must have the following to perform the activities described in this article:
      <p>Hantera behörigheter till målet för att redigera det</p> 
      <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Layoutmall</p></td> 
+   <td> 
+    <div> 
+     <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-
-## Förutsättningar
-
-Du måste ha följande innan du kan börja:
-
-* En layoutmall som innehåller området Mål på huvudmenyn.
 
 ## Öppna Workfront-mål
 
@@ -160,7 +170,6 @@ Du måste komma åt ett enskilt mål för att kunna utföra följande åtgärder
 * Justera det mot ett annat mål
 * Konvertera resultat eller aktiviteter till andra mål
 * Uppdatera den
-
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -192,11 +201,11 @@ To access an individual goal in the Production environment:
 
 Så här kommer du åt ett enskilt mål:
 
-1. Klicka på **Huvudmeny** ikonen i det övre högra hörnet av Workfront och klicka sedan på **Mål** .
+1. Klicka på **Huvudmeny** i det övre högra hörnet av Workfront och klicka sedan på **Mål** .
 Mållistan visas som standard.
    ![](assets/goal-list-unshimmed.png)
 1. Klicka på namnet på ett mål i listan.
-Målsidan visas.
+Målets sida visas.
    ![](assets/goal-page-unshimmed.png)
 1. Klicka på **Mer** meny ![](assets/more-icon.png) till höger om målnamnet om du vill redigera eller dela målet ytterligare.
 1. Klicka **Målinformation** i den vänstra panelen för att redigera information om målet. Mer information finns i [Uppdatera mål i avsnittet Målinformation i Adobe Workfront-mål](../goal-management/update-goals-in-goal-details-panel.md).

@@ -7,9 +7,9 @@ description: Adobe Workfront-administratören måste se till att vissa villkor u
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4298659c6eaf7c0370d8d88454e54aeba70f48cf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,19 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 >
 >Användare med en extern licenstyp har inte åtkomst till Workfront-mål.
 
-* Ge åtkomst till mål på din åtkomstnivå. Mer information finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* Ge åtkomst till mål på din åtkomstnivå. Mer information finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 * Tilldela dig en layoutmall som innehåller området Mål på huvudmenyn.
 
-   Mer information finns i avsnittet [Lägg till Workfront-mål i en layoutmall](#add-workfront-goals-to-a-layout-template) i den här artikeln.
+  >[!NOTE]
+  >
+  >Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn.
+
+  Mer information finns i avsnittet [Lägg till Workfront-mål i en layoutmall](#add-workfront-goals-to-a-layout-template) i den här artikeln.
 
 * Om du måste ändra mål som du inte skapat själv måste målskaparen dela målen med dig och ge dig behörigheten Hantera.
 
-   Mer information finns i avsnittet [Dela individuella mål med andra användare](#share-individual-goals-with-other-users) i den här artikeln.
+  Mer information finns i avsnittet [Dela individuella mål med andra användare](#share-individual-goals-with-other-users) i den här artikeln.
 
 ## Få åtkomst till Workfront Goals Organization {#obtain-workfront-goals-organization-access}
 
@@ -73,7 +77,7 @@ Din Workfront-administratör måste ge dig en av följande Workfront-licenstyper
 * Granska
 * Begäran
 
-När din Workfront-administratör har gett dig en av dessa licenstyper måste du även få åtkomst till mål på din åtkomstnivå. Mer information om åtkomst till mål finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+När din Workfront-administratör har gett dig en av dessa licenstyper måste du även få åtkomst till mål på din åtkomstnivå. Mer information om åtkomst till mål finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Som Workfront-administratör kan du granska antalet licenser för Workfront Goals i ditt system och se hur många som är aktiverade för tillfället. Mer information finns i [Hantera tillgängliga licenser i ditt system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
