@@ -4,9 +4,9 @@ description: Du kan redigera postinformation i Adobe Maestro och associera varje
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,7 @@ ht-degree: 0%
 
 # Lägga till miniatyrbilder i poster
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan associera poster med unika miniatyrbilder i Adobe Maestro för att göra dem lätta att känna igen.
 

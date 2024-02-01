@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1888'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
 
 # Exempel på att ansluta posttyper och poster
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 I den här artikeln beskrivs ett exempel på följande:
 

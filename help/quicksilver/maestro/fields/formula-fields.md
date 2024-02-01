@@ -4,9 +4,9 @@ description: I Adobe Maestro kan du skapa formelfält där funktioner och befint
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,7 @@ recommendations: noDisplay, noCatalog
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan skapa anpassade fält i Adobe Maestro genom att referera till befintliga fält och koppla dem med en formel. Du kan göra detta genom att skapa ett anpassat formeltypsfält.
 

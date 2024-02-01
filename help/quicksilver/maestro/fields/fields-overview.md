@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan lägga till nya fält i Adobe Maestro som återspeglar organisationens livscykel. Fält är attribut för posttyper.
 

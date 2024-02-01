@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,7 @@ recommendations: noDisplay, noCatalog
 
 # Skapa fält
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 I Adobe Maestro kan du skapa anpassade fält för driftsposttyper eller taxonomier. Du kan sedan associera fälten med Maestro-poster för att förbättra postinformationen.
 

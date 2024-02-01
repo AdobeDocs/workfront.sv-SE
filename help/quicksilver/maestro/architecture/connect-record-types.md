@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1986'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ author: Alina
 
 # Koppla posttyper
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan använda Adobe Maestro för att utforma anpassningsbara arbetsytor som innehåller de posttyper som behövs i organisationen. Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla Maestro-posttyper till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
 

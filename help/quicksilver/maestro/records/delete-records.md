@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 0%
 
 # Ta bort poster
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan ta bort poster som inte längre är relevanta i Adobe Maestro.
 

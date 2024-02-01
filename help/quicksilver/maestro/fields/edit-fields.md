@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ recommendations: noDisplay, noCatalog
 
 # Redigera fält
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan redigera fältinställningarna för fält som redan har skapats.
 

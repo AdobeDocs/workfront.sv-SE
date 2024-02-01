@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3730'
 ht-degree: 0%
 
 ---
 
 # Adobe Maestro-lansering
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 I den här artikeln listas de funktioner som har släppts efter lanseringen av betaprogrammet som avslutades av Maestro den 22 maj 2023.
 
@@ -60,17 +52,26 @@ Mer information finns i följande artiklar:
 * [Dela arbetsytor](/help/quicksilver/maestro/access/share-workspaces.md)
 * [Visa](/help/quicksilver/maestro/access/share-views.md)
 
-<!--
-### Add thumbnails to records 
+### Lägga till miniatyrbilder i poster
 
-Production: < date > 
+Produktion: 1 februari 2024
 
-Preview: To be determined  
+Förhandsgranska: Ska bestämmas
 
-You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+Nu kan du lägga till enskilda miniatyrbilder till varje post för att skilja dem åt i en vy. I tabellvyn kan du lägga till bildfiler som du tidigare har sparat på datorn som miniatyrbilder. Miniatyrbilderna kan vara unika för varje post och visas i både tabell- och tidslinjevyerna på posttypsidan.
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+Mer information finns i [Lägga till miniatyrbilder i poster](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+### Ta bort anslutna posttypkort
+
+Produktion: 1 februari 2024
+
+Förhandsgranska: Ska bestämmas
+
+För att undvika förvirring och förenkla ditt arbetsflöde har vi tagit bort de posttypskort som skapades som ett resultat av att Maestro-poster kopplades till objekt från tredjepartsprogram från en arbetsyta. <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+
+Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Vecka 22 januari 2024
 

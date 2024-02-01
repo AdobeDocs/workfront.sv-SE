@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 0%
 
 # Ta bort arbetsytor
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 I Adobe Maestro är arbetsytorna centraliserade platser där team kan planera sitt arbete. Mer information finns i [Skapa arbetsytor](../architecture/delete-workspaces.md).
 

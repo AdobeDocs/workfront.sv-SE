@@ -4,9 +4,9 @@ description: Du kan redigera informationen om en befintlig arbetsyta, som att by
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,7 @@ ht-degree: 0%
 
 # Redigera arbetsytor
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 I Adobe Maestro är arbetsytorna centraliserade platser där team kan planera sitt arbete.
 

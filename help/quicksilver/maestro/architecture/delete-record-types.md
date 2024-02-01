@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,7 @@ hide: yes
 
 # Ta bort posttyper
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan ta bort driftsposttyper eller taxonomiposttyper när de inte längre är relevanta.
 

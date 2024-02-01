@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Maestro.
 
@@ -265,6 +257,12 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 1. Klicka **Stapelformat** i den vänstra panelen för att ange vilka fält som ska visas i postfälten.
 
    Fältet Namn är markerat som standard. <!--adjust this when the primary field is released??-->
+
+1. (Valfritt och villkorligt) Om du har lagt till miniatyrbilder i poster, markerar du alternativet Miniatyrbild för att visa den bild som är associerad med posterna i deras postfält.
+
+   >[!NOTE]
+   >
+   >    Du måste först lägga till miniatyrbilder i tabellvyn innan du kan visa dem i tidslinjevyn. Mer information finns i [Lägga till miniatyrbilder i poster](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Klicka **Lägg till fält** om du vill lägga till upp till fyra fält i postfälten.
 1. Klicka inuti **Sökfält** och klicka på det fält som du vill lägga till.

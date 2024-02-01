@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 0%
 
 # Redigera poster
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan redigera postinformation i Adobe Maestro. Du måste skapa posttyper innan du kan börja skapa och redigera poster.
 Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
@@ -181,5 +173,4 @@ Arbetsytan som du senast öppnade öppnas.
 
    * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
-<!--
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. (Valfritt) Lägg till en miniatyrbild till en post. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).

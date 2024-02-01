@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ hide: yes
 
 # Redigera posttyper
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Posttyperna är objekttyperna för Adobe Maestro. Du kan redigera utseendet på posttyper som du eller någon annan har skapat. Mer information om hur du skapar posttyper i Maestro finns i [Skapa posttyper](../architecture/create-record-types.md).
 

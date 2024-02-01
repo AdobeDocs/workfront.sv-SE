@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,7 @@ hide: yes
 
 # Vyer: artikelindex
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan visa Adobe Maestro-poster i en tabell- eller tidslinjevy.
 

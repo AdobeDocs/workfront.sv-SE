@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,7 @@ role: User
 
 # Lista över arbetsytemallar
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 I Adobe Maestro är en arbetsyta en samling posttyper och taxonomier som används av ett team och som representerar teamets arbetslivscykel.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
 workflow-type: tm+mt
-source-wordcount: '2316'
+source-wordcount: '2298'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
->
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
->
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->
->Mer information finns i [Adobe Maestro - översikt](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Maestro.
 
@@ -222,8 +214,9 @@ Du kan ha upp till 10 000 poster (eller rader) för en posttyp i Maestro.
 
    Posterna som du lägger till i tabellvyn sparas omedelbart och visas för alla användare som har behörigheten Visa eller högre på arbetsytan.
 
-   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
-        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. (Valfritt) Lägg till en miniatyrbild för varje post och klicka sedan på **Fält** i tabellens övre högra hörn och välj alternativet för fältet Miniatyrbild för att visa det till vänster om det primära fältet. Det är som standard avmarkerat.
+
+   Mer information finns i [Lägga till miniatyrbilder i poster](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om postnamnet för att ändra ordning på raderna.
 
