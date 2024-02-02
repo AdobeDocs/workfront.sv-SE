@@ -7,9 +7,9 @@ description: Du kan använda tidrapporter för att spåra den tid du tillbringar
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Alla dina tidrapporter och tidrapporter som du har tillgång till som standard. 
 
 1. Klicka på **Datumintervall** av en tidrapport för att öppna den.
 
-   Varje tidrapport visar alla uppgifter, ärenden och projekt som du har loggat in på. I en tidrapport visas även upp till 45 uppgifter, utgåvor eller projekt som du har tilldelats med datum inom tidrapportens tidsram, men som du kanske inte har loggat tid för ännu.
+   Varje tidrapport visar alla uppgifter, ärenden och projekt som du har loggat in på. I en tidrapport visas även upp till 45 uppgifter och ärenden som tilldelats dig med datum inom tidrapportens tidsram, men som du kanske inte har loggat tid för ännu. De 45 senast uppdaterade objekten markeras för visning i tidrapporten.
 
    Mer information finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
