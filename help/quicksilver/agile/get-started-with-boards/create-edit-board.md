@@ -6,9 +6,9 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,10 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       Alla objekt visas på kortet som anslutna kort.
 
       The [!UICONTROL **Kort som läggs till**] räknaren visar hur många kort som kommer att finnas ombord. Om du till exempel markerar ett projekt med 100 uppgifter och ärenden visas 100 i räknaren. Om du lägger till en användartilldelning och den personen tilldelas 5 uppgifter i projektet visas 5.
+
+      >[!NOTE]
+      >
+      >Om du har fler än 1000 kort på kortet påverkas kortets prestanda.
 
    1. (Valfritt) Välj [!UICONTROL **Arkivera inte färdiga kort**] för att lägga till slutförda uppgifter och ärenden till styrelsen som synliga kort i kolumnen Slutfört. När det här alternativet inte är markerat hämtas färdiga kort när styrelsen skapas till styrelsen som arkiverade kort.
 
