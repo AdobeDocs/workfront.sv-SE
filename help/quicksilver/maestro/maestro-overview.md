@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 0%
@@ -263,7 +263,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Maestr
 | Maestro-objekt | Gräns |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Antal arbetsytor för en Workfront-instans | 1 000 |
-| Antal posttyper för en arbetsyta | 1 000 (inkluderar taxonomier för arbetsytan eller objekt som du importerar från tredjepartsprogram) |
+| Antal posttyper för en arbetsyta | 1 000 (inkluderar taxonomier för arbetsytan eller objekt som du importerar från andra program) |
 | Antal poster för en posttyp | 10 000 |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält | 1 000 tecken |

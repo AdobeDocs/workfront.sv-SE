@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2227'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ hide: yes
 
 Du kan ansluta Adobe Maestro-poster till varandra eller till objekt från andra program.
 
-Du måste först koppla två posttyper till varandra, eller en posttyp till en objekttyp från ett annat program. Då skapas länkade postfält. Du kan sedan koppla poster till varandra eller poster till andra objekt från ett annat program med hjälp av de länkade postfälten.
+Du måste först koppla två posttyper till varandra, eller en posttyp till en objekttyp från ett annat program. Då skapas länkade postfält. Du kan sedan koppla poster till varandra eller till andra objekt från andra program med hjälp av de länkade postfälten.
+
+Att ansluta poster liknar att ansluta poster till objekt från ett annat program.
 
 Mer information om hur du ansluter posttyper till varandra eller till objekttyper från andra program finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
@@ -105,8 +107,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
+   <td> <p>Hantera behörigheter till en arbetsyta för att ansluta poster </p>  
+   <p>Visa eller högre behörigheter på en arbetsyta för att visa alla anslutningar till objekt och fält från andra program, oavsett om du har åtkomst till dem i andra program. </p>
+   <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p>
 </td>
   </tr>
 
@@ -130,12 +133,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * När du har anslutit posttyper visas de kopplade posttyperna som länkade postfält i tabellen med de posttyper som de är länkade från och på detaljsidan för de poster som de länkar från.
 * Du kan bläddra bland och lägga till poster och objekt för den länkade posten och objekttyperna från de länkade postfälten.
-* Du kan lägga till fält från de länkade posttyperna i tabellen med den posttyp som du länkar från.
+* Du kan lägga till fält av de länkade posttyperna i tabellen med den posttyp som du länkar från.
 * Du kan inte uppdatera värdena för länkade fält manuellt på de poster som du länkar från.
 
-  Värdena för de länkade fälten från de länkade posterna fyller i den Maestro-post som du länkar från automatiskt från den maestro-arbetsyta som du konfigurerar eller från ett tredjepartsprogram.
+  Värdena för de länkade fälten för de länkade posterna fyller i den Maestro-post som du länkar från automatiskt från den ursprungliga posten eller det ursprungliga objektet.
 
-* Alla som har tillgång till Maestro och View eller högre behörighet till arbetsytan kan se de anslutningar du gör mellan Maestro-poster eller mellan Maestro-poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett vilka behörigheter de har för de tredjepartsprogram som du ansluter till.
+* Alla som har tillgång till Maestro och View eller högre behörighet till arbetsytan kan se de anslutningar du gör mellan Maestro-poster eller mellan Maestro-poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
 * Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan där de anslutna posterna finns.
 * Du kan koppla en Maestro-post till ett eller flera objekt från ett annat program.
 * Om du vill länka Maestro-poster till andra poster eller objekt måste du ha följande:
@@ -178,13 +181,16 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Följande ska läggas till:
 
-   * De länkade posterna visas i det länkade postfältet för den post som du valde i steg 6. <!--accurate?--> När du uppdaterar de länkade posterna uppdateras de länkade fälten för de poster som du länkar från automatiskt. Du kan inte redigera länkade fält manuellt.
+   * De länkade posterna visas i det länkade postfältet för den post som du valde i steg 6. <!--accurate?-->
+   * De länkade fälten fylls i med informationen från de länkade posterna.
 
-     >[!TIP]
-     >
-     >* Vi använder länkade fält och sökfält omväxlande.
-     >
-     >* Om du har aktiverat **Tillåt flera poster** när du kopplar ihop posttyperna visas fältvärdena för de markerade objekten antingen separerade med kommatecken eller aggregeras enligt den aggregator du väljer.
+   När du uppdaterar de länkade posterna uppdateras de länkade fälten för de poster som du länkar från automatiskt. Du kan inte redigera länkade fält manuellt.
+
+   >[!TIP]
+   >
+   >* Vi använder länkade fält och sökfält omväxlande.
+   >
+   >* Om du har aktiverat **Tillåt flera poster** när du kopplar ihop posttyperna visas fältvärdena för de markerade objekten antingen separerade med kommatecken eller aggregeras enligt den aggregator du väljer.
 
 1. (Valfritt) Stäng sidan för posttypen Maestro och gå till den arbetsyta du valde.
 1. Klicka på kortet för den posttyp som du länkade till.
@@ -197,7 +203,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 ### Koppla Maestro-poster till Workfront-objekt
 
-<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+<!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 När du har skapat en anslutning mellan en Maestro-posttyp och en Workfront-objekttyp kan du koppla enskilda Maestro-poster till objekt i Workfront. De Workfront-fält som du har anslutit fylls automatiskt i på de Maestro-poster som du länkar objekten från.
 
@@ -214,7 +220,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Välj en **Tabell** visa från **Visa** listruta.
 
-1. Lägg till enskilda poster till den posttyp du valde genom att lägga till en ny rad i tabellen. Mer information finns i [Skapa poster](../../maestro/records/create-records.md).
+1. Klicka **Ny post**  om du vill lägga till enskilda poster till den posttyp som du har valt. Mer information finns i [Skapa poster](../../maestro/records/create-records.md).
 1. (Villkorligt) Om du har kopplat den markerade posttypen till ett Workfront-objekt går du till kolumnen för det länkade objektet och för markören över cellen som motsvarar posten som du vill länka till objekt från Workfront. Klicka sedan på **+** -ikon.
 
    The **Koppla objekt** visas.
@@ -225,7 +231,7 @@ Den senast använda arbetsytan bör öppnas som standard.
    >
    >    Du kan öppna en posts informationssida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till objekt från den anslutna objekttypen.
 
-   Mer information om hur du ansluter posttyper med objekt från ett tredjepartsprogram finns i [Koppla posttyper](../architecture/connect-record-types.md).
+   Mer information om hur du ansluter posttyper med objekt från ett annat program finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
 1. Börja skriva namnet på ett Workfront-objekt i sökrutan och markera det sedan när det visas i listan
 
@@ -243,21 +249,14 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    * De markerade Workfront-objekten läggs till i det länkade postfältet.
    * Om du lade till dem när du kopplade posttypen med Workfront fylls de länkade fälten (eller sökfälten) för Workfront-objekten automatiskt i med information från Workfront.
-   * En skrivskyddad informationssida i Maestro för det anslutna Workfront-objektet. Du kommer åt den här sidan genom att klicka på namnet på ett projekt i det länkade fältet i en Macromedia-post. Fortsätt till steg 8. <!--accurate?-->
 
-     Om du till exempel länkar till Workfront-projekt skapas detaljsidor för dessa projekt i Maestro.
+1. (Valfritt) Klicka på namnet på ett Workfront-objekt som är kopplat till en maestro-post antingen i det länkade fältet i en tabellvy eller från det länkade fältet i **Information** sidan med Maestro-posten.
 
-     >[!IMPORTANT]
-     >
-     > Den skrivskyddade Workfront-objektinformationssidan skapas bara när enskilda projekt läggs till i Maestro-poster. Det är bara genom att skapa en anslutning mellan en Maestro-posttyp och en Workfront-objekttyp som Workfront-posttypen inte skapas i Maestro.
-
-1. (Valfritt) Klicka på namnet på ett Workfront-objekt som är anslutet till en maestro-post i det länkade fältet i en tabellvy eller från **Information** sidan med Maestro-posten.
-
-   Då öppnas skrivskyddade maestro **Information** för det länkade Workfront-objektet. Fälten som du markerade som uppslagsfält när du kopplade posttypen med Workfront-objektet visas på detaljsidan.
+   Då öppnas skrivskyddade maestro **Information** för det länkade Workfront-objektet. De fält som du valde som sökfält när du kopplade posttypen med Workfront-objektet visas på detaljsidan för Workfront Maestro-posten.
 
    >[!TIP]
    >
-   >* Om du har aktiverat inställningen Tillåt flera poster visas värdena för de olika objekten antingen avgränsade med kommatecken eller aggregeras enligt den aggregator du har valt.
+   >* När du aktiverar inställningen Tillåt flera poster visas värdena i uppslagsfälten avgränsade med kommatecken eller aggregeras enligt den aggregator du väljer.
    >
    >* Inget länkat postfält skapas för de länkade Workfront-objekten i Workfront.
 
@@ -280,7 +279,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 ### Koppla Maestro-poster till Adobe Experience Manager-objekt
 
-<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+<!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
@@ -305,11 +304,9 @@ Den senast använda arbetsytan bör öppnas som standard.
    >
    >  Du kan lägga till klicka på **+** -ikonen i fältet för länkade objekt på sidan Detaljer i Maestro-posten för att koppla resurser till posten.
 
-   The **Välj resurser** visas. <!--update screen shot with actual assets-->
+   The **Välj resurser** visas. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
-
-   Mer information om hur du ansluter posttyper med objekttyper från ett tredjepartsprogram finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
 1. Klicka för att välja någon av följande typer av resurser:
 
@@ -322,27 +319,20 @@ Den senast använda arbetsytan bör öppnas som standard.
    >
    > Du kan bara ansluta resurser som du har tillgång till för att visa i Experience Manager. När du är uppkopplad kan alla Maestro-användare visa resurserna i Maestro, oavsett vilken åtkomst de har i Experience Manager Assets.
 
-1. Klicka **Välj**.
+1. Klicka **Välj**. <!-- we might change this to Connect-->
 
    Följande ska läggas till:
 
    * De markerade Experience Manager-resurserna läggs till i det länkade postfältet.
    * De länkade fälten (eller sökfälten) fylls i med information från de Experience Manager-anslutna resurserna.
-   * En skrivskyddad informationssida i Maestro för det anslutna Experience Manager Assets-objektet. Du kommer åt den här sidan genom att klicka på namnet på en resurs i det länkade fältet i en Maestro-post. Fortsätt till steg 8. <!--accurate?-->
 
-     >[!IMPORTANT]
-     >
-     > Den skrivskyddade Experience Manager Assets Details-sidan av den länkade posttypen skapas bara när enskilda resurser läggs till i Maestro-poster. Om du bara skapar en anslutning mellan en Maestro-posttyp och Experience Manager Assets skapas inte posttypen Experience Manager Assets.
-
-     All befintlig information från fälten för resurserna i Experience Manager visas i de länkade fälten eller sökfälten.
+     All befintlig information från fälten för resurserna i Experience Manager visas automatiskt i de länkade fälten eller sökfälten.
 
      >[!TIP]
      >
-     >
-     >* Om du har aktiverat inställningen Tillåt flera poster visas värden för flera objekt avgränsade med kommatecken.
+     >* Om du har aktiverat inställningen Tillåt flera poster visas värdena för de olika objekten antingen separerade med kommatecken eller aggregerade enligt den aggregator du har valt.
      >
      >* Ett länkat postfält till de Maestro-länkade posterna skapas inte för de länkade Experience Manager-resurserna i Experience Manager Assets-programmet.
-
 
 1. (Valfritt) Gå till den posttyp som du länkade till Experience Manager Assets från och klicka på namnet på en resurs i det länkade postfältet. Information om resursen Experience Manager i ett popup-fönster. <!--update screen shot with hi-rez picture-->
 
@@ -362,13 +352,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Om du vill öppna informationssidan för resursposten i Experience Manager i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på **Öppna** icon ![](assets/open-asset-icon.png) för att öppna resursen.
 
-   Då öppnas Experience Manager-resursens **Information** sida i Maestro.
-
-1. Klicka **Gå till källa** i skärmens övre högra hörn.
-
-   ![](assets/go-to-source-asset-maestro-details-page.png)
-
-   Då öppnas resursen i Adobe Experience Manager Assets om du har tillgång till den. Du kan uppdatera resursen i det här programmet om du har behörighet att göra det.
+   Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 
 1. (Valfritt) Håll markören över kolumnrubriken för den länkade Experience Manager-resursen i tabellvyn för Maestro-posttypen och klicka sedan på listrutan. **Redigera sökfält**.
 

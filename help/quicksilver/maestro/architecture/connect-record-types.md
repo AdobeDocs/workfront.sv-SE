@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,13 @@ author: Alina
 
 Du kan använda Adobe Maestro för att utforma anpassningsbara arbetsytor som innehåller de posttyper som behövs i organisationen. Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla Maestro-posttyper till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
 
-Du kan ansluta följande:
-
-* Posttyper i maestro operativt
-* Maestro taxonomier mot varandra
-* Posttyper och taxonomier för Maestro operativt
-* Posttyper och taxonomier med objekttyper från andra program.
+Du kan koppla Maestro-posttyper till varandra eller Maestro-posttyper med objekttyper från andra program.
 
 På så sätt kan du visa fält från den länkade posten eller objekttypen på en annan Maestro-post.
 
 I den här artikeln beskrivs hur du kan koppla två Maestro-posttyper eller en Maestro-posttyp till ett objekt från ett annat program.
 
-När anslutningen mellan post- eller objekttyper har upprättats kan du koppla enskilda poster till varandra.
+När du har upprättat en anslutning mellan poster eller objekttyper kan du koppla enskilda poster till varandra.
 
 Mer information om hur du ansluter en Maestro-post till ett objekt från ett annat program finns i [Koppla poster](../records/connect-records.md).
 
@@ -99,7 +94,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
    <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade
+   <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.
 </td>
   </tr>
  </tbody>
@@ -119,8 +114,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du ansluter posttyper
 
-Tänk på följande:
-
 * Du kan ansluta följande enheter i Maestro:
 
    * Två driftsposttyper
@@ -130,7 +123,7 @@ Tänk på följande:
 
   Alla driftsposttyper och taxonomier måste tillhöra samma arbetsyta.
 
-* Du kan koppla följande objekt från följande program till posttyper i Maestro:
+* Du kan koppla följande objekttyper från följande program till Maestro-posttyper:
 
    * Adobe Workfront:
 
@@ -151,31 +144,31 @@ Tänk på följande:
      >
      >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
+* När du har skapat enskilda poster för en posttyp kan du välja de poster som du ansluter till från det länkade posttypsfältet. Mer information finns i [Koppla poster](../records/connect-records.md).
+
 * När du har kopplat en posttyp till en annan posttyp eller till en objekttyp från ett annat program finns följande scenarier:
 
    * **När du ansluter två posttyper**: Ett länkat postfält skapas för den posttyp som du ansluter från. Ett liknande länkat postfält skapas för den posttyp som du ansluter till.
 
      Om du till exempel ansluter posttypen&quot;Campaign&quot; till posttypen&quot;Product&quot; skapas ett länkat postfält som du kallar&quot;Linked Product&quot; för posttypen Campaign, och en länkad posttyp som automatiskt kallas&quot;Campaign&quot; skapas för posttypen Produkt.
 
-   * **När du ansluter en posttyp med en objekttyp från ett annat program**: Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i tredjepartsprogramobjektet.
+   * **När du ansluter en posttyp med en objekttyp från ett annat program**: Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i det andra programmets objekttyp.
 
-     En ny skrivskyddad Macestro-posttyp skapas endast för tredjepartsobjektet när de faktiska objekten är kopplade till Maestro-posterna.
+     En ny skrivskyddad Macestro-posttyp skapas endast för det andra programmets objekt när de faktiska objekten är kopplade till Maestro-posterna.
 
      Mer information finns i [Koppla poster](../records/connect-records.md).
 
-   * **När du lägger till uppslagsfält för posten eller objektet som du ansluter till**: Länkade fält läggs till i den post som du ansluter från och de visar information från de sökfält som du har valt för de poster som du länkar från. Postfälten är alltid skrivskyddade och fylls i automatiskt med värden för tredjepartsobjektet.
+   * **När du lägger till uppslagsfält för posten eller objektet som du ansluter till**: Du kan koppla fält från det andra programmets objekt till Maestro-posttypen. De här fälten är länkade eller uppslagsfält. Länkade fält visar automatiskt information från kopplade poster eller objekt när du kopplar ihop posterna eller objekten. De länkade sökfälten är alltid skrivskyddade och fylls i automatiskt med värdena för de kopplade posterna eller objekten.
 
-     Om du till exempel kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och du väljer att överföra fältet Planerat slutförandedatum för projektet till Maestro-posten, skapas ett länkat fält med namnet Planerat slutförandedatum (från projekt) automatiskt för den post du länkar från.
+     Om du till exempel kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och du väljer att överföra fältet Planerat slutförandedatum för projektet till Maestro-posten, skapas ett länkat fält med namnet Planerat slutförandedatum (från projekt) automatiskt för kampanjen. Du kan inte redigera det här länkade fältet manuellt. I fältet Planerat slutförandedatum (från projekt) visas det planerade slutförandedatumet för de länkade projekten.
 
      >[!IMPORTANT]
      >
-     >    Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett deras behörigheter eller åtkomstnivå i det program från tredje part som de länkade objekttyperna används i.
+     >    Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett behörighet eller åtkomstnivå i programmet för de länkade objekttyperna.
 
 * Länkade postfält föregås av en relationsikon ![](assets/relationship-field-icon.png).
 
   Länkade fält föregås av en ikon som anger fälttypen. Till exempel ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
-
-* När du har skapat enskilda poster för en posttyp kan du välja de poster som du ansluter till från det länkade posttypsfältet. Mer information finns i [Koppla poster](../records/connect-records.md).
 
 ## Koppla posttyper
 
@@ -191,15 +184,15 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. I **Posttyp** -fält, sök efter en posttyp eller välj något av följande: <!--is the field name spelled right? lowercase "t"?-->
+1. I **Posttyp** -fält, sök efter en posttyp eller välj något av följande:
 
-   * En annan operativ posttyp eller en taxonomi från arbetsytan som du valde
+   * En annan operativ posttyp eller en taxonomi från den del av arbetsytan som du valde
 
      >[!TIP]
      >
      >Det är bara posttyper och taxonomier från den arbetsyta som du har valt som är tillgängliga att ansluta till.
      > 
-     >Om du inte har andra posttyper på den valda arbetsytan visas inte arbetsytans namn.
+     >Om du inte har andra posttyper i den valda arbetsytan visas inte arbetsyteavsnittet.
 
    * A **Projekt, Portfolio, Program, Företag**, eller **Grupp** från **Workfront-objekttyper** -avsnitt.
    * **Experience Manager Assets** från **Adobe-program** -avsnitt.
@@ -209,7 +202,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. Uppdatera följande information:
 
-   * **Namn**: Namnet på det anslutna fältet, så som det kommer att visas i tabellvyn eller på detaljsidan för den ursprungliga posttypen. Då skapas den länkade postkolumnen i tabellvyn för den ursprungliga posttypen eller det länkade postfältet för de ursprungliga posterna. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Namn**: Namnet på det anslutna fältet, så som det kommer att visas i tabellvyn eller på detaljsidan för den ursprungliga posttypen. Då skapas den länkade postkolumnen i tabellvyn för den ursprungliga posttypen eller det länkade postfältet för de ursprungliga posterna.
 
    >[!TIP]
    >
@@ -217,11 +210,15 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    * **Beskrivning**: Ytterligare information om det anslutna postfältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
    * **Tillåt flera poster**: Välj det här alternativet för att ange att du tillåter att användare kan lägga till flera poster när fältet för länkad posttyp visas på de ursprungliga posterna. Detta är markerat som standard.
-   * **Välj sökfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är kopplade till den post eller objekttyp som du länkar till.  Detta är markerat som standard.
+   * **Välj sökfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på den post som du vill använda. Detta är markerat som standard.
 
-1. (Villkorligt och valfritt) Om du valt att ansluta ett Workfront-objekt väljer du en **Eget formulär** från **Länka endast projekt som uppfyller dessa villkor** -avsnitt. <!--this needs to be updated for each object when they fix this UI.--> Det är bara objekt som har de markerade anpassade formulären kopplade som kan länkas till den valda Maestro-posttypen. Du kan markera flera formulär.
+1. (Villkorligt och valfritt) Om du valt att ansluta ett Workfront-objekt väljer du en **Eget formulär** från **Länka endast objekt som uppfyller dessa villkor** -avsnitt. Det är bara objekt som har de markerade anpassade formulären kopplade som kan länkas till den valda Maestro-posttypen. Du kan markera flera formulär.
 
    ![](assets/workfront-project-connection-selection.png)
+
+   >[!NOTE]
+   >
+   > Du måste skapa anpassade formulär i Workfront för de markerade objekten innan de visas i den här listan.
 
 1. (Villkorligt) Om du valt att ansluta till Experience Manager Assets väljer du en databas i dialogrutan **Experience Manager-databas** nedrullningsbar meny i **Länka resurser från följande databas** -avsnitt. Detta är ett obligatoriskt fält. Endast databaser som du har åtkomst till i Experience Manager Assets visas i det här fältet.
 
@@ -239,9 +236,11 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
+   Värdena för de anslutna fälten fylls i automatiskt när du länkar poster eller objekt.
+
    >[!IMPORTANT]
    >
-   >    Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett deras behörigheter eller åtkomstnivå i det program från tredje part som de länkade objekttyperna används i.
+   >    Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett behörighet eller åtkomstnivå i programmet för de länkade objekttyperna.
 
 
 1. (Valfritt) Klicka på **Hoppa över** och lägg inte till några fält från den länkade posten eller objektet. The **Namn** av den länkade posten är det enda synliga fältet i den ursprungliga postens tabellvy.
@@ -281,9 +280,11 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    * Ett länkat postfält på posttypen som du länkar från. Det länkade postfältet visar enskilda poster av den länkade posttypen efter att du har lagt till dem manuellt. Mer information om hur du lägger till poster finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md). Namnet på det länkade postfältet är det namn du valde i steg 6. <!--accurate-->
 
-   * Ett eller flera länkade fält som visar information från fälten för den länkade posttypen efter att du manuellt har lagt till posterna i det länkade postfältet. De länkade fälten skapas endast när **Välj sökfält** inställningen är markerad när anslutningen skapas. De länkade fälten namnges enligt det här mönstret:
+   * Ett eller flera länkade fält som visar information från fälten för den länkade posten eller objekttypen efter att du manuellt har lagt till posterna eller objekten i det länkade postfältet. De länkade fälten skapas endast när **Välj sökfält** inställningen är markerad när anslutningen skapas. De länkade fälten namnges automatiskt enligt det här mönstret:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
+
+     Om du till exempel har länkat en kampanjposttyp med en programposttyp och namngett det programlänkade postfältet&quot;Programinformation&quot;, väljer du att även visa programmets budgetfält i Campaigns registervy, får det länkade fältet automatiskt ett namn `Budget (from Program information)` i kampanjens tabellvy.
 
    * När du länkar Maestro-posttyper till varandra läggs ett länkat postfält också till i den posttyp som du länkar till. Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
 
@@ -291,9 +292,9 @@ Den senast använda arbetsytan bör öppnas som standard.
 
      >[!TIP]
      >
-     > Ett länkat postfält till den posttyp som du länkar från skapas inte för objekt från ett tredjepartsprogram.
+     > Ett länkat postfält skapas inte för objekt från ett annat program till den posttyp som du länkar från i Maestro.
 
-1. (Valfritt) Klicka på nedåtpilen i huvudet för de länkade postfälten i den ursprungliga posttypen eller i tabellvyn för den länkade posttypen och klicka sedan på något av följande:
+1. (Valfritt och villkorligt) Klicka på nedåtpilen i rubriken för de länkade postfälten i den ursprungliga posttypen eller i tabellvyn för den länkade posttypen och klicka sedan på något av följande:
 
    * **Redigera fält**: Du kan bara uppdatera **Namn** och **Beskrivning** information om fältet.
    * **Redigera sökfält**: Lägg till eller ta bort fält för den länkade posten.
@@ -304,14 +305,10 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    >[!NOTE]
    >
-   > Du kan inte lägga till sökfälten för den post som du länkar från till den länkade posttypen som anger ett objekt i ett tredjepartsprogram.
+   > Du kan inte lägga till uppslagsfält som tillhör posttyper för Maestro som du länkar från till objekttyper från ett annat program.
    >
-   > Du kan till exempel inte lägga till sökfältet för ett Campaign-maestro-objekt från det länkade fältet Campaign som visas i posttypen Maestro-projekt när du länkar till Workfront-projekt.
+   > Du kan till exempel inte lägga till sökfältet för Campaign Status till ett Workfront-projekt som du länkar till från kampanjerna.
 
-1. (Valfritt) Klicka på nedåtpilen i huvudet på det länkade postfältet från den posttyp som du länkar från och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på nedåtpilen i huvudet i ett länkat postfält eller i huvudet i ett uppslagsfält från den posttyp som du länkar från och klicka sedan på **Ta bort**.
 
-   Postfältet och eventuella ytterligare länkade sökfält tas bort och fälten och deras information kan inte återställas.
-
-   >[!TIP]
-   >
-   >    Det länkade postfältet för den posttyp som du länkar till tas inte bort. <!-- is this still accurate?! -->
+   Postfältet eller sökfältet tas bort. Om du tar bort ett postfält tas även uppslagsfält som är kopplade till den länkade posten bort.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Om du vill ansluta Maestro-posttyper till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
@@ -98,16 +98,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du skapar posttyper
 
-* Du kan skapa posttyper på en arbetsyta genom att göra något av följande:
+* Du kan skapa posttyper på en arbetsyta på följande sätt:
 
    * Automatiskt:
       * När du skapar en arbetsyta med hjälp av en mall.
 
         Mer information finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
       * När du importerar dem med en Excel- eller CSV-fil. Detta är inte tillgängligt för taxonomiposttyper.
-      * När du skapar en anslutning till objekttyper från ett annat program, när du lägger till fält till en posttyp. Detta skapar en skrivskyddad posttyp i Maestro som är kopplad till objekttyper från det ursprungliga programmet.
-
-     Mer information om hur du kopplar objekttyper till Maestro-poster finns i [Koppla poster](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuellt:
 
       * Från scratch.
@@ -126,9 +126,9 @@ I den här artikeln beskrivs hur du skapar driftsposttyper från grunden. Att sk
 
 Mer information om taxonomier finns i [Skapa en taxonomi](../architecture/create-a-taxonomy.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Den senast använda arbetsytan bör öppnas som standard.
+Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill skapa posttyper för.
 1. Klicka **Lägg till posttyp**.
@@ -138,14 +138,14 @@ Mer information om taxonomier finns i [Skapa en taxonomi](../architecture/create
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. Välj följande information:
+1. Uppdatera följande information:
 
-   * **Postnamn**: Ersätt&quot;Namnlös operativ posttyp&quot; med namnet på din framtida posttyp. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Posttypnamn**: Ersätt&quot;Namnlös operativ posttyp&quot; med namnet på din framtida posttyp.
    * **Utseende**: Definiera färg och form för ikonen som är associerad med posttypen. Gör följande:
       * Välj en färg som identifierar den nya posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
       * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
 
-1. Klicka utanför **Lägg till posttyp** för att spara posten.
+1. Klicka utanför **Lägg till posttyp** för att spara posttypen.
 
    Posttypkortet läggs till på den arbetsyta som du har valt.
 Antalet fält som posttypen innehåller visas på kortet.
@@ -171,8 +171,11 @@ Antalet fält som posttypen innehåller visas på kortet.
 
    Klicka på **Mer** icon ![](assets/more-menu.png) till höger om posttypens namn och klicka på **Byt namn** för att byta namn på den.
 
-1. (Valfritt) Klicka på **+ Ny &lt; posttypsnamn >** om du vill lägga till poster av den valda posttypen. Mer information finns i [Skapa poster](../records/create-records.md).
-1. (Valfritt) Klicka på **+** i tabellens övre högra hörn om du vill lägga till fler fält i posttypen. Mer information finns i [Skapa fält](../fields/create-fields.md).
+1. (Valfritt) Klicka på **+ Ny post** om du vill lägga till poster av den valda posttypen. Mer information finns i [Skapa poster](../records/create-records.md).
+1. (Valfritt) Klicka på **+** i tabellens övre högra hörn om du vill lägga till fler fält i posttypen.
+
+   Mer information om hur du skapar fält finns i [Skapa fält](../fields/create-fields.md).
+
 1. (Valfritt) Klicka på vänsterpilen till vänster om posttypens namn för att gå tillbaka till den valda arbetsytan.
 
    Posttypkortet visar antalet fält och anslutningar som posttypen innehåller.
@@ -184,7 +187,7 @@ Antalet fält som posttypen innehåller visas på kortet.
    * [Skapa poster](../records/create-records.md)
    * [Ta bort posttyper](../architecture/delete-record-types.md)
    * [Redigera posttyper](../architecture/edit-record-types.md)
-   * [Hantera postvyer i Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [Hantera postvyer](../views/manage-record-views.md)
 
 ## Skapa posttyper genom att importera en Excel- eller CSV-fil
 
@@ -202,9 +205,9 @@ Tänk på följande när du importerar posttyper med en Excel- eller CSV-fil:
 
 Så här importerar du posttyper med en Excel-fil:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i Workfront övre högra hörn, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> klicka sedan på **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Den senast använda arbetsytan bör öppnas som standard.
+Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill skapa posttyper för.
 1. Klicka **Lägg till posttyp**.
@@ -250,20 +253,21 @@ Så här importerar du posttyper med en Excel-fil:
 
    Alla som har tillgång till Maestro kan nu visa och redigera de importerade posttyperna och deras information. <!--this will change with permissions-->
 
-## Koppla posttyper med objekttyper från andra program
+<!--## Connect record types with object types from another application
 
-Du kan importera posttyper när du skapar en anslutning mellan en Maestro-posttyp och en objekttyp från ett annat program. Detta skapar en skrivskyddad posttyp i Maestro som motsvarar objekttypen i tredjepartsprogrammet.
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-Du kan till exempel skapa posttyper genom att koppla Maestro-posttyper till Workfront-projekt. Därför importeras Workfront projektobjekttyp till Maestro som en skrivskyddad posttyp. Som standard heter posttypen&quot;Workfront Project&quot;. <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-Du kan importera följande objekt från följande program:
+* From Workfront:
 
-* Från Workfront:
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * Projekt
-   * Portfolio
-   * Program
-   * Företag
-   * Grupp
-
-Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

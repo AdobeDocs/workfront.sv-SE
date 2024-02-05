@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 16db6e7fedbea7a95e8e0356c523409db1f78199
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3725'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,8 @@ Produktion: 1 februari 2024
 
 Förhandsgranska: Ska bestämmas
 
-För att undvika förvirring och förenkla ditt arbetsflöde har vi tagit bort de posttypskort som skapades som ett resultat av att Maestro-poster kopplades till objekt från tredjepartsprogram från en arbetsyta. <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+För att undvika förvirring och förenkla hanteringen av arbetsytor har vi tagit bort de automatiskt genererade, skrivskyddade posttypkorten för anslutna icke-maestro-objekt från en arbetsyta.
+<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 

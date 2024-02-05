@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ I följande tabell visas några likheter och skillnader mellan de operativa post
 | De representerar attribut om arbetsrelaterade objekt |                         | ✓ |
 | Du kan skapa från början | ✓ | ✓ |
 | Du kan skapa genom att importera en Excel- eller CSV-fil | ✓ |                      |
-| Du kan ansluta posttypen till ett objekt från ett tredjepartsprogram | ✓ |                      |
+| Du kan ansluta posttypen till ett objekt från ett annat program | ✓ |                      |
 | Du kan ansluta till andra Maestro-posttyper | ✓ |                    |
 | Du kan visa deras associerade poster i en tabellvy | ✓ | ✓ |
 | Du kan visa deras associerade poster i en tidslinjevy | ✓ | ✓ |

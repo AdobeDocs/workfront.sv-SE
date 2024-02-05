@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Taxonomier är posttyper som hämtar attribut om operativa posttyper i Adobe Maestro.
+Posttyper i taxonomi hämtar attribut om operativa posttyper i Adobe Maestro.
 
 Campaign kan till exempel vara en operativ posttyp. Följande är taxonomier som samlar in attribut om posttypen Campaign: Region, Audience, Country.
 
@@ -91,19 +91,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du skapar taxonomier
 
-* Du måste skapa en arbetsyta innan du kan skapa taxonomier på arbetsytan.
+* Du måste skapa en arbetsyta innan du kan skapa taxonomiposttyper på arbetsytan.
 
   Mer information om arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 * Du kan skapa en taxonomiposttyp genom att göra något av följande:
    * Skapa dem automatiskt när du skapar en arbetsyta med hjälp av en mall. Mer information finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
    * Skapa dem manuellt, från grunden.
-   * Skapa dem manuellt genom att klistra in information från en extern lista.
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* Alla nya taxonomier innehåller följande fält:
+* Alla nya taxonomiposttyper har följande fält:
 
    * Namn <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
   >[!NOTE]
   >
-  >    Taxonomier som skapas när en arbetsytemall används har ytterligare fält.
+  >    Taxonomiposttyper som skapas när en arbetsytemall används har ytterligare fält.
 
-## Skapa en taxonomi
+## Skapa en taxonomiposttyp
 
-Att skapa taxonomier påminner om att skapa en operativ posttyp från grunden eller från en arbetsytemall.
+Att skapa taxonomiposttyper påminner om att skapa operativa posttyper från grunden eller från en arbetsytemall.
 
 Mer information finns i avsnittet&quot;Skapa en posttyp från grunden&quot; i artikeln [Skapa posttyper](../architecture/create-record-types.md).
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -139,22 +139,21 @@ Alla poster av den valda typen visas i tabellvyn.
 
 ## Skapa poster genom att ansluta dem från ett annat program
 
-Du kan importera poster från andra program genom att länka dem till poster som är länkade till Maestro. Detta skapar en Maestro-posttyp för det anslutna objektet från tredjepartsprogrammet. Poster som du ansluter till de ursprungliga Maestro-posterna visas i det tredjepartsprogram som är anslutet till objektet Maestro-posttyptabellvy.
+Du kan importera poster från andra program genom att länka dem till poster som är länkade till Maestro. Detta skapar en Maestro-posttyp för det andra programmets anslutna objekt.
 
 1. Skapa en Maestro-posttyp enligt beskrivningen i [Skapa posttyper](../architecture/create-record-types.md).
 
 1. Skapa Maestro-poster för den posttyp du skapade i föregående steg. Mer information finns i avsnittet [Skapa poster genom att lägga till dem manuellt till en posttyp](#create-records-by-manually-adding-them-to-a-record-type) i den här artikeln.
 
-1. Skapa en anslutning till en objekttyp från ett tredjepartsprogram för den Maestro-posttyp som du har skapat. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
+1. Skapa en anslutning till en objekttyp från ett annat program för den Maestro-posttyp som du har skapat. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
-1. Lägg till poster från tredjepartsprogrammet i de Maestro-poster som du skapade ovan med hjälp av det länkade postfältet som du skapade i föregående steg. Mer information finns i [Koppla poster](../records/connect-records.md).
+1. Lägg till poster från ett annat program i de Maestro-poster som du skapade ovan med hjälp av det länkade postfältet som du skapade i föregående steg. Mer information finns i [Koppla poster](../records/connect-records.md).
 
    Följande objekt skapas i Maestro:
 
-   * En skrivskyddad Maestro-posttyp som refererar till den posttyp från tredje part som du länkade till i det anslutna postfältet.
+   * En skrivskyddad Maestro-posttyp som refererar till det andra programmets posttyp som du länkade till i det anslutna postfältet.
 
-     Om du t.ex. ansluter en Maestro-posttyp till Workfront-projekt skapas en skrivskyddad posttyp med namnet&quot;Workfront projects&quot; i samma arbetsyta.
-   * Skrivskyddade poster på posttypssidan från tredje part. Posterna som importeras från tredjepartsprogrammet förblir skrivskyddade och kan bara uppdateras i det ursprungliga programmet.
+     Om du till exempel ansluter en Maestro-posttyp till ett Workfront-projekt skapas en skrivskyddad posttyp med namnet&quot;Workfront project&quot; i samma arbetsyta. Du kan komma åt de skrivskyddade Workfront-posttyperna från tabellvyn för de Maestro-poster som du länkar från.
 
 ## Skapa poster genom att kopiera och klistra in information från en extern lista
 
@@ -178,7 +177,7 @@ Du kan importera poster från andra program genom att länka dem till poster som
    >
    > Se till att du redan har skapat önskade fält i Maestro och att informationen i bladet visas i rätt format som matchar fälten i Maestro.
 
-1. I tredjepartsprogrammet markerar du flera rader och kolumner och klistrar sedan in informationen i posttypstabellvyn, med början från den första nya posten.
+1. I ett annat program markerar du flera rader och kolumner och klistrar sedan in informationen i posttypstabellvyn, med början från den första nya posten.
 
    Följande information importeras till Maestro:
 
