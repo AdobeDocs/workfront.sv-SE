@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
+source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
 workflow-type: tm+mt
-source-wordcount: '5369'
+source-wordcount: '5395'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,10 @@ Du kan skapa en anslutning till [!DNL Workfront] direkt inifrån ett [!DNL Workf
 När du konfigurerar [!DNL Workfront] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Workfront] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+>[!NOTE]
+>
+>Om du inte ser de mest aktuella fälten i en Workfront-modul kan det bero på problem med cachelagring. Vänta en timme och försök igen.
 
 ![](assets/map-toggle-350x74.png)
 
