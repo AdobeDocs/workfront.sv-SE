@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,13 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Du kan redigera postinformation i Adobe Maestro. Du måste skapa posttyper innan du kan börja skapa och redigera poster.
+Du kan redigera postinformation i Adobe Maestro genom att redigera värdena i fälten som är kopplade till posterna.
+
+Du måste skapa posttyper innan du kan börja skapa och redigera poster.
+
 Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
+
+Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver/maestro/records/create-records.md).
 
 &lt;!— här anger du att fälten i detaljvyn är desamma som fälten i tabellvyn - den här artikeln är länkad från vyerna Hantera post för att referera till den här informationen—>
 
@@ -52,9 +57,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Nytt: Ljus eller högre</p>
+   eller
+   <p>Aktuell: Arbete eller högre</p> 
   </td>
   </tr>
 
@@ -78,21 +85,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Att tänka på när du redigerar poster
 
-* Du kan redigera poster som du eller någon annan användare har skapat. <!--will change with access levels-->
-* Du kan inte redigera fält som är länkade från andra poster eller fält som innehåller beräkningar.
+* Du kan redigera poster som du har skapat eller poster som har skapats av andra, om du har fått behörighet till arbetsytan.
+* Du kan redigera postfält från detaljsidan för en post eller från tabellvyn för en posttyp.
+* Du kan inte redigera postinformation från tidslinjevyn.
+* Följande typer av fält uppdateras automatiskt och du kan inte redigera deras värden manuellt:
+   * Länkade fält från andra poster
+   * Formelfält
+   * Systemfält (Skapat av, Skapat den, Senast ändrat den, Senast ändrat den)
 * Om de poster som du visar är länkade till andra poster, återspeglas den nya informationen om de poster som du redigerar på de länkade posterna.
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
 * URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
-* Du kan använda följande formateringsalternativ för RTF när du redigerar ett stycketextfält:
-
-   * Fet
-   * Kursiv
-   * Understruken
-   * Lägg till en länk
-   * Lägga till en punktlista
-   * Lägga till en numrerad lista
 
 ## Redigera poster
 
@@ -110,8 +116,8 @@ Arbetsytan som du öppnar senast öppnas.
 1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
 1. Gör något av följande:
 
-   * Klicka på en posts namn i en tabellvy.
-   * Håll markören över namnet på en post i tabellvyn och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
+   * Från en **Tabell** klickar du på namnet på en post.
+   * Från **Tabell** visa, hovra över namnet på en post och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
 
      ![](assets/contextual-menu-for-record-row.png)
    * Klicka på ett postfält i en tidslinjevy.
@@ -144,7 +150,6 @@ Arbetsytan som du senast öppnade öppnas.
 1. Klicka inuti en post för att börja redigera information om den infogade posten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Tryck **Retur** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. En sparad indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
 
    >[!NOTE]
    >
@@ -153,13 +158,31 @@ Arbetsytan som du senast öppnade öppnas.
    >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
    >  * Fält av följande typer: Skapad av, Skapad, Senast ändrad av, Senast ändrad
 
+1. (Valfritt och villkorligt) Använd följande när du redigerar ett stycketextfält **RTF** formateringsalternativ:
 
-1. (Valfritt) Kopiera ett eller flera befintliga värden för ett fält, klistra in dem i ett fält av samma typ på en annan post och klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
+   * Fet
+   * Kursiv
+   * Understruken
+   * Lägg till en länk
+   * Lägga till en punktlista
+   * Lägga till en numrerad lista
+
+   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+1. Tryck **Retur** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. A **Sparad** indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
+
+1. (Valfritt) Om du vill kopiera och klistra in information från ett fält till ett annat gör du något av följande:
+
+   * Kopiera ett eller flera befintliga värden för ett fält och klistra sedan in dem i ett fält av samma typ på en annan post
+   * Klicka på kolumnrubriken för en kolumn för att markera den och kopiera den, klicka sedan på kolumnrubriken för en annan kolumn och klistra in innehållet i den kopierade kolumnen. Kolumnerna måste innehålla liknande fälttyper.
+   * Med Skift-tangenten nedtryckt klickar du för att markera flera rader i en tabell, kopierar informationen i de markerade raderna, klickar på en annan rad och klistrar in den markerade informationen på den nya raden och efterföljande rader.
 
    >[!NOTE]
    >
    >Tänk på följande:
    >
+   >* Använd följande kortkommandon för att kopiera och klistra in information:
+   >   * Copy: CTRL + C ( ⌘ + C för Mac)
+   >   * Klistra in: CTRL + V ( ⌘ + V för Mac)
    >* Du kan inte kopiera information från en annan källa, förutom ett Maestro-fält av samma typ som det fält som du klistrar in informationen i.
    >
    >* Du kan inte kopiera och klistra in fältvärden i området Detaljer för en post. Den här funktionen stöds bara i tabellvyn för en posttyp.
@@ -173,4 +196,9 @@ Arbetsytan som du senast öppnade öppnas.
 
    * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
+
+   >[!TIP]
+   >
+   >    Du kan använda kortkommandona flera gånger i rad för att ångra flera ändringar.
+
 1. (Valfritt) Lägg till en miniatyrbild till en post. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).

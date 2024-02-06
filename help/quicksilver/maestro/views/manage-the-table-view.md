@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -166,6 +166,8 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >   * Om du ändrar det primära fältet i en tabellvy påverkas alla tabellvyer.
    >
    >   * Du kan inte ta bort eller dölja ett primärt fält.
+   >
+   >   * Värdet som anges i det primära fältet är alltid länkat till postens informationssida.
 
 1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 
@@ -214,7 +216,7 @@ Du kan ha upp till 10 000 poster (eller rader) för en posttyp i Maestro.
 
    Posterna som du lägger till i tabellvyn sparas omedelbart och visas för alla användare som har behörigheten Visa eller högre på arbetsytan.
 
-1. (Valfritt) Lägg till en miniatyrbild för varje post och klicka sedan på **Fält** i tabellens övre högra hörn och välj alternativet för fältet Miniatyrbild för att visa det till vänster om det primära fältet. Det är som standard avmarkerat.
+1. (Valfritt) Lägg till en miniatyrbild för varje post och klicka på **Fält** i tabellens övre högra hörn och välj sedan alternativet för **Miniatyrbild** för att visa det till vänster om det primära fältet. Det är som standard avmarkerat.
 
    Mer information finns i [Lägga till miniatyrbilder i poster](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 

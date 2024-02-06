@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,15 @@ Du måste ha följande inställningar för att kunna använda Adobe Maestro:
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
    <p>Alla</p>
-   Användarna måste ha följande licens för att skapa arbetsytor: 
-   <ul><li><p>Nytt: Standard</p> </li>
-   <li><p>Aktuell: Arbetare eller högre</p> </li></ul>
+   <p>Om du vill skapa arbetsytor måste du ha följande licens:</p>
+   <ul>
+   <li>
+   Nytt: Standard
+   </li>
+   <li>
+   Aktuell: Arbetare eller högre
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -66,7 +72,7 @@ Du måste ha följande inställningar för att kunna använda Adobe Maestro:
 <tr>
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
-   <p>Contribute eller högre behörigheter för arbetsytor och vyer som du inte skapat för att redigera, ta bort eller dela dem</p>
+   <p>Contribute eller högre behörigheter för arbetsytor och vyer som du inte skapat för att redigera, ta bort och dela dem samt för att skapa, redigera eller ta bort posttyper och poster.</p>
     <p>Systemadministratörer kan hantera arbetsytor och vyer som de inte skapade </p>
    <p>Mer information om att dela behörigheter för Maestro-objekt finns i  
    <a href="../access/sharing-permissions-overview.md">Översikt över delningsbehörigheter i Adobe Maestro</a> 
@@ -109,10 +115,16 @@ Det finns inga åtkomstkontroller för Maestro.
 
 Användare med alla typer av licenser har tillgång till Maestro.
 
+Information om hur du beviljar åtkomst i Workfront finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## Bevilja behörigheter
 
 Du måste ge användare som inte är systemadministratörer behörighet till arbetsytor och vyer som du skapar för att de ska kunna komma åt dem.
 
 Mer information finns i [Översikt över delningsbehörigheter i Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+Din Adobe Workfront-licenstyp fungerar tillsammans med dina Maestro-behörigheter så att du kan visa, bidra och hantera Maestro-objekt.
+
+Mer information om hur licenstyper påverkar behörighetsnivåer för Maestro-objekt finns i [Översikt över licenstypen i Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '3725'
+source-wordcount: '3933'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,54 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
 
+## Vecka 5 februari 2024
+
+### Ändra behörigheter baserat på licenstyper
+
+Produktion: 6 februari 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi har ändrat behörighetsnivåerna för att ta hänsyn till användarnas licenstyper. Före den här förbättringen fanns det inga skillnader i behörigheter för arbetsytan baserat på användarnas licenstyper.
+
+Följande behörigheter fungerar nu tillsammans med användarens licenstyp:
+
+* Användare med en planlicens (eller standardlicens, i den nya licensmodellen) kan skapa och hantera arbetsytor, posttyper och poster.
+
+* Användare med en arbetslicens (eller Light, i den nya licensmodellen) kan visa och bidra till en arbetsyta som delas med dem, samt till den arbetsytans posttyper och poster.  Användare med arbetslicens (eller ljus-) kan också skapa, redigera och ta bort poster på arbetsytor där de har Contribute-åtkomst.
+
+* Användare med en licens för Granska eller Begärande (eller Medarbetare, i den nya licensmodellen) kan bara visa de arbetsytor som delas med dem, samt posttyperna och posterna för dessa arbetsytor. De kan inte skapa, redigera eller ta bort posttyper eller poster.
+
+Mer information om den nya licensmodellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+Mer information om anslutningen mellan licenstyp och behörigheter i Maestro finns i [Översikt över licenstypen i Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
+<!--
+### New look-and-feel of the Rich-Text toolbar for record fields
+
+Production: February 7, 2024 
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
+
+For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+
+Production: February 8, 2024 
+
+Preview: To be determined 
+
+We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
+ 
+For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+
+The improvements are now available when updating fields in the table view of a record type.  
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+
+-->
 
 ## Vecka 29 januari 2024
 
