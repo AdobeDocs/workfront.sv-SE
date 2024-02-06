@@ -6,9 +6,9 @@ description: När du skickar ett dokument (DOCX, PDF, XLSX, AI) för korrektur, 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ All teckensnittstext extraheras i sitt lager så länge du inkluderar rätt filt
 * Eftersom PDF-filer är de mest standardiserade och tillförlitliga rekommenderar vi att du konverterar dokument till detta format innan du överför dem.
 * Använd den senaste versionen av programmet för att skapa originaldokument.
 * Om du är osäker på vilka inställningar som ska användas när du sparar eller exporterar dina dokument i det program där du skapade dem använder du standardinställningarna. 
-* Glöm inte att bädda in alla teckensnitt du använder i ett dokument. Om du använder anpassade teckensnitt visas dessa teckensnitt endast på de datorer där de är installerade.
+* Glöm inte att bädda in alla teckensnitt som du använder i ett dokument. Om du använder anpassade teckensnitt visas dessa teckensnitt endast på de datorer där de är installerade. Eftersom anpassade teckensnitt inte ingår i korrektursystemet går det inte att använda anpassade teckensnitt när filen genereras, även om de är inbäddade.
 * Placera om möjligt alla textelement i de översta lagren i din design. Detta bör säkerställa att texten extraheras och kan markeras i textanteckningsverktyget.
 * Placera alla bilder och element i dokumentet. Om du länkar dem från externa källor, t.ex. en annan fil på datorn, visas de inte i det korrektur som du skapar.
 * Skapa dokumentet enligt de standarder som rekommenderas för dess typ och optimera det innan du överför det. Detta säkerställer att dokumentet öppnas korrekt i korrekturläsaren, liksom i alla andra program och plattformar.
@@ -45,7 +45,7 @@ All teckensnittstext extraheras i sitt lager så länge du inkluderar rätt filt
 Vanligtvis tar bearbetningen några sekunder per sida. Men det kan räcka av olika faktorer, till exempel nätverkstrafik/bandbredd, lokal anslutningshastighet och internationell anslutningshastighet (för användare utanför USA). Följande kan också påverka bearbetningstiden:
 
 * För statiska dokument och bilder: sidantal, siddimensioner, textvolym, bild- och objektkomplexitet (element som flera vektorelement, lager, genomskinlighet).
-* För videoklipp: långa varaktigheter, stora dimensioner och kodekar som används.
+* För videoklipp: lång varaktighet, stora dimensioner och kodekar som används.
 * För webbklipp: inläsningstider för webbsidor och siddimensioner.
 
 ## Processsteg

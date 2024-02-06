@@ -6,9 +6,9 @@ description: Du kan förbättra dina rapporter genom att lägga till ett diagram
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 68d93ccb8b96f802ef0a612e7e41cf168e34e863
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2757'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ Lägga till en **Liggande** till rapporten:
    ![](assets/qs-bar-chart-350x167.png)
 
 1. Klicka **Spara + Stäng** för att spara diagrammet och rapporten.
+
+>[!IMPORTANT]
+>
+>Begränsa stapeldiagram till 23 eller färre staplar, eftersom stapeldiagram som innehåller fler än 23 staplar inte visar alla stapeletiketter korrekt.
 
 ### Cirkeldiagram {#pie-chart}
 

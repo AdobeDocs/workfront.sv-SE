@@ -6,9 +6,9 @@ description: Läs den här artikeln om du vill veta mer om riktlinjer för kolum
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ Nedan följer riktlinjer för hur kolumnbredder fungerar i Adobe Workfront:
 * Workfront definierar bredden på kolumner i listor och rapporter som standard.
 * Workfront justerar automatiskt bredden på kolumnerna enligt `valueformat`information i alla listor och rapporter, om inte annat anges i kolumnens textläge.
 
-   >[!NOTE]
-   >
-   >Workfront justerar inte bredden på kolumnerna enligt `valueformat` information i listorna som finns under Inställningar och Rapporter.
+  >[!NOTE]
+  >
+  >Workfront justerar inte bredden på kolumnerna enligt `valueformat` information i listorna som finns under Inställningar och Rapporter.
 
-   The `valueformat` värdet definierar vilken typ av information som visas i kolumnen. Kolumner som visar ett tal är till exempel smalare än kolumner som visar fältet Beskrivning.
+  The `valueformat` värdet definierar vilken typ av information som visas i kolumnen. Kolumner som visar ett tal är till exempel smalare än kolumner som visar fältet Beskrivning.
 
 * Du kan anpassa bredden på kolumnerna i listor och rapporter i Workfront så att de passar dina behov, beroende på vilken typ av information du vill visa i kolumner.
 
-   Du kan ändra kolumnbredden temporärt, medan du visar en lista eller rapport, eller permanent, genom att justera bredden på kolumnen i vybyggaren. Information om hur du ändrar bredden på kolumner tillfälligt finns i [Att tänka på när du tillfälligt ändrar bredden och ordningen på kolumner](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) i den här artikeln.
+  Du kan ändra kolumnbredden temporärt, medan du visar en lista eller rapport, eller permanent, genom att justera bredden på kolumnen i vybyggaren. Information om hur du ändrar bredden på kolumner tillfälligt finns i [Att tänka på när du tillfälligt ändrar bredden och ordningen på kolumner](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) i den här artikeln.
 
 * Kolumner som visas i inbyggda vyer har bredder som tidigare definierats av Workfront och som är hårdkodade. Om du vill ändra dessa bredder måste du uppdatera bredden på kolumnerna manuellt med hjälp av textläget i vybyggaren.
 
-   Mer information om hur du ändrar kolumnen i textläge finns i [Visa: redigera bredden på en kolumn permanent](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  Mer information om hur du ändrar kolumnen i textläge finns i [Visa: redigera bredden på en kolumn permanent](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## Åtkomstkrav
 
@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ändra kolumnbredd och -ordning
 
-Du kan ändra kolumnernas bredd och ordning i dina rapporter på följande sätt:
+Du kan ändra bredden och ordningen på kolumnerna i dina rapporter på följande sätt:
 
 * [Ändra bredden och ordningen på kolumner tillfälligt](#modify-width-and-order-of-columns-temporarily)
 * [Ändra kolumnernas bredd och ordning permanent](#modify-width-and-order-of-columns-permanently)
@@ -87,22 +87,28 @@ Du kan tillfälligt ändra bredden och ordningen på kolumnerna i en lista utan 
 Tänk på följande när du tillfälligt ändrar storlek på och ordnar kolumner:
 
 * När du ändrar storlek på kolumner lagras de nya kolumnstorlekarna i webbläsarens lokala lager och sparas som standard. Om du använder en annan webbläsare eller rensar cacheminnet eller läser data återställs kolumnstorlekarna till standardvärdet. När du uppdaterar sidan behålls de ändringar du gör i kolumnbredden.
+
+>[!NOTE]
+> 
+>Kolumnbredderna begränsas av webbläsarfönstrets storlek. Om sidan uppdateras kommer kolumnerna att minskas i bredd tills alla kolumner får plats i fönstret utan vågrät rullning. Om du vill tvinga en kolumn att förbli bredare än vad webbläsaren får plats, måste du ange kolumnens bredd i textläge enligt beskrivningen i [Ändra kolumnernas bredd och ordning permanent](#modify-width-and-order-of-columns-permanently) och du undviker att justera kolumnbredderna manuellt genom att dra i kanterna.
+>
+
 * När du ändrar ordning på kolumner behålls den ordning du väljer bara tills du navigerar bort från listan eller uppdaterar webbläsarsidan. När du har navigerat bort från listan eller uppdaterat webbläsarsidan återgår kolumnerna till sin standardordning.
 * För optimala prestanda bör kolumnerna som du ändrar ordning inte ha fler än 100 objekt i listan.
 * När du ändrar storlek på kolumner gäller ändringarna bara för den vy du använder och är bara synliga för dig. När du delar en vy med en annan användare delas inte de kolumnstorlekar som du har definierat.
 * När du ändrar storlek på en kolumn genom att dra kanten till höger, bevaras bredden på den intilliggande kolumnen förutom i följande:
 
    * Området Inställningar
-   * Området Rapporter
+   * Rapporter
    * Dokumentlistor och rapporter
 
-   >[!NOTE]
-   >
-   >Du kan inte flytta den vänstra kanten på en kolumn förbi den vänstra kanten på den intilliggande kolumnen i någon lista.
+  >[!NOTE]
+  >
+  >Du kan inte flytta den vänstra kanten på en kolumn förbi den vänstra kanten på den intilliggande kolumnen i någon lista.
 
 * Om du exporterar en lista till en fil överförs inte kolumnernas tillfälliga ordning till den exporterade filen. Den exporterade filen visar ordningen på kolumnerna i den ursprungliga listan, innan kolumnerna har sorterats om.
 
-Mer information om hur du exporterar data från listor och rapporter finns i artikeln [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Mer information om att exportera data från listor och rapporter finns i artikeln [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 #### Ändra storlek på kolumner tillfälligt {#resize-columns-temporarily}
 

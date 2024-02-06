@@ -6,9 +6,9 @@ description: Du kan dela filter, vyer och grupperingar som du har tillgång till
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,7 @@ Dela ett filter med standardgränssnittet i Builder:
 
    Rutan Filterdelning visas.
 
-1. Aktivera **Visa hela systemet** inställning. Detta ger alla i Workfront behörighet att visa filtret.
-
-   >[!IMPORTANT]
-   >
-   >Använd den här inställningen med försiktighet. Om du lägger till många filter för alla användare blir det svårare att hitta filtren.
-
-   Eller börja skriva namnen på användare, team, roller, grupper eller företag som du vill dela med i **Ge åtkomst till** fält.
+1. Börja skriva namnen på de användare, team, roller, grupper eller företag som du vill dela med i **Ge åtkomst till** fält.
 
    ![Filterdelningsruta](assets/new-filters-share-filter.png)
 

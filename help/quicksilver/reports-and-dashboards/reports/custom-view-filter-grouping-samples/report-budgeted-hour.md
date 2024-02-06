@@ -7,9 +7,9 @@ description: 'Rapport: Budgeterad timme'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 0%
 # Rapport: Budgeterad timme
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 När du vill dela information om budgeterad timme med andra användare som inte har tillgång till resursplaneraren kan du göra det genom att skapa en rapport om budgeterad timme. Du kan sedan dela rapporten med dem.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->Budgeterade timmar uppdateras varje timme i Adobe Workfront-databasen. Om du uppdaterar rapporten uppdateras inte timinformationen i den. Du kan visa den tid som gått sedan den senaste uppdateringen i det övre högra hörnet i varje rapport för budgeterad timme. När du uppdaterar rapporten uppdateras bara informationen i den när det har gått mer än en timme sedan den senaste uppdateringen.
+>Budgeterade timmar uppdateras normalt varje timme (det kan ta max tre timmar) i Adobe Workfront-databasen. Om du uppdaterar rapporten uppdateras inte timinformationen i den. Du kan visa den tid som gått sedan den senaste uppdateringen i det övre högra hörnet i varje rapport för budgeterad timme. När du uppdaterar rapporten uppdateras bara informationen i den när det har gått mer än en timme sedan den senaste uppdateringen.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 

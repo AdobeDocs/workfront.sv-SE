@@ -6,9 +6,9 @@ description: Du kan bädda in en extern webbsida i en instrumentpanel för att g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,11 @@ Du måste vara inloggad på den angivna webbplatsen för att kunna visa den exte
         Din Workfront-administratör kan konfigurera dina systeminställningar på ett sätt som av säkerhetsskäl inte tillåter användning av sessionsinformation på externa sidor. I det här fallet läses den externa sidan inte in på instrumentpanelen.\
         Mer information om systemsäkerhetsinställningar finns i [Konfigurera säkerhetsinställningar för system](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+     >[!WARNING]
+     >
+     >Användning av SessionID är osäkert och rekommenderas inte.
+     >
 
    * **Höjd**: Ange en siffra som är större än 0 för att definiera utrymmet som den externa sidan upptar på kontrollpanelen. Standardhöjden är 500.
 
