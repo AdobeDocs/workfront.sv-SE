@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -148,9 +148,9 @@ Mer information om att dela objekt finns i [Översikt över delningsbehörighete
 
 När en [!DNL Workfront] administratör tilldelar en grupp till ett företag, gruppadministratörer för gruppökningen [!UICONTROL Manage] behörighet till företaget i [!UICONTROL Setup]. Detta inkluderar åtkomst till [!UICONTROL Companies] sida in [!UICONTROL Setup], där de kan se och hantera det företag som är associerat med deras grupp.
 
-Med den här åtkomsten [!UICONTROL Companies] kan en gruppadministratör tilldela en grupp till ett företag, men det måste vara ett företag som gruppadministratören har skapat. Om gruppadministratörens åtkomstnivå inte är konfigurerad med administrativ åtkomst till företag kan du [!UICONTROL Group] fältet är obligatoriskt när gruppadministratören skapar företaget. Det är en rubrik med fet stil som anger detta:
+Med den här åtkomsten [!UICONTROL Companies] kan en gruppadministratör tilldela en grupp till ett företag, men det måste vara ett företag som gruppadministratören har skapat. Om gruppadministratörens åtkomstnivå inte är konfigurerad med administrativ åtkomst till företag kan du [!UICONTROL Group] fältet är obligatoriskt när gruppadministratören skapar företaget - den fetstilta titeln anger detta:
 
-![](assets/manage-company-group-field-req.jpg)
+![Redigera företag](assets/group-admin-add-company.png)
 
 Mer information om hur användare får administrativ åtkomst till företag på åtkomstnivå finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
