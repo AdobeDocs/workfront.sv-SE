@@ -6,9 +6,9 @@ description: Du kan länka dokument och mappar till Adobe Workfront från extern
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -232,6 +232,10 @@ Du kan skapa ett nytt Google-dokument i Workfront. Du kan inte skapa nya dokumen
 ## Överföra och länka ett dokument från Workfront till en extern molnleverantör
 
 Du kan överföra och länka ett dokument från Workfront till en extern molnleverantör. Detta flyttar lagringen av dokumentet från Workfront till den externa molnleverantören. När dokumentet ändras i det externa programmet uppdateras det automatiskt i Workfront.
+
+>[!NOTE]
+>
+>När du skickar en resurs till en extern dokumentleverantör skapas en ny version av resursen.
 
 Användare utan Workfront-åtkomst kan se dokumentet i det externa programmet om de har tillgång till programmet.
 
