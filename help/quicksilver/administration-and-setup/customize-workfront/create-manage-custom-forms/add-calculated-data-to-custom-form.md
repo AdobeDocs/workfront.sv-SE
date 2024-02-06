@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,8 @@ Du kan använda både inbyggda Workfront-fält och anpassade fält som du redan 
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>Det format i vilket du vill att fältets resultat ska lagras och visas.</p> <p>Om du tänker använda fältet i matematiska beräkningar ska du alltid använda en <strong>Nummer</strong> eller en <strong>Valuta</strong> format. När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</p> 
-      <p><b>VIKTIGT</b>: <p>Innan du väljer ett format bör du tänka på rätt format för det nya fältet. Det går inte att redigera formatfältet efter att det anpassade formuläret har sparats. Om du väljer fel format kan framtida beräkningar och aggregerade värden i rapport- och listgrupperingar påverkas.</p> </td> 
+      <p><b>VIKTIGT</b>: <p>Innan du väljer ett format bör du tänka på rätt format för det nya fältet. Det går inte att redigera formatfältet efter att det anpassade formuläret har sparats. Om du väljer fel format kan framtida beräkningar och aggregerade värden i rapport- och listgrupperingar påverkas.</p>
+      <p><strong>OBS!</strong> Beräknade fält med ett valutaformat bör inte innehålla citattecken. (Använd till exempel 800.00 och inte "800.00.") Användning av citattecken kan få oväntade konsekvenser på grund av nyanser med språkformatering för valutatyper.</p></td> 
      </tr> 
     </tbody> 
    </table>

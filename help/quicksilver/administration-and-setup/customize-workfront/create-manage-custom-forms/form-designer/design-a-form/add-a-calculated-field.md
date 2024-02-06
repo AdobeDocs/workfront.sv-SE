@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan lägga till ett beräknat anpassat fält som använder befintliga data för att generera nya data när det anpassade formuläret kopplas till ett objekt.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2320'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,8 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>Det format i vilket du vill att fältets resultat ska lagras och visas.</p> <p>Om fältet ska användas i matematiska beräkningar ska du alltid använda en <strong>Nummer</strong> eller en <strong>Valuta</strong> format. När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</p> 
-      <p><b>VIKTIGT</b>: Innan du väljer ett format bör du tänka på rätt format för det nya fältet. Det går inte att redigera formatfältet efter att det anpassade formuläret har sparats. Om du väljer fel format kan framtida beräkningar och aggregerade värden i rapport- och listgrupperingar påverkas.</p> </td> 
+      <p><b>VIKTIGT</b>: Innan du väljer ett format bör du tänka på rätt format för det nya fältet. Det går inte att redigera formatfältet efter att det anpassade formuläret har sparats. Om du väljer fel format kan framtida beräkningar och aggregerade värden i rapport- och listgrupperingar påverkas.</p>
+      <p><strong>OBS!</strong> Beräknade fält med ett valutaformat bör inte innehålla citattecken. (Använd till exempel 800.00 och inte "800.00.") Användning av citattecken kan få oväntade konsekvenser på grund av nyanser med språkformatering för valutatyper.</p></td>
      </tr> 
     </tbody> 
    </table>

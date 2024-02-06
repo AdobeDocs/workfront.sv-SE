@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
 source-wordcount: '5096'
 ht-degree: 0%
@@ -198,8 +198,8 @@ Lägga till ett textfält:
     <td>Format</td>
     <td><p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>ANMÄRKNING</b>:   
     <ul> 
-    <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.<br></li> 
-    <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li> 
+    <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.</li> 
+    <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Enkelradig text</li>
@@ -316,7 +316,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <td> <p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>ANMÄRKNING</b>:   
      <ul> 
     <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.<br></li> 
-    <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li> 
+    <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li>
      </ul></p></td> 
      <td><ul>
     <li>Alternativknappar</li>
