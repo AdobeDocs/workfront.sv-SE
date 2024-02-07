@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3339'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar 
 >
 >* Innehållet i ett styckefält kan innehålla upp till 1 000 tecken.
 >
->* Du kan använda RTF-formatering för att förbättra innehållet i styckefält när de visas i tabellvyn eller på detaljsidan för en post.
+>* Du kan använda RTF-formatering för att förbättra innehållet i styckefält när de visas i tabellvyn eller på detaljsidan för en post. Mer information finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Stycke** fälttyp.
 
@@ -377,7 +377,9 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/maestro/
 
    >[!NOTE]
    >
-   >    Du kan inte lägga till fält från länkade poster i en formel. Den här funktionen kommer att släppas vid ett senare datum. Mer information om nya versioner finns i [Adobe Maestro-lansering](/help/quicksilver/maestro/release-activity.md).
+   > * Du kan inte lägga till flervalsfält i en formel.
+   >
+   > * Du kan inte lägga till fält från länkade poster i en formel. Den här funktionen kommer att släppas vid ett senare datum. Mer information om nya versioner finns i [Adobe Maestro-lansering](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klicka **Skapa**.

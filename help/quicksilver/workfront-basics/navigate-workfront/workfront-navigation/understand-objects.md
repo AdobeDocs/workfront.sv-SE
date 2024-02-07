@@ -6,7 +6,7 @@ description: "Den information du visar i [!DNL Adobe Workfront] representeras av
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
 source-wordcount: '2015'
 ht-degree: 0%
@@ -175,6 +175,7 @@ Här följer en lista med objekt och motsvarande ikoner för dem i Workfront.
 | [!UICONTROL Task] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ✔ |
 | [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL Template] | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL User] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
 
 ## Referensnummer för objekt
 
