@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan utforma ett anpassat formulär som användare kan bifoga till ett Workfront-objekt. Användare som arbetar med objektet kan fylla i det anpassade formuläret för att ge information om objektet.
-author: Courtney / Lisa
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: e34a0b3bf5e2c4dc794a7d7c85245bb4d11842be
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Det finns en ny knapp längst upp i både den nya formulärdesignern och den äl
 
 ## Nya funktioner som är tillgängliga för formulärdesignern
 
-Med den nya formulärdesignern har vi lagt till möjligheten att
+Med den nya formulärdesignern har vi lagt till möjligheten att:
 
 * **Kopiera ett fält**: Nu kan du kopiera befintliga fält genom att klicka på ikonen Kopiera på fälten direkt från arbetsytan.
 
@@ -47,34 +47,15 @@ Med den nya formulärdesignern har vi lagt till möjligheten att
 
 Följande är för närvarande inte tillgängligt i formulärdesignern, men kommer snart att läggas till:
 
-* Visa/hoppa över logik
-
 * Filter för typsnittsfält
 
 >[!IMPORTANT]
 >
->De befintliga konfigurationerna för logik- och typsnittsfilter påverkas inte när du arbetar med den nya formulärdesignern.
-
-### Visa/hoppa över logik
-
-Även om du ännu inte kan lägga till visnings-/hopplogik när du utformar ett nytt anpassat formulär, kan du visa befintlig visnings-/hopplogik i formulär som skapats i det äldre formulärbyggaren.
-
-Ikoner i ett fält i formulärdesignern anger att logik används i fältet.
-
-The ![Visningslogik för målfält](assets/display-logic-bottom-left.png) ikonen längst ned till vänster betyder att fältet är målfält för visningslogik (om ett visst val görs i formuläret visas det här fältet). The ![Definiera ikon för visningslogik](assets/display-logic-bottom-right.png) -ikonen längst ned till höger betyder att fältet används för att definiera visningslogik (ett specifikt val eller värde i det här fältet visar målfältet).
-
-The ![Hoppa över logik för målfält](assets/skip-logic-bottom-left.png) ikonen längst ned till vänster betyder att fältet är målfält för hopplogik (om ett visst val görs i formuläret, hoppar formuläret framför det här fältet). The ![Definiera ikon för hopplogik](assets/skip-logic-bottom-right.png) ikonen längst ned till höger betyder att fältet används för att definiera hopplogik (en specifik markering eller ett värde i det här fältet hoppar över andra fält och går direkt till målfältet).
-
-![Logic icons](assets/logic-icons-3.png)
-
-Om du markerar ett fält med tillämpad logik visas de befintliga logikreglerna i fältinställningarna.
-
-![Logikregler](assets/form-designer-view-only-logic.png)
+>De befintliga konfigurationerna för typsnittsfilter påverkas inte när du arbetar med den nya formulärdesignern.
 
 ## Funktioner som tagits bort från formulärdesignern
 
-Vi har tagit bort följande funktioner från formulärdesignern:
-
+Vi har tagit bort följande funktioner inifrån formulärdesignern:
 
 * Formulärinställningar, Formulärdelning, Flikar för fältdelning
 
@@ -84,9 +65,10 @@ Vi har tagit bort följande funktioner från formulärdesignern:
 
   >[!NOTE]
   >
-  >Du kan styra formulär- och fältdelning via Konfigurera > Anpassad Forms > Forms eller fliken Fält.
+  >Du kan styra formulär- och fältdelning via Konfigurera > Anpassad Forms > Forms eller Fält.
 
 * Spåra fältändringar i uppdateringsflöden
+
   >[!NOTE]
   >
   >Du hittar detta i Inställningar > Gränssnitt > Uppdatera feeds
