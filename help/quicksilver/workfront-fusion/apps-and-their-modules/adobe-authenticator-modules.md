@@ -8,9 +8,9 @@ title: Modulen Adobe Authenticator
 description: Med Adobe Authenticator-modulen kan du ansluta till alla Adobe-produkter med ett API via en enda anslutning.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 07443d85e160004c273fc977629dd9f588cc23b2
+source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Med Adobe Authenticator-modulen kan du ansluta till alla Adobe API:er via en end
 
 Fördelen med HTTP-modulerna är att du kan skapa en anslutning, som i en dedikerad app.
 
-En lista över tillgängliga Adobe-API:er finns i X. Du kanske bara kan använda de API:er som du har tilldelats.
+En lista över tillgängliga Adobe-API:er finns i [Adobe API:er](https://developer.adobe.com/apis). Du kanske bara kan använda de API:er som du har tilldelats.
 
 ## Åtkomstkrav
 
