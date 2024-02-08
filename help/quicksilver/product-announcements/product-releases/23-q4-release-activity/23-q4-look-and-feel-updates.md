@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga i den fjärde utgåvan av k
 
 >[!NOTE]
 >
->Förhandsversion: 1 november 2023; Produktionsrelease för alla kunder: 1 november
+>Förhandsversion: 1 november 2023; Produktionsrelease för alla kunder: 1 november 2023
 
 E-postmallen för aviseringar om dokumentgodkännande har uppdaterats för att bättre matcha andra e-postmallar från Adobe och för att förbättra tydligheten och användbarheten.
 
@@ -31,7 +31,7 @@ E-postmallen för aviseringar om dokumentgodkännande har uppdaterats för att b
 
 >[!NOTE]
 >
->Förhandsversion: 12 oktober 2023; Produktionsrelease för alla kunder: TBD
+>Förhandsversion: 12 oktober 2023; Produktion för snabb release: Med version 24.2 (15 februari 2024); Produktion för kvartalsvis publicering: Med version 24.4 (april 2024)
 
 Om du vill ha större tydlighet om manuella justeringar eller konturering i Arbetsbelastningsutjämnaren kan du nu visa en pennikon som du justerar timvis.
 

@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a7df266715acc1e1b054b625effbd777273021d3
+source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
 
 ## Adobe Workfront-förbättringar
 
-<!-- * [Administrator enhancements](#administrator-enhancements)-->
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Projektförbättringar](#project-enhancements)
 
-<!--
-### Administrator enhancements
+### Administratörsförbättringar
 
 <table>
             <col style="width: 50%;" />
@@ -45,41 +44,32 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Funktion</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.
-
-Icons on a field in the form designer canvas indicate that logic is configured on that field, or that the field is used in logic rules configured on other fields.
-
-For more information, see [Add display logic and skip logic with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Nu kan du redigera befintlig visnings- och hopplogik och lägga till ny logik i anpassade formulär i betaversionen av formulärdesignern. Ett lättanvänt logiskt verktyg hjälper dig att definiera vilka fält som ska visas eller hoppas över baserat på val i formuläret.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: January 25, 2024<br /></p>
+                                <p>Förhandsversion: 8 februari 2024<br /></p>
                             </li>
                             <li>
-                                <p>Fast release to Production: With the 24.2 release (February 15, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Quarterly release to Production: With the 24.4 release April 2024</p>
+                                <p><span class="preview">Produktion för alla kunder: Med version 24.2 (15 februari 2024)</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-    -->
 
 ### Projektförbättringar
 
@@ -110,11 +100,47 @@ For more information, see [Add display logic and skip logic with the form design
                                 <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för alla kunder: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
                             </li>
                         </ul>
                     </td>
                     </tr>
+           </tbody>
+        </table>
+
+### Andra förbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under andra kvartalet 2024</a></p><p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för andra kvartalet 2024. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Under den andra kvartersutgåvan 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+        </table>   
            </tbody>
         </table>
 
