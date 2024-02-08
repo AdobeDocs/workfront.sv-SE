@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: http-modules
-title: HTTP &gt; Gör en begärandemodul
-description: Adobe Workfront Fusion HTTP&gt; Gör en begärandemodul till en universell modul som gör att du kan konfigurera en HTTP-begäran och skicka den till en server. Det mottagna HTTP-svaret finns sedan i utdatapaketet.
+title: HTTP&gt; Gör en begärandemodul
+description: Adobe Workfront Fusion HTTP&gt; Make a request module är en universell modul som gör att du kan konfigurera en HTTP-begäran och skicka den till en server. Det mottagna HTTP-svaret finns sedan i utdatapaketet.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7857c395-ce84-480e-8fa2-065035ac5b95
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Workfront Fusion kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront] licens.
+>Adobe Workfront Fusion kräver en [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront] licens.
 
 The [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make a request module] är en universell modul som gör att du kan konfigurera en HTTP-begäran och skicka den till en server. Det mottagna HTTP-svaret finns sedan i utdatapaketet.
+
+>[!NOTE]
+>
+>Om du ansluter till en Adobe-produkt som för närvarande inte har någon dedikerad anslutning rekommenderar vi att du använder Adobe Authenticator-modulen.
+>
+>Mer information finns i [Modulen Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Åtkomstkrav
 
@@ -53,13 +59,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [Adobe Workfront Fusion-licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -151,7 +157,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Disable serialization of multiple same query string keys as arrays]</p> </td> 
-   <td> <p>Som standard [!DNL Workfront Fusion] hanterar flera värden för samma URL-frågesträngsparameternyckel som arrayer. Till exempel: <code>www.test.com?foo=bar&amp;foo=baz</code> konverteras till <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Aktivera det här alternativet om du vill inaktivera den här funktionen. </p> </td> 
+   <td> <p>Som standard [!DNL Workfront Fusion] hanterar flera värden för samma URL-frågesträngsparameternyckel som arrayer. Till exempel: <code>www.test.com?foo=bar&amp;foo=baz</code> konverteras till <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Aktivera det här alternativet om du vill inaktivera funktionen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Request compressed content]</td> 

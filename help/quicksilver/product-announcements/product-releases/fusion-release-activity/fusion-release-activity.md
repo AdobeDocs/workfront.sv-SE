@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 765cff51ee537be459722a9a11c9621cd3b623f7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,17 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 ## Fusion-versioner 2024
 
+### Februari 2024
+
+* [Versionsaktivitet för Workfront Fusion: vecka 5 februari 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
+
 ### Januari 2024
 
 * [Versionsaktivitet för Workfront Fusion: 1 januari 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
 
 ## Fusion-versioner 2023
+
++++**Klicka för att öppna**
 
 ### November 2023
 
@@ -72,6 +78,8 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 * [Versionsaktivitet för Workfront Fusion: 20 mars 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Versionsaktivitet för Workfront Fusion: 6 mars 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
++++
 
 ## Fusion-versioner 2022
 

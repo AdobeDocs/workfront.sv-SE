@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: 07443d85e160004c273fc977629dd9f588cc23b2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Adobe Workfront] moduler](../../workfront-fusion/apps-and-their-modules/workfront-modules.md)
 * [[!DNL Workfront Proof] moduler](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
 * [[!DNL Adobe Acrobat Sign] moduler](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+* [Modulen Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
 * [[!DNL Adobe Campaign Classic] moduler](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
 * [[!DNL Adobe Creative Cloud Libraries] moduler](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
 * [[!DNL Adobe Experience Manager Assets] moduler](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)

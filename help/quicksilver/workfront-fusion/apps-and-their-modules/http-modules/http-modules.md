@@ -9,9 +9,9 @@ description: The [!DNL Adobe Workfront Fusion] HTTP-appen innehåller olika modu
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,18 @@ Vilket som är rätt val för modulen beror på vilken autentiserings-/auktorise
 * Gör en begäran:universell modul är främst avsedd för resurser som inte använder någon typ av autentisering/auktorisering
 * Gör en grundläggande autentiseringsbegäran:för resurser som använder [!DNL HTTP] Grundläggande autentisering (BA)
 * Gör en OAuth 2.0-begäran: för resurser som använder OAuth 2.0-auktoriseringsprotokoll
-* Gör en autentiseringsbegäran för klientcertifikat: för resurser som använder auktoriseringsprotokoll som kräver ett klientcertifikat.
+* Gör en autentiseringsbegäran för klientcertifikat: för resurser som använder auktoriseringsprotokoll som kräver ett certifikat på klientsidan.
 * Gör en API-nyckelauktoriseringsbegäran: för resurser som använder API-nycklar för auktorisering.
+
+>[!NOTE]
+>
+>Om du ansluter till en Adobe-produkt som för närvarande inte har någon dedikerad anslutning rekommenderar vi att du använder Adobe Authenticator-modulen.
+>
+>Mer information finns i [Modulen Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Begär moduler
 
-I följande artiklar finns instruktioner för en viss modul:
+I följande artiklar finns information om en specifik modul för begäranden:
 
 * [[!UICONTROL HTTP] >[!UICONTROL Make a request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
@@ -76,7 +82,7 @@ Den här åtgärdsmodulen åtgärdar en kedja av HTTP-omdirigeringar och returne
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method] </td> 
-   <td> <p>Välj om du vill använda [!UICONTROL HEAD] metoden [!UICONTROL GET] -metod.</p> </td> 
+   <td> <p>Välj om du vill använda [!UICONTROL HEAD] metoden eller [!UICONTROL GET] -metod.</p> </td> 
   </tr> 
  </tbody> 
 </table>

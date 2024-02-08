@@ -9,7 +9,7 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 0%
@@ -469,7 +469,6 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Journey Optimizer]
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-      <td>
    <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>

@@ -9,9 +9,9 @@ description: För att skapa en [!DNL Adobe Workfront Fusion] HTTP(S)-begäran ti
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1937'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ För att skapa en [!DNL Adobe Workfront Fusion] HTTP(S)-begäran till servrar so
 Andra flöden, som t.ex. Resursägarens lösenordsflöde och Klientinloggningsflöde, stöds inte automatiskt i den här modulen.
 
 Mer information om OAuth 2.0-autentisering finns i [OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749).
+
+>[!NOTE]
+>
+>Om du ansluter till en Adobe-produkt som för närvarande inte har någon dedikerad anslutning rekommenderar vi att du använder Adobe Authenticator-modulen.
+>
+>Mer information finns i [Modulen Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Åtkomstkrav
 
@@ -62,13 +68,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -136,7 +142,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope separator] </td> 
-      <td> <p>Välj vilka scope som ska avgränsas av ovan. Den här informationen finns i den angivna tjänstens API-dokumentation (developer).</p> <p>Varning: Om avgränsaren inte är rätt inställd [!DNL Workfront Fusion] det går inte att skapa anslutningen och du får ett ogiltigt omfattningsfel.</p> </td> 
+      <td> <p>Välj vilka scope som ska avgränsas av ovan. Den här informationen finns i den angivna tjänstens API-dokumentation (developer).</p> <p>Varning: Om avgränsaren inte är korrekt inställd [!DNL Workfront Fusion] det går inte att skapa anslutningen och du får ett ogiltigt omfattningsfel.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client ID] </td> 
@@ -189,8 +195,8 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
            </tr> 
           </tbody> 
          </table> </li> 
-        <li><strong>[!UICONTROL client_id]</strong>: Klient-ID som du fick när du skapade kontot inkluderas automatiskt i begärandetexten</li> 
-        <li><strong>client_secrets</strong>: Klienthemligheten som du fick när du skapade kontot inkluderas automatiskt i begärandetexten</li> 
+        <li><strong>[!UICONTROL client_id]</strong>: Det klient-ID som du fick när du skapade kontot inkluderas automatiskt i begärandetexten</li> 
+        <li><strong>client_secrets</strong>: Den klienthemlighet du fick när du skapade kontot inkluderas automatiskt i begärandetexten</li> 
         <li><strong>kod</strong>: Koden som returnerades av auktoriseringsbegäran</li> 
        </ul> <p>Obs!  <p>OAuth 2.0-standarden stöder minst två metoder för klientautentisering under det här steget (<code>[!UICONTROL client_secret_basic]</code> och <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] skickar automatiskt angivet klient-ID och hemlighet via <code>[!UICONTROL client_secret_post]</code> -metod. Därför inkluderas dessa parametrar automatiskt som en del av tokenbegärandetexten. </p> <p>Mer information om OAuth 2.0-autentisering finns i <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
@@ -200,8 +206,8 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
        <ul> 
         <li> <p><strong>[!UICONTROL grant_type]</strong>: <code>refresh_token</code></p> </li> 
         <li> <p><strong>[!UICONTROL refresh_token]</strong>: Den senaste uppdateringstoken som erhölls av tjänsten som du ansluter till</p> </li> 
-        <li> <p><strong>[!UICONTROL client_id]</strong>: Klient-ID som du fick när du skapade kontot inkluderas automatiskt i begärandetexten</p> </li> 
-        <li> <p><strong>[!UICONTROL client_secret]</strong>: Klienthemligheten som du fick när du skapade kontot inkluderas automatiskt i begärandetexten</p> </li> 
+        <li> <p><strong>[!UICONTROL client_id]</strong>: Det klient-ID som du fick när du skapade kontot inkluderas automatiskt i begärandetexten</p> </li> 
+        <li> <p><strong>[!UICONTROL client_secret]</strong>: Den klienthemlighet du fick när du skapade kontot inkluderas automatiskt i begärandetexten</p> </li> 
        </ul> <p>Obs!  <p>OAuth 2.0-standarden stöder minst två metoder för klientautentisering under det här steget (<code>[!UICONTROL client_secret_basic]</code> och <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] skickar automatiskt angivet klient-ID och hemlighet via <code>[!UICONTROL client_secret_post]</code> -metod. Därför inkluderas dessa parametrar automatiskt som en del av tokenbegärandetexten. </p> <p>Mer information om OAuth 2.0-autentisering finns i <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
@@ -257,7 +263,7 @@ I följande exempel visas hur du använder [!UICONTROL HTTP] > [!UICONTROL Make 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope] </td> 
-      <td> <p>Lägg till enskilda omfattningar. Mer information om omfång finns i <a href="https://developers.google.com/identity/protocols/oauth2/scopes">OAuth 2.O-omfång för [!DNL Google] API:er</a> i [!DNL Google] dokumentation.</p> </td> 
+      <td> <p>Lägg till enskilda omfattningar. Mer information om omfång finns i <a href="https://developers.google.com/identity/protocols/oauth2/scopes">OAuth 2.O-scope för [!DNL Google] API:er</a> i [!DNL Google] dokumentation.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope separator] </td> 
@@ -273,7 +279,7 @@ I följande exempel visas hur du använder [!UICONTROL HTTP] > [!UICONTROL Make 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Authorize parameters]</p> </td> 
-      <td> <p>Lägg till <code>[!UICONTROL access_type]</code> - <code>[!UICONTROL offline] </code>nyckelvärdepar.</p> <p> <img src="assets/google-authentication-http.png"> </p> <p>Obs! Om du får problem med autentiseringen, till exempel vid tokenuppdatering, kan du försöka med att lägga till <code>[!UICONTROL prompt] </code>- <code>[!UICONTROL consent] </code>nyckelvärdepar.</p> </td> 
+      <td> <p>Lägg till <code>[!UICONTROL access_type]</code> - <code>[!UICONTROL offline] </code>nyckelvärdepar.</p> <p> <img src="assets/google-authentication-http.png"> </p> <p>Obs! Om du får autentiseringsproblem, till exempel vid tokenuppdatering, kan du försöka lägga till <code>[!UICONTROL prompt] </code>- <code>[!UICONTROL consent] </code>nyckelvärdepar.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -373,7 +379,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Disable serialization of multiple same query string keys as arrays]</p> </td> 
-   <td> <p>Som standard [!DNL Workfront Fusion] hanterar flera värden för samma URL-frågesträngsparameternyckel som arrayer. Till exempel: <code>www.test.com?foo=bar&amp;foo=baz</code> konverteras till <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Aktivera det här alternativet om du vill inaktivera den här funktionen. </p> </td> 
+   <td> <p>Som standard [!DNL Workfront Fusion] hanterar flera värden för samma URL-frågesträngsparameternyckel som arrayer. Till exempel: <code>www.test.com?foo=bar&amp;foo=baz</code> konverteras till <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Aktivera det här alternativet om du vill inaktivera funktionen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Request compressed content]</td> 
