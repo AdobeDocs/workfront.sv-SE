@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,30 @@ Så här gör du:
    >    Länkade postfält föregås av relationsikonen ![](assets/relationship-field-icon.png).
 
 1. Från **Campaign** posttypstabellvy, skapa en kampanj genom att lägga till en ny rad i posttypssidans tabell för Campaign.
-1. Klicka på **+** -ikonen i  **Produktinformation** den nya kampanjens kolumn. The **Koppla objekt** visas. Namnet på den posttyp som du länkar till (Produkt) visas i rutans övre vänstra hörn.
 
-   ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. Dubbelklicka inuti  **Produktinformation** den nya kampanjens kolumn.
 
-1. Välj de produktposter som du vill ansluta till kampanjposterna och klicka sedan på **Koppla objekt**.
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Gör något av följande:
+
+   * Klicka på en ansluten produkts namn i listan för att lägga till den till den valda posten. Produkten läggs till automatiskt.
+   * Börja skriva namnet på en produkt och klicka på den när den visas i listan. Produkten läggs till automatiskt.
+   * Klicka **Se alla** för att visa alla produkter.
+
+1. (Villkorligt) Om du klickade **Markera alla** i föregående steg **Koppla objekt** visas.
+
+   ![](assets/connected-objects-table-for-records.png)
+
+1. Börja skriva namnet på en produkt i sökrutan och markera den sedan när den visas i listan
+
+   eller
+
+   Välj de produktposter som du vill ansluta till kampanjposterna och klicka sedan på **Koppla objekt**.
+
+   >[!TIP]
+   >
+   >    Du kan öppna sidan Detaljer för en kampanj, hitta det länkade postfältet och klicka på **+** -ikonen i fältet för att lägga till produkter från den anslutna produktposttypen.
 
    Följande kolumner är ifyllda i posttyptabellen för Campaign:
    * The **Produktinformation** fylls i för Campaign-posten med de valda produkterna.
@@ -142,13 +161,32 @@ Så här gör du:
    >    Länkade objektfält föregås av relationsikonen ![](assets/relationship-field-icon.png).
 
 1. Från **Campaign** posttyptabellvy, skapa en kampanj genom att lägga till en ny rad i tabellen.
-1. Klicka på **+** -ikonen i  **Projektinformation** den nya kampanjens kolumn. The **Koppla objekt** visas. Namnet på den objekttyp som du länkar till (Workfront Project) visas i rutans övre vänstra hörn.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+1. Dubbelklicka inuti  **Projektinformation** den nya kampanjens kolumn.
 
-1. Välj det eller de projekt som du vill ansluta till Campaign-posterna och klicka sedan på **Koppla objekt**.
+   ![](assets/connect-projects-smaller-box-in-table.png)
 
-   Följande har lagts till på den valda arbetsytan:
+1. Gör något av följande:
+
+   * Klicka på ett projektnamn i listan för att lägga till det i den valda posten. Projektet läggs till automatiskt.
+   * Börja skriva namnet på ett projekt och klicka på det när det visas i listan. Projektet läggs till automatiskt.
+   * Klicka **Se alla** för att visa alla projekt.
+
+1. (Villkorligt) Om du klickade **Markera alla** i föregående steg **Koppla objekt** visas.
+
+   ![](assets/connect-projects-larger-box.png)
+
+1. Börja skriva namnet på ett projekt i sökrutan och markera det sedan när det visas i listan
+
+   eller
+
+   Markera de projektposter som du vill ansluta till Campaign-posterna och klicka sedan på **Koppla objekt**.
+
+   >[!TIP]
+   >
+   >    Du kan öppna sidan Detaljer för en kampanj, hitta det länkade projektfältet och klicka på **+** -ikonen i fältet för att lägga till projekt från den anslutna produktposttypen.
+
+   Detta lägger till följande på den markerade arbetsytan:
 
    * I registret Kampanjposttyp:
       * The **Projektinformation** fylls i för Campaign-posten med de valda projekten.
@@ -165,7 +203,7 @@ Så här gör du:
    Detta öppnar de skrivskyddade Maestro-projektens **Information** sida.
 Granska information om projektet. Endast markerade projektfält visas på detaljsidan.
 
-1. Klicka på Gå till källa i skärmens övre högra hörn för att öppna projektet i Workfront, om du har minst behörigheten Visa för projektet.
+1. Klicka **Gå till källa** i skärmens övre högra hörn för att öppna projektet i Workfront, om du har minst behörigheten Visa för projektet.
 1. (Valfritt) Uppdatera information om projektet i Workfront, om du har behörighet att göra det.
 
 1. I Campaign-tabellvyn hovrar du över **Projektinformation** och klicka på nedåtpilen och klicka sedan på **Redigera uppslagsfält.**

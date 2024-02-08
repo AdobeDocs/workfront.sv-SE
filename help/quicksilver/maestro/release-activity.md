@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4110'
 ht-degree: 0%
 
 ---
@@ -65,22 +65,29 @@ Vi har uppdaterat utseendet på verktygsfältet RTF när du redigerar ett stycke
 
 Mer information finns i  [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
-<!--
-### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+### Förbättrad upplevelse vid redigering av envalsfält, flervalsfält, personfält och när du lägger till anslutna objekt
 
-Production: February 8, 2024 
+Produktion: 8 februari 2024
 
-Preview: To be determined 
+Förhandsgranska: Ska bestämmas
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
- 
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+Vi har gjort om och förbättrat upplevelsen av att lägga till alternativ eller objekt för följande fälttyper:
 
-The improvements are now available when updating fields in the table view of a record type.  
+* Enkelval
+* Flera val
+* Folk
+* Kopplade postfält (vid anslutning av Maestro-posttyper eller Workfront-objekt)
 
-For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+Med den nya förbättringen visas en mindre, mer responsiv ruta först.
 
--->
+För anslutna fält kan du lägga till dem på något av följande sätt:
+
+* Lägg till objekt i det anslutna fältet genom att söka efter och markera dem i en lista i tabellvyn, och redigera fältet textbundet
+* Klicka för att öppna den större rutan Connect-objekt där du kan visa alla objektnamn förutom mer information om objekten.
+
+Förbättringarna är nu tillgängliga när du uppdaterar fält i tabellvyn för en posttyp.
+
+Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Vecka 29 januari 2024
 

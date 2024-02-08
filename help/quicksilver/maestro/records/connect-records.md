@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2379'
 ht-degree: 0%
 
 ---
@@ -163,15 +163,19 @@ Den senast använda arbetsytan bör öppnas som standard.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Välj en **Tabell** visa från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
 1. (Valfritt) Lägg till poster till den posttyp du valde genom att lägga till en ny rad i tabellen. Mer information finns i [Skapa poster](../../maestro/records/create-records.md).
-1. Gå till kolumnen för den länkade posten från en post som visas i tabellvyn och klicka i det länkade postfältet. Klicka sedan på **+** -ikon.
+1. (Villkorligt) När du har kopplat den markerade posttypen till en annan posttyp går du till den länkade postkolumnen och dubbelklickar på cellen som motsvarar den post som du vill länka till andra poster.
+
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Gör något av följande:
+
+   * Klicka på namnet på en ansluten post i listan för att lägga till den till den valda posten. Posten läggs till automatiskt.
+   * Börja skriva namnet på en post och klicka på den när den visas i listan. Posten läggs till automatiskt.
+   * Klicka **Se alla** för att visa alla poster.
+
+1. (Villkorligt) Om du klickade **Markera alla** i föregående steg **Koppla objekt** visas.
 
    ![](assets/connected-objects-table-for-records.png)
-
-   >[!TIP]
-   >
-   >    Du kan öppna en posts informationssida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till poster från den anslutna posten eller objekttypen.
-
-   The **Koppla objekt** visas.
 
 1. Börja skriva namnet på en post i sökrutan och markera den när den visas i listan
 
@@ -179,10 +183,14 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Markera namnet på en eller flera poster i rutan och klicka sedan på **Koppla objekt** i det övre högra hörnet av rutan Anslut objekt.
 
+   >[!TIP]
+   >
+   >    Du kan öppna en posts informationssida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till poster från den anslutna posten eller objekttypen.
+
    Följande ska läggas till:
 
    * De länkade posterna visas i det länkade postfältet för den post som du valde i steg 6. <!--accurate?-->
-   * De länkade fälten fylls i med informationen från de länkade posterna.
+   * De länkade fälten fylls i med informationen från de länkade posterna om du lade till länkade sökfält när du kopplade posttyperna.
 
    När du uppdaterar de länkade posterna uppdateras de länkade fälten för de poster som du länkar från automatiskt. Du kan inte redigera länkade fält manuellt.
 
@@ -221,17 +229,19 @@ Den senast använda arbetsytan bör öppnas som standard.
 1. Välj en **Tabell** visa från **Visa** listruta.
 
 1. Klicka **Ny post**  om du vill lägga till enskilda poster till den posttyp som du har valt. Mer information finns i [Skapa poster](../../maestro/records/create-records.md).
-1. (Villkorligt) Om du har kopplat den markerade posttypen till ett Workfront-objekt går du till kolumnen för det länkade objektet och för markören över cellen som motsvarar posten som du vill länka till objekt från Workfront. Klicka sedan på **+** -ikon.
+1. (Villkorligt) När du har kopplat den markerade posttypen till en Workfront-objekttyp går du till kolumnen för det länkade objektet och dubbelklickar på cellen för den post som du vill länka till objekt från Workfront.
 
-   The **Koppla objekt** visas.
+   ![](assets/connect-projects-smaller-box-in-table-view.png)
+
+1. Gör något av följande:
+
+   * Klicka på ett objekt i listan för att lägga till det i den markerade posten. Objekten listas i bokstavsordning. Objektet läggs till automatiskt.
+   * Börja skriva namnet på ett objekt och klicka på det när det visas i listan. Objektet läggs till automatiskt.
+   * Klicka **Se alla** om du vill visa alla objekt som du har minst behörighet att visa.
+
+1. (Villkorligt) Om du klickade **Se alla** i föregående steg **Koppla objekt** visas.
 
    ![](assets/connect-objects-box-to-select-projects.png)
-
-   >[!TIP]
-   >
-   >    Du kan öppna en posts informationssida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till objekt från den anslutna objekttypen.
-
-   Mer information om hur du ansluter posttyper med objekt från ett annat program finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
 1. Börja skriva namnet på ett Workfront-objekt i sökrutan och markera det sedan när det visas i listan
 
@@ -249,6 +259,12 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    * De markerade Workfront-objekten läggs till i det länkade postfältet.
    * Om du lade till dem när du kopplade posttypen med Workfront fylls de länkade fälten (eller sökfälten) för Workfront-objekten automatiskt i med information från Workfront.
+
+   >[!TIP]
+   >
+   >Du kan öppna en posts informationssida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till objekt från den anslutna objekttypen.
+
+   Mer information om hur du ansluter posttyper med objekt från ett annat program finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
 1. (Valfritt) Klicka på namnet på ett Workfront-objekt som är kopplat till en maestro-post antingen i det länkade fältet i en tabellvy eller från det länkade fältet i **Information** sidan med Maestro-posten.
 
@@ -298,7 +314,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 1. Välj en **Tabell** visa från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
 
 1. (Valfritt) Klicka på **Ny post** om du vill lägga till nya poster till den posttyp som du har valt. Mer information finns i [Skapa poster](../../maestro/records/create-records.md).
-1. (Villkorligt) Om du har anslutit den markerade posttypen med Experience Manager Assets går du till kolumnen för det länkade objektet och för markören över cellen för den post som du vill länka till andra objekt från Experience Manager. Klicka sedan på **+** -ikon.
+1. (Villkorligt) När du har anslutit den markerade posttypen med Experience Manager Assets går du till kolumnen för det länkade objektet och för markören över cellen som motsvarar den post som du vill länka till andra objekt från Experience Manager. Klicka sedan på **+** -ikon.
 
    >[!TIP]
    >
