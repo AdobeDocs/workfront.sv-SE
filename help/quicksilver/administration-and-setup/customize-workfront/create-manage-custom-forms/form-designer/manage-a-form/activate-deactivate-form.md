@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan återaktivera eller inaktivera ett anpassat formulär. Vi rekommenderar att du inaktiverar anpassade formulär i stället för att ta bort formulär som du inte längre använder för att bevara historiska data.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,24 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p></td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Inaktivera ett anpassat formulär
 
@@ -56,16 +59,18 @@ Fält i ett inaktivt anpassat formulär kan även infogas i en vy. Om en använd
 
 Så här inaktiverar du ett anpassat formulär:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Välj **Anpassad Forms**.
-1. På **Forms** markerar du det anpassade formulär som du vill inaktivera.
+1. I **Forms** markerar du det anpassade formulär som du vill inaktivera.
 1. Välj i kolumnen Är aktiv **Falskt** och klicka utanför kolumnen. Formuläret är inte längre aktivt.
 
 ## Återaktivera ett anpassat formulär
 
 Om du återaktiverar ett anpassat formulär behåller det de tidigare inställningarna och användarna kan interagera med det som om det aldrig hade inaktiverats.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Välj **Anpassad Forms**.
-1. På **Forms** markerar du det anpassade formulär som du vill återaktivera.
+1. I **Forms** markerar du det anpassade formulär som du vill återaktivera.
 1. Välj i kolumnen Är aktiv **True** och klicka utanför kolumnen. Formuläret är nu aktivt.

@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Ta bort ett anpassat fält eller en anpassad widget från systemet
 description: För att förbättra systemets prestanda och göra formulären enklare att använda för användarna kan du ta bort anpassade fält och widgetar från systemet när de inte längre används.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ För att förbättra systemets prestanda och göra formulären enklare att anvä
 
 >[!CAUTION]
 >
->När du tar bort ett anpassat fält tas även alla anpassade data som användarna har angett i fältet bort när de fyller i anpassade formulär som är kopplade till objekt. Det går inte att återställa borttagna data.
+>Om du tar bort ett anpassat fält tas även alla anpassade data som användarna har angett i fältet bort när de fyller i anpassade formulär som är kopplade till objekt. Det går inte att återställa borttagna data.
 >
 >Du kan visa alla anpassade formulär och rapporter som använder ett anpassat fält som du vill ta bort för att avgöra vilka återverkningar som kan uppstå. Mer information finns i [Visa alla anpassade formulär som använder ett visst anpassat fält eller en viss widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) och [Visa alla rapporter som använder ett visst anpassat fält eller en viss widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >
@@ -36,28 +36,31 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ta bort ett anpassat fält eller en anpassad widget från systemet
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka **Anpassad Forms.**
-1. Klicka på **Fält** -fliken.
+1. Klicka **Fält** för att öppna området Fält.
 1. Markera det anpassade fältet eller widgeten och klicka sedan på **Ta bort**.
 1. Om du är säker på att du vill ta bort objektet permanent och (om det är ett anpassat fält) alla associerade data på objekt där det bifogades, klickar du på **Ja, ta bort den**.
 

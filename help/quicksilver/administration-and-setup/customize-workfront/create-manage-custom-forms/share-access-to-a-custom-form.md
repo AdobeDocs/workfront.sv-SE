@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan konfigurera åtkomst för ett anpassat formulär för att styra vem - person, roll, grupp, team, företag - som kan visa, dela och redigera det.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
 
 # Dela ett eget formulär
+
+{{highlighted-preview}}
 
 Du kan konfigurera åtkomst för ett anpassat formulär för att styra vem - person, roll, grupp, team, företag - som kan visa, dela och redigera det.
 
@@ -28,21 +30,24 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer ger åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Tillgång till anpassade formulär {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ På ett objekt där det anpassade formuläret inte redan är bifogat kan en anv�
 
 I stället för att lämna ett anpassat formulär i standarddelningsläget (beskrivs i [Tillgång till anpassade formulär](#access-to-custom-forms) i den här artikeln) kan du konfigurera specifika åtkomstnivåer för formuläret för vissa användare, jobbroller, grupper, team och företag.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
-1. Markera det anpassade formuläret och klicka sedan på **Dela**.
+1. Markera det anpassade formuläret och klicka sedan på **Dela** <span class="preview">eller ![Delningsikon](assets/share-icon.png).</span>
 1. I rutan som visas, under **Ge anpassade formulär åtkomst till** börjar skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela det anpassade formuläret med och trycker sedan på **Retur** när namnet visas.
 1. Om du vill justera åtkomsten för användaren, teamet, jobbrollen, gruppen eller företaget som du just lade till klickar du på listrutan till höger om namnet och konfigurerar sedan något av följande tillgängliga alternativ och någon av de avancerade inställningarna:
 
@@ -106,10 +111,10 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
 
 ## Ta bort åtkomst till anpassade formulär
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
-1. Markera det anpassade formuläret och klicka sedan på **Dela**.
+1. Markera det anpassade formuläret och klicka sedan på **Dela** <span class="preview">eller ![Delningsikon](assets/share-icon.png).</span>
 1. I den ruta som visas klickar du på X till höger om namnet på den användare, det team, den roll, den grupp eller det företag som du inte längre vill ha särskild åtkomst till formuläret.
 1. (Valfritt) Upprepa föregående steg för andra namn som du vill ta bort.
 1. Klicka **Spara**.

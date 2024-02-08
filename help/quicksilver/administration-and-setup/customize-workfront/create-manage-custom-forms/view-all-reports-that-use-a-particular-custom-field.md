@@ -1,13 +1,13 @@
 ---
 title: Visa alla rapporter som använder ett visst anpassat fält eller en viss widget
 description: Du kan lägga till en anpassad vy i området Anpassad Forms som visar vilka rapporter som använder ett visst anpassat fält eller en viss widget. Det här är användbart när du behöver redigera eller ta bort fältet eller widgeten, eftersom det kanske redan har implementerats i en eller flera rapporter. Det är viktigt att utvärdera om dessa rapporter behöver justeras för att fortsätta fungera som de ska.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -27,38 +27,39 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visa rapporter som använder ett visst anpassat fält eller en viss widget
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
-1. Öppna **Fält** om du vill visa en rapport med en lista över alla anpassade fält och widgetar i din Workfront-instans.
+1. Klicka **Fält** om du vill visa en rapport med en lista över alla anpassade fält och widgetar i din Workfront-instans.
 
-   ![](assets/fields-tab.png)
-
-1. Klicka på **Visa** nedrullningsbar meny i sidhuvudet högst upp i listan och sök sedan efter anpassade vyer i listan som innehåller **Rapporter** -kolumn (som inte är en standardkolumn på den här fliken).
+1. Klicka på **Visa** söker du efter anpassade vyer i listan som innehåller **Rapporter** -kolumn (som inte är en standardkolumn på den här fliken).
 
    I kolumnen Rapporter kan du se vilka rapporter som använder varje anpassat fält och widget som har lagts till i ett anpassat formulär i systemet. Det är möjligt att någon redan har skapat en vy som innehåller **Rapporter** kolumn.
 
 1. Om du inte ser en vy som innehåller **Rapporter** skapar du en ny vy som innehåller den:
 
-   1. Klicka på **Visa** nedrullningsbar meny och klicka sedan på **Ny vy**.
+   1. Klicka på **Visa** menyn och klicka sedan på **Ny vy**.
 
    1. På **Ny vy** sida som visas i rutan uppe till vänster, ersätt **Ny parametervy** med ett beskrivande namn för vyn, till exempel *Fält och widgetar*.
 
