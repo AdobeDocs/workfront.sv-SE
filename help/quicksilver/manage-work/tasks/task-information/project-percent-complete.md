@@ -7,14 +7,16 @@ description: Värdet för Procent färdigt för ett projekt beräknas baserat p�
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 31533bd7ee1890a8343d32770d623d5d9a6007d2
+source-git-commit: 816fd70642ffb7b24095602ce160421aa947e2a6
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # Översikt över Procent färdigt i projekt
+
+<!-- Audited 01/2024 -->
 
 Värdet för Procent färdigt för ett projekt beräknas baserat på aktiviteternas varaktighet eller planerade timmar i projektet. Din Adobe Workfront-administratör eller en gruppadministratör definierar vilket värde som ska beaktas vid beräkningen av procentandelen färdig i ditt system när de konfigurerar information i området Projektinställningar.
 
@@ -32,17 +34,13 @@ De huvudsakliga uppgifterna är de överordnade och fristående uppgifterna som 
 
 ## Hur Workfront beräknar Procent färdigt
 
-* [Uppdatera Procent färdigt för en uppgift](#update-the-percent-complete-on-a-task)
-* [Hur Workfront beräknar Procent färdigt för en överordnad uppgift](#how-workfront-calculates-percent-complete-on-a-parent-task)
-* [Hur Workfront beräknar Procent färdigt i ett projekt](#how-workfront-calculates-percent-complete-on-a-project)
-
 ### Uppdatera Procent färdigt för en uppgift {#update-the-percent-complete-on-a-task}
 
 Du kan ändra procentandelen färdigt för en uppgift manuellt. Detta är inte en beräkning.
 
 Workfront använder procentandelen färdigt för en enskild uppgift för att beräkna procentandelen färdigt för den överordnade uppgiften eller procentandelen färdigt för projektet.
 
-Mer information om hur du uppdaterar procentandelen färdigt i en uppgift finns i [Visa och uppdatera Procent färdigt för uppgifter](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Mer information om hur du uppdaterar procentandelen färdigt för en uppgift finns i [Visa och uppdatera Procent färdigt för uppgifter](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ### Hur Workfront beräknar Procent färdigt för en överordnad uppgift {#how-workfront-calculates-percent-complete-on-a-parent-task}
 
@@ -52,21 +50,21 @@ Tänk på följande scenarier:
 
 * Om systemet beräknar procentandelen slutförd baserat på Planerade timmar beräknas procentandelen slutförd för den överordnade aktiviteten enligt följande formel:
 
-   `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of Parent)*100`
 
-   De totala planerade timmarna för den överordnade representerar summan av alla planerade timmar för var och en av de underordnade.
+  De totala planerade timmarna för den överordnade representerar summan av alla planerade timmar för var och en av de underordnade.
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * Om systemet beräknar procentandelen slutförd baserat på Varaktighet beräknas den överordnade aktivitetens procent slutfört med följande formel:
 
-   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
+  `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!IMPORTANT]
-   >
-   >Den överordnade uppgiftens totala varaktighet är den sammanlagda tiden för de underordnade aktiviteterna. En överordnad aktivitet med två underordnade objekt som har en varaktighet på 1 dag och 2 dagar har till exempel en total varaktighet på 3 dagar, även när de två underordnade kan starta samma dag.
+  >[!IMPORTANT]
+  >
+  >Den överordnade uppgiftens totala varaktighet är den sammanlagda tiden för de underordnade aktiviteterna. En överordnad aktivitet med två underordnade objekt som har en varaktighet på 1 dag och 2 dagar har till exempel en total varaktighet på 3 dagar, även när de två underordnade kan starta samma dag.
 
 
 ### Hur Workfront beräknar Procent färdigt i ett projekt {#how-workfront-calculates-percent-complete-on-a-project}
@@ -75,29 +73,29 @@ Beroende på vad din Workfront- eller gruppadministratör har valt i Projektinst
 
 * Om systemet beräknar procentandelen slutförd baserat på Planerade timmar beräknas projektprocenten som slutförd med följande formel:
 
-   `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
+  `Project Percent Complete =(((Task 1 Planned Hours * Task 1 Percent Complete) + (Task 2 Planned Hours * Task 2 Percent Complete))/Total Planned Hours of the Project)*100`
 
-   Projektets totala planerade timmar är summan av de planerade timmarna för alla huvuduppgifter i projektet.
+  Projektets totala planerade timmar är summan av de planerade timmarna för alla huvuduppgifter i projektet.
 
-   ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
-   >[!NOTE]
-   >
-   >Aktivitet 1 eller Aktivitet 2 kan bara vara överordnade uppgifter eller fristående uppgifter. De underordnade uppgifterna Planerade timmar och Procent färdigt används inte i den här beräkningen.
+  >[!NOTE]
+  >
+  >Aktivitet 1 eller Aktivitet 2 kan bara vara överordnade uppgifter eller fristående uppgifter. De underordnade uppgifterna Planerade timmar och Procent färdigt används inte i den här beräkningen.
 
 * Om systemet beräknar procentandelen slutförd baserat på Varaktighet beräknas projektprocenten slutförd med följande formel:
 
-   `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
+  `Project Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/Duration of the Project)*100`
 
-   >[!IMPORTANT]
-   >
-   >Projektets längd är den totala längden av alla de huvudsakliga aktiviteternas varaktighet som visar ett procenttal slutförda. Ett projekt med en fristående aktivitet med en varaktighet på 2 dagar och en överordnad aktivitet med en varaktighet på 5 dagar som har haft arbetet slutfört på dem får till exempel en total varaktighet på 7 dagar, även om de två aktiviteterna kan starta på samma dag.
+  >[!IMPORTANT]
+  >
+  >Projektets längd är den totala längden av alla varaktigheter för de huvudsakliga aktiviteterna som visar ett procenttal färdigt. Ett projekt med en fristående aktivitet med en varaktighet på 2 dagar och en överordnad aktivitet med en varaktighet på 5 dagar som har haft arbetet slutfört på dem får till exempel en total varaktighet på 7 dagar, även om de två aktiviteterna kan starta på samma dag.
 
-   ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
-   >[!NOTE]
-   >
-   >Aktivitet 1 eller Aktivitet 2 kan bara vara överordnade uppgifter eller fristående uppgifter. De underordnade aktiviteterna Varaktighet och Procent färdigt används inte i den här beräkningen.
+  >[!NOTE]
+  >
+  >Aktivitet 1 eller Aktivitet 2 kan bara vara överordnade uppgifter eller fristående uppgifter. De underordnade aktiviteterna Varaktighet och Procent färdigt används inte i den här beräkningen.
 
 ## Exempel på Procent färdigt i ett projekt med Varaktighet
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ce957a06275b437272cf00769783e0c8a0918e85
+source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
 workflow-type: tm+mt
-source-wordcount: '13926'
+source-wordcount: '13930'
 ht-degree: 0%
 
 ---
@@ -463,7 +463,7 @@ ht-degree: 0%
    * Användarhantering {#add-users}
       * [Användarhantering: artikelindex](administration-and-setup/add-users/add-users.md)
       * Skapa och hantera användare {#create-manage-users}
-         * [Hantera användare](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+         * [Skapa och hantera användare: artikelindex](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Lägg till användare](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [Importera användare](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [Redigera en användares profil](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)

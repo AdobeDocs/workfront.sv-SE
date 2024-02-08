@@ -2,20 +2,22 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Skapa och hantera automatiska arbetsflödesmallar
+title: Skapa och hantera automatiserade arbetsflödesmallar
 description: Som Adobe Workfront-administratör kan du skapa automatiska arbetsflödesmallar som innehåller de granskare som har korrekturroller och meddelandeinställningar som du anger, om ditt företags innehållsgranskningsprocess ofta upprepas eller innehåll ofta granskas av samma personer. En mall för automatiserat arbetsflöde kan vara enkel med bara en eller två granskare eller komplex med många faser och beroenden.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2056'
 ht-degree: 0%
 
 ---
 
-# Skapa och hantera automatiska arbetsflödesmallar
+# Skapa och hantera automatiserade arbetsflödesmallar
+
+<!-- Audited: 2/2024 -->
 
 Som Adobe Workfront-administratör kan du skapa automatiska arbetsflödesmallar som innehåller de granskare som har korrekturroller och meddelandeinställningar som du anger, om ditt företags innehållsgranskningsprocess ofta upprepas eller innehåll ofta granskas av samma personer. En mall för automatiserat arbetsflöde kan vara enkel med bara en eller två granskare eller komplex med många faser och beroenden.
 
@@ -26,7 +28,7 @@ Du kan enkelt ändra alla automatiska arbetsflödesmallar, lägga till eller ta 
 Tänk på följande när du använder en mall för automatiserat arbetsflöde:
 
 1. Inställningarna i en mall för automatiserat arbetsflöde avgör vad du kan göra med det automatiserade arbetsflödet för ett korrektur. Om till exempel knappen Lägg till en scen är inaktiverad i mallen visas den inte när du arbetar med inställningarna för det automatiska arbetsflödet för korrekturet.
-1. När en person läggs till i en bild i en mall för automatiserat arbetsflöde, men redan finns som granskare i korrekturet, tas granskaren bort från scenen när mallen används. Om du inte lägger till någon annan granskare på scenen visas ett meddelande som ber dig att lägga till en.
+1. När en person läggs till i en bild i en mall för automatiserat arbetsflöde, men redan finns som granskare i korrekturet, tas granskaren bort från scenen om mallen används. Om du inte lägger till någon annan granskare på scenen visas ett meddelande som ber dig att lägga till en.
 1. Din möjlighet att ändra en mall för automatiserat arbetsflöde beror på mallinställningarna som konfigurerats av Workfront-administratören, vilket beskrivs i . Om möjligheten att ändra mallen är inaktiverad kan bara mallens ägare ändra den.
 
 Mer information om automatiserade arbetsflöden finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
@@ -40,29 +42,30 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Premium eller Select</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Nytt: Alla</p><p>Aktuell: Pro eller högre</p><p>Äldre: Premium eller Select</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard</p><p>Aktuell: Arbete eller plan</p> <p>Äldre: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administratör måste vara markerat i din behörighetsprofil för korrektur. Mer information finns i <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Konfigurera en användares språkkontroll</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Administratör måste väljas i din behörighetsprofil för korrektur. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa en mall för automatiserat arbetsflöde
 
-1. Klicka på huvudmenyn i Workfront ![](assets/main-menu-icon.png)klickar du sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att få tillgång till Workfront Proof.
-1. Klicka **Arbetsflöden** i den vänstra panelen.
+{{step1-to-proofing}}
+
+1. Klicka **Arbetsflöden** till vänster.
 1. På **Arbetsflöde** flik, klicka **Nytt** > **Ny mall**.
 
-1. I **Detaljer** anger du följande information:
+1. I **Information** anger du följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -78,7 +81,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Mallgrupp</td> 
-      <td> <p> Om organisationens automatiserade arbetsflöden är ordnade i grupper kan du välja namnet på gruppen. Se <a href="#create-automated-workflow-template-groups" class="MCXref xref">Skapa mallgrupper för automatiserat arbetsflöde</a> senare i den här artikeln om du vill ha mer information.</p> </td> 
+      <td> <p> Om organisationens automatiserade arbetsflöden är ordnade i grupper kan du välja namnet på gruppen. Se <a href="#create-automated-workflow-template-groups" class="MCXref xref">Skapa mallgrupper för automatiserat arbetsflöde</a> mer information senare i den här artikeln.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Tidszon för mall </td> 
@@ -86,10 +89,9 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt</td> 
-      <td> <p>Du kan välja de scenaktiviteter som du vill ska vara tillgängliga för personen som skapar korrektur med hjälp av mallen.</p> <!--
-        <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
-          <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
-         --></p>
+      <td> <p>Du kan välja de scenaktiviteter som du vill ska vara tillgängliga för personen som skapar korrektur med hjälp av mallen.</p> 
+      <p><b>VARNING</b>: Om du inte markerar alternativen Lägg till en scen och Lägg till personer i faser kan varken mallägaren eller ägaren av något korrektur som använder den här mallen lägga till en scen eller dela korrekturet. 
+      </p>
       </td> 
      </tr> 
     </tbody> 
@@ -115,7 +117,7 @@ Du måste ha följande:
       <td role="rowheader">Deadline beräknad utifrån</td> 
       <td> <p>Ange hur du vill att tidsgränsen ska beräknas:</p> 
        <ul> 
-        <li> <p><strong>Korrektur</strong>: I listrutan under <strong>Deadline (+ arbetsdagar)</strong>väljer du antalet arbetsdagar du vill lägga till i datumet då korrekturet skapades för att automatiskt ange en deadline för korrekturet.</p> </li> 
+        <li> <p><strong>Korrektur</strong>: I listrutan under <strong>Deadline (+ arbetsdagar)</strong>väljer du det antal arbetsdagar du vill lägga till i datumet då korrekturet skapades för att automatiskt ange en deadline för korrekturet.</p> </li> 
         <li><strong>När scenen startar</strong>: I listrutan under <strong>Deadline (+ arbetsdagar)</strong>väljer du antalet arbetsdagar som du vill lägga till till i scenens aktiveringsdatum för att automatiskt ange en deadline för korrekturet.</li> 
        </ul> </td> 
      </tr> 
@@ -133,10 +135,8 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Privat fas</td> 
-      <td>Döljer kommentarer och beslut från personer som inte har lagts till på scenen eller som inte är Workfront-administratörer&lt;!&gt;— DRAT I FLARE: Tillsynsmyndigheter och högre
-
-       -->. Mer information finns i &lt;a href=&quot;../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md&quot; class=&quot;MCXref xref&quot;>Översikt över automatiserat arbetsflöde&lt;/a>.&lt;/td>
-   </tr> 
+      <td>Döljer kommentarer och beslut från personer som inte har lagts till på scenen eller som inte är Workfront-administratörer. Mer information finns i <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Översikt över automatiserat arbetsflöde</a>.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Tillåt inte att den här fasen tas bort</td> 
       <td> <p>Gör scenen obligatorisk.</p> </td> 
@@ -172,10 +172,11 @@ Du måste ha följande:
 
 Som Workfront Korrekturadministratör kan du ändra en mall för automatiserat arbetsflöde. Dina ändringar sparas automatiskt när du gör dem.
 
-1. Klicka på huvudmenyn i Workfront ![](assets/main-menu-icon.png)klickar du sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att få tillgång till Workfront Proof.
-1. Klicka **Arbetsflöden** i den vänstra panelen.
+{{step1-to-proofing}}
+
+1. Klicka **Arbetsflöden** till vänster.
 1. I **Arbetsflödesmallar** som visas klickar du på mallen som du vill ändra.
-1. I **Detaljer** anger du följande information:
+1. I **Information** anger du följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -191,7 +192,7 @@ Som Workfront Korrekturadministratör kan du ändra en mall för automatiserat a
      </tr> 
      <tr> 
       <td role="rowheader">Mallgrupp</td> 
-      <td> <p> Om organisationens automatiserade arbetsflöden är ordnade i grupper kan du välja namnet på gruppen. Se <a href="#create-automated-workflow-template-groups" class="MCXref xref">Skapa mallgrupper för automatiserat arbetsflöde</a> senare i den här artikeln om du vill ha mer information.</p> </td> 
+      <td> <p> Om organisationens automatiserade arbetsflöden är ordnade i grupper kan du välja namnet på gruppen. Se <a href="#create-automated-workflow-template-groups" class="MCXref xref">Skapa mallgrupper för automatiserat arbetsflöde</a> mer information senare i den här artikeln.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tidszon för mall </td> 
@@ -199,7 +200,7 @@ Som Workfront Korrekturadministratör kan du ändra en mall för automatiserat a
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt</td> 
-      <td> <p>Välj de scenaktiviteter som du vill ska vara tillgängliga för dem som skapar korrektur med hjälp av mallen. </p> <p><b>VARNING</b>: Om du inte markerar alternativen Lägg till en scen och Lägg till personer i faser, kan varken mallägaren eller ägaren av något korrektur som använder den här mallen lägga till en scen eller dela korrekturet.</p> </td> 
+      <td> <p>Välj de scenaktiviteter som du vill ska vara tillgängliga för dem som skapar korrektur med hjälp av mallen. </p> <p><b>VARNING</b>: Om du inte markerar alternativen Lägg till en scen och Lägg till personer i faser kan varken mallägaren eller ägaren av något korrektur som använder den här mallen lägga till en scen eller dela korrekturet.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -240,7 +241,7 @@ Som Workfront Korrekturadministratör kan du ändra en mall för automatiserat a
      </tr> 
      <tr> 
       <td role="rowheader">Mer <img src="assets/more-icon.png"></td> 
-      <td>Lägg till granskare på scenen eller ta bort scenen.<p>Om alla korrektur skickas till samma personer i en viss fas kan du ange deras namn här, så att du inte behöver lägga till dem varje gång du skapar ett korrektur. Skriv och markera namnet på en användare som du vill lägga till på scenen och lägg sedan till namnet <strong>Roll</strong> på bevisen och <strong>E-postaviseringar</strong> inställningar som du vill använda för användaren. Mer information om språkroller finns i <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Konfigurera standardspråkroller</a>. Mer information om korrekturmeddelanden via e-post finns i avsnittet <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Konfigurera korrekturinställningar för en användare</a> i artikeln <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Konfigurera e-postmeddelandeinställningar i Workfront Proof</a>.</p><p>Du kan lägga till så många användare som du vill på en scen</p><p>Tips: Du kan dra och släppa namn på granskare mellan faserna i stegdiagrammet. Tillgängliga stadier markeras med blått.</p></td> 
+      <td>Lägg till granskare på scenen eller ta bort scenen.<p>Om alla korrektur skickas till samma personer i en viss fas kan du ange deras namn här, så att du inte behöver lägga till dem varje gång du skapar ett korrektur. Skriv och markera namnet på en användare som du vill lägga till på scenen och lägg sedan till namnet <strong>Roll</strong> på bevisen och <strong>E-postaviseringar</strong> inställningar som du vill använda för användaren. Mer information om språkroller finns i <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Konfigurera standardspråkroller</a>. Mer information om korrekturmeddelanden via e-post finns i avsnittet <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Konfigurera korrekturinställningar för en användare</a> i artikeln <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Konfigurera e-postmeddelandeinställningar i Workfront Proof</a>.</p><p>Du kan lägga till så många användare som du vill på en scen</p><p>Tips! Du kan dra och släppa namn på granskare mellan faserna i stegdiagrammet. Tillgängliga stadier markeras med blått.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -259,8 +260,9 @@ Som Workfront-administratör kan du visa och hantera alla mallar för automatise
 
 Så här skapar du en mallgrupp för automatiserat arbetsflöde:
 
-1. Klicka på huvudmenyn i Workfront ![](assets/main-menu-icon.png)klickar du sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att få tillgång till Workfront Proof.
-1. Klicka **Arbetsflöden** i den vänstra panelen.
+{{step1-to-proofing}}
+
+1. Klicka **Arbetsflöden** till vänster.
 1. På **Arbetsflöde** flik, klicka **Nytt** > **Ny mallgrupp**.
 1. Skriv ett beskrivande namn för den nya mallgruppen och tryck sedan på **Retur**.
 
@@ -268,7 +270,7 @@ Du kan flytta mallarna mellan grupper genom att dra och släppa.
 
 ## Hantera automatiserade arbetsflödesmallar
 
-1. Klicka på huvudmenyn i Workfront ![](assets/main-menu-icon.png)klickar du sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att få tillgång till Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klicka på i den vänstra panelen i Workfront Proof **Arbetsflöden**.
 1. På **Arbetsflöden** som visas gör du något av följande:

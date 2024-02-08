@@ -5,18 +5,20 @@ keywords: kickstart,sparkstart,kickstarter,sparkstarter
 navigation-topic: use-kick-starts
 title: Exportera data från Adobe Workfront via Quick-Starts
 description: Som Adobe Workfront-administratör kan du använda dataexporteraren Quick-Starts för att exportera data från Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 # Exportera data från Adobe Workfront via Quick-Starts
+
+<!-- Audited: 2/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -40,14 +42,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Fördelar och nackdelar med att använda&quot;kom igång&quot; för att exportera data
 
@@ -55,7 +63,7 @@ Det finns två sätt att exportera data inom Workfront:
 
 * Exportera data från en rapport eller en lista
 
-   Mer information om hur du exporterar data från en rapport eller en lista finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  Mer information om hur du exporterar data från en rapport eller en lista finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * Exportera data via snabbstart
 
@@ -80,7 +88,7 @@ I följande tabell visas fördelar och nackdelar med varje metod:
   </tr> 
   <tr> 
    <td> <p><strong>Exportera data via snabbstart</strong> </p> </td> 
-   <td> <p>Ja (begränsad)</p> <p>De flesta inbyggda Workfront-fält som är associerade med objekt exporteras, men andra exporteras inte. Du kan till exempel inte exportera fälten Schema, Projektägare eller Projektsponsorer via en projektstartexport.</p> <p>I ett projekt som har ett anpassat formulär bifogat exporteras inga data som har angetts i fälten i formuläret.</p> <p>Men du kan exportera ett eget formulär. Den resulterande filen visar de fält som har konfigurerats i formuläret, t.ex. textrutor och alternativknappar.</p> </td> 
+   <td> <p>Ja (begränsad)</p> <p>De flesta inbyggda Workfront-fält som är associerade med objekt exporteras, men andra exporteras inte. Du kan till exempel inte exportera fälten Schema, Projektägare eller Projektsponsorer via en projektstartexport.</p> <p>I ett projekt som har ett anpassat formulär bifogat exporteras inga data som har angetts i fälten i formuläret.</p> <p>Men du kan exportera ett anpassat formulär. Den resulterande filen visar de fält som har konfigurerats i formuläret, t.ex. textrutor och alternativknappar.</p> </td> 
    <td> <p>Ja</p> <p>Om du använder Kickstart för att exportera Workfront-data kan du exportera data som relateras till flera objekttyper i en och samma export. Du kan till exempel inkludera uppgifter, problem och projekt i en enda export.</p> </td> 
   </tr> 
  </tbody> 
@@ -95,11 +103,67 @@ Följande begränsningar gäller vid export av data via direktstart (data export
 
 ## Exportera data via snabbstart
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicka **System** > **Sparkar,** sedan klicka **Exportera data.**
+1. Klicka **System** > **Sparka igång,** klicka sedan på **Exportera data.**
 
-1. Markera det objekt som du vill exportera.
+1. Markera det objekt som du vill exportera. Som standard visas följande objekt under **Vad du ska ta med**:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><strong>Objekt</strong> </p> </th> 
+      <th> <p><strong>Exporterade blad i Excel-filen</strong> </p> </th> 
+      <th> <p> <strong>Exportformat</strong></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Kontrollpanel</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Rapport<br>Portal Tab Section<br>Kontrollpanel<br>Inställningar</p> </td> 
+      <td scope="col" valign="top"> ZIP</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top">Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Rapport<br>Inställningar</td> 
+      <td scope="col" valign="top"> ZIP </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Godkännande</p> </td> 
+      <td scope="col" valign="top"> <p>Steggodkännare<br>Godkännandesteg<br>Godkännande<br>Godkännandeprocess<br>Inställningar</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Anpassade data</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Inställningar</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Utgiftstyp</p> </td> 
+      <td valign="top"> <p>Utgiftstyp<br>Inställningar</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Timtyp</p> </td> 
+      <td valign="top"> <p>Timtyp<br>Inställningar</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Team</p> </td> 
+      <td valign="top"> Teammedlem<br>Team<br>Inställningar </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Användare</p> </td> 
+      <td valign="top"> <p>Användare<br>Inställningar</p> </td> 
+      <td valign="top"> <p> Excel</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
 1. Klicka **Fler alternativ** om du vill se en fullständig lista över objekt.
 
    Alla objekt som listas här kan även användas för att importera data till Workfront.
@@ -258,7 +322,7 @@ Följande begränsningar gäller vid export av data via direktstart (data export
     </tbody> 
    </table>
 
-1. Klicka **Ladda ned.**
+1. Klicka **Hämta.**
 
    Den exporterade startfilen hämtas till datorn antingen som en Excel-fil eller en . zip-fil som innehåller flera Excel- och egenskapsfiler. Varje Excel-fil är en samling blad, där varje blad representerar ett fält som är associerat med det markerade objektet. Det finns en **Egenskaper** blad som är associerade med varje export.
 
@@ -272,117 +336,7 @@ Följande begränsningar gäller vid export av data via direktstart (data export
 
    Du kan exportera flera objekt samtidigt.
 
-   Som standard visas följande objekt under **Vad du ska inkludera** etikett (innan du klickar **Fler alternativ**):
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong>Objekt</strong> </p> </th> 
-      <th> <p><strong>Exporterade blad i Excel-filen</strong> </p> </th> 
-      <th> <p> <strong>Exportformat</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Kontrollpanel</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Rapport<br>Portal Tab Section<br>Kontrollpanel<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Rapport<br>Inställningar</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Godkännande</p> </td> 
-      <td scope="col" valign="top"> <p>Steggodkännare<br>Godkännandesteg<br>Godkännande<br>Godkännandeprocess<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Anpassade data</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Utgiftstyp</p> </td> 
-      <td valign="top"> <p>Utgiftstyp<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Timtyp</p> </td> 
-      <td valign="top"> <p>Timtyp<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Teammedlem<br>Team<br>Inställningar </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Användare</p> </td> 
-      <td valign="top"> <p>Användare<br>Inställningar</p> </td> 
-      <td valign="top"> <p> Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong></strong> </p> </th> 
-      <th> <p><strong>Exporterade blad i Excel-filen</strong> </p> </th> 
-      <th> <p> <strong>Exportformat</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Kontrollpanel</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Rapport<br>Portal Tab Section<br>Kontrollpanel<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Rapport<br>Inställningar</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Godkännande</p> </td> 
-      <td scope="col" valign="top"> <p>Steggodkännare<br>Godkännandesteg<br>Godkännande<br>Godkännandeprocess<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Anpassade data</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteralternativ<br>Parametergrupp<br>Kategoriparameter<br>Kategori<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Utgiftstyp</p> </td> 
-      <td valign="top"> <p>Utgiftstyp<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Timtyp</p> </td> 
-      <td valign="top"> <p>Timtyp<br>Inställningar</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Teammedlem<br>Team<br>Inställningar </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Användare</p> </td> 
-      <td valign="top"> <p>Användare<br>Inställningar</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
 
 1. (Rekommenderas) Analysera exporterade data för att kontrollera att all information som du förväntar dig har exporterats.
 

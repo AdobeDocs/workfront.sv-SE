@@ -6,14 +6,16 @@ description: Ett automatiserat arbetsflöde gör det enklare att hantera granskn
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
 
 # Skapa ett avancerat korrektur med ett automatiserat arbetsflöde
+
+<!-- Audited: 2/2024 -->
 
 Ett automatiserat arbetsflöde gör det enklare att hantera granskningsprocessen om processen är komplex, eller om du skickar innehåll för granskning till samma personer regelbundet. Beviset flyttas från scen till scen och Adobe Workfront meddelar varje användare när det är deras tur att granska det. Mer information om automatiserade arbetsflöden finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
@@ -26,25 +28,25 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Markera eller högre</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Nytt: Alla</p><p>Aktuell plan: Pro eller högre</p><p>Äldre plan: Välj eller högre</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard</p><p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till dokument</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa ett avancerat korrektur med ett automatiserat arbetsflöde
 
@@ -65,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >Tänk på följande när du använder en mall för automatiserat arbetsflöde:
    >   
    >* Inställningarna i en mall för automatiserat arbetsflöde avgör vad du kan göra med det automatiserade arbetsflödet för ett korrektur. Om till exempel knappen Lägg till en scen är inaktiverad i mallen visas den inte när du arbetar med inställningarna för det automatiska arbetsflödet för korrekturet.
-   >* När en person läggs till i en bild i en mall för automatiserat arbetsflöde, men redan finns som granskare i korrekturet, tas granskaren bort från scenen när mallen används. Om du inte lägger till någon annan granskare på scenen visas ett meddelande som ber dig att lägga till en.
+   >* När en person läggs till i en bild i en mall för automatiserat arbetsflöde, men redan finns som granskare i korrekturet, tas granskaren bort från scenen om mallen används. Om du inte lägger till någon annan granskare på scenen visas ett meddelande som ber dig att lägga till en.
    >* Din möjlighet att ändra en mall för automatiserat arbetsflöde beror på mallinställningarna som konfigurerats av Workfront-administratören, vilket beskrivs i . Om möjligheten att ändra mallen är inaktiverad kan bara mallens ägare ändra den.
 
 1. Konfigurera det första steget i det automatiserade arbetsflödet:
@@ -99,10 +101,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
        <tbody>
         <tr>
          <td role="rowheader">Ange slutdatum för fas</td>
-         <td><p>Klicka på ett alternativ i dialogrutan <strong>Deadline-alternativ</strong> nedrullningsbar lista. Sedan, under <strong>Deadline</strong>gör du något av följande:</p>
+         <td><p>Om du vill ange en deadline för scenen klickar du på ett alternativ i <strong>Tidsalternativ</strong> listruta. Sedan, under <strong>Deadline</strong>gör du något av följande:</p>
           <ul>
-           <li>Om du valde <strong>Ange specifikt datum</strong>: Välj önskat datum och klockslag för deadline.</li>
-           <li>Om du valde <strong>Beräkna från aktiveringsdatum för fas</strong>: Välj det antal arbetsdagar du vill lägga till i scenens aktiveringsdatum för att bestämma tidsgränsen.</li>
+           <li>Om du valde <strong>Ange specifikt datum</strong>: Välj vilket datum och vilken tid du vill ha.</li>
+           <li>Om du valde <strong>Beräkna från aktiveringsdatum för fas</strong>: Välj det antal arbetsdagar som du vill lägga till i scenens aktiveringsdatum för att bestämma tidsgränsen.</li>
           </ul></td>
         </tr>
         <tr>
@@ -115,11 +117,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         </tr>
         <tr>
          <td role="rowheader">Kräv endast ett beslut för det här steget</td>
-         <td>Slutför hela granskningsprocessen när en av beslutsfattarna fattar ett beslut.<p>Det här alternativet är inte tillgängligt om du har angett en användare i <strong>Primär beslutsfattare</strong>nedrullningsbar meny.</p></td>
+         <td>Slutför hela granskningsprocessen när en av beslutsfattarna fattar ett beslut.<p>Det här alternativet är inte tillgängligt om du har angett en användare i <strong>Primär beslutsfattare</strong>listruta.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Gör det här steget privat</td>
-         <td>Tillåter endast följande personer att visa kommentarer och beslut som fattats under den här fasen: Administratörer, Workfront-administratörer och Workfront korrekturadministratörer</td>
+         <td>Tillåter endast följande personer att visa kommentarer och beslut som fattas under den här fasen: Supervisors, Workfront administrators och Workfront Proof Administrators</td>
         </tr>
        </tbody>
       </table>
@@ -212,7 +214,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <li><strong>Inställningar för e-postavisering för prenumeranter:</strong> Standardvarningsmeddelandet som tilldelas alla granskare som prenumererar på korrekturet.</li>
        </ul><p>
         <ul>
-         <li><strong>Åtkomstbevis via e-postlänk krävs för:</strong> Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>Endast e-postmeddelanden med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till ett bevis. Syftet med det här alternativet är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</li>
+         <li><strong>Åtkomstbevis via e-postlänk krävs för:</strong> Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>E-post med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till ett bevis. Syftet med det här alternativet är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</li>
         </ul><p><strong>Obs!</strong> Om korrekturet har ett automatiserat arbetsflöde bifogat, kommer alla prenumerationer att generera bekräftelsemeddelanden till korrekturägarna, så att de kan bestämma i vilken fas personen ska läggas till.<br></p></p></td> 
      </tr> 
     </tbody> 

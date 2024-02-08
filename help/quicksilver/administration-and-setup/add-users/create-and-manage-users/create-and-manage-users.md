@@ -1,23 +1,25 @@
 ---
-title: Skapa och hantera användare
+title: "Skapa och hantera användare: artikelindex"
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: Du kan lägga till användare i Adobe Workfront genom att skapa enskilda användare från grunden eller genom att kopiera befintliga användare.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8fa73379725029f1750b83fc67abba670f470f64
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Skapa och hantera användare
+# Skapa och hantera användare: artikelindex
+
+<!-- Audited: 2/2024 -->
 
 Det här avsnittet innehåller följande artiklar:
 

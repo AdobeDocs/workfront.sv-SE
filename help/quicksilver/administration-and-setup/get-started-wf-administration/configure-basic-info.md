@@ -4,18 +4,20 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Konfigurera grundläggande information för ditt system
 description: Som en del av konfigureringen av ditt Adobe Workfront-system kan du hantera information om din organisation under Grundläggande information på kundinformationssidan.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
 
 # Konfigurera grundläggande information för ditt system
+
+<!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>-->
 
@@ -34,11 +36,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,29 +54,29 @@ Kunden representerar Workfront-instansen för er organisation. Alternativen här
 
 Så här öppnar du sidan Kundinformation:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **System** > **Kundinformation**.
 
-   Beroende på vilken Workfront-plan du har köpt kan vissa avsnitt saknas på kundinformationssidan. Kontakta din kontorepresentant om du behöver ta reda på vilken Workfront-plan din organisation använder.
+   Beroende på vilken Workfront-plan du har köpt kan vissa avsnitt saknas på sidan Kundinformation. Kontakta din kontorepresentant om du behöver ta reda på vilken Workfront-plan din organisation använder.
 
-   Följande avsnitt finns i området Kundinformation:
+   De avsnitt som är tillgängliga i området Kundinformation är:
 
    * **Grundläggande information**
 
-      Information om hur du konfigurerar grundläggande information i Workfront finns i [Konfigurera grundläggande information](#configure-basic-info).
+     Information om hur du konfigurerar grundläggande information i Workfront finns i [Konfigurera grundläggande information](#configure-basic-info).
 
    * **API-nyckelinställningar**
 
-      Mer information om API-nyckelinställningar finns i [Hantera API-nycklar](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     Mer information om API-nyckelinställningar finns i [Hantera API-nycklar](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **IP Tillåtelselista**
+   * **IP TILLÅTELSELISTA**
 
-      Mer information om hur du lägger till IP-adresserna till tillåtelselista för var dina användare kan komma åt Workfront finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Mer information om hur du lägger till IP-adresserna till tillåtelselista för var dina användare kan komma åt Workfront finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    * **Licens**
 
-      Mer information om licenser finns i [Hantera tillgängliga licenser i ditt system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Mer information om licenser finns i [Hantera tillgängliga licenser i ditt system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Konfigurera grundläggande information {#configure-basic-info}
 
@@ -79,7 +84,7 @@ I området Grundläggande information på kundinformationssidan konfigureras vis
 
 Så här konfigurerar du avsnittet Grundläggande information i området Kundinformation:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **System** > **Kundinformation**.
 
@@ -103,7 +108,7 @@ Så här konfigurerar du avsnittet Grundläggande information i området Kundinf
      </tr> 
      <tr> 
       <td role="rowheader">Domän</td> 
-      <td> <p>Domänen anges av Workfront när ditt konto skapas.</p> <p>Domänen identifierar din unika underdomän till den URL som du använder för att komma åt Workfront.<p>Om din organisation till exempel har tilldelats domänen "mincompany" är den URL du använder för att få åtkomst till Workfront <i>https://mycompany.my.workfront.com.</i></p><p>Du kan inte redigera domänen själv. Om du vill byta domän kan du kontakta Workfront kundsupport. Mer information om hur du kontaktar Workfront kundsupport finns i <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Kontakta kundsupport</a>.</p> </td> 
+      <td> <p>Domänen anges av Workfront när ditt konto skapas.</p> <p>Domänen identifierar din unika underdomän till den URL som du använder för att komma åt Workfront.<p>Om din organisation till exempel har tilldelats domänen "mincompany" är den URL som du använder för att få åtkomst till Workfront <i>https://mycompany.my.workfront.com.</i></p><p>Du kan inte redigera domänen själv. Om du vill byta domän kan du kontakta Workfront kundsupport. Mer information om hur du kontaktar Workfront kundsupport finns i <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Kontakta kundsupport</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tidszon</td> 
@@ -119,7 +124,7 @@ Så här konfigurerar du avsnittet Grundläggande information i området Kundinf
      </tr> 
      <tr> 
       <td role="rowheader">Lagringskvot</td> 
-      <td> <p>Detta är mängden tillgängligt dokumentlagringsutrymme i din Workfront-instans.<br>Kvoten innehåller dokument som du överför direkt till Workfront.<br>Den innehåller inte följande uppgifter:</p> 
+      <td> <p>Detta är mängden tillgängligt dokumentlagringsutrymme i din Workfront-instans.<br>Kvoten innehåller dokument som du överför direkt till Workfront.<br>Den innehåller inte:</p> 
        <ul> 
         <li>Dokument som du länkar till Workfront från någon annan tredjepartstjänsteleverantör (SharePoint, Google Drive, Webdam, Box, Dropbox eller någon annan leverantör av Document Asset Management).</li> 
         <li>Dina Workfront-data (projekt, uppgifter, problem, användare och så vidare).</li> 

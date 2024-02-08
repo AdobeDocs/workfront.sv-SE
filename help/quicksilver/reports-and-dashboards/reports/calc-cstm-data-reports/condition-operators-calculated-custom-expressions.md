@@ -7,7 +7,7 @@ description: Du kan använda villkorsoperatorer eller modifierare när du skapar
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Villkorsoperatorer i beräknade anpassade fält
 
-Du kan använda villkorsoperatorer eller modifierare när du skapar beräknade anpassade data i Adobe Workfront i textläge.
+<!-- Audited: 2/2024 -->
 
-Mer information om hur du använder textläge i Workfront finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Du kan använda villkorsoperatorer eller modifierare när du skapar beräknade anpassade data i Adobe Workfront i textläge. Mer information om hur du använder textläge i Workfront finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Villkorsoperatorer eller modifierare hjälper till att skapa villkorssats genom att koppla befintliga Workfront-fält i satser och generera ett nytt fält. Det vanligaste användningsområdet för villkorsoperatorer är att skapa villkoret för en IF-programsats.
 
