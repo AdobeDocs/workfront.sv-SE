@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 0%
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Som Adobe-administratör kan du skapa Adobe Workfront-användare och systemadministratörer med Adobe Admin Console. Konsolen är en central plats för att hantera Adobe i hela organisationen. Mer information finns i [Översikt över Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+Som Adobe-administratör kan du skapa Adobe Workfront-systemadministratörer med Adobe Admin Console. Konsolen är en central plats för att hantera Adobe i hela organisationen. Mer information finns i [Översikt över Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+
+>[!NOTE]
+>
+>Vi rekommenderar att du lägger till användare som inte är systemadministratörer direkt i Workfront. Det går att lägga till användare i Adobe Admin Console, men om du lägger till dem i Workfront kan du ange åtkomstnivå när du skapar dem, vilket sparar tid.
 
 ## Åtkomstkrav
 
@@ -116,9 +120,33 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
    * [Skapa användare i Workfront med Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console)
    * [Skapa systemadministratörer i Workfront med Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
+## Skapa systemadministratörer i Workfront med Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
+
+Åtkomstnivån för systemadministratören ges endast på Adobe Admin Console. Du kan inte bevilja eller ta bort administratörsåtkomst inifrån Workfront.
+
+Du måste lägga till en användare i din Production-instans av Workfront innan du kan göra användaren till Workfront-systemadministratör.
+
+1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i avsnittet [Gå till användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
+1. Välj **Administratörer** -fliken ovanför listan med användare.
+1. Välj **Lägg till administratör**.
+1. I **Lägg till produktprofiladministratörer** anger du e-postadresserna eller namnen på de administratörer som du vill lägga till och väljer **Spara**.
+
+   ![](assets/add-admin-1.png)
+
+   Systemadministratörerna skapas i Workfront.
+
+   >[!IMPORTANT]
+   >
+   >Gör inga ändringar i själva produktprofilen.
+
+
 ## Skapa användare i Workfront med Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}
 
-Workfront-användare måste läggas till i Adobe Admin Console. En administratör kan skapa användaren direkt i Adobe Admin Console. Gruppadministratörer skapar användare i Workfront som sedan skickas in för godkännande. När det är godkänt läggs användaren till i Adobe Admin Console.
+>[!NOTE]
+>
+>Vi rekommenderar att du lägger till användare som inte är systemadministratörer direkt i Workfront. Det går att lägga till användare i Adobe Admin Console, men om du lägger till dem i Workfront kan du ange åtkomstnivå när du skapar dem, vilket sparar tid.
 
 * [Skapa användare i Workfront direkt i Adobe Admin Console](#create-users-in-workfront-directly-in-the-adobe-admin-console)
 * [Skapa användare i Workfront och godkänn dem för Adobe Admin Console](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
@@ -179,26 +207,6 @@ Godkänna en användare:
 
 
 
-## Skapa systemadministratörer i Workfront med Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
-
-<!--Audited: 12/2023-->
-
-Åtkomstnivån för systemadministratören ges endast på Adobe Admin Console. Du kan inte bevilja eller ta bort administratörsåtkomst inifrån Workfront.
-
-Du måste lägga till en användare i din Production-instans av Workfront innan du kan göra användaren till Workfront-systemadministratör. Instruktioner finns i avsnittet [Skapa användare i Workfront med Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console) i den här artikeln.
-
-1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i avsnittet [Gå till användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
-1. Välj **Administratörer** -fliken ovanför listan med användare.
-1. Välj **Lägg till administratör**.
-1. I **Lägg till produktprofiladministratörer** anger du e-postadresserna eller namnen på de administratörer som du vill lägga till och väljer **Spara**.
-
-   ![](assets/add-admin-1.png)
-
-   Systemadministratörerna skapas i Workfront.
-
-   >[!IMPORTANT]
-   >
-   >Gör inga ändringar i själva produktprofilen.
 
 
 

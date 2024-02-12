@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Det förfarande som beskrivs på denna sida gäller organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
+>Om din organisation har anslutit sig till Adobe Admin Console måste du skapa systemadministratörer via Adobe Admin Console.
+>
+>Instruktioner om hur du skapar systemadministratörer i Adobe Admin Console finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Gruppadministratörer i organisationer som har anslutit sig till Adobe Admin Console kan använda den här proceduren för att skapa användare och skicka in användaren för administratörsgodkännande.
->
->Instruktioner om hur du lägger till en användare i Adobe Admin Console:
->
->* Se [Skapa användare i Workfront med Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* Se avsnittet&quot;Lägg till användare&quot; i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* Kontakta Adobe Admin Console-administratören.
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

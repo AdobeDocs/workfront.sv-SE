@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,18 @@ ht-degree: 0%
 
 Om din organisation har anslutit sig till Adobe Business Platform använder dina användare Adobe Business Platform för att få tillgång till Adobe Workfront. Detta innebär att
 
-* Användarhantering sker i stor utsträckning via Adobe Admin Console
+* Systemadministratörer skapas via Adobe Admin Console
 * enkel inloggning (SSO) hanteras via Adobe Business Platform i stället för via Workfront
 
-Som Adobe Workfront-administratör skiljer sig dina administrativa ansvar och procedurer åt beroende på om din organisation har anslutit sig till Adobe Business Platform eller inte. I den här artikeln listas de procedurer som måste hanteras på olika sätt, samt länkar till instruktioner för både Workfront och Adobe Admin Console.
+Som Adobe Workfront-administratör skiljer sig dina administrativa ansvar och procedurer åt beroende på om din organisation har anslutit sig till Adobe Business Platform eller inte. I den här artikeln listas de procedurer som hanteras på olika sätt och länkar till instruktioner för både Workfront och Adobe Admin Console.
 
 ## Användare
+
+
+
+>[!NOTE]
+>
+>Vi rekommenderar att du lägger till användare som inte är systemadministratörer direkt i Workfront. Det går att lägga till användare i Adobe Admin Console, men om du lägger till dem i Workfront kan du ange åtkomstnivå när du skapar dem, vilket sparar tid.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +123,7 @@ Som Adobe Workfront-administratör skiljer sig dina administrativa ansvar och pr
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Avsnittet"Redigera användarinformation" i <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Hantera användare individuellt</a></p> </li> 
+     <li> <p>Avsnittet Redigera användarinformation i <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Hantera användare individuellt</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -139,7 +145,7 @@ Som Adobe Workfront-administratör skiljer sig dina administrativa ansvar och pr
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Avsnittet"Lägg till användare" i <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Massöverföring av CSV</a></p> </li> 
+     <li> <p>Avsnittet Lägg till användare i <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Massöverföring av CSV</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -158,7 +164,7 @@ Som Adobe Workfront-administratör skiljer sig dina administrativa ansvar och pr
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Avsnittet"Den digitala signaturen i SAML-svaret validerade inte...". in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Federated ID Felsökning</a></p> </li> 
+     <li> <p>Avsnittet"Den digitala signaturen i SAML-svaret validerade inte ..." i <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Federated ID Felsökning</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
