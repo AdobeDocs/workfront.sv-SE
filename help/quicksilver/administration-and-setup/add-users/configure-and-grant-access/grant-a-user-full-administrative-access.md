@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,7 @@ ht-degree: 0%
 >
 >Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Instruktioner om hur du ger fullständig administratörsåtkomst i Adobe Admin Console:
->
->* Se [Skapa systemadministratörer i Workfront med Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create2)
->* Se avsnittet Redigera användarinformation i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) i Adobe Admin Console-dokumentationen.
->* Kontakta Adobe Admin Console-administratören.
+>Instruktioner om hur du ger fullständig administratörsåtkomst i Adobe Admin Console finns i [Hantera systemadministratörer i Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -35,7 +31,6 @@ Som Adobe Workfront-administratör kan du skapa en annan Workfront-administratö
 >* [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
 >* [Åtkomst för en Workfront-administratör jämfört med åtkomst för en Plan-användare med administratörsbehörighet](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) i den här artikeln
 >
-
 
 ## Åtkomstkrav
 
@@ -62,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ge fullständig systemadministratörsåtkomst till en enskild användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 
 1. Klicka på namnet på den användare som du vill ge administratörsbehörighet till.
 1. Klicka på Mer-menyn ![](assets/more-icon.png)och sedan klicka **Redigera**.
@@ -112,7 +107,7 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
    <td>Ingen åtkomst</td> 
   </tr> 
   <tr> 
-   <td>Projektinställningar: Uppgifter och problem</td> 
+   <td>Projektinställningar: Aktiviteter och problem</td> 
    <td>Fullständig åtkomst</td> 
    <td>Ingen åtkomst</td> 
   </tr> 
@@ -132,7 +127,7 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
    <td>Ingen åtkomst</td> 
   </tr> 
   <tr> 
-   <td>Projektinställningar: Växelkurser</td> 
+   <td>Projektinställningar: växelkurser</td> 
    <td>Fullständig åtkomst</td> 
    <td>Fullständig åtkomst</td> 
   </tr> 
@@ -142,7 +137,7 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
    <td>Fullständig åtkomst</td> 
   </tr> 
   <tr> 
-   <td>Processer: Milstolpbanor</td> 
+   <td>Processer: Milstolpebanor</td> 
    <td>Fullständig åtkomst</td> 
    <td>Fullständig åtkomst</td> 
   </tr> 
@@ -197,7 +192,7 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
    <td> <p>Tillgång till att tilldela befintliga tidrapportprofiler till användare på användarnivå.</p> <p>Användare som är gruppadministratörer kan skapa tidrapportprofiler för de grupper de administrerar och deras undergrupper. </p> </td> 
   </tr> 
   <tr> 
-   <td>Tidrapport och timmar: Timtyper</td> 
+   <td>Tidrapport och timmar: timtyper</td> 
    <td>Fullständig åtkomst</td> 
    <td> <p>Tillgång till att tilldela timtyper till användare på användarnivå.</p> </td> 
   </tr> 
@@ -253,13 +248,13 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
   </tr> 
   <tr> 
    <td>Åtkomstnivåer</td> 
-   <td> <p>Fullständig åtkomst för att ändra alla åtkomstnivåer.</p> <p>Åtkomstnivåerna Systemadministratör och Extern användare kan inte ändras som standard.</p> </td> 
+   <td> <p>Fullständig åtkomst för att ändra alla åtkomstnivåer.</p> <p>Åtkomstnivåerna för systemadministratörer och externa användare kan inte ändras som standard.</p> </td> 
    <td> <p>Ingen åtkomst att redigera åtkomstnivåer.</p> <p>Tilldela andra användare en åtkomstnivå som är lägre eller lika med deras på användarnivå.</p> </td> 
   </tr> 
   <tr> 
    <td>Gränssnitt: Layoutmallar</td> 
    <td>Fullständig åtkomst</td> 
-   <td> <p>Tillgång till befintliga layoutmallar för andra användare på användarnivå. </p> <p>Användare som är utsedda som gruppadministratörer kan skapa layoutmallar för grupper och undergrupper som de hanterar.</p> </td> 
+   <td> <p>Tillgång till att tilldela befintliga layoutmallar till andra användare på användarnivå. </p> <p>Användare som är utsedda som gruppadministratörer kan skapa layoutmallar för grupper och undergrupper som de hanterar.</p> </td> 
   </tr> 
   <tr> 
    <td>Gränssnitt: Uppdatera feeds</td> 
@@ -307,7 +302,7 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
    <td> <p>Ingen åtkomst för att konfigurera en anpassad integrering.</p> <p>Åtkomst till att länka dokument till och från tredjepartsleverantörer på fliken Dokument när tredjepartsleverantörerna har integrerats med Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td>System: Varumärke</td> 
+   <td>System: Varumärkning</td> 
    <td>Fullständig åtkomst</td> 
    <td>Ingen åtkomst</td> 
   </tr> 
@@ -327,7 +322,7 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
    <td>Ingen åtkomst</td> 
   </tr> 
   <tr> 
-   <td>System: Spark-Starts</td> 
+   <td>System: Quick-Starts</td> 
    <td>Fullständig åtkomst</td> 
    <td>Ingen åtkomst</td> 
   </tr> 
