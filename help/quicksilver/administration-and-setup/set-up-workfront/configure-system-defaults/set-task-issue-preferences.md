@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 1. På sidan som visas fortsätter du med ett av de fem avsnitten som listas nedan för att konfigurera inställningar för [!UICONTROL New Task Defaults], [!UICONTROL Issues], [!UICONTROL Deletion], [!UICONTROL Actual Dates]och [!UICONTROL Access]:
 
-* [[!UICONTROL New Task Defaults]](#new-task-defaults)
-* [[!UICONTROL Issues]](#issues)
-* [[!UICONTROL Deletion]](#deletion)
-* [[!UICONTROL Actual Dates]](#actual-dates)
-* [[!UICONTROL Delegation]](#delegation)
+   * [[!UICONTROL New Task Defaults]](#new-task-defaults)
+   * [[!UICONTROL Issues]](#issues)
+   * [[!UICONTROL Deletion]](#deletion)
+   * [[!UICONTROL Actual Dates]](#actual-dates)
+   * [[!UICONTROL Delegation]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Arbeta på den</a> </li>
+  —&gt;
 
 * [[!UICONTROL Access]](#access)
 
@@ -97,7 +97,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
     <td> <p>Beräknar planerade och faktiska kostnadsuppskattningar för en aktivitet. När inställt på <strong>[!UICONTROL No Cost]</strong>, planerade timmar och registrerade timmar inte genererar en planerad eller faktisk kostnadsuppskattning för uppgiften, och arbetet med uppgiften bidrar inte till projektnivåkostnaderna.</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Problem {#issues}
 
@@ -181,7 +181,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Delegering
 
@@ -192,7 +192,7 @@ När den här inställningen är aktiverad kan användarna se följande:
 * The [!UICONTROL Delegate] länk i sina [!UICONTROL Home] område. De kan delegera godkännanden eller uppgifter och utgivningstilldelningar härifrån.
 * En indikation på att en aktivitet eller ett problem har delegerats till en annan användare i [!UICONTROL Assignments and delegations] i huvud för aktiviteten eller utgåvan.
 
-Om du inaktiverar [!UICONTROL Allow users to delegate their tasks & issues] kommer delegeringarna som är schemalagda att stoppas och de delegerade användarna får ett e-postmeddelande om att delegeringen har stoppats.
+  Om du inaktiverar [!UICONTROL Allow users to delegate their tasks & issues] kommer delegeringarna som är schemalagda att stoppas och de delegerade användarna får ett e-postmeddelande om att delegeringen har stoppats.
 
 Mer information om hur du delegerar arbete till andra finns i följande artiklar:
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. Klicka på **[!UICONTROL Save]**.
 
