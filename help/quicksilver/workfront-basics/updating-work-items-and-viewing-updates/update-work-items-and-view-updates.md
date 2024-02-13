@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: Uppdatera arbetsuppgifter och visa uppdateringar
-description: Du kan använda uppdateringsavsnittet för de flesta objekt för att lägga till kommentarer, svar eller för att följa systemspårade uppdateringar om ändringar som görs på objektet.
+title: "Uppdatera arbetsposter och visa uppdateringar: artikelindex"
+description: Du kan använda uppdateringsavsnittet för de flesta objekt för att lägga till kommentarer och svar, eller för att följa systemspårade uppdateringar om ändringar som görs på objektet.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Uppdatera arbetsuppgifter och visa uppdateringar
+# Uppdatera arbetsposter och visa uppdateringar: artikelindex
 
-Du kan använda uppdateringsavsnittet för de flesta objekt för att lägga till kommentarer, svar eller för att följa systemspårade uppdateringar om ändringar som görs på objektet.
+<!-- Audited: 02/2024 -->
+
+Du kan använda uppdateringsavsnittet för de flesta objekt för att lägga till kommentarer och svar, eller för att följa systemspårade uppdateringar om ändringar som görs på objektet.
 
 Det här avsnittet innehåller följande artiklar:
 

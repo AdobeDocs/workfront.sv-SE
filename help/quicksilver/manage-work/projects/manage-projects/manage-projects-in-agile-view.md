@@ -6,9 +6,9 @@ description: Du kan använda smidiga funktioner i ditt projekt utan de administr
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,16 +77,16 @@ Det finns vissa skillnader mellan att använda rörliga vyer i ett projekt och a
 
 ### Skillnader när du använder Agile-vyn i ett projekt jämfört med en iteration {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [Uppgifter och underuppgifter följer olika visningsregler på artikelstyrelsen](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [Backloggar och iterationer används inte](#backlogs-and-iterations-are-not-used)
+* [Uppgifter och underaktiviteter följer olika visningsregler i en projektvy och på artikelpanelen för en iteration](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [Backloggar och iterationer används inte i Agile-vyn](#backlogs-and-iterations-are-not-used)
 * [Uppgiftsordningen bibehålls i vyn Agile och kan inte ordnas om](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [Aktiviteter mäts endast i planerade timmar](#tasks-are-measured-only-in-planned-hours)
-* [Agile Team används inte](#the-agile-team-is-not-used)
+* [Aktiviteter mäts endast i Planerade timmar i en projektlista](#tasks-are-measured-only-in-planned-hours)
+* [Agile Team används inte i en Agile-vy](#the-agile-team-is-not-used)
 * [Varje användare i projektet kan visa projektet i en annan Agile-vy](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### Uppgifter och underuppgifter följer olika visningsregler på artikelstyrelsen {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### Uppgifter och underaktiviteter följer olika visningsregler i en projektvy och på artikelpanelen för en iteration {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* Uppgifter som varken har en överordnad uppgift eller en underuppgift visas alltid som ett artikelkort på artikelpanelen.\
+* Uppgifter som varken har en överordnad uppgift eller en underuppgift visas alltid som ett artikelkort på artikelpanelen i vyn Agile.\
   Följande uppgifter visas till exempel i projektlistvyn:
 
   ![Flexibel projektlista - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ Det finns vissa skillnader mellan att använda rörliga vyer i ett projekt och a
 
   ![Projektflexibel vy - aktiviteter utan överordnade eller underordnade uppgifter](assets/agile-project-singlecard-nwe.png)
 
-* Överordnade aktiviteter som har underaktiviteter visas alltid i **Artiklar** artikelpanelens kolumn. Underaktiviteter visas i den överordnade uppgiftens simfält.\
+* Överordnade aktiviteter som har underaktiviteter visas alltid i **Artiklar** i artikelpanelen i Agile-vyn. Underaktiviteter visas i den överordnade uppgiftens simfält.\
   Följande uppgifter visas till exempel i projektlistvyn:
 
   ![Flexibel projektlista - aktiviteter med överordnade och underaktiviteter](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ Det finns vissa skillnader mellan att använda rörliga vyer i ett projekt och a
   ![Flexibel projektvy - aktiviteter med överordnade och underordnade uppgifter](assets/agile-project-parent-nwe.png)
 
 * Underuppgifter på andra nivån (underuppgifter till underaktiviteter) visas som ett hängande grått kort från den överordnade aktiviteten.
-* Underuppgifter på tredje nivån (underuppgifter till underuppgifter till underuppgifter) visas aldrig på artikelpanelen.
+* Underuppgifter på tredje nivån (underuppgifter till underaktiviteter för underaktiviteter) visas aldrig i Agilvyn.
 
-#### Backloggar och iterationer används inte {#backlogs-and-iterations-are-not-used}
+#### Backloggar och iterationer används inte i Agile-vyn {#backlogs-and-iterations-are-not-used}
 
 När du visar ett projekt i en flexibel vy används inte följande flexibla komponenter:
 
@@ -119,13 +119,13 @@ Den ordning i vilken uppgifter visas i ett projekt bevaras när du visar projekt
 
 Du kan inte ändra ordning på uppgifter i projektet när du visar projektet i en flexibel vy. Eftersom ändringar av uppgiftsordningen kan påverka andra uppgifter som kan ha beroenden måste du visa projektet i en standardvy för att kunna ändra uppgiftsordningen.
 
-#### Aktiviteter mäts endast i planerade timmar {#tasks-are-measured-only-in-planned-hours}
+#### Aktiviteter mäts endast i Planerade timmar i en projektlista {#tasks-are-measured-only-in-planned-hours}
 
 Uppgifter i ett projekt mäts alltid i Planerade timmar.
 
 I en iteration kan uppgifter (artiklar) mätas i timmar eller punkter.
 
-#### Agile Team används inte {#the-agile-team-is-not-used}
+#### Agile Team används inte i en Agile-vy {#the-agile-team-is-not-used}
 
 Eftersom rörliga team slutför arbetet med iterationer som de tilldelats, används inte rörliga team när de visar ett projekt i en flexibel vy.
 
@@ -137,7 +137,7 @@ Till skillnad från en smidig upprepning kan användare i ett projekt anpassa de
 
 I en smidig upprepning bestäms den information som finns tillgänglig på den flexibla artikelpanelen (t.ex. tillgängliga statuskolumner) på teamnivån.
 
-Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa en Agile-vy](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa en Agile-vy](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Visa ett projekt i Agile-vyn
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
@@ -331,4 +331,4 @@ Beräknade anpassade fält i ett objekt beräknas om automatiskt när följande 
 
   >[!NOTE]
   >
-  ><div>I ett anpassat formulär som bifogas till ett objekt beräknas och sparas datum- och tidssatser i beräknade anpassade fält enligt UTC (Coordinated Universal Time), inte enligt tidszonskonfigurationerna som angetts för organisationens instans och din användarprofil. Beräkningar i ett anpassat formulär genereras baserat på varje användares enskilda tidszoner.</div>
+  >I ett anpassat formulär som bifogas till ett objekt beräknas och sparas datum- och tidssatser i beräknade anpassade fält enligt UTC (Coordinated Universal Time), inte enligt tidszonskonfigurationerna som angetts för organisationens instans och din användarprofil. Beräkningar i ett anpassat formulär visas dock baserat på varje användares enskilda tidszon.

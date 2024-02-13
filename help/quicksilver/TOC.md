@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '13940'
+source-wordcount: '13942'
 ht-degree: 0%
 
 ---
@@ -874,7 +874,7 @@ ht-degree: 0%
          * [Visa hemkalendern](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Använda området Mina uppdateringar](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Uppdatera arbetsuppgifter och visa uppdateringar {#update-work-items-view-updates}
-      * [Uppdatera arbetsuppgifter och visa uppdateringar](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+      * [Uppdatera arbetsposter och visa uppdateringar: artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Översikt över uppdateringsavsnittet](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Uppdatera arbete](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Teckengränser i fält](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
