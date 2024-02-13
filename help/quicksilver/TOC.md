@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '13930'
+source-wordcount: '13940'
 ht-degree: 0%
 
 ---
@@ -585,6 +585,7 @@ ht-degree: 0%
                * [Designa ett formulär från en kopia med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
                * [Lägg till beräknade fält med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
                * [Lägg till visningslogik och hoppa över logik med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+               * [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
                * [Organisera och förhandsgranska ett formulär med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
             * Hantera ett formulär {#manage-a-form}
                * [Hantera ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '5075'
+source-wordcount: '5105'
 ht-degree: 0%
 
 ---
@@ -499,6 +499,8 @@ Så här lägger du till typsnittsdatumfält:
 ### Lägg till externa sökfält
 
 Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan. Det externa sökfältet är också tillgängligt i listor och rapporter.
+
+Exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API finns i [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
