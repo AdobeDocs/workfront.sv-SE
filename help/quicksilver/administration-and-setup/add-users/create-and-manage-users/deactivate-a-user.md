@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Som Workfront-administratör kan du inaktivera eller återaktivera en användare.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
 # Inaktivera eller återaktivera en användare
+
+<!--Audited 2/2024-->
 
 <!--
 
@@ -29,7 +31,7 @@ ht-degree: 0%
 
 -->
 
-Dina användare kan lämna organisationen och du kan behöva ta bort dem från Adobe Workfront. De bör inte vara aktiva i systemet eftersom detta skulle skapa förvirring för andra användare när de lägger till dem i uppdateringar eller tilldelar dem arbete. När du inaktiverar en användare ser andra användare inte längre sitt namn när de söker efter personer i systemet.
+Om en användare lämnar organisationen kan du behöva ta bort dem från Adobe Workfront. De bör inte vara aktiva i systemet eftersom detta skulle skapa förvirring för andra användare när de lägger till dem i uppdateringar eller tilldelar dem arbete. När du inaktiverar en användare ser andra användare inte längre sitt namn när de söker efter personer i systemet.
 
 Administratörer kan se inaktiva användare under Konfigurera.
 
@@ -39,7 +41,7 @@ Du kan återaktivera en användare när som helst.
 >
 >Vi rekommenderar att du inaktiverar användare som har lämnat organisationen i stället för att ta bort dem. Om en användare tas bort går all historik i Workfront som är kopplad till den användaren förlorad. Detta inkluderar deras arbetsuppgifter, deras koppling till anteckningar, timmar, dokument och alla andra objekt som de en gång har skapat.
 >
->När du inaktiverar en användare i Workfront tas användarens licenser bort både för Workfront och för digitalt korrektur. Dessutom kan användaren inte längre tilldelas arbete. När en användare inaktiveras blir användarens Workfront-licens och språklicens tillgängliga och kan användas av en annan användare. All annan information i den inaktiverade användarens profil behålls som den är.
+>När du inaktiverar en användare i Workfront tas användarens licenser bort både för Workfront och för digitalt korrektur. Dessutom kan användaren inte längre tilldelas arbete. När en användare inaktiveras blir användarens Workfront-licens och språklicens tillgängliga och kan användas av en annan användare. All annan information i den inaktiverade användarens profil ändras inte.
 >
 >Mer information om hur borttagning och inaktivering av användare påverkar finns i [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -57,7 +59,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Plan </p>   </td> 
+   <td>  <p>Nytt: Standard </p> <p>eller </p><p>Aktuell: Planera </p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -70,23 +72,29 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
+## Förutsättningar
+
+Innan du inaktiverar en Workfront-administratör, Standard eller Plan-licens måste du koppla deras objekt och aktiviteter till en annan användare.
+
+Mer information finns i [Inaktivera Workfront-administratörer och avtalslicensanvändare](#about-deactivating-workfront-administrators-and-plan-license-users) i den här artikeln.
+
 ## Inaktivera en användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 
-1. Markera en användare och klicka på ikonen Mer ![](assets/more-icon.png)och sedan klicka **Inaktivera**.
+1. Välj en användare och klicka på **Mer** icon ![](assets/more-icon.png)och sedan klicka **Inaktivera**.
 
 1. Klicka **Inaktivera** i rutan som visas.
 
 ## Schemalägg användare för inaktivering
 
-Som chef kan du markera användare för inaktivering innan de faktiskt lämnar organisationen. Om du till exempel arbetar med en användare som är bunden enligt avtal finns de i ditt system under en begränsad tidsperiod och du vet när de upphör. Du kan schemalägga att de ska inaktiveras det datumet.
+Som chef kanske du vill markera användare för inaktivering innan de faktiskt lämnar organisationen. Om du till exempel arbetar med en användare som är bunden enligt avtal finns de i ditt system under en begränsad tidsperiod och du vet när de upphör. Du kan schemalägga att de ska inaktiveras det datumet.
 
 Workfront-administratörer och användare av Planera licenser kan se avaktiveringsdatumet i sin användarprofil.
 
 Så här schemalägger du en användare för inaktivering:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 
 1. Välj användarens namn.
 
@@ -107,17 +115,17 @@ Så här schemalägger du en användare för inaktivering:
 
 1. Klicka **Spara ändringar**.
 
-   Användaren inaktiveras den valda dagen ibland efter den valda tiden. Om du har valt att inaktivera flera användare samtidigt inaktiveras alla markerade användare den valda dagen ibland efter den valda tiden.
+   Användaren inaktiveras den valda dagen någon gång efter den valda tiden. Om du har valt att inaktivera flera användare samtidigt inaktiveras alla markerade användare den valda dagen någon gång efter den valda tiden.
 
-Vi rekommenderar att du skapar en rapport för användare som du har schemalagt för inaktivering, så att du håller dig informerad om vilka användare som kommer att inaktiveras. Det finns ingen bekräftelse på att inaktiveringen skedde när användarna inaktiverades.
+Vi rekommenderar att du skapar en rapport för användare som du har schemalagt för inaktivering, så att du håller dig informerad om vilka användare som kommer att inaktiveras. Det finns ingen bekräftelse på att inaktiveringen skedde efter att användarna inaktiverades.
 
 ## Återaktivera en användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 
 1. Markera en användare och klicka på ikonen Mer ![](assets/more-icon.png)och sedan klicka **Aktivera**.
 
-1. Tilldela en ny **Åtkomstnivå** i listrutan.
+1. Tilldela en ny **Åtkomstnivå** i listrutan och klicka sedan på **Återaktivera**.
 
 ### Korrekturera påverkan när du återaktiverar en användare
 
@@ -126,7 +134,7 @@ Inaktiverade användare förlorar sin tilldelade standardkorrekturroll och sin k
 * Tilldela om licensen (om du har en äldre Workfront Premium-plan). Mer information om Workfront korrekturplaner finns i [Tillgång till korrekturfunktioner i Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 * Kontrollera att de har rätt korrekturroll. Återaktiverade korrekturanvändare tilldelas det som har angetts som standardkorrekturroll för nya användare. Se [Konfigurera standardspråkroller](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) för mer information.
 
-## Inaktivera Workfront-administratörer och avtalslicensanvändare
+## Inaktivera Workfront-administratörer och Standard- eller Plan-licensanvändare
 
 Innan du inaktiverar en Workfront-administratör eller en användare med en Planera-licens är det viktigt att kontrollera om det finns Workfront-objekt och -aktiviteter som berör den personen och sedan associera dem med en annan Workfront-administratör eller planera licensanvändare efter behov.
 

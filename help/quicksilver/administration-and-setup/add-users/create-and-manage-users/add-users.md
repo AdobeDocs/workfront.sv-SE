@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Lägg till användare
 description: Som Workfront-administratör eller en användare med fullständig administrativ åtkomst kan du lägga till användare i Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
 
 # Lägg till användare
+
+<!--Audited 2/2024-->
 
 >[!IMPORTANT]
 >
@@ -50,7 +52,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td><p>Nytt: Standard</p><p>eller</p><p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -62,6 +64,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
  </tbody> 
 </table>
+
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -89,7 +93,7 @@ Innan du lägger till en användare ska du samla in informationen om användaren
 
 ## Skapa en helt ny användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 
 1. Klicka **Ny användare > Ny användare** för att lägga till en användare som ännu inte har lagts till i Workfront.
 
@@ -110,21 +114,17 @@ Innan du lägger till en användare ska du samla in informationen om användaren
 
    >[!NOTE]
    >
-   >Om Workfront-administratören har aktiverat en SSO-integrering med Workfront är alternativet Tillåt endast &lt;sso configuration=&quot;&quot;> Autentiseringsfältet är dolt om du inaktiverar e-postinbjudan. Federations-ID eller &lt;sso configuration=&quot;&quot;> Fältet Användarnamn förblir synligt.
-
-   >[!NOTE]
+   >* Om Workfront-administratören har aktiverat en SSO-integrering med Workfront är alternativet Tillåt endast &lt;sso configuration=&quot;&quot;> Autentiseringsfältet är dolt om du inaktiverar e-postinbjudan. Federations-ID eller &lt;sso configuration=&quot;&quot;> Fältet Användarnamn förblir synligt.
    >
-   Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
-   >
-   Nya användare i Adobe läggs till i Admin Console, och Admin Console skickar ett e-postmeddelande som bjuder in dem att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-system.
+   * Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
    >
    För användare som redan har Adobe kan användaren få ett e-postmeddelande om att Workfront är tillgängligt eller inte. Detta är en inställning som styrs av Adobe-administratören för produkten.
 
-1. Klicka **Lägg till den här användaren**.
+1. Klicka **Lägg till den här personen**.
 
    eller
 
-   Klicka **Lägg till person användare och starta en annan** för att spara den nya användaren och lägga till en till.
+   Klicka **Lägg till person och starta en annan** för att spara den nya användaren och lägga till en till.
 
    >[!NOTE]
    >
@@ -145,17 +145,17 @@ När du skapar en användare på det här sättet kopieras all information från
 
 Så här skapar du en ny användare genom att kopiera en befintlig:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 1. Markera den användare som du vill kopiera och klicka sedan på ikonen Kopiera ![](assets/copy-icon.png).
-1. I **Ny användare** som visas redigerar du fälten som är tillgängliga för den nya användaren.
+1. I **Kopiera användare** som visas redigerar du fälten som är tillgängliga för den nya användaren.
 
    Information om alla fält som är associerade med en användare finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Klicka **Lägg till den här användaren**.
+1. Klicka **Lägg till den här personen**.
 
    eller
 
-   Klicka **Lägg till person användare och starta en annan** för att spara den nya användaren och lägga till en till.
+   Klicka **Lägg till person och starta en annan** för att spara den nya användaren och lägga till en till.
 
 Detta skapar ett nytt konto i Workfront för användaren.
 
@@ -164,7 +164,5 @@ Om du har valt att skicka en inbjudan till användaren bör användaren få ett 
 >[!NOTE]
 >
 Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
->
-Nya användare i Adobe läggs till i Admin Console, och Admin Console skickar ett e-postmeddelande som bjuder in dem att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-system.
 >
 För användare som redan har Adobe kan användaren få ett e-postmeddelande om att Workfront är tillgängligt eller inte. Detta är en inställning som styrs av Adobe-administratören för produkten.
