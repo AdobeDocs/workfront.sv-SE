@@ -6,14 +6,16 @@ description: Du kan använda smidiga funktioner i ditt projekt utan de administr
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Hantera ett projekt i flexibel vy
+
+<!-- Audited: 2/2024 -->
 
 Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet eller skapa iterationer).
 
@@ -32,7 +34,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Aktuell: Granska eller senare</p> 
    <p>Nytt: Medarbetare eller högre</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förstå Agile-projekt
 
@@ -162,7 +164,7 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 
    Den anpassade flexibla vyn används nästa gång du klickar på **Agile** -ikon.
 
-   Mer information om hur du skapar en ny flexibel vy finns i [Skapa och anpassa Agile-vyer](#create-and-customize-agile-views).
+   Mer information om hur du skapar en ny flexibel vy finns i [Skapa och anpassa Agile-vyer](#create-and-customize-agile-views), nedan.
 
    Projektet visas i en anpassad, flexibel vy.
 
@@ -170,7 +172,7 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 
    Om aktiviteterna har en status som inte visas på den mobila artikelpanelen visas inte själva uppgiften på den mobila artikelpanelen (procentandelen slutfört av dessa uppgifter bidrar dock fortfarande till procentandelen slutfört för överordnade uppgifter och procentandelen slutfört för det övergripande projektet).
 
-   Om du vill lägga till statusvärden i den flexibla vyn skapar du en ny flexibel vy eller anpassar en befintlig flexibel vy enligt beskrivningen i avsnittet&quot;Skapa eller anpassa en flexibel vy&quot; i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Om du vill lägga till statusar i den flexibla vyn skapar du en ny flexibel vy eller anpassar en befintlig flexibel vy enligt beskrivningen i [Skapa och anpassa Agile-vyer](#create-and-customize-agile-views), nedan.
 
 1. (Valfritt) Om du vill återgå till listvyn klickar du på **Lista** -ikon.
 
@@ -180,7 +182,7 @@ Mer information om hur du anpassar en flexibel vy finns i [Skapa eller anpassa e
 >
 >Det här avsnittet gäller endast för den äldre Agile-vyn, inte för styrelsevyn för ett projekt.
 
-Precis som med standardvyer i Workfront kan du anpassa befintliga flexibla vyer eller skapa nya flexibla vyer från grunden. Till skillnad från standardvyer kan du inte skapa nya flexibla vyer som baseras på befintliga flexibla vyer.
+Precis som med standardvyer i Workfront kan du anpassa befintliga, flexibla vyer eller skapa nya, smidiga vyer från scratch. Till skillnad från standardvyer kan du inte skapa nya flexibla vyer som baseras på befintliga flexibla vyer.
 
 Mer information om hur du skapar och anpassar flexibla vyer finns i [Skapa eller anpassa en Agile-vy](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) i artikeln [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
