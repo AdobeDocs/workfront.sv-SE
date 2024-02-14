@@ -7,9 +7,9 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Uppdragsfältet för ett objekt som visas i hemområdet i uppdragsområdet när du öppnar en uppgift eller ett ärende
+* <span class="preview">Fältet Uppdrag i rutan Ny uppgift när du lägger till en uppgift i ett projekt</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* Uppdragsfältet för ett objekt som visas i hemområdet när du öppnar en uppgift eller ett ärende
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ Om det första steget i smarta uppdrag inte hittar några träffar, beräknar Wo
 
 Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter och ärenden](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
 
-Uppdrag som identifieras i den här fasen listas i **Resultat** i uppdragsfältet. <!--update this to "Other assignments"-->
+Uppdrag som identifieras i den här fasen listas i **Andra uppdrag** i uppdragsfältet för uppgifter. <!--update this to "Other assignments"-->
 
 ### Kriterier för smarta uppdrag för uppgifter och ärenden
 
