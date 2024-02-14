@@ -70,7 +70,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Arbeta på den</a> </li>
-  —&gt;
+  -->
 
 * [[!UICONTROL Access]](#access)
 
