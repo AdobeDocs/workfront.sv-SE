@@ -4,9 +4,9 @@ description: Förbättringar av projekt för första kvartalet 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Produktion för snabb lansering: Med version 24.2 (februari 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 21 december 2023; Produktion för snabb release: Med version 24.3 (mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
 
 Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.
 

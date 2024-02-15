@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -357,7 +357,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                                 <p>Obs! Den här funktionen kommer att finnas kvar i förhandsgranskningen till version 24.4.</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.2 (februari 2024)</p>
+                                <p>Production for fast release: Med version 24.3 (mars 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för alla kunder: Med version 24.4 (april 2024)</p>

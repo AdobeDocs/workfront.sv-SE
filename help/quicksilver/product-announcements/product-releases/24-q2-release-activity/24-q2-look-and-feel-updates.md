@@ -4,9 +4,9 @@ description: Uppdateringar som både ser ut och känns under andra kvartersutgå
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den andra utgåvan, kvartal 2024.
 
 En lista över alla ändringar som är tillgängliga i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Håll utkik efter uppdateringar med två e-postmallar
+
+>[!NOTE]
+>
+>Versionsinformation för alla kunder: Med version 24.2 (15 februari 2024)
+
+E-postmallarna för att lägga till en godkännare till en resurs och för att lägga till en användare i en styrelse har uppdaterats för att bättre matcha andra e-postmallar från Adobe och för att förbättra tydligheten och användbarheten.
 
 ## Nya funktioner för flikar i Custom Forms
 

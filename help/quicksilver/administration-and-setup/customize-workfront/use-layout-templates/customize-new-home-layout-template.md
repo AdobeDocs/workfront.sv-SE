@@ -7,9 +7,9 @@ description: Du kan använda en layoutmall för att konfigurera vad användarna 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,11 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
         <li>Mina uppgifter</li>
         <li>Mina problem</li>
       </ul>
-      <p>När du har valt den widget du vill redigera visas tillgängliga alternativ till höger. För närvarande är dessa alternativ <b>Filter</b> och <b>Grupper</b>. Du kan:</p>
+      <p>När du har valt den widget du vill redigera visas tillgängliga alternativ till höger. Dessa alternativ innehåller <b>Filter</b>, <b>Kolumner</b>och <b>Grupper</b>. Du kan:</p>
       <ul>
-        <li><b>Välj vilka filter eller grupper som ska vara tillgängliga för användarna:</b><p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare.</li></p>
+        <li><b>Välj vilka filter, kolumner eller grupper som ska vara tillgängliga för användarna:</b><p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare.</li></p>
         <li><b>Ange ett standardfilter eller en standardgrupp för widgeten:</b><p>Håll muspekaren över ett alternativ så visas en knapp som gör att du kan ange det alternativet som standard för användarna. Den aktuella standardinställningen kommer att ha ett blått standardmärke till höger.</li></p>
-        <li><b>Lägg till ett befintligt filter eller en befintlig grupp i listan med tillgängliga alternativ:</b><p>Klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i den listan. Observera att endast befintliga filter eller grupper kan läggas till på det här sättet.</li></p>
+        <li><b>Lägg till ett befintligt filter, en befintlig kolumn eller en grupp i listan med tillgängliga alternativ:</b><p>Klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i den listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</li></p>
       </ul>
       </td> 
      </tr>

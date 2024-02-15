@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,43 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
             </tbody>
         </table>
 
+### Hemförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ som lagts till i administratörskontroller för nytt hem med layoutmallar</a></p><p>Administratörer kan nu anpassa vilka kolumner som är tillgängliga för användare i specifika nya Home-widgetar med hjälp av layoutmallar. Alternativen är att dölja eller visa standardkolumner och lägga till befintliga fält som nya kolumner.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 2 januari 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### Projektförbättringar
 
 <table>
@@ -89,6 +126,24 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Uppdrag i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 13 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.3 (mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p><p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -97,7 +152,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                                 <p>Förhandsversion: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
+                                <p>Production for fast release: Med version 24.3 (mars 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>

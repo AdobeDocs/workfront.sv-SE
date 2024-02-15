@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 - projektförbättringar
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,26 @@ Den här sidan beskriver alla projektförbättringar som gjorts i andra utgåvan
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+
+## Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift
+
+>[!NOTE]
+>
+>Förhandsversion: 13 februari 2024; Produktion för snabb release: Med version 24.3 (mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+
+Vi har lagt till samma funktionalitet för mer relevanta smarta tilldelningar i uppdragsfältet i följande områden:
+
+* Rutan Ny uppgift när du lägger till en uppgift i ett projekt
+
+* I en projektuppgiftslista
+
+Mer information finns i [Översikt över smarta uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Mer relevanta smarta tilldelningar
 
 >[!NOTE]
 >
->Produktion för snabb lansering: Med version 24.2 (februari 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 21 december 2023; Produktion för snabb release: Med version 24.3 (mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
 
 Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.
 
