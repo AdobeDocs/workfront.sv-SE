@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '5105'
+source-wordcount: '5171'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,7 @@ Lägga till ett textfält:
     <ul> 
     <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.</li> 
     <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li>
+    <li>Teckengränsen för nummerfält är 16. Du kan också använda ett textfält för att ange tal och undvika gränsen.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Enkelradig text</li>
@@ -317,6 +318,7 @@ Så här lägger du till alternativknappar och kryssrutor:
      <ul> 
     <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.<br></li> 
     <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li>
+    <li>Teckengränsen för nummerfält är 16. Du kan också använda ett textfält för att ange tal och undvika gränsen.</li>
      </ul></p></td> 
      <td><ul>
     <li>Alternativknappar</li>
@@ -537,7 +539,9 @@ Så här lägger du till en extern sökning:
       <td><p>Välj den typ av data som ska hämtas i det anpassade fältet.</p>
       <p><strong>OBS!</strong></p>
       <ul><li>Du kan ändra formattyp när formuläret har sparats, med en begränsning: Alla befintliga värden på objekt måste kunna konverteras till den nya typen. (Om formattypen till exempel är Text och ett objekt lagrar värdet "abc", kan du inte konvertera fältet och får ett felmeddelande om att systemet inte kan konvertera "abc" till tal/valuta.) Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.</li>
-      <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li></ul></td>
+      <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li>
+      <li>Teckengränsen för nummerfält är 16. Du kan också använda ett textfält för att ange tal och undvika gränsen.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Bas-API-URL</td> 

@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget
 description: När du arbetar med ett anpassat formulär kan du skapa ett nytt anpassat fält och lägga till det i ett anpassat formulär. Du kan också lägga till ett anpassat fält som redan har lagts till i ett annat anpassat formulär.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 0%
 
 ---
@@ -164,6 +164,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    <p><strong>Exempel:</strong> Om du sparar ett numeriskt värde för ett fält med textformat för minst ett objekt och senare ändrar formatet till Nummer eller Valuta, kommer du inte att stöta på något fel. </p>
       <p>Om du sparar ett alfanumeriskt värde i ett fält med textformat för minst ett objekt och sedan försöker ändra formatet till Nummer eller Valuta, kommer du att stöta på ett fel eftersom det sparade alfanumeriska värdet inte är kompatibelt med formatet Nummer eller Valuta. </p>
+
+   <p><strong>Obs!</strong> Teckengränsen för nummerfält är 16. Du kan också använda ett textfält för att ange tal och undvika gränsen.</p>
 
    </td> 
      </tr> 

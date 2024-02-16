@@ -9,7 +9,7 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Du kan skapa en anslutning till [!DNL Workfront Proof] direkt inifrån ett [!DNL
                 <td>Ange lösenordet för [!DNL Workfront Proof] konto.</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Tenant name]</td>
+                <td  role="rowheader">[!UICONTROL Tenant ID]</td>
                 <td><strong>Anteckning</strong>: Kunder som inte använder BYOK måste lämna det här fältet tomt. <p>Ange klientorganisations-ID för det här kontot. Kontakta Workfront kundsupport om du behöver hjälp med att hitta ditt klient-ID.</p></td>
             </tr>
             <tr>
