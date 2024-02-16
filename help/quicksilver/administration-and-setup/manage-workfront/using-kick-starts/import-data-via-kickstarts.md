@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>:</p> 
-   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td>Du måste vara Workfront-administratör. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Begränsningar
 
@@ -200,27 +201,9 @@ Så här exporterar du en snabbstartsmall:
      </tr>
 
    <tr> 
-      <td>Äldre resurspool</td> 
-      <td>Exporterar som Excel-fil</td> 
-      <td> <p> Äldre resurspool</p> <p>Inställningar </p> </td> 
-     </tr>
-
-   <tr> 
       <td>Sökväg för milstolpe</td> 
       <td> Exporterar som Excel-fil</td> 
       <td> <p> Milstolpe</p> <p>Sökväg för milstolpe</p> <p>Inställningar </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>Icke-arbetsrelaterad resurs</td> 
-      <td> Exporterar som Excel-fil</td> 
-      <td> <p> Icke-arbetsrelaterad resurs</p> <p>Inställningar</p></td> 
-     </tr>
-
-   <tr> 
-      <td>Resurskategori utanför arbetsplats</td> 
-      <td> Exporterar som Excel-fil</td> 
-      <td> <p> Resurskategori utanför arbetsplats</p> <p>Inställningar</p></td> 
      </tr>
 
    <tr> 
@@ -471,7 +454,7 @@ Du kan använda följande jokertecken när du fyller i kalkylbladet för snabbst
 
 ## Importera kalkylbladsdata till Workfront
 
-När du har fyllt i Excel-mallen med dina data kan du överföra informationen till Workfront.
+När du har fyllt i Excel-mallen med dina data kan du överföra dess data till Workfront.
 
 Quick-Start-importen stöder följande filtyper:
 
@@ -485,17 +468,17 @@ Quick-Start-importen stöder följande filtyper:
   >* Rapporter
   >* Dokument
   >* Avatarer
-  >* Visa, filtrera eller gruppera egenskapsfiler.
+  >* Visa, filtrera eller gruppera egenskapsfiler
   >
   >När du använder en ZIP-importfil måste ZIP-filen ha samma namn som .xlsx- eller .xls-filen och alla filer måste ha samma strukturnivå (inga mappar).
 
 Så här importerar du mallkalkylbladsdata till Workfront:
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Klicka **System** >**Importera data (Quick-Starts)**.
+{{step-1-to-setup}}
+
+1. Klicka **System** > **Importera data (Quick-Starts)**.
 
 1. I **Ladda upp data med QuickStart-kalkylblad** avsnitt, klicka **Välj fil** bläddra sedan till och markera det ifyllda kalkylbladet.
 
