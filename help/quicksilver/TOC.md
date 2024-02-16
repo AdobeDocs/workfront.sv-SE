@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 0%
@@ -678,7 +678,7 @@ ht-degree: 0%
          * [Hantera API-nycklar](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [Integritetspolicy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [Översikt över utökad autentisering](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [Uppdatera SAML 2.0-metadata i din IDP med förbättrad autentisering](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+         * [Uppdatera SAML 2.0-metadata i din IDP med förbättrad autentisering](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * Växelkurser {#exchange-rates}
          * [Växelkurser](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [Ställ in valutakurser](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1049,7 +1049,7 @@ ht-degree: 0%
          * [Statusöversikt för Iteration-slutförande](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [Ändra storlek på och komprimera nedtoningsdiagrammet](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [Synkronisera data i nedladdningsbart diagram](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-         * [Använd ett alternativt teamschema för nedladdningsscheman](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+         * [Använd ett alternativt teamschema för nedladdningsscheman](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
       * Iterationer {#iterations}
          * [Iterationer](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Översikt över iterationer](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
@@ -1081,7 +1081,7 @@ ht-degree: 0%
 * Dokument {#documents}
    * [Dokument: artikelindex](documents/documents-overview.md)
    * Lägg till nya dokument i Adobe Workfront {#add-new-documents-to-workfront}
-      * [Lägg till nya dokument i Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+      * [Lägg till nya dokument i Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [Lägga till dokument i Adobe Workfront från filsystemet](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [Länka dokument från externa program](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [Ta bort länkar mellan Adobe Workfront och externa dokumentlagringsleverantörer](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
@@ -1113,7 +1113,7 @@ ht-degree: 0%
       * [Aktivera Adobe Workfront DAM](documents/workfront-dam-within-workfront/enable-wf-dam.md)
       * [Hantera dokument med Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
       * [Adobe Workfront rolltyper för licensiering kontra rolltyper för Adobe Workfront DAM](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Hjälp om Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+      * [Hjälp om Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront- och Experience Manager Assets-integreringar {#wf-aem-integrations}
       * [Workfront- och Experience Manager Assets-integreringar](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront för Experience Manager förbättrad anslutning {#wf-aem-enhanced-connector}
@@ -1815,11 +1815,11 @@ ht-degree: 0%
          * [Översikt över korrektur och status](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer - översikt](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Skapa korrektur {#create-proofs}
-         * [Skapa korrektur](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+         * [Skapa korrektur](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Konfigurera standardinställningar för personligt korrektur](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Skapa ett korrektur för flera sidor](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Skapa ett interaktivt korrektur för en webbplats eller annat webbinnehåll](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-         * [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+         * [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
          * [Skapa ett statiskt korrektur för en webbplats eller annat webbinnehåll](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
          * [Skapa ett korrektur för ett dokument](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2091,7 +2091,7 @@ ht-degree: 0%
       * [Anslut Adobe Workfront Fusion till en webbtjänst som använder API-tokenauktorisering](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
       * [Koppla Adobe Workfront Fusion till Google Services med uppdaterade säkerhetsfunktioner](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
       * [Anslut Adobe Workfront Fusion till Google Services med en anpassad OAuth-klient](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-      * [Anropa MS Graph REST API via Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+      * [Anropa MS Graph REST API via Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
       * [Tangenter i Adobe Workfront Fusion](workfront-fusion/connections/keys.md)
       * [Ta emot en webkrok från en webbtjänst](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
    * Fel i Adobe Workfront Fusion {#errors-in-fusion}

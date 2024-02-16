@@ -9,7 +9,7 @@ description: En anslutning måste uppfylla de krav som anges i API:t för det pr
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -49,13 +49,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td>
 
 </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -71,9 +71,9 @@ I de flesta fall kan du använda modulen för att skapa en anslutning med liten 
 
 Instruktioner om hur du skapar en anslutning utan speciella överväganden finns i [Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md).
 
-## Anslut till en [!DNL Microsoft] app eller webbtjänst
+## Ansluta till en [!DNL Microsoft] app eller webbtjänst
 
-De flesta av [!DNL Microsoft] appar i [!DNL Workfront Fusion] gör att du kan skapa en anslutning utan extra information.
+De flesta av [!DNL Microsoft] appar i [!DNL Workfront Fusion] kan du skapa en anslutning utan extra information.
 
 Följande omständigheter kräver extra steg när du skapar en anslutning:
 
@@ -83,11 +83,11 @@ Följande omständigheter kräver extra steg när du skapar en anslutning:
 
 * Ansluter till [!DNL Microsoft Graph API] med [!UICONTROL HTTP] modul
 
-  Instruktioner finns i [Ring [!DNL MS Graph REST API] via [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  Instruktioner finns i [Ring [!DNL MS Graph REST API] via [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
-## Anslut till en [!DNL Google] app eller webbtjänst
+## Ansluta till en [!DNL Google] app eller webbtjänst
 
-Processen för att ansluta till [!DNL Google] appar kan variera beroende på vilken typ av [!DNL Google] konto som du använder. Dessutom [!DNL Google] säkerhetsåtgärder kan kräva extra konfiguration när du ansluter till [!DNL Workfront Fusion].
+Anslutningsprocessen till [!DNL Google] appar kan variera beroende på vilken typ av [!DNL Google] konto som du använder. Dessutom [!DNL Google] säkerhetsåtgärder kan kräva extra konfiguration när du ansluter till [!DNL Workfront Fusion].
 
 Mer information finns i:
 

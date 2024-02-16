@@ -6,7 +6,7 @@ description: Du kan använda Workfront Extension för att exportera digitalt inn
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ Så här begär du ett godkännande av ett dokument från ett Adobe-program:
 
 ## Generera ett korrektur från Illustrator eller InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
-Om ni använder automatiserade arbetsflödesmallar kan ni generera ett korrektur för ett dokument som ni skapar i ett Adobe-program utan att lämna programmet. Mer information om hur du skapar korrektur finns i [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). Mer information om automatiserade arbetsflödesmallar finns i [Automatiserade arbetsflödesmallar](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Översikt över automatiserat arbetsflöde](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Om ni använder automatiserade arbetsflödesmallar kan ni generera ett korrektur för ett dokument som ni skapar i ett Adobe-program utan att lämna programmet. Mer information om hur du skapar korrektur finns i [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Mer information om automatiserade arbetsflödesmallar finns i [Automatiserade arbetsflödesmallar](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Översikt över automatiserat arbetsflöde](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Öppna ett av Adobe-programmen som stöds.
 1. Om Workfront-tillägget inte visas klickar du på **Fönster** > **Tillägg** > Workfront.

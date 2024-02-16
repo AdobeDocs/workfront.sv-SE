@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Det finns för närvarande tre alternativa stavningsplaner för korrektur i Work
 
 Information om hur du beviljar och återkallar en användares åtkomst till att skapa och visa korrektur i Workfront finns i [Konfigurera en användares språkkontroll](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* Generera statiska eller interaktiva korrektur på externa URL:er och dokument. Mer information finns i [Skapa korrektur](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* Generera statiska eller interaktiva korrektur på externa URL:er och dokument. Mer information finns i [Skapa korrektur](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Lägg in automatiserade arbetsflöden i korrektur. Mer information finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * Ange åtkomst- och prenumerationsinställningar för korrektur. Mer information finns i [Konfigurera åtkomst- och prenumerationsinställningar för ett bevis](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * Tilldela anpassade korrekturbehörighetsprofiler när du aktiverar språkfunktioner för en användare i Workfront. Mer information finns i [Aktivera och inaktivera korrektur för en användare (endast äldre planer)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [Konfigurera en användares språkkontroll](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

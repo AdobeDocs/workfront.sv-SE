@@ -8,9 +8,9 @@ description: Ett korrektur är en statisk fil, ljudfil eller videofil som är ti
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
@@ -31,17 +31,17 @@ Ett korrektur är en statisk fil, ljudfil eller videofil som är tillgänglig f�
 
 ### Svar
 
-Du kan skapa korrektur från statiska filer, ljud- och videofiler. Du kan inte överföra filer som är större än 4 GB. [!DNL Workfront] har stöd för över 150 filtyper (se [Översikt över filtyper och storleksbegränsningar som stöds](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) för en fullständig lista).
+Du kan skapa korrektur från statiska filer, ljud- och videofiler. Du kan inte överföra filer som är större än 4 GB. [!DNL Workfront] har stöd för över 150 filtyper (se [Översikt över filtyper och storleksbegränsningar som stöds för korrektur](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) för en fullständig lista).
 
 ## Vad är skillnaden mellan ett korrektur och en fil?
 
 ### Svar
 
-När du överför en fil till [!DNL Workfront Proof]lagras filen i [!DNL Workfront Proof] konto. När du delar det [!DNL Workfront Proof] skickar ett e-postmeddelande till mottagarna med en länk som de kan klicka på för att hämta filen. Du kan dela vilken filtyp du vill.
+När du överför en fil till [!DNL Workfront Proof]lagrar systemet filen i [!DNL Workfront Proof] konto. När du delar det [!DNL Workfront Proof] skickar ett e-postmeddelande till mottagarna med en länk som de kan klicka på för att hämta filen. Du kan dela vilken filtyp du vill.
 
 När du skapar ett korrektur av en fil som du har överfört till [!DNL Workfront Proof]kan du göra filen tillgänglig för granskning i korrekturläsaren. Granskarna får ett mejl med en länk till korrekturet. När de öppnar korrekturet ser de korrekturbilden och kan lägga till kommentarer och fatta beslut i den. Du kan skapa korrektur med hjälp av filer i listan över filtyper som stöds. Du kan också skapa korrektur med URL:er för webbplatser och annat webbinnehåll.
 
-En fullständig lista över filtyper som stöds finns på [Översikt över filtyper och storleksbegränsningar som stöds](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+En fullständig lista över filtyper som stöds finns på [Översikt över filtyper och storleksbegränsningar som stöds för korrektur](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
 
 ## Hur skapar jag ett bevis?
 
@@ -73,7 +73,7 @@ Att kombinera flera filer till ett enda korrektur är en funktion på [!UICONTRO
 
 Ja, du kan skapa korrektur av webbplatser och annat webbinnehåll. När du lägger till en URL för att skapa ett korrektur kan du ange om du vill ha ett statiskt korrektur eller ett interaktivt korrektur:
 
-* I ett interaktivt korrektur kan granskarna navigera och interagera som vanligt med webbplatsen eller annat webbinnehåll som annonser med direktuppspelad video eller ljud, [!DNL Flash] i en annons, animeringar i HTML och interaktiva banners. Mer information finns i [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+* I ett interaktivt korrektur kan granskarna navigera och interagera som vanligt med webbplatsen eller annat webbinnehåll som annonser med direktuppspelad video eller ljud, [!DNL Flash] i en annons, animeringar i HTML och interaktiva banners. Mer information finns i [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 * För ett statiskt korrektur [!DNL Workfront] tar en skärmbild av de sidor och undersidor som du anger. Hyperlänkar finns direkt i korrekturet, så du kan testa om de leder till rätt mål eller inte. Mer information finns i [Skapa ett statiskt korrektur för en webbplats eller annat webbinnehåll](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
 
 Du kan lägga till flera URL-adresser samtidigt om du separerar dem med ett mellanslag. Observera att kombinationen bara är tillgänglig på [!UICONTROL Enterprise] och [!UICONTROL Unlimited] versionsplaner.
@@ -115,13 +115,13 @@ Det går att begränsa delning av korrektur till personer med [!DNL Workfront Pr
 
 Mer information om inloggning finns i [Dokumentskydd i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
 
-Om du har din organisation kräver att granskarna signerar korrektur elektroniskt, vilket kräver inloggning [!DNL Workfront Proof]kan användare bara dela korrektur med registrerade användare. Detta är tillgängligt den [!UICONTROL Enterprise] och [!UICONTROL Unlimited] versionsplaner. Mer information finns i [Elektroniska signaturer i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
+Om du har din organisation kräver att granskarna signerar korrektur elektroniskt, vilket kräver inloggning [!DNL Workfront Proof]kan användare bara dela korrektur med registrerade användare. Det här är tillgängligt på [!UICONTROL Enterprise] och [!UICONTROL Unlimited] versionsplaner. Mer information finns i [Elektroniska signaturer i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
 
 ## Kan jag sätta en deadline för mina granskare?
 
 ### Svar
 
-Du kan ange en deadline för ett nytt korrektur eller en ny korrekturversion när du skapar korrekturet. Gör det här i [!UICONTROL Workflow] i [!UICONTROL New Proof] sida. Om du använder [!UICONTROL Automated Workflow]kan du ange olika tidsgränser för varje steg i granskningen.
+Du kan ange en deadline för ett nytt korrektur eller en ny korrekturversion när du skapar korrekturet. Du gör det här i [!UICONTROL Workflow] i [!UICONTROL New Proof] sida. Om du [!UICONTROL Automated Workflow]kan du ange olika tidsgränser för varje steg i granskningen.
 
 Du kan också ange eller uppdatera en deadline för ett befintligt korrektur med [!UICONTROL Proof Details] sida. Mer information finns i [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 

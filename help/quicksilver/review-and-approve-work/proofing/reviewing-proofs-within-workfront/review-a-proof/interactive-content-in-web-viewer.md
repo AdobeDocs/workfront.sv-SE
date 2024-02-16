@@ -6,9 +6,9 @@ description: Vi rekommenderar att du granskar allt interaktivt innehåll med Des
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -37,14 +37,14 @@ Webbkorrekturläsaren har följande begränsningar:
 
    Mer information finns i [Förbereda interaktivt innehåll i en ZIP-fil för korrektur](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Översikt över korrektur av interaktivt material](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-   Se även [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+   Se även [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 1. Klicka **Lägg till kommentar**.
 
    Ett meddelande uppmanar dig att hämta webbläsartillägget för interaktivt innehåll.
 
 1. Klicka **Lägg till i webbläsare** för att gå till hämtningssidan för tillägget i webbläsarens butik och sedan hämta tillägget.
-1. Klicka på **Läs in korrekturet igen**.
+1. Klicka på i Web Proofing Viewer **Läs in korrekturet igen**.
 
 När tillägget är installerat i webbläsaren visas en statisk skärmbild av innehållet varje gång du klickar på **Lägg till kommentar**. På den här skärmbilden kan du lägga till kommentarer med markeringar.
 

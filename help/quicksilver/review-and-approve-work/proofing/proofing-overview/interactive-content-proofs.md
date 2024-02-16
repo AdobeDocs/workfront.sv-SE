@@ -6,7 +6,7 @@ description: Interaktivt material ger flera sätt att engagera tittarna. Myndigh
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -70,7 +70,7 @@ När du paketerar interaktivt innehåll i en ZIP-fil för korrektur måste det i
 
 Skapa ett interaktivt korrektur när du har förberett ZIP-paketfilen.
 
-Mer information finns i [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+Mer information finns i [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 Eller, om du använder Workfront Proof, se avsnittet [Generera ett korrektur för interaktivt innehåll](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) i artikeln [Skapa korrektur i Workfront-korrektur](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 

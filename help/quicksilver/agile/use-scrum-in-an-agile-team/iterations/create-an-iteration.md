@@ -6,9 +6,9 @@ description: Iterationer är en nyckelkomponent för Scrum-team när det gäller
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
 
 ## Lägga till en upprepning
 
@@ -71,11 +71,11 @@ Använd [!UICONTROL Add Iteration] för att snabbt skapa en iteration och lägga
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
-      <td><p>Ange det datum då iterationen ska sluta. [!DNL Workfront] rekommenderar att du anger ett slutdatum som inte är längre än fyra veckor från startdatumet.</p><p>Tips: Se till att välja en arbetsdag som slutdatum. Nedbrytningsdiagrammet använder bara arbetsdagar i sina beräkningar.<br>Som standard används standardschemat för att definiera arbetsdagar (enligt beskrivningen i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>). Eller, för att inkludera teamspecifika lediga dagar, kan rörliga team välja att använda ett alternativt schema (enligt beskrivningen i"Definiera ett alternativt teamschema för nedladdningsscheman" i <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Skapa ett smidigt team</a>).</p></td> 
+      <td><p>Ange det datum då iterationen ska sluta. [!DNL Workfront] rekommenderar att du anger ett slutdatum som inte är längre än fyra veckor från startdatumet.</p><p>Tips! Välj en arbetsdag som slutdatum. Nedbrytningsdiagrammet använder bara arbetsdagar i sina beräkningar.<br>Som standard används standardschemat för att definiera arbetsdagar (enligt beskrivningen i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>). Eller, för att inkludera teamspecifika lediga dagar, kan rörliga team välja att använda ett alternativt schema (enligt beskrivningen i"Definiera ett alternativt teamschema för nedladdningsscheman" i <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Skapa ett smidigt team</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Ange upprepningens kapacitet. Det här är antalet poäng eller timmar som ditt team kan uppnå i iterationen. Talet som du anger måste vara lika med eller större än antalet punkter eller timmar från summan av alla artiklar i iterationen.<br>[!DNL Workfront] förifyller det här fältet med 50-kapacitet som standard. </td> 
+      <td> Ange upprepningens kapacitet. Det här är antalet poäng eller timmar som ditt team kan uppnå i iterationen. Talet som du anger måste vara lika med eller större än antalet punkter eller timmar från summan av alla artiklar i iterationen.<br>[!DNL Workfront] förifyller det här fältet med 50 kapacitet som standard. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
@@ -112,7 +112,7 @@ Använd [!UICONTROL Plan Iteration] för att skapa en upprepning med uppgifter i
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
-      <td><p>Ange det datum då iterationen ska sluta. [!DNL Workfront] rekommenderar att du anger ett slutdatum som inte är längre än fyra veckor från startdatumet.</p><p>Tips: Se till att välja en arbetsdag som slutdatum. Nedbrytningsdiagrammet använder bara arbetsdagar i sina beräkningar.<br>Som standard används standardschemat för att definiera arbetsdagar (enligt beskrivningen i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>). Eller, för att inkludera teamspecifika, icke-arbetsrelaterade dagar, kan rörliga team välja att använda ett alternativt schema (enligt beskrivningen i <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md" class="MCXref xref">Använd ett alternativt teamschema för nedladdningsscheman</a>).</p></td> 
+      <td><p>Ange det datum då iterationen ska sluta. [!DNL Workfront] rekommenderar att du anger ett slutdatum som inte är längre än fyra veckor från startdatumet.</p><p>Tips! Välj en arbetsdag som slutdatum. Nedbrytningsdiagrammet använder bara arbetsdagar i sina beräkningar.<br>Som standard används standardschemat för att definiera arbetsdagar (enligt beskrivningen i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>). Eller, för att inkludera teamspecifika, icke-arbetsrelaterade dagar, kan rörliga team välja att använda ett alternativt schema (enligt beskrivningen i <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Använd ett alternativt teamschema för nedladdningsscheman</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
@@ -129,12 +129,12 @@ Använd [!UICONTROL Plan Iteration] för att skapa en upprepning med uppgifter i
     </tbody> 
    </table>
 
-1. (Valfritt) Välj artiklar om du vill lägga till dem i iterationen nu eller hoppa över det här steget och lägga till artiklar i en iteration vid ett senare tillfälle. Artikeln högst upp i efterloggen har högre prioritet. Artiklar markeras med grönt när de passar in i kapaciteten. om de inte markeras med rött.\
+1. (Valfritt) Välj artiklar om du vill lägga till dem i iterationen nu eller hoppa över det här steget och lägga till artiklar i en iteration vid ett senare tillfälle. Artikeln högst upp i efterloggen har högre prioritet. Artiklar markeras med grönt när de passar in i kapaciteten. De markeras med rött om de inte gör det.\
    Du kan lägga till både uppgifter och ärenden i en enda iteration:
 
    * **Så här lägger du till uppgifter i iterationen:** På **[!UICONTROL Backlog]** -fliken kontrollerar du att **[!UICONTROL Stories]** -fliken är markerad (den här fliken är markerad som standard när du visar eftersläpningen). Markera de artiklar som du vill lägga till i iterationen.\
 
-      När du lägger till uppgifter i en iteration beräknas startdatumet för uppgiften enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för uppgift beräknas när de läggs till i en iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+     När du lägger till uppgifter i en iteration beräknas startdatumet för uppgiften enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för uppgift beräknas när de läggs till i en iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
    * **Så här lägger du till problem i iterationen:** På **[!UICONTROL Backlog]** klickar du på **[!UICONTROL Issues]** -fliken. Markera de problem som du vill lägga till i iterationen.
 

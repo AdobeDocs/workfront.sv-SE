@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 0%
@@ -195,7 +195,7 @@ När den anpassade dokumentintegreringen har skapats kan du göra den tillgängl
 
 Mer information om hur användare kan använda [!DNL Workfront DAM], se [Hantera dokument med [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-Mer information om hur användare kan använda korrektur finns i [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+Mer information om hur användare kan använda korrektur finns i [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
 Information om hur användare kan använda dokumentintegreringar från tredje part efter att du har konfigurerat dem finns i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
