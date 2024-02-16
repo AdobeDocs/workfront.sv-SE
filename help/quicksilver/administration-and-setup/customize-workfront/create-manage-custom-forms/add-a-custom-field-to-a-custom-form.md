@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget
+
+<!-- Audited: 02/2024 -->
 
 När du arbetar med ett anpassat formulär kan du skapa ett nytt anpassat fält och lägga till det i ett anpassat formulär.
 
@@ -36,30 +38,33 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Administrativ åtkomst till anpassade formulär </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Lägga till ett anpassat fält i ett anpassat formulär
+## Lägga till ett anpassat fält i ett anpassat formulär {#add-custom-field-to-custom-form}
 
 1. Börja skapa eller redigera ett anpassat formulär, enligt beskrivningen i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Öppna **Lägg till ett fält** -fliken.
+1. Välj **Lägg till ett fält** -fliken.
 
-   ![](assets/add-a-field.jpg)
+   ![Lägg till en fältflik](assets/add-a-field.jpg)
 
-1. Med **Nytt fält** ![](assets/new-field.jpg) väljer du en av fälttyperna nedan:
+1. Med **Nytt fält** ![Ikonen Nytt fält](assets/new-field.jpg) väljer du någon av följande fälttyper:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Textfält med formatering</td> 
-      <td>Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Det här är tillgängligt i Hem, uppdateringsområdet, listorna och detaljområdet för Workfront-objekt. En teckengräns på 15 000 tillåter mycket text och formatering.</p> <p>Mer information om hur du kommer åt det här fältet via API:t finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">RTF-fältslagring i API</a>.</p> <p><b>ANMÄRKNING</b>: Textfält med formatering är inte tillgängliga för Workfront mobilappar (finns i kommande versioner). </p> </td> 
+      <td>Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Det här är tillgängligt i Hem, uppdateringsområdet, listorna och detaljområdet för Workfront-objekt. En teckengräns på 15 000 tillåter mycket text och formatering.</p> <p>Mer information om hur du kommer åt det här fältet via API:t finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">RTF-fältslagring i API</a>.</p> <p><b>ANMÄRKNING</b>: Textfält med formatering är inte tillgängliga för Workfront mobilappar. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Listruta</td> 
@@ -150,7 +155,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <li>Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen det anpassade fältet där det nu kan refereras till i andra områden av Workfront. <p>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.</p> </li>
       <li> <p>Vi rekommenderar att du inte skriver in ett namn som redan används för inbyggda Workfront-fält.</p> </li>
       <li><p>Vi rekommenderar att du inte använder punkt-/punkttecken i det anpassade fältnamnet för att förhindra fel när du använder fältet i olika områden av Workfront.</p></li>
-      </ul> <p>Varje anpassat fältnamn måste vara unikt i din organisations Workfront-instans. På så sätt kan du återanvända ett som redan har skapats för ett annat anpassat formulär. Mer information finns i <a href="#Add" class="MCXref xref">Lägga till ett anpassat fält i ett anpassat formulär</a> i den här artikeln.</p> </td>
+      </ul> <p>Varje anpassat fältnamn måste vara unikt i din organisations Workfront-instans. På så sätt kan du återanvända ett som redan har skapats för ett annat anpassat formulär. Mer information finns i <a href="#add-a-custom-field-to-a-custom-form">Lägga till ett anpassat fält i ett anpassat formulär</a> i den här artikeln.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Instruktioner</td> 
@@ -196,7 +201,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
         <li>De tillhör en grupp eller grupper som du anger</li> 
         <li>De är kopplade till en roll eller jobbtitel som du anger</li> 
         <li>De tillhör samma grupp som den person som använder fältet</li> 
-       </ul> <p>Du måste definiera filtret för den objekttyp som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i avsnittet <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Redigera textläge i ett filter</a> i artikeln <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Översikt över textläge</a>. </p> <p><b>ANMÄRKNING</b>:   
+       </ul> <p>Du måste definiera filtret för den objekttyp som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p>
+       <p><b>ANMÄRKNING</b>:   
         <ul> 
          <li>Om du redigerar ett befintligt anpassat formulär och lägger till ett filter i ett texthuvudfält, tas inga objekt bort (utanför filteromfånget) som användare redan har lagt till med fältet.</li> 
          <li>Filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett Typeahead-fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
@@ -225,10 +231,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <p><b>VIKTIGT</b>: Om du markerar eller avmarkerar en objekttyp här påverkas alla anpassade formulär som är kopplade till den valda objekttypen och som innehåller det här fältet. Om du till exempel avmarkerar en objekttyp här och sparar det anpassade formuläret spåras inte längre fältets värdeändringar för den objekttypen i något anpassat formulär som innehåller fältet.</p>
        <p>När du har valt en objekttyp här för ett fält och sparat det anpassade formuläret, visas fältet på fliken Anpassade fält i området Uppdatera feeds i inställningarna.</p> 
        <p>Om det här fältet däremot tas bort i området Uppdatera feeds i Inställningar, avmarkeras objekttypen för den här inställningen för alla anpassade formulär som är associerade med objekttypen och som innehåller det här fältet.</p> 
-       <p>Mer information finns i avsnittet <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Lägg till fält som Workfront ska spåra</a> i artikeln <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Konfigurera systemuppdateringar</a>.</p> </td> 
+       <p>Mer information finns i avsnittet <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Lägg till fält som Workfront ska spåra</a> i artikeln <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Konfigurera systemuppdateringar</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Lägg till logik</td> 
+      <td role="rowheader">Lägg till logik</td>
       <td>Ange vilka fält som ska visas i formuläret, baserat på de val som användarna gör i befintliga fält. Mer information finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Lägga till visningslogik och hoppa över logik i ett anpassat formulär</a>.</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >* Om du ändrar till Alternativknappar behåller Workfront alla flervalsvärden som en användare kan ha angett i fältet tills användaren ändrar och sparar data i någon del av formuläret. I det här läget ersätts alla värden som har markerats med flervalsfältet av det valda alternativknappsvärdet.
    >* Om du ändrar till en listruta med endast ett val, behåller Workfront alla flervalsvärden som en användare kan ha angett i fältet tills användaren ändrar och sparar värdena i fältet. I det här läget ersätts alla värden som har markerats med fältet för flervalstyp med det valda nedrullningslistvärdet.
 
-1. (Valfritt) Upprepa steg 2-6 om du vill lägga till andra anpassade fält.
+1. (Valfritt) Upprepa steg 3-5 om du vill lägga till fler anpassade fält.
 
    eller
 
-   Lägg till fält som redan har skapats för din organisation, vilket förklaras i [Återanvända ett anpassat fält eller en anpassad widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   Lägg till fält som redan har skapats för din organisation, vilket förklaras i [Återanvända ett anpassat fält eller en anpassad widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >

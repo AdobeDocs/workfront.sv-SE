@@ -5,14 +5,16 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
 
 # Tillämpa ett styrkort på ett projekt och generera ett justeringsresultat
+
+<!-- Audited: 02/2024 -->
 
 Du kan använda ett styrkort för att mäta hur väl ett projekt anpassar sig till de villkor som tidigare fastställts för en portfölj. Ett styrkort avspeglar ofta en organisations uppdrag, värderingar och strategiska mål.
 
@@ -27,40 +29,46 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Företag eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>
+   <p>Nytt: Prime eller senare</p>
+   <p>eller</p>
+   <p>Aktuell: Business eller högre</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Visa eller ge senare åtkomst till Portfolio</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt</p> <p>Visa eller ge senare åtkomst till Portfolio</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för ett projekt</p> <p>Visa eller högre behörigheter för en portfölj </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td><p>Hantera behörigheter för ett projekt</p> <p>Visa eller högre behörigheter för en portfölj</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Projektstyrkort {#project-scorecards}
 
 * [Översikt över styrkort](#scorecards-overview)
-* [Projektstyrkort](#project-scorecards)
+* [Tillämpa ett styrkort på ett projekt](#apply-a-scorecard-to-a-project)
 
 ### Översikt över styrkort {#scorecards-overview}
 
 Vanligtvis slutför en projektledare styrkortsinformationen för att skapa ett justeringsvärde mellan 0 och 100 för projektet. Värdet som skapas används senare när portföljförvaltaren granskar projekten i portföljoptimeraren för att jämföra dem.
 
-Mer information om portföljoptimering finns i artikeln [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Mer information om portföljoptimering finns i [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Tillämpa ett styrkort på ett projekt
 
-Som användare med en planlicens och behörigheten Hantera för ett projekt kan du bifoga ett styrkort till projektet.
+Som användare med en Standard- eller Plan-licens och Hantera-behörighet för ett projekt kan du bifoga ett styrkort till projektet.
 
 Mer information om projektbehörigheter finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
@@ -73,7 +81,7 @@ Adobe Workfront-administratören eller gruppadministratören måste aktivera sty
 Så här använder du ett styrkort för ett projekt:
 
 1. Gå till ett projekt som du vill tillämpa ett styrkort på.
-1. Klicka **Affärsärende** i den vänstra panelen.
+1. Klicka **Affärsärende** till vänster.
 1. Hitta **Styrkort** i affärsärendet.\
    Du måste skapa ett styrkort före **Styrkort** visas i affärsärendet.
 
@@ -81,7 +89,7 @@ Så här använder du ett styrkort för ett projekt:
 
 1. Välj ett styrkort i listrutan.
 
-   ![new_scorecard.png](assets/new-scorecard-350x149.png)
+   ![Nytt styrkort](assets/new-scorecard.png)
 
 1. Ange ett svar på alla frågor i styrkortet.
 
@@ -115,15 +123,13 @@ Så här använder du ett styrkort för ett projekt:
 
 ### Generera en justeringspoäng för ett projekt {#generate-an-alignment-score-for-a-project}
 
-Justeringspoängen är det värde som skapas när styrkortet har fyllts i.
+Justeringspoängen är det värde som skapas när styrkortet har slutförts.
 
 Styrkort innehåller frågor med svarsalternativ som har tilldelats numeriska värden, så kallade justeringspunkter. Dessa punkter används för att avgöra hur väl projektet passar in i din organisation. Justeringspunkterna för varje fråga innehåller ett tal mellan 0 och 100.
 
 När styrkortet är klart beräknar Workfront justeringspoängen för projektet i procent med hjälp av följande formel:
 
-```
-Project Alignment Score = The sum of the question points from the scorecard met at a given time/ The sum of the possible points on the scorecard
-```
+`Project Alignment Score = The sum of the question points from the scorecard met at a given time / The sum of the possible points on the scorecard`
 
 Mer information finns i [Skapa ett styrkort](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -133,30 +139,30 @@ Portföljens justeringspoäng är ett genomsnitt av justeringspoängen för alla
 
 När poängen för projekten är klara använder Workfront dessa värden för att beräkna portföljens justeringspoäng i procent med hjälp av följande formel:
 
-Justeringspoäng för Portfolio = Summan av procentsatserna för projektjusteringspoängen/ Antal projekt i portföljen
+`Portfolio Alignment Score = The sum of the percentages of the project alignment scores / Number of projects in the portfolio`
 
 >[!NOTE]
 >
->Om ett projekt inte har något associerat styrkort och därför inte har någon justeringspoäng, anses portföljen ha en justering på 0 %. Projektet beaktas i antalet projekt i portföljen.
+>Om ett projekt inte har något associerat styrkort och därför inte har någon justeringspoäng, anses det att portföljen har en justering på 0 %. Projektet beaktas i antalet projekt i portföljen.
 
 ## Visa justeringspoäng
 
 Du kan visa justeringspoängen för ett projekt på projektnivå eller i Portfolio-optimering.
 
-* [Visa justeringspoäng i ett projekt](#View%20the)
-* [Visa justeringspoängen för projektet och för portföljen i optimeringsverktyget för Portfolio](#View%20the2)
+* [Visa justeringspoäng i ett projekt](#view-the-alignment-score-on-a-project)
+* [Visa justeringspoängen för projektet och för portföljen i optimeringsverktyget för Portfolio](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### Visa justeringspoäng i ett projekt
 
 Du kan visa justeringspoängen för ett projekt på projektnivå om du har Contribute-behörighet till projektet.
 
 1. Gå till det projekt vars justeringspoäng du vill visa.
-1. Klicka **Affärsärende** i den vänstra panelen.
+1. Klicka **Affärsärende** till vänster.
 1. Gå till **Översikt över affärsärenden** till höger på skärmen.
 
    Justeringspoängen finns i Översikt över affärsfall i **Justerad** värde.
 
-   ![alignment_score_on_a_project.png](assets/alignment-score-on-a-project.png)
+   ![Justeringspoäng i ett projekt](assets/alignment-score-on-a-project.png)
 
 ### Visa justeringspoängen för projektet och för portföljen i optimeringsverktyget för Portfolio
 
@@ -167,28 +173,28 @@ Mer information om vilken information som visas i Portfolio-optimering finns i [
 * [Leta reda på projektets justeringspoäng i Optimering för Portfolio](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Leta reda på portföljens justeringspoäng i optimeraren för Portfolio](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-   ![](assets/alignment-score-in-portfolio-optimizer-nwe-350x97.png)
+  ![Justeringspoäng i Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Leta reda på projektets justeringspoäng i Optimering för Portfolio {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)sedan **Portfolio**.
+{{step1-to-portfolios}}
 
-1. Klicka på namnet på en Portfolio.
-1. Klicka **Optimering för Portfolio** i den vänstra panelen.
+1. Klicka på namnet på en portfölj.
+1. Klicka **Optimering för Portfolio** till vänster.
 
-   Portfolio Optimizer visas.
+   Optimeraren för Portfolio visas.
 
-1. Justeringspoängen för ett projekt visas i procent i **Justering** i Portfolio Optimizer.
+   Justeringspoängen för ett projekt visas i procent i **Justering** i Portfolio Optimizer.
 
    Detta är projektets justeringspoäng baserat på det styrkort som är associerat med projektet.
 
 #### Leta reda på portföljens justeringspoäng i optimeraren för Portfolio  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
-1. Gå till **Projekt** i fältet Global navigering.
-1. Välj **Portfolio** -fliken.
-1. Klicka på namnet på en Portfolio.
-1. Välj **Optimering för Portfolio** -fliken.
-1. Överst i Portfolio Optimizer finns **Justerad** och **Justering** En mätare som anger portföljens justeringspoäng.
+{{step1-to-portfolios}}
+
+1. Klicka på namnet på en portfölj.
+1. Klicka **Optimering för Portfolio** till vänster.
+1. Överst i Portfolio Optimizer finns **Justerad** och **Justering** mått, som anger portföljens justeringspoäng.
 
    Detta är portföljens justeringspoäng.
 
