@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,19 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern</a></p>
                         <p>Nu kan du redigera befintlig visnings- och hopplogik och lägga till ny logik i anpassade formulär i betaversionen av formulärdesignern. Ett lättanvänt logiskt verktyg hjälper dig att definiera vilka fält som ska visas eller hoppas över baserat på val i formuläret.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 8 februari 2024<br /></p>
+                                <p>Förhandsversion: 8 februari 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion för alla kunder: Med version 24.2 (15 februari 2024)</span></p>
+                                <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för alla kunder: TBD</p>
                             </li>
                         </ul>
                     </td>
