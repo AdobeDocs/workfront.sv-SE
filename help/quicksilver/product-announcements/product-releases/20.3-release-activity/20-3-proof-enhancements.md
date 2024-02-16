@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla korrekturförbättringar som gjorts i version 20.3 till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 10 augusti 2020.
 
-En lista över alla ändringar som är tillgängliga i version 20.3 finns i [20.3 versionsöversikt](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 20.3 finns i [20.3 versionsöversikt](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Förbättrad synlighet mellan uppdateringsfliken och korrekturkommentarer
 

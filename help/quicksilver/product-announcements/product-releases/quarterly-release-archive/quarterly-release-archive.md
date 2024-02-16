@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 159a5bd0-e0f4-4670-8143-dfc24a7caf81
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%
@@ -17,16 +17,16 @@ ht-degree: 0%
 # Kvartalsvis publiceringsarkiv
 
 * [20.4 versionsöversikt](/help/quicksilver/product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
-* [20.3 versionsöversikt](/help/quicksilver/product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md)
+* [20.3 versionsöversikt](/help/quicksilver/product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
 * [Översikt över version 2020.2](/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-* [Översikt över version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md)
+* [Översikt över version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
 * [Översikt över version 2019.4](../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-* [Aktivitetsöversikt för 2019.3-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md)
-* [Aktivitetsöversikt för 2019.2-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md)
-* [Aktivitetsöversikt för 2019.1-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity-overview.md)
-* [Aktivitetsöversikt för version 2018.3](../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity-overview.md)
-* [Aktivitetsöversikt för 2018.2-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity-overview.md)
-* [Aktivitetsöversikt för 2018.1-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity-overview.md)
-* [Aktivitetsöversikt för 2017.3-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity-overview.md)
-* [Aktivitetsöversikt för 2017.2-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity-overview.md)
+* [Aktivitetsöversikt för 2019.3-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
+* [Aktivitetsöversikt för 2019.2-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)
+* [Aktivitetsöversikt för 2019.1-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
+* [Aktivitetsöversikt för version 2018.3](../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
+* [Aktivitetsöversikt för 2018.2-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
+* [Aktivitetsöversikt för 2018.1-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
+* [Aktivitetsöversikt för 2017.3-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
+* [Aktivitetsöversikt för 2017.2-utgåvan](../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
 * [Aktivitetsöversikt för R1-release](../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)

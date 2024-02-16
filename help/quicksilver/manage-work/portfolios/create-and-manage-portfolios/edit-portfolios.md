@@ -6,7 +6,7 @@ description: Du kan redigera information om portföljer som du har skapat eller 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan redigera information om portföljer som du har skapat eller som andra användare har skapat om de har delat dem med dig.
 
-Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller så kan du redigera portföljer i en lista.
+Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller redigera portföljer i en lista.
 
 ## Åtkomstkrav
 
@@ -41,18 +41,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörigheter till en portfölj</p> <p> Information om hur du tilldelar behörigheter till portföljer finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md" class="MCXref xref">Dela en portfölj </a>. </p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] behörigheter till en portfölj</p> <p> Information om hur du tilldelar behörigheter till portföljer finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">Dela en portfölj </a>. </p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 ## Redigera portföljer
 
 1. Gå till **[!UICONTROL Main Menu]**.
 1. Klicka **[!UICONTROL Portfolios]** klickar du sedan på namnet på en portfölj för att öppna den.
-1. (Valfritt) Om du vill redigera begränsad information om portföljen klickar du på **[!UICONTROL Portfolio Details]** i den vänstra panelen.
+1. (Valfritt) Om du vill redigera begränsad information om portföljen klickar du på **[!UICONTROL Portfolio Details]** till vänster.
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)
 
@@ -73,7 +73,7 @@ Kontakta [!DNL Workfront] administratör.
    1. (Valfritt) Klicka på **[!UICONTROL Export]** icon ![](assets/export.png) för att exportera [!UICONTROL Overview] och information om anpassade formulär till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
-      * Översikt
+      * Ökning
       * Namnet på ett eller flera anpassade formulär
 
       PDF-filen hämtas till datorn.
@@ -81,7 +81,6 @@ Kontakta [!DNL Workfront] administratör.
       ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
-
 
 
 1. Om du vill redigera all information om en eller flera portföljer gör du något av följande:
@@ -92,13 +91,13 @@ Kontakta [!DNL Workfront] administratör.
 
    * Klicka på **[!UICONTROL More]** -menyn bredvid portföljnamnet, och sedan **[!UICONTROL Edit].**
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
    * Gå till en lista med portföljer och välj en eller flera portföljer som du vill redigera. Klicka sedan på **[!UICONTROL Edit]** icon ![](assets/edit-icon.png) högst upp i listan.
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
    The **[!UICONTROL Edit Portfolio]** visas.
@@ -135,7 +134,7 @@ Kontakta [!DNL Workfront] administratör.
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Uppdatera namnet på portföljen. </p> <p>Tips: Detta är inte tillgängligt när du har valt mer än en portfölj. </p> </td> 
+      <td> <p>Uppdatera namnet på portföljen. </p> <p>Tips! Detta är inte tillgängligt när du har valt mer än en portfölj. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
@@ -143,7 +142,7 @@ Kontakta [!DNL Workfront] administratör.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>Börja skriva namnet på en användare som du vill ange som portföljförvaltare och markera den sedan när den visas i listan. Detta är samma sak som [!UICONTROL Portfolio Owner]. Detta är den person som kan övervaka arbetet som definieras i portföljens projekt och godkänna affärsärendet.</p> <p>Viktigt: När du utser någon till Portfolio Manager får de automatiskt [!UICONTROL Manage] behörigheter till portföljen, programmen och projekten i portföljen. </p> <p>Tips: Du kan snabbt uppdatera portföljförvaltaren i portföljrubriken. </p> </td> 
+      <td> <p>Börja skriva namnet på en användare som du vill ange som portföljförvaltare och markera den sedan när den visas i listan. Detta är samma sak som [!UICONTROL Portfolio Owner]. Detta är den person som kan övervaka arbetet som definieras i portföljens projekt och godkänna affärsärendet.</p> <p>Viktigt: När du utser någon till Portfolio Manager får de automatiskt [!UICONTROL Manage] behörigheter till portföljen, programmen och projekten i portföljen. </p> <p>Tips! Du kan snabbt uppdatera portföljförvaltaren i portföljrubriken. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
@@ -173,7 +172,7 @@ Kontakta [!DNL Workfront] administratör.
    >
    >Beroende på hur [!DNL Workfront] administratören anger behörigheter för avsnitten i ditt anpassade formulär, men alla kan inte visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har på själva portföljen. Mer information om hur du anger behörigheter i avsnitt i ett anpassat formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Uppdatera fälten i de anpassade formulären och klicka sedan på **[!UICONTROL Save Changes]** eller fortsätta med följande avsnitt.
+1. Uppdatera fält i anpassade formulär och klicka sedan på **[!UICONTROL Save Changes]** eller fortsätta med följande avsnitt.
 
 ### Kommentar {#comment}
 

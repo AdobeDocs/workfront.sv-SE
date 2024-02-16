@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla Agile-förbättringar som gjorts i version 21.4 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 4 oktober 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Användartilldelningar på Kanban- och Scrum-tavlor
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7afff4ec-a296-483c-819f-84932b6da4d8
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla andra förbättringar som gjorts i version 21.4 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 4 oktober 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nya kortkommandon för indrag och utdrag i listor
 

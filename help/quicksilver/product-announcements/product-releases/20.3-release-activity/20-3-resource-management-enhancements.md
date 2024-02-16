@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 20.3 till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 10 augusti 2020.
 
-En lista över alla ändringar som är tillgängliga i version 20.3 finns i [20.3 versionsöversikt](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 20.3 finns i [20.3 versionsöversikt](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Inkludera timmar från utleveranser i området Tilldelad arbetsyta i belastningsutjämnaren
 

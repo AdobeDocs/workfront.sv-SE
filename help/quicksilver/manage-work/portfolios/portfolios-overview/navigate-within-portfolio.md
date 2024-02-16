@@ -6,7 +6,7 @@ description: Navigera i en portfölj
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * **[!UICONTROL All]**: Inkluderar alla portföljer som du har åtminstone tillgång till Visa för.\
 
      Mer information om åtkomst till Portfolio finns i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      Mer information om behörigheter till Portfolio finns i  [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+      Mer information om behörigheter till Portfolio finns i  [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Information om hur du lägger till nya portföljer finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 

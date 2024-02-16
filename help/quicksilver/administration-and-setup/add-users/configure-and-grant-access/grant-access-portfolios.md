@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >När du konfigurerar en åtkomstnivåinställning för en viss typ av objekt påverkar den konfigurationen inte användarens åtkomst till objekt med lägre rankning. Du kan t.ex. hindra användare från att ta bort portföljer på åtkomstnivån, men detta förhindrar dem inte från att ta bort projekt, som har lägre rankning än portföljer.Mer information om objekthierarkin finns i avsnittet [Objektens inbördes beroende och hierarki](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. När du är klar klickar du på **Spara**.
+1. När du är klar klickar du **Spara**.
 
    När åtkomstnivån har skapats kan du tilldela den till en användare. Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -64,7 +64,7 @@ Mer information om vad användare på varje åtkomstnivå kan göra med portföl
 
 ## Tillgång till delade portföljer
 
-Som ägare eller skapare av en portfölj kan du dela med andra användare genom att ge dem behörighet till den, vilket förklaras i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+Som ägare eller skapare av en portfölj kan du dela med andra användare genom att ge dem behörighet till den, vilket förklaras i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -80,4 +80,4 @@ När du delar ett objekt med en annan användare bestäms mottagarens rättighet
 * De behörigheter som du ger mottagaren för objektet
 * Mottagarens åtkomstnivåinställningar för objektets typ
 
-Mer information om behörigheter som användare kan ge i en portfölj när de delar den finns i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+Mer information om behörigheter som användare kan ge i en portfölj när de delar den finns i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).

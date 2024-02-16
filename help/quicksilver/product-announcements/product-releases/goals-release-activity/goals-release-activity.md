@@ -7,9 +7,9 @@ description: Med Adobe Workfront-mål kan ni anpassa strategier, mål och arbeta
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 1740c91f-b01e-4e97-987a-d1b810d0c0a4
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ Följande versioner har gjorts tillgängliga för Workfront-mål:
 * [Adobe Workfront Goals with the 21.2 release](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
 * [Adobe Workfront Goals with the 21.1 release](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
 * [Workfront Goals with the 20.4 release](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
-* [Workfront-mål med version 20.3 - 14 augusti 2020](../../../product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
+* [Workfront-mål med version 20.3 - 14 augusti 2020](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)

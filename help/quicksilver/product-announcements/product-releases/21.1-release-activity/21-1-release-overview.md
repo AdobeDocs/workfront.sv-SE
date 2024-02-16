@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -365,7 +365,7 @@ Mer information om underhållsuppdateringar som gjordes i version 21.1 finns i [
 
 I ett försök att öka e-postleveransen lägger vi till nya IP-adresser med 21.1-produktionsutgåvan för kluster 1, 2, 3, 4 och 5.
 
-Mer information om vilka IP-adresser du måste lägga till för ditt kluster finns i [Nya IP-adresser för Adobe Workfront e-post med version 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+Mer information om vilka IP-adresser du måste lägga till för ditt kluster finns i [Nya IP-adresser för Adobe Workfront e-post med version 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 Om du vill ta reda på vilket kluster du är ansluten till går du till Inställningar > System > Kundinformation.
 

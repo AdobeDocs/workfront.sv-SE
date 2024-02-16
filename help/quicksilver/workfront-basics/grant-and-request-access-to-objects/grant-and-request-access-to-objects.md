@@ -8,7 +8,7 @@ author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Det här avsnittet innehåller följande artiklar om hur du kan bevilja och beg�
 * [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
 * [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Dela ekonomiska behörigheter för ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
-* [Dela en portfölj](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)
+* [Dela en portfölj](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
 * [Dela ett program](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
 * [Dela ett dokument](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
