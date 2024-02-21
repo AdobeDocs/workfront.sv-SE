@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Svara på e-postmeddelanden
 description: Du kan besvara e-postmeddelanden från Workfront som genererats från kommentarer som gjorts i projekt, uppgifter, utgåvor och andra objekt för att lägga till svar på de ursprungliga kommentarerna som gjorts i Adobe Workfront-programmet.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,11 @@ Du kan svara på en uppdatering från ett e-postmeddelande på följande sätt:
 * Använd knappen Kommentar i e-postmeddelandet för att gå tillbaka till Workfront och svara på uppdateringen i uppdateringsområdet.
 * Svara på det e-postmeddelande du får. Ditt e-postmeddelande läggs till som ett svar från Workfront på den ursprungliga kommentaren.
 
+<!--
 >[!NOTE]
 >
->Det går inte att svara på uppdateringar via e-post i miljöer med kluster 6.
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 Du kan svara på e-post från Workfront som genereras från kommentarer som gjorts på följande objekt:
 
