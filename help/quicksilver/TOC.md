@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 0%
@@ -275,12 +275,12 @@ ht-degree: 0%
             * [20.3 Integration- och mobilförbättringar](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 andra förbättringar](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * 20.2-utgåvan {#release-20-2}
-            * [Översikt över version 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-            * [Förbättringar av 2020.2 för mobila enheter](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-            * [2020.2 andra förbättringar](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-            * [2020.2 Projektförbättringar](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-            * [Förbättringar av 2020.2-korrektur](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-            * [2020.2 Resurshanteringsförbättringar: Arbetsbelastningsutjämnaren](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+            * [Översikt över version 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [Förbättringar av 2020.2 för mobila enheter](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [2020.2 andra förbättringar](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [2020.2 Projektförbättringar](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [Förbättringar av 2020.2-korrektur](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [2020.2 Resurshanteringsförbättringar: Arbetsbelastningsutjämnaren](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * 20.1-utgåvan {#release-20-1}
             * [Översikt över version 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [Förbättringar av 2020.1-listan](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
@@ -291,12 +291,12 @@ ht-degree: 0%
             * [2020.1 Förbättrad resurshantering](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [Andra Workfront Classic-funktioner som lanserades i Production före version 2020.1](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
          * 2019.4-utgåvan {#release-19-4}
-            * [Översikt över version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-            * [2019.4 Listförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-            * [2019.4 Mobilförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-            * [2019.4 andra förbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-            * [2019.4 Resurshanteringsförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-            * [Andra Workfront Classic-funktioner som lanserades i Production före version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+            * [Översikt över version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
+            * [2019.4 Listförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
+            * [2019.4 Mobilförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
+            * [2019.4 andra förbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [2019.4 Resurshanteringsförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
+            * [Andra Workfront Classic-funktioner som lanserades i Production före version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * 2019.3-utgåvan {#release-19-3}
             * [Aktivitetsöversikt för 2019.3-utgåvan](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3 Förbättringar av resursplanering](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
