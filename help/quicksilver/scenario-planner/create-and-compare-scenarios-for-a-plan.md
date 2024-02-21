@@ -2,14 +2,14 @@
 product-previous: enterprise-scenario-planner
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Skapa och jämföra planscenarier i scenarioplanen
+title: Skapa och jämföra planscenarier i scenarioplaneraren
 description: När ni planerar företagets långsiktiga strategi finns det mycket information som ni kanske inte har eller tänker på i början. Det tar tid och experimenterande att komma fram till en slutlig strategi som era intressenter kan acceptera. Genom att utföra en konsekvensanalys för att skapa flera scenarier för din plan kan du förutse och utvärdera potentiella omständigheter på ett korrekt sätt och i slutändan utveckla den bästa möjliga planen.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Skapa scenarier
 
@@ -63,11 +63,11 @@ Ett scenario är en kopia av en plan. Du kan skapa så många scenarier du behö
 
    Den första plan du skapar sparas automatiskt som[!UICONTROL Initial scenario].&quot;
 
-1. Klicka på nedåtpilen bredvid ett befintligt scenario och klicka sedan på **[!UICONTROL Copy]** ikon.
+1. Klicka på nedåtpilen bredvid ett befintligt scenario och klicka sedan på **[!UICONTROL Copy]** -ikon.
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   Detta skapar ett nytt scenario med samma information som det kopierade scenariot. Den får automatiskt namnet &quot;[!UICONTROL Scenario 2]&quot; om det är det andra scenariot i din plan, &quot;[!UICONTROL Scenario 3]&quot;om det är den tredje, och så vidare. Du kan inte byta namn på dina scenarier.
+   Detta skapar ett nytt scenario med samma information som det kopierade scenariot. Den får automatiskt namnet &quot;[!UICONTROL Scenario 2]&quot; om det är det andra scenariot i din plan, &quot;[!UICONTROL Scenario 3]&quot;om det är den tredje, och så vidare. Du kan inte byta namn på dina scenarier. Det finns ingen gräns för hur många kopior du kan göra.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -79,17 +79,17 @@ Ett scenario är en kopia av en plan. Du kan skapa så många scenarier du behö
 
    * Skapa, uppdatera eller ta bort initiativ
 
-      >[!TIP]
-      >
-      >När du tar bort ett initiativ i ett scenario tas det bara bort från det valda scenariot, inte från alla scenarier.
+     >[!TIP]
+     >
+     >När du tar bort ett initiativ i ett scenario tas det bara bort från det valda scenariot, inte från alla scenarier.
 
-      Mer information om hur du skapar initiativ finns i [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+     Mer information om hur du skapar initiativ finns i [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
    * Uppdatera prioriteringarna i era initiativ
    * Justera personer eller budgetinformation
    * Granska och justera initialkonflikter i ditt scenario
 
-      Mer information om hur du löser konflikter finns i [Lös initialkonflikter i [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+     Mer information om hur du löser konflikter finns i [Lös initialkonflikter i [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
 1. Klicka **[!UICONTROL Save Plan]** för att spara ändringarna.
 
@@ -134,7 +134,7 @@ När du har skapat dina scenarier kan du jämföra dem för att hitta det bästa
      </tr> 
      <tr> 
       <td>Kostnader</td> 
-      <td>De kostnader som är förknippade med satsningarna på scenariot. Information om kostnader finns i <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Översikt över initiativen i [!DNL Scenario Planner]</a>. </td> 
+      <td>De kostnader som är förknippade med satsningarna på scenariot. Mer information om kostnader finns i <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Översikt över initiativen i [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Användning</td> 
@@ -184,6 +184,6 @@ När du har skapat dina scenarier kan du jämföra dem för att hitta det bästa
 
    Borttagna scenarier kan inte återställas.
 
-   Mer information om att ta bort scenarier finns i [Ta bort planer i [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+   Mer information om att ta bort scenarier finns i [Ta bort planer i dialogrutan [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
 1. Klicka **[!UICONTROL Save Plan]** för att spara dina scenarier och din plan.
