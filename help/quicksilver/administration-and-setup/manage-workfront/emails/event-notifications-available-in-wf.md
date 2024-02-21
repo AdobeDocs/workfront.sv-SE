@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: d177f884a8754d0ced3d9c5d6f44c1b4964f1629
+source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
 workflow-type: tm+mt
-source-wordcount: '5087'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
    <td> <p>Problem</p> </td> 
    <td> <p>Utfärda tilldelning</p> </td> 
    <td> <p>Användare som utgåvan är tilldelad</p> </td> 
-   <td> <p>Jag är tilldelad en utgåva.</p> <p>Den som tilldelat utgåvan får ett e-postmeddelande endast om projektets status är Aktuell och status för utgåvan inte är Stängd eller något som motsvarar Stängt.</p> <p>Användare med en licens för granskning eller begäran får inget meddelande.</p> </td> 
+   <td> <p>Jag är tilldelad en utgåva.</p> <p>Den som tilldelat utgåvan får ett e-postmeddelande endast om projektets status är Aktuell och status för utgåvan inte är Stängd eller något som motsvarar Stängt.</p> <p>Användare med en Light-, Contributor-, Review- eller Request-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
    <td> <p>Uppgift</p> </td> 
    <td> <p>Uppgiftstilldelning</p> </td> 
    <td> <p>Användare som uppgiften är tilldelad</p> </td> 
-   <td> <p>Jag är den primära tilldelaren för en uppgift.</p> <p>Uppgiftstilldelningsmottagaren får ett e-postmeddelande om de är den primära tilldelningsmannen för uppgiften, såvida inte den tilldelande är den användare som tilldelat uppgiften.</p> <p>Ett meddelande skickas om projektstatusen är Aktuell och aktiviteten inte är markerad som Slutförd.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Jag är den primära tilldelaren för en uppgift.</p> <p>Uppgiftstilldelningsmottagaren får ett e-postmeddelande om de är den primära tilldelningsmannen för uppgiften, såvida inte den tilldelande är den användare som tilldelat uppgiften.</p> <p>Ett meddelande skickas om projektstatusen är Aktuell och aktiviteten inte är markerad som Slutförd.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -131,14 +131,14 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
    <td> <p>Tidrapport</p> </td> 
    <td> <p>Tidrapporten öppnades igen</p> </td> 
    <td> <p>Användare som tidrapporten tillhör</p> </td> 
-   <td> <p>Min tidrapport öppnas igen.</p> <p>Ägaren av tidrapporten får ett e-postmeddelande när tidrapporten öppnas igen, såvida inte användaren som öppnat tidrapporten också är ägare till tidrapporten.</p> <p>Ett e-postmeddelande skickas endast om tidrapportens status är Öppen.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Min tidrapport öppnas igen.</p> <p>Ägaren av tidrapporten får ett e-postmeddelande när tidrapporten öppnas igen, såvida inte användaren som öppnat tidrapporten också är ägare till tidrapporten.</p> <p>Ett e-postmeddelande skickas endast om tidrapportens status är Öppen.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tidrapport</p> </td> 
    <td> <p>Avvisning av tidrapport</p> </td> 
    <td> <p>Användare som tidrapporten tillhör</p> </td> 
-   <td> <p>Min tidrapport har avvisats.</p> <p>Ägaren av tidrapporten får ett e-postmeddelande när tidrapporten avvisas, såvida inte användaren som avvisade tidrapporten också är ägare.</p> <p>Ett e-postmeddelande skickas endast om tidrapportens status har avvisats.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Min tidrapport har avvisats.</p> <p>Ägaren av tidrapporten får ett e-postmeddelande när tidrapporten avvisas, såvida inte användaren som avvisade tidrapporten också är ägare.</p> <p>Ett e-postmeddelande skickas endast om tidrapportens status har avvisats.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -152,14 +152,14 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
    <td> <p>Tilldelning</p> </td> 
    <td> <p>Begäran om arbetsuppgift</p> </td> 
    <td> <p>Medlemmar i det team som objektet begärs för</p> </td> 
-   <td> <p>Mitt team får en ny arbetsförfrågan.</p> <p>Teammedlemmar får ett e-postmeddelande när teamet får en ny arbetsförfrågan. (Användaren som skickade begäran får inget meddelande om han/hon är medlem i gruppen.)</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid den tidpunkt då arbetsbegäran görs och arbetsbegärans status är Ny.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Mitt team får en ny arbetsförfrågan.</p> <p>Teammedlemmar får ett e-postmeddelande när teamet får en ny arbetsförfrågan. (Användaren som skickade begäran får inget meddelande om han/hon är medlem i gruppen.)</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid den tidpunkt då arbetsbegäran görs och arbetsbegärans status är Ny.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tilldelning</p> </td> 
    <td> <p>Begäran om arbetsuppgift</p> </td> 
    <td> <p>Användare som arbetsuppgift begärs för</p> </td> 
-   <td> <p>Jag får en ny arbetsförfrågan.</p> <p>Den som har tilldelats arbetsuppgiften får ett e-postmeddelande, såvida inte den som har gjort begäran också är tilldelad. </p> <p>Ett meddelande skickas inte om aktivitetsstatusen är Slutförd eller om utgivningsstatusen är Stängd.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid tidpunkten för begäran.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Jag får en ny arbetsförfrågan.</p> <p>Den som har tilldelats arbetsuppgiften får ett e-postmeddelande, såvida inte den som har gjort begäran också är tilldelad. </p> <p>Ett meddelande skickas inte om aktivitetsstatusen är Slutförd eller om utgivningsstatusen är Stängd.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid tidpunkten för begäran.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
  </tbody> 
@@ -441,35 +441,35 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
    <td>Uppgift</td> 
    <td>Alla föregående aktiviteter har slutförts</td> 
    <td>Medlemmar i teamet som tilldelats beroende uppgifter</td> 
-   <td> <p>Alla föregångare till teamets uppgifter är slutförda.</p> <p>Uppgiften som tilldelas (alla medlemmar i teamet) får ett e-postmeddelande.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Alla föregångare till teamets uppgifter är slutförda.</p> <p>Uppgiften som tilldelas (alla medlemmar i teamet) får ett e-postmeddelande.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td>Inaktiv</td> 
   </tr> 
   <tr> 
    <td> <p>Uppgift</p> </td> 
    <td> <p>Alla föregående aktiviteter har slutförts</p> </td> 
    <td> <p>Användare tilldelad beroende uppgifter</p> </td> 
-   <td> <p>Alla föregångare till mina uppgifter är slutförda.</p> <p>Uppgiftstilldelaren får ett e-postmeddelande.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Alla föregångare till mina uppgifter är slutförda.</p> <p>Uppgiftstilldelaren får ett e-postmeddelande.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Godkännandebeslut</p> </td> 
    <td> <p>Användare som utgåvan är tilldelad</p> </td> 
-   <td> <p>Ett problem som jag löser har godkänts eller avvisats.</p> <p>Den som är tilldelad en utgåva får ett e-postmeddelande när ett godkännandebeslut fattas (godkänt eller avvisat).</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Ett problem som jag löser har godkänts eller avvisats.</p> <p>Den som är tilldelad en utgåva får ett e-postmeddelande när ett godkännandebeslut fattas (godkänt eller avvisat).</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Uppgift</p> </td> 
    <td> <p>Godkännandebeslut</p> </td> 
    <td> <p>Användare som uppgiften är tilldelad</p> </td> 
-   <td> <p>En uppgift som jag har slutfört godkänns eller avvisas.</p> <p>Uppgiftstilldelande får ett e-postmeddelande när uppgiften har godkänts eller avvisats.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>En uppgift som jag har slutfört godkänns eller avvisas.</p> <p>Uppgiftstilldelande får ett e-postmeddelande när uppgiften har godkänts eller avvisats.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Slutförande av problem</p> </td> 
    <td> <p>Användare som utgåvan är tilldelad</p> </td> 
-   <td> <p>Ett problem som jag har tilldelats är slutfört.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Ett problem som jag har tilldelats är slutfört.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -483,7 +483,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
    <td> <p>Problem</p> </td> 
    <td> <p>Ändring av problemstatus</p> </td> 
    <td> <p>Användare som utgåvan är tilldelad</p> </td> 
-   <td> <p>Statusen ändras för en av mina arbetsuppgifter.</p> <p>Den som är tilldelad utgåvan får ett e-postmeddelande när statusen ändras, såvida inte den användare som ändrade statusen också är tilldelad.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Statusen ändras för en av mina arbetsuppgifter.</p> <p>Den som är tilldelad utgåvan får ett e-postmeddelande när statusen ändras, såvida inte den användare som ändrade statusen också är tilldelad.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -497,14 +497,14 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
    <td> <p>Uppgift</p> </td> 
    <td> <p>Slutförd uppgift</p> </td> 
    <td> <p>Användare som uppgiften är tilldelad</p> </td> 
-   <td> <p>En uppgift som jag har tilldelats är slutförd.</p> <p>Uppgiftstilldelaren får ett e-postmeddelande när uppgiften har slutförts. Meddelanden skickas inte när en personlig uppgift har slutförts.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en Granska eller Begärande licens får inget meddelande.</p> </td> 
+   <td> <p>En uppgift som jag har tilldelats är slutförd.</p> <p>Uppgiftstilldelaren får ett e-postmeddelande när uppgiften har slutförts. Meddelanden skickas inte när en personlig uppgift har slutförts.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en Light-, Contributor-, Review- eller Requestor-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Uppgift</p> </td> 
    <td> <p>Slutförd uppgift</p> </td> 
    <td> <p>Användare tilldelad till beroende uppgift</p> </td> 
-   <td> <p>En föregångare till en av mina uppgifter är slutförd.</p> <p>Uppgiftstilldelande får ett e-postmeddelande när en av uppgiftens föregångare har slutförts.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>En föregångare till en av mina uppgifter är slutförd.</p> <p>Uppgiftstilldelande får ett e-postmeddelande när en av uppgiftens föregångare har slutförts.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -518,7 +518,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
    <td> <p>Uppgift</p> </td> 
    <td> <p>Ändring av aktivitetsstatus</p> </td> 
    <td> <p>Användare som uppgiften är tilldelad</p> </td> 
-   <td> <p>Statusen ändras för en uppgift som jag har tilldelats.</p> <p>Uppgiftstilldelaren får ett e-postmeddelande när uppgiftsstatus ändras, såvida inte den användare som ändrade statusen också är tilldelad.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en granskningslicens får inget meddelande. </p> </td> 
+   <td> <p>Statusen ändras för en uppgift som jag har tilldelats.</p> <p>Uppgiftstilldelaren får ett e-postmeddelande när uppgiftsstatus ändras, såvida inte den användare som ändrade statusen också är tilldelad.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en Light- eller Review-licens får inget meddelande. </p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
  </tbody> 
@@ -644,14 +644,14 @@ Se även [Meddelanden: Information om projekt som jag äger](../../../workfront-
    <td> <p>Dokument</p> </td> 
    <td> <p>Lägg till dokument</p> </td> 
    <td> <p>Projektägare</p> </td> 
-   <td> <p>Ett dokument läggs till i ett projekt som jag äger.</p> <p>Projektägaren får ett e-postmeddelande när ett dokument läggs till i projektet, såvida inte den användare som lade till dokumentet också är projektägare.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och dokumentet inte är Privat.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Ett dokument läggs till i ett projekt som jag äger.</p> <p>Projektägaren får ett e-postmeddelande när ett dokument läggs till i projektet, såvida inte den användare som lade till dokumentet också är projektägare.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och dokumentet inte är Privat.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Lägg till problem</p> </td> 
    <td> <p>Projektägare</p> </td> 
-   <td> <p>Ett problem har lagts till i ett projekt som jag äger.</p> <p>Projektägaren får ett e-postmeddelande när ett problem läggs till i projektet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Ett problem har lagts till i ett projekt som jag äger.</p> <p>Projektägaren får ett e-postmeddelande när ett problem läggs till i projektet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -665,7 +665,7 @@ Se även [Meddelanden: Information om projekt som jag äger](../../../workfront-
    <td> <p>Problem</p> </td> 
    <td> <p>Slutförande av problem</p> </td> 
    <td> <p>Projektägare</p> </td> 
-   <td> <p>Ett problem har åtgärdats i ett projekt som jag äger.</p> <p>Projektägaren får ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Ett problem har åtgärdats i ett projekt som jag äger.</p> <p>Projektägaren får ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -714,7 +714,7 @@ Se även [Meddelanden: Information om projekt som jag äger](../../../workfront-
    <td> <p>Problem</p> </td> 
    <td> <p>Ej tilldelat problem Lägg till</p> </td> 
    <td> <p>Projektägare</p> </td> 
-   <td> <p>Ett otilldelat problem läggs till i ett projekt som jag äger.</p> <p>Projektägaren får ett e-postmeddelande när ett ej tilldelat problem läggs till i projektet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>Ett otilldelat problem läggs till i ett projekt som jag äger.</p> <p>Projektägaren får ett e-postmeddelande när ett ej tilldelat problem läggs till i projektet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell eller Planering.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
  </tbody> 
@@ -878,7 +878,7 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
    <td> <p>Projektanvändare</p> </td> 
    <td> <p>Lägg till projektanvändare</p> </td> 
    <td> <p>Resursägare</p> </td> 
-   <td> <p>En av mina medarbetare läggs till i ett projekt.</p> <p>En projektledare får ett e-postmeddelande när en av hans eller hennes direktrapporter läggs till i ett projekt.</p> <p>Användare med en granskningslicens får inget meddelande.</p> </td> 
+   <td> <p>En av mina medarbetare läggs till i ett projekt.</p> <p>En projektledare får ett e-postmeddelande när en av hans eller hennes direktrapporter läggs till i ett projekt.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
