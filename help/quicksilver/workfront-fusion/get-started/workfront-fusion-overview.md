@@ -8,9 +8,9 @@ description: Rollen för [!DNL Adobe Workfront Fusion] är att automatisera proc
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -46,24 +46,34 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Workfront Fusion - översikt
 
 Rollen för [!DNL Adobe Workfront Fusion] är att automatisera processerna så att ni kan koncentrera er på nya uppgifter i stället för att upprepa samma uppgifter om och om igen. Det fungerar genom att länka åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar data automatiskt. Scenariot du skapar letar efter data i en app eller tjänst och bearbetar data för att ge det resultat du vill ha.
 
 Ett scenario består av en serie moduler som anger hur data ska omvandlas i en app eller överföras mellan program och webbtjänster.
 
-Du placerar moduler från olika program och webbtjänster i ett scenario som utför en åtgärd. Till exempel med en [!DNL Workfront Fusion for Work Automation and Integration] kan du skapa ett scenario som söker efter nya data i en app eller webbtjänst och sedan använder dessa data i en efterföljande modul för att skapa ett visst resultat, till exempel för att skapa en ny post. När du har ställt in ett scenario, [!DNL Workfront Fusion] kör uppgiften automatiskt åt dig.
+Du placerar moduler från olika program och webbtjänster i ett scenario som utför en åtgärd. Till exempel med [!DNL Workfront Fusion for Work Automation and Integration] kan du skapa ett scenario som söker efter nya data i en app eller webbtjänst och sedan använder dessa data i en efterföljande modul för att skapa ett visst resultat, till exempel för att skapa en ny post. När du har ställt in ett scenario, [!DNL Workfront Fusion] kör uppgiften automatiskt åt dig.
 
-Om du vill veta mer om tillgängliga [!DNL Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+>[!NOTE]
+>
+>Workfront Fusion stöder endast Chrome-baserade webbläsare.
 
-Mer information om scenarier finns i [Skapa ett scenario för praktikintegrering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+## Resurs
 
-Mer information om moduler finns i [Typer av moduler](../../workfront-fusion/modules/module-types.md).
+När du börjar arbeta med Workfront Fusion kan du få hjälp med följande resurser:
+
+* Mer information om tillgängliga [!DNL Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+* Mer information om scenarier finns i [Skapa ett scenario för praktikintegrering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+
+* Mer information om moduler finns i [Typer av moduler](../../workfront-fusion/modules/module-types.md).
