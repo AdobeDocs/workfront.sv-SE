@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
 ## Adobe Workfront-förbättringar
 
 * [Administratörsförbättringar](#administrator-enhancements)
+* [Hemförbättringar](#home-enhancements)
 * [Projektförbättringar](#project-enhancements)
+* [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
 
@@ -52,6 +54,22 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                         </p>
                     </td>
                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern</a></p>
@@ -66,7 +84,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                                 <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för alla kunder: TBD</p>
+                                <p>Produktion för kvartalsvis utgivning: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -162,7 +180,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                             </li>
                         </ul>
                     </td>
-                    </tr>
+                 </tr>
            </tbody>
         </table>
 
@@ -180,6 +198,42 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att ge dig en kronologisk sammanhängande vy över både kommentarer och systemaktivitetsloggar introducerar vi en tredje flik i uppdateringsområdet för alla objekt. Fliken Alla samlar både användarkommentarer och systemaktivitetskommentarer i en sammanhängande ström.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 22 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: Med version 24.3 (mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig på panelen Sammanfattning</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 22 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: Med version 24.3 (mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
