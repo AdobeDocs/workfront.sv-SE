@@ -3,10 +3,11 @@ content-type: overview
 title: Sammanfattning
 description: Du kan använda panelen Sammanfattning för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgiftsproblem, dokument eller från andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -68,9 +69,9 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
 
 I den här artikeln beskrivs hur du får åtkomst till och använder [!UICONTROL Summary] för uppgifter och problem i listor.
 
-Mer information om åtkomst till [!UICONTROL Summary] i [!UICONTROL Workload Balancer], se [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Mer information om hur du använder [!UICONTROL Summary] i [!UICONTROL Workload Balancer], se [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Mer information om åtkomst till [!UICONTROL Summary] för dokument, se [[!UICONTROL Summary] för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
+Mer information om hur du använder [!UICONTROL Summary] för dokument, se [[!UICONTROL Summary] för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
 
 ## Åtkomstkrav
 
@@ -99,7 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Visa [!UICONTROL Summary] i en lista med uppgifter eller problem
 
@@ -116,7 +117,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Du kan bara välja en aktivitet eller en utgåva åt gången för att visa informationen om dem i [!UICONTROL Summary] -panelen.
 
-   ![Panelen Sammanfattning](assets/summary-panel-for-task.png)
+   ![Panelen Sammanfattning](assets/summary-panel-for-task-new-comments.png)
 
 1. (Valfritt) Stäng [!UICONTROL Summary] gör du något av följande:
 
@@ -136,52 +137,52 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Använd förloppsindikatorn högst upp i [!UICONTROL Summary] om du vill uppdatera procentandelen färdigt för den uppgift eller utgåva som du har valt. Ange ett tal eller dra fältet till rätt procentvärde.
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![Procent färdigt på sammanfattningspanelen](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
-Använd [!UICONTROL Updates] i [!UICONTROL Summary] om du vill visa de senaste uppdateringarna och göra uppdateringar för den uppgift eller utgåva du har valt. Klicka **[!UICONTROL See all]** för att gå direkt till [!UICONTROL Updates] -fliken för uppgiften.
+Använd [!UICONTROL Updates] i [!UICONTROL Summary] om du vill visa de senaste uppdateringarna och göra uppdateringar för den uppgift eller utgåva du har valt. Klicka **[!UICONTROL See all]** går direkt till [!UICONTROL Updates] -fliken för uppgiften.
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-section.png)
 
 ## [!UICONTROL Documents]
 
 Använd [!UICONTROL Documents] i [!UICONTROL Summary] om du vill visa dokument som är kopplade till den uppgift eller det problem du valde. Klicka på miniatyrbilden för att öppna en dokumentförhandsvisning. Gå direkt till [!UICONTROL Documents] klickar du på **[!UICONTROL Documents]** titel.
 
-![](assets/summary-overview-documents-350x84.png)
+![Avsnittet Dokument i panelen Sammanfattning](assets/summary-documents-section.png)
 
 ## [!UICONTROL Details]
 
-Använd [!UICONTROL Details] i [!UICONTROL Summary] om du vill visa detaljer om arbetsuppgift på hög nivå, göra uppdrag eller lägga till startdatum. Klicka **[!UICONTROL See all]** för att gå direkt till [!UICONTROL Details] -fliken för uppgiften eller problemet.
+Använd [!UICONTROL Details] i [!UICONTROL Summary] om du vill visa detaljer om arbetsuppgift på hög nivå, göra uppdrag eller lägga till startdatum. Klicka **[!UICONTROL See all]** går direkt till [!UICONTROL Details] -fliken för uppgiften eller problemet.
 
 >[!NOTE]
 >
 >Fälten som visas i det här avsnittet är samma fält som visas på den högra panelen i Hem. Du kan anpassa dessa fält [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] använda en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![](assets/summary-overview-details-new-350x278.png)
+![Avsnittet Detaljer i panelen Sammanfattning](assets/summary-details-section.png)
 
 ## [!UICONTROL Subtasks]
 
 Det här avsnittet är bara tillgängligt för uppgifter. Använd [!UICONTROL Subtasks] i [!UICONTROL Summary] visa [!UICONTROL New], [!UICONTROL In Progress]och [!UICONTROL Closed] underuppgifter för den valda uppgiften. Klicka på **[!UICONTROL Status]** för att växla mellan olika lägen. Gå direkt till [!UICONTROL Subtasks] klickar du på **[!UICONTROL Subtasks]**&#x200B;.
 
-Om du inte har lagt till några underaktiviteter till uppgiften klickar du på **[!UICONTROL Add one here]** för att gå direkt till [!UICONTROL Subtasks] -fliken för uppgiften.
+Om du inte har lagt till några underaktiviteter till uppgiften klickar du på **[!UICONTROL Add one here]** går direkt till [!UICONTROL Subtasks] -fliken för uppgiften.
 
-![](assets/summary-overview-subtasks-350x140.png)
+![Underaktiviteter i panelen Sammanfattning](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Hours]
 
-Använd [!UICONTROL Hours] i [!UICONTROL Summary] om du vill logga timmar på den uppgift eller det problem du valde. Klicka **[!UICONTROL Log Time]** och ange dina timmar. Om du vill gå direkt till fliken Timmar för uppgiften eller problemet klickar du på **[!UICONTROL Hours]** titel.
+Använd [!UICONTROL Hours] i [!UICONTROL Summary] om du vill logga timmar på den uppgift eller utgåva du har valt. Klicka **[!UICONTROL Log Time]** och ange dina timmar. Om du vill gå direkt till fliken Timmar för uppgiften eller problemet klickar du på **[!UICONTROL Hours]** titel.
 
-Timantal i [!UICONTROL Summary] visar de timmar du loggar. Andra användare har olika timsummor i [!UICONTROL Summary] beroende på när de loggar in.
+Timantal i [!UICONTROL Summary] visar de timmar du loggar. Andra användare har olika timsummor i [!UICONTROL Summary] beroende på när de loggar in på uppgiften.
 
 Om det inte finns några planerade [!UICONTROL hours] på uppgiften eller problemet och du har loggat tid visas timfältet med rött.
 
-![](assets/summary-overview-hours-350x96.png)
+![Avsnittet Timmar i sammanfattningspanelen](assets/summary-hours-section.png)
 
 ## Godkännanden
 
-Använd [!UICONTROL Approvals] i [!UICONTROL Summary] om du vill visa godkännanden som är kopplade till den uppgift eller det ärende du valde. Om du inte har lagt till några godkännanden väljer du ett befintligt godkännande i listrutan eller klickar på **[!UICONTROL Create single-use approval process]** för att gå direkt till [!UICONTROL Approvals] -fliken för uppgiften eller problemet.
+Använd [!UICONTROL Approvals] i [!UICONTROL Summary] om du vill visa godkännanden som är kopplade till den uppgift eller det ärende du valde. Om du inte har lagt till några godkännanden väljer du ett befintligt godkännande i listrutan eller klickar på **[!UICONTROL Create single-use approval process]** går direkt till [!UICONTROL Approvals] -fliken för uppgiften eller problemet.
 
 Gå direkt till [!UICONTROL Approvals] klickar du på **[!UICONTROL Approvals]** titel.
 
-![](assets/summary-overview-approvals-350x122.png)
+![Avsnittet Godkännanden på panelen Sammanfattning](assets/summary-approvals-section.png)

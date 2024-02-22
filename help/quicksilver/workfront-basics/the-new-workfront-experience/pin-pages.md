@@ -3,9 +3,9 @@ navigation-topic: the-new-workfront-experience
 title: Fäst sidor för att anpassa arbetsytan
 description: Du kan fästa ditt viktigaste arbete [!DNL Adobe Workfront] för ökad synlighet, bättre organisation och snabbare åtkomst. Fastnålade sidor är alltid tillgängliga från överkanten på alla sidor i Workfront.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
 
 ## Fäst en sida
 
