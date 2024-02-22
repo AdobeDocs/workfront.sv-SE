@@ -6,18 +6,18 @@ description: Du kan ta bort användare från ett projekt när de inte längre de
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 301c86152340a184345bd39cec77fdcf28258196
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # Ta bort användare från projekt
 
-Du kan ta bort användare från ett projekt när de inte längre deltar i arbetet med projektet. Att ta bort användare från projekt påverkar uppgifter, ärenden och projektroller. Borttagna användare slutar ta emot meddelanden som är avsedda för projektteamet. Mer information om meddelanden för projektteamen finns i [Händelsemeddelanden är tillgängliga i Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Du kan ta bort användare från ett projekt när de inte längre deltar i arbetet med projektet. Att ta bort användare från projekt påverkar uppgifter, ärenden och projektroller. Borttagna användare slutar ta emot meddelanden som är avsedda för projektgruppen. Mer information om meddelanden för projektteamen finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-De användare som är associerade med ett projekt visas i området Personer i ett projekt. De representerar projektteamet. Mer information om projektteamet finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+De användare som är associerade med ett projekt visas i området Personer i ett projekt. De representerar projektteamet. Mer information om projektteamet finns i [Översikt över projektgruppen](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Åtkomstkrav
 
@@ -56,10 +56,10 @@ När en användare tas bort från ett projekt kan uppgifter eller problem som ti
 
 * **Om objektet inte slutförs när användaren tas bort:** Artikeln omtilldelas till en jobbroll om en jobbroll redan har tilldelats, eller om den har tilldelats till den jobbroll som användaren utförde på artikeln. Om artikeln eller användaren inte har tilldelats någon jobbroll måste du tilldela om posten manuellt.
 * **Om objektet slutförs när användaren tas bort:** Namnet på den borttagna användaren finns kvar på objektet.
-* **Om användaren som tas bort även är skaparen av ett projekt:** Projektet tas inte bort från sina **Projekt jag är på** i området Projekt. Projektet tas bort från listorna för alla andra användare som filtrerar projektet efter fältet Anges av.
+* **Om användaren som tas bort även är skaparen av ett projekt:** Projektet tas inte bort från sina **Projekt som jag är på** i området Projekt. Projektet tas bort från listorna för alla andra användare som filtrerar projektet efter fältet Anges av.
 * **Om användaren är projektägare eller sponsor:** Användaren fortsätter att vara sponsor eller ägare av projektet.
 
-## Ta bort användare från ett projekt och projektteamet
+## Ta bort användare från ett projekt och projektgrupp
 
 Du kan ta bort användare från ett projekt genom att ta bort dem från projektgruppen.
 
@@ -69,7 +69,7 @@ När du tar bort användare från deras roller i projektet blir de kvar i projek
 
 Mer information om användarroller i ett projekt finns i [Hantera projektgruppen](../planning-a-project/manage-project-team.md).
 
-Så här tar du bort användare från projektgruppen:
+Så här tar du bort användare från projektteamet:
 
 1. Gå till det projekt där du vill ta bort användarna.
 
@@ -79,4 +79,4 @@ Så här tar du bort användare från projektgruppen:
 
 1. Klicka **Ja, ta bort markerade användare** för att bekräfta borttagningen.
 
-   Användarna tas bort från projektteamet och från ofullständiga uppgifter eller problem som de kan tilldelas till. De får inte längre meddelanden som är avsedda för projektgruppen.
+   Användarna tas bort från projektteamet och från ofullständiga uppgifter eller problem som de kan tilldelas till. De får inte längre meddelanden som är avsedda för projektteamet.

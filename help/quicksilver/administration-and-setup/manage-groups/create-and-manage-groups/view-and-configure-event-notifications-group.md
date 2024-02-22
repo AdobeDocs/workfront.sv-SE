@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: visa,grupp,händelse,meddelanden,konfigurera,aktivera,inaktivera
 navigation-topic: create-and-manage-groups
-title: Visa och konfigurera händelsemeddelanden för en grupp
+title: Visa och konfigurera händelseaviseringar för en grupp
 description: Som gruppadministratör kan du visa händelsemeddelanden som aktiveras för en grupp som du hanterar. Om en Adobe Workfront-administratör låser upp ett händelsemeddelande kan du konfigurera det för en toppnivågrupp som du hanterar. Konfigurationen av ett händelsemeddelande består av att aktivera eller inaktivera det.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
-# Visa och konfigurera händelsemeddelanden för en grupp
+# Visa och konfigurera händelseaviseringar för en grupp
 
 Som gruppadministratör kan du visa händelsemeddelanden som aktiveras för en grupp som du hanterar.
 
@@ -28,7 +28,7 @@ Om du konfigurerar ett händelsemeddelande för en grupp påverkas användare f�
 
 Information om hur en Workfront-administratör låser upp ett händelsemeddelande finns i [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Mer information om standardinställningen för meddelanden för en händelse finns i [Händelsemeddelanden är tillgängliga i Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Mer information om standardinställningen för meddelanden för en händelse finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Åtkomstkrav
 
@@ -53,12 +53,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa och konfigurera en grupps händelsemeddelanden
 
-1. (Villkorligt och valfritt) Om du är Workfront-administratör och redan är på sidan E-postmeddelanden (Inställningar > E-post > Meddelanden) kan du göra följande och sedan gå vidare till steg 6: Ta bort **Systemhändelsemeddelanden** i rutan ovanför listan börjar du skriva gruppnamnet i rutan och klickar sedan på den när den visas.
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. (Villkorligt och valfritt) Om du är Workfront-administratör och redan är på sidan E-postmeddelanden (Konfigurera > E-post > Meddelanden) kan du göra följande och sedan gå vidare till steg 6: Ta bort **Systemhändelsemeddelanden** i rutan ovanför listan börjar du skriva gruppnamnet i rutan och klickar sedan på den när den visas.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
 
-1. Klicka på namnet på den översta gruppen.
+1. Klicka på namnet på gruppen på den översta nivån.
 1. Klicka på **Händelsemeddelanden**.
 
    I listan som visas visas **Aktiv** -kolumnen till vänster visar vilka meddelanden som är aktiva (blå) och inaktiva (grå) för gruppen.
@@ -71,8 +71,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är grå och nedtonad <img src="assets/email-notification-disabled-locked.png">inaktiveras händelsemeddelandet för alla användare och gruppadministratörer kan inte aktivera det eller redigera e-postens ämnesrad
    >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är grå och inte nedtonad <img src="assets/email-notification-disabled-unlocked.png">, är händelsemeddelandet <strong>inaktiveras för alla användare och</strong> gruppadministratörer kan aktivera den för sina grupper.
    >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är blå och nedtonad <img src="assets/email-notification-enabled-locked.png">, aktiveras händelsemeddelandet för alla användare och gruppadministratörer kan inte inaktivera det eller redigera dess ämnesrad för e-post för sina grupper.
-   >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är blå och inte nedtonad <img src="assets/email-notification-enabled-unlocked.png">, är händelsemeddelandet <strong>aktiveras för alla användare och</strong> gruppadministratörer kan inaktivera det för sina grupper.
-
+   >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är blå och inte nedtonad <img src="assets/email-notification-enabled-unlocked.png">, är händelsemeddelandet <strong>aktiverat för alla användare och</strong> gruppadministratörer kan inaktivera det för sina grupper.
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

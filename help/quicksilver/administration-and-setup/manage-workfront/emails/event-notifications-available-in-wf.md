@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Händelsemeddelanden är tillgängliga i Adobe Workfront
+title: Händelsemeddelandetyper
 description: Händelsemeddelanden är e-postmeddelanden som utlöses av olika typer av händelser för objekt som projekt, uppgifter och problem. I den här artikeln listas och beskrivs de tillgängliga typerna av händelsemeddelanden.
 author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '5127'
+source-wordcount: '5121'
 ht-degree: 0%
 
 ---
 
-# Händelsemeddelanden är tillgängliga i Adobe Workfront
+# Händelsemeddelandetyper
 
 <!-- Audited: 1/2024 -->
 

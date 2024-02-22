@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
+source-git-commit: e99dab2bc82dd2c2a64e177cbf0c2bb11973e4f5
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 0%
@@ -656,7 +656,7 @@ ht-degree: 0%
          * [E-post](administration-and-setup/manage-workfront/emails/emails.md)
          * [E-postmeddelanden: artikelindex](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Konfigurera händelsemeddelanden](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [Tillgängliga händelsemeddelanden](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [Händelsemeddelandetyper](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Lås upp händelsemeddelanden för alla grupper](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [Ämnesrader för händelsemeddelanden](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [Ändra användarnas inställningar för e-postmeddelanden](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Lägga till användare i ett projektteam
 
-När du lägger till användare i projektteamet får de behörigheten Visa för projektet och projektets uppgifter, utgåvor och dokument. Mer information finns i artikeln [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+När du lägger till användare i projektteamet får de behörigheten Visa för projektet och projektets uppgifter, utgåvor och dokument. Mer information finns i artikeln [Översikt över projektgruppen](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
@@ -90,7 +90,7 @@ När du lägger till användare i projektteamet får de behörigheten Visa för 
 Du kan lägga till användare i projektteamet på följande sätt:
 
 * [Lägg till användare automatiskt i ett projektteam](#automatically-add-users-to-a-project-team)
-* [Lägg till användare manuellt i ett projektteam](#manually-add-users-to-a-project-team)
+* [Lägga till användare manuellt i ett projektteam](#manually-add-users-to-a-project-team)
 
 ### Lägg till användare automatiskt i ett projektteam {#automatically-add-users-to-a-project-team}
 
@@ -105,11 +105,11 @@ Användare läggs också automatiskt till i projektteamet när de tilldelas föl
 * Uppgifter
 * Problem
 
-### Lägg till användare manuellt i ett projektteam {#manually-add-users-to-a-project-team}
+### Lägga till användare manuellt i ett projektteam {#manually-add-users-to-a-project-team}
 
 Om användare som inte har någon roll i projektet vill få meddelanden om vissa uppdateringar eller ändringar under projektets livslängd kan du lägga till dem manuellt i projektteamet.
 
-Mer information om vilka meddelanden som kan aktiveras för användare i projektteamet finns i [Händelsemeddelanden är tillgängliga i Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Mer information om vilka meddelanden som kan aktiveras för användare i projektteamet finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -121,7 +121,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
 1. Gå till projektet som du vill lägga till användare i.
 
-1. Klicka **Folk** i den vänstra panelen. Du kan behöva klicka **Visa fler** först.
+1. Klicka **Folk** till vänster. Du kan behöva klicka **Visa fler** först.
 
 1. Klicka **Lägg till användare**.
 
@@ -129,7 +129,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. I **Lägg till användare** börjar du skriva namnet på en aktiv Workfront-användare som du vill lägga till i projektteamet och klickar sedan på namnet när det visas i listrutan.
+1. I **Lägg till användare** börjar du skriva namnet på en aktiv Workfront-användare som du vill lägga till i projektteamet och klickar sedan på namnet i listrutan.
 
    Upprepa det här steget om du vill lägga till flera användare i projektteamet. Användarna måste tillhöra den grupp som är associerad med projektet.
 

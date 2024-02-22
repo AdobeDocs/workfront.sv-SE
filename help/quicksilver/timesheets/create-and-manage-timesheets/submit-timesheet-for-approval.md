@@ -6,9 +6,9 @@ description: Om du skickar in tidrapporten för godkännande får din chef insyn
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -76,13 +76,13 @@ Så här skickar du in en tidrapport för godkännande:
 
 Du kan visa status för en tidrapport när du har skickat in den.
 
-Om Workfront-administratören har aktiverat händelsehanterarna Godkännande av tidrapport för användare och Avvisning av tidrapport för användare, meddelas du när tidrapporten har godkänts eller avvisats. Information om hur du aktiverar händelsemeddelanden finns i [Händelsemeddelanden är tillgängliga i Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Om Workfront-administratören har aktiverat händelsehanterarna Godkännande av tidrapport för användare och Avvisning av tidrapport för användare, meddelas du när tidrapporten har godkänts eller avvisats. Mer information om hur du aktiverar händelsemeddelanden finns i [Händelsemeddelandetyper](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Utan dessa meddelanden kan du lära dig mer om status för dina skickade tidrapporter i tidrapportområdet i Workfront.
 
 Så här visar du status för en tidrapport:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 1. Klicka **Tidrapporter**. The **Alla** filtret är markerat som standard.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
@@ -91,15 +91,16 @@ Så här visar du status för en tidrapport:
 
    * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
 
-      eller
+     eller
 
-      Välj **Mina tidrapporter** om du bara vill visa dina tidrapporter.
+     Välj **Mina tidrapporter** om du bara vill visa dina tidrapporter.
 
-      Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
+     Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    * Klicka på ikonen Filter ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
    >Alternativen Mina tidrapportgodkännanden och Mina tidrapporter visas inte högst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtren Mina tidrapportgodkännanden och Mina tidrapporter från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
@@ -107,9 +108,10 @@ Så här visar du status för en tidrapport:
    >   
    >   
    >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   
+   >
 
-
-1. (Villkorligt) Om du har valt **Mina tidrapporter**, se till att **Standard** vyn används och du ser **Status** kolumn.
+1. (Villkorligt) Om du har valt **Mina tidrapporter** måste du se till att **Standard** vyn används och du ser **Status** kolumn.
 
    Tidrapporter kan ha följande status:
 
@@ -146,10 +148,10 @@ Du kan återkalla en tidrapport som redan har skickats in för godkännande. End
 
 Så här återkallar du en tidrapport:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Tidrapporter**.
-1. Klicka **Mina tidrapporter** i skärmens övre högra hörn eller välj **Mina tidrapporter** från **Filter** ![](assets/filter-nwepng.png) nedrullningsbar meny.
+1. Klicka **Mina tidrapporter** i skärmens övre högra hörn eller välj **Mina tidrapporter** från **Filter** ![](assets/filter-nwepng.png) listruta.
 1. Klicka på tidsramen för en tidrapport med statusen **Skickat**.
 1. Klicka **Återkalla**.
 
