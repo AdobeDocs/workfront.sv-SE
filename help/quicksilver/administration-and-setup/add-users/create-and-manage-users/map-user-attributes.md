@@ -3,27 +3,24 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Mappa användarattribut och autodistribuera nya användare
-description: Med enkel inloggning (SSO) kan du skicka attribut från identitetsleverantörens Active Directory till dina Adobe Workfront-användare. Du kan också lägga till nya användare i Workfront med alternativet Automatisk etablering (kallas även Just In Time Provisioning (Tidsetablering) eller JIT).
-author: Caroline
+title: Mappa användarattribut
+description: Med enkel inloggning (SSO) kan du skicka attribut från identitetsleverantörens Active Directory till dina Adobe Workfront-användare.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5b1efd8000417b9368fe3eb9037ac55464579bb4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
 
-# Mappa användarattribut och autodistribuera nya användare
+# Mappa användarattribut
 
-Med enkel inloggning (SSO) kan du skicka attribut från identitetsleverantörens Active Directory till dina Adobe Workfront-användare. Du kan också lägga till nya användare i Workfront med alternativet Automatisk etablering (kallas även Just In Time Provisioning (Tidsetablering) eller JIT).
+<!--Audited 2/2024-->
 
->[!NOTE]
->
->Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.
-
+Med enkel inloggning (SSO) kan du skicka attribut från identitetsleverantörens Active Directory till dina Adobe Workfront-användare.
 
 ## Åtkomstkrav
 
@@ -39,14 +36,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td><p>Nytt: Standard</p><p>eller</p><p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Tips för mappningsattribut
 
@@ -54,11 +54,27 @@ Tänk på följande när du mappar attribut:
 
 * Testa alltid i en förhandsvisningssandlåda eller i en CR-sandlåda (Customer Refresh).
 * Testa med både administratörskonton och icke-administratörskonton för att bekräfta att du mappar attribut korrekt.
-* Attribut mappas varje gång en användare loggar in på Workfront via enkel inloggning, inte bara under automatisk etablering.
+* Attribut som mappas tillämpas varje gång en användare loggar in via enkel inloggning.
 
-## Mappa användarattribut och autodistribuera nya användare
+  Exempel: Om du mappar&quot;efternamn&quot; och uppdaterar deras namn i Workfront utan att uppdatera värdet i deras identitetsleverantör, skrivs efternamnet över så att det matchar värdet i identitetsleverantören nästa gång användaren loggar in.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+## Mappa användarattribut för din organisation
+
+Hur du mappar attribut varierar beroende på om din organisation använder den enhetliga upplevelsen i Adobe.
+
+Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan du kontrollera den URL som du använder för att få tillgång till Workfront.
+
+| URL | Adobe Experience |
+|---|---|
+| (CompanyName).my.workfront.com | Klassisk erfarenhet |
+| experience.adobe.com | Adobe enhetliga upplevelse |
+
+* [Mappa användarattribut i den klassiska upplevelsen](#map-user-attributes-in-the-classic-experience)
+* [Mappa användarattribut i Adobe enhetliga upplevelse](#map-user-attributes-in-the-adobe-unified-experience)
+
+### Mappa användarattribut i den klassiska upplevelsen
+
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System** > **enkel inloggning (SSO)**.
 
@@ -68,25 +84,14 @@ Tänk på följande när du mappar attribut:
 
    ![](assets/map-user-attributes.png)
 
-1. (Valfritt) Om du vill att Workfront ska skapa nya användare från din Active Directory automatiskt klickar du på **Automatisk etablering av användare**.
-
-   Den här funktionen kräver attributmappning.
-
 1. I den rad med alternativ som visas mappar du de attribut du behöver för dina Workfront-användare.
 
    Du kan mappa attribut som adress, chef, jobbroll, hemgrupp och så vidare.
 
-   Attributmappningar fungerar med ett 1:1-förhållande. Du kan till exempel inte ange alla grupper som en användare tillhör; du bara kan ange en per användare.
+   Attributmappningar fungerar med ett 1:1-förhållande. Du kan till exempel inte ange alla grupper som en användare tillhör. Du kan bara ange en per användare.
 
    >[!IMPORTANT]
    >
-   >Följande attribut krävs för varje användare:
-   >      
-   >* Förnamn
-   >* Efternamn
-   >* E-postadress
-
-   >      
    >Vi rekommenderar inte att du mappar åtkomstnivåer i attributmappningar. Om du gör det ska du vara försiktig när du anger standardvärdet för att vara säker på att du inte tar bort Admin Access av misstag.
 
    I följande tabell förklaras de fält som du kan använda för att mappa attribut:
@@ -101,7 +106,7 @@ Tänk på följande när du mappar attribut:
      </tr> 
      <tr> 
       <td role="rowheader">Katalogattribut</td> 
-      <td>Skriv den SSO-attributetikett som du vill använda./td&gt; 
+      <td>Skriv den SSO-attributetikett som du vill använda.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Standardvärde</td> 
@@ -116,7 +121,52 @@ Tänk på följande när du mappar attribut:
    1. I de två fälten till höger anger du värdet för katalogattributet och det värde som du vill ersätta det med.
 
       ![](assets/rule-fields.png)
-   Du kan klicka **Lägg till regel** om du vill lägga till fler regler i attributet.
+
+   Klicka **Lägg till regel** om du vill lägga till fler regler i attributet.
 
 1. (Valfritt) Om du vill mappa fler användarattribut klickar du på **Lägg till mappning** och upprepa steg 6-7.
 1. Klicka **Spara**.
+
+### Mappa användarattribut i Adobe enhetliga upplevelse
+
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-left.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+
+1. Klicka **System** > **enkel inloggning (SSO)**.
+
+1. Välj **Adobe** -fliken.
+
+1. (Valfritt och villkorligt) Om din organisation har konfigurerat attributmappning i den klassiska upplevelsen och du vill kopiera den attributmappningen till den enhetliga upplevelsen i Adobe klickar du på **Migrera mappningar**. Du kan sedan ta bort, ta bort eller redigera mappningarna.
+
+   >[!NOTE]
+   >
+   >Vi rekommenderar att du migrerar mappningar första gången du konfigurerar mappningar i den enhetliga Adobe-upplevelsen. Det skadar inte att migrera dem igen senare, men det är inte nödvändigt att migrera dem mer än en gång.
+
+1. Om du vill skapa en ny attributmappning klickar du på **Lägg till mappning**.
+
+1. Klicka på pilen bredvid fältnamnet för Workfront och välj [!DNL Workfront] fält som du vill mappa till.
+
+1. (Valfritt) Om du vill skapa mer än en regel för ett visst fält klickar du på pilen bredvid **Alltid** och välj den operator som du vill att regeln ska använda.
+
+1. (Villkorligt) Om du har valt en operator förutom Alltid, markerar du fältet Workfront och värdet som operatorn gäller för.
+
+   >[!NOTE]
+   >
+   >Operatorerna `Is Truthy` och `Is Falsy` kräver inga värden.
+
+1. Välj om du vill använda värdet för ett attribut i din identitetshanterare på fältet Workfront eller om du vill använda ett visst konstantvärde.
+
+1. Ange namnet på det identitetshanteringsfält som du vill använda, eller ange texten för det konstanta värde som du vill använda.
+
+1. (Valfritt) Om du vill lägga till fler regler för samma Workfront-fält klickar du på **Lägg till ny regel** och följ steg 4-9.
+
+   >[!IMPORTANT]
+   >
+   > * Alla linjer under och alltid kommer att ignoreras. Om du har en regel för alltid måste du flytta den längst ned i listan med regler. Du kan flytta regler i listan genom att klicka på menyn med tre punkter till höger om linjen och flytta regeln uppåt eller nedåt.
+   > * Om du vill skapa en linje mitt i listan klickar du på menyn med tre punkter bredvid den linje som du vill ska vara ovanför eller nedanför den nya linjen och väljer **Lägg till linje ovanför** eller **Lägg till linje nedanför**.
+
+1. Om du vill ta bort en regel klickar du på menyn med tre punkter bredvid regeln som du vill ta bort och väljer **Ta bort**.
+1. Om du vill ta bort en koppling klickar du på **Ta bort** som finns på kortet för den mappningen.
+
+1. Bläddra till sidans överkant och klicka på **Spara**.
+
+
