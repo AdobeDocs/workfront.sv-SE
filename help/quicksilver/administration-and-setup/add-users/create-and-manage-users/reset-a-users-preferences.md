@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ När du återställer användarinställningarna återställs vissa inställninga
   </tr> 
   <tr> 
    <td>Användarinställningar</td> 
-   <td> <p>Återställd till systemstandard</p> <p>E-postmeddelanden återställs till systemets standardinställningar.</p> </td> 
+   <td> <p>Återställd till systemstandard</p> <p>E-postmeddelanden återställs till systemets standardinställningar. Standardmeddelandena visas i <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Händelsemeddelanden är tillgängliga i Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Användardefinierade anpassade flikar</td> 

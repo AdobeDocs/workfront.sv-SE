@@ -6,9 +6,9 @@ description: För att effektivt hitta arbetsobjekt och fokusera på de användar
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2452'
+source-wordcount: '2488'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Som resurshanterare kan du använda arbetsbelastningsutjämnaren för att visa o
 >
 >För att effektivt hitta arbetsobjekt och fokusera på de användare eller objekt du hanterar rekommenderar vi att du använder filter i Utjämning av arbetsbelastning. På så sätt kan du visa rätt information innan du börjar hantera tilldelningarna av dina resurser.
 >
->När du sparar och använder ett nytt filter och sedan navigerar bort från arbetsbelastningsutjämnaren, bevaras filtret även när du har loggat ut och loggat in igen.
+>När du sparar och använder ett nytt filter, och sedan navigerar bort från arbetsbelastningsutjämnaren, bevaras filtret även när du har loggat ut och loggat in igen.
 
 Den här artikeln innehåller information om filter i Utjämning av arbetsbelastning. Mer information om filter i Workfront finns i [Översikt över filter](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -205,6 +205,10 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
       > När du vill visa arbetsobjekt från en viss portfölj kan du använda följande filter:&quot;Portfolio name contains marketing&quot;. Här visas arbetsuppgifter som tillhör en portfölj som innehåller&quot;marknadsföring&quot; i namnet.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >Om du vill exkludera projekt med statusen Spärrat måste du använda följande filter: &quot;Projekt: Status är inte lika med Spärrat&quot;. Detta förhindrar att arbetsobjekt från projekt som är parkerade visas i arbetsbelastningsutjämnaren.
 
    1. (Valfritt) Klicka på **Ta bort** icon ![](assets/delete.png) för att ta bort filtervillkor.
 
