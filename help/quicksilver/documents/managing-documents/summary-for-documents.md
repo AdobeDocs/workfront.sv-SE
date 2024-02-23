@@ -7,14 +7,16 @@ description: Med Sammanfattning kan du interagera med viktig information direkt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 9e05e0162386a2724b83051d05a53a9a2d7c7ab5
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
 # Sammanfattning av dokumentöversikt
+
+{{highlighted-preview}}
 
 Med Sammanfattning kan du interagera med viktig information direkt från dokumentlistan.
 
@@ -54,20 +56,20 @@ Du måste ha följande:
 1. Gå till **Dokument** och markera ett objekt i listan.
 1. Klicka på **Ikonen Öppna sammanfattning** ![](assets/qs-summary-in-new-toolbar-small.png).
 
-   När du har öppnat Sammanfattning förblir den öppen när du klickar på andra dokument och är öppen tills du stänger den manuellt.
+   När du har öppnat sammanfattningen förblir den öppen när du klickar på andra dokument och är öppen tills du stänger den manuellt.
 
    ![](assets/summary-details-350x585.png)
 
-## Detaljer
+## Information
 
-Använd detaljavsnittet för att visa översiktsinformation på hög nivå och interagera med anpassade formulär. Klicka **Detaljer** överst i avsnittet för att gå till den fullständiga dokumentinformationssidan.
+Använd detaljavsnittet för att visa översiktsinformation på hög nivå och interagera med anpassade formulär. Klicka **Information** överst i avsnittet för att gå till den fullständiga dokumentinformationssidan.
 
-* [Översikt](#overview)
+* [Ökning](#overview)
 * [Anpassad Forms](#custom-forms)
 
 ![](assets/copy-of-doc-summary-details-section-350x404.png)
 
-### Översikt {#overview}
+### Ökning {#overview}
 
 Expandera avsnittet Översikt om du vill visa eller ladda ned en miniatyrbild, öppna ett korrektur, uppdatera den grundläggande beskrivningen, checka ut dokumentet med mera.
 
@@ -83,6 +85,14 @@ Använd sektionen Anpassad Forms för att lägga till, redigera eller visa anpas
 
 Använd uppdateringsavsnittet för att läsa en uppdatering som gjorts i dokumentet eller korrekturet. Sammanfattningen visar de två första kommentarerna som gjorts. Mer information om uppdateringar finns i [Kommentera ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
+<div class="preview">
+
+Exempel på uppdateringar i förhandsvisningsmiljön:
+![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-section-new-comments.png)
+
+</div>
+
+Exempel på uppdateringar i produktionsmiljön:
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Godkännanden
@@ -101,7 +111,7 @@ Bevisgodkännanden måste läggas till i korrekturarbetsflödet. Mer information
 Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på **Menyn Mer** till
 
 * Öppna ett korrektur
-* Hämta ett korrektur eller dokument
+* Ladda ned ett korrektur eller dokument
 * Förhandsgranska ett dokument som stöds av webbläsaren
 * Gå till Dokumentinformation
 * Ta bort ett korrektur eller dokument

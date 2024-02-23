@@ -6,14 +6,16 @@ description: Du kan öppna panelen Sammanfattning i Utjämning av arbetsbelastni
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen
+
+{{highlighted-preview}}
 
 Du kan använda panelen Sammanfattning för en uppgift eller ett problem för att uppdatera viktig information för det objektet. i Utjämning av arbetsbelastning.
 
@@ -68,11 +70,11 @@ Du måste ha följande:
 
    Gå till **Tilldelat arbete** , expandera en användare och hitta en arbetsuppgift.
 
-1. Klicka på fältet för en uppgift eller ett problem för att öppna sammanfattningspanelen till höger
+1. Klicka på fältet för en uppgift eller ett problem för att öppna sammanfattningspanelen till höger.
 
    eller
 
-   Klicka **Öppna sammanfattning** icon ![](assets/summary-panel-icon.png)klickar du sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning
+   Klicka **Öppna sammanfattning** icon ![](assets/summary-panel-icon.png)klickar du sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
 
    eller
 
@@ -80,7 +82,15 @@ Du måste ha följande:
 
    Panelen Sammanfattning öppnas till höger.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   Exempel på panelen Sammanfattning i förhandsvisningsmiljön:
+   ![Panelen Sammanfattning](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   Exempel på panelen Sammanfattning i produktionsmiljön:
+   ![Panelen Sammanfattning](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Ändra ett antal fält för arbetsuppgiften, ange en uppdatering eller navigera härifrån till andra områden i Workfront för att lägga till dokument eller annan information till arbetsposten.
 
