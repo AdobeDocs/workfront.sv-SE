@@ -5,14 +5,16 @@ description: Du kan använda panelen Sammanfattning för att granska och uppdate
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Summary] översikt
+
+{{highlighted-preview}}
 
 Du kan använda [!UICONTROL Summary] för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgiftsproblem, dokument eller andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
 
@@ -117,7 +119,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Du kan bara välja en aktivitet eller en utgåva åt gången för att visa informationen om dem i [!UICONTROL Summary] -panelen.
 
+   <div class="preview">
+
+   Exempel på panelen Sammanfattning i förhandsvisningsmiljön:
    ![Panelen Sammanfattning](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   Exempel på panelen Sammanfattning i produktionsmiljön:
+   ![Panelen Sammanfattning](assets/summary-panel-for-task.png)
 
 1. (Valfritt) Stäng [!UICONTROL Summary] gör du något av följande:
 
@@ -143,7 +153,15 @@ Använd förloppsindikatorn högst upp i [!UICONTROL Summary] om du vill uppdate
 
 Använd [!UICONTROL Updates] i [!UICONTROL Summary] om du vill visa de senaste uppdateringarna och göra uppdateringar för den uppgift eller utgåva du har valt. Klicka **[!UICONTROL See all]** går direkt till [!UICONTROL Updates] -fliken för uppgiften.
 
+<div class="preview">
+
+Exempel på uppdateringar i förhandsvisningsmiljön:
 ![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-section.png)
+
+</div>
+
+Exempel på uppdateringar i produktionsmiljön:
+![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documents]
 

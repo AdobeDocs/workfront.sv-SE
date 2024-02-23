@@ -7,15 +7,17 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
 
 
 # Översikt över uppdateringsavsnittet
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -42,14 +44,25 @@ ht-degree: 0%
 >Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar objekt från följande områden:
 >
 > * Startsida
+> * Panelen Sammanfattning i listor
 > * Sammanfattningspanelen i tidrapporter
 > * Panelen Sammanfattning i Utjämning av arbetsbelastning
+>
+><span class="preview">Den nya kommentarsfunktionen är tillgänglig på panelen Sammanfattning i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsvisningsmiljön.</span>
 
 ## Översikt över uppdateringsavsnittet
 
 I uppdateringsavsnittet för ett objekt visas systemuppdateringar och upp till 200 av de senaste uppdateringarna som användare har gjort under de senaste 90 dagarna.
 
+<div class="preview">
+
+Exempel på uppdateringsavsnittet i förhandsvisningsmiljön:
 ![Uppdateringsavsnitt](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+
+</div>
+
+Exempel på uppdateringsavsnittet i produktionsmiljön:
+![Uppdateringsavsnitt](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du hitta följande i uppdateringsavsnittet:
 
@@ -89,19 +102,25 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 
 ### Översikt över uppdateringsavsnittet i den nya kommentarsfunktionen
 
+<div class="preview">
+
+Exempel på uppdateringsavsnittet i förhandsvisningsmiljön:
 ![Uppdateringsavsnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+
+</div>
+
+Exempel på uppdateringsavsnittet i produktionsmiljön:
+![Uppdateringsavsnitt](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
 >Den nya kommentarsfunktionen är inte tillgänglig för upprepningar.
 
-
 * I uppdateringsavsnittet visas information på följande flikar i den nya kommentarsfunktionen:
-
 
    * **Kommentar**: Visar kommentarer från användare och svar på dessa kommentarer. Använd fliken Kommentarer för att lägga till nya kommentarer eller svara på befintliga kommentarer. Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Till exempel hämtas ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alla (skrivskyddad)**: Visar både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning. Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en viss kommentar använder du länken från fliken Alla till fliken Kommentarer. Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+   * <span class="preview">**Alla (skrivskyddad)**: Visar både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning. Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en viss kommentar använder du länken från fliken Alla till fliken Kommentarer. Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * Följande objekt saknar fliken Systemaktivitet:
 
