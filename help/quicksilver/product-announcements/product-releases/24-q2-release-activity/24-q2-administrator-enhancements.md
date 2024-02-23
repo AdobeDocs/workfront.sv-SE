@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 - administratörsförbättringar
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
+source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ Den här sidan beskriver alla administratörsförbättringar som gjorts i andra 
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-<!--## Attribute mapping now available for organizations that have migrated to Adobe IMS
+## Attributmappning är nu tillgänglig för organisationer som har migrerat till Adobe IMS
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for all customers: February 22, 2024
+>Förhandsversion: 22 februari 2024; Produktion för alla kunder: 22 februari 2024
 
-Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.
+Workfront systemadministratörer kan nu konfigurera mappning av användarattribut för organisationer som har migrerat till Adobe IMS. Detta gör att användarinformation kan skickas till Workfront från organisationens SSO-leverantör (Single Sign-on), så att användarens data inte behöver anges i både Workfront och SSO-providern.
 
-Previously, this functionality was only available to organizations that had not yet been onboarded to Adobe IMS.
+Tidigare var den här funktionen bara tillgänglig för organisationer som ännu inte börjat använda Adobe IMS.
 
-For instructions on configuring attribute mapping, see **Map user attributes in the Adobe unified experience** in the article [Map user attributes and auto-provision new users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).-->
+Instruktioner om hur du konfigurerar attributmappning finns i **Mappa användarattribut i Adobe enhetliga upplevelse** i artikeln [Mappa användarattribut och autodistribuera nya användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern
 
