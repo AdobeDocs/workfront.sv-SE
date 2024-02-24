@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Hemförbättringar](#home-enhancements)
 * [Projektförbättringar](#project-enhancements)
+* [Uppdatera ström- och meddelandeförbättringar](#update-stream-and-notification-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -184,7 +185,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
            </tbody>
         </table>
 
-### Andra förbättringar
+### Uppdatera ström- och meddelandeförbättringar
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att ge dig en kronologisk sammanhängande vy över både kommentarer och systemaktivitetsloggar introducerar vi en tredje flik i uppdateringsområdet för alla objekt. Fliken Alla samlar både användarkommentarer och systemaktivitetskommentarer i en sammanhängande ström.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>För att ge dig en kronologisk sammanhängande vy över både kommentarer och systemaktivitetsloggar introducerar vi en tredje flik i uppdateringsområdet för alla objekt. Fliken Alla samlar både användarkommentarer och systemaktivitetskommentarer i en sammanhängande ström.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -220,7 +221,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig på panelen Sammanfattning</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig på panelen Sammanfattning</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -234,6 +235,25 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### Andra förbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
