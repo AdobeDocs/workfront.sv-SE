@@ -7,14 +7,16 @@ description: I den här artikeln beskrivs layouten för tidrapporter i Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Översikt över tidrapportslayout
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -119,6 +121,14 @@ Du kan logga flera timposter för samma arbetsuppgift för olika timtyper. Mer i
 
 ## Uppdateringsområdet i den vänstra panelen
 
+<div class="preview">
+
+Exempel i förhandsvisningsmiljön:
+![Uppdateringsområdet i den vänstra tidrapportpanelen](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+Exempel i produktionsmiljön:
 ![Uppdateringsområdet i den vänstra tidrapportpanelen](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Du kan kommentera i en tidrapport för att kommunicera med tidrapportgodkännare eller andra användare i uppdateringsavsnittet på den vänstra panelen i tidrapporten.
