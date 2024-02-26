@@ -4,7 +4,7 @@ description: Din åtkomst till Adobe Maestro beror på vilken licenstyp du har, 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 62491ee9a8ee6982e104f59e99f182a0f059dc07
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -43,8 +43,8 @@ I följande tabell beskrivs relationen mellan en användares licenstyp och den b
 | Licenstyp | Tillåtna behörigheter till Maestro-objekt |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan skapa och hantera arbetsytor, posttyper och poster. |
-| Ny: ljus <br> eller <br>Aktuell: Arbete och granskning | Användare kan bidra med och visa en arbetsyta som delas med dem samt posttyper och poster från den arbetsytan.  Användare kan skapa, redigera och ta bort poster på arbetsytorna där de har Contribute-behörighet. |
-| Nytt: Medarbetare <br> eller <br>Aktuell: Beställare | Användarna kan visa de arbetsytor som delas med dem samt deras posttyper och poster. Användarna kan inte skapa, redigera eller ta bort posttyper eller poster. |
+| Ny: ljus <br> eller <br>Aktuell: Arbete | Användare kan bidra med och visa en arbetsyta som delas med dem samt posttyper och poster från den arbetsytan.  Användare kan skapa, redigera och ta bort poster på arbetsytorna där de har Contribute-behörighet. |
+| Nytt: Medarbetare <br> eller <br>Aktuell: Granskare eller begärande | Användarna kan visa de arbetsytor som delas med dem samt deras posttyper och poster. Användarna kan inte skapa, redigera eller ta bort posttyper eller poster. |
 
 
 
