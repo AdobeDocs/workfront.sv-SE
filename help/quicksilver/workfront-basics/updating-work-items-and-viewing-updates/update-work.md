@@ -6,14 +6,16 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4226'
 ht-degree: 0%
 
 ---
 
 # Uppdatera arbete
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * Panelen Sammanfattning i listor
 > * Sammanfattningspanelen i tidrapporter
 > * Panelen Sammanfattning i Utjämning av arbetsbelastning
+>
+><span class="preview">Den nya kommentarsfunktionen är tillgänglig på panelen Sammanfattning i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsvisningsmiljön.</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -234,8 +238,17 @@ Du kan lägga till uppdateringar för följande objekt:
 1. (Villkorligt) Om **Nya kommentarer** är inaktiverat, klicka för att aktivera det.
 
    Detta möjliggör den nya kommentarsfunktionen. The **Kommentar** -fliken är markerad som standard.
+
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
+   <div class="preview">
+
+   Exempel på en ny kommentarsruta i förhandsvisningsmiljön:
+   ![Ny kommentarruta](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   Exempel på en ny kommentarsruta i produktionsmiljön:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ Du kan lägga till uppdateringar för följande objekt:
 
 1. (Valfritt) Klicka på **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När objektet eller något av dess underordnade objekt uppdateras, genererar Workfront en anteckning om den uppdateringen och visar den på fliken Systemaktivitet.
 
-   Mer information finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   Mer information finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >Du kan inte lägga till en kommentar i en systemuppdatering.
+
+1. <span class="preview">(Valfritt) Klicka på **Alla** om du vill visa både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en kommentar på fliken Alla klickar du **Svara i kommentarer** om du vill öppna kommentaren på fliken Kommentarer.</span>
 
 ## Använda RTF i en Workfront-uppdatering{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett 
 
    >[!NOTE]
    >
-   >   Du kan bara söka efter ord som tillhör texten i en kommentar eller ett svar. Du kan inte söka efter namn på användare eller team som taggats i en uppdatering.
+   >Du kan bara söka efter ord som tillhör texten i en kommentar eller ett svar. Du kan inte söka efter namn på användare eller team som taggats i en uppdatering.
 
+   <div class="preview">
+
+   Exempel på sökning i förhandsvisningsmiljön:
+   ![Sök i uppdateringar](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   Exempel på sökning i produktionsmiljön:
    ![](assets/search-field-in-updates-tab.png)
 
    Nyckelordet <!--or user--> som du sökte efter markeras och kommentarerna som innehåller den visas högst upp i uppdateringsavsnittet.
