@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 4148e329c8cef32ea8564aace06a09aa6fa1771e
+source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
 workflow-type: tm+mt
-source-wordcount: '5394'
+source-wordcount: '5492'
 ht-degree: 0%
 
 ---
@@ -72,22 +72,72 @@ The [!DNL Workfront] för att ansluta till [!DNL Workfront].
 
 Du kan skapa en anslutning till [!DNL Workfront] direkt inifrån ett [!DNL Workfront Fusion] -modul.
 
-1. I alla [!DNL Workfront] programmodul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] box.
-1. Ange namnet på instansen i URL:en. Exempel: `https://<your instance>.my.workfront.com`.
-1. Klicka på **[!UICONTROL Next]**.
-1. Klicka **[!UICONTROL SAML log in]** för att skapa anslutningen och gå tillbaka till modulen.
+1. Klicka på en Adobe Authenticator-modul **Lägg till** bredvid fältet Anslutning.
+1. Fyll i följande fält:
 
-   eller
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Ange ett namn för den nya anslutningen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Välj om du ansluter till en produktionsmiljö eller icke-produktionsmiljö.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>Ange om du ansluter till ett tjänstkonto eller ett personligt konto.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Ange [!DNL Workfront] Klient-ID. Detta finns under OAuth2-program under Konfigurera i Workfront. Öppna det program du ansluter till för att se klient-ID:t.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Ange [!DNL Workfront] Klient-ID. Detta finns under OAuth2-program under Konfigurera i Workfront. Öppna det program du ansluter till för att se klient-ID:t.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>Detta kan vara standardvärdet eller så kan du ange URL:en för din Workfront-instans följt av <code>/integrations/oauth2</code>. <p>Exempel: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Host prefix]</td>
+        <td>I de flesta fall bör värdet vara <code>origin</code>.
+      </tr>
+    </tbody>
+    </table>
 
-   Ange ditt användarnamn och lösenord och klicka sedan på **[!UICONTROL Log in]** för att skapa anslutningen och gå tillbaka till modulen.
+1. Klicka **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
-   >[!NOTE]
-   >
-   >* Om du inte ser någon inloggningsknapp för SAML har din organisation inte aktiverat enkel inloggning (SSO). Du kan logga in med ditt användarnamn och lösenord.
-   >   
-   >   Mer information om enkel inloggning finns i [Översikt över enkel inloggning [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-   >   
-   >* OAuth 2.0-anslutningar till [!DNL Workfront] API är inte längre beroende av API-nycklar.
+
+
+
+<!--1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
+1. Click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
+
+   Or
+
+   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.-->
+
+>[!NOTE]
+>
+>* Om du inte ser någon inloggningsknapp för SAML har din organisation inte aktiverat enkel inloggning (SSO). Du kan logga in med ditt användarnamn och lösenord.
+>   
+>   Mer information om enkel inloggning finns i [Översikt över enkel inloggning [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+>   
+>* OAuth 2.0-anslutningar till [!DNL Workfront] API är inte längre beroende av API-nycklar.
 
 ## [!DNL Workfront] moduler och deras fält
 
