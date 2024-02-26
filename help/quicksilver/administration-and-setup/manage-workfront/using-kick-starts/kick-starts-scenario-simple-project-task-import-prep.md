@@ -9,14 +9,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
 
-# Scenario: enkel import av projekt och uppgifter
+# Startscenario: enkel import av projekt och uppgifter
 
 Beskriver i detalj de tillgängliga inställningarna och kontrollerna för ett grundläggande projekt- och uppgiftsimport med hjälp av metoden Snabbstart.
 
@@ -42,7 +42,7 @@ Det här scenariot förutsätter att användare redan har importerats till Adobe
    | Grupp | Marknadsföring |
    | Företag | *Ditt företag* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implementera HR System.
 
@@ -53,7 +53,7 @@ Det här scenariot förutsätter att användare redan har importerats till Adobe
    | Grupp | Marknadsföring |
    | Företag | *Ditt företag* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implementera dokumenthanteringssystemet.
 
@@ -64,7 +64,7 @@ Det här scenariot förutsätter att användare redan har importerats till Adobe
    | Grupp | IT |
    | Företag | *Ditt företag* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Implementera det nya kalendersystemet.
 
@@ -75,7 +75,7 @@ Det här scenariot förutsätter att användare redan har importerats till Adobe
    | Grupp | IT |
    | Företag | *Ditt företag* |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ### Uppgiftslista {#task-list}
 
@@ -85,7 +85,7 @@ I följande uppgiftslista visas alltför förenklade uppgiftslistor för projekt
 
 >[!NOTE]
 >
->Instruktionerna i det här scenariot är inte så tydliga som de stegvisa instruktionerna i [Scenario: Förberedelser för företag, grupper, roller och användares snabbstart](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Du förutsätts redan ha lärt dig hur du söker upp och kopierar värden från företag- och gruppbladen, så dessa steg kommer att nämnas, men inte beskrivas särskilt.
+>Instruktionerna i det här scenariot är inte så tydliga som de stegvisa instruktionerna i [Scenario med snabb start: Förberedelser för företag, grupper, roller och användare har startats](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Du förutsätts redan ha lärt dig hur du söker upp och kopierar värden från företag- och gruppbladen, så dessa steg kommer att nämnas, men inte beskrivas särskilt.
 
 1. Konfigurera.
 1. Importera användare.
@@ -233,12 +233,12 @@ I följande uppgiftslista visas alltför förenklade uppgiftslistor för projekt
     </tbody> 
    </table>
 
-1. Rulla ut.
+1. Kom ut.
 
    | Pred | 1, 6, 7 |
    |---|---|
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Utbilda användare.
 
@@ -269,7 +269,7 @@ I följande uppgiftslista visas alltför förenklade uppgiftslistor för projekt
     </tbody> 
    </table>
 
-## Hämta mall
+## Ladda ned mall
 
 Gå till Startsidan. Markera objekten Företag, Grupp, Projekt, Aktivitet och Användare. Markera kryssrutan Inkludera befintliga data (gör detta för att snabbt referera till företags-, grupp- och användar-ID). Klicka på knappen Hämta.
 
@@ -278,12 +278,7 @@ Gå till Startsidan. Markera objekten Företag, Grupp, Projekt, Aktivitet och An
 Öppna filen Workfront.xlsx som du just laddat ned. Gå till PROJ-projektbladet.
 
 ![](assets/im2-350x14.png)\
-Om du inte redan har skapat projekt i Workfront ska det vara tomt.\
-![](assets/im3-350x37.png)
-
->[!NOTE]
->
->Du kan använda kalkylbladets verktyg för att frysa rutor och/eller dölja eller ta bort kolumner som inte behövs för att göra kalkylbladet enklare att använda. Tänk dock på att inte ta bort kolumner eller kolumner som behövs för att använda dem senare.
+Om du inte redan har skapat projekt i Workfront ska det vara tomt.
 
 ![](assets/im10-350x42.png)
 
@@ -297,18 +292,18 @@ Ange ett unikt ID i varje rad för ID-kolumnen - Vanligtvis fungerar heltal som 
 Ange namnen på varje projekt i kolumnen setName.
 * **Ange projektschema**
 
-   Ange ID:t för schemat som du vill att projektet ska använda i fältet setScheduleID
+  Ange ID:t för schemat som du vill att projektet ska använda i fältet setScheduleID
 
 * **Ange projektets planerade startdatum**
 
-   Ange datum och tid i kolumnen setPlannedStartDate med tiden och datumet då du vill att projektet ska starta. Om det lämnas tomt importerar Workfront projektet med dagens datum och en tidsstämpel på dagens midnatt enligt webbläsarens tidszon.
+  Ange datum och tid i kolumnen setPlannedStartDate med tiden och datumet då du vill att projektet ska starta. Om det lämnas tomt importerar Workfront projektet med dagens datum och en tidsstämpel på dagens midnatt enligt webbläsarens tidszon.
 
 * **Ange aktivitetsnummer**
 Ange värden i kolumnen setTaskNumber för att styra i vilken ordning uppgifterna ska visas i projektplanen.
 * **Ange projektdatum.**
 Ange planerat startdatum för varje projekt i kolumnen setPlannedStartDate.
-* **Ange andra nödvändiga detaljer.**
-Fyll i annan information, t.ex. en beskrivning eller aktuell status, efter behov. Leta upp grupp-ID:n för varje projekt på GROUP Group-bladet och ange dem i kolumnen setGroupID för respektive projekt. Leta upp företags-ID för projekten på CMPY Company-bladet och ange det i kolumnen setCompanyID. Leta upp användar-ID för varje projektägare på användarbladet för ANVÄNDARE och ange det i kolumnen setOwnerID. Leta upp användar-ID för varje projektsponsor på användarbladet för ANVÄNDARE och ange det i kolumnen setSponsorID.
+* **Ange annan information som behövs.**
+Fyll i annan information, till exempel en beskrivning eller aktuell status, efter behov. Leta upp grupp-ID:n för varje projekt på GROUP Group-bladet och ange dem i kolumnen setGroupID för respektive projekt. Leta upp företags-ID för projekten på CMPY Company-bladet och ange det i kolumnen setCompanyID. Leta upp användar-ID för varje projektägare på användarbladet för ANVÄNDARE och ange det i kolumnen setOwnerID. Leta upp användar-ID för varje projektsponsor på användarbladet för ANVÄNDARE och ange det i kolumnen setSponsorID.
 
 ![](assets/im9-350x24.png)
 
@@ -334,12 +329,12 @@ Det enklaste sättet att mappa uppgifter är ett projekt i taget (särskilt när
 
 Ange värden för följande aktivitetsfält:
 
-* **Ange ID**
+* **Ange ID:n**
 Ange ett unikt ID i varje rad för ID-kolumnen.
 * **Ange namn**
 Ange uppgiftsnamnen i kolumnen setName.
 * **Bekräfta projekt-ID**
-Ange det ID som du anger för Implementera Workfront-projektet. Granska PROJ-projektbladet för att kontrollera att det är rätt ID.
+Ange det ID som du angett för projektet Implementera Workfront. Kontrollera att det är rätt ID i PROJ-projektbladet.
 * **Ange användare**
 Gå till användarbladet för ANVÄNDARE för att leta upp ID:t för användaren som tilldelats varje uppgift och ange dessa värden i respektive celler i kolumnen setAssignedToID.
 * **Identifiera aktivitetsrelationer**
@@ -347,33 +342,33 @@ För uppgifter 2 till 5 anger du 1 i kolumnen setParentID. För uppgift 9 anger 
 * **Ange varaktighet**
 Ange varaktigheten för varje uppgift genom att ange antal timmar, dagar, veckor eller månader för uppgiften i fältet setDuration. Ange sedan varaktighetsenheten i fältet setDurationUnit.
 
-   |  | Godtagbart värde |
-   |---|---|
-   | Minuter | M |
-   | Timmar | H |
-   | Dagar | D |
-   | Veckor | B |
-   | Månader | T |
+  |   | Godtagbart värde |
+  |---|---|
+  | Minuter | M |
+  | Timmar | H |
+  | Dagar | D |
+  | Veckor | B |
+  | Månader | T |
 
-   Minuter kan också representeras som en del av en timme (t.ex. minuter = 5 timmar)
+  Minuter kan också representeras som en del av en timme (t.ex. minuter = 5 timmar)
 
 * Ange mängden arbetsinsats för varje uppgift i fältet setWorkRequired. Ange sedan arbetsenheten i fältet setWorkUnit. Om värdet för arbete som krävs skiljer sig från längden måste du också ange ett A i fältet setDurationType.
 
-   | Typ av varaktighet | Godtagbart värde |
-   |---|---|
-   | Beräknad tilldelning | A |
-   | Beräknat arbete | B |
-   | Ansträngningsstyrd | D |
-   | Enkel | S |
+  | Varaktighetstyp | Godtagbart värde |
+  |---|---|
+  | Beräknad tilldelning | A |
+  | Beräknat arbete | B |
+  | Ansträngningsstyrd | D |
+  | Enkel | S |
 
 * Ange heltalsåtergivningen av procentandelen färdig i fältet setPercentComplete för varje uppgift. Värdet ska inte innehålla procentsymbolen (%).
 * Ta med en beskrivning och annan information för varje uppgift som du skapar, efter behov.
 
-   ![](assets/im5-350x35.png)
+  ![](assets/im5-350x35.png)
 
 * Kolumnerna setPlannedStartDate och setTaskConstraint används inte för att skapa tidslinjen för det här projektet eftersom vi förlitar oss på predecessor-relationer. Du kan ange ett datum för varje uppgift i stället. Om du gör det måste du också ange en giltig aktivitetsbegränsning i kolumnen setTaskConstraint. Granska uppgiftsbegränsningen och relaterade artiklar för mer information om giltiga värden för det här fältet.
 
-   I det här scenariot är det enklaste sättet att skapa uppgifter för andra projekt som du importerar att kopiera de uppgifter du just definierat och klistra in dem nedan, med början på rad 12. Då ska du:
+  I det här scenariot är det enklaste sättet att skapa uppgifter för andra projekt som du importerar att kopiera de uppgifter du just definierat och klistra in dem nedan, med början på rad 12. Då ska du:
 
    1. Numrera om värdena i ID-kolumnen.
    1. Uppdatera kolumnen setProjectID till det värde du anger för nästa projekt.
@@ -383,4 +378,4 @@ Ange varaktigheten för varje uppgift genom att ange antal timmar, dagar, veckor
 
 * **Importera Excel-filen**
 
-   Följ instruktionerna i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Följ instruktionerna i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
