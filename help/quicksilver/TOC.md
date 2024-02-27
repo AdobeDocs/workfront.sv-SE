@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
+source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
 workflow-type: tm+mt
-source-wordcount: '13959'
+source-wordcount: '13967'
 ht-degree: 0%
 
 ---
@@ -940,8 +940,9 @@ ht-degree: 0%
          * [Hantera ditt Adobe Workfront-konto](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Logga in på Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Logga ut från Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [Ta emot e-postinbjudningar och skapa ett lösenord för Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [Återställ en användares lösenord med Förbättrad autentisering](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * [Ta emot e-postinbjudningar och skapa ett lösenord för Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+         * [Skapa ett konto i [!DNL Adobe Workfront] som extern användare](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [Återställ lösenordet](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * Mobilappar {#mobile-apps}
       * [Mobilappar](workfront-basics/mobile-apps/mobile-apps.md)
