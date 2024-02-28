@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2288'
 ht-degree: 0%
 
 ---
@@ -264,10 +264,6 @@ Så här lägger du till ett filter i en tabellvy:
 
      Tabellen nedan visar tillgängliga modifierare för varje typ av fält.
 
-     >[!TIP]
-     >
-     > Du kan inte markera länkade fält. Mer information finns i [Skapa fält](../fields/create-fields.md).
-
      <table>
         <thead>
         <tr>
@@ -370,17 +366,13 @@ Tänk på följande:
 Så här lägger du till en gruppering:
 
 1. Skapa en tidslinjevy för en posttyp, enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
-1. Klicka **Gruppering** i det övre högra hörnet av tidslinjevyn.
+1. Klicka **Gruppering** i tabellvyns övre högra hörn.
 
-   ![](assets/grouping-ui-table-view.png)
+   ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** söker du efter ett annat fält och klickar sedan på det när det visas i listan.
 
-   >[!TIP]
-   >
-   >Du kan inte markera länkade fält.
-
-   Grupperingen tillämpas automatiskt på tabellen och posterna visas under grupperingsseparationslinjen
+   Grupperingen tillämpas automatiskt på tabellen och posterna visas under grupperingsseparationslinjen.
 
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till upp till tre grupperingar.
 
@@ -428,6 +420,7 @@ Sortera <!--ungrouped (add this when sorting for groupings will be available--> 
    eller
 
    Håll markören över namnet på en kolumn i tabellvyn, klicka på nedåtpilen till höger om kolumnrubriknamnet och klicka sedan på **Sortera efter det här fältet**. Fältet läggs till som en sorteringsmarkering i sorteringsikonen i tabellvyns övre högra hörn.
+
 1. I **Sortera poster efter** klickar du på ett av de föreslagna fälten eller klickar på **Välj ett annat fält** och söker efter ett annat fält och klickar sedan på det när det visas i listan.
 
    Sorteringen tillämpas automatiskt på tabellvyn och posterna visas sorterade efter de valda villkoren.
@@ -437,10 +430,6 @@ Sortera <!--ungrouped (add this when sorting for groupings will be available--> 
 1. (Valfritt) Upprepa stegen ovan om du vill sortera efter ytterligare fält.
 
    Antalet fält som du sorterar efter visas till vänster om sorteringsikonen i det övre högra hörnet av verktygsfältet. Du kan bara välja fält som visas i kolumnerna i tabellvyn.
-
-   >[!TIP]
-   >
-   > Du kan inte markera länkade fält. Mer information finns i [Skapa fält](../fields/create-fields.md).
 
 1. (Valfritt) I dialogrutan **Sortera poster efter** klickar du på **x** till höger om ett sorteringsfält för att ta bort sorteringen
 

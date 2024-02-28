@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Ställ in automatiska påminnelser
 description: Ställ in automatiska påminnelser
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Som Adobe Workfront-administratör kan du ställa in automatiska påminnelser som utlöser e-postmeddelanden när alla åtgärder eller problem förfaller, förfaller eller ligger nära det planerade slutförandedatumet. När du har konfigurerat de här inställningarna kan användarna inte inaktivera automatiska påminnelser.
+Som Adobe Workfront-administratör kan du ställa in automatiska påminnelser för att utlösa e-postmeddelanden när alla åtgärder eller problem förfaller, förfaller eller ligger nära det planerade slutförandedatumet. När du har konfigurerat de här inställningarna kan användarna inte inaktivera automatiska påminnelser.
 
 För sena meddelanden skickas e-postmeddelandet varje natt tills uppgiften eller utgåvan har slutförts.
 
 En automatisk påminnelse kan skickas till en eller flera av följande:
 
-* Användare som tilldelats en uppgift eller ett problem
+* Användare som har tilldelats en uppgift eller ett problem
 * Användarens chef
 * Direktörens chef
 
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ställ in automatiska påminnelser
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **E-post** >**Automatiska påminnelser**.
 
@@ -66,7 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    <table>
     <tr>
-        <td>Användaren"Tilldelad till"</td>
+        <td>Användaren Tilldelad till</td>
         <td>Välj det här alternativet om du vill att användaren som tilldelats en aktivitet eller utgåva ska få ett sent meddelande om att arbetsuppgiften är sen.</td>
         <td></td>
     </tr>
@@ -81,7 +81,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <td></td>
     </tr>
     <tr>
-        <td>Användaren"Tilldelad till"</td>
+        <td>Användaren Tilldelad till</td>
         <td>(I dialogrutan <b>Skicka påminnelse om deadline till</b> område.) Välj det här alternativet om du vill att användaren som tilldelats en uppgift eller en utgåva ska få ett meddelande om att arbetsuppgiften närmar sig förfallodatumet.</td>
         <td></td>
     </tr>

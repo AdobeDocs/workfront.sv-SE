@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >[!IMPORTANT]
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
+
+## Vecka 26 februari 2024
+
+### Filtrera, sortera och gruppera efter anslutna poster eller sökfält
+
+Produktion: 28 februari 2024
+
+Förhandsgranska: Ska bestämmas
+
+Nu kan du filtrera, sortera och gruppera efter anslutna poster eller deras sökfält. Den här förbättringen hjälper dig att effektivt ordna och visualisera data i både tabell- och tidslinjevyer.
+
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md) och [Hantera tidslinjevyn](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Vecka 5 februari 2024
 
@@ -124,7 +136,7 @@ Produktion: 1 februari 2024
 
 Förhandsgranska: Ska bestämmas
 
-För att undvika förvirring och förenkla hanteringen av arbetsytor har vi tagit bort de automatiskt genererade, skrivskyddade posttypkorten för anslutna icke-maestro-objekt från en arbetsyta.
+För att undvika förvirring och förenkla hanteringen av arbetsytor har vi tagit bort de automatiskt genererade skrivskyddade posttypkorten för anslutna icke-maestro-objekt från en arbetsyta.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).

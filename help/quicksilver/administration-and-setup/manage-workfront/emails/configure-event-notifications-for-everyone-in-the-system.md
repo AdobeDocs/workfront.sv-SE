@@ -1,11 +1,11 @@
 ---
 title: Konfigurera händelsemeddelanden för alla i systemet
 description: Händelsemeddelanden utlöser e-postmeddelanden till användare när en viss händelse inträffar. Som Adobe Workfront-administratör eller en användare med en planeraråtkomstnivå kan du konfigurera ett händelsemeddelande för alla användare i systemet. Konfigurationen av ett händelsemeddelande består av att aktivera eller inaktivera det.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%

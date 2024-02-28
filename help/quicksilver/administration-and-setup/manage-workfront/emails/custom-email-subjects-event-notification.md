@@ -2,13 +2,13 @@
 navigation-topic: notifications
 title: Anpassa e-postämnen för händelsemeddelanden
 description: Du kan anpassa ämnesraden för de e-postmeddelanden som utlöses av händelsemeddelanden.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Vissa händelsemeddelanden har flera ämnesrader, vilket innebär att dessa hän
 >* Arbetsobjektskommentar till kopplade deltagare
 >* Arbetsuppgiftskommentar till tilldelad arbetsuppgift
 >
-
 
 ## Åtkomstkrav
 
@@ -61,15 +60,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Anpassa ämnesrader för e-post för händelsemeddelanden {#customize-email-subject-lines-for-event-notifications}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **E-post** > **Meddelanden**.
 
 1. Klicka på **Händelsemeddelanden** -fliken.
 1. Klicka på namnet på det händelsemeddelande som du vill anpassa för att öppna **Händelsemeddelande** box.
-1. I **Ämnesrad för e-post** ändrar du text och fält, inklusive anpassade fält, i e-postmeddelandets ämne.
+1. I **Ämnesrad för e-post** ändrar du texten och fälten, inklusive anpassade fält, i e-postmeddelandets ämne.
 
-   Namnen på de tillagda fälten måste matcha kamelens versalsyntax i vår databasstruktur. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+   Namnen på de tillagda fälten måste matcha kamelversalsyntaxen i vår databasstruktur. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
 1. Klicka **Uppdatera** för att spara de nya ämnesraderna för dina e-postmeddelanden.
 
@@ -77,13 +76,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Vissa händelsemeddelanden har flera ämnesrader, beroende på vilka objekt de utlöser.
 
-&quot;Någon inkluderar mig till exempel i en riktad uppdatering&quot; har två olika ämnesrader: det första är för uppgifter, problem, malluppgifter och dokument (kallas även&quot;referenceObject&quot;) och det andra är för objekt som tillåter användare att kommentera, som portfölj, program och så vidare (kallas även&quot;topReferenceObject&quot;).
+&quot;Någon inkluderar mig till exempel i en dirigerad uppdatering&quot; har två olika ämnesrader: den första för uppgifter, ärenden, malluppgifter och dokument (kallas även &quot;referenceObject&quot;) och den andra för objekt som tillåter användare att göra kommentarer, som portfölj, program och så vidare (kallas även &quot;topReferenceObject&quot;).
 
 ![](assets/Ev-not-mult-subj-lines.png)
 
-Om en användare ingår i en konversation om uppgiften, utgåvan, malluppgiften eller dokumentet, genereras ett e-postmeddelande med den första ämnesraden. Ämnesraden innehåller &quot;referenceObject:name&quot; och systemet definierar objektet och visar lämpligt namn i ämnesfältet. Ämnesraden för e-post ser ut ungefär så här: &quot;Kommentera i uppgift 123 i projekt ABC.&quot;
+Om en användare ingår i en konversation om uppgiften, utgåvan, malluppgiften eller dokumentet, genereras ett e-postmeddelande med den första ämnesraden. Ämnesraden innehåller &quot;referenceObject:name&quot; och systemet definierar objektet och visar lämpligt namn i ämnesfältet. Ämnesraden i e-postmeddelandet ser ut ungefär så här:&quot;Kommentar till uppgift 123 i projekt ABC.&quot;
 
-Om det läggs till i en projektkonversation genereras ett e-postmeddelande med det andra ämnet. Här innehåller ämnesraden&quot;topReferenceObject:name&quot; och återigen identifierar Workfront vilket objekt som refererades och returnerar objektnamnet i stället för&quot;topReferenceObject:name&quot; i ämnet. Ämnesraden för e-post ser ut ungefär så här: &quot;Kommentera i projekt ABC.&quot;
+Om det läggs till i en projektkonversation genereras ett e-postmeddelande med det andra ämnet. Här innehåller ämnesraden&quot;topReferenceObject:name&quot; och återigen identifierar Workfront vilket objekt som refererades och returnerar objektnamnet i stället för&quot;topReferenceObject:name&quot; i ämnet. Ämnesraden i e-postmeddelandet ser ut ungefär så här:&quot;Kommentar i projekt ABC&quot;.
 
 Om du vill redigera e-postens ämnesrader och lägga till ytterligare fält på någon av ämnesraderna, se [Anpassa ämnesrader för e-post för händelsemeddelanden](#customize-email-subject-lines-for-event-notifications) i den här artikeln.
 
