@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
+source-git-commit: 42a697704cb34699c5d09bd2b710dcc33092d05a
 workflow-type: tm+mt
-source-wordcount: '13967'
+source-wordcount: '13972'
 ht-degree: 0%
 
 ---
@@ -2158,6 +2158,7 @@ ht-degree: 0%
       * [Aktivera eller inaktivera ett scenario i Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Lägga till ett filter i ett scenario i Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [Felsöka scenarier med Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
+      * [Generera en modul med AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Adobe Workfront Fusion - scenariomallar {#fusion-scenario-templates}
          * [Scenariomallar](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [Skapa nya mallar i Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
