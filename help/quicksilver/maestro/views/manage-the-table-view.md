@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -409,6 +409,8 @@ Tänk på följande när du sorterar poster i tabellvyn:
 * Den sortering du skapar bevaras när du navigerar bort.
 
 * Du kan sortera efter så många fält som du ser i tabellvyn för en posttyp.
+
+* Länkade fält kan bara sorteras om de tillåter enskilda värden, eller om de tillåter flervalsvärden när sammanfattningsalternativet är markerat (summa, medel, max, min).
 
 * När du tar bort sorteringsvillkor tas de bort från alla som använder samma posttyp som du och samma vy som du använder.
 
