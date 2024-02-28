@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 7348dc78f61708fce7508bdef0f4b650814ad71b
+source-git-commit: 8510cd13b941d2a3d679e3b99f5ea96c591ee0d8
 workflow-type: tm+mt
-source-wordcount: '13971'
+source-wordcount: '13982'
 ht-degree: 0%
 
 ---
@@ -1788,18 +1788,20 @@ ht-degree: 0%
       * [Delegera godkännandebegäran](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associera en ny eller befintlig godkännandeprocess med arbete](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Återkalla inskickade godkännanden](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Dokumentgranskningar och godkännanden {#document-reviews-and-approvals}
-      * [Dokumentgranskningar och godkännanden](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * Dokumentgranskning och godkännande {#document-reviews-and-approvals}
+      * [Dokumentgranskning och godkännande](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Översikt över dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * Hantera dokumentgodkännanden {#manage-document-approvals}
-         * [Hantera dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+      * Granska dokument {#review-and-approve-documents}
+         * [Granska dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [Connect Workfront and Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
+         * [Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * [Godkänn dokument]{#approve-documents}
+         * [Godkänn dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
          * [Skapa ett dokumentgodkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Lägga till ytterligare granskare eller godkännare i ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Ta bort godkännare eller granskare från ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Dokumentgodkännandestatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * Granska och godkänna dokument {#review-and-approve-documents}
-         * [Granska och godkänna dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
-         * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Korrektur {#proofing}
       * [Korrektur: artikelindex](review-and-approve-work/proofing/proofing.md)
