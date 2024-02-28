@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
+source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
 workflow-type: tm+mt
-source-wordcount: '5492'
+source-wordcount: '5502'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ Modulen returnerar alla standardfält som är associerade med posten, tillsamman
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Uteslut händelser som har gjorts i den här anslutningen</td> 
-      <td>Aktivera det här alternativet om du vill exkludera händelser som har skapats eller uppdaterats med samma koppling som den här utlösarmodulen använder. Detta kan förhindra situationer där ett scenario kan utlösa sig självt och få det att upprepas i en oändlig slinga.</td> 
+      <td>Aktivera det här alternativet om du vill exkludera händelser som har skapats eller uppdaterats med samma koppling som den här utlösarmodulen använder. Detta kan förhindra situationer där ett scenario kan utlösa sig självt och få det att upprepas i en oändlig slinga.<p><b>ANMÄRKNING</b>Posttypen för uppdrag innehåller inte det här alternativet.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
