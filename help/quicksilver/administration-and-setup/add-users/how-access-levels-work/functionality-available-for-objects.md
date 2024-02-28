@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Bifoga ett eget formulär | ✓ |   |   |   |
 | Redigera anpassade fält | ✓ |   |   |   |
 | Skapa en godkännandeprocess | ✓ |   |   |   |
-| Godkänn en uppgift | ✓ | ✓ |   |   |
+| Godkänn en uppgift | ✓ | ✓ | ✓ |   |
 | Redigera finanser | ✓ |   |   |   |
 | Lägg till/redigera utgifter | ✓ |   |   |   |
 | Visa finansiering | ✓ | ✓ |   |   |
@@ -139,7 +139,7 @@ Endast användare med en standardlicens kan ha fullständig åtkomst till portf�
 | Redigera anpassade fält | ✓ |   |   |   |
 | Lägga till och ta bort projekt | ✓ |   |   |   |
 | Godkänn projekt | ✓ |   |   |   |
-| Portfolio-optimering | ✓ |   |   |   |
+| Optimering för Portfolio | ✓ |   |   |   |
 | Lägga till dokument | ✓ | ✓ |   |   |
 | Lägga till uppdateringar och kommentarer | ✓ | ✓ |   |   |
 
@@ -221,7 +221,7 @@ Användare med en Standard-licens har fullständig åtkomst till rapporter. Alla
 | Dela hela systemet | ✓&#42; |   |   |   |
 | Visa | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Redigera information | ✓ | ✓ | ✓ |   |
-| Hämta | ✓ | ✓ | ✓ | ✓ |
+| Ladda ned | ✓ | ✓ | ✓ | ✓ |
 | Utcheckning | ✓ | ✓ | ✓ |   |
 | Lägg till godkännare | ✓ | ✓ | ✓ |   |
 | Godkänn dokument | ✓ | ✓ | ✓ | ✓ |
@@ -230,7 +230,7 @@ Användare med en Standard-licens har fullständig åtkomst till rapporter. Alla
 | Flytta till (objekt) | ✓ | ✓ | ✓ |   |
 | Skicka till (integration) | ✓ | ✓ | ✓ |   |
 | Lägga till uppdateringar och kommentarer | ✓ | ✓ | ✓ |   |
-| Överför ny version | ✓ | ✓ | ✓ |   |
+| Ladda upp ny version | ✓ | ✓ | ✓ |   |
 | Ta bort en version | ✓ | ✓ | ✓ |   |
 | Förhandsgranska | ✓ | ✓ | ✓ | ✓ |
 | Korrektur | ✓ | ✓ | ✓ | ✓ |
