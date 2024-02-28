@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 42a697704cb34699c5d09bd2b710dcc33092d05a
+source-git-commit: 7348dc78f61708fce7508bdef0f4b650814ad71b
 workflow-type: tm+mt
-source-wordcount: '13972'
+source-wordcount: '13971'
 ht-degree: 0%
 
 ---
@@ -1728,7 +1728,7 @@ ht-degree: 0%
       * [Resurshantering](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Kom igång med resurshantering](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Resursplanering i Adobe Workfront {#resource-planning-in-adobe-workfront}
-      * [Resursplanering i Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
+      * [Resursplanering: artikelindex](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Resursgrupper {#resource-pools}
          * [Resursgrupper](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [Översikt över resurspooler](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)

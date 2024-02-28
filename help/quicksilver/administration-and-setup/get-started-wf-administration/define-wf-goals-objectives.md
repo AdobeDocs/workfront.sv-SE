@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Du kan uppnå detta i Workfront genom att konfigurera följande:
 
 * Utveckla en process för leverans av tjänster och använd Workfront för att hantera uppgifter som är kopplade till arbetsuppgifter varje dag eller vecka.
 * Använd resurshanteringsverktygen för att visa resursallokeringen för uppgifter så att du bättre kan förstå hur du kan förbättra produktiviteten och leveranskvaliteten.\
-  Mer information om resursplanering finns i [Resursplanering i Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  Mer information om resursplanering finns i [Resursplanering : artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Definiera kriterier för framgång
 

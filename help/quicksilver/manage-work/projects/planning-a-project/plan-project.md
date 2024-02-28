@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -153,5 +153,5 @@ Tänk på följande när du definierar uppgifter:
    * Minska antalet planerade timmar för varje uppgift.
    * Lägg till fler användare i en uppgift för att se till att den kan slutföras under den tilldelade tiden.
    * Tilldela om uppgifterna till användare som inte har några andra begränsningar.\
-     Mer information om hur du planerar projektresurser finns i artikeln [Resursplanering i Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Mer information om hur du planerar projektresurser finns i artikeln [Resursplanering: artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Mer information om hur du schemalägger resurser för att utföra arbetet i ett projekt finns i [Översikt över belastningsutjämnare](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

@@ -7,9 +7,9 @@ description: Med Resurshantering kan du konfigurera ditt system så att användn
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Workfront har flera verktyg som används för att hantera resurser. Varje verkty
 
    * **Resursplaneraren**: Du kan använda resursplaneraren i den första fasen av resurshanteringen för att budgetera projekttiden för dina resurser utifrån deras schemalagda tillgänglighet. Under planeringen av resursfasen kan du ordna användare i resurspooler och tilldela flera resurspooler till ett projekt.
 
-     Mer information om resursplanering finns i [Resursplanering i Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Mer information om resursplanering finns i [Resursplanering: artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Scenarioplanen**: Detta är en planering av resurser på en högre nivå som gör att du kan hantera dem i flera olika initiativ som kan omfatta en, tre eller fem års plan och innehålla flera projekt. Du kan använda det bästa scenariot för att få ut så mycket som möjligt av deras tillgänglighet och budget.
 
@@ -118,7 +118,7 @@ Processen för att hantera resurser i Workfront omfattar följande steg:
 
   Mer information om resursplanering och tilldelning av arbete finns i följande avsnitt:
 
-   * [Resursplanering i Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Resursplanering: artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
    * [Utjämning av arbetsbelastning: artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
