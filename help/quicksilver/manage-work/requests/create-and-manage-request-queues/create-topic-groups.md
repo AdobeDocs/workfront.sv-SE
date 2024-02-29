@@ -8,14 +8,16 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # Skapa ämnesgrupper
+
+<!-- Audited: 2/2024 -->
 
 Ämnesgrupper är associerade med frågeköer. De gör att du kan placera dina begärandeköer i flera kategorier, beroende på vilken typ av begäran det är.
 
@@ -28,25 +30,29 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licens*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licens</p> </td> 
+   <td>   
+      <p>Nytt: Standard</p>
+      <p>eller</p> 
+      <p>Aktuell: Planera</p>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p> Hantera behörigheter för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p> Hantera behörigheter för projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Översikt över ämnesgrupper
 
@@ -68,9 +74,9 @@ Vi rekommenderar att du skapar ämnesgrupper innan du skapar ett köämne. En ä
 Så här skapar du en ämnesgrupp:
 
 1. Gå till projektet som du publicerade som en kö för hjälpbegäran.\
-   Mer information om att publicera ett projekt som en kö för hjälpbegäranden finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicka **Ämnesgrupper** i den vänstra panelen. Du kan behöva klicka **Visa fler** sedan **Ämnesgrupper**.
+1. Klicka **Ämnesgrupper** till vänster. Du kan behöva klicka **Visa fler** sedan **Ämnesgrupper**.
 1. Klicka **Ny ämnesgrupp**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
@@ -79,7 +85,7 @@ Så här skapar du en ämnesgrupp:
 
    * **Namn**: Namnet visas för användare som skickar begäranden till den här begärandekön.
    * **Beskrivning**: Beskrivningen visas när användare väljer ämnesgruppen när en ny begäran skickas.
-   * **Lägg till i ämnesgrupp**: Du kan lägga till den nya ämnesgruppen i en befintlig ämnesgrupp eller lägga till den direkt i projektet som publiceras som en hjälpfrågekö.
+   * **Lägg till i ämnesgrupp**: Du kan lägga till den nya ämnesgruppen i en befintlig ämnesgrupp eller lägga till den direkt i projektet som publiceras som en kö för hjälpbegäran.
 
 1. Klicka **Spara**.\
    Detta skapar en ny ämnesgrupp i din begärandekö. Nu kan du välja ytterligare kategorier från den första listrutan under en frågekö.\

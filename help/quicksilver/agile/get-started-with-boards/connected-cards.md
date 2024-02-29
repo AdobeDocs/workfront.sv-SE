@@ -6,14 +6,16 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
 
 # Använd anslutna kort på ritytor
+
+<!-- Audited: 2/2024 -->
 
 Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i [!DNL Workfront].
 
@@ -39,31 +41,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td>
+   <p>Nytt: Medarbetare eller högre</p>
+   <p>eller</p>
+   <p>Aktuell: Begäran eller senare</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td>
-   <td><p>[!UICONTROL View] eller högre tillgång till uppgifter och problem</p></td>
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td>
+   <td><p>Visa eller öka åtkomsten till uppgifter och problem</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Objektbehörigheter</strong></td>
-   <td><p>[!UICONTROL View] eller högre behörigheter för Workfront-uppgifter eller -utfärdande</p></td>
+   <td><p>Visa eller högre behörigheter för Workfront-aktiviteten eller -utgåvan</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Lägg till ett anslutet kort
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **[!UICONTROL Boards]**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka på **[!UICONTROL Add card]>[!UICONTROL Connected card]**.
+1. Klicka **[!UICONTROL Add card]>[!UICONTROL Connected card]**.
 1. Välj ett projekt och välj sedan en uppgift eller ett problem som ska läggas till som ett kort på ritytan.
 
    Du kan markera flera objekt och de kommer att läggas till som separata kort.

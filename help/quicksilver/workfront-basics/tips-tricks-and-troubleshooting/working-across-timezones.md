@@ -5,7 +5,7 @@ title: Arbeta över tidszoner
 description: Det kan vara till hjälp att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna tidsfält för objekt och tidpunkter i andra områden, t.ex. e-postmeddelanden.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Arbeta över tidszoner
+
+<!-- Audited: 2/2024 -->
 
 Det kan vara till hjälp att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna följande:
 
