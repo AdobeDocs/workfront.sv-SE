@@ -6,9 +6,9 @@ title: Generera en modul med AI
 description: Du kan ange en textfråga för att skapa en HTTP-modul som är konfigurerad för frågan.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
+source-git-commit: 8f6216938b2fe946f6acd02c45c2072476b0c47b
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Generera en modul med AI
 
 <!--DO NOT DELETE - linked through CSH-->
+
+>[!IMPORTANT]
+>
+>Eftersom den här funktionen fortfarande är i ett tidigt utvecklingsskede är den endast tillgänglig för användare inom Workfront.
 
 Du kan använda AI för att ange en textprompt som beskriver vad du behöver en modul för att göra. Fusion genererar sedan en HTTP-modul som ansluter till rätt slutpunkt för det önskade API:t.
 
