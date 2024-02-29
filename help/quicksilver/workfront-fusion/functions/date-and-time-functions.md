@@ -8,9 +8,9 @@ description: Följande datum- och tidsfunktioner är tillgängliga i panelen fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -104,7 +104,7 @@ The `formatDate` funktionen returnerar en textrepresentation av det angivna Date
 
 >[!INFO]
 >
->**Exempel:** Både tidszonen Scenario och Web var inställda på `Europe/Prague` i dessa exempel.
+>**Exempel:** Både tidszonen Scenario och Webb var inställda på `Europe/Prague` i dessa exempel.
 >
 >![](assets/date&time-functions-examples-350x61.png)
 >
@@ -126,7 +126,7 @@ The `formatDate` funktionen returnerar en textrepresentation av det angivna Date
 
 ## [!UICONTROL parseDate (text; format; [timezone])]
 
-Använd den här funktionen när du har ett textvärde som representerar ett datum (t.ex. `12-10-2019 20:30` eller `Aug 18, 2019 10:00 AM`) och du vill konvertera (tolka) den till ett datumvärde (en binär maskinläsbar representation). Mer information finns i [Datum](../../workfront-fusion/mapping/item-data-types.md#date) och [Text](../../workfront-fusion/mapping/item-data-types.md#text) i artikeln [Artikeldatatyper i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+Använd den här funktionen när du har ett textvärde som representerar ett datum (till exempel `12-10-2019 20:30` eller `Aug 18, 2019 10:00 AM`) och du vill konvertera (tolka) den till ett datumvärde (en binär maskinläsbar representation). Mer information finns i [Datum](../../workfront-fusion/mapping/item-data-types.md#date) och [Text](../../workfront-fusion/mapping/item-data-types.md#text) i artikeln [Artikeldatatyper i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 ### Parametrar
 
@@ -186,7 +186,7 @@ Den här funktionen konverterar en textsträng till ett datum enligt det format 
 >
 >* `parseDate(1482940986;X)`
 >
->  Returnerar 2016-12-28T16:03:06,000Z
+>   Returnerar 2016-12-28T16:03:06,000Z
 
 ## [!UICONTROL addDays (date; number)] {#adddays-date-number}
 
@@ -290,7 +290,7 @@ Den här funktionen returnerar ett nytt datum med de sekunder som anges i parame
 
 Ange ett tal mellan 0 och 59. Om talet ligger utanför det intervallet returnerar funktionen en sekund från föregående minut (för ett negativt tal) eller efterföljande minut (för ett positivt tal).
 
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder[!UICONTROL  addSeconds], enligt beskrivningen ovan i avsnittet [addSeconds (datum; tal)](#addseconds-date-number).
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder[!UICONTROL  addSeconds], enligt beskrivningen ovan i avsnittet [addSeconds (date; number)](#addseconds-date-number).
 
 >[!INFO]
 >
@@ -310,7 +310,7 @@ Den här funktionen returnerar ett nytt datum med de minuter som anges i paramet
 
 Ange ett tal mellan 0 och 59. Om talet ligger utanför det intervallet returnerar funktionen en minut från föregående timme (för ett negativt tal) eller efterföljande timme (för ett positivt tal).
 
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addMinutes enligt beskrivningen ovan [addMinutes (date; tal)](#addminutes-date-number).
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addMinutes enligt beskrivningen ovan [addMinutes (date; number)](#addminutes-date-number).
 
 >[!INFO]
 >
@@ -330,7 +330,7 @@ Den här funktionen returnerar ett nytt datum med timmen angiven i parametrar.
 
 Ange ett tal mellan 0 och 23. Om talet ligger utanför det här intervallet returnerar funktionen en timme från föregående dag (för ett negativt tal) eller efterföljande dag (för ett positivt tal).
 
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addHours enligt beskrivningen ovan [addHours (date; tal)](#addhours-date-number).
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addHours enligt beskrivningen ovan [addHours (date; number)](#addhours-date-number).
 
 >[!INFO]
 >
@@ -350,7 +350,7 @@ Den här funktionen returnerar ett nytt datum med den dag som anges i parametrar
 
 Du kan använda den här funktionen för att ange veckodag, med söndag som 1 och lördag som 7. Om du anger ett tal mellan 1 och 7 blir det resulterande datumet inom den aktuella veckan (söndag till lördag). Om talet ligger utanför det intervallet returnerar funktionen en dag från föregående vecka (för ett negativt tal) eller efterföljande vecka (för ett positivt tal).
 
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addDays enligt beskrivningen ovan [addDays (date; tal)](#adddays-date-number).
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addDays enligt beskrivningen ovan [addDays (date; number)](#adddays-date-number).
 
 >[!INFO]
 >

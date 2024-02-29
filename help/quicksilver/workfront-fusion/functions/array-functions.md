@@ -8,9 +8,9 @@ description: Följande arrayfunktioner är tillgängliga i panelen för mappning
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -105,7 +105,7 @@ Returnerar en primitiv array som innehåller värden för en komplex array. Den 
 >
 >* `map(Emails[];email;label;work;home)`
 >
->  Returnerar en primitiv array med e-postmeddelanden som har en etikett som är lika med arbetet eller hemmet
+>  Returnerar en primitiv matris med e-postmeddelanden som har en etikett som är lika med arbetet eller hemmet
 
 Mer information finns i [Mappa information från en modul till en annan i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
@@ -144,7 +144,7 @@ Sorterar värden i en array. Giltiga värden för `order` parametern är:
 
 * `desc ci`
 
-  skiftlägesokänslig fallordning: ..., C, c, B, b, A, a för typen Text.
+  skiftlägesokänslig fallande ordning: ..., C, c, B, b, A, a för text.
 
 Använd `key` -parameter för att komma åt egenskaper inuti komplexa objekt.
 
@@ -211,3 +211,23 @@ Ange ett av följande värden för `mode` parameter.
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    Returnerar `[1,2,6,7]`
+
+## toArray
+
+Den här funktionen konverterar en samling till en array med nyckelvärdepar.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>Utgående från samlingen
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>Funktionen
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Returnerar arrayen med nyckelvärdepar
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
