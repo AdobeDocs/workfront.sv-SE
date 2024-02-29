@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättring
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Den här sidan beskriver alla uppdateringsströmmar och meddelandeförbättringar som gjorts i den andra utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen
+
+>[!NOTE]
+>
+>Förhandsversion: 29 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+
+Vi har gjort följande förbättringar i den nya kommentarsfunktionen:
+
+* Du kan klicka på en kommenterares namn för att visa deras namn, roll och e-postadress i en informationsruta. Den här informationen kan hjälpa dig att identifiera rätt användare om du har fler än en användare med samma namn. När du klickar på kommentarens namn i informationsrutan öppnas deras användarprofil.
+* Ditt användarnamn markeras i kommentarer som du är taggad för när du omnämns i kommentarstexten.
+
+Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter
 
