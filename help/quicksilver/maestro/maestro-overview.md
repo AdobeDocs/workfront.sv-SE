@@ -1,18 +1,18 @@
 ---
-title: Adobe Maestro - översikt
-description: Adobe Maestro är ett nytt erbjudande från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
+title: Översikt över Adobe Workfront planeringsfunktioner
+description: Adobe Workfront planeringsfunktioner är ett nytt erbjudande från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2051'
 ht-degree: 0%
 
 ---
 
-# Adobe Maestro - översikt
+# Översikt över Adobe Workfront planeringsfunktioner
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Maestro, ett nytt erbjudande från Adobe Workfront.
+>Informationen i den här artikeln handlar om Adobe Workfront planeringsfunktioner, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Adobe Maestro i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara Workfront-kund för att kunna använda Maestro-funktionerna.
+>Planeringsfunktionerna ingår för närvarande i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
 >
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Maestro.
->[Se en videodemonstration av Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet.
+>[Se en videodemonstration av Adobe Workfront planeringsfunktioner.](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
-## Introduktion till Adobe Maestro
+## Introduktion till Adobe Workfront planeringsfunktioner
 
-Adobe Maestro är ett nytt erbjudande från Adobe Workfront. Syftet med Maestro är att ge en heltäckande inblick i en organisations operativa detaljer och besvara viktiga affärsfrågor i varje fas av arbetshanteringens livscykel.
+Adobe Workfront planeringsfunktioner är ett nytt erbjudande från Adobe Workfront. Syftet med planeringsfunktionerna är att ge en heltäckande bild av en organisations operativa detaljer och besvara viktiga affärsfrågor i varje skede av arbetshanteringens livscykel.
 
 Team och ledarskap behöver tydliga svar på frågor som:
 
@@ -42,17 +42,17 @@ Team och ledarskap behöver tydliga svar på frågor som:
 
 För att svara på dessa frågor behöver ledningen en lösning som ger en helhetsbild av alla arbetsmoment, från planering till genomförande, från leverans till mätning av resultaten. För närvarande har organisationer verktyg som kan täcka vissa delar av processen, men många har inte bra kopplingar till alla faser av arbetet och kan inte heller ge resultat på ett tillförlitligt sätt.
 
-Här följer några av huvudfunktionerna i Maestro:
+Nedan följer några av de viktigaste funktionerna:
 
 * Lös problemet med att hantera arbetet i alla faser och för alla intressenter som deltar i arbetsprocessen.
 * Anpassa arbetsflödena helt och hållet, från att bestämma vilka objekttyper (eller posttyper) organisationen använder till att konfigurera hur dessa objekt länkar till varandra.
 * Länka till objekttyper från andra system och skapa ett sammanhängande ramverk för alla era processer.
 
-## Maestro-funktioner
+## Adobe Workfront planeringsfunktioner
 
-I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Maestro och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
+I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i planeringsfunktionerna och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
 
-Information om nya funktioner och när de släpps finns på [Aktivitet för lansering av Maestro](/help/quicksilver/maestro/release-activity.md).
+Information om nya funktioner och när de släpps finns på [Aktivitet för att lansera Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/release-activity.md).
 
 | Funktion | Ute nu | Tillgänglig snart | Forskning |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -73,11 +73,11 @@ Information om nya funktioner och när de släpps finns på [Aktivitet för lans
 | Sortera grupperingar i tabellvyn |                               | ✓ |                  |
 | Sortera grupperingar i tidslinjevyn |                               | ✓ |                  |
 | Ansluta arbetsytor |                               | ✓ |                  |
-| Koppla ihop Maestro-poster och taxonomier | ✓ |
+| Poster och taxonomier för att koppla samman planeringsfunktioner | ✓ |
 | Söka efter poster i tabellvyn | ✓ |   |
 | Söka efter poster i tidslinjevyn | ✓ |   |
-| Koppla ihop Maestro-poster till Workfront projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
-| Koppla Maestro-poster till Adobe Experience Manager-resurser | ✓ |                                  |                 |
+| Koppla samman planeringsfunktionsposter till Workfront projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
+| Koppla samman planeringsfunktionsposter till Adobe Experience Manager-resurser | ✓ |                                  |                 |
 | Sidan med postinformation | ✓ |                                  |                  |
 | Uppdatera layouten på sidan med postinformation |                               | ✓ |                  |
 | Dela arbetsytor | ✓ | |  |
@@ -89,22 +89,22 @@ Information om nya funktioner och när de släpps finns på [Aktivitet för lans
 | Lägga till miniatyrbilder i poster | ✓ |                                  |                 |
 | Visa ändringshistorik för en post | ✓ |                                  |                 |
 | RTF-formatering för styckefält | ✓ |                                  |                 |
-| Maestro-moduler för Adobe Workfront Fusion | ✓ |                                  |                 |
+| Adobe Workfront planeringsmoduler för Adobe Workfront Fusion | ✓ |                                  |                 |
 | Kopiera och klistra in information från ett fält till ett annat | ✓ |                                  |                 |
 
-## Aktivera Maestro för användare i din Workfront-instans
+## Aktivera Adobe Workfront planeringsfunktioner för användare i din Workfront-instans
 
-Din organisation måste registrera sig i det slutna betaprogrammet för Adobe Maestro innan du kan komma åt Maestro. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
+Din organisation måste registrera sig i Adobe Workfront planeringsfunktioner som är avslutade betaprogram innan du kan komma åt planeringsfunktionerna. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
 
-Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Maestro finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
+Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda planeringsfunktionerna finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
-## Maestro-terminologi
+## Adobe Workfront planeringsterminologi
 
-Även om Maestro är en del av Workfront innehåller det egna koncept och terminologi. Se till att du känner till Maestro-koncepten innan du startar Maestro för din organisation.
+Planeringsfunktionerna ingår i Workfront, men i dem ingår även egna koncept och termer. Se till att du känner till planeringsfunktionerna innan du börjar konfigurera planeringsfunktioner för organisationen.
 
-Ramverket för Maestro är helt anpassningsbart. Du kan skapa alla posttyper, deras attribut och alla fält som är kopplade till dem för att passa din organisations behov.
+Planeringsramen är helt anpassningsbar. Du kan skapa alla posttyper, deras attribut och alla fält som är kopplade till dem för att passa din organisations behov.
 
-Nedan följer de viktigaste Maestro-objekten och begreppen:
+Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
 
 * **Arbetsyta**: En samling posttyper och taxonomier som definierar den operativa livscykeln för en viss organisation. En arbetsyta är en arbetsyta i en organisationsenhet.
 
@@ -114,17 +114,17 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
   Mer information finns i [Skapa arbetsytor](../maestro/architecture/create-workspaces.md).
 
-* **Posttyp**: Huvudobjekttypen för Maestro.
+* **Posttyp**: Objekttypen för huvudplaneringsfunktioner.
 
-  Till skillnad från Workfront där objekttyperna är fördefinierade kan du skapa egna objekttyper i Maestro.
+  Till skillnad från Workfront där objekttyperna är fördefinierade kan du skapa egna objekttyper i planeringsfunktionerna.
 
   I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
 
-  I Maestro kan du skapa alla posttyper som passar din organisations arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
+  I planeringsfunktionerna kan du skapa alla posttyper som uppfyller organisationens arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
 
   Mer information finns i [Översikt över driftsposttyper och taxonomier](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  Maestro har följande posttyper:
+  Planeringsfunktionerna har följande posttyper:
 
    * **Driftposttyp**: En posttyp som representerar strategiska planer, initiativ eller utfört arbete.
 
@@ -138,13 +138,13 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
      ![](assets/taxonomy-record-type-blank.png)
 
-     Även om det är samma sak att skapa taxonomier som att skapa operativa posttyper, skiljer Maestro mellan en operativ posttyp och en taxonomiposttyp. Syftet med taxonomier är att förbättra den operativa registertypen. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+     Även om det är samma sak att skapa taxonomier som att skapa operativa posttyper, skiljer planeringsfunktionerna mellan en operativ posttyp och en taxonomiposttyp. Syftet med taxonomier är att förbättra den operativa registertypen. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
 
      Till exempel kan Audience, Region eller Address vara posttyper av taxonomintyp.
 
      Mer information finns i [Skapa taxonomiposttyper](../maestro/architecture/create-a-taxonomy.md).
 
-* **Post**: En instans av en Maestro-posttyp. En post kan referera till en driftsposttyp eller till en taxonomi.
+* **Post**: En instans av en posttyp för planeringsfunktion. En post kan referera till en driftsposttyp eller till en taxonomi.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
   ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
@@ -163,7 +163,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Maestro levereras med en arbetsyta för försäljning, marknadsföring och produkthantering.
+  Adobe Workfront planeringsfunktioner levereras med en arbetsyta för försäljning, marknadsföring och produkthantering.
 
   Mer information finns i [Skapa arbetsytor](../maestro/architecture/create-workspaces.md).
 
@@ -171,7 +171,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Att tänka på när det gäller Maestro-fält:
+  Att tänka på när det gäller att planera funktionalitetsfält:
 
    * De fält som du lägger till för en posttyp kopplas automatiskt till alla poster av den typen och kan användas för att samla in data om dessa poster.
 
@@ -179,7 +179,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
    * Fält är unika för en posttyp och överförs inte från en posttyp till en annan.
 
-   * Maestro-fälten är helt anpassningsbara och är bara tillgängliga i Maestro. Du har inte åtkomst till Maestro-fält från Workfront.
+   * Planeringsfunktionens fält är helt anpassningsbara och är bara tillgängliga i planeringsfunktionerna. Du har inte åtkomst till planeringsfunktionsfält från Workfront.
 
   Mer information finns i [Skapa fält](../maestro/fields/create-fields.md).
 
@@ -213,9 +213,9 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
 * **Länkade posttyper**, **Länkade poster** och **Länkade postfält**: Du kan skapa en anslutning mellan följande enheter:
 
-   * Två Maestro-posttyper
-   * En Maestro-posttyp och en Workfront projekt-, program-, portfölj-, företag- eller gruppobjekttyp.
-   * En Maestro-posttyp och en Adobe Experience Manager-resurs, mapp eller samling.
+   * Två typer av planeringsfunktionsposter.
+   * En posttyp för planeringsförmåga och en objekttyp för Workfront-projekt, program, portfölj, företag eller grupp.
+   * En posttyp för planeringsfunktioner och en resurs, mapp eller samling för Adobe Experience Manager.
 
      Du måste ha en Adobe Experience Manager-licens för att kunna länka posttyper med Experience Manager-objekt.
 
@@ -226,7 +226,7 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
 
 * **Länkade fält** (eller sökfält): När du har upprättat anslutningen mellan två posttyper och länkar samman enskilda poster kan du referera till de länkade posternas fält i den post du ansluter från.
 
-  Om du till exempel ansluter en Maestro-kampanj till ett Workfront-projekt kan du visa fältet Projektägare för sammankopplade projekt på Maestro-kampanjposterna.
+  Om du t.ex. ansluter en planeringsfunktionskampanj till ett Workfront-projekt kan du visa fältet Projektägare för anslutna projekt i kampanjposterna för planeringsfunktioner.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -256,11 +256,11 @@ Nedan följer de viktigaste Maestro-objekten och begreppen:
   Mer information finns i [Hantera postvyer](../maestro/views/manage-record-views.md).
 
 
-## Begränsningar för Maestro-objekt
+## Begränsningar för Adobe Workfront planeringsfunktioner
 
-I följande tabell visas gränserna för hur många objekt du kan skapa i Maestro. Begränsningarna kan komma att ändras när vi går vidare till nästa fas i Maestro:s utveckling.
+I följande tabell visas gränserna för hur många objekt du kan skapa i planeringsfunktionerna. Begränsningarna kan komma att ändras när vi går vidare till nästa utvecklingsfas.
 
-| Maestro-objekt | Gräns |
+| Adobe Workfront planeringsfunktionsobjekt | Gräns |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Antal arbetsytor för en Workfront-instans | 1 000 |
 | Antal posttyper för en arbetsyta | 1 000 (inkluderar taxonomier för arbetsytan eller objekt som du importerar från andra program) |
@@ -272,11 +272,11 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Maestr
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
 | Storlek på Excel-fil som du kan importera i en tabell | 5 MB |
 
-## Hitta maestro
+## Hitta Adobe Workfront planeringsfunktioner
 
-Kontrollera att din organisation har fått tillgång till Maestro och att din system- eller gruppadministratör har lagt till Maestro-området på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md) .
+Kontrollera att din organisation har fått tillgång till planeringsfunktionerna och att din system- eller gruppadministratör har lagt till planeringsfunktionsområdet på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
-Så här hittar du Maestro:
+Så här hittar du planeringsfunktionerna:
 
 1. Logga in på Adobe Workfront.
 
@@ -284,9 +284,9 @@ Så här hittar du Maestro:
 
 1. Klicka **Maestro** ![](assets/maestro-icon.png).
 
-   Området Maestro Workspaces öppnas.
+   Området Arbetsytor öppnas.
 
-1. (Valfritt och rekommenderas) Fortsätt med några av följande åtgärder för att skapa din arbetsstruktur i Maestro:
+1. (Valfritt och rekommenderas) Fortsätt med några av följande åtgärder för att skapa din arbetsstruktur:
 
    1. Skapa en arbetsyta från grunden eller med en mall.
 
@@ -308,8 +308,7 @@ Så här hittar du Maestro:
 
    1. Anpassa tidslinjevyn genom att uppdatera filter, grupperingar eller inställningar.
 
-## Aktivitet för lansering av Maestro
+## Aktivitet för att lansera Adobe Workfront planeringsfunktioner
 
-Vi släpper regelbundet nya funktioner till Maestro. En uppdaterad lista över funktioner som släppts finns på [Adobe Maestro-lansering](../maestro/release-activity.md).
-
+Vi släpper regelbundet nya funktioner i planeringsfunktionerna. En uppdaterad lista över funktioner som släppts finns på [Aktivitet för att lansera Adobe Workfront planeringsfunktioner](../maestro/release-activity.md).
 

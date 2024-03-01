@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
+source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
 workflow-type: tm+mt
-source-wordcount: '13992'
+source-wordcount: '13996'
 ht-degree: 0%
 
 ---
@@ -2018,8 +2018,8 @@ ht-degree: 0%
       * [Aktivera meddelanden om Adobe Workfront-mål](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Maestro {#adobe-maestro}
    * [Adobe Maestro-information](maestro/maestro-information.md)
-   * [Adobe Maestro - översikt](maestro/maestro-overview.md)
-   * [Adobe Maestro-lansering](maestro/release-activity.md)
+   * [Översikt över Adobe Workfront planeringsfunktioner](maestro/maestro-overview.md)
+   * [Aktivitet för att lansera Adobe Workfront planeringsfunktioner](maestro/release-activity.md)
    * Adobe Maestro-arkitekturen {#adobe-maestro-architecture}
       * [Arkitektur: artikelindex](maestro/architecture/architecture-information.md)
       * [Skapa arbetsytor](maestro/architecture/create-workspaces.md)

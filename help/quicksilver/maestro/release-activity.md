@@ -1,32 +1,32 @@
 ---
-title: Adobe Maestro-lansering
-description: Adobe Maestro är för närvarande tillgängligt för utvalda Workfront-kunder. Läs den här artikeln ofta och lär dig mer om de funktioner som nyligen släppts för Adobe Maestro.
+title: Aktivitet för att lansera Adobe Workfront planeringsfunktioner
+description: Adobe Workfront planeringsfunktioner är för närvarande tillgängliga för utvalda Workfront-kunder. Läs den här artikeln ofta och lär dig mer om de funktioner som nyligen släppts för planeringsfunktionerna.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Adobe Maestro-lansering
+# Aktivitet för att lansera Adobe Workfront planeringsfunktioner
 
 {{maestro-important-intro}}
 
-I den här artikeln listas de funktioner som har släppts efter lanseringen av betaprogrammet som avslutades av Maestro den 22 maj 2023.
+I den här artikeln listas de funktioner som har släppts efter lanseringen av Adobe Workfront planeringsfunktioner, som avslutades i betaprogram den 22 maj 2023.
 
-De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i det nedstängda betaprogrammet från Maestro har tillgång till alla funktioner i sin produktionsmiljö.
+De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i planeringsfunktionerna i ett slutet betaprogram får tillgång till alla funktioner i sina produktionsmiljöer.
 
 >[!IMPORTANT]
 >
->Mellan maj 2023 och december 2023 släpptes alla funktioner i den här artikeln till både förhandsgransknings- och produktionsmiljön. Maestro-funktionerna har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som släpps efter detta datum är för närvarande tillgängliga i Produktion.
+>Mellan maj 2023 och december 2023 släpptes alla funktioner i den här artikeln till både förhandsgransknings- och produktionsmiljön. Planeringsfunktionerna har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som släpps efter detta datum är för närvarande tillgängliga i Produktion.
 
-I den här artikeln listas de funktioner och korrigeringar som har släppts efter lanseringen av Maestro-betaprogrammet, den 22 maj 2023.
+I den här artikeln listas de funktioner och korrigeringar som har släppts efter lanseringen av Adobe Workfront planeringsfunktioner som avslutades i betaprogram den 22 maj 2023.
 
-Funktionerna släpps varje vecka och visas i den ordning de släpps, med den senaste först. Kunder som deltar i det nedstängda betaprogrammet från Maestro har tillgång till alla funktioner i sina förhandsgransknings- och produktionsmiljöer.
+Funktionerna släpps varje vecka och visas i den ordning de släpps, med den senaste först. Kunder som deltar i planeringsfunktionerna i ett slutet betaprogram får tillgång till alla funktioner i sina förhandsgransknings- och produktionsmiljöer.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Följande behörigheter fungerar nu tillsammans med användarens licenstyp:
 
 Mer information om den nya licensmodellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Mer information om anslutningen mellan licenstyp och behörigheter i Maestro finns i [Översikt över licenstypen i Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstypen i Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nytt utseende och ny känsla i RTF-verktygsfältet för postfält
@@ -88,7 +88,7 @@ Vi har gjort om och förbättrat upplevelsen av att lägga till alternativ eller
 * Enkelval
 * Flera val
 * Folk
-* Kopplade postfält (vid anslutning av Maestro-posttyper eller Workfront-objekt)
+* Kopplade postfält (vid anslutning av posttyper för planeringsfunktioner eller Workfront-objekt)
 
 Med den nya förbättringen visas en mindre, mer responsiv ruta först.
 
@@ -136,14 +136,14 @@ Produktion: 1 februari 2024
 
 Förhandsgranska: Ska bestämmas
 
-För att undvika förvirring och förenkla hanteringen av arbetsytor har vi tagit bort de automatiskt genererade skrivskyddade posttypkorten för anslutna icke-maestro-objekt från en arbetsyta.
+För att undvika förvirring och förenkla hanteringen av arbetsytor har vi tagit bort de automatiskt genererade skrivskyddade posttypkorten för anslutna externa objekt från en arbetsyta.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Vecka 22 januari 2024
 
-### Avsnittet Ny historik visar systemaktivitet för Maestro-poster
+### Avsnittet Ny historik visar systemaktivitet för poster för planeringsfunktioner
 
 Produktion: 25 januari 2024
 
@@ -151,7 +151,7 @@ Förhandsgranska: Ska bestämmas
 
 För att förbättra granskningsfunktionerna har vi introducerat ett nytt avsnitt på den högra panelen i en post där du kan granska ändringar som gjorts i den post som spelats in av systemet.
 
-Följande information registreras i det nya historikavsnittet:
+Följande information registreras i det nya avsnittet Historik:
 
 * Alla fältändringar
 
@@ -173,13 +173,13 @@ För att skapa konsekvens när du skapar poster har vi ändrat namnet på länke
 
 ## Vecka 8 januari 2024
 
-### Makrofunktioner tas bort från förhandsgransknings- och sandlådemiljöerna
+### Planeringsfunktioner tas bort från förhandsgransknings- och sandlådemiljöer
 
 Förhandsgranska och sandlåda: 11 januari 2024
 
-Maestro-området och alla Maestro-funktioner har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna. Maestro kommer att läggas till i dessa miljöer vid ett senare datum som vi kommer att informera om i versionsinformationen.
+Adobe Workfront planeringsfunktioner har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna. De kommer att läggas till i dessa miljöer vid ett senare tillfälle, som vi kommer att informera om i versionsinformationen.
 
-### Maestro-behörigheter för arbetsytor och vyer
+### Planeringsfunktioner behörigheter för arbetsytor och vyer
 
 Produktion: 11 januari 2024
 
@@ -191,7 +191,7 @@ När du delar en arbetsyta har användarna behörighet till posttyperna, postern
 
 När du delar en arbetsyta får användarna inte delningsbehörigheter till vyerna som är kopplade till posttyperna på arbetsytan. Du måste tilldela olika behörigheter till vyer.
 
-Följande behörighetsnivåer gäller för arbetsytorna i Maestro:
+Följande behörighetsnivåer gäller för arbetsytor:
 
 * Visa: Användare kan visa arbetsytor som delas med dem. De kan även visa posttyper och poster från den delade arbetsytan.
 
@@ -274,21 +274,21 @@ Preview and Production for all customers: 18 december 2023
 
 Nu kan du samarbeta med andra om enskilda poster genom att lägga till kommentarer eller svara andra samtidigt som du visar en post på detaljsidan.
 
-Kommentarsupplevelsen för Maestro-poster matchar den nya kommentarsfunktionen för Workfront-objekt.
+Kommentarsupplevelsen för planeringsfunktionsposter matchar den nya kommentarsfunktionen för Workfront-objekt.
 
 Mer information finns i [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Macromedia-kontakt (beta) för Adobe Workfront Fusion
+### Planeringsfunktionskontakt (beta) för Adobe Workfront Fusion
 
 Produktion: 21 december 2023
 
 >[!IMPORTANT]
 >
->Din organisation måste köpa Adobe Workfront Fusion för att kunna skapa anslutningar med Maestro.
+>Din organisation måste köpa Adobe Workfront Fusion för att kunna bygga anslutningar med Adobe Workfront planeringsfunktioner.
 >
 >Mer information finns i [Adobe Workfront Fusion - översikt](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-Nu kan du använda Adobe Workfront Fusion för att ansluta till Maestro. Med den nya anslutningen till Adobe Maestro Fusion kan du
+Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunktionerna. Med den nya Fusion-anslutningen kan du
 
 * Skapa, läsa, uppdatera och ta bort poster
 
@@ -300,7 +300,7 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till Maestro. Med den
 
 * Anropa ett API
 
-* Utlösa ett scenario när en ändring görs i Maestro
+* Utlösa ett scenario när en ändring görs i planeringsfunktionerna
 
 Mer information finns i [Adobe Maestro-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Mer information finns i [Adobe Maestro-moduler](/help/quicksilver/workfront-fusi
 
 Förhandsgranska och produktion: 14 december 2023
 
-Du kan nu välja det fält som du vill visa i den första kolumnen i en Maestro-tabellvy. Det här fältet kallas nu primärt fält.
+Du kan nu välja det fält som du vill visa i den första kolumnen i en tabellvy. Det här fältet kallas nu primärt fält.
 
 Före den här förbättringen visas namnfältet för en post alltid i den första kolumnen i tabellvyn och det kan inte placeras på en annan plats.
 
@@ -332,10 +332,9 @@ Observera följande med den här förbättringen:
 
 * Alla tabellvyer av en posttyp har samma primära fält som du väljer.
 
-Mer information finns i [Hantera tabellvy](/help/quicksilver/maestro/views/manage-the-table-view.md).
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### Koppla ihop Maestro-poster med Adobe Experience Manager Assets
+### Koppla samman planeringsfunktionsposter med Adobe Experience Manager Assets
 
 Förhandsversion: 14 december 2023
 
@@ -343,34 +342,33 @@ Produktionsrelease: 21 december 2023
 
 >[!IMPORTANT]
 >
->Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Maestro-poster till Adobe Experience Manager Assets.
+>Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Adobe Workfront planeringsfunktionsposter till Adobe Experience Manager Assets.
 >
 >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-Nu kan du upprätta en anslutning mellan posttyperna Maestro och Adobe Experience Manager Assets.
+Nu kan du upprätta en anslutning mellan posttyperna för Adobe Workfront planeringsfunktioner och Adobe Experience Manager Assets.
 
 När du har upprättat anslutningen är följande funktioner tillgängliga med den här uppdateringen:
 
-* Du kan länka resurser och mappar i Experience Manager till en Maestro-post från en viss databas i Experience Manager Assets som de har tillgång till. Du kan koppla resursfält till Maestro-fält i den här processen.
+* Du kan länka resurser och mappar i Experience Manager till en planeringsfunktionspost från en viss databas i Experience Manager Assets som de har tillgång till. Du kan koppla resursfält till planeringsfunktionsfält i den här processen.
 
-* Maestro-användare kan visa namnet på de anslutna resurserna samt värdena för de anslutna fälten i Maestro
+* Planeringsfunktionens användare kan visa namnet på de anslutna resurserna samt värdena för de anslutna fälten i planeringsfunktionerna.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* Du kan klicka på resursnamnet i tabellvyn för Maestro-posten från det anslutna postfältet och visa ett popup-fönster med miniatyrbilden för resursen och flera nyckelfält. I popup-fönstret kan du navigera till resursvisningsprogrammet i Experience Manager och visa all information om det.
+* Du kan klicka på resursnamnet i tabellvyn för planeringsfunktionsposten från det anslutna postfältet och visa ett popup-fönster med miniatyrbilden av resursen och flera nyckelfält. I popup-fönstret kan du navigera till resursvisningsprogrammet i Experience Manager och visa all information om det.
 
 Mer information finns i [Koppla posttyper](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Vecka 4 december 2023
 
-### Kopiera och klistra in information från ett fält till ett annat i Maestro-tabellvyn för fält av typen Folk och länkade poster
+### Kopiera och klistra in information från ett fält till ett annat i planeringstabellvyn för persontyper och länkade postfält
 
 Förhandsgranska och produktion: 5 december 2023
 
-Nu kan du kopiera och klistra in information från ett fält till ett annat fält av samma typ i en tabellvy av typen Maestro. Den här funktionen stöds nu för följande typer av fält:
+Nu kan du kopiera och klistra in information från ett fält till ett annat fält av samma typ i en posttypstabellvy. Den här funktionen stöds nu för följande typer av fält:
 
 * Folk
 * Länkade postfält
@@ -379,7 +377,7 @@ Tänk på följande:
 
 * Kopiering och inklistring av fältvärden från ett fält till ett annat stöds för fält som visar flera värden.
 
-* Du kan inte kopiera information från en annan källa, förutom ett Maestro-fält av samma typ som det fält som du klistrar in informationen i.
+* Du kan inte kopiera information från en annan källa, förutom ett planeringsfunktionsfält av samma typ som det fält som du klistrar in informationen i.
 
 * Du kan inte kopiera och klistra in fältvärden för fält som visas i området Detaljer för en post.
 
@@ -389,15 +387,15 @@ Mer information om länkade fält finns i [Koppla posttyper](../maestro/architec
 
 ## Vecka 27 november 2023
 
-### Kopiera och klistra in information från ett fält till ett annat i Maestro-tabellvyn
+### Kopiera och klistra in information från ett fält till ett annat i tabellvyn för planeringsfunktioner
 
 Förhandsgranska och produktion: 28 november 2023
 
-Nu kan du kopiera och klistra in information från ett fält till ett annat fält av samma typ i en tabellvy av typen Maestro.
+Du kan nu kopiera och klistra in information från ett fält till ett annat fält av samma typ i en posttyptabellvy för planeringsfunktioner.
 
 Tänk på följande:
 
-* Du kan inte kopiera information från en annan källa, förutom ett Maestro-fält av samma typ som det fält som du klistrar in informationen i.
+* Du kan inte kopiera information från en annan källa, förutom ett planeringsfunktionsfält av samma typ som det fält som du klistrar in informationen i.
 
 * Du kan inte kopiera och klistra in fältvärden för fält som visas i området Detaljer för en post.
 
@@ -417,7 +415,7 @@ Mer information finns i [Redigera poster](../maestro/records/edit-records.md).
 
 Förhandsgranska och produktion: 7 november 2023
 
-Nu kan du gruppera poster i tabellvyn för en posttypsida. Du kan gruppera efter tre unika fält i Maestro-gränssnittet <!--checking into this for now: and by four fields when using the API-->.
+Nu kan du gruppera poster i tabellvyn för en posttypsida. Du kan gruppera tre unika fält i gränssnittet för planeringsfunktioner<!--checking into this for now: and by four fields when using the API-->.
 
 Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-vi
 
 Förhandsgranska och produktion: 30 oktober 2023
 
-Vi har introducerat följande fälttyper för Maestro-poster:
+Vi har introducerat följande fälttyper för Adobe Workfront planeringsfunktionsposter:
 
 * Skapad av
 
@@ -441,11 +439,11 @@ Fältvärdena för de fält som skapas från dessa fälttyper är skrivskyddade 
 
 Mer information finns i [Skapa fält](../maestro/fields/create-fields.md).
 
-### Navigera till Workfront-objekt från en Maestro-post
+### Navigera till Workfront-objekt från en post för planeringsfunktioner
 
 Förhandsgranskning och produktion: 31 oktober 2023
 
-Nu kan du öppna Workfront objektsidor från följande områden i Maestro:
+Nu kan du öppna Workfront objektsidor från följande områden i planeringsfunktionerna:
 
 * Skrivskyddad vy för Workfront-objektspostregister
 
@@ -475,7 +473,7 @@ Mer information finns i [Skapa poster](../maestro/records/connect-records.md).
 
 Förhandsgranska och produktion: 16 oktober 2023
 
-Nu kan du lägga till ett fält av typen Personer i Maestro-posttyper. Du kan använda fält av typen Personer för att associera befintliga användare med en post. Mer information finns i [Skapa fält](../maestro/fields/create-fields.md).
+Nu kan du lägga till ett persontypsfält i posttyper för planeringsfunktioner. Du kan använda fält av typen Personer för att associera befintliga användare med en post. Mer information finns i [Skapa fält](../maestro/fields/create-fields.md).
 
 ### RTF-format för styckefält
 
@@ -530,21 +528,21 @@ Du kan nu ändra ordningen på en eller flera rader (eller poster) i tabellvyn p
 
 ## Vecka 4 september 2023
 
-### Koppla ihop Maestro-poster med Workfront företag och grupper
+### Koppla samman planeringsfunktionsposter med Workfront företag och grupper
 
 Förhandsgranskning och produktion: 5 september 2023
 
-Nu kan du koppla en Maestro-post till Workfront-företag och -grupper. Du måste först skapa en anslutning mellan en Maestro-posttyp och Workfront-företagen och gruppera objekttyper. Sedan kan du koppla en enda Maestro-post av den valda posttypen till enskilda Workfront-företag och -grupper.
+Nu kan du koppla en post för planeringsfunktioner till Workfront-företag och -grupper. Du måste först skapa en anslutning mellan en posttyp för planeringsfunktioner och Workfront-företagen och gruppera objekttyper. Sedan kan du koppla en enda post för planeringsfunktioner av den valda posttypen till enskilda Workfront-företag och -grupper.
 
 Tänk på följande:
 
-* Du måste skapa en anslutning mellan posttyperna Maestro och objekttyperna Workfront Company och Group för varje arbetsyta.
+* Du måste skapa en anslutning mellan posttyper för planeringsfunktioner och objekttyperna Workfront Company och Group för varje arbetsyta.
 
 * Du kan inte ansluta taxonomiposttyper med Workfront objekttyper.
 
-* Du kan koppla flera Maestro-poster till samma Workfront-företag eller -grupp, och flera företag eller grupper till samma Maestro-post.
+* Du kan koppla flera poster för planeringsfunktioner till samma Workfront-företag eller -grupp och flera företag eller grupper till samma post för planeringsfunktioner.
 
-* Du kan inte redigera företag eller grupper i Maestro. Alla företags- eller gruppändringar som gjorts i Workfront visas i Maestro när du granskar de länkade posterna i Maestro.
+* Du kan inte redigera företag eller grupper i planeringsfunktionerna. Alla företags- eller gruppändringar som görs i Workfront visas i planeringsfunktionerna när du granskar länkade poster för planeringsfunktioner.
 
   Mer information finns i följande artiklar:
 
@@ -571,15 +569,15 @@ Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-vi
 
 ## Vecka 21 augusti 2023
 
-### Koppla ihop Maestro-poster med program och portfolior
+### Koppla samman Adobe Workfront planeringsdokument med program och portfolior
 
 Förhandsgranska och produktion: 24 augusti 2023
 
-Nu kan du koppla samman en Maestro-post med Workfront program och portfolior. Du måste skapa en anslutning mellan en Maestro-posttyp och ett program eller en portfölj som skapar ett anslutet fält. Sedan kan du koppla alla Maestro-poster från alla andra posttyper inom samma arbetsyta till specifika program och portföljer som skapar en skrivskyddad posttyp för Workfront eller Workfront Portfolio i samma arbetsyta. Tänk på följande:
+Nu kan du koppla samman en post för planeringsfunktioner med Workfront program och portföljer. Du måste skapa en anslutning mellan posttypen för planeringsfunktioner och ett program eller en portfölj som skapar ett anslutet fält. Sedan kan du koppla alla planeringsfunktionsposter från alla andra posttyper inom samma arbetsyta till specifika program och portföljer som skapar en skrivskyddad posttyp för Workfront eller Workfront Portfolio i samma arbetsyta. Tänk på följande:
 
 * Posttyper för Workfront-anslutning är unika för varje arbetsyta.
-* Du kan koppla flera Maestro-poster till samma Workfront-program eller portfölj, samt flera program och portföljer till samma Maestro-post.
-* Du kan inte redigera program och portföljer i Maestro. Alla program- och portföljändringar som görs i Workfront visas i Maestro när de länkade posterna granskas.
+* Du kan koppla ihop flera poster för planeringsfunktioner till samma Workfront-program eller portfölj, samt flera program och portföljer till samma post för planeringsfunktioner.
+* Du kan inte redigera program och portföljer i planeringsfunktionerna. Alla program- och portföljändringar som görs i Workfront visas i planeringsfunktionerna när de länkade posterna granskas.
 
 ### Ny sorteringsfunktion för tabellvyn
 
@@ -608,13 +606,13 @@ Vi har infört följande förbättringar av tidslinjevyn:
 
 ### Ändra ordning på kolumner i tabellvyn
 
-Nu kan du ändra ordning på kolumner i tabellvyn i maestro. Tänk på följande när du ändrar ordning på kolumner:
+Nu kan du ändra ordning på kolumner i tabellvyn. Tänk på följande när du ändrar ordning på kolumner:
 
 * Fältet Namn är alltid det första fältet i tabellvyn för en posttypsida
 
 * Du kan inte flytta namnfältet till en annan position
 
-* Fältet Namn är fryst och ingår inte i den vågräta rullningen.
+* Fältet Namn är fryst och ingår inte i den vågräta rullningen
 
 ### Vågrät rullning för tidslinjevyn
 
@@ -650,7 +648,7 @@ Nu kan du välja en anpassad ikon för en posttyp och en anpassad färg för pos
 
 Förhandsgranska och produktion: 13 juli 2023
 
-Nu kan du lägga till en fälttyp för kryssruta i Maestro-posttyper. Du kan använda ett fält av typen Kryssruta för att lägga till en kryssruta till en post. Du kan använda det här fältet för att ange ett specifikt attribut eller en specifik status för den aktuella posten. Du kan till exempel använda den som en flagga för att spåra slutförande, godkännande eller andra binära attribut för varje post.
+Nu kan du lägga till en fälttyp för kryssruta i posttyper för planeringsfunktioner. Du kan använda ett fält av typen Kryssruta för att lägga till en kryssruta till en post. Du kan använda det här fältet för att ange ett specifikt attribut eller en specifik status för den aktuella posten. Du kan till exempel använda den som en flagga för att spåra slutförande, godkännande eller andra binära attribut för varje post.
 
 ## Vecka 26 juni 2023
 
@@ -664,19 +662,19 @@ Vi har aktiverat möjligheten att aktivera snabbmenyn genom att högerklicka var
 
 ### Postfältnamn är unika
 
-Vi har infört ett krav nu på att fältnamnen för en Maestro-posttyp ska ha unika namn. Fält som tillhör olika posttyper behöver inte ha unika namn.
+Vi har infört ett krav nu på att fältnamnen för en posttyp för planeringsförmåga ska ha unika namn. Fält som tillhör olika posttyper behöver inte ha unika namn.
 
 ## Vecka 5 juni 2023
 
-### Koppla ihop Maestro-poster med Workfront-projekt
+### Koppla samman Adobe Workfront planeringsfunktionsposter med Workfront-projekt
 
 Förhandsgranskning och produktion: 5 juni 2023
 
-Nu kan du koppla en Maestro-post till Workfront-projekt. Du måste skapa en koppling till en Maestro-posttyp för att upprätta anslutningen mellan Maestro-poster och Workfront-projekt. Sedan kan du koppla alla Maestro-poster från alla andra posttyper till kopplingsposten med hjälp av fältet Relation. Tänk på följande:
+Nu kan du koppla samman en post för planeringsfunktioner med Workfront-projekt. Du måste skapa en posttyp för anslutningsplaneringsfunktioner för att upprätta en koppling mellan planeringsfunktionsposterna och Workfront-projekt. Sedan kan du koppla alla planeringsfunktionsposter från alla andra posttyper till kopplingsposten med hjälp av fältet Relation. Tänk på följande:
 
 * Du måste ha en anslutningsposttyp för Workfront för varje arbetsyta.
-* Du kan koppla flera Maestro-poster till samma Workfront-projekt och flera projekt till samma Maestro-post.
-* Du kan inte redigera projekt i Maestro. Alla projektändringar som görs i Workfront visas i maestro när du granskar de länkade posterna.
+* Du kan koppla flera planeringsfunktionsposter till samma Workfront-projekt och flera projekt till samma planeringsfunktionspost.
+* Du kan inte redigera projekt i planeringsfunktioner. Alla projektändringar som görs i Workfront visas i planeringsfunktionerna när du granskar de länkade posterna.
 
 ## Vecka 29 maj 2023
 
