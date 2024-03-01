@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Sandlådan för anpassad uppdatering innehåller dina faktiska produktionsdata, 
 >[!NOTE]
 >
 >* Du kan inte schemalägga en uppdatering för den aktuella dagen. Om idag till exempel är 1 juni är den tidigaste dagen då du kan schemalägga en uppdatering 2 juni.
->* Den schemalagda uppdateringen sker kl. 12.00 på det angivna datumet, baserat på tidszonen för användaren som skickade begäran.
+>* Den schemalagda uppdateringen sker någon gång under natten, baserat på användarens kluster (amerikanska kluster uppdateras under natten i USA). Den angivna tiden är oförutsägbar på grund av andra kunder i kön och hur mycket data som uppdateras. Om kön har många stora kunder kan det hända att uppdateringen inte körs förrän den dagen eller nästa dag.
 >* Din anpassade uppdateringssandlåda har alltid samma produktfunktioner som din produktionsmiljö. När du uppdaterar din anpassade uppdateringssandlåda bevaras dock endast varumärket för inloggningsskärmens bakgrundsfärg. Inloggningsskärmen och navigeringsfältets logotyper återställs till [!DNL Workfront] standardvärden, och eventuella varumärkesbilder som du har ändrat före uppdateringen visas inte.
 >
 
@@ -86,7 +86,7 @@ Så här kommer du åt din anpassade uppdateringssandlåda:
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klicka på **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
+1. Klicka **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
 1. I **[!UICONTROL Test Environment]** avsnitt, klicka **[!UICONTROL Sandbox 1]** eller **[!UICONTROL Sandbox 2]**.
 
