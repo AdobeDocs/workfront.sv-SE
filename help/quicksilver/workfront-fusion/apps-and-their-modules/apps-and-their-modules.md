@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 07443d85e160004c273fc977629dd9f588cc23b2
+source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Adobe Journey Optimizer] moduler](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe Maestro-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Adobe PDF Services] moduler](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
+* [[!DNL Adobe Photoshop] moduler](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target] moduler](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
 * [[!DNL Airtable] moduler](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)
 * [[!DNL Allocadia] moduler](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md)
