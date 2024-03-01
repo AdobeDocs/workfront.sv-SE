@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2740'
 ht-degree: 0%
 
 ---
@@ -53,19 +53,26 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Dropbox] moduler, du måste ha en [!DNL Dropbox] konto.
+* Används [!DNL Dropbox] moduler, du måste ha en [!DNL Dropbox] konto.
+
+>[!IMPORTANT]
+>
+>Dropbox måste godkänna program med fler än 50 användare.
+>
+>Mer information finns i Utvecklarhandbok för Dropbox.
+
 
 ## [!DNL Dropbox] moduler och deras fält
 
@@ -119,7 +126,7 @@ Den här modulen för utlösare returnerar filinformation när filen i en angive
 
 #### [!UICONTROL Search Files/Folders]
 
-Den här sökmodulen söker efter poster i ett objekt i [!DNL Dropbox] som matchar den sökfråga du anger.
+Sökmodulen söker efter poster i ett objekt i [!DNL Dropbox] som matchar den sökfråga du anger.
 
 Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -316,7 +323,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
-   <td> <p> Välj mapp för [!DNL Dropbox] du vill överföra filen till.</p> </td> 
+   <td> <p> Välj mapp för dina [!DNL Dropbox] du vill överföra filen till.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Source File]</p> </td> 
@@ -651,12 +658,12 @@ När du konfigurerar den här modulen visas följande fält.
 
 Det finns flera situationer när det inte går att överföra eller uppdatera en fil:
 
-* Den överförda filen är för stor och överskrider den största tillåtna filstorleken [!DNL Dropbox] eller så har du använt alla [!DNL Dropbox] kontots lagringskvot. Du måste ta bort befintliga filer från [!DNL Dropbox] eller uppgradera din plan.
+* Den överförda filen är för stor och överskrider den största tillåtna filstorleken [!DNL Dropbox] eller så har du använt alla [!DNL Dropbox] kontots lagringsutrymme. Du måste ta bort befintliga filer från [!DNL Dropbox] eller uppgradera din plan.
 * Den tidigare markerade mappen, som filen överförs till, finns inte längre. Scenariot stoppas och du måste välja målmappen igen.
 
 ### Bild som refereras via en delad länk återges inte
 
-Den URL som returneras av [!UICONTROL Dropbox] >[!UICONTROL Create a shared link] länkar inte direkt till en bild, utan till [!DNL Dropbox] sida. Ersätt efterföljande för att tvinga bilden att hämtas `?dl=0` med `?dl=1`. Lägg till `&raw=1` till webbadressen.
+Den URL som returneras av [!UICONTROL Dropbox] >[!UICONTROL Create a shared link] länkar inte direkt till en bild, utan till [!DNL Dropbox] sida. Om du vill tvinga bilden att hämtas ersätter du den efterföljande `?dl=0` med `?dl=1`. Lägg till `&raw=1` till webbadressen.
 
 Om du behöver få en direkt eller rå länk till bilden för din webbplats eller för andra [!DNL Workfront Fusion] -moduler måste du ändra den ursprungliga delade URL:en på följande sätt:
 
@@ -685,7 +692,7 @@ Om du vill göra det i ett enda steg kombinerar du dessa funktioner:
 
 ![](assets/replace-both-350x47.png)
 
-Du kan också kopiera den och klistra in den i fältet. Ersätt `1.url` med webbadressen.
+Du kan också kopiera den och klistra in den i fältet. Ersätt `1.url` med URL:en.
 
 ```
 {{replace(replace(1.url; "?dl=0"; ""); "www"; "dl")}}
