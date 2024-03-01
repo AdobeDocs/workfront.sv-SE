@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Tillgång till objekt och områden med nya licenser
+
+<!-- Audited: 2/2024 -->
 
 Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var och en av Adobe Workfront-licenserna tillåter för objekten och områdena i Workfront.
 
@@ -166,4 +168,4 @@ Du hittar detaljerad information om vilka åtkomstnivåer som tillåts för varj
 * [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Bevilja åtkomst till scenarioplan](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
-* [Bevilja åtkomst till Adobe Workfront-mål](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* [Ge åtkomst till Adobe Workfront mål](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
