@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs layouten för tidrapporter i Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -137,6 +137,14 @@ Eventuella kommentarer som gjorts i tidrapporten visas i det här området.
 
 ## Panelen Sammanfattning
 
+<div class="preview">
+
+Exempel i förhandsvisningsmiljön:
+![Panelen Sammanfattning](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+Exempel i produktionsmiljön:
 ![Panelen Sammanfattning](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Du kan öppna panelen Sammanfattning för uppgifter och utgåvor som visas i en tidrapport. Härifrån kan du kommentera uppgifter och problem eller uppdatera deras information. Mer information finns i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
