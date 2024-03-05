@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättring
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Den här sidan beskriver alla uppdateringsströmmar och meddelandeförbättringar som gjorts i den andra utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Home-widgetar
+
+>[!NOTE]
+>
+>Förhandsversion: 1 mars 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+
+Vi har nu lagt till de nya kommentarsfunktionerna i **Lägg till ny uppdatering** snabbåtgärdsknappen i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nytt hem.
+
+Mer information finns i [Kom igång med nya startsidan](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen
 
@@ -34,7 +44,7 @@ Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/up
 
 >[!NOTE]
 >
->Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
 
 För att ge dig en kronologisk sammanhängande vy över både kommentarer och systemaktivitetsloggar introducerar vi en tredje flik i uppdateringsområdet för alla objekt. Fliken Alla samlar både användarkommentarer och systemaktivitetskommentarer i en sammanhängande ström.
 

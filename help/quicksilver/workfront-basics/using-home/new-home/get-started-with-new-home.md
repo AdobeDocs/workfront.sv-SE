@@ -6,9 +6,9 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar uppgifter som du har tilldelats i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa en uppgift direkt från widgeten. Du kan även delegera dina uppgifter medan du inte är på kontoret.
 
 * **Mina problem**\
-    Visar problem som du har tilldelats i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan, eller så kan du skapa ett problem direkt från widgeten. Den här widgeten innehåller bara problem vars associerade projekt är inställda på Aktuell. Du kan även delegera dina ärenden medan du inte är på kontoret.
+    Visar problem som du har tilldelats i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa ett problem direkt från widgeten. Den här widgeten innehåller bara problem vars associerade projekt är inställda på Aktuell. Du kan även delegera dina ärenden medan du inte är på kontoret.
 
 * **Mina förfrågningar**\
     Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningsrutan för en begäran.
@@ -57,7 +57,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
 * **Alla godkännanden**\
     Visar alla godkännanden för din organisation i en tabell med anpassningsbara kolumner, samt ett sökfält där du kan söka efter specifika godkännanden.
 
-* **Väntande godkännanden**&lt;\
+* **Väntande godkännanden**\
     Visar godkännanden som tilldelats ett dokument i ett projekt som du äger. Här kan du visa godkännandestatus och påminna användare om ofullständiga granskningar och godkännanden. <span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span>
 
 * **Omnämnanden**\

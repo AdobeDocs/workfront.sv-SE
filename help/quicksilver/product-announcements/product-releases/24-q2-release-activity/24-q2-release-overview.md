@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,25 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrering med JumpSite är nu tillgängligt för nya pakettyper</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Den befintliga JumpSeat-integreringen är nu tillgänglig för konton med någon av de nya pakettyperna (dvs. Select, Prime eller Ultimate). Du måste fortfarande ha en aktiv JumpSite-prenumeration för att kunna aktivera integreringen.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 26 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -220,6 +239,25 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Home-widgetar</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Vi har nu lagt till de nya kommentarsfunktionerna i <b>Lägg till ny uppdatering</b> snabbåtgärdsknappen i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nytt hem.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 1 mars 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Vi har gjort följande förbättringar i den nya kommentarsfunktionen:</p>

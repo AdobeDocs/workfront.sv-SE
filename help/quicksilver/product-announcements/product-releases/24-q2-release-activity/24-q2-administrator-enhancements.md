@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 - administratörsförbättringar
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Den här sidan beskriver alla administratörsförbättringar som gjorts i andra utgåvan av kvartalet 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Integrering med JumpSite är nu tillgängligt för nya pakettyper
+
+>[!NOTE]
+>
+>Förhandsversion: 26 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: 24.4 (april 2024)
+
+Den befintliga JumpSeat-integreringen är nu tillgänglig för konton med någon av de nya pakettyperna (dvs. Select, Prime eller Ultimate). Du måste fortfarande ha en aktiv JumpSite-prenumeration för att kunna aktivera integreringen.
+
+Mer information om JumpSeat-integrering finns i [Konfigurera JumpSeat-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## Workfront inbyggda fält är tillgängliga i betaversionen av formulärdesignern
 

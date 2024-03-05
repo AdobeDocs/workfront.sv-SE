@@ -7,9 +7,9 @@ description: Du kan använda en layoutmall för att konfigurera vad användarna 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,14 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
       <p>Välj vilka widgetar som ska finnas på användarens arbetsytor, deras position och välj en bakgrund. Observera att även om användare inte kan ta bort de markerade widgetarna kan de flytta och ändra storlek på dem fritt samt lägga till ytterligare widgetar.</p>
       <p>Den här fliken fungerar i stort sett som en liten ny hemarbetsyta, och kan därför anpassas enligt stegen som beskrivs i <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Lägga till, redigera eller ta bort widgetar i nytt hem</a>. Välj widgetar och ordna arbetsytan så som du vill att den ska visas för användarna.</p>
       <p>Om du vill ändra bakgrunden följer du stegen under <b>Anpassning av bakgrund</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Kom igång med Nytt hem</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>Det är bara när du flyttar eller ändrar storlek på widgetar i layoutmallen som användarna inte längre behöver uppdatera sin layout på hemsidorna. Om du lägger till eller tar bort en widget kommer dock en uppdatering av användarnas sidor att utlösas.
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Widget-inställningar</td> 
@@ -93,18 +100,24 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
       </ul>
       <p>När du har valt den widget du vill redigera visas tillgängliga alternativ till höger. Dessa alternativ innehåller <b>Filter</b>, <b>Kolumner</b>och <b>Grupper</b>. Du kan:</p>
       <ul>
-        <li><b>Välj vilka filter, kolumner eller grupper som ska vara tillgängliga för användarna:</b><p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare.</li></p>
-        <li><b>Ange ett standardfilter eller en standardgrupp för widgeten:</b><p>Håll muspekaren över ett alternativ så visas en knapp som gör att du kan ange det alternativet som standard för användarna. Den aktuella standardinställningen kommer att ha ett blått standardmärke till höger.</li></p>
-        <li><b>Lägg till ett befintligt filter, en befintlig kolumn eller en grupp i listan med tillgängliga alternativ:</b><p>Klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i den listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</li></p>
+      <li><p><b>Välj vilka filter, kolumner eller grupper som ska vara tillgängliga för användarna:</b></p>
+      <p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare.</li></p>
+      <li><p><b>Ange ett standardfilter eller en standardgrupp för widgeten:</b></p>
+      <p>Håll muspekaren över ett alternativ så visas en knapp som gör att du kan ange det alternativet som standard för användarna. Den aktuella standardinställningen kommer att ha ett blått standardmärke till höger.</li></p>
+      <li><p><b>Lägg till ett befintligt filter, en befintlig kolumn eller en grupp i listan med tillgängliga alternativ:</b></p>
+      <p>Klicka på plustecknet längst ned i varje lista för att lägga till ett alternativ i den listan. Observera att endast befintliga filter, fält (för kolumner) eller grupper kan läggas till på det här sättet.</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Om du anger ett standardfilter eller en gruppering för en viss widget med hjälp av en layoutmall kanske det inte börjar gälla omedelbart på grund av befintliga användarinställningar. Om du vill använda det nya filtret eller grupperingen direkt kan du eller användaren behöva återställa sina användarinställningar genom att lägga till &quot;/resetUser&quot; i slutet av URL:en.
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. Fortsätt att anpassa layoutmallen.
 
