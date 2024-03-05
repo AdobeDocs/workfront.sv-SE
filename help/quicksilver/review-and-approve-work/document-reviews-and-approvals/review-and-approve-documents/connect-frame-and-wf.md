@@ -5,9 +5,9 @@ title: Connect Workfront and Frame.io
 description: Workfront använder Frame.io i gransknings- och godkännandeprocessen för att möta personer där de vill arbeta. Projekthanteringen och godkännandeprocessen hanteras i Workfront och granskningsprocessen görs i Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f50d102eb9c44abb9780c378c41c108b124077c4
+source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -15,18 +15,16 @@ ht-degree: 0%
 
 # Connect Workfront and Frame.io
 
-Workfront använder Frame.io i gransknings- och godkännandeprocessen för att möta personer där de vill arbeta. Projekthanteringen och godkännandeprocessen hanteras i Workfront och granskningsprocessen görs i Frame.io. Du måste slutföra alla följande avsnitt för att kunna konfigurera integreringen:
+Workfront använder Frame.io i gransknings- och godkännandeprocessen för att möta personer där de vill arbeta. Projekthanteringen och godkännandeprocessen hanteras i Workfront och granskningsprocessen slutförs i Frame.io. Du måste slutföra alla följande avsnitt för att kunna konfigurera integreringen:
 
 * [Koppla en Workfront-grupp till ett Frame.io-team](#connect-a-workfront-group-to-a-frameio-team)
 * [Skapa ett Workfront-projekt och lägg till en ansluten grupp](#create-a-workfront-project-and-add-a-connected-group)
 
->[!IMPORTANT]
->
->Innehållet i den här artikeln hänvisar till den uppdaterade funktionen för dokumentgodkännande som bara är tillgänglig för specifika konton. Mer information om standardgodkännandeprocesser finns i artiklarna i [Arbetsgodkännanden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+Innehållet i den här artikeln hänvisar till den uppdaterade funktionen för dokumentgodkännande som bara är tillgänglig för specifika konton. Mer information om standardgodkännandeprocesser finns i artiklarna i [Arbetsgodkännanden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Åtkomstkrav
 
-* Din organisation måste vara manuellt registrerad för att kunna använda de funktioner som beskrivs i den här artikeln. Mer information finns i [Adobe Workfront och Frame.io native integration alpha: översikt](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+* Din organisation måste vara manuellt registrerad för att kunna använda de funktioner som beskrivs i den här artikeln. Mer information finns i [Adobe Workfront och Frame.io native integration alpha: översikt](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 
 ## Koppla en Workfront-grupp till ett Frame.io-team
@@ -48,7 +46,7 @@ Vi förbättrar aktivt den här funktionen för allmän tillgänglighet i maj.
    ![](assets/connect-frame-group.png)
 1. Ange API-utvecklartoken.
 1. Klicka **Initiera anslutning**.
-1. (Villkorligt) Välj ett Frame.io-konto.
+1. (Villkorligt) Om du är administratör för mer än ett Frame.io-konto väljer du det konto som du vill använda.
 
 ## Skapa ett Workfront-projekt och lägg till en ansluten grupp
 
@@ -81,7 +79,7 @@ När du har anslutit en Workfront Group till ett Frame.io-team måste du skapa e
 
 >[!NOTE]
 >
->Underaktiviteter stöds för närvarande inte.
+>Underaktiviteter stöds för närvarande inte i anslutna Frame.io-projekt.
 
 
 1. Skapa de uppgifter du behöver fylla i i Frame.io
@@ -92,9 +90,10 @@ När du har anslutit en Workfront Group till ett Frame.io-team måste du skapa e
 
    >[!IMPORTANT]
    >
-   >Du måste lägga till den anslutna gruppen Frame.io för att kunna se det här anpassade formuläret för åtgärderna.
+   >En ansluten Frame.io-grupp måste tilldelas i området Projektinformation för att formuläret ska visas. Mer information finns i [Skapa ett Workfront-projekt och lägg till en ansluten grupp](#create-a-workfront-project-and-add-a-connected-group) i den här artikeln.
 
-1. Aktivera kryssrutan och välj **Aktiv**.
+
+1. Aktivera **Aktivitetens integreringsstatus** och välj **Aktiv**.
    ![](assets/frame-custom-form.png)
 
 1. Klicka **Spara ändringar**. En Frame.io-ikon visas bredvid projektnamnet.
@@ -111,6 +110,12 @@ Projektet är fortfarande inte anslutet, du måste fortsätta till nästa avsnit
 
 ### Aktivera projektet i Frame.io
 
-1. Ändra status från **Planering** till **Aktuell** eller en anpassad status som är lika med aktuell. Integreringen slutförs och projektet, åtgärderna och eventuella dokument i Frame.io genereras.
+1. Ändra projektstatus från **Planering** till **Aktuell** eller en anpassad status som är lika med aktuell. Integreringen slutförs och projektet, åtgärderna och eventuella dokument i Frame.io genereras.
 
 Ikonen Frame.io bredvid projektnamnet visas med en lila signal om att integreringen lyckades. Användarna får ett e-postmeddelande med en inbjudan till Frame.io-projektet.
+
+>[!IMPORTANT]
+>
+>När projektet har anslutits för Frame.io återspeglas ändringar som görs i projektgruppen inte i Frame.io.
+
+

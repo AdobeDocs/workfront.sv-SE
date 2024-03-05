@@ -5,9 +5,9 @@ title: Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt
 description: Man kan lägga in material som ska granskas i Frame.io och skicka till Workfront för granskning och godkännande.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 4edb4f8d0c309c77fbdf96eba056c9e763c799be
+source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 ## Förutsättningar
 
 * Du måste ha en Workfront-grupp ansluten till ett Frame.io-team.
-* Du måste ha ett Workfront-projekt anslutet till ett Frame.io-projekt och kunna läggas till som användare för en bildruteaktiverad uppgift.
+* Du måste ha ett Workfront-projekt anslutet till ett Frame.io-projekt och ha lagts till som användare till en Workfront-uppgift som är aktiverad för Frame.io.
 
 Mer information finns i [Koppla upp Workfront och Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
 
@@ -83,4 +83,4 @@ Mer information finns i [Koppla upp Workfront och Frame.io.](/help/quicksilver/r
 
 Resursen visas på den valda platsen och aktivitetsstatusen uppdateras därefter.
 
-Du kan starta gransknings- och godkännandeprocessen genom att följa de steg som beskrivs i artikeln [Skapa ett dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Du kan starta gransknings- och godkännandeprocessen genom att följa stegen som beskrivs i artikeln [Skapa ett dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
