@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättring
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,16 @@ Vi har gjort följande förbättringar i den nya kommentarsfunktionen:
 * Ditt användarnamn markeras i kommentarer som du är taggad för när du omnämns i kommentarstexten.
 
 Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+## Fliken Systemaktivitet i den nya kommentarsfunktionen stöder skrivskyddade kommentarer
+
+>[!NOTE]
+>
+>Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+
+Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfunktionen fylls nu i på fliken Systemaktivitet i den nya kommentarsupplevelsen som skrivskyddad. Du kan inte svara på systemaktivitetsposter i den nya kommentarsfunktionen.
+
+Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter
 
