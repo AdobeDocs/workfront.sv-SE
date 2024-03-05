@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
 # Systemspårade uppdateringar
+
+{{highlighted-preview}}
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -90,6 +92,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+   * <span class="preview">När du använder den nya kommentarsfunktionen kan användare inte lägga till en kommentar i en systemuppdatering. Alla svar som görs på systemaktivitetsposter i den tidigare kommentarsfunktionen fylls i på fliken Systemaktivitet som skrivskyddade i den nya kommentarsfunktionen.</span>
    * När du använder den äldre kommentarsfunktionen visas system- och användaruppdateringarna i ett kontinuerligt flöde.
 
    * När man använder en äldre kommentarsfunktion kan man som standard se systemuppdateringar eller välja att inte visa dem. Det går inte att inaktivera systemuppdateringar när den nya kommentarfunktionen används.

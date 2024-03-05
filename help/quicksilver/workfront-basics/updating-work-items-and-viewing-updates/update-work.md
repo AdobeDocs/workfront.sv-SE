@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4279'
 ht-degree: 0%
 
 ---
@@ -322,7 +322,7 @@ Du kan lägga till uppdateringar för följande objekt:
 
    >[!TIP]
    >
-   >Du kan inte lägga till en kommentar i en systemuppdatering.
+   >Du kan inte lägga till en kommentar i en systemuppdatering. <span class="preview">Alla svar som görs på systemaktivitetsposter i den tidigare kommentarsfunktionen fylls i på fliken Systemaktivitet som skrivskyddade.</span>
 
 1. <span class="preview">(Valfritt) Klicka på **Alla** om du vill visa både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning.</span>
 
