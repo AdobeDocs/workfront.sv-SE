@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 0%
@@ -264,7 +264,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i planer
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Antal arbetsytor för en Workfront-instans | 1 000 |
 | Antal posttyper för en arbetsyta | 1 000 (inkluderar taxonomier för arbetsytan eller objekt som du importerar från andra program) |
-| Antal poster för en posttyp | 10 000 |
+| Antal poster för en posttyp | 50 000 |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält | 1 000 tecken |
 | Storlek på fil som du kan klistra in i en posttypstabell | 1 MB |

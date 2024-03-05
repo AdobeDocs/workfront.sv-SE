@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
-source-wordcount: '13996'
+source-wordcount: '14000'
 ht-degree: 0%
 
 ---
@@ -2062,6 +2062,7 @@ ht-degree: 0%
       * [Hantera postvyer](maestro/views/manage-record-views.md)
       * [Hantera tabellvyn](maestro/views/manage-the-table-view.md)
       * [Hantera tidslinjevyn](maestro/views/manage-the-timeline-view.md)
+      * [Hantera kalendervyn](maestro/views/manage-the-calendar-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Mallen för Fusion-åtkomstregister](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
