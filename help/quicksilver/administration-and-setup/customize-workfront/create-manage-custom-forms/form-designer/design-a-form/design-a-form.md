@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
 workflow-type: tm+mt
-source-wordcount: '5171'
+source-wordcount: '5592'
 ht-degree: 0%
 
 ---
 
 # Designa ett formulär med formulärdesignern
+
+{{highlighted-preview}}
 
 Du kan utforma ett anpassat formulär med formulärdesignern. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -80,7 +82,9 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    * [Lägg till beräknade fält](#add-calculated-fields)
    * [Lägg till alternativknappar, kryssrutegrupp och listrutor](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Lägg till rubriker och datumfält](#add-typeahead-and-date-fields)
+   * [Lägg till externa sökfält](#add-external-lookup-fields)
    * [Lägga till bilder, PDF och videoklipp](#add-images-pdfs-and-videos)
+   * [Lägg till inbyggda Workfront-fält](#add-workfront-native-fields)
    * [Lägg till Adobe XD-filer](#add-adobe-xd-files)
 
 ## Lägg till nya eller befintliga fält i det anpassade formuläret
@@ -645,7 +649,7 @@ Så här lägger du till bilder, PDF eller videofilmer:
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
-      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar widgeten.</p> <p>När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> <p><b>VIKTIGT</b>: Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i widgeten. Om du gör det kommer systemet inte längre att känna igen widgeten där den nu kan refereras i andra områden av Workfront. </p> <p>Varje widgetnamn måste vara unikt i din organisations Workfront-instans. På så sätt kan du återanvända ett som redan har skapats för ett annat anpassat formulär. </p> </td> 
+      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar widgeten.</p> <p>När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> <p><b>VIKTIGT</b>: Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen widgeten där den nu kan refereras i andra områden av Workfront. </p> <p>Varje widgetnamn måste vara unikt i din organisations Workfront-instans. På så sätt kan du återanvända ett som redan har skapats för ett annat anpassat formulär. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -699,6 +703,55 @@ Så här lägger du till bilder, PDF eller videofilmer:
    eller
 
    Klicka **Spara och stäng**.
+
+<div class="preview">
+
+### Lägg till inbyggda Workfront-fält
+
+Du kan lägga till inbyggda Workfront-fält i dina anpassade formulär. När det anpassade formuläret bifogas till ett objekt fylls fältet i från objektdata. Fältet Beskrivning i ett anpassat formulär som är kopplat till ett projekt hämtas till exempel i projektbeskrivningen. (Fältet kan visa &quot;Ej tillämpligt&quot; om inga data är tillgängliga.)
+
+1. På skärmens vänstra sida finns **Ursprungligt fält** och dra den till ett avsnitt på arbetsytan.
+1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Etikett</td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Namn</td> 
+      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet.</p><p> När du konfigurerar fältet för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
+      <p><b>VIKTIGT</b>:
+      <ul> 
+      <li>Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen fältet där det nu kan refereras i andra områden av Workfront.</p> </li>
+      <li> <p>Varje fältnamn måste vara unikt i din organisations Workfront-instans. På så sätt kan du återanvända ett som redan har skapats för ett annat anpassat formulär.</p> </li>
+      <li><p>Vi rekommenderar att du inte använder punkt-/punkttecken i det anpassade fältnamnet för att förhindra fel när du använder fältet i olika områden av Workfront.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instruktioner</td> 
+      <td> <p>Ange eventuell ytterligare information om fältet. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Referensfält</td> 
+      <td><p>(Obligatoriskt) Välj ett internt Workfront-fält.<p><p>Endast inbyggda fält för formulärets objekt är tillgängliga. Om t.ex. listan Objekttyper längst upp i formulärdesignern visar Projekt, kan du välja inbyggda fält för projekt, men inte fält som är specifika för uppgifter.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Storlek</td> 
+      <td>(Valfritt) Ändra fältets visningsstorlek efter behov.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+
+   eller
+
+   Klicka **Spara och stäng**.
+
+</div>
 
 ### Lägg till Adobe XD-filer
 
