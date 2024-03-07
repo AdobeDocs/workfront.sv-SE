@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2296'
+source-wordcount: '2394'
 ht-degree: 0%
 
 ---
@@ -622,6 +622,10 @@ För varje erbjudande, något av följande `actions`  ställs in:
   <tr> 
    <td>ANVÄNDNING</td> 
    <td><p>När en motsvarande post hittas i målmiljön ställs åtgärden in på USEEXISTING och en <code>targetId</code> hämtas också i <code>translationmap</code>.</p><p>När den här åtgärden anges i <code>translationmap</code> som tillhandahålls <code>/install</code> slutpunkten kommer installationstjänsten inte att skapa posten. Det använder dock <code>targetId</code> som ingår i mappningsposten för andra objekt som kan ha en referens till den här posten.</p><p>En standardgrupp kan till exempel hittas i målmiljön som ett paket distribueras till. Det går inte att ha två standardgruppposter, så installationstjänsten använder GUID för den befintliga gruppen i andra objektskapande åtgärder som innehåller en referens till standardgruppen, till exempel ett projekt, ett formulär eller någon annan enhet som är relaterad till den här gruppen.</p><p><b>Obs!</b> <ul><li><p>När åtgärden USEEXISTING tilldelas ändras inte den befintliga posten i målmiljön. </p><p>Om beskrivningen för standardgruppen till exempel har ändrats i sandlådan där paketet skapades och beskrivningsvärdet är ett annat i målmiljön, ändras inte värdet efter en installation med det här <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>ÖVERSKRIVNING</td> 
+   <td><p>Den här åtgärden ställs inte in automatiskt.</p><p>Den här åtgärden ger möjlighet att uppdatera ett objekt som finns i målmiljön. Den ger möjlighet att manuellt åsidosätta en tilldelad CREATE- eller USEEXISTING-åtgärd innan den körs <code>/install</code> ring.<ul><li>En användare kan uppdatera ett objekt i testmiljön och sedan använda åtgärden VERWRITING för att uppdatera objektet i målmiljön.</p></li><li><p>Om användaren installerar ett erbjudandepaket från början och sedan ett nytt (eller uppdaterat) paket i framtiden innehåller ändringar av objekt i det ursprungliga paketet, kan användaren använda OVERWRITING för att ersätta (åsidosätta) tidigare installerade objekt. </p></li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
