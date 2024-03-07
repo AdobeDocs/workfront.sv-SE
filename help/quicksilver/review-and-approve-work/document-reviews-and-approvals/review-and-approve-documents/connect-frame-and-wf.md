@@ -5,7 +5,7 @@ title: Connect Workfront and Frame.io
 description: Workfront använder Frame.io i gransknings- och godkännandeprocessen för att möta personer där de vill arbeta. Projekthanteringen och godkännandeprocessen hanteras i Workfront och granskningsprocessen görs i Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,12 +15,16 @@ ht-degree: 0%
 
 # Connect Workfront and Frame.io
 
+>[!IMPORTANT]
+>
+>Innehållet i den här artikeln hänvisar till den uppdaterade funktionen för dokumentgodkännande som bara är tillgänglig för specifika konton. Mer information om standardgodkännandeprocesser finns i artiklarna i [Arbetsgodkännanden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 Workfront använder Frame.io i gransknings- och godkännandeprocessen för att möta personer där de vill arbeta. Projekthanteringen och godkännandeprocessen hanteras i Workfront och granskningsprocessen slutförs i Frame.io. Du måste slutföra alla följande avsnitt för att kunna konfigurera integreringen:
 
 * [Koppla en Workfront-grupp till ett Frame.io-team](#connect-a-workfront-group-to-a-frameio-team)
 * [Skapa ett Workfront-projekt och lägg till en ansluten grupp](#create-a-workfront-project-and-add-a-connected-group)
 
-Innehållet i den här artikeln hänvisar till den uppdaterade funktionen för dokumentgodkännande som bara är tillgänglig för specifika konton. Mer information om standardgodkännandeprocesser finns i artiklarna i [Arbetsgodkännanden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 
 ## Åtkomstkrav
 
