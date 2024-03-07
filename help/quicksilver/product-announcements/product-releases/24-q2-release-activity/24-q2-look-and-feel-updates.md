@@ -4,9 +4,9 @@ description: Uppdateringar som både ser ut och känns under andra kvartersutgå
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ E-postmallarna för att lägga till en godkännare till en resurs och för att l
 
 >[!NOTE]
 >
->Förhandsversion: 8 februari 2024; Produktion för snabb release: Med version 24.3 (mars 2024); Produktion för kvartalsvis version: Med version 24.4 (april 2024)
+>Förhandsversion: 8 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för kvartalsvis publicering: Med version 24.4 (april 2024)
 
 Vi har uppdaterat flikarna för Forms, Fält och Avsnitt i Konfigurera > Anpassad Forms till en mer modern design som är förenlig med andra delar av Workfront. Du kommer nu åt de tre områdena från den vänstra navigeringsmenyn. Filter, vyer och grupperingar är fortfarande tillgängliga för listorna. Den uppdaterade designen gäller för anpassade formulär, fält och avsnitt som skapats både i den nya formulärdesignern och i den gamla formulärbyggaren.
 

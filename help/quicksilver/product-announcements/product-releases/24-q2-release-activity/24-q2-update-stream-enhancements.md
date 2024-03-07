@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättring
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilve
 
 >[!NOTE]
 >
->Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
 
 Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.
 

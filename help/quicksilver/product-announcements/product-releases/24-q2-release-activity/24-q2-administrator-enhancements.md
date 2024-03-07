@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 - administratörsförbättringar
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Inbyggda fält som används i anpassade formulär blir tillgängliga i fältbibl
 
 Den här funktionen är bara tillgänglig i betaversionen av formulärdesignern, inte i det äldre formulärverktyget.
 
-Experience League-artiklarna för den här funktionen kommer att uppdateras senast 7 mars.
+Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Attributmappning är nu tillgänglig för organisationer som har migrerat till Adobe IMS
 
@@ -55,7 +57,7 @@ Workfront systemadministratörer kan nu konfigurera mappning av användarattribu
 
 Tidigare var den här funktionen bara tillgänglig för organisationer som ännu inte börjat använda Adobe IMS.
 
-Instruktioner om hur du konfigurerar attributmappning finns i **Mappa användarattribut i Adobe enhetliga upplevelse** i artikeln [Mappa användarattribut och autodistribuera nya användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Instruktioner om hur du konfigurerar attributmappning finns i [Mappa användarattribut i Adobe enhetliga upplevelse](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) i artikeln **Mappa användarattribut och autodistribuera nya användare**.
 
 ## Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern
 

@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
 * [Uppdatera ström- och meddelandeförbättringar](#update-stream-and-notification-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
-### Förbättringar av administratörer
+### Administratörsförbättringar
 
 <table>
             <col style="width: 50%;" />
@@ -57,7 +57,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrering med JumpSite är nu tillgängligt för nya pakettyper</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrering med JumpSite är nu tillgängligt för nya pakettyper</a></p>
                         <p>Den befintliga JumpSeat-integreringen är nu tillgänglig för konton med någon av de nya pakettyperna (dvs. Select, Prime eller Ultimate). Du måste fortfarande ha en aktiv JumpSite-prenumeration för att kunna aktivera integreringen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -76,16 +76,16 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront inbyggda fält är tillgängliga i betaversionen av formulärdesignern</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront inbyggda fält är tillgängliga i betaversionen av formulärdesignern</a></p>
                         <p>Nu kan du lägga till fält som är inbyggda i Workfront i dina anpassade formulär. Med den här nya fälttypen kan du ordna och presentera data för användarna på ett logiskt sätt, utan att behöva återskapa befintliga data i anpassade fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 29 februari 2024</p>
+                                <p>Förhandsversion: 29 februari 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb version: med utgåvan 24.3 (14 mars 2024)</p>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
@@ -131,7 +131,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
             </tbody>
         </table>
 
-### Förbättringar på startsidan
+### Hemförbättringar
 
 <table>
             <col style="width: 50%;" />
@@ -143,13 +143,13 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Utgivningsdatum</span>
+                        <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ har lagts till i Administratörskontroller för nya startsidor med layoutmallar</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p><p>Administratörer kan nu anpassa vilka kolumner som är tillgängliga för användare i specifika nya Home-widgetar med hjälp av layoutmallar. Alternativen är att dölja eller visa standardkolumner och lägga till befintliga fält som nya kolumner.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ som lagts till i administratörskontroller för nytt hem med layoutmallar</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p><p>Administratörer kan nu anpassa vilka kolumner som är tillgängliga för användare i specifika nya Home-widgetar med hjälp av layoutmallar. Alternativen är att dölja eller visa standardkolumner och lägga till befintliga fält som nya kolumner.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -194,7 +194,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                                 <p>Förhandsversion: 13 februari 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.3 (mars 2024)</p>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
@@ -212,7 +212,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                                 <p>Förhandsversion: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Production for fast release: Med version 24.3 (mars 2024)</p>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
@@ -241,13 +241,13 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström finns nu i snabbåtgärder för nya startwidgetar</a><span style="color: #ff0000;"> Nytt i förhandsvisning!</span></p>
-                        <p>Vi har nu lagt till den nya kommentarsfunktionen i <b>Lägg till ny uppdatering</b> Snabbåtgärdsknapp i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem på nya startsidan.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Home-widgetar</a></p>
+                        <p>Vi har nu lagt till den nya kommentarsfunktionen till snabbåtgärdsknappen"Lägg till ny uppdatering" i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nya Hem.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 1 mars 2024</p>
+                                <p>Förhandsversion: 1 mars 2024</p>
                             </li>
                             <li>
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
@@ -260,7 +260,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p><p>Vi har gjort följande förbättringar i den nya kommentarsfunktionen:</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen</a></p><p>Vi har gjort följande förbättringar i den nya kommentarsfunktionen:</p>
                         <ul>
                             <li>
                                 <p>Du kan klicka på en kommenterares namn för att visa deras namn, roll och e-postadress i en informationsruta. Den här informationen kan hjälpa dig att identifiera rätt användare om du har fler än en användare med samma namn. När du klickar på kommentarens namn i informationsrutan öppnas deras användarprofil.</p>
@@ -286,15 +286,15 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Fliken Systemaktivitet på den nya kommentarsupplevelsen har stöd för skrivskyddade kommentarer</a></p><p>Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfunktionen fylls nu i på fliken Systemaktivitet i den nya kommentarsupplevelsen som skrivskyddad. Du kan inte svara på poster för systemaktivitet i den nya kommentarsupplevelsen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Fliken Systemaktivitet i den nya kommentarsfunktionen stöder skrivskyddade kommentarer</a></p><p>Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfunktionen fylls nu i på fliken Systemaktivitet i den nya kommentarsupplevelsen som skrivskyddad. Du kan inte svara på systemaktivitetsposter i den nya kommentarsfunktionen.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 februari 2024</p>
+                                <p>Förhandsversion: 22 februari 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb version: med utgåvan 24.3 (mars 2024)</p>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
@@ -312,7 +312,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                                 <p>Förhandsversion: 22 februari 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: Med version 24.3 (mars 2024)</p>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
@@ -327,13 +327,13 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 22 februari 2024</p>
+                                <p>Förhandsversion: 22 februari 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb version: med utgåvan 24.3 (mars 2024)</p>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsversion: med versionen 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -409,4 +409,4 @@ Mer information om underhållsuppdateringar som gjordes i version 2.3 finns i [W
 
 ### Uppdateringar
 
-Utforska de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje produktversion av Adobe Workfront. Mer information finns i avsnittet Nyheter i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
