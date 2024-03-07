@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '5592'
+source-wordcount: '5620'
 ht-degree: 0%
 
 ---
@@ -511,6 +511,8 @@ Exempel på hur du använder fältet för extern sökning för att anropa samma 
 >[!NOTE]
 >
 >Extern sökfunktion är inte tillgänglig för dokument- eller användarobjekt.
+>
+>Externa sökfält från anpassade formulär stöds för närvarande inte i kontrollpaneler. Du kan inte redigera fältvärdet infogat och det kanske inte visas korrekt på en kontrollpanel.
 
 Så här lägger du till en extern sökning:
 

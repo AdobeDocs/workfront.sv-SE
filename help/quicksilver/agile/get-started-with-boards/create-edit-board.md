@@ -6,7 +6,7 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: b76d9ec49e28a186286e6ac2d2df3fcc3360c2d8
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
       >[!NOTE]
       >
-      >Kortgränsen för dynamiska kort är 1 000 uppgifter och 1 000 utgåvor, totalt 2 000 kort. Ett stort antal kort på kortet kan påverka kortets prestanda.
+      >Kortgränsen för dynamiska kort är 700 uppgifter och 700 utgåvor, totalt 1 400 kort. Ett stort antal kort på kortet kan påverka kortets prestanda.
 
    1. (Valfritt) Välj [!UICONTROL **Arkivera inte färdiga kort**] för att lägga till slutförda uppgifter och ärenden till styrelsen som synliga kort i kolumnen Slutfört. När det här alternativet inte är markerat hämtas färdiga kort när styrelsen skapas till styrelsen som arkiverade kort.
 

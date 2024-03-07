@@ -6,9 +6,9 @@ description: Du kan lägga till en rapport på en ny eller befintlig kontrollpan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Lägga till en rapport på en instrumentpanel
 
 Du kan lägga till en rapport på en ny eller befintlig kontrollpanel direkt från en rapport. Du kan också lägga till en befintlig rapport på en kontrollpanel enligt beskrivningen i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
+>[!NOTE]
+>
+>Externa sökfält från anpassade formulär stöds för närvarande inte i kontrollpaneler. Du kan inte redigera fältvärdet infogat och det kanske inte visas korrekt på en kontrollpanel.
 
 ## Åtkomstkrav
 
@@ -55,7 +59,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
 ## Lägga till en rapport på en befintlig instrumentpanel
 
 1. Gå till en rapport som du har behörighet att hantera och du vill lägga till i en instrumentpanel.
-1. Klicka på **Rapportåtgärder** nedrullningsbar meny.
+1. Klicka på **Rapportåtgärder** listruta.
 1. Klicka **Lägg till på instrumentpanelen**. Högst 10 nyligen ändrade kontrollpaneler - som ägs av den inloggade användaren - visas i ordningen för de senaste till äldsta.
 1. Välj den kontrollpanel som du vill lägga till rapporten i.
 
