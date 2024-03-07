@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -141,9 +141,28 @@ I följande tabell visas likheter och skillnader mellan tabell- och tidslinjevye
 
 
 Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+
 1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture/create-record-types.md).
 
    Som standard visas alla poster av den valda typen i tabellvyn.
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. Klicka på **Visa** och välj en befintlig **Tabellvy** ![](assets/table-view-icon.png) eller klicka **Skapa vy > Tabell** skapa en tabellvy
 
@@ -157,15 +176,20 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
    >
    >    Om du vill skapa en tidslinjevy måste posttypen som du skapar vyn för ha minst två datumfält. I annat fall är alternativet Tidslinje nedtonat.
 
-1. (Valfritt) Uppdatera namnet på vyn och klicka sedan på **Skapa** för att spara den.
+1. (Valfritt) Uppdatera namnet på vyn och klicka sedan på **Skapa** spara en tabellvy
+
+   Eller klicka **Nästa** när du skapar en tidslinje <!--or calendar--> vy.
 
    Som standard får vyn namnet &quot;Tabell &lt; nummer >&quot; eller &quot;Tidslinje &lt; nummer >&quot;. Talet är ett automatiskt genererat steg.
 
+1. (Villkorligt) Välj start- och slutdatum för posterna som ska visas på tidslinjen <!--or calendar--> visa och sedan klicka **Skapa**.
 1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på **Mer** meny ![](assets/more-menu.png) > **Byt namn** för att uppdatera vynamnet. <!--ensure there is not another saving step here?!-->
+   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Valfritt) Mer information om hur du hanterar en viss typ av vy finns i följande artiklar:
 
    * [Hantera tabellvyn](../views/manage-the-table-view.md)
    * [Hantera tidslinjevyn](../views/manage-the-timeline-view.md)
+     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## Ta bort vyer
@@ -180,6 +204,7 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. Klicka på den nedrullningsbara menyn för vyn, håll markören över en av vyerna i listan och klicka sedan på **Mer** meny ![](assets/more-menu.png) > **Ta bort**.
 1. Klicka **Ta bort** för att bekräfta. <!--ensure there is not another saving step here?!-->
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '4258'
+source-wordcount: '4603'
 ht-degree: 0%
 
 ---
@@ -32,59 +32,71 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
 
-<!--
-## Week of March 4, 2024
+## Vecka 4 mars 2024
 
-### Change row height in the table view
+### I korthet visas postdetaljer i tabellvyn
 
-Production: March 7, 2024 
+Produktion: 7 mars 2024
 
-Preview: To be determined 
+Förhandsgranska: Ska bestämmas
 
-You now have an option to modify the height of a row when displaying records in the table view.
+För att göra det enklare att visa ytterligare information om poster när tabellvyn används har vi introducerat en ny panel som visar en snabb vy av postens detaljer. Nedan följer en del av informationen som finns på den här panelen:
 
-You can update the row height to one of the following sizes:  
+* översiktlig information om relevanta poster
 
-* Short 
-* Medium
-* Tall.  
+* möjlighet att ändra postinformation
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+* en länk för att öppna postens informationssida
 
-### New tabbed design for record views 
+Mer information finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
-Production: March 7, 2024 
+### Ändra radhöjd i tabellvyn
 
-Preview: To be determined 
+Produktion: 7 mars 2024
 
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+Förhandsgranska: Ska bestämmas
 
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+Nu kan du ändra höjden på en rad när du visar poster i tabellvyn.
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+Du kan uppdatera radhöjden till någon av följande storlekar:
 
-### Dynamic design of a record view
+* Kort
+* Medel
+* Hög.
 
-Production: March 7, 2024
-Preview: To be determined 
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+### Ny flikdesign för postvyer
 
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Produktion: 7 mars 2024
 
-### New calendar view for records
+Förhandsgranska: Ska bestämmas
 
-Production: March 7, 2024 
+För bättre navigering och användarvänlighet har vi omdesignat visningen av postvyer. Vyerna visas nu vågrätt som flikar på posttypssidan, så att du enkelt kan navigera mellan dem. Före den här förbättringen visas vyer i listrutan Visa.
 
-Preview: To be determined 
+Vyer visas kronologiskt efter tillagda datum från vänster till höger. Delade vyer visas också i kronologisk ordning efter när de delades.
 
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+Mer information finns i [Hantera postvyer](/help/quicksilver/maestro/views/manage-record-views.md).
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+### Dynamisk design av en postvy
 
--->
+Produktion: 7 mars 2024 Förhandsvisning: Ska fastställas
+
+Vi har uppdaterat vyernas utseende och känsla på posttypssidan. De nya vyerna är dynamiskt responsiva och justeras snabbt till skärmstorleken. Alternativetiketterna i verktygsfältet är dolda för att göra det enklare att använda på mindre skärmar.
+
+Mer information finns i följande artiklar:
+* [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Hantera tidslinjevyn](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### Ny kalendervy för poster
+
+Produktion: 7 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+Nu kan du visa poster i en kalendervy. Du måste ha minst två datumfält på en posttyp för att kunna skapa kalendervyn.
+
+Mer information finns i [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Vecka 26 februari 2024
 
