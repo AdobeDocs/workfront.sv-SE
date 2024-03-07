@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ Så här hanterar du en tabellvy:
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. (Valfritt) Klicka på **Radhöjd** väljer du sedan bland följande alternativ för att ändra höjden på tabellraderna:
+   * Kort
+   * Medel
+   * Hög
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Kolumner (eller fält)](#add-columns-or-fields)

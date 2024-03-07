@@ -1,13 +1,13 @@
 ---
 title: Hantera postvyer
-description: Du kan visa poster i en tabell eller i en tidslinjevy när du använder Adobe Maestro.
+description: Du kan visa poster i en tabell-, tidslinje- eller kalendervy när du använder Adobe Workfront planeringsfunktioner.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-När du har valt en posttyp i Adobe Maestro kan du visa alla poster av den typen i följande vyer:
+När du har valt en posttyp i området för Adobe Workfront planeringsfunktioner kan du visa alla poster av den typen i följande vyer:
 
 * Tabell
 
   Mer information finns i [Hantera tabellvyn](../views/manage-the-table-view.md).
+
 * Tidslinje
 
   Mer information finns i [Hantera tidslinjevyn](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## Åtkomstkrav
 
@@ -46,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront planeringsfunktioner</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-## Att tänka på när du arbetar med maestro-vyer
+## Att tänka på när du arbetar med postvyer
 
-* Vyer i maestro är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
+* Vyer i området för Workfront planeringsfunktioner är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
 * Vyer som du skapar visas bara för dig och de användare som du delar vyerna med.
 * Att skapa vyer för driftsposttyper är identiskt med att bygga vyer för taxonomiposttyper.
 * När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har behörighet till vyn.
-* Följande element är unika för varje vy i Maestro:
+* Följande element är unika för varje postvy:
 
    * Filter
    * Gruppering
@@ -100,7 +105,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
   >[!NOTE]
   >
-  > Eftersom Maestro för närvarande är i betaversion är vissa vyelement kanske inte tillgängliga för båda vyerna.
+  > Eftersom Adobe Workfront planeringsfunktioner för närvarande är i betaversion, kanske vissa vyelement inte är tillgängliga för alla vyer.
 
 I den här artikeln beskrivs följande information om maestro-vyer:
 
@@ -111,6 +116,8 @@ I den här artikeln beskrivs följande information om maestro-vyer:
 * [Dela en vy](#share-a-view)
 
 ## Likheter och skillnader mellan tabell- och tidslinjevyerna
+
+<!-- should we include Calendar here or remove this section???-->
 
 I följande tabell visas likheter och skillnader mellan tabell- och tidslinjevyerna i Maestro:
 
@@ -180,7 +187,7 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
    Eller klicka **Nästa** när du skapar en tidslinje <!--or calendar--> vy.
 
-   Som standard får vyn namnet &quot;Tabell &lt; nummer >&quot; eller &quot;Tidslinje &lt; nummer >&quot;. Talet är ett automatiskt genererat steg.
+   Som standard heter Workfront vyn &quot;Tabell &lt; tal >&quot; eller &quot;Tidslinje &lt; tal >&quot;, <!--or "Calendar < number >"-->. Talet är ett automatiskt genererat steg.
 
 1. (Villkorligt) Välj start- och slutdatum för posterna som ska visas på tidslinjen <!--or calendar--> visa och sedan klicka **Skapa**.
 1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på **Mer** meny ![](assets/more-menu.png) > **Byt namn** för att uppdatera vynamnet. <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 1. Klicka på den nedrullningsbara menyn för vyn, håll markören över en av vyerna i listan och klicka sedan på **Mer** meny ![](assets/more-menu.png) > **Ta bort**.
 1. Klicka **Ta bort** för att bekräfta. <!--ensure there is not another saving step here?!-->
 
-   Vyn tas bort för alla användare som har åtkomst till Maestro-området och kan inte återställas.
+   Vyn tas bort för alla användare som har åtkomst till postområdet och kan inte återställas.
 
 ## Dela en vy
 
