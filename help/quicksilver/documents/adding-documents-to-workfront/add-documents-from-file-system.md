@@ -6,7 +6,7 @@ description: Du kan lägga till dokument i projekt, uppgifter eller problem i fl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
+source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -123,4 +123,4 @@ Skadade filer tas bort inom 24 timmar efter att de identifierats, såvida du int
 
 ### Filnamnsbegränsningar {#file-name-restrictions}
 
-Filer som överförs till Workfront får inte innehålla vissa tecken i filnamn. Om en fil innehåller något av följande tecken i filnamnet, tas tecknen bort från filnamnet när filen överförs: `< > { }`.
+Filer som överförs till Workfront får inte innehålla vissa tecken i filnamn. Om en fil innehåller något av följande tecken i filnamnet, tas tecknen bort från filnamnet när filen överförs: `! # % * \ | ' " / ? < > { } [ ]`.
