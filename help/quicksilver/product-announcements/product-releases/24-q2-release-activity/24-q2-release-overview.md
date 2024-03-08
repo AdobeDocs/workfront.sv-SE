@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -381,7 +381,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
 
 ### Workfront Fusion-förbättringar
 
-Det finns inga Workfront Fusion-uppdateringar för närvarande i den här versionen. Det här området uppdateras när det finns uppdateringar.
+Nya funktioner i Workfront Fusion finns i Production på en rad utanför den första utgåvan av kvartal 2023. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
