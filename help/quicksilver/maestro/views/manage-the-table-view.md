@@ -1,13 +1,13 @@
 ---
 title: Hantera tabellvyn
-description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Maestro.
+description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront planeringsfunktioner.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Maestro.
+Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront planeringsfunktioner.
 
-Mer information om Maestro-vyer och hur du hanterar dem finns i [Hantera postvyer](../views/manage-record-views.md).
+Mer information om postvyer och hur du hanterar dem finns i [Hantera postvyer](../views/manage-record-views.md).
 
 ## Åtkomstkrav
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro </p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för planeringsfunktionerna för Adobe Workforts </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ Så här hanterar du en tabellvy:
 
 ### Lägg till kolumner (eller fält) {#add-columns}
 
-Kolumnrubrikerna i en Maestro-tabellvy visar fält som är kopplade till posterna i vyn. Samma fält som visas i tabellvyn visas även i detaljavsnittet för en Maestro-post. Mer information finns i [Redigera poster](../records/edit-records.md).
+Kolumnrubrikerna i en tabellvy visar fält som är kopplade till posterna i vyn. Samma fält som visas i tabellvyn visas även i avsnittet Detaljer för en post. Mer information finns i [Redigera poster](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Att lägga till kolumner i en vy är detsamma som att lägga till fält i en pos
 Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 1. Gå till en posttypssida och välj en **Tabell** i listrutan.
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Börja lägga till fält (eller kolumner) enligt beskrivningen i artikeln [Skapa fält](../fields/create-fields.md).
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på sidan Detaljer för posterna av den valda posttypen.
@@ -212,11 +214,13 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 ### Lägga till rader (eller poster) {#add-rows}
 
-Raderna i en Maestro-tabellvy visar enskilda poster av den valda posttypen.
+Raderna i en tabellvy visar enskilda poster av den valda posttypen.
 
-Du kan ha upp till 10 000 poster (eller rader) för en posttyp i Maestro.
+Du kan ha upp till 50 000 poster (eller rader) för posttypen S.
 
 1. Gå till en posttypssida och välj en **Tabell** i listrutan.
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Börja lägga till poster (eller rader) enligt beskrivningen i artikeln [Skapa poster](../records/create-records.md).
 
    Posterna som du lägger till i tabellvyn sparas omedelbart och visas för alla användare som har behörigheten Visa eller högre på arbetsytan.
@@ -359,7 +363,7 @@ Att lägga till grupperingar i tabellvyn påminner om att lägga till gruppering
 Tänk på följande:
 
 * Du kan använda grupperingar både i tabell- och tidslinjevyerna. Grupperingarna i tabellvyn är oberoende av grupperingarna i tidslinjevyn av samma posttyp.
-* Du kan använda tre nivåer av gruppering i en maestro-vy. Posterna grupperas i den ordning som du väljer grupperingar.
+* Du kan använda tre nivåer av gruppering i en vy. Posterna grupperas i den ordning som du väljer grupperingar.
 &lt;!—* Du kan använda upp till fyra nivåer av gruppering när du använder API:t. —check on this for now—>
 * Grupperingarna är unika för den vy du väljer. Två tabellvyer av samma posttyp kan ha olika grupperingar. Två användare som tittar på samma tabellvy ser samma gruppering som används för närvarande.
 * Du kan inte namnge grupperingarna som du skapar för en tabellvy.

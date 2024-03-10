@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ I följande artiklar beskrivs hur du kan skapa och hantera postvyer i Adobe Maes
 * [Hantera postvyer](../views/manage-record-views.md)
 * [Hantera tabellvyn](../views/manage-the-table-view.md)
 * [Hantera tidslinjevyn](../views/manage-the-timeline-view.md)
-  <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+* [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md)

@@ -4,9 +4,9 @@ description: Du kan visa poster och deras fält i en kalendervy.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 Du kan visa poster och deras fält i en kalendervy från posttypssidan.
 
-Mer information om Maestro-vyer och hur du hanterar dem finns i [Hantera postvyer](../views/manage-record-views.md).
+Mer information om Adobe Workfront planeringsvyer och hur du hanterar dem finns i [Hantera postvyer](../views/manage-record-views.md).
 
 ## Åtkomstkrav
 
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro </p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront planeringsfunktioner  </p>  
 </td>
   </tr>
 
@@ -94,10 +94,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Tänk på följande:
 
 * Du kan bara skapa en kalendervy om du har minst två datumfält kopplade till en posttyp. När du har ett eller inga datumfält kopplade till en posttyp är alternativet Kalendervy nedtonat.
-* Följande scenarier:
+* Följande scenarier finns:
 
-   * När start- och slutdatum inte har några värden visas inte posterna i kalendern
-   * När start- eller slutdatumet inte har något värde visas posten som en endagshändelse
+   * När både start- och slutdatum saknar värden visas inte posterna i kalendern
+   * När start- eller slutdatumet saknar värde visas posten som en endagshändelse
    * När startdatumet är efter slutdatumet visas inte posten i kalendern.
 
 Så här hanterar du en kalendervy:
@@ -107,7 +107,7 @@ Så här hanterar du en kalendervy:
 
    ![](assets/calendar-view-example.png)
 
-   Posterna som är associerade med den posttyp som du har valt visas som staplar i en kalender.
+   Posterna som är associerade med den posttyp som du har valt visas som staplar i en kalender. Färgen på staplarna matchar färgen på postikonen.
 
 1. Navigera i kalendern genom att göra något av följande:
 

@@ -1,13 +1,13 @@
 ---
 title: Skapa poster
-description: I Adobe Maestro är en post en instans av en posttyp. Du måste skapa posttyper innan du kan skapa enskilda poster. Att skapa taxonomiposter är identiskt med att skapa driftsposter.
+description: När du använder Adobe Workfront planeringsfunktioner är en post en instans av en posttyp. Du måste skapa posttyper innan du kan skapa enskilda poster. Att skapa taxonomiposter är identiskt med att skapa driftsposter.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-I Adobe Maestro är en post en instans av en posttyp.
+I Adobe Workfront planeringsfunktioner är en post en instans av en posttyp.
 
 Du kan ha följande typer av poster:
 
@@ -27,13 +27,13 @@ Du kan ha följande typer av poster:
 
 Att skapa driftsposter är identiskt med att skapa taxonomiposter.
 
-Du kan skapa poster i Maestro genom att göra något av följande:
+Du kan skapa poster genom att göra något av följande:
 
-* Skapa dem manuellt för Maestro-posttyper
-* Koppla dem till Maestro-poster från andra program.
+* Skapa dem manuellt för posttyper
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * Skapa poster genom att kopiera och klistra in information från en extern lista.
 
-I den här artikeln beskrivs hur du skapar Maestro-poster. Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
+I den här artikeln beskrivs hur du skapar poster. Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
 
 * [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [Hantera tidslinjevyn](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Maestro </p>  
+   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront planeringsfunktioner </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ Alla poster av den valda typen visas i tabellvyn.
 
 1. Fortsätt lägga till information på varje rad och klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om när du lägger till nya poster:
 
    * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
 
-## Skapa poster genom att ansluta dem från ett annat program
+<!-- this is not possible anymore: 
 
-Du kan importera poster från andra program genom att länka dem till poster som är länkade till Maestro. Detta skapar en Maestro-posttyp för det andra programmets anslutna objekt.
+## Create records by connecting them from another application
 
-1. Skapa en Maestro-posttyp enligt beskrivningen i [Skapa posttyper](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. Skapa Maestro-poster för den posttyp du skapade i föregående steg. Mer information finns i avsnittet [Skapa poster genom att lägga till dem manuellt till en posttyp](#create-records-by-manually-adding-them-to-a-record-type) i den här artikeln.
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. Skapa en anslutning till en objekttyp från ett annat program för den Maestro-posttyp som du har skapat. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Lägg till poster från ett annat program i de Maestro-poster som du skapade ovan med hjälp av det länkade postfältet som du skapade i föregående steg. Mer information finns i [Koppla poster](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   Följande objekt skapas i Maestro:
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * En skrivskyddad Maestro-posttyp som refererar till det andra programmets posttyp som du länkade till i det anslutna postfältet.
+    The following items are created in Maestro:
 
-     Om du till exempel ansluter en Maestro-posttyp till ett Workfront-projekt skapas en skrivskyddad posttyp med namnet&quot;Workfront project&quot; i samma arbetsyta. Du kan komma åt de skrivskyddade Workfront-posttyperna från tabellvyn för de Maestro-poster som du länkar från.
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## Skapa poster genom att kopiera och klistra in information från en extern lista
 

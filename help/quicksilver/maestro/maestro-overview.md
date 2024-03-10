@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 0%
 
 ---
@@ -253,8 +253,8 @@ Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **Kalendervy**: Visar poster som har minst två datumtypsfält i ett kalenderformat.
+     ![](assets/calendar-view-example.png)
 
 
 Mer information finns i [Hantera postvyer](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Så här hittar du planeringsfunktionerna:
 
    1. Klicka på namnet på en posttyp för att öppna postens sida. Postsidan öppnas som standard i tabellvyn.
 
-   1. Anpassa tabellvyn genom att göra något av följande:
+      Du kan också skapa en tidslinje eller en kalendervy.
 
-      * Lägg till fler fält till posttypen genom att klicka på **+** i det övre högra hörnet. Kolumnerna i vyn är fält som är associerade med posttypen.
-      * Lägg till poster genom att klicka på **+** i det nedre vänstra hörnet. Raderna i vyn är unika poster av den valda posttypen.
-      * Klicka **Filter** för att filtrera den information som visas på posttypssidan.
+   1. Börja lägga till poster i tabellvyn genom att lägga till rader
 
-   1. Klicka på namnet på en post för att visa mer information på postens informationssida.
+      eller
 
-   1. Skapa en tidslinjevy från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
-
-   1. Anpassa tidslinjevyn genom att uppdatera filter, grupperingar eller inställningar.
+      Börja lägga till postfält genom att lägga till kolumner.
 
 ## Aktivitet för att lansera Adobe Workfront planeringsfunktioner
 

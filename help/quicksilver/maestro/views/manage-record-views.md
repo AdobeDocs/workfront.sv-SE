@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ När du har valt en posttyp i området för Adobe Workfront planeringsfunktioner
 
   Mer information finns i [Hantera tidslinjevyn](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* Kalender
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  Mer information finns i [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Åtkomstkrav
 
@@ -107,7 +107,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   >
   > Eftersom Adobe Workfront planeringsfunktioner för närvarande är i betaversion, kanske vissa vyelement inte är tillgängliga för alla vyer.
 
-I den här artikeln beskrivs följande information om maestro-vyer:
+I den här artikeln beskrivs följande information om postvyer:
 
 * [Skapa och redigera en vy](#create-or-edit-record-views)
 * [Ta bort en vy](#delete-views)
@@ -115,32 +115,32 @@ I den här artikeln beskrivs följande information om maestro-vyer:
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [Dela en vy](#share-a-view)
 
-## Likheter och skillnader mellan tabell- och tidslinjevyerna
+## Likheter och skillnader mellan postvyer
 
-<!-- should we include Calendar here or remove this section???-->
-
-I följande tabell visas likheter och skillnader mellan tabell- och tidslinjevyerna i Maestro:
+I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och kalendervyer:
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Funktion | Tabellvy | Tidslinjevy |
-|-----------------------------------------------------------------------|------------|---------------|
-| Visa poster i en lista eller tabell | ✓ |              |
-| Visa alla fält som kolumner i tabellen som standard | ✓ |              |
-| Dölj eller visa fält (eller kolumner) | ✓ |               |
-| Redigera fältvärden för varje post | ✓ |               |
-| Lägga till poster som nya rader i vyn | ✓ |               |
-| Lägga till fält som nya kolumner i vyn | ✓ |               |
-| Kopiera rader från en extern lista och klistra in dem i en tabell | ✓ |               |
-| Visa poster på en tidslinje |            | ✓ |
-| Filtrera poster | ✓ | ✓ |
+| Funktion | Tabellvy | Tidslinjevy | Kalendervy |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| Visa poster i en lista eller tabell | ✓ |              | |
+| Visa alla fält som kolumner i tabellen som standard | ✓ |              |    |
+| Dölj eller visa fält (eller kolumner) | ✓ |               |    |
+| Redigera fältvärden för varje post | ✓ |               |             |
+| Lägga till poster som nya rader i vyn | ✓ |               |        |
+| Lägga till fält som nya kolumner i vyn | ✓ |               |         |
+| Kopiera rader från en extern lista och klistra in dem i en tabell | ✓ |               |          |
+| Visa poster på en tidslinje |            | ✓ |             |
+| Filtrera poster | ✓ | ✓ |           |
+| Visa poster i en kalender |           |              | ✓ |
 | Gruppposter | ✓ | ✓ |
 | Sortera poster | ✓ |              |
-| Färgkodsposter |           | ✓ |
+| Färgkodsposter |           | ✓ | ✓ |
 | Färgkodsgrupperingar |           | ✓ |
 | Sök efter specifika poster | ✓ | ✓ |
-| Dela vy | ✓ | ✓ |
-| Öppna postens informationssida från vyn | ✓ | ✓ |
+| Dela vy | ✓ | ✓ | ✓ |
+| Öppna postens informationssida från vyn | ✓ | ✓ |    |
+
 
 ## Skapa eller redigera vyer {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
    Som standard visas alla poster av den valda typen i tabellvyn.
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. Klicka på **Visa** och välj en befintlig **Tabellvy** ![](assets/table-view-icon.png) eller klicka **Skapa vy > Tabell** skapa en tabellvy
 
    eller
 
-   Välj en befintlig **Tidslinjevy** ![](assets/timeline-view-icon.png) visa eller klicka **Skapa vy > Tidslinje** för att skapa en tidslinjevy.
+   Välj en befintlig **Tidslinjevy** ![](assets/timeline-view-icon.png) eller klicka **Skapa vy > Tidslinje** för att skapa en tidslinjevy.
+
+   eller
+
+   Välj en befintlig **Kalendervy** ![](assets/calendar-view-icon.png) eller klicka **Skapa vy > Kalender** för att skapa en kalendervy.
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    Om du vill skapa en tidslinjevy måste posttypen som du skapar vyn för ha minst två datumfält. I annat fall är alternativet Tidslinje nedtonat.
+   >    Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält. I annat fall är tidslinjen eller kalenderalternativen nedtonade.
 
-1. (Valfritt) Uppdatera namnet på vyn och klicka sedan på **Skapa** spara en tabellvy
+1. (Villkorligt) Klicka **Nästa** när du skapar en tidslinje eller kalendervy.
 
-   Eller klicka **Nästa** när du skapar en tidslinje <!--or calendar--> vy.
+   Som standard ger Workfront vyn ett av följande namn:
 
-   Som standard heter Workfront vyn &quot;Tabell &lt; tal >&quot; eller &quot;Tidslinje &lt; tal >&quot;, <!--or "Calendar < number >"-->. Talet är ett automatiskt genererat steg.
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. (Villkorligt) Välj start- och slutdatum för posterna som ska visas på tidslinjen <!--or calendar--> visa och sedan klicka **Skapa**.
+   Talet är ett automatiskt genererat steg.
+
+1. (Villkorligt) Välj **Starta** och **Slutdatum** för de poster som ska visas i tidslinjen eller kalendervyn.
+1. Klicka **Skapa**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på **Mer** meny ![](assets/more-menu.png) > **Byt namn** för att uppdatera vynamnet. <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Valfritt) Mer information om hur du hanterar en viss typ av vy finns i följande artiklar:
 
    * [Hantera tabellvyn](../views/manage-the-table-view.md)
    * [Hantera tidslinjevyn](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## Ta bort vyer
@@ -211,7 +224,7 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. Klicka på den nedrullningsbara menyn för vyn, håll markören över en av vyerna i listan och klicka sedan på **Mer** meny ![](assets/more-menu.png) > **Ta bort**.
 1. Klicka **Ta bort** för att bekräfta. <!--ensure there is not another saving step here?!-->
 

@@ -1,13 +1,13 @@
 ---
 title: Hantera tidslinjevyn
-description: Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Maestro.
+description: Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Workfront planeringsfunktioner.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Maestro.
+Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Workfront planeringsfunktioner.
 
-Mer information om vyerna i maestro finns i [Hantera postvyer i Adobe Maestro](../views/manage-record-views.md).
+Mer information om postvyer finns i [Hantera postvyer](../views/manage-record-views.md).
 
 ## Åtkomstkrav
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro </p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront planeringsfunktioner </p>  
 </td>
   </tr>
 
@@ -103,17 +103,6 @@ Tänk på följande:
    * När start- eller slutdatumet inte har något värde
    * När startdatumet infaller efter slutdatumet
 
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
-
 Så här hanterar du en tidslinjevy:
 
 1. Gå till den posttypssida som du vill visa tidslinjen för.
@@ -132,7 +121,7 @@ Så här hanterar du en tidslinjevy:
 
    * Klicka på vänster- och högerikonerna eller använd den vågräta rullningen för att flytta bakåt och framåt i tidslinjen.
    * Klicka **Idag** för att centrera tidslinjen till dagens datum.
-   * Välj något av följande alternativ på den nedrullningsbara menyn för tidsram för att uppdatera tidsstegen:
+   * Välj något av följande alternativ i listrutan Tidsram för att uppdatera tidsstegen:
 
       * År
       * Kvartal
@@ -196,7 +185,7 @@ Att lägga till grupperingar i tidslinjevyn påminner om att lägga till grupper
 Tänk på följande när du arbetar med grupperingar i tidslinjevyn:
 
 * Du kan använda grupperingar både i tabell- och tidslinjevyerna. Grupperingarna i tabellvyn är oberoende av grupperingarna i tidslinjevyn av samma posttyp.
-* Du kan använda tre nivåer av gruppering i en maestro-vy. Posterna grupperas i den ordning som du väljer grupperingar.
+* Du kan använda tre nivåer av gruppering i en vy. Posterna grupperas i den ordning som du väljer grupperingar.
 * Du kan använda upp till fyra nivåer av gruppering när du använder API:t.
 * Grupperingarna är unika för den vy du väljer. Två tidslinjevyer av samma posttyp kan ha olika grupperingar. Två användare som tittar på samma tidslinjevy ser samma gruppering som används för närvarande.
 * Du kan inte namnge grupperingarna som du skapar för en tidslinjevy.
@@ -218,6 +207,8 @@ Så här lägger du till en gruppering i tidslinjevyn:
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till upp till tre grupperingar.
 
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

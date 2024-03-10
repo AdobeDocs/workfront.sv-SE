@@ -1,13 +1,13 @@
 ---
 title: Redigera poster
-description: Du kan redigera postinformation i Adobe Maestro. Du måste skapa posttyper innan du kan börja skapa och redigera poster.
+description: Du kan redigera postinformation i Adobe Workfront planeringsfunktioner. Du måste skapa posttyper innan du kan börja skapa och redigera poster.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Du kan redigera postinformation i Adobe Maestro genom att redigera värdena i fälten som är kopplade till posterna.
+Du kan redigera postinformation i Adobe Workfront planeringsfunktioner genom att redigera värdena i fälten som är kopplade till posterna.
 
 Du måste skapa posttyper innan du kan börja skapa och redigera poster.
 
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Maestro </p>  
+   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront planeringsfunktioner </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan redigera en post i följande områden:
 
-* [Från detaljsidan för en post](#edit-a-record-from-the-records-details-page)
 * [Från tabellvyn för en posttyp](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### Redigera en post från postens informationssida
-
-{{step1-to-maestro}}
-
-Arbetsytan som du öppnar senast öppnas.
-
-1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
-1. Gör något av följande:
-
-   * Från en **Tabell** klickar du på namnet på en post.
-   * Från **Tabell** visa, hovra över namnet på en post och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * Klicka på ett postfält i en tidslinjevy.
-
-   Posten **Information** sidan öppnas.
-
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Redigera**
-
-   eller
-
-   Klicka i ett redigerbart fält på detaljsidan för att redigera informationen.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. Klicka **Spara ändringar**. <!--logged a bug for this - this needs to be "Save"-->
+* [Från detaljsidan för en post](#edit-a-record-from-the-records-details-page)
 
 ### Redigera en post från tabellvyn för en posttyp
 
@@ -144,7 +117,7 @@ Arbetsytan som du senast öppnade öppnas.
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** i den nedrullningsbara menyn i tabellens övre högra hörn väljer du en **Tabell** vy. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
+1. (Villkorligt) Från **Visa** nedrullningsbar meny <!--tab--> i tabellens övre högra hörn väljer du en **Tabell** vy. Detta bör vara standardvyn, såvida du inte har visat posttypen i en annan typ av vy när du senast öppnade den.
 
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
 1. Klicka inuti en post för att börja redigera information om den infogade posten.
@@ -171,6 +144,16 @@ Arbetsytan som du senast öppnade öppnas.
 
 1. (Valfritt) Dubbelklicka på ett kopplat postfält för att lägga till kopplade poster eller objekt till en annan post. Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 1. Tryck **Retur** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. A **Sparad** indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. (Valfritt) Om du vill kopiera och klistra in information från ett fält till ett annat gör du något av följande:
 
@@ -204,3 +187,33 @@ Arbetsytan som du senast öppnade öppnas.
    >    Du kan använda kortkommandona flera gånger i rad för att ångra flera ändringar.
 
 1. (Valfritt) Lägg till en miniatyrbild till en post. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### Redigera en post från postens informationssida
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+Arbetsytan som du öppnar senast öppnas.
+
+1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+1. Gör något av följande:
+
+   * Från en **Tabell** klickar du på namnet på en post.
+   * Från **Tabell** visa, hovra över namnet på en post och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * Klicka på ett postfält i en tidslinjevy.
+
+   Posten **Information** sidan öppnas.
+
+1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Redigera**
+
+   eller
+
+   Klicka i ett redigerbart fält på detaljsidan för att redigera informationen.
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. Klicka **Spara ändringar**. <!--logged a bug for this - this needs to be "Save"-->
