@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du kan dela följande objekt i Maestro:
 
 * Din Adobe Workfront-licenstyp fungerar tillsammans med dina Maestro-behörigheter så att du kan visa, bidra och hantera Maestro-objekt.
 
-  Mer information om hur licenstyper påverkar behörighetsnivåer för Maestro-objekt finns i [Översikt över licenstypen i Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+  Mer information om hur licenstyper påverkar behörighetsnivåer för Maestro-objekt finns i [Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systemadministratörer kan hantera och dela arbetsytor som andra användare har skapat.
 * Om du inte är systemadministratör kan du bidra till arbetsytor som skapats av andra om de delas med dig.
 * Du kan inte dela flera arbetsytor samtidigt.
@@ -62,7 +62,7 @@ Tabellerna i följande avsnitt visar vilken behörighetsnivå du kan välja när
 >
 >Alla användare kan inte ha de behörighetsnivåer som beskrivs nedan. Användarens individuella licens avgör vilken behörighetsnivå de kan få för Maestro-objekt.
 >
->Mer information finns i [Översikt över licenstypen i Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+>Mer information finns i [Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Behörigheter för arbetsytan

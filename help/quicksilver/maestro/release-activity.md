@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Förhandsgranska: Ska bestämmas
 
 Vi har ändrat behörighetsnivåerna för att ta hänsyn till användarnas licenstyper. Före den här förbättringen fanns det inga skillnader i behörigheter för arbetsytan baserat på användarnas licenstyper.
 
-Följande behörigheter fungerar nu tillsammans med användarens licenstyp:
+Följande är de högsta behörighetsnivåerna som användare kan få baserat på användarens licenstyp:
 
 * Användare med en planlicens (eller standardlicens, i den nya licensmodellen) kan skapa och hantera arbetsytor, posttyper och poster.
 
@@ -156,7 +156,7 @@ Följande behörigheter fungerar nu tillsammans med användarens licenstyp:
 
 Mer information om den nya licensmodellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstypen i Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nytt utseende och ny känsla i RTF-verktygsfältet för postfält

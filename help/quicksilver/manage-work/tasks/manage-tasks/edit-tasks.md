@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3729'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Tänk på följande när du redigerar uppgifter:
    * Loggtid
    * Redigera befintliga utgifter
    * Bifoga ett eget formulär
+
+* Andra användare måste uppdatera sina sidor innan de kan visa de uppdateringar du gör för en uppgift.
 
 ## Redigera en uppgift i en lista
 
@@ -443,7 +445,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    </tr> 
    <tr> 
    <td role="rowheader">Planerade timmar</td> 
-   <td> <p>Ange antalet planerade timmar för aktiviteten i timmar. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> 
+   <td> <p>Ange antalet planerade timmar för aktiviteten, i timmar. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> 
    <b>ANMÄRKNING</b>
    <p>
    När du skapar återkommande uppgifter är de planerade timmarna för varje förekomst. De planerade timmarna för de överordnade uppgifterna är det totala antalet planerade timmar från alla förekomster. Mer information om hur du skapar återkommande uppgifter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande uppgifter</a>.
@@ -588,7 +590,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
       <ul> 
       <li> <p>När du väljer flera uppgifter från samma grupp visas både godkännandeprocesser på systemnivå och på gruppnivå i det här fältet. </p> </li> 
       <li> <p>När du väljer flera uppgifter från olika grupper visas endast godkännandeprocesser på systemnivå i det här fältet. </p> </li> 
-      <li> <p>När någon av uppgifterna har en enda godkännandeprocess, ersätts den av den process på system- eller gruppnivå som du väljer. </p> </li>
+      <li> <p>När någon av uppgifterna har en enda godkännandeprocess, ersätts den av den process på systemnivå eller på gruppnivå som du väljer. </p> </li>
 
    </ul> </li> 
       </ul> </td> 

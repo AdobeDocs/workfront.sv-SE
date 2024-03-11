@@ -6,9 +6,9 @@ description: Du kan redigera uppgiftsinformation i en lista med uppgifter genom 
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '2828'
+source-wordcount: '2848'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,9 @@ Tänk på följande när du redigerar uppgifter i en lista:
    * Procent färdigt
    * Anpassad formulärinformation
 
-      >[!NOTE]
-      >
-      >Du kan bara redigera ett anpassat aktivitetsfält i en lista om du har behörighet att uppdatera fältet.
+     >[!NOTE]
+     >
+     >Du kan bara redigera ett anpassat aktivitetsfält i en lista om du har behörighet att uppdatera fältet.
 
    * Loggtimmar
    * Ändra uppdrag
@@ -74,13 +74,15 @@ Tänk på följande när du redigerar uppgifter i en lista:
    * Delaktivitetsavsnittet i projektet
    * En uppgiftsrapport
 
-      >[!NOTE]
-      >
-      >Som standard sparar Workfront automatiskt ändringar i uppgifter i underaktivitetsavsnittet eller i en uppgiftsrapport.
+     >[!NOTE]
+     >
+     >Som standard sparar Workfront automatiskt ändringar i uppgifter i underaktivitetsavsnittet eller i en uppgiftsrapport.
 
 * Du kan styra när Workfront ska spara de ändringar du gör i uppgifterna i en lista. Ändringarna kan sparas automatiskt eller så kan du spara dem manuellt.
 
-   Information om hur du konfigurerar när Workfront sparar ändringar som du gör i uppgifter i en lista finns i [Välj ett sparningsalternativ när du redigerar uppgifter i en lista](#select-a-save-option-when-editing-tasks-in-a-list) i den här artikeln.
+  Information om hur du konfigurerar när Workfront sparar ändringar som du gör i uppgifter i en lista finns i [Välj ett sparningsalternativ när du redigerar uppgifter i en lista](#select-a-save-option-when-editing-tasks-in-a-list) i den här artikeln.
+
+* Andra användare måste uppdatera sina sidor innan de kan visa de uppdateringar du gör för en uppgift.
 
 ## Välj ett sparningsalternativ när du redigerar uppgifter i en lista {#select-a-save-option-when-editing-tasks-in-a-list}
 
@@ -96,11 +98,11 @@ Du kan styra när Workfront ska spara de ändringar du gör i uppgifterna i en l
 
 * Du kan låta Workfront spara ändringarna automatiskt efter varje uppdatering.
 
-   Mer information finns i avsnittet [Redigera uppgifter i en lista och spara ändringar automatiskt](#edit-tasks-in-a-list-and-automatically-save-changes) i den här artikeln.
+  Mer information finns i avsnittet [Redigera uppgifter i en lista och spara ändringar automatiskt](#edit-tasks-in-a-list-and-automatically-save-changes) i den här artikeln.
 
 * Du kan ha kontroll över när du ska göra flera ändringar i taget manuellt med knappen Spara.
 
-   Mer information finns i avsnittet [Redigera uppgifter i en lista och spara ändringar manuellt](#edit-tasks-in-a-list-and-manually-save-changes) i den här artikeln.
+  Mer information finns i avsnittet [Redigera uppgifter i en lista och spara ändringar manuellt](#edit-tasks-in-a-list-and-manually-save-changes) i den här artikeln.
 
 ### Redigera uppgifter i en lista och spara ändringar automatiskt {#edit-tasks-in-a-list-and-automatically-save-changes}
 
@@ -193,7 +195,6 @@ Du kan spara ändringar du gör i en lista manuellt. När du sparar ändringar p
 >* Du kan inte ångra ändringar som du gör i uppgifter i en lista när du redigerar dem i underaktivitetsavsnittet eller i en uppgiftsrapport.
 >* Det finns inga begränsningar för hur många ändringar du kan ångra. Du kan invertera alla en i taget tills du når det ursprungliga tillståndet för åtgärderna.
 >
-
 
 Tänk på följande när du sparar ändringar i en uppgiftslista manuellt:
 
@@ -331,11 +332,11 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
       * Uppdrag
       * Status
       * Procent färdigt
+
    * Ikonen för vyn Agile har tagits bort.
    * En inställning i verktygsfältet visas med alternativ för att ångra, göra om och spara ändringarna.
 
-      ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
-
+     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Redigera fält som du har behörighet att uppdatera manuellt.
 
@@ -394,7 +395,7 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
 ## Redigera en uppgift i en lista med hjälp av Sammanfattning
 
 1. Gå till det projekt som innehåller uppgifter som du vill redigera.
-1. Klicka **Uppgifter** i den vänstra panelen.
+1. Klicka **Uppgifter** till vänster.
 
    Listan med uppgifter i projektet visas.
 
@@ -415,12 +416,12 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
 
    | Dokument | Klicka **Klicka här för att lägga till** om du vill lägga till dokument i uppgiften. |
    |---|---|
-   | Detaljer | Klicka för att uppdatera information om uppgiften. |
+   | Information | Klicka för att uppdatera information om uppgiften. |
    | Anpassad Forms | Klicka för att lägga till eller ta bort anpassad Forms eller för att uppdatera informationen i formulären. |
    | Timmar | Klicka för att logga timmar. |
    | Godkännanden | Klicka för att lägga till aktivitetsgodkännanden. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Klicka på knappen Bakåt i webbläsaren för att återgå till uppgiftslistan när du har uppdaterat uppgiften.
 
@@ -429,7 +430,7 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
 Du kan redigera flera åtgärder samtidigt. Se till att du har behörighet att hantera uppgifter för att kunna redigera dem.
 
 1. Gå till ett projekt som innehåller uppgifter som du vill redigera gruppvis.
-1. Klicka **Uppgifter** i den vänstra panelen.
+1. Klicka **Uppgifter** till vänster.
 1. Se till att **Spara automatiskt** är markerat.
 
    >[!IMPORTANT]
@@ -445,7 +446,7 @@ Du kan redigera flera åtgärder samtidigt. Se till att du har behörighet att h
 
 1. Ange den information som du vill ändra för alla uppgifter som du har markerat.
 
-   Att redigera information för alla uppgifter är detsamma som att redigera information för en uppgift. Om du vill redigera aktivitetens varaktighet måste de markerade aktiviteterna ha samma aktivitetsbegränsning; i annat fall **Varaktighet** fältet fylls inte i.
+   Att redigera information för alla uppgifter är detsamma som att redigera information för en uppgift. Om du vill redigera aktivitetens varaktighet måste de markerade aktiviteterna ha samma aktivitetsbegränsning, i annat fall **Varaktighet** fältet fylls inte i.
 
    Mer information om hur du redigerar en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 

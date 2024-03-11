@@ -4,9 +4,9 @@ description: Du kan dela en vy med andra för att säkerställa samarbete när d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -109,3 +109,13 @@ Du kan dela vyer som du har skapat eller vyer som du har behörighet att hantera
 1. Klicka **Kopiera länk** om du vill kopiera en länk till vyn till Urklipp.
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
 1. Klicka **Spara**.
+
+## Ta bort behörigheter till en vy
+
+{{step1-to-maestro}}
+
+1. Öppna arbetsytan vars vy du vill dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
+1. Håll markören över den vy du vill dela i listrutan Visa och klicka på **Mer** meny ![](assets/more-menu.png) till höger om vynamnet och klicka sedan på **Dela**.
+1. Hitta användaren eller gruppen du vill ta bort och klicka sedan på **Ta bort** i listrutan Behörigheter till höger om användarens eller gruppens namn.
+1. Klicka **Spara**.
+Användaren eller användarna som tillhör gruppen som tagits bort har inte längre åtkomst till vyn. Det finns inget meddelande för de användare som har tagits bort från vyn.
