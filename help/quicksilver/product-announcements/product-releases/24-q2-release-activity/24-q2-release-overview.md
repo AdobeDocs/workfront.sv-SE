@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,40 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                 </tr>
            </tbody>
         </table>
+
+### Integration enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av automatiserat arbetsflöde för att skapa mappar i Adobe Experience Manager-integreringen</a></p><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span><p>Vi har lagt till kapslade mappträd i arbetsflödet för länkade mappar i Adobe Experience Manager för att försäkra oss om att dina Adobe Experience Manager-mappar bättre motsvarar dina behov.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 11 mars 2024</p>
+                            </li>
+                             <li> <p><span class="preview">Kvartalsvis lansering i produktion: 14 mars 2024</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### Projektförbättringar
 
