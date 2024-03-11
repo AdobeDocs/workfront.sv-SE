@@ -3,13 +3,13 @@ content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Översikt över profilroller
-description: Korrekturroller gör att du kan bevilja behörigheter för enskilda korrektur. Korrekturroller skiljer sig från behörighetsprofiler för korrektur. Mer information om behörighetsprofiler för korrektur finns i Översikt över behörighetsprofiler för korrektur.
+description: Korrekturroller gör att du kan bevilja behörigheter för enskilda korrektur. Korrekturroller skiljer sig från behörighetsprofiler för korrektur. Mer information om profiler för behörighet finns i Översikt över behörighetsprofiler för korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
   <tr> 
    <th> <p> </p> </th> 
    <th> <p><strong>Visa ett korrektur</strong> </p> </th> 
-   <th> <p><strong>Lägg till markeringar</strong> </p> </th> 
+   <th> <p><strong>Lägga till markeringar</strong> </p> </th> 
    <th> <p><strong>Lägg till kommentarer</strong> </p> </th> 
    <th> <p><strong>Redigera egna kommentarer om det inte finns några svar</strong> </p> </th> 
    <th> <p><strong>Fatta ett beslut</strong> </p> </th> 
@@ -75,7 +75,7 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td> </td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -91,7 +91,7 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -107,7 +107,7 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -123,7 +123,7 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
