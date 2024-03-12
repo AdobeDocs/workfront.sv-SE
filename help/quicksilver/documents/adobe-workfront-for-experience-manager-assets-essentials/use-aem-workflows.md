@@ -6,14 +6,16 @@ description: Använd arbetsflöden i integreringen med Experience Manager Assets
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
 
 # Använda arbetsflöden i Experience Manager Assets-integrering
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. En Workfront-administratör kan konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
 
@@ -107,6 +109,10 @@ Du kan lägga till ett arbetsflöde när du skapar ett projekt eller lägga till
 
 ### Lägga till ett arbetsflöde i ett befintligt projekt
 
+>[!NOTE]
+>
+>Arbetsflöden som körs när ett projekt skapas (till exempel när en länkad mapp skapas) körs inte när mallen kopplas till ett befintligt projekt. De körs bara när ett projekt skapas från en mall.
+
 1. Börja lägga till en mall i projektet.
 
    Instruktioner finns i [Bifoga en mall till ett projekt](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -115,6 +121,8 @@ Du kan lägga till ett arbetsflöde när du skapar ett projekt eller lägga till
 1. (Valfritt) Redigera alla arbetsflödesvärden för projektet enligt beskrivningen i [Redigera värden i ett projekt](#edit-workflow-values-in-a-project).
 
    Endast arbetsflöden som har aktiverats under Experience Manager i installationsprogrammet är tillgängliga i mallar eller projekt.
+
+
 
 ### Redigera värden i ett projekt
 
@@ -130,9 +138,17 @@ Alla arbetsflödesvärden finns i:
   >
   >Om dessa områden inte visas har Workfront-administratören inte aktiverat arbetsflöden för din organisation.
 
+
+
 #### Länkade mappar
 
+>[!NOTE]
+>
+>Eftersom länkade mappar skapas när projektet skapas är det ineffektivt att redigera arbetsflödet för länkade mappar i ett befintligt projekt. Redigera dessa värden när du skapar en projektfunktion som förväntat.
+
 Redigera arbetsflödet för länkade mappar:
+
+I produktionsmiljön:
 
 1. Växla **[!UICONTROL Create Linked folder]** på eller av efter behov.
 1. (Villkorligt) Om du aktiverar länkade mappar väljer du en mappsökväg som anger var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
@@ -142,6 +158,31 @@ Redigera arbetsflödet för länkade mappar:
 
    Om du är i [!DNL Adobe Experience Manager area]sparar ändringarna automatiskt. <!--Do they though?-->
 
+I sandlådemiljön Preview:
+
+<div class="preview">
+
+1. Växla **[!UICONTROL Create Linked folder]** på eller av efter behov. Om du aktiverar det kan du sedan redigera konfigurationen för den länkade mappen.
+
+   Mer information om konfigurationen av den länkade mappen finns i [Skapa länkade Adobe Experience Manager-mappar](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) i artikeln [Konfigurera [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (Valfritt) Om du vill att mappträdet bara ska byggas om det finns vissa värden i ett anpassat formulär som är kopplat till projektet klickar du på **Använd filter** för mappträdet väljer du det anpassade formulär som innehåller fältet, fältet och fältvärdet. Om fältet i det anpassade formuläret som är kopplat till det nya projektet innehåller det valda värdet skapas mappträdet.
+1. (Valfritt) När du konfigurerar mappnamn kan du välja bland följande alternativ:
+
+   * **Namn**: Ange ett namn för mappen.
+
+   * **Objektdata**: Välj källa för mappnamnet, till exempel Projektnamn.
+
+   * **Anpassade formulärdata**: Välj de anpassade formulärdata som ska användas som mappnamn.
+
+     Anpassade formulärdata för mappnamn är bara tillgängliga på mallnivå och kan inte konfigureras på integreringsnivå.
+
+     Om ett mappnamn är inställt på anpassade data som inte finns på det anpassade för att kopplas till projektet, tilldelas ett slumpmässigt ID som mappnamn.
+
+1. Klicka på **[!UICONTROL Save]**.
+
+</div>
+
 
 #### Publicera resurser
 
@@ -149,10 +190,4 @@ Så här redigerar du arbetsflödet för publicering av resurser:
 
 1. Växla **Publicera resurser automatiskt** på eller av efter behov.
 1. (Villkorligt) Om du aktiverar publicering väljer du om du vill publicera till publiceringstjänsten, varumärkesportalen eller båda.
-1. Klicka **[!UICONTROL Save]** om du använder [!UICONTROL Create Project] eller [!UICONTROL Edit project] -fönstret.
-
-   eller
-
-   Om du är i [!DNL Adobe Experience Manager area]sparar ändringarna automatiskt. <!--Do they though?-->
-
-
+1. Klicka på **[!UICONTROL Save]**.

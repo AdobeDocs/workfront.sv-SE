@@ -6,9 +6,9 @@ description: Du kan koppla ditt arbete till innehållet i [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Konfigurera [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. Som Workfront-administratör kan du konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
 
-De standardvärden för arbetsflöde som du anger i integreringen kan åsidosättas på projektmalls- och projektnivå.
+Arbetsflöden aktiveras och konfigureras för Adobe Experience Manager som helhet. Dessa arbetsflöden kan sedan användas på projektmallar och justeras eller anpassas på mall- eller projektnivå.
 
 Följande arbetsflöden är tillgängliga i Adobe Experience Manager-integreringen:
 
@@ -255,6 +257,46 @@ Följande arbetsflöden är tillgängliga i Adobe Experience Manager-integrering
    ![Navigering för länkad mapp](assets/select-folder-aem-integration.png)
 1. Aktivera **[!UICONTROL Append Portfolio and Program Names]** om du vill att Portfolio och programnamn ska inkluderas automatiskt i slutet av den länkade mappens namn.
 1. Klicka **[!UICONTROL Save]** eller gå vidare till [Publicera material som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) i den här artikeln.
+
+I sandlådemiljön Preview
+
+<div class="preview">
+
+1. Växla **[!UICONTROL Create Linked folder]** på.
+1. Ange ett namn för den länkade mapp som du skapar.
+1. (Villkorligt) Aktivera alternativet **Standardmappträd** om du vill att den här länkade mappen ska vara standardmapp för projekt som skapats med mallar som använder den här integreringen. Du kan välja en eller flera standardmappar.
+1. Välj en mappsökväg för att ange var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
+1. (Villkorligt) Så här lägger du till ett mappträd (kapslade mappar) i integreringen:
+
+   1. Klicka på **Lägg till mapp** icon ![Lägg till mapp](assets/add-folder-aem.png).
+   1. I **Namntyp** markerar du hur du vill namnge mappen:
+
+      * **Namn**: Ange ett namn för mappen.
+      * **Objektdata**: Välj källa för mappnamnet, till exempel Projektnamn.
+
+      >[!NOTE]
+      >
+      >* Mappnamn får inte innehålla fler än 100 tecken.
+      >* Följande tecken kommer att tas bort från mappnamn:
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. Om du vill lägga till en kapslad mapp i mappträdet klickar du på menyn med tre punkter bredvid mappen som du vill skapa en kapslad mapp i och väljer **Lägg till mapp**. Fyll i fälten enligt beskrivningen i Stega föregående steg.
+   1. Markera mappen och klicka på knappen **Skapa länkad mapp**   icon ![Länka mapp](assets/link-folder.png).
+   1. (Valfritt) Om du vill redigera en mapp markerar du mappen och klickar på knappen **Redigera mapp** icon ![Ikonen Redigera](assets/edit-icon.png).
+   1. (Valfritt) Om du vill ta bort en mapp markerar du mappen och klickar på **Ta bort mapp** icon ![Ta bort mapp](assets/delete-folder.png).
+1. (Villkorligt) Om du vill lägga till ett till mappträd klickar du på **+ Lägg till mappträd** och följ stegen i steg 5.
+
+1. Klicka **[!UICONTROL Save]** eller gå vidare till [Publicera material som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) i den här artikeln.
+
+>[!NOTE]
+>
+>* Den här integreringen skapar inte fler än 100 mappar, oavsett hur många mappträd som skapas. En integrering med 4 mappträd kan till exempel skapa upp till 100 mappar, inte 400 mappar.
+>* Den första mappen i mappträdet markeras automatiskt som länkad till Workfront. Om du inte vill att den här mappen ska länkas kan du bryta länken till den.
+>* Om inget mappträd anges blir rotmappen länkad.
+
+
+</div>
 
 ### Publicera material som skickas till Adobe Experience Manager Assets
 

@@ -6,7 +6,7 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 0%
@@ -1116,3 +1116,4 @@ Så här inaktiverar du en mall:
 1. (Valfritt) Klicka på **Mer** ![](assets/qs-more-icon-on-an-object.png) -menyn bredvid mallnamnet och klicka sedan på **Aktivera**.
 
    Mallen är nu aktiv och kan bifogas till projekt eller användas för att skapa projekt.
+
