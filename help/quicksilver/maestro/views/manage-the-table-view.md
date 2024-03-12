@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Så här hanterar du en tabellvy:
    * [Rader (eller poster)](#add-rows-or-records)
    * [Filter](#add-filters)
    * [Gruppering](#add-groupings)
-   * [Sortera](#sort-information)
+   * [Sortera](#add-a-sort)
 
 
 ### Lägg till kolumner (eller fält) {#add-columns}
@@ -261,6 +261,8 @@ Tänk på följande när du arbetar med filter i tabellvyn:
 
 * Att lägga till filter i tabellvyn är detsamma som att lägga till filter i tidslinjevyn.
 
+* Du kan filtrera efter anslutna postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
+
 Så här lägger du till ett filter i en tabellvy:
 
 1. Skapa en tabellvy för en posttypsida, enligt beskrivningen i artikeln [Hantera postvyer](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ Tänk på följande:
 * Du kan inte namnge grupperingarna som du skapar för en tabellvy.
 * Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
 * Du kan redigera poster som listas under en gruppering.
+* Du kan gruppera efter kopplade postfält eller sökfält, men inte för de fält som tillåter länkning till flera poster.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Tänk på följande när du sorterar poster i tabellvyn:
 * Länkade fält kan bara sorteras om de tillåter enskilda värden, eller om de tillåter flervalsvärden när sammanfattningsalternativet är markerat (summa, medel, max, min).
 
 * När du tar bort sorteringsvillkor tas de bort från alla som använder samma posttyp som du och samma vy som du använder.
+
+* Du kan sortera efter kopplade postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
 
 Sortera <!--ungrouped (add this when sorting for groupings will be available--> poster, gör följande:
 

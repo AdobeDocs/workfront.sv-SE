@@ -1,13 +1,13 @@
 ---
 title: Dela arbetsytor
-description: Du kan dela en arbetsyta med andra för att säkerställa samarbete när du arbetar i Adobe Workfront Maestro.
+description: Du kan dela en arbetsyta med andra för att säkerställa samarbete när du arbetar i Adobe Workfront planeringsfunktioner.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Du kan dela en arbetsyta med andra för att säkerställa samarbete när du arbetar i Adobe Workfront Maestro.
+Du kan dela en arbetsyta med andra för att säkerställa samarbete när du arbetar i Adobe Workfront planeringsfunktioner.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -57,13 +57,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licens</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> Det finns inga åtkomstkontroller för Adobe Maestro</p>  
+   <td> Det finns inga åtkomstkontroller för Adobe Workfront planeringsfunktioner</p>  
 </td>
   </tr>
 
@@ -105,7 +107,7 @@ Så här delar du en arbetsyta med andra:
    * Contribute
    * Hantera
 
-     Mer information om behörighetsnivåer och vilka åtgärder användare kan utföra för varje nivå finns i [Översikt över delningsbehörigheter i Adobe Maestro](../access/sharing-permissions-overview.md).
+     Mer information om behörighetsnivåer och vilka åtgärder användare kan utföra för varje nivå finns i [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](../access/sharing-permissions-overview.md).
 1. Klicka **Kopiera länk** om du vill kopiera en länk till arbetsytan till Urklipp.
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan.
 1. Klicka **Spara**.

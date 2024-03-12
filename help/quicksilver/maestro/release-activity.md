@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Produktion: 28 februari 2024
 Förhandsgranska: Ska bestämmas
 
 Nu kan du filtrera, sortera och gruppera efter anslutna poster eller deras sökfält. Den här förbättringen hjälper dig att effektivt ordna och visualisera data i både tabell- och tidslinjevyer.
+
+Du kan inte filtrera, sortera eller gruppera efter sökfält som tillåter anslutningar med flera poster.
 
 Mer information finns i [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md) och [Hantera tidslinjevyn](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Följande behörighetsnivåer gäller för postvyer:
 * Visa: Användare kan välja vyn i listrutan Visa på en posttypsida.
 * Hantera: Användare kan redigera, dela och ta bort vyn.
 
-Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md) och [Översikt över delningsbehörigheter i Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md) och [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](../maestro/access/sharing-permissions-overview.md).
 
 ### Ny formelfältstyp
 

@@ -4,9 +4,9 @@ description: Din åtkomst till Adobe Workfront planeringsfunktioner beror på vi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ En användare med en lägre licenstyp har begränsad behörighet till objekt nä
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Information om behörigheter för objekt i Workfront planeringsfunktioner finns i [Översikt över delningsbehörigheter i Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Information om behörigheter för objekt i Workfront planeringsfunktioner finns i [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## Förhållandet mellan Workfront licenstyper och behörigheter för Workfront planeringsfunktioner
 

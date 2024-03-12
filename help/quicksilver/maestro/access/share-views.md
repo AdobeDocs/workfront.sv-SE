@@ -4,9 +4,9 @@ description: Du kan dela en vy med andra för att säkerställa samarbete när d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Objektbehörigheter</p></td>
-   <td> <p>Hantera behörigheter till en vy</p>  
+   <td> <p>Hantera behörigheter till en vy</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörighet att hantera
 >
 >Systemadministratörer kan inte visa eller dela vyer som de inte själva skapat. De kan bara komma åt eller dela vyer som delas med dem.
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörighet att hantera
    * Visa
    * Hantera
 
-     Mer information om behörighetsnivåer och vilka åtgärder användare kan utföra för varje nivå finns i [Översikt över delningsbehörigheter i Adobe Maestro](../access/sharing-permissions-overview.md).
+     Mer information om behörighetsnivåer och vilka åtgärder användare kan utföra för varje nivå finns i [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](../access/sharing-permissions-overview.md).
 1. Klicka **Kopiera länk** om du vill kopiera en länk till vyn till Urklipp.
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
 1. Klicka **Spara**.

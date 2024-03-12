@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
 
    * Två typer av planeringsfunktionsposter.
    * En posttyp för planeringsförmåga och en objekttyp för Workfront-projekt, program, portfölj, företag eller grupp.
-   * En posttyp för planeringsfunktioner och en resurs, mapp eller samling för Adobe Experience Manager.
+   * En posttyp för planeringsfunktion och en resurs eller mapp för Adobe Experience Manager.
 
      Du måste ha en Adobe Experience Manager-licens för att kunna länka posttyper med Experience Manager-objekt.
 

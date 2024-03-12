@@ -1,13 +1,13 @@
 ---
 title: Åtkomstöversikt
-description: Det finns begränsningar för licens- och delningsbehörighet för att använda Adobe Maestro-funktionerna.
+description: Det finns begränsningar för licens- och delningsbehörighet för att använda Adobe Workfront planeringsfunktioner.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Det finns begränsningar för licens- och delningsbehörighet för att använda Adobe Maestro-funktionerna.
+Det finns begränsningar för licens- och delningsbehörighet för att använda Adobe Workfront planeringsfunktioner.
 
 ## Åtkomstkrav
 
-Du måste ha följande inställningar för att kunna använda Adobe Maestro:
+Du måste ha följande inställningar för att kunna använda planeringsfunktionerna i Adobe Workfront:
 
 <table style="table-layout:auto">
  <col>
@@ -40,7 +40,7 @@ Du måste ha följande inställningar för att kunna använda Adobe Maestro:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. </p>
+<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. </p>
    </td>
   </tr>
   <tr>
@@ -66,16 +66,17 @@ Du måste ha följande inställningar för att kunna använda Adobe Maestro:
   </tr>
   <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro-objekt</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för att planera funktionsobjekt</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <p>Contribute eller högre behörigheter för arbetsytor och vyer som du inte skapat för att redigera, ta bort och dela dem samt för att skapa, redigera eller ta bort posttyper och poster.</p>
-    <p>Systemadministratörer kan hantera arbetsytor och vyer som de inte skapade </p>
-   <p>Mer information om att dela behörigheter för Maestro-objekt finns i  
-   <a href="../access/sharing-permissions-overview.md">Översikt över delningsbehörigheter i Adobe Maestro</a> 
+    <p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p>
+    <p>Systemadministratörer kan inte hantera vyer som de inte skapade. </p>
+   <p>Mer information om att dela behörigheter för att planera funktionsobjekt finns i  
+   <a href="../access/sharing-permissions-overview.md">Översikt över behörigheter i Adobe Workfront planeringsfunktioner</a> 
   </td>
   </tr>
 <tr>
@@ -93,7 +94,7 @@ Du måste ha följande inställningar för att kunna använda Adobe Maestro:
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-När din organisation har registrerats i betaprogrammet för Maestro kan du lägga till Maestro-området på huvudmenyn för alla användare med hjälp av en layoutmall.
+När din organisation har registrerats i betaprogrammet för Workfront planeringsfunktioner kan du lägga till Maestro-området på huvudmenyn för alla användare med hjälp av en layoutmall.
 
 1. Logga in på **Workfront** som Workfront-administratör.
 
@@ -101,7 +102,7 @@ När din organisation har registrerats i betaprogrammet för Maestro kan du läg
 
    Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Tilldela layoutmallen till de användare som du vill ska ha tillgång till Maestro.
+1. Tilldela layoutmallen till de användare som du vill ska ha tillgång till Workfront planeringsfunktioner.
 
    Mer information finns i [Tilldela användare till en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -111,20 +112,20 @@ När din organisation har registrerats i betaprogrammet för Maestro kan du läg
 
 ## Ge åtkomst
 
-Det finns inga åtkomstkontroller för Maestro.
+Det finns inga åtkomstkontroller för planeringsfunktionerna i Workfront.
 
-Användare med alla typer av licenser har tillgång till Maestro.
+Användare med alla typer av licenser har tillgång till Workfront planeringsfunktioner.
 
 Information om hur du beviljar åtkomst i Workfront finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Bevilja behörigheter
 
-Du måste ge användare som inte är systemadministratörer behörighet till arbetsytor och vyer som du skapar för att de ska kunna komma åt dem.
+Du måste ge användarna behörigheter till arbetsytor och vyer som du skapar för att de ska kunna komma åt dem.
 
-Mer information finns i [Översikt över delningsbehörigheter i Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Mer information finns i [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-Din Adobe Workfront-licenstyp fungerar tillsammans med dina Maestro-behörigheter så att du kan visa, bidra och hantera Maestro-objekt.
+Din Adobe Workfront-licenstyp fungerar tillsammans med dina planeringsmöjligheter, så att du kan visa, bidra och hantera planeringsfunktionsobjekt.
 
-Mer information om hur licenstyper påverkar behörighetsnivåer för Maestro-objekt finns i [Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/license-type-overview.md).
+Mer information om hur licenstyper påverkar behörighetsnivåer för planering av funktionsobjekt finns i [Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
