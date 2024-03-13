@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Hemförbättringar](#home-enhancements)
 * [Projektförbättringar](#project-enhancements)
+* [Förbättrad resurshantering](#resource-management-enhancements)
 * [Uppdatera ström- och meddelandeförbättringar](#update-stream-and-notification-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
@@ -186,21 +187,20 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av automatiserat arbetsflöde för att skapa mappar i Adobe Experience Manager-integreringen</a></p><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span><p>Vi har lagt till kapslade mappträd i arbetsflödet för länkade mappar i Adobe Experience Manager för att försäkra oss om att dina Adobe Experience Manager-mappar bättre motsvarar dina behov.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av automatiserat arbetsflöde för att skapa mappar i Adobe Experience Manager-integreringen</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har lagt till kapslade mappträd i arbetsflödet för länkade mappar i Adobe Experience Manager för att försäkra oss om att dina Adobe Experience Manager-mappar bättre motsvarar dina behov.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
                                 <p>Förhandsversion: 11 mars 2024</p>
                             </li>
-                             <li> <p><span class="preview">Kvartalsvis lansering i produktion: 14 mars 2024</span></p>
+                             <li> <p><span class="preview">Produktionsrelease för alla kunder: 14 mars 2024</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### Projektförbättringar
 
@@ -247,6 +247,43 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                             </li>
                             <li>
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Förbättrad resurshantering
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indikator för manuellt justerade allokeringar i arbetsbelastningsutjämnaren</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p><p>Om du vill ha större tydlighet om manuella justeringar eller konturering i Arbetsbelastningsutjämnaren kan du nu visa en pennikon som du justerar timvis.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 12 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>

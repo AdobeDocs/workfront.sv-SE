@@ -4,9 +4,9 @@ description: Uppdateringar som både ser ut och känns under andra kvartersutgå
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,5 @@ Vi har uppdaterat flikarna för Forms, Fält och Avsnitt i Konfigurera > Anpassa
 
 Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) och [Skapa eller redigera ett anpassat formulär med det äldre formulärverktyget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Indikator för manuellt justerade allokeringar i arbetsbelastningsutjämnaren
 
->[!NOTE]
->
->Förhandsversion: 12 oktober 2023; Produktion för snabb release: Med version 24.2 (15 februari 2024); Produktion för kvartalsvis publicering: Med version 24.4 (april 2024)
-
-Om du vill ha större tydlighet om manuella justeringar eller konturering i Arbetsbelastningsutjämnaren kan du nu visa en pennikon som du justerar timvis.
-
-Mer information finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
