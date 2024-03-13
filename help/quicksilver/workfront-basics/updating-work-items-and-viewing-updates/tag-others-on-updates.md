@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * Sammanfattningspanelen i tidrapporter
 > * Panelen Sammanfattning i Utjämning av arbetsbelastning
 >
-><span class="preview">Den nya kommentarsfunktionen är tillgänglig på panelen Sammanfattning i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsvisningsmiljön.</span>
+><span class="preview">Den nya kommentarsfunktionen är tillgänglig på panelen Sammanfattning i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsvisningsmiljön.</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Du kan tagga användare när de gör en uppdatering av ett objekt om du vill dra deras uppmärksamhet till ett objekt som de annars kanske inte följer.
 
@@ -133,13 +133,9 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    <div class="preview">
 
-   Exempel på taggning i förhandsvisningsmiljön:
    ![Tagga en användare](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   Exempel på taggning i produktionsmiljön:
-   ![](assets/tag-others-unified-commenting.png)
 
 1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn. Detta gör uppdateringen synlig endast för användare i ditt företag. The **Privat till mitt företag** är bara tillgängligt när ett företag anges i din Workfront-profil.
 
@@ -161,7 +157,7 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">När du är taggad i kommentarstexten markeras ditt användarnamn i kommentarerna.</span>
+   <span class="preview">När du är taggad i kommentarstexten markeras ditt namn i kommentarerna.</span>
 
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

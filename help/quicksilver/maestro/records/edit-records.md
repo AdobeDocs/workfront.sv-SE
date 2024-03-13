@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -117,9 +117,11 @@ Arbetsytan som du senast öppnade öppnas.
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** nedrullningsbar meny <!--tab--> i tabellens övre högra hörn väljer du en **Tabell** vy. Detta bör vara standardvyn, såvida du inte har visat posttypen i en annan typ av vy när du senast öppnade den.
+1. (Villkorligt) Från **Visa** i den nedrullningsbara menyn i tabellens övre vänstra hörn väljer du en **Tabell** vy. Detta bör vara standardvyn, såvida du inte har visat posttypen i en annan typ av vy när du senast öppnade den.
 
-   Posterna som är associerade med den valda posttypen visas i tabellvyn.
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    Posterna som är associerade med den valda posttypen visas i tabellvyn.
 1. Klicka inuti en post för att börja redigera information om den infogade posten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ Arbetsytan som du senast öppnade öppnas.
    >  Du kan inte redigera information för följande fält eftersom de är skrivskyddade och Workfront uppdaterar dem automatiskt:
    >  
    >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
-   >  * Fält av följande typer: Skapad av, Skapad, Senast ändrad av, Senast ändrad
+   >  * Fält av följande typer: Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Formelfält.
 
 1. (Valfritt och villkorligt) Använd följande när du redigerar ett stycketextfält **RTF** formateringsalternativ:
 
@@ -147,12 +149,12 @@ Arbetsytan som du senast öppnade öppnas.
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. (Valfritt) Om du vill kopiera och klistra in information från ett fält till ett annat gör du något av följande:
@@ -168,7 +170,7 @@ Arbetsytan som du senast öppnade öppnas.
    >* Använd följande kortkommandon för att kopiera och klistra in information:
    >   * Copy: CTRL + C ( ⌘ + C för Mac)
    >   * Klistra in: CTRL + V ( ⌘ + V för Mac)
-   >* Du kan inte kopiera information från en annan källa, förutom ett Maestro-fält av samma typ som det fält som du klistrar in informationen i.
+   >* Du kan inte kopiera information från en annan källa, förutom ett postfält av samma typ som det fält som du klistrar in informationen i.
    >
    >* Du kan inte kopiera och klistra in fältvärden i området Detaljer för en post. Den här funktionen stöds bara i tabellvyn för en posttyp.
    >* Du kan inte kopiera och klistra in fältvärden för följande fälttyper:
@@ -191,7 +193,7 @@ Arbetsytan som du senast öppnade öppnas.
 
 ### Redigera en post från postens informationssida
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ Arbetsytan som du öppnar senast öppnas.
 
    eller
 
-   Klicka i ett redigerbart fält på detaljsidan för att redigera informationen.
+   Klicka i ett redigerbart fält på detaljsidan för att redigera informationen. <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Klicka **Spara ändringar**. <!--logged a bug for this - this needs to be "Save"-->
+1. Klicka **Spara ändringar**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

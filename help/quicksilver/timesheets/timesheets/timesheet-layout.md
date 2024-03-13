@@ -7,16 +7,16 @@ description: I den här artikeln beskrivs layouten för tidrapporter i Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
 
 # Översikt över tidrapportslayout
 
-{{highlighted-preview}}
+<span class="preview">Den markerade informationen är bara tillgänglig i förhandsvisningsmiljön.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- Audited: 12/2023 -->
 
@@ -123,13 +123,9 @@ Du kan logga flera timposter för samma arbetsuppgift för olika timtyper. Mer i
 
 <div class="preview">
 
-Exempel i förhandsvisningsmiljön:
 ![Uppdateringsområdet i den vänstra tidrapportpanelen](assets/timesheet-updates-with-all-tab.png)
 
 </div>
-
-Exempel i produktionsmiljön:
-![Uppdateringsområdet i den vänstra tidrapportpanelen](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 Du kan kommentera i en tidrapport för att kommunicera med tidrapportgodkännare eller andra användare i uppdateringsavsnittet på den vänstra panelen i tidrapporten.
 
@@ -139,13 +135,9 @@ Eventuella kommentarer som gjorts i tidrapporten visas i det här området.
 
 <div class="preview">
 
-Exempel i förhandsvisningsmiljön:
 ![Panelen Sammanfattning](assets/timesheet-summary-panel-on-updates.png)
 
 </div>
-
-Exempel i produktionsmiljön:
-![Panelen Sammanfattning](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Du kan öppna panelen Sammanfattning för uppgifter och utgåvor som visas i en tidrapport. Härifrån kan du kommentera uppgifter och problem eller uppdatera deras information. Mer information finns i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

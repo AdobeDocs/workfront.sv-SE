@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ Alla poster av den valda typen visas i tabellvyn.
 
 1. (Villkorligt) Om posttypsidan inte öppnas i tabellvyn klickar du på **Visa** och välj en befintlig **Tabellvy** ![](assets/table-view-icon.png) eller klicka **Skapa vy > Tabell** för att skapa en tabellvy.
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. Om du vill lägga till nya poster klickar du **Ny post** i tabellens sista rad
 
    eller
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## Skapa poster genom att kopiera och klistra in information från en extern lista
 
-1. Börja skapa poster i tabellvyn i maestro, vilket beskrivs i avsnittet [Skapa poster genom att lägga till dem manuellt till en posttyp](#create-records-by-manually-adding-them-to-a-record-type) i den här artikeln.
+1. Börja skapa poster i tabellvyn enligt beskrivningen i avsnittet [Skapa poster genom att lägga till dem manuellt till en posttyp](#create-records-by-manually-adding-them-to-a-record-type) i den här artikeln.
 
-   Kontrollera att tabellvyn i maestro innehåller kolumnerna (eller fälten) som du vill fylla med den nya postinformationen i.
+   Se till att tabellvyn innehåller kolumnerna (eller fälten) som du vill fylla med den nya postinformationen.
 
 1. Klicka **Nytt &lt; Posttypnamn >** i den sista raden i tabellen för att lägga till så många nya rader i tabellen som du vill att de nya posterna ska vara.
 
    Lägg till exempel till 10 rader i tabellvyn om du vill klistra in informationen för 10 nya poster från ett annat program.
 
-1. Skapa en lista med poster som du vill importera i Maestro i ett annat program.
+1. Skapa en lista med poster som du vill importera i ett annat program.
 
    Du kan t.ex. använda ett Excel-kalkylblad för att skapa en lista.
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > Kolumnerna i listan bör innehålla information om de fält du har i Maestro.
+   > Kolumnerna i listan bör innehålla information om de fält du har i Workfront.
    >
-   > Se till att du redan har skapat önskade fält i Maestro och att informationen i bladet visas i rätt format som matchar fälten i Maestro.
+   > Kontrollera att du redan har skapat de önskade fälten i Workfront och att informationen i bladet visas i rätt format, som matchar fälten i Workfront.
 
 1. I ett annat program markerar du flera rader och kolumner och klistrar sedan in informationen i posttypstabellvyn, med början från den första nya posten.
 
-   Följande information importeras till Maestro:
+   Följande information importeras i Workfront planeringsfunktionsområde:
 
    * Raderna innehåller de nya posterna
    * Kolumnerna fyller i information för posternas fält.
