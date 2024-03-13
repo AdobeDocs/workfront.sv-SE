@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 0%
 
 ---
@@ -252,14 +252,13 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
          <li> <p>När projektet skapas från en grupps huvudsida i inställningsområdet är den gruppen kopplad till projektet.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>ANTECKNINGAR</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>Om projektet, eller dess uppgifter eller problem är kopplade till en anpassad status på gruppnivå, kan en ändring av projektgruppen göra att projektets status, uppgifter eller utgåvor ändras så att de matchar den nya gruppen.&lt;/p>&lt;/li>
-       &lt;li>&lt;p>Om projektet, eller dess uppgifter eller problem redan är kopplade till en godkännandeprocess på gruppnivå med anpassade statusvärden på gruppnivå, kan en ändring av gruppen skapa en konflikt mellan den föregående gruppens godkännandestatus och de som finns på systemnivån.&lt;/p>
-       &lt;p>Överväg att ta bort godkännandeprocesserna på gruppnivå för projektet eller dess uppgifter eller problem innan gruppen uppdateras.&lt;/p>
-       &lt;p>Mer information om hur du skapar godkännandeprocesser på gruppnivå finns i &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>Godkännandeprocesser på gruppnivå&lt;/a>.&lt;/p>
-       &lt;p>Mer information om hur du skapar en anpassad status på gruppnivå finns i &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Skapa eller redigera en gruppstatus&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>Om projektet, eller dess uppgifter eller problem är kopplade till en anpassad status på gruppnivå, kan en ändring av projektgruppen göra att projektets status, uppgifter eller utgåvor ändras så att de matchar den nya gruppen.</p></li>
+         <li><p>Om projektet, eller dess uppgifter eller problem redan är kopplade till en godkännandeprocess på gruppnivå med anpassade statusvärden på gruppnivå, kan en ändring av gruppen skapa en konflikt mellan den föregående gruppens godkännandestatus och de som finns på systemnivån.</p>
+         <p>Överväg att ta bort godkännandeprocesserna på gruppnivå för projektet eller dess uppgifter eller problem innan gruppen uppdateras.</p>
+         <p>Mer information om hur du skapar godkännandeprocesser på gruppnivå finns i <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Godkännandeprocesser på gruppnivå</a>.</p>
+         <p>Mer information om hur du skapar en anpassad status på gruppnivå finns i <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Skapa eller redigera en gruppstatus</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>Företag</strong> </td> 
          <td> <p>Ange ett företag som är associerat med projektet. Du måste skapa ett företag innan du kan associera det med ett projekt. Endast aktiva företag kan associeras med ett projekt. Mer information om hur du skapar företag finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Skapa och redigera företag</a>.</p> </td> 
@@ -653,6 +652,22 @@ Mer information om hur dessa inställningar påverkar skapandet av nya uppgifter
    </table>
 
 1. Klicka **Spara**.
+
+### Länkade mappar
+
+Med funktionen för länkade mappar skapas automatiskt mappar i Adobe Experience Manager Assets och mapparna kopplas till Workfront.
+
+Det här avsnittet visas bara om följande gäller:
+
+* Din organisation har migrerats till Adobe Admin Console
+* Din organisation har aktiverat och konfigurerat en integrering med Adobe Experience Manager
+* Mallen som används för att skapa projektet har aktiverat och konfigurerat länkade mappar.
+
+Instruktioner om hur du redigerar länkade mappar finns i [Redigera värden i ett projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) i artikeln Använda arbetsflöden i Experience Manager Assets-integrering.
+
+>[!NOTE]
+>
+>Eftersom länkade mappar skapas när projektet skapas är det ineffektivt att redigera arbetsflödet för länkade mappar i ett befintligt projekt. Redigera dessa värden när du skapar en projektfunktion som förväntat.
 
 ## Redigera ett projekt i projekthuvudet (begränsat)
 

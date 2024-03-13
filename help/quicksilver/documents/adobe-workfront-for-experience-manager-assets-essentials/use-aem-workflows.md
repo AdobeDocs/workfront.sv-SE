@@ -6,16 +6,14 @@ description: Använd arbetsflöden i integreringen med Experience Manager Assets
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
 
 # Använda arbetsflöden i Experience Manager Assets-integrering
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. En Workfront-administratör kan konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
 
@@ -130,7 +128,7 @@ Du kan redigera arbetsflödesvärden på projektnivå. Arbetsflödesvärden på 
 
 Alla arbetsflödesvärden finns i:
 
-* Arbetsflödesavsnittet i fönstret Skapa projekt eller Redigera projekt.
+* Avsnittet Arbetsflöden eller länkade mappar i fönstret Skapa projekt eller Redigera projekt.
 * The Adobe Experience Manager section of the left navigation.
 
 
@@ -148,19 +146,6 @@ Alla arbetsflödesvärden finns i:
 
 Redigera arbetsflödet för länkade mappar:
 
-I produktionsmiljön:
-
-1. Växla **[!UICONTROL Create Linked folder]** på eller av efter behov.
-1. (Villkorligt) Om du aktiverar länkade mappar väljer du en mappsökväg som anger var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
-1. Klicka **[!UICONTROL Save]** om du använder [!UICONTROL Create Project] eller [!UICONTROL Edit project] -fönstret.
-
-   eller
-
-   Om du är i [!DNL Adobe Experience Manager area]sparar ändringarna automatiskt. <!--Do they though?-->
-
-I sandlådemiljön Preview:
-
-<div class="preview">
 
 1. Växla **[!UICONTROL Create Linked folder]** på eller av efter behov. Om du aktiverar det kan du sedan redigera konfigurationen för den länkade mappen.
 
@@ -179,10 +164,8 @@ I sandlådemiljön Preview:
 
      Om ett mappnamn är inställt på anpassade data som inte finns på det anpassade för att kopplas till projektet, tilldelas ett slumpmässigt ID som mappnamn.
 
+1. Klicka på knappen **Förhandsgranska** ![Ikonen Förhandsgranska](assets/preview-icon.png) icon
 1. Klicka på **[!UICONTROL Save]**.
-
-</div>
-
 
 #### Publicera resurser
 

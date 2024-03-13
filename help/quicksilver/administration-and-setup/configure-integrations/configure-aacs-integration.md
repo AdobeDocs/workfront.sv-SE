@@ -6,9 +6,9 @@ description: Du kan koppla ditt arbete till innehållet i [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Följande arbetsflöden är tillgängliga i Adobe Experience Manager-integrering
 ### Skapa länkade Adobe Experience Manager-mappar
 
 1. Växla **[!UICONTROL Create Linked folder]** på.
-1. Välj en mappsökväg för att ange var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
-   ![Navigering för länkad mapp](assets/select-folder-aem-integration.png)
-1. Aktivera **[!UICONTROL Append Portfolio and Program Names]** om du vill att Portfolio och programnamn ska inkluderas automatiskt i slutet av den länkade mappens namn.
-1. Klicka **[!UICONTROL Save]** eller gå vidare till [Publicera material som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) i den här artikeln.
-
-I sandlådemiljön Preview
-
-<div class="preview">
-
-1. Växla **[!UICONTROL Create Linked folder]** på.
 1. Ange ett namn för den länkade mapp som du skapar.
 1. (Villkorligt) Aktivera alternativet **Standardmappträd** om du vill att den här länkade mappen ska vara standardmapp för projekt som skapats med mallar som använder den här integreringen. Du kan välja en eller flera standardmappar.
 1. Välj en mappsökväg för att ange var du vill att alla länkade mappar som är associerade med den här integreringen ska vara.
@@ -295,8 +284,6 @@ I sandlådemiljön Preview
 >* Den första mappen i mappträdet markeras automatiskt som länkad till Workfront. Om du inte vill att den här mappen ska länkas kan du bryta länken till den.
 >* Om inget mappträd anges blir rotmappen länkad.
 
-
-</div>
 
 ### Publicera material som skickas till Adobe Experience Manager Assets
 
