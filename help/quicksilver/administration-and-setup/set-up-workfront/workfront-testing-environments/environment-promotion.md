@@ -12,23 +12,21 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '1886'
 ht-degree: 0%
 
 ---
 
-# Flytta objekt från ett objekt [!DNL Workfront] miljö till annan
+# Flytta objekt mellan [!DNL Workfront] miljöer som använder [!DNL Workfront] API för miljöerbjudande
 
-<!-- 
-TO DO
+Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flytta konfigurationsrelaterade objekt från en miljö till en annan. Du kan flytta dessa objekt med Workfront API enligt beskrivningen i den här artikeln.
 
-Overview of value
-Check for any code changes
-Fix {}
-Add to tocs
--->
+Instruktioner om hur du flyttar objekt mellan miljöer med Workfront finns i:
+
+* [Skapa eller redigera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [Installera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 ## Åtkomstkrav
 
@@ -65,66 +63,7 @@ Slutpunkten Skapa kampanjpaket förutsätter att du redan har konfigurerat käll
 
 Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flytta konfigurationsrelaterade objekt från en miljö till en annan. Det stöder inte möjligheten att flytta transaktionsobjekt (med begränsade undantag).
 
-* [Arbetsobjekt](#work-objects)
-* [Rapporteringsobjekt](#reporting-objects)
-* [Anpassade dataobjekt](#custom-data-objects)
-* [Organisationsobjekt](#organization-objects)
-* [Andra konfigurationsobjekt](#other-configuration-objects)
-
-
-### Arbetsobjekt
-
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
-| --- | --- |
-| Projekt (PROJ) | Projekt<br>Uppgift<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Team<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ledig arbetsdag<br>Ködefinition<br>Köämnesgrupp<br>Köämne<br>Cirkulationsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
-| Mall (TMPL) | Mall<br>Malluppgift<br>Mallaktivitetstilldelning<br>Föregångare för mallaktivitet<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Team<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ledig arbetsdag<br>Ködefinition<br>Köämnesgrupp<br>Köämne<br>Cirkulationsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
-
-### Rapporteringsobjekt
-
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
-| --- | --- |
-| Layoutmall (UITMPL) | Layoutmall<br>Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
-| Kontrollpanel (PTLTAB) | Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
-| Kalender (KALEND) | Kalender<br>Kalenderavsnitt |
-| Extern sida (EXTSEC) | Extern sida |
-| Rapport (PTLSEC) | Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
-| Filter (UIFT) | Filter<br>Parameter |
-| Gruppering (UIGB) | Gruppering<br>Parameter |
-| Visa (UIVW) | Visa<br>Parameter |
-
-### Anpassade dataobjekt
-
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
-| --- | --- |
-| Kategori (CTGY) | Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik<br>Grupp |
-| Parameter (PARAM) | Parameter<br>Parameteralternativ |
-| Parametergrupp (PGRP) | Parametergrupp |
-
-### Organisationsobjekt
-
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
-| --- | --- |
-| Grupp (GRUPP) | Grupp <br>Undergrupper (upp till 5 nivåer) *<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
-| Roll (ROLE) | Roll |
-| Team (TEAM) | Team<br>Grupp |
-| Företag (CMPY) | Företag<br>Åsidosätt hastighet<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameter <br>Kategorivisningslogik<br>Grupp |
-| Portfolio (PORT) | Portfolio<br>Program<br>Grupp<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
-| Program (PRGM) | Program<br>Portfolio<br>Grupp<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
-
-### Andra konfigurationsobjekt
-
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
-| --- | --- |
-| Godkännandeprocess (ARVPRC) | Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Roll<br>Team<br>Grupp |
-| Schema (SCHED) | Schema<br>Ledig arbetsdag<br>Grupp |
-| Sökväg för milstolpe (MPATH) | Sökväg för milstolpe<br>Milstolpe |
-| Tidrapportprofil (TSPRO) | Tidrapportprofil<br>Timtyp |
-| Timtyp (HOURT) | Timtyp |
-| Utgiftstyp (EXPTYP) | Utgiftstyp |
-| Risktyp (risktyp) | Risktyp |
-| Resurspool (RSPL) | Resurspool |
-
-\* Inte tillgängligt för tillfället
+En lista över befordrbara objekt och deras tillhörande befordrbara underobjekt finns i [Objekt som stöds för miljöbefordran](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) i artikeln [Översikt över rörliga objekt mellan Workfront-miljöer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Autentisering
 
@@ -435,38 +374,7 @@ De redigerbara attributen är:
 1. description (string)
 1. status (sträng med värdevalidering)
 
-Statusalternativen är:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>SAMMANSÄTTNING</td> 
-   <td><p>Den här statusen tilldelas automatiskt medan objekt monteras.</p><p>Den här statusen kan inte anges direkt av en kund.</p></td> 
-  </tr> 
-  <tr> 
-   <td>UTKAST</td> 
-   <td><p>Denna status tilldelas när en sammansättningsprocess avslutas eller när ett tomt kampanjpaket skapas.</p><p>Det är möjligt för en kund att flytta kampanjpaketet tillbaka till den här statusen.</p><p>I den här statusen kan erbjudandepaketet inte installeras i någon miljö.</p></td> 
-  </tr> 
-  <tr> 
-   <td>TESTNING</td> 
-   <td><p>Den här statusen tillåter att ett kampanjpaket installeras i alla sandlådor av typerna Förhandsgranska eller Anpassad uppdatering. I den här statusen kan paketet inte installeras i Production.</p></td> 
-  </tr> 
-  <tr> 
-   <td>AKTIV</td> 
-   <td><p>Denna status tillåter att ett kampanjpaket installeras i alla miljöer, inklusive Production.</p><p>När en paketstatus är inställd på AKTIV <code>publishedAt</code> datumet anges automatiskt till den aktuella tidsstämpeln för begäran.</p></td> 
-  </tr> 
-  <tr> 
-   <td>INAKTIVERAT</td> 
-   <td><p>Den här statusen används för att dölja tidigare använda erbjudandepaket som inte kommer att installeras i någon miljö i framtiden.</p><p>När ett paket har den här statusen kan det inte installeras i någon miljö.</p><p>När paketstatusen är INAKTIVERAD visas <code>retiredAt</code> datumet anges automatiskt till den aktuella tidsstämpeln för begäran.</p><p>Vi rekommenderar att du använder den här statusen framför<code>DELETE /package</code> slutpunkten eftersom den kan hämtas och installationshistoriken sparas för alla distributioner som görs med det här paketet.</p></td> 
-  </tr> 
-  <tr> 
-   <td>ASSEMBLING_FAILED</td> 
-   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-steget måste du starta extraheringsprocessen igen.</p></td> 
-  </tr> 
-  </tbody> 
-</table>
+En detaljerad beskrivning av tillgängliga statusar finns på [Status för miljöbefordran](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) i artikeln [Översikt över rörliga objekt mellan Workfront-miljöer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
