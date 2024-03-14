@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
+source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Varje objekttyp visas i den vänstra navigeringen och på ett kort. På kortet v
 
 * Skapa nytt: Objektet finns i målmiljön
 * Använd befintlig: Objektet i paketet installeras inte och objektet som redan fanns i målmiljön ändras inte.
-* Skriv över befintlig: Objektet i paketet ersätter det befintliga objektet i målmiljön.
+* Skriv över befintligt: (Inte tillgängligt för närvarande) Objektet i paketet ersätter det befintliga objektet i målmiljön.
 * Använd inte:Om du väljer Använd inte visas ett felmeddelande som anger hur det här alternativet påverkar andra objekt eller fält.
 
 Standardvärden är `Create new` om objektet inte finns i målmiljön, och `Use existing` om objektet finns i målmiljön. Du kan återgå till standardmappningen genom att klicka på **Återställ till standardmappning**.
@@ -52,5 +52,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
