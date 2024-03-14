@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
 # Installera ett miljöerbjudande
-
-Den här sidan håller på att byggas
-
 
 
 1. Gå till den miljö där du vill installera paketet. Det här är den miljö som du kopierar objekt i **till**.
@@ -41,11 +38,11 @@ Varje objekttyp visas i den vänstra navigeringen och på ett kort. På kortet v
 * Skapa nytt: Objektet finns i målmiljön
 * Använd befintlig: Objektet i paketet installeras inte och objektet som redan fanns i målmiljön ändras inte.
 * Skriv över befintlig: Objektet i paketet ersätter det befintliga objektet i målmiljön.
-* Använd inte:
+* Använd inte:Om du väljer Använd inte visas ett felmeddelande som anger hur det här alternativet påverkar andra objekt eller fält.
 
 Standardvärden är `Create new` om objektet inte finns i målmiljön, och `Use existing` om objektet finns i målmiljön. Du kan återgå till standardmappningen genom att klicka på **Återställ till standardmappning**.
 
-Om du väljer Använd inte visas ett felmeddelande som anger hur det här alternativet påverkar andra objekt eller fält.
+
 
 <!--
 ## Collisions
