@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 - administratörsförbättringar
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Den här sidan beskriver alla administratörsförbättringar som gjorts i andra utgåvan av kvartalet 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Företag och användare har nu stöd för avancerade anpassade formulärfält
+
+>[!NOTE]
+>
+>Förhandsversion: 14 mars 2024; Produktion för alla kunder: 24.4 (april 2024)
+
+Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är nu tillgängliga när du bifogar ett anpassat formulär till ett företag eller en användare. De avancerade funktionerna finns på sidorna Företagsinformation och Användarinformation, inte i dialogrutorna Redigera företag och Redigera användare. Det anpassade formuläret måste skapas i den nya formulärdesignern för att du ska kunna utnyttja dessa fälttyper.
+
+Mer information om anpassade formulärfält finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Integrering med JumpSite är nu tillgängligt för nya pakettyper
 
