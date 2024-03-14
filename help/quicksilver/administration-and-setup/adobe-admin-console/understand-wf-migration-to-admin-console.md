@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
+source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Systemadministratörer får ett e-postmeddelande när Workfront migrering till A
 
 * **Om dina Workfront-användare loggar in med enkel inloggning** måste du konfigurera enkel inloggning på Adobe Admin Console så att dina användare kan fortsätta logga in med enkel inloggning. Om dina Workfront-användare för närvarande inte använder enkel inloggning, men du vill konfigurera den på Adobe Admin Console, kan du göra det nu under migreringsresan.
 * **Om du redan hanterar andra Adobe-produkter i din Adobe Admin Console** kan Adobe begära ditt samtycke för att automatiskt migrera användare till din befintliga konsol. Klicka på **Kom igång** i e-postmeddelandet för att navigera till sidan för godkännande.
+* **Om du tidigare har tagit bort licenstypen för begärande** läggs den till i systemet. Inga användare tilldelas den här licenstypen, men det krävs för synkroniseringen mellan Workfront och Adobe Admin Console. Du behöver inte vidta någon åtgärd för den begärande licenstypen.
 
 Användarhanteringen förändras inte just nu. Workfront-administratörer fortsätter att hantera användare i Workfront, och användare fortsätter att logga in med sitt Workfront ID eller SSO tills användarmigreringen är klar.
 
@@ -66,7 +67,7 @@ Workfront produktprofiladministratörer (Workfront systemadministratörer) kan:
 
 Som administratör för Workfront produktprofil (Workfront-systemadministratör) ansvarar du för att se till att alla användare är förberedda för migreringsdagen.
 
-* Förbered alla användare för den kommande migreringen till Adobe Identity genom att meddela dem följande:.
+* Förbered alla användare för den kommande migreringen till Adobe Identity genom att meddela dem följande:
 
    * När användare migrerar får de ett e-postmeddelande från Adobe som meddelar dem om förändringen i det sätt de loggar in på Workfront. Användare kommer att uppmanas att acceptera en inbjudan att logga in med Adobe Identity för första gången, antingen genom att logga in med en befintlig Adobe ID eller genom att konfigurera en ny med samma e-postadress.
 
