@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -153,18 +153,17 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. Klicka **+ Visa** för att lägga till en ny vy.
+1. Välj bland följande typer av vyer:
 
-    * Table
-    * Timeline
-    * Calendar
+   * Tabell
+   * Tidslinje
+   * Kalender
 
-    A new tab is created with the selected view. 
+   En ny flik skapas med den valda vyn.
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   Beroende på skärmens bredd kan ytterligare vyer visas i **Mer** meny ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 >Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält. I annat fall är tidslinjen och kalenderalternativen nedtonade.
 >
 
-1. Klicka på **Visa** och välj en befintlig **Tabellvy** ![](assets/table-view-icon.png) eller klicka **Skapa vy > Tabell** skapa en tabellvy
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   eller
-
-   Välj en befintlig **Tidslinjevy** ![](assets/timeline-view-icon.png) eller klicka **Skapa vy > Tidslinje** för att skapa en tidslinjevy.
-
-   eller
-
-   Välj en befintlig **Kalendervy** ![](assets/calendar-view-icon.png) eller klicka **Skapa vy > Kalender** för att skapa en kalendervy.
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält. I annat fall är tidslinjen eller kalenderalternativen nedtonade.
+>[!NOTE]
+>
+>    Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält. I annat fall är tidslinjen eller kalenderalternativen nedtonade.
 
 1. (Villkorligt) Klicka **Nästa** när du skapar en tidslinje eller kalendervy.
 
@@ -202,12 +191,16 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 1. (Villkorligt) Välj **Starta** och **Slutdatum** för de poster som ska visas i tidslinjen eller kalendervyn.
 1. Klicka **Skapa**.
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   Vyn visas som en ny flik. Vyer visas i den kronologiska ordning som de skapades eller delades med dig.
+1. (Valfritt) Klicka på **Mer** meny ![](assets/more-caret-down-icon-views.png) bredvid den sista vyn om du vill visa alla vyer för den valda posttypen.
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på **Mer** meny ![](assets/more-menu.png) > **Byt namn** för att uppdatera vynamnet. <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   Fler vyer visas under **Mer** efter den sista vyfliken. Talet bredvid **Mer** visas antalet ytterligare vyer.
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på **Mer** meny ![](assets/more-menu.png) > **Byt namn** för att uppdatera vynamnet
+
+   eller
+
+   Dubbelklicka på vynamnet och börja skriva det nya namnet.  <!--ensure there is not another saving step here?!-->
+
 1. (Valfritt) Mer information om hur du hanterar en viss typ av vy finns i följande artiklar:
 
    * [Hantera tabellvyn](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. Håll muspekaren över ett av vyns namn på fliken Visa och klicka sedan på **Mer** ![](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
+Först kan du behöva klicka **Mer** till vänster om den sista fliken för att hitta vyn som du vill ta bort.
 
-1. Klicka på den nedrullningsbara menyn för vyn, håll markören över en av vyerna i listan och klicka sedan på **Mer** meny ![](assets/more-menu.png) > **Ta bort**.
 1. Klicka **Ta bort** för att bekräfta. <!--ensure there is not another saving step here?!-->
 
    Vyn tas bort för alla användare som har åtkomst till postområdet och kan inte återställas.

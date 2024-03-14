@@ -7,16 +7,16 @@ description: Med Sammanfattning kan du interagera med viktig information direkt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # Sammanfattning av dokumentöversikt
 
-<span class="preview">Informationen som markeras på den här sidan är bara tillgänglig i förhandsvisningsmiljön.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+{{preview-and-fast-release}}
 
 Med Sammanfattning kan du interagera med viktig information direkt från dokumentlistan.
 

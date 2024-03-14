@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,9 @@ Arbetsytan som du senast öppnade öppnas.
    * Högerklicka på en postrad och klicka sedan på **Ta bort**.
    * Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * Klicka på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) för att öppna rutan Detaljer och klicka på **Mer** ![](assets/more-menu.png) till höger om postnamnet, och **Ta bort**.
 
    Posten tas bort och kan inte återställas.
 

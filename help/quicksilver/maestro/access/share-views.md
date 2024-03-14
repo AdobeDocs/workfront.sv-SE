@@ -4,9 +4,9 @@ description: Du kan dela en vy med andra för att säkerställa samarbete när d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Du kan dela vyer som du har skapat eller vyer som du har behörighet att hantera
 >[!NOTE]
 >
 >Systemadministratörer kan inte visa eller dela vyer som de inte själva skapat. De kan bara komma åt eller dela vyer som delas med dem.
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>Systemadministratörer kan bara ha behörigheten Hantera för en vy.
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörighet att hantera
 
    Då öppnas posttypssidan.
 
-1. I listrutan Vy <!--tab-->håller du muspekaren över den vy du vill dela och klickar på **Mer** meny ![](assets/more-menu.png) till höger om vynamnet och klicka sedan på **Dela**.
+1. Håll markören över den vy du vill dela på fliken Visa och klicka på **Mer** meny ![](assets/more-menu.png) till höger om vynamnet och klicka sedan på **Dela**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

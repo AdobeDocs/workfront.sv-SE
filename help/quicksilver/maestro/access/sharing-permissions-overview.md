@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du kan dela följande objekt:
 * Du kan dela en arbetsyta eller vy med följande enheter:
    * Användare
    * Grupper
-* Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. <!--System administrators can only be given permissions to Manage a view.-->
+* Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan bara ges behörighet att hantera en vy.
 * Du kan dela en länk till en arbetsyta eller till en vy från en posttypssida med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan eller posttypssidan som visas i den valda vyn.
 
 ## Delningsbehörigheter för Adobe Workfront planeringsfunktionsobjekt

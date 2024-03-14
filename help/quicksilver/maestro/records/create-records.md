@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ Mer information om hur du redigerar postinformation finns i [Redigera poster](/h
 {#step1-to-maestro}
 
 Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+
 1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture/create-record-types.md).
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 Alla poster av den valda typen visas i tabellvyn.
 
-1. (Villkorligt) Om posttypsidan inte öppnas i tabellvyn klickar du på **Visa** och välj en befintlig **Tabellvy** ![](assets/table-view-icon.png) eller klicka **Skapa vy > Tabell** för att skapa en tabellvy.
-
-<!--Replace the above with this when we release the tabbed views: 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+1. (Villkorligt) Om posttypsidan inte öppnas i tabellvyn klickar du på fliken i en tabellvy eller klickar på **+ Visa** för att skapa en tabellvy.
 
 1. Om du vill lägga till nya poster klickar du **Ny post** i tabellens sista rad
 
@@ -135,17 +133,17 @@ Alla poster av den valda typen visas i tabellvyn.
 
 1. Fortsätt lägga till information på varje rad och klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
 
-<!--Or 
-    
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+   eller
 
-      >[!TIP]
-      >
-      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+   Klicka på den nya postens namn eller på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn. The **Information** öppnas i tabellen.
 
-  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
-    -->
+   >[!TIP]
+   >
+   >Du kan bara öppna rutan Detaljer från postens namnfält när fältet Namn är ett primärt fält.
+
+1. Börja redigera postens information i rutan Information. Workfront sparar automatiskt ändringarna.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av rutan Detaljer för att öppna postens **Information** på en ny flik. Fortsätt redigera posten på detaljsidan.
+
 
 1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om när du lägger till nya poster:
 

@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Översikt över uppdateringsavsnittet
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 <!-- Audited: 1/2024 -->
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 > * Sammanfattningspanelen i tidrapporter
 > * Panelen Sammanfattning i Utjämning av arbetsbelastning
 >
-><span class="preview">Den nya kommentarsfunktionen är tillgänglig på panelen Sammanfattning i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsvisningsmiljön.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+><span class="preview">Den nya kommentarsupplevelsen finns i sammanfattningspanelen i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsgranskningsmiljön och i produktionsmiljön för kunder som har valt en snabb versionsprocess.</span>
 
 ## Översikt över uppdateringsavsnittet
 
@@ -114,12 +114,16 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
    * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Till exempel hämtas ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. <span class="preview">Alla svar som görs på systemaktivitetsposter i den äldre kommentarsfunktionen fylls i på fliken Systemaktivitet som skrivskyddade.</span> Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**Alla (skrivskyddad)**: Visar både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning. Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en viss kommentar använder du länken från fliken Alla till fliken Kommentarer. Mer information om hur du uppdaterar objekt i den nya kommentarsfunktionen finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
-* Följande objekt saknar fliken Systemaktivitet <span class="preview">eller fliken Alla</span>:
+* Följande objekt saknar fliken Systemaktivitet <span class="preview">eller fliken Alla:</span>
 
    * Team
    * Mall
    * Malluppgift
    * Ad hoc-kort
+
+* Följande objekt har ingen <span class="preview">Fliken Alla:</span>
+
+   * Mål
 
 
 ### Översikt över det äldre uppdateringsavsnittet

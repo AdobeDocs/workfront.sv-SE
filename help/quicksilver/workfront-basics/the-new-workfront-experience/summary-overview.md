@@ -5,16 +5,16 @@ description: Du kan använda panelen Sammanfattning för att granska och uppdate
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Summary] översikt
 
-<span class="preview">Den markerade informationen är bara tillgänglig i förhandsvisningsmiljön.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+{{preview-and-fast-release}}
 
 Du kan använda [!UICONTROL Summary] för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgiftsproblem, dokument eller andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
 

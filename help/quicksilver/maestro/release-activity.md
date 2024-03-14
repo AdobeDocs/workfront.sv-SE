@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '4391'
+source-wordcount: '4925'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,89 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >[!IMPORTANT]
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
+
+## Vecka 11 mars 2024
+
+### I korthet visas postdetaljer i tabellvyn
+
+Produktion: 14 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+För att göra det enklare att visa ytterligare information om poster när du använder tabellvyn har vi introducerat en ny ruta med information som visar en snabb vy av postens detaljer. Här följer en del av informationen i denna ruta:
+
+* Relevanta postdetaljer i korthet
+
+* Möjlighet att ändra postinformation
+
+* En länk för att öppna postens informationssida
+
+Mer information finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
+
+### Ny flikdesign för postvyer
+
+Produktion: 14 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+För bättre navigering och användarvänlighet har vi omdesignat visningen av postvyer. Vyerna visas nu vågrätt som flikar på posttypssidan, så att du enkelt kan navigera mellan dem. Före den här förbättringen visas vyer i listrutan Visa.
+
+Vyer visas kronologiskt efter tillagda datum från vänster till höger. Delade vyer visas också i kronologisk ordning efter när de delades.
+
+Mer information finns i [Hantera postvyer](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### Dynamisk design av en postvy
+
+Produktion: 14 mars 2024 Förhandsvisning: Ska fastställas
+
+Vi har uppdaterat vyernas utseende och känsla på posttypssidan. De nya vyerna är dynamiskt responsiva och justeras snabbt till skärmstorleken. Alternativetiketterna för verktygsfält är dolda på mindre skärmar för att göra verktygsfältet enklare att använda.
+
+Mer information finns i följande artiklar:
+* [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Hantera tidslinjevyn](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### Tillåt systemadministratörer att hantera alla delade vyer
+
+Produktion: 14 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+För att vara konsekvent med alla andra delar av systemet och för att kunna underhålla och styra alla vyer som är tillgängliga för dig som systemadministratör har du nu behörigheten Hantera för alla vyer som delas med dig i Maestro. Före den här förbättringen kunde vyskaparna ha gett dig behörighet att visa eller hantera vyn. Om vyn delas med dig och du är systemadministratör får du som standard behörigheten Hantera för vyn.
+
+Mer information finns i [Visa](/help/quicksilver/maestro/access/share-views.md).
+
+### Obehörig sida vid delning av vy utan behörighet
+
+Produktion: 14 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+När en användare tar emot en länk till en posttyp och har åtkomst till arbetsytan men inte till den vy som delas i länken, visas en sida som meddelar användaren om att användaren inte har behörighet att se posttypen.
+
+Mer information finns i [Visa](/help/quicksilver/maestro/access/share-views.md).
+
+
+### Ny etikett för systemadministratörer i delade dialogrutor
+
+Produktion: 14 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+Nu visas en&quot;Admin&quot;-etikett bredvid systemadministratörens namn i delningsdialogrutan när du delar en vy eller arbetsyta.
+
+Mer information finns i [Dela behörigheter - översikt](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+### Obehörig sida vid delning av vy utan behörighet
+
+Produktion: 14 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+När en användare tar emot en länk till en posttyp och har åtkomst till arbetsytan men inte till den vy som delas i länken, visas en sida som meddelar användaren om att användaren inte har behörighet att se posttypen.
+
+Du måste dela vyer förutom att dela arbetsytor så att andra kan komma åt samma posttypssida som du delar med en länk.
+
+Mer information finns i [Visa](/help/quicksilver/maestro/access/share-views.md).
 
 ## Vecka 4 mars 2024
 
@@ -59,93 +142,6 @@ Förhandsgranska: Ska bestämmas
 Nu kan du visa poster i en kalendervy. Du måste ha minst två datumfält på en posttyp för att kunna skapa kalendervyn.
 
 Mer information finns i [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
-
-<!--
-## Week of March 11, 2024
-
-### At-a-glance record details display in the table view
-
-Production: March 14, 2024
-
-Preview: To be determined 
-
-To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
-
-* relevant record details at a glance 
-
-* ability to modify record information 
-
-* a link to open the record's Details page 
-
-For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
-
-### New tabbed design for record views 
-
-Production: March 14, 2024 
-
-Preview: To be determined 
-
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
-
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
-
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
-
-### Dynamic design of a record view
-
-Production: March 14, 2024
-Preview: To be determined 
-
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden on smaller screens to make the toolbar easier to use.  
-
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
-
-### Allow System Administrators to manage all shared views 
-
-Production: < date > 
-
-Preview: To be determined 
-
-To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in Maestro. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
-
-For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
-
-### Unauthorized page when sharing a view without permissions
-
- Production: < date > 
-
-Preview: To be determined 
-
- When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
-
- For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
-
-
-### New label for System Administrators in sharing dialogs
-
-Production: <date> 
-
-Preview: To be determined 
-
-When sharing a view with a system administrator, you can only grant Manage access to them. Additionally, we now display an "Admin" label next to the system administrator's user name in the sharing dialog box. System administrators who were granted View permissions before this change will now receive Manage permissions to the view.  
-
-For information, see [Share permissions overview](/help/quicksilver/maestro/access/sharing-permissions-overview.md).  
-
-### Unauthorized page when sharing a view without permissions
-
-Production: <date> (Iskuhi said on March 14) 
-
-Preview: To be determined 
-
- When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
-
- You must share views in addition to sharing workspaces for others to access the same record type page that you share with a link.
-
- For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
-
--->
 
 ## Vecka 26 februari 2024
 

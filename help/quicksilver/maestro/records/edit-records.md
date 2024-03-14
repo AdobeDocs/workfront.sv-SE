@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -117,11 +117,9 @@ Arbetsytan som du senast öppnade öppnas.
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** i den nedrullningsbara menyn i tabellens övre vänstra hörn väljer du en **Tabell** vy. Detta bör vara standardvyn, såvida du inte har visat posttypen i en annan typ av vy när du senast öppnade den.
+1. (Villkorligt) Klicka på fliken i en tabellvy eller klicka på **+ Visa** för att skapa en tabellvy. Tabellvyn ska vara standardvy, såvida du inte har visat posttypen i en annan typ av vy när du senast öppnade den.
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    Posterna som är associerade med den valda posttypen visas i tabellvyn.
+   Posterna som är associerade med den valda posttypen visas i tabellvyn.
 1. Klicka inuti en post för att börja redigera information om den infogade posten.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ Arbetsytan som du senast öppnade öppnas.
 1. (Valfritt) Dubbelklicka på ett kopplat postfält för att lägga till kopplade poster eller objekt till en annan post. Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 1. Tryck **Retur** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. A **Sparad** indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
 
+1. (Valfritt) Klicka på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn eller klicka på ett postnamn. The **Information** öppnas i tabellen.
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn på en post enbart när fältet Namn är ett primärt fält.
+
+1. Börja redigera fältinformationen i **Information** box. Workfront sparar automatiskt ändringarna.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av **Information** för att öppna postens **Information** på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens informationssida](#edit-a-record-from-the-records-details-page) i den här artikeln.
+
 
 1. (Valfritt) Om du vill kopiera och klistra in information från ett fält till ett annat gör du något av följande:
 
@@ -193,7 +191,9 @@ Arbetsytan som du senast öppnade öppnas.
 
 ### Redigera en post från postens informationssida
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+Du kan redigera en post från rutan Detaljer i en tabellvy eller från sidan Detaljer.
+
+Mer information om hur du redigerar poster i rutan Detaljer finns i [Redigera en post från tabellvyn för en posttyp](#edit-a-record-from-the-table-view-of-a-record-type) i den här artikeln.
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ Arbetsytan som du öppnar senast öppnas.
 
    eller
 
-   Klicka i ett redigerbart fält på detaljsidan för att redigera informationen. <!--Your changes are saved automatically.-->
+   Klicka i ett redigerbart fält på detaljsidan för att redigera informationen.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Klicka **Spara ändringar**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. Klicka **Spara ändringar**.
