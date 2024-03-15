@@ -6,9 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Aktivitetens planerade timmar fördelas jämnt mellan alla dagar inom aktivitete
 
 >[!CAUTION]
 >
->Utjämning av arbetsbelastning visar endast upp till 1 000 planerade timmar per arbetsuppgift och upp till 1 000 dagar av ett objekts varaktighet. Allokeringarna i Utjämning av arbetsbelastning visas som noll när gränsen på 1 000 timmar eller 1 000 dagar har uppnåtts. Vi rekommenderar att du delar upp uppgifter i mindre underaktiviteter så att du får plats med ett större antal planerade timmar eller längre än 1 000 dagar.
+>Utjämning av arbetsbelastning visar endast upp till 1 000 planerade timmar per arbetsuppgift och upp till 1 000 dagar av ett objekts varaktighet. Allokeringarna i Utjämning av arbetsbelastning visas som noll när gränsen på 1 000 timmar eller 1 000 dagar har uppnåtts. Vi rekommenderar att du delar upp uppgifter i mindre underaktiviteter för ett större antal planerade timmar eller för varaktigheter på mer än 1 000 dagar.
 
 Tänk på följande när du söker efter dagliga, veckovisa eller månadsvisa tilldelningar för uppgifter eller utgåvor i Utjämning av arbetsbelastning:
 

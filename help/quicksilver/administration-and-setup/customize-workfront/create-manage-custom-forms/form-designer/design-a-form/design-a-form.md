@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,9 @@ Du kan lägga till flera olika textfält i ett anpassat formulär.
 * **Textfält för stycke**: Användare kan skriva flera textrader i fältet.
 * **Textfält med formatering**: Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. En teckengräns på 15 000 tillåter mycket text och formatering.
 
-  Mer information om hur du får åtkomst till det här fältet via API finns i Lagring av RTF-fält i API:t.
+  Den här anpassade fälttypen stöds inte i filter för listor och rapporter.
+
+  Mer information om hur du kommer åt det här fältet via API:t finns i [RTF-fältslagring i API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >

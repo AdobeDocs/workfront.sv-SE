@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Textfält med formatering</td> 
-      <td>Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Det här är tillgängligt i Hem, uppdateringsområdet, listorna och detaljområdet för Workfront-objekt. En teckengräns på 15 000 tillåter mycket text och formatering.</p> <p>Mer information om hur du kommer åt det här fältet via API:t finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">RTF-fältslagring i API</a>.</p> <p><b>ANMÄRKNING</b>: Textfält med formatering är inte tillgängliga för Workfront mobilappar. </p> </td> 
+      <td>Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. Det här är tillgängligt i Hem, uppdateringsområdet, listorna och detaljområdet för Workfront-objekt. En teckengräns på 15 000 tillåter mycket text och formatering.</p> <p>Den här anpassade fälttypen stöds inte i filter för listor och rapporter.</p> <p>Mer information om hur du kommer åt det här fältet via API:t finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">RTF-fältslagring i API</a>.</p> <p><b>ANMÄRKNING</b>: Textfält med formatering är inte tillgängliga för Workfront mobilappar. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Listruta</td> 
@@ -225,7 +225,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       <td><p>Klicka på listrutan och välj sedan de objekttyper där du automatiskt vill spåra fältets värdeändringar.</p> 
       <p><b>ANMÄRKNING</b>: Det här alternativet är inte tillgängligt för följande:</p> 
       <ul> 
-      <li>Anpassade formulär som är associerade med följande objekttyper: Utgift, Företag, Iteration, Faktureringspost och Grupp.</li> 
+      <li>Anpassade formulär som är associerade med följande objekttyper: Utgift, Företag, Iteration, Faktureringspost, Dokument och Grupp.</li> 
       <li>Följande fälttyper: Beräknat, Beskrivande text och Avsnittsbrytning</li> 
       </ul>
       <p><b>VIKTIGT</b>: Om du markerar eller avmarkerar en objekttyp här påverkas alla anpassade formulär som är kopplade till den valda objekttypen och som innehåller det här fältet. Om du till exempel avmarkerar en objekttyp här och sparar det anpassade formuläret spåras inte längre fältets värdeändringar för den objekttypen i något anpassat formulär som innehåller fältet.</p>

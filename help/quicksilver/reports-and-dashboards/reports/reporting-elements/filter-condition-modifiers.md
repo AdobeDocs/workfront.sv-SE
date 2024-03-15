@@ -6,9 +6,9 @@ description: Med filter- och villkorsmodifierarna kan du skapa filter och skapa 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>Det här är <i>skiftlägesokänslig</i> alternativ för <strong>eq</strong>. Det returnerar bara en exakt matchning av det sökda värdet.</p> <p>Om du t.ex. söker efter en uppgift med ett specifikt namn <code>task name cieq test</code> söker efter uppgifter där namnet är <code>Test</code>, <code>TEST</code>, eller <code>Test</code>, men ingen uppgift med namnet hittas <code>test 123.</code></p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+   <td> <p>Det här är <i>skiftlägesokänslig</i> alternativ för <strong>eq</strong>. Det returnerar bara en exakt matchning av det sökda värdet.</p> <p>Om du t.ex. söker efter en uppgift med ett specifikt namn <code>task name cieq test</code> söker efter uppgifter där namnet är <code>Test</code>, <code>TEST</code>, eller <code>Test</code>, men ingen uppgift med namnet hittas <code>test 123.</code></p> <p>När du söker efter en status visas <strong>cieq</strong> modifierare stöds inte. Du bör använda skiftlägeskänslig modifierare <strong>eq</strong>, om du vill söka efter en status.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 
