@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,8 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Uppdrag i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -246,6 +247,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                             </li>
                             <li>
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
+                                <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
@@ -255,7 +257,8 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -265,6 +268,7 @@ Den här sidan innehåller information om de funktioner som ingår i den andra u
                             </li>
                             <li>
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
+                                <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
