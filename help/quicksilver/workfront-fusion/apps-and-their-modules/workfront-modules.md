@@ -9,7 +9,7 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
+source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
 workflow-type: tm+mt
 source-wordcount: '5502'
 ht-degree: 0%
@@ -72,7 +72,7 @@ The [!DNL Workfront] för att ansluta till [!DNL Workfront].
 
 Du kan skapa en anslutning till [!DNL Workfront] direkt inifrån ett [!DNL Workfront Fusion] -modul.
 
-1. Klicka på en Adobe Authenticator-modul **Lägg till** bredvid fältet Anslutning.
+1. Klicka på en Adobe Workfront-modul **Lägg till** bredvid fältet Anslutning.
 1. Fyll i följande fält:
 
    <table style="table-layout:auto"> 
