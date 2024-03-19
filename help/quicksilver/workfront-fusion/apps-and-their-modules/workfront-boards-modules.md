@@ -8,9 +8,9 @@ title: Adobe Workfront Boards-moduler
 description: Du kan använda Adobe Workfront Boards-kontakten för att automatisera processerna i Workfront Boards och koppla dem till program och tjänster från tredje part.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Adobe Workfront Books-moduler och deras fält
+
 
 ## Förutsättningar
 
