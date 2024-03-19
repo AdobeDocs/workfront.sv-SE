@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 0%
 
 ---
@@ -415,7 +415,7 @@ Du kan lägga till huvud- och datumfält i ett anpassat formulär.
 
 +++
 
-Så här lägger du till typsnittsdatumfält:
+Så här lägger du till texthuvud- och datumfält:
 
 1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
@@ -482,6 +482,25 @@ Så här lägger du till typsnittsdatumfält:
          <td><ul>
     <li>Typeahead</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Lägg till filter</td>
+      <td><p>Lägg till ett filter för en objekttyp för att begränsa vilka objekt som användare kan välja när de använder fältet. </p> <p>Du kan till exempel begränsa ett fält så att användarnamn bara kan väljas om de uppfyller följande villkor:</p> 
+       <ul> 
+        <li>De tillhör en grupp eller grupper som du anger</li> 
+        <li>De är kopplade till en roll eller jobbtitel som du anger</li> 
+        <li>De tillhör samma grupp som den person som använder fältet</li> 
+       </ul> <p>Du måste definiera filtret för den objekttyp som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Redigera ett filter i textläge</a>.</p>
+       <p><b>ANMÄRKNING</b>:
+       <ul> 
+        <li>Om du redigerar ett befintligt anpassat formulär och lägger till ett filter i ett texthuvudfält, tas inga objekt bort (utanför filteromfånget) som användare redan har lagt till med fältet.</li> 
+        <li>Filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett Typeahead-fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Typeahead</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">Gör ett obligatoriskt fält</td> 

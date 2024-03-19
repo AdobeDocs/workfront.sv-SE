@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Du kan använda den nya formulärdesignern för att utforma ett anpassat formul�
 
 Den nya formulärdesignern har en ny arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt. Du kan också dra och släppa fält i avsnitten när du utformar formuläret.
 
-<!-- add screenshot when field settings empty state is ready -->
+![Exempelformulärdesigner](assets/form-designer-example.png)
 
 ## Hur man kommer åt den nya formulärdesignern
 
@@ -41,17 +41,7 @@ Med den nya formulärdesignern har vi lagt till möjligheten att:
 
   >[!NOTE]
   >
-  >Standardavsnittet är inte synligt i objekt när formuläret har kopplats till objektet.
-
-## Funktioner som kommer snart
-
-Följande är för närvarande inte tillgängligt i formulärdesignern, men kommer snart att läggas till:
-
-* Filter för typsnittsfält
-
->[!IMPORTANT]
->
->De befintliga konfigurationerna för typsnittsfilter påverkas inte när du arbetar med den nya formulärdesignern.
+  >Standardavsnittet visas inte i objekt när formuläret har kopplats till objektet.
 
 ## Funktioner som tagits bort från formulärdesignern
 
