@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 Den här sidan innehåller information om de funktioner som ingår i den andra utgåvan av kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön under hela kvartalet.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+I stället för ett webbinarium om en release bjuder vi in dig till [register för Adobe Summit](https://summit.adobe.com/na/) för att se följande Workfront-sessioner:
+
+[Framtiden för Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) den 26 mars 2024 för att få en smygtitt på framtiden för strategisk planering och arbetsflöde. Läs om hur Workfront team avser att ta itu med affärsmöjligheterna under hela marknadsföringscykeln - allt med en AI-strategi som sätter fokus på att automatisera arbetet, förenkla användarupplevelser och öka produktiviteten.
+
+[Presentera marknadsföringskalendrar och verktyg för komplett kampanjplanering](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) den 23 mars 2023, för att lära dig mer om nya produktfunktioner som är utformade för att hjälpa er organisation att hantera och visualisera operativa livscykler från början till slut.
 
 <span class="preview">Funktioner som ligger utanför cykeln (de som lanserades till Produktion före den andra utgåvan av kvartal 2024) är markerade i gult.</span>
 

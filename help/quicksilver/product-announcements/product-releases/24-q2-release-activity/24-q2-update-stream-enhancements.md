@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättring
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Vi har gjort följande förbättringar i den nya kommentarsfunktionen:
 
 Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar vid 2:47)
+
 ## Fliken Systemaktivitet i den nya kommentarsfunktionen stöder skrivskyddade kommentarer
 
 >[!NOTE]
@@ -49,6 +51,8 @@ Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/up
 Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfunktionen fylls nu i på fliken Systemaktivitet i den nya kommentarsupplevelsen som skrivskyddad. Du kan inte svara på systemaktivitetsposter i den nya kommentarsfunktionen.
 
 Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar vid 2:00 i videon.)
 
 ## Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter
 
@@ -62,6 +66,8 @@ Fliken Alla är bara för visning. Du kan inte svara på kommentarer eller tagga
 
 Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar vid 0:31 i videon.)
+
 ## Ny kommentarsström är nu tillgänglig på panelen Sammanfattning
 
 >[!NOTE]
@@ -71,3 +77,5 @@ Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilve
 Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.
 
 Mer information finns i [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427991/){target=_blank}

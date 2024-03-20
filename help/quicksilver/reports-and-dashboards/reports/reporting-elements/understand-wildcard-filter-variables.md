@@ -7,9 +7,9 @@ description: Genom att använda jokertecken i filter kan du referera till en all
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,8 @@ Om du vill ange olika tidsperioder och olika tidpunkter (framtida eller tidigare
 
 | **Kvalificerare** | |
 |---|---|
-| **b** | början av veckan (söndag) |
-| **e** | veckoslut (lördag) |
+| **b** | början av perioden (utan ett angivet attribut blir veckans början som standard: söndag) |
+| **e** | slutet av perioden (utan ett angivet attribut är standardvärdet till slutet av veckan: lördag) |
 
 {style="table-layout:auto"}
 
