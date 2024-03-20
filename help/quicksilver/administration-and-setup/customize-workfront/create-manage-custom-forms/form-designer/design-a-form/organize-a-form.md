@@ -4,20 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Du kan ordna ett anpassat formulär med Form Designer.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
 # Organisera och förhandsgranska ett formulär med formulärdesignern
 
-Du kan ordna ett anpassat formulär med formulärdesignern.
+Du kan ordna ett anpassat formulär med formulärdesignern och förhandsgranska det för att kontrollera att det är korrekt konfigurerat.
 
 ## Åtkomstkrav
 
@@ -170,4 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, enligt beskrivningen i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicka **Förhandsgranska** i det övre vänstra hörnet för att se hur formuläret kommer att se ut när det används och klicka sedan på **Avsluta förhandsgranskning** för att återgå till att redigera formuläret.
+1. Klicka **Förhandsgranska** i det övre högra hörnet för att se hur formuläret kommer att se ut när det används och klicka sedan på **Avsluta förhandsgranskning** för att återgå till att redigera formuläret.
