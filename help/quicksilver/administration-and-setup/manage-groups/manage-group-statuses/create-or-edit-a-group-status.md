@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Skapa eller redigera en gruppstatus
 description: Som gruppadministratör kan du skapa anpassade statusvärden för en grupp som du hanterar. Detta eliminerar behovet av dussintals företagsövergripande anpassade statusar och ger större självständighet i grupphierarkierna.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 027d636e8256c6a12d552af736884f6f27886114
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Om det finns grupper ovanför gruppen kan deras administratörer även göra det
 
 >[!NOTE]
 >
->Det går inte att visa anpassade gruppstatusar i ett projekt när du visar projektet i en flexibel vy. Endast standardstatus och anpassade låsta statuslägen visas när du visar ett projekt i en flexibel vy. Mer information om hur du anpassar en flexibel vy för ett projekt finns i avsnittet [Skapa eller anpassa en Agile-vy](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+>Det går inte att visa anpassade gruppstatusar i ett projekt när du visar projektet i en flexibel vy. Endast standardstatus och anpassade låsta statuslägen visas när du visar ett projekt i en flexibel vy. Mer information om hur du anpassar en flexibel vy för ett projekt finns i avsnittet [Skapa eller anpassa en Agile-vy](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) i artikeln [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Allmän information om status finns i [Översikt över status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
@@ -52,7 +52,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Skapa eller redigera en status för en grupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
 
@@ -69,18 +69,17 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    * Låsta statusvärden som tillhör grupperna ovanför undergruppen.
    * Olåsta statusvärden som tillhör grupperna ovanför undergruppen när den skapades.
 
-      När en undergrupp har skapats inkluderas inte olåsta statusar som har skapats i grupperna ovan i undergruppens statuslista. Om någon låser en av dem senare inkluderas den däremot i undergruppens statuslista. Mer information finns i [Hur grupper ärver statusvärden](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
-
+     När en undergrupp har skapats inkluderas inte olåsta statusar som har skapats i grupperna ovan i undergruppens statuslista. Om någon låser en av dem senare inkluderas den däremot i undergruppens statuslista. Mer information finns i [Hur grupper ärver statusvärden](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
 1. Markera fliken för objekttypen (**Projekt**, **Uppgifter**, eller **Problem**) som du vill associera med statusen.
 
-1. (Villkorligt) Om statusen är ett problem kontrollerar du att **Överordnad lista** är markerat.
+1. (Villkorligt) Om statusen är ett problem kontrollerar du att **Huvudlista** är markerat.
 
    ![](assets/master-list.png)
 
    Mer information om hur du anpassar de andra problemtyperna (felrapport, Ändra ordning, Problem, Begäran) finns i [Anpassa standardproblemtyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-1. (Villkorligt) Om du vill skapa en ny status klickar du på **Lägg till en ny status**.
+1. (Villkorligt) Klicka på **Lägg till en ny status**.
 
    eller
 
@@ -94,7 +93,6 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >* Du hanterar gruppen som statusen skapades för
    >* En Workfront-administratör låste upp statusen på systemnivå
    >* En gruppadministratör för en grupp ovanför gruppen låste upp statusen
-
    >      
    >      
    >När du redigerar en befintlig status kan du bara ändra dess namn, beskrivning och färg.
@@ -113,7 +111,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Statusnamn</td> 
-      <td> <p>Ange ett namn för statusen. Detta är ett obligatoriskt fält.</p> <p>När du skapar ett statusnamn bör du tänka på att andra i systemet kan skapa en status med samma namn. Vi rekommenderar att du använder ett unikt namn för att undvika förvirring när du väljer status i Workfront.</p> </td> 
+      <td> <p>Ange ett namn för statusen. Detta är ett obligatoriskt fält.</p> <p>När du skapar ett statusnamn bör du tänka på att andra i systemet kan skapa en status med samma namn. Vi rekommenderar att du använder ett unikt namn för att undvika förvirring när du väljer status i Workfront.</p><p>Om det finns dubblettstatusar bör gruppadministratören uppdatera namnen för att skilja dem åt. Den enda unika indikatorn i systemet är statusnyckeln.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning</td> 
@@ -133,7 +131,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader">Dölj status</td> 
-      <td> <p>(Endast projekt- och aktivitetsstatus)</p> <p>Aktivera det här alternativet om du vill att statusen ska vara dold för användarna. När den är inaktiverad (standardinställningen) kan statusen användas för alla undergrupper under gruppen.</p> <p>Tips: Du kan dölja statusen Problem genom att inaktivera alla fyra problemtyperna (Felrapport, Ändra ordning, Problem, Begäran).</p> </td> 
+      <td> <p>(Endast projekt- och aktivitetsstatus)</p> <p>Aktivera det här alternativet om du vill att statusen ska vara dold för användarna. När den är inaktiverad (standardinställningen) kan statusen användas för alla undergrupper under gruppen.</p> <p>Tips! Du kan dölja statusen Problem genom att inaktivera alla fyra problemtyperna (Felrapport, Ändra ordning, Problem, Begäran).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lås för alla grupper</td> 
@@ -157,7 +155,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 Om du är Workfront-administratör kan du skapa en anpassad status för flera grupper genom att skapa en systemomfattande status och sedan dölja den statusen för de grupper som inte behöver den.
 
-Om du är gruppadministratör (eller Workfront-administratör) kan du skapa en anpassad status för flera undergrupper i en grupphierarki som du hanterar genom att skapa en status för en grupp på högre nivå och sedan dölja den statusen för alla undergrupper som inte behöver den.
+Om du är gruppadministratör (eller Workfront-administratör) kan du skapa en anpassad status för flera undergrupper i en grupphierarki som du hanterar genom att skapa en status för en grupp på en högre nivå och sedan dölja den statusen för undergrupper som inte behöver den.
 
 1. Om du är Workfront-administratör skapar du en olåst status för hela systemet enligt beskrivningen i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. I rutan i det övre högra hörnet tar du bort **Systemstatus** börjar du skriva namnet på en grupp där du vill dölja statusen och klickar sedan på namnet när det visas.

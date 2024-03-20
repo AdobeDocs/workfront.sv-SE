@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Flera nya funktioner som finns på Workfront Boards gör det möjligt att använ
 
 Observera att samlingar har bytt namn till arbetsflöden. Med arbetsflöden kan ni visualisera data på olika sätt. Du kan visa objekt på kort i en lista, på en bräda eller på en iteration. Kort i en arbetsström kan också delas mellan flera ritytor. Du kan enkelt underlätta arbetsflöden med kort och kort i en arbetsström.
 
-Mer information finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)och [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Två andra artiklar är inte tillgängliga i Main förrän jag publicerar min gren.
+Mer information finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)och [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
