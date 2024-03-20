@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Att tänka på när du redigerar poster
 
 * Du kan redigera poster som du har skapat eller poster som har skapats av andra, om du har fått behörighet till arbetsytan.
-* Du kan redigera postfält från detaljsidan för en post eller från tabellvyn för en posttyp.
-* Du kan inte redigera postinformation från tidslinjevyn.
+* Du kan redigera postfält från följande områden:
+
+   * Rutan Detaljer för en post från en postvy.
+   * Sidan Information för en post.
+   * Textbunden i en tabellvy.
+
 * Följande typer av fält uppdateras automatiskt och du kan inte redigera deras värden manuellt:
    * Länkade fält från andra poster
    * Formelfält
@@ -107,7 +111,7 @@ Du kan redigera en post i följande områden:
 * [Från tabellvyn för en posttyp](#edit-a-record-from-the-table-view-of-a-record-type)
 * [Från detaljsidan för en post](#edit-a-record-from-the-records-details-page)
 
-### Redigera en post från tabellvyn för en posttyp
+### Redigera en post textbundet i tabellvyn för en posttyp
 
 {#step1-to-maestro}
 
@@ -145,15 +149,6 @@ Arbetsytan som du senast öppnade öppnas.
 1. (Valfritt) Dubbelklicka på ett kopplat postfält för att lägga till kopplade poster eller objekt till en annan post. Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 1. Tryck **Retur** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. A **Sparad** indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
 
-1. (Valfritt) Klicka på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn eller klicka på ett postnamn. The **Information** öppnas i tabellen.
-
-   >[!TIP]
-   >
-   >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn på en post enbart när fältet Namn är ett primärt fält.
-
-1. Börja redigera fältinformationen i **Information** box. Workfront sparar automatiskt ändringarna.
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av **Information** för att öppna postens **Information** på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens informationssida](#edit-a-record-from-the-records-details-page) i den här artikeln.
-
 
 1. (Valfritt) Om du vill kopiera och klistra in information från ett fält till ett annat gör du något av följande:
 
@@ -188,27 +183,61 @@ Arbetsytan som du senast öppnade öppnas.
 
 1. (Valfritt) Lägg till en miniatyrbild till en post. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
+### Redigera en post från postens informationsruta i en vy
 
-### Redigera en post från postens informationssida
-
-Du kan redigera en post från rutan Detaljer i en tabellvy eller från sidan Detaljer.
-
-Mer information om hur du redigerar poster i rutan Detaljer finns i [Redigera en post från tabellvyn för en posttyp](#edit-a-record-from-the-table-view-of-a-record-type) i den här artikeln.
+Du kan redigera en post i rutan Detaljer för vilken vy som helst.
 
 {{step1-to-maestro}}
 
 Arbetsytan som du öppnar senast öppnas.
 
 1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+
+1. Klicka på ett posttypskort.
+
+   Posttypssidan öppnas.
+
+1. Klicka på en post i en vy av valfri typ
+
+   eller
+
+   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn eller klicka på ett postnamn. The **Information** öppnas i vyn.
+
+   ![](assets/details-box.png)
+
+   >[!TIP]
+   >
+   >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
+
+1. Börja redigera fältinformationen i **Information** box. Workfront sparar automatiskt ändringarna.
+
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av **Information** för att öppna postens **Information** på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens informationssida](#edit-a-record-from-the-records-details-page) i den här artikeln.
+
+### Redigera en post från postens informationssida
+
+Du kan redigera en post på detaljsidan.
+
+{{step1-to-maestro}}
+
+Arbetsytan som du öppnar senast öppnas.
+
+1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+
+1. Klicka på ett posttypskort.
+
+   Posttypssidan öppnas.
+
 1. Gör något av följande:
 
-   * Från en **Tabell** klickar du på namnet på en post.
+   * Från vilken vy som helst öppnar du rutan Detaljer, som beskrivs i [Redigera en post från postens informationsruta i en vy](#edit-a-record-from-the-records-details-box-in-a-view)i den här artikeln. Klicka sedan på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av **Information** för att öppna postens **Information** på en ny flik.
+
    * Från **Tabell** visa, hovra över namnet på en post och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
 
      ![](assets/contextual-menu-for-record-row.png)
-   * Klicka på ett postfält i en tidslinjevy.
 
-   Posten **Information** sidan öppnas.
+     Posten **Information** sidan öppnas.
+
+     ![](assets/details-page.png)
 
 1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Redigera**
 

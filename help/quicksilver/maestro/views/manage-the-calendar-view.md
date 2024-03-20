@@ -4,9 +4,9 @@ description: Du kan visa poster och deras fält i en kalendervy.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ Så här hanterar du en kalendervy:
    * Välj något av följande alternativ på den nedrullningsbara menyn för tidsram för att uppdatera tidsstegen:
 
       * Månad
+1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
+   * [Filter](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### Lägg till filter
+
+Du kan minska mängden information som visas på skärmen genom att använda filter.
+
+Tänk på följande när du arbetar med filter i kalendervyn:
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* De filter du skapar för en kalendervy fungerar oberoende av filtren i andra vyer som används för samma posttyp.
+
+* Filtren är unika för den vy du väljer. Två kalendervyer av samma posttyp kan ha olika filter.
+
+* Två användare som tittar på samma kalendervy ser samma filter som används för närvarande.
+
+* Du kan inte namnge filtren som du skapar för en kalendervy.
+
+* När du tar bort filter tas de bort från alla som använder samma posttyp som du och som visar samma vy som du.
+
+* Att lägga till filter i kalendervyn är detsamma som att lägga till filter i tabellvyn.
+
+  Mer information finns i avsnittet&quot;Lägg till filter&quot; i artikeln [Hantera tabellvyn](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* Du kan filtrera efter anslutna postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.

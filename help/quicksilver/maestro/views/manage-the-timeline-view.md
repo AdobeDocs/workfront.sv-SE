@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,11 @@ Tänk på följande när du arbetar med filter i tidslinjevyn:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* De filter som du skapar för tidslinjevyn fungerar oberoende av filtren i tabellvyn när de används för samma posttyp.
+* De filter som du skapar för en tidslinjevy fungerar oberoende av filtren i andra vyer som används för samma posttyp.
 
-* Filtren är unika för den vy du väljer. Två tidslinjevyer av samma posttyp kan ha olika filter. Två användare som tittar på samma tidslinjevy ser samma filter som används för närvarande.
+* Filtren är unika för den vy du väljer. Två tidslinjevyer av samma posttyp kan ha olika filter.
+
+* Två användare som tittar på samma tidslinjevy ser samma filter som används för närvarande.
 
 * Du kan inte namnge de filter som du skapar för en tidslinjevy.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Information om nya funktioner och när de släpps finns på [Aktivitet för att 
 | Skapa taxonomier | ✓ |                                  |                  |
 | Skapa personliga, namngivna poster och taxonomier | ✓ |                                  |                  |
 | Skapa anpassade postfält | ✓ |                                  |                  |
-| Importera posttyper och fält med en Excel- eller CSV-fil | ✓ |                                  |                  |
+| Importera posttyper och fält med en Excel- eller CSV-fil* | ✓ |                                  |                  |
 | Länka poster | ✓ |                                  |                  |
 | Visa poster i en tabell | ✓ |                                  |                  |
 | Visa poster på en tidslinje | ✓ |                                  |                  |
@@ -275,7 +275,12 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i planer
 | Storlek på fil som du kan klistra in i en posttypstabell | 1 MB |
 | Storlek på fil som du kan importera via API för en posttypstabell | 1,5 MB |
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
-| Storlek på Excel-fil som du kan importera i en tabell | 5 MB |
+| Storlek på Excel-fil som du kan importera* | 5 MB |
+
+>[!IMPORTANT]
+>
+>*Den här funktionen har tillfälligt inaktiverats och kommer att vara tillgänglig vid ett senare datum
+
 
 ## Hitta Adobe Workfront planeringsfunktioner
 

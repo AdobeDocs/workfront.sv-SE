@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >[!IMPORTANT]
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
+
+## Vecka 18 mars 2024
+
+### Filter som är tillgängliga i kalendervyn
+
+Produktion: 19 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+Nu kan du filtrera information i kalendervyn. Mer information finns i [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### Rutan Detaljer har lagts till i tidslinjen och kalendervyer
+
+Produktion: 19 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+Nu kan du komma åt rutan Detaljer för en post från tidslinjen och kalendervyer. Du kan redigera poster i rutan Detaljer inuti tidslinjen och kalendervyer.
+
+I rutan Detaljer kan du öppna postens informationssida.
+
+Mer information finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
+
+### Posttypen Excel-import är tillfälligt inaktiverad
+
+Produktion: 21 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi inaktiverar temporärt import av posttyper med hjälp av en Excel- eller CSV-fil. Den här funktionen kommer att vara tillgänglig vid ett senare tillfälle.
 
 ## Vecka 11 mars 2024
 
