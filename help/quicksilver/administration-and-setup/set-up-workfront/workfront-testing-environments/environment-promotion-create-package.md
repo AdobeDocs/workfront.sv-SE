@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b2a2a6b84edc74efa89db2aba459a40e98bfb0e5
+source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,11 @@ ht-degree: 0%
    eller
 
    Klicka **Spara och montera** för att spara och sätta ihop paketet.
+
+   >[!NOTE]
+   >
+   >* Knapparna Spara, Stäng och Spara och Montera är tillgängliga om ett paket har både ett namn med fem eller fler tecken och minst ett objekt tillagt.
+   >* Du kan inte montera ett paket som har en installationsbar status som Testing eller Aktiv.
 
 ## Redigera eller sätta ihop ett befintligt paket
 

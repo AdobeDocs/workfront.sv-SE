@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
+source-git-commit: 610469811a937fde70a938af829b156e69cca391
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 Varje objekttyp visas i den vänstra navigeringen och på ett kort. På kortet visas objekt av den typen och om objekten finns i målmiljön. Du kan bestämma hur dessa objekt ska flyttas till målmiljön.
 
-* Skapa nytt: Objektet finns i målmiljön
+* Skapa nytt: Skapa ett nytt objekt i målmiljön. Om objektet finns i målmiljön kan du skapa ett nytt objekt med ett nytt namn. Om den inte finns i målmiljön kan du skapa objektet med ett nytt namn eller med namnet som objektet har i paketet.
 * Använd befintlig: Objektet i paketet installeras inte och objektet som redan fanns i målmiljön ändras inte.
 * Skriv över befintligt: (Inte tillgängligt för närvarande) Objektet i paketet ersätter det befintliga objektet i målmiljön.
-* Använd inte:Om du väljer Använd inte visas ett felmeddelande som anger hur det här alternativet påverkar andra objekt eller fält.
+* Använd inte: Objektet i paketet är inte installerat i målmiljön. Om du väljer Använd inte visas ett felmeddelande som anger hur det här alternativet påverkar andra objekt eller fält.
 
 Standardvärden är `Create new` om objektet inte finns i målmiljön, och `Use existing` om objektet finns i målmiljön. Du kan återgå till standardmappningen genom att klicka på **Återställ till standardmappning**.
 
