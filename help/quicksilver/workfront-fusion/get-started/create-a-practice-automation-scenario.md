@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs hur du skapar ett automatiseringsscena
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1741'
 ht-degree: 0%
 
 ---
@@ -51,12 +51,12 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -74,15 +74,15 @@ Att skapa ett scenario består av flera huvuduppgifter:
 ## Välj program och ge scenariot ett namn
 
 1. Logga in på [!DNL Workfront Fusion] konto.
-1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) i den vänstra panelen.
+1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) till vänster.
 
    >[!NOTE]
    >
-   >Om den vänstra navigeringspanelen eller dess ikoner inte visas klickar du på menyn ![Meny](assets/main-menu-icon-left-nav.png) ikon.
+   >Om den vänstra navigeringspanelen eller dess ikoner inte visas klickar du på menyn ![Meny](assets/main-menu-icon-left-nav.png) -ikon.
 
    I grått [!UICONTROL Folders] som visas kan du ordna dina scenarier i mappar.
 
-   Överst i huvudområdet till höger kan du visa **[!UICONTROL All]** scenarier du har skapat, **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]** och **[!UICONTROL Concepts]**. Koncept är scenarier som kräver mer arbete innan [!DNL Workfront Fusion] kan klassificera dem som aktiva eller inaktiva.
+   Överst i huvudområdet till höger kan du visa **[!UICONTROL All]** scenarier du har skapat, **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]** och **[!UICONTROL Concepts]**. Koncept är scenarier som behöver lite mer arbete innan [!DNL Workfront Fusion] kan klassificera dem som aktiva eller inaktiva.
 
 <!--
    ![](assets/scenarios-left-panel-350x215.png)
@@ -95,7 +95,7 @@ Att skapa ett scenario består av flera huvuduppgifter:
    På landningssidan som visas kan du förhandsladda alla appar som du vill använda i det scenario som du tänker skapa.
 
 1. Sök efter och välj **[!DNL Workfront]** app.
-1. Klicka **[!UICONTROL Continue]** i det övre högra hörnet.
+1. Klicka **[!UICONTROL Continue]** längst upp till höger.
 
    Scenarioredigeraren visar, som innehåller en tom modul i mitten, [!DNL Workfront] som du har förinstallerat och vissa alternativ i verktygsfältet längst ned.
 
@@ -120,7 +120,7 @@ I det här exemplet använder vi inte någon utlösarmodul. I stället börjar d
 
 1. Klicka på den tomma modulen för att välja det program du vill välja en modul från.
 
-   Programmet som du förinstallerade visas bredvid den tomma modulen. Du kan lägga till andra appar som har moduler med [!UICONTROL Search] box.
+   Appen som du förinstallerade visas bredvid den tomma modulen. Du kan lägga till andra appar som har moduler med [!UICONTROL Search] box.
 
    ![](assets/pre-loaded-app-wf-350x172.png)
 
@@ -147,7 +147,7 @@ I det här exemplet använder vi inte någon utlösarmodul. I stället börjar d
 
 När du har anslutit [!DNL Workfront Fusion] till [!DNL Workfront] kan du ange ett [!DNL Workfront] begärandekö som du har åtkomst till och de data där som du vill att den första modulen ska bearbeta.
 
-1. I [!UICONTROL Record Type] ruta, markera **[!UICONTROL Project]**. Detta ställer in modulen så att endast projekt söks igenom.
+1. I [!UICONTROL Record Type] ruta, markera **[!UICONTROL Project]**. Detta anger att modulen endast ska söka efter projekt.
 
    >[!TIP]
    >
@@ -156,11 +156,11 @@ När du har anslutit [!DNL Workfront Fusion] till [!DNL Workfront] kan du ange e
 1. I **[!UICONTROL Result Set]** ruta, markera **[!UICONTROL First Matching Record]**. Detta ställer in modulen så att endast den första posten som uppfyller villkoren returneras. I det här exemplet behöver bara en post returneras.
 1. I **[!UICONTROL Search criteria]** ska vi skapa ett filter för att returnera det specifika projektet.
 
-   1. I den första rutan under [!UICONTROL Search Criteria]markerar du det fält som du vill söka i. I det här exemplet väljer du **[!UICONTROL Name]**.
+   1. I den första rutan under [!UICONTROL Search Criteria]markerar du det fält som du vill söka efter värdena i. I detta exempel väljer du **[!UICONTROL Name]**.
    1. För operatorn väljer du [!UICONTROL Contains (case insensitive)]. Detta gör att modulen kan hitta projekt med de valda orden i namnet, även om du inte anger hela namnet eller anger namnet med fel skiftläge (till exempel versaler).
    1. I det sista fältet under [!UICONTROL Search Criteria], anger du ett ord eller en fras som du vet finns i namnet på det projekt du söker efter.
 
-1. I **[!UICONTROL Outputs]** markerar du de fält som du vill att utgåvan ska visa. I det här exemplet väljer du **[!UICONTROL ID]** och **[!UICONTROL Name]** fält.
+1. I **[!UICONTROL Outputs]** markerar du de fält som du vill att modulen ska visa. I det här exemplet väljer du **[!UICONTROL ID]** och **[!UICONTROL Name]** fält.
 
    >[!TIP]
    >
@@ -201,9 +201,9 @@ När du har anslutit [!DNL Workfront Fusion] till [!DNL Workfront] kan du ange e
 
    ![](assets/list-of-available-variables-wf-350x368.png)
 
-1. Klicka på variabeln **[!UICONTROL ID]** för att lägga till den i **[!UICONTROL Parent Record ID]** fält. Detta gör att det ID som returneras från den första modulen kan användas som identifierare för det projekt som du vill arbeta med i den andra modulen, vilket ser till att de returnerade uppgifterna tillhör det projektet.
+1. Click the variable **[!UICONTROL ID]** för att lägga till den i **[!UICONTROL Parent Record ID]** fält. Detta gör att det ID som returneras från den första modulen kan användas som identifierare för det projekt som du vill arbeta med i den andra modulen, vilket ser till att de returnerade uppgifterna tillhör det projektet.
 1. I **[!UICONTROL Collections]** fält, markera **[!UICONTROL Tasks]**. Detta anger att modulen ska returnera uppgifter som är kopplade till det valda projektet.
-1. Klicka på **[!UICONTROL OK]**
+1. Klicka **[!UICONTROL OK]**
 
    Nu har du ett fungerande scenario.
 
@@ -211,7 +211,7 @@ När du har anslutit [!DNL Workfront Fusion] till [!DNL Workfront] kan du ange e
 
 ## Testa scenariot
 
-Innan du aktiverar ditt scenario är det viktigt att testa det genom att köra det minst en gång och visa resultatet. Detta hjälper er att förstå hur data flödar genom scenariot och hitta eventuella fel.
+Innan du aktiverar ditt scenario är det viktigt att du testar det genom att köra det minst en gång och visa resultatet. Detta hjälper er att förstå hur data flödar genom scenariot och hitta eventuella fel.
 
 Vi valde att få 1 projekt tillbaka, liksom de uppgifter som är kopplade till det projektet. Om du kör scenariot är det vad som ska hända.
 
@@ -261,6 +261,6 @@ Vi valde att få 1 projekt tillbaka, liksom de uppgifter som är kopplade till d
 
 Det här exempelscenariot har ingen utlösarmodul. Om detta vore ett scenario som du skulle använda för riktiga data skulle det börja med en utlösarmodul, och det sista du skulle göra är att aktivera den. När du har aktiverat ett scenario körs det som standard var 15:e minut. Du kan ändra detta genom att definiera när och hur ofta du vill att det ska köras.
 
-Mer information om att aktivera scenarier finns i [Aktivera eller inaktivera ett scenario i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+Mer information om hur du aktiverar scenarier finns i [Aktivera eller inaktivera ett scenario i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 Mer information om scheman finns i [Schemalägg ett scenario i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
