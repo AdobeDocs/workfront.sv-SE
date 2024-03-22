@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ Mer information om konfiguration [!DNL Workfront] med SSO, se [Översikt över e
 
 ## Avsedd användning och tillgänglighet
 
-[!DNL Workfront] Anpassade sandlådemiljöer för uppdatering är inte avsedda för prestanda- eller inläsningstestning. Använd i stället dessa miljöer för att validera funktionaliteten med organisationens befintliga arbetsflöden.
+* [!DNL Workfront] Anpassade sandlådemiljöer för uppdatering är inte avsedda för prestanda- eller inläsningstestning. Använd i stället dessa miljöer för att validera funktionaliteten med organisationens befintliga arbetsflöden.
 
-[!DNL Workfront] Anpassade sandlådemiljöer för uppdatering är alltid tillgängliga. Alla avbrott i Workfront anpassade uppdateringssandlådemiljö under normal kontorstid är den första prioriteten omedelbart efter att eventuella produktionsproblem har åtgärdats. Alla avbrott i Workfront anpassade uppdateringssandlådemiljö på helger (lördagar och söndagar) åtgärdas så att miljön körs under kontorstid på måndag.
+* [!DNL Workfront] Anpassade sandlådemiljöer för uppdatering är alltid tillgängliga. Alla avbrott i Workfront anpassade uppdateringssandlådemiljö under normal kontorstid är den första prioriteten omedelbart efter att eventuella produktionsproblem har åtgärdats. Alla avbrott i Workfront anpassade uppdateringssandlådemiljö på helger (lördagar och söndagar) åtgärdas så att miljön körs under kontorstid på måndag.
+
+* Korrektur är inte tillgängligt i anpassade sandlådemiljöer för uppdatering.
