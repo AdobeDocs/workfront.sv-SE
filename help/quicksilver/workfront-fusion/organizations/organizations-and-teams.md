@@ -8,9 +8,9 @@ description: Adobe Workfront Fusions funktioner för organisation och team gör 
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
+source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,14 @@ Så här skapar du ett team:
 >Mer information finns i [Få åtkomst till dina meddelanden](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Alternativen för e-postmeddelanden anges på teamnivå.
+
+>[!NOTE]
+>
+>Om din organisation har flyttats till Enhetligt gränssnitt får du meddelanden via meddelandeområdet i Adobe. Du måste använda gränssnittet Enhetligt gränssnitt för att kunna se meddelanden i meddelandeområdet i Adobe.
+>
+>Om du vill använda Unified Shell Experience, inklusive meddelandeområdet i Adobe, klickar du på knappen Testa nytt Fusion-gränssnitt i Unified Experience i den övre delen av sidan. Den här knappen är bara tillgänglig om din organisation har flyttat till det enhetliga skalet.
+>
+>Mer information om hur du hittar meddelanden i det enhetliga gränssnittet finns i [Få åtkomst till dina meddelanden](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
 
 1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL Team]**
 1. Välj **[!UICONTROL Notification Options]** -fliken.
