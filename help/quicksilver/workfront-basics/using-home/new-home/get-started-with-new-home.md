@@ -6,9 +6,9 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar senaste kommentarstrådar från hela Workfront, ungefär som sidan Mina uppdateringar. Du kan använda svarsknappen för att skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
 
 * **Att göra**\
-    Med den här unika widgeten kan du lägga till textobjekt i en personlig checklista som du kan redigera fritt.
+    Med den här unika widgeten kan du lägga till objekt i en personlig checklista som du kan redigera fritt. Att göra-uppgifter spåras som uppgifter i ditt personliga projekt och stannar i upp till två veckor efter att de har slutförts.
 
   >[!NOTE]
   >

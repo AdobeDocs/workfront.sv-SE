@@ -4,9 +4,9 @@ description: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättring
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfu
 
 Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar vid 2:00 i videon.)
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar kl. 2:00)
 
 ## Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter
 
@@ -66,7 +66,7 @@ Fliken Alla är bara för visning. Du kan inte svara på kommentarer eller tagga
 
 Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar vid 0:31 i videon.)
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar 0:31)
 
 ## Ny kommentarsström är nu tillgänglig på panelen Sammanfattning
 
