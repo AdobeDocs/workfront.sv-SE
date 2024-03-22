@@ -9,9 +9,9 @@ description: Med [!DNL Adobe Campaign] -moduler kan du starta en [!DNL Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
+source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Förutsättningar
+
+Du måste lägga till Fusion-IP-adresserna i [!DNL Adobe Campaign].
+
+* Instruktioner om hur du lägger till IP-adresser i Campaign-tillåtelselista finns i [Lägga till IP-adresser i tillåtelselista](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) i Adobe Campaign-dokumentationen.
+* En lista över IP-adresser som ska läggas till i tillåtelselista finns i [IP-adresser för åtkomst till Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
 
 ## Anslut [!DNL Adobe Campaign] till [!DNL Adobe Workfront Fusion]
 
