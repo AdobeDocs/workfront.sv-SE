@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ Så här visar du licensinformation i ditt system:
    >Korrekturlicenser är endast tillgängliga för kunder som har köpt det betalda Workfront-tillägget Proof utöver sin Workfront-licens. Mer information om det här tillägget finns i [Workfront-korrektur: artikelindex](../../workfront-proof/workfront-proof.md).
 
 1. (Villkorligt) Om meddelandet visas **Om du vill ange ett maxvärde måste du lägga till en hemgrupp** lägger du till en hemgrupp i systemet enligt anvisningarna i avsnittet [Lägga till eller ta bort en hemgrupp på sidan Licenser](#add-or-remove-a-home-group-to-the-licenses-page) i den här artikeln.
+
+   >[!NOTE]
+   >
+   >För de nya planerna tillåter Select-planen inte att administratörer visar licenser per hemgrupp. Du kan bara se det totala antalet använda licenser. Med Prime- och Ultimate-planerna kan du ange maximalt antal licenser per hemgrupp.
 
 ## Visa information om licenser för Workfront-tillägg
 
