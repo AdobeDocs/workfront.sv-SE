@@ -1,18 +1,18 @@
 ---
-title: Aktivitet för att lansera Adobe Workfront planeringsfunktioner
+title: Adobe Workfront planerings- och lanseringsaktivitet
 description: Adobe Workfront planeringsfunktioner är för närvarande tillgängliga för utvalda Workfront-kunder. Läs den här artikeln ofta och lär dig mer om de funktioner som nyligen släppts för planeringsfunktionerna.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Aktivitet för att lansera Adobe Workfront planeringsfunktioner
+# Adobe Workfront planerings- och lanseringsaktivitet
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >[!IMPORTANT]
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
+
+## Vecka 25 mars 2024
+
+### Ny flexibel posttypsorganisation för arbetsytor
+
+Produktion: 25 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+För att du ska bli effektiv när du skapar arbetsytor har vi ändrat sättet att organisera posttyper i en arbetsyta. Några av förbättringarna är:
+
+* Skapa upp till 50 avsnitt med posttyper på varje arbetsyta. Befintliga användningsposttyper och taxonomier-avsnitt finns kvar på de befintliga arbetsytorna.
+
+* Anpassa alla nya arbetsytor och deras nya avsnitt efter era processer och organisationens behov.
+
+* Flytta posttyper dynamiskt inom en arbetsyta genom att dra och släppa dem där de behöver vara, inklusive mellan olika avsnitt.
+
+Mer information finns i [Skapa posttyper](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### Duplicera vyer
+
+Produktion: 25 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+För att spara tid och enhetlighet kan du nu duplicera en befintlig vy som du har åtkomstbehörighet till.
+
+När du duplicerar en vy skapas en identisk vy med samma filter, sorteringsvillkor och grupperingar. Behörigheterna för den ursprungliga vyn behålls inte när du duplicerar en vy.
+
+Mer information finns i [Hantera postvyer](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### Namnet på Maestro-området på huvudmenyn har ändrats till Planning
+
+Produktion: 28 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi har bytt namn på Maestro-området på Main Menu till Planning.
+
+En översikt över Adobe Workfront planering finns på [Översikt över Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Vecka 18 mars 2024
 
@@ -207,7 +247,7 @@ Följande är de högsta behörighetsnivåerna som användare kan få baserat p�
 
 Mer information om den nya licensmodellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/license-type-overview.md).
+Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstyp vid användning av Adobe Workfront-planering](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nytt utseende och ny känsla i RTF-verktygsfältet för postfält

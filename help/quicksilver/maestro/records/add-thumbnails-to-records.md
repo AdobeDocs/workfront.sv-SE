@@ -1,12 +1,13 @@
 ---
 title: Lägga till miniatyrbilder i poster
-description: Du kan redigera postinformation i Adobe Maestro och associera varje post med enskilda miniatyrbilder för att göra dem lätta att känna igen.
+description: Du kan redigera postinformation i Adobe Workfront-planeringen och associera varje post med enskilda miniatyrbilder för att göra dem lätta att känna igen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Du kan associera poster med unika miniatyrbilder i Adobe Maestro för att göra dem lätta att känna igen.
+Du kan associera poster med unika miniatyrbilder i Adobe Workfront-planeringen för att göra dem lätta att känna igen.
 
 Du måste skapa posttyper innan du kan börja skapa och redigera poster.
 Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
@@ -43,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Maestro </p>  
+   <td> <p>Det finns inga åtkomstkontroller för Workfront-planering </p>  
 </td>
   </tr>
 <tr>
@@ -72,7 +73,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td>  <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller Maestro-området på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/maestro/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td>  <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/maestro/access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 

@@ -1,13 +1,13 @@
 ---
 title: Skapa poster
-description: När du använder Adobe Workfront planeringsfunktioner är en post en instans av en posttyp. Du måste skapa posttyper innan du kan skapa enskilda poster. Att skapa taxonomiposter är identiskt med att skapa driftsposter.
+description: När du använder Adobe Workfront-planering är en post en instans av en posttyp.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-I Adobe Workfront planeringsfunktioner är en post en instans av en posttyp.
-
-Du kan ha följande typer av poster:
-
-* **Driftsregister**: De representerar arbetsrelaterade objekt. För en operativ post med namnet&quot;Campaign&quot; kan du till exempel ha namngett poster som&quot;Monthly Newsletter&quot; eller&quot;Sommarförsäljning&quot;.
-* **Taxonomiposter**: De representerar attribut som kan kopplas till operativa poster. För en taxonomiposttyp som heter &quot;Kanal&quot; kan du till exempel ha namngett taxonomier som &quot;E-post&quot;, &quot;Sociala media&quot; eller &quot;Annonsering&quot;.
-
-Att skapa driftsposter är identiskt med att skapa taxonomiposter.
+I Adobe Workfront-planeringen är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
 * Skapa dem manuellt för posttyper
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * Skapa poster genom att kopiera och klistra in information från en extern lista.
 
 I den här artikeln beskrivs hur du skapar poster. Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
@@ -57,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront planeringsfunktioner </p>  
+   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront-planering </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. I ett annat program markerar du flera rader och kolumner och klistrar sedan in informationen i posttypstabellvyn, med början från den första nya posten.
 
-   Följande information importeras i Workfront planeringsfunktionsområde:
+   Följande information importeras i Workfront planeringsområde:
 
    * Raderna innehåller de nya posterna
    * Kolumnerna fyller i information för posternas fält.

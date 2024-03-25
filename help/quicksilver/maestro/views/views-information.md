@@ -1,13 +1,13 @@
 ---
 title: "Vyer: artikelindex"
-description: Du kan visa Adobe Maestro-poster i en tabell- eller tidslinjevy. I följande artiklar beskrivs hur du kan skapa och hantera vyerna för Adobe-maestro-inspelningar.
+description: Du kan visa Adobe Workfront planeringsposter i en tabell-, tidslinje- eller kalendervy. I följande artiklar beskrivs hur du kan skapa och hantera postvyer för Adobe Workfront-planering.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Du kan visa Adobe Maestro-poster i en tabell- eller tidslinjevy.
+Du kan visa Adobe Workfront planeringsposter i en tabell-, tidslinje- eller kalendervy.
 
-I följande artiklar beskrivs hur du kan skapa och hantera postvyer i Adobe Maestro:
+I följande artiklar beskrivs hur du kan skapa och hantera postvyer i Adobe Workfront-planeringen:
 
 * [Hantera postvyer](../views/manage-record-views.md)
 * [Hantera tabellvyn](../views/manage-the-table-view.md)

@@ -1,35 +1,27 @@
 ---
-title: Skapa driftsposttyper
+title: Skapa posttyper
 description: Posttyper är objekttyperna för Adobe Workfront-planering. I Workfront-planeringen kan du skapa anpassade posttyper som illustrerar de arbetsuppgifter som behövs i organisationens livscykel.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Skapa driftsposttyper
+# Skapa posttyper
 
 {{maestro-important-intro}}
 
 Posttyper är objekttyperna för Adobe Workfront-planering. I Workfront-planeringen kan du skapa anpassade posttyper som illustrerar de arbetsrelaterade objekt som behövs i organisationens livscykel.
-
 Posttyper kan vara något av följande:
 
-* **Operativa posttyper**
-* **Taxonomier**
-
-Mer information om posttyper finns i [Översikt över posttyper och taxonomier](../architecture/overview-of-record-types-and-taxonomies.md).
-
-Att skapa driftsposttyper liknar att skapa taxonomiposttyper. I den här artikeln beskrivs hur du skapar driftsposttyper.
-
-Mer information om att skapa taxonomier finns i [Skapa taxonomiposttyper](../architecture/create-a-taxonomy.md).
+Mer information om posttyper finns i [Översikt över posttyper](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Åtkomstkrav
 
@@ -75,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       * När du skapar en arbetsyta med hjälp av en mall.
 
         Mer information finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
-      * När du importerar dem med en Excel- eller CSV-fil. Detta är inte tillgängligt för taxonomiposttyper.
+
+      * När du importerar dem med en Excel- eller CSV-fil.
 
         >[!IMPORTANT]
         >
         >Den här funktionen har tillfälligt inaktiverats sedan 21 mars 2024. Den aktiveras vid ett senare tillfälle.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuellt:
 
       * Från scratch.
 
+        I den här artikeln beskrivs hur du skapar generiska posttyper från grunden på en arbetsyta som du har skapat från grunden.
+
+* Du kan flytta posttyper inom ett avsnitt och från ett avsnitt på en arbetsyta till ett annat. Du kan inte flytta posttyper från en arbetsyta till en annan.
+
 ## Skapa posttyper med hjälp av en arbetsytemall
 
-Du kan skapa posttyper automatiskt när du skapar en arbetsyta med en planeringsmall från Workfront. Varje mall innehåller exempel på posttyper för drift och taxonomi.
+Du kan skapa posttyper automatiskt när du skapar en arbetsyta med en planeringsmall från Workfront. Varje mall innehåller exempelposttyper.
+
+När du skapar en arbetsyta från en mall grupperas posttyperna i följande avsnitt:
+
+* Operativa posttyper
+* Taxonomier
+
+Du kan lägga till posttyper manuellt i avsnitten Driftposttyper och Taxonomier.
 
 Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ Mer information om vilka posttyper som ingår i respektive mall finns i [Lista �
 
 ## Skapa en posttyp från grunden
 
-I den här artikeln beskrivs hur du skapar driftsposttyper från grunden. Att skapa operativa posttyper från grunden liknar att skapa taxonomier.
-
-Mer information om taxonomier finns i [Skapa en taxonomi](../architecture/create-a-taxonomy.md).
+I den här artikeln beskrivs hur du skapar posttyper från grunden.
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill skapa posttyper för.
 1. Klicka **Lägg till posttyp**.
-1. (Villkorligt) Om du skapar en operativ posttyp klickar du på **Från början**. Det här alternativet är inte tillgängligt när du skapar taxonomier.
+1. (Villkorligt) Om du skapar en operativ posttyp klickar du på **Från början**.
 
    Rutan Lägg till posttyp öppnas.
 
@@ -165,8 +167,6 @@ Antalet fält som posttypen innehåller visas på kortet.
    Som standard visas följande fält i tabellvykolumnerna för en operativ posttyp:
 
    * Namn
-
-     Fältet Namn är det enda fält som skapas automatiskt för taxonomier.
    * Beskrivning
    * Startdatum
    * Slutdatum
@@ -196,6 +196,10 @@ Antalet fält som posttypen innehåller visas på kortet.
    * [Redigera posttyper](../architecture/edit-record-types.md)
    * [Hantera postvyer](../views/manage-record-views.md)
 
+1. (Valfritt) Klicka på arbetsytan för att dra och släppa en posttyp på en önskad plats eller för att flytta den till ett annat avsnitt.
+
+   Ändringarna sparas automatiskt när du har tagit bort det markerade posttypskortet.
+
 ## Skapa posttyper genom att importera en Excel- eller CSV-fil
 
 >[!IMPORTANT]
@@ -223,12 +227,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill skapa posttyper för.
 1. Klicka **Lägg till posttyp**.
-1. (Villkorligt) Om du skapar en operativ posttyp klickar du på **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    Det här alternativet är inte tillgängligt när du skapar taxonomiposttyper.
-
+1. Klicka **Excel/CSV**.
 1. Dra och släpp en Excel- eller CSV-fil som tidigare sparats på datorn eller klicka på **Välj en CSV- eller Excel-fil** för att hitta en.
 1. Klicka **Granska dina data**.
 
@@ -267,9 +266,9 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

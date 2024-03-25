@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Du kan ansluta Adobe Maestro-poster till varandra eller till objekt från andra program.
+Du kan koppla Adobe Workfront planeringsdokument till varandra eller till objekt från andra program.
 
 Du måste först koppla två posttyper till varandra, eller en posttyp till en objekttyp från ett annat program. Då skapas länkade postfält. Du kan sedan koppla poster till varandra eller till andra objekt från andra program med hjälp av de länkade postfälten.
 
@@ -42,12 +42,10 @@ Ett exempel på hur du ansluter posttyper finns i [Exempel på att ansluta postt
 
 Du kan ansluta följande:
 
-* Mejsarkiv
-* Operativa maestro-poster med taxonomiposter
-* Maestro taxonomier
-* Makroposter eller taxonomier med objekt från andra program.
+* Adobe Workfront planeringsregister
+* Adobe Workfront planerar poster med objekt från andra program.
 
-  Du kan koppla Maestro-poster till objekt av den typ som listas nedan från följande program:
+  Du kan koppla poster till objekt av den typ som listas nedan från följande program:
 
    * Adobe Workfront
 
@@ -79,12 +77,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>För att kunna koppla Maestro-poster till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och instansen av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p>
+   <p>För att kunna koppla samman Adobe Workfront planeringsdokument med Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -102,7 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront-planering</p>  
 </td>
   </tr>
 <tr>
@@ -115,7 +113,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 
@@ -136,14 +134,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Du kan lägga till fält av de länkade posttyperna i tabellen med den posttyp som du länkar från.
 * Du kan inte uppdatera värdena för länkade fält manuellt på de poster som du länkar från.
 
-  Värdena för de länkade fälten för de länkade posterna fyller i den Maestro-post som du länkar från automatiskt från den ursprungliga posten eller det ursprungliga objektet.
+  Värdena för de länkade fälten för de länkade posterna fyller i den planeringspost i Workfront som du länkar från automatiskt från den ursprungliga posten eller det ursprungliga objektet.
 
-* Alla som har tillgång till Maestro och View eller högre behörighet till arbetsytan kan se de anslutningar du gör mellan Maestro-poster eller mellan Maestro-poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
+* Alla som har åtkomst till Workfront-planering och behörigheten Visa eller högre till arbetsytan kan se anslutningarna som du gör mellan poster eller mellan poster och andra programs objekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
 * Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan där de anslutna posterna finns.
-* Du kan koppla en Maestro-post till ett eller flera objekt från ett annat program.
-* Om du vill länka Maestro-poster till andra poster eller objekt måste du ha följande:
+* Du kan koppla en post till ett eller flera objekt från ett annat program.
+* Om du vill länka poster till andra poster eller objekt måste du ha följande:
 
-   * Minst en Maestro-arbetsyta, posttyp och post.
+   * Minst en arbetsyta, posttyp och post.
 
      Mer information finns i följande artiklar:
 
@@ -153,7 +151,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md)
 
-### Connect Maestro-poster
+### Koppla samman Adobe Workfront planeringsdokument
 
 {{step1-to-maestro}}
 
@@ -200,7 +198,7 @@ Den senast använda arbetsytan bör öppnas som standard.
    >
    >* Om du har aktiverat **Tillåt flera poster** när du kopplar ihop posttyperna visas fältvärdena för de markerade objekten antingen separerade med kommatecken eller aggregeras enligt den aggregator du väljer.
 
-1. (Valfritt) Stäng sidan för posttypen Maestro och gå till den arbetsyta du valde.
+1. (Valfritt) Stäng sidan med posttyper och gå till den arbetsyta du valt.
 1. Klicka på kortet för den posttyp som du länkade till.
 
    Om du till exempel har anslutit **Campaign** med produktposten klickar du på **Produkt** kort.
@@ -209,15 +207,15 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Observera att **Campaign** I det länkade postfältet visas namnen på de kampanjer du har länkat till produkter på sidan Produktposttyp. Om du uppdaterar Campaign-informationen uppdateras automatiskt det Campaign-länkade postfältet för produktposttypen.
 
-### Koppla Maestro-poster till Workfront-objekt
+### Koppla Adobe Workfront planeringsdokument till Workfront-objekt
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
-När du har skapat en anslutning mellan en Maestro-posttyp och en Workfront-objekttyp kan du koppla enskilda Maestro-poster till objekt i Workfront. De Workfront-fält som du har anslutit fylls automatiskt i på de Maestro-poster som du länkar objekten från.
+När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp kan du koppla enskilda poster till objekt i Workfront. De Workfront-fält som du har anslutit fylls automatiskt i på de poster som du länkar objekten från.
 
 >[!NOTE]
 >
->Du kan inte koppla Workfront-objekt till Maestro-poster från Workfront.
+>Du kan inte koppla Workfront-objekt till Workfront planeringsdokument från Workfront.
 
 
 {{step1-to-maestro}}
@@ -266,9 +264,9 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Mer information om hur du ansluter posttyper med objekt från ett annat program finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
-1. (Valfritt) Klicka på namnet på ett Workfront-objekt som är kopplat till en maestro-post antingen i det länkade fältet i en tabellvy eller från det länkade fältet i **Information** sidan med Maestro-posten.
+1. (Valfritt) Klicka på namnet på ett Workfront-objekt som är anslutet till en planeringspost i Workfront, antingen i det länkade fältet i en tabellvy eller från det länkade fältet i **Information** postens sida.
 
-   Då öppnas skrivskyddade maestro **Information** för det länkade Workfront-objektet. De fält som du valde som sökfält när du kopplade posttypen med Workfront-objektet visas på detaljsidan för Workfront Maestro-posten.
+   Detta öppnar den skrivskyddade Workfront-planeringen **Information** för det länkade Workfront-objektet. De fält som du valde som sökfält när du kopplade posttypen med Workfront-objektet visas på sidan Detaljer i Workfront planeringspost.
 
    >[!TIP]
    >
@@ -282,7 +280,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Då öppnas Workfront objektsida, om du har minst behörigheten Visa för att visa objektet. Du kan redigera information om Workfront-objektet om du har behörighet att göra det.
 
-1. (Valfritt) Håll markören över kolumnrubriken för det länkade Workfront-objektet i tabellvyn för Maestro-posttypen och klicka sedan på listrutan. **Redigera sökfält**.
+1. (Valfritt) I posttypens tabellvy för du markören över kolumnrubriken för det länkade Workfront-objektet och klickar på listrutan och sedan på **Redigera sökfält**.
 
 1. Lägg till Workfront-objektfält från **Omarkerade fält** area
 
@@ -290,20 +288,20 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Ta bort Workfront-objektfält från **Markerade fält** område.
 
-   Då läggs länkade fält till eller tas bort från Maestro-posterna. Informationen som är kopplad till de borttagna fälten finns kvar i Workfront.
+   Detta lägger till eller tar bort länkade fält från Workfront planeringsposter. Informationen som är kopplad till de borttagna fälten finns kvar i Workfront.
 
 
-### Koppla Maestro-poster till Adobe Experience Manager-objekt
+### Koppla Workfront planeringsdokument till Adobe Experience Manager-objekt
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Maestro-poster till Adobe Experience Manager Assets.
+>Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront planeringsdokument till Adobe Experience Manager Assets.
 >
 >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-När du har skapat en anslutning mellan en Maestro-posttyp och Adobe Experience Manager Assets kan du koppla enskilda Maestro-poster till Experience Manager-resurser. De resursfält du anslöt från Experience Manager Assets när du skapade anslutningen fylls automatiskt i med den typ av Maestro-post som du länkade från.
+När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager Assets kan du koppla enskilda poster till Experience Manager-resurser. De resursfält som du anslöt från Experience Manager Assets när du skapade anslutningen fylls automatiskt i på den posttyp som du länkade från.
 
 {{step1-to-maestro}}
 
@@ -318,7 +316,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    >[!TIP]
    >
-   >  Du kan lägga till klicka på **+** -ikonen i fältet för länkade objekt på sidan Detaljer i Maestro-posten för att koppla resurser till posten.
+   >  Du kan lägga till klicka på **+** -ikonen i det länkade objektfältet på postens detaljsida för att koppla resurser till posten.
 
    The **Välj resurser** visas. <!--we might change this to Connect assets-->
 
@@ -333,7 +331,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    >[!IMPORTANT]
    >
-   > Du kan bara ansluta resurser som du har tillgång till för att visa i Experience Manager. När du är uppkopplad kan alla Maestro-användare visa resurserna i Maestro, oavsett vilken åtkomst de har i Experience Manager Assets.
+   > Du kan bara ansluta resurser som du har tillgång till för att visa i Experience Manager. När du är uppkopplad kan alla Workfront planeringsanvändare visa resurserna i Workfront-planeringen, oavsett vilken åtkomst de har i Experience Manager Assets.
 
 1. Klicka **Välj**. <!-- we might change this to Connect-->
 
@@ -348,7 +346,7 @@ Den senast använda arbetsytan bör öppnas som standard.
      >
      >* Om du har aktiverat inställningen Tillåt flera poster visas värdena för de olika objekten antingen separerade med kommatecken eller aggregerade enligt den aggregator du har valt.
      >
-     >* Ett länkat postfält till de Maestro-länkade posterna skapas inte för de länkade Experience Manager-resurserna i Experience Manager Assets-programmet.
+     >* Ett länkat postfält till Workfront planeringsrelaterade länkade poster skapas inte för de länkade Experience Manager-resurserna i Experience Manager Assets-programmet.
 
 1. (Valfritt) Gå till den posttyp som du länkade till Experience Manager Assets från och klicka på namnet på en resurs i det länkade postfältet. Information om resursen Experience Manager i ett popup-fönster. <!--update screen shot with hi-rez picture-->
 
@@ -366,11 +364,11 @@ Den senast använda arbetsytan bör öppnas som standard.
    * Skapad den
    * Ändrat den
 
-1. (Valfritt) Om du vill öppna informationssidan för resursposten i Experience Manager i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på **Öppna** icon ![](assets/open-asset-icon.png) för att öppna resursen.
+1. (Valfritt) Om du vill öppna informationssidan för resursposten i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på **Öppna** icon ![](assets/open-asset-icon.png) för att öppna resursen.
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 
-1. (Valfritt) Håll markören över kolumnrubriken för den länkade Experience Manager-resursen i tabellvyn för Maestro-posttypen och klicka sedan på listrutan. **Redigera sökfält**.
+1. (Valfritt) Håll markören över kolumnrubriken för den länkade Experience Manager-resursen i tabellvyn för posttypen och klicka sedan på listrutan. **Redigera sökfält**.
 
 1. Lägg till Experience Manager Assets-objektfält från **Omarkerade fält** area
 
@@ -378,4 +376,4 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Ta bort Workfront-objektfält från **Markerade fält** område.
 
-   Då läggs länkade fält till eller tas bort från Maestro-posterna. Informationen som är kopplad till de borttagna fälten finns kvar i Adobe Experience Assets.
+   Då läggs länkade fält till eller tas bort från posterna. Informationen som är kopplad till de borttagna fälten finns kvar i Adobe Experience Assets.

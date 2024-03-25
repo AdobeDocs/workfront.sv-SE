@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -247,19 +247,19 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 ## Steg 1 - Komma till Maestro - {#step1-to-maestro}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Maestro]**.
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Planning]**.
 
 ## Maestro important intro - {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Workfront planeringsfunktioner, ett nytt erbjudande från Adobe Workfront.
+>Informationen i den här artikeln handlar om Adobe Workfront-planering, ett nytt erbjudande från Adobe Workfront.
 >
->Planeringsfunktionerna ingår för närvarande i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>För närvarande ingår Workfront-planering i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
 >
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet.
+>Kontakta din kontorepresentant för mer information om hur du går med i betaprogrammet för Workfront-planering.
 >
->Mer information om planeringsfunktioner finns i [Översikt över Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/maestro-overview.md).
+>Mer information finns i [Översikt över Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

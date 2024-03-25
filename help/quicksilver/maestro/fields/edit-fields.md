@@ -1,13 +1,13 @@
 ---
 title: Redigera fält
-description: I Adobe Maestro kan du redigera fältinställningarna för fält som redan har skapats.
+description: I Adobe Workfront kan du redigera fältinställningarna för fält som redan har skapats.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Du kan redigera fältinställningarna för fält som redan har skapats.
+Du kan redigera fältinställningarna för fält som redan har skapats i Adobe Workfront-planeringen.
 
-Mer information om hur du skapar Adobe-maestro-fält finns i [Skapa fält](../fields/create-fields.md).
+Mer information om hur du skapar planeringsfält i Adobe Workfront finns i [Skapa fält](../fields/create-fields.md).
 
-I den här artikeln beskrivs hur du kan redigera inställningarna för Maestro-fält. Mer information om hur du redigerar fältvärden för Maestro-poster finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
+I den här artikeln beskrivs hur du kan redigera inställningarna för Workfront planeringsfält. Mer information om hur du redigerar fältvärden för poster finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Att tänka på när du redigerar fältinformation
 
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Maestro</p>  
+   <td> <p>Det finns inga åtkomstkontroller för Workfront-planering</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Redigera fält
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-workfront.png) i det övre högra hörnet av Workfront eller **Huvudmeny** icon ![](assets/main-menu-shell.png)  i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Den senast använda arbetsytan bör öppnas som standard.
+    Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill ta bort posttyper för.
 
-   Arbetsytan öppnas och posttyperna och taxonomierna som är kopplade till den visas.
-1. Klicka på kortet för den posttyp eller taxonomi vars fält du vill redigera.
+   Arbetsytan öppnas och de posttyper som är associerade med den visas.
+1. Klicka på kortet för den posttyp vars fält du vill redigera.
 
    Då öppnas posttypens sida.
 1. (Villkorligt) Välj en **Tabellvy** från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.

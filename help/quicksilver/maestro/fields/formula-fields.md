@@ -1,16 +1,16 @@
 ---
 title: Översikt över formelfält
-description: I Adobe Maestro kan du skapa formelfält där funktioner och befintliga fält används för att beräkna ett nytt anpassat värde.
+description: I Adobe Workfront kan du skapa formelfält där funktioner och befintliga fält används för att beräkna ett nytt anpassat värde.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över formelfält
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Du kan skapa anpassade fält i Adobe Maestro genom att referera till befintliga fält och koppla dem med en formel. Du kan göra detta genom att skapa ett anpassat formeltypsfält.
+Du kan skapa anpassade fält i Adobe Workfront-planeringen genom att referera till befintliga fält och koppla dem med en formel. Du kan göra detta genom att skapa ett anpassat formeltypsfält.
 
 Formelfält genererar ett nytt värde med hjälp av befintliga värden från andra fält i en posttyp och en funktion som anger hur befintliga värden ska beräknas.
 
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Maestro</p>  
+   <td> <p>Det finns inga åtkomstkontroller för Workfornt-planering</p>  
 </td>
   </tr>
 <tr>
@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 
@@ -102,14 +102,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Formelfält refererar till fält som tillhör samma posttyp. Du kan inte referera till fält från andra posttyper när du skapar ett formelfält. <!--is this still accurate??-->
 * Du kan inte ändra fälttypen för ett formelfält när du har sparat det.
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
-* Du måste lägga till de fält som du refererar till i formler när de visas i maestro-gränssnittet.
+* Du måste lägga till de fält som du refererar till i formler så som de visas i Workfront planeringsgränssnitt.
 * Du kan använda sökfält från länkade posttyper i en formel vid ett senare datum.
 
 ## Formler som stöds
 
-Masterformelfält har stöd för alla uttryck från Workfront beräkningsfält. Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront planeringsformelfält har stöd för alla uttryck från Workfront beräkningsfält. Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Dessutom stöder vi följande uttryck för formelfält i Maestro:
+Dessutom har vi stöd för följande uttryck för Workfront planeringsformelfält:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,8 +164,3 @@ eller
    </td></tr>
 
 </table>
-
-
-
-
-

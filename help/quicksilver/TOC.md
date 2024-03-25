@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '14044'
+source-wordcount: '14037'
 ht-degree: 0%
 
 ---
@@ -2025,13 +2025,13 @@ ht-degree: 0%
       * [Aktivera meddelanden om Adobe Workfront-mål](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Maestro {#adobe-maestro}
    * [Adobe Maestro-information](maestro/maestro-information.md)
-   * [Översikt över Adobe Workfront planeringsfunktioner](maestro/maestro-overview.md)
-   * [Aktivitet för att lansera Adobe Workfront planeringsfunktioner](maestro/release-activity.md)
+   * [Översikt över Adobe Workfront](maestro/maestro-overview.md)
+   * [Adobe Workfront planerings- och lanseringsaktivitet](maestro/release-activity.md)
    * Adobe Maestro-arkitekturen {#adobe-maestro-architecture}
       * [Arkitektur: artikelindex](maestro/architecture/architecture-information.md)
       * [Skapa arbetsytor](maestro/architecture/create-workspaces.md)
-      * [Översikt över posttyper och taxonomier](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [Skapa driftsposttyper](maestro/architecture/create-record-types.md)
+      * [Översikt över posttyper](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [Skapa posttyper](maestro/architecture/create-record-types.md)
       * [Skapa taxonomiposttyper](maestro/architecture/create-a-taxonomy.md)
       * [Koppla posttyper](maestro/architecture/connect-record-types.md)
       * [Redigera posttyper](maestro/architecture/edit-record-types.md)
@@ -2051,7 +2051,7 @@ ht-degree: 0%
       * [Åtkomstinformation](maestro/access/access-information.md)
       * [Åtkomstöversikt](maestro/access/access-overview.md)
       * [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](maestro/access/sharing-permissions-overview.md)
-      * [Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner](maestro/access/license-type-overview.md)
+      * [Översikt över licenstyp vid användning av Adobe Workfront-planering](maestro/access/license-type-overview.md)
       * [Dela arbetsytor](maestro/access/share-workspaces.md)
       * [Visa](maestro/access/share-views.md)
    * Adobe Maestro-poster {#adobe-maestro-records}

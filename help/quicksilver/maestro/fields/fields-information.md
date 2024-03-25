@@ -1,13 +1,13 @@
 ---
 title: "Fält: artikelindex"
-description: Du kan lägga till nya fält i Adobe Maestro som återspeglar organisationens livscykel. Fält är attribut för posttyper.
+description: Du kan lägga till nya fält i Adobe Workfront-planeringen som återspeglar organisationens livscykel. Fält är attribut för posttyper.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Som marknadsledare kan ni använda Adobe Maestro för att organisera arbetet under hela marknadsföringscykeln för alla era team. I Maestro kan du helt anpassa arbetsflödenas arkitektur, inklusive att lägga till anpassade fält för alla anpassade posttyper som du skapar.
+Som marknadsledare kan ni använda Adobe Workfront-planering för att organisera arbetet under hela marknadsföringscykeln för alla era team. I Workfront-planeringen kan du helt anpassa arbetsflödenas arkitektur, inklusive lägga till anpassade fält för alla anpassade posttyper som du skapar.
 
-I artiklarna i följande avsnitt beskrivs hur du skapar och konfigurerar Maestro-fält:
+I artiklarna i följande avsnitt beskrivs hur du skapar och konfigurerar planeringsfält i Workfront:
 
 * [Fältöversikt](../fields/fields-overview.md)
 * [Skapa fält](../fields/create-fields.md)

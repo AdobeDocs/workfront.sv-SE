@@ -1,13 +1,13 @@
 ---
 title: Skapa taxonomiposttyper
-description: Taxonomier är en typ av återanvändbara posttyper som hämtar attribut om en operativ posttyp i Adobe Workfront Maestro.
+description: När du använder en mall för att skapa en arbetsyta skapas posttyper i avsnitten operativa posttyper och taxonomier.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,16 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Posttyper i taxonomi hämtar attribut om operativa posttyper i Adobe Maestro.
+När du använder en mall för att skapa en arbetsyta skapas posttyper i följande avsnitt:
+
+* Operativa posttyper
+* Taxonomier
+
+Posttyperna i avsnittet Taxonomier på en arbetsyta hämtar attribut om posttyper i avsnittet Operativa posttyper på samma arbetsyta.
 
 Campaign kan till exempel vara en operativ posttyp. Följande är taxonomier som samlar in attribut om posttypen Campaign: Region, Audience, Country.
 
-Mer information om posttyper i Maestro finns i [Översikt över posttyper och taxonomier](../architecture/overview-of-record-types-and-taxonomies.md).
+Mer information om posttyper finns i [Översikt över posttyper](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Åtkomstkrav
 
@@ -39,11 +44,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Om du vill ansluta Maestro-posttyper till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Om du vill ansluta posttyper till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -61,12 +66,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront-planering</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -91,16 +96,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du skapar taxonomier
 
-* Du måste skapa en arbetsyta innan du kan skapa taxonomiposttyper på arbetsytan.
+* Du måste skapa en arbetsyta med hjälp av en mall innan du kan skapa posttyper i avsnittet Taxonomier på arbetsytan.
 
   Mer information om arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
-* Du kan skapa en taxonomiposttyp genom att göra något av följande:
+* Du kan skapa en posttyp i avsnittet Taxonomier på en arbetsyta genom att göra något av följande:
    * Skapa dem automatiskt när du skapar en arbetsyta med hjälp av en mall. Mer information finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
-   * Skapa dem manuellt, från grunden.
+   * Skapa dem manuellt, från grunden, i taxonomiavsnittet på en arbetsyta.
 
-* Alla nya taxonomiposttyper har följande fält:
+* Alla nya taxonomier har som standard följande fält:
 
-   * Namn <!--if there won't be any more fields, consider rephrasing this-->
+   * Namn
+   * Beskrivning
+   * Startdatum
+   * Slutdatum
+   * Status
 
   Dessutom kan du lägga till anpassade fält i taxonomier. Mer information finns i [Skapa fält](../fields/create-fields.md).
 
@@ -110,8 +119,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa en taxonomiposttyp
 
-Att skapa taxonomiposttyper påminner om att skapa operativa posttyper från grunden eller från en arbetsytemall.
+Att skapa taxonomiposttyper liknar att skapa posttyper.
 
-Mer information finns i avsnittet&quot;Skapa en posttyp från grunden&quot; i artikeln [Skapa posttyper](../architecture/create-record-types.md).
-
-Mer information om hur du skapar taxonomier automatiskt när du skapar en arbetsyta från en mall finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).

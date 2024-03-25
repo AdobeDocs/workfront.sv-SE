@@ -1,13 +1,13 @@
 ---
 title: Hantera postvyer
-description: Du kan visa poster i en tabell-, tidslinje- eller kalendervy när du använder Adobe Workfront planeringsfunktioner.
+description: Du kan visa poster i en tabell-, tidslinje- eller kalendervy när du använder Adobe Workfront-planering.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-När du har valt en posttyp i området för Adobe Workfront planeringsfunktioner kan du visa alla poster av den typen i följande vyer:
+När du har valt en posttyp i Adobe Workfront planeringsområde kan du visa alla poster av den typen i följande vyer:
 
 * Tabell
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront planeringsfunktioner</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront-planering</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Systemadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du arbetar med postvyer
 
-* Vyer i området för Workfront planeringsfunktioner är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
+* Vyer i Workfront-planeringen är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
 * Vyer som du skapar visas bara för dig och de användare som du delar vyerna med.
-* Att skapa vyer för driftsposttyper är identiskt med att bygga vyer för taxonomiposttyper.
 * När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har behörighet till vyn.
 * Följande element är unika för varje postvy:
 
@@ -101,19 +100,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  När du till exempel skapar ett filter i en tabellvy visas filterresultaten bara i den markerade vyn och inte i alla vyer som listas i listrutan Visa.
+  När du till exempel skapar ett filter i en tabellvy visas filterresultaten bara i den markerade vyn och inte i alla vyer som är kopplade till posttypen.
 
   >[!NOTE]
   >
-  > Eftersom Adobe Workfront planeringsfunktioner för närvarande är i betaversion, kanske vissa vyelement inte är tillgängliga för alla vyer.
+  > Eftersom Adobe Workfront-planering för närvarande är i betaversion är vissa vyelement kanske inte tillgängliga för alla vyer.
 
 I den här artikeln beskrivs följande information om postvyer:
 
 * [Skapa och redigera en vy](#create-or-edit-record-views)
 * [Ta bort en vy](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [Duplicera en vy](#duplicate-views)
 * [Dela en vy](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Likheter och skillnader mellan postvyer
 
@@ -233,20 +232,30 @@ Mer information om att dela vyer finns i [Visa](/help/quicksilver/maestro/access
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## Duplicera en vy
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+Om du vill behålla flera versioner av en vy och göra mindre ändringar mellan versionerna, kan du duplicera en vy.
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+När du duplicerar en vy skapas identiska kopior av en befintlig vy.
 
-    By default, all the records of the type selected display in the table view. 
+Delningsbehörigheterna för den ursprungliga vyn överförs inte till den duplicerade vyn.
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+Arbetsytan som du senast öppnade öppnas som standard.
+
+Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+
+1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture/create-record-types.md).
+
+   Som standard visas alla poster av den valda typen i tabellvyn.
+
+1. Håll pekaren över fliken för den vy du vill duplicera och klicka på knappen **Mer** meny ![](assets/more-menu.png) till höger om vynamnet och klicka sedan på **Duplicera**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   Vyn dupliceras och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.
+

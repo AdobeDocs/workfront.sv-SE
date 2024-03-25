@@ -1,20 +1,20 @@
 ---
 title: Koppla posttyper
-description: Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla Maestro-posttyper till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
+description: Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyper för Adobe Workfront-planering till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Du kan använda Adobe Maestro för att utforma anpassningsbara arbetsytor som innehåller de posttyper som behövs i organisationen. Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla Maestro-posttyper till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
+Med Adobe Workfront kan du utforma anpassningsbara arbetsytor som innehåller de posttyper som behövs i organisationen. Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyper för Workfront-planering till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
 
-Du kan koppla Maestro-posttyper till varandra eller Maestro-posttyper med objekttyper från andra program.
+Du kan koppla posttyper till varandra eller posttyper med objekttyper från andra program.
 
-På så sätt kan du visa fält från den länkade posten eller objekttypen på en annan Maestro-post.
+På så sätt kan du visa fält från den länkade posten eller objekttypen i en planeringspost i Workfront.
 
-I den här artikeln beskrivs hur du kan koppla två Maestro-posttyper eller en Maestro-posttyp till ett objekt från ett annat program.
+I den här artikeln beskrivs hur du kan koppla två posttyper i Workfront-planering eller en posttyp till ett objekt från ett annat program.
 
 När du har upprättat en anslutning mellan poster eller objekttyper kan du koppla enskilda poster till varandra.
 
-Mer information om hur du ansluter en Maestro-post till ett objekt från ett annat program finns i [Koppla poster](../records/connect-records.md).
+Mer information om hur du ansluter en planeringspost för Workfront till ett objekt från ett annat program finns i [Koppla poster](../records/connect-records.md).
 
 Ett exempel på hur du ansluter posttyper finns i [Exempel på att ansluta posttyper och poster](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Om du vill ansluta Maestro-posttyper till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>För att kunna koppla samman Adobe Workfront planeringsregister med Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront-planering</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -114,16 +114,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du ansluter posttyper
 
-* Du kan ansluta följande enheter i Maestro:
+* Du kan ansluta följande enheter i Adobe Workfront-planeringen:
 
-   * Två driftsposttyper
-   * Två taxonomier
-   * En driftsposttyp och en taxonomi
-   * En operativ posttyp eller en taxonomi och en objekttyp från ett annat program.
+   * Två posttyper
 
-  Alla driftsposttyper och taxonomier måste tillhöra samma arbetsyta.
+     Posttyperna måste tillhöra samma arbetsyta.
+   * En posttyp och en objekttyp från ett annat program.
 
-* Du kan koppla följande objekttyper från följande program till Maestro-posttyper:
+* Du kan koppla följande objekttyper från följande program till posttyper för Workfront-planering:
 
    * Adobe Workfront:
 
@@ -140,7 +138,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!IMPORTANT]
      >
-     >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Maestro-poster till Adobe Experience Manager Assets.
+     >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront planeringsdokument till Adobe Experience Manager Assets.
      >
      >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -154,13 +152,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * **När du ansluter en posttyp med en objekttyp från ett annat program**: Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i det andra programmets objekttyp.
 
-     En ny skrivskyddad Macestro-posttyp skapas endast för det andra programmets objekt när de faktiska objekten är kopplade till Maestro-posterna.
+     En ny skrivskyddad posttyp för Workfront-planering skapas endast för det andra programmets objekt när de faktiska objekten är kopplade till Workfront planeringsposter.
 
      Mer information finns i [Koppla poster](../records/connect-records.md).
 
-   * **När du lägger till uppslagsfält för posten eller objektet som du ansluter till**: Du kan koppla fält från det andra programmets objekt till Maestro-posttypen. De här fälten är länkade eller uppslagsfält. Länkade fält visar automatiskt information från kopplade poster eller objekt när du kopplar ihop posterna eller objekten. De länkade sökfälten är alltid skrivskyddade och fylls i automatiskt med värdena för de kopplade posterna eller objekten.
+   * **När du lägger till uppslagsfält för posten eller objektet som du ansluter till**: Du kan koppla fält från det andra programmets objekt till posttypen för Workfront-planering. De här fälten är länkade eller uppslagsfält. Länkade fält visar automatiskt information från kopplade poster eller objekt när du kopplar ihop posterna eller objekten. De länkade sökfälten är alltid skrivskyddade och fylls i automatiskt med värdena för de kopplade posterna eller objekten.
 
-     Om du till exempel kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och du väljer att överföra fältet Planerat slutförandedatum för projektet till Maestro-posten, skapas ett länkat fält med namnet Planerat slutförandedatum (från projekt) automatiskt för kampanjen. Du kan inte redigera det här länkade fältet manuellt. I fältet Planerat slutförandedatum (från projekt) visas det planerade slutförandedatumet för de länkade projekten.
+     Om du t.ex. kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och väljer att överföra fältet Planerat slutförandedatum för projektet till Workfront planeringspost, skapas automatiskt ett länkat fält med namnet Planerat slutförandedatum (från projekt) för kampanjen. Du kan inte redigera det här länkade fältet manuellt. I fältet Planerat slutförandedatum (från projekt) visas det planerade slutförandedatumet för de länkade projekten.
 
      >[!IMPORTANT]
      >
@@ -186,11 +184,11 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. I **Posttyp** -fält, sök efter en posttyp eller välj något av följande:
 
-   * En annan operativ posttyp eller en taxonomi från den del av arbetsytan som du valde
+   * En annan posttyp från den del av arbetsytan som du valde
 
      >[!TIP]
      >
-     >Det är bara posttyper och taxonomier från den arbetsyta som du har valt som är tillgängliga att ansluta till.
+     >Det går bara att ansluta till posttyper från den arbetsyta som du har valt.
      > 
      >Om du inte har andra posttyper i den valda arbetsytan visas inte arbetsyteavsnittet.
 
@@ -212,7 +210,7 @@ Den senast använda arbetsytan bör öppnas som standard.
    * **Tillåt flera poster**: Välj det här alternativet för att ange att du tillåter att användare kan lägga till flera poster när fältet för länkad posttyp visas på de ursprungliga posterna. Detta är markerat som standard.
    * **Välj sökfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på den post som du vill använda. Detta är markerat som standard.
 
-1. (Villkorligt och valfritt) Om du valt att ansluta ett Workfront-objekt väljer du en **Eget formulär** från **Länka endast objekt som uppfyller dessa villkor** -avsnitt. Det är bara objekt som har de markerade anpassade formulären kopplade som kan länkas till den valda Maestro-posttypen. Du kan markera flera formulär.
+1. (Villkorligt och valfritt) Om du valt att ansluta ett Workfront-objekt väljer du en **Eget formulär** från **Länka endast objekt som uppfyller dessa villkor** -avsnitt. Endast objekt som har de markerade anpassade formulären kopplade kan länkas till den valda posttypen. Du kan markera flera formulär.
 
    ![](assets/workfront-project-connection-selection.png)
 
@@ -286,13 +284,13 @@ Den senast använda arbetsytan bör öppnas som standard.
 
      Om du till exempel har länkat en kampanjposttyp med en programposttyp och namngett det programlänkade postfältet&quot;Programinformation&quot;, väljer du att även visa programmets budgetfält i Campaigns registervy, får det länkade fältet automatiskt ett namn `Budget (from Program information)` i kampanjens tabellvy.
 
-   * När du länkar Maestro-posttyper till varandra läggs ett länkat postfält också till i den posttyp som du länkar till. Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
+   * När du länkar posttyper till varandra läggs ett länkat postfält också till i den posttyp som du länkar till. Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
 
      Om du t.ex. länkar posttypen &quot;Produkt&quot; från posttypen &quot;Kampanj&quot; och namnger det anslutna fältet för Campaign &quot;Länkad produkt&quot;, skapas ett &quot;Kampanjlänkat&quot; postfält för posttypen Produkt.
 
      >[!TIP]
      >
-     > Ett länkat postfält skapas inte för objekt från ett annat program till den posttyp som du länkar från i Maestro.
+     > Ett länkat postfält skapas inte för objekt från ett annat program till den posttyp som du länkar från i Workfront-planeringen.
 
 1. (Valfritt och villkorligt) Klicka på nedåtpilen i rubriken för de länkade postfälten i den ursprungliga posttypen eller i tabellvyn för den länkade posttypen och klicka sedan på något av följande:
 
@@ -305,7 +303,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    >[!NOTE]
    >
-   > Du kan inte lägga till uppslagsfält som tillhör posttyper för Maestro som du länkar från till objekttyper från ett annat program.
+   > Du kan inte lägga till uppslagsfält som tillhör posttyper som du länkar från till objekttyper från ett annat program.
    >
    > Du kan till exempel inte lägga till sökfältet för Campaign Status till ett Workfront-projekt som du länkar till från kampanjerna.
 

@@ -1,13 +1,13 @@
 ---
 title: "Poster: artikelindex"
-description: När du har skapat posttyper i Adobe Maestro kan du skapa enskilda poster av dessa typer. I följande artiklar beskrivs hur du kan skapa och hantera poster och deras information i Adobe Maestro.
+description: När du har skapat posttyper i Adobe Workfront kan du skapa enskilda poster av dessa typer. I följande artiklar beskrivs hur du kan skapa och hantera poster och deras information i Adobe Workfront-planeringen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-När du har skapat posttyper i Adobe Maestro kan du skapa enskilda poster av dessa typer.
+När du har skapat posttyper i Adobe Workfront kan du skapa enskilda poster av dessa typer.
 
-I följande artiklar beskrivs hur du kan skapa och hantera poster och deras information i Adobe Maestro:
+I följande artiklar beskrivs hur du kan skapa och hantera poster och deras information i Adobe Workfront-planeringen:
 
 * [Skapa poster](/help/quicksilver/maestro/records/create-records.md)
 * [Redigera poster](/help/quicksilver/maestro/records/edit-records.md)

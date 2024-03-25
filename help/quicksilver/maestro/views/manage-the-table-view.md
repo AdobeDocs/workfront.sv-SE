@@ -1,13 +1,13 @@
 ---
 title: Hantera tabellvyn
-description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront planeringsfunktioner.
+description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront-planeringen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront planeringsfunktioner.
+Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront-planeringen.
 
 Mer information om postvyer och hur du hanterar dem finns i [Hantera postvyer](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det slutna betaprogrammet för Adobe Workfront planeringsfunktioner. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för planeringsfunktionerna för Adobe Workforts </p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workforme-planering</p>  
 </td>
   </tr>
 

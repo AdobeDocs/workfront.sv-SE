@@ -1,81 +1,87 @@
 ---
-title: Översikt över posttyper och taxonomier
-description: Posttyper är byggstenarna i en Maestro-arbetsyta.
+title: Översikt över posttyper
+description: Posttyper är byggstenarna i en planeringsarbetsyta i Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Översikt över posttyper och taxonomier
+# Översikt över posttyper
 
 {{maestro-important-intro}}
 
-Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Adobe Maestro. I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
+Till skillnad från Workfront där objekttyperna är fördefinierade kan du skapa egna objekttyper i Adobe Workfront-planeringen. I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
 
-Maestro-objekttyper kallas&quot;posttyper&quot;. Posttyper är byggstenarna i en Maestro-arbetsyta. Mer information om arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+Workfront planeringsobjekttyper kallas&quot;posttyper&quot; och du kan skapa och anpassa alla. Posttyper är byggstenarna i en planeringsarbetsyta i Workfront. Mer information om arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 
 ## Översikt över posttyp
 
-I Maestro kan du skapa anpassade posttyper som passar din organisations behov.
+I Workfront-planeringen kan du skapa anpassade posttyper som passar din organisations behov.
 
-* Följande typer är Maestro-posttyper:
+* När du skapar en arbetsyta från en mall skapas posttyper i följande avsnitt på arbetsytan:
 
-   * [Driftposttyp](#operational-record-type): En posttyp som representerar strategiska planer, initiativ eller planerat arbete. Exempel: Campaign, Activity, Tactic, Opportunity kan vara operativa posttyper.
-   * [Taxonomi](#taxonomy): Posttyper som samlar in attribut om en operativ posttyp. Region, Adress, Audience kan till exempel vara taxonomier.
+   * [Operativa posttyper](#operational-record-type): En posttyp som representerar strategiska planer, initiativ eller planerat arbete. Exempel: Campaign, Activity, Tactic, Opportunity kan vara operativa posttyper.
+   * [Taxonomier](#taxonomy): Posttyper som samlar in attribut om en operativ posttyp. Region, Adress, Audience kan till exempel vara taxonomier.
 
+* När du skapar en posttyp på en arbetsyta som du har skapat från grunden kan du placera posttypen i vilket avsnitt som helst som du skapar på arbetsytan.
 * När du skapar en posttyp kan bara du och de du ger behörighet att komma åt arbetsytan visa posttypen.
 * Du måste skapa en arbetsyta innan du kan skapa posttyper för arbetsytan.
-* Du kan ha en kombinerad summa på 1 000 driftsposttyper och taxonomier på en arbetsyta. Detta inkluderar posttyper eller taxonomier som du skapar från grunden eller som du importerar från andra system.
+* Du kan ha totalt 1 000 posttyper på en arbetsyta, oavsett hur många avsnitt arbetsytan har. Detta inkluderar posttyper som du skapar från grunden eller som skapas när du använder en mall.
 
-### Driftposttyp{#operational-record-type}
 
-En operativ posttyp är en Maestro-posttyp som representerar arbetsrelaterade objekt.
+<!--
+
+### Operational Record Type{#operational-record-type}
+
+An operational record type is a Maestro record type that represents work-related objects.  
 
 ![](assets/operational-record-type-blank.png)
 
-Mer information om posttyper, inklusive hur du skapar dem, finns i [Skapa posttyper](../architecture/create-record-types.md).
+For more information about operational record types including how to create them, see [Create record types](../architecture/create-record-types.md). 
 
-### Taxonomi{#taxonomy}
+### Taxonomy{#taxonomy}
 
-En taxonomi är en posttyp som samlar in attribut om en operativ posttyp.
+A taxonomy is a record type that captures attributes about an operational record type. 
 
 ![](assets/taxonomy-record-type-blank.png)
 
-Mer information om posttyper för taxonomi finns i [Skapa en taxonomi](../architecture/create-a-taxonomy.md).
+For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-Även om det är samma sak att skapa taxonomier som att skapa operativa posttyper, skiljer Maestro konceptuellt mellan en operativ posttyp och en taxonomiposttyp. Syftet med taxonomier är att förbättra den operativa registertypen. Taxonomier bör inte representera arbetsobjekt direkt.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  (***********this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.***********) 
 
-<!--mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc -->
+(********mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc*************)
 
-Till exempel kan Audience, Region eller Address vara posttyper av taxonomintyp.
+For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-Mer information finns i [Skapa en taxonomi](../architecture/create-a-taxonomy.md).
+For more information, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-## Likheter och skillnader mellan den operativa posttypen och taxonomier
+## Similarities and differences between operational record types and taxonomies
 
-I följande tabell visas några likheter och skillnader mellan de operativa posttyperna och taxonomierna:
+The following table illustrates some of the similarities and differences between operational record types and taxonomies: 
 
-| Posttyp och -egenskap | Driftposttyp | Posttyp för taxonomi |
+| Record type and characteristic                              | Operational Record Type | Taxonomy Record Type |
 |-------------------------------------------------------------|:-----------------------:|:--------------------:|
-| De ingår i en arbetsyta | ✓ | ✓ |
-| Du kan skapa dem automatiskt från en arbetsytemall | ✓ | ✓ |
-| Du kan skapa dem manuellt, från början | ✓ | ✓ |
-| Du kan skapa dem genom att kopiera och klistra in information från en extern fil eller lista | ✓ | ✓ |
-| Du kan skapa genom att importera en Excel- eller CSV-fil | ✓ |                     |
-| Du kan skapa skrivskyddade posttyper genom att ansluta till objekttyper från andra program | ✓ |                     |
-| De representerar arbetsrelaterade objekt | ✓ |                      |
-| De representerar attribut om arbetsrelaterade objekt |                         | ✓ |
-| Du kan skapa från början | ✓ | ✓ |
-| Du kan skapa genom att importera en Excel- eller CSV-fil | ✓ |                      |
-| Du kan ansluta posttypen till ett objekt från ett annat program | ✓ |                      |
-| Du kan ansluta till andra Maestro-posttyper | ✓ |                    |
-| Du kan visa deras associerade poster i en tabellvy | ✓ | ✓ |
-| Du kan visa deras associerade poster i en tidslinjevy | ✓ | ✓ |
+| They are part of a workspace                                |            ✓            |           ✓          |
+| You can create them automatically, from a workspace template                    |            ✓            |           ✓          |
+| You can create them manually, from scratch                    |            ✓            |           ✓          |
+| You can create them by copying and pasting information from an external file or list                   |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file                    |            ✓            |                     |
+| You can create read-only record types by connecting to object types from other applications                    |            ✓            |                     |
+| They represent work-related objects                         |            ✓            |                      |
+| They represent attributes about work-related objects        |                         |           ✓          |
+| You can create from scratch                                 |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file            |            ✓            |                      |
+| You can connect the record type to an object from another application|            ✓            |                      |
+| You can connect to other Maestro record types               |            ✓            |                    |
+| You can view their associated records in a table view       |            ✓            |           ✓          |
+| You can view their associated records in a timeline view    |            ✓            |           ✓          |
+
+-->

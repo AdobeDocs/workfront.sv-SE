@@ -1,13 +1,13 @@
 ---
 title: Skapa arbetsytor
-description: En arbetsyta är en samling driftsposttyper och taxonomier som används av ett team och som representerar teamets arbetslivscykel. Du kan anpassa arbetsytorna helt i Maestro.
+description: En arbetsyta är en samling posttyper som används av ett team och representerar teamets arbetslivscykel. Du kan anpassa arbetsytorna i Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-I Adobe Maestro är arbetsytorna centraliserade platser där team kan planera sitt arbete.
+I Adobe Workfront är arbetsytor centraliserade platser där team kan planera arbetet.
 
-En arbetsyta är en samling driftsposttyper och taxonomier som används av ett team och som representerar teamets arbetslivscykel. Du kan anpassa arbetsytorna helt i Maestro.
+En arbetsyta är en samling posttyper som används av ett team och representerar teamets arbetslivscykel. Du kan anpassa arbetsytorna i Adobe Workfront.
 
 ## Åtkomstkrav
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i ett betaprogram som är stängt för Adobe Workfornt-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -54,13 +54,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
    <p>Nytt: Standard</p>
+   eller
    <p>Aktuell: Planera</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront-planering</p>
 </td>
   </tr>
 
@@ -72,7 +73,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Du måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Du måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 
@@ -81,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -95,9 +96,9 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 ## Att tänka på när det gäller arbetsytor
 
 * Du kan skapa arbetsytor för specifika organisationsenheter inom organisationen, så att de matchar det unika sätt som varje enhet fungerar på.
-* De posttyper och taxonomier som en arbetsyta innehåller bör återspegla arbetslivscykeln för en organisationsenhet.
-* När du skapar en arbetsyta är det bara du som har behörighet att komma åt och hantera arbetsytan. Du måste dela det med andra användare för att de ska kunna samarbeta med dig på samma plats. Mer information finns i [Dela en arbetsyta](/help/quicksilver/maestro/access/share-workspaces.md).
-* Du kan ha högst 1 000 arbetsytor i din organisation.
+* De posttyper som en arbetsyta innehåller bör återspegla arbetslivscykeln för en organisationsenhet.
+* När du skapar en arbetsyta är det bara du som har behörighet att komma åt och hantera arbetsytan. Du måste dela det med andra användare för att de ska kunna samarbeta med dig på samma plats. Mer information finns i [Dela en arbetsyta](/help/quicksilver/maestro/access/share-workspaces.md). Systemadministratörer kan hantera alla arbetsytor, även de som de inte skapade.
+* Du kan ha högst 1 000 arbetsytor i din organisations Workfront-instans.
 * Arbetsytor innehåller posttyper som är unika för varje arbetsyta. <!--this might change-->
 
 ## Skapa en arbetsyta
@@ -110,7 +111,7 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Nu öppnas arbetsytan i Maestro.
+   Detta öppnar arbetsytan i Workfront planering.
 1. (Valfritt och villkorligt) Klicka på **Förhandsgranska** i någon av följande fördefinierade arbetsytemallar:
 
    * Marknadsföringshantering
@@ -121,7 +122,7 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Mer information om mallar för arbetsytan i Maestro finns i [Lista över arbetsytemallar](../architecture/workspace-templates.md).
+   Mer information om mallar för arbetsytan i Workfront finns i [Lista över arbetsytemallar](../architecture/workspace-templates.md).
 
 1. Klicka **Använd mall** för att börja skapa arbetsytan från den valda mallen
 
@@ -131,8 +132,8 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
    En av följande typer av arbetsytor skapas:
 
-   * En tom arbetsyta där du kan börja lägga till posttyper manuellt.
-   * En arbetsyta med exempelposttyper som du kan anpassa ytterligare.
+   * En tom arbetsyta där du kan börja lägga till posttyper manuellt när du skapar en arbetsyta från grunden.
+   * En arbetsyta med exempelposttyper som du kan anpassa ytterligare när du använder en av mallarna.
 
 1. Klicka inuti arbetsytans namn i arbetsytans sidhuvud för den nya arbetsytan och tryck sedan på Retur
 
@@ -140,10 +141,30 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
    Klicka på **Mer** meny ![](assets/more-menu.png)till höger om arbetsytans namn i sidhuvudet och klicka sedan på **Byt namn**.
 
+1. (Valfritt och villkorligt) Om arbetsytan redan innehåller avsnitt klickar du på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på en arbetsyta. Ett avsnitt kan innehålla flera posttyper.
+
+1. (Valfritt och villkorligt) Om du har skapat arbetsytan från en mall klickar du inuti namnet på **Operativa posttyper** eller **Taxonomier** avsnitt
+
+   eller
+
+   Håll namnet på ett avsnitt och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Byt namn** för att byta namn på avsnittet.
+
+   >[!TIP]
+   >
+   >Du kan byta namn på alla avsnitt på arbetsytan, även om du har skapat avsnittet.
+
+1. (Valfritt) Gör något av följande om du vill ändra platsen för ett avsnitt:
+
+   * Håll muspekaren över namnet på ett avsnitt och klicka på **ta** icon ![](assets/grab-icon.png)och sedan dra och släpp den på den högra platsen.
+   * Håll muspekaren över namnet på ett avsnitt och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Flytta uppåt** eller **Flytta nedåt**. Avsnittet flyttas uppåt eller nedåt i arbetsytan.
+
+1. (Valfritt) Gör något av följande om du vill lägga till ett nytt avsnitt:
+
+   * Klicka **Lägg till avsnitt** längst ned på arbetsytan.
+   * Håll muspekaren över namnet på ett avsnitt och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Lägg till avsnittet ovan** eller **Lägg till avsnitt nedan**.
+
 1. (Valfritt) Klicka på **Lägg till posttyp** om du vill lägga till posttyper på arbetsytan.
 
    Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 
-1. (Valfritt) Klicka på **Lägg till taxonomi** för att lägga till taxonomier på arbetsytan.
 
-   Mer information finns i [Skapa taxonomier](../architecture/create-a-taxonomy.md).

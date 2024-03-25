@@ -4,22 +4,23 @@ description: Du kan redigera informationen om en befintlig arbetsyta, som att by
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Redigera arbetsytor
 
 {{maestro-important-intro}}
 
-I Adobe Maestro är arbetsytorna centraliserade platser där team kan planera sitt arbete.
+I Adobe Workfront är arbetsytor centraliserade platser där team kan planera arbetet.
 
-En arbetsyta är en samling driftsposttyper och taxonomier som används av ett team och som representerar teamets arbetslivscykel. Du kan anpassa arbetsytorna helt i Maestro.
+En arbetsyta är en samling posttyper som används av ett team och representerar teamets arbetslivscykel. Du kan anpassa arbetsytorna i Adobe Workfront.
 
 Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Maestro</p>
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront-planering</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Du måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Du måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
 {{step1-to-maestro}}
 
-Nu öppnas arbetsytan i Maestro.
+Detta öppnar arbetsytan i Workfront planering.
 
 1. Klicka inuti arbetsytans namn i arbetsytans sidhuvud för den nya arbetsytan och tryck sedan på **Retur**
 
@@ -99,11 +100,7 @@ Nu öppnas arbetsytan i Maestro.
 
    Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 
-1. (Valfritt) Klicka på **Lägg till taxonomi** för att lägga till taxonomier på arbetsytan.
-
-   Mer information finns i [Skapa taxonomier](../architecture/create-a-taxonomy.md).
-
-1. (Valfritt) Klicka på listrutan Visa om du vill redigera en befintlig vy eller skapa en.
+1. (Valfritt) Klicka på namnet på en vy på vyflikarna för att redigera en befintlig vy eller klicka på **+ Visa** för att skapa en vy.
 
    Mer information finns i [Hantera postvyer](/help/quicksilver/maestro/views/manage-record-views.md).
 

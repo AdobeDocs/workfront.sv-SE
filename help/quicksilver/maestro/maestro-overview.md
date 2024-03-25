@@ -1,18 +1,18 @@
 ---
-title: Översikt över Adobe Workfront planeringsfunktioner
-description: Adobe Workfront planeringsfunktioner är ett nytt erbjudande från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
+title: Översikt över Adobe Workfront
+description: Adobe Workfront Planering är ett nytt erbjudande från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1785'
 ht-degree: 0%
 
 ---
 
-# Översikt över Adobe Workfront planeringsfunktioner
+# Översikt över Adobe Workfront
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,20 +22,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Workfront planeringsfunktioner, ett nytt erbjudande från Adobe Workfront.
+>Informationen i den här artikeln handlar om Adobe Workfront-planering, ett nytt erbjudande från Adobe Workfront.
 >
->Planeringsfunktionerna ingår för närvarande i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>För närvarande ingår Adobe Workfront-planering i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
 >
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet.
->[Se en videodemonstration av Adobe Workfront planeringsfunktioner.](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Kontakta din kontorepresentant för mer information om hur du går med i betaprogrammet för Workfront-planering.
 
-## Introduktion till Adobe Workfront planeringsfunktioner
+<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-Adobe Workfront planeringsfunktioner är ett nytt erbjudande från Adobe Workfront. Syftet med planeringsfunktionerna är att ge en heltäckande bild av en organisations operativa detaljer och besvara viktiga affärsfrågor i varje skede av arbetshanteringens livscykel.
+## Introduktion till Adobe Workfront-planering
+
+Adobe Workfront Planering är ett nytt erbjudande från Adobe Workfront. Syftet med Workfront planering är att ge en heltäckande inblick i en organisations operativa information och besvara viktiga affärsfrågor i varje fas av arbetshanteringens livscykel.
 
 Team och ledarskap behöver tydliga svar på frågor som:
 
-* Hur många kampanjer anordnar vi i EMEA för fjärde kvartalet?
+* Hur många kampanjer anordnas i EMEA under det fjärde kvartalet?
 * Finns det någon publiköverlappning mellan samtidiga kampanjer?
 * Hur bra fungerar medvetandeprogrammen just nu?
 * Hur ser resurserna ut för en viss kampanj? Vilka av dem måste fortfarande godkännas?
@@ -50,16 +51,14 @@ Nedan följer några av de viktigaste funktionerna:
 
 ## Adobe Workfront planeringsfunktioner
 
-I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i planeringsfunktionerna och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
+I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Workfront-planeringen och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
 
-Information om nya funktioner och när de släpps finns på [Aktivitet för att lansera Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/release-activity.md).
+Information om nya funktioner och när de släpps finns på [Adobe Workfront planerings- och lanseringsaktivitet](/help/quicksilver/maestro/release-activity.md).
 
 | Funktion | Ute nu | Tillgänglig snart | Forskning |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Skapa arbetsytor | ✓ |                                  |                  |
-| Skapa driftsposttyper | ✓ |                                  |                  |
-| Skapa taxonomier | ✓ |                                  |                  |
-| Skapa personliga, namngivna poster och taxonomier | ✓ |                                  |                  |
+| Skapa posttyper | ✓ |                                  |                  |
 | Skapa anpassade postfält | ✓ |                                  |                  |
 | Importera posttyper och fält med en Excel- eller CSV-fil* | ✓ |                                  |                  |
 | Länka poster | ✓ |                                  |                  |
@@ -74,15 +73,15 @@ Information om nya funktioner och när de släpps finns på [Aktivitet för att 
 | Sortera grupperingar i tabellvyn |                               | ✓ |                  |
 | Sortera grupperingar i tidslinjevyn |                               | ✓ |                  |
 | Ansluta arbetsytor |                               | ✓ |                  |
-| Poster och taxonomier för att koppla samman planeringsfunktioner | ✓ |
 | Söka efter poster i tabellvyn | ✓ |   |
 | Söka efter poster i tidslinjevyn | ✓ |   |
-| Koppla samman planeringsfunktionsposter till Workfront projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
-| Koppla samman planeringsfunktionsposter till Adobe Experience Manager-resurser | ✓ |                                  |                 |
-| Sidan med postinformation | ✓ |                                  |                  |
+| Koppla samman Workfront planeringsdokument med Workfront projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
+| Koppla Workfront planeringsdokument till Adobe Experience Manager | ✓ |                                  |                 |
+| Sidan Postdetaljer | ✓ |                                  |                  |
 | Uppdatera layouten på sidan med postinformation |                               | ✓ |                  |
 | Dela arbetsytor | ✓ | |  |
 | Visa | ✓ | |  |
+| Duplicera vyer | ✓ | |  |
 | Skicka begäranden |                               |                                  | ✓ |
 | Kreativ översikt |                               |                                  | ✓ |
 | Anpassa färg och ikon för en post | ✓ |                                  |                 |
@@ -93,21 +92,21 @@ Information om nya funktioner och när de släpps finns på [Aktivitet för att 
 | Adobe Workfront planeringsmoduler för Adobe Workfront Fusion | ✓ |                                  |                 |
 | Kopiera och klistra in information från ett fält till ett annat | ✓ |                                  |                 |
 
-## Aktivera Adobe Workfront planeringsfunktioner för användare i din Workfront-instans
+## Aktivera Adobe Workfront-planering för användare i din Workfront-instans
 
-Din organisation måste registrera sig i Adobe Workfront planeringsfunktioner som är avslutade betaprogram innan du kan komma åt planeringsfunktionerna. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
+Din organisation måste registrera sig för ett betaprogram som Adobe Workfront planerar stängt innan du kan komma åt planeringsfunktionerna. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
 
-Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda planeringsfunktionerna finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
+Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront-planering finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Adobe Workfront planeringsterminologi
 
-Planeringsfunktionerna ingår i Workfront, men i dem ingår även egna koncept och termer. Se till att du känner till planeringsfunktionerna innan du börjar konfigurera planeringsfunktioner för organisationen.
+Även om Workfront-planering är en del av Workfront, innehåller den egna koncept och terminologi. Se till att du känner till de nya koncepten innan du börjar konfigurera Workfront-planering för din organisation.
 
-Planeringsramen är helt anpassningsbar. Du kan skapa alla posttyper, deras attribut och alla fält som är kopplade till dem för att passa din organisations behov.
+Ramverket för Workfront-planering är helt anpassningsbart. Du kan skapa alla posttyper, deras attribut och alla fält som är kopplade till dem för att passa din organisations behov.
 
-Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
+Här följer de viktigaste planeringsmålen och begreppen för Workfront:
 
-* **Arbetsyta**: En samling posttyper och taxonomier som definierar den operativa livscykeln för en viss organisation. En arbetsyta är en arbetsyta i en organisationsenhet.
+* **Arbetsyta**: En samling posttyper som definierar en viss organisations operativa livscykel. En arbetsyta är en arbetsyta i en organisationsenhet.
 
   En Workfront-instans kan ha högst 1 000 arbetsytor.
 
@@ -115,64 +114,39 @@ Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
 
   Mer information finns i [Skapa arbetsytor](../maestro/architecture/create-workspaces.md).
 
-* **Posttyp**: Objekttypen för huvudplaneringsfunktioner.
+* **Posttyp**: Objekttypen eller Workfront-planering.
 
-  Till skillnad från Workfront där objekttyperna är fördefinierade kan du skapa egna objekttyper i planeringsfunktionerna.
+  Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Workfront-planeringen.
 
   I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
 
-  I planeringsfunktionerna kan du skapa alla posttyper som uppfyller organisationens arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
+  I Workfront-planeringen kan du skapa alla posttyper som passar organisationens arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
 
-  Mer information finns i [Översikt över driftsposttyper och taxonomier](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
+  Mer information finns i [Översikt över posttyper](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  Planeringsfunktionerna har följande posttyper:
-
-   * **Driftposttyp**: En posttyp som representerar strategiska planer, initiativ eller utfört arbete.
-
-     ![](assets/operational-record-type-blank.png)
-
-     Exempel: Campaign, Activity, Program kan vara driftsposttyper.
-
-     Mer information finns i [Skapa posttyper](../maestro/architecture/create-record-types.md).
-
-   * **Taxonomi**: En posttyp som samlar in attribut om en operativ posttyp.
-
-     ![](assets/taxonomy-record-type-blank.png)
-
-     Även om det är samma sak att skapa taxonomier som att skapa operativa posttyper, skiljer planeringsfunktionerna mellan en operativ posttyp och en taxonomiposttyp. Syftet med taxonomier är att förbättra den operativa registertypen. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
-
-     Till exempel kan Audience, Region eller Address vara posttyper av taxonomintyp.
-
-     Mer information finns i [Skapa taxonomiposttyper](../maestro/architecture/create-a-taxonomy.md).
-
-* **Post**: En instans av en posttyp för planeringsfunktion. En post kan referera till en driftsposttyp eller till en taxonomi.
+* **Post**: En instans av en posttyp.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
-  ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
 
   När du har lagt till en posttyp på en arbetsyta kan du börja lägga till poster av den typen på posttypens sida.
 
-  Exempel:&quot;Campaign&quot; kan vara en operativ posttyp och&quot;Sommarkampanj för EMEA&quot; är ett register över posttypen Campaign
-
-  eller
-
-  &quot;Region&quot; är en posttyp av taxonomisk typ, medan &quot;Amerika-Latinamerika&quot; eller &quot;EMEA - Centraleuropa&quot; är taxonomiposter.
+  Till exempel kan&quot;Campaign&quot; vara en posttyp och&quot;Sommarkampanj för EMEA&quot; är ett register över posttypen Campaign
 
   Mer information finns i [Skapa poster](../maestro/records/create-records.md).
 
-* **Arbetsytemall**: Du kan skapa en arbetsyta med fördefinierade mallar. Du kan använda de fördefinierade posttyperna, taxonomierna och fälten som finns i en mall eller lägga till egna.
+* **Arbetsytemall**: Du kan skapa en arbetsyta med fördefinierade mallar. Du kan använda de fördefinierade posttyperna och fälten som finns i en mall eller lägga till egna.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront planeringsfunktioner levereras med en arbetsyta för försäljning, marknadsföring och produkthantering.
+  Adobe Workfront planering levereras med en arbetsyta för försäljning, marknadsföring och produkthantering.
 
   Mer information finns i [Skapa arbetsytor](../maestro/architecture/create-workspaces.md).
 
-* **Fält**: Fält är attribut som du kan lägga till i användnings- eller taxonomiposttyper som innehåller information om posttypen. <!--check the shot below, "Connection" needs to be in lowercase-->
+* **Fält**: Fält är attribut som du kan lägga till i posttyper. Fält innehåller information om posttypen. <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Att tänka på när det gäller att planera funktionalitetsfält:
+  Att tänka på när det gäller postfält:
 
    * De fält som du lägger till för en posttyp kopplas automatiskt till alla poster av den typen och kan användas för att samla in data om dessa poster.
 
@@ -180,19 +154,17 @@ Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
 
    * Fält är unika för en posttyp och överförs inte från en posttyp till en annan.
 
-   * Planeringsfunktionens fält är helt anpassningsbara och är bara tillgängliga i planeringsfunktionerna. Du har inte åtkomst till planeringsfunktionsfält från Workfront.
+   * Fälten är helt anpassningsbara och går bara att komma åt vid Workfront-planering. Du har inte åtkomst till planeringsfält från Workfront från Workfront.
 
   Mer information finns i [Skapa fält](../maestro/fields/create-fields.md).
 
-  En ny operativ posttyp är som standard associerad med följande fördefinierade fält:
+  En ny posttyp är som standard associerad med följande fördefinierade fält:
 
    * Namn
    * Beskrivning
    * Startdatum
    * Slutdatum
    * Status
-
-  En ny taxonomiposttyp är som standard associerad med ett namnfält.
 
   Du kan skapa anpassade fält av följande typer:
 
@@ -212,11 +184,11 @@ Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
    * Senast ändrad av
    * Senast ändrat den
 
-* **Länkade posttyper**, **Länkade poster** och **Länkade postfält**: Du kan skapa en anslutning mellan följande enheter:
+* **Länkade posttyper**, **Länkade poster** och **Länkade postfält**: Du kan skapa en anslutning mellan följande enheter i Workfront-planeringen:
 
-   * Två typer av planeringsfunktionsposter.
-   * En posttyp för planeringsförmåga och en objekttyp för Workfront-projekt, program, portfölj, företag eller grupp.
-   * En posttyp för planeringsfunktion och en resurs eller mapp för Adobe Experience Manager.
+   * Två posttyper.
+   * En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.
+   * En posttyp och en Adobe Experience Manager-resurs eller mapp.
 
      Du måste ha en Adobe Experience Manager-licens för att kunna länka posttyper med Experience Manager-objekt.
 
@@ -225,9 +197,9 @@ Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
 
   När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster av dessa typer till varandra. Anslutningen mellan posterna visas som ett länkat postfält.
 
-* **Länkade fält** (eller sökfält): När du har upprättat anslutningen mellan två posttyper och länkar samman enskilda poster kan du referera till de länkade posternas fält i den post du ansluter från.
+* **Länkade fält** (eller sökfält): När du har upprättat anslutningen mellan två posttyper och länkar samman enskilda poster kan du referera till de länkade posternas fält på den post du ansluter från.
 
-  Om du t.ex. ansluter en planeringsfunktionskampanj till ett Workfront-projekt kan du visa fältet Projektägare för anslutna projekt i kampanjposterna för planeringsfunktioner.
+  Om du till exempel ansluter en Campaign-posttyp till en Workfront Project-objekttyp kan du visa fältet Projektägare för anslutna projekt på kampanjposterna.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -261,14 +233,14 @@ Följande är de viktigaste objekten och begreppen för planeringsfunktioner:
 Mer information finns i [Hantera postvyer](../maestro/views/manage-record-views.md).
 
 
-## Begränsningar för Adobe Workfront planeringsfunktioner
+## Begränsningar för Adobe Workfront-planeringsobjekt
 
-I följande tabell visas gränserna för hur många objekt du kan skapa i planeringsfunktionerna. Begränsningarna kan komma att ändras när vi går vidare till nästa utvecklingsfas.
+I följande tabell visas gränserna för hur många objekt du kan skapa i Workfront-planeringen. Begränsningarna kan komma att ändras när vi går vidare till nästa utvecklingsfas.
 
-| Adobe Workfront planeringsfunktionsobjekt | Gräns |
+| Adobe Workfront planeringsobjekt | Gräns |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Antal arbetsytor för en Workfront-instans | 1 000 |
-| Antal posttyper för en arbetsyta | 1 000 (inkluderar taxonomier för arbetsytan eller objekt som du importerar från andra program) |
+| Antal posttyper för en arbetsyta | 1 000 (inkluderar posttyper från alla avsnitt och de som skapas när en arbetsytemall används) |
 | Antal poster för en posttyp | 50 000 |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält | 1 000 tecken |
@@ -279,20 +251,20 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i planer
 
 >[!IMPORTANT]
 >
->*Den här funktionen har tillfälligt inaktiverats och kommer att vara tillgänglig vid ett senare datum
+>*Den här funktionen har inaktiverats tillfälligt och kommer att finnas tillgänglig vid ett senare tillfälle.
 
 
-## Hitta Adobe Workfront planeringsfunktioner
+## Hitta Adobe Workfront-planering
 
-Kontrollera att din organisation har fått tillgång till planeringsfunktionerna och att din system- eller gruppadministratör har lagt till planeringsfunktionsområdet på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
+Kontrollera att din organisation har fått tillgång till Workfront-planering och att din system- eller gruppadministratör har lagt till planeringsområdet på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
-Så här hittar du planeringsfunktionerna:
+Så här hittar du Workfront-planering:
 
 1. Logga in på Adobe Workfront.
 
 1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller klicka på **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt.
 
-1. Klicka **Maestro** ![](assets/maestro-icon.png).
+1. Klicka **Planering** ![](assets/maestro-icon.png).
 
    Området Arbetsytor öppnas.
 
@@ -300,11 +272,11 @@ Så här hittar du planeringsfunktionerna:
 
    1. Skapa en arbetsyta från grunden eller med en mall.
 
+   1. Lägg till avsnitt på den nya arbetsytan.
+   1. Byt namn på befintliga avsnitt på den nya arbetsytan.
    1. Lägg till posttyper på den nya arbetsytan.
 
-   1. Lägg till taxonomier i de nya arbetsytorna.
-
-   1. Klicka på namnet på en posttyp för att öppna postens sida. Postsidan öppnas som standard i tabellvyn.
+   1. Klicka på namnet på en posttyp för att öppna posttypens sida. Posttypssidan öppnas som standard i tabellvyn.
 
       Du kan också skapa en tidslinje eller en kalendervy.
 
@@ -314,7 +286,9 @@ Så här hittar du planeringsfunktionerna:
 
       Börja lägga till postfält genom att lägga till kolumner.
 
-## Aktivitet för att lansera Adobe Workfront planeringsfunktioner
+## Adobe Workfront planerings- och lanseringsaktivitet
 
-Vi släpper regelbundet nya funktioner i planeringsfunktionerna. En uppdaterad lista över funktioner som släppts finns på [Aktivitet för att lansera Adobe Workfront planeringsfunktioner](../maestro/release-activity.md).
+Vi lanserar regelbundet nya funktioner för Workfront planering.
+
+En uppdaterad lista över funktioner som släppts finns på [Adobe Workfront planerings- och lanseringsaktivitet](../maestro/release-activity.md).
 

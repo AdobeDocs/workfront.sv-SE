@@ -1,16 +1,16 @@
 ---
 title: Hantera postkommentarer
-description: Du kan samarbeta med poster i Adobe Maestro genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
+description: Du kan samarbeta om Adobe Workfront planeringsdokument genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
-
 
 # Hantera postkommentarer
 
@@ -24,37 +24,32 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Du kan samarbeta med poster i Adobe Maestro genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
+Du kan samarbeta om Adobe Workfront planeringsdokument genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 
 I den högra panelen för en post visas följande avsnitt:
 
 * **Kommentar**: Visar kommentarer och svar som användare lägger till i poster.
 * **Historik**: Visar ändringar som användarna gör i postfälten. Mer information finns i [Översikt över avsnittet Historik](/help/quicksilver/maestro/records/history-section-overview.md).
 
->[!TIP]
->
->På den högra panelen visas både för driftsposter och taxonomiposter.
-
-
 ## Att tänka på när du kommenterar en post
 
-* Du kan lägga till kommentarer och svar i driftsposter och taxonomier i Maestro, i kommentarsavsnittet i en post.
+* Du kan lägga till kommentarer och svar i poster i Workfront-planeringen, i kommentarsavsnittet i en post.
 
-* Kommentarer som läggs till i länkade poster visas inte i de poster som du länkar från. Om du till exempel kommenterar en Maestro-produktpost som är länkad till en Campaign-post, visas kommentaren bara i produktposten i Maestro och inte i Campaign-posten som du länkar från.
+* Kommentarer som läggs till i länkade poster visas inte i de poster som du länkar från. Om du till exempel kommenterar en produktpost för Workfront-planering som är länkad till en Campaign-post, visas kommentaren bara i produktposten i Workfront-planeringen och inte i Campaign-posten som du länkar från.
 
-* Du kan lägga till kommentarer i Maestro-poster som har skapats som ett resultat av en anslutning mellan en Maestro-post och ett objekt från ett annat program.
+* Du kan lägga till kommentarer i Workfront planeringsdokument som har skapats som ett resultat av en anslutning mellan en post och ett objekt från ett annat program.
 
-  Du kan t.ex. kommentera Project Maestro-posten när du har kopplat Workfront-projekt till Maestro-poster. Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
+  Du kan till exempel kommentera projektposten för Workfront när du har kopplat Workfront-projekt till Workfront planeringsdokument. Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 
-* Kommentarer som lagts till i länkade objekt i andra program visas inte i Maestro och kommentarer som lagts till i länkade objekt i Maestro visas inte i andra program.
+* Kommentarer som läggs till i länkade objekt i andra program visas inte i Workfront-planeringen och kommentarer som läggs till i länkade objekt i Workfront-planeringen visas inte i andra program.
 
-  Kommentarer som läggs till i projekt i Workfront visas t.ex. inte i samma projekt som är länkat till en kampanj i Maestro, och kommentarer som läggs till i projektet Maestro visas inte i Workfront.
+  Kommentarer som läggs till i projekt i Workfront visas t.ex. inte i samma projekt som är länkat till en kampanj i Workfront-planeringen, och kommentarer som läggs till i Workfront projektplaneringspost visas inte i Workfront.
 
 * Du kan tagga användare så att de uppmärksammas på en uppdatering. Taggade användare får inga meddelanden i appen eller e-postmeddelanden om din uppdatering. <!--this might change??-->
 
-* Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Maestro:
+* Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Workfront-planeringen:
 
-   * Från sidan Detaljer för en post eller taxonomi.
+   * Från en posts detaljsida.
 
   <!--* From the table view.-->
 
@@ -77,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -95,7 +90,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller i Maestro. </p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller i Workfront-planeringen. </p>  
 </td>
   </tr>
 <tr>
@@ -107,7 +102,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -186,7 +181,6 @@ Den senast öppnade arbetsytan öppnas som standard.
 
 ## Översikt över avsnittet Historik
 
-Du kan granska ändringar som gjorts i posten i historikavsnittet på den högra panelen i en driftspost eller taxonomi.
+Du kan granska ändringarna som gjorts i posten i historikavsnittet på den högra panelen i en post.
 
 Mer information finns i [Översikt över avsnittet Historik](/help/quicksilver/maestro/records/history-section-overview.md).
-

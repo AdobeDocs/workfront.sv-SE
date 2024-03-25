@@ -1,13 +1,13 @@
 ---
 title: Skapa fält
-description: I Adobe Maestro kan du skapa anpassade fält för varje typ av operativ posttyp eller taxonomi. Du kan sedan associera fältet med Maestro-poster.
+description: I Adobe Workfront-planeringen kan du skapa anpassade fält för varje typ av posttyp. Du kan sedan associera fältet med Workfront planeringsposter.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-I Adobe Maestro kan du skapa anpassade fält för driftsposttyper eller taxonomier. Du kan sedan associera fälten med Maestro-poster för att förbättra postinformationen.
+I Adobe Workfront kan du skapa anpassade fält för posttyper. Du kan sedan associera fälten med Workfront planeringsposter för att förbättra postinformationen.
 
 Du måste skapa posttyper innan du kan skapa fält som ska kopplas till dem. Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Maestro stängt. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns ingen åtkomstnivåkontroll för Maestro</p>  
+   <td> <p>Det finns ingen åtkomstnivåkontroll för Workfront-planering</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Din Workfront- eller gruppadministratör måste lägga till Maestro-området i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="../access/access-overview.md">Åtkomstöversikt</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/maestro/
 
    Mer information om vilka uttryck som stöds finns i [Översikt över formelfält](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Lägg till fältnamn som de visas i maestro-gränssnittet för att referera till dem i en formel.
+1. Lägg till fältnamn som de visas i Workfront planeringsgränssnitt för att referera till dem i en formel.
 
    >[!NOTE]
    >
    > * Du kan inte lägga till flervalsfält i en formel.
    >
-   > * Du kan inte lägga till fält från länkade poster i en formel. Den här funktionen kommer att släppas vid ett senare datum. Mer information om nya versioner finns i [Aktivitet för att lansera Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/release-activity.md).
+   > * Du kan inte lägga till fält från länkade poster i en formel. Den här funktionen kommer att släppas vid ett senare datum. Mer information om nya versioner finns i [Adobe Workfront planerings- och lanseringsaktivitet](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Klicka **Skapa**.
@@ -513,7 +513,7 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
 
 Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två Maestro-posttyper, eller en posttyp och en objekttyp från andra program.
 
-Mer information om hur du ansluter Maestro-posttyper finns i [Koppla posttyper](../architecture/connect-record-types.md)
+Mer information om hur du ansluter posttyper för Workfront-planering finns i [Koppla posttyper](../architecture/connect-record-types.md)
 
 ## Skapa fält genom att importera posttyper med en Excel- och CSV-fil
 
@@ -521,10 +521,10 @@ Mer information finns i [Skapa posttyper](../architecture/create-record-types.md
 
 ## Skapa fält genom att skapa en posttyp
 
-När du skapar en posttyp skapas även flera fält som är kopplade till den nya posttypen som standard. Mer information finns i [Skapa driftsposttyper](../architecture/create-record-types.md).
+När du skapar en posttyp skapas även flera fält som är kopplade till den nya posttypen som standard. Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 
 ## Skapa fält genom att skapa en arbetsyta från en mall
 
-I Maestro skapas fält för driftsposttyper och taxonomier när du skapar en arbetsyta från en mall.
+Vid Adobe Workfront-planering skapas fält för posttyper när du skapar en arbetsyta från en mall.
 
-Mer information finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+Mer information finns i [Skapa arbetsytor](/help/quicksilver/maestro/architecture/create-workspaces.md).

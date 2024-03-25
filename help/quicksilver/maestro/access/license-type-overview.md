@@ -1,20 +1,21 @@
 ---
-title: Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner
-description: Din åtkomst till Adobe Workfront planeringsfunktioner beror på vilken licenstyp du har, förutom dina behörigheter till objekt.
+title: Översikt över licenstyp vid användning av Adobe Workfront-planering
+description: Din åtkomst till Adobe Workfront-planeringen beror på licenstypen, förutom dina behörigheter för objekt.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
-<!--update the title and the metadata title if Maestro is NOT its own product - because the title is too generic for it being a Workfront capability-->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront planning. -->
+<!--update the title and the metadata title if Workfront planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
-# Översikt över licenstypen när du använder Adobe Workfront planeringsfunktioner
+# Översikt över licenstyp vid användning av Adobe Workfront-planering
 
 {{maestro-important-intro}}
 
@@ -33,18 +34,15 @@ En användare med en lägre licenstyp har begränsad behörighet till objekt nä
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Information om behörigheter för objekt i Workfront planeringsfunktioner finns i [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Information om behörigheter för objekt i Workfront-planeringen finns i [Översikt över delningsbehörigheter i Adobe Workfront-planeringen](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-## Förhållandet mellan Workfront licenstyper och behörigheter för Workfront planeringsfunktioner
+## Förhållandet mellan Workfront licenstyper och Workfront planeringsbehörigheter
 
 I följande tabell beskrivs relationen mellan en användares licenstyp och den behörighetsnivå som du kan ge användaren baserat på den licensen:
 
 
-| Licenstyp | Tillåtna behörigheter i Workfront planeringsfunktionsobjekt |
+| Adobe Workfront licenstyp | Tillåtna behörigheter i Adobe Workfront-planering |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan skapa och hantera arbetsytor, posttyper och poster. |
 | Ny: ljus <br> eller <br>Aktuell: Arbete | Användare kan bidra med och visa en arbetsyta som delas med dem samt posttyper och poster från den arbetsytan.  Användare kan skapa, redigera och ta bort poster på arbetsytorna där de har Contribute-behörighet. |
 | Nytt: Medarbetare <br> eller <br>Aktuell: Granskare eller begärande | Användarna kan visa de arbetsytor som delas med dem samt deras posttyper och poster. Användarna kan inte skapa, redigera eller ta bort posttyper eller poster. |
-
-
-
