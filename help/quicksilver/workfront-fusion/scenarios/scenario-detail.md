@@ -7,9 +7,9 @@ description: Scenarioinformation i [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -77,7 +77,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (tabb) </td> 
-      <td> <p>Öppna den här fliken om du vill se en historik över scenariot, inklusive redigering av scenariot. </p> <p>The [!UICONTROL History] På -fliken finns också en historik för scenariokörning för varje körning, som innehåller följande:</p> 
+      <td> <p>Öppna den här fliken om du vill se en historik över scenariot, inklusive redigering av scenariot. </p> <p>The [!UICONTROL History] På -fliken finns också en historik för varje körning, som innehåller följande:</p> 
        <ul> 
         <li>Status för varje körning (slutförd eller fel)</li> 
         <li>Körningstid</li> 
@@ -133,6 +133,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
       <td>I det här diagrammet kan du visa mängden dataöverföring och åtgärder som används under scenariets körningar i en [!UICONTROL line] diagram.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Processing banner]</p>  </td> 
+      <td>Om ditt scenario har körts nyligen kan du se en banderoll som läser:<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>Detta visas när körningsinformationen skrivs till lagringen. Bearbetningen sker omedelbart efter att scenariot har körts. och bör inte vara längre än några minuter. Detaljer om scenariokörningen kanske inte visas när körningen bearbetas.</td> 
      </tr> 
     </tbody> 
    </table>

@@ -7,9 +7,9 @@ description: Du kan visa information om alla körningar för ett scenario eller 
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -73,8 +73,6 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
    ![](assets/open-history-tab-350x202.png)
 
-   C
-
    Du kan också klicka för att se en helsidesvy av den här informationen. I helsidesvyn kan du filtrera historiken för att visa specifika körningar.
 
    Följande information visas för varje körning av scenariot:
@@ -85,6 +83,10 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
    * Antal **[!UICONTROL Operations]**
    * Storlek på **[!UICONTROL Data Transfer]**
    * Länka till **[!UICONTROL Details]**
+
+>[!NOTE]
+>
+>Scenariohistoriken visar en **Bearbetar** emblem bredvid scenarier som nyligen har körts, medan körningsinformationen skrivs till lagringen. Bearbetningen sker omedelbart efter att scenariot har körts. och bör inte vara längre än några minuter. Detaljer om scenariokörningen kanske inte visas när körningen bearbetas.
 
 ### Visa historik för scenariekörning på [!UICONTROL History] tab
 
@@ -103,7 +105,9 @@ The [!UICONTROL History] på fliken visas mer information än vad som är tillg�
 
    >[!NOTE]
    >
-   >The [!UICONTROL details] -länken visas bara om körningen har information tillgänglig.
+   >* The [!UICONTROL details] -länken visas bara om körningen har information tillgänglig.
+   >
+   >* Scenariohistoriken visar en **Bearbetar historik** emblem bredvid scenarier som nyligen har körts, medan körningsinformationen skrivs till lagringen. Bearbetningen sker omedelbart efter att scenariot har körts. och bör inte vara längre än några minuter. Detaljer om scenariokörningen kanske inte visas när körningen bearbetas.
 
 ## Filtrera historiken för scenariokörning
 
@@ -116,12 +120,12 @@ Du kan filtrera körningshistoriken så att endast körningar med angivna värde
 
 Filterikonen är orange i kolumner med ett aktivt filter.
 
-## Sortera historiken för scenariokörning
+## Sortera körningshistoriken för scenarier
 
 Du kan sortera körningshistoriken för scenarier.
 
 1. Öppna helsideshistoriken för ett scenario enligt beskrivningen i [Visa historik för scenariekörning på [!UICONTROL History] tab](#view-scenario-execution-history-on-the-history-tab) i den här artikeln.
-1. Klicka på [!UICONTROL Sort] -ikonen i kolumnrubriken som du vill filtrera efter.
+1. Klicka på [!UICONTROL Sort] i kolumnrubriken som du vill filtrera efter.
 1. Valfritt: Om du vill ändra sorteringsordningen klickar du på [!UICONTROL Sort] ikonen igen.
 
 ## Sök i alla körningar av ett scenario
@@ -158,7 +162,7 @@ Du kan sortera körningshistoriken för scenarier.
    >* [!DNL Workfront Fusion] lagrar webkrocknyttolaster i 30 dagar. Om du får åtkomst till en webkrok-nyttolast mer än 30 dagar efter att den skapades uppstår felet &quot;[!UICONTROL Failed to read file from storage.]&quot;
 
 
-1. (Valfritt) Om du vill begränsa sökningen efter status väljer du önskad status i dialogrutan **[!UICONTROL By status]** listruta.
+1. (Valfritt) Om du vill begränsa sökningen efter status väljer du önskad status i dialogrutan **[!UICONTROL By status]** nedrullningsbar meny.
 
 
    Tillgängliga statusvärden är:
@@ -171,8 +175,8 @@ Du kan sortera körningshistoriken för scenarier.
 
    * [!UICONTROL Success]
 
-1. (Valfritt) Ändra den ordning som resultatet visas i **[!UICONTROL Sort by dates]** listruta.
+1. (Valfritt) Ändra den ordning som resultatet visas i **[!UICONTROL Sort by dates]** nedrullningsbar meny.
 
-1. (Valfritt) Klicka på knappen **[!UICONTROL Copy execution ID]** icon <img src="assets/copy-fusion-execution-id-icon.png"> i raden för önskad körning
+1. (Valfritt) Om du vill kopiera ett scenario-körnings-ID klickar du på **[!UICONTROL Copy execution ID]** icon <img src="assets/copy-fusion-execution-id-icon.png"> i raden för önskad körning
 
 1. (Valfritt) Klicka på ett resultat av [!UICONTROL Fulltext search] för att undersöka scenariomodulens utdatapaket som innehåller informationen.
