@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ För att kunna delta i den här Alpha-versionen måste du ha lagts till i Alpha 
 
 ## Senaste versionen
 
+## Alpha version 7 - mars 2024
+
+I den här 7:e Alpha-versionen har vi:
+
+* Lagt till möjlighet för dig att skapa deadlines för dina dokumentgodkännanden.
+* Introducerade godkännandemallar som nu kan skapas och tillämpas på dina godkännanden för att spara tid.
+* Uppdaterade widgeten för godkännanden och visar nu flera nyckelutförandeindikatorer med en detaljerad lista så att du kan gå vidare.
+
+Se hela videomaterialet nedan:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _Tidigare versioner_
+
 ## Alpha version 6 - jan 2024
 
 I den här sjätte Alpha-versionen har vi:
@@ -37,8 +51,6 @@ I den här sjätte Alpha-versionen har vi:
 Se hela videomaterialet nedan:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _Tidigare versioner_
 
 ### Alpha version 5 - september 2023
 
