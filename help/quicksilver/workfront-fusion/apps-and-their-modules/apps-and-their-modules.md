@@ -10,7 +10,7 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8c970d2fe8221f4cc578d4427bd5ea250bfbcbf2
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Adobe Experience Manager Assets] moduler](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] moduler](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-* [Adobe Maestro-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
+* [Adobe Maestro-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] moduler](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Photoshop] moduler](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target] moduler](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
