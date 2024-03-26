@@ -7,9 +7,10 @@ description: Du kan använda en layoutmall för att konfigurera vad användarna 
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -101,7 +102,14 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
       <p>När du har valt den widget du vill redigera visas tillgängliga alternativ till höger. Dessa alternativ innehåller <b>Filter</b>, <b>Kolumner</b>och <b>Grupper</b>. Du kan:</p>
       <ul>
       <li><p><b>Välj vilka filter, kolumner eller grupper som ska vara tillgängliga för användarna:</b></p>
-      <p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare.</li></p>
+      <p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare.</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>Användarna måste ha åtkomst till Skapa för vyer för att kolumnkonfigurationer ska gälla för deras widgetar på rätt sätt.
+
+</p>
       <li><p><b>Ange ett standardfilter eller en standardgrupp för widgeten:</b></p>
       <p>Håll muspekaren över ett alternativ så visas en knapp som gör att du kan ange det alternativet som standard för användarna. Den aktuella standardinställningen kommer att ha ett blått standardmärke till höger.</li></p>
       <li><p><b>Lägg till ett befintligt filter, en befintlig kolumn eller en grupp i listan med tillgängliga alternativ:</b></p>
@@ -124,4 +132,3 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
    eller
 
    Om du är klar med anpassningen klickar du på **Spara** längst ned till vänster.
-
