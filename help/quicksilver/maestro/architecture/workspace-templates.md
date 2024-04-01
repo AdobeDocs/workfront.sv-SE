@@ -1,11 +1,11 @@
 ---
 title: Lista över arbetsytemallar
-description: En arbetsyta är en samling posttyper som används av ett team och representerar teamets arbetslivscykel. Adobe Workfront planering innehåller en uppsättning mallar som hjälper dig att komma igång med grundläggande posttyper och fält när du skapar arbetsytan.
+description: En arbetsyta är en samling posttyper som används av ett team och representerar teamets arbetslivscykel. Adobe Workfront Planning innehåller en uppsättning mallar som hjälper dig att komma igång med grundläggande posttyper och fält när du skapar arbetsytan.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -29,20 +29,20 @@ role: User
 
 {{maestro-important-intro}}
 
-I Adobe Workfront är en arbetsyta en samling posttyper som används av ett team och representerar teamets arbetslivscykel.
+I Adobe Workfront Planning är en arbetsyta en samling posttyper som används av ett team och representerar teamets arbetslivscykel.
 
-Workfront planering innehåller en uppsättning mallar som hjälper dig att komma igång med grundläggande posttyper och fält när du skapar arbetsytan. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+Workfront Planning innehåller en uppsättning mallar som hjälper dig att komma igång med grundläggande posttyper och fält när du skapar arbetsytan. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 
-I den här artikeln beskrivs de arbetsytemallar som finns i Adobe Workfront planering.
+I den här artikeln beskrivs de arbetsytemallar som finns i Adobe Workfront Planning.
 
-## Överväganden om Adobe Workfront planeringsmallar
+## Överväganden om Adobe Workfront Planning-mallar
 
 * Varje mall innehåller en uppsättning posttyper. Mer information finns i [Översikt över posttyper](../architecture/overview-of-record-types-and-taxonomies.md).
 * Posttyperna i varje mall är ordnade i följande avsnitt:
 
    * Operativa posttyper
    * Taxonomier
-* Varje posttyp innehåller en uppsättning fält. Vissa av dessa fält är anslutningar till andra posttyper för Workfront-planering.
+* Varje posttyp innehåller en uppsättning fält. Vissa av dessa fält är anslutningar till andra posttyper för Workfront Planning.
 * Du kan anpassa alla mallar och lägga till fler posttyper och fält till de befintliga.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -96,9 +96,9 @@ You must have the following:
 
 -->
 
-## Mallar för Workfront planeringarbetsyta
+## Mallar för arbetsytan i Workfront Planning
 
-Följande är arbetsytemallar i Workfront-planeringen och antalet fält som ingår:
+Följande är arbetsytemallar i Workfront Planning och det antal fält de innehåller:
 
 * **Marknadsföringshantering**: Ni kan hantera alla era marknadsföringskampanjer med den här mallen. Mallen innehåller följande:
 

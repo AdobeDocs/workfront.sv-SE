@@ -1,13 +1,13 @@
 ---
 title: Redigera fält
-description: I Adobe Workfront kan du redigera fältinställningarna för fält som redan har skapats.
+description: I Adobe Workfront Planning kan du redigera fältinställningarna för fält som redan har skapats.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,21 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # Redigera fält
 
 {{maestro-important-intro}}
 
-Du kan redigera fältinställningarna för fält som redan har skapats i Adobe Workfront-planeringen.
+Du kan redigera fältinställningarna för fält som redan har skapats i Adobe Workfront Planning.
 
 Mer information om hur du skapar planeringsfält i Adobe Workfront finns i [Skapa fält](../fields/create-fields.md).
 
-I den här artikeln beskrivs hur du kan redigera inställningarna för Workfront planeringsfält. Mer information om hur du redigerar fältvärden för poster finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
+I den här artikeln beskrivs hur du kan redigera inställningarna för Workfront Planning-fält. Mer information om hur du redigerar fältvärden för poster finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Att tänka på när du redigerar fältinformation
 
 * Du kan redigera fält som du har skapat eller fält som har skapats av andra användare, om du har behörigheten Hantera på arbetsytan som fälten tillhör.
 * Du kan redigera ett fält i posttyptabellen.
-* Du kan inte redigera ett fält på detaljsidan för en post eller i tidslinjevyn.
+* Du kan inte redigera ett fält på postsidan eller i tidslinjevyn.
 * Du kan inte redigera fälttypen efter att fältet har sparats.
 * Du kan inte avmarkera inställningen Tillåt negativa tal som tidigare var markerad, för fältet Nummer, Procent eller Valuta om det redan finns negativa värden lagrade på posterna som den är kopplad till.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstkontroller för Workfront Planning</p>  
 </td>
   </tr>
 

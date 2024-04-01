@@ -1,24 +1,25 @@
 ---
 title: Skapa posttyper
-description: Posttyper är objekttyperna för Adobe Workfront-planering. I Workfront-planeringen kan du skapa anpassade posttyper som illustrerar de arbetsuppgifter som behövs i organisationens livscykel.
+description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Workfront Planning kan du skapa anpassade posttyper som illustrerar de arbetsuppgifter som behövs i organisationens livscykel.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # Skapa posttyper
 
 {{maestro-important-intro}}
 
-Posttyper är objekttyperna för Adobe Workfront-planering. I Workfront-planeringen kan du skapa anpassade posttyper som illustrerar de arbetsrelaterade objekt som behövs i organisationens livscykel.
+Posttyperna är objekttyperna för Adobe Workfront Planning. I Workfront Planning kan du skapa anpassade posttyper som illustrerar de arbetsrelaterade objekt som behövs i organisationens livscykel.
 Posttyper kan vara något av följande:
 
 Mer information om posttyper finns i [Översikt över posttyper](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -42,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning closed. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -105,20 +106,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         >
         >Den här funktionen har tillfälligt inaktiverats sedan 21 mars 2024. Den aktiveras vid ett senare tillfälle.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manuellt:
 
       * Från scratch.
 
-        I den här artikeln beskrivs hur du skapar generiska posttyper från grunden på en arbetsyta som du har skapat från grunden.
+        I den här artikeln beskrivs hur du skapar posttyper från grunden.
 
 * Du kan flytta posttyper inom ett avsnitt och från ett avsnitt på en arbetsyta till ett annat. Du kan inte flytta posttyper från en arbetsyta till en annan.
 
 ## Skapa posttyper med hjälp av en arbetsytemall
 
-Du kan skapa posttyper automatiskt när du skapar en arbetsyta med en planeringsmall från Workfront. Varje mall innehåller exempelposttyper.
+Du kan skapa posttyper automatiskt när du skapar en arbetsyta med en Workfront Planning-mall. Varje mall innehåller exempelposttyper.
 
 När du skapar en arbetsyta från en mall grupperas posttyperna i följande avsnitt:
 
@@ -133,17 +134,14 @@ Mer information om vilka posttyper som ingår i respektive mall finns i [Lista �
 
 ## Skapa en posttyp från grunden
 
-I den här artikeln beskrivs hur du skapar posttyper från grunden.
-
 {{step1-to-maestro}}
 
 Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill skapa posttyper för.
+1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
 1. Klicka **Lägg till posttyp**.
-1. (Villkorligt) Om du skapar en operativ posttyp klickar du på **Från början**.
-
-   Rutan Lägg till posttyp öppnas.
+1. (Villkorligt) När du skapar posttyper genom att importera en Excel- eller CSV-fil, klickar du på **Från början**. I annat fall **Lägg till posttyp** öppnas.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. Klicka utanför **Lägg till posttyp** för att spara posttypen.
 
-   Posttypkortet läggs till på den arbetsyta som du har valt.
+   Posttypkortet läggs till i avsnittet och på den arbetsyta som du har valt.
 Antalet fält som posttypen innehåller visas på kortet.
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
    ![](assets/operational-record-type-blank.png)
 
    Posttypssidan visas som standard i tabellvyn. Kolumnerna i tabellen är fält som är kopplade till den nya posttypen. Varje rad är en unik post som du måste lägga till.
+
+   >[!TIP]
+   >
+   >    Om du importerar en posttyp från en Excel- eller CSV-fil importeras också poster.
 
    Som standard visas följande fält i tabellvykolumnerna för en operativ posttyp:
 
@@ -183,7 +185,7 @@ Antalet fält som posttypen innehåller visas på kortet.
 
    Mer information om hur du skapar fält finns i [Skapa fält](../fields/create-fields.md).
 
-1. (Valfritt) Klicka på vänsterpilen till vänster om posttypens namn för att gå tillbaka till den valda arbetsytan.
+1. (Valfritt) Klicka på vänsterpilen till vänster om posttypens namn i sidhuvudet för att gå tillbaka till den valda arbetsytan.
 
    Posttypkortet visar antalet fält och anslutningar som posttypen innehåller.
 
@@ -196,16 +198,15 @@ Antalet fält som posttypen innehåller visas på kortet.
    * [Redigera posttyper](../architecture/edit-record-types.md)
    * [Hantera postvyer](../views/manage-record-views.md)
 
-1. (Valfritt) Klicka på arbetsytan för att dra och släppa en posttyp på en önskad plats eller för att flytta den till ett annat avsnitt.
+1. (Valfritt) Klicka på och håll ned ett posttypskort på arbetsytan om du vill dra och släppa posttypen på en önskad plats, eller om du vill flytta den till ett annat avsnitt.
 
-   Ändringarna sparas automatiskt när du har tagit bort det markerade posttypskortet.
+   Ändringarna sparas automatiskt.
 
 ## Skapa posttyper genom att importera en Excel- eller CSV-fil
 
 >[!IMPORTANT]
 >
 >Den här funktionen har tillfälligt inaktiverats sedan 21 mars 2024. Den aktiveras vid ett senare tillfälle.
-
 
 Tänk på följande när du importerar posttyper med en Excel- eller CSV-fil:
 
@@ -233,7 +234,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Rutan Förhandsgranska och redigera visas med följande information:
 
-   * Namnen på arken eller de framtida posttyperna visas på den vänstra panelen. I Workfront-planeringen väljs en ikon och en färg för varje ny posttyp som standard.
+   * Namnen på arken eller de framtida posttyperna visas på den vänstra panelen. I Workfront Planning väljs en ikon och en färg för varje ny posttyp som standard.
    * Den första arks- eller posttypen markeras och namnen på de fält som är kopplade till den visas som kolumnrubriker. Som standard väljs typen för varje fält.
    * Varje rad representerar en ny post. Endast de första 10 posterna visas i rutan Förhandsgranska och redigera.
 
@@ -254,7 +255,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. Klicka **Importera** när du är redo att importera filen.
 
-   Följande information importeras till Workfront-planering:
+   Följande information importeras till Workfront Planning:
 
    * Nya posttyper
    * Nya fält som är associerade med varje posttyp
@@ -262,13 +263,13 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Du kan börja hantera fält och poster på posttypssidorna.
 
-   Alla som har tillgång till Workfront kan nu visa och redigera importerade posttyper och deras information. <!--this will change with permissions-->
+   Alla som har tillgång till Workfront Planning kan nu visa och redigera de importerade posttyperna och deras information. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

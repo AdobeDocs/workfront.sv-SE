@@ -1,13 +1,13 @@
 ---
 title: Hantera postkommentarer
-description: Du kan samarbeta om Adobe Workfront planeringsdokument genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
+description: Du kan samarbeta om Adobe Workfront Planning-poster genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Du kan samarbeta om Adobe Workfront planeringsdokument genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
+Du kan samarbeta om Adobe Workfront Planning-poster genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 
 I den högra panelen för en post visas följande avsnitt:
 
@@ -33,23 +33,23 @@ I den högra panelen för en post visas följande avsnitt:
 
 ## Att tänka på när du kommenterar en post
 
-* Du kan lägga till kommentarer och svar i poster i Workfront-planeringen, i kommentarsavsnittet i en post.
+* Du kan lägga till kommentarer och svar till poster i Workfront Planning, under Kommentarer i en post.
 
-* Kommentarer som läggs till i länkade poster visas inte i de poster som du länkar från. Om du till exempel kommenterar en produktpost för Workfront-planering som är länkad till en Campaign-post, visas kommentaren bara i produktposten i Workfront-planeringen och inte i Campaign-posten som du länkar från.
+* Kommentarer som läggs till i länkade poster visas inte i de poster som du länkar från. Om du till exempel kommenterar en produktpost för Workfront Planning som är länkad till en Campaign-post, visas kommentaren bara på produktposten i Workfront Planning och inte på Campaign-posten som du länkar från.
 
-* Du kan lägga till kommentarer i Workfront planeringsdokument som har skapats som ett resultat av en anslutning mellan en post och ett objekt från ett annat program.
+* Du kan lägga till kommentarer i Workfront Planning-poster som har skapats som ett resultat av en anslutning mellan en post och ett objekt från ett annat program.
 
-  Du kan till exempel kommentera projektposten för Workfront när du har kopplat Workfront-projekt till Workfront planeringsdokument. Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
+  Du kan till exempel kommentera projektposten för Workfront Planning när du har kopplat Workfront-projekt till Workfront Planning-poster. Mer information finns i [Koppla poster](/help/quicksilver/maestro/records/connect-records.md).
 
-* Kommentarer som läggs till i länkade objekt i andra program visas inte i Workfront-planeringen och kommentarer som läggs till i länkade objekt i Workfront-planeringen visas inte i andra program.
+* Kommentarer som läggs till i länkade objekt i andra program visas inte i Workfront Planning och kommentarer som läggs till i länkade objekt i Workfront Planning visas inte i andra program.
 
-  Kommentarer som läggs till i projekt i Workfront visas t.ex. inte i samma projekt som är länkat till en kampanj i Workfront-planeringen, och kommentarer som läggs till i Workfront projektplaneringspost visas inte i Workfront.
+  Kommentarer som läggs till i projekt i Workfront visas t.ex. inte i samma projekt som är länkat till en kampanj i Workfront Planning, och kommentarer som läggs till i projektet Workfront Planning-posten visas inte i Workfront.
 
 * Du kan tagga användare så att de uppmärksammas på en uppdatering. Taggade användare får inga meddelanden i appen eller e-postmeddelanden om din uppdatering. <!--this might change??-->
 
-* Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Workfront-planeringen:
+* Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Workfront Planning:
 
-   * Från en posts detaljsida.
+   * Från postsidan.
 
   <!--* From the table view.-->
 
@@ -72,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller i Workfront-planeringen. </p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller i Workfront Planning. </p>  
 </td>
   </tr>
 <tr>

@@ -1,13 +1,13 @@
 ---
 title: Fältöversikt
-description: Du kan lägga till nya fält i Adobe Workfront-planeringen som återspeglar organisationens livscykel. Fält är attribut för posttyper.
+description: Du kan lägga till nya fält i Adobe Workfront Planning som återspeglar organisationens livscykel. Fält är attribut för posttyper.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Du kan lägga till nya fält i Adobe Workfront-planeringen som återspeglar organisationens livscykel. Fält är attribut för posttyper.
+Du kan lägga till nya fält i Adobe Workfront Planning som återspeglar organisationens livscykel. Fält är attribut för posttyper.
 
 
-## Överväganden om Adobe Workfront planeringsfält
+## Att tänka på när det gäller Adobe Workfront Planning Field
 
-* Du kan bara skapa fält från tabellvyn för en posttypsida. Fält visas som kolumner i tabellvyn. Alla fält som är kopplade till en posttyp visas också på sidan Detaljer för varje post av den typen.
+* Du kan bara skapa fält från tabellvyn för en posttypsida. Fält visas som kolumner i tabellvyn. Alla fält som är kopplade till en posttyp visas också på postsidan.
 
   Mer information om hur du hanterar tabellkolumner (eller postfält) finns i [Hantera tabellvyn](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ Du kan lägga till nya fält i Adobe Workfront-planeringen som återspeglar orga
 
    * Manuellt:
 
-      * Genom att lägga till kolumner i tabellvyn på en posttypssida. Kolumnerna i tabellen är de fält som är associerade med posttypen. De är samma fält som visas på en posts informationssida.
+      * Genom att lägga till kolumner i tabellvyn på en posttypssida. Kolumnerna i tabellen är de fält som är associerade med posttypen. De är samma fält som visas på en postsida.
 
-        Du kan inte skapa fält från detaljsidan för en post.
-
-        I den här artikeln beskrivs hur du skapar fält manuellt.
+        Du kan inte skapa fält från postens sida.
 
       * Genom att ansluta posttyper. Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två posttyper, eller en posttyp och en objekttyp från andra program.
 
@@ -81,11 +79,11 @@ Du kan lägga till nya fält i Adobe Workfront-planeringen som återspeglar orga
 
         Du kan lägga till fler värden eller byta namn på de befintliga.
 
-     Vid Workfront-planering skapas fält för posttyper när du skapar en arbetsyta från en mall. Mer information finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+     I Workfront Planning skapas fält för posttyper när du skapar en arbetsyta från en mall. Mer information finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 
 * Workfront planeringsfält är inte tillgängliga från Workfront.
 
-* Workfront-fält är bara tillgängliga från Workfront-planering när du kopplar posttyper till Workfront-objekttyper och lägger till länkade fält eller uppslagsfält från Workfront-objekt. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
+* Workfront-fält är bara tillgängliga från Workfront Planning när du kopplar posttyper med Workfront-objekttyper och lägger till länkade fält eller uppslagsfält från Workfront-objekt. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
 * Du kan visa och uppdatera inställningarna för de fält som du eller någon annan användare har skapat, om du har behörigheten Hantera för den arbetsyta som fältet tillhör.
 

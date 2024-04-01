@@ -1,13 +1,13 @@
 ---
 title: Hantera postvyer
-description: Du kan visa poster i en tabell-, tidslinje- eller kalendervy när du använder Adobe Workfront-planering.
+description: Du kan visa poster i en tabell-, tidslinje- eller kalendervy när du använder Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-När du har valt en posttyp i Adobe Workfront planeringsområde kan du visa alla poster av den typen i följande vyer:
+När du har valt en posttyp i Adobe Workfront Planning kan du visa alla poster av den typen i följande vyer:
 
 * Tabell
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning closed. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Adobe Workfront-licens</p></td>
    <td>
    <p>Alla</p> 
+   <p>Systemadministratörer har bara åtkomst till de vyer de har skapat eller som delas med dem. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
 </td>
   </tr>
 
@@ -89,7 +90,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du arbetar med postvyer
 
-* Vyer i Workfront-planeringen är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
+* Vyer i Workfront Planning är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
 * Vyer som du skapar visas bara för dig och de användare som du delar vyerna med.
 * När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har behörighet till vyn.
 * Följande element är unika för varje postvy:
@@ -104,7 +105,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
   >[!NOTE]
   >
-  > Eftersom Adobe Workfront-planering för närvarande är i betaversion är vissa vyelement kanske inte tillgängliga för alla vyer.
+  > Eftersom Adobe Workfront Planning för närvarande är en betaversion, kanske vissa vyelement inte är tillgängliga för alla vyer.
 
 I den här artikeln beskrivs följande information om postvyer:
 
@@ -138,7 +139,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Färgkodsgrupperingar |           | ✓ |
 | Sök efter specifika poster | ✓ | ✓ |
 | Dela vy | ✓ | ✓ | ✓ |
-| Öppna postens informationssida från vyn | ✓ | ✓ |    |
+| Öppna postens sida från vyn | ✓ | ✓ |    |
 
 
 ## Skapa eller redigera vyer {#create-or-edit-views}

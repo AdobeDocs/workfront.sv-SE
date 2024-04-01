@@ -1,11 +1,11 @@
 ---
 title: Översikt över formelfält
-description: I Adobe Workfront kan du skapa formelfält där funktioner och befintliga fält används för att beräkna ett nytt anpassat värde.
+description: I Adobe Workfront Planning kan du skapa formelfält där funktioner och befintliga fält används för att beräkna ett nytt anpassat värde.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Du kan skapa anpassade fält i Adobe Workfront-planeringen genom att referera till befintliga fält och koppla dem med en formel. Du kan göra detta genom att skapa ett anpassat formeltypsfält.
+Du kan skapa anpassade fält i Adobe Workfront Planning genom att referera till befintliga fält och koppla dem med en formel. Du kan göra detta genom att skapa ett anpassat formeltypsfält.
 
 Formelfält genererar ett nytt värde med hjälp av befintliga värden från andra fält i en posttyp och en funktion som anger hur befintliga värden ska beräknas.
 
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -102,14 +102,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Formelfält refererar till fält som tillhör samma posttyp. Du kan inte referera till fält från andra posttyper när du skapar ett formelfält. <!--is this still accurate??-->
 * Du kan inte ändra fälttypen för ett formelfält när du har sparat det.
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
-* Du måste lägga till de fält som du refererar till i formler så som de visas i Workfront planeringsgränssnitt.
+* Du måste lägga till de fält som du refererar till i formler när de visas i Workfront Planning-gränssnittet.
 * Du kan använda sökfält från länkade posttyper i en formel vid ett senare datum.
 
 ## Formler som stöds
 
-Adobe Workfront planeringsformelfält har stöd för alla uttryck från Workfront beräkningsfält. Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning-formelfält har stöd för alla uttryck från Workfront beräkningsfält. Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Dessutom har vi stöd för följande uttryck för Workfront planeringsformelfält:
+Dessutom har vi stöd för följande uttryck för formelfält i Workfront Planning:
 
 <table style="table-layout:auto"> 
  <col> 

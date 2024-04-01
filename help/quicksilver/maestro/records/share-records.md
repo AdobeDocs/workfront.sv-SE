@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Om du vill samarbeta med andra användare kan du dela poster med andra.
 
-Du kan dela en planeringspost i Adobe Workfront på följande sätt:
+Du kan dela en Adobe Workfront Planning-post på följande sätt:
 
-* Kopiera länken till detaljsidan för en post från webbläsaren när sidan är öppen.
+* Kopiera länken till postsidan från webbläsaren när sidan är öppen.
 
-* Kopiera en länk till postens informationssida när du visar poster i posttypens tabellvy.
+* Kopiera en länk till postens sida när du visar poster i posttypens tabellvy.
 
 * Du kan dela alla poster på en arbetsyta med andra användare genom att dela arbetsytan. Mer information finns i [Dela en arbetsyta](/help/quicksilver/maestro/access/share-workspaces.md).
 
-I den här artikeln beskrivs hur du kan kopiera en länk till en posts detaljsida från tabellvyn för en posttyp.
+I den här artikeln beskrivs hur du kan kopiera en länk till en posts sida från en posttyps tabellvy.
 
 ## Åtkomstkrav
 
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning closed. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ Arbetsytan som du senast öppnade öppnas.
 
    Länken kopieras till Urklipp.
 
-1. Klistra in länken i ett e-postmeddelande eller i ett chattfönster om du vill dela den med andra användare. När användarna får länken öppnas postens informationssida.
+1. Klistra in länken i ett e-postmeddelande eller i ett chattfönster om du vill dela den med andra användare. När användarna får länken öppnas postsidan.
 
    >[!TIP]
    >
-   >Fälten för posten på detaljsidan är samma fält som är tillgängliga i postens tabellvy.
+   >Fälten på postsidan är samma fält som är tillgängliga i postens tabellvy.
 
 
    <!--add there when it will be available: if they have access to this record-->

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2186'
 ht-degree: 0%
@@ -253,13 +253,13 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Workfront-planering, ett nytt erbjudande från Adobe Workfront.
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Workfront-planering i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>För närvarande ingår Workfront Planning i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
 >
->Kontakta din kontorepresentant för mer information om hur du går med i betaprogrammet för Workfront-planering.
+>Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Workfront Planning.
 >
->Mer information finns i [Översikt över Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

@@ -1,11 +1,11 @@
 ---
 title: Ta bort fält
-description: I Adobe Workfront-planeringen kan du ta bort anpassade fält som inte längre är relevanta.
+description: I Adobe Workfront Planning kan du ta bort anpassade fält som inte längre är relevanta.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-I Adobe Workfront kan du skapa anpassade fält för att lagra information om poster.
+I Adobe Workfront Planning kan du skapa anpassade fält för att lagra information om poster.
 
-Mer information om hur du skapar anpassade fält i Workfront-planeringen finns i [Skapa fält](../fields/create-fields.md).
+Mer information om hur du skapar anpassade fält i Workfront Planning finns i [Skapa fält](../fields/create-fields.md).
 
-Du kan ta bort planeringsfält i Workfront som inte längre är relevanta.
+Du kan ta bort Workfront Planning-fält som inte längre är relevanta.
 
-## Att tänka på när du tar bort planeringsfält i Workfront:
+## Att tänka på när du tar bort Workfront Planning-fält:
 
 * Du kan bara ta bort ett fält i posttyptabellvyn.
 * Du kan inte ta bort det primära fältet för en post.
@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-maestro}}
 
-Då öppnas den senast använda arbetsytan i Workfront planering.
+Då öppnas den senast använda arbetsytan i Workfront Planning.
 1. Klicka på kortet för en posttyp vars fält du vill ta bort.
 1. (Villkorligt) Välj en **Tabellvy** från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
 1. Leta reda på fältet som du vill ta bort i kolumnrubrikerna, håll markören över kolumnrubriken och klicka sedan på nedåtpilen efter fältnamnet.

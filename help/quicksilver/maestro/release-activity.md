@@ -1,22 +1,22 @@
 ---
-title: Adobe Workfront planerings- och lanseringsaktivitet
-description: Adobe Workfront planeringsfunktioner är för närvarande tillgängliga för utvalda Workfront-kunder. Läs den här artikeln ofta och lär dig mer om de funktioner som nyligen släppts för planeringsfunktionerna.
+title: Adobe Workfront Planning - lanseringsaktivitet
+description: Adobe Workfront Planning-funktionerna är för närvarande tillgängliga för vissa Workfront-kunder. Läs den här artikeln ofta och lär dig mer om de funktioner som nyligen släppts för planeringsfunktionerna.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront planerings- och lanseringsaktivitet
+# Adobe Workfront Planning - lanseringsaktivitet
 
 {{maestro-important-intro}}
 
-I den här artikeln listas de funktioner som har släppts efter lanseringen av Adobe Workfront planeringsfunktioner, som avslutades i betaprogram den 22 maj 2023.
+I den här artikeln listas de funktioner som har släppts efter lanseringen av betaprogrammet Adobe Workfront Planning capabilities, som avslutades den 22 maj 2023.
 
 De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i planeringsfunktionerna i ett slutet betaprogram får tillgång till alla funktioner i sina produktionsmiljöer.
 
@@ -24,7 +24,7 @@ De släppta funktionerna listas i den ordning de släpps, med den senaste först
 >
 >Mellan maj 2023 och december 2023 släpptes alla funktioner i den här artikeln till både förhandsgransknings- och produktionsmiljön. Planeringsfunktionerna har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som släpps efter detta datum är för närvarande tillgängliga i Produktion.
 
-I den här artikeln listas de funktioner och korrigeringar som har släppts efter lanseringen av Adobe Workfront planeringsfunktioner som avslutades i betaprogram den 22 maj 2023.
+I den här artikeln listas de funktioner och korrigeringar som har släppts efter lanseringen av betaprogrammet Adobe Workfront Planning capabilities, som avslutades den 22 maj 2023.
 
 Funktionerna släpps varje vecka och visas i den ordning de släpps, med den senaste först. Kunder som deltar i planeringsfunktionerna i ett slutet betaprogram får tillgång till alla funktioner i sina förhandsgransknings- och produktionsmiljöer.
 
@@ -64,13 +64,23 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/maestro/views/manag
 
 ### Namnet på Maestro-området på huvudmenyn har ändrats till Planning
 
-Produktion: 28 mars 2024
+Produktion: 27 mars 2024
 
 Förhandsgranska: Ska bestämmas
 
 Vi har bytt namn på Maestro-området på Main Menu till Planning.
 
-En översikt över Adobe Workfront planering finns på [Översikt över Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+En översikt över Adobe Workfront Planning finns på [Adobe Workfront Planning - översikt](/help/quicksilver/maestro/maestro-overview.md).
+
+### Ny upplevelse när en posttyp tas bort
+
+Produktion: 27 mars 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi har gjort om bekräftelserutan när vi tar bort en posttyp. Det är viktigt att du tar bort en posttyp eftersom alla poster, fält, information i fälten samt vyer som är kopplade till posttypen också tas bort. Borttagna posttyper och borttagen information kan inte återställas.
+
+Av den anledningen vill vi se till att användarens avsikt är korrekt när en posttyp tas bort, så vi har tagit ett extra steg för att bekräfta borttagningen. Mer information finns i [Ta bort posttyper](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## Vecka 18 mars 2024
 
@@ -82,15 +92,15 @@ Förhandsgranska: Ska bestämmas
 
 Nu kan du filtrera information i kalendervyn. Mer information finns i [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Rutan Detaljer har lagts till i tidslinjen och kalendervyer
+### Ruta med postinformation tillagd i tidslinjen och kalendervyer
 
 Produktion: 19 mars 2024
 
 Förhandsgranska: Ska bestämmas
 
-Nu kan du komma åt rutan Detaljer för en post från tidslinjen och kalendervyer. Du kan redigera poster i rutan Detaljer inuti tidslinjen och kalendervyer.
+Nu kan du komma åt en ruta med postinformation från tidslinjen och kalendervyer. Du kan redigera poster i postens ruta i tidslinje- och kalendervyerna.
 
-I rutan Detaljer kan du öppna postens informationssida.
+I postens ruta kan du öppna postsidan på en ny flik i webbläsaren.
 
 Mer information finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ För att göra det enklare att visa ytterligare information om poster när du an
 
 * Möjlighet att ändra postinformation
 
-* En länk för att öppna postens informationssida
+* En länk för att öppna postens sida
 
 Mer information finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ Följande är de högsta behörighetsnivåerna som användare kan få baserat p�
 
 Mer information om den nya licensmodellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstyp vid användning av Adobe Workfront-planering](/help/quicksilver/maestro/access/license-type-overview.md).
+Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nytt utseende och ny känsla i RTF-verktygsfältet för postfält
@@ -360,7 +370,7 @@ För att skapa konsekvens när du skapar poster har vi ändrat namnet på länke
 
 Förhandsgranska och sandlåda: 11 januari 2024
 
-Adobe Workfront planeringsfunktioner har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna. De kommer att läggas till i dessa miljöer vid ett senare tillfälle, som vi kommer att informera om i versionsinformationen.
+Adobe Workfront Planning-funktionerna har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna. De kommer att läggas till i dessa miljöer vid ett senare tillfälle, som vi kommer att informera om i versionsinformationen.
 
 ### Planeringsfunktioner behörigheter för arbetsytor och vyer
 
@@ -387,7 +397,7 @@ Följande behörighetsnivåer gäller för postvyer:
 * Visa: Användare kan välja vyn i listrutan Visa på en posttypsida.
 * Hantera: Användare kan redigera, dela och ta bort vyn.
 
-Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md) och [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](../maestro/access/sharing-permissions-overview.md).
+Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md) och [Översikt över delningsbehörigheter i Adobe Workfront Planning-funktioner](../maestro/access/sharing-permissions-overview.md).
 
 ### Ny formelfältstyp
 
@@ -439,7 +449,7 @@ Nu kan du söka efter ett nyckelord för att snabbt hitta en post i tidslinjevyn
 
 ## Vecka 18 december 2023
 
-### Lägga till kommentarer på poster från detaljsidan
+### Lägga till kommentarer på poster från postens sida
 
 Preview and Production for all customers: 18 december 2023
 
@@ -455,7 +465,7 @@ Preview and Production for all customers: 18 december 2023
 >
 >Mer information finns i [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-Nu kan du samarbeta med andra om enskilda poster genom att lägga till kommentarer eller svara andra samtidigt som du visar en post på detaljsidan.
+Nu kan du samarbeta med andra om enskilda poster genom att lägga till kommentarer eller svara andra samtidigt som du visar en posts sida.
 
 Kommentarsupplevelsen för planeringsfunktionsposter matchar den nya kommentarsfunktionen för Workfront-objekt.
 
@@ -467,7 +477,7 @@ Produktion: 21 december 2023
 
 >[!IMPORTANT]
 >
->Din organisation måste köpa Adobe Workfront Fusion för att kunna bygga anslutningar med Adobe Workfront planeringsfunktioner.
+>Man måste köpa Adobe Workfront Fusion för att kunna bygga anslutningar med Adobe Workfront Planning.
 >
 >Mer information finns i [Adobe Workfront Fusion - översikt](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -525,11 +535,11 @@ Produktionsrelease: 21 december 2023
 
 >[!IMPORTANT]
 >
->Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Adobe Workfront planeringsfunktionsposter till Adobe Experience Manager Assets.
+>Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att Adobe Workfront Planning capabilities-poster ska kunna anslutas till Adobe Experience Manager Assets.
 >
 >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Nu kan du upprätta en anslutning mellan posttyperna för Adobe Workfront planeringsfunktioner och Adobe Experience Manager Assets.
+Nu kan du upprätta en anslutning mellan posttyperna för Adobe Workfront Planning-funktioner och Adobe Experience Manager Assets.
 
 När du har upprättat anslutningen är följande funktioner tillgängliga med den här uppdateringen:
 
@@ -608,7 +618,7 @@ Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-vi
 
 Förhandsgranska och produktion: 30 oktober 2023
 
-Vi har introducerat följande fälttyper för Adobe Workfront planeringsfunktionsposter:
+Vi har introducerat följande fälttyper för Adobe Workfront Planning-funktionsposter:
 
 * Skapad av
 
@@ -630,7 +640,7 @@ Nu kan du öppna Workfront objektsidor från följande områden i planeringsfunk
 
 * Skrivskyddad vy för Workfront-objektspostregister
 
-* Workfront-objektets skrivskyddade postinformationssida
+* Den skrivskyddade postsidan för Workfront-objekt
 
 Mer information finns i [Koppla poster](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ Nu kan du lägga till ett persontypsfält i posttyper för planeringsfunktioner.
 
 Förhandsgranska och produktion: 16 oktober 2023
 
-Vi har lagt till kontroller för Rich Text-format för stycketextfält. Du kan formatera styckefält med RTF-text antingen i tabellvyn för en posttyp eller på detaljsidan för en post. Mer information finns i [Redigera poster](../maestro/records/edit-records.md).
+Vi har lagt till kontroller för Rich Text-format för stycketextfält. Du kan formatera styckefälten med RTF antingen i tabellvyn av en posttyp eller på postsidan. Mer information finns i [Redigera poster](../maestro/records/edit-records.md).
 
 
 ### Spela in och gruppera färgkodning för tidslinjevyn
@@ -752,7 +762,7 @@ Mer information finns i [Hantera tabellvyn](../maestro/views/manage-the-table-vi
 
 ## Vecka 21 augusti 2023
 
-### Koppla samman Adobe Workfront planeringsdokument med program och portfolior
+### Koppla samman Adobe Workfront Planning-funktionsposter med program och portfolior
 
 Förhandsgranska och produktion: 24 augusti 2023
 
@@ -839,7 +849,7 @@ Nu kan du lägga till en fälttyp för kryssruta i posttyper för planeringsfunk
 
 Förhandsgranskning och produktion: 28 juni 2023
 
-Vi har aktiverat möjligheten att aktivera snabbmenyn genom att högerklicka var som helst i en postrad, när du visar posterna i tabellvyn eller en posttyp. Nu kan du snabbt visa, ta bort eller kopiera en länk till postens informationssida när du öppnar snabbmenyn från valfri plats i tabellvyn för en posttyp. Före den här förbättringen var snabbmenyn bara tillgänglig från menyn Mer i kolumnen Namn på en post.
+Vi har aktiverat möjligheten att aktivera snabbmenyn genom att högerklicka var som helst i en postrad, när du visar posterna i tabellvyn eller en posttyp. Nu kan du snabbt visa, ta bort eller kopiera en länk till postens sida när du öppnar snabbmenyn från valfri plats i tabellvyn för en posttyp. Före den här förbättringen var snabbmenyn bara tillgänglig från menyn Mer i kolumnen Namn på en post.
 
 ## Vecka 19 juni 2023
 
@@ -849,7 +859,7 @@ Vi har infört ett krav nu på att fältnamnen för en posttyp för planeringsf�
 
 ## Vecka 5 juni 2023
 
-### Koppla samman Adobe Workfront planeringsfunktionsposter med Workfront-projekt
+### Koppla samman Adobe Workfront Planning-funktionsposter med Workfront-projekt
 
 Förhandsgranskning och produktion: 5 juni 2023
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Du kan koppla Adobe Workfront planeringsdokument till varandra eller till objekt från andra program.
+Du kan ansluta Adobe Workfront Planning-poster till varandra eller till objekt från andra program.
 
 Du måste först koppla två posttyper till varandra, eller en posttyp till en objekttyp från ett annat program. Då skapas länkade postfält. Du kan sedan koppla poster till varandra eller till andra objekt från andra program med hjälp av de länkade postfälten.
 
@@ -42,8 +42,8 @@ Ett exempel på hur du ansluter posttyper finns i [Exempel på att ansluta postt
 
 Du kan ansluta följande:
 
-* Adobe Workfront planeringsregister
-* Adobe Workfront planerar poster med objekt från andra program.
+* Adobe Workfront Planning - poster
+* Adobe Workfront Planning registrerar med objekt från andra program.
 
   Du kan koppla poster till objekt av den typ som listas nedan från följande program:
 
@@ -77,12 +77,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>För att kunna koppla samman Adobe Workfront planeringsdokument med Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p>
+   <p>Om du vill ansluta Adobe Workfront Planning-poster till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning closed. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -129,14 +129,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ### Att tänka på när det gäller att ansluta poster
 
-* När du har anslutit posttyper visas de kopplade posttyperna som länkade postfält i tabellen med de posttyper som de är länkade från och på detaljsidan för de poster som de länkar från.
+* När du har anslutit posttyper visas de kopplade posttyperna som länkade postfält i tabellen med de posttyper som de är länkade från och på posternas sidor.
 * Du kan bläddra bland och lägga till poster och objekt för den länkade posten och objekttyperna från de länkade postfälten.
 * Du kan lägga till fält av de länkade posttyperna i tabellen med den posttyp som du länkar från.
 * Du kan inte uppdatera värdena för länkade fält manuellt på de poster som du länkar från.
 
-  Värdena för de länkade fälten för de länkade posterna fyller i den planeringspost i Workfront som du länkar från automatiskt från den ursprungliga posten eller det ursprungliga objektet.
+  Värdena för de länkade fälten för de länkade posterna fyller i den Workfront Planning-post som du länkar från automatiskt från den ursprungliga posten eller det ursprungliga objektet.
 
-* Alla som har åtkomst till Workfront-planering och behörigheten Visa eller högre till arbetsytan kan se anslutningarna som du gör mellan poster eller mellan poster och andra programs objekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
+* Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan kan se anslutningarna mellan posterna eller mellan poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
 * Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan där de anslutna posterna finns.
 * Du kan koppla en post till ett eller flera objekt från ett annat program.
 * Om du vill länka poster till andra poster eller objekt måste du ha följande:
@@ -151,7 +151,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md)
 
-### Koppla samman Adobe Workfront planeringsdokument
+### Anslut Adobe Workfront Planning-poster
 
 {{step1-to-maestro}}
 
@@ -183,7 +183,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    >[!TIP]
    >
-   >    Du kan öppna en posts informationssida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till poster från den anslutna posten eller objekttypen.
+   >    Du kan öppna en postsida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till poster från den anslutna posten eller objekttypen.
 
    Följande ska läggas till:
 
@@ -207,7 +207,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Observera att **Campaign** I det länkade postfältet visas namnen på de kampanjer du har länkat till produkter på sidan Produktposttyp. Om du uppdaterar Campaign-informationen uppdateras automatiskt det Campaign-länkade postfältet för produktposttypen.
 
-### Koppla Adobe Workfront planeringsdokument till Workfront-objekt
+### Koppla Adobe Workfront Planning-poster till Workfront-objekt
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
@@ -215,7 +215,7 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
 >[!NOTE]
 >
->Du kan inte koppla Workfront-objekt till Workfront planeringsdokument från Workfront.
+>Du kan inte ansluta Workfront-objekt till Workfront Planning-poster från Workfront.
 
 
 {{step1-to-maestro}}
@@ -260,13 +260,13 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    >[!TIP]
    >
-   >Du kan öppna en posts informationssida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till objekt från den anslutna objekttypen.
+   >Du kan öppna en postsida, leta upp det länkade postfältet och klicka på **+** -ikonen i fältet om du vill lägga till objekt från den anslutna objekttypen.
 
    Mer information om hur du ansluter posttyper med objekt från ett annat program finns i [Koppla posttyper](../architecture/connect-record-types.md).
 
-1. (Valfritt) Klicka på namnet på ett Workfront-objekt som är anslutet till en planeringspost i Workfront, antingen i det länkade fältet i en tabellvy eller från det länkade fältet i **Information** postens sida.
+1. (Valfritt) Klicka på namnet på ett Workfront-objekt som är anslutet till en Workfront Planning-post i det länkade fältet i en tabellvy eller från det länkade fältet på postsidan.
 
-   Detta öppnar den skrivskyddade Workfront-planeringen **Information** för det länkade Workfront-objektet. De fält som du valde som sökfält när du kopplade posttypen med Workfront-objektet visas på sidan Detaljer i Workfront planeringspost.
+   Då öppnas den skrivskyddade postsidan för Workfront Planning för det länkade Workfront-objektet. De fält som du markerade som uppslagsfält när du kopplade posttypen med Workfront-objektet visas på postsidan för Workfront Planning.
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ Den senast använda arbetsytan bör öppnas som standard.
    >
    >* Inget länkat postfält skapas för de länkade Workfront-objekten i Workfront.
 
-1. (Valfritt) Om du vill öppna det länkade Workfront-objektet i Workfront klickar du på **Gå till källa** i det övre högra hörnet på Workfront-objektets informationssida.
+1. (Valfritt) Om du vill öppna det länkade Workfront-objektet i Workfront klickar du på **Gå till källa** i det övre högra hörnet på Workfront-objektets postsida.
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -288,16 +288,16 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    Ta bort Workfront-objektfält från **Markerade fält** område.
 
-   Detta lägger till eller tar bort länkade fält från Workfront planeringsposter. Informationen som är kopplad till de borttagna fälten finns kvar i Workfront.
+   Detta lägger till eller tar bort länkade fält från Workfront Planning-poster. Informationen som är kopplad till de borttagna fälten finns kvar i Workfront.
 
 
-### Koppla Workfront planeringsdokument till Adobe Experience Manager-objekt
+### Koppla Workfront Planning-poster till Adobe Experience Manager-objekt
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront planeringsdokument till Adobe Experience Manager Assets.
+>Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
 >
 >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    >[!TIP]
    >
-   >  Du kan lägga till klicka på **+** -ikonen i det länkade objektfältet på postens detaljsida för att koppla resurser till posten.
+   >  Du kan lägga till klicka på **+** -ikonen i fältet för länkade objekt på postsidan för att koppla resurser till posten.
 
    The **Välj resurser** visas. <!--we might change this to Connect assets-->
 
@@ -331,7 +331,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
    >[!IMPORTANT]
    >
-   > Du kan bara ansluta resurser som du har tillgång till för att visa i Experience Manager. När du är uppkopplad kan alla Workfront planeringsanvändare visa resurserna i Workfront-planeringen, oavsett vilken åtkomst de har i Experience Manager Assets.
+   > Du kan bara ansluta resurser som du har tillgång till för att visa i Experience Manager. När du är ansluten kan alla användare av Workfront Planning se resurserna i Workfront Planning, oavsett vilken åtkomst de har i Experience Manager Assets.
 
 1. Klicka **Välj**. <!-- we might change this to Connect-->
 
@@ -346,7 +346,7 @@ Den senast använda arbetsytan bör öppnas som standard.
      >
      >* Om du har aktiverat inställningen Tillåt flera poster visas värdena för de olika objekten antingen separerade med kommatecken eller aggregerade enligt den aggregator du har valt.
      >
-     >* Ett länkat postfält till Workfront planeringsrelaterade länkade poster skapas inte för de länkade Experience Manager-resurserna i Experience Manager Assets-programmet.
+     >* Ett länkat postfält till de länkade posterna för Workfront Planning skapas inte för de länkade Experience Manager-resurserna i Experience Manager Assets-programmet.
 
 1. (Valfritt) Gå till den posttyp som du länkade till Experience Manager Assets från och klicka på namnet på en resurs i det länkade postfältet. Information om resursen Experience Manager i ett popup-fönster. <!--update screen shot with hi-rez picture-->
 
@@ -364,7 +364,7 @@ Den senast använda arbetsytan bör öppnas som standard.
    * Skapad den
    * Ändrat den
 
-1. (Valfritt) Om du vill öppna informationssidan för resursposten i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på **Öppna** icon ![](assets/open-asset-icon.png) för att öppna resursen.
+1. (Valfritt) Om du vill öppna postsidan för resursposter i Experience Manager i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på **Öppna** icon ![](assets/open-asset-icon.png) för att öppna resursen.
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 

@@ -1,13 +1,13 @@
 ---
 title: Lägga till miniatyrbilder i poster
-description: Du kan redigera postinformation i Adobe Workfront-planeringen och associera varje post med enskilda miniatyrbilder för att göra dem lätta att känna igen.
+description: Du kan redigera postinformation i Adobe Workfront Planning och associera varje post med enskilda miniatyrbilder för att göra dem lätta att känna igen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Du kan associera poster med unika miniatyrbilder i Adobe Workfront-planeringen för att göra dem lätta att känna igen.
+Du kan associera poster med unika miniatyrbilder i Adobe Workfront Planning för att göra dem lätta att känna igen.
 
 Du måste skapa posttyper innan du kan börja skapa och redigera poster.
 Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Workfront-planering </p>  
+   <td> <p>Det finns inga åtkomstkontroller för Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -93,8 +93,8 @@ Tänk på följande:
 
    * Det primära fältet för en post i tabellvyn
    * Postfältet i tidslinjevyn.
-* Du kan inte lägga till postminiatyrer från postens informationssida eller i tidslinjevyn.
-* Miniatyrbilder visas inte på postens informationssida.
+* Du kan inte lägga till postminiatyrer från postens sida eller från en annan typ av vy.
+* Miniatyrbilder visas inte på postens sida.
 
 ## Lägga till en miniatyrbild i en post
 

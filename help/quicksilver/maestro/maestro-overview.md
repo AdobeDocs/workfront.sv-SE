@@ -1,18 +1,18 @@
 ---
-title: Översikt över Adobe Workfront
-description: Adobe Workfront Planering är ett nytt erbjudande från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
+title: Adobe Workfront Planning - översikt
+description: Adobe Workfront Planning är ett nytt erbjudande från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1790'
 ht-degree: 0%
 
 ---
 
-# Översikt över Adobe Workfront
+# Adobe Workfront Planning - översikt
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Workfront-planering, ett nytt erbjudande från Adobe Workfront.
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Adobe Workfront-planering i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>För närvarande ingår Adobe Workfront Planning i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
 >
->Kontakta din kontorepresentant för mer information om hur du går med i betaprogrammet för Workfront-planering.
+>Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Workfront Planning.
 
-<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
+<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-## Introduktion till Adobe Workfront-planering
+## Introduktion till Adobe Workfront Planning
 
-Adobe Workfront Planering är ett nytt erbjudande från Adobe Workfront. Syftet med Workfront planering är att ge en heltäckande inblick i en organisations operativa information och besvara viktiga affärsfrågor i varje fas av arbetshanteringens livscykel.
+Adobe Workfront Planning är ett nytt erbjudande från Adobe Workfront. Syftet med Workfront Planning är att ge en heltäckande inblick i en organisations operativa information och besvara viktiga affärsfrågor i varje fas av arbetshanteringens livscykel.
 
 Team och ledarskap behöver tydliga svar på frågor som:
 
@@ -49,11 +49,11 @@ Nedan följer några av de viktigaste funktionerna:
 * Anpassa arbetsflödena helt och hållet, från att bestämma vilka objekttyper (eller posttyper) organisationen använder till att konfigurera hur dessa objekt länkar till varandra.
 * Länka till objekttyper från andra system och skapa ett sammanhängande ramverk för alla era processer.
 
-## Adobe Workfront planeringsfunktioner
+## Adobe Workfront Planning-funktioner
 
-I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Workfront-planeringen och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
+I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Workfront Planning och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
 
-Information om nya funktioner och när de släpps finns på [Adobe Workfront planerings- och lanseringsaktivitet](/help/quicksilver/maestro/release-activity.md).
+Information om nya funktioner och när de släpps finns på [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/maestro/release-activity.md).
 
 | Funktion | Ute nu | Tillgänglig snart | Forskning |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -75,10 +75,10 @@ Information om nya funktioner och när de släpps finns på [Adobe Workfront pla
 | Ansluta arbetsytor |                               | ✓ |                  |
 | Söka efter poster i tabellvyn | ✓ |   |
 | Söka efter poster i tidslinjevyn | ✓ |   |
-| Koppla samman Workfront planeringsdokument med Workfront projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
-| Koppla Workfront planeringsdokument till Adobe Experience Manager | ✓ |                                  |                 |
-| Sidan Postdetaljer | ✓ |                                  |                  |
-| Uppdatera layouten på sidan med postinformation |                               | ✓ |                  |
+| Koppla samman Workfront Planning-poster med Workfront-projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
+| Koppla Workfront Planning-poster till Adobe Experience Manager-resurser | ✓ |                                  |                 |
+| Spela in sida med detaljerad information | ✓ |                                  |                  |
+| Uppdatera layouten för postens sida |                               | ✓ |                  |
 | Dela arbetsytor | ✓ | |  |
 | Visa | ✓ | |  |
 | Duplicera vyer | ✓ | |  |
@@ -89,22 +89,22 @@ Information om nya funktioner och när de släpps finns på [Adobe Workfront pla
 | Lägga till miniatyrbilder i poster | ✓ |                                  |                 |
 | Visa ändringshistorik för en post | ✓ |                                  |                 |
 | RTF-formatering för styckefält | ✓ |                                  |                 |
-| Adobe Workfront planeringsmoduler för Adobe Workfront Fusion | ✓ |                                  |                 |
+| Adobe Workfront Planning modules for Adobe Workfront Fusion | ✓ |                                  |                 |
 | Kopiera och klistra in information från ett fält till ett annat | ✓ |                                  |                 |
 
-## Aktivera Adobe Workfront-planering för användare i din Workfront-instans
+## Aktivera Adobe Workfront Planning för användare i din Workfront-instans
 
-Din organisation måste registrera sig för ett betaprogram som Adobe Workfront planerar stängt innan du kan komma åt planeringsfunktionerna. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
+Din organisation måste registrera sig i det slutna betaprogrammet för Adobe Workfront Planning innan du kan komma åt planeringsfunktionerna. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
 
-Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront-planering finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
+Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
-## Adobe Workfront planeringsterminologi
+## Adobe Workfront Planning - terminologi
 
-Även om Workfront-planering är en del av Workfront, innehåller den egna koncept och terminologi. Se till att du känner till de nya koncepten innan du börjar konfigurera Workfront-planering för din organisation.
+Även om Workfront Planning är en del av Workfront innehåller den egna koncept och terminologi. Se till att du känner till de nya koncepten innan du börjar konfigurera Workfront Planning för din organisation.
 
-Ramverket för Workfront-planering är helt anpassningsbart. Du kan skapa alla posttyper, deras attribut och alla fält som är kopplade till dem för att passa din organisations behov.
+Ramverket för Workfront Planning är helt anpassningsbart. Du kan skapa alla posttyper, deras attribut och alla fält som är kopplade till dem för att passa din organisations behov.
 
-Här följer de viktigaste planeringsmålen och begreppen för Workfront:
+Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 * **Arbetsyta**: En samling posttyper som definierar en viss organisations operativa livscykel. En arbetsyta är en arbetsyta i en organisationsenhet.
 
@@ -114,13 +114,13 @@ Här följer de viktigaste planeringsmålen och begreppen för Workfront:
 
   Mer information finns i [Skapa arbetsytor](../maestro/architecture/create-workspaces.md).
 
-* **Posttyp**: Objekttypen eller Workfront-planering.
+* **Posttyp**: Objekttypen eller Workfront Planning.
 
-  Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Workfront-planeringen.
+  Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Workfront Planning.
 
   I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
 
-  I Workfront-planeringen kan du skapa alla posttyper som passar organisationens arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
+  I Workfront Planning kan du skapa alla posttyper som passar organisationens arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.
 
   Mer information finns i [Översikt över posttyper](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
@@ -138,7 +138,7 @@ Här följer de viktigaste planeringsmålen och begreppen för Workfront:
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront planering levereras med en arbetsyta för försäljning, marknadsföring och produkthantering.
+  Adobe Workfront Planning innehåller en arbetsyta för försäljning, marknadsföring och produkthantering.
 
   Mer information finns i [Skapa arbetsytor](../maestro/architecture/create-workspaces.md).
 
@@ -150,11 +150,11 @@ Här följer de viktigaste planeringsmålen och begreppen för Workfront:
 
    * De fält som du lägger till för en posttyp kopplas automatiskt till alla poster av den typen och kan användas för att samla in data om dessa poster.
 
-   * Fält visas som kolumner i tabellvyn som används på en posttypssida. De visas även på postens detaljsida.
+   * Fält visas som kolumner i tabellvyn som används på en posttypssida. De visas också på postens sida.
 
    * Fält är unika för en posttyp och överförs inte från en posttyp till en annan.
 
-   * Fälten är helt anpassningsbara och går bara att komma åt vid Workfront-planering. Du har inte åtkomst till planeringsfält från Workfront från Workfront.
+   * Fälten är helt anpassningsbara och går bara att komma åt i Workfront Planning. Du har inte åtkomst till Workfront Planning-fält från Workfront.
 
   Mer information finns i [Skapa fält](../maestro/fields/create-fields.md).
 
@@ -184,7 +184,7 @@ Här följer de viktigaste planeringsmålen och begreppen för Workfront:
    * Senast ändrad av
    * Senast ändrat den
 
-* **Länkade posttyper**, **Länkade poster** och **Länkade postfält**: Du kan skapa en anslutning mellan följande enheter i Workfront-planeringen:
+* **Länkade posttyper**, **Länkade poster** och **Länkade postfält**: Du kan skapa en anslutning mellan följande enheter i Workfront Planning:
 
    * Två posttyper.
    * En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.
@@ -233,13 +233,14 @@ Här följer de viktigaste planeringsmålen och begreppen för Workfront:
 Mer information finns i [Hantera postvyer](../maestro/views/manage-record-views.md).
 
 
-## Begränsningar för Adobe Workfront-planeringsobjekt
+## Begränsningar för Adobe Workfront Planning-objekt
 
-I följande tabell visas gränserna för hur många objekt du kan skapa i Workfront-planeringen. Begränsningarna kan komma att ändras när vi går vidare till nästa utvecklingsfas.
+I följande tabell visas gränserna för hur många objekt du kan skapa i Workfront Planning. Begränsningarna kan komma att ändras när vi går vidare till nästa utvecklingsfas.
 
-| Adobe Workfront planeringsobjekt | Gräns |
+| Adobe Workfront Planning-objekt | Gräns |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Antal arbetsytor för en Workfront-instans | 1 000 |
+| Antal avsnitt för en arbetsyta | 50 |
 | Antal posttyper för en arbetsyta | 1 000 (inkluderar posttyper från alla avsnitt och de som skapas när en arbetsytemall används) |
 | Antal poster för en posttyp | 50 000 |
 | Antal fält för en posttyp eller taxonomi | 500 |
@@ -254,11 +255,11 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 >*Den här funktionen har inaktiverats tillfälligt och kommer att finnas tillgänglig vid ett senare tillfälle.
 
 
-## Hitta Adobe Workfront-planering
+## Hitta Adobe Workfront Planning
 
-Kontrollera att din organisation har fått tillgång till Workfront-planering och att din system- eller gruppadministratör har lagt till planeringsområdet på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
+Kontrollera att din organisation har fått tillgång till Workfront Planning och att din system- eller gruppadministratör har lagt till Planning-området på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
-Så här hittar du Workfront-planering:
+Så här hittar du Workfront Planning:
 
 1. Logga in på Adobe Workfront.
 
@@ -286,9 +287,9 @@ Så här hittar du Workfront-planering:
 
       Börja lägga till postfält genom att lägga till kolumner.
 
-## Adobe Workfront planerings- och lanseringsaktivitet
+## Adobe Workfront Planning - lanseringsaktivitet
 
-Vi lanserar regelbundet nya funktioner för Workfront planering.
+Vi lanserar regelbundet nya funktioner i Workfront Planning.
 
-En uppdaterad lista över funktioner som släppts finns på [Adobe Workfront planerings- och lanseringsaktivitet](../maestro/release-activity.md).
+En uppdaterad lista över funktioner som släppts finns på [Adobe Workfront Planning - lanseringsaktivitet](../maestro/release-activity.md).
 

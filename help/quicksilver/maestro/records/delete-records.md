@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Du kan ta bort poster som inte längre är relevanta i Adobe Workfront-planeringen.
+Du kan ta bort poster som inte längre är relevanta i Adobe Workfront Planning.
 
 ## Åtkomstkrav
 
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront-planering </p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan ta bort en post från följande områden:
 
-* [Från detaljsidan för en post](#delete-a-record-from-the-records-details-page)
+* [Från postens sida](#delete-a-record-from-the-records-page)
 * [Från tabellvyn för en posttyp](#delete-a-record-from-the-record-type-table-view)
 
-### Ta bort en post från postens informationssida
+### Ta bort en post från postens sida
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ Arbetsytan som du öppnar senast öppnas.
      ![](assets/contextual-menu-for-record-row.png)
    * Klicka på ett postfält i en tidslinjevy.
 
-   Posten **Information** sidan öppnas.
+   Postsidan öppnas.
 
 1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort** sedan **Ta bort** igen för att bekräfta.
 
@@ -141,7 +141,7 @@ Arbetsytan som du senast öppnade öppnas.
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Klicka på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) för att öppna rutan Detaljer och klicka på **Mer** ![](assets/more-menu.png) till höger om postnamnet, och **Ta bort**.
+   * Klicka på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) för att öppna rutan med postens detaljerade information och klicka på **Mer** ![](assets/more-menu.png) till höger om postnamnet, och **Ta bort**.
 
    Posten tas bort och kan inte återställas.
 

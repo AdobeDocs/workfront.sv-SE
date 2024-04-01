@@ -1,13 +1,13 @@
 ---
 title: Hantera tidslinjevyn
-description: Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Workfront-planeringen.
+description: Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Workfront-planeringen.
+Du kan visa poster i en tidslinjevy när du öppnar posttypssidan i Adobe Workfront Planning.
 
 Mer information om postvyer finns i [Hantera postvyer](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Adobe Workfront-licens</p></td>
    <td>
    <p>Alla</p> 
+   <p>Systemadministratörer har bara åtkomst till de vyer de har skapat eller som delas med dem. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront-planering </p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning </p>  
 </td>
   </tr>
 

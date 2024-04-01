@@ -1,13 +1,13 @@
 ---
 title: Exempel på att ansluta posttyper och poster
-description: I den här artikeln beskrivs ett exempel på hur du skapar en anslutning mellan posttypen Adobe Maestro och en Workfront-projektobjekttyp. Här beskrivs också hur du kan koppla en Maestro-post till ett enskilt projekt.
+description: I den här artikeln beskrivs ett exempel på hur du skapar en anslutning mellan posttypen Adobe Workfornt Planning och en Workfront-projektobjekttyp. Här beskrivs också hur du kan koppla en Workfront Planning-post till ett enskilt projekt.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,22 @@ ht-degree: 0%
 
 I den här artikeln beskrivs ett exempel på följande:
 
-* Så här skapar du en anslutning mellan två Maestro-posttyper och två Maestro-poster.
+* Så här skapar du en anslutning mellan två posttyper i Workfront Planning och två poster.
 
-* Så här skapar du en anslutning mellan en Adobe Maestro-posttyp och en Workfront-projektobjekttyp, samt en anslutning mellan en Maestro-post och ett projekt.
+* Så här skapar du en anslutning mellan en Workfront Planning-posttyp och en Workfront-projektobjekttyp samt en anslutning mellan en post och ett projekt.
 
 Mer information finns i följande artiklar:
 
 * [Koppla posttyper](../architecture/connect-record-types.md)
 * [Koppla poster](../records/connect-records.md)
 
-## Koppla samman två Maestro-posttyper och poster (exempel)
+## Koppla samman två posttyper och poster i Workfront Planning (exempel)
 
 Du har till exempel posttypen Campaign som ursprunglig posttyp.
 
 Du har också en annan posttyp som heter Produkt, som har ett valutafält som heter Budget.
 
-Du vill skapa ett fält på posttypen för Campaign där du kan visa värdena i fältet Budget för posttypen Produkt.
+Du vill skapa ett fält på posttypen för Campaign där du kan visa värdena i budgetfältet för posttypen Produkt.
 
 Så här gör du:
 
@@ -42,9 +42,9 @@ Så här gör du:
 1. Lägg till följande information, till exempel:
 
    * **Posttyp**: Produkt <!--did they change the casing here?-->
-   * **Namn**: Produktinformation. Det här är namnet på det länkade postfältet.
-   * **Beskrivning**: Det här är de produkter som jag vill att mina kampanjer ska vara kopplade till.
-   * **Tillåt flera poster**: Om du låter det här alternativet vara markerat kan användarna välja flera poster när det länkade posttypsfältet (produktinformation) visas på de ursprungliga posterna (kampanjer). I vårt fall kan de välja flera produkter som ska kopplas till en kampanj.
+   * **Namn**: Ge det nya fältet ett namn. Till exempel&quot;Produktinformation&quot;. Det här är namnet på det länkade postfältet.
+   * **Beskrivning**: Lägg till en beskrivning av det nya fältet. Exempel:&quot;Det här är de produkter som jag vill att mina kampanjer ska vara kopplade till.&quot; Beskrivningen av fältet visas när du hovrar över fältet i kolumnrubriken.
+   * **Tillåt flera poster**: Om du låter det här alternativet vara markerat kan användarna välja flera poster när det länkade posttypsfältet (produktinformation) visas på de ursprungliga posterna (kampanjer). I vårt fall kan användarna välja flera produkter som ska kopplas till en kampanj.
    * **Välj sökfält**: Om du låter det här alternativet vara markerat visas **Lägg till sökfält** öppnas nästa ruta så att du kan länka produktfält till posttypen Campaign. Klicka **Hoppa över** om du vill hoppa över det här steget och lägga till produktfält senare.
 
    ![](assets/new-connection-with-product-record-type.png)
@@ -57,16 +57,16 @@ Så här gör du:
    >
    >    Om du vill visa budgeten för alla valda produkter som ett totalt tal väljer du **SUM** i listrutan till höger om fältnamnet. När användare väljer flera produkter i **Produktinformation** länkat postfält, **Budget (från produktinformation)** läggs alla deras budgetvärden samman och summan visas. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Om du väljer **Ingen**, i stället för **SUM** visas de enskilda budgetarna åtskilda med kommatecken.
+   > Om du väljer **Ingen**, i stället för **SUM** visas de enskilda budgetarna för de valda produkterna åtskilda med kommatecken.
 
    Detta genererar följande fält:
 
-   * I registervyn Campaign och på sidan Details (Detaljer) för en kampanj:
+   * I registervyn Campaign och på kampanjpostsidan för en kampanj:
 
-      * **Produktinformation** (det länkade postfältet): Detta visar namnen på Produkterna.
+      * **Produktinformation** (det länkade postfältet): Detta visar namnen på produkterna när du lägger till dem.
       * **Budget (från produktinformation)** (det länkade fältet): Här visas budgetarna för de produkter som valts i fältet Produktinformation.
 
-   * I vyn Produktpostregister och på sidan Detaljer för en produkt:
+   * I produktposttabellvyn och på produktpostsidan för en produkt:
 
       * **Campaign**: Detta anger att produktposttypen är länkad från posttypen Campaign.
 
@@ -88,7 +88,7 @@ Så här gör du:
    * Börja skriva namnet på en produkt och klicka på den när den visas i listan. Produkten läggs till automatiskt.
    * Klicka **Se alla** för att visa alla produkter.
 
-1. (Villkorligt) Om du klickade **Markera alla** i föregående steg **Koppla objekt** visas.
+1. (Villkorligt) Om du klickade **Se alla** i föregående steg **Koppla objekt** visas.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -100,7 +100,7 @@ Så här gör du:
 
    >[!TIP]
    >
-   >    Du kan öppna sidan Detaljer för en kampanj, hitta det länkade postfältet och klicka på **+** -ikonen i fältet för att lägga till produkter från den anslutna produktposttypen.
+   >    Du kan öppna en Campaigns postsida, hitta det länkade postfältet och klicka på **+** -ikonen i fältet för att lägga till produkter från den anslutna produktposttypen.
 
    Följande kolumner är ifyllda i posttyptabellen för Campaign:
    * The **Produktinformation** fylls i för Campaign-posten med de valda produkterna.
@@ -110,18 +110,18 @@ Så här gör du:
 
    >[!TIP]
    >
-   >Om du inte väljer en aggregator för de flera värdena visas alla värden avgränsade med kommatecken.
+   >Om du inte väljer en aggregator för de flera värdena visas alla värden från de valda produkterna avgränsade med kommatecken.
 
 1. Fylla i **Campaign** fält från **Produkt** i tabellvyn, upprepa steg 5-7 med början från tabellvyn för produktposttyper och välj kampanjinformation. Detta uppdaterar även produktinformationsfältet i posttypssidans register för Campaign. <!--ensure the step numbers remain correct-->
 
 
-## Koppla en Maestro-posttyp till en Workfront-projektobjekttyp och koppla en post till enskilda projekt
+## Koppla en Workfront Planning-posttyp till en Workfront-projektobjekttyp och koppla en post till enskilda projekt
 
 Du har till exempel posttypen Campaign som ursprunglig posttyp.
 
 Du har också projekt i Workfront med ett fält som heter&quot;Planerad intäkt&quot;.
 
-Du vill skapa ett anslutningsfält för posttypen Campaign där du kan visa värdena i fältet Planerad intäkt för de projekt i Workfront som är kopplade till kampanjer i Maestro.
+Du vill skapa ett anslutningsfält för posttypen Campaign där du kan visa värdena i fältet Planerad intäkt för de projekt i Workfront som är kopplade till kampanjer i Workfront Planning.
 
 Så här gör du:
 
@@ -130,11 +130,11 @@ Så här gör du:
 1. Klicka på **+** i tabellvyns övre högra hörn för att lägga till ett nytt fält och klicka sedan på **Ny anslutning** och sedan klicka **Projekt** i **Workfront objekttyper** -avsnitt.
 1. Lägg till följande information, till exempel:
 
-   * **Posttyp**: Workfront Project (från Workfront underavdelning)
-   * **Namn**: Projektinformation. Detta är ett exempel på vad du kan kalla det länkade objektfältet.
-   * **Beskrivning**: Detta är de projekt som jag vill att mina kampanjer ska vara kopplade till. Detta är ett exempel på beskrivningen av det anslutna postfältet.
+   * **Posttyp**: Projekt (från Workfront underavsnitt)
+   * **Namn**: Ge det nya fältet ett namn, till exempel &quot;Projektinformation&quot;.
+   * **Beskrivning**: Lägg till en beskrivning av det nya fältet. Exempel:&quot;Detta är de projekt som jag vill att mina kampanjer ska vara kopplade till.&quot; Beskrivningen visas i tabellvyn när du hovrar över fältnamnet i kolumnrubriken.
    * 
-      * **Tillåt flera poster**: Om du låter det här alternativet vara markerat kan användarna välja flera projekt när det länkade projekttypsfältet (projektinformation) visas på de ursprungliga posterna (kampanjer).
+      * **Tillåt flera poster**: Om det här alternativet är markerat kan användare markera flera projekt när det länkade projekttypsfältet (projektinformation) visas på de ursprungliga posterna (kampanjer).
    * **Välj sökfält**: Om du låter det här alternativet vara markerat visas **Lägg till sökfält** öppnas nästa ruta så att du kan länka projektfält till posttypen Campaign. Klicka **Hoppa över** om du vill hoppa över det här steget och lägga till projektfält senare.
 
    ![](assets/new-connection-tab-with-workfront-option.png)
@@ -151,7 +151,7 @@ Så här gör du:
 
    Detta genererar följande fält:
 
-   * I registervyn Campaign och på sidan Details (Detaljer) för en kampanj:
+   * I posttabellvyn för Campaign och på kampanjpostsidan:
 
       * **Projektinformation** (det länkade objektfältet): Detta visar projektens namn.
       * **Planerad intäkt (från projektinformation)** (det länkade fältet): Detta visar de planerade intäkterna för de projekt som valts i fältet Projektinformation.
@@ -172,7 +172,7 @@ Så här gör du:
    * Börja skriva namnet på ett projekt och klicka på det när det visas i listan. Projektet läggs till automatiskt.
    * Klicka **Se alla** för att visa alla projekt.
 
-1. (Villkorligt) Om du klickade **Markera alla** i föregående steg **Koppla objekt** visas.
+1. (Villkorligt) Om du klickade **Se alla** i föregående steg **Koppla objekt** visas.
 
    ![](assets/connect-projects-larger-box.png)
 
@@ -184,7 +184,7 @@ Så här gör du:
 
    >[!TIP]
    >
-   >    Du kan öppna sidan Detaljer för en kampanj, hitta det länkade projektfältet och klicka på **+** -ikonen i fältet för att lägga till projekt från den anslutna produktposttypen.
+   >    Du kan öppna sidan för en kampanj, hitta det länkade projektfältet och klicka på **+** -ikonen i fältet för att lägga till projekt från den anslutna produktposttypen.
 
    Detta lägger till följande på den markerade arbetsytan:
 
@@ -200,15 +200,15 @@ Så här gör du:
 
 1. Klicka på namnet på ett projekt i det anslutna postfältet.
 
-   Detta öppnar de skrivskyddade Maestro-projektens **Information** sida.
-Granska information om projektet. Endast markerade projektfält visas på detaljsidan.
+   Detta öppnar den skrivskyddade sidan för projektet Woekfront Planning.
+Granska information om projektet. Endast markerade projektfält visas på postens sida.
 
 1. Klicka **Gå till källa** i skärmens övre högra hörn för att öppna projektet i Workfront, om du har minst behörigheten Visa för projektet.
 1. (Valfritt) Uppdatera information om projektet i Workfront, om du har behörighet att göra det.
 
-1. I Campaign-tabellvyn hovrar du över **Projektinformation** och klicka på nedåtpilen och klicka sedan på **Redigera uppslagsfält.**
-1. Klicka på **+** ikon för de projektfält som du vill lägga till i Workfront Project Makestro-posten i dialogrutan **Omarkerade fält** -avsnitt.
-1. Klicka på **-** ikon för de projektfält som du vill ta bort från Workfront Project Makestro-posten i dialogrutan **Markerade fält** -avsnitt.
+1. (Valfritt) I Campaign-tabellvyn håller du pekaren över **Projektinformation** och klicka på nedåtpilen och klicka sedan på **Redigera uppslagsfält.**
+1. Klicka på **+** ikon för de projektfält som du vill lägga till i projektposten för Workfront Planning i **Omarkerade fält** -avsnitt.
+1. Klicka på **-** ikon för alla projektfält som du vill ta bort från Workfront Project Planning-posten i **Markerade fält** -avsnitt.
 1. Klicka **Spara**.
 
    Ytterligare länkade fält läggs till i Campaign-posttypen.

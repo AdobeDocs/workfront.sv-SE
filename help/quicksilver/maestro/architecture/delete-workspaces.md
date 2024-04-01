@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-I Adobe Workfront är arbetsytor centraliserade platser där team kan planera arbetet. Mer information finns i [Skapa arbetsytor](../architecture/delete-workspaces.md).
+I Adobe Workfront Planning är arbetsytorna centraliserade platser där team kan planera arbetet. Mer information finns i [Skapa arbetsytor](../architecture/delete-workspaces.md).
 
 Du kan ta bort arbetsytor som inte längre är relevanta.
 
@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 

@@ -1,13 +1,13 @@
 ---
 title: Redigera poster
-description: Du kan redigera postinformation i Adobe Workfront-planeringen. Du måste skapa posttyper innan du kan börja skapa och redigera poster.
+description: Du kan redigera postinformation i Adobe Workfront Planning. Du måste skapa posttyper innan du kan börja skapa och redigera poster.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Du kan redigera postinformation i Adobe Workfront-planeringen genom att redigera värdena i fälten som är kopplade till posterna.
+Du kan redigera postinformation i Adobe Workfront Planning genom att redigera värdena i fälten som är kopplade till posterna.
 
 Du måste skapa posttyper innan du kan börja skapa och redigera poster.
 
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -92,8 +92,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Du kan redigera poster som du har skapat eller poster som har skapats av andra, om du har fått behörighet till arbetsytan.
 * Du kan redigera postfält från följande områden:
 
-   * Rutan Detaljer för en post från en postvy.
-   * Sidan Information för en post.
+   * Postens ruta i en postvy
+   * Postens sida
    * Textbunden i en tabellvy.
 
 * Följande typer av fält uppdateras automatiskt och du kan inte redigera deras värden manuellt:
@@ -109,7 +109,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan redigera en post i följande områden:
 
 * [Från tabellvyn för en posttyp](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Från detaljsidan för en post](#edit-a-record-from-the-records-details-page)
+* [Från postens ruta i en vy](#edit-a-record-from-the-records-box-in-a-view)
+* [Från postens sida](#edit-a-record-from-the-records-page)
 
 ### Redigera en post textbundet i tabellvyn för en posttyp
 
@@ -165,7 +166,7 @@ Arbetsytan som du senast öppnade öppnas.
    >   * Klistra in: CTRL + V ( ⌘ + V för Mac)
    >* Du kan inte kopiera information från en annan källa, förutom ett postfält av samma typ som det fält som du klistrar in informationen i.
    >
-   >* Du kan inte kopiera och klistra in fältvärden i området Detaljer för en post. Den här funktionen stöds bara i tabellvyn för en posttyp.
+   >* Du kan inte kopiera och klistra in fältvärden på postsidan. Den här funktionen stöds bara i tabellvyn för en posttyp.
    >* Du kan inte kopiera och klistra in fältvärden för följande fälttyper:
    >
    >
@@ -183,9 +184,7 @@ Arbetsytan som du senast öppnade öppnas.
 
 1. (Valfritt) Lägg till en miniatyrbild till en post. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Redigera en post från postens informationsruta i en vy
-
-Du kan redigera en post i rutan Detaljer för vilken vy som helst.
+### Redigera en post från postens ruta i en vy
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ Arbetsytan som du öppnar senast öppnas.
 
    eller
 
-   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn eller klicka på ett postnamn. The **Information** öppnas i vyn.
+   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn eller klicka på ett postnamn. Postens ruta öppnas i vyn.
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ Arbetsytan som du öppnar senast öppnas.
    >
    >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
 
-1. Börja redigera fältinformationen i **Information** box. Workfront sparar automatiskt ändringarna.
+1. Börja redigera fältinformationen i postens ruta. Workfront sparar automatiskt ändringarna.
 
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av **Information** för att öppna postens **Information** på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens informationssida](#edit-a-record-from-the-records-details-page) i den här artikeln.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens ruta för att öppna postens sida på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens sida](#edit-a-record-from-the-records-page) i den här artikeln.
 
-### Redigera en post från postens informationssida
-
-Du kan redigera en post på detaljsidan.
+### Redigera en post från postens sida
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ Arbetsytan som du öppnar senast öppnas.
 
 1. Gör något av följande:
 
-   * Från vilken vy som helst öppnar du rutan Detaljer, som beskrivs i [Redigera en post från postens informationsruta i en vy](#edit-a-record-from-the-records-details-box-in-a-view)i den här artikeln. Klicka sedan på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av **Information** för att öppna postens **Information** på en ny flik.
+   * I alla vyer öppnar du postens ruta enligt beskrivningen i [Redigera en post från postens ruta i en vy](#edit-a-record-from-the-records-box-in-a-view) i den här artikeln. Klicka sedan på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postrutan för att öppna postens sida på en ny flik.
 
    * Från **Tabell** visa, hovra över namnet på en post och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     Posten **Information** sidan öppnas.
+     Postsidan öppnas.
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ Arbetsytan som du öppnar senast öppnas.
 
    eller
 
-   Klicka i ett redigerbart fält på detaljsidan för att redigera informationen.
+   Klicka i ett redigerbart fält på postsidan för att redigera informationen.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 

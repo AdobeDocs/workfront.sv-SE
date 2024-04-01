@@ -1,11 +1,11 @@
 ---
 title: Koppla posttyper
-description: Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyper för Adobe Workfront-planering till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
+description: Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyperna Adobe Workfront Planning till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Med Adobe Workfront kan du utforma anpassningsbara arbetsytor som innehåller de posttyper som behövs i organisationen. Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyper för Workfront-planering till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
+Du kan använda Adobe Workfront Planning för att utforma anpassningsbara arbetsytor som innehåller de posttyper som behövs i organisationen. Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyperna Workfront Planning till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
 
 Du kan koppla posttyper till varandra eller posttyper med objekttyper från andra program.
 
-På så sätt kan du visa fält från den länkade posten eller objekttypen i en planeringspost i Workfront.
+På så sätt kan du visa fält från den länkade posten eller objekttypen på en Workfront Planning-post.
 
-I den här artikeln beskrivs hur du kan koppla två posttyper i Workfront-planering eller en posttyp till ett objekt från ett annat program.
+I den här artikeln beskrivs hur du kan koppla två posttyper i Workfront Planning eller en posttyp till ett objekt från ett annat program.
 
 När du har upprättat en anslutning mellan poster eller objekttyper kan du koppla enskilda poster till varandra.
 
-Mer information om hur du ansluter en planeringspost för Workfront till ett objekt från ett annat program finns i [Koppla poster](../records/connect-records.md).
+Mer information om hur du ansluter en Workfront Planning-post till ett objekt från ett annat program finns i [Koppla poster](../records/connect-records.md).
 
 Ett exempel på hur du ansluter posttyper finns i [Exempel på att ansluta posttyper och poster](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>För att kunna koppla samman Adobe Workfront planeringsregister med Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Om du vill ansluta posttyper för Adobe Workfront Planning till Experience Manager Assets måste du ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i det betaprogram som Adobe Workfront planerar stängda. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning closed. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -114,14 +114,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du ansluter posttyper
 
-* Du kan ansluta följande enheter i Adobe Workfront-planeringen:
+* Du kan ansluta följande enheter i Adobe Workfront Planning:
 
    * Två posttyper
 
      Posttyperna måste tillhöra samma arbetsyta.
    * En posttyp och en objekttyp från ett annat program.
 
-* Du kan koppla följande objekttyper från följande program till posttyper för Workfront-planering:
+* Du kan koppla följande objekttyper från följande program till posttyperna Workfront Planning:
 
    * Adobe Workfront:
 
@@ -138,7 +138,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!IMPORTANT]
      >
-     >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront planeringsdokument till Adobe Experience Manager Assets.
+     >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
      >
      >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -152,13 +152,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * **När du ansluter en posttyp med en objekttyp från ett annat program**: Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i det andra programmets objekttyp.
 
-     En ny skrivskyddad posttyp för Workfront-planering skapas endast för det andra programmets objekt när de faktiska objekten är kopplade till Workfront planeringsposter.
+     En ny skrivskyddad posttyp för Workfront Planning skapas endast för det andra programmets objekt när de faktiska objekten är kopplade till Workfront Planning-poster.
 
      Mer information finns i [Koppla poster](../records/connect-records.md).
 
-   * **När du lägger till uppslagsfält för posten eller objektet som du ansluter till**: Du kan koppla fält från det andra programmets objekt till posttypen för Workfront-planering. De här fälten är länkade eller uppslagsfält. Länkade fält visar automatiskt information från kopplade poster eller objekt när du kopplar ihop posterna eller objekten. De länkade sökfälten är alltid skrivskyddade och fylls i automatiskt med värdena för de kopplade posterna eller objekten.
+   * **När du lägger till uppslagsfält för posten eller objektet som du ansluter till**: Du kan koppla fält från det andra programmets objekt till posttypen Workfront Planning. De här fälten är länkade eller uppslagsfält. Länkade fält visar automatiskt information från kopplade poster eller objekt när du kopplar ihop posterna eller objekten. De länkade sökfälten är alltid skrivskyddade och fylls i automatiskt med värdena för de kopplade posterna eller objekten.
 
-     Om du t.ex. kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och väljer att överföra fältet Planerat slutförandedatum för projektet till Workfront planeringspost, skapas automatiskt ett länkat fält med namnet Planerat slutförandedatum (från projekt) för kampanjen. Du kan inte redigera det här länkade fältet manuellt. I fältet Planerat slutförandedatum (från projekt) visas det planerade slutförandedatumet för de länkade projekten.
+     Om du t.ex. kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och väljer att överföra fältet Planerat slutförandedatum för projektet till Workfront Planning-posten, skapas automatiskt ett länkat fält med namnet Planerat slutförandedatum (från projekt) för kampanjen. Du kan inte redigera det här länkade fältet manuellt. I fältet Planerat slutförandedatum (från projekt) visas det planerade slutförandedatumet för de länkade projekten.
 
      >[!IMPORTANT]
      >
@@ -200,7 +200,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. Uppdatera följande information:
 
-   * **Namn**: Namnet på det anslutna fältet, så som det kommer att visas i tabellvyn eller på detaljsidan för den ursprungliga posttypen. Då skapas den länkade postkolumnen i tabellvyn för den ursprungliga posttypen eller det länkade postfältet för de ursprungliga posterna.
+   * **Namn**: Namnet på det anslutna fältet, så som det kommer att visas i tabellvyn eller på postsidan av den ursprungliga posttypen. Då skapas den länkade postkolumnen i tabellvyn för den ursprungliga posttypen eller det länkade postfältet för de ursprungliga posterna.
 
    >[!TIP]
    >
@@ -290,7 +290,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
      >[!TIP]
      >
-     > Ett länkat postfält skapas inte för objekt från ett annat program till den posttyp som du länkar från i Workfront-planeringen.
+     > Ett länkat postfält skapas inte för objekt från ett annat program till den posttyp som du länkar från i Workfront Planning.
 
 1. (Valfritt och villkorligt) Klicka på nedåtpilen i rubriken för de länkade postfälten i den ursprungliga posttypen eller i tabellvyn för den länkade posttypen och klicka sedan på något av följande:
 

@@ -1,13 +1,13 @@
 ---
 title: Skapa poster
-description: När du använder Adobe Workfront-planering är en post en instans av en posttyp.
+description: När du använder Adobe Workfront Planning är en post en instans av en posttyp.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-I Adobe Workfront-planeringen är en post en instans av en posttyp.
+I Adobe Workfront Planning är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront-planering </p>  
+   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ Alla poster av den valda typen visas i tabellvyn.
 
    eller
 
-   Klicka på den nya postens namn eller på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn. The **Information** öppnas i tabellen.
+   Klicka på den nya postens namn eller på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn. Rutan med postens detaljerade information öppnas i tabellen.
 
    >[!TIP]
    >
    >Du kan bara öppna rutan Detaljer från postens namnfält när fältet Namn är ett primärt fält.
 
-1. Börja redigera postens information i rutan Information. Workfront sparar automatiskt ändringarna.
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av rutan Detaljer för att öppna postens **Information** på en ny flik. Fortsätt redigera posten på detaljsidan.
+1. Börja redigera postens information i postens ruta. Workfront sparar automatiskt ändringarna.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens ruta för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan.
 
 
 1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om när du lägger till nya poster:
@@ -188,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. I ett annat program markerar du flera rader och kolumner och klistrar sedan in informationen i posttypstabellvyn, med början från den första nya posten.
 
-   Följande information importeras i Workfront planeringsområde:
+   Följande information importeras till Workfront Planning:
 
    * Raderna innehåller de nya posterna
    * Kolumnerna fyller i information för posternas fält.

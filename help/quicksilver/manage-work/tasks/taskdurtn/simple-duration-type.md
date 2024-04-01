@@ -2,21 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Typ av varaktighet: Simple'
+title: 'Duration Type overview: Simple'
 description: Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i Översikt över Varaktighet och Varaktighetstyp.
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1efd7c0270fe1396345cfa6e5499e8f998297d61
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
 # Översikt över varaktighetstyp: Enkel
 
-Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om Varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Översikt över den enkla varaktighetstypen
 
@@ -26,11 +26,17 @@ Följande saker händer när en aktivitet har varaktighetstypen Enkel:
 
 * Projektledare kan ändra både tidslängden och den planerade timmen för en uppgift när de ändrar hur timmarna ska fördelas mellan de tilldelade.
 
-   Mer information finns i [Uppdatera planerade timmar och varaktighet för en aktivitet med enkel varaktighetstyp](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+  Mer information finns i [Uppdatera planerade timmar och varaktighet för en aktivitet med enkel varaktighetstyp](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
 
-   >[!IMPORTANT]
-   >
-   >När du först skapar en uppgift och tilldelar den Simple Duration Type till den och inte anger Duration, beräknas aktivitetens varaktighet i Workfront utifrån den mängd Planerade timmar som du anger för uppgiften. Om du ändrar varaktigheten för en enkel varaktighetsåtgärd manuellt slutar Workfront att matcha de planerade timmarna med Varaktighet, eftersom det förutsätts att du vill definiera dem manuellt själv.
+  >[!IMPORTANT]
+  >
+  >När du först skapar en uppgift och tilldelar den Simple Duration Type till den och inte anger Duration, beräknas aktivitetens varaktighet i Workfront utifrån den mängd Planerade timmar som du anger för uppgiften. Om du ändrar varaktigheten för en enkel varaktighetsåtgärd manuellt slutar Workfront att matcha de planerade timmarna med Varaktighet, eftersom det förutsätts att du vill definiera dem manuellt själv.
+  >
+  >Workfront beräknar varaktigheten för uppgifter vars varaktighet inte har ändrats manuellt med hjälp av följande formel:
+  >
+  > `Task Duration = Task Planned Hours / Typical hours per work day`
+  >
+  >Din Workfront-administratör definierar `Typical hours per work day` under Projektinställningar i instansens inställningar.
 
 * Allokeringsprocenten är dold och allokeringstimmar är tillgängliga för redigering, i stället.
 * Alla nya kunder har varaktighetstypen på systemnivå inställd på Enkel.

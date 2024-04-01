@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 Du kan visa poster och deras fält i en kalendervy från posttypssidan.
 
-Mer information om Adobe Workfront planeringsvyer och hur du hanterar dem finns i [Hantera postvyer](../views/manage-record-views.md).
+Mer information om Adobe Workfront Planning-funktionsvyer och hur du hanterar dem finns i [Hantera postvyer](../views/manage-record-views.md).
 
 ## Åtkomstkrav
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Adobe Workfront-licens</p></td>
    <td>
    <p>Alla</p> 
+   <p>Systemadministratörer har bara åtkomst till de vyer de har skapat eller som delas med dem. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront-planering</p>  
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 

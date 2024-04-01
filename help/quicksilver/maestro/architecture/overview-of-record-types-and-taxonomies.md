@@ -1,11 +1,11 @@
 ---
 title: Översikt över posttyper
-description: Posttyper är byggstenarna i en planeringsarbetsyta i Adobe Workfront.
+description: Posttyper är byggstenarna i en Adobe Workfront Planning-arbetsyta.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Till skillnad från Workfront där objekttyperna är fördefinierade kan du skapa egna objekttyper i Adobe Workfront-planeringen. I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
+Till skillnad från Workfront där objekttyperna är fördefinierade kan du skapa egna objekttyper i Adobe Workfront Planning. I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
 
-Workfront planeringsobjekttyper kallas&quot;posttyper&quot; och du kan skapa och anpassa alla. Posttyper är byggstenarna i en planeringsarbetsyta i Workfront. Mer information om arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
+Workfront Planning-objekttyper kallas&quot;posttyper&quot; och du kan skapa och anpassa alla. Posttyper är byggstenarna i en Workfront Planning-arbetsyta. Mer information om arbetsytor finns i [Skapa arbetsytor](../architecture/create-workspaces.md).
 
 ## Översikt över posttyp
 
-I Workfront-planeringen kan du skapa anpassade posttyper som passar din organisations behov.
+I Workfront Planning kan du skapa anpassade posttyper som passar din organisations behov.
 
 * När du skapar en arbetsyta från en mall skapas posttyper i följande avsnitt på arbetsytan:
 

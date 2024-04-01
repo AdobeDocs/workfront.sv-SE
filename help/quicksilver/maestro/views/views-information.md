@@ -1,11 +1,11 @@
 ---
 title: "Vyer: artikelindex"
-description: Du kan visa Adobe Workfront planeringsposter i en tabell-, tidslinje- eller kalendervy. I följande artiklar beskrivs hur du kan skapa och hantera postvyer för Adobe Workfront-planering.
+description: Du kan visa Adobe Workfront Planning-poster i en tabell-, tidslinje- eller kalendervy. I följande artiklar beskrivs hur du kan skapa och hantera postvyer för Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
@@ -30,9 +30,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Du kan visa Adobe Workfront planeringsposter i en tabell-, tidslinje- eller kalendervy.
+Du kan visa Adobe Workfront Planning-poster i en tabell-, tidslinje- eller kalendervy.
 
-I följande artiklar beskrivs hur du kan skapa och hantera postvyer i Adobe Workfront-planeringen:
+I följande artiklar beskrivs hur du kan skapa och hantera postvyer i Adobe Workfront Planning:
 
 * [Hantera postvyer](../views/manage-record-views.md)
 * [Hantera tabellvyn](../views/manage-the-table-view.md)

@@ -1,13 +1,13 @@
 ---
 title: Hantera tabellvyn
-description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront-planeringen.
+description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront-planeringen.
+Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront Planning.
 
 Mer information om postvyer och hur du hanterar dem finns i [Hantera postvyer](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet för Adobe Workfront-planering. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
    </td>
   </tr>
   <tr>
@@ -64,6 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Adobe Workfront-licens</p></td>
    <td>
    <p>Alla</p> 
+   <p>Systemadministratörer har bara åtkomst till de vyer de har skapat eller som delas med dem. </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Börja lägga till fält (eller kolumner) enligt beskrivningen i artikeln [Skapa fält](../fields/create-fields.md).
 
-   Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på sidan Detaljer för posterna av den valda posttypen.
+   Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på postens sida.
 
 1. Gör något av följande om du vill ändra ordning på kolumnerna i tabellen:
 
@@ -174,7 +175,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >
    >   * Du kan inte ta bort eller dölja ett primärt fält.
    >
-   >   * Värdet som anges i det primära fältet är alltid länkat till postens informationssida.
+   >   * Värdet i det primära fältet är alltid länkat till postens sida.
 
 1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 
