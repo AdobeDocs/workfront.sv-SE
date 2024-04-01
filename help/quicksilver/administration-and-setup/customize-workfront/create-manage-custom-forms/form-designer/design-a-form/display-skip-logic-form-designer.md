@@ -7,9 +7,10 @@ description: Du kan bestämma vilka avsnitt i ett anpassat formulär som ska vis
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -124,7 +125,7 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
 
 >[!NOTE]
 >
->Visningslogik är inte tillgänglig för tillfället när du förhandsgranskar formuläret i formulärdesignern.
+><span class="preview">Visningslogik är bara tillgänglig när du förhandsgranskar formuläret i formulärdesignern i förhandsgranskningsmiljön.</span>
 
 ## Lägga till hopplogik i ett anpassat formulär
 
@@ -158,4 +159,4 @@ Hopplogik definierar anpassade formulärfält som hoppas över när användaren 
 
 >[!NOTE]
 >
->Hopplogiken är inte tillgänglig för tillfället när du förhandsgranskar formuläret i formulärdesignern.
+><span class="preview">Hopplogik är bara tillgänglig när du förhandsgranskar formuläret i formulärdesignern i förhandsgranskningsmiljön.</span>
