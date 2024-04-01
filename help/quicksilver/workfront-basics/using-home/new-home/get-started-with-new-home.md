@@ -6,14 +6,16 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
 # Kom igång med nya startsidan
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar alla väntande tilldelade eller delegerade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
 
 * **Alla godkännanden**\
-    Visar alla godkännanden för din organisation i en tabell med anpassningsbara kolumner, samt ett sökfält där du kan söka efter specifika godkännanden.
+        <span class="preview"> Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden.</span> <span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span>
 
 * **Väntande godkännanden**\
     Visar godkännanden som tilldelats ett dokument i ett projekt som du äger. Här kan du visa godkännandestatus och påminna användare om ofullständiga granskningar och godkännanden. <span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span>
