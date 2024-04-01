@@ -6,12 +6,13 @@ description: Du kan uppdatera implementeringsdatumet för en uppgift eller ett �
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
+
 
 # Uppdatera implementeringsdatum för aktiviteter och ärenden
 
@@ -88,8 +89,11 @@ Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * Om du använder det gamla uppdateringsområdet får projektägaren ett meddelande om att du har föreslagit ett nytt implementeringsdatum för aktiviteten eller utgåvan och kan för närvarande uppdatera det planerade slutförandedatumet för aktiviteten eller utgåvan så att det matchar det implementeringsdatum du föreslog. Den här funktionen stöds inte i den nya kommenteringsfunktionen. Mer information finns i [Den nya kommentarsfunktionen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * Projektägaren meddelas i meddelanden i appen om att du har föreslagit ett nytt implementeringsdatum för uppgiften eller utgåvan.
+   * Projektägaren meddelas i uppdateringsavsnittet att du har föreslagit ett nytt implementeringsdatum och de kan för närvarande uppdatera det planerade slutförandedatumet för aktiviteten eller utgåvan så att det matchar det implementeringsdatum du föreslog. Den här funktionen stöds inte i den nya kommenteringsfunktionen. Mer information finns i [Den nya kommentarsfunktionen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-     Mer information om meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet [Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) i artikeln [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Mer information om de meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet&quot;Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet&quot; i artikeln [Genomför datumöversikt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+<!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

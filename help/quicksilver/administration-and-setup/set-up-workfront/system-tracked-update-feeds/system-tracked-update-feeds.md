@@ -9,16 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # Systemspårade uppdateringar
 
-{{preview-and-fast-release}}
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -92,12 +96,16 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+     <span class="preview">En lista över objekt som inte har fliken Systemaktivitet eller Alla finns på [Översikt över uppdateringsavsnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+
    * <span class="preview">När du använder den nya kommentarsfunktionen kan du inte lägga till en kommentar i en systemuppdatering. Alla svar som görs på systemaktivitetsposter i den tidigare kommentarsfunktionen fylls i på fliken Systemaktivitet som skrivskyddade i den nya kommentarsfunktionen.</span>
    * När du använder den äldre kommentarsfunktionen visas system- och användaruppdateringarna i ett kontinuerligt flöde.
 
    * När man använder en äldre kommentarsfunktion kan man som standard se systemuppdateringar eller välja att inte visa dem. Det går inte att inaktivera systemuppdateringar när den nya kommentarfunktionen används.
 
      Mer information om hur du inaktiverar visning av systemuppdateringar finns i avsnittet [Aktivera eller inaktivera systemuppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) i artikeln [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   * <span class="preview">Den gamla kommentarfunktionen har inaktiverats i förhandsgranskningsmiljön. Mer information finns i [Andra kvartalet 2024 Uppdateringsström och aviseringsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 
 * Workfront registrerar systemspårade uppdateringar för följande objekt, men det finns inget alternativ för att inaktivera visning av dem:
 

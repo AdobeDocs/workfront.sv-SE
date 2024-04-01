@@ -7,16 +7,14 @@ description: Bekräftelsedatum är det datum då en användare som har tilldelat
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
 
 # Genomför datumöversikt
-
-{{preview-and-fast-release}}
 
 Bekräftelsedatum är det datum då en användare som har tilldelats en aktivitet eller ett problem förbinder sig att slutföra uppgiften eller problemet. Detta skiljer sig från det planerade slutförandedatumet, eftersom det är en mer realistisk uppskattning av det slutförandedatum som bara anges av den användare som ansvarar för arbetet. Information om det planerade slutförandedatumet finns i [Översikt över aktivitetens planerade slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,11 +53,26 @@ När en tilldelad uppgift eller utleverans väljer ett implementeringsdatum som 
 
 Om du ställer in implementeringsdatumet för en aktivitet eller ett problem utlöses följande ändringar:
 
-* Bekräftelsedatumet fylls i i uppdateringsströmmen för uppgiften eller utgåvan.
+* Ändringen Genomför datum fylls i i systemaktiviteten och på flikarna Alla i uppdateringsavsnittet för aktiviteten eller problemet.
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   Ändringen av implementeringsdatumet visas i uppdateringsområdet för aktiviteten eller problemet när Workfront-administratören aktiverar den här uppdateringen i uppdateringsfeeds under Konfigurera. Mer information finns i [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  Om en projektägare inte vill godkänna ändringen rekommenderar vi att han/hon kommenterar tillbaka till användaren och föreslår ett nytt datum med hjälp av fliken Kommentarer i uppdateringsavsnittet, ber att han/hon ändrar datumet för implementeringen till det ursprungliga planerade datumet eller väljer ett nytt datum. Om en projektägare godkänner ändringen kan de manuellt justera det planerade slutförandedatumet så att det matchar det implementeringsdatum som erbjuds av användaren som är tilldelad objektet genom att redigera uppgiften eller problemet.
+
+  Du måste ha behörighet att hantera uppgiften eller problemet för att kunna redigera den.
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * Aktivitetens eller utställningens beräknade slutförandedatum anges till samma datum eftersom aktiviteten nu har en mer korrekt indikation på när den troligen kommer att slutföras.
 
@@ -67,27 +80,10 @@ Om du ställer in implementeringsdatumet för en aktivitet eller ett problem utl
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* Om projektägaren använder den gamla kommentarsfunktionen får de ett meddelande på fliken Uppdateringar om huruvida den här ändringen påverkar projektets tidslinje och de får möjlighet att uppdatera det planerade slutförandedatumet för aktiviteten i samma område.
 
-  Den här funktionen stöds inte i den nya kommenteringsfunktionen. Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  Projektägaren har inte möjlighet att uppdatera ett ärende med planerat slutförandedatum, eftersom utgivningsdatum inte påverkar projektets tidslinje.
 
-  Om en projektägare inte vill godkänna ändringen rekommenderar vi att han/hon kommenterar tillbaka till användaren och föreslår ett nytt datum för att be honom/henne att ändra datumet för implementeringen till det ursprungliga planerade datumet eller välja ett nytt datum. Om en projektägare accepterar ändringen kan de manuellt justera det planerade slutförandedatumet så att det matchar det implementeringsdatum som erbjuds av användaren som är tilldelad objektet. De kan också klicka **Ange planerat datum till: &lt; datum >** i uppdateringsområdet som automatiskt ställer in det planerade slutförandedatumet så att det matchar det nya implementeringsdatumet.
-
-  Du måste ha åtkomst för att kunna hantera uppgiften och projektet för att acceptera ändringen.
-
-  >[!NOTE]
-  >
-  >Om du vill se hur tidslinjen i projektet påverkas genom att acceptera att ändra aktivitetens planerade slutförandedatum klickar du på **Projektets tidslinje**. Då öppnas uppgiftslistan där du kan utvärdera datumändringar och projekttidslinjen.
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* Projektägaren meddelas i området Meddelanden om att ett datum för aktivitetens implementering har ändrats.
+* Projektägaren meddelas i meddelandeområdet om att ett datum för en aktivitet eller ett problem har ändrats.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 

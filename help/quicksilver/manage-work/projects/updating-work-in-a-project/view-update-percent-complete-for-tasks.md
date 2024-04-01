@@ -6,9 +6,9 @@ description: Du kan uppdatera procentandelen färdigt för en uppgift för att a
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,16 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 * **I uppgiftsrubriken**: Du kan uppdatera procentandelen färdigt för en uppgift i uppgiftshuvudet. Mer information finns i [Redigera uppgifter](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+* **På sammanfattningspanelen för en uppgift**: Du kan uppdatera procentandelen färdigt för en uppgift högst upp på panelen Sammanfattning när du visar uppgiften i följande områden:
+
+   * Uppgiftslista eller rapport
+   * Tidrapport
+   * Utjämning av arbetsbelastning
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  Mer information finns i [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 
 ## Att tänka på när du uppdaterar procentandelen färdigt för en uppgift

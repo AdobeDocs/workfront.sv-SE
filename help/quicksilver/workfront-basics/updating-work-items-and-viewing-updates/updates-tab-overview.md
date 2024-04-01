@@ -7,17 +7,15 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
 
 
 # Översikt över uppdateringsavsnittet
-
-{{preview-and-fast-release}}
 
 <!-- Audited: 1/2024 -->
 
@@ -28,6 +26,12 @@ ht-degree: 0%
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
+
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
 >[!IMPORTANT]
 >
 >Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
@@ -37,18 +41,33 @@ ht-degree: 0%
 >* Den gamla upplevelsen
 >* Det nya och gamla gränssnittet
 >
->Den här artikeln innehåller information om de nya och äldre versionerna av uppdateringsavsnittet.
->
 >Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar objekt från följande områden:
+><Span class="preview"> De gamla kommentarfunktionerna har tagits bort från projekt, uppgifter, utgåvor och dokument i förhandsgranskningsmiljön. </span>
+>
+>Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar uppdateringar från följande områden:
 >
 > * Startsida
 > * Panelen Sammanfattning i listor
 > * Sammanfattningspanelen i tidrapporter
 > * Panelen Sammanfattning i Utjämning av arbetsbelastning
 >
-><span class="preview">Den nya kommentarsupplevelsen finns i sammanfattningspanelen i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsgranskningsmiljön och i produktionsmiljön för kunder som har valt en snabb versionsprocess.</span>
+><span class="preview">Den nya kommentarsupplevelsen finns i sammanfattningspanelen i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsgranskningsmiljön och i produktionsmiljön för kunder som har valt en snabb versionsprocess.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Översikt över uppdateringsavsnittet
 

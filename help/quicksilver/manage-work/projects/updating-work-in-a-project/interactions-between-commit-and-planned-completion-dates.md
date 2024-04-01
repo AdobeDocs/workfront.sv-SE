@@ -6,9 +6,9 @@ description: Både planerat slutförande och implementeringsdatum anger när upp
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Den tilldelande som arbetar med uppgiften eller utgåvan kan uppdatera implement
 
 Tilldelningsmottagaren som ändrar implementeringsdatumet ändrar inte automatiskt det planerade slutförandedatumet. Det motsatta är också sant: om du ändrar det planerade slutförandedatumet ändras inte implementeringsdatumet.
 
-När Genomför-datumet ändras till ett datum som infaller senare än det planerade slutförandedatumet får projektägaren ett meddelande om att ändringen har inträffat och kan påverka tidslinjen för projektet om projektägaren använder den gamla kommentarsfunktionen. Den här funktionen stöds inte i den nya kommenteringsfunktionen. Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+När implementeringsdatumet ändras till ett datum som är senare än det planerade slutförandedatumet får projektägaren ett meddelande om att ändringen inträffade och det kan påverka tidslinjen för projektet.
 
 Om det implementeringsdatum som erbjuds av den som tilldelats är godkänt för projektägaren, måste de manuellt uppdatera det planerade slutförandedatumet för aktiviteten eller utgåvan. Mer information finns i följande artiklar:
 

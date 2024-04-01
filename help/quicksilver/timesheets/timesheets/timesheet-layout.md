@@ -7,18 +7,22 @@ description: I den här artikeln beskrivs layouten för tidrapporter i Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 # Översikt över tidrapportslayout
 
-{{preview-and-fast-release}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
+
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 I den här artikeln beskrivs layouten för tidrapporter i Adobe Workfront, så att du bättre kan förstå hur du anpassar och använder tidrapporter för att spela in tid.
 

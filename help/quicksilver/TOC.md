@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 94618e0533716f004a5f3f26d9de73ae1955bd2d
+source-git-commit: 00e03775fa21f816c845681873ca12c241150076
 workflow-type: tm+mt
-source-wordcount: '14068'
+source-wordcount: '14071'
 ht-degree: 0%
 
 ---
@@ -1069,6 +1069,7 @@ ht-degree: 0%
          * [Lägga till artiklar i en befintlig upprepning](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Visa en upprepning](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Ta bort en iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
+         * [Hantera upprepningsuppdateringar](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
       * Scrum board {#scrum-board}
          * [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [Översikt över Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)

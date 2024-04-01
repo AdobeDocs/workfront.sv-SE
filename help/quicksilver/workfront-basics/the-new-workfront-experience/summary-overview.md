@@ -5,16 +5,20 @@ description: Du kan använda panelen Sammanfattning för att granska och uppdate
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Summary] översikt
 
-{{preview-and-fast-release}}
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
+
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Du kan använda [!UICONTROL Summary] för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgiftsproblem, dokument eller andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
 
@@ -36,6 +40,9 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
   <tr> 
    <td>Uppgifter i [!UICONTROL Unassigned] och [!UICONTROL Assigned] Arbetsytor i [!UICONTROL Workload Balancer]</td> 
   </tr> 
+   <tr> 
+   <td>Uppgifter i en [!UICONTROL Timesheet]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Problem</td> 
   </tr> 
@@ -53,7 +60,12 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
   <tr data-mc-conditions=""> 
    <td>Problem i [!UICONTROL Submitted] i [!UICONTROL Requests] area</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>Problem i en [!UICONTROL Timesheet]</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>Dokument</td> 
   </tr> 
   <tr data-mc-conditions=""> 

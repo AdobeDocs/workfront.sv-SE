@@ -6,9 +6,9 @@ description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrappor
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,16 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
 
    Din kommentar visas i [!UICONTROL Updates] på fliken Kommentarer.
 
-1. (Valfritt) Klicka på **Systemaktivitet** för att granska systemgenererade uppdateringar.
+1. (Valfritt) Klicka på **Systemaktivitet** för att granska systemgenererade uppdateringar
+
+   eller
+
+   Klicka på **Alla** om du vill visa systemaktivitet och användarkommentarer i kronologisk ordning.
+
+   >[!TIP]
+   >
+   >   Fliken Alla är skrivskyddad och du kan inte svara på kommentarer därifrån.
+
 
    Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -139,7 +148,7 @@ Du kan bara kommentera uppgifter och ärenden i en tidrapport. Du kan inte komme
 1. Klicka [!UICONTROL **Tidrapporter**].
 1. Gå till tidrapporten där du vill kommentera och klicka på [!UICONTROL **Tidrapport**] till vänster.
 1. Klicka på raden för en uppgift eller ett problem och klicka sedan på [!UICONTROL **Öppna sammanfattning**].
-1. Börja skriva en uppdatering i [!UICONTROL **Uppdateringar**] på panelen Sammanfattning och klicka sedan [!UICONTROL **Uppdatera**].
+1. Börja skriva en uppdatering i [!UICONTROL **Uppdateringar**] på panelen Sammanfattning och klicka sedan [!UICONTROL **Skicka**].
 Uppdateringen visas i uppdateringsavsnittet för uppgiften och utgåvan.
 1. (Valfritt) Klicka på [!UICONTROL **Stäng sammanfattning**] för att stänga panelen Sammanfattning.
 

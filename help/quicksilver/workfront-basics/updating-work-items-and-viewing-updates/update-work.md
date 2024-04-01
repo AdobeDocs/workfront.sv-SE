@@ -6,49 +6,23 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '4291'
+source-wordcount: '4341'
 ht-degree: 0%
 
 ---
 
 # Uppdatera arbete
 
-{{preview-and-fast-release}}
-
 <!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
-
->[!IMPORTANT]
->
->Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
->
->Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du se följande funktionalitet för uppdateringsavsnittet:
->* Den nya upplevelsen
->* Den gamla upplevelsen
->* Det nya och gamla gränssnittet
->
->Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar uppdateringar från följande områden:
->
-> * Startsida
-> * Panelen Sammanfattning i listor
-> * Sammanfattningspanelen i tidrapporter
-> * Panelen Sammanfattning i Utjämning av arbetsbelastning
->
-><span class="preview">Den nya kommentarsupplevelsen finns i sammanfattningspanelen i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsgranskningsmiljön och i produktionsmiljön för kunder som har valt en snabb versionsprocess. Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). Information om det aktuella releaseschemat finns i [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -81,6 +55,34 @@ After the monthly releases to Production, the same features are also available i
 >
 >     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 -->
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
+
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+>[!IMPORTANT]
+>
+>Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
+>
+>Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du se följande funktionalitet för uppdateringsavsnittet:
+>* Den nya upplevelsen
+>* Den gamla upplevelsen
+>* Det nya och gamla gränssnittet
+>
+>Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+><Span class="preview"> De gamla kommentarfunktionerna har tagits bort från projekt, uppgifter, utgåvor och dokument i förhandsgranskningsmiljön. </span>
+>
+>Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar uppdateringar från följande områden:
+>
+> * Startsida
+> * Panelen Sammanfattning i listor
+> * Sammanfattningspanelen i tidrapporter
+> * Panelen Sammanfattning i Utjämning av arbetsbelastning
+>
+><span class="preview">Den nya kommentarsupplevelsen finns i sammanfattningspanelen i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsgranskningsmiljön och i produktionsmiljön för kunder som har valt en snabb versionsprocess. </span>
 
 ## Att tänka på när du uppdaterar arbete
 

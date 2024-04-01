@@ -6,16 +6,14 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
 # Hantera målkommentarer i Adobe Workfront-mål
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -101,14 +99,6 @@ Detta öppnar mållistan.
 1. Klicka  **Uppdateringar** till vänster.
 1. (Valfritt) Om du vill hitta en befintlig kommentar börjar du skriva ett nyckelord <!--or a user's name--> i **Sök** i det övre högra hörnet av **Kommentar** -fliken.
 
-   <div class="preview">
-
-   Exempel i förhandsvisningsmiljön:
-   ![Sök efter kommentar](assets/search-for-update-goals-2.png)
-
-   </div>
-
-   Exempel i produktionsmiljön:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    Nyckelordet <!--or user--> som du sökte efter markeras och kommentarerna som innehåller den visas högst upp i uppdateringsavsnittet.
@@ -125,14 +115,6 @@ Detta öppnar mållistan.
 1. Klicka på **Kommentar** i det övre vänstra hörnet av uppdateringsområdet.
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
-   <div class="preview">
-
-   Exempel på en ny kommentarsruta i förhandsvisningsmiljön:
-   ![Ny kommentarruta](assets/comment-box-all-tabs.png)
-
-   </div>
-
-   Exempel på en ny kommentarsruta i produktionsmiljön:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -190,5 +172,4 @@ Du kan redigera din kommentar inom 15 minuter från det att du skickat in den. E
 
 1. (Valfritt) Klicka på **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När ett mål uppdateras genererar Workfront en anteckning om den uppdateringen som visas på fliken Systemaktivitet. Workfront registrerar också en systemuppdatering när ett resultat, en aktivitet eller ett projekt läggs till i målet eller när det uppdateras. <!--ensure the casing on the tab has not changed-->
 
-1. <span class="preview">(Valfritt) Klicka på **Alla** om du vill visa både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Om du vill svara på en kommentar på fliken Alla klickar du **Svara i kommentarer** om du vill öppna kommentaren på fliken Kommentarer. Du kan inte svara på fliken Alla.</span>
 

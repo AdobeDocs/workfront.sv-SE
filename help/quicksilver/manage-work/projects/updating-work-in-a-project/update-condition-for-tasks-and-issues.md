@@ -6,9 +6,9 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,7 @@ För aktuella licenser:
 
 Villkor visas som en flagga som är kopplad till uppgifter eller problem. De kan även kopplas till ett tal som kan visas i rapporter i stället för etiketten. Mer information om hur du associerar villkor med tal finns i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-Du hittar villkoren för uppgifter och problem i följande områden:
-
-* Området Uppgift och Utleverans av uppdateringar, i en uppdatering, när du har tilldelats uppgiften eller utgåvan. Detta stöds inte i den nya kommentarsfunktionen. Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-* Rapporter och listor när du visar fältet Villkor i en vy eller gruppering.
+Du kan hitta villkorliga uppgifter och problem i rapporter och listor när du visar fältet Villkor i en vy eller gruppering.
 
 >[!NOTE]
 >

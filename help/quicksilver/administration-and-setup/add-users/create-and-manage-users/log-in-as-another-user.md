@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >   
    >* Du kan inte återställa lösenordet för en Workfront-administratör.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **Logga in som**.
 
