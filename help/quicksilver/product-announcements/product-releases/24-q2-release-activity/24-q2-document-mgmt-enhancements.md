@@ -4,9 +4,10 @@ description: Andra kvartalet 2024 Förbättrad dokumenthantering
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,10 @@ ht-degree: 0%
 Den här sidan beskriver alla förbättringar av dokumenthanteringen som gjorts i den andra utgåvan av kvartalet 2024 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den andra utgåvan av kvartal 2024.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+>[!IMPORTANT]
+>
+>Funktionerna på den här sidan är en del av en fasad version och är endast tillgängliga för specifika kunder.
 
 ## Lägga till en deadline för dokumentgranskningar och godkännanden
 
@@ -47,10 +52,6 @@ Du kan använda godkännandemallar från området Dokument när du skapar en god
 >[!NOTE]
 >
 >Förhandsversion: 28 mars 2024; Produktion för alla kunder: Med version 24.4 (april 2024)
-
->[!IMPORTANT]
->
->Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.
 
 Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla godkännanden för att hjälpa dig att hantera och analysera dina godkännandebegäranden i en överblick:
 
