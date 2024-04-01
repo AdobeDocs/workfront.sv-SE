@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ Den här utlösarmodulen startar ett scenario när en post, posttyp eller arbets
       <td role="rowheader">[!UICONTROL Object type]</td>
       <td>Välj om du vill bevaka poster, posttyper eller arbetsytor.</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>[!UICONTROL Events filters]</p> </td> 
+      <td> <p>Du kan ställa in filter så att endast poster som uppfyller de villkor du väljer bevakas.</p> <p>För varje filter anger du fältet som du vill att filtret ska utvärderas, operatorn och värdet som du vill att filtret ska tillåta. Du kan använda mer än ett filter genom att lägga till OCH-regler.</p> <p>Obs! Du kan inte redigera filter i befintliga [!DNL Workfront] webbhooks. Så här ställer du in olika filter för [!DNL Workfront] händelseprenumerationer, ta bort den aktuella webbkroken och skapa en ny.</p> <p>Mer information om händelsefilter finns i <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Evenemangsprenumerationsfilter i [!DNL Workfront] &gt; [!UICONTROL Watch Events] moduler</a> i Workfront-modulartikeln.</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objects to watch]</td>
       <td>Välj om du vill hålla utkik efter nya. uppdaterade, nya och uppdaterade eller borttagna poster.</td>
