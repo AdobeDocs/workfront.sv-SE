@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Nu kan du skapa godkännandemallar under Konfigurera för att effektivisera gran
 
 Du kan använda godkännandemallar från området Dokument när du skapar en godkännandeprocess för ett dokument.
 
-<!-- For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md). -->
+Mer information finns i [Skapa en godkännandemall](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ## Visa information om alla dina godkännanden på en och samma plats
 

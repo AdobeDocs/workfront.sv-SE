@@ -5,13 +5,13 @@ title: Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt
 description: Man kan lägga in material som ska granskas i Frame.io och skicka till Workfront för granskning och godkännande.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
+exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
+source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
-
 
 # Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt
 
@@ -83,4 +83,4 @@ Mer information finns i [Koppla upp Workfront och Frame.io.](/help/quicksilver/r
 
 Resursen visas på den valda platsen och aktivitetsstatusen uppdateras därefter.
 
-Du kan starta gransknings- och godkännandeprocessen genom att följa stegen som beskrivs i artikeln [Skapa ett dokumentgodkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Du kan starta gransknings- och godkännandeprocessen genom att följa stegen som beskrivs i artikeln [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).

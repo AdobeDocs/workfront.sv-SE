@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Skapa ett dokumentgodkännande
+title: Skapa en begäran om dokumentgranskning eller godkännande
 description: Du kan begära godkännande från andra användare för ett dokument i Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6a02a7bdb21e79a6b91f81e71b42968d6262cd05
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
-# Skapa en begäran om dokumentgodkännande
+# Skapa en begäran om dokumentgranskning eller godkännande
+
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Du kan begära godkännande från andra användare eller team för ett dokument i Adobe Workfront, eller begära att de granskar ett dokument utan att behöva godkänna det.
 
@@ -50,17 +52,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Skapa ett dokumentgodkännande från dokumentsidan
+## Skapa en dokumentgranskning eller godkännandebegäran från dokumentsidan
 
-1. Gå till dokumentsidan genom att klicka på dokumentets namn och välj sedan den version av dokumentet som du vill skapa ett godkännande för i versionsmenyn. Den senaste versionen väljs som standard.
+1. Håll muspekaren över dokumentet och klicka sedan på Dokumentinformation.
+   ![](assets/doc-details.png)
 
-1. Välj **Godkännanden** i den vänstra rutan.
 
-1. Om du vill lägga till en godkännare måste du se till att **Godkännare** kryssrutan är markerad och börjar sedan skriva i **Granskare** textruta. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare istället avmarkerar du **Godkännare** innan du skriver.
+1. I närheten av dokumentnamnet väljer du den version av dokumentet som du vill skapa ett godkännande för i listrutan. Den senaste versionen väljs som standard.
+
+1. Klicka **Godkännanden** i den vänstra rutan.
+
+1. <span class="preview">(Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.</span>
+
+1. Om du vill lägga till en godkännare klickar du på **Godkännare** och börja skriva ett användar- eller teamnamn.
+
+1. Om du vill lägga till en granskare klickar du på **Granskare** och börja skriva in ett användar- eller teamnamn.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 
-## Skapa ett dokumentgodkännande från rutan Dokumentsammanfattning
+## Skapa en dokumentgranskning eller godkännandebegäran från dokumentsammanfattningsrutan
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 
@@ -68,7 +80,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj den version av dokumentet som du vill skapa ett godkännande för i listrutan. Den senaste versionen väljs som standard.
 
-1. Bläddra nedåt till **Godkännanden** i rutan Dokumentsammanfattning. Om du vill lägga till en godkännare måste du se till att **Godkännare** kryssrutan är markerad och börjar sedan skriva i **Granskare** textruta. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare istället avmarkerar du **Godkännare** innan du skriver.
+1. Bläddra nedåt till **Godkännanden** i rutan Dokumentsammanfattning klickar du på **Lägg till**.
+
+![](assets/doc-summary-add-approvers.png)
+
+1. <span class="preview">(Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.</span>
+
+1. Om du vill lägga till en godkännare klickar du på **Godkännare** och börja skriva ett användar- eller teamnamn.
+
+1. Om du vill lägga till en granskare klickar du på **Granskare** och börja skriva in ett användar- eller teamnamn.
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 
