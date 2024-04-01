@@ -4,9 +4,10 @@ description: Andra kvartalet 2024 - administratörsförbättringar
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Den här sidan beskriver alla administratörsförbättringar som gjorts i andra utgåvan av kvartalet 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Visningslogik och hopplogik är nu tillgängliga i formulärdesignerns förhandsgranskningsläge
+
+>[!NOTE]
+>
+>Förhandsversion: 28 mars 2024; Produktion för alla kunder: 24.4 (april 2024)
+
+Med den anpassade betaversionen av formulär kan du nu testa visningslogiken och hoppa över logiken i förhandsgranskningsläget. Tidigare visades alla fält i förhandsgranskningen även när logiken tillämpades.
+
+Mer information om hur du förhandsgranskar ett anpassat formulär i formulärdesignern finns i [Organisera och förhandsgranska ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Företag och användare har nu stöd för avancerade anpassade formulärfält
 

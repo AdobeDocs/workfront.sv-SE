@@ -4,9 +4,10 @@ description: Andra kvartalet 2024 Uppdateringsström och aviseringsförbättring
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 Den här sidan beskriver alla uppdateringsströmmar och meddelandeförbättringar som gjorts i den andra utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Åtkomst till det gamla kommentarsområdet har tagits bort
+
+>[!NOTE]
+>
+>Förhandsversion: 1 april 2024; Produktion för alla kunder: Med version 24.4 (april 2024)
+
+Vi har tagit bort alternativet&quot;Ny kommentering&quot; i uppdateringsområdet för projekt, uppgifter, utgåvor och dokument. Den nya kommenteringen är nu standard och det enda alternativet för dessa objekt. Med den här ändringen kan du inte längre återgå till den tidigare kommentarsfunktionen.
+
+Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Home-widgetar
 

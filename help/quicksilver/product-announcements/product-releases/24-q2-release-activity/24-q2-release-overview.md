@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 876991bab19d065257802a903adf432e420fcc44
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
 ## Adobe Workfront-förbättringar
 
 * [Administratörsförbättringar](#administrator-enhancements)
+* [Förbättrad dokumenthantering](#document-management-enhancements)
 * [Hemförbättringar](#home-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Förbättrad resurshantering](#resource-management-enhancements)
@@ -64,7 +65,23 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Företag och användare har nu stöd för avancerade anpassade formulärfält</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Visningslogik och hopplogik är nu tillgängliga i formulärdesignerns förhandsgranskningsläge</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Med den anpassade betaversionen av formulär kan du nu testa visningslogiken och hoppa över logiken i förhandsgranskningsläget. Tidigare visades alla fält i förhandsgranskningen även när logiken tillämpades.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 28 mars 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Företag och användare har nu stöd för avancerade anpassade formulärfält</a></p>
                         <p>Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är nu tillgängliga när du bifogar ett anpassat formulär till ett företag eller en användare.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -154,7 +171,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
             </tbody>
         </table>
 
-### Hemförbättringar
+### Förbättrad dokumenthantering
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                         <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ som lagts till i administratörskontroller för nytt hem med layoutmallar</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p><p>Administratörer kan nu anpassa vilka kolumner som är tillgängliga för användare i specifika nya Home-widgetar med hjälp av layoutmallar. Alternativen är att dölja eller visa standardkolumner och lägga till befintliga fält som nya kolumner.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till en deadline för dokumentgranskningar och godkännanden</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Du kan nu ange en tidsgräns för användare eller team som ska granska eller godkänna ett dokument. Granskare och godkännare får e-postmeddelanden 72 timmar och sedan 24 timmar före den angivna tidsgränsen. Tidsgränsen visas även i widgeten Godkännanden i den nya delen Hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 2 januari 2024</p>
+                                <p>Förhandsversion: 28 mars 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### Integration enhancements
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funktion</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa och använda godkännandemallar</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Nu kan du skapa godkännandemallar under Konfigurera för att effektivisera gransknings- och godkännandeprocessen. Med godkännandemallar kan du göra gransknings- och godkännandeprocessen mer upprepningsbar genom att
+                        <ul>
+                            <li>
+                                <p>Lägga till granskare och godkännare</p>
+                            </li>
+                            <li>
+                                <p>Ange en tidsram</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatum</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av automatiserat arbetsflöde för att skapa mappar i Adobe Experience Manager-integreringen</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att säkerställa att dina Adobe Experience Manager-mappar bättre motsvarar dina behov har vi lagt till kapslade mappträd i arbetsflödet för länkade mappar i Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 11 mars 2024</p>
+                                <p>Förhandsversion: 28 mars 2024</p>
                             </li>
-                             <li> <p><span class="preview">Produktionsrelease för alla kunder: 14 mars 2024</span></p>
-                             </li>
+                            <li>
+                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa information om alla dina godkännanden på en och samma plats</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla godkännanden för att hjälpa dig att hantera och analysera dina godkännandebegäranden i en överblick:
+                        <ul>
+                            <li>
+                                <p>Godkännanden genom beslut</p>
+                            </li>
+                            <li>
+                                <p>Genomsnittlig godkännandetid</p>
+                            </li>
+                            <li>
+                                <p>Väntande godkännanden</p>
+                            </li>
+                            <li>
+                                <p>Försenade godkännanden</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 28 mars 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Åtkomst till det gamla kommentarsområdet har tagits bort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>Vi har tagit bort alternativet"Ny kommentering" i uppdateringsområdet för projekt, uppgifter, utgåvor och dokument. Den nya kommenteringen är nu standard och det enda alternativet för dessa objekt.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 1 april 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för alla kunder: Med version 24.4 (april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Home-widgetar</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>

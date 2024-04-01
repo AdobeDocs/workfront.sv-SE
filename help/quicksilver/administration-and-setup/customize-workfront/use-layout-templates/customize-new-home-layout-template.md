@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -101,13 +101,13 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
       </ul>
       <p>När du har valt den widget du vill redigera visas tillgängliga alternativ till höger. Dessa alternativ innehåller <b>Filter</b>, <b>Kolumner</b>och <b>Grupper</b>. Du kan:</p>
       <ul>
-      <li><p><b>Välj vilka filter, kolumner eller grupper som ska vara tillgängliga för användarna:</b></p>
-      <p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare.</li></p>     
-    <p>
+      <li><p><b>Välj och beställa filter, kolumner eller grupper som är tillgängliga för användarna:</b></p>
+      <p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare. Dra och släpp i listan för att ange en ordning.</li></p>
+      <p>
 
 >[!IMPORTANT]
 >
->Användarna måste ha åtkomst till Skapa för vyer för att kolumnkonfigurationer ska gälla för deras widgetar på rätt sätt.
+>Användarna måste ha minst behörigheten Skapa för vyer för att administratörskolumnen ska kunna användas korrekt på de nya hemsidorna.
 
 </p>
       <li><p><b>Ange ett standardfilter eller en standardgrupp för widgeten:</b></p>
