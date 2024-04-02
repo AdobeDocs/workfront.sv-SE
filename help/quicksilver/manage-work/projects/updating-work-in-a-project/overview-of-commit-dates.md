@@ -7,16 +7,20 @@ description: Bekräftelsedatum är det datum då en användare som har tilldelat
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
 
 # Genomför datumöversikt
 
-Bekräftelsedatum är det datum då en användare som har tilldelats en aktivitet eller ett problem förbinder sig att slutföra uppgiften eller problemet. Detta skiljer sig från det planerade slutförandedatumet, eftersom det är en mer realistisk uppskattning av det slutförandedatum som bara anges av den användare som ansvarar för arbetet. Information om det planerade slutförandedatumet finns i [Översikt över aktivitetens planerade slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Bekräftelsedatum är det datum då en användare som har tilldelats en aktivitet eller ett problem förbinder sig att slutföra uppgiften eller problemet.
+
+Detta skiljer sig från det planerade slutförandedatumet för en uppgift eller ett problem, eftersom det är en mer realistisk uppskattning av det slutförandedatum som bara anges av den användare som ansvarar för arbetet.
+
+Information om det planerade slutförandedatumet finns i [Översikt över aktivitetens planerade slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Genomför datumöversikt
 
@@ -29,6 +33,7 @@ Tänk på följande när du arbetar med implementeringsdatum:
 
    * Låt Workfront ställa in Genomför-datum så att det matchar det befintliga planerade slutförandedatumet för uppgiften eller problemet genom att klicka på Arbeta på den, Starta utgåva eller Starta uppgift för uppgiften eller problemet. Mer information om hur du ersätter knappen Arbeta med knappen Start finns i  [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Ställ in Genomför datum manuellt enligt när du tror att uppgiften eller utgåvan kan slutföras. Detta är din uppskattning och ditt åtagande, som tilldelad, till projektledaren att du kommer att ha uppgiften eller problemet slutfört ett visst datum.
+Mer information finns i [Uppdatera implementeringsdatum för aktiviteter och ärenden](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -41,17 +46,17 @@ Tänk på följande när du arbetar med implementeringsdatum:
 >* Annan tilldelad person för uppgiften
 >* Alla andra användare som har behörighet till uppgiften.
 >
->Mer information om aktivitetsägaren finns i avsnittet [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Mer information om aktivitetsägaren finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-När en tilldelad uppgift eller utleverans väljer ett implementeringsdatum som skiljer sig från det planerade slutförandedatumet som angetts av projektägaren, finns det ett antal meddelanden och uppdateringar som varnar projektägaren och andra användare om den här ändringen.
+När en tilldelad uppgift eller utleverans manuellt ändrar ett implementeringsdatum till ett annat datum än det som anges av projektägaren finns det ett antal meddelanden och uppdateringar som informerar projektägaren och andra användare om den här ändringen.
 
 >[!NOTE]
 >
 >Ändringar som görs i implementeringsdatumet ändrar inte automatiskt planerade datum, och ändringar som görs i planerade datum ändrar inte automatiskt implementeringsdatumet.
 
-Om du ställer in implementeringsdatumet för en aktivitet eller ett problem utlöses följande ändringar:
+Om du ställer in implementeringsdatumet manuellt för en aktivitet eller ett problem utlöses följande ändringar:
 
 * Ändringen Genomför datum fylls i i systemaktiviteten och på flikarna Alla i uppdateringsavsnittet för aktiviteten eller problemet.
 
@@ -80,9 +85,6 @@ Om du ställer in implementeringsdatumet för en aktivitet eller ett problem utl
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-
-
-
 * Projektägaren meddelas i meddelandeområdet om att ett datum för en aktivitet eller ett problem har ändrats.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
@@ -94,8 +96,6 @@ Om du ställer in implementeringsdatumet för en aktivitet eller ett problem utl
   >[!TIP]
   >
   >Meddelandet om att implementeringsdatumet har ändrats skickas endast till projektägaren när Workfront-administratören aktiverar visningen av implementeringsdatumet i området Uppdateringsfeeds i installationsprogrammet. Mer information finns i [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-
 
 Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i  [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

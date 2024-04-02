@@ -8,7 +8,7 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
@@ -25,4 +25,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Lägga till artiklar i en befintlig upprepning](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [Visa en upprepning](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [Ta bort en iteration](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-* [Hantera upprepningsuppdateringar](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
+* [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)

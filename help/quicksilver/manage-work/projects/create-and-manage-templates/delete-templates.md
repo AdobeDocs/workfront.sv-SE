@@ -6,9 +6,9 @@ description: Vi rekommenderar att du inaktiverar mallar som du inte längre anv�
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Att tänka på vid borttagning av mallar
 
 * De uppgifter som lades till i projekt när mallen bifogades finns kvar i projekten. Den malluppgiftsinformation som är kopplad till uppgifterna tas dock bort.
-* Namnet på mallen visas inte längre i **Mall** på **Översikt** projektunderflik.
+* Namnet på mallen visas inte längre i **Mall** fält på **Ökning** projektunderflik.
 
-* Du kan återställa en nyligen borttagen mall från papperskorgen. Information om hur du återställer objekt från papperskorgen finns i [Återställ borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+* Du kan återställa en nyligen borttagen mall från papperskorgen. Mer information om hur du återställer objekt från papperskorgen finns i [Återställ borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Ta bort en mall
 
-1. Från **Huvudmeny** ![](assets/main-menu-icon.png), klicka **Mallar**. Då öppnas en lista med mallar
+{{step1-to-templates}}
+
+Då öppnas en lista med mallar
 
 1. Markera mallen som du vill ta bort genom att klicka i kryssrutan till vänster om mallnamnet och sedan klicka på **Ta bort > Ja, ta bort den** för att bekräfta borttagningen.
 

@@ -6,9 +6,9 @@ description: Du kan använda mallar som ett ramverk för att skapa projekt i Ado
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,10 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 ## Skapa ett projekt från en mall i området Projekt
 
 Du kan skapa ett projekt från området Projekt på huvudmenyn eller från området Projekt i en portfölj eller ett program.
+
+>[!NOTE]
+>
+>Systemet eller gruppadministratören kan ändra gränssnittet med hjälp av en layoutmall. I det här fallet kan vissa av namnen på de avsnitt och områden som avses i följande steg vara olika i din instans av Workfront.
 
 1. Gör något av följande:
 
