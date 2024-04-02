@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
+source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
 workflow-type: tm+mt
-source-wordcount: '5867'
+source-wordcount: '5942'
 ht-degree: 0%
 
 ---
@@ -736,6 +736,47 @@ Så här lägger du till bilder, PDF eller videofilmer:
 ### Lägg till inbyggda Workfront-fält
 
 Du kan lägga till inbyggda Workfront-fält i dina anpassade formulär. När det anpassade formuläret bifogas till ett objekt fylls fältet i från objektdata. Fältet Beskrivning i ett anpassat formulär som är kopplat till ett projekt hämtas till exempel i projektbeskrivningen. (Fältet kan visa &quot;Ej tillämpligt&quot; om inga data är tillgängliga.)
+
++++ **Expandera om du vill visa en lista över inbyggda fält som stöds**
+
+* Faktiskt slutförandedatum
+* Faktisk varaktighet
+* Faktiska timmar
+* Faktiskt startdatum
+* Företag
+* Villkor
+* Villkorstyp
+* Beskrivning
+* Varaktighet
+* Varaktighetstyp
+* Varaktighetsenhet
+* Anges av
+* Anmälningsdatum
+* Grupp
+* Senast uppdaterad av
+* Senaste uppdateringsdatum
+* Namn
+* Ägare
+* Planerat slutförandedatum
+* Planerad varaktighet
+* Planerade timmar
+* Planerat startdatum
+* Portfolio
+* Prioritet
+* Program
+* Planerat slutförandedatum
+* Planerad varaktighet, minuter
+* Planerat startdatum
+* Referensnummer
+* Schemaläge
+* Allvarlighetsgrad
+* Sponsorn
+* Status
+* Artikelpunkter
+* Mall
+* URL
+
++++
 
 1. På skärmens vänstra sida finns **Ursprungligt fält** och dra den till ett avsnitt på arbetsytan.
 1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
