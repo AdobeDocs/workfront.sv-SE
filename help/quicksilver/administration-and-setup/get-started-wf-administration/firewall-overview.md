@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Ge nätverksadministratören följande information:
  <tbody> 
   <tr> 
    <td role="rowheader">Specifika IP-adresser och domäner som ska tillåtas</td> 
-   <td> <p>Artikeln <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Konfigurera brandväggens tillåtelselista</a> innehåller en lista med IP-adresser och domäner som din organisation måste lägga till i tillåtelselista. </p> <p>Nätverksadministratören kanske inte har åtkomst till artikeln Konfigurera brandväggen. I så fall måste du ge dem det. Vi rekommenderar inte att du skriver ut en papperskopia. Med en digital kopia kan nätverksadministratören kopiera och klistra in adresserna, vilket är snabbare och exaktare än att skriva in från en kopia.</p> </td> 
+   <td> <p>Artikeln <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Konfigurera brandväggens tillåtelselista</a> innehåller en lista med IP-adresser och domäner som din organisation måste lägga till i tillåtelselista. </p> <p>Nätverksadministratören kanske inte har tillgång till artikeln Konfigurera tillåtelselista i brandväggen. I så fall måste du ge dem det. Vi rekommenderar inte att du skriver ut en papperskopia. Med en digital kopia kan nätverksadministratören kopiera och klistra in adresserna, vilket är snabbare och exaktare än att skriva in från en kopia.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ditt kluster</td> 
-   <td>Information om hur du hittar din organisations kluster finns i <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visa din organisations kluster och Workfront-plan</a></td> 
+   <td>Information om hur du hittar din organisations kluster finns i <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visa din organisations kluster och Workfront-plan</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Din Workfront-plan</td> 
@@ -75,7 +75,7 @@ Ge nätverksadministratören följande information:
    <td role="rowheader">Adobe Workfront-integreringar</td> 
    <td>Informera nätverksadministratören om du använder något av följande:
     <ul>
-     <li><p><p>Workfront för Jira</p></p></li>
+     <li><p>Workfront för Jira</p></li>
      <li><p>Workfront for G Suite</p></li>
      <li><p>Workfront för Microsoft Teams</p></li>
      <li><p>Workfront för Outlook</p></li>
@@ -84,11 +84,10 @@ Ge nätverksadministratören följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Ytterligare funktioner</td> 
-   <td> <p>Informera nätverksadministratören om du använder något av följande:</p> 
+   <td> <p>Informera nätverksadministratören om du använder följande:</p> 
     <ul> 
      <li> <p>En Workfront-testenhet</p> </li> 
-     <li> <p>Workfront Ascent</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Ge nätverksadministratören följande information:
 
 ### Visa din organisations kluster och Workfront-plan {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
 
 1. Klicka **System** i den vänstra panelen
 1. Om du vill visa klustret väljer du **Kundinformation**.

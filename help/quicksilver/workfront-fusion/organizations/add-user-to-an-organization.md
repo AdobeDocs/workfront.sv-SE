@@ -7,9 +7,9 @@ description: Du kan lägga till användare i organisationer i Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -105,8 +105,8 @@ Så här lägger du till en användare i organisationen:
 >[!NOTE]
 >
 >   
-><p>Om du inte ser [!UICONTROL Invite a new user] har din organisation gått med på [!DNL Adobe Business Platform.] </p>
+>Om du inte ser [!UICONTROL Invite a new user] har din organisation gått med på [!DNL Adobe Business Platform.]
 >
->   <p>Instruktioner om hur du lägger till en användare i en organisation som har anslutit till [!DNL Adobe Business Platform], se <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Lägg till en användare i en organisation som har anslutit sig till [!DNL Adobe Business Platform]</a></p>
+>  Instruktioner om hur du lägger till en användare i en organisation som har anslutit till [!DNL Adobe Business Platform], se [Lägg till användare i [!DNL Adobe Workfront Fusion] via [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
 
 Användaren får ett e-postmeddelande med en inbjudan där han/hon kan acceptera inbjudan.
