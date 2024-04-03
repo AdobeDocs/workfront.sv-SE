@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
+source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
 workflow-type: tm+mt
-source-wordcount: '5942'
+source-wordcount: '6079'
 ht-degree: 0%
 
 ---
@@ -739,42 +739,48 @@ Du kan lägga till inbyggda Workfront-fält i dina anpassade formulär. När det
 
 +++ **Expandera om du vill visa en lista över inbyggda fält som stöds**
 
-* Faktiskt slutförandedatum
-* Faktisk varaktighet
-* Faktiska timmar
-* Faktiskt startdatum
-* Företag
-* Villkor
-* Villkorstyp
-* Beskrivning
-* Varaktighet
-* Varaktighetstyp
-* Varaktighetsenhet
-* Anges av
-* Anmälningsdatum
-* Grupp
-* Senast uppdaterad av
-* Senaste uppdateringsdatum
-* Namn
-* Ägare
-* Planerat slutförandedatum
-* Planerad varaktighet
-* Planerade timmar
-* Planerat startdatum
-* Portfolio
-* Prioritet
-* Program
-* Planerat slutförandedatum
-* Planerad varaktighet, minuter
-* Planerat startdatum
-* Referensnummer
-* Schemaläge
-* Allvarlighetsgrad
-* Sponsorn
-* Status
-* Artikelpunkter
-* Mall
-* URL
+I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workfront-objekt i ett anpassat formulär.
+
+| Fältnamn | Projekt | Uppgift | Problem | Mall | Malluppgift | Portfolio | Program | Grupp |
+|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| Faktiskt slutförandedatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Faktisk varaktighet | ✓ |   |   |   |   |   |   |   |
+| Faktiska timmar | ✓ |   | ✓ |   |   |   |   |   |
+| Faktiskt startdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Företag | ✓ |   |   | ✓ |   |   |   |   |
+| Villkor | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Villkorstyp | ✓ |   |   | ✓ |   |   |   |   |
+| Beskrivning | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Varaktighet |   | ✓ |   |   | ✓ |   |   |   |
+| Varaktighetstyp |   | ✓ |   |   | ✓ |   |   |   |
+| Varaktighetsenhet |   | ✓ |   |   | ✓ |   |   |   |
+| Anges av | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Anmälningsdatum | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Grupp | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Senast uppdaterad av | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Senaste uppdateringsdatum | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Namn | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Ägare | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Planerat slutförandedatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Planerad varaktighet | ✓ |   |   | ✓ |   |   |   |   |
+| Planerade timmar | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
+| Planerat startdatum | ✓ |   |   |   |   |   |   |   |
+| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
+| Prioritet | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Program | ✓ |   |   | ✓ |   |   |   |   |
+| Planerat slutförandedatum | ✓ | ✓ |   |   |   |   |   |   |
+| Planerad varaktighet, minuter |   | ✓ |   |   |   |   |   |   |
+| Planerat startdatum | ✓ | ✓ |   |   |   |   |   |   |
+| Referensnummer | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Schemaläge | ✓ |   |   | ✓ |   |   |   |   |
+| Allvarlighetsgrad |   |   | ✓ |   |   |   |   |   |
+| Sponsorn | ✓ |   |   | ✓ |   |   |   |   |
+| Status | ✓ | ✓ |   |   |   |   |   |   |
+| Artikelpunkter |   | ✓ |   |   |   |   |   |   |
+| Mall | ✓ |   |   |   |   |   |   |   |
+| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
+
+{style="table-layout:auto"}
 
 +++
 
