@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Hantera upprepningskommentarer
-description: Du kan lägga till uppdateringar i en iteration för att samarbeta med andra i Adobe Workfront.
+description: Du kan lägga till uppdateringar i en iteration när du arbetar i en Scrum-miljö för att samarbeta med andra i Adobe Workfront.
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
 
 # Hantera upprepningskommentarer
 
-Du kan lägga till uppdateringar i en iteration för att samarbeta med andra i Adobe Workfront.
+Du kan lägga till uppdateringar i en iteration när du arbetar i en Scrum-miljö för att samarbeta med andra i Adobe Workfront.
 
 ## Hantera uppdateringar för en upprepning
 

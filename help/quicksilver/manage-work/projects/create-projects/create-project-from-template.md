@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Skapa ett projekt med en mall
-description: Du kan använda mallar som ett ramverk för att skapa projekt i Adobe Workfront. Om du har projekt som upprepas ofta kan du spara tid genom att använda mallar för den allmänna tidslinjen i det nya projektet.
+description: Du kan använda mallar som ett ramverk för att skapa projekt i Adobe Workfront. Om du har projekt som upprepas ofta kan du spara tid genom att använda mallar för det nya projektet.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---

@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Ta bort projektmallar
-description: Vi rekommenderar att du inaktiverar mallar som du inte längre använder, i stället för att ta bort dem så att du kan spara historik om dina projekt över tid. Mer information om hur du inaktiverar en mall finns i Redigera projektmallar.
+description: Vi rekommenderar att du inaktiverar mallar som du inte längre använder, i stället för att ta bort dem så att du kan spara historik om dina projekt över tid.
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

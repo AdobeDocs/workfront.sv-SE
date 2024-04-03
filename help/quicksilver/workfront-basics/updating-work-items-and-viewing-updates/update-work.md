@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
+source-wordcount: '4261'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe 
 
 Mer information om hur du kommenterar kort i området för anslagstavlor finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
+Information om hur du kommenterar iterationer finns i [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## Åtkomstkrav
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
@@ -172,6 +176,8 @@ Du kan lägga till uppdateringar för följande objekt:
 * Mål
 * Kort i området Varv
 * Iterationer
+
+<!--info for April 11: hide the section below completely:-->
 
 ### Lägga till en uppdatering för en arbetsuppgift i det äldre uppdateringsavsnittet
 
@@ -232,6 +238,8 @@ Du kan lägga till uppdateringar för följande objekt:
    >Om Workfront-administratören väljer inställningen Tillåt aldrig att användare tar bort kommentarer på din åtkomstnivå kan du inte ångra en kommentar. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. Information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### Lägga till en uppdatering av en arbetsuppgift med hjälp av den nya kommentarsfunktionen
 
@@ -463,6 +471,8 @@ Du kan kopiera en uppdatering på flera olika sätt. När du har kopierat en lä
 
 Kopieringen av en uppdatering skiljer sig åt beroende på vilken kommentarsfunktion du använder.
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### Kopiera en uppdatering i den nya kommentarsfunktionen
 
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -515,9 +525,9 @@ Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar
 
 1. Fortsätt lägga till uppdateringen och klicka på **Skicka** för att lägga till kommentaren.
 
-### Kopiera en uppdatering i det gamla kommentargränssnittet
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### Kopiera en uppdatering i det gamla kommentargränssnittet
 
 * [Kopiera uppdateringen](#copy-the-update)
 * [Kopiera trådlänken](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
 -->
 
-
-
-## Aktivera eller inaktivera systemuppdateringar
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->Det går inte att inaktivera systemuppdateringar när den nya kommentarfunktionen används.
->Informationen i det här avsnittet gäller endast de funktioner som är tillgängliga i det äldre uppdateringsavsnittet. &lt;!—remove this section when we remove legacy from system->
->Mer information om systemuppdateringar i den nya kommentarsfunktionen finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## Granska systemuppdateringar
 
 I uppdateringsavsnittet för ett Workfront-objekt visas två typer av information:
 
-* **Användaruppdateringar:** Användaruppdateringar är kommentarer som du och andra användare i ditt system anger. <!--October 2023 - new screen shot -->
+* **Användaruppdateringar:** Användaruppdateringar är kommentarer som du och andra användare i ditt system anger. Användaruppdateringarna visas på flikarna Kommentarer och Alla i uppdateringsavsnittet.
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Systemuppdateringar:** Systemuppdateringarna registrerar borttagning av resurser, tillägg eller borttagning av versioner, bifogning eller borttagning av en godkännandebegäran samt ändringar som gjorts i dokumenten i objektet. <!--October 2023 - new screen shot -->
+* **Systemuppdateringar:** Systemet uppdaterar poster som tar bort uppgifter eller problem, lägger till eller tar bort dokumentversioner, bifogar eller tar bort en begäran om godkännande samt redigerar eller ändrar objektet. Systemuppdateringar visas på flikarna Systemaktivitet och Alla i uppdateringsavsnittet.
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Beroende på din Workfront-licens kan systemuppdateringar vara aktiverade som standard. Workfront-administratörer kan avgöra vad som spåras i systemuppdateringar, vilket förklaras i [Systemspårade uppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Du kan även filtrera bort systemuppdateringar eller aktiviteter så att du bara ser användaruppdateringar för alla objekt.
+  Workfront-administratörer kan avgöra vad som spåras i systemuppdateringar, vilket förklaras i [Systemspårade uppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Du kan även filtrera bort systemuppdateringar eller aktiviteter så att du bara ser användaruppdateringar för alla objekt.
 
   Följande objekt har inga systemgenererade uppdateringar:
 
@@ -653,19 +651,6 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
    * Mall
    * Malluppgift
 
-Så här aktiverar eller inaktiverar du systemuppdateringar:
-
-1. Klicka på **Uppdateringar** på ett objekt.
-1. Klicka **Visa systemuppdateringar** för att skjuta växeln åt vänster (inaktiverad) eller åt höger (aktiverad).
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   Det här alternativet är beständigt för alla objekt i Workfront och behåller sin plats även om du loggar ut från Workfront.
-
-   >[!TIP]
-   >
-   >   Objekt som inte registrerar systemuppdateringar har inte alternativet Visa systemuppdateringar i uppdateringsområdet.
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+Mer information om systemuppdateringar finns i avsnittet Uppdateringar. [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

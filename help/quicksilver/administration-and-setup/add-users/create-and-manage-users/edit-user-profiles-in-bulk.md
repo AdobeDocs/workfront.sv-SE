@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2294'
 ht-degree: 0%
 
 ---
 
 # Redigera användarprofiler gruppvis
+
+{{highlighted-preview}}
 
 <!--
 
@@ -81,7 +83,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        <ul> 
         <li><b>Tidszon:</b> Användarens tidszon.</li> 
         <li><b>Språk</b>: Användarens språkområde. Detta påverkar formatet för siffror och datum i e-postmeddelanden som kommer från Workfront.</li> 
-        <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill att ett procentfält ska visas i uppdateringsområdet för alla användares uppgifter när du använder den äldre kommentarfunktionen. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.</li> 
+        <li><b>Visa procent färdigt vid uppdateringsstatus</b>: Markera det här alternativet om du vill att ett procentfält ska visas i uppdateringsområdet för alla användares uppgifter när du använder den äldre kommentarfunktionen. Mer information finns i <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Ny kommentarsfunktion</a>.
+        <p><span class="preview">Det här alternativet har tagits bort från förhandsvisningsmiljön.</span></p>
+
+   </li> 
         <li><b>Skicka jobb som jag har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användarna tilldelar sig själva ska visas direkt på fliken Arbeta på. Som standard visas allt som tilldelats en användare på fliken Arbetsbegäran.</li> 
        </ul> </td> 
      </tr> 

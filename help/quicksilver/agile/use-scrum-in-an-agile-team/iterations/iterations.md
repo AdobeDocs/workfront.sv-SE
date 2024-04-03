@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Iterationer
-description: Läs de här artiklarna för att lära dig hur du använder iterationer.
+description: I följande artiklar beskrivs hur du kan använda iterationer när du arbetar i en Scrum-miljö.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
 # Iterationer
 
-Det här avsnittet innehåller följande artiklar:
+I följande artiklar beskrivs hur du kan använda iterationer när du arbetar i en Scrum-miljö i Adobe Workfront:
 
 * [Översikt över iterationer](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [Skapa en iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)

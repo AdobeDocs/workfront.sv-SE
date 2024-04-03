@@ -7,7 +7,7 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
 
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
@@ -31,6 +31,8 @@ ht-degree: 0%
 <span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the Important box-->
 
 >[!IMPORTANT]
 >
@@ -54,21 +56,6 @@ ht-degree: 0%
 >
 ><span class="preview">Den nya kommentarsupplevelsen finns i sammanfattningspanelen i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsgranskningsmiljön och i produktionsmiljön för kunder som har valt en snabb versionsprocess.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Översikt över uppdateringsavsnittet
 
 I uppdateringsavsnittet för ett objekt visas systemuppdateringar och upp till 200 av de senaste uppdateringarna som användare har gjort under de senaste 90 dagarna.
@@ -78,6 +65,27 @@ I uppdateringsavsnittet för ett objekt visas systemuppdateringar och upp till 2
 ![Uppdateringsavsnitt](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
+
+<!--Info for April 11: Add the following right under the screen shot above:
+
+The following objects have an Updates section where you can add comments or review system updates: 
+
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+-->
+
+<!--remove all the information below, all the way down to the following section: -->
 
 Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du hitta följande i uppdateringsavsnittet:
 
@@ -115,6 +123,8 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 
      Det finns inget alternativ för att aktivera den nya kommentarfunktionen för iterationer. Mer information finns i [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
+<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+
 ### Översikt över uppdateringsavsnittet i den nya kommentarsfunktionen
 
 <div class="preview">
@@ -122,6 +132,8 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 ![Uppdateringsavsnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
+
+<!--info for April 11: remove the NOTE below-->
 
 >[!NOTE]
 >
@@ -144,6 +156,7 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 
    * Mål
 
+<!-- info for April 11: hide the entire section below: -->
 
 ### Översikt över det äldre uppdateringsavsnittet
 

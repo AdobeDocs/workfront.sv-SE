@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder.  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ Bland förbättringarna i den nya kommentarsfunktionen finns följande:
 
 Följande funktioner har tagits bort eller kommer att tas bort från den nya funktionen:
 
-* Kommentera en systemuppdatering
+* Kommentera en systemuppdatering. Tidigare har kommentarer som lagts till i systemuppdateringar importerats som skrivskyddade kommentarer på den nya fliken Systemaktivitet.
 * Möjlighet att redigera status, villkor, datum för genomförande och procent slutfört samtidigt som du kommenterar uppgifter och problem
-* Redigera eget formulär
+* Möjlighet att redigera det anpassade formuläret
 * Informationen&quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör loggar in som en annan användare och lägger till en kommentar för dennes räkning togs ursprungligen bort. Den återinfördes den 19 oktober 2023.
 * Alternativet Fråga efter godkännande när du taggar personer när du lägger till en kommentar i ett dokument.
 * Inställningen &quot;Visa procent färdigt vid uppdateringsstatus&quot; när du redigerar en användares profilruta tas bort. Funktionen för att uppdatera procentandelen färdigt för en uppgift eller ett problem har tagits bort.
-* Meddelandet till projektägaren i uppdateringsområdet om att den som tilldelades en uppgift eller utgåva redigerade implementeringsdatumet <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* Möjligheten för projektägaren att ändra det planerade slutförandedatumet för en aktivitet när implementeringsdatumet ändras från uppdateringsavsnittet. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ Här följer en planerad tidslinje för den nya kommentarsfunktionen:
   >
   >    Iterationer kommer även i fortsättningen att ha den gamla kommentarsfunktionen. Den nya kommentarfunktionen är inte tillgänglig för upprepningar.
 
-* Andra kvartalet 2024 (april 2024):
+* Med den andra utgåvan för kvartal 2024 (11 april 2024):
 
    * Ta bort alternativet att växla tillbaka till den gamla kommentarströmmen och göra den nya kommentarströmmen till den enda upplevelsen för alla objekt, med undantag för iterationer.
 
 ## Hitta den nya kommentarsfunktionen
 
-&lt;!—VIKTIGT! När vi gör oss av med den gamla upplevelsen flyttar du en version av den till artikeln Update work eller översikten Update section - för att säga att upplevelsen är annorlunda för alla förutom för iterationer—>
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 Den nya kommentarsupplevelsen är för närvarande tillgänglig för alla kunder och för alla miljöer.
 
@@ -563,25 +573,25 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
    * Problem
    * Dokument
 
-  >[!TIP]
-  >
-  >Använd alternativet Ny kommentering för att visa den nya kommentarsfunktionen (när du aktiverar den) eller den äldre kommentarsfunktionen (när du inaktiverar den), som beskrivs i det här avsnittet. Den nya kommentarsfunktionen är standard.
-
-   * Bara den nya kommentarsfunktionen för objekten som listas nedan. Det finns inget alternativ för att aktivera den gamla kommentarfunktionen för dessa objekt:
-
-      * Mål
-
      >[!NOTE]
      >
-     >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * Kort ombord
-      * Team
-      * Mall
-      * Malluppgift
-      * Tidrapport
-      * Program
-      * Portfolio
-      * Användare
+     ><span class="preview">De gamla kommentarfunktionerna har tagits bort från förhandsvisningsmiljön sedan 1 april 2024. </span>
+
+* Bara den nya kommentarsfunktionen för objekten som listas nedan. Det finns inget alternativ för att aktivera den gamla kommentarfunktionen för dessa objekt:
+
+   * Mål
+
+  >[!NOTE]
+  >
+  >Du måste ha ytterligare en licens för Adobe Workfront Goals för att få tillgång till det här området av Workfront. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * Kort ombord
+   * Team
+   * Mall
+   * Malluppgift
+   * Tidrapport
+   * Program
+   * Portfolio
+   * Användare
 
 * Endast den äldre kommentarsfunktionen för följande objekt:
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 Så här aktiverar du alternativet för kommenteringsfunktion för projekt, uppgifter, utgåvor och dokument:
 
-1. Gå till ett objekt som du vill aktivera den nya kommentarsfunktionen för och klicka sedan på **Uppdateringar** till vänster.
+1. (Villkorligt) I produktionsmiljön går du till ett objekt som du vill aktivera den nya kommentarsfunktionen för och klickar sedan på **Uppdateringar** till vänster.
 1. (Villkorligt) Om det är inaktiverat aktiverar du **Nya kommentarer** i det övre högra hörnet av uppdateringsområdet för att aktivera det. Detta bör vara aktiverat som standard.
+   <span class="preview">Alternativet Ny kommentering har tagits bort från förhandsvisningsmiljön.</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Begär ett projekt
-description: Du kan begära att ett projekt ska godkännas innan du börjar arbeta med det. Vi rekommenderar att du skapar ett affärsärende för ett nytt projekt så att du kan ge en översikt över några av de huvudpunkter du vill uppnå genom att slutföra det, samt presentera budgeten för arbetet och utgifterna för din ledning. När du fyller i affärsärendet och skickar in projektet för godkännande slutförs den formella begäran för projektet. När affärsärendet har skickats för godkännande blir projektets status Begärt.
+description: Du kan begära att ett projekt ska godkännas innan du börjar arbeta med det. Vi rekommenderar att du skapar ett affärsärende för ett nytt projekt så att du kan ge en översikt över några av de huvudpunkter du vill uppnå genom att fylla i det, samt presentera arbetet och utgiftsbudgeten för ditt team. När du fyller i affärsärendet och skickar in projektet för godkännande slutförs den formella begäran för projektet. När affärsärendet har skickats för godkännande blir projektets status Begärt.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
