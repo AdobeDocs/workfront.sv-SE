@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -46,14 +47,14 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 ### Arbetsobjekt
 
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
+| Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
 | Projekt (PROJ) | Projekt<br>Uppgift<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Team<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ledig arbetsdag<br>Ködefinition<br>Köämnesgrupp<br>Köämne<br>Cirkulationsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 | Mall (TMPL) | Mall<br>Malluppgift<br>Mallaktivitetstilldelning<br>Föregångare för mallaktivitet<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Team<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ledig arbetsdag<br>Ködefinition<br>Köämnesgrupp<br>Köämne<br>Cirkulationsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 
 ### Rapporteringsobjekt
 
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
+| Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
 | Layoutmall (UITMPL) | Layoutmall<br>Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
 | Kontrollpanel (PTLTAB) | Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
@@ -66,7 +67,7 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 ### Anpassade dataobjekt
 
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
+| Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
 | Kategori (CTGY) | Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik<br>Grupp |
 | Parameter (PARAM) | Parameter<br>Parameteralternativ |
@@ -74,7 +75,7 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 ### Organisationsobjekt
 
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
+| Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
 | Grupp (GRUPP) | Grupp <br>Undergrupper (upp till 5 nivåer) *<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 | Roll (ROLE) | Roll |
@@ -85,7 +86,7 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 ### Andra konfigurationsobjekt
 
-| Upphöjt objekt | Inkluderade flyttbara underobjekt |
+| Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
 | Godkännandeprocess (ARVPRC) | Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Roll<br>Team<br>Grupp |
 | Schema (SCHED) | Schema<br>Ledig arbetsdag<br>Grupp |
@@ -135,5 +136,3 @@ Dessa statusvärden är följande:
   </tr> 
   </tbody> 
 </table>
-
-
