@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,14 @@ Bland förbättringarna i den nya kommentarsfunktionen finns följande:
 Följande funktioner har tagits bort eller kommer att tas bort från den nya funktionen:
 
 * Kommentera en systemuppdatering. Tidigare har kommentarer som lagts till i systemuppdateringar importerats som skrivskyddade kommentarer på den nya fliken Systemaktivitet.
-* Möjlighet att redigera status, villkor, datum för genomförande och procent slutfört samtidigt som du kommenterar uppgifter och problem
+* Möjlighet att redigera status, villkor, datum för genomförande och Procent färdigt när du kommenterar uppgifter och ärenden.
+
+  Vi rekommenderar att du lägger till de här fälten på panelen Sammanfattning av uppgifter och problem för att enkelt komma åt dem från listor, rapporter, Hem, Workfront Balancer eller en tidrapport.
 * Möjlighet att redigera det anpassade formuläret
 * Informationen&quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör loggar in som en annan användare och lägger till en kommentar för dennes räkning togs ursprungligen bort. Den återinfördes den 19 oktober 2023.
 * Alternativet Fråga efter godkännande när du taggar personer när du lägger till en kommentar i ett dokument.
 * Inställningen &quot;Visa procent färdigt vid uppdateringsstatus&quot; när du redigerar en användares profilruta tas bort. Funktionen för att uppdatera procentandelen färdigt för en uppgift eller ett problem har tagits bort.
-* Möjligheten för projektägaren att ändra det planerade slutförandedatumet för en aktivitet när implementeringsdatumet ändras från uppdateringsavsnittet. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -460,7 +462,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
   </tr>
   <tr>
-   <td>Möjlighet att redigera status, villkor, bekräfta datum samtidigt som kommentarer görs 
+   <td>Möjlighet att redigera status, villkor, datum för genomförande när kommentarer görs 
    </td>
    <td>✓ 
    </td>
@@ -499,6 +501,21 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Möjlighet för projektägaren att ändra schemalagt slutförandedatum för en aktivitet när implementeringsdatumet ändras från uppdateringsavsnittet
+   </td>
+   <td> ✓
+   </td>
+   <td> Kan släppas vid ett senare datum
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>

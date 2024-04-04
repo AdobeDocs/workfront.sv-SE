@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 0%
 
 ---
@@ -32,31 +32,28 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
 
-<!--
-## Week of April 1, 2024
+## Vecka 1 april 2024
 
-### Reorder the fields on the records page
+### Ändra ordning på fälten på postsidor
 
-Production: April 4, 2024 
+Produktion: 4 april 2024
 
-Preview: To be determined 
+Förhandsgranska: Ska bestämmas
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+Som arbetsytehanterare kan du nu ändra ordning på fälten som visas på postsidan eller i rutan. Om du uppdaterar fältordningen ändras fältordningen för alla poster av samma typ, så att alla kan visa postsidan eller postrutan.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+Mer information finns i [Hantera postsidan](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### Lägg till omslagsbild för att spela in sidor
 
-Production: April 4, 2024 
+Produktion: 4 april 2024
 
-Preview: To be determined 
+Förhandsgranska: Ska bestämmas
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+När du hanterar postsidor kan du nu lägga till, flytta om och ersätta en omslagsbild på en postsida eller ruta för att berika postens presentation och engagemang. Omslagsbilder är synliga för alla användare som visar posterna.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+Mer information finns i [Hantera postsidan](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Vecka 25 mars 2024
 

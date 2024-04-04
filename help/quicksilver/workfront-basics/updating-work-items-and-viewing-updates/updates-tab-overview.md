@@ -7,7 +7,7 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -123,7 +123,7 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 
      Det finns inget alternativ för att aktivera den nya kommentarfunktionen för iterationer. Mer information finns i [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+<!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
 ### Översikt över uppdateringsavsnittet i den nya kommentarsfunktionen
 
@@ -159,8 +159,6 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 <!-- info for April 11: hide the entire section below: -->
 
 ### Översikt över det äldre uppdateringsavsnittet
-
-<!--when we remove legacy, make this section an "Iterations-only" section-->
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
