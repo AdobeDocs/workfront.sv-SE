@@ -4,9 +4,10 @@ description: Uppdateringar som både ser ut och känns under andra kvartersutgå
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -29,11 +30,8 @@ E-postmallarna för att lägga till en godkännare till en resurs och för att l
 
 >[!NOTE]
 >
->Förhandsversion: 8 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för kvartalsvis publicering: Med version 24.4 (april 2024)
+>Förhandsversion: 8 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för kvartalsvis version: Med version 24.4 (11 april 2024)
 
 Vi har uppdaterat flikarna för Forms, Fält och Avsnitt i Konfigurera > Anpassad Forms till en mer modern design som är förenlig med andra delar av Workfront. Du kommer nu åt de tre områdena från den vänstra navigeringsmenyn. Filter, vyer och grupperingar är fortfarande tillgängliga för listorna. Den uppdaterade designen gäller för anpassade formulär, fält och avsnitt som skapats både i den nya formulärdesignern och i den gamla formulärbyggaren.
 
 Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) och [Skapa eller redigera ett anpassat formulär med det äldre formulärverktyget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-
-

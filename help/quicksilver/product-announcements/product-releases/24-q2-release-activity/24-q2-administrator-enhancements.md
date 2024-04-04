@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 30a10e240b0f418f7ba49cd2e70e6f3d33956cd6
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 28 mars 2024; Produktion för alla kunder: 24.4 (april 2024)
+>Förhandsversion: 28 mars 2024; Produktion för alla kunder: 24.4 (11 april 2024)
 
 Med den anpassade betaversionen av formulär kan du nu testa visningslogiken och hoppa över logiken i förhandsgranskningsläget. Tidigare visades alla fält i förhandsgranskningen även när logiken tillämpades.
 
@@ -32,7 +32,7 @@ Mer information om hur du förhandsgranskar ett anpassat formulär i formulärde
 
 >[!NOTE]
 >
->Förhandsversion: 14 mars 2024; Produktion för alla kunder: 24.4 (april 2024)
+>Förhandsversion: 14 mars 2024; Produktion för alla kunder: 24.4 (11 april 2024)
 
 Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är nu tillgängliga när du bifogar ett anpassat formulär till ett företag eller en användare. De avancerade funktionerna finns på sidorna Företagsinformation och Användarinformation, inte i dialogrutorna Redigera företag och Redigera användare. Det anpassade formuläret måste skapas i den nya formulärdesignern för att du ska kunna utnyttja dessa fälttyper.
 
@@ -42,7 +42,7 @@ Mer information om anpassade formulärfält finns i [Designa ett formulär med f
 
 >[!NOTE]
 >
->Förhandsversion: 26 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: 24.4 (april 2024)
+>Förhandsversion: 26 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: 24.4 (11 april 2024)
 
 Den befintliga JumpSeat-integreringen är nu tillgänglig för konton med någon av de nya pakettyperna (dvs. Select, Prime eller Ultimate). Du måste fortfarande ha en aktiv JumpSite-prenumeration för att kunna aktivera integreringen.
 
@@ -52,7 +52,7 @@ Mer information om JumpSeat-integrering finns i [Konfigurera JumpSeat-integrerin
 
 >[!NOTE]
 >
->Förhandsversion: 29 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: 24.4 (april 2024)
+>Förhandsversion: 29 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: 24.4 (11 april 2024)
 
 Nu kan du lägga till fält som är inbyggda i Workfront i dina anpassade formulär. Med den här nya fälttypen kan du ordna och presentera data för användarna på ett logiskt sätt, utan att behöva återskapa befintliga data i anpassade fält.
 

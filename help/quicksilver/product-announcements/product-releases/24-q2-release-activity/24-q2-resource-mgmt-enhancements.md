@@ -4,9 +4,10 @@ description: Andra kvartal 2024 Förbättrad resurshantering
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 12 oktober 2023; Produktion för snabb release: Med version 24.2 (15 februari 2024); Produktion för kvartalsvis publicering: Med version 24.4 (april 2024)
+>Förhandsversion: 12 oktober 2023; Produktion för snabb release: Med version 24.2 (15 februari 2024); Produktion för kvartalsvis publicering: Med version 24.4 (11 april 2024)
 
 Om du vill ha större tydlighet om manuella justeringar eller konturering i Arbetsbelastningsutjämnaren kan du nu visa en pennikon som du justerar timvis.
 

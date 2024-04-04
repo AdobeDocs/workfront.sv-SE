@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 28 mars 2024; Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 28 mars 2024; Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 Du kan nu ange en tidsgräns för användare eller team som ska granska eller godkänna ett dokument. Granskare och godkännare får e-postmeddelanden 72 timmar och sedan 24 timmar före den angivna tidsgränsen. Tidsgränsen visas även i widgeten Godkännanden i den nya delen Hem.
 
@@ -36,7 +36,7 @@ Mer information finns i [Skapa en begäran om dokumentgranskning eller godkänna
 
 >[!NOTE]
 >
->Förhandsversion: 28 mars 2024; Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 28 mars 2024; Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 Nu kan du skapa godkännandemallar under Konfigurera för att effektivisera gransknings- och godkännandeprocessen. Med godkännandemallar kan du göra gransknings- och godkännandeprocessen mer upprepningsbar genom att
 
@@ -51,7 +51,7 @@ Mer information finns i [Skapa en godkännandemall](/help/quicksilver/review-and
 
 >[!NOTE]
 >
->Förhandsversion: 28 mars 2024; Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 28 mars 2024; Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla godkännanden för att hjälpa dig att hantera och analysera dina godkännandebegäranden i en överblick:
 

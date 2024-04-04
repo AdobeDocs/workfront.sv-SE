@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
 >
 >| Månadsrelease | Kvartalsvis utgivning |
 >|----|----|
->| <ul><li>24.2 (15 februari 2024)</li><li>24.3 (14 mars 2024)</li><li>24.4 (11 april 2024)</li></ul> | <ul><li>24.4 (april 2024)</li></ul> |
+>| <ul><li>24.2 (15 februari 2024)</li><li>24.3 (14 mars 2024)</li><li>24.4 (11 april 2024)</li></ul> | <ul><li>24.4 (11 april 2024)</li></ul> |
 >
 >Mer information om processen för snabb släppning finns i [Aktivera eller inaktivera processen för snabb släppning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -65,7 +65,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Visningslogik och hopplogik är nu tillgängliga i formulärdesignerns förhandsgranskningsläge</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Visningslogik och hopplogik är nu tillgängliga i formulärdesignerns förhandsgranskningsläge</a></p>
                         <p>Med den anpassade betaversionen av formulär kan du nu testa visningslogiken och hoppa över logiken i förhandsgranskningsläget. Tidigare visades alla fält i förhandsgranskningen även när logiken tillämpades.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -74,7 +74,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Förhandsversion: 28 mars 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kunder: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -90,7 +90,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Förhandsversion: 14 mars 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kunder: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -109,7 +109,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -128,7 +128,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -173,6 +173,10 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
 
 ### Förbättrad dokumenthantering
 
+>[!IMPORTANT]
+>
+>Funktionerna i **Förbättrad dokumenthantering** ingår i en fasad version och är endast tillgängliga för vissa kunder.
+
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
@@ -189,7 +193,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till en deadline för dokumentgranskningar och godkännanden</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till en deadline för dokumentgranskningar och godkännanden</a></p>
                         <p>Du kan nu ange en tidsgräns för användare eller team som ska granska eller godkänna ett dokument. Granskare och godkännare får e-postmeddelanden 72 timmar och sedan 24 timmar före den angivna tidsgränsen. Tidsgränsen visas även i widgeten Godkännanden i den nya delen Hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -198,14 +202,14 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Förhandsversion: 28 mars 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kunder: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa och använda godkännandemallar</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa och använda godkännandemallar</a></p>
                         <p>Nu kan du skapa godkännandemallar under Konfigurera för att effektivisera gransknings- och godkännandeprocessen. Med godkännandemallar kan du göra gransknings- och godkännandeprocessen mer upprepningsbar genom att
                         <ul>
                             <li>
@@ -223,14 +227,14 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Förhandsversion: 28 mars 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kunder: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa information om alla dina godkännanden på en och samma plats</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa information om alla dina godkännanden på en och samma plats</a></p>
                         <p>Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla godkännanden för att hjälpa dig att hantera och analysera dina godkännandebegäranden i en överblick:
                         <ul>
                             <li>
@@ -254,10 +258,9 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Förhandsversion: 28 mars 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för kunder: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kunder: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
-                        <p><span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span></p>
                     </td>
                 </tr>
             </tbody>
@@ -295,7 +298,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +319,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -353,7 +356,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -379,8 +382,8 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Åtkomst till det gamla kommentarsområdet har tagits bort</a><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
-                        <p>Vi har tagit bort alternativet"Ny kommentering" i uppdateringsområdet för projekt, uppgifter, utgåvor och dokument. Den nya kommenteringen är nu standard och det enda alternativet för dessa objekt.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Åtkomst till det gamla kommentarsområdet har tagits bort</a></p>
+                        <p>Vi har tagit bort alternativet"Ny kommentering" i uppdateringsområdet för projekt, uppgifter, utgåvor och dokument. Den nya kommenteringen är nu standard och det enda alternativet för dessa objekt. Med den här ändringen kan du inte längre återgå till den tidigare kommentarsfunktionen. Dessutom har vi tagit bort inställningen "Visa procent färdigt vid uppdateringsstatus" för en användares profil.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -388,7 +391,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Förhandsversion: 1 april 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för alla kunder: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för alla kunder: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -407,7 +410,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -434,7 +437,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -453,7 +456,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -472,7 +475,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -491,7 +494,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (april 2024)</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -540,7 +543,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en rad utanför den första utgåvan av kvartal 2023. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än den andra utgåvan av kvartal 2024. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
@@ -564,7 +567,7 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes i version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 

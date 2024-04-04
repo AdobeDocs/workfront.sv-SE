@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 1 april 2024; Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 1 april 2024; Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
-Vi har tagit bort alternativet&quot;Ny kommentering&quot; i uppdateringsområdet för projekt, uppgifter, utgåvor och dokument. Den nya kommenteringen är nu standard och det enda alternativet för dessa objekt. Med den här ändringen kan du inte längre återgå till den tidigare kommentarsfunktionen.
+Vi har tagit bort alternativet&quot;Ny kommentering&quot; i uppdateringsområdet för projekt, uppgifter, utgåvor och dokument. Den nya kommenteringen är nu standard och det enda alternativet för dessa objekt. Med den här ändringen kan du inte längre återgå till den tidigare kommentarsfunktionen. Dessutom har vi tagit bort inställningen &quot;Visa procent färdigt vid uppdateringsstatus&quot; för en användares profil.
 
 Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -32,7 +32,7 @@ Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announ
 
 >[!NOTE]
 >
->Förhandsversion: 1 mars 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 1 mars 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 Vi har nu lagt till de nya kommentarsfunktionerna i **Lägg till ny uppdatering** snabbåtgärdsknappen i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nytt hem.
 
@@ -42,7 +42,7 @@ Mer information finns i [Kom igång med nya startsidan](/help/quicksilver/workfr
 
 >[!NOTE]
 >
->Förhandsversion: 29 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 29 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 Vi har gjort följande förbättringar i den nya kommentarsfunktionen:
 
@@ -57,7 +57,7 @@ Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/up
 
 >[!NOTE]
 >
->Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfunktionen fylls nu i på fliken Systemaktivitet i den nya kommentarsupplevelsen som skrivskyddad. Du kan inte svara på systemaktivitetsposter i den nya kommentarsfunktionen.
 
@@ -69,7 +69,7 @@ Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilve
 
 >[!NOTE]
 >
->Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 För att ge dig en kronologisk sammanhängande vy över både kommentarer och systemaktivitetsloggar introducerar vi en tredje flik i uppdateringsområdet för alla objekt. Fliken Alla samlar både användarkommentarer och systemaktivitetskommentarer i en sammanhängande ström.
 
@@ -83,7 +83,7 @@ Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilve
 
 >[!NOTE]
 >
->Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 22 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.
 

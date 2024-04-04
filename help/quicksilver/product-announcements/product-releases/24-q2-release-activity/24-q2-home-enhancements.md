@@ -4,9 +4,10 @@ description: Andra kvartalet 2024 - hemförbättringar
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: df78f09c-7855-4538-abda-421a7a4bc225
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 2 januari 2024; Produktion för snabb version: Med version 24.2 (15 februari 2024); Produktion för alla kunder: Med version 24.4 (april 2024)
+>Förhandsversion: 2 januari 2024; Produktion för snabb version: Med version 24.2 (15 februari 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
 Administratörer kan nu anpassa vilka kolumner som är tillgängliga för användare i specifika nya Home-widgetar med hjälp av layoutmallar. Alternativen är att dölja eller visa standardkolumner och lägga till befintliga fält som nya kolumner.
 
