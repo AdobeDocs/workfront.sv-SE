@@ -4,7 +4,7 @@ description: Du kan redigera layouten för postrutan och -sidan i Adobe Workfron
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -102,7 +102,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Arbetsytan som du öppnar senast öppnas.
 
 1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
-
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
