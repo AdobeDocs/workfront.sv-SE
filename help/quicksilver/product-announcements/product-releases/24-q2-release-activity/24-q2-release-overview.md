@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -265,6 +265,44 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
             </tbody>
 </table>
+
+### Hemförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ som lagts till i administratörskontroller för nytt hem med layoutmallar</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Administratörer kan nu anpassa vilka kolumner som är tillgängliga för användare i specifika nya Home-widgetar med hjälp av layoutmallar. Alternativen är att dölja eller visa standardkolumner och lägga till befintliga fält som nya kolumner.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: 2 januari 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Projektförbättringar
 
