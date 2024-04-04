@@ -7,9 +7,9 @@ description: Du kan inte logga timmar för framtida datum i projekt, uppgifter e
 author: Alina
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,23 @@ ht-degree: 0%
 
 ## Problem
 
-Du kan inte logga timmar för framtida datum i projekt, uppgifter eller utgåvor eftersom fälten är inaktiverade. 
+Du kan inte logga timmar för framtida datum i projekt, uppgifter eller utgåvor eftersom fälten är inaktiverade.
 
-Systemadministratören kan avgöra om du kan logga timmar för framtida datum i tidrapporter. 
+Systemadministratören kan avgöra om du kan logga timmar för framtida datum i tidrapporter.
 
 ## Lösning
 
 Kontakta Adobe Workfront-administratören.
 
-Systemadministratörer kan uppdatera den här inställningen på följande sätt:
+Systemadministratörer kan uppdatera en inställning så att du kan logga tid för framtida datum.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+Som systemadministratör gör du följande:
 
-1. Expandera **Tidrapporter och timmar** och sedan klicka **Inställningar**.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-1. I **Allmänna inställningar** väljer du **Logga timmar för framtida datum**. 
+1. Expandera **Tidrapporter och timmar** och sedan klicka **Inställningar**.
+
+1. I **Allmänna inställningar** väljer du **Logga timmar för framtida datum**.
 
 1. Klicka **Spara**.
 

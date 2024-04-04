@@ -6,9 +6,9 @@ description: Du kan använda [!UICONTROL My Updates] för att snabbt granska god
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Som en användare med [!UICONTROL Review] finns i [!UICONTROL My Updates] områd
 
 Mer information om [!DNL Adobe Workfront] licenser, se [[!DNL Adobe Workfront] licensöversikt](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-Om du har en annan licenstyp än Granska [!DNL Workfront] eller Gruppadministratören måste lägga till [!UICONTROL My Updates] till layoutmallen för att visa den på huvudmenyn. Mer information finns i [Anpassa [!UICONTROL Main Menu] använda en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Om du har en annan licenstyp än Granska visas [!DNL Workfront] eller Gruppadministratören måste lägga till [!UICONTROL My Updates] till layoutmallen för att visa den på huvudmenyn. Mer information finns i [Anpassa [!UICONTROL Main Menu] använda en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Åtkomstkrav
 
@@ -36,33 +36,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td> <p>Nytt: Medarbetare eller högre</p>
+   eller   
+   <p>Aktuell: [!UICONTROL Request] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Visa åtkomst eller högre till objekt som du har taggat i en konversation eller behöver lösa ett godkännande (Projekt, Åtgärder, Problem, Dokument)</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
+   <td> <p>Visa åtkomst eller högre till objekt som du har taggat i en konversation eller behöver lösa ett godkännande (Projekt, Åtgärder, Problem, Dokument)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL View] behörigheter eller högre till projekt, uppgifter, problem, dokument där du är taggad i en konversation eller behöver lösa ett godkännande</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] behörigheter eller högre till projekt, uppgifter, problem, dokument där du är taggad i en konversation eller behöver lösa ett godkännande</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+*Kontakta din [!DNL Workfront] administratör. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
 Du måste ha följande innan du börjar:
 
-* Om du har en [!DNL Workfront] annan licens än [!UICONTROL Review], [!DNL Workfront] eller Gruppadministratören måste lägga till [!UICONTROL My Updates] till [!UICONTROL Main Menu] använda en layoutmall och tilldela dig till den mallen.
+* Om du har en [!DNL Workfront] annan licens än [!UICONTROL Review], dina [!DNL Workfront] eller Gruppadministratören måste lägga till [!UICONTROL My Updates] området till [!UICONTROL Main Menu] använda en layoutmall och tilldela dig till den mallen.
 
-* Granska licensanvändare kan visa [!UICONTROL My Updates] området i sina [!UICONTROL Main Menu] som standard.
+* Granska licenser-användare kan visa [!UICONTROL My Updates] området i sina [!UICONTROL Main Menu] som standard.
 
 ## Öppna [!UICONTROL My Updates] area
 
@@ -72,7 +74,7 @@ Du måste ha följande innan du börjar:
 
    The [!UICONTROL My Updates] -området öppnas.
 
-   Godkännanden och förfrågningar om åtkomst som du har tilldelats visas på den första halvan av sidan, under Mina uppdateringar.
+   Godkännanden och förfrågningar om åtkomst som du har tilldelats visas i den första halvan av sidan, under **Mina uppdateringar**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
@@ -80,7 +82,7 @@ Du måste ha följande innan du börjar:
 
    >[!TIP]
    >
-   >De första fem godkännandena eller förfrågningarna om åtkomst visas som standard. Återstående godkännanden visas på ytterligare sidor. Du kan visa högst 2 000 godkännanden i [!UICONTROL My Updates] område.
+   >De första fem godkännandena eller förfrågningarna om åtkomst visas som standard. Återstående godkännanden visas på ytterligare sidor. Du kan visa högst 2 000 godkännanden i dialogrutan [!UICONTROL My Updates] område.
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
@@ -94,7 +96,7 @@ Du måste ha följande innan du börjar:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
-      <td>Godkännanden som har skickats till dig eller delegerats till dig av en annan användare. Mer information om att delegera godkännanden finns i <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegera godkännandebegäran</a>. </td> 
+      <td>Godkännanden som har skickats till dig eller delegerats till dig av en annan användare. Mer information om hur du delegerar godkännanden finns i <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegera godkännandebegäran</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Delegated Approvals]</strong></td> 
@@ -109,7 +111,7 @@ Du måste ha följande innan du börjar:
 
 1. Så här godkänner eller avvisar du ett objekt eller föreslår ändringar i ett dokument innan du godkänner:
 
-   1. (Valfritt) Klicka på **nedrullningsbar** icon ![](assets/down-arrow-blue.png) bredvid ditt beslut om godkännande (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**,**[!UICONTROL Reject]**) och lägga till en kommentar och sedan klicka **[!UICONTROL Add]**.
+   1. (Valfritt) Klicka på **nedrullningsbar** icon ![](assets/down-arrow-blue.png) bredvid ditt beslut om godkännande (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**,**[!UICONTROL Reject]**) och lägga till en kommentar och sedan klicka på **[!UICONTROL Add]**.
 
       eller
 
@@ -128,9 +130,9 @@ Du måste ha följande innan du börjar:
       >Om du inte vill lägga till en kommentar i ditt beslut kan du klicka på **[!UICONTROL Approve]**, **[!UICONTROL Reject]**, eller **[!UICONTROL Changes]** och beslutet om godkännande beviljas omedelbart.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
-
-      Mer information om hur du godkänner arbete finns i [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >
+      >Mer information om hur du godkänner arbete finns i [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 1. Klicka **[!UICONTROL Grant access]** för att bevilja dig en begäran om åtkomst
 
@@ -155,4 +157,4 @@ Du måste ha följande innan du börjar:
 
    Mer information om hur du uppdaterar objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på **[!UICONTROL Pin current page]** för att fästa [!UICONTROL My Updates] till den övre navigeringen.
+1. (Valfritt) Klicka på **[!UICONTROL Pin current page]** för att fästa [!UICONTROL My Updates] till den översta navigeringen.

@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '4261'
+source-wordcount: '4288'
 ht-degree: 0%
 
 ---
@@ -17,44 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
-
-<!--
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
--->
-
-<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-<!--old message, before Auhust 17: 
-
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->You can access the new experience for the following objects:
-> * Issues, projects, tasks, and documents.
->
->     This is available when you enable the commenting Beta experience.
->
->     This functionality is available only for the Updates section, and it is not available for the following areas:
->
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals, cards in the Boards area
->
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
--->
+<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
 
@@ -62,7 +25,7 @@ After the monthly releases to Production, the same features are also available i
 
 <span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
-<!--info for April 11: take out the "Important" box below (or hide it)-->
+<!--info for April 11: hide the "Important" box below-->
 
 >[!IMPORTANT]
 >
@@ -86,42 +49,21 @@ After the monthly releases to Production, the same features are also available i
 >
 ><span class="preview">Den nya kommentarsupplevelsen finns i sammanfattningspanelen i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsgranskningsmiljön och i produktionsmiljön för kunder som har valt en snabb versionsprocess. </span>
 
-## Att tänka på när du uppdaterar arbete
+Du kan lägga till en uppdatering för ett Adobe Workfront-objekt för att informera om objektets förlopp. Mer information om vilka objekt du kan lägga till uppdateringar till i Workfront finns i [Översikt över uppdateringsavsnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+I den här artikeln beskrivs hur du kan kommentera och uppdatera information för projekt, uppgifter och ärenden. Användare som är tilldelade eller prenumererade till objektet kan visa din uppdatering. Du kan också tagga användare så att de uppmärksammas på uppdateringen.
 
-* Du kan lägga till kommentarer till Workfront-objekt från andra program som är integrerade med Workfront eller från Workfront mobilapp.
+Att lägga till kommentarer till andra objekt liknar att uppdatera projekt, uppgifter och problem. Mer information om hur du kommenterar kort, mål och iterationer finns i följande artiklar:
 
-  Alla program som är integrerade med Workfront kan inte lägga till kommentarer i Workfront-objekt.
+* [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-  Alla funktioner som är tillgängliga i uppdateringsavsnittet för ett objekt i Workfront är inte tillgängliga i andra program vid åtkomst till Workfront-objekt från programmet. Funktioner för RTF eller privata kommentarer till ett företag kanske inte är tillgängliga när du lägger till kommentarer till ett Workfront-objekt från ett tredjepartsprogram.
+  Du måste ha ytterligare en licens för att få tillgång till Workfront Goals.
 
-* Du kan informera om förloppet för ett Workfront-objekt (projekt, uppgift eller problem) när du kommenterar objektet. Användare som har tilldelats eller prenumererar på objektet kan få ett meddelande om uppdateringen. Alla som har behörighet att visa objektet kan visa din uppdatering.
+* [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md)
 
-* Du kan tagga användare så att de uppmärksammas på uppdateringen. Taggade användare får ett meddelande i appen och ett e-postmeddelande om uppdateringen.
+* [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
 
-  >[!TIP]
-  >
-  >   I den nya kommentarsfunktionen taggas kommentarägare automatiskt. Mer information finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-  <!--take the "in the new commenting experience" out when this is the only experience-->
 
-* Du kan lägga till en kommentar i ett objekt som du kan visa, eller så kan du logga in som Workfront- eller gruppadministratör och lägga till en kommentar för en annan användares räkning. Mer information finns i [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
-
-* Du kan lägga till en uppdatering till projekt, uppgifter och utgåvor från följande områden i Workfront:
-
-   * Från ett Workfront-objekt, i uppdateringsavsnittet
-   * Från hemområdet (för uppgifter och ärenden)
-   * Från panelen Sammanfattning i en lista över objekt, en tidrapport eller från arbetsbelastningsutjämnaren (för uppgifter och ärenden)
-
-Informationen på den här sidan beskriver hur du kan kommentera Workfront-objekt och hur du uppdaterar projekt, uppgifter och problem när du lägger till kommentarer till dem.
-
-<!--take this out (below) when we remove legacy out of the application-->
-
-Mer information om att kommentera mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md). Du måste ha ytterligare en licens för att få tillgång till Workfront Goals.
-
-Mer information om hur du kommenterar kort i området för anslagstavlor finns i [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
-
-Information om hur du kommenterar iterationer finns i [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 ## Åtkomstkrav
 
@@ -156,6 +98,40 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Att tänka på när du uppdaterar arbete
+
+* Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* Du kan lägga till kommentarer till Workfront-objekt från andra program som är integrerade med Workfront eller från Workfront mobilapp.
+
+  Alla program som är integrerade med Workfront kan inte lägga till kommentarer i Workfront-objekt.
+
+  Alla funktioner som är tillgängliga i uppdateringsavsnittet för ett objekt i Workfront är inte tillgängliga i andra program vid åtkomst till Workfront-objekt från programmet. Funktioner för RTF eller privata kommentarer till ett företag kanske inte är tillgängliga när du lägger till kommentarer till ett Workfront-objekt från ett tredjepartsprogram.
+
+* Du kan informera om förloppet för ett Workfront-objekt (projekt, uppgift eller problem) när du kommenterar objektet. Användare som har tilldelats eller prenumererar på objektet kan få ett meddelande om uppdateringen. Alla som har behörighet att visa objektet kan visa din uppdatering.
+
+* Du kan tagga användare så att de uppmärksammas på uppdateringen. Taggade användare får ett meddelande i appen och ett e-postmeddelande om uppdateringen.
+
+  >[!TIP]
+  >
+  >Kommentarägare taggas automatiskt. Mer information finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+
+* Du kan lägga till en kommentar i ett objekt som du kan visa, eller så kan du logga in som Workfront- eller gruppadministratör och lägga till en kommentar för en annan användares räkning. Mer information finns i [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+* Du kan lägga till en uppdatering till projekt, uppgifter och utgåvor från följande områden i Workfront:
+
+   * Från ett Workfront-objekt, i uppdateringsavsnittet (för projekt, uppgifter och ärenden)
+   * Från hemområdet (för uppgifter och ärenden)
+   * I panelen Sammanfattning i följande områden (för uppgifter och ärenden):
+
+      * En lista med objekt
+      * En tidrapport
+      * Startsida
+      * Utjämning av arbetsbelastning
+
+<!--info for April 11: hide the section below: add an update to a work item-->
 
 ## Lägga till en uppdatering i en arbetsuppgift
 
@@ -239,15 +215,22 @@ Du kan lägga till uppdateringar för följande objekt:
 
 1. Information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<!--info for April 11: reword the title of this section to: Add an update to a work item-->
+<!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
 ### Lägga till en uppdatering av en arbetsuppgift med hjälp av den nya kommentarsfunktionen
 
 1. Leta reda på objektet som du vill uppdatera (projekt, uppgift eller utgåva) och klicka sedan på namnet för att öppna objektets sida.
 1. Klicka  **Uppdateringar** till vänster.
+The **Kommentar** -fliken är markerad som standard.
+
 1. (Villkorligt) Om **Nya kommentarer** är inaktiverat, klicka för att aktivera det.
 
-   Detta möjliggör den nya kommentarsfunktionen. The **Kommentar** -fliken är markerad som standard.
+   Detta möjliggör den nya kommentarsfunktionen.
+
+   >[!TIP]
+   >
+   ><span class="preview">Alternativet Ny kommentering har tagits bort i förhandsvisningsmiljön.</span>
+
 
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
@@ -339,11 +322,6 @@ Du kan lägga till uppdateringar för följande objekt:
 
 ## Använda RTF i en Workfront-uppdatering{#use-rich-text-in-a-workfront-update}
 
-<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
-
->[!NOTE]
->
->Följande information beskriver hur du använder RTF i den nya kommentarsfunktionen, om inte annat anges.
 
 Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till olika objekt i den, som känslolägesikoner, länkar eller bilder.
 
@@ -351,8 +329,6 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du attribut på **RTF** när du skriver.
 
    ![](assets/rich-text-toolbar.png)
-
-   <!--October 2023: the individual icons in the toolbar will need replacing-->
 
    | **Attribut** | **Knappen Verktygsfält** | **Mac kortkommandon** | **Kortkommandon i Windows** |
    |---|---|---|---|
@@ -436,10 +412,6 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
 ## Söka efter en uppdatering
 
->[!NOTE]
->
->Den här funktionen är bara tillgänglig för fliken Kommentarer i den nya kommentarsupplevelsen. Detta är inte tillgängligt för fliken Systemaktivitet i uppdateringsavsnittet.
-
 Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett objekt.
 
 1. Gå till **Uppdateringar** del av ett objekt.
@@ -451,11 +423,7 @@ Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett 
    >
    >Du kan bara söka efter ord som tillhör texten i en kommentar eller ett svar. Du kan inte söka efter namn på användare eller team som taggats i en uppdatering.
 
-   <div class="preview">
-
    ![Sök i uppdateringar](assets/updates-all-tabs-with-search-field.png)
-
-   </div>
 
    Nyckelordet <!--or user--> som du sökte efter markeras och kommentarerna som innehåller den visas högst upp i uppdateringsavsnittet.
 
@@ -476,8 +444,6 @@ Kopieringen av en uppdatering skiljer sig åt beroende på vilken kommentarsfunk
 ### Kopiera en uppdatering i den nya kommentarsfunktionen
 
 Information om vilka funktioner som är tillgängliga för den nya kommentarsfunktionen och för vilka objekt finns i [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-<!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
 Du kan kopiera information från en befintlig kommentar genom att göra något av följande:
 
@@ -525,7 +491,7 @@ Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar
 
 1. Fortsätt lägga till uppdateringen och klicka på **Skicka** för att lägga till kommentaren.
 
-<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
 ### Kopiera en uppdatering i det gamla kommentargränssnittet
 
@@ -606,30 +572,6 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    Borttagna kommentarer tas bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
 
-   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
-
-<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
-
-## Add an update on a Timesheet
-
-1. Go to a Timesheet on which you want to make an update.
-1. Click the Timesheet to open it.
-1. At the bottom of the Timesheet, click **Include a comment**.
-1. In the box that displays at the bottom of the Timesheet, type an update.
-
-   ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
-
-1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
-
-   Or
-
-   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
-
-   Or
-
-   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
-
--->
 
 ## Granska systemuppdateringar
 
@@ -650,7 +592,44 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
    * Team
    * Mall
    * Malluppgift
+   * Ad hoc-kort
 
 Mer information om systemuppdateringar finns i avsnittet Uppdateringar. [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
+<!--
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+-->
+
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
+<!--old message, before Auhust 17: 
+
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
+>
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
+>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
+>
+> * Goals, cards in the Boards area
+>
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+-->

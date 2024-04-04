@@ -6,7 +6,7 @@ description: En föregångare för flera projekt är en uppgift som en annan akt
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 1. I **Uppgifter** börjar du skriva namnet på den uppgift som du vill ska vara föregående till den aktuella uppgiften.
 1. Ange följande information för att definiera relationen mellan föregående och beroende uppgift:
 
-   * **Beroendetyp:** Välj relationen som du vill att föregående aktivitet ska ha med den beroende aktiviteten. Standardrelationen är &quot;Slutför-Start&quot;, vilket innebär att föregående aktivitet måste slutföras innan den beroende aktiviteten kan startas. Mer information om de olika beroendetyperna finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Beroendetyp:** Välj relationen som du vill att föregående aktivitet ska ha med den beroende aktiviteten. Standardrelationen är &quot;Slutför-Start&quot;, vilket innebär att föregående aktivitet måste slutföras innan den beroende aktiviteten kan startas. Mer information om de olika beroendetyperna finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **Lag:** Ange den tid som måste förflyta efter slutförandet av en framtvingad föregångare tills den beroende aktiviteten kan börja. Mer information om olika typer av fördröjningar finns i [Översikt över fördröjningstyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 

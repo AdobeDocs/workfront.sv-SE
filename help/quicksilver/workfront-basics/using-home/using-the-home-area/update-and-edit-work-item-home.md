@@ -6,14 +6,16 @@ description: Du kan visa och lägga till uppdateringar för en arbetsuppgift i [
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Uppdatera eller redigera en arbetsuppgift i [!UICONTROL Home] area
+
+<!--Audited: April 2024-->
 
 Du kan visa och lägga till uppdateringar för en arbetsuppgift i [!UICONTROL Home] område i [!DNL Adobe Workfront]. Du kan även redigera andra data som är relaterade till arbetsposten om du har tillgång till dem för att redigera dem.
 
@@ -28,32 +30,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Work] eller högre</p> </td> 
+   <td> <p>Nytt: Standard</p>
+   eller
+
+<p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Edit] tillgång till uppgifter och ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
+   <td> <p>[!UICONTROL Edit] tillgång till uppgifter och ärenden</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Contribute-behörigheter eller högre för de uppgifter och ärenden du behöver arbeta med</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter eller högre för de uppgifter och ärenden du behöver arbeta med</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+*Kontakta din [!DNL Workfront] administratör. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visa uppdateringar för en arbetsuppgift
 
 Du kan visa uppdateringar för alla arbetsobjekt i [!UICONTROL Work List]:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. I **[!UICONTROL Work List]** markerar du objektet där du vill visa uppdateringar.\
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **[!UICONTROL Home]**.
+1. I **[!UICONTROL Work List]** markerar du det objekt där du vill visa uppdateringar.\
    Uppdateringar visas i den högra panelen.
 
 1. (Valfritt) Om du vill filtrera systemuppdateringar så att endast användaruppdateringar visas växlar du **[!UICONTROL Show System Updates]** till Av.
@@ -64,7 +69,7 @@ Du kan visa uppdateringar för alla arbetsobjekt i [!UICONTROL Work List]:
 
 Du kan tillhandahålla uppdateringar för alla arbetsobjekt i [!UICONTROL Work] Lista:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **[!UICONTROL Home]**.
 1. I **[!UICONTROL Work List]** markerar du objektet där du vill göra en uppdatering.
 1. Klicka på i den högra panelen **[!UICONTROL Update]** för att visa ett textfält.
 
@@ -83,12 +88,12 @@ Du kan tillhandahålla uppdateringar för alla arbetsobjekt i [!UICONTROL Work] 
 
 Du kan redigera alla fält på arbetsobjekt som du har tillgång till för redigering.
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **[!UICONTROL Home]**.
 1. I **[!UICONTROL Work List]** markerar du det objekt som du vill redigera.\
    Alla fält som du har tillgång till för visning visas på den högra panelen.
 
 1. Håll markören över det fält som du vill redigera i den högra panelen.\
-   Om du har behörighet att redigera fältet markeras fältet när du för pekaren över det.
+   Om du har behörighet att redigera fältet markeras fältet när du för muspekaren över det.
 
    ![](assets/home-350x123.png)
 

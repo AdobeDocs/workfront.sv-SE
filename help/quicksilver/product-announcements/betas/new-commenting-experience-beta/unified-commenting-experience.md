@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Följande funktioner har tagits bort eller kommer att tas bort från den nya fun
 * Kommentera en systemuppdatering. Tidigare har kommentarer som lagts till i systemuppdateringar importerats som skrivskyddade kommentarer på den nya fliken Systemaktivitet.
 * Möjlighet att redigera status, villkor, datum för genomförande och Procent färdigt när du kommenterar uppgifter och ärenden.
 
-  Vi rekommenderar att du lägger till de här fälten på panelen Sammanfattning av uppgifter och problem för att enkelt komma åt dem från listor, rapporter, Hem, Workfront Balancer eller en tidrapport.
+  Vi rekommenderar att du lägger till dessa fält på panelen Sammanfattning av uppgifter och problem så att du enkelt kan komma åt dem från listor, Hem, Workfront Balancer eller en tidrapport.
 * Möjlighet att redigera det anpassade formuläret
 * Informationen&quot;för &lt; användarnamn >&quot; när en Workfront- eller gruppadministratör loggar in som en annan användare och lägger till en kommentar för dennes räkning togs ursprungligen bort. Den återinfördes den 19 oktober 2023.
 * Alternativet Fråga efter godkännande när du taggar personer när du lägger till en kommentar i ett dokument.

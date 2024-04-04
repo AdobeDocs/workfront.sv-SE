@@ -5,22 +5,38 @@ description: Du kan använda panelen Sammanfattning för att granska och uppdate
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Summary] översikt
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-Du kan använda [!UICONTROL Summary] för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgiftsproblem, dokument eller andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
+Du kan använda [!UICONTROL Summary] för att granska och uppdatera information om arbetsobjekt direkt från en lista över uppgifter, ärenden, dokument eller andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
+
+Din Workfront- eller gruppadministratör kan ändra områdena och fälten som visas på sammanfattningspanelen. De kan lägga till upp till 16 fält på panelen Sammanfattning.
+
+>[!IMPORTANT]
+>
+>Vi rekommenderar att du lägger till fält som du måste uppdatera ofta på panelen Sammanfattning, så att du enkelt kan komma åt dem och uppdatera dem utan att komma åt objektets huvudsida.
+>
+>Du kan till exempel lägga till följande fält som uppdateras ofta i panelerna för uppgifter och ärenden:
+>
+>* Status
+>* Procent färdigt
+>* Bekräftelsedatum
+>* Planerat slutförandedatum
+>* Villkor
+
+
 
 I följande tabell visas de områden där du kan söka efter och använda [!UICONTROL Summary] panel:
 
@@ -28,7 +44,7 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Uppgifter</td> 
+   <td><b>Uppgifter</b></td> 
   </tr> 
   <tr> 
    <td> <p>Uppgiftslistor i en</p> 
@@ -44,7 +60,7 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
    <td>Uppgifter i en [!UICONTROL Timesheet]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problem</td> 
+   <td><b>Problem</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Ärendelistor i en</p> 
@@ -66,7 +82,7 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>Dokument</td> 
+   <td><b>Dokument</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Documents] area</td> 
@@ -96,25 +112,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td> <p>Nytt: Medarbetare eller högre</p>
+   eller
+   <p>Aktuell:[!UICONTROL Request] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL View] eller högre tillgång till uppgifter, ärenden, dokument</p> <p>[!UICONTROL View] eller senare åtkomst till objekt som du vill visa dokumentets [!UICONTROL Summary]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
+   <td> <p>[!UICONTROL View] eller högre tillgång till uppgifter, ärenden, dokument</p> <p>[!UICONTROL View] eller senare åtkomst till objekt som du vill visa dokument för [!UICONTROL Summary]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL View] eller högre behörighet till en uppgift, ett problem eller ett dokument</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] eller högre behörighet till en uppgift, ett problem eller ett dokument</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+*Kontakta din [!DNL Workfront] administratör. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visa [!UICONTROL Summary] i en lista med uppgifter eller problem
 
@@ -131,11 +149,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Du kan bara välja en aktivitet eller en utgåva åt gången för att visa informationen om dem i [!UICONTROL Summary] -panelen.
 
-   <div class="preview">
-
    ![Panelen Sammanfattning](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. (Valfritt) Stäng [!UICONTROL Summary] gör du något av följande:
 
@@ -155,17 +169,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Använd förloppsindikatorn högst upp i [!UICONTROL Summary] om du vill uppdatera procentandelen färdigt för den uppgift eller utgåva som du har valt. Ange ett tal eller dra fältet till rätt procentvärde.
 
-<span class="preview">![Procent färdigt på sammanfattningspanelen](assets/summary-overview-percent-complete.png)</span>
+![Procent färdigt på sammanfattningspanelen](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
 Använd [!UICONTROL Updates] i [!UICONTROL Summary] om du vill visa de senaste uppdateringarna och göra uppdateringar för den uppgift eller utgåva du har valt. Klicka **[!UICONTROL See all]** går direkt till [!UICONTROL Updates] -fliken för uppgiften.
 
-<div class="preview">
-
 ![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL Documents]
 

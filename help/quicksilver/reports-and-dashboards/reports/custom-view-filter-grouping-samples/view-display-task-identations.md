@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: visa indrag för en uppgift i en uppgiftslista'
+title: 'Visa: visa indrag för uppgifter i en uppgiftslista'
 description: I den här uppgiftsvyn kan du lägga till kod i kolumnen Uppgiftsnamn om du vill visa uppgifter som är indragna enligt projektets arbetsgruppsstruktur.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -59,15 +59,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 1. Klicka **Lägg till kolumn** och börja skriva &quot;Aktivitetsnamn&quot; i **Visa i den här kolumnen** markerar du det när det visas i listan.
 
-1. Klicka på **Växla till textläge**.
+1. Klicka på i den nya kolumnen **Växla till textläge**.
 1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i
-
-   ```
-   valuefield=
-   ```
-
-   och ersätta den med följande kod:
+1. Ta bort den text du hittar i dialogrutan `valuefield=` och ersätta den med följande kod:
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))

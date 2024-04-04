@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: visa relationen överordnad-underordnad i en uppgift genom att dra in aktivitetens'
+title: 'Visa: visa relationen överordnad-underordnad i en uppgift genom att dra in uppgifterna'
 description: Du kan behålla skillnaden mellan överordnade och underordnade relationer i en exporterad uppgiftslista genom att lägga till en anpassad vy i uppgiftslistan och se till att den här vyn är markerad innan du exporterar listan.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -60,13 +60,20 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 1. Namnge filtret i skärmens övre vänstra hörn.
 1. Klicka på **Aktivitetsnamn** kolumnrubrik.
 
-1. Välj **Växla till textläge** i det övre högra hörnet.
+1. Välj **Växla till textläge** längst upp till höger.
 1. Klicka någonstans i textrutan för att redigera text och ta bort all befintlig text.
 1. Klistra in följande text:
 
-   ```
-   displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
+
+```
+   displayname=
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
+   valueformat=HTML
+```
 
 1. Klicka **Spara**.
 1. Klicka **Spara vy**.

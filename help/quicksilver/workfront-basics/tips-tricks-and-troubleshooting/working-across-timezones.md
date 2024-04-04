@@ -5,9 +5,9 @@ title: Arbeta över tidszoner
 description: Det kan vara till hjälp att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna tidsfält för objekt och tidpunkter i andra områden, t.ex. e-postmeddelanden.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,15 @@ Det kan vara till hjälp att förstå hur [!DNL Adobe Workfront] använder tidsz
 
 * Tidsfält för objekt
 * Times in other [!DNL Workfront] områden, t.ex. automatiska e-postmeddelanden från Workfront
+
+>[!WARNING]
+>
+>Om du inte hittar din exakta tidszon i listan som vi anger, söker du efter den tidszon som är närmast din och uppdaterar den för din instans.
+>
+>Tänk också på att en liknande tidszon kanske inte matchar din perfekt.
+>
+>En del länder eller territorier kan till exempel observera sommartid, men det är inte säkert att ditt land gör det. Om det behövs kan du behöva justera datorns tidszoner efter dessa ändringar.
+
 
 ## Tidszoner i [!DNL Workfront]
 

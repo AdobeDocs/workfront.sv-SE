@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
 
@@ -33,6 +30,8 @@ ht-degree: 0%
 <span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du hitta följande i uppdateringsavsnittet:
 
@@ -133,7 +132,7 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan d
    * Malluppgift
    * Ad hoc-kort
 
+     Mer information om uppdateringar på kort finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * Följande objekt har ingen <span class="preview">Fliken Alla:</span>
 
    * Mål
+
+     Mer information om uppdateringar av mål finns i [Hantera målkommentarer](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -248,6 +261,8 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >Svar som lagts till i systemuppdateringar sammanfogas inte med det överordnade objektet. Endast direkta svar på ett underordnat objekt och svar som lagts till i befintliga uppdateringar läggs ihop med överordnade objekt.
@@ -267,16 +282,14 @@ Tänk på följande när du visar uppdateringar för användare och team:
 
 * Du kan inte lägga till nya kommentarer i uppdateringsavsnittet i ett team.
 
-* Du kan lägga till ett svar på en uppdatering som du visar i ett team. Svaret visas i teamets uppdateringsavsnitt samt i uppdateringsavsnittet för det objekt det tillhör.
-
 * Uppdateringsavsnittet för team fylls i av uppdateringar som anges för följande objekt:
 
    * Användare
-   * Tidrapporter*
    * Artiklar
-   * Iterationer*
+   * Tidrapporter
+   * Iterationer
 
-  *Dessa finns inte för den nya kommentarsfunktionen.
+* Du kan lägga till ett svar på en uppdatering som du visar i ett team. Svaret visas i teamets uppdateringsavsnitt samt i uppdateringsavsnittet för det objekt det tillhör.
 
 * I uppdateringsavsnittet för användare och team kan du visa de uppdateringar som har gjorts under de senaste 90 dagarna.
 
