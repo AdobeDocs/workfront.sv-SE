@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,21 @@ ht-degree: 0%
 
 Vi är glada över att kunna lansera vårt Alpha-program för Workfront + Frame.io. Här hittar du information om den senaste Alpha-releasen tillsammans med en kort videogenomgång som hjälper dig att komma igång.
 
-## Senaste versionen
+## Uppdateringar av utgåvan för Alpha i Frame.io - mars 2024
 
-## Alpha-versionen - mars 2024
+I den här Alpha-versionen har vi:
+
+### Lägga till flera resurser från Frame.io till Workfront
+
+Nu kan du lägga till upp till 10 resurser från Frame.io till Workfront samtidigt. Du kan lägga till i Workfront Project-dokument eller i en viss projektuppgift.
+
+### Förbättrad upplevelse när du lägger till en Frame.io-resurs i Workfront
+
+Menyalternativen för att lägga till en resurs i Workfront har uppdaterats så att det blir enklare att se uppgifter som tilldelats dig, uppgiftshierarkin och aktivitetsstatus.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Alpha-uppdateringar i Workfront - mars 2024
 
 I den här Alpha-versionen har vi:
 
@@ -64,7 +76,7 @@ När dokumentet är låst kan ingen som granskar och/eller godkänner det längr
 
 När en ny dokumentversion överförs kan nästa granskningsomgång startas medan tidigare versioner hålls låsta.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## Skicka feedback
