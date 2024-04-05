@@ -9,9 +9,9 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
+* [Domänformat för Adobe Workfront API-anrop](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
 * [API-fel: &quot;Fjärrservern returnerade ett fel: (400) Ogiltig begäran&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [Dubbletter returneras under en stor sidnumrerad sökning](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [Sortera frågeresultat i API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

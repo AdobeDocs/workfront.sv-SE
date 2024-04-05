@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '14095'
+source-wordcount: '14102'
 ht-degree: 0%
 
 ---
@@ -2698,6 +2698,7 @@ ht-degree: 0%
       * [Kategori](wf-api/wf-objects/category.md)
    * Tips, tricks och felsökning för Adobe Workfront API {#tips-troubleshooting-apis}
       * [Tips, tricks och felsökning för Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+      * [Domänformat för Adobe Workfront API-anrop](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
       * [API-fel: &quot;Fjärrservern returnerade ett fel: (400) Ogiltig begäran&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [Dubbletter returneras under en stor sidnumrerad sökning](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [Sortera frågeresultat i API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
