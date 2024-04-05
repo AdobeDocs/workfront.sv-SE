@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Boards-kontakten för att automatis
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -136,6 +136,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 * [Varumärkena](#boards)
 * [Kolumner](#columns)
 * [Taggar](#tags)
+* [Kommentar](#comments)
 * [Övriga](#other)
 
 <!--
@@ -482,6 +483,9 @@ Den här åtgärdsmodulen skapar en ny tagg och tilldelar den en färg.
 </table>
 
 ### Kommentar
+
+* [Skapa en kommentar](#create-a-comment)
+* [Läs kortkommentarer](#read-card-comments)
 
 #### Skapa en kommentar
 
