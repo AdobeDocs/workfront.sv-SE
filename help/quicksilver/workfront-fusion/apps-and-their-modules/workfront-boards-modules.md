@@ -8,9 +8,10 @@ title: Adobe Workfront Boards-moduler
 description: Du kan använda Adobe Workfront Boards-kontakten för att automatisera processerna i Workfront Boards och koppla dem till program och tjänster från tredje part.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2144'
 ht-degree: 0%
 
 ---
@@ -476,6 +477,54 @@ Den här åtgärdsmodulen skapar en ny tagg och tilldelar den en färg.
   <tr> 
    <td>[!UICONTROL Tag Color]</td> 
    <td>Välj färg för den här taggen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Kommentar
+
+#### Skapa en kommentar
+
+Den här åtgärdsmodulen skapade en kommentar på det angivna kortet.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Ange eller mappa ID:t för kortet som du vill lägga till en kommentar i.<p>Kortets ID finns i URL:en när du visar kortet i Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Comment]</td> 
+   <td>Ange eller mappa texten för kommentaren som du vill lägga till.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Läs kortkommentarer
+
+Den här åtgärdsmodulen hämtar kommentarerna från det angivna kortet.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Ange eller mappa ID:t för kortet som du vill hämta kommentarerna för.<p>Kortets ID finns i URL:en när du visar kortet i Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limit]</td> 
+   <td>Ange det maximala antal kommentarer som du vill att modulen ska returnera i en körningscykel.</p></td> 
   </tr> 
  </tbody> 
 </table>
