@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
+source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
 workflow-type: tm+mt
-source-wordcount: '4361'
+source-wordcount: '4386'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ I produktions-, förhandsgransknings- och testmiljöer har slutanvändarförfrå
 ### Ansvarsfriskrivning
 
 All användning av API:t bör testas i Workfront beta-miljö innan den körs i produktionsmiljön. Om någon kund använder API för en process som Workfront rimligen anser vara betungande för on-demand-programvaran (dvs. processen orsakar en i hög grad negativ effekt på programvarans prestanda för andra kunder), förbehåller sig Workfront rätten att begära att kunden avbryter denna process. Om kunden inte rättar sig efter detta och problemet kvarstår förbehåller sig Workfront rätten att avsluta processen.
+
+## Workfront API-URL
+
+Mer information om den URL som du kommer att använda för att anropa Workfront API finns i [Domänformat för Adobe Workfront API-anrop](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
 
 ## Grundläggande om REST
 
@@ -124,22 +128,22 @@ API:t använder samma cookie-baserade autentisering som används av webbgränssn
 
 >[!IMPORTANT]
 >
-Workfront rekommenderar inte längre att `/login` slutpunkt eller API-nycklar. Använd i stället någon av följande autentiseringsmetoder:
+>Workfront rekommenderar inte längre att `/login` slutpunkt eller API-nycklar. Använd i stället någon av följande autentiseringsmetoder:
 >
-* Serverautentisering med JWT
-* Användarautentisering med OAuth2
+>* Serverautentisering med JWT
+>* Användarautentisering med OAuth2
 >
-Instruktioner om hur du konfigurerar dessa autentiseringsmetoder finns i [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>Instruktioner om hur du konfigurerar dessa autentiseringsmetoder finns i [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
-Instruktioner om hur du använder serverautentisering i Workfront finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med JWT-flöde](../../wf-api/api/oauth-app-jwt-flow.md)
+>Instruktioner om hur du använder serverautentisering i Workfront finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med JWT-flöde](../../wf-api/api/oauth-app-jwt-flow.md)
 >
-Instruktioner om hur du använder användarautentisering i Workfront finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med hjälp av ett auktoriseringskodsflöde](../../wf-api/api/oauth-app-code-token-flow.md)
+>Instruktioner om hur du använder användarautentisering i Workfront finns i [Konfigurera och använda organisationens anpassade OAuth 2-program med hjälp av ett auktoriseringskodsflöde](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
-Det förfarande som beskrivs i detta avsnitt gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Det går inte att logga in på Workfront via Workfront API om din organisation har anslutit sig till Adobe Business Platform.
+>Det förfarande som beskrivs i detta avsnitt gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Det går inte att logga in på Workfront via Workfront API om din organisation har anslutit sig till Adobe Business Platform.
 >
-En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Med ett giltigt användarnamn och lösenord kan du använda följande begäran för att få ett sessions-ID:
 
@@ -151,7 +155,7 @@ Detta ställer in en cookie för att autentisera framtida begäranden samt retur
 
 >[!NOTE]
 >
-Om du har en angiven API-användare som även är administratör rekommenderar Workfront att du loggar in med en API-nyckel.
+>Om du har en angiven API-användare som även är administratör rekommenderar Workfront att du loggar in med en API-nyckel.
 
 **Generera en API-nyckel**
 
@@ -284,7 +288,7 @@ I följande tabell visas några modifierare som du kan använda med Workfront AP
 
 >[!NOTE]
 >
-Sökbegäranden är skiftlägeskänsliga. Om du får ett felmeddelande bör du kontrollera  **_Mod** och **_Intervall** har rätt skiftläge.
+>Sökbegäranden är skiftlägeskänsliga. Om du får ett felmeddelande bör du kontrollera  **_Mod** och **_Intervall** har rätt skiftläge.
 
 #### Använda ELLER-satser
 
@@ -326,7 +330,7 @@ Du kan använda fältparametern request för att ange att en kommaavgränsad lis
 
 >[!NOTE]
 >
-Dessa fältnamn är skiftlägeskänsliga.
+>Dessa fältnamn är skiftlägeskänsliga.
 
 En lista över möjliga fältreferenser finns i  [API Explorer](../../wf-api/general/api-explorer.md)
 
@@ -505,7 +509,7 @@ Vissa objekt har privatägda samlingar som kan uppdateras. I följande exempel v
 
 >[!NOTE]
 >
-Uppdateringar som görs på den översta nivån är små, men uppdateringar av en samling eller ett kapslat objekt ersätter den befintliga samlingen. Om du vill redigera ett enstaka uppdrag i en uppgift utan att påverka objekten använder du PUT i uppdraget i stället för i uppgiften.
+>Uppdateringar som görs på den översta nivån är små, men uppdateringar av en samling eller ett kapslat objekt ersätter den befintliga samlingen. Om du vill redigera ett enstaka uppdrag i en uppgift utan att påverka objekten använder du PUT i uppdraget i stället för i uppgiften.
 
 I följande exempel blir ett projekt en offentlig helpdesk-kö. Observera att de befintliga köegenskaperna ersätts.
 <pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
@@ -546,4 +550,4 @@ En satsvisa uppdateringssats uppdaterar flera objekt samtidigt i ett enda API-an
 
 >[!NOTE]
 >
-Atombatchåtgärder kan bara returnera &quot;success: true&quot; eller ett fel.
+>Atombatchåtgärder kan bara returnera &quot;success: true&quot; eller ett fel.
