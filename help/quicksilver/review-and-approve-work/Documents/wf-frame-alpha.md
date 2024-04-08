@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alpha - Workfront + Frame.io
-description: Vi är glada över att kunna lansera vårt Alpha-program för Workfront + Frame.io. Här hittar du information om den senaste Alpha-releasen tillsammans med en kort videogenomgång som hjälper dig att komma igång.
+title: Betaprogram - Workfront + Frame.io
+description: Vi är glada över att kunna lansera betaprogrammet för Workfront + Frame.io. Här hittar du information om den senaste betaversionen samt en kort videogenomgång som hjälper dig att komma igång.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-# Alpha - Workfront + Frame.io
+# Betaprogram - Workfront + Frame.io
 
-Vi är glada över att kunna lansera vårt Alpha-program för Workfront + Frame.io. Här hittar du information om den senaste Alpha-releasen tillsammans med en kort videogenomgång som hjälper dig att komma igång.
+Vi är glada över att kunna lansera betaprogrammet för Workfront + Frame.io. Här hittar du information om den senaste betaversionen samt en kort videogenomgång som hjälper dig att komma igång.
 
-## Uppdateringar av utgåvan för Alpha i Frame.io - mars 2024
+## Betaversionsuppdateringar i Frame.io - mars 2024
 
-I den här Alpha-versionen har vi:
+I den här betaversionen har vi:
 
 ### Lägga till flera resurser från Frame.io till Workfront
 
@@ -34,9 +34,9 @@ Menyalternativen för att lägga till en resurs i Workfront har uppdaterats så 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Alpha-uppdateringar i Workfront - mars 2024
+## Betaversionsuppdateringar i Workfront - mars 2024
 
-I den här Alpha-versionen har vi:
+I den här betaversionen har vi:
 
 ### Lägga till en deadline för dokumentgranskningar och godkännanden
 

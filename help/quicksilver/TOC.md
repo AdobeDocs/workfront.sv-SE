@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '14102'
 ht-degree: 0%
@@ -1788,7 +1788,7 @@ ht-degree: 0%
 * Granska och godkänn arbetet {#review-and-approve-work}
    * [Granska och godkänn arbetet](review-and-approve-work/review-and-approve-work.md)
    * [Alpha - dokumentgodkännanden](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Alpha - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
+   * [Betaprogram - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [Begränsat dokument och bevisbeslut för obetalda användare - översikt](review-and-approve-work/proof-doc-decision-limits.md)
    * Arbetsgodkännanden {#work-approvals}
       * [Arbetsgodkännanden](review-and-approve-work/manage-approvals/manage-approvals.md)
