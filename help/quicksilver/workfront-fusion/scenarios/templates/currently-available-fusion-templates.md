@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Den här automatiseringen passar för nya projekt i portfolior med anpassade for
 
 Den här mallen konverterar ärenden till projekt. Du kan ändra den så att den uppfyller organisationens standarder.
 
-### [!BADGE Nyhet!]{type=Informative}
+### Workfront - Kopiera dokument från ärenden/förfrågningar till konverterade projekt eller uppgifter
 
 I det här flexibla scenariot kopieras dokument från ärenden eller förfrågningar till tidigare konverterade projekt eller uppgifter.
 
