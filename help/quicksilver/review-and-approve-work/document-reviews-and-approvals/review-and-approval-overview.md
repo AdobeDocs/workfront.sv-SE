@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7e970f4f707937a62f68c191a7cbd5dfa26e471c
+source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Mer information om Frame.io finns i [Komma igång med Frame.io](https://support.
 
 ## Arbetsplanering i Workfront
 
-Workfront-administratören aktiverar integreringen mellan Workfront och Frame.io genom att konfigurera standardkontot för Frame.io under Konfigurera och sedan ange Frame.io-användare i Workfront. Detta gör att koordinatorn kan planera och initiera arbetet med Workfront Projects och formellt granska och godkänna.
+Workfront-administratören aktiverar integreringen mellan Workfront och Frame.io genom att konfigurera standardkontot för Frame.io under Konfigurera och sedan ange Frame.io-användare i Workfront. Detta gör att koordinatorn kan planera och initiera arbetet med Workfront Projects och formella gransknings- och godkännandearbetsflöden.
 
 ### Konfigurera ett standardkonto för Frame.io
 
-Workfront-administratörer initierar integreringen av Workfront och Frame.io genom att lägga till ett standard-konto för Frame.io under Konfigurera i Workfront. När ett standard-Frame.io-konto har konfigurerats skapar integreringen sammankopplade projekt mellan Workfront och Frame.io.
+Workfront-administratörer initierar integreringen av Workfront och Frame.io genom att lägga till ett standard-konto för Frame.io under Konfigurera i Workfront. När ett Frame.io-standardkonto har konfigurerats har projekt som skapats i Workfront ett spegelprojekt som skapats i Frame.io.
 
 Mer information finns i [].
 
@@ -42,11 +42,11 @@ När en användare har markerats som en Frame.io-användare i Workfront och läg
 
 * De läggs till som medarbetare i Frame.io
 * De kan skicka material från Frame.io till Workfront för granskning och godkännande
+* De kan visa information i den enkelriktade synkroniseringsmappen från Workfront
 
 >[!TIP]
 >
 >Vi rekommenderar att användare som regelbundet arbetar med kreativa verktyg kan aktivera och överföra material för granskning och godkännande som Frame.io-användare.
-
 
 Mer information finns i [].
 
@@ -92,20 +92,20 @@ När godkännandet har skapats går användarna tillbaka till Frame.io för att 
 
 Projektsamordnare kan skapa engångs- och godkännandemallar eller återköpsbara godkännandemallar under Konfigurera i Workfront. Alla gransknings- och godkännandeaktiviteter som gjorts i Frame.io registreras också i Workfront.
 
+#### Lägg till granskare och godkännare
+
 Projektsamordnare kan välja att tilldela granskare, godkännare eller en blandning av båda:
 
-* **Granskare** kan kommentera och markera resurser. När de är klara kan de markera granskningen som slutförd. <!--example of when to add reviewers-->
-* **Godkännare** kan kommentera markeringsresurser. De måste fatta beslut om att flytta godkännandeprocessen framåt.
+* **Granskare** kan kommentera och kommentera resurser. När de är klara kan de markera granskningen som slutförd. <!--example of when to add reviewers-->
+* **Godkännare** kan kommentera och kommentera resurser. De måste fatta beslut om att flytta godkännandeprocessen framåt.
 
 
+#### Skapa ett arbetsflöde för granskning och godkännande
 
-Alla kommentarer som görs i Frame.io visas på fliken Uppdateringar i Workfront. Svar som gjorts i Workfront återspeglas inte i Frame.io.
-
-Kommentarer som bara är markerade för Team visas inte på fliken Workfront Updates.
-
-Granskare och godkännare kan läggas till i mallar för enstaka användning eller godkännande:
+Granskare och godkännare kan läggas till i ett enda arbetsflöde, en enda arbetsgång för godkännande eller i en godkännandemall:
 
 <!--can also assign teams and set deadline-->
+E-post - deadline e-post 72, 24 och inom deadline.
 
 * **Godkännanden för enstaka användning**: Ange godkännandedeadlines
 
@@ -123,31 +123,34 @@ I området Workfront Setup kan användare med en standardlicens skapa återanvä
 
 ### Godkänn resurser i Frame.io
 
-Frame.io-anslutna resurintressenter kan granska och godkänna inuti Frame.io-visningsprogrammet med kommentarer som synkroniseras till Workfront uppdateringsström, beslut osv.
+Intressenter kan granska och godkänna anslutna resurser med Frame.io-visningsprogrammet.
+
+#### Öppna Frame.io-visningsprogrammet
+
+Användarna kan öppna Frame.io-visningsprogrammet på följande sätt:
+
+* The Awaiting my approval widget in the new Workfront Home area
+* Workfront e-postmeddelanden.
+
+Externa Workfornt-användare ombeds att skapa en Frame.io-inloggning för att granska och godkänna resurser.
+
+#### Kommentera och kommentera resurser
+
+Alla kommentarer som görs i Frame.io-visningsprogrammet registreras också på fliken Workfront Update (Uppdatering). Svar gjorda i Workfront visas inte i Frame.io. Kommentarer som bara är markerade för Team visas inte på fliken Workfront Updates.
+
+#### Fatta ett beslut
+
+Godkännarna måste fatta något av följande beslut:
+
+* Godkänn: Detta
+* Godkänn med ändringar
+* Behöver göras
+
+Granskarna kan markera sin granskning som komplett inuti Frame.io-visningsprogrammen.
 
 <!-- include screenshot from frame.io-->
 
-Om du arbetar exklusivt i Bildruta kan du få ett e-postmeddelande om en begäran.
 
-Om du arbetar exklusivt i Workfront kan du använda widgeten för godkännande hemma.
-
-du kommer åt Frame.io-visningsprogrammet när du arbetar
-
-**Godkänn resurser från Frame.io**
-hur de meddelas
-
-fatta ett beslut - godkänna, godkänna med ändringar, behöver arbete
-
-**Godkänn resurser från Workfront**
-hur de meddelas
-
-Hem i väntan på min godkännandewidget
-
-E-post - deadline e-post 72, 24 och inom deadline.
-
-Externa WF-användare uppmanas att skapa en inloggning för bildruta
-
-Om resursen inte är ansluten till en bildruta kan de visa miniatyrbilder i WF och använda kommentarströmmen. Gransknings- och godkännandebeslut kan fattas.
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
 
