@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
+source-git-commit: d463a3878552f926c4b5a5c87e0f87764e60c60d
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2167'
 ht-degree: 0%
 
 ---
@@ -297,6 +297,41 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av automatiserat arbetsflöde för att skapa mappar i Adobe Experience Manager-integreringen</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>Vi har uppdaterat arbetsflödet för länkade mappar i Adobe Experience Manager så att dina Adobe Experience Manager-mappar bättre motsvarar dina behov.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 11 mars 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för alla kunder: 14 mars 2024</p>
                             </li>
                         </ul>
                     </td>
@@ -595,11 +630,11 @@ Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området
 
 Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### API-version 16
+### API-version 18
 
-För API-version 16 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
+För API-version 18 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Information om nyheter och uppdateringar finns på [Nyheter i API-version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

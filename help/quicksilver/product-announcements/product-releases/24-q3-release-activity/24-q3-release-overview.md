@@ -4,7 +4,8 @@ description: Den här sidan innehåller information om funktioner som ingår i u
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
+source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -90,11 +91,11 @@ Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området
 
 Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### API-version 16
+### API-version 18
 
-För API-version 16 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
+För API-version 18 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Information om nyheter och uppdateringar finns på [Nyheter i API-version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -105,4 +106,3 @@ Mer information om underhållsuppdateringar som gjordes under tredje kvartersver
 ### Uppdateringar
 
 Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-
