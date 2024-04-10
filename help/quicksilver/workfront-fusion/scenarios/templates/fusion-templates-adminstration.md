@@ -3,20 +3,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Administrera Adobe Workfront Fusion Templates
-description: Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra dessa åtgärder från [!UICONTROL Templates] sidan i [!DNL Adobe Workfront Fusion Administration] område.
+description: Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra de här åtgärderna från [!UICONTROL Templates] sidan i [!DNL Adobe Workfront Fusion Administration] område.
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] Malladministration
 
-Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra dessa åtgärder från [!UICONTROL Templates] sidan i [!DNL Adobe Workfront Fusion Administration] område.
+Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra de här åtgärderna från [!UICONTROL Templates] sidan i [!DNL Adobe Workfront Fusion Administration] område.
 
 ## Åtkomstkrav
 
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,22 +57,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Visa [!DNL Workfront Fusion] mallar som administratör
+## Visa [!DNL Workfront Fusion] mallar som [!DNL Workfront Fusion] administratör
 
 Så här visar du en tabell över alla mallar som skapats och deras status:
 
 1. Klicka **[!UICONTROL Administration]** i den vänstra navigeringspanelen för att öppna [!UICONTROL Administration] område.
+
+   >[!NOTE]
+   >
+   >Administrationsområdet visas bara för Workfront Fusion-administratörer.
+
 1. Klicka **[!UICONTROL Templates]** i den vänstra navigeringspanelen.
 
 Det finns tre kolumner som är relaterade till mallens publiceringsstatus. En bock i en kolumn anger följande:
 
-* **[!UICONTROL Published]**: Dessa mallar visas för närvarande i [!UICONTROL Team templates] i användargränssnittet.
-* **[!UICONTROL Requested approval]**: Dessa mallar väntar på ditt godkännande. De är synliga i [!UICONTROL Team templates] i användargränssnittet.
-* **[!UICONTROL Approved]**: Dessa mallar har godkänts. De är synliga i [!UICONTROL Public templates] i standardgränssnittet.
+* **[!UICONTROL Published]**: De här mallarna visas för närvarande i [!UICONTROL Team templates] i användargränssnittet.
+* **[!UICONTROL Requested approval]**: Mallarna väntar på ditt godkännande. De visas för närvarande i [!UICONTROL Team templates] i användargränssnittet.
+* **[!UICONTROL Approved]**: Mallarna har godkänts. De visas för närvarande i [!UICONTROL Public templates] i standardgränssnittet.
 
 >[!NOTE]
 >
