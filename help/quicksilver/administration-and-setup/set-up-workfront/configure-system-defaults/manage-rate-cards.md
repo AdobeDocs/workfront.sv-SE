@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 {{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen [!UICONTROL **Klassificeringskort**].
-1. Klicka [!UICONTROL **Nytt tariffkort**] skriver du ett namn för tariffkortet i dialogrutan [!UICONTROL **Kreditkort**] som ska ersätta&quot;Kort med namnlös hastighet&quot;.
-1. Klicka på [!UICONTROL **Lägg till jobbroll**].
+1. Klicka [!UICONTROL **Nytt tariffkort**] skriver du ett namn för tariffkortet i dialogrutan [!UICONTROL New rate card] i stället för&quot;Namnlöst tariffkort&quot;.
+1. (Valfritt) Lägg till en [!UICONTROL **Beskrivning**].
+1. (Valfritt) Om du vill bifoga ett anpassat formulär till tariffkortet klickar du på [!UICONTROL **Lägg till anpassat formulär**] i det övre högra hörnet och välj ett anpassat formulär i listan som visas.
+
+   Mer information om hur du bifogar ett anpassat formulär finns i [Lägga till ett anpassat formulär i ett objekt](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Klicka [!UICONTROL **Roller och hastigheter för jobb**] i den vänstra navigeringspanelen.
+1. På skärmen Roller och tariffer för jobbjobb klickar du på [!UICONTROL **Lägg till jobbroll**].
 1. I dialogrutan väljer du [!UICONTROL **Jobbroll**] för att definiera faktureringstaxor för.
 
    Standardfaktureringshastigheten visar systemnivåfrekvensen för den här jobbrollen, om en sådan har definierats.
@@ -82,7 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka [!UICONTROL **Spara**].
 1. (Valfritt) Om du vill lägga till en annan faktureringsfrekvens, antingen för samma jobbroll på en annan plats eller för en separat jobbroll, klickar du på [!UICONTROL **Lägg till jobbroll**].
-1. (Valfritt) Om du vill ändra en faktureringsfrekvens väljer du taxan i priskortet och klickar på knappen **Redigera** -ikon.
+1. (Valfritt) Om du vill redigera ett tariffkort klickar du på kortnamnet i listan Klassificeringskort i Inställningar. Om du vill redigera en faktureringsfrekvens klickar du på [!UICONTROL **Roller och hastigheter för jobb**] i den vänstra navigeringspanelen på hastighetskortet. Välj sedan hastigheten och klicka på **Redigera** icon ![Ikonen Redigera](assets/edit-icon.png).
 
 ## Kopiera ett priskort
 
@@ -90,15 +96,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på i den vänstra panelen [!UICONTROL **Klassificeringskort**].
 1. Markera kryssrutan bredvid tariffkortet i listan och klicka på **Kopiera** icon ![Kopiera, ikon](assets/copy-icon.png).
+1. Ange ett namn för tariffkortet i dialogrutan [!UICONTROL Copy rate card] i stället för&quot;Namnlöst tariffkort&quot;. Klicka sedan på **Spara**.
 
-   Ett dubbletttariffkort läggs till. Klicka på kortnamnet i listan för att ändra namnet.
+   Det nya tariffkortet sparas. Redigera tariffkortsinformation, jobbroller och tariffer efter behov.
 
 ## Ta bort ett helt tariffkort
 
 {{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen [!UICONTROL **Klassificeringskort**].
-1. Markera kryssrutan intill tariffkortet i listan och klicka på **Ta bort** icon ![Ikonen Ta bort](assets/delete.png).
+1. Markera kryssrutan bredvid tariffkortet i listan och klicka på **Ta bort** icon ![Ikonen Ta bort](assets/delete.png).
 
    >[!NOTE]
    >
