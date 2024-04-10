@@ -1,29 +1,29 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Adobe Workfront och Frame.io inbyggd integration alpha: features"
-description: Planerade funktioner för Adobe Workfront och Frame.io, inbyggd integration alpha
+title: "Adobe Workfront and Frame.io native integration beta: features"
+description: Planerade funktioner för betaversionen av Adobe Workfront och Frame.io
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
+source-git-commit: b7a0fe333f0d8f17bc2d6c612d8cff6ee484c935
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront och Frame.io, inbyggd integration alpha: funktioner och testning
+# Adobe Workfront och Frame.io inbyggd integration beta: funktioner och testning
 
 Med den här integreringen är vårt mål att göra det möjligt för kreatörer att behålla sina valfria verktyg (CC eller Frame.io) för att skapa innehåll och utföra peer-granskningar, samtidigt som projektledare koordinerar arbetet och initierar och övervakar den formella granskningsprocessen inifrån Workfront. Detta kan uppnås genom att man använder det bästa av båda lösningarna: Workfront nya dokumentgodkännanden för att hantera innehållsgodkännanden, tillsammans med de innehållsgranskningsfunktioner som Frame.io erbjuder. De nya dokumentgodkännandena och Frame.io kommer tillsammans att utgöra vår nya heltäckande upplevelse för granskning och godkännande av innehåll. 
 
-Mer information om hur alfavärdet fungerar och hur du kan delta finns i [Integreringsalfa för Adobe Workfront och Frame.io: översikt](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+Mer information om hur betaversionen fungerar och hur du kan delta finns i [Betaversion av integrationen mellan Adobe Workfront och Frame.io: översikt](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
->Om du kommer på dessa sidor utan att ditt företag deltar i det här alfaversionsprogrammet, var noga med att behandla informationen här och kontakta din Workfront- eller Frame.io-administratör för mer information.
+>Om du kommer på dessa sidor utan att ditt företag deltar i betaprogrammet, var noga med att behandla informationen här och kontakta din Workfront- eller Frame.io-administratör för mer information.
 >
 
 ## Demonstrationsvideo
@@ -32,11 +32,11 @@ Mer information om hur alfavärdet fungerar och hur du kan delta finns i [Integr
 
 ## Grundläggande testscenario
 
-För att du enkelt ska kunna testa de nya funktionerna i alfaversionen har vi skapat ett nytt test-konto för Frame.io och kopplat det till en ny grupp som kallas `Frame.io alpha testing` i Workfront Preview- eller Sandbox-miljö.
+För att du enkelt ska kunna testa betaprogrammets nya funktioner har vi skapat ett nytt test-konto för Frame.io och kopplat det till en ny grupp som kallas `Frame.io testing` i Workfront Preview- eller Sandbox-miljö.
 
 Om du vill testa funktionen loggar du in på Workfront Preview eller Sandbox och utför följande steg:
 
-1. **Koordinatorer:** Skapa ett projekt i Workfront med `Frame.io alpha testing` grupp tilldelad som projektgrupp.
+1. **Koordinatorer:** Skapa ett projekt i Workfront med `Frame.io testing` grupp tilldelad som projektgrupp.
 
 1. **Koordinatorer:** I Workfront markerar du de uppgifter som kräver kreativt arbete som bildruteaktiverade (i uppgiftsinformationen) och tilldelar dina användare (tilldela dig själv också om du vill testa hela arbetsflödet).
 
@@ -69,7 +69,9 @@ Om du vill testa funktionen loggar du in på Workfront Preview eller Sandbox och
 
 ## Detaljerat testscenario
 
-För deltagare som vill testa ytterligare funktioner har vi skapat ett mer komplicerat testscenario. En guide för detta detaljerade testscenario kan laddas ned här: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
+För deltagare som vill testa ytterligare funktioner har vi skapat ett mer komplicerat testscenario. En guide för detta detaljerade testscenario kan laddas ned här: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/product-announcements/betas/assets/MVP-WF-Frame-Detailed-Walk-Through.pdf).
+
+
 
 ## Funktionsplaner
 
@@ -77,7 +79,7 @@ Nedan finns information om de primära användningsområdena som vi vill ta upp 
 
 >[!NOTE]
 >
->Punkter under en **&quot;Potentiella förbättringar i framtida releaser&quot;** sidhuvudet kan, eller behöver inte, ingå i en framtida release, beroende på feedback och våra utvecklingsplaner.
+>Punkter under en **&quot;Potentiella förbättringar i framtida releaser&quot;** sidhuvudet kan ingå i en framtida release, beroende på betaversionen och våra utvecklingsplaner.
 >
 
 ### Workfront-administratörer kan skapa en anslutning mellan Workfront-grupper och Frame.io-konton
