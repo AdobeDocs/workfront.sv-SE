@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5502'
+source-wordcount: '5739'
 ht-degree: 0%
 
 ---
@@ -814,6 +814,58 @@ När du konfigurerar den här modulen visas följande fält.
 +++
 
 +++ **[!UICONTROL Search]**
+
+Sökmodulen söker efter poster i ett objekt i [!DNL Workfront] som matchar den sökfråga du anger.
+
+Du kan mappa den här informationen i efterföljande moduler i scenariot.
+
+När du konfigurerar den här modulen visas följande fält.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Workfront] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>Välj typ av [!DNL Workfront] poster som du vill att modulen ska söka efter.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Result Set]</td> 
+   <td>Välj ett alternativ för att ange om du vill att modulen ska få det första resultatet som matchar dina sökvillkor eller alla resultat som matchar det.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria fields]</td> 
+   <td> <p>Markera de fält som du vill använda som sökvillkor. Dessa fält är sedan tillgängliga i listrutan Sökvillkor.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria]</td> 
+   <td> <p>Ange fältet som du vill söka efter, operatorn som du vill använda i frågan och värdet som du söker efter i fältet.</p> <p>Obs! Använd inte <code>username </code>i sökvillkoren. Inklusive <code>username </code>i en API-fråga till [!DNL Workfront] loggar in användaren i Workfront och sökningen misslyckas.</p> <p>Obs! <code>In</code> och <code>NotIn</code>arbeta med arrayer. Indata ska vara i matrisformat.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Markera de fält som du vill inkludera i utdata för den här modulen.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL References]</td> 
+   <td>Markera de referensfält som du vill ta med i sökningen.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Collections]</td> 
+   <td>Markera de samlingar som du vill lägga till i sökningen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+++
+
++++ **[!UICONTROL Search (Legacy)]**
 
 Sökmodulen söker efter poster i ett objekt i [!DNL Workfront] som matchar den sökfråga du anger.
 
