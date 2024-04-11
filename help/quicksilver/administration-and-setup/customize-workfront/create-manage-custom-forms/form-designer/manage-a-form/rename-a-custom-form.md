@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    I den vy som visas kan du granska alla anpassade formulär som har skapats för din organisation. Du kan också se vem som har skapat varje formulär, vilken objekttyp det fungerar med och om det är aktivt.
 
-1. Markera det anpassade formulär som du vill ändra namn på och klicka sedan på eller ![Ikonen Redigera](assets/edit-icon2.png).
+1. Markera det anpassade formulär som du vill ändra namn på och klicka sedan på ![Ikonen Redigera](assets/edit-icon2.png).
 1. Om du vill ändra titeln klickar du på formulärets namn.
 1. Om du vill ändra beskrivningen klickar du i beskrivningstextrutan.
 
