@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Skapa och redigera företag
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -119,7 +117,7 @@ Så här lägger du till eller redigerar ett företag:
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] section</td> 
-      <td> <p>Om det finns fält som du vill lägga till i företaget som inte är tillgängliga i [!DNL Workfront]kan du skapa ett anpassat formulär och koppla det till ditt företag. </p> <p>Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan. Endast aktiva anpassade formulär visas på menyn.</p> <p><span class="preview"><strong>Obs!</strong> Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är bara tillgängliga när du öppnar företagsposten på informationssidan, inte i dialogrutan Redigera företag. (I listan över företag klickar du på företagsnamnet för att öppna informationen.)</span></p> <p> Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>. </p> </td>
+      <td> <p>Om det finns fält som du vill lägga till i företaget som inte är tillgängliga i [!DNL Workfront]kan du skapa ett anpassat formulär och koppla det till ditt företag. </p> <p>Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan. Endast aktiva anpassade formulär visas på menyn.</p> <p><strong>Obs!</strong> Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är bara tillgängliga när du öppnar företagsposten på informationssidan, inte i dialogrutan Redigera företag. (I listan över företag klickar du på företagsnamnet för att öppna informationen.)</p> <p> Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

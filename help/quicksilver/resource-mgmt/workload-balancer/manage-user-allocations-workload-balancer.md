@@ -6,9 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,6 @@ ht-degree: 0%
 # Hantera användarallokeringar i Utjämning av arbetsbelastning
 
 <!-- Audited: 01/2024 -->
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Som resurshanterare kan du tilldela användare arbete och hantera deras dagliga, veckovisa eller månadsvisa tilldelningar från belastningsutjämnaren för att se till att de tilldelas ett antal timmar som passar i deras tillgängliga scheman.
 
@@ -259,7 +253,7 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
 
 >[!TIP]
 >
-><span class="preview">En pennikon visas till höger om arbetsobjektets namn för att ange att det justerats manuellt.</span>
+>En pennikon visas till höger om arbetsobjektets namn för att ange att det justerats manuellt.
 
 ![Manuellt justerade timmar, ikon](assets/icon-for-manually-adjusted-hours.png)
 

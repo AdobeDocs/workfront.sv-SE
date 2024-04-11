@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # Konfigurera delning för anpassade fält och widgetar med den äldre formulärbyggaren
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 När du lägger till ett nytt anpassat fält eller en ny widget i ett anpassat formulär kan alla i systemet som har tillgång till anpassade formulär redigera egenskaperna för det objektet, till exempel dess etikett och namn. Du kan ändra detta genom att styra vem det kan delas med.
 
@@ -63,11 +57,11 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 1. Om du konfigurerar delning för ett anpassat fält eller en anpassad widget i din organisations Workfront-instans gör du följande:
 
    1. Klicka **Fält** för att öppna området Fält.
-   1. Markera objektet som du vill konfigurera delning för och klicka sedan på **Dela** <span class="preview">eller ![Delningsikon](assets/share-icon.png).</span>
+   1. Markera objektet som du vill konfigurera delning för och klicka sedan på ![Delningsikon](assets/share-icon.png).
 
    Om du konfigurerar delning för ett anpassat fält eller en anpassad widget i ett befintligt anpassat formulär gör du så här:
 
-   1. Markera det anpassade formuläret och klicka sedan på **Redigera** <span class="preview">eller ![Ikonen Redigera](assets/edit-icon.png).</span>
+   1. Markera det anpassade formuläret och klicka sedan på ![Ikonen Redigera](assets/edit-icon.png).
    1. Markera det objekt som du vill konfigurera delning för i formulärredigeringsområdet till höger.
    1. Klicka på i den vänstra panelen **Delningsfält**.
 
@@ -131,7 +125,7 @@ Du kan ta reda på vem som har ärvt åtkomst till ett anpassat fält eller en a
 1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
-1. Klicka på **Fält** och sedan markera fältet, bilden eller åtkomstwidgeten.
+1. Klicka **Fält** markerar du sedan fältet, bilden eller åtkomstwidgeten.
 1. Klicka i rutan som visas **Ärvda behörigheter** och visa namnen som visas.
 1. Klicka **Avbryt**.
 

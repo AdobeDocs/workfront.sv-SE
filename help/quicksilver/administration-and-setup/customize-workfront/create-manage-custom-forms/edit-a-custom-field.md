@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Redigera egenskaper för ett anpassat fält, avsnittsbrytning eller widget i ett anpassat formulär
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Du kan redigera egenskaperna för ett anpassat fält, en avsnittsbrytning eller en widget som används i ett anpassat formulär i din Adobe Workfront-instans. Dessa innehåller objektets etikett, namn, instruktioner och så vidare.
 
@@ -61,7 +55,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 1. Klicka **Anpassad Forms.**
 1. Klicka **Fält** för att öppna området Fält.
-1. Markera det anpassade fältet, avsnittsbrytningen eller widgeten och klicka sedan på **Redigera** <span class="preview">eller ![Ikonen Redigera](assets/edit-icon.png).</span>
+1. Markera det anpassade fältet, avsnittsbrytningen eller widgeten och klicka sedan på ![Ikonen Redigera](assets/edit-icon.png).
 1. I rutan som visas ändrar du något av alternativen som är tillgängliga för objektet som du redigerar.
 
    Mer information om dessa alternativ

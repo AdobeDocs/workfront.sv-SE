@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Dela ett eget formulär
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Du kan konfigurera åtkomst för ett anpassat formulär för att styra vem - person, roll, grupp, team, företag - som kan visa, dela och redigera det.
 
@@ -69,7 +63,7 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
 {{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
-1. Markera det anpassade formuläret och klicka sedan på **Dela** <span class="preview">eller ![Delningsikon](assets/share-icon.png).</span>
+1. Markera det anpassade formuläret och klicka sedan på ![Delningsikon](assets/share-icon.png).
 1. I rutan som visas, under **Ge anpassade formulär åtkomst till** börjar skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela det anpassade formuläret med och trycker sedan på **Retur** när namnet visas.
 1. Om du vill justera åtkomsten för användaren, teamet, jobbrollen, gruppen eller företaget som du just lade till klickar du på listrutan till höger om namnet och konfigurerar sedan något av följande tillgängliga alternativ och någon av de avancerade inställningarna:
 
@@ -118,7 +112,7 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
 {{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **Anpassad Forms**.
-1. Markera det anpassade formuläret och klicka sedan på **Dela** <span class="preview">eller ![Delningsikon](assets/share-icon.png).</span>
+1. Markera det anpassade formuläret och klicka sedan på ![Delningsikon](assets/share-icon.png).
 1. I den ruta som visas klickar du på X till höger om namnet på den användare, det team, den roll, den grupp eller det företag som du inte längre vill ha särskild åtkomst till formuläret.
 1. (Valfritt) Upprepa föregående steg för andra namn som du vill ta bort.
 1. Klicka **Spara**.

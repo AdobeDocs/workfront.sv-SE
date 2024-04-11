@@ -9,20 +9,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Kopiera ett anpassat formulär och skapa ett nytt med det äldre verktyget
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Du kan skapa ett nytt anpassat formulär som baseras på ett befintligt.
 
@@ -59,7 +53,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 {{step-1-to-setup}}
 
 1. Klicka **Anpassad Forms.**
-1. Välj det anpassade formulär som du vill använda som bas för ett nytt anpassat formulär och klicka sedan på **Kopiera** <span class="preview">eller ![Kopiera, ikon](assets/copy-icon.png).</span>
+1. Välj det anpassade formulär som du vill använda som bas för ett nytt anpassat formulär och klicka sedan på ![Kopiera, ikon](assets/copy-icon.png).
 1. I **Egen formulärkopia** anger du följande information i rutan som visas:
 
    <table style="table-layout:auto"> 
@@ -73,14 +67,14 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      <tr> 
       <td role="rowheader"> <p role="rowheader">Formulärtyper </p> </td> 
       <td> <p>I <b>Formulärtyp</b> markerar du de objekttyper som du vill att det anpassade formuläret ska fungera med och klickar på X bredvid de typer som du vill ta bort. Typer som redan är kopplade till formuläret är inaktiverade i listan.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>Formuläret måste associeras med minst en objekttyp.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Kopiera formulär**.
+1. Klicka **Kopiera**.
 
    Om beräkningsfält i det ursprungliga formuläret refererar till fält som inte är kompatibla med en objekttyp som du lägger till i det nya formuläret, uppmanas du att ändra beräkningarna i dessa fält.
 

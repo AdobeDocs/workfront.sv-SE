@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # Lägga till eller ta bort objekttyper från ett befintligt anpassat formulär med formulärdesignern
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Du kan lägga till eller ta bort objekttyper från ett befintligt anpassat formulär med formulärdesignern.
 
@@ -70,7 +64,7 @@ Du kan lägga till ytterligare objekttyper i formuläret så att det kan kopplas
 
    I den vy som visas kan du granska alla anpassade formulär som har skapats för din organisation. Du kan också se vem som har skapat varje formulär, vilken objekttyp det fungerar med och om det är aktivt.
 
-1. Markera det anpassade formulär som du vill lägga till ytterligare objekttyper i och klicka sedan på **Redigera** <span class="preview">eller ![Ikonen Redigera](assets/edit-icon.png).</span>
+1. Markera det anpassade formulär som du vill lägga till ytterligare objekttyper i och klicka sedan på ![Ikonen Redigera](assets/edit-icon2.png).
 
 1. Klicka på plustecknet + efter längst upp i formuläret **Objekttyper** väljer du sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
@@ -97,10 +91,10 @@ Så här tar du bort en objekttyp:
 {{step-1-to-setup}}
 
 1. Klicka **Anpassad Forms** till vänster.
-1. Markera det anpassade formulär som du vill redigera och klicka sedan på **Redigera** <span class="preview">eller ![Ikonen Redigera](assets/edit-icon.png).</span>
+1. Markera det anpassade formulär som du vill redigera och klicka sedan på ![Ikonen Redigera](assets/edit-icon2.png).
 1. Klicka på krysset på någon av **Objekttyper** som du vill ta bort från formuläret.
 
    ![](assets/delete-object-types.png)
 
 1. (Valfritt) Upprepa föregående steg för andra objekttyper som du vill ta bort från formuläret.
-1. Klicka **Klar** och sedan klicka **Spara och stäng**.
+1. Klicka **Använd** och sedan klicka **Spara och stäng**.

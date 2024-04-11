@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '6079'
+source-wordcount: '6018'
 ht-degree: 0%
 
 ---
 
 # Designa ett formulär med formulärdesignern
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Du kan utforma ett anpassat formulär med formulärdesignern. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -731,8 +725,6 @@ Så här lägger du till bilder, PDF eller videofilmer:
 
    Klicka **Spara och stäng**.
 
-<div class="preview">
-
 ### Lägg till inbyggda Workfront-fält
 
 Du kan lägga till inbyggda Workfront-fält i dina anpassade formulär. När det anpassade formuläret bifogas till ett objekt fylls fältet i från objektdata. Fältet Beskrivning i ett anpassat formulär som är kopplat till ett projekt hämtas till exempel i projektbeskrivningen. (Fältet kan visa &quot;Ej tillämpligt&quot; om inga data är tillgängliga.)
@@ -824,8 +816,6 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
    eller
 
    Klicka **Spara och stäng**.
-
-</div>
 
 ### Lägg till Adobe XD-filer
 

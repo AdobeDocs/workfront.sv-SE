@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # Lägg till visningslogik och hoppa över logik med formulärdesignern
-
-<span class="preview">Informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Du kan bestämma vilka avsnitt i ett anpassat formulär som ska visas eller hoppas över baserat på vad användaren gör när han eller hon fyller i det.
 
@@ -123,10 +117,6 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
 
    Ikonerna för visningslogik läggs till i målfältet och i definitionsfältet i formulärdesignern.
 
->[!NOTE]
->
-><span class="preview">Visningslogik är bara tillgänglig när du förhandsgranskar formuläret i formulärdesignern i förhandsgranskningsmiljön.</span>
-
 ## Lägga till hopplogik i ett anpassat formulär
 
 Hopplogik definierar anpassade formulärfält som hoppas över när användaren väljer ett specifikt värde i ett flervalsfält. Överhoppade fält är dolda i formuläret. Logiken tillämpas på det definierande fältet där markeringen görs, inte på de fält som hoppas över.
@@ -157,7 +147,4 @@ Hopplogik definierar anpassade formulärfält som hoppas över när användaren 
 
    Ikonerna för hopplogik läggs till i målfältet och definieringsfältet i formulärdesignern.
 
->[!NOTE]
->
-><span class="preview">Hopplogik är bara tillgänglig när du förhandsgranskar formuläret i formulärdesignern i förhandsgranskningsmiljön.</span>
 

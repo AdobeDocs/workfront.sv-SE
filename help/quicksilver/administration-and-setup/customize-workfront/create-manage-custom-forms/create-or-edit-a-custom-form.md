@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-Du kan skapa eller redigera nya anpassade formulär. Båda uppgifterna förklaras i den här artikeln.
+Du kan skapa ett nytt anpassat formulär eller redigera ett befintligt. Båda uppgifterna förklaras i den här artikeln.
 
 Mer information om hur du skapar ett nytt anpassat formulär från ett befintligt finns i [Kopiera ett anpassat formulär och skapa ett nytt med det äldre formulärverktyget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -116,7 +110,7 @@ Du kan redigera ett anpassat formulär när som helst efter att det har skapats.
 
    Anpassade formulär visas i en lista. Du kan granska alla anpassade formulär och anpassade fält som har skapats för din organisation. Du kan också se vem som har skapat varje formulär, vilka objekt som är kopplade till det och om det är aktivt.
 
-1. Markera det anpassade formulär som du vill redigera och klicka sedan på **Redigera** <span class="preview">eller ![Ikonen Redigera](assets/edit-icon.png).</span>
+1. Markera det anpassade formulär som du vill redigera och klicka sedan på ![Ikonen Redigera](assets/edit-icon.png).
 1. (Valfritt) Om du vill ändra rubriken och beskrivningen för det anpassade formuläret klickar du på knappen **Formulärinställningar** tabben och sedan skriva en **Formulärtitel** och **Beskrivning**.
 
 1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på plustecknet + efter **Objekttyper** väljer du sedan önskad typ på menyn som visas.

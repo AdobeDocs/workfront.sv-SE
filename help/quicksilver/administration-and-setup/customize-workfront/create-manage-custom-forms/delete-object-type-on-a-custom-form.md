@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Ta bort objekttyper i ett anpassat formulär
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 I ett befintligt anpassat formulär kan du ta bort objekttyper som är kopplade till formuläret. När du har gjort det kan användare inte längre bifoga formuläret till objekt av den typen.
 
@@ -68,7 +62,7 @@ Ett anpassat formulär måste ha minst en objekttyp.
 {{step-1-to-setup}}
 
 1. Klicka **Anpassad Forms** till vänster.
-1. Markera det anpassade formulär som du vill redigera och klicka sedan på **Redigera** <span class="preview">eller ![Ikonen Redigera](assets/edit-icon.png).</span>
+1. Markera det anpassade formulär som du vill redigera och klicka sedan på ![Ikonen Redigera](assets/edit-icon.png).
 1. Klicka på krysset på någon av **Objekttyper** som du vill ta bort från formuläret, och sedan klicka på **Ta bort** på det varningsmeddelande som visas.
 
    ![](assets/click-x-object-types.jpg)
