@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
 workflow-type: tm+mt
-source-wordcount: '14108'
+source-wordcount: '14151'
 ht-degree: 0%
 
 ---
@@ -412,6 +412,8 @@ ht-degree: 0%
       * Integreringsalfa för Workfront och Frame.io {#frame-io-wf-integration-alpha}
          * [Adobe Workfront och Frame.io native integration alpha: översikt](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Adobe Workfront och Frame.io, inbyggd integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Workfront Data Lake beta {#data-lake-beta}
+         * [Betainformation för Workfront Data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration och konfiguration {#administration-and-setup}
    * [Administration och inställning: artikelindex](administration-and-setup/administration-and-setup.md)
    * Kom igång med administration {#get-started-administration}
@@ -1735,6 +1737,12 @@ ht-degree: 0%
       * [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](enhanced-analytics/activity-by-team-overview.md)
       * [Visa resurskapaciteten i Förbättrad analys](enhanced-analytics/resource-capacity-overview.md)
       * [Visa teamkapacitetvisualisering i Förbättrad analys](enhanced-analytics/team-capacity-overview.md)
+   * Workfront Data Lake {#data-lake}
+      * [Workfront Data Lake - översikt](reports-and-dashboards/data-lake/data-lake-overview.md)
+      * [Skapa ett läsarkonto](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Workfront Data Lake Data Didictionary](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Grundläggande frågeexempel för Workfront datasjön](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Utbyt data i sjön med verktyg för affärsanalys och externa datalager](reports-and-dashboards/data-lake/share-data-externally.md)
 * Hantera resurser {#manage-resources}
    * [Hantera resurser](resource-mgmt/manage-resources.md)
    * Resurshantering {#resource-management}
