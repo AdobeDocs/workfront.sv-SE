@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
+source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p>Produktion för snabb lansering: Med version 24.2 (15 februari 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -371,7 +371,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
+                                <p>Produktion för kvartalsvis utgivning: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                                 <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.4 (11 april 2024)</p>
+                                <p>Produktion för kvartalsvis utgivning: TBD</p>
                             </li>
                         </ul>
                     </td>
