@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
+source-git-commit: cd0d3a0651faf76592efdae93a0df7c921a283e7
 workflow-type: tm+mt
-source-wordcount: '14151'
+source-wordcount: '14153'
 ht-degree: 0%
 
 ---
@@ -2262,6 +2262,7 @@ ht-degree: 0%
       * [Bildmoduler](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira Software-moduler](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON-moduler](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [JWT-moduler](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [MariaDB-moduler](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markeringsmoduler](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Marketo moduler](workfront-fusion/apps-and-their-modules/marketo-modules.md)
