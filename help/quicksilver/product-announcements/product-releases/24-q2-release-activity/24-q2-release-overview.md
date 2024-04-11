@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: d463a3878552f926c4b5a5c87e0f87764e60c60d
+source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2172'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Visningslogik och hopplogik är nu tillgängliga i formulärdesignerns förhandsgranskningsläge</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Visningslogik och hopplogik är nu tillgängliga i formulärdesignerns förhandsgranskningsläge</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Med den anpassade betaversionen av formulär kan du nu testa visningslogiken och hoppa över logiken i förhandsgranskningsläget. Tidigare visades alla fält i förhandsgranskningen även när logiken tillämpades.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -81,7 +81,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Företag och användare har nu stöd för avancerade anpassade formulärfält</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Företag och användare har nu stöd för avancerade anpassade formulärfält</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är nu tillgängliga när du bifogar ett anpassat formulär till ett företag eller en användare.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -97,7 +97,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrering med JumpSite är nu tillgängligt för nya pakettyper</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrering med JumpSite är nu tillgängligt för nya pakettyper</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Den befintliga JumpSeat-integreringen är nu tillgänglig för konton med någon av de nya pakettyperna (dvs. Select, Prime eller Ultimate). Du måste fortfarande ha en aktiv JumpSite-prenumeration för att kunna aktivera integreringen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -116,7 +116,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront inbyggda fält är tillgängliga i betaversionen av formulärdesignern</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront inbyggda fält är tillgängliga i betaversionen av formulärdesignern</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Nu kan du lägga till fält som är inbyggda i Workfront i dina anpassade formulär. Med den här nya fälttypen kan du ordna och presentera data för användarna på ett logiskt sätt, utan att behöva återskapa befintliga data i anpassade fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -151,7 +151,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Nu kan du redigera befintlig visnings- och hopplogik och lägga till ny logik i anpassade formulär i betaversionen av formulärdesignern. Ett lättanvänt logiskt verktyg hjälper dig att definiera vilka fält som ska visas eller hoppas över baserat på val i formuläret.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -193,7 +193,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till en deadline för dokumentgranskningar och godkännanden</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till en deadline för dokumentgranskningar och godkännanden</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Du kan nu ange en tidsgräns för användare eller team som ska granska eller godkänna ett dokument. Granskare och godkännare får e-postmeddelanden 72 timmar och sedan 24 timmar före den angivna tidsgränsen. Tidsgränsen visas även i widgeten Godkännanden i den nya delen Hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -209,7 +209,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa och använda godkännandemallar</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa och använda godkännandemallar</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Nu kan du skapa godkännandemallar under Konfigurera för att effektivisera gransknings- och godkännandeprocessen. Med godkännandemallar kan du göra gransknings- och godkännandeprocessen mer upprepningsbar genom att
                         <ul>
                             <li>
@@ -234,7 +234,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa information om alla dina godkännanden på en och samma plats</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa information om alla dina godkännanden på en och samma plats</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla godkännanden för att hjälpa dig att hantera och analysera dina godkännandebegäranden i en överblick:
                         <ul>
                             <li>
@@ -284,7 +284,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ som lagts till i administratörskontroller för nytt hem med layoutmallar</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ som lagts till i administratörskontroller för nytt hem med layoutmallar</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Administratörer kan nu anpassa vilka kolumner som är tillgängliga för användare i specifika nya Home-widgetar med hjälp av layoutmallar. Alternativen är att dölja eller visa standardkolumner och lägga till befintliga fält som nya kolumner.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -418,7 +418,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indikator för manuellt justerade allokeringar i arbetsbelastningsutjämnaren</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p><p>Om du vill ha större tydlighet om manuella justeringar eller konturering i Arbetsbelastningsutjämnaren kan du nu visa en pennikon som du justerar timvis.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indikator för manuellt justerade allokeringar i arbetsbelastningsutjämnaren</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Om du vill ha större tydlighet om manuella justeringar eller konturering i Arbetsbelastningsutjämnaren kan du nu visa en pennikon som du justerar timvis.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -455,7 +455,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Åtkomst till det gamla kommentarsområdet har tagits bort</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Åtkomst till det gamla kommentarsområdet har tagits bort</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har tagit bort alternativet"Ny kommentering" i uppdateringsområdet för projekt, uppgifter, utgåvor och dokument. Den nya kommenteringen är nu standard och det enda alternativet för dessa objekt. Med den här ändringen kan du inte längre återgå till den tidigare kommentarsfunktionen. Dessutom har vi tagit bort inställningen "Visa procent färdigt vid uppdateringsstatus" för en användares profil.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -471,7 +471,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Home-widgetar</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Home-widgetar</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har nu lagt till den nya kommentarsfunktionen till snabbåtgärdsknappen"Lägg till ny uppdatering" i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nya Hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -490,7 +490,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har gjort följande förbättringar i den nya kommentarsfunktionen:</p>
                         <ul>
                             <li>
@@ -517,7 +517,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Fliken Systemaktivitet i den nya kommentarsfunktionen stöder skrivskyddade kommentarer</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Fliken Systemaktivitet i den nya kommentarsfunktionen stöder skrivskyddade kommentarer</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfunktionen fylls nu i på fliken Systemaktivitet i den nya kommentarsupplevelsen som skrivskyddad. Du kan inte svara på systemaktivitetsposter i den nya kommentarsfunktionen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -536,7 +536,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>För att ge dig en kronologisk sammanhängande vy över både kommentarer och systemaktivitetsloggar introducerar vi en tredje flik i uppdateringsområdet för alla objekt. Fliken Alla samlar både användarkommentarer och systemaktivitetskommentarer i en sammanhängande ström.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -555,7 +555,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig på panelen Sammanfattning</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig på panelen Sammanfattning</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -593,7 +593,7 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under andra kvartalet 2024</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under andra kvartalet 2024</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för andra kvartalet 2024. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
