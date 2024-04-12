@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >Informationen i den här artikeln avser funktioner som har släppts till den nya kommentarsfunktionen.
 >
->Betaprogrammet för de nya kommentarerna inleddes i april 2023 och avslutades i oktober 2023. Betaprogrammet för den nya kommentarsupplevelsen avslutades i oktober 2023-versionen.
+>Betaprogrammet för den nya kommentarsupplevelsen inleddes i april 2023 och avslutades i oktober 2023, med versionen från oktober 2023.
 >
->Från och med oktober 2023 släpps alla nya funktioner för den nya kommentarsfunktionen ut till alla kunder. Mer information finns på den aktuella versionsöversiktssidan för varje release.
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>Sedan 11 april 2024 har alla funktioner för den nya kommentarsfunktionen varit tillgängliga i produktionsmiljön för alla kunder.
 
 ## Funktioner
 
@@ -561,19 +551,20 @@ Här följer en planerad tidslinje för den nya kommentarsfunktionen:
 
 * Med den andra utgåvan för kvartal 2024 (11 april 2024):
 
-   * Ta bort alternativet att växla tillbaka till den gamla kommentarströmmen och göra den nya kommentarströmmen till den enda upplevelsen för alla objekt, med undantag för iterationer.
+  Ta bort alternativet att växla tillbaka till den gamla kommentarströmmen och göra den nya kommentarströmmen till den enda upplevelsen för alla objekt, med undantag för iterationer.
 
 ## Hitta den nya kommentarsfunktionen
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+Den nya kommentarsupplevelsen finns i följande delar av Workfront:
 
->[!IMPORTANT]
->
->Den nya kommentarsfunktionen är tillgänglig i alla Workfront-miljöer för alla objekt, med undantag för Iterations.
->
->Den gamla kommentarsfunktionen har tagits bort från alla miljöer för projekt, uppgifter, problem och dokument.
+* I uppdateringsavsnittet för alla objekt med undantag för iterationer.
 
-Mer information om hur du kommer åt uppdateringsavsnittet för Workfront-objekt finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Mer information om hur du kommer åt uppdateringsavsnittet för Workfront-objekt finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* I panelen Sammanfattning av uppgifter, problem och dokument i alla områden där detta är tillgängligt (listor, tidrapporter, belastningsutjämnare och hemsida).
+* I hemområdet för uppgifter och problem.
+
+
 
 <!--
 

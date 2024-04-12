@@ -6,14 +6,16 @@ description: Du kan lägga till eller svara på uppdateringar av ett dokument f�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Lägga till en uppdatering i ett dokument
+
+<!--Audited: April, 2024-->
 
 Du kan lägga till eller svara på uppdateringar av ett dokument för att kommunicera med medarbetare och skapa en granskningsversion. Mer information om hur du lägger till uppdateringar till arbetsobjekt finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -26,21 +28,28 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td> <p>Nytt: Medarbetare eller högre</p> 
+   <p>Aktuell: Begäran eller senare</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Visa åtkomst till dokument</p> </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa åtkomst till dokumentet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Lägga till eller svara på en uppdatering för ett dokument
 

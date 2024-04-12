@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -29,31 +29,11 @@ ht-degree: 0%
 >
 >Informationen i den här artikeln hänvisar till funktioner som släpptes under betaversionen för den nya kommentarsfunktionen.
 >
->Betaprogrammet för de nya kommentarerna inleddes i april 2023 och avslutades i oktober 2023.
->
->Funktionerna som släpptes under betaperioden har gjorts tillgängliga för alla kunder från och med den fjärde kvartsutgåvan 2023 (oktober 2023) när betaprogrammet stängdes.
+>Betaprogrammet för den nya kommentarsupplevelsen inleddes i april 2023 och avslutades i oktober 2023, med versionen från oktober 2023.
 > 
-><br>Mer information finns i följande artiklar: </br>
+>Mer information finns i [Ny kommentarsfunktion](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->* Mer information om funktionerna som släpptes under den nya betaperioden finns i [Ny kommentarsfunktion](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->* Information om funktioner som släpps för kommenteringsfunktionen när det nya betaprogrammet för kommentarsfunktionen har stängts finns på den aktuella versionsöversikten.
-
-<!--
- This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
-
-For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
-
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
->* Goals
->* Cards in the Boards area. 
-
--->
+>Alla funktioner som ingår i den nya kommentarsupplevelsen har varit tillgängliga för alla kunder i produktionsmiljön sedan 11 april 2024.
 
 ## Ny plats för kommenteringsupplevelsen och lansera tidslinjen
 
@@ -69,6 +49,8 @@ Information om tidslinjen för releasen för den nya kommentarsfunktionen finns 
 Funktionerna som beskrivs i det här avsnittet är nu tillgängliga för alla kunder och i alla miljöer.
 
 Följande funktioner lades till i kommentarsprocessen under betaversionen, mellan den 23.2-utgåvan (6 april 2023) och den fjärde utgåvan av kvartal 2023 (26 oktober 2023).
+
+Funktioner som släppts efter att betaprogrammet stängts meddelades på de aktuella releasesidorna när de släpptes.
 
 Följande information hänvisar till frisläppningsaktiviteten varje vecka, med början från den senaste uppdateringen.
 

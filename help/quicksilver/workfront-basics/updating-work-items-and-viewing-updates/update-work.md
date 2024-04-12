@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '2974'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # Uppdatera arbete
 
 <!-- Audited: 1/2024 -->
-
-<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -53,7 +51,7 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Du kan lägga till en uppdatering för ett Adobe Workfront-objekt för att informera om objektets förlopp. Mer information om vilka objekt du kan lägga till uppdateringar till i Workfront finns i [Översikt över uppdateringsavsnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Du kan lägga till en uppdatering för ett Adobe Workfront-objekt för att informera andra om objektets förlopp. Mer information om vilka objekt du kan lägga till uppdateringar till i Workfront finns i [Översikt över uppdateringsavsnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 I den här artikeln beskrivs hur du kan kommentera och uppdatera information för projekt, uppgifter och ärenden. Användare som är tilldelade eller prenumererade till objektet kan visa din uppdatering. Du kan också tagga användare så att de uppmärksammas på uppdateringen.
 
@@ -128,7 +126,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    * Från ett Workfront-objekt, i uppdateringsavsnittet (för projekt, uppgifter och ärenden)
    * Från hemområdet (för uppgifter och ärenden)
-   * I panelen Sammanfattning i följande områden (för uppgifter och ärenden):
+   * I panelen Sammanfattning i följande områden (för uppgifter, utgåvor och dokument):
 
       * En lista med objekt
       * En tidrapport
@@ -225,21 +223,23 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## Lägga till en uppdatering i en arbetsuppgift <!--using the new commenting experience-->
+## Lägga till en uppdatering i en arbetsuppgift
 
-1. Leta reda på objektet som du vill uppdatera (projekt, uppgift eller utgåva) och klicka sedan på namnet för att öppna objektets sida.
+I den här artikeln beskrivs hur du kan uppdatera projekt, uppgifter och problem. Det liknar att uppdatera de flesta andra objekt.
+
+1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
 1. Klicka  **Uppdateringar** till vänster.
 The **Kommentar** -fliken är markerad som standard.
 
-<!--
-1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
+   <!--
+   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   This enables the new commenting experience. 
+      This enables the new commenting experience. 
 
-      >[!TIP]
-      >
-      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
--->
+         >[!TIP]
+         >
+         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+   -->
 
 1. Börja skriva en kommentar i **Ny kommentar** box.
 
@@ -294,10 +294,6 @@ The **Kommentar** -fliken är markerad som standard.
 
    Ytterligare kommentarer visas längst ned på skärmen.
 
-   >[!NOTE]
-   >
-   >   Indikatorn&quot;nya kommentarer&quot; och knappen&quot;Visa&quot; visas bara när både de användare som har öppnat de nya uppdateringarna och de användare som för närvarande tittar på uppdateringsavsnittet använder den nya kommentarsfunktionen.
-
 1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png). Ikonen uppdateras med antalet gilla-markeringar.
 1. (Villkorligt och valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
 
@@ -314,7 +310,7 @@ The **Kommentar** -fliken är markerad som standard.
 
    >[!TIP]
    >
-   >Du kan inte lägga till en kommentar i en systemuppdatering. Alla svar som har gjorts på systemaktivitetsposter i den tidigare kommentarfunktionen fylls i på fliken Systemaktivitet som skrivskyddade.
+   >Du kan inte lägga till en kommentar i en systemuppdatering. Alla svar som gjordes på systemaktivitetsposter i den tidigare kommentarsfunktionen lades dock till i fliken Systemaktivitet som skrivskyddade. De gamla kommentarerna togs bort från Workfront den 11 april 2024.
 
 1. (Valfritt) Klicka på **Alla** om du vill visa både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning.
 
@@ -355,11 +351,11 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Om din organisation använder Workfront med Internet Explorer förlorar all formaterad text som klistras in i en uppdatering sin RTF-formatering och visas som oformaterad text. Du kan formatera om texten med attributen i verktygsfältet RTF.
    >* RTF-formatering är inte tillgängligt för uppdateringar som gjorts i tidrapporteraren eller för antecknings- och senaste villkorsobjekt som visas i en rapport.
 
-<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-<!--remove this picture below and the bullet above when we remove legacy-->
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-<!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (Valfritt) Klicka på **emoji** icon ![](assets/emoji-icon.png) för att lägga till känslolägesikoner i uppdateringen.
 
@@ -431,9 +427,11 @@ Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett 
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## Kopiera uppdateringsinformation
+## Kopiera uppdateringar
 
-Du kan kopiera en uppdatering på flera olika sätt. När du har kopierat en länk kan du dela länken med andra för att dirigera dem till uppdateringen.
+Du kan kopiera en uppdatering på flera olika sätt.
+
+Du kan kopiera en länk till uppdateringen eller kopiera innehållet i en uppdatering för att använda den i en ny uppdatering.
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
@@ -447,7 +445,7 @@ Du kan kopiera information från en befintlig kommentar genom att göra något a
 
 * [Kopiera länk](#copy-link)
 * [Kopiera brödtext](#copy-body-text)
-* [Offertsvar](#quote-reply-1)
+* [Offertsvar](#quote-reply)
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
@@ -485,7 +483,6 @@ Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
-   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Fortsätt lägga till uppdateringen och klicka på **Skicka** för att lägga till kommentaren.
 
@@ -556,7 +553,7 @@ Beroende på vilken åtkomst din Workfront-administratör ger kan du ta bort upp
 Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort uppdateringar som gjorts av en annan användare. Om en användares åtkomstnivå tillåter att användaren tar bort sina egna uppdateringar, kan Workfront-administratören logga in som den användaren och ta bort de uppdateringar han/hon har gjort. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) och [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Gå till den uppdatering eller det svar som du vill ta bort.
-1. Klicka på **Mer** -menyn bredvid den uppdatering eller det svar som du vill ta bort och klicka sedan på **Ta bort**. <!--October 2023 - replace screen shot here-->
+1. Klicka på **Mer** -menyn bredvid den uppdatering eller det svar som du vill ta bort och klicka sedan på **Ta bort**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 

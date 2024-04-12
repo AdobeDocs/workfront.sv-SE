@@ -6,14 +6,16 @@ description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrappor
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
 
 # Visa och hantera kommentarer på en tidrapport
+
+<!-- Audited: April, 2024-->
 
 Du kan kommentera följande objekt i en tidrapport:
 
@@ -30,25 +32,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska </p> </td> 
+   <td> <p>Nytt: Ljus eller högre </p>
+   <p>Aktuell: Granska eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter för uppgifter och problem</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter för uppgifter och problem</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visa timpostkommentarer på en tidrapport {#view-hour-entry-comments-on-a-timesheet}
 

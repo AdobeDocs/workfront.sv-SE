@@ -6,14 +6,16 @@ description: Du kan besvara e-postmeddelanden från Workfront som genererats fr�
 author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # Svara på e-postmeddelanden
+
+<!-- Audited: April 2024-->
 
 Beroende på hur dina e-postmeddelanden är konfigurerade kan du få ett e-postmeddelande när en uppdatering görs för vissa objekt som du har åtkomst till.
 
@@ -49,25 +51,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Begär eller högre för problem och dokument; Granska eller högre för alla andra objekt</p> </td> 
+   <td> <p>Nytt: Medarbetare eller högre för problem och dokument; Ljus eller högre för alla andra objekt</p>
+   <p>Aktuell: Begär eller högre för utgåvor och dokument; Granska eller högre för alla andra objekt</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Begärande eller högre för problem och dokument; Granskare eller högre för alla andra objekt</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
+   <td> <p>Visa eller ge senare åtkomst till de objekt där du vill skicka svaret</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Visa åtkomst till objektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader"><strong>Objektbehörighet</strong></td> 
+   <td> <p>Visa eller högre behörigheter för de objekt där du vill skicka svaret</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Svara på en uppdatering från ett e-postmeddelande
 

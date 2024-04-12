@@ -6,57 +6,44 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
 
 # Tagga andra för uppdateringar
 
-<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
+<!--Audited: April, 2024-->
 
 <!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
-
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 >[!IMPORTANT]
 >
->Vi håller på att omarbeta kommentarsfunktionerna i Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Beroende på vilka objekt du har tillgång till kommentarfunktionerna för kan du se följande funktionalitet för uppdateringsavsnittet:
->* Den nya upplevelsen
->* Den gamla upplevelsen
->* Det nya och gamla gränssnittet
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->Mer information om den nya kommentarsfunktionen och dess tillgänglighet finns på [Ny kommentarsfunktion](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> De gamla kommentarfunktionerna har tagits bort från projekt, uppgifter, utgåvor och dokument i förhandsgranskningsmiljön. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->Den nya kommentarsupplevelsen är bara tillgänglig för uppdateringsavsnittet för Workfront-objekt och är inte tillgänglig när du öppnar uppdateringar från följande områden:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * Startsida
-> * Panelen Sammanfattning i listor
-> * Sammanfattningspanelen i tidrapporter
-> * Panelen Sammanfattning i Utjämning av arbetsbelastning
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">Den nya kommentarsupplevelsen finns i sammanfattningspanelen i listor, tidrapporter och arbetsbelastningsutjämnaren i förhandsgranskningsmiljön och i produktionsmiljön för kunder som har valt en snabb versionsprocess. </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
+-->
 
 Du kan tagga användare när de gör en uppdatering av ett objekt om du vill dra deras uppmärksamhet till ett objekt som de annars kanske inte följer.
 
-I stället för att inkludera de användarna i objektet genom att tilldela dem eller få dem att prenumerera på det, kan du tagga dem på uppdateringen och dela dem med dem. Taggade användare får ett meddelande om den uppdatering du anger.
+I stället för att inkludera de användarna i objektet genom att tilldela dem eller få dem att prenumerera på det, kan du tagga dem på uppdateringen och dela dem med dem. Taggade användare får ett Workfront-meddelande om den uppdatering du anger. Beroende på meddelandeinställningarna får de också ett e-postmeddelande om den uppdatering du anger.
 
 ## Att tänka på när du taggar användare i uppdateringar
 
@@ -70,49 +57,37 @@ I stället för att inkludera de användarna i objektet genom att tilldela dem e
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Begär eller högre för problem och dokument; Granska eller högre för alla andra objekt</p> </td> 
+   <td> <p>Nytt: Medarbetare eller högre för problem och dokument; Ljus eller högre för alla andra objekt</p>
+   <p>Aktuell: Begär eller högre för utgåvor och dokument; Granska eller högre för alla andra objekt</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Begärande eller högre för problem och dokument; Granskare eller högre för alla andra objekt</p> 
-   <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>Åtkomstnivåkonfiguration</strong></td> 
+   <td> <p>Visa eller ge senare åtkomst till de objekt där du vill skicka svaret</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Visa åtkomst till objektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader"><strong>Objektbehörighet</strong></td> 
+   <td> <p>Visa eller högre behörigheter för de objekt där du vill skicka svaret</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Tagga andra för uppdateringar
-
-Om du taggar andra i en uppdatering varierar beroende på vilken upplevelse och vilket objekt du väljer.
-
-### Tagga andra om uppdateringar i den nya kommentarsfunktionen
 
 Du kan tagga andra vid uppdateringar på följande sätt:
 
 * **Automatiskt**: När en användare startar en tråd, lägger till en kommentar eller lägger till ett svar, taggas de automatiskt och läggs till i taggarna för personer eller team i kommentarsrutan. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
-
-  >[!TIP]
-  >
-  >När tråden startar i den gamla kommentarsfunktionen taggas inte deltagare i tråden automatiskt.
 
 * **Manuellt**: När du lägger till en användare manuellt i taggområdet i kommentarsrutan.
 
@@ -138,11 +113,7 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
    > 
    >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   <div class="preview">
-
    ![Tagga en användare](assets/tag-others-unified-commenting-with-all-tab.png)
-
-   </div>
 
 1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn. Detta gör uppdateringen synlig endast för användare i ditt företag. The **Privat till mitt företag** är bara tillgängligt när ett företag anges i din Workfront-profil.
 
@@ -164,58 +135,66 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">När du är taggad i kommentarstexten markeras ditt namn i kommentarerna.</span>
+   När du är taggad i kommentarstexten markeras ditt namn i kommentarerna.
 
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka sedan på **Redigera**. Ta bort alla taggade användare och klicka sedan på **Skicka**. Du kan bara redigera en kommentar inom 15 minuter efter att du har skrivit in den. Du kan bara redigera kommentarer som du har lagt till.
+1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka sedan på **Redigera**. Ta bort alla taggade användare och klicka sedan på **Skicka**.
+
+   >[!IMPORTANT]
+   >
+   >Du kan bara redigera en kommentar inom 15 minuter efter att du har skrivit in den. Du kan bara redigera kommentarer som du har lagt till.
+
+
+<!--
+   >[!TIP]
+   >
+   >When using the legacy commenting experience to add comments and replies, comment owners that were not specifically tagged cannot be manually removed by people who use the new commenting experience.
+-->
+
+<!--
+### Tag others on updates in the legacy Updates section
+
+You can manually tag users in the legacy Updates section. 
+
+1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. In the **Notify** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
+
+   Or
+
+   Type the @ symbol in the **Start a new update** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
-   >När du använder den äldre kommentarsfunktionen för att lägga till kommentarer och svar, kan de som inte är specifikt taggade inte tas bort manuellt av dem som använder den nya kommentarsfunktionen.
-
-
-### Tagga andra om uppdateringar i avsnittet med äldre uppdateringar
-
-Du kan tagga användare manuellt i det äldre uppdateringsavsnittet.
-
-1. Börja uppdatera en arbetsuppgift enligt beskrivningen i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. I **Meddela** börjar du skriva namnet på den användare eller det team som du vill inkludera och klickar sedan på namnet när det visas i listrutan.
-
-   eller
-
-   Skriv @-symbolen i **Starta en ny uppdatering** börjar du skriva namnet på den användare eller det team som du vill inkludera i uppdateringen och klickar sedan på namnet när det visas i listrutan.
-
-   >[!TIP]
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. 
    >
-   >Om du vill identifiera rätt användare när det finns användare med liknande eller identiska namn ska du lägga märke till avataren, användarens primära roll eller användarens e-postadress.
+   >Users must be associated with at least one job role to view it as you tag them in an update. 
    >
-   >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du taggar dem i en uppdatering.
-   >
-   >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![](assets/tag-users-in-update.png)
 
-1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn. Detta gör uppdateringen synlig endast för användare i ditt företag. The **Privat till mitt företag** är bara tillgängligt när ett företag anges i din Workfront-profil.
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
    >[!NOTE]
    >
-   >Taggade användare utanför företaget kan fortfarande få ett meddelande eller e-postmeddelande i appen, även om de inte ser de privata kommentarerna på fliken Uppdateringar. Vi rekommenderar att du inte taggar externa användare vid en uppdatering om du inte vill dela informationen med dem.
+   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.  
 
-1. (Valfritt) Om du vill lägga till flera användare och team upprepar du steg 2.
+1. (Optional) To add multiple users and teams, repeat step 2.
 
    >[!NOTE]
    >
-   >Alla användare och teammedlemmar som visas i fältet Notify (Meddela) får ett meddelande i appen för uppdateringen och kan få ett e-postmeddelande, beroende på konfigurationen av deras e-postaviseringsinställningar. Användare som taggar sig i en kommentar eller svarar får ett meddelande om kommentaren eller svaret och kan se sitt namn i fältet Meddela för resten av tråden, men de får inget annat meddelande om de inte taggar sig igen. Mer information finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) och [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >All users and team members listed in the Notify field receive an in-app notification for the update and might receive an email, depending on the configuration of their email notification settings. Users who tag themselves in a comment or reply receive a notification for that comment or reply and can see their name in the Notify field for the remainder of the thread, but they do not receive another notification unless they tag themselves again. For more information, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) and [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Klicka **Uppdatera**.\
-   Användare som ingår i uppdateringen får automatiskt behörigheten Visa för objektet och kan visa och svara på uppdateringar som gjorts för objektet.
+1. Click **Update**.  
+   Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
-   Du kan se vilka som har taggats i varje svar högst upp i uppdateringstråden. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får ett meddelande varje gång en uppdatering eller ett svar görs för objektet.
+   You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
    ![](assets/tagging-transparency-350x192.png)
+-->
 
-   Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

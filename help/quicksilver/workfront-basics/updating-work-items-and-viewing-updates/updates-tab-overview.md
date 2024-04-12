@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
-
-<!--info for April 11: hide the disclaimer for preview below-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -30,8 +27,6 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
-
-<!--info for April 11: take out the Important box-->
 
 I uppdateringsavsnittet för ett objekt visas kommentarer som användare gör på objektet eller systemuppdateringar som spårar ändringar i objektet.
 
@@ -125,50 +120,45 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Översikt över uppdateringsavsnittet <!--in the new commenting experience-->
+### Översikt över uppdateringsavsnittet
 
 ![Uppdateringsavsnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
+* I uppdateringsavsnittet visas information på följande flikar:
 
-<!--
->[!NOTE]
->
->The new commenting experience is not available for iterations.
--->
-
-* I uppdateringsavsnittet visas information på följande flikar<!-- in the new commenting experience-->:
-
-   * **Kommentar**: Visar kommentarer från användare och svar på dessa kommentarer. Använd fliken Kommentarer för att lägga till nya kommentarer eller svara på befintliga kommentarer. Mer information om att uppdatera objekt<!-- in the new commenting experience-->, se [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Kommentar**: Visar kommentarer från användare och svar på dessa kommentarer. Använd fliken Kommentarer för att lägga till nya kommentarer eller svara på befintliga kommentarer. Mer information om hur du uppdaterar objekt finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Till exempel hämtas ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Alla svar som har gjorts på systemaktivitetsposter i den tidigare kommentarfunktionen fylls i på fliken Systemaktivitet som skrivskyddade. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alla (skrivskyddad)**: Visar både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning. Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en viss kommentar använder du länken från fliken Alla till fliken Kommentarer. Mer information om att uppdatera objekt<!-- in the new commenting experience-->, se [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Alla (skrivskyddad)**: Visar både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning. Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en viss kommentar använder du länken från fliken Alla till fliken Kommentarer. Mer information om hur du uppdaterar objekt finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
-* Följande objekt har ingen systemaktivitetsflik eller Alla-flik:
+* Följande objekt har liknande upplevelser på alla tre flikarna i uppdateringsavsnittet:
+
+   * Projekt
+   * Uppgifter
+   * Problem
+   * Program
+   * Portfolio
+   * Användare
+   * Tidrapporter
+
+* Följande objekt har ingen flik för systemaktivitet eller Alla, och upplevelsen på fliken Kommentarer matchar alla andra objekt:
 
    * Team
    * Mall
    * Malluppgift
+
+* Följande objekt har ingen flik för systemaktivitet eller Alla, och upplevelsen på fliken Kommentarer skiljer sig från upplevelsen på alla andra objekt:
    * Ad hoc-kort
-   * Iterationer
 
      Mer information om uppdateringar på kort finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+   * Iterationer
 
      Mer information om uppdateringar av iterationer finns i [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-* Följande objekt har inte fliken Alla:
+* Följande objekt har ingen Alla-flik och upplevelsen på fliken Kommentarer matchar upplevelsen på de flesta objekt:
 
    * Mål
 
      Mer information om uppdateringar av mål finns i [Hantera målkommentarer](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-<!--info for April 11: make the text below live - remove the commented out brackets: 
-NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
-
-* The following objects don't have a System Activity or an All tab: 
-
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 

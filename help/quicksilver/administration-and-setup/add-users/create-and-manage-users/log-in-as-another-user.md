@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Som Adobe Workfront-administratör kan du ibland behöva få åtkomst till Workfront för en annan användares räkning.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
 
 # Logga in som en annan användare
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Nytt: Standard</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -75,6 +77,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
  </tbody> 
 </table>
+
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Logga in och utför åtgärder som en annan användare
 
@@ -146,7 +150,7 @@ När du loggar in som en annan användare ändras det senaste inloggningsdatumet
 
 När du loggar in på Workfront som en annan användare och utför en åtgärd, visar Workfront tydligt att alla åtgärder du utför görs av dig för den användare som du är inloggad som.
 
-Om du till exempel kommenterar ett objekt när du är inloggad som en annan användare, visar en programsats att du har gjort kommentaren å användarens vägnar.
+Om du till exempel kommenterar ett objekt när du är inloggad som en annan användare, visar en programsats att du har gjort kommentaren å användarens vägnar när du visar uppdateringsavsnittet för ett objekt.
 
 ### Visa granskningsinformation {#view-audit-information}
 

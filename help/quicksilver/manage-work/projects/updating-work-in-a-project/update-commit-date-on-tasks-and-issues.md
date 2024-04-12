@@ -6,9 +6,9 @@ description: Du kan uppdatera implementeringsdatumet för en uppgift eller ett �
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ Innan du börjar måste du tilldelas uppgiften eller utgåvan som du vill uppdat
 
 Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor.
 
+>[!NOTE]
+>
+>Du kan be din system- eller gruppadministratör att lägga till fältet Genomför datum på panelen Sammanfattning för att göra det enklare att uppdatera det i olika områden av Workfront.
+>
+>Mer information finns i följande artiklar:
+>
+>* [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Anpassa hem och sammanfattning med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+
 1. Gå till en uppgift eller ett ärende som du har tilldelats som **Ägare**.
 
    Mer information om hur du tar reda på vem som är aktivitetsägare för ett problem eller en uppgift finns i avsnittet [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -89,11 +99,11 @@ Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * Projektägaren meddelas i meddelanden i appen om att du har föreslagit ett nytt implementeringsdatum för uppgiften eller utgåvan.
-   * Projektägaren meddelas i uppdateringsavsnittet att du har föreslagit ett nytt implementeringsdatum och de kan för närvarande uppdatera det planerade slutförandedatumet för aktiviteten eller utgåvan så att det matchar det implementeringsdatum du föreslog. Den här funktionen stöds inte i den nya kommenteringsfunktionen. Mer information finns i [Den nya kommentarsfunktionen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * Projektägaren meddelas i ett meddelande från Workfront i appen om att du har föreslagit ett nytt implementeringsdatum för uppgiften eller utgåvan.
+   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
+   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Mer information om de meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet&quot;Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet&quot; i artikeln [Genomför datumöversikt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   Mer information om de meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet&quot;Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet&quot; i artikeln [Genomför datumöversikt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

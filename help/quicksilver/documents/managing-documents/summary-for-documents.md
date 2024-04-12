@@ -7,18 +7,18 @@ description: Med Sammanfattning kan du interagera med viktig information direkt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # Sammanfattning av dokumentöversikt
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-Med Sammanfattning kan du interagera med viktig information direkt från dokumentlistan.
+Du kan använda panelen Sammanfattning för att komma åt och uppdatera viktig information direkt från dokumentlistan.
 
 ## Åtkomstkrav
 
@@ -31,25 +31,27 @@ Du måste ha följande:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td> <p>Nytt: Medarbetare eller högre</p> 
+   <p>Aktuell: Begäran eller senare</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till dokument</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa åtkomst till objektet som är associerat med dokumentet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa åtkomst till objektet som är associerat med dokumentet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Öppna sammanfattningsvyn
 
@@ -67,7 +69,7 @@ Använd detaljavsnittet för att visa översiktsinformation på hög nivå och i
 * [Ökning](#overview)
 * [Anpassad Forms](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Ökning {#overview}
 
@@ -79,18 +81,13 @@ Expandera avsnittet Översikt om du vill visa eller ladda ned en miniatyrbild, �
 
 Använd sektionen Anpassad Forms för att lägga till, redigera eller visa anpassade formulär som är kopplade till dokumentet. Börja skriva namnet på det anpassade formuläret för att lägga till det i dokumentet. Mer information finns i [Lägga till eller redigera ett anpassat formulär i ett dokument](../../documents/managing-documents/add-custom-form-documents.md).
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Uppdateringar
 
 Använd uppdateringsavsnittet för att läsa en uppdatering som gjorts i dokumentet eller korrekturet. Sammanfattningen visar de två första kommentarerna som gjorts. Mer information om uppdateringar finns i [Kommentera ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-<div class="preview">
-
 ![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## Godkännanden
 
@@ -101,7 +98,7 @@ Bevisgodkännanden måste läggas till i korrekturarbetsflödet. Mer information
 * [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Begär dokumentgodkännanden](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versioner
 
@@ -113,4 +110,4 @@ Använd avsnittet Versioner om du vill visa antalet versioner som skapats för e
 * Gå till Dokumentinformation
 * Ta bort ett korrektur eller dokument
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

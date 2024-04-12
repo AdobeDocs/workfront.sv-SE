@@ -4,20 +4,24 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Systemspårade uppdateringsflöden
-description: Adobe Workfront loggar aktiviteten som utförs på vissa objekt i sina [!UICONTROL Updates] område. En systemuppdatering innehåller en kort anteckning som beskriver vilken typ av ändring som har hänt med objektet. [!DNL Workfront] administratörer kan definiera vilken typ av ändringar som systemet ska spåra i [!UICONTROL Updates] område.
-author: Caroline
+description: Adobe Workfront loggar aktiviteten som utförs på vissa objekt i sina [!UICONTROL Updates] område. En systemuppdatering innehåller en kort anteckning som beskriver vilken typ av ändring som har hänt med objektet. [!DNL Workfront] administratörer kan definiera vilken typ av ändringar som systemet ska spåra i [!UICONTROL Updates] -avsnitt.
+author: Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 # Systemspårade uppdateringsflöden
+
+<!--Audited: April, 2024-->
+
+Adobe Workfront loggar automatiskt aktiviteten som utförs på vissa objekt i sina [!UICONTROL Updates] -avsnittet som en systemuppdatering. En systemuppdatering innehåller en kort anteckning som beskriver vilken typ av ändring som har hänt med objektet. [!DNL Workfront] administratörer kan definiera vilken typ av ändringar som systemet ska spåra i [!UICONTROL Updates] -avsnitt.
 
 Det här avsnittet innehåller följande artiklar:
 

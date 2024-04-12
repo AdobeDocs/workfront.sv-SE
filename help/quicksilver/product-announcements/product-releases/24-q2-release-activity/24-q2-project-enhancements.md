@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 13 februari 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024).
+>Förhandsversion: 13 februari 2024; Produktion för snabb version: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Ska fastställas.
 
 <span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span>
 
@@ -39,7 +39,7 @@ Mer information finns i [Översikt över smarta uppdrag](/help/quicksilver/manag
 
 >[!NOTE]
 >
->Förhandsversion: 21 december 2023; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024).
+>Förhandsversion: 21 december 2023; Produktion för snabb version: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Ska fastställas.
 
 <span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span>
 
