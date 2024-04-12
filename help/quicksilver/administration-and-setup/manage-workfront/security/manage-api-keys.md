@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -74,19 +74,19 @@ Du kan generera, återställa eller ta bort API-nyckeln för ditt administratör
 >
 >Du kan också generera en API-nyckel via API:t. Mer information finns i [API för händelseprenumeration](../../../wf-api/general/event-subs-api.md) avsnitt i [API för händelseprenumeration](../../../wf-api/general/event-subs-api.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System >** **Kundinformation.**
 1. (Villkorligt) Utför någon av följande åtgärder:
 
-   Så här genererar du en API-nyckel: I **API-nyckelinställningar** avsnitt, klicka **Generera API-nyckel**.
+   Så här genererar du en API-nyckel: i **API-nyckelinställningar** avsnitt, klicka **Generera API-nyckel**.
 
    eller\
-   Så här återställer du en API-nyckel: I **API-nyckelinställningar** avsnitt, klicka **Återställ** sedan **Återställ.**
+   Så här återställer du en API-nyckel: **API-nyckelinställningar** avsnitt, klicka **Återställ** sedan **Återställ.**
 
    eller
 
-   Så här tar du bort API-nyckeln: I **API-nyckelinställningar** avsnitt, klicka **Ta bort** sedan **Ta bort**.
+   Så här tar du bort API-nyckeln: i **API-nyckelinställningar** avsnitt, klicka **Ta bort** sedan **Ta bort**.
 
 ## Generera en API-nyckel för icke-admin-användare
 
@@ -98,14 +98,14 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
 
 1. (Villkorligt) Om din organisation använder enkel inloggning (SSO), kan du tillfälligt inaktivera alternativet som kräver SSO-autentisering.
 
-   1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+   1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-   1. Expandera **System** och sedan klicka **Enkel inloggning (SSO)**.\
+   1. Expandera **System** och sedan klicka **Enkel inloggning (SSO)**.
+   1. I **Typ** väljer du den typ av enkel inloggning som används i organisationen.
+   1. När texten är markerad rullar du nedåt och tar bort **Aktivera** kryssrutan.
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+   1. Klicka **Spara**.
 
-   1. Inaktivera kryssrutan som kräver SSO-autentisering.
-
-      Om din organisation till exempel använder SAML 2.0 kan du inaktivera **Tillåt endast SAML 2.0-autentisering**.
 
 1. Ange följande API-anrop i adressfältet i en webbläsare:
 
@@ -115,18 +115,18 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
 
 1. (Villkorligt) Aktivera alternativet som kräver SSO-autentisering om du inaktiverade det i steg 1.
 
-   1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+   1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
    1. Expandera **System** och sedan klicka **Enkel inloggning (SSO)**.
 
-   1. Välj din SSO-metod i **Typ** nedrullningsbar meny.
+   1. Välj din SSO-metod i **Typ** listrutemeny.
    1. Markera kryssrutan som kräver SSO-autentisering.
 
-## Konfigurera när API-nycklar förfaller
+## Konfigurera när API-nycklar upphör att gälla
 
 Du kan konfigurera API-nycklar så att de upphör att gälla för alla användare i systemet. När API-nyckeln för en användare upphör att gälla måste användaren autentisera på nytt för alla program som använder Workfront API för att få åtkomst till Workfront. Du kan ändra hur ofta API-nycklarna förfaller. Du kan också konfigurera om API-nycklar ska förfalla när lösenordet för en användare förfaller.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **System** > **Kundinformation**.
 1. I **API-nyckelinställningar** området, i **Efter skapande**, **API-nycklar förfaller om** väljer du en tidsram när du vill att API-nycklarna ska förfalla.
@@ -151,7 +151,7 @@ Om du är orolig för en viss säkerhetsöverträdelse i ditt Workfront-system k
 >
 >Om du tar bort API-nycklar för alla användare blir ALLA API-nycklar ogiltiga för alla användare i systemet. Den här åtgärden gör att alla integreringar i Workfront misslyckas tills du genererar en ny API-nyckel i Workfront och uppdaterar alla integreringar.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Expandera **System** och sedan klicka **Kundinformation.**
 
@@ -183,7 +183,7 @@ Hämta ett giltigt X.509-certifikat från en betrodd certifikatutfärdare (till 
 
 När du har fått X.509-certifikatet från din certifikatutfärdare måste du överföra det till Workfront.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Expandera **System** och sedan klicka **Kundinformation**.
 
@@ -207,6 +207,6 @@ När du har fått X.509-certifikatet från din certifikatutfärdare måste du ö
 
 Innan du konfigurerar din instans av Workfront så att den kräver ett X.509-certifikat utför du en API-begäran till `/login` slutpunkt med giltiga parametrar för användarnamn och lösenord. Du får ett 200-svar som innehåller ett sessions-ID.
 
-När du har gjort X.509-certifikatet till ett krav via kundinformationssidan i din instans av Workfront, gör du ett nytt inloggningsförsök. Den här gången kommer du att få ett 500-felsvar med följande meddelande: &quot;Ej betrodd begäran. Kontakta systemadministratören och bifoga certifikatet.&quot;
+När du har gjort X.509-certifikatet till ett krav via kundinformationssidan i din instans av Workfront, gör du ett nytt inloggningsförsök. Den här gången får du ett 500-felsvar med följande meddelande:&quot;Untrusted request request. Kontakta systemadministratören och bifoga certifikatet.&quot;
 
 När du har bekräftat att X.509-certifikatet krävs utför du samma inloggningsbegäran med en extra parameter för apiCertificate som är inställd på värdet för ditt certifikat. Om den här åtgärden utfördes korrekt får du ett 200-svar som innehåller ett giltigt sessions-ID.
