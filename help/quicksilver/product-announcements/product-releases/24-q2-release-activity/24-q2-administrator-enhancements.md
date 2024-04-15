@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Instruktioner om hur du konfigurerar attributmappning finns i [Mappa användarat
 
 >[!NOTE]
 >
->Förhandsversion: 8 februari 2024; Produktion för snabb release: Med version 24.2 (15 februari 2024); Produktion för alla kunder: TBD
+>Förhandsversion: 8 februari 2024; Produktion för snabb release: Med version 24.2 (15 februari 2024); Produktion för alla kunder: 24.4 (11 april 2024)
 
 Nu kan du redigera befintlig visnings- och hopplogik och lägga till ny logik i anpassade formulär i betaversionen av formulärdesignern. Ett lättanvänt logiskt verktyg hjälper dig att definiera vilka fält som ska visas eller hoppas över baserat på val i formuläret.
 

@@ -6,16 +6,22 @@ description: När du tar bort ett kort från en anslagstavla tas det bort perman
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # Ta bort eller arkivera ett kort från en anslagstavla
 
-När du tar bort ett kort från en anslagstavla tas det bort permanent och kan inte återställas. När du arkiverar ett kort skickas det till arkivet och du kan återställa det till styrelsen senare.
+När du tar bort ett ad hoc-kort från en anslagstavla tas det bort permanent och kan inte återställas. Anslutna kort kan läggas till manuellt på en bräda när de har tagits bort.
+
+Om du tar bort ett anslutet kort från en dynamisk anslagstavla visas det igen när du uppdaterar anslagstavlan eftersom den här typen av kort hämtar alla uppgifter och problem från ett visst projekt. Om du vill ta bort kortet måste du ta bort den anslutna aktiviteten eller utgåvan från Workfront-projektet.
+
+När du tar bort ett anslutet kort från en annan korttyp som har en inloppskolonn, visas kortet igen i inloppskolonnen när du uppdaterar kortet om den anslutna aktiviteten eller utdraget inte har markerats som slutfört än. Mer information om inloppskolumner finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+När du arkiverar ett kort skickas det till arkivet och du kan återställa det till styrelsen senare.
 
 ## Åtkomstkrav
 

@@ -5,16 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
+source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
 
 # Andra utgåvan, kvartal 2024, översikt
 
-Den här sidan innehåller information om de funktioner som ingår i den andra utgåvan av kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön under hela kvartalet.
+Den här sidan innehåller information om de funktioner som ingår i den andra utgåvan av kvartalet 2024. Dessa förbättringar gjordes tillgängliga i produktionsmiljön för alla kunder med 24.4-utgåvan den 10 och 11 april 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 I stället för ett webbinarium om en release bjuder vi in dig till [register för Adobe Summit](https://summit.adobe.com/na/) för att se följande Workfront-sessioner:
@@ -22,6 +22,8 @@ I stället för ett webbinarium om en release bjuder vi in dig till [register f�
 [Framtiden för Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) den 26 mars 2024 för att få en smygtitt på framtiden för strategisk planering och arbetsflöde. Läs om hur Workfront team avser att ta itu med affärsmöjligheterna under hela marknadsföringscykeln - allt med en AI-strategi som sätter fokus på att automatisera arbetet, förenkla användarupplevelser och öka produktiviteten.
 
 [Presentera marknadsföringskalendrar och verktyg för komplett kampanjplanering](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) den 28 mars 2024, för att lära dig mer om nya produktfunktioner som är utformade för att göra det möjligt för organisationen att hantera och visualisera operativa livscykler från början till slut.
+
+Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} med högdagrar i version 24.4.
 
 <span class="preview">Funktioner som ligger utanför cykeln (de som lanserades till Produktion före den andra utgåvan av kvartal 2024) är markerade i gult.</span>
 
