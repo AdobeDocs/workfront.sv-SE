@@ -7,9 +7,9 @@ description: Bekräftelsedatum är det datum då en användare som har tilldelat
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,20 @@ Om du ställer in implementeringsdatumet manuellt för en aktivitet eller ett pr
 
   Ändringen av implementeringsdatumet visas i uppdateringsområdet för aktiviteten eller problemet när Workfront-administratören aktiverar den här uppdateringen i uppdateringsfeeds under Konfigurera. Mer information finns i [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  Om en projektägare inte vill godkänna ändringen rekommenderar vi att han/hon kommenterar tillbaka till användaren och föreslår ett nytt datum med hjälp av fliken Kommentarer i uppdateringsavsnittet, ber att han/hon ändrar datumet för implementeringen till det ursprungliga planerade datumet eller väljer ett nytt datum. Om en projektägare godkänner ändringen kan de manuellt justera det planerade slutförandedatumet så att det matchar det implementeringsdatum som erbjuds av användaren som är tilldelad objektet genom att redigera uppgiften eller problemet.
+  Om en projektägare inte vill godkänna ändringen rekommenderar vi att han/hon kommenterar tillbaka till användaren och föreslår ett nytt datum med hjälp av fliken Kommentarer i uppdateringsavsnittet, ber att han/hon ändrar datumet för implementeringen till det ursprungliga planerade datumet eller väljer ett nytt datum.
+
+  Om en projektägare godkänner ändringen kan de manuellt justera det planerade slutförandedatumet så att det matchar det implementeringsdatum som erbjuds av användaren som är tilldelad objektet genom att redigera uppgiften eller problemet.
 
   Du måste ha behörighet att hantera uppgiften eller problemet för att kunna redigera den.
+
+  >[!TIP]
+  >
+  >Du kan be din system- eller gruppadministratör att lägga till fältet Genomför datum på panelen Sammanfattning för att göra det enklare att uppdatera det i olika områden av Workfront där panelen Sammanfattning visas.
+  >
+  >Mer information finns i följande artiklar:
+  >
+  >* [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Anpassa hem och sammanfattning med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

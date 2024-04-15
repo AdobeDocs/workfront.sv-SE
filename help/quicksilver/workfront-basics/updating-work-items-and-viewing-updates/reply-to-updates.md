@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,13 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-När någon svarar på en kommentar eller en systemuppdatering för ett arbetsobjekt visas deras svar i kommunikationstråden på fliken Kommentarer och alla i objektets uppdateringsavsnitt.
+När någon svarar på en kommentar eller en systemuppdatering för ett arbetsobjekt visas deras svar i kommunikationstråden på flikarna Kommentarer och Alla i objektets uppdateringsavsnitt.
 
 >[!IMPORTANT]
 >
 >Det går inte att svara på systemuppdateringar på fliken Systemaktivitet. Eventuella svar på systemuppdateringar som gjorts i den tidigare kommentarsfunktionen före 11 april 2024 visas som skrivskyddade.
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+I den här artikeln beskrivs hur du svarar på kommentarer från de flesta objekt i Workfront. Skillnader mellan uppdateringsavsnitten för olika objekt finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Åtkomstkrav
 
@@ -85,9 +85,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan svara på en kommentar i tråden för ett objekt som du kan visa, eller så kan du logga in som Workfront- eller gruppadministratör och svara på en kommentar för en annan användares räkning. Mer information finns i [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Hur du svarar på en kommentar eller ett svar varierar beroende på vilken upplevelse och vilket objekt du väljer.
-
 ### Svara på en kommentar
+
+Svara på en kommentar i uppdateringsavsnittet för ett objekt liknar svaret för de flesta objekt i Workfront.
 
 1. Gå till det objekt som du vill lägga till ett svar på.
 1. Klicka **Uppdateringar** och klickar sedan på **Kommentar** -fliken för objektet och hitta den kommentar eller det svar som du vill svara på

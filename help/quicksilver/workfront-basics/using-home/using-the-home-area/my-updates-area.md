@@ -6,9 +6,9 @@ description: Du kan använda [!UICONTROL My Updates] för att snabbt granska god
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -153,8 +153,12 @@ Du måste ha följande innan du börjar:
    >De första 50 omnämnandena visas som standard.
 
 1. (Valfritt) Klicka på **[!UICONTROL Show More Updates]** om du vill visa fler omnämnanden.
-1. (Valfritt) Klicka på **[!UICONTROL Reply]** för att svara på en kommentar, ange ditt svar och klicka sedan på **[!UICONTROL Reply]** igen.
+1. (Valfritt) Klicka på **[!UICONTROL Reply]** om du vill svara på en kommentar och göra något av följande:
+   * Börja skriva ett svar
+   * Använd verktygsfältet RTF för att formatera text, lägga till länkar, listor, känslolägesikoner, citattecken eller bilder i meddelandet
+   * Lägg till användare eller team för att meddela dem ditt svar.
 
-   Mer information om hur du uppdaterar objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     När du är klar med att lägga till svaret klickar du **[!UICONTROL Reply]** igen.
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. (Valfritt) Klicka på **[!UICONTROL Pin current page]** för att fästa [!UICONTROL My Updates] till den översta navigeringen.

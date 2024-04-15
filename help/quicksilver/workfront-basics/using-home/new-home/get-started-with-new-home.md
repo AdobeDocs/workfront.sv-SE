@@ -6,9 +6,9 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Mer information om hur du lägger till, flyttar, ändrar storlek på eller tar b
 Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av den information de visar:
 
 * **Mitt arbete**\
-    Den här widgeten är en bra plats att börja på när du vill hantera en mängd olika typer av arbeten. Här visas alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Du kan klicka på knappen Arbeta på det när du vill börja arbeta med ett objekt.
+    Den här widgeten är en bra plats att börja på när du vill hantera en mängd olika typer av arbeten. Här visas alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Du kan klicka på knappen Arbeta på för att börja arbeta med ett objekt eller på knappen Klar för att markera det som färdigt. Du kan också uppdatera information (Status, Villkor, Procent färdigt) om uppgifter och problem, logga tid och lägga till uppdateringar från widgeten Mitt arbete.
 
 * **Mina projekt**\
     Visar projekt som du äger eller projekt som du finns i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa ett projekt direkt från widgeten.

@@ -6,9 +6,9 @@ description: Du kan uppdatera procentandelen färdigt för en uppgift för att a
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,9 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 
   Mer information finns i [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
+* **Startsida**: Du kan uppdatera procentandelen färdigt för en uppgift eller ett ärende från panelen Sammanfattning i Hem eller från widgeten Mitt arbete.
+
+Mer information finns i  [Komma igång med nya startsidan](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Att tänka på när du uppdaterar procentandelen färdigt för en uppgift
 
@@ -104,7 +107,13 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
    * En lista över projekt och använd vyn Milstolpe
    * En uppgift genom att gå till uppgiftssidan
 1. Leta reda på **Procent färdigt** för den uppgift vars procent du vill uppdatera.
-1. Klicka i fältet Procent färdigt och skriv ett tal mellan 0 och 100
+
+   >[!TIP]
+   >
+   >  Fältet Procent färdigt visas alltid högst upp på panelen Sammanfattning.
+
+
+1. Klicka inuti **Procent färdigt** och ange ett tal mellan 0 och 100
 
    eller
 

@@ -6,9 +6,9 @@ description: Både planerat slutförande och implementeringsdatum anger när upp
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,11 @@ Den tilldelande som arbetar med uppgiften eller utgåvan kan uppdatera implement
 
 Tilldelningsmottagaren som ändrar implementeringsdatumet ändrar inte automatiskt det planerade slutförandedatumet. Det motsatta är också sant: om du ändrar det planerade slutförandedatumet ändras inte implementeringsdatumet.
 
-När implementeringsdatumet ändras till ett datum som är senare än det planerade slutförandedatumet får projektägaren ett meddelande om att ändringen inträffade och det kan påverka tidslinjen för projektet.
+När implementeringsdatumet ändras meddelas projektägaren via ett Workfront-meddelande i appen om att ändringen har inträffat.
 
-Om det implementeringsdatum som erbjuds av den som tilldelats är godkänt för projektägaren, måste de manuellt uppdatera det planerade slutförandedatumet för aktiviteten eller utgåvan. Mer information finns i följande artiklar:
+Om det datum för implementering som den tilldelade personen erbjuder kan accepteras av projektägaren, måste de manuellt uppdatera det planerade slutförandedatumet för aktiviteten för att visa vilken effekt den kan ha på tidslinjen i projektet. Ändringar av det planerade slutförandedatumet påverkar inte projekttidslinjen.
+
+Mer information finns i följande artiklar:
 
 * [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Uppdatera implementeringsdatum för aktiviteter och ärenden](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

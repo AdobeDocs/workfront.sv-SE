@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
    * Senast ändrad av
    * Senast ändrat den
 
-* **Länkade posttyper**, **Länkade poster** och **Länkade postfält**: Du kan skapa en anslutning mellan följande enheter i Workfront Planning:
+* **Länkade posttyper**, **Länkade poster** och **Länkade postfält** eller **Anslutna posttyper**, **Anslutna poster** och **Kopplade fält**: Du kan skapa en anslutning mellan följande enheter i Workfront Planning:
 
    * Två posttyper.
    * En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.

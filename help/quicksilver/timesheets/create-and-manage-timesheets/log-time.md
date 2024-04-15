@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3571'
+source-wordcount: '3572'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ Om du dessutom vill logga tiden för ett objekt i widgeten Mitt arbete:
 
 1. Till **Startsida** område.
 1. Lägg till **Mitt arbete** widgeten till ditt hem.
-1. Välj en uppgift, ett problem eller en förfrågan i en lista och klicka sedan på **Arbeta på den**
+1. (Valfritt) Välj en uppgift, ett problem eller en förfrågan i en lista och klicka sedan på **Arbeta på den**
 1. Håll muspekaren över uppgiften eller problemet som du vill logga in på och klicka sedan på **Loggtid** icon ![](assets/log-time-icon-in-new-home.png) till höger om uppgiftsinformationen.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

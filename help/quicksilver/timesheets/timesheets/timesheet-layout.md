@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs layouten för tidrapporter i Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är endast tillgängligt i förhandsvisningsmiljön för alla kunder eller i Production för kunder som aktiverat snabba versioner. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Information om det aktuella releaseschemat finns i [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 I den här artikeln beskrivs layouten för tidrapporter i Adobe Workfront, så att du bättre kan förstå hur du anpassar och använder tidrapporter för att spela in tid.
 
@@ -125,11 +125,7 @@ Du kan logga flera timposter för samma arbetsuppgift för olika timtyper. Mer i
 
 ## Uppdateringsområdet i den vänstra panelen
 
-<div class="preview">
-
 ![Uppdateringsområdet i den vänstra tidrapportpanelen](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 Du kan kommentera i en tidrapport för att kommunicera med tidrapportgodkännare eller andra användare i uppdateringsavsnittet på den vänstra panelen i tidrapporten.
 
@@ -137,11 +133,7 @@ Eventuella kommentarer som gjorts i tidrapporten visas i det här området.
 
 ## Panelen Sammanfattning
 
-<div class="preview">
-
 ![Panelen Sammanfattning](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 Du kan öppna panelen Sammanfattning för uppgifter och utgåvor som visas i en tidrapport. Härifrån kan du kommentera uppgifter och problem eller uppdatera deras information. Mer information finns i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
