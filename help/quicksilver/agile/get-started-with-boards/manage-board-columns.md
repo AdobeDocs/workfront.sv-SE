@@ -6,9 +6,9 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
 >[!NOTE]
 >
 >Dynamiska kort placerar alltid kort i kolumnen som matchar deras status, oavsett om kolumnprinciper är aktiverade eller inaktiverade. Korten återgår till sina tilldelade kolumner när du uppdaterar ritytan.
+> 
+>Om du flyttar ett kort från en kolumn till en annan med samma status för alla kort, återgår kortet till den ursprungliga kolumnen när du uppdaterar kortet.
 
 1. Gå till styrelsen.
 1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) i kolumnen och väljer **[!UICONTROL Edit]**.
