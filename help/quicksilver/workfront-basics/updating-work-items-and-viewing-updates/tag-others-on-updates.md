@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -88,13 +88,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan tagga andra vid uppdateringar på följande sätt:
 
 * **Automatiskt**: När en användare startar en tråd, lägger till en kommentar eller lägger till ett svar, taggas de automatiskt och läggs till i taggarna för personer eller team i kommentarsrutan.
-
-  >[!TIP]
-  >
-  >   Det går inte att tagga användare automatiskt när du lägger till en kommentar i en iteration.  Mer information finns i [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
-  >Det går inte att tagga användare automatiskt när du lägger till en kommentar från andra program.
-
-
 * **Manuellt**: När du lägger till en användare manuellt i taggområdet i kommentarsrutan.
 
 Du kan också ta bort användare som är taggade av misstag när du redigerar eller svarar på en kommentar.

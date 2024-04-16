@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * Malluppgift
 
 * Följande objekt har ingen flik för systemaktivitet eller Alla, och upplevelsen på fliken Kommentarer skiljer sig från upplevelsen på alla andra objekt:
+   * Iterationer
    * Ad hoc-kort
 
      Mer information om uppdateringar på kort finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * Iterationer
-
-     Mer information om uppdateringar av iterationer finns i [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * Följande objekt har ingen Alla-flik och upplevelsen på fliken Kommentarer matchar upplevelsen på de flesta objekt:
 

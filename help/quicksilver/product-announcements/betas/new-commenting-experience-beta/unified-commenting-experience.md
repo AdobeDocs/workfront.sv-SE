@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -551,13 +551,13 @@ Här följer en planerad tidslinje för den nya kommentarsfunktionen:
 
 * Med den andra utgåvan för kvartal 2024 (11 april 2024):
 
-  Ta bort alternativet att växla tillbaka till den gamla kommentarströmmen och göra den nya kommentarströmmen till den enda upplevelsen för alla objekt, med undantag för iterationer.
+  Ta bort alternativet att växla tillbaka till den gamla kommentarströmmen och göra den nya kommentarströmmen till den enda upplevelsen för alla objekt.
 
 ## Hitta den nya kommentarsfunktionen
 
 Den nya kommentarsupplevelsen finns i följande delar av Workfront:
 
-* I uppdateringsavsnittet för alla objekt med undantag för iterationer.
+* I uppdateringsavsnittet för alla objekt.
 
   Mer information om hur du kommer åt uppdateringsavsnittet för Workfront-objekt finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

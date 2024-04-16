@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2967'
 ht-degree: 0%
 
 ---
@@ -55,17 +55,13 @@ Du kan lägga till en uppdatering för ett Adobe Workfront-objekt för att infor
 
 I den här artikeln beskrivs hur du kan kommentera och uppdatera information för projekt, uppgifter och ärenden. Användare som är tilldelade eller prenumererade till objektet kan visa din uppdatering. Du kan också tagga användare så att de uppmärksammas på uppdateringen.
 
-Att lägga till kommentarer till andra objekt liknar att uppdatera projekt, uppgifter och problem. Mer information om hur du kommenterar kort, mål och iterationer finns i följande artiklar:
+Att lägga till kommentarer till andra objekt liknar att uppdatera projekt, uppgifter och problem. Mer information om hur du kommenterar kort och mål finns i följande artiklar:
 
 * [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   Du måste ha ytterligare en licens för att få tillgång till Workfront Goals.
 
 * [Lägga till ett ad hoc-kort till en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [Hantera upprepningskommentarer](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## Åtkomstkrav
 
