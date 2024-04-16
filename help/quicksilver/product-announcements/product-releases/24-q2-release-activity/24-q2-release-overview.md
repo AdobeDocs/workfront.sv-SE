@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -445,6 +445,32 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nya kommentarfunktioner i iterationer</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>För att ge en enhetlig upplevelse i hela programmet har vi lagt till den nya kommentarsfunktionen i iterationer. Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 11 april 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för alla kunder: Med version 24.4 (11 april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <p><span class="bold">Funktion</span>
