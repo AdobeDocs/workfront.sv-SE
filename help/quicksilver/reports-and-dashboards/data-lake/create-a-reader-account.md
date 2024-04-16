@@ -6,12 +6,11 @@ title: Skapa ett läsarkonto (tjänstkonto) för Snowflake
 description: För att få tillgång till data i Workfront Data Lake måste du först skapa ett läsarkonto för Snowflake.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td>Ultimate</td> 
+   <td>TBD</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -67,7 +66,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    ![Återställ Snowflake-lösenord](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. Nu kan du använda ditt användarnamn och nya lösenord för att få åtkomst till din Workfront-sjön i Snowflake.
+1. Nu kan du använda ditt användarnamn och nya lösenord för att komma åt din Workfront-datasjön i Snowflake eller det företagsvisualiseringsverktyg som du väljer.
 
 ## Lägg till IP-adresser i tillåtelselista
 
@@ -77,9 +76,9 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 1. Klicka på **Tillåtna IP-adresser** klickar du på **Lägg till en IP-adress i Tillåtelselista** -knappen.
 
-   ![Lägg till IP-adress](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
 1. Ange ett namn för IP-adressen i **IP-adressbeskrivning** och ange IP-adressen för det verktyg du vill använda i **IP-adress** och sedan klicka **Lägg till IP i Tillåtelselista**.
+
+   ![Lägg till IP-adress](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Återkalla ett läsarkonto eller ta bort en IP-adress från tillåtelselista
 

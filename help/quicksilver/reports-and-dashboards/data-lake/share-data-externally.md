@@ -6,10 +6,9 @@ title: Dela data med verktyg för affärsinformation och externa datalager
 description: Med Workfront datasjön kan ni använda er organisations Workfront-data med populära affärsintelligensverktyg eller lagra dem i ett externt datalager.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%

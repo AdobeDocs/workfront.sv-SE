@@ -4,10 +4,9 @@ title: Betainformation för Workfront Data Lake
 description: Allmän information om betaversionen av Workfront Data Lake
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a1eb393a929ff7246056bb53b3e28b9da240c252
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -104,4 +103,3 @@ Nedan finns listor över objekt som för närvarande stöds i betaversionen, obj
 
 * Begränsa tillgängliga objekt vid inställning av läsarkonto.
 * Koppla ett läsarkonto till en viss grupp eller grupper i Workfront för att begränsa synligheten för poster till endast gruppmedlemmar.
-
