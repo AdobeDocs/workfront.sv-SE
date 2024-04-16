@@ -9,14 +9,16 @@ description: En anslutning måste uppfylla de krav som anges i API:t för det pr
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Skapa anslutningar i [!DNL Adobe Workfront Fusion]
+
+<!-- Audited: 3/2024-->
 
 En anslutning måste uppfylla de krav som anges i API:t för det program eller den webbtjänst den ansluter till. Instruktionerna för hur du konfigurerar en anslutning varierar därför beroende på programmet eller webbtjänsten. Den här artikeln kan hjälpa dig att identifiera och hitta anslutningsinstruktioner [!DNL Adobe Workfront Fusion] till det program eller den webbtjänst du valt.
 
@@ -24,46 +26,40 @@ En anslutning måste uppfylla de krav som anges i API:t för det program eller d
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>Alla</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td>  
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>  
+   <td> 
+   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p> 
+   <p>eller</p> 
+   <p>Äldre: Alla </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produkt</td>  
+   <td> 
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul> 
+   <p>eller</p> 
+   <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
-   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
-   <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
-   </td>
-
-</tbody> 
+ </tbody>  
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-
-## Anslut [!DNL Adobe Workfront] till [!DNL Workfront Fusion]
-
-Workfront och [!DNL Workfront Fusion] är utformade för att fungera tillsammans. Den anslutning du skapar avgör vilket konto som [!DNL Workfront Fusion] använder för att utföra åtgärder i Workfront.
-
-Instruktioner finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect) in [[!DNL Adobe Workfront] moduler](../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Anslut till ett program eller en webbtjänst som inte kräver konfiguration
 

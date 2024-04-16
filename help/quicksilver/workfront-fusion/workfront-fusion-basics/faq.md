@@ -8,9 +8,9 @@ description: I den här artikeln behandlas vanliga frågor om [!DNL Adobe Workfr
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -60,7 +60,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 ### Svar
 
-Ett scenario definierar en sekvens av steg som ska köras av [!DNL Adobe Workfront Fusion]. För varje scenario anger du datakällan, hur data ska behandlas och vilka data som ska användas och vad som ska ignoreras. [!DNL Workfront Fusion] gör att du kan skapa så komplexa scenarier som du behöver, även de mest avancerade scenarierna är möjliga.
+Ett scenario definierar en sekvens av steg som ska köras av [!DNL Adobe Workfront Fusion]. För varje scenario anger du datakällan, hur data ska behandlas och vilka data som ska användas och vad som ska ignoreras. [!DNL Workfront Fusion] Med kan du skapa så många scenarier du behöver, och även de mest avancerade scenarierna är möjliga.
 
 Mer information finns i [Skapa ett scenario för praktikintegrering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
@@ -104,7 +104,7 @@ Mer information finns i [[!UICONTROL Aggregator] modulen i [!DNL Adobe Workfront
 
 ### Svar
 
-En åtgärd är en åtgärd som utförs av en modul. En åtgärd utförs till exempel varje gång en utlösare körs och varje gång en åtgärd utför en åtgärd.
+En åtgärd är en åtgärd som utförs av en modul. En åtgärd inträffar t.ex. varje gång en utlösare körs och varje gång en åtgärd utför en åtgärd.
 
 ## Vad är dataöverföring?
 
@@ -118,4 +118,4 @@ Dataöverföring avser mängden data som överförs genom ditt scenario. Anta ti
 
 En anslutning är länken mellan [!DNL Workfront Fusion] konto och den tredjepartstjänst som du vill använda. Anslutningen kan enkelt skapas när du redigerar ett scenario. Om du vill lägga till en anslutning klickar du på **[!UICONTROL Add]** i modulinställningarna och följ instruktionerna steg för steg.
 
-Mer information finns i [Om att ansluta [!DNL Adobe Workfront Fusion] till en app eller tjänst](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Mer information finns i [Anslutningar - översikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

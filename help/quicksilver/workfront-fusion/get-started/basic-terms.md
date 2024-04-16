@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>När du lägger till en app eller tjänst i ett scenario måste du troligen först skapa en anslutning mellan [!DNL Workfront Fusion] och programmet eller tjänsten för att hämta eller skicka valda data. Mer information finns i <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Om att ansluta [!DNL Adobe Workfront Fusion] till en app eller tjänst</a>.</p> </td> 
+   <td> <p>När du lägger till en app eller tjänst i ett scenario måste du troligen först skapa en anslutning mellan [!DNL Workfront Fusion] och programmet eller tjänsten för att hämta eller skicka valda data. Mer information finns i <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Anslutningar - översikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cykel</p> </td> 
-   <td> <p>En cykel avser två faser i scenariot: och implementera. Scenariot kan bestå av en eller flera cykler. Mer detaljerad information finns i <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Körning av scenarier, cykler och faser i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>En cykel refererar till två faser av scenariot som körs: operation och commit. Scenariot kan bestå av en eller flera cykler. Mer detaljerad information finns i <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Körning av scenarier, cykler och faser i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Datalager</p> </td> 
@@ -76,7 +76,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Objekt</p> </td> 
-   <td> <p>En del av ett paket. Paket kan bestå av flera objekt. Det finns flera olika typer av objekt: text, tal, boolesk (ja/nej), datum, tid, buffert (binära data), samlingar, välj meny, matris och validering.</p> </td> 
+   <td> <p>En del av ett paket. Paket kan bestå av flera objekt. Det finns flera olika typer av alternativ: text, tal, booleskt (ja/nej), datum, tid, buffert (binära data), samlingar, markeringsmeny, matris och validering.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Iterator]</p> </td> 
@@ -108,7 +108,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Utlösare</p> </td> 
-   <td> <p>En modul som gör att du kan hämta paket som har lagts till eller uppdaterats sedan den senaste körningen av ett scenario. Det finns två typer av utlösare: avsökning och omedelbar avsökning (webhooks). Mer information finns i <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Direktutlösare (webhooks) i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>En modul som gör att du kan hämta paket som har lagts till eller uppdaterats sedan den senaste körningen av ett scenario. Det finns två typer av utlösare: avsökning och direktutlösare (webhooks). Mer information finns i <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Direktutlösare (webhooks) i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webkrok</p> </td> 

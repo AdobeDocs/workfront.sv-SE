@@ -8,9 +8,9 @@ description: Följande strängfunktioner är tillgängliga på panelen för mapp
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -21,44 +21,44 @@ ht-degree: 0%
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] eller högre</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>Alla</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td>  
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>  
+   <td> 
+   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p> 
+   <p>eller</p> 
+   <p>Äldre: Alla </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produkt</td>  
+   <td> 
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul> 
+   <p>eller</p> 
+   <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
-   <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL ascii (text; [remove diacritics])]
 
-Tar bort alla tecken som inte är ASCII-tecken från en textsträng.
+Tar bort alla icke-ASCII-tecken från en textsträng.
 
 >[!INFO]
 >
@@ -82,7 +82,7 @@ Omformar text till base64.
 >
 >`base64( workfront )`
 >
->Returnerar: d29ya2Zyb250==
+>Returnerar: d29ya2Zyb250===
 
 ## [!UICONTROL capitalize (text)]
 
@@ -169,7 +169,7 @@ Returnerar positionen för den första förekomsten av ett angivet värde i en s
 >
 >* `indexOf( Workfront ; o ; 3 )`
 >
->   Returnerar: 6
+>   Returer: 6
 
 ## [!UICONTROL length (text or buffer)]
 
@@ -181,7 +181,7 @@ Returnerar längden på textsträngen (antal tecken) eller binär buffert (buffe
 >
 >`length( hello )`
 >
->Returnerar: 5
+>Returer: 5
 
 ## [!UICONTROL lower (text)]
 
@@ -254,7 +254,7 @@ Mer information om reguljära uttryck finns i [Textparser](../../workfront-fusio
 
 ## [!UICONTROL sha1 (text; [encoding]; [key])]
 
-Beräknar sha1-hash för en sträng. Om nyckelargumentet anges returneras sha1 HMAC-hash i stället. Kodningar som stöds: &quot;hex&quot; (standard), &quot;base64&quot; eller &quot;latin1.&quot;
+Beräknar sha1-hash för en sträng. Om nyckelargumentet anges returneras sha1 HMAC-hash i stället. Kodningar som stöds: &quot;hex&quot; (standard), &quot;base64&quot; eller &quot;latin1&quot;.
 
 >[!INFO]
 >
@@ -300,7 +300,7 @@ Vid användning av[!UICONTROL binary]&quot;nyckelkodning, en nyckel måste vara 
 >
 >`sha512(workfront)`
 >
->Returnerar: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd19b 85e1e19db58bb44b234493af35fd431639c0345adf2cf7ec26e9f4a7fb19
+>Returnerar: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119 b85e1e19db58bb44b234493af35fd431639c0345adf2cf7ec26e9f4a7fb19
 
 ## [!UICONTROL split (text; separator)]
 
@@ -379,7 +379,7 @@ Tar bort blankstegstecken i början eller slutet av texten.
 
 ## [!UICONTROL upper (text)]
 
-Konverterar alla alfabetiska tecken i en textsträng till versaler.
+Konverterar alla bokstäver i en textsträng till versaler.
 
 >[!INFO]
 >

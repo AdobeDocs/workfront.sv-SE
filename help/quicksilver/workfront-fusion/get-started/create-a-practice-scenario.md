@@ -3,24 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Skapa ett scenario för praktikintegrering i Adobe Workfront Fusion
-description: I den här artikeln beskrivs hur du skapar ett integreringsscenario med Adobe Workfront Fusion. Integrationsscenarier kopplar samman olika appar så att data kan flöda genom olika program.
+description: I den här artikeln beskrivs hur du skapar ett integreringsscenario med Adobe Workfront Fusion. Integreringsscenarier kopplar samman olika appar så att data kan flöda genom olika program.
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2013'
 ht-degree: 0%
 
 ---
 
 # Skapa ett scenario för praktikintegrering i Adobe Workfront Fusion
 
-I den här artikeln beskrivs hur du skapar ett integreringsscenario med Adobe Workfront Fusion. Integrationsscenarier kopplar samman olika appar så att data kan flöda genom olika program.
+I den här artikeln beskrivs hur du skapar ett integreringsscenario med Adobe Workfront Fusion. Integreringsscenarier kopplar samman olika appar så att data kan flöda genom olika program.
 
 Om du vill skapa ett integreringsscenario måste din organisation ha en [!DNL Workfront Fusion for Work Automation and Integration] licens.
 
-Instruktioner om hur du skapar ett automatiseringsscenario som bara gäller för Workfront finns i [Skapa ett scenario för övningsautomatisering i Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
+Instruktioner om hur du skapar ett automatiseringsscenario som bara gäller för Workfront finns i [Skapa en metod för automatisering i Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 
 Mer information om Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -57,13 +57,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -94,11 +94,11 @@ Att skapa ett scenario består av flera huvuduppgifter:
    ![](assets/spreadsheet-headers-350x55.png)
 
 1. Logga in på [!DNL Workfront Fusion] konto.
-1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) i den vänstra panelen.
+1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) till vänster.
 
    >[!NOTE]
    >
-   >Om den vänstra navigeringspanelen eller dess ikoner inte visas klickar du på menyn ![Meny](assets/main-menu-icon-left-nav.png) ikon.
+   >Om den vänstra navigeringspanelen eller dess ikoner inte visas klickar du på menyn ![Meny](assets/main-menu-icon-left-nav.png) -ikon.
 
    I grått [!UICONTROL Folders] som visas kan du ordna dina scenarier i mappar.
 
@@ -115,7 +115,7 @@ Att skapa ett scenario består av flera huvuduppgifter:
    På landningssidan som visas kan du förhandsladda alla appar som du vill använda i det scenario som du tänker skapa.
 
 1. Sök efter och välj **[!UICONTROL Google Sheets]** app.
-1. Klicka **[!UICONTROL Continue]** i det övre högra hörnet.
+1. Klicka **[!UICONTROL Continue]** längst upp till höger.
 
    Scenarioredigeraren visar, som innehåller en tom modul i mitten, [!DNL Google Sheets] som du har förinstallerat och vissa alternativ i verktygsfältet längst ned.
 
@@ -138,7 +138,7 @@ Den här modulen innehåller de data som du vill att scenariot ska bevakas för.
 
 1. Klicka på den tomma modulen för att välja det program du vill välja en modul från.
 
-   Programmet som du förinstallerade visas bredvid den tomma modulen. Du kan lägga till andra appar som har moduler med [!UICONTROL Search] box.
+   Appen som du förinstallerade visas bredvid den tomma modulen. Du kan lägga till andra appar som har moduler med [!UICONTROL Search] box.
 
    ![](assets/pre-loaded-apps-350x139.png)
 
@@ -153,13 +153,13 @@ Den här modulen innehåller de data som du vill att scenariot ska bevakas för.
 1. I **[!DNL Google Sheets]** ruta, under **[!UICONTROL Connection]**, klicka **[!UICONTROL Add]** och skriv sedan ett namn för anslutningen, till exempel&quot;Olivias Google-konto&quot;, och klicka sedan på **[!UICONTROL Continue]**.
 1. Autentisera anslutningen i fönstret som visas.
 
-   Processen för att autentisera en anslutning kan variera lite mellan olika program. Du kan behöva logga in på appen. Du behöver vanligtvis klicka på en **[!UICONTROL Allow]** -knappen. Om du behöver hjälp, se [Om att ansluta [!DNL Adobe Workfront Fusion] till en app eller tjänst](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Processen för att autentisera en anslutning kan variera lite mellan olika program. Du kan behöva logga in på appen. Du behöver vanligtvis klicka på en **[!UICONTROL Allow]** -knappen. Om du behöver hjälp, se [Anslutningar - översikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Konfigurera den första modulen
 
 När du har anslutit [!DNL Workfront Fusion] till [!DNL Google Sheets] kan du ange ett [!DNL Google Sheets] kalkylblad som du har tillgång till och de data där som du vill att den första modulen ska bearbeta.
 
-1. Klicka på **[!UICONTROL Spreadsheet]** väljer du **[!UICONTROL Workfront Fusion practice scenario]#1** i den lista som visas.
+1. Klicka på **[!UICONTROL Spreadsheet]** markerar du **[!UICONTROL Workfront Fusion practice scenario]#1** i den lista som visas.
 
    Det här kalkylbladet innehåller 2 blad (flikar), så vi måste ange vilket blad som innehåller de data vi vill ha:
 
@@ -210,7 +210,7 @@ När du har anslutit [!DNL Workfront Fusion] till [!DNL Google Sheets] kan du an
 
    Rutan utas så att alla tillgängliga [!DNL Workfront] projektfält där du kan placera den information som hittas av den första modulen.
 
-   Vi kommer att använda **[!UICONTROL Name]** fält: ska modulen namnge varje projekt i [!DNL Workfront] använda texten i motsvarande [!UICONTROL Google Sheets] rad.
+   Vi kommer att använda **[!UICONTROL Name]** fält: vi vill att modulen ska namnge varje projekt i [!DNL Workfront] använda texten i motsvarande [!UICONTROL Google Sheets] rad.
 
 1. Sök och klicka på **[!UICONTROL Name]** fält.
 
@@ -228,7 +228,7 @@ När du har anslutit [!DNL Workfront Fusion] till [!DNL Google Sheets] kan du an
 
    ![](assets/list-of-available-variables-marked-350x320.png)
 
-1. Klicka på variabeln **[!UICONTROL My Project Name (A)]** för att lägga till den i **[!UICONTROL Name]** fält.
+1. Click the variable **[!UICONTROL My Project Name (A)]** för att lägga till den i **[!UICONTROL Name]** fält.
 
    Du har just mappat din första datadel för det här scenariot.
 
@@ -244,12 +244,12 @@ När du har anslutit [!DNL Workfront Fusion] till [!DNL Google Sheets] kan du an
 
 ## Testa scenariot
 
-Innan du aktiverar ditt scenario är det viktigt att testa det genom att köra det minst en gång och visa resultatet. Detta hjälper er att förstå hur data flödar genom scenariot och hitta eventuella fel.
+Innan du aktiverar ditt scenario är det viktigt att du testar det genom att köra det minst en gång och visa resultatet. Detta hjälper er att förstå hur data flödar genom scenariot och hitta eventuella fel.
 
 Vi valde att låta 1 rad från kalkylbladet bearbetas för att skapa ett projekt i Workfront. Om du kör scenariot är det vad som ska hända.
 
 1. Klicka **[!UICONTROL Run once]** i det nedre vänstra hörnet av scenarioredigeraren.
-1. När scenariot är klart klickar du på bubblan ovanför [!DNL Google Sheets] -modul.
+1. Klicka på bubblan ovanför [!DNL Google Sheets] -modul.
 
    ![](assets/click-bubble.png)
 
@@ -257,7 +257,7 @@ Vi valde att låta 1 rad från kalkylbladet bearbetas för att skapa ett projekt
 
    ![](assets/execution-inspector-g-sheets-350x637.png)
 
-1. Klicka på exekveringsbubblan ovanför [!DNL Workfront] för att se indata och utdata, vilket är ID för projektet som nu skapats i [!DNL Workfront]
+1. Klicka på exekveringsbubblan ovanför [!DNL Workfront] för att se indata och utdata, vilket är ID:t för projektet som nu skapats i [!DNL Workfront]
 
    ![](assets/execution-inspector-wf-350x384.png)
 
@@ -318,6 +318,6 @@ Vi måste fortfarande konfigurera scenariot för att skapa projekt för alla and
 
 Om det här vore ett scenario som du skulle använda för verkliga data, skulle du först aktivera det. När du har aktiverat ett scenario körs det som standard var 15:e minut. Du kan ändra detta genom att definiera när och hur ofta du vill att det ska köras.
 
-Mer information om att aktivera scenarier finns i [Aktivera eller inaktivera ett scenario i Adobe Workfront Fusion](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+Mer information om hur du aktiverar scenarier finns i [Aktivera eller inaktivera ett scenario i Adobe Workfront Fusion](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 Mer information om scheman finns i [Schemalägg ett scenario i Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).

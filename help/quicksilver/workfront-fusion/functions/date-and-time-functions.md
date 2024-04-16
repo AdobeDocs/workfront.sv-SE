@@ -8,9 +8,9 @@ description: Följande datum- och tidsfunktioner är tillgängliga i panelen fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
+source-git-commit: 6374a1a0ca49507872c71eaebd5227e88e3225b7
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -19,44 +19,288 @@ ht-degree: 0%
 
 ## Åtkomstkrav
 
+
+
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] eller högre</p> </td> 
+
+
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>Alla</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td>  
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>  
+   <td> 
+   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p> 
+   <p>eller</p> 
+   <p>Äldre: Alla </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produkt</td>  
+   <td> 
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul> 
+   <p>eller</p> 
+   <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
-   <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL formatDate (date; format; [timezone])]
+## Variabel
+
+### nu
+
+### tidsstämpel
+
+## Funktioner
+
+### [!UICONTROL addSeconds (date; number)]
+
+Returnerar ett nytt datum som ett resultat av att ett visst antal sekunder har lagts till ett datum. Om du vill subtrahera sekunder anger du ett negativt tal.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;2)`
+>
+>   Returnerar 2016-12-08T15:55:59,536Z
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
+>
+>   Returnerar 2016-12-08T15:55:55,536Z
+
+### [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
+
+Returnerar ett nytt datum som ett resultat av att ett visst antal minuter har lagts till ett datum. Om du vill subtrahera minuter anger du ett negativt tal.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;2)`
+>
+>    Returnerar 2016-12-08T15:57:57,536Z
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returnerar 2016-12-08T15:53:57,536Z
+
+### [!UICONTROL addHours (date; number)] {#addhours-date-number}
+
+Returnerar ett nytt datum som ett resultat av att ett visst antal timmar har lagts till ett datum. Om du vill subtrahera timmar anger du ett negativt tal.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `addHours(2016-12-08T15:55:57.536Z; 2)`
+>
+>    Returnerar 2016-12-08T17:55:57,536Z
+>
+>* `addHours(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returnerar 2016-12-08T13:55:57,536Z
+
+### [!UICONTROL addDays (date; number)] {#adddays-date-number}
+
+Returnerar ett nytt datum som ett resultat av att ett visst antal dagar har lagts till ett datum. Om du vill subtrahera dagar anger du ett negativt tal.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `addDays(2016-12-08T15:55:57.536Z;2)`
+>
+>    Returnerar 2016-12-10T15:55:57,536Z
+>
+>* `addDays(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returnerar 2016-12-6T15:55:57,536Z
+
+### [!UICONTROL addMonths (date; number)]
+
+Returnerar ett nytt datum som ett resultat av att ett visst antal månader har lagts till ett datum. Om du vill subtrahera månader anger du ett negativt tal.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;2)`
+>
+>    Returnerar 2016-10-08T15:55:57,536Z
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;-2)`
+>
+>    Returnerar 2016-06-08T15:55:57,536Z
+
+### [!UICONTROL addYears (date; number)]
+
+Returnerar ett nytt datum som ett resultat av att ett visst antal år har lagts till ett datum. Om du vill subtrahera år anger du ett negativt tal.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `addYears(2016-08-08T15:55:57.536Z;2)`
+>
+>    Returnerar 2018-08-08T15:55:57,536Z
+>
+>* `addYears(2016-12-08T15:55:57.536Z; -2)`
+>
+>    Returnerar 2014-08-08T15:55:57,536Z
+
+### [!UICONTROL setSecond (date; number)]
+
+Den här funktionen returnerar ett nytt datum med de sekunder som anges i parametrar.
+
+Ange ett tal mellan 0 och 59. Om talet ligger utanför det intervallet returnerar funktionen en sekund från föregående minut (för ett negativt tal) eller efterföljande minut (för ett positivt tal).
+
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder[!UICONTROL  addSeconds], enligt beskrivningen ovan i avsnittet [addSeconds (date; number)](#addseconds-date-number).
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `setSecond(2015-10-07T11:36:39.138Z;10)`
+>
+>    Returnerar 2015-10-07T11:36:10.138Z
+>
+>* `setSecond(2015-10-07T11:36:39.138Z; 6)`
+>
+>    Returnerar 2015-10-07T11:37:01.138Z
+
+### [!UICONTROL setMinute (date; number)]
+
+Den här funktionen returnerar ett nytt datum med de minuter som anges i parametrarna.
+
+Ange ett tal mellan 0 och 59. Om talet ligger utanför det intervallet returnerar funktionen en minut från föregående timme (för ett negativt tal) eller efterföljande timme (för ett positivt tal).
+
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addMinutes enligt beskrivningen ovan [addMinutes (date; number)](#addminutes-date-number).
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;10)`
+>
+>    Returnerar 2015-10-07T11:10:39,138Z
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;61)`
+>
+>    Returnerar 2015-10-07T12:01:39,138Z
+
+### [!UICONTROL setHour (date; number)]
+
+Den här funktionen returnerar ett nytt datum med timmen angiven i parametrar.
+
+Ange ett tal mellan 0 och 23. Om talet ligger utanför det här intervallet returnerar funktionen en timme från föregående dag (för ett negativt tal) eller efterföljande dag (för ett positivt tal).
+
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addHours enligt beskrivningen ovan [addHours (date; number)](#addhours-date-number).
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `setHour(2015-08-07T11:36:39.138Z;6)`
+>
+>   Returer 2015-08-07T06:36:39,138Z
+>
+>* `setHour(2015-08-07T11:36:39.138;-6)`
+>
+>    Returnerar 2015-08-06T18:36:39,138Z
+
+### [!UICONTROL setDay (date; number/name of the day in English)]
+
+Den här funktionen returnerar ett nytt datum med den dag som anges i parametrar.
+
+Du kan använda den här funktionen för att ange veckodag, med söndag som 1 och lördag som 7. Om du anger ett tal mellan 1 och 7 blir det resulterande datumet inom den aktuella veckan (söndag till lördag). Om talet ligger utanför det intervallet returnerar funktionen en dag från föregående vecka (för ett negativt tal) eller efterföljande vecka (för ett positivt tal).
+
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addDays enligt beskrivningen ovan [addDays (date; number)](#adddays-date-number).
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `setDay(2018-06-27T11:36:39.138Z;Monday)`
+>
+>   Returnerar 2018-06-25T11:36:39,138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;1)`
+>
+>   Returnerar 2018-06-24T11:36:39,138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;7)`
+>
+>   Returnerar 2018-06-30T11:36:39,138Z
+
+### [!UICONTROL setDate (date; number)]
+
+Den här funktionen returnerar ett nytt datum med den dag i månaden som anges i parametrar.
+
+Ange ett tal mellan 1 och 31. Om talet ligger utanför det här intervallet returnerar funktionen en dag från föregående månad (för ett negativt tal) eller efterföljande månad (för ett positivt tal).
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `setDate(2015-08-07T11:36:39.138Z;5)`
+>
+>   Returnerar 2015-08-05T11:36:39,138Z
+>
+>* `setDate(2015-08-07T11:36:39.138Z;32)`
+>
+>   Returnerar 2015-09-01T11:36:39,138Z
+
+### [!UICONTROL setMonth (date; number/name of the month in English)]
+
+Den här funktionen returnerar ett nytt datum med den månad som anges i parametrar.
+
+Ange ett tal mellan 1 och 12. Om talet ligger utanför det här intervallet returnerar funktionen månaden under föregående år (för ett negativt tal) eller efterföljande år (för ett positivt tal).
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;5)`
+>
+>   Returnerar 2015-05-07T11:36:39,138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;17)`
+>
+>   Returnerar 2016-05-07T11:36:39,138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;january)`
+>
+>   Returnerar 2015-01-07T12:36:39,138Z
+
+### [!UICONTROL setYear (date; number)]
+
+Returnerar ett nytt datum med året angivet i parametrar.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `setYear(2015-08-07T11:36:39.138Z;2017)`
+>
+>   Returnerar 2017-08-07T11:36:39,138Z
+
+### [!UICONTROL formatDate (date; format; [timezone])]
 
 Använd den här funktionen när du har ett datumvärde, till exempel `12-10-2021 20:30`som du vill formatera som ett textvärde, till exempel `Dec 10, 2021 8:30 PM`.
 
@@ -64,7 +308,7 @@ Detta är praktiskt när du till exempel behöver ändra datumformatet för en a
 
 Mer information finns i [Datum](../../workfront-fusion/mapping/item-data-types.md#date) och [Text](../../workfront-fusion/mapping/item-data-types.md#text) i artikeln [Objektdatatyper i Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
-### Parametrar
+#### Parametrar
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +342,7 @@ Mer information finns i [Datum](../../workfront-fusion/mapping/item-data-types.m
 
 Om en annan typ anges används typtvång. Mer information finns i [Typtvång i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### Returvärde och typ
+#### Returvärde och typ
 
 The `formatDate` funktionen returnerar en textrepresentation av det angivna Date-värdet enligt det angivna formatet och tidszonen. Datatypen är Text.
 
@@ -124,11 +368,11 @@ The `formatDate` funktionen returnerar en textrepresentation av det angivna Date
 >
 >    Returnerar 19.03.2019 15:30
 
-## [!UICONTROL parseDate (text; format; [timezone])]
+### [!UICONTROL parseDate (text; format; [timezone])]
 
 Använd den här funktionen när du har ett textvärde som representerar ett datum (till exempel `12-10-2019 20:30` eller `Aug 18, 2019 10:00 AM`) och du vill konvertera (tolka) den till ett datumvärde (en binär maskinläsbar representation). Mer information finns i [Datum](../../workfront-fusion/mapping/item-data-types.md#date) och [Text](../../workfront-fusion/mapping/item-data-types.md#text) i artikeln [Artikeldatatyper i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
-### Parametrar
+#### Parametrar
 
 Den andra kolumnen anger den förväntade typen. Om en annan typ anges används typtvång. Mer information finns i [Typtvång i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
@@ -164,7 +408,7 @@ Den andra kolumnen anger den förväntade typen. Om en annan typ anges används 
 
 Om en annan typ anges används typtvång. Mer information finns i [Typtvång i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### Returvärde och typ
+#### Returvärde och typ
 
 Den här funktionen konverterar en textsträng till ett datum enligt det format och den tidszon som du anger. Datatypen för värdet är Date.
 
@@ -188,239 +432,7 @@ Den här funktionen konverterar en textsträng till ett datum enligt det format 
 >
 >   Returnerar 2016-12-28T16:03:06,000Z
 
-## [!UICONTROL addDays (date; number)] {#adddays-date-number}
-
-Returnerar ett nytt datum som ett resultat av att ett visst antal dagar har lagts till ett datum. Om du vill subtrahera dagar anger du ett negativt tal.
-
->[!INFO]
->
->**Exempel:**
->
->* `addDays(2016-12-08T15:55:57.536Z;2)`
->
->    Returnerar 2016-12-10T15:55:57,536Z
->
->* `addDays(2016-12-08T15:55:57.536Z;-2)`
->
->    Returnerar 2016-12-6T15:55:57,536Z
-
-## [!UICONTROL addHours (date; number)] {#addhours-date-number}
-
-Returnerar ett nytt datum som ett resultat av att ett visst antal timmar har lagts till ett datum. Om du vill subtrahera timmar anger du ett negativt tal.
-
->[!INFO]
->
->**Exempel:**
->
->* `addHours(2016-12-08T15:55:57.536Z; 2)`
->
->    Returnerar 2016-12-08T17:55:57,536Z
->
->* `addHours(2016-12-08T15:55:57.536Z;-2)`
->
->    Returnerar 2016-12-08T13:55:57,536Z
-
-## [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
-
-Returnerar ett nytt datum som ett resultat av att ett visst antal minuter har lagts till ett datum. Om du vill subtrahera minuter anger du ett negativt tal.
-
->[!INFO]
->
->**Exempel:**
->
->* `addMinutes(2016-12-08T15:55:57.536Z;2)`
->
->    Returnerar 2016-12-08T15:57:57,536Z
->
->* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
->
->    Returnerar 2016-12-08T15:53:57,536Z
-
-## [!UICONTROL addMonths (date; number)] {#addseconds-date-number}
-
-Returnerar ett nytt datum som ett resultat av att ett visst antal månader har lagts till ett datum. Om du vill subtrahera månader anger du ett negativt tal.
-
->[!INFO]
->
->**Exempel:**
->
->* `addMonths(2016-08-08T15:55:57.536Z;2)`
->
->    Returnerar 2016-10-08T15:55:57,536Z
->
->* `addMonths(2016-08-08T15:55:57.536Z;-2)`
->
->    Returnerar 2016-06-08T15:55:57,536Z
-
-## [!UICONTROL addSeconds (date; number)]
-
-Returnerar ett nytt datum som ett resultat av att ett visst antal sekunder har lagts till ett datum. Om du vill subtrahera sekunder anger du ett negativt tal.
-
->[!INFO]
->
->**Exempel:**
->
->* `addSeconds(2016-12-08T15:55:57.536Z;2)`
->
->   Returnerar 2016-12-08T15:55:59,536Z
->
->* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
->
->   Returnerar 2016-12-08T15:55:55,536Z
-
-## [!UICONTROL addYears (date; number)]
-
-Returnerar ett nytt datum som ett resultat av att ett visst antal år har lagts till ett datum. Om du vill subtrahera år anger du ett negativt tal.
-
->[!INFO]
->
->**Exempel:**
->
->* `addYears(2016-08-08T15:55:57.536Z;2)`
->
->    Returnerar 2018-08-08T15:55:57,536Z
->
->* `addYears(2016-12-08T15:55:57.536Z; -2)`
->
->    Returnerar 2014-08-08T15:55:57,536Z
-
-## [!UICONTROL setSecond (date; number)]
-
-Den här funktionen returnerar ett nytt datum med de sekunder som anges i parametrar.
-
-Ange ett tal mellan 0 och 59. Om talet ligger utanför det intervallet returnerar funktionen en sekund från föregående minut (för ett negativt tal) eller efterföljande minut (för ett positivt tal).
-
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder[!UICONTROL  addSeconds], enligt beskrivningen ovan i avsnittet [addSeconds (date; number)](#addseconds-date-number).
-
->[!INFO]
->
->**Exempel:**
->
->* `setSecond(2015-10-07T11:36:39.138Z;10)`
->
->    Returnerar 2015-10-07T11:36:10.138Z
->
->* `setSecond(2015-10-07T11:36:39.138Z; 6)`
->
->    Returnerar 2015-10-07T11:37:01.138Z
-
-## [!UICONTROL setMinute (date; number)]
-
-Den här funktionen returnerar ett nytt datum med de minuter som anges i parametrarna.
-
-Ange ett tal mellan 0 och 59. Om talet ligger utanför det intervallet returnerar funktionen en minut från föregående timme (för ett negativt tal) eller efterföljande timme (för ett positivt tal).
-
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addMinutes enligt beskrivningen ovan [addMinutes (date; number)](#addminutes-date-number).
-
->[!INFO]
->
->**Exempel:**
->
->* `setMinute(2015-10-07T11:36:39.138Z;10)`
->
->    Returnerar 2015-10-07T11:10:39,138Z
->
->* `setMinute(2015-10-07T11:36:39.138Z;61)`
->
->    Returnerar 2015-10-07T12:01:39,138Z
-
-## [!UICONTROL setHour (date; number)]
-
-Den här funktionen returnerar ett nytt datum med timmen angiven i parametrar.
-
-Ange ett tal mellan 0 och 23. Om talet ligger utanför det här intervallet returnerar funktionen en timme från föregående dag (för ett negativt tal) eller efterföljande dag (för ett positivt tal).
-
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addHours enligt beskrivningen ovan [addHours (date; number)](#addhours-date-number).
-
->[!INFO]
->
->**Exempel:**
->
->* `setHour(2015-08-07T11:36:39.138Z;6)`
->
->   Returer 2015-08-07T06:36:39,138Z
->
->* `setHour(2015-08-07T11:36:39.138;-6)`
->
->    Returnerar 2015-08-06T18:36:39,138Z
-
-## [!UICONTROL setDay (date; number/name of the day in English)]
-
-Den här funktionen returnerar ett nytt datum med den dag som anges i parametrar.
-
-Du kan använda den här funktionen för att ange veckodag, med söndag som 1 och lördag som 7. Om du anger ett tal mellan 1 och 7 blir det resulterande datumet inom den aktuella veckan (söndag till lördag). Om talet ligger utanför det intervallet returnerar funktionen en dag från föregående vecka (för ett negativt tal) eller efterföljande vecka (för ett positivt tal).
-
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addDays enligt beskrivningen ovan [addDays (date; number)](#adddays-date-number).
-
->[!INFO]
->
->**Exempel:**
->
->* `setDay(2018-06-27T11:36:39.138Z;Monday)`
->
->   Returnerar 2018-06-25T11:36:39,138Z
->
->* `setDay(2018-06-27T11:36:39.138Z;1)`
->
->   Returnerar 2018-06-24T11:36:39,138Z
->
->* `setDay(2018-06-27T11:36:39.138Z;7)`
->
->   Returnerar 2018-06-30T11:36:39,138Z
-
-## [!UICONTROL setDate (date; number)]
-
-Den här funktionen returnerar ett nytt datum med den dag i månaden som anges i parametrar.
-
-Ange ett tal mellan 1 och 31. Om talet ligger utanför det här intervallet returnerar funktionen en dag från föregående månad (för ett negativt tal) eller efterföljande månad (för ett positivt tal).
-
->[!INFO]
->
->**Exempel:**
->
->* `setDate(2015-08-07T11:36:39.138Z;5)`
->
->   Returnerar 2015-08-05T11:36:39,138Z
->
->* `setDate(2015-08-07T11:36:39.138Z;32)`
->
->   Returnerar 2015-09-01T11:36:39,138Z
-
-## [!UICONTROL setMonth (date; number/name of the month in English)]
-
-Den här funktionen returnerar ett nytt datum med den månad som anges i parametrar.
-
-Ange ett tal mellan 1 och 12. Om talet ligger utanför det här intervallet returnerar funktionen månaden under föregående år (för ett negativt tal) eller efterföljande år (för ett positivt tal).
-
->[!INFO]
->
->**Exempel:**
->
->* `setMonth(2015-08-07T11:36:39.138Z;5)`
->
->   Returnerar 2015-05-07T11:36:39,138Z
->
->* `setMonth(2015-08-07T11:36:39.138Z;17)`
->
->   Returnerar 2016-05-07T11:36:39,138Z
->
->* `setMonth(2015-08-07T11:36:39.138Z;january)`
->
->   Returnerar 2015-01-07T12:36:39,138Z
-
-## [!UICONTROL setYear (date; number)]
-
-Returnerar ett nytt datum med året angivet i parametrar.
-
->[!INFO]
->
->**Exempel:**
->
->* `setYear(2015-08-07T11:36:39.138Z;2017)`
->
->   Returnerar 2017-08-07T11:36:39,138Z
-
-## [!UICONTROL dateDifference (Date1; Date2; Unit)]
+### [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
 Returnerar ett tal som representerar skillnaden mellan de två datumen, uttryckt i den angivna enheten.
 
@@ -454,9 +466,9 @@ Om ingen enhet anges returnerar funktionen differensen i millisekunder.
 >
 >    Returnerar `1`
 
-## Ytterligare exempel
+### Ytterligare exempel
 
-### Så här beräknar du den n:e veckodagen i månaden
+#### Så här beräknar du den n:e veckodagen i månaden
 
 Detta avsnitt är anpassat för [!DNL Workfront Fusion] från [!DNL Exceljet] webbsida som förklarar hur du får den n:e veckodagen i en månad.
 
@@ -511,12 +523,12 @@ Om du bara vill beräkna ett specifikt fall, till exempel varje onsdag, kan du e
 
 ![](assets/nth-day-variable-value-350x33.png)
 
-### Förklaring:
+#### Förklaring:
 
 * `setDate(now;1)` returnerar den första av den aktuella månaden
 * `formatDate(....;E)` returnerar veckodag (1, 2, ... 6)
 
-## Beräkna dagar mellan datum
+### Beräkna dagar mellan datum
 
 En möjlighet är att använda följande uttryck:
 
@@ -532,7 +544,7 @@ En möjlighet är att använda följande uttryck:
 >
 >* The `round()` -funktionen används för fall när ett av datumen ligger inom sommartidsperioden och det andra inte gör det. I dessa fall är skillnaden i timmar en timme mindre eller mer. Du kan dividera det med 24 för ett resultat som inte är ett heltal. Du förlorar en timmes sommartid. Rund förenklar den så att du inte får en procentandel
 
-### Så här beräknar du sista dagen/millisekunden i månaden
+#### Så här beräknar du sista dagen/millisekunden i månaden
 
 När du anger ett datumintervall, till exempel i en sökmodul, måste du beräkna den sista dagen i månaden om intervallet sträcker sig över hela föregående månad som ett slutet intervall (det intervall som innehåller båda gränspunkterna).
 

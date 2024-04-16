@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '14157'
+source-wordcount: '14149'
 ht-degree: 0%
 
 ---
@@ -2115,7 +2115,7 @@ ht-degree: 0%
       * [Plattformsbaserade administrationsskillnader (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
    * Anslutningar i Adobe Workfront Fusion {#connections-in-fusion}
       * [Anslutningar i Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
-      * [Om att ansluta Adobe Workfront Fusion till en app eller tjänst](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+      * [Anslutningar - översikt](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Skapa anslutningar i Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
       * [Anslutningsmetadata](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Skapa en anslutning till Adobe Workfront Fusion - grundläggande instruktioner](workfront-fusion/connections/connect-to-fusion-general.md)

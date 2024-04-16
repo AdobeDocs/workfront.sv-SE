@@ -8,9 +8,9 @@ description: Följande allmänna funktioner är tillgängliga på panelen för m
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -71,7 +71,7 @@ Returnerar värdesökvägen för ett objekt eller en array. Använd punktnotatio
 
 ## [!UICONTROL if (expression; value1; value2)]
 
-Returnerar `value1` om uttrycket utvärderas som sant, annars returneras `value2`.
+Returnerar `value1` om uttrycket utvärderas till true, annars returneras `value2`.
 
 >[!INFO]
 >
@@ -107,7 +107,7 @@ Returnerar `value1` om värdet inte är tomt, annars returneras `value2`.
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Utvärderar ett värde (kallas uttryck) mot en lista med värden. returnerar resultatet som motsvarar det första matchande värdet.
+Utvärderar ett värde (kallas uttryck) mot en lista med värden. Returnerar resultatet som motsvarar det första matchande värdet.
 
 >[!INFO]
 >
@@ -135,7 +135,7 @@ Utelämnar de angivna tangenterna för objektet och returnerar resten.
 >
 >`omit(` Användare `;` lösenord `)`
 >
->Returnerar en samling med användarens information, exklusive >lösenordet.
+>Returnerar en samling med användarens information, exklusive lösenordet.
 
 ## [!UICONTROL pick(object; key1; [key2; ...])]
 

@@ -7,9 +7,9 @@ description: Följande uppgifter förklarar hur du skapar en [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -51,19 +51,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Börja skapa ett scenario
 
-1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) i den vänstra panelen.
+1. Klicka **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) till vänster.
 
 1. Klicka **[!UICONTROL Create a new scenario]** i det övre högra hörnet på sidan.
 1. Om du skapar ett nytt scenario klickar du på (scenarioredigeraren) **[!UICONTROL New scenario]** i det övre vänstra hörnet och skriv ett namn för scenariot.
@@ -81,7 +81,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
    Tidigare valda program visas i rutan för enkel åtkomst och i **[!UICONTROL Favorites]** längst ned på skärmen.
 
-   Om du klickar **[!UICONTROL Add another module]** Vilka moduler som visas beror på var i scenariot du lägger till modulen. Vissa moduler kan bara placeras mellan andra moduler och andra bara i början av scenariot.
+   Klicka **[!UICONTROL Add another module]** Vilka moduler som visas beror på var i scenariot du lägger till modulen. Vissa moduler kan bara placeras mellan andra moduler och andra bara i början av scenariot.
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Workfront Fusion-moduler som ansluter till en app (t.ex. [!DNL Workfront], [!DNL
 
 När du väljer eller skapar en anslutning för ett program i ett scenario använder andra moduler för det programmet automatiskt samma anslutning, såvida du inte väljer en annan anslutning när du konfigurerar de senare modulerna.
 
-Mer information finns i [Om att ansluta [!DNL Adobe Workfront Fusion] till en app eller tjänst](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Mer information finns i [Anslutningar - översikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ![](assets/connection-field-350x169.png)
 
@@ -174,15 +174,15 @@ Skapa en anslutning inuti en [!DNL Workfront Fusion] modul:
      </tr> 
      <tr> 
       <td role="rowheader">Konfigurera scenarioinställningarna</td> 
-      <td>Klicka på [!UICONTROL Scenario settings] ikon. <img src="assets/gear-icon-settings.png"> De här inställningarna är främst avsedda för avancerade användare. Mer information finns i <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Panelen för scenarioinställningar i [!DNL Adobe Workfront Fusion]</a>.</td> 
+      <td>Klicka på [!UICONTROL Scenario settings] -ikon. <img src="assets/gear-icon-settings.png"> De här inställningarna är främst avsedda för avancerade användare. Mer information finns i <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Panelen för scenarioinställningar i [!DNL Adobe Workfront Fusion]</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Konfigurera inställningar för flödeskontroll</td> 
-      <td> <p>Klicka på [!UICONTROL Flow Control] ikon. <img src="assets/flow-control-icon.gif"> Du kan ställa in en uppgift så att den upprepas ett visst antal gånger, konvertera en array till en serie paket och sammanfoga flera paket till ett enda paket. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Flödeskontroll in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td> <p>Klicka på [!UICONTROL Flow Control] -ikon. <img src="assets/flow-control-icon.gif"> Du kan ställa in en uppgift så att den upprepas ett visst antal gånger, konvertera en array till en serie paket och sammanfoga flera paket till ett enda paket. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Flödeskontroll in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Förbättra scenariot med avancerade verktyg</td> 
-      <td>Klicka på [!DNL Tools] ikon. <img src="assets/tools-icon.gif"> Du kan skapa utlösare, åtgärder, aggregatorer och transformatorer. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">verktyg</a>.</td> 
+      <td>Klicka på [!DNL Tools] -ikon. <img src="assets/tools-icon.gif"> Du kan skapa utlösare, åtgärder, aggregatorer och transformatorer. Mer information finns i <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">verktyg</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verktyg för textanalys</td> 

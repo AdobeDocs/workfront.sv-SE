@@ -7,9 +7,9 @@ description: Du kan använda [!DNL Adobe Workfront Fusion] för att ansluta till
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d2b4a9940cb21de1b8b5f2955f53b3d88040e44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -20,38 +20,38 @@ ht-degree: 0%
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Äldre: Alla </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -59,14 +59,25 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 Du behöver en befintlig [!DNL Google] för att skapa anslutningen.
 
-## Skapa ett projekt på [!DNL Google Cloud Platform]
+## Anslut Fusion till Google-tjänster med en anpassad OAuth-klient
 
-Följande förfarande är avsett för:
+Om du vill skapa den här anslutningen måste du skapa och konfigurera ett projekt på Google Cloud-plattformen och sedan konfigurera anslutningen i Fusion baserat på det projektet.
 
-* Personlig användning ([!DNL @gmail.com] och [!DNL @googlemail.com] användare)
-* Intern användning ([!DNL G Suite] användare som föredrar att använda en anpassad OAuth-klient)
+* [Skapa ett projekt på [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform)
+* [Konfigurera [!UICONTROL OAuth consent] inställningar](#configure-oauth-consent-settings)
+* [Skapa OAuth-autentiseringsuppgifter](#create-oauth-credentials)
+* [Anslut till [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion)
 
-Skapa ett projekt på [!DNL Google Cloud] Plattform:
+>[!NOTE]
+>
+>Detta förfarande är avsett för
+>
+>* Personlig användning ([!DNL `@gmail.com`] och [!DNL `@googlemail.com`] användare)
+>* Intern användning ([!DNL G Suite] användare som föredrar att använda en anpassad OAuth-klient)
+
+### Skapa ett projekt på [!DNL Google Cloud Platform]
+
+Skapa ett projekt på [!DNL Google Cloud] Plattform
 
 1. Logga in på [[!DNL Google Cloud] Plattform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) med [!DNL Google] autentiseringsuppgifter.
 1. Klicka på i den vänstra panelen **[!UICONTROL Dashboard]**.
@@ -83,10 +94,10 @@ Skapa ett projekt på [!DNL Google Cloud] Plattform:
    >
    >Du måste aktivera [!DNL Google Drive] API och API för alla [!DNL Google] appar som du vill använda (till exempel [!DNL Google Sheets] API).
 
-1. På skärmen som visas klickar du på **[!UICONTROL Create credentials]** i det övre högra hörnet.
+1. Klicka på **[!UICONTROL Create credentials]** längst upp till höger.
 1. Fortsätt till avsnittet [Konfigurera inställningar för OAuth-medgivande](#configure-oauth-consent-settings) i den här artikeln.
 
-## Konfigurera [!UICONTROL OAuth consent] inställningar
+### Konfigurera [!UICONTROL OAuth consent] inställningar
 
 1. Klicka på i den vänstra panelen **[!UICONTROL OAuth consent screen]**.
 1. Välj **[!UICONTROL External]** och sedan klicka **[!UICONTROL Create]**.
@@ -149,7 +160,7 @@ Du kan behöva utöka listan eller gå till nästa sida i listan för att se all
 1. Klicka på **[!UICONTROL Save and continue]**.
 1. (Valfritt) Lägg till testanvändare i projektet.
 1. Klicka på **[!UICONTROL Save and continue]**.
-1. Granska informationen och klicka sedan **[!UICONTROL Back to dashboard]**.
+1. Granska informationen och klicka sedan på **[!UICONTROL Back to dashboard]**.
 
    >[!NOTE]
    >
@@ -157,7 +168,7 @@ Du kan behöva utöka listan eller gå till nästa sida i listan för att se all
 
 1. Fortsätt till [Skapa OAuth-autentiseringsuppgifter](#create-oauth-credentials).
 
-## Skapa OAuth-autentiseringsuppgifter
+### Skapa OAuth-autentiseringsuppgifter
 
 1. Klicka på i den vänstra panelen **[!UICONTROL Credentials]**.
 
@@ -194,17 +205,17 @@ Du kan behöva utöka listan eller gå till nästa sida i listan för att se all
 
    The [!UICONTROL Client ID] och [!UICONTROL Client Secret] visning.
 
-1. Kopiera [!UICONTROL Client ID] och [!UICONTROL Client Secret] till en säker plats. Du använder dem för att skapa en anslutning i [!DNL Workfront Fusion].
+1. Kopiera [!UICONTROL Client ID] och [!UICONTROL Client Secret] till en säker plats. Du kommer att använda dem för att skapa en anslutning i [!DNL Workfront Fusion].
 1. Fortsätt till [Anslut till [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion).
 
-## Anslut till [!DNL Google] in [!DNL Workfront Fusion]
+### Anslut till [!DNL Google] in [!DNL Workfront Fusion]
 
 Processen att skapa en anslutning till [!DNL Google] varierar beroende på om du använder en modul eller en [!DNL Google] tjänst (som [!DNL Google Sheets] eller [!DNL Google Docs]), eller om du ansluter till [!DNL Google] via [!UICONTROL HTTP] >[!UICONTROL Make an OAuth2.0] begärandemodul.
 
 * [Anslut till [!DNL Google] i en [!DNL Google] service](#connect-to-google-in-a-google-service)
 * [Anslut till [!DNL Google] i [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] modul](#connect-to-google-in-the-http--make-an-oauth20-request-module)
 
-### Anslut till [!DNL Google] i en [!DNL Google] service
+#### Anslut till [!DNL Google] i en [!DNL Google] service
 
 1. I [!DNL Workfront Fusion], leta upp [!DNL Google] som du behöver skapa en anslutning för.
 1. Klicka **[!UICONTROL Create a connection]** och sedan klicka **[!UICONTROL Show advanced settings]**.
@@ -222,10 +233,10 @@ Processen att skapa en anslutning till [!DNL Google] varierar beroende på om du
 
    Anslutningen till önskat [!DNL Google] en anpassad OAuth-klient har upprättats.
 
-### Anslut till [!DNL Google] i [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] modul {#connect-to-google-in-the-http--make-an-oauth20-request-module}
+#### Anslut till [!DNL Google] i [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] modul {#connect-to-google-in-the-http--make-an-oauth20-request-module}
 
-Anvisningar om hur du ansluter till [!DNL Google] i [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] modul, se [Instruktioner för att skapa en anslutning till [!DNL Google] i [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instruct) in [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
+Anvisningar om hur du ansluter till [!DNL Google] i [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] modul, se [Instruktioner för att skapa en anslutning till [!DNL Google] i [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module) in [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
 
-## Möjligt felmeddelande:[!UICONTROL [403] Access Not Configured]
+## Felmeddelande:[!UICONTROL [403] Access Not Configured]
 
-Om [!UICONTROL [403] Access Not Configured] felmeddelandet visas måste du aktivera motsvarande API i din Google Cloud-plattform. Följ stegen i avsnittet för att aktivera API:t [Skapa ett projekt på [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) i den här artikeln.
+Om [!UICONTROL `403 Access Not Configured`] felmeddelandet visas måste du aktivera motsvarande API i din Google Cloud-plattform. Följ stegen i avsnittet för att aktivera API:t [Skapa ett projekt på [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) i den här artikeln.

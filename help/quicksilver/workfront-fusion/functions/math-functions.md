@@ -8,51 +8,53 @@ description: Följande matematiska funktioner är tillgängliga i panelen för m
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c325e16ba0cde4cd48fc3e40358a9ea9ed310659
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 # Matematiska funktioner i [!DNL Adobe Workfront Fusion]
 
+<!--Audited: 4/2024-->
+
 ## Åtkomstkrav
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] eller högre</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>Alla</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td>  
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>  
+   <td> 
+   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p> 
+   <p>eller</p> 
+   <p>Äldre: Alla </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produkt</td>  
+   <td> 
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul> 
+   <p>eller</p> 
+   <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
-   <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -96,18 +98,6 @@ Returnerar det största heltalet mindre än eller lika med ett angivet tal.
 >
 >   Returnerar 4
 
-## [!UICONTROL formatNumber (number; decimalPOINTS; [decimalSeparator]; [thousandsSeparator])]
-
-Returnerar ett tal i begärt format. Som standard är decimalkommat ett komma (,) och tusentalsavgränsaren är en punkt (.).
-
->[!INFO]
->
->**Exempel:**
->
->`formatNumber( 123456789 ; 3 ; , ; . )`
->
->Returnerar 123,456,789,000
-
 ## [!UICONTROL max ([array of values]), max(value1;value2; ...)]
 
 Returnerar det största talet i en angiven array eller det största talet bland tal som anges individuellt.
@@ -115,10 +105,6 @@ Returnerar det största talet i en angiven array eller det största talet bland 
 ## [!UICONTROL min ([array of values]), min(value1; value2; ...)]
 
 Returnerar det minsta talet i en angiven array eller det minsta talet bland tal som anges individuellt.
-
-## [!UICONTROL parseNumber (number; decimal separator)]
-
-Tolkar en sträng med ett tal och returnerar talet. parseNumber(1 756,456;,)
 
 ## [!UICONTROL round (number)]
 
@@ -147,3 +133,19 @@ Avrundar ett numeriskt värde till närmaste heltal.
 ## [!UICONTROL sum ([array of values]), sum(value1; value2; ...)]
 
 Returnerar summan av värdena i en angiven array eller summan av talen som anges individuellt.
+
+## [!UICONTROL parseNumber (number; decimal separator)]
+
+Tolkar en sträng med ett tal och returnerar talet. parseNumber(1 756,456;,)
+
+## [!UICONTROL formatNumber (number; decimalPOINTS; [decimalSeparator]; [thousandsSeparator])]
+
+Returnerar ett tal i begärt format. Som standard är decimalkommat ett komma (,) och tusentalsavgränsaren är en punkt (.).
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>`formatNumber( 123456789 ; 3 ; , ; . )`
+>
+>Returnerar 123,456,789,000

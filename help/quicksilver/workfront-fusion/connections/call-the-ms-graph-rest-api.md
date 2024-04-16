@@ -2,56 +2,57 @@
 title: Anropa MS Graph REST API via [!DNL Adobe Workfront Fusion] HTTP &gt; Gör en OAuth 2.0-begärandemodul
 description: Anropa MS Graph REST API via [!DNL Adobe Workfront Fusion] HTTP &gt; Gör en OAuth 2.0-begärandemodul
 author: Becky
-draft: Probably
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
 
 # Ring[!UICONTROL  MS Graph REST API] via [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul
 
-Många [!DNL Microsoft] webbtjänster nås via [!DNL Microsoft Graph API]. I den här artikeln beskrivs hur du skapar en anslutning till det API:t med hjälp av [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL Make an OAuth 2.0 request] -modul.
+<!-- Audited: 3/2024-->
+
+Många [!DNL Microsoft] webbtjänster nås via [!DNL Microsoft Graph API]. Du kan skapa en anslutning till [!DNL Microsoft Graph API], genom att använda [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL Make an OAuth 2.0 request] -modul.
 
 ## Åtkomstkrav
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Äldre: Alla </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -107,7 +108,7 @@ Skapa en anslutning till [!DNL Microsoft Graph REST API]måste du först registr
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
         <li> <p>Andra behörigheter som krävs för integreringen (Exempel: <code>User.Read</code>)</p> </li> 
-       </ul> <p>Viktigt: Du behöver de valda behörigheterna för att konfigurera anslutningen i [!DNL Workfront Fusion].</p> </td> 
+       </ul> <p><b>Viktigt</b>: Du måste ha de valda behörigheterna för att kunna konfigurera anslutningen i [!DNL Workfront Fusion].</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -116,9 +117,9 @@ Skapa en anslutning till [!DNL Microsoft Graph REST API]måste du först registr
 
 ## Konfigurera [!DNL MS Graph API] anslutning till [!DNL Workfront Fusion]
 
-Efter registreringen [!DNL Workfront Fusion] som beskrivs i [Registrera [!DNL Workfront Fusion] i [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)kan du konfigurera anslutningen i [!UICONTROL HTTP] >[!UICONTROL Make an Oauth 2.0] begärandemodul.
+Efter registreringen [!DNL Workfront Fusion] som beskrivs i [Registrera [!DNL Workfront Fusion] i [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)kan du konfigurera anslutningen i [!UICONTROL HTTP] > [!UICONTROL Make an Oauth 2.0] begärandemodul.
 
-1. Lägg till en [!UICONTROL HTTP] >[!UICONTROL Make an OAuth 2.0 call] till ditt scenario.
+1. Lägg till en [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 call] till ditt scenario.
 1. Klicka **[!UICONTROL Add]** bredvid [!UICONTROL connection] fält.
 1. Konfigurera anslutningsfälten enligt följande:
 
@@ -156,7 +157,7 @@ Efter registreringen [!DNL Workfront Fusion] som beskrivs i [Registrera [!DNL Wo
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client Secret]</td> 
-      <td>Ange [!UICONTROL Application Secret] som du skapade i steg 2 i <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Registrera [!DNL Workfront Fusion] i [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td>Ange [!UICONTROL Application Secret] som du skapade i steg 3 i <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Registrera [!DNL Workfront Fusion] i [!DNL Microsoft Application Registration Portal]</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authorize parameters]</td> 

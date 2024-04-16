@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion har två olika licenser som avgör vilken fu
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
+source-git-commit: 1b90566477eb57b97f3484ed7f0eeed5c88c495f
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 Den nya [!DNL Workfront Fusion] licensmodellen baseras på antalet åtgärder som din organisation använder. I den här modellen har alla organisationer tillgång till samma funktioner.
 
+Om din organisation har en Workfront Ultimate-plan ingår din Fusion-instans i din plan och du får ett obegränsat antal Fusion-åtgärder per månad. Om din organisation har en Workfront Prime- eller Select-plan kan Fusion köpas och priset baseras på antalet åtgärder som utförs under en månad.
+
 Information om vad som räknas som en åtgärd under den nya licensieringsmodellen finns i [Åtgärder i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
 
 ## Kopplingsbaserad licensieringsmodell (äldre)
@@ -34,21 +36,23 @@ I [!DNL Adobe Workfront Fusion] äldre licensmodell, [!DNL Fusion] erbjuder två
 
 Ta reda på vilken typ av [!DNL Workfront Fusion] licens som din organisation har, kontakta din [!DNL Workfront Fusion] administratör.
 
-## [!DNL Workfront Fusion for Work Automation]
+### [!DNL Workfront Fusion for Work Automation]
 
 * [Fördelar med [!DNL Workfront Fusion for Work Automation]](#benefits-of-workfront-fusion-for-work-automation)
 * [Kopplingar och moduler finns för [!DNL Workfront Fusion for Work Automation]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation)
 * [Exempel på [!DNL Workfront Fusion for Work Automation]](#example-of-workfront-fusion-for-work-automation)
 
-### Fördelar med [!DNL Workfront Fusion for Work Automation]
+#### Fördelar med [!DNL Workfront Fusion for Work Automation]
 
-A [!DNL Workfront Fusion for Work Automation] licenser kan du automatisera [!DNL Workfront] arbetsflöden. Genom att [!DNL Workfront Fusion for Work Automation]kan ni skapa scenarier för att automatisera organisationens unika arbetsprocesser. Många fördelar med att automatisera [!DNL Workfront] -processer.
+A [!DNL Workfront Fusion for Work Automation] licenser kan du automatisera [!DNL Workfront] arbetsflöden. Genom att [!DNL Workfront Fusion for Work Automation]kan ni skapa scenarier för att automatisera organisationens unika arbetsprocesser.
+
+Fördelar med att automatisera [!DNL Workfront] processerna omfattar följande:
 
 * Automatisering går snabbare och mindre felbenägen
 * Arbetsflöden som inte kräver några beslut eller som har beslut som baseras på enkel logik, som if/then, är bra kandidater för automatisering
 * Automatisering kan tillgodose specifika behov i arbetsflöden som används av organisationen och som inte behandlas direkt i [!DNL Workfront] produkt
 
-### Kopplingar och moduler finns för [!DNL Workfront Fusion for Work Automation]
+#### Kopplingar och moduler finns för [!DNL Workfront Fusion for Work Automation]
 
 Med [!DNL Workfront Fusion for Work Automation] har du tillgång till följande:
 
@@ -67,7 +71,7 @@ Med [!DNL Workfront Fusion for Work Automation] har du tillgång till följande:
    * MIME
    * XML
 
-### Exempel på [!DNL Workfront Fusion for Work Automation]
+#### Exempel på [!DNL Workfront Fusion for Work Automation]
 
 **Exempel:** I följande exempel visas ett arbetsflöde som:
 
@@ -77,23 +81,23 @@ Med [!DNL Workfront Fusion for Work Automation] har du tillgång till följande:
 
 ![](assets/fusion-template-example-350x102.png)
 
-## [!DNL Workfront Fusion for Work Automation and Integration]
+### [!DNL Workfront Fusion for Work Automation and Integration]
 
 * [Fördelar med [!DNL Workfront Fusion for Work Automation and Integration]](#benefits-of-workfront-fusion-for-work-automation-and-integration)
 * [Kopplingar och moduler finns för [!DNL Workfront Fusion for Work Automation and Integration]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation-and-integration)
 * [Exempel på [!DNL Workfront Fusion for Work Automation and Integration]](#example-of-workfront-fusion-for-work-automation-and-integration)
 
-### Fördelar med [!DNL Workfront Fusion for Work Automation and Integration] {#benefits-of-workfront-fusion-for-work-automation-and-integration}
+#### Fördelar med [!DNL Workfront Fusion for Work Automation and Integration] {#benefits-of-workfront-fusion-for-work-automation-and-integration}
 
 A [!DNL Workfront Fusion for Work Automation and Integration] ger tillgång till alla funktioner i [!DNL Workfront Fusion for Work Automation] licens. Dessutom kan du med den här licensen använda andra program och tjänster i dina scenarier. Du kan till exempel använda [!DNL Workfront Fusion] för att automatisera en process som importerar [!DNL Jira] jobb och sedan förvandlar dem till uppgifter i [!DNL Workfront]. Du kan också använda [!UICONTROL HTTP] eller [!UICONTROL SFTP] för att ansluta till nästan alla webbtjänster, även om [!DNL Workfront Fusion] har ingen dedikerad anslutning för den.
 
-[!DNL Workfront Fusion for Work Automation and Integration] ger er organisation många fördelar.
+Fördelar med [!DNL Workfront Fusion for Work Automation and Integration] licensen innehåller följande:
 
 * [!DNL Workfront Fusion for Work Automation and Integration] innehåller alla fördelar som är förknippade med [!DNL Workfront Fusion for Work Automation]
 * Integreringen minskar behovet av att hoppa in i och ut ur olika program när du slutför ett arbetsflöde.
 * Automatisering av dataöverföring mellan program är snabbare och mindre felbenägen än manuell överföring av data
 
-### Kopplingar och moduler finns för [!DNL Workfront Fusion for Work Automation and Integration]
+#### Kopplingar och moduler finns för [!DNL Workfront Fusion for Work Automation and Integration]
 
 En lista över tillgängliga dedikerade anslutningar finns på [Program och deras moduler](../../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
 
@@ -101,7 +105,7 @@ En lista över tillgängliga dedikerade anslutningar finns på [Program och dera
 >
 >[!DNL Workfront Fusion] kan ansluta till nästan alla webbtjänster. Om appen du vill arbeta med inte har någon dedikerad anslutning kan du använda [!UICONTROL HTTP], [!UICONTROL SFTP], eller [!UICONTROL JSON] anslutningar för att ansluta direkt till webbtjänsten.
 
-### Exempel på [!DNL Workfront Fusion for Work Automation and Integration]
+#### Exempel på [!DNL Workfront Fusion for Work Automation and Integration]
 
 **Exempel:** I följande exempel visas ett arbetsflöde som:
 

@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs hur du skapar ett automatiseringsscena
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1736'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ I det här exemplet använder vi inte någon utlösarmodul. I stället börjar d
    1. Logga in [!DNL Workfront].
    1. Undersök åtkomsten som [!DNL Workfront Fusion] begär och klickar sedan på **[!UICONTROL Allow Access]**.
 
-   Om du behöver hjälp, se [Om att ansluta [!DNL Adobe Workfront Fusion] till en app eller tjänst](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Om du behöver hjälp, se [Anslutningar - översikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Konfigurera den första modulen
 
