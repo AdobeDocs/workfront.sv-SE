@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '5486'
+source-wordcount: '5562'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,35 @@ Funktionerna släpps varje vecka och visas i den ordning de släpps, med den sen
 >[!IMPORTANT]
 >
 >Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## 8 april 2024
+
+### Kopiera innehållet i en cell och klistra in det i flera markerade celler
+
+Produktion: 10 april 2024
+
+Förhandsgranska: Ska bestämmas
+
+Nu kan du kopiera innehållet i en cell i tabellvyn och klistra in det i flera markerade celler. Du kan också kopiera information från externa källor och klistra in den i tabellvycellerna.
+
+Den här funktionen stöds för alla fälttyper utom för beräknade fält.
+
+Mer information finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Vecka 1 april 2024
 

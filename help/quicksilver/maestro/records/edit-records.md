@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,6 @@ Arbetsytan som du senast öppnade öppnas.
    >* Använd följande kortkommandon för att kopiera och klistra in information:
    >   * Copy: CTRL + C ( ⌘ + C för Mac)
    >   * Klistra in: CTRL + V ( ⌘ + V för Mac)
-   >* Du kan inte kopiera information från en annan källa, förutom ett postfält av samma typ som det fält som du klistrar in informationen i.
    >
    >* Du kan inte kopiera och klistra in fältvärden på postsidan. Den här funktionen stöds bara i tabellvyn för en posttyp.
    >* Du kan inte kopiera och klistra in fältvärden för följande fälttyper:

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -93,6 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Vyer i Workfront Planning är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
 * Vyer som du skapar visas bara för dig och de användare som du delar vyerna med.
 * När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har behörighet till vyn.
+<!--* Each user can create a maximum of 100 views. -->
 * Följande element är unika för varje postvy:
 
    * Filter
