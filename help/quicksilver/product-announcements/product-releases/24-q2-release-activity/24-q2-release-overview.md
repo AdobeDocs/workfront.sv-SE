@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -458,7 +458,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nya kommentarfunktioner i iterationer</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>För att ge en enhetlig upplevelse i hela programmet har vi lagt till den nya kommentarsfunktionen i iterationer. Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).</p>
+                        <p>För att ge en enhetlig upplevelse i hela programmet har vi lagt till den nya kommentarsfunktionen i iterationer. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
