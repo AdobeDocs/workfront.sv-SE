@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
  <col> 
  <thead> 
   <tr> 
-   <th>Yta</th> 
+   <th>Område</th> 
    <th> Vänster panelobjekt </th> 
    <th> <p>Systemadministratör</p> </th> 
    <th> <p>Planering</p> </th> 
