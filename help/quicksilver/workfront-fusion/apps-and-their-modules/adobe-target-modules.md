@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
 workflow-type: tm+mt
-source-wordcount: '2219'
+source-wordcount: '1786'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,16 @@ Skapa en anslutning för [!DNL Adobe Target] moduler:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Ange om du ansluter till en produktionsmiljö eller icke-produktionsmiljö.
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Ange om du ansluter till ett tjänstkonto eller ett personligt konto.
+        </td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
         <td>Ange [!DNL Adobe] Klient-ID. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
@@ -105,12 +115,12 @@ Skapa en anslutning för [!DNL Adobe Target] moduler:
         <td>Ange [!DNL Adobe] Klienthemlighet. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Ange [!DNL Adobe] Organisations-ID. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
-      </tr>
-      <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
         <td>Ange [!DNL Adobe] ID för tekniskt konto. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>Ange [!DNL Adobe] Organisations-ID. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Tenant]</td>
@@ -191,25 +201,46 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
     <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Record type]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[!UICONTROL Record type]</td>
+    <td>
       <p>Välj den typ av post som du vill skapa.</p>
       <ul>
         <li>
-          <p>[!UICONTROL AB Activity]</p>
-          <p>Fortsätt till <a href="#ab-activity-fields" class="MCXref xref" >AB-aktivitetsfält</a>.</p>
+        <b>Egenskap</b><p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">Skapa en egenskap</a> i Adobe Target API-dokumentationen.</p>
         </li>
         <li>
-          <p>[!UICONTROL XT Activity]</p>
-          <p>Fortsätt till <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a>.</p>
+        <b>Erbjudanderekommendation</b><p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">Skapa ett nytt rabatterbjudande</a> i Adobe Target API-dokumentationen.</p>
         </li>
         <li>
-          <p>[!UICONTROL Offer]</p>
+          <b>[!UICONTROL Offer JSON]</b>
           <p>Fortsätt till <a href="#offer-fields" class="MCXref xref" >Erbjudandefält</a>.</p>
         </li>
         <li>
-          <p>[!UICONTROL Audience]</p>
-          <p>Fortsätt till <a href="#audience-fields" class="MCXref xref" >Målgruppsfält</a>.</p>
+          <b>[!UICONTROL Offer Content]</b>
+          <p>Fortsätt till <a href="#offer-fields" class="MCXref xref" >Erbjudandefält</a>.</p>
+        </li>
+        <li>
+        <b>Miljö</b><p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment">Skapa miljö</a> i Adobe Target API-dokumentationen.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL Audience]</b>
+          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">Skapa målgrupper</a> i Adobe Target API-dokumentationen.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL AB Activity]</b>
+          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">Skapa AB-aktivitet</a> i Adobe Target API-dokumentationen.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL XT Activity]</b>
+          <p>Fortsätt till <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a>.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL AP Activity]</b>
+          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">Skapa AP-aktivitet</a> i Adobe Target API-dokumentationen.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL Response Token]</b>
+          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">Skapa svarstoken</a> i Adobe Target API-dokumentationen.</p>
         </li>
       </ul>
     </td>
@@ -217,7 +248,9 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
 </tbody>
 </table>
 
-##### AB-aktivitetsfält
+<!--
+
+##### AB Activity fields
 
 <table style="table-layout:auto"> 
   <col/>
@@ -225,51 +258,78 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Ange eller mappa ett namn för aktiviteten. Namnet får innehålla högst 250 tecken.</td>
+      <td>Enter or map a name for this activity. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Options]</td>
       <td>
-        <p>För varje alternativ som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och fylla i följande fält:</p>
+        <p>For each option that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p><b>[!UICONTROL Option local ID]</b>
             </p>
-            <p>Ange eller mappa en sträng som ska användas för att spåra alternativet mellan API-begäranden.</p>
+            <p>Enter or map a string to be used to track the option across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Ange eller mappa ett namn för alternativet. Namnet får innehålla högst 250 tecken.</p>
+            <p>Enter or map a name for the option. The name must be no more than 250 characters.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Offer ID]</b>
             </p>
           </li>
           <li>
-            <p>Markera eller mappa erbjudandet som är kopplat till alternativet.</p>
+            <p>Select or map the Offer associated with the option.</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Locations]</td>
+      <td role="rowheader">[!UICONTROL Mboxes]</td>
       <td>
-        <p>För varje Mbox som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och fylla i följande fält:</p>
+        <p>For each Mbox that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p>[!UICONTROL Audience IDs]</p>
-            <p>För varje publik som du vill lägga till i Mbox klickar du på <b>[!UICONTROL Add item]</b> och välj Audience ID.</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Location local ID]</b>
             </p>
-            <p>Ange eller mappa en sträng som ska användas för att spåra platsen mellan API-begäranden.</p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Ange eller mappa ett namn för platsen. Namnet får innehålla högst 250 tecken.</p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Selectors]</td>
+      <td>
+        <p>For each selector that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Audience IDs]</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Location local ID]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Selector]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Name]</b>
+            </p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
           </li>
         </ul>
       </td>
@@ -277,56 +337,54 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
     <tr>
       <td role="rowheader">[!UICONTROL Experiences]</td>
       <td>
-        <p>En lista över platser på sidan där innehållserbjudandet levereras. En plats innehåller följande:
+        <p>A list of locations on the page where the content offer is served. A location contains the following:
 </p>
         <ul>
           <li>
             <p><b>[!UICONTROL Experience local ID]</b>
             </p>
-            <p>Ange eller mappa upplevelsens ID</p>
+            <p>Enter or map the ID of the experience</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Ange eller mappa namnet på upplevelsen
-
+            <p>Enter or map the name of the experience
 </p>
           </li>
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>För varje publik som du vill se upplevelsen klickar du <b>[!UICONTROL Add item]</b> och ange publikens ID.
-
+            <p>For each audience that you want to see the experience, click <b>[!UICONTROL Add item]</b> and enter the Audience ID.
 </p>
           </li>
           <li>
             <p><b>[!UICONTROL Visitor Percentage]</b>
             </p>
-            <p>Ange eller mappa den procentandel besökare som tilldelats upplevelsen</p>
+            <p>Enter or map the percentage of visitors that is allocated to the experience</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Metrics]</td>
-      <td> </td>
+      <td><p>For details on metrics, see <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">Create AB activity</a> in the Adobe Target API documentation.</p> </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Third Party ID]</td>
-      <td>Ange eller mappa ett ID för att identifiera aktiviteten. Du kan välja detta ID. Detta ID får inte vara samma som en annan aktivitet och får inte vara längre än 250 tecken.</td>
+      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID must not be the same as another activity, and can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Starts at]</td>
-      <td>Ange eller mappa datum och tid för att starta aktiviteten i formatet <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Enter or map the date and time to start the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ends at]</td>
-      <td>Ange eller mappa datum och tid för att avsluta aktiviteten i formatet <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Enter or map the date and time to end the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL State]</td>
       <td>
-        <p>Ange eller mappa aktivitetens tillstånd.</p>
+        <p>Enter or map the state of the activity.</p>
         <ul>
           <li>
             <p>[!UICONTROL Approved]</p>
@@ -348,48 +406,50 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Priority]</td>
-      <td>Ange ett tal som definierar aktivitetens prioritet. Högre tal har högre prioritet. Värdet måste vara mellan 0 och 999. Standardvärdet är 5.</td>
+      <td>Enter a number that defines the priority of the activity. Higher numbers have higher priority. This value must be between 0 and 999. The default value is 5.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Auto-allocate traffic]</td>
       <td>
-        <p>Aktivera det här alternativet om du vill allokera trafik automatiskt. Automatisk allokering skickar mer trafik till en mer framgångsrik upplevelse.</p>
-        <p>Välj eller mappa utvärderingskriterierna för att bedöma vilken upplevelse som blir mest framgångsrik.</p>
+        <p>Enable this option to auto-allocate traffic. Auto-allocating sends more traffic to the more successful experience.</p>
+        <p>Select or map the evaluation criteria by which to judge which experience is more successful.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
-      <td>Ange eller mappa arbetsytan som aktiviteten är kopplad till</td>
+      <td>Enter or map the workspace that the activity is associated with</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Property IDs] </td>
-      <td>För varje egenskap som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och markera eller mappa egenskapens ID.</td>
+      <td>For each property that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and select or map the property's ID.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Reporting audiences]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>För varje rapportpublik som du vill lägga till i aktiviteten klickar du på [!UICONTROL Add item] och ange följande information:</p>
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
+      <td>
+        <p>For each reporting audience that you want to add to the activity, click [!UICONTROL Add item] and enter the following information:</p>
         <ul>
           <li>
             <p><b>[!UICONTROL Reporting Audience local ID]</b>
             </p>
-            <p>Ange eller mappa en sträng som ska användas för att spåra rapportens målgrupp över API-begäranden.</p>
+            <p>Enter or map a string to be used to track the Reporting Audience across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Audience ID]</b>
             </p>
-            <p>Ange eller mappa segmentet som ska användas vid rapportering</p>
+            <p>Enter or map the Segment to be used in reporting</p>
           </li>
           <li>
             <p><b>[!UICONTROL Metric local ID]</b>
             </p>
-            <p>Ange eller mappa en sträng som ska användas för att spåra mätvärden över API-begäranden.</p>
+            <p>Enter or map a string to be used to track the metric across API requests.</p>
           </li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 ##### XT Activity fields
 
@@ -540,8 +600,8 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
       <td>För varje egenskap som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och markera eller mappa egenskapens ID.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Reporting audiences]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
+      <td>
         <p>För varje rapportpublik som du vill lägga till i aktiviteten klickar du på [!UICONTROL Add item] och ange följande information:</p>
         <ul>
           <li>
@@ -587,10 +647,22 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
         <p>Ange eller mappa ID:t för den arbetsyta som är associerad med erbjudandet. Om inget anges kopplas erbjudandet till kontots standardarbetsyta. Den här funktionen gäller endast för [!DNL Target] Premiumkonton.</p>
       </td>
     </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>Ange eller mappa det datum och den tidpunkt då erbjudandet ändrades.</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
-##### Målgruppsfält
+<!--
+
+##### Audience fields
+
+>[!NOTE]
+>
+>Audiences created through Workfront Fusion can only be edit in Fusion or through the API. They cannot be edited from within Target.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -598,21 +670,27 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Ange eller mappa ett namn för den här målgruppen. Namnet får innehålla högst 250 tecken.</td>
+      <td>Enter or map a name for this audience. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Content]</td>
+      <td role="rowheader">[!UICONTROL Description]</td>
       <td>
-        <p>Ange eller mappa en beskrivning av målgruppen.</p>
+        <p>Enter or map a description of this audience.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Origin]</td>
+      <td>
+        <p>Select whether this audience's origin is from Target or from the cloud.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Target Rule]</td>
       <td>
-        <p>Aktivera växlingsknappen för att skapa regler OCH, det vill säga, alla regler måste tillämpas.</p>
-        <p>För varje regel som du vill tillämpa på publiken klickar du på <b>[!UICONTROL Add item]</b> och ange JSON för regeln som du vill använda. </p>
-        <div class="example"><span class="autonumber"><span><b>Exempel: </b></span></span>
-          <p>Exempel:</p>
+        <p>Enable the toggle to make rules AND, that is, all rules must be applied.</p>
+        <p>For each rule that you want to apply to the audience, click <b>[!UICONTROL Add item]</b> and enter the JSON of the rule you want to apply. </p>
+        <div class="example"><span class="autonumber"><span><b>Example: </b></span></span>
+          <p>Example 1:</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -624,6 +702,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
                     </p>
                     <p ><code>            &rbrace;,</code>
                     </p>
+                    <p>Example 2</p>
                     <p ><code>            &lbrace;</code>
                     </p>
                     <p><code>                "geo": "region",</code>
@@ -639,13 +718,15 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
       </td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Workspace]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>Ange eller mappa ID:t för arbetsytan som är associerad med målgruppen. Om inget anges kopplas erbjudandet till kontots standardarbetsyta. Den här funktionen gäller endast för [!DNL Target Premium] konton.</p>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>Enter or map the ID of the workspace associated with the audience. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to [!DNL Target Premium] accounts.</p>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 #### [!UICONTROL Make a custom API call]
 
@@ -748,7 +829,7 @@ Den här åtgärdsmodulen hämtar data för en aktivitet, ett erbjudande, en må
 
 #### [!UICONTROL Update a record]
 
-Den här åtgärdsmodulen uppdaterar en aktivitet, ett erbjudande eller en publik.
+Den här åtgärdsmodulen uppdaterar en post i Target.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -762,38 +843,13 @@ Den här åtgärdsmodulen uppdaterar en aktivitet, ett erbjudande eller en publi
       <td role="rowheader">[!UICONTROL Record type]</td>
       <td>
         <p>Välj den typ av post som du vill uppdatera.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL AB Activity]</b>
-            </p>
-            <p>Se fältbeskrivningar i <a href="#ab-activity-fields" class="MCXref xref" >AB-aktivitetsfält</a> under <a href="#create-a-record" class="MCXref xref" >Skapa en post</a>.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL XT Activity]</b>
-            </p>
-            <p>Se fältbeskrivningar i <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a> under <a href="#create-a-record" class="MCXref xref" >Skapa en post</a>.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Other Activity]</b>
-            </p>
-            <p>Markera fältet som du vill uppdatera ett värde för och ange sedan det nya värdet för fältet.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Offer]</b>
-            </p>
-            <p>Se fältbeskrivningar i <a href="#offer-fields" class="MCXref xref" >Erbjudandefält</a> under <a href="#create-a-record" class="MCXref xref" >Skapa en post</a>.</p>
-          </li>
-          <li>
-            <p><b>[!DNL Audience]</b>
-            </p>
-            <p>Se fältbeskrivningar i <a href="#audience-fields" class="MCXref xref" >Målgruppsfält</a> under <a href="#create-a-record" class="MCXref xref" >Skapa en post</a>.</p>
-          </li>
-        </ul>
-      </td>
+       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Record ID]</td>
-      <td>Ange eller mappa ID:t för den post som du vill uppdatera.</td>
+      <td role="rowheader">[!UICONTROL Field names]</td>
+      <td>Markera de fält som du vill uppdatera. Fälten visas nedan.
+          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API-dokumentation</a>.</p>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -874,8 +930,8 @@ Den här sökmodulen söker efter aktiviteter, erbjudanden eller målgrupper bas
     </td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Maximum number of returned results]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[!UICONTROL Limit]</td>
+    <td>
       <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario. Använd det här fältet tillsammans med [!UICONTROL Offset] för att numrera svaren.</p>
       <p>Om du till exempel vill se den tredje sidan med svar, när varje sida har tio svar, anger du [!UICONTROL Offset] till 20 och [!UICONTROL Maximum number of returned] resultatet blir 10.</p>
     </td>
