@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
+source-git-commit: 90817ecaee73ea357790a690ff6cdb792f36a533
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,68 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
 ## Adobe Workfront-förbättringar
 
 * [Andra förbättringar](#other-enhancements)
+* [Projektförbättringar](#project-enhancements)
+
+### Projektförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Uppdrag i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 13 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
+                                <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
+                                <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### Andra förbättringar
 
@@ -72,6 +134,8 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
         </table>   
            </tbody>
         </table>
+
+
 
 ## Meddelanden
 

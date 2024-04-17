@@ -1,10 +1,9 @@
 ---
-title: Andra kvartalet 2024 - projektförbättringar
-description: Andra kvartalet 2024 - projektförbättringar
+title: Förbättringar av projektet för tredje kvartalet 2024
+description: Förbättringar av projektet för tredje kvartalet 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
 workflow-type: tm+mt
 source-wordcount: '359'
@@ -12,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Andra kvartalet 2024 - projektförbättringar
+# Förbättringar av projektet för tredje kvartalet 2024
 
-Den här sidan beskriver alla projektförbättringar som gjorts i andra utgåvan av kvartalet 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
+Den här sidan beskriver alla projektförbättringar som gjorts i tredje kvartersversionen 2024 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift
