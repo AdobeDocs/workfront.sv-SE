@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,11 @@ Depending on what objects you access the commenting experience for, you might fi
    * **Kommentar**: Visar kommentarer från användare och svar på dessa kommentarer. Använd fliken Kommentarer för att lägga till nya kommentarer eller svara på befintliga kommentarer. Mer information om hur du uppdaterar objekt finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Till exempel hämtas ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Alla svar som har gjorts på systemaktivitetsposter i den tidigare kommentarfunktionen fylls i på fliken Systemaktivitet som skrivskyddade. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * **Alla (skrivskyddad)**: Visar både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning. Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en viss kommentar använder du länken från fliken Alla till fliken Kommentarer. Mer information om hur du uppdaterar objekt finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+
+     >[!NOTE]
+     >
+     >Flikarna för kommentarer och systemaktivitet uppdateras i realtid. Du måste uppdatera fliken Alla om du vill visa de senaste uppdateringarna.
+
 
 * Följande objekt har liknande upplevelser på alla tre flikarna i uppdateringsavsnittet:
 

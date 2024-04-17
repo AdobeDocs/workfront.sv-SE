@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '3308'
+source-wordcount: '3277'
 ht-degree: 0%
 
 ---
@@ -377,9 +377,8 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/maestro/
 
    >[!NOTE]
    >
-   > * Du kan inte lägga till flervalsfält i en formel.
-   >
-   > * Du kan inte lägga till fält från länkade poster i en formel. Den här funktionen kommer att släppas vid ett senare datum. Mer information om nya versioner finns i [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/maestro/release-activity.md).
+   > Du kan inte lägga till flervalsfält i en formel.
+
 
 
 1. Klicka **Skapa**.

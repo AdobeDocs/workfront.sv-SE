@@ -6,7 +6,7 @@ description: Du kan skapa komplexa textlägesfilter med EXISTS-satser. Den här 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -229,7 +229,9 @@ Så här filtrerar du utleveranser efter Portfolio ägarnamn:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. Klistra in följande kod i **Ange filterregler för rapporten** det område som ska ersätta den generiska koden ovan:
 
