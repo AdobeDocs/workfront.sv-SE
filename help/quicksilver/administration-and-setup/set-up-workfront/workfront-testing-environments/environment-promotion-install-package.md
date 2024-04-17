@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -29,20 +29,27 @@ ht-degree: 0%
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
 1. Välj **System** i den vänstra navigeringen väljer du **Miljömarknadsföring**.
 1. Välj paketet i listan som visas.
-1. Klicka på **Installera** längst upp till höger på skärmen.
-1. Mappa varje objekt i paketet till motsvarande objekt i målmiljön.
+1. För varje objekt som har en kollision väljer du hur kollisionen ska lösas.
 
-   Mer information finns i [Mappning](#mapping) i den här artikeln
+   Lös en kollision genom att klicka på listrutepilen bredvid objekttypen och välja den åtgärd som du vill utföra.
 
+   Mer information finns i [Konflikter](#collisions) i den här artikeln
+1. Om du vill distribuera paketet till den nya miljön klickar du **Distribuera** längst upp till höger på skärmen.
 
-## Mappning
+## Konflikter
 
-Varje objekttyp visas i den vänstra navigeringen och på ett kort. På kortet visas objekt av den typen och om objekten finns i målmiljön. Du kan bestämma hur dessa objekt ska flyttas till målmiljön.
+Konflikter inträffar när ett objekt som är en del av installationspaketet redan finns i målmiljön. När detta inträffar kan du välja hur kollisionen ska lösas. Konflikter löses på objektnivå.
 
-* Skapa nytt: Skapa ett nytt objekt i målmiljön. Om objektet finns i målmiljön kan du skapa ett nytt objekt med ett nytt namn. Om den inte finns i målmiljön kan du skapa objektet med ett nytt namn eller med namnet som objektet har i paketet.
-* Använd befintlig: Objektet i paketet installeras inte och objektet som redan fanns i målmiljön ändras inte.
-* Skriv över befintligt: (Inte tillgängligt för närvarande) Objektet i paketet ersätter det befintliga objektet i målmiljön.
-* Använd inte: Objektet i paketet är inte installerat i målmiljön. Om du väljer Använd inte visas ett felmeddelande som anger hur det här alternativet påverkar andra objekt eller fält.
+Du kan visa kollisioner genom att klicka på listrutan bredvid varje objekttyp. Konflikter visas i kolumnen Konflikter.
+
+Om du vill lösa en konflikt väljer du en åtgärd i kolumnen Distributionsåtgärd eller använder den standardåtgärd som redan visas.
+
+* **Skapa med nytt namn**: Skapa ett nytt objekt i målmiljön. Om objektet finns i målmiljön kan du skapa ett nytt objekt med ett nytt namn. Om den inte finns i målmiljön kan du skapa objektet med ett nytt namn eller med namnet som objektet har i paketet.
+* **Använd befintlig**: Objektet i paketet installeras inte och objektet som redan fanns i målmiljön ändras inte.
+* **Skriv över**: Objektet i paketet ersätter det befintliga objektet i målmiljön.
+<!--
+* Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
+-->
 
 Standardvärden är `Create new` om objektet inte finns i målmiljön, och `Use existing` om objektet finns i målmiljön. Du kan återgå till standardmappningen genom att klicka på **Återställ till standardmappning**.
 

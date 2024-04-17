@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c87f33a29f07cc1b5aa2873b1e4fdade82dc41b
+source-git-commit: 1141131f57982bc9fec371dba78eb57136e33145
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -99,15 +99,18 @@ Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flyt
 
 \* Inte tillgängligt för tillfället
 
+<!--
+
 >[!NOTE]
 >
->Åtgärder (ignorera, markera befintliga och skapa nya) är tillgängliga för följande objekt:
+>Actions (ignore, select existing, and create new) are available on the following objects:
 >
->* Roll
+>* Role
 >* Team
->* Företag
->* Grupp
+>* Company
+>* Group
 
+-->
 
 ## Status för miljöbefordran
 
