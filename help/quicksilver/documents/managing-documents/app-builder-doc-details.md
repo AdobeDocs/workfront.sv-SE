@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dcc9eb57eedd0517d484ece1445917f7c275a0b4
+source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -348,7 +348,9 @@ När de publicerade programtilläggen har godkänts bör de automatiskt läsas i
 
 ## Ytterligare hjälp
 
-Adobe har bra dokumentation om hur du kommer igång med att skapa appar för AppBuilder och få dem att användas. Här är några praktiska länkar:
+Adobe har bra dokumentation om hur du kommer igång med att skapa appar för AppBuilder och få dem att användas.
+
+Här är några praktiska länkar:
 
 * [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
 
