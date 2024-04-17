@@ -5,13 +5,13 @@ keywords: hantera,gruppera,redigera,
 navigation-topic: create-and-manage-groups
 title: Hantera en grupp
 description: Som gruppadministratör kan du hantera en grupp som du administrerar från området Grupper i Inställningar. Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -69,31 +69,15 @@ Instruktioner finns i [Visa och hantera information om en grupp](../../../admini
 
 ## Redigera, kopiera eller ta bort en grupp
 
-Utan att lämna huvudsidan i en grupp som du visar kan du snabbt redigera, kopiera eller ta bort
+Utan att lämna huvudsidan i en grupp som du visar kan du snabbt redigera, kopiera eller ta bort gruppen.
 
-<!--
-DRAFTED IN FLARE:
-or deactivate
-
--->
-
-gruppen.
-
-<!--
-DRAFTED IN FLARE:
-Make this change when they add the </span>
-<b>Is active</b>
- option to the Details page!</span>
-
--->
-
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Grupper**.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
-1. Markera gruppen och klicka sedan på Redigera ![](assets/edit-icon.png), kopiera ![](assets/copy-icon.png), eller ta bort ![](assets/delete.png) ikon.
+1. Markera gruppen och klicka sedan på Redigera ![](assets/edit-icon.png), kopiera ![](assets/copy-icon.png)eller Delete ![](assets/delete.png) -ikon.
 
    Om du behöver information om hur du använder rutan som visas kan du läsa något av följande:
 
@@ -113,9 +97,9 @@ Instruktioner finns i [Konfigurera projektinställningar för en grupp](../../..
 
 Du kan skapa, visa, redigera, kopiera, byta namn på, exportera och ta bort undergrupper under en grupp som du administrerar.
 
-## Konfigurera händelsemeddelanden för en grupp
+## Konfigurera händelseaviseringar för en grupp
 
-Om en Workfront-administratör låser upp möjligheten att konfigurera händelsemeddelanden för grupperna i din organisation kan du konfigurera dem för en grupp som du administrerar. Instruktioner finns i [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Om en Workfront-administratör låser upp möjligheten att konfigurera händelsemeddelanden för grupperna i din organisation kan du konfigurera dem för en grupp som du administrerar. Instruktioner finns i [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Skapa och anpassa statusar för en grupp
 
@@ -158,7 +142,7 @@ Instruktioner finns i [Skapa och ändra en grupps scheman](../../../administrati
 
 När du visar huvudsidan för en grupp som du administrerar kan du hantera de tidrapportprofiler som du och andra administratörer i gruppen - eller någon av dess undergrupper - har behörighet att redigera. Instruktioner finns i [Skapa och hantera en grupps tidrapportprofiler](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
 
-## Visa och hantera en grupps undergruppsmedlemmar
+## Visa och hantera undergruppsmedlemmar
 
 När du visar huvudsidan för en grupp som du administrerar kan du visa och hantera alla användare i gruppens undergrupper. Instruktioner finns i [Visa och hantera undergruppsmedlemmar](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 

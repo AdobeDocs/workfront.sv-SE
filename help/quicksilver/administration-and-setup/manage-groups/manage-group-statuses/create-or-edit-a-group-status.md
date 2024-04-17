@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 0%
@@ -172,3 +172,4 @@ Om du är gruppadministratör (eller Workfront-administratör) kan du skapa en a
    Statusen är nedtonad och inte längre synlig för alla användare i gruppen.
 
 1. Upprepa steg 3 till 5 för att dölja den anpassade statusen för andra grupper som inte behöver den.
+

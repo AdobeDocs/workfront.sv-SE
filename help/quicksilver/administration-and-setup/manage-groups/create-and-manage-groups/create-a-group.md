@@ -5,11 +5,11 @@ keywords: skapa,grupp,undergrupp,ny
 navigation-topic: create-and-manage-groups
 title: Skapa en grupp
 description: Som Adobe Workfront-administratör kan du skapa grupper för att ordna användare och projekt och för att tilldela behörigheter i Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
@@ -55,7 +55,7 @@ I de här stegen beskrivs hur du skapar en ny grupp från grunden. Mer informati
 
 Du måste vara Workfront-administratör för att kunna skapa en högnivågrupp.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
 
@@ -65,7 +65,7 @@ Du måste vara Workfront-administratör för att kunna skapa en högnivågrupp.
    >
    >Längst ned i grupplistan kan du även klicka **Lägg till fler grupper** om du vill lägga till en grupp online klickar du på **Retur** när du är klar med att lägga till gruppinformationen.
 
-1. I **Ny grupp** anger du ett namn för gruppen.
+1. I **Ny grupp** som visas skriver du ett namn för gruppen.
 1. Ange följande information:
 
    <table style="table-layout:auto"> 
@@ -88,7 +88,7 @@ Du måste vara Workfront-administratör för att kunna skapa en högnivågrupp.
       <td role="rowheader">Gör den här gruppen och dess undergrupper offentliga</td> 
       <td> <p>(Endast tillgängligt om du visar Detaljer för en grupp på den översta nivån, inte för en undergrupp.) Aktivera det här alternativet om du vill tillåta användare i gruppen med redigeringsanvändaråtkomst (som inte är administratörer för gruppen) att lägga till den här gruppen och dess undergrupper i andra användares användarprofil.</p> <p>För en offentlig grupp kan alla användare (i eller utanför gruppen) som har behörighet att redigera användare lägga till gruppen i profilen för andra användare. De kan inte göra detta för en privat grupp.</p> <p>Du kan bara redigera det här alternativet på den översta överordnade gruppen i en grupphierarki som har mer än en nivå. Alla undergrupper i den överordnade gruppen ärver inställningen.</p> <p><b>ANMÄRKNING</b>:  
         <ul> 
-         <li>Du kan inte göra en undergrupp offentlig för sig själv, men du kan göra den till en överordnad grupp på översta nivån offentlig, vilket även gör alla överordnade undergrupper offentliga.</li> 
+         <li>Du kan inte göra en undergrupp offentlig för sig själv, men du kan göra den överordnade gruppen på den översta nivån offentlig, vilket även gör alla överordnade undergrupper offentliga.</li> 
          <li>En undergrupp som tillhör en offentlig grupp är som standard offentlig, så alla användare med redigeringsåtkomst kan lägga till undergruppen även till andra användare.</li> 
         </ul> </p> <p>Om du behöver information om den åtkomst som behövs för att redigera användare, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>. Mer information om hur du redigerar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </td> 
      </tr> 
@@ -102,12 +102,10 @@ Du måste vara Workfront-administratör för att kunna skapa en högnivågrupp.
      </tr> 
      <tr> 
       <td role="rowheader">Gruppmedlemmar och gruppadministratörer</td> 
-      <td> 
-       <ul> 
+      <td>
         <p>Om du vill lägga till gruppmedlemmar börjar du skriva namnet på en befintlig användare eller grupp som du vill lägga till och markerar sedan namnet när det visas.</p> 
         <p>Användare och grupper som du lägger till har åtkomst till alla objekt som delas med gruppen.</p>
-        <p>En grupp på den översta nivån måste ha minst en gruppadministratör. </p> 
-       </ul> </td> 
+        <p>En grupp på den översta nivån måste ha minst en gruppadministratör. </p>
      </tr> 
      <tr> 
       <td role="rowheader">Söka efter personer och grupper i listan</td> 
@@ -129,7 +127,7 @@ Tänk på följande när du vill göra detta:
 
 Så här skapar du en ny grupp på den översta nivån genom att kopiera en grupp eller undergrupp:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
 
@@ -176,8 +174,8 @@ Så här skapar du en ny grupp på den översta nivån genom att kopiera en grup
       <td role="rowheader">Gruppmedlemmar och gruppadministratörer</td> 
       <td> 
        <ul> 
-        <li> <p>Gruppmedlemmar: Om du vill lägga till användare och grupper i gruppen börjar du med att skriva namnet på en befintlig användare eller grupp som du vill lägga till och markerar sedan namnet när det visas.</p> <p>De användare och grupper som du lägger till har åtkomst till alla objekt som delas med gruppen.</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.copied groups">Gruppadministratörer: Alla gruppadministratörer i den ursprungliga gruppen anges också som gruppadministratörer i den kopierade gruppen. Du kan tilldela en gruppmedlem som administratör för gruppen med den nedrullningsbara menyn till höger om användarens namn.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">En grupp på den översta nivån måste ha minst en gruppadministratör.</p> </li> 
+        <li> <p>Gruppmedlemmar: Om du vill lägga till användare och grupper i gruppen börjar du skriva namnet på en befintlig användare eller grupp som du vill lägga till och markerar sedan namnet när det visas.</p> <p>De användare och grupper som du lägger till har åtkomst till alla objekt som delas med gruppen.</p> </li> 
+        <li> <p>Gruppadministratörer: Alla gruppadministratörer i den ursprungliga gruppen anges också som gruppadministratörer i den kopierade gruppen. Du kan tilldela en gruppmedlem som administratör för gruppen med den nedrullningsbara menyn till höger om användarens namn.</p> <p>En grupp på den översta nivån måste ha minst en gruppadministratör.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -191,6 +189,5 @@ Så här skapar du en ny grupp på den översta nivån genom att kopiera en grup
    >
    >* Om den ursprungliga gruppen har undergrupper läggs undergrupperna till i den nya gruppen och deras namn är som standard&quot;Det ursprungliga undergruppsnamnet (Kopiera)&quot;.
    >* Du kan ta bort användare och undergrupper från den ursprungliga gruppen genom att klicka på X till höger om användarens eller undergruppens namn.
-
 
 1. Klicka **Skapa grupp**.
