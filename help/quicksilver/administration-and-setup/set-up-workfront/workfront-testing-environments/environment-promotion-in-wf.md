@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,10 @@ Dessa statusvärden är följande:
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>OMONTERAD</td> 
+   <td><p>Den här statusen tilldelas automatiskt och representerar ett paket som har sparats men ännu inte monterats. </p><p>Den här statusen kan inte anges direkt av en kund.</p></td> 
+  </tr> 
   <tr> 
    <td>SAMMANSÄTTNING</td> 
    <td><p>Den här statusen tilldelas automatiskt medan objekt monteras. </p><p>Sammanfogning avser den automatiska processen att identifiera objekt och underobjekt som ska ingå i ett paket och lägga till dessa objekt och deras data i paketet.</p><p>Den här statusen kan inte anges direkt av en kund.</p></td> 

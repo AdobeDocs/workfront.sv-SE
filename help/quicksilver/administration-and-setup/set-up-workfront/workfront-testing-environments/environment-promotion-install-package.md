@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
+source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## Konflikter
 
-Konflikter inträffar när ett objekt som är en del av installationspaketet redan finns i målmiljön. När detta inträffar kan du välja hur kollisionen ska lösas. Konflikter löses på objektnivå.
+Konflikter inträffar när ett objekt som ingår i installationspaketet har samma namn som ett objekt som redan finns i målmiljön. När detta inträffar kan du välja hur kollisionen ska lösas. Konflikter löses på objektnivå.
 
 Du kan visa kollisioner genom att klicka på listrutan bredvid varje objekttyp. Konflikter visas i kolumnen Konflikter.
 
@@ -47,23 +47,31 @@ Om du vill lösa en konflikt väljer du en åtgärd i kolumnen Distributionsåtg
 * **Skapa med nytt namn**: Skapa ett nytt objekt i målmiljön. Om objektet finns i målmiljön kan du skapa ett nytt objekt med ett nytt namn. Om den inte finns i målmiljön kan du skapa objektet med ett nytt namn eller med namnet som objektet har i paketet.
 * **Använd befintlig**: Objektet i paketet installeras inte och objektet som redan fanns i målmiljön ändras inte.
 * **Skriv över**: Objektet i paketet ersätter det befintliga objektet i målmiljön.
+
+  Du kan också välja vilka objekt som ska skrivas över även om en kollision inte upptäcks.
+
+  Mer information om hur överskrivning påverkar överordnade och underordnade objekt finns i
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
 Standardvärden är `Create new` om objektet inte finns i målmiljön, och `Use existing` om objektet finns i målmiljön. Du kan återgå till standardmappningen genom att klicka på **Återställ till standardmappning**.
 
+## Skriva över överordnade och underordnade objekt
 
+Vissa objekt i erbjudandepaketet kan ha underordnade objekt. Ett projekt (överordnat projekt) har till exempel uppgifter (underordnade projekt). När du skriver över ett överordnat objekt hanteras underordnade objekt på följande sätt:
 
-<!--
-## Collisions
+* Underordnade objekt som finns i både paketet och målet uppdateras i målet så att de matchar paketet.
+* Underordnade objekt som finns i paketet men inte målet skapas.
+* Underordnade objekt som finns i målet men inte i paketet ändras inte.
 
-A collision occurs when <!--???--.
+Den här funktionen påverkar följande överordnade och underordnade objekt:
 
-In Workfront, a potential collision is marked with a blue dot. You can select 
+| Överordnat objekt | Underordnade objekt |
+|---|---|
+| Projekt | Uppgift<br>QueueDef (ködefinition)<br>RoutingRule |
+| Mall | TemplateTask<br>QueueDef (ködefinition)<br>RoutingRule |
+| Parameter (anpassat formulärfält) | ParameterOption (alternativet för anpassat formulärfält) |
+| CalendarInfo | CalendarSection |
+| QueueDef (ködefinition) | QueueTopicGroup<br>QueueTopic |
 
-You can select whether to show all package contents, or collisions only.
-
-## Comparison tool
-
--->
