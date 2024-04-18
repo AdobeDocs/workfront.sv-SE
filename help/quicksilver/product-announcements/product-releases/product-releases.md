@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: c065427058d56e457c36c6a5859d00d7128b11e3
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 12%
+source-wordcount: '228'
+ht-degree: 11%
 
 ---
 
@@ -35,6 +35,7 @@ Mer information om hur du kan anpassa din organisation till nya versioner finns 
     <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Första utgåvan, kvartal 2024, översikt</a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Andra utgåvan, kvartal 2024, översikt</a> </p> </li>
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">Översikt över utgåvan för tredje kvartalet 2024</a> </p> </li>
    <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Versionsaktivitet för Adobe Workfront Fusion</a> </p> </li> </ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>Utgåvor 2023</p> 
