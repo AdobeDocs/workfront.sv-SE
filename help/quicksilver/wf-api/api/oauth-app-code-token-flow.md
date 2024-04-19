@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 293b7354e4549e51d78ad1aa75927a21d9044c43
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Om du vill integrera med Workfront och tillåta klientappen att kommunicera med 
 ## Skapa ett OAuth2-program
 
 Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett OAuth2-program med användarens inloggningsuppgifter (kodflöde för auktorisering)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>Du kan ha upp till totalt tio OAuth2-program samtidigt.
 
 ## Länk till sidan Autentisera för dina användare
 

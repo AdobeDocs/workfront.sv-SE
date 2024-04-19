@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Ett PKCE-flöde har följande steg. Stegen i det här avsnittet visas endast i i
 Innan du kan implementera auktorisering måste du registrera din app i OAuth2 genom att skapa en appintegrering från Workfront.
 
 Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett ensidigt OAuth2-webbprogram med PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>Du kan ha upp till totalt tio OAuth2-program samtidigt.
 
 
 ## Skapa korrekturnyckeln för kodutbyte
