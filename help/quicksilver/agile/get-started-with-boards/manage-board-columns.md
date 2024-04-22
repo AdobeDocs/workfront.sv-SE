@@ -6,9 +6,9 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,15 @@ Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare ti
 1. Klicka **[!UICONTROL Hide configure]** för att stänga [!UICONTROL Configure] -panelen.
 
 ## Definiera kolumninställningar och -profiler
+
+Kolumnprinciper inkluderar automatisk uppdatering av fältvärden och inställning av en gräns för pågående arbete.
+
+Principen för att uppdatera statusen fungerar automatiskt för både kortet och kolumnen:
+
+* När ett kort flyttas till en kolumn med en profil uppdateras kortets status till den status som definierats i profilen. Detta gäller både ad hoc-kort och anslutna kort.
+* När ett tillfälligt eller anslutet kort uppdateras på kortet för att matcha kolumnstatusen i profilen, eller när ett anslutet kort uppdateras någon annanstans i Workfront, flyttas kortet automatiskt till den kolumnen. Om en anpassad status på ett kort matchar systemstatusen som är tilldelad kolumnen flyttas kortet till den kolumnen.
+
+Ett kort finns kvar i en kolumn där det är placerat om kortstatusen inte matchar någon status som angetts i någon befintlig kolumnprofil.
 
 >[!NOTE]
 >
