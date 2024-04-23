@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## Vecka 22 april 2024
+
+### Uppdaterat arbetsflöde vid redigering av en arbetsyta eller posttyp
+
+Produktion: 23 april 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi har uppdaterat utseendet på arbetsytan Editor och rutan Redigera posttyp.
+
+När du redigerar en arbetsyta eller en posttyp kan du nu definiera ett namn, en beskrivning och tilldela en färg och en ikon till dem.
+
+Mer information finns i följande artiklar:
+
+* [Redigera arbetsytor](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [Redigera posttyper](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## 8 april 2024
 
@@ -373,7 +391,7 @@ Förhandsgranska: Ska bestämmas
 
 Nu kan du lägga till enskilda miniatyrbilder till varje post för att skilja dem åt i en vy. I tabellvyn kan du lägga till bildfiler som du tidigare har sparat på datorn som miniatyrbilder. Miniatyrbilderna kan vara unika för varje post och visas i både tabell- och tidslinjevyerna på posttypsidan.
 
-Mer information finns i [Lägga till miniatyrbilder i poster](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 ### Ta bort anslutna posttypkort
 

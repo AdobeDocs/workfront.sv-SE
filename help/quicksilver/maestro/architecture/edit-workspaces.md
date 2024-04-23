@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ I Adobe Workfront Planning är arbetsytorna centraliserade platser där team kan
 En arbetsyta är en samling posttyper som används av ett team och representerar teamets arbetslivscykel. Du kan anpassa arbetsytorna helt i Adobe Workfront Planning.
 
 Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/maestro/architecture/create-workspaces.md).
+
+Alla ändringar du gör på en arbetsyta är synliga för alla som har minst behörigheten Visa på arbetsytan.
 
 ## Åtkomstkrav
 
@@ -90,20 +92,52 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
 Detta öppnar arbetsyteområdet i Workfront Planning.
 
-1. Klicka inuti arbetsytans namn i arbetsytans sidhuvud för den nya arbetsytan och tryck sedan på **Retur**
+1. Klicka inuti arbetsytans namn i arbetsytans sidhuvud för den nya arbetsytan och tryck sedan på **Retur**.
+1. Klicka på **Mer** meny ![](assets/more-menu.png)till höger om arbetsytans namn i sidhuvudet och klicka sedan på **Redigera**.
 
-   eller
+   ![](assets/edit-workspace-box.png)
 
-   Klicka på **Mer** meny ![](assets/more-menu.png)till höger om arbetsytans namn i sidhuvudet och klicka sedan på **Byt namn**.
+   Uppdatera följande information i **Arbetsytan Redigera** box:
+
+   * Lägg till ett namn för arbetsytan. <!--did they add a label for this field?-->
+   * **Beskrivning**: Lägg till information om arbetsytan.
+   * Välj en ikon som du vill associera med arbetsytan.
+
+1. Klicka **Spara** om du vill stänga arbetsytan Editor och tillämpa ändringarna.
+
+1. (Valfritt) Gör något av följande om du vill lägga till ett nytt avsnitt i arbetsytan:
+
+   * Klicka **Lägg till avsnitt** längst ned på arbetsytan.
+   * Håll muspekaren över namnet på ett avsnitt och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Lägg till avsnittet ovan** eller **Lägg till avsnitt nedan**.
+
+1. (Valfritt) Gör något av följande om du vill ändra platsen för ett avsnitt:
+
+   * Håll muspekaren över namnet på ett avsnitt och klicka på **ta** icon ![](assets/grab-icon.png)och sedan dra och släpp den på den högra platsen.
+   * Håll muspekaren över namnet på ett avsnitt och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Flytta uppåt** eller **Flytta nedåt**. Avsnittet flyttas uppåt eller nedåt i arbetsytan.
+
+1. (Valfritt) Så här tar du bort ett avsnitt på arbetsytan:
+
+   1. Håll muspekaren över namnet på ett avsnitt och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Ta bort**. <!--add screen shot when UI is final?-->
+   1. Markera ett nytt avsnitt som du vill flytta alla posttyper till och klicka sedan på **Ta bort**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Alla posttyper flyttas till urvalssektionen och avsnittet tas bort.
 
 1. (Valfritt) Klicka på **Lägg till posttyp** om du vill lägga till posttyper på arbetsytan.
 
    Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 
-1. (Valfritt) Klicka på namnet på en vy på vyflikarna för att redigera en befintlig vy eller klicka på **+ Visa** för att skapa en vy.
+1. (Valfritt) Håll muspekaren över ett posttypskort och klicka på **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** om du vill ändra utseendet på en posttyp.
+
+   Mer information finns i [Redigera posttyper](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+1. (Valfritt) Håll muspekaren över ett posttypskort och klicka på **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Ta bort** om du vill ta bort en posttyp.
+
+   Mer information finns i [Ta bort posttyper](/help/quicksilver/maestro/architecture/delete-record-types.md).
+
+1. (Valfritt) Klicka på namnet på en vy på vyflikarna om du vill redigera en befintlig vy eller klicka på **+ Visa** för att skapa en vy.
 
    Mer information finns i [Hantera postvyer](/help/quicksilver/maestro/views/manage-record-views.md).
 
-1. (Valfritt) Klicka på **Dela** för att dela arbetsytan med andra.
+1. (Valfritt) Klicka på **Dela** i det övre högra hörnet av arbetsytan om du vill dela arbetsytan med andra.
 
    Mer information finns i [Dela arbetsytor](/help/quicksilver/maestro/access/share-workspaces.md).

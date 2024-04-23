@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -255,7 +255,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    >[!NOTE]
    >
-   >    Du måste först lägga till miniatyrbilder i tabellvyn innan du kan visa dem i tidslinjevyn. Mer information finns i [Lägga till miniatyrbilder i poster](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   >    Du måste först lägga till miniatyrbilder i tabellvyn innan du kan visa dem i tidslinjevyn. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Klicka **Lägg till fält** om du vill lägga till upp till fyra fält i postfälten.
 1. Klicka inuti **Sökfält** och klicka på det fält som du vill lägga till.

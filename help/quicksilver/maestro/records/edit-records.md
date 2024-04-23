@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Om de poster som du visar är länkade till andra poster, återspeglas den nya informationen om de poster som du redigerar på de länkade posterna.
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
 * URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
+* Du kan lägga till en omslagsbild till varje post. Bilden är unik för varje post och gäller inte för alla poster samtidigt.
 * Du kan redigera fältordningen på en postsida och lägga till en omslagsbild för en post. Mer information finns i [Hantera postsidan](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Redigera poster
@@ -130,7 +131,7 @@ Arbetsytan som du senast öppnade öppnas.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  Du kan inte redigera information för följande fält eftersom de är skrivskyddade och Workfront uppdaterar dem automatiskt:
    >  
@@ -209,7 +210,18 @@ Arbetsytan som du öppnar senast öppnas.
    >
    >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
 
-1. Börja redigera fältinformationen i postens ruta. Workfront sparar automatiskt ändringarna.
+1. Börja redigera fältinformationen i postens ruta.
+
+   >[!TIP]
+   >
+   >  Du kan inte redigera information för följande fält eftersom de är skrivskyddade och Workfront uppdaterar dem automatiskt:
+   >  
+   >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
+   >  * Fält av följande typer: Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Formelfält.
+
+1. (Valfritt) Klicka på **Lägg till omslag** om du vill lägga till en omslagsbild i posten. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfront sparar automatiskt ändringarna.
 
 1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens ruta för att öppna postens sida på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens sida](#edit-a-record-from-the-records-page) i den här artikeln.
 
@@ -227,7 +239,7 @@ Arbetsytan som du öppnar senast öppnas.
 
 1. Gör något av följande:
 
-   * I alla vyer öppnar du postens ruta enligt beskrivningen i [Redigera en post från postens ruta i en vy](#edit-a-record-from-the-records-box-in-a-view) i den här artikeln. Klicka sedan på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postrutan för att öppna postens sida på en ny flik.
+   * I alla vyer öppnar du postens ruta enligt beskrivningen i [Redigera en post från postens ruta i en vy](#edit-a-record-from-the-records-box-in-a-view) i den här artikeln klickar du på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postrutan för att öppna postens sida på en ny flik.
 
    * Från **Tabell** visa, hovra över namnet på en post och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
 
@@ -237,12 +249,16 @@ Arbetsytan som du öppnar senast öppnas.
 
      ![](assets/details-page.png)
 
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Redigera**
+1. Klicka på ett redigerbart fält på postsidan för att redigera det.
 
-   eller
+   >[!TIP]
+   >
+   >  Du kan inte redigera information för följande fält eftersom de är skrivskyddade och Workfront uppdaterar dem automatiskt:
+   >  
+   >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md).
+   >  * Fält av följande typer: Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Formelfält.
 
-   Klicka i ett redigerbart fält på postsidan för att redigera informationen.
+1. (Valfritt) Klicka på **Lägg till omslag** om du vill lägga till en omslagsbild i posten. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfront sparar automatiskt ändringarna.
 
-1. Klicka **Spara ändringar**.

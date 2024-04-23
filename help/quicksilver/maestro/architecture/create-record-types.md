@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -147,15 +147,17 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. Uppdatera följande information:
 
-   * **Posttypnamn**: Ersätt&quot;Namnlös operativ posttyp&quot; med namnet på din framtida posttyp.
-   * **Utseende**: Definiera färg och form för ikonen som är associerad med posttypen. Gör följande:
+   * Ersätt&quot;Namnlös operativ posttyp&quot; med namnet på din framtida posttyp. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * **Beskrivning**: Lägg till mer information om posttypen.
+   * Välj en färg och form för den ikon som är associerad med posttypen. Gör följande:
       * Välj en färg som identifierar den nya posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
       * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
 
-1. Klicka utanför **Lägg till posttyp** för att spara posttypen.
+1. Klicka **Skapa**.
 
    Posttypkortet läggs till i avsnittet och på den arbetsyta som du har valt.
 Antalet fält som posttypen innehåller visas på kortet.
+1. (Valfritt) Håll markören över posttypskortet och klicka på knappen **Mer** icon ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** om du vill redigera information om posttypen.
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
    ![](assets/operational-record-type-blank.png)
@@ -178,7 +180,7 @@ Antalet fält som posttypen innehåller visas på kortet.
 
    eller
 
-   Klicka på **Mer** icon ![](assets/more-menu.png) till höger om posttypens namn och klicka på **Byt namn** för att byta namn på den.
+   Klicka på **Mer** icon ![](assets/more-menu.png) till höger om posttypens namn och klicka på **Redigera** om du vill byta namn på den eller ändra informationen om den. Mer information finns i [Redigera posttyper](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 1. (Valfritt) Klicka på **+ Ny post** om du vill lägga till poster av den valda posttypen. Mer information finns i [Skapa poster](../records/create-records.md).
 1. (Valfritt) Klicka på **+** i tabellens övre högra hörn om du vill lägga till fler fält i posttypen.

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 52cc4748daaadb78318f9dfd10ab27e22a0cd753
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '14162'
+source-wordcount: '14171'
 ht-degree: 0%
 
 ---
@@ -2083,7 +2083,8 @@ ht-degree: 0%
       * [Dela poster](maestro/records/share-records.md)
       * [Hantera postkommentarer](maestro/records/manage-record-comments.md)
       * [Översikt över avsnittet Historik](maestro/records/history-section-overview.md)
-      * [Lägga till miniatyrbilder i poster](maestro/records/add-thumbnails-to-records.md)
+      * [Lägga till en miniatyrbild i en post](maestro/records/add-thumbnails-to-records.md)
+      * [Lägga till en omslagsbild till en post](maestro/records/add-a-cover-image-to-a-record.md)
       * [Hantera postsidan](maestro/records/manage-the-record-page.md)
    * Adobe Maestro-vyer {#adobe-maestro-views}
       * [Vyer: artikelindex](maestro/views/views-information.md)

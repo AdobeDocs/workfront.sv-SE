@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Din Adobe Workfront-licenstyp fungerar tillsammans med dina Adobe Workfront Plan
 
 Användare med alla licenstyper kan visa, skapa, redigera och hantera Workfront Planning-vyer.
 
-I den här artikeln beskrivs de typer av licenser som behövs i Workfront och de behörigheter som beviljas objekt i Workfront Planning baserat på varje licenstyp.
+I den här artikeln beskrivs vilka typer av licenser som behövs i Workfront och vilka behörigheter som ges till arbetsytor i Workfront Planning baserat på respektive licenstyp.
 
-En användare med en lägre licenstyp har begränsad behörighet till objekt när de använder Workfront Planning-funktioner.
+En användare med en lägre licenstyp har begränsade behörigheter till arbetsytor när de använder Workfront Planning-funktioner.
 
 >[!INFO]
 >
@@ -40,11 +40,13 @@ Information om behörigheter för objekt i Workfront Planning finns i [Översikt
 
 ## Förhållandet mellan Workfront licenstyper och Workfront Planning permissions
 
-I följande tabell beskrivs förhållandet mellan licenstypen för en användare i Adobe Workfront och den behörighetsnivå som du kan ge dem till Adobe Workfront Planning-objekt baserat på den licensen:
+Tabellen nedan beskriver förhållandet mellan licenstypen för en användare i Adobe Workfront och den behörighetsnivå som du kan ge dem till Adobe Workfront Planning-objekt baserat på den licensen.
+
+Om du ger en användare behörighet till en arbetsyta får den även behörighet att spela in typer, poster och fält.
 
 
 | Adobe Workfront licenstyp | Tillåtna behörigheter i Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan skapa och hantera arbetsytor, posttyper och poster. |
-| Ny: ljus <br> eller <br>Aktuell: Arbete | Användare kan bidra med och visa en arbetsyta som delas med dem samt posttyper och poster från den arbetsytan.  Användare kan skapa, redigera och ta bort poster på arbetsytorna där de har Contribute-behörighet. |
-| Nytt: Medarbetare <br> eller <br>Aktuell: Granskare eller begärande | Användarna kan visa de arbetsytor som delas med dem samt deras posttyper och poster. Användarna kan inte skapa, redigera eller ta bort posttyper eller poster. |
+| Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan skapa och hantera arbetsytor, posttyper och poster.<br> Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade. |
+| Ny: ljus <br> eller <br>Aktuell: Arbete | Användare kan bidra med och visa en arbetsyta som delas med dem samt posttyper och poster från den arbetsytan. <br> Användare kan skapa, redigera och ta bort poster på arbetsytorna där de har Contribute-behörighet. |
+| Nytt: Medarbetare <br> eller <br>Aktuell: Granskare eller begärande | Användarna kan visa de arbetsytor som delas med dem samt deras posttyper och poster. <br> Användarna kan inte skapa, redigera eller ta bort posttyper eller poster. |

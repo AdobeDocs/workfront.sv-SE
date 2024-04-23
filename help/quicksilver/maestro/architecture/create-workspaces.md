@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,19 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
 ## Skapa en arbetsyta
 
+Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i Workfront Planning. Mer information om hur du redigerar en arbetsyta finns i [Redigera arbetsytor](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+Detta öppnar arbetsyteområdet i Workfront Planning.
 
 1. (Villkorligt) Om du inte har några arbetsytor i din miljö klickar du på **Skapa arbetsyta**
 
-   Du kan också klicka på nedåtpilen till höger om arbetsytans namn från en befintlig arbetsyta och sedan klicka på **Skapa arbetsyta**.
+   Eller klicka på nedåtpilen till höger om arbetsytans namn från en befintlig arbetsyta och klicka sedan på **Skapa arbetsyta**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Detta öppnar arbetsyteområdet i Workfront Planning.
+
 1. (Valfritt och villkorligt) Klicka på **Förhandsgranska** i någon av följande fördefinierade arbetsytemallar:
 
    * Marknadsföringshantering
@@ -136,14 +140,10 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
    En av följande typer av arbetsytor skapas:
 
-   * En tom arbetsyta där du kan börja lägga till posttyper manuellt när du skapar en arbetsyta från grunden.
-   * En arbetsyta med exempelposttyper som du kan anpassa ytterligare när du använder en av mallarna.
+   * En tom arbetsyta med namnet **Namnlös arbetsyta** där du kan börja lägga till posttyper manuellt när du skapar en arbetsyta från grunden.
+   * En arbetsyta som namnges efter mallen som du valde och som fylls med exempelposttyper. Du kan anpassa posttyperna och arbetsytan ytterligare.
 
-1. Klicka inuti arbetsytans namn i arbetsytans sidhuvud för den nya arbetsytan och tryck sedan på Retur
-
-   eller
-
-   Klicka på **Mer** meny ![](assets/more-menu.png)till höger om arbetsytans namn i sidhuvudet och klicka sedan på **Byt namn**.
+1. Klicka i namnet på arbetsytan i sidhuvudet på den nya arbetsytan för att byta namn på den och tryck sedan på Retur.
 
 1. (Valfritt och villkorligt) Om du har skapat arbetsytan från en mall klickar du inuti namnet på **Operativa posttyper** eller **Taxonomier** avsnitt
 
@@ -153,25 +153,14 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
    >[!TIP]
    >
-   >Du kan byta namn på alla avsnitt på arbetsytan, även om du har skapat avsnittet.
+   >Du kan byta namn på alla avsnitt på en arbetsyta, även om du inte har skapat avsnittet.
 
-1. (Valfritt) Gör något av följande om du vill ändra platsen för ett avsnitt:
-
-   * Håll muspekaren över namnet på ett avsnitt och klicka på **ta** icon ![](assets/grab-icon.png)och sedan dra och släpp den på den högra platsen.
-   * Håll muspekaren över namnet på ett avsnitt och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Flytta uppåt** eller **Flytta nedåt**. Avsnittet flyttas uppåt eller nedåt i arbetsytan.
-
-1. (Valfritt) Gör något av följande om du vill lägga till ett nytt avsnitt:
-
-   * Klicka **Lägg till avsnitt** längst ned på arbetsytan.
-   * Håll muspekaren över namnet på ett avsnitt och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Lägg till avsnittet ovan** eller **Lägg till avsnitt nedan**.
+   Mer information om hur du redigerar arbetsytor, inklusive redigering av arbetsyteavsnitt, finns i [Redigera arbetsytor](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. (Valfritt) Klicka på **Lägg till posttyp** om du vill lägga till posttyper på arbetsytan i vilket avsnitt som helst.
 
    Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 
-1. (Valfritt) Så här tar du bort ett avsnitt:
+   Mer information om hur du redigerar och tar bort posttyper på en arbetsyta finns i [Redigera arbetsytor](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. Håll muspekaren över namnet på ett avsnitt och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Ta bort**. <!--add screen shot when UI is final?-->
-   1. Markera ett nytt avsnitt som du vill flytta alla posttyper till och klicka sedan på **Ta bort**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      Alla posttyper flyttas till urvalssektionen och avsnittet tas bort.

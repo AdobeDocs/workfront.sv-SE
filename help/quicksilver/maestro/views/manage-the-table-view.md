@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -228,7 +228,7 @@ Du kan ha upp till 50 000 poster (eller rader) för posttypen S.
 
 1. (Valfritt) Lägg till en miniatyrbild för varje post och klicka på **Fält** i tabellens övre högra hörn och välj sedan alternativet för **Miniatyrbild** för att visa det till vänster om det primära fältet. Det är som standard avmarkerat.
 
-   Mer information finns i [Lägga till miniatyrbilder i poster](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om postnamnet för att ändra ordning på raderna.
 

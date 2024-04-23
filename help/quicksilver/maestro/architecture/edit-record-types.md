@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -100,28 +100,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Den senast använda arbetsytan bör öppnas som standard.
 
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill redigera posttyper för.
-1. Håll muspekaren över ett kort av en posttyp och klicka på knappen **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Uppdatera utseende**.
+1. Håll muspekaren över ett kort av en posttyp och klicka på knappen **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Redigera**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. I **Uppdatera posttyp** uppdaterar du följande information:
+1. I **Redigera posttyp** uppdaterar du följande information:
 
-   * **Postnamn**: Redigera posttypens namn om det behövs. <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **Utseende**: Redigera färg och form för ikonen som är associerad med posttypen. Gör följande:
+   * Redigera posttypens namn om det behövs. <!--did they add a field label for this? -->
+   * **Beskrivning**: Redigera eller lägg till en beskrivning för posttypen med mer information om den.
+   * Redigera färg och form för ikonen som är associerad med posttypen. Gör följande:
       * Välj en färg som identifierar posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
       * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
 
      ![](assets/update-record-type-box.png)
 
-1. Klicka utanför **Uppdatera posttyp** för att spara ändringarna.
+1. Klicka **Spara**.
 1. (Valfritt) Klicka på posttypskortet i arbetsytan för att öppna posttypens sida.
-1. Klicka på **Mer** till höger om posttypens namn och klicka sedan på **Byt namn** för att byta namn på posttypen
+1. Klicka på **Mer** till höger om posttypens namn och klicka sedan på **Redigera** om du vill uppdatera information om posttypen.
 
-   eller
+   >[!TIP]
+   >
+   >   Du kan byta namn på posttypen i rubriken.
 
-   Byt namn på posttypen i rubriken.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   Du kan också byta namn på en posttyp i huvudet på posttypens sida.
 1. (Valfritt) Expandera den nedåtriktade pilen till höger om ett posttypsnamn och välj en annan posttyp att redigera.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du kan skapa anpassade fält i Adobe Workfront Planning genom att referera till 
 
 Formelfält genererar ett nytt värde med hjälp av befintliga värden från andra fält i en posttyp och en funktion som anger hur befintliga värden ska beräknas.
 
-Mer information finns i [Skapa fält](../fields/create-fields.md).
+Mer information finns i avsnittet Formel i artikeln [Skapa fält](../fields/create-fields.md).
 
 ## Åtkomstkrav
 

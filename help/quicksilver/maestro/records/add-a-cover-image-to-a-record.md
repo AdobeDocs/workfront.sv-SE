@@ -1,0 +1,142 @@
+---
+title: Lägga till en omslagsbild till en post
+description: Du kan redigera postinformation i Adobe Workfront Planning och associera varje post med en omslagsbild för att anpassa postens sida.
+hidefromtoc: true
+hide: true
+recommendations: noDisplay, noCatalog
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 0%
+
+---
+
+<!--update the metadata with real information-->
+
+# Lägga till en omslagsbild till en post
+
+{{maestro-important-intro}}
+
+Du kan redigera postinformation i Adobe Workfront Planning och associera varje post med en omslagsbild för att anpassa postens sida.
+
+Du måste skapa posttyper innan du kan börja skapa och redigera poster.
+Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
+
+## Åtkomstkrav
+
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Produkt</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
+   <td>
+<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. Kontakta din kontorepresentant om du vill veta mer om det nya erbjudandet. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront</p></td>
+   <td>
+<p>Alla</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td>
+   <p>Alla</p> 
+  </td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
+   <td> <p>Det finns inga åtkomstkontroller för Workfront Planning </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Behörigheter</p></td>
+   <td> <p>Contribute eller högre behörighet till en arbetsyta </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td>  <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/maestro/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
+</table>
+
+## Att tänka på när det gäller omslagsbilder för postsidor
+
+Du kan anpassa postens sida genom att lägga till en omslagsbild. Bilden är unik för varje post och gäller inte för alla poster av samma typ.
+
+Tänk på följande:
+
+* Du kan bara lägga till bildfiler som omslagsbilder.
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* Du kan lägga till en omslagsbild till enskilda poster från postrutan i valfri vy eller från postsidan.
+* Du kan inte lägga till omslagsbilder i tabellvyn.
+
+## Lägga till en omslagsbild till en post
+
+Du kan anpassa en post genom att lägga till en omslagsbild högst upp i rutan eller på sidan.
+
+{{step1-to-maestro}}
+
+Arbetsytan som du öppnar senast öppnas.
+
+1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+
+1. Klicka på ett posttypskort.
+
+   Posttypssidan öppnas.
+
+1. Klicka på en post i en vy av valfri typ
+
+   eller
+
+   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn.
+
+   Postens ruta öppnas i vyn.
+
+   ![](assets/details-box.png)
+
+   >[!TIP]
+   >
+   >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
+
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postrutan för att öppna postens sida på en ny flik.
+
+   Postsidan öppnas.
+
+   ![](assets/details-page.png)
+
+1. Klicka på **Lägg till omslag**. <!--check the casing here; I logged a bug for this-->
+The **Postomslag** öppnas.
+
+1. Klicka **Välj att överföra** och bläddra efter en bild som du vill välja på datorn, lägga till den och klicka sedan på **Använd bild**.
+
+   Bilden överförs högst upp i postrutan eller på sidan och ändringarna sparas automatiskt.
+
+   ![](assets/record-page-with-cover-image.png)
+
+1. (Valfritt) Hovra över bilden och klicka sedan på **Mer** meny ![](assets/more-menu.png) i det nedre högra hörnet av omslagsbilden gör du något av följande:
+
+   * Klicka **Överför** om du vill ersätta omslagsbilden och upprepa steg 6 för att ladda upp och spara en ny bild.
+   * Klicka **Flytta** och använder **Flytta** verktyg ![](assets/reposition-tool-icon.png) för att centrera omslagsbilden och sedan klicka **Spara** när det är klart.
+   * Klicka **Ta bort** för att ta bort omslagsbilden.
+
+   Workfront sparar automatiskt ändringarna.

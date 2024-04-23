@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,6 @@ I följande artiklar beskrivs hur du kan skapa och hantera poster och deras info
 * [Koppla poster](/help/quicksilver/maestro/records/connect-records.md)
 * [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [Översikt över avsnittet Historik](/help/quicksilver/maestro/records/history-section-overview.md)
-* [Lägga till miniatyrbilder i poster](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Lägga till en omslagsbild till en post](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [Hantera postsidan](/help/quicksilver/maestro/records/manage-the-record-page.md)
