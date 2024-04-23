@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,10 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [D
        <li> <p>Användare som saknar de behörigheter som du anger här kan inte se anpassade fält och widgetar i avsnittet. </p> <p>Detta gäller även om du visar fältets värden i rapporter eller använder dem i beräknade fält i textlägesrapporter.</p> </li> 
        <li> <p>Om du kopplar flera objekttyper till formuläret kan du ändra de visnings- och redigeringsbehörigheter som är tillgängliga i de här stegen. Mer information finns i <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Hur flera objekttyper kan påverka avsnittsbrytningsbehörigheter i ett anpassat formulär</a> i den här artikeln.</p> </li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><p>Lägg till logik</p></td> 
+      <td><p>Använd visningslogik för att ange om avsnittet ska visas i formuläret, baserat på de val som användare gör i anpassade fält med flera val när de fyller i formuläret.</p><p><strong>OBS!</strong> Om alla enskilda fält under en avsnittsbrytning har visningslogik och alla är dolda som ett resultat av logiken, döljs hela avsnittet i det anpassade formuläret. Detta inträffar även om visningslogik inte används för avsnittsbrytningen.</p><p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Lägg till visningslogik och hoppa över logik med formulärdesignern</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

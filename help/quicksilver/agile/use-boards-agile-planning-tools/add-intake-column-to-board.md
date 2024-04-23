@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ Problem:
 
 * Primär order: Projektnamn
 * Sekundärordning: Referensnummer
+
+>[!IMPORTANT]
+>
+>Vi rekommenderar att du uppdaterar styrelsen ofta om flera användare arbetar på samma gång. Om du uppdaterar sidan är det lättare att hålla de visuella ändringarna på ritytan uppdaterade och det går inte att flytta dubblettkort till ritytan från inmatningskolumnen.
 
 Mer information om kolumner finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Mer information om anslutna kort finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
