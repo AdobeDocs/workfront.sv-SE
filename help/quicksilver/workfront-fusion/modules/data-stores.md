@@ -8,9 +8,9 @@ description: Ett datalager, som liknar en databas eller en enkel tabell, kan lag
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
+source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -44,35 +44,56 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Äldre: Alla </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Tillgängligt datautrymme
+
+Om din organisation använder den nya Workfront-planmodellen (Select-, Prime- och Ultimate-paket) påverkar din organisations plan storleken och antalet datalager som är tillgängliga i Fusion-instansen.
+
+### Ultimat plan
+
+Fusion-instanser i Ultimate-paketet tar emot:
+
+* 500 MB ledigt utrymme
+* 50 datalager
+
+### Select- och Prime-planer
+
+Fusion-instanser på Select- eller Prime-paketen får:
+
+* 100 MB för de första 500 kB-åtgärderna.
+
+* 10 MB för varje ytterligare 100 K-åtgärd.
+
+En organisation med 600 kB-åtgärder får till exempel 110 MB.
 
 ## Skapa ett datalager i [!DNL Workfront Fusion]
 
