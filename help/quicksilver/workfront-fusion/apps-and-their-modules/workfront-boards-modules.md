@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Boards-kontakten för att automatis
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -261,7 +261,7 @@ Den här åtgärdsmodulen skapar ett nytt kort på ett Workfront-kort.
   </tr> 
   <tr> 
    <td>[!UICONTROL Column ID]</td> 
-   <td>Ange eller mappa ID:t för den kolumn som du vill lägga till en underaktivitet i.<p>Du hittar tagg-ID:t i informationen som returneras från modulen Läs en anslagstavla.</p></td> 
+   <td>Ange eller mappa ID:t för den kolumn som du vill lägga till en underaktivitet i.<p>Du hittar kolumn-ID:t i informationen som returneras från modulen Läs en anslagstavla.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -292,7 +292,7 @@ Den här åtgärdsmodulen flyttar ett kort till en annan kolumn på samma kort.
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination column ID]</td> 
-   <td>Ange eller mappa ID:t för kolumnen som du vill flytta kortet till.<p>Du hittar tagg-ID:t i informationen som returneras från modulen Läs en anslagstavla.</p></td> 
+   <td>Ange eller mappa ID:t för kolumnen som du vill flytta kortet till.<p>Du hittar kolumn-ID:t i informationen som returneras från modulen Läs en anslagstavla.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL To index]</td> 
@@ -346,7 +346,7 @@ Den här åtgärdsmodulen uppdaterar information för ett kort som du anger.
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Ange eller mappa en ny beskrivning för kortet/\.</p></td> 
+   <td>Ange eller mappa en ny beskrivning för kortet.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ Den här åtgärdsmodulen returnerar information om en enda anslagstavla, till e
 
 ### Kolumner
 
+* [Skapa en kolumn](#create-a-column)
+* [Söka efter en kolumn](#search-for-a-column)
+* [Uppdatera en kolumn](#update-a-column)
+
 #### Skapa en kolumn
 
 Den här åtgärdsmodulen skapar en ny kolumn på den angivna ritytan.
@@ -417,8 +421,62 @@ Den här åtgärdsmodulen skapar en ny kolumn på den angivna ritytan.
    <td>Ange eller mappa ID:t för den anslagstavla som du vill lägga till en kolumn i.<p>Du kan hitta ID:t för anslagstavlan i URL:en när du tittar på anslagstavlan i Workfront.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Column ID]</td> 
+   <td>Ange eller mappa ID:t för den kolumn som du vill uppdatera.<p>Du hittar kolumn-ID:t i informationen som returneras från modulen Läs en anslagstavla.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Column name]</td> 
-   <td>Ange eller mappa ett namn för den nya kolumnen.</td> 
+   <td>Ange eller mappa ett nytt namn för kolumnen.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL WIP Limit]</td> 
+   <td>Ange eller mappa en ny PIA-gräns för kolumnen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Söka efter en kolumn
+
+Sökmodulen returnerar information om kolumnen med det angivna namnet.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Ange eller mappa ID:t för den bräda som innehåller den kolumn som du vill hämta.<p>Du kan hitta ID:t för anslagstavlan i URL:en när du tittar på anslagstavlan i Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column Name]</td> 
+   <td>Ange eller mappa namnet på den kolumn som du vill hämta.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Uppdatera en kolumn
+
+Den här åtgärdsmodulen uppdaterar namnet eller PIA-gränsen för den angivna kolumnen.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Ange eller mappa ID:t för den bräda som innehåller den kolumn som du vill hämta.<p>Du kan hitta ID:t för anslagstavlan i URL:en när du tittar på anslagstavlan i Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column Name]</td> 
+   <td>Ange eller mappa namnet på den kolumn som du vill hämta.</td> 
   </tr> 
  </tbody> 
 </table>
