@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3283'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ Du kan skapa fält på följande sätt i Maestro:
 
 * Från början
 * Genom att ansluta posttyper
-* Importera posttyper med hjälp av en Excel- och CSV-fil
+* Importera posttyper med en Excel- eller CSV-fil
 * Genom att skapa en posttyp
 * Skapa en arbetsyta från en mall
 
-Mer information om Maestro-fält finns i [Fältöversikt](../fields/fields-overview.md)
+Mer information om Maestro-fält finns i [Fältöversikt](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Åtkomstkrav
 
@@ -93,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
    <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
+   <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p>
 </td>
   </tr>
 <tr>
@@ -210,7 +210,7 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 1. Klicka **Lägg till alternativ** för att lägga till så många alternativ som behövs. Det finns ingen gräns för hur många alternativ du kan lägga till i ett flervalsfält.
 1. (Valfritt) Dra och släpp varje alternativ manuellt i önskad ordning, eller välj
    **Sorteringsalternativ A-Z** om du vill att valen ska visas automatiskt i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Klicka på **x** till höger om ett val för att ta bort det.
+1. (Valfritt) Klicka på knappen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
 1. Klicka **Skapa**.
 
@@ -232,7 +232,7 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 
 1. Klicka **Lägg till alternativ** för att lägga till så många alternativ som behövs. Det finns ingen gräns för hur många alternativ du kan lägga till i ett envalsfält.
 1. (Valfritt) Dra och släpp varje alternativ manuellt i önskad ordning, eller välj **Sorteringsalternativ A-Z** om du vill att valen ska visas automatiskt i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Klicka på **x** till höger om ett val för att ta bort det.
+1. (Valfritt) Klicka på knappen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
 1. Klicka **Skapa**.
 
@@ -373,7 +373,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/maestro/
 
    Mer information om vilka uttryck som stöds finns i [Översikt över formelfält](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Lägg till fältnamn som de visas i Workfront Planning-gränssnittet för att referera till dem i en formel.
+1. Lägg till fältnamn som de visas i Workfront Planning för att referera till dem i en formel.
 
    >[!NOTE]
    >
@@ -388,7 +388,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/maestro/
 
 ### Folk
 
-Du kan använda fälttypen Personer för att lägga till en användare <!--, job role, or team--> till en post. Det här är ett typsnittsfält och du kan bara lägga till användare<!--, roles, or teams--> som redan finns i Workfront.
+Du kan använda fälttypen Personer för att lägga till en användare <!--, job role, or team--> till en post. Det här är ett typsnittsfält och du kan bara lägga till användare<!--, roles, or teams--> som redan finns i din Workfront-instans.
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Folk** fälttyp.
 
@@ -427,7 +427,7 @@ Du kan använda fälttypen Skapad av för att lägga till användaren som skapad
 
 ### Skapad den
 
-Du kan använda fälttypen Skapat för att lägga till datumet när en post skapades i en post. Det här är ett skrivskyddat fält som automatiskt fylls i med datumet (och eventuellt med tiden) när posten skapades.
+Du kan använda fälttypen Skapat för att lägga till datumet då posten skapades i en post. Det här är ett skrivskyddat fält som automatiskt fylls i med datumet (och eventuellt med tiden) när posten skapades.
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln väljer du **Skapad den** fälttyp.
 
@@ -514,7 +514,7 @@ Du kan skapa länkade postfält när du lägger till en ny anslutning mellan tv�
 
 Mer information om hur du ansluter posttyper för Workfront Planning finns i [Koppla posttyper](../architecture/connect-record-types.md)
 
-## Skapa fält genom att importera posttyper med en Excel- och CSV-fil
+## Skapa fält genom att importera posttyper med en Excel- eller CSV-fil
 
 Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 

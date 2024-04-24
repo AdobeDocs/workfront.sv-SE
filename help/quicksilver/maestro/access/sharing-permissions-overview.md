@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,11 @@ Du kan dela följande objekt:
   Information om hur licenstyper påverkar behörighetsnivåer för Workfront Planning finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systemadministratörer kan hantera och dela arbetsytor som andra användare har skapat.
 * Om du inte är systemadministratör kan du bidra till arbetsytor som skapats av andra om de delas med dig.
-* Du kan inte dela flera arbetsytor samtidigt.
+* Du kan inte dela arbetsytor eller vyer i grupp.
 * Du kan dela en arbetsyta eller vy med följande enheter:
    * Användare
    * Grupper
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan bara ges behörighet att hantera en vy.
 * Du kan dela en länk till en arbetsyta eller till en vy från en posttypssida med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan eller posttypssidan som visas i den valda vyn.
 
@@ -114,9 +115,28 @@ Följande behörigheter refererar till själva fälten och inte till värdena so
 
 Du måste tilldela separata behörigheter för att spela in vyer. Om du ger behörighet till arbetsytan ges inte behörighet till postvyerna på arbetsytan.
 
+<!--You can share views internally or publicly. -->
+
 |        | Hantera | Visa |
 |--------|--------|-------|
 | Redigera | ✓ |       |
 | Ta bort | ✓ |       |
+| Dela | ✓ |       |
 | Visa | ✓ | ✓ |
 | Använd | ✓ | ✓ |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->

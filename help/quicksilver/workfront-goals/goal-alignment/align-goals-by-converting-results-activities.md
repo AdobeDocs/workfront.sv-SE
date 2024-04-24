@@ -6,9 +6,9 @@ description: Du kan justera två mål manuellt eller konvertera resultaten och a
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ Mer information om hur du justerar två mål manuellt finns i [Justera mål geno
 
 Du måste ha följande innan du kan börja:
 
-* En layoutmall som innehåller området Mål på huvudmenyn.
 * Ett befintligt mål med befintliga resultat och aktiviteter.
 
   Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).

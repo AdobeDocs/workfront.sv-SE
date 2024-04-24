@@ -1,15 +1,17 @@
 ---
 title: Lägga till en omslagsbild till en post
-description: Du kan redigera postinformation i Adobe Workfront Planning och associera varje post med en omslagsbild för att anpassa postens sida.
+description: Du kan anpassa poster genom att lägga till en omslagsbild på postsidan i Adobe Workfront Planning när du redigerar en post.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Du kan redigera postinformation i Adobe Workfront Planning och associera varje post med en omslagsbild för att anpassa postens sida.
+Du kan anpassa poster genom att lägga till en omslagsbild på postsidan i Adobe Workfront Planning när du redigerar en post.
+
+Mer information om hur du redigerar poster finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
 Du måste skapa posttyper innan du kan börja skapa och redigera poster.
+
 Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 
 ## Åtkomstkrav
@@ -81,14 +86,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när det gäller omslagsbilder för postsidor
 
-Du kan anpassa postens sida genom att lägga till en omslagsbild. Bilden är unik för varje post och gäller inte för alla poster av samma typ.
+Du kan anpassa postens sida genom att lägga till en omslagsbild.
 
 Tänk på följande:
 
+* En omslagsbild är unik för en post och gäller inte för alla poster av samma typ.
 * Du kan bara lägga till bildfiler som omslagsbilder.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Du kan lägga till en omslagsbild till enskilda poster från postrutan i valfri vy eller från postsidan.
-* Du kan inte lägga till omslagsbilder i tabellvyn.
+* Du kan inte lägga till omslagsbilder som är infogade från någon postvy.
 
 ## Lägga till en omslagsbild till en post
 

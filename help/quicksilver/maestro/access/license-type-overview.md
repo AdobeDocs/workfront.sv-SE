@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ En användare med en lägre licenstyp har begränsade behörigheter till arbetsy
 
 >[!INFO]
 >
->**EXEMPEL:** Beställare (eller medarbetare, enligt den nya licensmodellen) kan inte bidra till eller hantera arbetsytor och deras objekt.
+>**EXEMPEL:**
+>
+>Beställare (eller medarbetare, enligt den nya licensmodellen) kan inte bidra till eller hantera arbetsytor och deras objekt.
 >
 >Det finns en indikation i delningsrutan om att användare inte kan beviljas behörighet att bidra till eller hantera en arbetsyta när de har en licens på lägre nivå.
 >
@@ -45,8 +47,10 @@ Tabellen nedan beskriver förhållandet mellan licenstypen för en användare i 
 Om du ger en användare behörighet till en arbetsyta får den även behörighet att spela in typer, poster och fält.
 
 
-| Adobe Workfront licenstyp | Tillåtna behörigheter i Adobe Workfront Planning |
+| Adobe Workfront licenstyp* | Tillåtna behörigheter i Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan skapa och hantera arbetsytor, posttyper och poster.<br> Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade. |
 | Ny: ljus <br> eller <br>Aktuell: Arbete | Användare kan bidra med och visa en arbetsyta som delas med dem samt posttyper och poster från den arbetsytan. <br> Användare kan skapa, redigera och ta bort poster på arbetsytorna där de har Contribute-behörighet. |
 | Nytt: Medarbetare <br> eller <br>Aktuell: Granskare eller begärande | Användarna kan visa de arbetsytor som delas med dem samt deras posttyper och poster. <br> Användarna kan inte skapa, redigera eller ta bort posttyper eller poster. |
+
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

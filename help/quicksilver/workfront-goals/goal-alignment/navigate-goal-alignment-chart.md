@@ -6,9 +6,9 @@ description: Använd delen Måljustering för att visa en helhetsbild av måljus
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,7 @@ Mer information om måljustering och hur du uppnår det finns i följande artikl
 
 ## Åtkomstkrav
 
-<!-- drafted for P&P release: 
-
-You must have the following to perform the activities described in this article:
+Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den här artikeln:
 
 <table style="table-layout:auto">
  <col>
@@ -34,104 +32,62 @@ You must have the following to perform the activities described in this article:
  <col>
  </col>
  <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-plan*</td>
+ <td>
+ <p>Ny plan: Välj eller senare</p>
+ eller
+ <p>Aktuell plan: Pro eller senare</p>
+ 
+ </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licens*</td>
+ <td>
+ <p>Ny licens: Medarbetare eller högre</p>
+ eller
+ <p>Aktuell licens: Begär eller högre</p>  </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produkt*</td>
+ <td>
+ <p> Nytt produktkrav, något av följande: </p>
+<ul>
+<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
+ <p>eller</p>
+ <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Åtkomstnivå</td>
+ <td> <p>Redigera åtkomst till mål</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objektbehörigheter</td>
+ <td>
+ <div>
+ <p>Visa eller högre behörigheter för målet för att visa det</p>
+ <p>Hantera behörigheter till målet för att redigera det</p>
+ <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
+ </div> </td>
+ </tr>
+<tr>
+<td role="rowheader"><p>Layoutmall</p></td>
+<td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+</td>
+</tr>
  </tbody>
 </table>
 
--->
-
-Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe WorkfrontLicens*</td> 
-   <td> <p>Begäran eller senare</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Du måste köpa ytterligare en licens för Adobe Workfront Goals för att få tillgång till de funktioner som beskrivs i den här artikeln. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till mål</p> <p><b>ANMÄRKNING</b><p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Bevilja åtkomst till Adobe Workfront-mål</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> 
-    <div> 
-     <p>Visa eller högre behörigheter för mål</p> 
-     <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-
-## Förutsättningar
-
-Du måste ha följande innan du kan börja:
-
-* En layoutmall som innehåller området Mål på huvudmenyn.
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Navigera i avsnittet Måljustering
 
 1. Klicka på **Huvudmeny** icon ![Ikon för huvudmenyn](../goal-alignment/assets/dots-main-menu-icon.png) i skärmens övre högra hörn och klicka sedan på **Mål**.
-
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. Klicka **Måljustering** i den vänstra panelen.
-1. Använd filtren i det övre högra hörnet av justeringsdiagrammet om du bara vill markera de mål som är viktiga för dig. Mer information om hur du använder filter i Workfront-mål finns i [Filtrera information i Adobe Workfront mål](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+1. Klicka **Måljustering** till vänster.
+1. Använd filtren i det övre högra hörnet av justeringsdiagrammet om du bara vill markera de mål som är viktiga för dig. Mer information om hur du använder filter i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    De mål som matchar dina filter visas i justeringsdiagrammet på kort.
 
@@ -146,7 +102,7 @@ Du måste ha följande innan du kan börja:
       <td> <p>Detta är den period för vilken målet är öppet. Målet måste vara uppnått vid periodens slutdatum. Workfront-mål beräknar förloppet för målet baserat på målperiodens längd och aktuellt datum.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Förloppsindikatorer</td> 
+      <td role="rowheader">Progress-indikatorer</td> 
       <td>Antalet förloppsindikatorer för målet. Förloppsindikatorer kan vara anpassade till mål, resultat eller aktiviteter. </td> 
      </tr> 
      <tr> 
@@ -204,9 +160,9 @@ Du måste ha följande innan du kan börja:
    * Kopplade mål som tidigare tagits bort av filtret visas nu i justeringsdiagrammet.
    * Filtret i det övre högra hörnet markeras med gult för att ange att det för närvarande inte används.
 
-      ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
-      En länk för återanvändning av filter visas till vänster om filternamnet.
+     En länk för återanvändning av filter visas till vänster om filternamnet.
 
 1. (Valfritt) Klicka på **Återanvänd filter** för att återgå till det ursprungliga resultatet och visa målhierarkin.
 1. (Valfritt) Håll muspekaren över förloppsindikatorn för att förstå var målförloppet ska vara för den aktuella dagen.
