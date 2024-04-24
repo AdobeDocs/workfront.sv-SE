@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [D
        <p><b>ANMÄRKNING</b>:  
        <ul> 
        <li> <p>Användare som saknar de behörigheter som du anger här kan inte se anpassade fält och widgetar i avsnittet. </p> <p>Detta gäller även om du visar fältets värden i rapporter eller använder dem i beräknade fält i textlägesrapporter.</p> </li> 
+       <li><p>För anpassade formulär för begäran/utfärdande: Om åtkomst till vyn krävs för att se fälten i avsnittsbrytningen, men administratörsåtkomst krävs för att redigera fälten, kommer avsnittet och alla fält inte att vara synliga för icke-administratörer när de fyller i formuläret. När begäran har skapats kan användare med behörigheten Visa visa fälten i avsnittet.</p></li>
        <li> <p>Om du kopplar flera objekttyper till formuläret kan du ändra de visnings- och redigeringsbehörigheter som är tillgängliga i de här stegen. Mer information finns i <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Hur flera objekttyper kan påverka avsnittsbrytningsbehörigheter i ett anpassat formulär</a> i den här artikeln.</p> </li> 
         </ul> </p> </td> 
      </tr> 
