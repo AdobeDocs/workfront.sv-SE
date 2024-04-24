@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
+source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Om du vill lösa en konflikt väljer du en åtgärd i kolumnen Distributionsåtg
 
   Du kan också välja vilka objekt som ska skrivas över även om en kollision inte upptäcks.
 
-  Mer information om hur överskrivning påverkar överordnade och underordnade objekt finns i
+  Mer information om hur överskrivning påverkar överordnade och underordnade objekt finns i [Skriva över överordnade och underordnade objekt](#overwriting-parent-and-child-objects) i den här artikeln.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
