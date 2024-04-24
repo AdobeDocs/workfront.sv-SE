@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -223,3 +223,4 @@ Om du lägger till en annan objekttyp i formuläret (Portfolio, Program, Dokumen
 >Du lägger till objekttypen Portfolio i formuläret, vilket innebär att behörighetsalternativet Begränsad redigering inte längre är tillgängligt för avsnittsbrytningen i formuläret.
 >
 >Ett meddelande på skärmen uppmanar dig att växla till behörigheten Redigera, som är det mest lika alternativet för Begränsad redigering, och som är kompatibelt med både objekttypen och objekttypen Portfolio.
+
