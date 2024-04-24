@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ Du kan utföra den här processen i Workfront genom att skapa ett paket med obje
 
 ## Objekt som stöds för miljöbefordran
 
-Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flytta konfigurationsrelaterade objekt från en miljö till en annan. Det stöder inte möjligheten att flytta transaktionsobjekt (med begränsade undantag).
+Funktionen för miljöfrämjande åtgärder är avsedd att göra det möjligt att flytta konfigurationsrelaterade objekt från en miljö till en annan. Detta är objekt som kan konfigureras, till exempel projekt, team eller anpassade formulär.
+
+Miljökampanjen stöder inte möjligheten att flytta transaktionsobjekt (med begränsade undantag). Transaktionsobjekt kan inte konfigureras. Exempel är uppdateringar av systemaktivitet och korrekturbeslut.
 
 * [Arbetsobjekt](#work-objects)
 * [Rapporteringsobjekt](#reporting-objects)
@@ -124,15 +126,15 @@ Dessa statusvärden är följande:
  <tbody> 
   <tr> 
    <td>OMONTERAD</td> 
-   <td><p>Den här statusen tilldelas automatiskt och representerar ett paket som har sparats men ännu inte monterats. </p><p>Den här statusen kan inte anges direkt av en kund.</p></td> 
+   <td><p>Den här statusen tilldelas automatiskt och representerar ett paket som har sparats men ännu inte monterats. </p><p>Den här statusen kan inte anges direkt av en användare.</p></td> 
   </tr> 
   <tr> 
    <td>SAMMANSÄTTNING</td> 
-   <td><p>Den här statusen tilldelas automatiskt medan objekt monteras. </p><p>Sammanfogning avser den automatiska processen att identifiera objekt och underobjekt som ska ingå i ett paket och lägga till dessa objekt och deras data i paketet.</p><p>Den här statusen kan inte anges direkt av en kund.</p></td> 
+   <td><p>Den här statusen tilldelas automatiskt medan objekt monteras. </p><p>Sammanfogning avser den automatiska processen att identifiera objekt och underobjekt som ska ingå i ett paket och lägga till dessa objekt och deras data i paketet.</p><p>Den här statusen kan inte anges direkt av en användare.</p></td> 
   </tr> 
   <tr> 
    <td>UTKAST</td> 
-   <td><p>Den här statusen tilldelas när en sammansättningsprocess avslutas eller när ett tomt kampanjpaket skapas.</p><p>Det är möjligt för en kund att flytta kampanjpaketet tillbaka till den här statusen.</p><p>I den här statusen kan erbjudandepaketet inte installeras i någon miljö.</p></td> 
+   <td><p>Den här statusen tilldelas när en sammansättningsprocess avslutas eller när ett tomt kampanjpaket skapas.</p><p>Användaren kan flytta erbjudandepaketet tillbaka till den här statusen.</p><p>I den här statusen kan erbjudandepaketet inte installeras i någon miljö.</p></td> 
   </tr> 
   <tr> 
    <td>TESTNING</td> 
@@ -144,11 +146,11 @@ Dessa statusvärden är följande:
   </tr> 
   <tr> 
    <td>INAKTIVERAT</td> 
-   <td><p>Den här statusen används för att dölja tidigare använda erbjudandepaket som inte kommer att installeras i någon miljö i framtiden.</p><p>När ett paket har den här statusen kan det inte installeras i någon miljö.</p><p>När paketstatusen är INAKTIVERAD visas <code>retiredAt</code> datumet anges automatiskt till den aktuella tidsstämpeln för begäran.</p><p>Vi rekommenderar att du använder den här statusen framför<code>DELETE /package</code> slutpunkten eftersom den kan hämtas och installationshistoriken sparas för alla distributioner som görs med det här paketet.</p></td> 
+   <td><p>Den här statusen används för att dölja tidigare använda erbjudandepaket som inte kommer att installeras i någon miljö i framtiden.</p><p>När ett paket har den här statusen kan det inte installeras i någon miljö.</p><p>När paketstatusen är INAKTIVERAD visas <code>retiredAt</code> datumet anges automatiskt till den aktuella tidsstämpeln för begäran.</p><p>Vi rekommenderar att du använder den här statusen framför <code>DELETE /package</code> slutpunkten eftersom den kan hämtas och installationshistoriken sparas för alla distributioner som görs med det här paketet.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-steget måste du starta extraheringsprocessen igen.</p></td> 
+   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-scenen måste du starta monteringsprocessen igen.</p><p>Mer information om hur du sammanställer ett paket finns i avsnittet <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Redigera eller sätta ihop ett befintligt paket</a> i artikeln Skapa eller redigera ett paket med miljökampanjer.</td> 
   </tr> 
   </tbody> 
 </table>
