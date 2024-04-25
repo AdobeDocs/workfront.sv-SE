@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -162,3 +162,4 @@ Ikonerna längst upp till höger i kolumnen visar hur många kort som finns i ko
    Klicka på **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Move]**. Sedan på **[!UICONTROL Move Item]** välj en annan kolumn och markera **[!UICONTROL Move]**.
 
 1. (Valfritt) Klicka på **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) och markera **[!UICONTROL Delete]**.
+

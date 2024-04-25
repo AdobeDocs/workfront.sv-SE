@@ -6,7 +6,7 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -109,3 +109,4 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 1. Klicka **[!UICONTROL All Boards]** för att gå tillbaka till panelernas kontrollpanel.
 
    Du kan också hitta den nedrullningsbara menyn som är märkt med namnet på aktuell anslagstavla och klicka på den för att växla till en annan anslagstavla.
+
