@@ -6,9 +6,9 @@ description: Från [!UICONTROL boards] kan du skapa en ny panel eller redigera e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,8 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    1. (Valfritt) Klicka på [!UICONTROL **Använd avancerade filter**] om du vill visa ytterligare filteralternativ.
 
       Detta är samma process som när du skapar ett filter för en inloppskolumn. Mer information finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      Om du uppdaterar filtren på ett dynamiskt kort efter att det har skapats, återställs kortinställningar som inte ingår i Workfront-aktiviteten eller -problemet (till exempel taggar).
 
    1. När du lagt till filtren klickar du på [!UICONTROL **Skapa anslagstavla**].
 

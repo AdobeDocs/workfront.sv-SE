@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan också lägga till en inloppskolumn på din anslagstavla som automatiskt 
 
 Endast en inloppskolumn får finnas på en rityta, och den visas alltid som kolumnen längst till vänster.
 
-Inloppskolumnen är inte tillgänglig på ett dynamiskt bord.
+Inloppskolumnen är inte tillgänglig på ett dynamiskt bord. Du kan dock uppdatera filtren som definierar vilka kort som ska föras in på en dynamisk anslagstavla. När du ändrar de här filtren på ett dynamiskt ritbord återställs kortinställningar som inte ingår i Workfront-aktiviteten eller -problemet (till exempel taggar).
 
 Intagskolumnen är begränsad till 300 uppgifter och 300 problem. Standardordningen för objekten i inloppskolumnen är följande:
 
