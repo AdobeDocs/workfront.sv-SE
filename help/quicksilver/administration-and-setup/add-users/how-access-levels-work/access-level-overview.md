@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1702'
 ht-degree: 0%
 
 ---
@@ -263,6 +263,7 @@ Användare med denna inbyggda åtkomstnivå:
 
 * Kan göra förfrågningar och uppdatera dem
 * Kan överföra och godkänna dokument
+* Kan godkänna projekt, uppgifter och ärenden
 * Kan granska status för de utgåvor som de har skickat in
 * Kan tilldelas arbetsobjekt men kan inte slutföra dem
 * Kan bara komma åt begäranden från huvudmenyn. Mer information om köer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
