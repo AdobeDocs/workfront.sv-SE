@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,17 @@ ht-degree: 0%
 
    Sidan Nytt kampanjpaket öppnas.
 
-1. i **Paketnamn** anger du ett namn för paketet.
+1. I **Paketnamn** anger du ett namn för paketet.
 1. I **Beskrivning** anger du en beskrivning för det här paketet.
 1. Om du vill lägga till ett objekt i paketet klickar du på **Lägg till objekt** i den vänstra navigeringen och välj den typ av objekt som du vill lägga till.
 1. Markera ett eller flera objekt i listan eller skriv namnet i sökfältet och markera objektet när det visas i listan. Du kan markera mer än ett objekt i listan.
 1. Klicka **Lägg till (X-objekt)** om du vill lägga till de markerade objekten i paketet.
 
-   Om du t.ex. har valt tre projekt att lägga till i projektet, säger knappen **Lägg till 3 projekt**.
+   >[!INFO]
+   >
+   >**Exempel**
+   >
+   >Om du har valt tre projekt att lägga till i projektet, säger knappen **Lägg till 3 projekt**.
 
    Objekten som du har lagt till visas i området Paketinnehåll till höger på sidan.
 
@@ -59,7 +63,7 @@ ht-degree: 0%
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
 1. Välj **System** i den vänstra navigeringen väljer du **Miljömarknadsföring**.
 1. Välj paketet i listan som visas.
-1. (Villkorligt) Om du vill visa arkiverade (inaktiverade) paket aktiverar du **Visa pensionerade paket** alternativ.
+1. (Villkorligt) Om du vill visa inaktiverade paket aktiverar du **Visa pensionerade paket** alternativ.
 1. (Valfritt) Om du vill visa innehållet, inklusive alla objekt och deras underordnade objekt, klickar du på listrutepilen bredvid objekttypen i **Innehåll** -avsnitt.
 1. (Valfritt) Om du vill visa tidigare installationer och installationsförsök för det här paketet klickar du på **Distributioner**.
 1. (Valfritt) Om du vill redigera paketet klickar du på **Redigera paket** längst upp till höger på skärmen.

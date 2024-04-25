@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Installera ett miljöerbjudande
+
+När du har skapat ett paket kan du installera det i en annan miljö.
+
+## Förutsättningar
+
+Du måste ha skapat ett paket innan du kan installera det.
+
+Instruktioner finns i [Skapa eller redigera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
