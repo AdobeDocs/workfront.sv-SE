@@ -8,16 +8,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Skapa ett läsarkonto (tjänstkonto) för Snowflake
 
-För att få tillgång till data i Workfront-sjön måste du först skapa ett läsarkonto för Snowflake. Dessutom måste du lägga till IP-adresser i tillåtelselista för alla externa verktyg som du planerar att ansluta till data.
+För att få tillgång till data i Workfront-sjön måste du först skapa ett Snowflake-läsarkonto (eller tjänstkonto) för varje ny anslutning. När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på **Dataåtkomst** sida (**Huvudmeny** > **Inställningar** > **System** > **Dataåtkomst**) under **Befintliga anslutningar** -fliken.
+
+Mer information om hur du använder en nyligen skapad anslutning med en extern produkt finns i [Upprätta en anslutning till Workfront Data Lake](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Åtkomstkrav
 
@@ -68,28 +70,12 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 1. Nu kan du använda ditt användarnamn och nya lösenord för att komma åt din Workfront-datasjön i Snowflake eller det företagsvisualiseringsverktyg som du väljer.
 
-## Lägg till IP-adresser i tillåtelselista
-
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Inställningar**.
-
-1. Klicka på i den vänstra panelen **System** > **Dataåtkomst**.
-
-1. Klicka på **Tillåtna IP-adresser** klickar du på **Lägg till en IP-adress i Tillåtelselista** -knappen.
-
-1. Ange ett namn för IP-adressen i **IP-adressbeskrivning** och ange IP-adressen för det verktyg du vill använda i **IP-adress** och sedan klicka **Lägg till IP i Tillåtelselista**.
-
-   ![Lägg till IP-adress](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
-## Återkalla ett läsarkonto eller ta bort en IP-adress från tillåtelselista
+## Återkalla ett läsarkonto
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Inställningar**.
 
 1. Klicka på i den vänstra panelen **System** > **Dataåtkomst**.
 
 1. Klicka på papperskorgsikonen ![Ikonen Ta bort](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) till höger om det konto du vill återkalla.
-
-   ELLER
-
-   Klicka på **Tillåtna IP-adresser** och sedan klicka på ikonen för kontrollpanelen ![Ikonen Ta bort](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) till höger om den IP-adress som du vill ta bort.
 
 1. I fönstret som visas markerar du kryssrutan för att bekräfta och klickar sedan på **Ta bort**.

@@ -6,9 +6,9 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
 
   >[!NOTE]
   >
-  >Du måste ha behörighet att skapa uppgifter för att kunna skapa uppgifter i Att göra-widgeten.
+  >Du måste ha behörighet att skapa uppgifter för att kunna skapa uppgifter i Att göra-widgeten, och bara personliga uppgifter som anges av den aktuella användaren visas i widgeten.
 
 Som standard innehåller startsidan några specifika widgetar baserat på din licenstyp. Tabellerna nedan visar vilka widgetar användare av varje licenstyp ser när de först navigerar till Nytt hem.
 

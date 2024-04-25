@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Abonnenterna kan koppla samman sina valfria affärsinformationsverktyg (Tableau,
 Mer information om Workfront Data Lake finns i följande artiklar:
 
 * [Betainformation för Workfront Data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
-* [Skapa ett läsarkonto](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Skapa ett läsarkonto (tjänstkonto) för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Upprätta en anslutning till Workfront Data Lake](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Lake Data Didictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
-* [Utbyt data i sjön med verktyg för affärsanalys och externa datalager](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 <!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->
