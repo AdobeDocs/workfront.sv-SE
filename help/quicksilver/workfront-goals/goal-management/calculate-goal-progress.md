@@ -6,9 +6,9 @@ description: Målutvecklingen styrs av förloppsindikatorer som aktiviteter, res
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -81,23 +81,23 @@ Följande punkter betraktas som förloppsindikatorer för målen:
 
 * Resultat
 
-   Mer information om hur du lägger till resultat i mål finns i [Lägg till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Mer information om hur du lägger till resultat i mål finns i [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Verksamhet
 
-   Mer information om hur du lägger till aktiviteter, inklusive projekt, till mål finns i [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Mer information om hur du lägger till aktiviteter, inklusive projekt, till mål finns i [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Justerade underordnade mål
 
-   Mer information om mål för överordnade och underordnade finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Mer information om mål för överordnade och underordnade finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-   Workfront Target beräknar den faktiska procentandelen som slutförs med följande formel:
+  Workfront Target beräknar den faktiska procentandelen som slutförs med följande formel:
 
-   ```
-   Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
-   ```
+  ```
+  Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
+  ```
 
-   Om ett mål till exempel har ett resultat som är 20 % färdigt, ett manuellt förloppsindikator som är 30 % färdigt, ett projekt som är 10 % färdigt och ett mål för barn som är 40 % färdigt, är målprocenten 25 %.
+  Om ett mål till exempel har ett resultat som är 20 % färdigt, ett manuellt förloppsindikator som är 30 % färdigt, ett projekt som är 10 % färdigt och ett mål för barn som är 40 % färdigt, är målprocenten 25 %.
 
 ### Förväntad procent slutfört {#expected-percent-complete}
 
@@ -158,21 +158,21 @@ Tabellen nedan visar målvillkorsetiketterna och målförloppsprocenten som är 
   <tr> 
    <td> <p><span>På mål</span> </p> </td> 
    <td>Målet fungerar som förväntat och det är mycket sannolikt att det kommer att vara färdigt i tid. </td> 
-   <td>90-100%</td> 
+   <td>90-100 %</td> 
    <td>Grön</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
    <td> <p><span>Risk</span> </p> </td> 
    <td>Målet släpar efter, men det kan fortfarande vara möjligt att slutföra det i tid. </td> 
-   <td>70-89.99%</td> 
+   <td>70-89,99 %</td> 
    <td>Gul</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
    <td> <p><span>I problem</span> </p> </td> 
    <td> <p>Det är mycket troligt att målet inte kommer att bli färdigt i tid. </p> </td> 
-   <td>0-69.99%</td> 
+   <td>0-69,99 %</td> 
    <td>Röd</td> 
    <td><img src="assets/in-trouble-icon-condition.png" alt="in_trouble_icon_condition.png"></td> 
   </tr> 

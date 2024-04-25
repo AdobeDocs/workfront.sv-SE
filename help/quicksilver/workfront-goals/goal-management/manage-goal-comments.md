@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-licens*</td>
+ <td role="rowheader">Adobe Workfront-licens</td>
  <td>
- <p>Ny licens: Medarbetare eller högre</p>
- eller
- <p>Aktuell licens: Begär eller högre</p> </td>
+ <p>Alla</td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
@@ -65,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  </tr>
  <tr>
  <td role="rowheader">Åtkomstnivåkonfiguration</td>
- <td> <p>Visa eller öka åtkomsten till mål</p> <p><b>ANMÄRKNING</b><p>Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information finns i <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Ge åtkomst till Adobe Workfront mål</a></span></td>
+ <td> <p>Visa eller öka åtkomsten till mål</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Objektbehörigheter</td>
@@ -76,10 +74,15 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 

@@ -1,128 +1,84 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Filtrera information i Adobe Workfront mål
+title: Filtrera information i Adobe Workfront-mål
 description: Du kan visa mål som du eller någon annan har lagt till i Adobe Workfront-mål. Mer information om hur du skapar mål finns i Skapa mål i Adobe Workfront-mål. När du tittar på dina mål kan du filtrera information i Workfront-mål så att du bara ser de mål som är viktiga för dig.
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
 
-# Filtrera information i Adobe Workfront mål
+# Filtrera information i Adobe Workfront-mål
 
 Du kan visa mål som du eller någon annan har lagt till i Adobe Workfront-mål. Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md). När du tittar på dina mål kan du filtrera information i Workfront-mål så att du bara ser de mål som är viktiga för dig.
 
 ## Åtkomstkrav
 
-<!--drafted - replace the table below with this one when P&P releases: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
--->
-
 Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskrivs i den här artikeln:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Du måste köpa ytterligare en licens för Adobe Workfront Goals för att få tillgång till de funktioner som beskrivs i den här artikeln. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomsten till mål</p> <p><b>ANMÄRKNING</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront</td>
+ <td>
+ <p>Alla</p>
 
-<p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Bevilja åtkomst till Adobe Workfront-mål</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> 
-    <div> 
-     <p>Visa eller öka behörigheter för mål</p> 
-     <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licens*</td>
+ <td>
+ <p>Ny licens: Medarbetare eller högre</p>
+ eller
+ <p>Aktuell licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produkt*</td>
+ <td>
+ <p> Nytt produktkrav, något av följande: </p>
+<ul>
+<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
+ <p>eller</p>
+ <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Åtkomstnivå</td>
+ <td> <p>Redigera åtkomst till mål</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objektbehörigheter</td>
+ <td>
+  <div>
+  <p>Visa eller högre behörigheter för målet för att visa det</p>
+  <p>Hantera behörigheter till målet för att redigera det</p>
+  <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-
-## Förutsättningar
-
-Du måste ha följande innan du kan börja:
-
-* En layoutmall som innehåller området Mål på huvudmenyn.
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Översikt över filter i Workfront-mål
 
 >[!NOTE]
 >
->För att effektivt hitta och fokusera på rätt mål rekommenderar vi att du använder filter i Workfront-mål. På så sätt kan du visa rätt information innan du börjar hantera mål som är viktiga för dig. Som standard visar Workfront-mål alla mål i systemet.
+>För att effektivt hitta rätt mål rekommenderar vi att du använder filter i Workfront-mål. På så sätt kan du visa rätt information innan du börjar hantera mål som är viktiga för dig. Som standard visar Workfront-mål alla mål i systemet.
 
 Du kan hitta och filtrera efter mål i följande avsnitt av målområdet i Workfront:
 
@@ -140,7 +96,7 @@ Tänk på följande när du arbetar med filter i Workfront-mål:
 
 * Du kan skapa och använda ett filter utan att spara det, eller så kan du spara ett filter och återanvända det senare.
 
-   Följande scenarier finns:
+  Följande scenarier finns:
 
    * När du sparar ett filter blir det standardfiltret för dig varje gång du loggar in på Workfront-mål.
    * När du tillämpar ett filter utan att spara det kan du återgå till de ursprungliga listorna genom att uppdatera sidan.
@@ -162,7 +118,7 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
 
 1. Gå till Workfront mål.
 
-   Mer information om hur du kommer åt Workfront-mål finns på [Få åtkomst till och öppna mål i Adobe Workfront-mål](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Mer information om hur du får åtkomst till Workfront-mål finns på [Få åtkomst till och öppna mål i Adobe Workfront-mål](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    Som standard visas avsnittet Mållista.
 
@@ -180,7 +136,7 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
 
    * Klicka på något av följande fördefinierade filter om du bara vill visa mål för följande ägare:
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -198,8 +154,8 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
         <td>Mina team</td> 
         <td> <p>De mål som något av dina team har valts som ägare för. </p> <p><b>TIPS</b>
 
-      Inga mål visas när du inte har tilldelats några team. </p> </td>
-      </tr> 
+     Inga mål visas när du inte har tilldelats några team. </p> </td>
+     </tr> 
        <tr> 
         <td>Mina grupper</td> 
         <td>De mål som någon av dina grupper har valts som ägare för. </td> 
@@ -207,7 +163,7 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
        <tr> 
         <td>Företag</td> 
         <td> <p>De mål som är kopplade till din organisation. </p> <p><b>TIPS</b>
-        <p>I Adobe Workfront Goals visar filtret Company de mål som din organisation har valts som ägare för. </p> <p>Du kan inte söka efter företag som använder det här fältet. Endast den organisation som äger din Workfront-instans är markerad som standard. </p> </p> </td> 
+        <p>I Adobe Workfront Goals visar filtret Company de mål som din organisation har valts som ägare för. </p> <p>Du kan inte söka efter företag som använder det här fältet. Som standard är det bara den organisation som äger din Workfront-instans som är vald. </p> </p> </td> 
        </tr> 
       </tbody> 
      </table>
@@ -216,7 +172,7 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
 
    * Klicka **Nytt filter** om du vill skapa ett nytt filter väljer du bland följande alternativ för att anpassa det nya filtret:
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -226,7 +182,7 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
        </tr> 
        <tr> 
         <td role="rowheader">Status</td> 
-        <td> <p>Välj en status i listrutan bland följande alternativ:</p> 
+        <td> <p>Välj en status på den nedrullningsbara menyn bland följande alternativ:</p> 
          <ul> 
           <li> <p>Aktiv</p> </li> 
           <li> <p>Utkast</p> </li> 
@@ -248,8 +204,8 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
         <td> <p>Börja skriva namnet på en ägare och markera den när den visas i listan. </p> <p>Du kan skriva namnen på användare, team, grupper eller namnet på din organisation eller välja bland fördefinierade alternativ. </p> <p>Följande fördefinierade filteralternativ avser alltid den användare som är inloggad: </p> 
          <ul> 
           <li> <p><strong>Me</strong>: Visar mål där du är ägare.</p> </li> 
-          <li> <p><strong>Mitt hemteam</strong> och <strong>Alla mina team</strong>: Visar mål där antingen ditt hemteam eller något av dina team har utsetts till ägare. </p> <p>Tips: Inga mål visas när du inte har tilldelats några team. </p> </li> 
-          <li> <p><strong>Min hemgrupp</strong> och <strong>Alla mina grupper</strong>: Visar mål där din hemgrupp eller någon av dina grupper har utsetts till ägare.</p> </li> 
+          <li> <p><strong>Mitt hemteam</strong> och <strong>Alla mina team</strong>: Visar mål där antingen ditt hemteam eller något av dina team har utsetts till ägare. </p> <p>Tips! Inga mål visas när du inte är tilldelad några team. </p> </li> 
+          <li> <p><strong>Min hemgrupp</strong> och <strong>Alla mina grupper</strong>: Visar mål där antingen din hemgrupp eller någon av dina grupper har utsetts till ägare.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
@@ -270,11 +226,11 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
 
 1. Klicka **Spara** om du vill spara filtret så att det kan användas senare och sedan lägga till ett namn för filtret i **Lägg till filternamn** fält och klicka **Klar**.
 
-   Detta sparar filtret i **Sparad** i filterverktyget. Du kan använda det här filtret i framtiden.
+   Detta sparar filtret i **Sparad** i filterverktyget. Du kan använda detta filter i framtiden.
 
    Det senast sparade och tillämpade filtret visas som standard nästa gång du loggar in på Workfront igen
 
-1. (Valfritt) Klicka på **vänsterpil** nästa **Nytt filter** för att avsluta filterverktyget och återgå till filterlistan.
+1. (Valfritt) Klicka på **vänsterriktad pil** nästa **Nytt filter** för att avsluta filterverktyget och återgå till filterlistan.
 1. (Valfritt) Håll pekaren över namnet på ett eget filter och klicka på **Mer** menyn och klicka sedan på **Ta bort** sedan **Ta bort**. Filtret tas bort och du kan inte återställa det.
 
    >[!TIP]

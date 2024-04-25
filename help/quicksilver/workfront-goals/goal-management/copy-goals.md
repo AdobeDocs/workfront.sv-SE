@@ -6,9 +6,9 @@ description: Du kan kopiera mål i Adobe Workfront-mål för att skapa ett mål.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -19,117 +19,70 @@ Du kan kopiera mål i Adobe Workfront-mål för att skapa ett mål. En del av de
 
 ## Åtkomstkrav
 
-<!--drafted for P&P release: 
-
-You must have the following:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 Du måste ha följande:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Du måste köpa ytterligare en licens för Adobe Workfront Goals för att få tillgång till de funktioner som beskrivs i den här artikeln. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till mål eller högre</p> <p><b>ANMÄRKNING</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront</td>
+ <td>
+ <p>Alla</p>
 
-<p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Bevilja åtkomst till Adobe Workfront-mål</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> 
-    <div> 
-     <p>Hantera behörigheter för målet</p> 
-     <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licens*</td>
+ <td>
+ <p>Ny licens: Medarbetare eller högre</p>
+ eller
+ <p>Aktuell licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produkt*</td>
+ <td>
+ <p> Nytt produktkrav, något av följande: </p>
+<ul>
+<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
+ <p>eller</p>
+ <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Åtkomstnivå</td>
+ <td> <p>Redigera åtkomst till mål</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objektbehörigheter</td>
+ <td>
+  <div>
+  <p>Visa eller högre behörigheter för målet för att visa det</p>
+  <p>Hantera behörigheter till målet för att redigera det</p>
+  <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-
-## Förutsättningar
-
-Du måste ha följande innan du kan börja:
-
-* En layoutmall som innehåller området Mål på huvudmenyn.
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när du kopierar mål
 
-Du måste ha tillgång till Redigera mål på åtkomstnivån innan du kan kopiera mål. Mer information om hur du beviljar åtkomst till mål finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Du måste ha tillgång till Redigera mål på åtkomstnivån innan du kan kopiera mål. Mer information om hur du beviljar åtkomst till mål finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Några av orsakerna till att du vill kopiera ett befintligt mål är:
 
 * När du vill återskapa samma mål för nästa period vid slutet av en tidsperiod (kvartal eller år).
 * När målet inte kan slutföras i slutet av en tidsperiod och du vill arbeta med det under en annan tidsperiod.
-* När flera teammedlemmar har liknande mål och du kan behöva skapa ett för var och en av dem.
+* När flera teammedlemmar har liknande mål och du kan behöva skapa ett för varje mål.
 
 >[!TIP]
 >
@@ -140,9 +93,9 @@ Tänk på följande när du kopierar mål:
 * All information om målet kopieras också till det nya målet.
 * Du kan välja att kopiera resultatet av ett befintligt mål. Namnet på resultatet överförs till det nya målet, men det aktuella förloppet för resultaten på det befintliga målet kopieras inte till det nya målet. De kopierade resultaten tilldelas som standard till samma ägare.
 
-   >[!NOTE]
-   >
-   >Om den ursprungliga ägaren togs bort eller inaktiverades från Workfront tilldelas det nya resultatet till den inloggade användaren.
+  >[!NOTE]
+  >
+  >Om den ursprungliga ägaren togs bort eller inaktiverades från Workfront tilldelas det nya resultatet till den inloggade användaren.
 
 * Du kan inte kopiera aktiviteter för ett mål när du kopierar målet.
 
@@ -227,23 +180,22 @@ To copy goals in the Production environment:
    * **Målnamn**: Namnet på det nya målet. Standardnamnet för det kopierade målet är &quot;Kopia av &lt;original goal=&quot;&quot;>&quot;.
    * **Period**: Den tidsperiod under vilken du vill uppnå målet. Välj en tidsperiod i listrutan
 
-      eller
+     eller
 
-      Välj **Aktivera anpassade datum** för att ange anpassade datum för målets **Starta** och **Slutdatum**. Inställningen Aktivera anpassade datum är inaktiverad som standard.
+     Välj **Aktivera anpassade datum** för att ange anpassade datum för målets **Starta** och **Slutdatum**. Inställningen Aktivera anpassade datum är inaktiverad som standard.
 
-      >[!TIP]
-      >
-      >   Om du avmarkerar Aktivera anpassade datum återställs det ursprungliga målets tidsperiod.
+     >[!TIP]
+     >
+     >   Om du avmarkerar Aktivera anpassade datum återställs det ursprungliga målets tidsperiod.
 
-      * **Målägare**: Målets ägare. Det kan vara en användare, ett team, en grupp eller ett företag. Standardvärdet är ägaren till det ursprungliga målet.
+      * **Målägare**: Ägaren till målet. Det kan vara användare, team, grupp eller företag. Standardvärdet är ägaren till det ursprungliga målet.
       * **Beskrivning**: Ytterligare information om målet.
       * **Kopiera resultat**: Välj det här alternativet om du vill överföra resultaten från det aktuella målet till det kopierade målet. Detta duplicerar de ursprungliga resultaten och kopplar dem till det kopierade målet. Resultatet av det kopierade målet har samma ägare, namn och uppmätta värden som det ursprungliga målets resultat.
 
-         >[!NOTE]
-         >
-         >* Förloppet för det ursprungliga resultatet överförs inte till det kopierade målet.
-         >* Om den ursprungliga ägaren togs bort eller inaktiverades från Workfront tilldelas det nya resultatet till den inloggade användaren.
-
+        >[!NOTE]
+        >
+        >* Förloppet för det ursprungliga resultatet överförs inte till det kopierade målet.
+        >* Om den ursprungliga ägaren togs bort eller inaktiverades från Workfront tilldelas det nya resultatet till den inloggade användaren.
 
 1. Klicka **Kopiera mål**.
 
@@ -253,10 +205,9 @@ To copy goals in the Production environment:
    >
    >Om du inte har kopierat resultaten från det ursprungliga målet måste du först koppla det nya målet till en förloppsindikator innan du kan aktivera det och börja arbeta mot att uppnå det.
    >Mer information om hur du associerar mål med förloppsindikatorer finns i följande artiklar:
-   >* [Lägg till resultat i mål i Adobe Workfront](../results-and-activities/add-results-to-goals.md)
+   >* [Lägga till resultat i mål i Adobe Workfront](../results-and-activities/add-results-to-goals.md)
    >* [Lägga till aktiviteter i mål i Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
    >* [Justera mål genom att koppla dem till Adobe Workfront mål](../goal-alignment/align-goals-by-connecting-them.md)
-
    >
    >Mer information om hur du aktiverar mål finns i [Aktivera mål](../goal-management/activate-goals.md).
 

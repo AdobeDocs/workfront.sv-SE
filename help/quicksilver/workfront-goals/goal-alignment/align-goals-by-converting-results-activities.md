@@ -6,9 +6,9 @@ description: Du kan justera två mål manuellt eller konvertera resultaten och a
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -22,56 +22,54 @@ Mer information om hur du justerar två mål manuellt finns i [Justera mål geno
 
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront-plan*</td>
-   <td>
-   <p>Ny plan: Välj eller senare</p>
-   eller
-   <p>Aktuell plan: Pro eller senare</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront-licens*</td>
-   <td>
-   <p>Aktuell licens: Medarbetare eller högre</p>
-   eller
-   <p>Äldre licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Produkt*</td>
-   <td>
-   <p> Nytt produktkrav, något av följande: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront</td>
+ <td>
+ <p>Alla</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licens*</td>
+ <td>
+ <p>Aktuell licens: Medarbetare eller högre</p>
+ eller
+ <p>Äldre licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produkt*</td>
+ <td>
+ <p> Nytt produktkrav, något av följande: </p>
 <ul>
 <li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
-   <p>eller</p>
-   <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Åtkomstnivå</td>
-   <td> <p>Redigera åtkomst till mål</p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Objektbehörigheter</td>
-   <td>
-    <div>
-     <p>Visa eller högre behörigheter för målet för att visa det</p>
-     <p>Hantera behörigheter till målet för att redigera det</p>
-     <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
-    </div> </td>
-  </tr>
+ <p>eller</p>
+ <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Åtkomstnivå</td>
+ <td> <p>Redigera åtkomst till mål</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objektbehörigheter</td>
+ <td>
+  <div>
+  <p>Visa eller högre behörigheter för målet för att visa det</p>
+  <p>Hantera behörigheter till målet för att redigera det</p>
+  <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
+  </div> </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
    <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

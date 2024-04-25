@@ -6,9 +6,9 @@ description: Du kan uppdatera information för enskilda mål genom att gå till 
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -24,110 +24,64 @@ Du kan uppdatera information för enskilda mål genom att gå till panelen Måli
 
 >[!NOTE]
 >
->Du kan inte uppdatera mål som har statusen Stängd.
+>Du kan inte uppdatera mål som har statusen Stängt.
 
 
 ## Åtkomstkrav
 
-<!--drafted for P&P release: replace the existing requirements with this:
-
-You must have the following: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 Du måste ha följande:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Du måste köpa ytterligare en licens för Adobe Workfront Goals för att få tillgång till de funktioner som beskrivs i den här artikeln. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till mål eller högre</p> <p><b>ANMÄRKNING</b><p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Bevilja åtkomst till Adobe Workfront-mål</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> 
-    <div> 
-     <p>Hantera behörigheter för målet</p> 
-     <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront</td>
+ <td>
+ <p>Alla</p> 
+ </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licens*</td>
+ <td>
+ <p>Ny licens: Medarbetare eller högre</p>
+ eller
+ <p>Aktuell licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produkt*</td>
+ <td>
+ <p> Nytt produktkrav, något av följande: </p>
+<ul>
+<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
+ <p>eller</p>
+ <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Åtkomstnivå*</td>
+ <td> <p>Redigera åtkomst till mål</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objektbehörigheter</td>
+ <td>
+  <div>
+  <p>Visa eller högre behörigheter för målet för att visa det</p>
+  <p>Hantera behörigheter till målet för att redigera det</p>
+  <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-
-## Förutsättningar
-
-Du måste ha följande innan du kan börja:
-
-* En layoutmall som innehåller området Mål på huvudmenyn.
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Uppdatera mål i avsnittet Målinformation
 
@@ -224,7 +178,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Klicka på **Ikonen Redigera** ![](assets/edit-icon.png) i det övre högra hörnet och klicka sedan på **Redigera alla** eller **Översikt**
+1. Klicka på **Ikonen Redigera** ![](assets/edit-icon.png) i det övre högra hörnet och klicka sedan på **Redigera alla** eller **Ökning**
 
    eller
 
@@ -239,25 +193,24 @@ Updating goals in the Goal Details panel differs depending on where you access t
    * **Beskrivning**: Lägg till eller uppdatera information om målet.
    * **Förlopp**: Anger hur stor procentandel av målet som har slutförts hittills. Du kan inte uppdatera förloppet för ett mål manuellt. Målförloppet är en beräkning av alla förloppsindikatorer.
    * **Villkor**: Anger om målet är nytt och inte har uppdaterats ännu, om det är på målet att slutföras i tid eller om det ligger efter. Du kan inte uppdatera villkoret för ett mål. Målets villkor beräknas automatiskt av Worfront.\
-      Mer information om målvillkor och -förlopp finns i
-      [Översikt över målets förlopp och villkor i Adobe Workfront-mål](../goal-management/calculate-goal-progress.md).
-   * **Status**: Du kan inte uppdatera statusen för ett mål manuellt. Mer information finns i [Översikt över målstatus i Adobe Workfront-mål](../goal-management/goal-status-overview.md).
+     Mer information om målvillkor och -förlopp finns i
+     [Översikt över målets förlopp och villkor i Adobe Workfront-mål](../goal-management/calculate-goal-progress.md).
+   * **Status**: Du kan inte uppdatera status för ett mål manuellt. Mer information finns i [Översikt över målstatus i Adobe Workfront-mål](../goal-management/goal-status-overview.md).
    * **Målägare**: Klicka för att uppdatera namnet på målets ägare. Börja skriva namnet på en användare, ett team, en grupp eller namnet på din organisation och markera den sedan när den visas i listan. Du kan bara ha en ägare för ett mål.
    * **Överordnat mål**: Börja skriva namnet på ett mål som du vill ange som överordnat mål för det mål som du har valt. Förloppet för det valda målet uppdaterar automatiskt förloppet för det överordnade målet.
 
-      >[!TIP]
-      >
-      >Du kan inte uppdatera följande information om ett överordnat mål:
-      >    * Överordnad målperiod
-      >    * Förlopp för överordnat mål
-      >    * Överordnad målägare.
-
-      >      
-      >Du måste uppdatera den här informationen om det överordnade målet.
+     >[!TIP]
+     >
+     >Du kan inte uppdatera följande information om ett överordnat mål:
+     >    * Överordnad målperiod
+     >    * Förlopp för överordnat mål
+     >    * Överordnad målägare.
+     >      
+     >Du måste uppdatera den här informationen om det överordnade målet.
 
    * **Period**: Klicka för att uppdatera tidsperioden för målet\
-      eller\
-      Välj **Aktivera anpassade datum** för att ange datum för målets **Starta** och **Slutdatum**.
+     eller\
+     Välj **Aktivera anpassade datum** för att ange datum för målets **Starta** och **Slutdatum**.
    * **Avslutande anteckningar**: Det här fältet visas bara för mål med statusen Stängt. Det går inte att redigera stängda mål. Om du öppnar ett stängt mål permanent tas slutkommentarerna bort.
 
 
