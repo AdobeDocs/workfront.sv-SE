@@ -6,7 +6,7 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -55,9 +55,11 @@ Information om användare som vill skapa eller hantera dokumentgodkännanden fin
 
 Information om användare som vill granska eller godkänna dokument som de har tagit emot en begäran finns i artiklarna i [Granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-De nya dokumentgodkännandena stöds inte i det aktuella rapportverktyget. Widgeten Alla godkännanden som finns på nya hempaneler och arbetsytan innehåller följande information om nya dokumentgodkännanden:
-
-* Godkännanden genom beslut
-* Genomsnittlig godkännandetid
-* Väntande godkännanden
-* Försenade godkännanden
+>[!IMPORTANT]
+>
+>De nya dokumentgodkännandena stöds inte i det aktuella rapportverktyget. Widgeten Alla godkännanden som finns på nya hempaneler och arbetsytor innehåller följande information om nya dokumentgodkännanden:
+>
+>* Godkännanden genom beslut
+>* Genomsnittlig godkännandetid
+>* Väntande godkännanden
+>* Försenade godkännanden
