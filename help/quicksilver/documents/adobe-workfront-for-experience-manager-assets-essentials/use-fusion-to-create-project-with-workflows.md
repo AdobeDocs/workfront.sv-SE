@@ -5,7 +5,8 @@ title: Använd Workfront Fusion för att skapa ett Workfront-projekt med Adobe E
 description: Om du skapar ett projekt via Workfront Fusion och vill inkludera Adobe Experience Manager-arbetsflöden i projektet måste du använda en specifik konfiguration för Fusion-modulen som beskrivs i den här artikeln.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
+exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
+source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -41,8 +42,25 @@ Du måste ha följande:
   <tr>
    <td><strong>Produkt</strong>
    </td>
-   <td><b>Adobe Experience Manager<b>:<ul><li><p>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.</p></li><li><p>Du måste ha skrivåtkomst till databasen i Adobe Experience Manager.</p></li></ul>
-  <b>Workfront Fusion</b>:<p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul>   <p>eller</p>
+   <td><b>Adobe Experience Manager<b>:
+   <ul>
+   <li>
+   <p>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.</p>
+   </li
+   ><li>
+   <p>Du måste ha skrivåtkomst till databasen i Adobe Experience Manager.</p>
+   </li>
+   </ul>
+  <b>Workfront Fusion</b>:<p>Nytt:</p>
+   <ul>
+   <li>
+   <p>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p>
+   </li>
+   <li> 
+   <p>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</p>
+   </li>
+   </ul>
+   <p>eller</p>
    <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p>
    </td>
   </tr>
@@ -156,7 +174,4 @@ Du måste konfigurera ett OAuth-program i Workfront för den här modulens anslu
 Du använder detta klient-ID och klienthemlighet när du konfigurerar modulens anslutning i Fusion.
 
 Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
-
-
-
 
