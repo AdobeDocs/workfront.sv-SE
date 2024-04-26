@@ -6,7 +6,7 @@ description: Om du skapar ett projekt via Workfront Fusion och vill inkludera Ad
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
+source-git-commit: 605065896263ebbb761883689668be181b5012e3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Du måste ha följande:
    <p>Du måste ha skrivåtkomst till databasen i Adobe Experience Manager.</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>:<p>Nytt:</p>
+   <b>Workfront Fusion</b>:<p>Nytt:</p>
    <ul>
    <li>
    <p>Select eller Prime Workfront Plan: Din organisation måste köpa Adobe Workfront Fusion.</p>
@@ -68,8 +68,8 @@ Du måste ha följande:
    <td><strong>Konfigurationer på åtkomstnivå*</strong>
    </td>
    <td>Redigera åtkomst till dokument
-<p>
-<strong>Obs! </strong>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <strong>Skapa eller ändra anpassade åtkomstnivåer</strong>.
+   <p>
+   <strong>Obs! </strong>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <strong>Skapa eller ändra anpassade åtkomstnivåer</strong>.
    </td>
   </tr>
 </table>
@@ -174,4 +174,3 @@ Du måste konfigurera ett OAuth-program i Workfront för den här modulens anslu
 Du använder detta klient-ID och klienthemlighet när du konfigurerar modulens anslutning i Fusion.
 
 Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
-
