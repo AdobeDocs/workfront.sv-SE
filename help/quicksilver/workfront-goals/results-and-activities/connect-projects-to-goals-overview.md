@@ -3,19 +3,19 @@ content-type: overview
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Lägga till projekt i mål i Adobe Workfront-mål
+title: Lägg till projekt i mål i Adobe Workfront
 description: Du kan koppla projekt till mål för att ange hur målet fortskrider, baserat på projektets faktiska förlopp. Projektet blir en förloppsindikator för målet.
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
-# Lägga till projekt i mål i Adobe Workfront-mål
+# Lägg till projekt i mål i Adobe Workfront
 
 <!--
 THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO GOALS IN THE FUTURE
@@ -32,110 +32,70 @@ Genom att koppla projekt till mål kan du koppla organisationens strategiska pla
 
 ## Åtkomstkrav
 
-<!--drafted for P&P release: replace the table below with this: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
 Du måste ha följande:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Du måste köpa ytterligare en licens för Adobe Workfront Goals för att få tillgång till de funktioner som beskrivs i den här artikeln. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till mål</p> <p><b>ANMÄRKNING</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront</td>
+ <td>
+ <p>Alla</p>
 
-<p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Bevilja åtkomst till Adobe Workfront-mål</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> 
-    <div> 
-     <p>Hantera behörigheter för målet</p> 
-     <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licens*</td>
+ <td>
+ <p>Ny licens: Medarbetare eller högre</p>
+ eller
+ <p>Aktuell licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Produkt*</td>
+ <td>
+ <p> Nytt produktkrav, något av följande: </p>
+<ul>
+<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
+ <p>eller</p>
+ <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Åtkomstnivå</td>
+ <td> <p>Redigera åtkomst till mål</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objektbehörigheter</td>
+ <td>
+  <div>
+  <p>Visa eller högre behörigheter för målet för att visa det</p>
+  <p>Hantera behörigheter till målet för att redigera det</p>
+  <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](../goal-management/access-needed-for-wf-goals.md).
-
-## Överväganden om att koppla projekt till mål
+## Att tänka på när du kopplar projekt till mål
 
 * Du kan lägga till ett projekt som uppfyller följande villkor i ett mål:
 
    * Du måste ha minst behörighet att visa det.
 
-      >[!NOTE]
-      >
-      >Om du förlorar din behörighet att visa projektet efter att du har kopplat projektet till målet, kan du fortfarande se projektinformation om målet, men du kan inte längre komma åt projektet.
+     >[!NOTE]
+     >
+     >Om du förlorar din behörighet att visa projektet efter att du har kopplat projektet till målet, kan du fortfarande se projektinformation om målet, men du kan inte längre komma åt projektet.
 
    * Projektet får inte ha statusen Dead.
 
@@ -153,16 +113,16 @@ There is an indication on the goal list that the project no longer updates progr
 
 * När du tar bort ett projekt som är kopplat till ett mål tas även projektet bort från målet.
 
-   >[!CAUTION]
-   >
-   >Om målet var aktivt innan du tog bort projektet och det inte finns några andra förloppsindikatorer för målet, blir målet inaktivt.
+  >[!CAUTION]
+  >
+  >Om målet var aktivt innan du tog bort projektet och det inte finns några andra förloppsindikatorer för målet, blir målet inaktivt.
 
 
 ## Lägg till projekt i mål
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png) (draft this for Shell: eller klicka på **Huvudmeny** ![](assets/three-line-main-menu-icon.png) i det övre vänstra hörnet, om det är tillgängligt.) **Mål**.
+1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png) (draft this for Shell: or click the **Huvudmeny** ![](assets/three-line-main-menu-icon.png) i det övre vänstra hörnet, om det är tillgängligt.) **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
-1. Klicka **Förloppsindikatorer** i den vänstra panelen.
+1. Klicka **Progress-indikatorer** till vänster.
 1. Från **Ny förloppsindikator** nedrullningsbar meny, klicka **Lägg till befintligt projekt**.
 
    Rutan Lägg till projekt i mål visas.
@@ -170,7 +130,7 @@ There is an indication on the goal list that the project no longer updates progr
 1. (Valfritt) Klicka på **Sök** icon ![](assets/search-icon.png) och börja skriva namnet på ett projekt för att snabbt hitta det i listan.
 1. Välj de projekt som du vill lägga till i målet och klicka sedan på **Lägg till**.
 
-   De valda projekten läggs till i målet och visas i avsnittet med förloppsindikatorer på målsidan, under **Projekt** gruppering.
+   De valda projekten läggs till i målet och visas i avsnittet Progress-indikatorer på målsidan, under **Projekt** gruppering.
 
    När du har aktiverat målet uppdateras målets förlopp automatiskt när förloppet för ett projekt uppdateras. Mer information om hur du aktiverar ett mål finns i [Aktivera mål i Adobe Workfront-mål](../goal-management/activate-goals.md).
 
@@ -195,7 +155,7 @@ Följande projektinformation visas på målnivån i avsnittet Förloppsindikator
    </td>
   </tr>
     <tr>
-   <td>Faktisk status
+   <td>Faktiskt förlopp
    </td>
    <td> <p>Procent färdigt av projektet. Du kan inte uppdatera projektprocenten som har slutförts manuellt från målet. Workfront beräknar den automatiskt baserat på hur många procent av arbetsmomenten som har slutförts. </p>
    </td>
@@ -203,7 +163,7 @@ Följande projektinformation visas på målnivån i avsnittet Förloppsindikator
   <tr>
    <td>Förlopp
    </td>
-   <td>Procent färdigt av projektet som representeras av ett fält. Om du ändrar procentandelen färdigt i projektet uppdateras automatiskt målförloppet såvida inte målet stängs.
+   <td>Procent färdigt av projektet som representeras av en stapel. Om du ändrar procentandelen färdigt i projektet uppdateras automatiskt målförloppet såvida inte målet stängs.
    </td>
   </tr>
 
