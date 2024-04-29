@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
+source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,10 @@ Wokfront Fusion stöder endast Chrome-baserade webbläsare.
 ## Körningshistorik
 
 * Körningshistorikloggarna är begränsade till en storlek på **100 MB**. Om körningshistoriken överskrider den här storleken visas endast de första 100 MB.
+
+## Ofullständiga körningar
+
+Ofullständiga körningar begränsas till den totala storleken **500 MB**. Om gränsen på 500 MB nås kommer inga fler ofullständiga körningar att lagras.
 
 ## Försök igen
 
