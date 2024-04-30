@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Automatisering kräver snabb bearbetning, så [!DNL Adobe Workfront Fusion] har 
 
 ## Webbläsare
 
-Wokfront Fusion stöder endast Chrome-baserade webbläsare.
+* Wokfront Fusion stöder endast Chrome-baserade webbläsare.
 
 ## Scenarier
 
@@ -75,9 +75,9 @@ Wokfront Fusion stöder endast Chrome-baserade webbläsare.
 
 ## Ofullständiga körningar
 
-Ofullständiga körningar begränsas till den totala storleken **500 MB**. Om gränsen på 500 MB nås kommer inga fler ofullständiga körningar att lagras.
+* Ofullständiga körningar begränsas till den totala storleken **500 MB**. Om gränsen på 500 MB nås kommer inga fler ofullständiga körningar att lagras.
 
 ## Försök igen
 
-Om ett scenario misslyckas i följd 10 gånger inom en tvåminutersperiod när du använder modulen Bryt och anger direktivet Försök igen inaktiveras scenariot automatiskt.
+* Om ett scenario misslyckas i följd 10 gånger inom en tvåminutersperiod när du använder modulen Bryt och anger direktivet Försök igen inaktiveras scenariot automatiskt.
 
