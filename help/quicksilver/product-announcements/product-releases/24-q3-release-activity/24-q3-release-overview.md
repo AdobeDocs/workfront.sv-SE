@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: a1d43c76d4737960f926c07df86065a40b87d6ef
+source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -85,16 +85,6 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Funktion</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatum</span>
-                        </p>
-                    </td>
-                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
@@ -146,6 +136,46 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrat användargränssnitt för användare med begränsad objektåtkomst</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>När en användare inte har åtkomst till ett objekt visas"Ingen åtkomst" var som helst där objektnamnet visas i Workfront. Den här förbättrade upplevelsen gäller även Workfront API.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 27 mars 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.7 </p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                 </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Funktion</span>
