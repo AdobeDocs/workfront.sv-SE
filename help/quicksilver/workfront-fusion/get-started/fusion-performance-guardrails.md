@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
+source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Automatisering kräver snabb bearbetning, så [!DNL Adobe Workfront Fusion] har 
 
 ## Webbläsare
 
-* Wokfront Fusion stöder endast Chrome-baserade webbläsare.
+* Workfront Fusion stöder endast Chrome-baserade webbläsare.
 
 ## Scenarier
 
