@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ För att kunna koppla dina data i Workfront-sjön till en extern produkt måste 
 
 1. Klicka på **Tillåtna IP-adresser** klickar du på **Lägg till en IP-adress i Tillåtelselista** -knappen.
 
-1. Ange ett namn för IP-adressen i **IP-adressbeskrivning** och ange IP-adressen för det verktyg du vill använda i **IP-adress** och sedan klicka **Lägg till IP i Tillåtelselista**.
+1. Ange ett namn för IP-adressen i **IP-adressbeskrivning** och ange IP-adressen (eller CIDR-blocket) för verktyget som du vill använda i **IP-adress** och sedan klicka **Lägg till IP i Tillåtelselista**.
 
    ![Lägg till IP-adress](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
