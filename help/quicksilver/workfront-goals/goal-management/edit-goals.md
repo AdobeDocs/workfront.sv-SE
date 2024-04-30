@@ -6,9 +6,9 @@ description: Du kan redigera befintliga mål när som helst under en viss period
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,18 @@ Du måste ha följande:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront</td>
- <td>
- <p>Alla</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> 
+   <p>För den nya planen och licensstrukturen:
+  <ul><li>En Ultimate-plan </li>
+  eller
+  <li>Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. </li></ul> </p>
+<p>För aktuell plan och licensstruktur: 
+<ul><li> En Pro eller högre </li>
+  <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licens*</td>
  <td>

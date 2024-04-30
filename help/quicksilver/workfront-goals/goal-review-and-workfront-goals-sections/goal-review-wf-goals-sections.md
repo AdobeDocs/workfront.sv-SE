@@ -7,52 +7,35 @@ description: Lär dig mer om hur du granskar mål och vilka avsnitt där du kan 
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # Målgranskning och avsnitten om Adobe Workfront-mål
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 
-Your organization must have the following to use the functionality described in this article:
+* För den nya planen och licensstrukturen:
 
-* For the legacy plan and license structure: 
+   * En Ultimate-plan
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     eller
 
-* For the current plan and license structure:
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* För aktuell plan och licensstruktur:
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * En Pro eller högre
+   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
->
->* En Pro eller högre [Adobe Workfront](https://www.workfront.com/plans).
->* En Adobe Workfront Goals-licens förutom en Workfront-licens.
->
->Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
->
->Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
+Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
 Det här avsnittet innehåller följande artiklar:
 
 * [Översikt över avsnitten om Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-* [Hantera mål i mållistan för Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
+* [Hantera mål i mållistan för Adobe Workfront mål](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
 * [Uppdatera målstatus i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Granska diagram för att förstå målutvecklingstrender i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)

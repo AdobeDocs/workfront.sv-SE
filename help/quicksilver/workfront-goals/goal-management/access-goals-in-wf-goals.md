@@ -6,9 +6,9 @@ description: I den här artikeln beskrivs hur du kan hitta och hantera mål i Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,15 @@ Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
    <td> 
-   <p>Alla</p>
+   <p>För den nya planen och licensstrukturen:
+  <ul><li>En Ultimate-plan </li>
+  eller
+  <li>Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. </li></ul> </p>
+<p>För aktuell plan och licensstruktur: 
+<ul><li> En Pro eller högre </li>
+  <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
    </td> 
   </tr> 
   <tr> 

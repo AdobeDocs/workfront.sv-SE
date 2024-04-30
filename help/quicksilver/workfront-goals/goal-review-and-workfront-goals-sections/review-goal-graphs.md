@@ -6,9 +6,9 @@ description: Du kan visa den övergripande statusen för dina mål och deras utv
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,18 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront</td>
- <td>
- <p>Alla</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> 
+   <p>För den nya planen och licensstrukturen:
+  <ul><li>En Ultimate-plan </li>
+  eller
+  <li>Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. </li></ul> </p>
+<p>För aktuell plan och licensstruktur: 
+<ul><li> En Pro eller högre </li>
+  <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licens*</td>
  <td>

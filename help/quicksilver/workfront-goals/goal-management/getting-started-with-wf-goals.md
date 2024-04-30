@@ -5,47 +5,34 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
 
 # Kom igång med Adobe Workfront-mål
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 
-Your organization must have the following to use the functionality described in this article:
+* För den nya planen och licensstrukturen:
 
-* For the legacy plan and license structure: 
+   * En Ultimate-plan
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     eller
 
-* For the current plan and license structure:
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* För aktuell plan och licensstruktur:
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * En Pro eller högre
+   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
 
->[!NOTE]
->
->Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
->
->* En Pro eller högre [Adobe Workfront](https://www.workfront.com/plans).
->* En Adobe Workfront Goals-licens förutom en Workfront-licens.
->
->Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
-Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Alla organisationer måste sätta upp och förmedla tydliga mål för att hålla sina team produktiva, fokuserade och engagerade. Att veta hur arbetet är anpassat till strategi är avgörande för framgång. Men utan ett dokumentsystem som kopplar samman er strategi och era mål med arbetet i organisationen kan det vara riktigt svårt att uppnå en anpassning.
 
@@ -79,14 +66,14 @@ Ett mål ska representera en värdesats som anger det resultat du arbetar mot.
 
 Vi rekommenderar följande:
 
-* Skapa inte mer än 3-5 order högre, mer långsiktiga mål.
+* Skapa inte fler än 3 - 5 högre order, längre långsiktiga mål.
 * Fokusera på en tydlig resultatförklaring när du skriver målsatser.
 * Identifiera en tydlig mätmetod som du kan använda för att mäta om målet har uppnåtts.
 
 Mer information om hur du skapar mål och lägger till resultat finns i följande artiklar:
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
-* [Lägg till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 ### Samarbeta kring mål för företag och organisationer {#collaborate-around-enterprise-and-organizational-goals}
 
@@ -97,7 +84,7 @@ Mer information om hur du skapar mål och lägger till resultat finns i följand
 
 Tänk på följande när du skapar och justerar mål:
 
-* Tänk på frågan: &quot;Vad måste mina team och jag uppnå för att uppnå detta toppnivåmål?&quot;
+* Fundera på frågan:&quot;Vad måste mina team och jag uppnå för att uppnå detta toppnivåmål?&quot;
 * Överlappande mål bör utgöra ett nödvändigt resultat som måste uppnås för att driva på eller möjliggöra för sin överordnade att uppnå. Omfattningen av denna prestation bör vara mer begränsad än den för dess överordnade.
 * Skapa inte komplexa målhierarkier som är svåra att följa eller som har för många lager.
 
@@ -114,21 +101,21 @@ Gör följande:
 
 * Granska och aktivera föreslagna mål.
 
-   Så långt har dina mål varit i utkastläge, men när du har förfinat och gått in de första nivåerna i målhierarkin är det nu dags att aktivera dem.
+  Så långt har dina mål varit i utkastläge, men när du har förfinat och gått in de första nivåerna i målhierarkin är det nu dags att aktivera dem.
 
-   När du har aktiverat dina mål ska du kommunicera med de team som i slutändan ska utföra och hantera arbetet som ska leda till dessa resultat. Precis som i Workfront kan vara kopplat till målen i Workfront Goals, ser teamen verkligen sambandet mellan deras arbete och resultat.
+  När du har aktiverat dina mål ska du kommunicera med de team som i slutändan ska utföra och hantera arbetet, vilket ska leda till dessa resultat. Precis som i Workfront kan vara kopplat till målen i Workfront Goals, ser teamen verkligen sambandet mellan deras arbete och resultat.
 
 * Överlappa och anpassa kvartalsvisa mål och lägg till aktiviteter till målen.
 
-   Om du har satt upp mål med en årsplan i åtanke kanske du vill ställa in kvartalsmålen nästa gång. När du definierar och finjusterar projektplaner för hur du ska börja leverera mot dessa mål börjar du också anpassa aktiviteter efter dem.
+  Om du har satt upp mål med en årsplan i åtanke kanske du vill ställa in kvartalsmålen nästa gång. När du definierar och finjusterar projektplaner för hur du ska börja leverera mot dessa mål börjar du också anpassa aktiviteter efter dem.
 
-   Verksamheter kan antingen vara grundläggande aktiviteter som skapats inom själva målet eller så kan aktiviteter länkas till Workfront-projekt.
+  Verksamheter kan antingen vara grundläggande aktiviteter som skapats inom själva målet eller så kan aktiviteter länkas till Workfront-projekt.
 
 * Ange en gräns för hur ofta du ska granska och ange kvartalsvisa eller stegvisa mål i framtiden. Vi rekommenderar att du sätter upp mål för varje planeringsperiod, men inte kartlägger dem för långt i förväg, så att du kan förbli oförmögen och reagera på förändringar i verksamheten.
 
 * Uppdatera dina mål regelbundet. Det här är en tidpunkt då du rapporterar tillbaka om hur ett mål utvecklas.
 
-   Mer information om hur du aktiverar, lägger till aktiviteter och uppdaterar mål finns i följande artiklar:
+  Mer information om hur du aktiverar, lägger till aktiviteter och uppdaterar mål finns i följande artiklar:
 
    * [Aktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/activate-goals.md)
    * [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)

@@ -6,9 +6,9 @@ description: Oavsett om du är VD, chef eller enskild medverkande kan du skapa m
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,19 @@ Du måste ha följande:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront</td>
- <td>
- <p>Alla</p>
-
-</td>
- </tr>
- <tr>
+<tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> 
+   <p>För den nya planen och licensstrukturen:
+  <ul><li>En Ultimate-plan </li>
+  eller
+  <li>Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. </li></ul> </p>
+<p>För aktuell plan och licensstruktur: 
+<ul><li> En Pro eller högre </li>
+  <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
+   </td> 
+  </tr>
+  <tr>
  <td role="rowheader">Adobe Workfront-licens*</td>
  <td>
  <p>Ny licens: Medarbetare eller högre</p>
@@ -52,7 +57,7 @@ Du måste ha följande:
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
  </tr>
 <tr>
-<td role="rowheader">Åtkomstnivå*</td>
+<td role="rowheader">Åtkomstnivå</td>
 <td> <p>Redigera åtkomst till mål</p> </td>
 </tr>
 <tr data-mc-conditions="">

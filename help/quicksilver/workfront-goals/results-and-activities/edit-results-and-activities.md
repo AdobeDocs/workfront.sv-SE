@@ -7,9 +7,9 @@ description: När Adobe Workfront-administratören har gett dig rätt åtkomst t
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,18 @@ Du måste ha följande:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront</td>
- <td>
- <p>Alla</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td> 
+   <p>För den nya planen och licensstrukturen:
+  <ul><li>En Ultimate-plan </li>
+  eller
+  <li>Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. </li></ul> </p>
+<p>För aktuell plan och licensstruktur: 
+<ul><li> En Pro eller högre </li>
+  <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licens*</td>
  <td>

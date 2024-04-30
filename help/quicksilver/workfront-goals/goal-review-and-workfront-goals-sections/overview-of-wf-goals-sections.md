@@ -7,26 +7,31 @@ description: Du kan få tillgång till listor med mål eller enskilda mål och h
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # Översikt över avsnitten om Adobe Workfront-mål
 
+Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 
->[!NOTE]
->
->Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
->
->* En Pro eller högre [Adobe Workfront](https://www.workfront.com/plans).
->* En Adobe Workfront Goals-licens förutom en Workfront-licens.
->
->  Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
->
->Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* För den nya planen och licensstrukturen:
+
+   * En Ultimate-plan
+
+     eller
+
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
+
+* För aktuell plan och licensstruktur:
+
+   * En Pro eller högre
+   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+
+Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
 När Workfront-administratören har gett dig åtkomst till Workfront-mål kan du visa mål som du eller någon annan i organisationen har skapat i området Workfront-mål.
 
@@ -36,20 +41,20 @@ Du kan använda filter för att endast visa de mål som är viktiga för dig i v
 
 >[!TIP]
 >
->Filter som uppdateras i ett avsnitt tillämpas automatiskt på avsnitten Mållista, Diagram och Måljustering. På så sätt kan du bara uppdatera dem en gång. Mer information finns i [Filtrera information i Adobe Workfront mål](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>Filter som uppdateras i ett avsnitt tillämpas automatiskt på avsnitten Mållista, Diagram och Måljustering. På så sätt kan du bara uppdatera dem en gång. Mer information finns i [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 Här följer en kort översikt över avsnitten om Workfront-mål och vilka alternativ som finns för att hantera mål. För mer information om ytterligare åtgärder som du kan utföra i varje avsnitt av Workfront-mål rekommenderar vi även följande artiklar:
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
 * [Uppdatera målstatus i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Filtrera information i Adobe Workfront mål](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+* [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
 ## Mållista
 
 Du kan använda mållistan för att granska mål som tillhör dig, dina team, grupper eller din organisation. Du kan visa mål i vilken status som helst och från vilken tidsperiod som helst.
 
-Mer information om hur du navigerar i mållistan och hanterar mål finns i [Hantera mål i mållistan för Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Mer information om hur du navigerar i mållistan och hanterar mål finns i [Hantera mål i mållistan för Adobe Workfront mål](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
@@ -59,11 +64,11 @@ Använd mållistan för att göra följande:
 * Granska mål och deras information (till exempel namn, ägare, förlopp eller villkor).
 * Lägg till nya mål.
 
-   Mer information finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+  Mer information finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 
 * Gå till målets sida och redigera och uppdatera målet, resultaten eller aktiviteterna
 
-   Mer information finns i [Redigera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/edit-goals.md).
+  Mer information finns i [Redigera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/edit-goals.md).
 
 * Redigera mål.
 
@@ -94,7 +99,7 @@ Mer information om hur du justerar mål finns i följande artiklar:
 
 ![](assets/goal-alignment-section-unshimmed.png)
 
-Använd delen Måljustering för att göra följande:
+Använd avsnittet Måljustering för att göra följande:
 
 * Visa mål som tillhör dig eller din organisation i kortformat.
 * Visa målhierarki och visa justerade underordnade mål.
