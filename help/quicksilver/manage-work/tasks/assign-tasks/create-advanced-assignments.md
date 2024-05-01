@@ -2,14 +2,14 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Skapa avancerade uppdrag
-description: Du kan hantera uppgifter eller ärenden med hjälp av avancerade uppdrag.
+description: Du kan hantera uppgifter eller ärenden med hjälp av Avancerade uppdrag.
 author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-Du kan hantera uppgifter eller ärenden med hjälp av avancerade uppdrag.
+Du kan hantera uppgifter eller ärenden med hjälp av Avancerade uppdrag.
 
 Du kan justera följande uppdragsinformation när du gör avancerade uppdrag:
 
@@ -26,7 +26,7 @@ Du kan justera följande uppdragsinformation när du gör avancerade uppdrag:
 * Justera och omfördela det antal timmar som varje tilldelad tilldelas.
 * Avgör vilken användare som ska utses till ägare eller primär tilldelad till uppgiften eller utgåvan.
 * Ange vilken roll varje användare ska ha när de arbetar med uppgiften eller problemet.
-* <span class="preview">Åsidosätt faktureringssatsen för en jobbroll.</span>
+  <!--* <span class="preview">Override the billing rate for a job role.</span>-->
 
 >[!NOTE]
 >
@@ -93,7 +93,11 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 1. Klicka **Avancerat**.
 
+   Exempelbild i produktionsmiljön:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Klicka på Avancerat](assets/assignments-box-in-task-header.png)
 
 1. I **Sök efter personer, roller och team** börjar du skriva namnet på en användare, roll eller team och klickar sedan på namnet när det visas i listrutan.
 
@@ -108,25 +112,25 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >* Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
    >
    >
-   >* När du lägger till en användartilldelning bör du observera avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn.
+   >* När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn.
    >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
    >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-   >
-   >
-   >* <span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj rollen för system-/standardjobb om du vill använda standardfaktureringsnivån för tilldelningen, eller välj en jobbroll för tariffkort om du vill åsidosätta hastigheten på tilldelningsnivån. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
    >
    >
    >* Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
    >   
    >   * Tilldela om arbetsuppgiften till aktiva resurser.
    >   * Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-   >   
    >
+
+   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
+    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+    -->
 
 1. För varje användare i **Tilldelad** -kolumn anger du följande information:
 
 
-   * **Ägare**: Håll muspekaren över namnet på den som ska tilldelas och klicka **Gör primär** i fältet Ägare om du vill markera den som tilldelats uppgiften som ägare av utgåvan. En grön kryssruta anger att den angivna användaren är den primära kontakten för uppgiften eller problemet. Adobe Workfront markerar den första användaren eller jobbrollen som du tilldelar en uppgift eller ett problem som ägare eller primär tilldelning. Ett team kan inte utses till primär ägare av en uppgift eller ett problem.
+   * **Ägare**: Håll muspekaren över namnet på den som tilldelats uppgiften och klicka på **Gör primär** i fältet Ägare om du vill markera den som tilldelats uppgiften som ägare av utgåvan. En grön kryssruta anger att den angivna användaren är den primära kontakten för uppgiften eller problemet. Adobe Workfront markerar den första användaren eller jobbrollen som du tilldelar en uppgift eller ett problem som ägare eller primär tilldelning. Ett team kan inte utses till primär ägare av en uppgift eller ett problem.
 
      >[!IMPORTANT]
      >
@@ -151,33 +155,35 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    * **Uppdragarens roll:** Välj den roll som användaren ska använda när uppdraget slutförs.  Användarens primära roll visas som standard. Klicka i rutan Tilldelningens roll för att välja en annan roll.  När du tilldelar uppgiften eller utgåvan till en roll först, och sedan lägger till en användare som kan slutföra rollen som ett andra uppdrag, filtreras listan med föreslagna användare för de användare som kan uppfylla de roller som redan tilldelats uppgiften och utgåvan.
 
+     Exempelbild i produktionsmiljön:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-   <div class="preview">
+     <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+     ![Uppdragarens roll](assets/advanced-assignments-select-role.png)
 
-   * **Plats**: Platsen kommer från tariffkortet om ett kurskort som är kopplat till projektet använder platser med jobbrollerna. Platsen kan inte ändras.
+   <!--<div class="preview">
 
-   * **Faktureringstaxor**: Faktureringsfrekvensen för en användare beror på systempriset för användaren eller den associerade jobbrollen. Faktureringssatsen för en jobbroll kommer från systempriset eller från tariffkortet, om ett tariffkort är kopplat till projektet. Befintliga faktureringstariffer visas inte i det här fältet. Klicka i fältet för att ändra faktureringsfrekvensen för den här specifika aktivitetstilldelningen.
+   * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
-   </div>
+   * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
 
-   * **Typ av varaktighet**: Detta är bara tillgängligt för uppgifter. Klicka på namnet på varaktighetstypen och välj en varaktighetstyp i listrutan. Mer information om varaktighetstyper finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   </div>-->
+
+   * **Varaktighetstyp**: Detta är endast tillgängligt för uppgifter. Klicka på namnet på varaktighetstypen och välj en varaktighetstyp i listrutan. Mer information om varaktighetstyper finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    * **Varaktighet:** Du kan uppdatera det här fältet för en uppgift när du har behörigheten Hantera för uppgiften.
 
      Mer information finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). När du redigerar uppdragsinformation gruppvis visas en liknande dialogruta där du kan tilldela användare, timmar, tilldelning och aktivitetsägare.
 
-   * **Planerade timmar**: Uppdatera antalet planerade timmar när varaktighetstypen är Beräknad tilldelning eller Enkel. Allokeringsprocenten eller timmarna för varje resurs fördelas jämnt som ett resultat. Workfront beräknar de planerade timmarna när varaktighetstypen är Beräknad arbetstid eller Anläggningsstyrd. Mer information finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Planerade timmar**: När varaktighetstypen är Beräknad tilldelning eller Enkel ska du uppdatera antalet planerade timmar. Allokeringsprocenten eller timmarna för varje resurs fördelas jämnt som ett resultat. Workfront beräknar de planerade timmarna när varaktighetstypen är Beräknad arbetstid eller Anläggningsstyrd. Mer information finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Exempelbild i produktionsmiljön:
-
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
      <div class="preview">
 
      Exempelbild i förhandsvisningsmiljön:
-
-     ![Avancerade uppdrag](assets/advanced-assignments-location-billing-rates.png)
+     ![Avancerade uppdrag](assets/advanced-assignments-duration-type-allocations.png)
 
      </div>
 

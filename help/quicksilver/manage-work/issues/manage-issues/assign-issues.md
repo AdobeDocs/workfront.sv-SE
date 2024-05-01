@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # Tilldela ärenden
+
+{{highlighted-preview}}
 
 Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 
    Klicka på namnet på de aktuella tilldelningarna, om utgåvan redan har tilldelats.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Knappen Tilldela till](assets/assign-to-button-in-header.png)
 
 1. Gör något av följande:
 
    * Börja skriva namnet på en användare, roll eller team som du vill tilldela och klicka sedan på den när den visas i listan.
 
+     Exempelbild i produktionsmiljön:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+     ![Uppdragssökning](assets/assignments-expanded-in-task-issue-header.png)
 
    * (Villkorligt) Klicka på ett av namnen i dialogrutan **Föreslagna uppdrag** list
    * Klicka **Tilldela mig** tilldela den till dig själv
@@ -161,7 +167,11 @@ Så här tilldelar du utgåvor i en lista:
 
    * Klicka inuti **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller aktivt team som du vill tilldela till utgåvan och klicka sedan på det när det visas i listan.
 
+     Exempelbild i produktionsmiljön:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+     ![Uppdragsfält](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

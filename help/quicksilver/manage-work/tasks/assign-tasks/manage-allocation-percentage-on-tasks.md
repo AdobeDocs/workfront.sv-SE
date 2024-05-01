@@ -6,14 +6,16 @@ description: Allokeringsprocenten representerar den tid en tilldelad resurs är 
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
 # Hantera användar- eller rollallokeringsprocent för uppgifter
+
+{{highlighted-preview}}
 
 Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att arbeta med en aktivitet på en dag. Det är procentandelen av en arbetsdag (enligt användaren eller projektschemat) som en resurs tilldelas under aktivitetens varaktighet.
 
@@ -55,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Användarna tilldelas som standard en lika lång procentandel av tiden till de uppgifter de tilldelas.
 * Du kan ändra allokeringsprocenten för användare och jobbroller som tilldelats uppgifter manuellt endast när uppgiftens varaktighetstyp är Beräknad arbets- eller aktivitetsstyrd.
 
-   Mer information finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Mer information finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Du kan inte ändra procentallokeringen för team som tilldelats aktiviteter.
 * Du kan inte ändra procentallokeringen för användare och jobbroller som är tilldelade utgåvor.
@@ -69,7 +71,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Klicka på **Uppdrag** i uppgiftshuvudet och klicka sedan **Avancerat**.
 
-1. Se till att **Typ av varaktighet** en av följande uppgifter:
+1. Se till att **Varaktighetstyp** en av följande uppgifter:
 
    * Beräknat arbete
    * Ansträngningsstyrd
@@ -79,13 +81,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >* I Workfront används följande formel för beräkning av tilldelningens varaktighet: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* För den enkla varaktighetstypen kan du beräkna antalet tilldelade timmar för varje resurs, inte allokeringsprocenten.
 
-
 1. Klicka **Uppdrag** och sedan ändra **Allokeringar** för varje tilldelad uppgift.
 
    Du kan bara ändra allokeringsprocenten för användar- och jobbrolltilldelningar.
 
    Du kan inte ändra allokeringsprocenten för ett team som tilldelats en aktivitet.
 
+   Exempelbild i produktionsmiljön:
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Ändra allokeringsprocent](assets/advanced-assignments-allocation-percentage.png)
 
 1. Klicka **Spara**.

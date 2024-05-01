@@ -1,19 +1,21 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Hantera användar- och rolltilldelningstimmar för uppgifter
+title: Hantera användar- och rollallokeringstimmar för uppgifter
 description: När du tilldelar användare eller roller till en uppgift, tilldelas de ett visst antal timmar för att slutföra uppgiften. Du kan manuellt ändra hur många timmar varje användare eller jobbroll tilldelas när de tilldelas till en uppgift när uppgiftens varaktighetstyp är Enkel.
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
 
-# Hantera användar- och rolltilldelningstimmar för uppgifter
+# Hantera användar- och rollallokeringstimmar för uppgifter
+
+{{highlighted-preview}}
 
 När du tilldelar användare eller roller till en uppgift, tilldelas de ett visst antal timmar för att slutföra uppgiften. Du kan manuellt ändra hur många timmar varje användare eller jobbroll tilldelas när de tilldelas till en uppgift när uppgiftens varaktighetstyp är Enkel.
 
@@ -73,9 +75,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Klicka på **Uppdrag** i uppgiftshuvudet och klicka sedan **Avancerat**.
 
-1. Se till att **Typ av varaktighet** för uppgiften är **Enkel**.
+1. Se till att **Varaktighetstyp** för uppgiften är **Enkel**.
 1. Ändra **Allokeringar** för varje tilldelad uppgift. Detta är övergripande allokeringar för varje tilldelning för den här aktiviteten, under hela aktivitetens varaktighet. Detta kan även uppdatera aktivitetens totala planerade timmar.
 
+   Exempelbild i produktionsmiljön:
    ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Ändra allokeringar](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Klicka **Spara**.
