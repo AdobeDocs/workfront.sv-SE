@@ -6,7 +6,7 @@ description: Om du skapar ett projekt via Workfront Fusion och vill inkludera Ad
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -28,48 +28,46 @@ Du måste ha följande:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-plan*</strong>
-   </td>
-   <td>Alla
-   </td>
+    <td><strong>Adobe Workfront-plan*</strong></td>
+    <td>Alla</td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenser*</strong>
-   </td>
-   <td>Begäran eller senare
-   </td>
+   <td><strong>Adobe Workfront-licenser*</strong></td>
+   <td>Begäran eller senare</td>
   </tr>
   <tr>
-   <td><strong>Produkt</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.</p>
-   </li
-   ><li>
-   <p>Du måste ha skrivåtkomst till databasen i Adobe Experience Manager.</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>Nytt:</p>
-   <ul>
-   <li>
-   <p>Select eller Prime Workfront Plan: Din organisation måste köpa Adobe Workfront Fusion.</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront Plan: Workfront Fusion ingår.</p>
-   </li>
-   </ul>
-   <p>eller</p>
-   <p>Aktuell: Din organisation måste köpa Adobe Workfront Fusion.</p>
+   <td><strong>Produkt</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager:</b></p>
+     <ul>
+       <li>
+         <p>Du måste ha Experience Manager Assets as a Cloud Service eller Assets Essentials, och du måste läggas till som användare i Admin Console.</p>
+       </li>
+       <li>
+        <p>Du måste ha skrivåtkomst till databasen i Adobe Experience Manager.</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion:</b></p>
+     <p>Nytt:</p>
+     <ul>
+       <li>
+         <p>Select eller Prime Workfront Plan: Din organisation måste köpa Adobe Workfront Fusion.</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront Plan: Workfront Fusion ingår.</p>
+       </li>
+     </ul>
+     <p>eller</p>
+     <p>Aktuell: Din organisation måste köpa Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
    <td><strong>Konfigurationer på åtkomstnivå*</strong>
    </td>
    <td>Redigera åtkomst till dokument
-   <p>
-   <strong>Obs! </strong>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <strong>Skapa eller ändra anpassade åtkomstnivåer</strong>.
+     <p>
+       <strong>Obs! </strong>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <strong>Skapa eller ändra anpassade åtkomstnivåer</strong>.
+     </p>
    </td>
   </tr>
 </table>
