@@ -6,7 +6,7 @@ title: Uppdatera en modul till en ny version i ett [!DNL Adobe Workfront Fusion]
 description: Eftersom de applikationer som Workfront Fusion ansluter till kan uppdatera eller släppa nya versioner är det ibland nödvändigt att Fusion släpper uppdaterade moduler för dessa applikationer.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ Du kan uppdatera modulen utan att skapa ett nytt scenario.
 1. Konfigurera modulen med samma inställningar som den befintliga modulen.
 1. Koppla den nya modulen till scenariot på samma plats som den befintliga modulen.
 1. Ta bort den gamla modulen.
+
+
+
 
 
 
