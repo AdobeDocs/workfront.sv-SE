@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
 >
 >| Månadsrelease | Kvartalsvis utgivning |
 >|----|----|
->| <ul><li>24.5 (maj 2024)</li><li>24.6 (juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
+>| <ul><li>24.5 (16 maj 2024)</li><li>24.6 (juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
 >
 >Mer information om processen för snabb släppning finns i [Aktivera eller inaktivera processen för snabb släppning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -136,7 +136,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr>
+                <tr>
                     <td>
                         <p><span class="bold">Funktion</span>
                         </p>
@@ -145,8 +145,8 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                         <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrat användargränssnitt för användare med begränsad objektåtkomst</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -164,26 +164,6 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                                 <p>Produktion för kvartalsvis lansering: Med version 24.7 </p>
                             </li>
                         </ul>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Funktion</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatum</span>
-                        </p>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Funktion</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatum</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
