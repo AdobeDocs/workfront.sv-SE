@@ -1,18 +1,19 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Reporting Canvas beta: overview'
+title: 'Reporting Canvas beta: översikt'
 description: Information om betaprogrammet för det kommande verktyget Reporting Canvas för Adobe Workfront
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
-source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
+hide: true
+exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
-
 
 # Betaversion av arbetsyta för rapportering: översikt
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 Den nya rapportfunktionen i Workfront är under utveckling. När vi utformade Reporting Canvas har vi arbetat hårt med att skapa en upplevelse som ger maximal flexibilitet i kombination med en intuitiv, modulär design, så att användare som du på bästa sätt kan utnyttja dina egna data när de skapar och delar rapporter. Tack vare en ny, enhetlig rapporttyp som gör att du kan dra och släppa nästan alla element på en obegränsad arbetsyta blir det snart enklare än någonsin att skapa ett visuellt datamasterverk.
 
-Den här artikeln innehåller information om den aktuella privata betaversionen, som är begränsad till specifika kunder. Nya rapportfunktioner för arbetsytan distribueras nu via Canvas Dashboards. Se **Utvecklingsplan** nedan om du vill ha mer information.
+Den här artikeln innehåller information om den aktuella privata betaversionen, som är begränsad till specifika kunder. Nya rapportfunktioner för arbetsytan distribueras nu via Canvas Dashboards. Se **Utvecklingsplan** nedan för mer information.
 
 ### Utvecklingsplan
 
@@ -76,7 +77,7 @@ Så här skickar du feedback om betaversionen:
 
 Sammanfattningsvis är migrering av äldre rapporter inte tillgängligt under betaversionen. Det är dock en planerad funktion (med några kavattar som beskrivs nedan) för den officiella lanseringen.
 
-Hindringen att skapa nya rapporter har minskat avsevärt med Reporting Canvas, men vi förstår att det går snabbare att ta över några av dina befintliga rapporter och kontrollpaneler. Därför vill vi tillhandahålla de verktyg och resurser som behövs för att säkerställa att du kan ta över alla relevanta äldre objekt så att du kan börja till höger i Reporting Canvas. Eftersom Reporting Canvas är en så genomgripande förändring av hur den aktuella rapporteringen fungerar skulle det dock vara omöjligt att migrera alla rapporter och kontrollpaneler precis som i dag.
+Hindringen att skapa nya rapporter har minskat avsevärt med Reporting Canvas, men vi förstår att det går snabbare att ta över några av dina befintliga rapporter och kontrollpaneler. Därför vill vi tillhandahålla de verktyg och resurser som behövs för att säkerställa att du kan ta över alla relevanta äldre objekt så att du kan börja till höger i Rapportera arbetsyta. Eftersom Reporting Canvas är en så genomgripande förändring av hur den aktuella rapporteringen fungerar skulle det dock vara omöjligt att migrera alla rapporter och kontrollpaneler precis som i dag.
 
 Vår nuvarande strategi för migrering i den officiella versionen är att göra följande:
 
@@ -100,7 +101,7 @@ För att kunna ge våra kunder betaversionen så tidigt som möjligt har vi bara
 
 * Tilldelning
 * Dokument
-* Dokumentgodkännande
+* Godkännande av dokument
 * Utgift
 * Timme
 * Problem
@@ -120,7 +121,7 @@ Nej. Betaversionen använder en kopia av organisationens data som fylls i i Repo
 
 +++Kan jag avanmäla mig från betaversionen när jag väl har gått med?
 
-En Workfront-administratör kan inte avanmäla sig från betaversionen; Administratörer som inte är systemadministratörer kan dock tas bort genom att göra följande:
+En Workfront-administratör kan inte avanmäla sig från betaversionen, men andra administratörer kan tas bort genom att göra följande:
 
 1. Logga in som systemadministratör.
 1. Navigera till Rapporteringsarbetsyta.

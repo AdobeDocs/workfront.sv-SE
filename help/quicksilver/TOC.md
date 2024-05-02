@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 0%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 0%
       * [Användarnamnet används redan](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Rapportering {#reporting}
    * [Rapporter och kontrollpaneler: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Arbetsyta för rapportering {#reporting-canvas}
-      * [Arbetsyta för rapportering](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Hantera rapporter {#manage-reports}
-         * [Hantera rapporter - översikt](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [Skapa en rapport i Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [Exportera en rapport i Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * Tabellblock {#table-blocks}
-         * [Tabellblock](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [Lägga till eller redigera ett tabellblock i rapportarbetsytan](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [Konfigurera en tabellkolumn i rapportarbetsytan](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [Skapa ett formelfält i Rapporteringsarbetsyta](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [Gruppera tabellrader i rapportarbetsytan](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [Filtrera en tabell i rapportarbetsytan](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * Visualiseringsblock {#visualization-blocks}
-         * [Visualiseringsblock](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [Lägga till eller redigera ett visualiseringsblock i rapportarbetsytan](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [Konfigurera en fältvisualisering i rapportarbetsytan](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [Konfigurera en kolumnvisualisering i rapportarbetsytan](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [Konfigurera cirkelvisualisering i rapportarbetsytan](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [Konfigurera en KPI-visualisering i rapportarbetsytan](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * Andra block {#other-blocks}
-         * [Andra block](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [Lägga till eller redigera ett webbinnehållsblock i rapportarbetsytan](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * Kontrollpaneler på arbetsytan {#canvas-dashboards}
+      * [Kontrollpaneler på arbetsytan](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Hantera Canvas-instrumentpaneler {#manage-canvas-dashboards}
+         * [Hantera Canvas-instrumentpaneler](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Kom igång med Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [Lägga till, ta bort eller ordna rapporter på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [Dela en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * Rapporttyper för kontrollpanelen Canvas {#report-types}
+         * [Översikt över rapporttyper i kontrollpanelen för arbetsyta](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [Lägga till en befintlig rapport på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [Skapa en KPI-rapport på en Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Skapa en diagramrapport på en Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Skapa en tabellrapport på en Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Lägg till en rapport om väntande godkännanden på en Canvas-kontrollpanel](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * Rapporter {#reports}
       * [Rapporter](reports-and-dashboards/reports/reports-overview.md)
       * Grundläggande om rapportering {#report-basics}

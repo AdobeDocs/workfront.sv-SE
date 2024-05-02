@@ -1,21 +1,81 @@
 ---
-product-area: dashboards
-navigation-topic: creating-and-managing-dashboards
+product-area: Canvas Dashboards
+navigation-topic: canvas-dashboards-beta
 title: Betaversionsinformation för Canvas Dashboards
 description: Allmän information om betaversionen av arbetsytans kontrollpaneler
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '15'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # Betaversionsinformation för Canvas Dashboards
+
+Kontrollpaneler på arbetsytan är en funktion som för närvarande är under utveckling. Med den kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta. Observera att även om vi är tacksamma för ditt deltagande under betatestningsfasen så kanske delar av funktionen inte är fullständiga eller fungerar som de ska. Skicka eventuella synpunkter på din upplevelse genom att följa instruktionerna i [Ge feedback](#provide-feedback) nedan.
+
+Grundläggande information om hur du använder Canvas-kontrollpaneler finns i [Kom igång med Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+En lista över all dokumentation för arbetsytans kontrollpaneler finns på [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+**Beta-schema:**
+
+* Stängt betatestdatum - 2 maj 2024
+* Open beta start date - TBA
+* Planerat frisläppningsdatum - TBA
+
+## Delta i betaversionen
+
+### Registrera
+
+Så här anmäler du dig till betaversionen:
+
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
+
+1. Klicka på **Gå med i betaversionen av arbetsytans kontrollpaneler** betaknappen i sidans övre högra hörn.
+
+1. Läs villkoren och klicka sedan på **Acceptera**. Du är nu registrerad i betaversionen. Observera dock att det tar några minuter innan dina Workfront-data blir helt tillgängliga i Canvas Dashboards.
+
+### Ge feedback
+
+Vi uppskattar att vi tar fram det här verktyget under betatestningen. Följ instruktionerna nedan för att dela din erfarenhet med oss.
+
+1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
+
+1. Klicka på i den vänstra panelen **Kontrollpaneler på arbetsytan**.
+
+1. Klicka på **Skicka feedback** längst ned till höger på sidan, ange din feedback i det formulär som visas och klicka på **Skicka**.
+
+## Planerade funktioner
+
+Nedan finns en lista över de rapporttyper som för närvarande stöds i betaversionen samt en lista över andra funktioner som vi planerar att lägga till i Canvas Dashboards under betaversionen och senare.
+
+### Rapporttyper som stöds
+
+* Befintliga rapporter (rapporter skapade med det aktuella rapportverktyget)
+* Diagramrapporter
+* KPI-rapporter
+* Tabellrapporter
+* Rapporter om väntande godkännanden
+
+### Funktioner under utveckling
+
+* Matristabellrapporter
+* Kalkylblad
+* Inbäddat webbinnehåll
+* Styrelserapporter
+* Kontrollpanelsfilter
+* Datum- och användarbaserade jokertecken för filter
+
+### Framtida funktioner för färdplan
+
+* Tips på kontrollpanelnivå
+* Valutastöd
+
+
 
 <!--
 
