@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 27833c61ce7ff0ba14cf6edb535057f56e98516e
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,5 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Adobe Workfront Fusion] scenarioexempel: ansluta e-post, [!UICONTROL Text Parser]och [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Återställa en scenarioversion i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Kopiera moduler eller scenarier i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+* [Uppdatera en modul till en ny version i ett [!DNL Adobe Workfront Fusion] scenario](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Visa och hantera låsta scenarier i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
