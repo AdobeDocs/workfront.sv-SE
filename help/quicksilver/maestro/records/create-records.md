@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -127,14 +127,14 @@ Alla poster av den valda typen visas i tabellvyn.
 
    eller
 
-   Klicka på den nya postens namn eller på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn. Rutan med postens detaljerade information öppnas i tabellen.
+   Klicka på den nya postens namn eller på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn. En förhandsgranskning med postens detaljerade information öppnas i tabellen.
 
    >[!TIP]
    >
-   >Du kan bara öppna rutan Detaljer från postens namnfält när fältet Namn är ett primärt fält.
+   >Du kommer åt **Öppna detaljer** -ikonen från postens namnfält när fältet Namn är ett primärt fält.
 
-1. Börja redigera postens information i postens ruta. Workfront sparar automatiskt ändringarna.
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens ruta för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan.
+1. Börja redigera postens information i postens förhandsgranskning. Workfront sparar automatiskt ändringarna.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan.
 
 
 1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om när du lägger till nya poster:

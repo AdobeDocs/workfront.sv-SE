@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Information om nya funktioner och när de släpps finns på [Adobe Workfront Pla
 | Koppla samman Workfront Planning-poster med Workfront-projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
 | Koppla Workfront Planning-poster till Adobe Experience Manager-resurser | ✓ |                                  |                 |
 | Spela in sida med detaljerad information | ✓ |                                  |                  |
-| Uppdatera layouten för postens sida |                               | ✓ |                  |
+| Uppdatera layouten för postens sida | ✓ |                                 |                  |
 | Dela arbetsytor | ✓ | |  |
 | Visa | ✓ | |  |
 | Duplicera vyer | ✓ | |  |

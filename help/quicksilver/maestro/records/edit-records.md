@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Du kan redigera poster som du har skapat eller poster som har skapats av andra, om du har fått behörighet till arbetsytan.
 * Du kan redigera postfält från följande områden:
 
-   * Postens ruta i en postvy
+   * Postens förhandsgranskning i en postvy
    * Postens sida
    * Textbunden i en tabellvy.
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* När en användare redigerar en post i en vy visas ändringarna omedelbart i alla vyer och postsidorna för alla andra användare.
 
 * Följande typer av fält uppdateras automatiskt och du kan inte redigera deras värden manuellt:
    * Länkade fält från andra poster
@@ -113,7 +113,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan redigera en post i följande områden:
 
 * [Från tabellvyn för en posttyp](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Från postens ruta i en vy](#edit-a-record-from-the-records-box-in-a-view)
+* [Från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-box-in-a-view)
 * [Från postens sida](#edit-a-record-from-the-records-page)
 
 ### Redigera en post textbundet i tabellvyn för en posttyp
@@ -188,7 +188,7 @@ Arbetsytan som du senast öppnade öppnas.
 
 1. (Valfritt) Lägg till en miniatyrbild till en post. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Redigera en post från postens ruta i en vy
+### Redigera en post från postens förhandsgranskning i en vy
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ Arbetsytan som du öppnar senast öppnas.
 
    eller
 
-   I tabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn. Postens ruta öppnas i vyn.
+   I tabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn. Postens förhandsgranskning öppnas i vyn.
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ Arbetsytan som du öppnar senast öppnas.
    >
    >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
 
-1. Börja redigera fältinformationen i postens ruta.
+1. Börja redigera fältinformationen i postens förhandsgranskning.
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ Arbetsytan som du öppnar senast öppnas.
 
    Workfront sparar automatiskt ändringarna.
 
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens ruta för att öppna postens sida på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens sida](#edit-a-record-from-the-records-page) i den här artikeln.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens sida](#edit-a-record-from-the-records-page) i den här artikeln.
 
 ### Redigera en post från postens sida
 
@@ -241,7 +241,7 @@ Arbetsytan som du öppnar senast öppnas.
 
 1. Gör något av följande:
 
-   * I alla vyer öppnar du postens ruta enligt beskrivningen i [Redigera en post från postens ruta i en vy](#edit-a-record-from-the-records-box-in-a-view) i den här artikeln klickar du på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postrutan för att öppna postens sida på en ny flik.
+   * Från vilken vy som helst öppnar du postens förhandsgranskning enligt beskrivningen i [Redigera en post från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln klickar du på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsgranskningen om du vill öppna postens sida på en ny flik.
 
    * Från **Tabell** visa, hovra över namnet på en post och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
 

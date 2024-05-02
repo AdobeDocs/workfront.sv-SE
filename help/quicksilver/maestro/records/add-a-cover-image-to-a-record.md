@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ Tänk på följande:
 * En omslagsbild är unik för en post och gäller inte för alla poster av samma typ.
 * Du kan bara lägga till bildfiler som omslagsbilder.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* Du kan lägga till en omslagsbild till enskilda poster från postrutan i valfri vy eller från postsidan.
+* Du kan lägga till en omslagsbild till enskilda poster från postförhandsvisningen i valfri vy eller från postsidan.
 * Du kan inte lägga till omslagsbilder som är infogade från någon postvy.
 
 ## Lägga till en omslagsbild till en post
 
-Du kan anpassa en post genom att lägga till en omslagsbild högst upp i rutan eller på sidan.
+Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens förhandsvisning eller sida.
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ Arbetsytan som du öppnar senast öppnas.
 
    I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn.
 
-   Postens ruta öppnas i vyn.
+   Postens förhandsgranskning öppnas i vyn.
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ Arbetsytan som du öppnar senast öppnas.
    >
    >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
 
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postrutan för att öppna postens sida på en ny flik.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsgranskningen om du vill öppna postens sida på en ny flik.
 
    Postsidan öppnas.
 
    ![](assets/details-page.png)
 
-1. Klicka på **Lägg till omslag**. <!--check the casing here; I logged a bug for this-->
+1. Klicka på Förhandsgranska post eller på en sida **Lägg till omslag**. <!--check the casing here; I logged a bug for this-->
 The **Postomslag** öppnas.
 
 1. Klicka **Välj att överföra** och bläddra efter en bild som du vill välja på datorn, lägga till den och klicka sedan på **Använd bild**.
 
-   Bilden överförs högst upp i postrutan eller på sidan och ändringarna sparas automatiskt.
+   Bilden överförs högst upp i postens förhandsgranskning eller sida och ändringarna sparas automatiskt.
 
    ![](assets/record-page-with-cover-image.png)
 

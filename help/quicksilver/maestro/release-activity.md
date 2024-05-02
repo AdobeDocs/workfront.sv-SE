@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## Vecka 29 april 2029
+
+### Uppdateringar i realtid i rutan med postinformation och sidan efter redigering av poster i tabellvyn
+
+Produktion: 2 maj 2024
+
+Förhandsgranska: Ska bestämmas
+
+När en användare uppdaterar informationen på en post i tabellvyn kan andra användare visa den uppdaterade informationen i postens informationsruta (inuti en vy) eller sida i realtid. Detta garanterar att alla användare ser den uppdaterade informationen samtidigt, synkroniserat med när ändringarna inträffar.
+
+Mer information om hur du redigerar poster finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ Produktion: 4 april 2024
 
 Förhandsgranska: Ska bestämmas
 
-Som arbetsytehanterare kan du nu ändra ordning på fälten som visas på postsidan eller i rutan. Om du uppdaterar fältordningen ändras fältordningen för alla poster av samma typ, så att alla kan visa postsidan eller postrutan.
+Som arbetsytehanterare kan du nu ändra ordning på fälten som visas på postsidan eller förhandsgranskningen. Om du uppdaterar fältordningen ändras fältordningen för alla poster av samma typ, så att alla kan visa postsidan eller postförhandsvisningen.
 
 Mer information finns i [Hantera postsidan](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ Produktion: 4 april 2024
 
 Förhandsgranska: Ska bestämmas
 
-När du hanterar postsidor kan du nu lägga till, flytta om och ersätta en omslagsbild på en postsida eller ruta för att berika postens presentation och engagemang. Omslagsbilder är synliga för alla användare som visar posterna.
+När du hanterar postsidor kan du nu lägga till, flytta om och ersätta en omslagsbild på en postsida eller förhandsgranskning för att berika postens presentation och intressenternas engagemang. Omslagsbilder är synliga för alla användare som visar posterna.
 
 Mer information finns i [Hantera postsidan](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ Förhandsgranska: Ska bestämmas
 
 Nu kan du filtrera information i kalendervyn. Mer information finns i [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Ruta med postinformation tillagd i tidslinjen och kalendervyer
+### Förhandsgranska med postinformation tillagd i tidslinjen och kalendervyer
 
 Produktion: 19 mars 2024
 
 Förhandsgranska: Ska bestämmas
 
-Nu kan du komma åt en ruta med postinformation från tidslinjen och kalendervyer. Du kan redigera poster i postens ruta i tidslinje- och kalendervyerna.
+Du kan nu komma åt förhandsgranskningen med postinformation från tidslinjen och kalendervyer. Du kan redigera poster i postens förhandsvisningsruta i tidslinjen och kalendervyer.
 
-I postens ruta kan du öppna postsidan på en ny flik i webbläsaren.
+Från postens förhandsgranskning kan du öppna postsidan på en ny webbläsarflik.
 
 Mer information finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +248,7 @@ Produktion: 14 mars 2024
 
 Förhandsgranska: Ska bestämmas
 
-För att göra det enklare att visa ytterligare information om poster när du använder tabellvyn har vi introducerat en ny ruta med information som visar en snabb vy av postens detaljer. Här följer en del av informationen i denna ruta:
+För att göra det enklare att visa ytterligare information om poster när du använder tabellvyn har vi introducerat en ny förhandsvisning av detaljer som visar en snabb vy av postens detaljer. Nedan följer en del av informationen som ingår i postförhandsgranskningen:
 
 * Relevanta postdetaljer i korthet
 

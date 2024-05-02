@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Posttyperna är objekttyperna för Adobe Workfront Planning. I Workfront Planning kan du skapa anpassade posttyper som illustrerar de arbetsrelaterade objekt som behövs i organisationens livscykel.
-Posttyper kan vara något av följande:
 
 Mer information om posttyper finns i [Översikt över posttyper](../architecture/overview-of-record-types-and-taxonomies.md).
 
