@@ -7,9 +7,10 @@ description: Ett externt uppslagsfält i ett anpassat formulär anropar ett exte
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: a082f010dbd78235aaad41a80d87d772ca77ff89
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Ett externt uppslagsfält i ett anpassat formulär anropar ett externt API och r
 
 I den här artikeln finns exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API. Du kan också använda den externa sökningen för att kommunicera med ett externt system som Jira, Salesforce eller ServiceNow.
 
-Mer information om hur du lägger till ett externt uppslagsfält i ett anpassat formulär och ytterligare definitioner för de externa uppslagskomponenterna finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Externa sökfält är bara tillgängliga i den nya formulärdesignern, inte i den gamla formulärbyggaren. Mer information om hur du lägger till ett externt uppslagsfält i ett anpassat formulär och ytterligare definitioner för de externa uppslagskomponenterna finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Konfigurera ett externt sökfält för samma instans av Workfront
 
@@ -127,4 +128,3 @@ Listar alla länder: <https://api.first.org/data/v1/countries>
    ![Anpassat formulär med externt sökfält](assets/external-lookup-countries-example1.png)
 
    ![Alternativ för extern sökning för ett land baserat på region](assets/external-lookup-countries-example2.png)
-
