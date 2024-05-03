@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ Förhandsgranska: Ska bestämmas
 När en användare uppdaterar informationen på en post i tabellvyn kan andra användare visa den uppdaterade informationen i postens informationsruta (inuti en vy) eller sida i realtid. Detta garanterar att alla användare ser den uppdaterade informationen samtidigt, synkroniserat med när ändringarna inträffar.
 
 Mer information om hur du redigerar poster finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
+
+### Uppdateringar i realtid i kalendervyn efter redigering av poster
+
+Produktion: 3 maj 2024
+
+Förhandsgranska: För bestämning.
+
+När en användare uppdaterar informationen på en post kan andra användare visa den uppdaterade informationen i postens kalendervy i realtid. Detta garanterar att alla användare ser den uppdaterade informationen samtidigt, synkroniserat med när ändringarna inträffar.
 
 <!--
 
