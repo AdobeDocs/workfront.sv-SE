@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,26 @@ Du måste ha skapat ett paket innan du kan installera det.
 
 Instruktioner finns i [Skapa eller redigera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## Paketstatus för installation
+
+Ett paket måste ha AKTIV status för att kunna installeras i din produktionsmiljö.
+
+Vi rekommenderar att du flyttar paketet till TESTING-status och installerar det i en annan sandlåda för att testa paketet.  Om testet lyckas utan fel flyttar du paketet till ACTIVE för att installera det i produktionsmiljön.
+
+Så här redigerar du ett pakets status:
+
+1. Välj paketet enligt beskrivningen i  [Redigera eller sätta ihop ett befintligt paket](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) i artikeln Skapa och redigera miljöerbjudandepaket.
+1. Klicka **Redigera paket**.
+1. Klicka **Status**.
+1. Välj önskad status i listrutan.
+
+Mer information om status finns i [Status för miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) i artikeln Översikt över hur du flyttar objekt mellan Workfront-miljöer.
+
+## Installera ett paket
+
 >[!NOTE]
 >
->Om du vill installera ett paket måste du vara inloggad i den miljö där du vill installera paketet. Det här är den miljö som du kopierar objekt i **till**.
+>* Om du vill installera ett paket måste du vara inloggad i den miljö där du vill installera paketet. Det här är den miljö som du kopierar objekt i **till**.
 
 1. Gå till den miljö där du vill installera paketet.
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
