@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
+source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
 workflow-type: tm+mt
-source-wordcount: '14164'
+source-wordcount: '14212'
 ht-degree: 0%
 
 ---
@@ -2092,6 +2092,13 @@ ht-degree: 0%
       * [Kom igång med Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion - översikt](workfront-fusion/get-started/workfront-fusion-overview.md)
       * [Grundläggande termer i Adobe Workfront Fusion](workfront-fusion/get-started/basic-terms.md)
+      * Bygg scenarier för praxis {#practice-scenarios-in-workfront-fusion}
+         * [Skapa övningsscenarier](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+         * [Skapa ett grundläggande scenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+         * [Lägga till en utlösarmodul i ett grundläggande scenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+         * [Använda en funktion för att uppdatera ett projekt i ett enkelt scenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+         * [Lägg till ett filter i ett grundscenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [Lägga till en webkrok i ett grundläggande scenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Skapa en metod för automatisering i Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Skapa ett scenario för praktikintegrering i Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
       * [Adobe Workfront Fusion - prestandaräknare](workfront-fusion/get-started/fusion-performance-guardrails.md)
