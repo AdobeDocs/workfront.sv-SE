@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a8608aa0db6a482570b02b8b22cac0c02f6d8a07
+source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -58,10 +58,10 @@ Miljökampanjen stöder inte möjligheten att flytta transaktionsobjekt (med beg
 
 | Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
-| Layoutmall (UITMPL) | Layoutmall<br>Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
-| Kontrollpanel (PTLTAB) | Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
-| Kalender (KALEND) | Kalender<br>Kalenderavsnitt |
-| Extern sida (EXTSEC) | Extern sida |
+| Layoutmall (UITMPL) | Layoutmall<br>Kontrollpanel<br>Kalender*<br>Kalenderavsnitt*<br>Extern sida*<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
+| Kontrollpanel (PTLTAB) | Kontrollpanel<br>Kalender*<br>Kalenderavsnitt*<br>Extern sida*<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
+| Kalender* (KALEND) | Kalender*<br>Kalenderavsnitt* |
+| Extern sida* (EXTSEC) | Extern sida* |
 | Rapport (PTLSEC) | Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
 | Filter (UIFT) | Filter<br>Parameter |
 | Gruppering (UIGB) | Gruppering<br>Parameter |
