@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
+source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
 workflow-type: tm+mt
-source-wordcount: '14212'
+source-wordcount: '14239'
 ht-degree: 0%
 
 ---
@@ -2085,6 +2085,11 @@ ht-degree: 0%
       * [Hantera tabellvyn](maestro/views/manage-the-table-view.md)
       * [Hantera tidslinjevyn](maestro/views/manage-the-timeline-view.md)
       * [Hantera kalendervyn](maestro/views/manage-the-calendar-view.md)
+   * Adobe Maestro-meddelanden {#adobe-maestro-notifications}
+      * [Adobe Workfront Planning-meddelanden: Artikelindex](maestro/notifications/notifications-information.md)
+      * [Hantera aviseringsinställningar för Adobe Workfront Planning](maestro/notifications/manage-notification-preferences.md)
+      * [Hantera e-postmeddelanden om Adobe Workfront Planning](maestro/notifications/manage-planning-email-notifications.md)
+      * [Hantera meddelanden i appen för Adobe Workfront Planning](maestro/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Mallen för Fusion-åtkomstregister](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)

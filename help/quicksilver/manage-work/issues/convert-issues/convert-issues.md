@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Mer information om hur du konverterar problem till projekt finns i [Konvertera e
 
 ## Att tänka på vid konvertering av problem
 
+* När du konverterar utleveranser till uppgifter eller projekt överförs den mesta informationen från utleveransen till uppgiften eller projektet, om inte annat anges i den här artikeln.
 * Din Workfront-administratör eller gruppadministratör har redan angett inställningar för vad som ska hända med ett problem, dess lösning och den primära kontaktens åtkomst när den konverteras till ett projekt eller en uppgift, enligt beskrivningen i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront tar bort alla godkännanden som är kopplade till problem under konverteringen.
 * Workfront skriver över problemets objekt när du konverterar det till en uppgift eller ett projekt. Den nya aktiviteten eller problemet blir det nya objekt som löser problemet efter konvertering.
@@ -76,7 +77,9 @@ I följande tabell visas projektinformation och om den överförs från mallen e
   </tr> 
   <tr> 
    <td>Prioritet</td> 
-   <td>Överför från mallen. </td> 
+   <td><p>Överför från frågan.</p>
+   <p>När du använder en mall för det konverterade projektet kan du ändra prioriteten manuellt. Om du väljer att inte ändra det överförs prioriteten för utgåvan till projektet. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -104,11 +107,11 @@ I följande tabell visas projektinformation och om den överförs från mallen e
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>Överför från mallen. Annars är fältet tomt.</td> 
+   <td>Överför från mallen. Annars är fältet tomt.</td> 
   </tr> 
   <tr> 
    <td>Program</td> 
-   <td>Överför från mallen. Annars är fältet tomt.</td> 
+   <td>Överför från mallen. Annars är fältet tomt.</td> 
   </tr> 
   <tr> 
    <td>Grupp</td> 
@@ -157,7 +160,7 @@ I följande tabell visas projektinformation och om den överförs från mallen e
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ Tabellen nedan visar vilka problemfält som visas i de konverterade projekten oc
 | Ärendefält | Projekt eller aktivitetsfält | Projektlista eller rapport | Området Projektinformation | Uppgiftslista eller rapport | Området Uppgiftsinformation |
 |---|---|---|---|---|---|
 | Ärendenamn | Namn på konverterat ärende | ✔ | ✔ | ✔ | ✔ |
-| Primär kontakt | Namn på den som skapat det konverterade problemet | ✔ | `✔` | ✔ |   |
-| Anmälningsdatum | Konverterat utgivningsdatum | ✔ |   | ✔ |   |
+| Primär kontakt | Namn på den som skapat det konverterade problemet | ✔ | `✔` | ✔ |  |
+| Anmälningsdatum | Konverterat utgivningsdatum | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

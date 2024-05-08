@@ -4,9 +4,9 @@ description: När någon taggar dig i en postkommentar får du ett e-postmeddela
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 När någon taggar dig i en postkommentar får du ett e-postmeddelande för den taggen.
+
+>[!IMPORTANT]
+>
+>Företaget måste vara en Adobe-kund för enhetlig upplevelse för att kunna ta emot meddelanden från Workfront Planning.
+>
+>Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>För att kunna ta emot meddelanden från Workfront Planning och hantera aviseringsinställningar måste din organisations instans av Workfront integreras med Adobe Unified Experience. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe enhetliga upplevelse för Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
@@ -78,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Hantera e-postmeddelanden
 
-1. (Villkorligt) När någon taggar dig i en kommentar för en post, går du till e-postmeddelandet som informerar dig om taggen och kommentaren.
+1. (Villkorligt) När någon taggar dig i en kommentar för en post, går du till e-postmeddelandet som informerar dig om taggen och kommentaren. E-postmeddelandets avsändare är Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Sidan med postinformation öppnas i Workfront. Du kan uppdatera posten eller svara på kommentaren.
 
 1. (Villkorligt) Om det är tillgängligt klickar du på **Visa alla meddelanden**. <!--check with Lilit - do non-IMS users have this button??-->
-Sidan Notifications (Meddelanden) öppnas i Adobe Experience Cloud.
+The **Meddelanden** öppnas i Adobe Experience Cloud.

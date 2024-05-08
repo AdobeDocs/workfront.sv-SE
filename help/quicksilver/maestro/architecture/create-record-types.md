@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Den senast använda arbetsytan bör öppnas som standard.
 
 1. Uppdatera följande information:
 
-   * Ersätt&quot;Namnlös operativ posttyp&quot; med namnet på din framtida posttyp. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * Ersätt&quot;Namnlös posttyp&quot; med namnet på din framtida posttyp. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Beskrivning**: Lägg till mer information om posttypen.
    * Välj en färg och form för den ikon som är associerad med posttypen. Gör följande:
       * Välj en färg som identifierar den nya posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
@@ -155,8 +155,11 @@ Den senast använda arbetsytan bör öppnas som standard.
 1. Klicka **Skapa**.
 
    Posttypkortet läggs till i avsnittet och på den arbetsyta som du har valt.
-Antalet fält som posttypen innehåller visas på kortet.
-1. (Valfritt) Håll markören över posttypskortet och klicka på knappen **Mer** icon ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** om du vill redigera information om posttypen.
+Beskrivning av posttypen visas på kortet.
+
+   ![](assets/record-type-card-with-description.png)
+
+1. (Valfritt) Håll markören över posttypskortet och klicka på knappen **Mer** icon ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** om du vill ändra information om posttypen.
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ Antalet fält som posttypen innehåller visas på kortet.
 
 1. (Valfritt) Klicka på vänsterpilen till vänster om posttypens namn i sidhuvudet för att gå tillbaka till den valda arbetsytan.
 
-   Posttypkortet visar antalet fält och anslutningar som posttypen innehåller.
+1. (Valfritt) Klicka på och håll ned ett posttypskort på arbetsytan om du vill dra och släppa posttypen på en önskad plats, eller om du vill flytta den till ett annat avsnitt.
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   Ändringarna sparas automatiskt.
 
    Mer information om hur du lägger till poster, tar bort eller redigerar posttyper eller uppdaterar vyn på posttypsidan finns i följande artiklar:
 
@@ -198,10 +201,6 @@ Antalet fält som posttypen innehåller visas på kortet.
    * [Ta bort posttyper](../architecture/delete-record-types.md)
    * [Redigera posttyper](../architecture/edit-record-types.md)
    * [Hantera postvyer](../views/manage-record-views.md)
-
-1. (Valfritt) Klicka på och håll ned ett posttypskort på arbetsytan om du vill dra och släppa posttypen på en önskad plats, eller om du vill flytta den till ett annat avsnitt.
-
-   Ändringarna sparas automatiskt.
 
 ## Skapa posttyper genom att importera en Excel- eller CSV-fil
 

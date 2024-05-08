@@ -6,9 +6,9 @@ description: Visa alla uppdateringar i en anteckningsrapport
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 923c9e25fbd73c9d6a6a20436333c6e7969e9538
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
 -->
 
-Under Uppdateringar för ett objekt visas maximalt 200 uppdateringar som standard. Om du vill se alla uppdateringar som någon av användarna har angett för ett objekt kan du skapa en anteckningsrapport som visar alla uppdateringar.
+Under Uppdateringar för ett objekt visas maximalt 200 uppdateringar som standard. Om du vill se alla uppdateringar som någon av användarna har angett för ett objekt kan du skapa en anteckningsrapport som visar alla uppdateringar.
 
 >[!NOTE]
 >
@@ -36,29 +36,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td> <p>Nytt: Standard </p>
+   <p>Aktuell: Planera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
    <td> <p>Redigera åtkomst till:</p> 
     <ul> 
      <li> <p>Skapa rapporter, instrumentpaneler och kalendrar</p> </li> 
      <li> <p>Skapa filter, vyer och grupperingar</p> </li> 
-    </ul> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Visa</p> <p>Obs! Om du inte har behörigheten Visa eller högre för ett objekt visas inte information för det objektet i rapporten.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa</p> <p><b>ANMÄRKNING</b></p>
+   <p>Om du inte har behörigheten Visa eller högre för ett objekt visas inte information för det objektet i rapporten.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns på [Åtkomstkrav i Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa en anteckningsrapport
 
@@ -66,7 +68,7 @@ Att skapa en rapport för anteckningar för ett objekt är identiskt, oavsett ob
 
 Om du till exempel vill skapa en anteckningsrapport för alla anteckningar i ett projekt:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
 
 1. Klicka **Rapporter**.
 1. Klicka **Ny rapport** väljer du **Anteckning**.
@@ -76,9 +78,16 @@ Om du till exempel vill skapa en anteckningsrapport för alla anteckningar i ett
 1. (Valfritt) Klicka på **Grupperingar** sedan **Lägg till gruppering** att gruppera efter **Projektnamn**, om du rapporterar om flera projekt samtidigt.\
    Detta gör att anteckningarna grupperas efter deras respektive projekt, vilket gör rapporten lättare att läsa. 
 
-1. (Valfritt) Klicka på **Filter,** sedan **Lägg till en filterregel** för att filtrera efter endast ett projekt eller specifika projekt.
+1. (Valfritt) Klicka på **Filter,** sedan **Lägg till en filterregel**.
+1. Lägg till ett filter för **Anteckning** > **Anteckningstext** > **Är inte tom**.
 
-1. (Villkorligt och valfritt) Ange **Projektnamn** as **Jämn** till projektnamnet för det projekt som du vill visa uppdateringar för.  
+   ![](assets/note-note-text-not-blank-filter.png)
 
+   >[!TIP]
+   >
+   >   Om ett projektfält uppdaterades men ingen anteckning lades till vid tidpunkten för uppdateringen **Anteckningstext** av uppdateringen visas som **(Ingen text har lagts till för uppdatering)**.
+
+
+1. (Valfritt) Lägg till ytterligare ett filter för **Projekt** > **Namn** > **Lika med** och lägg till ett eller flera projektnamn som du vill visa anteckningar för.
 1. Klicka **Spara + Stäng**.\
    Alla uppdateringar som har angetts i projektet av alla användare med behörighet att åtminstone visa projektet visas i rapporten.

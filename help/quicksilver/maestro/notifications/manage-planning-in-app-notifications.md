@@ -4,9 +4,9 @@ description: När någon taggar dig i en postkommentar får du ett e-postmeddela
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 När någon taggar dig i en postkommentar kan du få ett meddelande i appen för den taggen.
+
+>[!IMPORTANT]
+>
+>Företaget måste vara en Adobe-kund för enhetlig upplevelse för att kunna ta emot meddelanden från Workfront Planning.
+>
+>Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>För att kunna ta emot meddelanden från Workfront Planning måste din organisations instans av Workfront integreras med Adobe Unified Experience. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe enhetliga upplevelse för Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
@@ -76,12 +83,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 
-## Förutsättningar
-
-Företaget måste vara en Adobe Unified Experience Workfront-kund för att du ska få ett meddelande i appen när någon taggar dig i en registerkommentar.
-
-Information om hur du avgör om du är användare av Adobe Unified Experience finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## Hantera meddelanden i appen
 
 1. (Villkorligt) När någon taggar dig i en kommentar för en post går du till appen **Meddelanden** icon ![](assets/experience-cloud-notifications-icon.png) i Adobe Experience Cloud.
@@ -90,7 +91,7 @@ Information om hur du avgör om du är användare av Adobe Unified Experience fi
 
 1. Klicka på meddelandet.
 
-   Sidan med postinformation öppnas i Workfront. Du kan uppdatera posten eller svara på kommentaren.
+   Sidan med postinformation öppnas i Workfront Planning. Du kan uppdatera posten eller svara på kommentaren.
 
 1. (Valfritt) Klicka på **Markera alla som lästa** för att ange att du har läst alla meddelanden.
 1. (Valfritt) Klicka på **Visa alla** för att gå till **Meddelanden** i Adobe Experience Cloud.
