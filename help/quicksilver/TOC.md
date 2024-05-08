@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
+source-git-commit: 4564bc136576a92ddacec7116ca18ef9fb15a5bc
 workflow-type: tm+mt
-source-wordcount: '14239'
+source-wordcount: '14226'
 ht-degree: 0%
 
 ---
@@ -413,9 +413,8 @@ ht-degree: 0%
          * [Ny kommentarsfunktion](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Ny aktivitet för att frisläppa kommentarer](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nya vanliga frågor och svar om kommenteringsupplevelser](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Integreringsalfa för Workfront och Frame.io {#frame-io-wf-integration-alpha}
-         * [Adobe Workfront och Frame.io native integration alpha: översikt](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
-         * [Adobe Workfront och Frame.io, inbyggd integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Integreringsbeta för Workfront och Frame.io {#frame-io-wf-integration-beta}
+         * [Adobe Workfront och Frame.io inbyggt integrerat beta](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront Data Lake beta {#data-lake-beta}
          * [Betainformation för Workfront Data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration och konfiguration {#administration-and-setup}
@@ -1792,7 +1791,6 @@ ht-degree: 0%
 * Granska och godkänn arbetet {#review-and-approve-work}
    * [Granska och godkänn arbetet](review-and-approve-work/review-and-approve-work.md)
    * [Alpha - dokumentgodkännanden](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Betaprogram - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [Begränsat dokument och bevisbeslut för obetalda användare - översikt](review-and-approve-work/proof-doc-decision-limits.md)
    * Arbetsgodkännanden {#work-approvals}
       * [Arbetsgodkännanden](review-and-approve-work/manage-approvals/manage-approvals.md)
