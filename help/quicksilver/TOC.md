@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
+source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
 workflow-type: tm+mt
 source-wordcount: '14212'
 ht-degree: 0%
@@ -2097,7 +2097,7 @@ ht-degree: 0%
          * [Skapa ett grundläggande scenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
          * [Lägga till en utlösarmodul i ett grundläggande scenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
          * [Använda en funktion för att uppdatera ett projekt i ett enkelt scenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [Lägg till ett filter i ett grundscenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [Lägg till ett filter i ett grundscenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
          * [Lägga till en webkrok i ett grundläggande scenario i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Skapa en metod för automatisering i Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Skapa ett scenario för praktikintegrering i Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
