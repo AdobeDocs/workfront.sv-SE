@@ -6,9 +6,9 @@ description: Du kan länka dokument och mappar till Adobe Workfront från extern
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Du kan göra korrektur som ursprungligen skapats i Workfront Proof tillgängliga i Workfront. För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</td> 
+   <td>Du kan göra korrektur som ursprungligen skapades i Workfront Proof tillgängliga i Workfront. För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -143,7 +143,8 @@ Du kan länka dokument till Workfront från ett externt program som Google och M
 
    >[!NOTE]
    >
-   >För dokument som är länkade till Box visas inte länken till dokumentet i Box förrän du uppdaterar sidan.
+   >* Om den hämtnings-URL som används för att länka dokumentet överskrider 2 048 tecken kan filen inte länka.
+   >* För dokument som är länkade till Box visas inte länken till dokumentet i Box förrän du uppdaterar sidan.
 
 ### Lägga till en ny version av ett länkat dokument {#add-a-new-version-of-a-linked-document}
 
@@ -190,11 +191,11 @@ Du kan lägga till en ny version av ett dokument som är länkat till Workfront 
 
 Information om hur du lägger till en ny version av ett dokument som du har överfört till Workfront från filsystemet finns i [Lägga till dokument i Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### Länka Workfront korrekturdokument {#link-workfront-proof-documents}
+### Länka Workfront Proof-dokument {#link-workfront-proof-documents}
 
-Du kan länka korrektur till Workfront som ursprungligen fanns i Workfront Proof. När du länkar ett korrektur från Workfront Korrektur är alla kommentarer och andra metadata som är kopplade till korrekturet tillgängliga i Workfront.
+Du kan länka korrektur till Workfront som ursprungligen fanns i Workfront Proof. När du länkar ett korrektur från Workfront Proof är alla kommentarer och andra metadata som är kopplade till korrekturet tillgängliga i Workfront.
 
-Du kan bara länka de korrektur för vilka du har åtkomst till Visa i Workfront Korrektur.
+Du kan bara länka de korrektur som du har åtkomst till Visa i Workfront Proof.
 
 1. Gå till **Dokument** i Workfront där du vill ha dokumentet.
 1. Klicka **Lägg till ny** och sedan klicka **Från Workfront Proof**.
