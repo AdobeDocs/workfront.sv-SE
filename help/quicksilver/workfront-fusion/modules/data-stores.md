@@ -8,9 +8,9 @@ description: Ett datalager, som liknar en databas eller en enkel tabell, kan lag
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -76,24 +76,28 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 ## Tillgängligt datautrymme
 
-Om din organisation använder den nya Workfront-planmodellen (Select-, Prime- och Ultimate-paket) påverkar din organisations plan storleken och antalet datalager som är tillgängliga i Fusion-instansen.
+Om din organisation använder den nya Workfront-planmodellen (Select-, Prime- och Ultimate-paketen) är din totala datalagringsstorlek:
 
-### Ultimat plan
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-Fusion-instanser i Ultimate-paketet tar emot:
+### Ultimate plan
 
-* 500 MB ledigt utrymme
-* 50 datalager
+Fusion instances on the Ultimate package receive:
 
-### Select- och Prime-planer
+* 500 MB of space
+* 50 data stores 
 
-Fusion-instanser på Select- eller Prime-paketen får:
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 100 MB för de första 500 kB-åtgärderna.
 
 * 10 MB för varje ytterligare 100 K-åtgärd.
 
-En organisation med 600 kB-åtgärder får till exempel 110 MB.
+  En organisation med 600 kB-åtgärder får till exempel 110 MB.
+
+Din organisation kan ha upp till 50 datalager. Den kombinerade storleken på dessa datalager får inte överskrida organisationens totala datalagringsstorlek.
 
 ## Skapa ett datalager i [!DNL Workfront Fusion]
 
