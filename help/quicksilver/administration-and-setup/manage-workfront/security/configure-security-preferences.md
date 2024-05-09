@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Konfigurera säkerhetsinställningar för system
-description: Som Adobe Workfront-administratör kan du konfigurera säkerhetsinställningar för Workfront.
-author: Caroline
+title: Konfigurera systeminställningar
+description: Som Adobe Workfront-administratör kan du konfigurera inställningar för ditt Workfront-system, inklusive säkerhetsinställningar.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
+source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ ht-degree: 0%
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
+<!--Audited: 05/2024-->
+
 {{important-admin-console-onboard}}
 
-Som Adobe Workfront-administratör kan du konfigurera inställningar för ditt Workfront-system:
+Som Adobe Workfront-administratör kan du konfigurera inställningar för ditt Workfront-system, bland annat:
 
 * Tillgång till Workfront från mobilappar och andra integrerade program
 * Regler för inbäddning av Workfront i en iframe
@@ -46,18 +48,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td><p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Konfigurera systeminställningarna
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på i den vänstra panelen **System** > **Inställningar**.
 
@@ -68,11 +74,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Aktivera snabb granskningsprocess</p> </td> 
+      <td role="rowheader"> <p>Aktivera processen för snabb release</p> </td> 
       <td>Gör att du kan aktivera månadsvisa Workfront-utgåvor för din organisation istället för kvartalsvisa utgåvor.</p><p>Mer information om processen för snabb släppning finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Aktivera eller inaktivera snabba releaser för din organisation</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Tillåt inbäddning <strong>Workfront</strong> i en iframe</p> </td> 
+      <td role="rowheader"> <p>Tillåt inbäddning av Workfront i en iframe</p> </td> 
       <td>Gör att du kan bädda in Workfront i en iframe.<p>Det här alternativet är inaktiverat som standard.</p><p><b>VIKTIGT</b>: Om du visar ett webbaserat program i en iframe kan programmet drabbas av en klickjacking-säkerhetslucka.</p></td> 
      </tr> 
      <tr> 
@@ -84,8 +90,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td> <p>Tillåter användare att använda information om sessions-ID för en webbplats när en extern sida läggs till på en instrumentpanel.</p> <p>Det här alternativet är osäkert och inaktiverat som standard. Vi rekommenderar att du använder OAuth för integreringar i stället.</p> <p>Mer information om hur du lägger till externa sidor på en kontrollpanel finns i <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Bädda in en extern webbsida i en instrumentpanel</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Låt användare använda Workfront mobilapplikationer och <strong>Workfront</strong> Outlook-tillägg</td> 
-      <td> <p>Tillåter användare åtkomst till mobilapparna (Workfront View för iPad och mobilappar) och Workfront Outlook-appen.</p> <p>Det här alternativet är aktiverat som standard. </p> <p>Mer information om Workfront View finns i <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Använd Adobe Workfront View</a>. Mer information om mobilapparna finns i <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Använda Adobe Workfront mobilapp</a>.</p> <p>Mer information om Outlook-plugin-programmet finns i <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Konfigurera Adobe Workfront för Outlook</a>.</p> </td> 
+      <td role="rowheader">Låt andra använda Workfront mobilprogram och Workfront Outlook-tillägget</td> 
+      <td> <p>Tillåter användare åtkomst till mobilapparna (Workfront View för iPad och mobilappar) och Workfront Outlook-appen.</p> <p>Det här alternativet är aktiverat som standard. </p> <p>Mer information om Workfront View finns i <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Använd Adobe Workfront View</a>. Mer information om mobilapparna finns i <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Använda Adobe Workfront mobilapp: artikelindex</a>.</p> <p>Mer information om Outlook-plugin-programmet finns i <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Konfigurera Adobe Workfront för Outlook</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Samarbeta med personer utan Workfront-konton via e-postadresser</p> </td> 
@@ -110,12 +116,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td>Här kan du ange när en användare är utloggad från Workfront-programmet, efter en tids inaktivitet. Som standard loggas användare ut efter 7 dagars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p></td> 
      </tr> 
      <tr> 
+      <td role="rowheader">Anpassad hjälp-URL</td> 
+      <td>Här kan du definiera en intern anpassad hjälpwebbplats där hjälpikonen för huvudmeny kan visas. Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Konfigurera en anpassad hjälp-URL</a>.</p></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Användare i systemet ser som standard den nya hemupplevelsen </td> 
       <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När alternativet är inaktiverat visas inte den banderoll som gör att användaren kan växla till Nytt hem, men användaren kan fortfarande navigera till sin nya hemsida genom att ange <code>/home/workspaces</code> i slutet av instansens URL. Den här inställningen är aktiverad som standard.</td> 
-     </tr> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Testmiljöer</td> 
+      <td>Här kan du komma åt Workfront testmiljöer. Mer information finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Sandlådemiljön Adobe Workfront Preview</a>.</p></td> 
     </tbody> 
    </table>
 
 1. Klicka **Spara**.
 
-   De ändringar du har sparat här påverkar upplevelsen för alla användare i Workfront och alla som interagerar med dem som externa användare.
+   De ändringar du har sparat här påverkar upplevelsen för alla användare i Workfront och alla som interagerar med systemet som externa användare.
