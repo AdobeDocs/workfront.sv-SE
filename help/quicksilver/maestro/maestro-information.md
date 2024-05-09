@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-Som marknadsledare kan ni använda Adobe Workfront Planning för att organisera arbetet under hela marknadsföringscykeln för alla era team.
-
 {{maestro-important-intro}}
 
 Du kan använda den här sidan som utgångspunkt för all dokumentation som rör Adobe Workfront Planning.
@@ -51,15 +49,17 @@ I följande artiklar finns en översikt över nya Workfront Planning:
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning - översikt](maestro-overview.md): En översikt på hög nivå över Adobe Workfront Planning, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Workfront Planning här.
-* [Adobe Workfront Planning - lanseringsaktivitet](../maestro/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Adobe Workfront Planning stängde betaprogrammet den 22 maj 2023 med exakta releasedatum och en kort översikt över samtliga funktioner.
+* [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/maestro/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Adobe Workfront Planning stängde betaprogrammet den 22 maj 2023 med exakta releasedatum och en kort översikt över samtliga funktioner.
 * [Adobe Maestro-moduler för Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront Planning - arkitektur och funktionalitet
 
 Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som för närvarande finns för Workfront Planning:
 
-* [Adobe Workfront Planning Access-information: artikelindex](../maestro/access/access-information.md): Information om åtkomst och behörigheter som krävs för att använda Workfront Planning.
-* [Arkitektur: artikelindex](../maestro/architecture/architecture-information.md): Detaljerad information om arkitekturen i Workfront Planning, med stegvisa instruktioner för hur du skapar och hanterar arbetsytor och posttyper.
-* [Fält: artikelindex](../maestro/fields/fields-information.md): Detaljerad information och stegvisa instruktioner om hur du skapar anpassade fält för posttyper.
-* [Poster: artikelindex](../maestro/records/records-information.md): Detaljerad information och stegvisa instruktioner om hur du kan skapa och hantera poster.
-* [Vyer: artikelindex](../maestro/views/views-information.md): Detaljerad information om postvyer och hur du hanterar dem när du visar en posttypssida.
+* [Adobe Workfront Planning - åtkomstinformation: artikelindex](/help/quicksilver/maestro/access/access-information.md): Information om åtkomst och behörigheter som krävs för att använda Workfront Planning.
+* [Arkitektur: artikelindex](/help/quicksilver/maestro/architecture/architecture-information.md): Detaljerad information om arkitekturen i Workfront Planning, med stegvisa instruktioner för hur du skapar och hanterar arbetsytor och posttyper.
+* [Fält: artikelindex](/help/quicksilver/maestro/fields/fields-information.md): Detaljerad information och stegvisa instruktioner om hur du skapar anpassade fält för posttyper.
+* [Poster: artikelindex](/help/quicksilver/maestro/records/records-information.md): Detaljerad information och stegvisa instruktioner om hur du kan skapa och hantera poster.
+* [Vyer: artikelindex](/help/quicksilver/maestro/views/views-information.md): Detaljerad information om postvyer och hur du hanterar dem när du visar en posttypssida.
+* [Adobe Workfront Planning-meddelanden: Artikelindex](/help/quicksilver/maestro/notifications/notifications-information.md): Information om e-post och meddelanden i appar som genereras av händelser i Workfront Planning.
+
