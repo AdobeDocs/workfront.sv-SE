@@ -8,8 +8,7 @@ title: Adobe Firefly-moduler
 description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Firefly], samt ansluta till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 4f583c7826625e08af6b63b21cacf9c770b11567
+source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
