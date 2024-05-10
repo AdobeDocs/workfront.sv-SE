@@ -9,9 +9,9 @@ description: Du kan använda SOAP-modulen för att ansluta till SOAP API:er i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,11 @@ Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Använda [!UICONTROL SOAP] modul
+## Begränsningar i [!UICONTROL SOAP] modul
+
+>[!NOTE]
+>
+>Omdirigeringar inaktiveras under WDSL-inläsning. Det här är en säkerhetsfunktion, men det kan betyda att overifierade omdirigeringar blockeras när modulen körs.
 
 The [!UICONTROL SOAP] Modulen är för närvarande i betaversion och stöder inte:
 
@@ -86,8 +90,8 @@ The [!UICONTROL SOAP] Modulen är för närvarande i betaversion och stöder int
 >     </complexContent>
 ></complexType>
 >```
-
-Den innehåller `soapenc:Array`, `soapenc:arrayType` och `wsdl:arrayType` referenser, som ännu inte stöds i [!UICONTROL Workfront Fusion].
+>
+>Det här exemplet innehåller `soapenc:Array`, `soapenc:arrayType` och `wsdl:arrayType` referenser, som ännu inte stöds i [!UICONTROL Workfront Fusion].
 
 ## Tillfällig lösning
 
