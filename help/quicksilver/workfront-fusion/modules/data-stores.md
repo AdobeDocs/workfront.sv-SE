@@ -8,9 +8,9 @@ description: Ett datalager, som liknar en databas eller en enkel tabell, kan lag
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
+source-git-commit: 00a969175626d27b70d516921097725fdf818799
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -76,20 +76,20 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 ## Tillgängligt datautrymme
 
-Om din organisation använder den nya Workfront-planmodellen (Select-, Prime- och Ultimate-paketen) är din totala datalagringsstorlek:
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
+Om din organisation använder den nya Workfront-planmodellen (Select-, Prime- och Ultimate-paket) påverkar din organisations plan storleken och antalet datalager som är tillgängliga i Fusion-instansen.
 
-### Ultimate plan
+### Ultimat plan
 
-Fusion instances on the Ultimate package receive:
+Fusion-instanser i Ultimate-paketet tar emot:
 
-* 500 MB of space
-* 50 data stores 
+* 100 MB ledigt utrymme
+* 50 datalager
 
-### Select and Prime plans
+### Select- och Prime-planer
 
-Fusion instances on the Select or Prime packages receive:-->
+Fusion-instanser på Select- eller Prime-paketen tar emot:—>
 
 * 100 MB för de första 500 kB-åtgärderna.
 
