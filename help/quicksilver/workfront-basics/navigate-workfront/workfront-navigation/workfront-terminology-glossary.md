@@ -6,9 +6,9 @@ description: The [!DNL Adobe Workfront] ordlista med vanliga termer i [!DNL Adob
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '16317'
+source-wordcount: '16482'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
    <td>En datakälla för att mäta iterationer mot i en flexibel miljö.</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Billable Expense]</td> 
+   <td> <p>En utgift som är markerad som fakturerbar för kunden. Detta kan vara antingen en planerad utgift eller en faktisk utgift.</p> <p>Fälten Planerad fakturerbar utgift och Faktisk fakturerbar utgiftskostnad är tillgängliga så att du kan lägga till i vyer och rapporter. De visas inte på projekt- eller uppgiftsinformationssidorna.</p>
+   <p>Du hittar dessa fält i följande typer av rapporter:</p>
+   <ul>
+   <li>Baslinje</li>
+   <li>Mall</li>
+   <li>Projekt (ekonomiska data)</li>
+   </ul>
+   <p>Mer information om hur du markerar en utgift som fakturerbar finns i <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Hantera projektutgifter</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -1305,7 +1318,21 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td>I en [!UICONTROL Journal Entry] rapport, visar det uppdaterade värdet för ett fält som ersätter [!UICONTROL Old Number Value].
    Mer information finns i "[!UICONTROL Old Number Value]" i den här artikeln.</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Non-Billable Expense]</td> 
+   <td> <p>En utgift som inte är markerad som fakturerbar för kunden. Detta kan vara antingen en planerad utgift eller en faktisk utgift.</p> <p>Fälten Planerad icke-fakturerbar kostnad och Faktisk icke-fakturerbar kostnad är tillgängliga så att du kan lägga till i vyer och rapporter. De visas inte på projekt- eller uppgiftsinformationssidorna.</p>
+   <p>Du hittar dessa fält i följande typer av rapporter:</p>
+   <ul>
+   <li>Baslinje</li>
+   <li>Mall</li>
+   <li>Projekt (ekonomiska data)</li>
+   </ul>
+   <p>Mer information om hur du markerar en utgift som fakturerbar finns i <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Hantera projektutgifter</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Non Work Day]</td> 
    <td>En dag som inte har allokerats till slutförande av tilldelningar. Det här är vanligtvis en semesterdag, semester eller helg. Termen visas i API-utforskaren. </td> 
   </tr> 
