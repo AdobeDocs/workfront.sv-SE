@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,15 @@ Tabellerna i följande avsnitt visar vilken behörighetsnivå du kan välja när
 
 ### Behörigheter för arbetsytan
 
+Du måste ge användarna behörighet till arbetsytor för att de ska kunna få åtkomst till följande enheter:
+
+* Arbetsytor
+* Posttyper
+* Poster
+* Fält
+
+Följande behörighetsnivåer gäller för arbetsytor:
+
 |        | Hantera | Contribute | Visa |
 |--------|--------|------------|-------|
 | Redigera | ✓ |            |       |
@@ -80,6 +89,9 @@ Tabellerna i följande avsnitt visar vilken behörighetsnivå du kan välja när
 
 Posttypsbehörigheter ärvs när du ger behörighet till arbetsytan.
 
+Följande behörighetsnivåer gäller för posttyper:
+
+
 |        | Hantera | Contribute | Visa |
 |--------|--------|------------|-------|
 | Skapa | ✓ |            |       |
@@ -90,6 +102,9 @@ Posttypsbehörigheter ärvs när du ger behörighet till arbetsytan.
 ### Spela in behörigheter
 
 Postbehörigheter ärvs när du ger behörighet till arbetsytan.
+
+Följande behörighetsnivåer gäller för poster:
+
 
 |        | Hantera | Contribute | Visa |
 |--------|--------|------------|-------|
@@ -115,7 +130,19 @@ Följande behörigheter refererar till själva fälten och inte till värdena so
 
 Du måste tilldela separata behörigheter för att spela in vyer. Om du ger behörighet till arbetsytan ges inte behörighet till postvyerna på arbetsytan.
 
+Du måste ge användarna behörighet att visa vyer för att de ska ha tillgång till följande vyelement:
+
+* Filter
+* Fältsynlighet
+* Sortera
+* Gruppering
+* Radhöjd
+* Inställningar
+
+
 <!--You can share views internally or publicly. -->
+
+Följande behörighetsnivåer gäller för vyer och visningselement:
 
 |        | Hantera | Visa |
 |--------|--------|-------|

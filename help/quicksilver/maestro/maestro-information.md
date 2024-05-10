@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ I följande artiklar finns en översikt över nya Workfront Planning:
 
 Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som för närvarande finns för Workfront Planning:
 
-* [Adobe Workfront Planning - åtkomstinformation: artikelindex](/help/quicksilver/maestro/access/access-information.md): Information om åtkomst och behörigheter som krävs för att använda Workfront Planning.
+* [Åtkomst- och behörighetsinformation: artikelindex](/help/quicksilver/maestro/access/access-information.md): Information om åtkomst och behörigheter som krävs för att använda Workfront Planning.
 * [Arkitektur: artikelindex](/help/quicksilver/maestro/architecture/architecture-information.md): Detaljerad information om arkitekturen i Workfront Planning, med stegvisa instruktioner för hur du skapar och hanterar arbetsytor och posttyper.
 * [Fält: artikelindex](/help/quicksilver/maestro/fields/fields-information.md): Detaljerad information och stegvisa instruktioner om hur du skapar anpassade fält för posttyper.
 * [Poster: artikelindex](/help/quicksilver/maestro/records/records-information.md): Detaljerad information och stegvisa instruktioner om hur du kan skapa och hantera poster.
 * [Vyer: artikelindex](/help/quicksilver/maestro/views/views-information.md): Detaljerad information om postvyer och hur du hanterar dem när du visar en posttypssida.
-* [Adobe Workfront Planning-meddelanden: Artikelindex](/help/quicksilver/maestro/notifications/notifications-information.md): Information om e-post och meddelanden i appar som genereras av händelser i Workfront Planning.
+* [Meddelanden: Artikelindex](/help/quicksilver/maestro/notifications/notifications-information.md): Information om e-post och meddelanden i appar som genereras av händelser i Workfront Planning.
 

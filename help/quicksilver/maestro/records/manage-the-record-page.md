@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ Du kan redigera layouten för postförhandsgranskning och -sida i Adobe Workfron
 
 Förhandsgranskningen av posten är en mindre vy av postsidan som visas i vyn av en posttyp.
 
-När du ändrar layouten för en postförhandsgranskning och sida påverkar ändringarna rutorna och sidorna för alla poster av samma typ.
+När du ändrar layouten för en postförhandsgranskning och sida påverkar ändringarna förhandsvisningsrutorna och informationssidorna för alla poster av samma typ.
+
+I den här artikeln beskrivs hur du kan ändra layouten och utseendet på en postförhandsvisningsruta eller en postsida. Mer information om hur du redigerar poster finns i [Redigera poster](/help/quicksilver/maestro/records/edit-records.md).
 
 Du måste skapa posttyper och poster innan du kan börja redigera postsidor.
 
