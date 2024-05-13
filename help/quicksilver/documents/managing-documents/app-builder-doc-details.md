@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
+exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
+source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
-
 
 # AppBuilder i Workfront Document Details
 
@@ -358,3 +358,12 @@ Här är några praktiska länkar:
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
 
+## Lokal utveckling
+
+När du utvecklar ditt App Builder-program för Workfront kanske du behöver testa din app i Workfront utan att publicera den. Som tur är har vi en lösning för detta.
+
+I appen App Builder kan du initiera `aio app run` för lokal utveckling. Detta ger dig en URL, vanligtvis något som `https://localhost:9080`. Du kan även köra `aio app deploy` för att få en statisk Adobe-domän. Observera dessa URL:er för framtida bruk.
+
+Gå sedan till den specifika dokumentinformationssida som du vill utveckla för i webbläsaren. Öppna utvecklarverktygen och gå till Lokal lagring för antingen workfront.com eller workfront.adobe.com. Här måste du lägga till en post. Använd `appBuilderDocDetailsOverride` som nyckel och tidigare angiven URL för appbyggaren som värde.
+
+När du läser in sidan igen visas knapparna från ditt App Builder-program. Om du klickar på de här knapparna kan du se hur appen fungerar.
