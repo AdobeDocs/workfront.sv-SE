@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
+source-git-commit: 8b5bcc1270beb9c5295342eec07636e96fd426f6
 workflow-type: tm+mt
 source-wordcount: '6042'
 ht-degree: 0%
@@ -529,7 +529,7 @@ Exempel på hur du använder fältet för extern sökning för att anropa samma 
 
 >[!NOTE]
 >
->* Extern sökfunktion är inte tillgänglig för dokument- eller användarobjekt.
+>* Funktionen för extern sökning stöds för närvarande inte i anpassade dokumentformulär.
 >* Externa sökfält från anpassade formulär stöds för närvarande inte i kontrollpaneler. Du kan inte redigera fältvärdet infogat och det kanske inte visas korrekt på en kontrollpanel. (Externa sökfält stöds i Canvas-kontrollpaneler.)
 >* Externa sökfält är tillgängliga i listor, såvida inte fältet är beroende av ett annat fält.
 
