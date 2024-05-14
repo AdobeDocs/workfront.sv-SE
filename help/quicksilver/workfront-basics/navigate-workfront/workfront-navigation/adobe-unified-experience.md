@@ -6,9 +6,9 @@ description: Åtkomst [!DNL Workfront] med Adobe Experience Cloud får du en smi
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Använd [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) till
 
 ## Få åtkomst till din profil och dina inställningar
 
-Du kommer åt din profil och dina inställningar genom att klicka på din profilbild i det övre navigeringsområdet.
+Du kommer åt din profil och dina inställningsalternativ genom att klicka på Adobe-kontomenyn (din profilbild) i det övre navigeringsområdet.
 
 ![Profilmeny](assets/aec-profile-picture-menu.png)
 
