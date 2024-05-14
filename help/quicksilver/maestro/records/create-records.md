@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -103,27 +103,31 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](../architecture/create-record-types.md).
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
-Alla poster av den valda typen visas i tabellvyn.
+Alla poster av den valda typen visas i vyn.
 
-1. (Villkorligt) Om posttypsidan inte öppnas i tabellvyn klickar du på fliken i en tabellvy eller klickar på **+ Visa** för att skapa en tabellvy.
+1. (Villkorligt) Beroende på vilken vy du visar gör du något av följande:
 
-1. Om du vill lägga till nya poster klickar du **Ny post** i tabellens sista rad
+   * Från tabellvyn:
 
-   eller
+      * Klicka **Ny post** i tabellens sista rad
 
-   Klicka **Skift + Retur** på tangentbordet från en kolumn eller rad i tabellen. Det här annonserar en tom rad.
+      * Klicka **Skift + Retur** på tangentbordet från en kolumn eller rad i tabellen. Det här annonserar en tom rad.
 
-   ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![](assets/adding-a-new-campaign-in-table-row.png)
 
-1. Börja skriva information på den nya raden om den nya posten.
+   * Från alla vyer:
+
+      * Klicka **Ny post** i det övre högra hörnet på sidan. Förhandsgranskningsrutan för posten öppnas.
+
+1. Börja skriva information på den nya raden om den nya posten eller i fälten som visas i förhandsvisningsrutan.
 
    >[!NOTE]
    >
-   >  * Det finns inga obligatoriska fält för poster. Vi rekommenderar dock att du lägger till ett namn för posten, eftersom det är praktiskt att identifiera poster när du länkar poster till varandra.
+   >  * Det finns inga obligatoriska fält för poster. Vi rekommenderar dock att du lägger till ett namn för posten, eftersom det är praktiskt att identifiera poster med deras namn när de länkar poster till varandra.
    >
    >  * Fält som refererar till andra posttyper eller beräknade fält är skrivskyddade fält.
 
-1. Fortsätt lägga till information på varje rad och klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
+1. (Villkorligt) När du lägger till poster i tabellen fortsätter du att lägga till information på varje rad och klickar sedan på **Retur** på tangentbordet för att spara ändringarna.
 
    eller
 
@@ -136,8 +140,7 @@ Alla poster av den valda typen visas i tabellvyn.
 1. Börja redigera postens information i postens förhandsgranskning. Workfront sparar automatiskt ändringarna.
 1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan.
 
-
-1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om när du lägger till nya poster:
+1. (Valfritt) Använd följande kortkommandon om du vill ångra eller göra om tillägg av nya poster eller deras information när du lägger till dem i tabellvyn:
 
    * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
