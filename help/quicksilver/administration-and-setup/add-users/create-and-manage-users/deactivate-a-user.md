@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,16 @@ Mer information finns i [Inaktivera Workfront-administratörer och avtalslicensa
 
 ## Inaktivera en användare
 
+Tänk på följande när du inaktiverar en användare:
+
+* Användaren kommer inte att kunna komma åt systemet.
+* Användaren tas bort från Frame.io och granskar länkar, resurser, projekt och konton.
+   * När användaren återaktiveras läggs de inte automatiskt till i Frame.io-objekten. Du måste tilldela om användaren manuellt till projekt, uppgifter och resurser i Workfront som kräver Frame.io-samarbete.
+* Alla data som är kopplade till användaren behålls.
+* Du kan tilldela en inaktiverad användarlicens till en annan användare.
+
+Så här inaktiverar du en användare:
+
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
 
 1. Välj en användare och klicka på **Mer** icon ![](assets/more-icon.png)och sedan klicka **Inaktivera**.
@@ -126,6 +136,10 @@ Vi rekommenderar att du skapar en rapport för användare som du har schemalagt 
 1. Markera en användare och klicka på ikonen Mer ![](assets/more-icon.png)och sedan klicka **Aktivera**.
 
 1. Tilldela en ny **Åtkomstnivå** i listrutan och klicka sedan på **Återaktivera**.
+
+### Granskning och godkännande av tillgångar när du återaktiverar en användare
+
+Inaktiverade användare förlorar åtkomst till sina tilldelade Frame.io-konton samt till tilldelade projekt, resurser och granskningslänkar. Om du väljer att återaktivera användaren måste du manuellt tilldela om dem till projekt, uppgifter och resurser som kräver Frame.io-samarbete.
 
 ### Korrekturera påverkan när du återaktiverar en användare
 

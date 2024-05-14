@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
+source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,32 @@ Här hittar du information om den senaste betaversionen samt en kort videogenomg
 >
 >Om du vill delta i betaversionen måste du aktiveras av produktteamet. Kontakta en Customer Success eller Account Manager och be om att få lägga till.
 
+## Maj 2024: Betaversionsuppdateringar i Workfront
 
-## Betaversionsuppdateringar i Frame.io - mars 2024
+I majversionen finns följande funktioner:  
 
-I den här betaversionen har vi:
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Workfront-projekt synkroniseras automatiskt till Frame.io
+
+Baserat på din feedback har vi förbättrat upplevelsen och minskat antalet steg som krävs för att skapa en ansluten Frame.io.  När du skapar ett projekt i Workfront skapas nu ett motsvarande projekt automatiskt i Frame.io. 
+
+### Förbättrad tilldelning av kreatörer till Frame.io-projekt
+
+Nu kan du enkelt hantera vilka som ska ha tillgång till det anslutna Frame.io-projektet. Dina kreativa användare kan flaggas som&quot;Frame.io enabled&quot;, vilket automatiskt ger dem åtkomst till det anslutna Frame.io-projektet när det tilldelas till Workfront-projektet.   
+
+### Frame.io-projektnamnet uppdateras när Workfront projektnamn ändras
+
+Som en del av vårt arbete med att förbättra projektsynkroniseringen mellan Workfront och Frame.io återspeglas nu Workfront projektnamnsuppdateringar även i Frame.io. 
+
+### Godkännandestatus i dokumentlista
+
+Håll ordning på godkännandestatus för alla slags filer direkt i dokumentlistan. Med ett enkelt klick på den övergripande statusen får du tillgång till en detaljerad beskrivning av alla deltagare som deltar i godkännandeprocessen, tillsammans med deras enskilda status. Dessutom kan du effektivisera arbetsflödet genom att påminna alla godkännare med bara ett klick, vilket ger snabba svar och effektiv dokumenthantering. 
+
+
+## Mars 2024: Betaversionsuppdateringar i Frame.io
+
++++ Expandera för att visa de funktioner som lanserades i mars 2024
 
 ### Lägga till flera resurser från Frame.io till Workfront
 
@@ -39,7 +61,7 @@ Menyalternativen för att lägga till en resurs i Workfront har uppdaterats så 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Betaversionsuppdateringar i Workfront - mars 2024
+## Mars 2024: Betaversionsuppdateringar i Workfront
 
 I den här betaversionen har vi:
 
@@ -82,6 +104,8 @@ När dokumentet är låst kan ingen som granskar och/eller godkänner det längr
 När en ny dokumentversion överförs kan nästa granskningsomgång startas medan tidigare versioner hålls låsta.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
+
++++
 
 ## Funktionstestning
 
@@ -128,14 +152,12 @@ Om du vill testa funktionen loggar du in på Workfront Preview eller Sandbox och
 
 +++ Expandera för att visa detaljerade testinstruktioner
 
-För deltagare som vill testa ytterligare funktioner har vi skapat ett mer komplicerat testscenario. En guide för detta detaljerade testscenario kan laddas ned här: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
+För deltagare som vill testa ytterligare funktioner har vi skapat ett mer komplicerat testscenario. En guide för detta detaljerade testscenario kan laddas ned här: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
-<!-- 
-## Demo Video
+## Demonstrationsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## Skicka feedback
 

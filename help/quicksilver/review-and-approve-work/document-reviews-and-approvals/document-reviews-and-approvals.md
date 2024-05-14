@@ -8,9 +8,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
-source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
+source-git-commit: c1acfe1e6abd621c21404b738d355e1c9ee0c583
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ Det här avsnittet innehåller följande avsnitt:
 * [Översikt över dokumentgodkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
 * [Godkänn dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+* [Kom igång med granskning och godkännande av resurser med Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)

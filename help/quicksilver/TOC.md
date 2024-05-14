@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
+source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
 workflow-type: tm+mt
-source-wordcount: '14236'
+source-wordcount: '14250'
 ht-degree: 0%
 
 ---
@@ -781,9 +781,10 @@ ht-degree: 0%
    * Konfigurera integreringar {#configure-integrations}
       * [Konfigurera integreringar](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integreringar](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Konfigurera Workfront med Adobe Experience Manager äldre anslutning](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+      * [Konfigurera [!DNL Workfront] och [!DNL Frame.io] integration](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Konfigurera Experience Manager Assets as a Cloud Service-integrering](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Konfigurera integreringen av Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [Konfigurera Workfront med Adobe Experience Manager äldre anslutning](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Ge användarna tillgång till mobilappen](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Aktivera Adobe Workfront för Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
       * [Konfigurera dokumentintegreringar](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -1197,6 +1198,7 @@ ht-degree: 0%
          * [Skapa ett projekt med en mall](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importera ett projekt från Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Skapa projektbaslinjer](manage-work/projects/create-projects/create-baselines.md)
+         * [Skapa ett projekt som är kopplat till Frame.io](manage-work/projects/create-projects/create-frame-connected-project.md)
       * Uppdatera arbete i ett projekt {#update-work-on-a-project}
          * [Uppdatera arbete i ett projekt: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Tillämpa statusvärden på arbete som är associerat med en grupp](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1808,7 +1810,7 @@ ht-degree: 0%
    * Dokumentgranskning och godkännande {#document-reviews-and-approvals}
       * [Dokumentgranskning och godkännande](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Översikt över dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * [Översikt över resursgranskning och godkännande](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
+      * [Kom igång med granskning och godkännande av resurser med Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * Granska dokument {#review-and-approve-documents}
          * [Granska dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1820,7 +1822,7 @@ ht-degree: 0%
          * [Lägga till ytterligare granskare eller godkännare i ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Ta bort godkännare eller granskare från ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Skapa en godkännandemall](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Dokumentgodkännandestatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Korrektur {#proofing}
       * [Korrektur: artikelindex](review-and-approve-work/proofing/proofing.md)

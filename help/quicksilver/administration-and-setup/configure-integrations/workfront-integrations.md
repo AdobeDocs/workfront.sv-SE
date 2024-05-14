@@ -9,9 +9,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8d2329e111393e83e3c26ee694df7770b8459247
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ ht-degree: 0%
 Det här avsnittet innehåller följande artiklar:
 
 * [[!DNL Adobe Workfront] integreringar](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [Konfigurera [!DNL Workfront] med [!DNL Adobe Experience Manager] äldre koppling](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
+* [Konfigurera [!DNL Workfront] och [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [Konfigurera [!DNL Experience Manager Assets as a Cloud Service] integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [Konfigurera [!DNL Experience Manager Assets Essentials] integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-* [[!DNL Workfront] and [!DNL Experience Manager Assets] Integreringar](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [[!DNL Workfront] och [!DNL Experience Manager Assets] Integreringar](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Konfigurera [!DNL Workfront] med [!DNL Adobe Experience Manager] äldre koppling](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [Aktivera [!UICONTROL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [Konfigurera dokumentintegreringar](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [Inaktivera dokumentintegreringar](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
