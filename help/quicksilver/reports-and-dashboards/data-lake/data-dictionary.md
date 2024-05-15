@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,33 @@ Den här sidan innehåller information om datastrukturen och innehållet i Workf
 
 Det finns ett antal tabelltyper som du kan använda för att visa dina Workfront-data på ett sätt som ger dig den mest insikt.
 
-### Aktuell tabell
+* **Aktuell tabell**
 
-I den aktuella tabellen visas data på ungefär samma sätt som i Workfront, alla objekt och det aktuella läget. Den kan navigeras med mycket lägre latens än inom Workfront.
+  I den aktuella tabellen visas data på ungefär samma sätt som i Workfront, alla objekt och det aktuella läget. Den kan navigeras med mycket lägre latens än inom Workfront.
 
-### Händelsetabell
+* **Händelsetabell**
 
-Händelsetabellen spårar alla ändringsposter i Workfront: det vill säga varje gång ett objekt ändras skapas en post som visar när ändringen inträffade, vem som gjorde ändringen och vad som ändrades. Den här tabellen är därför användbar för jämförelser vid olika tidpunkter. Denna tabell innehåller endast poster från de senaste tre åren.
+  Händelsetabellen spårar alla ändringsposter i Workfront: det vill säga varje gång ett objekt ändras skapas en post som visar när ändringen inträffade, vem som gjorde ändringen och vad som ändrades. Den här tabellen är därför användbar för jämförelser vid olika tidpunkter. Denna tabell innehåller endast poster från de senaste tre åren.
 
-### Daglig historiktabell
+* **Daglig historiktabell**
 
-Tabellen Daglig historik innehåller en förkortad version av tabellen Event, eftersom den visar varje objekts tillstånd dagligen i stället för när varje enskild händelse inträffade. Den här tabellen är därför användbar för trendanalys.
+  Tabellen Daglig historik innehåller en förkortad version av tabellen Event, eftersom den visar varje objekts tillstånd dagligen i stället för när varje enskild händelse inträffade. Den här tabellen är därför användbar för trendanalys.
 
 <!-- Custom table -->
 
+## Enhetsrelationsdiagram
+
+Objekt i Workfront (och därför i din datalinje) definieras inte bara av deras individuella värden, utan av deras relationer med andra objekt. I entitetsrelationsdiagrammet nedan finns en mappning på hög nivå av objektrelationer i Workfront datasjön. Diagrammet kan visas och laddas ned via följande länk:
+
+[Workfront Data Lake Entity Relations Diagram](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>Entitetsrelationsdiagrammet är ett pågående arbete - därför är det bara till för referens och kan ändras.
+
 ## Terminologisk tabell
 
-I följande tabell korreleras objektnamnen i Workfront (samt deras namn i gränssnittet och API:t) med deras motsvarande namn i datarutan.
+Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnittet och API) med deras motsvarande namn i datasjön.
 
 <table>
 <thead>

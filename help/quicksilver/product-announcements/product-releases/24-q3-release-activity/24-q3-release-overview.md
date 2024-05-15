@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                                 <p>Förhandsversion: 13 februari 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
-                                <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
+                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis utgivning: TBD</p>
@@ -118,8 +117,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                                 <p>Förhandsversion: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.3 (14 mars 2024)</p>
-                                <p><span style="color: #ff0000;">Den här funktionen togs bort från produktionen för kunder med snabb lansering den 18 mars 2024.</span></p>
+                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
                                 <p>Produktion för kvartalsvis utgivning: TBD</p>

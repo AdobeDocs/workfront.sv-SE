@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,13 @@ I mobilappen kan du fylla i arbetsobjekt och visa information som du gör i webb
 * Skapa och bearbeta Workfront-förfrågningar
 * Logga tid på en tidrapport
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >The [!DNL Adobe Workfront] mobilappen har ersatt [!DNL Workfront Proof] app. [!DNL Workfront] bör man nu använda [!DNL Adobe Workfront] mobilapp för korrekturgranskningar och godkännanden.
+
+>[!NOTE]
+>
+>Hyperlänkar i textfält stöds inte i Workfront mobilapp.
 
 Mer information om [!DNL Adobe Workfront] mobilapp kan du läsa följande artiklar:
 

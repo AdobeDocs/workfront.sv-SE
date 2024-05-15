@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Om produktionsmiljön finns i kluster 6 lägger du till följande IP-adresser.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Så här använder du AWS e-posttjänst</td> 
+   <td role="rowheader">Så här använder du e-posttjänsten</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -202,6 +202,15 @@ Om produktionsmiljön finns i kluster 6 lägger du till följande IP-adresser.
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Så här använder du e-posttjänsten Mailgun</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -496,13 +505,13 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Om du vill att Workfront Proof ska kunna komma åt Workfront i alla kluster lägger du till dessa i alla miljöer</td> 
+   <td role="rowheader">Om du vill att Workfront Proof ska få åtkomst till Workfront i alla kluster lägger du till dessa i alla miljöer</td> 
    <td> 
     <ul> 
      <li>*.workfront.com - Krävs för att visa korrektur i Workfront</li> 
      <li>*.proofhq.com - Krävs för att visa korrektur i Workfront Proof</li> 
-     <li>*.proofhq.eu - Krävs för att visa korrektur i Workfront Proof</li> 
-    </ul> <p><b>ANMÄRKNING</b>:  <p>Det går inte att lägga till IP-adresser i tillåtelselista för Workfront Proof. De har varit dynamiska sedan Workfront flyttat till AWS. Vi rekommenderar att du bara tillåter Workfront Proof-domäner.</p> <p>Om du har problem med att lägga till de här domänerna på tillåtelselista och du behöver en IP-adress i stället kontaktar du Workfront kundsupport.</p> </p> </td> 
+     <li>*.proofhq.eu - krävs för att visa korrektur i Workfront Proof</li> 
+    </ul> <p><b>ANMÄRKNING</b>:  <p>Vi stöder inte tillägg av IP-adresser till din tillåtelselista för Workfront Proof. De har varit dynamiska sedan Workfront flyttat till AWS. Vi rekommenderar att du bara tillåter Workfront Proof-domäner.</p> <p>Om du har problem med att lägga till de här domänerna på tillåtelselista och du behöver en IP-adress i stället kontaktar du Workfront kundsupport.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -596,7 +605,7 @@ Du måste lägga till följande IP-adresser i tillåtelselista för att kunna an
  </tbody> 
 </table>
 
-## Portar att öppna för bästa Workfront-korrektur
+## Portar att öppna för bästa Workfront Proof-prestanda
 
 Öppna följande portar om du har problem med att läsa in korrektur eller inte fungerar i Workfront Proof:
 
