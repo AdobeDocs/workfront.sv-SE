@@ -4,13 +4,13 @@ description: När någon taggar dig i en postkommentar får du ett e-postmeddela
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Hantera e-postmeddelanden om Adobe Workfront Planning
 
@@ -94,4 +94,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Sidan med postinformation öppnas i Workfront. Du kan uppdatera posten eller svara på kommentaren.
 
 1. (Villkorligt) Om det är tillgängligt klickar du på **Visa alla meddelanden**. <!--check with Lilit - do non-IMS users have this button??-->
-The **Meddelanden** öppnas i Adobe Experience Cloud.
+The **Meddelanden** öppnas i Adobe Experience Cloud. Alla meddelanden från alla Adobe Experience Cloud-program visas.

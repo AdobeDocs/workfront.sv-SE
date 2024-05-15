@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 0%
@@ -219,6 +219,8 @@ Den senast använda arbetsytan bör öppnas som standard.
    > Du måste skapa anpassade formulär i Workfront för de markerade objekten innan de visas i den här listan.
 
 1. (Villkorligt) Om du valt att ansluta till Experience Manager Assets väljer du en databas i dialogrutan **Experience Manager-databas** nedrullningsbar meny i **Länka resurser från följande databas** -avsnitt. Detta är ett obligatoriskt fält. Endast databaser som du har åtkomst till i Experience Manager Assets visas i det här fältet.
+
+   <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
 

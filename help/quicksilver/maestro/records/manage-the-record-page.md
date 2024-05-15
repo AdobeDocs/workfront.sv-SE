@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -95,100 +95,95 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du redigerar postsidor
 
-* Om du ordnar om fälten i postförhandsvisningen eller på sidan ordnas fälten om för alla poster av den typen och för alla användare som använder dessa poster.
+* Som standard visas alla fält som är kopplade till posten på information- och förhandsvisningssidorna för en post.
+
+* Du kan inte lägga till nya fält för en post på förhandsgransknings- eller informationssidan. Du måste lägga till nya fält i tabellvyn för att kunna visa dem på förhandsgransknings- och informationssidorna.
+
+* Du kan lägga till avsnitt på en förhandsgransknings- eller informationssida för att ordna informationen utifrån vanliga kriterier och göra den lättare att hitta.
+
+* Följande ändringar påverkar alla poster av samma typ och är synliga för alla användare som använder dessa poster:
+
+   * Ordna om fält
+   * Lägga till eller ta bort avsnitt
 
 * Visningsändringar som du gör i postförhandsgranskningen visas direkt på postinformationssidan. Ändringar som görs på postsidan visas också i rutan Förhandsgranska post.
 
-<!--Replace the first bullet with this when we add sections:
-
-* The following changes affect all the records of the same type and are visible to all users accessing those records: 
-
-   * Rearranging fields
-   * Adding or removing sections
--->
-
 * Att lägga till en omslagsbild i en post ingår inte i den övergripande layouten för postförhandsvisningen eller -sidan. Du kan lägga till unika omslagsbilder till varje post. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
+## Lägga till avsnitt i en postförhandsgranskning eller sida
 
-## Add sections to a record preview or page
+Tänk på följande när du lägger till avsnitt på en postsida:
 
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+* Det finns ingen gräns för hur många avsnitt du kan ha på en sida.
+* Du kan inte ha ett tomt avsnitt. Du måste ha minst ett fält i ett avsnitt.
+* Du kan dra och släppa fält från ett avsnitt till ett annat. Mer information finns i avsnittet [Ordna om fält på sidan för postförhandsgranskning eller detaljer](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
+* När du tar bort alla fält från ett avsnitt tas avsnittet automatiskt bort och kan inte återställas.
 
-Consider the following when adding sections to a record page:
-
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
-* You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
-* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
-
-To add a section to a record preview or page: 
+Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+Arbetsytan som du öppnar senast öppnas.
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-1. Click a record type card. 
+1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+1. Klicka på ett posttypskort.
 
-    The record type page opens. 
+   Posttypssidan öppnas.
 
-1. From a view of any type, click the name of a record 
+1. Klicka på en post i en vy av valfri typ
 
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's preview opens in the view.
+   eller
 
-    ![](assets/details-box.png) 
+   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn.
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+   Postens förhandsgranskning öppnas i vyn.
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+   ![](assets/details-box.png)
 
-    The record page opens. 
+   >[!TIP]
+   >
+   >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
 
-    ![](assets/details-page.png)
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postförhandsgranskningen om du vill öppna postens sida på en ny flik.
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+   Postsidan öppnas.
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+   ![](assets/details-page.png)
+
+1. Håll markören över det tomma utrymmet till vänster om fälten och klicka sedan på **Lägg till avsnitt** icon ![](assets/add-section-icon.png) för att lägga till ett avsnitt.
+1. Klicka i avsnittets namn och ersätt **Namnlöst avsnitt** med ett namn och klicka sedan på Enter. Fälten som visas under avsnittet är automatiskt en del av det nya avsnittet.
+1. Börja dra och släppa fält till det nya avsnittet, vilket beskrivs i avsnittet [Ordna om fält på sidan för postförhandsgranskning eller detaljer](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
+
+1. (Valfritt) Håll pekaren över namnet på ett avsnitt och klicka på knappen **Mer** meny ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
-1. (Optional) Do one of the following to edit the section: 
+1. (Valfritt) Gör något av följande om du vill redigera avsnittet:
 
-   * Click **Rename** to rename the section
+   * Klicka **Byt namn** för att byta namn på avsnittet
 
-      >[!TIP]
-      >
-      > You can rename a section inline, by clicking the name.
-   
-   * Click **Move up** to move the section up one position 
+     >[!TIP]
+     >
+     > Du kan byta namn på ett avsnitt genom att klicka på namnet.
 
-      Or 
-      
-      Click **Move down** to move the section down one position.
-      All fields in the section move with the section. 
+   * Klicka **Flytta uppåt** för att flytta avsnittet uppåt en position
 
-   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+     eller
 
-1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
-   All sections are expanded by default. 
+     Klicka **Flytta nedåt** om du vill flytta avsnittet nedåt en position.
+Alla fält i avsnittet flyttas tillsammans med avsnittet.
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+   * Klicka **Ta bort** för att ta bort avsnittet. Avsnittet tas bort och kan inte återställas. Alla användare som har åtkomst till poster av den här typen kommer inte längre att visa det borttagna avsnittet.
 
-    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+1. Klicka på den nedåtriktade pilen till vänster om avsnittsnamnet för att komprimera det, eller på den högerriktade pilen för att expandera det.
+Alla avsnitt expanderas som standard.
 
-    All changes to sections and field order are saved automatically. 
+1. (Valfritt) Klicka på **ta** icon ![](assets/grab-icon.png) till vänster om ett avsnittsnamn och dra och släpp det på en önskad plats.
 
--->
+   Avsnittets nya position uppdateras både i förhandsgranskningen och på sidan med alla poster av samma typ för alla användare som visar posterna.
 
-## Ordna om fält i postens förhandsgranskning eller sida
+   Alla ändringar i avsnitt och fältordning sparas automatiskt.
+
+## Ordna om fält på sidan för postförhandsgranskning eller detaljer
 
 {{step1-to-maestro}}
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,10 @@ Så här gör du:
 
 
 ## Koppla en Workfront Planning-posttyp till en Workfront-projektobjekttyp och koppla en post till enskilda projekt
+
+>[!IMPORTANT]
+>
+>    Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett behörighet eller åtkomstnivå i Workfront.
 
 Du har till exempel posttypen Campaign som ursprunglig posttyp.
 
