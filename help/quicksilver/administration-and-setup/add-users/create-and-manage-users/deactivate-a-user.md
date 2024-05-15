@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
+source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,8 @@ Mer information finns i [Inaktivera Workfront-administratörer och avtalslicensa
 Tänk på följande när du inaktiverar en användare:
 
 * Användaren kommer inte att kunna komma åt systemet.
-* Användaren tas bort från Frame.io och granskar länkar, resurser, projekt och konton.
-   * När användaren återaktiveras läggs de inte automatiskt till i Frame.io-objekten. Du måste tilldela om användaren manuellt till projekt, uppgifter och resurser i Workfront som kräver Frame.io-samarbete.
+<!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
 * Alla data som är kopplade till användaren behålls.
 * Du kan tilldela en inaktiverad användarlicens till en annan användare.
 
@@ -136,10 +136,10 @@ Vi rekommenderar att du skapar en rapport för användare som du har schemalagt 
 1. Markera en användare och klicka på ikonen Mer ![](assets/more-icon.png)och sedan klicka **Aktivera**.
 
 1. Tilldela en ny **Åtkomstnivå** i listrutan och klicka sedan på **Återaktivera**.
+<!--
+### Asset review and approval impact when you reactivate a user
 
-### Granskning och godkännande av tillgångar när du återaktiverar en användare
-
-Inaktiverade användare förlorar åtkomst till sina tilldelade Frame.io-konton samt till tilldelade projekt, resurser och granskningslänkar. Om du väljer att återaktivera användaren måste du manuellt tilldela om dem till projekt, uppgifter och resurser som kräver Frame.io-samarbete.
+Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
 ### Korrekturera påverkan när du återaktiverar en användare
 
