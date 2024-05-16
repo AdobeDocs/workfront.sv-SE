@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
+source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3222'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 ## Förutsättningar
 
-Om du vill skapa en OAuth Server-till-server måste du lägga till API:t för Adobe PDF Services i Adobe Developers Console. När du lägger till API:t väljer du alternativet OAuth Server-till-server.
+Om du vill skapa en OAuth Server-till-server måste du lägga till Adobe PDF Services-API:t i Adobe Developers Console. När du lägger till API:t väljer du alternativet OAuth Server-till-server.
 
 Instruktioner finns i [Lägg till API i projekt med OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) I dokumentationen för utvecklaren av Adobe.
 
@@ -801,6 +801,44 @@ Den här åtgärdsmodulen delar upp ett PDF-dokument i flera mindre dokument. Du
    <li><p><b>Antal filer</b></p><p>Ange antalet filer i samma storlek som du vill dela dokumentet i.</p></li>
    </ul>
    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Göra ett anpassat API-anrop
+
+Den här åtgärdsmodulen är en anpassad HTTP-begäran till API:t för PDF Services.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td> Ange en relativ sökväg eller en URL. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt.</p> <p>Exempel: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion lägger automatiskt till auktoriseringshuvuden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>Lägg till frågan för API-anropet i form av ett standard-JSON-objekt.</p> <p>Exempel: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fields]</td> 
+   <td> <p>För varje fält som du vill lägga till i API-anropet klickar du på <b>Lägg till objekt</b> och ange fältets nyckel och valfria värde.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
   </tr> 
  </tbody> 
 </table>
