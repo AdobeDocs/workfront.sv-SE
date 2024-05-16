@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -369,10 +369,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                                 <p>Förhandsversion: 13 februari 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -389,10 +386,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                                 <p>Förhandsversion: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>

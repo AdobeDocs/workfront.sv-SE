@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
 ## Adobe Workfront-förbättringar
 
 <!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Förbättrad ekonomisk förvaltning](#financial-management-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
@@ -79,13 +80,65 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
         </table>
 -->
 
+### Förbättrad ekonomisk förvaltning
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Fakturerbara och ej fakturerbara utgiftsfält tillgängliga för projekt och uppgifter</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
+                        <p>För att du enklare ska kunna visa utgiftstyper har utgifterna delats upp i fakturerbara och icke-fakturerbara utgifter för projekt och uppgifter. Följande fält är tillgängliga för att du ska kunna lägga till i vyer och rapporter:</p>
+                        <ul>
+                            <li><p>Planerad fakturerbar utgift</p></li>
+                            <li><p>Planerad icke-fakturerbar utgift</p></li>
+                            <li><p>Faktisk icke-fakturerbar utgift</p></li>
+                            <li><p>Faktisk icke-fakturerbar utgift</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 10 maj 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion för alla kunder: 10 maj 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### Projektförbättringar
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                 <tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -97,10 +150,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                                 <p>Förhandsversion: 13 februari 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -117,10 +167,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                                 <p>Förhandsversion: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis utgivning: TBD</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -147,7 +194,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrat användargränssnitt för användare med begränsad objektåtkomst</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>När en användare inte har åtkomst till ett objekt visas"Ingen åtkomst" var som helst där objektnamnet visas i Workfront. Den här förbättrade upplevelsen gäller även Workfront API.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -181,11 +228,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                     </td>
                 </tr>                
            </tbody>
-        </table>   
-           </tbody>
         </table>
-
-
 
 ## Meddelanden
 
