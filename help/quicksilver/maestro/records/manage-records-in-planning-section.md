@@ -4,7 +4,7 @@ description: Du kan visa posterna som är kopplade till Adobe Workfront-objekt i
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -142,11 +142,11 @@ Följande saker händer:
    * Värdena för de Workfront-fält som är kopplade till Planning-posten tas också bort.
 1. Klicka **Anslut** för att ansluta fler poster.
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   Knappen Anslut visas bara för de arbetsytor där du har behörigheten Hantera.
+   >   Knappen Anslut visas bara för de arbetsytor där du har Contribute-behörighet.
 
 1. Klicka på de poster som du vill ansluta. Följande saker händer:
 

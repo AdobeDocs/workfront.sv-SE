@@ -7,19 +7,20 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
 
 # Översikt över smarta uppdrag
 
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 När du hanterar uppgifter och ärenden kan du använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet. Smarta tilldelningar är förslag som Adobe Workfront ger dig när du tilldelar resurser arbetsobjekt baserat på en algoritm som avgör vilken resurs som passar bäst för jobbet. Smarta uppdrag kan vara användare, jobbroller eller team.
 
@@ -121,7 +122,7 @@ Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas 
 
   Om Rick till exempel tilldelades en liknande uppgift tidigare i dag och Jennifer tilldelades en liknande uppgift för två dagar sedan visas Rick först.
 
-* Uppdrag som identifieras i den här fasen listas i **Föreslagna tilldelningar** i uppdragsfältet.
+* Uppdrag som identifieras i den här fasen listas i    **Föreslagna tilldelningar**  i uppdragsfältet.
 
 * Om det inte finns några matchningar som använder den här beräkningen startar den andra fasen av smarta tilldelningar, som beräknas med en annan algoritm.
 
@@ -131,7 +132,7 @@ Om det första steget i smarta uppdrag inte hittar några träffar, beräknar Wo
 
 Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter och ärenden](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
 
-Uppdrag som identifieras i den här fasen listas i **Andra uppdrag** i uppdragsfältet för uppgifter. <!--update this to "Other assignments"-->
+Uppdrag som identifieras i den här fasen listas i   **Andra uppdrag** (eller Användare och team eller jobbrolltilldelningar) i uppdragsfältet för uppgifter.
 
 ### Kriterier för smarta uppdrag för uppgifter och ärenden
 

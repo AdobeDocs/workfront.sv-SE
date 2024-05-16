@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,19 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
 * Du kan inte redigera ett fält på postsidan eller i någon annan vy utanför tabellvyn.
 * Du kan inte redigera fälttypen efter att fältet har sparats.
 * Du kan inte avmarkera inställningen Tillåt negativa tal som tidigare var markerad, för fältet Nummer, Procent eller Valuta om det redan finns negativa värden lagrade på posterna som den är kopplad till.
+* Du kan redigera konfigurationen för följande fältelement när du har sparat fältet:
 
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+   * Namn eller beskrivning av fält
+   * Alternativen för ett enskilt eller flervalsfält.
+   * Uttrycket för ett formelfält.
 
-* You can edit the configuration of the following fields, after they are saved:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+  >[!WARNING]
+  >
+  >När formeluttryck ändras, eller alternativ läggs till eller tas bort från ett urvalsfält, försvinner data för de poster som redan har information lagrad i de fält vars konfiguration ändras.
+  >
+  >Det finns ingen varning eller indikation om att denna dataförlust kan inträffa när du ändrar fältkonfigurationen.
+  >
+  >Det finns inget meddelande till andra användare om att fältkonfigurationen har ändrats.
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 

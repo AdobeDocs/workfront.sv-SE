@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6367'
 ht-degree: 0%
 
 ---
@@ -55,24 +55,6 @@ Preview: To be determined
 To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
-### Real-time updates for field configuration changes 
-
-Production: <date> 
-
-Preview: To be determined 
-
-If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
-
->[!WARNING]
->
->When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
->
->There is no warning or indication that this data loss could happen when you change the configuration of fields. 
->
->There is no notification to other users that the field configuration has changed.  
-
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -141,7 +123,7 @@ Om du till exempel länkar projekt från Workfront Planning-kampanjer får alla 
 
 Mer information finns i [Koppla posttyper](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
-## Lägga till avsnitt på postens förhandsgransknings- och informationssidor
+### Lägga till avsnitt på postens förhandsgransknings- och informationssidor
 
 Produktion: 15 maj 2024
 
@@ -150,6 +132,24 @@ Förhandsgranska: Ska bestämmas
 För att bättre kunna organisera information på postens sida, för effektivare läsbarhet och navigering, har vi skapat avsnitt på postens sida. Avsnittsrubrikerna fungerar som rubriker som organiserar fälten i olika kategorier. Avsnitten är helt anpassningsbara och kan expanderas eller komprimeras om det behövs.
 
 Mer information finns i [Hantera postsidan](/help/quicksilver/maestro/records/manage-the-record-page.md).
+
+### Realtidsuppdateringar för fältkonfigurationsändringar
+
+Produktion: 16 maj 2024
+
+Förhandsgranska: Ska bestämmas
+
+När en användare ändrar en fältkonfiguration (namn, beskrivning, alternativlista osv) i en posttyp, visar andra användare dessa ändringar i realtid. På så sätt ser du till att alla tittar på rätt fält och deras information samtidigt.
+
+>[!WARNING]
+>
+>När formeluttryck ändras, eller alternativ läggs till eller tas bort från ett urvalsfält, försvinner data för de poster som redan har information lagrad i de fält vars konfiguration ändras.
+>
+>Det finns ingen varning eller indikation om att denna dataförlust kan inträffa när du ändrar fältkonfigurationen.
+>
+>Det finns inget meddelande till andra användare om att fältkonfigurationen har ändrats.
+
+Mer information finns i [Redigera fält](/help/quicksilver/maestro/fields/edit-fields.md).
 
 ## Vecka 6 maj 2024
 
