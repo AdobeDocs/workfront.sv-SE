@@ -6,9 +6,9 @@ description: Du kan redigera objekt textbundet när de visas i en lista eller ra
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: f0912e4ef29d682ae3e6dd0e543b8e77fb7f29b6
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ De flesta objekt som visas i listor eller rapporter kan redigeras i [!DNL Adobe 
    Du kan till exempel redigera status för en uppgift i en uppgiftsrapport, men du kan inte redigera namnet på projektet som uppgiften är kopplad till i samma rapport. Du kan bara redigera namnet på projektet i en projektrapport.
 * Du kan inte infoga redigeringsfält när vyn för en lista inte visar standardvalutan.\
    Mer information om hur du visar standardvalutan finns i avsnittet [Redigera rapporter med unika valutor](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) i artikeln [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
-
 * Du kan inte redigera flaggor och ikoner som visas i en lista.
+* Du kan inte infoga redigeringsrapportfält som har hämtats från andra rapporter.
 
 ## Åtkomstkrav
 
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Redigera objekt textbundet
 
@@ -70,22 +70,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!TIP]
    >
-   >Om du har flera sidor kan du söka efter ett objekt genom att använda:
+   >Om du har flera sidor kan du söka efter ett objekt med:
    >
    >   
    >   
    >   * **Sidnumrering**: Klicka på bakåt- och framåtpilarna för att navigera mellan sidorna.\
-      >     längst ned till höger i listan, [!UICONTROL pagination] när du bläddrar igenom listan förblir området klisterlöst.
+   >     längst ned till höger i listan, [!UICONTROL pagination] när du bläddrar igenom listan förblir området klisterlöst.
    >   * **Snabbfilter**: Klicka på filterikonen eller skriv Alt+F för att öppna snabbfiltret och ange sedan text för att endast visa objekt som innehåller den angivna texten.\
-      >     Snabbfiltret finns i listverktygsfältet. Mer information finns i [Använda snabbfiltret på en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
-
+   >     Snabbfiltret finns i listverktygsfältet. Mer information finns i [Använda snabbfiltret på en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 
    Om fältet kan redigeras blir fältet och alla andra fält som visas i listan redigerbara celler.
 
    ![](assets/nwe-editable-cells-350x131.png)
 
-1. Redigera informationen i den här cellen och tryck sedan på [!UICONTROL Enter].
+1. Redigera informationen i cellen och tryck sedan på [!UICONTROL Enter].
 
    >[!NOTE]
    >
