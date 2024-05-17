@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '14262'
+source-wordcount: '14246'
 ht-degree: 0%
 
 ---
@@ -1735,8 +1735,6 @@ ht-degree: 0%
       * [Visa projektaktivitetsvisualisering i Förbättrad analys](enhanced-analytics/project-activity-overview.md)
       * [Visa projekttreemap-visualisering i Förbättrad analys](enhanced-analytics/project-treemap-overview.md)
       * [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](enhanced-analytics/activity-by-team-overview.md)
-      * [Visa resurskapaciteten i Förbättrad analys](enhanced-analytics/resource-capacity-overview.md)
-      * [Visa teamkapacitetvisualisering i Förbättrad analys](enhanced-analytics/team-capacity-overview.md)
    * Workfront Data Lake {#data-lake}
       * [Workfront Data Lake - översikt](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Skapa ett läsarkonto](reports-and-dashboards/data-lake/create-a-reader-account.md)

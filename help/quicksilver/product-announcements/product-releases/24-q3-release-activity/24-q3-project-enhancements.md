@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 13 februari 2024; Produktionsrelease för alla kunder: Med version 24.7 (juli 2024).
+>Förhandsversion: 13 februari 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktionsrelease för alla kunder: Med version 24.7 (juli 2024).
 
 Vi har lagt till samma funktionalitet för mer relevanta smarta tilldelningar i uppdragsfältet i följande områden:
 
@@ -37,7 +37,7 @@ Mer information finns i [Översikt över smarta uppdrag](/help/quicksilver/manag
 
 >[!NOTE]
 >
->Förhandsversion: 21 december 2023; Produktionsrelease för alla kunder: Med version 24.7 (juli 2024).
+>Förhandsversion: 21 december 2023; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktionsrelease för alla kunder: Med version 24.7 (juli 2024).
 
 Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.
 

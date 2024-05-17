@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -360,13 +360,16 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Uppdrag i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
                                 <p>Förhandsversion: 13 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
@@ -377,13 +380,16 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
                                 <p>Förhandsversion: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>

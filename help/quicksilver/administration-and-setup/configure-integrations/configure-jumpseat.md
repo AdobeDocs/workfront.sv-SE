@@ -7,10 +7,10 @@ description: Ni kan integrera [!DNL JumpSeat] med [!DNL Workfront] för att ta f
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '242'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Förutsättningar
 
@@ -61,17 +61,17 @@ Vi rekommenderar att du skapar en [!DNL JumpSeat] integrering i både förhandsg
 >
 >Du måste lägga till och aktivera två separata [!DNL Workfront] program i [!DNL JumpSeat]- en för Preview och en för Production. Se [Lägga till eller ta bort ett program](https://support.jumpseat.io/article/how-to-add-an-application/) för mer information.
 
-Så här konfigurerar du [!DNL JumpSeat] integrering:
+Konfigurera [!DNL JumpSeat] integrering:
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]**.
 1. Klicka på i den vänstra panelen **[!UICONTROL System]** > **[!UICONTROL [!DNL JumpSeat] Integration]**.
-1. Ange **[!UICONTROL [!DNL JumpSeat] URL]**.
+1. Ange **[!UICONTROL [!DNL JumpSeat] URL]** som du hittar på din tilläggsikon i [!DNL JumpSeat].
 
-   **Exempel:** [!DNL https]://{mycompany name}.hoppseat.io
+   **Exempel:** [!DNL https]:/{mycompanyname}.hoppseat.io
 
 1. Ange **[!UICONTROL [!DNL JumpSeat] integration token]**. Du hittar den här på **[!UICONTROL Configuration]** sida in [!DNL JumpSeat].
 
-   **Exempel:** $2 y$10$BevsKeQ8....OYR.LurSg2U64O
+   **Exempel:** $2 y$10$BevsKeQ8...OYR.LurSg2U64O
 
 1. Klicka på **[!UICONTROL Test configuration]**.
 1. Välj om du vill att integreringen ska vara **[!UICONTROL Active]** eller **[!UICONTROL Inactive]**.
@@ -83,3 +83,7 @@ Så här konfigurerar du [!DNL JumpSeat] integrering:
    ![JumpSeat Integration page](assets/jumpseat-integration-page.png)
 
 1. Klicka på **[!UICONTROL Save]**.
+
+>[!TIP]
+>
+>Mer information om att konfigurera [!DNL JumpSeat] integrering, se [!DNL JumpSeat] dokumentation för [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).

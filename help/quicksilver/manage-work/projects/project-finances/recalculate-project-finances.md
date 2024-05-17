@@ -6,9 +6,9 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ När hastigheten för en användare eller roll ändras under ett projekts livsl�
 >[!CAUTION]
 >
 >Innan du manuellt beräknar om ekonomin för ett visst projekt kanske du vill bevara alla ekonomiska data som redan har beräknats till en tidigare sats. Vi rekommenderar att du endast använder alternativet Beräkna om ekonomi när du är säker på att du inte gör ändringar i befintlig information, eller bara när sådana ändringar är önskade.
+>
+>Observera att när du kör en Project-rapport (Finance Data) görs en omberäkning av dina finansiella data, och därför bör du ta samma hänsyn innan du kör rapporten.
 
 ## Bevara ekonomiska data för uppgifter med befintliga timmar {#preserve-financial-data-for-tasks-with-existing-hours}
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '5121'
+source-wordcount: '5201'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Dessa meddelanden kan konfigureras på system- och gruppnivå:
 Enskilda användare kan också aktivera och inaktivera sina meddelanden om enskilda händelser i sin individuella profil. Mer information finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 I följande tabeller visas alla Adobe Workfront händelsemeddelanden, en kort beskrivning av händelsen och om händelsen är aktiv eller inaktiv som standard.
+
+>[!NOTE]
+>
+>Meddelanden med värdet &quot;Aktiv&quot; i kolumnen Standardläge är som standard aktiva för både snabbmeddelanden och dagliga meddelanden, om inget annat anges.
 
 ## Åtgärd krävs
 
@@ -62,7 +66,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
    <td> <p>Lägg till dokumentbegäran</p> </td> 
    <td> <p>Användare som dokumentet begärs från</p> </td> 
    <td> <p>Någon har begärt att jag ska överföra dokument.</p> <p>Den som begär dokumentet får ett e-postmeddelande när de får en begäran om att överföra ett dokument.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
@@ -190,14 +194,14 @@ Se även [Meddelanden: Begäranden jag gjort](../../../workfront-basics/using-no
    <td> <p>Ändra status för dokumentgodkännande</p> </td> 
    <td> <p>Begärande</p> </td> 
    <td> <p>En begäran om dokumentgodkännande har slutförts.</p> <p>Dokumentbegäraren får ett e-postmeddelande när dokumentets godkännandebegäran har slutförts.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokumentbegäran har slutförts</p> </td> 
    <td> <p>Begärande</p> </td> 
    <td> <p>En begäran om dokumentöverföring har uppfyllts.</p> <p>Dokumentbegäraren får ett e-postmeddelande när en begäran om att överföra ett dokument har slutförts.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
@@ -239,28 +243,28 @@ Se även [Meddelanden: Begäranden jag gjort](../../../workfront-basics/using-no
    <td> <p>Begär tilldelning</p> </td> 
    <td> <p>Utfärda primär kontakt</p> </td> 
    <td> <p>Någon har tilldelats min begäran.</p> <p>Den primära kontakten för utgåvan får ett e-postmeddelande när en användare tilldelas utgåvan, såvida inte den primära kontakten och den tilldelade användaren är samma användare.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet använder vyn "Är supportavdelningen".</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Begäran stängd</p> </td> 
    <td> <p>Utfärda primär kontakt</p> </td> 
    <td> <p>Min förfrågan är stängd (bekräftelse).</p> <p>Den primära kontakten får ett e-postmeddelande när begäran stängs.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet använder vyn "Är supportavdelningen".</p> <p>Om meddelanden om att"ärendet har slutförts" är aktiverat kommer de alltid att utlösas i stället för"begäran stängd för att skicka den primära kontakten". Om du vill att det här meddelandet ska utlösas måste du inaktivera meddelandena om att meddelandet har slutförts.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär dokumenttillägg</p> </td> 
    <td> <p>Utfärda primär kontakt</p> </td> 
    <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Begär statusändring</p> </td> 
    <td> <p>Utfärda primär kontakt</p> </td> 
    <td> <p>Statusen ändras på min begäran.</p> <p>Den primära kontakten för problemet får ett e-postmeddelande när utgivningsstatusen ändras, såvida inte den användare som ändrade statusen också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och projektet använder vyn "Är supportavdelningen".</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,7 +298,7 @@ Se även [Meddelanden: Meddelande](../../../workfront-basics/using-notifications
    <td> <p>Kommentera i dokumentet</p> </td> 
    <td> <p>Dokumentägare</p> </td> 
    <td> <p>En kommentar läggs till i mitt dokument.</p> <p>Ägaren till ett dokument i Workfront får ett e-postmeddelande när en kommentar publiceras i dokumentet, såvida inte den användare som publicerade kommentaren också är dokumentägaren.</p> <p>Alla användare som är direkt inkluderade i kommentaren får också ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell. </p> <p>Ämnet för e-postmeddelandet är: <em>Kommentera &lt;request name=""&gt; på &lt;project name=""&gt; (ref# &lt;request reference="" number=""&gt;)</em></p> <p> Det dagliga sammandraget innehåller följande uppgifter:<em> Kommunikationssammanfattning &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
-   <td> <p>Aktiv </p> </td> 
+   <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Anteckning</p> </td> 
@@ -315,7 +319,7 @@ Se även [Meddelanden: Meddelande](../../../workfront-basics/using-notifications
    <td> <p>Riktad uppdatering</p> </td> 
    <td> <p>Teammedlemmar</p> </td> 
    <td> <p>Någon inkluderar mitt team i en riktad uppdatering.</p> <p>En riktad uppdatering är när en användare specifikt inkluderar en annan användare i en uppdatering, vilket beskrivs i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagga andra för uppdateringar</a>.</p> <p>I det här fallet får alla medlemmar i teamet som ingår i den riktade uppdateringen ett e-postmeddelande om uppdateringen.</p> <p>E-postmeddelandet skickas endast till användare som har åtkomstbehörighet till uppdateringens objekt.</p> <p>Om användaren som skickar den dirigerade uppdateringen är medlem i det team som inkluderas får användaren som skickar uppdateringen inget e-postmeddelande.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Anteckning</p> </td> 
@@ -327,14 +331,14 @@ Se även [Meddelanden: Meddelande](../../../workfront-basics/using-notifications
      <li> <p>Anteckningens ägare</p> </li> 
      <li> <p>Den primära kontakten</p> </li> 
     </ul> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Anteckning</p> </td> 
    <td> <p>Arbetsobjektkommentar</p> </td> 
    <td> <p>Tilldelning av arbetsuppgift</p> </td> 
    <td> <p>Någon kommenterar något av mina arbetsuppgifter.</p> <p>Den som har tilldelats arbetsuppgiften får ett e-postmeddelande när som helst när en användare lägger till en uppdatering av en arbetsuppgift, såvida inte den användare som lägger till uppdateringen också är den som har tilldelats uppgiften.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Anteckning</p> </td> 
@@ -345,7 +349,7 @@ Se även [Meddelanden: Meddelande](../../../workfront-basics/using-notifications
      <li> <p>Användaren som svarar är samma användare som gjorde begäran</p> </li> 
      <li> <p>Användaren har inte åtkomst för att se anteckningen</p> </li> 
     </ul> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -378,35 +382,35 @@ Se även [Meddelanden: Godkännandeinformation](../../../workfront-basics/using-
    <td> <p>Delegering av godkännande</p> </td> 
    <td> <p>Användare</p> </td> 
    <td> <p>Jag är delegerad som godkännare.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
    <td> <p>Delegerad ändring av godkännandestatus</p> </td> 
    <td> <p>Användare som delegerat godkännandet</p> </td> 
    <td> <p>En begäran om delegerat godkännande av utfärdande har slutförts. </p> <p>När du delegerar ett utfärdandegodkännande till någon annan får du ett e-postmeddelande när de har slutfört det godkännandet (oavsett om de godkänner eller avvisar det). </p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
    <td> <p>Ändring av status för delegerat projektgodkännande</p> </td> 
    <td> <p>Användare som delegerat godkännandet</p> </td> 
    <td> <p>En delegerad begäran om projektgodkännande har slutförts.</p> <p>När du delegerar ett projektgodkännande till någon annan får du ett e-postmeddelande när de har slutfört det godkännandet (oavsett om de godkänner eller avvisar projektgodkännandet).</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Uppgift</p> </td> 
    <td> <p>Ändring av status för delegerat aktivitetsgodkännande</p> </td> 
    <td> <p>Användare som delegerat godkännandet</p> </td> 
    <td> <p>En status för godkännande av delegerad uppgift har slutförts.</p> <p>När du delegerar ett uppgiftsgodkännande till någon annan får du ett e-postmeddelande när de har slutfört det godkännandet (oavsett om de godkänner eller avvisar uppgiftsgodkännandet).</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Avbryt dokumentgodkännande till godkännare</p> </td> 
    <td> <p>Användare som delegerat godkännandet</p> </td> 
    <td> <p>En begäran om dokumentgodkännande har avbrutits.</p> <p>Dokumentgodkännaren får ett e-postmeddelande när dokumentets godkännandebegäran avbryts.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tidrapport</p> </td> 
@@ -484,14 +488,14 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
    <td> <p>Ändring av problemstatus</p> </td> 
    <td> <p>Användare som utgåvan är tilldelad</p> </td> 
    <td> <p>Statusen ändras för en av mina arbetsuppgifter.</p> <p>Den som är tilldelad utgåvan får ett e-postmeddelande när statusen ändras, såvida inte den användare som ändrade statusen också är tilldelad.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell.</p> <p>Användare med en Light- eller Review-licens får inget meddelande.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär dokumenttillägg</p> </td> 
    <td> <p>Användare som utgåvan är tilldelad</p> </td> 
    <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Uppgift</p> </td> 
@@ -829,14 +833,14 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
    <td> <p>Meddelandet lades till</p> </td> 
    <td> <p></p> </td> 
    <td> <p>Ett meddelande skickas till meddelandecentret.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Avbryt dokumentbegäran</p> </td> 
    <td> <p>Användare som dokumentet begärs från</p> </td> 
    <td> <p>Avbryt en begäran om dokumentöverföring från mig.</p> <p>Dokumentbegäran får ett e-postmeddelande när en dokumentbegäran avbryts.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -844,7 +848,7 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
    <td> <p></p> </td> 
    <td> <p>Ett fel som kräver din uppmärksamhet hittades.</p> <p>Ett e-postmeddelande genereras när Workfront försöker ansluta till ett POP-konto. Efter 25 försök inaktiverar Workfront anslutningen till POP-kontot för att bevara resurser och skickar ett meddelande. </p> <p>E-postmeddelandet skickas till projektägaren, om POP-e-postmeddelandet är kopplat till en begärandekö, eller till Workfront-administratörerna, om POP-kontot är kopplat till funktionen Inkommande e-post i e-postinställningarna.
    </p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problem</p> </td> 
@@ -872,7 +876,7 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
    <td> <p>Objektresurs</p> </td> 
    <td> <p>Användare som objektet delas med</p> </td> 
    <td> <p>Någon delar ett objekt med mig.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projektanvändare</p> </td> 
@@ -886,7 +890,7 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
    <td> <p>Projekt som lagts till i en portfölj eller ett program</p> </td> 
    <td> <p>Portfolio eller programägare</p> </td> 
    <td> <p>Någon lägger till ett projekt i en portfölj eller ett program som jag äger.</p> </td> 
-   <td> <p>Aktiv</p> </td> 
+   <td> <p>Aktiv (endast Instant)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Uppgift</p> </td> 
@@ -900,7 +904,7 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
    <td>Ny uppdatering</td> 
    <td>Prenumerant </td> 
    <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Ett e-postmeddelande skickas när en uppdatering görs av en uppgift, en utgåva eller ett projekt som jag prenumererar på.</span> </p> </td> 
-   <td>Aktiv</td> 
+   <td>Aktiv (endast Instant)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -918,8 +922,8 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
 Se även [Meddelanden: Delegering](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
 | Objekttyp | Händelse | Mottagare | Beskrivning | Standardläge |
-|------------------|------|---------------------------------------------|--------------------------------------------------------------|---------------|
-| Uppgifter och problem | Delegering av uppgifter och utleverans | Tilldelad | Jag delegerar mina uppgifter och ärenden (bekräftelse) | Aktiv |
-| Uppgifter och problem | Stoppa aktivitet och utleverans av delegering | Tilldelad | Jag avbryter delegeringen av mina uppgifter och frågor (bekräftelse) | Aktiv |
-| Uppgifter och problem | Delegering av uppgifter och utleverans | Delegera | Någon delegerar sina uppgifter och ärenden till mig | Aktiv |
-| Uppgifter och problem | Stoppa aktiviteter och skicka delegering | Delegera | Någon stoppar delegeringen av deras uppgifter och ärenden till mig | Aktiv |
+|------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|
+| Uppgifter och problem | Delegering av uppgifter och utleverans | Tilldelad | Jag delegerar mina uppgifter och ärenden (bekräftelse) | Aktiv (endast Instant) |
+| Uppgifter och problem | Stoppa aktivitet och utleverans av delegering | Tilldelad | Jag avbryter delegeringen av mina uppgifter och frågor (bekräftelse) | Aktiv (endast Instant) |
+| Uppgifter och problem | Delegering av uppgifter och utleverans | Delegera | Någon delegerar sina uppgifter och ärenden till mig | Aktiv (endast Instant) |
+| Uppgifter och problem | Stoppa aktiviteter och skicka delegering | Delegera | Någon stoppar delegeringen av deras uppgifter och ärenden till mig | Aktiv (endast Instant) |

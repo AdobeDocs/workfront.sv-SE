@@ -7,9 +7,9 @@ description: Förbättrad analys är ett kraftfullt verktyg i Adobe Workfront me
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -37,21 +37,21 @@ För att få tillgång till det förbättrade analysområdet måste du:
 
 * Ha en Business- eller Enterprise-plan.
 
-   Mer information finns i [Workfront-planer](https://www.workfront.com/plans).
+  Mer information finns i [Workfront-planer](https://www.workfront.com/plans).
 
 * Låt Workfront-administratören lägga till förbättrade analysfunktioner i layoutmallen.
 
-   Mer information finns i [Förbättrad analys: Lägga till analyser i layoutmallar](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Mer information finns i [Förbättrad analys: Lägga till analyser i layoutmallar](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
 
 Om du vill visa information för projekt och uppgifter måste du:
 
 * Ha behörighet att visa i områdena Projekt och uppgifter på din åtkomstnivå.
 
-   Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i [Skapa eller ändra anpassade åtkomstnivåer](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i [Skapa eller ändra anpassade åtkomstnivåer](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Har behörighet att visa för specifika uppgifter och/eller projekt.
 
-   Mer information om hur du begär ytterligare åtkomst finns i [Begär åtkomst till objekt](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  Mer information om hur du begär ytterligare åtkomst finns i [Begär åtkomst till objekt](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Bästa tillvägagångssätt för förbättrad analys
 
@@ -63,16 +63,16 @@ För att få bästa möjliga data för dina projekt använder du mallar som har 
 
 * Planerade timmar
 
-   Det här är det viktigaste fältet att fylla i.
+  Det här är det viktigaste fältet att fylla i.
 
-   >[!NOTE]
-   >
-   >Om era team inte använder planerade timmar kan ni fortfarande se vissa data baserat på projektens längd.\
-   >Mer information finns i avsnittet [Längdvy](#duration-view) i den här artikeln.
+  >[!NOTE]
+  >
+  >Om era team inte använder planerade timmar kan ni fortfarande se vissa data baserat på projektens längd.\
+  >Mer information finns i avsnittet [Längdvy](#duration-view) i den här artikeln.
 
 * Projektnamn
 
-   Namnet ska vara beskrivande för projektet.
+  Namnet ska vara beskrivande för projektet.
 
 * Projektvillkor
 * Projektstatus
@@ -100,20 +100,20 @@ I Förbättrad analys beräknas projektens längd med följande formler:
 
 * Planerad tidsram:
 
-   ```
-   Planned Completion Date of the project - Start Date of the project
-   ```
+  ```
+  Planned Completion Date of the project - Start Date of the project
+  ```
 
 * Antal dagar som har använts:
 
-   ```
-   Planned Duration for tasks completed in the selected date range / Typical hours per work day
-   ```
+  ```
+  Planned Duration for tasks completed in the selected date range / Typical hours per work day
+  ```
 
-   >[!NOTE]
-   >
-   >8 timmar är standardvärdet för **Vanliga timmar per arbetsdag**. En Adobe Workfront-administratör kan uppdatera **Vanliga timmar per arbetsdag** ställa in under **Inställningar** > **Projektinställningar** > **Projekt** > **Tidslinjer**.\
-   >Mer information finns på [Konfigurera systemomfattande projektinställningar](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >[!NOTE]
+  >
+  >8 timmar är standardvärdet för **Vanliga timmar per arbetsdag**. En Adobe Workfront-administratör kan uppdatera **Vanliga timmar per arbetsdag** ställa in under **Inställningar** > **Projektinställningar** > **Projekt** > **Tidslinjer**.\
+  >Mer information finns på [Konfigurera systemomfattande projektinställningar](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Information om planerad varaktighet finns i [Översikt över projektvaraktighet](../manage-work/projects/planning-a-project/project-duration.md).
 
@@ -128,7 +128,7 @@ Du kan använda följande tangenter på tangentbordet för att navigera eller sl
 | **Piltangenter** | Navigera till datum i kalenderwidgeten, via filteralternativ när du lägger till ett filter och via alternativ i alla listrutor i visualiseringarna |
 | **Blanksteg** | Välj datum i kalenderwidgeten, välj en filtertyp när du lägger till ett filter, välj ett exportalternativ i listrutan för varje visualisering och välj alternativ i listrutorna i listrutan under Aktiviteter under flygning och i projekttreemappningsvisualiseringar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Om du använder ett skärmläsarprogram eller ett plugin-program läser skärmläsaren upp informationen på skärmen och beskriver de åtgärder som du slutför när du använder knapparna ovan.
 
@@ -147,7 +147,7 @@ Om du vill veta mer om en viss funktion i Förbättrad analys, vilka åtgärder 
  </thead> 
  <tbody> 
   <tr> 
-   <td><a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Använd filter i Förbättrad analys</a> </td> 
+   <td><a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Använda filter i Förbättrad analys</a> </td> 
    <td> <p>Du kan använda anpassade filter, projektfältfilter eller teamfilter för att endast visa projekt som uppfyller vissa villkor. När du lägger till filter uppdateras antalet projekt därefter.</p> </td> 
   </tr> 
   <tr> 
@@ -178,13 +178,14 @@ Om du vill veta mer om en viss funktion i Förbättrad analys, vilka åtgärder 
    <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Visa aktivitetsbaserad teamvisualisering i Förbättrad analys</a> </td> 
    <td> <p>The <b>Aktivitet per team</b> visualisering visar en översikt över när användare i ett hemteam som har loggat in på Workfront, ändrat status för en uppgift och slutfört en uppgift. Genom att interagera med visualiseringen kan du se informationen för varje enskild användare. Du kan också se specifika datum för dessa åtgärder samt hur många gånger varje åtgärd har slutförts.</p> </td> 
   </tr> 
+  <!-- Features permanently removed from Workfront
   <tr> 
-   <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">Visa resurskapaciteten i Förbättrad analys</a> </td> 
-   <td> <p>The <b>Resurskapacitet</b> visualisering visar vilka hemteam som har kapacitet att ta på sig mer arbete och vilka hemteam som har mer arbete än vad de kan utföra. Genom att interagera med visualiseringen kan du se mer information om slutfört arbete och tillgängliga timmar för mer arbete. Om du väljer ett team öppnas teamets kapacitetsvisualisering.</p> </td> 
+   <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">View the Resource capacity visualization in Enhanced analytics</a> </td> 
+   <td> <p>The <b>Resource capacity</b> visualization shows you which home teams have the capacity to take on more work and which home teams have more work assigned to them than they can complete. Interacting with the visualization allows you to see more details about work completed and available hours for more work.&nbsp;Selecting a team opens the Team capacity visualization.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">Visa teamkapacitetvisualisering i Förbättrad analys</a> </td> 
-   <td> <p>The <b>Teamkapacitet</b> visualisering visar en procentandel av det arbete som ett hemteam har utfört av den mängd arbete de tilldelats. Genom att interagera med visualiseringen kan du se schemalagda timmar och planerade timmar för ett visst datum, samt kapacitetsprocenten och om hemteamet var över, under eller på kapaciteten den dagen.</p> </td> 
-  </tr> 
+   <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">View the Team capacity visualization in Enhanced analytics</a> </td> 
+   <td> <p>The <b>Team capacity</b> visualization shows you a percentage of the amount of work a home team has completed out of the amount of work assigned to them. Interacting with the visualization allows you to see scheduled hours and planned hours for a specific date, as well as the capacity percentage and whether the home team was over, under, or at capacity on that day.</p> </td> 
+  </tr>--> 
  </tbody> 
 </table>

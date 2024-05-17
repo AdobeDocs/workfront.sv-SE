@@ -6,9 +6,9 @@ description: "Den information du visar i [!DNL Adobe Workfront] representeras av
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2149'
 ht-degree: 0%
 
 ---
@@ -300,11 +300,12 @@ Du kan rapportera följande objekt när du använder rapportverktyget i [!DNL Wo
 * [!UICONTROL Parameter Group] (eller [!UICONTROL Section Break])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Program]
-* [!UICONTROL Project] ([!UICONTROL Financial Data])
+* [!UICONTROL Project (Financial Data)]
+   * Ekonomisk information fylls i i [!UICONTROL Project (Financial Data)] rapporterar endast när data som hör till den är yngre än 5 år. Om en jobbroll till exempel allokerades till en uppgift i januari 2015 och idag är september 2021, är det ett finansfält som [!UICONTROL Allocation Date] för jobbrollen inte fylls i i [!UICONTROL Project (Financial Data)] rapport.
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >Ekonomisk information fylls i i [!UICONTROL Project] ([!UICONTROL Financial Data]) rapporteras endast när de data som hör till den är yngre än 5 år. Om en jobbroll till exempel allokerades till en uppgift i januari 2015 och idag är september 2021, är det ett finansfält som [!UICONTROL Allocation Date] för jobbrollen inte fylls i i [!UICONTROL Project (Financial Data)] rapport.
+  >När du kör en projektrapport (ekonomiska data) utförs en omberäkning av dina finansiella data, vilket kan skriva över tidigare ekonomiska data och kan ta lång tid. Mer information om konsekvenserna av omberäkning av finansiella data finns i [Beräkna om projektekonomi](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Proof Approval]
    * Gör att du kan visa olika uppgifter om bevisgodkännandet, inklusive: beviset som skickades för godkännande, information om [!UICONTROL Approver], information om den begärande parten (om den begärande parten är en licensierad [!DNL Workfront] användare), versionsinformation, korrektur-ID och datum när korrekturet skapades.\
