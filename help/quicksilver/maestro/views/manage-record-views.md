@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,14 @@ När du har valt en posttyp i Adobe Workfront Planning kan du visa alla poster a
 * Kalender
 
   Mer information finns i [Hantera kalendervyn](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+I den här artikeln beskrivs följande information om postvyer:
+
+* [Skapa och redigera en vy](#create-or-edit-record-views)
+* [Ta bort en vy](#delete-views)
+* [Duplicera en vy](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## Åtkomstkrav
 
@@ -93,7 +101,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Vyer i Workfront Planning är posttypsspecifika. Du kan inte använda samma vy för två olika posttyper.
 * Vyer som du skapar visas bara för dig och de användare som du delar vyerna med.
 * När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har behörighet till vyn.
-<!--* Each user can create a maximum of 100 views. -->
+* Varje användare kan skapa högst 100 vyer. Du kan visa mer än 100 vyer för en posttyp, men en användare kan bara skapa 100 vyer.
+* Du kan dela vyer som du skapar med andra. Mer information finns i [Visa](/help/quicksilver/maestro/access/share-views.md).
 * Följande element är unika för varje postvy:
 
    * Filter
@@ -108,14 +117,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   >[!NOTE]
   >
   > Eftersom Adobe Workfront Planning för närvarande är en betaversion, kanske vissa vyelement inte är tillgängliga för alla vyer.
-
-I den här artikeln beskrivs följande information om postvyer:
-
-* [Skapa och redigera en vy](#create-or-edit-record-views)
-* [Ta bort en vy](#delete-views)
-* [Duplicera en vy](#duplicate-views)
-* [Dela en vy](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Likheter och skillnader mellan postvyer
 
@@ -228,10 +229,6 @@ Först kan du behöva klicka **Mer** till vänster om den sista fliken för att 
 1. Klicka **Ta bort** för att bekräfta. <!--ensure there is not another saving step here?!-->
 
    Vyn tas bort för alla användare som har åtkomst till postområdet och kan inte återställas.
-
-## Dela en vy
-
-Mer information om att dela vyer finns i [Visa](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

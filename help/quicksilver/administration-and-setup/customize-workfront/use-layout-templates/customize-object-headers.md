@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Anpassa objektrubriker
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. I **Anpassa det användarna ser** nedrullningsbar meny, välja **Projekt**, **Uppgifter** eller **Problem**.
+1. I **Anpassa det användarna ser** nedrullningsbar meny, välja **Projekt**, **Uppgifter**, eller **Problem**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
@@ -88,7 +88,7 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
    >
    >* Du kan lägga till redigerbara fält som redan ingår i standardrubrikerna (till exempel Projektägare, Status, Procent färdigt, Uppdrag).
    >
-   >* När du lägger till fältet &quot;Löst av&quot; i huvudet för ett problem, ändras fältet till &quot;Lösa problem, Aktivitet eller Projekt&quot;, när det finns ett matchande objekt kopplat till problemet.
+   >* När du lägger till fältet &quot;Löst av&quot; i huvudet på ett problem, ändras fältet till &quot;Lösa problem, Aktivitet eller Projekt&quot;, när det finns ett matchande objekt kopplat till problemet.
 
 
    ![](assets/add-field-to-header-in-lt-list.png)
