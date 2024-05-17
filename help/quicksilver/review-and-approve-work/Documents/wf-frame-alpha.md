@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
+source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -113,47 +113,10 @@ Med den här integreringen är vårt mål att göra det möjligt för kreatörer
 
 För att du enkelt ska kunna testa betaprogrammets nya funktioner har vi skapat ett nytt test-konto för Frame.io och kopplat det till en ny grupp som kallas `Frame.io testing` i Workfront Preview- eller Sandbox-miljö.
 
-+++Expandera för att visa grundläggande testinstruktioner
-
-Om du vill testa funktionen loggar du in på Workfront Preview eller Sandbox och utför följande steg:
-
-1. **Koordinatorer:** Skapa ett projekt i Workfront med `Frame.io testing` grupp tilldelad som projektgrupp.
-
-1. **Koordinatorer:** I Workfront markerar du de uppgifter som kräver kreativt arbete som bildruteaktiverade (i uppgiftsinformationen) och tilldelar dina användare (tilldela dig själv också om du vill testa hela arbetsflödet).
-
->[!NOTE]
->
->Underaktiviteter kan inte markeras som bildrutor aktiverade.
->
-
-1. **Koordinatorer:** Ladda upp din översikt och ändra projektstatus till Aktuell.
-
-1. **Kreatörer:** Kontrollera dina e-postmeddelanden om det finns en inbjudan till det nyligen skapade Frame.io-projektet
-
-1. **Kreatörer:** Klicka på knappen&quot;Gå med i projekt&quot; i e-postmeddelandet med en inbjudan om att gå med i Frame.io-projektet, granska det kreativa utkastet i projektet och börja skapa ditt innehåll i valfritt verktyg på Creative Cloud.
-
-1. **Kreatörer:** Överför dina skapade resurser till Frame.io och lägg till dem i det länkade Workfront-projektet genom att välja någon av de tilldelade Frame-aktiverade åtgärderna. Välj alternativet för att markera uppgiften som slutförd.
-
-1. **Koordinatorer:** I Workfront söker du efter de länkade Frame.io-resurserna i den bildruteaktiverade aktiviteten och kontrollerar att aktivitetens status har ändrats till&quot;complete&quot;.
-
-1. **Koordinatorer:** Tilldela granskare/godkännare till den länkade Frame.io-resursen. Tilldela dig själv som godkännare också om du vill testa hela arbetsflödet. (Mer information om hur du tilldelar granskningar/godkännare finns i [Lägga till ytterligare godkännare eller granskare i ett dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
-
-1. **Intressenter:** I Workfront kan du visa din godkännandebegäran i Hem, Dokumentinformation eller i det mottagna e-postmeddelandet. Öppna resursen i Frame.io Viewer, lämna en kommentar med feedback och fatta ett beslut.
-
-1. **Koordinatorer:** I Workfront kan du läsa de kommentarer som har skapats av berörda parter i uppdateringsavsnittet i det dokument som är kopplat till Frame.io samt beslutet i godkännandeavsnittet eller dokumentsammanfattningsfönstret.
-
-1. **Kreatörer:** I Frame.io ser du det övergripande godkännandebeslutet för dina tillgångar.
-
-1. **Kreatörer:** I Frame.io tillämpar du de begärda ändringarna genom att lägga till den uppdaterade versionen i den anslutna resursens versionsstack.
-
-1. **Koordinatorer:** I Workfront tilldelar du godkännare/granskare till den nyligen överförda versionen och övervakar förloppet tills den har signerat.
-
-+++
-
-+++ Expandera för att visa detaljerade testinstruktioner
+### Detaljerade testinstruktioner
 
 För deltagare som vill testa ytterligare funktioner har vi skapat ett mer komplicerat testscenario. En guide för detta detaljerade testscenario kan laddas ned här: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
-+++
+
 
 ## Demonstrationsvideo
 
