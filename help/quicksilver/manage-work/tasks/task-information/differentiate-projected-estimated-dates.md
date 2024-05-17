@@ -7,9 +7,9 @@ description: Det finns flera typer av datum som visar tidslinjen för uppgifter 
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ I den här artikeln beskrivs skillnaderna mellan beräknade och planerade datum 
 
 När aktiviteten skapas för första gången bör datumen för planerad, projicerad och beräknad matcha. Det finns vissa undantag. 
 
-Mer information om projekt-, uppgifts- och utgivningsdatum i Adobe Workfront finns i [Översikt över Project-, Task- och Issue-datum i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Mer information om projekt-, uppgifts- och utgivningsdatum i Adobe Workfront finns i [Översikt över Project-, Task- och Issue-datum i Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Översikt över planerade datum
 

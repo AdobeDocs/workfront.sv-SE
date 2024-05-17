@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Adobe Workfront]
-description: Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Adobe Workfront]
+title: Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Workfront]
+description: I den här artikeln finns definitioner för de vanligaste datumen som är associerade med projekt, uppgifter och problem i [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
 
-# Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Adobe Workfront]
+# Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ Beroende på [!UICONTROL Task Constraint]kanske du inte kan redigera [!UICONTROL
 
 Mer information finns i [Översikt [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ The [!UICONTROL Entry Date] är det datum då ett projekt, en uppgift eller ett 
 
 The [!UICONTROL Entry Date] påverkar inte tidslinjen för projekt, uppgifter eller problem, men det är viktigt för spårnings- och rapporteringsändamål. [!DNL Workfront] genererar automatiskt [!UICONTROL Entry Date] när objektet skapas och du inte kan redigera det manuellt.
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL Actual Start Date]
 
@@ -89,7 +92,7 @@ Mer information finns i [Översikt [!UICONTROL Actual Start Date]](../../../mana
 
 The [!UICONTROL Actual Completion Date] är det datum som en användare faktiskt slutför ett projekt, en uppgift eller ett problem. The [!UICONTROL Actual Completion Date] är tom när projektet, aktiviteten eller utgåvan skapas.
 
-Du kan ange manuellt när arbetet har slutförts för en uppgift eller ett problem, eller [!UICONTROL Actual Complete Date] fylls i automatiskt när något av följande inträffar:
+Du kan ange manuellt när arbetet har slutförts för en uppgift eller ett problem, eller [!UICONTROL Actual Completion Date] fylls i automatiskt när något av följande inträffar:
 
 * Status för projekt, uppgift eller utleverans ändras till [!UICONTROL Complete], [!UICONTROL Closed], eller [!UICONTROL Resolved].
 * Aktivitets- eller projektprocenten slutförd är 100 %.
@@ -114,7 +117,7 @@ The [!UICONTROL Commit Date] är det datum då en användare som har tilldelats 
 
 ## [!UICONTROL Projected Start Date]
 
-The [!UICONTROL Projected Start Date] är ett realtidsdatum när projektet, uppgiften eller utgåvan inträffar och alla förseningar beaktas. Detta är ett mer korrekt startdatum för projektet, aktiviteten eller utgåvan än [!UICONTROL Planned Start Date]. The [!UICONTROL Planned Start Date] tar inte hänsyn till förseningar eller tidigare datum.
+The [!UICONTROL Projected Start Date] är ett realtidsdatum när projektet, uppgiften eller utgåvan börjar och tar hänsyn till alla förseningar. Detta är ett mer korrekt startdatum för projektet, aktiviteten eller utgåvan än [!UICONTROL Planned Start Date]. The [!UICONTROL Planned Start Date] tar inte hänsyn till förseningar eller tidigare datum.
 
 När du först planerar ett projekt, [!UICONTROL Planned Start Date] och [!UICONTROL Projected Start Date] uppgifterna och projektet är identiska. Eftersom förseningar kan inträffa eller uppgifter kan slutföras tidigare, kan [!UICONTROL Projected Start Date] kan bli annorlunda än [!UICONTROL Planned Start Date].
 
@@ -132,7 +135,7 @@ Mer information finns i [Översikt [!UICONTROL Projected Start Date]](../../../m
 
 The [!UICONTROL Projected Completion Date] är en beräknad indikator i realtid för när projektet, uppgiften eller utgåvan ska slutföras. När projektet, aktiviteten eller utgåvan har markerats som Slutfört visas [!UICONTROL Projected Completion Date] Ändringar av datumet för [!UICONTROL Actual Completion Date].
 
-Om allt blir som planerat [!UICONTROL Projected Completion date] ska matcha [!UICONTROL Planned Completion Date]. I annat fall på grund av fördröjningar för föregående aktiviteter [!UICONTROL Projected Completion Date] kan skilja sig från [!UICONTROL Planned Completion Date].
+Om allt går smidigt och som planerat [!UICONTROL Projected Completion date] ska matcha [!UICONTROL Planned Completion Date]. I annat fall, på grund av fördröjningar för föregående uppgifter, [!UICONTROL Projected Completion Date] kan skilja sig från [!UICONTROL Planned Completion Date].
 
 Mer information finns i [Översikt över [!UICONTROL Projected Completion Date] för projekt, uppgifter och ärenden](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -146,7 +149,7 @@ Datumet då du loggar tiden är [!UICONTROL Hour Entry Date] fält på timinmatn
 
 >[!TIP]
 >
->The [!UICONTROL Hour Entry Date] skiljer sig från [!UICONTROL Entry Date] på så sätt att det inte är datumet då timloggen skapades, utan det datum som du vill associera timmarna till.
+>The [!UICONTROL Hour Entry Date] skiljer sig från [!UICONTROL Entry Date] på så sätt att det inte är datumet då timloggen skapades, utan det datum som du vill att timmarna ska associeras med.
 
 Du kan logga och visa tiden i följande områden i Workfront:
 

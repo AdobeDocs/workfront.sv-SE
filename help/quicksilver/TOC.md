@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '14246'
 ht-degree: 0%
@@ -540,8 +540,8 @@ ht-degree: 0%
          * [Bevilja åtkomst till scenarioplan](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [Bevilja åtkomst till resurshantering](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Ge åtkomst till Workfront mål](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Enkel inloggning i Adobe Workfront {#sso}
-         * [Enkel inloggning](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * Enkel inloggning i Workfront {#sso}
+         * [Enkel inloggning: artikelindex](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Översikt över enkel inloggning](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [Uppdatera användare för enkel inloggning](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [Konfigurera Workfront med SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -873,7 +873,7 @@ ht-degree: 0%
       * [[!DNL Adobe Workfront] objektöversikt](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Förstå navigeringen för en arbetslicensanvändare](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Förstå navigeringen för en användare med en granskningslicens](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      * [Översikt över Project-, Task- och Issue-datum i Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+      * [Översikt över Project-, Task- och Issue-datum i Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Startsida {#home}
       * [Startsida](workfront-basics/using-home/home.md)
       * Nytt hem {#new-home}

@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -37,6 +37,6 @@ Det här avsnittet innehåller följande underavsnitt och artiklar:
 * [Listor i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [Skapa anpassade avsnitt](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [Åtkomst [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-* [Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+* [Översikt över projekt-, uppgifts- och utgivningsdatum i [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [Förstå navigeringen för en [!UICONTROL Review]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

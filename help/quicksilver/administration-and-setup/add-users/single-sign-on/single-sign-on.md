@@ -3,21 +3,25 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: Enkel inloggning i Adobe Workfront
+title: "Enkel inloggning i Workfront: artikelindex"
 description: Du kan integrera Workfront med företagets SSO-lösning. Den här konfigurationen är enkel att konfigurera och hantera och är tillgänglig för både OnDemand- och OnPremise Enterprise-kunder.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# Enkel inloggning i Adobe Workfront
+# Enkel inloggning i Workfront: artikelindex
+
+<!-- Audited: 05/2024 -->
+
+Ni kan integrera Workfront med er befintliga företagslösning för samlad inloggning (SSO). Den här konfigurationen är enkel att konfigurera och hantera och är tillgänglig för både OnDemand- och OnPremise Enterprise-kunder.
 
 Det här avsnittet innehåller följande artiklar:
 
