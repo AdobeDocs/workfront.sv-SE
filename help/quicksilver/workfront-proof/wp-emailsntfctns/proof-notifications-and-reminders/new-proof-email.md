@@ -8,9 +8,9 @@ description: Få den här artikeln att fungera bättre för PiW.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
-source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
+source-git-commit: 1030d4110fd5dabb3b5751387585cc66968c2326
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -43,19 +43,16 @@ E-postmeddelandet Nytt korrektur innehåller:
 
    * Korrekturnamn
    * Versionsnummer
-
-      Mer information finns i .
-
    * Lista över granskarna och deras framsteg med korrekturet
    * En länk för att dela beviset med någon annan
 
-      På så sätt kan du dela korrektur-URL:en och/eller hämtningslänken för originalfilen. Detta gör att du inte uttryckligen kan lägga till granskare i korrekturet, du delar bara det offentliga korrektur-URL:en och mottagaren får skrivskyddad åtkomst till korrekturet.
+     På så sätt kan du dela korrektur-URL:en och/eller hämtningslänken för originalfilen. Detta gör att du inte uttryckligen kan lägga till granskare i korrekturet, du delar bara det offentliga korrektur-URL:en och mottagaren får skrivskyddad åtkomst till korrekturet.
 
-      Se [Dela ett korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) för mer information.
+     Se [Dela ett korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) för mer information.
 
-      Om du inte vill att den här länken ska visas i mottagarens e-post kan du inaktivera [!UICONTROL Public Sharing] inställningar på korrekturet
+     Om du inte vill att länken ska visas i mottagarens e-post kan du inaktivera [!UICONTROL Public Sharing] inställningar på korrekturet
 
-      (Hämta originalfil och offentlig URL). Se [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) för mer information.
+     (Hämta originalfil och offentlig URL). Se [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) för mer information.
 
 ## Aktivitetsloggen
 
@@ -66,9 +63,8 @@ Skicka en [!UICONTROL New Proof] e-post till en granskare loggas i [!UICONTROL A
 >[!NOTE]
 >
 >* Om korrekturets skapare eller ägare har [!UICONTROL Proof Made] e-postmeddelanden som är inaktiverade som standard (i deras personliga inställningar) får de inga [!UICONTROL Proof made] eller [!UICONTROL New proof] e-postmeddelanden även om [!UICONTROL Notify people by email] är markerad på sidan Nytt korrektur. Mer information finns i .
->* Om e-postmeddelanden är inaktiverade som standard i [!UICONTROL Account settings] Bevisets skapare/ägare kommer inte att få något [!UICONTROL Proof made] eller [!UICONTROL New proof] e-postmeddelanden även om detta är aktiverat i deras personliga inställningar och [!UICONTROL Notify] Personen via e-post är markerad på sidan Nytt korrektur. Mer information finns i [The [!UICONTROL Proof Made] e-post](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) och se .
+>* Om e-postmeddelanden är inaktiverade som standard i dialogrutan [!UICONTROL Account settings] Bevisets skapare/ägare kommer inte att få något [!UICONTROL Proof made] eller [!UICONTROL New proof] e-postmeddelanden även om detta är aktiverat i deras personliga inställningar och [!UICONTROL Notify] Personen via e-post är markerad på sidan Nytt korrektur. Mer information finns i [The [!UICONTROL Proof Made] e-post](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) och se .
 >
-
 
 
 
@@ -83,14 +79,14 @@ Du kan ange om du vill skicka en e-postavisering till granskarna om ett korrektu
 
 När du skapar ett nytt korrektur i [!UICONTROL New proof] sida, under **[!UICONTROL Share]** kan du välja om du vill skicka e-postaviseringar:
 
-* Här kan du bestämma om du vill [!UICONTROL Notify people by email] (1). Om du avmarkerar det här alternativet får ingen av dina granskare ett e-postmeddelande om att korrekturet är klart för granskning.
+* Här kan du bestämma om du vill [!UICONTROL Notify people by email] (1) Om du avmarkerar det här alternativet får ingen av dina granskare ett e-postmeddelande om att korrekturet är klart för granskning.
 * Du kan även inkludera ett anpassat meddelande i e-postmeddelandet (2).
 * Om du bestämmer dig för att lägga till ett eget anpassat meddelande kan du placera i en anpassad ämnesrad (3) och ett meddelande i e-postmeddelandets brödtext (4).
 * Klicka på länken (5) om du vill ignorera det anpassade meddelandet.
 
-   >[!NOTE]
-   >
-   >Om du alltid skickar samma anpassade meddelande till dina granskare kan det vara bra att spara det i dina personliga inställningar under [!UICONTROL Proofing defaults] -fliken. Mer information finns i .
+  >[!NOTE]
+  >
+  >Om du alltid skickar samma anpassade meddelande till dina granskare kan det vara bra att spara det i dina personliga inställningar under [!UICONTROL Proofing defaults] -fliken. Mer information finns i .
 
 ![New_Proof_page_1.png](assets/new-proof-page-1-350x186.png)
 
