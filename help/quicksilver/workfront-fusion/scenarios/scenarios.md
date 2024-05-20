@@ -9,7 +9,7 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
+source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Lägga till ett filter i ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
 * [Generera en modul med AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
 * [Felsökningsscenarier med [!DNL Adobe Workfront Fusion] Utvecklingsverktyg](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
-* [Scenariomallar](../../workfront-fusion/scenarios/templates/fusion-templates.md)
+* [Scenariomallar](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] scenarioexempel: ansluta e-post, [!UICONTROL Text Parser]och [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Återställa en scenarioversion i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Kopiera moduler eller scenarier i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
