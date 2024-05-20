@@ -8,9 +8,9 @@ description: I det här exemplet förklaras det grundläggande arbetsflödet mel
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 I det här exemplet förklaras det grundläggande arbetsflödet mellan en designer eller projektledare och en eller flera granskare, till exempel en kund.
 
-![basic_workflow.png](assets/basic-workflow-350x67.png)
+![basic_workflow.png](assets/basic_workflow.png)
 
 * **Skapa nytt korrektur** - Designern eller projektledaren skapar ett nytt korrektur i [!DNL Workfront Proof] och delar bevisen med kunden. (Se [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).)
 
 * **Nytt korrekturmeddelande** - Klienten får ett e-postmeddelande med en länk till korrekturet.
 
-* **Granska ett korrektur** - Kunden granskar korrekturet, lägger till kommentarer och fattar ett beslut. (Se [Granska korrektur i [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) och [Fatta ett beslut om ett korrektur i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
+* **Granska ett korrektur** - Kunden granskar beviset, lägger till kommentarer och fattar ett beslut. (Se [Granska korrektur i [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) och [Fatta ett beslut om ett korrektur i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
 
 * **E-postavisering** - designern eller projektledaren får ett e-postmeddelande med en sammanfattning av kundens granskning, beroende på vilka e-postaviseringar de har ställt in. (Se [Konfigurera e-postaviseringsinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).)
 

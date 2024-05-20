@@ -8,9 +8,9 @@ description: Om din organisation arbetar med frilansare kan du inkludera dem i [
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Mer information om hur du lägger till en frilansare i ditt team finns i [Skapa 
 
 >[!NOTE]
 >
->Frilansare som har lagts till i ditt konto som användare kommer att ha synlighet i ditt konto och kan även se klientinformation (beroende på deras användarprofil). Detta kanske inte är vad du vill ha, så det kanske vore lämpligare att skapa ett satellitkonto för dina frilansare. se [Konfigurera ett satellitkonto för dina frilansare](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) nedan.
+>Frilansare som har lagts till i ditt konto som användare kommer att ha synlighet i ditt konto och kan även se klientinformation (beroende på deras användarprofil). Det här kanske inte är vad du vill, så det kanske är ett bättre alternativ att konfigurera ett satellitkonto för dina frilansare. Se [Konfigurera ett satellitkonto för dina frilansare](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) nedan.
 
 ## Konfigurera ett satellitkonto för dina frilansare
 
@@ -47,16 +47,16 @@ Det innebär att de får en egen kontrollpanel där alla objekt som de arbetar m
 
 Det innebär också att om frilansaren behöver skapa nya versioner av korrekturet under granskningsprocessen kan du lägga till dem explicit i korrekturet som en [!UICONTROL Author]som gör det möjligt att delta i granskningsprocessen och skapa nya versioner vid behov. Mer information finns i och [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![frilansare_-_alternativ_B.png](assets/freelancers---option-b-350x98.png)
+![frilansare_-_alternativ_B.png](assets/freelancers_-_option_B.png)
 
 1. Frilansaren loggar in på sitt satellitkonto.
 1. Frilansaren överför filen och delar den med dig. Se [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Dela filer i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
 1. Du får ett e-postmeddelande om att en fil har delats med dig.
-1. Du loggar in på ditt konto och hittar filen som har delats med dig.
+1. Du loggar in på ditt konto och söker efter filen som har delats med dig.
 1. Du använder [!UICONTROL convert to proof] för att konvertera filen till ett korrektur. Mer information finns i [Hantera filer i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).
 1. Sedan hanterar du korrekturarbetsflödet med dina kunder på normalt sätt. Om du vill lägga till din Freelancer explicit i korrekturet kan du göra det med delningsfunktionen. Mer information finns i [Dela ett korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
-1. Om du inte vill lägga till din Freelancer explicit i korrekturet, men du vill meddela dem när det har godkänts, Du kan meddela din frilansare när korrekturprocessen är slut genom att dela en länk till korrekturet med dem.
+1. Om du inte vill lägga till din Freelancer explicit i korrekturet, men du vill meddela dem när det har godkänts. Du kan meddela din frilansare när korrekturprocessen är slut genom att dela en länk till korrekturet med dem.
 
    Det innebär att de inte ingår i granskningsteamet och att dina kunder inte ser sitt namn på korrekturet.
 
@@ -66,7 +66,7 @@ Mer information om hur du ställer in ett satellitkonto för dina frilansare fin
 
 Det här alternativet är användbart om du inte vill att kunder och frilansare ska se varandra i [!DNL Workfront Proof]. Du kan ge dina frilansare åtkomst till dina [!UICONTROL Dropzone] (tillgänglig den [!UICONTROL Enterprise] och [!UICONTROL Unlimited] endast planer). Mer information finns i [The [!UICONTROL Dropzone]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
-![frilansare_-_option_C_-_dropzone.png](assets/freelancers---option-c---dropzone-350x98.png)
+![frilansare_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. Frilansaren går till din publik [!UICONTROL Dropzone] sida.
 1. De använder [!UICONTROL Dropzone] för att skapa ett nytt bevis på ditt konto.

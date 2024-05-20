@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Intern och extern granskning i [!DNL Workfront Proof]
-description: Lär dig hur du använder Workfront Proof för granskningar utanför organisationen.
+description: Lär dig använda Workfront Proof för granskningar utanför er organisation.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Det här alternativet illustrerar ett arbetsflöde där klienterna kan se alla i
 
 Designern delar korrekturet med projektledaren (och andra kollegor) först. Kollegorna granskar korrekturet och om de godkänner det kan du använda delningsfunktionen för att dela korrekturet med dina kunder. Mer information finns i [Dela ett korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Skapa ett nytt korrektur** - formgivaren skapar ett nytt korrektur [!DNL Workfront Proof] och delar med sig av detta till interna granskare. Designern gör projektledaren till ägare av beviset.
 1. **Intern granskning** - projektledaren och andra kollegor granskar beviset.
@@ -49,7 +49,7 @@ Du kan upprepa den här processen tills korrekturet har godkänts.
 
 Det här alternativet illustrerar ett arbetsflöde där korrekturläsningsprocessen hanteras av projektledaren som skapar nya versioner (efter behov) och delar korrekturet med kunden. Designern behöver inte delta i granskningsprocessen.)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Skapa ett nytt korrektur** - Designern skapar ett nytt korrektur i [!DNL Workfront Proof] och delar med sig av detta till interna granskare. Designern gör projektledaren till ägare av beviset eller ger honom rollen som [!UICONTROL Author] på korrekturet (se [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
