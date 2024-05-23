@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ Innan du kan använda [!DNL Adobe Target] måste du se till att följande krav u
 
 ## Skapa en anslutning till [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>Anslutningar som skapas efter den 3 juni 2024 kräver en Adobe Target Server-till-server-anslutning.
+>
+>* Befintliga anslutningar till tjänstkonton fortsätter att fungera till januari 2025. Du måste ersätta dina tjänstkontoanslutningar med Adobe Target Server-till-server-anslutningar senast i januari 2024.
+>* Du måste vara utvecklare för att din organisation ska kunna skapa en Adobe Target Server-till-server-anslutning. Utvecklarrollen anges i Adobe Admin Console.
+
 Skapa en anslutning för [!DNL Adobe Target] moduler:
 
 1. Klicka **[!UICONTROL Add]** bredvid rutan Anslutning.
@@ -94,6 +101,11 @@ Skapa en anslutning för [!DNL Adobe Target] moduler:
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>Ange ett namn för anslutningen.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>Ange om du skapar en anslutning till ett tjänstkonto eller en anslutning från Adobe Target Server till server.<p><b>VIKTIGT</b>: Anslutningar som skapas efter den 3 juni 2024 kräver en Adobe Target Server-till-server-anslutning. Befintliga anslutningar till tjänstkonton fortsätter att fungera till januari 2025. Du måste ersätta dina tjänstkontoanslutningar med Adobe Target Server-till-server-anslutningar senast i januari 2024.
         </td>
       </tr>
       <tr>
