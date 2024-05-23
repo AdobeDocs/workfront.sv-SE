@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -46,37 +46,37 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
   <tr> 
    <td>Skapa och redigera användarprofiler</td> 
    <td>✓</td> 
-   <td> <p>✓*</p> </td> 
-   <td> <p>✓*</p> </td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera undergrupper</p> </td> 
+   <td>Skapa och hantera undergrupper</td>
    <td>✓ </td> 
-   <td> <p>✓**</p> </td> 
+   <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Konfigurera projekt-, uppgifts- och probleminställningar på systemnivå</p> </td> 
+   <td>Konfigurera projekt-, uppgifts- och probleminställningar på systemnivå</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aktivera och inaktivera inställningar för projekt, uppgift och utleverans för grupper och undergrupper</p> </td> 
+   <td>Aktivera och inaktivera inställningar för projekt, uppgift och utleverans för grupper och undergrupper</td> 
    <td>✓**</td> 
-   <td> <p>✓**</p> </td> 
+   <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Konfigurera tidrapport och timinställningar på systemnivå</p> </td> 
+   <td>Konfigurera tidrapport och timinställningar på systemnivå</td> 
    <td>✓ </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aktivera och inaktivera tidrapport- och timinställningar för grupper och undergrupper</p> </td> 
+   <td>Aktivera och inaktivera tidrapport- och timinställningar för grupper och undergrupper </td> 
    <td>✓**</td> 
-   <td> <p>✓**</p> </td> 
+   <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera anpassade formulär</p> </td> 
+   <td>Skapa och hantera anpassade formulär</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera layoutmallar</p> </td> 
+   <td>Skapa och hantera layoutmallar</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera godkännandeprocesser för en grupp</p> </td> 
+   <td>Skapa och hantera godkännandeprocesser för en grupp</td> 
    <td>✓** </td> 
-   <td> <p>✓**</p> </td> 
+   <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera team</p> </td> 
+   <td>Skapa och hantera team</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera växelkurser</p> </td> 
+   <td>Skapa och hantera växelkurser</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera timtyper</p> </td> 
+   <td>Skapa och hantera timtyper</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera milstolpar</p> </td> 
+   <td>Skapa och hantera milstolpar</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera tidsplaner</p> </td> 
+   <td>Skapa och hantera tidsplaner</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera företag</p> </td> 
+   <td>Skapa och hantera företag</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera tidrapportprofiler</p> </td> 
+   <td>Skapa och hantera tidrapportprofiler</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> Skapa och hantera prioriteringar, allvarlighetsgrader, villkor</p> </td> 
+   <td>Skapa och hantera prioriteringar, allvarlighetsgrader, villkor</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Skapa och hantera risktyper</p> </td> 
+   <td>Skapa och hantera risktyper</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
