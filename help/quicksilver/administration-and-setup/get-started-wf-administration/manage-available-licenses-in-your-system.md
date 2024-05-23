@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+>[!NOTE]
+>
+>Följande programsatser gäller endast för nya planer.
+>
+>För Select-planen:
+>
+>1. Systemadministratörer kan inte ange gränser för hemgrupper.
+>2. Systemadministratörer kan endast se det totala antalet licenser som används i alla hemgrupper.
+>3. Gruppadministratörer har inte tillgång till licenssidan alls.
+>
+>För Prime- och Ultimate-planerna:
+>
+>1. Systemadministratörer kan lägga till hemgrupper på sidan Licenser för att visa användningen av licenser i dessa grupper, och de kan också ange licensbegränsningar.
+>2. Gruppadministratörer har tillgång till sidan Licenser och kan visa hur licenserna i de grupper de hanterar har utnyttjats och som har lagts till på sidan Licenser av systemadministratörer.
+>3. Gruppadministratörer kan inte visa information för andra hemgrupper eller lägga till maximumvärden.
+
 ## Visa organisationens licenser
 
 Antalet licenser som används uppdateras automatiskt när du tilldelar åtkomstnivåer till användare som du lägger till i Workfront. Mer information finns i [Lägg till användare](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -63,7 +79,7 @@ Så här visar du licensinformation i ditt system:
 
    >[!NOTE]
    >
-   >Korrekturlicenser är endast tillgängliga för kunder som har köpt det betalda Workfront-tillägget Proof utöver sin Workfront-licens. Mer information om det här tillägget finns i [Workfront-korrektur: artikelindex](../../workfront-proof/workfront-proof.md).
+   >Korrekturlicenser är endast tillgängliga för kunder som har köpt det betalda Workfront Proof-tillägget utöver sin Workfront-licens. Mer information om det här tillägget finns i [Workfront-korrektur: artikelindex](../../workfront-proof/workfront-proof.md).
 
 1. (Villkorligt) Om meddelandet visas **Om du vill ange ett maxvärde måste du lägga till en hemgrupp** lägger du till en hemgrupp i systemet enligt anvisningarna i avsnittet [Lägga till eller ta bort en hemgrupp på sidan Licenser](#add-or-remove-a-home-group-to-the-licenses-page) i den här artikeln.
 
@@ -73,7 +89,7 @@ Så här visar du licensinformation i ditt system:
 
 ## Visa information om licenser för Workfront-tillägg
 
-Om din organisation har det betalda Workfront-tillägget för korrektur visas antalet använda licenser och antalet tillgängliga licenser. Till exempel: **5 av 10 korrekturlicenser** anger att organisationen för närvarande använder 5 av de 10 Workfront-korrekturlicenser som de har köpt.
+Om ditt företag har det betalda Workfront Proof-tillägget visas antalet använda licenser och antalet tillgängliga licenser. Till exempel: **5 av 10 korrekturlicenser** anger att organisationen för närvarande använder 5 av de 10 Workfront Proof-licenser som de har köpt.
 
 ![Licens för Workfront-tillägg](assets/updated-licenses-page.png)
 
