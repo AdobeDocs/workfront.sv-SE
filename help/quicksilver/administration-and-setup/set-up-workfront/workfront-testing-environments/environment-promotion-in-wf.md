@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du kan utföra den här processen i Workfront genom att skapa ett paket med obje
 
 Funktionen för miljöfrämjande åtgärder är avsedd att göra det möjligt att flytta konfigurationsrelaterade objekt från en miljö till en annan. Detta är objekt som kan konfigureras, till exempel projekt, team eller anpassade formulär.
 
-Miljökampanjen stöder inte möjligheten att flytta transaktionsobjekt (med begränsade undantag). Transaktionsobjekt kan inte konfigureras. Exempel är uppdateringar av systemaktivitet och korrekturbeslut.
+Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktionsobjekt (objekt som ändras ofta eller som är mycket beroende av användningsfall). Exempel på transaktionsobjekt är dokument, utgåvor, förfrågningar, uppdateringar och korrekturbeslut.
 
 * [Arbetsobjekt](#work-objects)
 * [Rapporteringsobjekt](#reporting-objects)
