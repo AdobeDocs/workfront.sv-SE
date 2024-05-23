@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Koppla poster
-
-### Att tänka på när det gäller att ansluta poster
+## Att tänka på när det gäller att ansluta poster
 
 * När du har anslutit posttyper visas de kopplade posttyperna som länkade postfält i tabellen med de posttyper som de är länkade från och på posternas sidor.
 * Du kan bläddra bland och lägga till poster och objekt för den länkade posten och objekttyperna från de länkade postfälten.
@@ -150,6 +148,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       * [Skapa poster](../records/create-records.md)
 
    * Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](../architecture/connect-record-types.md)
+* Du kan koppla objekt från Workfront till Workfront Planning-poster i följande områden:
+   * Från en planeringspost i Workfront Planning.
+   * Under Planning för ett Workfront-objekt.
+
+## Koppla ihop poster från Workfront Planning
 
 ### Anslut Adobe Workfront Planning-poster
 
@@ -379,3 +382,13 @@ Den senast använda arbetsytan bör öppnas som standard.
    Ta bort Workfront-objektfält från **Markerade fält** område.
 
    Då läggs länkade fält till eller tas bort från posterna. Informationen som är kopplad till de borttagna fälten finns kvar i Adobe Experience Assets.
+
+## Koppla ihop poster från Workfront-objekt
+
+Du måste ha följande för att kunna ansluta Workfront Planning-poster från Workfront-objekt:
+
+* Anslutningar mellan posttyper och Workfornt-objekttyper.
+* Minst en anslutning mellan en post och ett Workfront-objekt.
+* Din Workfront- eller gruppadministratör måste lägga till planeringsavsnittet till de Workfront-objekttyper som kan ansluta till Planning-posttyper.
+
+Mer information finns i [Hantera poster i Planning-delen av Adobe Workfront-objekt](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).

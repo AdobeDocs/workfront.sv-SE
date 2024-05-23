@@ -4,18 +4,19 @@ description: Du kan visa posterna som är kopplade till Adobe Workfront-objekt i
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # Hantera poster i Planning-delen av Adobe Workfront-objekt
@@ -101,7 +102,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [Koppla posttyper](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [Koppla poster](/help/quicksilver/maestro/records/connect-records.md)
 * Du kan visa Planning-avsnittet i ett Workfront-objekt, även när det inte finns några poster kopplade till Workfront-objektet.
-* Du kan koppla planeringsposter till Workfront-objekt från Workfront i planeringsavsnittet.
+* Du kan koppla planeringsposter till Workfront-objekt från Workfront, i planeringsavsnittet, när det finns minst en post kopplad till Workfront-objektet.
+* Du måste ha Contribute eller högre behörighet för en arbetsyta för att kunna ansluta poster från Workfront-objekten.
 
 ## Hantera poster i planeringsavsnittet
 
@@ -132,17 +134,15 @@ Objektets sida öppnas i Workfront Planning.
 
    ![](assets/planning-section-on-project.png)
 
-1. Klicka på ett postkort om du vill visa mer information om posten. Postens förhandsvisningsruta visas.
-1. (Valfritt) Börja ändra fält i postens förhandsvisningsruta. Ändringarna sparas automatiskt.
-1. (Valfritt) Klicka på **Öppna på en ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida.
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. Håll muspekaren över ett minneskort och klicka sedan på ikonen för att koppla från post **-** och sedan klicka **Koppla från**.
 Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
    * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.
-   * Värdena för de Workfront-fält som är kopplade till Planning-posten tas också bort.
+   * Värdena för Workfront sökfält som är kopplade till Planning-posten tas också bort.
 1. Klicka **Anslut** för att ansluta fler poster.
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Följande saker händer:
 
    * Posterna är omedelbart kopplade till Workfront-objektet och visas i planeringsavsnittet.
    * Workfront-objektet läggs till i Workfront Planning-postens anslutna fält.
-   * Värdena för de Workfront-fält som är kopplade till Planning-posten fylls i i Workfront Planning.
+   * Värdena för Workfront sökfält som är kopplade till Planning-posten fylls i i Workfront Planning.
 
 <!--add more steps here for what happens after clicking Connect-->
 

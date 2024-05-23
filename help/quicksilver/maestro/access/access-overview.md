@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Du måste ha följande inställningar för att kunna använda Adobe Workfront Pl
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/maestro/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Anpassa huvudmenyn med hjälp av en layoutmall</a> och <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Tilldela användare till en layoutmall</a>. </p>  
 </td>
   </tr>
  </tbody>
