@@ -4,9 +4,9 @@ description: Du kan visa posterna som är kopplade till Adobe Workfront-objekt i
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,9 @@ Objektets sida öppnas i Workfront Planning.
 
    ![](assets/planning-section-on-project.png)
 
-<!--1. Click a record card to display more information about the record. The record preview box displays.
-1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
+1. Klicka på ett postkort om du vill visa mer information om posten. Postens förhandsvisningsruta visas.
+1. (Valfritt) Börja ändra fält i postens förhandsvisningsruta. Ändringarna sparas automatiskt.
+1. (Valfritt) Klicka på **Öppna på en ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida.
 1. Håll muspekaren över ett minneskort och klicka sedan på ikonen för att koppla från post **-** och sedan klicka **Koppla från**.
 Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
