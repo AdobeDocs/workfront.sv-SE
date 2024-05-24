@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td>
    <p>Nytt: Medarbetare eller högre</p>
    <p>eller</p>
@@ -53,12 +53,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td>
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td>
    <td><p>Visa eller öka åtkomsten till uppgifter och problem</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td>
-   <td><p>Visa eller högre behörigheter för Workfront-aktiviteten eller -utgåvan</p></td>
+   <td role="rowheader">Objektbehörigheter</td>
+   <td><p>Visa eller högre behörigheter för Workfront-aktiviteten eller -utgåvan</p>
+   <p><strong>Obs!</strong> Användare med behörigheten Visa för en uppgift eller ett problem kan inte vidta några åtgärder för kort som är anslutna till den, inklusive att flytta kortet till en annan kolumn på kortet. Visa användare kan bara öppna kortet för att se dess egenskaper och öppna den anslutna uppgiften eller utgåvan. Om du vill begära ytterligare åtkomst öppnar du uppgiften eller utgåvan och begär åtkomst dit.</td>
   </tr>
  </tbody> 
 </table>
