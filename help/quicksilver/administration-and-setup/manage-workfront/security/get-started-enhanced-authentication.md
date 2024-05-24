@@ -6,9 +6,9 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,6 @@ ht-degree: 0%
 Adobe Workfront förändrar systemhanteringen för användare och lösenord. Dessa ändringar kommer att lanseras i en fasversion som kallas **Förbättrad autentisering** upplevelse. Förbättrad autentisering ger en enhetligare och säkrare inloggningsupplevelse för alla Workfront-produkter och -tjänster.
 
 Följande tabell innehåller information om nuvarande och framtida funktioner:
-
->[!IMPORTANT]
->
->De flesta kunder använder för närvarande äldre autentisering och vissa använder Förbättrad autentisering 1.0.
-> 
->Verifiera vilken typ av autentisering du använder nu genom att gå till *din_domän*.my.workfront.com/login. Om du omdirigeras till /auth/login använder du Förbättrad autentisering 1.0.
-> 
->Om du omdirigeras till https://login-a-xx.workfront.com/, där xx kan vara USA (USA), EU (Europa) eller GCP (Google Cloud Platform) beroende på din plats/plattform, använder du Förbättrad autentisering 2.0.
->
->Alla kunder kommer att gå över till Förbättrad autentisering 2.0 i slutet av 2021.
 
 <table style="table-layout:auto"> 
  <col> 
