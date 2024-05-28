@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En lista över all dokumentation för arbetsytans kontrollpaneler finns på [Öv
 
 **Beta-schema:**
 
-* Stängt betatestdatum - 2 maj 2024
+* Stängt betatestdatum - TBA
 * Open beta start date - TBA
 * Planerat frisläppningsdatum - TBA
 
@@ -36,6 +36,10 @@ Så här anmäler du dig till betaversionen:
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
 
 1. Klicka på **Gå med i betaversionen av arbetsytans kontrollpaneler** betaknappen i sidans övre högra hörn.
+
+   >[!NOTE]
+   >
+   >Den här knappen är bara tillgänglig om din organisation har godkänts i den stängda betaversionen. När den öppna betaversionen börjar är den tillgänglig för alla organisationer.
 
 1. Läs villkoren och klicka sedan på **Acceptera**. Du är nu registrerad i betaversionen. Observera dock att det tar några minuter innan dina Workfront-data blir helt tillgängliga i Canvas Dashboards.
 
@@ -63,12 +67,13 @@ Nedan finns en lista över de rapporttyper som för närvarande stöds i betaver
 
 ### Funktioner under utveckling
 
-* Matristabellrapporter
+* Datum- och användarbaserade jokertecken för filter
+* Workfront Planning - rapporter
+* Ytterligare Workfront-objekttyper
+* Styrelserapporter
+* Andra användbarhetsförbättringar
 * Kalkylblad
 * Inbäddat webbinnehåll
-* Styrelserapporter
-* Kontrollpanelsfilter
-* Datum- och användarbaserade jokertecken för filter
 
 ### Framtida funktioner för färdplan
 
