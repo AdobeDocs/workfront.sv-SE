@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
+source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
@@ -28,32 +28,8 @@ Instruktioner om hur du flyttar objekt mellan miljöer med Workfront finns i:
 * [Skapa eller redigera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Installera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## Åtkomstkrav
 
-Du måste ha följande:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>Enterprise, Prime eller Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] licens</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>Du måste vara en [!DNL Workfront] administratör. För information om [!DNL Workfront] administratörer, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Objektbehörigheter</p> </td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Supportpaket</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred], eller [!UICONTROL Enterprise]</p> <p>Standardsupportpaketet har inte tillgång till den anpassade uppdateringssandlådan, men det har tillgång till förhandsvisningens sandlåda.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## Förutsättningar
 
