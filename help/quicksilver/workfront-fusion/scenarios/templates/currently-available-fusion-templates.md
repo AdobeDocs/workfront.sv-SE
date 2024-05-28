@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Om du vill visa tillgängliga mallar klickar du på **Mallar** icon ![](assets/f
 ## Workfront-mallar
 
 Mallarna automatiserar Workfront processer och arbetsflöden.
+
+### [!BADGE Nyhet!]{type=Informative}
+
+Den här Fusion-mallen skapar en standardchecklista för alla kort som anger en viss kolumn på en viss anslagstavla i tid.
 
 ### Workfront - Skapa projekt från CSV
 
@@ -86,7 +90,7 @@ Den här mallen hämtar en projektbaslinje varje måndag kl. 6.00 (ET) för proj
 
 Granska dina projektmallar en gång i månaden med hjälp av din egen policy med den här lättadministrerade mallen som meddelar lämpliga användare om mallar som bryter mot din policy.
 
-## Workfront - Workfront korrekturmallar
+## Workfront - Workfront Proof-mallar
 
 Mallarna automatiserar arbetsflöden som kombinerar Workfront med Workfront Proof.
 
@@ -94,7 +98,7 @@ Mallarna automatiserar arbetsflöden som kombinerar Workfront med Workfront Proo
 
 När ett beslut fattas om ett korrektur som läggs till direkt i ett projekt, samlar denna automatisering in information om bevisbeslutet, t.ex. vem som har fattat beslutet, och speglar sedan denna utveckling i motsvarande Workfront-projekt som en uppdatering.
 
-### Workfront-korrektur > Workfront - Uppgiftsuppdatering och slutförande (om godkänt) på korrekturbeslut
+### Workfront Proof > Workfront - Aktivitetsuppdatering och slutförande (om godkännande) på korrekturbeslutet
 
 Om enskilda korrektur är knutna till enskilda uppgifter stängs den tillhörande uppgiften när ett beslut om godkännande av korrekturet fattas. Om det godkänns slutförs uppgiften och projektet uppdateras.
 
