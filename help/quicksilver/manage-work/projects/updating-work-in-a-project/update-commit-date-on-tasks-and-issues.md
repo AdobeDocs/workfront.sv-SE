@@ -6,15 +6,17 @@ description: Du kan uppdatera implementeringsdatumet för en uppgift eller ett �
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 
 # Uppdatera implementeringsdatum för aktiviteter och ärenden
+
+{{highlighted-preview}}
 
 Du kan uppdatera implementeringsdatumet för en uppgift eller ett ärende som du har tilldelats manuellt. Mer information om implementeringsdatum i Adobe Workfront finns i [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -29,7 +31,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
@@ -63,9 +65,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Förutsättningar
 
-Innan du börjar måste du tilldelas uppgiften eller utgåvan som du vill uppdatera implementeringsdatumet för.
+Innan du kan redigera implementeringsdatumet för en uppgift eller utgåva måste du tilldelas den uppgift eller utgåva vars implementeringsdatum du måste uppdatera.
 
 ## Uppdatera implementeringsdatum för aktiviteter och ärenden
+
+
+Du kan uppdatera implementeringsdatumet för en uppgift eller ett problem i följande områden i Workfront:
+
+* Avsnittet Information om en uppgift eller ett problem
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor.
 
@@ -82,6 +93,10 @@ Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor
 1. Gå till en uppgift eller ett ärende som du har tilldelats som **Ägare**.
 
    Mer information om hur du tar reda på vem som är aktivitetsägare för ett problem eller en uppgift finns i avsnittet [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. Klicka **Uppgiftsinformation** eller **Ärendeinformation** till vänster.
 1. Klicka **Ökning** för att utöka den.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2253'
 ht-degree: 0%
 
 ---
@@ -260,16 +260,21 @@ Den senast använda arbetsytan bör öppnas som standard.
    * **MIN**: Visar det lägsta värdet från alla värden som kommer från flera poster som är markerade i det länkade postfältet.
    * **SUM**: Visar summan av alla värden som kommer från flera markerade poster i det länkade postfältet.
    * **AVG**: Visar medelvärdet av alla värden som kommer från flera markerade poster i det länkade postfältet.
+   * **UNIK**: Tar bort dubbletter från sökfältets värden och visar bara de unika värdena. Detta är inte tillgängligt för följande fälttyper:
+      * Stycke
+      * Kryssruta
+      * Folk
 
    >[!NOTE]
    >
-   >Du kan till exempel länka produktposten (den länkade posten) från Campaign-posten (den ursprungliga posten) och ge den namnet&quot;Produktfält&quot;. Du kan också välja att länka produktpostens budgetfält från kampanjposten och kalla det&quot;Produktbudget&quot;. Om du tillät att välja flera poster i fältet&quot;Produkt&quot; kan du välja Produkt 1 med en budget på 120 000 och Produkt 2 med en budget på 100 000 USD. Du kan visa följande budgetinformation i det länkade fältet från den ursprungliga posten, beroende på vilken aggregator du väljer:
+   >Du kan till exempel länka produktposten (den länkade posten) från Campaign-posten (den ursprungliga posten) och ge den namnet&quot;Produktfält&quot;. Du kan också välja att länka produktpostens budgetfält från kampanjposten och kalla det&quot;Produktbudget&quot;. Om du tillät att välja flera poster i produktfältet kan du välja Produkt 1 med en budget på 100 000 och Produkt 2 med en budget på 110 000 och Produkt 3 med en budget på 100 000 USD. Du kan visa följande budgetinformation i det länkade fältet från den ursprungliga posten, beroende på vilken aggregator du väljer:
    >
-   >* **Ingen**: 120 000 dollar, 100 000 dollar
-   >* **MAX**: 120 000 dollar
+   >* **Ingen**: 100 000 dollar, 110 000 dollar, 100 000 dollar
+   >* **MAX**: 110 000 dollar
    >* **MIN**: 100 000 dollar
-   >* **SUM**: 220 000 dollar
-   >* **AVG**: 110 000 dollar
+   >* **SUM**: 310 000 dollar
+   >* **AVG**: $103 000.33
+   >* **UNIK**: 100 000 dollar
    >
 
 1. (Valfritt) Använd **sök** icon ![](assets/search-icon.png) om du vill söka efter ett fält.

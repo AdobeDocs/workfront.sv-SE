@@ -6,20 +6,22 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
 
 # Uppdatera villkor för aktiviteter och ärenden
 
+<!--{{highlighted-preview}}-->
+
 Villkoret för en aktivitet eller ett problem är en flagga som anger hur den ska gå. Detta skiljer sig från arbetsobjektets status, som anger det aktuella utvecklingssteget för objektet.
 
 Du kan ställa in villkoret för en uppgift eller ett problem antingen automatiskt eller manuellt.
 
-Adobe Workfront-administratören kan skapa anpassade villkor för din miljö enligt beskrivningen i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
+Villkorsvärdena som vi hänvisar till i den här artikeln är som standard tillgängliga i Workfront. Din Adobe Workfront-administratör kan skapa anpassade villkor för din miljö enligt beskrivningen i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 <!--You can manually update the Condition of a task or issue if you are assigned to it or if you have permissions to it, as described in the [Access requirements](#access-requirements) section of this article.-->
 
@@ -64,15 +66,28 @@ För aktuella licenser:
 
 *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+## Förutsättningar
+
+Du måste tilldelas en aktivitet eller ett problem för att kunna uppdatera dess villkor manuellt.
+
 ## Leta reda på villkoret för uppgifter och problem
 
 Villkor visas som en flagga som är kopplad till uppgifter eller problem. De kan även kopplas till ett tal som kan visas i rapporter i stället för etiketten. Mer information om hur du associerar villkor med tal finns i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-Du kan hitta villkorliga uppgifter och problem i rapporter och listor när du visar fältet Villkor i en vy eller gruppering.
+Du kan hitta Villkor för uppgifter och problem i följande områden i Arbetsytan:
 
->[!NOTE]
->
->När ordet &quot;villkor&quot; visas i fältet Fältnamn i en journalpostrapport, visar detta att villkoret för ett objekt har uppdaterats. När fältet Villkor spåras i journalposter visar värdena för Nytt och Gammalt nummer numret som är associerat med villkoret i stället för dess namn. Om ett villkor ursprungligen inte är definierat för en aktivitet eller ett problem och du senare uppdaterar det, kommer journalposten som hämtar uppdateringen att visa värdet för Gammalt nummer i villkorsfältet som -2 147 483 648.
+<!--* <span class="preview">The Details page, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Details view using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>-->
+
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+
+* Panelen Sammanfattning visas när en Workfront- eller gruppadministratör har lagt till den i layoutmallen. Mer information finns i [Anpassa hem och sammanfattning med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+* Rapporter och listor när du visar fältet Villkor i en vy eller gruppering.
+
+  >[!NOTE]
+  >
+  >När ordet &quot;villkor&quot; visas i fältet Fältnamn i en journalpostrapport, visar detta att villkoret för ett objekt har uppdaterats. När fältet Villkor spåras i journalposter visar värdena för Nytt och Gammalt nummer numret som är associerat med villkoret i stället för dess namn. Om ett villkor ursprungligen inte är definierat för en aktivitet eller ett problem och du senare uppdaterar det, kommer journalposten som hämtar uppdateringen att visa värdet för Gammalt nummer i villkorsfältet som -2 147 483 648.
 
 ## Uppdatera villkoret automatiskt genom att uppdatera statusen
 
@@ -123,6 +138,50 @@ Så här uppdaterar du villkoret för en aktivitet eller ett problem manuellt:
 
 1. Tryck **Retur** på tangentbordet eller klicka utanför fältet Villkor för att spara den nya aktiviteten eller villkoret för problemet.
 
-   <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
+
+<!--
+Replace the above with the following when we release Condition to headers and Details page:
+
+To manually update the Condition of a task or an issue do one of the following:
+
+<div class="preview">
+
+1. To update the Condition of a task or issue in the task or issue header:
+
+     1. (Conditional) If your Workfront or group administrator added the Condition field to the task or issue header of your layout template, click the **Condition** field in the header and select from the following options: 
+          * Going Smoothly
+          * Some Concerns
+          * Major Roadblocks
+
+          ![](assets/condition-in-task-header.png)
+     1. Click Enter to save the Condition. 
+
+1. To update the Condition of a task or issue in the task or issue Details section:
+
+     1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click the **Condition** field and select from the following options: 
+          * Going Smoothly
+          * Some Concerns
+          * Major Roadblocks
+1. Click **Save Changes**. The Condition of the task or issue is updated. 
+
+</div>
+
+To update the Condition of a task or issue in a report or list: 
+
+1. Go to a list of tasks or issues that you have Manage permissions to. Ensure the **Condition** field is visible in the list's view. 
+
+1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
+
+    ![](assets/condition-drop-down-values-in-task-list.png)
+
+     >[!NOTE]
+     >
+     >Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+
+1. Press **Enter** on your keyboard, or click outside the Condition field to save the new task or issue Condition. 
+
+-->
+<!--   
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->

@@ -7,14 +7,16 @@ description: Bekräftelsedatum är det datum då en användare som har tilldelat
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
 
 # Genomför datumöversikt
+
+<!--{{highlighted-preview}}-->
 
 Bekräftelsedatum är det datum då en användare som har tilldelats en aktivitet eller ett problem förbinder sig att slutföra uppgiften eller problemet.
 
@@ -47,6 +49,15 @@ Mer information finns i [Uppdatera implementeringsdatum för aktiviteter och är
 >* Alla andra användare som har behörighet till uppgiften.
 >
 >Mer information om aktivitetsägaren finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## Leta reda på implementeringsdatumet för uppgifter och problem
+
+Du hittar Genomför-datum för uppgifter och problem i följande områden i Workfront:
+
+* Sidan Information
+* Panelen Sammanfattning visas när en Workfront- eller gruppadministratör har lagt till den i layoutmallen. Mer information finns i [Anpassa hem och sammanfattning med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
