@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ Från och med 30 maj 2024 går Adobe Workfront Planning-programmet över från b
 Åtkomststeget i förtid är också begränsat till ett fåtal Workfront-kunder.
 
 Din kontorepresentant kommer att informera dig om du är berättigad att delta i ett tidigt skede av processen.
+
+### Ny process för att ta bort en arbetsyta
+
+Produktion: 30 maj 2024
+
+Förhandsgranska: Ska bestämmas
+
+Eftersom effekten av att ta bort en arbetsyta kan vara betydande lägger vi till ett extra steg för att bekräfta borttagningen. Användarna måste nu skriva&quot;delete&quot; innan de kan slutföra den permanenta borttagningen av en arbetsyta.
+
+Borttagna arbetsytor och deras information kan inte återställas.
+
+Mer information finns i [Ta bort arbetsytor](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## Vecka 20 maj 2024
 
