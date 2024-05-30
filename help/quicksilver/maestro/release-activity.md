@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '6602'
+source-wordcount: '6669'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,15 @@ Produktion: 30 maj 2024
 
 Förhandsgranska: Ska bestämmas
 
-Vi har uppdaterat planeringsikonen i huvudmenyområdet. Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/maestro/maestro-overview.md).
+Vi har uppdaterat utseendet på ikonen för planeringsområdet på huvudmenyn. Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/maestro/maestro-overview.md).
+
+### Byta namn på Workfront Planning Program
+
+Från och med 30 maj 2024 går Adobe Workfront Planning-programmet över från betaversionen till ett tidigt skede. Du kommer att se den här ändringen i terminologin i vår dokumentation.
+
+Åtkomststeget i förtid är också begränsat till ett fåtal Workfront-kunder.
+
+Din kontorepresentant kommer att informera dig om du är berättigad att delta i ett tidigt skede av processen.
 
 ## Vecka 20 maj 2024
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Du måste ha följande inställningar för att kunna använda Adobe Workfront Pl
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
-<p>Din organisation måste vara registrerad i betaprogrammet Adobe Workfront Planning. </p>
+<p>Din organisation måste vara registrerad på Workfront Planning i ett tidigt skede </p>
    </td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ Du måste ha följande inställningar för att kunna använda Adobe Workfront Pl
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.-->
 
-När din organisation har registrerats i betaprogrammet Workfront Planning kan du lägga till planeringsområdet på huvudmenyn för alla användare med hjälp av en layoutmall.
+När organisationen har registrerats i Workfront Planning Program kan du lägga till Planning-området på Huvudmenyn för alla användare med hjälp av en layoutmall.
 
 1. Logga in på **Workfront** som Workfront-administratör.
 
