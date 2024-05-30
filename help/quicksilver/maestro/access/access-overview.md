@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Åtkomstöversikt
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Det finns begränsningar för licens- och delningsbehörighet för att använda Adobe Workfront Planning.
 
@@ -98,7 +98,7 @@ När din organisation har registrerats i betaprogrammet Workfront Planning kan d
 
 1. Logga in på **Workfront** som Workfront-administratör.
 
-1. Lägg till **Planering** icon ![](assets/maestro-icon.png) till **Huvudmeny** med **Layoutmall**.
+1. Lägg till **Planering** icon ![](assets/planning-icon.png) till **Huvudmeny** med **Layoutmall**.
 
    Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

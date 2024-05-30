@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 0%
@@ -26,9 +26,11 @@ ht-degree: 0%
 >
 >Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Adobe Workfront Planning i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>Workfront Planning är för närvarande i ett tidigt skede som är öppet för ett begränsat antal kunder.
 >
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Workfront Planning.
+>Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>
+>Din kontorepresentant skulle ha informerat dig om du var en del av det här steget.
 >
 >En fullständig lista över alla avsnitt och artiklar som innehåller Workfront Planning finns i [Adobe Workfront Planning: artikelindex](/help/quicksilver/maestro/maestro-information.md).
 
@@ -101,7 +103,7 @@ Information om nya funktioner och när de släpps finns på [Adobe Workfront Pla
 
 ## Aktivera Adobe Workfront Planning för användare i din Workfront-instans
 
-Din organisation måste registrera sig i det slutna betaprogrammet för Adobe Workfront Planning innan du kan komma åt planeringsfunktionerna. Kontakta din kontorepresentant om du vill ha information om hur du registrerar dig i betaprogrammet.
+Organisationen måste registrera sig i Adobe Workfront Planning Program innan du kan komma åt planeringsfunktionerna. Din kontorepresentant bör ha gett dig information om registrering i detta program, om du är berättigad.
 
 Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/maestro/access/access-overview.md).
 
@@ -277,7 +279,7 @@ Så här hittar du Workfront Planning:
 
 1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller klicka på **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt.
 
-1. Klicka **Planering** ![](assets/maestro-icon.png).
+1. Klicka **Planering** ![](assets/planning-icon.png).
 
    Området Arbetsytor öppnas.
 

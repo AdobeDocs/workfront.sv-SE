@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Skapa poster
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 I Adobe Workfront Planning är en post en instans av en posttyp.
 

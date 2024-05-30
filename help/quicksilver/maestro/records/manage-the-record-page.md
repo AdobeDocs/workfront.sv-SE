@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Hantera postsidan
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Du kan redigera layouten för postförhandsgranskning och -sida i Adobe Workfront Planning.
 

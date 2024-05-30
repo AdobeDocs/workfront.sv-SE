@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Översikt över licenstyper vid användning av Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Din Adobe Workfront-licenstyp fungerar tillsammans med dina Adobe Workfront Planning-behörigheter så att du kan visa, bidra och hantera arbetsytor. <!--add more objects here when we can grant other object-specific permissions-->
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Dela arbetsytor
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Du kan dela en arbetsyta med andra för att säkerställa samarbete när du arbetar i Adobe Workfront Planning.
 

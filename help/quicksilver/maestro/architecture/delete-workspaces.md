@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Ta bort arbetsytor
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 I Adobe Workfront Planning är arbetsytorna centraliserade platser där team kan planera arbetet. Mer information finns i [Skapa arbetsytor](../architecture/delete-workspaces.md).
 

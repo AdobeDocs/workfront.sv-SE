@@ -4,7 +4,7 @@ description: Du kan visa posterna som är kopplade till Adobe Workfront-objekt i
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Hantera poster i Planning-delen av Adobe Workfront-objekt
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Du kan visa posterna som är kopplade till Adobe Workfront-objekt i Planning-delen av ett Workfront-objekt på den vänstra panelen.
 

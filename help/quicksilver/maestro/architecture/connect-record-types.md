@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 0%
@@ -28,7 +28,7 @@ author: Alina
 
 # Koppla posttyper
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Du kan använda Adobe Workfront Planning för att utforma anpassningsbara arbetsytor som innehåller de posttyper som behövs i organisationen. Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyperna Workfront Planning till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -249,15 +249,17 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Planning]**.
 
-## Maestro important intro - {#maestro-important-intro}
+## Workfront Planning important intro - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
 >
->För närvarande ingår Workfront Planning i ett betaprogram som är öppet för ett begränsat antal kunder. Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>Workfront Planning är för närvarande i ett tidigt skede som är öppet för ett begränsat antal kunder.
 >
->Kontakta din kontorepresentant om du vill ha mer information om hur du går med i betaprogrammet för Workfront Planning.
+>Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>
+>Din kontorepresentant kommer att informera dig om du är en del av det här steget.
 >
 >Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/maestro/maestro-overview.md).
 
@@ -303,7 +305,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 ## Steg 1 - Korrektur - {#step1-to-proofing}
 
-1. I Workfront klickar du på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png)eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** ikonen i det övre vänstra hörnet ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png)och sedan klicka **[!UICONTROL Proofing]** för att få tillgång till Workfront Proof.
+1. I Workfront klickar du på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png)eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** ikonen i det övre vänstra hörnet ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png)och sedan klicka **[!UICONTROL Proofing]** få tillgång till Workfront Proof.
 
 ## Senaste DPV-version {#latest-version}
 

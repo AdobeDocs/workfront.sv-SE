@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 5d7a7157c7ffb9634ec44de0b55b3bcf08d88786
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Översikt över delningsbehörigheter i Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Du kan dela eller ta bort behörigheter till en arbetsyta eller vy i Adobe Workfront Planning.
 
@@ -75,9 +75,9 @@ Du måste ge användarna behörighet till arbetsytor för att de ska kunna få �
 * Posttyper
 * Poster
 * Fält
-<!--* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+* Vyer*
+
+  *Du kan tillåta alla användare med behörigheten Visa eller högre till en arbetsyta att även få åtkomst till vyerna på arbetsytan. Det här är en extra behörighet som du måste aktivera när du delar en vy. Mer information finns i [Visa](/help/quicksilver/maestro/access/share-views.md).
 
 Följande behörighetsnivåer gäller för arbetsytor:
 
@@ -147,17 +147,19 @@ Du måste ge användarna behörighet att visa vyer för att de ska ha tillgång 
 
 Följande behörighetsnivåer gäller för vyer och visningselement:
 
-|        | Hantera | Visa |
-|--------|--------|-------|
-| Redigera | ✓ |       |
-| Ta bort | ✓ |       |
-| Dela | ✓ |       |
-| Visa | ✓ | ✓ |
-| Använd | ✓ | ✓ |
+|        | Hantera (Endast inbjudna personer kan komma åt) | Visa (Endast inbjudna personer kan komma åt) | Alla på arbetsytan kan visa* |
+|--------|--------|-------|------------------------------|
+| Redigera | ✓ |       |                            |
+| Ta bort | ✓ |       |                            |
+| Dela | ✓ |       |                           |
+| Visa | ✓ | ✓ | ✓ |
+| Använd | ✓ | ✓ | ✓ |
 
-<!--Replace the above with this when global sharing is released: 
+*Användarna måste ha behörigheten Visa eller högre för en arbetsyta för att få åtkomst till vyn.
 
-|        | Manage | View  |View permissions to a workspace*|
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -165,20 +167,19 @@ Följande behörighetsnivåer gäller för vyer och visningselement:
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
-
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
+-->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |    
 -->

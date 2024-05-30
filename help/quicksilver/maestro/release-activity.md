@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6602'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,15 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-I den här artikeln listas de funktioner som har släppts efter lanseringen av betaprogrammet Adobe Workfront Planning capabilities, som avslutades den 22 maj 2023.
+I den här artikeln listas de funktioner som har släppts efter lanseringen av Adobe Workfront Planning Program, den 22 maj 2023.
 
-De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i planeringsfunktionerna i ett slutet betaprogram får tillgång till alla funktioner i sina produktionsmiljöer.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Mellan maj 2023 och december 2023 släpptes alla funktioner i den här artikeln till både förhandsgransknings- och produktionsmiljön. Planeringsfunktionerna har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som släpps efter detta datum är för närvarande tillgängliga i Produktion.
+>Mellan maj 2023 och december 2023 släpptes alla funktioner i den här artikeln till både förhandsgransknings- och produktionsmiljön. Workfront Planning har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som släpps efter detta datum är för närvarande tillgängliga i Produktion.
 
-I den här artikeln listas de funktioner och korrigeringar som har släppts efter lanseringen av betaprogrammet Adobe Workfront Planning capabilities, som avslutades den 22 maj 2023.
-
-Funktionerna släpps varje vecka och visas i den ordning de släpps, med den senaste först. Kunder som deltar i planeringsfunktionerna i ett slutet betaprogram får tillgång till alla funktioner i sina förhandsgransknings- och produktionsmiljöer.
+De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
 
 >[!IMPORTANT]
 >
@@ -57,16 +53,6 @@ Preview: To be determined
 
 Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
 
-### Share views with all members of a workspace by default
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
-
-For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
-
 -->
 
 ## Vecka 27 maj 2024
@@ -88,6 +74,24 @@ Operatorn UNIQUE är tillgänglig för alla fälttyper förutom följande:
 * Kryssrutefält
 
 Mer information finns i [Koppla posttyper](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+### Dela vyer med alla medlemmar på en arbetsyta som standard
+
+Produktion: 30 maj 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi har nu introducerat ett alternativ där du snabbt kan ge alla medlemmar på en arbetsyta behörigheten Visa. Före den här förbättringen kunde endast användare som du delat en vy med få åtkomst till vyn. Det här alternativet är inte aktiverat som standard.
+
+Mer information finns i [Visa](/help/quicksilver/maestro/access/share-views.md).
+
+### Uppdaterat utseende på planeringsikonen på huvudmenyn
+
+Produktion: 30 maj 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi har uppdaterat planeringsikonen i huvudmenyområdet. Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Vecka 20 maj 2024
 
@@ -713,7 +717,7 @@ Kommentarsupplevelsen för planeringsfunktionsposter matchar den nya kommentarsf
 
 Mer information finns i [Hantera postkommentarer](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Planeringsfunktionskontakt (beta) för Adobe Workfront Fusion
+### Workfront Planning Connector for Adobe Workfront Fusion
 
 Produktion: 21 december 2023
 
