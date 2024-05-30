@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ Den här sidan beskriver alla projektförbättringar som gjorts i tredje kvarter
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift
+## Redigera aktiviteten och utfärda datum och villkor för implementering från huvud- eller detaljavsnittet
 
 >[!NOTE]
 >
->Förhandsversion: 13 februari 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktionsrelease för alla kunder: Med version 24.7 (juli 2024).
+>Förhandsversion: 30 maj 2024; Produktion för snabb version: Med version 24.6 (13 juni 2024); Produktionsrelease för alla kunder: Med version 24.7 (juli 2024).
 
-Vi har lagt till samma funktionalitet för mer relevanta smarta tilldelningar i uppdragsfältet i följande områden:
+För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen. Före den här förbättringen kunde du inte lägga till villkor och datum för implementering av uppgifter och utgåvor när du anpassade rubrikerna.
 
-* Rutan Ny uppgift när du lägger till en uppgift i ett projekt
+Mer information om hur du uppdaterar implementeringsdatum och villkor finns i följande artiklar:
 
-* I en projektuppgiftslista
+* [Uppdatera villkor för aktiviteter och ärenden](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Uppdatera implementeringsdatum för aktiviteter och ärenden](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-Mer information finns i [Översikt över smarta uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Mer relevanta smarta tilldelningar
 

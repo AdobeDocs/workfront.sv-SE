@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,26 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Redigera aktiviteten och utfärda datum och villkor för implementering från huvud- eller detaljavsnittet</a></p>
+                        <p><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
+                        <p>För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen.   </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 30 maj 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.6 (13 juni 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                   <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
