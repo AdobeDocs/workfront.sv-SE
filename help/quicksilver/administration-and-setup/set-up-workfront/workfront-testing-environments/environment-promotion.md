@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
+source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2059'
 ht-degree: 0%
 
 ---
@@ -509,7 +509,7 @@ För varje erbjudande, något av följande `actions`  ställs in:
   </tr> 
   <tr> 
    <td>ÖVERSKRIVNING</td> 
-   <td><p>Den här åtgärden ställs inte in automatiskt.</p><p>Den här åtgärden ger möjlighet att uppdatera ett objekt som finns i målmiljön. Den ger möjlighet att manuellt åsidosätta en tilldelad CREATE- eller USEEXISTING-åtgärd innan den körs <code>/install</code> ring.<ul><li>En användare kan uppdatera ett objekt i testmiljön och sedan använda åtgärden VERWRITING för att uppdatera objektet i målmiljön.</p></li><li><p>Om användaren installerar ett erbjudandepaket från början och sedan ett nytt (eller uppdaterat) paket i framtiden innehåller ändringar av objekt i det ursprungliga paketet, kan användaren använda OVERWRITING för att ersätta (åsidosätta) tidigare installerade objekt. </p></li><ul></td> 
+   <td><p>Den här åtgärden ställs inte in automatiskt.</p><p>Den här åtgärden ger möjlighet att uppdatera ett objekt som finns i målmiljön. Den ger möjlighet att manuellt åsidosätta en tilldelad CREATE- eller USEEXISTING-åtgärd innan den körs <code>/install</code> ring.<ul><li>En användare kan uppdatera ett objekt i testmiljön och sedan använda åtgärden VERWRITING för att uppdatera objektet i målmiljön.</p></li><li><p>Om användaren installerar ett erbjudandepaket från början och sedan ett nytt (eller uppdaterat) paket i framtiden innehåller ändringar av objekt i det ursprungliga paketet, kan användaren använda OVERWRITING för att ersätta (åsidosätta) tidigare installerade objekt. </p><p>Mer information om överskrivning finns i avsnittet [Skriva över](#overwriting) i den här artikeln.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
@@ -891,7 +891,209 @@ _Tom_
 }
 ```
 
+## Skriv över
 
+Detta är en trestegsprocess.
+
+1. Skapa en översättningskarta (motsvarar fasen&quot;förbereda installation&quot;)
+1. Redigera den genererade översättningskartan och ange `action` och `targetId` fält för objekt som de vill skriva över. Åtgärden bör vara `OVERWRITING`och `targetId` ska vara uuid för objektet som ska skrivas över
+1. Kör installationen.
+
+* [Steg 1 - Skapa en översättningskarta](#step-1---create-a-translation-map)
+* [Steg 2 - Ändra översättningskartan](#step-2---modify-the-translation-map)
+* [Steg 3 - Installera](#step-3---install)
+
+### **Steg 1 - Skapa en översättningskarta**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### Brödtext
+
+Ingen
+
+#### Svar
+
+En översättningskarta, med en `202 - OK` status
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### Exempel
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### Steg 2 - Ändra översättningskartan
+
+Det finns ingen slutpunkt för det här steget.
+
+1. I översättningskartan returneras [Steg 1 - Skapa en översättningskarta](#step-1---create-a-translation-map)kontrollerar du listan med objekt som ska installeras.
+1. Uppdatera åtgärdsfältet för varje objekt till önskad installationsåtgärd.
+1. Validera `targetId` på varje objekt. Om set-åtgärden är `USEEXISTING` eller `OVERWRITING`, `targetId` ska anges till UUID för målobjektet i målmiljön. För andra åtgärder ska targetId vara en tom sträng.
+
+   >[!NOTE]
+   >
+   >The `targetId` fylls redan i om en kollision upptäcktes.
+
+### **Steg 3 - Installera**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### Brödtext
+
+Detta är ett objekt med ett enda fält `translationMap`som ska vara lika med den ändrade översättningskartan från [Steg 2 - Ändra översättningskartan](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### Exempel
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### Svar
+
+Svaret innehåller `{uuid of the created installation}` och `202 - ACCEPTED` status.
+
+Exempel: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
