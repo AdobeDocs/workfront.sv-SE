@@ -7,7 +7,7 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -158,6 +158,8 @@ Användare rekommenderas i listrutan Smarta tilldelningar baserat på en kombina
 >* Om ingen roll eller team har tilldelats för uppgiften eller utgåvan visas alla användare som har tilldelats de senaste 30 dagarna, upp till 50 användare.
 >
 >* Om du inte har gjort några uppdrag under de senaste 30 dagarna visas endast användare som tillhör det tilldelade teamet eller har rollen tilldelad till arbetsposten i listan med smarta uppdrag.
+
+
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--
