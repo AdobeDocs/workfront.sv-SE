@@ -7,9 +7,9 @@ description: Scenarioplaneraren kräver en separat licens från Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -37,66 +37,57 @@ Utan rätt åtkomst eller behörigheter kanske du inte kan visa [!UICONTROL Scen
 
 ## Åtkomst som behövs för att visa och använda [!DNL Adobe Workfront Scenario Planner]
 
-Du måste se till att följande villkor uppfylls innan du kan komma åt [!DNL Workfront Scenario Planner]:
+Du måste se till att alla följande villkor uppfylls innan du kan komma åt [!DNL Workfront Scenario Planner]:
 
-<!--drafted for P&P:
+1. Din organisation måste ha en av Workfront-planerna som beskrivs nedan.
 
-* Depending on whether you use the current or the legacy Workfront plans, your organization must have the following:
+   Beroende på om du använder den nya eller nuvarande Workfront-planen måste din organisation ha något av följande:
 
-  * For the current plans:  
+   * För de aktuella planerna måste din organisation ha något av följande:
 
-    * The [!UICONTROL Ultimate] [!DNL Workfront] plan.
+      * The [!UICONTROL Ultimate] [!DNL Workfront] plan. Scenarioplanen ingår i Ultimate-planen.
 
-      Or
-  
-    * The [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] plan, in addition to purchasing a separate [!DNL Scenario Planner] license.
+        eller
 
-  * For the legacy plans: (indent the bullets below, before the NOTE)
+      * The [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] plan, förutom att köpa en separat [!DNL Scenario Planner] licens.
 
--->
+   * För de aktuella Workfront-planerna måste din organisation ha båda följande:
 
-* Din organisation måste köpa en [!DNL Workfront] [!UICONTROL Business] eller högre [!DNL Workfront] plan. Mer information om [!DNL Workfront] planer, se [Workfront-planer](https://workfront.com/plans).
-* Din organisation måste köpa en [!DNL Workfront Scenario Planner] licens, utöver [!DNL Workfront] licens. Kontakta [!DNL Workfront] Kontorepresentant som kan läsa om [!DNL Workfront Scenario Planner] licenser.
+      * Din organisation måste köpa en [!DNL Workfront] [!UICONTROL Business] eller högre [!DNL Workfront] plan. Mer information om [!DNL Workfront] planer, se [Workfront-planer](https://workfront.com/plans).
 
-<!--drafted for P&P: 
+      * Din organisation måste köpa en [!DNL Workfront Scenario Planner] licens, utöver [!DNL Workfront] licens. Kontakta [!DNL Workfront] Kontorepresentant som kan läsa om [!DNL Workfront Scenario Planner] licenser.
 
-* Depending on whether you use the current or legacy licenses, your [!DNL Workfront] administrator must assign you a license of any of the following types: 
+1. Du måste ha en av Workfront-licenserna som beskrivs nedan.
 
-  * For the current licenses: 
-    * [!UICONTROL Standard]
-    * [!UICONTROL Light]
+   Beroende på om du använder de nya eller aktuella licenserna kan du [!DNL Workfront] administratören måste tilldela dig en licens av någon av följande typer:
 
-  * For the legacy licenses: (re-indent the licenses below and reword the sentence)
+   * För de nya licenserna:
+      * [!UICONTROL Standard]
+      * [!UICONTROL Light]
 
--->
+   * För de aktuella licenserna:
 
+      * [!UICONTROL Plan]
+      * [!UICONTROL Work]
+      * [!UICONTROL Review]
 
+   >[!NOTE]
+   > 
+   >* När de nya licenserna används har användare med [!UICONTROL Contributor] eller [!UICONTROL External] licenstypen kan inte komma åt [!DNL Scenario Planner].
+   >
+   >* När de aktuella licenserna används kan användare med en begärande eller extern licenstyp inte komma åt scenarioplaneraren.
 
-* Dina [!DNL Workfront] administratören måste tilldela dig en licens för något av följande [!DNL Workfront] typer:
+1. Dina [!DNL Workfront] måste administratören ge dig [!UICONTROL View] eller [!UICONTROL Edit] behörighet till [!DNL Scenario Planner] på din åtkomstnivå.
 
-   * [!UICONTROL Plan]
-   * [!UICONTROL Work]
-   * [!UICONTROL Review]
+   Mer information om hur du beviljar åtkomst till [!DNL Workfront Scenario Planner], se [Bevilja åtkomst till [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-  >[!NOTE]
-  >
-  >Användare med en [!UICONTROL Request] eller [!UICONTROL External] licenstypen kan inte komma åt [!DNL Workfront Scenario Planner].
+1. (Valfritt och rekommenderas) Om du vill visa eller uppdatera ekonomisk information för dina planer och initiativ kan du [!DNL Workfront] administratören måste också ge dig åtkomst till [!UICONTROL Financial Data] på din åtkomstnivå. Information om hur du ger ekonomiska data på din åtkomstnivå finns i [Bevilja åtkomst till finansiella uppgifter](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-<!--drafted - replace the note above with this at P&P release: 
-  * When using the current licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
-  * When using the legacy licenses, users with a Request or External license type cannot access the Scenario Planner. -->
+1. (Valfritt) Om du behöver komma åt planer som du inte har skapat måste den som skapat planen ge dig rätt behörighet för att komma åt dem. Information om vilka behörigheter som krävs för att komma åt planer och initiativ som du inte har skapat finns i [Behörigheter som krävs för att få tillgång till planer och initiativ](#permissions-needed-to-access-plans-and-initiatives) i den här artikeln.
 
-* Dina [!DNL Workfront] måste administratören ge dig [!UICONTROL View] eller [!UICONTROL Edit] behörighet till [!DNL Scenario Planner] på din åtkomstnivå.
-
-  Mer information om hur du beviljar åtkomst till [!DNL Workfront Scenario Planner], se [Bevilja åtkomst till [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
-
-* (Valfritt och rekommenderas) Om du vill visa eller uppdatera ekonomisk information för dina planer och initiativ kan du [!DNL Workfront] administratören måste också ge dig åtkomst till [!UICONTROL Financial Data] på din åtkomstnivå. Information om hur du ger ekonomiska data på din åtkomstnivå finns i [Bevilja åtkomst till finansiella uppgifter](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-
-  <!--this used to be true but not anymore:
+<!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
-
-* Om du behöver få åtkomst till planer som du inte har skapat måste den som skapat planen ge dig rätt behörighet för att få åtkomst till dem. Information om vilka behörigheter som krävs för att komma åt planer och initiativ som du inte har skapat finns i [Behörigheter som krävs för att få tillgång till planer och initiativ](#permissions-needed-to-access-plans-and-initiatives) i den här artikeln.
 
 ## Åtkomst krävs för att visa planer och initiativ
 

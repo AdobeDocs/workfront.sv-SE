@@ -7,9 +7,9 @@ description: Adobe Workfront-administratören måste se till att vissa villkor u
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* Din organisation måste köpa rätt licens för Workfront Goals. Mer information finns i avsnittet [Få åtkomst till Workfront Goals Organization](#obtain-workfront-goals-organization-access)i den här artikeln.
+* Din organisation måste köpa rätt licens för Workfront Goals. Mer information finns i avsnittet [Få åtkomst till Workfront Goals Organization](#obtain-workfront-goals-organization-access) i den här artikeln.
 
 * Tilldela dig rätt typ av Workfront-licens. Mer information om tilldelning av licenstyper och åtkomstnivåer finns i avsnittet [Uppdatera licenstyper och inställningar för åtkomstnivå](#update-license-types-and-access-level-settings) i den här artikeln.
 
@@ -45,37 +45,36 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 
 ## Få åtkomst till Workfront Goals Organization {#obtain-workfront-goals-organization-access}
 
-<!--drafted for P&P release: 
 
-If your company has a current Workfront plan, you must have one of the following:
+Beroende på vilken Workfront-plan ditt företag är baserat på finns följande scenarier:
 
-* An Ultimate Workfront plan. Workfront Goals are included in this plan. 
-* A Select or higher Workfront plan and a separate Workfront Goals license. -->
+* Om ditt företag har en ny Workfront-plan måste du ha något av följande:
 
-<!-- drafted for P&P - add this to the sentence below at release: 
+   * En Ultimate Workfront-plan. Workfront-mål ingår i den här planen.
+   * A Select or higher Workfront plan and a separate Workfront Goals license.
 
-If your company has a legacy Workfront plan, -->
+* Om ditt företag har den aktuella Workfront-planen måste din organisation köpa ytterligare en licens, utöver Workfront-licensen, för att dina användare ska kunna komma åt Workfront mål.
 
-Din organisation måste köpa ytterligare en licens, utöver Workfront-licensen, för att dina användare ska kunna komma åt Workfront mål. När organisationen har köpt den extra licensen aktiverar Workfront Workfront Goals för ditt konto. Kontakta din kontoansvarige på Workfront om du vill ha information om hur du köper en licens för Workfront Goals.
+  När organisationen har köpt den extra licensen aktiverar Workfront Workfront Goals för ditt konto. Kontakta din kontoansvarige på Workfront om du vill ha information om hur du köper en licens för Workfront Goals.
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Uppdatera licenstyper och inställningar för åtkomstnivå  {#update-license-types-and-access-level-settings}
 
-<!--drafted for P&P release: 
-If your company has the current access level model, your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
+Beroende på vilken Workfront-plan ditt företag är baserat på finns följande scenarier:
 
-* Contributor
-* Light
-* Standard-->
+* Om ditt företag har den nya åtkomstnivåmodellen måste din Workfront-administratör ge dig någon av följande Workfront-licenstyper för att få åtkomst till Workfront-mål:
 
-<!--drafted for P&P release: add this to the first sentence: 
-If your company has the legacy access level model, -->
+   * Medarbetare
+   * Ljus
+   * Standard
 
-Din Workfront-administratör måste ge dig en av följande Workfront-licenstyper för att få tillgång till Workfront mål:
+* Om ditt företag har den nuvarande åtkomstnivåmodellen måste din Workfront-administratör ge dig någon av följande Workfront-licenstyper för att få åtkomst till Workfront-mål:
 
-* Plan
-* Arbete
-* Granska
-* Begäran
+   * Plan
+   * Arbete
+   * Granska
+   * Begäran
 
 När din Workfront-administratör har gett dig en av dessa licenstyper måste du även få åtkomst till mål på din åtkomstnivå. Mer information om åtkomst till mål finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ I Adobe Workfront Planning kan du skapa anpassade fält för posttyper. Du kan s
 
 Du måste skapa posttyper innan du kan skapa fält som ska kopplas till dem. Mer information finns i [Skapa posttyper](../architecture/create-record-types.md).
 
-Du kan skapa fält på följande sätt i Maestro:
+Du kan skapa fält på följande sätt i Workfront Planning:
 
 * Från början
 * Genom att ansluta posttyper
@@ -47,7 +47,7 @@ Du kan skapa fält på följande sätt i Maestro:
 * Genom att skapa en posttyp
 * Skapa en arbetsyta från en mall
 
-Mer information om Maestro-fält finns i [Fältöversikt](/help/quicksilver/maestro/fields/fields-overview.md).
+Mer information om postfält finns i [Fältöversikt](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Åtkomstkrav
 
@@ -106,7 +106,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
 
 ## Skapa fält genom att ansluta posttyper
 
-Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två Maestro-posttyper, eller en posttyp och en objekttyp från andra program.
+Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två posttyper, eller en posttyp och en objekttyp från andra program.
 
 Mer information om hur du ansluter posttyper för Workfront Planning finns i [Koppla posttyper](../architecture/connect-record-types.md)
 

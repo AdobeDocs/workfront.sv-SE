@@ -6,7 +6,7 @@ description: Du kan justera två mål manuellt eller konvertera resultaten och a
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -37,9 +37,9 @@ Mer information om hur du justerar två mål manuellt finns i [Justera mål geno
  <tr>
  <td role="rowheader">Adobe Workfront-licens*</td>
  <td>
- <p>Aktuell licens: Medarbetare eller högre</p>
+ <p>Ny licens: Medarbetare eller högre</p>
  eller
- <p>Äldre licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
+ <p>Aktuell licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>

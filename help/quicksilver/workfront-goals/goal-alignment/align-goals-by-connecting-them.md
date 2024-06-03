@@ -6,7 +6,7 @@ description: Om du är en enskild deltagare som har ett personligt mål kanske d
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -51,9 +51,9 @@ Du måste ha följande:
  <tr>
  <td role="rowheader">Adobe Workfront-licens*</td>
  <td>
- <p>Aktuell licens: Medarbetare eller högre</p>
+ <p>Ny licens: Medarbetare eller högre</p>
  eller
- <p>Äldre licens: Begär eller högre</p> </td>
+ <p>Aktuell licens: Begär eller högre</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>

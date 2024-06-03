@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '6732'
+source-wordcount: '6799'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,30 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
+>
+>Workfront Planning är för närvarande i ett tidigt skede som är öppet för ett begränsat antal kunder.
+>
+>Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
+>
+>Din kontorepresentant kommer att informera dig om du är en del av det här steget.
+>
+>Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/maestro/maestro-overview.md).
+>
+>I vissa fall kan den dokumentation som beskrivs i avsnitten nedan vara tillgänglig efter att de dokumenterade funktionerna släppts till Produktion.
 
 I den här artikeln listas de funktioner som har släppts efter lanseringen av Adobe Workfront Planning Program, den 22 maj 2023.
 
->[!NOTE]
->
->Mellan maj 2023 och december 2023 släpptes alla funktioner i den här artikeln till både förhandsgransknings- och produktionsmiljön. Workfront Planning har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som släpps efter detta datum är för närvarande tillgängliga i Produktion.
-
 De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
 
->[!IMPORTANT]
->
->Dokumentationen som beskrivs i avsnitten nedan kommer att vara tillgänglig en tid efter att funktionerna släppts till Produktion.
+Mellan maj 2023 och december 2023 släpptes alla funktioner i den här artikeln till både förhandsgransknings- och produktionsmiljön.
+
+Workfront Planning har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som släpps efter detta datum är för närvarande tillgängliga i Produktion.
+
+
+
 
 <!--
 
