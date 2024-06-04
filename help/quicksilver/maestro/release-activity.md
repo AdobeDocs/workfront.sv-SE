@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ Eftersom effekten av att ta bort en arbetsyta kan vara betydande lägger vi till
 Borttagna arbetsytor och deras information kan inte återställas.
 
 Mer information finns i [Ta bort arbetsytor](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### Uppslagsdatumfält är nu tillgängliga i tidslinjevyn
+
+Du kan nu ställa in start- och slutdatum för tidslinjevyn på ett uppslagsfält från en ansluten post eller objekttyp.
+
+Mer information om hur du skapar vyer finns i [Hantera postvyer](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## Vecka 20 maj 2024
 

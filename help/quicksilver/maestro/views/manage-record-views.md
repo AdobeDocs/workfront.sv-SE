@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -192,6 +192,11 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
    Talet är ett automatiskt genererat steg.
 
 1. (Villkorligt) Välj **Starta** och **Slutdatum** för de poster som ska visas i tidslinjen eller kalendervyn.
+
+   >[!TIP]
+   >
+   >    Du kan välja från postdatumfält eller uppslagsdatumfält från anslutna poster eller objekt.
+
 1. Klicka **Skapa**.
 
    Vyn visas som en ny flik. Vyer visas i den kronologiska ordning som de skapades eller delades med dig.

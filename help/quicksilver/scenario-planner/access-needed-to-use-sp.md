@@ -7,7 +7,7 @@ description: Scenarioplaneraren kräver en separat licens från Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Du måste se till att alla följande villkor uppfylls innan du kan komma åt [!D
 
    Beroende på om du använder den nya eller nuvarande Workfront-planen måste din organisation ha något av följande:
 
-   * För de aktuella planerna måste din organisation ha något av följande:
+   * För de nya planerna måste din organisation ha något av följande:
 
       * The [!UICONTROL Ultimate] [!DNL Workfront] plan. Scenarioplanen ingår i Ultimate-planen.
 
