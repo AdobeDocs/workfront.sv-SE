@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
+source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
 workflow-type: tm+mt
-source-wordcount: '6040'
+source-wordcount: '6078'
 ht-degree: 0%
 
 ---
@@ -248,29 +248,31 @@ Information om hur du lägger till ett beräkningsfält finns i [Lägg till ber�
 
 ### Lägg till alternativknappar, kryssrutor och listrutor
 
-Du kan lägga till alternativknappar, kryssrutor och listrutor i ett anpassat formulär.
+Du kan lägga till alternativknappar, kryssrutor, listrutor och flervalslistrutor i ett anpassat formulär.
 
 +++ **Expandera om du vill visa beskrivningar av tillgängliga fält**
 
 * **Alternativknappar**: Kräver att användarna bara väljer ett alternativ.
 * **Kryssrutegrupp**: Tillåter användare att välja flera alternativ.
 * **Listruta**: Innehåller en lista med alternativ i listrutan.
+* **Flervalsmeny**: Tillåter användare att välja flera alternativ i en listruta.
 
 +++
 
 >[!NOTE]
 >
->Fält som tillåter flera markeringar, som kryssrutegruppen och listrutan, är svåra att schemalägga och gruppera i rapporter. Om du vill att det ska vara enklare att rita och gruppera i rapporter kan du skapa separata fält för varje val (till exempel ett textfält med en rad).
+>Fält som tillåter flera val, som kryssrutegrupp och flervalslistruta, är svåra att schemalägga och gruppera i rapporter. Om du vill att det ska vara enklare att rita och gruppera i rapporter kan du skapa separata fält för varje val (till exempel ett textfält med en rad).
 
-Så här lägger du till alternativknappar och kryssrutor:
+Så här lägger du till alternativknappar, kryssrutor och listrutor:
 
 1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
    * Alternativknappar
    * Kryssrutegrupp
    * Listruta
+   * Flervalsmeny
 
-   ![](assets/drag-field-to-section.png)
+   ![Dra ett fält till arbetsytan](assets/drag-field-to-section-041524.png)
 
 1. Till höger på skärmen konfigurerar du de alternativ som är tillgängliga för den typ av anpassat fält som du lägger till:
 
@@ -288,6 +290,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
     <li>Listruta</li>
+    <li>Flervalsmeny</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -303,6 +306,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
     <li>Listruta</li>
+    <li>Flervalsmeny</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -314,6 +318,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
     <li>Listruta</li>
+    <li>Flervalsmeny</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -328,6 +333,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
     <li>Listruta</li>
+    <li>Flervalsmeny</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -337,6 +343,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
     <li>Listruta</li>
+    <li>Flervalsmeny</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -346,6 +353,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
     <li>Listruta</li>
+    <li>Flervalsmeny</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -370,6 +378,7 @@ Så här lägger du till alternativknappar och kryssrutor:
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
     <li>Listruta</li>
+    <li>Flervalsmeny</li>
     </ul></td>
      </tr> 
     </tbody> 
