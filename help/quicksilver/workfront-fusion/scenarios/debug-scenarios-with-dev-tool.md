@@ -7,9 +7,9 @@ description: Med Adobe Workfront Fusion Devtool kan du förstå och felsöka sce
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,13 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 * [Öppna utvecklingsverktyget i [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Få åtkomst till utvecklingsverktyget i klassiska [!DNL Fusion] upplevelse](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Öppna utvecklingsverktyget i [!DNL Adobe Unified Experience]
+### Öppna utvecklingsverktyget i [!DNL Adobe Unified Experience] eller nya Fusion
 
-Om du använder Fusion i det enhetliga Adobe-skalet kan du komma åt Dev-verktyget från scenredigeraren.
+Om du använder Fusion i Adobe Unified Shell, eller har uppdaterat till den nya Fusion-upplevelsen, kan du komma åt Dev-verktyget från Scenarioredigeraren.
+
+1. Klicka på **Hjälpverktyg** ![Hjälpverktyg](assets/debugger-icon.png) -ikonen längst ned på skärmen.
+
+Eller:
 
 1. Gå till Scenarioredigeraren för det scenario som du vill felsöka.
 

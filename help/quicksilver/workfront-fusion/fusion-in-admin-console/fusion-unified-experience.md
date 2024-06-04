@@ -7,9 +7,9 @@ description: Genom att använda Workfront Fusion via Adobe Experience Cloud får
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
-   <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p> 
+   <p>Alla</p> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -86,7 +84,7 @@ När du är inloggad på [!DNL Adobe Experience Cloud]kan du visa alla [!DNL Wor
 
 Använd [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) till vänster om [!DNL Adobe] navigeringsfältet för att öppna [!UICONTROL Organization] och [!UICONTROL Team] menyer. Om du är [!DNL Workfront Fusion] administratör, [!UICONTROL Administration] -menyn visas också här.
 
-Om du vill byta team klickar du på teamnamnet längst upp på sidan och väljer sedan teamet. Det här visas bara på sidor som är specifika för ett team, till exempel en scenariobyggaren eller [!UICONTROL Connections] sida.
+Om du vill byta team klickar du på teamnamnet längst upp på sidan och väljer sedan teamet. Teamväljaren visas bara på sidor som är specifika för ett team, t.ex. en scenariobyggare eller [!UICONTROL Connections] sida.
 
 Om du vill byta organisation klickar du på organisationsnamnet längst upp till höger på skärmen och väljer sedan organisation.
 
