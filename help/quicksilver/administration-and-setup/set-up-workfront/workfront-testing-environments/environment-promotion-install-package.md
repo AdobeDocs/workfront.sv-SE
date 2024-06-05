@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 0%
 # Installera ett miljöerbjudande
 
 När du har skapat ett paket kan du installera det i en annan miljö.
+
+Du måste installera ett paket i miljön som du vill kopiera objekt till **till**. Om du till exempel konfigurerar ett projekt i din anpassade sandlådemiljö för uppdatering och befordrar det till din produktionsmiljö, måste du installera paketet i din produktionsmiljö.
+
+>[!IMPORTANT]
+>
+>Om din anpassade uppdateringssandlåda uppdateras medan du konfigurerar objekt för miljöbefordran, kommer den konfigurationen att förloras vid uppdateringen. Vi rekommenderar att du inte uppdaterar din anpassade uppdateringssandlåda om inte alla utestående miljöbefordringsobjekt och -paket har befordrats.
 
 ## Förutsättningar
 
