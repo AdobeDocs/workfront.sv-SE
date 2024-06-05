@@ -6,16 +6,17 @@ title: Navigera i det nya användargränssnittet i Workfront Fusion
 description: Workfront Fusion har uppdaterat användargränssnittet för användare som inte har åtkomst till Fusion via Adobe Experience Cloud. Nu matchar deras upplevelse Fusion bättre på Adobe Experience Cloud.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+exl-id: 2887a0e2-039e-4e29-823d-82809f217045
+source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # Navigera i nya Workfront Fusion
 
-Workfront Fusion har uppdaterats för användare som inte har tillgång till Fusion via Adobe Experience Cloud. Det nya Fusion-gränssnittet ger en smidigare upplevelse med andra Adobe-produkter.
+Workfront Fusion har uppdaterats för användare som inte har tillgång till Fusion via Adobe Experience Cloud. Det nya användargränssnittet i Fusion ger en smidigare upplevelse med andra Adobe-produkter och underlättar övergången för dina användare till Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
