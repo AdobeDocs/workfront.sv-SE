@@ -1,5 +1,5 @@
 ---
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
 workflow-type: tm+mt
 source-wordcount: '2185'
 ht-degree: 0%
@@ -243,9 +243,9 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## Steg 1 - Komma till Maestro - {#step1-to-maestro}
+## Steg 1 - Komma till Maestro - {#step1-to-planning}
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Planning]**.
 
@@ -261,7 +261,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 >
 >Din kontorepresentant kommer att informera dig om du är en del av det här steget.
 >
->Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/maestro/maestro-overview.md).
+>Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 

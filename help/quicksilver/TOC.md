@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
 workflow-type: tm+mt
-source-wordcount: '14314'
+source-wordcount: '14329'
 ht-degree: 0%
 
 ---
@@ -2046,61 +2046,62 @@ ht-degree: 0%
       * [Anpassa Adobe Workfront-målterminologi](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Dela ett mål i Workfront-mål](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Aktivera meddelanden om Adobe Workfront-mål](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Maestro {#adobe-maestro}
-   * [Adobe Maestro-information](maestro/maestro-information.md)
-   * [Översikt över Adobe Workfront](maestro/maestro-overview.md)
-   * [Adobe Workfront planerings- och lanseringsaktivitet](maestro/release-activity.md)
-   * Adobe Maestro-arkitekturen {#adobe-maestro-architecture}
-      * [Arkitektur: artikelindex](maestro/architecture/architecture-information.md)
-      * [Skapa arbetsytor](maestro/architecture/create-workspaces.md)
-      * [Översikt över posttyper](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [Skapa posttyper](maestro/architecture/create-record-types.md)
-      * [Skapa taxonomiposttyper](maestro/architecture/create-a-taxonomy.md)
-      * [Koppla posttyper](maestro/architecture/connect-record-types.md)
-      * [Redigera posttyper](maestro/architecture/edit-record-types.md)
-      * [Ta bort arbetsytor](maestro/architecture/delete-workspaces.md)
-      * [Redigera arbetsytor](maestro/architecture/edit-workspaces.md)
-      * [Ta bort posttyper](maestro/architecture/delete-record-types.md)
-      * [Exempel på att ansluta posttyper och poster](maestro/architecture/example-connect-record-types-and-records.md)
-      * [Lista över arbetsytemallar](maestro/architecture/workspace-templates.md)
-   * Adobe Maestro-fält {#adobe-maestro-fields}
-      * [Fält: artikelindex](maestro/fields/fields-information.md)
-      * [Översikt över fält](maestro/fields/fields-overview.md)
-      * [Skapa fält](maestro/fields/create-fields.md)
-      * [Redigera fält](maestro/fields/edit-fields.md)
-      * [Ta bort fält](maestro/fields/delete-fields.md)
-      * [Översikt över formelfält](maestro/fields/formula-fields.md)
-   * Adobe Maestro-åtkomst {#adobe-maestro-access}
-      * [Adobe Workfront Planning - åtkomstinformation: artikelindex](maestro/access/access-information.md)
-      * [Åtkomstöversikt](maestro/access/access-overview.md)
-      * [Översikt över behörigheter i Adobe Workfront planeringsfunktioner](maestro/access/sharing-permissions-overview.md)
-      * [Översikt över licenstyp vid användning av Adobe Workfront-planering](maestro/access/license-type-overview.md)
-      * [Dela arbetsytor](maestro/access/share-workspaces.md)
-      * [Visa](maestro/access/share-views.md)
-   * Adobe Maestro-poster {#adobe-maestro-records}
-      * [Poster: artikelindex](maestro/records/records-information.md)
-      * [Skapa poster](maestro/records/create-records.md)
-      * [Koppla poster](maestro/records/connect-records.md)
-      * [Redigera poster](maestro/records/edit-records.md)
-      * [Ta bort poster](maestro/records/delete-records.md)
-      * [Dela poster](maestro/records/share-records.md)
-      * [Hantera postkommentarer](maestro/records/manage-record-comments.md)
-      * [Översikt över avsnittet Historik](maestro/records/history-section-overview.md)
-      * [Lägga till en miniatyrbild i en post](maestro/records/add-thumbnails-to-records.md)
-      * [Lägga till en omslagsbild till en post](maestro/records/add-a-cover-image-to-a-record.md)
-      * [Hantera postsidan](maestro/records/manage-the-record-page.md)
-      * [Hantera poster i Planning-delen av Adobe Workfront-objekt](maestro/records/manage-records-in-planning-section.md)
-   * Adobe Maestro-vyer {#adobe-maestro-views}
-      * [Vyer: artikelindex](maestro/views/views-information.md)
-      * [Hantera postvyer](maestro/views/manage-record-views.md)
-      * [Hantera tabellvyn](maestro/views/manage-the-table-view.md)
-      * [Hantera tidslinjevyn](maestro/views/manage-the-timeline-view.md)
-      * [Hantera kalendervyn](maestro/views/manage-the-calendar-view.md)
-   * Adobe Maestro-meddelanden {#adobe-maestro-notifications}
-      * [Adobe Workfront Planning-meddelanden: Artikelindex](maestro/notifications/notifications-information.md)
-      * [Hantera aviseringsinställningar för Adobe Workfront Planning](maestro/notifications/manage-notification-preferences.md)
-      * [Hantera e-postmeddelanden om Adobe Workfront Planning](maestro/notifications/manage-planning-email-notifications.md)
-      * [Hantera meddelanden i appen för Adobe Workfront Planning](maestro/notifications/manage-planning-in-app-notifications.md)
+* Adobe Workfront Planning {#adobe-workfront-planning}
+   * [Adobe Workfront Planning: artikelindex](planning/planning-information.md)
+   * Adobe Workfront Planning - allmän information {#adobe-workfront-planning-general-information}
+      * [Adobe Workfront Planning - allmän information: artikelindex](planning/general/planning-general-article-index.md)
+      * [Adobe Workfront Planning - översikt](planning/general/planning-overview.md)
+      * [Adobe Workfront Planning - lanseringsaktivitet](planning/general/release-activity.md)
+   * Adobe Workfront Planning - arkitektur {#adobe-workfront-planning-architecture}
+      * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
+      * [Skapa arbetsytor](planning/architecture/create-workspaces.md)
+      * [Översikt över posttyper](planning/architecture/overview-of-record-types.md)
+      * [Skapa posttyper](planning/architecture/create-record-types.md)
+      * [Koppla posttyper](planning/architecture/connect-record-types.md)
+      * [Redigera posttyper](planning/architecture/edit-record-types.md)
+      * [Ta bort arbetsytor](planning/architecture/delete-workspaces.md)
+      * [Redigera arbetsytor](planning/architecture/edit-workspaces.md)
+      * [Ta bort posttyper](planning/architecture/delete-record-types.md)
+      * [Exempel på att ansluta posttyper och poster](planning/architecture/example-connect-record-types-and-records.md)
+      * [Lista över arbetsytemallar](planning/architecture/workspace-templates.md)
+   * Adobe Workfront Planning fields {#adobe-workfront-planning-fields}
+      * [Fält: artikelindex](planning/fields/fields-information.md)
+      * [Översikt över fält](planning/fields/fields-overview.md)
+      * [Skapa fält](planning/fields/create-fields.md)
+      * [Redigera fält](planning/fields/edit-fields.md)
+      * [Ta bort fält](planning/fields/delete-fields.md)
+      * [Översikt över formelfält](planning/fields/formula-fields.md)
+   * Åtkomst till Adobe Workfront Planning {#adobe-workfront-planning-access}
+      * [Adobe Workfront Planning - åtkomstinformation: artikelindex](planning/access/access-information.md)
+      * [Åtkomstöversikt](planning/access/access-overview.md)
+      * [Översikt över delningsbehörigheter i Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
+      * [Översikt över licenstyper vid användning av Adobe Workfront Planning](planning/access/license-type-overview.md)
+      * [Dela arbetsytor](planning/access/share-workspaces.md)
+      * [Visa](planning/access/share-views.md)
+   * Adobe Workfront Planning - poster {#adobe-workfront-planning-records}
+      * [Poster: artikelindex](planning/records/records-information.md)
+      * [Skapa poster](planning/records/create-records.md)
+      * [Koppla poster](planning/records/connect-records.md)
+      * [Redigera poster](planning/records/edit-records.md)
+      * [Ta bort poster](planning/records/delete-records.md)
+      * [Dela poster](planning/records/share-records.md)
+      * [Hantera postkommentarer](planning/records/manage-record-comments.md)
+      * [Översikt över avsnittet Historik](planning/records/history-section-overview.md)
+      * [Lägga till en miniatyrbild i en post](planning/records/add-thumbnails-to-records.md)
+      * [Lägga till en omslagsbild till en post](planning/records/add-a-cover-image-to-a-record.md)
+      * [Hantera postsidan](planning/records/manage-the-record-page.md)
+      * [Hantera poster i Planning-delen av Adobe Workfront-objekt](planning/records/manage-records-in-planning-section.md)
+   * Adobe Workfront Planeringsvyer {#adobe-workfront-planning-views}
+      * [Vyer: artikelindex](planning/views/views-information.md)
+      * [Hantera postvyer](planning/views/manage-record-views.md)
+      * [Hantera tabellvyn](planning/views/manage-the-table-view.md)
+      * [Hantera tidslinjevyn](planning/views/manage-the-timeline-view.md)
+      * [Hantera kalendervyn](planning/views/manage-the-calendar-view.md)
+   * Adobe Workfront Planning-meddelanden {#adobe-workfront-planning-notifications}
+      * [Adobe Workfront Planning-meddelanden: Artikelindex](planning/notifications/notifications-information.md)
+      * [Hantera aviseringsinställningar för Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
+      * [Hantera e-postmeddelanden om Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
+      * [Hantera meddelanden i appen för Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Mallen för Fusion-åtkomstregister](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
