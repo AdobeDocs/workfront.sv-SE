@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,9 @@ För att kunna koppla dina data i Workfront-sjön till en extern produkt måste 
 >[!IMPORTANT]
 >
 >När en post har lagts till i IP-tillåtelselista tillåts inte längre alla andra IP-adresser. Se till att du har angett alla IP-adresser som krävs - både för att skapa och läsa upplevelser i visualiseringsverktyget - innan du försöker använda verktyget. Annars kan du råka ut för ett fel med ogiltiga autentiseringsuppgifter.
+>
+>Om du inte har några IP-adresser i tillåtelselista men fortfarande har problem med att ansluta till ett BI-verktyg, kontrollerar du proxyserverkonfigurationen för BI-verktyget.
+
 
 ## Lägg till IP-adresser i tillåtelselista
 

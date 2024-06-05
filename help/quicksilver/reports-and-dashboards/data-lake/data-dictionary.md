@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -70,42 +70,42 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
     <td>Tilldelning</td>
     <td>Tilldelning</td>
     <td>ASSGN | Tilldelning</td>
-    <td>ASSIGNMENTS_CURRENT<br>     ASSIGNMENTS_DAILY_HISTORY<br>     ASSIGNMENTS_EVENT</td>
+    <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>CustomEnum</td>
     <td>Villkor, Prioritet, Allvarlighetsgrad, Status</td>
     <td>CSTEM | Anpassad uppräkning</td>
-    <td>CUSTOMENUMS_CURRENT<br>     CUSTOMENUMS_DAILY_HISTORY<br>     CUSTOMENUMS_EVENT</td>
-    <td>Posttypen identifieras med egenskapen enumClass. Följande typer förväntas:<br>     CONDITION_OPTASK<br>     CONDITION_PROJ<br>     CONDITION_TASK<br>     PRIORITY_OPTASK<br>     PRIORITY_PROJ<br>     PRIORITY_TASK<br>     SEVERITY_OPTASK<br>     STATUS_OPTASK<br>     STATUS_PROJ<br>     STATUS_TASK</td>
+    <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
+    <td>Posttypen identifieras med egenskapen enumClass. Följande typer förväntas:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
   </tr>
   <tr>
     <td>Dokument</td>
     <td>Dokument</td>
     <td>DOCU | Dokument</td>
-    <td>DOCUMENTS_CURRENT<br>     DOCUMENTS_DAILY_HISTORY<br>     DOCUMENTS_EVENT<br>     <br>     DOCUMENTS_CUSTOM_VALUE_CURRENT<br>     DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>     DOCUMENTS_CUSTOM_VALUE_EVENT</td>
+    <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br><br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>DocumentVersion</td>
     <td>Dokumentversion</td>
     <td>DOCV | Dokumentversion</td>
-    <td>DOCUMENTVERSIONS_CURRENT<br>     DOCUMENTVERSIONS_DAILY_HISTORY<br>     DOCUMENTVERSIONS_EVENT</td>
+    <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Grupp</td>
     <td>Grupp</td>
     <td>GRUPP | Grupp</td>
-    <td>GROUPS_CURRENT<br>     GROUPS_DAILY_HISTORY<br>     GROUPS_EVENT</td>
+    <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Timme</td>
     <td>Timme</td>
     <td>TIMME | Timme</td>
-    <td>HOURS_CURRENT<br>     HOURS_DAILY_HISTORY<br>     HOURS_EVENT</td>
+    <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -119,91 +119,91 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
     <td>Milstolpe</td>
     <td>Milstolpe</td>
     <td>MILE | Milstolpe</td>
-    <td>MILESTONES_CURRENT<br>     MILESTONES_DAILY_HISTORY<br>     MILESTONES_EVENT</td>
+    <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>MilstolpePath</td>
     <td>Sökväg för milstolpe</td>
     <td>MPATH | Sökväg för milstolpe</td>
-    <td>MILESTONEPATHS_CURRENT<br>     MILESTONEPATHS_DAILY_HISTORY<br>     MILESTONEPATHS_EVENT</td>
+    <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Anteckning</td>
     <td>Anteckning</td>
     <td>ANMÄRKNING | Anteckning</td>
-    <td>NOTES_CURRENT<br>     NOTES_DAILY_HISTORY<br>     NOTES_EVENT</td>
+    <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>OpTask</td>
     <td>Problem, begäran</td>
     <td>OPTASK | Problem</td>
-    <td>OPTASKS_CURRENT<br>     OPTASKS_DAILY_HISTORY<br>     OPTASKS_EVENT<br>     <br>     OPTASKS_CUSTOM_VALUE_CURRENT<br>     OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>     OPTASKS_CUSTOM_VALUE_EVENT</td>
+    <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br><br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Portfolio</td>
     <td>Portfolio</td>
     <td>PORT | Portfolio</td>
-    <td>PORTFOLIO_AKTUELL<br>     PORTFOLIO_DAILY_HISTORY<br>     PORTFOLIO_EVENT<br>     <br>     PORTFOLIO_CUSTOM_VALUE_CURRENT<br>     PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>     PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIO_AKTUELL<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Program</td>
     <td>Program</td>
     <td>PRGM | Program</td>
-    <td>PROGRAMS_CURRENT<br>     PROGRAMS_DAILY_HISTORY<br>     PROGRAMS_EVENT<br>     <br>     PROGRAMS_CUSTOM_VALUE_CURRENT<br>     PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>     PROGRAMS_CUSTOM_VALUE_EVENT</td>
+    <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Projekt</td>
     <td>Projekt</td>
     <td>PROJ | Projekt</td>
-    <td>PROJECTS_CURRENT<br>     PROJECTS_DAILY_HISTORY<br>     PROJECTS_EVENT<br>     <br>     PROJECTS_CUSTOM_VALUE_CURRENT<br>     PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>     PROJECTS_CUSTOM_VALUE_EVENT</td>
+    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Roll</td>
     <td>Jobbroll</td>
     <td>ROLE | Jobbroll</td>
-    <td>ROLES_CURRENT<br>     ROLES_DAILY_HISTORY<br>     ROLES_EVENT</td>
+    <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Schema</td>
     <td>Schema</td>
     <td>SCHED | Schema</td>
-    <td>SCHEDULES_CURRENT<br>     SCHEDULES_DAILY_HISTORY<br>     SCHEDULES_EVENT</td>
+    <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Uppgift</td>
     <td>Uppgift</td>
     <td>UPPGIFT | Uppgift</td>
-    <td>TASKS_CURRENT<br>     TASKS_DAILY_HISTORY<br>     TASKS_EVENT<br>     <br>     TASKS_CUSTOM_VALUE_CURRENT<br>     TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>     TASKS_CUSTOM_VALUE_EVENT</td>
+    <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br><br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Team</td>
     <td>Team</td>
     <td>TEAMOB | Team</td>
-    <td>TEAMS_CURRENT<br>     TEAMS_DAILY_HISTORY<br>     TEAMS_EVENT</td>
+    <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Tidrapport</td>
     <td>Tidrapport</td>
     <td>TSTIPSE | Tidrapport</td>
-    <td>TIMESHEETS_CURRENT<br>     TIMESHEETS_DAILY_HISTORY<br>     TIMESHEETS_EVENT</td>
+    <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Användare</td>
     <td>Användare</td>
     <td>ANVÄNDARE | Användare</td>
-    <td>USERS_CURRENT<br>     USERS_DAILY_HISTORY<br>     USERS_EVENT<br>     <br>     USERS_CUSTOM_VALUE_CURRENT<br>     USERS_CUSTOM_VALUE_DAILY_HISTORY<br>     USERS_CUSTOM_VALUE_EVENT</td>
+    <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br><br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
 </tbody>
