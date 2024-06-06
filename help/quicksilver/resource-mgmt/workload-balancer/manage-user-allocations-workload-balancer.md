@@ -6,9 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Hantera användarallokeringar i Utjämning av arbetsbelastning
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 Som resurshanterare kan du tilldela användare arbete och hantera deras dagliga, veckovisa eller månadsvisa tilldelningar från belastningsutjämnaren för att se till att de tilldelas ett antal timmar som passar i deras tillgängliga scheman.
 
@@ -111,11 +113,14 @@ Tänk på följande när du söker efter dagliga, veckovisa eller månadsvisa ti
 
 * Två användare i olika tidszoner eller scheman i andra tidszoner än de tilldelade användarnas kan få allokeringsbeloppen att se annorlunda ut för två användare som visar samma arbetsobjekt.
 
-* När en användare har schemalagt en ledig tid visas dagen eller delen av dagen i grå bakgrund. Om Workfront-administratören har aktiverat inställningen för användartid av i inställningsområdet för att ta hänsyn till användarens ledig tid, flyttas de tilldelade timmarna till nästa tillgängliga dag i tidslinjen. Om inställningen är inaktiverad finns de tilldelade timmarna kvar den dag som är markerad som ledig och användaren visas som överallokerade. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* När en användare har schemalagt en ledig tid visas dagen eller delen av dagen i grå bakgrund, <span class="preview">och en flygplansikon anger att tiden är avstängd</span>. Om Workfront-administratören har aktiverat inställningen för användartid av i inställningsområdet för att ta hänsyn till användarens ledig tid, flyttas de tilldelade timmarna till nästa tillgängliga dag i tidslinjen. Om inställningen är inaktiverad finns de tilldelade timmarna kvar den dag som är markerad som ledig och användaren visas som överallokerade. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Om tidsgränsen markerades efter att användaren tilldelades en arbetsuppgift, måste du beräkna om projektets tidslinje för att visa den flyttade allokeringen. Mer information finns i [Beräkna om projekttidslinjer](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+   * <span class="preview">När flera användare tilldelas till en aktivitet och den primära tilldelande har en schemalagd tid av, flyttas tidslinjen (om datumen inte är fasta) och de planerade timmarna för alla tilldelningar fördelas över aktivitetens nya varaktighet. Om aktiviteten har fasta datum ändras inte tidslinjen på grund av ledig tid, och timmarna fördelas om mellan de återstående dagarna.</span>
+   * <span class="preview">Om allokeringar görs manuellt, kommer de planerade timmarna inte att allokeras om efter tidpunkten för avtilldelningen.</span>
 
 * Om det finns flera användare tilldelade till uppgiften, fördelas antalet planerade timmar jämnt till varje användare först, sedan jämnt till varje dag under uppgiftens varaktighet. Distributionen blir den allokering som varje användare tilldelas till uppgiften.
 
