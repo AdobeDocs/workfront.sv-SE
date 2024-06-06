@@ -4,9 +4,9 @@ description: När du visar en lista över organisationens anpassade formulär oc
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    Mer information om vad du kan göra när du markerar ett objekt i listan finns i följande artiklar:
 
-   * [Redigera egenskaper för ett anpassat fält, avsnittsbrytning eller widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [Lägga till eller redigera ett anpassat fält, en avsnittsbrytning eller en widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Konfigurera delning för anpassade fält och widgetar](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Ta bort ett anpassat fält eller en anpassad widget från systemet](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 

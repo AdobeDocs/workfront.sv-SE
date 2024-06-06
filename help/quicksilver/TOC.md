@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
 workflow-type: tm+mt
 source-wordcount: '14329'
 ht-degree: 0%
@@ -624,7 +624,7 @@ ht-degree: 0%
             * [Visa rapporter som använder anpassade fält eller widgetar](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [Visa anpassade formulär som använder anpassade fält eller widgetar](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [Överför anpassade formulärdata vid konvertering av ett objekt](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [Redigera egenskaper för ett anpassat fält, en avsnittsbrytning eller en widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [Lägga till eller redigera ett anpassat fält, en avsnittsbrytning eller en widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [Ta bort ett anpassat fält eller en anpassad widget från systemet](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [Ta bort ett anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [RTF-fältslagring i API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
