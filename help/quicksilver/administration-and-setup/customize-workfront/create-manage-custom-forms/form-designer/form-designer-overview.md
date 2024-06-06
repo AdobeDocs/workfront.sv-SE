@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Den nya formulärdesignern har en ny arbetsyteliknande arbetsyta som gör att du
 
 ![Exempelformulärdesigner](assets/form-designer-example.png)
 
-## Hur man kommer åt den nya formulärdesignern
+## Hur man får åtkomst till formulärdesignern
 
-Det finns en ny knapp längst upp i både den nya formulärdesignern och den äldre formulärbyggaren. Du kan använda den här knappen för att växla mellan det äldre verktyget och det nya designverktyget.
+En knapp högst upp i både den nya formulärdesignern och den äldre formulärbyggaren gör att du kan växla mellan versionerna.
 
 ![Växla till ny formulärdesigner](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ Med den nya formulärdesignern har vi lagt till möjligheten att:
   >
   >Standardavsnittet visas inte i objekt när formuläret har kopplats till objektet.
 
+* **Använda ett externt sökfält**: Den här fälttypen anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält.
+
 ## Funktioner som tagits bort från formulärdesignern
 
 Vi har tagit bort följande funktioner inifrån formulärdesignern:
 
-* Formulärinställningar, Formulärdelning, Flikar för fältdelning
-
-   * Formulärinställningarna är nu tillgängliga längst upp på arbetsytan
-
-   * Huvudfliken Formulärdelning och underfliken Fältdelning
-
-  >[!NOTE]
-  >
-  >Du kan styra formulär- och fältdelning via Konfigurera > Anpassad Forms > Forms eller Fält.
+* Formulärinställningarna är nu tillgängliga längst upp på arbetsytan
 
 * Spåra fältändringar i uppdateringsflöden
 
   >[!NOTE]
   >
-  >Du hittar detta i Inställningar > Gränssnitt > Uppdatera feeds
+  >Du hittar det här alternativet i Inställningar > Gränssnitt > Uppdatera feeds
 
