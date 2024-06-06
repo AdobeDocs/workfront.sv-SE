@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -57,19 +57,19 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Microsoft Dynamics] 365, du måste ha en [!DNL Microsoft Dynamics 365] konto.
+Används [!DNL Microsoft Dynamics] 365 måste du ha en [!DNL Microsoft Dynamics 365] konto.
 
 ## Anslut Microsoft Dynamics 365 till Workfront Fusion
 
@@ -82,7 +82,7 @@ Du kan skapa en anslutning till [!DNL Microsoft Dynamics 365] direkt inifrån et
 
 >[!NOTE]
 >
->Vid registrering [!DNL Workfront Fusion] i [!DNL Microsoft Azure] portalen använder du följande omdirigerings-URI:
+>Vid registrering [!DNL Workfront Fusion] i [!DNL Microsoft Azure] använd följande omdirigerings-URI:
 >
 >* `https://app.workfrontfusion.com/oauth/cb/workfront-microsoft-dynamics2`
 
@@ -186,9 +186,13 @@ När du konfigurerar den här modulen visas följande fält.
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
    <td>Välj den typ av enhet som du vill att modulen ska skapa.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select Fields to Map]</td> 
+   <td>Markera de fält som du vill inkludera värden för när posten skapas. Vilka fält som är tillgängliga beror på enhetstypen.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Property fields]</td> 
-   <td>I dessa fält anger du det värde som du vill att arbetsposten ska ha för en viss egenskap. Vilka fält som är tillgängliga beror på enhetstypen.</td> 
+   <td> Det här är de fält som du markerade. Ange det värde som du vill att posten ska ha för en viss egenskap. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -213,7 +217,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Ange en sökväg som är relativ till <code>&lt;Instance URL>/api/data/v9.1/</code>.</p> </td> 
+   <td> <p>Ange en sökväg i förhållande till <code>&lt;Instance URL>/api/data/v9.1/</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
@@ -321,9 +325,13 @@ När du konfigurerar den här modulen visas följande fält.
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
    <td>Välj den typ av enhet som du vill att modulen ska uppdatera.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select Fields to Map]</td> 
+   <td>Markera de fält som du vill inkludera värden för när posten skapas. Vilka fält som är tillgängliga beror på enhetstypen.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Property fields]</td> 
-   <td>I dessa fält anger du det värde som du vill att arbetsposten ska ha för en viss egenskap. Vilka fält som är tillgängliga beror på enhetstypen.</td> 
+   <td>Det här är de fält som du markerade. Ange det värde som du vill att posten ska ha för en viss egenskap.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -334,7 +342,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 ### [!UICONTROL Search Records]
 
-Den här sökmodulen söker efter poster i ett objekt i [!DNL Microsoft Dynamics 365] som matchar den sökfråga du anger. Du kan mappa den här informationen i efterföljande moduler i scenariot.
+Sökmodulen söker efter poster i ett objekt i [!DNL Microsoft Dynamics 365] som matchar den sökfråga du anger. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
 När du konfigurerar den här modulen visas följande fält.
 
